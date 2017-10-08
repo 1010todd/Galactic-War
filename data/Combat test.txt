@@ -1,0 +1,11 @@
+mission "combat test"
+	invisible
+	landing
+	npc kill
+		personality staying heroic
+		system "Battle test"
+		government Ultaka
+		fleet
+			names "Ultaka Small"
+			variant
+				"Ultaka Conqueror" 1

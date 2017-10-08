@@ -1,0 +1,181 @@
+
+
+ship "DS-5548 D-Guardian"
+	sprite "ship/delsguardian"
+	attributes
+		category "Heavy Warship"
+		"cost" 150000000
+		"shields" 560000
+		"hull" 400000
+		"required crew" 160
+		"bunks" 550
+		"mass" 790
+		"drag" 25
+		"heat dissipation" .6
+		"fuel capacity" 1200
+		"cargo space" 250
+		"outfit space" 2380
+		"weapon capacity" 2540
+		"engine capacity" 190
+		"energy capacity" 12000
+		"energy generation" 1200
+		"shield generation" 11
+		"hull repair rate" 2
+		"ramscoop" 4
+		"cooling" 65
+		"hyperdrive" 1
+		"jump speed" 3
+		"jump drive" 1
+		"scan interference" 1
+		"radar jamming" 1
+		"sk4 capacity" 500
+		weapon
+			"blast radius" 200
+			"shield damage" 7000
+			"hull damage" 6000
+			"hit force" 3000
+	outfits
+		"G90-Z Blaster Turret" 12
+		"AG90-Z Gun Turret" 4
+		"SK4 Launcher" 6
+		"A9H-Z Anti-Missile" 8
+		"Deeraka Plasma Engines"
+		"SK4 Missile" 680
+	
+	turret 30 -170 "G90-Z Blaster Turret"
+	turret -28 -171 "G90-Z Blaster Turret"
+	turret 28 -153 "G90-Z Blaster Turret"
+	turret -28 -152 "G90-Z Blaster Turret"
+	turret 28 -123 "G90-Z Blaster Turret"
+	turret -27 -123 "G90-Z Blaster Turret"
+	turret 26 -96 "G90-Z Blaster Turret"
+	turret -28 -95 "G90-Z Blaster Turret"
+	turret 28 -67 "G90-Z Blaster Turret"
+	turret -27 -67 "G90-Z Blaster Turret"
+	turret 28 -37 "G90-Z Blaster Turret"
+	turret -27 -38 "G90-Z Blaster Turret"
+	engine -61 200
+	engine 55 201
+	turret -27 -246 "A9H-Z Anti-Missile"
+	turret 27 -248.5 "A9H-Z Anti-Missile"
+	turret -78.5 -159 "A9H-Z Anti-Missile"
+	turret 77.5 -160 "A9H-Z Anti-Missile"
+	turret -47.5 50.5 "A9H-Z Anti-Missile"
+	turret 46.5 51 "A9H-Z Anti-Missile"
+	turret 217 21 "A9H-Z Anti-Missile"
+	turret -219.5 18 "A9H-Z Anti-Missile"
+	gun 62 -172 "SK4 Launcher"
+	gun -64 -172 "SK4 Launcher"
+	gun -74 -167 "SK4 Launcher"
+	gun 74 -165 "SK4 Launcher"
+	gun -18 -278 "SK4 Launcher"
+	gun 22 -279 "SK4 Launcher"
+	turret 0 -160 "AG90-Z Gun Turret"
+	turret 0 -123 "AG90-Z Gun Turret"
+	turret 0 -83 "AG90-Z Gun Turret"
+	turret 0 -37 "AG90-Z Gun Turret"
+	fighter 111 -121
+	fighter -111 -121
+	fighter -106 -29
+	fighter 110 -33
+	fighter 111 -121
+	fighter -111 -121
+	fighter -106 -29
+	fighter 110 -33
+	fighter 111 -121
+	fighter -111 -121
+	fighter -106 -29
+	fighter 110 -33
+	fighter 227 -62
+	fighter -227 -57
+	fighter 227 -62
+	fighter -227 -57
+	fighter 227 -62
+	fighter -227 -57
+	fighter 227 -62
+	fighter -227 -57
+	explode "small explosion" 20
+	explode "big explosion" 5
+	explode "huge explosion" 3
+	"final explode" "final explosion large"
+	description "With help form the Wallagi a few of these ship has been built to defend the left territory."
+	
+outfit "A9H-Z Anti-Missile"
+	category "Turrets"
+	"cost" 1250000
+	thumbnail "outfit/unknown"
+	"mass" 60
+	"outfit space" -60
+	"weapon capacity" -60
+	"turret mounts" -1
+	weapon
+		"fire effect" "medium explosion"
+		"inaccuracy" .01
+		"velocity" 450
+		"lifetime" 1
+		"reload" 3.9
+		"firing energy" 50
+		"anti-missile" 25
+		
+outfit "G90-Z Blaster Turret"
+	category "Turrets"
+	cost 2000000
+	thumbnail "outfit/unknown"
+	"mass" 60
+	"outfit space" -60
+	"weapon capacity" -60
+	"turret mounts" -1
+	weapon
+		sprite "projectile/particle beam"
+		sound "proton"
+		"inaccuracy" 0.01
+		"velocity" 24
+		"lifetime" 25
+		"reload" 70
+		"firing energy" 50
+		"firing heat" 30
+		"shield damage" 1000
+		"hull damage" 1000
+		"piercing" .01
+	description "."
+	
+outfit "AG90-Z Gun Turret"
+	category "Turrets"
+	cost 2500000
+	thumbnail "outfit/unknown"
+	"mass" 160
+	"outfit space" -160
+	"weapon capacity" -160
+	"turret mounts" -1
+	weapon
+		sprite "projectile/proton"
+		sound "particle"
+		"inaccuracy" 0.01
+		"velocity" 25
+		"lifetime" 32
+		"reload" 100
+		"firing energy" 50
+		"firing heat" 30
+		"shield damage" 1500
+		"hull damage" 1500
+		"piercing" .01
+	description "."
+	
+		
+outfit "Deeraka Plasma Engines"
+	category "Engines"
+	"cost" 676000
+	thumbnail "outfit/huge plasma thruster"
+	"mass" 100
+	"outfit space" -100
+	"engine capacity" -100
+	"thrust" 100
+	"thrusting energy" 4.3
+	"thrusting heat" 20.6
+	"turn" 2450
+	"turning energy" 4
+	"turning heat" 19.7
+	"flare sprite" "effect/plasma flare/huge"
+		"frame rate" 8.5
+	"flare sound" "plasma huge"
+	description "."

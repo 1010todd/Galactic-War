@@ -1,0 +1,97 @@
+mission "Geeva first contact"
+	landing
+	source
+		government Geeva
+	destination "Trochzempt ZAZ-1"
+	npc accompany save
+		government Zis
+		personality escort heroic
+		fleet
+			names "Zis"
+			variant
+				"RZ-621-02 Razor"
+	name "Geeva and Zis Intro"
+	on offer
+		log "Factions" "Geeva" `Geeva look very similar to elves from fantasy movies except that they have a light green skin.`
+		conversation
+			`As you landed a swarm of light green-skinned humanoid aliens start to surround your ship.`
+			`You exited you ship then one of the alien approach you and say "Welcome back our savior, we're very happy to see you come back to us." You're very confused what happening, when did you save them, how could they speak your langauge, and who are they.`
+			choice
+				`	"Who are you? when did I save you?"`
+					goto a
+				`	"What's going on here who are you, how could you speak my langauge?"`
+					goto a
+				`	[Run back to the ship and take off]`
+					depart
+			label a
+			`	Suddenly an unknown grey-colored ship enter the atmosphere and landed next to you open it's door, you see a few hummanoid figure in grey armour walked out of the ship and some of them seems to be carrying a rifle too, then one of them shouts "You human there stop!" you look around then turn back and point at yourself "Me?" that person walks closer to you "Yea you, what are you doing here? We suppose that no human in the Milky Way have invented Jump Drive yet so how did you get here?"`
+			choice
+				`	"Err.. I'm just an explorer, I found a wormhole north of the Wanderer space and found this galaxy and I got my Jump Drive from the Syndicates, and so who are you?"`
+					goto what
+				`	[Run back to the ship and take off]`
+					goto run
+			label what
+			`	"So those human can make Jump Drive earlier than we thought" he mumble to him self "So you are one of the scout from the Syndicates?". 
+			`	"I'm not a scout sent by the Syndicate, and we can't make Jump Drive yet, we stole it from an alien." you replies, "And you didn't answer my question yet, who are you.".`
+			`	"Sorry for ignoring your question, you can call me Ral we are the forgotten humans or you can call us Zis human, we are here to bring you to our base so get back to your ship and prepare to launch." he replies, "Oh and also these aliens you see here are the Geeva we have been contacting them for a while now so most of them understand our langague." he adds then he turn around to talk to the Geeva and get into his ship ready to launch.`
+				log "Factions" "Geeva" `Geeva look similar elves from fantasy stories, except they have light green skin, they're kind and friendly, most of them can run faster than the fastest human runner and much longer as their stamina are like endless.`
+				accept
+			label run
+			`	You attempt to run back to your ship but before you can you got hit by some kind of electric shock and knockout, you wake up in a unfamilar room lying on a bed "You're up now?" said someone you get up and see a few people in the room "I'm sorry to do that to you, but we need to talk, so how could you get here, did human know how to make Jump Drive now?"
+			choice
+				`	"Err.. I'm just an explorer, I found a wormhole north of the Wanderer space and found this galaxy and I got my Jump Drive from the Syndicates, and so who are you?"`
+					goto what
+			
+	on enter "Trochzempt ZAZ-1"
+		dialog
+			`On entering the system the first thing you noice is there's a enormous space station ahead of you, it seem like the station is unfinished yet but aleady functional, Ral told you to follow his ship and park next to his ship and he will tell you what to do next.`
+				
+	on complete
+		conversation
+			`You follow him in to one of the countless spaceport and parked your ship next to him, Ral told you that you can visit the facilities in this port while he contact his comander but do not go any where out of this port.`
+			`[Visit the spaceport to continue]`
+				
+		
+mission "Zis first contact"
+	priority
+	name "Zis Intro"
+	destination "Trochzempt ZAZ-1"
+	to offer
+		has "Geeva first contact: done"
+	on offer
+		log "Factions" "Zis" `Zis is the name of a colony fleet long ago, they look like a normal human from outside but they physically far stronger and more intelligent than most human. Most of their architecture are slightly alien but still presevre the human style. Everyone here seem to have a standrad of carrying at least a sword and a gun.`
+		conversation
+			`You mobile communication device sudden ring you accept the call "Hello?", "Come to my ship explorer, my commander is here now."`
+			choice
+				`	"Wait wait wait Ral how could you call me? I didn't told you my number yet."`
+					goto call
+				`	"Ok, I will be right there."`
+					goto go
+			label call
+			`"It's really easy to hack into your device since you're the only one using it here, now come here."`
+			label go
+			`You ran back to his ship, "Come in." said Ral, you walked in to his ship you see a hologram of a female human, "Hello and welcome to Trochzempt station human from Milky Way, I'm Micho, we would like you to introduce your self and tell us a detailed information about the Milky Way at it's current state please.", You introduce yourself and thoroughly told them about the human space and its history you know. "Thank you for the information <first>, if you have any question about us ask now if not you're free to go." She smiles.`
+			choice
+				`	"Then I will go now, bye."`
+					decline
+				`	"I want to know more about the Zis"`
+					goto zis
+			label zis
+			`"Hmmm... I think you can call Zis a nation, a military nation, we have 3rd strongest military strenght in this galaxy, 1st Ultaka, 2nd Wallagi, we also building the largest space station in this galaxy, for our history we're once a fleet of ships wandering around the galaxy until we meet the Geeva then we decide to find where to settle and build our nation and result in an enormous space station hosting almost a trillion lives." She replies, "Anything else?"`
+			choice
+				`	"I want to know more about the people here."`
+					goto people
+				`	"Nothing else I want to know now, bye."`
+					decline
+			label people
+			`"All the people here are genetically modified giving us longer life span, physically stronger and more intelligent, unlike those Alpha we can reproduce without special machines..." she blush and paused, "Sorry, ok continue, but still some of us are born from machines usually slightly modified for certain purpose, and some of us are AI in a hummanoid shaped robot, so there is two race you will find here in this station are Modified Humans and Artificial Humans, as a note Artificial Humans are just the same as us they have their own feeling and personality so you're better becareful with them not to disdain them and just treat them as normal human, and as you see most of us are armed and trained because this nation is an army itself so even civillian here are soldier but still we give them freedom to participate in most operations, crime here are also extremly rare because everyone here is well educated and punishment are extremly terrible that I would rather not say it, but still even that we're soldier we still have alot of entertainment varies from game booth to a large scale battle field simulator as some people enjoy fighting. As for people who are more peaceful we also have other entertainment for them. Among the station you may also noitce some Wallagi and Geeva as we're planning to make this station a central hub of this galaxy when we get rid of the Ultaka.", "Anything else?"`
+			choice
+				`	"Nothing else I want to know now, bye."`
+					decline
+	on decline
+		conversation
+			`"See ya, goodluck and try not get eaten by space kraken!" Then she disconnect the communication, you asked Ral "What is a space kraken?"`
+			`"Its just a made-up creature used to scare new recuits but there's no such thing." He replies, then something inside his ship rang "Well, got to go now, see you later." you walk out of his ship as he begin to power up his ship and departs.`
+			
+
+			

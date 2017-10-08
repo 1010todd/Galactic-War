@@ -1,0 +1,361 @@
+#
+
+ship "Telsarator"
+	sprite "ship/telsarator"
+	attributes
+		category "Interceptor"
+		"cost" 84900000
+		"shields" 120000
+		"hull" 28000
+		"required crew" 1
+		"bunks" 3
+		"mass" 20
+		"drag" 1.4
+		"heat dissipation" .9
+		"fuel capacity" 400
+		"cargo space" 7
+		"outfit space" 426
+		"weapon capacity" 149
+		"engine capacity" 107
+		weapon
+			"blast radius" 200
+			"shield damage" 2200
+			"hull damage" 1100
+			"hit force" 300
+	outfits
+		"Wasen Shield Generator"
+		"C10-W Hinlar Core"
+		"Wallagi heat shunt"
+		"Kal-1 Engines"
+		"A10-M Sach Anti-missile" 2
+		"E10-B Klingar" 2
+	
+	engine -9 60
+	engine 9 60
+	gun -12.5 -45
+	gun 12.5 -45
+	turret 0 -3
+	turret 0 28
+	explode "tiny explosion" 60
+	explode "small explosion" 40
+	description "Telsarators are interceptor used by the Wallagi for patrolling, surveillance, scouting and escorting other warships."
+	
+ship "Dettalor"
+	sprite "ship/dettalor"
+	attributes
+		category "Medium Warship"
+		"cost" 100000000
+		"shields" 660000
+		"hull" 153000
+		"required crew" 10
+		"bunks" 30
+		"mass" 400
+		"drag" 5
+		"heat dissipation" .5
+		"fuel capacity" 500
+		"cargo space" 45
+		"outfit space" 630
+		"weapon capacity" 360
+		"engine capacity" 80
+		weapon
+			"blast radius" 500
+			"shield damage" 7000
+			"hull damage" 5000
+			"hit force" 2500
+	outfits
+		"Sestar Shield Generator"
+		"C60-W Falmin Core"
+		"Wallagi heat shunt"
+		"Kal-4 Engines"
+		"A80-H Jestar Anti-missile" 2
+		"T30-E Semfal Torpedo" 2
+		"P50-B Lemtar Turret" 3
+	
+	fighter 31.5 -99.5 under
+	engine -23.5 184
+	engine 21.5 183.5 
+	gun -31.5 -162 "T30-E Semfal Torpedo"
+	gun 20.5 -40.5 "T30-E Semfal Torpedo"
+	turret -8.5 -71.5 "A80-H Anti-missile"
+	turret 32.5 2 "A80-H Anti-missile"
+	engine 2 185.5
+	turret -15.5 -79.5 "P50-B Lemtar Turret"
+	turret -1.5 -23.5 "P50-B Lemtar Turret"
+	turret 12 -7 "P50-B Lemtar Turret"
+	explode "tiny explosion" 12
+	explode "small explosion" 16
+	explode "medium explosion" 30
+	explode "big explosion" 40
+	explode "huge explosion" 20
+	description "Dettalors are a recent medium warship design to replace their light warships, Dettalors are extremely fast that they can even chase fighters easily without much effort, they seem to have less weapon than most Ultaka ships but their Lemtar turrets can both track fast fighters and tear down strong ships which is the reason they're no need for specific anti-fighter turrets."
+	
+ship "Tansa"
+	sprite "ship/tansa"
+	attributes
+		category "Fighter"
+		"cost" 8900000
+		"shields" 70000
+		"hull" 20000
+		"required crew" 1
+		"bunks" 1
+		"mass" 16
+		"drag" 1
+		"heat dissipation" 2
+		"outfit space" 100
+		"weapon capacity" 45
+		"engine capacity" 20
+		"self destruct" .01
+		weapon
+			"blast radius" 2
+			"shield damage" 22
+			"hull damage" 11
+			"hit force" 3
+	outfits
+		"Wasen Shield Generator"
+		"C10-W Hinlar Core"
+		"Wallagi heat shunt"
+		"Kal-1 Engines"
+		"A10-M Sach Anti-missile" 1
+		"E10-B Klingar" 2
+	
+	gun -5 -28.5
+	gun 5 -28.5
+	turret -0.5 8.5
+	engine -6.5 35
+	engine 6.5 35
+	explode "tiny explosion" 20
+	explode "small explosion" 5
+	description "
+	
+ship "Sentasor"
+	sprite "ship/sentasor"
+	attributes
+		category "Heavy Warship"
+		"cost" 270000000
+		"shields" 780000
+		"hull" 236000
+		"required crew" 40
+		"bunks" 320
+		"mass" 800
+		"drag" 11
+		"heat dissipation" .4
+		"fuel capacity" 700
+		"cargo space" 230
+		"outfit space" 1370
+		"weapon capacity" 690
+		"engine capacity" 180
+		weapon
+			"blast radius" 1500
+			"shield damage" 7000
+			"hull damage" 5000
+			"hit force" 2500
+	outfits
+		"Tensel Shield Generator"
+		"C60-W Falmin Core"
+		"Wallagi heat shunt"
+		"Kal-10 Engines"
+		"A80-H Jestar Anti-missile" 6
+		"T30-E Semfal Torpedo" 5
+		"P50-B Lemtar Turret" 9
+	
+	fighter -90 -131 under
+	fighter -90 -62.5 under
+	fighter -91.5 -3 under
+	fighter -90.5 46.5 under
+	engine -68.5 298.5
+	engine 70 297.5
+	engine 5.5 299
+	turret -17 -142.5 "A80-H Anti-missile"
+	turret -17.5 -108 "A80-H Anti-missile"
+	turret -16.5 -69.5 "A80-H Anti-missile"
+	turret -16.5 14 "A80-H Anti-missile"
+	turret 2 93 "A80-H Anti-missile"
+	turret 69 -7 "A80-H Anti-missile"
+	gun 68 -252.5 "T30-E Semfal Torpedo"
+	gun 77.5 -231 "T30-E Semfal Torpedo"
+	gun 90 -201 "T30-E Semfal Torpedo"
+	gun 59.5 -37 "T30-E Semfal Torpedo"
+	gun 70 -23.5 "T30-E Semfal Torpedo"
+	turret 13 -139.5 "P50-B Lemtar Turret"
+	turret 13 -103.5 "P50-B Lemtar Turret"
+	turret 11.5 -59 "P50-B Lemtar Turret"
+	turret 20.5 -6.5 "P50-B Lemtar Turret"
+	turret 49 36 "P50-B Lemtar Turret" 
+	turret 77 55 "P50-B Lemtar Turret"
+	turret 71.5 112.5 "P50-B Lemtar Turret"
+	turret 27.5 113.5"P50-B Lemtar Turret"
+	turret 23.5 57.5 "P50-B Lemtar Turret"
+	explode "tiny explosion" 22
+	explode "small explosion" 26
+	explode "medium explosion" 50
+	explode "big explosion" 60
+	explode "huge explosion" 40
+	description ""
+	
+ship "Mecohni"
+	sprite "ship/mecohni"
+	attributes
+		category "Heavy Warship"
+		"cost" 12000000000
+		"shields" 28200000
+		"hull" 6890000
+		"hull repair rate" 68
+		"required crew" 1200
+		"bunks" 4200
+		"mass" 2480
+		"drag" 20
+		"heat dissipation" .4
+		"fuel capacity" 1000
+		"cargo space" 1000
+		"outfit space" 3900
+		"weapon capacity" 3380
+		"engine capacity" 300
+		weapon
+			"blast radius" 1500
+			"shield damage" 7000
+			"hull damage" 5000
+			"hit force" 2500
+	outfits
+		"S20-F Markla Turret" 16
+		"P50-B Marley Turret" 10
+		"T70-E Sesmal Torpedo" 6
+		"A88-G Kemper Missile Defense"
+		"A80-H Jestar Anti-missile" 6
+		
+		"Wallagi heat shunt" 2
+		"Kal-10 Engines" 2
+		"C80-W Mallar Core" 
+		"Malgos Shield Generator" 2
+		
+		
+	gun -409 -1851 "T70-E Sesmal Torpedo"
+	gun -410 -1710 "T70-E Sesmal Torpedo"
+	gun -127 -1846 "T70-E Sesmal Torpedo"
+	gun -131 -1707 "T70-E Sesmal Torpedo"
+	gun 327 -1817 "T70-E Sesmal Torpedo"
+	gun 413 -1668 "T70-E Sesmal Torpedo"
+	#AM
+	turret -436 -1191 "A80-H Jestar Anti-missile"
+	turret -169 -1229 "A80-H Jestar Anti-missile"
+	turret -263 -62 "A80-H Jestar Anti-missile"
+	turret 84 322 "A80-H Jestar Anti-missile"
+	turret -262 1250 "A80-H Jestar Anti-missile"
+	turret -264 987 "A80-H Jestar Anti-missile"
+	turret -264 1126 "A88-G Kemper Missile Defense"
+	#Main
+	turret -29 -1069 "P50-B Marley Turret"
+	turret -19 -918 "P50-B Marley Turret"
+	turret -7 -801 "P50-B Marley Turret"
+	turret 2 -658 "P50-B Marley Turret"
+	turret -16 1242 "P50-B Marley Turret"
+	turret 105 1542 "P50-B Marley Turret"
+	turret -99 1546 "P50-B Marley Turret"
+	turret -278 1550 "P50-B Marley Turret"
+	turret -373 537 "P50-B Marley Turret"
+	turret -371 722 "P50-B Marley Turret"
+	#AF
+	turret 198 -113 "S20-F Markla Turret"
+	turret 198 -33 "S20-F Markla Turret"
+	turret 199 45 "S20-F Markla Turret"
+	turret 201 105 "S20-F Markla Turret"
+	turret 200 201 "S20-F Markla Turret"
+	turret -286 150 "S20-F Markla Turret"
+	turret -292 56 "S20-F Markla Turret"
+	turret -463 1036 "S20-F Markla Turret"
+	turret -464 1185 "S20-F Markla Turret" 
+	turret 158 523 "S20-F Markla Turret"
+	turret 160 653 "S20-F Markla Turret"
+	turret 164 818 "S20-F Markla Turret"
+	turret 83 736 "S20-F Markla Turret"
+	turret 83 534 "S20-F Markla Turret"
+	turret -238 518 "S20-F Markla Turret"
+	turret -238 703 "S20-F Markla Turret"
+	#Fighters/Drones
+	drone 432 -1430
+	drone 432 -1230
+	drone 432 -1030
+	drone 432 -830
+	drone 432 -630
+	drone 432 -430
+	drone 432 -230
+	drone 432 -30
+	drone 432 230
+	drone 432 430
+	drone 432 -1430
+	drone 432 -1230
+	drone 432 -1030
+	drone 432 -830
+	drone 432 -630
+	drone 432 -430
+	drone 432 -230
+	drone 432 -30
+	drone 432 230
+	drone 432 430
+	drone 432 -1430
+	drone 432 -1230
+	drone 432 -1030
+	drone 432 -830
+	drone 432 -630
+	drone 432 -430
+	drone 432 -230
+	drone 432 -30
+	drone 432 230
+	drone 432 430
+	fighter 355 -1430
+	fighter 355 -1230
+	fighter 355 -1030
+	fighter 355 -830
+	fighter 355 -630
+	fighter 355 -430
+	fighter 355 -230
+	fighter 355 -30
+	fighter 355 -230
+	fighter 355 -430
+	fighter 355 -1430
+	fighter 355 -1230
+	fighter 355 -1030
+	fighter 355 -830
+	fighter 355 -630
+	fighter 355 -430
+	fighter 355 -230
+	fighter 355 -30
+	fighter 355 -230
+	fighter 355 -430
+	fighter 355 -1430
+	fighter 355 -1230
+	fighter 355 -1030
+	fighter 355 -830
+	fighter 355 -630
+	fighter 355 -430
+	fighter 355 -230
+	fighter 355 -30
+	fighter 355 -230
+	fighter 355 -430
+	engine -400 1953
+	engine -380 1953
+	engine -360 1953
+	engine -340 1953
+	engine -320 1953
+	engine -300 1953
+	engine -280 1953
+	engine -260 1953
+	engine -240 1953
+	engine -220 1953
+	engine -200 1953
+	engine -180 1953
+	engine -160 1953
+	engine -140 1953
+	engine -120 1953
+	engine -100 1953
+	engine -80 1953
+	engine -60 1953
+	engine -40 1953
+	engine -20 1953
+	engine 0 1953
+	engine 20 1953
+	explode "medium explosion" 50
+	explode "big explosion" 60
+	explode "huge explosion" 60
+	explode "nuke explosion" 80
+	"final explode" "final explosion nuke" 5
+	description ""

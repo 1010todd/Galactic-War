@@ -1,0 +1,123 @@
+#
+
+outfit "B60 Core"
+	category "Power"
+	cost 1000000000
+	thumbnail "outfit/unknown"
+	"mass" 150
+	"outfit space" -150
+	"energy generation" 95000
+	
+outfit "B20 Core"
+	category "Power"
+	cost 1000000
+	thumbnail "outfit/unknown"
+	mass 15
+	"outfit space" -10
+	"energy generation" 1650
+	
+outfit "B10 Core"
+	category "Power"
+	cost 1000000
+	thumbnail "outfit/unknown"
+	mass 10
+	"outfit space" -5
+	"energy generation" 950
+	
+outfit "USG200 Shield Generator"
+	category "Systems"
+	cost 1200000
+	thumbnail "outfit/unknown"
+	"mass" 210
+	"outfit space" -210
+	"shield generation" 86
+	"shield energy" 20
+	
+outfit "USG150 Shield Generator"
+	category "Systems"
+	cost 600000
+	thumbnail "outfit/unknown"
+	"mass" 151
+	"outfit space" -151
+	"shield generation" 40
+	"shield energy" 10
+	
+outfit "USG100 Shield Generator"
+	category "Systems"
+	cost 300000
+	thumbnail "outfit/unknown"
+	"mass" 100
+	"outfit space" -100
+	"shield generation" 25
+	"shield energy" 5
+	
+outfit "USG50 Shield Generator"
+	category "Systems"
+	cost 150000
+	thumbnail "outfit/unknown"
+	"mass" 54
+	"outfit space" -50
+	"shield generation" 10
+	"shield energy" 2.5
+	
+outfit "Hyper Engines"
+	category "Engines"
+	"cost" 350000
+	thumbnail "outfit/unknown"
+	"mass" 40
+	"outfit space" -40
+	"engine capacity" -40
+	"thrust" 95
+	"thrusting energy" 30
+	"thrusting heat" 25
+	"turn" 1400
+	"turning energy" 20
+	"turning heat" 15
+	"hyperdrive" 1
+	"jump drive" 1
+	"jump speed" 10
+	"flare sprite" "effect/ultaka flare/huge"
+	
+outfit "M-Hyper Engines"
+	category "Engines"
+	"cost" 35000
+	thumbnail "outfit/unknown"
+	"mass" 20
+	"outfit space" -20
+	"engine capacity" -20
+	"thrust" 80
+	"thrusting energy" 20
+	"thrusting heat" 20
+	"turn" 1060
+	"turning energy" 10
+	"turning heat" 10
+	"hyperdrive" 1
+	"jump drive" 1
+	"jump speed" 10
+	"flare sprite" "effect/ultaka flare/small"
+	
+outfit "Ultaka Heat Shunt"
+	category "Systems"
+	cost 6000000
+	thumbnail "outfit/unknown"
+	mass 20
+	"outfit space" -20
+	"cooling" 150
+	
+outfit "Model-3A Rifle"
+	category "Hand to Hand"
+	cost 230000
+	thumbnail "outfit/model3a"
+	"capture attack" 8
+	"capture defense" 9.8
+	"unplunderable" 1
+	
+outfit "Ultaka IDS"
+	category "Hand to Hand"
+	cost 1280000
+	thumbnail "outfit/small sheild"
+	mass 1
+	"outfit space" -1
+	"capture defense" 200
+	"unplunderable" 1
+	description "Ultaka's Interior Defense System."

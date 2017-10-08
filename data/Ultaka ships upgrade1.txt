@@ -1,0 +1,53 @@
+
+ship "Ultaka Dominator" "Dominator UP1"
+	sprite "ship/ultaka dominator"
+	attributes
+		category "Light Warship"
+		"cost" 59000000
+		"shields" 246000
+		"hull" 136700
+		"hull repair" 17
+		"required crew" 280
+		"bunks" 600
+		"mass" 370
+		"drag" 10.3
+		"heat dissipation" .8
+		"fuel capacity" 600
+		"cargo space" 500
+		"outfit space" 620
+		"weapon capacity" 380
+		"engine capacity" 120
+		"energy generation" 800
+		weapon
+			"blast radius" 250
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 1500
+	outfits
+		"USG150 Shield Generator"
+		"B60 Core"
+		"Ultaka heat destroyer"
+		"Hyper Engines"
+		"U30-A anti missile" 4
+		"M20G Gun" 4
+		"Ultaka Antimatter Cannon UP1"
+	
+	turret -4 -81 "M20G Gun"
+	turret -4.5 -60 "M20G Gun"
+	turret -4.5 -26 "M20G Gun"
+	turret -4.5 -4 "M20G Gun"
+	gun -4.5 -109.5 "Ultaka Antimatter Cannon"
+	turret -17.5 12 "U30-A anti missile"
+	turret 7 11 "U30-A anti missile"
+	turret 16.5 11.5 "U30-A anti missile"
+	turret -30.5 10.5 "U30-A anti missile"
+	fighter -30 87
+	fighter 24 87
+	engine 16 117
+	engine -21.5 117
+	explode "tiny explosion" 12
+	explode "small explosion" 16
+	explode "medium explosion" 30
+	explode "big explosion" 40
+	explode "huge explosion" 20
+	description "Ultaka's warship"

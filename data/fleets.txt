@@ -1,0 +1,1033 @@
+
+fleet "Recon Ultaka"
+	government "Ultaka"
+	names "Ultaka Small"
+	cargo 1
+	personality
+		plunders opportunistic
+	variant 8
+		"Ultaka Hunter"
+	variant 4
+		"Ultaka Hunter" 3
+	variant 2
+		"Ultaka Dominator"
+		"Ultaka Hunter"
+		
+fleet "Ultaka Traps"
+	government "Ultaka"
+	cargo 0
+	personality
+		waiting heroic skybound mute staying
+	variant 60
+		"Ultaka Trapper"
+	variant 30
+		"Ultaka Trapper" 3
+	variant 1
+		"Ultaka Trapper" 8
+		
+fleet "Resmakia Mines"
+	government "Resmakia"
+	cargo 0
+	personality
+		waiting heroic skybound mute staying
+	variant 60
+		"Metal Astroid" 5
+	variant 30
+		"Metal Astroid" 6
+	variant 1
+		"Metal Astroid" 8
+		
+fleet "Ultaka small"
+	government "Ultaka"
+	names "Ultaka Small"
+	cargo 3
+	personality
+		opportunistic
+	variant 8
+		"Ultaka Hunter" 3
+	variant 2
+		"Ultaka Dominator"
+	variant 1
+		"Ultaka Dominator"
+		"Ultaka Hunter" 2
+		
+fleet "Ultaka Patrol"
+	government "Ultaka"
+	names "Ultaka Small"
+	cargo 1
+	personality
+		heroic opportunistic
+	variant 8
+		"Ultaka Hunter" 3
+	variant 2
+		"Ultaka Dominator"
+	variant 1
+		"Ultaka Dominator"
+		"Ultaka Hunter" 2
+		
+fleet "Ultaka big"
+	government "Ultaka"
+	names "Ultaka Big"
+	fighters "Ultaka Fighter"
+	cargo 5
+	personality
+		heroic opportunistic
+	variant 50
+		"Ultaka Summoner"
+		"Ultaka Termite" 10
+		"Ultaka Hunter" 2
+	variant 50
+		"Ultaka Dominator" 4
+	variant 30
+		"Ultaka Dominator" 4
+		"Ultaka Hunter" 2
+	variant 10
+		"Ultaka Dominator" 2
+		"Ultaka Conqueror"
+	variant 10
+		"Ultaka Conqueror"
+		"Ultaka Dominator" 2
+		"Ultaka Summoner"
+		"Ultaka Termite" 10
+		"Ultaka Hunter" 4
+	variant 5
+		"Ultaka Ultaka Reaper"
+		"Ultaka Termite" 10
+	variant 3
+		"Ultaka Ultaka Reaper"
+		"Ultaka Hunter" 5
+		"Ultaka Termite" 10
+	variant 2
+		"Ultaka Ultaka Reaper"
+		"Ultaka Dominator" 3
+		"Ultaka Termite" 12
+	variant 1
+		"Ultaka Ultaka Reaper"
+		"Ultaka Conqueror" 1
+		"Ultaka Termite" 14
+		
+fleet "Ultaka mega"
+	government "Ultaka(Mega)"
+	names "Ultaka Small"
+	cargo 3
+	personality
+		heroic opportunistic
+	variant 8
+		"Ultaka Shadow Strike"
+	variant 2
+		"Ultaka Necromancer"
+		"Ultaka Shadow Strike" 2
+		
+fleet "Dels guard"
+	government "Dels"
+	names "Dels Guard"
+	fighters "Dels Fighter"
+	cargo 1
+	personality
+		confusion 10
+		heroic opportunistic
+	variant 4
+		"MF-10B Dee" 10
+		"MF-10A Dea" 10
+		"TR-60A Darca"
+	variant 2
+		"MF-10B Dee" 10
+		"MF-10A Dea" 12
+		"TR-60A Darca"
+		"SD-90P Decso"
+	variant 2
+		"MF-10B Dee" 10
+		"MF-10A Dea" 12
+		"TR-60A Darca"
+		"SD-90P Decso"
+		"LW80S Deeris" 5
+	variant 2
+		"MF-10B Dee" 10
+		"MF-10A Dea" 20
+		"TR-60C Darca"
+		"SD-90P Decso"
+	variant 1
+		"MF-10B Dee" 10
+		"MF-10A Dea" 15
+		"TR-60A Darca"
+		"SD-90P Decso" 2
+	variant 1
+		"DS-5548 D-Guardian"
+		"MF-10B Dee" 10
+		"MF-10A Dea" 10
+	variant 4
+		"Dacar heavy"
+		"MF-10B Dee" 3
+		"MF-10A Dea" 3
+	variant 5
+		"CV50B Dacar"
+		"MF-10B Dee" 3
+		"MF-10A Dea" 3
+	variant 10
+		"LW10D Secsen" 3
+	variant 10
+		"LW20H Senro" 3
+	variant 10
+		"LW80S Deeris" 3
+		
+fleet "Dels merchant"
+	government "Dels"
+	names "Dels civillian"
+	cargo 1
+	personality
+		confusion 30
+		timid appeasing
+	variant 80
+		"TS-60P Sendo"
+	variant 80
+		"LF-40C Desen"
+	variant 60
+		"LF-60C Donson"
+	variant 60
+		"LF-40C Desen"
+		"IC40E Desin"
+	variant 60
+		"TS-60P Sendo"
+		"IC40E Desin"
+	variant 55
+		"LF-40C Desen"
+		"TS-60P Sendo"
+		"IC40E Desin"
+	variant 55
+		"TS-60P Sendo" 2
+		"IC40E Desin"
+	variant 55
+		"LF-40C Desen" 2
+		"IC40E Desin"
+	variant 40
+		"LF-60C Donson" 2
+		"IC40E Desin" 2
+	variant 10
+		"LF-60C Donson" 5
+		"SD-90P Decso"
+	variant 40
+		"LF-40C Desen" 2
+		"TS-60P Sendo" 2
+		"IC40E Desin"
+	variant 10
+		"TS-60P Sendo" 4
+	variant 10
+		"LF-40C Desen" 4
+	variant 2
+		"TS-60P Sendo" 10
+		"SD-90P Decso"
+		"MF-10A Dea" 2
+	variant 2 
+		"LF-40C Desen" 5
+		"SD-90P Decso"
+		"MF-10A Dea" 2
+	variant 1
+		"TS-60P Sendo" 10
+		"LF-40C Desen" 10
+		"SD-90P Decso"
+		"MF-10A Dea" 2
+	variant 1
+		"TS-60P Sendo" 10
+		"LF-40C Desen" 10
+		"Dacar heavy"
+		"MF-10A Dea" 5
+	variant 1
+		"TS-60P Sendo" 10
+		"LF-40C Desen" 10
+		"LW20H Senro" 3
+	variant 30
+		"LW20H Senro" 2
+		"LF-60C Donson" 4
+	variant 40
+		"CV50B Dacar" 
+		"MF-10A Dea" 5
+	variant 40
+		"CV50B Dacar" 
+		"LF-60C Donson" 12
+		"LW20H Senro" 3
+		"MF-10A Dea" 3
+	variant 20
+		"LW10D Secsen" 3
+		"LF-60C Donson" 6
+		"TS-60P Sendo" 4
+	variant 1
+		"SD-90P Decso"
+		"Rova"
+		"TS-60P Sendo" 11
+		"LF-40C Desen" 12
+		"LF-60C Donson" 6
+		"Dacar heavy" 3
+		"MF-10A Dea" 8
+		"LW20H Senro" 3
+		"IC50A Derso" 5
+	variant 1
+		"Derso Ul-weapon"
+		"LF-40C Desen" 2
+		"TS-60P Sendo" 2
+	variant 1
+		"Derso Ul-weapon"
+		"LF-60C Donson" 5
+	variant 20
+		"LW80S Deeris" 3
+		"LF-60C Donson" 6
+		
+fleet "Dels miner"
+	government "Dels"
+	names "Dels civillian"
+	cargo 0
+	personality
+		confusion 20
+		timid frugal mining harvests
+	variant 80
+		"IC40E Desin"
+	variant 60
+		"IC40E Desin" 2
+	variant 20
+		"IC40E Desin" 4
+	variant 50
+		"LW20H Senro" 3
+	variant 70
+		"IC50A Derso"
+	variant 20
+		"LW20H Senro"
+	variant 30
+		"Desin Miner"
+		
+fleet "Dels military miner"
+	government "Dels"
+	names "Dels guard"
+	cargo 0
+	personality
+		confusion 10
+		frugal mining harvests
+	variant 20
+		"LW80S Deeris" 3
+	variant 50
+		"LW20H Senro" 3
+		
+fleet "Dels pirate"
+	government "Dels (Pirate)"
+	names "Dels civillian"
+	cargo 2
+	personality
+		confusion 30
+		plunders harvests
+	variant 80 
+		"IC40E Desin"
+	variant 60
+		"IC40E Desin" 2
+	variant 20
+		"IC40E Desin" 4
+	variant 5
+		"Dacar heavy"
+	variant 1
+		"Dacar heavy"
+		"IC50A Derso" 3
+	variant 20
+		"LW20H Senro"
+	variant 10
+		"LW20H Senro" 3
+	variant 10
+		"LW10D Secsen" 3
+	variant 50
+		"IC50A Derso" 5
+	variant 70
+		"IC50A Derso"
+	variant 60
+		"IC50A Derso" 3
+	variant 2
+		"CV50B Dacar"
+		"MF-10A Dea" 4
+	variant 1
+		"Dacar heavy"
+		"MF-10A Dea" 5
+		
+		
+fleet "Revos small"
+	government "Revos"
+	names "Revos small"
+	cargo 1
+	personality
+		heroic 
+		disables 
+		forbearing
+		opportunistic
+	variant 10
+		"Homan"
+	variant 10
+		"Rova"
+	variant 5
+		"Homan"
+		"Rova"
+	variant 5
+		"Homan" 2
+	variant 5
+		"Rova" 2
+	variant 3
+		"Mokla"
+	variant 1
+		"Mokla"
+		"Homan" 2
+	variant 1
+		"Mokla"
+		"Rova" 3
+	variant 3
+		"Cosma"
+	variant 1
+		"Cosma"
+		"Rova" 2
+	variant 1
+		"Cosma transport"
+		"Rova" 2
+		
+
+fleet "Donko Guard Big"
+	government "Donko"
+	names "Donko Guard"
+	fighters "Donko Fighter"
+	cargo 1
+	personality
+		confusion 10
+		heroic opportunistic
+	variant 10
+		"Sao"
+		"Kolso" 16
+		"Matka" 8
+	variant 12
+		"Koi" 3
+		"Kolso" 16
+	variant 5
+		"Sao"
+		"Kolso" 20
+		"Matka" 8
+		"Koi"
+		"Kanse" 3
+	variant 5
+		"Senka" 2
+		"Sao"
+		"Kolso" 16
+		"Matka" 8
+		
+fleet "Donko Guard Small"
+	government "Donko"
+	names "Donko Guard"
+	fighters "Donko Fighter"
+	cargo 1
+	personality
+		confusion 20
+		heroic opportunistic
+	variant 10
+		"Koi"
+		"Kolso" 6
+	variant 20
+		"Kanse" 3
+	variant 5
+		"Kanse" 3
+		"Koi"
+		"Kolso" 6
+	variant 1
+		"Senka"
+		
+fleet "Wallagi Patrol"
+	government "Wallagi"
+	names "Wallagi small"
+	personality
+		heroic opportunistic
+	variant 10
+		"Telsarator" 3
+	variant 8
+		"Dettalor"
+	variant 5
+		"Dettalor"
+		"Telsarator"
+	variant 1
+		"Dettalor" 2
+		
+fleet "Wallagi Small"
+	government "Wallagi"
+	names "Wallagi small"
+	personality
+		heroic opportunistic
+	variant 5
+		"Dettalor"
+		"Telsarator" 3
+	variant 1
+		"Dettalor" 2
+		
+fleet "Wallagi Big"
+	government "Wallagi"
+	names "Wallagi big"
+	personality
+		heroic opportunistic
+	variant 5
+		"Sentasor"
+		"Dettalor" 3
+		"Tansa" 6
+	variant 4
+		"Dettalor" 5
+		"Tansa" 4
+	variant 5
+		"Sentasor"
+		"Tansa" 3
+		
+fleet "Qanse Small"
+	government "Qanse"
+	names "Qanse Small"
+	personality
+		confusion 20
+		heroic opportunistic
+	variant 5
+		"Qargi"
+	variant 30
+		"Dantra"
+	variant 15
+		"Dantra" 2
+		
+fleet "Qoro (North)"
+	government "Qoro (North)"
+	names "Qoro(north)"
+	cargo 1
+	personality
+		confusion 10
+		heroic opportunistic
+		frugal 
+		plunders
+	variant 50
+		"Qoro(N) Manta" 5
+	variant 40
+		"Qoro(N) Masec"
+	variant 40
+		"Qoro(N) Manta" 4
+	variant 30
+		"Qoro(N) Masec"
+		"Qoro(N) Manta" 3
+	variant 30
+		"Qoro(N) Masec" 2
+		"Qoro(N) Manta" 3
+		
+fleet "Qoro (East)"
+	government "Qoro (East)"
+	names "Qoro(east)"
+	cargo 1
+	personality
+		confusion 10
+		heroic opportunistic
+		frugal 
+		plunders
+	variant 50
+		"Qoro(E) Goth" 5
+	variant 40
+		"Qoro(E) Goth" 2
+		"Qoro(E) Golosta"
+	variant 40
+		"Qoro(E) Golosta" 2
+	variant 30
+		"Qoro(E) Golosta" 3
+		"Qoro(E) Goth" 4
+		
+fleet "Small Pug T2"
+	government "Pug"
+	names "pug"
+	cargo 1
+	personality
+		heroic
+	variant 1
+		"Tier2 Zibruka"
+	variant 2
+		"Tier2 Zibruka" 2
+	variant 2
+		"Tier2 Enfolta"
+	variant 1
+		"Tier2 Enfolta"
+		"Tier2 Zibruka"
+
+fleet "Large Pug T2"
+	government "Pug"
+	names "pug"
+	cargo 1
+	personality
+		heroic
+	variant 1
+		"Tier2 Enfolta"
+		"Tier2 Zibruka" 2
+	variant 1
+		"Tier2 Enfolta" 2
+	variant 1
+		"Tier2 Zibruka" 5
+	variant 2
+		"Tier2 Maboro"
+		"Tier2 Zibruka" 2
+	variant 3
+		"Tier2 Maboro"
+		"Tier2 Enfolta"
+		"Tier2 Zibruka"
+	variant 2
+		"Tier2 Maboro"
+		"Tier2 Enfolta" 2
+	variant 1
+		"Tier2 Maboro"
+		"Tier2 Enfolta"
+		"Tier2 Zibruka" 2
+		
+fleet "Aumar Probe"
+	government "Aumar"
+	names "Aumar Probe"
+	cargo 0
+	personality
+		surveillance mute
+	variant 5
+		"Gy-2"
+		
+fleet "Kakaima Defense"
+	government "Kroom Kakaima"
+	names "Kakaima Defense"
+	cargo 1
+	personality
+		confusion 20
+		heroic
+		frugal 
+		opportunistic
+	variant 10
+		"Grokva"
+		"Giro" 4
+	variant 20
+		"Grakka"
+		"Giro" 3
+	variant 15
+		"Grakka" 2
+		"Giro" 6
+	variant 1
+		"Grokva" 2
+		"Grakka" 4
+		"Giro" 20
+		
+fleet "Kakaima Civillian"
+	government "Kroom Kakaima"
+	names "Kroom"
+	cargo 1
+	personality
+		confusion 30
+		frugal 
+	variant 20
+		"Gikaar" 3
+	variant 15
+		"Gikaar" 5
+		"Grakka" 1
+		"Giro" 2
+		
+fleet "Geeva Battle Fleet"
+	government "Geeva"
+	names "Geeva BF"
+	cargo 1
+	personality
+		confusion 20
+		heroic
+		frugal 
+		opportunistic
+	variant 15
+		"Kimali" 1
+		"Kinika" 3
+	variant 20
+		"Kimali" 1
+	variant 10
+		"Kimali" 2
+		"Kinika" 5
+		
+fleet "Geeva Civillian"
+	government "Geeva"
+	names "Geeva Civ"
+	cargo 1
+	personality
+		confusion 30
+		frugal 
+	variant 15
+		"Hailika"
+	variant 20
+		"Hailika" 3
+	variant 10
+		"Hailika" 5
+		"Kinika"
+	variant 1
+		"Hailika" 10
+		"Kinika" 2
+
+fleet "Kroom Kanai"
+	government "Kroom Kanai"
+	names "Kroom"
+	personality
+		confusion 25
+		frugal 
+		plunder
+	variant 20
+		"Kargorko" 25
+		"Kaargor"
+	variant 15
+		"Kargorko" 20
+		"Kaargor" 4
+	variant 10
+		"Kargorko" 26
+		"Kaargor" 3
+		"Grakka"
+	variant 5
+		"Kargorko" 28
+		"Kaargor" 5
+		"Grokva"
+	variant 1
+		"Kargorko" 32
+		"Kaargor" 6
+		"Grokva"
+		"Grakka" 2
+		
+fleet "Kager Military"
+	government "Kager Military"
+	names "Kager Military"
+	cargo 1
+	personality
+		confusion 20
+		heroic
+		frugal 
+		opportunistic
+	variant 5
+		"I'nos"
+		"Loerlen" 4
+	variant 10
+		"Loerlen" 2
+		"Gikeor" 3
+	variant 10
+		"I'nos"
+		"Gikeor" 4
+	variant 10
+		"Loerlen" 5
+	variant 5
+		"I'nos" 2
+	variant 15
+		"Gikeor" 5
+		
+fleet "Ignaggen"
+	government "Ignaggen"
+	names "Ignaggen"
+	cargo 1
+	personality
+		confusion 40
+		heroic
+		frugal 
+		timid appeasing
+	variant 20
+		"Kina"
+	variant 20
+		"Kina" 3
+	variant 20
+		"Kina"
+		"Gikeor" 2
+	variant 20
+		"Kina"
+		"Gikeor"
+	variant 20
+		"Kina" 10
+		"Gikeor" 5
+	variant 15
+		"Keorlen" 2
+		"Gikeor" 5
+		"Kina" 3
+	variant 20
+		"Keorlen" 3
+		"Gikeor" 2
+	variant 10
+		"Keorlen" 5
+		"Gikeor" 10
+	variant 30
+		"Keorlen" 1
+		"Gikeor" 2
+	variant 5
+		"Keorlen" 10
+		"Gikeor" 20
+	variant 20
+		"Gikeor" 3
+		
+fleet "Ignaggen Outlaw"
+	government "Ignaggen(Outlaw)"
+	names "Ignaggen"
+	cargo 1
+	personality
+		confusion 30
+		heroic 
+		plunders harvests
+	variant 20
+		"Gikeor" 5
+	variant 10
+		"Offensive Gikeor" 3
+		
+		
+fleet "Ignaggen Miner"
+	government "Ignaggen"
+	names "Ignaggen"
+	cargo 0
+	personality
+		confusion 10
+		frugal mining harvests
+	variant 20
+		"Gikeor" 3
+		
+fleet "Erm Raid Fleet" #Erm's expedition fleet to find the other race to help them fight the Ultaka
+	government "Erm"
+	names "Erm"
+	cargo 1
+	personality
+		heroic
+		frugal 
+		opportunistic
+	variant
+		"Roekler" 5
+		"Ernar" 12
+		"Hodanler" 8
+		"Eaken" 30
+		"Ernar Offensive" 5
+		"Hordanler Anti-Fighter" 5
+
+		
+fleet "Erm SDF Fleet"
+	government "Erm"
+	names "Erm"
+	cargo 1
+	personality
+		heroic
+		frugal 
+		opportunistic
+	variant 10
+		"Roekler" 
+		"Ernar" 2
+		"Hodanler"
+		"Eaken" 10
+	variant 12
+		"Roekler" 
+		"Ernar" 4
+		"Hodanler"
+		"Eaken" 5
+	variant 8
+		"Roekler" 2
+		"Ernar" 8
+		"Hodanler" 2
+		"Eaken" 5
+	variant 10
+		"Roekler" 2
+		"Ernar" 3
+		"Hodanler" 2
+		"Eaken" 5
+	variant 7
+		"Roekler" 3
+		"Ernar" 8
+		"Hodanler" 3
+		"Eaken" 5
+		
+		
+fleet "Erm CIV Fleet"
+	government "Erm"
+	names "Erm"
+	cargo 1
+	personality
+		timid
+		frugal
+		opportunistic
+	variant 10
+		"Eirae"
+	variant 10
+		"Eirae"
+		"Eaken"
+	variant 7
+		"Eirae" 5
+		"Eaken"2
+	variant 5
+		"Eirae" 10
+		"Eaken" 4
+	variant 10
+		"Eirae" 3
+		"Eaken" 2
+	variant 10
+		"Hidersan"
+	variant 9
+		"Hidersan"
+		"Eaken" 2
+	variant 8
+		"Hidersan"
+		"Eaken" 4
+	variant 6
+		"Hidersan"
+		"Hodanler"
+		"Ernar" 2
+	variant 8
+		"Hidersan"
+		"Ernar Offensive"
+	variant 3
+		"Roekler"
+		"Hidersan" 3
+		"Hodanler"
+		"Ernar" 2
+	variant 1
+		"Roekler" 2
+		"Hidersan" 5
+		"Hodanler" 4
+		"Ernar" 8
+		"Eaken" 15
+	variant 8
+		"Hidersan" 2
+		"Eaken" 10
+	variant 6
+		"Hidersan" 2
+		"Ernar Offensive" 2
+		"Ernar" 2
+	variant 10
+		"Hidersan"
+		"Ernar Offensive(S)"
+		"Ernar Offensive(A)"
+		
+fleet "Resmakia CIV Fleet"
+	government "Resmakia"
+	names "Resmakia"
+	cargo 1
+	personality
+		timid
+		frugal
+	variant 10
+		"Kajmaraj"
+		"Jortar" 2
+		"Termat" 4
+		"Tarrel" 2
+	variant 50
+		"Tarrel"
+	variant 40
+		"Tarrel" 3
+	variant 40
+		"Termat"
+	variant 30
+		"Kajmaraj" 2
+		"Termat" 5
+	variant 30
+		"Kajmaraj"
+		"Termat" 3
+	variant 40
+		"Jortar" 2
+		"Termat"
+	variant 40
+		"Jortar" 2
+		"Tarrel" 5
+	variant 40
+		"Jortar" 5
+		"Termat" 2
+		
+fleet "Resmakia SDF Fleet"
+	government "Resmakia"
+	names "Resmakia"
+	cargo 1
+	personality
+		heroic
+		frugal
+		opportunistic
+	variant 10
+		"Kajmaraj" 3
+		"Jortar" 5
+	variant 10
+		"Kajmaraj" 1
+		"Jortar" 3
+	variant 10
+		"Kajmaraj" 2
+		"Jortar" 7
+	variant 10
+		"Kajmaraj"
+		"Jortar" 2
+	variant 10
+		"Jortar" 4
+		
+fleet "Zis Heavy Patrol Fleet"
+	government "ZIS"
+	names "Zis"
+	fighters "Zis fighter"
+	cargo 1
+	personality
+		heroic
+		frugal
+		opportunistic
+	variant 1
+		"VK-35 Katen" 18
+		"RZ-621-02 Razor" 5
+		"SY-8662 Sysor" 3
+		"SG-60 Ginaz Patrol Drone" 16
+	variant 5
+		"VK-35 Katen" 9
+	variant 5
+		"VK-35 Katen" 6
+		"RZ-621-02 Razor" 1
+		"SG-60 Ginaz Patrol Drone" 2
+	variant 5
+		"RZ-621-02 Razor" 3
+		"SG-60 Ginaz Patrol Drone" 6
+	variant 3
+		"SY-8662 Sysor"
+		"VK-35 Katen" 6
+		"SG-60 Ginaz Patrol Drone" 2
+	variant 3
+		"SY-8662 Sysor" 
+		"RZ-621-02 Razor" 3
+		"SG-60 Ginaz Patrol Drone" 8
+	variant 1
+		"VK-35 Katen" 27
+		"RZ-621-02 Razor" 12
+		"SY-8662 Sysor" 5
+		"SG-60 Ginaz Patrol Drone" 34
+	variant 3
+		"DT-510 Quadlancer" 2
+		"SY-8662 Sysor"
+		"SG-60 Ginaz Patrol Drone" 2
+	variant 5
+		"DT-510 Quadlancer" 3
+	variant 4
+		"RZ-28 Forlan" 3
+		"DT-224 Trazar"
+	variant 5
+		"RZ-28 Forlan" 9
+	variant 5
+		"DT-224 Trazar" 3
+	variant 2
+		"SY-8662 Sysor"
+		"SG-60 Ginaz Patrol Drone" 2
+		"DT-224 Trazar" 3
+	variant 2
+		"SY-8662 Sysor"
+		"SG-60 Ginaz Patrol Drone" 2
+		"DT-224 Trazar" 6
+		"RZ-28 Forlan" 3
+	variant 2
+		"SY-8662 Sysor" 
+		"RZ-621-02 Razor" 3
+		"SG-60 Ginaz Patrol Drone" 8
+		"RZ-28 Forlan" 6
+	variant 2
+		"RZ-621-02 Razor" 3
+		"SG-60 Ginaz Patrol Drone" 6
+		"RZ-28 Forlan" 6
+	variant 2
+		"SY-8662 Sysor" 
+		"SG-60 Ginaz Patrol Drone" 2
+		"DT-510 Quadlancer" 3
+		"DT-224 Trazar" 6
+		
+		
+fleet "Zis Construction Fleet"
+	government "ZIS "
+	names "Zis"
+	fighters "Zis fighter"
+	cargo 1
+	personality
+		heroic
+		vindictive
+		frugal
+		opportunistic
+		mining harvests
+	variant 1
+		"Ginaz Builder" 3
+		
+fleet "point"
+	government "   "
+	personality
+		heroic
+	variant 1
+		"point" 5

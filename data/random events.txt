@@ -1,0 +1,174 @@
+mission "Ultaka Attack Dels"
+	name "Defend <planet>"
+	description "Defeat a Ultaka raid on <destination>."
+	minor
+	repeat
+	to offer
+		"combat rating" > 1200
+		random < 15
+	source
+		attributes Dels
+	npc evade
+		personality heroic staying
+		government Ultaka
+		fleet "Ultaka small"
+		fleet "Ultaka small"
+		fleet "Ultaka big"
+	npc
+		personality heroic staying
+		government Dels
+		fleet "Dels guard"
+		fleet "Dels guard"
+	npc
+		personality heroic staying
+		government Wallagi
+		fleet "Wallagi Big"
+	npc
+		personality heroic staying entering
+		government Wallagi
+		fleet "Wallagi Big"
+		fleet "Wallagi Patrol"
+	on offer
+		conversation
+			`Suddenly you hear raised voices and shouting outside: "We are under attack! <planet> is under attack by Ultaka! We need every combat-worthy ship to join in the defenses!" The authorities will probably pay you quite well if you assist them, but this could also be an easy way to get yourself killed.`
+			choice
+				"	(Stay here until the fight is over.)"
+					decline
+				"	(Join the defense fleet.)"
+			"A few Dels pilots and Wallagi pilots have gathered to help repel the attack. You join them, and take off together..."
+				launch
+	on complete
+		payment 300000
+		dialog "The government of <planet> pays you <payment> for helping to drive off the Ultaka."
+		
+mission "Qanse Attack Dels"
+	name "Defend <planet>"
+	description "Defeat a Qanse raid on <destination>."
+	minor
+	repeat
+	to offer
+		"combat rating" > 1000
+		random < 18
+	source
+		attributes Dels
+	npc evade
+		personality heroic staying
+		government Qanse
+		fleet "Qanse small"
+		fleet "Qanse small"
+		fleet "Qanse small"
+		fleet "Qanse small"
+		fleet "Qanse small"
+	npc
+		personality heroic staying
+		government Dels
+		fleet "Dels guard"
+		fleet "Dels guard"
+	npc
+		personality heroic staying
+		government Wallagi
+		fleet "Wallagi Big"
+	npc
+		personality heroic staying entering
+		government Wallagi
+		fleet "Wallagi Big"
+		fleet "Wallagi Patrol"
+	on offer
+		conversation
+			`Suddenly you hear raised voices and shouting outside: "We are under attack! <planet> is under attack by Qanse! We need every combat-worthy ship to join in the defenses!" The authorities will probably pay you quite well if you assist them, but this could also be an easy way to get yourself killed.`
+			choice
+				"	(Stay here until the fight is over.)"
+					decline
+				"	(Join the defense fleet.)"
+			"A few Dels pilots and Wallagi pilots have gathered to help repel the attack. You join them, and take off together..."
+				launch
+	on complete
+		payment 300000
+		dialog "The government of <planet> pays you <payment> for helping to drive off the Qanse."
+		
+mission "Ultaka Attack Resmakia"
+	name "Defend <planet>"
+	description "Defeat a Ultaka raid on <destination>."
+	minor
+	repeat
+	to offer
+		"combat rating" > 1500
+		random < 20
+	source
+		government Resmakia Erm
+	npc evade
+		personality heroic staying
+		government Ultaka
+		fleet "Ultaka small"
+		fleet "Ultaka big"
+		fleet "Ultaka big"
+	npc
+		personality heroic staying
+		government Resmakia
+		fleet "Resmakia SDF Fleet"
+		fleet "Resmakia SDF Fleet"
+	npc
+		personality heroic staying
+		government Erm
+		fleet "Erm SDF Fleet"
+	npc
+		personality heroic staying entering
+		government Resmakia
+		fleet "Erm SDF Fleet"
+		fleet "Resmakia SDF Fleet"
+		fleet "Resmakia SDF Fleet"
+	on offer
+		conversation
+			`Suddenly you hear a weird siren: "The enemies are attacking! self defense froce prepare to launch! any civillian help is much appreciated." The authorities will probably pay you quite well if you assist them, but this could also be an easy way to get yourself killed.`
+			choice
+				"	(Stay here until the fight is over.)"
+					decline
+				"	(Join the defense fleet.)"
+			"Local pilots have gathered to help repel the attack. You join them, and take off together..."
+				launch
+	on complete
+		payment 470000
+		dialog "The government of <planet> pays you <payment> for helping to drive off the Ultaka."
+		
+mission "Ultaka Attack ZIS"
+	name "Defend <planet>"
+	description "Defeat a Ultaka raid on <destination>."
+	minor
+	repeat
+	to offer
+		"combat rating" > 1800
+		random < 20
+	source
+		government ZIS
+	npc evade
+		personality heroic staying
+		government Ultaka
+		fleet "Ultaka big"
+		fleet "Ultaka big"
+		fleet "Ultaka big"
+		fleet "Ultaka big"
+	npc
+		personality heroic staying
+		government ZIS
+		fleet "Zis Heavy Patrol Fleet"
+		fleet "Zis Heavy Patrol Fleet"
+	npc
+		personality heroic staying entering
+		government ZIS
+		fleet "Zis Heavy Patrol Fleet"
+	npc
+		personality heroic staying entering
+		government ZIS
+		fleet "Zis Heavy Patrol Fleet"
+	on offer
+		conversation
+			`Suddenly you hear a siren: "Ultaka raid fleet detected! Ultaka raid fleet detected! Combatants prepare to repel the invaders." The authorities will probably pay you quite well if you assist them, but this could also be an easy way to get yourself killed.`
+			choice
+				"	(Stay here until the fight is over.)"
+					decline
+				"	(Join the defense fleet.)"
+			"ZIS pilots have gathered to help repel the attack. You join them, and take off together..."
+				launch
+	on complete
+		payment 510000
+		dialog "The government of <planet> pays you <payment> for helping to drive off the Ultaka."

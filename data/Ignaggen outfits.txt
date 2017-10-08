@@ -1,0 +1,349 @@
+outfit "Igarsot Cannon"
+	category "Guns"
+	cost 340000
+	thumbnail "outfit/particle cannon"
+	"mass" 34
+	"outfit space" -34
+	"weapon capacity" -34
+	"gun ports" -1
+	weapon
+		sprite "projectile/igarsot beam"
+			"frame rate" 1
+		sound "plasma"
+		"hit effect" "particle impact"
+		"inaccuracy" 1
+		"velocity" 20
+		"lifetime" 30
+		"reload" 12
+		"firing energy" 50
+		"firing heat" 220
+		"heat damage" 12
+		"shield damage" 48
+		"hull damage" 40
+	description "
+	
+outfit "Igarsot Turret"
+	category "Turrets"
+	cost 390000
+	thumbnail "outfit/particle cannon"
+	"mass" 54
+	"outfit space" -54
+	"weapon capacity" -54
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/igarsot beam"
+			"frame rate" 1
+		sound "plasma"
+		"hit effect" "particle impact"
+		"hardpoint sprite" "hardpoint/igarsot turret"
+		"hardpoint offset" 15.
+		"inaccuracy" 1
+		"velocity" 20
+		"lifetime" 30
+		"reload" 12
+		"turret turn" 1.8
+		"firing energy" 50
+		"firing heat" 220
+		"heat damage" 12
+		"shield damage" 48
+		"hull damage" 40
+	description "
+	
+outfit "Georlen Gun"
+	category "Guns"
+	cost 80000
+	thumbnail "outfit/particle cannon"
+	"mass" 14
+	"outfit space" -14
+	"weapon capacity" -14
+	"gun ports" -1
+	weapon
+		sprite "projectile/georlen"
+			"frame rate" 3
+		sound "proton"
+		"hit effect" "particle impact"
+		"die effect" "particle impact"
+		"inaccuracy" 2
+		"velocity" 20
+		"lifetime" 20
+		"reload" 8
+		"firing energy" 20
+		"firing heat" 18
+		"heat damage" 8
+		"shield damage" 20
+		"hull damage" 18
+		"burst reload" 5
+		"burst count" 5
+	description "
+	
+outfit "Georlen Turret"
+	category "Turrets"
+	cost 120000
+	thumbnail "outfit/particle cannon"
+	"mass" 28
+	"outfit space" -28
+	"weapon capacity" -28
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/georlen"
+			"frame rate" 3
+		sound "proton"
+		"hit effect" "particle impact"
+		"die effect" "particle impact"
+		"hardpoint sprite" "hardpoint/grab-strike"
+		"hardpoint offset" 7.
+		"inaccuracy" 2
+		"velocity" 20
+		"lifetime" 20
+		"reload" 8
+		"turret turn" 3
+		"firing energy" 20
+		"firing heat" 18
+		"heat damage" 8
+		"shield damage" 20
+		"hull damage" 18
+		"burst reload" 5
+		"burst count" 5
+	description "
+
+outfit "Rakkrao Cannon"
+	category "Guns"
+	cost 500000
+	thumbnail "outfit/particle cannon"
+	"mass" 35
+	"outfit space" -35
+	"weapon capacity" -35
+	"gun ports" -1
+	weapon
+		sprite "projectile/particle beam"
+		sound "particle"
+		"hit effect" "particle impact"
+		"inaccuracy" .5
+		"velocity" 35
+		"lifetime" 25
+		"reload" 30
+		"firing energy" 35
+		"firing force" 20
+		"firing heat" 150
+		"hit force" 10
+		"shield damage" 50
+		"hull damage" 128
+		"piercing" .2
+	description "
+	
+outfit "Ignaggen Anti-Missile Turret"
+	category "Turrets"
+	cost 62000
+	thumbnail "outfit/anti-missile"
+	"mass" 14
+	"outfit space" -14
+	"weapon capacity" -14
+	"turret mounts" -1
+	weapon
+		"hit effect" "small anti-missile"
+		"hardpoint sprite" "hardpoint/warder"
+		"hardpoint offset" 4.
+		"anti-missile" 6
+		"velocity" 150
+		"lifetime" 1
+		"reload" 6
+		"firing energy" 5
+		"firing heat" 5
+	description "
+
+
+outfit "Chamber Capacitor"
+	category "Power"
+	cost 18000
+	thumbnail "outfit/tiny battery"
+	"mass" 4
+	"outfit space" -4
+	"energy capacity" 750
+	description "
+	
+outfit "Lava Cell"
+	category "Power"
+	cost 43000
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 14
+	"outfit space" -14
+	"energy generation" 4.2
+	"heat generation" 8
+	"energy capacity" 1000
+	description "
+	
+outfit "Lava Reactor"
+	category "Power"
+	cost 2200000
+	thumbnail "outfit/plasma core"
+	"mass" 30
+	"outfit space" -30
+	"energy generation" 13
+	"heat generation" 36
+	"energy capacity" 5000
+	description "
+	
+outfit "Magma Reactor"
+	category "Power"
+	cost 3100000
+	thumbnail "outfit/double plasma core"
+	"mass" 60
+	"outfit space" -60
+	"energy generation" 21.4
+	"heat generation" 59
+	"energy capacity" 8000
+	description "
+	
+outfit "Ignaggen Cooling System"
+	category "Systems"
+	cost 200000
+	thumbnail "outfit/ignaggen cooler"
+	"mass" 10
+	"outfit space" -10
+	"cooling" 50
+	"active cooling" 50
+	"cooling energy" 3
+	description "Ignaggen Cooling Systems are far more powerful than anyone of the same tiers, because they need it to cool off the heat not only from the ship's systems but also heat generated from their body too."
+	
+outfit "Genos Shield Generator"
+	category "Systems"
+	cost 22000
+	thumbnail "outfit/tiny shield"
+	"mass" 12
+	"outfit space" -12
+	"shield generation" .21
+	"shield energy" .21
+	description "
+	
+outfit "Genes Shield Generator"
+	category "Systems"
+	cost 28000
+	thumbnail "outfit/small shield"
+	"mass" 20
+	"outfit space" -20
+	"shield generation" .45
+	"shield energy" .45
+	description "
+	
+outfit "Genel Shield Generator"
+	category "Systems"
+	cost 35000
+	thumbnail "outfit/medium shield"
+	"mass" 36
+	"outfit space" -36
+	"shield generation" .7
+	"shield energy" .7
+	description "
+	
+outfit "Gelaf Shield Generator"
+	category "Systems"
+	cost 110000
+	thumbnail "outfit/large shield"
+	"mass" 46
+	"outfit space" -46
+	"shield generation" 1.5
+	"shield energy" 1.5
+	description "
+	
+outfit "Kager Gekar Shield Generator"
+	category "Systems"
+	cost 150000
+	thumbnail "outfit/large shield"
+	licenses
+		"Kager Lergen"
+	"mass" 40
+	"outfit space" -40
+	"shield generation" 1.7
+	"shield energy" 1.7
+	description "Ignaggen Military Sheild Generator."
+	
+outfit "Rila Thruster"
+	category "Engines"
+	"cost" 22000
+	thumbnail "outfit/tiny plasma thruster"
+	"mass" 18
+	"outfit space" -18
+	"engine capacity" -18
+	"thrust" 12
+	"thrusting energy" 1
+	"thrusting heat" 1
+	"flare sprite" "effect/plasma flare/tiny"
+		"frame rate" 5
+	"flare sound" "plasma tiny"
+	description "
+	
+outfit "Rika Thruster"
+	category "Engines"
+	"cost" 43000
+	thumbnail "outfit/small plasma thruster"
+	"mass" 35
+	"outfit space" -35
+	"engine capacity" -35
+	"thrust" 22
+	"thrusting energy" 2
+	"thrusting heat" 2
+	"flare sprite" "effect/plasma flare/small"
+		"frame rate" 6
+	"flare sound" "plasma small"
+	description "
+	
+outfit "Rilen Thruster"
+	category "Engines"
+	"cost" 134000
+	thumbnail "outfit/large plasma thruster"
+	"mass" 80
+	"outfit space" -80
+	"engine capacity" -80
+	"thrust" 50
+	"thrusting energy" 4.8
+	"thrusting heat" 4.8
+	"flare sprite" "effect/plasma flare/large"
+		"frame rate" 0.9
+	"flare sound" "plasma large"
+	description "
+	
+outfit "Rila Steering"
+	category "Engines"
+	"cost" 18000
+	thumbnail "outfit/tiny plasma steering"
+	"mass" 12
+	"outfit space" -12
+	"engine capacity" -12
+	"turn" 280
+	"turning energy" .26
+	"turning heat" .36
+	description "
+	
+outfit "Rika Steering"
+	category "Engines"
+	"cost" 36000
+	thumbnail "outfit/small plasma steering"
+	"mass" 22
+	"outfit space" -22
+	"engine capacity" -22
+	"turn" 580
+	"turning energy" 0.5
+	"turning heat" .6
+	description "
+	
+outfit "Rilen Steering"
+	category "Engines"
+	"cost" 179000
+	thumbnail "outfit/large plasma steering"
+	"mass" 75
+	"outfit space" -75
+	"engine capacity" -75
+	"turn" 2220
+	"turning energy" 2.2
+	"turning heat" 2.3
+	description "
+	
+outfit "Keorli 4"
+	category "Hand to Hand"
+	cost 7300
+	thumbnail "outfit/keorli"
+	"capture attack" 1.5
+	"capture defense" 1
+	"unplunderable" 1

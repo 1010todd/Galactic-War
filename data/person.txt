@@ -1,0 +1,325 @@
+person "Katau Talkai-Eun"
+	government "Ultaka(Mega)"
+	frequency 100
+	personality
+		heroic vindictive unconstrained
+	phrase
+		word
+			"Rueta Talki Kakey Kimy" 
+			"Kiay Ka Kakey Otelaey" 
+			"Rueiki, Mitay Eun"
+			"Taoe ,Rueta Eynay Ulnen Kiay"
+	ship "Ultaka Shadow Strike" "Rueney Talkinek"
+		sprite "ship/ultaka shadow strike"
+		"never disables"
+		attributes
+			category "Light Warship"
+			"cost" 59000000
+			"shields" 900000
+			"hull" 290000
+			"hull repair rate" 20
+			"required crew" 150
+			"bunks" 600
+			"mass" 300
+			"drag" 10
+			"heat dissipation" .83
+			"fuel capacity" 8000
+			"cargo space" 100
+			"outfit space" 580
+			"weapon capacity" 420
+			"engine capacity" 60
+			"energy generation" 1800
+			weapon
+				"blast radius" 250
+				"shield damage" 1000
+				"hull damage" 500
+				"hit force" 1500
+		outfits	
+			"DMSG10 Shield Generator"
+			"SDG2 Core"
+			"Ultaka Heat Shunt"
+			"ZTK Engines"
+			"KDG3 anti missile" 4
+			"KLG1 Turret" 8
+			"JII-D" 2
+			"Retos Mulaer Defegin"
+			"RFK-1 Damage Field"
+			"Model-3A Rifle" 600
+	
+		gun -16 -140
+		gun 16 -140
+		turret 0 0 "RFK-1 Damage Field"
+		turret -21.5 -18.5 "KLG1 Turret"
+		turret 20.5 -18.5 "KLG1 Turret"
+		turret -31.5 4.5 "KLG1 Turret"
+		turret 31.5 4.5 "KLG1 Turret"
+		turret -30 29 "KLG1 Turret"
+		turret 30 28.5 "KLG1 Turret"
+		turret -17 50 "KLG1 Turret"
+		turret 17.5 50.5 "KLG1 Turret"
+		turret 0.5 -47 "KDG3 anti missile"
+		turret 0 -126.5 "KDG3 anti missile"
+		turret 0 59.5 "KDG3 anti missile"
+		turret 0 105 "KDG3 anti missile"
+		engine -26.5 148.5
+		engine 29 148.5
+		explode "tiny explosion" 12
+		explode "small explosion" 16
+		explode "medium explosion" 30
+		explode "big explosion" 40
+		explode "huge explosion" 20
+			
+
+person "1010todd"
+	government "ZIS"
+	frequency 300
+	personality
+		surveillance plunders heroic
+	phrase
+		word
+			"I hope you're enjoying the game!"
+			"How was my mod?"
+			"Any suggestion?"
+			"Thank you for trying out my mod!"
+	ship "VK-80 Inel" "Inel"
+		sprite "ship/inel"
+		attributes
+			category "Interceptor"
+			"cost" 38200000
+			"shields" 9000000
+			"hull" 9000000
+			"required crew" 1
+			"bunks" 2
+			"mass" 25
+			"drag" .5
+			"heat dissipation" 1.5
+			"outfit space" 250
+			"weapon capacity" 90
+			"engine capacity" 30
+			"fuel capacity" 500
+			"energy capacity" 19000
+			"shield generation" 10000
+			"energy generation" 8300
+			"hull repair rate" 10000
+			"cooling" 800
+			"hyperdrive" 1
+			"jump speed" 10
+			"jump drive" 1
+			"ramscoop" 35
+			"scan interference" 1
+			"radar jamming" 5
+			weapon
+				"blast radius" 12
+				"shield damage" 120
+				"hull damage" 60
+				"hit force" 180
+		outfits	
+			"Mrag Ga Lok" 6
+			"Mrag Ga Rotta"
+			"Misel Shel"
+		
+			"Mrag Maver"
+			"Rage Keppar"
+			"ZIS Racon Canner"
+			"PewPewPew PewPewPew"
+		
+		gun -36.5 -52 "Mrag Ga Lok"
+		gun -36.5 -52 "Mrag Ga Lok"
+		gun 34 -51 "Mrag Ga Lok"
+		gun 34 -51 "Mrag Ga Lok"
+		gun -7 -25 "Mrag Ga Lok"
+		gun 4 -25 "Mrag Ga Lok"
+		turret -1 34.5 "Mrag Ga Rotta"
+		turret 0 0 "Kad Muti Ira"
+		turret 0 0 "Rage Keppar"
+		gun 0 21.5 "Brumbar Kano"
+		engine 19 42
+		engine -21 42
+		explode "nuke explosion" 1
+		
+outfit "Mrag Ga Lok"
+	category "Guns"
+	cost 10000000
+	thumbnail "outfit/unknown"
+	"mass" 5
+	"outfit space" -5
+	"weapon capacity" -5
+	"gun ports" -1
+	weapon
+		sprite "projectile/mod blaster"
+		sound "pulse"
+		"inaccuracy" 0
+		"velocity" 40
+		"lifetime" 24
+		"reload" 9
+		"firing energy" 5
+		"firing heat" 0
+		"shield damage" 250
+		"hull damage" 550
+		"piercing" .05
+		
+outfit "Mrag Ga Rotta"
+	category "Turrets"
+	cost 15000000
+	thumbnail "outfit/unknown"
+	"mass" 6
+	"outfit space" -6
+	"weapon capacity" -6
+	"turret mounts" -1
+	weapon
+		sprite "projectile/mod blaster"
+		sound "pulse"
+		"inaccuracy" 0.01
+		"turret turn" 20
+		"velocity" 40
+		"lifetime" 24
+		"reload" 9
+		"firing energy" 5
+		"firing heat" 0
+		"shield damage" 250
+		"hull damage" 550
+		"piercing" .05
+		
+outfit "Brumbar Kano"
+	category "Guns"
+	cost 80000000
+	thumbnail "outfit/energy tracer"
+	"mass" 10
+	"outfit space" -10
+	"weapon capacity" -10
+	"gun ports" -1
+	weapon
+		sprite "projectile/proton"
+		sound "heavy rocket hit"
+		"inaccuracy" 0
+		"velocity" 40
+		"lifetime" 30
+		"reload" 120
+		"firing energy" 120
+		"firing heat" 0
+		"shield damage" 2000
+		"hull damage" 2000
+		"piercing" .1
+		
+outfit "Misel Shel"
+	category "Turrets"
+	cost 40000000
+	thumbnail "outfit/unknown"
+	"mass" 5
+	"outfit space" -5
+	"weapon capacity" -5
+	"turret mounts" -1
+	weapon
+		"fire effect" "masai fire"
+		"anti-missile" 550
+		"turret turn" 20
+		"velocity" 100
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 500
+		"firing heat" 12
+	
+outfit "Rage Keppar"
+	category "Turrets"
+	cost 10000000
+	thumbnail "outfit/unknown"
+	"mass" 5
+	"outfit space" -5
+	"weapon capacity" -5
+	"turret mounts" -1
+	weapon
+		"velocity" 900
+		"lifetime" 1
+		"reload" 1
+		"firing energy" .5
+		"firing force" 5
+		
+outfit "Mrag Maver"
+	category "Engines"
+	"cost" 2500000
+	thumbnail "outfit/tiny ion engines"
+	"mass" 20
+	"outfit space" -20
+	"engine capacity" -20
+	"turn" 200
+	"turning energy" .5
+	"thrust" 10.0
+	"thrusting energy" .10
+	"flare sprite" "effect/ion flare/tiny"
+		"frame rate" 1.2
+		
+outfit "ZIS Racon Canner"
+	category "Systems"
+	cost 42000000
+	thumbnail "outfit/outfit scanner"
+	"mass" 3
+	"outfit space" -3
+	"outfit scan power" 35
+	"outfit scan speed" 5
+	"cargo scan power" 35
+	"cargo scan speed" 5
+	"atmosphere scan" 500
+	
+outfit "PewPewPew PewPewPew"
+	category "Hand to Hand"
+	cost 98000000
+	thumbnail "outfit/unknown"
+	"capture attack" 200000
+	"capture defense" 500000
+	"unplunderable" 1
+	
+ship "VK-80 Inel"
+		sprite "ship/inel"
+		attributes
+			category "Interceptor"
+			"cost" 38200000
+			"shields" 9000000
+			"hull" 9000000
+			"required crew" 1
+			"bunks" 2
+			"mass" 25
+			"drag" .5
+			"heat dissipation" 1.5
+			"outfit space" 250
+			"weapon capacity" 90
+			"engine capacity" 30
+			"fuel capacity" 500
+			"energy capacity" 19000
+			"shield generation" 5000
+			"energy generation" 8300
+			"hull repair rate" 5000
+			"cooling" 800
+			"hyperdrive" 1
+			"jump speed" 10
+			"jump drive" 1
+			"ramscoop" 35
+			"scan interference" 1
+			"radar jamming" 5
+			weapon
+				"blast radius" 12
+				"shield damage" 120
+				"hull damage" 60
+				"hit force" 180
+		outfits	
+			"Mrag Ga Lok" 6
+			"Mrag Ga Rotta"
+			"Misel Shel"
+		
+			"Mrag Maver"
+			"Rage Keppar"
+			"ZIS Racon Canner"
+			"PewPewPew PewPewPew"
+		
+		gun -36.5 -52 "Mrag Ga Lok"
+		gun -36.5 -52 "Mrag Ga Lok"
+		gun 34 -51 "Mrag Ga Lok"
+		gun 34 -51 "Mrag Ga Lok"
+		gun -7 -25 "Mrag Ga Lok"
+		gun 4 -25 "Mrag Ga Lok"
+		turret -1 34.5 "Mrag Ga Rotta"
+		turret 0 0 "Misel Shel"
+		turret 0 0 "Rage Keppar"
+		gun 0 21.5 "Brumbar Kano"
+		engine 19 42
+		engine -21 42
+		explode "nuke explosion" 1

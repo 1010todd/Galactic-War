@@ -1,0 +1,145 @@
+#
+
+outfit "B-lance"
+	category "Guns"
+	cost 19000000
+	thumbnail "outfit/unknown"
+	"mass" 20
+	"outfit space" -20
+	"weapon capacity" -20
+	"gun ports" -1
+	weapon
+		sprite "projectile/skylance"
+			"frame rate" 2
+		sound "blance"
+		"hit effect" "skylance impact"
+		"inaccuracy" .9
+		"velocity" 500
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 15
+		"firing heat" .1
+		"shield damage" 65
+		"hull damage" 85 
+		"ion damage" .5
+		
+outfit "E-missile"
+	category "Secondary Weapons"
+	cost 29000000
+	thumbnail "outfit/unknown"
+	"mass" 20
+	"outfit space" -20
+	"weapon capacity" -20
+	"gun ports" -1
+	weapon 
+		sprite "projectile/emissile"
+			"frame rate" 3.5
+		sound "emissile"
+		"hit effect" "grab-strike impact"
+		"inaccuracy" 1
+		"velocity" 15
+		"lifetime" 400
+		"reload" 250
+		"firing energy" 650
+		"firing heat" 10
+		"hit force" 35
+		"shield damage" 5500
+		"hull damage" 2500
+		"heat damage" 300
+		"acceleration" 2
+		"drag" .1
+		"turn" 6
+		"homing" 4
+		"missile strength" 600
+		
+outfit "MQ-Shield Generator"
+	category "Systems"
+	cost 3000000
+	thumbnail "outfit/unknown"
+	"mass" 12
+	"outfit space" -12
+	"shield generation" 50
+	"shield energy" 1
+	
+outfit "MAM-core"
+	category "Systems"
+	cost 2000000
+	thumbnail "outfit/unknown"
+	"mass" 10
+	"outfit space" -10
+	"energy generation" 500
+	"energy capacity" 5000
+	
+outfit "Revos Anti-Missile"
+	category "Turrets"
+	cost 6500000
+	thumbnail "outfit/unknown"
+	"mass" 10
+	"outfit space" -10
+	"weapon capacity" -10
+	"turret mounts" -1
+	weapon
+		"hit effect" "rvs anti-missile"
+		"anti-missile" 50
+		"turret turn" 20
+		"velocity" 500
+		"lifetime" 1
+		"reload" 2.5
+		"firing energy" .1
+	
+effect "rvs anti-missile"
+	sprite "effect/quarg anti missile"
+		"no repeat"
+		"frame rate" 3
+	sound "quarg anti-missile"
+	"lifetime" 21
+	"velocity scale" 1
+	"anti-missile" 5
+	
+outfit "S-DASH drive"
+	category "Engines"
+	"cost" 7000000
+	thumbnail "outfit/afterburner"
+	"mass" 10
+	"outfit space" -10
+	"engine capacity" -10
+	"afterburner thrust" 250
+	"afterburner fuel" .001
+	"afterburner heat" 1.0
+	"afterburner effect" "afterburner"
+	"reverse thrust" 250
+	description ""
+	
+outfit "IO Engines"
+	category "Engines"
+	"cost" 27000
+	thumbnail "outfit/tiny ion thruster"
+	"mass" 20
+	"outfit space" -20
+	"engine capacity" -20
+	"turn" 175
+	"turning energy" .2
+	"turning heat" .2
+	"thrust" 6.5
+	"thrusting energy" .2
+	"thrusting heat" .2
+	"flare sprite" "effect/ion flare/tiny"
+		"frame rate" 1.2
+	"flare sound" "ion tiny"
+	
+outfit "IO2 Engines"
+	category "Engines"
+	"cost" 30000
+	thumbnail "outfit/small ion thruster"
+	"mass" 20
+	"outfit space" -20
+	"engine capacity" -20
+	"turn" 300
+	"turning energy" .2
+	"turning heat" .2
+	"thrust" 12
+	"thrusting energy" .2
+	"thrusting heat" .2
+	"flare sprite" "effect/ion flare/small"
+		"frame rate" 1.2
+	"flare sound" "ion small"

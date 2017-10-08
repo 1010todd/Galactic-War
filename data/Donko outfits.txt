@@ -1,0 +1,388 @@
+
+outfit "J1 MES Gun"
+	category "Guns"
+	cost 15000000
+	thumbnail "outfit/j1mes gun"
+	mass 12
+	"outfit space" -12
+	"weapon capacity" -12
+	"gun ports" -1
+	weapon
+		sprite "projectile/blaster"
+		sound "proton"
+		"hit effect" "skylance impact"
+		"inaccuracy" .1
+		"velocity" 24.5
+		"lifetime" 30
+		"reload" 5
+		"firing energy" 28
+		"firing heat" 8
+		"shield damage" 12
+		"hull damage" 24
+		"ion damage" .01
+
+outfit "J4 MES Turret"
+	category "Turrets"
+	cost 18000000
+	thumbnail "outfit/j4mes gun"
+	mass 17
+	"outfit space" -17
+	"weapon capacity" -17
+	"turret mounts" -1
+	weapon
+		sprite "projectile/blaster"
+		sound "proton"
+		"hit effect" "skylance impact"
+		"inaccuracy" .2
+		"turret turn" 6
+		"velocity" 23
+		"lifetime" 45
+		"reload" 10
+		"firing energy" 90
+		"firing heat" 10
+		"shield damage" 21
+		"hull damage" 32
+		"ion damage" .01
+		
+outfit "J4 KED Turret"
+	category "Turrets"
+	cost 65000000
+	thumbnail "outfit/j4ked turret"
+	mass 40
+	"outfit space" -40
+	"weapon capacity" -40
+	"turret mounts" -1
+	weapon
+		sprite "projectile/ion bolt"
+			"frame rate" 1
+		sound "proton"
+		"hit effect" "jump drive"
+		"inaccuracy" .1
+		"turret turn" 3
+		"velocity" 20
+		"lifetime" 260
+		"reload" 240
+		"firing energy" 62
+		"firing heat" 5
+		"shield damage" 2400
+		"hull damage" 1800
+		"ion damage" .01
+		"piercing" .08
+		
+outfit "J6 KED Turret"
+	category "Turrets"
+	cost 65000000
+	thumbnail "outfit/j6ked turret"
+	mass 60
+	"outfit space" -60
+	"weapon capacity" -60
+	"turret mounts" -1
+	weapon
+		sprite "projectile/ion bolt"
+			"frame rate" 1
+		sound "proton"
+		"hit effect" "jump drive"
+		"inaccuracy" .1
+		"turret turn" 2.5
+		"velocity" 22
+		"lifetime" 300
+		"reload" 240
+		"firing energy" 84
+		"firing heat" 8
+		"shield damage" 5500
+		"hull damage" 3600
+		"ion damage" .1
+		"piercing" .1
+
+outfit "Donko Anti-Missile"
+	category "Turrets"
+	cost 5000000
+	thumbnail "outfit/donko anti missile"
+	"mass" 30
+	"outfit space" -30
+	"weapon capacity" -30
+	"turret mounts" -1
+	weapon
+		"hit effect" "donko anti-missile"
+		"anti-missile" 9
+		"velocity" 800
+		"lifetime" 1
+		"reload" 5
+		"firing energy" 50
+	description ""
+
+effect "donko anti-missile"
+	sprite "effect/quarg anti missile"
+		"no repeat"
+		"frame rate" 3
+	sound "quarg anti-missile"
+	"lifetime" 21
+	"velocity scale" 1
+		
+outfit "Hasus Missile"
+	category "Ammunition"
+	cost 2300
+	thumbnail "outfit/hasus"
+	"hasus capacity" -1
+	description "This missile is fired from a Hasus Launcher."
+
+outfit "Hasus Launcher"
+	category "Secondary Weapons"
+	cost 900000
+	thumbnail "outfit/hasus launcher"
+	"mass" 30
+	"outfit space" -30
+	"weapon capacity" -30
+	"gun ports" -1
+	"hasus capacity" 40
+	weapon
+		sprite "projectile/hasus missile"
+		sound "piercer"
+		ammo "Hasus Missile"
+		icon "icon/hasus"
+		"hit effect" "ionic afterburner"
+		"hit effect" "piercer impact"
+		"die effect" "piercer impact"
+		"inaccuracy" 5
+		"velocity" 16
+		"lifetime" 1600
+		"reload" 50
+		"firing energy" 30
+		"firing heat" 20
+		"acceleration" .8
+		"drag" .01
+		"turn" 4
+		"homing" 4
+		"shield damage" 1200
+		"hull damage" 760
+		"piercing" .1
+		"hit force" 60
+		"missile strength" 100
+	description "Donko's only type of missile." 
+		
+outfit "K6 Shield Generator"
+	category "Systems"
+	cost 50000000
+	thumbnail "outfit/unknown"
+	"mass" 160
+	"outfit space" -160
+	"shield generation" 20.2
+	"shield energy" 13.7
+	
+outfit "K5 Shield Generator"
+	category "Systems"
+	cost 2600000
+	thumbnail "outfit/unknown"
+	"mass" 100
+	"outfit space" -100
+	"shield generation" 16.4
+	"shield energy" 13.2
+	
+outfit "K4 Shield Generator"
+	category "Systems"
+	cost 2000000
+	thumbnail "outfit/unknown"
+	"mass" 60
+	"outfit space" -60
+	"shield generation" 13.2
+	"shield energy" 10.2
+	
+outfit "K2 Shield Generator"
+	category "Systems"
+	cost 150000
+	thumbnail "outfit/unknown"
+	"mass" 20
+	"outfit space" -20
+	"shield generation" 7.2
+	"shield energy" 4.6
+	
+outfit "K1 Shield Generator"
+	category "Systems"
+	cost 100000
+	thumbnail "outfit/unknown"
+	"mass" 10
+	"outfit space" -10
+	"shield generation" 3.5
+	"shield energy" 3.1
+
+outfit "T6 Thruster"
+	category "Engines"
+	"cost" 1000000
+	thumbnail "outfit/donko engine dual"
+	"mass" 70
+	"outfit space" -70
+	"engine capacity" -70
+	"thrust" 190
+	"thrusting energy" 6
+	"thrusting heat" 1
+	"cooling" 250
+	"flare sprite" "effect/atomic flare/huge"
+		"frame rate" 1
+	"flare sound" "ion huge"
+	
+outfit "T6 Steering"
+	category "Engines"
+	"cost" 800000
+	thumbnail "outfit/unknown"
+	"mass" 100
+	"outfit space" -100
+	"engine capacity" -100
+	"turn" 2800
+	"turning energy" 3
+	"turning heat" 1
+	"cooling" 250
+	
+outfit "T5 Thruster"
+	category "Engines"
+	"cost" 800000
+	thumbnail "outfit/donko engine dual"
+	"mass" 55
+	"outfit space" -55
+	"engine capacity" -55
+	"thrust" 340
+	"thrusting energy" 5
+	"thrusting heat" 1
+	"cooling" 200
+	"flare sprite" "effect/atomic flare/large"
+		"frame rate" 1
+	"flare sound" "ion large"
+	
+outfit "T5 Steering"
+	category "Engines"
+	"cost" 600000
+	thumbnail "outfit/unknown"
+	"mass" 60
+	"outfit space" -60
+	"engine capacity" -60
+	"turn" 2700
+	"turning energy" 1.8
+	"turning heat" .9
+	"cooling" 200
+	
+outfit "T4 Thruster"
+	category "Engines"
+	"cost" 600000
+	thumbnail "outfit/donko engine dual"
+	"mass" 40
+	"outfit space" -40
+	"engine capacity" -40
+	"thrust" 150
+	"thrusting energy" 4
+	"thrusting heat" .9
+	"cooling" 150
+	"flare sprite" "effect/atomic flare/medium"
+		"frame rate" 1
+	"flare sound" "ion medium"
+	
+outfit "T4 Steering"
+	category "Engines"
+	"cost" 400000
+	thumbnail "outfit/unknown"
+	"mass" 50
+	"outfit space" -50
+	"engine capacity" -50
+	"turn" 1500
+	"turning energy" 1.6
+	"turning heat" .8
+	"cooling" 150
+	
+outfit "T2 Thruster"
+	category "Engines"
+	"cost" 19000
+	thumbnail "outfit/donko engine dual"
+	"mass" 23
+	"outfit space" -23
+	"engine capacity" -23
+	"thrust" 10.4
+	"thrusting energy" 1
+	"thrusting heat" .5
+	"cooling" 100
+	"flare sprite" "effect/atomic flare/small"
+		"frame rate" 1.5
+	"flare sound" "ion small"
+	
+outfit "T2 Steering"
+	category "Engines"
+	"cost" 18000
+	thumbnail "outfit/small ion steering"
+	"mass" 15
+	"outfit space" -15
+	"engine capacity" -15
+	"turn" 350
+	"turning energy" .6
+	"turning heat" .1
+	"cooling" 100
+	
+outfit "T1 Thruster"
+	category "Engines"
+	"cost" 10000
+	thumbnail "outfit/donko engine dual"
+	"mass" 14
+	"outfit space" -14
+	"engine capacity" -14
+	"thrust" 5.6
+	"thrusting energy" .3
+	"thrusting heat" .1
+	"cooling" 50
+	"flare sprite" "effect/atomic flare/tiny"
+		"frame rate" 1.5
+	"flare sound" "ion tiny"
+	
+outfit "T1 Steering"
+	category "Engines"
+	"cost" 10000
+	thumbnail "outfit/tiny ion steering"
+	"mass" 10
+	"outfit space" -10
+	"engine capacity" -10
+	"turn" 170
+	"turning energy" .2
+	"turning heat" .09
+	"cooling" 50
+	
+outfit "Donko Hyperdrive"
+	category "Systems"
+	cost 90000
+	thumbnail "outfit/hyperdrive"
+	"mass" 18
+	"outfit space" -18
+	"jump speed" 5
+	"hyperdrive" 1
+	
+outfit "R1 Cell"
+	category "Power"
+	cost 180000
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 10
+	"outfit space" -10
+	"energy generation" 30
+	"energy capacity" 500
+	
+outfit "R2 Cell"
+	category "Power"
+	cost 360000
+	thumbnail "outfit/small fuel cell"
+	"mass" 15
+	"outfit space" -15
+	"energy generation" 50
+	"energy capacity" 1000
+	
+outfit "R5 Cell"
+	category "Power"
+	cost 1000000
+	thumbnail "outfit/big fuel cell"
+	"mass" 50
+	"outfit space" -50
+	"energy generation" 160
+	"energy capacity" 2600
+	
+outfit "Experimental ANTI-10 Core"
+	category "Power"
+	cost 34000000
+	thumbnail "outfit/donko core"
+	"mass" 140
+	"outfit space" -140
+	"energy generation" 65
+	"heat generation" 45
+	"energy capacity" 5000
+	description "Donko's experimental antimatter core."

@@ -1,0 +1,96 @@
+ship "SSm10"
+	attributes
+		"hull" 500
+		"automaton" 1
+		"mass" 10
+		"drag" 1
+		"heat dissipation" .9
+		"outfit space" 5
+		"weapon capacity" 5
+		"heat generation" .1
+		
+		"energy generation" 400
+		"energy capacity" 100
+		"turn" 45
+		"turning energy" .2
+		"thrust" 20
+		"thrusting energy" .3
+	outfits
+		"SSm10"
+	
+	engine -17 35
+	engine 17 35
+	turret 0 0
+	
+outfit "SSm10"
+	category "Turrets"
+	thumbnail "outfit/unknown"
+	"mass" 5
+	"outfit space" -5
+	"weapon capacity" -5
+	"turret mounts" -1
+	weapon
+		sprite "projectile/energy ball"
+			"frame rate" 20
+		"inaccuracy" 0
+		"velocity" 35
+		"lifetime" 1
+		"reload" 800
+		"firing energy" 10
+		"blast radius" 200
+		"shield damage" 1000000
+		"hull damage" 1000000
+		
+fleet "Ultaka mothership weapon"
+	government "Ultaka"
+	personality
+		heroic
+	variant 
+		"SSm10" 2
+		"U-AF" 10
+		
+ship "U-AF"
+	attributes
+		"hull" 500
+		"automaton" 1
+		"mass" 10
+		"drag" 1
+		"heat dissipation" .9
+		"outfit space" 5
+		"weapon capacity" 5
+		"heat generation" .1
+		
+		"energy generation" 400
+		"energy capacity" 100
+		"turn" 45
+		"turning energy" .2
+		"thrust" 20
+		"thrusting energy" .3
+	outfits
+		"G10 Turret"
+	
+	engine -17 35
+	engine 17 35
+	turret 0 0
+	
+outfit "G10 Turret"
+	category "Turrets"
+	cost 800000
+	thumbnail "outfit/quad blaster turret"
+	"mass" 10
+	"outfit space" -10
+	"weapon capacity" -10
+	"turret mounts" -1
+	weapon
+		sprite "projectile/tiny dual ion"
+		sound "ion"
+		"hit effect" "blaster impact"
+		"inaccuracy" 1
+		"velocity" 14
+		"lifetime" 10
+		"reload" 10
+		"firing energy" 5
+		"firing heat" 2
+		"shield damage" 2500
+		"hull damage" 2400
+		"ion damage" .1

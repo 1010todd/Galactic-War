@@ -1,0 +1,129 @@
+ship "Qoro(E) Gosat"
+	sprite "ship/gosat"
+	attributes
+		category "Fighter"
+		"cost" 981000
+		"shields" 2100
+		"hull" 2400
+		"required crew" 1
+		"bunks" 1
+		"mass" 20
+		"drag" .9
+		"heat dissipation" .9
+		"outfit space" 95
+		"weapon capacity" 20
+		"engine capacity" 40
+		weapon
+			"blast radius" 48
+			"shield damage" 320
+			"hull damage" 160
+			"hit force" 480
+	outfits
+		"Gogase Rail Cannon" 2
+		"Gol Cell"
+		"Gotam Ion Thruster"
+		"Gokla Shield Generator"
+	
+	engine -24.5 32.5
+	engine 24.5 32.5
+	gun -24.5 -1
+	gun 24.5 -1
+	explode "tiny explosion" 20
+	description "
+
+ship "Qoro(E) Gosat" "Gosat Bomber"
+	outfits
+		"Gosa Energy Cannon" 2
+		"Gol Cell"
+		"Gotam Ion Thruster"
+		"Gokla Shield Generator"
+	
+ship "Qoro(E) Goth"
+	sprite "ship/goth"
+	attributes
+		category "Interceptor"
+		"cost" 933000
+		"shields" 2200
+		"hull" 2900
+		"required crew" 1
+		"bunks" 1
+		"mass" 40
+		"drag" .9
+		"heat dissipation" .9
+		"outfit space" 155
+		"fuel capacity" 400
+		"cargo space" 25
+		"weapon capacity" 40
+		"engine capacity" 40
+		"cooling" 15
+		"hull repair rate" 3
+		weapon
+			"blast radius" 48
+			"shield damage" 320
+			"hull damage" 160
+			"hit force" 480
+	outfits
+		"Gogase Rail Cannon" 4
+		"Gol Cell"
+		"Gotam Ion Thruster"
+		"Gokla Shield Generator"
+		"Hyperdrive"
+	
+	gun -24.5 -1
+	gun 24.5 -1
+	gun 0 -1
+	gun 0 -1
+	engine -24.5 32.5
+	engine -0.5 32.5
+	engine -0.5 32.5
+	engine 24.5 32.5
+	explode "tiny explosion" 20
+	description "
+	
+ship "Qoro(E) Golosta"
+	sprite "ship/golosta"
+	attributes
+		category "Light Warship"
+		"cost" 11480000
+		"shields" 9800
+		"hull" 12800
+		"required crew" 2
+		"bunks" 6
+		"mass" 400
+		"drag" 5.7
+		"heat dissipation" .85
+		"fuel capacity" 400
+		"cargo space" 30
+		"outfit space" 350
+		"weapon capacity" 113
+		"engine capacity" 110
+		"cooling" 25
+		"hull repair rate" 4
+		weapon
+			"blast radius" 250
+			"shield damage" 3200
+			"hull damage" 1600
+			"hit force" 4800
+	outfits
+		"Gosa Energy Cannon" 2
+		"Qoro(E) Anti-Missile" 2
+		"Gok Cell"
+		"Golak Shield Generator"
+		
+		"Gowaki Ion Thruster"
+		"Gotam Ion Thruster"
+		"Hyperdrive"
+	
+	gun -33 -3.5
+	gun 33 -3.5
+	turret 0 -21
+	turret 0 24.5
+	engine -33 44.5
+	engine 33 44.5
+	explode "tiny explosion" 60
+	explode "small explosion" 30
+	explode "medium explosion" 35
+	explode "large explosion" 20
+	explode "huge explosion" 6
+	"final explode" "final explosion medium"
+	description "
