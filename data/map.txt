@@ -5,12 +5,12 @@ galaxy "Milky Way"
 	sprite ui/galaxy
 
 galaxy "Galaxy 1"
-	pos -77.4581 -4625.98
-	sprite ui/galaxy
+	pos 0 -4660.98
+	sprite ui/maffei
 
 galaxy "Galaxy 2"
-	pos 5932.27 -8602.27
-	sprite ui/galaxy
+	pos 6050.27 -8602.27
+	sprite ui/galaxy3
 
 galaxy "Galaxy 3"
 	pos 866.326 -11179.5
@@ -145,6 +145,7 @@ system Aelleo
 	pos -778.674 -4248.4
 	government Ignaggen
 	habitable 1111.68
+	belt 1219
 	link Erwal
 	link Fosme
 	link Raskal
@@ -155,6 +156,8 @@ system Aelleo
 	asteroids "large rock" 96 2.2984
 	asteroids "medium metal" 1 3.0498
 	asteroids "large metal" 1 3.0056
+	minables iron 3 3.48381
+	minables titanium 3 5.35786
 	fleet "Ignaggen Outlaw" 2300
 	fleet "Kager Military" 800
 	fleet Ignaggen 1000
@@ -371,6 +374,7 @@ system Agaka
 	pos -347.438 -5121.37
 	government Geeva
 	habitable 1250
+	belt 1593
 	link Flama
 	link Akogi
 	link Gavnan
@@ -381,6 +385,8 @@ system Agaka
 	asteroids "small metal" 4 2.4
 	asteroids "medium metal" 56 5.376
 	asteroids "large metal" 22 5.664
+	minables copper 20 7.58926
+	minables lead 31 5.61311
 	fleet "Geeva Battle Fleet" 900
 	fleet "Geeva Civillian" 800
 	object
@@ -441,6 +447,7 @@ system Aibo
 	pos -785.772 -4475.02
 	government Ignaggen
 	habitable 320
+	belt 1658
 	link Kiar
 	link Finan
 	link Eribai
@@ -452,6 +459,9 @@ system Aibo
 	asteroids "small metal" 6 3.9816
 	asteroids "medium metal" 23 2.8728
 	asteroids "large metal" 16 3.6792
+	minables copper 25 5.83824
+	minables silicon 3 7.15921
+	minables silver 1 5.66067
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -495,6 +505,7 @@ system Aili
 	pos -659.586 -4445.47
 	government Ignaggen
 	habitable 425.92
+	belt 1768
 	link Eribai
 	link Lika
 	link Rikor
@@ -504,6 +515,8 @@ system Aili
 	asteroids "small metal" 4 3.852
 	asteroids "medium metal" 3 2.232
 	asteroids "large metal" 1 1.944
+	minables gold 2 5.59375
+	minables iron 1 7.97407
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -542,6 +555,7 @@ system Akaima
 	pos -270.318 -5297.55
 	government "Kroom Kanai"
 	habitable 4270
+	belt 1072
 	link Omili
 	link Gilda
 	link Gukali
@@ -550,6 +564,8 @@ system Akaima
 	asteroids "small metal" 2 7.3689
 	asteroids "medium metal" 5 6.5772
 	asteroids "large metal" 3 3.654
+	minables aluminum 1 11.1555
+	minables titanium 2 9.49053
 	fleet "Kroom Kanai" 800
 	fleet "Kakaima Defense" 3200
 	object
@@ -637,6 +653,7 @@ system Akogi
 	pos -326.438 -5174.37
 	government "Kroom Kanai"
 	habitable 625
+	belt 1524
 	link Agaka
 	link Ginma
 	link Gilda
@@ -647,6 +664,7 @@ system Akogi
 	asteroids "small metal" 4 9.6
 	asteroids "medium metal" 3 8.1
 	asteroids "large metal" 1 5.475
+	minables gold 5 5.95612
 	fleet "Kroom Kanai" 800
 	fleet "Kakaima Defense" 3200
 	object
@@ -680,6 +698,7 @@ system Alta
 	pos -313.737 -4656.2
 	government Ultaka
 	habitable 486.68
+	belt 1884
 	link "Mea Vol"
 	link Nobdean
 	link "Fee Jo"
@@ -691,6 +710,7 @@ system Alta
 	asteroids "large rock" 7 2.6448
 	asteroids "medium metal" 29 3.952
 	asteroids "large metal" 1 4.56
+	minables aluminum 40 7.97702
 	fleet "Ultaka small" 1000
 	fleet "Qanse Small" 1000
 	object
@@ -737,66 +757,57 @@ system Altol
 	link Comar
 	link Deefolks
 	asteroids "large metal" 1 2.142
+	minables platinum 35 3.86798
 	fleet "Ultaka small" 1000
 	fleet "Dels guard" 10000
 	fleet "Qanse Small" 800
 	fleet "Ultaka big" 1200
 	fleet "Dels miner" 12000
-	minables platinum 35 3.86798
 	object
 		sprite star/f5
 		period 10
-		minables platinum 35 3.86798
 	object
 		sprite planet/lava1
 		distance 139.96
 		period 15.9931
-		minables platinum 35 3.86798
 	object
 		sprite planet/gas16
 		distance 757.96
 		period 201.557
-		minables platinum 35 3.86798
 		object
 			sprite planet/rock0
 			distance 199
 			period 14.7767
-			minables platinum 35 3.86798
 		object
 			sprite planet/dust1
 			distance 304
 			period 27.9002
-			minables platinum 35 3.86798
 	object
 		sprite planet/lava2
 		distance 1572.6
 		period 602.359
-		minables platinum 35 3.86798
 	object
 		sprite planet/luna
 		distance 1857.01
 		period 772.946
-		minables platinum 35 3.86798
 	object
 		sprite planet/gas1
 		distance 2927.97
 		period 1530.3
-		minables platinum 35 3.86798
 		object
 			sprite planet/ice0
 			distance 255
 			period 16.2752
-			minables platinum 35 3.86798
 		object
 			sprite planet/rhea
 			distance 383
 			period 29.9581
-			minables platinum 35 3.86798
 
 system Ano
 	pos -126.94 -4903.22
 	government Revos
 	habitable 945
+	belt 1287
 	link Kolha
 	link Kotai
 	asteroids "small rock" 1 1.8
@@ -804,6 +815,8 @@ system Ano
 	asteroids "small metal" 16 2.592
 	asteroids "medium metal" 1 4.428
 	asteroids "large metal" 17 1.944
+	minables silicon 7 2.378
+	minables titanium 3 3.98112
 	fleet "Revos small" 1000
 	fleet "Revos big" 1500
 	fleet "Revos merchant" 600
@@ -852,6 +865,7 @@ system Aoma
 	pos -888.219 -4368.55
 	government Ignaggen
 	habitable 1715
+	belt 1122
 	link Kikar
 	link Aorlem
 	link Fielos
@@ -862,6 +876,9 @@ system Aoma
 	asteroids "small metal" 36 2.688
 	asteroids "medium metal" 50 2.856
 	asteroids "large metal" 13 3.087
+	minables lead 38 3.91492
+	minables silicon 2 4.21311
+	minables titanium 2 3.4965
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -964,11 +981,18 @@ system Aorlem
 	pos -811.219 -4353.55
 	government Ignaggen
 	habitable 1111.68
+	belt 1614
 	link Kiler
 	link Inen
 	link Kikar
 	link Aoma
-	asteroids "large metal" 1 1.26
+	asteroids "small rock" 8 6.4
+	asteroids "medium rock" 45 4.7
+	asteroids "large rock" 112 5.35
+	asteroids "medium metal" 87 4.1
+	asteroids "large metal" 1 5.6
+	minables iron 6 6.60971
+	minables lead 6 5.76293
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -1114,6 +1138,7 @@ system Arema
 	pos -609.219 -4408.55
 	government Ignaggen
 	habitable 425.92
+	belt 1834
 	link Aili
 	link Karlai
 	link Radger
@@ -1123,6 +1148,8 @@ system Arema
 	asteroids "small metal" 29 7.02
 	asteroids "medium metal" 189 5.72
 	asteroids "large metal" 88 4.264
+	minables aluminum 1 8.9174
+	minables iron 14 5.48129
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -1165,6 +1192,7 @@ system Arger
 	pos -725.772 -4427.02
 	government Ignaggen
 	habitable 1080
+	belt 1403
 	link Kiler
 	link Aibo
 	link Eribai
@@ -1176,6 +1204,7 @@ system Arger
 	asteroids "small metal" 43 5.7477
 	asteroids "medium metal" 2 4.301
 	asteroids "large metal" 8 1.9941
+	minables gold 7 6.84338
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -1212,6 +1241,7 @@ system Argol
 	pos -670.674 -4179.4
 	government Ignaggen
 	habitable 233.28
+	belt 1587
 	link Fines
 	link Kamla
 	link Karllan
@@ -1559,50 +1589,42 @@ system Boklok
 	asteroids "large rock" 34 10.7068
 	asteroids "small metal" 32 7.54
 	asteroids "large metal" 68 6.8614
+	minables tungsten 35 3.86798
 	fleet "Ultaka small" 1000
 	fleet "Qanse Small" 1000
 	fleet "Ultaka big" 1200
 	fleet "Dels miner" 20000
-	minables tungsten 35 3.86798
 	object
 		sprite star/k0
 		period 10
-		minables tungsten 35 3.86798
 	object
 		sprite planet/miranda
 		distance 106.36
 		period 19.8887
-		minables tungsten 35 3.86798
 	object
 		sprite planet/rock1
 		distance 321.65
 		period 104.596
-		minables tungsten 35 3.86798
 	object
 		sprite planet/rock9
 		distance 590.26
 		period 260.018
-		minables tungsten 35 3.86798
 	object
 		sprite planet/uranus
 		distance 1061.47
 		period 627.047
-		minables tungsten 35 3.86798
 	object
 		sprite planet/gas5
 		distance 3717.47
 		period 4109.69
-		minables tungsten 35 3.86798
 		object
 			sprite planet/rock14
 			distance 278
 			period 15.414
-			minables tungsten 35 3.86798
 		object
 			sprite planet/dust7
 			distance 390
 			period 25.612
-			minables tungsten 35 3.86798
 
 system Bov
 	pos 239.442 -5083.79
@@ -1659,6 +1681,7 @@ system C1
 	pos 56.177 -4511.59
 	government Ultaka
 	habitable 806.68
+	belt 1014
 	link C2
 	asteroids "small rock" 29 5.5062
 	asteroids "medium rock" 57 4.9266
@@ -1666,6 +1689,8 @@ system C1
 	asteroids "small metal" 8 5.5062
 	asteroids "medium metal" 49 4.5885
 	asteroids "large metal" 10 5.5062
+	minables silver 12 9.02978
+	minables titanium 27 8.68838
 	fleet "Ultaka small" 1000
 	object
 		sprite star/k0
@@ -1709,11 +1734,14 @@ system C10
 	pos 76.177 -4309.59
 	government Ultaka
 	habitable 320
+	belt 1593
 	link C8
 	asteroids "small rock" 4 2.431
 	asteroids "medium rock" 9 2.1216
 	asteroids "large rock" 3 2.3647
 	asteroids "large metal" 1 2.7846
+	minables iron 1 3.5055
+	minables titanium 1 4.16791
 	fleet "Ultaka small" 1000
 	object
 		sprite star/m0
@@ -1751,6 +1779,7 @@ system C2
 	pos 78.177 -4477.59
 	government Ultaka
 	habitable 2035
+	belt 1548
 	link C1
 	link C5
 	link C3
@@ -1759,6 +1788,8 @@ system C2
 	asteroids "small metal" 8 10.5
 	asteroids "medium metal" 33 7.308
 	asteroids "large metal" 4 7.224
+	minables lead 12 13.3837
+	minables titanium 5 8.83859
 	fleet "Ultaka small" 1000
 	object
 		sprite star/f5
@@ -1806,6 +1837,7 @@ system C3
 	pos 69.177 -4439.59
 	government Ultaka
 	habitable 1080
+	belt 1408
 	link C5
 	link C2
 	link C6
@@ -1866,6 +1898,7 @@ system C4
 	pos 109.177 -4417.59
 	government Ultaka
 	habitable 625
+	belt 1954
 	link C5
 	link C7
 	asteroids "small rock" 74 2.7761
@@ -1873,6 +1906,7 @@ system C4
 	asteroids "large rock" 86 5.0048
 	asteroids "medium metal" 1 2.4242
 	asteroids "large metal" 1 5.2785
+	minables iron 1 8.01819
 	fleet "Ultaka small" 1000
 	object
 		sprite star/g5
@@ -1914,6 +1948,7 @@ system C5
 	pos 107.177 -4452.59
 	government Ultaka
 	habitable 1080
+	belt 1490
 	link C2
 	link C3
 	link C4
@@ -1922,6 +1957,9 @@ system C5
 	asteroids "large rock" 2 4.118
 	asteroids "medium metal" 2 2.639
 	asteroids "large metal" 1 2.349
+	minables aluminum 7 2.15641
+	minables copper 7 2.82155
+	minables iron 1 2.7048
 	fleet "Ultaka small" 1000
 	object
 		sprite star/g0
@@ -1959,6 +1997,7 @@ system C6
 	pos 100.177 -4389.59
 	government Ultaka
 	habitable 2372.76
+	belt 1697
 	link C3
 	link C7
 	link C8
@@ -1968,6 +2007,8 @@ system C6
 	asteroids "small metal" 28 2.97
 	asteroids "medium metal" 119 4.818
 	asteroids "large metal" 3 3.432
+	minables copper 1 7.85512
+	minables tungsten 30 4.78119
 	fleet "Ultaka small" 1000
 	object
 		sprite star/f0
@@ -2009,6 +2050,7 @@ system C7
 	pos 146.177 -4380.59
 	government Ultaka
 	habitable 425.92
+	belt 1687
 	link C4
 	link C6
 	link C8
@@ -2019,6 +2061,8 @@ system C7
 	asteroids "small metal" 1 4.32
 	asteroids "medium metal" 5 3.81
 	asteroids "large metal" 1 2.82
+	minables iron 7 6.37729
+	minables silicon 2 4.60748
 	fleet "Ultaka small" 1000
 	object
 		sprite star/k5
@@ -2056,6 +2100,7 @@ system C8
 	pos 112.177 -4349.59
 	government Ultaka
 	habitable 3645
+	belt 1002
 	link C6
 	link C7
 	link C9
@@ -2065,6 +2110,9 @@ system C8
 	asteroids "small metal" 72 1.566
 	asteroids "medium metal" 28 1.377
 	asteroids "large metal" 15 1.998
+	minables aluminum 14 2.15661
+	minables copper 11 2.99029
+	minables uranium 1 3.38947
 	fleet "Ultaka small" 1000
 	object
 		sprite star/a5
@@ -2110,6 +2158,7 @@ system C9
 	pos 125.177 -4296.59
 	government Ultaka
 	habitable 945
+	belt 1253
 	link C8
 	link C7
 	asteroids "small rock" 2 2.73
@@ -2118,6 +2167,9 @@ system C9
 	asteroids "small metal" 7 1.155
 	asteroids "medium metal" 175 1.848
 	asteroids "large metal" 10 2.856
+	minables lead 17 3.20351
+	minables titanium 37 2.48225
+	minables tungsten 37 3.83434
 	fleet "Ultaka small" 1000
 	object
 		sprite star/g5
@@ -2436,74 +2488,54 @@ system Cevert
 	asteroids "large rock" 31 4.29
 	asteroids "medium metal" 36 3.42
 	asteroids "large metal" 5 1.89
+	minables titanium 35 3.86798
+	minables lead 35 3.86798
 	fleet "Ultaka small" 1000
 	fleet "Dels guard" 10000
 	fleet "Qanse Small" 800
 	fleet "Ultaka big" 1200
 	fleet "Dels miner" 10000
-	minables titanium 35 3.86798
-	minables lead 35 3.86798
 	object
 		sprite star/k5
 		distance 47.619
 		period 17.1277
-		minables titanium 35 3.86798
-		minables lead 35 3.86798
 	object
 		sprite star/m0
 		distance 63.381
 		period 17.1277
 		offset 180
-		minables titanium 35 3.86798
-		minables lead 35 3.86798
 	object
 		sprite planet/gas16
 		distance 542.071
 		period 184.841
-		minables titanium 35 3.86798
-		minables lead 35 3.86798
 		object Senta
 			sprite planet/dust5
 			distance 240
 			period 19.571
-			minables titanium 35 3.86798
-			minables lead 35 3.86798
 		object Monsa
 			sprite planet/desert4
 			distance 362
 			period 36.2543
-			minables titanium 35 3.86798
-			minables lead 35 3.86798
 	object
 		sprite planet/gas7
 		distance 1760.56
 		period 1081.91
-		minables titanium 35 3.86798
-		minables lead 35 3.86798
 		object
 			sprite planet/miranda
 			distance 222
 			period 11.7668
-			minables titanium 35 3.86798
-			minables lead 35 3.86798
 		object
 			sprite planet/callisto
 			distance 372
 			period 25.5238
-			minables titanium 35 3.86798
-			minables lead 35 3.86798
 		object
 			sprite planet/ice7
 			distance 544
 			period 45.1366
-			minables titanium 35 3.86798
-			minables lead 35 3.86798
 		object
 			sprite planet/luna
 			distance 717
 			period 68.2982
-			minables titanium 35 3.86798
-			minables lead 35 3.86798
 
 system Codelo
 	pos -365.737 -4813.2
@@ -2572,11 +2604,14 @@ system Collak
 	pos -231.07 -4406.86
 	government Ultaka
 	habitable 1715
+	belt 1256
 	link Keen
 	link Dree
 	asteroids "large rock" 1 0.649
 	asteroids "medium metal" 7 1.595
 	asteroids "large metal" 1 1.111
+	minables copper 1 2.36384
+	minables lead 2 1.63573
 	fleet "Ultaka small" 1200
 	fleet "Ultaka Traps" 1200
 	object
@@ -2619,6 +2654,7 @@ system Comar
 	pos -430.737 -4561.2
 	government Ultaka
 	habitable 486.68
+	belt 1637
 	link Altol
 	link Jolark
 	link Boklok
@@ -2631,77 +2667,58 @@ system Comar
 	asteroids "small metal" 7 7.182
 	asteroids "medium metal" 1 4.1553
 	asteroids "large metal" 4 4.7196
+	minables aluminum 2 7.83938
+	minables platinum 3 10.7562
 	fleet "Ultaka small" 1000
 	fleet "Dels guard" 10000
 	fleet "Qanse Small" 800
 	fleet "Ultaka big" 1800
 	fleet "Dels miner" 10000
-	minables titanium 35 3.86798
-	minables platinum 35 3.86798
 	object
 		sprite star/k0
 		period 10
-		minables titanium 35 3.86798
-		minables platinum 35 3.86798
 	object
 		sprite planet/mercury
 		distance 149.04
 		period 32.9908
-		minables titanium 35 3.86798
-		minables platinum 35 3.86798
 	object
 		sprite planet/gas1
 		distance 901.13
 		period 490.478
-		minables titanium 35 3.86798
-		minables platinum 35 3.86798
 		object
 			sprite planet/tethys
 			distance 246
 			period 15.4212
-			minables titanium 35 3.86798
-			minables platinum 35 3.86798
 		object
 			sprite planet/io
 			distance 377
 			period 29.2569
-			minables titanium 35 3.86798
-			minables platinum 35 3.86798
 		object Sendare
 			sprite planet/rock14
 			distance 509
 			period 45.8978
-			minables titanium 35 3.86798
-			minables platinum 35 3.86798
 	object
 		sprite planet/gas11
 		distance 2420.37
 		period 2159.04
-		minables titanium 35 3.86798
-		minables platinum 35 3.86798
 		object
 			sprite planet/lava0
 			distance 279
 			period 15.3704
-			minables titanium 35 3.86798
-			minables platinum 35 3.86798
 		object
 			sprite planet/rock3
 			distance 432
 			period 29.6144
-			minables titanium 35 3.86798
-			minables platinum 35 3.86798
 		object
 			sprite planet/dust3
 			distance 546
 			period 42.0791
-			minables titanium 35 3.86798
-			minables platinum 35 3.86798
 
 system Comlark
 	pos -376.737 -4412.2
 	government Ultaka
 	habitable 320
+	belt 1335
 	link Neevee
 	link Jeelark
 	link Nelha
@@ -2788,6 +2805,7 @@ system D1
 	pos 382.771 -4591.35
 	government Donko
 	habitable 135
+	belt 1828
 	link D2
 	link D3
 	asteroids "small rock" 3 4.536
@@ -2796,6 +2814,8 @@ system D1
 	asteroids "small metal" 33 8.19
 	asteroids "medium metal" 2 6.741
 	asteroids "large metal" 30 7.182
+	minables iron 14 11.096
+	minables lead 7 14.1663
 	fleet "Donko small" 650
 	fleet "Donko Guard Small" 500
 	object
@@ -2838,12 +2858,16 @@ system D10
 	pos 262.771 -4398.35
 	government Donko
 	habitable 320
+	belt 1774
 	link D7
 	asteroids "medium rock" 11 6.45
 	asteroids "large rock" 3 4.95
 	asteroids "small metal" 27 6
 	asteroids "medium metal" 69 3.95
 	asteroids "large metal" 11 5.95
+	minables aluminum 6 6.43412
+	minables platinum 9 8.47231
+	minables titanium 24 5.76601
 	fleet "Donko small" 500
 	fleet "Donko Guard Small" 500
 	fleet "Donko Guard Big" 1000
@@ -2912,6 +2936,7 @@ system D2
 	pos 364.771 -4547.35
 	government Donko
 	habitable 233.28
+	belt 1217
 	link D4
 	link D3
 	link D1
@@ -2921,6 +2946,9 @@ system D2
 	asteroids "small metal" 8 1.2348
 	asteroids "medium metal" 23 1.7052
 	asteroids "large metal" 2 2.646
+	minables aluminum 10 1.69021
+	minables copper 3 2.25776
+	minables iron 7 2.63872
 	fleet "Donko small" 500
 	fleet "Donko Guard Small" 500
 	object
@@ -2959,6 +2987,7 @@ system D3
 	pos 410.771 -4544.35
 	government Donko
 	habitable 2795
+	belt 1276
 	link D4
 	link D2
 	link D1
@@ -3011,6 +3040,7 @@ system D4
 	pos 368.771 -4505.35
 	government Donko
 	habitable 425.92
+	belt 1921
 	link D5
 	link D3
 	link D2
@@ -3020,6 +3050,7 @@ system D4
 	asteroids "small metal" 28 4.092
 	asteroids "medium metal" 1 2.277
 	asteroids "large metal" 3 3.036
+	minables lead 8 6.31723
 	fleet "Donko small" 500
 	fleet "Donko Guard Small" 400
 	object
@@ -3054,6 +3085,7 @@ system D5
 	pos 343.771 -4463.35
 	government Donko
 	habitable 486.68
+	belt 1073
 	link D9
 	link D8
 	link D7
@@ -3108,12 +3140,14 @@ system D6
 	pos 398.771 -4480.35
 	government Donko
 	habitable 320
+	belt 1298
 	link D5
 	asteroids "small rock" 1 7.569
 	asteroids "medium rock" 12 5.133
 	asteroids "large rock" 3 8.874
 	asteroids "medium metal" 17 10.353
 	asteroids "large metal" 4 10.179
+	minables tungsten 1 14.9411
 	fleet "Donko small" 500
 	fleet "Donko Guard Small" 500
 	object
@@ -3156,6 +3190,7 @@ system D7
 	pos 310.771 -4424.35
 	government Donko
 	habitable 1080
+	belt 1505
 	link D10
 	link D9
 	link D5
@@ -3165,6 +3200,7 @@ system D7
 	asteroids "small metal" 25 5.3703
 	asteroids "medium metal" 80 5.6916
 	asteroids "large metal" 61 6.5178
+	minables silicon 25 5.26369
 	fleet "Donko small" 500
 	fleet "Donko Guard Small" 500
 	object
@@ -3201,6 +3237,7 @@ system D8
 	pos 372.771 -4430.35
 	government Donko
 	habitable 425.92
+	belt 1790
 	link D5
 	asteroids "small rock" 3 9.3264
 	asteroids "medium rock" 9 8.352
@@ -3208,6 +3245,9 @@ system D8
 	asteroids "small metal" 34 9.6744
 	asteroids "medium metal" 18 7.0296
 	asteroids "large metal" 55 5.2896
+	minables copper 2 9.54126
+	minables neodymium 10 14.0019
+	minables tungsten 28 10.6529
 	fleet "Donko small" 500
 	fleet "Donko Guard Small" 500
 	object
@@ -3258,6 +3298,7 @@ system D9
 	pos 338.771 -4400.35
 	government Donko
 	habitable 486.68
+	belt 1916
 	link D7
 	link D5
 	asteroids "medium rock" 17 1.742
@@ -3265,6 +3306,7 @@ system D9
 	asteroids "small metal" 5 1.066
 	asteroids "medium metal" 5 1.937
 	asteroids "large metal" 5 1.794
+	minables lead 1 2.49528
 	fleet "Donko small" 500
 	fleet "Donko Guard Small" 500
 	object
@@ -3523,6 +3565,8 @@ system Deefolks
 	asteroids "large rock" 48 4.7918
 	asteroids "small metal" 22 6.8172
 	asteroids "large metal" 22 3.458
+	minables titanium 35 3.86798
+	minables tungsten 35 3.86798
 	trade Clothing 480
 	trade Electronics 700
 	trade Equipment 480
@@ -3540,65 +3584,48 @@ system Deefolks
 	fleet "Ultaka small" 10000
 	fleet "Qanse Small" 1600
 	fleet "Dels miner" 2000
-	minables titanium 35 3.86798
-	minables tungsten 35 3.86798
 	object
 		sprite star/k5
 		period 10
-		minables titanium 35 3.86798
-		minables tungsten 35 3.86798
 	object Donto
 		sprite planet/forest1
 		distance 446.577
 		period 182.911
 		offset 243.531
-		minables titanium 35 3.86798
-		minables tungsten 35 3.86798
 		object
 			sprite planet/rock7
 			distance 137
 			period 17.9601
 			offset 309.419
-			minables titanium 35 3.86798
-			minables tungsten 35 3.86798
 		object Meramos-P340P
 			sprite planet/battlestationw
 			distance 202
 			period 11.4747
-			minables titanium 35 3.86798
-			minables tungsten 35 3.86798
 	object
 		sprite planet/cloud0
 		distance 951.067
 		period 568.476
 		offset 336.442
-		minables titanium 35 3.86798
-		minables tungsten 35 3.86798
 		object
 			sprite planet/ice0
 			distance 162
 			period 25.4101
-			minables titanium 35 3.86798
-			minables tungsten 35 3.86798
 	object
 		sprite planet/desert7
 		distance 1412.91
 		period 1029.36
 		offset 111.385
-		minables titanium 35 3.86798
-		minables tungsten 35 3.86798
 	object
 		sprite planet/gas1
 		distance 2095.95
 		period 1859.8
 		offset 38.6823
-		minables titanium 35 3.86798
-		minables tungsten 35 3.86798
 
 system Deepla
 	pos 112.992 -5077.78
 	government Dels
 	habitable 320
+	belt 1671
 	link Sola
 	link Nornal
 	link Voltaric
@@ -3609,6 +3636,8 @@ system Deepla
 	asteroids "small metal" 23 4.437
 	asteroids "medium metal" 104 7.038
 	asteroids "large metal" 16 6.426
+	minables iron 4 12.322
+	minables tungsten 6 8.31801
 	fleet "Dels guard" 600
 	fleet "Dels merchant" 600
 	object
@@ -3820,6 +3849,7 @@ system Deloop
 	pos 124.437 -4994.72
 	government Ultaka
 	habitable 320
+	belt 1577
 	link Hellma
 	link Reco
 	asteroids "small rock" 1 7.38
@@ -3827,6 +3857,7 @@ system Deloop
 	asteroids "small metal" 200 8.04
 	asteroids "medium metal" 1 6.72
 	asteroids "large metal" 50 3.72
+	minables tungsten 8 9.19299
 	fleet "Qanse Small" 800
 	fleet "Dels guard" 10000
 	fleet "Ultaka small" 10000
@@ -4130,6 +4161,7 @@ system Devo
 	pos -5.39504 -5021.41
 	government Dels
 	habitable 1080
+	belt 1621
 	link Genak
 	link Dofolk
 	asteroids "small rock" 34 2.5175
@@ -4138,6 +4170,8 @@ system Devo
 	asteroids "small metal" 10 6.27
 	asteroids "medium metal" 33 2.945
 	asteroids "large metal" 5 6.65
+	minables aluminum 18 3.95423
+	minables neodymium 25 4.45764
 	fleet "Dels guard" 1000
 	fleet "Dels merchant" 600
 	object
@@ -4225,6 +4259,7 @@ system Dofolk
 	pos 36.3223 -5085.68
 	government Dels
 	habitable 425.92
+	belt 1236
 	link Deepla
 	link Nornal
 	link Voltaric
@@ -4236,6 +4271,8 @@ system Dofolk
 	asteroids "small metal" 39 3.5568
 	asteroids "medium metal" 4 6.84
 	asteroids "large metal" 3 6.7032
+	minables neodymium 3 7.10335
+	minables titanium 2 5.40961
 	fleet "Dels guard" 1000
 	fleet "Dels merchant" 600
 	object
@@ -4285,6 +4322,7 @@ system Dolmoriwakla
 	pos 0.0436983 -5263.19
 	government "Dels (Pirate)"
 	habitable 486.68
+	belt 1045
 	link "Qee Nori"
 	asteroids "medium metal" 2 5.2026
 	asteroids "large metal" 1 3.289
@@ -4449,6 +4487,7 @@ system Dree
 	pos -284.971 -4389.76
 	government Ultaka
 	habitable 851.84
+	belt 1759
 	link Keen
 	link Jeelark
 	link Suere
@@ -4458,6 +4497,7 @@ system Dree
 	asteroids "medium rock" 51 2.916
 	asteroids "large rock" 1 2.34
 	asteroids "large metal" 2 2.844
+	minables tungsten 3 5.28667
 	fleet "Ultaka small" 1200
 	fleet "Ultaka Traps" 1200
 	object
@@ -4698,6 +4738,7 @@ system Eribai
 	pos -708.772 -4472.02
 	government Ignaggen
 	habitable 625
+	belt 1381
 	link Aibo
 	link Lika
 	link Arger
@@ -4709,6 +4750,8 @@ system Eribai
 	asteroids "small metal" 6 5.1678
 	asteroids "medium metal" 8 4.3362
 	asteroids "large metal" 7 4.3956
+	minables aluminum 15 8.30776
+	minables iron 3 6.85926
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -4820,6 +4863,7 @@ system Erwal
 	pos -872.674 -4251.4
 	government Ignaggen
 	habitable 486.68
+	belt 1494
 	link Kelke
 	link Aelleo
 	link Raskal
@@ -4829,6 +4873,9 @@ system Erwal
 	asteroids "small metal" 102 5.3298
 	asteroids "medium metal" 135 5.67
 	asteroids "large metal" 76 7.7112
+	minables iron 57 9.94016
+	minables lead 13 10.2645
+	minables uranium 56 8.01819
 	fleet "Ignaggen Outlaw" 2300
 	fleet "Kager Military" 800
 	fleet Ignaggen 1000
@@ -5292,6 +5339,7 @@ system "Fee Ro"
 	pos -30.2 -5101.46
 	government Dels
 	habitable 625
+	belt 1983
 	link Nelop
 	link Maloa
 	asteroids "small rock" 27 2.442
@@ -5300,6 +5348,9 @@ system "Fee Ro"
 	asteroids "small metal" 29 2.948
 	asteroids "medium metal" 6 2.552
 	asteroids "large metal" 19 2.97
+	minables iron 2 4.97992
+	minables titanium 6 3.76312
+	minables tungsten 2 3.24566
 	fleet "Dels guard" 1000
 	fleet "Dels merchant" 600
 	object
@@ -5420,6 +5471,8 @@ system Feeroko
 	asteroids "small metal" 4 1.42
 	asteroids "medium metal" 58 1.04
 	asteroids "large metal" 16 1.02
+	minables aluminum 35 3.86798
+	minables iron 35 3.86798
 	trade Clothing 480
 	trade Electronics 720
 	trade Equipment 420
@@ -5437,58 +5490,40 @@ system Feeroko
 	fleet "Ultaka small" 10000
 	fleet "Qanse Small" 1600
 	fleet "Dels miner" 1200
-	minables aluminum 35 3.86798
-	minables iron 35 3.86798
 	object
 		sprite star/g5
 		period 10
-		minables aluminum 35 3.86798
-		minables iron 35 3.86798
 	object
 		sprite planet/dust4
 		distance 196.21
 		period 43.9746
-		minables aluminum 35 3.86798
-		minables iron 35 3.86798
 	object Ka'erie
 		sprite planet/ocean9
 		distance 567.21
 		period 216.14
 		offset 295.268
-		minables aluminum 35 3.86798
-		minables iron 35 3.86798
 		object Meramos-P339P
 			sprite planet/battlestationw
 			distance 202
 			period 11.4747
-			minables aluminum 35 3.86798
-			minables iron 35 3.86798
 	object
 		sprite planet/gas11
 		distance 1465.77
 		period 897.881
 		offset 98.7541
-		minables aluminum 35 3.86798
-		minables iron 35 3.86798
 		object
 			sprite planet/lava0
 			distance 279
 			period 15.3704
-			minables aluminum 35 3.86798
-			minables iron 35 3.86798
 		object
 			sprite planet/rhea
 			distance 444
 			period 30.8569
-			minables aluminum 35 3.86798
-			minables iron 35 3.86798
 	object
 		sprite planet/gas7
 		distance 3285.66
 		period 3013.38
 		offset 11.8218
-		minables aluminum 35 3.86798
-		minables iron 35 3.86798
 
 system Fekkal
 	pos 5200.27 -8026.36
@@ -5539,6 +5574,7 @@ system Fellan
 	pos -710.674 -4116.4
 	government Ignaggen
 	habitable 486.68
+	belt 1926
 	link Fines
 	link Kelleon
 	asteroids "small rock" 10 1.7408
@@ -5546,6 +5582,8 @@ system Fellan
 	asteroids "large rock" 2 1.7136
 	asteroids "small metal" 1 1.768
 	asteroids "large metal" 1 2.0944
+	minables iron 10 3.89081
+	minables titanium 1 3.02801
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -5733,6 +5771,7 @@ system Feodle
 	pos -886.674 -4548.4
 	government Ignaggen
 	habitable 233.28
+	belt 1418
 	link Ieon
 	link Ilen
 	link Kiar
@@ -5742,6 +5781,9 @@ system Feodle
 	asteroids "small metal" 35 7.2618
 	asteroids "medium metal" 77 5.0388
 	asteroids "large metal" 27 5.2858
+	minables copper 17 4.61681
+	minables iron 14 6.56546
+	minables tungsten 30 5.82883
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -6073,9 +6115,17 @@ system Fielos
 	pos -911.219 -4429.55
 	government Ignaggen
 	habitable 625
+	belt 1182
 	link Aoma
 	link Ierleon
-	asteroids "large metal" 1 3.321
+	asteroids "small rock" 23 6.2272
+	asteroids "medium rock" 50 2.7328
+	asteroids "large rock" 36 3.8976
+	asteroids "small metal" 7 4.6592
+	asteroids "medium metal" 199 3.1808
+	asteroids "large metal" 10 3.5392
+	minables neodymium 12 6.39926
+	minables titanium 5 5.67482
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -6118,12 +6168,14 @@ system Fienel
 	pos -754.772 -4586.02
 	government Ignaggen
 	habitable 320
+	belt 1820
 	link Ilen
 	link Finan
 	link Kerimi
 	asteroids "small metal" 6 2.662
 	asteroids "medium metal" 4 1.826
 	asteroids "large metal" 1 1.1
+	minables lead 1 2.75006
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -6182,6 +6234,7 @@ system Finan
 	pos -741.772 -4530.02
 	government Ignaggen
 	habitable 5000
+	belt 1547
 	link Aibo
 	link Ilen
 	link Fienel
@@ -6191,6 +6244,8 @@ system Finan
 	asteroids "small metal" 61 2.145
 	asteroids "medium metal" 7 2.97
 	asteroids "large metal" 32 4.488
+	minables lead 10 3.96355
+	minables titanium 8 5.66047
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -6275,6 +6330,7 @@ system Fines
 	pos -754.674 -4157.4
 	government Ignaggen
 	habitable 233.28
+	belt 1049
 	link Aelleo
 	link Kamla
 	link Fellan
@@ -6284,6 +6340,8 @@ system Fines
 	asteroids "large rock" 77 1.9266
 	asteroids "small metal" 11 2.2139
 	asteroids "large metal" 15 1.2506
+	minables aluminum 31 1.87893
+	minables titanium 4 2.11577
 	fleet "Ignaggen Outlaw" 2800
 	fleet "Kager Military" 1000
 	fleet Ignaggen 1000
@@ -6328,11 +6386,19 @@ system Flama
 	pos -379.438 -5183.37
 	government Geeva
 	habitable 1111.68
+	belt 1879
 	link Scmila
 	link Lilima
 	link Agaka
 	link Neflim
-	asteroids "large metal" 1 7.9866
+	asteroids "small rock" 18 1.2402
+	asteroids "medium rock" 13 2.3634
+	asteroids "large rock" 12 1.6614
+	asteroids "small metal" 1 2.0826
+	asteroids "medium metal" 8 1.7082
+	asteroids "large metal" 6 3.2994
+	minables lead 9 2.0265
+	minables neodymium 1 2.80492
 	fleet "Geeva Battle Fleet" 900
 	fleet "Geeva Civillian" 800
 	object
@@ -6440,6 +6506,7 @@ system Foklo
 	pos -199.94 -4904.22
 	government Revos
 	habitable 425.92
+	belt 1346
 	link Kolha
 	link Momi
 	link Nanai
@@ -6448,6 +6515,7 @@ system Foklo
 	asteroids "large rock" 3 3.2292
 	asteroids "small metal" 3 3.2058
 	asteroids "large metal" 2 1.9656
+	minables copper 1 4.03566
 	fleet "Revos small" 1000
 	fleet "Revos big" 1500
 	fleet "Revos merchant" 600
@@ -6491,11 +6559,20 @@ system Fosme
 	pos -773.219 -4295.55
 	government Ignaggen
 	habitable 945
+	belt 1348
 	link Inen
 	link Rokar
 	link Kikar
 	link Aelleo
-	asteroids "large metal" 1 3.2775
+	asteroids "small rock" 8 1.2342
+	asteroids "medium rock" 64 1.8887
+	asteroids "large rock" 8 2.3375
+	asteroids "small metal" 78 1.8139
+	asteroids "medium metal" 28 2.4684
+	asteroids "large metal" 49 2.7863
+	minables aluminum 48 2.47233
+	minables iron 5 2.14691
+	minables lead 29 2.79352
 	fleet "Ignaggen Outlaw" 2800
 	fleet "Kager Military" 1000
 	fleet Ignaggen 1000
@@ -6590,6 +6667,7 @@ system Gamali
 	pos -492.438 -5288.37
 	government "Kroom Kakaima"
 	habitable 1080
+	belt 1618
 	link Scmila
 	link Grakli
 	link Lima
@@ -6601,6 +6679,9 @@ system Gamali
 	asteroids "large rock" 2 3.927
 	asteroids "medium metal" 12 3.621
 	asteroids "large metal" 10 4.947
+	minables aluminum 5 8.19821
+	minables lead 3 6.15399
+	minables titanium 3 6.19667
 	fleet "Kakaima Defense" 800
 	fleet "Kakaima Civillian" 600
 	fleet "Kroom Kanai" 2200
@@ -6713,6 +6794,7 @@ system Ganet
 	pos -402.438 -5008.37
 	government Geeva
 	habitable 233.28
+	belt 1371
 	link Neflim
 	link Gorkva
 	asteroids "small rock" 3 5.588
@@ -6721,6 +6803,7 @@ system Ganet
 	asteroids "small metal" 201 3.696
 	asteroids "medium metal" 39 3.74
 	asteroids "large metal" 76 3.036
+	minables lead 6 4.31995
 	fleet "Geeva Battle Fleet" 900
 	fleet "Geeva Civillian" 800
 	object
@@ -6763,6 +6846,7 @@ system Ganko
 	pos -394.318 -5386.55
 	government "Kroom Kanai"
 	habitable 8640
+	belt 1470
 	link Getga
 	link Riliga
 	link Gukali
@@ -6811,6 +6895,7 @@ system Gavnan
 	pos -287.972 -5079.85
 	government "Kroom Kanai"
 	habitable 320
+	belt 1860
 	link Agaka
 	link Sukko
 	asteroids "small rock" 1 5.148
@@ -6819,6 +6904,9 @@ system Gavnan
 	asteroids "small metal" 2 5.076
 	asteroids "medium metal" 7 1.908
 	asteroids "large metal" 5 2.196
+	minables lead 4 5.02275
+	minables neodymium 4 3.67271
+	minables tungsten 2 4.12864
 	fleet "Kroom Kanai" 800
 	object
 		sprite star/m0
@@ -6909,6 +6997,7 @@ system Geen
 	pos 146.363 -5155.59
 	government Dels
 	habitable 1080
+	belt 1491
 	link Sola
 	link Nornal
 	asteroids "small rock" 104 2.25
@@ -6917,6 +7006,9 @@ system Geen
 	asteroids "small metal" 9 4.815
 	asteroids "medium metal" 50 2.295
 	asteroids "large metal" 2 6.345
+	minables copper 59 4.24817
+	minables lead 6 5.83598
+	minables titanium 3 5.00878
 	fleet "Dels guard" 600
 	object
 		sprite star/g0
@@ -6998,6 +7090,7 @@ system Genak
 	pos 63.6337 -4990.39
 	government Dels
 	habitable 425.92
+	belt 1977
 	link Devo
 	link Voltaric
 	asteroids "large rock" 1 7.6531
@@ -7105,9 +7198,16 @@ system Getga
 	pos -319.318 -5361.55
 	government "Kroom Kanai"
 	habitable 425.92
+	belt 1812
 	link Ganko
 	link Riliga
-	asteroids "large metal" 1 3.6036
+	asteroids "small rock" 58 1.2528
+	asteroids "medium rock" 26 3.0888
+	asteroids "large rock" 26 2.0736
+	asteroids "small metal" 17 1.5552
+	asteroids "medium metal" 51 2.3544
+	asteroids "large metal" 3 2.8296
+	minables titanium 62 2.51321
 	fleet "Kroom Kanai" 800
 	fleet "Kakaima Defense" 3200
 	object
@@ -7146,6 +7246,7 @@ system Gilda
 	pos -288.972 -5256.85
 	government "Kroom Kanai"
 	habitable 233.28
+	belt 1966
 	link Ginma
 	link Akogi
 	link Gonma
@@ -7156,6 +7257,7 @@ system Gilda
 	asteroids "small metal" 1 3.8896
 	asteroids "medium metal" 6 5.0388
 	asteroids "large metal" 4 5.0388
+	minables copper 7 8.41558
 	fleet "Kroom Kanai" 800
 	fleet "Kakaima Defense" 3200
 	object
@@ -7244,6 +7346,7 @@ system Ginma
 	pos -352.438 -5225.37
 	government "Kroom Kanai"
 	habitable 1400
+	belt 1495
 	link Grakli
 	link Omili
 	link Akogi
@@ -7253,6 +7356,9 @@ system Ginma
 	asteroids "small metal" 5 6.048
 	asteroids "medium metal" 29 5.656
 	asteroids "large metal" 8 7.448
+	minables iron 12 6.93427
+	minables lead 2 10.6152
+	minables tungsten 2 7.08972
 	fleet "Kroom Kanai" 800
 	fleet "Kakaima Defense" 1200
 	object
@@ -7300,6 +7406,7 @@ system Ginso
 	pos -595.318 -5239.55
 	government "Kroom Kakaima"
 	habitable 486.68
+	belt 1196
 	link Lima
 	link Gamali
 	link Ogaki
@@ -7308,6 +7415,7 @@ system Ginso
 	asteroids "large rock" 23 2.925
 	asteroids "medium metal" 3 5.625
 	asteroids "large metal" 4 5.805
+	minables iron 1 6.20396
 	fleet "Kakaima Defense" 800
 	fleet "Kakaima Civillian" 600
 	object
@@ -7356,6 +7464,7 @@ system Gohal
 	pos 479.519 -4686.61
 	government Ultaka
 	habitable 1111.68
+	belt 1901
 	link Gorok
 	link Gokal
 	link Goma
@@ -7366,6 +7475,9 @@ system Gohal
 	asteroids "small metal" 63 3.8686
 	asteroids "medium metal" 5 7.6038
 	asteroids "large metal" 33 8.6043
+	minables iron 17 7.10551
+	minables lead 12 6.16277
+	minables titanium 2 7.68164
 	object
 		sprite star/g5
 		distance 38.5253
@@ -7408,6 +7520,7 @@ system Gohao
 	pos 617.282 -4452.2
 	government "Qoro (East)"
 	habitable 486.68
+	belt 1799
 	link Gohoko
 	asteroids "small rock" 1 5.5328
 	asteroids "medium rock" 6 6.9888
@@ -7415,6 +7528,8 @@ system Gohao
 	asteroids "small metal" 1 9.1728
 	asteroids "medium metal" 24 6.4064
 	asteroids "large metal" 1 7.4256
+	minables silicon 8 9.25223
+	minables titanium 2 7.65963
 	fleet "Qoro (East)" 500
 	object
 		sprite star/k0
@@ -7456,6 +7571,7 @@ system Gohoko
 	pos 619.519 -4494.61
 	government Ultaka
 	habitable 486.68
+	belt 1189
 	link Gosol
 	link Gorica
 	link Gohao
@@ -7465,6 +7581,7 @@ system Gohoko
 	asteroids "small metal" 6 4.305
 	asteroids "medium metal" 15 3.885
 	asteroids "large metal" 2 3.885
+	minables lead 1 5.37444
 	fleet "Qoro (East)" 1000
 	fleet "Ultaka small" 1000
 	object
@@ -7511,6 +7628,7 @@ system Gohol
 	pos 593.736 -4579.41
 	government Ultaka
 	habitable 659.2
+	belt 1691
 	link Golo
 	link Gosol
 	link Gorod
@@ -7553,6 +7671,7 @@ system Gokak
 	pos 440.519 -4659.61
 	government Ultaka
 	habitable 1250
+	belt 1503
 	link Gohal
 	link Gorok
 	asteroids "small rock" 9 8.1972
@@ -7561,6 +7680,7 @@ system Gokak
 	asteroids "small metal" 4 6.5205
 	asteroids "medium metal" 1 7.452
 	asteroids "large metal" 6 7.1415
+	minables silicon 22 16.2806
 	object
 		sprite star/g5
 		distance 61
@@ -7603,6 +7723,7 @@ system Gokal
 	pos 432.519 -4705.61
 	government Ultaka
 	habitable 625
+	belt 1257
 	link Gohal
 	link Makhom
 	asteroids "small rock" 2 7.6125
@@ -7647,6 +7768,7 @@ system Gokhom
 	pos 536.519 -4601.61
 	government Ultaka
 	habitable 851.84
+	belt 1482
 	link Goric
 	link Gorok
 	link Golo
@@ -7658,6 +7780,8 @@ system Gokhom
 	asteroids "large rock" 3 1.533
 	asteroids "medium metal" 1 3.087
 	asteroids "large metal" 11 1.974
+	minables aluminum 3 2.80856
+	minables titanium 5 3.54659
 	object
 		sprite star/k5
 		distance 47.5
@@ -7712,6 +7836,7 @@ system Goko
 	pos 532.519 -4530.61
 	government Ultaka
 	habitable 425.92
+	belt 1698
 	link Golo
 	link Gorica
 	link Gosoko
@@ -7722,6 +7847,8 @@ system Goko
 	asteroids "small metal" 26 3.132
 	asteroids "medium metal" 105 3.942
 	asteroids "large metal" 20 2.862
+	minables copper 5 5.30026
+	minables uranium 36 6.09239
 	fleet "Qoro (East)" 1500
 	fleet "Ultaka small" 1000
 	object
@@ -7763,6 +7890,7 @@ system Goko
 system Gokomse
 	pos 404.439 -4682.96
 	habitable 1111.68
+	belt 1848
 	link Masowla
 	link "Pug Yoot"
 	asteroids "small rock" 16 2.0304
@@ -7771,6 +7899,8 @@ system Gokomse
 	asteroids "small metal" 28 2.9808
 	asteroids "medium metal" 2 2.484
 	asteroids "large metal" 86 2.7648
+	minables lead 22 3.89891
+	minables tungsten 30 3.17336
 	fleet "Small Pug T2" 1500
 	fleet "Large Pug T2" 1800
 	object
@@ -7870,6 +8000,7 @@ system Golo
 	pos 547.519 -4566.61
 	government Ultaka
 	habitable 945
+	belt 1519
 	link Gokhom
 	link Gohol
 	link Goko
@@ -7882,6 +8013,8 @@ system Golo
 	asteroids "small metal" 18 4.6368
 	asteroids "medium metal" 109 3.2292
 	asteroids "large metal" 33 2.4426
+	minables copper 2 4.64985
+	minables silicon 2 4.60455
 	fleet "Qoro (East)" 1500
 	fleet "Ultaka small" 1000
 	object
@@ -7922,6 +8055,7 @@ system Goma
 	pos 487.519 -4738.61
 	government Ultaka
 	habitable 425.92
+	belt 1074
 	link Gohal
 	link Gonal
 	asteroids "medium rock" 11 7.194
@@ -7929,6 +8063,7 @@ system Goma
 	asteroids "small metal" 4 9.9
 	asteroids "medium metal" 2 7.326
 	asteroids "large metal" 13 6.27
+	minables titanium 6 10.5683
 	object
 		sprite star/k5
 		period 10
@@ -7965,12 +8100,14 @@ system Gomar
 	pos 495.519 -4590.61
 	government Ultaka
 	habitable 320
+	belt 1818
 	link Gokhom
 	link Gosoko
 	link Gowok
 	asteroids "small metal" 20 4.5144
 	asteroids "medium metal" 21 5.7456
 	asteroids "large metal" 10 5.1528
+	minables titanium 3 9.20202
 	object
 		sprite star/m0
 		period 10
@@ -8011,6 +8148,7 @@ system Gomokori
 	pos 543.282 -4455.2
 	government "Qoro (East)"
 	habitable 719.96
+	belt 1075
 	link Gorica
 	link Gosofo
 	asteroids "small rock" 59 4.64
@@ -8019,6 +8157,9 @@ system Gomokori
 	asteroids "small metal" 25 4.672
 	asteroids "medium metal" 22 3.104
 	asteroids "large metal" 10 1.6
+	minables iron 20 6.62584
+	minables silver 2 4.6549
+	minables tungsten 1 4.54391
 	fleet "Qoro (East)" 500
 	object
 		sprite star/k0
@@ -8065,6 +8206,7 @@ system Gonal
 	pos 536.519 -4702.61
 	government Ultaka
 	habitable 2692.76
+	belt 1846
 	link Goma
 	link Goric
 	link Gohal
@@ -8074,6 +8216,9 @@ system Gonal
 	asteroids "large rock" 10 4.55
 	asteroids "medium metal" 4 4.0404
 	asteroids "large metal" 2 2.4752
+	minables aluminum 2 5.6194
+	minables lead 3 6.4635
+	minables silver 4 4.87041
 	object
 		sprite star/f0
 		distance 12.0026
@@ -8120,6 +8265,7 @@ system Gonma
 	pos -260.972 -5205.85
 	government "Kroom Kanai"
 	habitable 486.68
+	belt 1096
 	link Gilda
 	link Sukko
 	asteroids "small rock" 38 3.348
@@ -8128,6 +8274,7 @@ system Gonma
 	asteroids "small metal" 34 4.536
 	asteroids "medium metal" 106 2.7
 	asteroids "large metal" 11 4.914
+	minables copper 41 3.48702
 	fleet "Kroom Kanai" 800
 	fleet "Kakaima Defense" 8200
 	object
@@ -8232,6 +8379,7 @@ system Goric
 	pos 528.519 -4641.61
 	government Ultaka
 	habitable 1715
+	belt 1001
 	link Gorok
 	link Gonal
 	link Gokhom
@@ -8241,6 +8389,8 @@ system Goric
 	asteroids "large rock" 20 2.5806
 	asteroids "medium metal" 4 4.3401
 	asteroids "large metal" 1 2.8543
+	minables silver 26 3.42693
+	minables titanium 27 3.42693
 	object
 		sprite star/f5
 		period 10
@@ -8277,6 +8427,7 @@ system Gorica
 	pos 552.519 -4502.61
 	government Ultaka
 	habitable 425.92
+	belt 1903
 	link Goko
 	link Golo
 	link Gohoko
@@ -8288,6 +8439,9 @@ system Gorica
 	asteroids "small metal" 23 9.17
 	asteroids "medium metal" 3 6.58
 	asteroids "large metal" 23 4.76
+	minables iron 1 13.2503
+	minables silver 1 12.357
+	minables titanium 4 12.1997
 	fleet "Qoro (East)" 1000
 	fleet "Ultaka small" 1000
 	object
@@ -8326,6 +8480,7 @@ system Gorkva
 	pos -448.438 -5054.37
 	government Geeva
 	habitable 486.68
+	belt 1167
 	link Neflim
 	link Ganet
 	link Lilima
@@ -8335,6 +8490,7 @@ system Gorkva
 	asteroids "small metal" 25 3.894
 	asteroids "medium metal" 16 1.881
 	asteroids "large metal" 49 4.422
+	minables aluminum 4 6.06944
 	fleet "Geeva Battle Fleet" 900
 	fleet "Geeva Civillian" 800
 	object
@@ -8377,12 +8533,16 @@ system Gorod
 	pos 632.519 -4612.61
 	government Ultaka
 	habitable 5425.92
+	belt 1888
 	link Gohol
 	link Gosos
 	asteroids "small rock" 3 9.9
 	asteroids "medium rock" 45 5.175
 	asteroids "large rock" 6 8.475
 	asteroids "large metal" 1 11.25
+	minables aluminum 1 8.27036
+	minables copper 9 9.18535
+	minables silver 1 8.57732
 	object
 		sprite star/a0
 		distance 11.1466
@@ -8425,6 +8585,7 @@ system Gorok
 	pos 483.519 -4631.61
 	government Ultaka
 	habitable 425.92
+	belt 1492
 	link Gohal
 	link Goric
 	link Gonal
@@ -8437,6 +8598,7 @@ system Gorok
 	asteroids "small metal" 9 2.352
 	asteroids "medium metal" 2 4.0768
 	asteroids "large metal" 4 2.5088
+	minables aluminum 2 3.01676
 	object
 		sprite star/k5
 		period 10
@@ -8473,6 +8635,7 @@ system Goroklo
 	pos 597.519 -4674.61
 	government Ultaka
 	habitable 320
+	belt 1333
 	link Gonal
 	link Goric
 	link Gosos
@@ -8521,12 +8684,15 @@ system Gosako
 	pos 449.282 -4577.2
 	government Ultaka
 	habitable 912.6
+	belt 1818
 	link Gosoko
 	link Gowok
 	asteroids "small rock" 3 2.241
 	asteroids "medium rock" 33 2.187
 	asteroids "large rock" 1 1.404
 	asteroids "large metal" 4 2.295
+	minables gold 1 4.18364
+	minables tungsten 10 3.09026
 	object
 		sprite star/k0
 		distance 42.4707
@@ -8573,6 +8739,7 @@ system Gosofo
 	pos 492.282 -4486.2
 	government Ultaka
 	habitable 2201.68
+	belt 1155
 	link Goko
 	link Gosoko
 	link Gorica
@@ -8583,6 +8750,9 @@ system Gosofo
 	asteroids "small metal" 1 6.095
 	asteroids "medium metal" 175 7.8775
 	asteroids "large metal" 9 6.785
+	minables iron 11 8.09703
+	minables lead 35 11.3981
+	minables silicon 3 9.31938
 	fleet "Qoro (East)" 1000
 	fleet "Ultaka small" 1000
 	object
@@ -8623,6 +8793,7 @@ system Gosoko
 	pos 483.282 -4541.2
 	government Ultaka
 	habitable 233.28
+	belt 1017
 	link Gomar
 	link Gokhom
 	link Golo
@@ -8635,6 +8806,8 @@ system Gosoko
 	asteroids "small metal" 4 3.24
 	asteroids "medium metal" 1 4.1472
 	asteroids "large metal" 1 1.7172
+	minables gold 1 6.31155
+	minables silicon 9 5.58199
 	fleet "Qoro (East)" 1500
 	fleet "Ultaka small" 1000
 	object
@@ -8681,6 +8854,7 @@ system Gosol
 	pos 599.519 -4537.61
 	government Ultaka
 	habitable 858.28
+	belt 1131
 	link Gohol
 	link Golo
 	link Gohoko
@@ -8690,6 +8864,7 @@ system Gosol
 	asteroids "small metal" 1 6.003
 	asteroids "medium metal" 2 6.351
 	asteroids "large metal" 2 10.875
+	minables aluminum 2 16.7457
 	fleet "Qoro (East)" 1500
 	fleet "Ultaka small" 1000
 	object
@@ -8722,6 +8897,7 @@ system Gosos
 	pos 577.519 -4625.61
 	government Ultaka
 	habitable 320
+	belt 1391
 	link Gorod
 	link Gokhom
 	link Goroklo
@@ -8730,6 +8906,8 @@ system Gosos
 	asteroids "small metal" 13 7.1967
 	asteroids "medium metal" 82 2.8014
 	asteroids "large metal" 17 5.796
+	minables iron 26 4.75279
+	minables titanium 34 5.26629
 	object
 		sprite star/m0
 		period 10
@@ -8811,6 +8989,7 @@ system Govlo
 	pos -500.438 -5106.37
 	government Geeva
 	habitable 320
+	belt 1799
 	link Oliga
 	link Riger
 	link Gamila
@@ -8821,6 +9000,9 @@ system Govlo
 	asteroids "small metal" 5 3.1096
 	asteroids "medium metal" 12 3.2448
 	asteroids "large metal" 9 2.028
+	minables aluminum 5 4.62948
+	minables tungsten 7 4.29236
+	minables uranium 4 3.82157
 	fleet "Geeva Battle Fleet" 900
 	fleet "Geeva Civillian" 800
 	object
@@ -8950,6 +9132,7 @@ system Gowok
 	pos 436.282 -4618.2
 	government Ultaka
 	habitable 625
+	belt 1429
 	link Gorok
 	link Gomar
 	link Gosako
@@ -8959,6 +9142,9 @@ system Gowok
 	asteroids "small metal" 18 2.07
 	asteroids "medium metal" 19 2.139
 	asteroids "large metal" 16 1.932
+	minables copper 20 2.6781
+	minables iron 3 4.16671
+	minables uranium 9 3.77253
 	object
 		sprite star/g5
 		period 10
@@ -9003,6 +9189,7 @@ system Grakli
 	pos -424.438 -5282.37
 	government "Kroom Kakaima"
 	habitable 1111.68
+	belt 1182
 	link Scmila
 	link Omili
 	link Gamali
@@ -9014,6 +9201,7 @@ system Grakli
 	asteroids "small metal" 1 5.8344
 	asteroids "medium metal" 14 2.9172
 	asteroids "large metal" 1 4.9764
+	minables silicon 1 4.82482
 	fleet "Kakaima Defense" 800
 	fleet "Kakaima Civillian" 600
 	fleet "Geeva Battle Fleet" 3800
@@ -9058,6 +9246,7 @@ system Gron
 	pos -552.438 -5004.37
 	government Geeva
 	habitable 625
+	belt 1934
 	link Gorkva
 	link Riger
 	asteroids "small rock" 18 4.0698
@@ -9066,6 +9255,9 @@ system Gron
 	asteroids "small metal" 37 1.53
 	asteroids "medium metal" 23 1.53
 	asteroids "large metal" 6 4.0086
+	minables neodymium 1 3.60511
+	minables silicon 26 3.24085
+	minables silver 2 3.64502
 	fleet "Geeva Battle Fleet" 900
 	fleet "Geeva Civillian" 800
 	object
@@ -9104,6 +9296,7 @@ system Gukali
 	pos -363.318 -5325.55
 	government "Kroom Kanai"
 	habitable 625
+	belt 1724
 	link Omili
 	link Grakli
 	link Akaima
@@ -9114,6 +9307,7 @@ system Gukali
 	asteroids "small metal" 12 2.0448
 	asteroids "medium metal" 25 4.0032
 	asteroids "large metal" 19 2.6208
+	minables iron 15 3.1238
 	fleet "Kroom Kanai" 800
 	fleet "Kakaima Defense" 1200
 	object
@@ -9206,6 +9400,7 @@ system Gumen
 	pos -449.163 -5333.93
 	government "Kroom Kakaima"
 	habitable 425.92
+	belt 1971
 	link Gukali
 	link Ganko
 	link Gamali
@@ -9215,6 +9410,8 @@ system Gumen
 	asteroids "small metal" 30 3.6556
 	asteroids "medium metal" 49 2.3218
 	asteroids "large metal" 3 2.47
+	minables copper 29 3.0557
+	minables iron 27 2.92695
 	fleet "Kakaima Defense" 800
 	fleet "Kakaima Civillian" 600
 	fleet "Kroom Kanai" 1200
@@ -9271,6 +9468,7 @@ system Gumo
 	pos -265.318 -5370.55
 	government "Kroom Kanai"
 	habitable 659.2
+	belt 1753
 	link Akaima
 	link Riliga
 	asteroids "small rock" 3 1.9008
@@ -9279,6 +9477,7 @@ system Gumo
 	asteroids "small metal" 15 3.2832
 	asteroids "medium metal" 34 2.304
 	asteroids "large metal" 41 3.888
+	minables aluminum 2 3.85218
 	object
 		sprite star/k5
 		distance 36.45
@@ -9836,6 +10035,7 @@ system Hellma
 	pos 139.47 -5031.7
 	government Dels
 	habitable 1050.92
+	belt 1488
 	link Nell'O
 	link Sedop
 	link Deloop
@@ -9845,6 +10045,7 @@ system Hellma
 	asteroids "small metal" 6 5.096
 	asteroids "medium metal" 11 3.4888
 	asteroids "large metal" 13 4.8608
+	minables gold 2 5.53955
 	fleet "Dels guard" 600
 	fleet "Dels merchant" 1200
 	object
@@ -10111,6 +10312,7 @@ system Hinley
 	pos -278.07 -4679.86
 	government Ultaka
 	habitable 135
+	belt 1890
 	link Alta
 	link Rocco
 	link Volco
@@ -10120,6 +10322,8 @@ system Hinley
 	asteroids "small metal" 15 5.3244
 	asteroids "medium metal" 28 4.1412
 	asteroids "large metal" 5 4.93
+	minables aluminum 1 6.69437
+	minables tungsten 12 4.89559
 	fleet "Ultaka small" 1000
 	fleet "Qanse Small" 1000
 	object
@@ -10201,6 +10405,7 @@ system Holmork
 	pos -134.26 -5030.58
 	government Dels
 	habitable 425.92
+	belt 1372
 	link Maloa
 	link Meller
 	asteroids "small rock" 1 4.0716
@@ -10209,6 +10414,8 @@ system Holmork
 	asteroids "small metal" 27 4.8256
 	asteroids "medium metal" 2 7.2384
 	asteroids "large metal" 92 4.0716
+	minables copper 20 7.98632
+	minables lead 6 7.56741
 	fleet "Dels guard" 1000
 	fleet "Dels merchant" 600
 	object
@@ -10246,6 +10453,7 @@ system Ieon
 	pos -902.674 -4477.4
 	government Ignaggen
 	habitable 1715
+	belt 1279
 	link Feodle
 	link Kiar
 	link Ierleon
@@ -10255,6 +10463,7 @@ system Ieon
 	asteroids "small metal" 4 2.178
 	asteroids "medium metal" 118 2.8556
 	asteroids "large metal" 3 1.331
+	minables copper 24 4.84759
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -10297,6 +10506,7 @@ system Ierleon
 	pos -852.005 -4420.81
 	government Ignaggen
 	habitable 486.68
+	belt 1616
 	link Kiar
 	link Kiler
 	link Fielos
@@ -10307,6 +10517,8 @@ system Ierleon
 	asteroids "small metal" 30 5.8075
 	asteroids "medium metal" 16 3.68
 	asteroids "large metal" 14 7.6475
+	minables lead 48 7.65378
+	minables tungsten 1 5.66508
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -10357,6 +10569,7 @@ system Ikar
 	asteroids "small metal" 3 5.08
 	asteroids "medium metal" 34 2.2
 	asteroids "large metal" 14 2.8
+	minables aluminum 5 2.545
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -10401,6 +10614,7 @@ system Ilen
 	pos -803.772 -4544.02
 	government Ignaggen
 	habitable 486.68
+	belt 1413
 	link Finan
 	link Fienel
 	link Feodle
@@ -10410,6 +10624,7 @@ system Ilen
 	asteroids "small metal" 1 1.512
 	asteroids "medium metal" 3 1.836
 	asteroids "large metal" 3 3.537
+	minables tungsten 3 3.80526
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -10497,17 +10712,21 @@ system Inen
 	pos -745.219 -4364.55
 	government Ignaggen
 	habitable 425.92
+	belt 1076
 	link Aorlem
 	link Kiler
 	link Arger
 	link Rokar
 	link Fosme
-	asteroids "small rock" 1 4.9248
-	asteroids "medium rock" 20 6.8229
-	asteroids "large rock" 6 4.6683
-	asteroids "small metal" 3 7.0794
-	asteroids "medium metal" 4 2.6163
-	asteroids "large metal" 6 7.3872
+	asteroids "small rock" 5 8.5376
+	asteroids "medium rock" 2 9.6715
+	asteroids "large rock" 3 7.2703
+	asteroids "small metal" 60 5.8029
+	asteroids "medium metal" 48 7.6705
+	asteroids "large metal" 143 8.6043
+	minables copper 5 7.27668
+	minables iron 5 10.7187
+	minables titanium 8 11.5347
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -10636,6 +10855,7 @@ system Jeelark
 	pos -366.737 -4458.2
 	government Ultaka
 	habitable 760
+	belt 1861
 	link Comlark
 	link Jolark
 	link Vola
@@ -10736,6 +10956,7 @@ system Jolark
 	pos -407.737 -4499.2
 	government Ultaka
 	habitable 233.28
+	belt 1649
 	link Jeelark
 	link Suadee
 	link Vola
@@ -11257,6 +11478,7 @@ system Kamla
 	pos -720.674 -4207.4
 	government Ignaggen
 	habitable 2372.76
+	belt 1687
 	link Aelleo
 	link Fines
 	link Argol
@@ -11266,6 +11488,7 @@ system Kamla
 	asteroids "small metal" 69 5.1156
 	asteroids "medium metal" 26 6.5268
 	asteroids "large metal" 56 8.1144
+	minables titanium 11 10.7288
 	fleet "Ignaggen Outlaw" 2800
 	fleet "Kager Military" 1000
 	fleet Ignaggen 1000
@@ -11348,6 +11571,41 @@ system Kaor
 			sprite planet/luna
 			distance 324
 			period 30.6983
+
+system Kaornral
+	pos -137.326 -5722.53
+	government Taroun
+	habitable 486.68
+	belt 1839
+	link Zaubaruer
+	link Urlansa
+	asteroids "medium rock" 5 6.1596
+	asteroids "large rock" 1 6.3684
+	asteroids "medium metal" 3 7.83
+	asteroids "large metal" 1 5.8464
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/gas5
+		distance 327.25
+		period 107.339
+	object
+		sprite planet/ice6
+		distance 902.81
+		period 491.85
+		object
+			sprite planet/rock17
+			distance 136
+			period 19.9375
+	object
+		sprite planet/gas14
+		distance 1329.1
+		period 878.567
+	object
+		sprite planet/rock14
+		distance 2502.19
+		period 2269.44
 
 system Kaos
 	pos 5256.27 -8087.36
@@ -11460,6 +11718,7 @@ system Karlai
 	pos -668.219 -4389.55
 	government Ignaggen
 	habitable 486.68
+	belt 1981
 	link Arger
 	link Arema
 	link Rokar
@@ -11468,6 +11727,9 @@ system Karlai
 	asteroids "small metal" 1 4.5414
 	asteroids "medium metal" 7 6.8904
 	asteroids "large metal" 1 7.047
+	minables aluminum 3 9.02742
+	minables titanium 3 6.51468
+	minables uranium 2 5.3436
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -11498,6 +11760,7 @@ system Karllan
 	pos -643.674 -4235.4
 	government Ignaggen
 	habitable 625
+	belt 1231
 	link Argol
 	link Rilia
 	link Leion
@@ -11507,6 +11770,9 @@ system Karllan
 	asteroids "small metal" 31 5.1084
 	asteroids "medium metal" 6 7.9596
 	asteroids "large metal" 250 7.7814
+	minables aluminum 15 14.403
+	minables copper 15 12.7648
+	minables tungsten 17 13.9582
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -11938,6 +12204,7 @@ system Keen
 	pos -270.971 -4449.76
 	government Ultaka
 	habitable 621.68
+	belt 1464
 	link Jeelark
 	link Dree
 	link Collak
@@ -11946,6 +12213,8 @@ system Keen
 	asteroids "small metal" 6 5.7942
 	asteroids "medium metal" 2 8.2215
 	asteroids "large metal" 21 9.2394
+	minables lead 15 15.5197
+	minables silicon 9 13.0569
 	fleet "Ultaka small" 1200
 	fleet "Ultaka Traps" 1200
 	object
@@ -12260,6 +12529,7 @@ system Keli
 	pos -620.674 -4322.4
 	government Ignaggen
 	habitable 1050.92
+	belt 1478
 	link Rilia
 	link Rokar
 	link Radger
@@ -12268,6 +12538,8 @@ system Keli
 	asteroids "large rock" 1 3.225
 	asteroids "medium metal" 2 5.2125
 	asteroids "large metal" 11 4.3125
+	minables copper 1 8.37804
+	minables lead 1 4.40107
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -12315,6 +12587,7 @@ system Kelke
 	pos -907.674 -4303.4
 	government Ignaggen
 	habitable 425.92
+	belt 1280
 	link Kikar
 	link Aoma
 	link Erwal
@@ -12322,6 +12595,7 @@ system Kelke
 	asteroids "large rock" 5 1.14
 	asteroids "medium metal" 36 2.28
 	asteroids "large metal" 4 2.94
+	minables lead 8 4.27313
 	fleet "Ignaggen Outlaw" 2800
 	fleet "Kager Military" 1000
 	fleet Ignaggen 1000
@@ -12373,6 +12647,7 @@ system Kelleon
 	pos -644.674 -4133.4
 	government Ignaggen
 	habitable 486.68
+	belt 1565
 	link Argol
 	link Fellan
 	asteroids "small rock" 1 6.5472
@@ -12789,10 +13064,16 @@ system Kerimi
 	pos -686.772 -4576.02
 	government Ignaggen
 	habitable 135
+	belt 1304
 	link Fienel
 	link Lika
 	link Ikar
-	asteroids "large metal" 1 5.628
+	asteroids "medium rock" 1 2.8728
+	asteroids "large rock" 2 4.6872
+	asteroids "small metal" 4 5.5566
+	asteroids "medium metal" 11 3.0996
+	asteroids "large metal" 1 5.67
+	minables silver 2 5.03654
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -13004,6 +13285,7 @@ system Kiar
 	pos -844.092 -4481.44
 	government Ignaggen
 	habitable 625
+	belt 1755
 	link Ierleon
 	link Aibo
 	link Feodle
@@ -13014,6 +13296,8 @@ system Kiar
 	asteroids "small metal" 24 3.1161
 	asteroids "medium metal" 10 1.326
 	asteroids "large metal" 2 1.5249
+	minables lead 19 1.88446
+	minables silicon 14 1.72842
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -13136,6 +13420,7 @@ system Kikar
 	pos -844.219 -4303.55
 	government Ignaggen
 	habitable 486.68
+	belt 1175
 	link Aorlem
 	link Fosme
 	link Aoma
@@ -13147,6 +13432,7 @@ system Kikar
 	asteroids "small metal" 79 7.192
 	asteroids "medium metal" 7 6.786
 	asteroids "large metal" 5 6.786
+	minables iron 46 7.28626
 	fleet "Ignaggen Outlaw" 2800
 	fleet "Kager Military" 1000
 	fleet Ignaggen 1000
@@ -13190,6 +13476,7 @@ system Kiler
 	pos -799.335 -4414.79
 	government Ignaggen
 	habitable 625
+	belt 1144
 	link Ierleon
 	link Aibo
 	link Arger
@@ -13200,6 +13487,7 @@ system Kiler
 	asteroids "small metal" 122 6.8068
 	asteroids "medium metal" 59 5.1884
 	asteroids "large metal" 12 2.9036
+	minables uranium 15 11.3252
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -13281,6 +13569,7 @@ system Kinlo
 	pos -287.529 -4499.57
 	government Ultaka
 	habitable 2372.76
+	belt 1788
 	link Vola
 	asteroids "small rock" 9 9.4608
 	asteroids "medium rock" 7 7.776
@@ -13288,6 +13577,9 @@ system Kinlo
 	asteroids "small metal" 23 4.9248
 	asteroids "medium metal" 49 7.452
 	asteroids "large metal" 17 9.1368
+	minables iron 6 7.37078
+	minables silicon 4 8.21758
+	minables silver 2 10.3603
 	fleet "Ultaka small" 1200
 	object
 		sprite star/f0
@@ -13425,6 +13717,7 @@ system Ko'coro
 	pos -72.2907 -4368.92
 	government Ultaka
 	habitable 745.92
+	belt 1762
 	link Ko'coso
 	link Ko'soso
 	link Ko'zoco
@@ -13433,6 +13726,8 @@ system Ko'coro
 	asteroids "large rock" 31 4.29
 	asteroids "medium metal" 36 3.42
 	asteroids "large metal" 5 1.89
+	minables lead 2 4.18678
+	minables silver 1 5.78705
 	fleet "Ultaka small" 1200
 	fleet "Ultaka Traps" 1200
 	object
@@ -13481,6 +13776,7 @@ system Ko'coso
 	pos -107.291 -4407.92
 	government Ultaka
 	habitable 486.68
+	belt 1571
 	link Ko'jomo
 	link Ko'homo
 	link Ko'coro
@@ -13491,6 +13787,8 @@ system Ko'coso
 	asteroids "large rock" 34 10.7068
 	asteroids "small metal" 32 7.54
 	asteroids "large metal" 68 6.8614
+	minables gold 47 13.7655
+	minables tungsten 47 7.77677
 	fleet "Ultaka small" 1200
 	fleet "Wallagi Patrol" 1000
 	fleet "Ultaka Traps" 1200
@@ -13537,6 +13835,7 @@ system Ko'covo
 	pos -137.674 -4343.69
 	government Ultaka
 	habitable 1080
+	belt 1799
 	link Ko'sowo
 	asteroids "large metal" 1 2.142
 	fleet "Ultaka small" 1200
@@ -13573,6 +13872,7 @@ system Ko'doco
 	pos -174.823 -4732.59
 	government Ultaka
 	habitable 625
+	belt 1370
 	link Ko'noho
 	link Ko'lobo
 	link Ko'xomo
@@ -13581,6 +13881,8 @@ system Ko'doco
 	asteroids "small metal" 7 5.421
 	asteroids "medium metal" 16 3.822
 	asteroids "large metal" 15 5.499
+	minables copper 2 8.13322
+	minables iron 6 7.26649
 	fleet "Ultaka small" 1200
 	fleet "Ultaka Traps" 1200
 	object
@@ -13615,6 +13917,7 @@ system Ko'homo
 	pos -68.2386 -4444.13
 	government Ultaka
 	habitable 1080
+	belt 1142
 	link Ko'momo
 	link Ko'rono
 	link Ko'soso
@@ -13661,6 +13964,7 @@ system Ko'joco
 	pos 15.6494 -4418.11
 	government Ultaka
 	habitable 659.2
+	belt 1762
 	link Ko'joho
 	link Ko'soso
 	link Ko'soco
@@ -13711,12 +14015,15 @@ system Ko'joho
 	pos 1.64941 -4456.11
 	government Ultaka
 	habitable 425.92
+	belt 1374
 	link Ko'rono
 	link Ko'rojo
 	link Ko'joco
 	asteroids "large rock" 1 3.249
 	asteroids "medium metal" 174 4.6854
 	asteroids "large metal" 6 2.7018
+	minables aluminum 30 4.93914
+	minables titanium 48 8.93749
 	fleet "Ultaka small" 1200
 	object
 		sprite star/k5
@@ -13762,6 +14069,7 @@ system Ko'jomo
 	pos -137.351 -4448.11
 	government Ultaka
 	habitable 233.28
+	belt 1290
 	link Ko'moso
 	link Ko'coso
 	link Ko'potol
@@ -13771,6 +14079,8 @@ system Ko'jomo
 	asteroids "large rock" 1 6.4989
 	asteroids "medium metal" 10 9.0828
 	asteroids "large metal" 3 8.8479
+	minables iron 4 9.04147
+	minables silicon 8 9.46926
 	fleet "Ultaka small" 1200
 	fleet "Wallagi Patrol" 1000
 	fleet "Ultaka Traps" 1200
@@ -13806,6 +14116,7 @@ system Ko'koco
 	pos -135.823 -4766.59
 	government Ultaka
 	habitable 3645
+	belt 1980
 	link Ko'noho
 	link Ko'lolo
 	link Ko'sozo
@@ -13849,6 +14160,7 @@ system Ko'komo
 	pos -113.239 -4585.13
 	government Ultaka
 	habitable 320
+	belt 1776
 	link Ko'roho
 	asteroids "small rock" 50 3.2076
 	asteroids "medium rock" 9 3.8016
@@ -13856,6 +14168,8 @@ system Ko'komo
 	asteroids "small metal" 9 5.4648
 	asteroids "medium metal" 9 4.9896
 	asteroids "large metal" 1 8.1378
+	minables neodymium 25 5.38984
+	minables titanium 1 7.10692
 	fleet "Ultaka small" 1200
 	object
 		sprite star/m0
@@ -13901,6 +14215,7 @@ system Ko'koso
 	pos -150.239 -4556.13
 	government Ultaka
 	habitable 1313.28
+	belt 1249
 	link Ko'momo
 	link Ko'roho
 	link Ko'moso
@@ -13912,6 +14227,8 @@ system Ko'koso
 	asteroids "small metal" 3 7.2471
 	asteroids "medium metal" 1 6.09
 	asteroids "large metal" 33 6.09
+	minables iron 13 9.79982
+	minables neodymium 3 6.47763
 	fleet "Ultaka small" 1200
 	fleet "Ultaka Traps" 1200
 	object
@@ -13964,6 +14281,7 @@ system Ko'lobo
 	pos -213.823 -4721.59
 	government Ultaka
 	habitable 1715
+	belt 1223
 	link Ko'xomo
 	link Ko'doco
 	asteroids "small rock" 26 4.173
@@ -13971,6 +14289,8 @@ system Ko'lobo
 	asteroids "large rock" 98 2.496
 	asteroids "medium metal" 23 5.031
 	asteroids "large metal" 1 2.691
+	minables iron 11 6.07785
+	minables tungsten 7 5.01439
 	fleet "Ultaka small" 1200
 	object
 		sprite star/f5
@@ -14012,6 +14332,7 @@ system Ko'loco
 	pos -239.823 -4667.59
 	government Ultaka
 	habitable 1705
+	belt 1754
 	link Ko'zomo
 	asteroids "small rock" 4 3.808
 	asteroids "medium rock" 3 6.888
@@ -14019,6 +14340,7 @@ system Ko'loco
 	asteroids "small metal" 19 6.664
 	asteroids "medium metal" 11 5.936
 	asteroids "large metal" 12 4.088
+	minables aluminum 1 6.40483
 	fleet "Ultaka small" 1200
 	object
 		sprite star/g0
@@ -14070,6 +14392,7 @@ system Ko'lolo
 	pos -173.496 -4784.56
 	government Ultaka
 	habitable 625
+	belt 1399
 	link Ko'koco
 	asteroids "small rock" 48 4.455
 	asteroids "medium rock" 3 5.3865
@@ -14077,6 +14400,9 @@ system Ko'lolo
 	asteroids "small metal" 2 5.8725
 	asteroids "medium metal" 10 4.293
 	asteroids "large metal" 1 4.4955
+	minables aluminum 4 8.84884
+	minables iron 3 5.85004
+	minables tungsten 3 9.401
 	fleet "Ultaka small" 1200
 	fleet "Revos small" 10000
 	fleet "Ultaka Traps" 1200
@@ -14108,6 +14434,7 @@ system Ko'moho
 	pos -209.823 -4603.59
 	government Ultaka
 	habitable 4070.92
+	belt 1455
 	link Ko'zovo
 	asteroids "small rock" 51 5.53
 	asteroids "medium rock" 86 6.37
@@ -14115,6 +14442,8 @@ system Ko'moho
 	asteroids "small metal" 30 7.56
 	asteroids "medium metal" 17 4.9
 	asteroids "large metal" 28 9.52
+	minables aluminum 42 10.0889
+	minables copper 69 7.92407
 	fleet "Ultaka small" 1200
 	object
 		sprite star/a5
@@ -14150,6 +14479,7 @@ system Ko'momo
 	pos -108.239 -4510.13
 	government Ultaka
 	habitable 320
+	belt 1333
 	link Ko'rono
 	link Ko'homo
 	link Ko'koso
@@ -14194,6 +14524,7 @@ system Ko'moso
 	pos -158.351 -4510.11
 	government Ultaka
 	habitable 4725
+	belt 1379
 	link Ko'koso
 	link Ko'jomo
 	link Ko'zozo
@@ -14204,6 +14535,8 @@ system Ko'moso
 	asteroids "large rock" 1 2.88
 	asteroids "medium metal" 11 3.96
 	asteroids "large metal" 1 1.908
+	minables gold 2 3.80007
+	minables lead 3 5.83907
 	fleet "Ultaka small" 1200
 	fleet "Ultaka Traps" 1200
 	object
@@ -14252,6 +14585,7 @@ system Ko'mozo
 	pos -141.823 -4637.59
 	government Ultaka
 	habitable 1715
+	belt 1511
 	link Ko'zomo
 	link Ko'xomo
 	link Ko'noho
@@ -14260,6 +14594,7 @@ system Ko'mozo
 	asteroids "small metal" 1 6.84
 	asteroids "medium metal" 28 10.152
 	asteroids "large metal" 3 3.96
+	minables aluminum 2 15.0049
 	fleet "Ultaka small" 1200
 	object
 		sprite star/f5
@@ -14301,6 +14636,7 @@ system Ko'noho
 	pos -128.823 -4693.59
 	government Ultaka
 	habitable 1715
+	belt 1763
 	link Ko'mozo
 	link Ko'doco
 	link Ko'koco
@@ -14311,6 +14647,7 @@ system Ko'noho
 	asteroids "small metal" 2 2.622
 	asteroids "medium metal" 5 5.206
 	asteroids "large metal" 2 5.016
+	minables neodymium 1 5.38837
 	fleet "Ultaka small" 1200
 	fleet "Ultaka Traps" 1200
 	object
@@ -14353,6 +14690,7 @@ system Ko'oxzo
 	pos -188.823 -4552.59
 	government Ultaka
 	habitable 425.92
+	belt 1319
 	link Ko'koso
 	link Ko'moso
 	link Ko'zovo
@@ -14458,6 +14796,7 @@ system Ko'roho
 	pos -90.2386 -4550.13
 	government Ultaka
 	habitable 640
+	belt 1342
 	link Ko'rono
 	link Ko'rojo
 	link Ko'koso
@@ -14467,6 +14806,7 @@ system Ko'roho
 	asteroids "large rock" 8 1.616
 	asteroids "medium metal" 6 2.032
 	asteroids "large metal" 6 0.8
+	minables aluminum 3 2.49726
 	fleet "Ultaka small" 1200
 	fleet "Ultaka Traps" 1200
 	object
@@ -14519,6 +14859,7 @@ system Ko'rojo
 	pos -19.2386 -4511.13
 	government Ultaka
 	habitable 320
+	belt 1963
 	link Ko'rono
 	link Ko'roho
 	link Ko'joho
@@ -14528,6 +14869,7 @@ system Ko'rojo
 	asteroids "small metal" 3 3.23
 	asteroids "medium metal" 1 4.964
 	asteroids "large metal" 6 2.856
+	minables tungsten 13 4.88734
 	fleet "Ultaka small" 1200
 	fleet "Ultaka Traps" 1200
 	object
@@ -14558,6 +14900,7 @@ system Ko'rono
 	pos -62.2386 -4487.13
 	government Ultaka
 	habitable 486.68
+	belt 1960
 	link Ko'roho
 	link Ko'rojo
 	link Ko'momo
@@ -14568,6 +14911,8 @@ system Ko'rono
 	asteroids "medium rock" 20 6.204
 	asteroids "large rock" 3 9.702
 	asteroids "large metal" 7 6.336
+	minables iron 1 9.7634
+	minables silicon 3 10.8441
 	fleet "Ultaka small" 1200
 	object
 		sprite star/k0
@@ -14613,6 +14958,7 @@ system Ko'soco
 	pos 16.326 -4363.69
 	government Ultaka
 	habitable 233.28
+	belt 1831
 	link Ko'soso
 	link Ko'joco
 	link Ko'zoco
@@ -14622,6 +14968,9 @@ system Ko'soco
 	asteroids "small metal" 4 9.828
 	asteroids "medium metal" 6 7.392
 	asteroids "large metal" 2 7.14
+	minables aluminum 5 11.6717
+	minables lead 2 6.89851
+	minables tungsten 6 8.38864
 	fleet "Ultaka small" 1200
 	object
 		sprite star/m4
@@ -14651,6 +15000,7 @@ system Ko'soso
 	pos -31.3506 -4410.11
 	government Ultaka
 	habitable 320
+	belt 1877
 	link Ko'homo
 	link Ko'rono
 	link Ko'joco
@@ -14663,6 +15013,9 @@ system Ko'soso
 	asteroids "small metal" 7 5.544
 	asteroids "medium metal" 1 5.418
 	asteroids "large metal" 7 2.814
+	minables aluminum 1 5.70944
+	minables lead 1 4.86604
+	minables titanium 1 5.88822
 	fleet "Ultaka small" 1200
 	object
 		sprite star/m0
@@ -14696,6 +15049,7 @@ system Ko'sowo
 	pos -104.674 -4359.69
 	government Ultaka
 	habitable 320
+	belt 1098
 	link Ko'coso
 	link Ko'covo
 	asteroids "small rock" 1 2.5668
@@ -14758,6 +15112,7 @@ system Ko'soxo
 	pos -164.823 -4612.59
 	government Ultaka
 	habitable 625
+	belt 1048
 	link Ko'koso
 	link Ko'zomo
 	asteroids "small rock" 3 3.564
@@ -14766,6 +15121,7 @@ system Ko'soxo
 	asteroids "small metal" 1 1.8216
 	asteroids "medium metal" 37 3.6696
 	asteroids "large metal" 4 3.8016
+	minables lead 12 5.11997
 	fleet "Ultaka small" 1200
 	object
 		sprite star/g5
@@ -14799,6 +15155,7 @@ system Ko'sozo
 	pos -75.1835 -4722.87
 	government Ultaka
 	habitable 1715
+	belt 1808
 	link Ko'noho
 	link Ko'koco
 	asteroids "small rock" 11 4.7925
@@ -14807,6 +15164,8 @@ system Ko'sozo
 	asteroids "small metal" 23 4.185
 	asteroids "medium metal" 10 9.45
 	asteroids "large metal" 3 7.3575
+	minables platinum 5 6.04638
+	minables silver 8 7.55798
 	fleet "Ultaka small" 1200
 	fleet "Ultaka Traps" 1200
 	object
@@ -14845,6 +15204,7 @@ system Ko'xomo
 	pos -185.823 -4683.59
 	government Ultaka
 	habitable 135
+	belt 1046
 	link Ko'zomo
 	link Ko'mozo
 	link Ko'lobo
@@ -14855,6 +15215,7 @@ system Ko'xomo
 	asteroids "small metal" 1 3.5574
 	asteroids "medium metal" 9 3.8514
 	asteroids "large metal" 5 2.4696
+	minables gold 12 3.20933
 	fleet "Ultaka small" 1200
 	object
 		sprite star/m8
@@ -14896,6 +15257,7 @@ system Ko'zoco
 	pos -27.674 -4350.69
 	government Ultaka
 	habitable 1715
+	belt 1157
 	link Ko'coro
 	link Ko'soso
 	link Ko'soco
@@ -14905,6 +15267,9 @@ system Ko'zoco
 	asteroids "small metal" 37 1.53
 	asteroids "medium metal" 23 1.53
 	asteroids "large metal" 6 4.0086
+	minables lead 27 4.92739
+	minables tungsten 3 4.46833
+	minables uranium 3 2.64957
 	fleet "Ultaka small" 1200
 	object
 		sprite star/f5
@@ -14934,6 +15299,7 @@ system Ko'zoho
 	pos -186.284 -4471.94
 	government Ultaka
 	habitable 320
+	belt 1485
 	link Ko'jomo
 	link Ko'zozo
 	asteroids "small rock" 5 2.5568
@@ -14942,6 +15308,7 @@ system Ko'zoho
 	asteroids "small metal" 4 3.808
 	asteroids "medium metal" 8 3.2368
 	asteroids "large metal" 4 3.128
+	minables copper 14 2.36997
 	fleet "Ultaka small" 1200
 	fleet "Ultaka Traps" 1200
 	object
@@ -14980,6 +15347,7 @@ system Ko'zomo
 	pos -208.823 -4639.59
 	government Ultaka
 	habitable 135
+	belt 1790
 	link Ko'soxo
 	link Ko'xomo
 	link Ko'mozo
@@ -15022,6 +15390,7 @@ system Ko'zovo
 	pos -217.823 -4574.59
 	government Ultaka
 	habitable 625
+	belt 1894
 	link Ko'oxzo
 	link Ko'moho
 	asteroids "small rock" 2 4.7304
@@ -15030,6 +15399,9 @@ system Ko'zovo
 	asteroids "small metal" 10 4.2768
 	asteroids "medium metal" 93 2.9808
 	asteroids "large metal" 3 2.6244
+	minables copper 11 3.80744
+	minables lead 47 4.8169
+	minables tungsten 4 3.46455
 	fleet "Ultaka small" 1200
 	object
 		sprite star/g5
@@ -15067,6 +15439,7 @@ system Ko'zozo
 	pos -219.284 -4508.94
 	government Ultaka
 	habitable 1080
+	belt 1513
 	link Ko'moso
 	link Ko'zoho
 	asteroids "small rock" 1 1.02
@@ -15229,6 +15602,7 @@ system Kolha
 	pos -168.94 -4874.22
 	government Revos
 	habitable 233.28
+	belt 1662
 	link Nova
 	link Molta
 	link Ano
@@ -15238,6 +15612,8 @@ system Kolha
 	asteroids "small metal" 1 1.6758
 	asteroids "medium metal" 20 1.911
 	asteroids "large metal" 4 3.2634
+	minables copper 6 3.29043
+	minables neodymium 2 2.36594
 	fleet "Revos small" 1000
 	fleet "Revos big" 1500
 	fleet "Revos merchant" 600
@@ -15638,11 +16014,13 @@ system Kotai
 	pos -47.9803 -4875.36
 	government Revos
 	habitable 233.28
+	belt 1089
 	link Leno
 	link Ano
 	link Sorel
 	asteroids "small metal" 3 3.996
 	asteroids "large metal" 8 3.672
+	minables aluminum 1 6.81378
 	fleet "Revos small" 1500
 	object
 		sprite star/m4
@@ -16030,6 +16408,7 @@ system Leion
 	pos -584.674 -4279.4
 	government Ignaggen
 	habitable 320
+	belt 1775
 	link Radger
 	link Keli
 	link Karllan
@@ -16039,6 +16418,7 @@ system Leion
 	asteroids "small metal" 2 7.1484
 	asteroids "medium metal" 2 4.3148
 	asteroids "large metal" 3 4.9588
+	minables neodymium 3 9.12078
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -16078,11 +16458,18 @@ system Leion
 			period 34.577
 
 system Lena
-	pos 86.0198 -4671.36
+	pos 133.02 -4736.36
 	government Revos
 	habitable 625
+	belt 1045
 	link Vobi
-	asteroids "large metal" 1 4.16
+	asteroids "small rock" 41 4.4408
+	asteroids "medium rock" 12 2.2568
+	asteroids "large rock" 6 3.1668
+	asteroids "small metal" 2 3.1304
+	asteroids "large metal" 16 3.276
+	minables iron 3 5.73291
+	minables platinum 4 4.55579
 	fleet "Revos small" 1500
 	object
 		sprite star/g5
@@ -16120,6 +16507,7 @@ system Leno
 	pos 40.0197 -4895.36
 	government Revos
 	habitable 486.68
+	belt 1616
 	link Kotai
 	link Sorel
 	asteroids "small rock" 67 3.7664
@@ -16439,17 +16827,19 @@ system Lika
 	pos -660.772 -4511.02
 	government Ignaggen
 	habitable 320
+	belt 1519
 	link Kerimi
 	link Ikar
 	link Eribai
 	link Aili
 	link Rikor
-	asteroids "small rock" 22 3.1464
-	asteroids "medium rock" 7 4.7538
-	asteroids "large rock" 1 3.6594
-	asteroids "small metal" 21 4.3092
-	asteroids "medium metal" 51 4.959
-	asteroids "large metal" 25 3.4884
+	asteroids "small rock" 2 1.7472
+	asteroids "large rock" 1 1.0556
+	asteroids "small metal" 132 1.1648
+	asteroids "medium metal" 55 1.0192
+	asteroids "large metal" 96 2.1112
+	minables lead 2 2.21058
+	minables uranium 2 2.01664
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -16492,6 +16882,7 @@ system Lilima
 	pos -429.438 -5132.37
 	government Geeva
 	habitable 425.92
+	belt 1445
 	link Oliga
 	link Flama
 	link Neflim
@@ -16502,6 +16893,9 @@ system Lilima
 	asteroids "large rock" 62 7.7
 	asteroids "medium metal" 10 2.86
 	asteroids "large metal" 1 5.61
+	minables iron 20 9.00727
+	minables lead 11 11.5788
+	minables platinum 3 9.63617
 	fleet "Geeva Battle Fleet" 900
 	fleet "Geeva Civillian" 800
 	object
@@ -16539,6 +16933,7 @@ system Lima
 	pos -531.438 -5224.37
 	government "Kroom Kakaima"
 	habitable 320
+	belt 1806
 	link Skuga
 	link Javil
 	link Gamali
@@ -16548,6 +16943,7 @@ system Lima
 	asteroids "large rock" 31 4.29
 	asteroids "medium metal" 36 3.42
 	asteroids "large metal" 5 1.89
+	minables copper 4 4.46993
 	fleet "Kakaima Defense" 800
 	fleet "Kakaima Civillian" 600
 	fleet "Geeva Battle Fleet" 4200
@@ -16689,6 +17085,9 @@ system Loasta
 	asteroids "medium rock" 13 4.896
 	asteroids "large rock" 6 4.6512
 	asteroids "large metal" 1 2.8152
+	minables copper 35 3.86798
+	minables lead 35 3.86798
+	minables silicon 35 3.86798
 	trade Clothing 480
 	trade Electronics 700
 	trade Equipment 480
@@ -16706,83 +17105,50 @@ system Loasta
 	fleet "Ultaka small" 10000
 	fleet "Qanse Small" 1600
 	fleet "Dels miner" 1200
-	minables copper 35 3.86798
-	minables lead 35 3.86798
-	minables silicon 35 3.86798
 	object
 		sprite star/k5
 		distance 36.45
 		period 16.2857
 		offset 180
-		minables copper 35 3.86798
-		minables lead 35 3.86798
-		minables silicon 35 3.86798
 	object
 		sprite star/m4
 		distance 66.55
 		period 16.2857
-		minables copper 35 3.86798
-		minables lead 35 3.86798
-		minables silicon 35 3.86798
 	object
 		sprite planet/lava7
 		distance 202.96
 		period 45.0471
-		minables copper 35 3.86798
-		minables lead 35 3.86798
-		minables silicon 35 3.86798
 	object Wealo
 		sprite planet/cloud3
 		distance 628.45
 		period 245.447
 		offset 34.9933
-		minables copper 35 3.86798
-		minables lead 35 3.86798
-		minables silicon 35 3.86798
 		object
 			sprite planet/luna
 			distance 163
 			period 22.8831
 			offset 339.534
-			minables copper 35 3.86798
-			minables lead 35 3.86798
-			minables silicon 35 3.86798
 		object Meramos-P338P
 			sprite planet/battlestationw
 			distance 202
 			period 11.4747
-			minables copper 35 3.86798
-			minables lead 35 3.86798
-			minables silicon 35 3.86798
 	object
 		sprite planet/gas14
 		distance 1785.14
 		period 1175.06
 		offset 5.12194
-		minables copper 35 3.86798
-		minables lead 35 3.86798
-		minables silicon 35 3.86798
 		object
 			sprite planet/miranda
 			distance 214
 			period 12.7491
-			minables copper 35 3.86798
-			minables lead 35 3.86798
-			minables silicon 35 3.86798
 		object
 			sprite planet/dust5
 			distance 304
 			period 21.5858
-			minables copper 35 3.86798
-			minables lead 35 3.86798
-			minables silicon 35 3.86798
 		object
 			sprite planet/dust1
 			distance 410
 			period 33.8092
-			minables copper 35 3.86798
-			minables lead 35 3.86798
-			minables silicon 35 3.86798
 
 system Lode
 	pos 4856.68 -8195.52
@@ -16906,6 +17272,7 @@ system Loomera
 	pos -282.971 -4315.76
 	government Ultaka
 	habitable 1050.92
+	belt 1500
 	link Dree
 	link Suere
 	asteroids "small rock" 3 2.016
@@ -16914,6 +17281,8 @@ system Loomera
 	asteroids "small metal" 63 2.576
 	asteroids "medium metal" 51 4.2
 	asteroids "large metal" 20 3.64
+	minables lead 10 5.68562
+	minables titanium 10 5.74007
 	fleet "Ultaka small" 1200
 	object
 		sprite star/g5
@@ -16999,6 +17368,60 @@ system Lorden
 			distance 485
 			period 56.2225
 
+system Luaarla
+	pos -213.826 -5664.3
+	government Taroun
+	habitable 1080
+	belt 1965
+	link Neusbor
+	link Zaubaruer
+	asteroids "small rock" 1 3.68
+	asteroids "large rock" 5 6.67
+	asteroids "small metal" 16 5.865
+	asteroids "medium metal" 14 6.67
+	asteroids "large metal" 55 7.0725
+	minables iron 9 11.4696
+	minables uranium 11 10.9507
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/rock2
+		distance 192.16
+		period 32.4222
+	object
+		sprite planet/gas1
+		distance 892.57
+		period 324.572
+		object
+			sprite planet/rock0
+			distance 215
+			period 12.6001
+		object
+			sprite planet/dust5
+			distance 334
+			period 24.3969
+		object
+			sprite planet/ice0
+			distance 468
+			period 40.4654
+	object
+		sprite planet/gas11
+		distance 1683.86
+		period 841.021
+	object
+		sprite planet/gas16
+		distance 3284.86
+		period 2291.52
+		object
+			sprite planet/rock14
+			distance 216
+			period 16.7101
+		object
+			sprite planet/ice7
+			distance 360
+			period 35.9543
+
 system Magosen-L2885
 	pos -519.594 -4643.54
 	government Wallagi
@@ -17033,6 +17456,7 @@ system Mahakla
 	pos 343.784 -4804.54
 	government Ultaka
 	habitable 9065.92
+	belt 1156
 	link Masod
 	link Masos
 	link Makolo
@@ -17043,6 +17467,8 @@ system Mahakla
 	asteroids "small metal" 6 2.808
 	asteroids "medium metal" 100 3.42
 	asteroids "large metal" 1 4.608
+	minables iron 18 6.45945
+	minables titanium 6 3.93533
 	object
 		sprite star/b5
 		distance 6.67121
@@ -17097,11 +17523,19 @@ system Mahalmal
 	pos 181.784 -4812.54
 	government Ultaka
 	habitable 2372.76
+	belt 1694
 	link Masolo
 	link Marak
 	link Marital
 	link Marickar
-	asteroids "large metal" 1 1.1979
+	asteroids "small rock" 32 1.449
+	asteroids "medium rock" 9 1.638
+	asteroids "large rock" 28 1.218
+	asteroids "small metal" 8 1.113
+	asteroids "medium metal" 6 2.961
+	asteroids "large metal" 30 3.003
+	minables iron 26 3.02579
+	minables neodymium 10 2.56057
 	fleet "Qoro (North)" 1500
 	fleet "Ultaka small" 1000
 	fleet "Ultaka Traps" 1200
@@ -17188,6 +17622,7 @@ system Maisenni
 system Majaslo
 	pos 324.249 -4723.99
 	habitable 425.92
+	belt 1572
 	link Masowla
 	link "Pug Yoot"
 	asteroids "small rock" 2 1.326
@@ -17195,6 +17630,9 @@ system Majaslo
 	asteroids "large rock" 1 1.445
 	asteroids "medium metal" 8 1.904
 	asteroids "large metal" 6 1.037
+	minables copper 1 2.20613
+	minables iron 1 1.99518
+	minables lead 1 2.88803
 	fleet "Small Pug T2" 1500
 	fleet "Large Pug T2" 1800
 	object
@@ -17233,6 +17671,7 @@ system Majol
 	pos 428.111 -4817.24
 	government Ultaka
 	habitable 455
+	belt 1696
 	link Marake
 	link Maroki
 	link Makhom
@@ -17242,6 +17681,7 @@ system Majol
 	asteroids "small metal" 15 5.3244
 	asteroids "medium metal" 28 4.1412
 	asteroids "large metal" 5 4.93
+	minables iron 21 8.77025
 	object
 		sprite star/m0
 		distance 24.033
@@ -17284,6 +17724,7 @@ system Makal
 	pos 217.784 -4784.54
 	government Ultaka
 	habitable 1080
+	belt 1108
 	link Masos
 	link Masolo
 	link Marak
@@ -17292,6 +17733,7 @@ system Makal
 	asteroids "small metal" 5 2.662
 	asteroids "medium metal" 5 1.474
 	asteroids "large metal" 1 2.508
+	minables aluminum 4 3.90684
 	fleet "Qoro (North)" 1500
 	fleet "Ultaka small" 1000
 	object
@@ -17395,6 +17837,7 @@ system Makhom
 	pos 451.111 -4773.24
 	government Ultaka
 	habitable 425.92
+	belt 1651
 	link Majol
 	link Maroki
 	link Makolo
@@ -17405,6 +17848,7 @@ system Makhom
 	asteroids "small metal" 4 6.1226
 	asteroids "medium metal" 111 5.1612
 	asteroids "large metal" 88 6.7298
+	minables lead 8 8.71291
 	object
 		sprite star/k5
 		period 10
@@ -17445,6 +17889,7 @@ system Makolo
 	pos 358.111 -4768.24
 	government Ultaka
 	habitable 1050.92
+	belt 1218
 	link Mahakla
 	link Makhom
 	asteroids "small rock" 5 2.8224
@@ -17453,6 +17898,8 @@ system Makolo
 	asteroids "small metal" 6 5.096
 	asteroids "medium metal" 11 3.4888
 	asteroids "large metal" 13 4.8608
+	minables lead 12 6.57863
+	minables titanium 2 4.80822
 	object
 		sprite star/g5
 		distance 41.7441
@@ -17499,6 +17946,7 @@ system Maloa
 	pos -95.2605 -5086.58
 	government Dels
 	habitable 320
+	belt 1765
 	link "Fee Ro"
 	link Holmork
 	link Meller
@@ -17507,6 +17955,7 @@ system Maloa
 	asteroids "large rock" 6 2.8644
 	asteroids "small metal" 4 4.312
 	asteroids "large metal" 17 1.5708
+	minables iron 27 3.78012
 	fleet "Dels guard" 1000
 	fleet "Dels merchant" 600
 	object
@@ -17541,6 +17990,7 @@ system Manalh
 	pos 290.784 -4775.54
 	government Ultaka
 	habitable 912.6
+	belt 1764
 	link Masos
 	asteroids "medium rock" 3 1.6128
 	asteroids "large rock" 1 2.1504
@@ -17603,6 +18053,7 @@ system Marak
 	pos 149.784 -4778.54
 	government Ultaka
 	habitable 486.68
+	belt 1320
 	link Mahalmal
 	link Makal
 	asteroids "medium rock" 4 4.8575
@@ -17610,6 +18061,7 @@ system Marak
 	asteroids "small metal" 3 5.51
 	asteroids "medium metal" 3 7.83
 	asteroids "large metal" 1 5.8725
+	minables copper 3 10.2752
 	fleet "Ultaka Traps" 1200
 	fleet "Revos small" 20000
 	object
@@ -17640,6 +18092,7 @@ system Marake
 	pos 374.111 -4832.24
 	government Ultaka
 	habitable 135
+	belt 1997
 	link Mahakla
 	link Majol
 	link Maroki
@@ -17649,6 +18102,8 @@ system Marake
 	asteroids "small metal" 11 1.7955
 	asteroids "medium metal" 6 3.591
 	asteroids "large metal" 20 1.5105
+	minables aluminum 39 3.29518
+	minables iron 47 2.67491
 	object
 		sprite star/m8
 		period 10
@@ -17682,9 +18137,10 @@ system Marake
 			period 31.1257
 
 system Marickar
-	pos 106.784 -4786.54
+	pos 106.784 -4809.38
 	government Ultaka
 	habitable 135
+	belt 1212
 	link Mahalmal
 	link Marital
 	asteroids "medium rock" 2 2.8035
@@ -17692,6 +18148,7 @@ system Marickar
 	asteroids "small metal" 28 4.4415
 	asteroids "medium metal" 16 4.41
 	asteroids "large metal" 31 4.095
+	minables aluminum 7 4.41661
 	fleet "Ultaka Traps" 1200
 	fleet "Revos small" 20000
 	object
@@ -17739,16 +18196,19 @@ system Marickar
 			period 30.6381
 
 system Marital
-	pos 126.784 -4820.54
+	pos 132.493 -4853.65
 	government Ultaka
 	habitable 2372.76
+	belt 1566
 	link Mahalmal
 	link Marickar
-	asteroids "medium rock" 2 6.6816
-	asteroids "large rock" 1 10.1616
-	asteroids "small metal" 84 7.0992
-	asteroids "medium metal" 32 3.5496
-	asteroids "large metal" 15 5.568
+	asteroids "small rock" 18 2.088
+	asteroids "medium rock" 42 2.016
+	asteroids "large rock" 6 3.348
+	asteroids "small metal" 9 3.348
+	asteroids "medium metal" 31 5.076
+	asteroids "large metal" 9 3.852
+	minables uranium 19 12.1813
 	fleet "Ultaka Traps" 1200
 	fleet "Revos small" 20000
 	object
@@ -17903,6 +18363,7 @@ system Maroki
 	pos 390.111 -4802.24
 	government Ultaka
 	habitable 486.68
+	belt 1661
 	link Marake
 	link Mahakla
 	link Majol
@@ -17913,6 +18374,9 @@ system Maroki
 	asteroids "small metal" 31 2.014
 	asteroids "medium metal" 19 1.995
 	asteroids "large metal" 1 2.603
+	minables aluminum 6 2.05369
+	minables titanium 14 3.64011
+	minables uranium 3 2.69428
 	object
 		sprite star/k0
 		period 10
@@ -17949,6 +18413,7 @@ system Masekin
 	pos 182.513 -4881.44
 	government "Qoro (North)"
 	habitable 486.68
+	belt 1121
 	link Masolo
 	asteroids "small rock" 4 3.213
 	asteroids "medium rock" 50 4.4982
@@ -17956,6 +18421,8 @@ system Masekin
 	asteroids "small metal" 2 2.646
 	asteroids "medium metal" 7 3.024
 	asteroids "large metal" 2 3.6288
+	minables iron 6 7.19312
+	minables titanium 3 7.65044
 	fleet "Qoro (North)" 500
 	fleet "Wallagi Small" 700
 	object
@@ -18016,6 +18483,7 @@ system Masod
 	pos 313.784 -4849.54
 	government Ultaka
 	habitable 320
+	belt 1468
 	link Mahakla
 	link Masos
 	asteroids "small rock" 7 2.379
@@ -18024,6 +18492,7 @@ system Masod
 	asteroids "small metal" 1 1.0725
 	asteroids "medium metal" 72 1.2675
 	asteroids "large metal" 3 1.1895
+	minables silver 45 2.22734
 	object
 		sprite star/m0
 		period 10
@@ -18060,6 +18529,7 @@ system Masolo
 	pos 203.784 -4848.54
 	government Ultaka
 	habitable 233.28
+	belt 1414
 	link Masos
 	link Mahalmal
 	link Makal
@@ -18070,6 +18540,9 @@ system Masolo
 	asteroids "small metal" 2 9.2046
 	asteroids "medium metal" 65 5.2693
 	asteroids "large metal" 36 4.002
+	minables aluminum 1 7.91903
+	minables iron 1 8.62643
+	minables neodymium 9 8.61661
 	fleet "Qoro (North)" 1000
 	fleet "Ultaka small" 1000
 	object
@@ -18108,6 +18581,7 @@ system Masos
 	pos 263.784 -4819.54
 	government Ultaka
 	habitable 320
+	belt 1580
 	link Mahakla
 	link Manalh
 	link Masod
@@ -18117,6 +18591,8 @@ system Masos
 	asteroids "large rock" 1 5.9808
 	asteroids "medium metal" 2 8.1984
 	asteroids "large metal" 2 8.064
+	minables silver 1 10.981
+	minables titanium 1 9.01322
 	fleet "Qoro (North)" 1500
 	fleet "Ultaka small" 1000
 	object
@@ -18158,6 +18634,7 @@ system Masos
 system Masowla
 	pos 392.997 -4728.72
 	habitable 625
+	belt 1165
 	link Gokomse
 	link Majaslo
 	link "Pug Yoot"
@@ -18166,6 +18643,8 @@ system Masowla
 	asteroids "large rock" 142 1.608
 	asteroids "medium metal" 1 1.572
 	asteroids "large metal" 3 0.876
+	minables titanium 3 1.56496
+	minables uranium 4 1.85723
 	fleet "Small Pug T2" 1500
 	fleet "Large Pug T2" 1800
 	object
@@ -18200,6 +18679,7 @@ system "Mea Kalh"
 	pos -291.07 -4553.86
 	government Ultaka
 	habitable 2372.76
+	belt 1633
 	link "Mea Vol"
 	asteroids "small rock" 65 1.3
 	asteroids "medium rock" 9 2.47
@@ -18207,6 +18687,9 @@ system "Mea Kalh"
 	asteroids "small metal" 3 3.432
 	asteroids "medium metal" 5 3.874
 	asteroids "large metal" 1 1.586
+	minables lead 22 1.80574
+	minables titanium 43 2.391
+	minables tungsten 6 2.77819
 	fleet "Ultaka small" 1200
 	fleet "Ultaka Traps" 1200
 	object
@@ -18245,60 +18728,47 @@ system "Mea Sua"
 	asteroids "large rock" 62 7.7
 	asteroids "medium metal" 10 2.86
 	asteroids "large metal" 1 5.61
+	minables neodymium 35 3.86798
+	minables silver 35 3.86798
 	fleet "Dels guard" 600
 	fleet "Wallagi Patrol" 2000
 	fleet "Dels merchant" 1200
 	fleet "Ultaka small" 10000
 	fleet "Qanse Small" 1600
 	fleet "Dels miner" 10000
-	minables neodymium 35 3.86798
-	minables silver 35 3.86798
 	object
 		sprite star/k5
 		period 10
-		minables neodymium 35 3.86798
-		minables silver 35 3.86798
 	object
 		sprite planet/fog0
 		distance 258.21
 		period 80.4184
-		minables neodymium 35 3.86798
-		minables silver 35 3.86798
 	object
 		sprite planet/ocean6
 		distance 680.05
 		period 343.722
-		minables neodymium 35 3.86798
-		minables silver 35 3.86798
 	object
 		sprite planet/jupiter
 		distance 1167.01
 		period 772.695
-		minables neodymium 35 3.86798
-		minables silver 35 3.86798
 		object
 			sprite planet/rhea
 			distance 252
 			period 12.5708
-			minables neodymium 35 3.86798
-			minables silver 35 3.86798
 	object
 		sprite planet/gas0
 		distance 1897.9
 		period 1602.53
-		minables neodymium 35 3.86798
-		minables silver 35 3.86798
 		object
 			sprite planet/lava0
 			distance 293
 			period 14.698
-			minables neodymium 35 3.86798
-			minables silver 35 3.86798
 
 system "Mea Vol"
 	pos -312.737 -4596.2
 	government Ultaka
 	habitable 233.28
+	belt 1818
 	link "Fee Jo"
 	link Suadee
 	link Boklok
@@ -18309,6 +18779,8 @@ system "Mea Vol"
 	asteroids "medium rock" 8 3.332
 	asteroids "large rock" 5 5.032
 	asteroids "large metal" 1 4.216
+	minables gold 4 6.74636
+	minables iron 2 5.09742
 	fleet "Ultaka small" 1200
 	fleet "Ultaka Traps" 1200
 	object
@@ -18434,6 +18906,7 @@ system Meller
 	pos -75.2605 -5024.58
 	government Dels
 	habitable 1111.68
+	belt 1397
 	link Nelop
 	link Maloa
 	link Holmork
@@ -18443,6 +18916,9 @@ system Meller
 	asteroids "small metal" 16 3.5763
 	asteroids "medium metal" 7 1.7199
 	asteroids "large metal" 3 2.6208
+	minables lead 28 4.74177
+	minables neodymium 41 3.1936
+	minables platinum 35 3.47252
 	fleet "Dels guard" 1000
 	fleet "Dels merchant" 600
 	object
@@ -18749,6 +19225,7 @@ system Molta
 	pos -193.94 -4826.22
 	government Revos
 	habitable 320
+	belt 1652
 	link Kolha
 	link Nova
 	asteroids "small rock" 27 5.865
@@ -18757,6 +19234,8 @@ system Molta
 	asteroids "small metal" 1 7.4175
 	asteroids "medium metal" 77 6.4975
 	asteroids "large metal" 1 7.59
+	minables aluminum 37 8.91761
+	minables iron 23 9.83057
 	fleet "Revos small" 800
 	fleet "Revos big" 1000
 	fleet "Revos merchant" 700
@@ -18809,6 +19288,7 @@ system Momi
 	pos -253.683 -4976.65
 	government Revos
 	habitable 1080
+	belt 1653
 	link Foklo
 	link Nanai
 	asteroids "small rock" 6 3.5256
@@ -18816,6 +19296,9 @@ system Momi
 	asteroids "large rock" 3 2.9328
 	asteroids "medium metal" 10 3.588
 	asteroids "large metal" 6 4.5864
+	minables aluminum 2 6.4247
+	minables lead 7 4.22625
+	minables titanium 5 6.16705
 	fleet "Revos small" 1500
 	object
 		sprite star/g0
@@ -19340,6 +19823,7 @@ system Nalk
 	pos 46.3626 -5145.59
 	government Dels
 	habitable 1080
+	belt 1992
 	link Nornal
 	link "Qee Nori"
 	asteroids "small rock" 17 4.347
@@ -19348,6 +19832,9 @@ system Nalk
 	asteroids "small metal" 58 4.5195
 	asteroids "medium metal" 64 4.416
 	asteroids "large metal" 10 2.622
+	minables silver 61 8.33601
+	minables titanium 63 7.47159
+	minables tungsten 48 8.26326
 	fleet "Dels pirate" 1000
 	fleet "Dels guard" 1000
 	object
@@ -19386,6 +19873,7 @@ system Nanai
 	pos -165.861 -4994.91
 	government Revos
 	habitable 486.68
+	belt 1446
 	link Foklo
 	link Momi
 	asteroids "small rock" 1 3.7466
@@ -19394,6 +19882,8 @@ system Nanai
 	asteroids "small metal" 16 2.574
 	asteroids "medium metal" 9 2.717
 	asteroids "large metal" 10 2.288
+	minables iron 19 3.13897
+	minables lead 1 2.99782
 	fleet "Revos small" 1500
 	object
 		sprite star/k0
@@ -19622,6 +20112,8 @@ system Neeko
 	asteroids "small metal" 5 2.904
 	asteroids "medium metal" 20 5.0688
 	asteroids "large metal" 19 4.4352
+	minables silver 35 3.86798
+	minables gold 35 3.86798
 	trade Clothing 660
 	trade Electronics 520
 	trade Equipment 340
@@ -19640,71 +20132,52 @@ system Neeko
 	fleet "Ultaka small" 10000
 	fleet "Qanse Small" 1600
 	fleet "Dels miner" 1200
-	minables silver 35 3.86798
-	minables gold 35 3.86798
 	object
 		sprite star/m0
 		period 10
-		minables silver 35 3.86798
-		minables gold 35 3.86798
 	object
 		sprite planet/gas5
 		distance 605.41
 		period 333.088
 		offset 10.6466
-		minables silver 35 3.86798
-		minables gold 35 3.86798
 		object Destri
 			sprite planet/station2
 			distance 275.484
 			period 417.401
 			offset 235.329
-			minables silver 35 3.86798
-			minables gold 35 3.86798
 		object Meramos-P334P
 			sprite planet/battlestationw
 			distance 202
 			period 11.4747
-			minables silver 35 3.86798
-			minables gold 35 3.86798
 	object
 		sprite planet/mercury
 		distance 1025.65
 		period 734.491
 		offset 39.7721
-		minables silver 35 3.86798
-		minables gold 35 3.86798
 	object
 		sprite planet/gas13
 		distance 1613.89
 		period 1449.76
 		offset 345.589
-		minables silver 35 3.86798
-		minables gold 35 3.86798
 	object
 		sprite planet/gas10
 		distance 2947.89
 		period 3578.93
 		offset 62.4821
-		minables silver 35 3.86798
-		minables gold 35 3.86798
 		object
 			sprite planet/miranda
 			distance 197
 			period 14.5545
-			minables silver 35 3.86798
-			minables gold 35 3.86798
 		object
 			sprite planet/dust0
 			distance 324
 			period 30.6983
-			minables silver 35 3.86798
-			minables gold 35 3.86798
 
 system Neevee
 	pos -434.737 -4463.2
 	government Ultaka
 	habitable 2372.76
+	belt 1565
 	link Suedo
 	link Comlark
 	asteroids "small rock" 2 3.402
@@ -19713,6 +20186,8 @@ system Neevee
 	asteroids "small metal" 6 6.09
 	asteroids "medium metal" 34 5.502
 	asteroids "large metal" 3 2.226
+	minables titanium 6 6.16574
+	minables uranium 6 9.82091
 	fleet "Ultaka small" 1200
 	object
 		sprite star/f0
@@ -19754,6 +20229,7 @@ system Neflim
 	pos -381.438 -5069.37
 	government Geeva
 	habitable 1080
+	belt 1407
 	link Lilima
 	link Flama
 	link Ganet
@@ -19765,6 +20241,8 @@ system Neflim
 	asteroids "small metal" 5 2.904
 	asteroids "medium metal" 20 5.0688
 	asteroids "large metal" 19 4.4352
+	minables copper 1 5.79389
+	minables titanium 4 5.33696
 	fleet "Geeva Battle Fleet" 900
 	fleet "Geeva Civillian" 800
 	object
@@ -19848,6 +20326,7 @@ system Nelha
 	pos -418.737 -4375.2
 	government Ultaka
 	habitable 973.36
+	belt 1497
 	link "Qee Golle"
 	link Suedo
 	link Comlark
@@ -19856,6 +20335,9 @@ system Nelha
 	asteroids "large rock" 34 5.51
 	asteroids "medium metal" 1 5.51
 	asteroids "large metal" 1 4.0223
+	minables iron 22 8.20552
+	minables neodymium 10 7.27659
+	minables silver 22 7.16048
 	fleet "Ultaka small" 1200
 	object
 		sprite star/k0
@@ -19899,12 +20381,15 @@ system Nell'O
 	pos 177.806 -5057.5
 	government Dels
 	habitable 320
+	belt 1829
 	link Sola
 	link Hellma
 	asteroids "small rock" 14 6.422
 	asteroids "large rock" 15 8.5176
 	asteroids "medium metal" 5 3.6504
 	asteroids "large metal" 3 4.1912
+	minables copper 3 10.2959
+	minables tungsten 3 13.0226
 	fleet "Dels guard" 600
 	fleet "Dels merchant" 1200
 	object
@@ -19943,6 +20428,7 @@ system Nelop
 	pos -8.77753 -5054.11
 	government Dels
 	habitable 486.68
+	belt 1588
 	link Dofolk
 	link Meller
 	link "Fee Ro"
@@ -20182,6 +20668,53 @@ system Nersaer
 			distance 531
 			period 49.8311
 
+system Neusbor
+	pos -275.482 -5596.94
+	government Taroun
+	habitable 1715
+	belt 1062
+	link Ubase
+	link Luaarla
+	asteroids "medium rock" 47 5.265
+	asteroids "large rock" 34 5.3865
+	asteroids "small metal" 3 3.0375
+	asteroids "medium metal" 54 3.4425
+	asteroids "large metal" 3 3.9285
+	minables lead 27 5.68678
+	minables silver 32 5.63705
+	minables titanium 5 8.68386
+	object
+		sprite star/f5
+		period 10
+	object
+		sprite planet/lava6
+		distance 180.69
+		period 23.4601
+	object
+		sprite planet/cloud2
+		distance 504.33
+		period 109.396
+	object
+		sprite planet/gas1
+		distance 1085.62
+		period 345.497
+		object
+			sprite planet/rock3
+			distance 247
+			period 15.5153
+		object
+			sprite planet/tethys
+			distance 343
+			period 25.3897
+	object
+		sprite planet/gas12
+		distance 2729.63
+		period 1377.47
+		object
+			sprite planet/io
+			distance 281
+			period 12.3721
+
 system Nobdean
 	pos -373.737 -4705.2
 	government Ultaka
@@ -20192,52 +20725,44 @@ system Nobdean
 	link Lome
 	link Remork
 	asteroids "large metal" 1 7.9866
+	minables uranium 35 3.86798
 	fleet "Ultaka small" 1000
 	fleet "Dels guard" 10000
 	fleet "Qanse Small" 800
 	fleet "Ultaka big" 1600
 	fleet "Wallagi Patrol" 1000
 	fleet "Dels miner" 12000
-	minables uranium 35 3.86798
 	object
 		sprite star/g5
 		period 10
-		minables uranium 35 3.86798
 	object
 		sprite planet/mars
 		distance 184.21
 		period 40.0027
-		minables uranium 35 3.86798
 	object
 		sprite planet/gas1
 		distance 485.7
 		period 171.266
-		minables uranium 35 3.86798
 	object Senqos
 		sprite planet/rock10
 		distance 1276.19
 		period 729.446
-		minables uranium 35 3.86798
 		object
 			sprite planet/ice7
 			distance 160
 			period 17.0332
-			minables uranium 35 3.86798
 	object
 		sprite planet/gas17
 		distance 3063.75
 		period 2713.31
-		minables uranium 35 3.86798
 		object
 			sprite planet/io
 			distance 228
 			period 14.7087
-			minables uranium 35 3.86798
 		object
 			sprite planet/dust1
 			distance 373
 			period 30.7777
-			minables uranium 35 3.86798
 
 system Norkare
 	pos 5228.72 -8598.16
@@ -20286,6 +20811,7 @@ system Nornal
 	pos 87.0597 -5127.39
 	government Dels
 	habitable 2140.92
+	belt 1045
 	link Geen
 	link Nalk
 	link Deepla
@@ -20296,6 +20822,9 @@ system Nornal
 	asteroids "small metal" 4 3.552
 	asteroids "medium metal" 20 3.648
 	asteroids "large metal" 1 3.6
+	minables aluminum 2 6.60655
+	minables neodymium 14 5.20686
+	minables tungsten 2 5.0229
 	fleet "Dels pirate" 1200
 	fleet "Dels guard" 1000
 	fleet "Dels merchant" 600
@@ -20457,6 +20986,7 @@ system Nova
 	pos -135.94 -4837.22
 	government Revos
 	habitable 2372.76
+	belt 1760
 	link Kolha
 	link Molta
 	asteroids "small rock" 14 6.525
@@ -20465,6 +20995,7 @@ system Nova
 	asteroids "small metal" 27 5.895
 	asteroids "medium metal" 18 2.97
 	asteroids "large metal" 8 5.715
+	minables titanium 3 5.77908
 	fleet "Revos small" 1000
 	fleet "Revos big" 1500
 	fleet "Revos merchant" 600
@@ -20522,71 +21053,54 @@ system Novee
 	asteroids "small metal" 11 3.7752
 	asteroids "medium metal" 12 1.4586
 	asteroids "large metal" 4 3.6608
+	minables uranium 35 3.86798
+	minables neodymium 35 3.86798
 	fleet "Ultaka small" 1000
 	fleet "Dels guard" 10000
 	fleet "Qanse Small" 800
 	fleet "Ultaka big" 1600
 	fleet "Wallagi Patrol" 1000
-	minables uranium 35 3.86798
-	minables neodymium 35 3.86798
 	object
 		sprite star/m8
 		period 10
-		minables uranium 35 3.86798
-		minables neodymium 35 3.86798
 	object Rensake
 		sprite planet/lava4
 		distance 278.25
 		period 159.789
-		minables uranium 35 3.86798
-		minables neodymium 35 3.86798
 		object
 			sprite planet/miranda
 			distance 124
 			period 17.7108
-			minables uranium 35 3.86798
-			minables neodymium 35 3.86798
 	object
 		sprite planet/neptune
 		distance 782.5
 		period 753.563
-		minables uranium 35 3.86798
-		minables neodymium 35 3.86798
 		object
 			sprite planet/lava0
 			distance 243
 			period 18.873
-			minables uranium 35 3.86798
-			minables neodymium 35 3.86798
 	object
 		sprite planet/rock9
 		distance 1437.75
 		period 1876.8
-		minables uranium 35 3.86798
-		minables neodymium 35 3.86798
 	object
 		sprite planet/gas2
 		distance 1997.04
 		period 3072.37
-		minables uranium 35 3.86798
-		minables neodymium 35 3.86798
 		object
 			sprite planet/dust4
 			distance 206
 			period 17.9149
-			minables uranium 35 3.86798
-			minables neodymium 35 3.86798
 		object
 			sprite planet/oberon
 			distance 354
 			period 40.3571
-			minables uranium 35 3.86798
-			minables neodymium 35 3.86798
 
 system Ogaki
 	pos -552.163 -5327.93
 	government "Kroom Kakaima"
 	habitable 2795
+	belt 1291
 	link Gamali
 	link Ginso
 	asteroids "small rock" 1 4.5864
@@ -20594,6 +21108,9 @@ system Ogaki
 	asteroids "large rock" 1 4.9868
 	asteroids "medium metal" 3 2.8756
 	asteroids "large metal" 1 4.6956
+	minables silver 1 6.53033
+	minables titanium 3 5.57608
+	minables tungsten 1 4.67277
 	fleet "Kakaima Defense" 1600
 	fleet "Kakaima Civillian" 1200
 	object
@@ -20691,6 +21208,7 @@ system Omili
 	pos -347.438 -5277.37
 	government "Kroom Kanai"
 	habitable 625
+	belt 1346
 	link Grakli
 	link Ginma
 	link Gukali
@@ -20700,6 +21218,7 @@ system Omili
 	asteroids "large rock" 3 1.825
 	asteroids "small metal" 4 3.1
 	asteroids "large metal" 30 1.75
+	minables iron 8 3.95254
 	fleet "Kroom Kanai" 800
 	fleet "Kakaima Defense" 1200
 	object
@@ -20781,6 +21300,7 @@ system "Pug Schmar"
 system "Pug Yoot"
 	pos 353.262 -4686.29
 	habitable 233.28
+	belt 1145
 	link Gokomse
 	link Majaslo
 	link Masowla
@@ -20871,6 +21391,7 @@ system "Qee Fol"
 	asteroids "medium rock" 11 5.244
 	asteroids "large rock" 3 5.073
 	asteroids "large metal" 2 4.959
+	minables aluminum 35 3.86798
 	trade Clothing 520
 	trade Electronics 610
 	trade Equipment 450
@@ -20885,50 +21406,43 @@ system "Qee Fol"
 	fleet "Dels merchant" 1200
 	fleet "Dels pirate" 500
 	fleet "Ultaka small" 20000
-	minables aluminum 35 3.86798
 	object
 		sprite star/g0
 		period 10
-		minables aluminum 35 3.86798
 	object
 		sprite planet/rock16
 		distance 202.84
 		period 35.1624
-		minables aluminum 35 3.86798
 	object Qee'Sensa
 		sprite planet/desert0
 		distance 427.955
 		period 107.757
 		offset 223.119
-		minables aluminum 35 3.86798
 	object
 		sprite planet/cloud1
 		distance 781.115
 		period 265.718
 		offset 49.9039
-		minables aluminum 35 3.86798
 		object
 			sprite planet/dust7
 			distance 162
 			period 16.8355
-			minables aluminum 35 3.86798
 	object
 		sprite planet/rock14
 		distance 1837.88
 		period 959.008
 		offset 5.73759
-		minables aluminum 35 3.86798
 	object
 		sprite planet/dust4
 		distance 4406.37
 		period 3560.15
 		offset 0.637616
-		minables aluminum 35 3.86798
 
 system "Qee Golle"
 	pos -470.971 -4341.76
 	government Ultaka
 	habitable 486.68
+	belt 1919
 	link Nelha
 	asteroids "small rock" 1 3.6
 	asteroids "medium rock" 22 2.412
@@ -20936,6 +21450,9 @@ system "Qee Golle"
 	asteroids "small metal" 89 2.916
 	asteroids "medium metal" 26 3.384
 	asteroids "large metal" 16 5.076
+	minables silver 6 6.25798
+	minables titanium 6 4.9642
+	minables tungsten 36 5.1153
 	fleet "Ultaka small" 1200
 	object
 		sprite star/k0
@@ -21029,6 +21546,7 @@ system "Qee Nori"
 	pos 44.0161 -5215.84
 	government "Dels (Pirate)"
 	habitable 486.68
+	belt 1724
 	link Dolmoriwakla
 	link Nalk
 	asteroids "small rock" 3 4.5562
@@ -21036,6 +21554,8 @@ system "Qee Nori"
 	asteroids "large rock" 20 2.926
 	asteroids "medium metal" 8 4.5144
 	asteroids "large metal" 2 2.7588
+	minables neodymium 7 6.01125
+	minables titanium 2 5.14076
 	trade Clothing 520
 	trade Electronics 610
 	trade Equipment 450
@@ -21374,6 +21894,7 @@ system Radger
 	pos -571.674 -4367.4
 	government Ignaggen
 	habitable 553.28
+	belt 1070
 	link Keli
 	link Arema
 	link Leion
@@ -21383,6 +21904,7 @@ system Radger
 	asteroids "small metal" 10 2.5256
 	asteroids "medium metal" 23 2.156
 	asteroids "large metal" 1 1.848
+	minables titanium 5 2.7347
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -21483,6 +22005,7 @@ system Rager
 	pos -500.163 -5348.93
 	government "Kroom Kakaima"
 	habitable 425.92
+	belt 1812
 	link Gamali
 	link Gumen
 	asteroids "small rock" 2 7.83
@@ -21491,6 +22014,7 @@ system Rager
 	asteroids "small metal" 13 6.048
 	asteroids "medium metal" 141 4.968
 	asteroids "large metal" 52 6.588
+	minables copper 26 5.6159
 	fleet "Kakaima Defense" 800
 	fleet "Kakaima Civillian" 600
 	fleet "Kroom Kanai" 2200
@@ -21916,6 +22440,7 @@ system Reen
 	pos -328.737 -4381.2
 	government Ultaka
 	habitable 2340
+	belt 1655
 	link Jeelark
 	link Comlark
 	asteroids "small rock" 1 5.423
@@ -21924,6 +22449,8 @@ system Reen
 	asteroids "small metal" 3 5.8058
 	asteroids "medium metal" 8 5.8696
 	asteroids "large metal" 1 5.2954
+	minables lead 3 8.64644
+	minables silver 2 8.0966
 	fleet "Ultaka small" 1200
 	object
 		sprite star/f5
@@ -22363,52 +22890,38 @@ system Remork
 	asteroids "medium rock" 12 2.016
 	asteroids "large rock" 1 3.3936
 	asteroids "large metal" 1 4.6368
+	minables iron 35 3.86798
+	minables titanium 35 3.86798
 	fleet "Ultaka small" 1000
 	fleet "Qanse Small" 1000
 	fleet "Dels miner" 12000
-	minables iron 35 3.86798
-	minables titanium 35 3.86798
 	object
 		sprite star/k0
 		period 10
-		minables iron 35 3.86798
-		minables titanium 35 3.86798
 	object
 		sprite planet/desert0
 		distance 234.49
 		period 65.1066
-		minables iron 35 3.86798
-		minables titanium 35 3.86798
 	object
 		sprite planet/ocean9
 		distance 781.13
 		period 395.843
-		minables iron 35 3.86798
-		minables titanium 35 3.86798
 		object
 			sprite planet/rock14
 			distance 174
 			period 23.498
-			minables iron 35 3.86798
-			minables titanium 35 3.86798
 	object
 		sprite planet/gas10
 		distance 1223.57
 		period 776.035
-		minables iron 35 3.86798
-		minables titanium 35 3.86798
 	object
 		sprite planet/gas12
 		distance 1741.57
 		period 1317.8
-		minables iron 35 3.86798
-		minables titanium 35 3.86798
 	object
 		sprite planet/gas3
 		distance 3734.78
 		period 4138.43
-		minables iron 35 3.86798
-		minables titanium 35 3.86798
 
 system Reok
 	pos 5064.68 -8046.52
@@ -22651,6 +23164,7 @@ system Riger
 	pos -546.438 -5075.37
 	government Geeva
 	habitable 233.28
+	belt 1829
 	link Gorkva
 	link Govlo
 	link Gron
@@ -22661,6 +23175,8 @@ system Riger
 	asteroids "small metal" 4 9.828
 	asteroids "medium metal" 6 7.392
 	asteroids "large metal" 2 7.14
+	minables lead 6 6.43544
+	minables titanium 9 6.31671
 	fleet "Geeva Battle Fleet" 900
 	fleet "Geeva Civillian" 800
 	object
@@ -22753,6 +23269,7 @@ system Rikor
 	asteroids "small metal" 8 2.244
 	asteroids "medium metal" 2 3.4782
 	asteroids "large metal" 6 2.1318
+	minables titanium 8 7.234
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -22794,6 +23311,7 @@ system Rilia
 	pos -687.674 -4280.4
 	government Ignaggen
 	habitable 425.92
+	belt 1572
 	link Karllan
 	link Rokar
 	link Keli
@@ -22803,6 +23321,9 @@ system Rilia
 	asteroids "small metal" 2 2.304
 	asteroids "medium metal" 2 3.744
 	asteroids "large metal" 5 4.86
+	minables copper 15 4.77521
+	minables tungsten 6 7.77004
+	minables uranium 12 6.32013
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -22844,6 +23365,7 @@ system Riliga
 	pos -316.318 -5413.55
 	government "Kroom Kanai"
 	habitable 625
+	belt 1446
 	link Getga
 	link Gumo
 	link Ganko
@@ -22853,6 +23375,8 @@ system Riliga
 	asteroids "small metal" 7 2.4388
 	asteroids "medium metal" 33 3.458
 	asteroids "large metal" 33 4.4772
+	minables iron 1 3.97251
+	minables tungsten 1 5.03369
 	fleet "Kroom Kanai" 800
 	fleet "Kakaima Defense" 3200
 	object
@@ -22891,6 +23415,7 @@ system Rocco
 	pos -280.737 -4746.2
 	government Ultaka
 	habitable 486.68
+	belt 1639
 	link Sudean
 	link Neeko
 	link "Mea Sua"
@@ -22899,6 +23424,8 @@ system Rocco
 	asteroids "small metal" 25 3.894
 	asteroids "medium metal" 16 1.881
 	asteroids "large metal" 49 4.422
+	minables iron 2 7.41778
+	minables tungsten 16 4.19781
 	fleet "Ultaka small" 1000
 	fleet "Dels guard" 10000
 	fleet "Qanse Small" 800
@@ -22936,6 +23463,7 @@ system Rokar
 	pos -693.219 -4332.55
 	government Ignaggen
 	habitable 858.28
+	belt 1117
 	link Karlai
 	link Inen
 	link Fosme
@@ -22947,6 +23475,8 @@ system Rokar
 	asteroids "small metal" 4 3.2623
 	asteroids "medium metal" 3 4.8127
 	asteroids "large metal" 2 2.5517
+	minables iron 41 5.31362
+	minables uranium 4 7.15178
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -24479,7 +25009,6 @@ system Santqoi
 
 system Saor
 	pos -683.833 -4960.49
-	government ZIS
 	habitable 320
 	link "Trochzempt ZAZ-1"
 	asteroids "medium rock" 5 2.6208
@@ -24487,7 +25016,6 @@ system Saor
 	asteroids "small metal" 1 5.2416
 	asteroids "medium metal" 3 2.4024
 	asteroids "large metal" 1 3.5308
-	fleet "Zis Heavy Patrol Fleet" 500
 	object
 		sprite star/m0
 		period 10
@@ -24521,7 +25049,6 @@ system Saska
 	fleet "Ultaka small" 700
 	fleet "Ultaka big" 1000
 	fleet "Qanse small" 1000
-	fleet "Ultaka mothership weapon" 100
 	fleet "Ultaka Traps" 1200
 	object
 		sprite star/g0
@@ -25074,6 +25601,7 @@ system Skuga
 	pos -575.438 -5175.37
 	government "Kroom Kakaima"
 	habitable 320
+	belt 1473
 	link Ginja
 	link Lima
 	link Golima
@@ -25083,6 +25611,7 @@ system Skuga
 	asteroids "small metal" 11 3.7752
 	asteroids "medium metal" 12 1.4586
 	asteroids "large metal" 4 3.6608
+	minables lead 6 4.48612
 	fleet "Kakaima Defense" 800
 	fleet "Kakaima Civillian" 600
 	fleet "Geeva Battle Fleet" 3800
@@ -25176,6 +25705,7 @@ system Sola
 	pos 197.363 -5116.59
 	government Dels
 	habitable 135
+	belt 1395
 	link Dopolk
 	link Nell'O
 	link Geen
@@ -25187,6 +25717,8 @@ system Sola
 	asteroids "small metal" 2 6.3504
 	asteroids "medium metal" 18 4.2768
 	asteroids "large metal" 6 3.1968
+	minables titanium 1 5.31678
+	minables tungsten 1 7.88567
 	fleet "Dels guard" 600
 	fleet "Dels merchant" 1200
 	object
@@ -25225,6 +25757,7 @@ system Sorel
 	pos -21.9802 -4794.36
 	government Revos
 	habitable 233.28
+	belt 1830
 	link Vobi
 	link Kotai
 	link Leno
@@ -25234,6 +25767,8 @@ system Sorel
 	asteroids "small metal" 21 3.1993
 	asteroids "medium metal" 77 3.4983
 	asteroids "large metal" 79 3.2292
+	minables silver 1 4.92767
+	minables tungsten 25 4.29624
 	fleet "Revos small" 1500
 	object
 		sprite star/m4
@@ -25322,6 +25857,7 @@ system Suadee
 	pos -345.737 -4527.2
 	government Ultaka
 	habitable 466.56
+	belt 1005
 	link Jolark
 	link Comar
 	link "Mea Vol"
@@ -25331,6 +25867,8 @@ system Suadee
 	asteroids "small metal" 1 4.4856
 	asteroids "medium metal" 79 4.2336
 	asteroids "large metal" 2 3.8808
+	minables iron 1 8.71139
+	minables titanium 2 6.52803
 	fleet "Ultaka small" 1000
 	fleet "Ultaka big" 1600
 	fleet "Ultaka Traps" 1200
@@ -25439,6 +25977,7 @@ system Suedo
 	pos -452.737 -4417.2
 	government Ultaka
 	habitable 1080
+	belt 1788
 	link Nelha
 	link Neevee
 	asteroids "medium rock" 148 3.838
@@ -25446,6 +25985,8 @@ system Suedo
 	asteroids "small metal" 6 5.282
 	asteroids "medium metal" 29 5.016
 	asteroids "large metal" 4 5.168
+	minables lead 13 6.14387
+	minables neodymium 5 6.64767
 	fleet "Ultaka small" 1200
 	object
 		sprite star/g0
@@ -25491,6 +26032,7 @@ system Suere
 	pos -236.971 -4340.76
 	government Ultaka
 	habitable 625
+	belt 1008
 	link Dree
 	link Loomera
 	asteroids "small rock" 133 4.888
@@ -25499,6 +26041,9 @@ system Suere
 	asteroids "small metal" 14 3.9
 	asteroids "medium metal" 118 3.588
 	asteroids "large metal" 24 7.436
+	minables aluminum 1 7.4002
+	minables copper 7 4.53433
+	minables gold 35 5.56006
 	fleet "Ultaka small" 1200
 	fleet "Ultaka Traps" 1200
 	object
@@ -25541,6 +26086,7 @@ system Sukko
 	pos -292.972 -5136.85
 	government "Kroom Kanai"
 	habitable 425.92
+	belt 1332
 	link Gonma
 	link Gavnan
 	link Akogi
@@ -25549,6 +26095,9 @@ system Sukko
 	asteroids "large rock" 34 1.7688
 	asteroids "medium metal" 1 1.4256
 	asteroids "large metal" 3 3.0624
+	minables iron 3 2.81172
+	minables lead 7 3.37738
+	minables neodymium 5 3.02971
 	fleet "Kroom Kanai" 800
 	object
 		sprite star/k5
@@ -26079,6 +26628,41 @@ system Uanalen
 			distance 328
 			period 23.7425
 
+system Ubase
+	pos -282.332 -5501.03
+	government Taroun
+	habitable 625
+	belt 1505
+	link Neusbor
+	asteroids "large metal" 1 6.2244
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/lava1
+		distance 216.36
+		period 50.9197
+	object
+		sprite planet/dust0
+		distance 356.97
+		period 107.911
+	object
+		sprite planet/lava4
+		distance 670.26
+		period 277.642
+	object
+		sprite planet/dust7
+		distance 1953.51
+		period 1381.48
+	object
+		sprite planet/gas8
+		distance 3120.51
+		period 2789.06
+		object
+			sprite planet/luna
+			distance 201
+			period 15.1695
+
 system Ulkutalni
 	pos 4813.45 -7909.79
 	government Ultaka
@@ -26550,6 +27134,48 @@ system Uraten
 			distance 583
 			period 56.2624
 
+system Urlansa
+	pos -108.782 -5817.3
+	government Taroun
+	habitable 425.92
+	belt 1389
+	link Kaornral
+	asteroids "small rock" 9 7.5036
+	asteroids "medium rock" 2 6.8952
+	asteroids "large rock" 17 9.1936
+	asteroids "small metal" 101 8.112
+	asteroids "medium metal" 87 6.2868
+	asteroids "large metal" 25 6.8276
+	minables lead 28 13.74
+	minables titanium 33 11.6709
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/rhea
+		distance 161.24
+		period 39.6831
+	object "Ferulaon Yusuo"
+		sprite planet/rock8
+		distance 422.095
+		period 168.078
+		offset 89.678
+	object
+		sprite planet/lava3
+		distance 752.385
+		period 399.997
+		offset 233.853
+	object
+		sprite planet/ice4
+		distance 946.675
+		period 564.544
+		offset 126.569
+	object "Tarounian Wormhole"
+		sprite planet/gas1
+		distance 2664.09
+		period 2665.14
+		offset 311.928
+
 system Urmarse
 	pos -203.83 -4100.68
 	government Erader
@@ -26776,9 +27402,10 @@ system Vobeelee
 			period 59.2157
 
 system Vobi
-	pos 53.0198 -4750.36
+	pos 54.0198 -4763.36
 	government Revos
 	habitable 1400
+	belt 1855
 	link Sorel
 	link Lena
 	asteroids "small rock" 5 4.964
@@ -26787,6 +27414,9 @@ system Vobi
 	asteroids "small metal" 39 3.842
 	asteroids "medium metal" 6 3.706
 	asteroids "large metal" 86 2.686
+	minables silicon 3 6.32153
+	minables titanium 5 6.33107
+	minables tungsten 3 6.11802
 	fleet "Revos small" 1500
 	object
 		sprite star/g0
@@ -26826,6 +27456,7 @@ system Vola
 	pos -336.737 -4493.2
 	government Ultaka
 	habitable 486.68
+	belt 1798
 	link Jolark
 	link Jeelark
 	link Kinlo
@@ -26834,6 +27465,8 @@ system Vola
 	asteroids "small metal" 1 3.1374
 	asteroids "medium metal" 3 4.914
 	asteroids "large metal" 3 2.646
+	minables aluminum 2 5.43644
+	minables titanium 1 6.4901
 	fleet "Ultaka small" 1200
 	fleet "Ultaka big" 1200
 	object
@@ -26872,6 +27505,7 @@ system Volco
 	pos -275.07 -4631.86
 	government Ultaka
 	habitable 625
+	belt 1547
 	link Alta
 	link "Mea Vol"
 	link Hinley
@@ -26881,6 +27515,9 @@ system Volco
 	asteroids "small metal" 16 2.7716
 	asteroids "medium metal" 3 4.1574
 	asteroids "large metal" 26 3.8532
+	minables aluminum 12 6.12253
+	minables platinum 1 4.47684
+	minables titanium 1 6.64553
 	fleet "Ultaka small" 1200
 	object
 		sprite star/g5
@@ -26980,6 +27617,7 @@ system Voltaric
 	pos 73.5297 -5033.81
 	government Dels
 	habitable 1215
+	belt 1918
 	link Deepla
 	link Genak
 	link Dofolk
@@ -26988,6 +27626,8 @@ system Voltaric
 	asteroids "small metal" 2 3.3856
 	asteroids "medium metal" 38 7.406
 	asteroids "large metal" 20 6.2951
+	minables neodymium 3 9.77315
+	minables titanium 7 11.7122
 	fleet "Dels guard" 1000
 	fleet "Dels merchant" 600
 	object
@@ -27509,6 +28149,58 @@ system Yuruar
 			distance 571
 			period 42.8762
 
+system Zaubaruer
+	pos -217.251 -5759.07
+	government Taroun
+	habitable 625
+	belt 1034
+	link Luaarla
+	link Kaornral
+	asteroids "small rock" 2 6.786
+	asteroids "medium rock" 9 12.789
+	asteroids "large rock" 1 8.178
+	asteroids "small metal" 44 8.961
+	asteroids "medium metal" 30 11.919
+	asteroids "large metal" 11 11.658
+	minables lead 18 15.0864
+	minables titanium 2 16.4913
+	minables tungsten 1 17.1203
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/rock4
+		distance 224.25
+		period 53.7302
+	object
+		sprite planet/cloud0
+		distance 460.06
+		period 157.885
+	object
+		sprite planet/forest5
+		distance 849.3
+		period 396.015
+		object
+			sprite planet/dust4
+			distance 154
+			period 20.6357
+	object
+		sprite planet/ganymede
+		distance 1288.91
+		period 740.379
+	object
+		sprite planet/gas10
+		distance 1829.8
+		period 1252.35
+		object
+			sprite planet/miranda
+			distance 203
+			period 15.2244
+		object
+			sprite planet/dust1
+			distance 352
+			period 34.7625
+
 system "Zerax WS-2"
 	pos -656.833 -4901.49
 	government ZIS
@@ -27519,7 +28211,6 @@ system "Zerax WS-2"
 	asteroids "large rock" 2 3.2736
 	asteroids "medium metal" 12 2.6048
 	asteroids "large metal" 1 3.9424
-	fleet "Zis Heavy Patrol Fleet" 500
 	object
 		sprite star/k0
 		distance 34.9085
@@ -27549,7 +28240,6 @@ system "Zoivol WS-1"
 	asteroids "small metal" 1 2.3562
 	asteroids "medium metal" 7 1.386
 	asteroids "large metal" 2 2.8116
-	fleet "Zis Heavy Patrol Fleet" 500
 	object
 		sprite star/k5
 		period 10
@@ -27659,9 +28349,16 @@ system ligar
 	pos -632.318 -5151.55
 	government "Kroom Kakaima"
 	habitable 425.92
+	belt 1729
 	link Skuga
 	link Golima
-	asteroids "large metal" 1 3.944
+	asteroids "small rock" 11 5.8032
+	asteroids "medium rock" 21 6.4896
+	asteroids "large rock" 4 4.6176
+	asteroids "medium metal" 6 4.4928
+	asteroids "large metal" 1 7.9248
+	minables iron 7 6.73166
+	minables titanium 5 7.73964
 	fleet "Kakaima Defense" 800
 	fleet "Kakaima Civillian" 600
 	fleet "Geeva Battle Fleet" 3800
@@ -27952,6 +28649,12 @@ planet Falla
 	spaceport .
 	bribe 0.4
 	security 0.5
+
+planet "Ferulaon Yusuo"
+	landscape land/water7
+	description .
+	spaceport .
+	"required reputation" 50
 
 planet Foklear
 	landscape land/desert7
@@ -28881,6 +29584,9 @@ planet Tansaqa
 	"required reputation" 1
 	bribe 0.7
 
+planet "Tarounian Wormhole"
+	landscape land/water7
+
 planet "Trochzempt ZAZ-1"
 	attributes ZIS
 	landscape land/station0
@@ -28888,8 +29594,8 @@ planet "Trochzempt ZAZ-1"
 	description `	Only about a half of the station is currently finish but it was already armed with countless of defense turret.`
 	description `	 The construction of the station was just recently started (about a century or two) but was already functional and inhabitated the construction as you see are extremely fast countless of building ships and drones fly around out side of the station welding sheets of metals together.`
 	spaceport `The spaceport is enormous, countless of ships fly in and out, the people here are human, cyborg, and robots.`
-	shipyard "Modtest"
-	outfitter "Modtest"
+	shipyard Modtest
+	outfitter Modtest
 
 planet Verkarja
 	landscape land/lava7-sfiera
@@ -28929,20 +29635,18 @@ planet Wobore
 	security 0.5
 
 planet "Wormhole Alpha"
-	landscape ""
 
 planet "Wormhole Glink"
-	landscape ""
 
 planet "Zerax WS-2"
 	landscape land/space5
-	description "Zerax was intended to be one of the biggest Zis spaceship at the time it was built, but with the new Zis construction technology they can easily build few more Zerax in a year."
+	description `Zerax was intended to be one of the biggest Zis spaceship at the time it was built, but with the new Zis construction technology they can easily build few more Zerax in a year.`
 	spaceport .
 	"required reputation" 1
 
 planet "Zoivol WS-1"
 	landscape land/station1
-	description "Zoivol is the oldest world ship since the Traveller world ship, at first this station was about to be disassembled since they can build newer better world ship by then but Zoivol was now back to service since they need their resource to build the new station 'Trochzempt'"
+	description `Zoivol is the oldest world ship since the Traveller world ship, at first this station was about to be disassembled since they can build newer better world ship by then but Zoivol was now back to service since they need their resource to build the new station 'Trochzempt'`
 	spaceport .
 	"required reputation" 1
 
