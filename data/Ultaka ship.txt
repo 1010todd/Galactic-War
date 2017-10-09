@@ -164,7 +164,7 @@ ship "Ultaka Hunter"
 	sprite "ship/ultaka hunter"
 	attributes
 		category "Interceptor"
-		"cost" 20000000
+		"cost" 900000
 		"shields" 55000
 		"hull" 32000
 		"hull repair rate" 3
@@ -442,7 +442,10 @@ ship "Ultaka Path-Maker"
 	description "Ultaka Path-Makers are rare and old wormhole and hyperspace link maker design, they first known when the the Ultaka made the first wormhole into the Wallagi's galaxy, The Wallagi have captured many path-maker in the past and used them to make wormhole to other galaxy but they usually break down after it successfully make a wormhole making these ships very valueable to Wallagi since they also cannot keep it for research since when ever they try to study how the ship make wormholes they usually either blow up or destroyed by the Ultaka raid."
 	
 ship "Ultaka Galactic Destroyer"
-	sprite "ship/ultaka destroyer"
+	sprite "ship/destroyer/ultaka destroyer"
+		delay 10
+		rewind
+		"frame rate" 28
 	attributes
 		category "Heavy Warship"
 		"cost" 600000000
