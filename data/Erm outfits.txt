@@ -252,8 +252,8 @@ outfit "Kaiza Anti-Fighter Turret"
 		"reload" 13
 		"firing energy" 50
 		"firing heat" 20
-		"shield damage" 250
-		"hull damage" 250
+		"shield damage" 95
+		"hull damage" 95
 		"ion damage" .1
 		"safe"
 		"blast radius" 20
@@ -261,7 +261,7 @@ outfit "Kaiza Anti-Fighter Turret"
 outfit "Zouron Machinegun"
 	category "Guns"
 	cost 800000
-	thumbnail "outfit/blaster"
+	thumbnail "outfit/zouron"
 	"mass" 10
 	"outfit space" -10
 	"weapon capacity" -10
@@ -276,13 +276,13 @@ outfit "Zouron Machinegun"
 		"reload" 8
 		"firing energy" 20
 		"firing heat" 5
-		"shield damage" 110
-		"hull damage" 110
+		"shield damage" 45
+		"hull damage" 50
 		
 outfit "Zouron Machinegun Turret"
 	category "Turrets"
 	cost 1000000
-	thumbnail "outfit/blaster"
+	thumbnail "outfit/zouron turret"
 	"mass" 12
 	"outfit space" -12
 	"weapon capacity" -12
@@ -299,8 +299,8 @@ outfit "Zouron Machinegun Turret"
 		"reload" 8
 		"firing energy" 20
 		"firing heat" 5
-		"shield damage" 110
-		"hull damage" 110
+		"shield damage" 45
+		"hull damage" 50
 		
 outfit "Erm Missile Prevention System"
 	category "Turrets"
