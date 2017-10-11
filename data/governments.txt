@@ -74,12 +74,14 @@ government "ZIS"
 		"Ultaka" -1
 		"Quarg" -.1
 		"Kroom Kakaima" -.01
+		"ZIS " 1
 		
 government "ZIS "
 	swizzle 3
 	color 0.037 0.153 0.8
 	"player reputation" 1
 	"attitude toward"
+		"ZIS" 1
 		"Pirate" -.1
 		"Korath" -.1
 		"Ultaka" -1
@@ -278,3 +280,4 @@ government "Taroun"
 	"attitude toward"
 		"Zis" -.1
 		"Geeva" -.1
+		
