@@ -1,0 +1,1679 @@
+ship "VK-35 Katen"
+		sprite "ship/inel"
+		attributes
+			category "Interceptor"
+			"cost" 36200000
+			"shields" 180000
+			"hull" 280000
+			"required crew" 1
+			"bunks" 2
+			"mass" 25
+			"drag" .5
+			"heat dissipation" 1.5
+			"outfit space" 90
+			"weapon capacity" 42
+			"engine capacity" 20
+			"fuel capacity" 500
+			"energy capacity" 19000
+			"energy generation" 83
+			"cooling" 35
+			"hyperdrive" 1
+			"jump speed" 6
+			"jump drive" 1
+			"ramscoop" 15
+			"scan interference" 1
+			"radar jamming" 5
+			"ZIS AM Lock" -1
+			weapon
+				"blast radius" 20
+				"shield damage" 1200
+				"hull damage" 6000
+				"hit force" 180
+		outfits	
+			"Mrag Gun" 6
+			"Mrag Turret"
+			"ZIS Anti-Missile System"
+		
+			"M-10 Engine"
+			"FT-1S Shield Generator"
+			"FT-1H Hull Regenerator"
+			"ZIS Recon Pod"
+		
+		gun -36.5 -52
+		gun 34 -51
+		gun -36.5 -52
+		gun 34 -51
+		gun -7 -25
+		gun 4 -25
+		turret 0 34.5 "Mrag Turret"
+		turret 0 34.5 "ZIS Anti-Missile System"
+		gun 0 21.5
+		engine 19 42
+		engine -21 42
+		explode "nuke explosion" 1
+		description "Katen is a recent interceptor design with the most gun port of all the ships it's size but only for installing certain small weapons."
+		
+ship "VK-35 Katen" "Katen Civ 1"
+		sprite "ship/katenciv-a"
+		"swizzle" 0
+		outfits	
+			"FireStorm Flamethrower" 2
+			"ZIS Anti-Missile System"
+		
+			"M-10 Engine"
+			"FT-1S Shield Generator"
+			"FT-1H Hull Regenerator"
+			
+		description "Katen is a recent interceptor design with the most gun port of all the ships it's size but only for installing certain small weapons."
+		description "Fire Storm Variant."
+			
+ship "VK-35 Katen" "Katen Civ S1"
+		sprite "ship/katenciv-a"
+		"swizzle" 0
+		outfits	
+			"Mrag Gun" 6
+			"Mrag Turret"
+			"ZIS Anti-Missile System"
+		
+			"M-10 Engine"
+			"FT-1S Shield Generator"
+			"FT-1H Hull Regenerator"
+			
+		description "Katen is a recent interceptor design with the most gun port of all the ships it's size but only for installing certain small weapons."
+		description "Fire Storm Deco."
+		
+ship "VK-35 Katen" "Katen Civ 1a"
+		sprite "ship/katenciv-a"
+		"swizzle" 0
+		outfits	
+			"Mrag Gun" 4
+			"Mrag Turret"
+			"ZIS Anti-Missile System"
+		
+			"Nitro-Type4 Engine"
+			"FT-1S Shield Generator"
+			"FT-1H Hull Regenerator"
+			
+		description "Katen is a recent interceptor design with the most gun port of all the ships it's size but only for installing certain small weapons."
+		description "Speedster Variant."
+		
+ship "VK-35 Katen" "Katen Civ 1b"
+		sprite "ship/katenciv-d"
+		"swizzle" 0
+		outfits	
+			"Mrag Gun" 4
+			"Mrag Turret"
+			"ZIS Anti-Missile System"
+		
+			"Nitro-Type4 Engine"
+			"FT-1S Shield Generator"
+			"FT-1H Hull Regenerator"
+			
+		description "Katen is a recent interceptor design with the most gun port of all the ships it's size but only for installing certain small weapons."
+		description "Speedster 2 Variant."
+			
+ship "VK-35 Katen" "Katen Dark Blaster"
+		outfits	
+			"DZ-10 Dark Blaster" 4
+			"ZIS Anti-Missile System"
+		
+			"M-10 Engine"
+			"FT-1S Shield Generator"
+			"FT-1H Hull Regenerator"
+			
+		description "Katen is a recent interceptor design with the most gun port of all the ships it's size but only for installing certain small weapons."
+		description "Dark Blaster Variant."
+		
+ship "VK-35 Katen" "Katen Civ 2"
+		sprite "ship/katenciv-b"
+		outfits	
+			"Mrag Gun" 6
+			"Mrag Turret"
+			"ZIS Anti-Missile System"
+		
+			"M-10 Engine"
+			"FT-1S Shield Generator"
+			"FT-1H Hull Regenerator"
+			
+		description "Katen is a recent interceptor design with the most gun port of all the ships it's size but only for installing certain small weapons."
+		description "Skull Deco Variant."
+		
+ship "VK-35 Katen" "Katen Civ 2a"
+		sprite "ship/katenciv-b"
+		outfits	
+			"DZ-10 Dark Blaster" 4
+			"ZIS Anti-Missile System"
+		
+			"M-10 Engine"
+			"FT-1S Shield Generator"
+			"FT-1H Hull Regenerator"
+			
+		description "Katen is a recent interceptor design with the most gun port of all the ships it's size but only for installing certain small weapons."
+		description "Skull Deco+Dark Blaster Variant."
+		
+ship "VK-35 Katen" "Katen Civ 2b"
+		sprite "ship/katenciv-b"
+		outfits	
+			"Fernai Shotgun" 2
+			"ZIS Anti-Missile System"
+		
+			"M-10 Engine"
+			"FT-1S Shield Generator"
+			"FT-1H Hull Regenerator"
+			
+		description "Katen is a recent interceptor design with the most gun port of all the ships it's size but only for installing certain small weapons."
+		description "Skull Deco+Shotgun Variant."
+			
+ship "VK-35 Katen" "Katen Civ 3"
+		sprite "ship/katenciv-c"
+		outfits	
+			"Fernai Shotgun" 2
+			"ZIS Anti-Missile System"
+		
+			"M-10 Engine"
+			"FT-1S Shield Generator"
+			"FT-1H Hull Regenerator"
+			
+		gun -36.5 -52 "Fernai Shotgun"
+		gun -36.5 -52
+		gun 34 -51 "Fernai Shotgun"
+		gun 34 -51
+		gun -7 -25
+		gun 4 -25
+		turret 0 34.5
+		turret 0 34.5 "ZIS Anti-Missile System"
+		gun 0 21.5
+		engine 19 42
+		engine -21 42
+		explode "nuke explosion" 1
+		description "Katen is a recent interceptor design with the most gun port of all the ships it's size but only for installing certain small weapons."
+		description "Shotgun Variant."
+		
+ship "VK-35 Katen" "Katen Civ 3a"
+		sprite "ship/katenciv-a"
+		"swizzle" 0
+		outfits	
+			"Fernai Shotgun" 2
+			"ZIS Anti-Missile System"
+		
+			"M-10 Engine"
+			"FT-1S Shield Generator"
+			"FT-1H Hull Regenerator"
+			
+		gun -36.5 -52 "Fernai Shotgun"
+		gun -36.5 -52
+		gun 34 -51 "Fernai Shotgun"
+		gun 34 -51
+		gun -7 -25
+		gun 4 -25
+		turret 0 34.5
+		turret 0 34.5 "ZIS Anti-Missile System"
+		gun 0 21.5
+		engine 19 42
+		engine -21 42
+		explode "nuke explosion" 1
+		description "Katen is a recent interceptor design with the most gun port of all the ships it's size but only for installing certain small weapons."
+		description "Shotgun Variant."
+			
+ship "VK-35 Katen" "Katen Civ 4"
+		sprite "ship/katenciv-d"
+		"swizzle" 0
+		outfits	
+			"SnowStorm Gun" 2
+			"ZIS Anti-Missile System"
+		
+			"M-10 Engine"
+			"FT-1S Shield Generator"
+			"FT-1H Hull Regenerator"
+			
+		description "Katen is a recent interceptor design with the most gun port of all the ships it's size but only for installing certain small weapons."
+		description "Frost Flame Variant."
+		
+ship "VK-35 Katen" "Katen Civ 4b"
+		sprite "ship/katenciv-d"
+		"swizzle" 0
+		outfits	
+			"ForstBite Lance" 2
+			"ZIS Anti-Missile System"
+		
+			"M-10 Engine"
+			"FT-1S Shield Generator"
+			"FT-1H Hull Regenerator"
+			
+		description "Katen is a recent interceptor design with the most gun port of all the ships it's size but only for installing certain small weapons."
+		description "Frost Lance Variant."
+		
+ship "RZ-28 Forlan"
+	sprite "ship/forlan"
+	attributes
+		category "Interceptor"
+		"cost" 89800000
+		"shields" 180000
+		"hull" 220000
+		"required crew" 1
+		"bunks" 2
+		"mass" 24
+		"drag" .5
+		"heat dissipation" 2
+		"outfit space" 125
+		"weapon capacity" 124
+		"engine capacity" 102
+		"fuel capacity" 500
+		"energy capacity" 19000
+		"energy generation" 8800
+		"ramscoop" 20
+		"hyperdrive" 1
+		"jump speed" 6
+		"jump drive" 1
+		"cooling" 80
+		"cloak" 1
+		"cloaking energy" 5
+		"scan interference" 1
+		"radar jamming" 5
+		"ZIS AM Lock" -1
+		weapon
+			"blast radius" 35
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"DZ-10 Dark Blaster" 4
+		"ZIS Anti-Missile System"
+		
+		"M-10 Engine"
+		"FT-1S Shield Generator"
+		"FT-1H Hull Regenerator"
+		
+	gun -44 -3
+	gun 44 -3
+	gun -4.5 -51
+	gun 4.5 -51
+	turret 0 9.5
+	engine 0 54
+	explode "nuke explosion" 1
+	description "A small personal interceptor mostly used as a personal trnasport ship."
+		
+ship "RZ-621-02 Razor"
+	sprite "ship/razor-two"
+	attributes
+		category "Light Warship"
+		"cost" 40000000
+		"shields" 480000
+		"hull" 600000
+		"required crew" 5
+		"bunks" 65
+		"mass" 160
+		"drag" 2.7
+		"heat dissipation" .9
+		"fuel capacity" 600
+		"cargo space" 80
+		"outfit space" 480
+		"weapon capacity" 250
+		"engine capacity" 35
+		"energy capacity" 12000
+		"energy generation" 1200
+		"hyperdrive" 1
+		"jump speed" 6
+		"jump drive" 1
+		"cooling" 150
+		"scan interference" 2
+		"radar jamming" 5
+		ramscoop 20
+		"gaslining" 1
+		"ZIS AM Lock" -1
+		weapon
+			"blast radius" 60
+			"shield damage" 6000
+			"hull damage" 3000
+			"hit force" 900
+	outfits
+		"Mrag Turret" 4
+		"M-20 Engine"
+		"LW-1S Shield Generator"
+		"LW-1H Hull Regenerator"
+		"ZIS Recon Pod"
+		"ZIS Anti-Missile System"
+		"Brumba Turret" 2
+		
+	turret -30 -54.5 "Mrag Turret"
+	turret 30 -54.5 "Mrag Turret"
+	turret -28 45 "Mrag Turret"
+	turret 28 45 "Mrag Turret"
+	turret 0 0 "ZIS Anti-Missile System"
+	turret 0 -33.5 "Brumba Turret"
+	turret 0 22.5 "Brumba Turret"
+	engine -13.5 101
+	engine -1 101
+	engine 11.5 101
+	drone 28.5 -4 under
+	drone -28.5 -4 under
+	explode "nuke explosion" 3
+	description "Zis Razor light patrol ship are widly used in patrol fleets, with decent cargo and passenger capacity they are also used to transport ground froces and supplies to the battlefields."
+	
+ship "RZ-621-02 Razor" "Miner Razor"
+	outfits
+		"Mrag Turret" 4
+		"M-20 Engine"
+		"LW-1S Shield Generator"
+		"LW-1H Hull Regenerator"
+		"ZIS Anti-Missile System"
+		"DZ-84 Darklance Turret" 2
+		
+	turret -30 -54.5 "Mrag Turret"
+	turret 30 -54.5 "Mrag Turret"
+	turret -28 45 "Mrag Turret"
+	turret 28 45 "Mrag Turret"
+	turret 0 0 "ZIS Anti-Missile System"
+	turret 0 -33.5 "DZ-84 Darklance Turret"
+	turret 0 22.5 "DZ-84 Darklance Turret"
+	engine -13.5 101
+	engine -1 101
+	engine 11.5 101
+	drone 28.5 -4 under
+	drone -28.5 -4 under
+	explode "nuke explosion" 3
+	description "Zis Razor light patrol ship are widly used in patrol fleets, with decent cargo and passenger capacity they are also used to transport ground froces and supplies to the battlefields."
+	description "This variant of RZ-621 Razor is used for mining."
+	
+ship "SY-8662 Sysor"
+	sprite "ship/sysor"
+	attributes
+		category "Medium Warship"
+		"cost" 120000000
+		"shields" 840000
+		"hull" 890000
+		"required crew" 18
+		"bunks" 285
+		"mass" 490
+		"drag" 10.1
+		"heat dissipation" .8
+		"fuel capacity" 1000
+		"cargo space" 500
+		"outfit space" 680
+		"weapon capacity" 360
+		"engine capacity" 120
+		"energy generation" 130
+		"ramscoop" 60
+		"cooling" 450
+		"scan interference" 12
+		"radar jamming" 8
+		"hyperdrive" 1
+		"jump speed" 6
+		"jump drive" 1
+		"ZIS AM Lock" -4
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 1200
+	outfits
+		"ZIS Anti-Missile System" 4
+		"DZ-84 Darklance Turret" 6
+		"Syfar Torpedo Launcher(Single)" 2
+		"Syfar Torpedo Storage" 2
+		"Syfar Torpedo" 62
+		
+		"HW-1 Reactor"
+		"MW-4S Shield Generator"
+		"MW-1H Hull Regenerator"
+		
+		"M-80 Engine"
+		
+	turret 0 -129 "DZ-84 Darklance Turret"
+	turret 0 -82 "DZ-84 Darklance Turret"
+	turret -19.5 145 "DZ-84 Darklance Turret"
+	turret 19.5 144.5 "DZ-84 Darklance Turret"
+	turret -16 166 "DZ-84 Darklance Turret"
+	turret 14.5 165.5 "DZ-84 Darklance Turret"
+	turret -71 -15 "ZIS Anti-Missile System"
+	turret 73 -11 "ZIS Anti-Missile System"
+	turret -62 118.5 "ZIS Anti-Missile System"
+	turret 61 119.5 "ZIS Anti-Missile System"
+	gun -18.5 -166.5 "Syfar Torpedo Launcher(Single)"
+	gun 19 -167 "Syfar Torpedo Launcher(Single)"
+	engine -21 190.5
+	engine 23.5 190
+	engine 0 191.5
+	drone -53.5 72 under
+	drone 53.5 72 under
+	explode "nuke explosion" 8
+	"final explode" "final explosion large"
+	description `Sysor is intended to be a well defended transport ship with darklance turrets that can both tear down large ships and track down fast ships, due that it was too heavily armed it was classified as medium warship instead.`
+	
+ship "DT-510 Quadlancer"
+	sprite "ship/quadlancer"
+	attributes
+		category "Light Warship"
+		"cost" 102000000
+		"shields" 680000
+		"hull" 650000
+		"required crew" 5
+		"bunks" 12
+		"mass" 330
+		"drag" 6.3
+		"heat dissipation" 10.3
+		"fuel capacity" 600
+		"cargo space" 15
+		"outfit space" 480
+		"weapon capacity" 200
+		"engine capacity" 80
+		"energy capacity" 19000
+		"energy generation" 160
+		"ramscoop" 15
+		"cooling" 54
+		"hyperdrive" 1
+		"jump speed" 6
+		"jump drive" 1
+		"scan interference" 12
+		"radar jamming" 8
+		"swizzle" 0
+		"ZIS AM Lock" -2
+		weapon
+			"blast radius" 250
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 1500
+	outfits
+		"DZ-84 Darklance" 2
+		"DZ-84 Darklance (Rear)" 2
+		"LW-1S Shield Generator" 2
+		"LW-1H Hull Regenerator"
+		"MW-2 Reactor"
+		"Medium Graviton Thruster"
+		"Medium Graviton Steering"
+		"ZIS Anti-Missile System" 2
+		
+	engine 0 31
+	gun -15.5 -99 "DZ-84 Darklance"
+	gun 15.5 -99 "DZ-84 Darklance"
+	gun -14 99 "DZ-84 Darklance (Rear)"
+	gun 14 99 "DZ-84 Darklance (Rear)"
+	turret -15 -18
+	turret 13.5 10.5
+	explode "nuke explosion" 4
+	"final explode" "final explosion medium"
+	description "Quadlancers are designed espically for dogfights with backward pointing laser can help them to defend their rear without the turrets."
+	
+ship "DT-224 Trazar"
+	sprite "ship/trazar"
+	attributes
+		category "Light Warship"
+		"cost" 40000000
+		"shields" 480000
+		"hull" 500000
+		"required crew" 2
+		"bunks" 12
+		"mass" 110
+		"drag" 2.3
+		"heat dissipation" .9
+		"fuel capacity" 600
+		"cargo space" 50
+		"outfit space" 180
+		"weapon capacity" 160
+		"engine capacity" 35
+		"energy capacity" 12000
+		"energy generation" 120
+		"hyperdrive" 1
+		"jump speed" 6
+		"jump drive" 1
+		"cooling" 150
+		"scan interference" 2.5
+		"radar jamming" 5
+		ramscoop 20
+		"gaslining" 1
+		"ZIS AM Lock" -1
+		weapon
+			"blast radius" 60
+			"shield damage" 6000
+			"hull damage" 3000
+			"hit force" 900
+	outfits
+		"Fernai Shotgun" 4
+		"DZ-10 Dark Blaster Turret"
+		"M-20 Engine"
+		"LW-2 Reactor"
+		"LW-1S Shield Generator"
+		"LW-1H Hull Regenerator"
+		"ZIS Anti-Missile System"
+		
+	gun -44.5 -90.5 "Fernai Shotgun"
+	gun 45 -90.5 "Fernai Shotgun"
+	gun -54.5 -76.5 "Fernai Shotgun"
+	gun 54.5 -76.5 "Fernai Shotgun"
+	turret 0 22 "DZ-10 Dark Blaster Turret"
+	turret 0 0 "ZIS Anti-Missile System"
+	engine -24 82
+	engine 24.5 83
+	explode "nuke explosion" 3
+	description "Trazar is a anti-fighter light warship equipped with 4 up-sized shotguns."
+	
+ship "SG-60 Ginaz Patrol Drone"
+	sprite "ship/ginaz"
+	attributes
+		category "Drone"
+		"cost" 1300000
+		"shields" 100000
+		"hull" 170000
+		"mass" 30
+		"drag" .5
+		"heat dissipation" .9
+		"outfit space" 60
+		"weapon capacity" 21
+		"engine capacity" 20
+		"automaton" 1
+		"energy capacity" 2000
+		"energy generation" 25
+		"shield generation" 15
+		"hull repair rate" 15
+		"cooling" 150
+		"gaslining" 1
+		"ZIS AM Lock" -1
+		weapon
+			"blast radius" 5
+			"shield damage" 50
+			"hull damage" 25
+			"hit force" 75
+	outfits
+		"ZIS Anti-Missile System"
+		"DZ-5 Micro Darklance" 3
+		"M-10 Engine"
+		"ZIS Recon Pod"
+		
+	gun -5.5 -23.5
+	gun 0 -29
+	gun 5.5 -23.5
+	engine 0 27.5
+	turret 0 1.5
+	explode "tiny explosion" 15
+	description "GZ-60 Ginaz drones are designed to be carried by Razor patrol ships to assist them on scanning unknown ships and provide more firepower for the fleet."
+	
+ship "SG-60 Ginaz Patrol Drone" "Ginaz Builder"
+	sprite "ship/ginaz"
+	attributes
+		category "Drone"
+		"cost" 1300000
+		"shields" 100000
+		"hull" 170000
+		"mass" 30
+		"drag" .5
+		"heat dissipation" .9
+		"outfit space" 60
+		"weapon capacity" 21
+		"engine capacity" 20
+		"automaton" 1
+		"energy capacity" 2000
+		"energy generation" 200
+		"shield generation" 15
+		"hull repair rate" 15
+		"cooling" 150
+		"gaslining" 1
+		"cargo space" 5
+		"ZIS AM Lock" -1
+	outfits
+		"ZIS Anti-Missile System"
+		"DZ-5 Micro Darklance" 1
+		"Nano Strike" 2
+		"M-10 Engine"
+		
+	gun -5.5 -23.5 "Nano Strike"
+	gun 0 -29 "DZ-5 Micro Darklance"
+	gun 5.5 -23.5 "Nano Strike"
+	engine 0 27.5
+	turret 0 1.5
+	explode "tiny explosion" 15
+	description "SG-60 Ginaz modified for construction and repair."
+	
+ship "point" #for the construction ginaz drones to weld in space (simply just for some scene)
+	sprite "ship/point"
+	"never disabled"
+	attributes
+		category "Drone"
+		"hull" 200
+		"automaton" 1
+		"mass" 100
+		"drag" 1
+		"heat dissipation" .9
+		"outfit space" 5
+		"weapon capacity" 5
+		
+		"energy generation" 1
+		"energy capacity" 100
+		"turn" 400
+		"turning energy" .2
+		"thrust" 100
+		"thrusting energy" .3
+	outfits
+		"Nano Strike"
+	description "
+	
+ship "Defence Turret"
+	sprite "ship/point"
+	"never disabled"
+	attributes
+		category "Drone"
+		"shields" 85000
+		"hull" 56000
+		"required crew" 1
+		"bunks" 4
+		"mass" 500
+		"drag" 500
+		"cooling" 20
+		"heat dissipation" .9
+		"outfit space" 80
+		"weapon capacity" 80
+		
+		"energy generation" 200
+		"energy capacity" 8300
+		"turn" 400
+		"thrust" 100
+	outfits
+		"DZ-10 Dark Blaster Turret"
+	turret 0 0
+	description "
+	
+ship "Defence Turret" "Darklance Turret"
+	outfits
+		"DZ-84 Darklance Turret"
+	
+ship "Defence Turret" "AM Turret"
+	outfits
+		"ZIS Anti-Missile System"	
+		
+ship "Defence Turret" "Brumba Turret"
+	outfits
+		"Brumba Turret"
+		
+ship "Defence Turret" "Mrag Turret"
+	outfits
+		"Mrag Turret"
+		
+ship "TZ-3468 Seoui"
+	sprite "ship/seoui"
+	attributes
+		category "Medium Warship"
+		"cost" 160000000
+		"shields" 540000
+		"hull" 525000
+		"required crew" 8
+		"bunks" 20
+		"mass" 490
+		"drag" 8.1
+		"heat dissipation" .75
+		"fuel capacity" 1000
+		"cargo space" 100
+		"outfit space" 730
+		"weapon capacity" 390
+		"engine capacity" 120
+		"ramscoop" 60
+		"cooling" 380
+		"scan interference" 12
+		"radar jamming" 12
+		"hyperdrive" 1
+		"jump speed" 6.2
+		"jump drive" 1
+		"ZIS AM Lock" -4
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 1200
+	outfits
+		"ZIS Anti-Missile System" 4
+		"DZ-84 Darklance Turret" 2
+		"Fernai Shotgun" 4
+		"DZ-10 Dark Blaster Turret" 4
+		
+		"HW-1 Reactor"
+		"MW-4S Shield Generator"
+		"MW-1H Hull Regenerator"
+		
+		"M-80 Engine"
+		
+	gun -29.5 -172
+	gun 31 -172.5
+	gun -39.5 -158.5
+	gun 39.5 -159
+	turret 0 -98.5 "DZ-84 Darklance Turret"
+	turret 0 -62 "DZ-84 Darklance Turret"
+	turret -37.5 63
+	turret 37 63
+	turret -37 97.5
+	turret 37.5 97
+	turret -105.5 94.5 "ZIS Anti-Missile System"
+	turret 107.5 95 "ZIS Anti-Missile System"
+	turret -28.5 -119.5 "ZIS Anti-Missile System"
+	turret 26.5 -122 "ZIS Anti-Missile System"
+	engine -37.5 168.5
+	engine 37 168
+	explode "nuke explosion" 9
+	"final explode" "final explosion large"
+	description `Seouis are designed to fill in the missing role of a true mid-sized warship in the Zis fleet, provoiding less cargo and passenger capacity than Sysor but more space for outfitting allowing them to be equiped with better weapons.`
+	
+ship "ZM-5422 Karloz"
+	sprite "ship/karloz"
+	attributes
+		category "Heavy Warship"
+		"cost" 124000000
+		"shields" 3020000
+		"hull" 3800000
+		"required crew" 28
+		"bunks" 350
+		"mass" 690
+		"drag" 20
+		"heat dissipation" .65
+		"fuel capacity" 600
+		"cargo space" 100
+		"outfit space" 1460
+		"weapon capacity" 1180
+		"engine capacity" 60
+		"ramscoop" 80
+		"hyperdrive" 1
+		"jump speed" 6.2
+		"jump drive" 1
+		"cooling" 780
+		"scan interference" 22
+		"radar jamming" 22
+		"ZIS AM Lock" -6
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 8500
+	outfits
+		"Zymar Turret" 3
+		"Ginal Turret" 12
+		"ZIS Anti-Missile System" 6
+		"Syfar Torpedo Turret" 4
+		"Syfar Torpedo" 120
+		"Brumba Cannon" 4
+		
+		"HW-4 Anti-Matter Reactor"
+		"HW-1H Hull Regenerator"
+		"HW-1S Shield Generator"
+		
+		"M-80 Engine"
+		
+	#Main cannon
+	turret 0 -161 "Zymar Turret"
+	turret 0 -22 "Zymar Turret"
+	turret 0 247 "Zymar Turret"
+	#Guns
+	gun -89.5 -163 "Brumba Cannon"
+	gun 89 -162.5 "Brumba Cannon"
+	gun -89 -145 "Brumba Cannon"
+	gun 90 -143.5 "Brumba Cannon"
+	#Secondaries
+	turret -38 54.5 "Ginal Turret"
+	turret 37.5 55 "Ginal Turret"
+	turret -47 77 "Ginal Turret"
+	turret 47.5 77 "Ginal Turret"
+	turret -47.5 107.5 "Ginal Turret"
+	turret 46.5 107.5 "Ginal Turret"
+	turret -47.5 129.5 "Ginal Turret"
+	turret 47 130 "Ginal Turret"
+	turret -46 161 "Ginal Turret"
+	turret 47.5 161 "Ginal Turret"
+	turret -37 184 "Ginal Turret"
+	turret 37 183.5 "Ginal Turret"
+	#Torpedoes
+	turret -77.5 -83.5 "Syfar Torpedo Turret"
+	turret 76 -80 "Syfar Torpedo Turret"
+	turret -84 -25 "Syfar Torpedo Turret"
+	turret 84 -24 "Syfar Torpedo Turret"
+	#AMs 
+	turret 44 -296 "ZIS Anti-Missile System"
+	turret -44 -298 "ZIS Anti-Missile System"
+	turret -83.5 37 "ZIS Anti-Missile System"
+	turret 80 36 "ZIS Anti-Missile System"
+	turret -38.5 326 "ZIS Anti-Missile System"
+	turret 37.5 325 "ZIS Anti-Missile System"
+	#Engine
+	engine -76.5 387
+	engine -25.5 377.5
+	engine 24 375.5
+	engine 75.5 383.5
+	#Fighter Bay
+	fighter 90.5 117
+	fighter -90.5 117
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 20
+	explode "large explosion" 30
+	explode "nuke explosion" 12
+	"final explode" "final explosion large"
+	description `A recent warship design cooperated by the best of the Zis spaceship engineers brainstorming for a battleship that strong in both armour and firepower, result in the ZM-5422 Karloz with turret placement similar to battleships of 20th century armed with 6 main battery of pure firepower, well protected from fighters with 12 turrets of anti-fighters and 12 tubes of hard-hitting torpedoes, along with a powerful shield generator and hull regenerator make it able to absorb tons of damage for a longer time than any previous ships Zis ever built.`
+	description ``
+	
+ship "ZM-5422 Karloz" "Karloz Prototype"
+	outfits
+		"Zymar Turret" 3
+		"Ginal Turret" 12
+		"ZIS Anti-Missile System" 6
+		"Brumba Cannon" 4
+		
+		"HW-4 Anti-Matter Reactor"
+		"HW-1H Hull Regenerator"
+		"HW-1S Shield Generator"
+		
+		"M-80 Engine"
+		
+	#Main cannon
+	turret 0 -161 "Zymar Turret"
+	turret 0 -22 "Zymar Turret"
+	turret 0 247 "Zymar Turret"
+	#Guns
+	gun -89.5 -163 "Brumba Cannon"
+	gun 89 -162.5 "Brumba Cannon"
+	gun -89 -145 "Brumba Cannon"
+	gun 90 -143.5 "Brumba Cannon"
+	#Secondaries
+	turret -38 54.5 "Ginal Turret"
+	turret 37.5 55 "Ginal Turret"
+	turret -47 77 "Ginal Turret"
+	turret 47.5 77 "Ginal Turret"
+	turret -47.5 107.5 "Ginal Turret"
+	turret 46.5 107.5 "Ginal Turret"
+	turret -47.5 129.5 "Ginal Turret"
+	turret 47 130 "Ginal Turret"
+	turret -46 161 "Ginal Turret"
+	turret 47.5 161 "Ginal Turret"
+	turret -37 184 "Ginal Turret"
+	turret 37 183.5 "Ginal Turret"
+	#Torpedoes
+	#AMs 
+	turret 44 -296 "ZIS Anti-Missile System"
+	turret -44 -298 "ZIS Anti-Missile System"
+	turret -83.5 37 "ZIS Anti-Missile System"
+	turret 80 36 "ZIS Anti-Missile System"
+	turret -38.5 326 "ZIS Anti-Missile System"
+	turret 37.5 325 "ZIS Anti-Missile System"
+	#Engine
+	engine -76.5 387
+	engine -25.5 377.5
+	engine 24 375.5
+	engine 75.5 383.5
+	#Fighter Bay
+	drone 90.5 117
+	drone -90.5 117
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 20
+	explode "large explosion" 30
+	explode "nuke explosion" 12
+	"final explode" "final explosion large"
+	
+ship "ZM-5420 Karloz" "Early Karloz"
+	sprite "ship/karloz"
+	attributes
+		category "Heavy Warship"
+		"cost" 124000000
+		"shields" 3020000
+		"hull" 3800000
+		"required crew" 28
+		"bunks" 350
+		"mass" 700
+		"drag" 20
+		"heat dissipation" .65
+		"fuel capacity" 600
+		"cargo space" 120
+		"outfit space" 1500
+		"weapon capacity" 1180
+		"engine capacity" 60
+		"ramscoop" 80
+		"hyperdrive" 1
+		"jump speed" 6.1
+		"jump drive" 1
+		"cooling" 775
+		"scan interference" 20
+		"radar jamming" 20
+		"ZIS AM Lock" -6
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 8500
+	outfits
+		"Zymar Turret" 3
+		"Ginal Turret" 14
+		"ZIS Anti-Missile System" 6
+		"Brumba Cannon" 4
+		
+		"HW-4 Anti-Matter Reactor"
+		"HW-1H Hull Regenerator"
+		"HW-1S Shield Generator"
+		
+		"M-80 Engine"
+		
+	#Main cannon
+	turret 0 -161 "Zymar Turret"
+	turret 0 -22 "Zymar Turret"
+	turret 0 247 "Zymar Turret"
+	#Guns
+	gun -89.5 -163 "Brumba Cannon"
+	gun 89 -162.5 "Brumba Cannon"
+	gun -89 -145 "Brumba Cannon"
+	gun 90 -143.5 "Brumba Cannon"
+	#Secondaries
+	turret -38 54.5 "Ginal Turret"
+	turret 37.5 55 "Ginal Turret"
+	turret -47 77 "Ginal Turret"
+	turret 47.5 77 "Ginal Turret"
+	turret -47.5 107.5 "Ginal Turret"
+	turret 46.5 107.5 "Ginal Turret"
+	turret -47.5 129.5 "Ginal Turret"
+	turret 47 130 "Ginal Turret"
+	turret -46 161 "Ginal Turret"
+	turret 47.5 161 "Ginal Turret"
+	turret -37 184 "Ginal Turret"
+	turret 37 183.5 "Ginal Turret"
+	turret -77.5 -83.5 "Ginal Turret"
+	turret 76 -80 "Ginal Turret"
+	#Torpedoes(Early version of Karloz don't have torpedo yet)
+	#AMs 
+	turret 44 -296 "ZIS Anti-Missile System"
+	turret -44 -298 "ZIS Anti-Missile System"
+	turret -83.5 37 "ZIS Anti-Missile System"
+	turret 80 36 "ZIS Anti-Missile System"
+	turret -38.5 326 "ZIS Anti-Missile System"
+	turret 37.5 325 "ZIS Anti-Missile System"
+	#Engine
+	engine -76.5 387
+	engine -25.5 377.5
+	engine 24 375.5
+	engine 75.5 383.5
+	#Fighter Bay(Early Karloz have drone bays becasue Zis don't have fighters yet)
+	drone 90.5 117
+	drone -90.5 117
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 20
+	explode "large explosion" 30
+	explode "nuke explosion" 12
+	"final explode" "final explosion large"
+	description `A recent warship design cooperated by best of the Zis spaceship engineers brainstorming for a battleship that strong in both armour and firepower, result in the ZM-5422 Karloz with turret placement similar to battleships of 20th century armed with 6 main battery of pure firepower, well protected from fighters with 12 turrets of anti-fighters and 12 tubes of hard-hitting torpedoes, along with a powerful shield generator and hull regenerator make it able to absorb tons of damage for a longer time than any previous ships Zis ever built.`
+
+ship "ZM-5422 Karloz" "Karloz Drone"
+	sprite "ship/karloz"
+	attributes
+		category "Heavy Warship"
+		"cost" 124000000
+		"shields" 3020000
+		"hull" 3800000
+		"required crew" 28
+		"bunks" 350
+		"mass" 690
+		"drag" 20
+		"heat dissipation" .65
+		"fuel capacity" 600
+		"cargo space" 100
+		"outfit space" 1460
+		"weapon capacity" 1180
+		"engine capacity" 60
+		"ramscoop" 80
+		"hyperdrive" 1
+		"jump speed" 6.2
+		"jump drive" 1
+		"cooling" 780
+		"scan interference" 22
+		"radar jamming" 22
+		"ZIS AM Lock" -6
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 8500
+	outfits
+		"Zymar Turret" 3
+		"Ginal Turret" 12
+		"ZIS Anti-Missile System" 6
+		"Syfar Torpedo Turret" 4
+		"Syfar Torpedo" 120
+		"Brumba Cannon" 4
+		
+		"HW-4 Anti-Matter Reactor"
+		"HW-1H Hull Regenerator"
+		"HW-1S Shield Generator"
+		
+		"M-80 Engine"
+		
+	#Main cannon
+	turret 0 -161 "Zymar Turret"
+	turret 0 -22 "Zymar Turret"
+	turret 0 247 "Zymar Turret"
+	#Guns
+	gun -89.5 -163 "Brumba Cannon"
+	gun 89 -162.5 "Brumba Cannon"
+	gun -89 -145 "Brumba Cannon"
+	gun 90 -143.5 "Brumba Cannon"
+	#Secondaries
+	turret -38 54.5 "Ginal Turret"
+	turret 37.5 55 "Ginal Turret"
+	turret -47 77 "Ginal Turret"
+	turret 47.5 77 "Ginal Turret"
+	turret -47.5 107.5 "Ginal Turret"
+	turret 46.5 107.5 "Ginal Turret"
+	turret -47.5 129.5 "Ginal Turret"
+	turret 47 130 "Ginal Turret"
+	turret -46 161 "Ginal Turret"
+	turret 47.5 161 "Ginal Turret"
+	turret -37 184 "Ginal Turret"
+	turret 37 183.5 "Ginal Turret"
+	#Torpedoes
+	turret -77.5 -83.5 "Syfar Torpedo Turret"
+	turret 76 -80 "Syfar Torpedo Turret"
+	turret -84 -25 "Syfar Torpedo Turret"
+	turret 84 -24 "Syfar Torpedo Turret"
+	#AMs 
+	turret 44 -296 "ZIS Anti-Missile System"
+	turret -44 -298 "ZIS Anti-Missile System"
+	turret -83.5 37 "ZIS Anti-Missile System"
+	turret 80 36 "ZIS Anti-Missile System"
+	turret -38.5 326 "ZIS Anti-Missile System"
+	turret 37.5 325 "ZIS Anti-Missile System"
+	#Engine
+	engine -76.5 387
+	engine -25.5 377.5
+	engine 24 375.5
+	engine 75.5 383.5
+	#Fighter Bay(Early Karloz have drone bays becasue Zis don't have fighters yet)
+	drone 90.5 117
+	drone -90.5 117
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 20
+	explode "large explosion" 30
+	explode "nuke explosion" 12
+	"final explode" "final explosion large"
+	description `A recent warship design cooperated by best of the Zis spaceship engineers brainstorming for a battleship that strong in both armour and firepower, result in the ZM-5422 Karloz with turret placement similar to battleships of 20th century armed with 6 main battery of pure firepower, well protected from fighters with 12 turrets of anti-fighters and 12 tubes of hard-hitting torpedoes, along with a powerful shield generator and hull regenerator make it able to absorb tons of damage for a longer time than any previous ships Zis ever built.`
+	description ``
+	
+ship "AD-672 Ranzai"
+	sprite "ship/ranzai"
+	attributes
+		category "Light Warship"
+		"cost" 38090000
+		"shields" 451000
+		"hull" 460000
+		"required crew" 8
+		"bunks" 32
+		"mass" 202
+		"drag" 2.2
+		"heat dissipation" .88
+		"fuel capacity" 600
+		"cargo space" 10
+		"outfit space" 460
+		"weapon capacity" 220
+		"engine capacity" 60
+		"ZIS AM Lock" -2
+		"ramscoop" 40
+		"hyperdrive" 1
+		"jump speed" 6.2
+		"jump drive" 1
+		"cooling" 100
+		"scan interference" 2.5
+		"radar jamming" 5
+		weapon
+			"blast radius" 40
+			"shield damage" 400
+			"hull damage" 200
+			"hit force" 600
+	outfits
+		"Ginal Turret" 2
+		"ZIS Anti-Missile System" 2
+		"Syfar Torpedo Turret" 3
+		"Syfar Torpedo" 90
+		
+		"LW-2 Reactor" 2
+		"LW-1S Shield Generator"
+		"LW-1H Hull Regenerator"
+		
+		"Kal-1 Engines" 3
+		
+	turret 0 -102.5 "Ginal Turret"
+	turret 0 121.5 "Ginal Turret"
+	#Torpedoes
+	turret 0 14.5 "Syfar Torpedo Turret"
+	turret 0 43.5 "Syfar Torpedo Turret"
+	turret 0 92.5 "Syfar Torpedo Turret"
+	#AM
+	turret 0 -102.5 "ZIS Anti-Missile System"
+	turret 0 121.5 "ZIS Anti-Missile System"
+	engine -17.5 178
+	engine 17.5 178
+	engine -9.5 178
+	engine 9.5 178
+	explode "tiny explosion" 12
+	explode "small explosion" 16
+	explode "nuke explosion" 3
+	"final explode" "final explosion small"
+	description `As a small group of students aren't satisfied with the Zis navy yet as they're lacking of fast ship with firepower enought to destroy a battleship, they designed a new ship to tell the Zis navy what they want and it caugth interest among the adminrals so they begin to import Wallagi's powerful engines and built a new ship with those engines to fill in the role missing a of Destroyer in the fleet.`
+	description `This ship is also known by some captain as "Lil Sniper" due to some captain flying this ship prefer to stay some distance from the fight and snipe down slow ships using the torpedoes.`
+	
+ship "BS-2237 Ryuzo"
+	sprite "ship/ryuzo"
+	attributes
+		category "Medium Warship"
+		"cost" 46200000
+		"shields" 765000
+		"hull" 782000
+		"required crew" 10
+		"bunks" 52
+		"mass" 282
+		"drag" 2.8
+		"heat dissipation" .84
+		"fuel capacity" 600
+		"cargo space" 20
+		"outfit space" 620
+		"weapon capacity" 320
+		"engine capacity" 50
+		"ZIS AM Lock" -2
+		"ramscoop" 50
+		"hyperdrive" 1
+		"jump speed" 6.2
+		"jump drive" 1
+		"cooling" 130
+		"scan interference" 4
+		"radar jamming" 5.6
+		weapon
+			"blast radius" 40
+			"shield damage" 400
+			"hull damage" 200
+			"hit force" 600
+	outfits
+		"Zaikor Turret" 4
+		"ZIS Anti-Missile System" 2
+		"Syfar Torpedo Turret" 3
+		"Syfar Torpedo" 90
+		
+		"LW-2 Reactor"
+		"MW-1 Reactor"
+		"MW-1S Shield Generator"
+		"HW-1H Hull Regenerator"
+		
+		"Kal-4 Engines"
+		
+	turret 0 -129 "Zaikor Turret" 
+	turret 0 -57 "Zaikor Turret" 
+	turret 0 58 "Zaikor Turret" 
+	turret 0 130.5 "Zaikor Turret"
+	#Torpedoes 
+	turret 0 -23.5 "Syfar Torpedo Turret"
+	turret 0 1 "Syfar Torpedo Turret"
+	turret 0 25.5 "Syfar Torpedo Turret"
+	#AM
+	turret 0 -91 "ZIS Anti-Missile System"
+	turret 0 93.5 "ZIS Anti-Missile System"
+	engine 16 185
+	engine -16 185
+	engine 0 179.5
+	explode "tiny explosion" 12
+	explode "small explosion" 16
+	explode "nuke explosion" 3
+	"final explode" "final explosion small"
+	description `
+	
+ship "BX-3826 Kazai"
+	sprite "ship/kazai"
+	attributes
+		category "Medium Warship"
+		"cost" 58820000
+		"shields" 901000
+		"hull" 580000
+		"required crew" 12
+		"bunks" 85
+		"mass" 350
+		"drag" 3.5
+		"heat dissipation" .8
+		"fuel capacity" 600
+		"cargo space" 40
+		"outfit space" 1200
+		"weapon capacity" 850
+		"engine capacity" 70
+		"ZIS AM Lock" -4
+		"ramscoop" 50
+		"hyperdrive" 1
+		"jump speed" 6.2
+		"jump drive" 1
+		"cooling" 150
+		"scan interference" 2.8
+		"radar jamming" 5
+		weapon
+			"blast radius" 40
+			"shield damage" 400
+			"hull damage" 200
+			"hit force" 600
+	outfits
+		"Zaikor Turret" 5
+		"ZIS Anti-Missile System" 4
+		"Syfar Torpedo Turret (Penta)" 10
+		"Syfar Torpedo" 500
+		
+		"MW-1 Reactor" 2
+		"FT-1 Reactor" 2
+		"MW-4S Shield Generator"
+		"MW-1H Hull Regenerator"
+		
+		"Kal-4 Engines"
+		"Kal-1 Engines"
+		
+	turret 0 -125 "Zaikor Turret"
+	turret 0 -36 "Zaikor Turret"
+	turret 0 71 "Zaikor Turret"
+	turret 0 117 "Zaikor Turret"
+	turret 0 147 "Zaikor Turret"
+	#Torps
+	turret -35 -37.5 "Syfar Torpedo Turret (Penta)"
+	turret 35 -37.5 "Syfar Torpedo Turret (Penta)"
+	turret -35 -4 "Syfar Torpedo Turret (Penta)"
+	turret 35 -4 "Syfar Torpedo Turret (Penta)"
+	turret -35 31 "Syfar Torpedo Turret (Penta)"
+	turret 35 31 "Syfar Torpedo Turret (Penta)"
+	turret -35 64.5 "Syfar Torpedo Turret (Penta)"
+	turret 35 64.5 "Syfar Torpedo Turret (Penta)"
+	turret -35 98 "Syfar Torpedo Turret (Penta)"
+	turret 35 98 "Syfar Torpedo Turret (Penta)"
+	#AM
+	turret 40.5 129 "ZIS Anti-Missile System"
+	turret -41.5 128 "ZIS Anti-Missile System"
+	turret -38.5 -81 "ZIS Anti-Missile System"
+	turret 38 -82.5 "ZIS Anti-Missile System"
+	engine -17.5 178
+	engine 17.5 178
+	engine -9.5 178
+	engine 9.5 178
+	explode "tiny explosion" 12
+	explode "small explosion" 16
+	explode "nuke explosion" 5
+	"final explode" "final explosion small"
+	description `Succeesor of the smaller Ranzai-class, Kazai-class designed based on IJN Kitakami during the WWII in the 20th Century, installed with a total of 50 torpedo launchers allow it to destroy larger ships easily.`
+	
+ship "XF-26 Mizu"
+	sprite "ship/mizu"
+	attributes
+		category "Fighter"
+		"cost" 12090000
+		"shields" 90000
+		"hull" 90000
+		"required crew" 1
+		"bunks" 2
+		"mass" 96
+		"drag" 3.6
+		"heat dissipation" .88
+		"cargo space" 5
+		"outfit space" 110
+		"weapon capacity" 70
+		"engine capacity" 20
+		"ZIS AM Lock" -1
+		"ramscoop" 10
+		"cooling" 60
+		"scan interference" .9
+		"radar jamming" .9
+		"energy capacity" 2200
+		"energy generation" 30
+		weapon
+			"blast radius" 40
+			"shield damage" 400
+			"hull damage" 200
+			"hit force" 600
+	outfits
+		"Zaikor Turret"
+		"ZIS Anti-Missile System"
+		"Syfar Torpedo Launcher(Single)" 4
+		"Syfar Torpedo" 4
+		
+		"FT-1S Shield Generator"
+		"FT-1H Hull Regenerator"
+		
+		"Kal-1 Engines"
+		
+	turret 0 -10.5 "Zaikor Turret"
+	turret 0 0 "ZIS Anti-Missile System"
+	gun -17 -2 "Syfar Torpedo Launcher(Single)"
+	gun -12.5 1 "Syfar Torpedo Launcher(Single)"
+	gun 12.5 1 "Syfar Torpedo Launcher(Single)"
+	gun 17 -2 "Syfar Torpedo Launcher(Single)"
+	engine -13 34
+	engine -5 42
+	engine 5 42
+	engine 13 34
+	explode "tiny explosion" 1
+	explode "small explosion" 1
+	explode "nuke explosion" 1
+	"final explode" "final explosion small"
+	description "
+	
+ship "ZC-4226 Zaikul"
+	sprite "ship/zaikul"
+	attributes
+		category "Heavy Warship"
+		"cost" 109000000
+		"shields" 2620000
+		"hull" 3030000
+		"required crew" 46
+		"bunks" 380
+		"mass" 580
+		"drag" 16
+		"heat dissipation" .65
+		"fuel capacity" 600
+		"cargo space" 130
+		"outfit space" 1260
+		"weapon capacity" 860
+		"engine capacity" 70
+		"ramscoop" 80
+		"hyperdrive" 1
+		"jump speed" 6.2
+		"jump drive" 1
+		"cooling" 830
+		"scan interference" 25
+		"radar jamming" 22
+		"ZIS AM Lock" -6
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 8500
+	outfits
+		"Zoika Turret" 3
+		"Ginal Turret" 4
+		"ZIS Anti-Missile System" 6
+		"Syfar Torpedo Turret" 2
+		"Syfar Torpedo" 60
+		"Rozzen Vertical Launching System" 16
+		"Rozzen Missile" 480
+		
+		"HW-4 Anti-Matter Reactor"
+		"MW-1 Reactor"
+		"HW-1H Hull Regenerator"
+		"HW-1S Shield Generator"
+		
+		"M-80 Engine"
+		
+	#Main guns
+	turret 0 -184 "Zoika Turret"
+	turret 0 -131.5 "Zoika Turret"
+	turret 0 174 "Zoika Turret"
+	#Secondaries
+	turret 47 90 "Ginal Turret"
+	turret -47 90 "Ginal Turret"
+	turret -47 113 "Ginal Turret"
+	turret 47 113 "Ginal Turret"
+	#VLS missiles
+	turret -27.5 -72.5 "Rozzen Vertical Launching System"
+	turret 26.5 -72 "Rozzen Vertical Launching System"
+	turret -28 -61 "Rozzen Vertical Launching System"
+	turret 26.5 -61.5 "Rozzen Vertical Launching System"
+	turret -27.5 -50 "Rozzen Vertical Launching System"
+	turret 26.5 -50 "Rozzen Vertical Launching System"
+	turret -27 -38 "Rozzen Vertical Launching System"
+	turret 27.5 -37.5 "Rozzen Vertical Launching System"
+	turret -27.5 -27 "Rozzen Vertical Launching System"
+	turret 27 -27 "Rozzen Vertical Launching System"
+	turret -26.5 -15.5 "Rozzen Vertical Launching System"
+	turret 26.5 -15 "Rozzen Vertical Launching System"
+	turret -27 -4 "Rozzen Vertical Launching System"
+	turret 26.5 -3.5 "Rozzen Vertical Launching System"
+	turret -27.5 7.5 "Rozzen Vertical Launching System"
+	turret 27 8.5 "Rozzen Vertical Launching System"
+	#Torpedoes
+	turret -76 -180 "Syfar Torpedo Turret"
+	turret 76 -180 "Syfar Torpedo Turret"
+	#AMs 
+	turret 86 -270.5 "ZIS Anti-Missile System"
+	turret -85 -269 "ZIS Anti-Missile System"
+	turret 131 0 "ZIS Anti-Missile System"
+	turret -131 3.5 "ZIS Anti-Missile System"
+	turret -114.5 220.5 "ZIS Anti-Missile System"
+	turret 113.5 224.5 "ZIS Anti-Missile System"
+	#Engine
+	engine -58.5 383.5
+	engine 60.5 383.5
+	engine -22 363.5
+	engine 23.5 364.5
+	#Fighter Bay
+	fighter -100.5 -95 left
+	fighter 100 -97 right
+	fighter -101 -29 left
+	fighter 100 -30.5 right
+	fighter -101.5 35.5 left
+	fighter 100 35.5 right
+	fighter -100.5 101.5 left
+	fighter 101 101.5 right
+	fighter -100.5 -95 left
+	fighter 100 -97 right
+	fighter -101 -29 left
+	fighter 100 -30.5 right
+	fighter -101.5 35.5 left
+	fighter 100 35.5 right
+	fighter -100.5 101.5 left
+	fighter 101 101.5 right
+	fighter -100.5 -95 left
+	fighter 100 -97 right
+	fighter -101 -29 left
+	fighter 100 -30.5 right
+	fighter -101.5 35.5 left
+	fighter 100 35.5 right
+	fighter -100.5 101.5 left
+	fighter 101 101.5 right
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 20
+	explode "large explosion" 30
+	explode "nuke explosion" 12
+	"final explode" "final explosion large"
+	description `After a long time since Zis navy last build a carrier, they decided took this opportunity to design and build a new carrier along with a fighter for service.`
+	description `This new carrier design is also installed with revived VLS technology.`
+	
+ship "AS-56 Virsiz"
+		sprite "ship/virsiz"
+		attributes
+			category "Transport"
+			"cost" 30000000
+			"shields" 168000
+			"hull" 240000
+			"required crew" 1
+			"bunks" 22
+			"mass" 25
+			"drag" .3
+			"heat dissipation" 1.6
+			"outfit space" 80
+			"weapon capacity" 20
+			"engine capacity" 20
+			"fuel capacity" 500
+			"energy capacity" 6000
+			"energy generation" 83
+			"cooling" 35
+			"hyperdrive" 1
+			"jump speed" 6.1
+			"jump drive" 1
+			"ramscoop" 15
+			"scan interference" 6
+			"radar jamming" 12
+			"ZIS AM Lock" -1
+			weapon
+				"blast radius" 20
+				"shield damage" 1200
+				"hull damage" 6000
+				"hit force" 180
+		outfits	
+			"Mrag Turret" 2
+			"ZIS Anti-Missile System"
+		
+			"M-10 Engine"
+			"FT-1S Shield Generator"
+			"FT-1H Hull Regenerator"
+		
+		turret 0 34.5 "ZIS Anti-Missile System"
+		turret 0 -4.5
+		turret 0 33.5
+		engine -7 59.5
+		engine 7 59.5
+		explode "nuke explosion" 1
+		description "Virsiz is the smallest and the most basic transport available by the Zis shipyard."
+		
+		
+ship "AI-AD-860 Aorlan"
+	sprite "ship/aorlan"
+	attributes
+		category "Light Warship"
+		"cost" 38000000
+		"shields" 520000
+		"hull" 500000
+		"automaton" 1
+		"mass" 110
+		"drag" 2.5
+		"heat dissipation" .76
+		"fuel capacity" 600
+		"outfit space" 320
+		"weapon capacity" 180
+		"engine capacity" 35
+		"energy capacity" 12000
+		"energy generation" 120
+		"hyperdrive" 1
+		"jump speed" 6.1
+		"jump drive" 1
+		"cooling" 158
+		"scan interference" 5
+		"radar jamming" 7
+		ramscoop 20
+		"gaslining" 1
+		"ZIS AM Lock" -1
+		weapon
+			"blast radius" 60
+			"shield damage" 6000
+			"hull damage" 3000
+			"hit force" 900
+	outfits
+		"Fernai Shotgun" 2
+		"DZ-84 Darklance Turret"
+		"M-20 Engine"
+		"LW-2 Reactor"
+		"LW-1S Shield Generator"
+		"LW-1H Hull Regenerator"
+		"ZIS Anti-Missile System"
+		
+	turret 0 3.5 "DZ-84 Darklance Turret"
+	turret 0 0 "ZIS Anti-Missile System"
+	gun -19.5 -41.5
+	gun 19.5 -41.5
+	engine -7.5 59
+	engine 7.5 59
+	explode "nuke explosion" 3
+	description "
+
+ship "ZN-7681 Eaxes"
+	sprite "ship/eaxes"
+	attributes
+		category "Heavy Warship"
+		"cost" 124000000
+		"shields" 7550000
+		"hull" 8550000
+		"required crew" 168
+		"bunks" 780
+		"mass" 1800
+		"drag" 28
+		"heat dissipation" .64
+		"fuel capacity" 1000
+		"cargo space" 300
+		"outfit space" 1860
+		"weapon capacity" 1680
+		"engine capacity" 120
+		"energy generation" 50
+		"ramscoop" 120
+		"hyperdrive" 1
+		"jump speed" 6.2
+		"jump drive" 1
+		"cooling" 966
+		"scan interference" 30
+		"radar jamming" 30
+		"ZIS AM Lock" -8
+		"unremovable" -5
+		"uninstallable" 1
+		"outfit scan power" 350
+		"outfit scan speed" 5
+		"cargo scan power" 350
+		"cargo scan speed" 5
+		"atmosphere scan" 1000
+		weapon
+			"blast radius" 800
+			"shield damage" 8000
+			"hull damage" 4000
+			"hit force" 85000
+	outfits
+		"Zis Kuzxen Beam"
+		"Vozka Cannon Turret" 4
+		"Ginal Turret" 12
+		"ZIS Anti-Missile System" 8
+		"Tizon Turret" 9
+		"Rozzen Vertical Launching System" 8
+		"Rozzen Missile" 240
+		
+		"HW-4 Anti-Matter Reactor" 2
+		"HW-1H Hull Regenerator"
+		"MW-1H Hull Regenerator"
+		"HW-1S Shield Generator"
+		"MW-1S Shield Generator"
+		
+		"M-80 Engine" 2
+		
+	#Locked
+	gun 0 -329.5 "Zis Kuzxen Beam"
+	turret 179.5 -135.5 "Vozka Cannon Turret"
+	turret -179.5 -135.5 "Vozka Cannon Turret"
+	turret -167.5 258 "Vozka Cannon Turret"
+	turret 167.5 258 "Vozka Cannon Turret"
+	#Mains
+	turret -93 -262.5 "Tizon Turret"
+	turret 91.5 -263.5 "Tizon Turret"
+	turret -93.5 -207 "Tizon Turret"
+	turret 88.5 -207 "Tizon Turret"
+	turret -94 -144.5 "Tizon Turret"
+	turret 91.5 -143.5 "Tizon Turret"
+	turret 0 303.5 "Tizon Turret"
+	turret -1 359.5 "Tizon Turret"
+	turret 0 445 "Tizon Turret"
+	#Secondaries
+	turret 0 -70 "Ginal Turret"
+	turret 0 -45.5 "Ginal Turret"
+	turret 59 -22 "Ginal Turret"
+	turret -59.5 -20.5 "Ginal Turret"
+	turret 59 160 "Ginal Turret"
+	turret -58.5 160.5 "Ginal Turret"
+	#VLS
+	turret -49.5 21 "Rozzen Vertical Launching System"
+	turret 48.5 21.5 "Rozzen Vertical Launching System"
+	turret -49.5 55 "Rozzen Vertical Launching System"
+	turret 48.5 55.5 "Rozzen Vertical Launching System"
+	turret -48.5 89 "Rozzen Vertical Launching System"
+	turret 48.5 90 "Rozzen Vertical Launching System"
+	turret -49 123.5 "Rozzen Vertical Launching System"
+	turret 48 124 "Rozzen Vertical Launching System"
+	#AMs 
+	turret -114.5 -714 "ZIS Anti-Missile System"
+	turret 117 -714.5 "ZIS Anti-Missile System"
+	turret -164.5 -272.5 "ZIS Anti-Missile System"
+	turret 166 -274 "ZIS Anti-Missile System"
+	turret -120.5 68.5 "ZIS Anti-Missile System"
+	turret 121.5 69 "ZIS Anti-Missile System"
+	turret -120.5 647 "ZIS Anti-Missile System"
+	turret 121.5 647.5 "ZIS Anti-Missile System"
+	#Engine
+	engine -90 690
+	engine -32.5 700.5
+	engine 33.5 699.5
+	engine 92 688
+	#Fighter Bay
+	fighter -128.5 -20.5 left
+	fighter 129 -21 right
+	fighter -129 70.5 left
+	fighter 128 70 right
+	fighter -128.5 161 left
+	fighter 128.5 160.5 right
+	fighter -128.5 -20.5 left
+	fighter 129 -21 right
+	fighter -129 70.5 left
+	fighter 128 70 right
+	fighter -128.5 161 left
+	fighter 128.5 160.5 right
+	explode "nuke explosion" 25
+	"final explode" "final explosion large"
+	description `
