@@ -1,5 +1,5 @@
 ship "Roekler"
-	sprite "ship/roekler"
+	sprite "ship/erm roekler"
 	attributes
 		category "Heavy Warship"
 		"cost" 120000000
@@ -82,7 +82,7 @@ ship "Roekler"
 	description `The main battleship of the Erm war fleet designed to take the enemy fire while provoiding fire power, well balanced between offensive and defensive weapons make it a though target for their enemy.`
 	
 ship "Hidersan"
-	sprite "ship/hidersan"
+	sprite "ship/erm hidersan"
 	attributes
 		category "Heavy Freighter"
 		"cost" 80020000
@@ -145,7 +145,7 @@ ship "Hidersan"
 	description "
 	
 ship "Hordanler"
-	sprite "ship/hordanler"
+	sprite "ship/erm hordanler"
 	attributes
 		category "Medium Warship"
 		"cost" 86090000
@@ -214,7 +214,7 @@ ship "Hordanler"
 	description "A Longrange weapon platform made by Erm, they mostly stay behind stronger ships and attack from range with their deadly artillery and missiles."
 	
 ship "Hordanler" "Hordanler Anti-Fighter"
-	sprite "ship/hordanler"
+	sprite "ship/erm hordanler"
 	outfits
 		"Kaiza Anti-Fighter Turret" 8
 		"Erm Missile Prevention System" 4
@@ -259,7 +259,7 @@ ship "Hordanler" "Hordanler Anti-Fighter"
 	description "
 	
 ship "Ernar"
-	sprite "ship/ernar"
+	sprite "ship/erm ernar"
 	attributes
 		category "Light Warship"
 		"cost" 38090000
@@ -313,7 +313,6 @@ ship "Ernar"
 	description "Ernar is a light warship built by Erm to mainly to support large ships by applying various of distruption on the enemy ship and take their shields down."
 	
 ship "Ernar" "Ernar Offensive"
-	sprite "ship/ernar"
 	outfits
 		"Kaiza Anti-Fighter Turret" 2
 		"Erm Missile Prevention System" 2
@@ -342,7 +341,6 @@ ship "Ernar" "Ernar Offensive"
 	description "A more offensive variant of Erm Ernar."
 	
 ship "Ernar" "Ernar Offensive(S)"
-	sprite "ship/ernar"
 	outfits
 		"Kaiza Anti-Fighter Turret" 2
 		"Erm Missile Prevention System" 2
@@ -370,7 +368,6 @@ ship "Ernar" "Ernar Offensive(S)"
 	description "A more offensive variant of Erm Ernar, focused on taking down the enemy shields."
 	
 ship "Ernar" "Ernar Offensive(A)"
-	sprite "ship/ernar"
 	outfits
 		"Kaiza Anti-Fighter Turret" 2
 		"Erm Missile Prevention System" 2
@@ -398,7 +395,7 @@ ship "Ernar" "Ernar Offensive(A)"
 	description "A more offensive variant of Erm Ernar, focused on taking down the enemy armour."
 	
 ship "Eaken"
-	sprite "ship/eaken"
+	sprite "ship/erm eaken"
 	attributes
 		category "Interceptor"
 		"cost" 12090000
@@ -444,7 +441,7 @@ ship "Eaken"
 	description "
 	
 ship "Eirae"
-	sprite "ship/eirae"
+	sprite "ship/erm eirae"
 	attributes
 		category "Light Freighter"
 		"cost" 10090000

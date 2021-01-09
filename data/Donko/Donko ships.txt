@@ -1,6 +1,7 @@
 
 ship "Sao"
-	sprite "ship/sao"
+	sprite "ship/donko sao"
+	thumbnail "thumbnail/donko sao"
 	attributes
 		category "Heavy Warship"
 		"cost" 49900000
@@ -101,7 +102,8 @@ ship "Sao"
 	description "Pride of the Donko's engineers the Sao model battleship, it's strongest ship the Donkos ever built and the most Hi-Tech ship of the Donkos."
 	
 ship "Kolso"
-	sprite "ship/kolso"
+	sprite "ship/donko kolso"
+	thumbnail "thumbnail/donko kolso"
 	attributes
 		category "Fighter"
 		"cost" 100000
@@ -137,7 +139,8 @@ ship "Kolso"
 	description "
 	
 ship "Matka"
-	sprite "ship/matka"
+	sprite "ship/donko matka"
+	thumbnail "thumbnail/donko matka"
 	attributes
 		category "Drone"
 		"cost" 90000
@@ -169,7 +172,8 @@ ship "Matka"
 	description "
 	
 ship "Koi" 
-	sprite "ship/koi" 
+	sprite "ship/donko koi" 
+	thumbnail "thumbnail/donko koi"
 	attributes 
 		category "Medium Warship" 
 		"cost" 500000 
@@ -231,7 +235,8 @@ ship "Koi"
  	description "" 
 	
 ship "Koi" "Koi (Drone)"
-	sprite "ship/koi" 
+	sprite "ship/donko koi" 
+	thumbnail "thumbnail/donko koi"
 	attributes 
 		category "Medium Warship" 
 		"cost" 500000 
@@ -294,7 +299,8 @@ ship "Koi" "Koi (Drone)"
  	description "" 
 	
 ship "Kanse"
-	sprite "ship/kanse"
+	sprite "ship/donko kanse"
+	thumbnail "thumbnail/donko kanse"
 	attributes
 		category "Interceptor"
 		"cost" 425000
@@ -335,7 +341,8 @@ ship "Kanse"
 	description "."
 	
 ship "Senka" 
-	sprite "ship/senka" 
+	sprite "ship/donko senka" 
+	thumbnail "thumbnail/donko senka"
 	attributes 
 		category "Heavy Warship" 
 		"cost" 55000000 
