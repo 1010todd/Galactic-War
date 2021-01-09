@@ -174,8 +174,33 @@ outfit "DZ-10 Dark Blaster"
 		"ion damage" 5
 		"hit force" 20
 		"heat damage" 4
-		"slowing damage" .03
+		"slowing damage" .3
 	description "While the Darklance fires a beam of unknown laser, Dark blaster compress these energy and fire them in a small ball."
+		
+outfit "DZ-15 Dark Blaster"
+	category "Guns"
+	cost 12000000
+	thumbnail "outfit/dark blaster"
+	"mass" 10
+	"outfit space" -10
+	"weapon capacity" -10
+	"gun ports" -1
+	weapon
+		sprite "projectile/darkblaster"
+		sound "darkblaster"
+		"inaccuracy" 1
+		"velocity" 23
+		"lifetime" 38
+		"reload" 13
+		"firing energy" 24
+		"firing heat" 19
+		"shield damage" 35
+		"hull damage" 35
+		"ion damage" 1
+		"hit force" 22
+		"heat damage" 5
+		"slowing damage" .5
+	description "
 		
 outfit "DZ-10 Dark Blaster Turret"
 	category "Turrets"
@@ -338,6 +363,32 @@ outfit "WD-2 Welder"
 		"hit force" 3
 	description "."
 	
+outfit "Felran Turret"
+	category "Turrets"
+	cost 61000000
+	thumbnail "outfit/darklance turret"
+	"mass" 1
+	"outfit space" -1
+	"weapon capacity" -1
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/darklance turret"
+		"hardpoint offset" 8.
+		"turret turn" 1.9
+		"hit effect" "beam laser impact"
+		"fire effect" "beam laser impact"
+		"inaccuracy" .1
+		"velocity" 450
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 65
+		"firing heat" 30
+		"hull damage" .5
+		"heat damage" 10
+		"piercing" 1
+	description "Originally planned to be made as guidance laser for other weapons but it happens to be able to cut spaceship armors if given enought time."
+	description "This weapon will completely ignore shield and damage the armor directly."
+	
 outfit "Zis Kuzxen Beam"
 	category "Secondary Weapons"
 	cost 800000000
@@ -390,6 +441,54 @@ outfit "Vozka Cannon Turret"
 		"hull damage" 1000
 		"piercing" .08
 	description "
+	
+outfit "Airzi Cannon"
+	category "Guns"
+	cost 10500000
+	thumbnail "outfit/unknown"
+	"mass" 90
+	"outfit space" -90
+	"weapon capacity" -90
+	"gun ports" -1
+	"unremovable" 1
+	"uninstallable" -1
+	weapon
+		sprite "projectile/zymar"
+		sound "proton"
+		"submunition" "Airzi"
+		"inaccuracy" 1
+		"velocity" 1
+		"burst reload" 12
+		"burst count" 3
+		"lifetime" 14
+		drag .2
+		"reload" 120
+		"firing energy" 5010
+		"firing heat" 1260
+		"firing froce" 1200
+		"shield damage" 5210
+		"hull damage" 5810
+		"hit force" 35
+		"missile strength" 1000
+		"stream"
+	description "
+	
+outfit "Airzi"
+	weapon
+		sprite "projectile/zymar"
+		"die effect" "nuke explosion"
+		"hit effect" "nuke explosion"
+		"inaccuracy" 1
+		"velocity" 30
+		"lifetime" 750
+		"acceleration" 1.5
+		"drag" .04
+		"shield damage" 5210
+		"hull damage" 5810
+		"hit force" 3500
+		"blast radius" 100
+		"safe"
+		"phasing"
 	
 outfit "Brumba Cannon"
 	category "Guns"
@@ -899,6 +998,85 @@ effect "urza hit"
 	"random spin" 10
 	"velocity scale" -.05
 	
+outfit "Xin rotary cannon"
+	category "Guns"
+	cost 200000
+	thumbnail "outfit/gat"
+	"mass" 8
+	"outfit space" -8
+	"weapon capacity" -8
+	"gun ports" -1
+	weapon
+		sprite "projectile/tinyflare"
+			"random start frame"
+		sound "explosion tiny"
+		"inaccuracy" 2
+		"velocity" 16
+		"lifetime" 1
+		"reload" 1
+		"firing energy" .5
+		"firing heat" 1.2
+		"cooling" 5
+		"submunition" "xinbullet" 2
+		"cluster"
+		"hit effect" "bullet impact"
+	description `
+	
+outfit "xinbullet"
+	weapon
+		sprite "projectile/bullet"
+			"delay" 5
+			"random start frame"
+			"frame rate" 0
+		"velocity" 50
+		"lifetime" 20
+		"shield damage" 7
+		"hull damage" 6
+		"hit force" .5
+		"hit effect" "bullet impact"
+		
+outfit "Kuichan Missile"
+	category "Secondary Weapons"
+	cost 2000000
+	thumbnail "outfit/nuke"
+	"mass" 1
+	"outfit space" -1
+	"weapon capacity" -1
+	"gun ports" -1
+	weapon
+		sprite "projectile/missile"
+			"no repeat"
+			"frame rate" .25
+		sound "nuke"
+		ammo "Kuichan Missile"
+		"stream"
+		icon "icon/nuke"
+		"hit effect" "nuke explosion"
+		"hit effect" "nuke residue fast" 10
+		"hit effect" "nuke residue slow" 10
+		"die effect" "missile death"
+		"inaccuracy" .5
+		"velocity" 12
+		"lifetime" 1800
+		"reload" 120
+		"firing energy" 10
+		"firing heat" 10
+		"acceleration" 1
+		"drag" .08
+		"turn" 4
+		"homing" 5
+		"radar tracking" 1
+		"optical tracking" 1
+		safe
+		"blast radius" 150
+		"heat damage" 200
+		"shield damage" 12000
+		"hull damage" 22000
+		"hit force" 4000
+		"missile strength" 800
+	description "."
+	description "	[Kuichan missiles are a one-shot weapon: each missile occupies a gun slot, and after it is fired, the slot it was in is left empty.]"
+
 	
 outfit "FT-1S Shield Generator"
 	category "Systems"
@@ -908,7 +1086,7 @@ outfit "FT-1S Shield Generator"
 	"outfit space" -5
 	"shield generation" 15
 	"shield energy" 12
-	description "While the exact technology these generators are based off are unknown even the smallest Zis shield generator is already far more powerful and efficient than Quantum Shield generators."
+	description "While the exact technology these generators are based off are unknown, even the smallest Zis shield generator is already far more powerful and efficient than Quantum Shield generators."
 	
 outfit "LW-1S Shield Generator"
 	category "Systems"
@@ -1071,7 +1249,7 @@ outfit "HW-4 Anti-Matter Reactor"
 	"energy generation" 240
 	"heat generation" 500
 	"energy capacity" 200000
-	description "Extremely powerful reactor of unknown origin some say that these reactors are miniaturised version of the reactor at the core of Trochzempt."
+	description "Extremely powerful reactor of unknown origin some say that these reactors are miniaturized version of the reactor at the core of Trochzempt."
 	
 outfit "ZIS Anti-Missile System"
 	category "Turrets"
@@ -1180,26 +1358,27 @@ outfit "AC-30 Assault Rifle"
 	category "Hand to Hand"
 	cost 36000
 	thumbnail "outfit/zis rifle"
-	"capture attack" 2.8
-	"capture defense" 1.4
+	"capture attack" 3
+	"capture defense" 3
 	"unplunderable" 1
-	description "Primary weapon for Zis assault infrantry, AC-30 is pretty heavy compared to the laser rifle, but way more effective for boarding because with its feature including a built-in grenade launcher, adjustable rate of fire, safe, semi-auto, 2 shot burst, 3 shot burst, 5 shot burst and full auto firing mode, adjustable scope that can also flip out if not required and a bayonet port. Even though it got alot of feature but its quite easy to master."
+	description "This is the primary weapon of the Zis ground force, while appears to shoot regular bullets, these are far more powerful."
 	
-outfit "Zis Standrad Sword"
+outfit "XB-60 Blaster"
 	category "Hand to Hand"
-	cost 800
+	cost 36000
+	thumbnail "outfit/xb blaster"
+	"capture attack" 3
+	"capture defense" 3
+	"unplunderable" 1
+	description "XB-60 Blaster is simple blaster with various features to adapt to fit the current situation from long range sniper duel to close combat, being an energy weapon with built-in generator allow them to continuously fire at their target without reloading, the weapon it self can deal less damage to most enemy compared to AC-30 but it's light weight make them more maneuverable for offensive mission than the AC-30."
+	
+outfit "Zis Standard Sword"
+	category "Hand to Hand"
+	cost 8000
 	thumbnail "outfit/zis sword"
 	"capture attack" .5
 	"capture defense" .5
 	"unplunderable" 1
-	description "Zis Standrad Sword for close combat, very light and strong and very sharp that can easily cut a block of iron half like a butter, can be extremely deadly in hand of trained swordman with correct equipment."
-	description "Becaused you aren't trained to use swords yet it would be better for you to use rifles which much easier to use."
+	description "While it looks similar to regular sword, these sword can be powered and when powered will easily slice through most though materials like hot knife to butter. It is mostly useless in battle with guns, it is usually used as tool for breaching or rescuing."
+	description "."
 	
-outfit "Zis Standrad Sword(Well-Trained)"
-	category "Hand to Hand"
-	cost 800
-	thumbnail "outfit/zis sword"
-	"capture attack" 1
-	"capture defense" 1.2
-	"unplunderable" 1
-	description "

@@ -1,99 +1,137 @@
 #
-
+# ========Power===============
 outfit "B60 Core"
 	category "Power"
 	cost 1000000000
-	thumbnail "outfit/unknown"
+	thumbnail "outfit/ultaka b core"
 	"mass" 150
 	"outfit space" -150
-	"energy generation" 95000
+	"energy generation" 1700
+	"cooling" 30
 	
 outfit "B20 Core"
 	category "Power"
-	cost 1000000
-	thumbnail "outfit/unknown"
+	cost 1800000
+	thumbnail "outfit/ultaka b core"
 	mass 15
 	"outfit space" -10
-	"energy generation" 1650
+	"energy generation" 165
+	"cooling" 2.4
 	
 outfit "B10 Core"
 	category "Power"
 	cost 1000000
-	thumbnail "outfit/unknown"
+	thumbnail "outfit/ultaka b core"
 	mass 10
 	"outfit space" -5
-	"energy generation" 950
+	"energy generation" 95
+	"cooling" 2
+	
+outfit "EB6 Battery"
+	category "Power"
+	cost 1000000
+	thumbnail "outfit/unknown"
+	mass 40
+	"outfit space" -20
+	"energy capacity" 80000
+	"energy consumption" 12
+	"heat generation" 8
+	description "Ultra-high density energy storage used by the Ultaka, requires energy to maintain its capacity."
 	
 outfit "USG200 Shield Generator"
 	category "Systems"
 	cost 1200000
-	thumbnail "outfit/unknown"
+	thumbnail "outfit/ultaka shield"
 	"mass" 210
 	"outfit space" -210
-	"shield generation" 86
-	"shield energy" 20
+	"shield generation" 8.6
+	"shield energy" 15.3
 	
 outfit "USG150 Shield Generator"
 	category "Systems"
 	cost 600000
-	thumbnail "outfit/unknown"
+	thumbnail "outfit/ultaka shield"
 	"mass" 151
 	"outfit space" -151
-	"shield generation" 40
-	"shield energy" 10
+	"shield generation" 4.0
+	"shield energy" 7.9
 	
 outfit "USG100 Shield Generator"
 	category "Systems"
 	cost 300000
-	thumbnail "outfit/unknown"
+	thumbnail "outfit/ultaka shield"
 	"mass" 100
 	"outfit space" -100
-	"shield generation" 25
+	"shield generation" 2.5
 	"shield energy" 5
 	
 outfit "USG50 Shield Generator"
 	category "Systems"
 	cost 150000
-	thumbnail "outfit/unknown"
+	thumbnail "outfit/ultaka shield"
 	"mass" 54
 	"outfit space" -50
-	"shield generation" 10
-	"shield energy" 2.5
+	"shield generation" 1.2
+	"shield energy" 2
 	
-outfit "Hyper Engines"
+outfit "Hyper Engines" #Type-1
 	category "Engines"
 	"cost" 350000
 	thumbnail "outfit/unknown"
 	"mass" 40
 	"outfit space" -40
 	"engine capacity" -40
-	"thrust" 95
+	"thrust" 77
 	"thrusting energy" 30
 	"thrusting heat" 25
-	"turn" 1400
+	"turn" 1105
 	"turning energy" 20
 	"turning heat" 15
+	"afterburner thrust" 88
+	"afterburner energy" 88
+	"afterburner heat" 90
 	"hyperdrive" 1
 	"jump drive" 1
 	"jump speed" 10
 	"flare sprite" "effect/ultaka flare/huge"
 	
-outfit "M-Hyper Engines"
+outfit "DR Drive" #Type-2
+	category "Engines"
+	"cost" 380000
+	thumbnail "outfit/unknown"
+	"mass" 40
+	"outfit space" -40
+	"engine capacity" -40
+	"dr drive" 1
+	"thrust" 60
+	"thrusting energy" 33
+	"thrusting heat" 22
+	"turn" 1000
+	"turning energy" 21
+	"turning heat" 12
+	"hyperdrive" 1
+	"jump drive" 1
+	"jump speed" .5
+	
+outfit "M-Hyper Engines" #Type-1S
 	category "Engines"
 	"cost" 35000
 	thumbnail "outfit/unknown"
 	"mass" 20
 	"outfit space" -20
 	"engine capacity" -20
-	"thrust" 80
+	"thrust" 52
 	"thrusting energy" 20
 	"thrusting heat" 20
-	"turn" 1060
+	"turn" 660
 	"turning energy" 10
 	"turning heat" 10
 	"hyperdrive" 1
 	"jump drive" 1
 	"jump speed" 10
+	"afterburner thrust" 45
+	"afterburner energy" 45
+	"afterburner heat" 50
 	"flare sprite" "effect/ultaka flare/small"
 	
 outfit "Ultaka Heat Shunt"
@@ -102,7 +140,9 @@ outfit "Ultaka Heat Shunt"
 	thumbnail "outfit/unknown"
 	mass 20
 	"outfit space" -20
-	"cooling" 150
+	"cooling" 15
+	"active cooling" 30
+	"cooling energy" 60
 	
 outfit "Model-3A Rifle"
 	category "Hand to Hand"
@@ -115,7 +155,7 @@ outfit "Model-3A Rifle"
 outfit "Ultaka IDS"
 	category "Hand to Hand"
 	cost 1280000
-	thumbnail "outfit/small sheild"
+	thumbnail "outfit/sord thrower"
 	mass 1
 	"outfit space" -1
 	"capture defense" 200

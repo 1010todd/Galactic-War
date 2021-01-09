@@ -1,50 +1,5 @@
 
-outfit "FM10M Gun"
-	category "Guns"
-	cost 1000000
-	thumbnail "outfit/unknown"
-	mass 10
-	"outfit space" -9
-	"weapon capacity" -9
-	"gun ports" -1
-	weapon
-		sprite "projectile/blaster"
-		sound "proton"
-		"hit effect" "particle"
-		"inaccuracy" .1
-		"velocity" 20
-		"lifetime" 100
-		"reload" 20
-		"firing energy" 10
-		"firing heat" 5
-		"shield damage" 2200
-		"hull damage" 2400
-	
-outfit "FM10M Gun Group1"
-	category "Guns"
-	cost 1000000
-	thumbnail "outfit/unknown"
-	mass 10
-	"outfit space" -9
-	"weapon capacity" -9
-	"gun ports" -1
-	weapon
-		sprite "projectile/blaster"
-		sound "proton"
-		"hit effect" "particle"
-		"inaccuracy" .1
-		"velocity" 20
-		"lifetime" 100
-		"reload" 20
-		"burst reload" 16
-		"burst count" 2
-		"firing energy" 10
-		"firing heat" 5
-		"shield damage" 2200
-		"hull damage" 2400
-		"cluster"
-	
-outfit "FM10M Gun Group2"
+outfit "FK1M Gun"
 	category "Guns"
 	cost 1000000
 	thumbnail "outfit/unknown"
@@ -60,6 +15,51 @@ outfit "FM10M Gun Group2"
 		"velocity" 20
 		"lifetime" 100
 		"reload" 10
+		"firing energy" 10
+		"firing heat" 5
+		"shield damage" 2200
+		"hull damage" 2400
+	
+outfit "FK1M Gun Group1"
+	category "Guns"
+	cost 1000000
+	thumbnail "outfit/unknown"
+	mass 10
+	"outfit space" -9
+	"weapon capacity" -9
+	"gun ports" -1
+	weapon
+		sprite "projectile/blaster"
+		sound "proton"
+		"hit effect" "particle"
+		"inaccuracy" .1
+		"velocity" 20
+		"lifetime" 100
+		"reload" 15
+		"burst reload" 16
+		"burst count" 2
+		"firing energy" 10
+		"firing heat" 5
+		"shield damage" 2200
+		"hull damage" 2400
+		"cluster"
+	
+outfit "FK1M Gun Group2"
+	category "Guns"
+	cost 1000000
+	thumbnail "outfit/unknown"
+	mass 10
+	"outfit space" -9
+	"weapon capacity" -9
+	"gun ports" -1
+	weapon
+		sprite "projectile/blaster"
+		sound "proton"
+		"hit effect" "particle"
+		"inaccuracy" .1
+		"velocity" 20
+		"lifetime" 100
+		"reload" 20
 		"burst reload" 10
 		"burst count" 10
 		"firing energy" 10

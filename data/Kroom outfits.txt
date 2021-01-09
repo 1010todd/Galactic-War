@@ -50,6 +50,29 @@ outfit "Kroom Blaster Turret"
 		"hull damage" 5
 	description "
 	
+outfit "Kroom Proton Blaster"
+	category "Guns"
+	cost 160000
+	thumbnail "outfit/proton gun"
+	"mass" 28
+	"outfit space" -28
+	"weapon capacity" -28
+	"gun ports" -1
+	weapon
+		sprite "projectile/kproton"
+		sound "proton"
+		"hit effect" "proton impact" 3
+		"inaccuracy" 3
+		"velocity" 20
+		"lifetime" 30
+		"reload" 6
+		"firing energy" 20
+		"firing force" 6
+		"firing heat" 68
+		"shield damage" 12
+		"hull damage" 9.6
+	description "
+	
 outfit "Kroom Anti-Missile Turret"
 	category "Turrets"
 	cost 57000

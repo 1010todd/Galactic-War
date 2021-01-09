@@ -159,8 +159,8 @@ outfit "E10-B Klingar"
 		"reload" 1
 		"firing energy" 6.9
 		"firing heat" 2.8
-		"shield damage" 60
-		"hull damage" 60
+		"shield damage" 10
+		"hull damage" 10
 		"ion damage" .1
 		"hit force" 1
 	description "
@@ -176,7 +176,7 @@ outfit "A10-M Sach Anti-missile"
 	weapon
 		"fire effect" "particle impact"
 		sound "explosion tiny"
-		"anti-missile" 50
+		"anti-missile" 30
 		"turret turn" 14
 		"velocity" 200
 		"lifetime" 1
@@ -189,9 +189,9 @@ outfit "A80-H Jestar Anti-missile"
 	category "Turrets"
 	cost 1200000
 	thumbnail "outfit/heavy anti-missile"
-	"mass" 20
-	"outfit space" -20
-	"weapon capacity" -20
+	"mass" 80
+	"outfit space" -80
+	"weapon capacity" -80
 	"turret mounts" -1
 	weapon
 		"fire effect" "particle impact"
@@ -209,9 +209,9 @@ outfit "A88-G Kemper Missile Defense"
 	category "Turrets"
 	cost 5000000
 	thumbnail "outfit/kmd"
-	"mass" 80
-	"outfit space" -80
-	"weapon capacity" -80
+	"mass" 88
+	"outfit space" -88
+	"weapon capacity" -88
 	"turret mounts" -1
 	weapon
 		sound "minelayer"
@@ -247,8 +247,8 @@ outfit "T30-E Semfal Torpedo"
 		"optical tracking" .9
 		"turn" 3
 		"homing" 5
-		"shield damage" 1280
-		"hull damage" 800
+		"shield damage" 980
+		"hull damage" 600
 		"hit force" 20
 		"missile strength" 300
 		"piercing" .1
@@ -279,8 +279,8 @@ outfit "T70-E Sesmal Torpedo"
 		"optical tracking" .9
 		"turn" 5
 		"homing" 5
-		"shield damage" 4220
-		"hull damage" 1200
+		"shield damage" 6220
+		"hull damage" 1500
 		"hit force" 50
 		"missile strength" 600
 		"piercing" .25
@@ -311,9 +311,9 @@ outfit "P50-B Lemtar Turret"
 		"reload" 12
 		"firing energy" 60
 		"firing heat" 8
-		"shield damage" 1000
-		"hull damage" 640
-		"heat damage" 150
+		"shield damage" 500
+		"hull damage" 200
+		"heat damage" 88
 		"ion damage" .5
 	description "
 	
@@ -340,8 +340,8 @@ outfit "P50-B Marley Turret"
 		"firing energy" 180
 		"firing heat" 80
 		"hit force" 10
-		"shield damage" 2300
-		"hull damage" 1280
+		"shield damage" 890
+		"hull damage" 300
 		"heat damage" 200
 		"ion damage" .10
 		"piercing" .3
@@ -367,8 +367,8 @@ outfit "S20-F Markla Turret"
 		"reload" 6
 		"firing energy" 45
 		"firing heat" 12
-		"shield damage" 850
-		"hull damage" 580
+		"shield damage" 66
+		"hull damage" 50
 		"heat damage" 120
 		"ion damage" .6
 		"submunition" "markla flak" 3
@@ -387,8 +387,8 @@ outfit "markla flak"
 		"random velocity" .1
 		"velocity scale" -.05
 		"hit force" 5
-		"shield damage" 225
-		"hull damage" 167
+		"shield damage" 10
+		"hull damage" 5
 		"ion damage" .2
 		
 effect "markla flak"

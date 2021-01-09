@@ -1,0 +1,315 @@
+ship "Hailika"
+	sprite "ship/hailika"
+	attributes
+		category "Transport"
+		"cost" 300000
+		"shields" 2400
+		"hull" 1800
+		"required crew" 1
+		"bunks" 20
+		"mass" 80
+		"drag" 1.9
+		"heat dissipation" .90
+		"fuel capacity" 400
+		"cargo space" 15
+		"outfit space" 195
+		"weapon capacity" 30
+		"engine capacity" 50
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
+	outfits
+		"R6 Blaster Turret"
+		"R6 Micro Fusion Reactor"
+		"R5 Micro Batteries"
+		"R6 Sheild Generator"
+		"R6 Fill-up Sheild Generator" 10
+		"R6 Cooling Device"
+		"R2 Ramscoop"
+		"R4 Small Ion Thruster"
+		"R4 Small Ion Steering"
+		"R2 Hyperdrive"
+		"Kimal Assualt Rifle" 2
+		
+	turret 0 15
+	engine 0 35.5
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 15
+	description "."
+	
+ship "Kinika"
+	sprite "ship/kinika"
+	attributes
+		category "Light Warship"
+		"cost" 1600000
+		"shields" 7200
+		"hull" 2900
+		"required crew" 5
+		"bunks" 10
+		"mass" 176
+		"drag" 2.3
+		"heat dissipation" .85
+		"fuel capacity" 400
+		"cargo space" 15
+		"outfit space" 395
+		"weapon capacity" 180
+		"engine capacity" 95
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
+	outfits
+		"R6 Blaster Turret" 2
+		"R6 Heavy Blaster Turret"
+		"R6 Anti-Missile Turret" 2
+		"R3 Energy Tracer" 2
+		"R6 Micro Fusion Reactor"
+		"R5 Mini Batteries"
+		"R6 Sheild Generator" 2
+		"R6 Fill-up Sheild Generator" 3
+		"R2 Ramscoop"
+		"R6 Cooling Device"
+		"R4 Medium Ion Thruster"
+		"R4 Medium Ion Steering"
+		"R4 Tiny Ion Steering"
+		"R2 Hyperdrive"
+		"Hidden Sentry"
+		"Kimal Assualt Rifle" 5
+		"ZK-20 Portable Railgun"
+		"LRP Grenades"
+		
+	turret 0 -0.5 "R6 Heavy Blaster Turret"
+	turret -20 6.5 "R6 Blaster Turret" 
+	turret 20.5 7 "R6 Anti-Missile Turret"
+	turret -21 25 "R6 Anti-Missile Turret"
+	turret 19.5 25 "R6 Blaster Turret" 
+	gun -20 -23
+	gun 20 -23
+	engine -7 53.5
+	engine 7 53.5
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 15
+	description "."
+	
+ship "Kimali"
+	sprite "ship/kimali"
+	attributes
+		category "Heavy Warship"
+		"cost" 21000000
+		"shields" 43800
+		"hull" 12800
+		"required crew" 50
+		"bunks" 120
+		"mass" 780
+		"drag" 14.2
+		"heat dissipation" .6
+		"fuel capacity" 700
+		"cargo space" 100
+		"outfit space" 1110
+		"weapon capacity" 620
+		"engine capacity" 250
+		weapon
+			"blast radius" 300
+			"shield damage" 3000
+			"hull damage" 1500
+			"hit force" 4500
+	outfits
+		"R3 Energy Tracer" 4
+		"R6 Heavy Blaster Turret" 10
+		"R6 Anti-Missile Turret" 6
+		
+		"R6 Fusion Reactor"
+		"R5 Small Batteries" 2
+		"R6 Sheild Generator" 5
+		"R6 Large Radar Jammer"
+		"R6 Cooling Device" 2
+		"R2 Ramscoop"
+		"Hidden Sentry" 5
+		"Kimal Assualt Rifle" 45
+		"ZK-20 Portable Railgun" 5
+		"LRP Grenades" 5
+		
+		"R4 Huge Ion Thruster"
+		"R4 Huge Ion Steering"
+		"R2 Hyperdrive"
+		
+	turret -54 -23 "R6 Heavy Blaster Turret"
+	turret 54.5 -22.5 "R6 Heavy Blaster Turret"
+	turret -55 8 "R6 Heavy Blaster Turret"
+	turret 54.5 8 "R6 Heavy Blaster Turret" 
+	turret -55 39.5 "R6 Heavy Blaster Turret"
+	turret 54 40 "R6 Heavy Blaster Turret"
+	turret -54.5 72 "R6 Heavy Blaster Turret"
+	turret 54.5 71 "R6 Heavy Blaster Turret"
+	turret -54.5 101 "R6 Heavy Blaster Turret"
+	turret 55 100.5 "R6 Heavy Blaster Turret"
+	gun -43.5 -102.5
+	gun 43 -102.5
+	gun -24.5 -126.5
+	gun 23.5 -128
+	turret -27.5 -43.5 "R6 Anti-Missile Turret"
+	turret 28.5 -44 "R6 Anti-Missile Turret"
+	turret -29 54 "R6 Anti-Missile Turret"
+	turret 28.5 53 "R6 Anti-Missile Turret"
+	turret -28.5 113.5 "R6 Anti-Missile Turret"
+	turret 28.5 114.5 "R6 Anti-Missile Turret"
+	engine -13 143
+	engine 13 143
+	engine 0 142.5
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "
+
+#Tier 2
+	
+ship "Mayuinia"
+	sprite "ship/mayuinia"
+	attributes
+		category "Heavy Warship"
+		"cost" 21000000
+		"shields" 65200
+		"hull" 19200
+		"required crew" 78
+		"bunks" 180
+		"mass" 880
+		"drag" 16.1
+		"heat dissipation" .55
+		"fuel capacity" 700
+		"cargo space" 100
+		"outfit space" 1210
+		"weapon capacity" 620
+		"engine capacity" 250
+		weapon
+			"blast radius" 300
+			"shield damage" 3000
+			"hull damage" 1500
+			"hit force" 4500
+	outfits
+		"R1 Homing Beam" 2
+		"R5 Plasma Burst Turret" 2
+		"R7 Heavy Blaster Turret" 8
+		"R7 Sentry Anti-Missile Turret" 6
+		
+		"R1 Sun Reactor"
+		"R5 Small Batteries" 4
+		"R7 Sheild Generator" 5
+		"R7 Radar Jammer"
+		"R7 Cooling Device" 4
+		"R2 Ramscoop" 2
+		"Hidden Sentry" 5
+		"Kimal Assualt Rifle" 45
+		"ZK-20 Portable Railgun" 5
+		"LRP Grenades" 5
+		
+		"R4 Huge Ion Thruster"
+		"R4 Huge Ion Steering"
+		"R3 Hyperdrive"
+		"Borderless Hyperdrive"
+		
+	turret -17 -157.5 "R5 Plasma Burst Turret"
+	turret 16.5 -158.5 "R5 Plasma Burst Turret"
+	turret -20 -137.5 "R7 Sentry Anti-Missile Turret"
+	turret 19.5 -136.5 "R7 Sentry Anti-Missile Turret"
+	turret -24.5 -118 "R7 Sentry Anti-Missile Turret"
+	turret 23.5 -117 "R7 Sentry Anti-Missile Turret"
+	turret -12 -79 "R7 Heavy Blaster Turret"
+	turret 12 -79.5 "R7 Heavy Blaster Turret"
+	turret -28.5 -34.5 "R7 Heavy Blaster Turret"
+	turret 29.5 -34.5 "R7 Heavy Blaster Turret"
+	turret -29 9 "R7 Heavy Blaster Turret"
+	turret 29.5 9.5 "R7 Heavy Blaster Turret"
+	turret -23 53 "R7 Heavy Blaster Turret"
+	turret 24 53 "R7 Heavy Blaster Turret"
+	turret -24 111 "R7 Sentry Anti-Missile Turret"
+	turret 23.5 111 "R7 Sentry Anti-Missile Turret"
+	gun -39.5 -171 "R1 Homing Beam"
+	gun 37.5 -171 "R1 Homing Beam"
+	engine -37.5 193.5
+	engine 36 194
+	engine 0 203
+	fighter 91.5 -1 right
+	fighter -93 -1.5 left
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "
+	
+#Got from the Zis
+ship "HD-8426 Tarallion"
+	sprite "ship/tarallion"
+	attributes
+		category "Heavy Warship"
+		"cost" 90000000
+		"shields" 5100000
+		"hull" 5500000
+		"required crew" 20
+		"bunks" 380
+		"mass" 750
+		"drag" 8.6
+		"heat dissipation" .85
+		"fuel capacity" 1500
+		"cargo space" 2100
+		"outfit space" 1510
+		"energy capacity" 65000
+		"weapon capacity" 800
+		"engine capacity" 280
+		"shield generation" 55
+		"energy generation" 5500
+		"hull repair rate" 55
+		"unremovable" -16
+		"cooling" 90
+		"cloak" .05
+		"cloaking energy" 5
+		"hyperdrive" 1
+		"jump speed" 2
+		"jump drive" 1
+		"ramscoop" 50
+		"scan interference" 1
+		"radar jamming" 1
+		weapon
+			"blast radius" 500
+			"shield damage" 9000
+			"hull damage" 9000
+			"hit force" 100
+	outfits
+		"XHEAS Missile BIMM" 6
+		"XHEAS Missile BIMM(Rear)" 2
+		"HHVB Turret" 4
+		"HPDL Anti-missile" 4
+		"Medium Graviton Thruster" 
+		"Medium Graviton Steering" 
+		"Hidden Sentry" 5
+		"Kimal Assualt Rifle" 15
+		"ZK-20 Portable Railgun" 35
+		"LRP Grenades" 5
+	
+	gun -56.5 -318.5 "XHEAS Missile BIMM"
+	gun 58 -319 "XHEAS Missile BIMM"
+	gun -91.5 -249.5 "XHEAS Missile BIMM"
+	gun 94.5 -244.5 "XHEAS Missile BIMM"
+	turret 0 -185 "HHVB Turret"
+	turret 0 -98.5 "HHVB Turret"
+	gun -12 -26.5 "XHEAS Missile BIMM"
+	gun 13.5 -26 "XHEAS Missile BIMM"
+	gun 14 100.5 "XHEAS Missile BIMM(Rear)"
+	gun -12 101 "XHEAS Missile BIMM(Rear)"
+	turret 0 152.5 "HHVB Turret"
+	turret 0 215.5 "HHVB Turret"
+	turret 69 10.5 "HPDL Anti-missile"
+	turret 69 29.5 "HPDL Anti-missile"
+	turret -65.5 10.5 "HPDL Anti-missile"
+	turret -65 29.5 "HPDL Anti-missile"
+	engine -27.5 337.5
+	engine 27.5 338.5

@@ -117,6 +117,15 @@ fleet "Ultaka mega"
 	variant 2
 		"Ultaka Necromancer"
 		"Ultaka Shadow Strike" 2
+
+fleet "Ultaka neurn"
+	government "Ultaka"
+	names "Ultaka Small"
+	cargo 3
+	personality
+		heroic opportunistic
+	variant 8
+		"Ultaka Ghost"
 		
 fleet "Dels guard"
 	government "Dels"
@@ -125,7 +134,7 @@ fleet "Dels guard"
 	cargo 1
 	personality
 		confusion 10
-		heroic opportunistic
+		heroic opportunistic frugal plunders
 	variant 4
 		"MF-10B Dee" 10
 		"MF-10A Dea" 10
@@ -152,7 +161,7 @@ fleet "Dels guard"
 		"TR-60A Darca"
 		"SD-90P Decso" 2
 	variant 1
-		"DS-5548 D-Guardian"
+		"HW80B Delsaylor"
 		"MF-10B Dee" 10
 		"MF-10A Dea" 10
 	variant 4
@@ -176,7 +185,7 @@ fleet "Dels merchant"
 	cargo 1
 	personality
 		confusion 30
-		timid appeasing
+		timid appeasing plunders
 	variant 80
 		"TS-60P Sendo"
 	variant 80
@@ -277,7 +286,7 @@ fleet "Dels miner"
 	cargo 0
 	personality
 		confusion 20
-		timid frugal mining harvests
+		timid frugal mining harvests plunders
 	variant 80
 		"IC40E Desin"
 	variant 60
@@ -388,7 +397,7 @@ fleet "Donko Guard Big"
 	cargo 1
 	personality
 		confusion 10
-		heroic opportunistic
+		heroic opportunistic plunders
 	variant 10
 		"Sao"
 		"Kolso" 16
@@ -415,7 +424,7 @@ fleet "Donko Guard Small"
 	cargo 1
 	personality
 		confusion 20
-		heroic opportunistic
+		heroic opportunistic plunders disables
 	variant 10
 		"Koi"
 		"Kolso" 6
@@ -492,6 +501,7 @@ fleet "Qoro (North)"
 		heroic opportunistic
 		frugal 
 		plunders
+		disables
 	variant 50
 		"Qoro(N) Manta" 5
 	variant 40
@@ -514,6 +524,7 @@ fleet "Qoro (East)"
 		heroic opportunistic
 		frugal 
 		plunders
+		disables
 	variant 50
 		"Qoro(E) Goth" 5
 	variant 40
@@ -587,6 +598,7 @@ fleet "Kakaima Defense"
 		heroic
 		frugal 
 		opportunistic
+		plunders
 	variant 10
 		"Grokva"
 		"Giro" 4
@@ -608,6 +620,8 @@ fleet "Kakaima Civillian"
 	personality
 		confusion 30
 		frugal 
+		plunders
+		disables
 	variant 20
 		"Gikaar" 3
 	variant 15
@@ -624,6 +638,7 @@ fleet "Geeva Battle Fleet"
 		heroic
 		frugal 
 		opportunistic
+		plunders
 	variant 15
 		"Kimali" 1
 		"Kinika" 3
@@ -640,6 +655,8 @@ fleet "Geeva Civillian"
 	personality
 		confusion 30
 		frugal 
+		plunders
+		disables
 	variant 15
 		"Hailika"
 	variant 20
@@ -658,6 +675,7 @@ fleet "Kroom Kanai"
 		confusion 25
 		frugal 
 		plunder
+		disables
 	variant 20
 		"Kargorko" 25
 		"Kaargor"
@@ -687,6 +705,7 @@ fleet "Kager Military"
 		heroic
 		frugal 
 		opportunistic
+		plunders
 	variant 5
 		"I'nos"
 		"Loerlen" 4
@@ -712,6 +731,7 @@ fleet "Ignaggen"
 		heroic
 		frugal 
 		timid appeasing
+		plunders
 	variant 20
 		"Kina"
 	variant 20
@@ -764,7 +784,7 @@ fleet "Ignaggen Miner"
 	cargo 0
 	personality
 		confusion 10
-		frugal mining harvests
+		frugal mining harvests plunderss
 	variant 20
 		"Gikeor" 3
 		
@@ -887,6 +907,8 @@ fleet "Resmakia CIV Fleet"
 	personality
 		timid
 		frugal
+		plunders
+		disables
 	variant 10
 		"Kajmaraj"
 		"Jortar" 2
@@ -922,6 +944,7 @@ fleet "Resmakia SDF Fleet"
 		heroic
 		frugal
 		opportunistic
+		plunders
 	variant 10
 		"Kajmaraj" 3
 		"Jortar" 5
@@ -946,6 +969,8 @@ fleet "Zis Heavy Patrol Fleet"
 		heroic
 		frugal
 		opportunistic
+		plunders
+		disables
 	variant 1
 		"VK-35 Katen" 18
 		"RZ-621-02 Razor" 5
@@ -1010,6 +1035,144 @@ fleet "Zis Heavy Patrol Fleet"
 		"DT-510 Quadlancer" 3
 		"DT-224 Trazar" 6
 		
+fleet "Zis Raid Fleet"
+	government "ZIS"
+	names "Zis"
+	fighters "Zis fighter"
+	personality
+		heroic
+		frugal
+		opportunistic
+		plunders
+	variant 1
+		"VK-35 Katen" 18
+		"RZ-621-02 Razor" 5
+		"SY-8662 Sysor" 3
+		"SG-60 Ginaz Patrol Drone" 16
+		"DT-224 Trazar" 3
+	variant 1
+		"VK-35 Katen" 18
+		"RZ-621-02 Razor" 5
+		"SY-8662 Sysor" 3
+		"SG-60 Ginaz Patrol Drone" 16
+		"DT-510 Quadlancer" 3
+		
+fleet "Zis Mining Fleet"
+	government "ZIS"
+	names "Zis"
+	fighters "Zis fighter"
+	cargo 1
+	personality
+		heroic
+		plunders
+		frugal
+		mining harvests
+		disables
+	variant 1
+		"Miner Razor"
+		"Ginaz Builder" 2
+		
+fleet "Zis Civillian Fleet"
+	government "ZIS"
+	names "Zis"
+	fighters "Zis fighter"
+	cargo 2
+	personality
+		plunders
+		frugal
+		opportunistic
+		disables
+	variant 3
+		"Miner Razor"
+		"Ginaz Builder" 2
+	variant 5
+		"RZ-28 Forlan"
+	variant 4
+		"RZ-28 Forlan" 2
+	variant 2
+		"RZ-28 Forlan" 2
+		"SY-8662 Sysor"
+	variant 3
+		"SY-8662 Sysor"
+		"SG-60 Ginaz Patrol Drone" 2
+	variant 5
+		"Katen Civ 1" 
+	variant 2
+		"Katen Civ 1" 2
+	variant 5
+		"Katen Civ 2" 
+	variant 2
+		"Katen Civ 2" 2
+	variant 1
+		"Katen Civ 2" 3
+		"SY-8662 Sysor"
+		"SG-60 Ginaz Patrol Drone" 2
+	variant 1
+		"Katen Civ 3" 2
+		"SY-8662 Sysor"
+		"SG-60 Ginaz Patrol Drone" 2
+	variant 1
+		"Katen Civ 4b" 3
+		"SY-8662 Sysor"
+		"SG-60 Ginaz Patrol Drone" 2
+	variant 1
+		"Katen Civ 3a" 2
+		"SY-8662 Sysor"
+		"SG-60 Ginaz Patrol Drone" 2
+	variant 2
+		"Katen Civ 3" 
+	variant 1
+		"Katen Civ 3" 2
+	variant 5
+		"Katen Civ 4" 
+	variant 2
+		"Katen Civ 4" 3
+	variant 4
+		"Katen Civ 4b" 
+	variant 2
+		"Katen Civ 4b" 2
+	variant 2
+		"Katen Civ 3a" 
+	variant 2
+		"Katen Civ 3a" 2
+	variant 5
+		"Katen Civ 2a"
+	variant 2
+		"Katen Civ 2a" 2
+	variant 5
+		"Katen Dark Blaster" 
+	variant 2
+		"Katen Dark Blaster" 2
+	variant 3
+		"Katen Civ 1a"
+	variant 3
+		"Katen Civ 1b"
+	variant 5
+		"AS-56 Virsiz"
+	variant 3
+		"AS-56 Virsiz" 3
+	variant 2
+		"Katen Civ 4" 3
+		"AS-56 Virsiz" 5
+	variant 4
+		"Katen Civ 4b" 
+		"AS-56 Virsiz"
+	variant 2
+		"Katen Civ 4b" 2
+		"AS-56 Virsiz" 3
+	variant 2
+		"Katen Civ 3a" 
+		"AS-56 Virsiz"
+	variant 2
+		"Katen Civ 3a" 2
+		"AS-56 Virsiz" 3
+	variant 5
+		"Katen Civ 2a"
+		"AS-56 Virsiz" 2
+	variant 2
+		"Katen Civ 2a" 2
+		"AS-56 Virsiz"
+		
 		
 fleet "Zis Construction Fleet"
 	government "ZIS "
@@ -1031,3 +1194,27 @@ fleet "point"
 		heroic
 	variant 1
 		"point" 5
+		
+fleet "Taroun Defense Fleet"
+	government "Taroun"
+	names "Taroun"
+	personality
+		heroic
+		vindictive
+		frugal
+		opportunistic
+	variant 1
+		Eroun 3
+		Oresu 4
+		
+fleet "Taroun Raid Fleet"
+	government "Taroun"
+	names "Taroun"
+	personality
+		heroic
+		vindictive
+		frugal
+		opportunistic
+	variant 1
+		Eroun 6
+		Oresu 10

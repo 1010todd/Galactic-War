@@ -14,18 +14,18 @@ outfit "Aranut Anti-Shield Energy Missile"
 		"hit effect" "medium explosion"
 		"inaccuracy" 1
 		"velocity" 15
-		"lifetime" 700
-		"reload" 45
+		"lifetime" 500
+		"reload" 160
 		"firing energy" 600
 		"firing heat" 400
 		"acceleration" 4
 		"drag" .1
 		"turn" 5
 		"homing" 5
-		"optical tracking" 1
-		"missile strength" 1200
+		"optical tracking" .9
+		"missile strength" 900
 		"shield damage" 6700
-		"hull damage" 3400
+		"hull damage" 500
 		"disruption damage" .5
 		"phasing"
 	description "Erm's Anti-Shield Weapon are very effective at taking down the enemy shield."
@@ -46,17 +46,17 @@ outfit "Atmas Anti-Armour Energy Missile"
 		"hit effect" "medium explosion"
 		"inaccuracy" 1
 		"velocity" 15
-		"lifetime" 700
-		"reload" 45
+		"lifetime" 500
+		"reload" 160
 		"firing energy" 630
 		"firing heat" 800
 		"acceleration" 4
 		"drag" .1
 		"turn" 5
 		"homing" 5
-		"optical tracking" 1
-		"missile strength" 1000
-		"shield damage" 2100
+		"optical tracking" .9
+		"missile strength" 900
+		"shield damage" 560
 		"hull damage" 5300
 		"phasing"
 	description "Erm's Anti-Shield Weapon are very effective at taking down the enemy shield."
@@ -77,7 +77,7 @@ outfit "Aorken Paralyzer Energy Missile"
 		"hit effect" "medium explosion"
 		"inaccuracy" 1
 		"velocity" 15
-		"lifetime" 700
+		"lifetime" 450
 		"reload" 45
 		"firing energy" 600
 		"firing heat" 400
@@ -85,17 +85,17 @@ outfit "Aorken Paralyzer Energy Missile"
 		"drag" .1
 		"turn" 5
 		"homing" 5
-		"optical tracking" 1
-		"missile strength" 1200
-		"shield damage" 600
-		"hull damage" 600
+		"optical tracking" .85
+		"missile strength" 1000
+		"shield damage" 250
+		"hull damage" 250
 		"heat damage" 80
 		"ion damage" .62
 		"disruption damage" .6
 		"slowing damage" 78
 		"hit force" 85
 		"phasing"
-	description "
+	description "Unlike other energy missile Erm made this one can't do much damage while mainly focused on applying various effect on the enemy ship."
 	
 outfit "Atarkor Shield Piercing Missile"
 	category "Secondary Weapons"
@@ -116,7 +116,7 @@ outfit "Atarkor Shield Piercing Missile"
 		"hit effect" "medium explosion"
 		"inaccuracy" 10
 		"velocity" 5
-		"lifetime" 400
+		"lifetime" 40
 		"reload" 38
 		"firing energy" 60
 		"firing heat" 4
@@ -147,21 +147,21 @@ outfit "atarkor bullet"
 	
 outfit "Norden Cannon"
 	category "Guns"
-	cost 6000000
+	cost 7600000
 	thumbnail "outfit/unknown"
-	"mass" 20
-	"outfit space" -20
-	"weapon capacity" -20
+	"mass" 28
+	"outfit space" -28
+	"weapon capacity" -28
 	"gun ports" -1
 	weapon
 		sprite "projectile/m4g"
 			"frame rate" 1
-		sound "heavy rocket hit"
+		"fire effect" "medium explosion"
 		"hit effect" "large explosion"
 		"inaccuracy" 1
 		"velocity" 25
 		"lifetime" 42
-		"reload" 90
+		"reload" 180
 		"hit force" 50
 		"firing energy" 20
 		"firing heat" 35
@@ -173,7 +173,7 @@ outfit "Norden Cannon"
 	
 outfit "Norden Dual Cannon Turret"
 	category "Turrets"
-	cost 20000000
+	cost 23000000
 	thumbnail "outfit/nordel"
 	"mass" 80
 	"outfit space" -80
@@ -182,15 +182,16 @@ outfit "Norden Dual Cannon Turret"
 	weapon
 		sprite "projectile/m4g"
 			"frame rate" 1
-		sound "heavy rocket hit"
+		#sound "heavy rocket hit"
+		"fire effect" "medium explosion"
 		"hit effect" "large explosion"
 		"hardpoint sprite" "hardpoint/nordel turret"
 		"hardpoint offset" 12.
 		"inaccuracy" 1
-		"turret turn" 1.5
+		"turret turn" 1.2
 		"velocity" 25
 		"lifetime" 40
-		"reload" 45
+		"reload" 90
 		"hit force" 50
 		"firing energy" 20
 		"firing heat" 40
@@ -202,7 +203,7 @@ outfit "Norden Dual Cannon Turret"
 		
 outfit "Korlar Cannon Turret"
 	category "Turrets"
-	cost 40000000
+	cost 37000000
 	thumbnail "outfit/korlar"
 	"mass" 120
 	"outfit space" -120
@@ -220,13 +221,13 @@ outfit "Korlar Cannon Turret"
 		"turret turn" 1
 		"velocity" 30
 		"lifetime" 50
-		"reload" 120
+		"reload" 100
 		"hit force" 140
 		"firing froce" 120
 		"firing energy" 40
 		"firing heat" 80
-		"shield damage" 5000
-		"hull damage" 5600
+		"shield damage" 8000
+		"hull damage" 8400
 		"piercing" .3
 		"safe"
 		"blast radius" 160
@@ -252,8 +253,8 @@ outfit "Kaiza Anti-Fighter Turret"
 		"reload" 13
 		"firing energy" 50
 		"firing heat" 20
-		"shield damage" 95
-		"hull damage" 95
+		"shield damage" 65
+		"hull damage" 65
 		"ion damage" .1
 		"safe"
 		"blast radius" 20

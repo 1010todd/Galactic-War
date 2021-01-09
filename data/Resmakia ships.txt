@@ -8,11 +8,49 @@ ship "Metal Asteroid"
 		"frame time" 2
 		"delay" 2
 		"random start frame"
+	
 	attributes
 		category "Drone"
 		"cost" 255000
 		"hull" 1200
 		"automaton" 1
+		"mass" 10
+		"drag" 1.0
+		"heat dissipation" .9
+		"outfit space" 1
+		"weapon capacity" 1
+		"energy generation" 1
+		"energy capacity" 100
+		"turn" 40
+		"turning energy" .2
+		"thrust" 10
+		"thrusting energy" .3
+		swizzle 0
+		weapon
+			"blast radius" 250
+			"shield damage" 15000
+			"hull damage" 15000
+			"hit force" 240
+	outfits
+		"Contact Explosive"
+		
+	turret 0 0
+	explode "huge explosion" 5
+	"final explode" "final explosion large"
+	description ""
+	
+ship "Metal Asteroid2"
+	sprite "asteroid/large metal/spin"
+		"frame rate" 2
+		"frame time" 2
+		"delay" 2
+		"random start frame"
+	attributes
+		category "Interceptor"
+		"cost" 255000
+		"hull" 1200
+		"automaton" 0
+		"bunks" 1
 		"mass" 10
 		"drag" 1.0
 		"heat dissipation" .9
@@ -179,7 +217,7 @@ ship "Termat"
 		"cargo space" 1200
 		"outfit space" 910
 		"weapon capacity" 200
-		"engine capacity" 90
+		"engine capacity" 160
 		weapon
 			"blast radius" 120
 			"shield damage" 1200

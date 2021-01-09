@@ -153,12 +153,12 @@ outfit "Hasus Launcher"
 		"drag" .01
 		"turn" 4
 		"homing" 4
-		"shield damage" 1200
-		"hull damage" 760
+		"shield damage" 880
+		"hull damage" 450
 		"piercing" .1
 		"hit force" 60
-		"missile strength" 100
-	description "Donko's only type of missile." 
+		"missile strength" 60
+	description "." 
 		
 outfit "K6 Shield Generator"
 	category "Systems"
@@ -348,6 +348,7 @@ outfit "Donko Hyperdrive"
 	"outfit space" -18
 	"jump speed" 5
 	"hyperdrive" 1
+	description "Donko Hyperdrive is slightly smaller and faster than standard hyperdrive due to totally different method of entering hyperspace." 
 	
 outfit "R1 Cell"
 	category "Power"

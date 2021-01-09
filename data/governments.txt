@@ -5,27 +5,27 @@ government "Ultaka(Mega)"
 	language "Ultaka"
 	"player reputation" -1000
 	"attitude toward"
-		"Merchant" -.1
+		"Merchant" -.01
 		"Pirate" -.01
-		"Republic" -.1
-		"Hai (Unfettered)" -.1
-		"Hai" -.1
-		"Korath" -.1
-		"Quarg" -.1
-		"Wanderer" -.1
-		"Pug" -.1
-		"Syndicate" -.1
-		"Free Worlds" -.1
-		"Navy Intelligence" -.1
-		"Navy (Oathkeeper)" -.1
-		"Wallagi" -.1
-		"Dels" -.1
-		"Aumar" -.1
-		"Donko" -.1
-		"Revos" -.1
-		"Dels (Pirate)" -.1
-		"Qoro (North)" -.1
-		"Qoro (East)" -.1
+		"Republic" -.01
+		"Hai (Unfettered)" -.01
+		"Hai" -.01
+		"Korath" -.01
+		"Quarg" -.01
+		"Wanderer" -.01
+		"Pug" -.01
+		"Syndicate" -.01
+		"Free Worlds" -.01
+		"Navy Intelligence" -.01
+		"Navy (Oathkeeper)" -.01
+		"Wallagi" -.01
+		"Dels" -.01
+		"Aumar" -.01
+		"Donko" -.01
+		"Revos" -.01
+		"Dels (Pirate)" -.01
+		"Qoro (North)" -.01
+		"Qoro (East)" -.01
 		"Ultaka" 10
 		"ZIS" -.2
 
@@ -76,6 +76,7 @@ government "ZIS"
 		"Quarg" -.1
 		"Kroom Kakaima" -.01
 		"ZIS " 1
+		"Taroun" -.1
 		
 government "ZIS "
 	swizzle 3
@@ -90,6 +91,7 @@ government "ZIS "
 		"Qanse" -.1
 		"Quarg" -.1
 		"   " -.01
+		"Taroun" -.1
 		
 government "   "
 	swizzle 3
@@ -281,4 +283,34 @@ government "Taroun"
 	"attitude toward"
 		"Zis" -.1
 		"Geeva" -.1
+		
+government "Darua Republic"
+	swizzle 0
+	color .2 .2 .4
+	"player reputation" 0
+	"attitude toward"
+		"Makerurader" -.1
+		"Wallagi" 1
+		
+government "Ruluan Empire"
+	swizzle 0
+	color .179 .2 .0
+	"player reputation" 0
+	"attitude toward"
+		"Makerurader" -.1
+		
+government "Makerurader"
+	swizzle 6
+	color .0 .0 .0
+	"player reputation" 0
+	"attitude toward"
+		"Darua Republic" -.1
+		
+		
+		
+		
+		
+		
+		
+		
 		

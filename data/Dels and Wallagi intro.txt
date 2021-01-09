@@ -1,0 +1,198 @@
+mission "Entering Wensta"
+	invisible
+	landing
+	npc
+		government Wallagi
+		personality staying forbearing
+		system "Wensta"
+		ship "Sentasor"
+			name "Sonva-H372"
+			sprite "ship/sentasor"
+			attributes
+				category "Heavy Warship"
+				"cost" 270000000
+				"shields" 780000
+				"hull" 236000
+				"required crew" 40
+				"bunks" 320
+				"mass" 800
+				"drag" 11
+				"heat dissipation" .4
+				"fuel capacity" 700
+				"cargo space" 230
+				"outfit space" 1370
+				"weapon capacity" 690
+				"engine capacity" 180
+				weapon
+					"blast radius" 1500
+					"shield damage" 7000
+					"hull damage" 5000
+					"hit force" 2500
+				outfits
+					"Tensel Shield Generator"
+					"C60-W Falmin Core"
+					"Wallagi heat shunt"
+					"Kal-10 Engines"
+					"A80-H Jestar Anti-missile" 6
+					"T30-E Semfal Torpedo" 5
+					"P50-B Lemtar Turret" 9
+					
+				crew 220	
+				fuel 700
+				shields 780000
+				hull 236000
+				fighter -90 -131 under
+				fighter -90 -62.5 under
+				fighter -91.5 -3 under
+				fighter -90.5 46.5 under
+				engine -68.5 298.5
+				engine 70 297.5
+				engine 5.5 299
+				turret -17 -142.5 "A80-H Anti-missile"
+				turret -17.5 -108 "A80-H Anti-missile"
+				turret -16.5 -69.5 "A80-H Anti-missile"
+				turret -16.5 14 "A80-H Anti-missile"
+				turret 2 93 "A80-H Anti-missile"
+				turret 69 -7 "A80-H Anti-missile"
+				gun 68 -252.5 "T30-E Semfal Torpedo"
+				gun 77.5 -231 "T30-E Semfal Torpedo"
+				gun 90 -201 "T30-E Semfal Torpedo"
+				gun 59.5 -37 "T30-E Semfal Torpedo"
+				gun 70 -23.5 "T30-E Semfal Torpedo"
+				turret 13 -139.5 "P50-B Lemtar Turret"
+				turret 13 -103.5 "P50-B Lemtar Turret"
+				turret 11.5 -59 "P50-B Lemtar Turret"
+				turret 20.5 -6.5 "P50-B Lemtar Turret"
+				turret 49 36 "P50-B Lemtar Turret" 
+				turret 77 55 "P50-B Lemtar Turret"
+				turret 71.5 112.5 "P50-B Lemtar Turret"
+				turret 27.5 113.5"P50-B Lemtar Turret"
+				turret 23.5 57.5 "P50-B Lemtar Turret"
+				explode "tiny explosion" 22
+				explode "small explosion" 26
+				explode "medium explosion" 50
+				explode "big explosion" 60
+				explode "huge explosion" 40
+	on enter "Wensta"
+		conversation
+			`As you enter the system an alien ship hails you. "Proceed no further, stranger."`
+			choice
+				`	"Why?"`
+				`	"Alright."`
+					goto ok
+				`	"Who are you?"`
+				`	"You can't tell me what to do."`
+				`	(Ignore it.)`
+					goto ignore
+			label a
+			`	"We are Wallagi, we are here to guard your galaxy from intergalactic invaders. This wormhole is made by them but now taken by us to preserve the lives in this galaxy." Surprisingly, these aliens seems to be fluent at your language as if they've lived with human for a while. However, unlike the Quarg (and Hai), these aliens are totally unheard of.`
+				
+			label ignore
+			`	"I repeat, proceed no further and leave." 
+				`	"Why?"`
+				`	"Alright."`
+					goto ok
+				`	"Who are you?"`
+				`	"You can't tell me what to do."`
+			label ok
+			`	"Thank you for cooperation." The communication was cut instantly after their response. Yet, their identity remains unknown.`
+				decline
+			
+	on complete
+		conversation
+			`You exit your ship and meet with several humanoid aliens about 2 meters tall with light steel blue skin, long rounded ears, and head a little longer and sharper than a normal human head."`
+			`	Then the one wearing a helmet with a metal fin which seems to be the leader introduces himself "Greeting human, I'm Destel Figar Met you can call me Destel, I'm the commander of this orbital gun station, we're here to prevent your galaxy from being invaded by Ultakas, beyond this wormhole is their captured territory, to proceed you will need to buy one of our ship or any ship as strong as or stronger than ours."`
+			`	He continues, "Any question?"`
+			choice
+				`	"Why did you have me land here?"`
+					goto why
+				`	"Who are the Ultakas?"`
+					goto who
+				`	"How could you speak our langauge?`
+					goto lang
+				`	"Is the galaxy beyond this wormhole is that dangerous?`
+					goto danger
+				`	"Thank you for the information, I will be visiting your shipyard/outfitter then.`
+					goto visit
+				`	"Thank you for the information, I will leave then."`
+					goto leave
+			label why
+			`	"To warn you that ahead of you are dangerous, and give you a chance to return."`
+			choice
+				`	"Who are the Ultakas?"`
+					goto who
+				`	"Is the galaxy beyond this wormhole is that dangerous?`
+					goto danger
+				`	"How could you speak our langauge?`
+					goto lang
+				`	"Is the galaxy beyond this wormhole is that dangerous?`
+					goto danger
+				`	"Thank you for the information, I will be visiting your shipyard/outfitter then.`
+					goto visit
+				`	"Thank you for the information, I will leave then."`
+					goto leave
+			label who
+			`	"A specie of alien, they're the master of destruction possessing weapons far superior than most species in this region."`
+			choice	
+				`	"So by the way, How could you speak our langauge?`
+					goto lang
+				`	"So, is the galaxy beyond this wormhole is that dangerous?`
+					goto danger
+				`	"Thank you for the information, I will be visiting your shipyard/outfitter then.`
+					goto visit
+				`	"Thank you for the information, I will leave then."`
+					goto leave
+			label lang
+			`	"We have been studing your langauge for a while now since we're here."`
+			choice	
+				`	"So, is the galaxy beyond this wormhole is that dangerous?`
+					goto danger
+				`	"Thank you for the information, I will be visiting your shipyard/outfitter then.`
+					goto visit
+				`	"Thank you for the information, I will leave then."`
+					goto leave
+			label danger
+			`	"Yes it is, most of the weapons there are more deadly than other weapons of the same tiers in your galaxy, and the weapons the Ultaka have can destroy human's best ship in a few seconds, even the Pug would still have trouble dealing with them."`
+			choice	
+				`	"So by the way, How could you speak our langauge?`
+					goto lang
+				`	"Thank you for the information, I will be visiting your shipyard/outfitter then.`
+					goto visit
+				`	"Thank you for the information, I will leave then."`
+					goto leave
+			label visit
+			`	"The shipyard and outfitter is that way." he pointed to a door with a blue stripes, "But make sure you got enought money, our items aren't going to be cheap.".`
+				decline
+			label leave
+			`	"Thank you for your time, you may return later when you feel ready."`
+				defer
+
+mission "Dels first contact"
+	landing
+	source
+		government Dels
+	name "Dels First contact"
+	on offer
+		conversation
+			`As you land you noticed the defense turrets start aiming at you, surrounded by warships and tanks, they doesn't seem to welcome you.`
+			`Then a Wallagi ship entered the atmosphere, not long after that the turrets turn back to its normal position, warships fly away, tanks return back to their garage, then the Wallagi ship landed next to you.`
+			`It hails "Gald to see you survive until you reach here human." "I told the Dels that you are a human and you're friendly, their government will be here in a moment to talk to you." then he sends a small drone carrying a package for you "It's a translator for all races in this galaxy, it will automatically translate other languages to your languages."`
+			`Then for a little while later a Dels ship lands near you with its escort of a few warships, you saw a lime-colored figure about 160cm high in white suit-like clothing walk out of the ship, then he says something you don't recognize the translator translated "Hi I am Eldo Dewel the minister of United Dels Guards Froce and Welcome to our territory of the United Dels" you introduce yourself then Dewel says "Well, as you know we're in a state of war with another more advanced race, so it must be hard for you to make your way until you reach here, and since you're here is there anything you want to know about us?"`
+			choice
+				`	[About the current on-going war]`
+					goto war
+				`	[About the Dels and their history]`
+					goto dels
+				`	"No, I don't have any question."`
+					decline
+			label war
+			`	"From what the Wallagi told us, this is a intergalactic scale war that we're just got involved in, we can be defeated anytime as our enemy are superior to us in both strength and number, our only chance of survival is the Wallagi and you who are strong enought to fight them."`
+			choice
+				`	[About the Dels and their history]`
+					goto dels
+				`	"Thanks for the information, I don't have any question now."`
+					decline
+			label dels
+			`	"Our history begin in Delro our first spaceship was launched about 9 century ago most of us like freedom and peace before the war we're suppose to be seperated into 5 different nation Sulma, Darlot, Falderral, and Sarro plus serveral pirate planets, between the 5 nations there's not much fighting because 4 out of 5 nation policy is peace and these four are more likly to unite if one of the four got harmed, because of that war are not likely in our space before the invasion."`
+				`	"Thanks for the information, I don't have any question now."`
+					decline

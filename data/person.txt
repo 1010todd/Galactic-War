@@ -1,74 +1,133 @@
-person "Katau Talkai-Eun"
+#person "Katau Talkai-Eun"
+#	government "Ultaka(Mega)"
+#	frequency 100
+#	personality
+#		heroic vindictive unconstrained
+#	phrase
+#		word
+#			"Rueta Talki Kakey Kimy"  #I used to have some document about translation for these but I lost it.
+#			"Kiay Ka Kakey Otelaey" 
+#			"Rueiki, Mitay Eun"
+#			"Taoe ,Rueta Eynay Ulnen Kiay"
+#	ship "Ultaka Shadow Strike" "Rueney Talkinek"
+#		sprite "ship/ultaka shadow strike"
+#		"never disables"
+#		attributes
+#			category "Light Warship"
+#			"cost" 59000000
+#			"shields" 900000
+#			"hull" 290000
+#			"hull repair rate" 20
+#			"required crew" 150
+#			"bunks" 600
+#			"mass" 300
+#			"drag" 10
+#			"heat dissipation" .83
+#			"fuel capacity" 8000
+#			"cargo space" 100
+#			"outfit space" 580
+#			"weapon capacity" 420
+#			"engine capacity" 60
+#			"energy generation" 1800
+#			weapon
+#				"blast radius" 250
+#				"shield damage" 1000
+#				"hull damage" 500
+#				"hit force" 1500
+#		outfits	
+#			"DMSG10 Shield Generator"
+#			"SDG2 Core"
+#			"Ultaka Heat Shunt"
+#			"ZTK Engines"
+#			"KDG3 anti missile" 4
+#			"KLG1 Turret" 8
+#			"JII-D" 2
+#			"Retos Mulaer Defegin"
+#			"RFK-1 Damage Field"
+#			"Model-3A Rifle" 600
+#	
+#		gun -16 -140
+#		gun 16 -140
+#		turret 0 0 "RFK-1 Damage Field"
+#		turret -21.5 -18.5 "KLG1 Turret"
+#		turret 20.5 -18.5 "KLG1 Turret"
+#		turret -31.5 4.5 "KLG1 Turret"
+#		turret 31.5 4.5 "KLG1 Turret"
+#		turret -30 29 "KLG1 Turret"
+#		turret 30 28.5 "KLG1 Turret"
+#		turret -17 50 "KLG1 Turret"
+#		turret 17.5 50.5 "KLG1 Turret"
+#		turret 0.5 -47 "KDG3 anti missile"
+#		turret 0 -126.5 "KDG3 anti missile"
+#		turret 0 59.5 "KDG3 anti missile"
+#		turret 0 105 "KDG3 anti missile"
+#		engine -26.5 148.5
+#		engine 29 148.5
+#		explode "tiny explosion" 12
+#		explode "small explosion" 16
+#		explode "medium explosion" 30
+#		explode "big explosion" 40
+#		explode "huge explosion" 20
+
+person "Katau Vinur'en-Eur"
 	government "Ultaka(Mega)"
 	frequency 100
 	personality
-		heroic vindictive unconstrained
+		heroic vindictive	
 	phrase
 		word
-			"Rueta Talki Kakey Kimy" 
-			"Kiay Ka Kakey Otelaey" 
-			"Rueiki, Mitay Eun"
-			"Taoe ,Rueta Eynay Ulnen Kiay"
-	ship "Ultaka Shadow Strike" "Rueney Talkinek"
-		sprite "ship/ultaka shadow strike"
-		"never disables"
-		attributes
-			category "Light Warship"
-			"cost" 59000000
-			"shields" 900000
-			"hull" 290000
-			"hull repair rate" 20
-			"required crew" 150
-			"bunks" 600
-			"mass" 300
-			"drag" 10
-			"heat dissipation" .83
-			"fuel capacity" 8000
-			"cargo space" 100
-			"outfit space" 580
-			"weapon capacity" 420
-			"engine capacity" 60
-			"energy generation" 1800
-			weapon
-				"blast radius" 250
-				"shield damage" 1000
-				"hull damage" 500
-				"hit force" 1500
-		outfits	
-			"DMSG10 Shield Generator"
-			"SDG2 Core"
-			"Ultaka Heat Shunt"
-			"ZTK Engines"
-			"KDG3 anti missile" 4
-			"KLG1 Turret" 8
-			"JII-D" 2
-			"Retos Mulaer Defegin"
-			"RFK-1 Damage Field"
-			"Model-3A Rifle" 600
+			"*Silence*"
+	ship "Ultaka Ghost"
+	sprite "ship/ultaka ghost"
+		"frame time" 5
+	attributes
+		category "Light Warship"
+		"cost" 59000000
+		"shields" 145000
+		"hull" 92800
+		"hull repair rate" 7
+		"required crew" 3
+		"bunks" 6
+		"mass" 660
+		"drag" 9.6
+		"heat dissipation" 1
+		"fuel capacity" 500
+		"cargo space" 30
+		"outfit space" 550
+		"weapon capacity" 320
+		"engine capacity" 120
+		"energy generation" 700
+		"radar jamming" 30
+		"scan interference" 10
+		"dr drive" -1
+		weapon
+			"blast radius" 250
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 1500
+	outfits
+		"USG100 Shield Generator"
+		"B20 Core"
+		"Ultaka Heat Shunt"
+		"DR Drive"
+		"U20-B anti missile" 2
+		"M10G Gun" 1
+		"E40R-D" 1
+		"Model-3A Rifle" 5
+		"Ultaka IDS" 1
 	
-		gun -16 -140
-		gun 16 -140
-		turret 0 0 "RFK-1 Damage Field"
-		turret -21.5 -18.5 "KLG1 Turret"
-		turret 20.5 -18.5 "KLG1 Turret"
-		turret -31.5 4.5 "KLG1 Turret"
-		turret 31.5 4.5 "KLG1 Turret"
-		turret -30 29 "KLG1 Turret"
-		turret 30 28.5 "KLG1 Turret"
-		turret -17 50 "KLG1 Turret"
-		turret 17.5 50.5 "KLG1 Turret"
-		turret 0.5 -47 "KDG3 anti missile"
-		turret 0 -126.5 "KDG3 anti missile"
-		turret 0 59.5 "KDG3 anti missile"
-		turret 0 105 "KDG3 anti missile"
-		engine -26.5 148.5
-		engine 29 148.5
-		explode "tiny explosion" 12
-		explode "small explosion" 16
-		explode "medium explosion" 30
-		explode "big explosion" 40
-		explode "huge explosion" 20
-			
+	gun 0 -121.5
+	turret 0 -45 "M10G Gun"
+	turret -33 10 "U20-B anti missile"
+	turret 33 10 "U20-B anti missile"
+	engine -22 124
+	engine 22 124
+	explode "tiny explosion" 12
+	explode "small explosion" 16
+	explode "medium explosion" 30
+	explode "big explosion" 40
+	explode "huge explosion" 20
+	description "These relatively weak Ultaka ships are capable of short-ranged teleportation allowing them to dodge some incoming fire. No more simple auto-aim and auto-fire."
 
 person "1010todd"
 	government "ZIS"
@@ -86,8 +145,8 @@ person "1010todd"
 		attributes
 			category "Interceptor"
 			"cost" 38200000
-			"shields" 9000000
-			"hull" 9000000
+			"shields" 120000
+			"hull" 120000
 			"required crew" 1
 			"bunks" 2
 			"mass" 25
@@ -263,7 +322,7 @@ outfit "ZIS Racon Canner"
 outfit "PewPewPew PewPewPew"
 	category "Hand to Hand"
 	cost 98000000
-	thumbnail "outfit/unknown"
+	thumbnail "outfit/zis rifle"
 	"capture attack" 200000
 	"capture defense" 500000
 	"unplunderable" 1
@@ -323,3 +382,129 @@ ship "VK-80 Inel"
 		engine 19 42
 		engine -21 42
 		explode "nuke explosion" 1
+		
+person "General Trivio"
+	government "ZIS"
+	frequency 300
+	personality
+		surveillance plunders heroic
+	phrase
+		word
+		
+	ship "ZN-7681 Eaxes"
+	sprite "ship/eaxes"
+	attributes
+		category "Heavy Warship"
+		"cost" 124000000
+		"shields" 7550000
+		"hull" 8550000
+		"required crew" 168
+		"bunks" 3800
+		"mass" 2000
+		"drag" 30
+		"heat dissipation" 12
+		"fuel capacity" 1000
+		"cargo space" 1000
+		"outfit space" 1860
+		"weapon capacity" 1680
+		"engine capacity" 120
+		"energy generation" 50
+		"ramscoop" 120
+		"hyperdrive" 1
+		"jump speed" 6
+		"jump drive" 1
+		"cooling" 2000
+		"scan interference" 30
+		"radar jamming" 30
+		"ZIS AM Lock" -8
+		"unremovable" -5
+		"uninstallable" 1
+		"outfit scan power" 350
+		"outfit scan speed" 5
+		"cargo scan power" 350
+		"cargo scan speed" 5
+		"atmosphere scan" 1000
+		weapon
+			"blast radius" 800
+			"shield damage" 8000
+			"hull damage" 4000
+			"hit force" 85000
+	outfits
+		"Zis Kuzxen Beam"
+		"Vozka Cannon Turret" 4
+		"Ginal Turret" 12
+		"ZIS Anti-Missile System" 8
+		"Tizon Turret" 9
+		"Rozzen Vertical Launching System" 8
+		"Rozzen Missile" 240
+		
+		"HW-4 Anti-Matter Reactor" 2
+		"HW-1H Hull Regenerator"
+		"MW-1H Hull Regenerator"
+		"HW-1S Shield Generator"
+		"MW-1S Shield Generator"
+		
+		"M-80 Engine" 2
+		
+	#Locked
+	gun 0 -329.5 "Zis Kuzxen Beam"
+	turret 179.5 -135.5 "Vozka Cannon Turret"
+	turret -179.5 -135.5 "Vozka Cannon Turret"
+	turret -167.5 258 "Vozka Cannon Turret"
+	turret 167.5 258 "Vozka Cannon Turret"
+	#Mains
+	turret -93 -262.5 "Tizon Turret"
+	turret 91.5 -263.5 "Tizon Turret"
+	turret -93.5 -207 "Tizon Turret"
+	turret 88.5 -207 "Tizon Turret"
+	turret -94 -144.5 "Tizon Turret"
+	turret 91.5 -143.5 "Tizon Turret"
+	turret 0 303.5 "Tizon Turret"
+	turret -1 359.5 "Tizon Turret"
+	turret 0 445 "Tizon Turret"
+	#Secondaries
+	turret 0 -70 "Ginal Turret"
+	turret 0 -45.5 "Ginal Turret"
+	turret 59 -22 "Ginal Turret"
+	turret -59.5 -20.5 "Ginal Turret"
+	turret 59 160 "Ginal Turret"
+	turret -58.5 160.5 "Ginal Turret"
+	#VLS
+	turret -49.5 21 "Rozzen Vertical Launching System"
+	turret 48.5 21.5 "Rozzen Vertical Launching System"
+	turret -49.5 55 "Rozzen Vertical Launching System"
+	turret 48.5 55.5 "Rozzen Vertical Launching System"
+	turret -48.5 89 "Rozzen Vertical Launching System"
+	turret 48.5 90 "Rozzen Vertical Launching System"
+	turret -49 123.5 "Rozzen Vertical Launching System"
+	turret 48 124 "Rozzen Vertical Launching System"
+	#AMs 
+	turret -114.5 -714 "ZIS Anti-Missile System"
+	turret 117 -714.5 "ZIS Anti-Missile System"
+	turret -164.5 -272.5 "ZIS Anti-Missile System"
+	turret 166 -274 "ZIS Anti-Missile System"
+	turret -120.5 68.5 "ZIS Anti-Missile System"
+	turret 121.5 69 "ZIS Anti-Missile System"
+	turret -120.5 647 "ZIS Anti-Missile System"
+	turret 121.5 647.5 "ZIS Anti-Missile System"
+	#Engine
+	engine -90 690
+	engine -32.5 700.5
+	engine 33.5 699.5
+	engine 92 688
+	#Fighter Bay
+	fighter -128.5 -20.5 left
+	fighter 129 -21 right
+	fighter -129 70.5 left
+	fighter 128 70 right
+	fighter -128.5 161 left
+	fighter 128.5 160.5 right
+	fighter -128.5 -20.5 left
+	fighter 129 -21 right
+	fighter -129 70.5 left
+	fighter 128 70 right
+	fighter -128.5 161 left
+	fighter 128.5 160.5 right
+	explode "nuke explosion" 25
+	"final explode" "final explosion large"
+			

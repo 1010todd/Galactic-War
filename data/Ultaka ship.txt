@@ -1,177 +1,23 @@
-#
-
-ship "Ultaka Dominator"
-	sprite "ship/ultaka dominator"
-	attributes
-		category "Light Warship"
-		"cost" 59000000
-		"shields" 161000
-		"hull" 98300
-		"hull repair rate" 8
-		"required crew" 3
-		"bunks" 6
-		"mass" 660
-		"drag" 10.3
-		"heat dissipation" .9
-		"fuel capacity" 500
-		"cargo space" 80
-		"outfit space" 550
-		"weapon capacity" 320
-		"engine capacity" 120
-		"energy generation" 800
-		"radar jamming" 5
-		"scan interference" .6
-		weapon
-			"blast radius" 250
-			"shield damage" 1000
-			"hull damage" 500
-			"hit force" 1500
-	outfits
-		"USG100 Shield Generator"
-		"B20 Core"
-		"Ultaka Heat Shunt"
-		"Hyper Engines"
-		"U20-B anti missile" 2
-		"M10G Gun" 2
-		"E40R-D" 2
-		"Model-3A Rifle" 5
-		"Ultaka IDS" 1
-	
-	gun -8 -116 "E40R-D"
-	gun 8 -116 "E40R-D"
-	turret 0 -31 "M10G Gun"
-	turret 0 -76 "M10G Gun"
-	turret 33 10 "U20-B anti missile"
-	turret -33 10 "U20-B anti missile"
-	engine -22 124.5 .5
-	engine 22 124.5 .5
-	explode "tiny explosion" 12
-	explode "small explosion" 16
-	explode "medium explosion" 30
-	explode "big explosion" 40
-	explode "huge explosion" 20
-	description "Ultaka Dominator is a translated call sign from Wallagi's langauge "Ultaka Rulati", original name(untranslated) "Ultayon"."
-	description "Ultaka Dominator's call sign came from long ago when the Wallagi first fought this ship, the Ultaka Dominator can completely beat any Wallagi light warships easily in a 1:1 battle, this is the reason why the Wallagi don't have light warship because they're all canceled since a massive defeat long ago."
-	description "Ultaka Dominator is the most hated among the Wallagi fighter and interceptor pilot since they're usually armed with a splitting torpedo and their submunition will fly in every direction at high velocity for long range and the submunition can also track their target made it impossible for fighters and interceptors to dodge them."
-	
-ship "Ultaka Summoner"
-	sprite "ship/ultaka summoner"
-	attributes
-		category "Heavy Warship"
-		"cost" 59000000
-		"shields" 292000
-		"hull" 129000
-		"hull repair rate" 10
-		"required crew" 120
-		"bunks" 250
-		"mass" 1060
-		"drag" 12.3
-		"heat dissipation" .7
-		"fuel capacity" 8500
-		"cargo space" 250
-		"outfit space" 930
-		"weapon capacity" 680
-		"engine capacity" 800
-		"energy generation" 800
-		"radar jamming" 5
-		"scan interference" .6
-		weapon
-			"blast radius" 250
-			"shield damage" 1000
-			"hull damage" 500
-			"hit force" 1500
-	outfits
-		"USG100 Shield Generator"
-		"B60 Core"
-		"Ultaka Heat Shunt"
-		"Hyper Engines" 2
-		"M10G Gun" 4
-		"U20-B anti missile" 6
-		"Ultaka Antimatter Cannon" 2
-		"Model-3A Rifle" 200
-		"Ultaka IDS" 50
-		
-	turret 0 -341 "M10G Gun"
-	turret 0 -289.5 "M10G Gun"
-	turret 0 -226.5 "M10G Gun"
-	turret 0 -126.5 "M10G Gun"
-	gun -15 -393 "Ultaka Antimatter Cannon"
-	gun 15 -393 "Ultaka Antimatter Cannon"
-	engine -0 408.5
-	turret -121 20 "U20-B anti missile"
-	turret 121 20 "U20-B anti missile"
-	turret -131.5 107.5 "U20-B anti missile"
-	turret 131.5 107.5 "U20-B anti missile"
-	turret -105.5 213.5 "U20-B anti missile"
-	turret 105.5 213.5 "U20-B anti missile"
-	fighter -147 18.5
-	fighter 147 18.5
-	fighter -147 107.5
-	fighter 147 107.5
-	fighter -128.5 206
-	fighter 128.5 206
-	fighter -147 18.5
-	fighter 147 18.5
-	fighter -147 107.5
-	fighter 147 107.5
-	fighter -128.5 206
-	fighter 128.5 206
-	fighter -147 18.5
-	fighter 147 18.5
-	fighter -147 107.5
-	fighter 147 107.5
-	fighter -128.5 206
-	fighter 128.5 206
-	fighter -147 18.5
-	fighter 147 18.5
-	fighter -147 107.5
-	fighter 147 107.5
-	fighter -128.5 206
-	fighter 128.5 206
-	drone -147 18.5
-	drone 147 18.5
-	drone -147 107.5
-	drone 147 107.5
-	drone -128.5 206
-	drone 128.5 206
-	drone -147 18.5
-	drone 147 18.5
-	drone -147 107.5
-	drone 147 107.5
-	drone -128.5 206
-	drone 128.5 206
-	drone -147 18.5
-	drone 147 18.5
-	drone -147 107.5
-	drone 147 107.5
-	drone -128.5 206
-	drone 128.5 206
-	drone -147 18.5
-	drone 147 18.5
-	drone -147 107.5
-	drone 147 107.5
-	drone -128.5 206
-	drone 128.5 206
-	explode "tiny explosion" 12
-	explode "small explosion" 16
-	explode "medium explosion" 30
-	explode "big explosion" 40
-	explode "huge explosion" 20
-	description "Ultaka Summoner is a translated call sign from Wallagi's langauge "Ultaka Lutayor", original name(untranslated) "Yuleymu"."
-	description "Ultaka Summoner is the main carrier of the Ultaka, it can carry up to 21 fighters and 24drones (much more than republic carrier since I feel there's too few fighter and drones republic carrier can carry) allowing a single Ultaka Summoner to easily swarm their enemy with fighters and drones."
-	
+#37000 Lw 52000 MW 120000 HW T2 Kor Sestor
+#40000 Lw 59000 MW 120000 HW T2 Mereti
+#    >> 1.5 times      >> 2 times
+#36000 Lw 67000 MW 118000 HW T2 Wanderer
+#    >> 1.8 times      >> 1.7times
+#7200 LW 10500 MW 29000 HW T1 Human
+#				  26000 HW 
+#    >> 1.45 times     >> 2.76 times or 2.4
 ship "Ultaka Hunter"
 	sprite "ship/ultaka hunter"
 	attributes
 		category "Interceptor"
 		"cost" 900000
-		"shields" 55000
+		"shields" 30000
 		"hull" 32000
-		"hull repair rate" 3
+		"hull repair rate" .9
 		"required crew" 1
 		"bunks" 3
-		"mass" 250
-		"drag" 6.9
+		"mass" 150
+		"drag" 6
 		"heat dissipation" 1.3
 		"fuel capacity" 400
 		"cargo space" 7
@@ -189,39 +35,311 @@ ship "Ultaka Hunter"
 	outfits
 		"USG50 Shield Generator"
 		"B10 Core"
+		"EB6 Battery"
 		"Ultaka Heat Shunt"
 		"M-Hyper Engines"
-		"MU10-A anti missile"
 		"FM10M Gun"
 		"FM10M Gun Group1" 2
 		"Model-3A Rifle" 1
 	
-	gun 0 -61 "FM10M Gun"
-	gun 16 -17 "FM10M Gun Group1"
-	gun -16 -17 "FM10M Gun Group1"
-	turret 0 18 "MU10-A anti missile"
-	engine -24 60
-	engine 24 60
+	gun 0 -49
+	gun -21.5 -22
+	gun 21.5 -22
+	engine -17.5 49
+		zoom 1
+		angle 0
+		under
+	engine 17.5 49
+		zoom 1
+		angle 0
+		under
+	"reverse engine" -18 -14.5
+		zoom 1
+		angle 180
+		under
+	"reverse engine" 18 -14.5
+		zoom 1
+		angle 180
+		under
 	explode "tiny explosion" 60
 	explode "small explosion" 40
 	explode "medium explosion" 30
 	explode "big explosion" 10
 	description "Ultaka Hunter is a translated call sign from Wallagi's langauge "Ultaka Latsor", original name(untranslated) "Reyluret"."
-	description "Ultaka Hunter is on of the most feared ship and the most common among the tier 1 species that are being invaded, they're fast and powerful their blaster can quickly take down even the strongest tier 1 ships."
-	description "Ultaka Hunter are the most common Ultaka warship, usually came in a squad of 3 alone to scout and disturb enemy transport convoy."
+	description "Ultaka Hunter are the most common Ultaka warship, usually came in a squadron of 3 alone to patrol, scout, and disturb enemy transport convoy."
 	
+	
+ship "Ultaka Dominator"
+	sprite "ship/ultaka dominator"
+	attributes
+		category "Light Warship"
+		"cost" 59000000
+		"shields" 60000
+		"hull" 66000
+		"hull repair rate" 2
+		"required crew" 3
+		"bunks" 6
+		"mass" 340
+		"drag" 10.3
+		"heat dissipation" .9
+		"fuel capacity" 500
+		"cargo space" 80
+		"outfit space" 550
+		"weapon capacity" 320
+		"engine capacity" 120
+		"radar jamming" 5
+		"scan interference" .6
+		weapon
+			"blast radius" 250
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 1500
+	outfits
+		"USG100 Shield Generator"
+		"B20 Core"
+		"EB6 Battery"
+		"EB6 Battery"
+		"Ultaka Heat Shunt"
+		"Hyper Engines"
+		"U20-B anti missile"
+		"M10G Gun" 2
+		"E40R-D" 1
+		"Model-3A Rifle" 5
+	
+	gun 0 -120
+	turret -33 3
+	turret 33 3
+	turret 0 -69.5 "U20-B anti missile"
+	engine -26 111
+		zoom 1
+		angle 0
+		under
+	engine 26 111
+		zoom 1
+		angle 0
+		under
+	"steering engine" -22 -88.5
+		zoom .5
+		angle -90
+		under
+		left
+	"steering engine" 22 -88.5
+		zoom .5
+		angle 90
+		under
+		right
+	"steering engine" -39.5 33.5
+		zoom .5
+		angle -90
+		under
+		left
+	"steering engine" 39.5 33.5
+		zoom .5
+		angle 90
+		under
+		right
+	"reverse engine" -20.5 -94.5
+		zoom 1
+		angle 180
+		under
+	"reverse engine" 20.5 -94.5
+		zoom 1
+		angle 180
+		under
+	explode "tiny explosion" 12
+	explode "small explosion" 16
+	explode "medium explosion" 30
+	explode "big explosion" 40
+	explode "huge explosion" 20
+	description "Ultaka Dominator is a translated call sign from Wallagi's langauge "Ultaka Rulati", original name(untranslated) "Ultayon"."
+	description "Ultaka Dominators are the primary patrol vehicle used by the Ultaka to maintain control over captured region."
+	#description "Ultaka Dominator's call sign came from long ago when the Wallagi first fought this ship, the Ultaka Dominator can completely beat any Wallagi light warships easily in a 1:1 battle, this is the reason why the Wallagi don't have light warship because they're all canceled since a massive defeat long ago."
+	#description "Ultaka Dominator is the most hated among the Wallagi fighter and interceptor pilot since they're usually armed with a splitting torpedo and their submunition will fly in every direction at high velocity for long range and the submunition can also track their target made it impossible for fighters and interceptors to dodge them."
+	
+ship "Ultaka Annihilator"
+	sprite "ship/ultaka annihilator"
+	attributes
+		category "Light Warship"
+		"cost" 53000000
+		"shields" 78000
+		"hull" 45000
+		"hull repair rate" 1
+		"required crew" 5
+		"bunks" 12
+		"mass" 340
+		"drag" 16.3
+		"heat dissipation" .85
+		"fuel capacity" 400
+		"cargo space" 500
+		"outfit space" 1300
+		"weapon capacity" 800
+		"engine capacity" 60
+		"radar jamming" 5
+		"scan interference" .6
+		weapon
+			"blast radius" 250
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 1500
+	outfits
+		"USG100 Shield Generator"
+		"B60 Core"
+		"Ultaka Heat Shunt"
+		"Hyper Engines"
+		"EB6 Battery"
+		"U20-B anti missile" 
+		"Ultaka Antimatter Barrage Cannon" 4
+		"Model-3A Rifle" 11
+		"Ultaka IDS" 1
+	
+	gun -40.5 -60
+	gun 40.5 -60
+	gun -69.5 -49
+	gun 69.5 -49
+	turret 0 -15
+	engine -32.5 59.5
+		zoom .5
+		angle 0
+		under
+	engine 32.5 59.5
+		zoom .5
+		angle 0
+		under
+	engine 0 62
+		zoom 1
+		angle 0
+		under
+	"reverse engine" -12.5 -56
+		zoom 1
+		angle 180
+		under
+	"reverse engine" 12.5 -56
+		zoom 1
+		angle 180
+		under
+	explode "tiny explosion" 12
+	explode "small explosion" 16
+	explode "medium explosion" 30
+	explode "big explosion" 40
+	explode "huge explosion" 20
+	description "Ultaka Annihilator is a translated call sign from Wallagi's langauge "Ultaka Torlarti", original name(untranslated) "Yusailot"."
+	description "Ultaka Annihilator is a long range bombardment ship rarely used by the Ultaka, usually found to provide more firepower to their fleet instead of heavy warships, they're also used for planetary bombardment."
+	
+	
+ship "Ultaka Summoner"
+	sprite "ship/ultaka summoner"
+	attributes
+		category "Heavy Warship"
+		"cost" 59000000
+		"shields" 289000
+		"hull" 320000
+		"hull repair rate" 8
+		"required crew" 120
+		"bunks" 250
+		"mass" 1560
+		"drag" 12.3
+		"heat dissipation" .7
+		"fuel capacity" 850
+		"cargo space" 250
+		"outfit space" 930
+		"weapon capacity" 680
+		"engine capacity" 800
+		"radar jamming" 5
+		"scan interference" .6
+		weapon
+			"blast radius" 250
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 1500
+	outfits
+		"USG100 Shield Generator"
+		"B60 Core"
+		"EB6 Battery" 2
+		"Ultaka Heat Shunt"
+		"Hyper Engines" 2
+		"M10G Gun" 4
+		"U20-B anti missile" 6
+		"Ultaka Antimatter Cannon" 2
+		"Model-3A Rifle" 200
+		"Ultaka IDS" 5
+		
+	turret -68 -279.5
+	turret 68 -279.5
+	turret -78.5 -98.5
+	turret 78.5 -98.5
+	turret -21.5 74
+	turret 21.5 74
+	turret -0.5 199.5
+	engine -77 427
+		zoom 2
+		angle 0
+		under
+	engine 77 427
+		zoom 2
+		angle 0
+		under
+	"reverse engine" -123.5 -278.5
+		zoom 1
+		angle 180
+		under
+	"reverse engine" 123.5 -278.5
+		zoom 1
+		angle 180
+		under
+	fighter -146.5 1
+	fighter 146.5 1
+	fighter -150 109
+	fighter 150 109
+	fighter -146.5 1
+	fighter 146.5 1
+	fighter -150 109
+	fighter 150 109
+	fighter -146.5 1
+	fighter 146.5 1
+	fighter -150 109
+	fighter 150 109
+	fighter -146.5 1
+	fighter 146.5 1
+	fighter -150 109
+	fighter 150 109
+	fighter -146.5 1
+	fighter 146.5 1
+	fighter -150 109
+	fighter 150 109
+	fighter -146.5 1
+	fighter 146.5 1
+	fighter -150 109
+	fighter 150 109
+	fighter -146.5 1
+	fighter 146.5 1
+	fighter -150 109
+	fighter 150 109
+	fighter -146.5 1
+	fighter 146.5 1
+	fighter -150 109
+	fighter 150 109
+	
+	explode "tiny explosion" 12
+	explode "small explosion" 16
+	explode "medium explosion" 30
+	explode "big explosion" 40
+	explode "huge explosion" 20
+	description "Ultaka Summoner is a translated call sign from Wallagi's langauge "Ultaka Lutayor", original name(untranslated) "Yuleymu"."
+	description "Ultaka Summoner is the main carrier of the Ultaka, it can carry up to 21 fighters and 24drones (much more than republic carrier since I feel there's too few fighter and drones republic carrier can carry) allowing a single Ultaka Summoner to easily swarm their enemy with fighters and drones."
+	
+
 ship "Ultaka Termite"
 	sprite "ship/ultaka termite"
 	attributes
 		category "Fighter"
 		"cost" 400000
-		"shields" 33000
+		"shields" 28000
 		"hull" 20000
-		"hull repair rate" 2
+		"hull repair rate" .5
 		"required crew" 1
 		"bunks" 1
-		"mass" 200
-		"drag" 6.9
+		"mass" 145
+		"drag" 5.7
 		"heat dissipation" 1.3
 		"fuel capacity" 400
 		"cargo space" 7
@@ -241,14 +359,22 @@ ship "Ultaka Termite"
 		"B10 Core"
 		"Ultaka Heat Shunt"
 		"M-Hyper Engines"
-		"FM10M Gun" 1
 		"Ultaka Micro-Antimatter Bomb" 2
 	
-	gun -10.5 -2 "Ultaka Micro-Antimatter Bomb"
-	gun 12.5 -2 "Ultaka Micro-Antimatter Bomb"
-	engine -7 40.5
-	engine 11 40
-	gun 1 -36.5 "FM10M Gun"
+	gun -15 -42
+	gun 15 -42
+	engine -16.5 39.5
+		zoom 1
+		angle 0
+		under
+	engine 16.5 39.5
+		zoom 1
+		angle 0
+		under
+	engine 0 42
+		zoom 1
+		angle 0
+		under
 	explode "tiny explosion" 60
 	explode "small explosion" 40
 	explode "medium explosion" 30
@@ -262,11 +388,11 @@ ship "Ultaka Servant"
 	attributes
 		category "Drone"
 		"cost" 400000
-		"shields" 30000
-		"hull" 19000
-		"hull repair rate" 1
+		"shields" 24000
+		"hull" 16000
+		"hull repair rate" .5
 		"mass" 180
-		"drag" 6.9
+		"drag" 5.4
 		"heat dissipation" 1.3
 		"fuel capacity" 400
 		"cargo space" 1
@@ -298,19 +424,19 @@ ship "Ultaka Servant"
 	explode "medium explosion" 30
 	explode "big explosion" 10
 	description "Ultaka Servant is a translated call sign from Wallagi's langauge "Ultaka Seyu", original name(untranslated) "Yamelu"."
-	description "Ultaka Servants are small anti-missile drones with only one offensive gun, they're considered pretty useless among both the Wallagi and Ultaka since most Ultaka ships are already well protected aginst missiles."
+	description "Ultaka Servants are small anti-missile drones with only one offensive gun, they're considered pretty useless among both the Wallagi and Ultaka since most Ultaka ships are already well protected against missiles."
 	
 ship "Ultaka Conqueror"
 	sprite "ship/ultaka conqueror"
 	attributes
 		category "Heavy Warship"
 		"cost" 60000000
-		"shields" 310000
-		"hull" 195000
+		"shields" 610000
+		"hull" 395000
 		"hull repair rate" 10
 		"required crew" 300
 		"bunks" 410
-		"mass" 660
+		"mass" 2400
 		"drag" 12.3
 		"heat dissipation" .4
 		"fuel capacity" 800
@@ -318,9 +444,9 @@ ship "Ultaka Conqueror"
 		"outfit space" 2200
 		"weapon capacity" 1200
 		"engine capacity" 120
-		"energy generation" 890
 		"radar jamming" 5
 		"scan interference" .6
+		"spinal mount" 2
 		weapon
 			"blast radius" 250
 			"shield damage" 1000
@@ -329,39 +455,62 @@ ship "Ultaka Conqueror"
 	outfits
 		"USG100 Shield Generator" 5
 		"B60 Core"
+		"EB6 Battery" 2
 		"Ultaka Heat Shunt"
-		"Hyper Engines"
-		"Ultaka Vanquisher Cannon"
-		"M20G Gun" 7
-		"G10A Turret" 5
-		"G20C Turret" 3
-		"U20-B anti missile" 4
+		"Hyper Engines" 2
+		"Ultaka Vanquisher Cannon" 2
+		"M20G Gun" 4
+		"G20C Turret" 2
+		"U20-B anti missile" 2
 		"Model-3A Rifle" 300
-		"Ultaka IDS" 50
+		"Ultaka IDS" 5
 		
-	turret 0 -263.5 "M20G Gun"
-	turret 0 -241 "M20G Gun"
-	turret 0 -213 "M20G Gun"
-	turret 0 -178 "M20G Gun"
-	turret 0 -141 "M20G Gun"
-	turret 0 -109 "M20G Gun"
-	turret 0 -72 "M20G Gun"
-	gun 0 -354 "Ultaka Vanquisher Cannon"
-	turret 42 -42 "U20-B anti missile"
-	turret -41 -42 "U20-B anti missile"
-	turret -42 42 "U20-B anti missile"
-	turret 41 42 "U20-B anti missile"
-	engine -65 380
-	engine 0 380
-	engine 65 380
-	turret 88 0 "G10A Turret"
-	turret -88 1 "G10A Turret"
-	turret -66 0 "G10A Turret"
-	turret 66 -1 "G10A Turret"
-	turret 0 105 "G10A Turret"
-	turret 0 140 "G20C Turret"
-	turret 0 204 "G20C Turret"
-	turret 0 270 "G20C Turret"
+	gun -39.5 -431 "Ultaka Vanquisher Cannon"
+	gun 39.5 -431 "Ultaka Vanquisher Cannon"
+	turret 0 -338.5 "M20G Gun"
+	turret 0 -272.5 "M20G Gun"
+	turret -108 -103 
+	turret 108 -103
+	turret -109 -7 "G20C Turret"
+	turret 109 -7 "G20C Turret"
+	turret -162 121 "M20G Gun"
+	turret 162 121 "M20G Gun"
+	engine -66 444
+		zoom 2
+		angle 0
+		under
+	engine 66 444
+		zoom 2
+		angle 0
+		under
+	"reverse engine" -85 -366
+		zoom 1
+		angle 180
+		under
+	"reverse engine" 85 -366
+		zoom 1
+		angle 180
+		under
+	"steering engine" -85 -366
+		zoom .5
+		angle 90
+		under
+		left
+	"steering engine" 85 -366
+		zoom .5
+		angle -90
+		under
+		right
+	"steering engine" -152.5 199
+		zoom .5
+		angle 90
+		under
+		left
+	"steering engine" 152.5 199
+		zoom .5
+		angle -90
+		under
+		right
 	explode "tiny explosion" 12
 	explode "small explosion" 16
 	explode "medium explosion" 30
@@ -369,7 +518,15 @@ ship "Ultaka Conqueror"
 	explode "huge explosion" 20
 	description "Ultaka Conqueror is a translated call sign from Wallagi's langauge "Ultaka Kerlotte", original name(untranslated) "Dusalyurmai"."
 	description "Ultaka Conquerors are the most common Ultaka battleships and landing ships they're used to carry heavy offensive weapons along with loads of ground troops, mechs and tanks for invading planets."
-	description "Ultaka Conquerors are usually avoided by fighter and interceptor pilots since they're very well defended aginst fighters."
+	description ""
+	
+ship "Ultaka Conqueror" "Dummy Conqueror"
+	outfits
+		"USG100 Shield Generator" 5
+		"B60 Core"
+		"Ultaka Heat Shunt"
+		"Hyper Engines"
+		"U20-B anti missile" 4
 	
 ship "Ultaka Path-Maker"
 	sprite "ship/pathmaker"
@@ -378,7 +535,7 @@ ship "Ultaka Path-Maker"
 		"cost" 600000000
 		"shields" 220000
 		"hull" 68000
-		"hull repair rate" 6
+		"hull repair rate" 2
 		"required crew" 20
 		"bunks" 300
 		"mass" 430
@@ -392,6 +549,11 @@ ship "Ultaka Path-Maker"
 		"energy generation" 1800
 		"radar jamming" 1
 		"scan interference" .2
+		"hyperdrive" 1
+		"jump drive" 1
+		"jump speed" .2
+		"jump range" 5000
+		"jump fuel" 5000
 		weapon
 			"blast radius" 2500
 			"shield damage" 10000
@@ -439,10 +601,10 @@ ship "Ultaka Path-Maker"
 	explode "huge explosion" 30
 	"final explode" "final explosion large" 3
 	description "Ultaka Path-Maker is a translated call sign from Wallagi's langauge "Ultaka Werloi", original name(untranslated) "Reutinay"."
-	description "Ultaka Path-Makers are rare and old wormhole and hyperspace link maker design, they first known when the the Ultaka made the first wormhole into the Wallagi's galaxy, The Wallagi have captured many path-maker in the past and used them to make wormhole to other galaxy but they usually break down after it successfully make a wormhole making these ships very valueable to Wallagi since they also cannot keep it for research since when ever they try to study how the ship make wormholes they usually either blow up or destroyed by the Ultaka raid."
+	description "Ultaka Path-Makers are ancient wormhole and hyperspace link maker ship, they first known when the the Ultaka made the first wormhole into the Wallagi's galaxy, The Wallagi have captured many path-maker in the past and used them to make wormhole to other galaxy but they usually break down after it successfully make a wormhole making these ships very valueable to Wallagi since they also cannot keep it for research since when ever they try to study how the ship make wormholes they usually either blow up or destroyed by an Ultaka raid."
 	
 ship "Ultaka Galactic Destroyer"
-	sprite "ship/destroyer/ultaka destroyer"
+	sprite "ship/ultaka destroyer"
 		delay 10
 		rewind
 		"frame rate" 28
@@ -462,9 +624,9 @@ ship "Ultaka Galactic Destroyer"
 		"outfit space" 6400
 		"weapon capacity" 3300
 		"engine capacity" 200
-		"energy generation" 2000
 		"radar jamming" 5
 		"scan interference" .6
+		"spinal mount" 2
 		weapon
 			"blast radius" 5000
 			"shield damage" 100000
@@ -473,10 +635,11 @@ ship "Ultaka Galactic Destroyer"
 	outfits
 		"USG200 Shield Generator" 10
 		"B60 Core" 5
+		"EB6 Battery" 5
 		"Ultaka Heat Shunt" 5
 		"Hyper Engines" 2
 		"Model-3A Rifle" 2500
-		"Ultaka IDS" 1400
+		"Ultaka IDS" 100
 		
 		"M100SG-M Turret" 10
 		"G80 Turret" 8
@@ -557,11 +720,11 @@ ship "Ultaka Reaper"
 		category "Heavy Warship"
 		"cost" 400000000
 		"shields" 2500000
-		"hull" 795000
-		"hull repair rate" 20
-		"required crew" 380
-		"bunks" 600
-		"mass" 2340
+		"hull" 725000
+		"hull repair rate" 12
+		"required crew" 580
+		"bunks" 1600
+		"mass" 2800
 		"drag" 20.3
 		"heat dissipation" .8
 		"fuel capacity" 5000
@@ -569,17 +732,17 @@ ship "Ultaka Reaper"
 		"outfit space" 4500
 		"weapon capacity" 2100
 		"engine capacity" 120
-		"energy generation" 1600
 		"radar jamming" 5
 		"scan interference" .6
+		"spinal mount" 2
 		weapon
 			"blast radius" 3500
 			"shield damage" 100000
 			"hull damage" 50000
 			"hit force" 15000
 	outfits
-		"USG100 Shield Generator" 10
-		"B60 Core" 3
+		"USG200 Shield Generator"
+		"B60 Core"
 		"Ultaka Heat Shunt" 3
 		"Hyper Engines" 2
 		"E40R-D" 2
@@ -587,8 +750,8 @@ ship "Ultaka Reaper"
 		"U30-A anti missile" 9
 		"M40G Turret" 15
 		"M10G Gun" 6
-		"Model-3A Rifle" 300
-		"Ultaka IDS" 250
+		"Model-3A Rifle" 500
+		"Ultaka IDS" 2
 		
 		
 	turret -18 -761 "M40G Turret"
@@ -650,63 +813,9 @@ ship "Ultaka Reaper"
 	explode "nuke explosion" 5
 	"final explode" "final explosion nuke" 2
 	description "Ultaka Reaper is a translated call sign from Wallagi's langauge "Ultaka Erlutti", original name(untranslated) "Tymerrueney"."
-	description "Ultaka Reapers are very large and rare warship that are usually found escorting the Ultaka Galactic Destroyer or other large ships, they're huge but vulnerable to fighters since the ship is mostly equipped with slow turrets for destroying enemy large ships, there only two way for this ship to defend it self from fighters alone are to trust their own fighters or lock the it's splitting missile on the fighters or else they have to be covered by other smaller ships."
+	description "Ultaka Reapers are very large and rare warship that are usually found escorting the Ultaka Galactic Destroyer or other large ships, they're huge but vulnerable to fighters since the ship is mostly equipped with slow turrets for destroying enemy's large ships, there only two way for this ship to defend it self from fighters alone are to trust their own fighters or lock the it's splitting missile on the fighters or else they have to be covered by other smaller ships."
 	
-ship "Ultaka Annihilator"
-	sprite "ship/ultaka annihilator"
-	attributes
-		category "Light Warship"
-		"cost" 53000000
-		"shields" 128000
-		"hull" 83300
-		"hull repair rate" 7
-		"required crew" 5
-		"bunks" 12
-		"mass" 340
-		"drag" 16.3
-		"heat dissipation" .85
-		"fuel capacity" 4000
-		"cargo space" 500
-		"outfit space" 1300
-		"weapon capacity" 800
-		"engine capacity" 60
-		"energy generation" 800
-		"radar jamming" 5
-		"scan interference" .6
-		weapon
-			"blast radius" 250
-			"shield damage" 1000
-			"hull damage" 500
-			"hit force" 1500
-	outfits
-		"USG100 Shield Generator"
-		"B60 Core"
-		"Ultaka Heat Shunt"
-		"Hyper Engines"
-		"U20-B anti missile" 3
-		"Ultaka Antimatter Barrage Cannon" 5
-		"Model-3A Rifle" 11
-		"Ultaka IDS" 1
-	
-	gun -49 -48
-	gun -27 -53
-	gun 0 -53.5
-	gun 25.5 -52.5
-	gun 49 -47
-	turret -47.5 2
-	turret 49 2.5
-	turret 0 36.5
-	engine -41 54
-	engine 42.5 54.5
-	engine 0 61.5
-	explode "tiny explosion" 12
-	explode "small explosion" 16
-	explode "medium explosion" 30
-	explode "big explosion" 40
-	explode "huge explosion" 20
-	description "Ultaka Annihilator is a translated call sign from Wallagi's langauge "Ultaka Torlarti", original name(untranslated) "Yusailot"."
-	description "Ultaka Annihilator is a long range bombardment ship rarely used by the Ultaka, usually found to provide more firepower to their fleet instead of heavy warships, they're also used for planetary bombardment."
-	
+
 ship "Ultaka Trapper"
 	sprite "ship/ultaka trapper"
 	attributes
@@ -714,7 +823,7 @@ ship "Ultaka Trapper"
 		"cost" 310000
 		"shields" 30000
 		"hull" 13000
-		"hull repair rate" 1
+		"hull repair rate" .2
 		"automaton" 1
 		"mass" 70
 		"drag" 3

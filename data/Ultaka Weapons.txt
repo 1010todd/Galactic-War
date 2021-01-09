@@ -1,56 +1,13 @@
+#28.2 * 10 = 282
+#282 * (10/60) =
 
 outfit "FM10M Gun"
 	category "Guns"
 	cost 8000000
 	thumbnail "outfit/unknown"
 	mass 10
-	"outfit space" -9
-	"weapon capacity" -9
-	"gun ports" -1
-	weapon
-		sprite "projectile/blaster"
-		sound "proton"
-		"hit effect" "particle"
-		"inaccuracy" .1
-		"velocity" 20
-		"lifetime" 40
-		"reload" 20
-		"firing energy" 10
-		"firing heat" 5
-		"shield damage" 800
-		"hull damage" 700
-	
-outfit "FM10M Gun Group1"
-	category "Guns"
-	cost 8000000
-	thumbnail "outfit/unknown"
-	mass 10
-	"outfit space" -9
-	"weapon capacity" -9
-	"gun ports" -1
-	weapon
-		sprite "projectile/blaster"
-		sound "proton"
-		"hit effect" "particle"
-		"inaccuracy" .1
-		"velocity" 20
-		"lifetime" 40
-		"reload" 20
-		"burst reload" 16
-		"burst count" 2
-		"firing energy" 10
-		"firing heat" 5
-		"shield damage" 800
-		"hull damage" 700
-		"cluster"
-	
-outfit "FM10M Gun Group2"
-	category "Guns"
-	cost 7900000
-	thumbnail "outfit/unknown"
-	mass 10
-	"outfit space" -9
-	"weapon capacity" -9
+	"outfit space" -10
+	"weapon capacity" -10
 	"gun ports" -1
 	weapon
 		sprite "projectile/blaster"
@@ -60,12 +17,57 @@ outfit "FM10M Gun Group2"
 		"velocity" 20
 		"lifetime" 40
 		"reload" 10
+		"firing energy" 50
+		"firing heat" 50
+		"shield damage" 25
+		"hull damage" 25
+	
+outfit "FM10M Gun Group1"
+	category "Guns"
+	cost 8000000
+	thumbnail "outfit/unknown"
+	mass 10
+	"outfit space" -10
+	"weapon capacity" -10
+	"gun ports" -1
+	weapon
+		sprite "projectile/blaster"
+		sound "proton"
+		"hit effect" "particle"
+		"inaccuracy" .1
+		"velocity" 20
+		"lifetime" 40
+		"reload" 15
+		"burst reload" 16
+		"burst count" 2
+		"firing energy" 50
+		"firing heat" 50
+		"shield damage" 37.5
+		"hull damage" 37.5
+		"cluster"
+	
+outfit "FM10M Gun Group2"
+	category "Guns"
+	cost 7900000
+	thumbnail "outfit/unknown"
+	mass 10
+	"outfit space" -10
+	"weapon capacity" -10
+	"gun ports" -1
+	weapon
+		sprite "projectile/blaster"
+		sound "proton"
+		"hit effect" "particle"
+		"inaccuracy" .1
+		"velocity" 20
+		"lifetime" 40
+		"reload" 20
 		"burst reload" 10
 		"burst count" 10
-		"firing energy" 10
-		"firing heat" 5
-		"shield damage" 800
-		"hull damage" 700
+		"firing energy" 50
+		"firing heat" 50
+		"shield damage" 50
+		"hull damage" 50
 		"cluster"
 	
 outfit "M1 Particle Gun"
@@ -90,7 +92,7 @@ outfit "M1 Particle Gun"
 		"firing energy" 30
 		"firing heat" 60
 		"shield damage" 1500
-		"hull damage" 1500
+		"hull damage" 2000
 		"piercing" .1
 	
 outfit "G1 Turret"
@@ -114,8 +116,8 @@ outfit "G1 Turret"
 		"reload" 10
 		"firing energy" 5
 		"firing heat" 2
-		"shield damage" 560
-		"hull damage" 450
+		"shield damage" 35
+		"hull damage" 20
 		"ion damage" .05
 	
 outfit "G80 Turret"
@@ -139,8 +141,8 @@ outfit "G80 Turret"
 		"reload" 20
 		"firing energy" 15
 		"firing heat" 12
-		"shield damage" 11500
-		"hull damage" 11400
+		"shield damage" 5500
+		"hull damage" 5400
 		"ion damage" .1
 		"disruption damage" .1
 		"burst reload" 15
@@ -188,12 +190,12 @@ outfit "M10G Gun"
 		"turret turn" 2.5
 		"velocity" 30
 		"lifetime" 20
-		"reload" 59
+		"reload" 20
 		"firing energy" 10
 		"firing heat" 10
-		"shield damage" 11500
-		"hull damage" 11500
-		"ion damage" .1
+		"shield damage" 180
+		"hull damage" 115
+		"ion damage" .05
 		
 outfit "M20G Gun"
 	category "Turrets"
@@ -214,11 +216,11 @@ outfit "M20G Gun"
 		"turret turn" 2.5
 		"velocity" 32
 		"lifetime" 22
-		"reload" 350
+		"reload" 35
 		"firing energy" 12
 		"firing heat" 11
-		"shield damage" 18500
-		"hull damage" 14900
+		"shield damage" 600
+		"hull damage" 540
 		"ion damage" .3
 		
 outfit "G10A Turret"
@@ -242,83 +244,8 @@ outfit "G10A Turret"
 		"reload" 10
 		"firing energy" 1
 		"firing heat" 3
-		"shield damage" 1500
-		"hull damage" 1400
-		
-outfit "G20A Turret"
-	category "Turrets"
-	cost 270000
-	thumbnail "outfit/quad blaster turret"
-	"mass" 44
-	"outfit space" -44
-	"weapon capacity" -44
-	"turret mounts" -1
-	weapon
-		sprite "projectile/blaster"
-		sound "gprojectile"
-		"hit effect" "blaster impact"
-		"hardpoint sprite" "hardpoint/quad blaster turret"
-		"hardpoint offset" 9.
-		"inaccuracy" 3
-		"turret turn" 4
-		"velocity" 23
-		"lifetime" 70
-		"reload" 16
-		"firing energy" 1
-		"firing heat" 7
-		"shield damage" 1300
-		"hull damage" 1600
-		
-outfit "G20C Turret"
-	category "Turrets"
-	cost 270000
-	thumbnail "outfit/quad blaster turret"
-	"mass" 44
-	"outfit space" -44
-	"weapon capacity" -44
-	"turret mounts" -1
-	weapon
-		sprite "projectile/blaster"
-		sound "gprojectile"
-		"hit effect" "blaster impact"
-		"hardpoint sprite" "hardpoint/quad blaster turret"
-		"hardpoint offset" 9.
-		"inaccuracy" 3
-		"turret turn" 4
-		"velocity" 23
-		"submunition" "Type-C fragment" 5
-		"lifetime" 10
-		"reload" 16
-		"firing energy" 1
-		"firing heat" 7
-		"shield damage" 1300
-		"hull damage" 1600
-		
-outfit "G20E Turret"
-	category "Turrets"
-	cost 270000
-	thumbnail "outfit/quad blaster turret"
-	"mass" 44
-	"outfit space" -44
-	"weapon capacity" -44
-	"turret mounts" -1
-	weapon
-		sprite "projectile/blaster"
-		sound "gprojectile"
-		"hit effect" "blaster impact"
-		"hardpoint sprite" "hardpoint/quad blaster turret"
-		"hardpoint offset" 9.
-		"inaccuracy" 3
-		"turret turn" 3.5
-		"velocity" 23
-		"submunition" "Type-E fragment" 7
-		"lifetime" 13
-		"reload" 17.5
-		"firing energy" 1
-		"firing heat" 7
-		"shield damage" 1300
-		"hull damage" 1300
-		"ion damage" .3
+		"shield damage" 80
+		"hull damage" 100
 		
 outfit "G10B Turret"
 	category "Turrets"
@@ -342,8 +269,85 @@ outfit "G10B Turret"
 		"reload" 10
 		"firing energy" 1
 		"firing heat" 3
-		"shield damage" 1500
-		"hull damage" 1500
+		"shield damage" 80
+		"hull damage" 100
+		
+outfit "G20A Turret"
+	category "Turrets"
+	cost 270000
+	thumbnail "outfit/quad blaster turret"
+	"mass" 44
+	"outfit space" -44
+	"weapon capacity" -44
+	"turret mounts" -1
+	weapon
+		sprite "projectile/blaster"
+		sound "gprojectile"
+		"hit effect" "blaster impact"
+		"hardpoint sprite" "hardpoint/quad blaster turret"
+		"hardpoint offset" 9.
+		"inaccuracy" 3
+		"turret turn" 4
+		"velocity" 23
+		"lifetime" 70
+		"reload" 16
+		"firing energy" 1
+		"firing heat" 7
+		"shield damage" 160
+		"hull damage" 180
+		
+outfit "G20C Turret"
+	category "Turrets"
+	cost 270000
+	thumbnail "outfit/quad blaster turret"
+	"mass" 44
+	"outfit space" -44
+	"weapon capacity" -44
+	"turret mounts" -1
+	weapon
+		sprite "projectile/blaster"
+		sound "gprojectile"
+		"hit effect" "blaster impact"
+		"hardpoint sprite" "hardpoint/quad blaster turret"
+		"hardpoint offset" 9.
+		"inaccuracy" 3
+		"turret turn" 4
+		"velocity" 23
+		"submunition" "Type-C fragment" 5
+		"lifetime" 10
+		"reload" 16
+		"firing energy" 1
+		"firing heat" 7
+		"shield damage" 160
+		"hull damage" 180
+		
+outfit "G20E Turret"
+	category "Turrets"
+	cost 270000
+	thumbnail "outfit/quad blaster turret"
+	"mass" 44
+	"outfit space" -44
+	"weapon capacity" -44
+	"turret mounts" -1
+	weapon
+		sprite "projectile/blaster"
+		sound "gprojectile"
+		"hit effect" "blaster impact"
+		"hardpoint sprite" "hardpoint/quad blaster turret"
+		"hardpoint offset" 9.
+		"inaccuracy" 3
+		"turret turn" 3.5
+		"velocity" 23
+		"submunition" "Type-E fragment" 7
+		"lifetime" 13
+		"reload" 17.5
+		"firing energy" 1
+		"firing heat" 7
+		"shield damage" 198
+		"hull damage" 170
+		"ion damage" .3
+		
+
 		
 outfit "M40G Turret"
 	category "Turrets"
@@ -364,11 +368,11 @@ outfit "M40G Turret"
 		"turret turn" 2.5
 		"velocity" 30
 		"lifetime" 124
-		"reload" 420
+		"reload" 42
 		"firing energy" 10
 		"firing heat" 20
-		"shield damage" 51500
-		"hull damage" 38500
+		"shield damage" 680
+		"hull damage" 310
 		"piercing" .02
 		"disruption damage" .02
 		
@@ -391,11 +395,11 @@ outfit "M100SG-M Turret"
 		"turret turn" 2.5
 		"velocity" 30
 		"lifetime" 146
-		"reload" 430
+		"reload" 43
 		"firing energy" 20
 		"firing heat" 40
-		"shield damage" 110500
-		"hull damage" 120500
+		"shield damage" 710
+		"hull damage" 1100
 		"piercing" .3
 		"disruption damage" .5
 		
@@ -403,9 +407,9 @@ outfit "MU10-A anti missile"
 	category "Turrets"
 	cost 3000000
 	thumbnail "outfit/unknown"
-	mass 30
-	"outfit space" -30
-	"weapon capacity" -30
+	mass 6
+	"outfit space" -6
+	"weapon capacity" -6
 	"turret mounts" -1
 	weapon
 		sprite "projectile/blaster"
@@ -414,9 +418,9 @@ outfit "MU10-A anti missile"
 		sound "heavy anti-missile"
 		"hardpoint sprite" "hardpoint/warder"
 		"hardpoint offset" 4.
-		"anti-missile" 100
+		"anti-missile" 20
 		"turret turn" 18
-		"velocity" 400
+		"velocity" 320
 		"lifetime" 1
 		"reload" 3
 		"firing energy" .1
@@ -426,9 +430,9 @@ outfit "U10-A anti missile"
 	category "Turrets"
 	cost 3500000
 	thumbnail "outfit/unknown"
-	mass 34
-	"outfit space" -34
-	"weapon capacity" -34
+	mass 22
+	"outfit space" -22
+	"weapon capacity" -22
 	"turret mounts" -1
 	weapon
 		sprite "projectile/blaster"
@@ -437,9 +441,9 @@ outfit "U10-A anti missile"
 		sound "heavy anti-missile"
 		"hardpoint sprite" "hardpoint/warder"
 		"hardpoint offset" 4.
-		"anti-missile" 160
+		"anti-missile" 25
 		"turret turn" 18
-		"velocity" 500
+		"velocity" 400
 		"lifetime" 1
 		"reload" 3
 		"firing energy" .3
@@ -460,7 +464,7 @@ outfit "U20-A anti missile"
 		sound "heavy anti-missile"
 		"hardpoint sprite" "hardpoint/warder"
 		"hardpoint offset" 4.
-		"anti-missile" 175
+		"anti-missile" 25
 		"turret turn" 18
 		"velocity" 520
 		"lifetime" 1
@@ -483,9 +487,9 @@ outfit "U20-B anti missile"
 		sound "heavy anti-missile"
 		"hardpoint sprite" "hardpoint/warder"
 		"hardpoint offset" 4.
-		"anti-missile" 168
+		"anti-missile" 30
 		"turret turn" 18
-		"velocity" 500
+		"velocity" 450
 		"lifetime" 1
 		"reload" 5
 		"firing energy" .4
@@ -495,15 +499,15 @@ outfit "U30-A anti missile"
 	category "Turrets"
 	cost 3500000
 	thumbnail "outfit/unknown"
-	mass 38
-	"outfit space" -38
-	"weapon capacity" -38
+	mass 42
+	"outfit space" -42
+	"weapon capacity" -42
 	"turret mounts" -1
 	weapon
 		sound "heavy anti-missile"
 		"hardpoint sprite" "hardpoint/warder"
 		"hardpoint offset" 4.
-		"anti-missile" 210
+		"anti-missile" 37
 		"turret turn" 18
 		"velocity" 600
 		"lifetime" 1
@@ -515,15 +519,15 @@ outfit "U60-A anti missile"
 	category "Turrets"
 	cost 6500000
 	thumbnail "outfit/unknown"
-	mass 47
-	"outfit space" -47
-	"weapon capacity" -47
+	mass 55
+	"outfit space" -55
+	"weapon capacity" -55
 	"turret mounts" -1
 	weapon
 		sound "heavy anti-missile"
 		"hardpoint sprite" "hardpoint/warder"
 		"hardpoint offset" 4.
-		"anti-missile" 480
+		"anti-missile" 48
 		"turret turn" 18
 		"velocity" 600
 		"lifetime" 1
@@ -533,6 +537,18 @@ outfit "U60-A anti missile"
 		"firing energy" .8
 		"firing heat" 1.6
 		
+
+outfit "Type-B fragment"
+	weapon
+		sprite "projectile/blaster"
+			"frame rate" 1
+		"hit effect" "particle"
+		sound "heavy anti-missile"
+		"velocity" 32
+		"lifetime" 8
+		"inaccuracy" 270
+		"shield damage" 12
+		"hull damage" 22
 		
 outfit "Type-C fragment"
 	weapon
@@ -543,8 +559,8 @@ outfit "Type-C fragment"
 		"velocity" 20
 		"lifetime" 12
 		"inaccuracy" 15
-		"shield damage" 1200
-		"hull damage" 2200
+		"shield damage" 120
+		"hull damage" 220
 		
 outfit "Type-D fragment"
 	weapon
@@ -561,9 +577,10 @@ outfit "Type-D fragment"
 		"acceleration" 4
 		"drag" .1
 		"turn" 5
-		"homing" 5
-		"shield damage" 5500
-		"hull damage" 7500
+		"homing" 2
+		"optical tracking" .8
+		"shield damage" 150
+		"hull damage" 350
 		"hit force" 1
 		"missile strength" 90
 		
@@ -575,8 +592,8 @@ outfit "Type-E fragment"
 		"velocity" 55
 		"lifetime" 150
 		"inaccuracy" 15
-		"shield damage" 4700
-		"hull damage" 6700
+		"shield damage" 11
+		"hull damage" 8
 		"ion damage" 10
 		
 outfit "Ultaka Damage Field"
@@ -595,21 +612,22 @@ outfit "Ultaka Damage Field"
 		"firing energy" 20
 		"firing heat" 5
 		"hit force" 60
-		"shield damage" 150
-		"hull damage" 150
-		"ion damage" .05
+		"shield damage" 15
+		"hull damage" 15
 		
 outfit "Ultaka Antimatter Cannon"
 	category "Guns"
 	cost 5000000
-	thumbnail "outfit/unknown"
+	thumbnail "outfit/tmpgun"
 	"mass" 95
 	"outfit space" -100
 	"weapon capacity" -100
 	"gun ports" -1
 	weapon
 		sprite "projectile/uam"
-			"frame rate" 4
+			"frame rate" 8
+			"start frame" 1
+		"fire effect" "Ultaka AM fire"
 		"inaccuracy" 0.1
 		"velocity" 12
 		"lifetime" 200
@@ -619,36 +637,42 @@ outfit "Ultaka Antimatter Cannon"
 		"firing energy" 5010
 		"firing heat" 2870
 		"hit force" 900
-		"shield damage" 460500
-		"hull damage" 460500
+		"shield damage" 6100
+		"hull damage" 15000
+		"blast radius" 50
 		"missile strength" 500
-		"piercing" 1
+		"piercing" .1
+	description "This is a standard Antimatter bombardment cannon used by the Ultaka, it is very powerful for its size. It is very effective against bare hull which make it dangerous to most ships that depends on their shield."
 		
 outfit "Ultaka Antimatter Barrage Cannon"
 	category "Guns"
 	cost 5000000
-	thumbnail "outfit/unknown"
+	thumbnail "outfit/tmpgun"
 	"mass" 45
 	"outfit space" -50
 	"weapon capacity" -50
 	"gun ports" -1
 	weapon
 		sprite "projectile/uam"
-			"frame rate" 4
+			"frame rate" 8
+			"start frame" 1
 		"inaccuracy" 0.1
 		"velocity" 12
 		"lifetime" 200
+		"fire effect" "Ultaka AM fire"
 		"hit effect" "antimatter dust" 10
 		"hit effect" "nuke explosion"
 		"reload" 150
 		"firing energy" 2505
 		"firing heat" 1470
 		"hit force" 380
-		"shield damage" 230500
-		"hull damage" 230500
+		"shield damage" 1280
+		"hull damage" 3750
+		"blast radius" 30
 		"missile strength" 250
-		"piercing" 1
+		"piercing" .03
 		"stream"
+	description "This is a smaller version of the standard Ultaka Anitmatter cannon. The barrage variant offer faster reload. Normally used by Ultaka Annihilator for planetary bombardment."
 		
 outfit "Ultaka Vanquisher Cannon"
 	category "Guns"
@@ -658,6 +682,7 @@ outfit "Ultaka Vanquisher Cannon"
 	"outfit space" -200
 	"weapon capacity" -200
 	"gun ports" -1
+	"spinal mount" -1
 	weapon
 		"sprite" "uvc"
 		"inaccuracy" 0.1
@@ -669,10 +694,11 @@ outfit "Ultaka Vanquisher Cannon"
 		"firing energy" 9010
 		"firing heat" 8870
 		"hit force" 900
-		"shield damage" 665000
-		"hull damage" 665000
+		"shield damage" 40250
+		"hull damage" 40250
 		"missile strength" 1100
-		"piercing" 1
+		"piercing" .3
+	description "Unlike the smaller Ultaka Anitmatter Cannon, this weapon is based on a different technology which allows even greater destructive capability. This will easily tear apart anything but the strongest warships. On the bright side, only the ship hit by this will be destroyed."
 		
 outfit "Ultaka Destroyer Cannon"
 	category "Guns"
@@ -682,6 +708,7 @@ outfit "Ultaka Destroyer Cannon"
 	"outfit space" -400
 	"weapon capacity" -400
 	"gun ports" -1
+	"spinal mount" -1
 	weapon
 		"sprite" "udc"
 		"inaccuracy" 0
@@ -690,13 +717,15 @@ outfit "Ultaka Destroyer Cannon"
 		"hit effect" "antimatter dust" 10
 		"hit effect" "nuke explosion"
 		"reload" 600
-		"firing energy" 9010
-		"firing heat" 8870
-		"hit force" 9600
-		"shield damage" 1422000
-		"hull damage" 1422000
+		"firing energy" 90100
+		"firing heat" 88700
+		"hit force" -9600
+		"blast radius" 120
+		"shield damage" 85000
+		"hull damage" 85000
 		"missile strength" 1510
-		"piercing" 1
+		"piercing" .4
+	description "If anything would challenge the toughness of the ringworld it would be this. Getting hit by it is a death-sentence." 
 		
 outfit "E40R-D"
 	category "Secondary Weapons"
@@ -727,10 +756,10 @@ outfit "E40R-D"
 		"homing" 5
 		"optical tracking" 1
 		"missile strength" 510
-		"shield damage" 6500
-		"hull damage" 8500
+		"shield damage" 650
+		"hull damage" 700
 		"hit force" 45
-	description "Ultaka's energy torpedo"
+	description "Ultaka splitting energy missile E40R-D is the most effective weapon aginst both tiny fighers and big battleships as their splited energy projectile will home around the enemy making them extremely hard to dodge and can drain energy from ships with thick missile defense by making the Anti-missiles busy shoting tiny fragments down allowing larger missile to get pass the missile defences, if Anti-missiles target the larger missile the tiny missile fragment can hit and deal ionize the enemy."
 	
 outfit "E40R-E"
 	category "Secondary Weapons"
@@ -761,12 +790,12 @@ outfit "E40R-E"
 		"homing" 5
 		"optical tracking" 1
 		"missile strength" 510
-		"shield damage" 6500
-		"hull damage" 8500
+		"shield damage" 650
+		"hull damage" 700
 		"hit force" 45
 	description "Ultaka's energy torpedo"
 	
-outfit "E40R-S Chain Strike"
+outfit "E40R-S Chain Strike" #Crash, don't use
 	category "Secondary Weapons"
 	cost 47000000
 	thumbnail "outfit/ionic afterburner"
@@ -833,7 +862,7 @@ outfit "Ultaka Micro-Antimatter Bomb"
 		"firing energy" 500
 		"firing heat" 270
 		"hit force" 300
-		"shield damage" 12600
-		"hull damage" 12600
+		"shield damage" 2000
+		"hull damage" 2000
 		"missile strength" 260
 		"piercing" .5

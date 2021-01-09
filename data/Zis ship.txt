@@ -3,8 +3,8 @@ ship "VK-35 Katen"
 		attributes
 			category "Interceptor"
 			"cost" 36200000
-			"shields" 180000
-			"hull" 280000
+			"shields" 18000
+			"hull" 28000
 			"required crew" 1
 			"bunks" 2
 			"mass" 25
@@ -248,8 +248,8 @@ ship "RZ-28 Forlan"
 	attributes
 		category "Interceptor"
 		"cost" 89800000
-		"shields" 180000
-		"hull" 220000
+		"shields" 18000
+		"hull" 22000
 		"required crew" 1
 		"bunks" 2
 		"mass" 24
@@ -291,15 +291,15 @@ ship "RZ-28 Forlan"
 	turret 0 9.5
 	engine 0 54
 	explode "nuke explosion" 1
-	description "A small personal interceptor mostly used as a personal trnasport ship."
+	description "A small personal interceptor mostly used as a personal transport ship."
 		
 ship "RZ-621-02 Razor"
 	sprite "ship/razor-two"
 	attributes
 		category "Light Warship"
 		"cost" 40000000
-		"shields" 480000
-		"hull" 600000
+		"shields" 48000
+		"hull" 60000
 		"required crew" 5
 		"bunks" 65
 		"mass" 160
@@ -348,7 +348,7 @@ ship "RZ-621-02 Razor"
 	drone 28.5 -4 under
 	drone -28.5 -4 under
 	explode "nuke explosion" 3
-	description "Zis Razor light patrol ship are widly used in patrol fleets, with decent cargo and passenger capacity they are also used to transport ground froces and supplies to the battlefields."
+	description "Zis Razor light patrol ship are widely used in patrol fleets, with decent cargo and passenger capacity they are also used to transport ground forces and supplies to the battlefields."
 	
 ship "RZ-621-02 Razor" "Miner Razor"
 	outfits
@@ -380,8 +380,8 @@ ship "SY-8662 Sysor"
 	attributes
 		category "Medium Warship"
 		"cost" 120000000
-		"shields" 840000
-		"hull" 890000
+		"shields" 84000
+		"hull" 89000
 		"required crew" 18
 		"bunks" 285
 		"mass" 490
@@ -1292,8 +1292,8 @@ ship "XF-26 Mizu"
 	attributes
 		category "Fighter"
 		"cost" 12090000
-		"shields" 90000
-		"hull" 90000
+		"shields" 140000
+		"hull" 200000
 		"required crew" 1
 		"bunks" 2
 		"mass" 96
@@ -1475,6 +1475,7 @@ ship "AS-56 Virsiz"
 			"mass" 25
 			"drag" .3
 			"heat dissipation" 1.6
+			"cargo space" 5
 			"outfit space" 80
 			"weapon capacity" 20
 			"engine capacity" 20
@@ -1509,6 +1510,7 @@ ship "AS-56 Virsiz"
 		engine 7 59.5
 		explode "nuke explosion" 1
 		description "Virsiz is the smallest and the most basic transport available by the Zis shipyard."
+		description "There's another variant called Quick Drop Virsiz only available to the certain commanders with permission, Quick Drop Virsiz is designed to quickly deploy troops in the front line by dropping them with special hatchs on its side."
 		
 		
 ship "AI-AD-860 Aorlan"
@@ -1558,7 +1560,7 @@ ship "AI-AD-860 Aorlan"
 	engine -7.5 59
 	engine 7.5 59
 	explode "nuke explosion" 3
-	description "
+	description "To strengthen the Zis Navy without need of too much personel, the old war drone designs were recovered and mordenized, without need of space for crews allow these drones to be stronger than others ships of the same size."
 
 ship "ZN-7681 Eaxes"
 	sprite "ship/eaxes"
@@ -1568,7 +1570,7 @@ ship "ZN-7681 Eaxes"
 		"shields" 7550000
 		"hull" 8550000
 		"required crew" 168
-		"bunks" 780
+		"bunks" 3800
 		"mass" 1800
 		"drag" 28
 		"heat dissipation" .64
@@ -1582,7 +1584,7 @@ ship "ZN-7681 Eaxes"
 		"hyperdrive" 1
 		"jump speed" 6.2
 		"jump drive" 1
-		"cooling" 966
+		"cooling" 2000
 		"scan interference" 30
 		"radar jamming" 30
 		"ZIS AM Lock" -8
@@ -1601,7 +1603,7 @@ ship "ZN-7681 Eaxes"
 	outfits
 		"Zis Kuzxen Beam"
 		"Vozka Cannon Turret" 4
-		"Ginal Turret" 12
+		"Ginal Turret" 6
 		"ZIS Anti-Missile System" 8
 		"Tizon Turret" 9
 		"Rozzen Vertical Launching System" 8
@@ -1676,4 +1678,139 @@ ship "ZN-7681 Eaxes"
 	fighter 128.5 160.5 right
 	explode "nuke explosion" 25
 	"final explode" "final explosion large"
-	description `
+	description `The most recent battlecarrier design equiped with various of weapons featuring a new Kuzxen Beam.`
+	
+ship Balzita
+	sprite ship/balzita
+	"never disabled"
+	attributes
+		category "Heavy Warship"
+		"cost" 1100000000
+		"shields" 5500000
+		"hull" 2400000
+		"required crew" 4
+		"bunks" 6
+		"mass" 1300
+		"drag" 20
+		"heat dissipation" 30
+		"fuel capacity" 1200
+		"cargo space" 120
+		"outfit space" 800
+		"weapon capacity" 600
+		"engine capacity" 100
+		"energy capacity" 15000
+		"energy generation" 550
+		"shield generation" 110
+		"shield energy" 110
+		"hull repair rate" 110
+		"ZIS AM Lock" -2
+		"hyperdrive" 1
+		"jump speed" 1.6
+		"jump drive" 1
+		"ramscoop" 100
+		"gaslining" 1
+		"inscrutable" 1
+		"cooling" 300
+		"scan interference" 10
+		"radar jamming" 10
+		"unremovable" -1
+		"uninstallable" 1
+		weapon
+			"blast radius" 200
+			"shield damage" 20000
+			"hull damage" 10000
+			"hit force" 30000
+	outfits
+		"Airzi Cannon"
+		"ZIS Anti-Missile System" 2
+		"Zaikor Turret" 2
+		
+		"M-80 Engine"
+	
+	gun 0 20 "Airzi Cannon"
+	turret -33 -89.5 "Zaikor Turet"
+	turret 34.5 -90 "Zaikor Turret"
+	engine -56 187
+	engine 56 187
+	turret -40 -128.5 "ZIS Anti-Missile System"
+	turret 13.5 145.5 "ZIS Anti-Missile System"
+	explode "nuke explosion" 4
+	explode "smoke" 50
+	"final explode" "final explosion large"
+	description "After obitaining new tech salvaged from Taroun ships, they begins building a prototype living-ship, and this is the result the Balzita, Balzita is one example of the Zis capability of creating a creature and modifiy it, the Balzita is a half-organic half-cybernic space creature created to be a long range warship for bombarding the enemies from distance with smaller turrets for close range defense, this creature is equipped with communication device and overriding system to order them and take complete control of them if they became uncontrollable." 
+	
+ship "AF-18 Zyon"
+	sprite "ship/zyon"
+	attributes
+		category "Fighter"
+		"cost" 12090000
+		"shields" 120000
+		"hull" 100000
+		"required crew" 1
+		"bunks" 2
+		"mass" 56
+		"drag" 1.8
+		"heat dissipation" .88
+		"cargo space" 5
+		"outfit space" 90
+		"weapon capacity" 30
+		"engine capacity" 20
+		"ZIS AM Lock" -1
+		"cooling" 60
+		"scan interference" 1
+		"radar jamming" .9
+		"energy capacity" 2200
+		"energy generation" 30
+		weapon
+			"blast radius" 40
+			"shield damage" 400
+			"hull damage" 200
+			"hit force" 600
+	outfits
+		"Xin rotary cannon"
+		"ZIS Anti-Missile System"
+		"Kuichan Missile" 4
+		
+		"FT-1S Shield Generator"
+		"FT-1H Hull Regenerator"
+		
+		"Nitro-Type4 Engine"
+		
+	gun 0 -29.5 "Xin rotary cannon"
+	gun 10.5 -10 "Kuichan Missile"
+	gun -10.5 -10 "Kuichan Missile"
+	gun -18 -5 "Kuichan Missile"
+	gun 18 -5 "Kuichan Missile"
+	engine 0 31
+	turret 0 -4
+	explode "nuke explosion" 1
+	"final explode" "final explosion small"
+	description "Zyon was an old fighter design used long ago mordenized to serve as bomber armed with deadly Kuichan Missiles that can take down a Milky Way human's most Heavy Warship in one shot."
+
+ship "AF-18 Zyon" "Interceptor Zyon"
+	sprite "ship/zyon"
+	attributes
+		category "Interceptor"
+		"cost" 12090000
+		"shields" 120000
+		"hull" 100000
+		"required crew" 1
+		"bunks" 2
+		"mass" 56
+		"drag" 1.8
+		"heat dissipation" .88
+		"cargo space" 5
+		"outfit space" 90
+		"weapon capacity" 30
+		"engine capacity" 20
+		"ZIS AM Lock" -1
+		"cooling" 60
+		"scan interference" 1
+		"radar jamming" .9
+		"energy capacity" 2200
+		"energy generation" 30
+		weapon
+			"blast radius" 40
+			"shield damage" 400
+			"hull damage" 200
+			"hit force" 600

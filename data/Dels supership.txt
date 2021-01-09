@@ -126,15 +126,17 @@ outfit "G90-Z Blaster Turret"
 	"weapon capacity" -60
 	"turret mounts" -1
 	weapon
+		"hardpoint sprite" "hardpoint/gninthyz turret"
+		"hardpoint offset" 15.
 		sprite "projectile/particle beam"
 		sound "proton"
 		"inaccuracy" 0.01
 		"velocity" 24
-		"lifetime" 25
+		"lifetime" 50
 		"reload" 70
 		"firing energy" 50
 		"firing heat" 30
-		"shield damage" 1000
+		"shield damage" 700
 		"hull damage" 1000
 		"piercing" .01
 	description "."
@@ -179,3 +181,148 @@ outfit "Deeraka Plasma Engines"
 		"frame rate" 8.5
 	"flare sound" "plasma huge"
 	description "."
+	
+outfit "SA9 Nuclear Launcher"
+	category "Secondary Weapons"
+	cost 5000000
+	thumbnail "outfit/nuke"
+	"mass" 4
+	"outfit space" -24
+	"weapon capacity" -24
+	"gun ports" -1
+	"sa9 capacity" 2
+	weapon
+		sprite "projectile/missile"
+			"no repeat"
+			"frame rate" .25
+		sound "nuke"
+		ammo "SA9 Nuclear Missile"
+		stream
+		icon "icon/nuke"
+		"hit effect" "nuke explosion"
+		"hit effect" "nuke residue fast" 15
+		"hit effect" "nuke residue slow" 15
+		"die effect" "missile death"
+		"inaccuracy" .5
+		"velocity" 6
+		"lifetime" 600
+		"reload" 200
+		"firing energy" 10
+		"firing heat" 400
+		"acceleration" 1
+		"drag" .06
+		"turn" 4
+		"homing" 4
+		"radar tracking" .8
+		"optical tracking" .9
+		"trigger radius" 20
+		"blast radius" 80
+		"shield damage" 8000
+		"hull damage" 6000
+		"heat damage" 5000
+		"hit force" 4000
+		"missile strength" 350
+	description "
+	
+outfit "SA9 Nuclear Missile"
+	category "Ammunition"
+	cost 900000
+	thumbnail "outfit/nuke"
+	"mass" 10
+	"sa9 capacity" -1
+	description "
+	
+ship "HW80B Delsaylor"
+	sprite "ship/delsaylor"
+	attributes
+		category "Heavy Warship"
+		"cost" 150000000
+		"shields" 560000
+		"hull" 400000
+		"required crew" 160
+		"bunks" 550
+		"mass" 1200
+		"drag" 26
+		"heat dissipation" .6
+		"fuel capacity" 1200
+		"cargo space" 250
+		"outfit space" 2380
+		"weapon capacity" 2540
+		"engine capacity" 190
+		"energy capacity" 12000
+		"energy generation" 1200
+		"hull repair rate" 2
+		"ramscoop" 5
+		"cooling" 65
+		"hyperdrive" 1
+		"jump speed" 3
+		"jump drive" 1
+		"scan interference" 1
+		"radar jamming" 1
+		"sk4 capacity" 500
+		"sa9 capacity" 20
+		weapon
+			"blast radius" 200
+			"shield damage" 7000
+			"hull damage" 6000
+			"hit force" 3000
+	outfits
+		"G90-Z Blaster Turret" 12
+		"SK4 Launcher" 6
+		"SA9 Nuclear Launcher" 3
+		"A80-H Jestar Anti-missile" 3
+		"Deeraka Plasma Engines"
+		"Sestar Shield Generator"
+		"SK4 Missile" 680
+		"SA9 Nuclear Missile" 26
+		
+	turret -54 -214
+	turret 53 -213
+	turret -61.5 -173.5
+	turret 60.5 -172
+	turret -67 -135
+	turret 66 -135
+	turret -73.5 -100
+	turret 73.5 -100
+	turret -73.5 192.5
+	turret 72.5 192.5
+	turret -60 231.5
+	turret 60 231.5
+	engine -45 466.5
+	engine 46.5 465.5
+	gun -80 -350 "SK4 Launcher"
+	gun 80 -350 "SK4 Launcher"
+	gun -110 -265 "SK4 Launcher"
+	gun 110 -265 "SK4 Launcher"
+	gun -125.5 -201 "SK4 Launcher"
+	gun 125.5 -201 "SK4 Launcher"
+	turret 0 -232 "A80-H Jestar Anti-missile"
+	turret 0 -85 "A80-H Jestar Anti-missile"
+	turret 0 230 "A80-H Jestar Anti-missile"
+	gun -10 134 "SA9 Nuclear Launcher"
+	gun 0 134 "SA9 Nuclear Launcher"
+	gun 10 134 "SA9 Nuclear Launcher"
+	drone -128 -22 left
+	drone -128 41 left
+	drone -128 108 left
+	drone 128 -22 right
+	drone 128 41 right
+	drone 128 108 right
+	drone -128 -22 left
+	drone -128 41 left
+	drone -128 108 left
+	drone 128 -22 right
+	drone 128 41 right
+	drone 128 108 right
+	drone -128 -22 left
+	drone -128 41 left
+	drone -128 108 left
+	drone 128 -22 right
+	drone 128 41 right
+	drone 128 108 right
+	drone -128 -22 left
+	drone -128 41 left
+	drone -128 108 left
+	drone 128 -22 right
+	drone 128 41 right
+	drone 128 108 right

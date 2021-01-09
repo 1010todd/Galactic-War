@@ -6,15 +6,12 @@ mission "Geeva first contact"
 	npc accompany save
 		government Zis
 		personality escort heroic
-		fleet
-			names "Zis"
-			variant
-				"RZ-621-02 Razor"
+		ship "RZ-621-02 Razor" "Z.S.N.S Kaylor D-23-492"
 	name "Geeva and Zis Intro"
 	on offer
 		log "Factions" "Geeva" `Geeva look very similar to elves from fantasy movies except that they have a light green skin.`
 		conversation
-			`As you landed a swarm of light green-skinned humanoid aliens start to surround your ship.`
+			`As you landed a swarm of light green-skinned humanoid aliens start to surround your ship, the looks surpisingly similar to elves from fantasy books and movies just only that they have green skin.`
 			`You exited you ship then one of the alien approach you and say "Welcome back our savior, we're very happy to see you come back to us." You're very confused what happening, when did you save them, how could they speak your langauge, and who are they.`
 			choice
 				`	"Who are you? when did I save you?"`
@@ -24,7 +21,7 @@ mission "Geeva first contact"
 				`	[Run back to the ship and take off]`
 					depart
 			label a
-			`	Suddenly an unknown grey-colored ship enter the atmosphere and landed next to you open it's door, you see a few hummanoid figure in grey armour walked out of the ship and some of them seems to be carrying a rifle too, then one of them shouts "You human there stop!" you look around then turn back and point at yourself "Me?" that person walks closer to you "Yea you, what are you doing here? We suppose that no human in the Milky Way have invented Jump Drive yet so how did you get here?"`
+			`	Suddenly a grey-colored ship enter the atmosphere and landed next to you open it's door, you see a few hummanoid figure in grey armour walked out of the ship and some of them seems to be carrying a rifle too, then one of them shouts "You human there stop!" you look around then turn back and point at yourself "Me?" that person walks closer to you "Yea you, what are you doing here? We suppose that no human in the Milky Way have invented Jump Drive yet so how did you get here?"`
 			choice
 				`	"Err.. I'm just an explorer, I found a wormhole north of the Wanderer space and found this galaxy and I got my Jump Drive from the Syndicates, and so who are you?"`
 					goto what
@@ -47,6 +44,7 @@ mission "Geeva first contact"
 			`On entering the system the first thing you noice is there's a enormous space station ahead of you, it seem like the station is unfinished yet but aleady functional, Ral told you to follow his ship and park next to his ship and he will tell you what to do next.`
 				
 	on complete
+		log "Factions" "Geeva" `Geeva look very similar to elves from fantasy movies except that they have a light green skin.`
 		conversation
 			`You follow him in to one of the countless spaceport and parked your ship next to him, Ral told you that you can visit the facilities in this port while he contact his comander but do not go any where out of this port.`
 			`[Visit the spaceport to continue]`
@@ -68,16 +66,16 @@ mission "Zis first contact"
 				`	"Ok, I will be right there."`
 					goto go
 			label call
-			`"It's really easy to hack into your device since you're the only one using it here, now come here."`
+			`"It's really easy to identify and hack into your device since you're the only one using it here, now come here."`
 			label go
-			`You ran back to his ship, "Come in." said Ral, you walked in to his ship you see a hologram of a female human, "Hello and welcome to Trochzempt station human from Milky Way, I'm Micho, we would like you to introduce your self and tell us a detailed information about the Milky Way at it's current state please.", You introduce yourself and thoroughly told them about the human space and its history you know. "Thank you for the information <first>, if you have any question about us ask now if not you're free to go." She smiles.`
+			`You ran back to his ship, "Come in." said Ral, you walked in to his ship you see a hologram of a female human wearing a red armour with shiny gold decoration, "Hello and welcome to Trochzempt station human from Milky Way, I'm Micho, we would like you to introduce your self and tell us a detailed information about the Milky Way at it's current state please.", You introduce yourself and thoroughly told them about the human space and its history you know. "Thank you for the information <first>, if you have any question about us ask now if not you're free to go." She smiles.`
 			choice
 				`	"Then I will go now, bye."`
 					decline
 				`	"I want to know more about the Zis"`
 					goto zis
 			label zis
-			`"Hmmm... I think you can call Zis a nation, a military nation, we have 3rd strongest military strenght in this galaxy, 1st Ultaka, 2nd Wallagi, we also building the largest space station in this galaxy, for our history we're once a fleet of ships wandering around the galaxy until we meet the Geeva then we decide to find where to settle and build our nation and result in an enormous space station hosting almost a trillion lives." She replies, "Anything else?"`
+			`"Hmmm... I think you can call Zis a nation, a military nation, our nation is a newcomer to this galaxy but we're already building the largest space station in this galaxy, for our history we're once a fleet of ships wandering around the galaxy until we meet the Geeva then we decide to find where to settle and build our nation and result in an enormous space station hosting almost a trillion lives." She replies, "Anything else?"`
 			choice
 				`	"I want to know more about the people here."`
 					goto people
@@ -89,6 +87,7 @@ mission "Zis first contact"
 				`	"Nothing else I want to know now, bye."`
 					decline
 	on decline
+		log "Factions" "Zis" `Zis is the name of a colony fleet long ago, they look like a normal human from outside but they physically far stronger and more intelligent than most human. Most of their architecture are slightly alien but still presevre the human style. Everyone here seem to have a standrad of carrying at least a sword and a gun.`
 		conversation
 			`"See ya, goodluck and try not get eaten by space kraken!" Then she disconnect the communication, you asked Ral "What is a space kraken?"`
 			`"Its just a made-up creature used to scare new recuits but there's no such thing." He replies, then something inside his ship rang "Well, got to go now, see you later." you walk out of his ship as he begin to power up his ship and departs.`

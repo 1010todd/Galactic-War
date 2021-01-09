@@ -582,6 +582,7 @@ ship "LW80S Deeris"
 			"hull damage" 60
 			"hit force" 180
 	outfits
+		"PG10 Gun" 4
 		"C30 Fuel Cell"
 		"Sea Battery Pack"
 		"SR20 Sheild Generator"
@@ -590,14 +591,14 @@ ship "LW80S Deeris"
 		"Chaser Afterburner"
 		"Type-F Hyperdrive"
 		"Dels Ramscoop"
-		"PG10 Gun" 4
+		
 		
 	engine 11 25
 	engine -14 24
 	gun -20 -5 "PG10 Gun"
 	gun 18 -2 "PG10 Gun" 
 	gun 8 -25.5 "PG10 Gun"
-	gun -11 -25.5"PG10 Gun" 
+	gun -11 -25.5 "PG10 Gun" 
 	explode "tiny explosion" 10
 	explode "small explosion" 5
 	description "Fastest Dels light warship designed mainly to deal with the invader with speed and firepower but still too few of these warships are built for them to be effective aginst the Ultaka."

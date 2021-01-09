@@ -1,0 +1,22 @@
+outfit "IIRV Turret"
+	category "Turrets"
+	cost 6500000
+	thumbnail "outfit/unknown"
+	mass 30
+	"outfit space" -30
+	"weapon capacity" -30
+	"turret mounts" -1
+	weapon
+		sprite "projectile/m4g"
+		sound "tracker"
+		"hit effect" "particle"
+		"inaccuracy" .1
+		"turret turn" 3
+		"velocity" 30
+		"lifetime" 28
+		"reload" 35
+		"firing energy" 10
+		"firing heat" 10
+		"shield damage" 15800
+		"hull damage" 13500
+		"ion damage" 5

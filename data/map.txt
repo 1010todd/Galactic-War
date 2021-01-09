@@ -6,11 +6,11 @@ galaxy "Milky Way"
 
 galaxy "Galaxy 1"
 	pos 0 -4660.98
-	sprite ui/maffei
+	sprite ui/galaxy1
 
 galaxy "Galaxy 2"
 	pos 6050.27 -8602.27
-	sprite ui/galaxy3
+	sprite ui/pinwheel
 
 galaxy "Galaxy 3"
 	pos 866.326 -11179.5
@@ -4046,6 +4046,7 @@ system "Der Gaz"
 	asteroids "medium metal" 19 8.375
 	asteroids "large metal" 1 5.1875
 	fleet "Zis Heavy Patrol Fleet" 800
+	fleet "Zis Civillian Fleet" 1200
 	object
 		sprite star/g0
 		distance 35.3538
@@ -4533,6 +4534,182 @@ system Dree
 			sprite planet/dust4
 			distance 390
 			period 28.8793
+
+system EY-455300
+	pos -704.663 -4829.74
+	government ZIS
+	habitable 486.68
+	belt 1020
+	link "Zerax WS-2"
+	link EY-455324
+	asteroids "small rock" 4 5.9136
+	asteroids "medium rock" 94 3.3152
+	asteroids "large rock" 32 6.4512
+	asteroids "small metal" 11 3.6288
+	asteroids "medium metal" 27 6.048
+	asteroids "large metal" 1 3.4496
+	minables copper 21 8.01967
+	minables lead 35 8.66177
+	fleet "Zis Civillian Fleet" 700
+	fleet "Zis Mining Fleet" 500
+	fleet "Zis Heavy Patrol Fleet" 500
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/rock11
+		distance 152.01
+		period 33.9818
+	object
+		sprite planet/ice1
+		distance 576.01
+		period 250.659
+		object
+			sprite planet/dust7
+			distance 161
+			period 17.4597
+	object
+		sprite planet/rock2
+		distance 1001.1
+		period 574.321
+	object
+		sprite planet/gas1
+		distance 2446.94
+		period 2194.69
+		object
+			sprite planet/miranda
+			distance 243
+			period 15.14
+
+system EY-455322
+	pos -745.663 -4960.74
+	government ZIS
+	habitable 1215
+	belt 1250
+	link Saor
+	link EY-455324
+	asteroids "small rock" 12 8.025
+	asteroids "medium rock" 22 6.375
+	asteroids "large rock" 14 7.8
+	asteroids "small metal" 26 9.45
+	asteroids "medium metal" 7 4.2
+	asteroids "large metal" 10 9.75
+	minables iron 14 8.98332
+	minables tungsten 9 12.6303
+	fleet "Zis Civillian Fleet" 700
+	fleet "Zis Mining Fleet" 500
+	fleet "Zis Heavy Patrol Fleet" 500
+	object
+		sprite star/g0
+		distance 10.7778
+		period 10.963
+	object
+		sprite star/m8
+		distance 86.2222
+		period 10.963
+		offset 180
+	object
+		sprite planet/luna
+		distance 213.232
+		period 35.7315
+	object
+		sprite planet/neptune
+		distance 578.442
+		period 159.647
+		object
+			sprite planet/oberon
+			distance 212
+			period 15.3793
+	object
+		sprite planet/jupiter
+		distance 1471.69
+		period 647.884
+		object
+			sprite planet/rock3
+			distance 260
+			period 13.1741
+	object
+		sprite planet/gas15
+		distance 3130.18
+		period 2009.68
+		object
+			sprite planet/rock7
+			distance 194
+			period 14.2233
+		object
+			sprite planet/io
+			distance 333
+			period 31.9863
+
+system EY-455324
+	pos -728.663 -4893.74
+	government ZIS
+	habitable 625
+	belt 1212
+	link EY-455322
+	link "Zerax WS-2"
+	link EY-455300
+	trade Clothing 235
+	trade Electronics 600
+	trade Equipment 530
+	trade Food 350
+	trade "Heavy Metals" 920
+	trade Industrial 700
+	trade "Luxury Goods" 1000
+	trade Medical 760
+	trade Metal 200
+	trade Plastic 350
+	asteroids "small rock" 18 1.5246
+	asteroids "medium rock" 14 2.3364
+	asteroids "large rock" 10 2.4552
+	asteroids "small metal" 96 2.3562
+	asteroids "medium metal" 28 1.881
+	asteroids "large metal" 15 2.9502
+	minables aluminum 25 4.47251
+	minables silver 30 4.20664
+	minables titanium 27 2.51227
+	fleet "Zis Civillian Fleet" 700
+	fleet "Zis Mining Fleet" 500
+	fleet "Zis Heavy Patrol Fleet" 500
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/desert1
+		distance 211.96
+		period 49.3743
+	object
+		sprite planet/ocean5
+		distance 647.96
+		period 263.902
+		offset 170.419
+		object
+			sprite planet/europa
+			distance 162
+			period 24.9167
+		object "Zondra Station"
+			sprite planet/station1
+			distance 260
+			period 50.6615
+	object
+		sprite planet/desert7
+		distance 1276.38
+		period 729.608
+		offset 263.443
+	object
+		sprite planet/callisto
+		distance 1975.62
+		period 1405
+		offset 75.3999
+	object
+		sprite planet/gas11
+		distance 3490.51
+		period 3299.54
+		offset 16.006
+		object
+			sprite planet/rock0
+			distance 272
+			period 14.7955
 
 system Easterla
 	pos -670.346 -3954.07
@@ -25011,11 +25188,15 @@ system Saor
 	pos -683.833 -4960.49
 	habitable 320
 	link "Trochzempt ZAZ-1"
+	link EY-455322
 	asteroids "medium rock" 5 2.6208
 	asteroids "large rock" 1 4.4772
 	asteroids "small metal" 1 5.2416
 	asteroids "medium metal" 3 2.4024
 	asteroids "large metal" 1 3.5308
+	fleet "Zis Civillian Fleet" 500
+	fleet "Zis Heavy Patrol Fleet" 500
+	fleet "Zis Mining Fleet" 650
 	object
 		sprite star/m0
 		period 10
@@ -26573,12 +26754,24 @@ system "Trochzempt ZAZ-1"
 	link "Zerax WS-2"
 	link "Zoivol WS-1"
 	link Saor
+	trade Clothing 160
+	trade Electronics 890
+	trade Equipment 630
+	trade Food 100
+	trade "Heavy Metals" 1220
+	trade Industrial 850
+	trade "Luxury Goods" 1120
+	trade Medical 440
+	trade Metal 600
+	trade Plastic 480
 	asteroids "small metal" 1 3.6036
 	asteroids "medium metal" 1 2.5844
 	asteroids "large metal" 1 3.8584
 	fleet "Zis Heavy Patrol Fleet" 500
 	fleet "Zis Construction Fleet" 500
 	fleet point 600
+	fleet "Zis Civillian Fleet" 500
+	fleet "Zis Mining Fleet" 700
 	fleet ""
 	object "Trochzempt ZAZ-1"
 		sprite planet/trochzempt
@@ -28207,10 +28400,15 @@ system "Zerax WS-2"
 	habitable 806.68
 	link "Trochzempt ZAZ-1"
 	link "Zoivol WS-1"
+	link EY-455324
+	link EY-455300
 	asteroids "medium rock" 2 2.0064
 	asteroids "large rock" 2 3.2736
 	asteroids "medium metal" 12 2.6048
 	asteroids "large metal" 1 3.9424
+	fleet "Zis Civillian Fleet" 500
+	fleet "Zis Heavy Patrol Fleet" 500
+	fleet "Zis Mining Fleet" 650
 	object
 		sprite star/k0
 		distance 34.9085
@@ -28240,6 +28438,8 @@ system "Zoivol WS-1"
 	asteroids "small metal" 1 2.3562
 	asteroids "medium metal" 7 1.386
 	asteroids "large metal" 2 2.8116
+	fleet "Zis Civillian Fleet" 500
+	fleet "Zis Heavy Patrol Fleet" 500
 	object
 		sprite star/k5
 		period 10
@@ -29596,6 +29796,10 @@ planet "Trochzempt ZAZ-1"
 	spaceport `The spaceport is enormous, countless of ships fly in and out, the people here are human, cyborg, and robots.`
 	shipyard Modtest
 	outfitter Modtest
+	tribute 100000
+		threshold 20000
+		fleet "Zis Raid Fleet" 50
+		fleet "Zis Heavy Patrol Fleet" 80
 
 planet Verkarja
 	landscape land/lava7-sfiera
@@ -29649,4 +29853,10 @@ planet "Zoivol WS-1"
 	description `Zoivol is the oldest world ship since the Traveller world ship, at first this station was about to be disassembled since they can build newer better world ship by then but Zoivol was now back to service since they need their resource to build the new station 'Trochzempt'`
 	spaceport .
 	"required reputation" 1
+
+planet "Zondra Station"
+	attributes `miners storage`
+	description `Zondra station was built here for purpose of holding harvest from the miners and let the civillians transport them to Trochzempt, decreasing time miners have to jump back to Trochzempt their own.`
+	spaceport `There are plenty of high-quality service for civillian for a small station from cafe to hotel, making the miners more happy with their job as they don't need to travel back to Trochzempt to find a good service.`
+	security 0.8
 
