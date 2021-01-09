@@ -17,7 +17,8 @@ ship "Sao"
 		"outfit space" 2100
 		"weapon capacity" 1500
 		"engine capacity" 300
-		"hull repair" 50
+		"hull repair" 1
+		"spinal mount" 1
 		weapon
 			"blast radius" 250
 			"shield damage" 1000
@@ -35,11 +36,7 @@ ship "Sao"
 		"Hasus Launcher" 10
 		"Hasus Missile" 400
 		
-	gun -109 -392 "Hasus Launcher"
-	gun -89 -383 "Hasus Launcher"
-	gun -64 -369.5 "Hasus Launcher"
-	gun -4.5 -351.5 "Hasus Launcher"
-	gun 27 -346.5 "Hasus Launcher"
+	gun -109 -392 
 	engine -99.5 364.5
 	engine -26.5 380.5
 	engine 43 344.5
@@ -95,11 +92,14 @@ ship "Kolso"
 		"T1 Thruster"
 		"T1 Steering"
 		
-	engine 5.5 18.5
-	engine -7.5 20.5
-	gun 5 -13 "J1 MES Gun"
-	gun 13 -8 "J1 MES Gun"
-	gun -10 -12.5 "J1 MES Gun"
+	gun -11.5 -27.5
+	gun 11.5 -27.5
+	gun -17.5 -22.5
+	gun 17.5 -22.5
+	engine 0 11.5
+		zoom 1
+		angle 0
+		under
 	explode "tiny explosion" 20
 	explode "small explosion" 10
 	description "
@@ -130,9 +130,16 @@ ship "Matka"
 		"T1 Thruster"
 		"T1 Steering"
 		
-	gun -8 -7 "J1 MES Gun"
-	gun 7.5 -11 "J1 MES Gun"
-	engine -1 12.5
+	gun -2 -7.5
+	gun 2 -7.5
+	engine -4 17.5
+		zoom 1
+		angle 0
+		under
+	engine 4 17.5
+		zoom 1
+		angle 0
+		under
 	explode "tiny explosion" 10
 	explode "small explosion" 5
 	description "
@@ -165,35 +172,33 @@ ship "Koi"
 		"Jump Drive"
 		"Hasus Launcher" 2
 		"Hasus Missile" 80
-		"Donko Anti-Missile" 6
+		"Donko Anti-Missile" 5
 		"K4 Shield Generator"
 		"T4 Steering"
 		"T4 Thruster"
 		"R5 Cell"
 		"J4 KED Turret" 6
 
-	turret -48 -55.5 "J4 KED Turret"
-	turret -46.5 -38.5 "Donko Anti-Missile"
-	turret -47.5 -24 "J4 KED Turret"
-	turret -47.5 -8 "Donko Anti-Missile"
-	turret -47.5 6 "J4 KED Turret"
-	turret -48 23.5 "Donko Anti-Missile"
-	turret -47.5 41.5 "J4 KED Turret"
-	turret -48.5 56 "Donko Anti-Missile"
-	turret -47.5 69.5 "J4 KED Turret"
-	turret -48 86 "Donko Anti-Missile"
-	turret -47.5 102.5 "J4 KED Turret"
-	turret -48 117.5 "Donko Anti-Missile"
-	engine -24 157.5 
-	engine 23.5 157.5
-	gun -6.5 -150.5 "Hasus Launcher"
-	gun -35.5 -137.5 "Hasus Launcher"
-	fighter 50.5 -112.5 over
-	fighter 50 -72 over
-	fighter 50 -32 over
-	fighter 50.5 6 over
-	fighter 50.5 52.5 over
-	fighter 50 96.5 over
+	gun -56.5 -76
+	gun 56.5 -76
+	turret -44 84
+	turret 44 84
+	turret -27.5 63
+	turret 27.5 63
+	turret 0 70
+	engine -16.5 131
+		zoom 1
+		angle 0
+		under
+	engine 16.5 131
+		zoom 1
+		angle 0
+		under
+	fighter 0 -35
+	fighter 0 -35
+	fighter 0 -35
+	fighter 0 -35
+	fighter 0 -35
 	explode "tiny explosion" 15
 	explode "small explosion" 15
 	explode "medium explosion" 10
@@ -235,29 +240,29 @@ ship "Koi" "Koi (Drone)"
 		"R5 Cell"
 		"J4 KED Turret" 6
 
-	turret -48 -55.5 "J4 KED Turret"
-	turret -46.5 -38.5 "Donko Anti-Missile"
-	turret -47.5 -24 "J4 KED Turret"
-	turret -47.5 -8 "Donko Anti-Missile"
-	turret -47.5 6 "J4 KED Turret"
-	turret -48 23.5 "Donko Anti-Missile"
-	turret -47.5 41.5 "J4 KED Turret"
-	turret -48.5 56 "Donko Anti-Missile"
-	turret -47.5 69.5 "J4 KED Turret"
-	turret -48 86 "Donko Anti-Missile"
-	turret -47.5 102.5 "J4 KED Turret"
-	turret -48 117.5 "Donko Anti-Missile"
-	engine -24 157.5 
-	engine 23.5 157.5
-	gun -6.5 -150.5 "Hasus Launcher"
-	gun -35.5 -137.5 "Hasus Launcher"
-	drone 50.5 -112.5 over
-	drone 50 -72 over
-	drone 50 -32 over
-	drone 50.5 6 over
-	drone 50.5 52.5 over
-	drone 50 96.5 over
-	drone 50 137.5 over
+	gun -56.5 -76
+	gun 56.5 -76
+	turret -44 84
+	turret 44 84
+	turret -27.5 63
+	turret 27.5 63
+	turret 0 70
+	engine -16.5 131
+		zoom 1
+		angle 0
+		under
+	engine 16.5 131
+		zoom 1
+		angle 0
+		under
+	drone 0 -35
+	drone 0 -35
+	drone 0 -35
+	drone 0 -35
+	drone 0 -35
+	drone 0 -35
+	drone 0 -35
+	drone 0 -35
 	explode "tiny explosion" 15
 	explode "small explosion" 15
 	explode "medium explosion" 10
@@ -296,12 +301,27 @@ ship "Kanse"
 		"T2 Steering"
 		"Donko Hyperdrive"
 		
-	gun 18 -23
-	gun -17.5 -21.5
-	gun -24.5 -28.5
-	gun 25.5 -29
-	engine -16.5 38.5
-	engine 18 38.5
+	gun -26 -42
+	gun 26 -42
+	gun -26 -42
+	gun 26 -42
+	turret 0 31
+	engine -17 54
+		zoom 1
+		angle 0
+		under
+	engine 17 54
+		zoom 1
+		angle 0
+		under
+	"reverse engine" -29 10.5
+		zoom 1
+		angle 180
+		under
+	"reverse engine" 29 10.5
+		zoom 1
+		angle 180
+		under
 	explode "tiny explosion" 15
 	explode "small explosion" 5
 	description "Kanse are primarily used for reconnaissance and mining."
