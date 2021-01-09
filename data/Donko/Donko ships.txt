@@ -1,7 +1,7 @@
 
 ship "Sao"
 	sprite "ship/donko sao"
-	thumbnail "thumbnail/donko sao"
+	thumbnail "thumbnail/donko sao thumb"
 	attributes
 		category "Heavy Warship"
 		"cost" 49900000
@@ -40,23 +40,9 @@ ship "Sao"
 	gun -64 -369.5 "Hasus Launcher"
 	gun -4.5 -351.5 "Hasus Launcher"
 	gun 27 -346.5 "Hasus Launcher"
-	gun 57 -344.5 "Hasus Launcher"
-	gun 188 -167 "Hasus Launcher"
-	gun 202 -158 "Hasus Launcher"
-	gun -219.5 -35.5 "Hasus Launcher"
-	gun -239 -29.5 "Hasus Launcher"
 	engine -99.5 364.5
 	engine -26.5 380.5
 	engine 43 344.5
-	turret 133.5 10.5 "Donko Anti-Missile"
-	turret 133.5 60.5 "Donko Anti-Missile"
-	turret 134.5 105.5 "Donko Anti-Missile"
-	turret 134.5 148 "Donko Anti-Missile"
-	turret 196 -158 "Donko Anti-Missile"
-	turret 208.5 -107 "Donko Anti-Missile"
-	turret 201 -39.5 "Donko Anti-Missile"
-	turret -242 -19 "Donko Anti-Missile"
-	turret -242 13.5 "Donko Anti-Missile"
 	turret -238 69.5 "Donko Anti-Missile"
 	turret -245.5 365.5 "Donko Anti-Missile"
 	turret -246.5 418 "Donko Anti-Missile"
@@ -64,32 +50,12 @@ ship "Sao"
 	fighter -100.5 -149 left
 	fighter -100.5 -149 left
 	fighter -100.5 -149 left
-	fighter -100.5 -149 left
-	fighter -100.5 -149 left
-	fighter -179 263 left
-	fighter -179 263 left
-	fighter -179 263 left
-	fighter -179 263 left
-	fighter 63 232 right
-	fighter 63 232 right
-	fighter 63 232 right
-	fighter 63 232 right
-	fighter 63 232 right
-	fighter 63 232 right
 	drone 86 -219.5 right
 	drone 86 -219.5 right
 	drone 86 -219.5 right
 	drone 86 -219.5 right
 	drone 86 -219.5 right
 	drone 86 -219.5 right
-	drone 86 -219.5 right
-	drone 86 -219.5 right
-	turret -18 -263 "J6 KED Turret"
-	turret -18 -224 "J6 KED Turret"
-	turret -17 -169.5 "J6 KED Turret"
-	turret -78 -52 "J6 KED Turret"
-	turret -99.5 -16.5 "J6 KED Turret"
-	turret -99.5 22 "J6 KED Turret"
 	turret -99.5 63 "J6 KED Turret"
 	turret 22 -18 "J6 KED Turret"
 	turret 47 78 "J6 KED Turret"
@@ -103,7 +69,7 @@ ship "Sao"
 	
 ship "Kolso"
 	sprite "ship/donko kolso"
-	thumbnail "thumbnail/donko kolso"
+	thumbnail "thumbnail/donko kolso thumb"
 	attributes
 		category "Fighter"
 		"cost" 100000
@@ -140,7 +106,7 @@ ship "Kolso"
 	
 ship "Matka"
 	sprite "ship/donko matka"
-	thumbnail "thumbnail/donko matka"
+	thumbnail "thumbnail/donko matka thumb"
 	attributes
 		category "Drone"
 		"cost" 90000
@@ -173,7 +139,7 @@ ship "Matka"
 	
 ship "Koi" 
 	sprite "ship/donko koi" 
-	thumbnail "thumbnail/donko koi"
+	thumbnail "thumbnail/donko koi thumb"
 	attributes 
 		category "Medium Warship" 
 		"cost" 500000 
@@ -236,7 +202,7 @@ ship "Koi"
 	
 ship "Koi" "Koi (Drone)"
 	sprite "ship/donko koi" 
-	thumbnail "thumbnail/donko koi"
+	thumbnail "thumbnail/donko koi thumb"
 	attributes 
 		category "Medium Warship" 
 		"cost" 500000 
@@ -299,7 +265,7 @@ ship "Koi" "Koi (Drone)"
  	description "" 
 	
 ship "Kanse"
-	sprite "ship/donko kanse"
+	sprite "ship/donko kanse thumb"
 	thumbnail "thumbnail/donko kanse"
 	attributes
 		category "Interceptor"
@@ -312,7 +278,7 @@ ship "Kanse"
 		"drag" 1.0
 		"heat dissipation" .7
 		"fuel capacity" 400
-		"cargo space" 20
+		"cargo space" 25
 		"outfit space" 150
 		"weapon capacity" 60
 		"engine capacity" 50
@@ -338,10 +304,10 @@ ship "Kanse"
 	engine 18 38.5
 	explode "tiny explosion" 15
 	explode "small explosion" 5
-	description "."
+	description "Kanse are primarily used for reconnaissance and mining."
 	
 ship "Senka" 
-	sprite "ship/donko senka" 
+	sprite "ship/donko senka thumb" 
 	thumbnail "thumbnail/donko senka"
 	attributes 
 		category "Heavy Warship" 
@@ -385,23 +351,13 @@ ship "Senka"
 	turret 39.5 -7 "J4 MES Turret"
 	turret 39.5 37 "J4 MES Turret"
 	turret -22 -7 "J4 KED Turret"
-	turret -23 -46 "J4 KED Turret"
-	turret -23 -86.5 "J4 MES Turret"
-	turret -22 -138 "J4 MES Turret"
 	engine -38 193
 	engine 3 155.5
 	engine 46 174
-	turret 79 -86 "Donko Anti-Missile"
-	turret 80 -29 "Donko Anti-Missile"
-	turret 80 8 "Donko Anti-Missile"
-	turret 77 84 "Donko Anti-Missile"
-	turret -71 13.5 "Donko Anti-Missile"
 	turret -69 -46 "Donko Anti-Missile"
 	turret -67 -94.5 "Donko Anti-Missile"
-	turret -63 102 "Donko Anti-Missile"
-	turret -60.5 154 "Donko Anti-Missile"
 	explode "tiny explosion" 15
 	explode "small explosion" 15
 	explode "medium explosion" 10
 	explode "big explosion" 3
- 	description "" 
+ 	description "Before the development of Sao, this ship were the vanguard of Donko's force filling the role of multipurpose cruiser." 
