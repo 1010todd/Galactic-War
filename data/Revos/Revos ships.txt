@@ -1,7 +1,7 @@
 #
 
 ship "Homan"
-	sprite "ship/homan"
+	sprite "ship/revos homan"
 	attributes
 		category "Interceptor"
 		"cost" 59000000
@@ -49,7 +49,7 @@ ship "Homan"
 	explode "small explosion" 16
 	
 ship "Rova"
-	sprite "ship/rova"
+	sprite "ship/revos rova"
 	attributes
 		category "Interceptor"
 		"cost" 53000000
@@ -96,7 +96,7 @@ ship "Rova"
 	explode "small explosion" 16
 	
 ship "Mokla"
-	sprite "ship/mokla"
+	sprite "ship/revos mokla"
 	attributes
 		category "Light Warship"
 		"cost" 99000000
@@ -149,7 +149,7 @@ ship "Mokla"
 	explode "small explosion" 16
 	
 ship "Caosma" "Caosma transport"
-	sprite "ship/caosma-t"
+	sprite "ship/revos caosma-t"
 	attributes
 		category "Transport"
 		"cost" 95000000
@@ -197,7 +197,7 @@ ship "Caosma" "Caosma transport"
 	explode "small explosion" 20
 	
 ship "Caosma"
-	sprite "ship/caosma"
+	sprite "ship/revos caosma"
 	attributes
 		category "Light Freighter"
 		"cost" 95000000

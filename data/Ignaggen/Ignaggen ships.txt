@@ -1,6 +1,6 @@
-#Kager Military
+#Kager Ignaggen
 ship "I'nos"
-	sprite "ship/inos"
+	sprite "ship/ignaggen inos"
 	licenses
 #		"Kager Lergen"
 	attributes
@@ -58,7 +58,7 @@ ship "I'nos"
 	description "
 
 #ship "Girral"
-#	sprite "ship/girral"
+#	sprite "ship/ignaggen girral"
 #	licenses
 #		"Kager Lergen"
 #	attributes
@@ -100,7 +100,7 @@ ship "I'nos"
 #	description "
 
 ship "Loerlen"
-	sprite "ship/loerlen"
+	sprite "ship/ignaggen loerlen"
 	licenses
 #		"Kager Lergen"
 	attributes
@@ -155,7 +155,7 @@ ship "Loerlen"
 #Civillian
 	
 ship "Keorlen"
-	sprite "ship/keorlen"
+	sprite "ship/ignaggen keorlen"
 	attributes
 		category "Heavy Freighter"
 		"cost" 12000000
@@ -201,7 +201,7 @@ ship "Keorlen"
 	description "Ignaggen main freighter for transporting cargo."
 	
 ship "Kina"
-	sprite "ship/kina"
+	sprite "ship/ignaggen kina"
 	attributes
 		category "Light Freighter"
 		"cost" 290000
@@ -241,7 +241,7 @@ ship "Kina"
 	description "
 	
 ship "Gikeor"
-	sprite "ship/gikeor"
+	sprite "ship/ignaggen gikeor"
 	attributes
 		category "Interceptor"
 		"cost" 500000
@@ -282,7 +282,6 @@ ship "Gikeor"
 	description "
 	
 ship "Gikeor" "Offensive Gikeor"
-	sprite "ship/gikeor"
 	outfits
 		"Rakkrao Cannon" 2
 		

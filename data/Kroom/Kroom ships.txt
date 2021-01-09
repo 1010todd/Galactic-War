@@ -1,6 +1,6 @@
 #Kroom Kakaima
 ship "Grokva"
-	sprite "ship/grokva"
+	sprite "ship/kroom grokva"
 	attributes
 		category "Heavy Warship"
 		licenses
@@ -69,7 +69,7 @@ ship "Grokva"
 	description "
 
 ship "Giro"
-	sprite "ship/giro"
+	sprite "ship/kroom giro"
 	attributes
 		category "Fighter"
 		licenses
@@ -111,7 +111,7 @@ ship "Giro"
 	description "
 
 ship "Grakka"
-	sprite "ship/grakka"
+	sprite "ship/kroom grakka"
 	attributes
 		category "Medium Warship"
 		licenses
@@ -172,7 +172,7 @@ ship "Grakka"
 	description "
 	
 ship "Gikaar"
-	sprite "ship/gikaar"
+	sprite "ship/kroom gikaar"
 	attributes
 		category "Light Freighter"
 		"cost" 440000
@@ -217,7 +217,7 @@ ship "Gikaar"
 	description "
 	
 ship "Garokka"
-	sprite "ship/garokka"
+	sprite "ship/kroom garokka"
 	attributes
 		category "Light Warship"
 		"cost" 460000
@@ -264,7 +264,7 @@ ship "Garokka"
 #Kroom Kanai
 
 ship "Kargorko"
-	sprite "ship/kargorko"
+	sprite "ship/kroom kargorko"
 		"frame time" 5
 		"delay" 40
 		"random start frame"
@@ -314,7 +314,7 @@ ship "Kargorko"
 	description "
 	
 ship "Kaargor"
-	sprite "ship/kaargor"
+	sprite "ship/kroom kaargor"
 	attributes
 		category "Transport"
 		"cost" 340000
