@@ -29795,7 +29795,9 @@ planet "Trochzempt ZAZ-1"
 	description `	 The construction of the station was just recently started (about a century or two) but was already functional and inhabitated the construction as you see are extremely fast countless of building ships and drones fly around out side of the station welding sheets of metals together.`
 	spaceport `The spaceport is enormous, countless of ships fly in and out, the people here are human, cyborg, and robots.`
 	shipyard Modtest
+	shipyard plugin
 	outfitter Modtest
+	outfitter plugin
 	tribute 100000
 		threshold 20000
 		fleet "Zis Raid Fleet" 50
