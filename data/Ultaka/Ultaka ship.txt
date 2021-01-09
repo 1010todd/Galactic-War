@@ -716,6 +716,7 @@ ship "Ultaka Galactic Destroyer (Dummy)"
 		
 ship "Ultaka Reaper"
 	sprite "ship/ultaka reaper"
+	thumbnail "thumbnail/ultaka reaper"
 	attributes
 		category "Heavy Warship"
 		"cost" 400000000
@@ -754,57 +755,46 @@ ship "Ultaka Reaper"
 		"Ultaka IDS" 2
 		
 		
-	turret -18 -761 "M40G Turret"
-	turret 18.5 -759.5 "M40G Turret"
-	turret -18 -624.5 "M40G Turret"
-	turret 20 -626 "M40G Turret"
-	turret -19.5 -510.5 "M40G Turret"
-	turret 17 -512 "M40G Turret"
-	turret -22.5 -412.5 "M40G Turret"
-	turret 18.5 -414 "M40G Turret"
-	turret -22.5 -237 "M40G Turret"
-	turret 20 -234 "M40G Turret"
-	turret -24 432.5 "M40G Turret"
-	turret 21.5 432.5 "M40G Turret"
-	turret -18 622 "M40G Turret"
-	turret 18.5 622 "M40G Turret"
-	turret -21 752.5 "M40G Turret"
-	turret 21.5 752.5 "M40G Turret"
-	gun -36 -888.5 "Ultaka Vanquisher Cannon"
-	gun 33.5 -888.5 "Ultaka Vanquisher Cannon"
-	turret 207.5 -1 "M10G Gun"
-	turret -211.5 3.5 "M10G Gun"
-	turret 311 -2.5 "M10G Gun"
-	turret -312 3.5 "M10G Gun"
-	turret -385.5 -2.5 "M10G Gun"
-	turret 381.5 0.5 "M10G Gun"
-	engine 0 916
-	engine 78.5 890.5
-	engine -78.5 890.5
-	turret -75 -178.5 "U30-A anti missile"
-	turret 74 -178.5 "U30-A anti missile"
-	turret -163.5 -61.5 "U30-A anti missile"
-	turret 161 -60 "U30-A anti missile"
-	turret -175.5 116 "U30-A anti missile"
-	turret 173 117.5 "U30-A anti missile"
-	turret -147 161 "U30-A anti missile"
-	turret 146 159.5 "U30-A anti missile"
-	gun 395 -16.5 "E40R-D"
-	gun -394.5 -15 "E40R-D"
-	fighter 285.5 -531.5
-	fighter -288 -531.5
-	fighter 285.5 -531.5
-	fighter -288 -531.5
-	fighter 285.5 -531.5
-	fighter -288 -531.5
-	fighter 285.5 -531.5
-	fighter -288 -531.5
-	fighter 285.5 -531.5
-	fighter -288 -531.5
-	fighter 285.5 -531.5
-	fighter -288 -531.5
-	fighter 285.5 -531.5
-	fighter -288 -531.5
+	gun -84 -978.5
+	gun 84 -978.5
+	turret -1.5 -792
+	turret -1.5 -696
+	turret -1.5 -592
+	turret -196 -349.5
+	turret 196 -349.5
+	turret -201.5 -253.5
+	turret 201.5 -253.5
+	turret -126.5 205.5
+	turret 126.5 205.5
+	turret -126.5 632
+	turret 126.5 632
+	fighter -329.5 61.5 right
+	fighter 329.5 61.5 left
+	fighter -321.5 365.5 right
+	fighter 321.5 365.5 left
+	fighter -329.5 61.5 right
+	fighter 329.5 61.5 left
+	fighter -321.5 365.5 right
+	fighter 321.5 365.5 left
+	fighter -329.5 61.5 right
+	fighter 329.5 61.5 left
+	fighter -321.5 365.5 right
+	fighter 321.5 365.5 left
+	fighter -329.5 61.5 right
+	fighter 329.5 61.5 left
+	fighter -321.5 365.5 right
+	fighter 321.5 365.5 left
+	fighter -329.5 61.5 right
+	fighter 329.5 61.5 left
+	fighter -321.5 365.5 right
+	fighter 321.5 365.5 left
+	fighter -329.5 61.5 right
+	fighter 329.5 61.5 left
+	fighter -321.5 365.5 right
+	fighter 321.5 365.5 left
+		zoom 1
+		angle 0
+		under
 	explode "tiny explosion" 30
 	explode "small explosion" 24
 	explode "medium explosion" 40
