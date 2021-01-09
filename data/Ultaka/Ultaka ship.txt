@@ -792,7 +792,8 @@ ship "Ultaka Reaper"
 	fighter 329.5 61.5 left
 	fighter -321.5 365.5 right
 	fighter 321.5 365.5 left
-		zoom 1
+	engine -1.5 989.5
+		zoom 3
 		angle 0
 		under
 	explode "tiny explosion" 30
