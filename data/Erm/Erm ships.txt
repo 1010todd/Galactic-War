@@ -1,0 +1,489 @@
+ship "Roekler"
+	sprite "ship/roekler"
+	attributes
+		category "Heavy Warship"
+		"cost" 120000000
+		"shields" 2900000
+		"hull" 3200000
+		"hull repair rate" 200
+		"required crew" 22
+		"bunks" 324
+		"mass" 682
+		"drag" 18.1
+		"heat dissipation" .68
+		"fuel capacity" 600
+		"cargo space" 120
+		"outfit space" 1660
+		"weapon capacity" 1180
+		"engine capacity" 120
+		"ramscoop" 80
+		"MPS" -8
+		"swizzle" 0
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 1200
+	outfits
+		"Aranut Anti-Shield Energy Missile" 2
+		"Atmas Anti-Armour Energy Missile" 2
+		"Norden Dual Cannon Turret" 11
+		"Kaiza Anti-Fighter Turret" 6
+		"Erm Missile Prevention System" 8
+		
+		"Nurhid-2 Core"
+		"Estera Shield Generator"
+		"Erm cooling system"
+		"Erm Armoury and Ship defense system" 5
+		
+		"Harken Graviton Engines"
+		
+	turret 0 -248.5 "Norden Dual Cannon Turret"
+	turret 0 -190.5 "Norden Dual Cannon Turret"
+	turret 0 -83 "Norden Dual Cannon Turret"
+	turret 0 -23 "Norden Dual Cannon Turret"
+	turret 0 36.5 "Norden Dual Cannon Turret"
+	turret -110.5 73 "Norden Dual Cannon Turret"
+	turret 110.5 73 "Norden Dual Cannon Turret"
+	turret -110.5 133 "Norden Dual Cannon Turret"
+	turret 110.5 133 "Norden Dual Cannon Turret"
+	turret -110.5 193 "Norden Dual Cannon Turret"
+	turret 110.5 193 "Norden Dual Cannon Turret"
+	#small
+	turret -81 110 "Kaiza Anti-Fighter Turret"
+	turret 81 109.5 "Kaiza Anti-Fighter Turret"
+	turret -81 135.5 "Kaiza Anti-Fighter Turret"
+	turret 82 135 "Kaiza Anti-Fighter Turret"
+	turret -80.5 160 "Kaiza Anti-Fighter Turret"
+	turret 81 160 "Kaiza Anti-Fighter Turret"
+	gun -59.5 -113 "Aranut Anti-Shield Energy Missile"
+	gun 62 -112.5 "Aranut Anti-Shield Energy Missile"
+	gun -54 -304 "Atmas Anti-Armour Energy Missile"
+	gun 56 -304.5 "Atmas Anti-Armour Energy Missile"
+	#MPS
+	turret -28.5 -278 "Erm Missile Prevention System"
+	turret 28 -279 "Erm Missile Prevention System"
+	turret -28.5 -123 "Erm Missile Prevention System"
+	turret 28 -122.5 "Erm Missile Prevention System"
+	turret -28.5 186 "Erm Missile Prevention System"
+	turret 28.5 185 "Erm Missile Prevention System"
+	turret -29.5 263.5 "Erm Missile Prevention System"
+	turret 29.5 265 "Erm Missile Prevention System"
+	engine -80.5 296
+	engine -23 328
+	engine 23 327.5
+	engine 80.5 295
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 30
+	explode "large explosion" 45
+	explode "nuke explosion" 3
+	"final explode" "final explosion large"
+	description `The main battleship of the Erm war fleet designed to take the enemy fire while provoiding fire power, well balanced between offensive and defensive weapons make it a though target for their enemy.`
+	
+ship "Hidersan"
+	sprite "ship/hidersan"
+	attributes
+		category "Heavy Freighter"
+		"cost" 80020000
+		"shields" 680000
+		"hull" 720000
+		"required crew" 8
+		"bunks" 12
+		"mass" 364
+		"drag" 9.5
+		"heat dissipation" .69
+		"fuel capacity" 500
+		"cargo space" 1000
+		"outfit space" 680
+		"weapon capacity" 280
+		"engine capacity" 140
+		"MPS" -4
+		"ramscoop" 60
+		"swizzle" 0
+		weapon
+			"blast radius" 40
+			"shield damage" 400
+			"hull damage" 200
+			"hit force" 600
+	outfits
+		"Kaiza Anti-Fighter Turret" 4
+		"Norden Dual Cannon Turret"
+		"Erm Missile Prevention System" 4
+		"Aorken Paralyzer Energy Missile" 4
+		
+		"Nurhid-1 Core"
+		"Retoek Shield Generator" 4
+		"Erm cooling system"
+		"Erm Armoury and Ship defense system" 8
+		
+		"Harken Graviton Engines"
+		
+	turret 0 -190 "Norden Dual Cannon Turret"
+	turret -77 56 "Kaiza Anti-Fighter Turret"
+	turret 77.5 55.5 "Kaiza Anti-Fighter Turret"
+	turret -77.5 126 "Kaiza Anti-Fighter Turret"
+	turret 78 126 "Kaiza Anti-Fighter Turret"
+	gun -61.5 -218.5 "Aorken Paralyzer Energy Missile"
+	gun 62 -218 "Aorken Paralyzer Energy Missile"
+	gun -68 -131.5 "Aorken Paralyzer Energy Missile"
+	gun 68 -132.5 "Aorken Paralyzer Energy Missile"
+	turret -53.5 131 "Erm Missile Prevention System"
+	turret 50 130.5 "Erm Missile Prevention System"
+	turret -54 -185.5 "Erm Missile Prevention System"
+	turret 52.5 -186 "Erm Missile Prevention System"
+	engine -56 212
+	engine 54.5 211.5
+	engine -16 235.5
+	engine 16.5 235
+	explode "tiny explosion" 12
+	explode "small explosion" 16
+	explode "medium explosion" 15
+	explode "large explosion" 5
+	explode "nuke explosion" 2
+	"final explode" "final explosion large"
+	description "
+	
+ship "Hordanler"
+	sprite "ship/hordanler"
+	attributes
+		category "Medium Warship"
+		"cost" 86090000
+		"shields" 580000
+		"hull" 530000
+		"required crew" 18
+		"bunks" 34
+		"mass" 438
+		"drag" 7.2
+		"heat dissipation" .75
+		"fuel capacity" 600
+		"cargo space" 50
+		"outfit space" 1260
+		"weapon capacity" 980
+		"engine capacity" 140
+		"MPS" -4
+		"ramscoop" 60
+		"swizzle" 0
+		weapon
+			"blast radius" 40
+			"shield damage" 400
+			"hull damage" 200
+			"hit force" 600
+	outfits
+		"Kaiza Anti-Fighter Turret" 2
+		"Erm Missile Prevention System" 4
+		"Atarkor Shield Piercing Missile" 2
+		"Aranut Anti-Shield Energy Missile" 2
+		"Korlar Cannon Turret" 6
+		
+		"Korgel-1 Core" 2
+		"Retoek Shield Generator" 3
+		"Erm cooling system"
+		"Erm Armoury and Ship defense system" 2
+		
+		"Hordel Graviton Engines" 2
+		
+	turret 0 -92.5 "Kaiza Anti-Fighter Turret"
+	turret 0 -44 "Kaiza Anti-Fighter Turret"
+	engine -33.5 159
+	engine 32 159
+	engine 0.5 159
+	turret -73 -53 "Korlar Cannon Turret"
+	turret 72 -53 "Korlar Cannon Turret"
+	turret -72.5 4.5 "Korlar Cannon Turret"
+	turret 73 5 "Korlar Cannon Turret"
+	turret -73 63.5 "Korlar Cannon Turret"
+	turret 72 63 "Korlar Cannon Turret"
+	gun -65 -99.5 "Atarkor Shield Piercing Missile"
+	gun 65 -98 "Atarkor Shield Piercing Missile"
+	gun -48.5 -163 "Aranut Anti-Shield Energy Missile"
+	gun 49.5 -163 "Aranut Anti-Shield Energy Missile"
+	#MPS
+	turret -80 -23.5 "Erm Missile Prevention System"
+	turret 79.5 -24 "Erm Missile Prevention System"
+	turret -67 121 "Erm Missile Prevention System"
+	turret 62.5 122 "Erm Missile Prevention System"
+	engine -14 170.5
+	engine 14 170.5
+	explode "tiny explosion" 12
+	explode "small explosion" 16
+	explode "medium explosion" 15
+	explode "large explosion" 5
+	explode "nuke explosion" 1
+	"final explode" "final explosion medium"
+	description "A Longrange weapon platform made by Erm, they mostly stay behind stronger ships and attack from range with their deadly artillery and missiles."
+	
+ship "Hordanler" "Hordanler Anti-Fighter"
+	sprite "ship/hordanler"
+	outfits
+		"Kaiza Anti-Fighter Turret" 8
+		"Erm Missile Prevention System" 4
+		"Atarkor Shield Piercing Missile" 2
+		"Aranut Anti-Shield Energy Missile" 2
+		
+		"Korgel-1 Core" 2
+		"Retoek Shield Generator" 3
+		"Erm cooling system"
+		"Erm Armoury and Ship defense system" 2
+		
+		"Hordel Graviton Engines" 2
+		
+	turret 0 -92.5 "Kaiza Anti-Fighter Turret"
+	turret 0 -44 "Kaiza Anti-Fighter Turret"
+	engine -33.5 159
+	engine 32 159
+	engine 0.5 159
+	turret -73 -53 "Kaiza Anti-Fighter Turret"
+	turret 72 -53  "Kaiza Anti-Fighter Turret"
+	turret -72.5 4.5 "Kaiza Anti-Fighter Turret"
+	turret 73 5  "Kaiza Anti-Fighter Turret"
+	turret -73 63.5 "Kaiza Anti-Fighter Turret" 
+	turret 72 63 "Kaiza Anti-Fighter Turret"
+	gun -65 -99.5 "Atarkor Shield Piercing Missile"
+	gun 65 -98 "Atarkor Shield Piercing Missile"
+	gun -48.5 -163 "Aranut Anti-Shield Energy Missile"
+	gun 49.5 -163 "Aranut Anti-Shield Energy Missile"
+	#MPS
+	turret -80 -23.5 "Erm Missile Prevention System"
+	turret 79.5 -24 "Erm Missile Prevention System"
+	turret -67 121 "Erm Missile Prevention System"
+	turret 62.5 122 "Erm Missile Prevention System"
+	engine -14 170.5
+	engine 14 170.5
+	explode "tiny explosion" 12
+	explode "small explosion" 16
+	explode "medium explosion" 15
+	explode "large explosion" 5
+	explode "nuke explosion" 1
+	"final explode" "final explosion medium"
+	description "
+	
+ship "Ernar"
+	sprite "ship/ernar"
+	attributes
+		category "Light Warship"
+		"cost" 38090000
+		"shields" 250000
+		"hull" 280000
+		"required crew" 5
+		"bunks" 12
+		"mass" 238
+		"drag" 3.6
+		"heat dissipation" .88
+		"fuel capacity" 400
+		"cargo space" 20
+		"outfit space" 460
+		"weapon capacity" 220
+		"engine capacity" 70
+		"MPS" -2
+		"ramscoop" 40
+		"swizzle" 0
+		weapon
+			"blast radius" 40
+			"shield damage" 400
+			"hull damage" 200
+			"hit force" 600
+	outfits
+		"Kaiza Anti-Fighter Turret" 2
+		"Erm Missile Prevention System" 2
+		"Tordel Paralyzer Laser" 2
+		"Aranut Anti-Shield Energy Missile" 2
+		
+		"Korgel-1 Core"
+		"Retoek Shield Generator"
+		"Erm cooling system"
+		"Erm Armoury and Ship defense system"
+		
+		"Hordel Graviton Engines"
+		
+	gun -28 -16 "Tordel Paralyzer Laser"
+	gun -21 -23 "Aranut Anti-Shield Energy Missile"
+	gun 21 -23 "Aranut Anti-Shield Energy Missile"
+	gun 28 -16 "Tordel Paralyzer Laser"
+	turret 0 -28 "Kaiza Anti-Fighter Turret"
+	turret 0 51 "Kaiza Anti-Fighter Turret"
+	#MPS
+	turret -24.5 15.5 "Erm Missile Prevention System"
+	turret 25.5 15 "Erm Missile Prevention System"
+	engine -9 60
+	engine 9 60
+	explode "tiny explosion" 12
+	explode "small explosion" 16
+	"final explode" "final explosion small"
+	description "Ernar is a light warship built by Erm to mainly to support large ships by applying various of distruption on the enemy ship and take their shields down."
+	
+ship "Ernar" "Ernar Offensive"
+	sprite "ship/ernar"
+	outfits
+		"Kaiza Anti-Fighter Turret" 2
+		"Erm Missile Prevention System" 2
+		"Atmas Anti-Armour Energy Missile" 2
+		"Aranut Anti-Shield Energy Missile" 2
+		
+		"Korgel-1 Core"
+		"Retoek Shield Generator"
+		"Erm cooling system"
+		"Erm Armoury and Ship defense system"
+		
+		"Hordel Graviton Engines"
+		
+	gun -28 -16 "Atmas Anti-Armour Energy Missile"
+	gun -21 -23 "Aranut Anti-Shield Energy Missile"
+	gun 21 -23 "Aranut Anti-Shield Energy Missile"
+	gun 28 -16 "Atmas Anti-Armour Energy Missile"
+	turret 0 -28 "Kaiza Anti-Fighter Turret"
+	turret 0 51 "Kaiza Anti-Fighter Turret"
+	#MPS
+	turret -24.5 15.5 "Erm Missile Prevention System"
+	turret 25.5 15 "Erm Missile Prevention System"
+	explode "tiny explosion" 12
+	explode "small explosion" 16
+	"final explode" "final explosion small"
+	description "A more offensive variant of Erm Ernar."
+	
+ship "Ernar" "Ernar Offensive(S)"
+	sprite "ship/ernar"
+	outfits
+		"Kaiza Anti-Fighter Turret" 2
+		"Erm Missile Prevention System" 2
+		"Aranut Anti-Shield Energy Missile" 4
+		
+		"Korgel-1 Core"
+		"Retoek Shield Generator"
+		"Erm cooling system"
+		"Erm Armoury and Ship defense system"
+		
+		"Hordel Graviton Engines"
+		
+	gun -28 -16 "Aranut Anti-Shield Energy Missile"
+	gun -21 -23 "Aranut Anti-Shield Energy Missile"
+	gun 21 -23 "Aranut Anti-Shield Energy Missile"
+	gun 28 -16 "Aranut Anti-Shield Energy Missile"
+	turret 0 -28 "Kaiza Anti-Fighter Turret"
+	turret 0 51 "Kaiza Anti-Fighter Turret"
+	#MPS
+	turret -24.5 15.5 "Erm Missile Prevention System"
+	turret 25.5 15 "Erm Missile Prevention System"
+	explode "tiny explosion" 12
+	explode "small explosion" 16
+	"final explode" "final explosion small"
+	description "A more offensive variant of Erm Ernar, focused on taking down the enemy shields."
+	
+ship "Ernar" "Ernar Offensive(A)"
+	sprite "ship/ernar"
+	outfits
+		"Kaiza Anti-Fighter Turret" 2
+		"Erm Missile Prevention System" 2
+		"Atmas Anti-Armour Energy Missile" 4
+		
+		"Korgel-1 Core"
+		"Retoek Shield Generator"
+		"Erm cooling system"
+		"Erm Armoury and Ship defense system"
+		
+		"Hordel Graviton Engines"
+		
+	gun -28 -16 "Atmas Anti-Armour Energy Missile"
+	gun -21 -23 "Atmas Anti-Armour Energy Missile"
+	gun 21 -23 "Atmas Anti-Armour Energy Missile"
+	gun 28 -16 "Atmas Anti-Armour Energy Missile"
+	turret 0 -28 "Kaiza Anti-Fighter Turret"
+	turret 0 51 "Kaiza Anti-Fighter Turret"
+	#MPS
+	turret -24.5 15.5 "Erm Missile Prevention System"
+	turret 25.5 15 "Erm Missile Prevention System"
+	explode "tiny explosion" 12
+	explode "small explosion" 16
+	"final explode" "final explosion small"
+	description "A more offensive variant of Erm Ernar, focused on taking down the enemy armour."
+	
+ship "Eaken"
+	sprite "ship/eaken"
+	attributes
+		category "Interceptor"
+		"cost" 12090000
+		"shields" 120000
+		"hull" 180000
+		"required crew" 1
+		"bunks" 2
+		"mass" 96
+		"drag" 3.6
+		"heat dissipation" .88
+		"fuel capacity" 400
+		"cargo space" 5
+		"outfit space" 160
+		"weapon capacity" 70
+		"engine capacity" 30
+		"MPS" -1
+		"ramscoop" 10
+		"swizzle" 0
+		weapon
+			"blast radius" 40
+			"shield damage" 400
+			"hull damage" 200
+			"hit force" 600
+	outfits
+		"Zouron Machinegun" 4
+		"Erm Missile Prevention System"
+		
+		"Kizan-Korgel-1 Core"
+		"Retoek Shield Generator"
+		"Erm cooling system"
+		
+		"Kizan-Hordel Graviton Engines"
+		
+	gun -4 -39 "Zouron Machinegun"
+	gun 4 -39 "Zouron Machinegun"
+	turret 0 5.5
+	gun -13 10 "Zouron Machinegun"
+	gun 13 10 "Zouron Machinegun"
+	engine 0 39.5
+	explode "tiny explosion" 12
+	explode "small explosion" 16
+	"final explode" "final explosion small"
+	description "
+	
+ship "Eirae"
+	sprite "ship/eirae"
+	attributes
+		category "Light Freighter"
+		"cost" 10090000
+		"shields" 98000
+		"hull" 96000
+		"required crew" 1
+		"bunks" 3
+		"mass" 78
+		"drag" 3.6
+		"heat dissipation" .82
+		"fuel capacity" 400
+		"cargo space" 60
+		"outfit space" 165
+		"weapon capacity" 40
+		"engine capacity" 30
+		"MPS" -1
+		"ramscoop" 10
+		"swizzle" 0
+		weapon
+			"blast radius" 40
+			"shield damage" 400
+			"hull damage" 200
+			"hit force" 600
+	outfits
+		"Zouron Machinegun Turret" 2
+		"Erm Missile Prevention System"
+		
+		"Kizan-Korgel-1 Core"
+		"Retoek Shield Generator"
+		"Erm cooling system"
+		
+		"Kizan-Hordel Graviton Engines"
+		
+	turret -26 17.5 "Zouron Machinegun Turret"
+	turret 26 17.5 "Zouron Machinegun Turret"
+	turret 0 0 "Erm Missile Prevention System"
+	engine -20 39
+	engine 20 39
+	explode "tiny explosion" 12
+	explode "small explosion" 16
+	"final explode" "final explosion small"
+	description "

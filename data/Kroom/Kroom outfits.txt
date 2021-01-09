@@ -1,0 +1,391 @@
+
+outfit "Kroom Blaster"
+	category "Guns"
+	cost 38000
+	thumbnail "outfit/mod blaster"
+	"mass" 6
+	"outfit space" -6
+	"weapon capacity" -6
+	"gun ports" -1
+	weapon
+		sprite "projectile/kblaster"
+		sound "mod blaster"
+		"hit effect" "blaster impact"
+		"inaccuracy" 2.6
+		"velocity" 15
+		"lifetime" 25
+		"reload" 10
+		"firing energy" 12
+		"firing heat" 32
+		"shield damage" 10
+		"hull damage" 5
+	description "
+
+outfit "Kroom Blaster Turret"
+	category "Turrets"
+	cost 280000
+	thumbnail "outfit/quad blaster turret"
+	"mass" 30
+	"outfit space" -30
+	"weapon capacity" -30
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/kblaster"
+		sound "mod blaster"
+		"hit effect" "blaster impact"
+		"hardpoint sprite" "hardpoint/blaster turret"
+		"hardpoint offset" 9.
+		"inaccuracy" 3
+		"turret turn" 4
+		"velocity" 15
+		"lifetime" 25
+		"burst reload" 3
+		"burst count" 6
+		"reload" 5
+		#"cluster"
+		"firing energy" 12
+		"firing heat" 32
+		"shield damage" 10
+		"hull damage" 5
+	description "
+	
+outfit "Kroom Proton Blaster"
+	category "Guns"
+	cost 160000
+	thumbnail "outfit/proton gun"
+	"mass" 28
+	"outfit space" -28
+	"weapon capacity" -28
+	"gun ports" -1
+	weapon
+		sprite "projectile/kproton"
+		sound "proton"
+		"hit effect" "proton impact" 3
+		"inaccuracy" 3
+		"velocity" 20
+		"lifetime" 30
+		"reload" 6
+		"firing energy" 20
+		"firing force" 6
+		"firing heat" 68
+		"shield damage" 12
+		"hull damage" 9.6
+	description "
+	
+outfit "Kroom Anti-Missile Turret"
+	category "Turrets"
+	cost 57000
+	thumbnail "outfit/anti-missile"
+	"mass" 13
+	"outfit space" -13
+	"weapon capacity" -13
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		"hardpoint sprite" "hardpoint/anti-missile"
+		"hardpoint offset" 4.
+		"hit effect" "small anti-missile"
+		"anti-missile" 3
+		"turret turn" 10
+		"velocity" 150
+		"lifetime" 1
+		"reload" 7
+		"firing energy" 4.6
+		"firing heat" 3.8
+	description "
+	
+outfit "Krogak Missile"
+	category "Ammunition"
+	cost 500
+	thumbnail "outfit/meteor"
+	"mass" .2
+	"krogak capacity" -1
+	description "A Krogak Missile serves as ammunition for the Krogak Missile Launcher. Each missile launcher has the capacity for 35 missiles; you cannot install missiles if you have not first purchased a launcher to store them in."
+
+outfit "Krogak Missile Box"
+	plural "Krogak Missile Boxes"
+	category "Ammunition"
+	cost 9000
+	thumbnail "outfit/meteor storage"
+	"mass" 1.4
+	"outfit space" -5
+	"krogak capacity" 18
+	ammo "Krogak Missile"
+	description "The Krogak Missile Box is used to store extra ammunition for Krogak Missile Launchers."
+
+outfit "Krogak Missile Launcher"
+	category "Secondary Weapons"
+	cost 17000
+	thumbnail "outfit/meteor launcher"
+	"mass" 3
+	"outfit space" -10
+	"weapon capacity" -10
+	"gun ports" -1
+	"krogak capacity" 35
+	weapon
+		sprite "projectile/meteor"
+			"no repeat"
+			"frame rate" .25
+		sound "meteor"
+		ammo "Krogak Missile"
+		icon "icon/meteor"
+		"fire effect" "meteor fire"
+		"die effect" "missile death"
+		"hit effect" "medium explosion"
+		"inaccuracy" 10
+		"velocity" 10
+		"lifetime" 540
+		"reload" 48
+		"firing energy" 1
+		"firing heat" 20
+		"acceleration" 1
+		"drag" .1
+		"turn" 2
+		"homing" 2
+		"infrared tracking" .5
+		"radar tracking" .5
+		"shield damage" 100
+		"hull damage" 70
+		"hit force" 30
+		"missile strength" 6
+	description "
+	
+outfit "Karar Missile Single"
+	category "Secondary Weapons"
+	cost 900
+	thumbnail "outfit/meteor launcher"
+	"mass" .2
+	"outfit space" -1
+	"weapon capacity" -1
+	"gun ports" -1
+	weapon
+		sprite "projectile/meteor"
+			"no repeat"
+			"frame rate" .25
+		sound "meteor"
+		ammo "Karar Missile Single"
+		icon "icon/meteor"
+		"fire effect" "meteor fire"
+		"die effect" "missile death"
+		"hit effect" "medium explosion"
+		"inaccuracy" 12
+		"velocity" 8
+		"lifetime" 540
+		"reload" 48
+		"firing energy" 1
+		"firing heat" 20
+		"acceleration" 1
+		"drag" .1
+		"turn" 2
+		"homing" 2
+		"infrared tracking" .5
+		"radar tracking" .5
+		"shield damage" 200
+		"hull damage" 120
+		"hit force" 30
+		"missile strength" 8
+		"stream"
+	
+outfit "M-5 Battery Pack"
+	category "Power"
+	cost 12000
+	thumbnail "outfit/tiny battery"
+	"mass" 10
+	"outfit space" -10
+	"energy capacity" 1000
+	description "
+	
+outfit "M-6 Battery Pack"
+	category "Power"
+	cost 26000
+	thumbnail "outfit/small battery"
+	"mass" 18
+	"outfit space" -18
+	"energy capacity" 1950
+	description "
+	
+outfit "M-11 Battery Pack"
+	category "Power"
+	cost 100000
+	thumbnail "outfit/medium battery"
+	"mass" 45
+	"outfit space" -45
+	"energy capacity" 4900
+	description "
+	
+outfit "M-12 Battery Pack"
+	category "Power"
+	cost 145000
+	thumbnail "outfit/large battery"
+	"mass" 80
+	"outfit space" -80
+	"energy capacity" 10000
+	description "
+	
+outfit "M-6 Photovoltaic Panel"
+	category "Power"
+	cost 10000
+	thumbnail "outfit/tiny photovoltaic"
+	"mass" 3
+	"outfit space" -3
+	"solar collection" .1
+	description "
+	
+outfit "M-4 Fuel Cell"
+	category "Power"
+	cost 38000
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 20
+	"outfit space" -20
+	"energy generation" 2
+	"heat generation" 1.8
+	description "
+	
+outfit "M-5 Fission Reactor"
+	category "Power"
+	cost 1800000
+	thumbnail "outfit/fission"
+	"mass" 60
+	"outfit space" -60
+	"energy generation" 10.4
+	"heat generation" 24
+	description "
+	
+outfit "Keno Shield Generator"
+	category "Systems"
+	cost 18000
+	thumbnail "outfit/tiny shield"
+	"mass" 13
+	"outfit space" -13
+	"shield generation" .18
+	"shield energy" .19
+	description "
+	
+outfit "Kosak Shield Generator"
+	category "Systems"
+	cost 26000
+	thumbnail "outfit/small shield"
+	"mass" 21
+	"outfit space" -21
+	"shield generation" .24
+	"shield energy" .28
+	description "
+	
+outfit "Koka Shield Generator"
+	category "Systems"
+	cost 32000
+	thumbnail "outfit/medium shield"
+	"mass" 36
+	"outfit space" -36
+	"shield generation" .52
+	"shield energy" .6
+	description "
+	
+outfit "Kona Shield Generator"
+	category "Systems"
+	cost 100000
+	thumbnail "outfit/large shield"
+	"mass" 45
+	"outfit space" -45
+	"shield generation" .78
+	"shield energy" .8
+	description "
+	
+outfit "Karmo Thruster"
+	category "Engines"
+	"cost" 22000
+	thumbnail "outfit/tiny plasma thruster"
+	"mass" 18
+	"outfit space" -18
+	"engine capacity" -18
+	"thrust" 9
+	"thrusting energy" .9
+	"thrusting heat" 1.1
+	"flare sprite" "effect/plasma flare/tiny"
+		"frame rate" 5
+	"flare sound" "plasma tiny"
+	description "
+	
+outfit "Karmar Thruster"
+	category "Engines"
+	"cost" 43000
+	thumbnail "outfit/small plasma thruster"
+	"mass" 35
+	"outfit space" -35
+	"engine capacity" -35
+	"thrust" 18
+	"thrusting energy" 1.8
+	"thrusting heat" 3.6
+	"flare sprite" "effect/plasma flare/small"
+		"frame rate" 6
+	"flare sound" "plasma small"
+	description "
+	
+outfit "Kompar Thruster"
+	category "Engines"
+	"cost" 134000
+	thumbnail "outfit/large plasma thruster"
+	"mass" 80
+	"outfit space" -80
+	"engine capacity" -80
+	"thrust" 46
+	"thrusting energy" 4
+	"thrusting heat" 8
+	"flare sprite" "effect/plasma flare/large"
+		"frame rate" 0.9
+	"flare sound" "plasma large"
+	description "
+	
+outfit "Karmo Steering"
+	category "Engines"
+	"cost" 18000
+	thumbnail "outfit/tiny plasma steering"
+	"mass" 12
+	"outfit space" -12
+	"engine capacity" -12
+	"turn" 238
+	"turning energy" .4
+	"turning heat" .96
+	description "
+	
+outfit "Karmar Steering"
+	category "Engines"
+	"cost" 36000
+	thumbnail "outfit/small plasma steering"
+	"mass" 22
+	"outfit space" -22
+	"engine capacity" -22
+	"turn" 484
+	"turning energy" 0.9
+	"turning heat" 2.3
+	description "
+	
+outfit "Kompar Steering"
+	category "Engines"
+	"cost" 179000
+	thumbnail "outfit/large plasma steering"
+	"mass" 75
+	"outfit space" -75
+	"engine capacity" -75
+	"turn" 2000
+	"turning energy" 3.4
+	"turning heat" 7.8
+	description "
+	
+outfit "Gorka Homai"
+	category "Hand to Hand"
+	cost 4000
+	thumbnail "outfit/gorka"
+	"capture attack" .7
+	"capture defense" .7
+	"unplunderable" 1
+	description "Groka Homai is a gun designed to be small, cheap, compact, and light gun for the Kroom Kanai, this gun uses 8.3*2.3mm rounds each magazine can hold 28 rounds, the magazine have a small hook that can easily attach to a belt, the magazine case is made of something very similar to plastic to be diposable"
+	
+outfit "Hok O-Homai"
+	category "Hand to Hand"
+	cost 7300
+	thumbnail "outfit/hok"
+	"capture attack" 1.1
+	"capture defense" 1.1
+	"unplunderable" 1

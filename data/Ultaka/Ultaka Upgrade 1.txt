@@ -1,0 +1,15 @@
+
+event "Ultaka upgrade 1"
+	fleet "Recon Ultaka"
+	government "Ultaka"
+	names "Ultaka Small"
+	cargo 1
+	personality
+		plunders timid
+	variant 8
+		"Ultaka Hunter"
+	variant 4
+		"Ultaka Hunter" 3
+	variant 2
+		"Dominator UP1"
+		"Ultaka Hunter"

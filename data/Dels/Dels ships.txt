@@ -1,0 +1,604 @@
+#
+
+ship "MF-10B Dee"
+	sprite "ship/dea"
+	attributes
+		category "Drone"
+		"cost" 32500
+		"hull" 500
+		"shields" 200
+		"mass" 15
+		"drag" 1
+		"heat dissipation" .9
+		"outfit space" 5
+		"weapon capacity" 5
+		
+		"energy generation" .7
+		"energy capacity" 100
+		"turn" 40
+		"turning energy" .2
+		"thrust" 11
+		"thrusting energy" .3
+	outfits
+		"A1A Anti-Missile"
+	
+	engine 0 51
+	turret 0 0 "A1A Anti-Missile"
+	description "Dels Anti-Missile drone designed to guard their ships from hostile missile, widely used by the Pra Nudelgasec(United Navy).(Even they're very inefficient)"
+	
+ship "MF-10A Dea"
+	sprite "ship/dea"
+	attributes
+		category "Drone"
+		"cost" 32500
+		"hull" 500
+		"shields" 200
+		"mass" 15
+		"drag" 1
+		"heat dissipation" .9
+		"outfit space" 5
+		"weapon capacity" 5
+		
+		"energy generation" 1
+		"energy capacity" 100
+		"turn" 40
+		"turning energy" .2
+		"thrust" 11
+		"thrusting energy" .3
+	outfits
+		"AA1 Turret"
+	
+	engine 0 51
+	turret 0 0 "AA1 Turret"
+	description "Dels attack drone designed to swarm the enemy."
+	
+ship "TR-60A Darca"
+	sprite "ship/darca"
+	licenses
+		"Dels Military"
+		"Dels Carrier"
+	attributes
+		category "Heavy Warship"
+		"cost" 9000000
+		"hull" 6500
+		"shields" 8500
+		"mass" 550
+		"required crew" 20
+		"bunks" 60
+		"drag" 20
+		"heat dissipation" .4
+		"outfit space" 850
+		"weapon capacity" 250
+		"engine capacity" 180
+		"energy capacity" 200
+		"fuel capacity" 600
+		"cargo space" 60
+		weapon
+			"blast radius" 160
+			"shield damage" 1600
+			"hull damage" 800
+			"hit force" 2400
+	outfits
+		"Type-F Hyperdrive"
+		"A1H Anti-Missile" 5
+		"HA1 Turret" 4
+		"Maon Ion Engine"
+		"Liquid Nitrogen Cooler"
+		"SR20 Sheild Generator"
+		"Deela Fusion Reactor"
+		"Sea Battery Pack"
+		
+	turret -47.5 -255.5
+	turret 46 -256
+	turret -45.5 -217
+	turret 45.5 -217
+	turret -64.5 13.5
+	turret 63.5 14.5
+	turret -1 132
+	turret -63 238
+	turret 61.5 239
+	engine -35 219.5
+	engine 37.5 219
+	drone 60 -123.5 left
+	drone 63.5 -96 left
+	drone 69.5 -68.5 left
+	drone 58.5 51 left
+	drone 57 79.5 left
+	drone 63.5 111.5 left
+	drone 60 -123.5 left 
+	drone 63.5 -96 left
+	drone 69.5 -68.5 left
+	drone 58.5 51 left
+	drone 57 79.5 left
+	drone 63.5 111.5 left
+	drone -60 -123.5 right
+	drone -63.5 -96 right
+	drone -69.5 -68.5 right
+	drone -58.5 51 right
+	drone -57 79.5 right
+	drone -63.5 111.5 right
+	drone -60 -123.5 right
+	drone -63.5 -96 right
+	drone -69.5 -68.5 right
+	drone -58.5 51 right
+	drone -57 79.5 right
+	drone -63.5 111.5 right
+	explode "tiny explosion" 18
+	explode "small explosion" 36
+	explode "medium explosion" 17
+	explode "big explosion" 20
+	description "This carrier was designed to carry and deploy as much as possible drones to swarm their enemy."
+	
+ship "SD-90P Decso"
+	sprite "ship/decso"
+	licenses
+		"Dels Military"
+	attributes
+		category "Heavy Warship"
+		"cost" 10800000
+		"shields" 10800
+		"hull" 5600
+		"required crew" 25
+		"bunks" 65
+		"mass" 590
+		"drag" 8
+		"heat dissipation" .6
+		"fuel capacity" 600
+		"cargo space" 110
+		"outfit space" 860
+		"weapon capacity" 560
+		"engine capacity" 200
+		weapon
+			"blast radius" 160
+			"shield damage" 1600
+			"hull damage" 800
+			"hit force" 2400
+	outfits
+		"Type-F Hyperdrive"
+		"A1H Anti-Missile" 6
+		"HA1 Turret" 4
+		"SK4 Launcher" 4
+		"SK4 Missile"120
+		"Maon Ion Engine"
+		"Liquid Nitrogen Cooler"
+		"SR20 Sheild Generator"
+		"Dalsa Fusion Reactor"
+		"Sea Battery Pack"
+	
+	turret -30 -163.5 "A1H Anti-Missile"
+	turret 28.5 -163.5 "A1H Anti-Missile"
+	turret -29.5 -141 "A1H Anti-Missile"
+	turret 29 -141.5 "A1H Anti-Missile"
+	turret -40 145.5 "A1H Anti-Missile"
+	turret 36.5 145 "A1H Anti-Missile"
+	gun -49.5 -185.5
+	gun -25.5 -204.5
+	gun 25.5 -203.5
+	gun 51 -183.5
+	turret 0 -135.5 "HA1 Turret"
+	turret 0 -109 "HA1 Turret"
+	turret 0 -70 "HA1 Turret"
+	turret -0.5 119 "HA1 Turret"
+	engine 36 196
+	engine -45.5 196
+	explode "tiny explosion" 18
+	explode "small explosion" 36
+	explode "medium explosion" 24
+	explode "big explosion" 20
+	description "One of the very last Dels heavy warship design that was still in service mainly to deal with pirates or sometimes provoiding firepower while other smaller faster ships keep the enemy busy."
+	
+ship "TS-60P Sendo"
+	sprite "ship/sendo"
+	attributes
+		category "Transport"
+		"cost" 200000
+		"shields" 600
+		"hull" 400
+		"required crew" 1
+		"bunks" 10
+		"mass" 80
+		"drag" 1.5
+		"heat dissipation" .8
+		"fuel capacity" 300
+		"cargo space" 25
+		"outfit space" 130
+		"weapon capacity" 40
+		"engine capacity" 50
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"C10 Fuel Cell"
+		"Cannal Battery Pack"
+		"SR10 Sheild Generator"
+		
+		"Hao Ion Engine"
+		"Hyperdrive"
+		"BA2 Blaster" 2
+		
+	gun -7 -15
+	gun 7 -15
+	engine 0 29.5
+	explode "tiny explosion" 10
+	explode "small explosion" 5
+	description "The smallest Dels transport serve as a transport shuttle for the Dels."
+	
+ship "LF-40C Desen"
+	sprite "ship/desen"
+	attributes
+		category "Light Freighter"
+		"cost" 230000
+		"shields" 800
+		"hull" 400
+		"required crew" 1
+		"bunks" 3
+		"mass" 80
+		"drag" 1.9
+		"heat dissipation" .8
+		"fuel capacity" 300
+		"cargo space" 60
+		"outfit space" 130
+		"weapon capacity" 40
+		"engine capacity" 50
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"C10 Fuel Cell"
+		"Cannal Battery Pack"
+		"SR10 Sheild Generator"
+		
+		"Hao Ion Engine"
+		"Hyperdrive"
+		"A1A Anti-Missile"
+		"AA1 Turret"
+		
+	turret -8.5 -0.5 "A1A Anti-Missile"
+	turret 8.5 -0.5 "AA1 Turret"
+	engine -5 25 
+	engine 5 25
+	explode "tiny explosion" 10
+	explode "small explosion" 5
+	description "A small freighter used by Dels."
+	
+ship "IC40E Desin"
+	sprite "ship/desin"
+	attributes
+		category "Interceptor"
+		"cost" 255000
+		"shields" 800
+		"hull" 300
+		"required crew" 1
+		"bunks" 2
+		"mass" 45
+		"drag" 1.0
+		"heat dissipation" .9
+		"fuel capacity" 300
+		"cargo space" 5
+		"outfit space" 200
+		"weapon capacity" 40
+		"engine capacity" 50
+		weapon
+			"blast radius" 16
+			"shield damage" 160
+			"hull damage" 80
+			"hit force" 240
+	outfits
+		"C20 Fuel Cell"
+		"River Battery Pack"
+		"SR10 Sheild Generator"
+		
+		"Hao Ion Engine"
+		"Hyperdrive"
+		"BA2 Blaster" 4
+		
+	gun -11 -20
+	gun 11 -20
+	gun -5 -31
+	gun 5 -31
+	engine -7.5 36
+	engine 7 36
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description "The smallest dels ship designed for combat."
+	
+ship "IC50A Derso"
+	sprite "ship/derso"
+	attributes
+		category "Interceptor"
+		"cost" 285000
+		"shields" 1100
+		"hull" 400
+		"required crew" 1
+		"bunks" 3
+		"mass" 59
+		"drag" 1.0
+		"heat dissipation" .7
+		"fuel capacity" 600
+		"cargo space" 20
+		"outfit space" 230
+		"weapon capacity" 75
+		"engine capacity" 74
+		"energy generation" 10
+		weapon
+			"blast radius" 16
+			"shield damage" 160
+			"hull damage" 80
+			"hit force" 240
+	outfits
+		"C20 Fuel Cell"
+		"River Battery Pack"
+		"SR20 Sheild Generator"
+		
+		"Hao Ion Engine"
+		"Type-F Hyperdrive"
+		"BA3 Blaster" 4
+		"Chaser Afterburner"
+		"DT1 Launcher"
+		"DT1 Missile" 40
+		
+	gun -5 -27 "BA3 Blaster"
+	gun 7 -28.5 "BA3 Blaster"
+	gun 22 17 "BA3 Blaster"
+	gun -19.5 16.5 "BA3 Blaster"
+	engine -5 25.5
+	engine 9 26.5 
+	gun 1 9 "DT1 Launcher"
+	explode "tiny explosion" 20
+	explode "small explosion" 10
+	description "A little bit bigger than Desin and stronger, Derso is the most common interceptor in the dels space having a decent firepower and a missile launcher it can be a treat even to big ships in number."
+	
+ship "LW10D Secsen"
+	sprite "ship/secsen"
+	attributes
+		category "Light Warship"
+		"cost" 1500000
+		"shields" 2500
+		"hull" 550
+		"required crew" 2
+		"bunks" 4
+		"mass" 95
+		"drag" 2.0
+		"heat dissipation" .8
+		"fuel capacity" 500
+		"cargo space" 5
+		"outfit space" 345
+		"weapon capacity" 130
+		"engine capacity" 105
+		weapon
+			"blast radius" 45
+			"shield damage" 450
+			"hull damage" 225
+			"hit force" 650
+	outfits
+		"Sae Ion Engine"
+		"Chaser Afterburner"
+		"SR30 Sheild Generator"
+		"C30 Fuel Cell"
+		"River Battery Pack"
+		"PG10 Gun" 2
+		"A1H Anti-Missile"
+		"Dels Sokak Cannon Turret"
+		"Sokak Slug" 40
+		Hyperdrive
+		
+	gun -8.5 -11 "PG10 Gun"
+	gun 13.5 -11 "PG10 Gun"
+	engine -11.5 13.5
+	engine 13 13
+	turret 1 7.5 "Dels Sokak Cannon Turret"
+	turret 1 20 "A1H Anti-Missile"
+	explode "tiny explosion" 20
+	explode "small explosion" 16
+	description "One of the most common patrol ship used by the Pra Nudelgasec(Dels space navy)"
+	
+ship "CV50B Dacar"
+	sprite "ship/dacar"
+	attributes
+		category "Heavy Warship"
+		"cost" 11200000
+		"shields" 26000
+		"hull" 8000
+		"required crew" 85
+		"bunks" 185
+		"mass" 740
+		"drag" 12.7
+		"heat dissipation" .3
+		"fuel capacity" 800
+		"cargo space" 150
+		"outfit space" 1020
+		"weapon capacity" 600
+		"engine capacity" 198
+		"sokak capacity" 400
+		weapon
+			"blast radius" 300
+			"shield damage" 3000
+			"hull damage" 1500
+			"hit force" 4500
+	outfits
+		"SK4 Launcher" 4
+		"SK4 Missile" 120
+		"Dels Sokak Cannon Turret" 3
+		"Sokak Slug" 1520
+		"A1H Anti-Missile" 5
+		"HA1 Turret" 4
+		
+		"Dalsa Fusion Reactor"
+		"Gulf Battery Pack"
+		"SR30 Sheild Generator"
+		"Water Coolant System"
+		
+		"Maon Ion Engine"
+		"Chaser Afterburner"
+		"Type-F Hyperdrive"
+		
+	gun -60.5 -157 "SK4 Launcher"
+	gun -28 -166.5 "SK4 Launcher"
+	gun -4 -114.5 "SK4 Launcher"
+	gun 23 -111.5 "SK4 Launcher"
+	drone 31 -164.5 under left
+	drone 52.5 -139 under left
+	drone 59 -107 under left
+	drone 60.5 -17.5 under left
+	drone 60.5 24.5 under left
+	drone 61.5 76.5 under left
+	turret -47.5 -122.5 "HA1 Turret"
+	turret -48.5 -53.5 "HA1 Turret"
+	turret -36.5 -155.5 "Dels Sokak Cannon Turret"
+	turret -36 -136 "A1H Anti-Missile"
+	turret 35 -40.5 "Dels Sokak Cannon Turret"
+	turret 23.5 -30 "A1H Anti-Missile"
+	turret 35 -17.5 "Dels Sokak Cannon Turret"
+	turret 21.5 -6.5 "A1H Anti-Missile"
+	turret -35.5 0 "HA1 Turret"
+	turret -35.5 21.5 "A1H Anti-Missile"
+	turret -36 43.5 "HA1 Turret"
+	turret -14.5 133.5 "A1H Anti-Missile"
+	engine -34.5 172
+	engine -9 171.5
+	engine -19 172
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "big explosion" 40
+	explode "huge explosion" 10
+	description "One of the very few heavy warship design left since the Ultaka invasion, originally desinged to be a independent heavy freighter but due that it was heavily armed made it classified in to heavy warship."
+	
+ship "LW20H Senro"
+	sprite "ship/senro"
+	attributes
+		category "Light Warship"
+		"cost" 2250000
+		"shields" 5700
+		"hull" 1100
+		"required crew" 7
+		"bunks" 14
+		"mass" 145
+		"drag" 3.7
+		"heat dissipation" .8
+		"fuel capacity" 500
+		"cargo space" 20
+		"outfit space" 390
+		"weapon capacity" 135
+		"engine capacity" 110
+		weapon
+			"blast radius" 65
+			"shield damage" 650
+			"hull damage" 350
+			"hit force" 1000
+	outfits
+		"PG10 Gun" 2
+		"A1A Anti-Missile" 2
+		"DT1 Launcher" 2
+		"DT1 Missile" 80
+		"SR20 Sheild Generator"
+		"C30 Fuel Cell"
+		"Sea Battery Pack"
+		"Liquid Nitrogen Cooler"
+		"Chaser Afterburner"
+		"Sae Ion Engine"
+		Hyperdrive
+
+	gun -12 -25.5 "PG10 Gun"
+	gun 12 -25.5 "PG10 Gun"
+	gun -43.5 7 "TC0B Laser"
+	gun 45 7.5 "TC0B Laser"
+	turret 0 -5 "A1A Anti-Missile"
+	turret 0 7 "A1A Anti-Missile"
+	engine -6.5 33
+	engine 6 33.5
+	explode "medium explosion" 24
+	explode "big explosion" 16
+	explode "tiny explosion" 28
+	explode "small explosion" 40
+	description "A light warship maily used by Pra Nudelgasec(Dels space navy)"
+	
+ship "LF-60C Donson"
+	sprite "ship/donson"
+	attributes
+		category "Light Freighter"
+		"cost" 430000
+		"shields" 950
+		"hull" 650
+		"required crew" 2
+		"bunks" 6
+		"mass" 100
+		"drag" 1.7
+		"heat dissipation" .8
+		"fuel capacity" 400
+		"cargo space" 80
+		"outfit space" 230
+		"weapon capacity" 90
+		"engine capacity" 60
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"C20 Fuel Cell"
+		"Cannal Battery Pack"
+		"SR20 Sheild Generator"
+		
+		"Hao Ion Engine"
+		"Hyperdrive"
+		"A1A Anti-Missile" 2
+		"AA1 Turret" 2
+		
+	turret 0 -23 "A1A Anti-Missile"
+	turret 0 -11 "AA1 Turret"
+	engine -8.5 33.5
+	engine 9 34.5
+	turret 0 5.5 "AA1 Turret"
+	turret 0 12.5 "A1A Anti-Missile"
+	explode "tiny explosion" 10
+	explode "small explosion" 5
+	description "Small and the most common freighter used by Dels with a decent cargo capacity and defense."
+	
+ship "LW80S Deeris"
+	sprite "ship/deeris"
+	attributes
+		category "Light Warship"
+		"cost" 2800000
+		"shields" 1950
+		"hull" 880
+		"required crew" 2
+		"bunks" 8
+		"mass" 100
+		"drag" 1.2
+		"heat dissipation" .8
+		"fuel capacity" 600
+		"cargo space" 20
+		"outfit space" 320
+		"weapon capacity" 100
+		"engine capacity" 105
+		weapon
+			"blast radius" 20
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"PG10 Gun" 4
+		"C30 Fuel Cell"
+		"Sea Battery Pack"
+		"SR20 Sheild Generator"
+		
+		"Sae Ion Engine"
+		"Chaser Afterburner"
+		"Type-F Hyperdrive"
+		"Dels Ramscoop"
+		
+		
+	engine 11 25
+	engine -14 24
+	gun -20 -5 "PG10 Gun"
+	gun 18 -2 "PG10 Gun" 
+	gun 8 -25.5 "PG10 Gun"
+	gun -11 -25.5 "PG10 Gun" 
+	explode "tiny explosion" 10
+	explode "small explosion" 5
+	description "Fastest Dels light warship designed mainly to deal with the invader with speed and firepower but still too few of these warships are built for them to be effective aginst the Ultaka."

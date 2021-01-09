@@ -1,0 +1,208 @@
+outfit "Serulan Turret"
+	category "Turrets"
+	cost 1200000
+	thumbnail "outfit/serulan turret"
+	"mass" 54
+	"outfit space" -54
+	"weapon capacity" -54
+	"turret mounts" -1
+	weapon
+		sprite "projectile/serulan"
+		"hit effect" "serulan impact"
+		"hardpoint sprite" "hardpoint/serulan turret"
+		"hardpoint offset" 5.
+		"inaccuracy" 1.8
+		"velocity" 40
+		"lifetime" 28
+		"reload" 15
+		"firing energy" 160
+		"firing heat" 160
+		"shield damage" 325
+		"hull damage" 325
+	description "Taroun Mysterious Turret."
+
+effect "serulan impact"
+	sprite "effect/serulan impact"
+		"no repeat"
+		"frame rate" 30
+	sound "darkblaster"
+	"lifetime" 30
+	"random angle" 20
+	"velocity scale" -.05
+	"random spin" 10
+	
+outfit "Taroun Deflector"
+	category "Turrets"
+	cost 1000000
+	thumbnail "outfit/unknown"
+	"mass" 85
+	"outfit space" -85
+	"weapon capacity" -85
+	"turret mounts" -1
+	weapon
+		"velocity" 400
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 10
+		"firing heat" 9
+		"hit force" 80
+		"shield damage" 60
+		"ion damage" .4
+	description "
+	
+outfit "Taroun Missile Interceptor"
+	category "Turrets"
+	cost 1200000
+	thumbnail "outfit/unknown"
+	"mass" 60
+	"outfit space" -60
+	"weapon capacity" -60
+	"turret mounts" -1
+	weapon
+		"fire effect" "smoke"
+		"velocity" 500
+		"lifetime" 1
+		"reload" 1.5
+		"firing energy" 15
+		"firing heat" 8
+		"anti-missile" 154
+	description "
+
+outfit "Urmou Launcher"
+	category "Turrets"
+	cost 10500000
+	thumbnail "outfit/unknown"
+	"mass" 40
+	"outfit space" -46
+	"weapon capacity" -46
+	"turret mounts" -1
+	weapon
+		sprite "projectile/urmou"
+			"frame rate" 30
+		sound "emissile"
+		"fire effect" "smoke"
+		"hit effect" "smoke"
+		"submunition" "Urmou" 5
+		"inaccuracy" 8
+		"velocity" 2
+		"lifetime" 30
+		drag .1
+		"reload" 90
+		"firing energy" 6710
+		"firing heat" 1000
+		"firing force" -1200
+		"shield damage" 1510
+		"hull damage" 50
+		"hit force" -350
+		"missile strength" 500
+	description "
+	
+outfit "Urmou"
+	weapon
+		sprite "projectile/urmou"
+			"frame rate" 30
+		"die effect" "serulan impact"
+		"hit effect" "serulan impact"
+		"live effect" "lymaou trail" 200
+		"live effect" "antimatter dust" 200
+		"inaccuracy" 180
+		"velocity" 30
+		"lifetime" 600
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"optical tracking" 1
+		"shield damage" 850
+		"hull damage" 10
+		"hit force" -3000
+		"safe"
+		"phasing"
+	
+outfit "Lymaou"
+	weapon
+		sprite "projectile/lymaou"
+		"die effect" "drak bolt impact"
+		"hit effect" "drak bolt impact"
+		"hit effect" "nuke explosion"
+		"live effect" "lymaou trail" 200
+		"live effect" "antimatter spark" 200
+		"live effect" "antimatter dust" 200
+		"inaccuracy" 1
+		"velocity" 35
+		"lifetime" 750
+		"acceleration" 1.5
+		"drag" .08
+		"turn" 1
+		"homing" 1
+		"optical tracking" .9
+		"shield damage" 5610
+		"hull damage" 5610
+		"hit force" 3000
+		"blast radius" 200
+		"safe"
+		"phasing"
+		
+effect "lymaou trail"
+	sprite "effect/lymaou trail"
+	"lifetime" 80
+	"velocity scale" 1.
+	"random velocity" 1.
+	"random angle" 30
+	"random spin" 10
+		
+outfit "Lymaou Launcher"
+	category "Guns"
+	cost 10500000
+	thumbnail "outfit/unknown"
+	"mass" 90
+	"outfit space" -90
+	"weapon capacity" -90
+	"gun ports" -1
+	weapon
+		sprite "projectile/lymaou"
+		sound "lymaou"
+		"fire effect" "smoke"
+		"hit effect" "smoke"
+		"submunition" "Lymaou"
+		"inaccuracy" 1
+		"velocity" 1
+		"burst reload" 8
+		"burst count" 3
+		"lifetime" 20
+		drag .2
+		"reload" 130
+		"firing energy" 5610
+		"firing heat" 1960
+		"firing froce" 1200
+		"shield damage" 5610
+		"hull damage" 5610
+		"hit force" 35
+		"missile strength" 1000
+		"stream"
+	description "
+	
+outfit "Ursun Thruster"
+	category "Engines"
+	"cost" 20000000
+	thumbnail "outfit/unknown"
+	"mass" 70
+	"outfit space" -70
+	"engine capacity" -70
+	"thrust" 85
+	"thrusting energy" 20
+	"thrusting heat" 15
+	"flare sprite" "effect/ursun"
+		"frame rate" 1
+		"random start frame"
+
+outfit "Ursun Steering"
+	category "Engines"
+	"cost" 16000000
+	thumbnail "outfit/unknown"
+	"mass" 50
+	"outfit space" -50
+	"engine capacity" -50
+	"turn" 1800
+	"turning energy" 10
+	"turning heat" 10

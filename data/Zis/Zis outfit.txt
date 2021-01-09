@@ -1,0 +1,1384 @@
+outfit "Mrag Gun"
+	category "Guns"
+	cost 10000000
+	thumbnail "outfit/unknown"
+	"mass" 5
+	"outfit space" -5
+	"weapon capacity" -5
+	"gun ports" -1
+	weapon
+		sprite "projectile/mod blaster"
+		sound "pulse"
+		"inaccuracy" 0
+		"velocity" 40
+		"lifetime" 24
+		"reload" 9
+		"firing energy" 5
+		"firing heat" 0
+		"shield damage" 20
+		"hull damage" 35
+		"piercing" .05
+		
+outfit "Mrag Turret"
+	category "Turrets"
+	cost 15000000
+	thumbnail "outfit/unknown"
+	"mass" 6
+	"outfit space" -6
+	"weapon capacity" -6
+	"turret mounts" -1
+	weapon
+		sprite "projectile/mod blaster"
+		sound "pulse"
+		"hardpoint sprite" "hardpoint/mrag turret"
+		"hardpoint offset" 9.
+		"inaccuracy" 0.01
+		"turret turn" 20
+		"velocity" 40
+		"lifetime" 24
+		"reload" 9
+		"firing energy" 5
+		"firing heat" 0
+		"shield damage" 20
+		"hull damage" 35
+		"piercing" .05
+	
+outfit "FireStorm Flamethrower"
+	category "Guns"
+	cost 1900000
+	thumbnail "outfit/flamethrower"
+	"mass" 18
+	"outfit space" -18
+	"weapon capacity" -18
+	"gun ports" -1
+	weapon
+		sprite "effect/explosion/small"
+			"frame rate" 60
+			"no repeat"
+		sound "flamethrower"
+		"submunition" "FireStorm Projectile" 2
+		"inaccuracy" 12
+		"velocity" 9
+		"shield damage" 8
+		"hull damage" 22
+		"heat damage" 260
+		"lifetime" 5
+		"reload" 1
+		"firing energy" 12
+		"firing heat" 6
+	description "FireStorm Flamethrower aren't actually a real flamethrower, but it shoot fire-like stream of superheated plasma cloud on your enemy overheating them and could even melt some weaker ships."
+	
+outfit "FireStorm Projectile"
+	weapon
+		sprite "projectile/flamethrower"
+			"frame rate" 17
+			"random start frame"
+		"hit effect" "flamethrower hit"
+		"die effect" "flamethrower die"
+		"inaccuracy" 20
+		"lifetime" 22
+		"shield damage" 4
+		"hull damage" 8
+		"heat damage" 125
+		
+outfit "SnowStorm Gun"
+	category "Guns"
+	cost 1900000
+	thumbnail "outfit/flamethrower"
+	"mass" 18
+	"outfit space" -18
+	"weapon capacity" -18
+	"gun ports" -1
+	weapon
+		sprite "projectile/frostwave"
+			"frame rate" 60
+			"no repeat"
+		sound "flamethrower"
+		"submunition" "SnowStorm Projectile" 2
+		"inaccuracy" 12
+		"velocity" 9
+		"shield damage" 8
+		"hull damage" 22
+		"heat damage" -120
+		"lifetime" 5
+		"reload" 1
+		"firing energy" 12
+		"firing heat" -2
+		"slowing damage" .1
+	description "
+	
+outfit "SnowStorm Projectile"
+	weapon
+		sprite "projectile/frostwave"
+			"frame rate" 17
+			"random start frame"
+		"hit effect" "frostwave hit"
+		"inaccuracy" 20
+		"lifetime" 22
+		"shield damage" 4
+		"hull damage" 8
+		"heat damage" -54
+		"slowing damage" .1
+
+effect "frostwave hit"
+	sprite "projectile/frostwave"
+		"frame rate" 15
+		"random start frame"
+	"lifetime" 28
+	"random velocity" .6
+	"random frame rate" 5
+	"velocity scale" .4
+	
+outfit "ForstBite Lance"
+	category "Guns"
+	cost 17000000
+	thumbnail "outfit/electron beam"
+	"mass" 19
+	"outfit space" -19
+	"weapon capacity" -19
+	"gun ports" -1
+	weapon
+		sprite "projectile/electron"
+			"frame rate" 10
+		sound "electron beam"
+		"hit effect" "electron impact"
+		"inaccuracy" .5
+		"velocity" 450
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 43
+		"shield damage" 12
+		"hull damage" 20
+		"slowing damage" .2
+	description "
+	
+outfit "DZ-10 Dark Blaster"
+	category "Guns"
+	cost 12000000
+	thumbnail "outfit/dark blaster"
+	"mass" 9
+	"outfit space" -9
+	"weapon capacity" -9
+	"gun ports" -1
+	weapon
+		sprite "projectile/darkblaster"
+		sound "darkblaster"
+		"inaccuracy" 1
+		"velocity" 23
+		"lifetime" 38
+		"reload" 12
+		"firing energy" 20
+		"firing heat" 18
+		"shield damage" 35
+		"hull damage" 35
+		"ion damage" 5
+		"hit force" 20
+		"heat damage" 4
+		"slowing damage" .3
+	description "While the Darklance fires a beam of unknown laser, Dark blaster compress these energy and fire them in a small ball."
+		
+outfit "DZ-15 Dark Blaster"
+	category "Guns"
+	cost 12000000
+	thumbnail "outfit/dark blaster"
+	"mass" 10
+	"outfit space" -10
+	"weapon capacity" -10
+	"gun ports" -1
+	weapon
+		sprite "projectile/darkblaster"
+		sound "darkblaster"
+		"inaccuracy" 1
+		"velocity" 23
+		"lifetime" 38
+		"reload" 13
+		"firing energy" 24
+		"firing heat" 19
+		"shield damage" 35
+		"hull damage" 35
+		"ion damage" 1
+		"hit force" 22
+		"heat damage" 5
+		"slowing damage" .5
+	description "
+		
+outfit "DZ-10 Dark Blaster Turret"
+	category "Turrets"
+	cost 17000000
+	thumbnail "outfit/dark blaster turret"
+	"mass" 13
+	"outfit space" -13
+	"weapon capacity" -13
+	"turret mounts" -1
+	weapon
+		sprite "projectile/darkblaster"
+		sound "darkblaster"
+		"hardpoint sprite" "hardpoint/dark blaster turret"
+		"hardpoint offset" 9.
+		"turret turn" 3.5
+		"inaccuracy" 1.5
+		"velocity" 23
+		"lifetime" 38
+		"reload" 12
+		"firing energy" 20
+		"firing heat" 18
+		"shield damage" 35
+		"hull damage" 35
+		"ion damage" 5
+		"hit force" 20
+		"heat damage" 4
+		"slowing damage" .03
+		
+outfit "DZ-84 Darklance"
+	category "Guns"
+	cost 60000000
+	thumbnail "outfit/darklance turret"
+	"mass" 40
+	"outfit space" -40
+	"weapon capacity" -40
+	"gun ports" -1
+	weapon
+		sprite "projectile/darklance"
+		sound "darklance"
+		"hit effect" "electron impact"
+		"fire effect" "electron impact"
+		"inaccuracy" .05
+		"velocity" 450
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 45
+		"firing heat" 66
+		"shield damage" 40
+		"hull damage" 40
+		"ion damage" .5
+		"hit force" 10
+		"heat damage" 6
+		"slowing damage" .01
+	description "An improved version of the old Darklance made by Zis long ago, Extremely deadly to both small and big ships, can both apply debuffs and tear down sheilds and hulls at the same time made it one of the most feared weapon among the galaxies."
+
+outfit "DZ-84 Darklance (Rear)"
+	category "Guns"
+	cost 60000000
+	thumbnail "outfit/darklance turret"
+	"mass" 40
+	"outfit space" -40
+	"weapon capacity" -40
+	"gun ports" -1
+	weapon
+		sprite "projectile/rdarklance"
+		sound "darklance"
+		"hit effect" "electron impact"
+		"fire effect" "electron impact"
+		"inaccuracy" .05
+		"velocity" -450
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 45
+		"firing heat" 66
+		"shield damage" 40
+		"hull damage" 40
+		"ion damage" .5
+		"hit force" 10
+		"heat damage" 6
+		"slowing damage" .01
+	description "An improved version of the old Darklance made by Zis long ago, Extremely deadly to both small and big ships, can both apply debuffs and tear down sheilds and hulls at the same time made it one of the most feared weapon among the galaxies."
+	description "[This is a rear version of darklance that shoots backward]"
+		
+outfit "DZ-84 Darklance Turret"
+	category "Turrets"
+	cost 61000000
+	thumbnail "outfit/darklance turret"
+	"mass" 50
+	"outfit space" -50
+	"weapon capacity" -50
+	"turret mounts" -1
+	weapon
+		sprite "projectile/darklance"
+		sound "darklance"
+		"hardpoint sprite" "hardpoint/darklance turret"
+		"hardpoint offset" 8.
+		"turret turn" 1.9
+		"hit effect" "electron impact"
+		"fire effect" "electron impact"
+		"inaccuracy" .1
+		"velocity" 450
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 45
+		"firing heat" 66
+		"shield damage" 40
+		"hull damage" 40
+		"ion damage" .5
+		"hit force" 10
+		"heat damage" 6
+		"slowing damage" .01
+	description "An improved version of the old Darklance made by Zis long ago, Extremely deadly to both small and big ships, can both apply debuffs and tear down sheilds and hulls at the same time made it one of the most feared weapon among the galaxies."
+		
+outfit "DZ-5 Micro Darklance"
+	category "Guns"
+	cost 3000000
+	thumbnail "outfit/darklance"
+	"mass" 7
+	"outfit space" -7
+	"weapon capacity" -7
+	"gun ports" -1
+	weapon
+		sprite "projectile/darklance"
+		sound "darklance"
+		"hit effect" "electron impact"
+		"fire effect" "electron impact"
+		"inaccuracy" .1
+		"velocity" 450
+		"lifetime" 1
+		"reload" 3
+		"firing energy" 4.3
+		"firing heat" 1.2
+		"shield damage" 18
+		"hull damage" 10
+		"ion damage" .08
+		"hit force" 3
+	description "."
+	
+outfit "WD-2 Welder"
+	category "Guns"
+	cost 100000
+	thumbnail "outfit/darklance"
+	"mass" 5
+	"outfit space" -5
+	"weapon capacity" -5
+	"gun ports" -1
+	weapon
+		sprite "projectile/flare"
+		sound "darklance"
+		"hit effect" "fire-lance impact"
+		"inaccuracy" .1
+		"velocity" 10
+		"lifetime" 1
+		"reload" 3
+		"firing energy" 4.3
+		"firing heat" 1.2
+		"shield damage" 18
+		"hull damage" 10
+		"ion damage" .08
+		"hit force" 3
+	description "."
+	
+outfit "Felran Turret"
+	category "Turrets"
+	cost 61000000
+	thumbnail "outfit/darklance turret"
+	"mass" 1
+	"outfit space" -1
+	"weapon capacity" -1
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/darklance turret"
+		"hardpoint offset" 8.
+		"turret turn" 1.9
+		"hit effect" "beam laser impact"
+		"fire effect" "beam laser impact"
+		"inaccuracy" .1
+		"velocity" 450
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 65
+		"firing heat" 30
+		"hull damage" .5
+		"heat damage" 10
+		"piercing" 1
+	description "Originally planned to be made as guidance laser for other weapons but it happens to be able to cut spaceship armors if given enought time."
+	description "This weapon will completely ignore shield and damage the armor directly."
+	
+outfit "Zis Kuzxen Beam"
+	category "Secondary Weapons"
+	cost 800000000
+	thumbnail "outfit/energy tracer"
+	"mass" 200
+	"outfit space" -200
+	"weapon capacity" -200
+	"gun ports" -1
+	"unremovable" 1
+	"uninstallable" -1
+	weapon
+		sprite "projectile/kuzxen"
+		sound "kuzxen"
+		icon "icon/kuzxen"
+		"inaccuracy" 1
+		"velocity" 45
+		"lifetime" 60
+		"reload" 1
+		"firing energy" 620
+		"firing heat" 550
+		"firing fuel" .1
+		"shield damage" 500
+		"hull damage" 500
+		"piercing" .7
+		"phasing"
+	description "Watch your energy bar carfully when using!"
+	
+outfit "Vozka Cannon Turret"
+	category "Turrets"
+	cost 88000000
+	thumbnail "outfit/unknown"
+	"mass" 80
+	"outfit space" -80
+	"weapon capacity" -80
+	"turret mounts" -1
+	"unremovable" 1
+	weapon
+		sprite "projectile/red bolt"
+		sound "zaikor"
+		"inaccuracy" 1
+		"hardpoint sprite" "hardpoint/vozka cannon"
+		"hardpoint offset" 20.
+		"turret turn" 1.2
+		"velocity" 43
+		"lifetime" 17
+		"reload" 20
+		"firing energy" 60
+		"firing heat" 60
+		"shield damage" 1000
+		"hull damage" 1000
+		"piercing" .08
+	description "
+	
+outfit "Airzi Cannon"
+	category "Guns"
+	cost 10500000
+	thumbnail "outfit/unknown"
+	"mass" 90
+	"outfit space" -90
+	"weapon capacity" -90
+	"gun ports" -1
+	"unremovable" 1
+	"uninstallable" -1
+	weapon
+		sprite "projectile/zymar"
+		sound "proton"
+		"submunition" "Airzi"
+		"inaccuracy" 1
+		"velocity" 1
+		"burst reload" 12
+		"burst count" 3
+		"lifetime" 14
+		drag .2
+		"reload" 120
+		"firing energy" 5010
+		"firing heat" 1260
+		"firing froce" 1200
+		"shield damage" 5210
+		"hull damage" 5810
+		"hit force" 35
+		"missile strength" 1000
+		"stream"
+	description "
+	
+outfit "Airzi"
+	weapon
+		sprite "projectile/zymar"
+		"die effect" "nuke explosion"
+		"hit effect" "nuke explosion"
+		"inaccuracy" 1
+		"velocity" 30
+		"lifetime" 750
+		"acceleration" 1.5
+		"drag" .04
+		"shield damage" 5210
+		"hull damage" 5810
+		"hit force" 3500
+		"blast radius" 100
+		"safe"
+		"phasing"
+	
+outfit "Brumba Cannon"
+	category "Guns"
+	cost 8000000
+	thumbnail "outfit/energy tracer"
+	"mass" 10
+	"outfit space" -10
+	"weapon capacity" -10
+	"gun ports" -1
+	weapon
+		sprite "projectile/red bolt"
+		sound "heavy rocket hit"
+		"inaccuracy" 0
+		"velocity" 40
+		"lifetime" 30
+		"reload" 260
+		"firing energy" 120
+		"firing heat" 120
+		"shield damage" 2000
+		"hull damage" 2000
+		"piercing" .08
+	
+outfit "Brumba Turret"
+	category "Turrets"
+	cost 8200000
+	thumbnail "outfit/unknown"
+	"mass" 20
+	"outfit space" -20
+	"weapon capacity" -20
+	"turret mounts" -1
+	weapon
+		sprite "projectile/red bolt"
+		sound "heavy rocket hit"
+		"inaccuracy" 1
+		"hardpoint sprite" "hardpoint/laser pointer"
+		"hardpoint offset" 9.
+		"turret turn" 1.2
+		"velocity" 43
+		"lifetime" 17
+		"reload" 280
+		"firing energy" 120
+		"firing heat" 120
+		"shield damage" 2000
+		"hull damage" 2000
+		"piercing" .08
+	description "Turret version of Brumba Turret designed for smaller ship to be more effective at bombarding larger ship."
+
+outfit "Fernai Shotgun"
+	category "Guns"
+	cost 2300000
+	thumbnail "outfit/proton gun"
+	"mass" 20
+	"outfit space" -20
+	"weapon capacity" -20
+	"gun ports" -1
+	weapon
+		sprite "projectile/proton"
+		sound "proton"
+		"hit effect" "proton impact" 3
+		"inaccuracy" 1
+		"submunition" "Fernai Fragment" 8
+		"velocity" 24
+		"lifetime" 1
+		"reload" 10
+		"firing energy" 38
+		"firing force" 4
+		"firing heat" 48
+		"shield damage" 154
+		"hull damage" 210
+	description "Fernai Shotgun is an up sized shotgun for spaceships, Fernai shoot down small fast fighters easily while it can also deal a decent damage to bigger ships."
+	
+outfit "Fernai Fragment"
+	weapon
+		sprite "projectile/proton fragment"
+			"no repeat"
+			"frame rate" 2
+		"hit effect" "proton impact"
+		"inaccuracy" 8
+		"lifetime" 22
+		"hit force" 8
+		"shield damage" 22
+		"hull damage" 30
+		
+outfit "Zymar Turret"
+	category "Turrets"
+	cost 81000000
+	thumbnail "outfit/zymar"
+	"mass" 130
+	"outfit space" -150
+	"weapon capacity" -150
+	"turret mounts" -1
+	"required crew" 3
+	weapon
+		sprite "projectile/zymar"
+		sound "heavy rocket hit"
+		"hardpoint sprite" "hardpoint/zymar turret"
+		"hardpoint offset" 50.
+		"turret turn" .8
+		"hit effect" "large explosion"
+		"fire effect" "large explosion"
+		"inaccuracy" .1
+		"velocity" 30
+		"lifetime" 60
+		"reload" 80
+		"firing energy" 70
+		"firing heat" 90
+		"shield damage" 6200
+		"hull damage" 8300
+		"hit force" 180
+		"cluster"
+		"safe"
+		"blast radius" 200
+	description "While extrenally similar to ancient cannon turrets used back in times ships are still in the sea, these gun mechanism are extremely complicated combined with various of technologies slavaged by the Zis giving this cannon nearly as powerful as a Drak's Anti-Matter cannons."
+	
+outfit "Zoika Turret"
+	category "Turrets"
+	cost 65000000
+	thumbnail "outfit/zoika"
+	"mass" 60
+	"outfit space" -60
+	"weapon capacity" -60
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/zoika"
+		sound "zaikor"
+		"hardpoint sprite" "hardpoint/zoika turret"
+		"hardpoint offset" 20.
+		"turret turn" 2
+		"hit effect" "large explosion"
+		"fire effect" "medium explosion"
+		"inaccuracy" 3
+		"velocity" 30
+		"lifetime" 50
+		"reload" 40
+		"firing energy" 50
+		"firing heat" 20
+		"shield damage" 2000
+		"hull damage" 3200
+		"hit force" 70
+		"cluster"
+		"safe"
+		"blast radius" 100
+	description "Externally similar to Zymar turret but a totally different gun, giving less damage than Zymar but also produce less heat."
+	
+outfit "Tizon Turret"
+	category "Turrets"
+	cost 65000000
+	thumbnail "outfit/zoika"
+	"mass" 40
+	"outfit space" -40
+	"weapon capacity" -40
+	"turret mounts" -1
+	weapon
+		sprite "projectile/kproton"
+		sound "zaikor"
+		"hardpoint sprite" "hardpoint/tizon turret"
+		"hardpoint offset" 15.
+		"turret turn" 5
+		"hit effect" "beam laser impact" 3
+		"fire effect" "beam laser impact" 3
+		"inaccuracy" 1
+		"velocity" 30
+		"lifetime" 50
+		"reload" 40
+		"firing energy" 50
+		"firing heat" 20
+		"shield damage" 1300
+		"hull damage" 1800
+		"safe"
+		"blast radius" 50
+	description "
+	
+outfit "Ginal Turret"
+	category "Turrets"
+	cost 19000000
+	thumbnail "outfit/ginal turret"
+	"mass" 32
+	"outfit space" -32
+	"weapon capacity" -32
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/proton"
+		sound "proton"
+		"hardpoint sprite" "hardpoint/ginal turret"
+		"hardpoint offset" 9.
+		"turret turn" 2.7
+		"inaccuracy" 3
+		"velocity" 25
+		"lifetime" 20
+		"reload" 30
+		"firing energy" 30
+		"firing heat" 50
+		"shield damage" 200
+		"hull damage" 465
+		"hit force" 40
+		"heat damage" 4
+		"submunition" "ginal fragment" 8
+		"split range" 80
+	description "As Karloz's main cannons are too slow to chase small and fast fighters these turret were made to guard the ship from fighters in close range while able to provide some fire power aginst larger warships."
+	
+outfit "ginal fragment"
+	weapon
+		sprite "projectile/proton fragment"
+			"no repeat"
+			"frame rate" 2
+		"hit effect" "tiny explosion"
+		"inaccuracy" 360
+		"lifetime" 6
+		"hit force" 8
+		"shield damage" 24
+		"hull damage" 50
+		
+outfit "Syfar Torpedo Turret"
+	category "Secondary Weapons"
+	cost 47100000
+	thumbnail "outfit/syfar"
+	"mass" 36
+	"outfit space" -43
+	"weapon capacity" -43
+	"turret mounts" -1
+	"required crew" 2
+	"syfar capacity" 30
+	weapon
+		sprite "projectile/syfar torpedo"
+		sound "syfar"
+		icon "icon/syfar"
+		ammo "Syfar Torpedo"
+		"fire effect" "meteor fire"
+		"die effect" "medium explosion"
+		"hit effect" "medium explosion"
+		"hardpoint sprite" "hardpoint/syfar turret"
+		"hardpoint offset" 10.
+		"inaccuracy" .1
+		"velocity" 50
+		"lifetime" 80
+		"reload" 45
+		"burst reload" 15
+		"burst count" 3
+		"firing energy" 80
+		"firing heat" 12
+		"missile strength" 1800
+		"shield damage" 4000
+		"hull damage" 4000
+		"hit force" 50
+	description "
+	
+outfit "Syfar Torpedo"
+	category "Ammunition"
+	cost 3200
+	thumbnail "outfit/syfar torpedo"
+	"mass" 1
+	"syfar capacity" -1
+	description "Syfar Torpedo for Syfar Torpedo launchers."
+	
+outfit "Syfar Torpedo Storage"
+	category "Ammunition"
+	cost 9000
+	thumbnail "outfit/syfar storage"
+	"mass" .8
+	"outfit space" -5
+	"syfar capacity" 30
+	ammo "Syfar Torpedo"
+	description "
+	
+outfit "Syfar Torpedo Turret (Penta)"
+	category "Secondary Weapons"
+	cost 49100000
+	thumbnail "outfit/syfar penta"
+	"mass" 60
+	"outfit space" -75
+	"weapon capacity" -75
+	"turret mounts" -1
+	"required crew" 2
+	"syfar capacity" 50
+	weapon
+		sprite "projectile/syfar torpedo"
+		sound "syfar"
+		icon "icon/syfar"
+		ammo "Syfar Torpedo"
+		"fire effect" "meteor fire"
+		"die effect" "medium explosion"
+		"hit effect" "medium explosion"
+		"hardpoint sprite" "hardpoint/penta syfar turret"
+		"hardpoint offset" 10.
+		"inaccuracy" .1
+		"velocity" 50
+		"lifetime" 80
+		"reload" 45
+		"burst reload" 15
+		"burst count" 5
+		"firing energy" 80
+		"firing heat" 12
+		"missile strength" 1800
+		"shield damage" 4000
+		"hull damage" 4000
+		"hit force" 50
+	description "
+	
+outfit "Syfar Torpedo Turret (Penta Full Salvo Mode)"
+	category "Secondary Weapons"
+	cost 49100000
+	thumbnail "outfit/syfar penta"
+	"mass" 60
+	"outfit space" -75
+	"weapon capacity" -75
+	"turret mounts" -1
+	"required crew" 2
+	"syfar capacity" 50
+	weapon
+		sprite "projectile/syfar torpedo"
+		sound "syfar"
+		icon "icon/syfar"
+		ammo "Syfar Torpedo"
+		"fire effect" "meteor fire"
+		"die effect" "medium explosion"
+		"hit effect" "medium explosion"
+		"hardpoint sprite" "hardpoint/syfar turret"
+		"hardpoint offset" 10.
+		"inaccuracy" .1
+		"velocity" 50
+		"lifetime" 1
+		"reload" 45
+		"firing energy" 80
+		"firing heat" 12
+		"missile strength" 1800
+		"shield damage" 4000
+		"hull damage" 4000
+		"hit force" 50
+		"submunition" "Syfar" 5
+	description "
+	
+outfit "Syfar Torpedo Launcher(Single)"
+	category "Secondary Weapons"
+	cost 9200000
+	thumbnail "outfit/syfar gun"
+	"mass" 8
+	"outfit space" -10
+	"weapon capacity" -10
+	"gun ports" -1
+	"syfar capacity" 1
+	weapon
+		sprite "projectile/syfar torpedo"
+		sound "syfar"
+		icon "icon/syfar"
+		ammo "Syfar Torpedo"
+		"fire effect" "meteor fire"
+		"die effect" "medium explosion"
+		"hit effect" "medium explosion"
+		"inaccuracy" .1
+		"velocity" 50
+		"lifetime" 80
+		"reload" 45
+		"firing energy" 75
+		"firing heat" 11
+		"missile strength" 1800
+		"shield damage" 4000
+		"hull damage" 4000
+		"hit force" 50
+		"stream"
+	description "
+	
+outfit "Syfar"
+	weapon
+		sprite "projectile/syfar torpedo"
+		"hit effect" "medium explosion"
+		"inaccuracy" 20
+		"lifetime" 80
+		"hit force" 50
+		"shield damage" 4000
+		"hull damage" 4000
+		"missile strength" 1800
+	
+outfit "Rozzen Vertical Launching System"
+	category "Secondary Weapons"
+	cost 2500000
+	thumbnail "outfit/rozzen vls"
+	"mass" 2
+	"outfit space" -10
+	"weapon capacity" -10
+	"turret mounts" -1
+	"rozzen capacity" 30
+	weapon
+		sprite "projectile/rozzenlaunch"
+			"frame rate" 8
+		sound "sidewinder"
+		ammo "Rozzen Missile"
+		icon "icon/rozzen"
+		"fire effect" "smoke"
+		"hit effect" "medium explosion"
+		"submunition" "Rozzen"
+		"inaccuracy" 1
+		"velocity" 0
+		"lifetime" 20
+		"reload" 100
+		"firing energy" 5
+		"firing heat" 18
+		"shield damage" 2000
+		"hull damage" 2400
+		"hit force" 35
+		"missile strength" 1000
+		"stream"
+	description "Reviving the ancient technology of launching missiles vertically result in the new Rozzen VLS, requiring less space than most missile launchers."
+	description "Instead of installing missile launchers on a gun port, Rozzen VLS are installed on turret mounts."
+	
+outfit "Rozzen Missile"
+	plural "Rozzen Missiles"
+	category "Ammunition"
+	cost 1200
+	thumbnail "outfit/rozzen missile"
+	"mass" .3
+	"rozzen capacity" -1
+	description "
+	
+outfit "Rozzen Missile Rack"
+	category "Ammunition"
+	cost 17000
+	thumbnail "outfit/rozzen rack"
+	"mass" 2
+	"outfit space" -8
+	"rozzen capacity" 30
+	ammo "Rozzen Missile"
+	description "
+	
+outfit "Rozzen"
+	weapon
+		sprite "projectile/rozzen"
+			"frame rate" 5
+		"die effect" "missile death"
+		"hit effect" "medium explosion"
+		"inaccuracy" .5
+		"velocity" 1
+		"lifetime" 750
+		"acceleration" 1.5
+		"drag" .1
+		"turn" 4
+		"homing" 4
+		"optical tracking" .6
+		"radar tracking" .9
+		"shield damage" 2000
+		"hull damage" 2400
+		"hit force" 200
+		"missile strength" 1000
+	
+outfit "Zaikor Turret"
+	category "Turrets"
+	cost 15000000
+	thumbnail "outfit/zaikor"
+	"mass" 12
+	"outfit space" -12
+	"weapon capacity" -12
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/zaikor"
+		sound "zaikor"
+		"hardpoint sprite" "hardpoint/zaikor turret"
+		"hardpoint offset" 8.
+		"turret turn" 3
+		"inaccuracy" 2
+		"velocity" 26
+		"lifetime" 23
+		"reload" 15
+		"firing energy" 10
+		"firing heat" 25
+		"shield damage" 80
+		"hull damage" 80
+		"hit force" 20
+		"heat damage" 5
+	description "While these turret don't do much damage them selves but like blasters, many of them are going to be a trouble."
+	
+outfit "Urza Energy Rocket"
+	category "Guns"
+	cost 25000000
+	thumbnail "outfit/unknown"
+	"mass" 35
+	"outfit space" -40
+	"weapon capacity" -40
+	"gun ports" -1
+	weapon
+		sprite "projectile/urza"
+		sound "urza"
+		"hit effect" "urza hit"
+		"inaccuracy" 0
+		"velocity" 15
+		"lifetime" 800
+		"reload" 45
+		"firing energy" 730
+		"firing heat" 850
+		"acceleration" 4
+		"drag" .1
+		"missile strength" 1200
+		"shield damage" 3800
+		"hull damage" 5800
+		"phasing"
+	description "
+	
+effect "urza hit"
+	sprite "effect/urza hit"
+		"no repeat"
+		"frame rate" 20
+	sound "urza impact"
+	"lifetime" 16
+	"random angle" 360
+	"random velocity" .2
+	"random spin" 10
+	"velocity scale" -.05
+	
+outfit "Xin rotary cannon"
+	category "Guns"
+	cost 200000
+	thumbnail "outfit/gat"
+	"mass" 8
+	"outfit space" -8
+	"weapon capacity" -8
+	"gun ports" -1
+	weapon
+		sprite "projectile/tinyflare"
+			"random start frame"
+		sound "explosion tiny"
+		"inaccuracy" 2
+		"velocity" 16
+		"lifetime" 1
+		"reload" 1
+		"firing energy" .5
+		"firing heat" 1.2
+		"cooling" 5
+		"submunition" "xinbullet" 2
+		"cluster"
+		"hit effect" "bullet impact"
+	description `
+	
+outfit "xinbullet"
+	weapon
+		sprite "projectile/bullet"
+			"delay" 5
+			"random start frame"
+			"frame rate" 0
+		"velocity" 50
+		"lifetime" 20
+		"shield damage" 7
+		"hull damage" 6
+		"hit force" .5
+		"hit effect" "bullet impact"
+		
+outfit "Kuichan Missile"
+	category "Secondary Weapons"
+	cost 2000000
+	thumbnail "outfit/nuke"
+	"mass" 1
+	"outfit space" -1
+	"weapon capacity" -1
+	"gun ports" -1
+	weapon
+		sprite "projectile/missile"
+			"no repeat"
+			"frame rate" .25
+		sound "nuke"
+		ammo "Kuichan Missile"
+		"stream"
+		icon "icon/nuke"
+		"hit effect" "nuke explosion"
+		"hit effect" "nuke residue fast" 10
+		"hit effect" "nuke residue slow" 10
+		"die effect" "missile death"
+		"inaccuracy" .5
+		"velocity" 12
+		"lifetime" 1800
+		"reload" 120
+		"firing energy" 10
+		"firing heat" 10
+		"acceleration" 1
+		"drag" .08
+		"turn" 4
+		"homing" 5
+		"radar tracking" 1
+		"optical tracking" 1
+		safe
+		"blast radius" 150
+		"heat damage" 200
+		"shield damage" 12000
+		"hull damage" 22000
+		"hit force" 4000
+		"missile strength" 800
+	description "."
+	description "	[Kuichan missiles are a one-shot weapon: each missile occupies a gun slot, and after it is fired, the slot it was in is left empty.]"
+
+	
+outfit "FT-1S Shield Generator"
+	category "Systems"
+	cost 80000000
+	thumbnail "outfit/zisftshield"
+	"mass" 5
+	"outfit space" -5
+	"shield generation" 15
+	"shield energy" 12
+	description "While the exact technology these generators are based off are unknown, even the smallest Zis shield generator is already far more powerful and efficient than Quantum Shield generators."
+	
+outfit "LW-1S Shield Generator"
+	category "Systems"
+	cost 322000000
+	thumbnail "outfit/small shield"
+	"mass" 20
+	"outfit space" -20
+	"shield generation" 50
+	"shield energy" 45
+	description "
+	
+outfit "MW-1S Shield Generator"
+	category "Systems"
+	cost 8000000
+	thumbnail "outfit/zismwshield"
+	"mass" 30
+	"outfit space" -30
+	"shield generation" 64
+	"shield energy" 55
+	description "
+	
+outfit "MW-4S Shield Generator"
+	category "Systems"
+	cost 12000000
+	thumbnail "outfit/small shield"
+	"mass" 40
+	"outfit space" -40
+	"shield generation" 70
+	"shield energy" 65
+	description "
+	
+outfit "HW-1S Shield Generator"
+	category "Systems"
+	cost 36000000
+	thumbnail "outfit/huge shield"
+	"mass" 60
+	"outfit space" -60
+	"shield generation" 90
+	"shield energy" 85
+	description "
+	
+outfit "FT-1H Hull Regenerator"
+	category "Systems"
+	cost 8000000
+	thumbnail "outfit/tiny shield"
+	"mass" 5
+	"outfit space" -5
+	"hull repair rate" 23
+	"hull energy" 23
+	description "
+	
+outfit "LW-1H Hull Regenerator"
+	category "Systems"
+	cost 12000000
+	thumbnail "outfit/small shield"
+	"mass" 20
+	"outfit space" -20
+	"hull repair rate" 94
+	"hull energy" 93
+	description "
+	
+outfit "MW-1H Hull Regenerator"
+	category "Systems"
+	cost 12000000
+	thumbnail "outfit/small shield"
+	"mass" 28
+	"outfit space" -28
+	"hull repair rate" 110
+	"hull energy" 105
+	description "
+	
+outfit "HW-1H Hull Regenerator"
+	category "Systems"
+	cost 36000000
+	thumbnail "outfit/huge shield"
+	"mass" 60
+	"outfit space" -60
+	"hull repair rate" 282
+	"hull energy" 280
+	description "
+	
+outfit "FT-1 Reactor"
+	category "Power"
+	cost 6000000
+	thumbnail "outfit/unknown"
+	"mass" 20
+	"outfit space" -20
+	"energy generation" 20
+	"heat generation" 10
+	"energy capacity" 1000
+	description "
+	
+outfit "FT-2 Reactor"
+	category "Power"
+	cost 6000000
+	thumbnail "outfit/unknown"
+	"mass" 20
+	"outfit space" -20
+	"energy generation" 23
+	"heat generation" 14
+	description "
+	
+outfit "LW-2 Reactor"
+	category "Power"
+	cost 6000000
+	thumbnail "outfit/unknown"
+	"mass" 60
+	"outfit space" -60
+	"energy generation" 62
+	"heat generation" 30
+	"energy capacity" 3000
+	description "
+	
+outfit "MW-1 Reactor"
+	category "Power"
+	cost 9000000
+	thumbnail "outfit/unknown"
+	"mass" 90
+	"outfit space" -90
+	"energy generation" 95
+	"heat generation" 45
+	"energy capacity" 6000
+	description "
+	
+outfit "A1 Battery"
+	category "Power"
+	cost 5000000
+	thumbnail "outfit/unknown"
+	"mass" 5
+	"outfit space" -5
+	"energy capacity" 5000
+	description "
+	
+outfit "MW-2 Reactor"
+	category "Power"
+	cost 9000000
+	thumbnail "outfit/unknown"
+	"mass" 90
+	"outfit space" -90
+	"energy generation" 130
+	"heat generation" 50
+	description "
+	
+outfit "HW-1 Reactor"
+	category "Power"
+	cost 9000000
+	thumbnail "outfit/unknown"
+	"mass" 120
+	"outfit space" -120
+	"energy generation" 184
+	"heat generation" 66
+	description "
+	
+outfit "HW-4 Anti-Matter Reactor"
+	category "Power"
+	cost 120000000
+	thumbnail "outfit/unknown"
+	"mass" 120
+	"outfit space" -120
+	"energy generation" 240
+	"heat generation" 500
+	"energy capacity" 200000
+	description "Extremely powerful reactor of unknown origin some say that these reactors are miniaturized version of the reactor at the core of Trochzempt."
+	
+outfit "ZIS Anti-Missile System"
+	category "Turrets"
+	cost 40000000
+	thumbnail "outfit/unknown"
+	"mass" 5
+	"outfit space" -5
+	"weapon capacity" -5
+	"turret mounts" -1
+	"ZIS AM Lock" 1
+	weapon
+		"fire effect" "masai fire"
+		"anti-missile" 250
+		"turret turn" 20
+		"velocity" 300
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 200
+		"firing heat" 12
+	description "Unlike Anti-Missile used by Human or Quarg these ones are more similar to Drak's Anti-Missile field, simply a visble anti-missile field."
+	
+outfit "Nitro-Type4 Engine"
+	category "Engines"
+	"cost" 2800000
+	thumbnail "outfit/tiny plasma engines"
+	"mass" 20
+	"outfit space" -20
+	"engine capacity" -20
+	"turn" 230
+	"turning energy" 1
+	"turning heat" 4
+	"thrust" 12.5
+	"thrusting energy" 2
+	"thrusting heat" 6
+	"flare sprite" "effect/plasma flare/tiny"
+		"frame rate" 1.2
+	"afterburner thrust" 15.0
+	"afterburner energy" 4
+	"afterburner heat" 8
+	"afterburner effect" "afterburner"
+	description "[Nitro is only the name for this engine, the engine actually have nothing related to nitro]"
+	
+outfit "M-10 Engine"
+	category "Engines"
+	"cost" 2500000
+	thumbnail "outfit/tiny ion engines"
+	"mass" 20
+	"outfit space" -20
+	"engine capacity" -20
+	"turn" 200
+	"turning energy" 1
+	"turning heat" 0
+	"thrust" 10.0
+	"thrusting energy" 2
+	"thrusting heat" 0.05
+	"flare sprite" "effect/ion flare/tiny"
+		"frame rate" 1.2
+	description "Zis M engines are known to be cooler than Graviton Engines used by Quarg and Drak and from their design these engines surly aren't inspired or based of graviton at all but a completely different technology which are unknown to you."
+		
+outfit "M-20 Engine"
+	category "Engines"
+	"cost" 5000000
+	thumbnail "outfit/tiny ion engines"
+	"mass" 30
+	"outfit space" -30
+	"engine capacity" -30
+	"turn" 400
+	"turning energy" 2
+	"turning heat" .05
+	"thrust" 20.0
+	"thrusting energy" 4
+	"thrusting heat" 0.1
+	"flare sprite" "effect/ion flare/small"
+		"frame rate" 1.1
+		
+		
+outfit "M-80 Engine"
+	category "Engines"
+	"cost" 8000000
+	thumbnail "outfit/huge ion engines"
+	"mass" 60
+	"outfit space" -60
+	"engine capacity" -60
+	"turn" 1600
+	"turning energy" 8
+	"turning heat" 0.2
+	"thrust" 80.0
+	"thrusting energy" 16
+	"thrusting heat" 0.4
+	"flare sprite" "effect/ion flare/huge"
+		"frame rate" .9
+		
+outfit "ZIS Recon Pod"
+	category "Systems"
+	cost 42000000
+	thumbnail "outfit/outfit scanner"
+	"mass" 3
+	"outfit space" -3
+	"outfit scan power" 35
+	"outfit scan speed" 5
+	"cargo scan power" 35
+	"cargo scan speed" 5
+	"atmosphere scan" 500
+	
+outfit "AC-30 Assault Rifle"
+	category "Hand to Hand"
+	cost 36000
+	thumbnail "outfit/zis rifle"
+	"capture attack" 3
+	"capture defense" 3
+	"unplunderable" 1
+	description "This is the primary weapon of the Zis ground force, while appears to shoot regular bullets, these are far more powerful."
+	
+outfit "XB-60 Blaster"
+	category "Hand to Hand"
+	cost 36000
+	thumbnail "outfit/xb blaster"
+	"capture attack" 3
+	"capture defense" 3
+	"unplunderable" 1
+	description "XB-60 Blaster is simple blaster with various features to adapt to fit the current situation from long range sniper duel to close combat, being an energy weapon with built-in generator allow them to continuously fire at their target without reloading, the weapon it self can deal less damage to most enemy compared to AC-30 but it's light weight make them more maneuverable for offensive mission than the AC-30."
+	
+outfit "Zis Standard Sword"
+	category "Hand to Hand"
+	cost 8000
+	thumbnail "outfit/zis sword"
+	"capture attack" .5
+	"capture defense" .5
+	"unplunderable" 1
+	description "While it looks similar to regular sword, these sword can be powered and when powered will easily slice through most though materials like hot knife to butter. It is mostly useless in battle with guns, it is usually used as tool for breaching or rescuing."
+	description "."
+	

@@ -1,0 +1,26 @@
+
+
+outfit "Ultaka Antimatter Cannon UP1"
+	category "Guns"
+	cost 8000000
+	thumbnail "outfit/unknown"
+	"mass" 100
+	"outfit space" -100
+	"weapon capacity" -100
+	"gun ports" -1
+	weapon
+		sprite "projectile/seeker"
+			"frame rate" 10.835
+		"inaccuracy" 0.08
+		"velocity" 12
+		"lifetime" 240
+		"hit effect" "antimatter dust" 10
+		"hit effect" "nuke explosion"
+		"reload" 310
+		"firing energy" 5520
+		"firing heat" 3620
+		"hit force" 1000
+		"shield damage" 770900
+		"hull damage" 770900
+		"missile strength" 590
+		"piercing" 1

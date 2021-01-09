@@ -1,0 +1,112 @@
+ship Eroun
+	sprite ship/eroun
+	"never disabled"
+	attributes
+		category "Heavy Warship"
+		"cost" 1100000000
+		"shields" 5000000
+		"hull" 2400000
+		"required crew" 4
+		"bunks" 45
+		"mass" 1000
+		"drag" 10
+		"heat dissipation" 50
+		"fuel capacity" 1200
+		"cargo space" 120
+		"outfit space" 800
+		"weapon capacity" 600
+		"engine capacity" 200
+		"energy capacity" 15000
+		"energy generation" 550
+		"shield generation" 110
+		"shield energy" 110
+		"hull repair rate" 120
+		"hyperdrive" 1
+		"jump speed" 1.5
+		"jump drive" 1
+		"ramscoop" 100
+		"gaslining" 1
+		"inscrutable" 1
+		weapon
+			"blast radius" 200
+			"shield damage" 20000
+			"hull damage" 10000
+			"hit force" 30000
+	outfits
+		"Lymaou Launcher" 2
+		"Taroun Missile Interceptor"
+		"Taroun Deflector"
+		"Serulan Turret" 2
+		"Urmou Launcher"
+		
+		"Ursun Thruster"
+		"Ursun Steering"
+	
+	turret 0 -39 "Tactical Maneuver Engine"
+	turret 0 -39 "Taroun Deflector"
+	turret 0 -39 "Taroun Missile Interceptor"
+	turret 0 -39 "Urmou Launcher"
+	turret -39 -39 "Serulan Turret"
+	turret 39 -39 "Serulan Turret"
+	gun -21 -170 "Lymaou Launcher"
+	gun 21 -170 "Lymaou Launcher"
+	engine 0 185
+	engine 15 184.5
+	engine -15 183.5
+	explode "smoke" 50
+	"final explode" "final explosion large"
+	
+ship Oresu
+	sprite ship/oresu
+	"never disabled"
+	attributes
+		category "Medium Warship"
+		"cost" 900000000
+		"shields" 3000000
+		"hull" 1600000
+		"required crew" 2
+		"bunks" 20
+		"mass" 600
+		"drag" 8
+		"heat dissipation" 50
+		"fuel capacity" 1000
+		"cargo space" 60
+		"outfit space" 600
+		"weapon capacity" 300
+		"engine capacity" 200
+		"energy capacity" 15000
+		"energy generation" 550
+		"shield generation" 110
+		"shield energy" 110
+		"hull repair rate" 120
+		"hyperdrive" 1
+		"jump speed" 1.5
+		"jump drive" 1
+		"ramscoop" 100
+		"gaslining" 1
+		"inscrutable" 1
+		weapon
+			"blast radius" 200
+			"shield damage" 20000
+			"hull damage" 10000
+			"hit force" 30000
+	outfits
+		"Lymaou Launcher"
+		"Taroun Missile Interceptor"
+		"Taroun Deflector"
+		"Serulan Turret" 2
+		"Urmou Launcher"
+		
+		"Ursun Thruster"
+		"Ursun Steering"
+	
+	turret 0 -4.5 "Tactical Maneuver Engine"
+	turret 0 -4.5 "Taroun Deflector"
+	turret 0 -4.5 "Taroun Missile Interceptor"
+	turret 0 -4.5 "Urmou Launcher"
+	turret 33.5 -43.5 "Serulan Turret"
+	turret -32 -43.5 "Serulan Turret"
+	gun 0 -91 "Lymaou Launcher"
+	engine 0 98.5
+	explode "smoke" 40
+	"final explode" "final explosion large"

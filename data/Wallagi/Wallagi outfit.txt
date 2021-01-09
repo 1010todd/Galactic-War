@@ -1,0 +1,403 @@
+
+
+outfit "Wasen Shield Generator"
+	category "Systems"
+	cost 15000000
+	thumbnail "outfit/wallagi sheild"
+	"mass" 10
+	"outfit space" -10
+	"shield generation" 20
+	"shield energy" 10
+	
+outfit "Sestar Shield Generator"
+	category "Systems"
+	cost 50000000
+	thumbnail "outfit/wallagi sheild"
+	"mass" 100
+	"outfit space" -100
+	"shield generation" 200
+	"shield energy" 100
+	
+outfit "Tensel Shield Generator"
+	category "Systems"
+	cost 57000000
+	thumbnail "outfit/wallagi sheild"
+	"mass" 130
+	"outfit space" -130
+	"shield generation" 240
+	"shield energy" 120
+	
+outfit "Malgos Shield Generator"
+	category "Systems"
+	cost 57000000
+	thumbnail "outfit/wallagi sheild"
+	"mass" 220
+	"outfit space" -220
+	"shield generation" 380
+	"shield energy" 320
+	
+outfit "C10-W Hinlar Core"
+	category "Power"
+	cost 100000
+	thumbnail "outfit/unknown"
+	mass 10
+	"outfit space" -10
+	"energy generation" 250
+	
+outfit "C60-W Falmin Core"
+	category "Power"
+	cost 1000000
+	thumbnail "outfit/unknown"
+	"mass" 150
+	"outfit space" -150
+	"energy generation" 4500
+	
+outfit "C80-W Mallar Core"
+	category "Power"
+	cost 1000000
+	thumbnail "outfit/unknown"
+	"mass" 220
+	"outfit space" -220
+	"energy generation" 4500
+	
+outfit "Kal-1 Engines"
+	category "Engines"
+	"cost" 3500000
+	thumbnail "outfit/unknown"
+	"mass" 20
+	"outfit space" -20
+	"engine capacity" -20
+	"thrust" 22
+	"thrusting energy" 10
+	"thrusting heat" 10
+	"turn" 500
+	"turning energy" 5
+	"turning heat" 5
+	"hyperdrive" 1
+	"jump drive" 1
+	"jump speed" 100
+	"flare sprite" "effect/atomic flare/tiny"
+	
+outfit "Kal-4 Engines"
+	category "Engines"
+	"cost" 3500000
+	thumbnail "outfit/unknown"
+	"mass" 50
+	"outfit space" -50
+	"engine capacity" -50
+	"thrust" 58
+	"thrusting energy" 25
+	"thrusting heat" 25
+	"turn" 2000
+	"turning energy" 10
+	"turning heat" 10
+	"hyperdrive" 1
+	"jump drive" 1
+	"jump speed" 100
+	"flare sprite" "effect/atomic flare/large"
+	
+outfit "Kal-8 Engines"
+	category "Engines"
+	"cost" 3500000
+	thumbnail "outfit/unknown"
+	"mass" 80
+	"outfit space" -80
+	"engine capacity" -80
+	"thrust" 300
+	"thrusting energy" 45
+	"thrusting heat" 45
+	"turn" 2900
+	"turning energy" 20
+	"turning heat" 20
+	"hyperdrive" 1
+	"jump drive" 1
+	"jump speed" 100
+	"flare sprite" "effect/atomic flare/large"
+	
+outfit "Kal-10 Engines"
+	category "Engines"
+	"cost" 3500000
+	thumbnail "outfit/unknown"
+	"mass" 120
+	"outfit space" -120
+	"engine capacity" -120
+	"thrust" 800
+	"thrusting energy" 300
+	"thrusting heat" 190
+	"turn" 3500
+	"turning energy" 90
+	"turning heat" 90
+	"hyperdrive" 1
+	"jump drive" 1
+	"jump speed" 100
+	"flare sprite" "effect/atomic flare/huge"
+	
+outfit "Wallagi heat shunt"
+	category "Systems"
+	cost 600000
+	thumbnail "outfit/unknown"
+	mass 10
+	"outfit space" -10
+	"cooling" 100
+	
+outfit "E10-B Klingar"
+	category "Guns"
+	cost 6000000
+	thumbnail "outfit/electron"
+	"mass" 20
+	"outfit space" -20
+	"weapon capacity" -20
+	"gun ports" -1
+	weapon
+		sprite "projectile/electron"
+		sound "electron"
+		"hit effect" "electron impact"
+		"fire effect" "electron impact"
+		"inaccuracy" .1
+		"velocity" 450
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 6.9
+		"firing heat" 2.8
+		"shield damage" 10
+		"hull damage" 10
+		"ion damage" .1
+		"hit force" 1
+	description "
+	
+outfit "A10-M Sach Anti-missile"
+	category "Turrets"
+	cost 800000
+	thumbnail "outfit/heavy anti-missile"
+	"mass" 5
+	"outfit space" -5
+	"weapon capacity" -5
+	"turret mounts" -1
+	weapon
+		"fire effect" "particle impact"
+		sound "explosion tiny"
+		"anti-missile" 30
+		"turret turn" 14
+		"velocity" 200
+		"lifetime" 1
+		"reload" 5
+		"firing energy" 1
+		"firing heat" 1
+	description "
+	
+outfit "A80-H Jestar Anti-missile"
+	category "Turrets"
+	cost 1200000
+	thumbnail "outfit/heavy anti-missile"
+	"mass" 80
+	"outfit space" -80
+	"weapon capacity" -80
+	"turret mounts" -1
+	weapon
+		"fire effect" "particle impact"
+		sound "explosion medium"
+		"anti-missile" 125
+		"turret turn" 18
+		"velocity" 400
+		"lifetime" 1
+		"reload" 7.5
+		"firing energy" 8
+		"firing heat" 8
+	description "
+	
+outfit "A88-G Kemper Missile Defense"
+	category "Turrets"
+	cost 5000000
+	thumbnail "outfit/kmd"
+	"mass" 88
+	"outfit space" -88
+	"weapon capacity" -88
+	"turret mounts" -1
+	weapon
+		sound "minelayer"
+		"anti-missile" 100
+		"turret turn" 20
+		"velocity" 1100
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 12
+		"firing heat" 12
+	description "
+	
+outfit "T30-E Semfal Torpedo"
+	category "Guns"
+	cost 5000000
+	thumbnail "outfit/semfal torpedo"
+	"mass" 40
+	"outfit space" -40
+	"weapon capacity" -40
+	"gun ports" -1
+	weapon
+		sprite "projectile/ion bolt"
+		sound "ion"
+		"hit effect" "ion spark"
+		"inaccuracy" 1
+		"velocity" 25
+		"lifetime" 500
+		"reload" 100
+		"firing energy" 700
+		"firing heat" 10
+		"acceleration" 2.2
+		"drag" .01
+		"optical tracking" .9
+		"turn" 3
+		"homing" 5
+		"shield damage" 980
+		"hull damage" 600
+		"hit force" 20
+		"missile strength" 300
+		"piercing" .1
+		"ion damage" .30
+		"heat damage" 300
+	description "
+	
+outfit "T70-E Sesmal Torpedo"
+	category "Guns"
+	cost 45000000
+	thumbnail "outfit/semfal torpedo"
+	"mass" 120
+	"outfit space" -120
+	"weapon capacity" -120
+	"gun ports" -1
+	weapon
+		sprite "projectile/ion bolt"
+		sound "ion"
+		"hit effect" "ion spark"
+		"inaccuracy" 1
+		"velocity" 9
+		"lifetime" 500
+		"reload" 150
+		"firing energy" 1300
+		"firing heat" 48
+		"acceleration" .1
+		"drag" .01
+		"optical tracking" .9
+		"turn" 5
+		"homing" 5
+		"shield damage" 6220
+		"hull damage" 1500
+		"hit force" 50
+		"missile strength" 600
+		"piercing" .25
+		"ion damage" .60
+		"heat damage" 390
+	description "
+	
+outfit "P50-B Lemtar Turret"
+	category "Turrets"
+	cost 5200000
+	thumbnail "outfit/lemtar turret"
+	"mass" 50
+	"outfit space" -50
+	"weapon capacity" -50
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/ion bolt"
+			"frame rate" 3
+		sound "proton"
+		"hardpoint sprite" "hardpoint/heavy anti-missile"
+		"hardpoint offset" 5.
+		"hit effect" "plasma explosion"
+		"inaccuracy" 1.6
+		"turret turn" 4
+		"velocity" 40
+		"lifetime" 30
+		"reload" 12
+		"firing energy" 60
+		"firing heat" 8
+		"shield damage" 500
+		"hull damage" 200
+		"heat damage" 88
+		"ion damage" .5
+	description "
+	
+outfit "P50-B Marley Turret"
+	category "Turrets"
+	cost 8400000
+	thumbnail "outfit/lemtar turret"
+	"mass" 120
+	"outfit space" -120
+	"weapon capacity" -120
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/marley"
+		sound "proton"
+		"hit effect" "ion impact"
+		"hardpoint sprite" "hardpoint/heavy anti-missile"
+		"hardpoint offset" 5.
+		"inaccuracy" 1.28
+		"turret turn" 3.5
+		"velocity" 40
+		"lifetime" 60
+		"reload" 22
+		"firing energy" 180
+		"firing heat" 80
+		"hit force" 10
+		"shield damage" 890
+		"hull damage" 300
+		"heat damage" 200
+		"ion damage" .10
+		"piercing" .3
+	description "
+	
+outfit "S20-F Markla Turret"
+	category "Turrets"
+	cost 4900000
+	thumbnail "outfit/lemtar turret"
+	"mass" 45
+	"outfit space" -45
+	"weapon capacity" -45
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/tiny dual ion"
+		sound "particle"
+		"hit effect" "plasma explosion"
+		"inaccuracy" 1.9
+		"turret turn" 8
+		"velocity" 40
+		"lifetime" 35
+		"reload" 6
+		"firing energy" 45
+		"firing heat" 12
+		"shield damage" 66
+		"hull damage" 50
+		"heat damage" 120
+		"ion damage" .6
+		"submunition" "markla flak" 3
+		"split range" 8
+	description "
+	
+outfit "markla flak"
+	weapon
+		sprite "effect/huge spark"
+			"no repeat"
+			"frame rate" 16
+		sound "ion impact"
+		"lifetime" 9
+		"random angle" 360
+		"random spin" 3
+		"random velocity" .1
+		"velocity scale" -.05
+		"hit force" 5
+		"shield damage" 10
+		"hull damage" 5
+		"ion damage" .2
+		
+effect "markla flak"
+	sprite "effect/huge spark"
+		"no repeat"
+		"frame rate" 20
+	sound "explosion tiny"
+	"lifetime" 21
+	"random angle" 360
+	"random velocity" .1
+	"random spin" 4
+	"velocity scale" -.05
