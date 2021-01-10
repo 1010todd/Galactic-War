@@ -36,33 +36,40 @@ ship "Sao"
 		"Hasus Launcher" 10
 		"Hasus Missile" 400
 		
-	gun -109 -392 
-	engine -99.5 364.5
-	engine -26.5 380.5
-	engine 43 344.5
-	turret -238 69.5 "Donko Anti-Missile"
-	turret -245.5 365.5 "Donko Anti-Missile"
-	turret -246.5 418 "Donko Anti-Missile"
-	fighter -100.5 -149 left
-	fighter -100.5 -149 left
-	fighter -100.5 -149 left
-	fighter -100.5 -149 left
-	drone 86 -219.5 right
-	drone 86 -219.5 right
-	drone 86 -219.5 right
-	drone 86 -219.5 right
-	drone 86 -219.5 right
-	drone 86 -219.5 right
-	turret -99.5 63 "J6 KED Turret"
-	turret 22 -18 "J6 KED Turret"
-	turret 47 78 "J6 KED Turret"
-	turret -36.5 173 "J6 KED Turret"
+	gun -0.5 -244
+	turret -103.5 -85.5
+	turret 103.5 -85.5
+	turret -104 -1.5
+	turret 104 -1.5
+	turret -105 81
+	turret 105 81
+	turret -0.5 -50.5
+	engine -25.5 292
+		zoom 1
+		angle 0
+		under
+	engine 25.5 292
+		zoom 1
+		angle 0
+		under
+	engine -93 275.5
+		zoom 1
+		angle 0
+		under
+	engine 93 275.5
+		zoom 1
+		angle 0
+		under
+	drone -71 13.5
+	drone 71 13.5
+	drone -71 13.5
+	drone 71 13.5
 	explode "tiny explosion" 40
 	explode "small explosion" 40
 	explode "medium explosion" 20
 	explode "big explosion" 17
 	explode "huge explosion" 10
-	description "Pride of the Donko's engineers the Sao model battleship, it's strongest ship the Donkos ever built and the most Hi-Tech ship of the Donkos."
+	description "Pride of the Donko's engineers, this is currently their most advanced spaceship ever built."
 	
 ship "Kolso"
 	sprite "ship/donko kolso"
@@ -269,6 +276,62 @@ ship "Koi" "Koi (Drone)"
 	explode "big explosion" 3
  	description "" 
 	
+ship "Koi" "Koi (Freighter)"
+	sprite "ship/donko koi" 
+	thumbnail "thumbnail/donko koi thumb"
+	attributes 
+		category "Medium Warship" 
+		"cost" 500000 
+		"shields" 44000 
+		"hull" 13000 
+		"required crew" 7 
+		"bunks" 20 
+		"mass" 450 
+		"drag"  2 
+		"heat dissipation" .6 
+		"fuel capacity" 600 
+		"cargo space" 40 
+		"outfit space" 800 
+		"weapon capacity" 500 
+		"engine capacity" 150 
+		weapon 
+			"blast radius" 570 
+			"shield damage" 5700 
+			"hull damage" 2850 
+			"hit force" 8550 
+	outfits 
+		"Donko Hyperdrive"
+		"Jump Drive"
+		"Hasus Launcher" 2
+		"Hasus Missile" 80
+		"Donko Anti-Missile" 5
+		"K4 Shield Generator"
+		"T4 Steering"
+		"T4 Thruster"
+		"R5 Cell"
+		"J4 KED Turret" 6
+
+	gun -56.5 -76
+	gun 56.5 -76
+	turret -44 84
+	turret 44 84
+	turret -27.5 63
+	turret 27.5 63
+	turret 0 70
+	engine -16.5 131
+		zoom 1
+		angle 0
+		under
+	engine 16.5 131
+		zoom 1
+		angle 0
+		under
+	explode "tiny explosion" 15
+	explode "small explosion" 15
+	explode "medium explosion" 10
+	explode "big explosion" 3
+ 	description "" 
+	
 ship "Kanse"
 	sprite "ship/donko kanse thumb"
 	thumbnail "thumbnail/donko kanse"
@@ -362,20 +425,25 @@ ship "Senka"
 		"J4 KED Turret" 4
 		"J4 MES Turret" 4
 
-	gun -18.5 -240.5
-	gun 25.5 -212.5
-	gun 54 -136
-	gun 84 -112.5
-	turret 37 -109 "J4 KED Turret"
-	turret 38 -60 "J4 KED Turret"
-	turret 39.5 -7 "J4 MES Turret"
-	turret 39.5 37 "J4 MES Turret"
-	turret -22 -7 "J4 KED Turret"
-	engine -38 193
-	engine 3 155.5
-	engine 46 174
-	turret -69 -46 "Donko Anti-Missile"
-	turret -67 -94.5 "Donko Anti-Missile"
+	gun -53 -167
+	gun 53 -167
+	gun -34.5 -186
+	gun 34.5 -186
+	turret -20.5 -122
+	turret 20.5 -122
+	turret -21 -93.5
+	turret 21 -93.5
+	turret -20.5 -64
+	turret 20.5 -64
+	turret 0 -22.5
+	engine -16.5 152.5
+		zoom 1
+		angle 0
+		under
+	engine 16.5 152.5
+		zoom 1
+		angle 0
+		under
 	explode "tiny explosion" 15
 	explode "small explosion" 15
 	explode "medium explosion" 10
