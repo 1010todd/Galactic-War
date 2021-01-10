@@ -1,0 +1,17 @@
+minable "Nurbote"
+	sprite "asteroid/nurbote/crystal"
+	hull 20000
+	payload "Nurbote" 12
+	explode "smoke" 40
+	explode "bolide" 40
+	explode "final explosion large"
+
+outfit "Nurbote"
+	plural "Nurbote"
+	category "Special"
+	cost 16000
+	thumbnail "outfit/nurbote"
+	"flotsam sprite" "effect/nurbote"
+	"mass" 2
+	"installable" -1
+	description "Lightweight and rust resistant, aluminum is often used for the hulls of civilian spacecraft that do not need to be able to stand up to prolonged weapons fire."
