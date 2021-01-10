@@ -4,14 +4,14 @@ ship "Sao"
 	thumbnail "thumbnail/donko sao thumb"
 	attributes
 		category "Heavy Warship"
-		"cost" 49900000
-		"shields" 670000
-		"hull" 300000
-		"required crew" 45
+		"cost" 90900000
+		"shields" 300000
+		"hull" 250000
+		"required crew" 350
 		"bunks" 600
-		"mass" 500
-		"drag" 1.9
-		"heat dissipation" .5
+		"mass" 880
+		"drag" 9.6
+		"heat dissipation" .7
 		"fuel capacity" 1200
 		"cargo space" 300
 		"outfit space" 2100
@@ -31,19 +31,21 @@ ship "Sao"
 		"Experimental ANTI-10 Core"
 		"T6 Thruster"
 		"T6 Steering"
-		"J6 KED Turret" 10
-		"Donko Anti-Missile" 12
+		"J6 KED Turret" 4
+		"Donko Anti-Missile" 3
 		"Hasus Launcher" 10
 		"Hasus Missile" 400
+		"Y2 Coran Gun"
+		"Nurbote" 60
 		
-	gun -0.5 -244
-	turret -103.5 -85.5
-	turret 103.5 -85.5
-	turret -104 -1.5
-	turret 104 -1.5
-	turret -105 81
-	turret 105 81
-	turret -0.5 -50.5
+	gun -0.5 -244 "Y2 Coran Gun"
+	turret -103.5 -85.5 "J6 KED Turret" 
+	turret 103.5 -85.5 "J6 KED Turret" 
+	turret -104 -1.5 "Donko Anti-Missile"
+	turret 104 -1.5 "Donko Anti-Missile"
+	turret -105 81 "J6 KED Turret" 
+	turret 105 81 "J6 KED Turret" 
+	turret -0.5 -50.5 "Donko Anti-Missile"
 	engine -25.5 292
 		zoom 1
 		angle 0
@@ -71,19 +73,79 @@ ship "Sao"
 	explode "huge explosion" 10
 	description "Pride of the Donko's engineers, this is currently their most advanced spaceship ever built."
 	
+ship "Kanse"
+	sprite "ship/donko kanse"
+	thumbnail "thumbnail/donko kanse thumb"
+	attributes
+		category "Interceptor"
+		"cost" 425000
+		"shields" 11000
+		"hull" 6800
+		"required crew" 1
+		"bunks" 2
+		"mass" 70
+		"drag" 1.0
+		"heat dissipation" .9
+		"fuel capacity" 400
+		"cargo space" 25
+		"outfit space" 150
+		"weapon capacity" 60
+		"engine capacity" 50
+		weapon
+			"blast radius" 20
+			"shield damage" 160
+			"hull damage" 80
+			"hit force" 240
+	outfits
+		"J2 MES Gun" 2
+		"J2 KED Gun" 2
+		"Donko Anti-Missile"
+		"Jump Drive"
+		"R2 Cell"
+		"K1 Shield Generator"
+		"T2 Thruster"
+		"T2 Steering"
+		"Donko Hyperdrive"
+		
+	gun -26 -42
+	gun 26 -42
+	gun -26 -42 "J2 KED Gun"
+	gun 26 -42 "J2 KED Gun"
+	turret 0 31
+	engine -17 54
+		zoom 1
+		angle 0
+		under
+	engine 17 54
+		zoom 1
+		angle 0
+		under
+	"reverse engine" -29 10.5
+		zoom 1
+		angle 180
+		under
+	"reverse engine" 29 10.5
+		zoom 1
+		angle 180
+		under
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description "Kanse are primarily used for reconnaissance and mining."
+	
+	
 ship "Kolso"
 	sprite "ship/donko kolso"
 	thumbnail "thumbnail/donko kolso thumb"
 	attributes
 		category "Fighter"
 		"cost" 100000
-		"shields" 1800
-		"hull" 1400
+		"shields" 15000
+		"hull" 12000
 		"required crew" 1
 		"bunks" 1
 		"mass" 25
 		"drag" .4
-		"heat dissipation" .8
+		"heat dissipation" .9
 		"outfit space" 90
 		"weapon capacity" 36
 		"engine capacity" 30
@@ -117,11 +179,11 @@ ship "Matka"
 	attributes
 		category "Drone"
 		"cost" 90000
-		"shields" 1100
-		"hull" 1200
+		"shields" 12000
+		"hull" 10000
 		"mass" 22
 		"drag" .3
-		"heat dissipation" .8
+		"heat dissipation" .9
 		"outfit space" 80
 		"weapon capacity" 24
 		"engine capacity" 30
@@ -156,14 +218,14 @@ ship "Koi"
 	thumbnail "thumbnail/donko koi thumb"
 	attributes 
 		category "Medium Warship" 
-		"cost" 500000 
-		"shields" 44000 
-		"hull" 13000 
+		"cost" 30000000 
+		"shields" 34000 
+		"hull" 22000 
 		"required crew" 7 
 		"bunks" 20 
 		"mass" 450 
 		"drag"  2 
-		"heat dissipation" .6 
+		"heat dissipation" .8
 		"fuel capacity" 600 
 		"cargo space" 40 
 		"outfit space" 800 
@@ -216,17 +278,17 @@ ship "Koi" "Koi (Drone)"
 	sprite "ship/donko koi" 
 	thumbnail "thumbnail/donko koi thumb"
 	attributes 
-		category "Medium Warship" 
-		"cost" 500000 
-		"shields" 44000 
-		"hull" 13000 
+		category "Heavy Freighter" 
+		"cost" 30000000 
+		"shields" 34000 
+		"hull" 22000 
 		"required crew" 7 
 		"bunks" 20 
 		"mass" 450 
 		"drag"  2 
-		"heat dissipation" .6 
+		"heat dissipation" .8 
 		"fuel capacity" 600 
-		"cargo space" 40 
+		"cargo space" 250 
 		"outfit space" 800 
 		"weapon capacity" 500 
 		"engine capacity" 150 
@@ -281,14 +343,14 @@ ship "Koi" "Koi (Freighter)"
 	thumbnail "thumbnail/donko koi thumb"
 	attributes 
 		category "Medium Warship" 
-		"cost" 500000 
-		"shields" 44000 
-		"hull" 13000 
+		"cost" 30000000 
+		"shields" 34000 
+		"hull" 22000  
 		"required crew" 7 
 		"bunks" 20 
 		"mass" 450 
 		"drag"  2 
-		"heat dissipation" .6 
+		"heat dissipation" .8 
 		"fuel capacity" 600 
 		"cargo space" 40 
 		"outfit space" 800 
@@ -332,76 +394,19 @@ ship "Koi" "Koi (Freighter)"
 	explode "big explosion" 3
  	description "" 
 	
-ship "Kanse"
-	sprite "ship/donko kanse thumb"
-	thumbnail "thumbnail/donko kanse"
-	attributes
-		category "Interceptor"
-		"cost" 425000
-		"shields" 3800
-		"hull" 1600
-		"required crew" 1
-		"bunks" 2
-		"mass" 70
-		"drag" 1.0
-		"heat dissipation" .7
-		"fuel capacity" 400
-		"cargo space" 25
-		"outfit space" 150
-		"weapon capacity" 60
-		"engine capacity" 50
-		weapon
-			"blast radius" 20
-			"shield damage" 160
-			"hull damage" 80
-			"hit force" 240
-	outfits
-		"J1 MES Gun" 4
-		"Jump Drive"
-		"R2 Cell"
-		"K1 Shield Generator"
-		"T2 Thruster"
-		"T2 Steering"
-		"Donko Hyperdrive"
-		
-	gun -26 -42
-	gun 26 -42
-	gun -26 -42
-	gun 26 -42
-	turret 0 31
-	engine -17 54
-		zoom 1
-		angle 0
-		under
-	engine 17 54
-		zoom 1
-		angle 0
-		under
-	"reverse engine" -29 10.5
-		zoom 1
-		angle 180
-		under
-	"reverse engine" 29 10.5
-		zoom 1
-		angle 180
-		under
-	explode "tiny explosion" 15
-	explode "small explosion" 5
-	description "Kanse are primarily used for reconnaissance and mining."
-	
 ship "Senka" 
-	sprite "ship/donko senka thumb" 
-	thumbnail "thumbnail/donko senka"
+	sprite "ship/donko senka" 
+	thumbnail "thumbnail/donko senka thumb"
 	attributes 
 		category "Heavy Warship" 
 		"cost" 55000000 
-		"shields" 78000 
-		"hull" 45000 
+		"shields" 140000
+		"hull" 135000 
 		"required crew" 20 
 		"bunks" 50
 		"mass" 650 
 		"drag"  4 
-		"heat dissipation" .5
+		"heat dissipation" .7
 		"fuel capacity" 800
 		"cargo space" 80
 		"outfit space" 1100 
@@ -417,25 +422,25 @@ ship "Senka"
 		"Jump Drive"
 		"Hasus Launcher" 4
 		"Hasus Missile" 160
-		"Donko Anti-Missile" 9
+		"Donko Anti-Missile"
 		"K5 Shield Generator"
 		"T5 Steering"
 		"T5 Thruster"
 		"R5 Cell"
-		"J4 KED Turret" 4
+		"J4 KED Turret" 2
 		"J4 MES Turret" 4
 
 	gun -53 -167
 	gun 53 -167
 	gun -34.5 -186
 	gun 34.5 -186
-	turret -20.5 -122
-	turret 20.5 -122
-	turret -21 -93.5
-	turret 21 -93.5
-	turret -20.5 -64
-	turret 20.5 -64
-	turret 0 -22.5
+	turret -20.5 -122 "J4 KED Turret"
+	turret 20.5 -122 "J4 KED Turret"
+	turret -21 -93.5 "J4 MES Turret"
+	turret 21 -93.5 "J4 MES Turret"
+	turret -20.5 -64 "J4 MES Turret"
+	turret 20.5 -64 "J4 MES Turret"
+	turret 0 -22.5 "Donko Anti-Missile"
 	engine -16.5 152.5
 		zoom 1
 		angle 0

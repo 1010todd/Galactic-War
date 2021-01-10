@@ -1,7 +1,7 @@
 
 outfit "J1 MES Gun"
 	category "Guns"
-	cost 15000000
+	cost 1500000
 	thumbnail "outfit/j1mes gun"
 	mass 12
 	"outfit space" -12
@@ -17,17 +17,59 @@ outfit "J1 MES Gun"
 		"reload" 5
 		"firing energy" 28
 		"firing heat" 8
-		"shield damage" 12
-		"hull damage" 24
-		"ion damage" .01
+		"shield damage" 18
+		"hull damage" 8
+		
+outfit "J2 MES Gun"
+	category "Guns"
+	cost 1700000
+	thumbnail "outfit/j1mes gun"
+	mass 20
+	"outfit space" -20
+	"weapon capacity" -20
+	"gun ports" -1
+	weapon
+		sprite "projectile/blaster"
+		sound "proton"
+		"hit effect" "skylance impact"
+		"inaccuracy" .1
+		"velocity" 26
+		"lifetime" 38
+		"reload" 6
+		"firing energy" 33
+		"firing heat" 11
+		"shield damage" 30
+		"hull damage" 14
+		
+outfit "J2 KED Gun"
+	category "Guns"
+	cost 1700000
+	thumbnail "outfit/j1mes gun"
+	mass 24
+	"outfit space" -24
+	"weapon capacity" -24
+	"gun ports" -1
+	weapon
+		sprite "projectile/blaster"
+		sound "proton"
+		"hit effect" "skylance impact"
+		"inaccuracy" .1
+		"velocity" 26
+		"lifetime" 38
+		"reload" 60
+		"firing energy" 33
+		"firing heat" 11
+		"shield damage" 380
+		"hull damage" 166
+		"piercing" .2
 
 outfit "J4 MES Turret"
 	category "Turrets"
 	cost 18000000
 	thumbnail "outfit/j4mes gun"
-	mass 17
-	"outfit space" -17
-	"weapon capacity" -17
+	mass 37
+	"outfit space" -37
+	"weapon capacity" -37
 	"turret mounts" -1
 	weapon
 		sprite "projectile/blaster"
@@ -40,9 +82,8 @@ outfit "J4 MES Turret"
 		"reload" 10
 		"firing energy" 90
 		"firing heat" 10
-		"shield damage" 21
-		"hull damage" 32
-		"ion damage" .01
+		"shield damage" 90
+		"hull damage" 67
 		
 outfit "J4 KED Turret"
 	category "Turrets"
@@ -66,8 +107,7 @@ outfit "J4 KED Turret"
 		"firing heat" 5
 		"shield damage" 2400
 		"hull damage" 1800
-		"ion damage" .01
-		"piercing" .08
+		"piercing" .3
 		
 outfit "J6 KED Turret"
 	category "Turrets"
@@ -89,10 +129,9 @@ outfit "J6 KED Turret"
 		"reload" 240
 		"firing energy" 84
 		"firing heat" 8
-		"shield damage" 5500
-		"hull damage" 3600
-		"ion damage" .1
-		"piercing" .1
+		"shield damage" 5300
+		"hull damage" 3200
+		"piercing" .34
 
 outfit "Donko Anti-Missile"
 	category "Turrets"
@@ -104,7 +143,7 @@ outfit "Donko Anti-Missile"
 	"turret mounts" -1
 	weapon
 		"hit effect" "donko anti-missile"
-		"anti-missile" 9
+		"anti-missile" 28
 		"velocity" 800
 		"lifetime" 1
 		"reload" 5
@@ -114,9 +153,9 @@ outfit "Donko Anti-Missile"
 effect "donko anti-missile"
 	sprite "effect/quarg anti missile"
 		"no repeat"
-		"frame rate" 3
-	sound "quarg anti-missile"
-	"lifetime" 21
+		"frame rate" 5
+	sound "emissile"
+	"lifetime" 12
 	"velocity scale" 1
 		
 outfit "Hasus Missile"
@@ -159,6 +198,31 @@ outfit "Hasus Launcher"
 		"hit force" 60
 		"missile strength" 60
 	description "." 
+		
+outfit "Y2 Coran Gun"
+	category "Guns"
+	cost 17000000
+	thumbnail "outfit/coran gun"
+	mass 240
+	"outfit space" -240
+	"weapon capacity" -240
+	"gun ports" -1
+	"spinal mount" -1
+	weapon
+		sprite "projectile/blaster"
+		sound "proton"
+		ammo "Nurbote" //Placeholder, but that's the concept
+		icon "icon/hasus"
+		"hit effect" "skylance impact"
+		"inaccuracy" .1
+		"velocity" 25
+		"lifetime" 20
+		"reload" 60
+		"firing energy" 330
+		"firing heat" 11
+		"shield damage" 6000
+		"hull damage" 2880
+		"piercing" .4
 		
 outfit "K6 Shield Generator"
 	category "Systems"
