@@ -1,4 +1,4 @@
-outfit "Gogase Rail Cannon"
+outfit "Algarral Battle Gun" #gogase
 	category "Guns"
 	cost 640000
 	thumbnail "outfit/particle cannon"
@@ -14,17 +14,16 @@ outfit "Gogase Rail Cannon"
 		"velocity" 35
 		"lifetime" 15
 		"reload" 17
-		"firing energy" 55
-		"firing force" 4
-		"firing heat" 120
+		"firing energy" 45
+		"firing force" 8
+		"firing heat" 70
 		"hit force" 40
 		"cluster"
-		"shield damage" 66
-		"hull damage" 120
-		"piercing" .05
-	description "
+		"shield damage" 30
+		"hull damage" 5
+	description "Algarral is a weapon geared towards bringing down enemy's shield."
 	
-outfit "Gosa Energy Cannon"
+outfit "Orthall Assault Cannon" #gosa
 	category "Guns"
 	cost 780000
 	thumbnail "outfit/particle cannon"
@@ -41,13 +40,13 @@ outfit "Gosa Energy Cannon"
 		"velocity" 35
 		"lifetime" 25
 		"reload" 60
-		"firing energy" 80
-		"firing force" 10
+		"firing energy" 110
+		"firing force" 18
 		"firing heat" 160
-		"hit force" 60
+		"hit force" 80
 		"cluster"
-		"shield damage" 266
-		"hull damage" 400
+		"shield damage" 110
+		"hull damage" 300
 		"piercing" .1
 	description "
 	
@@ -106,31 +105,31 @@ outfit "Gowaki Ion Thruster"
 	"turning energy" 2
 	"turning heat" 2.6
 	
-outfit "Gossa Shield Generator"
+outfit "Nurbolo Shield Generator"
 	category "Systems"
 	cost 2000000
 	thumbnail "outfit/unknown"
 	"mass" 29
 	"outfit space" -29
-	"shield generation" 29
+	"shield generation" 6.8
 	"shield energy" 7
 	
-outfit "Golak Shield Generator"
+outfit "Norklo'Ar Shield Generator"
 	category "Systems"
 	cost 150000
 	thumbnail "outfit/unknown"
 	"mass" 9
 	"outfit space" -9
-	"shield generation" 9
+	"shield generation" 4.7
 	"shield energy" 5
 	
-outfit "Gokla Shield Generator"
+outfit "Ornai Shield Generator"
 	category "Systems"
 	cost 100000
 	thumbnail "outfit/unknown"
 	"mass" 6
 	"outfit space" -6
-	"shield generation" 6
+	"shield generation" 2.5
 	"shield energy" 3
 	
 outfit "Gol Cell"
