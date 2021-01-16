@@ -232,6 +232,7 @@ outfit "K6 Shield Generator"
 	"outfit space" -160
 	"shield generation" 12.4
 	"shield energy" 12
+	"shield delay" 4
 	
 outfit "K5 Shield Generator"
 	category "Systems"
@@ -241,6 +242,7 @@ outfit "K5 Shield Generator"
 	"outfit space" -100
 	"shield generation" 9.6
 	"shield energy" 9.2
+	"shield delay" 4
 	
 outfit "K4 Shield Generator"
 	category "Systems"
@@ -250,6 +252,7 @@ outfit "K4 Shield Generator"
 	"outfit space" -60
 	"shield generation" 6.6
 	"shield energy" 6.3
+	"shield delay" 3
 	
 outfit "K2 Shield Generator"
 	category "Systems"
@@ -259,6 +262,7 @@ outfit "K2 Shield Generator"
 	"outfit space" -20
 	"shield generation" 4.8
 	"shield energy" 4.6
+	"shield delay" 2
 	
 outfit "K1 Shield Generator"
 	category "Systems"
@@ -268,6 +272,7 @@ outfit "K1 Shield Generator"
 	"outfit space" -10
 	"shield generation" 2.6
 	"shield energy" 2.6
+	"shield delay" 1
 
 outfit "T6 Thruster"
 	category "Engines"
@@ -276,10 +281,9 @@ outfit "T6 Thruster"
 	"mass" 70
 	"outfit space" -70
 	"engine capacity" -70
-	"thrust" 190
-	"thrusting energy" 6
-	"thrusting heat" 1
-	"cooling" 250
+	"thrust" 105
+	"thrusting energy" 60
+	"thrusting heat" 45
 	"flare sprite" "effect/atomic flare/huge"
 		"frame rate" 1
 	"flare sound" "ion huge"
@@ -291,10 +295,9 @@ outfit "T6 Steering"
 	"mass" 100
 	"outfit space" -100
 	"engine capacity" -100
-	"turn" 2800
-	"turning energy" 3
-	"turning heat" 1
-	"cooling" 250
+	"turn" 2200
+	"turning energy" 64
+	"turning heat" 53
 	
 outfit "T5 Thruster"
 	category "Engines"
@@ -303,10 +306,9 @@ outfit "T5 Thruster"
 	"mass" 55
 	"outfit space" -55
 	"engine capacity" -55
-	"thrust" 340
-	"thrusting energy" 5
-	"thrusting heat" 1
-	"cooling" 200
+	"thrust" 90
+	"thrusting energy" 53
+	"thrusting heat" 36
 	"flare sprite" "effect/atomic flare/large"
 		"frame rate" 1
 	"flare sound" "ion large"
@@ -318,10 +320,9 @@ outfit "T5 Steering"
 	"mass" 60
 	"outfit space" -60
 	"engine capacity" -60
-	"turn" 2700
-	"turning energy" 1.8
-	"turning heat" .9
-	"cooling" 200
+	"turn" 1210
+	"turning energy" 52
+	"turning heat" 48
 	
 outfit "T4 Thruster"
 	category "Engines"
@@ -330,10 +331,9 @@ outfit "T4 Thruster"
 	"mass" 40
 	"outfit space" -40
 	"engine capacity" -40
-	"thrust" 150
-	"thrusting energy" 4
-	"thrusting heat" .9
-	"cooling" 150
+	"thrust" 67
+	"thrusting energy" 45
+	"thrusting heat" 32
 	"flare sprite" "effect/atomic flare/medium"
 		"frame rate" 1
 	"flare sound" "ion medium"
@@ -345,10 +345,34 @@ outfit "T4 Steering"
 	"mass" 50
 	"outfit space" -50
 	"engine capacity" -50
-	"turn" 1500
-	"turning energy" 1.6
-	"turning heat" .8
-	"cooling" 150
+	"turn" 890
+	"turning energy" 43
+	"turning heat" 36
+	
+outfit "T3 Thruster"
+	category "Engines"
+	"cost" 19000
+	thumbnail "outfit/donko engine dual"
+	"mass" 34
+	"outfit space" -23
+	"engine capacity" -23
+	"thrust" 18.9
+	"thrusting energy" 33
+	"thrusting heat" 26
+	"flare sprite" "effect/atomic flare/small"
+		"frame rate" 1.5
+	"flare sound" "ion small"
+	
+outfit "T3 Steering"
+	category "Engines"
+	"cost" 18000
+	thumbnail "outfit/small ion steering"
+	"mass" 30
+	"outfit space" -30
+	"engine capacity" -30
+	"turn" 552
+	"turning energy" 26
+	"turning heat" 22
 	
 outfit "T2 Thruster"
 	category "Engines"
@@ -358,9 +382,8 @@ outfit "T2 Thruster"
 	"outfit space" -23
 	"engine capacity" -23
 	"thrust" 10.4
-	"thrusting energy" 1
-	"thrusting heat" .5
-	"cooling" 100
+	"thrusting energy" 25
+	"thrusting heat" 18
 	"flare sprite" "effect/atomic flare/small"
 		"frame rate" 1.5
 	"flare sound" "ion small"
@@ -373,9 +396,8 @@ outfit "T2 Steering"
 	"outfit space" -15
 	"engine capacity" -15
 	"turn" 350
-	"turning energy" .6
-	"turning heat" .1
-	"cooling" 100
+	"turning energy" 18
+	"turning heat" 16
 	
 outfit "T1 Thruster"
 	category "Engines"
@@ -385,9 +407,8 @@ outfit "T1 Thruster"
 	"outfit space" -14
 	"engine capacity" -14
 	"thrust" 5.6
-	"thrusting energy" .3
-	"thrusting heat" .1
-	"cooling" 50
+	"thrusting energy" 14
+	"thrusting heat" 9
 	"flare sprite" "effect/atomic flare/tiny"
 		"frame rate" 1.5
 	"flare sound" "ion tiny"
@@ -400,9 +421,8 @@ outfit "T1 Steering"
 	"outfit space" -10
 	"engine capacity" -10
 	"turn" 170
-	"turning energy" .2
-	"turning heat" .09
-	"cooling" 50
+	"turning energy" 9
+	"turning heat" 7
 	
 outfit "Donko Hyperdrive"
 	category "Systems"
