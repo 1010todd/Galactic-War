@@ -19,6 +19,7 @@ outfit "J1 MES Gun"
 		"firing heat" 8
 		"shield damage" 18
 		"hull damage" 8
+	description ""
 		
 outfit "J2 MES Gun"
 	category "Guns"
@@ -133,7 +134,7 @@ outfit "J6 KED Turret"
 		"hull damage" 3200
 		"piercing" .34
 
-outfit "Donko Anti-Missile"
+outfit "Barmott Anti-Missile" //used to be Donko Anti-Missile
 	category "Turrets"
 	cost 5000000
 	thumbnail "outfit/donko anti missile"
@@ -143,12 +144,30 @@ outfit "Donko Anti-Missile"
 	"turret mounts" -1
 	weapon
 		"hit effect" "donko anti-missile"
-		"anti-missile" 28
+		"anti-missile" 22
 		"velocity" 800
 		"lifetime" 1
-		"reload" 5
+		"reload" 16
 		"firing energy" 50
-	description ""
+	description "Donko's primary long-range anti missile."
+	
+outfit "Citorn Anti-Missile" 
+	category "Turrets"
+	cost 5000000
+	thumbnail "outfit/donko anti missile"
+	"mass" 74
+	"outfit space" -74
+	"weapon capacity" -74
+	"turret mounts" -1
+	weapon
+		"hit effect" "donko anti-missile"
+		ammo "Nurbote" //Todo, give it proper ammo
+		"anti-missile" 88
+		"velocity" 400
+		"lifetime" 1
+		"reload" 45
+		"firing energy" 50
+	description "Hard-hitting anti missile that require ammo to fire."
 
 effect "donko anti-missile"
 	sprite "effect/quarg anti missile"
@@ -211,7 +230,7 @@ outfit "Y2 Coran Gun"
 	weapon
 		sprite "projectile/blaster"
 		sound "proton"
-		ammo "Nurbote" 1 //Placeholder, but that's the concept
+		ammo "Nurbote" 1 //Placeholder, but that's the concept(To fire these crystal)
 		icon "icon/hasus"
 		"hit effect" "skylance impact"
 		"inaccuracy" .1
