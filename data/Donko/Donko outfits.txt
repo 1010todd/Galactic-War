@@ -133,49 +133,6 @@ outfit "J6 KED Turret"
 		"shield damage" 5300
 		"hull damage" 3200
 		"piercing" .34
-
-outfit "Barmott Anti-Missile" //used to be Donko Anti-Missile
-	category "Turrets"
-	cost 5000000
-	thumbnail "outfit/donko anti missile"
-	"mass" 30
-	"outfit space" -30
-	"weapon capacity" -30
-	"turret mounts" -1
-	weapon
-		"hit effect" "donko anti-missile"
-		"anti-missile" 22
-		"velocity" 800
-		"lifetime" 1
-		"reload" 16
-		"firing energy" 50
-	description "Donko's primary long-range anti missile."
-	
-outfit "Citorn Anti-Missile" 
-	category "Turrets"
-	cost 5000000
-	thumbnail "outfit/donko anti missile"
-	"mass" 74
-	"outfit space" -74
-	"weapon capacity" -74
-	"turret mounts" -1
-	weapon
-		"hit effect" "donko anti-missile"
-		ammo "Nurbote" //Todo, give it proper ammo
-		"anti-missile" 88
-		"velocity" 400
-		"lifetime" 1
-		"reload" 45
-		"firing energy" 50
-	description "Hard-hitting anti missile that require ammo to fire."
-
-effect "donko anti-missile"
-	sprite "effect/quarg anti missile"
-		"no repeat"
-		"frame rate" 5
-	sound "emissile"
-	"lifetime" 12
-	"velocity scale" 1
 		
 outfit "Hasus Missile"
 	category "Ammunition"
@@ -242,6 +199,49 @@ outfit "Y2 Coran Gun"
 		"shield damage" 6000
 		"hull damage" 2880
 		"piercing" .4
+		
+outfit "Barmott Anti-Missile" //used to be Donko Anti-Missile
+	category "Turrets"
+	cost 5000000
+	thumbnail "outfit/donko anti missile"
+	"mass" 30
+	"outfit space" -30
+	"weapon capacity" -30
+	"turret mounts" -1
+	weapon
+		"hit effect" "donko anti-missile"
+		"anti-missile" 22
+		"velocity" 800
+		"lifetime" 1
+		"reload" 16
+		"firing energy" 50
+	description "Donko's primary long-range anti missile."
+	
+outfit "Citorn Anti-Missile" 
+	category "Turrets"
+	cost 5000000
+	thumbnail "outfit/donko anti missile"
+	"mass" 74
+	"outfit space" -74
+	"weapon capacity" -74
+	"turret mounts" -1
+	weapon
+		"hit effect" "donko anti-missile"
+		ammo "Nurbote" //Todo, give it proper ammo
+		"anti-missile" 88
+		"velocity" 400
+		"lifetime" 1
+		"reload" 45
+		"firing energy" 50
+	description "Hard-hitting anti missile that require ammo to fire."
+
+effect "donko anti-missile"
+	sprite "effect/quarg anti missile"
+		"no repeat"
+		"frame rate" 5
+	sound "emissile"
+	"lifetime" 12
+	"velocity scale" 1
 		
 outfit "K6 Shield Generator"
 	category "Systems"

@@ -145,9 +145,9 @@ outfit "Mas-Senkai Gun"
 		"reload" 10
 		"firing energy" 30
 		"firing heat" 4
-		"shield damage" 520
-		"hull damage" 420
-		"ion damage" 1
+		"shield damage" 26
+		"hull damage" 58
+		"heat damage" 5
 		
 outfit "Mase-Dettai Laser"
 	category "Guns"
@@ -168,11 +168,11 @@ outfit "Mase-Dettai Laser"
 		"reload" 1
 		"firing energy" 2
 		"firing heat" .4
-		"shield damage" 30
-		"hull damage" 5
+		"shield damage" 3
+		"hull damage" .7
 	description "
 		
-outfit "Masai-kem Missile Defence"
+outfit "Masai-kem Missile Defence" #Dunno tf is this.
 	category "Guns"
 	cost 835000
 	thumbnail "outfit/medium shield"
@@ -203,7 +203,7 @@ outfit "Masai-mei Missile Defence"
 	"turret mounts" -1
 	weapon
 		"fire effect" "masai fire"
-		"anti-missile" 22
+		"anti-missile" 5
 		"turret turn" 20
 		"velocity" 330
 		"lifetime" 1
@@ -224,7 +224,7 @@ outfit "Masai-mei Missile Defence (locked)"
 	"mdf lock" 1
 	weapon
 		"fire effect" "masai fire"
-		"anti-missile" 22
+		"anti-missile" 5
 		"turret turn" 20
 		"velocity" 330
 		"lifetime" 1
@@ -266,7 +266,7 @@ outfit "Masini-Senmari Gun"
 		"burst count" 6
 		"firing energy" 22
 		"firing heat" 2
-		"shield damage" 45
+		"shield damage" 15
 		"hull damage" 20
 		"stream"
 		"ion damage" .1
@@ -291,13 +291,13 @@ outfit "Maisenkai-Senkorna Turret"
 		"reload" 20
 		"burst reload" 1.6
 		"burst count" 2
-		"firing energy" 840
+		"firing energy" 450
 		"firing heat" 89
-		"shield damage" 80
-		"hull damage" 40
+		"shield damage" 250
+		"hull damage" 92
 		"stream"
-		"ion damage" .5
-		"heat damage" 80
+		"ion damage" 8
+		"heat damage" 82
 		
 outfit "Maisenkai-Temaika Laser"
 	category "Guns"
@@ -318,11 +318,10 @@ outfit "Maisenkai-Temaika Laser"
 		"reload" 1
 		"firing energy" 12
 		"firing heat" 8
-		"shield damage" 60
-		"hull damage" 12
+		"shield damage" 12
+		"hull damage" 3
 		"ion damage" .3
 		"heat damage" 10
-		"slowing damage" 5
 	description "
 		
 # Sheildings
@@ -332,8 +331,9 @@ outfit "Makaso Shield Generator"
 	thumbnail "outfit/unknown"
 	"mass" 80
 	"outfit space" -80
-	"shield generation" 25
-	"shield energy" 12.4
+	"shield generation" 27
+	"shield energy" 25.4
+	"shield heat" 16.6
 	
 outfit "Matoas Shield Generator"
 	category "Systems"
@@ -341,8 +341,9 @@ outfit "Matoas Shield Generator"
 	thumbnail "outfit/unknown"
 	"mass" 50
 	"outfit space" -50
-	"shield generation" 19.3
-	"shield energy" 10
+	"shield generation" 14.3
+	"shield energy" 12.7
+	"shield heat" 8.8
 	
 outfit "Makean Shield Generator"
 	category "Systems"
@@ -350,8 +351,9 @@ outfit "Makean Shield Generator"
 	thumbnail "outfit/unknown"
 	"mass" 30
 	"outfit space" -30
-	"shield generation" 15.6
-	"shield energy" 7.5
+	"shield generation" 7.5
+	"shield energy" 6.1
+	"shield heat" 7.5
 	
 outfit "Masoak Shield Generator"
 	category "Systems"
@@ -359,8 +361,9 @@ outfit "Masoak Shield Generator"
 	thumbnail "outfit/unknown"
 	"mass" 10
 	"outfit space" -10
-	"shield generation" 10.9
-	"shield energy" 5
+	"shield generation" 2.9
+	"shield energy" 2.2
+	"shield heat" 6.7
 	
 outfit "Mahen Shield Generator"
 	category "Systems"
@@ -368,33 +371,43 @@ outfit "Mahen Shield Generator"
 	thumbnail "outfit/unknown"
 	"mass" 5
 	"outfit space" -5
-	"shield generation" 6.4
-	"shield energy" 3
+	"shield generation" 1.7
+	"shield energy" 2
+	"shield heat" 6
 	
 # Powers
-outfit "Maseki Cell"
+outfit "Aseki Cell" #Maseki
 	category "Power"
 	cost 140000
 	thumbnail "outfit/tiny fuel cell"
 	"mass" 10
 	"outfit space" -10
-	"energy generation" 28
+	"energy generation" 6
 	"energy capacity" 1000
 	
-outfit "Masoki Cell"
+outfit "Eirjika Cell" #Masoki
 	category "Power"
 	cost 320000
 	thumbnail "outfit/small fuel cell"
 	"mass" 15
 	"outfit space" -15
-	"energy generation" 47
+	"energy generation" 8.2
 	"energy capacity" 2000
 	
-outfit "Masaski Cell"
+outfit "Fuguari Cell" #Masoki
+	category "Power"
+	cost 320000
+	thumbnail "outfit/small fuel cell"
+	"mass" 24
+	"outfit space" -24
+	"energy generation" 14.3
+	"energy capacity" 2300
+	
+outfit "Qutimaka Cell" #Masaski
 	category "Power"
 	cost 900000
 	thumbnail "outfit/big fuel cell"
 	"mass" 50
 	"outfit space" -50
-	"energy generation" 156
+	"energy generation" 24.7
 	"energy capacity" 5000

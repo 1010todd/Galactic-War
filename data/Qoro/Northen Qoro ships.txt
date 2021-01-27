@@ -15,9 +15,10 @@ ship "Qoro(N) Manta"
 		"outfit space" 140
 		"weapon capacity" 50
 		"engine capacity" 40
-		"shield generation" 3
-		"disruption damage" -.8
-		"piercing" -.8
+		"shield generation" .1
+		"shield generation multiplier" .1
+		"disruption resistance" -.8
+		"piercing resistance" -.8
 		"mdf lock" -1
 		weapon
 			"blast radius" 20
@@ -30,7 +31,7 @@ ship "Qoro(N) Manta"
 		"Mase-Dettai Laser" 2
 		"Mahen Shield Generator"
 		"Masai-mei Missile Defence (locked)"
-		"Maseki Cell"
+		"Aseki Cell"
 		"Hyperdrive"
 		
 	gun -17 -39.5
@@ -58,9 +59,10 @@ ship "Qoro(N) Masec"
 		"outfit space" 713
 		"weapon capacity" 344
 		"engine capacity" 132
-		"shield generation" 9
-		"disruption damage" -.8
-		"piercing" -.8
+		"shield generation" .1
+		"shield generation multiplier" .1
+		"disruption resistance" -.8
+		"piercing resistance" -.8
 		weapon
 			"blast radius" 320
 			"shield damage" 4600
@@ -71,7 +73,7 @@ ship "Qoro(N) Masec"
 		"Masini-Senmari Gun" 8
 		"Masai-mei Missile Defence"
 		
-		"Masaski Cell"
+		"Qutimaka Cell"
 		"Makean Shield Generator"
 		
 		"Maseka Thruster"
@@ -114,9 +116,10 @@ ship "Qoro(N) Matoanan"
 		"outfit space" 1540
 		"weapon capacity" 1000
 		"engine capacity" 480
-		"shield generation" 30
-		"disruption damage" -.8
-		"piercing" -.8
+		"shield generation" .1
+		"shield generation multiplier" .1
+		"disruption resistance" -.8
+		"piercing resistance" -.8
 		weapon
 			"blast radius" 260
 			"shield damage" 2600
