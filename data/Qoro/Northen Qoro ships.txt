@@ -26,13 +26,15 @@ ship "Qoro(N) Manta"
 			"hull damage" 80
 			"hit force" 240
 	outfits
-		"Masta Thruster"
-		"Masta-ian Steering"
 		"Mase-Dettai Laser" 2
-		"Mahen Shield Generator"
 		"Masai-mei Missile Defence (locked)"
+		
+		"Biqune Shield Generator"
 		"Aseki Cell"
+		
 		"Hyperdrive"
+		"Asutur Thruster"
+		"Asutur-ian Steering"
 		
 	gun -17 -39.5
 	gun 17 -39.5
@@ -70,11 +72,12 @@ ship "Qoro(N) Masec"
 			"hit force" 6900
 	outfits
 		"Mase-Dettai Laser" 2
-		"Masini-Senmari Gun" 8
+		"Masini-Senmari Gun" 6
+		"Masenar Turret" 2
 		"Masai-mei Missile Defence"
 		
 		"Qutimaka Cell"
-		"Makean Shield Generator"
+		"Hadinna Shield Generator
 		
 		"Maseka Thruster"
 		"Maseka-ian Steering"
@@ -85,8 +88,8 @@ ship "Qoro(N) Masec"
 	turret -0 -0.5 "Masai-mei Missile Defence"
 	turret -22.5 -61 "Masini-Senmari Gun"
 	turret 22.5 -61 "Masini-Senmari Gun"
-	turret -22.5 -30.5 "Masini-Senmari Gun"
-	turret 22.5 -30.5 "Masini-Senmari Gun"
+	turret -22.5 -30.5 "Masenar Turret"
+	turret 22.5 -30.5 "Masenar Turret"
 	turret -22.5 -1 "Masini-Senmari Gun"
 	turret 22.5 -1 "Masini-Senmari Gun"
 	gun -49 19
@@ -127,6 +130,10 @@ ship "Qoro(N) Matoanan"
 			"hit force" 3900
 	outfits
 		"Masai-mei Missile Defence (locked)"
+		
+		"Qutimaka Cell"
+		"Oatua Shield Generator"
+		
 		"Hyperdrive"
 		
 	engine -18 230
