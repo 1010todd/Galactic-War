@@ -1,6 +1,6 @@
 
 # Thrusters
-outfit "Masta Thruster"
+outfit "Asutur Thruster" #Masta
 	category "Engines"
 	"cost" 10000
 	thumbnail "outfit/qoro n engine"
@@ -14,7 +14,7 @@ outfit "Masta Thruster"
 		"frame rate" 10
 	"flare sound" "seeker"
 	
-outfit "Maseen Thruster"
+outfit "Eensura Thruster" #Maseen
 	category "Engines"
 	"cost" 20000
 	thumbnail "outfit/qoro n engine"
@@ -28,7 +28,7 @@ outfit "Maseen Thruster"
 		"frame rate" 10
 	"flare sound" "seeker"
 	
-outfit "Maseka Thruster"
+outfit "Maseka Thruster" 
 	category "Engines"
 	"cost" 30000
 	thumbnail "outfit/qoro n engine"
@@ -42,7 +42,7 @@ outfit "Maseka Thruster"
 		"frame rate" 10
 	"flare sound" "seeker"
 	
-outfit "Masenta Thruster"
+outfit "Otsarui Thruster" #Masenta
 	category "Engines"
 	"cost" 40000
 	thumbnail "outfit/qoro n engine"
@@ -56,7 +56,7 @@ outfit "Masenta Thruster"
 		"frame rate" 10
 	"flare sound" "seeker"
 	
-outfit "Masokae Thruster"
+outfit "Sokenue Thruster" #Masokae
 	category "Engines"
 	"cost" 50000
 	thumbnail "outfit/qoro n engine"
@@ -71,7 +71,7 @@ outfit "Masokae Thruster"
 	"flare sound" "seeker"
 	
 # Steering
-outfit "Masta-ian Steering"
+outfit "Asutur-ian Steering"
 	category "Engines"
 	"cost" 10000
 	thumbnail "outfit/qoro n steering"
@@ -82,7 +82,7 @@ outfit "Masta-ian Steering"
 	"turning energy" .2
 	"turning heat" .5
 	
-outfit "Maseen-ian Steering"
+outfit "Eensura-ian Steering"
 	category "Engines"
 	"cost" 20000
 	thumbnail "outfit/qoro n steering"
@@ -104,7 +104,7 @@ outfit "Maseka-ian Steering"
 	"turning energy" .8
 	"turning heat" 2
 	
-outfit "Masenta-ian Steering"
+outfit "Otsarui-ian Steering"
 	category "Engines"
 	"cost" 40000
 	thumbnail "outfit/qoro n steering"
@@ -115,7 +115,7 @@ outfit "Masenta-ian Steering"
 	"turning energy" 1.56
 	"turning heat" 3.8
 	
-outfit "Masokae-ian Steering"
+outfit "Sokenue-ian Steering"
 	category "Engines"
 	"cost" 50000
 	thumbnail "outfit/qoro n steering"
@@ -136,8 +136,9 @@ outfit "Mas-Senkai Gun"
 	"weapon capacity" -23
 	"gun ports" -1
 	weapon
-		sprite "projectile/proton"
-		sound "proton"
+		sprite "projectile/senkai"
+			"frame rate" 3
+		sound "egun"
 		"hit effect" "skylance impact"
 		"inaccuracy" .5
 		"velocity" 20
@@ -243,8 +244,61 @@ effect "masai fire"
 	"velocity scale" -.05
 	"random spin" 30
 	"random velocity" 2
+	
+outfit "Masenar Turret"
+	category "Turrets"
+	cost 460000
+	thumbnail "outfit/masenar turret"
+	mass 43
+	"outfit space" -43
+	"weapon capacity" -43
+	"turret mounts" -1
+	"required crew" 2
+	weapon
+		sprite "projectile/masenar"
+			"frame rate" 30
+			"start frame" 1
+		"hardpoint sprite" "thumbnail/masenar turret hardpoint"
+		"sound" "ion"
+		"fire effect" "masenar fire"
+		"hit effect" "masenar impact"
+		"inaccuracy" 30
+		"turret turn" 5
+		"velocity" 12
+		"lifetime" 48
+		"reload" 6
+		"burst reload" 1.5
+		"burst count" 6
+		"homing" 1
+		"optical tracking" .2
+		"turn" .1
+		"firing energy" 30
+		"firing heat" 4
+		"shield damage" 15
+		"hull damage" 60
+		"stream"
+		"piercing" .2
+	description "This is a northern Qoro anti-fighter turret, due to how it works, with most of it's core mechanism hidden inside the ship the turret can turn very fast. Though, due to the being a relativly new technology it suffered heavily from inaccuracy." 
+		
+effect "masenar fire"
+	sprite "effect/masenar fire"
+		"no repeat"
+		"frame rate" 60
+	"lifetime" 3
+	"velocity scale" -.01
+	
+effect "masenar impact"
+	sprite "effect/masenar fire"
+		"no repeat"
+		"frame rate" 30
+	sound "ion impact"
+	"lifetime" 9
+	"random angle" 360
+	"velocity scale" -.05
+	"random spin" 30
+	"random velocity" 2
 
-outfit "Masini-Senmari Gun"
+outfit "Masini-Senmari Turret"
 	category "Turrets"
 	cost 460000
 	thumbnail "outfit/senmari gun"
@@ -262,14 +316,13 @@ outfit "Masini-Senmari Gun"
 		"velocity" 22
 		"lifetime" 34
 		"reload" 3
-		"burst reload" 1.6
+		"burst reload" 3
 		"burst count" 6
 		"firing energy" 22
 		"firing heat" 2
-		"shield damage" 15
-		"hull damage" 20
+		"shield damage" 55
+		"hull damage" 12
 		"stream"
-		"ion damage" .1
 
 outfit "Maisenkai-Senkorna Turret"
 	category "Turrets"
@@ -325,52 +378,52 @@ outfit "Maisenkai-Temaika Laser"
 	description "
 		
 # Sheildings
-outfit "Makaso Shield Generator"
+outfit "Oatua Shield Generator" #Makaso
 	category "Systems"
 	cost 50000000
-	thumbnail "outfit/unknown"
-	"mass" 80
-	"outfit space" -80
+	thumbnail "outfit/nqoro small shield"
+	"mass" 81
+	"outfit space" -81
 	"shield generation" 27
 	"shield energy" 25.4
 	"shield heat" 16.6
 	
-outfit "Matoas Shield Generator"
+outfit "Mekifa Shield Generator" #Matoas
 	category "Systems"
 	cost 2600000
-	thumbnail "outfit/unknown"
-	"mass" 50
-	"outfit space" -50
+	thumbnail "outfit/nqoro small shield"
+	"mass" 49
+	"outfit space" -49
 	"shield generation" 14.3
 	"shield energy" 12.7
 	"shield heat" 8.8
 	
-outfit "Makean Shield Generator"
+outfit "Hadinna Shield Generator" #Makean
 	category "Systems"
 	cost 2000000
-	thumbnail "outfit/unknown"
-	"mass" 30
-	"outfit space" -30
+	thumbnail "outfit/nqoro small shield"
+	"mass" 28
+	"outfit space" -28
 	"shield generation" 7.5
 	"shield energy" 6.1
 	"shield heat" 7.5
 	
-outfit "Masoak Shield Generator"
+outfit "Etoka Shield Generator" #masoak
 	category "Systems"
 	cost 150000
-	thumbnail "outfit/unknown"
-	"mass" 10
-	"outfit space" -10
+	thumbnail "outfit/nqoro small shield"
+	"mass" 12
+	"outfit space" -12
 	"shield generation" 2.9
 	"shield energy" 2.2
 	"shield heat" 6.7
 	
-outfit "Mahen Shield Generator"
+outfit "Biqune Shield Generator" #Mahen
 	category "Systems"
 	cost 100000
-	thumbnail "outfit/unknown"
-	"mass" 5
-	"outfit space" -5
+	thumbnail "outfit/nqoro small shield"
+	"mass" 4
+	"outfit space" -4
 	"shield generation" 1.7
 	"shield energy" 2
 	"shield heat" 6

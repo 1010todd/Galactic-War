@@ -3,13 +3,13 @@ ship "Qoro(N) Manta"
 	attributes
 		category "Interceptor"
 		"cost" 4250000
-		"shields" 3100
-		"hull" 1100
+		"shields" 3800
+		"hull" 1900
 		"required crew" 1
 		"bunks" 1
 		"mass" 20
 		"drag" 1.0
-		"heat dissipation" 1
+		"heat dissipation" 1.2
 		"fuel capacity" 400
 		"cargo space" 22
 		"outfit space" 140
@@ -47,8 +47,8 @@ ship "Qoro(N) Masec"
 	attributes
 		category "Medium Warship"
 		"cost" 42040000
-		"shields" 58400
-		"hull" 3400
+		"shields" 34400
+		"hull" 13400
 		"required crew" 6
 		"bunks" 22
 		"mass" 100
