@@ -378,6 +378,21 @@ outfit "Maisenkai-Temaika Laser"
 	description "
 		
 # Sheildings
+outfit "QSSS Cable"
+	category "Systems"
+	cost 300
+	thumbnail "outfit/nqoro small shield"
+	"mass" 0
+	"outfit space" -0
+	"shield generation multiplier" .1
+	"disruption resistance" -.2
+	"piercing resistance" -.2
+	"shield heat" -2
+	"QSSS Port R" -1
+	"QSSS Port T" -1
+	description "This is a cable that allows the ship and the generator to communicate, optimize, and multiply the shield generation efficiency and thoughness. While the shield generator and the ship it self will work with anything elses, they're meant to be paired for maximum effectiveness."
+	#description "These special cable to be used with Northern Qoro shield generator and their ships allowing the ship to communicate with the generator and reach maximum efficiency."
+
 outfit "Oatua Shield Generator" #Makaso
 	category "Systems"
 	cost 50000000
@@ -387,6 +402,7 @@ outfit "Oatua Shield Generator" #Makaso
 	"shield generation" 27
 	"shield energy" 25.4
 	"shield heat" 16.6
+	"QSSS Port T" 1
 	
 outfit "Mekifa Shield Generator" #Matoas
 	category "Systems"
@@ -397,6 +413,7 @@ outfit "Mekifa Shield Generator" #Matoas
 	"shield generation" 14.3
 	"shield energy" 12.7
 	"shield heat" 8.8
+	"QSSS Port T" 1
 	
 outfit "Hadinna Shield Generator" #Makean
 	category "Systems"
@@ -407,6 +424,7 @@ outfit "Hadinna Shield Generator" #Makean
 	"shield generation" 7.5
 	"shield energy" 6.1
 	"shield heat" 7.5
+	"QSSS Port T" 1
 	
 outfit "Etoka Shield Generator" #masoak
 	category "Systems"
@@ -417,6 +435,7 @@ outfit "Etoka Shield Generator" #masoak
 	"shield generation" 2.9
 	"shield energy" 2.2
 	"shield heat" 6.7
+	"QSSS Port T" 1
 	
 outfit "Biqune Shield Generator" #Mahen
 	category "Systems"
@@ -427,6 +446,7 @@ outfit "Biqune Shield Generator" #Mahen
 	"shield generation" 1.7
 	"shield energy" 2
 	"shield heat" 6
+	"QSSS Port T" 1
 	
 # Powers
 outfit "Aseki Cell" #Maseki
@@ -464,3 +484,24 @@ outfit "Qutimaka Cell" #Masaski
 	"outfit space" -50
 	"energy generation" 24.7
 	"energy capacity" 5000
+	
+outfit "Meteon Akon"
+    category "Hand to Hand"        
+    cost 680000        
+    thumbnail "outfit/nqoro warwagon"    
+	"mass" 1
+	"outfit space" -1	
+    "capture attack" 6   
+    "capture defense" 7        
+    unplunderable 1        
+    description "This is a shielded cart that will generate a deadly liquifiying field in front of it that will make paste out of most living things in seconds. The scariest thing about this field is that it also penetrate most materials rendering most cover useless."
+	description "If not limited by their short range and high power consumption, this will be unstoppable."
+	
+outfit "Masuit Ka"
+    category "Hand to Hand"        
+    cost 48000        
+    thumbnail "outfit/nqoro gun"    	
+    "capture attack" 1.4
+    "capture defense" 2.2   
+    unplunderable 1
+    description "While not the most lethal, these guns will send someone flying back a good several meters. Usually this is enough to kill most species from pure concussion pulverising their innards.

@@ -17,9 +17,10 @@ ship "Qoro(N) Manta"
 		"engine capacity" 40
 		"shield generation" .1
 		"shield generation multiplier" .1
-		"disruption resistance" -.8
-		"piercing resistance" -.8
+		"disruption resistance" -.2
+		"piercing resistance" -.2
 		"mdf lock" -1
+		"QSSS Port R" 3
 		weapon
 			"blast radius" 20
 			"shield damage" 160
@@ -29,8 +30,10 @@ ship "Qoro(N) Manta"
 		"Mase-Dettai Laser" 2
 		"Masai-mei Missile Defence (locked)"
 		
+		"QSSS Cable"
 		"Biqune Shield Generator"
 		"Aseki Cell"
+		"Masuit Ka"
 		
 		"Hyperdrive"
 		"Asutur Thruster"
@@ -42,7 +45,8 @@ ship "Qoro(N) Manta"
 	engine 1 38
 	explode "tiny explosion" 10
 	explode "small explosion" 4
-	description "Northen Qoro's interceptor."
+	description "These are the smallest ship used by the Northern Qoro, they are usually kept for asteroid mining and were rarely deployed in the frontline being the weakest ship."
+	description "Northern Qoro ships are designed and optimised for very though shielding. Works best with their own shield generators. These ships also have a tiny built-in shield generator."
 	
 ship "Qoro(N) Masec"
 	sprite "ship/masec"
@@ -63,8 +67,9 @@ ship "Qoro(N) Masec"
 		"engine capacity" 132
 		"shield generation" .1
 		"shield generation multiplier" .1
-		"disruption resistance" -.8
-		"piercing resistance" -.8
+		"disruption resistance" -.25
+		"piercing resistance" -.25
+		"QSSS Port R" 12
 		weapon
 			"blast radius" 320
 			"shield damage" 4600
@@ -78,6 +83,9 @@ ship "Qoro(N) Masec"
 		
 		"Qutimaka Cell"
 		"Hadinna Shield Generator
+		"QSSS Cable"
+		"Meteon Akon" 3
+		"Masuit Ka" 12
 		
 		"Maseka Thruster"
 		"Maseka-ian Steering"
@@ -121,8 +129,9 @@ ship "Qoro(N) Matoanan"
 		"engine capacity" 480
 		"shield generation" .1
 		"shield generation multiplier" .1
-		"disruption resistance" -.8
-		"piercing resistance" -.8
+		"disruption resistance" -.3
+		"piercing resistance" -.3
+		"QSSS Port R" 30
 		weapon
 			"blast radius" 260
 			"shield damage" 2600
@@ -133,6 +142,7 @@ ship "Qoro(N) Matoanan"
 		
 		"Qutimaka Cell"
 		"Oatua Shield Generator"
+		"QSSS Cable"
 		
 		"Hyperdrive"
 		
