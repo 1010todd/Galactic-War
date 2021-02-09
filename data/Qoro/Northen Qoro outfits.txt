@@ -309,28 +309,32 @@ outfit "Masini-Senmari Turret"
 	"required crew" 1
 	weapon
 		sprite "projectile/masenar"
-		sound "egun"
+			"frame rate" 0
+			"start frame" 0
+		sound "ion"
 		"hit effect" "masenar impact"
-		"live effect" "masini live"
+		"live effect" "masini live" 20
 		"inaccuracy" .5
 		"turret turn" 2.4
 		"velocity" 22
 		"lifetime" 34
-		"reload" 12
-		"burst reload" 3
+		"reload" 30
+		"burst reload" 8
 		"burst count" 3
 		"firing energy" 22
-		"firing heat" 2
-		"shield damage" 55
-		"hull damage" 12
+		"firing heat" 12
+		"shield damage" 80
+		"hull damage" 26
 		"stream"
 
 effect "masini live"
 	sprite "projectile/masenar"
+		"frame rate" 0
+		"start frame" 0
 	"lifetime" 3
 	"velocity scale" -.3
 	"random velocity" 2
-
+	
 outfit "Maisenkai-Senkorna Turret"
 	category "Turrets"
 	cost 5800000
