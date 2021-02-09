@@ -308,21 +308,28 @@ outfit "Masini-Senmari Turret"
 	"turret mounts" -1
 	"required crew" 1
 	weapon
-		sprite "projectile/proton fragment"
-		sound "proton"
-		"hit effect" "proton impact"
+		sprite "projectile/masenar"
+		sound "egun"
+		"hit effect" "masenar impact"
+		"live effect" "masini live"
 		"inaccuracy" .5
-		"turret turn" 3
+		"turret turn" 2.4
 		"velocity" 22
 		"lifetime" 34
-		"reload" 3
+		"reload" 12
 		"burst reload" 3
-		"burst count" 6
+		"burst count" 3
 		"firing energy" 22
 		"firing heat" 2
 		"shield damage" 55
 		"hull damage" 12
 		"stream"
+
+effect "masini live"
+	sprite "projectile/masenar"
+	"lifetime" 3
+	"velocity scale" -.3
+	"random velocity" 2
 
 outfit "Maisenkai-Senkorna Turret"
 	category "Turrets"
