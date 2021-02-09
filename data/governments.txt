@@ -73,23 +73,26 @@ government "ZIS"
 		"Korath" -.1
 		"Ultaka" -1
 		"Ultaka (Mega)" -1
-		"Quarg" -.1
+		#"Quarg" -.1
+		"Qanse" -.1
 		"Kroom Kakaima" -.01
 		"ZIS " 1
 		"Taroun" -.1
+		"Geeva" 1
 		
-government "ZIS "
+government "ZIS " #Government for construction drones.
+	"display name" "ZIS"
 	swizzle 3
 	color 0.037 0.153 0.8
 	"player reputation" 1
 	"attitude toward"
 		"ZIS" 1
-		"Pirate" -.1
-		"Korath" -.1
+		"Pirate" -.01
+		#"Korath" -.1
 		"Ultaka" -1
 		"Ultaka (Mega)" -1
 		"Qanse" -.1
-		"Quarg" -.1
+		#"Quarg" -.1
 		"   " -.01
 		"Taroun" -.1
 		

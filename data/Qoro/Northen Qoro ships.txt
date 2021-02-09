@@ -1,5 +1,6 @@
 ship "Qoro(N) Manta"
-	sprite "ship/qoro manta"
+	sprite "ship/qoro n manta"
+	thumbnail "thumbnail/qoro n manta"
 	attributes
 		category "Interceptor"
 		"cost" 4250000
@@ -39,17 +40,49 @@ ship "Qoro(N) Manta"
 		"Asutur Thruster"
 		"Asutur-ian Steering"
 		
-	gun -17 -39.5
-	gun 17 -39.5
-	turret 0 0
-	engine 1 38
+	gun -19 -52
+	gun 19 -52
+	turret 0 2.5
+	engine 0 51
+		zoom 1
+		angle 0
+		under
+	"reverse engine" -4.5 -26
+		zoom 1
+		angle 180
+		under
+	"reverse engine" 4.5 -26
+		zoom 1
+		angle 180
+		under
+	"steering engine" -4.5 -26
+		zoom 1
+		angle 270
+		under
+		left
+	"steering engine" 4.5 -26
+		zoom 1
+		angle 90
+		under
+		right
+	"steering engine" -6 39.5
+		zoom 1
+		angle 300
+		under
+		left
+	"steering engine" 6 39.5
+		zoom 1
+		angle 60
+		under
+		right
 	explode "tiny explosion" 10
 	explode "small explosion" 4
 	description "These are the smallest ship used by the Northern Qoro, they are usually kept for asteroid mining and were rarely deployed in the frontline being the weakest ship."
 	description "Northern Qoro ships are designed and optimised for very though shielding. Works best with their own shield generators. These ships also have a tiny built-in shield generator."
 	
 ship "Qoro(N) Masec"
-	sprite "ship/masec"
+	sprite "ship/qoro n masec"
+	thumbnail "thumbnail/qoro n masec"
 	attributes
 		category "Medium Warship"
 		"cost" 42040000
@@ -77,8 +110,9 @@ ship "Qoro(N) Masec"
 			"hit force" 6900
 	outfits
 		"Mase-Dettai Laser" 2
-		"Masini-Senmari Gun" 6
-		"Masenar Turret" 2
+		"Mas-Senkai Gun" 2
+		"Masenar Turret"
+		"Masini-Senmari Turret"
 		"Masai-mei Missile Defence"
 		
 		"Qutimaka Cell"
@@ -91,18 +125,17 @@ ship "Qoro(N) Masec"
 		"Maseka-ian Steering"
 		Hyperdrive
 
-	turret 0 -61 "Masini-Senmari Gun"
-	turret -0 -29.5 "Masini-Senmari Gun"
-	turret -0 -0.5 "Masai-mei Missile Defence"
-	turret -22.5 -61 "Masini-Senmari Gun"
-	turret 22.5 -61 "Masini-Senmari Gun"
-	turret -22.5 -30.5 "Masenar Turret"
-	turret 22.5 -30.5 "Masenar Turret"
-	turret -22.5 -1 "Masini-Senmari Gun"
-	turret 22.5 -1 "Masini-Senmari Gun"
-	gun -49 19
-	gun 49 19
-	engine 0 208.5
+	gun -17 -125.5 "Mase-Dettai Laser"
+	gun 17 -125.5 "Mase-Dettai Laser"
+	gun -61.5 -80
+	gun 61.5 -80
+	turret 0 13
+	turret -75.5 -17.5 "Masenar Turret"
+	turret 75.5 -17.5 "Masini-Senmari Turret"
+	engine 0 128
+		zoom 3
+		angle 0
+		under
 	explode "tiny explosion" 120
 	explode "small explosion" 85
 	explode "medium explosion" 60
