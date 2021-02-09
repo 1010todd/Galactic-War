@@ -153,7 +153,7 @@ outfit "Mas-Senkai Gun"
 outfit "Mase-Dettai Laser"
 	category "Guns"
 	cost 1473000
-	thumbnail "outfit/dettai laser"
+	thumbnail "outfit/nqoro mase dettai"
 	"mass" 11
 	"outfit space" -11
 	"weapon capacity" -11
@@ -248,7 +248,7 @@ effect "masai fire"
 outfit "Masenar Turret"
 	category "Turrets"
 	cost 460000
-	thumbnail "outfit/masenar turret"
+	thumbnail "outfit/nqoro masenar turret"
 	mass 43
 	"outfit space" -43
 	"weapon capacity" -43
@@ -323,8 +323,8 @@ outfit "Masini-Senmari Turret"
 		"burst count" 3
 		"firing energy" 22
 		"firing heat" 12
-		"shield damage" 80
-		"hull damage" 26
+		"shield damage" 160
+		"hull damage" 68
 		"stream"
 
 effect "masini live"
@@ -334,7 +334,7 @@ effect "masini live"
 	"lifetime" 3
 	"velocity scale" -.3
 	"random velocity" 2
-	
+
 outfit "Maisenkai-Senkorna Turret"
 	category "Turrets"
 	cost 5800000
@@ -392,7 +392,7 @@ outfit "Maisenkai-Temaika Laser"
 outfit "QSSS Cable"
 	category "Systems"
 	cost 300
-	thumbnail "outfit/nqoro small shield"
+	thumbnail "outfit/qsss cable"
 	"mass" 0
 	"outfit space" -0
 	"shield generation multiplier" .1
@@ -499,7 +499,8 @@ outfit "Qutimaka Cell" #Masaski
 outfit "Meteon Akon"
     category "Hand to Hand"        
     cost 680000        
-    thumbnail "outfit/nqoro warwagon"    
+    #thumbnail "outfit/nqoro warwagon"    
+    thumbnail "outfit/bardich"    
 	"mass" 1
 	"outfit space" -1	
     "capture attack" 6   

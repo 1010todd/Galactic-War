@@ -1,9 +1,9 @@
 #
 
-outfit "B-lance"
+outfit "B Kechon"
 	category "Guns"
 	cost 19000000
-	thumbnail "outfit/unknown"
+	thumbnail "outfit/warscythe"
 	"mass" 20
 	"outfit space" -20
 	"weapon capacity" -20
@@ -23,10 +23,87 @@ outfit "B-lance"
 		"hull damage" 85 
 		"ion damage" .5
 		
-outfit "E-missile"
+outfit "SL Botavu"
+	category "Turrets"
+	cost 19000000
+	thumbnail "outfit/longsword"
+	"mass" 20
+	"outfit space" -20
+	"weapon capacity" -20
+	"turret mounts" -1
+	weapon
+		sound "tracker"
+		"hit effect" "skylance impact"
+		"inaccuracy" 0
+		"turret turn" 2
+		"submunition" "rvs botavu1" 4
+		"velocity" 1
+		"lifetime" 1
+		"reload" 40
+		"firing energy" 15
+		"firing heat" .1
+		"shield damage" 65
+		"hull damage" 85 
+		"ion damage" .5
+		"stream"
+		
+outfit "rvs botavu1"
+	weapon
+		sprite "projectile/skylance"
+			"frame rate" 2
+			"no repeat"
+		"hit effect" "skylance impact"
+		"live effect" "rvs botavu laser"
+		"inaccuracy" 75
+		"submunition" "rvs botavu2"
+		"lifetime" 1
+		"hit force" 30
+		"velocity" 500
+		"shield damage" 8.4
+		"hull damage" 7
+		
+outfit "rvs botavu2"
+	weapon
+		sprite "effect/skylance impact"
+			"frame rate" 2
+		"hit effect" "skylance impact"
+		"inaccuracy" 0
+		"submunition" "rvs botavu3"
+		"drag" .1
+		"turn" 360
+		"homing" 1
+		"optical tracking" .8
+		"lifetime" 5
+		"hit force" 30
+		"velocity" -500
+		"shield damage" 8.4
+		"hull damage" 7
+		
+outfit "rvs botavu3"
+	weapon
+		sprite "projectile/skylance"
+			"frame rate" 2
+			"no repeat"
+		"hit effect" "skylance impact"
+		"live effect" "rvs botavu laser"
+		"inaccuracy" 0
+		"lifetime" 1
+		"hit force" 30
+		"velocity" 500
+		"shield damage" 8.4
+		"hull damage" 7
+		
+effect "rvs botavu laser"
+	sprite "projectile/skylance"
+			"frame rate" 2
+			"no repeat"
+	"lifetime" 5
+	"velocity scale" .1
+		
+outfit "E Anor"
 	category "Secondary Weapons"
 	cost 29000000
-	thumbnail "outfit/unknown"
+	thumbnail "outfit/bardich"
 	"mass" 20
 	"outfit space" -20
 	"weapon capacity" -20
@@ -51,26 +128,8 @@ outfit "E-missile"
 		"turn" 6
 		"homing" 4
 		"missile strength" 600
-		
-outfit "MQ-Shield Generator"
-	category "Systems"
-	cost 3000000
-	thumbnail "outfit/unknown"
-	"mass" 12
-	"outfit space" -12
-	"shield generation" 50
-	"shield energy" 1
-	
-outfit "MAM-core"
-	category "Systems"
-	cost 2000000
-	thumbnail "outfit/unknown"
-	"mass" 10
-	"outfit space" -10
-	"energy generation" 500
-	"energy capacity" 5000
-	
-outfit "Revos Anti-Missile"
+
+outfit "Vubeto Anti-Missile"
 	category "Turrets"
 	cost 6500000
 	thumbnail "outfit/unknown"
@@ -95,6 +154,26 @@ effect "rvs anti-missile"
 	"lifetime" 21
 	"velocity scale" 1
 	"anti-missile" 5
+		
+outfit "MQ-Shield Generator"
+	category "Systems"
+	cost 3000000
+	thumbnail "outfit/unknown"
+	"mass" 12
+	"outfit space" -12
+	"shield generation" 50
+	"shield energy" 1
+	
+outfit "MAM-core"
+	category "Systems"
+	cost 2000000
+	thumbnail "outfit/unknown"
+	"mass" 10
+	"outfit space" -10
+	"energy generation" 500
+	"energy capacity" 5000
+	
+
 	
 outfit "S-DASH drive"
 	category "Engines"

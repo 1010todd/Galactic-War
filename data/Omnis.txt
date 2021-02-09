@@ -42,6 +42,7 @@ outfitter plugin #Not completed and sorted yet
 	"A9H-Z Anti-Missile"
 	"G90-Z Blaster Turret"
 	"AG90-Z Gun Turret"
+	"TC5 Cutter"
 	"SK4 Magazines"
 	"Deeraka Plasma Engines"
 	"Delisma Longrifle"
@@ -70,6 +71,7 @@ outfitter plugin #Not completed and sorted yet
 	"T2 Steering"
 	"K2 Shield Generator"
 	"C60-W Core"
+	#
 	"P50-B Plasma-ion Turret"
 	"UC Drive"
 	"FB10 Heat Beam"
@@ -77,6 +79,7 @@ outfitter plugin #Not completed and sorted yet
 	"Qanse Warder"
 	"Y-Class Core"
 	"GT10 Particle Repeater"
+	"DT10 Laser Turret"
 	"DT10 Laser Turret"
 	"F-Type Heat Shunt"
 	"E-Type Heat Shunt"
@@ -87,7 +90,6 @@ outfitter plugin #Not completed and sorted yet
 	"Maseka Thruster"
 	"Masenta Thruster"
 	"Masokae Thruster"
-	"DT10 Laser Turret"
 	"Masta-ian Steering"
 	"Maseen-ian Steering"
 	"Maseka-ian Steering"
@@ -96,27 +98,34 @@ outfitter plugin #Not completed and sorted yet
 	"Mas-Senkai Gun"
 	"Mase-Dettai Laser"
 	"Masenar Turret"
+	"Masai-mei Missile Defence"
 	"Mahen Shield Generator"
 	"Masoak Shield Generator"
 	"Makean Shield Generator"
 	"Matoas Shield Generator"
 	"Makaso Shield Generator"
+	"Masuit Ka"
+	"Meteon Akon"
 	
 	"Gogase Rail Cannon"
 	"Gosa Energy Cannon"
 	"Qoro(E) Anti-Missile"
-	"Masai-mei Missile Defence"
+	"Igornuit"
+	
 	#===================Ultaka
 	"FM10M Gun Group1"
 	"FM10M Gun Group2"
 	"Model-3A Rifle"
-	"Gorka Homai"
-	"TC5 Cutter"
+	#====================Geeva
+	
+	
 	"Hidden Sentry"
 	"Kimal Assualt Rifle"
 	
 	"ZK-20 Portable Railgun"
 	"LRP Grenades"
+	#================Kroom
+	"Gorka Homai"
 	"Hok O-Homai"
 	#=====================Zis
 	"Zis Standard Sword"
@@ -183,9 +192,13 @@ outfitter plugin #Not completed and sorted yet
 	"Atarkor Shield Piercing Missile"
 	"Zouron Machinegun"
 	"Zouron Machinegun Turret"
+	#=====================Revos
+	"SL Botavu"
+	"E Anor"
+	"B Kechon"
 	
 shipyard plugin
-	#GW ZIS
+	#================GW ZIS
 	"VK-35 Katen"
 	"RZ-621-02 Razor"
 	"SY-8662 Sysor"
@@ -232,7 +245,7 @@ shipyard plugin
 	"Ultaka Galactic Destroyer"
 	#================Ultaka (Neurn)
 	"Ultaka Ghost"
-	#Wallagi
+	#=================Wallagi
 	"Mecohni"
 	"Telsarator"
 	"Dettalor"
@@ -246,10 +259,10 @@ shipyard plugin
 	"Eaken"
 	"Hidersan"
 	"Eirae"
-	#Qanse
+	#====================Qanse
 	"Dantra"
 	"Qargi"
-	#Dels
+	#==============Dels
 	"TR-60A Darca"
 	"MF-10A Dea"
 	"MF-10B Dee"
@@ -268,21 +281,21 @@ shipyard plugin
 	"Derso Ul-weapon"
 	"Deeris Miner"
 	"HW80B Delsaylor"
-	#Qoro
+	#====================Qoro
 	"Qoro(E) Goth"
 	"Qoro(E) Gosat"
 	"Qoro(E) Golosta"
 	"Qoro(N) Manta"
 	"Qoro(N) Masec"
 	"Qoro(N) Matoanan"
-	#Revos
+	#==================Revos
 	"Homan"
 	"Rova"
 	"Sentories"
 	"Mokla"
 	"Caosma"
 	"Caosma transport"
-	#Donko
+	#=====================Donko
 	"Sao"
 	"Kolso"
 	"Matka"
@@ -291,37 +304,37 @@ shipyard plugin
 	"Kanse"
 	"Dantra"
 	"Senka"
-	#Rakgonnera
+	#====================Rakgonnera
 	"Grey Rakgonnera"
 	"Grey Battle Rakgonnera"
-	#Taroun
+	#==================Taroun
 	Eroun
 	Oresu
-	#Resmakia
+	#====================Resmakia
 	"Metal Asteroid"
 	"Metal Asteroid2"
 	"Kajmaraj"
 	"Jortar"
 	"Termat"
 	"Tarrel"
-	#Ignaggen
+	#=================Ignaggen
 	"I'nos"
 	"Loerlen"
 	"Keorlen"
 	"Gikeor"
 	"Kina"
-	#Kroom Kakaima
+	#====================Kroom Kakaima
 	"Grokva"
 	"Giro"
 	"Gikaar"
 	"Grakka"
 	"Garokka"
-	#Geeva
+	#===================Geeva
 	"Hailika"
 	"Kinika"
 	"Kimali"
 	"HD-8426 Tarallion"
-	#Kroom Kanai
+	#================Kroom Kanai
 	"Kargorko"
 	"Kaargor"
 	
