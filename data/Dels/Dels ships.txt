@@ -240,8 +240,8 @@ ship "LF-40C Desen"
 		"fuel capacity" 300
 		"cargo space" 60
 		"outfit space" 130
-		"weapon capacity" 40
-		"engine capacity" 50
+		"weapon capacity" 30
+		"engine capacity" 30
 		weapon
 			"blast radius" 12
 			"shield damage" 120
@@ -255,12 +255,24 @@ ship "LF-40C Desen"
 		"Hao Ion Engine"
 		"Hyperdrive"
 		"A1A Anti-Missile"
-		"AA1 Turret"
 		
-	turret -8.5 -0.5 "A1A Anti-Missile"
-	turret 8.5 -0.5 "AA1 Turret"
-	engine -5 25 
-	engine 5 25
+	turret 17 5.5
+	engine -15 38
+		zoom .3
+		angle 0
+		under
+	engine -7.5 37.5
+		zoom .3
+		angle 0
+		under
+	engine -1 37.5
+		zoom .3
+		angle 0
+		under
+	engine 13.5 32
+		zoom 1
+		angle 0
+		under
 	explode "tiny explosion" 10
 	explode "small explosion" 5
 	description "A small freighter used by Dels."
@@ -275,8 +287,8 @@ ship "IC40E Desin"
 		"hull" 300
 		"required crew" 1
 		"bunks" 2
-		"mass" 45
-		"drag" 1.0
+		"mass" 42
+		"drag" .7
 		"heat dissipation" .9
 		"fuel capacity" 300
 		"cargo space" 5
@@ -297,15 +309,25 @@ ship "IC40E Desin"
 		"Hyperdrive"
 		"BA2 Blaster" 4
 		
-	gun -11 -20
-	gun 11 -20
-	gun -5 -31
-	gun 5 -31
-	engine -7.5 36
-	engine 7 36
+	gun -2.5 -36.5
+	gun 2.5 -36.5
+	gun -4 -32
+	gun 4 -32
+	engine 0 38
+		zoom 1
+		angle 0
+		under
+	"reverse engine" -7.5 -15.5
+		zoom .5
+		angle 150
+		under
+	"reverse engine" 7.5 -15.5
+		zoom .5
+		angle 210
+		under
 	explode "tiny explosion" 15
 	explode "small explosion" 5
-	description "The smallest dels ship designed for combat."
+	description "Light and fast interceptor made by [shipyard 1] as entry level combat ship."
 	
 ship "IC50A Derso"
 	sprite "ship/dels derso"
@@ -316,16 +338,15 @@ ship "IC50A Derso"
 		"shields" 1100
 		"hull" 400
 		"required crew" 1
-		"bunks" 3
-		"mass" 59
-		"drag" 1.0
+		"bunks" 2
+		"mass" 54
+		"drag" .9
 		"heat dissipation" .7
 		"fuel capacity" 600
 		"cargo space" 20
 		"outfit space" 230
 		"weapon capacity" 75
-		"engine capacity" 74
-		"energy generation" 10
+		"engine capacity" 45
 		weapon
 			"blast radius" 16
 			"shield damage" 160
@@ -338,21 +359,94 @@ ship "IC50A Derso"
 		
 		"Hao Ion Engine"
 		"Type-F Hyperdrive"
-		"BA3 Blaster" 4
+		"BA3 Blaster" 2
 		"Chaser Afterburner"
-		"DT1 Launcher"
-		"DT1 Missile" 40
 		
-	gun -5 -27 "BA3 Blaster"
-	gun 7 -28.5 "BA3 Blaster"
-	gun 22 17 "BA3 Blaster"
-	gun -19.5 16.5 "BA3 Blaster"
-	engine -5 25.5
-	engine 9 26.5 
-	gun 1 9 "DT1 Launcher"
+		gun -5.5 -57
+	gun 5.5 -57
+	engine 0 54
+		zoom 1.2
+		angle 0
+		under
+	"reverse engine" -25.5 -6
+		zoom 1
+		angle 180
+		under
+	"reverse engine" 25.5 -6
+		zoom 1
+		angle 180
+		under
+	"steering engine" -25.5 -6
+		zoom 1
+		angle 180
+		under
+		left
+	"steering engine" 25.5 -6
+		zoom 1
+		angle 180
+		under
+		right
+	"steering engine" -25.5 20
+		zoom 1
+		angle 0
+		under
+		left
+	"steering engine" 25.5 20
+		zoom 1
+		angle 0
+		under
+		right
 	explode "tiny explosion" 20
 	explode "small explosion" 10
-	description "A little bit bigger than Desin and stronger, Derso is the most common interceptor in the dels space having a decent firepower and a missile launcher it can be a treat even to big ships in number."
+	description "[shipyard 2]'s heavier alternative to [shipyard 1] Desin, less agile but packs a punch."
+	
+ship "IC70E Ekdor"
+	sprite "ship/dels ekdor"
+	thumbnail "thumbnail/dels ekdor thumb"
+	attributes
+		category "Interceptor"
+		"cost" 285000
+		"shields" 1200
+		"hull" 600
+		"required crew" 1
+		"bunks" 3
+		"mass" 67
+		"drag" .9
+		"heat dissipation" .7
+		"fuel capacity" 600
+		"cargo space" 20
+		"outfit space" 230
+		"weapon capacity" 75
+		"engine capacity" 45
+		weapon
+			"blast radius" 16
+			"shield damage" 160
+			"hull damage" 80
+			"hit force" 240
+	outfits
+		"C20 Fuel Cell"
+		"River Battery Pack"
+		"SR20 Sheild Generator"
+		
+		"Hao Ion Engine"
+		"Type-F Hyperdrive"
+		"BA3 Blaster" 6
+		"Chaser Afterburner"
+		
+	gun -13.5 -31.5
+	gun 13.5 -31.5
+	gun -28 -36.5
+	gun 28 -36.5
+	gun -40.5 -48.5
+	gun 40.5 -48.5
+	engine 0 48
+		zoom 1
+		angle 0
+		under
+	explode "tiny explosion" 20
+	explode "small explosion" 10
+	description "[shipyard 3] attempts at interceptor turns out to be boarderline light escort. Trading agility for heavy armament."
+		
 	
 ship "LW10D Secsen"
 	sprite "ship/dels secsen"
