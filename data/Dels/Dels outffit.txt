@@ -14,7 +14,7 @@ outfit "Skue-6 Blaster" #BA1
 		"hit effect" "blaster impact"
 		"inaccuracy" 2
 		"velocity" 12
-		"lifetime" 60
+		"lifetime" 40
 		"reload" 10
 		"firing energy" 10
 		"firing heat" 32
@@ -36,7 +36,7 @@ outfit "Skue-8 Blaster" #BA2
 		"hit effect" "blaster impact"
 		"inaccuracy" 2
 		"velocity" 12
-		"lifetime" 70
+		"lifetime" 45
 		"reload" 10
 		"firing energy" 20
 		"firing heat" 50
@@ -91,7 +91,7 @@ outfit "Ukar-3 Blaster" #BA3
 		"cluster"
 	description "A powerful burst-firing blaster. Despite the shorter range, the projectile is faster making it harder to dodge. Be aware that it also generates considerably more heat than regular blasters."
 	
-outfit "PG10 Gun"
+outfit "Vokkar Gun"
 	category "Guns"
 	cost 160000
 	thumbnail "outfit/pg10"
@@ -104,15 +104,15 @@ outfit "PG10 Gun"
 		sound "particle"
 		"hit effect" "particle impact"
 		"inaccuracy" 1
-		"velocity" 30
-		"lifetime" 20
+		"velocity" 25
+		"lifetime" 25
 		"reload" 15
 		"firing energy" 22
 		"firing force" 8
 		"firing heat" 135
-		"shield damage" 40
-		"hull damage" 45
-		"hit force" 46
+		"hit force" 32
+		"shield damage" 25
+		"hull damage" 30
 	description "Dels's Particle cannon."
 	
 outfit "TC5 Cutter"
@@ -184,12 +184,12 @@ outfit "Dels Sokak Cannon"
 	"sokak capacity" 40
 	weapon
 		sprite "projectile/particle beam"
-		sound "particle"
+		sound "small explosion"
 		"hit effect" "particle impact"
 		"fire effect" "small explosion"
 		ammo "Sokak Slug"
 		icon "icon/sokak"
-		"inaccuracy" .8
+		"inaccuracy" 1.2
 		"velocity" 35
 		"lifetime" 35
 		"reload" 40
@@ -197,8 +197,8 @@ outfit "Dels Sokak Cannon"
 		"firing force" 30
 		"firing heat" 180
 		"hit force" 160
-		"shield damage" 230
-		"hull damage" 252
+		"shield damage" 110
+		"hull damage" 175
 	description "Dels Sokak Cannon deals four times more damage than Human's Particle Cannon."
 	
 outfit "Dels Sokak Cannon Turret"
@@ -220,7 +220,7 @@ outfit "Dels Sokak Cannon Turret"
 		"fire effect" "small explosion"
 		ammo "Sokak Slug"
 		icon "icon/sokak"
-		"inaccuracy" 1.2
+		"inaccuracy" 1.8
 		"turret turn" 1
 		"velocity" 35
 		"lifetime" 17
@@ -229,8 +229,8 @@ outfit "Dels Sokak Cannon Turret"
 		"firing force" 30
 		"firing heat" 180
 		"hit force" 160
-		"shield damage" 230
-		"hull damage" 252
+		"shield damage" 110
+		"hull damage" 175
 	description "Dels Sokak Cannon mounted on a turret."
 	
 outfit "Sokak Slug"
@@ -482,9 +482,9 @@ outfit "Hao Ion Engine"
 	category "Engines"
 	"cost" 46000
 	thumbnail "outfit/small ion thruster"
-	"mass" 46
-	"outfit space" -46
-	"engine capacity" -46
+	"mass" 45
+	"outfit space" -45
+	"engine capacity" -45
 	"thrust" 13
 	"thrusting energy" 1.4
 	"thrusting heat" 1.9
@@ -561,69 +561,69 @@ outfit "Chaser Afterburner"
 	"afterburner effect" "ionic afterburner"
 	description "."
 	
-outfit "SR10 Sheild Generator"
+outfit "SR10 Shield Generator"
 	category "Systems"
-	cost 210000
+	cost 34000
 	thumbnail "outfit/tiny sheild"
 	"mass" 11
 	"outfit space" -11
-	"shield generation" .54
-	"shield energy" .5
-	"energy generation" -.2
+	"shield generation" .2
+	"shield energy" .2
+	"depleted shield delay" 5
 	"heat generation" 1
-	description "Dels smallest sheild generator"
+	description "This is the smallest shield generator avaliable in Dels space. Powerful for its size but can take a while to recharge when depleted."
 
-outfit "SR20 Sheild Generator"
+outfit "SR20 Shield Generator"
 	category "Systems"
-	cost 210000
+	cost 68000
 	thumbnail "outfit/small sheild"
 	"mass" 15
 	"outfit space" -15
-	"shield generation" .67
-	"shield energy" .7
-	"energy generation" -.3
+	"shield generation" .3
+	"shield energy" .3
+	"depleted shield delay" 6
 	"heat generation" 1.2
 	description "A little bit more powerful than SR10 sheild generator"
 	
-outfit "SR30 Sheild Generator"
+outfit "SR30 Shield Generator"
 	category "Systems"
-	cost 210000
+	cost 125000
 	thumbnail "outfit/medium sheild"
 	"mass" 22
 	"outfit space" -22
-	"shield generation" 1.3
-	"shield energy" 1
-	"energy generation" -.5
+	"shield generation" .5
+	"shield energy" .5
+	"depleted shield delay" 8
 	"heat generation" 3.3
 	description "Dels large sheild generator"
 	
-outfit "SR40 Sheild Generator"
+outfit "SR40 Shield Generator"
 	category "Systems"
-	cost 770000
+	cost 250000
 	thumbnail "outfit/large sheild"
 	"mass" 35
 	"outfit space" -35
-	"shield generation" 2
-	"shield energy" 1.7
-	"energy generation" -.8
-	"heat generation" 4
+	"shield generation" .75
+	"shield energy" .75
+	"depleted shield delay" 12
+	"heat generation" 4.5
 	description "Dels large sheild generator"
 	
-outfit "SR50 Sheild Generator"
+outfit "SR50 Shield Generator"
 	category "Systems"
-	cost 900000
+	cost 545000
 	thumbnail "outfit/large sheild"
 	"mass" 50
 	"outfit space" -50
-	"shield generation" 2.6
-	"shield energy" 2
-	"energy generation" -1.3
-	"heat generation" 6
-	description "Dels very large sheild generator"
+	"shield generation" 1.7
+	"shield energy" 1.7
+	"depleted shield delay" 18
+	"heat generation" 8
+	description "This is the most powerful shield generator the Dels have to offer."
 	
 outfit "Type-F Hyperdrive"
 	category "Systems"
-	cost 500000
+	cost 50000
 	thumbnail "outfit/hyperdrive"
 	"mass" 25
 	"outfit space" -25
@@ -648,8 +648,8 @@ outfit "Deela Fusion Reactor"
 	thumbnail "outfit/fusion"
 	"mass" 50
 	"outfit space" -50
-	"energy generation" 11.2
-	"heat generation" 23.6
+	"energy generation" 9.7
+	"heat generation" 22.6
 	description "Dels's small Fusion Reactor for smaller ships."
 	
 outfit "C10 Fuel Cell"
@@ -668,8 +668,8 @@ outfit "C20 Fuel Cell"
 	thumbnail "outfit/small fuel cell"
 	"mass" 28
 	"outfit space" -28
-	"energy generation" 3
-	"heat generation" 3
+	"energy generation" 4
+	"heat generation" 3.2
 	description "Dels small fuel cell."
 	
 outfit "C30 Fuel Cell"
@@ -678,11 +678,11 @@ outfit "C30 Fuel Cell"
 	thumbnail "outfit/medium fuel cell"
 	"mass" 40
 	"outfit space" -40
-	"energy generation" 4.4
-	"heat generation" 3.4
+	"energy generation" 7
+	"heat generation" 6.7
 	description "Dels medium fuel cell."
 	
-outfit "Cannal Battery Pack"
+outfit "K0108 Battery Pack" #Cannal
 	category "Power"
 	cost 9000
 	thumbnail "outfit/tiny battery"
@@ -691,7 +691,7 @@ outfit "Cannal Battery Pack"
 	"energy capacity" 980
 	description "Dels's smallest battery" 
 	
-outfit "River Battery Pack"
+outfit "K0218 Battery Pack" #River
 	category "Power"
 	cost 30000
 	thumbnail "outfit/small battery"
@@ -700,7 +700,7 @@ outfit "River Battery Pack"
 	"energy capacity" 2000
 	description "Dels battery"
 	
-outfit "Sea Battery Pack"
+outfit "K0538 Battery Pack" #Sea
 	category "Power"
 	cost 70000
 	thumbnail "outfit/medium battery"
@@ -709,7 +709,7 @@ outfit "Sea Battery Pack"
 	"energy capacity" 4900
 	description "Dels's medium-sized battery"
 	
-outfit "Gulf Battery Pack"
+outfit "K1180 Battery Pack" #Gulf
 	category "Power"
 	cost 160000
 	thumbnail "outfit/large battery"
@@ -718,7 +718,7 @@ outfit "Gulf Battery Pack"
 	"energy capacity" 11000
 	description "Dels's large battery"
 	
-outfit "Ocean Battery Pack"
+outfit "K3016a Battery Pack" #Ocean
 	category "Power"
 	cost 385000
 	thumbnail "outfit/huge battery"
