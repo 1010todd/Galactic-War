@@ -1,38 +1,60 @@
 #
 
-outfit "BA2 Blaster"
+outfit "Skue-6 Blaster" #BA1
+	category "Guns"
+	cost 15000
+	thumbnail "outfit/blaster"
+	"mass" 5
+	"outfit space" -5
+	"weapon capacity" -5
+	"gun ports" -1
+	weapon
+		sprite "projectile/skueshot"
+		sound "dblaster"
+		"hit effect" "blaster impact"
+		"inaccuracy" 2
+		"velocity" 12
+		"lifetime" 60
+		"reload" 10
+		"firing energy" 10
+		"firing heat" 32
+		"shield damage" 6
+		"hull damage" 4.2
+	description "The smallest weapon in Dels space, while not the most damaging, "
+
+outfit "Skue-8 Blaster" #BA2
 	category "Guns"
 	cost 26000
 	thumbnail "outfit/mod blaster"
-	"mass" 10
-	"outfit space" -10
-	"weapon capacity" -10
+	"mass" 12
+	"outfit space" -12
+	"weapon capacity" -12
 	"gun ports" -1
 	weapon
-		sprite "projectile/mod blaster"
-		sound "mod blaster"
+		sprite "projectile/skue2shot"
+		sound "dblaster2"
 		"hit effect" "blaster impact"
 		"inaccuracy" 2
-		"velocity" 8.5
+		"velocity" 12
 		"lifetime" 70
 		"reload" 10
 		"firing energy" 20
 		"firing heat" 50
 		"shield damage" 12
 		"hull damage" 10
-	description "Dels's standard blaster"
+	description "A larger, more powerful upgrade to Skue-6 Blaster for ships with space for it."
 
-outfit "BA2 Reverse Blaster"
+outfit "Skue-8 Reverse Blaster" #BA2
 	category "Guns"
 	cost 26000
 	thumbnail "outfit/mod blaster"
-	"mass" 10
-	"outfit space" -10
-	"engine capacity" -10
+	"mass" 12
+	"outfit space" -12
+	"engine capacity" -12
 	"gun ports" -1
 	weapon
-		sprite "projectile/mod blaster"
-		sound "mod blaster"
+		sprite "projectile/skue2shot"
+		sound "dblaster2"
 		"hit effect" "blaster impact"
 		"inaccuracy" 2
 		"velocity" -8.5
@@ -44,30 +66,30 @@ outfit "BA2 Reverse Blaster"
 		"hull damage" 10
 	description "Experimental reverse gun."
 	
-outfit "BA3 Blaster"
+outfit "Ukar-3 Blaster" #BA3
 	category "Guns"
 	cost 28000
 	thumbnail "outfit/mod blaster"
-	"mass" 12
-	"outfit space" -12
-	"weapon capacity" -12
+	"mass" 14
+	"outfit space" -14
+	"weapon capacity" -14
 	"gun ports" -1
 	weapon
-		sprite "projectile/mod blaster"
-		sound "mod blaster"
+		sprite "projectile/ukarshot"
+		sound "dblaster3"
 		"hit effect" "blaster impact"
 		"inaccuracy" 1.8
-		"velocity" 9
-		"lifetime" 68
+		"velocity" 19
+		"lifetime" 45
 		"reload" 15
 		"burst count" 5
 		"burst reload" 8
-		"firing energy" 22
-		"firing heat" 51
-		"shield damage" 15
-		"hull damage" 13
+		"firing energy" 60
+		"firing heat" 89
+		"shield damage" 36
+		"hull damage" 26
 		"cluster"
-	description "A more powerful burst-firing blaster"
+	description "A powerful burst-firing blaster. Despite the shorter range, the projectile is faster making it harder to dodge. Be aware that it also generates considerably more heat than regular blasters."
 	
 outfit "PG10 Gun"
 	category "Guns"
@@ -118,8 +140,38 @@ outfit "TC5 Cutter"
 		"firing heat" 3
 		"shield damage" .01
 		"hull damage" 1
+		"heat damage" 1
 		"hit force" 1
 	description "This is a weapon designed espically for mining astroids in space, but only the military and the permitted ones are allowed to use it."
+	
+outfit "Odari Heat Cannon"
+	category "Guns"
+	cost 100000
+	thumbnail "outfit/tc5"
+	"mass" 32
+	"outfit space" -32
+	"weapon capacity" -32
+	"gun ports" -1
+	licenses
+		"Dels Mining permit"
+	weapon
+		sprite "projectile/tinyflare"
+			"random start frame"
+			"frame rate" 1
+		sound "fire-lance"
+		"hit effect" "fire-lance impact"
+		"inaccuracy" 0
+		"velocity" 10
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 2.5
+		"firing force" 2
+		"firing heat" 3
+		"shield damage" .01
+		"hull damage" 1
+		"heat damage" 80
+		"hit force" 1
+	description "The real reason TC5 requires permit."
 	
 outfit "Dels Sokak Cannon"
 	category "Secondary Weapons"
