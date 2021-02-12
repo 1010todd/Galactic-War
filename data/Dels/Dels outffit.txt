@@ -2,7 +2,7 @@
 
 outfit "BA2 Blaster"
 	category "Guns"
-	cost 20000
+	cost 26000
 	thumbnail "outfit/mod blaster"
 	"mass" 10
 	"outfit space" -10
@@ -24,7 +24,7 @@ outfit "BA2 Blaster"
 
 outfit "BA2 Reverse Blaster"
 	category "Guns"
-	cost 20000
+	cost 26000
 	thumbnail "outfit/mod blaster"
 	"mass" 10
 	"outfit space" -10
@@ -46,7 +46,7 @@ outfit "BA2 Reverse Blaster"
 	
 outfit "BA3 Blaster"
 	category "Guns"
-	cost 24000
+	cost 28000
 	thumbnail "outfit/mod blaster"
 	"mass" 12
 	"outfit space" -12
@@ -57,14 +57,17 @@ outfit "BA3 Blaster"
 		sound "mod blaster"
 		"hit effect" "blaster impact"
 		"inaccuracy" 1.8
-		"velocity" 8.5
-		"lifetime" 75
-		"reload" 11
+		"velocity" 9
+		"lifetime" 68
+		"reload" 15
+		"burst count" 5
+		"burst reload" 8
 		"firing energy" 22
 		"firing heat" 51
-		"shield damage" 12
-		"hull damage" 10
-	description "A bit more accurate and range than Dels standard BA2 Blaster"
+		"shield damage" 15
+		"hull damage" 13
+		"cluster"
+	description "A more powerful burst-firing blaster"
 	
 outfit "PG10 Gun"
 	category "Guns"

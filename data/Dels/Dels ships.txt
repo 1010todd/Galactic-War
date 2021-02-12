@@ -290,7 +290,7 @@ ship "IC40E Desin"
 		"mass" 42
 		"drag" .7
 		"heat dissipation" .9
-		"fuel capacity" 300
+		"fuel capacity" 400
 		"cargo space" 5
 		"outfit space" 200
 		"weapon capacity" 40
@@ -306,7 +306,7 @@ ship "IC40E Desin"
 		"SR10 Sheild Generator"
 		
 		"Hao Ion Engine"
-		"Hyperdrive"
+		"Type-F Hyperdrive"
 		"BA2 Blaster" 4
 		
 	gun -2.5 -36.5
@@ -334,7 +334,7 @@ ship "IC50A Derso"
 	thumbnail "thumbnail/dels derso thumb"
 	attributes
 		category "Interceptor"
-		"cost" 285000
+		"cost" 265000
 		"shields" 1100
 		"hull" 400
 		"required crew" 1
@@ -342,8 +342,8 @@ ship "IC50A Derso"
 		"mass" 54
 		"drag" .9
 		"heat dissipation" .7
-		"fuel capacity" 600
-		"cargo space" 20
+		"fuel capacity" 300
+		"cargo space" 5
 		"outfit space" 230
 		"weapon capacity" 75
 		"engine capacity" 45
@@ -358,9 +358,9 @@ ship "IC50A Derso"
 		"SR20 Sheild Generator"
 		
 		"Hao Ion Engine"
-		"Type-F Hyperdrive"
+		"Hyperdrive"
 		"BA3 Blaster" 2
-		"Chaser Afterburner"
+		
 		
 	gun -5.5 -57
 	gun 5.5 -57
@@ -615,6 +615,7 @@ ship "LW20H Senro"
 	
 ship "LF-60C Donson"
 	sprite "ship/dels donson"
+	#thumbnail "thumbnail/dels donson thumb"
 	attributes
 		category "Light Freighter"
 		"cost" 430000
@@ -654,6 +655,49 @@ ship "LF-60C Donson"
 	explode "tiny explosion" 10
 	explode "small explosion" 5
 	description "Small and the most common freighter used by Dels with a decent cargo capacity and defense."
+	
+ship "LF10C Manoon"
+	sprite "ship/dels manoon"
+	thumbnail "thumbnail/dels manoon thumb"
+	attributes
+		category "Light Freighter"
+		"cost" 430000
+		"shields" 1100
+		"hull" 650
+		"required crew" 2
+		"bunks" 6
+		"mass" 100
+		"drag" 1.7
+		"heat dissipation" .8
+		"fuel capacity" 400
+		"cargo space" 80
+		"outfit space" 230
+		"weapon capacity" 90
+		"engine capacity" 60
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"C20 Fuel Cell"
+		"Cannal Battery Pack"
+		"SR20 Sheild Generator"
+		
+		"Hao Ion Engine"
+		"Hyperdrive"
+		"A1A Anti-Missile" 2
+		"AA1 Turret" 2
+		
+	turret 0 -23 "A1A Anti-Missile"
+	turret 0 -11 "AA1 Turret"
+	engine -8.5 33.5
+	engine 9 34.5
+	turret 0 5.5 "AA1 Turret"
+	turret 0 12.5 "A1A Anti-Missile"
+	explode "tiny explosion" 10
+	explode "small explosion" 5
+	description "
 	
 ship "LW80S Deeris"
 	sprite "ship/dels deeris"
