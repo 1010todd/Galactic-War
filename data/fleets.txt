@@ -134,30 +134,30 @@ fleet "Dels guard"
 	cargo 1
 	personality
 		confusion 10
-		heroic opportunistic frugal plunders
+		heroic opportunistic frugal
 	variant 4
-		"Dee" 10
-		"Dea" 10
-		"A Darca"
+		"Dee" 4
+		"Dea" 4
+		"Darca"
 	variant 2
-		"Dee" 10
-		"Dea" 12
+		"Dee" 4
+		"Dea" 4
 		"Darca"
 		"Decso"
 	variant 2
-		"Dee" 10
-		"Dea" 12
+		"Dee" 4
+		"Dea" 4
 		"Darca"
 		"Decso"
 		"Deeris" 5
 	variant 2
-		"Dee" 10
-		"Dea" 20
+		"Dee" 4
+		"Dea" 4
 		"Darca"
 		"Decso"
 	variant 1
-		"Dee" 10
-		"Dea" 15
+		"Dee" 4
+		"Dea" 4
 		"Darca"
 		"Decso" 2
 	variant 1
@@ -185,7 +185,7 @@ fleet "Dels merchant"
 	cargo 1
 	personality
 		confusion 30
-		timid appeasing plunders
+		timid appeasing
 	variant 80
 		"Sendo"
 	variant 80
@@ -270,15 +270,29 @@ fleet "Dels merchant"
 		"Senro" 3
 		"Derso" 5
 	variant 1
-		"Derso Ul-weapon"
+		"Derso"
 		"Desen" 2
 		"Sendo" 2
 	variant 1
-		"Derso Ul-weapon"
+		"Derso"
 		"Donson" 5
 	variant 20
 		"Deeris" 3
 		"Donson" 6
+	variant 20
+		"Manoon"
+	variant 20
+		"Manoon" 2
+	variant 20
+		"Manoon" 3
+	variant 10
+		"Ekdor" 2
+		"Manoon"
+	variant 20
+		"Ekdor"
+		"Eudaion"
+	variant 20
+		"Eudaion"
 		
 fleet "Dels miner"
 	government "Dels"
@@ -301,6 +315,8 @@ fleet "Dels miner"
 		"Senro"
 	variant 30
 		"Desin Miner"
+	variant 10
+		"Ekdor"
 		
 fleet "Dels military miner"
 	government "Dels"
@@ -350,6 +366,10 @@ fleet "Dels pirate"
 	variant 1
 		"Dacar heavy"
 		"Dea" 5
+	variant 30
+		"Ekdor"
+	variant 12
+		"Ekdor" 2
 		
 		
 fleet "Revos small"
