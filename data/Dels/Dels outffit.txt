@@ -272,44 +272,6 @@ outfit "TC0B Laser"
 		"heat damage" 2
 	description "Dels's laser, invisible and deal very small amount of damage, used as cheap mining laser."
 	
-outfit "A1A Anti-Missile"
-	category "Turrets"
-	"cost" 15000
-	thumbnail "outfit/unknown"
-	"mass" 5
-	"outfit space" -5
-	"weapon capacity" -5
-	"turret mounts" -1
-	weapon
-		"fire effect" "tiny explosion"
-		"turret turn" 10
-		"hardpoint sprite" "hardpoint/anti-missile"
-		"hardpoint offset" 4.
-		"velocity" 200
-		"lifetime" 1
-		"reload" 2.5
-		"firing energy" 5
-		"anti-missile" 1
-		
-outfit "A1H Anti-Missile"
-	category "Turrets"
-	"cost" 250000
-	thumbnail "outfit/unknown"
-	"mass" 20
-	"outfit space" -20
-	"weapon capacity" -20
-	"turret mounts" -1
-	weapon
-		"fire effect" "small explosion"
-		"inaccuracy" .01
-		"hardpoint sprite" "hardpoint/anti-missile"
-		"hardpoint offset" 4.
-		"velocity" 200
-		"lifetime" 1
-		"reload" 3.6
-		"firing energy" 35
-		"anti-missile" 10
-		
 outfit "AA1 Turret"
 	category "Turrets"
 	"cost" 22000
@@ -357,6 +319,50 @@ outfit "HA1 Turret"
 		"hit force" 80
 		"shield damage" 62
 		"hull damage" 75
+	
+=========================================[Anti Missile]=============================
+	
+outfit "A1A Anti-Missile"
+	category "Turrets"
+	"cost" 15000
+	thumbnail "outfit/unknown"
+	"mass" 5
+	"outfit space" -5
+	"weapon capacity" -5
+	"turret mounts" -1
+	weapon
+		"fire effect" "tiny explosion"
+		"turret turn" 10
+		"hardpoint sprite" "hardpoint/anti-missile"
+		"hardpoint offset" 4.
+		"velocity" 200
+		"lifetime" 1
+		"reload" 2.5
+		"firing energy" 5
+		"anti-missile" 1
+		
+outfit "A1H Anti-Missile"
+	category "Turrets"
+	"cost" 250000
+	thumbnail "outfit/unknown"
+	"mass" 20
+	"outfit space" -20
+	"weapon capacity" -20
+	"turret mounts" -1
+	weapon
+		"fire effect" "small explosion"
+		"inaccuracy" .01
+		"hardpoint sprite" "hardpoint/anti-missile"
+		"hardpoint offset" 4.
+		"velocity" 200
+		"lifetime" 1
+		"reload" 3.6
+		"firing energy" 35
+		"anti-missile" 10
+		
+
+		
+=========================================[Secondary]=============================
 		
 outfit "DT1 Launcher"
 	category "Secondary Weapons"
@@ -469,6 +475,8 @@ outfit "sk4"
 		"hit force" 25
 		"missile strength" 1
 		
+=========================================[Systems]=============================
+		
 outfit "Dels Ramscoop"
 	category "Systems"
 	cost 80000
@@ -477,89 +485,236 @@ outfit "Dels Ramscoop"
 	"outfit space" -10
 	"ramscoop" 2
 	description "."
-		
-outfit "Hao Ion Engine"
+	
+=========================================[Engines]=============================
+	
+outfit "Hao Ion Engines"
 	category "Engines"
 	"cost" 46000
-	thumbnail "outfit/small ion thruster"
+	thumbnail "outfit/small ion steering"
 	"mass" 45
 	"outfit space" -45
 	"engine capacity" -45
-	"thrust" 13
-	"thrusting energy" 1.4
-	"thrusting heat" 1.9
+	"thrust" 10
+	"thrusting energy" .9
+	"thrusting heat" 1.4
 	"turn" 300
 	"turning energy" .4
 	"turning heat" 1
 	"flare sprite" "effect/ion flare/small"
 		"frame rate" 1.1
 	"flare sound" "ion small"
+	description "By combining both main and steering thrusters into one package, these engines can achive great efficiency for its power."
 		
-outfit "Sae Ion Engine"
+outfit "Kuar Ion Engines" #Sae
 	category "Engines"
 	"cost" 104000
-	thumbnail "outfit/medium ion thruster"
+	thumbnail "outfit/medium ion steering"
 	"mass" 80
 	"outfit space" -80
 	"engine capacity" -80
-	"turn" 600
-	"turning energy" 1.5
-	"turning heat" 2.2
-	"thrust" 20.4
-	"thrusting energy" 2
-	"thrusting heat" 3
+	"thrust" 19
+	"thrusting energy" 1.5
+	"thrusting heat" 2.6
+	"turn" 580
+	"turning energy" .6
+	"turning heat" 1.7
 	"flare sprite" "effect/ion flare/medium"
 		"frame rate" 1.0
 	"flare sound" "ion medium"
 		
-outfit "Mae Ion Engine"
+outfit "Mae Ion Engines"
 	category "Engines"
 	"cost" 174000
-	thumbnail "outfit/big ion thruster"
+	thumbnail "outfit/big ion steering"
 	"mass" 140
 	"outfit space" -140
 	"engine capacity" -140
-	"turn" 1000
-	"turning energy" 2.5
-	"turning heat" 3.2
-	"thrust" 36.4
-	"thrusting energy" 2.4
-	"thrusting heat" 3.5
+	"thrust" 36
+	"thrusting energy" 2.6
+	"thrusting heat" 4.8
+	"turn" 900
+	"turning energy" 1
+	"turning heat" 2.5
 	"flare sprite" "effect/ion flare/large"
 		"frame rate" 1.0
 	"flare sound" "ion big"
 		
-outfit "Maon Ion Engine"
+outfit "Maon Ion Engines"
 	category "Engines"
 	"cost" 222000
 	thumbnail "outfit/large ion steering"
-	"mass" 140
-	"outfit space" -140
-	"engine capacity" -140
-	"turn" 1100
-	"turning energy" 1.9
-	"turning heat" 3.9
-	"thrust" 42
-	"thrusting energy" 3.5
-	"thrusting heat" 6.2
+	"mass" 260
+	"outfit space" -260
+	"engine capacity" -260
+	"thrust" 68
+	"thrusting energy" 4.5
+	"thrusting heat" 8.2
+	"turn" 1600
+	"turning energy" 1.8
+	"turning heat" 4.6
 	"flare sprite" "effect/ion flare/large"
 		"frame rate" 0.9
 	"flare sound" "ion large"
 	description "Dels's ion engine for large ships
 	
-outfit "Chaser Afterburner"
+outfit "Akuorai Afterburner" #Chaser
 	category "Engines"
 	"cost" 380000
 	thumbnail "outfit/ionic afterburner"
 	"mass" 25
 	"outfit space" -25
 	"engine capacity" -25
-	"afterburner thrust" 32.0
+	"afterburner thrust" 31.0
 	"afterburner fuel" .15
-	"afterburner energy" 5.4
-	"afterburner heat" 11.4
+	"afterburner energy" 6
+	"afterburner heat" 19.4
 	"afterburner effect" "ionic afterburner"
 	description "."
+	
+outfit "Auker Thruster"
+	category "Engines"
+	"cost" 20000
+	thumbnail "outfit/tiny plasma thruster"
+	"mass" 12
+	"outfit space" -12
+	"engine capacity" -12
+	"thrust" 5.3
+	"thrusting energy" .7
+	"thrusting heat" 1.4
+	"flare sprite" "effect/plasma flare/tiny"
+		"frame rate" 5
+	"flare sound" "plasma tiny"
+
+outfit "Fekorna Thruster"
+	category "Engines"
+	"cost" 45000
+	thumbnail "outfit/small plasma thruster"
+	"mass" 20
+	"outfit space" -20
+	"engine capacity" -20
+	"thrust" 9.8
+	"thrusting energy" 1.2
+	"thrusting heat" 2.7
+	"flare sprite" "effect/plasma flare/small"
+		"frame rate" 6
+	"flare sound" "plasma small"
+
+outfit "Ornao Thruster"
+	category "Engines"
+	"cost" 99000
+	thumbnail "outfit/medium plasma thruster"
+	"mass" 38
+	"outfit space" -38
+	"engine capacity" -38
+	"thrust" 17.4
+	"thrusting energy" 2.2
+	"thrusting heat" 5
+	"flare sprite" "effect/plasma flare/medium"
+		"frame rate" 7
+	"flare sound" "plasma medium"
+
+outfit "Qutaran Thruster"
+	category "Engines"
+	"cost" 217000
+	thumbnail "outfit/large plasma thruster"
+	"mass" 80
+	"outfit space" -80
+	"engine capacity" -80
+	"thrust" 33.7
+	"thrusting energy" 3.8
+	"thrusting heat" 10
+	"flare sprite" "effect/plasma flare/large"
+		"frame rate" 8
+	"flare sound" "plasma large"
+
+outfit "Vikuan Thruster"
+	category "Engines"
+	"cost" 478000
+	thumbnail "outfit/huge plasma thruster"
+	"mass" 160
+	"outfit space" -160
+	"engine capacity" -160
+	"thrust" 66.4
+	"thrusting energy" 6
+	"thrusting heat" 19.7
+	"flare sprite" "effect/plasma flare/huge"
+		"frame rate" 9
+	"flare sound" "plasma huge"
+
+
+outfit "Auker Steering"
+	category "Engines"
+	"cost" 16000
+	thumbnail "outfit/tiny plasma steering"
+	"mass" 10
+	"outfit space" -10
+	"engine capacity" -10
+	"turn" 200
+	"turning energy" .3
+	"turning heat" .9
+	"steering flare sprite" "effect/plasma flare/tiny"
+		"frame rate" 5
+	"steering flare sound" "plasma tiny"
+
+outfit "Fekorna Steering"
+	category "Engines"
+	"cost" 36000
+	thumbnail "outfit/small plasma steering"
+	"mass" 20
+	"outfit space" -20
+	"engine capacity" -20
+	"turn" 410
+	"turning energy" 0.6
+	"turning heat" 1.8
+	"steering flare sprite" "effect/plasma flare/small"
+		"frame rate" 6
+	"steering flare sound" "plasma small"
+
+outfit "Ornao Steering"
+	category "Engines"
+	"cost" 79000
+	thumbnail "outfit/medium plasma steering"
+	"mass" 40
+	"outfit space" -40
+	"engine capacity" -40
+	"turn" 800
+	"turning energy" 1.8
+	"turning heat" 5.2
+	"steering flare sprite" "effect/plasma flare/medium"
+		"frame rate" 7
+	"steering flare sound" "plasma medium"
+
+outfit "Qutaran Steering"
+	category "Engines"
+	"cost" 174000
+	thumbnail "outfit/large plasma steering"
+	"mass" 80
+	"outfit space" -80
+	"engine capacity" -80
+	"turn" 1600
+	"turning energy" 2.7
+	"turning heat" 6.6
+	"steering flare sprite" "effect/plasma flare/large"
+		"frame rate" 8
+	"steering flare sound" "plasma large"
+
+outfit "Vikuan Steering"
+	category "Engines"
+	"cost" 382000
+	thumbnail "outfit/huge plasma steering"
+	"mass" 155
+	"outfit space" -155
+	"engine capacity" -155
+	"turn" 3000
+	"turning energy" 5
+	"turning heat" 11.2
+	"steering flare sprite" "effect/plasma flare/huge"
+		"frame rate" 9
+	"steering flare sound" "plasma huge"
+
+	
+=========================================[Shields]=============================
 	
 outfit "SR10 Shield Generator"
 	category "Systems"
@@ -631,6 +786,8 @@ outfit "Type-F Hyperdrive"
 	"hyperdrive" 1
 	"jump fuel" 175
 	description "Dels's Type-F Hyperdrive allow ships to jump at speed"
+	
+=========================================[Energy]=============================
 	
 outfit "Dalsa Fusion Reactor"
 	category "Power"
@@ -726,6 +883,8 @@ outfit "K3016a Battery Pack" #Ocean
 	"outfit space" -160
 	"energy capacity" 24000
 	description "Dels's largest battery"
+	
+=========================================[H2H]=============================
 	
 outfit "Delisma Longrifle"
 	category "Hand to Hand"
