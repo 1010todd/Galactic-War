@@ -82,8 +82,6 @@ system Aecor
 	asteroids "small metal" 2 7.2225
 	asteroids "medium metal" 196 5.4
 	asteroids "large metal" 10 7.3575
-	fleet "Ultaka Traps" 1200
-	fleet "Ultaka small" 1500
 	fleet "Erm Raid Fleet" 20000
 	object
 		sprite star/g0
@@ -158,16 +156,16 @@ system Aelleo
 	asteroids "large metal" 1 3.0056
 	minables iron 3 3.48381
 	minables titanium 3 5.35786
-	trade Clothing 209
-	trade Electronics 659
-	trade Equipment 681
+	trade Clothing 242
+	trade Electronics 816
+	trade Equipment 450
 	trade Food 420
-	trade "Heavy Metals" 1157
-	trade Industrial 790
-	trade "Luxury Goods" 1003
-	trade Medical 608
-	trade Metal 254
-	trade Plastic 380
+	trade "Heavy Metals" 895
+	trade Industrial 870
+	trade "Luxury Goods" 1066
+	trade Medical 870
+	trade Metal 259
+	trade Plastic 299
 	fleet "Ignaggen Outlaw" 2300
 	fleet "Kager Military" 800
 	fleet Ignaggen 1000
@@ -285,9 +283,7 @@ system Aena
 	asteroids "small metal" 41 5.5594
 	asteroids "medium metal" 32 3.4276
 	asteroids "large metal" 6 4.0128
-	fleet "Ultaka Traps" 1200
 	fleet "Resmakia Mines" 1200
-	fleet "Ultaka small" 1000
 	fleet "Erm Raid Fleet" 20000
 	object
 		sprite star/a0
@@ -342,9 +338,7 @@ system Aeonma
 	asteroids "small metal" 26 3.645
 	asteroids "medium metal" 22 3.51
 	asteroids "large metal" 18 4.995
-	fleet "Ultaka Traps" 1200
 	fleet "Resmakia Mines" 1200
-	fleet "Ultaka small" 1000
 	fleet "Erm Raid Fleet" 20000
 	object
 		sprite star/k0
@@ -472,16 +466,16 @@ system Aibo
 	minables copper 25 5.83824
 	minables silicon 3 7.15921
 	minables silver 1 5.66067
-	trade Clothing 271
-	trade Electronics 741
-	trade Equipment 598
+	trade Clothing 320
+	trade Electronics 735
+	trade Equipment 651
 	trade Food 252
-	trade "Heavy Metals" 1067
-	trade Industrial 791
-	trade "Luxury Goods" 1044
-	trade Medical 835
-	trade Metal 477
-	trade Plastic 488
+	trade "Heavy Metals" 1054
+	trade Industrial 579
+	trade "Luxury Goods" 970
+	trade Medical 681
+	trade Metal 401
+	trade Plastic 386
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -537,16 +531,16 @@ system Aili
 	asteroids "large metal" 1 1.944
 	minables gold 2 5.59375
 	minables iron 1 7.97407
-	trade Clothing 335
-	trade Electronics 735
-	trade Equipment 580
+	trade Clothing 308
+	trade Electronics 650
+	trade Equipment 670
 	trade Food 195
-	trade "Heavy Metals" 954
-	trade Industrial 747
-	trade "Luxury Goods" 1103
-	trade Medical 836
-	trade Metal 351
-	trade Plastic 477
+	trade "Heavy Metals" 951
+	trade Industrial 681
+	trade "Luxury Goods" 1039
+	trade Medical 575
+	trade Metal 261
+	trade Plastic 473
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -724,7 +718,7 @@ system Akogi
 			distance 165
 			period 17.8378
 
-system Alta
+system Alrtar
 	pos -313.737 -4656.2
 	government Dels
 	habitable 486.68
@@ -741,18 +735,17 @@ system Alta
 	asteroids "medium metal" 29 3.952
 	asteroids "large metal" 1 4.56
 	minables aluminum 40 7.97702
-	trade Clothing 340
-	trade Electronics 781
-	trade Equipment 405
+	trade Clothing 285
+	trade Electronics 703
+	trade Equipment 601
 	trade Food 532
-	trade "Heavy Metals" 788
-	trade Industrial 671
-	trade "Luxury Goods" 1334
-	trade Medical 576
-	trade Metal 498
-	trade Plastic 379
-	fleet "Ultaka small" 1000
-	fleet "Qanse Small" 1000
+	trade "Heavy Metals" 1156
+	trade Industrial 762
+	trade "Luxury Goods" 1102
+	trade Medical 763
+	trade Metal 412
+	trade Plastic 430
+	fleet "Dels merchant" 600
 	object
 		sprite star/k0
 		period 10
@@ -799,21 +792,20 @@ system Altol
 	link Voimira
 	asteroids "large metal" 1 2.142
 	minables platinum 35 3.86798
-	trade Clothing 341
-	trade Electronics 695
-	trade Equipment 485
+	trade Clothing 286
+	trade Electronics 717
+	trade Equipment 501
 	trade Food 359
-	trade "Heavy Metals" 1018
-	trade Industrial 827
-	trade "Luxury Goods" 1273
-	trade Medical 751
-	trade Metal 340
-	trade Plastic 388
-	fleet "Ultaka small" 1000
-	fleet "Dels guard" 10000
-	fleet "Qanse Small" 800
-	fleet "Ultaka big" 1200
-	fleet "Dels miner" 12000
+	trade "Heavy Metals" 1016
+	trade Industrial 661
+	trade "Luxury Goods" 992
+	trade Medical 675
+	trade Metal 233
+	trade Plastic 512
+	fleet "Dels guard" 1000
+	fleet "Dels miner" 1200
+	fleet Ignaggen 700
+	fleet "Dels merchant" 600
 	object
 		sprite star/f5
 		period 10
@@ -930,16 +922,16 @@ system Aoma
 	minables lead 38 3.91492
 	minables silicon 2 4.21311
 	minables titanium 2 3.4965
-	trade Clothing 223
-	trade Electronics 734
-	trade Equipment 616
+	trade Clothing 301
+	trade Electronics 834
+	trade Equipment 645
 	trade Food 210
-	trade "Heavy Metals" 1162
-	trade Industrial 749
-	trade "Luxury Goods" 1236
-	trade Medical 659
-	trade Metal 252
-	trade Plastic 480
+	trade "Heavy Metals" 1123
+	trade Industrial 645
+	trade "Luxury Goods" 990
+	trade Medical 713
+	trade Metal 266
+	trade Plastic 343
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -1054,16 +1046,16 @@ system Aorlem
 	asteroids "large metal" 1 5.6
 	minables iron 6 6.60971
 	minables lead 6 5.76293
-	trade Clothing 250
-	trade Electronics 645
-	trade Equipment 615
+	trade Clothing 291
+	trade Electronics 753
+	trade Equipment 632
 	trade Food 246
-	trade "Heavy Metals" 1216
-	trade Industrial 706
-	trade "Luxury Goods" 1178
-	trade Medical 700
-	trade Metal 286
-	trade Plastic 463
+	trade "Heavy Metals" 1070
+	trade Industrial 661
+	trade "Luxury Goods" 1022
+	trade Medical 726
+	trade Metal 329
+	trade Plastic 295
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -1173,7 +1165,6 @@ system Are
 	asteroids "medium metal" 70 3.192
 	asteroids "large metal" 6 2.736
 	trade Food 195
-	fleet "Ultaka Traps" 1200
 	object
 		sprite star/k0
 		period 10
@@ -1224,16 +1215,16 @@ system Arema
 	asteroids "large metal" 88 4.264
 	minables aluminum 1 8.9174
 	minables iron 14 5.48129
-	trade Clothing 285
-	trade Electronics 724
-	trade Equipment 634
+	trade Clothing 279
+	trade Electronics 701
+	trade Equipment 682
 	trade Food 147
-	trade "Heavy Metals" 974
-	trade Industrial 785
-	trade "Luxury Goods" 1081
-	trade Medical 821
-	trade Metal 257
-	trade Plastic 501
+	trade "Heavy Metals" 1011
+	trade Industrial 714
+	trade "Luxury Goods" 1003
+	trade Medical 659
+	trade Metal 252
+	trade Plastic 405
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -1289,16 +1280,16 @@ system Arger
 	asteroids "medium metal" 2 4.301
 	asteroids "large metal" 8 1.9941
 	minables gold 7 6.84338
-	trade Clothing 221
-	trade Electronics 680
-	trade Equipment 659
+	trade Clothing 290
+	trade Electronics 685
+	trade Equipment 604
 	trade Food 168
-	trade "Heavy Metals" 1071
-	trade Industrial 853
-	trade "Luxury Goods" 996
-	trade Medical 820
-	trade Metal 363
-	trade Plastic 508
+	trade "Heavy Metals" 1050
+	trade Industrial 649
+	trade "Luxury Goods" 1007
+	trade Medical 714
+	trade Metal 329
+	trade Plastic 387
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -1345,16 +1336,16 @@ system Argol
 	asteroids "small metal" 3 6.0494
 	asteroids "medium metal" 14 3.9788
 	asteroids "large metal" 2 3.7758
-	trade Clothing 226
-	trade Electronics 677
-	trade Equipment 621
+	trade Clothing 271
+	trade Electronics 752
+	trade Equipment 478
 	trade Food 430
-	trade "Heavy Metals" 1105
-	trade Industrial 847
-	trade "Luxury Goods" 1016
-	trade Medical 672
-	trade Metal 279
-	trade Plastic 355
+	trade "Heavy Metals" 757
+	trade Industrial 793
+	trade "Luxury Goods" 1030
+	trade Medical 737
+	trade Metal 290
+	trade Plastic 303
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -1410,6 +1401,15 @@ system Argornecai
 	asteroids "small metal" 3 4.59
 	asteroids "medium metal" 78 6.783
 	asteroids "large metal" 1 3.621
+	trade Clothing 349
+	trade Electronics 808
+	trade Equipment 453
+	trade "Heavy Metals" 998
+	trade Industrial 714
+	trade "Luxury Goods" 1245
+	trade Medical 745
+	trade Metal 409
+	trade Plastic 333
 	object
 		sprite star/m0
 		period 10
@@ -1459,6 +1459,15 @@ system Atorka
 	asteroids "small metal" 4 3.03
 	asteroids "medium metal" 64 4.02
 	asteroids "large metal" 30 3.84
+	trade Clothing 333
+	trade Electronics 684
+	trade Equipment 651
+	trade "Heavy Metals" 830
+	trade Industrial 809
+	trade "Luxury Goods" 1392
+	trade Medical 651
+	trade Metal 238
+	trade Plastic 386
 	object
 		sprite star/g0
 		distance 34.5053
@@ -1510,6 +1519,15 @@ system Atorma
 	asteroids "small metal" 15 7.332
 	asteroids "medium metal" 95 2.652
 	asteroids "large metal" 2 7.332
+	trade Clothing 326
+	trade Electronics 679
+	trade Equipment 369
+	trade "Heavy Metals" 961
+	trade Industrial 603
+	trade "Luxury Goods" 1186
+	trade Medical 537
+	trade Metal 228
+	trade Plastic 451
 	object
 		sprite star/g5
 		distance 45.5299
@@ -1630,66 +1648,6 @@ system "Au Hall"
 			distance 472
 			period 43.8113
 
-system "Battle test"
-	pos -668.875 -4642.25
-	habitable 5000
-	link Feeroko
-	asteroids "small rock" 5 9.522
-	asteroids "medium rock" 30 4.83
-	asteroids "large rock" 7 8.142
-	asteroids "small metal" 2 8.901
-	asteroids "medium metal" 16 10.143
-	asteroids "large metal" 1 10.212
-	trade Clothing 389
-	trade Electronics 647
-	trade Equipment 643
-	trade Food 511
-	trade "Heavy Metals" 978
-	trade Industrial 779
-	trade "Luxury Goods" 1185
-	trade Medical 735
-	trade Metal 518
-	trade Plastic 474
-	object
-		sprite star/a0
-		period 10
-	object
-		sprite planet/lava2
-		distance 232.81
-		period 20.0945
-	object
-		sprite planet/gas1
-		distance 783.5
-		period 124.06
-		object
-			sprite planet/rock14
-			distance 217
-			period 12.7763
-	object
-		sprite planet/jupiter
-		distance 1286.71
-		period 261.093
-	object
-		sprite planet/gas15
-		distance 2874.6
-		period 871.849
-		object
-			sprite planet/rock0
-			distance 230
-			period 18.3607
-		object
-			sprite planet/io
-			distance 321
-			period 30.2729
-		object
-			sprite planet/dust7
-			distance 412
-			period 44.0193
-		object
-			sprite planet/europa
-			distance 517
-			period 61.8775
-
 system Bickorni
 	pos 173.98 -4301.83
 	government Uninhabitated
@@ -1736,32 +1694,32 @@ system Bickorni
 			period 27.3514
 
 system Boklok
-	pos -358.737 -4576.2
+	pos -358.737 -4571.2
 	government Dels
 	habitable 486.68
 	link Cevert
 	link Comar
 	link "Mea Vol"
+	link Suadee
 	asteroids "small rock" 13 7.9924
 	asteroids "medium rock" 44 4.4486
 	asteroids "large rock" 34 10.7068
 	asteroids "small metal" 32 7.54
 	asteroids "large metal" 68 6.8614
 	minables tungsten 35 3.86798
-	trade Clothing 332
-	trade Electronics 726
-	trade Equipment 408
+	trade Clothing 230
+	trade Electronics 732
+	trade Equipment 516
 	trade Food 375
-	trade "Heavy Metals" 950
-	trade Industrial 799
-	trade "Luxury Goods" 1338
-	trade Medical 589
-	trade Metal 381
-	trade Plastic 334
-	fleet "Ultaka small" 1000
-	fleet "Qanse Small" 1000
-	fleet "Ultaka big" 1200
-	fleet "Dels miner" 20000
+	trade "Heavy Metals" 1045
+	trade Industrial 694
+	trade "Luxury Goods" 1027
+	trade Medical 732
+	trade Metal 323
+	trade Plastic 362
+	fleet "Dels miner" 2000
+	fleet "Dels merchant" 600
+	fleet "Dels guard" 1000
 	object
 		sprite star/k0
 		period 10
@@ -1806,45 +1764,52 @@ system Bov
 	asteroids "medium metal" 130 4.8888
 	asteroids "large metal" 2 2.6208
 	trade Food 282
-	fleet "Qanse Small" 800
 	fleet "Dels guard" 10000
-	fleet "Ultaka small" 10000
-	fleet "Ultaka big" 1200
+	0
 	object
 		sprite star/m4
 		period 10
+		0
 	object
 		sprite planet/oberon
 		distance 178.81
 		period 62.6194
+		0
 	object
 		sprite planet/rock15
 		distance 315.06
 		period 146.457
+		0
 	object
 		sprite planet/dust4
 		distance 540.5
 		period 329.09
+		0
 	object
 		sprite planet/ice1
 		distance 914.46
 		period 724.216
+		0
 	object
 		sprite planet/gas7
 		distance 1814.02
 		period 2023.41
+		0
 		object
 			sprite planet/rock0
 			distance 256
 			period 14.571
+			0
 		object
 			sprite planet/dust5
 			distance 410
 			period 29.5329
+			0
 		object
 			sprite planet/desert4
 			distance 540
 			period 44.6397
+			0
 
 system C1-1
 	pos 341.061 -4056.4
@@ -1861,7 +1826,6 @@ system C1-1
 	asteroids "large metal" 4 7.224
 	minables lead 12 13.3837
 	minables titanium 5 8.83859
-	fleet "Ultaka small" 1000
 	object
 		sprite star/f5
 		distance 20.7568
@@ -1920,7 +1884,6 @@ system C1-2
 	asteroids "medium metal" 1 2.4242
 	asteroids "large metal" 1 5.2785
 	minables iron 1 8.01819
-	fleet "Ultaka small" 1000
 	object
 		sprite star/g5
 		period 10
@@ -1975,7 +1938,6 @@ system C2-1
 	asteroids "large metal" 10 5.5062
 	minables silver 12 9.02978
 	minables titanium 27 8.68838
-	fleet "Ultaka small" 1000
 	object
 		sprite star/k0
 		distance 39.2721
@@ -2027,7 +1989,6 @@ system C2-2
 	asteroids "large metal" 1 2.7846
 	minables iron 1 3.5055
 	minables titanium 1 4.16791
-	fleet "Ultaka small" 1000
 	object
 		sprite star/m0
 		period 10
@@ -2078,7 +2039,6 @@ system C2-3
 	minables lead 17 3.20351
 	minables titanium 37 2.48225
 	minables tungsten 37 3.83434
-	fleet "Ultaka small" 1000
 	object
 		sprite star/g5
 		distance 33.8624
@@ -2145,7 +2105,6 @@ system C2-4
 	asteroids "large metal" 1 2.82
 	minables iron 7 6.37729
 	minables silicon 2 4.60748
-	fleet "Ultaka small" 1000
 	object
 		sprite star/k5
 		period 10
@@ -2195,7 +2154,6 @@ system C3-1
 	asteroids "large metal" 3 3.432
 	minables copper 1 7.85512
 	minables tungsten 30 4.78119
-	fleet "Ultaka small" 1000
 	object
 		sprite star/f0
 		period 10
@@ -2245,7 +2203,6 @@ system C3-2
 	asteroids "large rock" 2 1.5477
 	asteroids "medium metal" 13 3.3264
 	asteroids "large metal" 3 1.4322
-	fleet "Ultaka small" 1000
 	object
 		sprite star/g0
 		period 10
@@ -2553,7 +2510,6 @@ system C4-3
 	minables aluminum 14 2.15661
 	minables copper 11 2.99029
 	minables uranium 1 3.38947
-	fleet "Ultaka small" 1000
 	object
 		sprite star/a5
 		period 10
@@ -3004,21 +2960,18 @@ system Cevert
 	asteroids "large metal" 5 1.89
 	minables titanium 35 3.86798
 	minables lead 35 3.86798
-	trade Clothing 281
-	trade Electronics 783
-	trade Equipment 481
+	trade Clothing 315
+	trade Electronics 762
+	trade Equipment 464
 	trade Food 460
-	trade "Heavy Metals" 906
-	trade Industrial 818
-	trade "Luxury Goods" 1295
-	trade Medical 589
-	trade Metal 430
-	trade Plastic 316
-	fleet "Ultaka small" 1000
-	fleet "Dels guard" 10000
-	fleet "Qanse Small" 800
-	fleet "Ultaka big" 1200
-	fleet "Dels miner" 10000
+	trade "Heavy Metals" 1009
+	trade Industrial 708
+	trade "Luxury Goods" 1019
+	trade Medical 778
+	trade Metal 306
+	trade Plastic 444
+	fleet "Dels miner" 1000
+	fleet "Dels merchant" 600
 	object
 		sprite star/k5
 		distance 47.619
@@ -3141,7 +3094,6 @@ system "Coai Mesoh'a"
 	minables aluminum 7 2.15641
 	minables copper 7 2.82155
 	minables iron 1 2.7048
-	fleet "Ultaka small" 1000
 	object
 		sprite star/g0
 		period 10
@@ -3175,7 +3127,7 @@ system "Coai Mesoh'a"
 			period 23.6656
 
 system Codelo
-	pos -365.737 -4813.2
+	pos -343.737 -4857.2
 	government Dels
 	habitable 135
 	link "Fee Lo"
@@ -3188,79 +3140,92 @@ system Codelo
 	asteroids "small metal" 5 3.1096
 	asteroids "medium metal" 12 3.2448
 	asteroids "large metal" 9 2.028
-	trade Clothing 286
-	trade Electronics 818
-	trade Equipment 393
+	trade Clothing 359
+	trade Electronics 700
+	trade Equipment 578
 	trade Food 437
-	trade "Heavy Metals" 840
-	trade Industrial 679
-	trade "Luxury Goods" 1355
-	trade Medical 630
-	trade Metal 448
-	trade Plastic 423
+	trade "Heavy Metals" 1103
+	trade Industrial 593
+	trade "Luxury Goods" 1085
+	trade Medical 831
+	trade Metal 495
+	trade Plastic 421
 	fleet "Dels guard" 1000
 	fleet "Dels merchant" 600
-	fleet "Dels pirate" 1000
-	fleet "Wallagi Partol" 1000
-	fleet "Ultaka small" 20000
-	fleet "Ultaka big" 42000
-	fleet "Qanse Small" 1200
+	0
+	0
 	object
 		sprite star/m8
 		period 10
+		0
+		0
 	object
 		sprite planet/gas2
 		distance 443.25
 		period 321.267
+		0
+		0
 		object
 			sprite planet/ice8
 			distance 215
 			period 19.1017
+			0
+			0
 		object
 			sprite planet/dust5
 			distance 325
 			period 35.5009
+			0
+			0
 	object Senmari
 		sprite planet/rock12
 		distance 971.41
 		period 1042.31
+		0
+		0
 	object
 		sprite planet/gas11
 		distance 1387.3
 		period 1778.89
+		0
+		0
 		object
 			sprite planet/rock7
 			distance 238
 			period 12.11
+			0
+			0
 	object
 		sprite planet/gas0
 		distance 2380.54
 		period 3998.58
+		0
+		0
 
 system Collak
-	pos -231.07 -4406.86
+	pos -234.07 -4384.86
 	government Dels
 	habitable 1715
 	belt 1256
-	link Dree
+	link Dreevu
 	link Keen
+	link Redeino
 	asteroids "large rock" 1 0.649
 	asteroids "medium metal" 7 1.595
 	asteroids "large metal" 1 1.111
 	minables copper 1 2.36384
 	minables lead 2 1.63573
-	trade Clothing 237
-	trade Electronics 659
-	trade Equipment 584
+	trade Clothing 226
+	trade Electronics 818
+	trade Equipment 574
 	trade Food 127
-	trade "Heavy Metals" 1102
-	trade Industrial 670
-	trade "Luxury Goods" 1465
-	trade Medical 892
-	trade Metal 252
-	trade Plastic 300
-	fleet "Ultaka small" 1200
-	fleet "Ultaka Traps" 1200
+	trade "Heavy Metals" 1139
+	trade Industrial 768
+	trade "Luxury Goods" 1253
+	trade Medical 577
+	trade Metal 509
+	trade Plastic 458
+	fleet "Dels merchant" 600
 	object
 		sprite star/f5
 		period 10
@@ -3300,7 +3265,7 @@ system Collak
 system Comar
 	pos -430.737 -4561.2
 	government Dels
-	habitable 486.68
+	habitable 320
 	belt 1637
 	link Altol
 	link Boklok
@@ -3316,87 +3281,82 @@ system Comar
 	asteroids "large metal" 4 4.7196
 	minables aluminum 2 7.83938
 	minables platinum 3 10.7562
-	trade Clothing 303
-	trade Electronics 673
-	trade Equipment 471
+	trade Clothing 269
+	trade Electronics 737
+	trade Equipment 497
 	trade Food 385
-	trade "Heavy Metals" 1035
-	trade Industrial 832
-	trade "Luxury Goods" 1293
-	trade Medical 670
-	trade Metal 342
-	trade Plastic 361
-	fleet "Ultaka small" 1000
-	fleet "Dels guard" 10000
-	fleet "Qanse Small" 800
-	fleet "Ultaka big" 1800
-	fleet "Dels miner" 10000
+	trade "Heavy Metals" 1049
+	trade Industrial 733
+	trade "Luxury Goods" 1050
+	trade Medical 689
+	trade Metal 241
+	trade Plastic 447
+	fleet "Dels guard" 1000
+	fleet "Dels miner" 1200
+	fleet "Dels merchant" 600
+	fleet Ignaggen 700
 	object
-		sprite star/k0
+		sprite star/m0
 		period 10
+	object Nirvuvia
+		sprite planet/cloud6
+		distance 302.44
+		period 117.61
+		object
+			sprite planet/rock7
+			distance 162
+			period 21.1096
 	object
-		sprite planet/mercury
-		distance 149.04
-		period 32.9908
+		sprite planet/rock1
+		distance 732.69
+		period 443.471
+		object
+			sprite planet/oberon
+			distance 128
+			period 16.8395
 	object
 		sprite planet/gas1
-		distance 901.13
-		period 490.478
-		object
-			sprite planet/tethys
-			distance 246
-			period 15.4212
-		object
-			sprite planet/io
-			distance 377
-			period 29.2569
-		object Sendare
-			sprite planet/rock14
-			distance 509
-			period 45.8978
-	object
-		sprite planet/gas11
-		distance 2420.37
-		period 2159.04
+		distance 1639.45
+		period 1484.34
 		object
 			sprite planet/lava0
-			distance 279
-			period 15.3704
+			distance 261
+			period 16.853
 		object
-			sprite planet/rock3
-			distance 432
-			period 29.6144
+			sprite planet/dust0
+			distance 410
+			period 33.1811
 		object
-			sprite planet/dust3
-			distance 546
-			period 42.0791
+			sprite planet/dust1
+			distance 500
+			period 44.6859
 
 system Comlark
-	pos -390.737 -4409.2
+	pos -429.737 -4442.2
 	government Dels
 	habitable 320
 	belt 1335
 	link Jeelark
-	link Neevee
+	link Neeveeria
 	link Nelha
-	link Reen
+	link Reenai
 	asteroids "small rock" 1 9.45
 	asteroids "medium rock" 2 6.5772
 	asteroids "large rock" 2 7.4088
 	asteroids "small metal" 1 4.3848
 	asteroids "medium metal" 2 5.292
 	asteroids "large metal" 8 5.8968
-	trade Clothing 312
-	trade Electronics 665
-	trade Equipment 521
+	trade Clothing 287
+	trade Electronics 766
+	trade Equipment 492
 	trade Food 185
-	trade "Heavy Metals" 976
-	trade Industrial 677
-	trade "Luxury Goods" 1459
-	trade Medical 767
-	trade Metal 247
-	trade Plastic 412
-	fleet "Ultaka small" 1200
+	trade "Heavy Metals" 1168
+	trade Industrial 773
+	trade "Luxury Goods" 1007
+	trade Medical 620
+	trade Metal 264
+	trade Plastic 474
+	fleet "Dels merchant" 600
 	object
 		sprite star/m0
 		period 10
@@ -3444,7 +3404,6 @@ system Como
 	asteroids "medium metal" 2 3.9936
 	asteroids "large metal" 1 2.9568
 	trade Food 496
-	fleet "Ultaka Traps" 1200
 	object
 		sprite star/k5
 		period 10
@@ -3468,6 +3427,61 @@ system Como
 		sprite planet/rock16
 		distance 1963.9
 		period 1686.84
+
+system Cuvorai
+	pos -61.7418 -4125.15
+	government Dels
+	habitable 425.92
+	belt 1957
+	link Irvodera
+	asteroids "small rock" 21 8.7906
+	asteroids "medium rock" 1 5.8604
+	asteroids "large rock" 7 5.5016
+	asteroids "small metal" 1 4.784
+	asteroids "large metal" 1 4.7242
+	minables titanium 8 9.37005
+	trade Clothing 176
+	trade Electronics 641
+	trade Equipment 409
+	trade Food 174
+	trade "Heavy Metals" 726
+	trade Industrial 855
+	trade "Luxury Goods" 966
+	trade Medical 498
+	trade Metal 546
+	trade Plastic 248
+	fleet "Dels merchant" 800
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/luna
+		distance 122.25
+		period 26.1981
+	object
+		sprite planet/rock14
+		distance 356.25
+		period 130.325
+	object
+		sprite planet/rock6
+		distance 565.69
+		period 260.774
+	object
+		sprite planet/gas7
+		distance 1629.69
+		period 1275.13
+		object
+			sprite planet/desert4
+			distance 221
+			period 11.6874
+		object
+			sprite planet/rock3
+			distance 313
+			period 19.6991
+		object
+			sprite planet/ice0
+			distance 461
+			period 35.2113
 
 system "Cuzi no"
 	pos -12.0204 -4110.83
@@ -4661,7 +4675,6 @@ system Deefolks
 	link Comar
 	link "Eevil Or"
 	link Feeroko
-	link "Qee Fol"
 	asteroids "small rock" 67 5.7798
 	asteroids "medium rock" 102 2.964
 	asteroids "large rock" 48 4.7918
@@ -4669,59 +4682,65 @@ system Deefolks
 	asteroids "large metal" 22 3.458
 	minables titanium 35 3.86798
 	minables tungsten 35 3.86798
-	trade Clothing 283
-	trade Electronics 765
-	trade Equipment 501
+	trade Clothing 292
+	trade Electronics 734
+	trade Equipment 565
 	trade Food 361
-	trade "Heavy Metals" 1036
-	trade Industrial 839
-	trade "Luxury Goods" 1187
-	trade Medical 713
-	trade Metal 376
-	trade Plastic 382
+	trade "Heavy Metals" 947
+	trade Industrial 649
+	trade "Luxury Goods" 964
+	trade Medical 582
+	trade Metal 242
+	trade Plastic 472
 	fleet "Dels guard" 600
 	fleet "Dels merchant" 1200
-	fleet "Wallagi Patrol" 2000
-	fleet "Dels pirate" 600
-	fleet "Ultaka small" 10000
-	fleet "Qanse Small" 1600
 	fleet "Dels miner" 2000
+	fleet Ignaggen 700
+	0
 	object
 		sprite star/k5
 		period 10
+		0
 	object Donto
 		sprite planet/forest1
 		distance 446.577
 		period 182.911
 		offset 243.531
+		0
 		object
 			sprite planet/rock7
 			distance 137
 			period 17.9601
 			offset 309.419
+			0
 		object Meramos-P340P
 			sprite planet/battlestationw
 			distance 202
 			period 11.4747
+			0
 	object
 		sprite planet/cloud0
 		distance 951.067
 		period 568.476
 		offset 336.442
+		0
 		object
 			sprite planet/ice0
 			distance 162
 			period 25.4101
+			0
 	object
 		sprite planet/desert7
 		distance 1412.91
 		period 1029.36
 		offset 111.385
+		0
 	object
 		sprite planet/gas1
 		distance 2095.95
 		period 1859.8
 		offset 38.6823
+		0
 
 system Deepla
 	pos 112.992 -5077.78
@@ -4789,7 +4808,6 @@ system Della
 	asteroids "medium metal" 35 4.872
 	asteroids "large metal" 37 2.9
 	trade Food 204
-	fleet "Ultaka Traps" 1200
 	object
 		sprite star/f5
 		period 10
@@ -4831,7 +4849,7 @@ system Della
 			period 15.8538
 
 system Delo
-	pos -256.737 -4805.2
+	pos -233.737 -4841.2
 	government Dels
 	habitable 425.92
 	link Neeko
@@ -4841,62 +4859,72 @@ system Delo
 	asteroids "small metal" 201 3.696
 	asteroids "medium metal" 39 3.74
 	asteroids "large metal" 76 3.036
-	trade Clothing 265
-	trade Electronics 837
-	trade Equipment 512
+	trade Clothing 288
+	trade Electronics 631
+	trade Equipment 432
 	trade Food 458
-	trade "Heavy Metals" 809
-	trade Industrial 715
-	trade "Luxury Goods" 1327
-	trade Medical 547
-	trade Metal 518
-	trade Plastic 510
+	trade "Heavy Metals" 1188
+	trade Industrial 591
+	trade "Luxury Goods" 1188
+	trade Medical 869
+	trade Metal 548
+	trade Plastic 244
 	fleet "Revos small" 20000
 	fleet "Dels guard" 1000
 	fleet "Dels merchant" 600
-	fleet "Ultaka small" 20000
+	0
 	object
 		sprite star/k5
 		period 10
+		0
 	object
 		sprite planet/mercury
 		distance 133.41
 		period 29.8661
+		0
 	object
 		sprite planet/cloud5
 		distance 523.41
 		period 232.091
+		0
 		object
 			sprite planet/tethys
 			distance 178
 			period 15.5202
+			0
 	object
 		sprite planet/rock7
 		distance 972.7
 		period 587.982
+		0
 	object Densaer
 		sprite planet/dust1
 		distance 1318.71
 		period 928.154
+		0
 	object
 		sprite planet/gas4
 		distance 2442
 		period 2338.92
+		0
 		object
 			sprite planet/desert4
 			distance 227
 			period 12.0625
+			0
 		object
 			sprite planet/dust4
 			distance 340
 			period 22.1114
+			0
 		object
 			sprite planet/luna
 			distance 478
 			period 36.8586
+			0
 
 system Deloco
-	pos -425.737 -4837.2
+	pos -396.737 -4863.2
 	government Dels
 	habitable 625
 	link "Fee Lo"
@@ -4908,19 +4936,18 @@ system Deloco
 	asteroids "small metal" 17 6.003
 	asteroids "medium metal" 23 7.134
 	asteroids "large metal" 8 4.437
-	trade Clothing 349
-	trade Electronics 825
-	trade Equipment 411
+	trade Clothing 326
+	trade Electronics 692
+	trade Equipment 475
 	trade Food 449
-	trade "Heavy Metals" 809
-	trade Industrial 599
-	trade "Luxury Goods" 1447
-	trade Medical 602
-	trade Metal 387
-	trade Plastic 378
+	trade "Heavy Metals" 1245
+	trade Industrial 684
+	trade "Luxury Goods" 1096
+	trade Medical 898
+	trade Metal 540
+	trade Plastic 458
 	fleet "Dels guard" 1200
 	fleet "Dels merchant" 600
-	fleet "Dels pirate" 1000
 	object
 		sprite star/g5
 		period 10
@@ -4963,32 +4990,37 @@ system Deloop
 	asteroids "large metal" 50 3.72
 	minables tungsten 8 9.19299
 	trade Food 512
-	fleet "Qanse Small" 800
 	fleet "Dels guard" 10000
-	fleet "Ultaka small" 10000
+	0
 	object
 		sprite star/m0
 		period 10
+		0
 	object
 		sprite planet/venus
 		distance 155.76
 		period 43.4679
+		0
 	object
 		sprite planet/desert9
 		distance 422.32
 		period 194.065
+		0
 	object
 		sprite planet/desert0
 		distance 959.28
 		period 664.359
+		0
 	object
 		sprite planet/gas17
 		distance 2318.17
 		period 2495.76
+		0
 		object
 			sprite planet/dust0
 			distance 201
 			period 12.175
+			0
 
 system Deolme
 	pos 4870.68 -7968.52
@@ -5002,8 +5034,6 @@ system Deolme
 	asteroids "large rock" 13 3.795
 	asteroids "small metal" 4 2.139
 	asteroids "large metal" 4 5.0715
-	fleet "Ultaka Traps" 1200
-	fleet "Ultaka small" 1500
 	fleet "Erm Raid Fleet" 20000
 	object
 		sprite star/m8
@@ -5142,7 +5172,7 @@ system Deonlen
 			period 31.72
 
 system "Der Gaz"
-	pos -619.641 -5002.3
+	pos -638.641 -5028.3
 	government ZIS
 	habitable 1505.92
 	link "Trochzempt ZAZ-1"
@@ -5427,14 +5457,27 @@ system Dofolk
 			period 37.1143
 
 system Dolmoriwakla
-	pos 0.0436983 -5263.19
+	pos -801.578 -4730.93
 	government "Dels (Pirate)"
 	habitable 486.68
 	belt 1045
+	link "Qee Duao"
+	link "Qee Nor"
 	link "Qee Nori"
+	link "Qee Ultur"
+	link "Qee Urua"
 	asteroids "medium metal" 2 5.2026
 	asteroids "large metal" 1 3.289
+	trade Clothing 258
+	trade Electronics 678
+	trade Equipment 413
 	trade Food 154
+	trade "Heavy Metals" 778
+	trade Industrial 582
+	trade "Luxury Goods" 1455
+	trade Medical 525
+	trade Metal 421
+	trade Plastic 485
 	fleet "Dels pirate" 500
 	object
 		sprite star/k0
@@ -5572,102 +5615,114 @@ system "Dorai Nowoku"
 			period 42.1632
 
 system Dorak
-	pos -467.737 -4739.2
+	pos -447.737 -4746.2
 	government Dels
 	habitable 806.68
 	link Helre
-	link Vobeelee
-	link Volta
+	link Lome
+	link Nobdean
+	link Voltuara
 	asteroids "small metal" 195 0.9282
 	asteroids "medium metal" 19 1.1102
 	asteroids "large metal" 27 1.5106
-	trade Clothing 223
-	trade Electronics 766
-	trade Equipment 481
+	trade Clothing 391
+	trade Electronics 648
+	trade Equipment 498
 	trade Food 451
-	trade "Heavy Metals" 907
-	trade Industrial 629
-	trade "Luxury Goods" 1463
-	trade Medical 616
-	trade Metal 458
-	trade Plastic 309
+	trade "Heavy Metals" 1065
+	trade Industrial 760
+	trade "Luxury Goods" 1302
+	trade Medical 806
+	trade Metal 466
+	trade Plastic 339
 	fleet "Dels guard" 1000
 	fleet "Dels merchant" 600
 	fleet "Dels pirate" 800
-	fleet "Ultaka small" 20000
+	0
 	object
 		sprite star/k0
 		distance 38.8754
 		period 13.6631
 		offset 180
+		0
 	object
 		sprite star/m0
 		distance 59.1246
 		period 13.6631
+		0
 	object
 		sprite planet/lava5
 		distance 196.335
 		period 38.744
+		0
 	object
 		sprite planet/desert0
 		distance 403.335
 		period 114.079
+		0
 	object Falla
 		sprite planet/forest0
 		distance 829.213
 		period 336.286
 		offset 348.561
+		0
 	object
 		sprite planet/neptune
 		distance 1123.05
 		period 530.041
 		offset 13.6469
+		0
 	object
 		sprite planet/rock1
 		distance 1547.3
 		period 857.181
 		offset 6.10387
+		0
 	object
 		sprite planet/gas16
 		distance 3418.55
 		period 2814.96
 		offset 0.837141
+		0
 		object
 			sprite planet/ice8
 			distance 203
 			period 15.2244
+			0
 		object
 			sprite planet/ice7
 			distance 363
 			period 36.4047
+			0
 
-system Dree
-	pos -284.971 -4389.76
+system Dreevu
+	pos -291.971 -4358.76
 	government Dels
 	habitable 851.84
 	belt 1759
 	link Collak
-	link Jeelark
 	link Keen
 	link Loomera
+	link Nareenor
 	link Suere
+	link Uadora
 	asteroids "small rock" 3 4.824
 	asteroids "medium rock" 51 2.916
 	asteroids "large rock" 1 2.34
 	asteroids "large metal" 2 2.844
 	minables tungsten 3 5.28667
-	trade Clothing 295
-	trade Electronics 638
-	trade Equipment 497
+	trade Clothing 314
+	trade Electronics 847
+	trade Equipment 632
 	trade Food 162
-	trade "Heavy Metals" 1031
-	trade Industrial 723
-	trade "Luxury Goods" 1455
-	trade Medical 864
-	trade Metal 319
-	trade Plastic 301
-	fleet "Ultaka small" 1200
-	fleet "Ultaka Traps" 1200
+	trade "Heavy Metals" 1057
+	trade Industrial 780
+	trade "Luxury Goods" 1263
+	trade Medical 683
+	trade Metal 521
+	trade Plastic 399
+	fleet "Dels merchant" 600
+	fleet "Dels guard" 1000
 	object
 		sprite star/k5
 		distance 61
@@ -5702,8 +5757,64 @@ system Dree
 			distance 390
 			period 28.8793
 
+system Duanaoui
+	pos -487.751 -4268.83
+	government Dels
+	habitable 233.28
+	belt 1239
+	link Sodoranu
+	asteroids "small rock" 8 1.792
+	asteroids "medium rock" 2 1.134
+	asteroids "large rock" 1 1.442
+	asteroids "small metal" 6 1.386
+	asteroids "large metal" 2 1.414
+	minables gold 4 2.7623
+	minables lead 2 2.52263
+	minables silicon 2 1.53939
+	trade Clothing 242
+	trade Electronics 788
+	trade Equipment 432
+	trade Food 254
+	trade "Heavy Metals" 1218
+	trade Industrial 719
+	trade "Luxury Goods" 1115
+	trade Medical 549
+	trade Metal 500
+	trade Plastic 503
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/rock2
+		distance 257.25
+		period 108.057
+		object
+			sprite planet/europa
+			distance 158
+			period 21.4448
+	object
+		sprite planet/desert7
+		distance 641.25
+		period 425.268
+	object
+		sprite planet/lava3
+		distance 1281.5
+		period 1201.43
+	object
+		sprite planet/uranus
+		distance 1902.86
+		period 2173.86
+		object
+			sprite planet/lava0
+			distance 239
+			period 15.7859
+		object
+			sprite planet/dust5
+			distance 372
+			period 30.654
+
 system EY-455300
-	pos -675.663 -4817.74
+	pos -718.663 -4851.74
 	government ZIS
 	habitable 486.68
 	belt 1020
@@ -5749,7 +5860,7 @@ system EY-455300
 			period 15.14
 
 system EY-455322
-	pos -763.663 -4938.74
+	pos -805.663 -4994.74
 	government ZIS
 	habitable 1215
 	belt 1250
@@ -5809,7 +5920,7 @@ system EY-455322
 			period 31.9863
 
 system EY-455324
-	pos -736.663 -4877.74
+	pos -791.663 -4938.74
 	government ZIS
 	habitable 625
 	belt 1212
@@ -5891,6 +6002,15 @@ system Easterla
 	asteroids "large rock" 9 5.022
 	asteroids "medium metal" 2 5.427
 	asteroids "large metal" 1 6.642
+	trade Clothing 300
+	trade Electronics 665
+	trade Equipment 368
+	trade "Heavy Metals" 899
+	trade Industrial 713
+	trade "Luxury Goods" 1285
+	trade Medical 478
+	trade Metal 304
+	trade Plastic 401
 	object
 		sprite star/g0
 		distance 12.1111
@@ -5930,7 +6050,7 @@ system Easterla
 		period 1009.44
 
 system Edarmido
-	pos -111.669 -4153.65
+	pos -105.669 -4166.65
 	government Dels
 	habitable 320
 	belt 1757
@@ -5944,16 +6064,17 @@ system Edarmido
 	minables aluminum 2 2.92946
 	minables copper 4 3.11839
 	minables uranium 8 2.2905
-	trade Clothing 338
-	trade Electronics 662
-	trade Equipment 425
+	trade Clothing 207
+	trade Electronics 635
+	trade Equipment 553
 	trade Food 174
-	trade "Heavy Metals" 976
-	trade Industrial 752
-	trade "Luxury Goods" 1401
-	trade Medical 884
-	trade Metal 397
-	trade Plastic 274
+	trade "Heavy Metals" 876
+	trade Industrial 794
+	trade "Luxury Goods" 975
+	trade Medical 651
+	trade Metal 470
+	trade Plastic 256
+	fleet "Dels merchant" 600
 	object
 		sprite star/m0
 		period 10
@@ -5986,6 +6107,67 @@ system Edarmido
 			distance 427
 			period 37.6977
 
+system Eedoruna
+	pos -498.98 -4789.26
+	government Dels
+	habitable 745.92
+	belt 1593
+	link Helre
+	link Vobeelee
+	link Voltuara
+	asteroids "small rock" 1 2.772
+	asteroids "medium rock" 2 3.528
+	asteroids "large rock" 4 3.92
+	asteroids "small metal" 2 2.128
+	asteroids "large metal" 1 2.884
+	trade Clothing 374
+	trade Electronics 657
+	trade Equipment 480
+	trade Food 455
+	trade "Heavy Metals" 1087
+	trade Industrial 704
+	trade "Luxury Goods" 1259
+	trade Medical 898
+	trade Metal 516
+	trade Plastic 327
+	object
+		sprite star/k5
+		distance 35.607
+		period 11.0747
+	object
+		sprite star/m0
+		distance 47.393
+		period 11.0747
+		offset 180
+	object
+		sprite planet/desert6
+		distance 211.393
+		period 45.0142
+	object
+		sprite planet/desert10
+		distance 802.403
+		period 332.891
+		object
+			sprite planet/ice7
+			distance 187
+			period 26.18
+	object
+		sprite planet/gas13
+		distance 1669.21
+		period 998.807
+		object
+			sprite planet/europa
+			distance 262
+			period 11.9719
+		object
+			sprite planet/dust5
+			distance 363
+			period 19.5241
+		object
+			sprite planet/rock14
+			distance 536
+			period 35.0314
+
 system "Eevil Or"
 	pos -551.051 -4542.31
 	government Ignaggen
@@ -5998,16 +6180,18 @@ system "Eevil Or"
 	asteroids "large rock" 17 4.8384
 	asteroids "medium metal" 14 2.1168
 	asteroids "large metal" 1 3.3642
-	trade Clothing 256
-	trade Electronics 825
-	trade Equipment 434
+	trade Clothing 206
+	trade Electronics 692
+	trade Equipment 655
 	trade Food 249
-	trade "Heavy Metals" 975
-	trade Industrial 783
-	trade "Luxury Goods" 1127
-	trade Medical 783
-	trade Metal 450
-	trade Plastic 279
+	trade "Heavy Metals" 864
+	trade Industrial 610
+	trade "Luxury Goods" 943
+	trade Medical 505
+	trade Metal 251
+	trade Plastic 411
+	fleet Ignaggen 700
+	fleet "Dels merchant" 700
 	object
 		sprite star/m4
 		period 10
@@ -6046,7 +6230,6 @@ system Eiekdarmor
 	habitable 486.68
 	belt 1825
 	link Edarmido
-	link Orseune
 	link Ravo'oua
 	link Serlennor
 	asteroids "small rock" 9 6.328
@@ -6055,16 +6238,17 @@ system Eiekdarmor
 	asteroids "large metal" 1 5.096
 	minables copper 2 10.895
 	minables gold 3 12.0641
-	trade Clothing 338
-	trade Electronics 662
-	trade Equipment 425
+	trade Clothing 212
+	trade Electronics 714
+	trade Equipment 643
 	trade Food 174
-	trade "Heavy Metals" 976
-	trade Industrial 752
-	trade "Luxury Goods" 1401
-	trade Medical 884
-	trade Metal 397
-	trade Plastic 274
+	trade "Heavy Metals" 918
+	trade Industrial 792
+	trade "Luxury Goods" 1059
+	trade Medical 729
+	trade Metal 353
+	trade Plastic 273
+	fleet "Dels merchant" 600
 	object
 		sprite star/k0
 		period 10
@@ -6216,6 +6400,15 @@ system Eraku
 	link Urtenlo
 	link Yuruar
 	asteroids "large metal" 1 8.9523
+	trade Clothing 271
+	trade Electronics 748
+	trade Equipment 665
+	trade "Heavy Metals" 851
+	trade Industrial 779
+	trade "Luxury Goods" 1454
+	trade Medical 571
+	trade Metal 260
+	trade Plastic 319
 	object
 		sprite star/k0
 		period 10
@@ -6270,16 +6463,16 @@ system Eribai
 	asteroids "large metal" 7 4.3956
 	minables aluminum 15 8.30776
 	minables iron 3 6.85926
-	trade Clothing 304
-	trade Electronics 727
-	trade Equipment 569
+	trade Clothing 314
+	trade Electronics 679
+	trade Equipment 645
 	trade Food 237
-	trade "Heavy Metals" 986
-	trade Industrial 788
-	trade "Luxury Goods" 1074
-	trade Medical 832
-	trade Metal 443
-	trade Plastic 482
+	trade "Heavy Metals" 973
+	trade Industrial 669
+	trade "Luxury Goods" 987
+	trade Medical 583
+	trade Metal 345
+	trade Plastic 488
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -6336,76 +6529,143 @@ system Erkma
 	asteroids "medium metal" 67 2.478
 	asteroids "large metal" 3 4.62
 	fleet "Resmakia Mines" 1200
-	fleet "Ultaka small" 10000
 	fleet "Erm Raid Fleet" 15000
 	fleet "Erm SDF Fleet" 1200
 	fleet "Erm CIV Fleet" 800
 	fleet "Resmakia CIV Fleet" 1000
 	fleet "Resmakia SDF Fleet" 700
+	0
 	object
 		sprite star/m0
 		distance 39.2117
 		period 15.2515
+		0
 	object
 		sprite star/m4
 		distance 53.7883
 		period 15.2515
 		offset 180
+		0
 	object
 		sprite planet/rock16
 		distance 197.628
 		period 47.2456
+		0
 	object Jacokler
 		sprite planet/rock12
 		distance 581.188
 		period 238.266
 		offset 283.73
+		0
 		object Korles
 			sprite planet/luna
 			distance 180.979
 			period 25.3669
 			offset 44.5572
+			0
 	object
 		sprite planet/gas9
 		distance 1941.66
 		period 1454.95
 		offset 352.478
+		0
 		object
 			sprite planet/ice7
 			distance 246
 			period 14.4675
+			0
 		object
 			sprite planet/rock7
 			distance 387
 			period 28.5468
+			0
 		object
 			sprite planet/callisto
 			distance 555
 			period 49.0264
+			0
 		object
 			sprite planet/rhea
 			distance 676
 			period 65.9038
+			0
+
+system Ernauor
+	pos -385.875 -4324.66
+	government Dels
+	habitable 135
+	belt 1652
+	link Nareenor
+	link Nelha
+	link Reenai
+	asteroids "large rock" 1 1.71
+	asteroids "small metal" 39 3.12
+	asteroids "medium metal" 51 1.77
+	asteroids "large metal" 72 1.95
+	minables aluminum 29 3.96851
+	minables titanium 16 2.64133
+	minables uranium 34 2.40022
+	trade Clothing 243
+	trade Electronics 814
+	trade Equipment 650
+	trade Food 167
+	trade "Heavy Metals" 1156
+	trade Industrial 816
+	trade "Luxury Goods" 1141
+	trade Medical 786
+	trade Metal 400
+	trade Plastic 417
+	fleet "Dels merchant" 600
+	fleet "Dels guard" 1000
+	object
+		sprite star/m8
+		period 10
+	object
+		sprite planet/desert8
+		distance 143
+		period 58.8704
+	object
+		sprite planet/jupiter
+		distance 585.96
+		period 488.309
+		object
+			sprite planet/ice0
+			distance 269
+			period 13.864
+	object
+		sprite planet/gas4
+		distance 1784.96
+		period 2596.19
+		object
+			sprite planet/ice7
+			distance 252
+			period 14.1091
+		object
+			sprite planet/rock3
+			distance 406
+			period 28.8527
 
 system Eruaine
-	pos -190.905 -4306.71
+	pos -185.905 -4315.71
 	government Dels
 	habitable 2160
 	belt 1663
+	link Eudarvo
 	link Orseune
 	link Ravo'oua
 	link Suere
 	asteroids "large metal" 1 5.568
-	trade Clothing 338
-	trade Electronics 662
-	trade Equipment 425
+	trade Clothing 330
+	trade Electronics 782
+	trade Equipment 670
 	trade Food 174
-	trade "Heavy Metals" 976
-	trade Industrial 752
-	trade "Luxury Goods" 1401
-	trade Medical 884
-	trade Metal 397
-	trade Plastic 274
+	trade "Heavy Metals" 945
+	trade Industrial 821
+	trade "Luxury Goods" 1236
+	trade Medical 673
+	trade Metal 471
+	trade Plastic 391
+	fleet "Dels merchant" 600
 	object
 		sprite star/g0
 		distance 54
@@ -6453,16 +6713,16 @@ system Erwal
 	minables iron 57 9.94016
 	minables lead 13 10.2645
 	minables uranium 56 8.01819
-	trade Clothing 253
-	trade Electronics 631
-	trade Equipment 691
+	trade Clothing 269
+	trade Electronics 810
+	trade Equipment 557
 	trade Food 344
-	trade "Heavy Metals" 1151
-	trade Industrial 816
-	trade "Luxury Goods" 1064
-	trade Medical 682
-	trade Metal 243
-	trade Plastic 439
+	trade "Heavy Metals" 995
+	trade Industrial 788
+	trade "Luxury Goods" 1084
+	trade Medical 854
+	trade Metal 268
+	trade Plastic 314
 	fleet "Ignaggen Outlaw" 2300
 	fleet "Kager Military" 800
 	fleet Ignaggen 1000
@@ -6500,6 +6760,62 @@ system Erwal
 			sprite planet/miranda
 			distance 446
 			period 35.3177
+
+system Eudarvo
+	pos -131.742 -4325.15
+	government Dels
+	habitable 320
+	belt 1966
+	link Eruaine
+	link Redeino
+	asteroids "small rock" 1 5.8696
+	asteroids "medium rock" 17 4.8691
+	asteroids "large rock" 2 9.7382
+	asteroids "medium metal" 9 4.1354
+	asteroids "large metal" 50 9.0045
+	minables iron 16 8.4359
+	trade Clothing 324
+	trade Electronics 730
+	trade Equipment 610
+	trade Food 162
+	trade "Heavy Metals" 1000
+	trade Industrial 734
+	trade "Luxury Goods" 1199
+	trade Medical 600
+	trade Metal 530
+	trade Plastic 473
+	fleet "Dels merchant" 700
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/rock8
+		distance 203.89
+		period 65.0997
+	object
+		sprite planet/ocean9
+		distance 417.85
+		period 190.992
+	object
+		sprite planet/lava3
+		distance 802.81
+		period 508.633
+	object
+		sprite planet/neptune
+		distance 1535.06
+		period 1344.85
+		object
+			sprite planet/rock14
+			distance 227
+			period 17.0401
+		object
+			sprite planet/rock7
+			distance 350
+			period 32.6238
+		object
+			sprite planet/ice8
+			distance 509
+			period 57.2149
 
 system Fakeo
 	pos 5319.82 -8201.93
@@ -6701,9 +7017,7 @@ system Faode
 	link Keoca
 	asteroids "large rock" 1 3.1815
 	asteroids "large metal" 2 3.843
-	fleet "Ultaka Traps" 1200
 	fleet "Resmakia Mines" 1200
-	fleet "Ultaka small" 1000
 	fleet "Erm Raid Fleet" 20000
 	object
 		sprite star/m4
@@ -6818,7 +7132,7 @@ system "Fee Jo"
 	pos -377.737 -4615.2
 	government Dels
 	habitable 553.28
-	link Alta
+	link Alrtar
 	link Cevert
 	link "Mea Vol"
 	link Novee
@@ -6828,18 +7142,17 @@ system "Fee Jo"
 	asteroids "small metal" 8 2.125
 	asteroids "medium metal" 32 2.057
 	asteroids "large metal" 26 1.734
-	trade Clothing 326
-	trade Electronics 814
-	trade Equipment 409
+	trade Clothing 258
+	trade Electronics 706
+	trade Equipment 578
 	trade Food 522
-	trade "Heavy Metals" 778
-	trade Industrial 738
-	trade "Luxury Goods" 1343
-	trade Medical 519
-	trade Metal 480
-	trade Plastic 309
-	fleet "Ultaka small" 1000
-	fleet "Qanse Small" 1000
+	trade "Heavy Metals" 1076
+	trade Industrial 731
+	trade "Luxury Goods" 1063
+	trade Medical 863
+	trade Metal 372
+	trade Plastic 469
+	fleet "Dels merchant" 600
 	object
 		sprite star/m0
 		distance 46.801
@@ -6853,14 +7166,16 @@ system "Fee Jo"
 		sprite planet/cloud7
 		distance 254.039
 		period 68.8554
-	object
+	object Tulvauno
 		sprite planet/rock1
-		distance 672.079
-		period 296.291
+		distance 585.03
+		period 240.633
+		offset 311.279
 	object
 		sprite planet/gas6
-		distance 1608.69
-		period 1097.22
+		distance 1521.64
+		period 1009.38
+		offset 318.268
 		object
 			sprite planet/callisto
 			distance 309
@@ -6875,7 +7190,7 @@ system "Fee Jo"
 			period 28.045
 
 system "Fee Lo"
-	pos -401.737 -4788.2
+	pos -378.737 -4816.2
 	government Dels
 	habitable 233.28
 	link Codelo
@@ -6883,54 +7198,61 @@ system "Fee Lo"
 	link "Mea Sua"
 	link Neeko
 	link Vobeelee
-	link Volta
+	link Voltuara
 	asteroids "small rock" 1 12.18
 	asteroids "medium rock" 16 4.284
 	asteroids "large rock" 8 5.124
 	asteroids "small metal" 4 9.828
 	asteroids "medium metal" 6 7.392
 	asteroids "large metal" 2 7.14
-	trade Clothing 275
-	trade Electronics 800
-	trade Equipment 401
+	trade Clothing 330
+	trade Electronics 635
+	trade Equipment 512
 	trade Food 383
-	trade "Heavy Metals" 869
-	trade Industrial 654
-	trade "Luxury Goods" 1369
-	trade Medical 632
-	trade Metal 439
-	trade Plastic 406
+	trade "Heavy Metals" 1184
+	trade Industrial 681
+	trade "Luxury Goods" 1171
+	trade Medical 869
+	trade Metal 476
+	trade Plastic 364
 	fleet "Dels guard" 1000
 	fleet "Dels merchant" 600
 	fleet "Dels pirate" 700
-	fleet "Ultaka small" 20000
+	0
 	object
 		sprite star/m4
 		period 10
+		0
 	object Sendori
 		sprite planet/cloud3
 		distance 246.04
 		period 101.072
+		0
 		object Meramos-P335P
 			sprite planet/battlestationw
 			distance 202
 			period 11.4747
+			0
 	object
 		sprite planet/uranus
 		distance 739.4
 		period 526.551
+		0
 	object
 		sprite planet/gas11
 		distance 1605.04
 		period 1684.03
+		0
 		object
 			sprite planet/dust3
 			distance 257
 			period 13.5887
+			0
 		object
 			sprite planet/oberon
 			distance 384
 			period 24.8184
+			0
 
 system "Fee Ro"
 	pos -30.2 -5101.46
@@ -6998,7 +7320,6 @@ system Feelov
 	asteroids "medium metal" 79 2.112
 	asteroids "large metal" 1 2.024
 	trade Food 225
-	fleet "Ultaka Traps" 1200
 	object
 		sprite star/g0
 		distance 33.6568
@@ -7053,16 +7374,10 @@ system Feeroko
 	pos -477.971 -4607.76
 	government Dels
 	habitable 625
-	link "Battle test"
 	link Cevert
 	link Comar
 	link Deefolks
 	link Loasta
-	link "Qanse small"
-	link "Ultaka big"
-	link "Ultaka huge"
-	link "Ultaka mega"
-	link "Ultaka small"
 	asteroids "small rock" 14 1.49
 	asteroids "medium rock" 8 0.99
 	asteroids "large rock" 3 1.48
@@ -7071,57 +7386,63 @@ system Feeroko
 	asteroids "large metal" 16 1.02
 	minables aluminum 35 3.86798
 	minables iron 35 3.86798
-	trade Clothing 334
-	trade Electronics 722
-	trade Equipment 589
+	trade Clothing 356
+	trade Electronics 792
+	trade Equipment 469
 	trade Food 477
-	trade "Heavy Metals" 971
-	trade Industrial 777
-	trade "Luxury Goods" 1197
-	trade Medical 678
-	trade Metal 441
-	trade Plastic 399
+	trade "Heavy Metals" 985
+	trade Industrial 715
+	trade "Luxury Goods" 1013
+	trade Medical 666
+	trade Metal 252
+	trade Plastic 474
 	fleet "Dels guard" 600
-	fleet "Wallagi Patrol" 2000
 	fleet "Dels merchant" 1200
-	fleet "Dels pirate" 600
-	fleet "Ultaka small" 10000
-	fleet "Qanse Small" 1600
 	fleet "Dels miner" 1200
+	fleet Ignaggen 700
+	0
 	object
 		sprite star/g5
 		period 10
+		0
 	object
 		sprite planet/dust4
 		distance 196.21
 		period 43.9746
+		0
 	object Ka'erie
 		sprite planet/ocean9
 		distance 567.21
 		period 216.14
 		offset 295.268
+		0
 		object Meramos-P339P
 			sprite planet/battlestationw
 			distance 202
 			period 11.4747
+			0
 	object
 		sprite planet/gas11
 		distance 1465.77
 		period 897.881
 		offset 98.7541
+		0
 		object
 			sprite planet/lava0
 			distance 279
 			period 15.3704
+			0
 		object
 			sprite planet/rhea
 			distance 444
 			period 30.8569
+			0
 	object
 		sprite planet/gas7
 		distance 3285.66
 		period 3013.38
 		offset 11.8218
+		0
 
 system Fekkal
 	pos 5200.27 -8026.36
@@ -7182,16 +7503,16 @@ system Fellan
 	asteroids "large metal" 1 2.0944
 	minables iron 10 3.89081
 	minables titanium 1 3.02801
-	trade Clothing 265
-	trade Electronics 689
-	trade Equipment 512
+	trade Clothing 243
+	trade Electronics 746
+	trade Equipment 417
 	trade Food 508
-	trade "Heavy Metals" 1065
-	trade Industrial 813
-	trade "Luxury Goods" 1098
-	trade Medical 742
-	trade Metal 382
-	trade Plastic 297
+	trade "Heavy Metals" 708
+	trade Industrial 853
+	trade "Luxury Goods" 1067
+	trade Medical 759
+	trade Metal 395
+	trade Plastic 286
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -7235,10 +7556,7 @@ system Felmeo
 	asteroids "small metal" 5 6.9608
 	asteroids "medium metal" 8 9.1784
 	asteroids "large metal" 1 5.236
-	fleet "Ultaka Traps" 1200
 	fleet "Resmakia Mines" 1200
-	fleet "Ultaka small" 1000
-	fleet "Ultaka big" 2000
 	fleet "Erm Raid Fleet" 20000
 	object
 		sprite star/k5
@@ -7297,7 +7615,6 @@ system Feoceor
 	asteroids "small metal" 45 4.5472
 	asteroids "medium metal" 12 5.684
 	asteroids "large metal" 15 7.5516
-	fleet "Ultaka Traps" 1200
 	fleet "Resmakia Mines" 1200
 	fleet "Erm Raid Fleet" 20000
 	object
@@ -7392,16 +7709,16 @@ system Feodle
 	minables copper 17 4.61681
 	minables iron 14 6.56546
 	minables tungsten 30 5.82883
-	trade Clothing 195
-	trade Electronics 717
-	trade Equipment 647
+	trade Clothing 235
+	trade Electronics 812
+	trade Equipment 509
 	trade Food 249
-	trade "Heavy Metals" 1127
-	trade Industrial 731
-	trade "Luxury Goods" 1159
-	trade Medical 783
-	trade Metal 470
-	trade Plastic 372
+	trade "Heavy Metals" 1168
+	trade Industrial 606
+	trade "Luxury Goods" 1113
+	trade Medical 772
+	trade Metal 267
+	trade Plastic 390
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -7744,16 +8061,16 @@ system Fielos
 	asteroids "large metal" 10 3.5392
 	minables neodymium 12 6.39926
 	minables titanium 5 5.67482
-	trade Clothing 260
-	trade Electronics 818
-	trade Equipment 589
+	trade Clothing 370
+	trade Electronics 869
+	trade Equipment 571
 	trade Food 225
-	trade "Heavy Metals" 1089
-	trade Industrial 752
-	trade "Luxury Goods" 1195
-	trade Medical 605
-	trade Metal 262
-	trade Plastic 430
+	trade "Heavy Metals" 1165
+	trade Industrial 632
+	trade "Luxury Goods" 1006
+	trade Medical 785
+	trade Metal 326
+	trade Plastic 302
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -7804,16 +8121,16 @@ system Fienel
 	asteroids "medium metal" 4 1.826
 	asteroids "large metal" 1 1.1
 	minables lead 1 2.75006
-	trade Clothing 271
-	trade Electronics 815
-	trade Equipment 509
+	trade Clothing 267
+	trade Electronics 690
+	trade Equipment 515
 	trade Food 276
-	trade "Heavy Metals" 973
-	trade Industrial 804
-	trade "Luxury Goods" 1248
-	trade Medical 839
-	trade Metal 528
-	trade Plastic 294
+	trade "Heavy Metals" 1004
+	trade Industrial 581
+	trade "Luxury Goods" 966
+	trade Medical 635
+	trade Metal 383
+	trade Plastic 494
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -7884,16 +8201,16 @@ system Finan
 	asteroids "large metal" 32 4.488
 	minables lead 10 3.96355
 	minables titanium 8 5.66047
-	trade Clothing 273
-	trade Electronics 760
-	trade Equipment 553
+	trade Clothing 347
+	trade Electronics 671
+	trade Equipment 604
 	trade Food 317
-	trade "Heavy Metals" 1026
-	trade Industrial 822
-	trade "Luxury Goods" 1162
-	trade Medical 843
-	trade Metal 466
-	trade Plastic 403
+	trade "Heavy Metals" 1042
+	trade Industrial 563
+	trade "Luxury Goods" 974
+	trade Medical 604
+	trade Metal 408
+	trade Plastic 484
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -7990,16 +8307,16 @@ system Fines
 	asteroids "large metal" 15 1.2506
 	minables aluminum 31 1.87893
 	minables titanium 4 2.11577
-	trade Clothing 250
-	trade Electronics 686
-	trade Equipment 581
+	trade Clothing 282
+	trade Electronics 754
+	trade Equipment 402
 	trade Food 453
-	trade "Heavy Metals" 1073
-	trade Industrial 797
-	trade "Luxury Goods" 1047
-	trade Medical 649
-	trade Metal 296
-	trade Plastic 323
+	trade "Heavy Metals" 771
+	trade Industrial 867
+	trade "Luxury Goods" 1038
+	trade Medical 797
+	trade Metal 312
+	trade Plastic 289
 	fleet "Ignaggen Outlaw" 2800
 	fleet "Kager Military" 1000
 	fleet Ignaggen 1000
@@ -8231,16 +8548,16 @@ system Fosme
 	minables aluminum 48 2.47233
 	minables iron 5 2.14691
 	minables lead 29 2.79352
-	trade Clothing 271
-	trade Electronics 695
-	trade Equipment 639
+	trade Clothing 268
+	trade Electronics 773
+	trade Equipment 608
 	trade Food 334
-	trade "Heavy Metals" 1235
-	trade Industrial 788
-	trade "Luxury Goods" 1048
-	trade Medical 713
-	trade Metal 260
-	trade Plastic 468
+	trade "Heavy Metals" 962
+	trade Industrial 761
+	trade "Luxury Goods" 1131
+	trade Medical 788
+	trade Metal 280
+	trade Plastic 302
 	fleet "Ignaggen Outlaw" 2800
 	fleet "Kager Military" 1000
 	fleet Ignaggen 1000
@@ -8609,30 +8926,27 @@ system Gavnan
 			period 13.7008
 
 system Geelo
-	pos -408.737 -4882.2
+	pos -366.737 -4927.2
 	government Dels
 	habitable 625
 	link Codelo
 	link Deloco
-	link "Qee Nor"
-	link "Qee norika"
 	asteroids "small rock" 13 3.164
 	asteroids "large rock" 15 4.06
 	asteroids "medium metal" 11 1.624
 	asteroids "large metal" 1 1.624
-	trade Clothing 330
-	trade Electronics 829
-	trade Equipment 379
+	trade Clothing 339
+	trade Electronics 699
+	trade Equipment 570
 	trade Food 512
-	trade "Heavy Metals" 780
-	trade Industrial 694
-	trade "Luxury Goods" 1424
-	trade Medical 589
-	trade Metal 449
-	trade Plastic 471
+	trade "Heavy Metals" 1190
+	trade Industrial 631
+	trade "Luxury Goods" 1022
+	trade Medical 872
+	trade Metal 533
+	trade Plastic 498
 	fleet "Dels guard" 1200
 	fleet "Dels merchant" 600
-	fleet "Dels pirate" 900
 	object
 		sprite star/g5
 		period 10
@@ -8810,59 +9124,66 @@ system Genlo
 	link Helre
 	link Loasta
 	link Lome
-	link "Qee Rol"
 	asteroids "small rock" 1 6.8382
 	asteroids "medium rock" 1 3.0276
 	asteroids "large rock" 20 4.176
 	asteroids "small metal" 32 5.481
 	asteroids "large metal" 7 6.0552
-	trade Clothing 219
-	trade Electronics 735
-	trade Equipment 494
+	trade Clothing 360
+	trade Electronics 711
+	trade Equipment 453
 	trade Food 484
-	trade "Heavy Metals" 955
-	trade Industrial 658
-	trade "Luxury Goods" 1390
-	trade Medical 610
-	trade Metal 515
-	trade Plastic 302
+	trade "Heavy Metals" 998
+	trade Industrial 598
+	trade "Luxury Goods" 1187
+	trade Medical 821
+	trade Metal 334
+	trade Plastic 415
 	fleet "Dels guard" 1000
 	fleet "Dels merchant" 600
 	fleet "Dels pirate" 700
-	fleet "Ultaka small" 20000
+	0
 	object
 		sprite star/g0
 		distance 11.5556
 		period 12.1709
+		0
 	object
 		sprite star/m8
 		distance 92.4444
 		period 12.1709
 		offset 180
+		0
 	object
 		sprite planet/cloud7
 		distance 366.404
 		period 80.4846
+		0
 		object
 			sprite planet/rock14
 			distance 150
 			period 25.612
+			0
 	object Deesok
 		sprite planet/forest4
 		distance 1056.44
 		period 394.041
+		0
 		object
 			sprite planet/dust1
 			distance 183
 			period 22.1789
+			0
 	object
 		sprite planet/gas3
 		distance 1705.73
 		period 808.424
+		0
 		object
 			sprite planet/ice7
 			distance 320
 			period 14.6214
+			0
 
 system Getga
 	pos -319.318 -5361.55
@@ -10560,7 +10881,6 @@ system Gosol
 	asteroids "large metal" 2 10.875
 	minables aluminum 2 16.7457
 	fleet "Qoro (East)" 1500
-	fleet "Ultaka small" 1000
 	object
 		sprite star/g5
 		distance 31.5287
@@ -10743,7 +11063,6 @@ system Govo
 	asteroids "medium metal" 7 2.88
 	asteroids "large metal" 2 1.908
 	trade Food 232
-	fleet "Ultaka Traps" 1200
 	object
 		sprite star/m0
 		period 10
@@ -10794,37 +11113,42 @@ system Govri
 	asteroids "medium metal" 52 2.7846
 	asteroids "large metal" 21 3.1892
 	trade Food 296
-	fleet "Qanse Small" 1000
 	fleet "Dels guard" 20000
-	fleet "Ultaka small" 10000
-	fleet "Ultaka Traps" 1200
+	0
 	object
 		sprite star/k5
 		period 10
+		0
 	object
 		sprite planet/dust1
 		distance 127.69
 		period 27.9661
+		0
 	object
 		sprite planet/ocean3
 		distance 421.69
 		period 167.836
+		0
 	object
 		sprite planet/forest0
 		distance 781.94
 		period 423.795
+		0
 	object
 		sprite planet/gas10
 		distance 2224.75
 		period 2033.84
+		0
 		object
 			sprite planet/rhea
 			distance 191
 			period 13.8946
+			0
 		object
 			sprite planet/rock3
 			distance 304
 			period 27.9002
+			0
 
 system Gowok
 	pos 400.282 -4615.2
@@ -11792,33 +12116,31 @@ system Hellma
 			period 16.0187
 
 system Helre
-	pos -512.971 -4734.76
+	pos -516.971 -4749.76
 	government Dels
 	habitable 425.92
 	link Dorak
+	link Eedoruna
 	link Genlo
-	link "Qee Rol"
-	link "Qee Tak"
-	link Vobeelee
+	link "Qee Tolor"
 	asteroids "small rock" 14 5.952
 	asteroids "medium rock" 23 3.84
 	asteroids "large rock" 27 3.216
 	asteroids "small metal" 17 2.784
 	asteroids "medium metal" 3 4.656
 	asteroids "large metal" 12 2.88
-	trade Clothing 235
-	trade Electronics 714
-	trade Equipment 554
+	trade Clothing 384
+	trade Electronics 668
+	trade Equipment 424
 	trade Food 541
-	trade "Heavy Metals" 962
-	trade Industrial 604
-	trade "Luxury Goods" 1410
-	trade Medical 632
-	trade Metal 502
-	trade Plastic 311
+	trade "Heavy Metals" 975
+	trade Industrial 655
+	trade "Luxury Goods" 1296
+	trade Medical 803
+	trade Metal 457
+	trade Plastic 346
 	fleet "Dels merchant" 600
-	fleet "Dels guard" 1000
-	fleet "Dels pirate" 500
+	fleet "Dels guard" 500
 	object
 		sprite star/k5
 		period 10
@@ -11976,46 +12298,53 @@ system Heosli
 	link Teona
 	asteroids "large metal" 1 1.608
 	fleet "Erm Raid Fleet" 20000
-	fleet "Ultaka big" 20000
+	0
 	object
 		sprite star/k5
 		period 10
+		0
 	object
 		sprite planet/lava1
 		distance 175.41
 		period 45.0275
+		0
 	object
 		sprite planet/ice6
 		distance 355.1
 		period 129.695
+		0
 	object
 		sprite planet/desert5
 		distance 1046.1
 		period 655.776
+		0
 		object
 			sprite planet/rock3
 			distance 129
 			period 16.1108
+			0
 	object
 		sprite planet/desert0
 		distance 1490.1
 		period 1114.86
+		0
 		object
 			sprite planet/miranda
 			distance 146
 			period 22.1764
+			0
 	object
 		sprite planet/gas6
 		distance 3837.06
 		period 4606.74
+		0
 
 system Hinley
-	pos -278.07 -4679.86
+	pos -263.07 -4687.86
 	government Dels
 	habitable 135
 	belt 1890
-	link Alta
-	link Rocco
+	link Alrtar
 	link Volco
 	asteroids "small rock" 8 4.2891
 	asteroids "medium rock" 25 5.6202
@@ -12025,18 +12354,16 @@ system Hinley
 	asteroids "large metal" 5 4.93
 	minables aluminum 1 6.69437
 	minables tungsten 12 4.89559
-	trade Clothing 313
-	trade Electronics 777
-	trade Equipment 416
+	trade Clothing 263
+	trade Electronics 658
+	trade Equipment 691
 	trade Food 476
-	trade "Heavy Metals" 833
-	trade Industrial 608
-	trade "Luxury Goods" 1263
-	trade Medical 502
-	trade Metal 506
-	trade Plastic 436
-	fleet "Ultaka small" 1000
-	fleet "Qanse Small" 1000
+	trade "Heavy Metals" 1209
+	trade Industrial 861
+	trade "Luxury Goods" 1075
+	trade Medical 821
+	trade Metal 477
+	trade Plastic 491
 	object
 		sprite star/m8
 		period 10
@@ -12084,7 +12411,6 @@ system Hintee
 	link Moloco
 	asteroids "large metal" 1 6.2744
 	trade Food 265
-	fleet "Ultaka Traps" 1200
 	object
 		sprite star/m0
 		period 10
@@ -12260,16 +12586,16 @@ system Ieon
 	asteroids "medium metal" 118 2.8556
 	asteroids "large metal" 3 1.331
 	minables copper 24 4.84759
-	trade Clothing 251
-	trade Electronics 749
-	trade Equipment 601
+	trade Clothing 307
+	trade Electronics 813
+	trade Equipment 501
 	trade Food 180
-	trade "Heavy Metals" 1143
-	trade Industrial 724
-	trade "Luxury Goods" 1114
-	trade Medical 700
-	trade Metal 418
-	trade Plastic 400
+	trade "Heavy Metals" 1245
+	trade Industrial 633
+	trade "Luxury Goods" 1087
+	trade Medical 851
+	trade Metal 288
+	trade Plastic 383
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -12325,16 +12651,16 @@ system Ierleon
 	asteroids "large metal" 14 7.6475
 	minables lead 48 7.65378
 	minables tungsten 1 5.66508
-	trade Clothing 290
-	trade Electronics 739
-	trade Equipment 622
+	trade Clothing 372
+	trade Electronics 848
+	trade Equipment 515
 	trade Food 225
-	trade "Heavy Metals" 1086
-	trade Industrial 759
-	trade "Luxury Goods" 1133
-	trade Medical 695
-	trade Metal 324
-	trade Plastic 421
+	trade "Heavy Metals" 1216
+	trade Industrial 603
+	trade "Luxury Goods" 1035
+	trade Medical 847
+	trade Metal 359
+	trade Plastic 311
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -12441,18 +12767,19 @@ system Ikar
 	asteroids "medium metal" 34 2.2
 	asteroids "large metal" 14 2.8
 	minables aluminum 5 2.545
-	trade Clothing 261
-	trade Electronics 784
-	trade Equipment 396
+	trade Clothing 200
+	trade Electronics 664
+	trade Equipment 640
 	trade Food 166
-	trade "Heavy Metals" 937
-	trade Industrial 697
-	trade "Luxury Goods" 1146
-	trade Medical 846
-	trade Metal 511
-	trade Plastic 280
+	trade "Heavy Metals" 853
+	trade Industrial 686
+	trade "Luxury Goods" 969
+	trade Medical 547
+	trade Metal 243
+	trade Plastic 374
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
+	fleet "Dels merchant" 800
 	object
 		sprite star/g5
 		distance 37.2487
@@ -12607,16 +12934,16 @@ system Ilen
 	asteroids "medium metal" 3 1.836
 	asteroids "large metal" 3 3.537
 	minables tungsten 3 3.80526
-	trade Clothing 216
-	trade Electronics 752
-	trade Equipment 589
+	trade Clothing 271
+	trade Electronics 714
+	trade Equipment 550
 	trade Food 329
-	trade "Heavy Metals" 1049
-	trade Industrial 820
-	trade "Luxury Goods" 1238
-	trade Medical 848
-	trade Metal 498
-	trade Plastic 328
+	trade "Heavy Metals" 1084
+	trade Industrial 569
+	trade "Luxury Goods" 1039
+	trade Medical 669
+	trade Metal 339
+	trade Plastic 457
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -12719,16 +13046,16 @@ system Inen
 	minables copper 5 7.27668
 	minables iron 5 10.7187
 	minables titanium 8 11.5347
-	trade Clothing 279
-	trade Electronics 668
-	trade Equipment 644
+	trade Clothing 281
+	trade Electronics 722
+	trade Equipment 619
 	trade Food 236
-	trade "Heavy Metals" 1189
-	trade Industrial 786
-	trade "Luxury Goods" 1077
-	trade Medical 749
-	trade Metal 258
-	trade Plastic 509
+	trade "Heavy Metals" 1047
+	trade Industrial 658
+	trade "Luxury Goods" 1061
+	trade Medical 732
+	trade Metal 328
+	trade Plastic 297
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -12896,28 +13223,29 @@ system "Irshall Mer"
 		period 1630.78
 
 system Irvodera
-	pos -69.6691 -4194.65
+	pos -54.6691 -4209.65
 	government Dels
 	habitable 973.36
 	belt 1060
+	link Cuvorai
 	link Edarmido
-	link Ravo'oua
 	asteroids "small rock" 10 3.4485
 	asteroids "medium rock" 11 2.3655
 	asteroids "large rock" 22 4.275
 	asteroids "large metal" 3 4.275
 	minables aluminum 10 5.79282
 	minables lead 1 4.74851
-	trade Clothing 338
-	trade Electronics 662
-	trade Equipment 425
+	trade Clothing 193
+	trade Electronics 629
+	trade Equipment 459
 	trade Food 174
-	trade "Heavy Metals" 976
-	trade Industrial 752
-	trade "Luxury Goods" 1401
-	trade Medical 884
-	trade Metal 397
-	trade Plastic 274
+	trade "Heavy Metals" 777
+	trade Industrial 838
+	trade "Luxury Goods" 953
+	trade Medical 546
+	trade Metal 538
+	trade Plastic 247
+	fleet "Dels merchant" 600
 	object
 		sprite star/k0
 		distance 44.5
@@ -13098,28 +13426,28 @@ system Jeelark
 	habitable 760
 	belt 1861
 	link Comlark
-	link Dree
 	link Jolark
 	link Keen
-	link Reen
-	link Vola
+	link Reenai
+	link Volarnee
 	asteroids "small rock" 1 2.0736
 	asteroids "medium rock" 4 2.1384
 	asteroids "large rock" 3 3.0888
 	asteroids "small metal" 1 2.4624
 	asteroids "medium metal" 19 2.8296
 	asteroids "large metal" 1 1.4256
-	trade Clothing 337
-	trade Electronics 659
-	trade Equipment 480
+	trade Clothing 261
+	trade Electronics 733
+	trade Equipment 513
 	trade Food 241
-	trade "Heavy Metals" 979
-	trade Industrial 680
-	trade "Luxury Goods" 1473
-	trade Medical 779
-	trade Metal 255
-	trade Plastic 378
-	fleet "Ultaka small" 1200
+	trade "Heavy Metals" 1198
+	trade Industrial 834
+	trade "Luxury Goods" 1040
+	trade Medical 593
+	trade Metal 342
+	trade Plastic 468
+	fleet "Dels merchant" 600
+	fleet "Dels guard" 1000
 	object
 		sprite star/g5
 		distance 18.4737
@@ -13212,21 +13540,21 @@ system Jolark
 	link Comar
 	link Jeelark
 	link Suadee
-	link Vola
+	link Volarnee
 	asteroids "large metal" 1 3.2292
-	trade Clothing 339
-	trade Electronics 665
-	trade Equipment 430
+	trade Clothing 225
+	trade Electronics 667
+	trade Equipment 452
 	trade Food 358
-	trade "Heavy Metals" 985
-	trade Industrial 755
-	trade "Luxury Goods" 1362
-	trade Medical 701
-	trade Metal 308
-	trade Plastic 316
-	fleet "Ultaka small" 1000
-	fleet "Qanse Small" 1000
-	fleet "Ultaka Traps" 1200
+	trade "Heavy Metals" 1134
+	trade Industrial 774
+	trade "Luxury Goods" 1028
+	trade Medical 662
+	trade Metal 338
+	trade Plastic 501
+	fleet "Dels merchant" 600
+	fleet Ignaggen 700
+	fleet "Dels guard" 1000
 	object
 		sprite star/m4
 		period 10
@@ -13750,16 +14078,16 @@ system Kamla
 	asteroids "medium metal" 26 6.5268
 	asteroids "large metal" 56 8.1144
 	minables titanium 11 10.7288
-	trade Clothing 238
-	trade Electronics 716
-	trade Equipment 646
+	trade Clothing 284
+	trade Electronics 794
+	trade Equipment 400
 	trade Food 464
-	trade "Heavy Metals" 1114
-	trade Industrial 818
-	trade "Luxury Goods" 1010
-	trade Medical 601
-	trade Metal 243
-	trade Plastic 350
+	trade "Heavy Metals" 838
+	trade Industrial 827
+	trade "Luxury Goods" 1051
+	trade Medical 806
+	trade Metal 254
+	trade Plastic 349
 	fleet "Ignaggen Outlaw" 2800
 	fleet "Kager Military" 1000
 	fleet Ignaggen 1000
@@ -14001,16 +14329,16 @@ system Karlai
 	minables aluminum 3 9.02742
 	minables titanium 3 6.51468
 	minables uranium 2 5.3436
-	trade Clothing 207
-	trade Electronics 694
-	trade Equipment 645
+	trade Clothing 276
+	trade Electronics 707
+	trade Equipment 680
 	trade Food 171
-	trade "Heavy Metals" 1066
-	trade Industrial 852
-	trade "Luxury Goods" 1029
-	trade Medical 794
-	trade Metal 267
-	trade Plastic 484
+	trade "Heavy Metals" 1032
+	trade Industrial 734
+	trade "Luxury Goods" 1025
+	trade Medical 740
+	trade Metal 285
+	trade Plastic 352
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -14054,16 +14382,16 @@ system Karllan
 	minables aluminum 15 14.403
 	minables copper 15 12.7648
 	minables tungsten 17 13.9582
-	trade Clothing 246
-	trade Electronics 753
-	trade Equipment 614
+	trade Clothing 283
+	trade Electronics 799
+	trade Equipment 527
 	trade Food 334
-	trade "Heavy Metals" 1102
-	trade Industrial 817
-	trade "Luxury Goods" 971
-	trade Medical 770
-	trade Metal 317
-	trade Plastic 462
+	trade "Heavy Metals" 838
+	trade Industrial 781
+	trade "Luxury Goods" 999
+	trade Medical 602
+	trade Metal 310
+	trade Plastic 284
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -14157,9 +14485,7 @@ system Keaer
 	asteroids "small metal" 3 2.22
 	asteroids "medium metal" 5 2.67
 	asteroids "large metal" 8 4.05
-	fleet "Ultaka Traps" 1200
 	fleet "Resmakia Mines" 1200
-	fleet "Ultaka small" 1000
 	fleet "Erm Raid Fleet" 20000
 	object
 		sprite star/g0
@@ -14212,8 +14538,6 @@ system Kee
 	asteroids "medium metal" 109 3.2292
 	asteroids "large metal" 33 2.4426
 	trade Food 237
-	fleet "Qanse Small" 1000
-	fleet "Ultaka Traps" 1200
 	object
 		sprite star/g5
 		distance 28.7831
@@ -14253,7 +14577,7 @@ system Kee
 			period 33.9637
 
 system Keelee
-	pos -502.737 -4857.2
+	pos -437.737 -4881.2
 	government Dels
 	habitable 2372.76
 	link Deloco
@@ -14262,16 +14586,16 @@ system Keelee
 	asteroids "small metal" 1 2.52
 	asteroids "medium metal" 20 1.9152
 	asteroids "large metal" 1 2.4192
-	trade Clothing 353
-	trade Electronics 779
-	trade Equipment 421
+	trade Clothing 362
+	trade Electronics 662
+	trade Equipment 407
 	trade Food 485
-	trade "Heavy Metals" 798
-	trade Industrial 576
-	trade "Luxury Goods" 1461
-	trade Medical 608
-	trade Metal 358
-	trade Plastic 329
+	trade "Heavy Metals" 1201
+	trade Industrial 754
+	trade "Luxury Goods" 1135
+	trade Medical 893
+	trade Metal 547
+	trade Plastic 395
 	fleet "Dels guard" 1200
 	fleet "Dels merchant" 600
 	object
@@ -14396,7 +14720,6 @@ system Keemolk
 	link Keemoroco
 	link Keerak
 	link Kintuy
-	link "Qee Norsua"
 	asteroids "small rock" 15 0.696
 	asteroids "medium rock" 2 1.464
 	asteroids "large rock" 4 0.744
@@ -14404,46 +14727,53 @@ system Keemolk
 	asteroids "medium metal" 38 1.188
 	asteroids "large metal" 6 1.308
 	trade Food 350
-	fleet "Qanse Small" 1000
-	fleet "Ultaka small" 10000
-	fleet "Ultaka Traps" 1200
+	0
 	object
 		sprite star/a5
 		distance 7.8797
 		period 9.63047
+		0
 	object
 		sprite star/m4
 		distance 123.12
 		period 9.63047
 		offset 180
+		0
 	object
 		sprite planet/gas12
 		distance 500.53
 		period 71.926
+		0
 		object
 			sprite planet/europa
 			distance 270
 			period 11.6528
+			0
 	object
 		sprite planet/gas7
 		distance 1440.14
 		period 351.033
+		0
 		object
 			sprite planet/ice7
 			distance 268
 			period 15.6075
+			0
 		object
 			sprite planet/rock0
 			distance 380
 			period 26.3515
+			0
 	object
 		sprite planet/gas6
 		distance 2628.3
 		period 865.472
+		0
 		object
 			sprite planet/ice0
 			distance 268
 			period 11.2064
+			0
 
 system Keemoroco
 	pos 339.686 -5120.06
@@ -14458,50 +14788,57 @@ system Keemoroco
 	asteroids "medium metal" 36 1.3566
 	asteroids "large metal" 85 3.4748
 	trade Food 304
-	fleet "Qanse Small" 800
 	fleet "Dels guard" 10000
-	fleet "Ultaka small" 10000
+	0
 	object
 		sprite star/m4
 		period 10
+		0
 	object
 		sprite planet/ice5
 		distance 192
 		period 69.6744
+		0
 	object
 		sprite planet/gas7
 		distance 662.76
 		period 446.844
+		0
 	object Qenor
 		sprite planet/lava3
 		distance 951.25
 		period 768.357
 		offset 15.1047
+		0
 	object
 		sprite planet/gas16
 		distance 2284.81
 		period 2860.2
 		offset 3.36811
+		0
 		object
 			sprite planet/ice7
 			distance 193
 			period 14.1134
+			0
 		object
 			sprite planet/rock17
 			distance 331
 			period 31.6985
+			0
 		object
 			sprite planet/lava0
 			distance 464
 			period 52.6107
+			0
 
 system Keen
-	pos -270.971 -4449.76
+	pos -297.971 -4440.76
 	government Dels
 	habitable 621.68
 	belt 1464
 	link Collak
-	link Dree
+	link Dreevu
 	link Jeelark
 	asteroids "medium rock" 12 10.179
 	asteroids "large rock" 20 7.9866
@@ -14510,18 +14847,18 @@ system Keen
 	asteroids "large metal" 21 9.2394
 	minables lead 15 15.5197
 	minables silicon 9 13.0569
-	trade Clothing 284
-	trade Electronics 662
-	trade Equipment 568
+	trade Clothing 269
+	trade Electronics 804
+	trade Equipment 582
 	trade Food 153
-	trade "Heavy Metals" 1047
-	trade Industrial 686
-	trade "Luxury Goods" 1423
-	trade Medical 873
-	trade Metal 254
-	trade Plastic 371
-	fleet "Ultaka small" 1200
-	fleet "Ultaka Traps" 1200
+	trade "Heavy Metals" 1177
+	trade Industrial 772
+	trade "Luxury Goods" 1201
+	trade Medical 603
+	trade Metal 445
+	trade Plastic 416
+	fleet "Dels merchant" 600
+	fleet "Dels guard" 1000
 	object
 		sprite star/k0
 		distance 23.8869
@@ -14573,7 +14910,6 @@ system Keepuy
 	link Haro
 	asteroids "large metal" 1 1.7444
 	trade Food 170
-	fleet "Ultaka Traps" 1200
 	object
 		sprite star/k0
 		period 10
@@ -14612,38 +14948,46 @@ system Keerak
 	link Keemolk
 	asteroids "large metal" 1 7.3216
 	trade Food 296
-	fleet "Ultaka small" 10000
+	0
 	object
 		sprite star/k5
 		period 10
+		0
 	object
 		sprite planet/cloud6
 		distance 223.61
 		period 64.8086
+		0
 	object
 		sprite planet/rhea
 		distance 492.86
 		period 212.071
+		0
 	object
 		sprite planet/cloud4
 		distance 806.82
 		period 444.182
+		0
 	object
 		sprite planet/gas12
 		distance 2047.66
 		period 1795.9
+		0
 		object
 			sprite planet/rock3
 			distance 262
 			period 11.1388
+			0
 		object
 			sprite planet/dust7
 			distance 408
 			period 21.6459
+			0
 		object
 			sprite planet/dust3
 			distance 570
 			period 35.7435
+			0
 
 system Keikas
 	pos 5065.09 -9272.49
@@ -14847,16 +15191,16 @@ system Keli
 	asteroids "large metal" 11 4.3125
 	minables copper 1 8.37804
 	minables lead 1 4.40107
-	trade Clothing 288
-	trade Electronics 750
-	trade Equipment 588
+	trade Clothing 264
+	trade Electronics 810
+	trade Equipment 610
 	trade Food 265
-	trade "Heavy Metals" 1149
-	trade Industrial 780
-	trade "Luxury Goods" 978
-	trade Medical 800
-	trade Metal 296
-	trade Plastic 518
+	trade "Heavy Metals" 934
+	trade Industrial 754
+	trade "Luxury Goods" 980
+	trade Medical 589
+	trade Metal 321
+	trade Plastic 358
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -14913,16 +15257,16 @@ system Kelke
 	asteroids "medium metal" 36 2.28
 	asteroids "large metal" 4 2.94
 	minables lead 8 4.27313
-	trade Clothing 282
-	trade Electronics 639
-	trade Equipment 653
+	trade Clothing 297
+	trade Electronics 842
+	trade Equipment 656
 	trade Food 256
-	trade "Heavy Metals" 1133
-	trade Industrial 811
-	trade "Luxury Goods" 1162
-	trade Medical 721
+	trade "Heavy Metals" 1081
+	trade Industrial 673
+	trade "Luxury Goods" 1064
+	trade Medical 788
 	trade Metal 268
-	trade Plastic 456
+	trade Plastic 351
 	fleet "Ignaggen Outlaw" 2800
 	fleet "Kager Military" 1000
 	fleet Ignaggen 1000
@@ -14982,16 +15326,16 @@ system Kelleon
 	asteroids "large rock" 15 6.2832
 	asteroids "medium metal" 3 5.2272
 	asteroids "large metal" 1 7.8144
-	trade Clothing 232
-	trade Electronics 649
-	trade Equipment 573
+	trade Clothing 225
+	trade Electronics 759
+	trade Equipment 487
 	trade Food 504
-	trade "Heavy Metals" 1106
-	trade Industrial 860
-	trade "Luxury Goods" 1073
-	trade Medical 724
-	trade Metal 347
-	trade Plastic 301
+	trade "Heavy Metals" 715
+	trade Industrial 816
+	trade "Luxury Goods" 1062
+	trade Medical 755
+	trade Metal 359
+	trade Plastic 286
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -15220,9 +15564,7 @@ system Keoca
 	asteroids "small metal" 10 3.6504
 	asteroids "medium metal" 80 4.9348
 	asteroids "large metal" 76 3.5828
-	fleet "Ultaka Traps" 1200
 	fleet "Resmakia Mines" 1200
-	fleet "Ultaka small" 1000
 	fleet "Erm Raid Fleet" 20000
 	object
 		sprite star/k0
@@ -15410,16 +15752,16 @@ system Kerbukcamori
 	asteroids "medium metal" 18 1.69
 	asteroids "large metal" 2 3.7518
 	minables lead 2 4.39081
-	trade Clothing 0
-	trade Electronics 0
-	trade Equipment 0
+	trade Clothing 253
+	trade Electronics 752
+	trade Equipment 406
 	trade Food 0
-	trade "Heavy Metals" 0
-	trade Industrial 0
-	trade "Luxury Goods" 0
-	trade Medical 0
-	trade Metal 0
-	trade Plastic 0
+	trade "Heavy Metals" 867
+	trade Industrial 751
+	trade "Luxury Goods" 1210
+	trade Medical 568
+	trade Metal 355
+	trade Plastic 433
 	object
 		sprite star/g5
 		distance 34.8783
@@ -15468,16 +15810,16 @@ system Kerimi
 	asteroids "medium metal" 11 3.0996
 	asteroids "large metal" 1 5.67
 	minables silver 2 5.03654
-	trade Clothing 285
-	trade Electronics 786
-	trade Equipment 429
+	trade Clothing 218
+	trade Electronics 645
+	trade Equipment 570
 	trade Food 192
-	trade "Heavy Metals" 895
-	trade Industrial 723
-	trade "Luxury Goods" 1207
-	trade Medical 817
-	trade Metal 531
-	trade Plastic 289
+	trade "Heavy Metals" 879
+	trade Industrial 666
+	trade "Luxury Goods" 971
+	trade Medical 599
+	trade Metal 298
+	trade Plastic 428
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -15702,16 +16044,16 @@ system Kiar
 	asteroids "large metal" 2 1.5249
 	minables lead 19 1.88446
 	minables silicon 14 1.72842
-	trade Clothing 240
-	trade Electronics 756
-	trade Equipment 653
+	trade Clothing 295
+	trade Electronics 838
+	trade Equipment 567
 	trade Food 227
-	trade "Heavy Metals" 1145
-	trade Industrial 696
-	trade "Luxury Goods" 1099
-	trade Medical 767
-	trade Metal 425
-	trade Plastic 447
+	trade "Heavy Metals" 1184
+	trade Industrial 638
+	trade "Luxury Goods" 1051
+	trade Medical 787
+	trade Metal 349
+	trade Plastic 339
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -15847,16 +16189,16 @@ system Kikar
 	asteroids "medium metal" 7 6.786
 	asteroids "large metal" 5 6.786
 	minables iron 46 7.28626
-	trade Clothing 260
-	trade Electronics 644
-	trade Equipment 640
+	trade Clothing 327
+	trade Electronics 782
+	trade Equipment 659
 	trade Food 283
-	trade "Heavy Metals" 1199
-	trade Industrial 759
-	trade "Luxury Goods" 1149
-	trade Medical 725
-	trade Metal 271
-	trade Plastic 490
+	trade "Heavy Metals" 1049
+	trade Industrial 697
+	trade "Luxury Goods" 1064
+	trade Medical 764
+	trade Metal 267
+	trade Plastic 296
 	fleet "Ignaggen Outlaw" 2800
 	fleet "Kager Military" 1000
 	fleet Ignaggen 1000
@@ -15912,16 +16254,16 @@ system Kiler
 	asteroids "medium metal" 59 5.1884
 	asteroids "large metal" 12 2.9036
 	minables uranium 15 11.3252
-	trade Clothing 249
-	trade Electronics 662
-	trade Equipment 668
+	trade Clothing 323
+	trade Electronics 750
+	trade Equipment 574
 	trade Food 183
-	trade "Heavy Metals" 1137
-	trade Industrial 764
-	trade "Luxury Goods" 1081
-	trade Medical 777
-	trade Metal 296
-	trade Plastic 498
+	trade "Heavy Metals" 1134
+	trade Industrial 577
+	trade "Luxury Goods" 1005
+	trade Medical 779
+	trade Metal 389
+	trade Plastic 314
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -15999,12 +16341,13 @@ system Kilerno
 			distance 432
 			period 22.9346
 
-system Kinlo
-	pos -287.529 -4499.57
+system Kinlona
+	pos -278.529 -4504.57
 	government Dels
 	habitable 2372.76
 	belt 1788
-	link Vola
+	link "Mea Kalh"
+	link Volarnee
 	asteroids "small rock" 9 9.4608
 	asteroids "medium rock" 7 7.776
 	asteroids "large rock" 4 7.3224
@@ -16014,17 +16357,18 @@ system Kinlo
 	minables iron 6 7.37078
 	minables silicon 4 8.21758
 	minables silver 2 10.3603
-	trade Clothing 282
-	trade Electronics 699
-	trade Equipment 454
+	trade Clothing 330
+	trade Electronics 784
+	trade Equipment 441
 	trade Food 288
-	trade "Heavy Metals" 1064
-	trade Industrial 631
-	trade "Luxury Goods" 1385
-	trade Medical 817
-	trade Metal 293
-	trade Plastic 327
-	fleet "Ultaka small" 1200
+	trade "Heavy Metals" 1090
+	trade Industrial 888
+	trade "Luxury Goods" 971
+	trade Medical 626
+	trade Metal 459
+	trade Plastic 481
+	fleet "Dels merchant" 600
+	fleet "Dels guard" 1000
 	object
 		sprite star/f0
 		period 10
@@ -16071,7 +16415,6 @@ system Kintuy
 	asteroids "medium metal" 5 2.646
 	asteroids "large metal" 12 4.242
 	trade Food 278
-	fleet "Ultaka Traps" 1200
 	object
 		sprite star/k0
 		period 10
@@ -16231,8 +16574,6 @@ system Ko'coro
 	asteroids "large metal" 5 1.89
 	minables lead 2 4.18678
 	minables silver 1 5.78705
-	fleet "Ultaka small" 1200
-	fleet "Ultaka Traps" 1200
 	object
 		sprite star/k5
 		distance 47.619
@@ -16290,9 +16631,6 @@ system Ko'coso
 	asteroids "large metal" 68 6.8614
 	minables gold 47 13.7655
 	minables tungsten 47 7.77677
-	fleet "Ultaka small" 1200
-	fleet "Wallagi Patrol" 1000
-	fleet "Ultaka Traps" 1200
 	object
 		sprite star/k0
 		period 10
@@ -16339,8 +16677,6 @@ system Ko'covo
 	belt 1799
 	link Ko'sowo
 	asteroids "large metal" 1 2.142
-	fleet "Ultaka small" 1200
-	fleet "Ultaka Traps" 1200
 	object
 		sprite star/g0
 		period 10
@@ -16384,8 +16720,6 @@ system Ko'doco
 	asteroids "large metal" 15 5.499
 	minables copper 2 8.13322
 	minables iron 6 7.26649
-	fleet "Ultaka small" 1200
-	fleet "Ultaka Traps" 1200
 	object
 		sprite star/g5
 		period 10
@@ -16425,7 +16759,6 @@ system Ko'joco
 	asteroids "medium rock" 8 3.332
 	asteroids "large rock" 5 5.032
 	asteroids "large metal" 1 4.216
-	fleet "Ultaka small" 1200
 	object
 		sprite star/k5
 		distance 30.434
@@ -16475,7 +16808,6 @@ system Ko'joho
 	asteroids "large metal" 6 2.7018
 	minables aluminum 30 4.93914
 	minables titanium 48 8.93749
-	fleet "Ultaka small" 1200
 	object
 		sprite star/k5
 		period 10
@@ -16530,9 +16862,6 @@ system Ko'jomo
 	asteroids "large metal" 3 8.8479
 	minables iron 4 9.04147
 	minables silicon 8 9.46926
-	fleet "Ultaka small" 1200
-	fleet "Wallagi Patrol" 1000
-	fleet "Ultaka Traps" 1200
 	object
 		sprite star/m4
 		period 10
@@ -16570,9 +16899,7 @@ system Ko'koco
 	link Ko'noho
 	link Ko'sozo
 	asteroids "large metal" 1 2.3175
-	fleet "Ultaka small" 1200
 	fleet "Revos small" 12000
-	fleet "Ultaka Traps" 1200
 	object
 		sprite star/a5
 		period 10
@@ -16619,7 +16946,6 @@ system Ko'komo
 	asteroids "large metal" 1 8.1378
 	minables neodymium 25 5.38984
 	minables titanium 1 7.10692
-	fleet "Ultaka small" 1200
 	object
 		sprite star/m0
 		period 10
@@ -16678,8 +17004,6 @@ system Ko'koso
 	asteroids "large metal" 33 6.09
 	minables iron 13 9.79982
 	minables neodymium 3 6.47763
-	fleet "Ultaka small" 1200
-	fleet "Ultaka Traps" 1200
 	object
 		sprite star/g0
 		distance 19.8947
@@ -16740,7 +17064,6 @@ system Ko'lobo
 	asteroids "large metal" 1 2.691
 	minables iron 11 6.07785
 	minables tungsten 7 5.01439
-	fleet "Ultaka small" 1200
 	object
 		sprite star/f5
 		period 10
@@ -16790,7 +17113,6 @@ system Ko'loco
 	asteroids "medium metal" 11 5.936
 	asteroids "large metal" 12 4.088
 	minables aluminum 1 6.40483
-	fleet "Ultaka small" 1200
 	object
 		sprite star/g0
 		distance 35.5572
@@ -16852,9 +17174,7 @@ system Ko'lolo
 	minables aluminum 4 8.84884
 	minables iron 3 5.85004
 	minables tungsten 3 9.401
-	fleet "Ultaka small" 1200
 	fleet "Revos small" 10000
-	fleet "Ultaka Traps" 1200
 	object
 		sprite star/g5
 		period 10
@@ -16893,7 +17213,6 @@ system Ko'moho
 	asteroids "large metal" 28 9.52
 	minables aluminum 42 10.0889
 	minables copper 69 7.92407
-	fleet "Ultaka small" 1200
 	object
 		sprite star/a5
 		distance 15.2752
@@ -16934,8 +17253,6 @@ system Ko'momo
 	asteroids "medium rock" 2 5.7876
 	asteroids "large rock" 1 7.917
 	asteroids "large metal" 1 4.095
-	fleet "Ultaka small" 1200
-	fleet "Ultaka Traps" 1200
 	object
 		sprite star/m0
 		period 10
@@ -16985,8 +17302,6 @@ system Ko'moso
 	asteroids "large metal" 1 1.908
 	minables gold 2 3.80007
 	minables lead 3 5.83907
-	fleet "Ultaka small" 1200
-	fleet "Ultaka Traps" 1200
 	object
 		sprite star/a5
 		distance 34.9714
@@ -17043,7 +17358,6 @@ system Ko'mozo
 	asteroids "medium metal" 28 10.152
 	asteroids "large metal" 3 3.96
 	minables aluminum 2 15.0049
-	fleet "Ultaka small" 1200
 	object
 		sprite star/f5
 		period 10
@@ -17096,8 +17410,6 @@ system Ko'noho
 	asteroids "medium metal" 5 5.206
 	asteroids "large metal" 2 5.016
 	minables neodymium 1 5.38837
-	fleet "Ultaka small" 1200
-	fleet "Ultaka Traps" 1200
 	object
 		sprite star/f5
 		period 10
@@ -17148,7 +17460,6 @@ system Ko'oxzo
 	asteroids "small metal" 6 4.2042
 	asteroids "medium metal" 4 4.6956
 	asteroids "large metal" 3 3.6582
-	fleet "Ultaka small" 1200
 	object
 		sprite star/k5
 		period 10
@@ -17202,8 +17513,6 @@ system Ko'roho
 	asteroids "medium metal" 6 2.032
 	asteroids "large metal" 6 0.8
 	minables aluminum 3 2.49726
-	fleet "Ultaka small" 1200
-	fleet "Ultaka Traps" 1200
 	object
 		sprite star/m0
 		distance 47
@@ -17263,8 +17572,6 @@ system Ko'rojo
 	asteroids "medium metal" 1 4.964
 	asteroids "large metal" 6 2.856
 	minables tungsten 13 4.88734
-	fleet "Ultaka small" 1200
-	fleet "Ultaka Traps" 1200
 	object
 		sprite star/m0
 		period 10
@@ -17305,8 +17612,6 @@ system Ko'romo
 	asteroids "small metal" 2 9.204
 	asteroids "medium metal" 6 7.332
 	asteroids "large metal" 4 9.672
-	fleet "Ultaka small" 1200
-	fleet "Ultaka Traps" 1200
 	object
 		sprite star/g0
 		period 10
@@ -17348,7 +17653,6 @@ system Ko'rono
 	asteroids "large metal" 7 6.336
 	minables iron 1 9.7634
 	minables silicon 3 10.8441
-	fleet "Ultaka small" 1200
 	object
 		sprite star/k0
 		period 10
@@ -17405,7 +17709,6 @@ system Ko'soco
 	minables aluminum 5 11.6717
 	minables lead 2 6.89851
 	minables tungsten 6 8.38864
-	fleet "Ultaka small" 1200
 	object
 		sprite star/m4
 		period 10
@@ -17446,7 +17749,6 @@ system Ko'soso
 	minables aluminum 1 5.70944
 	minables lead 1 4.86604
 	minables titanium 1 5.88822
-	fleet "Ultaka small" 1200
 	object
 		sprite star/m0
 		period 10
@@ -17488,8 +17790,6 @@ system Ko'sowo
 	asteroids "small metal" 19 3.7536
 	asteroids "medium metal" 68 2.8704
 	asteroids "large metal" 15 2.3736
-	fleet "Ultaka small" 1200
-	fleet "Ultaka Traps" 1200
 	object
 		sprite star/m0
 		period 10
@@ -17552,7 +17852,6 @@ system Ko'soxo
 	asteroids "medium metal" 37 3.6696
 	asteroids "large metal" 4 3.8016
 	minables lead 12 5.11997
-	fleet "Ultaka small" 1200
 	object
 		sprite star/g5
 		period 10
@@ -17596,8 +17895,6 @@ system Ko'sozo
 	asteroids "large metal" 3 7.3575
 	minables platinum 5 6.04638
 	minables silver 8 7.55798
-	fleet "Ultaka small" 1200
-	fleet "Ultaka Traps" 1200
 	object
 		sprite star/f5
 		period 10
@@ -17646,7 +17943,6 @@ system Ko'xomo
 	asteroids "medium metal" 9 3.8514
 	asteroids "large metal" 5 2.4696
 	minables gold 12 3.20933
-	fleet "Ultaka small" 1200
 	object
 		sprite star/m8
 		period 10
@@ -17699,7 +17995,6 @@ system Ko'zoco
 	minables lead 27 4.92739
 	minables tungsten 3 4.46833
 	minables uranium 3 2.64957
-	fleet "Ultaka small" 1200
 	object
 		sprite star/f5
 		period 10
@@ -17738,8 +18033,6 @@ system Ko'zoho
 	asteroids "medium metal" 8 3.2368
 	asteroids "large metal" 4 3.128
 	minables copper 14 2.36997
-	fleet "Ultaka small" 1200
-	fleet "Ultaka Traps" 1200
 	object
 		sprite star/m0
 		period 10
@@ -17782,7 +18075,6 @@ system Ko'zomo
 	link Ko'soxo
 	link Ko'xomo
 	asteroids "large metal" 1 2.3114
-	fleet "Ultaka small" 1200
 	object
 		sprite star/m8
 		period 10
@@ -17831,7 +18123,6 @@ system Ko'zovo
 	minables copper 11 3.80744
 	minables lead 47 4.8169
 	minables tungsten 4 3.46455
-	fleet "Ultaka small" 1200
 	object
 		sprite star/g5
 		period 10
@@ -17877,7 +18168,6 @@ system Ko'zozo
 	asteroids "small metal" 1 0.99
 	asteroids "medium metal" 2 1.62
 	asteroids "large metal" 2 1.38
-	fleet "Ultaka small" 1200
 	object
 		sprite star/g0
 		period 10
@@ -17986,16 +18276,17 @@ system Kokakor
 	asteroids "large metal" 9 2.16
 	minables lead 20 6.16769
 	minables silicon 20 8.34603
-	trade Clothing 338
-	trade Electronics 662
-	trade Equipment 425
+	trade Clothing 354
+	trade Electronics 677
+	trade Equipment 642
 	trade Food 174
-	trade "Heavy Metals" 976
-	trade Industrial 752
-	trade "Luxury Goods" 1401
-	trade Medical 884
-	trade Metal 397
-	trade Plastic 274
+	trade "Heavy Metals" 862
+	trade Industrial 820
+	trade "Luxury Goods" 1328
+	trade Medical 746
+	trade Metal 323
+	trade Plastic 444
+	fleet "Dels merchant" 600
 	object
 		sprite star/f5
 		distance 27.6312
@@ -18105,45 +18396,53 @@ system Kolha
 	fleet "Revos small" 1000
 	fleet "Revos big" 1500
 	fleet "Revos merchant" 600
-	fleet "Ultaka small" 20000
+	0
 	object
 		sprite star/m4
 		period 10
+		0
 	object Voltali
 		sprite planet/desert7
 		distance 325.741
 		period 153.968
 		offset 322.121
+		0
 		object Jocuta
 			sprite planet/station4
 			distance 123.126
 			period 21.7877
 			offset 126.678
+			0
 	object
 		sprite planet/ocean9
 		distance 634.708
 		period 418.776
 		offset 24.1732
+		0
 	object
 		sprite planet/lava4
 		distance 993.548
 		period 820.171
 		offset 136.34
+		0
 	object
 		sprite planet/cloud3
 		distance 1368.55
 		period 1325.9
 		offset 337.861
+		0
 	object
 		sprite planet/gas12
 		distance 2002.55
 		period 2346.91
 		offset 118.204
+		0
 	object
 		sprite planet/dust1
 		distance 4396.04
 		period 7633.32
 		offset 14.8895
+		0
 
 system Konker
 	pos 5498.08 -8295.25
@@ -18365,6 +18664,15 @@ system Kortenler
 	asteroids "small metal" 11 1.9008
 	asteroids "medium metal" 126 3.2832
 	asteroids "large metal" 11 3.9456
+	trade Clothing 208
+	trade Electronics 748
+	trade Equipment 449
+	trade "Heavy Metals" 868
+	trade Industrial 674
+	trade "Luxury Goods" 1205
+	trade Medical 567
+	trade Metal 326
+	trade Plastic 473
 	object
 		sprite star/k0
 		period 10
@@ -18856,8 +19164,6 @@ system Ledle
 	asteroids "small metal" 21 3.094
 	asteroids "medium metal" 12 2.964
 	asteroids "large metal" 3 2.574
-	fleet "Ultaka Traps" 1200
-	fleet "Ultaka small" 1500
 	fleet "Erm Raid Fleet" 20000
 	object
 		sprite star/g5
@@ -18908,16 +19214,16 @@ system Leion
 	asteroids "medium metal" 2 4.3148
 	asteroids "large metal" 3 4.9588
 	minables neodymium 3 9.12078
-	trade Clothing 255
-	trade Electronics 816
-	trade Equipment 652
+	trade Clothing 326
+	trade Electronics 777
+	trade Equipment 562
 	trade Food 268
-	trade "Heavy Metals" 1145
-	trade Industrial 751
-	trade "Luxury Goods" 980
-	trade Medical 849
-	trade Metal 335
-	trade Plastic 512
+	trade "Heavy Metals" 897
+	trade Industrial 720
+	trade "Luxury Goods" 943
+	trade Medical 557
+	trade Metal 400
+	trade Plastic 358
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -19144,6 +19450,15 @@ system Lermellan
 	asteroids "large rock" 3 2.8314
 	asteroids "small metal" 1 2.0124
 	asteroids "large metal" 1 2.3166
+	trade Clothing 292
+	trade Electronics 660
+	trade Equipment 354
+	trade "Heavy Metals" 886
+	trade Industrial 709
+	trade "Luxury Goods" 1245
+	trade Medical 508
+	trade Metal 328
+	trade Plastic 415
 	object
 		sprite star/m8
 		period 10
@@ -19377,18 +19692,19 @@ system Lika
 	asteroids "large metal" 96 2.1112
 	minables lead 2 2.21058
 	minables uranium 2 2.01664
-	trade Clothing 282
-	trade Electronics 761
-	trade Equipment 478
+	trade Clothing 267
+	trade Electronics 634
+	trade Equipment 646
 	trade Food 171
-	trade "Heavy Metals" 903
-	trade Industrial 697
-	trade "Luxury Goods" 1136
-	trade Medical 848
-	trade Metal 447
-	trade Plastic 405
+	trade "Heavy Metals" 906
+	trade Industrial 726
+	trade "Luxury Goods" 980
+	trade Medical 548
+	trade Metal 262
+	trade Plastic 439
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
+	fleet "Dels merchant" 1000
 	object
 		sprite star/m0
 		period 10
@@ -19635,67 +19951,74 @@ system Loasta
 	minables copper 35 3.86798
 	minables lead 35 3.86798
 	minables silicon 35 3.86798
-	trade Clothing 228
-	trade Electronics 787
-	trade Equipment 491
+	trade Clothing 366
+	trade Electronics 791
+	trade Equipment 423
 	trade Food 431
-	trade "Heavy Metals" 950
-	trade Industrial 751
-	trade "Luxury Goods" 1278
-	trade Medical 597
-	trade Metal 510
-	trade Plastic 307
+	trade "Heavy Metals" 1012
+	trade Industrial 661
+	trade "Luxury Goods" 1065
+	trade Medical 765
+	trade Metal 250
+	trade Plastic 481
 	fleet "Dels guard" 600
-	fleet "Wallagi Patrol" 2000
 	fleet "Dels merchant" 1200
-	fleet "Dels pirate" 600
-	fleet "Ultaka small" 10000
-	fleet "Qanse Small" 1600
 	fleet "Dels miner" 1200
+	0
 	object
 		sprite star/k5
 		distance 36.45
 		period 16.2857
 		offset 180
+		0
 	object
 		sprite star/m4
 		distance 66.55
 		period 16.2857
+		0
 	object
 		sprite planet/lava7
 		distance 202.96
 		period 45.0471
+		0
 	object Wealo
 		sprite planet/cloud3
 		distance 628.45
 		period 245.447
 		offset 34.9933
+		0
 		object
 			sprite planet/luna
 			distance 163
 			period 22.8831
 			offset 339.534
+			0
 		object Meramos-P338P
 			sprite planet/battlestationw
 			distance 202
 			period 11.4747
+			0
 	object
 		sprite planet/gas14
 		distance 1785.14
 		period 1175.06
 		offset 5.12194
+		0
 		object
 			sprite planet/miranda
 			distance 214
 			period 12.7491
+			0
 		object
 			sprite planet/dust5
 			distance 304
 			period 21.5858
+			0
 		object
 			sprite planet/dust1
 			distance 410
 			period 33.8092
+			0
 
 system Lode
 	pos 4856.68 -8195.52
@@ -19712,7 +20035,6 @@ system Lode
 	asteroids "small metal" 2 6.8796
 	asteroids "medium metal" 10 4.158
 	asteroids "large metal" 8 8.8452
-	fleet "Ultaka Traps" 1200
 	fleet "Resmakia Mines" 1200
 	fleet "Erm Raid Fleet" 20000
 	object
@@ -19756,9 +20078,10 @@ system Lode
 			period 47.7972
 
 system Lome
-	pos -472.737 -4695.2
+	pos -442.737 -4701.2
 	government Dels
 	habitable 1715
+	link Dorak
 	link Genlo
 	link Nobdean
 	link Novee
@@ -19768,60 +20091,67 @@ system Lome
 	asteroids "small metal" 43 3.4398
 	asteroids "medium metal" 20 1.3572
 	asteroids "large metal" 12 2.9952
-	trade Clothing 301
-	trade Electronics 762
-	trade Equipment 440
+	trade Clothing 315
+	trade Electronics 693
+	trade Equipment 561
 	trade Food 488
-	trade "Heavy Metals" 865
-	trade Industrial 649
-	trade "Luxury Goods" 1432
-	trade Medical 616
-	trade Metal 519
-	trade Plastic 322
+	trade "Heavy Metals" 1032
+	trade Industrial 657
+	trade "Luxury Goods" 1246
+	trade Medical 820
+	trade Metal 404
+	trade Plastic 360
 	fleet "Dels guard" 600
-	fleet "Wallagi Patrol" 2000
-	fleet "Dels merchant" 1200
-	fleet "Ultaka small" 10000
-	fleet "Qanse Small" 1600
+	fleet "Dels merchant" 600
+	0
 	object
 		sprite star/f5
 		period 10
+		0
 	object
 		sprite planet/cloud2
 		distance 239.29
 		period 35.7532
+		0
 	object Sealo
 		sprite planet/cloud3
 		distance 636.13
 		period 154.97
+		0
 	object Ea'rae
 		sprite planet/rock10
 		distance 1114.37
 		period 359.312
+		0
 		object
 			sprite planet/ice7
 			distance 160
 			period 17.0332
+			0
 		object Meramos-P337P
 			sprite planet/battlestationw
 			distance 202
 			period 11.4747
+			0
 	object
 		sprite planet/neptune
 		distance 1760.01
 		period 713.182
+		0
 	object
 		sprite planet/callisto
 		distance 4066.26
 		period 2504.5
+		0
 
 system Loomera
 	pos -282.971 -4315.76
 	government Dels
 	habitable 1050.92
 	belt 1500
-	link Dree
+	link Dreevu
 	link Kokakor
+	link Nareenor
 	link Raioanor
 	link Suere
 	asteroids "small rock" 3 2.016
@@ -19832,17 +20162,17 @@ system Loomera
 	asteroids "large metal" 20 3.64
 	minables lead 10 5.68562
 	minables titanium 10 5.74007
-	trade Clothing 312
-	trade Electronics 640
-	trade Equipment 436
+	trade Clothing 360
+	trade Electronics 781
+	trade Equipment 637
 	trade Food 197
-	trade "Heavy Metals" 1001
-	trade Industrial 763
-	trade "Luxury Goods" 1388
-	trade Medical 861
-	trade Metal 355
-	trade Plastic 290
-	fleet "Ultaka small" 1200
+	trade "Heavy Metals" 973
+	trade Industrial 781
+	trade "Luxury Goods" 1289
+	trade Medical 715
+	trade Metal 449
+	trade Plastic 388
+	fleet "Dels merchant" 600
 	object
 		sprite star/g5
 		distance 43.7706
@@ -20278,7 +20608,7 @@ system M1-55
 			period 34.7068
 
 system Magosen-L2885
-	pos -519.594 -4643.54
+	pos -584.594 -4612.54
 	government Wallagi
 	habitable 1715
 	asteroids "small rock" 4 7.566
@@ -20392,8 +20722,6 @@ system Mahalmal
 	minables iron 26 3.02579
 	minables neodymium 10 2.56057
 	fleet "Qoro (North)" 1500
-	fleet "Ultaka small" 1000
-	fleet "Ultaka Traps" 1200
 	object
 		sprite star/f0
 		period 10
@@ -20589,7 +20917,6 @@ system Makal
 	asteroids "large metal" 1 2.508
 	minables aluminum 4 3.90684
 	fleet "Qoro (North)" 1500
-	fleet "Ultaka small" 1000
 	object
 		sprite star/g0
 		period 10
@@ -20856,7 +21183,6 @@ system Marak
 	asteroids "medium metal" 3 7.83
 	asteroids "large metal" 1 5.8725
 	minables copper 3 10.2752
-	fleet "Ultaka Traps" 1200
 	fleet "Revos small" 20000
 	object
 		sprite star/k0
@@ -20943,7 +21269,6 @@ system Marickar
 	asteroids "medium metal" 16 4.41
 	asteroids "large metal" 31 4.095
 	minables aluminum 7 4.41661
-	fleet "Ultaka Traps" 1200
 	fleet "Revos small" 20000
 	object
 		sprite star/m8
@@ -21003,7 +21328,6 @@ system Marital
 	asteroids "medium metal" 31 5.076
 	asteroids "large metal" 9 3.852
 	minables uranium 19 12.1813
-	fleet "Ultaka Traps" 1200
 	fleet "Revos small" 20000
 	object
 		sprite star/f0
@@ -21142,7 +21466,6 @@ system Masekin
 	minables iron 6 7.19312
 	minables titanium 3 7.65044
 	fleet "Qoro (North)" 500
-	fleet "Wallagi Small" 700
 	object
 		sprite star/k0
 		period 10
@@ -21262,7 +21585,6 @@ system Masolo
 	minables iron 1 8.62643
 	minables neodymium 9 8.61661
 	fleet "Qoro (North)" 1000
-	fleet "Ultaka small" 1000
 	object
 		sprite star/m4
 		period 10
@@ -21312,7 +21634,6 @@ system Masos
 	minables silver 1 10.981
 	minables titanium 1 9.01322
 	fleet "Qoro (North)" 1500
-	fleet "Ultaka small" 1000
 	object
 		sprite star/m0
 		period 10
@@ -21396,6 +21717,7 @@ system "Mea Kalh"
 	government Dels
 	habitable 2372.76
 	belt 1633
+	link Kinlona
 	link "Mea Vol"
 	asteroids "small rock" 65 1.3
 	asteroids "medium rock" 9 2.47
@@ -21406,18 +21728,18 @@ system "Mea Kalh"
 	minables lead 22 1.80574
 	minables titanium 43 2.391
 	minables tungsten 6 2.77819
-	trade Clothing 330
-	trade Electronics 768
-	trade Equipment 453
+	trade Clothing 293
+	trade Electronics 784
+	trade Equipment 472
 	trade Food 420
-	trade "Heavy Metals" 868
-	trade Industrial 786
-	trade "Luxury Goods" 1252
-	trade Medical 469
-	trade Metal 518
-	trade Plastic 373
-	fleet "Ultaka small" 1200
-	fleet "Ultaka Traps" 1200
+	trade "Heavy Metals" 1098
+	trade Industrial 867
+	trade "Luxury Goods" 1007
+	trade Medical 699
+	trade Metal 439
+	trade Plastic 441
+	fleet "Dels merchant" 700
+	fleet "Dels guard" 1100
 	object
 		sprite star/f0
 		period 10
@@ -21443,12 +21765,14 @@ system "Mea Kalh"
 		period 809.657
 
 system "Mea Sua"
-	pos -355.737 -4750.2
+	pos -354.737 -4774.2
 	government Dels
 	habitable 425.92
 	link "Fee Lo"
+	link Nobdean
 	link Rocco
 	link Sudean
+	link Voltuara
 	asteroids "small rock" 25 6.49
 	asteroids "medium rock" 20 7.535
 	asteroids "large rock" 62 7.7
@@ -21456,60 +21780,64 @@ system "Mea Sua"
 	asteroids "large metal" 1 5.61
 	minables neodymium 35 3.86798
 	minables silver 35 3.86798
-	trade Clothing 235
-	trade Electronics 770
-	trade Equipment 389
+	trade Clothing 314
+	trade Electronics 668
+	trade Equipment 566
 	trade Food 428
-	trade "Heavy Metals" 743
-	trade Industrial 667
-	trade "Luxury Goods" 1264
-	trade Medical 592
-	trade Metal 477
-	trade Plastic 322
+	trade "Heavy Metals" 1168
+	trade Industrial 732
+	trade "Luxury Goods" 1177
+	trade Medical 793
+	trade Metal 432
+	trade Plastic 317
 	fleet "Dels guard" 600
-	fleet "Wallagi Patrol" 2000
 	fleet "Dels merchant" 1200
-	fleet "Ultaka small" 10000
-	fleet "Qanse Small" 1600
-	fleet "Dels miner" 10000
+	fleet "Dels miner" 1000
+	0
 	object
 		sprite star/k5
 		period 10
+		0
 	object
 		sprite planet/fog0
 		distance 258.21
 		period 80.4184
+		0
 	object
 		sprite planet/ocean6
 		distance 680.05
 		period 343.722
+		0
 	object
 		sprite planet/jupiter
 		distance 1167.01
 		period 772.695
+		0
 		object
 			sprite planet/rhea
 			distance 252
 			period 12.5708
+			0
 	object
 		sprite planet/gas0
 		distance 1897.9
 		period 1602.53
+		0
 		object
 			sprite planet/lava0
 			distance 293
 			period 14.698
+			0
 
 system "Mea Vol"
 	pos -312.737 -4596.2
 	government Dels
 	habitable 233.28
 	belt 1818
-	link Alta
+	link Alrtar
 	link Boklok
 	link "Fee Jo"
 	link "Mea Kalh"
-	link Suadee
 	link Volco
 	asteroids "small rock" 5 3.468
 	asteroids "medium rock" 8 3.332
@@ -21517,18 +21845,17 @@ system "Mea Vol"
 	asteroids "large metal" 1 4.216
 	minables gold 4 6.74636
 	minables iron 2 5.09742
-	trade Clothing 369
-	trade Electronics 756
-	trade Equipment 407
+	trade Clothing 224
+	trade Electronics 725
+	trade Equipment 564
 	trade Food 441
-	trade "Heavy Metals" 859
-	trade Industrial 767
-	trade "Luxury Goods" 1306
-	trade Medical 514
-	trade Metal 455
-	trade Plastic 329
-	fleet "Ultaka small" 1200
-	fleet "Ultaka Traps" 1200
+	trade "Heavy Metals" 1130
+	trade Industrial 783
+	trade "Luxury Goods" 1069
+	trade Medical 764
+	trade Metal 430
+	trade Plastic 408
+	fleet "Dels merchant" 600
 	object
 		sprite star/m4
 		period 10
@@ -21713,6 +22040,15 @@ system Mersekkar
 	asteroids "small metal" 9 4.0964
 	asteroids "medium metal" 29 3.4804
 	asteroids "large metal" 14 3.234
+	trade Clothing 291
+	trade Electronics 725
+	trade Equipment 350
+	trade "Heavy Metals" 931
+	trade Industrial 773
+	trade "Luxury Goods" 1315
+	trade Medical 486
+	trade Metal 292
+	trade Plastic 380
 	object
 		sprite star/g0
 		period 10
@@ -21745,8 +22081,8 @@ system Mersekkar
 			distance 270
 			period 13.0018
 
-system Mesa
-	pos -275.737 -4841.2
+system Mesavor
+	pos -268.737 -4877.2
 	government Dels
 	habitable 1566.68
 	link Neeko
@@ -21756,67 +22092,78 @@ system Mesa
 	asteroids "small metal" 6 2.352
 	asteroids "medium metal" 30 1.76
 	asteroids "large metal" 12 1.568
-	trade Clothing 256
-	trade Electronics 764
-	trade Equipment 435
+	trade Clothing 268
+	trade Electronics 660
+	trade Equipment 448
 	trade Food 460
-	trade "Heavy Metals" 914
-	trade Industrial 652
-	trade "Luxury Goods" 1253
-	trade Medical 609
-	trade Metal 521
-	trade Plastic 481
+	trade "Heavy Metals" 1119
+	trade Industrial 618
+	trade "Luxury Goods" 1212
+	trade Medical 861
+	trade Metal 462
+	trade Plastic 334
 	fleet "Dels guard" 1200
 	fleet "Revos small" 20000
 	fleet "Dels merchant" 600
-	fleet "Ultaka small" 20000
+	0
 	object
 		sprite star/g0
 		distance 37.2773
 		period 13.2844
 		offset 180
+		0
 	object
 		sprite star/k0
 		distance 82.7227
 		period 13.2844
+		0
 	object
 		sprite planet/desert7
 		distance 309.973
 		period 55.1512
+		0
 	object
 		sprite planet/gas8
 		distance 826.933
 		period 240.312
+		0
 		object
 			sprite planet/miranda
 			distance 196
 			period 14.607
+			0
 		object
 			sprite planet/dust1
 			distance 320
 			period 30.4721
+			0
 	object Ereata
 		sprite planet/forest1
 		distance 1609.93
 		period 652.8
 		offset 251.569
+		0
 		object Sanon
 			sprite planet/station6
 			distance 185
 			period 28.1828
+			0
 	object
 		sprite planet/gas10
 		distance 2559.22
 		period 1308.37
 		offset 164.175
+		0
 		object
 			sprite planet/luna
 			distance 203
 			period 15.2244
+			0
 		object
 			sprite planet/ice8
 			distance 313
 			period 29.1483
+			0
 
 system "Messier 96 Core"
 	pos -19.6521 -4608.09
@@ -21866,7 +22213,7 @@ system "Messier 96 Core"
 			period 37.0081
 
 system Meta
-	pos -341.737 -4865.2
+	pos -324.737 -4919.2
 	government Dels
 	habitable 320
 	link Codelo
@@ -21875,19 +22222,18 @@ system Meta
 	asteroids "small metal" 28 5.4528
 	asteroids "medium metal" 64 2.88
 	asteroids "large metal" 35 3.5712
-	trade Clothing 300
-	trade Electronics 772
-	trade Equipment 406
+	trade Clothing 347
+	trade Electronics 778
+	trade Equipment 640
 	trade Food 458
-	trade "Heavy Metals" 828
-	trade Industrial 636
-	trade "Luxury Goods" 1384
-	trade Medical 660
-	trade Metal 485
-	trade Plastic 334
+	trade "Heavy Metals" 1067
+	trade Industrial 561
+	trade "Luxury Goods" 1075
+	trade Medical 815
+	trade Metal 510
+	trade Plastic 481
 	fleet "Dels guard" 1200
 	fleet "Dels merchant" 600
-	fleet "Dels pirate" 2000
 	object
 		sprite star/m0
 		period 10
@@ -21992,7 +22338,6 @@ system Moloco
 	asteroids "medium metal" 142 0.962
 	asteroids "large metal" 37 1.807
 	trade Food 209
-	fleet "Ultaka Traps" 1200
 	object
 		sprite star/g5
 		period 10
@@ -22031,50 +22376,60 @@ system Molta
 	fleet "Revos small" 800
 	fleet "Revos big" 1000
 	fleet "Revos merchant" 700
-	fleet "Ultaka small" 10000
+	0
 	object
 		sprite star/m0
 		period 10
+		0
 	object Sonan
 		sprite planet/rock4
 		distance 336.496
 		period 138.024
 		offset 225.328
+		0
 	object
 		sprite planet/ocean5
 		distance 566.736
 		period 301.687
 		offset 332.641
+		0
 	object
 		sprite planet/gas10
 		distance 1437.5
 		period 1218.7
 		offset 135.888
+		0
 		object
 			sprite planet/desert4
 			distance 200
 			period 14.8882
+			0
 		object
 			sprite planet/rhea
 			distance 291
 			period 26.1298
+			0
 		object
 			sprite planet/luna
 			distance 396
 			period 41.4801
+			0
 	object
 		sprite planet/gas3
 		distance 2391.71
 		period 2615.45
 		offset 36.0065
+		0
 		object
 			sprite planet/rock17
 			distance 270
 			period 11.3321
+			0
 		object
 			sprite planet/rock3
 			distance 354
 			period 17.0126
+			0
 
 system Momi
 	pos -253.683 -4976.65
@@ -22181,6 +22536,15 @@ system Morsalo
 	asteroids "small metal" 2 4.108
 	asteroids "medium metal" 3 7.54
 	asteroids "large metal" 1 6.812
+	trade Clothing 301
+	trade Electronics 820
+	trade Equipment 560
+	trade "Heavy Metals" 975
+	trade Industrial 748
+	trade "Luxury Goods" 1127
+	trade Medical 767
+	trade Metal 327
+	trade Plastic 497
 	object
 		sprite star/k5
 		period 10
@@ -22231,6 +22595,15 @@ system Mortarlen
 	asteroids "small metal" 4 2.628
 	asteroids "medium metal" 81 1.908
 	asteroids "large metal" 50 2.214
+	trade Clothing 222
+	trade Electronics 691
+	trade Equipment 390
+	trade "Heavy Metals" 874
+	trade Industrial 691
+	trade "Luxury Goods" 1184
+	trade Medical 525
+	trade Metal 334
+	trade Plastic 454
 	object
 		sprite star/k5
 		period 10
@@ -22280,6 +22653,15 @@ system Murasai
 	asteroids "small metal" 18 4.12
 	asteroids "medium metal" 8 3.76
 	asteroids "large metal" 8 3.84
+	trade Clothing 369
+	trade Electronics 745
+	trade Equipment 429
+	trade "Heavy Metals" 973
+	trade Industrial 655
+	trade "Luxury Goods" 1133
+	trade Medical 620
+	trade Metal 241
+	trade Plastic 405
 	object
 		sprite star/k0
 		distance 41.0705
@@ -22577,7 +22959,6 @@ system Nakce
 	asteroids "small metal" 2 0.8424
 	asteroids "medium metal" 7 1.2168
 	asteroids "large metal" 4 2.1528
-	fleet "Ultaka Traps" 1200
 	fleet "Resmakia Mines" 1200
 	fleet "Erm Raid Fleet" 20000
 	object
@@ -22666,7 +23047,6 @@ system Nalk
 	habitable 1080
 	belt 1992
 	link Nornal
-	link "Qee Nori"
 	asteroids "small rock" 17 4.347
 	asteroids "medium rock" 47 4.692
 	asteroids "large rock" 77 3.933
@@ -22900,6 +23280,51 @@ system Naoslen
 			distance 361
 			period 21.5537
 
+system Nareenor
+	pos -340.848 -4343.05
+	government Dels
+	habitable 425.92
+	belt 1088
+	link Dreevu
+	link Ernauor
+	link Loomera
+	link Reenai
+	asteroids "small rock" 129 3.4524
+	asteroids "medium rock" 161 2.8728
+	asteroids "large rock" 43 3.6792
+	asteroids "small metal" 6 1.3608
+	asteroids "medium metal" 36 1.386
+	asteroids "large metal" 6 3.5532
+	trade Clothing 301
+	trade Electronics 825
+	trade Equipment 619
+	trade Food 167
+	trade "Heavy Metals" 1068
+	trade Industrial 840
+	trade "Luxury Goods" 1162
+	trade Medical 768
+	trade Metal 439
+	trade Plastic 426
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/rock1
+		distance 213.41
+		period 60.4252
+	object
+		sprite planet/desert4
+		distance 577.05
+		period 268.668
+	object
+		sprite planet/forest3
+		distance 764.69
+		period 409.849
+	object
+		sprite planet/uranus
+		distance 2076.53
+		period 1834.02
+
 system Narek
 	pos 5035.68 -7908.52
 	government Ultaka
@@ -22940,13 +23365,13 @@ system Narek
 			period 12.8973
 
 system Neeko
-	pos -304.737 -4790.2
+	pos -288.737 -4829.2
 	government Dels
 	habitable 320
 	link Codelo
 	link Delo
 	link "Fee Lo"
-	link Mesa
+	link Mesavor
 	link Rocco
 	asteroids "small rock" 21 3.5904
 	asteroids "medium rock" 10 6.9168
@@ -22956,67 +23381,72 @@ system Neeko
 	asteroids "large metal" 19 4.4352
 	minables silver 35 3.86798
 	minables gold 35 3.86798
-	trade Clothing 263
-	trade Electronics 795
-	trade Equipment 454
+	trade Clothing 315
+	trade Electronics 642
+	trade Equipment 476
 	trade Food 414
-	trade "Heavy Metals" 869
-	trade Industrial 674
-	trade "Luxury Goods" 1287
-	trade Medical 596
-	trade Metal 484
-	trade Plastic 472
+	trade "Heavy Metals" 1154
+	trade Industrial 615
+	trade "Luxury Goods" 1163
+	trade Medical 837
+	trade Metal 492
+	trade Plastic 302
 	fleet "Dels guard" 600
-	fleet "Revos small" 30000
-	fleet "Wallagi Patrol" 2000
-	fleet "Dels merchant" 1200
-	fleet "Dels pirate" 3000
-	fleet "Ultaka small" 10000
-	fleet "Qanse Small" 1600
+	fleet "Dels merchant" 600
 	fleet "Dels miner" 1200
+	0
 	object
 		sprite star/m0
 		period 10
+		0
 	object
 		sprite planet/gas5
 		distance 605.41
 		period 333.088
 		offset 10.6466
+		0
 		object Destri
 			sprite planet/station2
 			distance 275.484
 			period 417.401
 			offset 235.329
+			0
 		object Meramos-P334P
 			sprite planet/battlestationw
 			distance 202
 			period 11.4747
+			0
 	object
 		sprite planet/mercury
 		distance 1025.65
 		period 734.491
 		offset 39.7721
+		0
 	object
 		sprite planet/gas13
 		distance 1613.89
 		period 1449.76
 		offset 345.589
+		0
 	object
 		sprite planet/gas10
 		distance 2947.89
 		period 3578.93
 		offset 62.4821
+		0
 		object
 			sprite planet/miranda
 			distance 197
 			period 14.5545
+			0
 		object
 			sprite planet/dust0
 			distance 324
 			period 30.6983
+			0
 
-system Neevee
-	pos -455.737 -4473.2
+system Neeveeria
+	pos -472.737 -4468.2
 	government Dels
 	habitable 2372.76
 	belt 1565
@@ -23031,17 +23461,17 @@ system Neevee
 	asteroids "large metal" 3 2.226
 	minables titanium 6 6.16574
 	minables uranium 6 9.82091
-	trade Clothing 349
-	trade Electronics 618
-	trade Equipment 503
+	trade Clothing 326
+	trade Electronics 721
+	trade Equipment 415
 	trade Food 161
-	trade "Heavy Metals" 1023
-	trade Industrial 714
-	trade "Luxury Goods" 1393
-	trade Medical 858
-	trade Metal 266
-	trade Plastic 471
-	fleet "Ultaka small" 1200
+	trade "Heavy Metals" 1056
+	trade Industrial 653
+	trade "Luxury Goods" 977
+	trade Medical 613
+	trade Metal 265
+	trade Plastic 454
+	fleet "Dels merchant" 600
 	object
 		sprite star/f0
 		period 10
@@ -23182,7 +23612,8 @@ system Nelha
 	habitable 973.36
 	belt 1497
 	link Comlark
-	link "Qee Golle"
+	link Ernauor
+	link Sodoranu
 	link Suedo
 	asteroids "small rock" 57 7.8793
 	asteroids "medium rock" 52 5.5651
@@ -23192,17 +23623,17 @@ system Nelha
 	minables iron 22 8.20552
 	minables neodymium 10 7.27659
 	minables silver 22 7.16048
-	trade Clothing 376
-	trade Electronics 740
-	trade Equipment 565
+	trade Clothing 232
+	trade Electronics 785
+	trade Equipment 555
 	trade Food 254
-	trade "Heavy Metals" 908
-	trade Industrial 766
-	trade "Luxury Goods" 1417
-	trade Medical 699
-	trade Metal 313
-	trade Plastic 413
-	fleet "Ultaka small" 1200
+	trade "Heavy Metals" 1133
+	trade Industrial 736
+	trade "Luxury Goods" 1056
+	trade Medical 676
+	trade Metal 332
+	trade Plastic 485
+	fleet "Dels merchant" 600
 	object
 		sprite star/k0
 		distance 50.5
@@ -23488,6 +23919,15 @@ system Nersaer
 	asteroids "small metal" 13 6.4428
 	asteroids "medium metal" 69 5.5146
 	asteroids "large metal" 113 6.7158
+	trade Clothing 356
+	trade Electronics 808
+	trade Equipment 461
+	trade "Heavy Metals" 986
+	trade Industrial 686
+	trade "Luxury Goods" 1173
+	trade Medical 696
+	trade Metal 324
+	trade Plastic 404
 	object
 		sprite star/a5
 		distance 4.32143
@@ -23609,32 +24049,29 @@ system Nilarhi
 		offset 78.6105
 
 system Nobdean
-	pos -373.737 -4705.2
+	pos -386.737 -4728.2
 	government Dels
 	habitable 625
-	link Alta
+	link Alrtar
+	link Dorak
 	link Lome
-	link Novee
+	link "Mea Sua"
 	link Remork
-	link Volta
 	asteroids "large metal" 1 7.9866
 	minables uranium 35 3.86798
-	trade Clothing 366
-	trade Electronics 825
-	trade Equipment 466
+	trade Clothing 303
+	trade Electronics 721
+	trade Equipment 534
 	trade Food 459
-	trade "Heavy Metals" 842
-	trade Industrial 598
-	trade "Luxury Goods" 1439
-	trade Medical 656
-	trade Metal 537
-	trade Plastic 342
-	fleet "Ultaka small" 1000
-	fleet "Dels guard" 10000
-	fleet "Qanse Small" 800
-	fleet "Ultaka big" 1600
-	fleet "Wallagi Patrol" 1000
-	fleet "Dels miner" 12000
+	trade "Heavy Metals" 1105
+	trade Industrial 700
+	trade "Luxury Goods" 1229
+	trade Medical 726
+	trade Metal 426
+	trade Plastic 338
+	fleet "Dels guard" 1000
+	fleet "Dels miner" 1200
+	fleet "Dels merchant" 600
 	object
 		sprite star/g5
 		period 10
@@ -23791,7 +24228,6 @@ system Norsea
 	asteroids "medium metal" 7 2.652
 	asteroids "large metal" 18 3.434
 	trade Food 234
-	fleet "Ultaka Traps" 1200
 	object
 		sprite star/g5
 		distance 40.6349
@@ -23848,6 +24284,15 @@ system Norsicor
 	asteroids "large rock" 96 2.2984
 	asteroids "medium metal" 1 3.0498
 	asteroids "large metal" 1 3.0056
+	trade Clothing 297
+	trade Electronics 812
+	trade Equipment 445
+	trade "Heavy Metals" 920
+	trade Industrial 696
+	trade "Luxury Goods" 1275
+	trade Medical 664
+	trade Metal 398
+	trade Plastic 372
 	object
 		sprite star/f0
 		period 10
@@ -23905,55 +24350,63 @@ system Nova
 	fleet "Revos small" 1000
 	fleet "Revos big" 1500
 	fleet "Revos merchant" 600
-	fleet "Ultaka small" 10000
+	0
 	object
 		sprite star/f0
 		period 10
+		0
 	object
 		sprite planet/rock13
 		distance 252.36
 		period 32.9203
+		0
 	object Nose'in
 		sprite planet/rock5
 		distance 468.325
 		period 83.2251
 		offset 0.281001
+		0
 	object
 		sprite planet/gas11
 		distance 808.935
 		period 188.931
 		offset 122.232
+		0
 	object
 		sprite planet/neptune
 		distance 1196.94
 		period 340.047
 		offset 45.6178
+		0
 	object
 		sprite planet/ice5
 		distance 1773.23
 		period 613.167
 		offset 17.0063
+		0
 	object
 		sprite planet/gas7
 		distance 6518.24
 		period 4321.44
 		offset 0.652372
+		0
 		object
 			sprite planet/ice8
 			distance 252
 			period 14.2309
+			0
 		object
 			sprite planet/europa
 			distance 364
 			period 24.7049
+			0
 
 system Novee
-	pos -427.737 -4672.2
+	pos -426.737 -4661.2
 	government Dels
 	habitable 135
 	link "Fee Jo"
 	link Lome
-	link Nobdean
 	asteroids "small rock" 41 3.1174
 	asteroids "large rock" 9 2.0592
 	asteroids "small metal" 11 3.7752
@@ -23961,21 +24414,18 @@ system Novee
 	asteroids "large metal" 4 3.6608
 	minables uranium 35 3.86798
 	minables neodymium 35 3.86798
-	trade Clothing 331
-	trade Electronics 814
-	trade Equipment 415
+	trade Clothing 238
+	trade Electronics 727
+	trade Equipment 650
 	trade Food 474
-	trade "Heavy Metals" 791
-	trade Industrial 638
-	trade "Luxury Goods" 1437
-	trade Medical 587
-	trade Metal 535
-	trade Plastic 360
-	fleet "Ultaka small" 1000
-	fleet "Dels guard" 10000
-	fleet "Qanse Small" 800
-	fleet "Ultaka big" 1600
-	fleet "Wallagi Patrol" 1000
+	trade "Heavy Metals" 1027
+	trade Industrial 663
+	trade "Luxury Goods" 1170
+	trade Medical 899
+	trade Metal 404
+	trade Plastic 410
+	fleet "Dels guard" 800
+	fleet "Dels merchant" 600
 	object
 		sprite star/m8
 		period 10
@@ -24166,13 +24616,11 @@ system Omili
 		offset 22.58
 
 system Orseune
-	pos -212.905 -4246.71
+	pos -205.905 -4259.71
 	government Dels
 	habitable 425.92
 	belt 1809
-	link Eiekdarmor
 	link Eruaine
-	link Ravo'oua
 	asteroids "medium rock" 7 1.562
 	asteroids "large rock" 4 2.772
 	asteroids "small metal" 1 2.97
@@ -24180,16 +24628,17 @@ system Orseune
 	asteroids "large metal" 6 2.464
 	minables copper 6 4.20653
 	minables gold 14 3.14968
-	trade Clothing 338
-	trade Electronics 662
-	trade Equipment 425
+	trade Clothing 361
+	trade Electronics 822
+	trade Equipment 666
 	trade Food 174
-	trade "Heavy Metals" 976
-	trade Industrial 752
-	trade "Luxury Goods" 1401
-	trade Medical 884
-	trade Metal 397
-	trade Plastic 274
+	trade "Heavy Metals" 906
+	trade Industrial 849
+	trade "Luxury Goods" 1198
+	trade Medical 710
+	trade Metal 469
+	trade Plastic 347
+	fleet "Dels merchant" 800
 	object
 		sprite star/k5
 		period 10
@@ -24366,120 +24815,519 @@ system "Pug Yoot"
 		distance 2528.74
 		period 3330.26
 
-system "Qanse small"
-	pos -789.023 -4638.53
+system "Qee Auaro"
+	pos -820.838 -4791.62
+	government "Dels (Pirate)"
+	habitable 3645
+	belt 1750
+	link "Qee Nori"
+	link "Qee Norsua"
+	asteroids "small rock" 16 1.4025
+	asteroids "medium rock" 82 3.6575
+	asteroids "large rock" 67 3.8225
+	asteroids "medium metal" 2 1.7875
+	asteroids "large metal" 2 3.19
+	minables lead 35 3.82645
+	trade Clothing 240
+	trade Electronics 717
+	trade Equipment 575
+	trade Food 139
+	trade "Heavy Metals" 907
+	trade Industrial 768
+	trade "Luxury Goods" 1409
+	trade Medical 544
+	trade Metal 506
+	trade Plastic 344
+	object
+		sprite star/a5
+		period 10
+	object
+		sprite planet/cloud0
+		distance 182.56
+		period 16.3425
+	object
+		sprite planet/europa
+		distance 415.25
+		period 56.0629
+	object
+		sprite planet/rock1
+		distance 616.21
+		period 101.345
+	object
+		sprite planet/ice2
+		distance 901.21
+		period 179.246
+	object
+		sprite planet/ice7
+		distance 1074.65
+		period 233.406
+	object
+		sprite planet/gas4
+		distance 2728.49
+		period 944.267
+		object
+			sprite planet/rock3
+			distance 224
+			period 11.8241
+		object
+			sprite planet/luna
+			distance 315
+			period 19.718
+		object
+			sprite planet/ice0
+			distance 444
+			period 32.9968
+
+system "Qee Damour"
+	pos -890.449 -4669.22
+	government "Dels (Pirate)"
+	habitable 233.28
+	belt 1558
+	link "Qee Ultur"
+	asteroids "large metal" 1 3.312
+	trade Clothing 187
+	trade Electronics 678
+	trade Equipment 373
+	trade Food 139
+	trade "Heavy Metals" 704
+	trade Industrial 579
+	trade "Luxury Goods" 1499
+	trade Medical 657
+	trade Metal 267
+	trade Plastic 493
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/rock4
+		distance 161.01
+		period 53.5058
+	object
+		sprite planet/rock7
+		distance 484.85
+		period 279.597
+	object
+		sprite planet/gas15
+		distance 1571.74
+		period 1631.9
+		object
+			sprite planet/miranda
+			distance 187
+			period 13.4605
+		object
+			sprite planet/rock3
+			distance 332
+			period 31.8423
+		object
+			sprite planet/dust4
+			distance 492
+			period 57.444
+
+system "Qee Darua"
+	pos -632.186 -4826.96
+	government "Dels (Pirate)"
+	habitable 8640
+	belt 1608
+	link "Qee Tuaku"
+	asteroids "small rock" 33 4.1472
+	asteroids "medium rock" 25 8.748
+	asteroids "large rock" 3 9.072
+	asteroids "small metal" 18 8.9424
+	asteroids "medium metal" 33 6.9984
+	asteroids "large metal" 8 3.4992
+	minables copper 4 11.7124
+	minables lead 1 9.00337
+	minables tungsten 6 12.388
+	trade Clothing 281
+	trade Electronics 676
+	trade Equipment 449
+	trade Food 540
+	trade "Heavy Metals" 833
+	trade Industrial 627
+	trade "Luxury Goods" 1427
+	trade Medical 484
+	trade Metal 559
+	trade Plastic 293
+	object
+		sprite star/b5
+		period 10
+	object
+		sprite planet/rock2
+		distance 285.16
+		period 20.7222
+	object
+		sprite planet/rock15
+		distance 645.77
+		period 70.6187
+	object
+		sprite planet/gas7
+		distance 1184.46
+		period 175.422
+		object
+			sprite planet/ice7
+			distance 249
+			period 13.9775
+		object
+			sprite planet/io
+			distance 383
+			period 26.6642
+	object
+		sprite planet/gas1
+		distance 2362.02
+		period 494.002
+
+system "Qee Duain"
+	pos -775.838 -4651.62
+	government "Dels (Pirate)"
+	habitable 1250
+	belt 1949
+	link "Qee Nor"
+	link "Qee Urua"
+	asteroids "small rock" 1 4.35
+	asteroids "medium rock" 2 3.33
+	asteroids "large rock" 6 4.08
+	asteroids "small metal" 84 2.49
+	asteroids "medium metal" 49 3.21
+	asteroids "large metal" 9 2.82
+	minables aluminum 19 3.97323
+	minables silver 21 3.04784
+	trade Clothing 385
+	trade Electronics 735
+	trade Equipment 388
+	trade Food 514
+	trade "Heavy Metals" 808
+	trade Industrial 623
+	trade "Luxury Goods" 1402
+	trade Medical 456
+	trade Metal 433
+	trade Plastic 522
+	object
+		sprite star/g5
+		distance 50
+		period 11.3137
+		offset 180
+	object
+		sprite star/g5
+		distance 50
+		period 11.3137
+	object
+		sprite planet/rock6
+		distance 238.44
+		period 41.6556
+	object
+		sprite planet/lava7
+		distance 438.65
+		period 103.94
+	object
+		sprite planet/gas15
+		distance 946.49
+		period 329.442
+		object
+			sprite planet/dust3
+			distance 197
+			period 14.5545
+	object
+		sprite planet/gas5
+		distance 2703.49
+		period 1590.35
+		object
+			sprite planet/desert4
+			distance 271
+			period 14.8355
+		object
+			sprite planet/rock3
+			distance 412
+			period 27.8095
+
+system "Qee Duao"
+	pos -870.484 -4750.25
+	government "Dels (Pirate)"
+	habitable 320
+	belt 1401
+	link Dolmoriwakla
+	asteroids "medium rock" 3 3.7422
+	asteroids "large rock" 1 5.5404
+	asteroids "small metal" 4 6.9498
+	asteroids "medium metal" 8 4.9572
+	asteroids "large metal" 1 5.2974
+	trade Clothing 270
+	trade Electronics 669
+	trade Equipment 410
+	trade Food 139
+	trade "Heavy Metals" 793
+	trade Industrial 592
+	trade "Luxury Goods" 1499
+	trade Medical 516
+	trade Metal 461
+	trade Plastic 495
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/lava2
+		distance 122.25
+		period 30.2244
+	object
+		sprite planet/gas5
+		distance 927.21
+		period 631.324
+		object
+			sprite planet/ice8
+			distance 276
+			period 15.2479
+		object
+			sprite planet/dust3
+			distance 388
+			period 25.4153
+		object
+			sprite planet/tethys
+			distance 492
+			period 36.2907
+	object
+		sprite planet/gas14
+		distance 2207.22
+		period 2318.75
+		object
+			sprite planet/dust5
+			distance 259
+			period 16.9749
+
+system "Qee Dukur"
+	pos -619.186 -4762.96
+	government "Dels (Pirate)"
 	habitable 486.68
-	link Feeroko
-	asteroids "large metal" 1 8.9523
-	trade Clothing 341
-	trade Electronics 655
-	trade Equipment 653
-	trade Food 516
-	trade "Heavy Metals" 913
-	trade Industrial 762
-	trade "Luxury Goods" 1162
-	trade Medical 735
-	trade Metal 496
-	trade Plastic 401
-	fleet "Qanse Small" 600
+	belt 1763
+	link "Qee Norika"
+	asteroids "small rock" 2 7.878
+	asteroids "medium rock" 64 9.126
+	asteroids "large rock" 7 7.878
+	asteroids "small metal" 1 10.608
+	asteroids "medium metal" 77 6.24
+	asteroids "large metal" 12 11.7
+	minables copper 18 15.4611
+	minables iron 12 9.93648
+	minables tungsten 8 13.9774
+	trade Clothing 260
+	trade Electronics 767
+	trade Equipment 448
+	trade Food 540
+	trade "Heavy Metals" 811
+	trade Industrial 626
+	trade "Luxury Goods" 1437
+	trade Medical 555
+	trade Metal 542
+	trade Plastic 339
 	object
 		sprite star/k0
 		period 10
 	object
-		sprite planet/mars
-		distance 147.25
-		period 32.3982
+		sprite planet/lava1
+		distance 220.09
+		period 59.2023
 	object
-		sprite planet/miranda
-		distance 303.06
-		period 95.6602
+		sprite planet/lava7
+		distance 462.3
+		period 180.229
 	object
-		sprite planet/rock11
-		distance 564.27
-		period 243.035
-	object
-		sprite planet/dust5
-		distance 1187.16
-		period 741.655
-	object
-		sprite planet/gas10
-		distance 1898.41
-		period 1499.77
+		sprite planet/neptune
+		distance 1337.31
+		period 886.72
 		object
-			sprite planet/rock17
-			distance 196
-			period 14.4438
+			sprite planet/dust1
+			distance 223
+			period 16.5916
 		object
-			sprite planet/dust7
-			distance 333
-			period 31.9863
+			sprite planet/callisto
+			distance 350
+			period 32.6238
 		object
-			sprite planet/rock0
-			distance 467
-			period 53.1218
+			sprite planet/ice8
+			distance 465
+			period 49.9588
+		object
+			sprite planet/luna
+			distance 629
+			period 78.5974
+
+system "Qee Dunor"
+	pos -836.034 -4641.27
+	government "Dels (Pirate)"
+	habitable 320
+	belt 1781
+	link "Qee Fuour"
+	link "Qee Urua"
+	asteroids "small rock" 114 1.9422
+	asteroids "medium rock" 103 3.0888
+	asteroids "large rock" 8 1.6848
+	asteroids "small metal" 5 1.1934
+	asteroids "medium metal" 4 1.4508
+	asteroids "large metal" 5 1.9422
+	minables copper 22 3.01441
+	trade Clothing 284
+	trade Electronics 801
+	trade Equipment 352
+	trade Food 139
+	trade "Heavy Metals" 817
+	trade Industrial 581
+	trade "Luxury Goods" 1340
+	trade Medical 482
+	trade Metal 340
+	trade Plastic 481
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/desert4
+		distance 106.24
+		period 24.486
+	object
+		sprite planet/mercury
+		distance 455.4
+		period 217.307
+	object
+		sprite planet/gas5
+		distance 980.65
+		period 686.683
+	object
+		sprite planet/gas4
+		distance 1477.9
+		period 1270.44
+	object
+		sprite planet/gas14
+		distance 2261.9
+		period 2405.44
 
 system "Qee Fol"
-	pos -554.971 -4593.76
+	pos -706.971 -4632.76
 	government "Dels (Pirate)"
 	habitable 1080
-	link Deefolks
+	link "Qee Nor"
+	link "Qee Rol"
 	asteroids "small rock" 75 3.078
 	asteroids "medium rock" 11 5.244
 	asteroids "large rock" 3 5.073
 	asteroids "large metal" 2 4.959
 	minables aluminum 35 3.86798
-	trade Clothing 266
-	trade Electronics 812
-	trade Equipment 476
+	trade Clothing 295
+	trade Electronics 678
+	trade Equipment 526
 	trade Food 364
-	trade "Heavy Metals" 1095
-	trade Industrial 861
-	trade "Luxury Goods" 1197
-	trade Medical 690
-	trade Metal 393
-	trade Plastic 450
+	trade "Heavy Metals" 849
+	trade Industrial 584
+	trade "Luxury Goods" 1433
+	trade Medical 562
+	trade Metal 480
+	trade Plastic 477
 	fleet "Dels guard" 1000
 	fleet "Dels merchant" 1200
 	fleet "Dels pirate" 500
-	fleet "Ultaka small" 20000
+	0
 	object
 		sprite star/g0
 		period 10
+		0
 	object
 		sprite planet/rock16
 		distance 202.84
 		period 35.1624
+		0
 	object Qee'Sensa
 		sprite planet/desert0
 		distance 427.955
 		period 107.757
 		offset 223.119
+		0
 	object
 		sprite planet/cloud1
 		distance 781.115
 		period 265.718
 		offset 49.9039
+		0
 		object
 			sprite planet/dust7
 			distance 162
 			period 16.8355
+			0
 	object
 		sprite planet/rock14
 		distance 1837.88
 		period 959.008
 		offset 5.73759
+		0
 	object
 		sprite planet/dust4
 		distance 4406.37
 		period 3560.15
 		offset 0.637616
+		0
+
+system "Qee Fuour"
+	pos -838.484 -4588.25
+	government "Dels (Pirate)"
+	habitable 1505.92
+	belt 1129
+	link "Qee Dunor"
+	asteroids "large rock" 1 2.8424
+	asteroids "small metal" 5 4.7124
+	asteroids "medium metal" 5 3.8148
+	asteroids "large metal" 2 4.3384
+	minables iron 3 5.14474
+	minables silver 3 4.77815
+	minables uranium 1 5.45718
+	trade Clothing 260
+	trade Electronics 799
+	trade Equipment 365
+	trade Food 139
+	trade "Heavy Metals" 807
+	trade Industrial 620
+	trade "Luxury Goods" 1279
+	trade Medical 518
+	trade Metal 294
+	trade Plastic 477
+	object
+		sprite star/g0
+		distance 35.6366
+		period 14.5786
+	object
+		sprite star/k5
+		distance 90.3634
+		period 14.5786
+		offset 180
+	object
+		sprite planet/rock5
+		distance 233.253
+		period 36.7199
+	object
+		sprite planet/callisto
+		distance 513.463
+		period 119.929
+	object
+		sprite planet/forest3
+		distance 1034.9
+		period 343.17
+	object
+		sprite planet/gas1
+		distance 1653.91
+		period 693.311
+		object
+			sprite planet/dust5
+			distance 230
+			period 13.9414
+		object
+			sprite planet/dust7
+			distance 334
+			period 24.3969
+		object
+			sprite planet/dust4
+			distance 432
+			period 35.8873
 
 system "Qee Golle"
-	pos -398.971 -4332.76
-	government Dels
+	pos -580.971 -4654.76
+	government "Dels (Pirate)"
 	habitable 486.68
 	belt 1919
-	link Nelha
+	link "Qee Rol"
 	asteroids "small rock" 1 3.6
 	asteroids "medium rock" 22 2.412
 	asteroids "large rock" 7 3.06
@@ -24489,17 +25337,16 @@ system "Qee Golle"
 	minables silver 6 6.25798
 	minables titanium 6 4.9642
 	minables tungsten 36 5.1153
-	trade Clothing 350
-	trade Electronics 817
-	trade Equipment 623
+	trade Clothing 266
+	trade Electronics 614
+	trade Equipment 406
 	trade Food 330
-	trade "Heavy Metals" 877
-	trade Industrial 829
-	trade "Luxury Goods" 1408
-	trade Medical 638
-	trade Metal 386
-	trade Plastic 370
-	fleet "Ultaka small" 1200
+	trade "Heavy Metals" 696
+	trade Industrial 610
+	trade "Luxury Goods" 1496
+	trade Medical 691
+	trade Metal 550
+	trade Plastic 442
 	object
 		sprite star/k0
 		period 10
@@ -24537,26 +25384,29 @@ system "Qee Golle"
 			period 53.2163
 
 system "Qee Nor"
-	pos -370.971 -4929.76
+	pos -739.971 -4692.76
 	government "Dels (Pirate)"
 	habitable 486.68
-	link Geelo
+	link Dolmoriwakla
+	link "Qee Duain"
+	link "Qee Fol"
+	link "Qee Norika"
 	asteroids "small rock" 10 4.4436
 	asteroids "medium rock" 74 8.7584
 	asteroids "large rock" 30 4.2504
 	asteroids "small metal" 1 5.474
 	asteroids "medium metal" 24 3.9284
 	asteroids "large metal" 2 8.5008
-	trade Clothing 340
-	trade Electronics 795
-	trade Equipment 420
+	trade Clothing 325
+	trade Electronics 716
+	trade Equipment 456
 	trade Food 514
-	trade "Heavy Metals" 808
-	trade Industrial 716
-	trade "Luxury Goods" 1439
-	trade Medical 574
-	trade Metal 414
-	trade Plastic 509
+	trade "Heavy Metals" 819
+	trade Industrial 603
+	trade "Luxury Goods" 1390
+	trade Medical 493
+	trade Metal 433
+	trade Plastic 487
 	fleet "Dels guard" 1000
 	fleet "Dels merchant" 1200
 	fleet "Dels pirate" 500
@@ -24589,12 +25439,15 @@ system "Qee Nor"
 			period 18.2475
 
 system "Qee Nori"
-	pos 44.0161 -5215.84
+	pos -756.139 -4775.27
 	government "Dels (Pirate)"
 	habitable 486.68
 	belt 1724
 	link Dolmoriwakla
-	link Nalk
+	link "Qee Auaro"
+	link "Qee Norika"
+	link "Qee Tuaku"
+	link "Qee Urio"
 	asteroids "small rock" 3 4.5562
 	asteroids "medium rock" 4 6.1028
 	asteroids "large rock" 20 2.926
@@ -24602,16 +25455,16 @@ system "Qee Nori"
 	asteroids "large metal" 2 2.7588
 	minables neodymium 7 6.01125
 	minables titanium 2 5.14076
-	trade Clothing 520
-	trade Electronics 610
-	trade Equipment 450
+	trade Clothing 206
+	trade Electronics 719
+	trade Equipment 453
 	trade Food 139
-	trade "Heavy Metals" 930
-	trade Industrial 470
-	trade "Luxury Goods" 790
-	trade Medical 570
-	trade Metal 460
-	trade Plastic 380
+	trade "Heavy Metals" 849
+	trade Industrial 669
+	trade "Luxury Goods" 1374
+	trade Medical 592
+	trade Metal 513
+	trade Plastic 402
 	fleet "Dels pirate" 500
 	object
 		sprite star/k0
@@ -24654,68 +25507,153 @@ system "Qee Nori"
 			distance 163
 			period 28.402
 
+system "Qee Norika"
+	pos -696.971 -4730.76
+	government "Dels (Pirate)"
+	habitable 858.28
+	link "Qee Dukur"
+	link "Qee Nor"
+	link "Qee Nori"
+	link "Qee Tolor"
+	link "Qee Tuaku"
+	asteroids "small rock" 27 0.9768
+	asteroids "medium rock" 6 1.254
+	asteroids "large rock" 13 1.7028
+	asteroids "small metal" 1 1.6896
+	asteroids "medium metal" 10 1.1616
+	asteroids "large metal" 1 1.2672
+	trade Clothing 259
+	trade Electronics 716
+	trade Equipment 419
+	trade Food 540
+	trade "Heavy Metals" 835
+	trade Industrial 600
+	trade "Luxury Goods" 1432
+	trade Medical 573
+	trade Metal 511
+	trade Plastic 394
+	fleet "Dels merchant" 1200
+	fleet "Dels pirate" 500
+	object
+		sprite star/g5
+		distance 24.7337
+		period 11.8524
+	object
+		sprite star/m4
+		distance 66.2663
+		period 11.8524
+		offset 180
+	object
+		sprite planet/ice3
+		distance 283.556
+		period 65.1935
+	object
+		sprite planet/gas17
+		distance 703.556
+		period 254.797
+		object
+			sprite planet/oberon
+			distance 236
+			period 15.4896
+	object Asokqen
+		sprite planet/desert5
+		distance 1225
+		period 585.393
+	object
+		sprite planet/uranus
+		distance 2395.25
+		period 1600.56
+		object
+			sprite planet/tethys
+			distance 225
+			period 14.4194
+		object
+			sprite planet/dust5
+			distance 318
+			period 24.2278
+		object
+			sprite planet/dust7
+			distance 495
+			period 47.0523
+
 system "Qee Norsua"
-	pos 403.686 -5121.06
-	government Ultaka
+	pos -835.485 -4840.34
+	government "Dels (Pirate)"
 	habitable 233.28
-	link Keemolk
+	link "Qee Auaro"
 	asteroids "small rock" 65 1.3923
 	asteroids "medium rock" 15 1.9227
 	asteroids "large rock" 12 2.1879
 	asteroids "small metal" 8 3.2929
 	asteroids "large metal" 5 2.3426
+	trade Clothing 246
+	trade Electronics 714
+	trade Equipment 633
 	trade Food 404
-	fleet "Ultaka small" 10000
+	trade "Heavy Metals" 923
+	trade Industrial 782
+	trade "Luxury Goods" 1437
+	trade Medical 538
+	trade Metal 506
+	trade Plastic 310
+	0
 	object
 		sprite star/m4
 		period 10
+		0
 	object
 		sprite planet/lava5
 		distance 228.09
 		period 90.2154
 		offset 265.787
+		0
 	object
 		sprite planet/lava6
 		distance 405.069
 		period 213.509
 		offset 319.064
+		0
 	object
 		sprite planet/neptune
 		distance 1426.32
 		period 1410.74
 		offset 310.707
+		0
 		object
 			sprite planet/dust4
 			distance 226
 			period 16.9276
+			0
 		object
 			sprite planet/tethys
 			distance 355
 			period 33.3253
+			0
 		object
 			sprite planet/dust3
 			distance 498
 			period 55.3702
+			0
 
 system "Qee Rol"
-	pos -574.971 -4697.76
+	pos -649.971 -4670.76
 	government "Dels (Pirate)"
 	habitable 486.68
-	link Genlo
-	link Helre
+	link "Qee Fol"
+	link "Qee Golle"
+	link "Qee Tolor"
 	asteroids "medium metal" 27 8.5344
 	asteroids "large metal" 1 9.5424
-	trade Clothing 249
-	trade Electronics 700
-	trade Equipment 516
+	trade Clothing 283
+	trade Electronics 626
+	trade Equipment 445
 	trade Food 533
-	trade "Heavy Metals" 1004
-	trade Industrial 609
-	trade "Luxury Goods" 1414
-	trade Medical 612
-	trade Metal 531
-	trade Plastic 346
-	fleet "Dels guard" 1000
+	trade "Heavy Metals" 790
+	trade Industrial 568
+	trade "Luxury Goods" 1480
+	trade Medical 654
+	trade Metal 526
+	trade Plastic 456
 	fleet "Dels merchant" 1200
 	fleet "Dels pirate" 500
 	object
@@ -24750,28 +25688,29 @@ system "Qee Rol"
 			distance 314
 			period 27.7221
 
-system "Qee Tak"
-	pos -559.971 -4777.76
+system "Qee Tolor"
+	pos -592.971 -4713.76
 	government "Dels (Pirate)"
 	habitable 851.84
 	link Helre
+	link "Qee Norika"
+	link "Qee Rol"
 	asteroids "small rock" 70 1.32
 	asteroids "medium rock" 85 3.7488
 	asteroids "large rock" 37 3.3
 	asteroids "small metal" 9 3.2472
 	asteroids "medium metal" 109 2.0064
 	asteroids "large metal" 31 3.2736
-	trade Clothing 219
-	trade Electronics 678
-	trade Equipment 641
+	trade Clothing 304
+	trade Electronics 652
+	trade Equipment 386
 	trade Food 567
-	trade "Heavy Metals" 974
-	trade Industrial 573
-	trade "Luxury Goods" 1398
-	trade Medical 606
-	trade Metal 540
-	trade Plastic 278
-	fleet "Dels guard" 1000
+	trade "Heavy Metals" 871
+	trade Industrial 567
+	trade "Luxury Goods" 1425
+	trade Medical 675
+	trade Metal 508
+	trade Plastic 396
 	fleet "Dels merchant" 1200
 	fleet "Dels pirate" 500
 	object
@@ -24820,71 +25759,256 @@ system "Qee Tak"
 			distance 599
 			period 46.0683
 
-system "Qee norika"
-	pos -431.971 -4943.76
+system "Qee Tuaku"
+	pos -691.186 -4795.96
 	government "Dels (Pirate)"
-	habitable 858.28
-	link Geelo
-	asteroids "small rock" 27 0.9768
-	asteroids "medium rock" 6 1.254
-	asteroids "large rock" 13 1.7028
-	asteroids "small metal" 1 1.6896
-	asteroids "medium metal" 10 1.1616
-	asteroids "large metal" 1 1.2672
-	trade Clothing 328
-	trade Electronics 791
-	trade Equipment 346
+	habitable 640
+	belt 1011
+	link "Qee Darua"
+	link "Qee Nori"
+	link "Qee Norika"
+	asteroids "medium rock" 1 4.08
+	asteroids "large rock" 1 1.7952
+	asteroids "medium metal" 63 3.0736
+	asteroids "large metal" 6 1.5776
+	minables lead 15 4.69169
+	minables titanium 1 3.46726
+	minables tungsten 17 3.62915
+	trade Clothing 257
+	trade Electronics 691
+	trade Equipment 429
 	trade Food 540
-	trade "Heavy Metals" 769
-	trade Industrial 716
-	trade "Luxury Goods" 1439
-	trade Medical 609
-	trade Metal 524
-	trade Plastic 483
-	fleet "Dels guard" 1000
-	fleet "Dels merchant" 1200
-	fleet "Dels pirate" 500
+	trade "Heavy Metals" 834
+	trade Industrial 632
+	trade "Luxury Goods" 1406
+	trade Medical 532
+	trade Metal 536
+	trade Plastic 325
 	object
-		sprite star/g5
-		distance 24.7337
-		period 11.8524
-	object
-		sprite star/m4
-		distance 66.2663
-		period 11.8524
+		sprite star/m0
+		distance 56
+		period 18.7412
 		offset 180
 	object
-		sprite planet/ice3
-		distance 283.556
-		period 65.1935
+		sprite star/m0
+		distance 56
+		period 18.7412
 	object
-		sprite planet/gas17
-		distance 703.556
-		period 254.797
+		sprite planet/gas10
+		distance 849.25
+		period 391.312
 		object
-			sprite planet/oberon
-			distance 236
-			period 15.4896
-	object Asokqen
-		sprite planet/desert5
-		distance 1225
-		period 585.393
+			sprite planet/europa
+			distance 199
+			period 14.7767
+		object
+			sprite planet/rock3
+			distance 339
+			period 32.8546
+		object
+			sprite planet/ice0
+			distance 436
+			period 47.9211
+		object
+			sprite planet/miranda
+			distance 618
+			period 80.8686
 	object
-		sprite planet/uranus
-		distance 2395.25
-		period 1600.56
+		sprite planet/rock6
+		distance 1729.29
+		period 1137.03
+	object
+		sprite planet/gas2
+		distance 2257.98
+		period 1696.49
 		object
-			sprite planet/tethys
-			distance 225
-			period 14.4194
+			sprite planet/rock17
+			distance 197
+			period 16.7538
+		object
+			sprite planet/ice7
+			distance 343
+			period 38.4907
+
+system "Qee Ultur"
+	pos -850.034 -4702.27
+	government "Dels (Pirate)"
+	habitable 425.92
+	belt 1655
+	link Dolmoriwakla
+	link "Qee Damour"
+	asteroids "small rock" 1 2.8512
+	asteroids "medium rock" 65 3.1104
+	asteroids "large rock" 2 6.1776
+	asteroids "small metal" 35 3.5856
+	asteroids "medium metal" 1 2.7648
+	asteroids "large metal" 16 3.024
+	minables lead 6 5.02713
+	trade Clothing 198
+	trade Electronics 686
+	trade Equipment 387
+	trade Food 139
+	trade "Heavy Metals" 729
+	trade Industrial 575
+	trade "Luxury Goods" 1493
+	trade Medical 614
+	trade Metal 308
+	trade Plastic 491
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/rock19
+		distance 180
+		period 46.8063
+	object
+		sprite planet/dust7
+		distance 373.81
+		period 140.079
+	object
+		sprite planet/ice2
+		distance 716.05
+		period 371.374
+		object
+			sprite planet/rock14
+			distance 142
+			period 21.2713
+	object
+		sprite planet/cloud6
+		distance 1053.74
+		period 662.974
+	object
+		sprite planet/rock12
+		distance 1502.75
+		period 1129.08
+	object
+		sprite planet/jupiter
+		distance 3289.64
+		period 3656.95
+		object
+			sprite planet/rock17
+			distance 256
+			period 12.8713
+		object
+			sprite planet/callisto
+			distance 386
+			period 23.831
+		object
+			sprite planet/desert4
+			distance 510
+			period 36.1924
+
+system "Qee Urio"
+	pos -781.223 -4840.59
+	government "Dels (Pirate)"
+	habitable 233.28
+	belt 1316
+	link "Qee Nori"
+	asteroids "large rock" 3 8.3214
+	asteroids "medium metal" 3 5.2164
+	asteroids "large metal" 1 6.1479
+	trade Clothing 170
+	trade Electronics 787
+	trade Equipment 446
+	trade Food 139
+	trade "Heavy Metals" 844
+	trade Industrial 655
+	trade "Luxury Goods" 1316
+	trade Medical 661
+	trade Metal 551
+	trade Plastic 431
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/rock10
+		distance 173.29
+		period 59.7422
+	object
+		sprite planet/lava5
+		distance 487.29
+		period 281.71
+	object
+		sprite planet/rock18
+		distance 794.93
+		period 586.968
+	object
+		sprite planet/lava2
+		distance 1035.54
+		period 872.713
+	object
+		sprite planet/dust0
+		distance 3170.58
+		period 4675.51
+
+system "Qee Urua"
+	pos -806.034 -4673.27
+	government "Dels (Pirate)"
+	habitable 1080
+	belt 1662
+	link Dolmoriwakla
+	link "Qee Duain"
+	link "Qee Dunor"
+	asteroids "small rock" 29 3.216
+	asteroids "medium rock" 151 3.048
+	asteroids "large rock" 8 2.832
+	asteroids "medium metal" 9 1.296
+	asteroids "large metal" 2 3.432
+	minables lead 17 4.69182
+	minables tungsten 26 4.68585
+	trade Clothing 331
+	trade Electronics 736
+	trade Equipment 357
+	trade Food 139
+	trade "Heavy Metals" 797
+	trade Industrial 564
+	trade "Luxury Goods" 1442
+	trade Medical 460
+	trade Metal 419
+	trade Plastic 504
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/rock11
+		distance 139.41
+		period 20.035
+	object
+		sprite planet/rock12
+		distance 478.22
+		period 127.289
+		object
+			sprite planet/callisto
+			distance 186
+			period 26.4299
+	object
+		sprite planet/gas6
+		distance 1115.47
+		period 453.456
+		object
+			sprite planet/io
+			distance 276
+			period 11.7119
+	object
+		sprite planet/rock15
+		distance 1561.56
+		period 751.08
+	object
+		sprite planet/desert4
+		distance 1778
+		period 912.527
+	object
+		sprite planet/gas14
+		distance 5230.09
+		period 4603.75
+		object
+			sprite planet/luna
+			distance 230
+			period 14.2053
 		object
 			sprite planet/dust5
-			distance 318
-			period 24.2278
-		object
-			sprite planet/dust7
-			distance 495
-			period 47.0523
+			distance 330
+			period 24.4135
 
 system Racel
 	pos 5506.27 -7946.36
@@ -24952,16 +26076,16 @@ system Radger
 	asteroids "medium metal" 23 2.156
 	asteroids "large metal" 1 1.848
 	minables titanium 5 2.7347
-	trade Clothing 294
-	trade Electronics 797
-	trade Equipment 642
+	trade Clothing 282
+	trade Electronics 805
+	trade Equipment 633
 	trade Food 174
-	trade "Heavy Metals" 1081
-	trade Industrial 726
-	trade "Luxury Goods" 1007
-	trade Medical 841
-	trade Metal 296
-	trade Plastic 524
+	trade "Heavy Metals" 967
+	trade Industrial 710
+	trade "Luxury Goods" 966
+	trade Medical 600
+	trade Metal 337
+	trade Plastic 406
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -25108,23 +26232,23 @@ system Rager
 			period 20.7764
 
 system Raioanor
-	pos -340.491 -4301.35
+	pos -344.491 -4278.35
 	government Dels
 	habitable 625
 	belt 1185
 	link Loomera
-	link Reen
 	asteroids "large metal" 1 6.944
-	trade Clothing 312
-	trade Electronics 640
-	trade Equipment 436
+	trade Clothing 354
+	trade Electronics 813
+	trade Equipment 616
 	trade Food 197
-	trade "Heavy Metals" 1001
-	trade Industrial 763
-	trade "Luxury Goods" 1388
-	trade Medical 861
-	trade Metal 355
-	trade Plastic 290
+	trade "Heavy Metals" 1024
+	trade Industrial 708
+	trade "Luxury Goods" 1341
+	trade Medical 709
+	trade Metal 448
+	trade Plastic 323
+	fleet "Dels merchant" 700
 	object
 		sprite star/g5
 		period 10
@@ -25171,6 +26295,15 @@ system Rasator
 	asteroids "small metal" 19 2.277
 	asteroids "medium metal" 2 2.6565
 	asteroids "large metal" 7 2.9325
+	trade Clothing 320
+	trade Electronics 819
+	trade Equipment 437
+	trade "Heavy Metals" 1011
+	trade Industrial 721
+	trade "Luxury Goods" 1164
+	trade Medical 653
+	trade Metal 315
+	trade Plastic 329
 	object
 		sprite star/k0
 		distance 35.3052
@@ -25237,16 +26370,16 @@ system Raskal
 	asteroids "small metal" 19 2.277
 	asteroids "medium metal" 2 2.6565
 	asteroids "large metal" 7 2.9325
-	trade Clothing 229
-	trade Electronics 670
-	trade Equipment 691
+	trade Clothing 202
+	trade Electronics 808
+	trade Equipment 469
 	trade Food 382
-	trade "Heavy Metals" 1128
-	trade Industrial 847
-	trade "Luxury Goods" 1012
-	trade Medical 589
-	trade Metal 222
-	trade Plastic 395
+	trade "Heavy Metals" 928
+	trade Industrial 865
+	trade "Luxury Goods" 1051
+	trade Medical 866
+	trade Metal 296
+	trade Plastic 313
 	fleet "Ignaggen Outlaw" 1200
 	fleet "Kager Military" 1800
 	object
@@ -25330,14 +26463,13 @@ system Rasumos
 		period 894.535
 
 system Ravo'oua
-	pos -110.905 -4245.71
+	pos -112.905 -4245.71
 	government Dels
 	habitable 945
 	belt 1026
 	link Eiekdarmor
 	link Eruaine
-	link Irvodera
-	link Orseune
+	link Veejurnu
 	asteroids "small rock" 16 4.7952
 	asteroids "medium rock" 309 9.72
 	asteroids "large rock" 16 7.2576
@@ -25346,16 +26478,17 @@ system Ravo'oua
 	asteroids "large metal" 21 5.8968
 	minables platinum 6 11.4217
 	minables titanium 76 14.6876
-	trade Clothing 338
-	trade Electronics 662
-	trade Equipment 425
+	trade Clothing 264
+	trade Electronics 741
+	trade Equipment 682
 	trade Food 174
-	trade "Heavy Metals" 976
-	trade Industrial 752
-	trade "Luxury Goods" 1401
-	trade Medical 884
+	trade "Heavy Metals" 907
+	trade Industrial 844
+	trade "Luxury Goods" 1197
+	trade Medical 768
 	trade Metal 397
-	trade Plastic 274
+	trade Plastic 283
+	fleet "Dels merchant" 600
 	object
 		sprite star/g5
 		distance 39.9577
@@ -25501,7 +26634,6 @@ system Reco
 	asteroids "medium metal" 65 2
 	asteroids "large metal" 5 1.14
 	trade Food 426
-	fleet "Qanse Small" 1000
 	object
 		sprite star/g0
 		period 10
@@ -25537,6 +26669,52 @@ system Reco
 			sprite planet/rhea
 			distance 349
 			period 19.1071
+
+system Redeino
+	pos -166.742 -4373.15
+	government Dels
+	habitable 233.28
+	belt 1566
+	link Collak
+	link Eudarvo
+	asteroids "small rock" 1 3.268
+	asteroids "medium rock" 4 1.9
+	asteroids "large rock" 2 5.624
+	asteroids "small metal" 8 4.864
+	asteroids "medium metal" 3 3.534
+	asteroids "large metal" 1 4.294
+	minables iron 1 6.11788
+	minables tungsten 2 5.0989
+	trade Clothing 267
+	trade Electronics 738
+	trade Equipment 556
+	trade Food 162
+	trade "Heavy Metals" 1063
+	trade Industrial 728
+	trade "Luxury Goods" 1209
+	trade Medical 547
+	trade Metal 528
+	trade Plastic 509
+	fleet "Dels merchant" 700
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/dust0
+		distance 125.16
+		period 36.6707
+	object
+		sprite planet/lava4
+		distance 490.32
+		period 284.342
+	object
+		sprite planet/gas17
+		distance 821.61
+		period 616.765
+	object
+		sprite planet/gas6
+		distance 2015.45
+		period 2369.62
 
 system Redleo
 	pos 5298.27 -8084.36
@@ -25616,14 +26794,15 @@ system Reecos
 			distance 264
 			period 10.9565
 
-system Reen
-	pos -332.737 -4378.2
+system Reenai
+	pos -374.737 -4389.2
 	government Dels
 	habitable 2340
 	belt 1655
 	link Comlark
+	link Ernauor
 	link Jeelark
-	link Raioanor
+	link Nareenor
 	asteroids "small rock" 1 5.423
 	asteroids "medium rock" 1 7.9112
 	asteroids "large rock" 3 6.5714
@@ -25632,17 +26811,17 @@ system Reen
 	asteroids "large metal" 1 5.2954
 	minables lead 3 8.64644
 	minables silver 2 8.0966
-	trade Clothing 296
-	trade Electronics 671
-	trade Equipment 506
+	trade Clothing 255
+	trade Electronics 812
+	trade Equipment 578
 	trade Food 167
-	trade "Heavy Metals" 974
-	trade Industrial 642
-	trade "Luxury Goods" 1482
-	trade Medical 770
-	trade Metal 240
-	trade Plastic 371
-	fleet "Ultaka small" 1200
+	trade "Heavy Metals" 1179
+	trade Industrial 859
+	trade "Luxury Goods" 1061
+	trade Medical 703
+	trade Metal 351
+	trade Plastic 445
+	fleet "Dels guard" 1000
 	object
 		sprite star/f5
 		distance 29.9145
@@ -25801,6 +26980,15 @@ system Reisarlor
 	asteroids "small metal" 3 1.309
 	asteroids "medium metal" 4 1.4518
 	asteroids "large metal" 5 3.332
+	trade Clothing 246
+	trade Electronics 717
+	trade Equipment 357
+	trade "Heavy Metals" 928
+	trade Industrial 773
+	trade "Luxury Goods" 1308
+	trade Medical 482
+	trade Metal 255
+	trade Plastic 346
 	object
 		sprite star/g5
 		period 10
@@ -26073,7 +27261,7 @@ system Remao
 			period 22.9316
 
 system Remork
-	pos -366.782 -4662.56
+	pos -384.782 -4676.56
 	government Dels
 	habitable 486.68
 	link Nobdean
@@ -26083,18 +27271,16 @@ system Remork
 	asteroids "large metal" 1 4.6368
 	minables iron 35 3.86798
 	minables titanium 35 3.86798
-	trade Clothing 344
-	trade Electronics 839
-	trade Equipment 556
+	trade Clothing 247
+	trade Electronics 792
+	trade Equipment 486
 	trade Food 453
-	trade "Heavy Metals" 851
-	trade Industrial 624
-	trade "Luxury Goods" 1461
-	trade Medical 690
-	trade Metal 552
+	trade "Heavy Metals" 1079
+	trade Industrial 646
+	trade "Luxury Goods" 1231
+	trade Medical 632
+	trade Metal 399
 	trade Plastic 320
-	fleet "Ultaka small" 1000
-	fleet "Qanse Small" 1000
 	fleet "Dels miner" 12000
 	object
 		sprite star/k0
@@ -26473,18 +27659,19 @@ system Rikor
 	asteroids "medium metal" 2 3.4782
 	asteroids "large metal" 6 2.1318
 	minables titanium 8 7.234
-	trade Clothing 304
-	trade Electronics 738
-	trade Equipment 577
+	trade Clothing 302
+	trade Electronics 638
+	trade Equipment 621
 	trade Food 151
-	trade "Heavy Metals" 948
-	trade Industrial 763
-	trade "Luxury Goods" 1183
-	trade Medical 797
-	trade Metal 322
-	trade Plastic 478
+	trade "Heavy Metals" 958
+	trade Industrial 676
+	trade "Luxury Goods" 964
+	trade Medical 591
+	trade Metal 259
+	trade Plastic 467
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
+	fleet "Dels merchant" 800
 	object
 		sprite star/k5
 		period 10
@@ -26537,16 +27724,16 @@ system Rilia
 	minables copper 15 4.77521
 	minables tungsten 6 7.77004
 	minables uranium 12 6.32013
-	trade Clothing 253
-	trade Electronics 760
-	trade Equipment 572
+	trade Clothing 234
+	trade Electronics 838
+	trade Equipment 598
 	trade Food 302
-	trade "Heavy Metals" 1133
-	trade Industrial 825
-	trade "Luxury Goods" 998
-	trade Medical 757
-	trade Metal 299
-	trade Plastic 480
+	trade "Heavy Metals" 933
+	trade Industrial 831
+	trade "Luxury Goods" 1052
+	trade Medical 586
+	trade Metal 259
+	trade Plastic 279
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -26635,11 +27822,10 @@ system Riliga
 			period 40.1862
 
 system Rocco
-	pos -280.737 -4746.2
+	pos -275.737 -4780.2
 	government Dels
 	habitable 486.68
 	belt 1639
-	link Hinley
 	link "Mea Sua"
 	link Neeko
 	link Sudean
@@ -26649,20 +27835,17 @@ system Rocco
 	asteroids "large metal" 49 4.422
 	minables iron 2 7.41778
 	minables tungsten 16 4.19781
-	trade Clothing 221
-	trade Electronics 752
-	trade Equipment 431
+	trade Clothing 371
+	trade Electronics 643
+	trade Equipment 503
 	trade Food 395
-	trade "Heavy Metals" 785
-	trade Industrial 614
-	trade "Luxury Goods" 1206
-	trade Medical 571
-	trade Metal 499
-	trade Plastic 376
-	fleet "Ultaka small" 1000
+	trade "Heavy Metals" 1205
+	trade Industrial 679
+	trade "Luxury Goods" 1095
+	trade Medical 762
+	trade Metal 415
+	trade Plastic 311
 	fleet "Dels guard" 10000
-	fleet "Qanse Small" 800
-	fleet "Ultaka Traps" 1200
 	object
 		sprite star/k0
 		period 10
@@ -26710,16 +27893,16 @@ system Rokar
 	asteroids "large metal" 2 2.5517
 	minables iron 41 5.31362
 	minables uranium 4 7.15178
-	trade Clothing 285
-	trade Electronics 710
-	trade Equipment 592
+	trade Clothing 260
+	trade Electronics 747
+	trade Equipment 653
 	trade Food 252
-	trade "Heavy Metals" 1163
-	trade Industrial 831
-	trade "Luxury Goods" 1030
-	trade Medical 773
-	trade Metal 256
-	trade Plastic 503
+	trade "Heavy Metals" 978
+	trade Industrial 751
+	trade "Luxury Goods" 1061
+	trade Medical 688
+	trade Metal 300
+	trade Plastic 301
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -26779,52 +27962,61 @@ system Rokel
 	asteroids "medium metal" 20 2.717
 	asteroids "large metal" 12 3.4034
 	fleet "Resmakia Mines" 1200
-	fleet "Ultaka small" 10000
 	fleet "Erm Raid Fleet" 15000
 	fleet "Erm SDF Fleet" 1200
 	fleet "Erm CIV Fleet" 800
 	fleet "Resmakia CIV Fleet" 1000
 	fleet "Resmakia SDF Fleet" 700
+	0
 	object
 		sprite star/k0
 		period 10
+		0
 	object Korfelna
 		sprite planet/desert5
 		distance 499.184
 		period 202.223
 		offset 90.1003
+		0
 		object Korpelnon
 			sprite planet/io
 			distance 130.144
 			period 16.3257
 			offset 102.922
+			0
 	object
 		sprite planet/lava4
 		distance 792.218
 		period 404.302
 		offset 280.335
+		0
 	object
 		sprite planet/cloud6
 		distance 1174.63
 		period 729.943
 		offset 170.412
+		0
 		object
 			sprite planet/callisto
 			distance 161
 			period 20.9144
+			0
 	object
 		sprite planet/gas5
 		distance 2597.04
 		period 2399.69
 		offset 323.808
+		0
 		object
 			sprite planet/desert4
 			distance 243
 			period 12.5967
+			0
 		object
 			sprite planet/rock17
 			distance 358
 			period 22.5254
+			0
 
 system Roterla
 	pos -217.83 -4044.68
@@ -26836,6 +28028,15 @@ system Roterla
 	asteroids "medium rock" 7 1.8
 	asteroids "large rock" 3 1.224
 	asteroids "large metal" 1 0.72
+	trade Clothing 285
+	trade Electronics 801
+	trade Equipment 646
+	trade "Heavy Metals" 948
+	trade Industrial 789
+	trade "Luxury Goods" 1098
+	trade Medical 793
+	trade Metal 341
+	trade Plastic 473
 	object
 		sprite star/k5
 		period 10
@@ -26887,7 +28088,6 @@ system S1-1
 	asteroids "medium metal" 253 3.0267
 	asteroids "large metal" 15 7.182
 	fleet "Revos small" 20000
-	fleet "Ultaka Traps" 1200
 	object
 		sprite star/k5
 		period 10
@@ -26944,8 +28144,8 @@ system S1-2
 	asteroids "small metal" 1 2.17
 	asteroids "medium metal" 47 3.535
 	asteroids "large metal" 12 3.08
+	minables Nurbote 12 3.1
 	fleet "Revos small" 20000
-	fleet "Ultaka Traps" 1200
 	object
 		sprite star/f0
 		distance 52.4431
@@ -26989,7 +28189,6 @@ system S1-3
 	asteroids "small metal" 3 5.208
 	asteroids "medium metal" 7 5.208
 	asteroids "large metal" 3 6.3
-	fleet "Ultaka Traps" 1200
 	object
 		sprite star/k0
 		period 10
@@ -27123,6 +28322,7 @@ system S1-6
 	asteroids "small metal" 6 2.9145
 	asteroids "medium metal" 37 4.5675
 	asteroids "large metal" 1 6.2205
+	minables Nurbote 5 1.6
 	object
 		sprite star/k0
 		period 10
@@ -28780,7 +29980,7 @@ system Santqoi
 			period 20.5608
 
 system Saor
-	pos -683.833 -4960.49
+	pos -729.833 -5057.49
 	government ZIS
 	habitable 320
 	link EY-455322
@@ -28824,9 +30024,7 @@ system Saska
 	asteroids "large metal" 5 3.06
 	fleet "Recon Ultaka" 700
 	fleet "Ultaka small" 700
-	fleet "Ultaka big" 1000
-	fleet "Qanse small" 1000
-	fleet "Ultaka Traps" 1200
+	fleet "Ultaka Big" 700
 	object
 		sprite star/g0
 		period 10
@@ -28904,40 +30102,47 @@ system Sedop
 	asteroids "medium metal" 17 2.5392
 	asteroids "large metal" 1 1.4904
 	trade Food 352
-	fleet "Qanse Small" 800
 	fleet "Dels guard" 10000
-	fleet "Ultaka small" 10000
+	0
 	object
 		sprite star/g0
 		period 10
+		0
 	object
 		sprite planet/rock5
 		distance 142.25
 		period 20.6503
+		0
 	object
 		sprite planet/rock19
 		distance 460.86
 		period 120.421
+		0
 		object
 			sprite planet/dust5
 			distance 158
 			period 26.5425
+			0
 	object
 		sprite planet/ocean3
 		distance 1146.55
 		period 472.539
+		0
 	object
 		sprite planet/desert0
 		distance 1353.55
 		period 606.121
+		0
 	object
 		sprite planet/gas17
 		distance 3985.84
 		period 3062.87
+		0
 		object
 			sprite planet/lava0
 			distance 222
 			period 14.132
+			0
 
 system Selna
 	pos 5692.08 -8071.25
@@ -29098,6 +30303,15 @@ system Serkakel
 	asteroids "small metal" 2 3.2718
 	asteroids "medium metal" 19 1.995
 	asteroids "large metal" 110 1.596
+	trade Clothing 236
+	trade Electronics 693
+	trade Equipment 384
+	trade "Heavy Metals" 862
+	trade Industrial 740
+	trade "Luxury Goods" 1200
+	trade Medical 517
+	trade Metal 307
+	trade Plastic 455
 	object
 		sprite star/g0
 		period 10
@@ -29140,6 +30354,15 @@ system Serlennor
 	asteroids "medium rock" 51 6.825
 	asteroids "large rock" 7 4.03
 	asteroids "large metal" 1 3.835
+	trade Clothing 286
+	trade Electronics 811
+	trade Equipment 669
+	trade "Heavy Metals" 889
+	trade Industrial 795
+	trade "Luxury Goods" 1031
+	trade Medical 690
+	trade Metal 243
+	trade Plastic 313
 	object
 		sprite star/k0
 		distance 46.4125
@@ -29484,6 +30707,56 @@ system Skuga
 		period 3192.16
 		offset 0.264168
 
+system Sodoranu
+	pos -520.751 -4324.83
+	government Dels
+	habitable 625
+	belt 1944
+	link Duanaoui
+	link Nelha
+	asteroids "small rock" 1 2.7648
+	asteroids "large rock" 1 2.7864
+	asteroids "medium metal" 2 2.268
+	asteroids "large metal" 1 2.6784
+	minables gold 1 4.19478
+	trade Clothing 229
+	trade Electronics 793
+	trade Equipment 490
+	trade Food 254
+	trade "Heavy Metals" 1177
+	trade Industrial 715
+	trade "Luxury Goods" 1092
+	trade Medical 588
+	trade Metal 447
+	trade Plastic 510
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/desert1
+		distance 191.25
+		period 42.3177
+	object
+		sprite planet/cloud5
+		distance 578.69
+		period 222.735
+	object
+		sprite planet/forest4
+		distance 1117.58
+		period 597.775
+	object
+		sprite planet/gas17
+		distance 1443.67
+		period 877.651
+	object
+		sprite planet/gas2
+		distance 2575.63
+		period 2091.44
+		object
+			sprite planet/dust3
+			distance 194
+			period 16.3726
+
 system Sokel
 	pos 5524.27 -8635.01
 	government Ultaka
@@ -29728,13 +31001,13 @@ system Sorniei
 			period 35.0804
 
 system Suadee
-	pos -345.737 -4527.2
+	pos -370.737 -4532.2
 	government Dels
 	habitable 466.56
 	belt 1005
+	link Boklok
 	link Comar
 	link Jolark
-	link "Mea Vol"
 	asteroids "small rock" 1 6.4512
 	asteroids "medium rock" 7 6.1992
 	asteroids "large rock" 1 4.8384
@@ -29743,19 +31016,19 @@ system Suadee
 	asteroids "large metal" 2 3.8808
 	minables iron 1 8.71139
 	minables titanium 2 6.52803
-	trade Clothing 367
-	trade Electronics 683
-	trade Equipment 412
+	trade Clothing 205
+	trade Electronics 653
+	trade Equipment 501
 	trade Food 356
-	trade "Heavy Metals" 971
-	trade Industrial 820
-	trade "Luxury Goods" 1305
-	trade Medical 616
-	trade Metal 339
-	trade Plastic 283
-	fleet "Ultaka small" 1000
-	fleet "Ultaka big" 1600
-	fleet "Ultaka Traps" 1200
+	trade "Heavy Metals" 1092
+	trade Industrial 717
+	trade "Luxury Goods" 1020
+	trade Medical 738
+	trade Metal 312
+	trade Plastic 422
+	fleet "Dels merchant" 600
+	fleet Ignaggen 700
+	fleet "Dels guard" 1000
 	object
 		sprite star/m4
 		distance 39.5
@@ -29794,7 +31067,7 @@ system Sudean
 	pos -307.737 -4711.2
 	government Dels
 	habitable 1250
-	link Alta
+	link Alrtar
 	link "Mea Sua"
 	link Rocco
 	asteroids "small rock" 1 3.168
@@ -29803,20 +31076,17 @@ system Sudean
 	asteroids "small metal" 4 2.4
 	asteroids "medium metal" 56 5.376
 	asteroids "large metal" 22 5.664
-	trade Clothing 242
-	trade Electronics 793
-	trade Equipment 411
+	trade Clothing 370
+	trade Electronics 650
+	trade Equipment 566
 	trade Food 475
-	trade "Heavy Metals" 692
-	trade Industrial 677
-	trade "Luxury Goods" 1267
-	trade Medical 616
-	trade Metal 470
-	trade Plastic 334
-	fleet "Ultaka small" 1000
+	trade "Heavy Metals" 1178
+	trade Industrial 721
+	trade "Luxury Goods" 1076
+	trade Medical 734
+	trade Metal 360
+	trade Plastic 330
 	fleet "Dels guard" 10000
-	fleet "Qanse Small" 800
-	fleet "Ultaka big" 1200
 	object
 		sprite star/g5
 		distance 58.5
@@ -29872,7 +31142,7 @@ system Suedo
 	government Dels
 	habitable 1080
 	belt 1788
-	link Neevee
+	link Neeveeria
 	link Nelha
 	link Uronuar
 	asteroids "medium rock" 148 3.838
@@ -29882,17 +31152,16 @@ system Suedo
 	asteroids "large metal" 4 5.168
 	minables lead 13 6.14387
 	minables neodymium 5 6.64767
-	trade Clothing 402
-	trade Electronics 654
-	trade Equipment 501
+	trade Clothing 273
+	trade Electronics 709
+	trade Equipment 473
 	trade Food 169
-	trade "Heavy Metals" 948
-	trade Industrial 731
-	trade "Luxury Goods" 1418
-	trade Medical 802
-	trade Metal 281
-	trade Plastic 462
-	fleet "Ultaka small" 1200
+	trade "Heavy Metals" 1049
+	trade Industrial 726
+	trade "Luxury Goods" 966
+	trade Medical 637
+	trade Metal 287
+	trade Plastic 472
 	object
 		sprite star/g0
 		period 10
@@ -29934,11 +31203,11 @@ system Suedo
 			period 19.5924
 
 system Suere
-	pos -236.971 -4340.76
+	pos -236.971 -4330.76
 	government Dels
 	habitable 625
 	belt 1008
-	link Dree
+	link Dreevu
 	link Eruaine
 	link Loomera
 	asteroids "small rock" 133 4.888
@@ -29950,18 +31219,18 @@ system Suere
 	minables aluminum 1 7.4002
 	minables copper 7 4.53433
 	minables gold 35 5.56006
-	trade Clothing 338
-	trade Electronics 662
-	trade Equipment 425
+	trade Clothing 331
+	trade Electronics 805
+	trade Equipment 656
 	trade Food 174
-	trade "Heavy Metals" 976
-	trade Industrial 752
-	trade "Luxury Goods" 1401
-	trade Medical 884
-	trade Metal 397
-	trade Plastic 274
-	fleet "Ultaka small" 1200
-	fleet "Ultaka Traps" 1200
+	trade "Heavy Metals" 971
+	trade Industrial 805
+	trade "Luxury Goods" 1322
+	trade Medical 632
+	trade Metal 487
+	trade Plastic 439
+	fleet "Dels merchant" 600
+	fleet "Dels guard" 100
 	object
 		sprite star/g5
 		period 10
@@ -30262,55 +31531,64 @@ system Tekle
 	asteroids "large rock" 1 3.225
 	asteroids "medium metal" 2 5.2125
 	asteroids "large metal" 11 4.3125
-	fleet "Ultaka Traps" 1200
-	fleet "Ultaka small" 1500
 	fleet "Erm Raid Fleet" 20000
-	fleet "Ultaka big" 20000
+	0
 	object
 		sprite star/k0
 		distance 33.0498
 		period 15.357
 		offset 180
+		0
 	object
 		sprite star/m4
 		distance 68.9502
 		period 15.357
+		0
 	object
 		sprite planet/cloud1
 		distance 238.16
 		period 54.791
+		0
 	object
 		sprite planet/gas2
 		distance 918.77
 		period 415.161
+		0
 		object
 			sprite planet/dust1
 			distance 221
 			period 19.9069
+			0
 		object
 			sprite planet/io
 			distance 343
 			period 38.4907
+			0
 		object
 			sprite planet/luna
 			distance 483
 			period 64.3184
+			0
 	object
 		sprite planet/jupiter
 		distance 2532.38
 		period 1899.76
+		0
 		object
 			sprite planet/rock3
 			distance 280
 			period 14.7231
+			0
 		object
 			sprite planet/rhea
 			distance 398
 			period 24.9509
+			0
 		object
 			sprite planet/ice7
 			distance 516
 			period 36.8329
+			0
 
 system Teona
 	pos 4955.68 -8103.52
@@ -30482,7 +31760,7 @@ system Tita
 		period 1314.78
 
 system "Trochzempt ZAZ-1"
-	pos -648.176 -4946.88
+	pos -706.176 -4971.88
 	government ZIS
 	habitable 320
 	link "Der Gaz"
@@ -30512,6 +31790,63 @@ system "Trochzempt ZAZ-1"
 		sprite planet/trochzempt
 		period 10
 		fleet ""
+
+system Uadora
+	pos -332.848 -4409.05
+	government Dels
+	habitable 425.92
+	belt 1335
+	link Dreevu
+	asteroids "small rock" 1 3.99
+	asteroids "medium rock" 12 3.33
+	asteroids "large rock" 116 1.8
+	asteroids "small metal" 14 2.88
+	asteroids "medium metal" 36 2.13
+	asteroids "large metal" 46 4.26
+	minables gold 23 3.48729
+	minables lead 15 3.34146
+	minables platinum 5 2.64249
+	trade Clothing 330
+	trade Electronics 872
+	trade Equipment 661
+	trade Food 162
+	trade "Heavy Metals" 1008
+	trade Industrial 777
+	trade "Luxury Goods" 1236
+	trade Medical 732
+	trade Metal 542
+	trade Plastic 417
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/cloud2
+		distance 173.25
+		period 44.1983
+	object
+		sprite planet/rhea
+		distance 399.74
+		period 154.904
+	object
+		sprite planet/forest0
+		distance 621.1
+		period 300.012
+	object
+		sprite planet/ice1
+		distance 1044.66
+		period 654.423
+	object
+		sprite planet/gas0
+		distance 2142.87
+		period 1922.6
+		object
+			sprite planet/europa
+			distance 253
+			period 11.7934
+		object
+			sprite planet/rock0
+			distance 343
+			period 18.6165
 
 system Uanalen
 	pos 1879.63 -10912.4
@@ -30601,7 +31936,6 @@ system Ulkutalni
 	asteroids "large rock" 13 1.6848
 	asteroids "medium metal" 2 3.9528
 	asteroids "large metal" 9 2.7216
-	fleet "Ultaka Traps" 1200
 	fleet "Erm Raid Fleet" 20000
 	object
 		sprite star/k5
@@ -30650,6 +31984,15 @@ system Ulsenmor
 	asteroids "small metal" 1 3.4086
 	asteroids "medium metal" 1 4.693
 	asteroids "large metal" 4 4.693
+	trade Clothing 290
+	trade Electronics 780
+	trade Equipment 632
+	trade "Heavy Metals" 835
+	trade Industrial 761
+	trade "Luxury Goods" 1459
+	trade Medical 514
+	trade Metal 328
+	trade Plastic 315
 	object
 		sprite star/f5
 		period 10
@@ -30673,233 +32016,6 @@ system Ulsenmor
 		sprite planet/gas6
 		distance 3319.96
 		period 1847.68
-
-system "Ultaka big"
-	pos -738.023 -4753.53
-	habitable 486.68
-	link Feeroko
-	asteroids "small rock" 14 1.77
-	asteroids "medium rock" 57 4.2
-	asteroids "large rock" 12 2.43
-	asteroids "small metal" 4 3.03
-	asteroids "medium metal" 64 4.02
-	asteroids "large metal" 30 3.84
-	trade Clothing 322
-	trade Electronics 764
-	trade Equipment 622
-	trade Food 499
-	trade "Heavy Metals" 915
-	trade Industrial 680
-	trade "Luxury Goods" 1152
-	trade Medical 745
-	trade Metal 469
-	trade Plastic 475
-	fleet "Ultaka big" 600
-	object
-		sprite star/k0
-		period 10
-	object
-		sprite planet/rock3
-		distance 135
-		period 28.4406
-	object
-		sprite planet/gas2
-		distance 634
-		period 289.449
-		object
-			sprite planet/ice0
-			distance 206
-			period 17.9149
-	object
-		sprite planet/gas8
-		distance 1428.89
-		period 979.347
-		object
-			sprite planet/luna
-			distance 219
-			period 17.2521
-		object
-			sprite planet/dust0
-			distance 321
-			period 30.615
-		object
-			sprite planet/europa
-			distance 460
-			period 52.5187
-	object
-		sprite planet/gas9
-		distance 2648.65
-		period 2471.58
-
-system "Ultaka huge"
-	pos -785.023 -4738.53
-	habitable 486.68
-	link Feeroko
-	asteroids "small rock" 14 1.77
-	asteroids "medium rock" 57 4.2
-	asteroids "large rock" 12 2.43
-	asteroids "small metal" 4 3.03
-	asteroids "medium metal" 64 4.02
-	asteroids "large metal" 30 3.84
-	trade Clothing 377
-	trade Electronics 761
-	trade Equipment 609
-	trade Food 523
-	trade "Heavy Metals" 1040
-	trade Industrial 781
-	trade "Luxury Goods" 1267
-	trade Medical 643
-	trade Metal 406
-	trade Plastic 465
-	object
-		sprite star/k0
-		period 10
-	object
-		sprite planet/rock3
-		distance 135
-		period 28.4406
-	object
-		sprite planet/gas2
-		distance 634
-		period 289.449
-		object
-			sprite planet/ice0
-			distance 206
-			period 17.9149
-	object
-		sprite planet/gas8
-		distance 1428.89
-		period 979.347
-		object
-			sprite planet/luna
-			distance 219
-			period 17.2521
-		object
-			sprite planet/dust0
-			distance 321
-			period 30.615
-		object
-			sprite planet/europa
-			distance 460
-			period 52.5187
-	object
-		sprite planet/gas9
-		distance 2648.65
-		period 2471.58
-
-system "Ultaka mega"
-	pos -822.023 -4718.53
-	habitable 486.68
-	link Feeroko
-	asteroids "small rock" 14 1.77
-	asteroids "medium rock" 57 4.2
-	asteroids "large rock" 12 2.43
-	asteroids "small metal" 4 3.03
-	asteroids "medium metal" 64 4.02
-	asteroids "large metal" 30 3.84
-	trade Clothing 364
-	trade Electronics 725
-	trade Equipment 645
-	trade Food 463
-	trade "Heavy Metals" 917
-	trade Industrial 810
-	trade "Luxury Goods" 1139
-	trade Medical 647
-	trade Metal 416
-	trade Plastic 356
-	fleet "Ultaka mega" 600
-	object
-		sprite star/k0
-		period 10
-	object
-		sprite planet/rock3
-		distance 135
-		period 28.4406
-	object
-		sprite planet/gas2
-		distance 634
-		period 289.449
-		object
-			sprite planet/ice0
-			distance 206
-			period 17.9149
-	object
-		sprite planet/gas8
-		distance 1428.89
-		period 979.347
-		object
-			sprite planet/luna
-			distance 219
-			period 17.2521
-		object
-			sprite planet/dust0
-			distance 321
-			period 30.615
-		object
-			sprite planet/europa
-			distance 460
-			period 52.5187
-	object
-		sprite planet/gas9
-		distance 2648.65
-		period 2471.58
-
-system "Ultaka small"
-	pos -792.023 -4692.53
-	habitable 806.68
-	link Feeroko
-	asteroids "small rock" 2 7.67
-	asteroids "medium rock" 51 6.825
-	asteroids "large rock" 7 4.03
-	asteroids "large metal" 1 3.835
-	trade Clothing 374
-	trade Electronics 762
-	trade Equipment 577
-	trade Food 465
-	trade "Heavy Metals" 978
-	trade Industrial 820
-	trade "Luxury Goods" 1138
-	trade Medical 665
-	trade Metal 375
-	trade Plastic 326
-	fleet "Ultaka small" 600
-	object
-		sprite star/k0
-		distance 46.4125
-		period 17.8233
-		offset 180
-	object
-		sprite star/m0
-		distance 70.5875
-		period 17.8233
-	object
-		sprite planet/mars
-		distance 216.588
-		period 44.891
-	object
-		sprite planet/rock19
-		distance 514.398
-		period 164.308
-		object
-			sprite planet/europa
-			distance 144
-			period 23.094
-	object
-		sprite planet/forest0
-		distance 839.288
-		period 342.433
-	object
-		sprite planet/gas11
-		distance 1830.1
-		period 1102.61
-		object
-			sprite planet/tethys
-			distance 232
-			period 11.6549
-		object
-			sprite planet/dust1
-			distance 365
-			period 22.9994
 
 system Unnelon
 	pos 5566.05 -9061.99
@@ -30949,44 +32065,53 @@ system Untalaer
 	asteroids "medium metal" 6 2.2344
 	asteroids "large metal" 1 2.6866
 	fleet "Erm Raid Fleet" 50000
-	fleet "Ultaka big" 18000
+	0
 	object
 		sprite star/f0
 		distance 15.33
 		period 11.2939
 		offset 180
+		0
 	object
 		sprite star/m0
 		distance 113.67
 		period 11.2939
+		0
 	object
 		sprite planet/lava2
 		distance 258.67
 		period 32.0686
+		0
 	object
 		sprite planet/gas10
 		distance 931.28
 		period 219.069
+		0
 		object
 			sprite planet/ice0
 			distance 199
 			period 14.7767
+			0
 		object
 			sprite planet/io
 			distance 324
 			period 30.6983
+			0
 		object
 			sprite planet/rhea
 			distance 464
 			period 52.6107
+			0
 	object
 		sprite planet/desert8
 		distance 1562.64
 		period 476.156
+		0
 	object Leoulner
 		sprite planet/wormhole
 		distance 2103.65
 		period 743.74
+		0
 
 system Uramase
 	pos -508.346 -3924.07
@@ -31000,6 +32125,15 @@ system Uramase
 	asteroids "small metal" 6 1.8172
 	asteroids "medium metal" 37 4.5276
 	asteroids "large metal" 28 4.4352
+	trade Clothing 299
+	trade Electronics 670
+	trade Equipment 363
+	trade "Heavy Metals" 926
+	trade Industrial 605
+	trade "Luxury Goods" 1252
+	trade Medical 485
+	trade Metal 218
+	trade Plastic 477
 	object
 		sprite star/b5
 		distance 6.71819
@@ -31050,6 +32184,15 @@ system Uraten
 	asteroids "large rock" 46 4.7498
 	asteroids "medium metal" 1 4.9742
 	asteroids "large metal" 5 5.4604
+	trade Clothing 307
+	trade Electronics 647
+	trade Equipment 361
+	trade "Heavy Metals" 883
+	trade Industrial 614
+	trade "Luxury Goods" 1276
+	trade Medical 495
+	trade Metal 259
+	trade Plastic 443
 	object
 		sprite star/g0
 		period 10
@@ -31191,6 +32334,15 @@ system Urmarse
 	asteroids "small metal" 114 1.95
 	asteroids "medium metal" 13 1.378
 	asteroids "large metal" 28 3.068
+	trade Clothing 330
+	trade Electronics 831
+	trade Equipment 680
+	trade "Heavy Metals" 883
+	trade Industrial 831
+	trade "Luxury Goods" 1045
+	trade Medical 700
+	trade Metal 242
+	trade Plastic 389
 	object
 		sprite star/m8
 		period 10
@@ -31239,16 +32391,16 @@ system Uronuar
 	minables aluminum 1 2.65225
 	minables neodymium 1 2.30918
 	minables uranium 1 1.85988
-	trade Clothing 305
-	trade Electronics 665
-	trade Equipment 609
+	trade Clothing 277
+	trade Electronics 661
+	trade Equipment 592
 	trade Food 143
-	trade "Heavy Metals" 993
-	trade Industrial 811
-	trade "Luxury Goods" 1044
-	trade Medical 803
-	trade Metal 234
-	trade Plastic 490
+	trade "Heavy Metals" 1022
+	trade Industrial 763
+	trade "Luxury Goods" 954
+	trade Medical 667
+	trade Metal 260
+	trade Plastic 466
 	object
 		sprite star/g5
 		period 10
@@ -31293,8 +32445,6 @@ system Ursekii
 	asteroids "small metal" 11 3.7752
 	asteroids "medium metal" 12 1.4586
 	asteroids "large metal" 4 3.6608
-	fleet "Ultaka small" 12000
-	fleet "Wallagi Patrol" 1000
 	object
 		sprite star/a5
 		distance 21.2237
@@ -31343,6 +32493,15 @@ system Urtenlo
 	link Ulsenmor
 	link Yuruar
 	asteroids "large metal" 1 8.1926
+	trade Clothing 267
+	trade Electronics 804
+	trade Equipment 599
+	trade "Heavy Metals" 863
+	trade Industrial 741
+	trade "Luxury Goods" 1423
+	trade Medical 570
+	trade Metal 321
+	trade Plastic 315
 	object
 		sprite star/m0
 		period 10
@@ -31386,6 +32545,56 @@ system Urtenlo
 			sprite planet/luna
 			distance 461
 			period 37.1143
+
+system Veejurnu
+	pos -46.7418 -4269.15
+	government Dels
+	habitable 320
+	belt 1745
+	link Ravo'oua
+	asteroids "small rock" 5 1.0472
+	asteroids "medium rock" 2 1.3706
+	asteroids "large rock" 15 1.463
+	asteroids "small metal" 2 2.079
+	asteroids "large metal" 3 1.0472
+	minables aluminum 6 2.17127
+	trade Clothing 286
+	trade Electronics 756
+	trade Equipment 684
+	trade Food 174
+	trade "Heavy Metals" 873
+	trade Industrial 838
+	trade "Luxury Goods" 1235
+	trade Medical 820
+	trade Metal 397
+	trade Plastic 264
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/miranda
+		distance 146.56
+		period 39.6742
+	object
+		sprite planet/lava2
+		distance 379.56
+		period 165.351
+	object
+		sprite planet/rock4
+		distance 650
+		period 370.557
+	object
+		sprite planet/gas0
+		distance 1918.44
+		period 1878.92
+		object
+			sprite planet/ice8
+			distance 264
+			period 12.5708
+		object
+			sprite planet/lava0
+			distance 391
+			period 22.658
 
 system Vernern
 	pos 4678.7 -8443.39
@@ -31536,76 +32745,84 @@ system Voaiick
 			period 83.9209
 
 system Vobeelee
-	pos -451.737 -4778.2
+	pos -459.737 -4826.2
 	government Dels
 	habitable 1080
 	link Deloco
-	link Dorak
+	link Eedoruna
 	link "Fee Lo"
-	link Helre
 	link Keelee
-	link Volta
+	link Voltuara
 	asteroids "small rock" 3 3.3852
 	asteroids "medium rock" 5 2.184
 	asteroids "large rock" 3 2.2204
 	asteroids "small metal" 1 4.4408
 	asteroids "medium metal" 2 2.3296
 	asteroids "large metal" 2 2.9484
-	trade Clothing 280
-	trade Electronics 782
-	trade Equipment 445
+	trade Clothing 353
+	trade Electronics 632
+	trade Equipment 476
 	trade Food 455
-	trade "Heavy Metals" 882
-	trade Industrial 587
-	trade "Luxury Goods" 1456
-	trade Medical 657
-	trade Metal 443
-	trade Plastic 368
+	trade "Heavy Metals" 1178
+	trade Industrial 743
+	trade "Luxury Goods" 1194
+	trade Medical 903
+	trade Metal 512
+	trade Plastic 370
 	fleet "Dels guard" 1000
 	fleet "Dels merchant" 600
-	fleet "Dels pirate" 700
-	fleet "Ultaka small" 20000
+	0
 	object
 		sprite star/g0
 		period 10
+		0
 	object
 		sprite planet/cloud0
 		distance 156.01
 		period 23.7179
+		0
 	object
 		sprite planet/ice5
 		distance 452.82
 		period 117.283
+		0
 	object
 		sprite planet/cloud2
 		distance 743.66
 		period 246.837
+		0
 	object Delro
 		sprite planet/forest2
 		distance 1078.75
 		period 431.25
 		offset 33.7477
+		0
 	object
 		sprite planet/gas17
 		distance 2292.19
 		period 1335.75
 		offset 10.2447
+		0
 		object
 			sprite planet/miranda
 			distance 217
 			period 13.6572
+			0
 		object
 			sprite planet/oberon
 			distance 313
 			period 23.6586
+			0
 		object
 			sprite planet/lava0
 			distance 423
 			period 37.1693
+			0
 		object
 			sprite planet/ice7
 			distance 577
 			period 59.2157
+			0
 
 system Vobi
 	pos 54.0198 -4763.36
@@ -31664,7 +32881,7 @@ system Voimira
 	habitable 1080
 	belt 1698
 	link Altol
-	link Neevee
+	link Neeveeria
 	link Rikor
 	asteroids "small rock" 2 6.762
 	asteroids "medium rock" 3 3.542
@@ -31675,16 +32892,18 @@ system Voimira
 	minables lead 2 7.94448
 	minables tungsten 1 8.99128
 	minables uranium 1 5.29476
-	trade Clothing 367
-	trade Electronics 663
-	trade Equipment 530
+	trade Clothing 348
+	trade Electronics 684
+	trade Equipment 499
 	trade Food 230
-	trade "Heavy Metals" 1030
-	trade Industrial 769
-	trade "Luxury Goods" 1292
-	trade Medical 823
-	trade Metal 301
-	trade Plastic 477
+	trade "Heavy Metals" 973
+	trade Industrial 589
+	trade "Luxury Goods" 951
+	trade Medical 627
+	trade Metal 242
+	trade Plastic 493
+	fleet Ignaggen 700
+	fleet "Dels merchant" 600
 	object
 		sprite star/g0
 		period 10
@@ -31717,14 +32936,14 @@ system Voimira
 			distance 242
 			period 16.0841
 
-system Vola
+system Volarnee
 	pos -336.737 -4493.2
 	government Dels
 	habitable 486.68
 	belt 1798
 	link Jeelark
 	link Jolark
-	link Kinlo
+	link Kinlona
 	asteroids "medium rock" 4 4.3848
 	asteroids "large rock" 2 2.6082
 	asteroids "small metal" 1 3.1374
@@ -31732,18 +32951,18 @@ system Vola
 	asteroids "large metal" 3 2.646
 	minables aluminum 2 5.43644
 	minables titanium 1 6.4901
-	trade Clothing 323
-	trade Electronics 664
-	trade Equipment 428
+	trade Clothing 263
+	trade Electronics 735
+	trade Equipment 460
 	trade Food 304
-	trade "Heavy Metals" 1033
-	trade Industrial 655
-	trade "Luxury Goods" 1417
-	trade Medical 774
-	trade Metal 279
-	trade Plastic 333
-	fleet "Ultaka small" 1200
-	fleet "Ultaka big" 1200
+	trade "Heavy Metals" 1150
+	trade Industrial 852
+	trade "Luxury Goods" 987
+	trade Medical 595
+	trade Metal 416
+	trade Plastic 481
+	fleet "Dels merchant" 600
+	fleet "Dels guard" 1000
 	object
 		sprite star/k0
 		period 10
@@ -31781,7 +33000,7 @@ system Volco
 	government Dels
 	habitable 625
 	belt 1547
-	link Alta
+	link Alrtar
 	link Hinley
 	link "Mea Vol"
 	asteroids "small rock" 5 4.7658
@@ -31793,17 +33012,16 @@ system Volco
 	minables aluminum 12 6.12253
 	minables platinum 1 4.47684
 	minables titanium 1 6.64553
-	trade Clothing 381
-	trade Electronics 792
-	trade Equipment 401
+	trade Clothing 261
+	trade Electronics 692
+	trade Equipment 674
 	trade Food 502
-	trade "Heavy Metals" 851
-	trade Industrial 688
-	trade "Luxury Goods" 1342
-	trade Medical 496
-	trade Metal 455
-	trade Plastic 409
-	fleet "Ultaka small" 1200
+	trade "Heavy Metals" 1214
+	trade Industrial 855
+	trade "Luxury Goods" 1101
+	trade Medical 786
+	trade Metal 493
+	trade Plastic 485
 	object
 		sprite star/g5
 		period 10
@@ -31831,72 +33049,6 @@ system Volco
 		sprite planet/gas17
 		distance 3424.94
 		period 3207
-
-system Volta
-	pos -428.737 -4734.2
-	government Dels
-	habitable 1715
-	link Dorak
-	link "Fee Lo"
-	link Nobdean
-	link Vobeelee
-	asteroids "small rock" 18 4.0698
-	asteroids "medium rock" 3 2.4786
-	asteroids "large rock" 22 3.4272
-	asteroids "small metal" 37 1.53
-	asteroids "medium metal" 23 1.53
-	asteroids "large metal" 6 4.0086
-	trade Clothing 296
-	trade Electronics 796
-	trade Equipment 419
-	trade Food 376
-	trade "Heavy Metals" 909
-	trade Industrial 588
-	trade "Luxury Goods" 1449
-	trade Medical 644
-	trade Metal 508
-	trade Plastic 333
-	fleet "Dels guard" 600
-	fleet "Wallagi Patrol" 2000
-	fleet "Dels merchant" 1200
-	fleet "Ultaka small" 10000
-	fleet "Qanse Small" 1600
-	fleet "Ultaka big" 1200
-	object
-		sprite star/f5
-		period 10
-	object
-		sprite planet/desert7
-		distance 154.76
-		period 18.5958
-	object
-		sprite planet/ice5
-		distance 456.37
-		period 94.168
-		object
-			sprite planet/rock7
-			distance 146
-			period 17.4486
-	object Sonde
-		sprite planet/forest4
-		distance 1166.46
-		period 384.798
-		object Meramos-P336P
-			sprite planet/battlestationw
-			distance 202
-			period 11.4747
-	object
-		sprite planet/gas9
-		distance 1673.5
-		period 661.251
-		object
-			sprite planet/dust0
-			distance 239
-			period 13.8544
-	object
-		sprite planet/gas2
-		distance 3876.5
-		period 2331.24
 
 system Voltaric
 	pos 73.5297 -5033.81
@@ -31963,6 +33115,69 @@ system Voltaric
 			sprite planet/rock14
 			distance 648
 			period 70.4751
+
+system Voltuara
+	pos -423.737 -4781.2
+	government Dels
+	habitable 1715
+	link Dorak
+	link Eedoruna
+	link "Fee Lo"
+	link "Mea Sua"
+	link Vobeelee
+	asteroids "small rock" 18 4.0698
+	asteroids "medium rock" 3 2.4786
+	asteroids "large rock" 22 3.4272
+	asteroids "small metal" 37 1.53
+	asteroids "medium metal" 23 1.53
+	asteroids "large metal" 6 4.0086
+	trade Clothing 368
+	trade Electronics 634
+	trade Equipment 536
+	trade Food 376
+	trade "Heavy Metals" 1154
+	trade Industrial 775
+	trade "Luxury Goods" 1247
+	trade Medical 890
+	trade Metal 505
+	trade Plastic 320
+	fleet "Dels guard" 600
+	fleet "Dels merchant" 600
+	object
+		sprite star/f5
+		period 10
+	object
+		sprite planet/desert7
+		distance 154.76
+		period 18.5958
+	object
+		sprite planet/ice5
+		distance 456.37
+		period 94.168
+		object
+			sprite planet/rock7
+			distance 146
+			period 17.4486
+	object Sonde
+		sprite planet/forest4
+		distance 1166.46
+		period 384.798
+		object Meramos-P336P
+			sprite planet/battlestationw
+			distance 202
+			period 11.4747
+	object
+		sprite planet/gas9
+		distance 1673.5
+		period 661.251
+		object
+			sprite planet/dust0
+			distance 239
+			period 13.8544
+	object
+		sprite planet/gas2
+		distance 3876.5
+		period 2331.24
 
 system Vonov
 	pos 26.7423 -4040.8
@@ -32279,6 +33494,7 @@ system Worak
 	asteroids "large rock" 7 5.175
 	asteroids "medium metal" 1 6.325
 	asteroids "large metal" 1 5.6925
+	minables Nurbote 14 2.5
 	trade Clothing 320
 	trade Electronics 720
 	trade Equipment 590
@@ -32291,48 +33507,66 @@ system Worak
 	trade Plastic 460
 	fleet "Donko Guard Big" 500
 	fleet "Donko Guard Small" 500
-	fleet "Ultaka small" 25000
-	fleet "Ultaka big" 45000
 	fleet "Revos small" 20000
+	0
+	0
 	object
 		sprite star/m4
 		period 10
+		0
+		0
 	object Wobore
 		sprite planet/ice1
 		distance 269
 		period 115.545
 		offset 316.287
+		0
+		0
 		object
 			sprite planet/desert4
 			distance 168
 			period 18.6106
+			0
+			0
 	object
 		sprite planet/lava6
 		distance 657
 		period 441.031
 		offset 310.826
+		0
+		0
 	object
 		sprite planet/gas2
 		distance 1161.41
 		period 1036.57
 		offset 256.354
+		0
+		0
 		object
 			sprite planet/dust1
 			distance 183
 			period 15
+			0
+			0
 		object
 			sprite planet/ice8
 			distance 299
 			period 31.3272
+			0
+			0
 	object
 		sprite planet/gas11
 		distance 2335.65
 		period 2956.19
 		offset 341.29
+		0
+		0
 		object
 			sprite planet/ice0
 			distance 276
 			period 15.1231
+			0
+			0
 
 system Yikarnar
 	pos 92.5219 -4262.51
@@ -32410,6 +33644,15 @@ system Yorsekager
 	asteroids "large rock" 2 8.9102
 	asteroids "medium metal" 1 7.7142
 	asteroids "large metal" 1 7.8338
+	trade Clothing 264
+	trade Electronics 748
+	trade Equipment 398
+	trade "Heavy Metals" 937
+	trade Industrial 659
+	trade "Luxury Goods" 1205
+	trade Medical 587
+	trade Metal 323
+	trade Plastic 399
 	object
 		sprite star/m4
 		period 10
@@ -32461,6 +33704,15 @@ system Yurtanlo
 	asteroids "large rock" 21 5.1392
 	asteroids "small metal" 2 5.0688
 	asteroids "large metal" 3 4.048
+	trade Clothing 302
+	trade Electronics 768
+	trade Equipment 559
+	trade "Heavy Metals" 1004
+	trade Industrial 718
+	trade "Luxury Goods" 1191
+	trade Medical 833
+	trade Metal 431
+	trade Plastic 408
 	object
 		sprite star/m0
 		period 10
@@ -32507,6 +33759,15 @@ system Yuruar
 	asteroids "small metal" 12 4.199
 	asteroids "medium metal" 4 2.652
 	asteroids "large metal" 1 2.3868
+	trade Clothing 280
+	trade Electronics 731
+	trade Equipment 676
+	trade "Heavy Metals" 858
+	trade Industrial 794
+	trade "Luxury Goods" 1445
+	trade Medical 554
+	trade Metal 271
+	trade Plastic 311
 	object
 		sprite star/f5
 		period 10
@@ -32596,7 +33857,7 @@ system Zaubaruer
 			period 34.7625
 
 system "Zerax WS-2"
-	pos -656.833 -4885.49
+	pos -711.833 -4911.49
 	government ZIS
 	habitable 806.68
 	link EY-455300
@@ -32630,7 +33891,7 @@ system "Zerax WS-2"
 		period 310.595
 
 system "Zoivol WS-1"
-	pos -579.833 -4904.49
+	pos -627.833 -4931.49
 	government ZIS
 	habitable 425.92
 	link "Trochzempt ZAZ-1"
@@ -33590,7 +34851,7 @@ planet Madine
 planet Magosen-L2885
 	attributes Wallagi
 	landscape land/space2
-	description `Magosen-L2885 is a Mechoni model titan currently used as a headquater for the Wallagi in this galaxy.`
+	description `This is a massive spaceship.`
 	spaceport .
 	shipyard Wallagi
 	outfitter Wallagi
@@ -33728,6 +34989,13 @@ planet Nilimachi
 	description .
 	spaceport .
 	"required reputation" 1
+
+planet Nirvuvia
+	attributes dels
+	landscape land/canyon02
+	description `A lifeless planet covered in dunes of sand. The only visible development is the city with starships flying in and out all the time.`
+	description `[Note to self: don't write when sleepy. Fix this later.]`
+	spaceport `Very busy spaceport.`
 
 planet Nose'in
 	attributes Revos
@@ -34002,6 +35270,11 @@ planet "Trochzempt ZAZ-1"
 	tribute 100000
 		threshold 20000
 		fleet "Zis Heavy Patrol Fleet" 80
+
+planet Tulvauno
+	landscape land/mountain17-harro
+	description .
+	spaceport .
 
 planet Verkarja
 	landscape land/lava7-sfiera
