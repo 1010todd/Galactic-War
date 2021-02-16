@@ -768,31 +768,31 @@ ship "Dacar"
 	attributes
 		category "Heavy Warship"
 		"cost" 11200000
-		"shields" 26000
+		"shields" 21000
 		"hull" 8000
 		"required crew" 85
 		"bunks" 185
-		"mass" 740
+		"mass" 1640
 		"drag" 12.7
 		"heat dissipation" .3
 		"fuel capacity" 800
-		"cargo space" 150
+		"cargo space" 250
 		"outfit space" 1020
 		"weapon capacity" 600
 		"engine capacity" 198
-		"sokak capacity" 400
+		"sokak capacity" 10
 		weapon
 			"blast radius" 300
 			"shield damage" 3000
 			"hull damage" 1500
 			"hit force" 4500
 	outfits
-		"SK4 Launcher" 4
-		"SK4 Missile" 120
-		"Dels Sokak Cannon Turret" 3
-		"Sokak Slug" 1520
-		"A1H Anti-Missile" 5
-		"HA1 Turret" 4
+		"SK4 Launcher" 1
+		"SK4 Missile" 30
+		"Dels Sokak Cannon Turret" 1
+		"Sokak Slug" 50
+		"A1H Anti-Missile" 1
+		"HA1 Turret" 2
 		
 		"Dalsa Fusion Reactor"
 		"K1180 Battery Pack"
@@ -800,44 +800,36 @@ ship "Dacar"
 		"Water Coolant System"
 		
 		"Maon Ion Engines"
-		"Chaser Afterburner"
 		"Type-F Hyperdrive"
 		
-	gun -60.5 -157 "SK4 Launcher"
-	gun -28 -166.5 "SK4 Launcher"
-	gun -4 -114.5 "SK4 Launcher"
-	gun 23 -111.5 "SK4 Launcher"
-	drone 31 -164.5 under left
-	drone 52.5 -139 under left
-	drone 59 -107 under left
-	drone 60.5 -17.5 under left
-	drone 60.5 24.5 under left
-	drone 61.5 76.5 under left
-	turret -47.5 -122.5 "HA1 Turret"
-	turret -48.5 -53.5 "HA1 Turret"
-	turret -36.5 -155.5 "Dels Sokak Cannon Turret"
-	turret -36 -136 "A1H Anti-Missile"
-	turret 35 -40.5 "Dels Sokak Cannon Turret"
-	turret 23.5 -30 "A1H Anti-Missile"
-	turret 35 -17.5 "Dels Sokak Cannon Turret"
-	turret 21.5 -6.5 "A1H Anti-Missile"
-	turret -35.5 0 "HA1 Turret"
-	turret -35.5 21.5 "A1H Anti-Missile"
-	turret -36 43.5 "HA1 Turret"
-	turret -14.5 133.5 "A1H Anti-Missile"
-	engine -34.5 172
-	engine -9 171.5
-	engine -19 172
+	gun 41 -174
+	turret -13 -116.5
+	turret 36 -101.5
+	turret -30.5 71.5
+	turret 36.5 71
+	engine -35 186.5
+		zoom 1
+		angle 0
+		under
+	engine 29.5 183.5
+		zoom 1
+		angle 0
+		under
+	drone 59 -20.5 right
+	drone 59 -20.5 right
+	drone 59 -20.5 right
+	drone 59 -20.5 right
+	drone 59 -20.5 right
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
 	explode "big explosion" 40
 	explode "huge explosion" 10
-	description "One of the very few heavy warship design left since the Ultaka invasion, originally desinged to be a independent heavy freighter but due that it was heavily armed made it classified in to heavy warship."
-	
+	description ""
 #=================FIGHTER/DRONE
 ship "Dee"
 	sprite "ship/dels dea"
+	thumbnail "thumbnail/dels dea"
 	attributes
 		category "Drone"
 		"cost" 32500
@@ -858,12 +850,26 @@ ship "Dee"
 	outfits
 		"A1A Anti-Missile"
 	
-	engine 0 51
-	turret 0 0 "A1A Anti-Missile"
-	description "Dels Anti-Missile drone designed to guard their ships from hostile missile, widely used by the Pra Nudelgasec(United Navy).(Even they're very inefficient)"
+	turret 0 -5
+	engine 0 37.5
+		zoom 1
+		angle 0
+		under
+	"steering engine" -11 9
+		zoom 1
+		angle -45
+		under
+		left
+	"steering engine" 11 9
+		zoom 1
+		angle 45
+		under
+		right
+	description "Dels Anti-Missile drone designed to guard their ships from hostile missile."
 	
 ship "Dea"
 	sprite "ship/dels dea"
+	thumbnail "thumbnail/dels dea"
 	attributes
 		category "Drone"
 		"cost" 32500
@@ -884,8 +890,21 @@ ship "Dea"
 	outfits
 		"AA1 Turret"
 	
-	engine 0 51
-	turret 0 0 "AA1 Turret"
+	turret 0 -5
+	engine 0 37.5
+		zoom 1
+		angle 0
+		under
+	"steering engine" -11 9
+		zoom 1
+		angle -45
+		under
+		left
+	"steering engine" 11 9
+		zoom 1
+		angle 45
+		under
+		right
 	description "Dels attack drone designed to swarm the enemy."
 	
 
