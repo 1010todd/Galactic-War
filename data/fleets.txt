@@ -1077,6 +1077,30 @@ fleet "Zis Raid Fleet"
 		"SG-60 Ginaz Patrol Drone" 16
 		"DT-510 Quadlancer" 3
 		
+fleet "Zis Defense Fleet"
+	government "ZIS"
+	names "Zis"
+	fighters "Zis fighter"
+	personality
+		heroic
+		frugal
+		opportunistic
+	variant 1
+		"ZN-7681 Eaxes"
+		"TZ-3468 Seoui" 5
+		"DT-510 Quadlancer" 8
+		"VK-35 Katen" 18
+		"RZ-621-02 Razor" 5
+		"SG-60 Ginaz Patrol Drone" 24
+		"DT-224 Trazar" 8
+	variant 1
+		"ZC-4226 Zaikul"
+		"ZM-5422 Karloz" 2
+		"BS-2237 Ryuzo" 3
+		"BX-3826 Kazai" 6
+		"AD-672 Ranzai" 12
+		"XF-26 Mizu" 24
+		
 fleet "Zis Mining Fleet"
 	government "ZIS"
 	names "Zis"

@@ -14205,6 +14205,11 @@ system Kaornral
 		sprite planet/rock14
 		distance 2502.19
 		period 2269.44
+	object "Tarounian Wormhole"
+		sprite planet/wormhole
+		distance 2664.09
+		period 2665.14
+		offset 311.928
 
 system Kaos
 	pos 5256.27 -8087.36
@@ -32317,7 +32322,7 @@ system Urlansa
 		period 564.544
 		offset 126.569
 	object "Tarounian Wormhole"
-		sprite planet/gas1
+		sprite planet/wormhole
 		distance 2664.09
 		period 2665.14
 		offset 311.928
@@ -35254,22 +35259,23 @@ planet Tansaqa
 	bribe 0.7
 
 planet "Tarounian Wormhole"
-	landscape land/water7
 
 planet "Trochzempt ZAZ-1"
 	attributes ZIS
 	landscape land/station0
-	description `Trochzempt ZAZ-1 the largest object human ever built exceeding the size of every artifacial object you know even the Quarg ringworld.`
-	description `	Only about a half of the station is currently finish but it was already armed with countless of defense turret.`
-	description `	 The construction of the station was just recently started (about a century or two) but was already functional and inhabitated the construction as you see are extremely fast countless of building ships and drones fly around out side of the station welding sheets of metals together.`
-	spaceport `The spaceport is enormous, countless of ships fly in and out, the people here are human, cyborg, and robots.`
+	description `This station is probably the most massive artificial stellar object in this galaxy occupying the orbits of several planets on it's own. Oddly, for an object this massive it haven't collapsed or even gathered it's own atmosphere on the surface, infact outside the station is devoid of any gravity. As visible from outside, the station is yet to be done and still activly being constructed at neckbreaking speed.`
+	description `	Inside this massive station is vast landscape, reaching as far as eye can see, akin to what described would be a flat world. Probably large enough no human can fully explore this place.`
+	description `	.`
+	spaceport `As with anything of this station being impossibly large as if it is inhabitated by giants, the spaceport is surely large enough for ships of eveysize, prehaps it could even fit a planetoid inside.`
+	spaceport `Ships and drones flies in and out at every second delivering materials for the station's construction.`
 	shipyard Modtest
 	shipyard plugin
 	outfitter Modtest
 	outfitter plugin
-	tribute 100000
+	tribute 500000
 		threshold 20000
-		fleet "Zis Heavy Patrol Fleet" 80
+		fleet "Zis Heavy Patrol Fleet" 12
+		fleet "Zis Defense Fleet" 20
 
 planet Tulvauno
 	landscape land/mountain17-harro
