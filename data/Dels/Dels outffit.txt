@@ -116,8 +116,9 @@ outfit "Vokkar Gun" #PG10
 	description "."
 	
 effect "vokkar impact"      
-    "sprite" "effect/vokkar effect"                
-    lifetime 13        
+    "sprite" "effect/vokkar effect"     
+	sound "energylauncher"	
+    lifetime 3        
     "random angle" 30               
     "random velocity" 12        
     "velocity scale" 1
