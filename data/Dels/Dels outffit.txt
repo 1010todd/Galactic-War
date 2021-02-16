@@ -91,18 +91,18 @@ outfit "Ukar-3 Blaster" #BA3
 		"cluster"
 	description "A powerful burst-firing blaster. Despite the shorter range, the projectile is faster making it harder to dodge. Be aware that it also generates considerably more heat than regular blasters."
 	
-outfit "Vokkar Gun"
+outfit "Vokkar Gun" #PG10
 	category "Guns"
 	cost 160000
-	thumbnail "outfit/pg10"
+	thumbnail "outfit/dels vokkar"
 	"mass" 20
 	"outfit space" -20
 	"weapon capacity" -20
 	"gun ports" -1
 	weapon
-		sprite "projectile/particle beam"
-		sound "particle"
-		"hit effect" "particle impact"
+		sprite "projectile/vokkar"
+		sound "energy2"
+		"hit effect" "vokkar impact" 3
 		"inaccuracy" 1
 		"velocity" 25
 		"lifetime" 25
@@ -113,7 +113,14 @@ outfit "Vokkar Gun"
 		"hit force" 32
 		"shield damage" 25
 		"hull damage" 30
-	description "Dels's Particle cannon."
+	description "."
+	
+effect "vokkar impact"      
+    "sprite" "effect/vokkar effect"                
+    lifetime 13        
+    "random angle" 30               
+    "random velocity" 12        
+    "velocity scale" 1
 	
 outfit "TC5 Cutter"
 	category "Guns"
@@ -719,7 +726,7 @@ outfit "Vikuan Steering"
 outfit "SR10 Shield Generator"
 	category "Systems"
 	cost 34000
-	thumbnail "outfit/tiny sheild"
+	thumbnail "outfit/dels small shield"
 	"mass" 11
 	"outfit space" -11
 	"shield generation" .2
@@ -731,7 +738,7 @@ outfit "SR10 Shield Generator"
 outfit "SR20 Shield Generator"
 	category "Systems"
 	cost 68000
-	thumbnail "outfit/small sheild"
+	thumbnail "outfit/dels small shield"
 	"mass" 15
 	"outfit space" -15
 	"shield generation" .3
@@ -743,7 +750,7 @@ outfit "SR20 Shield Generator"
 outfit "SR30 Shield Generator"
 	category "Systems"
 	cost 125000
-	thumbnail "outfit/medium sheild"
+	thumbnail "outfit/dels small shield"
 	"mass" 22
 	"outfit space" -22
 	"shield generation" .5
@@ -755,7 +762,7 @@ outfit "SR30 Shield Generator"
 outfit "SR40 Shield Generator"
 	category "Systems"
 	cost 250000
-	thumbnail "outfit/large sheild"
+	thumbnail "outfit/dels small shield"
 	"mass" 35
 	"outfit space" -35
 	"shield generation" .75
@@ -767,7 +774,7 @@ outfit "SR40 Shield Generator"
 outfit "SR50 Shield Generator"
 	category "Systems"
 	cost 545000
-	thumbnail "outfit/large sheild"
+	thumbnail "outfit/dels small shield"
 	"mass" 50
 	"outfit space" -50
 	"shield generation" 1.7
