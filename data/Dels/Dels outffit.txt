@@ -76,6 +76,7 @@ outfit "Ukar-3 Blaster" #BA3
 	"gun ports" -1
 	weapon
 		sprite "projectile/ukarshot"
+		"fire effect" "vokkar spark" 3
 		sound "dblaster3"
 		"hit effect" "blaster impact"
 		"inaccuracy" 1.8
@@ -102,6 +103,7 @@ outfit "Vokkar Gun" #PG10
 	weapon
 		sprite "projectile/vokkar"
 		sound "energy2"
+		"firing effect" "vokkar impact"  
 		"hit effect" "vokkar spark" 3
 		"hit effect" "vokkar impact"  
 		"inaccuracy" 1
@@ -291,29 +293,31 @@ outfit "TC0B Laser"
 		"heat damage" 2
 	description "Dels's laser, invisible and deal very small amount of damage, used as cheap mining laser."
 	
-outfit "AA1 Turret"
+outfit "Skue-6 Turret" #AA1
 	category "Turrets"
 	"cost" 22000
 	thumbnail "outfit/unknown"
-	"mass" 5
-	"outfit space" -5
-	"weapon capacity" -5
+	"mass" 10
+	"outfit space" -10
+	"weapon capacity" -10
 	"turret mounts" -1
 	weapon
-		"hit effect" "tiny explosion"
-		sprite "projectile/mod blaster"
+		"hit effect" "blaster impact"
+		sprite "projectile/skueshot"
 		"hardpoint sprite" "hardpoint/blaster turret"
 		"hardpoint offset" 9.
-		"inaccuracy" .1
+		"inaccuracy" 2
 		"turret turn" 5
-		"velocity" 15
-		"lifetime" 25
-		"reload" 3
-		"firing energy" 6
-		"shield damage" 5
-		"hull damage" 9
+		"velocity" 12
+		"lifetime" 40
+		"reload" 10
+		"firing energy" 10
+		"firing heat" 32
+		"shield damage" 6
+		"hull damage" 4.2
+	description "These are tiny turret mounted Skue-6 blasters for small ships and drones."
 		
-outfit "HA1 Turret"
+outfit "Kotdar Turret" #HA1
 	category "Turrets"
 	"cost" 350000
 	thumbnail "outfit/unknown"
@@ -327,21 +331,23 @@ outfit "HA1 Turret"
 		"hardpoint sprite" "hardpoint/blaster turret"
 		"hardpoint offset" 9.
 		"hit effect" "particle impact"
-		"inaccuracy" .5
-		"turret turn" 3
-		"velocity" 30
-		"lifetime" 15
-		"reload" 35
-		"firing energy" 45
+		"inaccuracy" 1
+		"turret turn" 1.2
+		"velocity" 60
+		"acceleration" -.01
+		"lifetime" 30
+		"reload" 55
+		"firing energy" 80
 		"firing force" 10
-		"firing heat" 120
+		"firing heat" 340
 		"hit force" 80
-		"shield damage" 62
-		"hull damage" 75
+		"shield damage" 240
+		"hull damage" 450
+	description "These are long-range large anti-capital turret."
 	
 =========================================[Anti Missile]=============================
 	
-outfit "A1A Anti-Missile"
+outfit "Fitar Anti-Missile" #A1A
 	category "Turrets"
 	"cost" 15000
 	thumbnail "outfit/unknown"
@@ -350,17 +356,26 @@ outfit "A1A Anti-Missile"
 	"weapon capacity" -5
 	"turret mounts" -1
 	weapon
-		"fire effect" "tiny explosion"
-		"turret turn" 10
+		"fire effect" "fitar anti-missile"
 		"hardpoint sprite" "hardpoint/anti-missile"
 		"hardpoint offset" 4.
+		"anti-missile" 2
 		"velocity" 200
 		"lifetime" 1
-		"reload" 2.5
+		"reload" 2
 		"firing energy" 5
-		"anti-missile" 1
+		"firing heat" 3
+	description "These tiny anti missiles are meant to provide even the smallest ship minimal defense against missiles. Or just to fil in some left over spaces."
 		
-outfit "A1H Anti-Missile"
+effect "fitar anti-missile"
+	sprite "effect/tiny explosion"
+		"no repeat"
+		"frame rate" 3
+	sound "energy1"
+	"lifetime" 21
+	"velocity scale" 1.5
+		
+outfit "Ganoau Anti-Missile" #A1H
 	category "Turrets"
 	"cost" 250000
 	thumbnail "outfit/unknown"
@@ -369,15 +384,18 @@ outfit "A1H Anti-Missile"
 	"weapon capacity" -20
 	"turret mounts" -1
 	weapon
-		"fire effect" "small explosion"
-		"inaccuracy" .01
+		"fire effect" "fitar anti-missile"
 		"hardpoint sprite" "hardpoint/anti-missile"
 		"hardpoint offset" 4.
+		"anti-missile" 6
 		"velocity" 200
 		"lifetime" 1
-		"reload" 3.6
-		"firing energy" 35
-		"anti-missile" 10
+		"reload" 2
+		"firing energy" 31
+		"firing heat" 6
+	description "Standard anti-missile used in Dels space with empasis on rate of fire rather than firepower for dealing with swarming missiles commonly used in Dels space."
+
+		
 		
 
 		
@@ -414,7 +432,7 @@ outfit "DT1 Launcher"
 		"homing" 2
 		"infrared tracking" .5
 		"radar tracking" .2
-		"missile strength" 7
+		"missile strength" 5
 		"shield damage" 200
 		"hull damage" 110
 		"hit force" 39
