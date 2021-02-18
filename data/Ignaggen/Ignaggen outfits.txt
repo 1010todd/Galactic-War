@@ -9,7 +9,7 @@ outfit "Igarsot Cannon"
 	weapon
 		sprite "projectile/igarsot beam"
 			"frame rate" 1
-		sound "plasma"
+		sound "energy1"
 		"hit effect" "particle impact"
 		"inaccuracy" 1
 		"velocity" 20
@@ -34,7 +34,7 @@ outfit "Igarsot Turret"
 	weapon
 		sprite "projectile/igarsot beam"
 			"frame rate" 1
-		sound "plasma"
+		sound "energy1"
 		"hit effect" "particle impact"
 		"hardpoint sprite" "hardpoint/igarsot turret"
 		"hardpoint offset" 15.
@@ -154,16 +154,17 @@ outfit "Ignaggen Anti-Missile Turret"
 	description "
 
 
-outfit "Chamber Capacitor"
+outfit "Gatourot Capacitor"
 	category "Power"
 	cost 18000
 	thumbnail "outfit/tiny battery"
 	"mass" 4
 	"outfit space" -4
 	"energy capacity" 750
-	description "
+	"heat generation" 12
+	description "An ultra compact capacitor with downside of generating some amount of heat."
 	
-outfit "Lava Cell"
+outfit "Vultador Cell" #Lava
 	category "Power"
 	cost 43000
 	thumbnail "outfit/tiny fuel cell"
@@ -172,29 +173,31 @@ outfit "Lava Cell"
 	"energy generation" 4.2
 	"heat generation" 8
 	"energy capacity" 1000
-	description "
+	description "A compact package of capacitor and generator."
 	
-outfit "Lava Reactor"
+outfit "Vurlugigr Reactor" #Lava
 	category "Power"
 	cost 2200000
 	thumbnail "outfit/plasma core"
 	"mass" 30
 	"outfit space" -30
-	"energy generation" 13
+	"energy generation" 6.8
 	"heat generation" 36
-	"energy capacity" 5000
-	description "
+	"cooling inefficiency" 1
+	#"energy capacity" 5000
+	description "These are very powerful reactor for the size but also the hottest running, it is also very difficult to route cooling system around these reactors making it bad idea to stack to many of them."
 	
-outfit "Magma Reactor"
+outfit "Orvuilugr Reactor" #Magma
 	category "Power"
 	cost 3100000
 	thumbnail "outfit/double plasma core"
-	"mass" 60
-	"outfit space" -60
-	"energy generation" 21.4
-	"heat generation" 59
-	"energy capacity" 8000
-	description "
+	"mass" 63
+	"outfit space" -63
+	"energy generation" 17.6
+	"heat generation" 56
+	"cooling inefficiency" 1
+	#"energy capacity" 8000
+	description "A bigger and slightly more heat efficient version of Vurlugigr Reactor.
 	
 outfit "Ignaggen Cooling System"
 	category "Systems"
@@ -205,7 +208,7 @@ outfit "Ignaggen Cooling System"
 	"cooling" 50
 	"active cooling" 50
 	"cooling energy" 3
-	description "Ignaggen Cooling Systems are far more powerful than anyone of the same tiers, because they need it to cool off the heat not only from the ship's systems but also heat generated from their body too."
+	description "These cooling systems where developed to control the heat of Ignaggen hot-running components."
 	
 outfit "Genos Shield Generator"
 	category "Systems"
