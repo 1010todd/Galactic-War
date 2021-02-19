@@ -112,7 +112,7 @@ government "Wallagi"
 		"Qanse" -.1
 		"Aumar" 1
 		
-government "Dels"
+government "Dels" #Merchant
 	swizzle 0
 	color .089 .8 .245
 	"player reputation" 1
@@ -121,6 +121,37 @@ government "Dels"
 		"Ultaka" -1
 		"Revos" -.1
 		"Dels (Pirate)" -.1
+		
+government "Dels Dardornai" #Government 2 fullname: Dardornai Kar Meda
+	swizzle 0
+	color .089 .8 .245
+	"player reputation" 0
+	"attitude toward"
+		#"Wallagi" 1
+		#"Ultaka" -1
+		#"Revos" -.1
+		"Dels Ufulre" -.1
+		"Dels" .1
+		
+government "Dels Kaote" #Government 1 fullname: Prada Kaote
+	swizzle 0
+	color .089 .8 .245
+	"player reputation" 1
+	"attitude toward"
+		#"Wallagi" 1
+		#"Ultaka" -1
+		#"Revos" -.1
+		"Dels Ufulre" -.1
+		"Dels" .1
+		
+government "Dels Ufulre" #Seperatist fullname: Ufulre Qer
+	swizzle 1
+	color .343 .89 .25
+	"player reputation" -10
+	"attitude toward"
+		"Dels Dardornai" -.1
+		"Dels Kaote" -.1
+		"Dels" .1
 		
 government "Dels (Pirate)"
 	swizzle 1
