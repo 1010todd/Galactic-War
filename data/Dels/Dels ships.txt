@@ -100,24 +100,24 @@ ship "Desen"
 		under
 	explode "tiny explosion" 10
 	explode "small explosion" 5
-	description "A small freighter used by Dels."
+	description "A direct descent to Irbor Sefora shipyard's older frighter than were used since the early days of Dels interstellar exploration using the design of detachable rounded cargo pods on the side allowing transportation of cargo over short distance without lifting vehicle which most early spaceport lacks. This design became less important in modern days where most spaceports were well equipped resulting in decreased popularity of the ship among the more experienced captains."
 	
 ship "Donson"
 	sprite "ship/dels donson"
 	thumbnail "thumbnail/dels donson thumb"
 	attributes
 		category "Light Freighter"
-		"cost" 430000
-		"shields" 950
-		"hull" 650
+		"cost" 250000
+		"shields" 850
+		"hull" 610
 		"required crew" 2
-		"bunks" 6
-		"mass" 100
-		"drag" 1.7
+		"bunks" 4
+		"mass" 80
+		"drag" 1.5
 		"heat dissipation" .8
-		"fuel capacity" 400
-		"cargo space" 80
-		"outfit space" 230
+		"fuel capacity" 300
+		"cargo space" 50
+		"outfit space" 190
 		"weapon capacity" 35
 		"engine capacity" 60
 		weapon
@@ -147,7 +147,7 @@ ship "Donson"
 		under
 	explode "tiny explosion" 10
 	explode "small explosion" 5
-	description "Small and the most common freighter used by Dels with a decent cargo capacity and defense."
+	description "These are more recent freighter built by Puda Der shipyard. It challanged Irbor Sefora older Desen with greater manuverbility at the cost of cargo space."
 	
 ship "Manoon"
 	sprite "ship/dels manoon"
@@ -156,14 +156,14 @@ ship "Manoon"
 		category "Light Freighter"
 		"cost" 430000
 		"shields" 1100
-		"hull" 800
-		"required crew" 2
-		"bunks" 8
+		"hull" 860
+		"required crew" 3
+		"bunks" 6
 		"mass" 320
 		"drag" 3
-		"heat dissipation" .7
-		"fuel capacity" 400
-		"cargo space" 240
+		"heat dissipation" .75
+		"fuel capacity" 600
+		"cargo space" 120
 		"outfit space" 230
 		"weapon capacity" 67
 		"engine capacity" 60
@@ -196,7 +196,7 @@ ship "Manoon"
 		under
 	explode "tiny explosion" 20
 	explode "small explosion" 12
-	description "
+	description "Irbor Sefora's Manoon was released shortly after the Desen as long ranged alternative to promote longer trade routes and allows systems further away to develop faster."
 	
 
 #=================HEAVY FREIGHTER
@@ -213,8 +213,8 @@ ship "Eudaion"
 		"mass" 600
 		"drag" 1.7
 		"heat dissipation" .7
-		"fuel capacity" 400
-		"cargo space" 120
+		"fuel capacity" 600
+		"cargo space" 240
 		"outfit space" 230
 		"weapon capacity" 90
 		"engine capacity" 60
@@ -231,7 +231,7 @@ ship "Eudaion"
 		
 		"C20 Fuel Cell"
 		"K0108 Battery Pack"
-		"SR20 Shield Generator"
+		"SR30 Shield Generator"
 		
 		"Hao Ion Engines"
 		"Hyperdrive"
@@ -290,6 +290,8 @@ ship "Desin"
 			"hull damage" 80
 			"hit force" 240
 	outfits
+		"Skue-6 Blaster" 4
+	
 		"C20 Fuel Cell"
 		"K0218 Battery Pack"
 		"SR10 Shield Generator"
@@ -297,7 +299,7 @@ ship "Desin"
 		"Fekorna Thruster"
 		"Fekorna Steering"
 		"Type-F Hyperdrive"
-		"Skue-6 Blaster" 4
+		
 		
 	gun -2.5 -36.5
 	gun 2.5 -36.5
@@ -494,7 +496,7 @@ ship "Secsen"
 		under
 	explode "tiny explosion" 20
 	explode "small explosion" 16
-	description "One of the most common patrol ship used by the Pra Nudelgasec(Dels space navy)"
+	description ""
 	
 ship "Senro"
 	sprite "ship/dels senro"
@@ -528,7 +530,7 @@ ship "Senro"
 		"C30 Fuel Cell"
 		"K0538 Battery Pack"
 		"Liquid Nitrogen Cooler"
-		"Chaser Afterburner"
+		
 		"Kuar Ion Engines"
 		Hyperdrive
 
@@ -548,7 +550,7 @@ ship "Senro"
 	explode "big explosion" 16
 	explode "tiny explosion" 28
 	explode "small explosion" 40
-	description "A light warship maily used by Pra Nudelgasec(Dels space navy)"
+	description ""
 	
 ship "Deeris"
 	sprite "ship/dels deeris"
@@ -604,7 +606,7 @@ ship "Deeris"
 		under
 	explode "tiny explosion" 10
 	explode "small explosion" 5
-	description "Fastest Dels light warship designed mainly to deal with the invader with speed and firepower but still too few of these warships are built for them to be effective aginst the Ultaka."
+	description "."
 #=================MEDIUM WARSHIP
 
 #=================HEAVY WARSHIP
@@ -617,8 +619,8 @@ ship "Darca"
 	attributes
 		category "Heavy Warship"
 		"cost" 9000000
-		"hull" 6500
 		"shields" 8500
+		"hull" 6500
 		"mass" 550
 		"required crew" 20
 		"bunks" 60
@@ -727,16 +729,16 @@ ship "Decso"
 		"cost" 10800000
 		"shields" 10800
 		"hull" 5600
-		"required crew" 25
-		"bunks" 65
+		"required crew" 60
+		"bunks" 120
 		"mass" 590
-		"drag" 8
+		"drag" 12
 		"heat dissipation" .6
 		"fuel capacity" 600
 		"cargo space" 110
 		"outfit space" 860
 		"weapon capacity" 560
-		"engine capacity" 200
+		"engine capacity" 150
 		weapon
 			"blast radius" 160
 			"shield damage" 1600
@@ -779,7 +781,7 @@ ship "Decso"
 	explode "small explosion" 36
 	explode "medium explosion" 24
 	explode "big explosion" 20
-	description "One of the very last Dels heavy warship design that was still in service mainly to deal with pirates or sometimes provoiding firepower while other smaller faster ships keep the enemy busy."
+	description "Built by Puda Der shipyard for Kaote and Dardornai Navy as response to raising threat from the newly formed Ufulre after contact with Ignaggen. It was said the real reason is to provide Kaote and Dardornai anti-capital capability incase of Ignaggen hostility."
 	
 ship "Dacar"
 	sprite "ship/dels dacar"
@@ -844,7 +846,7 @@ ship "Dacar"
 	explode "medium explosion" 50
 	explode "big explosion" 40
 	explode "huge explosion" 10
-	description ""
+	description "One of the few Irbor Sefora's warship design. While lacking of the distinct cargo pods found in freighters of the same shipyard, Dacar is intended to be used as armed freighter capable of defending it self in an event of an attack."
 #=================FIGHTER/DRONE
 ship "Dee"
 	sprite "ship/dels dea"
