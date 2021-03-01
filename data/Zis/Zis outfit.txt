@@ -389,32 +389,64 @@ outfit "Felran Turret"
 	description "Originally planned to be made as guidance laser for other weapons but it happens to be able to cut spaceship armors if given enought time."
 	description "This weapon will completely ignore shield and damage the armor directly."
 	
-outfit "Zis Kuzxen Beam"
+outfit "Zis Dragon's Breath" #Thanks Arkhne for the name idea.
 	category "Secondary Weapons"
 	cost 800000000
 	thumbnail "outfit/energy tracer"
-	"mass" 200
-	"outfit space" -200
-	"weapon capacity" -200
-	"gun ports" -1
-	"unremovable" 1
-	"uninstallable" -1
+	"mass" 250
+	"outfit space" -250
+	"weapon capacity" -250
+	"gun ports" -5
+	"spinal mount" -1
 	weapon
-		sprite "projectile/kuzxen"
-		sound "kuzxen"
+		#sprite "projectile/kuzxen"
+		sound "laser6"
 		icon "icon/kuzxen"
-		"inaccuracy" 1
-		"velocity" 45
-		"lifetime" 60
+		"fire effect" "zdragons breath fire"		
+		"hit effect" "zdragons breath hit" 3
+		"live effect" "zdragons breath live" 23
+		"inaccuracy" .5
+		"velocity" 12
+		"lifetime" 42
 		"reload" 1
 		"firing energy" 620
 		"firing heat" 550
 		"firing fuel" .1
 		"shield damage" 500
 		"hull damage" 500
+		"acceleration" 2.5
 		"piercing" .7
 		"phasing"
 	description "Watch your energy bar carfully when using!"
+	
+effect "zdragons breath fire"
+	sprite "effect/kuzxen fire"
+		"frame rate" 12
+	"lifetime" 5
+	"random angle" 360
+	"velocity scale" .1
+	
+effect "zdragons breath live"
+	sprite "effect/kuzxen live"
+		"frame rate" 12
+		"random start frame"
+	"lifetime" 12
+	"random lifetime" 10
+	"random velocity" 10
+	"velocity scale" .1
+	
+	
+effect "zdragons breath hit"
+	sprite "effect/kuzxen hit"
+		"frame rate" 12
+		"random start frame"
+	"lifetime" 2 #5
+	"random lifetime" 6
+	"random velocity" 25
+	"random angle" 30
+	"velocity scale" 1
+	"drag" .1
+	sound "kuzxenhit"
 	
 outfit "Vozka Cannon Turret"
 	category "Turrets"
@@ -646,7 +678,7 @@ outfit "Tizon Turret"
 		sprite "projectile/kproton"
 		sound "zaikor"
 		"hardpoint sprite" "hardpoint/tizon turret"
-		"hardpoint offset" 15.
+		"hardpoint offset" 35.
 		"turret turn" 5
 		"hit effect" "beam laser impact" 3
 		"fire effect" "beam laser impact" 3
@@ -885,6 +917,8 @@ outfit "Rozzen Vertical Launching System"
 		"velocity" 0
 		"lifetime" 20
 		"reload" 100
+		"burst reload" 14
+		"burst count" 20
 		"firing energy" 5
 		"firing heat" 18
 		"shield damage" 2000
@@ -1264,7 +1298,7 @@ outfit "ZIS Anti-Missile System"
 		"fire effect" "masai fire"
 		"anti-missile" 250
 		"turret turn" 20
-		"velocity" 300
+		"velocity" 450
 		"lifetime" 1
 		"reload" 1
 		"firing energy" 200
