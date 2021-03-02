@@ -1,22 +1,40 @@
 
 
-outfit "Wasen Shield Generator"
+outfit "Asenil Shield Generator" #Wasen
 	category "Systems"
-	cost 15000000
+	cost 5000000
 	thumbnail "outfit/wallagi sheild"
-	"mass" 10
-	"outfit space" -10
-	"shield generation" 20
-	"shield energy" 10
+	"mass" 11
+	"outfit space" -11
+	"shield generation" 2
+	"shield energy" 2
+	
+outfit "Filkei Shield Generator"
+	category "Systems"
+	cost 11000000
+	thumbnail "outfit/wallagi sheild"
+	"mass" 24
+	"outfit space" -24
+	"shield generation" 4.1
+	"shield energy" 4
+	
+outfit "Lestur Shield Generator"
+	category "Systems"
+	cost 35000000
+	thumbnail "outfit/wallagi sheild"
+	"mass" 56
+	"outfit space" -56
+	"shield generation" 8.6
+	"shield energy" 8.3
 	
 outfit "Sestar Shield Generator"
 	category "Systems"
 	cost 50000000
 	thumbnail "outfit/wallagi sheild"
-	"mass" 100
-	"outfit space" -100
-	"shield generation" 200
-	"shield energy" 100
+	"mass" 104
+	"outfit space" -104
+	"shield generation" 18.3
+	"shield energy" 17.7
 	
 outfit "Tensel Shield Generator"
 	category "Systems"
@@ -24,17 +42,17 @@ outfit "Tensel Shield Generator"
 	thumbnail "outfit/wallagi sheild"
 	"mass" 130
 	"outfit space" -130
-	"shield generation" 240
-	"shield energy" 120
+	"shield generation" 22.5
+	"shield energy" 21.9
 	
-outfit "Malgos Shield Generator"
+outfit "Yalgos Shield Generator" #Malgos
 	category "Systems"
-	cost 57000000
+	cost 64000000
 	thumbnail "outfit/wallagi sheild"
 	"mass" 220
 	"outfit space" -220
-	"shield generation" 380
-	"shield energy" 320
+	"shield generation" 41.2
+	"shield energy" 40
 	
 outfit "C10-W Hinlar Core"
 	category "Power"
@@ -42,7 +60,7 @@ outfit "C10-W Hinlar Core"
 	thumbnail "outfit/unknown"
 	mass 10
 	"outfit space" -10
-	"energy generation" 250
+	"energy generation" 25
 	
 outfit "C60-W Falmin Core"
 	category "Power"
@@ -50,7 +68,7 @@ outfit "C60-W Falmin Core"
 	thumbnail "outfit/unknown"
 	"mass" 150
 	"outfit space" -150
-	"energy generation" 4500
+	"energy generation" 450
 	
 outfit "C80-W Mallar Core"
 	category "Power"
@@ -58,7 +76,7 @@ outfit "C80-W Mallar Core"
 	thumbnail "outfit/unknown"
 	"mass" 220
 	"outfit space" -220
-	"energy generation" 4500
+	"energy generation" 512
 	
 outfit "Kal-1 Engines"
 	category "Engines"
@@ -75,7 +93,7 @@ outfit "Kal-1 Engines"
 	"turning heat" 5
 	"hyperdrive" 1
 	"jump drive" 1
-	"jump speed" 100
+	"jump speed" 1.2
 	"flare sprite" "effect/atomic flare/tiny"
 	
 outfit "Kal-4 Engines"
@@ -88,12 +106,12 @@ outfit "Kal-4 Engines"
 	"thrust" 58
 	"thrusting energy" 25
 	"thrusting heat" 25
-	"turn" 2000
+	"turn" 1300
 	"turning energy" 10
-	"turning heat" 10
+	"turning heat" 9
 	"hyperdrive" 1
 	"jump drive" 1
-	"jump speed" 100
+	"jump speed" 1.2
 	"flare sprite" "effect/atomic flare/large"
 	
 outfit "Kal-8 Engines"
@@ -106,12 +124,12 @@ outfit "Kal-8 Engines"
 	"thrust" 300
 	"thrusting energy" 45
 	"thrusting heat" 45
-	"turn" 2900
+	"turn" 2700
 	"turning energy" 20
-	"turning heat" 20
+	"turning heat" 17
 	"hyperdrive" 1
 	"jump drive" 1
-	"jump speed" 100
+	"jump speed" 1.2
 	"flare sprite" "effect/atomic flare/large"
 	
 outfit "Kal-10 Engines"
@@ -126,44 +144,23 @@ outfit "Kal-10 Engines"
 	"thrusting heat" 190
 	"turn" 3500
 	"turning energy" 90
-	"turning heat" 90
+	"turning heat" 81
 	"hyperdrive" 1
 	"jump drive" 1
-	"jump speed" 100
+	"jump speed" 1.2
 	"flare sprite" "effect/atomic flare/huge"
 	
-outfit "Wallagi heat shunt"
+outfit "Ulyukar Heat Control"
 	category "Systems"
 	cost 600000
 	thumbnail "outfit/unknown"
-	mass 10
-	"outfit space" -10
-	"cooling" 100
+	mass 15
+	"outfit space" -15
+	"cooling" 12
+	"active cooling" 42        
+    "cooling energy" 3   
 	
-outfit "E10-B Klingar"
-	category "Guns"
-	cost 6000000
-	thumbnail "outfit/electron"
-	"mass" 20
-	"outfit space" -20
-	"weapon capacity" -20
-	"gun ports" -1
-	weapon
-		sprite "projectile/electron"
-		sound "electron"
-		"hit effect" "electron impact"
-		"fire effect" "electron impact"
-		"inaccuracy" .1
-		"velocity" 450
-		"lifetime" 1
-		"reload" 1
-		"firing energy" 6.9
-		"firing heat" 2.8
-		"shield damage" 10
-		"hull damage" 10
-		"ion damage" .1
-		"hit force" 1
-	description "
+#Anti- missile
 	
 outfit "A10-M Sach Anti-missile"
 	category "Turrets"
@@ -222,6 +219,32 @@ outfit "A88-G Kemper Missile Defense"
 		"reload" 1
 		"firing energy" 12
 		"firing heat" 12
+	description "
+	
+#=======================WEapons
+	
+outfit "E10-B Klingar"
+	category "Guns"
+	cost 1500000
+	thumbnail "outfit/electron"
+	"mass" 20
+	"outfit space" -20
+	"weapon capacity" -20
+	"gun ports" -1
+	weapon
+		sprite "projectile/electron"
+		sound "electron"
+		"hit effect" "electron impact"
+		"fire effect" "electron impact"
+		"inaccuracy" .1
+		"velocity" 450
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 6.9
+		"firing heat" 2.8
+		"shield damage" 10
+		"hull damage" 10
+		"hit force" 5
 	description "
 	
 outfit "T30-E Semfal Torpedo"

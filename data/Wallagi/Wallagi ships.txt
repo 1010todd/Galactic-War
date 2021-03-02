@@ -5,13 +5,13 @@ ship "Telsarator"
 	attributes
 		category "Interceptor"
 		"cost" 84900000
-		"shields" 120000
-		"hull" 28000
+		"shields" 39000
+		"hull" 24000
 		"required crew" 1
 		"bunks" 3
 		"mass" 20
 		"drag" 1.4
-		"heat dissipation" .9
+		"heat dissipation" .8
 		"fuel capacity" 400
 		"cargo space" 7
 		"outfit space" 189
@@ -23,11 +23,11 @@ ship "Telsarator"
 			"hull damage" 1100
 			"hit force" 300
 	outfits
-		"Wasen Shield Generator"
+		"Asenil Shield Generator"
 		"C10-W Hinlar Core"
-		"Wallagi heat shunt"
+		"Ulyukar Heat Control"
 		"Kal-1 Engines"
-		"A10-M Sach Anti-missile" 2
+		"A10-M Sach Anti-missile"1
 		"E10-B Klingar" 2
 	
 	engine -9 60
@@ -45,13 +45,13 @@ ship "Dettalor"
 	attributes
 		category "Medium Warship"
 		"cost" 100000000
-		"shields" 660000
-		"hull" 153000
-		"required crew" 10
+		"shields" 180000
+		"hull" 80000
+		"required crew" 14
 		"bunks" 30
 		"mass" 400
 		"drag" 5
-		"heat dissipation" .5
+		"heat dissipation" .6
 		"fuel capacity" 500
 		"cargo space" 45
 		"outfit space" 630
@@ -63,9 +63,9 @@ ship "Dettalor"
 			"hull damage" 5000
 			"hit force" 2500
 	outfits
-		"Sestar Shield Generator"
+		"Lestur Shield Generator"
 		"C60-W Falmin Core"
-		"Wallagi heat shunt"
+		"Ulyukar Heat Control"
 		"Kal-4 Engines"
 		"A80-H Jestar Anti-missile" 2
 		"T30-E Semfal Torpedo" 2
@@ -94,7 +94,7 @@ ship "Tansa"
 	attributes
 		category "Fighter"
 		"cost" 8900000
-		"shields" 70000
+		"shields" 34000
 		"hull" 20000
 		"required crew" 1
 		"bunks" 1
@@ -113,7 +113,7 @@ ship "Tansa"
 	outfits
 		"Wasen Shield Generator"
 		"C10-W Hinlar Core"
-		"Wallagi heat shunt"
+		"Ulyukar Heat Control"
 		"Kal-1 Engines"
 		"A10-M Sach Anti-missile" 1
 		"E10-B Klingar" 2
@@ -132,7 +132,7 @@ ship "Sentasor"
 	attributes
 		category "Heavy Warship"
 		"cost" 270000000
-		"shields" 780000
+		"shields" 380000
 		"hull" 236000
 		"required crew" 40
 		"bunks" 320
@@ -152,7 +152,7 @@ ship "Sentasor"
 	outfits
 		"Tensel Shield Generator"
 		"C60-W Falmin Core"
-		"Wallagi heat shunt"
+		"Ulyukar Heat Control"
 		"Kal-10 Engines"
 		"A80-H Jestar Anti-missile" 6
 		"T30-E Semfal Torpedo" 5
