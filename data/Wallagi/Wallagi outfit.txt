@@ -6,8 +6,8 @@ outfit "Asenil Shield Generator" #Wasen
 	thumbnail "outfit/wallagi sheild"
 	"mass" 11
 	"outfit space" -11
-	"shield generation" 2
-	"shield energy" 2
+	"shield generation" 1
+	"shield energy" 1
 	
 outfit "Filkei Shield Generator"
 	category "Systems"
@@ -15,8 +15,8 @@ outfit "Filkei Shield Generator"
 	thumbnail "outfit/wallagi sheild"
 	"mass" 24
 	"outfit space" -24
-	"shield generation" 4.1
-	"shield energy" 4
+	"shield generation" 2.1
+	"shield energy" 2
 	
 outfit "Lestur Shield Generator"
 	category "Systems"
@@ -24,8 +24,8 @@ outfit "Lestur Shield Generator"
 	thumbnail "outfit/wallagi sheild"
 	"mass" 56
 	"outfit space" -56
-	"shield generation" 8.6
-	"shield energy" 8.3
+	"shield generation" 4.6
+	"shield energy" 4.3
 	
 outfit "Sestar Shield Generator"
 	category "Systems"
@@ -33,8 +33,8 @@ outfit "Sestar Shield Generator"
 	thumbnail "outfit/wallagi sheild"
 	"mass" 104
 	"outfit space" -104
-	"shield generation" 18.3
-	"shield energy" 17.7
+	"shield generation" 6.3
+	"shield energy" 5.7
 	
 outfit "Tensel Shield Generator"
 	category "Systems"
@@ -42,8 +42,8 @@ outfit "Tensel Shield Generator"
 	thumbnail "outfit/wallagi sheild"
 	"mass" 130
 	"outfit space" -130
-	"shield generation" 22.5
-	"shield energy" 21.9
+	"shield generation" 11.5
+	"shield energy" 10.4
 	
 outfit "Yalgos Shield Generator" #Malgos
 	category "Systems"
@@ -51,8 +51,8 @@ outfit "Yalgos Shield Generator" #Malgos
 	thumbnail "outfit/wallagi sheild"
 	"mass" 220
 	"outfit space" -220
-	"shield generation" 41.2
-	"shield energy" 40
+	"shield generation" 21.2
+	"shield energy" 20
 	
 outfit "C10-W Hinlar Core"
 	category "Power"
@@ -162,13 +162,33 @@ outfit "Ulyukar Heat Control"
 	
 #Anti- missile
 	
-outfit "A10-M Sach Anti-missile"
+outfit "Cilhr Anti-missile" #sach
 	category "Turrets"
 	cost 800000
 	thumbnail "outfit/heavy anti-missile"
-	"mass" 5
-	"outfit space" -5
-	"weapon capacity" -5
+	"mass" 12
+	"outfit space" -12
+	"weapon capacity" -12
+	"turret mounts" -1
+	weapon
+		"fire effect" "particle impact"
+		sound "explosion tiny"
+		"anti-missile" 6
+		"turret turn" 14
+		"velocity" 200
+		"lifetime" 1
+		"reload" 5
+		"firing energy" 1
+		"firing heat" 1
+	description "
+	
+outfit "Eilgur Anti-missile" 
+	category "Turrets"
+	cost 800000
+	thumbnail "outfit/heavy anti-missile"
+	"mass" 21
+	"outfit space" -21
+	"weapon capacity" -21
 	"turret mounts" -1
 	weapon
 		"fire effect" "particle impact"
@@ -182,7 +202,7 @@ outfit "A10-M Sach Anti-missile"
 		"firing heat" 1
 	description "
 	
-outfit "A80-H Jestar Anti-missile"
+outfit "Jestar Anti-missile"
 	category "Turrets"
 	cost 1200000
 	thumbnail "outfit/heavy anti-missile"
@@ -202,7 +222,7 @@ outfit "A80-H Jestar Anti-missile"
 		"firing heat" 8
 	description "
 	
-outfit "A88-G Kemper Missile Defense"
+outfit "Kemper Missile Defense"
 	category "Turrets"
 	cost 5000000
 	thumbnail "outfit/kmd"
