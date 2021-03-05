@@ -58,7 +58,7 @@ outfit "C10-W Hinlar Core"
 	category "Power"
 	cost 100000
 	thumbnail "outfit/unknown"
-	mass 10
+	mass 9
 	"outfit space" -10
 	"energy generation" .6
 	"heat generation" .3
@@ -68,8 +68,18 @@ outfit "C60-W Falmin Core"
 	category "Power"
 	cost 1000000
 	thumbnail "outfit/unknown"
-	"mass" 150
-	"outfit space" -150
+	"mass" 72
+	"outfit space" -76
+	"energy generation" 45
+	"heat generation" 12
+	"energy capacity" 15000
+	
+outfit "C60-W Falmin Core"
+	category "Power"
+	cost 1000000
+	thumbnail "outfit/unknown"
+	"mass" 146
+	"outfit space" -152
 	"energy generation" 45
 	"heat generation" 12
 	"energy capacity" 15000
@@ -78,8 +88,8 @@ outfit "C80-W Mallar Core"
 	category "Power"
 	cost 1000000
 	thumbnail "outfit/unknown"
-	"mass" 220
-	"outfit space" -220
+	"mass" 202
+	"outfit space" -223
 	"energy generation" 51
 	"heat generation" 14
 	"energy capacity" 22000
