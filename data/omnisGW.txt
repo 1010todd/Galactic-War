@@ -1,0 +1,3096 @@
+
+system Aumar
+	pos 107.311 -9930.28
+	government cheat
+	habitable 320
+	belt 1387
+	link Dels
+	link Erader
+	link "Galactic War"
+	object "Aumar Plugins"
+		sprite sprite/station8
+		distance 444
+		offset 90
+	object "Aumar Default"
+		sprite sprite/station8
+		distance 444
+		offset 270
+	object "Aumar"
+		sprite planet/ringworld
+		distance 812
+	object "Aumar"
+		sprite planet/ringworld
+		distance 812
+		offset 20
+	object "Aumar"
+		sprite planet/ringworld
+		distance 812
+		offset 40
+	object "Aumar"
+		sprite planet/ringworld
+		distance 812
+		offset 60
+	object "Aumar"
+		sprite planet/ringworld
+		distance 812
+		offset 80
+	object "Aumar"
+		sprite planet/ringworld
+		distance 812
+		offset 100
+	object "Aumar"
+		sprite planet/ringworld
+		distance 812
+		offset 120
+	object "Aumar"
+		sprite planet/ringworld
+		distance 812
+		offset 140
+	object "Aumar"
+		sprite planet/ringworld
+		distance 812
+		offset 160
+	object "Aumar"
+		sprite planet/ringworld
+		distance 812
+		offset 180
+	object "Aumar"
+		sprite planet/ringworld
+		distance 812
+		offset 200
+	object "Aumar"
+		sprite planet/ringworld
+		distance 812
+		offset 220
+	object "Aumar"
+		sprite planet/ringworld
+		distance 812
+		offset 240
+	object "Aumar"
+		sprite planet/ringworld
+		distance 812
+		offset 260
+	object "Aumar"
+		sprite planet/ringworld
+		distance 812
+		offset 280
+	object "Aumar"
+		sprite planet/ringworld
+		distance 812
+		offset 300
+	object "Aumar"
+		sprite planet/ringworld
+		distance 812
+		offset 320
+	object "Aumar"
+		sprite planet/ringworld
+		distance 812
+		offset 340
+	object
+		sprite sprite/category_transport
+		distance 1200
+	object
+		sprite sprite/category_light_freighter
+		distance 1200
+		offset 40
+	object
+		sprite sprite/category_heavy_freighter
+		distance 1200
+		offset 80
+	object
+		sprite sprite/category_interceptor
+		distance 1200
+		offset 120
+	object
+		sprite sprite/category_light_warship
+		distance 1200
+		offset 160
+	object
+		sprite sprite/category_medium_warship
+		distance 1200
+		offset 200
+	object
+		sprite sprite/category_heavy_warship
+		distance 1200
+		offset 240
+	object
+		sprite sprite/category_fighter
+		distance 1200
+		offset 280
+	object
+		sprite sprite/category_drone
+		distance 1200
+		offset 320
+	object "Aumar"
+		sprite "ship/ermeirae"
+		distance 1450
+		offset 40
+	object "Aumar"
+		sprite "ship/ermhindersan"
+		distance 1500
+		offset 40
+	object "Aumar"
+		sprite "ship/ermernar"
+		distance 1450
+		offset 160
+	object "Aumar"
+		sprite "ship/ermhordanler"
+		distance 1450
+		offset 160
+	object "Aumar"
+		sprite "ship/ermroekler"
+		distance 1500
+		offset 240
+
+system Dels
+	pos 135.311 -9884.28
+	government cheat
+	habitable 1715
+	belt 1734
+	link Aumar
+	link Erader
+	link "Galactic War"
+	link Geeva
+	link Ignaggen
+	link Kumakk
+	link Qoro
+	object "Dels Plugins"
+		sprite sprite/station8
+		distance 444
+		offset 90
+	object "Dels Default"
+		sprite sprite/station8
+		distance 444
+		offset 270
+	object "Dels"
+		sprite planet/ringworld
+		distance 812
+	object "Dels"
+		sprite planet/ringworld
+		distance 812
+		offset 20
+	object "Dels"
+		sprite planet/ringworld
+		distance 812
+		offset 40
+	object "Dels"
+		sprite planet/ringworld
+		distance 812
+		offset 60
+	object "Dels"
+		sprite planet/ringworld
+		distance 812
+		offset 80
+	object "Dels"
+		sprite planet/ringworld
+		distance 812
+		offset 100
+	object "Dels"
+		sprite planet/ringworld
+		distance 812
+		offset 120
+	object "Dels"
+		sprite planet/ringworld
+		distance 812
+		offset 140
+	object "Dels"
+		sprite planet/ringworld
+		distance 812
+		offset 160
+	object "Dels"
+		sprite planet/ringworld
+		distance 812
+		offset 180
+	object "Dels"
+		sprite planet/ringworld
+		distance 812
+		offset 200
+	object "Dels"
+		sprite planet/ringworld
+		distance 812
+		offset 220
+	object "Dels"
+		sprite planet/ringworld
+		distance 812
+		offset 240
+	object "Dels"
+		sprite planet/ringworld
+		distance 812
+		offset 260
+	object "Dels"
+		sprite planet/ringworld
+		distance 812
+		offset 280
+	object "Dels"
+		sprite planet/ringworld
+		distance 812
+		offset 300
+	object "Dels"
+		sprite planet/ringworld
+		distance 812
+		offset 320
+	object "Dels"
+		sprite planet/ringworld
+		distance 812
+		offset 340
+	object
+		sprite sprite/category_transport
+		distance 1200
+	object
+		sprite sprite/category_light_freighter
+		distance 1200
+		offset 40
+	object
+		sprite sprite/category_heavy_freighter
+		distance 1200
+		offset 80
+	object
+		sprite sprite/category_interceptor
+		distance 1200
+		offset 120
+	object
+		sprite sprite/category_light_warship
+		distance 1200
+		offset 160
+	object
+		sprite sprite/category_medium_warship
+		distance 1200
+		offset 200
+	object
+		sprite sprite/category_heavy_warship
+		distance 1200
+		offset 240
+	object
+		sprite sprite/category_fighter
+		distance 1200
+		offset 280
+	object
+		sprite sprite/category_drone
+		distance 1200
+		offset 320
+	object "Dels"
+		sprite "ship/ermeirae"
+		distance 1450
+		offset 40
+	object "Dels"
+		sprite "ship/ermhindersan"
+		distance 1500
+		offset 40
+	object "Dels"
+		sprite "ship/ermernar"
+		distance 1450
+		offset 160
+	object "Dels"
+		sprite "ship/ermhordanler"
+		distance 1450
+		offset 160
+	object "Dels"
+		sprite "ship/ermroekler"
+		distance 1500
+		offset 240
+
+system Donko
+	pos 250.311 -9824.28
+	government cheat
+	habitable 659.2
+	belt 1910
+	link Isgeda
+	link Qoro
+	link Ultaka
+	link Uoorn
+	link Wallagi
+	link Zis
+	object "Donko Plugins"
+		sprite sprite/station8
+		distance 444
+		offset 90
+	object "Donko Default"
+		sprite sprite/station8
+		distance 444
+		offset 270
+	object "Donko"
+		sprite planet/ringworld
+		distance 812
+	object "Donko"
+		sprite planet/ringworld
+		distance 812
+		offset 20
+	object "Donko"
+		sprite planet/ringworld
+		distance 812
+		offset 40
+	object "Donko"
+		sprite planet/ringworld
+		distance 812
+		offset 60
+	object "Donko"
+		sprite planet/ringworld
+		distance 812
+		offset 80
+	object "Donko"
+		sprite planet/ringworld
+		distance 812
+		offset 100
+	object "Donko"
+		sprite planet/ringworld
+		distance 812
+		offset 120
+	object "Donko"
+		sprite planet/ringworld
+		distance 812
+		offset 140
+	object "Donko"
+		sprite planet/ringworld
+		distance 812
+		offset 160
+	object "Donko"
+		sprite planet/ringworld
+		distance 812
+		offset 180
+	object "Donko"
+		sprite planet/ringworld
+		distance 812
+		offset 200
+	object "Donko"
+		sprite planet/ringworld
+		distance 812
+		offset 220
+	object "Donko"
+		sprite planet/ringworld
+		distance 812
+		offset 240
+	object "Donko"
+		sprite planet/ringworld
+		distance 812
+		offset 260
+	object "Donko"
+		sprite planet/ringworld
+		distance 812
+		offset 280
+	object "Donko"
+		sprite planet/ringworld
+		distance 812
+		offset 300
+	object "Donko"
+		sprite planet/ringworld
+		distance 812
+		offset 320
+	object "Donko"
+		sprite planet/ringworld
+		distance 812
+		offset 340
+	object
+		sprite sprite/category_transport
+		distance 1200
+	object
+		sprite sprite/category_light_freighter
+		distance 1200
+		offset 40
+	object
+		sprite sprite/category_heavy_freighter
+		distance 1200
+		offset 80
+	object
+		sprite sprite/category_interceptor
+		distance 1200
+		offset 120
+	object
+		sprite sprite/category_light_warship
+		distance 1200
+		offset 160
+	object
+		sprite sprite/category_medium_warship
+		distance 1200
+		offset 200
+	object
+		sprite sprite/category_heavy_warship
+		distance 1200
+		offset 240
+	object
+		sprite sprite/category_fighter
+		distance 1200
+		offset 280
+	object
+		sprite sprite/category_drone
+		distance 1200
+		offset 320
+	object "Donko"
+		sprite "ship/ermeirae"
+		distance 1450
+		offset 40
+	object "Donko"
+		sprite "ship/ermhindersan"
+		distance 1500
+		offset 40
+	object "Donko"
+		sprite "ship/ermernar"
+		distance 1450
+		offset 160
+	object "Donko"
+		sprite "ship/ermhordanler"
+		distance 1450
+		offset 160
+	object "Donko"
+		sprite "ship/ermroekler"
+		distance 1500
+		offset 240
+
+system Erader
+	pos 164.311 -9936.28
+	government cheat
+	habitable 486.68
+	belt 1705
+	link Aumar
+	link Dels
+	link "Galactic War"
+	link Kroom
+	link Kumakk
+	asteroids "large metal" 1 6.804
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object "Erader Plugins"
+		sprite sprite/station8
+		distance 444
+		offset 90
+	object "Erader Default"
+		sprite sprite/station8
+		distance 444
+		offset 270
+	object "Erader"
+		sprite planet/ringworld
+		distance 812
+	object "Erader"
+		sprite planet/ringworld
+		distance 812
+		offset 20
+	object "Erader"
+		sprite planet/ringworld
+		distance 812
+		offset 40
+	object "Erader"
+		sprite planet/ringworld
+		distance 812
+		offset 60
+	object "Erader"
+		sprite planet/ringworld
+		distance 812
+		offset 80
+	object "Erader"
+		sprite planet/ringworld
+		distance 812
+		offset 100
+	object "Erader"
+		sprite planet/ringworld
+		distance 812
+		offset 120
+	object "Erader"
+		sprite planet/ringworld
+		distance 812
+		offset 140
+	object "Erader"
+		sprite planet/ringworld
+		distance 812
+		offset 160
+	object "Erader"
+		sprite planet/ringworld
+		distance 812
+		offset 180
+	object "Erader"
+		sprite planet/ringworld
+		distance 812
+		offset 200
+	object "Erader"
+		sprite planet/ringworld
+		distance 812
+		offset 220
+	object "Erader"
+		sprite planet/ringworld
+		distance 812
+		offset 240
+	object "Erader"
+		sprite planet/ringworld
+		distance 812
+		offset 260
+	object "Erader"
+		sprite planet/ringworld
+		distance 812
+		offset 280
+	object "Erader"
+		sprite planet/ringworld
+		distance 812
+		offset 300
+	object "Erader"
+		sprite planet/ringworld
+		distance 812
+		offset 320
+	object "Erader"
+		sprite planet/ringworld
+		distance 812
+		offset 340
+	object
+		sprite sprite/category_transport
+		distance 1200
+	object
+		sprite sprite/category_light_freighter
+		distance 1200
+		offset 40
+	object
+		sprite sprite/category_heavy_freighter
+		distance 1200
+		offset 80
+	object
+		sprite sprite/category_interceptor
+		distance 1200
+		offset 120
+	object
+		sprite sprite/category_light_warship
+		distance 1200
+		offset 160
+	object
+		sprite sprite/category_medium_warship
+		distance 1200
+		offset 200
+	object
+		sprite sprite/category_heavy_warship
+		distance 1200
+		offset 240
+	object
+		sprite sprite/category_fighter
+		distance 1200
+		offset 280
+	object
+		sprite sprite/category_drone
+		distance 1200
+		offset 320
+	object "Erader"
+		sprite "ship/ermeirae"
+		distance 1450
+		offset 40
+	object "Erader"
+		sprite "ship/ermhindersan"
+		distance 1500
+		offset 40
+	object "Erader"
+		sprite "ship/ermernar"
+		distance 1450
+		offset 160
+	object "Erader"
+		sprite "ship/ermhordanler"
+		distance 1450
+		offset 160
+	object "Erader"
+		sprite "ship/ermroekler"
+		distance 1500
+		offset 240
+
+system Erm
+	pos 111.311 -9736.28
+	government cheat
+	habitable 233.28
+	belt 1659
+	link Geeva
+	link Xessian
+	object "Erm Plugins"
+		sprite sprite/station8
+		distance 444
+		offset 90
+	object "Erm Default"
+		sprite sprite/station8
+		distance 444
+		offset 270
+	object "Erm"
+		sprite planet/ringworld
+		distance 812
+	object "Erm"
+		sprite planet/ringworld
+		distance 812
+		offset 20
+	object "Erm"
+		sprite planet/ringworld
+		distance 812
+		offset 40
+	object "Erm"
+		sprite planet/ringworld
+		distance 812
+		offset 60
+	object "Erm"
+		sprite planet/ringworld
+		distance 812
+		offset 80
+	object "Erm"
+		sprite planet/ringworld
+		distance 812
+		offset 100
+	object "Erm"
+		sprite planet/ringworld
+		distance 812
+		offset 120
+	object "Erm"
+		sprite planet/ringworld
+		distance 812
+		offset 140
+	object "Erm"
+		sprite planet/ringworld
+		distance 812
+		offset 160
+	object "Erm"
+		sprite planet/ringworld
+		distance 812
+		offset 180
+	object "Erm"
+		sprite planet/ringworld
+		distance 812
+		offset 200
+	object "Erm"
+		sprite planet/ringworld
+		distance 812
+		offset 220
+	object "Erm"
+		sprite planet/ringworld
+		distance 812
+		offset 240
+	object "Erm"
+		sprite planet/ringworld
+		distance 812
+		offset 260
+	object "Erm"
+		sprite planet/ringworld
+		distance 812
+		offset 280
+	object "Erm"
+		sprite planet/ringworld
+		distance 812
+		offset 300
+	object "Erm"
+		sprite planet/ringworld
+		distance 812
+		offset 320
+	object "Erm"
+		sprite planet/ringworld
+		distance 812
+		offset 340
+	object
+		sprite sprite/category_transport
+		distance 1200
+	object
+		sprite sprite/category_light_freighter
+		distance 1200
+		offset 40
+	object
+		sprite sprite/category_heavy_freighter
+		distance 1200
+		offset 80
+	object
+		sprite sprite/category_interceptor
+		distance 1200
+		offset 120
+	object
+		sprite sprite/category_light_warship
+		distance 1200
+		offset 160
+	object
+		sprite sprite/category_medium_warship
+		distance 1200
+		offset 200
+	object
+		sprite sprite/category_heavy_warship
+		distance 1200
+		offset 240
+	object
+		sprite sprite/category_fighter
+		distance 1200
+		offset 280
+	object
+		sprite sprite/category_drone
+		distance 1200
+		offset 320
+	object "Erm Eirae"
+		sprite "ship/erm eirae"
+		distance 1450
+		offset 40
+	object "Erm Hindersan"
+		sprite "ship/erm hindersan"
+		distance 1500
+		offset 40
+	object "Erm Ernar"
+		sprite "ship/erm ernar"
+		distance 1450
+		offset 160
+	object "Erm Hordanler"
+		sprite "ship/erm hordanler"
+		distance 1450
+		offset 160
+	object "Erm Roekler"
+		sprite "ship/erm roekler"
+		distance 1500
+		offset 240
+
+system "Galactic War"
+	pos 61.8109 -9955.78
+	government cheat
+	habitable 1566.68
+	belt 1600
+	link Aumar
+	link Dels
+	link Erader
+	link Ignaggen
+	link Kroom
+	link Omnis
+	link Zorcn
+	object "GW Plugins"
+		sprite sprite/station8
+		distance 444
+		offset 90
+	object "GW Default"
+		sprite sprite/station8
+		distance 444
+		offset 270
+	object "Galactic War"
+		sprite planet/ringworld
+		distance 812
+	object "Galactic War"
+		sprite planet/ringworld
+		distance 812
+		offset 20
+	object "Galactic War"
+		sprite planet/ringworld
+		distance 812
+		offset 40
+	object "Galactic War"
+		sprite planet/ringworld
+		distance 812
+		offset 60
+	object "Galactic War"
+		sprite planet/ringworld
+		distance 812
+		offset 80
+	object "Galactic War"
+		sprite planet/ringworld
+		distance 812
+		offset 100
+	object "Galactic War"
+		sprite planet/ringworld
+		distance 812
+		offset 120
+	object "Galactic War"
+		sprite planet/ringworld
+		distance 812
+		offset 140
+	object "Galactic War"
+		sprite planet/ringworld
+		distance 812
+		offset 160
+	object "Galactic War"
+		sprite planet/ringworld
+		distance 812
+		offset 180
+	object "Galactic War"
+		sprite planet/ringworld
+		distance 812
+		offset 200
+	object "Galactic War"
+		sprite planet/ringworld
+		distance 812
+		offset 220
+	object "Galactic War"
+		sprite planet/ringworld
+		distance 812
+		offset 240
+	object "Galactic War"
+		sprite planet/ringworld
+		distance 812
+		offset 260
+	object "Galactic War"
+		sprite planet/ringworld
+		distance 812
+		offset 280
+	object "Galactic War"
+		sprite planet/ringworld
+		distance 812
+		offset 300
+	object "Galactic War"
+		sprite planet/ringworld
+		distance 812
+		offset 320
+	object "Galactic War"
+		sprite planet/ringworld
+		distance 812
+		offset 340
+	object
+		sprite sprite/category_transport
+		distance 1200
+	object
+		sprite sprite/category_light_freighter
+		distance 1200
+		offset 40
+	object
+		sprite sprite/category_heavy_freighter
+		distance 1200
+		offset 80
+	object
+		sprite sprite/category_interceptor
+		distance 1200
+		offset 120
+	object
+		sprite sprite/category_light_warship
+		distance 1200
+		offset 160
+	object
+		sprite sprite/category_medium_warship
+		distance 1200
+		offset 200
+	object
+		sprite sprite/category_heavy_warship
+		distance 1200
+		offset 240
+	object
+		sprite sprite/category_fighter
+		distance 1200
+		offset 280
+	object
+		sprite sprite/category_drone
+		distance 1200
+		offset 320
+	object "Dels Desen"
+		sprite "ship/dels desen"
+		distance 1500
+		offset 40
+	object "Ultaka Dominator"
+		sprite "ship/ultaka dominator"
+		distance 1450
+		offset 160
+	object "Ultaka Conqueror"
+		sprite "ship/ultaka conqueror"
+		distance 1500
+		offset 200
+	object "Ultaka Summoner"
+		sprite "ship/ultaka summoner"
+		distance 1600
+		offset 234
+	object "ZN-7681 Eaxes"
+		sprite "ship/zis eaxes"
+		distance 1600
+		offset 246
+
+system Geeva
+	pos 145.311 -9808.28
+	government cheat
+	habitable 553.28
+	belt 1834
+	link Dels
+	link Erm
+	link Ignaggen
+	link Qoro
+	link Wallagi
+	link Xessian
+	link Zorcn
+	object "Geeva Plugins"
+		sprite sprite/station8
+		distance 444
+		offset 90
+	object "Geeva Default"
+		sprite sprite/station8
+		distance 444
+		offset 270
+	object "Geeva"
+		sprite planet/ringworld
+		distance 812
+	object "Geeva"
+		sprite planet/ringworld
+		distance 812
+		offset 20
+	object "Geeva"
+		sprite planet/ringworld
+		distance 812
+		offset 40
+	object "Geeva"
+		sprite planet/ringworld
+		distance 812
+		offset 60
+	object "Geeva"
+		sprite planet/ringworld
+		distance 812
+		offset 80
+	object "Geeva"
+		sprite planet/ringworld
+		distance 812
+		offset 100
+	object "Geeva"
+		sprite planet/ringworld
+		distance 812
+		offset 120
+	object "Geeva"
+		sprite planet/ringworld
+		distance 812
+		offset 140
+	object "Geeva"
+		sprite planet/ringworld
+		distance 812
+		offset 160
+	object "Geeva"
+		sprite planet/ringworld
+		distance 812
+		offset 180
+	object "Geeva"
+		sprite planet/ringworld
+		distance 812
+		offset 200
+	object "Geeva"
+		sprite planet/ringworld
+		distance 812
+		offset 220
+	object "Geeva"
+		sprite planet/ringworld
+		distance 812
+		offset 240
+	object "Geeva"
+		sprite planet/ringworld
+		distance 812
+		offset 260
+	object "Geeva"
+		sprite planet/ringworld
+		distance 812
+		offset 280
+	object "Geeva"
+		sprite planet/ringworld
+		distance 812
+		offset 300
+	object "Geeva"
+		sprite planet/ringworld
+		distance 812
+		offset 320
+	object "Geeva"
+		sprite planet/ringworld
+		distance 812
+		offset 340
+	object
+		sprite sprite/category_transport
+		distance 1200
+	object
+		sprite sprite/category_light_freighter
+		distance 1200
+		offset 40
+	object
+		sprite sprite/category_heavy_freighter
+		distance 1200
+		offset 80
+	object
+		sprite sprite/category_interceptor
+		distance 1200
+		offset 120
+	object
+		sprite sprite/category_light_warship
+		distance 1200
+		offset 160
+	object
+		sprite sprite/category_medium_warship
+		distance 1200
+		offset 200
+	object
+		sprite sprite/category_heavy_warship
+		distance 1200
+		offset 240
+	object
+		sprite sprite/category_fighter
+		distance 1200
+		offset 280
+	object
+		sprite sprite/category_drone
+		distance 1200
+		offset 320
+	object "Geeva"
+		sprite "ship/ermeirae"
+		distance 1450
+		offset 40
+	object "Geeva"
+		sprite "ship/ermhindersan"
+		distance 1500
+		offset 40
+	object "Geeva"
+		sprite "ship/ermernar"
+		distance 1450
+		offset 160
+	object "Geeva"
+		sprite "ship/ermhordanler"
+		distance 1450
+		offset 160
+	object "Geeva"
+		sprite "ship/ermroekler"
+		distance 1500
+		offset 240
+
+system Ignaggen
+	pos 104.311 -9844.28
+	government cheat
+	habitable 1111.68
+	belt 1008
+	link Dels
+	link "Galactic War"
+	link Geeva
+	link Zorcn
+	object "Ignaggen Plugins"
+		sprite sprite/station8
+		distance 444
+		offset 90
+	object "Ignaggen Default"
+		sprite sprite/station8
+		distance 444
+		offset 270
+	object "Ignaggen"
+		sprite planet/ringworld
+		distance 812
+	object "Ignaggen"
+		sprite planet/ringworld
+		distance 812
+		offset 20
+	object "Ignaggen"
+		sprite planet/ringworld
+		distance 812
+		offset 40
+	object "Ignaggen"
+		sprite planet/ringworld
+		distance 812
+		offset 60
+	object "Ignaggen"
+		sprite planet/ringworld
+		distance 812
+		offset 80
+	object "Ignaggen"
+		sprite planet/ringworld
+		distance 812
+		offset 100
+	object "Ignaggen"
+		sprite planet/ringworld
+		distance 812
+		offset 120
+	object "Ignaggen"
+		sprite planet/ringworld
+		distance 812
+		offset 140
+	object "Ignaggen"
+		sprite planet/ringworld
+		distance 812
+		offset 160
+	object "Ignaggen"
+		sprite planet/ringworld
+		distance 812
+		offset 180
+	object "Ignaggen"
+		sprite planet/ringworld
+		distance 812
+		offset 200
+	object "Ignaggen"
+		sprite planet/ringworld
+		distance 812
+		offset 220
+	object "Ignaggen"
+		sprite planet/ringworld
+		distance 812
+		offset 240
+	object "Ignaggen"
+		sprite planet/ringworld
+		distance 812
+		offset 260
+	object "Ignaggen"
+		sprite planet/ringworld
+		distance 812
+		offset 280
+	object "Ignaggen"
+		sprite planet/ringworld
+		distance 812
+		offset 300
+	object "Ignaggen"
+		sprite planet/ringworld
+		distance 812
+		offset 320
+	object "Ignaggen"
+		sprite planet/ringworld
+		distance 812
+		offset 340
+	object
+		sprite sprite/category_transport
+		distance 1200
+	object
+		sprite sprite/category_light_freighter
+		distance 1200
+		offset 40
+	object
+		sprite sprite/category_heavy_freighter
+		distance 1200
+		offset 80
+	object
+		sprite sprite/category_interceptor
+		distance 1200
+		offset 120
+	object
+		sprite sprite/category_light_warship
+		distance 1200
+		offset 160
+	object
+		sprite sprite/category_medium_warship
+		distance 1200
+		offset 200
+	object
+		sprite sprite/category_heavy_warship
+		distance 1200
+		offset 240
+	object
+		sprite sprite/category_fighter
+		distance 1200
+		offset 280
+	object
+		sprite sprite/category_drone
+		distance 1200
+		offset 320
+	object "Ignaggen"
+		sprite "ship/ermeirae"
+		distance 1450
+		offset 40
+	object "Ignaggen"
+		sprite "ship/ermhindersan"
+		distance 1500
+		offset 40
+	object "Ignaggen"
+		sprite "ship/ermernar"
+		distance 1450
+		offset 160
+	object "Ignaggen"
+		sprite "ship/ermhordanler"
+		distance 1450
+		offset 160
+	object "Ignaggen"
+		sprite "ship/ermroekler"
+		distance 1500
+		offset 240
+
+system Isgeda
+	pos 263.311 -9721.28
+	government cheat
+	habitable 135
+	belt 1490
+	link Donko
+	link Ultaka
+	link Wallagi
+	object "Isgeda Plugins"
+		sprite sprite/station8
+		distance 444
+		offset 90
+	object "Isgeda Default"
+		sprite sprite/station8
+		distance 444
+		offset 270
+	object "Isgeda"
+		sprite planet/ringworld
+		distance 812
+	object "Isgeda"
+		sprite planet/ringworld
+		distance 812
+		offset 20
+	object "Isgeda"
+		sprite planet/ringworld
+		distance 812
+		offset 40
+	object "Isgeda"
+		sprite planet/ringworld
+		distance 812
+		offset 60
+	object "Isgeda"
+		sprite planet/ringworld
+		distance 812
+		offset 80
+	object "Isgeda"
+		sprite planet/ringworld
+		distance 812
+		offset 100
+	object "Isgeda"
+		sprite planet/ringworld
+		distance 812
+		offset 120
+	object "Isgeda"
+		sprite planet/ringworld
+		distance 812
+		offset 140
+	object "Isgeda"
+		sprite planet/ringworld
+		distance 812
+		offset 160
+	object "Isgeda"
+		sprite planet/ringworld
+		distance 812
+		offset 180
+	object "Isgeda"
+		sprite planet/ringworld
+		distance 812
+		offset 200
+	object "Isgeda"
+		sprite planet/ringworld
+		distance 812
+		offset 220
+	object "Isgeda"
+		sprite planet/ringworld
+		distance 812
+		offset 240
+	object "Isgeda"
+		sprite planet/ringworld
+		distance 812
+		offset 260
+	object "Isgeda"
+		sprite planet/ringworld
+		distance 812
+		offset 280
+	object "Isgeda"
+		sprite planet/ringworld
+		distance 812
+		offset 300
+	object "Isgeda"
+		sprite planet/ringworld
+		distance 812
+		offset 320
+	object "Isgeda"
+		sprite planet/ringworld
+		distance 812
+		offset 340
+	object
+		sprite sprite/category_transport
+		distance 1200
+	object
+		sprite sprite/category_light_freighter
+		distance 1200
+		offset 40
+	object
+		sprite sprite/category_heavy_freighter
+		distance 1200
+		offset 80
+	object
+		sprite sprite/category_interceptor
+		distance 1200
+		offset 120
+	object
+		sprite sprite/category_light_warship
+		distance 1200
+		offset 160
+	object
+		sprite sprite/category_medium_warship
+		distance 1200
+		offset 200
+	object
+		sprite sprite/category_heavy_warship
+		distance 1200
+		offset 240
+	object
+		sprite sprite/category_fighter
+		distance 1200
+		offset 280
+	object
+		sprite sprite/category_drone
+		distance 1200
+		offset 320
+	object "Isgeda"
+		sprite "ship/ermeirae"
+		distance 1450
+		offset 40
+	object "Isgeda"
+		sprite "ship/ermhindersan"
+		distance 1500
+		offset 40
+	object "Isgeda"
+		sprite "ship/ermernar"
+		distance 1450
+		offset 160
+	object "Isgeda"
+		sprite "ship/ermhordanler"
+		distance 1450
+		offset 160
+	object "Isgeda"
+		sprite "ship/ermroekler"
+		distance 1500
+		offset 240
+
+system Kroom
+	pos 189.311 -9975.28
+	government cheat
+	habitable 486.68
+	belt 1566
+	link Erader
+	link "Galactic War"
+	link Kumakk
+	object "Kroom Plugins"
+		sprite sprite/station8
+		distance 444
+		offset 90
+	object "Kroom Default"
+		sprite sprite/station8
+		distance 444
+		offset 270
+	object "Kroom"
+		sprite planet/ringworld
+		distance 812
+	object "Kroom"
+		sprite planet/ringworld
+		distance 812
+		offset 20
+	object "Kroom"
+		sprite planet/ringworld
+		distance 812
+		offset 40
+	object "Kroom"
+		sprite planet/ringworld
+		distance 812
+		offset 60
+	object "Kroom"
+		sprite planet/ringworld
+		distance 812
+		offset 80
+	object "Kroom"
+		sprite planet/ringworld
+		distance 812
+		offset 100
+	object "Kroom"
+		sprite planet/ringworld
+		distance 812
+		offset 120
+	object "Kroom"
+		sprite planet/ringworld
+		distance 812
+		offset 140
+	object "Kroom"
+		sprite planet/ringworld
+		distance 812
+		offset 160
+	object "Kroom"
+		sprite planet/ringworld
+		distance 812
+		offset 180
+	object "Kroom"
+		sprite planet/ringworld
+		distance 812
+		offset 200
+	object "Kroom"
+		sprite planet/ringworld
+		distance 812
+		offset 220
+	object "Kroom"
+		sprite planet/ringworld
+		distance 812
+		offset 240
+	object "Kroom"
+		sprite planet/ringworld
+		distance 812
+		offset 260
+	object "Kroom"
+		sprite planet/ringworld
+		distance 812
+		offset 280
+	object "Kroom"
+		sprite planet/ringworld
+		distance 812
+		offset 300
+	object "Kroom"
+		sprite planet/ringworld
+		distance 812
+		offset 320
+	object "Kroom"
+		sprite planet/ringworld
+		distance 812
+		offset 340
+	object
+		sprite sprite/category_transport
+		distance 1200
+	object
+		sprite sprite/category_light_freighter
+		distance 1200
+		offset 40
+	object
+		sprite sprite/category_heavy_freighter
+		distance 1200
+		offset 80
+	object
+		sprite sprite/category_interceptor
+		distance 1200
+		offset 120
+	object
+		sprite sprite/category_light_warship
+		distance 1200
+		offset 160
+	object
+		sprite sprite/category_medium_warship
+		distance 1200
+		offset 200
+	object
+		sprite sprite/category_heavy_warship
+		distance 1200
+		offset 240
+	object
+		sprite sprite/category_fighter
+		distance 1200
+		offset 280
+	object
+		sprite sprite/category_drone
+		distance 1200
+		offset 320
+	object "Kroom"
+		sprite "ship/ermeirae"
+		distance 1450
+		offset 40
+	object "Kroom"
+		sprite "ship/ermhindersan"
+		distance 1500
+		offset 40
+	object "Kroom Garokka"
+		sprite "ship/ermernar"
+		distance 1450
+		offset 160
+	object "Kroom Grakka"
+		sprite "ship/ermhordanler"
+		distance 1450
+		offset 160
+	object "Kroom Grokva"
+		sprite "ship/ermroekler"
+		distance 1500
+		offset 240
+
+system Kumakk
+	pos 217.311 -9914.28
+	government cheat
+	habitable 1080
+	belt 1052
+	link Dels
+	link Erader
+	link Kroom
+	link Nuru
+	link Qoro
+	link Revos
+	object "Kumakk Plugins"
+		sprite sprite/station8
+		distance 444
+		offset 90
+	object "Kumakk Default"
+		sprite sprite/station8
+		distance 444
+		offset 270
+	object "Kumakk"
+		sprite planet/ringworld
+		distance 812
+	object "Kumakk"
+		sprite planet/ringworld
+		distance 812
+		offset 20
+	object "Kumakk"
+		sprite planet/ringworld
+		distance 812
+		offset 40
+	object "Kumakk"
+		sprite planet/ringworld
+		distance 812
+		offset 60
+	object "Kumakk"
+		sprite planet/ringworld
+		distance 812
+		offset 80
+	object "Kumakk"
+		sprite planet/ringworld
+		distance 812
+		offset 100
+	object "Kumakk"
+		sprite planet/ringworld
+		distance 812
+		offset 120
+	object "Kumakk"
+		sprite planet/ringworld
+		distance 812
+		offset 140
+	object "Kumakk"
+		sprite planet/ringworld
+		distance 812
+		offset 160
+	object "Kumakk"
+		sprite planet/ringworld
+		distance 812
+		offset 180
+	object "Kumakk"
+		sprite planet/ringworld
+		distance 812
+		offset 200
+	object "Kumakk"
+		sprite planet/ringworld
+		distance 812
+		offset 220
+	object "Kumakk"
+		sprite planet/ringworld
+		distance 812
+		offset 240
+	object "Kumakk"
+		sprite planet/ringworld
+		distance 812
+		offset 260
+	object "Kumakk"
+		sprite planet/ringworld
+		distance 812
+		offset 280
+	object "Kumakk"
+		sprite planet/ringworld
+		distance 812
+		offset 300
+	object "Kumakk"
+		sprite planet/ringworld
+		distance 812
+		offset 320
+	object "Kumakk"
+		sprite planet/ringworld
+		distance 812
+		offset 340
+	object
+		sprite sprite/category_transport
+		distance 1200
+	object
+		sprite sprite/category_light_freighter
+		distance 1200
+		offset 40
+	object
+		sprite sprite/category_heavy_freighter
+		distance 1200
+		offset 80
+	object
+		sprite sprite/category_interceptor
+		distance 1200
+		offset 120
+	object
+		sprite sprite/category_light_warship
+		distance 1200
+		offset 160
+	object
+		sprite sprite/category_medium_warship
+		distance 1200
+		offset 200
+	object
+		sprite sprite/category_heavy_warship
+		distance 1200
+		offset 240
+	object
+		sprite sprite/category_fighter
+		distance 1200
+		offset 280
+	object
+		sprite sprite/category_drone
+		distance 1200
+		offset 320
+	object "Kumakk"
+		sprite "ship/ermeirae"
+		distance 1450
+		offset 40
+	object "Kumakk"
+		sprite "ship/ermhindersan"
+		distance 1500
+		offset 40
+	object "Kumakk"
+		sprite "ship/ermernar"
+		distance 1450
+		offset 160
+	object "Kumakk"
+		sprite "ship/ermhordanler"
+		distance 1450
+		offset 160
+	object "Kumakk"
+		sprite "ship/ermroekler"
+		distance 1500
+		offset 240
+
+system Nuru
+	pos 297.311 -9973.28
+	government cheat
+	habitable 553.28
+	belt 1908
+	link Kumakk
+	link Revos
+	object "Nuru Plugins"
+		sprite sprite/station8
+		distance 444
+		offset 90
+	object "Nuru Default"
+		sprite sprite/station8
+		distance 444
+		offset 270
+	object "Nuru"
+		sprite planet/ringworld
+		distance 812
+	object "Nuru"
+		sprite planet/ringworld
+		distance 812
+		offset 20
+	object "Nuru"
+		sprite planet/ringworld
+		distance 812
+		offset 40
+	object "Nuru"
+		sprite planet/ringworld
+		distance 812
+		offset 60
+	object "Nuru"
+		sprite planet/ringworld
+		distance 812
+		offset 80
+	object "Nuru"
+		sprite planet/ringworld
+		distance 812
+		offset 100
+	object "Nuru"
+		sprite planet/ringworld
+		distance 812
+		offset 120
+	object "Nuru"
+		sprite planet/ringworld
+		distance 812
+		offset 140
+	object "Nuru"
+		sprite planet/ringworld
+		distance 812
+		offset 160
+	object "Nuru"
+		sprite planet/ringworld
+		distance 812
+		offset 180
+	object "Nuru"
+		sprite planet/ringworld
+		distance 812
+		offset 200
+	object "Nuru"
+		sprite planet/ringworld
+		distance 812
+		offset 220
+	object "Nuru"
+		sprite planet/ringworld
+		distance 812
+		offset 240
+	object "Nuru"
+		sprite planet/ringworld
+		distance 812
+		offset 260
+	object "Nuru"
+		sprite planet/ringworld
+		distance 812
+		offset 280
+	object "Nuru"
+		sprite planet/ringworld
+		distance 812
+		offset 300
+	object "Nuru"
+		sprite planet/ringworld
+		distance 812
+		offset 320
+	object "Nuru"
+		sprite planet/ringworld
+		distance 812
+		offset 340
+	object
+		sprite sprite/category_transport
+		distance 1200
+	object
+		sprite sprite/category_light_freighter
+		distance 1200
+		offset 40
+	object
+		sprite sprite/category_heavy_freighter
+		distance 1200
+		offset 80
+	object
+		sprite sprite/category_interceptor
+		distance 1200
+		offset 120
+	object
+		sprite sprite/category_light_warship
+		distance 1200
+		offset 160
+	object
+		sprite sprite/category_medium_warship
+		distance 1200
+		offset 200
+	object
+		sprite sprite/category_heavy_warship
+		distance 1200
+		offset 240
+	object
+		sprite sprite/category_fighter
+		distance 1200
+		offset 280
+	object
+		sprite sprite/category_drone
+		distance 1200
+		offset 320
+	object "Nuru"
+		sprite "ship/ermeirae"
+		distance 1450
+		offset 40
+	object "Nuru"
+		sprite "ship/ermhindersan"
+		distance 1500
+		offset 40
+	object "Nuru Ar Pu Ha"
+		sprite "ship/ermernar"
+		distance 1450
+		offset 160
+	object "Nuru"
+		sprite "ship/ermhordanler"
+		distance 1450
+		offset 160
+	object "Nuru"
+		sprite "ship/ermroekler"
+		distance 1500
+		offset 240
+
+system Qoro
+	pos 187.311 -9859.28
+	government cheat
+	habitable 486.68
+	belt 1298
+	link Dels
+	link Donko
+	link Geeva
+	link Kumakk
+	link Uoorn
+	link Wallagi
+	object "Qoro Plugins"
+		sprite sprite/station8
+		distance 444
+		offset 90
+	object "Qoro Default"
+		sprite sprite/station8
+		distance 444
+		offset 270
+	object "Qoro"
+		sprite planet/ringworld
+		distance 812
+	object "Qoro"
+		sprite planet/ringworld
+		distance 812
+		offset 20
+	object "Qoro"
+		sprite planet/ringworld
+		distance 812
+		offset 40
+	object "Qoro"
+		sprite planet/ringworld
+		distance 812
+		offset 60
+	object "Qoro"
+		sprite planet/ringworld
+		distance 812
+		offset 80
+	object "Qoro"
+		sprite planet/ringworld
+		distance 812
+		offset 100
+	object "Qoro"
+		sprite planet/ringworld
+		distance 812
+		offset 120
+	object "Qoro"
+		sprite planet/ringworld
+		distance 812
+		offset 140
+	object "Qoro"
+		sprite planet/ringworld
+		distance 812
+		offset 160
+	object "Qoro"
+		sprite planet/ringworld
+		distance 812
+		offset 180
+	object "Qoro"
+		sprite planet/ringworld
+		distance 812
+		offset 200
+	object "Qoro"
+		sprite planet/ringworld
+		distance 812
+		offset 220
+	object "Qoro"
+		sprite planet/ringworld
+		distance 812
+		offset 240
+	object "Qoro"
+		sprite planet/ringworld
+		distance 812
+		offset 260
+	object "Qoro"
+		sprite planet/ringworld
+		distance 812
+		offset 280
+	object "Qoro"
+		sprite planet/ringworld
+		distance 812
+		offset 300
+	object "Qoro"
+		sprite planet/ringworld
+		distance 812
+		offset 320
+	object "Qoro"
+		sprite planet/ringworld
+		distance 812
+		offset 340
+	object
+		sprite sprite/category_transport
+		distance 1200
+	object
+		sprite sprite/category_light_freighter
+		distance 1200
+		offset 40
+	object
+		sprite sprite/category_heavy_freighter
+		distance 1200
+		offset 80
+	object
+		sprite sprite/category_interceptor
+		distance 1200
+		offset 120
+	object
+		sprite sprite/category_light_warship
+		distance 1200
+		offset 160
+	object
+		sprite sprite/category_medium_warship
+		distance 1200
+		offset 200
+	object
+		sprite sprite/category_heavy_warship
+		distance 1200
+		offset 240
+	object
+		sprite sprite/category_fighter
+		distance 1200
+		offset 280
+	object
+		sprite sprite/category_drone
+		distance 1200
+		offset 320
+	object "Qoro"
+		sprite "ship/ermeirae"
+		distance 1450
+		offset 40
+	object "Qoro"
+		sprite "ship/ermhindersan"
+		distance 1500
+		offset 40
+	object "Qoro"
+		sprite "ship/ermernar"
+		distance 1450
+		offset 160
+	object "Qoro"
+		sprite "ship/ermhordanler"
+		distance 1450
+		offset 160
+	object "Qoro"
+		sprite "ship/ermroekler"
+		distance 1500
+		offset 240
+
+system Revos
+	pos 327.311 -9931.28
+	government cheat
+	habitable 2795
+	belt 1808
+	link Kumakk
+	link Nuru
+	link Taroun
+	link Uoorn
+	object "Revos Plugins"
+		sprite sprite/station8
+		distance 444
+		offset 90
+	object "Revos Default"
+		sprite sprite/station8
+		distance 444
+		offset 270
+	object "Revos"
+		sprite planet/ringworld
+		distance 812
+	object "Revos"
+		sprite planet/ringworld
+		distance 812
+		offset 20
+	object "Revos"
+		sprite planet/ringworld
+		distance 812
+		offset 40
+	object "Revos"
+		sprite planet/ringworld
+		distance 812
+		offset 60
+	object "Revos"
+		sprite planet/ringworld
+		distance 812
+		offset 80
+	object "Revos"
+		sprite planet/ringworld
+		distance 812
+		offset 100
+	object "Revos"
+		sprite planet/ringworld
+		distance 812
+		offset 120
+	object "Revos"
+		sprite planet/ringworld
+		distance 812
+		offset 140
+	object "Revos"
+		sprite planet/ringworld
+		distance 812
+		offset 160
+	object "Revos"
+		sprite planet/ringworld
+		distance 812
+		offset 180
+	object "Revos"
+		sprite planet/ringworld
+		distance 812
+		offset 200
+	object "Revos"
+		sprite planet/ringworld
+		distance 812
+		offset 220
+	object "Revos"
+		sprite planet/ringworld
+		distance 812
+		offset 240
+	object "Revos"
+		sprite planet/ringworld
+		distance 812
+		offset 260
+	object "Revos"
+		sprite planet/ringworld
+		distance 812
+		offset 280
+	object "Revos"
+		sprite planet/ringworld
+		distance 812
+		offset 300
+	object "Revos"
+		sprite planet/ringworld
+		distance 812
+		offset 320
+	object "Revos"
+		sprite planet/ringworld
+		distance 812
+		offset 340
+	object
+		sprite sprite/category_transport
+		distance 1200
+	object
+		sprite sprite/category_light_freighter
+		distance 1200
+		offset 40
+	object
+		sprite sprite/category_heavy_freighter
+		distance 1200
+		offset 80
+	object
+		sprite sprite/category_interceptor
+		distance 1200
+		offset 120
+	object
+		sprite sprite/category_light_warship
+		distance 1200
+		offset 160
+	object
+		sprite sprite/category_medium_warship
+		distance 1200
+		offset 200
+	object
+		sprite sprite/category_heavy_warship
+		distance 1200
+		offset 240
+	object
+		sprite sprite/category_fighter
+		distance 1200
+		offset 280
+	object
+		sprite sprite/category_drone
+		distance 1200
+		offset 320
+	object "Revos Caosma(C)"
+		sprite "ship/revos caosma"
+		distance 1450
+		offset 40
+	object "Revos Caosma(T)"
+		sprite "ship/revos caosma-t"
+		distance 1500
+	object "Revos Mokla"
+		sprite "ship/revos mokla"
+		distance 1450
+		offset 160
+	object "Revos"
+		sprite "ship/ermhordanler"
+		distance 1450
+		offset 180
+	object "Revos"
+		sprite "ship/ermroekler"
+		distance 1500
+		offset 240
+
+system Taroun
+	pos 383.311 -9896.28
+	government cheat
+	habitable 806.68
+	belt 1865
+	link Revos
+	link Uoorn
+	link Zis
+	object "Taroun Plugins"
+		sprite sprite/station8
+		distance 444
+		offset 90
+	object "Taroun Default"
+		sprite sprite/station8
+		distance 444
+		offset 270
+	object "Taroun"
+		sprite planet/ringworld
+		distance 812
+	object "Taroun"
+		sprite planet/ringworld
+		distance 812
+		offset 20
+	object "Taroun"
+		sprite planet/ringworld
+		distance 812
+		offset 40
+	object "Taroun"
+		sprite planet/ringworld
+		distance 812
+		offset 60
+	object "Taroun"
+		sprite planet/ringworld
+		distance 812
+		offset 80
+	object "Taroun"
+		sprite planet/ringworld
+		distance 812
+		offset 100
+	object "Taroun"
+		sprite planet/ringworld
+		distance 812
+		offset 120
+	object "Taroun"
+		sprite planet/ringworld
+		distance 812
+		offset 140
+	object "Taroun"
+		sprite planet/ringworld
+		distance 812
+		offset 160
+	object "Taroun"
+		sprite planet/ringworld
+		distance 812
+		offset 180
+	object "Taroun"
+		sprite planet/ringworld
+		distance 812
+		offset 200
+	object "Taroun"
+		sprite planet/ringworld
+		distance 812
+		offset 220
+	object "Taroun"
+		sprite planet/ringworld
+		distance 812
+		offset 240
+	object "Taroun"
+		sprite planet/ringworld
+		distance 812
+		offset 260
+	object "Taroun"
+		sprite planet/ringworld
+		distance 812
+		offset 280
+	object "Taroun"
+		sprite planet/ringworld
+		distance 812
+		offset 300
+	object "Taroun"
+		sprite planet/ringworld
+		distance 812
+		offset 320
+	object "Taroun"
+		sprite planet/ringworld
+		distance 812
+		offset 340
+	object
+		sprite sprite/category_transport
+		distance 1200
+	object
+		sprite sprite/category_light_freighter
+		distance 1200
+		offset 40
+	object
+		sprite sprite/category_heavy_freighter
+		distance 1200
+		offset 80
+	object
+		sprite sprite/category_interceptor
+		distance 1200
+		offset 120
+	object
+		sprite sprite/category_light_warship
+		distance 1200
+		offset 160
+	object
+		sprite sprite/category_medium_warship
+		distance 1200
+		offset 200
+	object
+		sprite sprite/category_heavy_warship
+		distance 1200
+		offset 240
+	object
+		sprite sprite/category_fighter
+		distance 1200
+		offset 280
+	object
+		sprite sprite/category_drone
+		distance 1200
+		offset 320
+	object "Taroun"
+		sprite "ship/ermeirae"
+		distance 1450
+		offset 40
+	object "Taroun"
+		sprite "ship/ermhindersan"
+		distance 1500
+		offset 40
+	object "Taroun"
+		sprite "ship/ermernar"
+		distance 1450
+		offset 160
+	object "Taroun Oresu"
+		sprite "ship/ermhordanler"
+		distance 1450
+		offset 160
+	object "Taroun Eroun"
+		sprite "ship/ermroekler"
+		distance 1500
+		offset 240
+
+system Ultaka
+	pos 310.311 -9778.28
+	government cheat
+	habitable 3452.76
+	belt 1324
+	link Donko
+	link Isgeda
+	link Zis
+	object "Ultaka Plugins"
+		sprite sprite/station8
+		distance 444
+		offset 90
+	object "Ultaka Default"
+		sprite sprite/station8
+		distance 444
+		offset 270
+	object "Ultaka"
+		sprite planet/ringworld
+		distance 812
+	object "Ultaka"
+		sprite planet/ringworld
+		distance 812
+		offset 20
+	object "Ultaka"
+		sprite planet/ringworld
+		distance 812
+		offset 40
+	object "Ultaka"
+		sprite planet/ringworld
+		distance 812
+		offset 60
+	object "Ultaka"
+		sprite planet/ringworld
+		distance 812
+		offset 80
+	object "Ultaka"
+		sprite planet/ringworld
+		distance 812
+		offset 100
+	object "Ultaka"
+		sprite planet/ringworld
+		distance 812
+		offset 120
+	object "Ultaka"
+		sprite planet/ringworld
+		distance 812
+		offset 140
+	object "Ultaka"
+		sprite planet/ringworld
+		distance 812
+		offset 160
+	object "Ultaka"
+		sprite planet/ringworld
+		distance 812
+		offset 180
+	object "Ultaka"
+		sprite planet/ringworld
+		distance 812
+		offset 200
+	object "Ultaka"
+		sprite planet/ringworld
+		distance 812
+		offset 220
+	object "Ultaka"
+		sprite planet/ringworld
+		distance 812
+		offset 240
+	object "Ultaka"
+		sprite planet/ringworld
+		distance 812
+		offset 260
+	object "Ultaka"
+		sprite planet/ringworld
+		distance 812
+		offset 280
+	object "Ultaka"
+		sprite planet/ringworld
+		distance 812
+		offset 300
+	object "Ultaka"
+		sprite planet/ringworld
+		distance 812
+		offset 320
+	object "Ultaka"
+		sprite planet/ringworld
+		distance 812
+		offset 340
+	object
+		sprite sprite/category_transport
+		distance 1200
+	object
+		sprite sprite/category_light_freighter
+		distance 1200
+		offset 40
+	object
+		sprite sprite/category_heavy_freighter
+		distance 1200
+		offset 80
+	object
+		sprite sprite/category_interceptor
+		distance 1200
+		offset 120
+	object
+		sprite sprite/category_light_warship
+		distance 1200
+		offset 160
+	object
+		sprite sprite/category_medium_warship
+		distance 1200
+		offset 200
+	object
+		sprite sprite/category_heavy_warship
+		distance 1200
+		offset 240
+	object
+		sprite sprite/category_fighter
+		distance 1200
+		offset 280
+	object
+		sprite sprite/category_drone
+		distance 1200
+		offset 320
+	object "Ultaka Hunter"
+		sprite "ship/ultaka hunter"
+		distance 1450
+		offset 120
+	object "Ultaka Path Maker"
+		sprite "ship/ultaka pathmaker"
+		distance 1500
+		offset 80
+	object "Ultaka Shadow Strike"
+		sprite "ship/ultaka shadow strike"
+		distance 1450
+		offset 160
+	object "Ultaka"
+		sprite "ship/ermhordanler"
+		distance 1450
+		offset 180
+	object "Ultaka Reaper"
+		sprite "ship/ultaka reaper"
+		distance 1500
+		offset 240
+
+system Uoorn
+	pos 291.311 -9878.28
+	government cheat
+	habitable 973.36
+	belt 1331
+	link Donko
+	link Kumakk
+	link Qoro
+	link Revos
+	link Taroun
+	link Zis
+	object "Uoorn Plugins"
+		sprite sprite/station8
+		distance 444
+		offset 90
+	object "Uoorn Default"
+		sprite sprite/station8
+		distance 444
+		offset 270
+	object "Uoorn"
+		sprite planet/ringworld
+		distance 812
+	object "Uoorn"
+		sprite planet/ringworld
+		distance 812
+		offset 20
+	object "Uoorn"
+		sprite planet/ringworld
+		distance 812
+		offset 40
+	object "Uoorn"
+		sprite planet/ringworld
+		distance 812
+		offset 60
+	object "Uoorn"
+		sprite planet/ringworld
+		distance 812
+		offset 80
+	object "Uoorn"
+		sprite planet/ringworld
+		distance 812
+		offset 100
+	object "Uoorn"
+		sprite planet/ringworld
+		distance 812
+		offset 120
+	object "Uoorn"
+		sprite planet/ringworld
+		distance 812
+		offset 140
+	object "Uoorn"
+		sprite planet/ringworld
+		distance 812
+		offset 160
+	object "Uoorn"
+		sprite planet/ringworld
+		distance 812
+		offset 180
+	object "Uoorn"
+		sprite planet/ringworld
+		distance 812
+		offset 200
+	object "Uoorn"
+		sprite planet/ringworld
+		distance 812
+		offset 220
+	object "Uoorn"
+		sprite planet/ringworld
+		distance 812
+		offset 240
+	object "Uoorn"
+		sprite planet/ringworld
+		distance 812
+		offset 260
+	object "Uoorn"
+		sprite planet/ringworld
+		distance 812
+		offset 280
+	object "Uoorn"
+		sprite planet/ringworld
+		distance 812
+		offset 300
+	object "Uoorn"
+		sprite planet/ringworld
+		distance 812
+		offset 320
+	object "Uoorn"
+		sprite planet/ringworld
+		distance 812
+		offset 340
+	object
+		sprite sprite/category_transport
+		distance 1200
+	object
+		sprite sprite/category_light_freighter
+		distance 1200
+		offset 40
+	object
+		sprite sprite/category_heavy_freighter
+		distance 1200
+		offset 80
+	object
+		sprite sprite/category_interceptor
+		distance 1200
+		offset 120
+	object
+		sprite sprite/category_light_warship
+		distance 1200
+		offset 160
+	object
+		sprite sprite/category_medium_warship
+		distance 1200
+		offset 200
+	object
+		sprite sprite/category_heavy_warship
+		distance 1200
+		offset 240
+	object
+		sprite sprite/category_fighter
+		distance 1200
+		offset 280
+	object
+		sprite sprite/category_drone
+		distance 1200
+		offset 320
+	object "Uoorn"
+		sprite "ship/ermeirae"
+		distance 1450
+		offset 40
+	object "Uoorn"
+		sprite "ship/ermhindersan"
+		distance 1500
+		offset 40
+	object "Uoorn"
+		sprite "ship/ermernar"
+		distance 1450
+		offset 160
+	object "Uoorn"
+		sprite "ship/ermhordanler"
+		distance 1450
+		offset 160
+	object "Uoorn"
+		sprite "ship/ermroekler"
+		distance 1500
+		offset 240
+
+system Wallagi
+	pos 197.311 -9771.28
+	government cheat
+	habitable 486.68
+	belt 1864
+	link Donko
+	link Geeva
+	link Isgeda
+	link Qoro
+	link Xessian
+	object "Wallagi Plugins"
+		sprite sprite/station8
+		distance 444
+		offset 90
+	object "Wallagi Default"
+		sprite sprite/station8
+		distance 444
+		offset 270
+	object "Wallagi"
+		sprite planet/ringworld
+		distance 812
+	object "Wallagi"
+		sprite planet/ringworld
+		distance 812
+		offset 20
+	object "Wallagi"
+		sprite planet/ringworld
+		distance 812
+		offset 40
+	object "Wallagi"
+		sprite planet/ringworld
+		distance 812
+		offset 60
+	object "Wallagi"
+		sprite planet/ringworld
+		distance 812
+		offset 80
+	object "Wallagi"
+		sprite planet/ringworld
+		distance 812
+		offset 100
+	object "Wallagi"
+		sprite planet/ringworld
+		distance 812
+		offset 120
+	object "Wallagi"
+		sprite planet/ringworld
+		distance 812
+		offset 140
+	object "Wallagi"
+		sprite planet/ringworld
+		distance 812
+		offset 160
+	object "Wallagi"
+		sprite planet/ringworld
+		distance 812
+		offset 180
+	object "Wallagi"
+		sprite planet/ringworld
+		distance 812
+		offset 200
+	object "Wallagi"
+		sprite planet/ringworld
+		distance 812
+		offset 220
+	object "Wallagi"
+		sprite planet/ringworld
+		distance 812
+		offset 240
+	object "Wallagi"
+		sprite planet/ringworld
+		distance 812
+		offset 260
+	object "Wallagi"
+		sprite planet/ringworld
+		distance 812
+		offset 280
+	object "Wallagi"
+		sprite planet/ringworld
+		distance 812
+		offset 300
+	object "Wallagi"
+		sprite planet/ringworld
+		distance 812
+		offset 320
+	object "Wallagi"
+		sprite planet/ringworld
+		distance 812
+		offset 340
+	object
+		sprite sprite/category_transport
+		distance 1200
+	object
+		sprite sprite/category_light_freighter
+		distance 1200
+		offset 40
+	object
+		sprite sprite/category_heavy_freighter
+		distance 1200
+		offset 80
+	object
+		sprite sprite/category_interceptor
+		distance 1200
+		offset 120
+	object
+		sprite sprite/category_light_warship
+		distance 1200
+		offset 160
+	object
+		sprite sprite/category_medium_warship
+		distance 1200
+		offset 200
+	object
+		sprite sprite/category_heavy_warship
+		distance 1200
+		offset 240
+	object
+		sprite sprite/category_fighter
+		distance 1200
+		offset 280
+	object
+		sprite sprite/category_drone
+		distance 1200
+		offset 320
+	object "Wallagi Tansa"
+		sprite "ship/wallagi tansa"
+		distance 1450
+		offset 280
+	object "Wallagi Telsarator"
+		sprite "ship/wallagi telsarator"
+		distance 1450
+		offset 120
+	object "Wallagi Dettalor"
+		sprite "ship/wallagi dettalor"
+		distance 1450
+		offset 200
+	object "Wallagi Sentasor"
+		sprite "ship/wallagi Sentasor"
+		distance 1500
+		offset 240
+
+system Xessian
+	pos 163.311 -9734.28
+	government cheat
+	habitable 1715
+	belt 1964
+	link Erm
+	link Geeva
+	link Wallagi
+	object "Xessian Plugins"
+		sprite sprite/station8
+		distance 444
+		offset 90
+	object "Xessian Default"
+		sprite sprite/station8
+		distance 444
+		offset 270
+	object "Xessian"
+		sprite planet/ringworld
+		distance 812
+	object "Xessian"
+		sprite planet/ringworld
+		distance 812
+		offset 20
+	object "Xessian"
+		sprite planet/ringworld
+		distance 812
+		offset 40
+	object "Xessian"
+		sprite planet/ringworld
+		distance 812
+		offset 60
+	object "Xessian"
+		sprite planet/ringworld
+		distance 812
+		offset 80
+	object "Xessian"
+		sprite planet/ringworld
+		distance 812
+		offset 100
+	object "Xessian"
+		sprite planet/ringworld
+		distance 812
+		offset 120
+	object "Xessian"
+		sprite planet/ringworld
+		distance 812
+		offset 140
+	object "Xessian"
+		sprite planet/ringworld
+		distance 812
+		offset 160
+	object "Xessian"
+		sprite planet/ringworld
+		distance 812
+		offset 180
+	object "Xessian"
+		sprite planet/ringworld
+		distance 812
+		offset 200
+	object "Xessian"
+		sprite planet/ringworld
+		distance 812
+		offset 220
+	object "Xessian"
+		sprite planet/ringworld
+		distance 812
+		offset 240
+	object "Xessian"
+		sprite planet/ringworld
+		distance 812
+		offset 260
+	object "Xessian"
+		sprite planet/ringworld
+		distance 812
+		offset 280
+	object "Xessian"
+		sprite planet/ringworld
+		distance 812
+		offset 300
+	object "Xessian"
+		sprite planet/ringworld
+		distance 812
+		offset 320
+	object "Xessian"
+		sprite planet/ringworld
+		distance 812
+		offset 340
+	object
+		sprite sprite/category_transport
+		distance 1200
+	object
+		sprite sprite/category_light_freighter
+		distance 1200
+		offset 40
+	object
+		sprite sprite/category_heavy_freighter
+		distance 1200
+		offset 80
+	object
+		sprite sprite/category_interceptor
+		distance 1200
+		offset 120
+	object
+		sprite sprite/category_light_warship
+		distance 1200
+		offset 160
+	object
+		sprite sprite/category_medium_warship
+		distance 1200
+		offset 200
+	object
+		sprite sprite/category_heavy_warship
+		distance 1200
+		offset 240
+	object
+		sprite sprite/category_fighter
+		distance 1200
+		offset 280
+	object
+		sprite sprite/category_drone
+		distance 1200
+		offset 320
+	object "Xessian"
+		sprite "ship/ermeirae"
+		distance 1450
+		offset 40
+	object "Xessian"
+		sprite "ship/ermhindersan"
+		distance 1500
+		offset 40
+	object "Xessian"
+		sprite "ship/ermernar"
+		distance 1450
+		offset 160
+	object "Xessian"
+		sprite "ship/ermhordanler"
+		distance 1450
+		offset 200
+	object "Xessian"
+		sprite "ship/ermroekler"
+		distance 1500
+		offset 240
+
+system Zis
+	pos 348.311 -9833.28
+	government cheat
+	habitable 135
+	belt 1048
+	link Donko
+	link Taroun
+	link Ultaka
+	link Uoorn
+	object "ZIS Plugins"
+		sprite sprite/station8
+		distance 444
+		offset 90
+	object "ZIS Default"
+		sprite sprite/station8
+		distance 444
+		offset 270
+	object "ZIS"
+		sprite planet/ringworld
+		distance 812
+	object "ZIS"
+		sprite planet/ringworld
+		distance 812
+		offset 20
+	object "ZIS"
+		sprite planet/ringworld
+		distance 812
+		offset 40
+	object "ZIS"
+		sprite planet/ringworld
+		distance 812
+		offset 60
+	object "ZIS"
+		sprite planet/ringworld
+		distance 812
+		offset 80
+	object "ZIS"
+		sprite planet/ringworld
+		distance 812
+		offset 100
+	object "ZIS"
+		sprite planet/ringworld
+		distance 812
+		offset 120
+	object "ZIS"
+		sprite planet/ringworld
+		distance 812
+		offset 140
+	object "ZIS"
+		sprite planet/ringworld
+		distance 812
+		offset 160
+	object "ZIS"
+		sprite planet/ringworld
+		distance 812
+		offset 180
+	object "ZIS"
+		sprite planet/ringworld
+		distance 812
+		offset 200
+	object "ZIS"
+		sprite planet/ringworld
+		distance 812
+		offset 220
+	object "ZIS"
+		sprite planet/ringworld
+		distance 812
+		offset 240
+	object "ZIS"
+		sprite planet/ringworld
+		distance 812
+		offset 260
+	object "ZIS"
+		sprite planet/ringworld
+		distance 812
+		offset 280
+	object "ZIS"
+		sprite planet/ringworld
+		distance 812
+		offset 300
+	object "ZIS"
+		sprite planet/ringworld
+		distance 812
+		offset 320
+	object "ZIS"
+		sprite planet/ringworld
+		distance 812
+		offset 340
+	object
+		sprite sprite/category_transport
+		distance 1200
+	object
+		sprite sprite/category_light_freighter
+		distance 1200
+		offset 40
+	object
+		sprite sprite/category_heavy_freighter
+		distance 1200
+		offset 80
+	object
+		sprite sprite/category_interceptor
+		distance 1200
+		offset 120
+	object
+		sprite sprite/category_light_warship
+		distance 1200
+		offset 160
+	object
+		sprite sprite/category_medium_warship
+		distance 1200
+		offset 200
+	object
+		sprite sprite/category_heavy_warship
+		distance 1200
+		offset 240
+	object
+		sprite sprite/category_fighter
+		distance 1200
+		offset 280
+	object
+		sprite sprite/category_drone
+		distance 1200
+		offset 320
+	object "ZIS"
+		sprite "ship/ermeirae"
+		distance 1450
+		offset 40
+	object "ZIS"
+		sprite "ship/ermhindersan"
+		distance 1500
+		offset 40
+	object "ZIS razor"
+		sprite "ship/zis razor"
+		distance 1450
+		offset 160
+	object "ZIS Sysor"
+		sprite "ship/zis sysor"
+		distance 1450
+		offset 200
+	object "ZIS Eaxes"
+		sprite "ship/zis eaxes"
+		distance 1500
+		offset 240
+
+system Zorcn
+	pos 73.3109 -9807.28
+	government cheat
+	habitable 425.92
+	belt 1647
+	link "Galactic War"
+	link Geeva
+	link Ignaggen
+	object "Zorcn Plugins"
+		sprite sprite/station8
+		distance 444
+		offset 90
+	object "Zorcn Default"
+		sprite sprite/station8
+		distance 444
+		offset 270
+	object "Zorcn"
+		sprite planet/ringworld
+		distance 812
+	object "Zorcn"
+		sprite planet/ringworld
+		distance 812
+		offset 20
+	object "Zorcn"
+		sprite planet/ringworld
+		distance 812
+		offset 40
+	object "Zorcn"
+		sprite planet/ringworld
+		distance 812
+		offset 60
+	object "Zorcn"
+		sprite planet/ringworld
+		distance 812
+		offset 80
+	object "Zorcn"
+		sprite planet/ringworld
+		distance 812
+		offset 100
+	object "Zorcn"
+		sprite planet/ringworld
+		distance 812
+		offset 120
+	object "Zorcn"
+		sprite planet/ringworld
+		distance 812
+		offset 140
+	object "Zorcn"
+		sprite planet/ringworld
+		distance 812
+		offset 160
+	object "Zorcn"
+		sprite planet/ringworld
+		distance 812
+		offset 180
+	object "Zorcn"
+		sprite planet/ringworld
+		distance 812
+		offset 200
+	object "Zorcn"
+		sprite planet/ringworld
+		distance 812
+		offset 220
+	object "Zorcn"
+		sprite planet/ringworld
+		distance 812
+		offset 240
+	object "Zorcn"
+		sprite planet/ringworld
+		distance 812
+		offset 260
+	object "Zorcn"
+		sprite planet/ringworld
+		distance 812
+		offset 280
+	object "Zorcn"
+		sprite planet/ringworld
+		distance 812
+		offset 300
+	object "Zorcn"
+		sprite planet/ringworld
+		distance 812
+		offset 320
+	object "Zorcn"
+		sprite planet/ringworld
+		distance 812
+		offset 340
+	object
+		sprite sprite/category_transport
+		distance 1200
+	object
+		sprite sprite/category_light_freighter
+		distance 1200
+		offset 40
+	object
+		sprite sprite/category_heavy_freighter
+		distance 1200
+		offset 80
+	object
+		sprite sprite/category_interceptor
+		distance 1200
+		offset 120
+	object
+		sprite sprite/category_light_warship
+		distance 1200
+		offset 160
+	object
+		sprite sprite/category_medium_warship
+		distance 1200
+		offset 200
+	object
+		sprite sprite/category_heavy_warship
+		distance 1200
+		offset 240
+	object
+		sprite sprite/category_fighter
+		distance 1200
+		offset 280
+	object
+		sprite sprite/category_drone
+		distance 1200
+		offset 320
+	object "Zorcn"
+		sprite "ship/ermeirae"
+		distance 1450
+		offset 40
+	object "Zorcn"
+		sprite "ship/ermhindersan"
+		distance 1500
+		offset 40
+	object "Zorcn"
+		sprite "ship/ermernar"
+		distance 1450
+		offset 160
+	object "Zorcn"
+		sprite "ship/ermhordanler"
+		distance 1450
+		offset 160
+	object "Zorcn"
+		sprite "ship/ermroekler"
+		distance 1500
+		offset 240
+
+planet "Galactic War"
+	landscape landscape/station6
+	description `This ringworld is much bigger than any previously seen, consuming well over a whole systems worth of materials to construct. Here the outfitters and shipyards stock anything from vanilla content to plugin content. There is no need to go running about to find some superior technology, it's all right here!`
+	spaceport `This ringworld is much bigger than any previously seen, consuming well over a whole systems worth of materials to construct. Here the outfitters and shipyards stock anything from vanilla content to plugin content. There is no need to go running about to find some superior technology, it's all right here!`
+	shipyard developer
+	shipyard "Wallagi"
+	shipyard "Dels Advanced"
+	shipyard "Dels Pirate"
+	outfitter developer
+	outfitter "Dels Advanced"
+	outfitter "Donko Advanced"
+	bribe 0
+
+planet "Ultaka Dominator"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "" nan
+		fleet "ul Dominator"
+		
+fleet "ul Dominator"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Ultaka Dominator"
+		
+planet "Ultaka Conqueror"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "" nan
+		fleet "ul Conqueror"
+		
+fleet "ul Conqueror"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Ultaka Conqueror"
+		
+planet "Zis Eaxes"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "" nan
+		fleet "zis Eaxes"
+		
+fleet "zis Eaxes"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Zis Eaxes"
