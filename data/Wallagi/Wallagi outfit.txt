@@ -64,15 +64,15 @@ outfit "C10-W Hinlar Core"
 	"heat generation" .3
 	"energy capacity" 1000
 	
-outfit "C60-W Falmin Core"
+outfit "C40-W Milar Core"
 	category "Power"
 	cost 1000000
 	thumbnail "outfit/unknown"
 	"mass" 72
 	"outfit space" -76
-	"energy generation" 45
-	"heat generation" 12
-	"energy capacity" 15000
+	"energy generation" 23
+	"heat generation" 9
+	"energy capacity" 7400
 	
 outfit "C60-W Falmin Core"
 	category "Power"
@@ -178,7 +178,7 @@ outfit "Ulyukar Heat Control"
 	
 #Anti- missile
 	
-outfit "Cilhr Anti-missile" #sach
+outfit "Cilhr Anti-missile" #sach #Primary AM
 	category "Turrets"
 	cost 800000
 	thumbnail "outfit/heavy anti-missile"
@@ -188,17 +188,17 @@ outfit "Cilhr Anti-missile" #sach
 	"turret mounts" -1
 	weapon
 		"fire effect" "particle impact"
-		sound "explosion tiny"
+		sound "energy1"
 		"anti-missile" 6
 		"turret turn" 14
 		"velocity" 200
 		"lifetime" 1
-		"reload" 5
+		"reload" 3
 		"firing energy" 1
 		"firing heat" 1
 	description "
 	
-outfit "Eilgur Anti-missile" 
+outfit "Eilgur Anti-missile" #For later use
 	category "Turrets"
 	cost 800000
 	thumbnail "outfit/heavy anti-missile"
@@ -208,7 +208,7 @@ outfit "Eilgur Anti-missile"
 	"turret mounts" -1
 	weapon
 		"fire effect" "particle impact"
-		sound "explosion tiny"
+		sound "energy1"
 		"anti-missile" 30
 		"turret turn" 14
 		"velocity" 200
@@ -228,7 +228,7 @@ outfit "Jestar Anti-missile"
 	"turret mounts" -1
 	weapon
 		"fire effect" "particle impact"
-		sound "explosion medium"
+		sound "energy2"
 		"anti-missile" 125
 		"turret turn" 18
 		"velocity" 400
@@ -269,7 +269,7 @@ outfit "E10-B Klingar"
 	"gun ports" -1
 	weapon
 		sprite "projectile/electron"
-		sound "electron"
+		sound "laser5"
 		"hit effect" "electron impact"
 		"fire effect" "electron impact"
 		"inaccuracy" .1
@@ -293,7 +293,7 @@ outfit "T30-E Semfal Torpedo"
 	"gun ports" -1
 	weapon
 		sprite "projectile/ion bolt"
-		sound "ion"
+		sound "energylauncher"
 		"hit effect" "ion spark"
 		"inaccuracy" 1
 		"velocity" 25
@@ -301,18 +301,16 @@ outfit "T30-E Semfal Torpedo"
 		"reload" 100
 		"firing energy" 700
 		"firing heat" 10
-		"acceleration" 2.2
-		"drag" .01
-		"optical tracking" .9
+		"acceleration" 2.2 
+		"drag" .07
+		"optical tracking" .6
 		"turn" 3
-		"homing" 5
+		"homing" 2
 		"shield damage" 980
 		"hull damage" 600
-		"hit force" 20
-		"missile strength" 300
-		"piercing" .1
-		"ion damage" .30
-		"heat damage" 300
+		"hit force" 12
+		"missile strength" 34
+		"ion damage" 1
 	description "
 	
 outfit "T70-E Sesmal Torpedo"
@@ -325,26 +323,24 @@ outfit "T70-E Sesmal Torpedo"
 	"gun ports" -1
 	weapon
 		sprite "projectile/ion bolt"
-		sound "ion"
+		sound "energylauncher"
 		"hit effect" "ion spark"
 		"inaccuracy" 1
 		"velocity" 9
-		"lifetime" 500
+		"lifetime" 550
 		"reload" 150
 		"firing energy" 1300
 		"firing heat" 48
 		"acceleration" .1
 		"drag" .01
-		"optical tracking" .9
+		"optical tracking" .8
 		"turn" 5
-		"homing" 5
+		"homing" 3
 		"shield damage" 6220
 		"hull damage" 1500
-		"hit force" 50
-		"missile strength" 600
-		"piercing" .25
-		"ion damage" .60
-		"heat damage" 390
+		"hit force" 34
+		"missile strength" 65
+		"ion damage" 4
 	description "
 	
 outfit "P50-B Lemtar Turret"
@@ -359,20 +355,19 @@ outfit "P50-B Lemtar Turret"
 	weapon
 		sprite "projectile/ion bolt"
 			"frame rate" 3
-		sound "proton"
+		sound "energy2"
 		"hardpoint sprite" "hardpoint/heavy anti-missile"
 		"hardpoint offset" 5.
 		"hit effect" "plasma explosion"
-		"inaccuracy" 1.6
-		"turret turn" 4
+		"inaccuracy" 3
+		"turret turn" 2
 		"velocity" 40
 		"lifetime" 30
 		"reload" 12
 		"firing energy" 60
 		"firing heat" 8
-		"shield damage" 500
-		"hull damage" 200
-		"heat damage" 88
+		"shield damage" 380
+		"hull damage" 140
 		"ion damage" .5
 	description "
 	
@@ -384,26 +379,24 @@ outfit "P50-B Marley Turret"
 	"outfit space" -120
 	"weapon capacity" -120
 	"turret mounts" -1
-	"required crew" 1
+	"required crew" 2
 	weapon
 		sprite "projectile/marley"
-		sound "proton"
+		sound "energy2"
 		"hit effect" "ion impact"
 		"hardpoint sprite" "hardpoint/heavy anti-missile"
 		"hardpoint offset" 5.
 		"inaccuracy" 1.28
-		"turret turn" 3.5
-		"velocity" 40
-		"lifetime" 60
+		"turret turn" 1.4
+		"velocity" 20
+		"lifetime" 30
 		"reload" 22
 		"firing energy" 180
 		"firing heat" 80
-		"hit force" 10
-		"shield damage" 890
+		"shield damage" 900
 		"hull damage" 300
-		"heat damage" 200
-		"ion damage" .10
 		"piercing" .3
+		"hit force" 10
 	description "
 	
 outfit "S20-F Markla Turret"
@@ -417,18 +410,17 @@ outfit "S20-F Markla Turret"
 	"required crew" 1
 	weapon
 		sprite "projectile/tiny dual ion"
-		sound "particle"
+		sound "energy3"
 		"hit effect" "plasma explosion"
-		"inaccuracy" 1.9
-		"turret turn" 8
-		"velocity" 40
-		"lifetime" 35
+		"inaccuracy" 2
+		"turret turn" 3
+		"velocity" 30
+		"lifetime" 23
 		"reload" 6
 		"firing energy" 45
 		"firing heat" 12
-		"shield damage" 66
-		"hull damage" 50
-		"heat damage" 120
+		"shield damage" 20
+		"hull damage" 6
 		"ion damage" .6
 		"submunition" "markla flak" 3
 		"split range" 8
@@ -440,21 +432,22 @@ outfit "markla flak"
 			"no repeat"
 			"frame rate" 16
 		sound "ion impact"
+		"blast radius" 12
+		"safe"
 		"lifetime" 9
 		"random angle" 360
 		"random spin" 3
 		"random velocity" .1
 		"velocity scale" -.05
 		"hit force" 5
-		"shield damage" 10
-		"hull damage" 5
+		"shield damage" 22
+		"hull damage" 12
 		"ion damage" .2
 		
 effect "markla flak"
 	sprite "effect/huge spark"
 		"no repeat"
 		"frame rate" 20
-	sound "explosion tiny"
 	"lifetime" 21
 	"random angle" 360
 	"random velocity" .1

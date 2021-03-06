@@ -1,11 +1,4 @@
-#37000 Lw 52000 MW 120000 HW T2 Kor Sestor
-#40000 Lw 59000 MW 120000 HW T2 Mereti
-#    >> 1.5 times      >> 2 times
-#36000 Lw 67000 MW 118000 HW T2 Wanderer
-#    >> 1.8 times      >> 1.7times
-#7200 LW 10500 MW 29000 HW T1 Human
-#				  26000 HW 
-#    >> 1.45 times     >> 2.76 times or 2.4
+
 ship "Ultaka Hunter"
 	sprite "ship/ultaka hunter"
 	attributes
@@ -98,7 +91,6 @@ ship "Ultaka Dominator"
 		"USG100 Shield Generator"
 		"B20 Core"
 		"EB6 Battery"
-		"EB6 Battery"
 		"Ultaka Heat Shunt"
 		"Hyper Engines"
 		"U20-B anti missile"
@@ -162,12 +154,12 @@ ship "Ultaka Annihilator"
 	attributes
 		category "Light Warship"
 		"cost" 53000000
-		"shields" 78000
+		"shields" 68000
 		"hull" 45000
 		"hull repair rate" 1
 		"required crew" 5
-		"bunks" 12
-		"mass" 340
+		"bunks" 10
+		"mass" 310
 		"drag" 16.3
 		"heat dissipation" .85
 		"fuel capacity" 400
@@ -190,7 +182,7 @@ ship "Ultaka Annihilator"
 		"EB6 Battery"
 		"U20-B anti missile" 
 		"Ultaka Antimatter Barrage Cannon" 4
-		"Model-3A Rifle" 11
+		"Model-3A Rifle" 10
 		"Ultaka IDS" 1
 	
 	gun -40.5 -60
@@ -454,7 +446,7 @@ ship "Ultaka Conqueror"
 			"hull damage" 500
 			"hit force" 1500
 	outfits
-		"USG100 Shield Generator" 5
+		"USG200 Shield Generator" 2
 		"B60 Core"
 		"EB6 Battery" 2
 		"Ultaka Heat Shunt"

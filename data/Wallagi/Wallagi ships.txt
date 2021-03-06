@@ -64,10 +64,10 @@ ship "Dettalor"
 			"hit force" 2500
 	outfits
 		"Lestur Shield Generator"
-		"C60-W Falmin Core"
+		"C40-W Milar Core"
 		"Ulyukar Heat Control"
 		"Kal-4 Engines"
-		"A80-H Jestar Anti-missile" 2
+		"Cilhr Anti-missile" 2
 		"T30-E Semfal Torpedo" 2
 		"P50-B Lemtar Turret" 3
 	
@@ -76,8 +76,8 @@ ship "Dettalor"
 	engine 21.5 183.5 
 	gun -31.5 -162 "T30-E Semfal Torpedo"
 	gun 20.5 -40.5 "T30-E Semfal Torpedo"
-	turret -8.5 -71.5 "A80-H Anti-missile"
-	turret 32.5 2 "A80-H Anti-missile"
+	turret -8.5 -71.5 "Cilhr Anti-missile"
+	turret 32.5 2 "Cilhr Anti-missile"
 	engine 2 185.5
 	turret -15.5 -79.5 "P50-B Lemtar Turret"
 	turret -1.5 -23.5 "P50-B Lemtar Turret"
@@ -154,9 +154,9 @@ ship "Sentasor"
 		"C60-W Falmin Core"
 		"Ulyukar Heat Control"
 		"Kal-8 Engines"
-		"A80-H Jestar Anti-missile" 6
-		"T30-E Semfal Torpedo" 5
-		"P50-B Lemtar Turret" 9
+		"Cilhr Anti-missile" 2
+		"T30-E Semfal Torpedo" 3
+		"P50-B Lemtar Turret" 5
 	
 	fighter -90 -131 under
 	fighter -90 -62.5 under
@@ -165,10 +165,8 @@ ship "Sentasor"
 	engine -68.5 298.5
 	engine 70 297.5
 	engine 5.5 299
-	turret -17 -142.5 "A80-H Anti-missile"
-	turret -16.5 -69.5 "A80-H Anti-missile"
-	turret 2 93 "A80-H Anti-missile"
-	turret 69 -7 "A80-H Anti-missile"
+	turret -17 -142.5 "Cilhr Anti-missile"
+	turret 69 -7 "Cilhr Anti-missile"
 	gun 68 -252.5 "T30-E Semfal Torpedo"
 	gun 90 -201 "T30-E Semfal Torpedo"
 	gun 70 -23.5 "T30-E Semfal Torpedo"
@@ -177,8 +175,8 @@ ship "Sentasor"
 	turret 20.5 -6.5 "P50-B Lemtar Turret"
 	turret 49 36 "P50-B Lemtar Turret" 
 	turret 77 55 "P50-B Lemtar Turret"
-	turret 71.5 112.5 "P50-B Lemtar Turret"
-	turret 23.5 57.5 "P50-B Lemtar Turret"
+	turret 71.5 112.5 "S20-F Markla Turret"
+	turret 23.5 57.5 "S20-F Markla Turret"
 	explode "tiny explosion" 22
 	explode "small explosion" 26
 	explode "medium explosion" 50
