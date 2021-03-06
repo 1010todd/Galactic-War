@@ -863,22 +863,30 @@ system "Galactic War"
 		sprite "ship/dels desen"
 		distance 1500
 		offset 40
+	object "Ultaka Hunter"
+		sprite "ship/ultaka hunter"
+		distance 1450
+		offset 115
+	object "Wallagi Telsarator"
+		sprite "ship/wallagi telsarator"
+		distance 1450
+		offset 125
 	object "Ultaka Dominator"
 		sprite "ship/ultaka dominator"
 		distance 1450
 		offset 160
 	object "Ultaka Conqueror"
 		sprite "ship/ultaka conqueror"
-		distance 1500
-		offset 200
+		distance 1800
+		offset 230
 	object "Ultaka Summoner"
 		sprite "ship/ultaka summoner"
-		distance 1600
-		offset 234
+		distance 1800
+		offset 250
 	object "ZN-7681 Eaxes"
 		sprite "ship/zis eaxes"
-		distance 1600
-		offset 246
+		distance 2500
+		offset 240
 
 system Geeva
 	pos 145.311 -9808.28
@@ -3053,6 +3061,21 @@ planet "Galactic War"
 	outfitter "Donko Advanced"
 	bribe 0
 
+planet "Ultaka Hunter"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "" nan
+		fleet "ul Hunter"
+		
+fleet "ul Hunter"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Ultaka Hunter"
+
 planet "Ultaka Dominator"
 	government arena
 	bribe 0
@@ -3083,6 +3106,30 @@ fleet "ul Conqueror"
 	variant
 		"Ultaka Conqueror"
 		
+planet "Ultaka Summoner"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "" nan
+		fleet "ul Summoner"
+		
+fleet "ul Summoner"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Ultaka Summoner"
+		"Ultaka Termite" 12
+		
+planet "ZN-7681 Eaxes"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "" nan
+		fleet "zis Eaxes"
+		
 planet "Zis Eaxes"
 	government arena
 	bribe 0
@@ -3096,4 +3143,4 @@ fleet "zis Eaxes"
 	personality
 		heroic
 	variant
-		"Zis Eaxes"
+		"ZN-7681 Eaxes"
