@@ -19,8 +19,8 @@ outfit "B Kechon"
 		"reload" 1
 		"firing energy" 15
 		"firing heat" .1
-		"shield damage" 65
-		"hull damage" 85 
+		"shield damage" 7
+		"hull damage" 10 
 		"ion damage" .5
 		
 outfit "SL Botavu"
@@ -139,7 +139,7 @@ outfit "Vubeto Anti-Missile"
 	"turret mounts" -1
 	weapon
 		"hit effect" "rvs anti-missile"
-		"anti-missile" 50
+		"anti-missile" 35
 		"turret turn" 20
 		"velocity" 500
 		"lifetime" 1
@@ -161,8 +161,9 @@ outfit "MQ-Shield Generator"
 	thumbnail "outfit/unknown"
 	"mass" 12
 	"outfit space" -12
-	"shield generation" 50
-	"shield energy" 1
+	"shield generation" 17
+	"cooling inefficiency" 10
+	"shield energy" 23
 	
 outfit "MAM-core"
 	category "Systems"
@@ -170,7 +171,9 @@ outfit "MAM-core"
 	thumbnail "outfit/unknown"
 	"mass" 10
 	"outfit space" -10
-	"energy generation" 500
+	"energy generation" 25
+	"heat generation" 12
+	"cooling inefficiency" 10
 	"energy capacity" 5000
 	
 
@@ -200,8 +203,8 @@ outfit "IO Engines"
 	"turning energy" .2
 	"turning heat" .2
 	"thrust" 6.5
-	"thrusting energy" .2
-	"thrusting heat" .2
+	"thrusting energy" .25
+	"thrusting heat" .25
 	"flare sprite" "effect/ion flare/tiny"
 		"frame rate" 1.2
 	"flare sound" "ion tiny"
@@ -210,15 +213,15 @@ outfit "IO2 Engines"
 	category "Engines"
 	"cost" 30000
 	thumbnail "outfit/small ion thruster"
-	"mass" 20
-	"outfit space" -20
-	"engine capacity" -20
+	"mass" 28
+	"outfit space" -28
+	"engine capacity" -28
 	"turn" 300
-	"turning energy" .2
-	"turning heat" .2
+	"turning energy" .3
+	"turning heat" .3
 	"thrust" 12
-	"thrusting energy" .2
-	"thrusting heat" .2
+	"thrusting energy" .35
+	"thrusting heat" .35
 	"flare sprite" "effect/ion flare/small"
 		"frame rate" 1.2
 	"flare sound" "ion small"
