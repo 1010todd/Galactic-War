@@ -22,23 +22,22 @@ ship "Homan"
 		"turning energy" 1
 		"thrust" 15
 		"thrusting energy" 1
-		"hull repair" 5
-		"sheild generation" 55
+		"hull repair rate" .5
 		weapon
 			"blast radius" 25
 			"shield damage" 100
 			"hull damage" 500
 			"hit force" 150
 	outfits
-		"B-lance" 4
-		"E-missile"
+		"B Kechon" 4
+		"E Anor"
 		"Vubeto Anti-Missile"
 		"MQ-Shield Generator"
 		"MAM-core"
 		"IO Engines"
 		"Jump Drive"
 		
-	gun -1.5 -30.5 "E-missile"
+	gun -1.5 -30.5 "E Anor"
 	gun -18 -22.5 "B-lance"
 	gun 15.5 -22.5 "B-lance"
 	gun 22.5 -16.5 "B-lance"
@@ -69,8 +68,7 @@ ship "Rova"
 		"turning energy" 1
 		"thrust" 20
 		"thrusting energy" 1
-		"hull repair" 3
-		"sheild generation" 55
+		"hull repair rate" .3
 		"self destruct" .5
 		weapon
 			"blast radius" 25
@@ -78,8 +76,8 @@ ship "Rova"
 			"hull damage" 500
 			"hit force" 150
 	outfits
-		"B-lance" 2
-		"E-missile"
+		"B Kechon" 2
+		"E Anor"
 		"Vubeto Anti-Missile"
 		"MQ-Shield Generator"
 		"MAM-core"
@@ -88,7 +86,7 @@ ship "Rova"
 		
 	gun 17.5 -25.5 "B-lance"
 	gun -19 -26 "B-lance"
-	gun -0.5 -1 "E-missile"
+	gun -0.5 -1 "E Anor"
 	turret -0.5 -9 "Revos Anti-Missile"
 	engine -18 20
 	engine 17.5 20.5
@@ -117,8 +115,7 @@ ship "Mokla"
 		"turning energy" 1
 		"thrust" 15
 		"thrusting energy" 1
-		"hull repair" 6
-		"sheild generation" 58
+		"hull repair rate" .6
 		weapon
 			"blast radius" 25
 			"shield damage" 100
@@ -170,15 +167,14 @@ ship "Caosma" "Caosma transport"
 		"turning energy" 1
 		"thrust" 15
 		"thrusting energy" 1
-		"hull repair" 5
-		"sheild generation" 50
+		"hull repair rate" .5
 		weapon
 			"blast radius" 25
 			"shield damage" 100
 			"hull damage" 500
 			"hit force" 150
 	outfits
-		"B-lance" 2
+		"B Kechon" 2
 		"E-missile" 
 		"Revos Anti-Missile" 2
 		"MQ-Shield Generator"
@@ -218,15 +214,14 @@ ship "Caosma"
 		"turning energy" 1
 		"thrust" 15
 		"thrusting energy" 1
-		"hull repair" 5
-		"sheild generation" 50
+		"hull repair rate" .5
 		weapon
 			"blast radius" 25
 			"shield damage" 100
 			"hull damage" 500
 			"hit force" 150
 	outfits
-		"B-lance" 2
+		"B Kechon" 2
 		"E-missile" 
 		"Revos Anti-Missile" 2
 		"MQ-Shield Generator"
