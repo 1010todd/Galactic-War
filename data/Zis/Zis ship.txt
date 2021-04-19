@@ -1659,16 +1659,17 @@ ship "ZN-7681 Eaxes"
 		zoom 1
 		angle 0
 		under
-	bay "fighter" -156 152 left
-	bay "fighter" 156 152 right
-	bay "fighter" -156 152 left
-	bay "fighter" 156 152 right
-	bay "fighter" -156 152 left
-	bay "fighter" 156 152 right
-	bay "fighter" -156 152 left
-	bay "fighter" 156 152 right
-	bay "fighter" -156 152 left
-	bay "fighter" 156 152 right
+	bay "Fighter" -156 152 left
+	bay "Fighter" 156 152 right
+	bay "Fighter" -156 152 left
+	bay "Fighter" 156 152 right
+	bay "Fighter" -156 152 left
+	bay "Fighter" 156 152 right
+	bay "Fighter" -156 152 left
+	bay "Fighter" 156 152 right
+	bay "Fighter" -156 152 left
+	bay "Fighter" 156 152 right
+	
 	explode "nuke explosion" 25
 	"final explode" "final explosion large"
 	description `One of the more recent battlecruiser design manufactured by Zis.`
