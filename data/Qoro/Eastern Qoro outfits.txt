@@ -59,8 +59,10 @@ outfit "Qoro(E) Anti-Missile"
 	"weapon capacity" -20
 	"turret mounts" -1
 	weapon
+		"hardpoint sprite" "hardpoint/anti-missile"
+		"hardpoint offset" 4.
 		"fire effect" "plasma explosion"
-		"anti-missile" 15
+		"anti-missile" 7
 		"velocity" 350
 		"lifetime" 6
 		"reload" 10
@@ -105,13 +107,15 @@ outfit "Gowaki Ion Thruster"
 	"turning energy" 2
 	"turning heat" 2.6
 	
+
+	
 outfit "Nurbolo Shield Generator"
 	category "Systems"
 	cost 2000000
 	thumbnail "outfit/unknown"
 	"mass" 29
 	"outfit space" -29
-	"shield generation" 6.8
+	"shield generation" 6.7
 	"shield energy" 7
 	
 outfit "Norklo'Ar Shield Generator"

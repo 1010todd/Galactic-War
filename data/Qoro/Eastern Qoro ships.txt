@@ -3,7 +3,7 @@ ship "Qoro(E) Gosat"
 	attributes
 		category "Fighter"
 		"cost" 981000
-		"shields" 2100
+		"shields" 1500
 		"hull" 2600
 		"required crew" 1
 		"bunks" 1
@@ -43,20 +43,18 @@ ship "Qoro(E) Goth"
 	attributes
 		category "Interceptor"
 		"cost" 933000
-		"shields" 2200
-		"hull" 2900
+		"shields" 1900
+		"hull" 2800
 		"required crew" 1
 		"bunks" 1
 		"mass" 52
 		"drag" .9
-		"heat dissipation" .9
+		"heat dissipation" .8
 		"outfit space" 155
 		"fuel capacity" 400
 		"cargo space" 25
 		"weapon capacity" 40
 		"engine capacity" 40
-		"cooling" 15
-		"hull repair rate" 3
 		weapon
 			"blast radius" 48
 			"shield damage" 320
@@ -85,20 +83,18 @@ ship "Qoro(E) Golosta"
 	attributes
 		category "Light Warship"
 		"cost" 11480000
-		"shields" 9800
-		"hull" 12800
+		"shields" 5800
+		"hull" 9800
 		"required crew" 2
 		"bunks" 6
 		"mass" 400
 		"drag" 5.7
-		"heat dissipation" .85
+		"heat dissipation" .75
 		"fuel capacity" 400
 		"cargo space" 30
 		"outfit space" 350
 		"weapon capacity" 113
 		"engine capacity" 110
-		"cooling" 25
-		"hull repair rate" 4
 		weapon
 			"blast radius" 250
 			"shield damage" 3200
@@ -127,3 +123,49 @@ ship "Qoro(E) Golosta"
 	explode "huge explosion" 6
 	"final explode" "final explosion medium"
 	description "
+	
+ship "Qoro(E) Gaurun"
+	sprite "ship/qoro gaurun"
+	attributes
+		category "Medium Warship"
+		"cost" 11480000
+		"shields" 7700
+		"hull" 17000
+		"required crew" 16
+		"bunks" 24
+		"mass" 400
+		"drag" 5.7
+		"heat dissipation" .7
+		"fuel capacity" 400
+		"cargo space" 30
+		"outfit space" 390
+		"weapon capacity" 113
+		"engine capacity" 110
+		weapon
+			"blast radius" 250
+			"shield damage" 3200
+			"hull damage" 1600
+			"hit force" 4800
+	outfits
+		"Orthall Assault Cannon" 2
+		"Qoro(E) Anti-Missile" 2
+		"Gok Cell"
+		"Norklo'Ar Shield Generator"
+		
+		"Gowaki Ion Thruster"
+		"Gotam Ion Thruster"
+		"Hyperdrive"
+	
+	gun -33 -3.5
+	gun 33 -3.5
+	turret 0 -21
+	turret 0 24.5
+	engine -33 44.5
+	engine 33 44.5
+	explode "tiny explosion" 60
+	explode "small explosion" 30
+	explode "medium explosion" 35
+	explode "large explosion" 20
+	explode "huge explosion" 6
+	"final explode" "final explosion medium"
+description "
