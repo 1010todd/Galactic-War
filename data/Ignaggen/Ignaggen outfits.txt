@@ -20,7 +20,7 @@ outfit "Igarsot Cannon"
 		"heat damage" 12
 		"shield damage" 48
 		"hull damage" 40
-	description "
+	description "Common anti-ship weaponry recently developed and fielded by Ignaggen."
 	
 outfit "Igarsot Turret"
 	category "Turrets"
@@ -57,6 +57,7 @@ outfit "Georlen Gun"
 	"mass" 14
 	"outfit space" -14
 	"weapon capacity" -14
+	"heat generation" 9
 	"gun ports" -1
 	weapon
 		sprite "projectile/georlen"
@@ -75,7 +76,7 @@ outfit "Georlen Gun"
 		"hull damage" 18
 		"burst reload" 5
 		"burst count" 5
-	description "
+	description "Common offensive weapon found on Ignaggen ships. While pretty powerful for the size, it runs very hot and requrie cooldown after a few shots."
 	
 outfit "Georlen Turret"
 	category "Turrets"
@@ -216,9 +217,9 @@ outfit "Genos Shield Generator"
 	thumbnail "outfit/tiny shield"
 	"mass" 12
 	"outfit space" -12
-	"shield generation" .21
-	"shield energy" .21
-	description "
+	"shield generation" .1
+	"shield energy" .2
+	description "Energy Shields were only recently introduced to the Ignaggen when they comes in contact with the Dels. Due to that their shielding technologies is still primitive."
 	
 outfit "Genes Shield Generator"
 	category "Systems"
@@ -226,7 +227,7 @@ outfit "Genes Shield Generator"
 	thumbnail "outfit/small shield"
 	"mass" 20
 	"outfit space" -20
-	"shield generation" .45
+	"shield generation" .2
 	"shield energy" .45
 	description "
 	
@@ -236,7 +237,7 @@ outfit "Genel Shield Generator"
 	thumbnail "outfit/medium shield"
 	"mass" 36
 	"outfit space" -36
-	"shield generation" .7
+	"shield generation" .34
 	"shield energy" .7
 	description "
 	
@@ -246,8 +247,8 @@ outfit "Gelaf Shield Generator"
 	thumbnail "outfit/large shield"
 	"mass" 46
 	"outfit space" -46
-	"shield generation" 1.5
-	"shield energy" 1.5
+	"shield generation" .53
+	"shield energy" 1.2
 	description "
 	
 outfit "Kager Gekar Shield Generator"
@@ -258,8 +259,8 @@ outfit "Kager Gekar Shield Generator"
 		"Kager Lergen"
 	"mass" 40
 	"outfit space" -40
-	"shield generation" 1.7
-	"shield energy" 1.7
+	"shield generation" .6
+	"shield energy" 1.8
 	description "Ignaggen Military Sheild Generator."
 	
 outfit "Rila Thruster"
@@ -269,13 +270,14 @@ outfit "Rila Thruster"
 	"mass" 18
 	"outfit space" -18
 	"engine capacity" -18
-	"thrust" 12
+	"thrust" 8
 	"thrusting energy" 1
 	"thrusting heat" 1
 	"flare sprite" "effect/plasma flare/tiny"
 		"frame rate" 5
 	"flare sound" "plasma tiny"
-	description "
+	"ignaggen engine port" 1
+	description "Ignaggen engines are slightly more powerful and efficient than other engines but due to some design limitation it won't work as well on other ships aside from one made by Ignaggen."
 	
 outfit "Rika Thruster"
 	category "Engines"
@@ -284,12 +286,29 @@ outfit "Rika Thruster"
 	"mass" 35
 	"outfit space" -35
 	"engine capacity" -35
-	"thrust" 22
+	"thrust" 21
 	"thrusting energy" 2
 	"thrusting heat" 2
 	"flare sprite" "effect/plasma flare/small"
 		"frame rate" 6
 	"flare sound" "plasma small"
+	"ignaggen engine port" 2
+	description "
+	
+outfit "Ielur Thruster"
+	category "Engines"
+	"cost" 43000
+	thumbnail "outfit/small plasma thruster"
+	"mass" 68
+	"outfit space" -68
+	"engine capacity" -68
+	"thrust" 47.6
+	"thrusting energy" 3.5
+	"thrusting heat" 3.5
+	"flare sprite" "effect/plasma flare/medium"
+		"frame rate" 6
+	"flare sound" "plasma small"
+	"ignaggen engine port" 3
 	description "
 	
 outfit "Rilen Thruster"
@@ -299,12 +318,13 @@ outfit "Rilen Thruster"
 	"mass" 80
 	"outfit space" -80
 	"engine capacity" -80
-	"thrust" 50
+	"thrust" 55 
 	"thrusting energy" 4.8
 	"thrusting heat" 4.8
 	"flare sprite" "effect/plasma flare/large"
 		"frame rate" 0.9
 	"flare sound" "plasma large"
+	"ignaggen engine port" 4
 	description "
 	
 outfit "Rila Steering"

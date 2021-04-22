@@ -1,5 +1,17 @@
+#Ignaggen will have two series of ships; first, rocky, cockpitless ships, with crystal sensor around the ship designed and made with technology before Dels contact
+#made with unique technologies allowing very durable ships but are much more delicate and very difficult to manufacture.
+#second a more modern design incorperating technologies introduced by Dels allowing faster production at cost of durability not matching ships made with their
+#original technology. Nonetheless sufficient for most uses by Ignaggen.
+
+#As civillians move to cheaper ships made with new manufacturing methods, the military remains using the original technology for durability and reliablity.
+
+#Ignaggen space exploration and colonization procedure; 
+# Scouts jumps into the system and systems surrounding it several time to collect various data about the system and what's in it.
+# A fleet is prepared for colonizing according to the data usually involve around 20-50 warships as guard and numerous other civilian ships. Scouts awaits at destination.
+# The whole fleet jumps together to the destination.
+
 #Kager Ignaggen
-ship "I'nos"
+ship "I'nos" #1st
 	sprite "ship/ignaggen inos"
 	licenses
 #		"Kager Lergen"
@@ -55,7 +67,7 @@ ship "I'nos"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "
+	description "I'nos is the spearhead of the Ignaggen when exloring into new area. At least two dozens of them would be present in the expidition fleet when venturing into new systems maintaining security and safety of the rest of the fleet."
 
 #ship "Girral"
 #	sprite "ship/ignaggen girral"
@@ -99,7 +111,7 @@ ship "I'nos"
 #	explode "small explosion" 5
 #	description "
 
-ship "Loerlen"
+ship "Loerlen" #2nd, used by civs
 	sprite "ship/ignaggen loerlen"
 	licenses
 #		"Kager Lergen"
@@ -301,3 +313,44 @@ ship "Gikeor" "Offensive Gikeor"
 	explode "tiny explosion" 10
 	explode "small explosion" 20
 	description "
+	
+ship "Eigarnuq"
+	sprite "ship/ignaggen eigarnuq"
+	attributes
+		category "Interceptor"
+		"cost" 500000
+		"shields" 2800
+		"hull" 800
+		"required crew" 1
+		"bunks" 2
+		"mass" 70
+		"drag" 1.6
+		"heat dissipation" .9
+		"fuel capacity" 600
+		"cargo space" 30
+		"outfit space" 240
+		"weapon capacity" 70
+		"engine capacity" 60
+		weapon
+			"blast radius" 24
+			"shield damage" 240
+			"hull damage" 120
+			"hit force" 360
+	outfits
+		"Georlen Gun" 2
+		
+		"Vultador Cell"
+		"Genos Shield Generator"
+		"Ignaggen Cooling System"
+		
+		"Rila Thruster"
+		"Rila Steering"
+		"Hyperdrive"
+		
+	gun -12 -17
+	gun 12 -17
+	engine -14 24
+	engine 14 24
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	description "These ships are one of the earliest Ignaggen ship to be equipped with a hyperdrive system. Serving as the scouts for the Ignaggens and were the first to jump among the stars to gather information and warn the rest of any threat."
