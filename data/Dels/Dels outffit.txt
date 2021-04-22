@@ -586,6 +586,7 @@ outfit "Kuar Ion Engines" #Sae
 	"flare sprite" "effect/ion flare/medium"
 		"frame rate" 1.0
 	"flare sound" "ion medium"
+	description "A larger variant of Dels Hao engine. While not significantly more powerful, it is more energy and heat efficient." 
 		
 outfit "Mae Ion Engines"
 	category "Engines"
@@ -595,7 +596,7 @@ outfit "Mae Ion Engines"
 	"outfit space" -140
 	"engine capacity" -140
 	"thrust" 36
-	"thrusting energy" 2.6
+	"thrusting energy" 2.3
 	"thrusting heat" 4.8
 	"turn" 900
 	"turning energy" 1
@@ -603,6 +604,7 @@ outfit "Mae Ion Engines"
 	"flare sprite" "effect/ion flare/large"
 		"frame rate" 1.0
 	"flare sound" "ion big"
+	description "One of the larger engine avaliable for larger ships."
 		
 outfit "Maon Ion Engines"
 	category "Engines"
@@ -612,7 +614,7 @@ outfit "Maon Ion Engines"
 	"outfit space" -260
 	"engine capacity" -260
 	"thrust" 68
-	"thrusting energy" 4.5
+	"thrusting energy" 4
 	"thrusting heat" 8.2
 	"turn" 1600
 	"turning energy" 1.8
@@ -620,7 +622,7 @@ outfit "Maon Ion Engines"
 	"flare sprite" "effect/ion flare/large"
 		"frame rate" 0.9
 	"flare sound" "ion large"
-	description "Dels's ion engine for large ships
+	description "Largest Dels engine found only on the largest Dels ship. Almost double the energy efficiency compared to the smallest Dels ion engine."
 	
 outfit "Akuorai Afterburner" #Chaser
 	category "Engines"
@@ -629,12 +631,12 @@ outfit "Akuorai Afterburner" #Chaser
 	"mass" 25
 	"outfit space" -25
 	"engine capacity" -25
-	"afterburner thrust" 31.0
+	"afterburner thrust" 30.5
 	"afterburner fuel" .15
 	"afterburner energy" 6
 	"afterburner heat" 19.4
 	"afterburner effect" "ionic afterburner"
-	description "."
+	description "This is a booster engine to provide ships temporary extra speed at the expense of their hyperspace fuel and lots of energy."
 	
 outfit "Auker Thruster"
 	category "Engines"
@@ -649,6 +651,7 @@ outfit "Auker Thruster"
 	"flare sprite" "effect/plasma flare/tiny"
 		"frame rate" 5
 	"flare sound" "plasma tiny"
+	description "A tiny thruster for pilots who prefer customizability over efficiency. Or just have some space left on their ships."
 
 outfit "Fekorna Thruster"
 	category "Engines"
@@ -663,6 +666,7 @@ outfit "Fekorna Thruster"
 	"flare sprite" "effect/plasma flare/small"
 		"frame rate" 6
 	"flare sound" "plasma small"
+	description ""
 
 outfit "Ornao Thruster"
 	category "Engines"
@@ -846,7 +850,7 @@ outfit "Type-F Hyperdrive"
 	thumbnail "outfit/hyperdrive"
 	"mass" 25
 	"outfit space" -25
-	"jump speed" 2
+	"jump speed" 1.5
 	"hyperdrive" 1
 	"jump fuel" 175
 	description "Dels's Type-F Hyperdrive allow ships to jump at speed"
@@ -954,10 +958,10 @@ outfit "Delisma Longrifle"
 	category "Hand to Hand"
 	cost 9200
 	thumbnail "outfit/laser rifle"
-	"capture attack" .7
-	"capture defense" 1
+	"capture attack" .6
+	"capture defense" 1.5
 	"unplunderable" 1
-	description "Dels's rifle"
+	description "Although a dated and old design, thess guns remains to be one of the primary defensive weapon for Dels ship captians trusted for their simplicity and reliability."
 	
 outfit "Sakkaid Blaster"
 	category "Hand to Hand"
@@ -966,5 +970,7 @@ outfit "Sakkaid Blaster"
 	"capture attack" .56
 	"capture defense" .8
 	"unplunderable" 1
-	description "Dels's Blaster"
+	description "While not as lethal as regular firearm these weapon are easier to use."
+	
+	
 	
