@@ -46,6 +46,97 @@ ship "Sendo"
 	explode "small explosion" 5
 	description "Sendo manufactured by [shipyard]. It is the smallest and cheapest transport avaliable in this space."
 	
+ship "Eureevuk"
+	sprite "ship/dels sendo"
+	thumbnail "thumbnail/dels sendo thumb"
+	attributes
+		category "Transport"
+		"cost" 200000
+		"shields" 600
+		"hull" 400
+		"required crew" 12
+		"bunks" 44
+		"mass" 220
+		"drag" 2
+		"heat dissipation" .8
+		"fuel capacity" 600
+		"cargo space" 30
+		"outfit space" 240
+		"weapon capacity" 42
+		"engine capacity" 80
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"Fitar Anti-Missile"
+		
+		"C10 Fuel Cell"
+		"K0108 Battery Pack"
+		"SR10 Shield Generator"
+		
+		"Hao Ion Engines"
+		"Hyperdrive"
+		
+	turret 0 1
+	engine -6 39
+		zoom 1
+		angle 0
+		under
+	engine 6 39
+		zoom 1
+		angle 0
+		under
+	explode "tiny explosion" 10
+	explode "small explosion" 5
+	description "Mid-sized mid-ranged transport manufactured by [shipyard] for general transit across Dels space."
+
+ship "Sendo"
+	sprite "ship/dels sendo"
+	thumbnail "thumbnail/dels sendo thumb"
+	attributes
+		category "Transport"
+		"cost" 200000
+		"shields" 600
+		"hull" 400
+		"required crew" 1
+		"bunks" 10
+		"mass" 80
+		"drag" 1.5
+		"heat dissipation" .8
+		"fuel capacity" 900
+		"cargo space" 25
+		"outfit space" 250
+		"weapon capacity" 45
+		"engine capacity" 120
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"Fitar Anti-Missile"
+		
+		"C30 Fuel Cell"
+		"K0108 Battery Pack"
+		"SR10 Shield Generator"
+		
+		"Hao Ion Engines"
+		"Type-F Hyperdrive"
+		
+	turret 0 1
+	engine -6 39
+		zoom 1
+		angle 0
+		under
+	engine 6 39
+		zoom 1
+		angle 0
+		under
+	explode "tiny explosion" 10
+	explode "small explosion" 5
+	description "High speed long range transport commonly used for long range transit as well as the upper classes for business and vacation alike."
 
 #=================LIGHT FREIGHTER
 ship "Desen"
@@ -608,7 +699,62 @@ ship "Deeris"
 	explode "small explosion" 5
 	description "."
 #=================MEDIUM WARSHIP
-
+ship "Uldeor" #WiP
+	sprite "ship/dels deeris"
+	thumbnail "thumbnail/dels deeris thumb"
+	attributes
+		category "Medium Warship"
+		"cost" 2800000
+		"shields" 5800
+		"hull" 2200
+		"required crew" 22
+		"bunks" 45
+		"mass" 270
+		"drag" 2.2
+		"heat dissipation" .8
+		"fuel capacity" 400
+		"cargo space" 30
+		"outfit space" 580
+		"weapon capacity" 260
+		"engine capacity" 105
+		weapon
+			"blast radius" 20
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"Ukar-3 Blaster" 4
+		"Skue-6 Blaster" 4
+		"C30 Fuel Cell"
+		"K0538 Battery Pack"
+		"SR20 Shield Generator"
+		
+		"Kuar Ion Engines"
+		"Chaser Afterburner"
+		"Type-F Hyperdrive"
+		"Dels Ramscoop"
+		
+		
+	gun -14 -35
+	gun 14 -35
+	gun -19 -31.5
+	gun 19 -31.5
+	gun -24.5 -23.5
+	gun 24.5 -23.5
+	gun -29 -21
+	gun 29 -21
+	engine -4.5 50
+		zoom 1
+		angle 0
+		under
+	engine 4.5 50
+		zoom 1
+		angle 0
+		under
+	explode "tiny explosion" 10
+	explode "small explosion" 5
+	description "A common frigate used by Prada Kaote as primary fighting force."
+	
 #=================HEAVY WARSHIP
 ship "Darca"
 	sprite "ship/dels darca"
@@ -622,8 +768,8 @@ ship "Darca"
 		"shields" 8500
 		"hull" 6500
 		"mass" 550
-		"required crew" 20
-		"bunks" 60
+		"required crew" 200
+		"bunks" 600
 		"drag" 20
 		"heat dissipation" .4
 		"outfit space" 850
@@ -717,7 +863,7 @@ ship "Darca"
 	explode "small explosion" 36
 	explode "medium explosion" 17
 	explode "big explosion" 20
-	description "This carrier was designed to carry and deploy as much as possible drones to swarm their enemy."
+	description "Primary carrier deployed by Prada Kaote and one of the largest warship used by Dels. It is designed to fight in a fleet along with other warships and depoly drones and figthers as distraction."
 	
 ship "Decso"
 	sprite "ship/dels decso"
@@ -781,7 +927,7 @@ ship "Decso"
 	explode "small explosion" 36
 	explode "medium explosion" 24
 	explode "big explosion" 20
-	description "Built by Puda Der shipyard for Kaote and Dardornai Navy as response to raising threat from the newly formed Ufulre after contact with Ignaggen. It was said the real reason is to provide Kaote and Dardornai anti-capital capability incase of Ignaggen hostility."
+	description "Built by Puda Der shipyard for Kaote and Dardornai Navy as response to raising threat from the newly formed Ufulre after contact with Ignaggen. Though most Dels belive the real reason is to provide Kaote and Dardornai anti-capital capability incase of Ignaggen hostility."
 	
 ship "Dacar"
 	sprite "ship/dels dacar"
