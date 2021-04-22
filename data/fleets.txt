@@ -179,6 +179,58 @@ fleet "Dels guard"
 	variant 10
 		"Deeris" 3
 		
+fleet "Dels Kaote"
+	government "Dels Kaote"
+	names "Dels Guard"
+	fighters "Dels Fighter"
+	cargo 1
+	personality
+		confusion 10
+		heroic opportunistic frugal
+	variant 4
+		"Dee" 4
+		"Dea" 4
+		"Darca"
+	variant 2
+		"Dee" 4
+		"Dea" 4
+		"Darca"
+		"Decso"
+	variant 2
+		"Dee" 4
+		"Dea" 4
+		"Darca"
+		"Decso"
+		"Deeris" 5
+	variant 2
+		"Dee" 4
+		"Dea" 4
+		"Darca"
+		"Decso"
+	variant 1
+		"Dee" 4
+		"Dea" 4
+		"Darca"
+		"Decso" 2
+	variant 1
+		"Delsaylor"
+		"Dee" 10
+		"Dea" 10
+	variant 4
+		"Dacar heavy"
+		"Dee" 3
+		"Dea" 3
+	variant 5
+		"Dacar"
+		"Dee" 3
+		"Dea" 3
+	variant 10
+		"Secsen" 3
+	variant 10
+		"Senro" 3
+	variant 10
+		"Deeris" 3
+		
 fleet "Dels merchant"
 	government "Dels"
 	names "Dels civillian"
