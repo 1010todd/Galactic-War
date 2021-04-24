@@ -178,6 +178,7 @@ fleet "Dels guard"
 		"Senro" 3
 	variant 10
 		"Deeris" 3
+<<<<<<< Updated upstream
 		
 fleet "Dels Kaote"
 	government "Dels Kaote"
@@ -231,6 +232,106 @@ fleet "Dels Kaote"
 	variant 10
 		"Deeris" 3
 		
+=======
+	
+fleet "Dels Central Merchant"
+	government "Dels"
+	names "Dels civillian"
+	cargo 2
+	personality
+		confusion 30
+		timid appeasing
+	variant 100
+		"Sendo"
+	variant 100
+		"Donson"
+	variant 80
+		"Desen"
+	variant 60
+		"Sendo"
+		"Desin"
+	variant 60
+		"Donson" 5
+		"Desin" 2
+	variant 60
+		"Manoon"
+	variant 60
+		"Manoon" 2
+	variant 60
+		"Eudaion"
+	variant 60
+		"Manoon"
+		"Desen" 3
+	variant 50
+		"Manoon"
+		"Derso" 2
+	variant 50
+		"Eudaion"
+		"Manoon" 2
+	variant 50
+		"Dacar"
+		"Manoon" 4
+	variant 40
+		"Eudaion" 3
+		"Ekdor" 6
+
+fleet "Dels Outward Merchant"
+	government "Dels"
+	names "Dels civillian"
+	cargo 2
+	personality
+		confusion 24
+		timid appeasing
+	variant 100
+		"Sendo"
+	variant 100
+		"Donson"
+	variant 100
+		"Desen"
+	variant 100
+		"Desin"
+	variant 100
+		"Sendo" 2
+		"Desin"
+	variant 100
+		"Desen" 3
+		"Derso"
+		"Desin"
+	variant 80
+		"Donson" 3
+	variant 100
+		"Donson" 3
+		"Desin"
+	variant 70
+		"Manoon"
+		"Derso" 2
+	variant 70
+		"Manoon"
+		"Ekdor" 2
+	variant 70
+		"Manoon"
+		"Desin" 2
+	variant 70
+		"Manoon" 3
+		"Secsen" 3
+		"Desin" 2
+	variant 50
+		"Eudaion"
+	variant 60
+		"Eudaion"
+		"Derso" 3
+	variant 60
+		"Eudaion" 2
+	variant 40
+		"Dacar"
+		"Dea" 3
+	variant 40
+		"Dacar"
+		"Dea" 5
+		"Manoon" 2
+		"Deeris" 3
+	
+>>>>>>> Stashed changes
 fleet "Dels merchant"
 	government "Dels"
 	names "Dels civillian"
