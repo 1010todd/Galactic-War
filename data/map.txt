@@ -199,10 +199,7 @@ system Aelleo
 	belt 1219
 	link Fellan
 	link Kelgevu
-<<<<<<< Updated upstream
-=======
 	link Leunorra
->>>>>>> Stashed changes
 	link Rakugor
 	asteroids "small rock" 34 6.4532
 	asteroids "medium rock" 4 5.1714
@@ -788,10 +785,7 @@ system Alkurud
 	trade Medical 803
 	trade Metal 457
 	trade Plastic 346
-<<<<<<< Updated upstream
-=======
 	fleet "Dels Outward Merchant" 600
->>>>>>> Stashed changes
 	object
 		sprite star/m4
 		period 10
@@ -1290,10 +1284,7 @@ system Ardeedur
 	trade Metal 250
 	trade Plastic 481
 	fleet "Dels merchant" 600
-<<<<<<< Updated upstream
-=======
 	fleet "Dels Central Merchant" 700
->>>>>>> Stashed changes
 	object
 		sprite star/g5
 		period 10
@@ -1477,10 +1468,7 @@ system Aretu
 	asteroids "medium metal" 70 3.192
 	asteroids "large metal" 6 2.736
 	trade Food 195
-<<<<<<< Updated upstream
-=======
 	fleet "Dels Outward Merchant" 1200
->>>>>>> Stashed changes
 	object
 		sprite star/k0
 		period 10
@@ -1950,6 +1938,7 @@ system Boklok
 	fleet "Dels merchant" 600
 	fleet "Dels guard" 1000
 	fleet "Dels Central Merchant" 1000
+	fleet Ignaggen 1200
 	object
 		sprite star/k0
 		period 10
@@ -3186,7 +3175,7 @@ system Cesno
 system Cevert
 	pos -1236.14 -5012.1
 	government Dels
-	habitable 745.92
+	habitable 1080
 	link Boklok
 	link Comar
 	link "Fee Jo"
@@ -3213,47 +3202,32 @@ system Cevert
 	fleet "Dels miner" 1000
 	fleet "Dels merchant" 600
 	fleet "Dels Central Merchant" 800
+	fleet Ignaggen 700
 	object
-		sprite star/k5
-		distance 47.619
-		period 17.1277
+		sprite star/g0
+		period 10
 	object
-		sprite star/m0
-		distance 63.381
-		period 17.1277
-		offset 180
+		sprite planet/rock5
+		distance 142.89
+		period 20.7898
 	object
-		sprite planet/gas16
-		distance 542.071
-		period 184.841
-		object Senta
-			sprite planet/dust5
-			distance 240
-			period 19.571
-		object Monsa
-			sprite planet/desert4
-			distance 362
-			period 36.2543
+		sprite planet/desert10
+		distance 378.58
+		period 89.6571
 	object
-		sprite planet/gas7
-		distance 1760.56
-		period 1081.91
-		object
-			sprite planet/miranda
-			distance 222
-			period 11.7668
-		object
-			sprite planet/callisto
-			distance 372
-			period 25.5238
-		object
-			sprite planet/ice7
-			distance 544
-			period 45.1366
-		object
-			sprite planet/luna
-			distance 717
-			period 68.2982
+		sprite planet/rock10
+		distance 621.58
+		period 188.623
+	object Vetlorui
+		sprite planet/forest1
+		distance 984.416
+		period 375.938
+		offset 330.239
+	object
+		sprite planet/gas13
+		distance 2902.46
+		period 1903.25
+		offset 41.8056
 
 system Chaihai
 	pos -40.0204 -3798.83
@@ -3370,7 +3344,7 @@ system "Coai Mesoh'a"
 system Cocaonir
 	pos -1644.25 -4924.3
 	government Dels
-	habitable 320
+	habitable 1715
 	belt 1352
 	link Dopolk
 	link Duraai
@@ -3395,41 +3369,46 @@ system Cocaonir
 	trade Metal 516
 	trade Plastic 327
 	fleet "Dels merchant" 600
-<<<<<<< Updated upstream
-=======
 	fleet "Dels Central Merchant" 600
->>>>>>> Stashed changes
+	fleet "Dels guard" 800
 	object
-		sprite star/m0
+		sprite star/f5
 		period 10
 	object
-		sprite planet/ganymede
-		distance 124.56
-		period 31.0851
+		sprite planet/rock1
+		distance 237.96
+		period 35.4555
 	object
-		sprite planet/gas16
-		distance 361.37
-		period 153.608
-	object
-		sprite planet/gas9
-		distance 1310.61
-		period 1060.95
+		sprite planet/ice1
+		distance 585
+		period 136.666
 		object
-			sprite planet/dust7
-			distance 252
-			period 15
+			sprite planet/ice8
+			distance 158
+			period 16.9739
+	object Ailoorne
+		sprite planet/forest6
+		distance 1172.86
+		period 387.968
+		offset 161.31
+	object
+		sprite planet/gas3
+		distance 1531.9
+		period 579.126
+		offset 26.5064
+	object
+		sprite planet/gas2
+		distance 2152.9
+		period 964.858
+		offset 11.2916
+		object
+			sprite planet/rock0
+			distance 196
+			period 16.6264
 		object
 			sprite planet/rock3
-			distance 346
-			period 24.1326
-		object
-			sprite planet/rock14
-			distance 523
-			period 44.848
-		object
-			sprite planet/dust0
-			distance 670
-			period 65.0283
+			distance 317
+			period 34.1982
 
 system Codelo
 	pos -1340.69 -5222.97
@@ -3800,18 +3779,11 @@ system Cordurle
 			period 64.6161
 
 system Corduro
-<<<<<<< Updated upstream
-	pos -1009.87 -4824.67
-	government Dels
-	habitable 2160
-	belt 1445
-=======
 	pos -1006.87 -4827.67
 	government Dels
 	habitable 2160
 	belt 1445
 	link Leunorra
->>>>>>> Stashed changes
 	link Stidueda
 	link Vedeero
 	asteroids "small rock" 73 8.064
@@ -5135,10 +5107,7 @@ system Dardine
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
-<<<<<<< Updated upstream
-=======
 	fleet "Dels Outward Merchant" 600
->>>>>>> Stashed changes
 	object
 		sprite star/m0
 		period 10
@@ -5294,6 +5263,7 @@ system Deaonudor
 	trade Metal 516
 	trade Plastic 327
 	fleet "Dels Central Merchant" 700
+	fleet "Dels guard" 800
 	object
 		sprite star/k0
 		period 10
@@ -5333,10 +5303,7 @@ system Deefolks
 	link Altol
 	link Feeroko
 	link Kelgevu
-<<<<<<< Updated upstream
-=======
 	link Leunorra
->>>>>>> Stashed changes
 	link Vedeero
 	asteroids "small rock" 67 5.7798
 	asteroids "medium rock" 102 2.964
@@ -6200,10 +6167,7 @@ system Deuqou
 	trade Medical 803
 	trade Metal 457
 	trade Plastic 346
-<<<<<<< Updated upstream
-=======
 	fleet "Dels Outward Merchant" 600
->>>>>>> Stashed changes
 	object
 		sprite star/a5
 		distance 8.55485
@@ -6955,10 +6919,7 @@ system "Dukor Nor"
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
-<<<<<<< Updated upstream
-=======
 	fleet "Dels Outward Merchant" 800
->>>>>>> Stashed changes
 	object
 		sprite star/g5
 		distance 50.7834
@@ -7150,13 +7111,10 @@ system Duraai
 	trade Medical 806
 	trade Metal 466
 	trade Plastic 339
-	fleet "Dels guard" 1000
+	fleet "Dels guard" 800
 	fleet "Dels merchant" 600
-<<<<<<< Updated upstream
-=======
 	fleet "Dels Outward Merchant" 1000
 	fleet "Dels Central Merchant" 600
->>>>>>> Stashed changes
 	0
 	object
 		sprite star/k0
@@ -7214,8 +7172,6 @@ system Duraai
 			period 36.4047
 			0
 
-<<<<<<< Updated upstream
-=======
 system Durdan
 	pos -2263.8 -4780.26
 	government Dels
@@ -7281,7 +7237,6 @@ system Durdan
 			distance 503
 			period 33.0604
 
->>>>>>> Stashed changes
 system Durkul
 	pos 675.772 -5536.56
 	government Revos
@@ -7723,11 +7678,8 @@ system Eedoruna
 	trade Metal 516
 	trade Plastic 327
 	fleet "Dels merchant" 600
-<<<<<<< Updated upstream
-=======
 	fleet "Dels Outward Merchant" 700
 	fleet "Dels Central Merchant" 700
->>>>>>> Stashed changes
 	object
 		sprite star/k5
 		distance 35.607
@@ -7741,18 +7693,21 @@ system Eedoruna
 		sprite planet/desert6
 		distance 211.393
 		period 45.0142
-	object
+	object Muneera
 		sprite planet/desert10
-		distance 802.403
-		period 332.891
-		object
+		distance 885.022
+		period 385.607
+		offset 232.836
+		object "Dikena "
 			sprite planet/ice7
-			distance 187
-			period 26.18
+			distance 183.684
+			period 25.4867
+			offset 306.772
 	object
 		sprite planet/gas13
-		distance 1669.21
-		period 998.807
+		distance 1748.51
+		period 1070.82
+		offset 96.7087
 		object
 			sprite planet/europa
 			distance 262
@@ -8158,8 +8113,6 @@ system Elnio
 			distance 230
 			period 18.3607
 
-<<<<<<< Updated upstream
-=======
 system Elnorha
 	pos -2194.63 -4872.76
 	government Dels
@@ -8217,7 +8170,6 @@ system Elnorha
 			distance 700
 			period 65.3197
 
->>>>>>> Stashed changes
 system Elormunel
 	pos -400.295 -5238.13
 	government Ignaggen
@@ -8310,11 +8262,9 @@ system Elronu
 	trade Metal 250
 	trade Plastic 481
 	fleet "Dels merchant" 600
-<<<<<<< Updated upstream
-=======
 	fleet "Dels Outward Merchant" 800
 	fleet "Dels Central Merchant" 600
->>>>>>> Stashed changes
+	fleet "Dels guard" 800
 	object
 		sprite star/m0
 		period 10
@@ -8857,10 +8807,7 @@ system Eududekor
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
-<<<<<<< Updated upstream
-=======
 	fleet "Dels Outward Merchant" 700
->>>>>>> Stashed changes
 	object
 		sprite star/k0
 		distance 46
@@ -9359,11 +9306,8 @@ system "Fee Lo"
 	trade Plastic 364
 	fleet "Dels guard" 1000
 	fleet "Dels merchant" 600
-<<<<<<< Updated upstream
-=======
 	fleet "Dels Outward Merchant" 800
 	fleet "Dels Central Merchant" 600
->>>>>>> Stashed changes
 	0
 	object
 		sprite star/m4
@@ -9519,11 +9463,7 @@ system Feelov
 			period 60.3179
 
 system Feeroko
-<<<<<<< Updated upstream
-	pos -1104.48 -4958.48
-=======
 	pos -1122.48 -4953.48
->>>>>>> Stashed changes
 	government Dels
 	habitable 625
 	link Comar
@@ -11332,11 +11272,8 @@ system Geen
 	trade Food 346
 	fleet "Dels guard" 1000
 	fleet "Dels merchant" 600
-<<<<<<< Updated upstream
-=======
 	fleet "Dels Outward Merchant" 1000
 	fleet "Dels Central Merchant" 600
->>>>>>> Stashed changes
 	object
 		sprite star/g0
 		period 10
@@ -11473,11 +11410,7 @@ system Genak
 			period 13.8611
 
 system Genlo
-<<<<<<< Updated upstream
-	pos -1215.47 -4914.13
-=======
 	pos -1234.47 -4928.13
->>>>>>> Stashed changes
 	government Dels
 	habitable 1215
 	link Loasta
@@ -13902,10 +13835,7 @@ system Gullamo
 	habitable 486.68
 	belt 1157
 	link Mallukavi
-<<<<<<< Updated upstream
-=======
 	link Maullenon
->>>>>>> Stashed changes
 	link Rakugor
 	asteroids "small rock" 6 4.017
 	asteroids "medium rock" 11 3.471
@@ -14536,10 +14466,7 @@ system Hasenu
 	trade Medical 898
 	trade Metal 516
 	trade Plastic 327
-<<<<<<< Updated upstream
-=======
 	fleet "Dels Central Merchant" 800
->>>>>>> Stashed changes
 	object
 		sprite star/g0
 		distance 38.8563
@@ -14940,11 +14867,7 @@ system Heosli
 		0
 
 system Heukao
-<<<<<<< Updated upstream
-	pos -1631.76 -5196.26
-=======
 	pos -1634.76 -5210.26
->>>>>>> Stashed changes
 	government Dels
 	habitable 1250
 	belt 1587
@@ -14987,26 +14910,15 @@ system Heukao
 		period 376.745
 		offset 334.495
 	object Dukreve
-		sprite planet/rock13
-<<<<<<< Updated upstream
-		distance 1188.54
-		period 463.581
-		offset 351.002
+		sprite planet/ocean1
+		distance 1455.02
+		period 627.928
+		offset 67.5682
 	object
 		sprite planet/gas6
-		distance 3042.79
-		period 1898.95
-		offset 359.107
-=======
-		distance 1695.57
-		period 789.912
-		offset 174.798
-	object
-		sprite planet/gas6
-		distance 3549.82
-		period 2392.84
-		offset 155.225
->>>>>>> Stashed changes
+		distance 3321.27
+		period 2165.52
+		offset 92.2139
 		object
 			sprite planet/rhea
 			distance 293
@@ -15040,15 +14952,10 @@ system Heulree
 	trade Medical 803
 	trade Metal 457
 	trade Plastic 346
-<<<<<<< Updated upstream
-	fleet "Dels merchant" 600
-	fleet "Dels guard" 500
-=======
 	fleet "Dels merchant" 800
 	fleet "Dels guard" 500
 	fleet "Dels Outward Merchant" 600
 	fleet "Dels Central Merchant" 1200
->>>>>>> Stashed changes
 	object
 		sprite star/k5
 		period 10
@@ -15085,8 +14992,6 @@ system Heulree
 			distance 675
 			period 44.7941
 
-<<<<<<< Updated upstream
-=======
 system Hidawe
 	pos -2172.47 -4803.94
 	government Dels
@@ -15158,7 +15063,6 @@ system Hidawe
 			distance 643
 			period 47.783
 
->>>>>>> Stashed changes
 system Hildever
 	pos -1199.9 -4715.69
 	government Dels
@@ -15313,10 +15217,7 @@ system Holmork
 	belt 1372
 	link Maloa
 	link Meellar
-<<<<<<< Updated upstream
-=======
 	link Mekouka
->>>>>>> Stashed changes
 	link Motardai
 	asteroids "small rock" 1 4.0716
 	asteroids "medium rock" 4 10.2544
@@ -15386,10 +15287,7 @@ system Huadinee
 	trade Medical 803
 	trade Metal 457
 	trade Plastic 346
-<<<<<<< Updated upstream
-=======
 	fleet "Dels Outward Merchant" 600
->>>>>>> Stashed changes
 	object
 		sprite star/k5
 		period 10
@@ -17070,10 +16968,8 @@ system "Jorenu Ke"
 	trade Metal 516
 	trade Plastic 327
 	fleet "Dels merchant" 600
-<<<<<<< Updated upstream
-=======
 	fleet "Dels Central Merchant" 600
->>>>>>> Stashed changes
+	fleet "Dels guard" 800
 	object
 		sprite star/g0
 		period 10
@@ -18152,10 +18048,7 @@ system Kaureyi
 	trade Medical 689
 	trade Metal 241
 	trade Plastic 447
-<<<<<<< Updated upstream
-=======
 	fleet "Dels Central Merchant" 1000
->>>>>>> Stashed changes
 	object
 		sprite star/g0
 		period 10
@@ -20196,6 +20089,7 @@ system Kinlona
 	fleet "Dels merchant" 600
 	fleet "Dels guard" 1000
 	fleet "Dels Central Merchant" 1700
+	fleet Ignaggen 700
 	object
 		sprite star/f0
 		period 10
@@ -20561,11 +20455,7 @@ system Ko'coso
 			period 25.612
 
 system Ko'couezur
-<<<<<<< Updated upstream
-	pos -793.197 -4240.82
-=======
 	pos -770.647 -4444.9
->>>>>>> Stashed changes
 	government Kumakk
 	habitable 486.68
 	belt 1818
@@ -20653,11 +20543,7 @@ system Ko'covo
 			period 16.467
 
 system Ko'dero
-<<<<<<< Updated upstream
-	pos -707.054 -4191.13
-=======
 	pos -763.919 -4246.92
->>>>>>> Stashed changes
 	government Kumakk
 	habitable 1715
 	belt 1375
@@ -20764,11 +20650,7 @@ system Ko'doco
 			period 17.1764
 
 system Ko'dolou
-<<<<<<< Updated upstream
-	pos -825.834 -4182.27
-=======
 	pos -807.794 -4385.22
->>>>>>> Stashed changes
 	government Kumakk
 	habitable 486.68
 	belt 1678
@@ -21189,11 +21071,7 @@ system Ko'kolur
 		period 1217.52
 
 system Ko'komo
-<<<<<<< Updated upstream
-	pos -718.366 -4306.51
-=======
 	pos -730.768 -4330.19
->>>>>>> Stashed changes
 	government Kumakk
 	habitable 320
 	belt 1776
@@ -21407,11 +21285,7 @@ system Ko'lolo
 		period 1630.6
 
 system Ko'luclo
-<<<<<<< Updated upstream
-	pos -831.219 -4002.64
-=======
 	pos -831.219 -4311.57
->>>>>>> Stashed changes
 	government Kumakk
 	habitable 1705
 	belt 1754
@@ -22344,11 +22218,7 @@ system Ko'zoco
 		period 1095.68
 
 system Ko'zomo
-<<<<<<< Updated upstream
-	pos -777.998 -4003.37
-=======
 	pos -796.038 -4113.86
->>>>>>> Stashed changes
 	government Kumakk
 	habitable 135
 	belt 1790
@@ -22612,11 +22482,9 @@ system Koedee
 	trade Metal 250
 	trade Plastic 481
 	fleet "Dels merchant" 600
-<<<<<<< Updated upstream
-=======
 	fleet "Dels Outward Merchant" 800
 	fleet "Dels Central Merchant" 600
->>>>>>> Stashed changes
+	fleet "Dels guard" 800
 	object
 		sprite star/k0
 		distance 45.5
@@ -25257,11 +25125,7 @@ system Litai
 			period 21.7255
 
 system Loasta
-<<<<<<< Updated upstream
-	pos -1159.58 -4931.91
-=======
 	pos -1171.58 -4918.91
->>>>>>> Stashed changes
 	government Dels
 	habitable 659.2
 	link Cevert
@@ -25425,10 +25289,7 @@ system Loevuee
 	trade Metal 516
 	trade Plastic 327
 	fleet "Dels merchant" 600
-<<<<<<< Updated upstream
-=======
 	fleet "Dels Central Merchant" 700
->>>>>>> Stashed changes
 	object
 		sprite star/g5
 		period 10
@@ -25704,10 +25565,8 @@ system Lordianee
 	trade Metal 250
 	trade Plastic 481
 	fleet "Dels merchant" 600
-<<<<<<< Updated upstream
-=======
 	fleet "Dels Central Merchant" 600
->>>>>>> Stashed changes
+	fleet "Dels guard" 800
 	object
 		sprite star/m8
 		period 10
@@ -25924,10 +25783,7 @@ system Lueerda
 	trade Medical 898
 	trade Metal 540
 	trade Plastic 458
-<<<<<<< Updated upstream
-=======
 	fleet "Dels Central Merchant" 1200
->>>>>>> Stashed changes
 	object
 		sprite star/k0
 		distance 16.938
@@ -27049,11 +26905,9 @@ system Maodeso
 	trade Metal 516
 	trade Plastic 327
 	fleet "Dels merchant" 600
-<<<<<<< Updated upstream
-=======
 	fleet "Dels Outward Merchant" 800
 	fleet "Dels Central Merchant" 600
->>>>>>> Stashed changes
+	fleet "Dels guard" 800
 	object
 		sprite star/g0
 		distance 37.2773
@@ -27887,10 +27741,7 @@ system Meellar
 	link "Fee Ro"
 	link Holmork
 	link Maloa
-<<<<<<< Updated upstream
-=======
 	link Mureene
->>>>>>> Stashed changes
 	link Nelop
 	asteroids "small rock" 22 3.5217
 	asteroids "medium rock" 199 2.4024
@@ -27904,10 +27755,7 @@ system Meellar
 	trade Food 493
 	fleet "Dels guard" 1000
 	fleet "Dels merchant" 600
-<<<<<<< Updated upstream
-=======
 	fleet "Dels Outward Merchant" 1000
->>>>>>> Stashed changes
 	object
 		sprite star/g5
 		distance 44.6544
@@ -28027,35 +27875,6 @@ system Mekler
 			distance 279
 			period 11.9034
 
-<<<<<<< Updated upstream
-system Melvurero
-	pos -632.394 -5057.04
-	government Ignaggen
-	habitable 625
-	belt 1548
-	link Aorlem
-	link Fielos
-	link Fosme
-	asteroids "large metal" 1 7.4152
-	trade Clothing 268
-	trade Electronics 773
-	trade Equipment 608
-	trade Food 334
-	trade "Heavy Metals" 962
-	trade Industrial 761
-	trade "Luxury Goods" 1131
-	trade Medical 788
-	trade Metal 280
-	trade Plastic 302
-	object
-		sprite star/g5
-		period 10
-	object
-		sprite planet/ice2
-		distance 152.89
-		period 30.2474
-	object
-=======
 system Mekouka
 	pos -2056.83 -5066.84
 	government Dels
@@ -28133,7 +27952,6 @@ system Melvurero
 		distance 152.89
 		period 30.2474
 	object
->>>>>>> Stashed changes
 		sprite planet/desert0
 		distance 353.14
 		period 106.179
@@ -28970,10 +28788,7 @@ system Motardai
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
-<<<<<<< Updated upstream
-=======
 	fleet "Dels Outward Merchant" 800
->>>>>>> Stashed changes
 	object
 		sprite star/g5
 		period 10
@@ -29033,6 +28848,7 @@ system Moudee
 	trade Metal 250
 	trade Plastic 481
 	fleet "Dels Central Merchant" 700
+	fleet "Dels guard" 800
 	object
 		sprite star/m4
 		period 10
@@ -30127,6 +29943,7 @@ system Neeveeria
 	trade Metal 265
 	trade Plastic 454
 	fleet "Dels merchant" 600
+	fleet Ignaggen 700
 	object
 		sprite star/f0
 		period 10
@@ -30671,10 +30488,7 @@ system Neulod
 	pos -1207.56 -5410.8
 	government Dels
 	habitable 486.68
-<<<<<<< Updated upstream
-=======
 	link Nelha
->>>>>>> Stashed changes
 	link Seya
 	asteroids "small rock" 15 7.5544
 	asteroids "medium rock" 3 3.1388
@@ -30683,10 +30497,7 @@ system Neulod
 	asteroids "medium metal" 70 6.9692
 	asteroids "large metal" 10 7.8736
 	trade Food 159
-<<<<<<< Updated upstream
-=======
 	fleet "Dels Outward Merchant" 1200
->>>>>>> Stashed changes
 	object
 		sprite star/k0
 		period 10
@@ -30827,16 +30638,18 @@ system Nobdean
 		period 171.266
 	object Senqos
 		sprite planet/rock10
-		distance 1276.19
-		period 729.446
+		distance 1170.49
+		period 640.722
+		offset 99.1036
 		object
 			sprite planet/ice7
 			distance 160
 			period 17.0332
 	object
 		sprite planet/gas17
-		distance 3063.75
-		period 2713.31
+		distance 2958.05
+		period 2574.11
+		offset 331.375
 		object
 			sprite planet/io
 			distance 228
@@ -30922,6 +30735,7 @@ system Nordevu
 	trade Metal 516
 	trade Plastic 327
 	fleet "Dels Central Merchant" 600
+	fleet "Dels guard" 800
 	object
 		sprite star/a5
 		period 10
@@ -31566,10 +31380,8 @@ system Nulvekor
 	trade Metal 250
 	trade Plastic 481
 	fleet "Dels merchant" 600
-<<<<<<< Updated upstream
-=======
 	fleet "Dels Central Merchant" 600
->>>>>>> Stashed changes
+	fleet "Dels guard" 800
 	object
 		sprite star/k0
 		period 10
@@ -31578,24 +31390,24 @@ system Nulvekor
 		distance 256.01
 		period 74.2717
 	object Keirveeda
-		sprite planet/desert8
-		distance 667.524
-		period 312.708
-		offset 70.7953
+		sprite planet/cloud7
+		distance 663.524
+		period 309.901
+		offset 29.1993
 	object
 		sprite planet/gas10
-		distance 1218.81
-		period 771.515
-		offset 37.0919
+		distance 1210.81
+		period 763.932
+		offset 18.6112
 		object
 			sprite planet/rhea
 			distance 233
 			period 18.7211
 	object
 		sprite planet/gas7
-		distance 2592.42
-		period 2393.3
-		offset 5.53772
+		distance 2584.42
+		period 2382.23
+		offset 2.74904
 		object
 			sprite planet/ice7
 			distance 243
@@ -31903,7 +31715,7 @@ system Oliga
 system Olpuor
 	pos -1563.24 -4919.43
 	government Dels
-	habitable 425.92
+	habitable 368.28
 	belt 1643
 	link Cocaonir
 	link Lordianee
@@ -31926,41 +31738,60 @@ system Olpuor
 	trade Metal 250
 	trade Plastic 481
 	fleet "Dels merchant" 600
-<<<<<<< Updated upstream
-=======
 	fleet "Dels Central Merchant" 600
->>>>>>> Stashed changes
 	object
-		sprite star/k5
-		period 10
+		sprite star/m4
+		distance 33.3578
+		period 18.0939
+		offset 180
 	object
-		sprite planet/rock1
-		distance 295.89
-		period 98.6487
+		sprite star/m8
+		distance 57.6422
+		period 18.0939
+	object Luaneedor
+		sprite planet/forest2
+		distance 420.202
+		period 179.539
 		object
-			sprite planet/rock17
-			distance 151
-			period 21.5764
+			sprite planet/lava0
+			distance 179
+			period 22.9018
 	object
-		sprite planet/dust6
-		distance 655.85
-		period 325.539
+		sprite planet/cloud4
+		distance 788.692
+		period 461.671
 	object
-		sprite planet/cloud7
-		distance 839.1
-		period 471.104
+		sprite planet/rock3
+		distance 966.942
+		period 626.717
 	object
-		sprite planet/gas5
-		distance 2337.59
-		period 2190.53
+		sprite planet/gas12
+		distance 1478.9
+		period 1185.44
 		object
-			sprite planet/tethys
-			distance 246
-			period 12.8307
+			sprite planet/dust4
+			distance 265
+			period 11.3306
 		object
-			sprite planet/dust1
-			distance 394
-			period 26.0071
+			sprite planet/dust5
+			distance 365
+			period 18.3157
+	object
+		sprite planet/gas17
+		distance 2683.94
+		period 2898.22
+		object
+			sprite planet/oberon
+			distance 208
+			period 12.8165
+		object
+			sprite planet/callisto
+			distance 356
+			period 28.6978
+		object
+			sprite planet/miranda
+			distance 491
+			period 46.4831
 
 system Omili
 	pos -573.123 -6452.07
@@ -35001,10 +34832,7 @@ system Reevukmarai
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
-<<<<<<< Updated upstream
-=======
 	fleet "Dels Outward Merchant" 700
->>>>>>> Stashed changes
 	object
 		sprite star/k0
 		period 10
@@ -35445,7 +35273,7 @@ system Remork
 	asteroids "medium rock" 12 2.016
 	asteroids "large rock" 1 3.3936
 	asteroids "large metal" 1 4.6368
-	minables iron 35 3.86798
+	minables iron 35 8.92341
 	minables titanium 35 3.86798
 	trade Clothing 247
 	trade Electronics 792
@@ -35466,26 +35294,30 @@ system Remork
 		sprite planet/desert0
 		distance 234.49
 		period 65.1066
-	object
+	object Mentail
 		sprite planet/ocean9
-		distance 781.13
-		period 395.843
+		distance 653.121
+		period 302.642
+		offset 322.483
 		object
 			sprite planet/rock14
 			distance 174
 			period 23.498
 	object
 		sprite planet/gas10
-		distance 1223.57
-		period 776.035
+		distance 1095.56
+		period 657.496
+		offset 26.3199
 	object
 		sprite planet/gas12
-		distance 1741.57
-		period 1317.8
+		distance 1613.56
+		period 1175.21
+		offset 227.761
 	object
 		sprite planet/gas3
-		distance 3734.78
-		period 4138.43
+		distance 3606.77
+		period 3927.5
+		offset 341.361
 
 system Reok
 	pos 5064.68 -8046.52
@@ -36195,10 +36027,7 @@ system Rocco
 	trade Plastic 311
 	fleet "Dels guard" 1000
 	fleet "Dels merchant" 600
-<<<<<<< Updated upstream
-=======
 	fleet "Dels Central Merchant" 700
->>>>>>> Stashed changes
 	object
 		sprite star/k0
 		period 10
@@ -36512,10 +36341,7 @@ system Rovordai
 	trade Medical 778
 	trade Metal 306
 	trade Plastic 444
-<<<<<<< Updated upstream
-=======
 	fleet "Dels Central Merchant" 800
->>>>>>> Stashed changes
 	object
 		sprite star/a0
 		period 10
@@ -38838,11 +38664,7 @@ system "Sector Dels"
 			sprite planet/wormhole
 			distance 1325.2
 			period 618.772
-<<<<<<< Updated upstream
-			offset 29.3796
-=======
 			offset 29.3563
->>>>>>> Stashed changes
 
 system Sedop
 	pos -1476.48 -5571.77
@@ -39805,11 +39627,7 @@ system Sorniei
 			period 35.0804
 
 system Stidueda
-<<<<<<< Updated upstream
-	pos -1045.45 -4774.19
-=======
 	pos -1060.45 -4776.19
->>>>>>> Stashed changes
 	government Dels
 	habitable 745.92
 	belt 1281
@@ -39903,11 +39721,8 @@ system Sturvor
 	trade Metal 250
 	trade Plastic 481
 	fleet "Dels merchant" 600
-<<<<<<< Updated upstream
-=======
 	fleet "Dels Outward Merchant" 800
 	fleet "Dels Central Merchant" 600
->>>>>>> Stashed changes
 	object
 		sprite star/k5
 		period 10
@@ -40029,10 +39844,7 @@ system Sudean
 	trade Plastic 330
 	fleet "Dels guard" 1000
 	fleet "Dels merchant" 600
-<<<<<<< Updated upstream
-=======
 	fleet "Dels Central Merchant" 800
->>>>>>> Stashed changes
 	object
 		sprite star/g5
 		distance 58.5
@@ -40498,10 +40310,7 @@ system Suolaa
 	trade Food 361
 	fleet "Dels guard" 600
 	fleet "Dels merchant" 1200
-<<<<<<< Updated upstream
-=======
 	fleet "Dels Central Merchant" 700
->>>>>>> Stashed changes
 	object
 		sprite star/m8
 		period 10
@@ -40680,10 +40489,7 @@ system Takuvurdan
 	trade Medical 893
 	trade Metal 547
 	trade Plastic 395
-<<<<<<< Updated upstream
-=======
 	fleet "Dels Outward Merchant" 600
->>>>>>> Stashed changes
 	object
 		sprite star/k5
 		period 10
@@ -41069,10 +40875,7 @@ system Todelbe
 	trade Medical 898
 	trade Metal 540
 	trade Plastic 458
-<<<<<<< Updated upstream
-=======
 	fleet "Dels Outward Merchant" 600
->>>>>>> Stashed changes
 	object
 		sprite star/g0
 		period 10
@@ -41162,6 +40965,8 @@ system Tuarli
 	trade Medical 613
 	trade Metal 265
 	trade Plastic 454
+	fleet Ignaggen 700
+	fleet "Dels merchant" 700
 	object
 		sprite star/g5
 		period 10
@@ -41327,13 +41132,9 @@ system Udideon
 	government Dels
 	habitable 486.68
 	belt 1585
-<<<<<<< Updated upstream
-	link "Fee Ro"
-=======
 	link Deekurti
 	link "Fee Ro"
 	link Mureene
->>>>>>> Stashed changes
 	asteroids "medium rock" 1 4.312
 	asteroids "large rock" 2 2.0328
 	asteroids "small metal" 21 2.772
@@ -41350,10 +41151,7 @@ system Udideon
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
-<<<<<<< Updated upstream
-=======
 	fleet "Dels Outward Merchant" 1200
->>>>>>> Stashed changes
 	object
 		sprite star/k0
 		period 10
@@ -42470,10 +42268,7 @@ system Vedeero
 	belt 1845
 	link Corduro
 	link Deefolks
-<<<<<<< Updated upstream
-=======
 	link Leunorra
->>>>>>> Stashed changes
 	link Vertude
 	asteroids "large rock" 3 6.885
 	asteroids "small metal" 4 2.754
@@ -42491,6 +42286,7 @@ system Vedeero
 	trade Medical 765
 	trade Metal 250
 	trade Plastic 481
+	fleet Ignaggen 700
 	object
 		sprite star/g0
 		period 10
@@ -42786,6 +42582,7 @@ system Verdulla
 	trade Metal 250
 	trade Plastic 481
 	fleet "Dels Central Merchant" 700
+	fleet "Dels guard" 800
 	object
 		sprite star/m4
 		period 10
@@ -42948,6 +42745,7 @@ system Veukeeo
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 800
 	fleet "Dels Central Merchant" 600
+	fleet "Dels guard" 800
 	object
 		sprite star/k0
 		period 10
@@ -42955,22 +42753,26 @@ system Veukeeo
 		sprite planet/europa
 		distance 123.36
 		period 24.8428
-	object
-		sprite planet/rock11
-		distance 342.17
-		period 114.763
+	object Koudaenao
+		sprite planet/rock12
+		distance 413.31
+		period 152.353
+		offset 209.29
 	object
 		sprite planet/neptune
-		distance 1031.38
-		period 600.574
+		distance 1132.52
+		period 691.046
+		offset 313.1
 	object
 		sprite planet/gas1
-		distance 1388.14
-		period 937.752
+		distance 1489.28
+		period 1042.08
+		offset 153.345
 	object
 		sprite planet/rhea
-		distance 2030.23
-		period 1658.66
+		distance 2131.37
+		period 1784.13
+		offset 60.8973
 
 system Vibug
 	pos -647.914 -4882.1
@@ -43108,7 +42910,7 @@ system Vigune
 system Vikeoni
 	pos -1377.11 -4937.28
 	government Dels
-	habitable 425.92
+	habitable 486.68
 	belt 1621
 	link Deaonudor
 	link "Jorenu Ke"
@@ -43132,41 +42934,42 @@ system Vikeoni
 	trade Metal 516
 	trade Plastic 327
 	fleet "Dels Central Merchant" 700
+	fleet "Dels guard" 800
 	object
-		sprite star/k5
+		sprite star/k0
 		period 10
 	object
-		sprite planet/cloud7
-		distance 280.09
-		period 90.8537
+		sprite planet/desert2
+		distance 178.01
+		period 43.0631
+	object Neinoru
+		sprite planet/forest3
+		distance 461.01
+		period 179.475
+	object
+		sprite planet/callisto
+		distance 1095.57
+		period 657.504
+	object
+		sprite planet/gas14
+		distance 1942.18
+		period 1551.93
 		object
 			sprite planet/desert4
-			distance 147
-			period 24.8475
-	object
-		sprite planet/gas10
-		distance 783.33
-		period 424.926
-	object
-		sprite planet/desert8
-		distance 1125.97
-		period 732.295
-	object
-		sprite planet/gas6
-		distance 2183.73
-		period 1977.85
+			distance 233
+			period 14.4841
+		object
+			sprite planet/dust7
+			distance 340
+			period 25.5315
+		object
+			sprite planet/io
+			distance 440
+			period 37.587
 		object
 			sprite planet/rock14
-			distance 306
-			period 13.6725
-		object
-			sprite planet/dust0
-			distance 442
-			period 23.7355
-		object
-			sprite planet/lava0
-			distance 583
-			period 35.9557
+			distance 638
+			period 65.6281
 
 system Vilkavis
 	pos -2394.59 -5909.24
@@ -43340,7 +43143,7 @@ system Vobeelee
 	trade Medical 903
 	trade Metal 512
 	trade Plastic 370
-	fleet "Dels guard" 1000
+	fleet "Dels guard" 600
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 700
 	fleet "Dels Central Merchant" 500
@@ -43913,8 +43716,6 @@ system Vuivor
 			distance 274
 			period 23.8739
 
-<<<<<<< Updated upstream
-=======
 system Vukleda
 	pos -2123.68 -4933.89
 	government Dels
@@ -43985,7 +43786,6 @@ system Vukleda
 			distance 341
 			period 22.4007
 
->>>>>>> Stashed changes
 system Vukruo
 	pos -1636.24 -5416.46
 	government Dels
@@ -44012,10 +43812,7 @@ system Vukruo
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
-<<<<<<< Updated upstream
-=======
 	fleet "Dels Outward Merchant" 700
->>>>>>> Stashed changes
 	object
 		sprite star/m4
 		period 10
@@ -45043,6 +44840,13 @@ planet Aikino
 	outfitter `"Geevan Advanced"`
 	"required reputation" 1
 
+planet Ailoorne
+	landscape land/hills7-harro
+	description `This planet is one of the most populous planet in the Dels space with many aspect resembling the Dels home planet. `
+	spaceport `The spaceport is one massive building extending from a mountain with rows of landing pads along the three stair-like steps on the side of the buildings.`
+	shipyard "Dels Advanced"
+	outfitter "Dels Advanced"
+
 planet Akrogea
 	landscape land/badlands4
 	description `A hot mountainous planet with alot of caves, perfect for the Rakgonerian.`
@@ -45144,13 +44948,8 @@ planet Deesok
 planet Delro
 	attributes Dels
 	landscape land/hills5-sfiera
-<<<<<<< Updated upstream
-	description `This is the homeworld of the Dels. Cities shimmering in gold from decorative curves spiralling and turning around the wall of buildings forming complex patterns. `
-	description `Many cities here seems to have opted to use flying vehicle for transport rather then road vehicles. Except for a few cities with older, and different architecture which happens to devoid of any vehicle in the sky.`
-=======
 	description `This is the homeworld of the Dels. Multiple large megalopolis visible from afar, shimmering in gold from decorative curves spiralling and turning around the skin of the buildings.`
 	description `Many cities here have opted to use flying vehicle for transport rather than road vehicles to avoid congestion on the limited road they have. with exception for a few cities with different, older-looking architecture which happens to be devoid of any vehicle in the sky and have instead a large underground transport network for getting around.`
->>>>>>> Stashed changes
 	spaceport `The spaceport is a giant triangular building built on an artificial island with landing pads on top of the building. The landing pads are seperated into 3 sections on each side of the triangle each designated to a category of ships. `
 	shipyard "Dels Advanced"
 	outfitter "Dels Advanced"
@@ -45205,6 +45004,11 @@ planet Destri
 	bribe 0.7
 	security 0.9
 
+planet "Dikena "
+	landscape land/snow5
+	description `Unlike the planet it's orbiting, this aquatic moon is a host to various of microscopic creatures and bacteria most hidden beneath its frozen surface largely ignored.`
+	spaceport `Judging from the buildings around it, this spaceport was probably once a storage for storing ores harvested from the planet below back in the days where fighting gravity wasn't as trivial as today. Now it had mostly been abandoned.`
+
 planet Dolmorikan
 	attributes `"Dels (Pirate)"`
 	landscape land/forest0
@@ -45217,16 +45021,10 @@ planet Dolmorikan
 planet Dolseern
 	attributes Dels
 	landscape land/sea3
-<<<<<<< Updated upstream
-	description `A planet consist of mostly water on the surface with a few island scattered across the planet. Though the few island turns out be quite a popular tourist destination.`
-	spaceport `Most larger islands each have their own spaceport though none can support more than a few dozen ships. `
-	bribe 0.3
-=======
 	description `A planet consist of mostly water on the surface with a few island scattered across the planet. It's a host to multitude of marine life large and small including some of the oddest aquatic creatures in the galaxy. `
 	description `It turns out to be a very popular tourist destination with various luxury accomodations built on the few island around the planet and large ocean liners sailing across the planet.`
 	spaceport `The central spaceport was built on a large island near a volcano. The main building is curvy and painted vibrant blue as is the other buildings around it. Aside from small store selling basic commodities, there's no other shop to be found. `
 	bribe 0.8
->>>>>>> Stashed changes
 	security 0.5
 
 planet Doniti
@@ -45248,7 +45046,7 @@ planet Donto
 	security 0.2
 
 planet Dukreve
-	landscape land/mountain3
+	landscape land/snow11-sfiera
 	description .
 	spaceport .
 
@@ -45699,6 +45497,11 @@ planet Kotona
 	spaceport .
 	"required reputation" 1
 
+planet Koudaenao
+	landscape land/desert5
+	description `The first thing you see as you approch the planet is fields of massive solar panels size of a small ships spreading across the land as far as you can see powering the towns and factories on this planet. Plant farm on the other hand are mostly large greenhouses and are relatively small compared to the size of the cities they have to supply. `
+	spaceport `Silos and refrigerated warehouse here are notably larger and more in number than most other planet. `
+
 planet Krigma
 	landscape land/forest4
 	description .
@@ -45843,6 +45646,13 @@ planet "Losat 87:1"
 	shipyard "Donko Advanced"
 	outfitter "Donko Advanced"
 
+planet Luaneedor
+	landscape land/sea6
+	description `This world is almost perfect for the Dels to live in with similar flora and fauna to their homeplanet attracting a non-stopping stream of settlers since the early days of its discovery. Due to rapid population growth this planet experience many forest are being quickly mowed down by  the Dels. This problem however seems to be noticed and not ignored, a few city ships already exist exploring the vast ocean of the planet and many more are on the way.`
+	spaceport `The current spaceport is overcrowded with ships landing almost every minute and building barely big enough to handle the amount of people from a large transport. A new building is currently being built right next to the old one.`
+	shipyard "Dels Basic"
+	outfitter "Dels Basic"
+
 planet "Ma'Losat Gosk 2"
 	attributes Donko
 	landscape land/hills1
@@ -45872,9 +45682,9 @@ planet Magosen-L2885
 	security 0.9
 
 planet Makaree
-	attributes Destroyed
 	landscape land/badlands0
 	description .
+	spaceport .
 
 planet Masriqo
 	attributes Qoro(north)
@@ -45882,6 +45692,11 @@ planet Masriqo
 	description `Qoro's one of the very last planet surviving Ultaka's invasion, their buildings are very similar to Humans.`
 	spaceport `Almost the same style as Human spaceport.`
 	"required reputation" 1
+
+planet Mentail
+	landscape land/fog3
+	description `This cold ocean planet is a home to numerous of aquatic biotas. Many of them are also editable by the Dels. `
+	spaceport `The spaceport is a part of a large cityship due to lack of land on the planet.`
 
 planet Meramos-P333P
 	attributes Wallagi
@@ -45971,11 +45786,24 @@ planet Morlenka
 	spaceport .
 	"required reputation" 1
 
+planet Muneera
+	landscape land/badlands3
+	description `The planet's atmosphere is very hostile to most lifeform making it devoid of any life despite being in the meeting other requirements to support life. Due to abundant of valuable ores found on the planet crust it become a major mining plant in the region. To the point you can always see a few dozen mines from above everywhere you go.`
+	spaceport `The current spaceport is built upon a large flat area as result of many years of mining an entire mountain with a massive building dominating over the landing pads. Large cranes over arching a portion of the spaceport pouring tons of ores into the freighters quickly filling it before moving on to the next.`
+	shipyard "Dels Basic"
+	outfitter "Dels Basic"
+	outfitter "Dels Advanced"
+
 planet Neikor
 	landscape land/badlands5
 	description .
 	spaceport .
 	"required reputation" 1
+
+planet Neinoru
+	landscape land/myrabella3
+	description .
+	spaceport .
 
 planet Nerlok
 	landscape land/sky8
@@ -46236,9 +46064,9 @@ planet Senmari
 	security 0.6
 
 planet Senqos
-	attributes Destroyed
-	landscape land/sea7
-	description `This world once a planet with the most population in the dels galaxy, but now nothing left.`
+	landscape land/mountain25-spfld
+	description .
+	spaceport .
 
 planet Senta
 	landscape land/badlands6
@@ -46315,6 +46143,13 @@ planet Verkarja
 	description `This planet will be used as bunker when the Ultaka raid deeper into the space.`
 	spaceport .
 	"required reputation" 1
+
+planet Vetlorui
+	landscape land/forest4
+	description `This planet appears to be a tranding hub with freighters of Dels and Ignaggen come and go all the time. Also a popular place for Ignaggen that want to experince Dels urban architecture.`
+	spaceport `The spaceport is crowded with individuals from both races living in harmony.`
+	shipyard "Dels Basic"
+	outfitter "Dels Basic"
 
 planet Voltali
 	attributes Revos
