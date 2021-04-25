@@ -113,6 +113,7 @@ ship "I'nos" #1st
 
 ship "Loerlen" #2nd, used by civs
 	sprite "ship/ignaggen loerlen"
+	thumbnail "thumbnail/ignaggen loerlen thumb"
 	licenses
 #		"Kager Lergen"
 	attributes
@@ -168,6 +169,7 @@ ship "Loerlen" #2nd, used by civs
 	
 ship "Keorlen"
 	sprite "ship/ignaggen keorlen"
+	thumbnail "thumbnail/ignaggen keorlen thumb"
 	attributes
 		category "Heavy Freighter"
 		"cost" 12000000
@@ -247,6 +249,7 @@ ship "Keorlen"
 	
 ship "Kina"
 	sprite "ship/ignaggen kina"
+	thumbnail "thumbnail/ignaggen kina thumb"
 	attributes
 		category "Light Freighter"
 		"cost" 290000
@@ -287,6 +290,7 @@ ship "Kina"
 	
 ship "Gikeor"
 	sprite "ship/ignaggen gikeor"
+	thumbnail "thumbnail/ignaggen gikeor thumb"
 	attributes
 		category "Interceptor"
 		"cost" 500000
@@ -348,7 +352,8 @@ ship "Gikeor" "Offensive Gikeor"
 	description "
 	
 ship "Koggareu"
-	sprite "ship/ignaggen eigarnuq"
+	sprite "ship/ignaggen koggareu"
+	thumbnail "thumbnail/ignaggen koggareu thumb"
 	attributes
 		category "Interceptor"
 		"cost" 500000
@@ -404,6 +409,7 @@ ship "Koggareu"
 	
 ship "Kamuel"
 	sprite "ship/ignaggen kamuel"
+	thumbnail "thumbnail/ignaggen kamuel thumb"
 	attributes
 		category "Light Freighter"
 		"cost" 500000
