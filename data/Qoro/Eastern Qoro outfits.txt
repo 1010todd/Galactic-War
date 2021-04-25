@@ -136,7 +136,7 @@ outfit "Ornai Shield Generator"
 	"shield generation" 2.5
 	"shield energy" 3
 	
-outfit "Gol Cell"
+outfit "Aog Cell" #Gol
 	category "Power"
 	cost 135000
 	thumbnail "outfit/tiny fuel cell"
@@ -145,7 +145,7 @@ outfit "Gol Cell"
 	"energy generation" 27.6
 	"energy capacity" 1200
 	
-outfit "Gok Cell"
+outfit "Goa Cell" #Gok
 	category "Power"
 	cost 313000
 	thumbnail "outfit/small fuel cell"
@@ -154,7 +154,7 @@ outfit "Gok Cell"
 	"energy generation" 46.5
 	"energy capacity" 2200
 	
-outfit "Goa Cell"
+outfit "Heur Cell" #Goa
 	category "Power"
 	cost 840000
 	thumbnail "outfit/big fuel cell"
@@ -163,21 +163,24 @@ outfit "Goa Cell"
 	"energy generation" 154.7
 	"energy capacity" 5500
 	
-outfit "Armour Plating"
+outfit "Qoro Armour Plating"
 	category "Special"
 	cost 10000
 	thumbnail "outfit/armour plate"
-	"mass" 2
-	"hull" 150
+	"mass" 20
+	"hull protection" .3
+	"cooling inefficiency" .2
+	description "This outfit will decrease your ship's ability to cool down."
 	
-outfit "Energized Armour Plating"
+outfit "Qoro Power Armour"
 	category "Special"
 	cost 21000
 	thumbnail "outfit/energy armour plate"
-	"mass" 5
+	"mass" 50
 	"outfit space" -3
-	"hull" 100
-	"shield" 100
+	"hull protection" .15
+	"piercing protection" .15
+	"cooling inefficiency" .2
 	
 outfit "Igornuit"
     category "Hand to Hand"        
