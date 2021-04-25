@@ -347,16 +347,16 @@ ship "Gikeor" "Offensive Gikeor"
 	explode "small explosion" 20
 	description "
 	
-ship "Eigarnuq"
+ship "Koggareu"
 	sprite "ship/ignaggen eigarnuq"
 	attributes
 		category "Interceptor"
 		"cost" 500000
-		"shields" 2800
-		"hull" 800
+		"shields" 500
+		"hull" 2100
 		"required crew" 1
 		"bunks" 2
-		"mass" 70
+		"mass" 75
 		"drag" 1.6
 		"heat dissipation" .9
 		"fuel capacity" 600
@@ -370,7 +370,7 @@ ship "Eigarnuq"
 			"hull damage" 120
 			"hit force" 360
 	outfits
-		"Georlen Gun" 2
+		"Georlen Gun"
 		
 		"Vultador Cell"
 		"Genos Shield Generator"
@@ -380,10 +380,70 @@ ship "Eigarnuq"
 		"Rila Steering"
 		"Hyperdrive"
 		
-	gun -12 -17
-	gun 12 -17
-	engine -14 24
-	engine 14 24
+	gun 0 -44
+	engine -12.5 50
+		zoom 1
+		angle 0
+		under
+	engine 12.5 50
+		zoom 1
+		angle 0
+		under
+	"reverse engine" -4.5 -36
+		zoom .3
+		angle 180
+		under
+	"reverse engine" 4.5 -36
+		zoom .3
+		angle 180
+		under
 	explode "tiny explosion" 10
 	explode "small explosion" 20
 	description "These ships are one of the earliest Ignaggen ship to be equipped with a hyperdrive system. Serving as the scouts for the Ignaggens and were the first to jump among the stars to gather information and warn the rest of any threat."
+	
+	
+ship "Kamuel"
+	sprite "ship/ignaggen kamuel"
+	attributes
+		category "Light Freighter"
+		"cost" 500000
+		"shields" 400
+		"hull" 2200
+		"required crew" 1
+		"bunks" 2
+		"mass" 180
+		"drag" 1.8
+		"heat dissipation" .9
+		"fuel capacity" 600
+		"cargo space" 50
+		"outfit space" 240
+		"weapon capacity" 70
+		"engine capacity" 60
+		weapon
+			"blast radius" 24
+			"shield damage" 240
+			"hull damage" 120
+			"hit force" 360
+	outfits
+		"Gikorel Anti-Missile"
+		
+		"Vultador Cell"
+		"Genos Shield Generator"
+		"Ignaggen Cooling System"
+		
+		"Rila Thruster"
+		"Rila Steering"
+		"Hyperdrive"
+		
+	turret 0 -19
+	engine -12 44.5
+		zoom 1
+		angle 0
+		under
+	engine 12 44.5
+		zoom 1
+		angle 0
+		under
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	description "This is one of the older ship design by Ignaggen many centuries ago. Despite that, every thing from manufacturing to its function seems like magic, it looks rather crude compared to modern technologies yet works as well or even better in some aspect."
