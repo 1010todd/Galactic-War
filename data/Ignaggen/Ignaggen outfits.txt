@@ -134,7 +134,7 @@ outfit "Rakkrao Cannon"
 		"piercing" .2
 	description "
 	
-outfit "Ignaggen Anti-Missile Turret"
+outfit "Gikorel Anti-Missile"
 	category "Turrets"
 	cost 62000
 	thumbnail "outfit/anti-missile"
@@ -143,17 +143,20 @@ outfit "Ignaggen Anti-Missile Turret"
 	"weapon capacity" -14
 	"turret mounts" -1
 	weapon
-		"hit effect" "small anti-missile"
+		"die effect" "particle impact"
+		"fire effect" "particle impact"
 		"hardpoint sprite" "hardpoint/warder"
 		"hardpoint offset" 4.
-		"anti-missile" 6
-		"velocity" 150
+		"anti-missile" 4
+		"velocity" 400
 		"lifetime" 1
-		"reload" 6
+		"reload" 8
+		"burst reload" 5
+		"burst count" 5
 		"firing energy" 5
 		"firing heat" 5
-	description "
-
+	description "Modified version of Georlen guns for anti-missile purpose. It was only developed due to contact with the Dels as Ignaggen themselves don't use missile(or even know how to make one)."
+	description "While not perfect, it find itself in Dels market as long-range alternative."
 
 outfit "Gatourot Capacitor"
 	category "Power"
@@ -164,6 +167,7 @@ outfit "Gatourot Capacitor"
 	"energy capacity" 750
 	"heat generation" 12
 	description "An ultra compact capacitor with downside of generating some amount of heat."
+
 	
 outfit "Vultador Cell" #Lava
 	category "Power"
@@ -199,6 +203,16 @@ outfit "Orvuilugr Reactor" #Magma
 	"cooling inefficiency" 1
 	#"energy capacity" 8000
 	description "A bigger and slightly more heat efficient version of Vurlugigr Reactor.
+	
+outfit "Telour Generator"
+	category "Power"
+	cost 6300000
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 100
+	"outfit space" -100
+	"energy generation" 35
+	"heat generation" 77
+	description "A complex and powerful generator utilizing rare and unique kind of rocks to generate energy. The exact process is unknown and to most, it's just magic."
 	
 outfit "Ignaggen Cooling System"
 	category "Systems"
