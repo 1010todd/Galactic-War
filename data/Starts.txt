@@ -1,0 +1,73 @@
+start "GW Dev G1"
+	name "GW Dev"
+	description `Start in the [galaxy 1] of Galactic War mod for testing purpose and because I'm lazy.`
+	thumbnail "land/sivael1"
+	date 16 11 3013
+	system "Sector Dels"
+	planet "threequestionmarks"
+	conversation "GW Developer Start"
+	account
+		credits 99999999999999
+		score 800
+	set "license: Pilot's"
+	set "license: City-Ship"
+	set "license: Coalition"
+	set "license: Heliarch"
+	set "license: Kakaima"
+	set "license: Militia"
+	set "license: Navy Auxiliary"
+	set "license: Navy Carrier"
+	set "license: Navy Cruiser"
+	set "license: Navy"
+	set "license: Remnant Capital"
+	set "license: Remnant"
+	set "license: Unfettered Militia"
+	set "license: Wanderer Military"
+	set "license: Wanderer Outfits"
+	set "license: Wanderer"
+	set "GW Dev start"
+
+
+
+conversation "GW Developer Start"
+	`Name:`
+	name
+	`test`
+	
+start "GW Dels 1"
+	name "[WIP]Galactic War: Dels Officer"
+	description `Start in the [galaxy 1] of Galactic War mod in Dels space.`
+	description `	You're a young Dels once a mere officer among the dozens abroad a carrier, following strict orders with no freedom of your own. After years you've finally collected enough money to purchase your own ship.`
+	thumbnail "land/city7"
+	date 10 5 3013
+	system "Vobeelee"
+	planet "Delro"
+	conversation "GW Dels Start 1"
+	account
+		credits 560000
+		salaries 500
+		score 800
+	set "license: Dels Officer"
+	set "GW Dels start"
+	set "GW Dels start: officer"
+	event "GW Dels start swizzle"
+
+
+
+conversation "GW Dels Start 1"
+	`Name:`
+	name
+	`test`
+	
+mission "GW Dels Start"
+	invisible
+	landing
+	to offer
+		has "GW Dels start"
+	on offer 
+		event "GW Dels start swizzle"
+	fail
+
+event "GW Dels start swizzle"
+	government "Escort"
+		swizzle 0

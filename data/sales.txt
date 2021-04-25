@@ -1,4 +1,10 @@
-
+outfit "Sector Map"        
+    category Special        
+    cost 10000        
+    thumbnail outfit/map        
+    map 999999        
+    description "Remind me to get rid of this when the region is pretty much finished."
+	
 shipyard "Wallagi"
 	"Telsarator"
 	"Dettalor"
@@ -73,6 +79,7 @@ outfitter "Dels Ammo"
 	"SK4 Missile"
 	"Sokak Slug"
 	"Local Map"
+	"Sector Map" 
 	
 outfitter "Dels Standard"
 	"Sokak Slug"
@@ -91,6 +98,7 @@ outfitter "Dels Standard"
 	"C20 Fuel Cell"
 	"C30 Fuel Cell"
 	"Local Map"
+	"Sector Map" 
 	
 outfitter "Dels Basic"
 	"Skue-6 Blaster"
@@ -119,6 +127,7 @@ outfitter "Dels Basic"
 	"Hao Ion Engines"
 	"Kuar Ion Engines"
 	"Local Map"
+	"Sector Map" 
 	
 outfitter "Dels Advanced"
 	"Skue-6 Blaster"
@@ -175,6 +184,7 @@ outfitter "Dels Advanced"
 	"SK4 Magazines"
 	"Deeraka Plasma Engines"
 	"Local Map"
+	"Sector Map" 
 	
 outfitter "Ignaggen Basic"
 	
