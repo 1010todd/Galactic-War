@@ -3752,7 +3752,7 @@ system Cordurle
 		sprite planet/rock13
 		distance 147.64
 		period 34.7698
-	object
+	object Urdeilne
 		sprite planet/water0
 		distance 351.68
 		period 127.825
@@ -5274,14 +5274,16 @@ system Deaonudor
 		sprite planet/tethys
 		distance 138.21
 		period 29.461
-	object
+	object Leepordi
 		sprite planet/rock13
-		distance 318.25
-		period 102.942
+		distance 329.377
+		period 108.387
+		offset 341.419
 	object
 		sprite planet/gas6
-		distance 962.66
-		period 541.561
+		distance 973.787
+		period 550.978
+		offset 45.3302
 		object
 			sprite planet/dust7
 			distance 279
@@ -5292,8 +5294,9 @@ system Deaonudor
 			period 21.9856
 	object
 		sprite planet/gas13
-		distance 2334.62
-		period 2045.33
+		distance 2345.75
+		period 2059.97
+		offset 4.98943
 		object
 			sprite planet/desert4
 			distance 275
@@ -5569,6 +5572,7 @@ system Deloco
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 800
 	fleet "Dels Central Merchant" 600
+	fleet Ignaggen 1400
 	object
 		sprite star/g5
 		period 10
@@ -6226,9 +6230,9 @@ system Deuqou
 			period 45.755
 
 system Deurvuk
-	pos -1923.96 -4778.44
+	pos -1949.73 -4784.36
 	government Dels
-	habitable 1080
+	habitable 1715
 	belt 1621
 	link "Fee Ro"
 	link Genak
@@ -6245,36 +6249,42 @@ system Deurvuk
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 1400
 	object
-		sprite star/g0
+		sprite star/f5
 		period 10
 	object
-		sprite planet/desert0
-		distance 191
-		period 32.1291
+		sprite planet/desert10
+		distance 218.61
+		period 31.22
 	object
-		sprite planet/ice2
-		distance 538.21
-		period 151.976
+		sprite planet/cloud1
+		distance 455.1
+		period 93.7752
+	object Parturkelaai
+		sprite planet/desert2
+		distance 1105.58
+		period 355.071
+		offset 117.424
 		object
-			sprite planet/europa
-			distance 154
-			period 24.0239
+			sprite planet/rock3
+			distance 148
+			period 20.166
 	object
-		sprite planet/gas15
-		distance 1488.21
-		period 698.786
+		sprite planet/gas9
+		distance 1987.94
+		period 856.119
+		offset 179.91
 		object
 			sprite planet/io
-			distance 195
-			period 14.3334
-	object
-		sprite planet/gas14
-		distance 2223.25
-		period 1275.94
+			distance 239
+			period 13.8544
 		object
-			sprite planet/rock7
-			distance 203
-			period 11.7788
+			sprite planet/rock14
+			distance 360
+			period 25.612
+		object
+			sprite planet/callisto
+			distance 488
+			period 40.4222
 
 system Dodene
 	pos 5102.44 -8633.11
@@ -9925,6 +9935,7 @@ system "Fee Lo"
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 800
 	fleet "Dels Central Merchant" 600
+	fleet Ignaggen 1400
 	0
 	object
 		sprite star/m4
@@ -9992,7 +10003,7 @@ system "Fee Ro"
 		sprite planet/dust7
 		distance 428.81
 		period 142.075
-	object
+	object Keevulk
 		sprite planet/forest6
 		distance 736.1
 		period 319.54
@@ -15620,7 +15631,7 @@ system Heulree
 	fleet "Dels merchant" 800
 	fleet "Dels guard" 500
 	fleet "Dels Outward Merchant" 600
-	fleet "Dels Central Merchant" 1200
+	fleet "Dels Central Merchant" 800
 	object
 		sprite star/k5
 		period 10
@@ -23165,14 +23176,14 @@ system Koedee
 		period 110.451
 	object Duqerva
 		sprite planet/dust2
-		distance 648.988
-		period 211.972
-		offset 356.966
+		distance 810.246
+		period 295.698
+		offset 116.58
 	object
 		sprite planet/gas9
-		distance 2358.75
-		period 1468.74
-		offset 13.2934
+		distance 1851.62
+		period 1021.53
+		offset 306.094
 		object
 			sprite planet/desert4
 			distance 251
@@ -25194,7 +25205,7 @@ system Lersa
 system Leunorra
 	pos -963.026 -4877.22
 	government Ignaggen
-	habitable 2201.68
+	habitable 659.2
 	belt 1688
 	link Aelleo
 	link Corduro
@@ -25218,46 +25229,50 @@ system Leunorra
 	trade Metal 259
 	trade Plastic 299
 	object
-		sprite star/f5
-		distance 24.5365
-		period 9.96936
+		sprite star/k5
+		distance 39.2811
+		period 18.2195
 		offset 180
 	object
-		sprite star/k0
-		distance 86.4635
-		period 9.96936
+		sprite star/m4
+		distance 71.7189
+		period 18.2195
 	object
-		sprite planet/ice2
-		distance 313.674
-		period 47.3587
-		object
-			sprite planet/rock17
-			distance 125
-			period 17.5682
-	object
-		sprite planet/rock11
-		distance 573.634
-		period 117.121
-	object
-		sprite planet/gas9
-		distance 933.244
-		period 243.039
-		object
-			sprite planet/tethys
-			distance 223
-			period 12.4867
-	object
-		sprite planet/gas6
-		distance 2667.85
-		period 1174.7
-		object
-			sprite planet/rhea
-			distance 270
-			period 11.3321
+		sprite planet/desert3
+		distance 339.729
+		period 97.5551
 		object
 			sprite planet/rock14
-			distance 370
-			period 18.1789
+			distance 154
+			period 19.9116
+	object Delgaurra
+		sprite planet/forest0
+		distance 801.729
+		period 353.666
+		offset 118.761
+		object
+			sprite planet/europa
+			distance 181
+			period 20.812
+			offset 26.7532
+	object
+		sprite planet/gas9
+		distance 1482.82
+		period 889.577
+		offset 302.552
+		object
+			sprite planet/dust3
+			distance 243
+			period 14.2036
+		object
+			sprite planet/tethys
+			distance 369
+			period 26.5785
+	object
+		sprite planet/gas17
+		distance 2754.63
+		period 2252.4
+		offset 347.617
 
 system Lieevaor
 	pos -1477.45 -5448.5
@@ -25624,6 +25639,7 @@ system Linheyca
 	trade Metal 323
 	trade Plastic 444
 	fleet Ignaggen 700
+	fleet "Dels merchant" 600
 	object
 		sprite star/m0
 		period 10
@@ -26203,7 +26219,7 @@ system Lordeetor
 		sprite planet/mercury
 		distance 135.24
 		period 30.4827
-	object
+	object Makeele
 		sprite planet/rock10
 		distance 482.65
 		period 205.515
@@ -26213,12 +26229,14 @@ system Lordeetor
 		period 357.489
 	object
 		sprite planet/rock2
-		distance 999.1
-		period 612.082
+		distance 1147.4
+		period 753.304
+		offset 83.5616
 	object
 		sprite planet/uranus
-		distance 2144.59
-		period 1924.92
+		distance 2292.89
+		period 2128
+		offset 71.2076
 
 system Lorden
 	pos 5661.08 -8123.25
@@ -28503,6 +28521,7 @@ system "Mea Sua"
 	fleet "Dels merchant" 1200
 	fleet "Dels miner" 1000
 	fleet "Dels Central Merchant" 600
+	fleet Ignaggen 1400
 	0
 	object
 		sprite star/k5
@@ -29750,7 +29769,6 @@ system Moudee
 	belt 1907
 	link Derkeevo
 	link Gerdusee
-	link Tedulce
 	link Verdulla
 	asteroids "medium rock" 1 1.8144
 	asteroids "large rock" 1 2.6784
@@ -29905,6 +29923,7 @@ system Mukalloei
 	trade Metal 339
 	trade Plastic 457
 	fleet Ignaggen 700
+	fleet "Dels merchant" 700
 	object
 		sprite star/k0
 		period 10
@@ -31225,7 +31244,7 @@ system Nelop
 			sprite planet/miranda
 			distance 139
 			period 19.8034
-	object
+	object Lercor
 		sprite planet/desert2
 		distance 626.92
 		period 284.614
@@ -31690,10 +31709,18 @@ system Nordevu
 	pos -1472.59 -4911.58
 	government Dels
 	habitable 3645
-	belt 1347
+	belt 1356
 	link "Jorenu Ke"
 	link Vikeoni
-	asteroids "large metal" 1 3.2032
+	asteroids "small rock" 2 2.1463
+	asteroids "medium rock" 232 1.5548
+	asteroids "large rock" 56 1.2506
+	asteroids "small metal" 2 2.3829
+	asteroids "medium metal" 6 0.9295
+	asteroids "large metal" 3 2.3998
+	minables aluminum 30 1.5066
+	minables lead 31 2.12308
+	minables titanium 20 1.881
 	trade Clothing 374
 	trade Electronics 657
 	trade Equipment 480
@@ -31706,6 +31733,7 @@ system Nordevu
 	trade Plastic 327
 	fleet "Dels Central Merchant" 600
 	fleet "Dels guard" 800
+	fleet "Dels miner" 900
 	object
 		sprite star/a5
 		period 10
@@ -37218,6 +37246,7 @@ system Rocco
 	fleet "Dels guard" 1000
 	fleet "Dels merchant" 600
 	fleet "Dels Central Merchant" 700
+	fleet Ignaggen 1400
 	object
 		sprite star/k0
 		period 10
@@ -41036,6 +41065,7 @@ system Sudean
 	fleet "Dels guard" 1000
 	fleet "Dels merchant" 600
 	fleet "Dels Central Merchant" 800
+	fleet Ignaggen 1400
 	object
 		sprite star/g5
 		distance 58.5
@@ -41128,7 +41158,7 @@ system Suedo
 			sprite planet/europa
 			distance 152
 			period 20.6063
-	object
+	object Edkirlaa
 		sprite planet/water0
 		distance 884.77
 		period 320.327
@@ -41307,20 +41337,24 @@ system Suideon
 		period 51.1398
 	object
 		sprite planet/lava6
-		distance 530.754
-		period 207.935
-	object
-		sprite planet/desert8
-		distance 854.164
-		period 424.521
+		distance 493.745
+		period 186.57
+		offset 288.489
+	object Seoakee
+		sprite planet/forest1
+		distance 761.745
+		period 357.521
+		offset 75.3542
 		object
 			sprite planet/oberon
-			distance 127
-			period 18.3575
+			distance 134
+			period 17.3734
+			offset 248.016
 	object
 		sprite planet/gas9
-		distance 2188.57
-		period 1741.12
+		distance 2103.15
+		period 1640.19
+		offset 309.236
 		object
 			sprite planet/rock14
 			distance 245
@@ -41779,7 +41813,6 @@ system Tedulce
 	belt 1581
 	link Derkeevo
 	link Lordianee
-	link Moudee
 	asteroids "small rock" 27 5.796
 	asteroids "medium rock" 114 3.1464
 	asteroids "large rock" 17 2.6496
@@ -42569,7 +42602,7 @@ system Uelvo
 system Uileyder
 	pos -1182.96 -4787.17
 	government Dels
-	habitable 1505.92
+	habitable 320
 	belt 1093
 	link Aeeduile
 	link Cordurle
@@ -42595,42 +42628,36 @@ system Uileyder
 	trade Plastic 481
 	fleet "Dels Central Merchant" 1200
 	object
-		sprite star/g0
-		distance 32.5255
-		period 12.7118
-		offset 180
+		sprite star/m0
+		period 10
 	object
-		sprite star/k5
-		distance 82.4745
-		period 12.7118
+		sprite planet/dust7
+		distance 120.69
+		period 29.6478
+	object Ieykeelor
+		sprite planet/desert3
+		distance 477.65
+		period 233.426
 	object
-		sprite planet/rock10
-		distance 254.725
-		period 41.9049
+		sprite planet/lava5
+		distance 897.69
+		period 601.415
 	object
-		sprite planet/venus
-		distance 487.135
-		period 110.824
+		sprite planet/cloud6
+		distance 1260.98
+		period 1001.26
 	object
-		sprite planet/gas9
-		distance 1162.38
-		period 408.492
+		sprite planet/gas14
+		distance 4074.87
+		period 5816.42
 		object
-			sprite planet/rock0
-			distance 261
-			period 15.8107
+			sprite planet/callisto
+			distance 224
+			period 13.6531
 		object
-			sprite planet/rock7
-			distance 381
-			period 27.8855
-	object
-		sprite planet/gas5
-		distance 2373.63
-		period 1192.01
-		object
-			sprite planet/io
-			distance 250
-			period 13.1449
+			sprite planet/europa
+			distance 314
+			period 22.6596
 
 system Ukara
 	pos -451.672 -6500.8
@@ -44604,6 +44631,7 @@ system Vobeelee
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 700
 	fleet "Dels Central Merchant" 500
+	fleet Ignaggen 1400
 	0
 	object
 		sprite star/g0
@@ -44918,7 +44946,7 @@ system Volco
 		sprite planet/fog0
 		distance 442
 		period 148.68
-	object
+	object Cordeeil
 		sprite planet/rock6
 		distance 799.64
 		period 361.794
@@ -45048,23 +45076,23 @@ system Voltuara
 			period 17.4486
 	object Sonde
 		sprite planet/forest4
-		distance 1166.72
-		period 384.924
-		offset 0.290611
+		distance 1587.8
+		period 611.116
+		offset 293.909
 	object
 		sprite planet/gas9
-		distance 1596.08
-		period 615.901
-		offset 289.382
+		distance 2017.17
+		period 875.069
+		offset 260.052
 		object
 			sprite planet/dust0
 			distance 239
 			period 13.8544
 	object
 		sprite planet/gas2
-		distance 3799.08
-		period 2261.76
-		offset 351.643
+		distance 4220.17
+		period 2648.03
+		offset 84.2763
 
 system Vonov
 	pos 26.7423 -4040.8
@@ -46390,6 +46418,11 @@ planet Ceursity
 	"required reputation" 10
 	security 0.9
 
+planet Cordeeil
+	landscape land/mountain21-harro
+	description .
+	spaceport .
+
 planet ""
 
 planet Daska
@@ -46408,6 +46441,12 @@ planet Deesok
 	spaceport `There are alot of landing pads in the spaceport prepared to recive refugees from the other frontline planets.`
 	bribe 0.7
 	security 0.5
+
+planet Delgaurra
+	attributes `"trading hub"`
+	landscape land/mountain0
+	description .
+	spaceport .
 
 planet Delro
 	attributes Dels
@@ -46494,8 +46533,8 @@ planet Dolseern
 planet Doniti
 	attributes Dels
 	landscape land/sea8
-	description .
-	spaceport .
+	description `This appears to be a large commute hub for the outward sector of Dels space. Large warehouse and cargo vehicles are somewhat more common here than most other places.`
+	spaceport `Right next to the spaceport is several large busy warehouses.`
 	shipyard "Dels Basic"
 	outfitter "Dels Standard"
 
@@ -46511,7 +46550,7 @@ planet Donto
 
 planet Dukreve
 	landscape land/snow11-sfiera
-	description .
+	description `Dukreve was one of the first planet explored by the Dels being close to their homeworld and orbits within the habitable zone.`
 	spaceport .
 
 planet Duqerva
@@ -46527,6 +46566,11 @@ planet Ea'rae
 	shipyard "Dels Advanced"
 	outfitter "Dels Basic"
 	bribe 0.3
+
+planet Edkirlaa
+	landscape land/sea10-sfiera
+	description .
+	spaceport .
 
 planet Eilina
 	attributes Geeva
@@ -46739,6 +46783,11 @@ planet Ieudea
 	description `Mining sites here looks rather new compared to other planets. Perhaps it was even less than a decade ago when they started mining here.`
 	spaceport `The spaceport is very basic and still underconstruction.`
 
+planet Ieykeelor
+	landscape land/snow8
+	description .
+	spaceport .
+
 planet Ikgar
 	landscape land/sky3
 	description .
@@ -46824,6 +46873,12 @@ planet Kasker
 
 planet Kateolr
 	landscape land/snowmountains1
+	description .
+	spaceport .
+
+planet Keevulk
+	attributes city
+	landscape land/fields9
 	description .
 	spaceport .
 
@@ -46974,7 +47029,7 @@ planet Kotona
 
 planet Koudaenao
 	landscape land/desert5
-	description `The first thing you see as you approch the planet is fields of massive solar panels size of a small ships spreading across the land as far as you can see powering the towns and factories on this planet. Plant farm on the other hand are mostly large greenhouses and are relatively small compared to the size of the cities they have to supply. `
+	description `The first thing you see as you approch the planet is fields of massive solar panels size of a small ships spreading across the land as far as you can see powering the towns and factories on this planet. Plant farm are mostly large greenhouses and are relatively small compared to the size of the cities they have to supply. `
 	spaceport `Silos and refrigerated warehouse here are notably larger and more in number than most other planet. `
 
 planet Krigma
@@ -46994,6 +47049,12 @@ planet Kukoga
 	description ,
 	spaceport .
 	"required reputation" 1
+
+planet Leepordi
+	attributes mining
+	landscape land/canyon01
+	description .
+	spaceport .
 
 planet Leevunla
 	landscape land/valley9
@@ -47021,6 +47082,12 @@ planet Lensar
 planet Leoulner
 	landscape land/space6
 	description .
+
+planet Lercor
+	attributes farming
+	landscape land/mountain22-spfld
+	description .
+	spaceport .
 
 planet Lergeri
 	landscape land/station2
@@ -47160,6 +47227,11 @@ planet Makaree
 	attributes farm
 	landscape land/fields13-sfiera
 	description `This planet is a home to large orchards and farms spanning across almost the entire land on the planet.`
+	spaceport .
+
+planet Makeele
+	landscape land/sky5
+	description .
 	spaceport .
 
 planet Masriqo
@@ -47392,6 +47464,11 @@ planet Osma
 	spaceport .
 	"required reputation" 1
 
+planet Parturkelaai
+	landscape land/dune6-harro
+	description .
+	spaceport .
+
 planet Qansta
 	attributes Qoro(north)
 	landscape land/space2
@@ -47557,6 +47634,12 @@ planet Sentre
 	spaceport .
 	security 0.9
 
+planet Seoakee
+	attributes farming
+	landscape land/fog2
+	description .
+	spaceport .
+
 planet Sonan
 	attributes Revos
 	landscape land/badlands1
@@ -47628,6 +47711,11 @@ planet "Uderlee Dilr"
 planet Ukborta
 	landscape land/lava0
 	description ..
+	spaceport .
+
+planet Urdeilne
+	landscape land/fog6
+	description ,
 	spaceport .
 
 planet Verkarja
