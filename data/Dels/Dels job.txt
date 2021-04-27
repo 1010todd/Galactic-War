@@ -1,0 +1,158 @@
+mission "Dels Rush Mining Equipment"
+	name "Mining equipment to <planet>"
+	job
+	repeat
+	deadline
+	description "Bring <cargo> to <destination>. The company will pay you <payment>."
+	cargo "mining equipment" 20 30
+	to offer
+		random < 10
+		#"cargo space" > 20
+	source
+		government "Dels" "Dels Kaote" "Dels Dardornai"
+	destination
+		attributes "mining"
+		distance 2 20
+		government "Dels" "Dels Kaote" "Dels Dardornai"
+	on visit
+		dialog "generic cargo on visit"
+	on complete
+		payment
+		payment 11000
+		dialog "You were directed to landed at a specific site. The workers unload the cargo and pays you <payment>."
+		
+
+mission "Dels Delivery"
+	name "Delivery to <planet>"
+	job
+	repeat
+	deadline 14
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo random 5 2 .1
+	to offer
+		random < 70
+		#"cargo space" > 160
+	source
+		government "Dels" "Dels Kaote" "Dels Dardornai"
+	destination
+		distance 2 8
+		government "Dels" "Dels Kaote" "Dels Dardornai" "Ignaggen"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 5000
+		dialog phrase "generic cargo delivery payment"
+		
+mission "Dels Long Range Delivery"
+	name "Delivery to <planet>"
+	job
+	repeat
+	deadline 30
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo random 5 2 .1
+	to offer
+		random < 60
+		#"cargo space" > 160
+	source
+		government "Dels" "Dels Kaote" "Dels Dardornai"
+	destination
+		distance 5 20
+		government "Dels" "Dels Kaote" "Dels Dardornai" "Ignaggen"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 7000
+		dialog phrase "generic cargo delivery payment"
+
+mission "Dels Bulk Delivery"
+	name "Bulk delivery to <planet>"
+	job
+	repeat
+	deadline 16
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo random 25 2 .05
+	to offer
+		random < 60
+		"cargo space" > 60
+	source
+		government "Dels" "Dels Kaote" "Dels Dardornai"
+	destination
+		distance 3 12
+		government "Dels" "Dels Kaote" "Dels Dardornai" "Ignaggen"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 7500
+		dialog phrase "generic cargo delivery payment"
+		
+mission "Dels Long Range Bulk Delivery"
+	name "Bulk delivery to <planet>"
+	job
+	repeat
+	deadline 28
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo random 25 2 .05
+	to offer
+		random < 50
+		"cargo space" > 60
+	source
+		government "Dels" "Dels Kaote" "Dels Dardornai"
+	destination
+		distance 10 20
+		government "Dels" "Dels Kaote" "Dels Dardornai" "Ignaggen"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 12000
+		dialog phrase "generic cargo delivery payment"
+
+mission "Dels Large Bulk Delivery"
+	name "Large bulk delivery to <planet>"
+	job
+	repeat
+	deadline 20
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo random 40 2 .02
+	to offer
+		random < 50
+		"cargo space" > 160
+	source
+		attributes "mining" "textiles" "factory" "farming" "fishing" "oil"
+		government "Dels" "Dels Kaote" "Dels Dardornai"
+	destination
+		distance 4 16
+		government "Dels" "Dels Kaote" "Dels Dardornai" "Ignaggen"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 12000
+		dialog phrase "generic cargo delivery payment"
+
+mission "Dels Long Range Large Bulk Delivery"
+	name "Large bulk delivery to <planet>"
+	job
+	repeat
+	deadline 38
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo random 40 2 .02
+	to offer
+		random < 40
+		"cargo space" > 160
+	source
+		attributes "mining" "textiles" "factory" "farming" "fishing" "oil"
+		government "Dels" "Dels Kaote" "Dels Dardornai"
+	destination
+		distance 14 30
+		government "Dels" "Dels Kaote" "Dels Dardornai" "Ignaggen"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 18000
+		dialog phrase "generic cargo delivery payment"
+
