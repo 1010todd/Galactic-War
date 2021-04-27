@@ -156,3 +156,59 @@ mission "Dels Long Range Large Bulk Delivery"
 		payment 18000
 		dialog phrase "generic cargo delivery payment"
 
+mission "Dels Passengers"
+	name "Passenger transport to <planet>"
+	job
+	repeat
+	deadline 
+	description "Bring <fare> to <destination> by <date>. Payment is <payment>."
+	passengers 1 10 .9
+	source
+		government "Dels" "Dels Kaote" "Dels Dardornai"
+	destination
+		distance 2 10
+		government "Dels" "Dels Kaote" "Dels Dardornai" "Ignaggen"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment
+		payment 2000
+		dialog phrase "generic passenger dropoff payment"
+		
+mission "Dels Many Passengers"
+	name "Passenger transport to <planet>"
+	job
+	repeat
+	deadline 
+	description "Bring <fare> to <destination> by <date>. Payment is <payment>."
+	passengers 5 20 .9
+	source
+		government "Dels" "Dels Kaote" "Dels Dardornai"
+	destination
+		distance 3 15
+		government "Dels" "Dels Kaote" "Dels Dardornai" "Ignaggen"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment
+		payment 3000
+		dialog phrase "generic passenger dropoff payment"
+		
+mission "Dels Long Range Passengers"
+	name "Passenger transport to <planet>"
+	job
+	repeat
+	deadline 
+	description "Bring <fare> to <destination> by <date>. Payment is <payment>."
+	passengers 1 10 .9
+	source
+		government "Dels" "Dels Kaote" "Dels Dardornai"
+	destination
+		distance 10 20
+		government "Dels" "Dels Kaote" "Dels Dardornai" "Ignaggen"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment
+		payment 4000
+		dialog phrase "generic passenger dropoff payment"

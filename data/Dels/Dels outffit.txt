@@ -273,8 +273,8 @@ outfit "Sokak Slug Storage"
 	
 outfit "TC0B Laser"
 	category "Guns"
-	cost 10000
-	thumbnail "outfit/laser"
+	cost 24000
+	thumbnail "outfit/dels tc0b"
 	"mass" 13
 	"outfit space" -13
 	"weapon capacity" -13
@@ -285,13 +285,15 @@ outfit "TC0B Laser"
 		"inaccuracy" .2
 		"velocity" 200
 		"lifetime" 1
-		"reload" 1
-		"firing energy" 4
-		"firing heat" 1
-		"shield damage" .4
-		"hull damage" .8
-		"heat damage" 2
-	description "Dels's laser, invisible and deal very small amount of damage, used as cheap mining laser."
+		"reload" 5
+		"burst count" 60
+		"burst reload" 1
+		"firing energy" 40
+		"firing heat" 10
+		"shield damage" 3
+		"hull damage" 6
+		"heat damage" 20
+	description "A short-ranged laser."
 	
 outfit "Skue-6 Turret" #AA1
 	category "Turrets"
