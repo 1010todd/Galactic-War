@@ -3,7 +3,7 @@ mission "Dels Rush Mining Equipment"
 	job
 	repeat
 	deadline
-	description "Bring <cargo> to <destination>. The company will pay you <payment>."
+	description "Bring <cargo> to <destination> by <date>. The company will pay you <payment>."
 	cargo "mining equipment" 20 30
 	to offer
 		random < 10
@@ -27,7 +27,7 @@ mission "Dels Delivery"
 	job
 	repeat
 	deadline 14
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
 	cargo random 5 2 .1
 	to offer
 		random < 70
@@ -49,7 +49,7 @@ mission "Dels Long Range Delivery"
 	job
 	repeat
 	deadline 30
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
 	cargo random 5 2 .1
 	to offer
 		random < 60
@@ -71,7 +71,7 @@ mission "Dels Bulk Delivery"
 	job
 	repeat
 	deadline 16
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
 	cargo random 25 2 .05
 	to offer
 		random < 60
@@ -93,7 +93,7 @@ mission "Dels Long Range Bulk Delivery"
 	job
 	repeat
 	deadline 28
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
 	cargo random 25 2 .05
 	to offer
 		random < 50
@@ -115,7 +115,7 @@ mission "Dels Large Bulk Delivery"
 	job
 	repeat
 	deadline 20
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
 	cargo random 40 2 .02
 	to offer
 		random < 50
@@ -138,7 +138,7 @@ mission "Dels Long Range Large Bulk Delivery"
 	job
 	repeat
 	deadline 38
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
 	cargo random 40 2 .02
 	to offer
 		random < 40
