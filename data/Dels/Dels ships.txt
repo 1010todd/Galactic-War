@@ -541,8 +541,8 @@ ship "Secsen"
 	attributes
 		category "Light Warship"
 		"cost" 1500000
-		"shields" 2500
-		"hull" 550
+		"shields" 2800
+		"hull" 750
 		"required crew" 2
 		"bunks" 4
 		"mass" 95
@@ -595,11 +595,11 @@ ship "Senro"
 	attributes
 		category "Light Warship"
 		"cost" 2250000
-		"shields" 5700
-		"hull" 1100
+		"shields" 4700
+		"hull" 900
 		"required crew" 7
 		"bunks" 14
-		"mass" 145
+		"mass" 150
 		"drag" 3.7
 		"heat dissipation" .8
 		"fuel capacity" 500
@@ -649,7 +649,7 @@ ship "Deeris"
 	attributes
 		category "Light Warship"
 		"cost" 2800000
-		"shields" 1950
+		"shields" 2150
 		"hull" 880
 		"required crew" 2
 		"bunks" 8
@@ -766,7 +766,7 @@ ship "Darca"
 		category "Heavy Warship"
 		"cost" 9000000
 		"shields" 18500
-		"hull" 6500
+		"hull" 7500
 		"mass" 920
 		"required crew" 200
 		"bunks" 600
@@ -873,7 +873,7 @@ ship "Decso"
 	attributes
 		category "Heavy Warship"
 		"cost" 10800000
-		"shields" 10800
+		"shields" 12800
 		"hull" 6700
 		"required crew" 60
 		"bunks" 120

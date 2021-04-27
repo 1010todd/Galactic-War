@@ -1,4 +1,7 @@
 #
+#galaxy "Galaxy 3" #To be moved due to conflict with Omnis.
+#	pos 866.326 -11179.5
+#	sprite ui/galaxy3
 
 galaxy "Milky Way"
 	pos 0 0
@@ -11,10 +14,6 @@ galaxy "Galaxy 1"
 galaxy "Galaxy 2"
 	pos 6050.27 -8602.27
 	sprite ui/pinwheel
-
-galaxy "Galaxy 3"
-	pos 866.326 -11179.5
-	sprite ui/galaxy3
 
 galaxy "Galaxy 4"
 	pos 11591.2 -4126.01
@@ -117,16 +116,16 @@ system Aeeduile
 	link Suedor
 	link Uileyder
 	asteroids "large metal" 1 2.7872
-	trade Clothing 366
-	trade Electronics 791
-	trade Equipment 423
-	trade Food 431
-	trade "Heavy Metals" 1012
-	trade Industrial 661
-	trade "Luxury Goods" 1065
-	trade Medical 765
-	trade Metal 250
-	trade Plastic 481
+	trade Clothing 280
+	trade Electronics 724
+	trade Equipment 615
+	trade Food 225
+	trade "Heavy Metals" 1068
+	trade Industrial 685
+	trade "Luxury Goods" 1089
+	trade Medical 852
+	trade Metal 288
+	trade Plastic 451
 	fleet "Dels Central Merchant" 1200
 	object
 		sprite star/b5
@@ -208,16 +207,16 @@ system Aelleo
 	asteroids "large metal" 1 3.0056
 	minables iron 3 3.48381
 	minables titanium 3 5.35786
-	trade Clothing 242
-	trade Electronics 816
-	trade Equipment 450
-	trade Food 420
-	trade "Heavy Metals" 895
-	trade Industrial 870
-	trade "Luxury Goods" 1066
-	trade Medical 870
-	trade Metal 259
-	trade Plastic 299
+	trade Clothing 196
+	trade Electronics 801
+	trade Equipment 445
+	trade Food 170
+	trade "Heavy Metals" 973
+	trade Industrial 798
+	trade "Luxury Goods" 1044
+	trade Medical 657
+	trade Metal 489
+	trade Plastic 407
 	fleet "Ignaggen Outlaw" 2300
 	fleet "Kager Military" 800
 	fleet Ignaggen 1000
@@ -515,15 +514,15 @@ system Aiborgu
 	minables silicon 3 7.15921
 	minables silver 1 5.66067
 	trade Clothing 320
-	trade Electronics 735
-	trade Equipment 651
-	trade Food 252
-	trade "Heavy Metals" 1054
-	trade Industrial 579
-	trade "Luxury Goods" 970
-	trade Medical 681
-	trade Metal 401
-	trade Plastic 386
+	trade Electronics 823
+	trade Equipment 474
+	trade Food 466
+	trade "Heavy Metals" 729
+	trade Industrial 637
+	trade "Luxury Goods" 1072
+	trade Medical 791
+	trade Metal 494
+	trade Plastic 453
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -577,16 +576,16 @@ system Aili
 	asteroids "large metal" 1 1.944
 	minables gold 2 5.59375
 	minables iron 1 7.97407
-	trade Clothing 308
-	trade Electronics 650
-	trade Equipment 670
-	trade Food 195
-	trade "Heavy Metals" 951
-	trade Industrial 681
-	trade "Luxury Goods" 1039
-	trade Medical 575
-	trade Metal 261
-	trade Plastic 473
+	trade Clothing 233
+	trade Electronics 675
+	trade Equipment 460
+	trade Food 525
+	trade "Heavy Metals" 956
+	trade Industrial 748
+	trade "Luxury Goods" 1298
+	trade Medical 888
+	trade Metal 506
+	trade Plastic 303
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -775,16 +774,16 @@ system Alkurud
 	asteroids "large metal" 2 2.2287
 	minables copper 46 3.35623
 	minables iron 13 3.88442
-	trade Clothing 384
-	trade Electronics 668
-	trade Equipment 424
-	trade Food 541
-	trade "Heavy Metals" 975
-	trade Industrial 655
-	trade "Luxury Goods" 1296
-	trade Medical 803
-	trade Metal 457
-	trade Plastic 346
+	trade Clothing 324
+	trade Electronics 826
+	trade Equipment 529
+	trade Food 123
+	trade "Heavy Metals" 862
+	trade Industrial 755
+	trade "Luxury Goods" 1356
+	trade Medical 527
+	trade Metal 462
+	trade Plastic 278
 	fleet "Dels Outward Merchant" 600
 	object
 		sprite star/m4
@@ -837,16 +836,16 @@ system Alrtar
 	asteroids "medium metal" 29 3.952
 	asteroids "large metal" 1 4.56
 	minables aluminum 40 7.97702
-	trade Clothing 285
-	trade Electronics 703
-	trade Equipment 601
-	trade Food 532
-	trade "Heavy Metals" 1156
-	trade Industrial 742
-	trade "Luxury Goods" 1102
-	trade Medical 763
-	trade Metal 412
-	trade Plastic 430
+	trade Clothing 287
+	trade Electronics 814
+	trade Equipment 470
+	trade Food 346
+	trade "Heavy Metals" 1180
+	trade Industrial 672
+	trade "Luxury Goods" 1152
+	trade Medical 540
+	trade Metal 426
+	trade Plastic 323
 	fleet "Dels merchant" 600
 	fleet "Dels Central Merchant" 1000
 	fleet Ignaggen 700
@@ -896,16 +895,16 @@ system Altol
 	link Neeveeria
 	asteroids "large metal" 1 2.142
 	minables platinum 35 3.86798
-	trade Clothing 286
-	trade Electronics 717
-	trade Equipment 501
-	trade Food 359
-	trade "Heavy Metals" 1016
-	trade Industrial 661
-	trade "Luxury Goods" 992
-	trade Medical 675
-	trade Metal 233
-	trade Plastic 512
+	trade Clothing 325
+	trade Electronics 726
+	trade Equipment 468
+	trade Food 353
+	trade "Heavy Metals" 1178
+	trade Industrial 771
+	trade "Luxury Goods" 1083
+	trade Medical 668
+	trade Metal 261
+	trade Plastic 326
 	fleet "Dels guard" 1000
 	fleet "Dels miner" 1200
 	fleet Ignaggen 700
@@ -1026,16 +1025,16 @@ system Aomaneg
 	minables lead 38 3.91492
 	minables silicon 2 4.21311
 	minables titanium 2 3.4965
-	trade Clothing 301
-	trade Electronics 834
-	trade Equipment 645
-	trade Food 210
-	trade "Heavy Metals" 1123
-	trade Industrial 645
-	trade "Luxury Goods" 990
-	trade Medical 713
-	trade Metal 266
-	trade Plastic 343
+	trade Clothing 251
+	trade Electronics 840
+	trade Equipment 634
+	trade Food 279
+	trade "Heavy Metals" 1044
+	trade Industrial 720
+	trade "Luxury Goods" 1098
+	trade Medical 854
+	trade Metal 254
+	trade Plastic 392
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -1151,16 +1150,16 @@ system Aorlem
 	asteroids "large metal" 1 5.6
 	minables iron 6 6.60971
 	minables lead 6 5.76293
-	trade Clothing 291
-	trade Electronics 753
-	trade Equipment 632
-	trade Food 246
-	trade "Heavy Metals" 1070
-	trade Industrial 661
+	trade Clothing 218
+	trade Electronics 794
+	trade Equipment 570
+	trade Food 505
+	trade "Heavy Metals" 762
+	trade Industrial 634
 	trade "Luxury Goods" 1022
-	trade Medical 726
-	trade Metal 329
-	trade Plastic 295
+	trade Medical 658
+	trade Metal 367
+	trade Plastic 489
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -1273,16 +1272,16 @@ system Ardeedur
 	minables copper 10 5.03622
 	minables lead 3 4.9422
 	minables tungsten 3 5.85013
-	trade Clothing 366
-	trade Electronics 791
-	trade Equipment 423
-	trade Food 431
-	trade "Heavy Metals" 1012
-	trade Industrial 661
-	trade "Luxury Goods" 1065
-	trade Medical 765
-	trade Metal 250
-	trade Plastic 481
+	trade Clothing 252
+	trade Electronics 705
+	trade Equipment 647
+	trade Food 426
+	trade "Heavy Metals" 1018
+	trade Industrial 863
+	trade "Luxury Goods" 1058
+	trade Medical 863
+	trade Metal 403
+	trade Plastic 392
 	fleet "Dels merchant" 600
 	fleet "Dels Central Merchant" 700
 	object
@@ -1341,16 +1340,16 @@ system Aregolli
 	asteroids "small metal" 3 6.0494
 	asteroids "medium metal" 14 3.9788
 	asteroids "large metal" 2 3.7758
-	trade Clothing 271
-	trade Electronics 752
-	trade Equipment 478
-	trade Food 430
-	trade "Heavy Metals" 757
-	trade Industrial 793
-	trade "Luxury Goods" 1030
-	trade Medical 737
-	trade Metal 290
-	trade Plastic 303
+	trade Clothing 176
+	trade Electronics 718
+	trade Equipment 442
+	trade Food 447
+	trade "Heavy Metals" 746
+	trade Industrial 620
+	trade "Luxury Goods" 1187
+	trade Medical 669
+	trade Metal 426
+	trade Plastic 492
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -1407,16 +1406,16 @@ system Arema
 	asteroids "large metal" 88 4.264
 	minables aluminum 1 8.9174
 	minables iron 14 5.48129
-	trade Clothing 279
-	trade Electronics 701
-	trade Equipment 682
-	trade Food 147
-	trade "Heavy Metals" 1011
-	trade Industrial 714
-	trade "Luxury Goods" 1003
-	trade Medical 659
-	trade Metal 252
-	trade Plastic 405
+	trade Clothing 278
+	trade Electronics 648
+	trade Equipment 604
+	trade Food 234
+	trade "Heavy Metals" 677
+	trade Industrial 705
+	trade "Luxury Goods" 1223
+	trade Medical 871
+	trade Metal 444
+	trade Plastic 511
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -1467,7 +1466,16 @@ system Aretu
 	asteroids "large rock" 27 5.7912
 	asteroids "medium metal" 70 3.192
 	asteroids "large metal" 6 2.736
-	trade Food 195
+	trade Clothing 271
+	trade Electronics 740
+	trade Equipment 405
+	trade Food 178
+	trade "Heavy Metals" 790
+	trade Industrial 825
+	trade "Luxury Goods" 1148
+	trade Medical 672
+	trade Metal 235
+	trade Plastic 451
 	fleet "Dels Outward Merchant" 1200
 	object
 		sprite star/k0
@@ -1517,16 +1525,16 @@ system Arger
 	asteroids "medium metal" 2 4.301
 	asteroids "large metal" 8 1.9941
 	minables gold 7 6.84338
-	trade Clothing 290
-	trade Electronics 685
-	trade Equipment 604
-	trade Food 168
-	trade "Heavy Metals" 1050
-	trade Industrial 649
-	trade "Luxury Goods" 1007
-	trade Medical 714
-	trade Metal 329
-	trade Plastic 387
+	trade Clothing 309
+	trade Electronics 728
+	trade Equipment 568
+	trade Food 377
+	trade "Heavy Metals" 684
+	trade Industrial 620
+	trade "Luxury Goods" 1107
+	trade Medical 766
+	trade Metal 501
+	trade Plastic 401
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -1924,16 +1932,16 @@ system Boklok
 	asteroids "small metal" 32 7.54
 	asteroids "large metal" 68 6.8614
 	minables tungsten 35 3.86798
-	trade Clothing 230
-	trade Electronics 732
-	trade Equipment 516
-	trade Food 375
-	trade "Heavy Metals" 1045
-	trade Industrial 694
-	trade "Luxury Goods" 1027
-	trade Medical 732
-	trade Metal 323
-	trade Plastic 362
+	trade Clothing 255
+	trade Electronics 645
+	trade Equipment 472
+	trade Food 450
+	trade "Heavy Metals" 1184
+	trade Industrial 674
+	trade "Luxury Goods" 1070
+	trade Medical 639
+	trade Metal 284
+	trade Plastic 449
 	fleet "Dels miner" 2000
 	fleet "Dels merchant" 600
 	fleet "Dels guard" 1000
@@ -1946,11 +1954,11 @@ system Boklok
 		sprite planet/miranda
 		distance 106.36
 		period 19.8887
-	object
+	object Lordeeva
 		sprite planet/rock1
 		distance 321.65
 		period 104.596
-	object
+	object Lorduee
 		sprite planet/rock9
 		distance 590.26
 		period 260.018
@@ -1982,7 +1990,16 @@ system Bovdar
 	asteroids "large rock" 3 3.3264
 	asteroids "medium metal" 130 4.8888
 	asteroids "large metal" 2 2.6208
-	trade Food 282
+	trade Clothing 347
+	trade Electronics 812
+	trade Equipment 466
+	trade Food 544
+	trade "Heavy Metals" 777
+	trade Industrial 835
+	trade "Luxury Goods" 985
+	trade Medical 601
+	trade Metal 537
+	trade Plastic 505
 	fleet "Dels guard" 10000
 	fleet "Dels Outward Merchant" 800
 	0
@@ -3029,7 +3046,16 @@ system Cenex
 	asteroids "small metal" 5 2.6082
 	asteroids "medium metal" 9 3.591
 	asteroids "large metal" 2 2.8728
-	trade Food 390
+	trade Clothing 306
+	trade Electronics 722
+	trade Equipment 658
+	trade Food 219
+	trade "Heavy Metals" 890
+	trade Industrial 823
+	trade "Luxury Goods" 1074
+	trade Medical 823
+	trade Metal 334
+	trade Plastic 505
 	fleet "Dels guard" 600
 	fleet "Dels merchant" 1200
 	fleet "Dels Central Merchant" 600
@@ -3190,16 +3216,16 @@ system Cevert
 	asteroids "large metal" 5 1.89
 	minables titanium 35 3.86798
 	minables lead 35 3.86798
-	trade Clothing 315
-	trade Electronics 762
-	trade Equipment 464
-	trade Food 460
-	trade "Heavy Metals" 1009
-	trade Industrial 708
-	trade "Luxury Goods" 1019
-	trade Medical 778
-	trade Metal 306
-	trade Plastic 444
+	trade Clothing 308
+	trade Electronics 704
+	trade Equipment 493
+	trade Food 513
+	trade "Heavy Metals" 1219
+	trade Industrial 605
+	trade "Luxury Goods" 1051
+	trade Medical 608
+	trade Metal 332
+	trade Plastic 483
 	fleet "Dels miner" 1000
 	fleet "Dels merchant" 600
 	fleet "Dels Central Merchant" 800
@@ -3359,16 +3385,16 @@ system Cocaonir
 	asteroids "large metal" 219 4.38
 	minables aluminum 36 3.85992
 	minables iron 18 5.33577
-	trade Clothing 374
-	trade Electronics 657
-	trade Equipment 480
-	trade Food 455
-	trade "Heavy Metals" 1087
-	trade Industrial 704
-	trade "Luxury Goods" 1259
-	trade Medical 898
-	trade Metal 516
-	trade Plastic 327
+	trade Clothing 324
+	trade Electronics 774
+	trade Equipment 653
+	trade Food 356
+	trade "Heavy Metals" 882
+	trade Industrial 792
+	trade "Luxury Goods" 1082
+	trade Medical 761
+	trade Metal 337
+	trade Plastic 425
 	fleet "Dels merchant" 600
 	fleet "Dels Central Merchant" 600
 	fleet "Dels guard" 800
@@ -3423,16 +3449,16 @@ system Codelo
 	asteroids "small metal" 5 3.1096
 	asteroids "medium metal" 12 3.2448
 	asteroids "large metal" 9 2.028
-	trade Clothing 359
-	trade Electronics 700
-	trade Equipment 578
-	trade Food 437
-	trade "Heavy Metals" 1103
-	trade Industrial 593
-	trade "Luxury Goods" 1085
-	trade Medical 831
-	trade Metal 495
-	trade Plastic 421
+	trade Clothing 292
+	trade Electronics 840
+	trade Equipment 559
+	trade Food 232
+	trade "Heavy Metals" 878
+	trade Industrial 908
+	trade "Luxury Goods" 1418
+	trade Medical 516
+	trade Metal 245
+	trade Plastic 450
 	fleet "Dels guard" 1000
 	fleet "Dels merchant" 600
 	fleet "Dels Central Merchant" 700
@@ -3502,16 +3528,16 @@ system Collak
 	asteroids "large metal" 1 1.111
 	minables copper 1 2.36384
 	minables lead 2 1.63573
-	trade Clothing 226
-	trade Electronics 818
-	trade Equipment 574
-	trade Food 127
-	trade "Heavy Metals" 1139
-	trade Industrial 768
-	trade "Luxury Goods" 1253
-	trade Medical 577
-	trade Metal 509
-	trade Plastic 458
+	trade Clothing 300
+	trade Electronics 804
+	trade Equipment 426
+	trade Food 238
+	trade "Heavy Metals" 980
+	trade Industrial 675
+	trade "Luxury Goods" 1021
+	trade Medical 877
+	trade Metal 470
+	trade Plastic 510
 	fleet "Dels merchant" 600
 	object
 		sprite star/f5
@@ -3561,7 +3587,16 @@ system Colmo
 	asteroids "large rock" 16 2.9568
 	asteroids "medium metal" 2 3.9936
 	asteroids "large metal" 1 2.9568
-	trade Food 496
+	trade Clothing 203
+	trade Electronics 667
+	trade Equipment 556
+	trade Food 188
+	trade "Heavy Metals" 783
+	trade Industrial 771
+	trade "Luxury Goods" 1285
+	trade Medical 498
+	trade Metal 314
+	trade Plastic 314
 	fleet "Dels Outward Merchant" 700
 	object
 		sprite star/k5
@@ -3606,16 +3641,16 @@ system Comar
 	asteroids "large metal" 4 4.7196
 	minables aluminum 2 7.83938
 	minables platinum 3 10.7562
-	trade Clothing 269
-	trade Electronics 737
-	trade Equipment 497
-	trade Food 385
-	trade "Heavy Metals" 1049
-	trade Industrial 733
-	trade "Luxury Goods" 1050
-	trade Medical 689
-	trade Metal 241
-	trade Plastic 447
+	trade Clothing 301
+	trade Electronics 712
+	trade Equipment 475
+	trade Food 411
+	trade "Heavy Metals" 1148
+	trade Industrial 670
+	trade "Luxury Goods" 1096
+	trade Medical 631
+	trade Metal 328
+	trade Plastic 373
 	fleet "Dels guard" 1000
 	fleet "Dels miner" 1200
 	fleet "Dels merchant" 600
@@ -3671,16 +3706,16 @@ system Comlark
 	asteroids "small metal" 1 4.3848
 	asteroids "medium metal" 2 5.292
 	asteroids "large metal" 8 5.8968
-	trade Clothing 287
-	trade Electronics 766
-	trade Equipment 492
-	trade Food 185
-	trade "Heavy Metals" 1168
-	trade Industrial 773
-	trade "Luxury Goods" 1007
-	trade Medical 620
-	trade Metal 264
-	trade Plastic 474
+	trade Clothing 346
+	trade Electronics 735
+	trade Equipment 422
+	trade Food 175
+	trade "Heavy Metals" 1047
+	trade Industrial 600
+	trade "Luxury Goods" 1205
+	trade Medical 731
+	trade Metal 266
+	trade Plastic 365
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 1600
 	object
@@ -3733,16 +3768,16 @@ system Cordurle
 	asteroids "medium metal" 37 2.8322
 	asteroids "large metal" 23 1.6762
 	minables copper 19 3.15478
-	trade Clothing 366
-	trade Electronics 791
-	trade Equipment 423
-	trade Food 431
-	trade "Heavy Metals" 1012
-	trade Industrial 661
-	trade "Luxury Goods" 1065
-	trade Medical 765
-	trade Metal 250
-	trade Plastic 481
+	trade Clothing 316
+	trade Electronics 746
+	trade Equipment 550
+	trade Food 174
+	trade "Heavy Metals" 1025
+	trade Industrial 613
+	trade "Luxury Goods" 1230
+	trade Medical 787
+	trade Metal 285
+	trade Plastic 304
 	fleet "Dels Central Merchant" 1200
 	object
 		sprite star/k5
@@ -3797,16 +3832,16 @@ system Corduro
 	minables gold 29 9.70558
 	minables lead 22 10.7637
 	minables silicon 25 13.805
-	trade Clothing 366
-	trade Electronics 791
-	trade Equipment 423
-	trade Food 431
-	trade "Heavy Metals" 1012
-	trade Industrial 661
-	trade "Luxury Goods" 1065
-	trade Medical 765
-	trade Metal 250
-	trade Plastic 481
+	trade Clothing 313
+	trade Electronics 805
+	trade Equipment 420
+	trade Food 237
+	trade "Heavy Metals" 997
+	trade Industrial 805
+	trade "Luxury Goods" 1072
+	trade Medical 735
+	trade Metal 467
+	trade Plastic 304
 	object
 		sprite star/g0
 		distance 61
@@ -3897,16 +3932,16 @@ system Cuvorai
 	asteroids "small metal" 1 4.784
 	asteroids "large metal" 1 4.7242
 	minables titanium 8 9.37005
-	trade Clothing 176
-	trade Electronics 641
-	trade Equipment 409
-	trade Food 174
-	trade "Heavy Metals" 726
-	trade Industrial 855
-	trade "Luxury Goods" 966
-	trade Medical 498
-	trade Metal 546
-	trade Plastic 248
+	trade Clothing 332
+	trade Electronics 805
+	trade Equipment 640
+	trade Food 158
+	trade "Heavy Metals" 1003
+	trade Industrial 666
+	trade "Luxury Goods" 1150
+	trade Medical 808
+	trade Metal 422
+	trade Plastic 381
 	fleet "Dels merchant" 800
 	object
 		sprite star/k5
@@ -4927,16 +4962,16 @@ system Dalumone
 	asteroids "large metal" 1 3.45
 	minables iron 1 7.01166
 	minables lead 5 7.88222
-	trade Clothing 366
-	trade Electronics 791
-	trade Equipment 423
-	trade Food 431
-	trade "Heavy Metals" 1012
-	trade Industrial 661
-	trade "Luxury Goods" 1065
-	trade Medical 765
-	trade Metal 250
-	trade Plastic 481
+	trade Clothing 277
+	trade Electronics 841
+	trade Equipment 414
+	trade Food 189
+	trade "Heavy Metals" 1015
+	trade Industrial 855
+	trade "Luxury Goods" 1069
+	trade Medical 700
+	trade Metal 440
+	trade Plastic 316
 	object
 		sprite star/g0
 		period 10
@@ -5099,16 +5134,16 @@ system Dardine
 	asteroids "large rock" 1 3.2214
 	asteroids "medium metal" 11 6.3336
 	asteroids "large metal" 1 7.917
-	trade Clothing 0
-	trade Electronics 0
-	trade Equipment 0
-	trade Food 496
-	trade "Heavy Metals" 0
-	trade Industrial 0
-	trade "Luxury Goods" 0
-	trade Medical 0
-	trade Metal 0
-	trade Plastic 0
+	trade Clothing 325
+	trade Electronics 752
+	trade Equipment 503
+	trade Food 152
+	trade "Heavy Metals" 910
+	trade Industrial 702
+	trade "Luxury Goods" 1304
+	trade Medical 530
+	trade Metal 416
+	trade Plastic 278
 	fleet "Dels Outward Merchant" 600
 	object
 		sprite star/m0
@@ -5254,16 +5289,16 @@ system Deaonudor
 	asteroids "large metal" 1 4.5864
 	minables copper 3 7.83119
 	minables iron 1 5.00643
-	trade Clothing 374
-	trade Electronics 657
-	trade Equipment 480
-	trade Food 455
-	trade "Heavy Metals" 1087
-	trade Industrial 704
-	trade "Luxury Goods" 1259
-	trade Medical 898
-	trade Metal 516
-	trade Plastic 327
+	trade Clothing 300
+	trade Electronics 629
+	trade Equipment 674
+	trade Food 430
+	trade "Heavy Metals" 1132
+	trade Industrial 634
+	trade "Luxury Goods" 954
+	trade Medical 751
+	trade Metal 433
+	trade Plastic 429
 	fleet "Dels Central Merchant" 700
 	fleet "Dels guard" 800
 	object
@@ -5317,16 +5352,16 @@ system Deefolks
 	asteroids "large metal" 22 3.458
 	minables titanium 35 3.86798
 	minables tungsten 35 3.86798
-	trade Clothing 292
-	trade Electronics 734
-	trade Equipment 565
-	trade Food 361
-	trade "Heavy Metals" 947
-	trade Industrial 649
-	trade "Luxury Goods" 964
-	trade Medical 582
-	trade Metal 242
-	trade Plastic 472
+	trade Clothing 313
+	trade Electronics 788
+	trade Equipment 439
+	trade Food 275
+	trade "Heavy Metals" 1152
+	trade Industrial 779
+	trade "Luxury Goods" 1014
+	trade Medical 725
+	trade Metal 347
+	trade Plastic 353
 	fleet "Dels guard" 600
 	fleet "Dels merchant" 1200
 	fleet "Dels miner" 2000
@@ -5385,16 +5420,16 @@ system Deekurti
 	minables copper 3 5.47754
 	minables lead 4 7.72662
 	minables neodymium 4 7.04627
-	trade Clothing 0
-	trade Electronics 0
-	trade Equipment 0
-	trade Food 528
-	trade "Heavy Metals" 0
-	trade Industrial 0
-	trade "Luxury Goods" 0
-	trade Medical 0
-	trade Metal 0
-	trade Plastic 0
+	trade Clothing 293
+	trade Electronics 705
+	trade Equipment 656
+	trade Food 249
+	trade "Heavy Metals" 953
+	trade Industrial 619
+	trade "Luxury Goods" 1221
+	trade Medical 640
+	trade Metal 380
+	trade Plastic 374
 	fleet "Dels Outward Merchant" 1400
 	object
 		sprite star/f0
@@ -5452,7 +5487,16 @@ system Deepla
 	asteroids "large metal" 16 6.426
 	minables iron 4 12.322
 	minables tungsten 6 8.31801
-	trade Food 367
+	trade Clothing 281
+	trade Electronics 830
+	trade Equipment 588
+	trade Food 230
+	trade "Heavy Metals" 937
+	trade Industrial 611
+	trade "Luxury Goods" 1153
+	trade Medical 575
+	trade Metal 351
+	trade Plastic 313
 	fleet "Dels guard" 600
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 1000
@@ -5496,7 +5540,16 @@ system Delelaur
 	asteroids "small metal" 18 7.076
 	asteroids "medium metal" 35 4.872
 	asteroids "large metal" 37 2.9
-	trade Food 204
+	trade Clothing 295
+	trade Electronics 775
+	trade Equipment 495
+	trade Food 358
+	trade "Heavy Metals" 881
+	trade Industrial 840
+	trade "Luxury Goods" 1220
+	trade Medical 669
+	trade Metal 232
+	trade Plastic 300
 	fleet "Dels Outward Merchant" 800
 	object
 		sprite star/f5
@@ -5549,16 +5602,16 @@ system Deloco
 	asteroids "small metal" 17 6.003
 	asteroids "medium metal" 23 7.134
 	asteroids "large metal" 8 4.437
-	trade Clothing 326
-	trade Electronics 692
-	trade Equipment 475
-	trade Food 449
-	trade "Heavy Metals" 1245
-	trade Industrial 684
-	trade "Luxury Goods" 1096
-	trade Medical 898
-	trade Metal 540
-	trade Plastic 458
+	trade Clothing 311
+	trade Electronics 768
+	trade Equipment 583
+	trade Food 241
+	trade "Heavy Metals" 876
+	trade Industrial 853
+	trade "Luxury Goods" 1439
+	trade Medical 565
+	trade Metal 391
+	trade Plastic 384
 	fleet "Dels guard" 1200
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 800
@@ -5605,16 +5658,16 @@ system Delona
 	asteroids "small metal" 201 3.696
 	asteroids "medium metal" 39 3.74
 	asteroids "large metal" 76 3.036
-	trade Clothing 288
-	trade Electronics 631
-	trade Equipment 432
-	trade Food 458
-	trade "Heavy Metals" 1188
-	trade Industrial 591
-	trade "Luxury Goods" 1188
-	trade Medical 869
-	trade Metal 548
-	trade Plastic 244
+	trade Clothing 291
+	trade Electronics 762
+	trade Equipment 559
+	trade Food 443
+	trade "Heavy Metals" 972
+	trade Industrial 766
+	trade "Luxury Goods" 1239
+	trade Medical 579
+	trade Metal 224
+	trade Plastic 312
 	fleet "Dels guard" 1000
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 800
@@ -5681,7 +5734,16 @@ system Deloop
 	asteroids "medium metal" 1 6.72
 	asteroids "large metal" 50 3.72
 	minables tungsten 8 9.19299
-	trade Food 512
+	trade Clothing 336
+	trade Electronics 690
+	trade Equipment 662
+	trade Food 202
+	trade "Heavy Metals" 696
+	trade Industrial 604
+	trade "Luxury Goods" 1248
+	trade Medical 531
+	trade Metal 456
+	trade Plastic 357
 	fleet "Dels guard" 10000
 	fleet "Dels Outward Merchant" 600
 	0
@@ -5953,16 +6015,16 @@ system Derkeevo
 	asteroids "large metal" 38 2.016
 	minables iron 14 2.65935
 	minables lead 51 3.45461
-	trade Clothing 366
-	trade Electronics 791
-	trade Equipment 423
-	trade Food 431
-	trade "Heavy Metals" 1012
-	trade Industrial 661
-	trade "Luxury Goods" 1065
-	trade Medical 765
-	trade Metal 250
-	trade Plastic 481
+	trade Clothing 262
+	trade Electronics 709
+	trade Equipment 634
+	trade Food 439
+	trade "Heavy Metals" 1204
+	trade Industrial 767
+	trade "Luxury Goods" 1005
+	trade Medical 799
+	trade Metal 511
+	trade Plastic 405
 	fleet "Dels Central Merchant" 800
 	fleet "Dels miner" 1200
 	object
@@ -6105,16 +6167,16 @@ system Deunorle
 	asteroids "medium metal" 3 7.1775
 	asteroids "large metal" 8 7.6125
 	minables gold 3 10.6985
-	trade Clothing 366
-	trade Electronics 791
-	trade Equipment 423
-	trade Food 431
-	trade "Heavy Metals" 1012
-	trade Industrial 661
-	trade "Luxury Goods" 1065
-	trade Medical 765
-	trade Metal 250
-	trade Plastic 481
+	trade Clothing 265
+	trade Electronics 640
+	trade Equipment 613
+	trade Food 373
+	trade "Heavy Metals" 1052
+	trade Industrial 851
+	trade "Luxury Goods" 1137
+	trade Medical 892
+	trade Metal 449
+	trade Plastic 379
 	fleet "Dels Central Merchant" 800
 	object
 		sprite star/g5
@@ -6162,16 +6224,16 @@ system Deuqou
 	asteroids "large metal" 31 1.518
 	minables iron 2 1.22066
 	minables lead 26 1.73267
-	trade Clothing 384
-	trade Electronics 668
-	trade Equipment 424
-	trade Food 541
-	trade "Heavy Metals" 975
-	trade Industrial 655
-	trade "Luxury Goods" 1296
-	trade Medical 803
-	trade Metal 457
-	trade Plastic 346
+	trade Clothing 331
+	trade Electronics 879
+	trade Equipment 539
+	trade Food 120
+	trade "Heavy Metals" 877
+	trade Industrial 819
+	trade "Luxury Goods" 1416
+	trade Medical 504
+	trade Metal 518
+	trade Plastic 270
 	fleet "Dels Outward Merchant" 600
 	object
 		sprite star/a5
@@ -6234,7 +6296,16 @@ system Deurvuk
 	asteroids "large metal" 5 6.65
 	minables aluminum 18 3.95423
 	minables neodymium 25 4.45764
-	trade Food 453
+	trade Clothing 315
+	trade Electronics 642
+	trade Equipment 670
+	trade Food 157
+	trade "Heavy Metals" 933
+	trade Industrial 593
+	trade "Luxury Goods" 1376
+	trade Medical 639
+	trade Metal 339
+	trade Plastic 467
 	fleet "Dels guard" 1000
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 1400
@@ -6344,7 +6415,16 @@ system Dofolk
 	asteroids "large metal" 3 6.7032
 	minables neodymium 3 7.10335
 	minables titanium 2 5.40961
-	trade Food 382
+	trade Clothing 281
+	trade Electronics 770
+	trade Equipment 575
+	trade Food 187
+	trade "Heavy Metals" 956
+	trade Industrial 583
+	trade "Luxury Goods" 1183
+	trade Medical 528
+	trade Metal 324
+	trade Plastic 354
 	fleet "Dels guard" 1000
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 1000
@@ -6453,16 +6533,16 @@ system Dolmoriwakla
 	link "Qee Golle"
 	asteroids "medium metal" 2 5.2026
 	asteroids "large metal" 1 3.289
-	trade Clothing 258
-	trade Electronics 678
-	trade Equipment 413
-	trade Food 154
-	trade "Heavy Metals" 778
-	trade Industrial 582
-	trade "Luxury Goods" 1455
-	trade Medical 525
-	trade Metal 421
-	trade Plastic 485
+	trade Clothing 269
+	trade Electronics 661
+	trade Equipment 414
+	trade Food 513
+	trade "Heavy Metals" 1126
+	trade Industrial 608
+	trade "Luxury Goods" 1456
+	trade Medical 511
+	trade Metal 342
+	trade Plastic 302
 	fleet "Dels pirate" 500
 	object
 		sprite star/k0
@@ -6516,7 +6596,16 @@ system Dopolk
 	asteroids "small metal" 11 3.6176
 	asteroids "medium metal" 66 2.5536
 	asteroids "large metal" 50 3.1616
-	trade Food 354
+	trade Clothing 364
+	trade Electronics 770
+	trade Equipment 671
+	trade Food 230
+	trade "Heavy Metals" 857
+	trade Industrial 825
+	trade "Luxury Goods" 1083
+	trade Medical 787
+	trade Metal 265
+	trade Plastic 478
 	fleet "Dels guard" 600
 	fleet "Dels merchant" 1200
 	fleet "Dels Central Merchant" 600
@@ -6614,16 +6703,16 @@ system Dorvulmer
 	asteroids "medium metal" 67 3.0525
 	asteroids "large metal" 5 1.705
 	minables lead 1 4.05288
-	trade Clothing 206
-	trade Electronics 692
-	trade Equipment 655
-	trade Food 249
-	trade "Heavy Metals" 864
-	trade Industrial 610
-	trade "Luxury Goods" 943
-	trade Medical 505
-	trade Metal 251
-	trade Plastic 411
+	trade Clothing 313
+	trade Electronics 731
+	trade Equipment 663
+	trade Food 339
+	trade "Heavy Metals" 777
+	trade Industrial 831
+	trade "Luxury Goods" 1402
+	trade Medical 675
+	trade Metal 285
+	trade Plastic 377
 	object
 		sprite star/k5
 		period 10
@@ -6679,16 +6768,16 @@ system Dreevu
 	asteroids "large rock" 1 2.34
 	asteroids "large metal" 2 2.844
 	minables tungsten 3 5.28667
-	trade Clothing 314
-	trade Electronics 847
-	trade Equipment 632
-	trade Food 162
-	trade "Heavy Metals" 1057
-	trade Industrial 780
-	trade "Luxury Goods" 1263
-	trade Medical 683
-	trade Metal 521
-	trade Plastic 399
+	trade Clothing 288
+	trade Electronics 815
+	trade Equipment 457
+	trade Food 225
+	trade "Heavy Metals" 1064
+	trade Industrial 657
+	trade "Luxury Goods" 1071
+	trade Medical 797
+	trade Metal 413
+	trade Plastic 497
 	fleet "Dels merchant" 600
 	fleet "Dels guard" 1000
 	object
@@ -6742,16 +6831,16 @@ system Duanaoui
 	minables gold 4 2.7623
 	minables lead 2 2.52263
 	minables silicon 2 1.53939
-	trade Clothing 242
-	trade Electronics 788
-	trade Equipment 432
-	trade Food 254
-	trade "Heavy Metals" 1218
-	trade Industrial 719
-	trade "Luxury Goods" 1115
-	trade Medical 549
-	trade Metal 500
-	trade Plastic 503
+	trade Clothing 311
+	trade Electronics 677
+	trade Equipment 386
+	trade Food 238
+	trade "Heavy Metals" 1203
+	trade Industrial 617
+	trade "Luxury Goods" 1047
+	trade Medical 735
+	trade Metal 363
+	trade Plastic 288
 	object
 		sprite star/m4
 		period 10
@@ -6796,16 +6885,16 @@ system Dueeneo
 	asteroids "large rock" 3 2.4035
 	asteroids "medium metal" 7 3.6432
 	asteroids "large metal" 1 2.9348
-	trade Clothing 374
-	trade Electronics 657
-	trade Equipment 480
-	trade Food 455
-	trade "Heavy Metals" 1087
-	trade Industrial 704
-	trade "Luxury Goods" 1259
-	trade Medical 898
-	trade Metal 516
-	trade Plastic 327
+	trade Clothing 344
+	trade Electronics 758
+	trade Equipment 558
+	trade Food 176
+	trade "Heavy Metals" 950
+	trade Industrial 840
+	trade "Luxury Goods" 1071
+	trade Medical 662
+	trade Metal 236
+	trade Plastic 416
 	fleet "Dels Outward Merchant" 700
 	fleet "Dels Central Merchant" 1200
 	object
@@ -6921,16 +7010,16 @@ system "Dukor Nor"
 	asteroids "medium metal" 3 10.95
 	asteroids "large metal" 26 10.2
 	minables copper 1 11.939
-	trade Clothing 0
-	trade Electronics 0
-	trade Equipment 0
-	trade Food 496
-	trade "Heavy Metals" 0
-	trade Industrial 0
-	trade "Luxury Goods" 0
-	trade Medical 0
-	trade Metal 0
-	trade Plastic 0
+	trade Clothing 265
+	trade Electronics 694
+	trade Equipment 506
+	trade Food 225
+	trade "Heavy Metals" 876
+	trade Industrial 754
+	trade "Luxury Goods" 1330
+	trade Medical 478
+	trade Metal 390
+	trade Plastic 346
 	fleet "Dels Outward Merchant" 800
 	object
 		sprite star/g5
@@ -6990,16 +7079,16 @@ system Dukoree
 	asteroids "medium metal" 4 12.006
 	asteroids "large metal" 1 9.918
 	minables lead 1 12.4412
-	trade Clothing 0
-	trade Electronics 0
-	trade Equipment 0
-	trade Food 282
-	trade "Heavy Metals" 0
-	trade Industrial 0
-	trade "Luxury Goods" 0
-	trade Medical 0
-	trade Metal 0
-	trade Plastic 0
+	trade Clothing 359
+	trade Electronics 781
+	trade Equipment 421
+	trade Food 538
+	trade "Heavy Metals" 716
+	trade Industrial 845
+	trade "Luxury Goods" 966
+	trade Medical 693
+	trade Metal 578
+	trade Plastic 513
 	object
 		sprite star/g0
 		period 10
@@ -7047,16 +7136,16 @@ system Dularvo
 	asteroids "large metal" 17 2.56
 	minables lead 24 5.30324
 	minables tungsten 15 5.34587
-	trade Clothing 202
-	trade Electronics 808
-	trade Equipment 469
-	trade Food 382
-	trade "Heavy Metals" 928
-	trade Industrial 865
-	trade "Luxury Goods" 1051
-	trade Medical 866
-	trade Metal 296
-	trade Plastic 313
+	trade Clothing 273
+	trade Electronics 803
+	trade Equipment 499
+	trade Food 300
+	trade "Heavy Metals" 876
+	trade Industrial 681
+	trade "Luxury Goods" 1227
+	trade Medical 781
+	trade Metal 463
+	trade Plastic 327
 	object
 		sprite star/f5
 		distance 34.188
@@ -7112,16 +7201,16 @@ system Dulvurka
 	minables lead 10 2.15919
 	minables neodymium 34 2.53593
 	minables tungsten 36 2.76076
-	trade Clothing 347
-	trade Electronics 778
-	trade Equipment 640
-	trade Food 458
-	trade "Heavy Metals" 1067
-	trade Industrial 561
-	trade "Luxury Goods" 1075
-	trade Medical 815
-	trade Metal 510
-	trade Plastic 481
+	trade Clothing 330
+	trade Electronics 837
+	trade Equipment 634
+	trade Food 517
+	trade "Heavy Metals" 1023
+	trade Industrial 844
+	trade "Luxury Goods" 1233
+	trade Medical 571
+	trade Metal 244
+	trade Plastic 280
 	fleet "Dels Outward Merchant" 800
 	object
 		sprite star/f5
@@ -7167,16 +7256,16 @@ system Duraai
 	asteroids "small metal" 195 0.9282
 	asteroids "medium metal" 19 1.1102
 	asteroids "large metal" 27 1.5106
-	trade Clothing 391
-	trade Electronics 648
-	trade Equipment 498
-	trade Food 451
-	trade "Heavy Metals" 1065
-	trade Industrial 760
-	trade "Luxury Goods" 1302
-	trade Medical 806
-	trade Metal 466
-	trade Plastic 339
+	trade Clothing 262
+	trade Electronics 814
+	trade Equipment 639
+	trade Food 449
+	trade "Heavy Metals" 790
+	trade Industrial 761
+	trade "Luxury Goods" 1166
+	trade Medical 699
+	trade Metal 318
+	trade Plastic 362
 	fleet "Dels guard" 800
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 1000
@@ -7253,16 +7342,16 @@ system Durdan
 	asteroids "large metal" 1 5.2836
 	minables gold 3 4.63602
 	minables lead 10 4.33112
-	trade Clothing 366
-	trade Electronics 791
-	trade Equipment 423
-	trade Food 431
-	trade "Heavy Metals" 1012
-	trade Industrial 661
-	trade "Luxury Goods" 1065
-	trade Medical 765
-	trade Metal 250
-	trade Plastic 481
+	trade Clothing 347
+	trade Electronics 761
+	trade Equipment 515
+	trade Food 407
+	trade "Heavy Metals" 907
+	trade Industrial 860
+	trade "Luxury Goods" 1424
+	trade Medical 575
+	trade Metal 279
+	trade Plastic 373
 	fleet "Dels Outward Merchant" 1400
 	object
 		sprite star/g5
@@ -7317,16 +7406,16 @@ system Dureede
 	asteroids "small metal" 18 8.0649
 	asteroids "medium metal" 7 8.3781
 	asteroids "large metal" 3 11.1186
-	trade Clothing 268
-	trade Electronics 660
-	trade Equipment 448
-	trade Food 460
-	trade "Heavy Metals" 1119
-	trade Industrial 618
-	trade "Luxury Goods" 1212
-	trade Medical 861
-	trade Metal 462
-	trade Plastic 334
+	trade Clothing 199
+	trade Electronics 697
+	trade Equipment 423
+	trade Food 347
+	trade "Heavy Metals" 1057
+	trade Industrial 729
+	trade "Luxury Goods" 1196
+	trade Medical 634
+	trade Metal 225
+	trade Plastic 438
 	object
 		sprite star/k0
 		distance 52.7383
@@ -7451,16 +7540,16 @@ system Duvuldorra
 	link Mallukavi
 	link Nugorig
 	asteroids "large metal" 1 3.636
-	trade Clothing 307
-	trade Electronics 813
-	trade Equipment 501
-	trade Food 180
-	trade "Heavy Metals" 1245
-	trade Industrial 633
-	trade "Luxury Goods" 1087
-	trade Medical 851
-	trade Metal 288
-	trade Plastic 383
+	trade Clothing 260
+	trade Electronics 831
+	trade Equipment 620
+	trade Food 395
+	trade "Heavy Metals" 1020
+	trade Industrial 728
+	trade "Luxury Goods" 979
+	trade Medical 793
+	trade Metal 236
+	trade Plastic 435
 	object
 		sprite star/g5
 		distance 48.2287
@@ -8230,16 +8319,16 @@ system Edarmido
 	minables aluminum 2 2.92946
 	minables copper 4 3.11839
 	minables uranium 8 2.2905
-	trade Clothing 207
-	trade Electronics 635
-	trade Equipment 553
-	trade Food 174
-	trade "Heavy Metals" 876
-	trade Industrial 794
-	trade "Luxury Goods" 975
-	trade Medical 651
-	trade Metal 470
-	trade Plastic 256
+	trade Clothing 380
+	trade Electronics 813
+	trade Equipment 623
+	trade Food 187
+	trade "Heavy Metals" 985
+	trade Industrial 729
+	trade "Luxury Goods" 1172
+	trade Medical 831
+	trade Metal 426
+	trade Plastic 294
 	fleet "Dels merchant" 600
 	object
 		sprite star/m0
@@ -8286,16 +8375,16 @@ system Eedoruna
 	asteroids "large rock" 4 3.92
 	asteroids "small metal" 2 2.128
 	asteroids "large metal" 1 2.884
-	trade Clothing 374
-	trade Electronics 657
-	trade Equipment 480
-	trade Food 455
-	trade "Heavy Metals" 1087
-	trade Industrial 704
-	trade "Luxury Goods" 1259
-	trade Medical 898
-	trade Metal 516
-	trade Plastic 327
+	trade Clothing 341
+	trade Electronics 780
+	trade Equipment 656
+	trade Food 183
+	trade "Heavy Metals" 925
+	trade Industrial 672
+	trade "Luxury Goods" 1268
+	trade Medical 695
+	trade Metal 317
+	trade Plastic 303
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 700
 	fleet "Dels Central Merchant" 700
@@ -8352,16 +8441,16 @@ system "Eevil Or"
 	asteroids "large rock" 17 4.8384
 	asteroids "medium metal" 14 2.1168
 	asteroids "large metal" 1 3.3642
-	trade Clothing 206
-	trade Electronics 692
-	trade Equipment 655
-	trade Food 249
-	trade "Heavy Metals" 864
-	trade Industrial 610
-	trade "Luxury Goods" 943
-	trade Medical 505
-	trade Metal 251
-	trade Plastic 411
+	trade Clothing 269
+	trade Electronics 678
+	trade Equipment 682
+	trade Food 240
+	trade "Heavy Metals" 826
+	trade Industrial 776
+	trade "Luxury Goods" 1296
+	trade Medical 791
+	trade Metal 269
+	trade Plastic 310
 	fleet Ignaggen 700
 	fleet "Dels merchant" 700
 	object
@@ -8409,16 +8498,16 @@ system Eicegu
 	asteroids "large metal" 6 3.27
 	minables iron 4 5.54345
 	minables titanium 20 4.93775
-	trade Clothing 235
-	trade Electronics 812
-	trade Equipment 509
-	trade Food 249
-	trade "Heavy Metals" 1168
-	trade Industrial 606
-	trade "Luxury Goods" 1113
-	trade Medical 772
-	trade Metal 267
-	trade Plastic 390
+	trade Clothing 296
+	trade Electronics 653
+	trade Equipment 385
+	trade Food 387
+	trade "Heavy Metals" 706
+	trade Industrial 724
+	trade "Luxury Goods" 1181
+	trade Medical 827
+	trade Metal 417
+	trade Plastic 510
 	object
 		sprite star/g0
 		period 10
@@ -8513,16 +8602,16 @@ system Eiekdarmor
 	asteroids "large metal" 1 5.096
 	minables copper 2 10.895
 	minables gold 3 12.0641
-	trade Clothing 212
-	trade Electronics 714
-	trade Equipment 643
-	trade Food 174
-	trade "Heavy Metals" 918
-	trade Industrial 792
-	trade "Luxury Goods" 1059
-	trade Medical 729
-	trade Metal 353
-	trade Plastic 273
+	trade Clothing 278
+	trade Electronics 829
+	trade Equipment 500
+	trade Food 194
+	trade "Heavy Metals" 1091
+	trade Industrial 625
+	trade "Luxury Goods" 1050
+	trade Medical 747
+	trade Metal 408
+	trade Plastic 492
 	fleet "Dels merchant" 600
 	object
 		sprite star/k0
@@ -8629,16 +8718,16 @@ system Eldrra
 	asteroids "large metal" 75 6.5113
 	minables copper 37 11.1066
 	minables iron 29 11.6784
-	trade Clothing 264
-	trade Electronics 810
-	trade Equipment 610
-	trade Food 265
-	trade "Heavy Metals" 934
-	trade Industrial 754
-	trade "Luxury Goods" 980
-	trade Medical 589
-	trade Metal 321
-	trade Plastic 358
+	trade Clothing 288
+	trade Electronics 741
+	trade Equipment 481
+	trade Food 484
+	trade "Heavy Metals" 807
+	trade Industrial 633
+	trade "Luxury Goods" 1094
+	trade Medical 705
+	trade Metal 508
+	trade Plastic 483
 	object
 		sprite star/m0
 		distance 40.0549
@@ -8745,16 +8834,16 @@ system Elnorha
 	asteroids "large metal" 4 3.213
 	minables lead 4 4.29394
 	minables silver 1 3.84021
-	trade Clothing 366
-	trade Electronics 791
-	trade Equipment 423
-	trade Food 431
-	trade "Heavy Metals" 1012
-	trade Industrial 661
-	trade "Luxury Goods" 1065
-	trade Medical 765
-	trade Metal 250
-	trade Plastic 481
+	trade Clothing 315
+	trade Electronics 646
+	trade Equipment 539
+	trade Food 404
+	trade "Heavy Metals" 971
+	trade Industrial 738
+	trade "Luxury Goods" 1307
+	trade Medical 694
+	trade Metal 283
+	trade Plastic 297
 	fleet "Dels Outward Merchant" 1000
 	object
 		sprite star/g5
@@ -8796,16 +8885,16 @@ system Elormunel
 	link Finan
 	link Ilen
 	asteroids "large metal" 1 3.2775
-	trade Clothing 271
-	trade Electronics 714
-	trade Equipment 550
-	trade Food 329
-	trade "Heavy Metals" 1084
-	trade Industrial 569
-	trade "Luxury Goods" 1039
-	trade Medical 669
-	trade Metal 339
-	trade Plastic 457
+	trade Clothing 240
+	trade Electronics 640
+	trade Equipment 400
+	trade Food 508
+	trade "Heavy Metals" 887
+	trade Industrial 592
+	trade "Luxury Goods" 1262
+	trade Medical 864
+	trade Metal 262
+	trade Plastic 476
 	object
 		sprite star/g5
 		period 10
@@ -8869,16 +8958,16 @@ system Elronu
 	asteroids "large metal" 62 6.9513
 	minables lead 10 7.45002
 	minables silicon 23 8.19618
-	trade Clothing 366
-	trade Electronics 791
-	trade Equipment 423
-	trade Food 431
-	trade "Heavy Metals" 1012
-	trade Industrial 661
-	trade "Luxury Goods" 1065
-	trade Medical 765
-	trade Metal 250
-	trade Plastic 481
+	trade Clothing 313
+	trade Electronics 773
+	trade Equipment 609
+	trade Food 536
+	trade "Heavy Metals" 848
+	trade Industrial 818
+	trade "Luxury Goods" 1190
+	trade Medical 594
+	trade Metal 282
+	trade Plastic 360
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 800
 	fleet "Dels Central Merchant" 600
@@ -8988,16 +9077,16 @@ system Erdorina
 	asteroids "medium metal" 62 5.2864
 	asteroids "large metal" 13 2.7328
 	minables lead 3 6.51807
-	trade Clothing 326
-	trade Electronics 777
-	trade Equipment 562
-	trade Food 268
-	trade "Heavy Metals" 897
-	trade Industrial 720
-	trade "Luxury Goods" 943
-	trade Medical 557
-	trade Metal 400
-	trade Plastic 358
+	trade Clothing 365
+	trade Electronics 795
+	trade Equipment 390
+	trade Food 532
+	trade "Heavy Metals" 720
+	trade Industrial 782
+	trade "Luxury Goods" 1111
+	trade Medical 750
+	trade Metal 519
+	trade Plastic 449
 	object
 		sprite star/f5
 		distance 15.8821
@@ -9048,16 +9137,16 @@ system Eribai
 	asteroids "large metal" 7 4.3956
 	minables aluminum 15 8.30776
 	minables iron 3 6.85926
-	trade Clothing 314
-	trade Electronics 679
-	trade Equipment 645
-	trade Food 237
-	trade "Heavy Metals" 973
-	trade Industrial 669
-	trade "Luxury Goods" 987
-	trade Medical 583
-	trade Metal 345
-	trade Plastic 488
+	trade Clothing 286
+	trade Electronics 643
+	trade Equipment 639
+	trade Food 255
+	trade "Heavy Metals" 721
+	trade Industrial 677
+	trade "Luxury Goods" 1179
+	trade Medical 846
+	trade Metal 474
+	trade Plastic 469
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -9192,16 +9281,16 @@ system Ernauor
 	minables aluminum 29 3.96851
 	minables titanium 16 2.64133
 	minables uranium 34 2.40022
-	trade Clothing 243
-	trade Electronics 814
-	trade Equipment 650
-	trade Food 167
-	trade "Heavy Metals" 1156
-	trade Industrial 816
-	trade "Luxury Goods" 1141
-	trade Medical 786
-	trade Metal 400
-	trade Plastic 417
+	trade Clothing 290
+	trade Electronics 757
+	trade Equipment 431
+	trade Food 225
+	trade "Heavy Metals" 1142
+	trade Industrial 651
+	trade "Luxury Goods" 1081
+	trade Medical 720
+	trade Metal 314
+	trade Plastic 292
 	fleet "Dels merchant" 600
 	fleet "Dels guard" 1000
 	object
@@ -9241,16 +9330,16 @@ system Eruaine
 	link Orseune
 	link Suere
 	asteroids "large metal" 1 5.568
-	trade Clothing 330
-	trade Electronics 782
-	trade Equipment 670
-	trade Food 174
-	trade "Heavy Metals" 945
-	trade Industrial 821
-	trade "Luxury Goods" 1236
-	trade Medical 673
-	trade Metal 471
-	trade Plastic 391
+	trade Clothing 235
+	trade Electronics 742
+	trade Equipment 421
+	trade Food 301
+	trade "Heavy Metals" 1083
+	trade Industrial 658
+	trade "Luxury Goods" 1317
+	trade Medical 878
+	trade Metal 443
+	trade Plastic 331
 	fleet "Dels merchant" 600
 	object
 		sprite star/g0
@@ -9298,16 +9387,16 @@ system Erwal
 	minables iron 57 9.94016
 	minables lead 13 10.2645
 	minables uranium 56 8.01819
-	trade Clothing 269
-	trade Electronics 810
-	trade Equipment 557
-	trade Food 344
-	trade "Heavy Metals" 995
-	trade Industrial 788
-	trade "Luxury Goods" 1084
-	trade Medical 854
-	trade Metal 268
-	trade Plastic 314
+	trade Clothing 289
+	trade Electronics 632
+	trade Equipment 594
+	trade Food 415
+	trade "Heavy Metals" 895
+	trade Industrial 555
+	trade "Luxury Goods" 1070
+	trade Medical 580
+	trade Metal 432
+	trade Plastic 489
 	fleet "Ignaggen Outlaw" 2300
 	fleet "Kager Military" 800
 	fleet Ignaggen 1000
@@ -9359,16 +9448,16 @@ system Eudarvo
 	asteroids "medium metal" 9 4.1354
 	asteroids "large metal" 50 9.0045
 	minables iron 16 8.4359
-	trade Clothing 324
-	trade Electronics 730
-	trade Equipment 610
-	trade Food 162
-	trade "Heavy Metals" 1000
-	trade Industrial 734
-	trade "Luxury Goods" 1199
-	trade Medical 600
-	trade Metal 530
-	trade Plastic 473
+	trade Clothing 284
+	trade Electronics 835
+	trade Equipment 407
+	trade Food 422
+	trade "Heavy Metals" 1038
+	trade Industrial 631
+	trade "Luxury Goods" 1174
+	trade Medical 887
+	trade Metal 472
+	trade Plastic 335
 	fleet "Dels merchant" 700
 	object
 		sprite star/m0
@@ -9414,16 +9503,16 @@ system Eududekor
 	asteroids "large rock" 3 2.1168
 	asteroids "medium metal" 54 3.4776
 	asteroids "large metal" 3 2.8728
-	trade Clothing 0
-	trade Electronics 0
-	trade Equipment 0
-	trade Food 538
-	trade "Heavy Metals" 0
-	trade Industrial 0
-	trade "Luxury Goods" 0
-	trade Medical 0
-	trade Metal 0
-	trade Plastic 0
+	trade Clothing 319
+	trade Electronics 782
+	trade Equipment 692
+	trade Food 399
+	trade "Heavy Metals" 1122
+	trade Industrial 772
+	trade "Luxury Goods" 1013
+	trade Medical 521
+	trade Metal 304
+	trade Plastic 289
 	fleet "Dels Outward Merchant" 700
 	object
 		sprite star/k0
@@ -9849,16 +9938,16 @@ system "Fee Jo"
 	asteroids "small metal" 8 2.125
 	asteroids "medium metal" 32 2.057
 	asteroids "large metal" 26 1.734
-	trade Clothing 258
-	trade Electronics 706
-	trade Equipment 578
-	trade Food 522
-	trade "Heavy Metals" 1076
-	trade Industrial 731
-	trade "Luxury Goods" 1063
-	trade Medical 863
-	trade Metal 372
-	trade Plastic 469
+	trade Clothing 321
+	trade Electronics 698
+	trade Equipment 423
+	trade Food 469
+	trade "Heavy Metals" 1236
+	trade Industrial 611
+	trade "Luxury Goods" 1002
+	trade Medical 490
+	trade Metal 317
+	trade Plastic 438
 	fleet "Dels merchant" 600
 	fleet "Dels Central Merchant" 700
 	object
@@ -9911,16 +10000,16 @@ system "Fee Lo"
 	asteroids "small metal" 4 9.828
 	asteroids "medium metal" 6 7.392
 	asteroids "large metal" 2 7.14
-	trade Clothing 330
-	trade Electronics 635
-	trade Equipment 512
-	trade Food 383
-	trade "Heavy Metals" 1184
-	trade Industrial 681
-	trade "Luxury Goods" 1171
-	trade Medical 869
-	trade Metal 476
-	trade Plastic 364
+	trade Clothing 280
+	trade Electronics 816
+	trade Equipment 544
+	trade Food 262
+	trade "Heavy Metals" 891
+	trade Industrial 884
+	trade "Luxury Goods" 1393
+	trade Medical 479
+	trade Metal 307
+	trade Plastic 460
 	fleet "Dels guard" 1000
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 800
@@ -9978,7 +10067,16 @@ system "Fee Ro"
 	minables iron 2 4.97992
 	minables titanium 6 3.76312
 	minables tungsten 2 3.24566
-	trade Food 528
+	trade Clothing 328
+	trade Electronics 678
+	trade Equipment 683
+	trade Food 172
+	trade "Heavy Metals" 953
+	trade Industrial 607
+	trade "Luxury Goods" 1358
+	trade Medical 645
+	trade Metal 286
+	trade Plastic 461
 	fleet "Dels guard" 1000
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 1200
@@ -10028,7 +10126,16 @@ system Feelov
 	asteroids "small metal" 2 3.212
 	asteroids "medium metal" 79 2.112
 	asteroids "large metal" 1 2.024
-	trade Food 225
+	trade Clothing 331
+	trade Electronics 751
+	trade Equipment 566
+	trade Food 289
+	trade "Heavy Metals" 764
+	trade Industrial 879
+	trade "Luxury Goods" 1164
+	trade Medical 671
+	trade Metal 235
+	trade Plastic 396
 	fleet "Dels Outward Merchant" 800
 	object
 		sprite star/g0
@@ -10096,16 +10203,16 @@ system Feeroko
 	asteroids "large metal" 16 1.02
 	minables aluminum 35 3.86798
 	minables iron 35 3.86798
-	trade Clothing 356
-	trade Electronics 792
-	trade Equipment 469
-	trade Food 477
-	trade "Heavy Metals" 985
-	trade Industrial 715
-	trade "Luxury Goods" 1013
-	trade Medical 666
-	trade Metal 252
-	trade Plastic 474
+	trade Clothing 330
+	trade Electronics 809
+	trade Equipment 448
+	trade Food 354
+	trade "Heavy Metals" 1198
+	trade Industrial 742
+	trade "Luxury Goods" 1038
+	trade Medical 665
+	trade Metal 386
+	trade Plastic 317
 	fleet "Dels guard" 600
 	fleet "Dels merchant" 1200
 	fleet "Dels miner" 1200
@@ -10215,16 +10322,16 @@ system Fellan
 	asteroids "large metal" 1 2.0944
 	minables iron 10 3.89081
 	minables titanium 1 3.02801
-	trade Clothing 243
-	trade Electronics 746
-	trade Equipment 417
-	trade Food 508
-	trade "Heavy Metals" 708
-	trade Industrial 853
-	trade "Luxury Goods" 1067
-	trade Medical 759
-	trade Metal 395
-	trade Plastic 286
+	trade Clothing 229
+	trade Electronics 753
+	trade Equipment 475
+	trade Food 184
+	trade "Heavy Metals" 864
+	trade Industrial 822
+	trade "Luxury Goods" 1129
+	trade Medical 752
+	trade Metal 525
+	trade Plastic 389
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -10422,16 +10529,16 @@ system Feodle
 	minables copper 17 4.61681
 	minables iron 14 6.56546
 	minables tungsten 30 5.82883
-	trade Clothing 235
-	trade Electronics 812
-	trade Equipment 509
-	trade Food 249
-	trade "Heavy Metals" 1168
-	trade Industrial 606
-	trade "Luxury Goods" 1113
-	trade Medical 772
-	trade Metal 267
-	trade Plastic 390
+	trade Clothing 294
+	trade Electronics 840
+	trade Equipment 482
+	trade Food 474
+	trade "Heavy Metals" 890
+	trade Industrial 585
+	trade "Luxury Goods" 1013
+	trade Medical 851
+	trade Metal 439
+	trade Plastic 476
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -10777,16 +10884,16 @@ system Fielos
 	asteroids "large metal" 10 3.5392
 	minables neodymium 12 6.39926
 	minables titanium 5 5.67482
-	trade Clothing 370
-	trade Electronics 869
-	trade Equipment 571
-	trade Food 225
-	trade "Heavy Metals" 1165
-	trade Industrial 632
-	trade "Luxury Goods" 1006
-	trade Medical 785
-	trade Metal 326
-	trade Plastic 302
+	trade Clothing 307
+	trade Electronics 772
+	trade Equipment 579
+	trade Food 521
+	trade "Heavy Metals" 869
+	trade Industrial 635
+	trade "Luxury Goods" 951
+	trade Medical 803
+	trade Metal 320
+	trade Plastic 458
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -10838,16 +10945,16 @@ system Fienel
 	asteroids "medium metal" 4 1.826
 	asteroids "large metal" 1 1.1
 	minables lead 1 2.75006
-	trade Clothing 267
-	trade Electronics 690
-	trade Equipment 515
-	trade Food 276
-	trade "Heavy Metals" 1004
-	trade Industrial 581
-	trade "Luxury Goods" 966
-	trade Medical 635
-	trade Metal 383
-	trade Plastic 494
+	trade Clothing 210
+	trade Electronics 683
+	trade Equipment 376
+	trade Food 458
+	trade "Heavy Metals" 866
+	trade Industrial 670
+	trade "Luxury Goods" 1264
+	trade Medical 861
+	trade Metal 260
+	trade Plastic 411
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -11025,16 +11132,16 @@ system Finan
 	asteroids "large metal" 32 4.488
 	minables lead 10 3.96355
 	minables titanium 8 5.66047
-	trade Clothing 347
-	trade Electronics 671
-	trade Equipment 604
-	trade Food 317
-	trade "Heavy Metals" 1042
-	trade Industrial 563
-	trade "Luxury Goods" 974
-	trade Medical 604
-	trade Metal 408
-	trade Plastic 484
+	trade Clothing 232
+	trade Electronics 639
+	trade Equipment 392
+	trade Food 544
+	trade "Heavy Metals" 917
+	trade Industrial 613
+	trade "Luxury Goods" 1278
+	trade Medical 832
+	trade Metal 320
+	trade Plastic 460
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -11130,15 +11237,15 @@ system Fines
 	minables aluminum 31 1.87893
 	minables titanium 4 2.11577
 	trade Clothing 282
-	trade Electronics 754
-	trade Equipment 402
-	trade Food 453
-	trade "Heavy Metals" 771
-	trade Industrial 867
-	trade "Luxury Goods" 1038
-	trade Medical 797
-	trade Metal 312
-	trade Plastic 289
+	trade Electronics 695
+	trade Equipment 530
+	trade Food 258
+	trade "Heavy Metals" 798
+	trade Industrial 789
+	trade "Luxury Goods" 1097
+	trade Medical 805
+	trade Metal 523
+	trade Plastic 452
 	fleet "Ignaggen Outlaw" 2800
 	fleet "Kager Military" 1000
 	fleet Ignaggen 1000
@@ -11367,16 +11474,16 @@ system Fosme
 	minables aluminum 48 2.47233
 	minables iron 5 2.14691
 	minables lead 29 2.79352
-	trade Clothing 268
-	trade Electronics 773
-	trade Equipment 608
-	trade Food 334
-	trade "Heavy Metals" 962
-	trade Industrial 761
-	trade "Luxury Goods" 1131
-	trade Medical 788
-	trade Metal 280
-	trade Plastic 302
+	trade Clothing 274
+	trade Electronics 760
+	trade Equipment 536
+	trade Food 483
+	trade "Heavy Metals" 933
+	trade Industrial 631
+	trade "Luxury Goods" 964
+	trade Medical 600
+	trade Metal 371
+	trade Plastic 482
 	fleet "Ignaggen Outlaw" 2800
 	fleet "Kager Military" 1000
 	fleet Ignaggen 1000
@@ -11434,16 +11541,16 @@ system Fukulle
 	asteroids "large metal" 37 5.148
 	minables lead 18 6.63518
 	minables titanium 22 6.38066
-	trade Clothing 308
-	trade Electronics 650
-	trade Equipment 670
-	trade Food 195
-	trade "Heavy Metals" 951
-	trade Industrial 681
-	trade "Luxury Goods" 1039
-	trade Medical 575
-	trade Metal 261
-	trade Plastic 473
+	trade Clothing 203
+	trade Electronics 685
+	trade Equipment 458
+	trade Food 501
+	trade "Heavy Metals" 933
+	trade Industrial 813
+	trade "Luxury Goods" 1321
+	trade Medical 878
+	trade Metal 514
+	trade Plastic 278
 	object
 		sprite star/f5
 		period 10
@@ -11546,53 +11653,6 @@ system Furmo
 			sprite planet/oberon
 			distance 176
 			period 12.2904
-
-system "Galaxy 2"
-	pos 5932.27 -8602.27
-	government Ultaka
-	habitable 1313.28
-	asteroids "small rock" 8 8.8711
-	asteroids "large rock" 8 6.4032
-	asteroids "small metal" 7 3.4684
-	asteroids "medium metal" 11 7.1369
-	asteroids "large metal" 12 9.1379
-	sprite ui/galaxy2
-	object
-		sprite ui/galaxy2
-		distance 20.0724
-		period 13.2586
-		offset 180
-		sprite ui/galaxy2
-	object
-		sprite ui/galaxy2
-		distance 92.9276
-		period 13.2586
-		sprite ui/galaxy2
-	object
-		sprite ui/galaxy2
-		distance 294.928
-		period 55.9055
-		sprite ui/galaxy2
-	object
-		sprite ui/galaxy2
-		distance 569.168
-		period 149.879
-		sprite ui/galaxy2
-	object
-		sprite ui/galaxy2
-		distance 995.418
-		period 346.648
-		sprite ui/galaxy2
-	object
-		sprite ui/galaxy2
-		distance 1310.26
-		period 523.5
-		sprite ui/galaxy2
-	object
-		sprite ui/galaxy2
-		distance 1953.35
-		period 952.907
-		sprite ui/galaxy2
 
 system Gamali
 	pos -1122.05 -6326.33
@@ -11875,16 +11935,16 @@ system Gedluro
 	asteroids "large rock" 15 4.06
 	asteroids "medium metal" 11 1.624
 	asteroids "large metal" 1 1.624
-	trade Clothing 339
-	trade Electronics 699
-	trade Equipment 570
-	trade Food 512
-	trade "Heavy Metals" 1190
-	trade Industrial 631
-	trade "Luxury Goods" 1022
-	trade Medical 872
-	trade Metal 533
-	trade Plastic 498
+	trade Clothing 305
+	trade Electronics 838
+	trade Equipment 583
+	trade Food 257
+	trade "Heavy Metals" 822
+	trade Industrial 623
+	trade "Luxury Goods" 1272
+	trade Medical 640
+	trade Metal 266
+	trade Plastic 302
 	fleet "Dels guard" 1200
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 700
@@ -11934,7 +11994,16 @@ system Geen
 	minables copper 59 4.24817
 	minables lead 6 5.83598
 	minables titanium 3 5.00878
-	trade Food 346
+	trade Clothing 381
+	trade Electronics 792
+	trade Equipment 570
+	trade Food 252
+	trade "Heavy Metals" 832
+	trade Industrial 748
+	trade "Luxury Goods" 1073
+	trade Medical 694
+	trade Metal 309
+	trade Plastic 318
 	fleet "Dels guard" 1000
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 1000
@@ -12034,7 +12103,16 @@ system Genak
 	link Voltaric
 	asteroids "large rock" 1 7.6531
 	asteroids "large metal" 2 7.9054
-	trade Food 490
+	trade Clothing 279
+	trade Electronics 672
+	trade Equipment 610
+	trade Food 187
+	trade "Heavy Metals" 975
+	trade Industrial 667
+	trade "Luxury Goods" 1297
+	trade Medical 660
+	trade Metal 362
+	trade Plastic 417
 	fleet "Dels guard" 600
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 1400
@@ -12084,16 +12162,16 @@ system Genlo
 	asteroids "large rock" 20 4.176
 	asteroids "small metal" 32 5.481
 	asteroids "large metal" 7 6.0552
-	trade Clothing 360
-	trade Electronics 711
-	trade Equipment 453
-	trade Food 484
-	trade "Heavy Metals" 998
-	trade Industrial 598
-	trade "Luxury Goods" 1187
-	trade Medical 821
-	trade Metal 334
-	trade Plastic 415
+	trade Clothing 298
+	trade Electronics 804
+	trade Equipment 397
+	trade Food 510
+	trade "Heavy Metals" 1168
+	trade Industrial 719
+	trade "Luxury Goods" 1106
+	trade Medical 618
+	trade Metal 477
+	trade Plastic 347
 	fleet "Dels guard" 1000
 	fleet "Dels merchant" 600
 	fleet "Dels Central Merchant" 1200
@@ -12152,16 +12230,16 @@ system Gerdusee
 	asteroids "small metal" 1 8.294
 	asteroids "medium metal" 3 7.4646
 	asteroids "large metal" 3 6.1886
-	trade Clothing 366
-	trade Electronics 791
-	trade Equipment 423
-	trade Food 431
-	trade "Heavy Metals" 1012
-	trade Industrial 661
-	trade "Luxury Goods" 1065
-	trade Medical 765
-	trade Metal 250
-	trade Plastic 481
+	trade Clothing 283
+	trade Electronics 725
+	trade Equipment 669
+	trade Food 336
+	trade "Heavy Metals" 1169
+	trade Industrial 698
+	trade "Luxury Goods" 1042
+	trade Medical 847
+	trade Metal 462
+	trade Plastic 471
 	fleet "Dels Central Merchant" 800
 	object
 		sprite star/m0
@@ -12222,16 +12300,16 @@ system Gerrani
 	asteroids "large metal" 3 3.315
 	minables lead 10 4.67786
 	minables uranium 15 3.18563
-	trade Clothing 206
-	trade Electronics 692
-	trade Equipment 655
-	trade Food 249
-	trade "Heavy Metals" 864
-	trade Industrial 610
-	trade "Luxury Goods" 943
-	trade Medical 505
-	trade Metal 251
-	trade Plastic 411
+	trade Clothing 338
+	trade Electronics 803
+	trade Equipment 639
+	trade Food 424
+	trade "Heavy Metals" 841
+	trade Industrial 866
+	trade "Luxury Goods" 1469
+	trade Medical 622
+	trade Metal 310
+	trade Plastic 468
 	object
 		sprite star/m8
 		period 10
@@ -14084,7 +14162,16 @@ system Govnutae
 	asteroids "small metal" 45 4.899
 	asteroids "medium metal" 92 3.657
 	asteroids "large metal" 45 9.729
-	trade Food 177
+	trade Clothing 242
+	trade Electronics 669
+	trade Equipment 479
+	trade Food 354
+	trade "Heavy Metals" 865
+	trade Industrial 658
+	trade "Luxury Goods" 967
+	trade Medical 801
+	trade Metal 364
+	trade Plastic 469
 	fleet "Dels Outward Merchant" 1500
 	object
 		sprite star/k5
@@ -14135,7 +14222,16 @@ system Govo
 	asteroids "large rock" 1 1.836
 	asteroids "medium metal" 7 2.88
 	asteroids "large metal" 2 1.908
-	trade Food 232
+	trade Clothing 279
+	trade Electronics 728
+	trade Equipment 545
+	trade Food 354
+	trade "Heavy Metals" 873
+	trade Industrial 648
+	trade "Luxury Goods" 988
+	trade Medical 796
+	trade Metal 428
+	trade Plastic 454
 	fleet "Dels Outward Merchant" 1500
 	object
 		sprite star/m0
@@ -14186,7 +14282,16 @@ system Govri
 	asteroids "small metal" 9 2.3086
 	asteroids "medium metal" 52 2.7846
 	asteroids "large metal" 21 3.1892
-	trade Food 296
+	trade Clothing 273
+	trade Electronics 741
+	trade Equipment 566
+	trade Food 439
+	trade "Heavy Metals" 824
+	trade Industrial 839
+	trade "Luxury Goods" 1065
+	trade Medical 579
+	trade Metal 419
+	trade Plastic 443
 	fleet "Dels guard" 20000
 	fleet "Dels Outward Merchant" 700
 	0
@@ -14510,16 +14615,16 @@ system Gullamo
 	asteroids "large metal" 16 3.51
 	minables gold 2 9.19158
 	minables titanium 3 6.73008
-	trade Clothing 307
-	trade Electronics 813
-	trade Equipment 501
-	trade Food 180
-	trade "Heavy Metals" 1245
-	trade Industrial 633
-	trade "Luxury Goods" 1087
-	trade Medical 851
-	trade Metal 288
-	trade Plastic 383
+	trade Clothing 224
+	trade Electronics 817
+	trade Equipment 472
+	trade Food 256
+	trade "Heavy Metals" 954
+	trade Industrial 738
+	trade "Luxury Goods" 1016
+	trade Medical 706
+	trade Metal 347
+	trade Plastic 324
 	object
 		sprite star/k0
 		period 10
@@ -14890,7 +14995,16 @@ system Halcaka
 	asteroids "small metal" 24 2.1924
 	asteroids "medium metal" 36 5.6434
 	asteroids "large metal" 8 5.5216
-	trade Food 363
+	trade Clothing 298
+	trade Electronics 810
+	trade Equipment 585
+	trade Food 308
+	trade "Heavy Metals" 878
+	trade Industrial 596
+	trade "Luxury Goods" 1048
+	trade Medical 783
+	trade Metal 509
+	trade Plastic 391
 	fleet "Dels Outward Merchant" 2000
 	object
 		sprite star/m4
@@ -15121,16 +15235,16 @@ system Hasenu
 	asteroids "medium metal" 2 1.045
 	asteroids "large metal" 1 2.546
 	minables titanium 3 2.98361
-	trade Clothing 374
-	trade Electronics 657
-	trade Equipment 480
-	trade Food 455
-	trade "Heavy Metals" 1087
-	trade Industrial 704
-	trade "Luxury Goods" 1259
-	trade Medical 898
-	trade Metal 516
-	trade Plastic 327
+	trade Clothing 295
+	trade Electronics 643
+	trade Equipment 619
+	trade Food 484
+	trade "Heavy Metals" 1215
+	trade Industrial 629
+	trade "Luxury Goods" 965
+	trade Medical 674
+	trade Metal 372
+	trade Plastic 498
 	fleet "Dels Central Merchant" 800
 	object
 		sprite star/g0
@@ -15185,7 +15299,16 @@ system Haurotdi
 	asteroids "large rock" 3 3.5802
 	asteroids "medium metal" 15 6.5637
 	asteroids "large metal" 1 2.9376
-	trade Food 158
+	trade Clothing 369
+	trade Electronics 762
+	trade Equipment 587
+	trade Food 185
+	trade "Heavy Metals" 1035
+	trade Industrial 634
+	trade "Luxury Goods" 998
+	trade Medical 794
+	trade Metal 397
+	trade Plastic 469
 	object
 		sprite star/b5
 		period 10
@@ -15324,7 +15447,16 @@ system Hellma
 	asteroids "medium metal" 11 3.4888
 	asteroids "large metal" 13 4.8608
 	minables gold 2 5.53955
-	trade Food 463
+	trade Clothing 276
+	trade Electronics 675
+	trade Equipment 645
+	trade Food 284
+	trade "Heavy Metals" 962
+	trade Industrial 807
+	trade "Luxury Goods" 1120
+	trade Medical 843
+	trade Metal 393
+	trade Plastic 493
 	fleet "Dels guard" 600
 	fleet "Dels merchant" 1200
 	fleet "Dels Central Merchant" 700
@@ -15540,16 +15672,16 @@ system Heukao
 	link Eedoruna
 	link Vobeelee
 	asteroids "large metal" 1 2.814
-	trade Clothing 366
-	trade Electronics 791
-	trade Equipment 423
-	trade Food 431
-	trade "Heavy Metals" 1012
-	trade Industrial 661
-	trade "Luxury Goods" 1065
-	trade Medical 765
-	trade Metal 250
-	trade Plastic 481
+	trade Clothing 331
+	trade Electronics 780
+	trade Equipment 660
+	trade Food 220
+	trade "Heavy Metals" 886
+	trade Industrial 705
+	trade "Luxury Goods" 1327
+	trade Medical 755
+	trade Metal 339
+	trade Plastic 333
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 700
 	fleet "Dels Central Merchant" 600
@@ -15608,16 +15740,16 @@ system Heulree
 	asteroids "small metal" 17 2.784
 	asteroids "medium metal" 3 4.656
 	asteroids "large metal" 12 2.88
-	trade Clothing 384
-	trade Electronics 668
-	trade Equipment 424
-	trade Food 541
-	trade "Heavy Metals" 975
-	trade Industrial 655
-	trade "Luxury Goods" 1296
-	trade Medical 803
-	trade Metal 457
-	trade Plastic 346
+	trade Clothing 351
+	trade Electronics 786
+	trade Equipment 612
+	trade Food 204
+	trade "Heavy Metals" 970
+	trade Industrial 799
+	trade "Luxury Goods" 1186
+	trade Medical 654
+	trade Metal 276
+	trade Plastic 340
 	fleet "Dels merchant" 800
 	fleet "Dels guard" 500
 	fleet "Dels Outward Merchant" 600
@@ -15672,16 +15804,16 @@ system Hidawe
 	asteroids "large metal" 5 2.4854
 	minables silver 2 3.61782
 	minables titanium 1 3.06294
-	trade Clothing 366
-	trade Electronics 791
-	trade Equipment 423
-	trade Food 431
-	trade "Heavy Metals" 1012
-	trade Industrial 661
-	trade "Luxury Goods" 1065
-	trade Medical 765
-	trade Metal 250
-	trade Plastic 481
+	trade Clothing 344
+	trade Electronics 664
+	trade Equipment 570
+	trade Food 377
+	trade "Heavy Metals" 876
+	trade Industrial 755
+	trade "Luxury Goods" 1373
+	trade Medical 606
+	trade Metal 355
+	trade Plastic 281
 	fleet "Dels Outward Merchant" 1400
 	object
 		sprite star/g5
@@ -15743,16 +15875,16 @@ system Hildever
 	asteroids "small metal" 4 2.73
 	asteroids "medium metal" 5 1.26
 	asteroids "large metal" 1 2.961
-	trade Clothing 366
-	trade Electronics 791
-	trade Equipment 423
-	trade Food 431
-	trade "Heavy Metals" 1012
-	trade Industrial 661
-	trade "Luxury Goods" 1065
-	trade Medical 765
-	trade Metal 250
-	trade Plastic 481
+	trade Clothing 292
+	trade Electronics 731
+	trade Equipment 636
+	trade Food 182
+	trade "Heavy Metals" 1087
+	trade Industrial 653
+	trade "Luxury Goods" 1150
+	trade Medical 832
+	trade Metal 281
+	trade Plastic 445
 	fleet "Dels Central Merchant" 1200
 	object
 		sprite star/k5
@@ -15789,32 +15921,35 @@ system Hinley
 	asteroids "large metal" 5 4.93
 	minables aluminum 1 6.69437
 	minables tungsten 12 4.89559
-	trade Clothing 263
-	trade Electronics 658
-	trade Equipment 691
-	trade Food 476
-	trade "Heavy Metals" 1209
-	trade Industrial 861
-	trade "Luxury Goods" 1075
-	trade Medical 821
-	trade Metal 477
-	trade Plastic 491
+	trade Clothing 332
+	trade Electronics 729
+	trade Equipment 408
+	trade Food 278
+	trade "Heavy Metals" 1122
+	trade Industrial 654
+	trade "Luxury Goods" 1159
+	trade Medical 582
+	trade Metal 489
+	trade Plastic 354
 	fleet "Dels Central Merchant" 800
 	object
 		sprite star/m8
 		period 10
-	object
+	object Likveera
 		sprite planet/dust7
-		distance 105.24
-		period 37.1676
+		distance 213.256
+		period 107.212
+		offset 71.0125
 	object
 		sprite planet/rock7
-		distance 446.25
-		period 324.534
+		distance 554.266
+		period 449.232
+		offset 283.115
 	object
 		sprite planet/gas2
-		distance 1374.25
-		period 1753.85
+		distance 1482.27
+		period 1964.64
+		offset 123.25
 		object
 			sprite planet/dust3
 			distance 206
@@ -15829,8 +15964,9 @@ system Hinley
 			period 55.7329
 	object
 		sprite planet/uranus
-		distance 2282.34
-		period 3753.74
+		distance 2390.36
+		period 4023.34
+		offset 35.9666
 		object
 			sprite planet/miranda
 			distance 234
@@ -15846,7 +15982,16 @@ system Hintee
 	link Kintuy
 	link Moloco
 	asteroids "large metal" 1 6.2744
-	trade Food 265
+	trade Clothing 253
+	trade Electronics 738
+	trade Equipment 467
+	trade Food 279
+	trade "Heavy Metals" 699
+	trade Industrial 882
+	trade "Luxury Goods" 1081
+	trade Medical 755
+	trade Metal 226
+	trade Plastic 435
 	fleet "Dels Outward Merchant" 1000
 	object
 		sprite star/m0
@@ -15893,7 +16038,16 @@ system Holmork
 	asteroids "large metal" 92 4.0716
 	minables copper 20 7.98632
 	minables lead 6 7.56741
-	trade Food 502
+	trade Clothing 304
+	trade Electronics 826
+	trade Equipment 668
+	trade Food 241
+	trade "Heavy Metals" 1037
+	trade Industrial 666
+	trade "Luxury Goods" 1180
+	trade Medical 652
+	trade Metal 288
+	trade Plastic 368
 	fleet "Dels guard" 1000
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 800
@@ -15943,16 +16097,16 @@ system Huadinee
 	asteroids "medium metal" 81 10.7068
 	asteroids "large metal" 12 9.3496
 	minables aluminum 2 11.4329
-	trade Clothing 384
-	trade Electronics 668
-	trade Equipment 424
-	trade Food 541
-	trade "Heavy Metals" 975
-	trade Industrial 655
-	trade "Luxury Goods" 1296
-	trade Medical 803
-	trade Metal 457
-	trade Plastic 346
+	trade Clothing 314
+	trade Electronics 770
+	trade Equipment 555
+	trade Food 149
+	trade "Heavy Metals" 873
+	trade Industrial 718
+	trade "Luxury Goods" 1286
+	trade Medical 583
+	trade Metal 366
+	trade Plastic 297
 	fleet "Dels Outward Merchant" 600
 	object
 		sprite star/k5
@@ -16079,16 +16233,16 @@ system Iekega
 	minables aluminum 7 5.08673
 	minables silver 9 3.13826
 	minables titanium 9 4.14889
-	trade Clothing 366
-	trade Electronics 791
-	trade Equipment 423
-	trade Food 431
-	trade "Heavy Metals" 1012
-	trade Industrial 661
-	trade "Luxury Goods" 1065
-	trade Medical 765
-	trade Metal 250
-	trade Plastic 481
+	trade Clothing 319
+	trade Electronics 758
+	trade Equipment 518
+	trade Food 558
+	trade "Heavy Metals" 940
+	trade Industrial 863
+	trade "Luxury Goods" 1418
+	trade Medical 514
+	trade Metal 405
+	trade Plastic 371
 	fleet "Dels Outward Merchant" 1600
 	object
 		sprite star/k5
@@ -16149,16 +16303,16 @@ system "Ieon Du"
 	asteroids "medium metal" 118 2.8556
 	asteroids "large metal" 3 1.331
 	minables copper 24 4.84759
-	trade Clothing 307
-	trade Electronics 813
-	trade Equipment 501
-	trade Food 180
-	trade "Heavy Metals" 1245
-	trade Industrial 633
-	trade "Luxury Goods" 1087
-	trade Medical 851
-	trade Metal 288
-	trade Plastic 383
+	trade Clothing 260
+	trade Electronics 838
+	trade Equipment 566
+	trade Food 353
+	trade "Heavy Metals" 982
+	trade Industrial 680
+	trade "Luxury Goods" 996
+	trade Medical 894
+	trade Metal 327
+	trade Plastic 510
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -16215,16 +16369,16 @@ system Ierleon
 	asteroids "large metal" 14 7.6475
 	minables lead 48 7.65378
 	minables tungsten 1 5.66508
-	trade Clothing 372
-	trade Electronics 848
-	trade Equipment 515
-	trade Food 225
-	trade "Heavy Metals" 1216
-	trade Industrial 603
-	trade "Luxury Goods" 1035
-	trade Medical 847
-	trade Metal 359
-	trade Plastic 311
+	trade Clothing 229
+	trade Electronics 747
+	trade Equipment 549
+	trade Food 505
+	trade "Heavy Metals" 758
+	trade Industrial 574
+	trade "Luxury Goods" 976
+	trade Medical 792
+	trade Metal 370
+	trade Plastic 474
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -16381,16 +16535,16 @@ system Ikar
 	asteroids "medium metal" 34 2.2
 	asteroids "large metal" 14 2.8
 	minables aluminum 5 2.545
-	trade Clothing 200
-	trade Electronics 664
-	trade Equipment 640
-	trade Food 166
-	trade "Heavy Metals" 853
-	trade Industrial 686
-	trade "Luxury Goods" 969
-	trade Medical 547
-	trade Metal 243
-	trade Plastic 374
+	trade Clothing 272
+	trade Electronics 743
+	trade Equipment 520
+	trade Food 499
+	trade "Heavy Metals" 936
+	trade Industrial 777
+	trade "Luxury Goods" 1406
+	trade Medical 763
+	trade Metal 284
+	trade Plastic 435
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	fleet "Dels merchant" 800
@@ -16548,16 +16702,16 @@ system Ikurdar
 	asteroids "medium metal" 12 5.5726
 	asteroids "large metal" 1 2.6554
 	minables copper 7 5.88056
-	trade Clothing 302
-	trade Electronics 638
-	trade Equipment 621
-	trade Food 151
-	trade "Heavy Metals" 958
-	trade Industrial 676
-	trade "Luxury Goods" 964
-	trade Medical 591
-	trade Metal 259
-	trade Plastic 467
+	trade Clothing 315
+	trade Electronics 760
+	trade Equipment 582
+	trade Food 483
+	trade "Heavy Metals" 962
+	trade Industrial 819
+	trade "Luxury Goods" 1476
+	trade Medical 674
+	trade Metal 283
+	trade Plastic 465
 	object
 		sprite star/k0
 		period 10
@@ -16599,16 +16753,16 @@ system Ilen
 	asteroids "medium metal" 3 1.836
 	asteroids "large metal" 3 3.537
 	minables tungsten 3 3.80526
-	trade Clothing 271
-	trade Electronics 714
-	trade Equipment 550
-	trade Food 329
-	trade "Heavy Metals" 1084
-	trade Industrial 569
-	trade "Luxury Goods" 1039
-	trade Medical 669
-	trade Metal 339
-	trade Plastic 457
+	trade Clothing 251
+	trade Electronics 699
+	trade Equipment 414
+	trade Food 459
+	trade "Heavy Metals" 836
+	trade Industrial 641
+	trade "Luxury Goods" 1215
+	trade Medical 870
+	trade Metal 301
+	trade Plastic 451
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -16714,16 +16868,16 @@ system Illoinger
 	asteroids "large metal" 5 2.366
 	minables iron 2 3.69689
 	minables titanium 5 5.54853
-	trade Clothing 284
-	trade Electronics 794
-	trade Equipment 400
-	trade Food 464
-	trade "Heavy Metals" 838
-	trade Industrial 827
-	trade "Luxury Goods" 1051
-	trade Medical 806
-	trade Metal 254
-	trade Plastic 349
+	trade Clothing 354
+	trade Electronics 714
+	trade Equipment 484
+	trade Food 427
+	trade "Heavy Metals" 989
+	trade Industrial 674
+	trade "Luxury Goods" 1115
+	trade Medical 697
+	trade Metal 456
+	trade Plastic 502
 	object
 		sprite star/k0
 		period 10
@@ -16822,16 +16976,16 @@ system Inen
 	minables copper 5 7.27668
 	minables iron 5 10.7187
 	minables titanium 8 11.5347
-	trade Clothing 281
-	trade Electronics 722
-	trade Equipment 619
-	trade Food 236
-	trade "Heavy Metals" 1047
-	trade Industrial 658
-	trade "Luxury Goods" 1061
-	trade Medical 732
-	trade Metal 328
-	trade Plastic 297
+	trade Clothing 258
+	trade Electronics 799
+	trade Equipment 490
+	trade Food 453
+	trade "Heavy Metals" 683
+	trade Industrial 636
+	trade "Luxury Goods" 1046
+	trade Medical 669
+	trade Metal 455
+	trade Plastic 492
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -16886,16 +17040,16 @@ system Ioenari
 	asteroids "large metal" 5 4.3935
 	minables silver 5 6.35594
 	minables uranium 9 4.57755
-	trade Clothing 291
-	trade Electronics 753
-	trade Equipment 632
-	trade Food 246
-	trade "Heavy Metals" 1070
-	trade Industrial 661
-	trade "Luxury Goods" 1022
-	trade Medical 726
-	trade Metal 329
-	trade Plastic 295
+	trade Clothing 197
+	trade Electronics 709
+	trade Equipment 646
+	trade Food 520
+	trade "Heavy Metals" 829
+	trade Industrial 619
+	trade "Luxury Goods" 959
+	trade Medical 733
+	trade Metal 270
+	trade Plastic 473
 	object
 		sprite star/g0
 		period 10
@@ -16940,16 +17094,16 @@ system Iogarre
 	minables aluminum 33 4.66699
 	minables lead 15 4.45807
 	minables titanium 5 4.58096
-	trade Clothing 308
-	trade Electronics 650
-	trade Equipment 670
-	trade Food 195
-	trade "Heavy Metals" 951
-	trade Industrial 681
-	trade "Luxury Goods" 1039
-	trade Medical 575
-	trade Metal 261
-	trade Plastic 473
+	trade Clothing 249
+	trade Electronics 786
+	trade Equipment 418
+	trade Food 515
+	trade "Heavy Metals" 665
+	trade Industrial 707
+	trade "Luxury Goods" 1064
+	trade Medical 707
+	trade Metal 525
+	trade Plastic 485
 	object
 		sprite star/m4
 		period 10
@@ -17046,16 +17200,16 @@ system Iosmillar
 	minables iron 15 6.27376
 	minables lead 41 6.98329
 	minables silver 12 5.35083
-	trade Clothing 235
-	trade Electronics 812
-	trade Equipment 509
-	trade Food 249
-	trade "Heavy Metals" 1168
-	trade Industrial 606
-	trade "Luxury Goods" 1113
-	trade Medical 772
-	trade Metal 267
-	trade Plastic 390
+	trade Clothing 192
+	trade Electronics 692
+	trade Equipment 469
+	trade Food 497
+	trade "Heavy Metals" 673
+	trade Industrial 588
+	trade "Luxury Goods" 977
+	trade Medical 738
+	trade Metal 458
+	trade Plastic 463
 	object
 		sprite star/k0
 		distance 58.5
@@ -17208,16 +17362,16 @@ system Irviggo
 	asteroids "large metal" 62 9.918
 	minables copper 2 11.868
 	minables iron 26 14.062
-	trade Clothing 276
-	trade Electronics 707
-	trade Equipment 680
-	trade Food 171
-	trade "Heavy Metals" 1032
-	trade Industrial 734
-	trade "Luxury Goods" 1025
-	trade Medical 740
-	trade Metal 285
-	trade Plastic 352
+	trade Clothing 285
+	trade Electronics 615
+	trade Equipment 693
+	trade Food 204
+	trade "Heavy Metals" 804
+	trade Industrial 698
+	trade "Luxury Goods" 1188
+	trade Medical 844
+	trade Metal 487
+	trade Plastic 475
 	object
 		sprite star/k0
 		period 10
@@ -17260,16 +17414,16 @@ system Irvodera
 	asteroids "large metal" 3 4.275
 	minables aluminum 10 5.79282
 	minables lead 1 4.74851
-	trade Clothing 193
-	trade Electronics 629
-	trade Equipment 459
-	trade Food 174
-	trade "Heavy Metals" 777
-	trade Industrial 838
-	trade "Luxury Goods" 953
-	trade Medical 546
-	trade Metal 538
-	trade Plastic 247
+	trade Clothing 350
+	trade Electronics 833
+	trade Equipment 645
+	trade Food 191
+	trade "Heavy Metals" 1061
+	trade Industrial 671
+	trade "Luxury Goods" 1090
+	trade Medical 792
+	trade Metal 439
+	trade Plastic 462
 	fleet "Dels merchant" 600
 	object
 		sprite star/k0
@@ -17461,16 +17615,16 @@ system Jeelark
 	asteroids "small metal" 1 2.4624
 	asteroids "medium metal" 19 2.8296
 	asteroids "large metal" 1 1.4256
-	trade Clothing 261
-	trade Electronics 733
-	trade Equipment 513
-	trade Food 241
-	trade "Heavy Metals" 1198
-	trade Industrial 834
-	trade "Luxury Goods" 1040
-	trade Medical 593
-	trade Metal 342
-	trade Plastic 468
+	trade Clothing 277
+	trade Electronics 762
+	trade Equipment 414
+	trade Food 225
+	trade "Heavy Metals" 1046
+	trade Industrial 606
+	trade "Luxury Goods" 1203
+	trade Medical 760
+	trade Metal 307
+	trade Plastic 366
 	fleet "Dels merchant" 600
 	fleet "Dels guard" 1000
 	object
@@ -17565,16 +17719,16 @@ system Jolark
 	link Comar
 	link Suadee
 	asteroids "large metal" 1 3.2292
-	trade Clothing 225
-	trade Electronics 667
-	trade Equipment 452
-	trade Food 358
-	trade "Heavy Metals" 1134
-	trade Industrial 774
-	trade "Luxury Goods" 1028
-	trade Medical 662
-	trade Metal 338
-	trade Plastic 501
+	trade Clothing 285
+	trade Electronics 648
+	trade Equipment 410
+	trade Food 348
+	trade "Heavy Metals" 1165
+	trade Industrial 757
+	trade "Luxury Goods" 1157
+	trade Medical 619
+	trade Metal 274
+	trade Plastic 347
 	fleet "Dels merchant" 600
 	fleet Ignaggen 700
 	fleet "Dels guard" 1000
@@ -17623,16 +17777,16 @@ system "Jorenu Ke"
 	asteroids "small metal" 7 5.643
 	asteroids "medium metal" 12 3.8475
 	asteroids "large metal" 6 4.617
-	trade Clothing 374
-	trade Electronics 657
-	trade Equipment 480
-	trade Food 455
-	trade "Heavy Metals" 1087
-	trade Industrial 704
-	trade "Luxury Goods" 1259
-	trade Medical 898
-	trade Metal 516
-	trade Plastic 327
+	trade Clothing 364
+	trade Electronics 664
+	trade Equipment 662
+	trade Food 522
+	trade "Heavy Metals" 982
+	trade Industrial 667
+	trade "Luxury Goods" 1082
+	trade Medical 573
+	trade Metal 321
+	trade Plastic 289
 	fleet "Dels merchant" 600
 	fleet "Dels Central Merchant" 600
 	fleet "Dels guard" 800
@@ -17679,16 +17833,16 @@ system Juelirna
 	asteroids "large rock" 24 1.4157
 	asteroids "large metal" 2 1.6874
 	minables uranium 8 2.72604
-	trade Clothing 286
-	trade Electronics 756
-	trade Equipment 684
-	trade Food 174
-	trade "Heavy Metals" 873
-	trade Industrial 838
-	trade "Luxury Goods" 1235
-	trade Medical 820
-	trade Metal 397
-	trade Plastic 264
+	trade Clothing 308
+	trade Electronics 810
+	trade Equipment 676
+	trade Food 231
+	trade "Heavy Metals" 1108
+	trade Industrial 745
+	trade "Luxury Goods" 1173
+	trade Medical 794
+	trade Metal 513
+	trade Plastic 384
 	object
 		sprite star/k5
 		period 10
@@ -17905,16 +18059,16 @@ system Jurdoe
 	asteroids "large metal" 8 3.0888
 	minables aluminum 20 4.70398
 	minables titanium 8 4.64675
-	trade Clothing 366
-	trade Electronics 791
-	trade Equipment 423
-	trade Food 431
-	trade "Heavy Metals" 1012
-	trade Industrial 661
-	trade "Luxury Goods" 1065
-	trade Medical 765
-	trade Metal 250
-	trade Plastic 481
+	trade Clothing 243
+	trade Electronics 681
+	trade Equipment 604
+	trade Food 467
+	trade "Heavy Metals" 1071
+	trade Industrial 876
+	trade "Luxury Goods" 1068
+	trade Medical 883
+	trade Metal 471
+	trade Plastic 321
 	fleet "Dels Central Merchant" 800
 	fleet "Dels miner" 1200
 	object
@@ -18289,16 +18443,16 @@ system Kamla
 	asteroids "medium metal" 26 6.5268
 	asteroids "large metal" 56 8.1144
 	minables titanium 11 10.7288
-	trade Clothing 284
-	trade Electronics 794
-	trade Equipment 400
-	trade Food 464
-	trade "Heavy Metals" 838
-	trade Industrial 827
-	trade "Luxury Goods" 1051
-	trade Medical 806
-	trade Metal 254
-	trade Plastic 349
+	trade Clothing 236
+	trade Electronics 651
+	trade Equipment 509
+	trade Food 366
+	trade "Heavy Metals" 878
+	trade Industrial 565
+	trade "Luxury Goods" 1157
+	trade Medical 662
+	trade Metal 511
+	trade Plastic 477
 	fleet "Ignaggen Outlaw" 2800
 	fleet "Kager Military" 1000
 	fleet Ignaggen 1000
@@ -18544,16 +18698,16 @@ system Karlai
 	minables aluminum 3 9.02742
 	minables titanium 3 6.51468
 	minables uranium 2 5.3436
-	trade Clothing 276
-	trade Electronics 707
-	trade Equipment 680
-	trade Food 171
-	trade "Heavy Metals" 1032
-	trade Industrial 734
-	trade "Luxury Goods" 1025
+	trade Clothing 267
+	trade Electronics 675
+	trade Equipment 671
+	trade Food 323
+	trade "Heavy Metals" 769
+	trade Industrial 605
+	trade "Luxury Goods" 1144
 	trade Medical 740
-	trade Metal 285
-	trade Plastic 352
+	trade Metal 551
+	trade Plastic 316
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -18597,16 +18751,16 @@ system Karllan
 	minables aluminum 15 14.403
 	minables copper 15 12.7648
 	minables tungsten 17 13.9582
-	trade Clothing 283
-	trade Electronics 799
-	trade Equipment 527
-	trade Food 334
-	trade "Heavy Metals" 838
-	trade Industrial 781
-	trade "Luxury Goods" 999
-	trade Medical 602
-	trade Metal 310
-	trade Plastic 284
+	trade Clothing 256
+	trade Electronics 653
+	trade Equipment 486
+	trade Food 446
+	trade "Heavy Metals" 696
+	trade Industrial 659
+	trade "Luxury Goods" 1140
+	trade Medical 678
+	trade Metal 491
+	trade Plastic 476
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -18701,16 +18855,16 @@ system Kaureyi
 	asteroids "large metal" 3 4.9358
 	minables iron 34 11.7455
 	minables lead 31 9.12544
-	trade Clothing 269
-	trade Electronics 737
-	trade Equipment 497
-	trade Food 385
-	trade "Heavy Metals" 1049
-	trade Industrial 733
-	trade "Luxury Goods" 1050
-	trade Medical 689
-	trade Metal 241
-	trade Plastic 447
+	trade Clothing 287
+	trade Electronics 719
+	trade Equipment 386
+	trade Food 392
+	trade "Heavy Metals" 1254
+	trade Industrial 601
+	trade "Luxury Goods" 998
+	trade Medical 457
+	trade Metal 348
+	trade Plastic 405
 	fleet "Dels Central Merchant" 1000
 	object
 		sprite star/g0
@@ -18809,7 +18963,16 @@ system Keebusinor
 	asteroids "small metal" 18 4.6368
 	asteroids "medium metal" 109 3.2292
 	asteroids "large metal" 33 2.4426
-	trade Food 237
+	trade Clothing 265
+	trade Electronics 690
+	trade Equipment 639
+	trade Food 342
+	trade "Heavy Metals" 818
+	trade Industrial 795
+	trade "Luxury Goods" 1139
+	trade Medical 557
+	trade Metal 357
+	trade Plastic 384
 	fleet "Dels Outward Merchant" 700
 	object
 		sprite star/g5
@@ -18858,16 +19021,16 @@ system Keedouin
 	link Leeounacr
 	link Lelliuk
 	asteroids "large metal" 1 3.51
-	trade Clothing 366
-	trade Electronics 791
-	trade Equipment 423
-	trade Food 431
-	trade "Heavy Metals" 1012
-	trade Industrial 661
-	trade "Luxury Goods" 1065
-	trade Medical 765
-	trade Metal 250
-	trade Plastic 481
+	trade Clothing 294
+	trade Electronics 710
+	trade Equipment 558
+	trade Food 407
+	trade "Heavy Metals" 805
+	trade Industrial 752
+	trade "Luxury Goods" 1368
+	trade Medical 561
+	trade Metal 410
+	trade Plastic 295
 	fleet "Dels Outward Merchant" 1400
 	object
 		sprite star/g0
@@ -18908,16 +19071,16 @@ system Keelee
 	asteroids "small metal" 1 2.52
 	asteroids "medium metal" 20 1.9152
 	asteroids "large metal" 1 2.4192
-	trade Clothing 362
-	trade Electronics 662
-	trade Equipment 407
-	trade Food 485
-	trade "Heavy Metals" 1201
-	trade Industrial 754
-	trade "Luxury Goods" 1135
-	trade Medical 893
-	trade Metal 547
-	trade Plastic 395
+	trade Clothing 209
+	trade Electronics 694
+	trade Equipment 436
+	trade Food 261
+	trade "Heavy Metals" 855
+	trade Industrial 748
+	trade "Luxury Goods" 1198
+	trade Medical 670
+	trade Metal 284
+	trade Plastic 370
 	fleet "Dels guard" 1200
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 1200
@@ -18997,7 +19160,16 @@ system Keemol
 	asteroids "small metal" 13 1.5444
 	asteroids "medium metal" 26 1.9188
 	asteroids "large metal" 18 2.4804
-	trade Food 409
+	trade Clothing 329
+	trade Electronics 798
+	trade Equipment 638
+	trade Food 223
+	trade "Heavy Metals" 960
+	trade Industrial 595
+	trade "Luxury Goods" 1080
+	trade Medical 756
+	trade Metal 455
+	trade Plastic 395
 	object
 		sprite star/m0
 		period 10
@@ -19050,7 +19222,16 @@ system Keemolk
 	asteroids "small metal" 21 1.188
 	asteroids "medium metal" 38 1.188
 	asteroids "large metal" 6 1.308
-	trade Food 350
+	trade Clothing 300
+	trade Electronics 761
+	trade Equipment 402
+	trade Food 511
+	trade "Heavy Metals" 726
+	trade Industrial 853
+	trade "Luxury Goods" 965
+	trade Medical 790
+	trade Metal 555
+	trade Plastic 447
 	fleet "Dels Outward Merchant" 1000
 	0
 	object
@@ -19112,7 +19293,16 @@ system Keemoroco
 	asteroids "small metal" 4 2.2372
 	asteroids "medium metal" 36 1.3566
 	asteroids "large metal" 85 3.4748
-	trade Food 304
+	trade Clothing 283
+	trade Electronics 785
+	trade Equipment 408
+	trade Food 506
+	trade "Heavy Metals" 764
+	trade Industrial 834
+	trade "Luxury Goods" 968
+	trade Medical 820
+	trade Metal 464
+	trade Plastic 400
 	fleet "Dels guard" 10000
 	fleet "Dels Outward Merchant" 1000
 	0
@@ -19173,16 +19363,16 @@ system Keen
 	asteroids "large metal" 21 9.2394
 	minables lead 15 15.5197
 	minables silicon 9 13.0569
-	trade Clothing 269
-	trade Electronics 804
-	trade Equipment 582
-	trade Food 153
-	trade "Heavy Metals" 1177
-	trade Industrial 772
-	trade "Luxury Goods" 1201
-	trade Medical 603
-	trade Metal 445
-	trade Plastic 416
+	trade Clothing 322
+	trade Electronics 793
+	trade Equipment 450
+	trade Food 200
+	trade "Heavy Metals" 1006
+	trade Industrial 669
+	trade "Luxury Goods" 1094
+	trade Medical 833
+	trade Metal 411
+	trade Plastic 470
 	fleet "Dels merchant" 600
 	fleet "Dels guard" 1000
 	object
@@ -19235,7 +19425,16 @@ system Keepuy
 	link Govo
 	link Haurotdi
 	asteroids "large metal" 1 1.7444
-	trade Food 170
+	trade Clothing 315
+	trade Electronics 685
+	trade Equipment 519
+	trade Food 263
+	trade "Heavy Metals" 963
+	trade Industrial 622
+	trade "Luxury Goods" 955
+	trade Medical 826
+	trade Metal 418
+	trade Plastic 443
 	fleet "Dels Outward Merchant" 1600
 	object
 		sprite star/k0
@@ -19273,7 +19472,16 @@ system Keerak
 	link Govri
 	link Hintee
 	asteroids "large metal" 1 7.3216
-	trade Food 296
+	trade Clothing 294
+	trade Electronics 786
+	trade Equipment 535
+	trade Food 328
+	trade "Heavy Metals" 740
+	trade Industrial 870
+	trade "Luxury Goods" 1104
+	trade Medical 664
+	trade Metal 289
+	trade Plastic 435
 	fleet "Dels Outward Merchant" 1000
 	0
 	object
@@ -19515,16 +19723,16 @@ system Kelgevu
 	asteroids "medium metal" 36 2.28
 	asteroids "large metal" 4 2.94
 	minables lead 8 4.27313
-	trade Clothing 297
-	trade Electronics 842
-	trade Equipment 656
-	trade Food 256
-	trade "Heavy Metals" 1081
-	trade Industrial 673
-	trade "Luxury Goods" 1064
-	trade Medical 788
-	trade Metal 268
-	trade Plastic 351
+	trade Clothing 254
+	trade Electronics 813
+	trade Equipment 413
+	trade Food 185
+	trade "Heavy Metals" 1070
+	trade Industrial 755
+	trade "Luxury Goods" 1006
+	trade Medical 688
+	trade Metal 424
+	trade Plastic 426
 	fleet "Ignaggen Outlaw" 2800
 	fleet "Kager Military" 1000
 	fleet Ignaggen 1000
@@ -19586,16 +19794,16 @@ system Kelinur
 	asteroids "large metal" 11 4.3125
 	minables copper 1 8.37804
 	minables lead 1 4.40107
-	trade Clothing 264
-	trade Electronics 810
-	trade Equipment 610
-	trade Food 265
-	trade "Heavy Metals" 934
-	trade Industrial 754
-	trade "Luxury Goods" 980
-	trade Medical 589
-	trade Metal 321
-	trade Plastic 358
+	trade Clothing 253
+	trade Electronics 764
+	trade Equipment 547
+	trade Food 442
+	trade "Heavy Metals" 839
+	trade Industrial 561
+	trade "Luxury Goods" 981
+	trade Medical 579
+	trade Metal 395
+	trade Plastic 455
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -19651,16 +19859,16 @@ system Kelleon
 	asteroids "large rock" 15 6.2832
 	asteroids "medium metal" 3 5.2272
 	asteroids "large metal" 1 7.8144
-	trade Clothing 225
-	trade Electronics 759
-	trade Equipment 487
-	trade Food 504
-	trade "Heavy Metals" 715
-	trade Industrial 816
-	trade "Luxury Goods" 1062
-	trade Medical 755
-	trade Metal 359
-	trade Plastic 286
+	trade Clothing 197
+	trade Electronics 769
+	trade Equipment 496
+	trade Food 424
+	trade "Heavy Metals" 701
+	trade Industrial 623
+	trade "Luxury Goods" 1247
+	trade Medical 609
+	trade Metal 360
+	trade Plastic 491
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -20195,16 +20403,16 @@ system Kerimi
 	asteroids "medium metal" 11 3.0996
 	asteroids "large metal" 1 5.67
 	minables silver 2 5.03654
-	trade Clothing 218
-	trade Electronics 645
-	trade Equipment 570
-	trade Food 192
-	trade "Heavy Metals" 879
-	trade Industrial 666
-	trade "Luxury Goods" 971
-	trade Medical 599
-	trade Metal 298
-	trade Plastic 428
+	trade Clothing 228
+	trade Electronics 664
+	trade Equipment 401
+	trade Food 491
+	trade "Heavy Metals" 897
+	trade Industrial 680
+	trade "Luxury Goods" 1317
+	trade Medical 815
+	trade Metal 282
+	trade Plastic 424
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -20428,16 +20636,16 @@ system Kiaun
 	asteroids "large metal" 2 1.5249
 	minables lead 19 1.88446
 	minables silicon 14 1.72842
-	trade Clothing 295
-	trade Electronics 838
-	trade Equipment 567
-	trade Food 227
-	trade "Heavy Metals" 1184
-	trade Industrial 638
-	trade "Luxury Goods" 1051
-	trade Medical 787
-	trade Metal 349
-	trade Plastic 339
+	trade Clothing 266
+	trade Electronics 794
+	trade Equipment 482
+	trade Food 516
+	trade "Heavy Metals" 785
+	trade Industrial 623
+	trade "Luxury Goods" 1060
+	trade Medical 874
+	trade Metal 425
+	trade Plastic 482
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -20571,16 +20779,16 @@ system Kikar
 	asteroids "medium metal" 7 6.786
 	asteroids "large metal" 5 6.786
 	minables iron 46 7.28626
-	trade Clothing 327
-	trade Electronics 782
-	trade Equipment 659
-	trade Food 283
-	trade "Heavy Metals" 1049
-	trade Industrial 697
-	trade "Luxury Goods" 1064
-	trade Medical 764
-	trade Metal 267
-	trade Plastic 296
+	trade Clothing 358
+	trade Electronics 789
+	trade Equipment 660
+	trade Food 444
+	trade "Heavy Metals" 972
+	trade Industrial 689
+	trade "Luxury Goods" 961
+	trade Medical 860
+	trade Metal 255
+	trade Plastic 499
 	fleet "Ignaggen Outlaw" 2800
 	fleet "Kager Military" 1000
 	fleet Ignaggen 1000
@@ -20634,16 +20842,16 @@ system Kiler
 	asteroids "medium metal" 59 5.1884
 	asteroids "large metal" 12 2.9036
 	minables uranium 15 11.3252
-	trade Clothing 323
-	trade Electronics 750
-	trade Equipment 574
-	trade Food 183
-	trade "Heavy Metals" 1134
-	trade Industrial 577
-	trade "Luxury Goods" 1005
-	trade Medical 779
-	trade Metal 389
-	trade Plastic 314
+	trade Clothing 287
+	trade Electronics 828
+	trade Equipment 502
+	trade Food 485
+	trade "Heavy Metals" 751
+	trade Industrial 596
+	trade "Luxury Goods" 1037
+	trade Medical 722
+	trade Metal 434
+	trade Plastic 479
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -20739,16 +20947,16 @@ system Kinlona
 	minables iron 6 7.37078
 	minables silicon 4 8.21758
 	minables silver 2 10.3603
-	trade Clothing 330
-	trade Electronics 784
-	trade Equipment 441
-	trade Food 288
-	trade "Heavy Metals" 1090
-	trade Industrial 888
-	trade "Luxury Goods" 971
-	trade Medical 626
-	trade Metal 459
-	trade Plastic 481
+	trade Clothing 262
+	trade Electronics 676
+	trade Equipment 495
+	trade Food 257
+	trade "Heavy Metals" 1150
+	trade Industrial 828
+	trade "Luxury Goods" 1070
+	trade Medical 665
+	trade Metal 256
+	trade Plastic 475
 	fleet "Dels merchant" 600
 	fleet "Dels guard" 1000
 	fleet "Dels Central Merchant" 1700
@@ -20797,7 +21005,16 @@ system Kintuy
 	asteroids "large rock" 19 2.898
 	asteroids "medium metal" 5 2.646
 	asteroids "large metal" 12 4.242
-	trade Food 278
+	trade Clothing 206
+	trade Electronics 762
+	trade Equipment 395
+	trade Food 379
+	trade "Heavy Metals" 689
+	trade Industrial 869
+	trade "Luxury Goods" 1057
+	trade Medical 824
+	trade Metal 228
+	trade Plastic 457
 	fleet "Dels Outward Merchant" 1200
 	object
 		sprite star/k0
@@ -20899,16 +21116,16 @@ system Kitorna
 	asteroids "small metal" 1 1.197
 	asteroids "large metal" 1 2.814
 	minables titanium 2 3.14868
-	trade Clothing 302
-	trade Electronics 638
-	trade Equipment 621
-	trade Food 151
-	trade "Heavy Metals" 958
-	trade Industrial 676
-	trade "Luxury Goods" 964
-	trade Medical 591
-	trade Metal 259
-	trade Plastic 467
+	trade Clothing 276
+	trade Electronics 680
+	trade Equipment 566
+	trade Food 434
+	trade "Heavy Metals" 1019
+	trade Industrial 797
+	trade "Luxury Goods" 1456
+	trade Medical 664
+	trade Metal 318
+	trade Plastic 450
 	object
 		sprite star/f5
 		distance 27.1891
@@ -23131,16 +23348,16 @@ system Koedee
 	asteroids "medium metal" 19 4.624
 	asteroids "large metal" 43 3.094
 	minables iron 42 7.63671
-	trade Clothing 366
-	trade Electronics 791
-	trade Equipment 423
-	trade Food 431
-	trade "Heavy Metals" 1012
-	trade Industrial 661
-	trade "Luxury Goods" 1065
-	trade Medical 765
-	trade Metal 250
-	trade Plastic 481
+	trade Clothing 335
+	trade Electronics 768
+	trade Equipment 564
+	trade Food 449
+	trade "Heavy Metals" 889
+	trade Industrial 776
+	trade "Luxury Goods" 1251
+	trade Medical 598
+	trade Metal 287
+	trade Plastic 319
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 800
 	fleet "Dels Central Merchant" 600
@@ -23203,16 +23420,16 @@ system Kokakor
 	asteroids "large metal" 9 2.16
 	minables lead 20 6.16769
 	minables silicon 20 8.34603
-	trade Clothing 354
-	trade Electronics 677
-	trade Equipment 642
-	trade Food 174
-	trade "Heavy Metals" 862
-	trade Industrial 820
-	trade "Luxury Goods" 1328
-	trade Medical 746
-	trade Metal 323
-	trade Plastic 444
+	trade Clothing 206
+	trade Electronics 757
+	trade Equipment 469
+	trade Food 183
+	trade "Heavy Metals" 1178
+	trade Industrial 801
+	trade "Luxury Goods" 998
+	trade Medical 675
+	trade Metal 325
+	trade Plastic 421
 	fleet "Dels merchant" 600
 	fleet Ignaggen 700
 	object
@@ -23647,16 +23864,16 @@ system Korudir
 	asteroids "large metal" 2 0.638
 	minables copper 25 1.36707
 	minables lead 12 1.264
-	trade Clothing 202
-	trade Electronics 808
-	trade Equipment 469
-	trade Food 382
-	trade "Heavy Metals" 928
-	trade Industrial 865
-	trade "Luxury Goods" 1051
-	trade Medical 866
-	trade Metal 296
-	trade Plastic 313
+	trade Clothing 219
+	trade Electronics 823
+	trade Equipment 405
+	trade Food 293
+	trade "Heavy Metals" 947
+	trade Industrial 717
+	trade "Luxury Goods" 1349
+	trade Medical 896
+	trade Metal 340
+	trade Plastic 303
 	object
 		sprite star/g5
 		distance 62
@@ -23918,16 +24135,16 @@ system Kullorail
 	asteroids "large metal" 1 4.3992
 	minables copper 1 5.38834
 	minables tungsten 1 4.22833
-	trade Clothing 308
-	trade Electronics 650
-	trade Equipment 670
-	trade Food 195
-	trade "Heavy Metals" 951
-	trade Industrial 681
-	trade "Luxury Goods" 1039
-	trade Medical 575
-	trade Metal 261
-	trade Plastic 473
+	trade Clothing 275
+	trade Electronics 659
+	trade Equipment 488
+	trade Food 538
+	trade "Heavy Metals" 978
+	trade Industrial 673
+	trade "Luxury Goods" 1296
+	trade Medical 848
+	trade Metal 432
+	trade Plastic 373
 	object
 		sprite star/f5
 		period 10
@@ -24084,16 +24301,16 @@ system Kurdagor
 	asteroids "large rock" 1 3.8836
 	asteroids "large metal" 1 3.3782
 	minables silver 5 3.45392
-	trade Clothing 202
-	trade Electronics 808
-	trade Equipment 469
-	trade Food 382
-	trade "Heavy Metals" 928
-	trade Industrial 865
-	trade "Luxury Goods" 1051
-	trade Medical 866
-	trade Metal 296
-	trade Plastic 313
+	trade Clothing 255
+	trade Electronics 835
+	trade Equipment 364
+	trade Food 341
+	trade "Heavy Metals" 990
+	trade Industrial 694
+	trade "Luxury Goods" 1418
+	trade Medical 922
+	trade Metal 269
+	trade Plastic 349
 	object
 		sprite star/m0
 		period 10
@@ -24430,16 +24647,16 @@ system Leeounacr
 	asteroids "large metal" 1 3.146
 	minables copper 2 4.37459
 	minables lead 1 4.63943
-	trade Clothing 0
-	trade Electronics 0
-	trade Equipment 0
-	trade Food 528
-	trade "Heavy Metals" 0
-	trade Industrial 0
-	trade "Luxury Goods" 0
-	trade Medical 0
-	trade Metal 0
-	trade Plastic 0
+	trade Clothing 318
+	trade Electronics 677
+	trade Equipment 611
+	trade Food 329
+	trade "Heavy Metals" 849
+	trade Industrial 685
+	trade "Luxury Goods" 1297
+	trade Medical 589
+	trade Metal 407
+	trade Plastic 284
 	fleet "Dels Outward Merchant" 1400
 	object
 		sprite star/k5
@@ -24498,16 +24715,16 @@ system Leion
 	asteroids "medium metal" 2 4.3148
 	asteroids "large metal" 3 4.9588
 	minables neodymium 3 9.12078
-	trade Clothing 326
-	trade Electronics 777
-	trade Equipment 562
-	trade Food 268
-	trade "Heavy Metals" 897
-	trade Industrial 720
-	trade "Luxury Goods" 943
-	trade Medical 557
-	trade Metal 400
-	trade Plastic 358
+	trade Clothing 267
+	trade Electronics 805
+	trade Equipment 422
+	trade Food 527
+	trade "Heavy Metals" 735
+	trade Industrial 656
+	trade "Luxury Goods" 1107
+	trade Medical 755
+	trade Metal 516
+	trade Plastic 490
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -24563,16 +24780,16 @@ system Lelliuk
 	minables copper 4 7.2696
 	minables titanium 11 6.12892
 	minables tungsten 43 8.31523
-	trade Clothing 366
-	trade Electronics 791
-	trade Equipment 423
-	trade Food 431
-	trade "Heavy Metals" 1012
-	trade Industrial 661
-	trade "Luxury Goods" 1065
-	trade Medical 765
-	trade Metal 250
-	trade Plastic 481
+	trade Clothing 297
+	trade Electronics 768
+	trade Equipment 506
+	trade Food 494
+	trade "Heavy Metals" 883
+	trade Industrial 868
+	trade "Luxury Goods" 1402
+	trade Medical 559
+	trade Metal 353
+	trade Plastic 376
 	fleet "Dels Outward Merchant" 1600
 	object
 		sprite star/k0
@@ -24788,16 +25005,16 @@ system Leonnal
 	asteroids "large metal" 22 2.5344
 	minables copper 5 4.42462
 	minables titanium 49 4.00299
-	trade Clothing 235
-	trade Electronics 812
-	trade Equipment 509
-	trade Food 249
-	trade "Heavy Metals" 1168
-	trade Industrial 606
-	trade "Luxury Goods" 1113
-	trade Medical 772
-	trade Metal 267
-	trade Plastic 390
+	trade Clothing 281
+	trade Electronics 669
+	trade Equipment 433
+	trade Food 371
+	trade "Heavy Metals" 756
+	trade Industrial 687
+	trade "Luxury Goods" 1255
+	trade Medical 840
+	trade Metal 303
+	trade Plastic 438
 	object
 		sprite star/f0
 		distance 19.4029
@@ -24948,16 +25165,16 @@ system Lerdosia
 	asteroids "large metal" 3 7.482
 	minables aluminum 6 7.69454
 	minables tungsten 3 5.30382
-	trade Clothing 235
-	trade Electronics 812
-	trade Equipment 509
-	trade Food 249
-	trade "Heavy Metals" 1168
-	trade Industrial 606
-	trade "Luxury Goods" 1113
-	trade Medical 772
-	trade Metal 267
-	trade Plastic 390
+	trade Clothing 241
+	trade Electronics 721
+	trade Equipment 395
+	trade Food 469
+	trade "Heavy Metals" 738
+	trade Industrial 653
+	trade "Luxury Goods" 1055
+	trade Medical 788
+	trade Metal 488
+	trade Plastic 507
 	object
 		sprite star/m0
 		period 10
@@ -25219,16 +25436,16 @@ system Leunorra
 	asteroids "medium metal" 2 8.1081
 	asteroids "large metal" 16 6.804
 	minables iron 2 10.9494
-	trade Clothing 242
-	trade Electronics 816
-	trade Equipment 450
-	trade Food 420
-	trade "Heavy Metals" 895
-	trade Industrial 870
-	trade "Luxury Goods" 1066
-	trade Medical 870
-	trade Metal 259
-	trade Plastic 299
+	trade Clothing 300
+	trade Electronics 822
+	trade Equipment 440
+	trade Food 222
+	trade "Heavy Metals" 1039
+	trade Industrial 813
+	trade "Luxury Goods" 1011
+	trade Medical 696
+	trade Metal 454
+	trade Plastic 333
 	object
 		sprite star/k5
 		distance 39.2811
@@ -25291,16 +25508,16 @@ system Lieevaor
 	asteroids "large metal" 14 2.484
 	minables aluminum 5 7.05343
 	minables titanium 18 6.63901
-	trade Clothing 347
-	trade Electronics 778
-	trade Equipment 640
-	trade Food 458
-	trade "Heavy Metals" 1067
-	trade Industrial 561
-	trade "Luxury Goods" 1075
-	trade Medical 815
-	trade Metal 510
-	trade Plastic 481
+	trade Clothing 337
+	trade Electronics 857
+	trade Equipment 569
+	trade Food 449
+	trade "Heavy Metals" 966
+	trade Industrial 855
+	trade "Luxury Goods" 1202
+	trade Medical 666
+	trade Metal 269
+	trade Plastic 274
 	fleet "Dels Outward Merchant" 700
 	object
 		sprite star/a5
@@ -25396,16 +25613,16 @@ system Likalle
 	asteroids "large metal" 96 2.1112
 	minables lead 2 2.21058
 	minables uranium 2 2.01664
-	trade Clothing 267
-	trade Electronics 634
-	trade Equipment 646
-	trade Food 171
-	trade "Heavy Metals" 906
-	trade Industrial 726
-	trade "Luxury Goods" 980
-	trade Medical 548
-	trade Metal 262
-	trade Plastic 439
+	trade Clothing 256
+	trade Electronics 642
+	trade Equipment 470
+	trade Food 532
+	trade "Heavy Metals" 949
+	trade Industrial 676
+	trade "Luxury Goods" 1320
+	trade Medical 849
+	trade Metal 340
+	trade Plastic 404
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	fleet "Dels merchant" 1000
@@ -25629,16 +25846,16 @@ system Linheyca
 	asteroids "large metal" 3 5.0025
 	minables aluminum 3 4.3165
 	minables iron 2 5.03521
-	trade Clothing 354
-	trade Electronics 677
-	trade Equipment 642
-	trade Food 174
-	trade "Heavy Metals" 862
-	trade Industrial 820
-	trade "Luxury Goods" 1328
-	trade Medical 746
-	trade Metal 323
-	trade Plastic 444
+	trade Clothing 190
+	trade Electronics 688
+	trade Equipment 487
+	trade Food 153
+	trade "Heavy Metals" 1087
+	trade Industrial 833
+	trade "Luxury Goods" 988
+	trade Medical 763
+	trade Metal 306
+	trade Plastic 473
 	fleet Ignaggen 700
 	fleet "Dels merchant" 600
 	object
@@ -25841,16 +26058,16 @@ system Lirganon
 	asteroids "large metal" 83 4.3011
 	minables aluminum 42 11.4146
 	minables lead 31 9.67851
-	trade Clothing 284
-	trade Electronics 794
-	trade Equipment 400
-	trade Food 464
-	trade "Heavy Metals" 838
-	trade Industrial 827
-	trade "Luxury Goods" 1051
-	trade Medical 806
-	trade Metal 254
-	trade Plastic 349
+	trade Clothing 238
+	trade Electronics 761
+	trade Equipment 549
+	trade Food 381
+	trade "Heavy Metals" 706
+	trade Industrial 603
+	trade "Luxury Goods" 1285
+	trade Medical 554
+	trade Metal 374
+	trade Plastic 492
 	object
 		sprite star/g5
 		period 10
@@ -25942,16 +26159,16 @@ system Loasta
 	minables copper 35 3.86798
 	minables lead 35 3.86798
 	minables silicon 35 3.86798
-	trade Clothing 366
-	trade Electronics 791
-	trade Equipment 423
-	trade Food 431
-	trade "Heavy Metals" 1012
-	trade Industrial 661
-	trade "Luxury Goods" 1065
-	trade Medical 765
-	trade Metal 250
-	trade Plastic 481
+	trade Clothing 323
+	trade Electronics 799
+	trade Equipment 417
+	trade Food 471
+	trade "Heavy Metals" 1199
+	trade Industrial 683
+	trade "Luxury Goods" 1072
+	trade Medical 627
+	trade Metal 427
+	trade Plastic 368
 	fleet "Dels guard" 600
 	fleet "Dels merchant" 1200
 	fleet "Dels miner" 1200
@@ -25973,7 +26190,7 @@ system Loasta
 		distance 202.96
 		period 45.0471
 		0
-	object Wealo
+	object Aelowee
 		sprite planet/cloud3
 		distance 628.45
 		period 245.447
@@ -25985,16 +26202,11 @@ system Loasta
 			period 22.8831
 			offset 339.534
 			0
-		object Meramos-P338P
-			sprite planet/battlestationw
-			distance 202
-			period 11.4747
-			0
 	object
 		sprite planet/gas14
-		distance 1785.14
-		period 1175.06
-		offset 5.12194
+		distance 1754.14
+		period 1144.58
+		offset 356.457
 		0
 		object
 			sprite planet/miranda
@@ -26083,16 +26295,16 @@ system Loevuee
 	asteroids "medium metal" 100 2.88
 	asteroids "large metal" 18 2.25
 	minables neodymium 7 3.95193
-	trade Clothing 374
-	trade Electronics 657
-	trade Equipment 480
-	trade Food 455
-	trade "Heavy Metals" 1087
-	trade Industrial 704
-	trade "Luxury Goods" 1259
-	trade Medical 898
-	trade Metal 516
-	trade Plastic 327
+	trade Clothing 269
+	trade Electronics 678
+	trade Equipment 689
+	trade Food 250
+	trade "Heavy Metals" 982
+	trade Industrial 842
+	trade "Luxury Goods" 1127
+	trade Medical 830
+	trade Metal 390
+	trade Plastic 518
 	fleet "Dels merchant" 600
 	fleet "Dels Central Merchant" 700
 	object
@@ -26132,16 +26344,16 @@ system Loluime
 	asteroids "small metal" 43 3.4398
 	asteroids "medium metal" 20 1.3572
 	asteroids "large metal" 12 2.9952
-	trade Clothing 315
-	trade Electronics 693
-	trade Equipment 561
-	trade Food 488
-	trade "Heavy Metals" 1032
-	trade Industrial 657
-	trade "Luxury Goods" 1246
-	trade Medical 820
-	trade Metal 404
-	trade Plastic 360
+	trade Clothing 352
+	trade Electronics 659
+	trade Equipment 583
+	trade Food 475
+	trade "Heavy Metals" 1024
+	trade Industrial 722
+	trade "Luxury Goods" 1169
+	trade Medical 488
+	trade Metal 279
+	trade Plastic 329
 	fleet "Dels guard" 600
 	fleet "Dels merchant" 600
 	fleet "Dels Central Merchant" 600
@@ -26199,16 +26411,16 @@ system Loomera
 	asteroids "large metal" 20 3.64
 	minables lead 10 5.68562
 	minables titanium 10 5.74007
-	trade Clothing 360
-	trade Electronics 781
-	trade Equipment 637
-	trade Food 197
-	trade "Heavy Metals" 973
-	trade Industrial 781
-	trade "Luxury Goods" 1289
-	trade Medical 715
-	trade Metal 449
-	trade Plastic 388
+	trade Clothing 266
+	trade Electronics 767
+	trade Equipment 388
+	trade Food 170
+	trade "Heavy Metals" 1245
+	trade Industrial 754
+	trade "Luxury Goods" 1032
+	trade Medical 739
+	trade Metal 403
+	trade Plastic 352
 	fleet "Dels merchant" 600
 	object
 		sprite star/g5
@@ -26256,16 +26468,16 @@ system Lordeetor
 	minables lead 20 3.58489
 	minables platinum 20 4.05699
 	minables silver 9 3.22432
-	trade Clothing 366
-	trade Electronics 791
-	trade Equipment 423
-	trade Food 431
-	trade "Heavy Metals" 1012
-	trade Industrial 661
-	trade "Luxury Goods" 1065
-	trade Medical 765
-	trade Metal 250
-	trade Plastic 481
+	trade Clothing 331
+	trade Electronics 698
+	trade Equipment 674
+	trade Food 332
+	trade "Heavy Metals" 1059
+	trade Industrial 657
+	trade "Luxury Goods" 1034
+	trade Medical 825
+	trade Metal 454
+	trade Plastic 470
 	fleet "Dels Central Merchant" 800
 	fleet "Dels miner" 1200
 	object
@@ -26362,16 +26574,16 @@ system Lordianee
 	asteroids "large metal" 7 1.3024
 	minables aluminum 3 3.16666
 	minables silicon 6 2.49868
-	trade Clothing 366
-	trade Electronics 791
-	trade Equipment 423
-	trade Food 431
-	trade "Heavy Metals" 1012
-	trade Industrial 661
-	trade "Luxury Goods" 1065
-	trade Medical 765
-	trade Metal 250
-	trade Plastic 481
+	trade Clothing 259
+	trade Electronics 685
+	trade Equipment 666
+	trade Food 337
+	trade "Heavy Metals" 1058
+	trade Industrial 833
+	trade "Luxury Goods" 1079
+	trade Medical 788
+	trade Metal 430
+	trade Plastic 498
 	fleet "Dels merchant" 600
 	fleet "Dels Central Merchant" 600
 	fleet "Dels guard" 800
@@ -26424,16 +26636,16 @@ system Lourge
 	asteroids "large metal" 1 7.6734
 	minables aluminum 1 11.1828
 	minables lead 1 7.90019
-	trade Clothing 370
-	trade Electronics 869
-	trade Equipment 571
-	trade Food 225
-	trade "Heavy Metals" 1165
-	trade Industrial 632
-	trade "Luxury Goods" 1006
-	trade Medical 785
-	trade Metal 326
-	trade Plastic 302
+	trade Clothing 289
+	trade Electronics 840
+	trade Equipment 643
+	trade Food 347
+	trade "Heavy Metals" 1035
+	trade Industrial 716
+	trade "Luxury Goods" 1030
+	trade Medical 845
+	trade Metal 243
+	trade Plastic 487
 	object
 		sprite star/k0
 		period 10
@@ -26530,16 +26742,16 @@ system Luagurio
 	asteroids "large metal" 6 4.3792
 	minables copper 9 4.97886
 	minables uranium 12 4.21403
-	trade Clothing 284
-	trade Electronics 794
-	trade Equipment 400
-	trade Food 464
-	trade "Heavy Metals" 838
-	trade Industrial 827
-	trade "Luxury Goods" 1051
-	trade Medical 806
-	trade Metal 254
-	trade Plastic 349
+	trade Clothing 279
+	trade Electronics 638
+	trade Equipment 533
+	trade Food 329
+	trade "Heavy Metals" 994
+	trade Industrial 546
+	trade "Luxury Goods" 1235
+	trade Medical 732
+	trade Metal 447
+	trade Plastic 487
 	object
 		sprite star/g5
 		period 10
@@ -26585,16 +26797,16 @@ system Lueerda
 	asteroids "medium metal" 5 3.168
 	asteroids "large metal" 1 4.464
 	minables lead 2 4.84579
-	trade Clothing 326
-	trade Electronics 692
-	trade Equipment 475
-	trade Food 449
-	trade "Heavy Metals" 1245
-	trade Industrial 684
-	trade "Luxury Goods" 1096
-	trade Medical 898
-	trade Metal 540
-	trade Plastic 458
+	trade Clothing 212
+	trade Electronics 842
+	trade Equipment 503
+	trade Food 254
+	trade "Heavy Metals" 1201
+	trade Industrial 732
+	trade "Luxury Goods" 1065
+	trade Medical 613
+	trade Metal 396
+	trade Plastic 332
 	fleet "Dels Central Merchant" 1200
 	fleet Ignaggen 700
 	object
@@ -26667,16 +26879,16 @@ system Luggaru
 	asteroids "large metal" 10 2.058
 	minables aluminum 1 1.75274
 	minables lead 1 2.92702
-	trade Clothing 284
-	trade Electronics 794
-	trade Equipment 400
-	trade Food 464
-	trade "Heavy Metals" 838
-	trade Industrial 827
-	trade "Luxury Goods" 1051
-	trade Medical 806
-	trade Metal 254
-	trade Plastic 349
+	trade Clothing 329
+	trade Electronics 723
+	trade Equipment 569
+	trade Food 343
+	trade "Heavy Metals" 884
+	trade Industrial 790
+	trade "Luxury Goods" 1060
+	trade Medical 777
+	trade Metal 531
+	trade Plastic 479
 	object
 		sprite star/f0
 		distance 15.3708
@@ -26741,16 +26953,16 @@ system Lumaar
 	asteroids "large metal" 155 10.875
 	minables copper 6 10.5625
 	minables lead 11 11.1051
-	trade Clothing 0
-	trade Electronics 0
-	trade Equipment 0
-	trade Food 496
-	trade "Heavy Metals" 0
-	trade Industrial 0
-	trade "Luxury Goods" 0
-	trade Medical 0
-	trade Metal 0
-	trade Plastic 0
+	trade Clothing 209
+	trade Electronics 673
+	trade Equipment 529
+	trade Food 160
+	trade "Heavy Metals" 822
+	trade Industrial 817
+	trade "Luxury Goods" 1319
+	trade Medical 481
+	trade Metal 247
+	trade Plastic 288
 	object
 		sprite star/g0
 		period 10
@@ -27670,16 +27882,16 @@ system Mallukavi
 	asteroids "large metal" 30 5.8464
 	minables aluminum 4 10.3136
 	minables titanium 41 10.6426
-	trade Clothing 307
-	trade Electronics 813
-	trade Equipment 501
-	trade Food 180
-	trade "Heavy Metals" 1245
-	trade Industrial 633
-	trade "Luxury Goods" 1087
-	trade Medical 851
-	trade Metal 288
-	trade Plastic 383
+	trade Clothing 203
+	trade Electronics 853
+	trade Equipment 583
+	trade Food 336
+	trade "Heavy Metals" 991
+	trade Industrial 694
+	trade "Luxury Goods" 1056
+	trade Medical 770
+	trade Metal 276
+	trade Plastic 335
 	object
 		sprite star/g0
 		period 10
@@ -27726,7 +27938,16 @@ system Maloa
 	asteroids "small metal" 4 4.312
 	asteroids "large metal" 17 1.5708
 	minables iron 27 3.78012
-	trade Food 538
+	trade Clothing 344
+	trade Electronics 813
+	trade Equipment 668
+	trade Food 310
+	trade "Heavy Metals" 974
+	trade Industrial 600
+	trade "Luxury Goods" 1189
+	trade Medical 626
+	trade Metal 236
+	trade Plastic 375
 	fleet "Dels guard" 1000
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 800
@@ -27836,16 +28057,16 @@ system Maodeso
 	asteroids "medium metal" 1 5.2416
 	asteroids "large metal" 14 5.1968
 	minables lead 20 6.95616
-	trade Clothing 374
-	trade Electronics 657
-	trade Equipment 480
-	trade Food 455
-	trade "Heavy Metals" 1087
-	trade Industrial 704
-	trade "Luxury Goods" 1259
-	trade Medical 898
-	trade Metal 516
-	trade Plastic 327
+	trade Clothing 223
+	trade Electronics 858
+	trade Equipment 590
+	trade Food 344
+	trade "Heavy Metals" 765
+	trade Industrial 676
+	trade "Luxury Goods" 1264
+	trade Medical 687
+	trade Metal 247
+	trade Plastic 317
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 800
 	fleet "Dels Central Merchant" 600
@@ -28456,16 +28677,16 @@ system Maullenon
 	asteroids "medium metal" 18 1.5972
 	asteroids "large metal" 69 3.3396
 	minables platinum 11 3.86661
-	trade Clothing 307
-	trade Electronics 813
-	trade Equipment 501
-	trade Food 180
-	trade "Heavy Metals" 1245
-	trade Industrial 633
-	trade "Luxury Goods" 1087
-	trade Medical 851
-	trade Metal 288
-	trade Plastic 383
+	trade Clothing 274
+	trade Electronics 772
+	trade Equipment 437
+	trade Food 243
+	trade "Heavy Metals" 923
+	trade Industrial 728
+	trade "Luxury Goods" 998
+	trade Medical 762
+	trade Metal 340
+	trade Plastic 290
 	object
 		sprite star/k0
 		period 10
@@ -28515,16 +28736,16 @@ system "Mea Kalh"
 	minables lead 22 1.80574
 	minables titanium 43 2.391
 	minables tungsten 6 2.77819
-	trade Clothing 293
-	trade Electronics 784
-	trade Equipment 472
-	trade Food 420
-	trade "Heavy Metals" 1098
-	trade Industrial 867
-	trade "Luxury Goods" 1007
-	trade Medical 699
-	trade Metal 439
-	trade Plastic 441
+	trade Clothing 269
+	trade Electronics 726
+	trade Equipment 561
+	trade Food 266
+	trade "Heavy Metals" 1207
+	trade Industrial 790
+	trade "Luxury Goods" 966
+	trade Medical 602
+	trade Metal 286
+	trade Plastic 468
 	fleet "Dels merchant" 700
 	fleet "Dels guard" 1100
 	fleet "Dels Central Merchant" 900
@@ -28567,16 +28788,16 @@ system "Mea Sua"
 	asteroids "large metal" 1 5.61
 	minables neodymium 35 3.86798
 	minables silver 35 3.86798
-	trade Clothing 314
-	trade Electronics 668
-	trade Equipment 566
-	trade Food 428
-	trade "Heavy Metals" 1168
-	trade Industrial 732
-	trade "Luxury Goods" 1177
-	trade Medical 793
-	trade Metal 432
-	trade Plastic 317
+	trade Clothing 294
+	trade Electronics 740
+	trade Equipment 457
+	trade Food 378
+	trade "Heavy Metals" 976
+	trade Industrial 858
+	trade "Luxury Goods" 1315
+	trade Medical 485
+	trade Metal 287
+	trade Plastic 494
 	fleet "Dels guard" 600
 	fleet "Dels merchant" 1200
 	fleet "Dels miner" 1000
@@ -28632,41 +28853,46 @@ system "Mea Vol"
 	asteroids "large metal" 1 4.216
 	minables gold 4 6.74636
 	minables iron 2 5.09742
-	trade Clothing 224
-	trade Electronics 725
-	trade Equipment 564
-	trade Food 441
-	trade "Heavy Metals" 1130
-	trade Industrial 783
-	trade "Luxury Goods" 1069
-	trade Medical 764
-	trade Metal 430
-	trade Plastic 408
+	trade Clothing 278
+	trade Electronics 633
+	trade Equipment 560
+	trade Food 374
+	trade "Heavy Metals" 1236
+	trade Industrial 751
+	trade "Luxury Goods" 958
+	trade Medical 579
+	trade Metal 269
+	trade Plastic 454
 	fleet "Dels merchant" 600
 	fleet "Dels Central Merchant" 800
 	object
 		sprite star/m4
 		period 10
-	object
-		sprite planet/desert2
-		distance 202.29
-		period 75.3499
+	object Veeulakir
+		sprite planet/forest1
+		distance 227.237
+		period 89.7097
+		offset 157.769
 	object
 		sprite planet/ice0
-		distance 383.25
-		period 196.492
+		distance 408.197
+		period 215.986
+		offset 21.4516
 	object
 		sprite planet/rock11
-		distance 613.61
-		period 398.07
+		distance 638.557
+		period 422.591
+		offset 233.979
 	object
 		sprite planet/gas12
-		distance 1721.22
-		period 1870.15
+		distance 1746.17
+		period 1910.95
+		offset 18.1555
 	object
 		sprite planet/gas4
-		distance 3951.47
-		period 6505.18
+		distance 3976.42
+		period 6566.88
+		offset 2.28633
 		object
 			sprite planet/europa
 			distance 260
@@ -28696,7 +28922,16 @@ system Meellar
 	minables lead 28 4.74177
 	minables neodymium 41 3.1936
 	minables platinum 35 3.47252
-	trade Food 493
+	trade Clothing 365
+	trade Electronics 746
+	trade Equipment 633
+	trade Food 246
+	trade "Heavy Metals" 956
+	trade Industrial 608
+	trade "Luxury Goods" 1277
+	trade Medical 589
+	trade Metal 276
+	trade Plastic 429
 	fleet "Dels guard" 1000
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 1000
@@ -28834,16 +29069,16 @@ system Mekouka
 	asteroids "large metal" 2 3.8976
 	minables copper 1 4.93374
 	minables tungsten 4 8.44142
-	trade Clothing 0
-	trade Electronics 0
-	trade Equipment 0
-	trade Food 528
-	trade "Heavy Metals" 0
-	trade Industrial 0
-	trade "Luxury Goods" 0
-	trade Medical 0
-	trade Metal 0
-	trade Plastic 0
+	trade Clothing 250
+	trade Electronics 817
+	trade Equipment 695
+	trade Food 197
+	trade "Heavy Metals" 1149
+	trade Industrial 747
+	trade "Luxury Goods" 1202
+	trade Medical 707
+	trade Metal 265
+	trade Plastic 329
 	fleet "Dels Outward Merchant" 1000
 	object
 		sprite star/k0
@@ -28878,16 +29113,16 @@ system Melvurero
 	link Fielos
 	link Fosme
 	asteroids "large metal" 1 7.4152
-	trade Clothing 268
-	trade Electronics 773
-	trade Equipment 608
-	trade Food 334
-	trade "Heavy Metals" 962
-	trade Industrial 761
-	trade "Luxury Goods" 1131
-	trade Medical 788
-	trade Metal 280
-	trade Plastic 302
+	trade Clothing 288
+	trade Electronics 812
+	trade Equipment 523
+	trade Food 540
+	trade "Heavy Metals" 864
+	trade Industrial 704
+	trade "Luxury Goods" 957
+	trade Medical 670
+	trade Metal 364
+	trade Plastic 439
 	object
 		sprite star/g5
 		period 10
@@ -29041,16 +29276,16 @@ system Mesavor
 	asteroids "small metal" 6 2.352
 	asteroids "medium metal" 30 1.76
 	asteroids "large metal" 12 1.568
-	trade Clothing 268
-	trade Electronics 660
-	trade Equipment 448
-	trade Food 460
-	trade "Heavy Metals" 1119
-	trade Industrial 618
-	trade "Luxury Goods" 1212
-	trade Medical 861
-	trade Metal 462
-	trade Plastic 334
+	trade Clothing 201
+	trade Electronics 672
+	trade Equipment 494
+	trade Food 359
+	trade "Heavy Metals" 984
+	trade Industrial 699
+	trade "Luxury Goods" 1247
+	trade Medical 597
+	trade Metal 259
+	trade Plastic 365
 	fleet "Dels guard" 1200
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 1200
@@ -29125,16 +29360,16 @@ system Metardor
 	asteroids "small metal" 28 5.4528
 	asteroids "medium metal" 64 2.88
 	asteroids "large metal" 35 3.5712
-	trade Clothing 347
-	trade Electronics 778
-	trade Equipment 640
-	trade Food 458
-	trade "Heavy Metals" 1067
-	trade Industrial 561
-	trade "Luxury Goods" 1075
-	trade Medical 815
-	trade Metal 510
-	trade Plastic 481
+	trade Clothing 254
+	trade Electronics 744
+	trade Equipment 599
+	trade Food 446
+	trade "Heavy Metals" 1043
+	trade Industrial 774
+	trade "Luxury Goods" 1270
+	trade Medical 533
+	trade Metal 231
+	trade Plastic 297
 	fleet "Dels guard" 1200
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 1200
@@ -29246,16 +29481,16 @@ system Milarli
 	asteroids "small metal" 1 1.261
 	asteroids "medium metal" 6 1.521
 	asteroids "large metal" 2 1.625
-	trade Clothing 291
-	trade Electronics 753
-	trade Equipment 632
-	trade Food 246
-	trade "Heavy Metals" 1070
-	trade Industrial 661
-	trade "Luxury Goods" 1022
-	trade Medical 726
-	trade Metal 329
-	trade Plastic 295
+	trade Clothing 203
+	trade Electronics 645
+	trade Equipment 365
+	trade Food 494
+	trade "Heavy Metals" 869
+	trade Industrial 686
+	trade "Luxury Goods" 1328
+	trade Medical 802
+	trade Metal 296
+	trade Plastic 416
 	object
 		sprite star/k0
 		distance 33.0498
@@ -29352,7 +29587,16 @@ system Moloco
 	asteroids "small metal" 15 1.248
 	asteroids "medium metal" 142 0.962
 	asteroids "large metal" 37 1.807
-	trade Food 209
+	trade Clothing 202
+	trade Electronics 738
+	trade Equipment 418
+	trade Food 381
+	trade "Heavy Metals" 736
+	trade Industrial 811
+	trade "Luxury Goods" 1042
+	trade Medical 844
+	trade Metal 265
+	trade Plastic 438
 	fleet "Dels Outward Merchant" 1200
 	object
 		sprite star/g5
@@ -29778,16 +30022,16 @@ system Motardai
 	minables silicon 2 3.52123
 	minables silver 4 4.14422
 	minables titanium 14 5.26981
-	trade Clothing 0
-	trade Electronics 0
-	trade Equipment 0
-	trade Food 538
-	trade "Heavy Metals" 0
-	trade Industrial 0
-	trade "Luxury Goods" 0
-	trade Medical 0
-	trade Metal 0
-	trade Plastic 0
+	trade Clothing 368
+	trade Electronics 826
+	trade Equipment 662
+	trade Food 324
+	trade "Heavy Metals" 1052
+	trade Industrial 692
+	trade "Luxury Goods" 1050
+	trade Medical 596
+	trade Metal 244
+	trade Plastic 317
 	fleet "Dels Outward Merchant" 800
 	object
 		sprite star/g5
@@ -29835,16 +30079,16 @@ system Moudee
 	asteroids "large metal" 4 3.6288
 	minables lead 1 2.79195
 	minables neodymium 4 4.47058
-	trade Clothing 366
-	trade Electronics 791
-	trade Equipment 423
-	trade Food 431
-	trade "Heavy Metals" 1012
-	trade Industrial 661
-	trade "Luxury Goods" 1065
-	trade Medical 765
-	trade Metal 250
-	trade Plastic 481
+	trade Clothing 228
+	trade Electronics 684
+	trade Equipment 648
+	trade Food 399
+	trade "Heavy Metals" 1220
+	trade Industrial 755
+	trade "Luxury Goods" 1045
+	trade Medical 840
+	trade Metal 501
+	trade Plastic 468
 	fleet "Dels Central Merchant" 700
 	fleet "Dels guard" 800
 	object
@@ -29904,16 +30148,16 @@ system Mudeodar
 	asteroids "large metal" 67 5.04
 	minables aluminum 53 10.7436
 	minables titanium 9 11.916
-	trade Clothing 366
-	trade Electronics 791
-	trade Equipment 423
-	trade Food 431
-	trade "Heavy Metals" 1012
-	trade Industrial 661
-	trade "Luxury Goods" 1065
-	trade Medical 765
-	trade Metal 250
-	trade Plastic 481
+	trade Clothing 232
+	trade Electronics 700
+	trade Equipment 536
+	trade Food 172
+	trade "Heavy Metals" 1056
+	trade Industrial 698
+	trade "Luxury Goods" 1160
+	trade Medical 715
+	trade Metal 371
+	trade Plastic 272
 	fleet "Dels Central Merchant" 1600
 	object
 		sprite star/m4
@@ -29971,16 +30215,16 @@ system Mukalloei
 	asteroids "large metal" 15 5.187
 	minables tungsten 6 6.54734
 	minables uranium 6 6.80032
-	trade Clothing 271
-	trade Electronics 714
-	trade Equipment 550
-	trade Food 329
-	trade "Heavy Metals" 1084
-	trade Industrial 569
-	trade "Luxury Goods" 1039
-	trade Medical 669
-	trade Metal 339
-	trade Plastic 457
+	trade Clothing 259
+	trade Electronics 760
+	trade Equipment 571
+	trade Food 256
+	trade "Heavy Metals" 1028
+	trade Industrial 757
+	trade "Luxury Goods" 1030
+	trade Medical 863
+	trade Metal 266
+	trade Plastic 512
 	fleet Ignaggen 700
 	fleet "Dels merchant" 700
 	object
@@ -30023,16 +30267,16 @@ system Mukoglee
 	link Haurotdi
 	link Keemol
 	asteroids "large metal" 1 4.9155
-	trade Clothing 0
-	trade Electronics 0
-	trade Equipment 0
-	trade Food 158
-	trade "Heavy Metals" 0
-	trade Industrial 0
-	trade "Luxury Goods" 0
-	trade Medical 0
-	trade Metal 0
-	trade Plastic 0
+	trade Clothing 333
+	trade Electronics 748
+	trade Equipment 649
+	trade Food 196
+	trade "Heavy Metals" 1024
+	trade Industrial 591
+	trade "Luxury Goods" 1014
+	trade Medical 727
+	trade Metal 402
+	trade Plastic 458
 	object
 		sprite star/f0
 		distance 26.2696
@@ -30209,16 +30453,16 @@ system Mureene
 	asteroids "medium metal" 94 2.392
 	asteroids "large metal" 11 1.4352
 	minables iron 43 2.35996
-	trade Clothing 0
-	trade Electronics 0
-	trade Equipment 0
-	trade Food 528
-	trade "Heavy Metals" 0
-	trade Industrial 0
-	trade "Luxury Goods" 0
-	trade Medical 0
-	trade Metal 0
-	trade Plastic 0
+	trade Clothing 317
+	trade Electronics 769
+	trade Equipment 661
+	trade Food 257
+	trade "Heavy Metals" 1008
+	trade Industrial 664
+	trade "Luxury Goods" 1300
+	trade Medical 638
+	trade Metal 305
+	trade Plastic 446
 	fleet "Dels Outward Merchant" 1000
 	object
 		sprite star/g5
@@ -30656,7 +30900,16 @@ system Nalk
 	minables silver 61 8.33601
 	minables titanium 63 7.47159
 	minables tungsten 48 8.26326
-	trade Food 153
+	trade Clothing 355
+	trade Electronics 786
+	trade Equipment 592
+	trade Food 231
+	trade "Heavy Metals" 961
+	trade Industrial 777
+	trade "Luxury Goods" 987
+	trade Medical 627
+	trade Metal 232
+	trade Plastic 376
 	fleet "Dels guard" 1000
 	fleet "Dels Outward Merchant" 800
 	object
@@ -30894,16 +31147,16 @@ system Nareenor
 	asteroids "small metal" 6 1.3608
 	asteroids "medium metal" 36 1.386
 	asteroids "large metal" 6 3.5532
-	trade Clothing 301
-	trade Electronics 825
-	trade Equipment 619
-	trade Food 167
-	trade "Heavy Metals" 1068
-	trade Industrial 840
-	trade "Luxury Goods" 1162
-	trade Medical 768
-	trade Metal 439
-	trade Plastic 426
+	trade Clothing 271
+	trade Electronics 785
+	trade Equipment 401
+	trade Food 217
+	trade "Heavy Metals" 1163
+	trade Industrial 712
+	trade "Luxury Goods" 1040
+	trade Medical 743
+	trade Metal 352
+	trade Plastic 375
 	object
 		sprite star/k5
 		period 10
@@ -30978,16 +31231,16 @@ system Neeveeria
 	asteroids "large metal" 3 2.226
 	minables titanium 6 6.16574
 	minables uranium 6 9.82091
-	trade Clothing 326
-	trade Electronics 721
-	trade Equipment 415
-	trade Food 161
-	trade "Heavy Metals" 1056
-	trade Industrial 653
-	trade "Luxury Goods" 977
-	trade Medical 613
-	trade Metal 265
-	trade Plastic 454
+	trade Clothing 331
+	trade Electronics 735
+	trade Equipment 490
+	trade Food 269
+	trade "Heavy Metals" 1206
+	trade Industrial 829
+	trade "Luxury Goods" 1127
+	trade Medical 733
+	trade Metal 282
+	trade Plastic 326
 	fleet "Dels merchant" 600
 	fleet Ignaggen 700
 	object
@@ -31039,16 +31292,16 @@ system Neevouka
 	asteroids "large metal" 19 4.4352
 	minables silver 35 3.86798
 	minables gold 35 3.86798
-	trade Clothing 315
-	trade Electronics 642
-	trade Equipment 476
-	trade Food 414
-	trade "Heavy Metals" 1154
-	trade Industrial 615
-	trade "Luxury Goods" 1163
-	trade Medical 837
-	trade Metal 492
-	trade Plastic 302
+	trade Clothing 373
+	trade Electronics 632
+	trade Equipment 371
+	trade Food 402
+	trade "Heavy Metals" 988
+	trade Industrial 781
+	trade "Luxury Goods" 1402
+	trade Medical 607
+	trade Metal 349
+	trade Plastic 498
 	fleet "Dels guard" 600
 	fleet "Dels merchant" 600
 	fleet "Dels miner" 1200
@@ -31167,16 +31420,16 @@ system Nelha
 	minables iron 22 8.20552
 	minables neodymium 10 7.27659
 	minables silver 22 7.16048
-	trade Clothing 232
-	trade Electronics 785
-	trade Equipment 555
-	trade Food 254
-	trade "Heavy Metals" 1133
-	trade Industrial 736
-	trade "Luxury Goods" 1056
-	trade Medical 676
-	trade Metal 332
-	trade Plastic 485
+	trade Clothing 343
+	trade Electronics 697
+	trade Equipment 463
+	trade Food 276
+	trade "Heavy Metals" 1046
+	trade Industrial 668
+	trade "Luxury Goods" 1129
+	trade Medical 733
+	trade Metal 242
+	trade Plastic 321
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 1500
 	object
@@ -31232,7 +31485,16 @@ system Nell'O
 	asteroids "large metal" 3 4.1912
 	minables copper 3 10.2959
 	minables tungsten 3 13.0226
-	trade Food 440
+	trade Clothing 310
+	trade Electronics 740
+	trade Equipment 629
+	trade Food 222
+	trade "Heavy Metals" 900
+	trade Industrial 768
+	trade "Luxury Goods" 1141
+	trade Medical 769
+	trade Metal 342
+	trade Plastic 472
 	fleet "Dels guard" 600
 	fleet "Dels merchant" 1200
 	fleet "Dels Central Merchant" 800
@@ -31279,7 +31541,16 @@ system Nelop
 	link Meellar
 	link Voltaric
 	asteroids "large metal" 2 4.173
-	trade Food 446
+	trade Clothing 308
+	trade Electronics 676
+	trade Equipment 602
+	trade Food 191
+	trade "Heavy Metals" 999
+	trade Industrial 632
+	trade "Luxury Goods" 1279
+	trade Medical 607
+	trade Metal 336
+	trade Plastic 397
 	fleet "Dels guard" 1000
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 1000
@@ -31537,7 +31808,16 @@ system Neulod
 	asteroids "small metal" 8 4.0964
 	asteroids "medium metal" 70 6.9692
 	asteroids "large metal" 10 7.8736
-	trade Food 159
+	trade Clothing 383
+	trade Electronics 760
+	trade Equipment 420
+	trade Food 250
+	trade "Heavy Metals" 960
+	trade Industrial 777
+	trade "Luxury Goods" 1092
+	trade Medical 709
+	trade Metal 294
+	trade Plastic 367
 	fleet "Dels Outward Merchant" 1200
 	object
 		sprite star/k0
@@ -31653,16 +31933,16 @@ system Nobdean
 	link Remork
 	asteroids "large metal" 1 7.9866
 	minables uranium 35 3.86798
-	trade Clothing 303
-	trade Electronics 721
-	trade Equipment 534
-	trade Food 459
-	trade "Heavy Metals" 1105
-	trade Industrial 700
-	trade "Luxury Goods" 1229
-	trade Medical 726
-	trade Metal 426
-	trade Plastic 338
+	trade Clothing 313
+	trade Electronics 775
+	trade Equipment 443
+	trade Food 447
+	trade "Heavy Metals" 1069
+	trade Industrial 779
+	trade "Luxury Goods" 1189
+	trade Medical 527
+	trade Metal 315
+	trade Plastic 470
 	fleet "Dels guard" 1000
 	fleet "Dels miner" 1200
 	fleet "Dels merchant" 600
@@ -31708,16 +31988,16 @@ system Noeidae
 	link Mekouka
 	link Vukleda
 	asteroids "large metal" 1 0.84
-	trade Clothing 0
-	trade Electronics 0
-	trade Equipment 0
-	trade Food 528
-	trade "Heavy Metals" 0
-	trade Industrial 0
-	trade "Luxury Goods" 0
-	trade Medical 0
-	trade Metal 0
-	trade Plastic 0
+	trade Clothing 275
+	trade Electronics 803
+	trade Equipment 666
+	trade Food 259
+	trade "Heavy Metals" 1138
+	trade Industrial 752
+	trade "Luxury Goods" 1270
+	trade Medical 704
+	trade Metal 245
+	trade Plastic 345
 	fleet "Dels Outward Merchant" 1000
 	object
 		sprite star/m4
@@ -31771,15 +32051,15 @@ system Nordevu
 	minables aluminum 30 1.5066
 	minables lead 31 2.12308
 	minables titanium 20 1.881
-	trade Clothing 374
-	trade Electronics 657
-	trade Equipment 480
-	trade Food 455
-	trade "Heavy Metals" 1087
-	trade Industrial 704
-	trade "Luxury Goods" 1259
-	trade Medical 898
-	trade Metal 516
+	trade Clothing 355
+	trade Electronics 647
+	trade Equipment 667
+	trade Food 497
+	trade "Heavy Metals" 982
+	trade Industrial 576
+	trade "Luxury Goods" 1009
+	trade Medical 609
+	trade Metal 340
 	trade Plastic 327
 	fleet "Dels Central Merchant" 600
 	fleet "Dels guard" 800
@@ -31831,16 +32111,16 @@ system Nordulla
 	asteroids "large metal" 7 7.6125
 	minables iron 27 6.3414
 	minables lead 34 7.58753
-	trade Clothing 302
-	trade Electronics 638
-	trade Equipment 621
-	trade Food 151
-	trade "Heavy Metals" 958
-	trade Industrial 676
-	trade "Luxury Goods" 964
-	trade Medical 591
-	trade Metal 259
-	trade Plastic 467
+	trade Clothing 180
+	trade Electronics 754
+	trade Equipment 685
+	trade Food 122
+	trade "Heavy Metals" 940
+	trade Industrial 673
+	trade "Luxury Goods" 1247
+	trade Medical 855
+	trade Metal 268
+	trade Plastic 384
 	object
 		sprite star/g0
 		period 10
@@ -31933,7 +32213,16 @@ system Nornal
 	minables aluminum 2 6.60655
 	minables neodymium 14 5.20686
 	minables tungsten 2 5.0229
-	trade Food 282
+	trade Clothing 296
+	trade Electronics 838
+	trade Equipment 640
+	trade Food 206
+	trade "Heavy Metals" 907
+	trade Industrial 679
+	trade "Luxury Goods" 1058
+	trade Medical 583
+	trade Metal 278
+	trade Plastic 341
 	fleet "Dels guard" 1000
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 900
@@ -31995,7 +32284,16 @@ system Norsea
 	asteroids "small metal" 5 3.672
 	asteroids "medium metal" 7 2.652
 	asteroids "large metal" 18 3.434
-	trade Food 234
+	trade Clothing 209
+	trade Electronics 712
+	trade Equipment 653
+	trade Food 258
+	trade "Heavy Metals" 744
+	trade Industrial 685
+	trade "Luxury Goods" 1201
+	trade Medical 565
+	trade Metal 413
+	trade Plastic 330
 	fleet "Dels Outward Merchant" 600
 	object
 		sprite star/g5
@@ -32250,16 +32548,16 @@ system Novee
 	asteroids "large metal" 4 3.6608
 	minables uranium 35 3.86798
 	minables neodymium 35 3.86798
-	trade Clothing 238
-	trade Electronics 727
-	trade Equipment 650
-	trade Food 474
-	trade "Heavy Metals" 1027
-	trade Industrial 663
-	trade "Luxury Goods" 1170
-	trade Medical 899
-	trade Metal 404
-	trade Plastic 410
+	trade Clothing 330
+	trade Electronics 657
+	trade Equipment 605
+	trade Food 463
+	trade "Heavy Metals" 1060
+	trade Industrial 734
+	trade "Luxury Goods" 1116
+	trade Medical 485
+	trade Metal 250
+	trade Plastic 309
 	fleet "Dels guard" 800
 	fleet "Dels merchant" 600
 	fleet "Dels Central Merchant" 700
@@ -32314,16 +32612,16 @@ system Nugorig
 	asteroids "large metal" 8 3.4776
 	minables copper 4 8.94006
 	minables titanium 14 8.59386
-	trade Clothing 284
-	trade Electronics 794
-	trade Equipment 400
-	trade Food 464
-	trade "Heavy Metals" 838
-	trade Industrial 827
-	trade "Luxury Goods" 1051
-	trade Medical 806
-	trade Metal 254
-	trade Plastic 349
+	trade Clothing 204
+	trade Electronics 843
+	trade Equipment 527
+	trade Food 451
+	trade "Heavy Metals" 1035
+	trade Industrial 662
+	trade "Luxury Goods" 972
+	trade Medical 713
+	trade Metal 315
+	trade Plastic 440
 	object
 		sprite star/k5
 		period 10
@@ -32366,16 +32664,16 @@ system Nugvuela
 	asteroids "large metal" 1 5.0544
 	minables gold 1 6.49824
 	minables uranium 1 4.80999
-	trade Clothing 284
-	trade Electronics 794
-	trade Equipment 400
-	trade Food 464
-	trade "Heavy Metals" 838
-	trade Industrial 827
-	trade "Luxury Goods" 1051
-	trade Medical 806
-	trade Metal 254
-	trade Plastic 349
+	trade Clothing 322
+	trade Electronics 678
+	trade Equipment 535
+	trade Food 380
+	trade "Heavy Metals" 1042
+	trade Industrial 582
+	trade "Luxury Goods" 1199
+	trade Medical 710
+	trade Metal 400
+	trade Plastic 506
 	object
 		sprite star/f5
 		period 10
@@ -32417,16 +32715,16 @@ system Nulvekor
 	minables lead 6 6.79401
 	minables titanium 19 8.21102
 	minables uranium 18 6.09395
-	trade Clothing 366
-	trade Electronics 791
-	trade Equipment 423
-	trade Food 431
-	trade "Heavy Metals" 1012
-	trade Industrial 661
-	trade "Luxury Goods" 1065
-	trade Medical 765
-	trade Metal 250
-	trade Plastic 481
+	trade Clothing 309
+	trade Electronics 725
+	trade Equipment 635
+	trade Food 544
+	trade "Heavy Metals" 881
+	trade Industrial 777
+	trade "Luxury Goods" 1154
+	trade Medical 608
+	trade Metal 332
+	trade Plastic 369
 	fleet "Dels merchant" 600
 	fleet "Dels Central Merchant" 600
 	fleet "Dels guard" 800
@@ -32777,16 +33075,16 @@ system Olpuor
 	asteroids "large metal" 11 1.5433
 	minables titanium 3 5.24458
 	minables tungsten 14 5.37695
-	trade Clothing 366
-	trade Electronics 791
-	trade Equipment 423
-	trade Food 431
-	trade "Heavy Metals" 1012
-	trade Industrial 661
-	trade "Luxury Goods" 1065
-	trade Medical 765
-	trade Metal 250
-	trade Plastic 481
+	trade Clothing 279
+	trade Electronics 694
+	trade Equipment 619
+	trade Food 428
+	trade "Heavy Metals" 983
+	trade Industrial 834
+	trade "Luxury Goods" 1098
+	trade Medical 717
+	trade Metal 380
+	trade Plastic 478
 	fleet "Dels merchant" 600
 	fleet "Dels Central Merchant" 600
 	fleet "Dels miner" 1200
@@ -33023,16 +33321,16 @@ system Orseune
 	asteroids "large metal" 6 2.464
 	minables copper 6 4.20653
 	minables gold 14 3.14968
-	trade Clothing 361
-	trade Electronics 822
-	trade Equipment 666
-	trade Food 174
-	trade "Heavy Metals" 906
-	trade Industrial 849
-	trade "Luxury Goods" 1198
-	trade Medical 710
-	trade Metal 469
-	trade Plastic 347
+	trade Clothing 273
+	trade Electronics 674
+	trade Equipment 469
+	trade Food 228
+	trade "Heavy Metals" 1129
+	trade Industrial 653
+	trade "Luxury Goods" 1373
+	trade Medical 882
+	trade Metal 484
+	trade Plastic 302
 	fleet "Dels merchant" 800
 	object
 		sprite star/k5
@@ -33082,16 +33380,16 @@ system Orvujer
 	asteroids "large metal" 1 3.75
 	minables iron 1 6.51108
 	minables tungsten 1 6.23616
-	trade Clothing 366
-	trade Electronics 791
+	trade Clothing 247
+	trade Electronics 810
 	trade Equipment 423
-	trade Food 431
-	trade "Heavy Metals" 1012
-	trade Industrial 661
-	trade "Luxury Goods" 1065
-	trade Medical 765
-	trade Metal 250
-	trade Plastic 481
+	trade Food 181
+	trade "Heavy Metals" 942
+	trade Industrial 845
+	trade "Luxury Goods" 1164
+	trade Medical 693
+	trade Metal 510
+	trade Plastic 295
 	object
 		sprite star/g0
 		period 10
@@ -33187,16 +33485,16 @@ system "Panmur Kanul"
 	asteroids "large metal" 4 7.1875
 	minables copper 9 9.79066
 	minables iron 10 14.2331
-	trade Clothing 366
-	trade Electronics 791
-	trade Equipment 423
-	trade Food 431
-	trade "Heavy Metals" 1012
-	trade Industrial 661
-	trade "Luxury Goods" 1065
-	trade Medical 765
-	trade Metal 250
-	trade Plastic 481
+	trade Clothing 348
+	trade Electronics 856
+	trade Equipment 559
+	trade Food 291
+	trade "Heavy Metals" 860
+	trade Industrial 847
+	trade "Luxury Goods" 1475
+	trade Medical 463
+	trade Metal 238
+	trade Plastic 343
 	object
 		sprite star/f5
 		period 10
@@ -33237,16 +33535,16 @@ system Prudeiko
 	asteroids "large rock" 1 2.697
 	asteroids "medium metal" 5 2.581
 	asteroids "large metal" 2 3.451
-	trade Clothing 366
-	trade Electronics 791
-	trade Equipment 423
-	trade Food 431
-	trade "Heavy Metals" 1012
-	trade Industrial 661
-	trade "Luxury Goods" 1065
-	trade Medical 765
-	trade Metal 250
-	trade Plastic 481
+	trade Clothing 362
+	trade Electronics 832
+	trade Equipment 540
+	trade Food 331
+	trade "Heavy Metals" 874
+	trade Industrial 854
+	trade "Luxury Goods" 1456
+	trade Medical 499
+	trade Metal 228
+	trade Plastic 356
 	fleet "Dels Outward Merchant" 2000
 	object
 		sprite star/f5
@@ -33386,16 +33684,16 @@ system "Qee Auaro"
 	asteroids "medium metal" 2 1.7875
 	asteroids "large metal" 2 3.19
 	minables lead 35 3.82645
-	trade Clothing 240
-	trade Electronics 717
-	trade Equipment 575
-	trade Food 139
-	trade "Heavy Metals" 907
-	trade Industrial 768
-	trade "Luxury Goods" 1409
-	trade Medical 544
-	trade Metal 506
-	trade Plastic 344
+	trade Clothing 327
+	trade Electronics 659
+	trade Equipment 628
+	trade Food 470
+	trade "Heavy Metals" 980
+	trade Industrial 605
+	trade "Luxury Goods" 1459
+	trade Medical 512
+	trade Metal 537
+	trade Plastic 485
 	object
 		sprite star/a5
 		period 10
@@ -33444,16 +33742,16 @@ system "Qee Damour"
 	link "Qee Dunor"
 	link "Qee Ultur"
 	asteroids "large metal" 1 3.312
-	trade Clothing 187
-	trade Electronics 678
-	trade Equipment 373
-	trade Food 139
-	trade "Heavy Metals" 704
-	trade Industrial 579
-	trade "Luxury Goods" 1499
-	trade Medical 657
-	trade Metal 267
-	trade Plastic 493
+	trade Clothing 269
+	trade Electronics 792
+	trade Equipment 609
+	trade Food 553
+	trade "Heavy Metals" 1110
+	trade Industrial 830
+	trade "Luxury Goods" 1421
+	trade Medical 554
+	trade Metal 331
+	trade Plastic 311
 	object
 		sprite star/m4
 		period 10
@@ -33498,16 +33796,16 @@ system "Qee Darua"
 	minables copper 4 11.7124
 	minables lead 1 9.00337
 	minables tungsten 6 12.388
-	trade Clothing 281
-	trade Electronics 676
-	trade Equipment 449
-	trade Food 540
-	trade "Heavy Metals" 833
-	trade Industrial 627
-	trade "Luxury Goods" 1427
-	trade Medical 484
-	trade Metal 559
-	trade Plastic 293
+	trade Clothing 221
+	trade Electronics 784
+	trade Equipment 671
+	trade Food 534
+	trade "Heavy Metals" 1120
+	trade Industrial 803
+	trade "Luxury Goods" 1505
+	trade Medical 483
+	trade Metal 269
+	trade Plastic 272
 	object
 		sprite star/b5
 		period 10
@@ -33553,16 +33851,16 @@ system "Qee Dinar"
 	minables iron 15 12.7937
 	minables titanium 10 13.2204
 	minables uranium 9 8.35407
-	trade Clothing 283
-	trade Electronics 626
-	trade Equipment 445
-	trade Food 533
-	trade "Heavy Metals" 790
-	trade Industrial 568
-	trade "Luxury Goods" 1480
-	trade Medical 654
-	trade Metal 526
-	trade Plastic 456
+	trade Clothing 355
+	trade Electronics 664
+	trade Equipment 420
+	trade Food 248
+	trade "Heavy Metals" 1072
+	trade Industrial 692
+	trade "Luxury Goods" 1284
+	trade Medical 740
+	trade Metal 340
+	trade Plastic 469
 	object
 		sprite star/m4
 		period 10
@@ -33606,16 +33904,16 @@ system "Qee Doar"
 	asteroids "large rock" 2 9.2456
 	asteroids "medium metal" 2 6.552
 	asteroids "large metal" 3 9.464
-	trade Clothing 385
-	trade Electronics 735
-	trade Equipment 388
-	trade Food 514
-	trade "Heavy Metals" 808
-	trade Industrial 623
-	trade "Luxury Goods" 1402
-	trade Medical 456
-	trade Metal 433
-	trade Plastic 522
+	trade Clothing 247
+	trade Electronics 693
+	trade Equipment 389
+	trade Food 585
+	trade "Heavy Metals" 1084
+	trade Industrial 828
+	trade "Luxury Goods" 1342
+	trade Medical 535
+	trade Metal 400
+	trade Plastic 324
 	object
 		sprite star/g0
 		period 10
@@ -33671,16 +33969,16 @@ system "Qee Duain"
 	asteroids "large metal" 9 2.82
 	minables aluminum 19 3.97323
 	minables silver 21 3.04784
-	trade Clothing 385
-	trade Electronics 735
-	trade Equipment 388
-	trade Food 514
-	trade "Heavy Metals" 808
-	trade Industrial 623
-	trade "Luxury Goods" 1402
-	trade Medical 456
-	trade Metal 433
-	trade Plastic 522
+	trade Clothing 307
+	trade Electronics 665
+	trade Equipment 354
+	trade Food 525
+	trade "Heavy Metals" 954
+	trade Industrial 739
+	trade "Luxury Goods" 1445
+	trade Medical 540
+	trade Metal 282
+	trade Plastic 378
 	object
 		sprite star/g5
 		distance 50
@@ -33731,16 +34029,16 @@ system "Qee Duao"
 	asteroids "small metal" 4 6.9498
 	asteroids "medium metal" 8 4.9572
 	asteroids "large metal" 1 5.2974
-	trade Clothing 270
-	trade Electronics 669
-	trade Equipment 410
-	trade Food 139
-	trade "Heavy Metals" 793
-	trade Industrial 592
-	trade "Luxury Goods" 1499
-	trade Medical 516
-	trade Metal 461
-	trade Plastic 495
+	trade Clothing 319
+	trade Electronics 746
+	trade Equipment 570
+	trade Food 492
+	trade "Heavy Metals" 1074
+	trade Industrial 661
+	trade "Luxury Goods" 1415
+	trade Medical 507
+	trade Metal 507
+	trade Plastic 271
 	object
 		sprite star/m0
 		period 10
@@ -33789,16 +34087,16 @@ system "Qee Dukur"
 	minables copper 18 15.4611
 	minables iron 12 9.93648
 	minables tungsten 8 13.9774
-	trade Clothing 260
-	trade Electronics 767
-	trade Equipment 448
-	trade Food 540
-	trade "Heavy Metals" 811
-	trade Industrial 626
-	trade "Luxury Goods" 1437
-	trade Medical 555
-	trade Metal 542
-	trade Plastic 339
+	trade Clothing 297
+	trade Electronics 806
+	trade Equipment 625
+	trade Food 493
+	trade "Heavy Metals" 965
+	trade Industrial 661
+	trade "Luxury Goods" 1471
+	trade Medical 489
+	trade Metal 441
+	trade Plastic 383
 	object
 		sprite star/k0
 		period 10
@@ -33846,16 +34144,16 @@ system "Qee Dunor"
 	asteroids "medium metal" 4 1.4508
 	asteroids "large metal" 5 1.9422
 	minables copper 22 3.01441
-	trade Clothing 284
-	trade Electronics 801
-	trade Equipment 352
-	trade Food 139
-	trade "Heavy Metals" 817
-	trade Industrial 581
-	trade "Luxury Goods" 1340
-	trade Medical 482
-	trade Metal 340
-	trade Plastic 481
+	trade Clothing 262
+	trade Electronics 766
+	trade Equipment 646
+	trade Food 549
+	trade "Heavy Metals" 1106
+	trade Industrial 851
+	trade "Luxury Goods" 1475
+	trade Medical 526
+	trade Metal 275
+	trade Plastic 306
 	object
 		sprite star/m0
 		period 10
@@ -33893,16 +34191,16 @@ system "Qee Durdao"
 	minables copper 1 2.61481
 	minables iron 1 2.27761
 	minables titanium 1 3.92014
-	trade Clothing 283
-	trade Electronics 626
-	trade Equipment 445
-	trade Food 533
-	trade "Heavy Metals" 790
-	trade Industrial 568
-	trade "Luxury Goods" 1480
-	trade Medical 654
-	trade Metal 526
-	trade Plastic 456
+	trade Clothing 328
+	trade Electronics 758
+	trade Equipment 600
+	trade Food 495
+	trade "Heavy Metals" 1101
+	trade Industrial 668
+	trade "Luxury Goods" 1382
+	trade Medical 513
+	trade Metal 544
+	trade Plastic 255
 	object
 		sprite star/g5
 		period 10
@@ -33958,16 +34256,16 @@ system "Qee Fol"
 	asteroids "large rock" 3 5.073
 	asteroids "large metal" 2 4.959
 	minables aluminum 35 3.86798
-	trade Clothing 295
-	trade Electronics 678
-	trade Equipment 526
-	trade Food 364
-	trade "Heavy Metals" 849
-	trade Industrial 584
-	trade "Luxury Goods" 1433
-	trade Medical 562
-	trade Metal 480
-	trade Plastic 477
+	trade Clothing 192
+	trade Electronics 796
+	trade Equipment 468
+	trade Food 537
+	trade "Heavy Metals" 979
+	trade Industrial 773
+	trade "Luxury Goods" 1424
+	trade Medical 488
+	trade Metal 290
+	trade Plastic 481
 	fleet "Dels guard" 1000
 	fleet "Dels merchant" 1200
 	fleet "Dels pirate" 500
@@ -34026,16 +34324,16 @@ system "Qee Fuour"
 	minables iron 3 5.14474
 	minables silver 3 4.77815
 	minables uranium 1 5.45718
-	trade Clothing 260
-	trade Electronics 799
-	trade Equipment 365
-	trade Food 139
-	trade "Heavy Metals" 807
-	trade Industrial 620
-	trade "Luxury Goods" 1279
-	trade Medical 518
-	trade Metal 294
-	trade Plastic 477
+	trade Clothing 291
+	trade Electronics 645
+	trade Equipment 383
+	trade Food 471
+	trade "Heavy Metals" 1181
+	trade Industrial 651
+	trade "Luxury Goods" 1404
+	trade Medical 571
+	trade Metal 287
+	trade Plastic 304
 	object
 		sprite star/g0
 		distance 35.6366
@@ -34091,16 +34389,16 @@ system "Qee Golle"
 	minables silver 6 6.25798
 	minables titanium 6 4.9642
 	minables tungsten 36 5.1153
-	trade Clothing 266
-	trade Electronics 614
-	trade Equipment 406
-	trade Food 330
-	trade "Heavy Metals" 696
-	trade Industrial 610
-	trade "Luxury Goods" 1496
-	trade Medical 691
-	trade Metal 550
-	trade Plastic 442
+	trade Clothing 303
+	trade Electronics 738
+	trade Equipment 521
+	trade Food 497
+	trade "Heavy Metals" 1074
+	trade Industrial 674
+	trade "Luxury Goods" 1466
+	trade Medical 519
+	trade Metal 412
+	trade Plastic 302
 	object
 		sprite star/k0
 		period 10
@@ -34145,16 +34443,16 @@ system "Qee Kakur"
 	link "Qee Dinar"
 	link "Qee Rol"
 	asteroids "large metal" 1 2.8028
-	trade Clothing 283
-	trade Electronics 626
-	trade Equipment 445
-	trade Food 533
-	trade "Heavy Metals" 790
-	trade Industrial 568
-	trade "Luxury Goods" 1480
-	trade Medical 654
-	trade Metal 526
-	trade Plastic 456
+	trade Clothing 341
+	trade Electronics 648
+	trade Equipment 431
+	trade Food 281
+	trade "Heavy Metals" 1083
+	trade Industrial 744
+	trade "Luxury Goods" 1316
+	trade Medical 702
+	trade Metal 256
+	trade Plastic 440
 	object
 		sprite star/k5
 		distance 35.178
@@ -34191,16 +34489,16 @@ system "Qee Karol"
 	asteroids "large rock" 3 5.9488
 	asteroids "medium metal" 5 3.9936
 	asteroids "large metal" 2 5.6992
-	trade Clothing 283
-	trade Electronics 626
-	trade Equipment 445
-	trade Food 533
-	trade "Heavy Metals" 790
-	trade Industrial 568
-	trade "Luxury Goods" 1480
-	trade Medical 654
-	trade Metal 526
-	trade Plastic 456
+	trade Clothing 374
+	trade Electronics 725
+	trade Equipment 353
+	trade Food 205
+	trade "Heavy Metals" 1183
+	trade Industrial 683
+	trade "Luxury Goods" 1202
+	trade Medical 859
+	trade Metal 479
+	trade Plastic 516
 	object
 		sprite star/m0
 		period 10
@@ -34246,16 +34544,16 @@ system "Qee Nor"
 	asteroids "small metal" 1 5.474
 	asteroids "medium metal" 24 3.9284
 	asteroids "large metal" 2 8.5008
-	trade Clothing 325
-	trade Electronics 716
-	trade Equipment 456
-	trade Food 514
-	trade "Heavy Metals" 819
-	trade Industrial 603
-	trade "Luxury Goods" 1390
-	trade Medical 493
-	trade Metal 433
-	trade Plastic 487
+	trade Clothing 267
+	trade Electronics 761
+	trade Equipment 576
+	trade Food 456
+	trade "Heavy Metals" 1020
+	trade Industrial 748
+	trade "Luxury Goods" 1408
+	trade Medical 559
+	trade Metal 315
+	trade Plastic 469
 	fleet "Dels guard" 1000
 	fleet "Dels merchant" 1200
 	fleet "Dels pirate" 500
@@ -34301,16 +34599,16 @@ system "Qee Nori"
 	asteroids "large metal" 2 2.7588
 	minables neodymium 7 6.01125
 	minables titanium 2 5.14076
-	trade Clothing 206
-	trade Electronics 719
-	trade Equipment 453
-	trade Food 139
-	trade "Heavy Metals" 849
-	trade Industrial 669
-	trade "Luxury Goods" 1374
-	trade Medical 592
-	trade Metal 513
-	trade Plastic 402
+	trade Clothing 345
+	trade Electronics 613
+	trade Equipment 633
+	trade Food 432
+	trade "Heavy Metals" 993
+	trade Industrial 633
+	trade "Luxury Goods" 1468
+	trade Medical 515
+	trade Metal 498
+	trade Plastic 490
 	fleet "Dels pirate" 500
 	object
 		sprite star/k0
@@ -34366,16 +34664,16 @@ system "Qee Norika"
 	asteroids "small metal" 1 1.6896
 	asteroids "medium metal" 10 1.1616
 	asteroids "large metal" 1 1.2672
-	trade Clothing 259
-	trade Electronics 716
-	trade Equipment 419
-	trade Food 540
-	trade "Heavy Metals" 835
-	trade Industrial 600
-	trade "Luxury Goods" 1432
-	trade Medical 573
-	trade Metal 511
-	trade Plastic 394
+	trade Clothing 353
+	trade Electronics 641
+	trade Equipment 606
+	trade Food 357
+	trade "Heavy Metals" 958
+	trade Industrial 693
+	trade "Luxury Goods" 1475
+	trade Medical 540
+	trade Metal 421
+	trade Plastic 448
 	fleet "Dels merchant" 1200
 	fleet "Dels pirate" 500
 	object
@@ -34431,16 +34729,16 @@ system "Qee Norsua"
 	asteroids "large rock" 12 2.1879
 	asteroids "small metal" 8 3.2929
 	asteroids "large metal" 5 2.3426
-	trade Clothing 246
-	trade Electronics 714
-	trade Equipment 633
-	trade Food 404
-	trade "Heavy Metals" 923
-	trade Industrial 782
-	trade "Luxury Goods" 1437
-	trade Medical 538
-	trade Metal 506
-	trade Plastic 310
+	trade Clothing 348
+	trade Electronics 727
+	trade Equipment 607
+	trade Food 465
+	trade "Heavy Metals" 933
+	trade Industrial 607
+	trade "Luxury Goods" 1470
+	trade Medical 510
+	trade Metal 504
+	trade Plastic 457
 	0
 	object
 		sprite star/m4
@@ -34495,16 +34793,16 @@ system "Qee Ordie"
 	asteroids "large metal" 8 2.592
 	minables copper 38 2.4094
 	minables titanium 60 3.27986
-	trade Clothing 283
-	trade Electronics 626
-	trade Equipment 445
-	trade Food 533
-	trade "Heavy Metals" 790
-	trade Industrial 568
-	trade "Luxury Goods" 1480
-	trade Medical 654
-	trade Metal 526
-	trade Plastic 456
+	trade Clothing 378
+	trade Electronics 694
+	trade Equipment 375
+	trade Food 200
+	trade "Heavy Metals" 1133
+	trade Industrial 669
+	trade "Luxury Goods" 1209
+	trade Medical 820
+	trade Metal 451
+	trade Plastic 508
 	object
 		sprite star/k0
 		distance 50.4047
@@ -34548,16 +34846,16 @@ system "Qee Rol"
 	link "Qee Kakur"
 	asteroids "medium metal" 27 8.5344
 	asteroids "large metal" 1 9.5424
-	trade Clothing 283
-	trade Electronics 626
-	trade Equipment 445
-	trade Food 533
-	trade "Heavy Metals" 790
-	trade Industrial 568
-	trade "Luxury Goods" 1480
-	trade Medical 654
-	trade Metal 526
-	trade Plastic 456
+	trade Clothing 337
+	trade Electronics 684
+	trade Equipment 409
+	trade Food 324
+	trade "Heavy Metals" 1129
+	trade Industrial 698
+	trade "Luxury Goods" 1370
+	trade Medical 677
+	trade Metal 250
+	trade Plastic 384
 	fleet "Dels merchant" 1200
 	fleet "Dels pirate" 500
 	object
@@ -34604,16 +34902,16 @@ system "Qee Tolor"
 	asteroids "small metal" 9 3.2472
 	asteroids "medium metal" 109 2.0064
 	asteroids "large metal" 31 3.2736
-	trade Clothing 304
-	trade Electronics 652
-	trade Equipment 386
-	trade Food 567
-	trade "Heavy Metals" 871
-	trade Industrial 567
-	trade "Luxury Goods" 1425
-	trade Medical 675
-	trade Metal 508
-	trade Plastic 396
+	trade Clothing 347
+	trade Electronics 665
+	trade Equipment 538
+	trade Food 253
+	trade "Heavy Metals" 886
+	trade Industrial 736
+	trade "Luxury Goods" 1441
+	trade Medical 495
+	trade Metal 436
+	trade Plastic 383
 	fleet "Dels merchant" 1200
 	fleet "Dels pirate" 500
 	object
@@ -34676,16 +34974,16 @@ system "Qee Tuaku"
 	minables lead 15 4.69169
 	minables titanium 1 3.46726
 	minables tungsten 17 3.62915
-	trade Clothing 257
-	trade Electronics 691
-	trade Equipment 429
-	trade Food 540
-	trade "Heavy Metals" 834
-	trade Industrial 632
-	trade "Luxury Goods" 1406
-	trade Medical 532
-	trade Metal 536
-	trade Plastic 325
+	trade Clothing 211
+	trade Electronics 835
+	trade Equipment 663
+	trade Food 522
+	trade "Heavy Metals" 1066
+	trade Industrial 730
+	trade "Luxury Goods" 1487
+	trade Medical 476
+	trade Metal 359
+	trade Plastic 292
 	object
 		sprite star/m0
 		distance 56
@@ -34747,16 +35045,16 @@ system "Qee Uardiue"
 	asteroids "large metal" 19 4.5968
 	minables aluminum 16 13.0529
 	minables iron 9 10.5265
-	trade Clothing 385
-	trade Electronics 735
-	trade Equipment 388
-	trade Food 514
-	trade "Heavy Metals" 808
-	trade Industrial 623
-	trade "Luxury Goods" 1402
-	trade Medical 456
-	trade Metal 433
-	trade Plastic 522
+	trade Clothing 369
+	trade Electronics 642
+	trade Equipment 376
+	trade Food 511
+	trade "Heavy Metals" 1041
+	trade Industrial 709
+	trade "Luxury Goods" 1396
+	trade Medical 540
+	trade Metal 273
+	trade Plastic 350
 	object
 		sprite star/a5
 		distance 27.2
@@ -34806,16 +35104,16 @@ system "Qee Ultur"
 	asteroids "medium metal" 1 2.7648
 	asteroids "large metal" 16 3.024
 	minables lead 6 5.02713
-	trade Clothing 198
-	trade Electronics 686
-	trade Equipment 387
-	trade Food 139
-	trade "Heavy Metals" 729
-	trade Industrial 575
-	trade "Luxury Goods" 1493
-	trade Medical 614
-	trade Metal 308
-	trade Plastic 491
+	trade Clothing 288
+	trade Electronics 801
+	trade Equipment 607
+	trade Food 524
+	trade "Heavy Metals" 1113
+	trade Industrial 806
+	trade "Luxury Goods" 1450
+	trade Medical 558
+	trade Metal 357
+	trade Plastic 316
 	object
 		sprite star/k5
 		period 10
@@ -34870,16 +35168,16 @@ system "Qee Urio"
 	asteroids "large rock" 3 8.3214
 	asteroids "medium metal" 3 5.2164
 	asteroids "large metal" 1 6.1479
-	trade Clothing 170
-	trade Electronics 787
-	trade Equipment 446
-	trade Food 139
-	trade "Heavy Metals" 844
-	trade Industrial 655
-	trade "Luxury Goods" 1316
-	trade Medical 661
-	trade Metal 551
-	trade Plastic 431
+	trade Clothing 210
+	trade Electronics 741
+	trade Equipment 385
+	trade Food 552
+	trade "Heavy Metals" 920
+	trade Industrial 785
+	trade "Luxury Goods" 1442
+	trade Medical 494
+	trade Metal 271
+	trade Plastic 437
 	object
 		sprite star/m4
 		period 10
@@ -34921,16 +35219,16 @@ system "Qee Urqide"
 	minables aluminum 15 2.2348
 	minables lead 2 2.14519
 	minables neodymium 2 2.06455
-	trade Clothing 385
-	trade Electronics 735
-	trade Equipment 388
-	trade Food 514
-	trade "Heavy Metals" 808
-	trade Industrial 623
-	trade "Luxury Goods" 1402
-	trade Medical 456
-	trade Metal 433
-	trade Plastic 522
+	trade Clothing 309
+	trade Electronics 655
+	trade Equipment 391
+	trade Food 540
+	trade "Heavy Metals" 1118
+	trade Industrial 746
+	trade "Luxury Goods" 1356
+	trade Medical 544
+	trade Metal 323
+	trade Plastic 317
 	object
 		sprite star/g5
 		period 10
@@ -34985,16 +35283,16 @@ system "Qee Urua"
 	asteroids "large metal" 2 3.432
 	minables lead 17 4.69182
 	minables tungsten 26 4.68585
-	trade Clothing 331
-	trade Electronics 736
-	trade Equipment 357
-	trade Food 139
-	trade "Heavy Metals" 797
-	trade Industrial 564
-	trade "Luxury Goods" 1442
-	trade Medical 460
-	trade Metal 419
-	trade Plastic 504
+	trade Clothing 234
+	trade Electronics 806
+	trade Equipment 616
+	trade Food 366
+	trade "Heavy Metals" 1024
+	trade Industrial 793
+	trade "Luxury Goods" 1352
+	trade Medical 626
+	trade Metal 247
+	trade Plastic 482
 	object
 		sprite star/g0
 		period 10
@@ -35054,16 +35352,16 @@ system "Qee Vulkuri"
 	minables neodymium 46 10.359
 	minables titanium 52 6.39083
 	minables tungsten 13 9.92322
-	trade Clothing 331
-	trade Electronics 736
-	trade Equipment 357
-	trade Food 139
-	trade "Heavy Metals" 797
-	trade Industrial 564
-	trade "Luxury Goods" 1442
-	trade Medical 460
-	trade Metal 419
-	trade Plastic 504
+	trade Clothing 201
+	trade Electronics 820
+	trade Equipment 629
+	trade Food 295
+	trade "Heavy Metals" 1028
+	trade Industrial 803
+	trade "Luxury Goods" 1347
+	trade Medical 661
+	trade Metal 235
+	trade Plastic 492
 	object
 		sprite star/g5
 		period 10
@@ -35227,16 +35525,16 @@ system Radger
 	asteroids "medium metal" 23 2.156
 	asteroids "large metal" 1 1.848
 	minables titanium 5 2.7347
-	trade Clothing 282
-	trade Electronics 805
-	trade Equipment 633
-	trade Food 174
-	trade "Heavy Metals" 967
-	trade Industrial 710
-	trade "Luxury Goods" 966
-	trade Medical 600
-	trade Metal 337
-	trade Plastic 406
+	trade Clothing 216
+	trade Electronics 837
+	trade Equipment 490
+	trade Food 477
+	trade "Heavy Metals" 728
+	trade Industrial 572
+	trade "Luxury Goods" 1050
+	trade Medical 690
+	trade Metal 448
+	trade Plastic 497
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -35393,16 +35691,16 @@ system Raioanor
 	link Loomera
 	link Suedo
 	asteroids "large metal" 1 6.944
-	trade Clothing 354
-	trade Electronics 813
-	trade Equipment 616
-	trade Food 197
-	trade "Heavy Metals" 1024
-	trade Industrial 708
-	trade "Luxury Goods" 1341
-	trade Medical 709
-	trade Metal 448
-	trade Plastic 323
+	trade Clothing 343
+	trade Electronics 718
+	trade Equipment 397
+	trade Food 162
+	trade "Heavy Metals" 1226
+	trade Industrial 685
+	trade "Luxury Goods" 1014
+	trade Medical 728
+	trade Metal 434
+	trade Plastic 306
 	fleet "Dels merchant" 700
 	object
 		sprite star/g5
@@ -35451,16 +35749,16 @@ system Rakugor
 	asteroids "large metal" 21 3.6
 	minables iron 20 9.25294
 	minables silver 1 5.74754
-	trade Clothing 284
-	trade Electronics 794
-	trade Equipment 400
-	trade Food 464
-	trade "Heavy Metals" 838
-	trade Industrial 827
-	trade "Luxury Goods" 1051
-	trade Medical 806
-	trade Metal 254
-	trade Plastic 349
+	trade Clothing 175
+	trade Electronics 813
+	trade Equipment 420
+	trade Food 220
+	trade "Heavy Metals" 969
+	trade Industrial 791
+	trade "Luxury Goods" 1015
+	trade Medical 612
+	trade Metal 435
+	trade Plastic 402
 	object
 		sprite star/k5
 		period 10
@@ -35582,16 +35880,16 @@ system Raskal
 	asteroids "small metal" 19 2.277
 	asteroids "medium metal" 2 2.6565
 	asteroids "large metal" 7 2.9325
-	trade Clothing 202
-	trade Electronics 808
-	trade Equipment 469
-	trade Food 382
-	trade "Heavy Metals" 928
-	trade Industrial 865
-	trade "Luxury Goods" 1051
-	trade Medical 866
-	trade Metal 296
-	trade Plastic 313
+	trade Clothing 252
+	trade Electronics 806
+	trade Equipment 378
+	trade Food 340
+	trade "Heavy Metals" 969
+	trade Industrial 682
+	trade "Luxury Goods" 1413
+	trade Medical 921
+	trade Metal 270
+	trade Plastic 322
 	fleet "Ignaggen Outlaw" 1200
 	fleet "Kager Military" 1800
 	object
@@ -35690,16 +35988,16 @@ system Ravo'oua
 	asteroids "large metal" 21 5.8968
 	minables platinum 6 11.4217
 	minables titanium 76 14.6876
-	trade Clothing 264
-	trade Electronics 741
-	trade Equipment 682
-	trade Food 174
-	trade "Heavy Metals" 907
-	trade Industrial 844
-	trade "Luxury Goods" 1197
-	trade Medical 768
-	trade Metal 397
-	trade Plastic 283
+	trade Clothing 318
+	trade Electronics 737
+	trade Equipment 617
+	trade Food 196
+	trade "Heavy Metals" 1124
+	trade Industrial 731
+	trade "Luxury Goods" 1273
+	trade Medical 841
+	trade Metal 476
+	trade Plastic 306
 	fleet "Dels merchant" 600
 	object
 		sprite star/g5
@@ -35845,7 +36143,16 @@ system Recoudee
 	asteroids "large rock" 15 1.18
 	asteroids "medium metal" 65 2
 	asteroids "large metal" 5 1.14
-	trade Food 426
+	trade Clothing 246
+	trade Electronics 696
+	trade Equipment 650
+	trade Food 226
+	trade "Heavy Metals" 698
+	trade Industrial 671
+	trade "Luxury Goods" 1203
+	trade Medical 536
+	trade Metal 413
+	trade Plastic 369
 	fleet "Dels Outward Merchant" 600
 	object
 		sprite star/g0
@@ -35898,16 +36205,16 @@ system Redeino
 	asteroids "large metal" 1 4.294
 	minables iron 1 6.11788
 	minables tungsten 2 5.0989
-	trade Clothing 267
-	trade Electronics 738
-	trade Equipment 556
-	trade Food 162
-	trade "Heavy Metals" 1063
-	trade Industrial 728
-	trade "Luxury Goods" 1209
-	trade Medical 547
-	trade Metal 528
-	trade Plastic 509
+	trade Clothing 324
+	trade Electronics 861
+	trade Equipment 438
+	trade Food 499
+	trade "Heavy Metals" 957
+	trade Industrial 562
+	trade "Luxury Goods" 1076
+	trade Medical 868
+	trade Metal 485
+	trade Plastic 385
 	fleet "Dels merchant" 700
 	object
 		sprite star/m4
@@ -35983,7 +36290,16 @@ system Reecos
 	asteroids "small metal" 1 1.848
 	asteroids "medium metal" 18 2.2848
 	asteroids "large metal" 6 2.9568
-	trade Food 199
+	trade Clothing 275
+	trade Electronics 767
+	trade Equipment 454
+	trade Food 440
+	trade "Heavy Metals" 762
+	trade Industrial 800
+	trade "Luxury Goods" 1005
+	trade Medical 828
+	trade Metal 325
+	trade Plastic 441
 	fleet "Dels Outward Merchant" 1500
 	object
 		sprite star/m0
@@ -36026,16 +36342,16 @@ system Reenai
 	asteroids "large metal" 1 5.2954
 	minables lead 3 8.64644
 	minables silver 2 8.0966
-	trade Clothing 255
-	trade Electronics 812
-	trade Equipment 578
-	trade Food 167
-	trade "Heavy Metals" 1179
-	trade Industrial 859
-	trade "Luxury Goods" 1061
-	trade Medical 703
-	trade Metal 351
-	trade Plastic 445
+	trade Clothing 265
+	trade Electronics 824
+	trade Equipment 460
+	trade Food 194
+	trade "Heavy Metals" 1071
+	trade Industrial 576
+	trade "Luxury Goods" 1187
+	trade Medical 707
+	trade Metal 312
+	trade Plastic 372
 	fleet "Dels guard" 1000
 	object
 		sprite star/f5
@@ -36089,16 +36405,16 @@ system Reevukmarai
 	asteroids "medium metal" 2 1.5488
 	asteroids "large metal" 1 2.904
 	minables lead 4 2.79057
-	trade Clothing 0
-	trade Electronics 0
-	trade Equipment 0
-	trade Food 538
-	trade "Heavy Metals" 0
-	trade Industrial 0
-	trade "Luxury Goods" 0
-	trade Medical 0
-	trade Metal 0
-	trade Plastic 0
+	trade Clothing 303
+	trade Electronics 791
+	trade Equipment 664
+	trade Food 347
+	trade "Heavy Metals" 1086
+	trade Industrial 844
+	trade "Luxury Goods" 1082
+	trade Medical 581
+	trade Metal 295
+	trade Plastic 315
 	fleet "Dels Outward Merchant" 700
 	object
 		sprite star/k0
@@ -36542,16 +36858,16 @@ system Remork
 	asteroids "large metal" 1 4.6368
 	minables iron 35 8.92341
 	minables titanium 35 3.86798
-	trade Clothing 247
-	trade Electronics 792
-	trade Equipment 486
-	trade Food 453
-	trade "Heavy Metals" 1079
-	trade Industrial 646
-	trade "Luxury Goods" 1231
-	trade Medical 632
-	trade Metal 399
-	trade Plastic 320
+	trade Clothing 361
+	trade Electronics 718
+	trade Equipment 507
+	trade Food 498
+	trade "Heavy Metals" 1130
+	trade Industrial 681
+	trade "Luxury Goods" 1106
+	trade Medical 478
+	trade Metal 290
+	trade Plastic 380
 	fleet "Dels miner" 12000
 	fleet "Dels Central Merchant" 600
 	object
@@ -37068,16 +37384,16 @@ system Rikor
 	asteroids "medium metal" 2 3.4782
 	asteroids "large metal" 6 2.1318
 	minables titanium 8 7.234
-	trade Clothing 302
-	trade Electronics 638
-	trade Equipment 621
-	trade Food 151
-	trade "Heavy Metals" 958
-	trade Industrial 676
-	trade "Luxury Goods" 964
-	trade Medical 591
-	trade Metal 259
-	trade Plastic 467
+	trade Clothing 287
+	trade Electronics 705
+	trade Equipment 574
+	trade Food 468
+	trade "Heavy Metals" 999
+	trade Industrial 779
+	trade "Luxury Goods" 1392
+	trade Medical 785
+	trade Metal 355
+	trade Plastic 385
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	fleet "Dels merchant" 800
@@ -37221,16 +37537,16 @@ system Riliule
 	minables copper 15 4.77521
 	minables tungsten 6 7.77004
 	minables uranium 12 6.32013
-	trade Clothing 234
-	trade Electronics 838
-	trade Equipment 598
-	trade Food 302
-	trade "Heavy Metals" 933
-	trade Industrial 831
-	trade "Luxury Goods" 1052
-	trade Medical 586
-	trade Metal 259
-	trade Plastic 279
+	trade Clothing 273
+	trade Electronics 641
+	trade Equipment 614
+	trade Food 424
+	trade "Heavy Metals" 855
+	trade Industrial 552
+	trade "Luxury Goods" 1018
+	trade Medical 566
+	trade Metal 419
+	trade Plastic 448
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -37282,16 +37598,16 @@ system Rocco
 	asteroids "large metal" 49 4.422
 	minables iron 2 7.41778
 	minables tungsten 16 4.19781
-	trade Clothing 371
-	trade Electronics 643
-	trade Equipment 503
-	trade Food 395
-	trade "Heavy Metals" 1205
-	trade Industrial 679
-	trade "Luxury Goods" 1095
-	trade Medical 762
-	trade Metal 415
-	trade Plastic 311
+	trade Clothing 373
+	trade Electronics 654
+	trade Equipment 382
+	trade Food 420
+	trade "Heavy Metals" 1035
+	trade Industrial 779
+	trade "Luxury Goods" 1359
+	trade Medical 564
+	trade Metal 334
+	trade Plastic 478
 	fleet "Dels guard" 1000
 	fleet "Dels merchant" 600
 	fleet "Dels Central Merchant" 700
@@ -37339,16 +37655,16 @@ system Rokarl
 	asteroids "large metal" 2 2.5517
 	minables iron 41 5.31362
 	minables uranium 4 7.15178
-	trade Clothing 260
-	trade Electronics 747
-	trade Equipment 653
-	trade Food 252
-	trade "Heavy Metals" 978
-	trade Industrial 751
-	trade "Luxury Goods" 1061
-	trade Medical 688
-	trade Metal 300
-	trade Plastic 301
+	trade Clothing 243
+	trade Electronics 651
+	trade Equipment 709
+	trade Food 282
+	trade "Heavy Metals" 823
+	trade Industrial 599
+	trade "Luxury Goods" 1152
+	trade Medical 711
+	trade Metal 565
+	trade Plastic 295
 	fleet "Kager Military" 1000
 	fleet Ignaggen 800
 	object
@@ -37601,16 +37917,16 @@ system Rovordai
 	asteroids "large metal" 52 2.5935
 	minables copper 51 2.60992
 	minables lead 33 3.55535
-	trade Clothing 315
-	trade Electronics 762
-	trade Equipment 464
-	trade Food 460
-	trade "Heavy Metals" 1009
-	trade Industrial 708
-	trade "Luxury Goods" 1019
-	trade Medical 778
-	trade Metal 306
-	trade Plastic 444
+	trade Clothing 316
+	trade Electronics 642
+	trade Equipment 487
+	trade Food 455
+	trade "Heavy Metals" 1260
+	trade Industrial 668
+	trade "Luxury Goods" 976
+	trade Medical 544
+	trade Metal 282
+	trade Plastic 468
 	fleet "Dels Central Merchant" 800
 	object
 		sprite star/a0
@@ -37659,16 +37975,16 @@ system Rudarli
 	asteroids "large rock" 2 3.015
 	asteroids "medium metal" 12 4.59
 	asteroids "large metal" 1 4.995
-	trade Clothing 326
-	trade Electronics 777
-	trade Equipment 562
-	trade Food 268
-	trade "Heavy Metals" 897
-	trade Industrial 720
-	trade "Luxury Goods" 943
-	trade Medical 557
-	trade Metal 400
-	trade Plastic 358
+	trade Clothing 236
+	trade Electronics 664
+	trade Equipment 532
+	trade Food 285
+	trade "Heavy Metals" 814
+	trade Industrial 579
+	trade "Luxury Goods" 1322
+	trade Medical 436
+	trade Metal 298
+	trade Plastic 487
 	object
 		sprite star/g0
 		distance 17.0526
@@ -37731,16 +38047,16 @@ system Ruggaru
 	asteroids "large metal" 3 5.1562
 	minables iron 2 8.50916
 	minables lead 3 8.17942
-	trade Clothing 284
-	trade Electronics 794
-	trade Equipment 400
-	trade Food 464
-	trade "Heavy Metals" 838
-	trade Industrial 827
-	trade "Luxury Goods" 1051
-	trade Medical 806
-	trade Metal 254
-	trade Plastic 349
+	trade Clothing 288
+	trade Electronics 759
+	trade Equipment 446
+	trade Food 436
+	trade "Heavy Metals" 992
+	trade Industrial 616
+	trade "Luxury Goods" 1056
+	trade Medical 694
+	trade Metal 455
+	trade Plastic 500
 	object
 		sprite star/m4
 		period 10
@@ -37784,16 +38100,16 @@ system Ruhaude
 	asteroids "large rock" 1 1.9602
 	asteroids "medium metal" 4 3.5574
 	asteroids "large metal" 3 3.0734
-	trade Clothing 366
-	trade Electronics 791
-	trade Equipment 423
-	trade Food 431
-	trade "Heavy Metals" 1012
-	trade Industrial 661
-	trade "Luxury Goods" 1065
-	trade Medical 765
-	trade Metal 250
-	trade Plastic 481
+	trade Clothing 238
+	trade Electronics 680
+	trade Equipment 571
+	trade Food 511
+	trade "Heavy Metals" 1159
+	trade Industrial 827
+	trade "Luxury Goods" 989
+	trade Medical 834
+	trade Metal 534
+	trade Plastic 310
 	fleet "Dels Central Merchant" 1000
 	object
 		sprite star/m4
@@ -37846,16 +38162,16 @@ system Rulkor
 	asteroids "large metal" 3 6.2118
 	minables aluminum 3 8.27885
 	minables silver 8 5.53702
-	trade Clothing 308
-	trade Electronics 650
-	trade Equipment 670
-	trade Food 195
-	trade "Heavy Metals" 951
-	trade Industrial 681
-	trade "Luxury Goods" 1039
-	trade Medical 575
-	trade Metal 261
-	trade Plastic 473
+	trade Clothing 225
+	trade Electronics 680
+	trade Equipment 527
+	trade Food 386
+	trade "Heavy Metals" 938
+	trade Industrial 750
+	trade "Luxury Goods" 1403
+	trade Medical 578
+	trade Metal 264
+	trade Plastic 499
 	object
 		sprite star/m4
 		period 10
@@ -39911,16 +40227,16 @@ system "Sector Dels"
 	asteroids "medium metal" 6 2.2032
 	asteroids "large metal" 2 4.2534
 	minables silver 2 3.40791
-	trade Clothing 315
-	trade Electronics 693
-	trade Equipment 561
-	trade Food 488
-	trade "Heavy Metals" 1032
-	trade Industrial 657
-	trade "Luxury Goods" 1246
-	trade Medical 820
-	trade Metal 404
-	trade Plastic 360
+	trade Clothing 363
+	trade Electronics 748
+	trade Equipment 616
+	trade Food 411
+	trade "Heavy Metals" 904
+	trade Industrial 751
+	trade "Luxury Goods" 1322
+	trade Medical 728
+	trade Metal 265
+	trade Plastic 312
 	object
 		sprite star/f0
 		period 10
@@ -39947,7 +40263,16 @@ system Sedop
 	asteroids "small metal" 8 1.8768
 	asteroids "medium metal" 17 2.5392
 	asteroids "large metal" 1 1.4904
-	trade Food 352
+	trade Clothing 251
+	trade Electronics 664
+	trade Equipment 662
+	trade Food 335
+	trade "Heavy Metals" 775
+	trade Industrial 769
+	trade "Luxury Goods" 1085
+	trade Medical 506
+	trade Metal 419
+	trade Plastic 452
 	fleet "Dels guard" 10000
 	fleet "Dels Outward Merchant" 700
 	0
@@ -40150,16 +40475,16 @@ system Seorduka
 	asteroids "large metal" 12 1.17
 	minables aluminum 9 3.3945
 	minables titanium 26 2.98226
-	trade Clothing 366
-	trade Electronics 791
-	trade Equipment 423
-	trade Food 431
-	trade "Heavy Metals" 1012
-	trade Industrial 661
-	trade "Luxury Goods" 1065
-	trade Medical 765
-	trade Metal 250
-	trade Plastic 481
+	trade Clothing 236
+	trade Electronics 691
+	trade Equipment 662
+	trade Food 249
+	trade "Heavy Metals" 1056
+	trade Industrial 640
+	trade "Luxury Goods" 1082
+	trade Medical 864
+	trade Metal 270
+	trade Plastic 474
 	fleet "Dels Central Merchant" 2200
 	object
 		sprite star/b5
@@ -40344,7 +40669,16 @@ system Seya
 	asteroids "small metal" 1 4.608
 	asteroids "medium metal" 20 3.264
 	asteroids "large metal" 6 2.0736
-	trade Food 157
+	trade Clothing 353
+	trade Electronics 804
+	trade Equipment 369
+	trade Food 171
+	trade "Heavy Metals" 878
+	trade Industrial 842
+	trade "Luxury Goods" 1123
+	trade Medical 669
+	trade Metal 263
+	trade Plastic 427
 	fleet "Dels Outward Merchant" 1400
 	object
 		sprite star/a0
@@ -40612,16 +40946,16 @@ system Sodoranu
 	asteroids "medium metal" 2 2.268
 	asteroids "large metal" 1 2.6784
 	minables gold 1 4.19478
-	trade Clothing 229
-	trade Electronics 793
-	trade Equipment 490
-	trade Food 254
-	trade "Heavy Metals" 1177
-	trade Industrial 715
-	trade "Luxury Goods" 1092
-	trade Medical 588
-	trade Metal 447
-	trade Plastic 510
+	trade Clothing 267
+	trade Electronics 688
+	trade Equipment 423
+	trade Food 341
+	trade "Heavy Metals" 1119
+	trade Industrial 667
+	trade "Luxury Goods" 1121
+	trade Medical 710
+	trade Metal 242
+	trade Plastic 373
 	fleet "Dels Outward Merchant" 2000
 	object
 		sprite star/g5
@@ -40634,18 +40968,21 @@ system Sodoranu
 		sprite planet/cloud5
 		distance 578.69
 		period 222.735
-	object
+	object Bodelu
 		sprite planet/forest4
-		distance 1117.58
-		period 597.775
+		distance 895.469
+		period 428.742
+		offset 58.9895
 	object
 		sprite planet/gas17
-		distance 1443.67
-		period 877.651
+		distance 1221.56
+		period 683.112
+		offset 58.692
 	object
 		sprite planet/gas2
-		distance 2575.63
-		period 2091.44
+		distance 2353.52
+		period 1826.82
+		offset 218.845
 		object
 			sprite planet/dust3
 			distance 194
@@ -40912,16 +41249,16 @@ system Stidueda
 	asteroids "large metal" 2 6.8244
 	minables iron 11 6.05603
 	minables tungsten 54 6.9395
-	trade Clothing 366
-	trade Electronics 791
-	trade Equipment 423
-	trade Food 431
-	trade "Heavy Metals" 1012
-	trade Industrial 661
-	trade "Luxury Goods" 1065
-	trade Medical 765
-	trade Metal 250
-	trade Plastic 481
+	trade Clothing 261
+	trade Electronics 734
+	trade Equipment 498
+	trade Food 192
+	trade "Heavy Metals" 977
+	trade Industrial 766
+	trade "Luxury Goods" 1154
+	trade Medical 748
+	trade Metal 429
+	trade Plastic 297
 	fleet "Dels Central Merchant" 1600
 	object
 		sprite star/k5
@@ -40979,16 +41316,16 @@ system Sturvor
 	asteroids "medium metal" 3 6.206
 	asteroids "large metal" 2 6.67
 	minables lead 1 10.0462
-	trade Clothing 366
-	trade Electronics 791
-	trade Equipment 423
-	trade Food 431
-	trade "Heavy Metals" 1012
-	trade Industrial 661
-	trade "Luxury Goods" 1065
-	trade Medical 765
-	trade Metal 250
-	trade Plastic 481
+	trade Clothing 388
+	trade Electronics 840
+	trade Equipment 527
+	trade Food 219
+	trade "Heavy Metals" 806
+	trade Industrial 662
+	trade "Luxury Goods" 1154
+	trade Medical 613
+	trade Metal 318
+	trade Plastic 286
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 800
 	fleet "Dels Central Merchant" 600
@@ -41041,16 +41378,16 @@ system Suadee
 	asteroids "large metal" 2 3.8808
 	minables iron 1 8.71139
 	minables titanium 2 6.52803
-	trade Clothing 205
-	trade Electronics 653
-	trade Equipment 501
-	trade Food 356
-	trade "Heavy Metals" 1092
-	trade Industrial 717
-	trade "Luxury Goods" 1020
-	trade Medical 738
-	trade Metal 312
-	trade Plastic 422
+	trade Clothing 225
+	trade Electronics 635
+	trade Equipment 396
+	trade Food 343
+	trade "Heavy Metals" 1129
+	trade Industrial 742
+	trade "Luxury Goods" 1159
+	trade Medical 644
+	trade Metal 271
+	trade Plastic 417
 	fleet "Dels merchant" 600
 	fleet Ignaggen 700
 	fleet "Dels guard" 1000
@@ -41101,16 +41438,16 @@ system Sudean
 	asteroids "small metal" 4 2.4
 	asteroids "medium metal" 56 5.376
 	asteroids "large metal" 22 5.664
-	trade Clothing 370
-	trade Electronics 650
-	trade Equipment 566
-	trade Food 475
-	trade "Heavy Metals" 1178
-	trade Industrial 721
-	trade "Luxury Goods" 1076
-	trade Medical 734
-	trade Metal 360
-	trade Plastic 330
+	trade Clothing 364
+	trade Electronics 739
+	trade Equipment 397
+	trade Food 420
+	trade "Heavy Metals" 1148
+	trade Industrial 706
+	trade "Luxury Goods" 1257
+	trade Medical 541
+	trade Metal 406
+	trade Plastic 387
 	fleet "Dels guard" 1000
 	fleet "Dels merchant" 600
 	fleet "Dels Central Merchant" 800
@@ -41181,16 +41518,16 @@ system Suedo
 	asteroids "large metal" 4 5.168
 	minables lead 13 6.14387
 	minables neodymium 5 6.64767
-	trade Clothing 273
-	trade Electronics 709
-	trade Equipment 473
-	trade Food 169
-	trade "Heavy Metals" 1049
-	trade Industrial 726
-	trade "Luxury Goods" 966
-	trade Medical 637
-	trade Metal 287
-	trade Plastic 472
+	trade Clothing 322
+	trade Electronics 673
+	trade Equipment 370
+	trade Food 188
+	trade "Heavy Metals" 1161
+	trade Industrial 619
+	trade "Luxury Goods" 1056
+	trade Medical 661
+	trade Metal 429
+	trade Plastic 315
 	fleet "Dels Central Merchant" 800
 	object
 		sprite star/g0
@@ -41248,16 +41585,16 @@ system Suedor
 	minables iron 9 5.89972
 	minables lead 8 6.06155
 	minables silver 4 7.17235
-	trade Clothing 366
-	trade Electronics 791
-	trade Equipment 423
-	trade Food 431
-	trade "Heavy Metals" 1012
-	trade Industrial 661
-	trade "Luxury Goods" 1065
-	trade Medical 765
-	trade Metal 250
-	trade Plastic 481
+	trade Clothing 297
+	trade Electronics 810
+	trade Equipment 497
+	trade Food 234
+	trade "Heavy Metals" 1039
+	trade Industrial 788
+	trade "Luxury Goods" 1009
+	trade Medical 785
+	trade Metal 344
+	trade Plastic 388
 	object
 		sprite star/g5
 		distance 49
@@ -41301,16 +41638,16 @@ system Suere
 	minables aluminum 1 7.4002
 	minables copper 7 4.53433
 	minables gold 35 5.56006
-	trade Clothing 331
-	trade Electronics 805
-	trade Equipment 656
-	trade Food 174
-	trade "Heavy Metals" 971
-	trade Industrial 805
-	trade "Luxury Goods" 1322
-	trade Medical 632
-	trade Metal 487
-	trade Plastic 439
+	trade Clothing 237
+	trade Electronics 664
+	trade Equipment 415
+	trade Food 264
+	trade "Heavy Metals" 1108
+	trade Industrial 594
+	trade "Luxury Goods" 1356
+	trade Medical 819
+	trade Metal 412
+	trade Plastic 302
 	fleet "Dels merchant" 600
 	fleet "Dels guard" 100
 	object
@@ -41360,16 +41697,16 @@ system Suideon
 	link Lordeetor
 	link Uileyder
 	asteroids "large metal" 1 5.46
-	trade Clothing 366
-	trade Electronics 791
-	trade Equipment 423
-	trade Food 431
-	trade "Heavy Metals" 1012
-	trade Industrial 661
-	trade "Luxury Goods" 1065
-	trade Medical 765
-	trade Metal 250
-	trade Plastic 481
+	trade Clothing 343
+	trade Electronics 774
+	trade Equipment 621
+	trade Food 220
+	trade "Heavy Metals" 1043
+	trade Industrial 608
+	trade "Luxury Goods" 1171
+	trade Medical 851
+	trade Metal 350
+	trade Plastic 421
 	fleet "Dels Central Merchant" 1000
 	object
 		sprite star/m0
@@ -41581,7 +41918,16 @@ system Suolaa
 	asteroids "large metal" 6 3.1968
 	minables titanium 1 5.31678
 	minables tungsten 1 7.88567
-	trade Food 361
+	trade Clothing 360
+	trade Electronics 760
+	trade Equipment 606
+	trade Food 188
+	trade "Heavy Metals" 818
+	trade Industrial 826
+	trade "Luxury Goods" 1081
+	trade Medical 759
+	trade Metal 269
+	trade Plastic 414
 	fleet "Dels guard" 600
 	fleet "Dels merchant" 1200
 	fleet "Dels Central Merchant" 700
@@ -41820,16 +42166,16 @@ system Takuvurdan
 	asteroids "small metal" 1 7.8039
 	asteroids "medium metal" 2 7.0035
 	asteroids "large metal" 2 5.0025
-	trade Clothing 362
-	trade Electronics 662
-	trade Equipment 407
-	trade Food 485
-	trade "Heavy Metals" 1201
-	trade Industrial 754
-	trade "Luxury Goods" 1135
-	trade Medical 893
-	trade Metal 547
-	trade Plastic 395
+	trade Clothing 255
+	trade Electronics 737
+	trade Equipment 640
+	trade Food 220
+	trade "Heavy Metals" 995
+	trade Industrial 697
+	trade "Luxury Goods" 1313
+	trade Medical 552
+	trade Metal 298
+	trade Plastic 278
 	fleet "Dels Outward Merchant" 600
 	object
 		sprite star/k5
@@ -41871,16 +42217,16 @@ system Tedulce
 	minables iron 17 6.24677
 	minables titanium 38 4.83292
 	minables uranium 17 5.43998
-	trade Clothing 366
-	trade Electronics 791
-	trade Equipment 423
-	trade Food 431
-	trade "Heavy Metals" 1012
-	trade Industrial 661
-	trade "Luxury Goods" 1065
-	trade Medical 765
-	trade Metal 250
-	trade Plastic 481
+	trade Clothing 282
+	trade Electronics 730
+	trade Equipment 681
+	trade Food 370
+	trade "Heavy Metals" 1142
+	trade Industrial 783
+	trade "Luxury Goods" 1006
+	trade Medical 722
+	trade Metal 523
+	trade Plastic 467
 	fleet "Dels Central Merchant" 700
 	fleet "Dels miner" 1200
 	object
@@ -42206,16 +42552,16 @@ system Todelbe
 	asteroids "small metal" 1 2.184
 	asteroids "medium metal" 3 2.52
 	asteroids "large metal" 10 2.688
-	trade Clothing 326
-	trade Electronics 692
-	trade Equipment 475
-	trade Food 449
-	trade "Heavy Metals" 1245
-	trade Industrial 684
-	trade "Luxury Goods" 1096
-	trade Medical 898
-	trade Metal 540
-	trade Plastic 458
+	trade Clothing 300
+	trade Electronics 836
+	trade Equipment 604
+	trade Food 330
+	trade "Heavy Metals" 959
+	trade Industrial 791
+	trade "Luxury Goods" 1207
+	trade Medical 606
+	trade Metal 266
+	trade Plastic 304
 	fleet "Dels Outward Merchant" 600
 	object
 		sprite star/g0
@@ -42297,16 +42643,16 @@ system Tuarli
 	asteroids "medium metal" 12 3.6864
 	asteroids "large metal" 11 5.3376
 	minables silver 4 4.51546
-	trade Clothing 326
-	trade Electronics 721
-	trade Equipment 415
-	trade Food 161
-	trade "Heavy Metals" 1056
-	trade Industrial 653
-	trade "Luxury Goods" 977
-	trade Medical 613
-	trade Metal 265
-	trade Plastic 454
+	trade Clothing 280
+	trade Electronics 760
+	trade Equipment 568
+	trade Food 260
+	trade "Heavy Metals" 1126
+	trade Industrial 774
+	trade "Luxury Goods" 1094
+	trade Medical 782
+	trade Metal 243
+	trade Plastic 416
 	fleet Ignaggen 700
 	fleet "Dels merchant" 700
 	object
@@ -42349,16 +42695,16 @@ system Uadora
 	minables gold 23 3.48729
 	minables lead 15 3.34146
 	minables platinum 5 2.64249
-	trade Clothing 330
-	trade Electronics 872
-	trade Equipment 661
-	trade Food 162
-	trade "Heavy Metals" 1008
-	trade Industrial 777
-	trade "Luxury Goods" 1236
-	trade Medical 732
-	trade Metal 542
-	trade Plastic 417
+	trade Clothing 241
+	trade Electronics 848
+	trade Equipment 462
+	trade Food 208
+	trade "Heavy Metals" 1073
+	trade Industrial 575
+	trade "Luxury Goods" 1147
+	trade Medical 746
+	trade Metal 381
+	trade Plastic 470
 	object
 		sprite star/k5
 		period 10
@@ -42392,7 +42738,7 @@ system Uadora
 			period 18.6165
 
 system Uanalen
-	pos 1879.63 -10912.4
+	pos 4959.21 -9036.03
 	government Ultaka
 	habitable 973.36
 	asteroids "large metal" 1 5.5545
@@ -42483,16 +42829,16 @@ system Udideon
 	asteroids "medium metal" 26 2.3408
 	asteroids "large metal" 15 2.9568
 	minables iron 4 3.06337
-	trade Clothing 0
-	trade Electronics 0
-	trade Equipment 0
-	trade Food 528
-	trade "Heavy Metals" 0
-	trade Industrial 0
-	trade "Luxury Goods" 0
-	trade Medical 0
-	trade Metal 0
-	trade Plastic 0
+	trade Clothing 288
+	trade Electronics 743
+	trade Equipment 694
+	trade Food 195
+	trade "Heavy Metals" 1008
+	trade Industrial 599
+	trade "Luxury Goods" 1280
+	trade Medical 630
+	trade Metal 315
+	trade Plastic 448
 	fleet "Dels Outward Merchant" 1200
 	object
 		sprite star/k0
@@ -42549,16 +42895,16 @@ system Udileen
 	minables iron 1 7.12231
 	minables titanium 1 6.92961
 	minables uranium 7 4.00512
-	trade Clothing 366
-	trade Electronics 791
-	trade Equipment 423
-	trade Food 431
-	trade "Heavy Metals" 1012
-	trade Industrial 661
-	trade "Luxury Goods" 1065
-	trade Medical 765
-	trade Metal 250
-	trade Plastic 481
+	trade Clothing 291
+	trade Electronics 777
+	trade Equipment 516
+	trade Food 481
+	trade "Heavy Metals" 857
+	trade Industrial 901
+	trade "Luxury Goods" 1401
+	trade Medical 593
+	trade Metal 291
+	trade Plastic 376
 	object
 		sprite star/k0
 		period 10
@@ -42665,16 +43011,16 @@ system Uileyder
 	asteroids "large metal" 11 8.2593
 	minables copper 8 14.7589
 	minables lead 6 14.2789
-	trade Clothing 366
-	trade Electronics 791
-	trade Equipment 423
-	trade Food 431
-	trade "Heavy Metals" 1012
-	trade Industrial 661
-	trade "Luxury Goods" 1065
-	trade Medical 765
-	trade Metal 250
-	trade Plastic 481
+	trade Clothing 331
+	trade Electronics 724
+	trade Equipment 581
+	trade Food 184
+	trade "Heavy Metals" 1052
+	trade Industrial 667
+	trade "Luxury Goods" 1177
+	trade Medical 839
+	trade Metal 330
+	trade Plastic 392
 	fleet "Dels Central Merchant" 1200
 	object
 		sprite star/m0
@@ -42826,16 +43172,16 @@ system Ulgavel
 	asteroids "medium metal" 1 2.0944
 	asteroids "large metal" 33 2.2484
 	minables copper 6 3.09725
-	trade Clothing 284
-	trade Electronics 794
-	trade Equipment 400
-	trade Food 464
-	trade "Heavy Metals" 838
-	trade Industrial 827
-	trade "Luxury Goods" 1051
-	trade Medical 806
-	trade Metal 254
-	trade Plastic 349
+	trade Clothing 345
+	trade Electronics 779
+	trade Equipment 631
+	trade Food 311
+	trade "Heavy Metals" 901
+	trade Industrial 839
+	trade "Luxury Goods" 1014
+	trade Medical 812
+	trade Metal 562
+	trade Plastic 483
 	object
 		sprite star/k5
 		period 10
@@ -42980,16 +43326,16 @@ system Unlorde
 	minables gold 5 2.62071
 	minables iron 2 2.77389
 	minables lead 1 2.18638
-	trade Clothing 308
-	trade Electronics 650
-	trade Equipment 670
-	trade Food 195
-	trade "Heavy Metals" 951
-	trade Industrial 681
-	trade "Luxury Goods" 1039
-	trade Medical 575
-	trade Metal 261
-	trade Plastic 473
+	trade Clothing 219
+	trade Electronics 677
+	trade Equipment 525
+	trade Food 323
+	trade "Heavy Metals" 845
+	trade Industrial 643
+	trade "Luxury Goods" 1348
+	trade Medical 480
+	trade Metal 263
+	trade Plastic 504
 	object
 		sprite star/f0
 		distance 10.0257
@@ -43447,16 +43793,16 @@ system Uronuar
 	minables aluminum 1 2.65225
 	minables neodymium 1 2.30918
 	minables uranium 1 1.85988
-	trade Clothing 277
-	trade Electronics 661
-	trade Equipment 592
-	trade Food 143
-	trade "Heavy Metals" 1022
-	trade Industrial 763
-	trade "Luxury Goods" 954
-	trade Medical 667
-	trade Metal 260
-	trade Plastic 466
+	trade Clothing 215
+	trade Electronics 713
+	trade Equipment 681
+	trade Food 159
+	trade "Heavy Metals" 912
+	trade Industrial 749
+	trade "Luxury Goods" 1219
+	trade Medical 868
+	trade Metal 293
+	trade Plastic 325
 	object
 		sprite star/g5
 		period 10
@@ -43620,16 +43966,16 @@ system Varleron
 	asteroids "large metal" 8 6.006
 	minables copper 13 10.9797
 	minables neodymium 5 8.24532
-	trade Clothing 264
-	trade Electronics 810
-	trade Equipment 610
-	trade Food 265
-	trade "Heavy Metals" 934
-	trade Industrial 754
-	trade "Luxury Goods" 980
-	trade Medical 589
-	trade Metal 321
-	trade Plastic 358
+	trade Clothing 353
+	trade Electronics 703
+	trade Equipment 482
+	trade Food 462
+	trade "Heavy Metals" 743
+	trade Industrial 682
+	trade "Luxury Goods" 1082
+	trade Medical 742
+	trade Metal 538
+	trade Plastic 486
 	object
 		sprite star/g0
 		period 10
@@ -43669,16 +44015,16 @@ system Vedeero
 	asteroids "large metal" 7 2.6622
 	minables aluminum 5 11.2681
 	minables titanium 5 8.4901
-	trade Clothing 366
-	trade Electronics 791
-	trade Equipment 423
-	trade Food 431
-	trade "Heavy Metals" 1012
-	trade Industrial 661
-	trade "Luxury Goods" 1065
-	trade Medical 765
-	trade Metal 250
-	trade Plastic 481
+	trade Clothing 362
+	trade Electronics 796
+	trade Equipment 386
+	trade Food 214
+	trade "Heavy Metals" 1082
+	trade Industrial 760
+	trade "Luxury Goods" 1062
+	trade Medical 715
+	trade Metal 454
+	trade Plastic 301
 	fleet Ignaggen 700
 	object
 		sprite star/g0
@@ -43726,16 +44072,16 @@ system Veejurnu
 	asteroids "small metal" 2 2.079
 	asteroids "large metal" 3 1.0472
 	minables aluminum 6 2.17127
-	trade Clothing 286
-	trade Electronics 756
-	trade Equipment 684
-	trade Food 174
-	trade "Heavy Metals" 873
-	trade Industrial 838
-	trade "Luxury Goods" 1235
-	trade Medical 820
-	trade Metal 397
-	trade Plastic 264
+	trade Clothing 374
+	trade Electronics 762
+	trade Equipment 660
+	trade Food 166
+	trade "Heavy Metals" 1055
+	trade Industrial 690
+	trade "Luxury Goods" 1195
+	trade Medical 807
+	trade Metal 389
+	trade Plastic 301
 	object
 		sprite star/m0
 		period 10
@@ -43889,16 +44235,16 @@ system Veokuidee
 	asteroids "medium metal" 13 4.5927
 	asteroids "large metal" 16 5.1759
 	minables tungsten 1 10.8606
-	trade Clothing 366
-	trade Electronics 791
-	trade Equipment 423
-	trade Food 431
-	trade "Heavy Metals" 1012
-	trade Industrial 661
-	trade "Luxury Goods" 1065
-	trade Medical 765
-	trade Metal 250
-	trade Plastic 481
+	trade Clothing 314
+	trade Electronics 734
+	trade Equipment 678
+	trade Food 290
+	trade "Heavy Metals" 1190
+	trade Industrial 681
+	trade "Luxury Goods" 979
+	trade Medical 803
+	trade Metal 487
+	trade Plastic 476
 	fleet "Dels Central Merchant" 800
 	object
 		sprite star/g0
@@ -43966,16 +44312,16 @@ system Verdulla
 	asteroids "medium metal" 45 3.315
 	asteroids "large metal" 1 4.6475
 	minables lead 6 4.35902
-	trade Clothing 366
-	trade Electronics 791
-	trade Equipment 423
-	trade Food 431
-	trade "Heavy Metals" 1012
-	trade Industrial 661
-	trade "Luxury Goods" 1065
-	trade Medical 765
-	trade Metal 250
-	trade Plastic 481
+	trade Clothing 299
+	trade Electronics 643
+	trade Equipment 644
+	trade Food 423
+	trade "Heavy Metals" 1141
+	trade Industrial 671
+	trade "Luxury Goods" 994
+	trade Medical 771
+	trade Metal 505
+	trade Plastic 407
 	fleet "Dels Central Merchant" 700
 	fleet "Dels guard" 800
 	object
@@ -44072,16 +44418,16 @@ system Vertude
 	asteroids "small metal" 4 4.5087
 	asteroids "medium metal" 38 4.5087
 	asteroids "large metal" 11 4.2693
-	trade Clothing 366
-	trade Electronics 791
-	trade Equipment 423
-	trade Food 431
-	trade "Heavy Metals" 1012
-	trade Industrial 661
-	trade "Luxury Goods" 1065
-	trade Medical 765
-	trade Metal 250
-	trade Plastic 481
+	trade Clothing 299
+	trade Electronics 765
+	trade Equipment 445
+	trade Food 237
+	trade "Heavy Metals" 1144
+	trade Industrial 731
+	trade "Luxury Goods" 1086
+	trade Medical 660
+	trade Metal 445
+	trade Plastic 289
 	fleet "Dels Central Merchant" 1200
 	object
 		sprite star/g0
@@ -44127,16 +44473,16 @@ system Veukeeo
 	asteroids "large metal" 6 5.184
 	minables aluminum 7 5.22758
 	minables copper 13 5.06829
-	trade Clothing 366
-	trade Electronics 791
-	trade Equipment 423
-	trade Food 431
-	trade "Heavy Metals" 1012
-	trade Industrial 661
-	trade "Luxury Goods" 1065
-	trade Medical 765
-	trade Metal 250
-	trade Plastic 481
+	trade Clothing 304
+	trade Electronics 841
+	trade Equipment 540
+	trade Food 315
+	trade "Heavy Metals" 800
+	trade Industrial 674
+	trade "Luxury Goods" 1331
+	trade Medical 669
+	trade Metal 252
+	trade Plastic 305
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 800
 	fleet "Dels Central Merchant" 600
@@ -44186,16 +44532,16 @@ system Vibug
 	asteroids "medium metal" 89 3.696
 	asteroids "large metal" 2 4.272
 	minables tungsten 4 7.13259
-	trade Clothing 276
-	trade Electronics 707
-	trade Equipment 680
-	trade Food 171
-	trade "Heavy Metals" 1032
-	trade Industrial 734
-	trade "Luxury Goods" 1025
-	trade Medical 740
-	trade Metal 285
-	trade Plastic 352
+	trade Clothing 265
+	trade Electronics 639
+	trade Equipment 555
+	trade Food 414
+	trade "Heavy Metals" 771
+	trade Industrial 617
+	trade "Luxury Goods" 1093
+	trade Medical 649
+	trade Metal 510
+	trade Plastic 455
 	object
 		sprite star/k0
 		distance 28.1896
@@ -44252,16 +44598,16 @@ system Vigune
 	asteroids "large metal" 18 8.5176
 	minables copper 2 11.3441
 	minables iron 7 13.7171
-	trade Clothing 326
-	trade Electronics 777
-	trade Equipment 562
-	trade Food 268
-	trade "Heavy Metals" 897
-	trade Industrial 720
-	trade "Luxury Goods" 943
-	trade Medical 557
-	trade Metal 400
-	trade Plastic 358
+	trade Clothing 397
+	trade Electronics 811
+	trade Equipment 365
+	trade Food 551
+	trade "Heavy Metals" 686
+	trade Industrial 866
+	trade "Luxury Goods" 1107
+	trade Medical 692
+	trade Metal 511
+	trade Plastic 385
 	object
 		sprite star/m0
 		period 10
@@ -44318,16 +44664,16 @@ system Vikeoni
 	asteroids "medium metal" 7 5.264
 	asteroids "large metal" 3 5.6
 	minables platinum 1 8.62916
-	trade Clothing 374
-	trade Electronics 657
-	trade Equipment 480
-	trade Food 455
-	trade "Heavy Metals" 1087
-	trade Industrial 704
-	trade "Luxury Goods" 1259
-	trade Medical 898
-	trade Metal 516
-	trade Plastic 327
+	trade Clothing 350
+	trade Electronics 644
+	trade Equipment 622
+	trade Food 519
+	trade "Heavy Metals" 1067
+	trade Industrial 597
+	trade "Luxury Goods" 999
+	trade Medical 667
+	trade Metal 412
+	trade Plastic 323
 	fleet "Dels Central Merchant" 700
 	fleet "Dels guard" 800
 	object
@@ -44666,16 +45012,16 @@ system Vobeelee
 	asteroids "large metal" 2 2.9484
 	minables copper 3 4.23864
 	minables lead 2 3.94752
-	trade Clothing 353
-	trade Electronics 632
-	trade Equipment 476
-	trade Food 455
-	trade "Heavy Metals" 1178
-	trade Industrial 743
-	trade "Luxury Goods" 1194
-	trade Medical 903
-	trade Metal 512
-	trade Plastic 370
+	trade Clothing 360
+	trade Electronics 761
+	trade Equipment 583
+	trade Food 337
+	trade "Heavy Metals" 878
+	trade Industrial 763
+	trade "Luxury Goods" 1351
+	trade Medical 686
+	trade Metal 309
+	trade Plastic 321
 	fleet "Dels guard" 600
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 700
@@ -44800,16 +45146,16 @@ system Voimira
 	minables lead 2 7.94448
 	minables tungsten 1 8.99128
 	minables uranium 1 5.29476
-	trade Clothing 348
-	trade Electronics 684
-	trade Equipment 499
-	trade Food 230
-	trade "Heavy Metals" 973
-	trade Industrial 589
-	trade "Luxury Goods" 951
-	trade Medical 627
-	trade Metal 242
-	trade Plastic 493
+	trade Clothing 175
+	trade Electronics 769
+	trade Equipment 699
+	trade Food 113
+	trade "Heavy Metals" 933
+	trade Industrial 615
+	trade "Luxury Goods" 1289
+	trade Medical 831
+	trade Metal 239
+	trade Plastic 420
 	fleet Ignaggen 700
 	fleet "Dels merchant" 600
 	object
@@ -44855,16 +45201,16 @@ system Vokuder
 	asteroids "large rock" 24 2.4816
 	asteroids "small metal" 5 2.9304
 	asteroids "large metal" 2 3.7488
-	trade Clothing 202
-	trade Electronics 808
-	trade Equipment 469
-	trade Food 382
-	trade "Heavy Metals" 928
-	trade Industrial 865
-	trade "Luxury Goods" 1051
-	trade Medical 866
-	trade Metal 296
-	trade Plastic 313
+	trade Clothing 373
+	trade Electronics 734
+	trade Equipment 528
+	trade Food 363
+	trade "Heavy Metals" 811
+	trade Industrial 638
+	trade "Luxury Goods" 1129
+	trade Medical 726
+	trade Metal 545
+	trade Plastic 418
 	object
 		sprite star/g0
 		distance 36.0347
@@ -44913,16 +45259,16 @@ system Volarnee
 	asteroids "large metal" 3 2.646
 	minables aluminum 2 5.43644
 	minables titanium 1 6.4901
-	trade Clothing 263
-	trade Electronics 735
-	trade Equipment 460
-	trade Food 304
-	trade "Heavy Metals" 1150
-	trade Industrial 852
-	trade "Luxury Goods" 987
-	trade Medical 595
-	trade Metal 416
-	trade Plastic 481
+	trade Clothing 218
+	trade Electronics 671
+	trade Equipment 402
+	trade Food 295
+	trade "Heavy Metals" 1100
+	trade Industrial 577
+	trade "Luxury Goods" 1275
+	trade Medical 797
+	trade Metal 328
+	trade Plastic 298
 	fleet "Dels merchant" 600
 	fleet "Dels guard" 1000
 	object
@@ -44973,16 +45319,16 @@ system Volco
 	minables aluminum 12 6.12253
 	minables platinum 1 4.47684
 	minables titanium 1 6.64553
-	trade Clothing 261
-	trade Electronics 692
-	trade Equipment 674
-	trade Food 502
-	trade "Heavy Metals" 1214
-	trade Industrial 855
-	trade "Luxury Goods" 1101
-	trade Medical 786
-	trade Metal 493
-	trade Plastic 485
+	trade Clothing 262
+	trade Electronics 743
+	trade Equipment 430
+	trade Food 267
+	trade "Heavy Metals" 1167
+	trade Industrial 602
+	trade "Luxury Goods" 1074
+	trade Medical 565
+	trade Metal 362
+	trade Plastic 307
 	fleet "Dels Central Merchant" 800
 	object
 		sprite star/g5
@@ -45028,7 +45374,16 @@ system Voltaric
 	asteroids "large metal" 20 6.2951
 	minables neodymium 3 9.77315
 	minables titanium 7 11.7122
-	trade Food 449
+	trade Clothing 234
+	trade Electronics 729
+	trade Equipment 524
+	trade Food 192
+	trade "Heavy Metals" 997
+	trade Industrial 623
+	trade "Luxury Goods" 1217
+	trade Medical 592
+	trade Metal 382
+	trade Plastic 335
 	fleet "Dels guard" 1000
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 1000
@@ -45094,16 +45449,16 @@ system Voltuara
 	asteroids "small metal" 37 1.53
 	asteroids "medium metal" 23 1.53
 	asteroids "large metal" 6 4.0086
-	trade Clothing 368
-	trade Electronics 634
-	trade Equipment 536
-	trade Food 376
-	trade "Heavy Metals" 1154
-	trade Industrial 775
-	trade "Luxury Goods" 1247
-	trade Medical 890
-	trade Metal 505
-	trade Plastic 320
+	trade Clothing 309
+	trade Electronics 750
+	trade Equipment 518
+	trade Food 391
+	trade "Heavy Metals" 935
+	trade Industrial 791
+	trade "Luxury Goods" 1293
+	trade Medical 480
+	trade Metal 313
+	trade Plastic 408
 	fleet "Dels guard" 600
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 800
@@ -45267,16 +45622,16 @@ system Vukleda
 	minables copper 4 1.49084
 	minables iron 13 2.48836
 	minables neodymium 15 1.65436
-	trade Clothing 0
-	trade Electronics 0
-	trade Equipment 0
-	trade Food 528
-	trade "Heavy Metals" 0
-	trade Industrial 0
-	trade "Luxury Goods" 0
-	trade Medical 0
-	trade Metal 0
-	trade Plastic 0
+	trade Clothing 297
+	trade Electronics 736
+	trade Equipment 605
+	trade Food 336
+	trade "Heavy Metals" 1039
+	trade Industrial 723
+	trade "Luxury Goods" 1304
+	trade Medical 717
+	trade Metal 274
+	trade Plastic 378
 	fleet "Dels Outward Merchant" 1000
 	object
 		sprite star/m4
@@ -45340,16 +45695,16 @@ system Vukruo
 	asteroids "medium metal" 6 2.064
 	asteroids "large metal" 7 2.928
 	minables copper 6 2.27438
-	trade Clothing 0
-	trade Electronics 0
-	trade Equipment 0
-	trade Food 496
-	trade "Heavy Metals" 0
-	trade Industrial 0
-	trade "Luxury Goods" 0
-	trade Medical 0
-	trade Metal 0
-	trade Plastic 0
+	trade Clothing 279
+	trade Electronics 758
+	trade Equipment 567
+	trade Food 231
+	trade "Heavy Metals" 955
+	trade Industrial 726
+	trade "Luxury Goods" 1278
+	trade Medical 527
+	trade Metal 334
+	trade Plastic 308
 	fleet "Dels Outward Merchant" 700
 	object
 		sprite star/m4
@@ -46260,57 +46615,6 @@ system "a galaxy 4"
 			distance 350
 			period 21.5963
 
-system "a galaxy2"
-	pos 866.326 -11179.5
-	habitable 745.92
-	asteroids "small rock" 22 4.3092
-	asteroids "medium rock" 45 4.3605
-	asteroids "large rock" 15 3.5397
-	asteroids "small metal" 11 6.0021
-	asteroids "medium metal" 253 3.0267
-	asteroids "large metal" 15 7.182
-	object
-		sprite star/k5
-		distance 42.471
-		period 14.4267
-		offset 180
-	object
-		sprite star/m0
-		distance 56.529
-		period 14.4267
-	object
-		sprite planet/lava3
-		distance 191.969
-		period 38.9547
-	object
-		sprite planet/desert7
-		distance 372.859
-		period 105.446
-	object
-		sprite planet/ocean9
-		distance 670.109
-		period 254.057
-		object
-			sprite planet/ice0
-			distance 140
-			period 16.9589
-	object
-		sprite planet/rock15
-		distance 1805.75
-		period 1123.83
-	object
-		sprite planet/gas11
-		distance 3832.11
-		period 3474.33
-		object
-			sprite planet/rock7
-			distance 231
-			period 11.5797
-		object
-			sprite planet/europa
-			distance 337
-			period 20.4043
-
 system ligar
 	pos -1354.47 -6253.88
 	government "Kroom Kakaima"
@@ -46371,6 +46675,12 @@ system ligar
 			sprite planet/dust5
 			distance 576
 			period 43.4406
+
+planet Aelowee
+	landscape land/fog4
+	description `Stormy planet.`
+	spaceport .
+	bribe 0.5
 
 planet Aeulhen
 	landscape land/city14
@@ -46446,6 +46756,11 @@ planet Auradei
 	description .
 	spaceport .
 
+planet Bodelu
+	landscape land/fog1
+	description .
+	spaceport .
+
 planet Bunabei
 	landscape land/dune6-harro
 	description .
@@ -46480,7 +46795,7 @@ planet Daskavee
 	attributes Dels
 	landscape land/mountain11-sfiera
 	description `The land and water on this planet is split in half longitudinally. Most terrestrial life on the planet only exist on the broader between the two half extending into the land mostly no more than a few hundred kilometers. Some river however extends from far deeper into the land along the cliffs and valley of mountains harbouring life along the way. `
-	description `Most towns and cities sits close along the side of the river like the days before horse and carts. Probably due to more fertile ground for farms and orchards. Factories and such are placed on barren land on the other side of the mountains.`
+	description `	Most towns and cities sits close along the side of the river like the days before horse and carts. Probably due to more fertile ground for farms and orchards. Factories and such are placed on barren land on the other side of the mountains.`
 	spaceport `Landing pads are built in steps along the side of mountains with control tower at the peak nearby. Large shipyard is located next to the spaceport on the other side of the mountains building one of the largest ships designed by the Dels. The cities and spaceport are connected by both roads and rails but rails seems to be the preferred method for most visitors.`
 	shipyard "Dels Advanced"
 	outfitter "Dels Advanced"
@@ -47138,8 +47453,8 @@ planet Leepordi
 	spaceport .
 
 planet Leevunla
-	landscape land/valley9
-	description .
+	landscape land/sea16-harro
+	description `Almost the entire of this planet have tropical climate with warm sea seeping into every corner of land on the planet. As it turns out it quickly became a favorite planet for Dels colonist and farmers alike where they can easily grow their favorite corps and trees here without extensive terraforming or dependence on greenhouses.`
 	spaceport .
 
 planet Lemnor
@@ -47209,12 +47524,31 @@ planet Liamerle
 	spaceport .
 	"required reputation" 1
 
+planet Likveera
+	landscape land/snow10
+	description ..
+	spaceport .
+
 planet Livaki
 	attributes Geeva
 	landscape land/myrabella2
 	description .
 	spaceport .
 	"required reputation" 1
+
+planet Lordeeva
+	landscape land/fog6
+	description `This planet have its rotation axis almost perpendicular to the star. The planet is however too warm for any significant area of ocean to freeze.`
+	description `Most of the Dels settlement on this archipelago appears to be closer to the poles.`
+	spaceport `The spaceport was built on one of the larger island of the planet. Still it is only barely big enough to park a few large carriers. `
+	outfitter "Dels Ammo"
+
+planet Lorduee
+	landscape land/valley8
+	description `This planet is a bit more popular than its sister closer to the star. A bit colder but less humid and have more avaliable land. `
+	spaceport `While retaining curvy shapes and styles of Dels architecture the buildings were painted in brown and green and decorated with unusual amount of plants.`
+	shipyard "Dels Basic"
+	outfitter "Dels Advanced"
 
 planet "Losat 10:1"
 	attributes Donko
@@ -47788,7 +48122,7 @@ planet Tulvauno
 	spaceport .
 
 planet "Uderlee Dilr"
-	attributes `"heavy industry"` industry
+	attributes "heavy industry" industry
 	landscape land/nasa1
 	description `A half-land half-water planet with its surface scarred with pits and holes from countless of mining operations which are mostly abandoned. Large mining machines and other facilities are still left there unmaintained. This planet is also home to many large factories which are much more alive than the mines. Where cargo trains are still moving to and from, one factory to the next. `
 	spaceport `The spaceport sits in the center of a large industrial complex surrounding by roads and rails with sight of cranes every where you look. `
@@ -47804,6 +48138,11 @@ planet Urdeilne
 	landscape land/fog6
 	description ,
 	spaceport .
+
+planet Veeulakir
+	landscape land/mountain5
+	description `. Idk what to write here so do help.`
+	spaceport `. Same here.`
 
 planet Verkarja
 	landscape land/lava7-sfiera
@@ -47824,14 +48163,6 @@ planet Voltali
 	description .
 	spaceport .
 	security 0.9
-
-planet Wealo
-	attributes Dels
-	landscape land/water4
-	description `Wealo is another Dels planet with a large fleet of Darca(Dels Largest Carrier) parking in rows ready to evacuate in case the enemy comes, there's also known to be some group of Dels building an underwater bunker to hide from the Ultaka and lives there(Even though they are going to found some day by the Ultaka).`
-	spaceport `Rows and rows of Dels carriers are parked here, leaving a few landing pads for other ships.`
-	spaceport `	Because the spaceport is next to the sea, they also build paths out for some ships to land in the sea.`
-	bribe 0.5
 
 planet Wensa
 	attributes Qoro(north)
