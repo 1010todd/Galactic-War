@@ -829,7 +829,6 @@ system Alrtar
 	belt 1884
 	link Hinley
 	link Lueerda
-	link "Mea Vol"
 	link Sudean
 	link Volco
 	asteroids "small rock" 2 2.5232
@@ -5460,24 +5459,16 @@ system Deepla
 	object
 		sprite star/m0
 		period 10
-	object
-		sprite planet/cloud6
-		distance 242.69
-		period 84.5401
-		object
-			sprite planet/tethys
-			distance 143
-			period 17.507
 	object Gokdeo
 		sprite planet/water1
-		distance 560.33
-		period 296.586
-		offset 1.46288
+		distance 363.26
+		period 154.814
+		offset 299.518
 	object
 		sprite planet/neptune
-		distance 1597.42
-		period 1427.62
-		offset 0.206645
+		distance 1400.35
+		period 1171.76
+		offset 142.757
 		object
 			sprite planet/rhea
 			distance 208
@@ -5952,7 +5943,6 @@ system Derkeevo
 	habitable 425.92
 	belt 1105
 	link Gerdusee
-	link Jurdoe
 	link Moudee
 	link Ruhaude
 	link Tedulce
@@ -6248,6 +6238,7 @@ system Deurvuk
 	fleet "Dels guard" 1000
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 1400
+	fleet "Dels miner" 1300
 	object
 		sprite star/f5
 		period 10
@@ -6261,18 +6252,18 @@ system Deurvuk
 		period 93.7752
 	object Parturkelaai
 		sprite planet/desert2
-		distance 1105.58
-		period 355.071
-		offset 117.424
+		distance 1489.05
+		period 554.997
+		offset 44.4739
 		object
 			sprite planet/rock3
 			distance 148
 			period 20.166
 	object
 		sprite planet/gas9
-		distance 1987.94
-		period 856.119
-		offset 179.91
+		distance 2371.41
+		period 1115.42
+		offset 143.295
 		object
 			sprite planet/io
 			distance 239
@@ -6368,7 +6359,7 @@ system Dofolk
 			sprite planet/dust5
 			distance 136
 			period 21.1965
-	object Daska
+	object Daskavee
 		sprite planet/ocean2
 		distance 663.46
 		period 331.221
@@ -9248,7 +9239,6 @@ system Eruaine
 	belt 1663
 	link Eudarvo
 	link Orseune
-	link Ravo'oua
 	link Suere
 	asteroids "large metal" 1 5.568
 	trade Clothing 330
@@ -9413,7 +9403,7 @@ system Eudarvo
 			period 57.2149
 
 system Eududekor
-	pos -1922.29 -5205.82
+	pos -1928.29 -5221.82
 	government Dels
 	habitable 973.36
 	belt 1083
@@ -12033,7 +12023,7 @@ system Gekeo
 			period 51.2961
 
 system Genak
-	pos -1869.96 -4813.87
+	pos -1869.96 -4803.87
 	government Dels
 	habitable 425.92
 	belt 1977
@@ -12055,7 +12045,7 @@ system Genak
 		sprite planet/desert2
 		distance 251.01
 		period 77.0784
-	object
+	object Nulekcurda
 		sprite planet/desert3
 		distance 509.26
 		period 222.744
@@ -15714,7 +15704,7 @@ system Hidawe
 			sprite planet/ice0
 			distance 134
 			period 16.7492
-	object
+	object Dertlevar
 		sprite planet/io
 		distance 835.177
 		period 289.559
@@ -17905,7 +17895,6 @@ system Jurdoe
 	habitable 625
 	belt 1852
 	link Ardeedur
-	link Derkeevo
 	link Deunorle
 	link Ruhaude
 	asteroids "small rock" 26 3.0888
@@ -19651,11 +19640,12 @@ system Kelinur
 			period 16.6859
 
 system Kelleon
-	pos -683.69 -4707.86
+	pos -694.69 -4709.86
 	government Ignaggen
 	habitable 486.68
 	belt 1565
 	link Aregolli
+	link Lirganon
 	asteroids "small rock" 1 6.5472
 	asteroids "medium rock" 6 7.8144
 	asteroids "large rock" 15 6.2832
@@ -21127,7 +21117,7 @@ system Ko'coso
 			period 25.612
 
 system Ko'couezur
-	pos -770.647 -4444.9
+	pos -748.647 -4537.9
 	government Kumakk
 	habitable 486.68
 	belt 1818
@@ -21221,6 +21211,7 @@ system Ko'dero
 	belt 1375
 	link Ko'komo
 	link Ko'xomo
+	link Ko'zomo
 	asteroids "small rock" 1 6.67
 	asteroids "medium rock" 5 4.4022
 	asteroids "large rock" 2 8.671
@@ -21285,7 +21276,6 @@ system Ko'doco
 	belt 1370
 	link Ko'lobo
 	link Ko'neoho
-	link Ko'xomo
 	asteroids "medium rock" 109 3.549
 	asteroids "large rock" 124 5.655
 	asteroids "small metal" 7 5.421
@@ -21322,12 +21312,12 @@ system Ko'doco
 			period 17.1764
 
 system Ko'dolou
-	pos -807.794 -4385.22
+	pos -814.794 -4459.22
 	government Kumakk
 	habitable 486.68
 	belt 1678
 	link Ko'couezur
-	link Ko'komo
+	link Ko'luclo
 	asteroids "small rock" 58 2.079
 	asteroids "medium rock" 114 1.9008
 	asteroids "large rock" 89 2.1582
@@ -21688,7 +21678,7 @@ system Ko'koco
 			period 28.8188
 
 system Ko'kolur
-	pos -713.427 -4408.68
+	pos -715.427 -4427.68
 	government Kumakk
 	habitable 1715
 	belt 1719
@@ -21743,15 +21733,13 @@ system Ko'kolur
 		period 1217.52
 
 system Ko'komo
-	pos -730.768 -4330.19
+	pos -721.768 -4327.19
 	government Kumakk
 	habitable 320
 	belt 1776
 	link Ko'dero
-	link Ko'dolou
 	link Ko'kolur
 	link Ko'lobo
-	link Ko'luclo
 	asteroids "small rock" 50 3.2076
 	asteroids "medium rock" 9 3.8016
 	asteroids "large rock" 27 4.2174
@@ -21957,11 +21945,12 @@ system Ko'lolo
 		period 1630.6
 
 system Ko'luclo
-	pos -831.219 -4311.57
+	pos -824.219 -4365.57
 	government Kumakk
 	habitable 1705
 	belt 1754
-	link Ko'komo
+	link Ko'dolou
+	link Ko'zomo
 	asteroids "small rock" 4 3.808
 	asteroids "medium rock" 3 6.888
 	asteroids "large rock" 12 7.672
@@ -22799,13 +22788,11 @@ system Ko'urnol
 			period 19.7936
 
 system Ko'xomo
-	pos -732.091 -4073.05
+	pos -762.091 -4178.05
 	government Kumakk
 	habitable 135
 	belt 1046
 	link Ko'dero
-	link Ko'doco
-	link Ko'zomo
 	asteroids "small rock" 3 2.4402
 	asteroids "medium rock" 22 2.8518
 	asteroids "large rock" 11 1.6758
@@ -22890,11 +22877,12 @@ system Ko'zoco
 		period 1095.68
 
 system Ko'zomo
-	pos -796.038 -4113.86
+	pos -850.038 -4289.86
 	government Kumakk
 	habitable 135
 	belt 1790
-	link Ko'xomo
+	link Ko'dero
+	link Ko'luclo
 	asteroids "large metal" 1 2.3114
 	object
 		sprite star/m8
@@ -24430,7 +24418,7 @@ system Ledle
 system Leeounacr
 	pos -2115.83 -4768.84
 	government Dels
-	habitable 1715
+	habitable 560.92
 	belt 1184
 	link Deekurti
 	link Hidawe
@@ -24454,32 +24442,45 @@ system Leeounacr
 	trade Plastic 0
 	fleet "Dels Outward Merchant" 1400
 	object
-		sprite star/f5
-		period 10
+		sprite star/k5
+		distance 24.3083
+		period 17.1432
 	object
-		sprite planet/cloud2
-		distance 190.41
-		period 25.3783
-	object
-		sprite planet/lava7
-		distance 600.22
-		period 142.034
-	object
-		sprite planet/cloud8
-		distance 830.78
-		period 231.29
-	object
-		sprite planet/gas15
-		distance 1327.03
-		period 466.927
+		sprite star/m8
+		distance 76.6917
+		period 17.1432
+		offset 180
+	object Kevolur
+		sprite planet/desert2
+		distance 512.388
+		period 195.888
+		offset 214.949
 		object
 			sprite planet/dust4
-			distance 195
-			period 14.3334
+			distance 175
+			period 25.9289
 	object
-		sprite planet/gas5
-		distance 2401.19
-		period 1136.5
+		sprite planet/gas17
+		distance 1363.28
+		period 850.131
+		offset 157.359
+		object
+			sprite planet/luna
+			distance 243
+			period 16.1839
+		object
+			sprite planet/ice8
+			distance 370
+			period 30.4072
+	object
+		sprite planet/gas11
+		distance 2307.28
+		period 1871.8
+		offset 41.194
+		object
+			sprite planet/dust1
+			distance 249
+			period 12.9592
 
 system Leion
 	pos -558.548 -4958.57
@@ -25827,6 +25828,61 @@ system Lirel
 			distance 319
 			period 30.3293
 
+system Lirganon
+	pos -737.154 -4656.95
+	government Ignaggen
+	habitable 625
+	belt 1853
+	link Kelleon
+	asteroids "small rock" 1 6.4152
+	asteroids "medium rock" 5 7.0713
+	asteroids "large rock" 2 7.8732
+	asteroids "medium metal" 134 8.3835
+	asteroids "large metal" 83 4.3011
+	minables aluminum 42 11.4146
+	minables lead 31 9.67851
+	trade Clothing 284
+	trade Electronics 794
+	trade Equipment 400
+	trade Food 464
+	trade "Heavy Metals" 838
+	trade Industrial 827
+	trade "Luxury Goods" 1051
+	trade Medical 806
+	trade Metal 254
+	trade Plastic 349
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/rock8
+		distance 140.25
+		period 26.5751
+	object
+		sprite planet/rock13
+		distance 519.06
+		period 189.211
+		object
+			sprite planet/io
+			distance 145
+			period 21.949
+	object
+		sprite planet/gas6
+		distance 1833.95
+		period 1256.61
+		object
+			sprite planet/dust1
+			distance 306
+			period 13.6725
+		object
+			sprite planet/dust4
+			distance 430
+			period 22.7755
+		object
+			sprite planet/rock3
+			distance 576
+			period 35.3101
+
 system Litai
 	pos 5101.01 -8975.57
 	government Krinek
@@ -26323,13 +26379,15 @@ system Lordianee
 		sprite star/m8
 		period 10
 	object
-		sprite planet/desert10
-		distance 161.89
-		period 70.9126
+		sprite planet/lava3
+		distance 139.89
+		period 56.9604
+		offset 309.014
 	object
 		sprite planet/gas17
-		distance 909.7
-		period 944.584
+		distance 865.7
+		period 876.888
+		offset 356.939
 		object
 			sprite planet/tethys
 			distance 230
@@ -26340,12 +26398,14 @@ system Lordianee
 			period 29.9154
 	object
 		sprite planet/cloud8
-		distance 1759.46
-		period 2540.75
+		distance 1715.46
+		period 2446.04
+		offset 158.05
 	object
 		sprite planet/rock14
-		distance 2182.1
-		period 3509.18
+		distance 2138.1
+		period 3403.57
+		offset 242.825
 
 system Lourge
 	pos -841.245 -5062.09
@@ -28559,11 +28619,10 @@ system "Mea Sua"
 			0
 
 system "Mea Vol"
-	pos -1151.2 -5113.61
+	pos -1154.2 -5111.61
 	government Dels
 	habitable 233.28
 	belt 1818
-	link Alrtar
 	link Boklok
 	link "Mea Kalh"
 	link Rovordai
@@ -28658,7 +28717,7 @@ system Meellar
 		sprite planet/rock19
 		distance 386.206
 		period 91.0538
-	object Sarisa
+	object Sareesa
 		sprite planet/forest1
 		distance 768.766
 		period 255.718
@@ -29702,7 +29761,7 @@ system Mortarlen
 			period 12.594
 
 system Motardai
-	pos -1902.29 -5132.82
+	pos -1914.29 -5139.82
 	government Dels
 	habitable 625
 	belt 1190
@@ -30138,7 +30197,7 @@ system Murasai
 system Mureene
 	pos -2039.83 -4896.84
 	government Dels
-	habitable 945
+	habitable 760
 	belt 1100
 	link Meellar
 	link Udideon
@@ -30163,45 +30222,36 @@ system Mureene
 	fleet "Dels Outward Merchant" 1000
 	object
 		sprite star/g5
-		distance 38.6032
-		period 15.838
+		distance 17.2303
+		period 13.8615
 	object
-		sprite star/m0
-		distance 75.3968
-		period 15.838
+		sprite star/m8
+		distance 79.7697
+		period 13.8615
 		offset 180
 	object
-		sprite planet/gas2
-		distance 701.397
-		period 241.707
+		sprite planet/desert3
+		distance 450.01
+		period 138.512
 		object
-			sprite planet/callisto
-			distance 208
-			period 18.1765
-		object
-			sprite planet/dust3
-			distance 362
-			period 41.7328
-		object
-			sprite planet/rock17
-			distance 445
-			period 56.8794
-		object
-			sprite planet/rock7
-			distance 523
-			period 72.4715
+			sprite planet/lava0
+			distance 190
+			period 27.287
+	object Keedavol
+		sprite planet/cloud6
+		distance 843.37
+		period 355.37
+		offset 8.97726
 	object
-		sprite planet/gas8
-		distance 1777.44
-		period 975.069
-		object
-			sprite planet/dust1
-			distance 217
-			period 17.0164
-		object
-			sprite planet/tethys
-			distance 347
-			period 34.4089
+		sprite planet/gas11
+		distance 1546.53
+		period 882.451
+		offset 3.94572
+	object
+		sprite planet/gas5
+		distance 2023.94
+		period 1321.14
+		offset 2.00987
 
 system Mutol
 	pos 965.457 -6277.61
@@ -31168,7 +31218,7 @@ system Nelha
 			period 14.9572
 
 system Nell'O
-	pos -1752.8 -4793.79
+	pos -1749.8 -4803.79
 	government Dels
 	habitable 320
 	belt 1829
@@ -32959,7 +33009,7 @@ system Orel
 			period 34.4089
 
 system Orseune
-	pos -826.895 -5439.64
+	pos -808.895 -5448.64
 	government Dels
 	habitable 425.92
 	belt 1809
@@ -35625,11 +35675,10 @@ system Rasumos
 		period 894.535
 
 system Ravo'oua
-	pos -771.398 -5468.06
+	pos -758.398 -5487.06
 	government Dels
 	habitable 945
 	belt 1026
-	link Eruaine
 	link Juelirna
 	link Orseune
 	link Veejurnu
@@ -36027,7 +36076,7 @@ system Reenai
 		period 3956.86
 
 system Reevukmarai
-	pos -1873.29 -5256.82
+	pos -1873.29 -5267.82
 	government Dels
 	habitable 486.68
 	belt 1460
@@ -41236,7 +41285,7 @@ system Suedor
 		period 1337.29
 
 system Suere
-	pos -890.798 -5420.05
+	pos -872.798 -5401.05
 	government Dels
 	habitable 625
 	belt 1008
@@ -41845,7 +41894,7 @@ system Tedulce
 			sprite planet/ice7
 			distance 140
 			period 20.8235
-	object
+	object Kurtelo
 		sprite planet/forest5
 		distance 847.52
 		period 300.312
@@ -45238,30 +45287,34 @@ system Vukleda
 		sprite star/m8
 		distance 67.7771
 		period 23.0699
-	object
+	object Eerakai
 		sprite planet/ice4
-		distance 264.027
-		period 89.4219
+		distance 569.692
+		period 283.42
+		offset 185.374
 	object
 		sprite planet/gas3
-		distance 881.787
-		period 545.779
+		distance 1187.45
+		period 852.893
+		offset 332.925
 		object
 			sprite planet/rock3
 			distance 297
 			period 13.0737
 	object
 		sprite planet/desert6
-		distance 1502.03
-		period 1213.35
+		distance 1807.69
+		period 1601.99
+		offset 319.632
 		object
 			sprite planet/oberon
 			distance 162
 			period 21.4832
 	object
 		sprite planet/gas7
-		distance 2153.67
-		period 2083.24
+		distance 2459.33
+		period 2542.13
+		offset 138.636
 		object
 			sprite planet/europa
 			distance 239
@@ -46423,13 +46476,12 @@ planet Cordeeil
 	description .
 	spaceport .
 
-planet ""
-
-planet Daska
+planet Daskavee
 	attributes Dels
-	landscape land/sea5
-	description .
-	spaceport .
+	landscape land/mountain11-sfiera
+	description `The land and water on this planet is split in half longitudinally. Most terrestrial life on the planet only exist on the broader between the two half extending into the land mostly no more than a few hundred kilometers. Some river however extends from far deeper into the land along the cliffs and valley of mountains harbouring life along the way. `
+	description `Most towns and cities sits close along the side of the river like the days before horse and carts. Probably due to more fertile ground for farms and orchards. Factories and such are placed on barren land on the other side of the mountains.`
+	spaceport `Landing pads are built in steps along the side of mountains with control tower at the peak nearby. Large shipyard is located next to the spaceport on the other side of the mountains building one of the largest ships designed by the Dels. The cities and spaceport are connected by both roads and rails but rails seems to be the preferred method for most visitors.`
 	shipyard "Dels Advanced"
 	outfitter "Dels Advanced"
 	bribe 0.5
@@ -46452,7 +46504,7 @@ planet Delro
 	attributes Dels
 	landscape land/hills5-sfiera
 	description `This is the homeworld of the Dels. Multiple large megalopolis visible from afar, shimmering in gold from decorative curves spiralling and turning around the skin of the buildings.`
-	description `Many cities here have opted to use flying vehicle for transport rather than road vehicles to avoid congestion on the limited road they have. with exception for a few cities with different, older-looking architecture which happens to be devoid of any vehicle in the sky and have instead a large underground transport network for getting around.`
+	description `	Many cities here have opted to use flying vehicle for transport rather than road vehicles to avoid congestion on the limited road they have. with exception for a few cities with different, older-looking architecture which happens to be devoid of any vehicle in the sky and have instead a large underground transport network for getting around.`
 	spaceport `The spaceport is a giant triangular building built on an artificial island with landing pads on top of the building. The landing pads are seperated into 3 sections on each side of the triangle each designated to a category of ships. `
 	shipyard "Dels Advanced"
 	outfitter "Dels Advanced"
@@ -46498,6 +46550,12 @@ planet Dermari
 	bribe 0.7
 	security 0.9
 
+planet Dertlevar
+	attributes mining
+	landscape land/canyon03
+	description `The planet atmosphere is mostly filled with dust form extensive mining on the planet.`
+	spaceport `A building sits in the middle of the flat ground that is the landing area surrounded by warehouses and ore containers. A few automated forklift-like vehicles drives around the area loading and unloading cargo from parked freighters.`
+
 planet Destri
 	attributes refinery
 	landscape land/space5
@@ -46525,7 +46583,7 @@ planet Dolseern
 	attributes Dels
 	landscape land/sea3
 	description `A planet consist of mostly water on the surface with a few island scattered across the planet. It's a host to multitude of marine life large and small including some of the oddest aquatic creatures in the galaxy. `
-	description `It turns out to be a very popular tourist destination with various luxury accomodations built on the few island around the planet and large ocean liners sailing across the planet.`
+	description `	It turns out to be a very popular tourist destination with various luxury accomodations built on the few island around the planet and large ocean liners sailing across the planet.`
 	spaceport `The central spaceport was built on a large island near a volcano. The main building is curvy and painted vibrant blue as is the other buildings around it. Aside from small store selling basic commodities, there's no other shop to be found. `
 	bribe 0.8
 	security 0.5
@@ -46571,6 +46629,13 @@ planet Edkirlaa
 	landscape land/sea10-sfiera
 	description .
 	spaceport .
+
+planet Eerakai
+	attributes fishing
+	landscape land/snow5
+	description `This appears to be a frozen ocean world with very little amount of land exist. A band of liquid water exist around the equator of the planet. Only one island exist on this band with small Dels village on it. From the look of the other ships you see, fishing is probably the planet's main if not only industry.`
+	spaceport `The spaceport is quite crowded with visitors and merchants with stands selling fresh fishes and other marine animals, most of which don't look particularly odd except that they are huge. `
+	outfitter "Dels Ammo"
 
 planet Eilina
 	attributes Geeva
@@ -46700,9 +46765,8 @@ planet Gokano
 planet Gokdeo
 	attributes Dels
 	landscape land/fog3
-	description `Dels ocean planet, most of the population here inhabit on a gaint city ship.`
-	spaceport .
-	shipyard "Dels Basic"
+	description `This planet is covered entirely in deep ocean, no single island appeared on the surface. A number of people live on this planet on a large city ship that was probably once a spaceship before making its final splash down here. The number of odd weather instruments on the ship suggest it's somesort of a research or survey ship. `
+	spaceport `The hangar on the ship might be able to park about 10 fighters at best. Ships larger and heavier than that are required to land in the water next to the city ship. Hooking up fuel lines and transportation between ships are done by a small replusor craft that will struggle to carry over 10 tons on it. Up close, multiple sign of quick repairs and extension is visible this ship will probably forever remains on the planet.`
 	outfitter "Dels Basic"
 	bribe 0.6
 
@@ -46876,6 +46940,11 @@ planet Kateolr
 	description .
 	spaceport .
 
+planet Keedavol
+	landscape land/badlands2
+	description `Dune of sands strech across majority of this single-continent planet. Very few life exist on the surface as opposed to marine life where you can see new kind of fish and corals everywhere you go. Wreckage of starships and what left of cities can be seen in some corner of the continent, none of these share their design and architecture with the Dels signalling that someone else was here before them. Most of these sites are closed off to visitors and were heavily guarded. `
+	spaceport `A few basic stores and hotel rooms are avaliable at the spaceport, for occasional freighter visiting but rarely anyone stays here for long. Most buildings outside of the spaceport appears to belong to the military, surrounded by walls and razor wires. There also appears to be some construction for a large building under way but right now it's far too early to tell what it will be.`
+
 planet Keevulk
 	attributes city
 	landscape land/fields9
@@ -46904,6 +46973,13 @@ planet Kermar
 	description `Kermar is a small Ignaggen's mining planet.`
 	spaceport .
 	"required reputation" 1
+
+planet Kevolur
+	landscape land/sky0
+	description `This planet is home to several million Dels spread among a dozen cities along the foot of a mountian range. Scattered remains of old alien cities and artifacts are also present with most hidden by hills and trees. `
+	spaceport `The spaceport was dug into the mountains in steps like stairs with the control tower built on the peak of the mountain. `
+	shipyard "Dels Advanced"
+	outfitter "Dels Basic"
 
 planet Kier
 	landscape land/desert6
@@ -47049,6 +47125,11 @@ planet Kukoga
 	description ,
 	spaceport .
 	"required reputation" 1
+
+planet Kurtelo
+	landscape land/valley14-harro
+	description .
+	spaceport .
 
 planet Leepordi
 	attributes mining
@@ -47405,6 +47486,12 @@ planet Nosri
 	description .
 	security 0.9
 
+planet Nulekcurda
+	landscape land/mountain3
+	description `Majority of the planet surface is cold, dry land and ranges of mountains scattered across the land. Small pockets of lakes form in some area around the equator deep in the land surrounded by mountains. The largest body of water on the planet is no larger than a medium sized continent.`
+	spaceport `idk what to write here for now. `
+	outfitter "Dels Basic"
+
 planet Oikako
 	landscape land/valley3
 	description .
@@ -47466,7 +47553,7 @@ planet Osma
 
 planet Parturkelaai
 	landscape land/dune6-harro
-	description .
+	description `Among the green field of vegetations is dotted with area where nothing grows. The spots vary in size from a few meter in diameter to a hundred meters. These spots seems to occur all over the entire planet. `
 	spaceport .
 
 planet Qansta
@@ -47571,9 +47658,9 @@ planet Sanon
 	bribe 0.5
 	security 0.9
 
-planet Sarisa
+planet Sareesa
 	attributes Dels
-	landscape land/forest1
+	landscape land/valley13-harro
 	description .
 	spaceport .
 	shipyard "Dels Basic"
@@ -47675,7 +47762,7 @@ planet "Tarounian Wormhole"
 planet Terleedor
 	landscape land/sea1
 	description `This planet surface is mostly water with a largest continent only the size of what would be a large island on other world. Its deep ocean is a home to many large marine animals as well as smaller deep sea creatures. Many unusual and colorful coral can also be found in the dept that requires specifically designed submarines to reach. `
-	description `Most of the little population on the planet live on house elevated high above the ground to avoid water rising and giant waves which is common due to high tectonic activies in the ocean. The architecture here is different from most other Dels world where it is built with tough wood and very thick sea animal skin. New buildings will stick out from the rest due to more vibrant color while the rest have their colors faded to white.`
+	description `	Most of the little population on the planet live on house elevated high above the ground to avoid water rising and giant waves which is common due to high tectonic activies in the ocean. The architecture here is different from most other Dels world where it is built with tough wood and very thick sea animal skin. New buildings will stick out from the rest due to more vibrant color while the rest have their colors faded to white.`
 	spaceport `The spaceport is nothing more than a large concrete platfrom on top of the highest peak in the area with a wooden building next to it. Unlike other Dels tourism worlds it isn't as croweded, just enough to keep the area feels alive.`
 	outfitter "Dels Ammo"
 
