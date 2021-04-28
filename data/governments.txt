@@ -153,14 +153,14 @@ government "Dels Ufulre" #Seperatist fullname: Ufulre Qer
 		"Dels Kaote" -.1
 		"Dels" .1
 		
-government "Dels (Pirate)"
+government "Dels (Pirate)" #Deprecated 
 	swizzle 1
 	color .343 .89 .25
 	"player reputation" -10
 	"attitude toward"
 		"Wallagi" -.1
 		"Ultaka" -.01
-		"Revos" -.1
+		#"Revos" -.1
 		"Dels" -.1
 		
 government "Aumar"
@@ -228,7 +228,7 @@ government "Geeva"
 	color .73 .100 .0
 	"player reputation" 1
 	"attitude toward"
-		"Wallagi" .1
+		#"Wallagi" .1
 		"Dels" .1
 		"Revos" .1
 		"Kroom Kakaima" -.1
@@ -252,21 +252,21 @@ government "Kroom Kanai"
 	"attitude toward"
 		"Kroom Kakaima" -.1
 		
-government "Ignaggen"
+government "Ignaggen" #Ignaggen Merchant
 	swizzle 0
 	color .99 .42 .00
 	"player reputation" 1
 	"attitude toward"
-		"Wallagi" .1
+		#"Wallagi" .1
 		"Dels" .1
 		"Ignaggen(Outlaw)" -.1
 		
-government "Kager Ignaggen"
+government "Kager Ignaggen" #Ignaggen Guard
 	swizzle 0
 	color .99 .30 .40
 	"player reputation" 1
 	"attitude toward"
-		"Wallagi" .1
+		#"Wallagi" .1
 		"Dels" .1
 		"Ignaggen(Outlaw)" -.1
 		"Ignaggen" 1

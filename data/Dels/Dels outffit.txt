@@ -863,21 +863,33 @@ outfit "Dalsa Fusion Reactor"
 	category "Power"
 	cost 5500000
 	thumbnail "outfit/dels fusion big"
-	"mass" 100
-	"outfit space" -100
+	"mass" 110
+	"outfit space" -110
 	"energy generation" 20.2
-	"heat generation" 45
-	description "Dels's Fusion Reactor are a little more heat effecient and produce more energy than Human's Fusion Reactor."
+	"heat generation" 60
+	"operating costs" 100
+	description "Currently the most powerful fusion reactor the Dels have to offer. Due to it's extreme complexity the workers always complain when they have to deal with it."
 	
 outfit "Deela Fusion Reactor"
 	category "Power"
 	cost 2800000
-	thumbnail "outfit/fusion"
+	thumbnail "outfit/dels fusion small"
 	"mass" 50
 	"outfit space" -50
 	"energy generation" 9.7
-	"heat generation" 22.6
+	"heat generation" 34.6
 	description "Dels's small Fusion Reactor for smaller ships."
+	
+outfit "Kulter Generator"
+	category "Power"
+	cost 3000000
+	thumbnail "outfit/dels kulter generator"
+	"mass" 30
+	"outfit space" -30
+	"fuel energy" 9.6
+	"fuel heat" 46
+	"fuel consumption" .01
+	description "A small generator that use hyperspace fuel to generate energy(and heat)."
 	
 outfit "C10 Fuel Cell"
 	category "Power"
