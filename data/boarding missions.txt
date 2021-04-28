@@ -7,7 +7,7 @@ mission "Assisting Dels [0]"
 	source
 		government Dels
 	on offer
-		payment 10000
+		payment 1000
 		conversation
 			`When you repair the <origin>, the captain thanks you for your assistance and gives you <payment>.`
 				decline
