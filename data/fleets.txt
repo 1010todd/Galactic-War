@@ -473,31 +473,33 @@ fleet "Kroom Kanai"
 		"Grokva"
 		"Grakka" 2
 		
-fleet "Kager Military"
-	government "Kager Military"
-	names "Kager Military"
+fleet "Kager Ignaggen"
+	government "Kager Ignaggen"
+	names "Kager Ignaggen"
 	cargo 1
 	personality
 		confusion 20
 		heroic
 		frugal 
 		opportunistic
-		plunders
 	variant 5
 		"I'nos"
 		"Loerlen" 4
 	variant 10
 		"Loerlen" 2
-		"Gikeor" 3
+		"Koggareu" 3
 	variant 10
 		"I'nos"
-		"Gikeor" 4
+		"Koggareu" 4
 	variant 10
 		"Loerlen" 5
 	variant 5
 		"I'nos" 2
 	variant 15
-		"Gikeor" 5
+		"Koggareu" 5
+		
+		
+	
 		
 fleet "Ignaggen"
 	government "Ignaggen"
@@ -505,7 +507,6 @@ fleet "Ignaggen"
 	cargo 1
 	personality
 		confusion 40
-		heroic
 		frugal 
 		timid appeasing
 		plunders
@@ -540,7 +541,23 @@ fleet "Ignaggen"
 		"Gikeor" 20
 	variant 20
 		"Gikeor" 3
-		
+	variant 12
+		"Kamuel"
+	variant 10
+		"Kamuel" 2
+	variant 12
+		"Kamuel" 3
+		"Koggareu" 
+	variant 5
+		"Kamuel" 5
+		"Koggareu" 3
+	variant 12
+		"Kamuel"
+		"Koggareu"
+	variant 10
+		"Koggareu" 2
+		"Kina" 6
+	
 fleet "Ignaggen Outlaw"
 	government "Ignaggen(Outlaw)"
 	names "Ignaggen"
