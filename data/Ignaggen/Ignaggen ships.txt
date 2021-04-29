@@ -13,12 +13,13 @@
 #Kager Ignaggen
 ship "I'nos" #1st
 	sprite "ship/ignaggen inos"
+	thumbnail "thumbnail/ignaggen inos thumb"
 	licenses
 #		"Kager Lergen"
 	attributes
 		category "Heavy Warship"
 		"cost" 10000000
-		"shields" 23500
+		"shields" 13500
 		"hull" 12000
 		"required crew" 50
 		"bunks" 100
@@ -38,7 +39,7 @@ ship "I'nos" #1st
 	outfits
 		"Rakkrao Cannon" 2
 		"Igarsot Turret" 6
-		"Gikorel Anti-Missile" 3
+		"Gikorel Anti-Missile" 2
 		
 		"Orvuilugr Reactor"
 		"Kager Gekar Shield Generator"
@@ -48,68 +49,56 @@ ship "I'nos" #1st
 		"Rilen Steering"
 		"Hyperdrive"
 		
-	gun -34 -80 "Rakkrao Cannon"
-	gun 34 -80 "Rakkrao Cannon"
-	turret -79 -24.5 "Igarsot Turret"
-	turret 78 -26.5 "Igarsot Turret"
-	turret -86 21 "Igarsot Turret"
-	turret 85 18.5 "Igarsot Turret"
-	turret -85 75.5 "Igarsot Turret"
-	turret 83.5 71.5 "Igarsot Turret"
-	engine -30 154.5
-	engine 30 155.5
-	turret -33 -18 "Gikorel Anti-Missile"
-	turret 38.5 -15.5 "Gikorel Anti-Missile"
-	turret 0 136 "Gikorel Anti-Missile"
+	gun -46.5 -73.5
+	gun 46.5 -73.5
+	turret -33 -82
+	turret 33 -82
+	turret -30.5 -14.5 "Gikorel Anti-Missile"
+	turret 30.5 -14.5 "Gikorel Anti-Missile"
+	turret -62 18.5
+	turret 62 18.5
+	turret -63.5 105
+	turret 63.5 105
+	engine 0 137.5
+		zoom 1
+		angle 0
+		under
+	engine -14 131
+		zoom .3
+		angle 0
+		under
+	engine 14 131
+		zoom .3
+		angle 0
+		under
+	"steering engine" -42 -83.5
+		zoom .3
+		angle -90
+		under
+		right
+	"steering engine" 42 -83.5
+		zoom .3
+		angle 90
+		under
+		left
+	"steering engine" -8 137
+		zoom 1
+		angle -45
+		under
+		right
+	"steering engine" 8 137
+		zoom 1
+		angle 45
+		under
+		left
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "I'nos is the spearhead of the Ignaggen when exloring into new area. At least two dozens of them would be present in the expidition fleet when venturing into new systems maintaining security and safety of the rest of the fleet."
+	description "I'nos is the spearhead of the Ignaggen when exploring into new area. At least two dozens of them would be present in the expedition fleet when venturing into new systems maintaining security and safety of the rest of the fleet."
 
-#ship "Girral"
-#	sprite "ship/ignaggen girral"
-#	licenses
-#		"Kager Lergen"
-#	attributes
-#		category "Fighter"
-#		"cost" 93000
-#		"shields" 630
-#		"hull" 350
-#		"required crew" 1
-#		"bunks" 1
-#		"mass" 30
-#		"drag" .7
-#		"heat dissipation" .86
-#		"outfit space" 100
-#		"weapon capacity" 14
-#		"engine capacity" 30
-#		weapon
-#			"blast radius" 12
-#			"shield damage" 120
-#			"hull damage" 60
-#			"hit force" 180
-#	outfits
-#		"Kroom Blaster" 2
-#		"Krogak Missile Single" 2
-#		
-#		"M-4 Fuel Cell"
-#		"M-5 Battery Pack"
-#		"Keno Shield Generator"
-#		
-#		"Karmo Thruster"
-#		"Karmo Steering"
-#		
-#	gun -4 -33 "Kroom Blaster"
-#	gun 4 -33 "Kroom Blaster"
-#	gun -15.5 22.5 "Krogak Missile Single"
-#	gun 15.5 22.5 "Krogak Missile Single"
-#	engine 0 39.5
-#	explode "tiny explosion" 15
-#	explode "small explosion" 5
-#	description "
 
 ship "Loerlen" #2nd, used by civs
 	sprite "ship/ignaggen loerlen"
