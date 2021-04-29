@@ -8,19 +8,19 @@ galaxy "Milky Way"
 	sprite ui/galaxy
 
 galaxy "Galaxy 1"
-	pos 0 -4660.98
+	pos -50000.0 -54660.98
 	sprite ui/m83ed
 
 galaxy "Galaxy 2"
-	pos 6050.27 -8602.27
+	pos -43949.73 -58602.27
 	sprite ui/pinwheel
 
 galaxy "Galaxy 4"
-	pos 11591.2 -4126.01
+	pos -38408.8 -54126.01
 	sprite ui/galaxy4
 
 system Acoem
-	pos 5146.27 -8046.54
+	pos -44853.73 -58046.54
 	government Ultaka
 	habitable 425.92
 	link Fekkal
@@ -68,7 +68,7 @@ system Acoem
 			period 39.6557
 
 system Aecor
-	pos 4964.68 -7931.52
+	pos -45035.32 -57931.52
 	government Ultaka
 	habitable 1080
 	link Deolme
@@ -107,7 +107,7 @@ system Aecor
 		period 2255.48
 
 system Aeeduile
-	pos -1106.13 -4726.79
+	pos -51106.13 -54726.79
 	government Dels
 	habitable 8640
 	belt 1205
@@ -160,7 +160,7 @@ system Aeeduile
 			period 33.2917
 
 system Aekelo
-	pos 5216.82 -8148.93
+	pos -44783.18 -58148.93
 	government Ultaka
 	habitable 1080
 	link Aemno
@@ -192,7 +192,7 @@ system Aekelo
 		period 1183.08
 
 system Aelleo
-	pos -904.167 -4835.35
+	pos -50904.17 -54835.35
 	government Ignaggen
 	habitable 1111.68
 	belt 1219
@@ -266,7 +266,7 @@ system Aelleo
 			period 29.505
 
 system Aemno
-	pos 5273.27 -8138.54
+	pos -44726.73 -58138.54
 	government Ultaka
 	habitable 6080
 	link Aekelo
@@ -319,7 +319,7 @@ system Aemno
 		period 535.27
 
 system Aena
-	pos 4786.68 -8195.52
+	pos -45213.32 -58195.52
 	government Ultaka
 	habitable 5000
 	link Felmeo
@@ -376,7 +376,7 @@ system Aena
 			period 69.0096
 
 system Aeonma
-	pos 4785.2 -8285.1
+	pos -45214.8 -58285.1
 	government Ultaka
 	habitable 806.68
 	link Felmeo
@@ -425,7 +425,7 @@ system Aeonma
 			period 12.3542
 
 system Agaka
-	pos -2194.78 -6213.52
+	pos -52194.78 -56213.52
 	government Geeva
 	habitable 1250
 	belt 1593
@@ -496,7 +496,7 @@ system Agaka
 			period 13.9218
 
 system Aiborgu
-	pos -434.758 -5165.28
+	pos -50434.76 -55165.28
 	government Ignaggen
 	habitable 320
 	belt 1658
@@ -563,7 +563,7 @@ system Aiborgu
 			period 22.8792
 
 system Aili
-	pos -292.386 -5259.87
+	pos -50292.39 -55259.87
 	government Ignaggen
 	habitable 425.92
 	belt 1768
@@ -621,7 +621,7 @@ system Aili
 		offset 69.0111
 
 system Akaima
-	pos -757.99 -6666.31
+	pos -50757.99 -56666.31
 	government "Kroom Kanai"
 	habitable 4270
 	belt 1072
@@ -672,7 +672,7 @@ system Akaima
 			period 40.3458
 
 system Akmarlen
-	pos 5065.23 -8524.87
+	pos -44934.77 -58524.87
 	government Ultaka
 	habitable 486.68
 	link Larno
@@ -715,7 +715,7 @@ system Akmarlen
 		period 3035.48
 
 system Akogi
-	pos -567.048 -6302.95
+	pos -50567.05 -56302.95
 	government "Kroom Kanai"
 	habitable 625
 	belt 1524
@@ -759,7 +759,7 @@ system Akogi
 			period 17.8378
 
 system Alkurud
-	pos -1797.63 -5378.77
+	pos -51797.63 -55378.77
 	government Dels
 	habitable 233.28
 	belt 1906
@@ -822,7 +822,7 @@ system Alkurud
 			period 22.1385
 
 system Alrtar
-	pos -1170.61 -5151.52
+	pos -51170.61 -55151.52
 	government Dels
 	habitable 320
 	belt 1884
@@ -886,7 +886,7 @@ system Alrtar
 			period 26.5388
 
 system Altol
-	pos -1021.58 -4980.33
+	pos -51021.58 -54980.33
 	government Dels
 	habitable 1715
 	link Comar
@@ -951,7 +951,7 @@ system Altol
 			period 29.9581
 
 system Ano
-	pos -26.2426 -4945.56
+	pos -50026.24 -54945.56
 	government Revos
 	habitable 945
 	belt 1287
@@ -1009,7 +1009,7 @@ system Ano
 			period 32.4181
 
 system Aomaneg
-	pos -885.141 -5015.96
+	pos -50885.14 -55015.96
 	government Ignaggen
 	habitable 1250
 	belt 1122
@@ -1085,7 +1085,7 @@ system Aomaneg
 			period 14.517
 
 system Aorder
-	pos 5095.1 -8419.73
+	pos -44904.9 -58419.73
 	government Ultaka
 	habitable 1050.92
 	link Larno
@@ -1145,7 +1145,7 @@ system Aorder
 			period 22.9316
 
 system Aorlem
-	pos -549.969 -5085.78
+	pos -50549.97 -55085.78
 	government Ignaggen
 	habitable 1111.68
 	belt 1614
@@ -1212,7 +1212,7 @@ system Aorlem
 			period 12.5708
 
 system Aranle
-	pos 5331.46 -8717.32
+	pos -44668.54 -58717.32
 	government Ultaka
 	habitable 486.68
 	link Kenkerla
@@ -1269,7 +1269,7 @@ system Aranle
 			period 35.8735
 
 system Ardeedur
-	pos -1530.96 -4754.94
+	pos -51530.96 -54754.94
 	government Dels
 	habitable 625
 	belt 1303
@@ -1339,7 +1339,7 @@ system Ardeedur
 			period 67.2891
 
 system Aregolli
-	pos -677.707 -4780.86
+	pos -50677.71 -54780.86
 	government Ignaggen
 	habitable 233.28
 	belt 1587
@@ -1404,7 +1404,7 @@ system Aregolli
 			period 69.4986
 
 system Arema
-	pos -296.382 -5101.4
+	pos -50296.38 -55101.4
 	government Ignaggen
 	habitable 425.92
 	belt 1834
@@ -1466,7 +1466,7 @@ system Arema
 			period 27.2812
 
 system Aretu
-	pos -1262.23 -5474.61
+	pos -51262.23 -55474.61
 	government Dels
 	habitable 486.68
 	link Hintee
@@ -1521,7 +1521,7 @@ system Aretu
 			period 21.1965
 
 system Arger
-	pos -458.268 -5099.55
+	pos -50458.27 -55099.55
 	government Ignaggen
 	habitable 1080
 	belt 1403
@@ -1579,7 +1579,7 @@ system Arger
 			period 15.0894
 
 system Argornecai
-	pos 110.443 -5572.9
+	pos -49889.56 -55572.9
 	government Erader
 	habitable 320
 	link Nersaer
@@ -1637,7 +1637,7 @@ system Argornecai
 			period 12.3781
 
 system Atorka
-	pos 300.067 -5451.35
+	pos -49699.93 -55451.35
 	government Erader
 	habitable 1505.92
 	link Eraku
@@ -1696,7 +1696,7 @@ system Atorka
 		period 975.55
 
 system Atorma
-	pos 10.7985 -5695.93
+	pos -49989.2 -55695.93
 	government Erader
 	habitable 1111.68
 	link Murasai
@@ -1760,7 +1760,7 @@ system Atorma
 			period 28.2155
 
 system "Au Hall"
-	pos 575.093 -5034.19
+	pos -49424.91 -55034.19
 	government Aumar
 	habitable 486.68
 	link "Kal Seka"
@@ -1838,7 +1838,7 @@ system "Au Hall"
 			period 43.8113
 
 system Aulorain
-	pos -194.768 -7762.49
+	pos -50194.77 -57762.49
 	government Taroun
 	habitable 320
 	belt 1901
@@ -1885,7 +1885,7 @@ system Aulorain
 		period 1973.91
 
 system Bickorni
-	pos 173.98 -4301.83
+	pos -49826.02 -54301.83
 	government Uninhabitated
 	habitable 1715
 	belt 1394
@@ -1930,7 +1930,7 @@ system Bickorni
 			period 27.3514
 
 system Boklok
-	pos -1170.87 -5056.25
+	pos -51170.87 -55056.25
 	government Dels
 	habitable 486.68
 	link Cevert
@@ -1991,7 +1991,7 @@ system Boklok
 			period 25.612
 
 system Bovdar
-	pos -1411.92 -5626.78
+	pos -51411.92 -55626.78
 	government Dels
 	habitable 233.28
 	link Dukoree
@@ -2060,7 +2060,7 @@ system Bovdar
 			0
 
 system C1-1
-	pos 341.061 -4056.4
+	pos -49658.94 -54056.4
 	government Donko
 	habitable 2035
 	belt 1548
@@ -2117,7 +2117,7 @@ system C1-1
 			period 52.2709
 
 system C1-2
-	pos 378.606 -4005.32
+	pos -49621.39 -54005.32
 	government Donko
 	habitable 625
 	belt 1954
@@ -2169,7 +2169,7 @@ system C1-2
 			period 78.6181
 
 system C2-1
-	pos 282.006 -4068.31
+	pos -49717.99 -54068.31
 	government Donko
 	habitable 806.68
 	belt 1014
@@ -2225,7 +2225,7 @@ system C2-1
 			period 30.3293
 
 system C2-2
-	pos 328.793 -3985.87
+	pos -49671.21 -53985.87
 	government Donko
 	habitable 320
 	belt 1593
@@ -2270,7 +2270,7 @@ system C2-2
 			period 24.1326
 
 system C2-3
-	pos 351.439 -3909.15
+	pos -49648.56 -53909.15
 	government Donko
 	habitable 945
 	belt 1253
@@ -2338,7 +2338,7 @@ system C2-3
 			period 43.5909
 
 system C2-4
-	pos 431.345 -3967.56
+	pos -49568.65 -53967.56
 	government Donko
 	habitable 425.92
 	belt 1687
@@ -2386,7 +2386,7 @@ system C2-4
 			period 12.9419
 
 system C3-1
-	pos 319.731 -4125.18
+	pos -49680.27 -54125.18
 	government Donko
 	habitable 2372.76
 	belt 1697
@@ -2439,7 +2439,7 @@ system C3-1
 			period 22.1058
 
 system C3-2
-	pos 243.278 -4116.75
+	pos -49756.72 -54116.75
 	government Donko
 	habitable 1080
 	belt 1408
@@ -2500,7 +2500,7 @@ system C3-2
 			period 77.3043
 
 system C3-3
-	pos 214.111 -4064.15
+	pos -49785.89 -54064.15
 	government Donko
 	habitable 1111.68
 	belt 1051
@@ -2544,7 +2544,7 @@ system C3-3
 		period 978.618
 
 system C3-4
-	pos 252.111 -4012.15
+	pos -49747.89 -54012.15
 	government Donko
 	habitable 425.92
 	belt 1341
@@ -2599,7 +2599,7 @@ system C3-4
 			period 47.5761
 
 system C3-5
-	pos 389.313 -3890.33
+	pos -49610.69 -53890.33
 	government Donko
 	habitable 486.68
 	belt 1777
@@ -2642,7 +2642,7 @@ system C3-5
 			period 38.8364
 
 system C4-1
-	pos 332.111 -4204.15
+	pos -49667.89 -54204.15
 	government Donko
 	habitable 320
 	belt 1035
@@ -2690,7 +2690,7 @@ system C4-1
 			period 42.2887
 
 system C4-2
-	pos 257.111 -4214.15
+	pos -49742.89 -54214.15
 	government Donko
 	habitable 2160
 	belt 1804
@@ -2743,7 +2743,7 @@ system C4-2
 			period 21.9639
 
 system C4-3
-	pos 168.711 -4007.97
+	pos -49831.29 -54007.97
 	government Donko
 	habitable 3645
 	belt 1002
@@ -2799,7 +2799,7 @@ system C4-3
 			period 22.4007
 
 system C5-1
-	pos 366.078 -4272.86
+	pos -49633.92 -54272.86
 	government Donko
 	habitable 135
 	belt 1803
@@ -2841,7 +2841,7 @@ system C5-1
 			period 25.9621
 
 system C5-2
-	pos 281.367 -4287.43
+	pos -49718.63 -54287.43
 	government Donko
 	habitable 945
 	belt 1947
@@ -2883,7 +2883,7 @@ system C5-2
 		period 1082.64
 
 system C5-3
-	pos 102.243 -3963.54
+	pos -49897.76 -53963.54
 	government Donko
 	habitable 320
 	belt 1576
@@ -2939,7 +2939,7 @@ system C5-3
 			period 43.7745
 
 system Carmo
-	pos 5736.63 -8285.82
+	pos -44263.37 -58285.82
 	government Ultaka
 	habitable 486.68
 	link Kaor
@@ -2987,7 +2987,7 @@ system Carmo
 			period 40.377
 
 system Carsen
-	pos 5526.42 -8491.74
+	pos -44473.58 -58491.74
 	government Ultaka
 	habitable 425.92
 	link Cesno
@@ -3044,7 +3044,7 @@ system Carsen
 			period 46.9044
 
 system Cenex
-	pos -1673.56 -4811.56
+	pos -51673.56 -54811.56
 	government Dels
 	habitable 425.92
 	link Dopolk
@@ -3098,7 +3098,7 @@ system Cenex
 		offset 337.315
 
 system Ceoma
-	pos 5147.59 -8281.99
+	pos -44852.41 -58281.99
 	government Ultaka
 	habitable 745.92
 	link Heokos
@@ -3150,7 +3150,7 @@ system Ceoma
 			period 38.3618
 
 system Cesno
-	pos 5499.72 -8424.37
+	pos -44500.28 -58424.37
 	government Ultaka
 	habitable 760
 	link Carsen
@@ -3211,7 +3211,7 @@ system Cesno
 			period 17.4111
 
 system Cevert
-	pos -1236.14 -5012.1
+	pos -51236.14 -55012.1
 	government Dels
 	habitable 1080
 	link Boklok
@@ -3268,7 +3268,7 @@ system Cevert
 		offset 41.8056
 
 system Chaihai
-	pos -40.0204 -3798.83
+	pos -50040.02 -53798.83
 	government Uninhabitated
 	habitable 553.28
 	belt 1561
@@ -3332,7 +3332,7 @@ system Chaihai
 			period 41.8174
 
 system "Coai Mesoh'a"
-	pos 412.42 -4061.33
+	pos -49587.58 -54061.33
 	government Donko
 	habitable 1080
 	belt 1490
@@ -3380,7 +3380,7 @@ system "Coai Mesoh'a"
 			period 23.6656
 
 system Cocaonir
-	pos -1644.25 -4924.3
+	pos -51644.25 -54924.3
 	government Dels
 	habitable 1715
 	belt 1352
@@ -3450,7 +3450,7 @@ system Cocaonir
 			period 34.1982
 
 system Codelo
-	pos -1340.69 -5222.97
+	pos -51340.69 -55222.97
 	government Dels
 	habitable 625
 	link "Fee Lo"
@@ -3528,7 +3528,7 @@ system Codelo
 		0
 
 system Collak
-	pos -900.058 -5369.54
+	pos -50900.06 -55369.54
 	government Dels
 	habitable 1715
 	belt 1256
@@ -3587,7 +3587,7 @@ system Collak
 			period 22.4515
 
 system Colmo
-	pos -1642.15 -5545.08
+	pos -51642.15 -55545.08
 	government Dels
 	habitable 425.92
 	link "Dukor Nor"
@@ -3634,7 +3634,7 @@ system Colmo
 		period 1686.84
 
 system Comar
-	pos -1123.29 -4999.44
+	pos -51123.29 -54999.44
 	government Dels
 	habitable 320
 	belt 1637
@@ -3704,7 +3704,7 @@ system Comar
 			period 44.6859
 
 system Comlark
-	pos -1095.91 -5469.09
+	pos -51095.91 -55469.09
 	government Dels
 	habitable 320
 	belt 1335
@@ -3766,7 +3766,7 @@ system Comlark
 			period 21.7505
 
 system Cordurle
-	pos -1207.81 -4869.09
+	pos -51207.81 -54869.09
 	government Dels
 	habitable 425.92
 	belt 1644
@@ -3828,7 +3828,7 @@ system Cordurle
 			period 64.6161
 
 system Corduro
-	pos -1006.87 -4827.67
+	pos -51006.87 -54827.67
 	government Dels
 	habitable 2160
 	belt 1445
@@ -3890,7 +3890,7 @@ system Corduro
 			period 39.5343
 
 system Culdo
-	pos 764.951 -7392.22
+	pos -49235.05 -57392.22
 	government Revos
 	habitable 1715
 	belt 1375
@@ -3931,7 +3931,7 @@ system Culdo
 		period 1431.24
 
 system Cuvorai
-	pos -866.499 -5595.5
+	pos -50866.5 -55595.5
 	government Dels
 	habitable 425.92
 	belt 1957
@@ -3989,7 +3989,7 @@ system Cuvorai
 			period 35.2113
 
 system "Cuzi no"
-	pos -12.0204 -4110.83
+	pos -50012.02 -54110.83
 	government Uninhabitated
 	habitable 3645
 	belt 1381
@@ -4031,7 +4031,7 @@ system "Cuzi no"
 		period 997.603
 
 system "D1 A"
-	pos 620.771 -4325.35
+	pos -49379.23 -54325.35
 	government Donko
 	habitable 425.92
 	belt 1790
@@ -4093,7 +4093,7 @@ system "D1 A"
 			period 25.9621
 
 system "D1 B2"
-	pos 710.771 -4363.35
+	pos -49289.23 -54363.35
 	government Donko
 	habitable 320
 	belt 1298
@@ -4144,7 +4144,7 @@ system "D1 B2"
 			period 15.6075
 
 system "D2 A"
-	pos 590.771 -4389.35
+	pos -49409.23 -54389.35
 	government Donko
 	habitable 486.68
 	belt 1073
@@ -4198,7 +4198,7 @@ system "D2 A"
 			period 51.1885
 
 system "D2 B"
-	pos 654.771 -4412.35
+	pos -49345.23 -54412.35
 	government Donko
 	habitable 1080
 	belt 1505
@@ -4245,7 +4245,7 @@ system "D2 B"
 		offset 30.1347
 
 system "D3 A1"
-	pos 519.771 -4411.35
+	pos -49480.23 -54411.35
 	government Donko
 	habitable 2795
 	belt 1276
@@ -4299,7 +4299,7 @@ system "D3 A1"
 			period 21.5287
 
 system "D3 A2"
-	pos 516.771 -4346.35
+	pos -49483.23 -54346.35
 	government Donko
 	habitable 425.92
 	belt 1921
@@ -4346,7 +4346,7 @@ system "D3 A2"
 			period 26.252
 
 system "D3 B"
-	pos 680.771 -4465.35
+	pos -49319.23 -54465.35
 	government Donko
 	habitable 320
 	belt 1774
@@ -4426,7 +4426,7 @@ system "D3 B"
 			period 38.0071
 
 system "D4 A1"
-	pos 435.771 -4451.35
+	pos -49564.23 -54451.35
 	government Donko
 	habitable 135
 	belt 1828
@@ -4479,7 +4479,7 @@ system "D4 A1"
 			period 21.5942
 
 system "D4 A2"
-	pos 455.771 -4377.35
+	pos -49544.23 -54377.35
 	government Donko
 	habitable 233.28
 	belt 1217
@@ -4531,7 +4531,7 @@ system "D4 A2"
 			period 28.4563
 
 system "D4 A3"
-	pos 415.398 -4342.04
+	pos -49584.6 -54342.04
 	government Donko
 	habitable 1715
 	belt 1346
@@ -4574,7 +4574,7 @@ system "D4 A3"
 			period 27.1812
 
 system "D4 A4"
-	pos 470.398 -4296.04
+	pos -49529.6 -54296.04
 	government Donko
 	habitable 4131.68
 	belt 1308
@@ -4641,7 +4641,7 @@ system "D4 A4"
 			period 18.6229
 
 system "D4 B1"
-	pos 735.398 -4510.04
+	pos -49264.6 -54510.04
 	government Donko
 	habitable 425.92
 	belt 1306
@@ -4694,7 +4694,7 @@ system "D4 B1"
 			period 15.7904
 
 system "D4 B2"
-	pos 742.398 -4429.04
+	pos -49257.6 -54429.04
 	government Donko
 	habitable 625
 	belt 1184
@@ -4743,7 +4743,7 @@ system "D4 B2"
 			period 24.6576
 
 system "D5 B1"
-	pos 771.211 -4585.82
+	pos -49228.79 -54585.82
 	government Donko
 	habitable 1566.68
 	belt 1446
@@ -4791,7 +4791,7 @@ system "D5 B1"
 		period 881.203
 
 system "D5 B2"
-	pos 817.211 -4538.82
+	pos -49182.79 -54538.82
 	government Donko
 	habitable 625
 	belt 1659
@@ -4849,7 +4849,7 @@ system "D5 B2"
 			period 22.5463
 
 system "D5 B3"
-	pos 835.482 -4439.94
+	pos -49164.52 -54439.94
 	government Donko
 	habitable 1215
 	belt 1156
@@ -4905,7 +4905,7 @@ system "D5 B3"
 			period 14.571
 
 system "Dakai Eor'en"
-	pos 433.398 -4246.04
+	pos -49566.6 -54246.04
 	government Donko
 	habitable 2372.76
 	belt 1658
@@ -4961,7 +4961,7 @@ system "Dakai Eor'en"
 		period 1166.28
 
 system Dalumone
-	pos -968.798 -4643.59
+	pos -50968.8 -54643.59
 	government Dels
 	habitable 1080
 	belt 1464
@@ -5016,7 +5016,7 @@ system Dalumone
 			period 21.2827
 
 system Damma
-	pos 5340.27 -8147.36
+	pos -44659.73 -58147.36
 	government Ultaka
 	habitable 5000
 	link Aemno
@@ -5063,7 +5063,7 @@ system Damma
 			period 15.304
 
 system Damor
-	pos 5658.44 -7919.05
+	pos -44341.56 -57919.05
 	government Ultaka
 	habitable 135
 	link Kempar
@@ -5100,7 +5100,7 @@ system Damor
 		period 2986.69
 
 system Daona
-	pos 5455.27 -7913.36
+	pos -44544.73 -57913.36
 	government Ultaka
 	habitable 1715
 	link Deannen
@@ -5139,7 +5139,7 @@ system Daona
 		period 1847.68
 
 system Dardine
-	pos -1704.24 -5369.46
+	pos -51704.24 -55369.46
 	government Dels
 	habitable 320
 	belt 1810
@@ -5201,7 +5201,7 @@ system Dardine
 			period 32.7014
 
 system Darsen
-	pos 5665.63 -8178.82
+	pos -44334.37 -58178.82
 	government Ultaka
 	habitable 233.28
 	link Kargen
@@ -5240,7 +5240,7 @@ system Darsen
 			period 13.7395
 
 system Deannen
-	pos 5379.66 -7951.44
+	pos -44620.34 -57951.44
 	government Ultaka
 	habitable 2160
 	link Daona
@@ -5290,7 +5290,7 @@ system Deannen
 			period 37.1794
 
 system Deaonudor
-	pos -1304.54 -4905.78
+	pos -51304.54 -54905.78
 	government Dels
 	habitable 486.68
 	belt 1705
@@ -5352,7 +5352,7 @@ system Deaonudor
 			period 12.8739
 
 system Deefolks
-	pos -981.13 -4935.54
+	pos -50981.13 -54935.54
 	government Dels
 	habitable 425.92
 	link Altol
@@ -5424,7 +5424,7 @@ system Deefolks
 		0
 
 system Deekurti
-	pos -2040.83 -4774.84
+	pos -52040.83 -54774.84
 	government Dels
 	habitable 2372.76
 	belt 1819
@@ -5488,7 +5488,7 @@ system Deekurti
 			period 33.0001
 
 system Deepla
-	pos -1818.63 -4952.72
+	pos -51818.63 -54952.72
 	government Dels
 	habitable 320
 	belt 1671
@@ -5543,7 +5543,7 @@ system Deepla
 			period 50.12
 
 system Delelaur
-	pos -1378.32 -5463.7
+	pos -51378.32 -55463.7
 	government Dels
 	habitable 1715
 	link Delona
@@ -5608,7 +5608,7 @@ system Delelaur
 			period 15.8538
 
 system Deloco
-	pos -1456.7 -5223.32
+	pos -51456.7 -55223.32
 	government Dels
 	habitable 625
 	link "Fee Lo"
@@ -5662,7 +5662,7 @@ system Deloco
 			period 27.1403
 
 system Delona
-	pos -1385.9 -5408.84
+	pos -51385.9 -55408.84
 	government Dels
 	habitable 425.92
 	link Delelaur
@@ -5739,7 +5739,7 @@ system Delona
 			0
 
 system Deloop
-	pos -1592.34 -5632.36
+	pos -51592.34 -55632.36
 	government Dels
 	habitable 320
 	belt 1577
@@ -5794,7 +5794,7 @@ system Deloop
 			0
 
 system Delur
-	pos 882.356 -5796.7
+	pos -49117.64 -55796.7
 	government Revos
 	habitable 486.68
 	belt 1347
@@ -5846,7 +5846,7 @@ system Delur
 			period 27.8245
 
 system Deolme
-	pos 4870.68 -7968.52
+	pos -45129.32 -57968.52
 	government Ultaka
 	habitable 135
 	link Aecor
@@ -5891,7 +5891,7 @@ system Deolme
 		period 5832.86
 
 system Deonlar
-	pos 5481.93 -8551.49
+	pos -44518.07 -58551.49
 	government Ultaka
 	habitable 625
 	link Carsen
@@ -5941,7 +5941,7 @@ system Deonlar
 			period 13.6725
 
 system Deonlen
-	pos 5098.68 -7924.52
+	pos -44901.32 -57924.52
 	government Ultaka
 	habitable 1080
 	link Haeno
@@ -5995,7 +5995,7 @@ system Deonlen
 			period 31.72
 
 system "Der Gaz"
-	pos -2483.79 -6021.51
+	pos -52483.79 -56021.51
 	government ZIS
 	habitable 1505.92
 	link Romor
@@ -6016,7 +6016,7 @@ system "Der Gaz"
 		offset 180
 
 system Derkeevo
-	pos -1409.91 -4732.69
+	pos -51409.91 -54732.69
 	government Dels
 	habitable 425.92
 	belt 1105
@@ -6071,7 +6071,7 @@ system Derkeevo
 		offset 137.36
 
 system Deroen
-	pos 5362.94 -7998.06
+	pos -44637.06 -57998.06
 	government Ultaka
 	habitable 320
 	link Heol
@@ -6121,7 +6121,7 @@ system Deroen
 			period 18.5486
 
 system Desloen
-	pos 5277.63 -8312.82
+	pos -44722.37 -58312.82
 	government Ultaka
 	habitable 425.92
 	link Harmal
@@ -6172,7 +6172,7 @@ system Desloen
 			period 36.8198
 
 system Deunorle
-	pos -1600.02 -4697.71
+	pos -51600.02 -54697.71
 	government Dels
 	habitable 625
 	belt 1727
@@ -6227,7 +6227,7 @@ system Deunorle
 			period 33.3968
 
 system Deuqou
-	pos -1844.24 -5331.46
+	pos -51844.24 -55331.46
 	government Dels
 	habitable 3965
 	belt 1854
@@ -6298,7 +6298,7 @@ system Deuqou
 			period 45.755
 
 system Deurvuk
-	pos -1949.73 -4784.36
+	pos -51949.73 -54784.36
 	government Dels
 	habitable 1715
 	belt 1621
@@ -6365,7 +6365,7 @@ system Deurvuk
 			period 40.4222
 
 system Dodene
-	pos 5102.44 -8633.11
+	pos -44897.56 -58633.11
 	government Ultaka
 	habitable 486.68
 	link Kerso
@@ -6414,7 +6414,7 @@ system Dodene
 			period 33.6679
 
 system Dofolk
-	pos -1900.83 -4958.52
+	pos -51900.83 -54958.52
 	government Dels
 	habitable 425.92
 	belt 1236
@@ -6488,7 +6488,7 @@ system Dofolk
 			period 37.1143
 
 system Dolker
-	pos 332.223 -4388.51
+	pos -49667.78 -54388.51
 	government Revos
 	habitable 425.92
 	belt 1578
@@ -6541,7 +6541,7 @@ system Dolker
 			period 12.909
 
 system Dolmoriwakla
-	pos -2256.88 -5403.77
+	pos -52256.88 -55403.77
 	government "Dels (Pirate)"
 	habitable 486.68
 	belt 1045
@@ -6600,7 +6600,7 @@ system Dolmoriwakla
 			period 45.7132
 
 system Dopolk
-	pos -1638.92 -4870.82
+	pos -51638.92 -54870.82
 	government Dels
 	habitable 320
 	link Cenex
@@ -6658,7 +6658,7 @@ system Dopolk
 		period 4448.22
 
 system "Dorai Nowoku"
-	pos 681.771 -4304.35
+	pos -49318.23 -54304.35
 	government Donko
 	habitable 486.68
 	belt 1916
@@ -6706,7 +6706,7 @@ system "Dorai Nowoku"
 			period 42.1632
 
 system Dorvulmer
-	pos -116.391 -5351.28
+	pos -50116.39 -55351.28
 	government Ignaggen
 	habitable 425.92
 	belt 1282
@@ -6770,7 +6770,7 @@ system Dorvulmer
 			period 50.3574
 
 system Dreevu
-	pos -950.303 -5324.69
+	pos -50950.3 -55324.69
 	government Dels
 	habitable 851.84
 	belt 1759
@@ -6831,7 +6831,7 @@ system Dreevu
 			period 28.8793
 
 system Duanaoui
-	pos -1107.23 -5311.52
+	pos -51107.23 -55311.52
 	government Dels
 	habitable 233.28
 	belt 1239
@@ -6890,7 +6890,7 @@ system Duanaoui
 			period 30.654
 
 system Dueeneo
-	pos -1809.69 -5165
+	pos -51809.69 -55165.0
 	government Dels
 	habitable 1715
 	belt 1144
@@ -6946,7 +6946,7 @@ system Dueeneo
 			period 50.477
 
 system Dueodar
-	pos -147.517 -7812.43
+	pos -50147.52 -57812.43
 	government Taroun
 	habitable 1050.92
 	belt 1008
@@ -7012,7 +7012,7 @@ system Dueodar
 			period 28.4527
 
 system "Dukor Nor"
-	pos -1680.24 -5459.46
+	pos -51680.24 -55459.46
 	government Dels
 	habitable 1111.68
 	belt 1552
@@ -7084,7 +7084,7 @@ system "Dukor Nor"
 			period 50.1596
 
 system Dukoree
-	pos -1358.4 -5696.81
+	pos -51358.4 -55696.81
 	government Dels
 	habitable 1080
 	belt 1243
@@ -7138,7 +7138,7 @@ system Dukoree
 		period 1279.36
 
 system Dularvo
-	pos -611.255 -4722.34
+	pos -50611.25 -54722.34
 	government Ignaggen(Outlaw)
 	habitable 2340
 	belt 1410
@@ -7202,7 +7202,7 @@ system Dularvo
 			period 18.3265
 
 system Dulvurka
-	pos -1426.35 -5363.09
+	pos -51426.35 -55363.09
 	government Dels
 	habitable 3430
 	belt 1145
@@ -7264,7 +7264,7 @@ system Dulvurka
 		period 786.98
 
 system Duraai
-	pos -1629.11 -4986.69
+	pos -51629.11 -54986.69
 	government Dels
 	habitable 806.68
 	link Cocaonir
@@ -7345,7 +7345,7 @@ system Duraai
 			0
 
 system Durdan
-	pos -2263.8 -4780.26
+	pos -52263.8 -54780.26
 	government Dels
 	habitable 625
 	belt 1850
@@ -7411,7 +7411,7 @@ system Durdan
 			period 33.0604
 
 system Dureede
-	pos -1266.59 -5335.7
+	pos -51266.59 -55335.7
 	government Dels
 	habitable 912.6
 	belt 1508
@@ -7484,7 +7484,7 @@ system Dureede
 			period 34.9429
 
 system Durkul
-	pos 675.772 -5536.56
+	pos -49324.23 -55536.56
 	government Revos
 	habitable 745.92
 	belt 1645
@@ -7548,7 +7548,7 @@ system Durkul
 			period 13.7675
 
 system Duvuldorra
-	pos -762.462 -5021.06
+	pos -50762.46 -55021.06
 	government Ignaggen
 	habitable 1080
 	belt 1519
@@ -7598,7 +7598,7 @@ system Duvuldorra
 			period 20.4812
 
 system EY-454598
-	pos -2847.35 -6112.05
+	pos -52847.35 -56112.05
 	government ZIS
 	habitable 1111.68
 	belt 1188
@@ -7658,7 +7658,7 @@ system EY-454598
 			period 23.094
 
 system EY-455298
-	pos -2885.35 -5960.05
+	pos -52885.35 -55960.05
 	government ZIS
 	habitable 1505.92
 	belt 1970
@@ -7718,7 +7718,7 @@ system EY-455298
 			period 19.9
 
 system EY-455300
-	pos -2920.11 -5942.1
+	pos -52920.11 -55942.1
 	government ZIS
 	habitable 486.68
 	belt 1020
@@ -7763,7 +7763,7 @@ system EY-455300
 			period 15.14
 
 system EY-455322
-	pos -2807.48 -6096.03
+	pos -52807.48 -56096.03
 	government ZIS
 	habitable 1215
 	belt 1250
@@ -7822,7 +7822,7 @@ system EY-455322
 			period 31.9863
 
 system EY-455324
-	pos -2937.52 -6074.76
+	pos -52937.52 -56074.76
 	government ZIS
 	habitable 625
 	belt 1212
@@ -7890,7 +7890,7 @@ system EY-455324
 			period 14.7955
 
 system EY-455420
-	pos -2967.71 -5967.98
+	pos -52967.71 -55967.98
 	government ZIS
 	habitable 135
 	belt 1667
@@ -7952,7 +7952,7 @@ system EY-455420
 			period 43.6177
 
 system EY-455440
-	pos -2979.02 -6004.15
+	pos -52979.02 -56004.15
 	government ZIS
 	habitable 486.68
 	belt 1212
@@ -8014,7 +8014,7 @@ system EY-455440
 			period 20.5002
 
 system EY-456324
-	pos -2972.02 -6042.15
+	pos -52972.02 -56042.15
 	government ZIS
 	habitable 560.92
 	belt 1117
@@ -8075,7 +8075,7 @@ system EY-456324
 			period 22.6456
 
 system EY-465523
-	pos -2857.35 -5888.05
+	pos -52857.35 -55888.05
 	government ZIS
 	habitable 320
 	belt 1577
@@ -8140,7 +8140,7 @@ system EY-465523
 			period 17.1569
 
 system EY-465545
-	pos -2826.35 -5866.05
+	pos -52826.35 -55866.05
 	government ZIS
 	habitable 2795
 	belt 1195
@@ -8199,7 +8199,7 @@ system EY-465545
 		period 732.639
 
 system EY-465984
-	pos -2878.35 -5914.05
+	pos -52878.35 -55914.05
 	government ZIS
 	habitable 1400
 	belt 1112
@@ -8254,7 +8254,7 @@ system EY-465984
 			period 24.7393
 
 system Easterla
-	pos 190.611 -5843.95
+	pos -49809.39 -55843.95
 	government Erader
 	habitable 1215
 	link Lermellan
@@ -8314,7 +8314,7 @@ system Easterla
 		period 1009.44
 
 system Edarmido
-	pos -790.744 -5617.59
+	pos -50790.74 -55617.59
 	government Dels
 	habitable 320
 	belt 1757
@@ -8372,7 +8372,7 @@ system Edarmido
 			period 37.6977
 
 system Eedoruna
-	pos -1724.26 -5188.94
+	pos -51724.26 -55188.94
 	government Dels
 	habitable 745.92
 	belt 1593
@@ -8439,7 +8439,7 @@ system Eedoruna
 			period 35.0314
 
 system "Eevil Or"
-	pos -43.0914 -5386.53
+	pos -50043.09 -55386.53
 	government Ignaggen
 	habitable 233.28
 	belt 1455
@@ -8495,7 +8495,7 @@ system "Eevil Or"
 			period 12.9242
 
 system Eicegu
-	pos -628.899 -5267.31
+	pos -50628.9 -55267.31
 	government Ignaggen
 	habitable 1080
 	belt 1223
@@ -8551,7 +8551,7 @@ system Eicegu
 			period 91.4915
 
 system Eider
-	pos 117.611 -4602.38
+	pos -49882.39 -54602.38
 	government Revos
 	habitable 1705
 	belt 1305
@@ -8601,7 +8601,7 @@ system Eider
 		period 1061.47
 
 system Eiekdarmor
-	pos -939.73 -5258.62
+	pos -50939.73 -55258.62
 	government Dels
 	habitable 486.68
 	belt 1825
@@ -8664,7 +8664,7 @@ system Eiekdarmor
 			period 41.5456
 
 system Eilmer
-	pos 4629.94 -8404.27
+	pos -45370.06 -58404.27
 	government Erm
 	habitable 233.28
 	link Jelver
@@ -8713,7 +8713,7 @@ system Eilmer
 			period 32.3261
 
 system Eldrra
-	pos -606.269 -4904.64
+	pos -50606.27 -54904.64
 	government Ignaggen
 	habitable 553.28
 	belt 1406
@@ -8779,7 +8779,7 @@ system Eldrra
 		period 1641.65
 
 system Elnio
-	pos 5642.63 -8370.82
+	pos -44357.37 -58370.82
 	government Ultaka
 	habitable 1505.92
 	link Ferleo
@@ -8833,7 +8833,7 @@ system Elnio
 			period 18.3607
 
 system Elnorha
-	pos -2194.63 -4872.76
+	pos -52194.63 -54872.76
 	government Dels
 	habitable 625
 	belt 1763
@@ -8890,7 +8890,7 @@ system Elnorha
 			period 65.3197
 
 system Elormunel
-	pos -395.295 -5230.13
+	pos -50395.29 -55230.13
 	government Ignaggen
 	habitable 625
 	belt 1428
@@ -8957,7 +8957,7 @@ system Elormunel
 			period 78.627
 
 system Elronu
-	pos -1538.22 -5069.83
+	pos -51538.22 -55069.83
 	government Dels
 	habitable 320
 	belt 1168
@@ -9025,7 +9025,7 @@ system Elronu
 			period 71.8706
 
 system Eraku
-	pos 283.219 -5364.29
+	pos -49716.78 -55364.29
 	government Erader
 	habitable 486.68
 	link Atorka
@@ -9078,7 +9078,7 @@ system Eraku
 			period 53.1218
 
 system Erdorina
-	pos -555.69 -4897.97
+	pos -50555.69 -54897.97
 	government Ignaggen
 	habitable 2035
 	belt 1664
@@ -9137,7 +9137,7 @@ system Erdorina
 			period 14.2309
 
 system Eribai
-	pos -381.503 -5123.72
+	pos -50381.5 -55123.72
 	government Ignaggen
 	habitable 625
 	belt 1381
@@ -9204,7 +9204,7 @@ system Eribai
 		offset 28.1855
 
 system Erkma
-	pos 4692.7 -8288.39
+	pos -45307.3 -58288.39
 	government Resmakia
 	habitable 553.28
 	link Felmeo
@@ -9280,7 +9280,7 @@ system Erkma
 			0
 
 system Ernauor
-	pos -1078.5 -5365.57
+	pos -51078.5 -55365.57
 	government Dels
 	habitable 135
 	belt 1652
@@ -9337,7 +9337,7 @@ system Ernauor
 			period 28.8527
 
 system Eruaine
-	pos -777.97 -5385.14
+	pos -50777.97 -55385.14
 	government Dels
 	habitable 2160
 	belt 1663
@@ -9387,7 +9387,7 @@ system Eruaine
 		period 962.254
 
 system Erwal
-	pos -699.466 -4921.6
+	pos -50699.47 -54921.6
 	government Ignaggen
 	habitable 486.68
 	belt 1494
@@ -9450,7 +9450,7 @@ system Erwal
 			period 35.3177
 
 system Eudarvo
-	pos -866.274 -5314.95
+	pos -50866.27 -55314.95
 	government Dels
 	habitable 320
 	belt 1966
@@ -9506,7 +9506,7 @@ system Eudarvo
 			period 57.2149
 
 system Eududekor
-	pos -1928.29 -5221.82
+	pos -51928.29 -55221.82
 	government Dels
 	habitable 973.36
 	belt 1083
@@ -9575,7 +9575,7 @@ system Eududekor
 			period 26.0401
 
 system Eundo
-	pos 241.223 -4441.51
+	pos -49758.78 -54441.51
 	government Revos
 	habitable 425.92
 	belt 1987
@@ -9628,7 +9628,7 @@ system Eundo
 			period 15.4265
 
 system Fakeo
-	pos 5319.82 -8201.93
+	pos -44680.18 -58201.93
 	government Ultaka
 	habitable 233.28
 	link Aemno
@@ -9684,7 +9684,7 @@ system Fakeo
 			period 30.876
 
 system Faklad
-	pos 5617.08 -8047.25
+	pos -44382.92 -58047.25
 	government Ultaka
 	habitable 760
 	link Kempar
@@ -9732,7 +9732,7 @@ system Faklad
 		period 3130.17
 
 system Falmo
-	pos 5488.27 -8121.36
+	pos -44511.73 -58121.36
 	government Ultaka
 	habitable 466.56
 	link Fealod
@@ -9783,7 +9783,7 @@ system Falmo
 			period 14.517
 
 system Falna
-	pos 5369.63 -8328.82
+	pos -44630.37 -58328.82
 	government Ultaka
 	habitable 1715
 	link Haino
@@ -9820,7 +9820,7 @@ system Falna
 			period 12.8576
 
 system Faode
-	pos 4679.2 -8203.1
+	pos -45320.8 -58203.1
 	government Ultaka
 	habitable 233.28
 	link Felmeo
@@ -9854,7 +9854,7 @@ system Faode
 			period 23.1739
 
 system Fealod
-	pos 5416.27 -8166.36
+	pos -44583.73 -58166.36
 	government Ultaka
 	habitable 233.28
 	link Falmo
@@ -9895,7 +9895,7 @@ system Fealod
 			period 14.2233
 
 system Fedloe
-	pos 4886.68 -8118.52
+	pos -45113.32 -58118.52
 	government Ultaka
 	habitable 1715
 	link Heosli
@@ -9939,7 +9939,7 @@ system Fedloe
 			period 29.1916
 
 system "Fee Jo"
-	pos -1296.89 -5067.17
+	pos -51296.89 -55067.17
 	government Dels
 	habitable 553.28
 	link Cevert
@@ -10001,7 +10001,7 @@ system "Fee Jo"
 			period 28.045
 
 system "Fee Lo"
-	pos -1423.61 -5177.93
+	pos -51423.61 -55177.93
 	government Dels
 	habitable 233.28
 	link Codelo
@@ -10063,7 +10063,7 @@ system "Fee Lo"
 			0
 
 system "Fee Ro"
-	pos -1980.59 -4860.41
+	pos -51980.59 -54860.41
 	government Dels
 	habitable 625
 	belt 1983
@@ -10127,7 +10127,7 @@ system "Fee Ro"
 			period 13.4719
 
 system Feelov
-	pos -1376.68 -5510.72
+	pos -51376.68 -55510.72
 	government Dels
 	habitable 1505.92
 	link Delelaur
@@ -10202,7 +10202,7 @@ system Feelov
 			period 60.3179
 
 system Feeroko
-	pos -1122.48 -4953.48
+	pos -51122.48 -54953.48
 	government Dels
 	habitable 625
 	link Comar
@@ -10272,7 +10272,7 @@ system Feeroko
 		0
 
 system Fekkal
-	pos 5200.27 -8026.36
+	pos -44799.73 -58026.36
 	government Ultaka
 	habitable 625
 	link Acoem
@@ -10317,7 +10317,7 @@ system Fekkal
 		period 1839.22
 
 system Fellan
-	pos -917.825 -4767.69
+	pos -50917.82 -54767.69
 	government Ignaggen
 	habitable 486.68
 	belt 1926
@@ -10370,7 +10370,7 @@ system Fellan
 			period 40.6901
 
 system Felmeo
-	pos 4746.2 -8229.1
+	pos -45253.8 -58229.1
 	government Ultaka
 	habitable 425.92
 	link Aena
@@ -10431,7 +10431,7 @@ system Felmeo
 			period 48.6294
 
 system Feoceor
-	pos 4743.2 -8084.1
+	pos -45256.8 -58084.1
 	government Ultaka
 	habitable 1715
 	link Keoca
@@ -10478,7 +10478,7 @@ system Feoceor
 			period 38.7247
 
 system Feod
-	pos 5317.66 -7965.44
+	pos -44682.34 -57965.44
 	government Ultaka
 	habitable 659.2
 	link Deannen
@@ -10521,7 +10521,7 @@ system Feod
 			period 14.198
 
 system Feodle
-	pos -737.671 -5174.33
+	pos -50737.67 -55174.33
 	government Ignaggen
 	habitable 233.28
 	belt 1418
@@ -10584,7 +10584,7 @@ system Feodle
 		period 4062.48
 
 system Feodler
-	pos 5005.68 -7971.52
+	pos -44994.32 -57971.52
 	government Ultaka
 	habitable 1080
 	link Aecor
@@ -10629,7 +10629,7 @@ system Feodler
 			period 40.9757
 
 system Ferko
-	pos 5256.27 -7994.36
+	pos -44743.73 -57994.36
 	government Ultaka
 	habitable 486.68
 	link Fekkal
@@ -10665,7 +10665,7 @@ system Ferko
 		period 2137.24
 
 system Ferlan
-	pos 5223.86 -8495.56
+	pos -44776.14 -58495.56
 	government Ultaka
 	habitable 425.92
 	link Haleon
@@ -10721,7 +10721,7 @@ system Ferlan
 			period 28.9905
 
 system Ferleo
-	pos 5540.63 -8369.82
+	pos -44459.37 -58369.82
 	government Ultaka
 	habitable 320
 	link Cesno
@@ -10766,7 +10766,7 @@ system Ferleo
 			period 25.2335
 
 system Ferrilen
-	pos 4970.64 -9262.26
+	pos -45029.36 -59262.26
 	government Krinek
 	habitable 1566.68
 	link Keikas
@@ -10824,7 +10824,7 @@ system Ferrilen
 			period 78.41
 
 system Fersin
-	pos 5206.01 -8959.57
+	pos -44793.99 -58959.57
 	government Krinek
 	habitable 2140.92
 	link Kersi
@@ -10877,7 +10877,7 @@ system Fersin
 			period 36.2543
 
 system Fielos
-	pos -704.747 -5093.87
+	pos -50704.75 -55093.87
 	government Ignaggen
 	habitable 625
 	belt 1182
@@ -10943,7 +10943,7 @@ system Fielos
 			period 52.4407
 
 system Fienel
-	pos -475.008 -5310.54
+	pos -50475.01 -55310.54
 	government Ignaggen
 	habitable 320
 	belt 1820
@@ -11020,7 +11020,7 @@ system Fienel
 			period 58.3219
 
 system Fiiktar
-	pos -2544.09 -5798.27
+	pos -52544.09 -55798.27
 	government Geeva
 	habitable 320
 	belt 1991
@@ -11066,7 +11066,7 @@ system Fiiktar
 			period 12.8761
 
 system Filneiva
-	pos -2281.16 -5741.88
+	pos -52281.16 -55741.88
 	government Geeva
 	habitable 486.68
 	belt 1126
@@ -11126,7 +11126,7 @@ system Filneiva
 			period 36.5122
 
 system Finan
-	pos -413.933 -5289.15
+	pos -50413.93 -55289.15
 	government Ignaggen
 	habitable 5000
 	belt 1547
@@ -11187,7 +11187,7 @@ system Finan
 			period 10.9565
 
 system Finar
-	pos 5211.55 -9352.46
+	pos -44788.45 -59352.46
 	government Krinek
 	habitable 745.92
 	link Kerlin
@@ -11233,7 +11233,7 @@ system Finar
 			period 13.5629
 
 system Fines
-	pos -885.822 -4702.52
+	pos -50885.82 -54702.52
 	government Ignaggen
 	habitable 233.28
 	belt 1049
@@ -11296,7 +11296,7 @@ system Fines
 			period 25.2156
 
 system Flama
-	pos -2249.24 -6142.05
+	pos -52249.24 -56142.05
 	government Geeva
 	habitable 1111.68
 	belt 1879
@@ -11345,7 +11345,7 @@ system Flama
 			period 11.3047
 
 system Flokkold
-	pos 5354.27 -7894.36
+	pos -44645.73 -57894.36
 	government Ultaka
 	habitable 806.68
 	link Daona
@@ -11414,7 +11414,7 @@ system Flokkold
 			period 55.5222
 
 system Foklo
-	pos 592.562 -5467.48
+	pos -49407.44 -55467.48
 	government Revos
 	habitable 425.92
 	belt 1346
@@ -11466,7 +11466,7 @@ system Foklo
 			period 41.3874
 
 system Fosme
-	pos -671.161 -5008.19
+	pos -50671.16 -55008.19
 	government Ignaggen
 	habitable 945
 	belt 1348
@@ -11538,7 +11538,7 @@ system Fosme
 			period 26.2782
 
 system Fukulle
-	pos -235.707 -5202.87
+	pos -50235.71 -55202.87
 	government Ignaggen
 	habitable 1715
 	belt 1697
@@ -11606,7 +11606,7 @@ system Fukulle
 			period 49.5683
 
 system Furmo
-	pos 966.966 -7153.23
+	pos -49033.03 -57153.23
 	government Revos
 	habitable 1715
 	belt 1895
@@ -11665,7 +11665,7 @@ system Furmo
 			period 12.2904
 
 system Gamali
-	pos -1122.05 -6326.33
+	pos -51122.05 -56326.33
 	government "Kroom Kakaima"
 	habitable 1080
 	belt 1618
@@ -11726,7 +11726,7 @@ system Gamali
 			period 45.1665
 
 system Gamila
-	pos -1216.54 -6180.59
+	pos -51216.54 -56180.59
 	government "Kroom Kakaima"
 	habitable 851.84
 	link Ginja
@@ -11787,7 +11787,7 @@ system Gamila
 			period 38.2317
 
 system Ganet
-	pos -2288 -6005.8
+	pos -52288.0 -56005.8
 	government Geeva
 	habitable 233.28
 	belt 1371
@@ -11840,7 +11840,7 @@ system Ganet
 			period 36.8586
 
 system Ganko
-	pos -478.592 -6608.82
+	pos -50478.59 -56608.82
 	government "Kroom Kanai"
 	habitable 8640
 	belt 1470
@@ -11885,7 +11885,7 @@ system Ganko
 			period 34.7255
 
 system Gavnan
-	pos -318.54 -6347.87
+	pos -50318.54 -56347.87
 	government "Kroom Kanai"
 	habitable 320
 	belt 1860
@@ -11934,7 +11934,7 @@ system Gavnan
 			period 13.7008
 
 system Gedluro
-	pos -1701.5 -5086.58
+	pos -51701.5 -55086.58
 	government Dels
 	habitable 625
 	link Eedoruna
@@ -11988,7 +11988,7 @@ system Gedluro
 		period 1308.94
 
 system Geen
-	pos -1733.46 -4945.96
+	pos -51733.46 -54945.96
 	government Dels
 	habitable 1080
 	belt 1491
@@ -12050,7 +12050,7 @@ system Geen
 		offset 126.394
 
 system Gekeo
-	pos 4706.5 -8381.83
+	pos -45293.5 -58381.83
 	government Resmakia
 	habitable 1080
 	link Reimar
@@ -12102,7 +12102,7 @@ system Gekeo
 			period 51.2961
 
 system Genak
-	pos -1869.96 -4803.87
+	pos -51869.96 -54803.87
 	government Dels
 	habitable 425.92
 	belt 1977
@@ -12163,7 +12163,7 @@ system Genak
 			period 13.8611
 
 system Genlo
-	pos -1234.47 -4928.13
+	pos -51234.47 -54928.13
 	government Dels
 	habitable 1215
 	link Loasta
@@ -12229,7 +12229,7 @@ system Genlo
 			0
 
 system Gerdusee
-	pos -1324.58 -4753.65
+	pos -51324.58 -54753.65
 	government Dels
 	habitable 640
 	belt 1860
@@ -12298,7 +12298,7 @@ system Gerdusee
 			period 56.3151
 
 system Gerrani
-	pos -195.753 -5425.87
+	pos -50195.75 -55425.87
 	government Ignaggen
 	habitable 135
 	belt 1179
@@ -12353,7 +12353,7 @@ system Gerrani
 		period 10187.4
 
 system Getga
-	pos -735.992 -6596.82
+	pos -50735.99 -56596.82
 	government "Kroom Kanai"
 	habitable 425.92
 	belt 1812
@@ -12401,7 +12401,7 @@ system Getga
 			period 13.144
 
 system Giakai
-	pos -322.991 -3770.26
+	pos -50322.99 -53770.26
 	government Uninhabitated
 	habitable 425.92
 	belt 1183
@@ -12445,7 +12445,7 @@ system Giakai
 			period 26.1482
 
 system Gilda
-	pos -550.616 -6381.59
+	pos -50550.62 -56381.59
 	government "Kroom Kanai"
 	habitable 233.28
 	belt 1966
@@ -12494,7 +12494,7 @@ system Gilda
 			period 25.5295
 
 system Ginja
-	pos -1155.34 -6186.24
+	pos -51155.34 -56186.24
 	government "Kroom Kakaima"
 	habitable 486.68
 	link Gamila
@@ -12545,7 +12545,7 @@ system Ginja
 			period 25.612
 
 system Ginma
-	pos -651.889 -6400.13
+	pos -50651.89 -56400.13
 	government "Kroom Kanai"
 	habitable 1400
 	belt 1495
@@ -12604,7 +12604,7 @@ system Ginma
 			period 37.393
 
 system Ginso
-	pos -1176.32 -6344.28
+	pos -51176.32 -56344.28
 	government "Kroom Kakaima"
 	habitable 486.68
 	belt 1196
@@ -12662,7 +12662,7 @@ system Ginso
 			period 25.3796
 
 system Gohal
-	pos 470.519 -4704.61
+	pos -49529.48 -54704.61
 	government "Qoro (East)"
 	habitable 1111.68
 	belt 1901
@@ -12718,7 +12718,7 @@ system Gohal
 			period 22.7073
 
 system Gohao
-	pos 634.282 -4462.2
+	pos -49365.72 -54462.2
 	government "Qoro (East)"
 	habitable 486.68
 	belt 1799
@@ -12769,7 +12769,7 @@ system Gohao
 			period 59.8801
 
 system Gohoko
-	pos 658.519 -4539.61
+	pos -49341.48 -54539.61
 	government "Qoro (East)"
 	habitable 486.68
 	belt 1189
@@ -12825,7 +12825,7 @@ system Gohoko
 			period 32.3902
 
 system Gohol
-	pos 705.736 -4607.41
+	pos -49294.26 -54607.41
 	government "Qoro (East)"
 	habitable 659.2
 	belt 1691
@@ -12867,7 +12867,7 @@ system Gohol
 			period 13.4793
 
 system Gokak
-	pos 337.519 -4604.61
+	pos -49662.48 -54604.61
 	government "Qoro (East)"
 	habitable 1250
 	belt 1503
@@ -12919,7 +12919,7 @@ system Gokak
 			period 40.5126
 
 system Gokal
-	pos 435.519 -4745.61
+	pos -49564.48 -54745.61
 	government "Qoro (East)"
 	habitable 625
 	belt 1257
@@ -12964,7 +12964,7 @@ system Gokal
 			period 46.6139
 
 system Gokhom
-	pos 536.519 -4601.61
+	pos -49463.48 -54601.61
 	government "Qoro (East)"
 	habitable 851.84
 	belt 1482
@@ -13032,7 +13032,7 @@ system Gokhom
 			period 36.4397
 
 system Goko
-	pos 533.519 -4540.61
+	pos -49466.48 -54540.61
 	government "Qoro (East)"
 	habitable 425.92
 	belt 1698
@@ -13086,7 +13086,7 @@ system Goko
 			period 13.3759
 
 system Gokomse
-	pos 405.439 -4672.96
+	pos -49594.56 -54672.96
 	government "Qoro (East)"
 	habitable 1111.68
 	belt 1848
@@ -13142,7 +13142,7 @@ system Gokomse
 			period 20.5608
 
 system Golima
-	pos -1322.84 -6143.86
+	pos -51322.84 -56143.86
 	government "Kroom Kakaima"
 	habitable 486.68
 	link Gamila
@@ -13192,7 +13192,7 @@ system Golima
 			period 15.0894
 
 system Golo
-	pos 612.519 -4562.61
+	pos -49387.48 -54562.61
 	government "Qoro (East)"
 	habitable 945
 	belt 1519
@@ -13244,7 +13244,7 @@ system Golo
 		period 2134.89
 
 system Goma
-	pos 488.519 -4758.61
+	pos -49511.48 -54758.61
 	government "Qoro (East)"
 	habitable 425.92
 	belt 1074
@@ -13289,7 +13289,7 @@ system Goma
 		period 8744.73
 
 system Gomar
-	pos 452.519 -4588.61
+	pos -49547.48 -54588.61
 	government "Qoro (East)"
 	habitable 320
 	belt 1818
@@ -13336,7 +13336,7 @@ system Gomar
 			period 37.2734
 
 system Gomokori
-	pos 543.282 -4455.2
+	pos -49456.72 -54455.2
 	government "Qoro (East)"
 	habitable 719.96
 	belt 1075
@@ -13394,7 +13394,7 @@ system Gomokori
 			period 23.1931
 
 system Gonal
-	pos 544.519 -4718.61
+	pos -49455.48 -54718.61
 	government "Qoro (East)"
 	habitable 2692.76
 	belt 1846
@@ -13453,7 +13453,7 @@ system Gonal
 			period 19.0736
 
 system Gonma
-	pos -417.793 -6410.04
+	pos -50417.79 -56410.04
 	government "Kroom Kanai"
 	habitable 486.68
 	belt 1096
@@ -13506,7 +13506,7 @@ system Gonma
 			period 40.2295
 
 system Gorea
-	pos 4566.99 -8297.49
+	pos -45433.01 -58297.49
 	government Rakgonnera
 	habitable 486.68
 	link Krals
@@ -13568,7 +13568,7 @@ system Gorea
 			period 82.0491
 
 system Goric
-	pos 528.519 -4641.61
+	pos -49471.48 -54641.61
 	government "Qoro (East)"
 	habitable 1715
 	belt 1001
@@ -13615,7 +13615,7 @@ system Goric
 			period 16.7101
 
 system Gorica
-	pos 589.519 -4504.61
+	pos -49410.48 -54504.61
 	government "Qoro (East)"
 	habitable 425.92
 	belt 1903
@@ -13667,7 +13667,7 @@ system Gorica
 			period 21.1596
 
 system Gorkva
-	pos -2364.33 -6089.74
+	pos -52364.33 -56089.74
 	government Geeva
 	habitable 486.68
 	belt 1167
@@ -13717,7 +13717,7 @@ system Gorkva
 			period 33.9637
 
 system Gorod
-	pos 654.519 -4655.61
+	pos -49345.48 -54655.61
 	government "Qoro (East)"
 	habitable 5425.92
 	belt 1888
@@ -13769,7 +13769,7 @@ system Gorod
 			period 11.8321
 
 system Gorok
-	pos 465.519 -4626.61
+	pos -49534.48 -54626.61
 	government "Qoro (East)"
 	habitable 425.92
 	belt 1492
@@ -13817,7 +13817,7 @@ system Gorok
 		period 2707.2
 
 system Goroklo
-	pos 596.519 -4674.61
+	pos -49403.48 -54674.61
 	government "Qoro (East)"
 	habitable 320
 	belt 1333
@@ -13866,7 +13866,7 @@ system Goroklo
 			period 34.7598
 
 system Gosako
-	pos 388.282 -4572.2
+	pos -49611.72 -54572.2
 	government "Qoro (East)"
 	habitable 912.6
 	belt 1818
@@ -13921,7 +13921,7 @@ system Gosako
 			period 19.597
 
 system Gosofo
-	pos 492.282 -4486.2
+	pos -49507.72 -54486.2
 	government "Qoro (East)"
 	habitable 2201.68
 	belt 1155
@@ -13973,7 +13973,7 @@ system Gosofo
 		period 905.491
 
 system Gosoko
-	pos 440.282 -4530.2
+	pos -49559.72 -54530.2
 	government "Qoro (East)"
 	habitable 233.28
 	belt 1017
@@ -14030,7 +14030,7 @@ system Gosoko
 			period 71.6202
 
 system Gosol
-	pos 702.519 -4559.61
+	pos -49297.48 -54559.61
 	government "Qoro (East)"
 	habitable 858.28
 	belt 1131
@@ -14071,7 +14071,7 @@ system Gosol
 		period 1270.6
 
 system Gosos
-	pos 591.519 -4629.61
+	pos -49408.48 -54629.61
 	government "Qoro (East)"
 	habitable 320
 	belt 1391
@@ -14115,7 +14115,7 @@ system Gosos
 			period 22.0933
 
 system Govlo
-	pos -2361.76 -6208.79
+	pos -52361.76 -56208.79
 	government Geeva
 	habitable 320
 	belt 1799
@@ -14160,7 +14160,7 @@ system Govlo
 		period 2133.95
 
 system Govnutae
-	pos -1120.27 -5522.55
+	pos -51120.27 -55522.55
 	government Dels
 	habitable 425.92
 	link Govo
@@ -14220,7 +14220,7 @@ system Govnutae
 		period 2387.45
 
 system Govo
-	pos -1107.82 -5575.33
+	pos -51107.82 -55575.33
 	government Dels
 	habitable 320
 	link Govnutae
@@ -14280,7 +14280,7 @@ system Govo
 			period 14.8311
 
 system Govri
-	pos -1398.31 -5576.81
+	pos -51398.31 -55576.81
 	government Dels
 	habitable 425.92
 	link Bovdar
@@ -14341,7 +14341,7 @@ system Govri
 			0
 
 system Gowok
-	pos 400.282 -4615.2
+	pos -49599.72 -54615.2
 	government "Qoro (East)"
 	habitable 625
 	belt 1429
@@ -14398,7 +14398,7 @@ system Gowok
 			period 17.9329
 
 system Grakli
-	pos -878.098 -6265.73
+	pos -50878.1 -56265.73
 	government "Kroom Kakaima"
 	habitable 1111.68
 	belt 1182
@@ -14451,7 +14451,7 @@ system Grakli
 		offset 350.306
 
 system Grion
-	pos -2409.86 -6004.54
+	pos -52409.86 -56004.54
 	government Geeva
 	habitable 625
 	belt 1934
@@ -14500,7 +14500,7 @@ system Grion
 			period 34.5578
 
 system Gukali
-	pos -641.387 -6498.75
+	pos -50641.39 -56498.75
 	government "Kroom Kanai"
 	habitable 625
 	belt 1724
@@ -14551,7 +14551,7 @@ system Gukali
 		offset 30.7687
 
 system Gularo
-	pos -1035.44 -6150
+	pos -51035.44 -56150.0
 	government "Kroom Kakaima"
 	habitable 1080
 	belt 1973
@@ -14610,7 +14610,7 @@ system Gularo
 			period 34.2987
 
 system Gullamo
-	pos -839.394 -4934.04
+	pos -50839.39 -54934.04
 	government Ignaggen
 	habitable 486.68
 	belt 1157
@@ -14677,7 +14677,7 @@ system Gullamo
 			period 23.1815
 
 system Gumar
-	pos -2261.95 -6259.74
+	pos -52261.95 -56259.74
 	government Geeva
 	habitable 806.68
 	link Agaka
@@ -14726,7 +14726,7 @@ system Gumar
 			period 33.2259
 
 system Gumen
-	pos -1081.06 -6408.5
+	pos -51081.06 -56408.5
 	government "Kroom Kakaima"
 	habitable 425.92
 	belt 1971
@@ -14792,7 +14792,7 @@ system Gumen
 			period 11.7756
 
 system Gumo
-	pos -647.517 -6628.83
+	pos -50647.52 -56628.83
 	government "Kroom Kanai"
 	habitable 659.2
 	belt 1753
@@ -14841,7 +14841,7 @@ system Gumo
 		offset 80.9132
 
 system Hael
-	pos 5395.27 -8103.36
+	pos -44604.73 -58103.36
 	government Ultaka
 	habitable 233.28
 	link Damma
@@ -14895,7 +14895,7 @@ system Hael
 			period 35.6747
 
 system Haeno
-	pos 5195.68 -7912.52
+	pos -44804.32 -57912.52
 	government Ultaka
 	habitable 2372.76
 	link Deonlen
@@ -14944,7 +14944,7 @@ system Haeno
 			period 26.1708
 
 system Haino
-	pos 5417.63 -8391.82
+	pos -44582.37 -58391.82
 	government Ultaka
 	habitable 486.68
 	link Cesno
@@ -14999,7 +14999,7 @@ system Haino
 			period 42.6356
 
 system Halcaka
-	pos -1050.4 -5623.29
+	pos -51050.4 -55623.29
 	government Dels
 	habitable 233.28
 	link Govo
@@ -15058,7 +15058,7 @@ system Halcaka
 			period 66.9718
 
 system Haleknei
-	pos 5430.68 -8685.75
+	pos -44569.32 -58685.75
 	government Ultaka
 	habitable 2201.68
 	link Kenkerla
@@ -15106,7 +15106,7 @@ system Haleknei
 			period 37.0081
 
 system Haleon
-	pos 5209.88 -8415.47
+	pos -44790.12 -58415.47
 	government Ultaka
 	habitable 425.92
 	link Ferlan
@@ -15145,7 +15145,7 @@ system Haleon
 		period 1789.76
 
 system Haoler
-	pos 5182.68 -7865.52
+	pos -44817.32 -57865.52
 	government Ultaka
 	habitable 745.92
 	link Deonlen
@@ -15195,7 +15195,7 @@ system Haoler
 			period 35.3901
 
 system Harmal
-	pos 5256.92 -8400.21
+	pos -44743.08 -58400.21
 	government Ultaka
 	habitable 1080
 	link Desloen
@@ -15237,7 +15237,7 @@ system Harmal
 		period 1762.08
 
 system Hasenu
-	pos -1276.05 -4964.06
+	pos -51276.05 -54964.06
 	government Dels
 	habitable 1705
 	belt 1000
@@ -15304,7 +15304,7 @@ system Hasenu
 			period 28.8793
 
 system Haurotdi
-	pos -989.103 -5543.56
+	pos -50989.1 -55543.56
 	government Dels
 	habitable 8640
 	link Irvodera
@@ -15361,7 +15361,7 @@ system Haurotdi
 			period 69.3823
 
 system Helikor
-	pos 5291.88 -7859.81
+	pos -44708.12 -57859.81
 	government Ultaka
 	habitable 9126.68
 	link Flokkold
@@ -15410,7 +15410,7 @@ system Helikor
 			period 79.3483
 
 system Helio
-	pos 5350.99 -8438.35
+	pos -44649.01 -58438.35
 	government Ultaka
 	habitable 486.68
 	link Haino
@@ -15447,7 +15447,7 @@ system Helio
 		period 1486.32
 
 system Hellma
-	pos -1676.73 -4728.75
+	pos -51676.73 -54728.75
 	government Dels
 	habitable 1050.92
 	belt 1488
@@ -15518,7 +15518,7 @@ system Hellma
 			period 16.0187
 
 system Heokos
-	pos 5197.82 -8216.93
+	pos -44802.18 -58216.93
 	government Ultaka
 	habitable 486.68
 	link Aekelo
@@ -15572,7 +15572,7 @@ system Heokos
 			period 22.1618
 
 system Heol
-	pos 5316.94 -8021.88
+	pos -44683.06 -58021.88
 	government Ultaka
 	habitable 1111.68
 	link Deroen
@@ -15628,7 +15628,7 @@ system Heol
 			period 30.0381
 
 system Heosli
-	pos 4901.68 -8061.52
+	pos -45098.32 -58061.52
 	government Ultaka
 	habitable 425.92
 	link Fedloe
@@ -15680,7 +15680,7 @@ system Heosli
 		0
 
 system Heukao
-	pos -1634.76 -5210.26
+	pos -51634.76 -55210.26
 	government Dels
 	habitable 1250
 	belt 1587
@@ -15742,7 +15742,7 @@ system Heukao
 			period 22.1428
 
 system Heulree
-	pos -1802.19 -5209.6
+	pos -51802.19 -55209.6
 	government Dels
 	habitable 425.92
 	link Dueeneo
@@ -15806,7 +15806,7 @@ system Heulree
 			period 44.7941
 
 system Hidawe
-	pos -2172.47 -4803.94
+	pos -52172.47 -54803.94
 	government Dels
 	habitable 1111.68
 	belt 1978
@@ -15877,7 +15877,7 @@ system Hidawe
 			period 47.783
 
 system Hildever
-	pos -1199.9 -4715.69
+	pos -51199.9 -54715.69
 	government Dels
 	habitable 425.92
 	belt 1791
@@ -15923,7 +15923,7 @@ system Hildever
 		period 2209.35
 
 system Hinley
-	pos -1137.5 -5195.67
+	pos -51137.5 -55195.67
 	government Dels
 	habitable 135
 	belt 1890
@@ -15989,7 +15989,7 @@ system Hinley
 			period 15.2932
 
 system Hintee
-	pos -1299.1 -5529.07
+	pos -51299.1 -55529.07
 	government Dels
 	habitable 320
 	link Aretu
@@ -16038,7 +16038,7 @@ system Hintee
 		period 2344.75
 
 system Holmork
-	pos -1976.24 -5072.47
+	pos -51976.24 -55072.47
 	government Dels
 	habitable 425.92
 	belt 1372
@@ -16099,7 +16099,7 @@ system Holmork
 			period 25.4957
 
 system Huadinee
-	pos -1754.99 -5308.23
+	pos -51754.99 -55308.23
 	government Dels
 	habitable 425.92
 	belt 1153
@@ -16153,7 +16153,7 @@ system Huadinee
 			period 15.2932
 
 system "Iakve "
-	pos 184.958 -4431.08
+	pos -49815.04 -54431.08
 	government Uninhabitated
 	habitable 1080
 	belt 1281
@@ -16194,7 +16194,7 @@ system "Iakve "
 			period 16.2839
 
 system Ibnavi
-	pos -26.2577 -3987.8
+	pos -50026.26 -53987.8
 	government Uninhabitated
 	habitable 625
 	belt 1352
@@ -16236,7 +16236,7 @@ system Ibnavi
 			period 16.359
 
 system Iekega
-	pos -2207.69 -4656.56
+	pos -52207.69 -54656.56
 	government Dels
 	habitable 425.92
 	belt 1320
@@ -16305,7 +16305,7 @@ system Iekega
 			period 38.4093
 
 system "Ieon Du"
-	pos -800.696 -5140.43
+	pos -50800.7 -55140.43
 	government Ignaggen
 	habitable 1715
 	belt 1279
@@ -16369,7 +16369,7 @@ system "Ieon Du"
 			period 34.5277
 
 system Ierleon
-	pos -645.963 -5144.48
+	pos -50645.96 -55144.48
 	government Ignaggen
 	habitable 486.68
 	belt 1616
@@ -16435,7 +16435,7 @@ system Ierleon
 		offset 24.6295
 
 system Igsiai
-	pos -225.258 -3843.8
+	pos -50225.26 -53843.8
 	government Uninhabitated
 	habitable 8645
 	belt 1888
@@ -16489,7 +16489,7 @@ system Igsiai
 			period 49.2986
 
 system Igureo
-	pos -828.026 -6563.02
+	pos -50828.03 -56563.02
 	government "Kroom Kanai"
 	habitable 1080
 	belt 1002
@@ -16539,7 +16539,7 @@ system Igureo
 		period 1513.35
 
 system Ikar
-	pos -367.646 -5457.47
+	pos -50367.65 -55457.47
 	government Ignaggen
 	habitable 945
 	link Ikurdar
@@ -16604,7 +16604,7 @@ system Ikar
 			period 22.3369
 
 system "Ikar ar"
-	pos -153.517 -3732.09
+	pos -50153.52 -53732.09
 	government Uninhabitated
 	habitable 486.68
 	belt 1093
@@ -16656,7 +16656,7 @@ system "Ikar ar"
 			period 13.1449
 
 system "Ikia jior"
-	pos -302.541 -3614.48
+	pos -50302.54 -53614.48
 	government Uninhabitated
 	habitable 560.92
 	belt 1498
@@ -16705,7 +16705,7 @@ system "Ikia jior"
 			period 27.5282
 
 system Ikurdar
-	pos -275.819 -5407.02
+	pos -50275.82 -55407.02
 	government Ignaggen
 	habitable 486.68
 	belt 1324
@@ -16754,7 +16754,7 @@ system Ikurdar
 		period 2994.53
 
 system Ilen
-	pos -490.316 -5249.43
+	pos -50490.32 -55249.43
 	government Ignaggen
 	habitable 486.68
 	belt 1413
@@ -16812,7 +16812,7 @@ system Ilen
 		offset 11.393
 
 system Ilitnetar
-	pos -2346.4 -5862.98
+	pos -52346.4 -55862.98
 	government Geeva
 	habitable 425.92
 	belt 1951
@@ -16870,7 +16870,7 @@ system Ilitnetar
 			period 14.3234
 
 system Illoinger
-	pos -804.452 -4826.88
+	pos -50804.45 -54826.88
 	government Ignaggen
 	habitable 486.68
 	belt 1037
@@ -16925,7 +16925,7 @@ system Illoinger
 			period 12.419
 
 system Ilnenla
-	pos 10641.2 -4079.07
+	pos -39358.8 -54079.07
 	government Ultaka
 	habitable 745.92
 	asteroids "small rock" 5 2.275
@@ -16977,7 +16977,7 @@ system Ilnenla
 			period 35.6566
 
 system Inen
-	pos -498.468 -5050.63
+	pos -50498.47 -55050.63
 	government Ignaggen
 	habitable 425.92
 	belt 1076
@@ -17043,7 +17043,7 @@ system Inen
 			period 59.2157
 
 system Ioenari
-	pos -602.208 -5106.38
+	pos -50602.21 -55106.38
 	government Ignaggen
 	habitable 1080
 	belt 1995
@@ -17098,7 +17098,7 @@ system Ioenari
 			period 13.8273
 
 system Iogarre
-	pos -504.374 -5005.95
+	pos -50504.37 -55005.95
 	government Ignaggen
 	habitable 233.28
 	belt 1372
@@ -17165,7 +17165,7 @@ system Iogarre
 			period 39.4323
 
 system Iorlano
-	pos 6531.53 -8277.36
+	pos -43468.47 -58277.36
 	government Ultaka
 	habitable 1250
 	asteroids "small rock" 1 1.6192
@@ -17205,7 +17205,7 @@ system Iorlano
 		period 1408.35
 
 system Iosmillar
-	pos -644.033 -5197.05
+	pos -50644.03 -55197.05
 	government Ignaggen
 	habitable 973.36
 	belt 1880
@@ -17282,7 +17282,7 @@ system Iosmillar
 			period 93.994
 
 system Irlaai
-	pos 157.98 -4229.83
+	pos -49842.02 -54229.83
 	government Uninhabitated
 	habitable 806.68
 	belt 1383
@@ -17329,7 +17329,7 @@ system Irlaai
 			period 13.2451
 
 system "Irshall Mer"
-	pos 875.865 -3878.54
+	pos -49124.14 -53878.54
 	government Ultaka
 	habitable 625
 	belt 1904
@@ -17370,7 +17370,7 @@ system "Irshall Mer"
 		period 1630.78
 
 system Irviggo
-	pos -326.386 -5070.14
+	pos -50326.39 -55070.14
 	government Ignaggen
 	habitable 486.68
 	belt 1680
@@ -17422,7 +17422,7 @@ system Irviggo
 			period 17.0913
 
 system Irvodera
-	pos -915.191 -5527.73
+	pos -50915.19 -55527.73
 	government Dels
 	habitable 973.36
 	belt 1060
@@ -17481,7 +17481,7 @@ system Irvodera
 			period 20.5561
 
 system Issai
-	pos 97.9796 -4037.83
+	pos -49902.02 -54037.83
 	government Uninhabitated
 	habitable 233.28
 	belt 1872
@@ -17527,7 +17527,7 @@ system Issai
 			period 23.8595
 
 system Iviak
-	pos 186.538 -4372.71
+	pos -49813.46 -54372.71
 	government Uninhabitated
 	habitable 1080
 	belt 1274
@@ -17575,7 +17575,7 @@ system Iviak
 			period 33.7139
 
 system Javil
-	pos -1048.96 -6251.83
+	pos -51048.96 -56251.83
 	government "Kroom Kakaima"
 	habitable 233.28
 	link Lima
@@ -17622,7 +17622,7 @@ system Javil
 			period 26.0229
 
 system Jeelark
-	pos -1029.03 -5449.24
+	pos -51029.03 -55449.24
 	government Dels
 	habitable 760
 	belt 1861
@@ -17683,7 +17683,7 @@ system Jeelark
 			period 22.905
 
 system Jelver
-	pos 4610.7 -8458.39
+	pos -45389.3 -58458.39
 	government Erm
 	habitable 1080
 	link Eilmer
@@ -17732,7 +17732,7 @@ system Jelver
 		offset 78.9905
 
 system Jolark
-	pos -1049.85 -5034.04
+	pos -51049.85 -55034.04
 	government Dels
 	habitable 233.28
 	belt 1649
@@ -17783,7 +17783,7 @@ system Jolark
 			period 11.2233
 
 system "Jorenu Ke"
-	pos -1457.44 -4976.46
+	pos -51457.44 -54976.46
 	government Dels
 	habitable 1080
 	belt 1516
@@ -17843,7 +17843,7 @@ system "Jorenu Ke"
 			period 18.0634
 
 system Juelirna
-	pos -836.09 -5527.06
+	pos -50836.09 -55527.06
 	government Dels
 	habitable 425.92
 	belt 1603
@@ -17901,7 +17901,7 @@ system Juelirna
 			period 15.8688
 
 system "Jun Ha"
-	pos 737.639 -5048.03
+	pos -49262.36 -55048.03
 	government Uninhabited
 	habitable 320
 	link "Kal Pa"
@@ -17944,7 +17944,7 @@ system "Jun Ha"
 			period 38.0132
 
 system "Jun Lika"
-	pos 747.639 -4988.03
+	pos -49252.36 -54988.03
 	government Uninhabited
 	habitable 320
 	link "Jun Senka"
@@ -17979,7 +17979,7 @@ system "Jun Lika"
 			period 25.8332
 
 system "Jun Mak"
-	pos 746.826 -5086.17
+	pos -49253.17 -55086.17
 	government Uninhabited
 	habitable 2035
 	link "Kal Pa"
@@ -18021,7 +18021,7 @@ system "Jun Mak"
 		period 854.755
 
 system "Jun Senka"
-	pos 708.639 -5018.03
+	pos -49291.36 -55018.03
 	government Uninhabited
 	habitable 1715
 	link "Jun Lika"
@@ -18065,7 +18065,7 @@ system "Jun Senka"
 			period 11.7668
 
 system Jurdoe
-	pos -1516.08 -4696.32
+	pos -51516.08 -54696.32
 	government Dels
 	habitable 625
 	belt 1852
@@ -18132,7 +18132,7 @@ system Jurdoe
 			period 13.336
 
 system Kaise
-	pos 5298.01 -9081.57
+	pos -44701.99 -59081.57
 	government Krinek
 	habitable 320
 	link Kirlei
@@ -18189,7 +18189,7 @@ system Kaise
 			period 65.9038
 
 system "Kal Daha"
-	pos 620.639 -5112.03
+	pos -49379.36 -55112.03
 	government Uninhabited
 	habitable 745.92
 	link "Kal Nela"
@@ -18238,7 +18238,7 @@ system "Kal Daha"
 			period 24.3986
 
 system "Kal Nela"
-	pos 663.639 -5046.03
+	pos -49336.36 -55046.03
 	government Uninhabited
 	habitable 745.92
 	link "Kal Daha"
@@ -18297,7 +18297,7 @@ system "Kal Nela"
 			period 63.5779
 
 system "Kal Pa"
-	pos 672.639 -5080.03
+	pos -49327.36 -55080.03
 	government Uninhabited
 	habitable 1566.68
 	link "Jun Ha"
@@ -18340,7 +18340,7 @@ system "Kal Pa"
 		period 1052.83
 
 system "Kal See"
-	pos 690.639 -5116.03
+	pos -49309.36 -55116.03
 	government Uninhabited
 	habitable 425.92
 	link "Kal Pa"
@@ -18396,7 +18396,7 @@ system "Kal See"
 			period 46.9044
 
 system "Kal Seka"
-	pos 585.639 -5068.03
+	pos -49414.36 -55068.03
 	government Uninhabited
 	habitable 2035
 	link "Au Hall"
@@ -18448,7 +18448,7 @@ system "Kal Seka"
 			period 34.9512
 
 system Kamla
-	pos -692.667 -4832.79
+	pos -50692.67 -54832.79
 	government Ignaggen
 	habitable 2372.76
 	belt 1687
@@ -18515,7 +18515,7 @@ system Kamla
 			period 96.253
 
 system Kaor
-	pos 5664.63 -8298.82
+	pos -44335.37 -58298.82
 	government Ultaka
 	habitable 486.68
 	link Carmo
@@ -18558,7 +18558,7 @@ system Kaor
 			period 30.6983
 
 system Kaornral
-	pos -328.59 -7719.7
+	pos -50328.59 -57719.7
 	government Taroun
 	habitable 486.68
 	belt 1839
@@ -18598,7 +18598,7 @@ system Kaornral
 		offset 311.928
 
 system Kaos
-	pos 5256.27 -8087.36
+	pos -44743.73 -58087.36
 	government Ultaka
 	habitable 2340
 	link Aemno
@@ -18650,7 +18650,7 @@ system Kaos
 			period 24.0165
 
 system Kargen
-	pos 5589.08 -8177.25
+	pos -44410.92 -58177.25
 	government Ultaka
 	habitable 2160
 	link Darsen
@@ -18705,7 +18705,7 @@ system Kargen
 			period 80.2965
 
 system Karlai
-	pos -384.991 -5055.01
+	pos -50384.99 -55055.01
 	government Ignaggen
 	habitable 486.68
 	belt 1981
@@ -18756,7 +18756,7 @@ system Karlai
 		period 1761.11
 
 system Karllan
-	pos -638.064 -4812.5
+	pos -50638.06 -54812.5
 	government Ignaggen
 	habitable 625
 	belt 1231
@@ -18817,7 +18817,7 @@ system Karllan
 			period 11.6661
 
 system Karten
-	pos 5458.63 -8346.82
+	pos -44541.37 -58346.82
 	government Ultaka
 	habitable 425.92
 	link Ferleo
@@ -18863,7 +18863,7 @@ system Karten
 		period 3603.1
 
 system Kaureyi
-	pos -1319.88 -5012.71
+	pos -51319.88 -55012.71
 	government Dels
 	habitable 1080
 	belt 1731
@@ -18920,7 +18920,7 @@ system Kaureyi
 			period 35.9133
 
 system Keaer
-	pos 4826.2 -8244.1
+	pos -45173.8 -58244.1
 	government Ultaka
 	habitable 1080
 	link Aena
@@ -18971,7 +18971,7 @@ system Keaer
 			period 35.9009
 
 system Keebusinor
-	pos -1480.97 -5538.18
+	pos -51480.97 -55538.18
 	government Dels
 	habitable 945
 	link Feelov
@@ -19034,7 +19034,7 @@ system Keebusinor
 			period 33.9637
 
 system Keedouin
-	pos -2194.16 -4720.82
+	pos -52194.16 -54720.82
 	government Dels
 	habitable 1080
 	belt 1391
@@ -19082,7 +19082,7 @@ system Keedouin
 			period 12.4086
 
 system Keelee
-	pos -1308.64 -5435.96
+	pos -51308.64 -55435.96
 	government Dels
 	habitable 2372.76
 	link Aretu
@@ -19170,7 +19170,7 @@ system Keelee
 			period 12.8033
 
 system Keemol
-	pos -947.873 -5630.14
+	pos -50947.87 -55630.14
 	government Dels
 	habitable 320
 	link Cuvorai
@@ -19232,7 +19232,7 @@ system Keemol
 			period 21.6723
 
 system Keemolk
-	pos -1288.9 -5673.13
+	pos -51288.9 -55673.13
 	government Dels
 	habitable 3878.28
 	link Dukoree
@@ -19303,7 +19303,7 @@ system Keemolk
 			0
 
 system Keemoroco
-	pos -1186.15 -5665.58
+	pos -51186.15 -55665.58
 	government Dels
 	habitable 233.28
 	link Keemolk
@@ -19370,7 +19370,7 @@ system Keemoroco
 			0
 
 system Keen
-	pos -970.659 -5380.56
+	pos -50970.66 -55380.56
 	government Dels
 	habitable 621.68
 	belt 1464
@@ -19439,7 +19439,7 @@ system Keen
 		period 3190.17
 
 system Keepuy
-	pos -1047.82 -5524.85
+	pos -51047.82 -55524.85
 	government Dels
 	habitable 486.68
 	link Govnutae
@@ -19486,7 +19486,7 @@ system Keepuy
 			period 36.9069
 
 system Keerak
-	pos -1325.38 -5585.77
+	pos -51325.38 -55585.77
 	government Dels
 	habitable 425.92
 	link Feelov
@@ -19546,7 +19546,7 @@ system Keerak
 			0
 
 system Keikas
-	pos 5065.09 -9272.49
+	pos -44934.91 -59272.49
 	government Krinek
 	habitable 233.28
 	link Ferrilen
@@ -19587,7 +19587,7 @@ system Keikas
 		period 3766.97
 
 system Keina
-	pos 5523.08 -8176.25
+	pos -44476.92 -58176.25
 	government Ultaka
 	habitable 1313.28
 	link Falmo
@@ -19638,7 +19638,7 @@ system Keina
 			period 14.9027
 
 system Keios
-	pos 5484.27 -8023.54
+	pos -44515.73 -58023.54
 	government Ultaka
 	habitable 320
 	link Keoska
@@ -19692,7 +19692,7 @@ system Keios
 			period 35.9318
 
 system Kelema
-	pos 5419.64 -8461.23
+	pos -44580.36 -58461.23
 	government Ultaka
 	habitable 135
 	link Cesno
@@ -19733,7 +19733,7 @@ system Kelema
 			period 40.5327
 
 system Kelgevu
-	pos -893.995 -4909.47
+	pos -50894.0 -54909.47
 	government Ignaggen
 	habitable 425.92
 	belt 1280
@@ -19801,7 +19801,7 @@ system Kelgevu
 			period 30.7968
 
 system Kelinur
-	pos -610.685 -4998.65
+	pos -50610.68 -54998.65
 	government Ignaggen
 	habitable 1050.92
 	belt 1478
@@ -19868,7 +19868,7 @@ system Kelinur
 			period 16.6859
 
 system Kelleon
-	pos -694.69 -4709.86
+	pos -50694.69 -54709.86
 	government Ignaggen
 	habitable 486.68
 	belt 1565
@@ -19916,7 +19916,7 @@ system Kelleon
 			period 13.1646
 
 system Kelteo
-	pos 5298.17 -8555.34
+	pos -44701.83 -58555.34
 	government Ultaka
 	habitable 425.92
 	link Ferlan
@@ -19962,7 +19962,7 @@ system Kelteo
 			period 26.6704
 
 system Kempar
-	pos 5649.08 -7986.25
+	pos -44350.92 -57986.25
 	government Ultaka
 	habitable 233.28
 	link Damor
@@ -20006,7 +20006,7 @@ system Kempar
 		period 2032.6
 
 system Kenalo
-	pos 5557.08 -8104.25
+	pos -44442.92 -58104.25
 	government Ultaka
 	habitable 1715
 	link Faklad
@@ -20053,7 +20053,7 @@ system Kenalo
 			period 22.5463
 
 system Kenkerla
-	pos 5331.46 -8631.63
+	pos -44668.54 -58631.63
 	government Ultaka
 	habitable 806.68
 	link Aranle
@@ -20107,7 +20107,7 @@ system Kenkerla
 			period 20.1516
 
 system Keoca
-	pos 4721.2 -8166.1
+	pos -45278.8 -58166.1
 	government Ultaka
 	habitable 486.68
 	link Aena
@@ -20152,7 +20152,7 @@ system Keoca
 		period 2667.54
 
 system Keofed
-	pos 5314.82 -8266.93
+	pos -44685.18 -58266.93
 	government Ultaka
 	habitable 320
 	link Desloen
@@ -20198,7 +20198,7 @@ system Keofed
 			period 17.4111
 
 system Keollen
-	pos 5089.68 -7984.52
+	pos -44910.32 -57984.52
 	government Ultaka
 	habitable 425.92
 	link Acoem
@@ -20243,7 +20243,7 @@ system Keollen
 			period 27.9002
 
 system Keoska
-	pos 5417.94 -8047.88
+	pos -44582.06 -58047.88
 	government Ultaka
 	habitable 486.68
 	link Deroen
@@ -20293,7 +20293,7 @@ system Keoska
 			period 26.5598
 
 system Kerbukcamori
-	pos 336.705 -5667.13
+	pos -49663.29 -55667.13
 	government Erader
 	habitable 945
 	belt 1564
@@ -20349,7 +20349,7 @@ system Kerbukcamori
 		period 1625.24
 
 system Kerdin
-	pos -788.933 -6810.08
+	pos -50788.93 -56810.08
 	government "Kroom Kanai"
 	habitable 2795
 	belt 1731
@@ -20409,7 +20409,7 @@ system Kerdin
 			period 20.5875
 
 system Kerimi
-	pos -513.713 -5403.27
+	pos -50513.71 -55403.27
 	government Ignaggen
 	habitable 135
 	belt 1304
@@ -20468,7 +20468,7 @@ system Kerimi
 			period 24.7631
 
 system Kerlin
-	pos 5250.09 -9242.49
+	pos -44749.91 -59242.49
 	government Krinek
 	habitable 625
 	link Finar
@@ -20510,7 +20510,7 @@ system Kerlin
 			period 55.1626
 
 system Kermen
-	pos 5732.85 -8144.55
+	pos -44267.15 -58144.55
 	government Ultaka
 	habitable 1715
 	link Darsen
@@ -20549,7 +20549,7 @@ system Kermen
 			period 17.047
 
 system Kersi
-	pos 5144.01 -8899.57
+	pos -44855.99 -58899.57
 	government Krinek
 	habitable 320
 	link Fersin
@@ -20593,7 +20593,7 @@ system Kersi
 			period 31.7443
 
 system Kerso
-	pos 5150.32 -8721.56
+	pos -44849.68 -58721.56
 	government Ultaka
 	habitable 553.28
 	link Dodene
@@ -20641,7 +20641,7 @@ system Kerso
 		period 5579.43
 
 system Kiaun
-	pos -521.225 -5188.18
+	pos -50521.22 -55188.18
 	government Ignaggen
 	habitable 625
 	belt 1755
@@ -20701,7 +20701,7 @@ system Kiaun
 			period 16.4802
 
 system Kichui
-	pos 5164.93 -9227.56
+	pos -44835.07 -59227.56
 	government Krinek
 	habitable 466.56
 	link Meisa
@@ -20748,7 +20748,7 @@ system Kichui
 			period 14.4905
 
 system Kieslen
-	pos 5320.02 -9287.38
+	pos -44679.98 -59287.38
 	government Krinek
 	habitable 625
 	link Finar
@@ -20785,7 +20785,7 @@ system Kieslen
 			period 13.5686
 
 system Kikar
-	pos -766.995 -5066.21
+	pos -50767.0 -55066.21
 	government Ignaggen
 	habitable 486.68
 	belt 1175
@@ -20848,7 +20848,7 @@ system Kikar
 			period 20.7413
 
 system Kiler
-	pos -506.783 -5132.28
+	pos -50506.78 -55132.28
 	government Ignaggen
 	habitable 625
 	belt 1144
@@ -20906,7 +20906,7 @@ system Kiler
 			period 54.4926
 
 system Kilerno
-	pos 5578.39 -7905.52
+	pos -44421.61 -57905.52
 	government Ultaka
 	habitable 425.92
 	link Damor
@@ -20949,7 +20949,7 @@ system Kilerno
 			period 22.9346
 
 system Kinlona
-	pos -1017.71 -5078.58
+	pos -51017.71 -55078.58
 	government Dels
 	habitable 2372.76
 	belt 1788
@@ -21017,7 +21017,7 @@ system Kinlona
 			offset 5.93966
 
 system Kintuy
-	pos -1229.62 -5610.46
+	pos -51229.62 -55610.46
 	government Dels
 	habitable 486.68
 	link Hintee
@@ -21072,7 +21072,7 @@ system Kintuy
 		period 2835.4
 
 system Kirlei
-	pos 5192.01 -9089.57
+	pos -44807.99 -59089.57
 	government Krinek
 	habitable 425.92
 	link Kaise
@@ -21126,7 +21126,7 @@ system Kirlei
 			period 36.8751
 
 system Kitorna
-	pos -297.469 -5342.85
+	pos -50297.47 -55342.85
 	government Ignaggen
 	habitable 2201.68
 	belt 1766
@@ -21188,7 +21188,7 @@ system Kitorna
 		period 931.55
 
 system Ko'aoeo
-	pos -473.377 -4073.61
+	pos -50473.38 -54073.61
 	government Kumakk
 	habitable 2795
 	belt 1125
@@ -21248,7 +21248,7 @@ system Ko'aoeo
 		period 971.174
 
 system Ko'coro
-	pos -481.402 -3918.98
+	pos -50481.4 -53918.98
 	government Kumakk
 	habitable 745.92
 	belt 1762
@@ -21304,7 +21304,7 @@ system Ko'coro
 			period 68.2982
 
 system Ko'coso
-	pos -467.903 -4007.03
+	pos -50467.9 -54007.03
 	government Kumakk
 	habitable 486.68
 	belt 1571
@@ -21358,7 +21358,7 @@ system Ko'coso
 			period 25.612
 
 system Ko'couezur
-	pos -728.647 -4553.9
+	pos -50728.65 -54553.9
 	government Kumakk
 	habitable 486.68
 	belt 1818
@@ -21411,7 +21411,7 @@ system Ko'couezur
 			period 30.1413
 
 system Ko'covo
-	pos -288.17 -4013.86
+	pos -50288.17 -54013.86
 	government Kumakk
 	habitable 1080
 	belt 1799
@@ -21446,7 +21446,7 @@ system Ko'covo
 			period 16.467
 
 system Ko'daho
-	pos -857.508 -4143.57
+	pos -50857.51 -54143.57
 	government Kumakk
 	habitable 2201.68
 	belt 1362
@@ -21505,7 +21505,7 @@ system Ko'daho
 			period 14.2774
 
 system Ko'dero
-	pos -773.919 -4247.92
+	pos -50773.92 -54247.92
 	government Kumakk
 	habitable 1715
 	belt 1375
@@ -21570,7 +21570,7 @@ system Ko'dero
 			period 56.4918
 
 system Ko'doco
-	pos -641.939 -4180.49
+	pos -50641.94 -54180.49
 	government Kumakk
 	habitable 625
 	belt 1370
@@ -21612,7 +21612,7 @@ system Ko'doco
 			period 17.1764
 
 system Ko'dolou
-	pos -776.794 -4480.22
+	pos -50776.79 -54480.22
 	government Kumakk
 	habitable 486.68
 	belt 1678
@@ -21668,7 +21668,7 @@ system Ko'dolou
 			period 30.2729
 
 system Ko'dorsu
-	pos -661.547 -4347.03
+	pos -50661.55 -54347.03
 	government Kumakk
 	habitable 2606.04
 	belt 1967
@@ -21738,7 +21738,7 @@ system Ko'dorsu
 			period 27.7758
 
 system Ko'ioxue
-	pos -708.8 -4213.46
+	pos -50708.8 -54213.46
 	government Kumakk
 	habitable 425.92
 	belt 1622
@@ -21795,7 +21795,7 @@ system Ko'ioxue
 			period 40.9354
 
 system Ko'joco
-	pos -955.558 -4035.11
+	pos -50955.56 -54035.11
 	government Kumakk
 	habitable 659.2
 	belt 1762
@@ -21844,7 +21844,7 @@ system Ko'joco
 			period 26.0229
 
 system Ko'joho
-	pos -863.801 -4076.83
+	pos -50863.8 -54076.83
 	government Kumakk
 	habitable 425.92
 	belt 1374
@@ -21896,7 +21896,7 @@ system Ko'joho
 			period 32.3203
 
 system Ko'jolmo
-	pos -522.493 -4046.32
+	pos -50522.49 -54046.32
 	government Kumakk
 	habitable 233.28
 	belt 1290
@@ -21938,7 +21938,7 @@ system Ko'jolmo
 			period 40.8429
 
 system Ko'koco
-	pos -378.56 -4143.43
+	pos -50378.56 -54143.43
 	government Kumakk
 	habitable 3645
 	belt 1980
@@ -21979,7 +21979,7 @@ system Ko'koco
 			period 28.8188
 
 system Ko'kolur
-	pos -715.427 -4427.68
+	pos -50715.43 -54427.68
 	government Kumakk
 	habitable 1715
 	belt 1719
@@ -22034,7 +22034,7 @@ system Ko'kolur
 		period 1217.52
 
 system Ko'komo
-	pos -721.768 -4327.19
+	pos -50721.77 -54327.19
 	government Kumakk
 	habitable 320
 	belt 1776
@@ -22090,7 +22090,7 @@ system Ko'komo
 			period 31.9863
 
 system Ko'kusor
-	pos -658.878 -4120.27
+	pos -50658.88 -54120.27
 	government Kumakk
 	habitable 1313.28
 	belt 1249
@@ -22152,7 +22152,7 @@ system Ko'kusor
 			period 60.2837
 
 system Ko'lobo
-	pos -682.53 -4274.93
+	pos -50682.53 -54274.93
 	government Kumakk
 	habitable 1715
 	belt 1223
@@ -22204,7 +22204,7 @@ system Ko'lobo
 			period 70.469
 
 system Ko'lolo
-	pos -319.127 -4193.37
+	pos -50319.13 -54193.37
 	government Kumakk
 	habitable 625
 	belt 1399
@@ -22244,7 +22244,7 @@ system Ko'lolo
 		period 1630.6
 
 system Ko'luclo
-	pos -822.219 -4405.57
+	pos -50822.22 -54405.57
 	government Kumakk
 	habitable 1705
 	belt 1754
@@ -22304,7 +22304,7 @@ system Ko'luclo
 			period 23.8595
 
 system Ko'meoso
-	pos -529.13 -4121.53
+	pos -50529.13 -54121.53
 	government Kumakk
 	habitable 4725
 	belt 1379
@@ -22361,7 +22361,7 @@ system Ko'meoso
 			period 41.5496
 
 system Ko'momor
-	pos -402.516 -4094.08
+	pos -50402.52 -54094.08
 	government Kumakk
 	habitable 320
 	belt 1333
@@ -22402,7 +22402,7 @@ system Ko'momor
 		period 2587.44
 
 system Ko'morho
-	pos -631.162 -3851.45
+	pos -50631.16 -53851.45
 	government Kumakk
 	habitable 4070.92
 	belt 1455
@@ -22446,7 +22446,7 @@ system Ko'morho
 		period 1134.81
 
 system Ko'mozo
-	pos -682.277 -3983.76
+	pos -50682.28 -53983.76
 	government Kumakk
 	habitable 1715
 	belt 1511
@@ -22494,7 +22494,7 @@ system Ko'mozo
 			period 38.9404
 
 system Ko'neoho
-	pos -518.917 -4187.13
+	pos -50518.92 -54187.13
 	government Kumakk
 	habitable 1715
 	belt 1763
@@ -22543,7 +22543,7 @@ system Ko'neoho
 			period 41.9524
 
 system Ko'oxzo
-	pos -605.299 -4050.34
+	pos -50605.3 -54050.34
 	government Kumakk
 	habitable 425.92
 	belt 1319
@@ -22596,7 +22596,7 @@ system Ko'oxzo
 			period 41.6131
 
 system Ko'rohou
-	pos -673.179 -4054.23
+	pos -50673.18 -54054.23
 	government Kumakk
 	habitable 640
 	belt 1342
@@ -22655,7 +22655,7 @@ system Ko'rohou
 			period 73.2666
 
 system Ko'rojo
-	pos -201.233 -4108.52
+	pos -50201.23 -54108.52
 	government Kumakk
 	habitable 320
 	belt 1963
@@ -22692,7 +22692,7 @@ system Ko'rojo
 			period 16.2229
 
 system Ko'rolmo
-	pos -416.253 -4051.87
+	pos -50416.25 -54051.87
 	government Kumakk
 	habitable 1080
 	belt 1142
@@ -22734,7 +22734,7 @@ system Ko'rolmo
 			period 25.2823
 
 system Ko'rono
-	pos -343.26 -4043.95
+	pos -50343.26 -54043.95
 	government Kumakk
 	habitable 486.68
 	belt 1960
@@ -22787,7 +22787,7 @@ system Ko'rono
 			period 27.451
 
 system Ko'soco
-	pos -910.428 -4186.44
+	pos -50910.43 -54186.44
 	government Kumakk
 	habitable 233.28
 	belt 1831
@@ -22828,7 +22828,7 @@ system Ko'soco
 			period 24.8184
 
 system Ko'soso
-	pos -934.91 -4108.78
+	pos -50934.91 -54108.78
 	government Kumakk
 	habitable 320
 	belt 1877
@@ -22872,7 +22872,7 @@ system Ko'soso
 			period 14.1002
 
 system Ko'soudo
-	pos -562.454 -4010.09
+	pos -50562.45 -54010.09
 	government Kumakk
 	habitable 625
 	belt 1048
@@ -22914,7 +22914,7 @@ system Ko'soudo
 			period 22.1618
 
 system Ko'sowo
-	pos -335.887 -3998.3
+	pos -50335.89 -53998.3
 	government Kumakk
 	habitable 320
 	belt 1098
@@ -22974,7 +22974,7 @@ system Ko'sowo
 			period 58.0025
 
 system Ko'sozo
-	pos -429.246 -4163.87
+	pos -50429.25 -54163.87
 	government Kumakk
 	habitable 1715
 	belt 1808
@@ -23020,7 +23020,7 @@ system Ko'sozo
 			period 12.0763
 
 system Ko'urnol
-	pos -629.726 -4381.84
+	pos -50629.73 -54381.84
 	government Kumakk
 	habitable 486.68
 	belt 1647
@@ -23080,7 +23080,7 @@ system Ko'urnol
 			period 19.7936
 
 system Ko'xomo
-	pos -762.091 -4178.05
+	pos -50762.09 -54178.05
 	government Kumakk
 	habitable 135
 	belt 1046
@@ -23129,7 +23129,7 @@ system Ko'xomo
 			period 23.7721
 
 system Ko'zoco
-	pos -877.957 -4262.68
+	pos -50877.96 -54262.68
 	government Kumakk
 	habitable 1715
 	belt 1157
@@ -23169,7 +23169,7 @@ system Ko'zoco
 		period 1095.68
 
 system Ko'zomo
-	pos -854.038 -4343.86
+	pos -50854.04 -54343.86
 	government Kumakk
 	habitable 135
 	belt 1790
@@ -23210,7 +23210,7 @@ system Ko'zomo
 			period 23.5219
 
 system Ko'zourho
-	pos -537.203 -3893.02
+	pos -50537.2 -53893.02
 	government Kumakk
 	habitable 320
 	belt 1485
@@ -23255,7 +23255,7 @@ system Ko'zourho
 			period 23.094
 
 system Ko'zouzo
-	pos -526.46 -3965.74
+	pos -50526.46 -53965.74
 	government Kumakk
 	habitable 1080
 	belt 1513
@@ -23316,7 +23316,7 @@ system Ko'zouzo
 			period 49.8543
 
 system Ko'zovoe
-	pos -613.4 -3936.91
+	pos -50613.4 -53936.91
 	government Kumakk
 	habitable 625
 	belt 1894
@@ -23365,7 +23365,7 @@ system Ko'zovoe
 			period 13.1398
 
 system Kodden
-	pos 5715.85 -7981.24
+	pos -44284.15 -57981.24
 	government Ultaka
 	habitable 2372.76
 	link Damor
@@ -23410,7 +23410,7 @@ system Kodden
 			period 94.9022
 
 system Koedee
-	pos -1523.31 -5131.51
+	pos -51523.31 -55131.51
 	government Dels
 	habitable 973.36
 	belt 1309
@@ -23479,7 +23479,7 @@ system Koedee
 			period 44.2064
 
 system Kokakor
-	pos -996.6 -5149.44
+	pos -50996.6 -55149.44
 	government Dels
 	habitable 560.92
 	belt 1680
@@ -23548,7 +23548,7 @@ system Kokakor
 			period 14.0039
 
 system Kolde
-	pos 4991.68 -8034.52
+	pos -45008.32 -58034.52
 	government Ultaka
 	habitable 719.96
 	link Feodler
@@ -23604,7 +23604,7 @@ system Kolde
 		period 1302.25
 
 system Kolha
-	pos 510.841 -5331.42
+	pos -49489.16 -55331.42
 	government Revos
 	habitable 233.28
 	belt 1662
@@ -23668,7 +23668,7 @@ system Kolha
 		0
 
 system Konker
-	pos 5498.08 -8295.25
+	pos -44501.92 -58295.25
 	government Ultaka
 	habitable 806.68
 	link Karten
@@ -23733,7 +23733,7 @@ system Konker
 			period 30.6381
 
 system Kordel
-	pos 5583.63 -8426.91
+	pos -44416.37 -58426.91
 	government Ultaka
 	habitable 4131.68
 	link Cesno
@@ -23785,7 +23785,7 @@ system Kordel
 		period 1139.52
 
 system Korlassa
-	pos 5326.63 -8366.82
+	pos -44673.37 -58366.82
 	government Ultaka
 	habitable 1080
 	link Desloen
@@ -23830,7 +23830,7 @@ system Korlassa
 			period 23.1815
 
 system Korsas
-	pos 5206.07 -8321.4
+	pos -44793.93 -58321.4
 	government Ultaka
 	habitable 1505.92
 	link Ceoma
@@ -23873,7 +23873,7 @@ system Korsas
 		period 1304.97
 
 system Kortenler
-	pos 94.151 -5680.14
+	pos -49905.85 -55680.14
 	government Erader
 	habitable 486.68
 	link Mortarlen
@@ -23930,7 +23930,7 @@ system Kortenler
 			period 23.7385
 
 system Korudir
-	pos -645.821 -4664.55
+	pos -50645.82 -54664.55
 	government Ignaggen(Outlaw)
 	habitable 1250
 	belt 1909
@@ -24003,7 +24003,7 @@ system Korudir
 			period 27.8245
 
 system Koskika
-	pos 5550.08 -8234.25
+	pos -44449.92 -58234.25
 	government Ultaka
 	habitable 1080
 	link Kargen
@@ -24054,7 +24054,7 @@ system Koskika
 			period 23.2066
 
 system Koslen
-	pos 5434.66 -7997.44
+	pos -44565.34 -57997.44
 	government Ultaka
 	habitable 486.68
 	link Daona
@@ -24101,7 +24101,7 @@ system Koslen
 		period 3346.64
 
 system Kotai
-	pos 4.0197 -4910.36
+	pos -49995.98 -54910.36
 	government Revos
 	habitable 233.28
 	belt 1089
@@ -24145,7 +24145,7 @@ system Kotai
 			period 57.5971
 
 system Krals
-	pos 4584.7 -8358.39
+	pos -45415.3 -58358.39
 	government Erm
 	habitable 1111.68
 	link Eilmer
@@ -24202,7 +24202,7 @@ system Krals
 			period 25.5238
 
 system Kullorail
-	pos -363.01 -5307.91
+	pos -50363.01 -55307.91
 	government Ignaggen
 	habitable 1715
 	belt 1881
@@ -24256,7 +24256,7 @@ system Kullorail
 			period 17.4998
 
 system Kulor
-	pos 306.223 -4471.51
+	pos -49693.78 -54471.51
 	government Revos
 	habitable 1705
 	belt 1126
@@ -24319,7 +24319,7 @@ system Kulor
 			period 14.571
 
 system Kuno
-	pos 5674.22 -8584.27
+	pos -44325.78 -58584.27
 	government Ultaka
 	habitable 486.68
 	link Lermoi
@@ -24372,7 +24372,7 @@ system Kuno
 			period 60.2688
 
 system Kurdagor
-	pos -594.425 -4640.18
+	pos -50594.43 -54640.18
 	government Ignaggen(Outlaw)
 	habitable 320
 	belt 1554
@@ -24419,7 +24419,7 @@ system Kurdagor
 		period 1922.07
 
 system Kutourmuk
-	pos -110.282 -7713.66
+	pos -50110.28 -57713.66
 	government Taroun
 	habitable 659.2
 	belt 1387
@@ -24478,7 +24478,7 @@ system Kutourmuk
 		period 1670.22
 
 system "Lao Mari"
-	pos 715.639 -4957.03
+	pos -49284.36 -54957.03
 	government Uninhabited
 	habitable 425.92
 	link "Neo Mak"
@@ -24523,7 +24523,7 @@ system "Lao Mari"
 			period 36.0696
 
 system "Lao See"
-	pos 595.639 -4961.03
+	pos -49404.36 -54961.03
 	government Uninhabited
 	habitable 625
 	link "Au Hall"
@@ -24571,7 +24571,7 @@ system "Lao See"
 			period 26.4379
 
 system "Lao Seka"
-	pos 793.826 -4959.17
+	pos -49206.17 -54959.17
 	government Uninhabited
 	habitable 625
 	link "Jun Lika"
@@ -24618,7 +24618,7 @@ system "Lao Seka"
 			period 26.4313
 
 system Larno
-	pos 5149.52 -8469.53
+	pos -44850.48 -58469.53
 	government Ultaka
 	habitable 320
 	link Akmarlen
@@ -24666,7 +24666,7 @@ system Larno
 			period 38.0132
 
 system Ledle
-	pos 4834.68 -8043.52
+	pos -45165.32 -58043.52
 	government Ultaka
 	habitable 945
 	link Deolme
@@ -24716,7 +24716,7 @@ system Ledle
 		period 3109.58
 
 system Leeounacr
-	pos -2115.83 -4768.84
+	pos -52115.83 -54768.84
 	government Dels
 	habitable 560.92
 	belt 1184
@@ -24783,7 +24783,7 @@ system Leeounacr
 			period 12.9592
 
 system Leion
-	pos -558.548 -4958.57
+	pos -50558.55 -54958.57
 	government Ignaggen
 	habitable 320
 	belt 1775
@@ -24847,7 +24847,7 @@ system Leion
 			period 34.577
 
 system Lelliuk
-	pos -2282.11 -4710.68
+	pos -52282.11 -54710.68
 	government Dels
 	habitable 621.68
 	belt 1583
@@ -24917,7 +24917,7 @@ system Lelliuk
 		period 2501.79
 
 system Lena
-	pos 149.02 -4716.36
+	pos -49850.98 -54716.36
 	government Revos
 	habitable 625
 	belt 1045
@@ -24965,7 +24965,7 @@ system Lena
 		period 3596.97
 
 system Lenevai
-	pos -2432.09 -5652.27
+	pos -52432.09 -55652.27
 	government Geeva
 	habitable 1948.28
 	belt 1365
@@ -25035,7 +25035,7 @@ system Lenevai
 			period 30.0593
 
 system Leno
-	pos 87.0197 -4921.36
+	pos -49912.98 -54921.36
 	government Revos
 	habitable 486.68
 	belt 1616
@@ -25073,7 +25073,7 @@ system Leno
 		period 1645.99
 
 system Leonnal
-	pos -556.033 -5277.05
+	pos -50556.03 -55277.05
 	government Ignaggen
 	habitable 2859.44
 	belt 1496
@@ -25146,7 +25146,7 @@ system Leonnal
 			period 23.6938
 
 system Leonnos
-	pos 5262.55 -8674.83
+	pos -44737.45 -58674.83
 	government Ultaka
 	habitable 912.6
 	link Aranle
@@ -25193,7 +25193,7 @@ system Leonnos
 		period 1249.05
 
 system Leosen
-	pos 5350.94 -8055.88
+	pos -44649.06 -58055.88
 	government Ultaka
 	habitable 9265
 	link Damma
@@ -25236,7 +25236,7 @@ system Leosen
 		period 817.545
 
 system Lerdosia
-	pos -698.577 -5239.36
+	pos -50698.58 -55239.36
 	government Ignaggen
 	habitable 320
 	belt 1653
@@ -25306,7 +25306,7 @@ system Lerdosia
 			period 51.6722
 
 system Lermellan
-	pos 236.058 -5783.71
+	pos -49763.94 -55783.71
 	government Erader
 	habitable 135
 	link Easterla
@@ -25368,7 +25368,7 @@ system Lermellan
 			period 46.5977
 
 system Lermoi
-	pos 5719.32 -8521.13
+	pos -44280.68 -58521.13
 	government Ultaka
 	habitable 1715
 	link Kuno
@@ -25410,7 +25410,7 @@ system Lermoi
 			period 14.0039
 
 system Lermos
-	pos 5310.31 -8486.66
+	pos -44689.69 -58486.66
 	government Ultaka
 	habitable 2795
 	link Ferlan
@@ -25461,7 +25461,7 @@ system Lermos
 			period 20.9941
 
 system Lersa
-	pos 5427.3 -8598.93
+	pos -44572.7 -58598.93
 	government Ultaka
 	habitable 320
 	link Deonlar
@@ -25507,7 +25507,7 @@ system Lersa
 			period 23.5715
 
 system Leunorra
-	pos -963.026 -4877.22
+	pos -50963.03 -54877.22
 	government Ignaggen
 	habitable 659.2
 	belt 1688
@@ -25580,7 +25580,7 @@ system Leunorra
 		offset 347.617
 
 system Lieevaor
-	pos -1477.45 -5448.5
+	pos -51477.45 -55448.5
 	government Dels
 	habitable 5360
 	belt 1240
@@ -25649,7 +25649,7 @@ system Lieevaor
 			period 22.7574
 
 system "Liirpe vo"
-	pos -126.258 -3948.8
+	pos -50126.26 -53948.8
 	government Uninhabitated
 	habitable 233.28
 	belt 1639
@@ -25686,7 +25686,7 @@ system "Liirpe vo"
 			period 11.9798
 
 system Likalle
-	pos -445.391 -5377.25
+	pos -50445.39 -55377.25
 	government Ignaggen
 	habitable 320
 	belt 1519
@@ -25749,7 +25749,7 @@ system Likalle
 		offset 336.565
 
 system Lilamil
-	pos -2327.22 -5945.08
+	pos -52327.22 -55945.08
 	government Geeva
 	habitable 1111.68
 	belt 1177
@@ -25813,7 +25813,7 @@ system Lilamil
 			period 19.8241
 
 system Lilima
-	pos -2171.03 -6090.45
+	pos -52171.03 -56090.45
 	government Geeva
 	habitable 425.92
 	belt 1445
@@ -25862,7 +25862,7 @@ system Lilima
 			period 14.698
 
 system Lima
-	pos -1158.72 -6285.67
+	pos -51158.72 -56285.67
 	government "Kroom Kakaima"
 	habitable 320
 	belt 1806
@@ -25919,7 +25919,7 @@ system Lima
 			period 60.7567
 
 system Linheyca
-	pos -941.324 -5127.13
+	pos -50941.32 -55127.13
 	government Dels
 	habitable 320
 	belt 1051
@@ -25980,7 +25980,7 @@ system Linheyca
 		offset 356.247
 
 system Linol
-	pos 929.873 -6150.59
+	pos -49070.13 -56150.59
 	government Revos
 	habitable 2140.92
 	belt 1064
@@ -26042,7 +26042,7 @@ system Linol
 			period 31.963
 
 system Lir
-	pos 5312.01 -8819.57
+	pos -44687.99 -58819.57
 	government Krinek
 	habitable 745.92
 	link Reima
@@ -26085,7 +26085,7 @@ system Lir
 			period 25.7188
 
 system Lirel
-	pos 377.204 -4895.33
+	pos -49622.8 -54895.33
 	government Revos
 	habitable 5000
 	belt 1730
@@ -26135,7 +26135,7 @@ system Lirel
 			period 30.3293
 
 system Lirganon
-	pos -737.154 -4656.95
+	pos -50737.15 -54656.95
 	government Ignaggen
 	habitable 625
 	belt 1853
@@ -26191,7 +26191,7 @@ system Lirganon
 			period 35.3101
 
 system Litai
-	pos 5101.01 -8975.57
+	pos -44898.99 -58975.57
 	government Krinek
 	habitable 2606.04
 	link Fersin
@@ -26237,7 +26237,7 @@ system Litai
 			period 21.7255
 
 system Loasta
-	pos -1171.58 -4918.91
+	pos -51171.58 -54918.91
 	government Dels
 	habitable 659.2
 	link Cevert
@@ -26315,7 +26315,7 @@ system Loasta
 			0
 
 system Lode
-	pos 4856.68 -8195.52
+	pos -45143.32 -58195.52
 	government Ultaka
 	habitable 486.68
 	link Aena
@@ -26372,7 +26372,7 @@ system Lode
 			period 47.7972
 
 system Loevuee
-	pos -1605.55 -4775.89
+	pos -51605.55 -54775.89
 	government Dels
 	habitable 625
 	belt 1257
@@ -26421,7 +26421,7 @@ system Loevuee
 		offset 209.758
 
 system Loluime
-	pos -1441.91 -5051.64
+	pos -51441.91 -55051.64
 	government Dels
 	habitable 1715
 	link "Jorenu Ke"
@@ -26486,7 +26486,7 @@ system Loluime
 		0
 
 system Loomera
-	pos -1050.24 -5217.22
+	pos -51050.24 -55217.22
 	government Dels
 	habitable 1050.92
 	belt 1500
@@ -26543,7 +26543,7 @@ system Loomera
 		period 2315.92
 
 system Lordeetor
-	pos -1273.88 -4839.77
+	pos -51273.88 -54839.77
 	government Dels
 	habitable 425.92
 	belt 1799
@@ -26598,7 +26598,7 @@ system Lordeetor
 		offset 71.2076
 
 system Lorden
-	pos 5661.08 -8123.25
+	pos -44338.92 -58123.25
 	government Ultaka
 	habitable 135
 	link Darsen
@@ -26652,7 +26652,7 @@ system Lorden
 			period 56.2225
 
 system Lordianee
-	pos -1539.15 -4841.09
+	pos -51539.15 -54841.09
 	government Dels
 	habitable 135
 	belt 1954
@@ -26711,7 +26711,7 @@ system Lordianee
 		offset 242.825
 
 system Lourge
-	pos -841.245 -5062.09
+	pos -50841.25 -55062.09
 	government Ignaggen
 	habitable 486.68
 	belt 1861
@@ -26772,7 +26772,7 @@ system Lourge
 		offset 3.93658
 
 system Luaarla
-	pos -506.066 -7684.78
+	pos -50506.07 -57684.78
 	government Taroun
 	habitable 1080
 	belt 1965
@@ -26826,7 +26826,7 @@ system Luaarla
 			period 35.9543
 
 system Luagurio
-	pos -735.757 -4809.18
+	pos -50735.76 -54809.18
 	government Ignaggen
 	habitable 625
 	belt 1150
@@ -26882,7 +26882,7 @@ system Luagurio
 			period 26.2476
 
 system Lueerda
-	pos -1095.91 -5172.16
+	pos -51095.91 -55172.16
 	government Dels
 	habitable 621.68
 	belt 1051
@@ -26970,7 +26970,7 @@ system Lueerda
 			period 32.8567
 
 system Luggaru
-	pos -845.798 -4779.59
+	pos -50845.8 -54779.59
 	government Ignaggen
 	habitable 2798.68
 	belt 1602
@@ -27047,7 +27047,7 @@ system Luggaru
 			period 84.2282
 
 system Lumaar
-	pos -1728.88 -5539.31
+	pos -51728.88 -55539.31
 	government Dels
 	habitable 1080
 	belt 1168
@@ -27115,7 +27115,7 @@ system Lumaar
 			period 22.6373
 
 system M1-12
-	pos 1069.02 -3890.2
+	pos -48930.98 -53890.2
 	government Ultaka
 	habitable 1080
 	belt 1294
@@ -27155,7 +27155,7 @@ system M1-12
 			period 11.1438
 
 system M1-14
-	pos 948.073 -3881.61
+	pos -49051.93 -53881.61
 	government Ultaka
 	habitable 1850
 	belt 1570
@@ -27209,7 +27209,7 @@ system M1-14
 			period 64.7574
 
 system M1-16
-	pos 877.457 -3802.59
+	pos -49122.54 -53802.59
 	government Ultaka
 	habitable 2606.04
 	belt 1094
@@ -27263,7 +27263,7 @@ system M1-16
 		period 1088.87
 
 system M1-21
-	pos 1003.07 -3965.61
+	pos -48996.93 -53965.61
 	government Ultaka
 	habitable 486.68
 	belt 1243
@@ -27306,7 +27306,7 @@ system M1-21
 		period 2263.61
 
 system M1-33
-	pos 962.073 -3776.61
+	pos -49037.93 -53776.61
 	government Ultaka
 	habitable 851.84
 	belt 1147
@@ -27360,7 +27360,7 @@ system M1-33
 			period 30.0748
 
 system M1-55
-	pos 772.644 -3851.48
+	pos -49227.36 -53851.48
 	government Ultaka
 	habitable 1715
 	belt 1276
@@ -27411,7 +27411,7 @@ system M1-55
 			period 34.7068
 
 system "M83 Core"
-	pos -283.51 -4547.93
+	pos -50283.51 -54547.93
 	government Ultaka
 	habitable 233.28
 	belt 1309
@@ -27458,7 +27458,7 @@ system "M83 Core"
 			period 37.0081
 
 system Magosen-L2885
-	pos 1145.05 -6597
+	pos -48854.95 -56597.0
 	government Wallagi
 	habitable 1715
 	asteroids "small rock" 4 7.566
@@ -27488,7 +27488,7 @@ system Magosen-L2885
 		offset 151.69
 
 system Magrilnil
-	pos -2495.09 -5688.27
+	pos -52495.09 -55688.27
 	government Geeva
 	habitable 1715
 	belt 1797
@@ -27549,7 +27549,7 @@ system Magrilnil
 			period 31.8423
 
 system Mahakla
-	pos 343.784 -4804.54
+	pos -49656.22 -54804.54
 	government Ultaka
 	habitable 9065.92
 	belt 1156
@@ -27616,7 +27616,7 @@ system Mahakla
 			period 24.6467
 
 system Mahalmal
-	pos 181.784 -4812.54
+	pos -49818.22 -54812.54
 	government Ultaka
 	habitable 2372.76
 	belt 1694
@@ -27658,7 +27658,7 @@ system Mahalmal
 		period 1623.04
 
 system Maisenni
-	pos 5021.01 -9144.57
+	pos -44978.99 -59144.57
 	government Krinek
 	habitable 5320
 	link Ferrilen
@@ -27714,7 +27714,7 @@ system Maisenni
 			period 48.7736
 
 system Majaslo
-	pos 324.249 -4723.99
+	pos -49675.75 -54723.99
 	habitable 425.92
 	belt 1572
 	link Masowla
@@ -27761,7 +27761,7 @@ system Majaslo
 			period 29.1483
 
 system Majol
-	pos 428.111 -4817.24
+	pos -49571.89 -54817.24
 	government Ultaka
 	habitable 455
 	belt 1696
@@ -27814,7 +27814,7 @@ system Majol
 			period 15.2932
 
 system Makal
-	pos 217.784 -4784.54
+	pos -49782.22 -54784.54
 	government Ultaka
 	habitable 1080
 	belt 1108
@@ -27864,7 +27864,7 @@ system Makal
 			period 37.4772
 
 system Makhom
-	pos 453.111 -4788.24
+	pos -49546.89 -54788.24
 	government Ultaka
 	habitable 425.92
 	belt 1651
@@ -27916,7 +27916,7 @@ system Makhom
 			period 12.6745
 
 system Makolo
-	pos 358.111 -4768.24
+	pos -49641.89 -54768.24
 	government Ultaka
 	habitable 1050.92
 	belt 1218
@@ -27973,7 +27973,7 @@ system Makolo
 			period 16.0187
 
 system Mallukavi
-	pos -808.394 -4978.04
+	pos -50808.39 -54978.04
 	government Ignaggen
 	habitable 1080
 	belt 1076
@@ -28035,7 +28035,7 @@ system Mallukavi
 			period 13.0146
 
 system Maloa
-	pos -1894.68 -5041.68
+	pos -51894.68 -55041.68
 	government Dels
 	habitable 320
 	belt 1765
@@ -28090,7 +28090,7 @@ system Maloa
 			period 12.3855
 
 system Manalh
-	pos 290.784 -4775.54
+	pos -49709.22 -54775.54
 	government Ultaka
 	habitable 912.6
 	belt 1764
@@ -28153,7 +28153,7 @@ system Manalh
 			period 57.4132
 
 system Maodeso
-	pos -1645.06 -5045.75
+	pos -51645.06 -55045.75
 	government Dels
 	habitable 1566.68
 	belt 1008
@@ -28234,7 +28234,7 @@ system Maodeso
 			period 71.0676
 
 system Marak
-	pos 172.784 -4746.54
+	pos -49827.22 -54746.54
 	government Ultaka
 	habitable 486.68
 	belt 1320
@@ -28271,7 +28271,7 @@ system Marak
 			period 14.7862
 
 system Marake
-	pos 374.111 -4832.24
+	pos -49625.89 -54832.24
 	government Ultaka
 	habitable 135
 	belt 1997
@@ -28319,7 +28319,7 @@ system Marake
 			period 31.1257
 
 system Marickar
-	pos 106.784 -4809.38
+	pos -49893.22 -54809.38
 	government Ultaka
 	habitable 135
 	belt 1212
@@ -28377,7 +28377,7 @@ system Marickar
 			period 30.6381
 
 system Marital
-	pos 132.493 -4853.65
+	pos -49867.51 -54853.65
 	government Ultaka
 	habitable 2372.76
 	belt 1566
@@ -28424,7 +28424,7 @@ system Marital
 			period 34.3159
 
 system Marmailei
-	pos 5047.14 -8924.29
+	pos -44952.86 -58924.29
 	government Krinek
 	habitable 1715
 	link Litai
@@ -28464,7 +28464,7 @@ system Marmailei
 			period 24.1136
 
 system Maroki
-	pos 390.111 -4802.24
+	pos -49609.89 -54802.24
 	government Ultaka
 	habitable 486.68
 	belt 1661
@@ -28514,7 +28514,7 @@ system Maroki
 			period 31.4117
 
 system Masekin
-	pos 182.513 -4881.44
+	pos -49817.49 -54881.44
 	government "Qoro (North)"
 	habitable 486.68
 	belt 1121
@@ -28583,7 +28583,7 @@ system Masekin
 			period 47.173
 
 system Masod
-	pos 313.784 -4849.54
+	pos -49686.22 -54849.54
 	government Ultaka
 	habitable 320
 	belt 1468
@@ -28629,7 +28629,7 @@ system Masod
 			period 61.3088
 
 system Masolo
-	pos 203.784 -4848.54
+	pos -49796.22 -54848.54
 	government Ultaka
 	habitable 233.28
 	belt 1414
@@ -28680,7 +28680,7 @@ system Masolo
 		period 3575.72
 
 system Masos
-	pos 263.784 -4819.54
+	pos -49736.22 -54819.54
 	government Ultaka
 	habitable 320
 	belt 1580
@@ -28733,7 +28733,7 @@ system Masos
 		period 5111.75
 
 system Masowla
-	pos 392.997 -4728.72
+	pos -49607.0 -54728.72
 	habitable 625
 	belt 1165
 	link Majaslo
@@ -28775,7 +28775,7 @@ system Masowla
 			period 25.1478
 
 system Maullenon
-	pos -877.415 -4971.26
+	pos -50877.42 -54971.26
 	government Ignaggen
 	habitable 486.68
 	belt 1138
@@ -28831,7 +28831,7 @@ system Maullenon
 			period 83.8306
 
 system "Mea Kalh"
-	pos -1072.5 -5121.14
+	pos -51072.5 -55121.14
 	government Dels
 	habitable 2372.76
 	belt 1633
@@ -28891,7 +28891,7 @@ system "Mea Kalh"
 			offset 171.581
 
 system "Mea Sua"
-	pos -1352.2 -5154.32
+	pos -51352.2 -55154.32
 	government Dels
 	habitable 425.92
 	link "Fee Lo"
@@ -28957,7 +28957,7 @@ system "Mea Sua"
 			0
 
 system "Mea Vol"
-	pos -1154.2 -5111.61
+	pos -51154.2 -55111.61
 	government Dels
 	habitable 233.28
 	belt 1818
@@ -29020,7 +29020,7 @@ system "Mea Vol"
 			period 26.0229
 
 system Meellar
-	pos -1993.25 -4948.65
+	pos -51993.25 -54948.65
 	government Dels
 	habitable 1111.68
 	belt 1397
@@ -29085,7 +29085,7 @@ system Meellar
 			period 14.2233
 
 system Meisa
-	pos 5080.01 -9193.57
+	pos -44919.99 -59193.57
 	government Krinek
 	habitable 233.28
 	link Keikas
@@ -29131,7 +29131,7 @@ system Meisa
 		period 2109.93
 
 system Mekler
-	pos 5429.08 -8267.25
+	pos -44570.92 -58267.25
 	government Ultaka
 	habitable 1715
 	link Falna
@@ -29172,7 +29172,7 @@ system Mekler
 			period 11.9034
 
 system Mekouka
-	pos -2056.83 -5066.84
+	pos -52056.83 -55066.84
 	government Dels
 	habitable 486.68
 	belt 1025
@@ -29222,7 +29222,7 @@ system Mekouka
 		period 1803.67
 
 system Melvurero
-	pos -632.394 -5057.04
+	pos -50632.39 -55057.04
 	government Ignaggen
 	habitable 625
 	belt 1548
@@ -29281,7 +29281,7 @@ system Melvurero
 			period 37.0473
 
 system Merlyu
-	pos 873.107 -7290.9
+	pos -49126.89 -57290.9
 	government Revos
 	habitable 1715
 	belt 1935
@@ -29334,7 +29334,7 @@ system Merlyu
 			period 13.8544
 
 system Mersekkar
-	pos 291.966 -5907.21
+	pos -49708.03 -55907.21
 	government Erader
 	habitable 1080
 	link Easterla
@@ -29388,7 +29388,7 @@ system Mersekkar
 			period 13.0018
 
 system Mesavor
-	pos -1299.26 -5376.7
+	pos -51299.26 -55376.7
 	government Dels
 	habitable 1566.68
 	link Delona
@@ -29475,7 +29475,7 @@ system Mesavor
 			0
 
 system Metardor
-	pos -1357.89 -5318.34
+	pos -51357.89 -55318.34
 	government Dels
 	habitable 320
 	link Dulvurka
@@ -29539,7 +29539,7 @@ system Metardor
 			period 75.7594
 
 system Mihilga
-	pos -2542.92 -5647.85
+	pos -52542.92 -55647.85
 	government Geeva
 	habitable 625
 	belt 1391
@@ -29595,7 +29595,7 @@ system Mihilga
 			period 25.9468
 
 system Milarli
-	pos -557.208 -5354.38
+	pos -50557.21 -55354.38
 	government Ignaggen
 	habitable 719.96
 	belt 1838
@@ -29652,7 +29652,7 @@ system Milarli
 			period 16.7562
 
 system Mivirpar
-	pos -59.2577 -3885.8
+	pos -50059.26 -53885.8
 	government Uninhabitated
 	habitable 1566.68
 	belt 1781
@@ -29700,7 +29700,7 @@ system Mivirpar
 			period 11.3204
 
 system Moloco
-	pos -1208.8 -5561.03
+	pos -51208.8 -55561.03
 	government Dels
 	habitable 625
 	link Govnutae
@@ -29745,7 +29745,7 @@ system Moloco
 		period 1435.11
 
 system Molta
-	pos -156.94 -4911.22
+	pos -50156.94 -54911.22
 	government Revos
 	habitable 320
 	belt 1652
@@ -29817,7 +29817,7 @@ system Molta
 			0
 
 system Momi
-	pos 1048.67 -6595.43
+	pos -48951.33 -56595.43
 	government Revos
 	habitable 1080
 	belt 1653
@@ -29861,7 +29861,7 @@ system Momi
 			period 11.7668
 
 system "Mor inn"
-	pos 102.859 -4091.98
+	pos -49897.14 -54091.98
 	government Uninhabitated
 	habitable 1050.92
 	belt 1074
@@ -29910,7 +29910,7 @@ system "Mor inn"
 			period 28.2155
 
 system Morde
-	pos 574.272 -7451.78
+	pos -49425.73 -57451.78
 	government Revos
 	habitable 625
 	belt 1539
@@ -29974,7 +29974,7 @@ system Morde
 			period 30.9016
 
 system Morildor
-	pos -954.568 -6799.69
+	pos -50954.57 -56799.69
 	government "Kroom Kanai"
 	habitable 233.28
 	belt 1733
@@ -30017,7 +30017,7 @@ system Morildor
 		period 3129.57
 
 system Morsalo
-	pos -93.08 -5554.48
+	pos -50093.08 -55554.48
 	government Erader
 	habitable 425.92
 	link Nersaer
@@ -30074,7 +30074,7 @@ system Morsalo
 			period 13.5117
 
 system Mortarlen
-	pos 152.624 -5755.69
+	pos -49847.38 -55755.69
 	government Erader
 	habitable 425.92
 	link Kortenler
@@ -30131,7 +30131,7 @@ system Mortarlen
 			period 12.594
 
 system Motardai
-	pos -1914.29 -5139.82
+	pos -51914.29 -55139.82
 	government Dels
 	habitable 625
 	belt 1190
@@ -30192,7 +30192,7 @@ system Motardai
 		period 2736.78
 
 system Moudee
-	pos -1363.73 -4807.4
+	pos -51363.73 -54807.4
 	government Dels
 	habitable 233.28
 	belt 1907
@@ -30262,7 +30262,7 @@ system Moudee
 			period 44.2973
 
 system Mudeodar
-	pos -1136.16 -4837.32
+	pos -51136.16 -54837.32
 	government Dels
 	habitable 233.28
 	belt 1511
@@ -30327,7 +30327,7 @@ system Mudeodar
 			period 40.1965
 
 system Mukalloei
-	pos -877.324 -5145.13
+	pos -50877.32 -55145.13
 	government Ignaggen
 	habitable 486.68
 	belt 1190
@@ -30387,7 +30387,7 @@ system Mukalloei
 			period 43.2449
 
 system Mukoglee
-	pos -987.994 -5581.78
+	pos -50987.99 -55581.78
 	government Dels
 	habitable 2997.76
 	belt 1383
@@ -30443,7 +30443,7 @@ system Mukoglee
 			period 64.1188
 
 system Mulva
-	pos 673.815 -7427.84
+	pos -49326.18 -57427.84
 	government Revos
 	habitable 1715
 	belt 1484
@@ -30498,7 +30498,7 @@ system Mulva
 			period 20.8184
 
 system Murasai
-	pos -68.5138 -5618.14
+	pos -50068.51 -55618.14
 	government Erader
 	habitable 912.6
 	link Atorma
@@ -30566,7 +30566,7 @@ system Murasai
 			period 24.1394
 
 system Mureene
-	pos -2039.83 -4896.84
+	pos -52039.83 -54896.84
 	government Dels
 	habitable 760
 	belt 1100
@@ -30625,7 +30625,7 @@ system Mureene
 		offset 2.00987
 
 system Mutol
-	pos 965.457 -6277.61
+	pos -49034.54 -56277.61
 	government Revos
 	habitable 2201.68
 	belt 1385
@@ -30678,7 +30678,7 @@ system Mutol
 		period 965.825
 
 system "Na Halee"
-	pos 659.826 -5145.17
+	pos -49340.17 -55145.17
 	government Uninhabited
 	habitable 6080
 	link "Kal See"
@@ -30722,7 +30722,7 @@ system "Na Halee"
 		period 1302.27
 
 system "Na Lao"
-	pos 619.639 -5021.03
+	pos -49380.36 -55021.03
 	government Uninhabited
 	habitable 3645
 	link "Au Hall"
@@ -30759,7 +30759,7 @@ system "Na Lao"
 			period 23.5219
 
 system Nacca
-	pos 5552.27 -8007.54
+	pos -44447.73 -58007.54
 	government Ultaka
 	habitable 233.28
 	link Faklad
@@ -30805,7 +30805,7 @@ system Nacca
 			period 23.6656
 
 system Naen
-	pos 5789.23 -8114.11
+	pos -44210.77 -58114.11
 	government Ultaka
 	habitable 851.84
 	link Kermen
@@ -30864,7 +30864,7 @@ system Naen
 			period 50.9191
 
 system Naeon
-	pos 5186.27 -7976.54
+	pos -44813.73 -57976.54
 	government Ultaka
 	habitable 486.68
 	link Acoem
@@ -30912,7 +30912,7 @@ system Naeon
 			period 23.4736
 
 system Nagettor
-	pos -348.935 -5160.41
+	pos -50348.93 -55160.41
 	government Ignaggen
 	habitable 425.92
 	belt 1550
@@ -30975,7 +30975,7 @@ system Nagettor
 			period 45.0611
 
 system Nakce
-	pos 4803.68 -8115.52
+	pos -45196.32 -58115.52
 	government Ultaka
 	habitable 1400
 	link Aena
@@ -31028,7 +31028,7 @@ system Nakce
 		period 1005.43
 
 system Nakron
-	pos 5597.08 -7958.25
+	pos -44402.92 -57958.25
 	government Ultaka
 	habitable 486.68
 	link Faklad
@@ -31074,7 +31074,7 @@ system Nakron
 			period 28.4274
 
 system Nalk
-	pos -1845.73 -5089.72
+	pos -51845.73 -55089.72
 	government Dels
 	habitable 1080
 	belt 1992
@@ -31135,7 +31135,7 @@ system Nalk
 			period 12.7763
 
 system Nanai
-	pos 1062.64 -6788.3
+	pos -48937.36 -56788.3
 	government Revos
 	habitable 486.68
 	belt 1446
@@ -31179,7 +31179,7 @@ system Nanai
 			period 14.5656
 
 system Nanole
-	pos 5762.17 -8200.92
+	pos -44237.83 -58200.92
 	government Ultaka
 	habitable 135
 	link Darsen
@@ -31228,7 +31228,7 @@ system Nanole
 			period 24.6053
 
 system Naokken
-	pos 5508.38 -7886.03
+	pos -44491.62 -57886.03
 	government Ultaka
 	habitable 486.68
 	link Daona
@@ -31272,7 +31272,7 @@ system Naokken
 			period 20.7413
 
 system Naoslen
-	pos 5760.44 -8054.27
+	pos -44239.56 -58054.27
 	government Ultaka
 	habitable 320
 	link Kodden
@@ -31324,7 +31324,7 @@ system Naoslen
 			period 21.5537
 
 system Nareenor
-	pos -1009.38 -5286.46
+	pos -51009.38 -55286.46
 	government Dels
 	habitable 425.92
 	belt 1088
@@ -31368,7 +31368,7 @@ system Nareenor
 		period 1834.02
 
 system Narek
-	pos 5035.68 -7908.52
+	pos -44964.32 -57908.52
 	government Ultaka
 	habitable 625
 	link Aecor
@@ -31407,7 +31407,7 @@ system Narek
 			period 12.8973
 
 system Neeveeria
-	pos -968.17 -5028.52
+	pos -50968.17 -55028.52
 	government Dels
 	habitable 2372.76
 	belt 1565
@@ -31470,7 +31470,7 @@ system Neeveeria
 			period 42.9022
 
 system Neevouka
-	pos -1236.41 -5203.98
+	pos -51236.41 -55203.98
 	government Dels
 	habitable 320
 	link Rocco
@@ -31543,7 +31543,7 @@ system Neevouka
 			0
 
 system Neflim
-	pos -2236.19 -6028.55
+	pos -52236.19 -56028.55
 	government Geeva
 	habitable 1080
 	belt 1407
@@ -31594,7 +31594,7 @@ system Neflim
 			period 35.4407
 
 system Nelha
-	pos -1146.98 -5400.96
+	pos -51146.98 -55400.96
 	government Dels
 	habitable 973.36
 	belt 1497
@@ -31661,7 +31661,7 @@ system Nelha
 			period 14.9572
 
 system Nell'O
-	pos -1749.8 -4803.79
+	pos -51749.8 -54803.79
 	government Dels
 	habitable 320
 	belt 1829
@@ -31721,7 +31721,7 @@ system Nell'O
 			period 14.9572
 
 system Nelop
-	pos -1885.94 -4879.51
+	pos -51885.94 -54879.51
 	government Dels
 	habitable 486.68
 	belt 1588
@@ -31781,7 +31781,7 @@ system Nelop
 			period 17.2657
 
 system "Neo Ha"
-	pos 652.639 -4948.03
+	pos -49347.36 -54948.03
 	government Uninhabited
 	habitable 425.92
 	link "Na Lao"
@@ -31812,7 +31812,7 @@ system "Neo Ha"
 		period 1866.94
 
 system "Neo Mak"
-	pos 677.639 -5001.03
+	pos -49322.36 -55001.03
 	government Uninhabited
 	habitable 858.28
 	link "Jun Senka"
@@ -31863,7 +31863,7 @@ system "Neo Mak"
 			period 33.753
 
 system Neosnen
-	pos 5261.27 -7942.36
+	pos -44738.73 -57942.36
 	government Ultaka
 	habitable 2372.76
 	link Feod
@@ -31918,7 +31918,7 @@ system Neosnen
 			period 29.505
 
 system Nersaer
-	pos 0.880997 -5564.88
+	pos -49999.12 -55564.88
 	government Erader
 	habitable 3780
 	link Argornecai
@@ -31987,7 +31987,7 @@ system Nersaer
 			period 49.8311
 
 system Neulod
-	pos -1207.56 -5410.8
+	pos -51207.56 -55410.8
 	government Dels
 	habitable 486.68
 	link Nelha
@@ -32042,7 +32042,7 @@ system Neulod
 			period 16.9232
 
 system Neusbor
-	pos -618.632 -7640.16
+	pos -50618.63 -57640.16
 	government Taroun
 	habitable 1715
 	belt 1062
@@ -32089,7 +32089,7 @@ system Neusbor
 			period 12.3721
 
 system Nigallr
-	pos -570.935 -5169.41
+	pos -50570.93 -55169.41
 	government Ignaggen
 	habitable 486.68
 	belt 1494
@@ -32145,7 +32145,7 @@ system Nigallr
 			period 16.3726
 
 system Nilarhi
-	pos 227.84 -4330.82
+	pos -49772.16 -54330.82
 	government Uninhabitated
 	habitable 1080
 	belt 1676
@@ -32172,7 +32172,7 @@ system Nilarhi
 		offset 78.6105
 
 system Nobdean
-	pos -1307.91 -5120.47
+	pos -51307.91 -55120.47
 	government Dels
 	habitable 625
 	link "Mea Sua"
@@ -32227,7 +32227,7 @@ system Nobdean
 			period 30.7777
 
 system Noeidae
-	pos -2069.53 -4995
+	pos -52069.53 -54995.0
 	government Dels
 	habitable 233.28
 	belt 1323
@@ -32282,7 +32282,7 @@ system Noeidae
 			period 29.2881
 
 system Nordevu
-	pos -1472.59 -4911.58
+	pos -51472.59 -54911.58
 	government Dels
 	habitable 3645
 	belt 1356
@@ -32343,7 +32343,7 @@ system Nordevu
 			period 14.3455
 
 system Nordulla
-	pos 101.003 -5369.84
+	pos -49899.0 -55369.84
 	government Ignaggen
 	habitable 1080
 	belt 1898
@@ -32400,7 +32400,7 @@ system Nordulla
 			period 30.4145
 
 system Norkare
-	pos 5228.72 -8598.16
+	pos -44771.28 -58598.16
 	government Ultaka
 	habitable 1715
 	link Ferlan
@@ -32443,7 +32443,7 @@ system Norkare
 			period 13.2204
 
 system Nornal
-	pos -1825.38 -5007.64
+	pos -51825.38 -55007.64
 	government Dels
 	habitable 2140.92
 	belt 1045
@@ -32519,7 +32519,7 @@ system Nornal
 			period 37.4385
 
 system Norsea
-	pos -1564.72 -5533.4
+	pos -51564.72 -55533.4
 	government Dels
 	habitable 945
 	link Keebusinor
@@ -32584,7 +32584,7 @@ system Norsea
 			period 33.7139
 
 system Norsicor
-	pos 248.877 -5596.38
+	pos -49751.12 -55596.38
 	government Erader
 	habitable 2372.76
 	link Argornecai
@@ -32645,7 +32645,7 @@ system Norsicor
 			period 29.505
 
 system Norva
-	pos -93.3067 -4933.29
+	pos -50093.31 -54933.29
 	government Revos
 	habitable 2372.76
 	belt 1760
@@ -32713,7 +32713,7 @@ system Norva
 			0
 
 system Norvu
-	pos 296.204 -4907.33
+	pos -49703.8 -54907.33
 	government Revos
 	habitable 2692.76
 	belt 1888
@@ -32781,7 +32781,7 @@ system Norvu
 			period 25.9081
 
 system Novee
-	pos -1375.02 -5002.39
+	pos -51375.02 -55002.39
 	government Dels
 	habitable 135
 	link "Jorenu Ke"
@@ -32844,7 +32844,7 @@ system Novee
 			period 40.3571
 
 system Nugorig
-	pos -737.452 -4948.88
+	pos -50737.45 -54948.88
 	government Ignaggen
 	habitable 425.92
 	belt 1606
@@ -32899,7 +32899,7 @@ system Nugorig
 			period 24.3016
 
 system Nugvuela
-	pos -775.452 -4741.88
+	pos -50775.45 -54741.88
 	government Ignaggen
 	habitable 1715
 	belt 1797
@@ -32948,7 +32948,7 @@ system Nugvuela
 		period 1107.09
 
 system Nulvekor
-	pos -1542.24 -5002.43
+	pos -51542.24 -55002.43
 	government Dels
 	habitable 486.68
 	belt 1065
@@ -33018,7 +33018,7 @@ system Nulvekor
 			period 37.0602
 
 system Oebade
-	pos -2324.16 -5693.88
+	pos -52324.16 -55693.88
 	government Geeva
 	habitable 912.6
 	belt 1471
@@ -33080,7 +33080,7 @@ system Oebade
 			period 29.3045
 
 system Ogaki
-	pos -1133.57 -6396.86
+	pos -51133.57 -56396.86
 	government "Kroom Kakaima"
 	habitable 2795
 	belt 1291
@@ -33136,7 +33136,7 @@ system Ogaki
 			period 13.2918
 
 system Oldar
-	pos 778.517 -5667.16
+	pos -49221.48 -55667.16
 	government Revos
 	habitable 486.68
 	belt 1395
@@ -33196,7 +33196,7 @@ system Oldar
 			period 14.3035
 
 system Olfor
-	pos 783.115 -7330.73
+	pos -49216.89 -57330.73
 	government Revos
 	habitable 1111.68
 	belt 1846
@@ -33259,7 +33259,7 @@ system Olfor
 			period 19.0736
 
 system Oliga
-	pos -1144.18 -6223.43
+	pos -51144.18 -56223.43
 	government "Kroom Kakaima"
 	habitable 621.68
 	link Ginja
@@ -33311,7 +33311,7 @@ system Oliga
 			period 19.4837
 
 system Olpuor
-	pos -1563.24 -4919.43
+	pos -51563.24 -54919.43
 	government Dels
 	habitable 368.28
 	belt 1643
@@ -33392,7 +33392,7 @@ system Olpuor
 			period 46.4831
 
 system Omili
-	pos -573.123 -6452.07
+	pos -50573.12 -56452.07
 	government "Kroom Kanai"
 	habitable 625
 	belt 1346
@@ -33436,7 +33436,7 @@ system Omili
 		offset 22.58
 
 system Ordel
-	pos 1025.92 -6412.14
+	pos -48974.08 -56412.14
 	government Revos
 	habitable 486.68
 	belt 1070
@@ -33496,7 +33496,7 @@ system Ordel
 			period 14.3087
 
 system Orel
-	pos 458.501 -4871.76
+	pos -49541.5 -54871.76
 	government Revos
 	habitable 425.92
 	belt 1684
@@ -33556,7 +33556,7 @@ system Orel
 			period 34.4089
 
 system Orseune
-	pos -808.895 -5448.64
+	pos -50808.89 -55448.64
 	government Dels
 	habitable 425.92
 	belt 1809
@@ -33618,7 +33618,7 @@ system Orseune
 			period 29.1325
 
 system Orvujer
-	pos -991.15 -4733.93
+	pos -50991.15 -54733.93
 	government Dels
 	habitable 1080
 	belt 1493
@@ -33670,7 +33670,7 @@ system Orvujer
 			period 35.5058
 
 system Orzisai
-	pos 82.7423 -4146.8
+	pos -49917.26 -54146.8
 	government Uninhabitated
 	habitable 425.92
 	belt 1219
@@ -33723,7 +33723,7 @@ system Orzisai
 			period 15.7131
 
 system "Panmur Kanul"
-	pos -2419.03 -4707.36
+	pos -52419.03 -54707.36
 	government Dels
 	habitable 1715
 	belt 1577
@@ -33775,7 +33775,7 @@ system "Panmur Kanul"
 			period 11.9034
 
 system Prudeiko
-	pos -2351.83 -4766.43
+	pos -52351.83 -54766.43
 	government Dels
 	habitable 2140.92
 	belt 1654
@@ -33836,7 +33836,7 @@ system Prudeiko
 			period 22.6009
 
 system "Pug Schmar"
-	pos 794.754 -4778.7
+	pos -49205.25 -54778.7
 	government Pug
 	habitable 233.28
 	asteroids "small rock" 5 2.3814
@@ -33884,7 +33884,7 @@ system "Pug Schmar"
 			period 23.6904
 
 system "Pug Yoot"
-	pos 739.262 -4771.29
+	pos -49260.74 -54771.29
 	habitable 233.28
 	belt 1145
 	asteroids "small rock" 2 7.9576
@@ -33923,7 +33923,7 @@ system "Pug Yoot"
 		period 3330.26
 
 system "Qee Auaro"
-	pos -1979.2 -5427.21
+	pos -51979.2 -55427.21
 	government "Dels (Pirate)"
 	habitable 3645
 	belt 1750
@@ -33986,7 +33986,7 @@ system "Qee Auaro"
 			period 32.9968
 
 system "Qee Damour"
-	pos -2224.44 -5277.53
+	pos -52224.44 -55277.53
 	government "Dels (Pirate)"
 	habitable 233.28
 	belt 1558
@@ -34032,7 +34032,7 @@ system "Qee Damour"
 			period 57.444
 
 system "Qee Darua"
-	pos -2180.08 -5144.1
+	pos -52180.08 -55144.1
 	government "Dels (Pirate)"
 	habitable 8640
 	belt 1608
@@ -34086,7 +34086,7 @@ system "Qee Darua"
 		period 494.002
 
 system "Qee Dinar"
-	pos -2363.35 -5499.73
+	pos -52363.35 -55499.73
 	government "Dels (Pirate)"
 	habitable 233.28
 	belt 1552
@@ -34145,7 +34145,7 @@ system "Qee Dinar"
 			period 12.4415
 
 system "Qee Doar"
-	pos -2177.27 -5614.02
+	pos -52177.27 -55614.02
 	government "Dels (Pirate)"
 	habitable 1080
 	belt 1641
@@ -34206,7 +34206,7 @@ system "Qee Doar"
 			period 51.8351
 
 system "Qee Duain"
-	pos -2065.67 -5516.89
+	pos -52065.67 -55516.89
 	government "Dels (Pirate)"
 	habitable 1250
 	belt 1949
@@ -34269,7 +34269,7 @@ system "Qee Duain"
 			period 27.8095
 
 system "Qee Duao"
-	pos -2371.48 -5221.92
+	pos -52371.48 -55221.92
 	government "Dels (Pirate)"
 	habitable 320
 	belt 1401
@@ -34323,7 +34323,7 @@ system "Qee Duao"
 			period 16.9749
 
 system "Qee Dukur"
-	pos -2097.83 -5315.55
+	pos -52097.83 -55315.55
 	government "Dels (Pirate)"
 	habitable 486.68
 	belt 1763
@@ -34381,7 +34381,7 @@ system "Qee Dukur"
 			period 78.5974
 
 system "Qee Dunor"
-	pos -2226.65 -5204.83
+	pos -52226.65 -55204.83
 	government "Dels (Pirate)"
 	habitable 320
 	belt 1781
@@ -34430,7 +34430,7 @@ system "Qee Dunor"
 		period 2405.44
 
 system "Qee Durdao"
-	pos -2398.88 -5167.65
+	pos -52398.88 -55167.65
 	government "Dels (Pirate)"
 	habitable 625
 	belt 1609
@@ -34497,7 +34497,7 @@ system "Qee Durdao"
 			period 53.8731
 
 system "Qee Fol"
-	pos -1924.26 -5587.33
+	pos -51924.26 -55587.33
 	government "Dels (Pirate)"
 	habitable 1080
 	link "Qee Nor"
@@ -34561,7 +34561,7 @@ system "Qee Fol"
 		0
 
 system "Qee Fuour"
-	pos -2248.8 -5481.01
+	pos -52248.8 -55481.01
 	government "Dels (Pirate)"
 	habitable 1505.92
 	belt 1129
@@ -34624,7 +34624,7 @@ system "Qee Fuour"
 			period 35.8873
 
 system "Qee Golle"
-	pos -2304.15 -5310.71
+	pos -52304.15 -55310.71
 	government "Dels (Pirate)"
 	habitable 486.68
 	belt 1919
@@ -34687,7 +34687,7 @@ system "Qee Golle"
 			period 53.2163
 
 system "Qee Kakur"
-	pos -2351.35 -5584.73
+	pos -52351.35 -55584.73
 	government "Dels (Pirate)"
 	habitable 745.92
 	belt 1673
@@ -34731,7 +34731,7 @@ system "Qee Kakur"
 		period 1760.32
 
 system "Qee Karol"
-	pos -2502.35 -5471.6
+	pos -52502.35 -55471.6
 	government "Dels (Pirate)"
 	habitable 320
 	belt 1684
@@ -34783,7 +34783,7 @@ system "Qee Karol"
 			period 25.9909
 
 system "Qee Nor"
-	pos -1833.74 -5588.38
+	pos -51833.74 -55588.38
 	government "Dels (Pirate)"
 	habitable 486.68
 	link "Qee Fol"
@@ -34837,7 +34837,7 @@ system "Qee Nor"
 			period 18.2475
 
 system "Qee Nori"
-	pos -1922.65 -5469.68
+	pos -51922.65 -55469.68
 	government "Dels (Pirate)"
 	habitable 486.68
 	belt 1724
@@ -34903,7 +34903,7 @@ system "Qee Nori"
 			period 28.402
 
 system "Qee Norika"
-	pos -1841.32 -5470.28
+	pos -51841.32 -55470.28
 	government "Dels (Pirate)"
 	habitable 858.28
 	link "Qee Nor"
@@ -34970,7 +34970,7 @@ system "Qee Norika"
 			period 47.0523
 
 system "Qee Norsua"
-	pos -2021.3 -5350.23
+	pos -52021.3 -55350.23
 	government "Dels (Pirate)"
 	habitable 233.28
 	link "Qee Auaro"
@@ -35030,7 +35030,7 @@ system "Qee Norsua"
 			0
 
 system "Qee Ordie"
-	pos -2444.35 -5534.73
+	pos -52444.35 -55534.73
 	government "Dels (Pirate)"
 	habitable 912.6
 	belt 1061
@@ -35089,7 +35089,7 @@ system "Qee Ordie"
 			period 14.5954
 
 system "Qee Rol"
-	pos -2289.87 -5526.29
+	pos -52289.87 -55526.29
 	government "Dels (Pirate)"
 	habitable 486.68
 	link "Qee Dinar"
@@ -35142,7 +35142,7 @@ system "Qee Rol"
 			period 27.7221
 
 system "Qee Tolor"
-	pos -1757.88 -5457.99
+	pos -51757.88 -55457.99
 	government "Dels (Pirate)"
 	habitable 851.84
 	link "Dukor Nor"
@@ -35212,7 +35212,7 @@ system "Qee Tolor"
 			period 46.0683
 
 system "Qee Tuaku"
-	pos -2095.74 -5244.7
+	pos -52095.74 -55244.7
 	government "Dels (Pirate)"
 	habitable 640
 	belt 1011
@@ -35282,7 +35282,7 @@ system "Qee Tuaku"
 			period 38.4907
 
 system "Qee Uardiue"
-	pos -2131.3 -5483.79
+	pos -52131.3 -55483.79
 	government "Dels (Pirate)"
 	habitable 4725
 	belt 1087
@@ -35341,7 +35341,7 @@ system "Qee Uardiue"
 		period 544.508
 
 system "Qee Ultur"
-	pos -2304.91 -5256.77
+	pos -52304.91 -55256.77
 	government "Dels (Pirate)"
 	habitable 425.92
 	belt 1655
@@ -35410,7 +35410,7 @@ system "Qee Ultur"
 			period 36.1924
 
 system "Qee Urio"
-	pos -2000.66 -5564.61
+	pos -52000.66 -55564.61
 	government "Dels (Pirate)"
 	habitable 233.28
 	belt 1316
@@ -35454,7 +35454,7 @@ system "Qee Urio"
 		period 4675.51
 
 system "Qee Urqide"
-	pos -2185.27 -5516.08
+	pos -52185.27 -55516.08
 	government "Dels (Pirate)"
 	habitable 625
 	belt 1589
@@ -35521,7 +35521,7 @@ system "Qee Urqide"
 			period 37.259
 
 system "Qee Urua"
-	pos -1826.54 -5654.68
+	pos -51826.54 -55654.68
 	government "Dels (Pirate)"
 	habitable 1080
 	belt 1662
@@ -35589,7 +35589,7 @@ system "Qee Urua"
 			period 24.4135
 
 system "Qee Vulkuri"
-	pos -1776.47 -5750.32
+	pos -51776.47 -55750.32
 	government "Dels (Pirate)"
 	habitable 625
 	belt 1344
@@ -35654,7 +35654,7 @@ system "Qee Vulkuri"
 			period 29.0404
 
 system Qortuan
-	pos 324.704 -4695.57
+	pos -49675.3 -54695.57
 	government Revos
 	habitable 320
 	belt 1320
@@ -35710,7 +35710,7 @@ system Qortuan
 			period 35.469
 
 system Racel
-	pos 5506.27 -7946.36
+	pos -44493.73 -57946.36
 	government Ultaka
 	habitable 486.68
 	link Daona
@@ -35761,7 +35761,7 @@ system Racel
 			period 23.7385
 
 system Radger
-	pos -569.143 -5025.16
+	pos -50569.14 -55025.16
 	government Ignaggen
 	habitable 553.28
 	belt 1070
@@ -35831,7 +35831,7 @@ system Radger
 			period 14.9436
 
 system Radon
-	pos 5470.08 -8211.25
+	pos -44529.92 -58211.25
 	government Ultaka
 	habitable 912.6
 	link Fealod
@@ -35883,7 +35883,7 @@ system Radon
 			period 47.1029
 
 system Rager
-	pos -1052.14 -6349.06
+	pos -51052.14 -56349.06
 	government "Kroom Kakaima"
 	habitable 425.92
 	belt 1812
@@ -35933,7 +35933,7 @@ system Rager
 			period 20.7764
 
 system Raioanor
-	pos -1068.49 -5263.22
+	pos -51068.49 -55263.22
 	government Dels
 	habitable 625
 	belt 1185
@@ -35986,7 +35986,7 @@ system Raioanor
 			period 32.1597
 
 system Rakugor
-	pos -848.798 -4865.59
+	pos -50848.8 -54865.59
 	government Ignaggen
 	habitable 425.92
 	belt 1492
@@ -36044,7 +36044,7 @@ system Rakugor
 			period 20.3072
 
 system Rasator
-	pos 53.5362 -5599.1
+	pos -49946.46 -55599.1
 	government Erader
 	habitable 806.68
 	link Argornecai
@@ -36121,7 +36121,7 @@ system Rasator
 			period 55.5222
 
 system Raskal
-	pos -645.073 -4598.4
+	pos -50645.07 -54598.4
 	government Ignaggen(Outlaw)
 	habitable 621.68
 	link Korudir
@@ -36186,7 +36186,7 @@ system Raskal
 			period 12.8105
 
 system Rasumos
-	pos 5722.71 -8362.16
+	pos -44277.29 -58362.16
 	government Ultaka
 	habitable 2859.44
 	link Carmo
@@ -36225,7 +36225,7 @@ system Rasumos
 		period 894.535
 
 system Ravo'oua
-	pos -758.398 -5487.06
+	pos -50758.4 -55487.06
 	government Dels
 	habitable 945
 	belt 1026
@@ -36286,7 +36286,7 @@ system Ravo'oua
 			period 41.3817
 
 system Receo
-	pos 5021.68 -8094.52
+	pos -44978.32 -58094.52
 	government Ultaka
 	habitable 3878.28
 	link Rekle
@@ -36334,7 +36334,7 @@ system Receo
 		period 556.006
 
 system Recker
-	pos 5587.41 -8585.4
+	pos -44412.59 -58585.4
 	government Ultaka
 	habitable 2201.68
 	link Carsen
@@ -36383,7 +36383,7 @@ system Recker
 			period 12.6001
 
 system Recoudee
-	pos -1564.22 -5589.15
+	pos -51564.22 -55589.15
 	government Dels
 	habitable 1080
 	link Colmo
@@ -36443,7 +36443,7 @@ system Recoudee
 			period 19.1071
 
 system Redeino
-	pos -821.165 -5239.32
+	pos -50821.17 -55239.32
 	government Dels
 	habitable 233.28
 	belt 1566
@@ -36489,7 +36489,7 @@ system Redeino
 		period 2369.62
 
 system Redleo
-	pos 5298.27 -8084.36
+	pos -44701.73 -58084.36
 	government Ultaka
 	habitable 486.68
 	link Damma
@@ -36529,7 +36529,7 @@ system Redleo
 			period 16.9427
 
 system Reecos
-	pos -1138.27 -5616.28
+	pos -51138.27 -55616.28
 	government Dels
 	habitable 320
 	link Govo
@@ -36578,7 +36578,7 @@ system Reecos
 			period 10.9565
 
 system Reenai
-	pos -1072.43 -5421.72
+	pos -51072.43 -55421.72
 	government Dels
 	habitable 2340
 	belt 1655
@@ -36644,7 +36644,7 @@ system Reenai
 		period 3956.86
 
 system Reevukmarai
-	pos -1873.29 -5267.82
+	pos -51873.29 -55267.82
 	government Dels
 	habitable 486.68
 	belt 1460
@@ -36697,7 +36697,7 @@ system Reevukmarai
 		period 1934.48
 
 system Reima
-	pos 5216.01 -8862.57
+	pos -44783.99 -58862.57
 	government Krinek
 	habitable 135
 	link Fersin
@@ -36752,7 +36752,7 @@ system Reima
 			period 57.4244
 
 system Reimar
-	pos 4667.7 -8343.39
+	pos -45332.3 -58343.39
 	government Resmakia
 	habitable 425.92
 	link Erkma
@@ -36805,7 +36805,7 @@ system Reimar
 		offset 60.386
 
 system Reisarlor
-	pos 160.228 -5890.24
+	pos -49839.77 -55890.24
 	government Erader
 	habitable 625
 	link Easterla
@@ -36854,7 +36854,7 @@ system Reisarlor
 		period 1905.15
 
 system Reisein
-	pos 5675.35 -8442.21
+	pos -44324.65 -58442.21
 	government Ultaka
 	habitable 1080
 	link Elnio
@@ -36898,7 +36898,7 @@ system Reisein
 			period 26.5598
 
 system Rekle
-	pos 4949.88 -8160.81
+	pos -45050.12 -58160.81
 	government Ultaka
 	habitable 1715
 	link Fedloe
@@ -36948,7 +36948,7 @@ system Rekle
 			period 28.4591
 
 system Relm
-	pos 4627.7 -8294.39
+	pos -45372.3 -58294.39
 	government Resmakia
 	habitable 320
 	link Erkma
@@ -36999,7 +36999,7 @@ system Relm
 			period 11.3321
 
 system Remanler
-	pos 5124.99 -8558.69
+	pos -44875.01 -58558.69
 	government Ultaka
 	habitable 1080
 	link Akmarlen
@@ -37044,7 +37044,7 @@ system Remanler
 			period 22.4844
 
 system Remao
-	pos 5370.82 -8243.93
+	pos -44629.18 -58243.93
 	government Ultaka
 	habitable 1111.68
 	link Fakeo
@@ -37097,7 +37097,7 @@ system Remao
 			period 22.9316
 
 system Remork
-	pos -1363.52 -5081.85
+	pos -51363.52 -55081.85
 	government Dels
 	habitable 486.68
 	link "Fee Jo"
@@ -37155,7 +37155,7 @@ system Remork
 		offset 341.361
 
 system Reok
-	pos 5064.68 -8046.52
+	pos -44935.32 -58046.52
 	government Ultaka
 	habitable 233.28
 	link Acoem
@@ -37204,7 +37204,7 @@ system Reok
 			period 44.6397
 
 system Reolar
-	pos 5392.94 -8515.9
+	pos -44607.06 -58515.9
 	government Ultaka
 	habitable 745.92
 	link Deonlar
@@ -37255,7 +37255,7 @@ system Reolar
 			period 24.3986
 
 system Reoma
-	pos 5376.82 -8184.93
+	pos -44623.18 -58184.93
 	government Ultaka
 	habitable 625
 	link Damma
@@ -37299,7 +37299,7 @@ system Reoma
 			period 13.0078
 
 system Reonna
-	pos 5505.27 -8057.36
+	pos -44494.73 -58057.36
 	government Ultaka
 	habitable 425.92
 	link Falmo
@@ -37350,7 +37350,7 @@ system Reonna
 			period 13.5117
 
 system Retkar
-	pos 5153.94 -8372.25
+	pos -44846.06 -58372.25
 	government Ultaka
 	habitable 320
 	link Aorder
@@ -37392,7 +37392,7 @@ system Retkar
 			period 26.0791
 
 system Reularoerd
-	pos -271.135 -7809.68
+	pos -50271.14 -57809.68
 	government Taroun
 	habitable 1111.68
 	belt 1656
@@ -37444,7 +37444,7 @@ system Reularoerd
 			period 15.2594
 
 system Reulo
-	pos 931.831 -5973.99
+	pos -49068.17 -55973.99
 	government Revos
 	habitable 760
 	belt 1736
@@ -37503,7 +37503,7 @@ system Reulo
 			period 14.4438
 
 system Reulor
-	pos 1001.51 -7008.1
+	pos -48998.49 -57008.1
 	government Revos
 	habitable 621.68
 	belt 1865
@@ -37567,7 +37567,7 @@ system Reulor
 			period 44.1307
 
 system Rikier
-	pos 5244.01 -9015.57
+	pos -44755.99 -59015.57
 	government Krinek
 	habitable 12285
 	link Fersin
@@ -37621,7 +37621,7 @@ system Rikier
 			period 37.7276
 
 system Rikor
-	pos -367.236 -5396.19
+	pos -50367.24 -55396.19
 	government Ignaggen
 	habitable 425.92
 	link Ikar
@@ -37685,7 +37685,7 @@ system Rikor
 			period 16.4785
 
 system Rilgeril
-	pos -2323.71 -6115.72
+	pos -52323.71 -56115.72
 	government Geeva
 	habitable 233.28
 	belt 1829
@@ -37726,7 +37726,7 @@ system Rilgeril
 			period 24.8184
 
 system Riliga
-	pos -541.626 -6667.37
+	pos -50541.63 -56667.37
 	government "Kroom Kanai"
 	habitable 625
 	belt 1446
@@ -37773,7 +37773,7 @@ system Riliga
 			period 40.1862
 
 system Riliule
-	pos -638.052 -4945.26
+	pos -50638.05 -54945.26
 	government Ignaggen
 	habitable 425.92
 	belt 1572
@@ -37837,7 +37837,7 @@ system Riliule
 		offset 207.911
 
 system Rocco
-	pos -1298.07 -5194.48
+	pos -51298.07 -55194.48
 	government Dels
 	habitable 486.68
 	belt 1639
@@ -37894,7 +37894,7 @@ system Rocco
 		offset 5.97712
 
 system Rokarl
-	pos -431.732 -5031.47
+	pos -50431.73 -55031.47
 	government Ignaggen
 	habitable 858.28
 	belt 1117
@@ -37962,7 +37962,7 @@ system Rokarl
 			period 13.3922
 
 system Rokel
-	pos 4729.53 -8329.43
+	pos -45270.47 -58329.43
 	government Resmakia
 	habitable 486.68
 	link Aeonma
@@ -38033,7 +38033,7 @@ system Rokel
 			0
 
 system Romor
-	pos -2593.09 -6071.59
+	pos -52593.09 -56071.59
 	government ZIS
 	habitable 2035
 	belt 1464
@@ -38099,7 +38099,7 @@ system Romor
 			period 75.2437
 
 system Roterla
-	pos -8.6709 -5529.75
+	pos -50008.67 -55529.75
 	government Erader
 	habitable 425.92
 	link Morsalo
@@ -38154,7 +38154,7 @@ system Roterla
 			period 22.4584
 
 system Rovordai
-	pos -1223.63 -5087.37
+	pos -51223.63 -55087.37
 	government Dels
 	habitable 5000
 	belt 1392
@@ -38217,7 +38217,7 @@ system Rovordai
 			period 14.4104
 
 system Rudarli
-	pos -167.254 -5194.58
+	pos -50167.25 -55194.58
 	government Ignaggen
 	habitable 1313.28
 	belt 1377
@@ -38284,7 +38284,7 @@ system Rudarli
 			period 33.4379
 
 system Ruggaru
-	pos -776.452 -4891.88
+	pos -50776.45 -54891.88
 	government Ignaggen
 	habitable 233.28
 	belt 1852
@@ -38342,7 +38342,7 @@ system Ruggaru
 			period 13.864
 
 system Ruhaude
-	pos -1386.36 -4670.57
+	pos -51386.36 -54670.57
 	government Dels
 	habitable 233.28
 	belt 1124
@@ -38400,7 +38400,7 @@ system Ruhaude
 			period 18.1052
 
 system Rulkor
-	pos -207.621 -5318.16
+	pos -50207.62 -55318.16
 	government Ignaggen
 	habitable 233.28
 	belt 1902
@@ -38453,7 +38453,7 @@ system Rulkor
 			period 29.1483
 
 system S1-1
-	pos 609.368 -4046.83
+	pos -49390.63 -54046.83
 	government Donko
 	habitable 425.92
 	link S1-2
@@ -38508,7 +38508,7 @@ system S1-1
 			period 52.5187
 
 system S1-2
-	pos 692.759 -4028.73
+	pos -49307.24 -54028.73
 	government Donko
 	habitable 4087.76
 	link S1-1
@@ -38556,7 +38556,7 @@ system S1-2
 		period 737.458
 
 system S1-3
-	pos 719.529 -3944.06
+	pos -49280.47 -53944.06
 	government Donko
 	habitable 486.68
 	link S1-2
@@ -38597,7 +38597,7 @@ system S1-3
 			period 25.3475
 
 system S1-4
-	pos 657.208 -3909.07
+	pos -49342.79 -53909.07
 	government Donko
 	habitable 1715
 	link S1-3
@@ -38642,7 +38642,7 @@ system S1-4
 			period 11.8208
 
 system S1-5
-	pos 586.59 -3922.04
+	pos -49413.41 -53922.04
 	government Donko
 	habitable 1705
 	link S1-4
@@ -38689,7 +38689,7 @@ system S1-5
 			period 30.6983
 
 system S1-6
-	pos 548.001 -3976.64
+	pos -49452.0 -53976.64
 	government Donko
 	habitable 486.68
 	link S1-1
@@ -38727,7 +38727,7 @@ system S1-6
 		period 2116.33
 
 system S2-1
-	pos 660.277 -4094.91
+	pos -49339.72 -54094.91
 	government Donko
 	habitable 1705
 	link S1-1
@@ -38788,7 +38788,7 @@ system S2-1
 			period 35.2113
 
 system S2-2
-	pos 739.328 -4070.22
+	pos -49260.67 -54070.22
 	government Donko
 	habitable 1566.68
 	link S1-2
@@ -38850,7 +38850,7 @@ system S2-2
 			period 17.6079
 
 system S2-3
-	pos 785.3 -3996.51
+	pos -49214.7 -53996.51
 	government Donko
 	habitable 1715
 	link S1-2
@@ -38903,7 +38903,7 @@ system S2-3
 			period 91.0828
 
 system S3-1
-	pos 639.437 -4177.55
+	pos -49360.56 -54177.55
 	government Donko
 	habitable 1080
 	link S2-1
@@ -38946,7 +38946,7 @@ system S3-1
 		period 1155.06
 
 system S3-2
-	pos 786.771 -4136.12
+	pos -49213.23 -54136.12
 	government Donko
 	habitable 425.92
 	link S2-2
@@ -38990,7 +38990,7 @@ system S3-2
 			period 20.281
 
 system S3-3
-	pos 823.76 -4078.82
+	pos -49176.24 -54078.82
 	government Donko
 	habitable 1566.68
 	belt 1084
@@ -39053,7 +39053,7 @@ system S3-3
 			period 21.2393
 
 system S3-4
-	pos 860.613 -4040.01
+	pos -49139.39 -54040.01
 	government Donko
 	habitable 1715
 	belt 1619
@@ -39101,7 +39101,7 @@ system S3-4
 		period 1256.99
 
 system S4-1
-	pos 647.177 -4263.59
+	pos -49352.82 -54263.59
 	government Donko
 	habitable 625
 	link "Dorai Nowoku"
@@ -39144,7 +39144,7 @@ system S4-1
 			period 34.6848
 
 system S4-2
-	pos 704.268 -4247.43
+	pos -49295.73 -54247.43
 	government Donko
 	habitable 625
 	link S3-1
@@ -39193,7 +39193,7 @@ system S4-2
 			period 20.4812
 
 system S4-3
-	pos 871.897 -4186.9
+	pos -49128.1 -54186.9
 	government Donko
 	habitable 1080
 	link S3-2
@@ -39238,7 +39238,7 @@ system S4-3
 			period 27.2812
 
 system S4-4
-	pos 904.575 -4124.92
+	pos -49095.43 -54124.92
 	government Donko
 	habitable 1715
 	link S3-3
@@ -39272,7 +39272,7 @@ system S4-4
 		period 1030.03
 
 system S4-5
-	pos 913.954 -4044.83
+	pos -49086.05 -54044.83
 	government Donko
 	habitable 5000
 	link S3-4
@@ -39320,7 +39320,7 @@ system S4-5
 			period 15.4972
 
 system S4-6
-	pos 879.613 -3954.01
+	pos -49120.39 -53954.01
 	government Ultaka
 	habitable 233.28
 	belt 1333
@@ -39372,7 +39372,7 @@ system S4-6
 			period 40.2312
 
 system S4-7
-	pos 574.593 -4146.66
+	pos -49425.41 -54146.66
 	government Donko
 	habitable 425.92
 	link S3-1
@@ -39415,7 +39415,7 @@ system S4-7
 			period 57.269
 
 system S4-8
-	pos 593.658 -4225.06
+	pos -49406.34 -54225.06
 	government Donko
 	habitable 973.36
 	link S3-1
@@ -39464,7 +39464,7 @@ system S4-8
 			period 14.6327
 
 system S5-1
-	pos 749.268 -4278.63
+	pos -49250.73 -54278.63
 	government Donko
 	habitable 945
 	link S4-2
@@ -39510,7 +39510,7 @@ system S5-1
 			period 22.8505
 
 system S5-2
-	pos 810.76 -4223.82
+	pos -49189.24 -54223.82
 	government Donko
 	habitable 425.92
 	belt 1060
@@ -39554,7 +39554,7 @@ system S5-2
 			period 15.4386
 
 system S5-3
-	pos 871.76 -4256.82
+	pos -49128.24 -54256.82
 	government Donko
 	habitable 320
 	belt 1946
@@ -39622,7 +39622,7 @@ system S5-3
 			period 70.5043
 
 system S5-4
-	pos 941.76 -4270.82
+	pos -49058.24 -54270.82
 	government Donko
 	habitable 1566.68
 	belt 1087
@@ -39671,7 +39671,7 @@ system S5-4
 			period 21.1246
 
 system S5-5
-	pos 928.943 -4190.18
+	pos -49071.06 -54190.18
 	government Donko
 	habitable 233.28
 	link S4-3
@@ -39716,7 +39716,7 @@ system S5-5
 			period 39.7727
 
 system S5-6
-	pos 546.714 -4087.94
+	pos -49453.29 -54087.94
 	government Donko
 	habitable 233.28
 	link S4-7
@@ -39753,7 +39753,7 @@ system S5-6
 		period 4368.5
 
 system S5-7
-	pos 497.326 -4127.03
+	pos -49502.67 -54127.03
 	government Donko
 	habitable 486.68
 	link S4-7
@@ -39802,7 +39802,7 @@ system S5-7
 			period 28.0493
 
 system S5-8
-	pos 523.261 -4171.3
+	pos -49476.74 -54171.3
 	government Donko
 	habitable 1215
 	belt 1002
@@ -39863,7 +39863,7 @@ system S5-8
 			period 52.1013
 
 system S5-9
-	pos 576.944 -4270.43
+	pos -49423.06 -54270.43
 	government Donko
 	habitable 486.68
 	link S4-1
@@ -39903,7 +39903,7 @@ system S5-9
 			period 12.3397
 
 system S6-1
-	pos 749.613 -4341.01
+	pos -49250.39 -54341.01
 	government Donko
 	habitable 945
 	belt 1396
@@ -39958,7 +39958,7 @@ system S6-1
 			period 23.831
 
 system S6-2
-	pos 817.877 -4294.51
+	pos -49182.12 -54294.51
 	government Donko
 	habitable 425.92
 	link S5-2
@@ -40007,7 +40007,7 @@ system S6-2
 			period 50.433
 
 system S6-3
-	pos 889.613 -4330.01
+	pos -49110.39 -54330.01
 	government Donko
 	habitable 625
 	belt 1447
@@ -40054,7 +40054,7 @@ system S6-3
 			period 13.8946
 
 system S6-4
-	pos 924.76 -4361.82
+	pos -49075.24 -54361.82
 	government Donko
 	habitable 625
 	belt 1276
@@ -40116,7 +40116,7 @@ system S6-4
 			period 35.7289
 
 system S6-7
-	pos 486.613 -3996.01
+	pos -49513.39 -53996.01
 	government Donko
 	habitable 945
 	belt 1259
@@ -40163,7 +40163,7 @@ system S6-7
 		period 1125.85
 
 system S6-8
-	pos 404.944 -4122.43
+	pos -49595.06 -54122.43
 	government Donko
 	habitable 5360
 	link "Coai Mesoh'a"
@@ -40213,7 +40213,7 @@ system S6-8
 			period 16.2914
 
 system S6-9
-	pos 447.944 -4191.43
+	pos -49552.06 -54191.43
 	government Donko
 	habitable 10355
 	link "Dakai Eor'en"
@@ -40254,7 +40254,7 @@ system S6-9
 		period 559.575
 
 system Sanaen
-	pos 5615.59 -8506.48
+	pos -44384.41 -58506.48
 	government Ultaka
 	habitable 8640
 	link Kordel
@@ -40309,7 +40309,7 @@ system Sanaen
 			period 24.2418
 
 system Santqoi
-	pos -348.536 -921.201
+	pos -50348.54 -50921.2
 	government Wallagi
 	habitable 320
 	link Wensta
@@ -40359,7 +40359,7 @@ system Santqoi
 			period 20.5608
 
 system Saor
-	pos -2726.36 -6058.63
+	pos -52726.36 -56058.63
 	government ZIS
 	habitable 320
 	link Romor
@@ -40392,7 +40392,7 @@ system Saor
 			offset 175.312
 
 system Saska
-	pos 281.587 -4944.68
+	pos -49718.41 -54944.68
 	government Ultaka
 	habitable 1080
 	asteroids "small rock" 3 2.805
@@ -40414,7 +40414,7 @@ system Saska
 		offset 340.818
 
 system Scmila
-	pos -989.382 -6290.15
+	pos -50989.38 -56290.15
 	government "Kroom Kakaima"
 	habitable 553.28
 	link Grakli
@@ -40467,7 +40467,7 @@ system Scmila
 			period 28.045
 
 system "Sector Dels"
-	pos -1555.06 -5273.8
+	pos -51555.06 -55273.8
 	government Dels
 	habitable 2372.76
 	belt 1949
@@ -40504,7 +40504,7 @@ system "Sector Dels"
 			offset 79.3685
 
 system Sedop
-	pos -1476.48 -5571.77
+	pos -51476.48 -55571.77
 	government Dels
 	habitable 1080
 	link Govri
@@ -40569,7 +40569,7 @@ system Sedop
 			0
 
 system Selna
-	pos 5692.08 -8071.25
+	pos -44307.92 -58071.25
 	government Ultaka
 	habitable 1715
 	link Faklad
@@ -40623,7 +40623,7 @@ system Selna
 			period 27.9108
 
 system Semli
-	pos 5577.63 -8301.82
+	pos -44422.37 -58301.82
 	government Ultaka
 	habitable 858.28
 	link Elnio
@@ -40667,7 +40667,7 @@ system Semli
 		period 1401.11
 
 system Sennai
-	pos 5144.09 -9295.49
+	pos -44855.91 -59295.49
 	government Krinek
 	habitable 486.68
 	link Finar
@@ -40714,7 +40714,7 @@ system Sennai
 		period 1862.78
 
 system Seorduka
-	pos -1173.75 -4651.64
+	pos -51173.75 -54651.64
 	government Dels
 	habitable 8640
 	belt 1329
@@ -40763,7 +40763,7 @@ system Seorduka
 			period 16.248
 
 system Serkakel
-	pos 280.066 -5681.32
+	pos -49719.93 -55681.32
 	government Erader
 	habitable 1080
 	link Kerbukcamori
@@ -40815,7 +40815,7 @@ system Serkakel
 			period 37.5984
 
 system Serlennor
-	pos 61.4129 -5446.31
+	pos -49938.59 -55446.31
 	government Erader
 	habitable 806.68
 	link Urmarse
@@ -40871,7 +40871,7 @@ system Serlennor
 			period 22.9994
 
 system Sermar
-	pos 5333.09 -9210.49
+	pos -44666.91 -59210.49
 	government Krinek
 	habitable 486.68
 	link Kerlin
@@ -40910,7 +40910,7 @@ system Sermar
 			period 15.809
 
 system Seya
-	pos -1184.64 -5471.59
+	pos -51184.64 -55471.59
 	government Dels
 	habitable 8645
 	link Aretu
@@ -40979,7 +40979,7 @@ system Seya
 			period 24.239
 
 system Sier
-	pos 5256.01 -9151.57
+	pos -44743.99 -59151.57
 	government Krinek
 	habitable 233.28
 	link Kaise
@@ -41030,7 +41030,7 @@ system Sier
 			period 35.1737
 
 system "Siir ai"
-	pos -141.258 -3828.8
+	pos -50141.26 -53828.8
 	government Uninhabitated
 	habitable 486.68
 	belt 1254
@@ -41078,7 +41078,7 @@ system "Siir ai"
 			period 72.0609
 
 system Simei
-	pos 5144.01 -9026.57
+	pos -44855.99 -59026.57
 	government Krinek
 	habitable 806.68
 	link Fersin
@@ -41127,7 +41127,7 @@ system Simei
 		period 2128.69
 
 system Skuga
-	pos -1263.27 -6248.28
+	pos -51263.27 -56248.28
 	government "Kroom Kakaima"
 	habitable 320
 	belt 1473
@@ -41186,7 +41186,7 @@ system Skuga
 		offset 0.0227289
 
 system Sodoranu
-	pos -1198.48 -5327.45
+	pos -51198.48 -55327.45
 	government Dels
 	habitable 625
 	belt 1944
@@ -41241,7 +41241,7 @@ system Sodoranu
 			period 16.3726
 
 system Soeku
-	pos 242.704 -4532.57
+	pos -49757.3 -54532.57
 	government Revos
 	habitable 425.92
 	belt 1231
@@ -41295,7 +41295,7 @@ system Soeku
 		period 3475.51
 
 system Sokel
-	pos 5524.27 -8635.01
+	pos -44475.73 -58635.01
 	government Ultaka
 	habitable 486.68
 	link Deonlar
@@ -41340,7 +41340,7 @@ system Sokel
 			period 21.5663
 
 system Sorel
-	pos 50.0198 -4855.36
+	pos -49949.98 -54855.36
 	government Revos
 	habitable 233.28
 	belt 1830
@@ -41397,7 +41397,7 @@ system Sorel
 			period 36.5122
 
 system Sorlar
-	pos 5623.63 -8240.82
+	pos -44376.37 -58240.82
 	government Ultaka
 	habitable 851.84
 	link Darsen
@@ -41440,7 +41440,7 @@ system Sorlar
 			period 12.2894
 
 system Sorniei
-	pos 21.7423 -4127.8
+	pos -49978.26 -54127.8
 	government Uninhabitated
 	habitable 135
 	belt 1881
@@ -41485,7 +41485,7 @@ system Sorniei
 			period 35.0804
 
 system Stidueda
-	pos -1060.45 -4776.19
+	pos -51060.45 -54776.19
 	government Dels
 	habitable 745.92
 	belt 1281
@@ -41556,7 +41556,7 @@ system Stidueda
 			period 19.6872
 
 system Sturvor
-	pos -1743.09 -5010.7
+	pos -51743.09 -55010.7
 	government Dels
 	habitable 425.92
 	belt 1403
@@ -41615,7 +41615,7 @@ system Sturvor
 			period 26.9033
 
 system Suadee
-	pos -1102.42 -5067.27
+	pos -51102.42 -55067.27
 	government Dels
 	habitable 466.56
 	belt 1005
@@ -41697,7 +41697,7 @@ system Suadee
 			period 52.1765
 
 system Sudean
-	pos -1240.64 -5151.85
+	pos -51240.64 -55151.85
 	government Dels
 	habitable 1250
 	link Alrtar
@@ -41773,7 +41773,7 @@ system Sudean
 			period 13.9218
 
 system Suedo
-	pos -1133.28 -5255.96
+	pos -51133.28 -55255.96
 	government Dels
 	habitable 1080
 	belt 1788
@@ -41840,7 +41840,7 @@ system Suedo
 			period 19.5924
 
 system Suedor
-	pos -1045.04 -4668.38
+	pos -51045.04 -54668.38
 	government Dels
 	habitable 1250
 	belt 1051
@@ -41894,7 +41894,7 @@ system Suedor
 		period 1337.29
 
 system Suere
-	pos -872.798 -5401.05
+	pos -50872.8 -55401.05
 	government Dels
 	habitable 625
 	belt 1008
@@ -41959,7 +41959,7 @@ system Suere
 			period 70.4029
 
 system Suideon
-	pos -1255.17 -4776.44
+	pos -51255.17 -54776.44
 	government Dels
 	habitable 553.28
 	belt 1277
@@ -42024,7 +42024,7 @@ system Suideon
 			period 25.3989
 
 system Sukko
-	pos -467.719 -6298.14
+	pos -50467.72 -56298.14
 	government "Kroom Kanai"
 	habitable 425.92
 	belt 1332
@@ -42076,7 +42076,7 @@ system Sukko
 			period 61.3555
 
 system Suno
-	pos 5246.32 -8753.56
+	pos -44753.68 -58753.56
 	government Ultaka
 	habitable 625
 	link Aranle
@@ -42126,7 +42126,7 @@ system Suno
 			period 30.8232
 
 system Suoho
-	pos 5176.86 -8633.11
+	pos -44823.14 -58633.11
 	government Ultaka
 	habitable 625
 	link Dodene
@@ -42175,7 +42175,7 @@ system Suoho
 			period 35.0236
 
 system Suolaa
-	pos -1749.67 -4867.2
+	pos -51749.67 -54867.2
 	government Dels
 	habitable 135
 	belt 1395
@@ -42235,7 +42235,7 @@ system Suolaa
 			period 28.3987
 
 system Susasnei
-	pos 5768.93 -8428.68
+	pos -44231.07 -58428.68
 	government Ultaka
 	habitable 486.68
 	link Lermoi
@@ -42296,7 +42296,7 @@ system Susasnei
 			period 54.5478
 
 system Taaikeno
-	pos -2576.75 -5704.23
+	pos -52576.75 -55704.23
 	government Geeva
 	habitable 912.6
 	belt 1574
@@ -42363,7 +42363,7 @@ system Taaikeno
 			period 27.8555
 
 system Tacisive
-	pos -2387.4 -5798.98
+	pos -52387.4 -55798.98
 	government Geeva
 	habitable 425.92
 	belt 1694
@@ -42429,7 +42429,7 @@ system Tacisive
 			period 20.7467
 
 system Takuvurdan
-	pos -1623.56 -5346.14
+	pos -51623.56 -55346.14
 	government Dels
 	habitable 425.92
 	belt 1058
@@ -42475,7 +42475,7 @@ system Takuvurdan
 		period 1909.78
 
 system Tedulce
-	pos -1456.68 -4802.07
+	pos -51456.68 -54802.07
 	government Dels
 	habitable 1080
 	belt 1581
@@ -42535,7 +42535,7 @@ system Tedulce
 			period 22.3761
 
 system Teimeo
-	pos 5257.82 -8210.93
+	pos -44742.18 -58210.93
 	government Ultaka
 	habitable 1313.28
 	link Aekelo
@@ -42574,7 +42574,7 @@ system Teimeo
 		period 1019.68
 
 system Tekle
-	pos 4936.68 -8003.52
+	pos -45063.32 -58003.52
 	government Ultaka
 	habitable 719.96
 	link Aecor
@@ -42646,7 +42646,7 @@ system Tekle
 			0
 
 system Teona
-	pos 4955.68 -8103.52
+	pos -45044.32 -58103.52
 	government Ultaka
 	habitable 1505.92
 	link Fedloe
@@ -42695,7 +42695,7 @@ system Teona
 			period 12.3542
 
 system Ternai
-	pos 5036.86 -9033.9
+	pos -44963.14 -59033.9
 	government Krinek
 	habitable 625
 	link Maisenni
@@ -42733,7 +42733,7 @@ system Ternai
 			period 14.5558
 
 system Tirnen
-	pos 5156.01 -9162.57
+	pos -44843.99 -59162.57
 	government Krinek
 	habitable 625
 	link Kichui
@@ -42779,7 +42779,7 @@ system Tirnen
 			period 43.0869
 
 system Tita
-	pos 5142.01 -8814.57
+	pos -44857.99 -58814.57
 	government Krinek
 	habitable 1080
 	link Kerso
@@ -42815,7 +42815,7 @@ system Tita
 		period 1314.78
 
 system Todelbe
-	pos -1562.96 -5416.44
+	pos -51562.96 -55416.44
 	government Dels
 	habitable 1080
 	belt 1514
@@ -42869,7 +42869,7 @@ system Todelbe
 			period 15.2054
 
 system "Trochzempt ZAZ-1"
-	pos -2821.23 -6019.85
+	pos -52821.23 -56019.85
 	government ZIS
 	habitable 320
 	link EY-454598
@@ -42902,7 +42902,7 @@ system "Trochzempt ZAZ-1"
 		fleet ""
 
 system Tuarli
-	pos -929.164 -5082.23
+	pos -50929.16 -55082.23
 	government Dels
 	habitable 625
 	belt 1825
@@ -42953,7 +42953,7 @@ system Tuarli
 		period 4379.61
 
 system Uadora
-	pos -1009.98 -5351.95
+	pos -51009.98 -55351.95
 	government Dels
 	habitable 425.92
 	belt 1335
@@ -43011,7 +43011,7 @@ system Uadora
 			period 18.6165
 
 system Uanalen
-	pos 4959.21 -9036.03
+	pos -45040.79 -59036.03
 	government Ultaka
 	habitable 973.36
 	asteroids "large metal" 1 5.5545
@@ -43054,7 +43054,7 @@ system Uanalen
 			period 23.7425
 
 system Ubase
-	pos -663.989 -7549.97
+	pos -50663.99 -57549.97
 	government Taroun
 	habitable 625
 	belt 1505
@@ -43089,7 +43089,7 @@ system Ubase
 			period 15.1695
 
 system Udideon
-	pos -2056.81 -4843.72
+	pos -52056.81 -54843.72
 	government Dels
 	habitable 486.68
 	belt 1585
@@ -43154,7 +43154,7 @@ system Udideon
 			period 31.8423
 
 system Udileen
-	pos -2331.74 -4669.07
+	pos -52331.74 -54669.07
 	government Dels
 	habitable 486.68
 	belt 1974
@@ -43211,7 +43211,7 @@ system Udileen
 			period 18.4472
 
 system Uelvo
-	pos 704.839 -7375.95
+	pos -49295.16 -57375.95
 	government Revos
 	habitable 135
 	belt 1269
@@ -43268,7 +43268,7 @@ system Uelvo
 			period 29.8678
 
 system Uileyder
-	pos -1182.96 -4787.17
+	pos -51182.96 -54787.17
 	government Dels
 	habitable 320
 	belt 1093
@@ -43329,7 +43329,7 @@ system Uileyder
 			period 22.6596
 
 system Ukara
-	pos -451.672 -6500.8
+	pos -50451.67 -56500.8
 	government "Kroom Kanai"
 	habitable 1080
 	belt 1968
@@ -43385,7 +43385,7 @@ system Ukara
 			period 13.1646
 
 system Ukmaai
-	pos -242.864 -6429.91
+	pos -50242.86 -56429.91
 	government "Kroom Kanai"
 	habitable 486.68
 	belt 1779
@@ -43437,7 +43437,7 @@ system Ukmaai
 			period 14.7677
 
 system Ulgavel
-	pos -808.604 -4676.07
+	pos -50808.6 -54676.07
 	government Ignaggen
 	habitable 425.92
 	belt 1733
@@ -43498,7 +43498,7 @@ system Ulgavel
 			period 57.2098
 
 system Ulkutalni
-	pos 4813.45 -7909.79
+	pos -45186.55 -57909.79
 	government Ultaka
 	habitable 659.2
 	link Deolme
@@ -43544,7 +43544,7 @@ system Ulkutalni
 		offset 258.754
 
 system Ulsenmor
-	pos 158.945 -5479.33
+	pos -49841.06 -55479.33
 	government Erader
 	habitable 1715
 	link Urtenlo
@@ -43589,7 +43589,7 @@ system Ulsenmor
 		period 1847.68
 
 system Unlorde
-	pos -172.247 -5252.71
+	pos -50172.25 -55252.71
 	government Ignaggen
 	habitable 2606.04
 	belt 1110
@@ -43650,7 +43650,7 @@ system Unlorde
 			period 30.284
 
 system Unnelon
-	pos 5566.05 -9061.99
+	pos -44433.95 -59061.99
 	government Ultaka
 	habitable 1715
 	asteroids "small rock" 32 3.5989
@@ -43688,7 +43688,7 @@ system Unnelon
 		period 2924.38
 
 system Untalaer
-	pos 759.446 -5123.19
+	pos -49240.55 -55123.19
 	government Ultaka
 	habitable 2692.76
 	link "Jun Mak"
@@ -43746,7 +43746,7 @@ system Untalaer
 		0
 
 system Uramase
-	pos 48.7516 -5770.94
+	pos -49951.25 -55770.94
 	government Erader
 	habitable 9065.92
 	link Atorma
@@ -43805,7 +43805,7 @@ system Uramase
 			period 11.83
 
 system Uraten
-	pos 85.3176 -5805.72
+	pos -49914.68 -55805.72
 	government Erader
 	habitable 1080
 	link Easterla
@@ -43874,7 +43874,7 @@ system Uraten
 			period 56.2624
 
 system Urdori
-	pos -610.337 -6768.41
+	pos -50610.34 -56768.41
 	government "Kroom Kanai"
 	habitable 320
 	belt 1979
@@ -43918,7 +43918,7 @@ system Urdori
 			period 13.2723
 
 system Urkwaar
-	pos 995.221 -4388.23
+	pos -49004.78 -54388.23
 	government Donko
 	habitable 486.68
 	link S6-4
@@ -43957,7 +43957,7 @@ system Urkwaar
 			period 26.1482
 
 system Urlansa
-	pos -233.313 -7692.19
+	pos -50233.31 -57692.19
 	government Taroun
 	habitable 425.92
 	belt 1389
@@ -44000,7 +44000,7 @@ system Urlansa
 		offset 311.928
 
 system Urmarse
-	pos 26.8555 -5509.69
+	pos -49973.14 -55509.69
 	government Erader
 	habitable 135
 	link Roterla
@@ -44053,7 +44053,7 @@ system Urmarse
 			period 30.9016
 
 system Uronuar
-	pos 37.9898 -5343.36
+	pos -49962.01 -55343.36
 	government Ignaggen
 	habitable 625
 	belt 1589
@@ -44115,7 +44115,7 @@ system Uronuar
 			period 14.6565
 
 system Ursekii
-	pos -922.924 -4565.42
+	pos -50922.92 -54565.42
 	habitable 4270
 	asteroids "small rock" 41 3.1174
 	asteroids "large rock" 9 2.0592
@@ -44162,7 +44162,7 @@ system Ursekii
 		offset 340.442
 
 system Urtenlo
-	pos 280.394 -5535.63
+	pos -49719.61 -55535.63
 	government Erader
 	habitable 320
 	link Eraku
@@ -44224,7 +44224,7 @@ system Urtenlo
 			period 37.1143
 
 system Varleron
-	pos -579.203 -4854.04
+	pos -50579.2 -54854.04
 	government Ignaggen
 	habitable 1080
 	belt 1530
@@ -44279,7 +44279,7 @@ system Varleron
 			period 12.3024
 
 system Vedeero
-	pos -1036.83 -4873.69
+	pos -51036.83 -54873.69
 	government Dels
 	habitable 1080
 	belt 1845
@@ -44338,7 +44338,7 @@ system Vedeero
 		period 1213.99
 
 system Veejurnu
-	pos -769.556 -5537.37
+	pos -50769.56 -55537.37
 	government Dels
 	habitable 320
 	belt 1745
@@ -44390,7 +44390,7 @@ system Veejurnu
 			period 22.658
 
 system Velivori
-	pos -2289.4 -5814.98
+	pos -52289.4 -55814.98
 	government Geeva
 	habitable 625
 	belt 1430
@@ -44443,7 +44443,7 @@ system Velivori
 			period 24.6333
 
 system Velmer
-	pos -2395.16 -5737.88
+	pos -52395.16 -55737.88
 	government Geeva
 	habitable 486.68
 	belt 1760
@@ -44502,7 +44502,7 @@ system Velmer
 			period 13.7097
 
 system Veokuidee
-	pos -1278.51 -4687.55
+	pos -51278.51 -54687.55
 	government Dels
 	habitable 1566.68
 	belt 1487
@@ -44576,7 +44576,7 @@ system Veokuidee
 			period 40.2543
 
 system Verdulla
-	pos -1356.82 -4862.21
+	pos -51356.82 -54862.21
 	government Dels
 	habitable 233.28
 	belt 1428
@@ -44632,7 +44632,7 @@ system Verdulla
 			period 13.7446
 
 system Vernern
-	pos 4678.7 -8443.39
+	pos -45321.3 -58443.39
 	government Erm
 	habitable 1111.68
 	link Eilmer
@@ -44687,7 +44687,7 @@ system Vernern
 			offset 175.079
 
 system Vertude
-	pos -1122.27 -4900.96
+	pos -51122.27 -54900.96
 	government Dels
 	habitable 1080
 	belt 1061
@@ -44737,7 +44737,7 @@ system Vertude
 			period 40.5282
 
 system Veukeeo
-	pos -1595.75 -5119.21
+	pos -51595.75 -55119.21
 	government Dels
 	habitable 486.68
 	belt 1490
@@ -44795,7 +44795,7 @@ system Veukeeo
 		offset 60.8973
 
 system Vibug
-	pos -647.914 -4882.1
+	pos -50647.91 -54882.1
 	government Ignaggen
 	habitable 719.96
 	belt 1337
@@ -44866,7 +44866,7 @@ system Vibug
 			period 13.0078
 
 system Vigune
-	pos -508.134 -4931.67
+	pos -50508.13 -54931.67
 	government Ignaggen
 	habitable 320
 	belt 1508
@@ -44931,7 +44931,7 @@ system Vigune
 			period 65.6857
 
 system Vikeoni
-	pos -1377.11 -4937.28
+	pos -51377.11 -54937.28
 	government Dels
 	habitable 486.68
 	belt 1621
@@ -44995,7 +44995,7 @@ system Vikeoni
 			period 65.6281
 
 system Vilkavis
-	pos -2394.59 -5909.24
+	pos -52394.59 -55909.24
 	government Geeva
 	habitable 320
 	belt 1262
@@ -45046,7 +45046,7 @@ system Vilkavis
 		period 7618.49
 
 system Viltakr
-	pos -2467.09 -5601.27
+	pos -52467.09 -55601.27
 	government Geeva
 	habitable 2340
 	belt 1909
@@ -45117,7 +45117,7 @@ system Viltakr
 			period 46.3692
 
 system Viorai
-	pos 72.8593 -4199.98
+	pos -49927.14 -54199.98
 	government Uninhabitated
 	habitable 8640
 	belt 1789
@@ -45150,7 +45150,7 @@ system Viorai
 		period 482.664
 
 system Viselit
-	pos -2465.09 -5765.27
+	pos -52465.09 -55765.27
 	government Geeva
 	habitable 486.68
 	belt 1987
@@ -45217,7 +45217,7 @@ system Viselit
 			period 49.5069
 
 system Voaiick
-	pos 178.857 -4150.93
+	pos -49821.14 -54150.93
 	government Uninhabitated
 	habitable 2859.44
 	belt 1256
@@ -45277,7 +45277,7 @@ system Voaiick
 			period 83.9209
 
 system Vobeelee
-	pos -1549.31 -5191.38
+	pos -51549.31 -55191.38
 	government Dels
 	habitable 1080
 	belt 1350
@@ -45363,7 +45363,7 @@ system Vobeelee
 			0
 
 system Vobi
-	pos 72.0198 -4774.36
+	pos -49927.98 -54774.36
 	government Revos
 	habitable 1400
 	belt 1855
@@ -45414,7 +45414,7 @@ system Vobi
 			period 12.9242
 
 system Voimira
-	pos 167.706 -5320.74
+	pos -49832.29 -55320.74
 	government Ignaggen
 	habitable 1080
 	belt 1698
@@ -45473,7 +45473,7 @@ system Voimira
 			period 16.0841
 
 system Vokuder
-	pos -569.038 -4765.58
+	pos -50569.04 -54765.58
 	government Ignaggen(Outlaw)
 	habitable 1566.68
 	belt 1613
@@ -45529,7 +45529,7 @@ system Vokuder
 		period 906.273
 
 system Volarnee
-	pos -952.258 -5433.06
+	pos -50952.26 -55433.06
 	government Dels
 	habitable 486.68
 	belt 1798
@@ -45587,7 +45587,7 @@ system Volarnee
 			period 29.6144
 
 system Volco
-	pos -1188.98 -5243.89
+	pos -51188.98 -55243.89
 	government Dels
 	habitable 625
 	belt 1547
@@ -45642,7 +45642,7 @@ system Volco
 		period 3207
 
 system Voltaric
-	pos -1814.24 -4883.69
+	pos -51814.24 -54883.69
 	government Dels
 	habitable 1215
 	belt 1918
@@ -45719,7 +45719,7 @@ system Voltaric
 			period 70.4751
 
 system Voltuara
-	pos -1445.12 -5133.1
+	pos -51445.12 -55133.1
 	government Dels
 	habitable 1715
 	link "Fee Lo"
@@ -45782,7 +45782,7 @@ system Voltuara
 		offset 84.2763
 
 system Vonov
-	pos 26.7423 -4040.8
+	pos -49973.26 -54040.8
 	government Uninhabitated
 	habitable 8640
 	belt 1883
@@ -45823,7 +45823,7 @@ system Vonov
 			period 13.7446
 
 system Vuivor
-	pos 248.704 -4621.57
+	pos -49751.3 -54621.57
 	government Revos
 	habitable 2340
 	belt 1109
@@ -45889,7 +45889,7 @@ system Vuivor
 			period 23.8739
 
 system Vukleda
-	pos -2123.68 -4933.89
+	pos -52123.68 -54933.89
 	government Dels
 	habitable 368.28
 	belt 1039
@@ -45963,7 +45963,7 @@ system Vukleda
 			period 22.4007
 
 system Vukruo
-	pos -1636.24 -5416.46
+	pos -51636.24 -55416.46
 	government Dels
 	habitable 233.28
 	belt 1706
@@ -46026,7 +46026,7 @@ system Vukruo
 			period 53.6345
 
 system Vukuor
-	pos -1093.31 -6734.04
+	pos -51093.31 -56734.04
 	government "Kroom Kanai"
 	habitable 2795
 	belt 1093
@@ -46082,7 +46082,7 @@ system Vukuor
 		period 843.725
 
 system Waisi
-	pos 5323.01 -8962.57
+	pos -44676.99 -58962.57
 	government Krinek
 	habitable 320
 	link Rikier
@@ -46134,7 +46134,7 @@ system Waisi
 			period 31.9863
 
 system Waisui
-	pos 5094.01 -9087.57
+	pos -44905.99 -59087.57
 	government Krinek
 	habitable 625
 	link Kirlei
@@ -46181,7 +46181,7 @@ system Waisui
 			period 18.6934
 
 system Waisun
-	pos 5282.01 -8891.57
+	pos -44717.99 -58891.57
 	government Krinek
 	habitable 425.92
 	link Fersin
@@ -46225,7 +46225,7 @@ system Waisun
 		period 1659.25
 
 system Weker
-	pos 4558.7 -8416.39
+	pos -45441.3 -58416.39
 	government Erm
 	habitable 1705
 	link Eilmer
@@ -46285,7 +46285,7 @@ system Weker
 			period 29.2247
 
 system Wensta
-	pos -380.821 -958.083
+	pos -50380.82 -50958.08
 	government Wallagi
 	habitable 3452.76
 	link Santqoi
@@ -46341,7 +46341,7 @@ system Wensta
 		period 1078.53
 
 system Worak
-	pos 639.416 -3981.86
+	pos -49360.58 -53981.86
 	government Donko
 	habitable 233.28
 	link S1-1
@@ -46430,7 +46430,7 @@ system Worak
 			0
 
 system Yikarnar
-	pos 92.5219 -4262.51
+	pos -49907.48 -54262.51
 	government Uninhabitated
 	habitable 973.36
 	belt 1036
@@ -46492,7 +46492,7 @@ system Yikarnar
 			period 42.5848
 
 system Yorsekager
-	pos 49.8107 -5654.72
+	pos -49950.19 -55654.72
 	government Erader
 	habitable 233.28
 	link Atorma
@@ -46553,7 +46553,7 @@ system Yorsekager
 			period 35.6747
 
 system Yorta
-	pos 231.704 -4696.57
+	pos -49768.3 -54696.57
 	government Revos
 	habitable 719.96
 	belt 1149
@@ -46629,7 +46629,7 @@ system Yorta
 			period 78.5247
 
 system Yurtanlo
-	pos 176.829 -5533.79
+	pos -49823.17 -55533.79
 	government Erader
 	habitable 320
 	link Argornecai
@@ -46681,7 +46681,7 @@ system Yurtanlo
 		period 6858.81
 
 system Yuruar
-	pos 167.841 -5427.93
+	pos -49832.16 -55427.93
 	government Erader
 	habitable 1715
 	link Atorka
@@ -46740,7 +46740,7 @@ system Yuruar
 			period 42.8762
 
 system Zaubaruer
-	pos -397.489 -7709.08
+	pos -50397.49 -57709.08
 	government Taroun
 	habitable 625
 	belt 1034
@@ -46792,7 +46792,7 @@ system Zaubaruer
 			period 34.7625
 
 system "Zerax WS-2"
-	pos -2896.56 -6013.11
+	pos -52896.56 -56013.11
 	government ZIS
 	habitable 806.68
 	link EY-455298
@@ -46830,7 +46830,7 @@ system "Zerax WS-2"
 		offset 26.5745
 
 system "Zoivol WS-1"
-	pos -2796.03 -5932.76
+	pos -52796.03 -55932.76
 	government ZIS
 	habitable 425.92
 	link EY-465523
@@ -46854,7 +46854,7 @@ system "Zoivol WS-1"
 		offset 5.07441
 
 system "a galaxy 4"
-	pos 11591.2 -4126.01
+	pos -38408.8 -54126.01
 	habitable 1715
 	asteroids "small rock" 14 2.394
 	asteroids "medium rock" 52 2.8728
@@ -46899,7 +46899,7 @@ system "a galaxy 4"
 			period 21.5963
 
 system ligar
-	pos -1354.47 -6253.88
+	pos -51354.47 -56253.88
 	government "Kroom Kakaima"
 	habitable 425.92
 	belt 1729
@@ -48555,37 +48555,3 @@ planet Wobore
 	attributes Donko
 	landscape land/snow0
 	description .
-	spaceport `Donko's landing pad are made of some thing very similar to Human's concrete but much stronger.`
-	shipyard "Donko Advanced"
-	outfitter "Donko Advanced"
-	security 0.5
-
-planet "Wormhole Alpha"
-
-planet "Wormhole Glink"
-
-planet "Zerax WS-2"
-	landscape land/sivael1
-	description `Zerax is easily one of the largest worldship around this area with fully self-sustaining ecosystem inside ready to support the population of an entire planet. `
-	spaceport `The ship's hangar bay is large enough all but the largest ships can fit inside easily. `
-	"required reputation" 1
-
-planet "Zoivol WS-1"
-	landscape land/station1
-	description `This worldship is visibly old and lightly damaged.`
-	spaceport .
-	"required reputation" 1
-
-planet "Zondra Station"
-	attributes "miners storage"
-	description `Zondra station was built here for purpose of holding harvest from the miners and let the civillians transport them to Trochzempt, decreasing time miners have to jump back to Trochzempt their own.`
-	spaceport `There are plenty of high-quality service for civillian for a small station from cafe to hotel, making the miners more happy with their job as they don't need to travel back to Trochzempt to find a good service.`
-	security 0.8
-
-planet threequestionmarks
-	landscape land/space7
-	description .
-	spaceport .
-	shipyard developer
-	outfitter developer
-
