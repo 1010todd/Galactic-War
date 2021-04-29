@@ -1,25 +1,28 @@
 outfitter modoutfits #Not completed and sorted yet
-	#=============Dels
-	#===Weap
+		#=============Dels
+	#===Weapon
 	"Skue-6 Blaster"
 	"Skue-8 Blaster"
 	"Skue-8 Reverse Blaster"
 	"Ukar-3 Blaster"
-	"PG10 Gun"
+	"Vokkar Gun"
+	"TC0B Laser"
+	"Skue-6 Turret"
+	"Skue-8 Turret"
+	"Kotdar Turret"
 	"Dels Sokak Cannon"
 	"Dels Sokak Cannon Turret"
-	"Sokak slug"
-	"TC0B Laser"
-	"DT1 Launcher"
-	"DT1 Missile"
-	"Dels Ramscoop"
-	"A1A Anti-Missile"
-	"A1H Anti-Missile"
-	"AA1 Turret"
-	"HA1 Turret"
+	"Sokak Slug"
 	"SK4 Launcher"
 	"SK4 Missile"
-	#===Engi
+	"DT1 Launcher"
+	"DT1 Missile"
+	
+	"Fitar Anti-Missile"
+	"Ganoau Anti-Missile"
+	"Dels Ramscoop"
+	
+	#===Engine
 	"Hao Ion Engines"
 	"Kuar Ion Engines"
 	"Mae Ion Engines"
@@ -45,6 +48,7 @@ outfitter modoutfits #Not completed and sorted yet
 	"Type-F Hyperdrive"
 	"Dalsa Fusion Reactor"
 	"Deela Fusion Reactor"
+	"Kulter Generator"
 	"C10 Fuel Cell"
 	"C20 Fuel Cell"
 	"C30 Fuel Cell"
@@ -60,6 +64,7 @@ outfitter modoutfits #Not completed and sorted yet
 	"SK4 Magazines"
 	"Deeraka Plasma Engines"
 	"Delisma Longrifle"
+	"Sakkaid Blaster"
 	#==============Donko
 	"J1 MES Gun"
 	"J6 KED Turret"
@@ -121,8 +126,13 @@ outfitter modoutfits #Not completed and sorted yet
 	"Masuit Ka"
 	"Meteon Akon"
 	
-	"Gogase Rail Cannon"
-	"Gosa Energy Cannon"
+	"Qoro Armour Plating"
+	"Qoro Power Armour"
+	"Algarral Battle Gun"
+	"Orthall Assault Cannon"
+	"Goa Cell"
+	"Aog Cell"
+	"Heur Cell"
 	"Qoro(E) Anti-Missile"
 	"Igornuit"
 	
@@ -130,6 +140,19 @@ outfitter modoutfits #Not completed and sorted yet
 	"FM10M Gun Group1"
 	"FM10M Gun Group2"
 	"Model-3A Rifle"
+	#====================Ignaggen
+	"Gikorel Anti-Missile"
+	"Igarsot Cannon"
+	"Igarsot Turret"
+	"Georlen Gun"
+	"Georlen Turret"
+	"Rakkrao Cannon"
+	
+	"Gatourot Capacitor"
+	"Vultador Cell"
+	"Vurlugigr Reactor"
+	"Orvuilugr Reactor"
+	"Ignaggen Cooling System"
 	#====================Geeva
 	
 	
@@ -141,6 +164,22 @@ outfitter modoutfits #Not completed and sorted yet
 	#================Kroom
 	"Gorka Homai"
 	"Hok O-Homai"
+	#=====================Wallagi
+	"Asenil Shield Generator"
+	"Filkei Shield Generator"
+	"Lestur Shield Generator"
+	"Sestar Shield Generator"
+	"Tensel Shield Generator"
+	"Yalgos Shield Generator"
+	"C10-W Hinlar Core"
+	"C60-W Falmin Core"
+	"C80-W Mallar Core"
+	"Kal-1 Engines"
+	"Kal-4 Engines"
+	"Kal-8 Engines"
+	"Kal-10 Engines"
+	"Ulyukar Heat Control"
+	"Sach Anti-missile"
 	#=====================Zis
 	"Zis Standard Sword"
 	"AC-30 Assault Rifle"
@@ -168,6 +207,7 @@ outfitter modoutfits #Not completed and sorted yet
 	"SnowStorm Gun"
 	"FireStorm Flamethrower"
 	"Brumba Cannon"
+	"Zis Dragon's Breath" #Kuxzen
 	#===================Kroom
 	"Krogak Missile Launcher" 
 	"Krogak Missile" 
@@ -210,7 +250,109 @@ outfitter modoutfits #Not completed and sorted yet
 	"SL Botavu"
 	"E Anor"
 	"B Kechon"
+	#====================New Sky merge
+	###Zorcn###
+	#Weapons
+	"Huer II CIWS Turret"
+	"Huer CIWS Turret"
+	"Anlis Gauss Gun"
+	"Anlis Gun Ammo"
+	"Anlis Bullet Boxes"
+	"Anlis Gauss Turret"
+	"Etkan Rocket CIWS Turret"
+	"Etkan Rocket"
+	"Utvr40 Turret"
+	"Utvr40 Gun"
+	"Utvr40 Shell"
+	"Utvr40 Storage Room"
 	
+	"Muaner Missile Launcher"
+	"Muaner Missile"
+	"Muaner Missile Rack"
+	"Ronc Pod"
+	"Ronc Turret"
+	"Ronc Storage Crate"
+	"Ronc Rocket"
+	"Durnske Missile Launcher"
+	"Durnske Missile"
+	"Durnske VLS"
+	"Krabusin Missile Launcher"
+	"Krabusin Missile"
+	#Power
+	"Evtarn Power Cell"
+	"Euman Power Cell"
+	"Eaur Power Cell"
+	"Rcke Generator"
+	"Cusin Capacitor"
+	"Ksin Capacitor"
+	"Nuxin Capacitor"
+	#Systems
+	"Korbus Shield Generator"
+	"Kussn Shield Generator"
+	"Neyton N1 Armor Plating"
+	"Neyton K1 Shield Module"
+	"Neyton M1 Fuel Tank"
+	"Nitil Shielding System"
+	"P-type Heat Re-distributor"
+	"A-type Heat Re-distributor"
+	"Heat Recycle System"
+	#Engines
+	"Haahesn Thruster"
+	"Haron Thruster"
+	"Hvean Thruster"
+	"Haahesn Steering"
+	"Haron Steering"
+	"Hvean Steering"
+	"Haron Reverse Thruster"
+	"Hvean Reverse Thruster"
+	"Hconor Thruster"
+	"Hconor Steering"
+	"Kttyr Thruster"
+	"Kynsin Thruster"
+	"Kxur Thruster"
+	#H2H
+	"Hyut SMG"
+	"Ronar Rocket Rifle"
+	#Other 
+	"VLS support modification"
+	
+	##Vareen##
+	#Weapons
+	"Lismnia Gun"
+	"Lismnia Turret"
+	"Hiseni Turret"
+	"Itis Gun"
+	"Itir Gun"
+	"Viten Anti-Missile"
+	
+	"I6V2 Core"
+	"I3V2 Core"
+	
+	##Tehru
+	#Weapons
+	"Vuskchet Cannon"
+	"Vuskchet Turret"
+	"Vrrpak Gun"
+	"Vrrpak Turret"
+	
+	#Systems
+	"Ainvus Shield Generator"
+	"Epir Shield Generator"
+	"Jukir Shield Generator"
+	"Pivura Shield Generator"
+	
+	#Engines
+	"Akonu Thruster"
+	"Ahura Thruster"
+	"Fokhun Thruster"
+	"Ivtorne Thruster"
+	"Urhas Thruster"
+	
+	"Akonu Steering"
+	"Ahura Steering"
+	"Fokhun Steering"
+	"Ivtorne Steering"
+	"Urhas Steering"
 shipyard modships
 	#================GW ZIS
 	"VK-35 Katen"
@@ -340,6 +482,9 @@ shipyard modships
 	"Keorlen"
 	"Gikeor"
 	"Kina"
+	
+	"Koggareu"
+	"Kamuel"
 	#====================Kroom Kakaima
 	"Grokva"
 	"Giro"
@@ -354,4 +499,41 @@ shipyard modships
 	#================Kroom Kanai
 	"Kargorko"
 	"Kaargor"
-	
+	#===================New Sky merge
+	"Ar Pu Haa"
+	"Ar Da Sam"
+	"Ko Dok Sam"
+	"Ar Pu Haa (Vordai)"
+	"Ko Dok Sam (Vordai)"
+	"Ca Mok Si"
+	"Wi Wai Si"
+	"Zorcn Barsten"
+	"Zorcn Bermas"
+	"Zorcn Augyr"
+	"Zorcn Genex"
+	"Zorcn Dermue"
+	"Zorcn Inckv"
+	"Zorcn Eytis"
+	"Zorcn Itrras"
+	"Zorcn Bytis"
+	"Zorcn Nuar'an"
+	"Zorcn Mausr"
+	"Zorcn Mtyr"
+	"Zorcn Mausr Lite"
+	"Zorcn Vixta"
+	"Zorcn Bitorn"
+	"Zorcn Vorrix"
+	"Zorcn Beltr"
+	"Zorcn Enntr"
+	"Zorcn Emaryt"
+	"Zorcn Xima"
+	"Vareen Issenmar"
+	"Vareen Serispha"
+	"Vareen Virmir"
+	"Vareen Versine"
+	"Yiisk Piitom"
+	"Tehru Avir"
+	"Tehru Mavuin"
+	"Tehru Piv"
+	"Tehru Tcvarka"
+	"Tehru Vurbck"
