@@ -1380,6 +1380,28 @@ outfit "M-80 Engine"
 	"reverse thrusting heat" 20
 	
 		
+outfit "Zis Galactic Drive"
+	category "Systems"
+	cost 80000000
+	thumbnail "outfit/zis galactic drive"
+	"mass" 21
+	"hyperdrive" 1
+	"jump speed" 6
+	"jump drive" 1
+	"jump range" 3100
+	"jump effect" "zis galactic drive"
+	"jump sound" "zis galactic drive"
+	"jump in sound" "zis galactic drive in"
+	"jump out sound" "zis galactic drive out"
+	
+effect "zis galactic drive"
+	sprite "effect/zis galactic drive"
+		"no repeat"
+		"frame rate" 14
+	"lifetime" 12
+	"velocity scale" 1
+	"random velocity" 6
+		
 outfit "ZIS Recon Pod"
 	category "Systems"
 	cost 42000000
@@ -1419,4 +1441,5 @@ outfit "Zis Standard Sword"
 	"unplunderable" 1
 	description "While it looks similar to regular sword, these sword can be powered and when powered will easily slice through most though materials like hot knife to butter. It is mostly useless in battle with guns, it is usually used as tool for breaching or rescuing."
 	description "."
+	
 	

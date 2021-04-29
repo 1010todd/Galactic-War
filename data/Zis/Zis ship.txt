@@ -20,6 +20,10 @@ ship "VK-35 Katen"
 			"hyperdrive" 1
 			"jump speed" 6
 			"jump drive" 1
+			"jump effect" "zis galactic drive"
+			"jump sound" "zis galactic drive"
+			"jump in sound" "zis galactic drive in"
+			"jump out sound" "zis galactic drive out"
 			"ramscoop" 15
 			"scan interference" 1
 			"radar jamming" 5
@@ -265,6 +269,10 @@ ship "RZ-28 Forlan"
 		"hyperdrive" 1
 		"jump speed" 6
 		"jump drive" 1
+		"jump effect" "zis galactic drive"
+		"jump sound" "zis galactic drive"
+		"jump in sound" "zis galactic drive in"
+		"jump out sound" "zis galactic drive out"
 		"cooling" 80
 		"cloak" 1
 		"cloaking energy" 5
@@ -315,6 +323,10 @@ ship "RZ-621-02 Razor"
 		"hyperdrive" 1
 		"jump speed" 6
 		"jump drive" 1
+		"jump effect" "zis galactic drive"
+		"jump sound" "zis galactic drive"
+		"jump in sound" "zis galactic drive in"
+		"jump out sound" "zis galactic drive out"
 		"cooling" 150
 		"scan interference" 2
 		"radar jamming" 5
@@ -400,6 +412,10 @@ ship "SY-8662 Sysor"
 		"hyperdrive" 1
 		"jump speed" 6
 		"jump drive" 1
+		"jump effect" "zis galactic drive"
+		"jump sound" "zis galactic drive"
+		"jump in sound" "zis galactic drive in"
+		"jump out sound" "zis galactic drive out"
 		"ZIS AM Lock" -4
 		weapon
 			"blast radius" 80
@@ -464,6 +480,10 @@ ship "DT-510 Quadlancer"
 		"hyperdrive" 1
 		"jump speed" 6
 		"jump drive" 1
+		"jump effect" "zis galactic drive"
+		"jump sound" "zis galactic drive"
+		"jump in sound" "zis galactic drive in"
+		"jump out sound" "zis galactic drive out"
 		"scan interference" 12
 		"radar jamming" 8
 		"swizzle" 0
@@ -516,6 +536,10 @@ ship "DT-224 Trazar"
 		"hyperdrive" 1
 		"jump speed" 6
 		"jump drive" 1
+		"jump effect" "zis galactic drive"
+		"jump sound" "zis galactic drive"
+		"jump in sound" "zis galactic drive in"
+		"jump out sound" "zis galactic drive out"
 		"cooling" 150
 		"scan interference" 2.5
 		"radar jamming" 5
@@ -711,6 +735,10 @@ ship "TZ-3468 Seoui"
 		"hyperdrive" 1
 		"jump speed" 6.2
 		"jump drive" 1
+		"jump effect" "zis galactic drive"
+		"jump sound" "zis galactic drive"
+		"jump in sound" "zis galactic drive in"
+		"jump out sound" "zis galactic drive out"
 		"ZIS AM Lock" -4
 		weapon
 			"blast radius" 80
@@ -770,6 +798,10 @@ ship "ZM-5422 Karloz"
 		"hyperdrive" 1
 		"jump speed" 6.2
 		"jump drive" 1
+		"jump effect" "zis galactic drive"
+		"jump sound" "zis galactic drive"
+		"jump in sound" "zis galactic drive in"
+		"jump out sound" "zis galactic drive out"
 		"cooling" 780
 		"scan interference" 22
 		"radar jamming" 22
@@ -792,6 +824,7 @@ ship "ZM-5422 Karloz"
 		"HW-1S Shield Generator"
 		
 		"M-80 Engine"
+		"Zis Galactic Drive"
 		
 	#Main cannon
 	turret 0 -161 "Zymar Turret"
@@ -1013,6 +1046,10 @@ ship "ZM-5422 Karloz" "Karloz Drone"
 		"hyperdrive" 1
 		"jump speed" 6.2
 		"jump drive" 1
+		"jump effect" "zis galactic drive"
+		"jump sound" "zis galactic drive"
+		"jump in sound" "zis galactic drive in"
+		"jump out sound" "zis galactic drive out"
 		"cooling" 780
 		"scan interference" 22
 		"radar jamming" 22
@@ -1109,6 +1146,10 @@ ship "AD-672 Ranzai"
 		"hyperdrive" 1
 		"jump speed" 6.2
 		"jump drive" 1
+		"jump effect" "zis galactic drive"
+		"jump sound" "zis galactic drive"
+		"jump in sound" "zis galactic drive in"
+		"jump out sound" "zis galactic drive out"
 		"cooling" 100
 		"scan interference" 2.5
 		"radar jamming" 5
@@ -1171,6 +1212,10 @@ ship "BS-2237 Ryuzo"
 		"hyperdrive" 1
 		"jump speed" 6.2
 		"jump drive" 1
+		"jump effect" "zis galactic drive"
+		"jump sound" "zis galactic drive"
+		"jump in sound" "zis galactic drive in"
+		"jump out sound" "zis galactic drive out"
 		"cooling" 130
 		"scan interference" 4
 		"radar jamming" 5.6
@@ -1234,6 +1279,10 @@ ship "BX-3826 Kazai"
 		"hyperdrive" 1
 		"jump speed" 6.2
 		"jump drive" 1
+		"jump effect" "zis galactic drive"
+		"jump sound" "zis galactic drive"
+		"jump in sound" "zis galactic drive in"
+		"jump out sound" "zis galactic drive out"
 		"cooling" 150
 		"scan interference" 2.8
 		"radar jamming" 5
@@ -1363,6 +1412,10 @@ ship "ZC-4226 Zaikul"
 		"hyperdrive" 1
 		"jump speed" 6.2
 		"jump drive" 1
+		"jump effect" "zis galactic drive"
+		"jump sound" "zis galactic drive"
+		"jump in sound" "zis galactic drive in"
+		"jump out sound" "zis galactic drive out"
 		"cooling" 830
 		"scan interference" 25
 		"radar jamming" 22
@@ -1486,6 +1539,10 @@ ship "AS-56 Virsiz"
 			"hyperdrive" 1
 			"jump speed" 6.1
 			"jump drive" 1
+			"jump effect" "zis galactic drive"
+			"jump sound" "zis galactic drive"
+			"jump in sound" "zis galactic drive in"
+			"jump out sound" "zis galactic drive out"
 			"ramscoop" 15
 			"scan interference" 6
 			"radar jamming" 12
@@ -1533,6 +1590,10 @@ ship "AI-AD-860 Aorlan"
 		"hyperdrive" 1
 		"jump speed" 6.1
 		"jump drive" 1
+		"jump effect" "zis galactic drive"
+		"jump sound" "zis galactic drive"
+		"jump in sound" "zis galactic drive in"
+		"jump out sound" "zis galactic drive out"
 		"cooling" 158
 		"scan interference" 5
 		"radar jamming" 7
@@ -1584,6 +1645,10 @@ ship "ZN-7681 Eaxes"
 		"hyperdrive" 1
 		"jump speed" 6.2
 		"jump drive" 1
+		"jump effect" "zis galactic drive"
+		"jump sound" "zis galactic drive"
+		"jump in sound" "zis galactic drive in"
+		"jump out sound" "zis galactic drive out"
 		"cooling" 2000
 		"scan interference" 30
 		"radar jamming" 30
@@ -1617,6 +1682,7 @@ ship "ZN-7681 Eaxes"
 		"MW-1S Shield Generator"
 		
 		"M-80 Engine" 2
+		"Zis Galactic Drive"
 		
 	gun 0 -550
 	gun 0 -550
