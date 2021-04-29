@@ -217,8 +217,7 @@ system Aelleo
 	trade Medical 657
 	trade Metal 489
 	trade Plastic 407
-	fleet "Ignaggen Outlaw" 2300
-	fleet "Kager Military" 800
+	fleet "Kager Ignaggen" 800
 	fleet Ignaggen 1000
 	object
 		sprite star/g5
@@ -497,13 +496,14 @@ system Agaka
 			period 13.9218
 
 system Aiborgu
-	pos -433.758 -5179.28
+	pos -434.758 -5165.28
 	government Ignaggen
 	habitable 320
 	belt 1658
 	link Arger
 	link Kiaun
 	link Kiler
+	link Nagettor
 	asteroids "small rock" 3 2.6712
 	asteroids "medium rock" 48 4.2336
 	asteroids "large rock" 24 6.6528
@@ -523,7 +523,7 @@ system Aiborgu
 	trade Medical 791
 	trade Metal 494
 	trade Plastic 453
-	fleet "Kager Military" 1000
+	fleet "Kager Ignaggen" 1000
 	fleet Ignaggen 800
 	object
 		sprite star/m0
@@ -586,7 +586,7 @@ system Aili
 	trade Medical 888
 	trade Metal 506
 	trade Plastic 303
-	fleet "Kager Military" 1000
+	fleet "Kager Ignaggen" 1000
 	fleet Ignaggen 800
 	object
 		sprite star/k5
@@ -905,7 +905,7 @@ system Altol
 	trade Medical 668
 	trade Metal 261
 	trade Plastic 326
-	fleet "Dels guard" 1000
+	fleet "Dels Kaote" 1000
 	fleet "Dels miner" 1200
 	fleet Ignaggen 700
 	fleet "Dels merchant" 600
@@ -1011,7 +1011,7 @@ system Ano
 system Aomaneg
 	pos -885.141 -5015.96
 	government Ignaggen
-	habitable 1715
+	habitable 1250
 	belt 1122
 	link Lourge
 	link Mallukavi
@@ -1035,43 +1035,54 @@ system Aomaneg
 	trade Medical 854
 	trade Metal 254
 	trade Plastic 392
-	fleet "Kager Military" 1000
-	fleet Ignaggen 800
+	fleet "Kager Ignaggen" 1000
+	fleet Ignaggen 700
+	fleet "Dels merchant" 700
 	object
-		sprite star/f5
-		period 10
+		sprite star/g5
+		distance 62.5
+		period 15.8114
+		offset 180
 	object
-		sprite planet/desert5
-		distance 173.25
-		period 22.0261
+		sprite star/g5
+		distance 62.5
+		period 15.8114
+	object
+		sprite planet/mercury
+		distance 228.94
+		period 39.1911
+	object
+		sprite planet/cloud7
+		distance 448.18
+		period 107.345
+	object Uglurren
+		sprite planet/ocean1
+		distance 983.63
+		period 349.022
+		offset 28.8909
+	object Gricall
+		sprite planet/desert2
+		distance 1411.88
+		period 600.208
+		offset 151.62
 	object
 		sprite planet/gas15
-		distance 842.89
-		period 236.366
+		distance 1789.29
+		period 856.3
+		offset 82.187
 		object
-			sprite planet/dust5
-			distance 222
-			period 17.4111
-		object
-			sprite planet/ice7
-			distance 374
-			period 38.0719
+			sprite planet/dust4
+			distance 196
+			period 14.4438
 	object
-		sprite planet/ocean0
-		distance 1394.89
-		period 503.197
-	object
-		sprite planet/gas3
-		distance 2247.1
-		period 1028.87
+		sprite planet/neptune
+		distance 3975.65
+		period 2836.07
+		offset 10.7264
 		object
-			sprite planet/desert4
-			distance 304
-			period 13.5386
-		object
-			sprite planet/rock17
-			distance 438
-			period 23.414
+			sprite planet/rock14
+			distance 204
+			period 14.517
 
 system Aorder
 	pos 5095.1 -8419.73
@@ -1160,7 +1171,7 @@ system Aorlem
 	trade Medical 658
 	trade Metal 367
 	trade Plastic 489
-	fleet "Kager Military" 1000
+	fleet "Kager Ignaggen" 1000
 	fleet Ignaggen 800
 	object
 		sprite star/g5
@@ -1350,7 +1361,7 @@ system Aregolli
 	trade Medical 669
 	trade Metal 426
 	trade Plastic 492
-	fleet "Kager Military" 1000
+	fleet "Kager Ignaggen" 1000
 	fleet Ignaggen 800
 	object
 		sprite star/m4
@@ -1416,7 +1427,7 @@ system Arema
 	trade Medical 871
 	trade Metal 444
 	trade Plastic 511
-	fleet "Kager Military" 1000
+	fleet "Kager Ignaggen" 1000
 	fleet Ignaggen 800
 	object
 		sprite star/k5
@@ -1535,7 +1546,7 @@ system Arger
 	trade Medical 766
 	trade Metal 501
 	trade Plastic 401
-	fleet "Kager Military" 1000
+	fleet "Kager Ignaggen" 1000
 	fleet Ignaggen 800
 	object
 		sprite star/g0
@@ -1944,7 +1955,7 @@ system Boklok
 	trade Plastic 449
 	fleet "Dels miner" 2000
 	fleet "Dels merchant" 600
-	fleet "Dels guard" 1000
+	fleet "Dels Kaote" 1000
 	fleet "Dels Central Merchant" 1000
 	fleet Ignaggen 1200
 	object
@@ -2000,7 +2011,7 @@ system Bovdar
 	trade Medical 601
 	trade Metal 537
 	trade Plastic 505
-	fleet "Dels guard" 10000
+	fleet "Dels Kaote" 10000
 	fleet "Dels Outward Merchant" 800
 	0
 	object
@@ -3056,7 +3067,7 @@ system Cenex
 	trade Medical 823
 	trade Metal 334
 	trade Plastic 505
-	fleet "Dels guard" 600
+	fleet "Dels Kaote" 600
 	fleet "Dels merchant" 1200
 	fleet "Dels Central Merchant" 600
 	object
@@ -3397,7 +3408,7 @@ system Cocaonir
 	trade Plastic 425
 	fleet "Dels merchant" 600
 	fleet "Dels Central Merchant" 600
-	fleet "Dels guard" 800
+	fleet "Dels Kaote" 800
 	fleet "Dels miner" 1200
 	object
 		sprite star/f5
@@ -3459,7 +3470,7 @@ system Codelo
 	trade Medical 516
 	trade Metal 245
 	trade Plastic 450
-	fleet "Dels guard" 1000
+	fleet "Dels Kaote" 1000
 	fleet "Dels merchant" 600
 	fleet "Dels Central Merchant" 700
 	0
@@ -3651,7 +3662,7 @@ system Comar
 	trade Medical 631
 	trade Metal 328
 	trade Plastic 373
-	fleet "Dels guard" 1000
+	fleet "Dels Kaote" 1000
 	fleet "Dels miner" 1200
 	fleet "Dels merchant" 600
 	fleet Ignaggen 700
@@ -3779,6 +3790,7 @@ system Cordurle
 	trade Metal 285
 	trade Plastic 304
 	fleet "Dels Central Merchant" 1200
+	fleet "Dels Kaote" 1000
 	object
 		sprite star/k5
 		period 10
@@ -3842,6 +3854,7 @@ system Corduro
 	trade Medical 735
 	trade Metal 467
 	trade Plastic 304
+	fleet "Dels Kaote" 1000
 	object
 		sprite star/g0
 		distance 61
@@ -4972,6 +4985,8 @@ system Dalumone
 	trade Medical 700
 	trade Metal 440
 	trade Plastic 316
+	fleet "Dels Central Merchant" 1800
+	fleet "Dels Kaote" 1000
 	object
 		sprite star/g0
 		period 10
@@ -5300,7 +5315,7 @@ system Deaonudor
 	trade Metal 433
 	trade Plastic 429
 	fleet "Dels Central Merchant" 700
-	fleet "Dels guard" 800
+	fleet "Dels Kaote" 800
 	object
 		sprite star/k0
 		period 10
@@ -5362,10 +5377,11 @@ system Deefolks
 	trade Medical 725
 	trade Metal 347
 	trade Plastic 353
-	fleet "Dels guard" 600
+	fleet "Dels Kaote" 600
 	fleet "Dels merchant" 1200
 	fleet "Dels miner" 2000
 	fleet Ignaggen 700
+	fleet "Dels Kaote" 1000
 	0
 	object
 		sprite star/k5
@@ -5497,7 +5513,7 @@ system Deepla
 	trade Medical 575
 	trade Metal 351
 	trade Plastic 313
-	fleet "Dels guard" 600
+	fleet "Dels Kaote" 600
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 1000
 	object
@@ -5612,7 +5628,7 @@ system Deloco
 	trade Medical 565
 	trade Metal 391
 	trade Plastic 384
-	fleet "Dels guard" 1200
+	fleet "Dels Kaote" 1200
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 800
 	fleet "Dels Central Merchant" 600
@@ -5668,7 +5684,7 @@ system Delona
 	trade Medical 579
 	trade Metal 224
 	trade Plastic 312
-	fleet "Dels guard" 1000
+	fleet "Dels Kaote" 1000
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 800
 	0
@@ -5744,7 +5760,7 @@ system Deloop
 	trade Medical 531
 	trade Metal 456
 	trade Plastic 357
-	fleet "Dels guard" 10000
+	fleet "Dels Kaote" 10000
 	fleet "Dels Outward Merchant" 600
 	0
 	object
@@ -6306,7 +6322,7 @@ system Deurvuk
 	trade Medical 639
 	trade Metal 339
 	trade Plastic 467
-	fleet "Dels guard" 1000
+	fleet "Dels Kaote" 1000
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 1400
 	fleet "Dels miner" 1300
@@ -6425,7 +6441,7 @@ system Dofolk
 	trade Medical 528
 	trade Metal 324
 	trade Plastic 354
-	fleet "Dels guard" 1000
+	fleet "Dels Kaote" 1000
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 1000
 	object
@@ -6606,7 +6622,7 @@ system Dopolk
 	trade Medical 787
 	trade Metal 265
 	trade Plastic 478
-	fleet "Dels guard" 600
+	fleet "Dels Kaote" 600
 	fleet "Dels merchant" 1200
 	fleet "Dels Central Merchant" 600
 	object
@@ -6779,7 +6795,7 @@ system Dreevu
 	trade Metal 413
 	trade Plastic 497
 	fleet "Dels merchant" 600
-	fleet "Dels guard" 1000
+	fleet "Dels Kaote" 1000
 	object
 		sprite star/k5
 		distance 61
@@ -7146,6 +7162,7 @@ system Dularvo
 	trade Medical 781
 	trade Metal 463
 	trade Plastic 327
+	fleet "Ignaggen Outlaw" 1200
 	object
 		sprite star/f5
 		distance 34.188
@@ -7266,7 +7283,7 @@ system Duraai
 	trade Medical 699
 	trade Metal 318
 	trade Plastic 362
-	fleet "Dels guard" 800
+	fleet "Dels Kaote" 800
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 1000
 	fleet "Dels Central Merchant" 600
@@ -7533,7 +7550,7 @@ system Durkul
 system Duvuldorra
 	pos -762.462 -5021.06
 	government Ignaggen
-	habitable 1050.92
+	habitable 1080
 	belt 1519
 	link Kikar
 	link Lourge
@@ -7550,43 +7567,35 @@ system Duvuldorra
 	trade Medical 793
 	trade Metal 236
 	trade Plastic 435
+	fleet Ignaggen 700
+	fleet "Dels merchant" 700
 	object
-		sprite star/g5
-		distance 48.2287
-		period 16.0175
-		offset 180
+		sprite star/g0
+		period 10
 	object
-		sprite star/k5
-		distance 70.7713
-		period 16.0175
+		sprite planet/rock1
+		distance 234.69
+		period 43.7613
 	object
-		sprite planet/desert9
-		distance 286.211
-		period 59.7455
+		sprite planet/lava5
+		distance 449.94
+		period 116.166
+	object Nuraalor
+		sprite planet/rock4
+		distance 975.78
+		period 371.002
 	object
-		sprite planet/cloud6
-		distance 488.251
-		period 133.119
-	object
-		sprite planet/gas1
-		distance 1501.49
-		period 717.892
+		sprite planet/gas5
+		distance 2106.79
+		period 1177.01
+		object
+			sprite planet/dust7
+			distance 232
+			period 11.7511
 		object
 			sprite planet/rock7
-			distance 251
-			period 15.8937
-		object
-			sprite planet/dust0
-			distance 374
-			period 28.9083
-	object
-		sprite planet/gas4
-		distance 2308.18
-		period 1368.3
-		object
-			sprite planet/tethys
-			distance 251
-			period 14.0252
+			distance 336
+			period 20.4812
 
 system EY-454598
 	pos -2847.35 -6112.05
@@ -8508,6 +8517,7 @@ system Eicegu
 	trade Medical 827
 	trade Metal 417
 	trade Plastic 510
+	fleet Ignaggen 700
 	object
 		sprite star/g0
 		period 10
@@ -8728,6 +8738,8 @@ system Eldrra
 	trade Medical 705
 	trade Metal 508
 	trade Plastic 483
+	fleet "Kager Ignaggen" 900
+	fleet Ignaggen 900
 	object
 		sprite star/m0
 		distance 40.0549
@@ -8878,7 +8890,7 @@ system Elnorha
 			period 65.3197
 
 system Elormunel
-	pos -400.295 -5238.13
+	pos -395.295 -5230.13
 	government Ignaggen
 	habitable 625
 	belt 1428
@@ -8895,6 +8907,7 @@ system Elormunel
 	trade Medical 864
 	trade Metal 262
 	trade Plastic 476
+	fleet Ignaggen 700
 	object
 		sprite star/g5
 		period 10
@@ -8971,7 +8984,7 @@ system Elronu
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 800
 	fleet "Dels Central Merchant" 600
-	fleet "Dels guard" 800
+	fleet "Dels Kaote" 800
 	object
 		sprite star/m0
 		period 10
@@ -9087,6 +9100,8 @@ system Erdorina
 	trade Medical 750
 	trade Metal 519
 	trade Plastic 449
+	fleet "Kager Ignaggen" 900
+	fleet Ignaggen 900
 	object
 		sprite star/f5
 		distance 15.8821
@@ -9147,7 +9162,7 @@ system Eribai
 	trade Medical 846
 	trade Metal 474
 	trade Plastic 469
-	fleet "Kager Military" 1000
+	fleet "Kager Ignaggen" 1000
 	fleet Ignaggen 800
 	object
 		sprite star/g5
@@ -9292,7 +9307,7 @@ system Ernauor
 	trade Metal 314
 	trade Plastic 292
 	fleet "Dels merchant" 600
-	fleet "Dels guard" 1000
+	fleet "Dels Kaote" 1000
 	object
 		sprite star/m8
 		period 10
@@ -9397,9 +9412,8 @@ system Erwal
 	trade Medical 580
 	trade Metal 432
 	trade Plastic 489
-	fleet "Ignaggen Outlaw" 2300
-	fleet "Kager Military" 800
-	fleet Ignaggen 1000
+	fleet "Kager Ignaggen" 800
+	fleet Ignaggen 700
 	object
 		sprite star/k0
 		period 10
@@ -10010,7 +10024,7 @@ system "Fee Lo"
 	trade Medical 479
 	trade Metal 307
 	trade Plastic 460
-	fleet "Dels guard" 1000
+	fleet "Dels Kaote" 1000
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 800
 	fleet "Dels Central Merchant" 600
@@ -10077,7 +10091,7 @@ system "Fee Ro"
 	trade Medical 645
 	trade Metal 286
 	trade Plastic 461
-	fleet "Dels guard" 1000
+	fleet "Dels Kaote" 1000
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 1200
 	object
@@ -10213,7 +10227,7 @@ system Feeroko
 	trade Medical 665
 	trade Metal 386
 	trade Plastic 317
-	fleet "Dels guard" 600
+	fleet "Dels Kaote" 600
 	fleet "Dels merchant" 1200
 	fleet "Dels miner" 1200
 	fleet Ignaggen 700
@@ -10229,21 +10243,16 @@ system Feeroko
 		period 43.9746
 		0
 	object Ka'erie
-		sprite planet/ocean9
-		distance 567.21
-		period 216.14
-		offset 295.268
+		sprite planet/earth
+		distance 568.989
+		period 217.158
+		offset 309.227
 		0
-		object Meramos-P339P
-			sprite planet/battlestationw
-			distance 202
-			period 11.4747
-			0
 	object
 		sprite planet/gas11
-		distance 1465.77
-		period 897.881
-		offset 98.7541
+		distance 1413.37
+		period 850.163
+		offset 62.7772
 		0
 		object
 			sprite planet/lava0
@@ -10257,9 +10266,9 @@ system Feeroko
 			0
 	object
 		sprite planet/gas7
-		distance 3285.66
-		period 3013.38
-		offset 11.8218
+		distance 3233.26
+		period 2941.58
+		offset 7.15399
 		0
 
 system Fekkal
@@ -10332,7 +10341,7 @@ system Fellan
 	trade Medical 752
 	trade Metal 525
 	trade Plastic 389
-	fleet "Kager Military" 1000
+	fleet "Kager Ignaggen" 1000
 	fleet Ignaggen 800
 	object
 		sprite star/k0
@@ -10539,8 +10548,9 @@ system Feodle
 	trade Medical 851
 	trade Metal 439
 	trade Plastic 476
-	fleet "Kager Military" 1000
+	fleet "Kager Ignaggen" 1000
 	fleet Ignaggen 800
+	fleet "Dels merchant" 600
 	object
 		sprite star/m4
 		period 10
@@ -10894,7 +10904,7 @@ system Fielos
 	trade Medical 803
 	trade Metal 320
 	trade Plastic 458
-	fleet "Kager Military" 1000
+	fleet "Kager Ignaggen" 1000
 	fleet Ignaggen 800
 	object
 		sprite star/g5
@@ -10955,7 +10965,7 @@ system Fienel
 	trade Medical 861
 	trade Metal 260
 	trade Plastic 411
-	fleet "Kager Military" 1000
+	fleet "Kager Ignaggen" 1000
 	fleet Ignaggen 800
 	object
 		sprite star/m0
@@ -11142,7 +11152,7 @@ system Finan
 	trade Medical 832
 	trade Metal 320
 	trade Plastic 460
-	fleet "Kager Military" 1000
+	fleet "Kager Ignaggen" 1000
 	fleet Ignaggen 800
 	object
 		sprite star/a0
@@ -11246,9 +11256,8 @@ system Fines
 	trade Medical 805
 	trade Metal 523
 	trade Plastic 452
-	fleet "Ignaggen Outlaw" 2800
-	fleet "Kager Military" 1000
-	fleet Ignaggen 1000
+	fleet "Kager Ignaggen" 1000
+	fleet Ignaggen 700
 	object
 		sprite star/m4
 		period 10
@@ -11484,9 +11493,10 @@ system Fosme
 	trade Medical 600
 	trade Metal 371
 	trade Plastic 482
-	fleet "Ignaggen Outlaw" 2800
-	fleet "Kager Military" 1000
-	fleet Ignaggen 1000
+	fleet "Kager Ignaggen" 1000
+	fleet Ignaggen 700
+	fleet "Ignaggen Miner" 1300
+	fleet "Dels merchant" 800
 	object
 		sprite star/g5
 		distance 34.2011
@@ -11945,7 +11955,7 @@ system Gedluro
 	trade Medical 640
 	trade Metal 266
 	trade Plastic 302
-	fleet "Dels guard" 1200
+	fleet "Dels Kaote" 1200
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 700
 	fleet "Dels Central Merchant" 600
@@ -12004,7 +12014,7 @@ system Geen
 	trade Medical 694
 	trade Metal 309
 	trade Plastic 318
-	fleet "Dels guard" 1000
+	fleet "Dels Kaote" 1000
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 1000
 	fleet "Dels Central Merchant" 600
@@ -12113,7 +12123,7 @@ system Genak
 	trade Medical 660
 	trade Metal 362
 	trade Plastic 417
-	fleet "Dels guard" 600
+	fleet "Dels Kaote" 600
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 1400
 	object
@@ -12172,7 +12182,7 @@ system Genlo
 	trade Medical 618
 	trade Metal 477
 	trade Plastic 347
-	fleet "Dels guard" 1000
+	fleet "Dels Kaote" 1000
 	fleet "Dels merchant" 600
 	fleet "Dels Central Merchant" 1200
 	0
@@ -14292,7 +14302,7 @@ system Govri
 	trade Medical 579
 	trade Metal 419
 	trade Plastic 443
-	fleet "Dels guard" 20000
+	fleet "Dels Kaote" 20000
 	fleet "Dels Outward Merchant" 700
 	0
 	object
@@ -14625,6 +14635,7 @@ system Gullamo
 	trade Medical 706
 	trade Metal 347
 	trade Plastic 324
+	fleet Ignaggen 700
 	object
 		sprite star/k0
 		period 10
@@ -14632,26 +14643,30 @@ system Gullamo
 		sprite planet/lava1
 		distance 134.41
 		period 28.2544
-	object
+	object Hogral
 		sprite planet/ice3
-		distance 330.3
-		period 108.843
+		distance 364.344
+		period 126.097
+		offset 194.636
 	object
 		sprite planet/gas14
-		distance 1021.06
-		period 591.582
+		distance 1055.1
+		period 621.414
+		offset 59.2663
 		object
 			sprite planet/miranda
 			distance 215
 			period 12.8386
 	object
 		sprite planet/gas8
-		distance 1801.75
-		period 1386.69
+		distance 1835.79
+		period 1426.18
+		offset 14.583
 	object
 		sprite planet/gas0
-		distance 2734.51
-		period 2592.73
+		distance 2768.55
+		period 2641.3
+		offset 5.1798
 		object
 			sprite planet/rock3
 			distance 265
@@ -15457,7 +15472,7 @@ system Hellma
 	trade Medical 843
 	trade Metal 393
 	trade Plastic 493
-	fleet "Dels guard" 600
+	fleet "Dels Kaote" 600
 	fleet "Dels merchant" 1200
 	fleet "Dels Central Merchant" 700
 	object
@@ -15709,14 +15724,14 @@ system Heukao
 		offset 334.495
 	object Dukreve
 		sprite planet/ocean1
-		distance 1455.02
-		period 627.928
-		offset 67.5682
+		distance 1514.33
+		period 666.707
+		offset 102.833
 	object
 		sprite planet/gas6
-		distance 3321.27
-		period 2165.52
-		offset 92.2139
+		distance 3380.58
+		period 2223.78
+		offset 96.9226
 		object
 			sprite planet/rhea
 			distance 293
@@ -15751,7 +15766,7 @@ system Heulree
 	trade Metal 276
 	trade Plastic 340
 	fleet "Dels merchant" 800
-	fleet "Dels guard" 500
+	fleet "Dels Kaote" 500
 	fleet "Dels Outward Merchant" 600
 	fleet "Dels Central Merchant" 800
 	object
@@ -15886,6 +15901,7 @@ system Hildever
 	trade Metal 281
 	trade Plastic 445
 	fleet "Dels Central Merchant" 1200
+	fleet "Dels Kaote" 1000
 	object
 		sprite star/k5
 		period 10
@@ -16048,7 +16064,7 @@ system Holmork
 	trade Medical 652
 	trade Metal 288
 	trade Plastic 368
-	fleet "Dels guard" 1000
+	fleet "Dels Kaote" 1000
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 800
 	object
@@ -16313,8 +16329,9 @@ system "Ieon Du"
 	trade Medical 894
 	trade Metal 327
 	trade Plastic 510
-	fleet "Kager Military" 1000
+	fleet "Kager Ignaggen" 1000
 	fleet Ignaggen 800
+	fleet "Dels merchant" 700
 	object
 		sprite star/f5
 		period 10
@@ -16359,8 +16376,8 @@ system Ierleon
 	link Fielos
 	link Ioenari
 	link Iosmillar
-	link Kiaun
 	link Kiler
+	link Nigallr
 	asteroids "small rock" 48 3.105
 	asteroids "medium rock" 140 6.44
 	asteroids "large rock" 38 3.8525
@@ -16379,7 +16396,7 @@ system Ierleon
 	trade Medical 792
 	trade Metal 370
 	trade Plastic 474
-	fleet "Kager Military" 1000
+	fleet "Kager Ignaggen" 1000
 	fleet Ignaggen 800
 	object
 		sprite star/k0
@@ -16545,7 +16562,7 @@ system Ikar
 	trade Medical 763
 	trade Metal 284
 	trade Plastic 435
-	fleet "Kager Military" 1000
+	fleet "Kager Ignaggen" 1000
 	fleet Ignaggen 800
 	fleet "Dels merchant" 800
 	object
@@ -16763,7 +16780,7 @@ system Ilen
 	trade Medical 870
 	trade Metal 301
 	trade Plastic 451
-	fleet "Kager Military" 1000
+	fleet "Kager Ignaggen" 1000
 	fleet Ignaggen 800
 	object
 		sprite star/k0
@@ -16878,6 +16895,7 @@ system Illoinger
 	trade Medical 697
 	trade Metal 456
 	trade Plastic 502
+	fleet Ignaggen 700
 	object
 		sprite star/k0
 		period 10
@@ -16986,7 +17004,7 @@ system Inen
 	trade Medical 669
 	trade Metal 455
 	trade Plastic 492
-	fleet "Kager Military" 1000
+	fleet "Kager Ignaggen" 1000
 	fleet Ignaggen 800
 	object
 		sprite star/k5
@@ -17050,6 +17068,7 @@ system Ioenari
 	trade Medical 733
 	trade Metal 270
 	trade Plastic 473
+	fleet Ignaggen 700
 	object
 		sprite star/g0
 		period 10
@@ -17104,6 +17123,7 @@ system Iogarre
 	trade Medical 707
 	trade Metal 525
 	trade Plastic 485
+	fleet Ignaggen 700
 	object
 		sprite star/m4
 		period 10
@@ -17185,7 +17205,7 @@ system Iorlano
 		period 1408.35
 
 system Iosmillar
-	pos -637.033 -5206.05
+	pos -644.033 -5197.05
 	government Ignaggen
 	habitable 973.36
 	belt 1880
@@ -17210,6 +17230,7 @@ system Iosmillar
 	trade Medical 738
 	trade Metal 458
 	trade Plastic 463
+	fleet Ignaggen 700
 	object
 		sprite star/k0
 		distance 58.5
@@ -17626,7 +17647,7 @@ system Jeelark
 	trade Metal 307
 	trade Plastic 366
 	fleet "Dels merchant" 600
-	fleet "Dels guard" 1000
+	fleet "Dels Kaote" 1000
 	object
 		sprite star/g5
 		distance 18.4737
@@ -17731,7 +17752,7 @@ system Jolark
 	trade Plastic 347
 	fleet "Dels merchant" 600
 	fleet Ignaggen 700
-	fleet "Dels guard" 1000
+	fleet "Dels Kaote" 1000
 	fleet "Dels Central Merchant" 1400
 	object
 		sprite star/m4
@@ -17740,7 +17761,7 @@ system Jolark
 		sprite planet/rock1
 		distance 156.61
 		period 51.3275
-	object
+	object Aegeleni
 		sprite planet/cloud1
 		distance 421.61
 		period 226.719
@@ -17789,7 +17810,7 @@ system "Jorenu Ke"
 	trade Plastic 289
 	fleet "Dels merchant" 600
 	fleet "Dels Central Merchant" 600
-	fleet "Dels guard" 800
+	fleet "Dels Kaote" 800
 	object
 		sprite star/g0
 		period 10
@@ -18454,7 +18475,7 @@ system Kamla
 	trade Metal 511
 	trade Plastic 477
 	fleet "Ignaggen Outlaw" 2800
-	fleet "Kager Military" 1000
+	fleet "Kager Ignaggen" 1000
 	fleet Ignaggen 1000
 	object
 		sprite star/f0
@@ -18708,7 +18729,7 @@ system Karlai
 	trade Medical 740
 	trade Metal 551
 	trade Plastic 316
-	fleet "Kager Military" 1000
+	fleet "Kager Ignaggen" 1000
 	fleet Ignaggen 800
 	object
 		sprite star/k0
@@ -18761,7 +18782,7 @@ system Karllan
 	trade Medical 678
 	trade Metal 491
 	trade Plastic 476
-	fleet "Kager Military" 1000
+	fleet "Kager Ignaggen" 1000
 	fleet Ignaggen 800
 	object
 		sprite star/g5
@@ -19081,7 +19102,7 @@ system Keelee
 	trade Medical 670
 	trade Metal 284
 	trade Plastic 370
-	fleet "Dels guard" 1200
+	fleet "Dels Kaote" 1200
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 1200
 	object
@@ -19303,7 +19324,7 @@ system Keemoroco
 	trade Medical 820
 	trade Metal 464
 	trade Plastic 400
-	fleet "Dels guard" 10000
+	fleet "Dels Kaote" 10000
 	fleet "Dels Outward Merchant" 1000
 	0
 	object
@@ -19374,7 +19395,7 @@ system Keen
 	trade Metal 411
 	trade Plastic 470
 	fleet "Dels merchant" 600
-	fleet "Dels guard" 1000
+	fleet "Dels Kaote" 1000
 	object
 		sprite star/k0
 		distance 23.8869
@@ -19733,8 +19754,7 @@ system Kelgevu
 	trade Medical 688
 	trade Metal 424
 	trade Plastic 426
-	fleet "Ignaggen Outlaw" 2800
-	fleet "Kager Military" 1000
+	fleet "Kager Ignaggen" 1000
 	fleet Ignaggen 1000
 	object
 		sprite star/k5
@@ -19804,7 +19824,7 @@ system Kelinur
 	trade Medical 579
 	trade Metal 395
 	trade Plastic 455
-	fleet "Kager Military" 1000
+	fleet "Kager Ignaggen" 1000
 	fleet Ignaggen 800
 	object
 		sprite star/g5
@@ -19869,7 +19889,7 @@ system Kelleon
 	trade Medical 609
 	trade Metal 360
 	trade Plastic 491
-	fleet "Kager Military" 1000
+	fleet "Kager Ignaggen" 1000
 	fleet Ignaggen 800
 	object
 		sprite star/k0
@@ -20273,7 +20293,7 @@ system Keoska
 			period 26.5598
 
 system Kerbukcamori
-	pos 388.705 -5796.13
+	pos 336.705 -5667.13
 	government Erader
 	habitable 945
 	belt 1564
@@ -20413,7 +20433,7 @@ system Kerimi
 	trade Medical 815
 	trade Metal 282
 	trade Plastic 424
-	fleet "Kager Military" 1000
+	fleet "Kager Ignaggen" 1000
 	fleet Ignaggen 800
 	object
 		sprite star/m8
@@ -20621,13 +20641,13 @@ system Kerso
 		period 5579.43
 
 system Kiaun
-	pos -536.225 -5219.18
+	pos -521.225 -5188.18
 	government Ignaggen
 	habitable 625
 	belt 1755
 	link Aiborgu
-	link Ierleon
 	link Ilen
+	link Nigallr
 	asteroids "small rock" 79 1.9669
 	asteroids "medium rock" 93 1.1713
 	asteroids "large rock" 1 2.9614
@@ -20646,7 +20666,7 @@ system Kiaun
 	trade Medical 874
 	trade Metal 425
 	trade Plastic 482
-	fleet "Kager Military" 1000
+	fleet "Kager Ignaggen" 1000
 	fleet Ignaggen 800
 	object
 		sprite star/g5
@@ -20789,9 +20809,8 @@ system Kikar
 	trade Medical 860
 	trade Metal 255
 	trade Plastic 499
-	fleet "Ignaggen Outlaw" 2800
-	fleet "Kager Military" 1000
-	fleet Ignaggen 1000
+	fleet "Kager Ignaggen" 1000
+	fleet Ignaggen 600
 	object
 		sprite star/k0
 		period 10
@@ -20829,7 +20848,7 @@ system Kikar
 			period 20.7413
 
 system Kiler
-	pos -510.783 -5160.28
+	pos -506.783 -5132.28
 	government Ignaggen
 	habitable 625
 	belt 1144
@@ -20852,7 +20871,7 @@ system Kiler
 	trade Medical 722
 	trade Metal 434
 	trade Plastic 479
-	fleet "Kager Military" 1000
+	fleet "Kager Ignaggen" 1000
 	fleet Ignaggen 800
 	object
 		sprite star/g5
@@ -20958,7 +20977,7 @@ system Kinlona
 	trade Metal 256
 	trade Plastic 475
 	fleet "Dels merchant" 600
-	fleet "Dels guard" 1000
+	fleet "Dels Kaote" 1000
 	fleet "Dels Central Merchant" 1700
 	fleet Ignaggen 700
 	object
@@ -20977,21 +20996,25 @@ system Kinlona
 		distance 830.67
 		period 196.597
 	object
-		sprite planet/gas6
-		distance 1893.88
-		period 676.802
+		sprite planet/gas0
+		distance 1733.56
+		period 592.707
+		offset 271.481
 		object
 			sprite planet/rock3
-			distance 279
-			period 11.9034
+			distance 260
+			period 12.2862
+			offset 48.8822
 		object
 			sprite planet/oberon
-			distance 404
-			period 20.7413
+			distance 385
+			period 22.1385
+			offset 232.388
 		object
 			sprite planet/dust0
-			distance 537
-			period 31.7853
+			distance 518
+			period 34.5503
+			offset 5.93966
 
 system Kintuy
 	pos -1229.62 -5610.46
@@ -21165,11 +21188,12 @@ system Kitorna
 		period 931.55
 
 system Ko'aoeo
-	pos -457.377 -3991.61
+	pos -473.377 -4073.61
 	government Kumakk
 	habitable 2795
 	belt 1125
 	link Ko'coso
+	link Ko'meoso
 	link Ko'rolmo
 	asteroids "small rock" 21 3.2832
 	asteroids "medium rock" 40 1.4976
@@ -21224,12 +21248,12 @@ system Ko'aoeo
 		period 971.174
 
 system Ko'coro
-	pos -484.402 -3858.98
+	pos -481.402 -3918.98
 	government Kumakk
 	habitable 745.92
 	belt 1762
 	link Ko'coso
-	link Ko'zoco
+	link Ko'zouzo
 	asteroids "small rock" 30 4.08
 	asteroids "medium rock" 64 2.19
 	asteroids "large rock" 31 4.29
@@ -21280,13 +21304,13 @@ system Ko'coro
 			period 68.2982
 
 system Ko'coso
-	pos -390.903 -3949.03
+	pos -467.903 -4007.03
 	government Kumakk
 	habitable 486.68
 	belt 1571
 	link Ko'aoeo
 	link Ko'coro
-	link Ko'sowo
+	link Ko'jolmo
 	asteroids "small rock" 13 7.9924
 	asteroids "medium rock" 44 4.4486
 	asteroids "large rock" 34 10.7068
@@ -21334,7 +21358,7 @@ system Ko'coso
 			period 25.612
 
 system Ko'couezur
-	pos -748.647 -4537.9
+	pos -728.647 -4553.9
 	government Kumakk
 	habitable 486.68
 	belt 1818
@@ -21421,8 +21445,67 @@ system Ko'covo
 			distance 257
 			period 16.467
 
+system Ko'daho
+	pos -857.508 -4143.57
+	government Kumakk
+	habitable 2201.68
+	belt 1362
+	link Ko'joho
+	link Ko'soco
+	asteroids "small rock" 6 2.1168
+	asteroids "medium rock" 2 0.7488
+	asteroids "large rock" 11 1.08
+	asteroids "small metal" 4 0.8352
+	asteroids "medium metal" 66 1.4832
+	asteroids "large metal" 2 1.1088
+	minables lead 9 1.74649
+	minables uranium 1 2.13223
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/f5
+		distance 28.2943
+		period 12.3452
+	object
+		sprite star/k0
+		distance 99.7057
+		period 12.3452
+		offset 180
+	object
+		sprite planet/dust5
+		distance 227.546
+		period 29.2608
+	object
+		sprite planet/gas12
+		distance 841.636
+		period 208.146
+		object
+			sprite planet/dust3
+			distance 283
+			period 12.5045
+		object
+			sprite planet/rock14
+			distance 377
+			period 19.2264
+	object
+		sprite planet/gas4
+		distance 1821.73
+		period 662.838
+		object
+			sprite planet/ice0
+			distance 254
+			period 14.2774
+
 system Ko'dero
-	pos -763.919 -4246.92
+	pos -773.919 -4247.92
 	government Kumakk
 	habitable 1715
 	belt 1375
@@ -21487,12 +21570,12 @@ system Ko'dero
 			period 56.4918
 
 system Ko'doco
-	pos -583.939 -4172.49
+	pos -641.939 -4180.49
 	government Kumakk
 	habitable 625
 	belt 1370
+	link Ko'kusor
 	link Ko'lobo
-	link Ko'neoho
 	asteroids "medium rock" 109 3.549
 	asteroids "large rock" 124 5.655
 	asteroids "small metal" 7 5.421
@@ -21529,7 +21612,7 @@ system Ko'doco
 			period 17.1764
 
 system Ko'dolou
-	pos -814.794 -4459.22
+	pos -776.794 -4480.22
 	government Kumakk
 	habitable 486.68
 	belt 1678
@@ -21585,7 +21668,7 @@ system Ko'dolou
 			period 30.2729
 
 system Ko'dorsu
-	pos -655.547 -4339.03
+	pos -661.547 -4347.03
 	government Kumakk
 	habitable 2606.04
 	belt 1967
@@ -21655,7 +21738,7 @@ system Ko'dorsu
 			period 27.7758
 
 system Ko'ioxue
-	pos -502.8 -4241.46
+	pos -708.8 -4213.46
 	government Kumakk
 	habitable 425.92
 	belt 1622
@@ -21712,7 +21795,7 @@ system Ko'ioxue
 			period 40.9354
 
 system Ko'joco
-	pos -251.66 -3944.11
+	pos -955.558 -4035.11
 	government Kumakk
 	habitable 659.2
 	belt 1762
@@ -21761,10 +21844,11 @@ system Ko'joco
 			period 26.0229
 
 system Ko'joho
-	pos -198.87 -3998.33
+	pos -863.801 -4076.83
 	government Kumakk
 	habitable 425.92
 	belt 1374
+	link Ko'daho
 	link Ko'joco
 	asteroids "large rock" 1 3.249
 	asteroids "medium metal" 174 4.6854
@@ -21812,13 +21896,13 @@ system Ko'joho
 			period 32.3203
 
 system Ko'jolmo
-	pos -488.493 -4025.32
+	pos -522.493 -4046.32
 	government Kumakk
 	habitable 233.28
 	belt 1290
+	link Ko'coso
 	link Ko'meoso
-	link Ko'rolmo
-	link Ko'zourho
+	link Ko'soudo
 	asteroids "medium rock" 21 6.1857
 	asteroids "large rock" 1 6.4989
 	asteroids "medium metal" 10 9.0828
@@ -22006,15 +22090,13 @@ system Ko'komo
 			period 31.9863
 
 system Ko'kusor
-	pos -589.878 -4079.27
+	pos -658.878 -4120.27
 	government Kumakk
 	habitable 1313.28
 	belt 1249
-	link Ko'meoso
-	link Ko'momor
+	link Ko'doco
 	link Ko'oxzo
 	link Ko'rohou
-	link Ko'soudo
 	asteroids "small rock" 7 7.7343
 	asteroids "medium rock" 51 6.6381
 	asteroids "large rock" 14 5.5419
@@ -22070,7 +22152,7 @@ system Ko'kusor
 			period 60.2837
 
 system Ko'lobo
-	pos -630.53 -4234.93
+	pos -682.53 -4274.93
 	government Kumakk
 	habitable 1715
 	belt 1223
@@ -22162,7 +22244,7 @@ system Ko'lolo
 		period 1630.6
 
 system Ko'luclo
-	pos -824.219 -4365.57
+	pos -822.219 -4405.57
 	government Kumakk
 	habitable 1705
 	belt 1754
@@ -22222,14 +22304,13 @@ system Ko'luclo
 			period 23.8595
 
 system Ko'meoso
-	pos -506.13 -4059.53
+	pos -529.13 -4121.53
 	government Kumakk
 	habitable 4725
 	belt 1379
+	link Ko'aoeo
 	link Ko'jolmo
-	link Ko'kusor
-	link Ko'oxzo
-	link Ko'rolmo
+	link Ko'neoho
 	asteroids "small rock" 1 2.268
 	asteroids "medium rock" 8 1.98
 	asteroids "large rock" 1 2.88
@@ -22284,7 +22365,6 @@ system Ko'momor
 	government Kumakk
 	habitable 320
 	belt 1333
-	link Ko'kusor
 	link Ko'rolmo
 	asteroids "medium rock" 2 5.7876
 	asteroids "large rock" 1 7.917
@@ -22322,7 +22402,7 @@ system Ko'momor
 		period 2587.44
 
 system Ko'morho
-	pos -643.162 -3894.45
+	pos -631.162 -3851.45
 	government Kumakk
 	habitable 4070.92
 	belt 1455
@@ -22366,7 +22446,7 @@ system Ko'morho
 		period 1134.81
 
 system Ko'mozo
-	pos -717.277 -4021.76
+	pos -682.277 -3983.76
 	government Kumakk
 	habitable 1715
 	belt 1511
@@ -22414,12 +22494,11 @@ system Ko'mozo
 			period 38.9404
 
 system Ko'neoho
-	pos -512.917 -4130.13
+	pos -518.917 -4187.13
 	government Kumakk
 	habitable 1715
 	belt 1763
-	link Ko'doco
-	link Ko'sozo
+	link Ko'meoso
 	asteroids "small rock" 1 3.192
 	asteroids "medium rock" 14 2.28
 	asteroids "large rock" 7 4.37
@@ -22464,12 +22543,11 @@ system Ko'neoho
 			period 41.9524
 
 system Ko'oxzo
-	pos -573.299 -4046.34
+	pos -605.299 -4050.34
 	government Kumakk
 	habitable 425.92
 	belt 1319
 	link Ko'kusor
-	link Ko'meoso
 	link Ko'zovoe
 	asteroids "small rock" 4 4.9686
 	asteroids "medium rock" 1 6.4428
@@ -22518,7 +22596,7 @@ system Ko'oxzo
 			period 41.6131
 
 system Ko'rohou
-	pos -651.179 -4066.23
+	pos -673.179 -4054.23
 	government Kumakk
 	habitable 640
 	belt 1342
@@ -22619,8 +22697,6 @@ system Ko'rolmo
 	habitable 1080
 	belt 1142
 	link Ko'aoeo
-	link Ko'jolmo
-	link Ko'meoso
 	link Ko'momor
 	link Ko'rono
 	asteroids "small rock" 4 7.566
@@ -22711,10 +22787,11 @@ system Ko'rono
 			period 27.451
 
 system Ko'soco
-	pos -387.263 -3849.61
+	pos -910.428 -4186.44
 	government Kumakk
 	habitable 233.28
 	belt 1831
+	link Ko'daho
 	link Ko'soso
 	link Ko'zoco
 	asteroids "small rock" 1 12.18
@@ -22751,7 +22828,7 @@ system Ko'soco
 			period 24.8184
 
 system Ko'soso
-	pos -339.445 -3886.81
+	pos -934.91 -4108.78
 	government Kumakk
 	habitable 320
 	belt 1877
@@ -22795,11 +22872,11 @@ system Ko'soso
 			period 14.1002
 
 system Ko'soudo
-	pos -652.454 -4004.09
+	pos -562.454 -4010.09
 	government Kumakk
 	habitable 625
 	belt 1048
-	link Ko'kusor
+	link Ko'jolmo
 	link Ko'zovoe
 	asteroids "small rock" 3 3.564
 	asteroids "medium rock" 9 2.244
@@ -22841,7 +22918,6 @@ system Ko'sowo
 	government Kumakk
 	habitable 320
 	belt 1098
-	link Ko'coso
 	link Ko'covo
 	asteroids "small rock" 1 2.5668
 	asteroids "medium rock" 100 2.1804
@@ -22903,7 +22979,6 @@ system Ko'sozo
 	habitable 1715
 	belt 1808
 	link Ko'koco
-	link Ko'neoho
 	asteroids "small rock" 11 4.7925
 	asteroids "medium rock" 1 8.0325
 	asteroids "large rock" 7 5.4
@@ -22945,7 +23020,7 @@ system Ko'sozo
 			period 12.0763
 
 system Ko'urnol
-	pos -571.726 -4295.84
+	pos -629.726 -4381.84
 	government Kumakk
 	habitable 486.68
 	belt 1647
@@ -23054,12 +23129,12 @@ system Ko'xomo
 			period 23.7721
 
 system Ko'zoco
-	pos -433.625 -3838.41
+	pos -877.957 -4262.68
 	government Kumakk
 	habitable 1715
 	belt 1157
-	link Ko'coro
 	link Ko'soco
+	link Ko'zomo
 	asteroids "small rock" 18 4.0698
 	asteroids "medium rock" 3 2.4786
 	asteroids "large rock" 22 3.4272
@@ -23094,12 +23169,13 @@ system Ko'zoco
 		period 1095.68
 
 system Ko'zomo
-	pos -850.038 -4289.86
+	pos -854.038 -4343.86
 	government Kumakk
 	habitable 135
 	belt 1790
 	link Ko'dero
 	link Ko'luclo
+	link Ko'zoco
 	asteroids "large metal" 1 2.3114
 	object
 		sprite star/m8
@@ -23134,11 +23210,10 @@ system Ko'zomo
 			period 23.5219
 
 system Ko'zourho
-	pos -612.203 -3871.02
+	pos -537.203 -3893.02
 	government Kumakk
 	habitable 320
 	belt 1485
-	link Ko'jolmo
 	link Ko'zouzo
 	asteroids "small rock" 5 2.5568
 	asteroids "medium rock" 82 1.6592
@@ -23180,10 +23255,11 @@ system Ko'zourho
 			period 23.094
 
 system Ko'zouzo
-	pos -466.46 -3945.74
+	pos -526.46 -3965.74
 	government Kumakk
 	habitable 1080
 	belt 1513
+	link Ko'coro
 	link Ko'zourho
 	asteroids "small rock" 1 1.02
 	asteroids "medium rock" 4 2.085
@@ -23240,7 +23316,7 @@ system Ko'zouzo
 			period 49.8543
 
 system Ko'zovoe
-	pos -687.4 -3946.91
+	pos -613.4 -3936.91
 	government Kumakk
 	habitable 625
 	belt 1894
@@ -23361,7 +23437,7 @@ system Koedee
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 800
 	fleet "Dels Central Merchant" 600
-	fleet "Dels guard" 800
+	fleet "Dels Kaote" 800
 	object
 		sprite star/k0
 		distance 45.5
@@ -23405,7 +23481,7 @@ system Koedee
 system Kokakor
 	pos -996.6 -5149.44
 	government Dels
-	habitable 2201.68
+	habitable 560.92
 	belt 1680
 	link Kinlona
 	link Linheyca
@@ -23433,38 +23509,43 @@ system Kokakor
 	fleet "Dels merchant" 600
 	fleet Ignaggen 700
 	object
-		sprite star/f5
-		distance 27.6312
-		period 11.9137
+		sprite star/k5
+		distance 22.6235
+		period 15.3922
 		offset 180
 	object
-		sprite star/k0
-		distance 97.3688
-		period 11.9137
-	object
-		sprite planet/rock11
-		distance 263.809
-		period 36.5272
-	object
-		sprite planet/gas6
-		distance 760.049
-		period 178.626
-	object
+		sprite star/m8
+		distance 71.3765
+		period 15.3922
+	object Kulderva
 		sprite planet/ice6
-		distance 1159.81
-		period 336.715
-	object
-		sprite planet/gas11
-		distance 1634.65
-		period 563.404
+		distance 474.828
+		period 174.749
+		offset 14.3012
 		object
-			sprite planet/rhea
-			distance 255
-			period 13.4304
+			sprite planet/lava0
+			distance 172
+			period 28.3567
+			offset 274.86
 	object
-		sprite planet/gas2
-		distance 2671.09
-		period 1176.83
+		sprite planet/cloud5
+		distance 866.118
+		period 430.502
+		offset 283.325
+	object
+		sprite planet/gas5
+		distance 1377.96
+		period 863.9
+		offset 84.237
+	object
+		sprite planet/gas15
+		distance 2204.96
+		period 1748.68
+		offset 25.1877
+		object
+			sprite planet/dust4
+			distance 192
+			period 14.0039
 
 system Kolde
 	pos 4991.68 -8034.52
@@ -23874,6 +23955,7 @@ system Korudir
 	trade Medical 896
 	trade Metal 340
 	trade Plastic 303
+	fleet "Ignaggen Outlaw" 1200
 	object
 		sprite star/g5
 		distance 62
@@ -24311,6 +24393,7 @@ system Kurdagor
 	trade Medical 922
 	trade Metal 269
 	trade Plastic 349
+	fleet "Ignaggen Outlaw" 1200
 	object
 		sprite star/m0
 		period 10
@@ -24725,7 +24808,7 @@ system Leion
 	trade Medical 755
 	trade Metal 516
 	trade Plastic 490
-	fleet "Kager Military" 1000
+	fleet "Kager Ignaggen" 1000
 	fleet Ignaggen 800
 	object
 		sprite star/m0
@@ -25015,6 +25098,7 @@ system Leonnal
 	trade Medical 840
 	trade Metal 303
 	trade Plastic 438
+	fleet Ignaggen 700
 	object
 		sprite star/f0
 		distance 19.4029
@@ -25175,6 +25259,8 @@ system Lerdosia
 	trade Medical 788
 	trade Metal 488
 	trade Plastic 507
+	fleet Ignaggen 700
+	fleet "Dels merchant" 700
 	object
 		sprite star/m0
 		period 10
@@ -25446,6 +25532,7 @@ system Leunorra
 	trade Medical 696
 	trade Metal 454
 	trade Plastic 333
+	fleet Ignaggen 700
 	object
 		sprite star/k5
 		distance 39.2811
@@ -25623,9 +25710,8 @@ system Likalle
 	trade Medical 849
 	trade Metal 340
 	trade Plastic 404
-	fleet "Kager Military" 1000
+	fleet "Kager Ignaggen" 1000
 	fleet Ignaggen 800
-	fleet "Dels merchant" 1000
 	object
 		sprite star/m0
 		period 10
@@ -25865,18 +25951,20 @@ system Linheyca
 		sprite planet/dust7
 		distance 153.24
 		period 42.4173
-	object
+	object Huderigna
 		sprite planet/rock13
-		distance 507.4
-		period 255.57
+		distance 460.407
+		period 220.901
+		offset 95.2872
 		object
 			sprite planet/rock3
 			distance 138
 			period 20.3789
 	object
 		sprite planet/jupiter
-		distance 1154.04
-		period 876.63
+		distance 1107.05
+		period 823.634
+		offset 328.342
 		object
 			sprite planet/io
 			distance 249
@@ -25887,8 +25975,9 @@ system Linheyca
 			period 22.911
 	object
 		sprite planet/gas7
-		distance 2676.05
-		period 3095.47
+		distance 2629.06
+		period 3014.29
+		offset 356.247
 
 system Linol
 	pos 929.873 -6150.59
@@ -26068,6 +26157,7 @@ system Lirganon
 	trade Medical 554
 	trade Metal 374
 	trade Plastic 492
+	fleet Ignaggen 700
 	object
 		sprite star/g5
 		period 10
@@ -26169,7 +26259,7 @@ system Loasta
 	trade Medical 627
 	trade Metal 427
 	trade Plastic 368
-	fleet "Dels guard" 600
+	fleet "Dels Kaote" 600
 	fleet "Dels merchant" 1200
 	fleet "Dels miner" 1200
 	fleet "Dels Central Merchant" 1000
@@ -26354,7 +26444,7 @@ system Loluime
 	trade Medical 488
 	trade Metal 279
 	trade Plastic 329
-	fleet "Dels guard" 600
+	fleet "Dels Kaote" 600
 	fleet "Dels merchant" 600
 	fleet "Dels Central Merchant" 600
 	0
@@ -26439,7 +26529,7 @@ system Loomera
 		sprite planet/rock8
 		distance 523.359
 		period 147.732
-	object
+	object Meeradol
 		sprite planet/ocean3
 		distance 847.049
 		period 304.185
@@ -26480,6 +26570,7 @@ system Lordeetor
 	trade Plastic 470
 	fleet "Dels Central Merchant" 800
 	fleet "Dels miner" 1200
+	fleet "Dels Kaote" 1000
 	object
 		sprite star/k5
 		period 10
@@ -26586,7 +26677,7 @@ system Lordianee
 	trade Plastic 498
 	fleet "Dels merchant" 600
 	fleet "Dels Central Merchant" 600
-	fleet "Dels guard" 800
+	fleet "Dels Kaote" 800
 	object
 		sprite star/m8
 		period 10
@@ -26646,6 +26737,8 @@ system Lourge
 	trade Medical 845
 	trade Metal 243
 	trade Plastic 487
+	fleet Ignaggen 700
+	fleet "Dels merchant" 700
 	object
 		sprite star/k0
 		period 10
@@ -26653,26 +26746,30 @@ system Lourge
 		sprite planet/rock1
 		distance 186.81
 		period 46.2955
-	object
-		sprite planet/lava2
-		distance 527.1
-		period 219.421
+	object Aulingar
+		sprite planet/desert0
+		distance 552.1
+		period 235.215
+		offset 306.287
 	object
 		sprite planet/gas17
-		distance 1030.14
-		period 599.491
+		distance 1080.14
+		period 643.663
+		offset 114.578
 		object
 			sprite planet/lava0
 			distance 251
 			period 16.9896
 	object
 		sprite planet/neptune
-		distance 1557.83
-		period 1114.85
+		distance 1607.83
+		period 1168.96
+		offset 41.5343
 	object
 		sprite planet/uranus
-		distance 4035.27
-		period 4647.8
+		distance 4085.27
+		period 4734.45
+		offset 3.93658
 
 system Luaarla
 	pos -506.066 -7684.78
@@ -26818,14 +26915,21 @@ system Lueerda
 		distance 61.062
 		period 11.0514
 		offset 180
-	object
+	object Erdiuladen
 		sprite planet/rock2
-		distance 219.952
-		period 52.3321
+		distance 544.257
+		period 203.696
+		offset 250.601
+		object
+			sprite planet/rhea
+			distance 185
+			period 27.1703
+			offset 248.891
 	object
 		sprite planet/gas11
-		distance 959.312
-		period 476.668
+		distance 1397.26
+		period 837.898
+		offset 120.432
 		object
 			sprite planet/rock0
 			distance 234
@@ -26844,12 +26948,14 @@ system Lueerda
 			period 40.5853
 	object
 		sprite planet/gas4
-		distance 1776.95
-		period 1201.68
+		distance 2214.9
+		period 1672.27
+		offset 125.567
 	object
 		sprite planet/gas6
-		distance 2600.59
-		period 2127.58
+		distance 3038.54
+		period 2687.03
+		offset 52.4362
 		object
 			sprite planet/ice8
 			distance 305
@@ -26889,6 +26995,7 @@ system Luggaru
 	trade Medical 777
 	trade Metal 531
 	trade Plastic 479
+	fleet Ignaggen 700
 	object
 		sprite star/f0
 		distance 15.3708
@@ -27892,6 +27999,9 @@ system Mallukavi
 	trade Medical 770
 	trade Metal 276
 	trade Plastic 335
+	fleet Ignaggen 700
+	fleet "Dels merchant" 700
+	fleet "Ignaggen Miner" 1400
 	object
 		sprite star/g0
 		period 10
@@ -27948,7 +28058,7 @@ system Maloa
 	trade Medical 626
 	trade Metal 236
 	trade Plastic 375
-	fleet "Dels guard" 1000
+	fleet "Dels Kaote" 1000
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 800
 	object
@@ -28070,7 +28180,7 @@ system Maodeso
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 800
 	fleet "Dels Central Merchant" 600
-	fleet "Dels guard" 800
+	fleet "Dels Kaote" 800
 	fleet "Dels miner" 1200
 	object
 		sprite star/g0
@@ -28687,6 +28797,7 @@ system Maullenon
 	trade Medical 762
 	trade Metal 340
 	trade Plastic 290
+	fleet Ignaggen 700
 	object
 		sprite star/k0
 		period 10
@@ -28694,7 +28805,7 @@ system Maullenon
 		sprite planet/lava3
 		distance 184.61
 		period 45.4801
-	object
+	object Lamarre
 		sprite planet/ice5
 		distance 438.45
 		period 166.463
@@ -28747,7 +28858,7 @@ system "Mea Kalh"
 	trade Metal 286
 	trade Plastic 468
 	fleet "Dels merchant" 700
-	fleet "Dels guard" 1100
+	fleet "Dels Kaote" 1100
 	fleet "Dels Central Merchant" 900
 	object
 		sprite star/f0
@@ -28770,8 +28881,14 @@ system "Mea Kalh"
 		period 193.53
 	object
 		sprite planet/gas2
-		distance 2134.25
-		period 809.657
+		distance 2655.92
+		period 1123.97
+		offset 135.41
+		object "Kuleedir Ma"
+			sprite planet/station7
+			distance 211
+			period 18.5711
+			offset 171.581
 
 system "Mea Sua"
 	pos -1352.2 -5154.32
@@ -28798,7 +28915,7 @@ system "Mea Sua"
 	trade Medical 485
 	trade Metal 287
 	trade Plastic 494
-	fleet "Dels guard" 600
+	fleet "Dels Kaote" 600
 	fleet "Dels merchant" 1200
 	fleet "Dels miner" 1000
 	fleet "Dels Central Merchant" 600
@@ -28932,7 +29049,7 @@ system Meellar
 	trade Medical 589
 	trade Metal 276
 	trade Plastic 429
-	fleet "Dels guard" 1000
+	fleet "Dels Kaote" 1000
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 1000
 	object
@@ -29123,6 +29240,8 @@ system Melvurero
 	trade Medical 670
 	trade Metal 364
 	trade Plastic 439
+	fleet Ignaggen 700
+	fleet "Dels merchant" 900
 	object
 		sprite star/g5
 		period 10
@@ -29136,12 +29255,18 @@ system Melvurero
 		period 106.179
 	object
 		sprite planet/gas15
-		distance 988.5
-		period 497.262
+		distance 920.087
+		period 446.543
+		offset 165.017
+		object "Kulpr Vonal"
+			sprite planet/station2k
+			distance 201
+			period 15
 	object
 		sprite planet/jupiter
-		distance 2226.34
-		period 1680.77
+		distance 2269.93
+		period 1730.37
+		offset 14.2734
 		object
 			sprite planet/oberon
 			distance 272
@@ -29286,7 +29411,7 @@ system Mesavor
 	trade Medical 597
 	trade Metal 259
 	trade Plastic 365
-	fleet "Dels guard" 1200
+	fleet "Dels Kaote" 1200
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 1200
 	0
@@ -29370,7 +29495,7 @@ system Metardor
 	trade Medical 533
 	trade Metal 231
 	trade Plastic 297
-	fleet "Dels guard" 1200
+	fleet "Dels Kaote" 1200
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 1200
 	object
@@ -29491,6 +29616,7 @@ system Milarli
 	trade Medical 802
 	trade Metal 296
 	trade Plastic 416
+	fleet Ignaggen 700
 	object
 		sprite star/k0
 		distance 33.0498
@@ -30090,7 +30216,7 @@ system Moudee
 	trade Metal 501
 	trade Plastic 468
 	fleet "Dels Central Merchant" 700
-	fleet "Dels guard" 800
+	fleet "Dels Kaote" 800
 	object
 		sprite star/m4
 		period 10
@@ -30159,6 +30285,7 @@ system Mudeodar
 	trade Metal 371
 	trade Plastic 272
 	fleet "Dels Central Merchant" 1600
+	fleet "Dels Kaote" 1000
 	object
 		sprite star/m4
 		period 10
@@ -30234,7 +30361,7 @@ system Mukalloei
 		sprite planet/lava5
 		distance 231.16
 		period 63.7246
-	object
+	object Lignuvar
 		sprite planet/earth
 		distance 433.52
 		period 163.664
@@ -30784,6 +30911,69 @@ system Naeon
 			distance 370
 			period 23.4736
 
+system Nagettor
+	pos -348.935 -5160.41
+	government Ignaggen
+	habitable 425.92
+	belt 1550
+	link Aiborgu
+	asteroids "medium rock" 8 6.1712
+	asteroids "large rock" 4 5.1504
+	asteroids "small metal" 3 3.1552
+	asteroids "medium metal" 1 2.5056
+	asteroids "large metal" 1 5.7072
+	minables iron 3 9.5899
+	minables lead 1 7.59458
+	trade Clothing 320
+	trade Electronics 823
+	trade Equipment 474
+	trade Food 466
+	trade "Heavy Metals" 729
+	trade Industrial 637
+	trade "Luxury Goods" 1072
+	trade Medical 791
+	trade Metal 494
+	trade Plastic 453
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/desert0
+		distance 276
+		period 88.8709
+		object
+			sprite planet/luna
+			distance 141
+			period 21.047
+	object
+		sprite planet/gas6
+		distance 722.01
+		period 376.02
+	object
+		sprite planet/gas17
+		distance 1336.22
+		period 946.701
+	object
+		sprite planet/desert4
+		distance 1573.23
+		period 1209.44
+	object
+		sprite planet/gas2
+		distance 4118.24
+		period 5122.28
+		object
+			sprite planet/rock7
+			distance 189
+			period 15.7437
+		object
+			sprite planet/dust1
+			distance 275
+			period 27.6321
+		object
+			sprite planet/dust5
+			distance 381
+			period 45.0611
+
 system Nakce
 	pos 4803.68 -8115.52
 	government Ultaka
@@ -30910,7 +31100,7 @@ system Nalk
 	trade Medical 627
 	trade Metal 232
 	trade Plastic 376
-	fleet "Dels guard" 1000
+	fleet "Dels Kaote" 1000
 	fleet "Dels Outward Merchant" 800
 	object
 		sprite star/g0
@@ -31302,7 +31492,7 @@ system Neevouka
 	trade Medical 607
 	trade Metal 349
 	trade Plastic 498
-	fleet "Dels guard" 600
+	fleet "Dels Kaote" 600
 	fleet "Dels merchant" 600
 	fleet "Dels miner" 1200
 	fleet "Dels Central Merchant" 800
@@ -31495,7 +31685,7 @@ system Nell'O
 	trade Medical 769
 	trade Metal 342
 	trade Plastic 472
-	fleet "Dels guard" 600
+	fleet "Dels Kaote" 600
 	fleet "Dels merchant" 1200
 	fleet "Dels Central Merchant" 800
 	object
@@ -31551,7 +31741,7 @@ system Nelop
 	trade Medical 607
 	trade Metal 336
 	trade Plastic 397
-	fleet "Dels guard" 1000
+	fleet "Dels Kaote" 1000
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 1000
 	object
@@ -31898,6 +32088,62 @@ system Neusbor
 			distance 281
 			period 12.3721
 
+system Nigallr
+	pos -570.935 -5169.41
+	government Ignaggen
+	habitable 486.68
+	belt 1494
+	link Ierleon
+	link Kiaun
+	asteroids "small rock" 8 1.032
+	asteroids "medium rock" 79 0.636
+	asteroids "large rock" 34 0.792
+	asteroids "medium metal" 105 1.668
+	asteroids "large metal" 31 1.452
+	minables iron 1 1.23421
+	trade Clothing 266
+	trade Electronics 794
+	trade Equipment 482
+	trade Food 516
+	trade "Heavy Metals" 785
+	trade Industrial 623
+	trade "Luxury Goods" 1060
+	trade Medical 874
+	trade Metal 425
+	trade Plastic 482
+	fleet Ignaggen 700
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/desert8
+		distance 280.29
+		period 85.0843
+		object
+			sprite planet/dust4
+			distance 160
+			period 25.9589
+	object
+		sprite planet/ocean9
+		distance 700.53
+		period 336.185
+		object
+			sprite planet/rock17
+			distance 137
+			period 16.4168
+	object
+		sprite planet/cloud7
+		distance 1201.62
+		period 755.247
+	object
+		sprite planet/gas2
+		distance 2292.46
+		period 1990.17
+		object
+			sprite planet/ice8
+			distance 194
+			period 16.3726
+
 system Nilarhi
 	pos 227.84 -4330.82
 	government Uninhabitated
@@ -31943,7 +32189,7 @@ system Nobdean
 	trade Medical 527
 	trade Metal 315
 	trade Plastic 470
-	fleet "Dels guard" 1000
+	fleet "Dels Kaote" 1000
 	fleet "Dels miner" 1200
 	fleet "Dels merchant" 600
 	object
@@ -32062,7 +32308,7 @@ system Nordevu
 	trade Metal 340
 	trade Plastic 327
 	fleet "Dels Central Merchant" 600
-	fleet "Dels guard" 800
+	fleet "Dels Kaote" 800
 	fleet "Dels miner" 900
 	object
 		sprite star/a5
@@ -32223,7 +32469,7 @@ system Nornal
 	trade Medical 583
 	trade Metal 278
 	trade Plastic 341
-	fleet "Dels guard" 1000
+	fleet "Dels Kaote" 1000
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 900
 	object
@@ -32338,7 +32584,7 @@ system Norsea
 			period 33.7139
 
 system Norsicor
-	pos 306.877 -5621.38
+	pos 248.877 -5596.38
 	government Erader
 	habitable 2372.76
 	link Argornecai
@@ -32558,7 +32804,7 @@ system Novee
 	trade Medical 485
 	trade Metal 250
 	trade Plastic 309
-	fleet "Dels guard" 800
+	fleet "Dels Kaote" 800
 	fleet "Dels merchant" 600
 	fleet "Dels Central Merchant" 700
 	object
@@ -32622,6 +32868,8 @@ system Nugorig
 	trade Medical 713
 	trade Metal 315
 	trade Plastic 440
+	fleet Ignaggen 700
+	fleet "Dels merchant" 700
 	object
 		sprite star/k5
 		period 10
@@ -32633,7 +32881,7 @@ system Nugorig
 		sprite planet/mercury
 		distance 391.2
 		period 149.966
-	object
+	object Irgvirnel
 		sprite planet/rock5
 		distance 562.61
 		period 258.647
@@ -32674,6 +32922,7 @@ system Nugvuela
 	trade Medical 710
 	trade Metal 400
 	trade Plastic 506
+	fleet Ignaggen 700
 	object
 		sprite star/f5
 		period 10
@@ -32727,7 +32976,7 @@ system Nulvekor
 	trade Plastic 369
 	fleet "Dels merchant" 600
 	fleet "Dels Central Merchant" 600
-	fleet "Dels guard" 800
+	fleet "Dels Kaote" 800
 	fleet "Dels miner" 1200
 	object
 		sprite star/k0
@@ -33390,6 +33639,8 @@ system Orvujer
 	trade Medical 693
 	trade Metal 510
 	trade Plastic 295
+	fleet "Dels Central Merchant" 1800
+	fleet "Dels Kaote" 1000
 	object
 		sprite star/g0
 		period 10
@@ -34266,7 +34517,7 @@ system "Qee Fol"
 	trade Medical 488
 	trade Metal 290
 	trade Plastic 481
-	fleet "Dels guard" 1000
+	fleet "Dels Kaote" 1000
 	fleet "Dels merchant" 1200
 	fleet "Dels pirate" 500
 	0
@@ -34554,7 +34805,7 @@ system "Qee Nor"
 	trade Medical 559
 	trade Metal 315
 	trade Plastic 469
-	fleet "Dels guard" 1000
+	fleet "Dels Kaote" 1000
 	fleet "Dels merchant" 1200
 	fleet "Dels pirate" 500
 	object
@@ -35535,7 +35786,7 @@ system Radger
 	trade Medical 690
 	trade Metal 448
 	trade Plastic 497
-	fleet "Kager Military" 1000
+	fleet "Kager Ignaggen" 1000
 	fleet Ignaggen 800
 	object
 		sprite star/m0
@@ -35759,6 +36010,7 @@ system Rakugor
 	trade Medical 612
 	trade Metal 435
 	trade Plastic 402
+	fleet Ignaggen 700
 	object
 		sprite star/k5
 		period 10
@@ -35766,7 +36018,7 @@ system Rakugor
 		sprite planet/lava1
 		distance 184.29
 		period 48.4896
-	object
+	object Nullagur
 		sprite planet/ganymede
 		distance 466.98
 		period 195.589
@@ -35890,8 +36142,8 @@ system Raskal
 	trade Medical 921
 	trade Metal 270
 	trade Plastic 322
-	fleet "Ignaggen Outlaw" 1200
-	fleet "Kager Military" 1800
+	fleet "Ignaggen Outlaw" 700
+	fleet "Kager Ignaggen" 1800
 	object
 		sprite star/k0
 		distance 21.9325
@@ -36352,7 +36604,7 @@ system Reenai
 	trade Medical 707
 	trade Metal 312
 	trade Plastic 372
-	fleet "Dels guard" 1000
+	fleet "Dels Kaote" 1000
 	object
 		sprite star/f5
 		distance 29.9145
@@ -37394,7 +37646,7 @@ system Rikor
 	trade Medical 785
 	trade Metal 355
 	trade Plastic 385
-	fleet "Kager Military" 1000
+	fleet "Kager Ignaggen" 1000
 	fleet Ignaggen 800
 	fleet "Dels merchant" 800
 	object
@@ -37547,7 +37799,7 @@ system Riliule
 	trade Medical 566
 	trade Metal 419
 	trade Plastic 448
-	fleet "Kager Military" 1000
+	fleet "Kager Ignaggen" 1000
 	fleet Ignaggen 800
 	object
 		sprite star/k5
@@ -37608,7 +37860,7 @@ system Rocco
 	trade Medical 564
 	trade Metal 334
 	trade Plastic 478
-	fleet "Dels guard" 1000
+	fleet "Dels Kaote" 1000
 	fleet "Dels merchant" 600
 	fleet "Dels Central Merchant" 700
 	fleet Ignaggen 1400
@@ -37665,7 +37917,7 @@ system Rokarl
 	trade Medical 711
 	trade Metal 565
 	trade Plastic 295
-	fleet "Kager Military" 1000
+	fleet "Kager Ignaggen" 1000
 	fleet Ignaggen 800
 	object
 		sprite star/g5
@@ -40241,15 +40493,15 @@ system "Sector Dels"
 		sprite star/f0
 		period 10
 	object
-		sprite planet/lava4
-		distance 1609.2
-		period 530.09
-		offset 177.547
+		sprite planet/lava2
+		distance 1585.2
+		period 518.274
+		offset 334.073
 		object threequestionmarks
 			sprite planet/wormhole
-			distance 1325.2
-			period 618.772
-			offset 29.3563
+			distance 1301.2
+			period 1083.97
+			offset 79.3685
 
 system Sedop
 	pos -1476.48 -5571.77
@@ -40273,7 +40525,7 @@ system Sedop
 	trade Medical 506
 	trade Metal 419
 	trade Plastic 452
-	fleet "Dels guard" 10000
+	fleet "Dels Kaote" 10000
 	fleet "Dels Outward Merchant" 700
 	0
 	object
@@ -41260,6 +41512,7 @@ system Stidueda
 	trade Metal 429
 	trade Plastic 297
 	fleet "Dels Central Merchant" 1600
+	fleet "Dels Kaote" 1000
 	object
 		sprite star/k5
 		distance 39.897
@@ -41390,7 +41643,7 @@ system Suadee
 	trade Plastic 417
 	fleet "Dels merchant" 600
 	fleet Ignaggen 700
-	fleet "Dels guard" 1000
+	fleet "Dels Kaote" 1000
 	fleet "Dels Central Merchant" 1400
 	object
 		sprite star/m4
@@ -41403,28 +41656,45 @@ system Suadee
 		period 13.0031
 	object
 		sprite planet/mercury
-		distance 258.51
-		period 76.9701
-	object
-		sprite planet/europa
-		distance 511.32
-		period 214.114
-	object
+		distance 160.5
+		period 37.6547
+		offset 114.713
+	object Deerevul
 		sprite planet/dust5
-		distance 1067.81
-		period 646.171
+		distance 668.332
+		period 319.959
+		offset 105.2
 	object
 		sprite planet/ice6
-		distance 1245.1
-		period 813.603
+		distance 840.332
+		period 451.11
+		offset 299.793
 	object
 		sprite planet/gas2
-		distance 4013.31
-		period 4708.26
+		distance 1217.33
+		period 786.538
+		offset 243.882
 		object
 			sprite planet/ice0
 			distance 215
 			period 19.1017
+	object
+		sprite planet/gas8
+		distance 3290.97
+		period 3496.17
+		offset 281.143
+		object
+			sprite planet/rock17
+			distance 184
+			period 13.2863
+		object
+			sprite planet/luna
+			distance 307
+			period 28.6342
+		object
+			sprite planet/rock7
+			distance 458
+			period 52.1765
 
 system Sudean
 	pos -1240.64 -5151.85
@@ -41448,7 +41718,7 @@ system Sudean
 	trade Medical 541
 	trade Metal 406
 	trade Plastic 387
-	fleet "Dels guard" 1000
+	fleet "Dels Kaote" 1000
 	fleet "Dels merchant" 600
 	fleet "Dels Central Merchant" 800
 	fleet Ignaggen 1400
@@ -41595,6 +41865,8 @@ system Suedor
 	trade Medical 785
 	trade Metal 344
 	trade Plastic 388
+	fleet "Dels Central Merchant" 1400
+	fleet "Dels Kaote" 1000
 	object
 		sprite star/g5
 		distance 49
@@ -41649,7 +41921,7 @@ system Suere
 	trade Metal 412
 	trade Plastic 302
 	fleet "Dels merchant" 600
-	fleet "Dels guard" 100
+	fleet "Dels Kaote" 100
 	object
 		sprite star/g5
 		period 10
@@ -41708,6 +41980,7 @@ system Suideon
 	trade Metal 350
 	trade Plastic 421
 	fleet "Dels Central Merchant" 1000
+	fleet "Dels Kaote" 1000
 	object
 		sprite star/m0
 		distance 48.0659
@@ -41928,7 +42201,7 @@ system Suolaa
 	trade Medical 759
 	trade Metal 269
 	trade Plastic 414
-	fleet "Dels guard" 600
+	fleet "Dels Kaote" 600
 	fleet "Dels merchant" 1200
 	fleet "Dels Central Merchant" 700
 	object
@@ -43022,6 +43295,7 @@ system Uileyder
 	trade Metal 330
 	trade Plastic 392
 	fleet "Dels Central Merchant" 1200
+	fleet "Dels Kaote" 1000
 	object
 		sprite star/m0
 		period 10
@@ -43182,6 +43456,7 @@ system Ulgavel
 	trade Medical 812
 	trade Metal 562
 	trade Plastic 483
+	fleet Ignaggen 700
 	object
 		sprite star/k5
 		period 10
@@ -43840,7 +44115,7 @@ system Uronuar
 			period 14.6565
 
 system Ursekii
-	pos -918.924 -4559.42
+	pos -922.924 -4565.42
 	habitable 4270
 	asteroids "small rock" 41 3.1174
 	asteroids "large rock" 9 2.0592
@@ -43976,6 +44251,9 @@ system Varleron
 	trade Medical 742
 	trade Metal 538
 	trade Plastic 486
+	fleet "Ignaggen Outlaw" 1200
+	fleet Ignaggen 900
+	fleet "Kager Ignaggen" 900
 	object
 		sprite star/g0
 		period 10
@@ -44026,6 +44304,7 @@ system Vedeero
 	trade Metal 454
 	trade Plastic 301
 	fleet Ignaggen 700
+	fleet "Dels Kaote" 1000
 	object
 		sprite star/g0
 		period 10
@@ -44323,7 +44602,7 @@ system Verdulla
 	trade Metal 505
 	trade Plastic 407
 	fleet "Dels Central Merchant" 700
-	fleet "Dels guard" 800
+	fleet "Dels Kaote" 800
 	object
 		sprite star/m4
 		period 10
@@ -44486,7 +44765,7 @@ system Veukeeo
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 800
 	fleet "Dels Central Merchant" 600
-	fleet "Dels guard" 800
+	fleet "Dels Kaote" 800
 	object
 		sprite star/k0
 		period 10
@@ -44542,6 +44821,8 @@ system Vibug
 	trade Medical 649
 	trade Metal 510
 	trade Plastic 455
+	fleet "Kager Ignaggen" 900
+	fleet Ignaggen 900
 	object
 		sprite star/k0
 		distance 28.1896
@@ -44608,6 +44889,7 @@ system Vigune
 	trade Medical 692
 	trade Metal 511
 	trade Plastic 385
+	fleet Ignaggen 900
 	object
 		sprite star/m0
 		period 10
@@ -44675,7 +44957,7 @@ system Vikeoni
 	trade Metal 412
 	trade Plastic 323
 	fleet "Dels Central Merchant" 700
-	fleet "Dels guard" 800
+	fleet "Dels Kaote" 800
 	object
 		sprite star/k0
 		period 10
@@ -45022,7 +45304,7 @@ system Vobeelee
 	trade Medical 686
 	trade Metal 309
 	trade Plastic 321
-	fleet "Dels guard" 600
+	fleet "Dels Kaote" 600
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 700
 	fleet "Dels Central Merchant" 500
@@ -45211,6 +45493,7 @@ system Vokuder
 	trade Medical 726
 	trade Metal 545
 	trade Plastic 418
+	fleet "Ignaggen Outlaw" 1200
 	object
 		sprite star/g0
 		distance 36.0347
@@ -45270,7 +45553,7 @@ system Volarnee
 	trade Metal 328
 	trade Plastic 298
 	fleet "Dels merchant" 600
-	fleet "Dels guard" 1000
+	fleet "Dels Kaote" 1000
 	object
 		sprite star/k0
 		period 10
@@ -45384,7 +45667,7 @@ system Voltaric
 	trade Medical 592
 	trade Metal 382
 	trade Plastic 335
-	fleet "Dels guard" 1000
+	fleet "Dels Kaote" 1000
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 1000
 	object
@@ -45459,7 +45742,7 @@ system Voltuara
 	trade Medical 480
 	trade Metal 313
 	trade Plastic 408
-	fleet "Dels guard" 600
+	fleet "Dels Kaote" 600
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 800
 	fleet "Dels Central Merchant" 600
@@ -46676,8 +46959,13 @@ system ligar
 			distance 576
 			period 43.4406
 
+planet Aegeleni
+	landscape land/beach1
+	description .
+	spaceport .
+
 planet Aelowee
-	landscape land/fog4
+	landscape land/land2
 	description `Stormy planet.`
 	spaceport .
 	bribe 0.5
@@ -46751,6 +47039,11 @@ planet Asokqen
 	"required reputation" 1
 	bribe 0.5
 
+planet Aulingar
+	landscape land/canyon6
+	description .
+	spaceport .
+
 planet Auradei
 	landscape land/fog2
 	description .
@@ -46801,6 +47094,13 @@ planet Daskavee
 	outfitter "Dels Advanced"
 	bribe 0.5
 
+planet Deerevul
+	landscape land/snow7
+	description `This giant ball of snow is a home to surprising amount of large creature. Dels settlement here are hidden among the snow, only sign for their presence is the lights from windows, a control tower, and a large blast door in a nearby hill that leads into the spaceport.`
+	spaceport `The spaceport is an expansive hall carved into the ground connected to the underground city by rail.`
+	shipyard "Dels Standard"
+	outfitter "Dels Basic"
+
 planet Deesok
 	attributes Dels
 	landscape land/sea0
@@ -46817,10 +47117,10 @@ planet Delgaurra
 
 planet Delro
 	attributes Dels
-	landscape land/hills5-sfiera
-	description `This is the homeworld of the Dels. Multiple large megalopolis visible from afar, shimmering in gold from decorative curves spiralling and turning around the skin of the buildings.`
-	description `	Many cities here have opted to use flying vehicle for transport rather than road vehicles to avoid congestion on the limited road they have. with exception for a few cities with different, older-looking architecture which happens to be devoid of any vehicle in the sky and have instead a large underground transport network for getting around.`
-	spaceport `The spaceport is a giant triangular building built on an artificial island with landing pads on top of the building. The landing pads are seperated into 3 sections on each side of the triangle each designated to a category of ships. `
+	landscape land/land18
+	description `Delro, when first seen from space, appears not so much a world as a glittering marble. Broken up by scant green patches, everything else about the planet's surface is dominated by megalopolis-speckled seascape. Glittering spires of gold arc upwards from the islands they root in, with few of the colossal buildings displaying the same design twice - or any evidence of drab construction done purely for utility's sake.`
+	description `	Few islands on this largely oceanic planet lack development or habitation of some sort, though similarly few are linked by any sort of road network. For such an evidently large population, some other manner of transport must be utilized.`
+	spaceport `The spaceport you've settled in at lays a mild distance from one of the larger city-islands, and its triangular structure forms a veritable island in its own right. With an enormous triangular building serving as the main traffic hub, the remainder of the artificial island has been split into three sections, each designated to a particular class of ship.`
 	shipyard "Dels Advanced"
 	outfitter "Dels Advanced"
 	"required reputation" 1
@@ -46922,8 +47222,8 @@ planet Donto
 	security 0.2
 
 planet Dukreve
-	landscape land/snow11-sfiera
-	description `Dukreve was one of the first planet explored by the Dels being close to their homeworld and orbits within the habitable zone.`
+	landscape land/land19
+	description `A cold planet left mostly untouched by the Dels. Storms appears to be fairly common but weak. Some settlements can be seen around the equator of the planet.`
 	spaceport .
 
 planet Duqerva
@@ -46965,6 +47265,13 @@ planet Eilnachi
 	description .
 	spaceport .
 	"required reputation" 1
+
+planet Erdiuladen
+	landscape land/water3
+	description `Most of the land on the planet appear to elevate several dozen meters off the sea absent of any sandy beach. At its highest, tides can brim even the high cliffs of the shore. Waves are larger and more violent here than most other seas. Rains reaches everywhere on the planet touching even  the fields far deep in the land the behind countless peaks of mountians. `
+	spaceport `The spaceport sits in a large, open flatland. Distant mountains can be seen no matter where you turn. The control tower here is among the few tallest structure in the city while most other buildings rarely go beyond five levels.`
+	shipyard "Dels Standard"
+	outfitter "Dels Basic"
 
 planet Ereata
 	attributes Dels
@@ -47123,6 +47430,11 @@ planet Graimo
 	spaceport .
 	"required reputation" 1
 
+planet Gricall
+	landscape land/land3
+	description .
+	spaceport .
+
 planet Grokig
 	landscape land/station0
 	description .
@@ -47155,6 +47467,21 @@ planet Hallma
 	outfitter Aumar
 	bribe 0.3
 	security 0.4
+
+planet Hogral
+	landscape land/land10
+	description .
+	spaceport .
+
+planet Huderigna
+	attributes mining
+	landscape land/valley11-harro
+	description `An odd planet where waterbodies are split into multiple pockets of lake scattered all over the planet. From the look this planet probably have more land above the water than below. Towns and cities are built around the inland seas while dryer area are used for mining. `
+	spaceport `The spaceport is built right on the shore. The style of building here seems to be a mix of Dels decorations on Ignaggen brutalist stone structures.`
+	shipyard "Dels Basic"
+	shipyard "Ignaggen Basic"
+	outfitter "Dels Basic"
+	outfitter "Ignaggen Basic"
 
 planet Ieudea
 	attributes mining
@@ -47191,6 +47518,11 @@ planet Ire
 	spaceport .
 	"required reputation" 1
 
+planet Irgvirnel
+	landscape land/land13
+	description .
+	spaceport .
+
 planet Iueva
 	landscape land/beach1
 	description .
@@ -47212,10 +47544,8 @@ planet Jocuta
 
 planet Ka'erie
 	attributes Dels
-	landscape land/water7
-	description `Ka'erie is one of the most technologically advanced planet of the Dels even it may not look like it, it's also known that hidden Dels research base is located here.`
-	description `	Due that this planet was one of the Dels main industry and ship manufacturery planet, a lot of forts and orbital weapons are deployed around the planet.`
-	description `	This planet is known to be as well-defended as Deefolks(Dels Capital Planet).`
+	landscape land/forest1
+	description .
 	spaceport .
 	shipyard "Dels Advanced"
 	outfitter "Dels Advanced"
@@ -47224,7 +47554,7 @@ planet Ka'erie
 	security 0.9
 	tribute 3500
 		threshold 6000
-		fleet "Dels guard" 30
+		fleet "Dels Kaote" 30
 
 planet Kagako
 	landscape land/fields9
@@ -47420,8 +47750,8 @@ planet Kotona
 
 planet Koudaenao
 	landscape land/desert5
-	description `The first thing you see as you approch the planet is fields of massive solar panels size of a small ships spreading across the land as far as you can see powering the towns and factories on this planet. Plant farm are mostly large greenhouses and are relatively small compared to the size of the cities they have to supply. `
-	spaceport `Silos and refrigerated warehouse here are notably larger and more in number than most other planet. `
+	description `The planet's surface seems designed to drink up the sun, with vast stretches of land given over to alternating arrays of domed greenhouses and solar collection arrays, the better to feed towns and factories hungry not just for produce, but energy as well. It seems that the solar arrays have the upper hand in land claim, edging out the greenhouse patches to a scant few spots relative to the populated area; it's certainly nothing like the endless patchwork fields on other farmworlds. In fact, evidence of any agriculture done outside of the ever-present greenhouses seems to be lacking entirely.`
+	spaceport `Large sections of the spaceport are given over to mass storage. Even as you watch a large shipment of food is unloaded from a ship on a neighboring pad and decanted into a nearby silo. Fresh cargo is then returned to the ship for transport offworld, but it's significantly lesser in volume that what was brought in on the same ship.`
 
 planet Krigma
 	landscape land/forest4
@@ -47441,8 +47771,29 @@ planet Kukoga
 	spaceport .
 	"required reputation" 1
 
+planet Kulderva
+	landscape land/moutaingrey1
+	description `There is only one continent on this planet centred at a colossal crater that can easily place a large moon inside. Numerous pillars punches high into the clouds curved like rib bones forming a cage around the the crater. Inside the crater is empty but patches of moss on the stone surfaces. A number more of mountain ranges surround the crater in folds with peaks getting higher and higher and it closes to the edge of the crater. Towards the edge of the continent is more tame, with mostly hills hosting variety of biomes from tropical forest up to taiga and tundra at the far north. You can see small bushes and tall grasses moving from tiny animals movement but there is no sign of any animal larger than that.`
+	spaceport `The spaceport is built in the center of a town on an island off the coast of the continent.`
+
+planet "Kuleedir Ma"
+	attributes station fuel
+	landscape land/space0
+	description `Dels fuel harvesting station.`
+	spaceport .
+
+planet "Kulpr Vonal"
+	landscape land/loc2
+	description .
+	spaceport .
+
 planet Kurtelo
 	landscape land/valley14-harro
+	description .
+	spaceport .
+
+planet Lamarre
+	landscape land/land15
 	description .
 	spaceport .
 
@@ -47524,6 +47875,11 @@ planet Liamerle
 	spaceport .
 	"required reputation" 1
 
+planet Lignuvar
+	landscape land/mountain23-spfld
+	description `A planet with a large mix of green terrain, from completely flat grasslands to mountain peaks piercing the clouds. `
+	spaceport .
+
 planet Likveera
 	landscape land/snow10
 	description ..
@@ -47539,7 +47895,7 @@ planet Livaki
 planet Lordeeva
 	landscape land/fog6
 	description `This planet have its rotation axis almost perpendicular to the star. The planet is however too warm for any significant area of ocean to freeze.`
-	description `Most of the Dels settlement on this archipelago appears to be closer to the poles.`
+	description `	Most of the Dels settlement on this archipelago appears to be closer to the poles.`
 	spaceport `The spaceport was built on one of the larger island of the planet. Still it is only barely big enough to park a few large carriers. `
 	outfitter "Dels Ammo"
 
@@ -47656,6 +48012,11 @@ planet Masriqo
 	spaceport `Almost the same style as Human spaceport.`
 	"required reputation" 1
 
+planet Meeradol
+	landscape land/sea13-sfiera
+	description .
+	spaceport .
+
 planet Mentail
 	landscape land/fog3
 	description `This cold ocean planet is a home to numerous of aquatic biotas. Many of them are also editable by the Dels. `
@@ -47751,8 +48112,8 @@ planet Morlenka
 
 planet Muneera
 	attributes mining
-	landscape land/badlands3
-	description `The planet's atmosphere is very hostile to most lifeform making it devoid of any life despite being in the meeting other requirements to support life. Due to abundant of valuable ores found on the planet crust it become a major mining plant in the region. You can always see a few dozen mines from above everywhere you go.`
+	landscape land/land27
+	description `The planet's atmosphere is very hostile to most lifeform making it devoid of any life. Due to abundant of valuable ores found on the planet crust it become a major mining plant in the region. You can always see a few dozen mines from above everywhere you go.`
 	spaceport `The current spaceport is built upon a large flat area as result of many years of mining an entire mountain with a massive building dominating over the landing pads. Large cranes over arching a portion of the spaceport pouring tons of ores into the freighters quickly filling it before moving on to the next.`
 	shipyard "Dels Basic"
 	outfitter "Dels Basic"
@@ -47825,6 +48186,20 @@ planet Nulekcurda
 	description `Majority of the planet surface is cold, dry land and ranges of mountains scattered across the land. Small pockets of lakes form in some area around the equator deep in the land surrounded by mountains. The largest body of water on the planet is no larger than a medium sized continent.`
 	spaceport `idk what to write here for now. `
 	outfitter "Dels Basic"
+
+planet Nullagur
+	landscape land/land14
+	description .
+	spaceport .
+
+planet Nuraalor
+	landscape land/land14
+	description .
+	spaceport .
+	shipyard "Ignaggen Basic"
+	shipyard "Ignaggen Advanced"
+	outfitter "Ignaggen Basic"
+	outfitter "Ignaggen Advanced"
 
 planet Oikako
 	landscape land/valley3
@@ -48128,6 +48503,11 @@ planet "Uderlee Dilr"
 	spaceport `The spaceport sits in the center of a large industrial complex surrounding by roads and rails with sight of cranes every where you look. `
 	shipyard "Dels Basic"
 	outfitter "Dels Advanced"
+
+planet Uglurren
+	landscape land/sea12-sfiera
+	description .
+	spaceport .
 
 planet Ukborta
 	landscape land/lava0
