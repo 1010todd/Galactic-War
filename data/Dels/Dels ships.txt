@@ -759,10 +759,10 @@ ship "Uldeor" #WiP
 ship "Darca"
 	sprite "ship/dels darca"
 	thumbnail "thumbnail/dels darca thumb"
-	license
-		"Dels Admiral"
 	attributes
 		category "Heavy Warship"
+		licenses
+			"Dels Admiral"
 		"cost" 9000000
 		"shields" 18500
 		"hull" 7500
@@ -867,10 +867,10 @@ ship "Darca"
 ship "Decso"
 	sprite "ship/dels decso"
 	thumbnail "thumbnail/dels decso thumb"
-	license
-		"Dels Commander"
 	attributes
 		category "Heavy Warship"
+		licenses
+			"Dels Commander"
 		"cost" 10800000
 		"shields" 12800
 		"hull" 6700
