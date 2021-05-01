@@ -304,7 +304,7 @@ ship "Eudaion"
 		"mass" 600
 		"drag" 1.7
 		"heat dissipation" .7
-		"fuel capacity" 600
+		"fuel capacity" 800
 		"cargo space" 240
 		"outfit space" 230
 		"weapon capacity" 90
@@ -354,7 +354,7 @@ ship "Eudaion"
 		under
 	explode "tiny explosion" 20
 	explode "small explosion" 12
-	description "
+	description "As Dels colony expands further, Eudaion was released to satisfy the need for long range freighter."
 
 #=================INTERCEPTOR
 ship "Desin"
@@ -759,9 +759,8 @@ ship "Uldeor" #WiP
 ship "Darca"
 	sprite "ship/dels darca"
 	thumbnail "thumbnail/dels darca thumb"
-	licenses
-		"Dels Military"
-		"Dels Carrier"
+	license
+		"Dels Admiral"
 	attributes
 		category "Heavy Warship"
 		"cost" 9000000
@@ -868,8 +867,8 @@ ship "Darca"
 ship "Decso"
 	sprite "ship/dels decso"
 	thumbnail "thumbnail/dels decso thumb"
-	licenses
-		"Dels Military"
+	license
+		"Dels Commander"
 	attributes
 		category "Heavy Warship"
 		"cost" 10800000

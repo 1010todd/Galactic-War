@@ -45,12 +45,12 @@ start "GW Dels 1"
 	conversation "GW Dels Start 1"
 	account
 		credits 560000
-		salaries 500
 		score 800
 	set "license: Dels Officer"
 	set "GW Dels start"
 	set "GW Dels start: officer"
 	event "GW Dels start swizzle"
+	salaries 500
 
 
 
