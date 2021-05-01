@@ -62,20 +62,19 @@ effect "vuskchet"
 outfit "Vrrpak Gun"
 	category "Guns"
 	cost 332000
-	thumbnail "outfit/slicer"
+	thumbnail "outfit/tehru vrrpak gun"
 	"mass" 20
 	"outfit space" -20
 	"weapon capacity" -20
 	"gun ports" -1
 	weapon
-		sprite "projectile/lightning"
-			"frame rate" 60
-			"random start frame"
-			"delay" 6
-		sound "zapper"
-		"hit effect" "skylance impact"
-		"inaccuracy" 5
-		"velocity" 320
+		sprite "projectile/vrrpak laser"
+			"frame rate" 10
+			"rewind"
+		sound "laser4"
+		"hit effect" "vuskchet"
+		"inaccuracy" 0.1
+		"velocity" 350
 		"lifetime" 1
 		"reload" 1.8
 		"burst reload" 1
@@ -84,27 +83,25 @@ outfit "Vrrpak Gun"
 		"firing heat" 2
 		"shield damage" 2
 		"hull damage" 1.5
-		"ion damage" .1
 	description "
 	
 outfit "Vrrpak Turret"
 	category "Turrets"
 	cost 382000
-	thumbnail "outfit/slicer turret"
+	thumbnail "outfit/tehru vrrpak turret"
 	"mass" 28
 	"outfit space" -28
 	"weapon capacity" -28
 	"turret mounts" -1
 	weapon
-		sprite "projectile/lightning"
-			"frame rate" 60
-			"random start frame"
-			"delay" 6
-		sound "zapper"
-		"hit effect" "skylance impact"
-		"inaccuracy" 5
-		"turret turn" 2.2
-		"velocity" 320
+		sprite "projectile/vrrpak laser"
+			"frame rate" 10
+			"rewind"
+		sound "laser4"
+		"hit effect" "vuskchet"
+		"inaccuracy" 0.1
+		"turret turn" 2.8
+		"velocity" 350
 		"lifetime" 1
 		"reload" 1.8
 		"burst reload" 1
@@ -113,7 +110,6 @@ outfit "Vrrpak Turret"
 		"firing heat" 2
 		"shield damage" 2
 		"hull damage" 1.5
-		"ion damage" .1
 	description "
 	
 outfit "Ainvus Shield Generator"
