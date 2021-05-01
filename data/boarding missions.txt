@@ -19,7 +19,7 @@ mission "Assisting Dels [1]"
 	assisting
 	repeat
 	to offer
-		random < 50
+		random < 20
 	source
 		government Dels
 	on offer
