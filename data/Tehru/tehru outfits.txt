@@ -94,6 +94,8 @@ outfit "Vrrpak Turret"
 	"weapon capacity" -28
 	"turret mounts" -1
 	weapon
+		"hardpoint sprite" "hardpoint/tehru vrrpak hp"
+		"hardpoint offset" 3.25
 		sprite "projectile/vrrpak laser"
 			"frame rate" 10
 			"rewind"
@@ -112,10 +114,67 @@ outfit "Vrrpak Turret"
 		"hull damage" 1.5
 	description "
 	
+outfit "Illar Missile Defence"
+	category "Turrets"
+	cost 80000
+	thumbnail "outfit/tehru vrrpak turret"
+	"mass" 20
+	"outfit space" -20
+	"weapon capacity" -20
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/tehru vrrpak hp"
+		"hardpoint offset" 3.25
+		"hit effect" "illar am"
+		"die effect" "vuskchet"
+		"anti-missile" 7
+		"velocity" 350
+		"lifetime" 1
+		"reload" 15
+		"burst reload" 2
+		"burst count" 5
+		"firing energy" .5
+		"firing heat" .2
+	description "This is basically a smaller version of Vrrpak Turret."
+	
+effect "illar am"
+	sprite "projectile/vrrpak laser"
+		"frame rate" 10
+		"rewind"
+	sound "energy3"
+	"lifetime" 5
+	"velocity scale" 1
+	
+#=========================Power=======================
+outfit "Etlnak Reactor"
+	category "Power"
+	cost 6200000
+	thumbnail "outfit/tehru reactor"
+	"mass" 68
+	"outfit space" -68
+	"energy generation" 12
+	"heat generation" 28
+	"shield protection" -.2
+	"energy capacity" 1000
+	description "These reactors, while powerful for it's size combined with low heat it disrupt the shielding slightly."
+	
+outfit "Rivkrtelr Reactor"
+	category "Power"
+	cost 6200000
+	thumbnail "outfit/tehru reactor"
+	"mass" 114
+	"outfit space" -114
+	"energy generation" 21
+	"heat generation" 47
+	"shield protection" -.2
+	"energy capacity" 2000
+	description "
+	
+#=========================Shield======================
 outfit "Ainvus Shield Generator"
 	category "Systems"
 	cost 160000
-	thumbnail "outfit/korbus shield"
+	thumbnail "outfit/tehru shield generator"
 	"mass" 16
 	"outfit space" -16
 	"shield generation" .41
@@ -126,7 +185,7 @@ outfit "Ainvus Shield Generator"
 outfit "Epir Shield Generator"
 	category "Systems"
 	cost 300000
-	thumbnail "outfit/kussn shield"
+	thumbnail "outfit/tehru shield generator"
 	"mass" 30
 	"outfit space" -30
 	"shield generation" 1
@@ -137,7 +196,7 @@ outfit "Epir Shield Generator"
 outfit "Jukir Shield Generator"
 	category "Systems"
 	cost 630000
-	thumbnail "outfit/kussn shield"
+	thumbnail "outfit/tehru shield generator"
 	"mass" 65
 	"outfit space" -65
 	"shield generation" 2.8
@@ -148,7 +207,7 @@ outfit "Jukir Shield Generator"
 outfit "Pivura Shield Generator"
 	category "Systems"
 	cost 1400000
-	thumbnail "outfit/kussn shield"
+	thumbnail "outfit/tehru shield generator"
 	"mass" 121
 	"outfit space" -121
 	"shield generation" 5.8
@@ -170,8 +229,8 @@ outfit "Akonu Thruster"
 	"flare sprite" "effect/atomic flare/tiny"
 		"frame rate" 14
 	"flare sound" "atomic tiny"
-	description "If you're looking for the most powerful engine that will fit into your ship, and have plenty of money to burn, Deep Sky's atomic thrusters are your answer. Of course, the extra energy and cooling they require can easily offset the benefit of their small size."
-
+	description "
+	
 outfit "Ahura Thruster"
 	category "Engines"
 	"cost" 280000
@@ -179,14 +238,14 @@ outfit "Ahura Thruster"
 	"mass" 34
 	"outfit space" -34
 	"engine capacity" -34
-	"thrust" 27.3
+	"thrust" 23.9
 	"thrusting energy" 3.1
 	"thrusting heat" 6.1
 	"flare sprite" "effect/atomic flare/small"
 		"frame rate" 13
 	"flare sound" "atomic small"
-	description "Deep Sky's atomic thrusters have been in production for centuries, but remain a niche product due to their high prices and high energy requirements."
-
+	description "
+	
 outfit "Fokhun Thruster"
 	category "Engines"
 	"cost" 560000
@@ -200,8 +259,8 @@ outfit "Fokhun Thruster"
 	"flare sprite" "effect/atomic flare/medium"
 		"frame rate" 12
 	"flare sound" "atomic medium"
-	description "This thruster is small enough to fit in a light warship or freighter, but powerful enough to move any but the largest of ships. Naturally, such performance comes at an exorbitant price."
-
+	description "
+	
 outfit "Ivtorne Thruster"
 	category "Engines"
 	"cost" 1120000
@@ -215,8 +274,8 @@ outfit "Ivtorne Thruster"
 	"flare sprite" "effect/atomic flare/large"
 		"frame rate" 11
 	"flare sound" "atomic large"
-	description "If your ship is sporting a set of Deep Sky's atomic engines, you will be the envy of every pilot in the galaxy. No other form of propulsion that humanity has discovered produces so much thrust from such a small engine."
-
+	description "
+	
 outfit "Urhas Thruster"
 	category "Engines"
 	"cost" 2240000
@@ -230,8 +289,7 @@ outfit "Urhas Thruster"
 	"flare sprite" "effect/atomic flare/huge"
 		"frame rate" 10
 	"flare sound" "atomic huge"
-	description "The A860 atomic thruster is the most powerful engine sold in human space, and is much more compact than any of the alternatives. But, you may need to upgrade your ship's power and cooling systems to handle it."
-
+	description "
 
 outfit "Akonu Steering"
 	category "Engines"
@@ -243,8 +301,8 @@ outfit "Akonu Steering"
 	"turn" 392
 	"turning energy" 0.9
 	"turning heat" 2.2
-	description "Deep Sky's atomic thrusters are a popular choice for high-end starships. It is not uncommon for a set of atomic engines to cost more than the ship they are installed in."
-
+	description "
+	
 outfit "Ahura Steering"
 	category "Engines"
 	"cost" 240000
@@ -255,8 +313,8 @@ outfit "Ahura Steering"
 	"turn" 687
 	"turning energy" 1.5
 	"turning heat" 3.7
-	description "If you have exhausted all your other options for making your ship more maneuverable, it may be time to invest in a set of atomic engines."
-
+	description "
+	
 outfit "Fokhun Steering"
 	category "Engines"
 	"cost" 480000
@@ -267,8 +325,8 @@ outfit "Fokhun Steering"
 	"turn" 1192
 	"turning energy" 2.5
 	"turning heat" 6.3
-	description "Bounty hunters and other captains who need to gain a speed advantage over the ships they are pursuing often dream of being able to save up enough money for a set of atomic engines."
-
+	description "
+	
 outfit "Ivtorne Steering"
 	category "Engines"
 	"cost" 960000
@@ -279,8 +337,8 @@ outfit "Ivtorne Steering"
 	"turn" 2050
 	"turning energy" 4.1
 	"turning heat" 10.5
-	description "This set of maneuvering thrusters from Deep Sky will allow small warships to turn as fast as a fighter. For larger ships, swapping the existing engines with a set of atomics can free up a considerable amount of space for other outfits or weapons."
-
+	description "
+	
 outfit "Urhas Steering"
 	category "Engines"
 	"cost" 1920000
@@ -291,4 +349,5 @@ outfit "Urhas Steering"
 	"turn" 3509
 	"turning energy" 6.6
 	"turning heat" 17.5
-	description "Atomic engines are considered by many to be Deep Sky's crowning achievement. Although they are so expensive that relatively few of them are in use, there are few captains who do not dream of one day installing a set of them."
+	description "
+	

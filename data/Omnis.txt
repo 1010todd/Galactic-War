@@ -1,3 +1,28 @@
+mission "Omnis-GW: licenses add"
+	name `Add all GW Licenses`
+	description `Gives all from Galactic War plugin licenses to the player.`
+	job
+	repeat
+	source
+		system "Omnis"
+		system "Galactic War"
+	on accept
+		set "license: Dels Admiral"
+		set "license: Dels Commander"
+		
+mission "licenses remove"
+	name `Remove all Licenses`
+	description `Take all licenses from the player.`
+	job
+	repeat
+	source
+		system "Omnis"
+		system "Galactic War"
+	on accept
+		clear "license: Dels Admiral"
+		clear "license: Dels Commander"
+	
+#===============================Outfitter, Shipyards==========================
 
 outfitter developer #Not completed and sorted yet
 	#=============Dels
@@ -253,7 +278,7 @@ outfitter developer #Not completed and sorted yet
 	"E Anor"
 	"B Kechon"
 	#====================New Sky merge
-	###Zorcn###
+	#==============##Zorcn###
 	#Weapons
 	"Huer II CIWS Turret"
 	"Huer CIWS Turret"
@@ -318,7 +343,7 @@ outfitter developer #Not completed and sorted yet
 	#Other 
 	"VLS support modification"
 	
-	##Vareen##
+	#=================#Vareen##
 	#Weapons
 	"Lismnia Gun"
 	"Lismnia Turret"
@@ -330,12 +355,18 @@ outfitter developer #Not completed and sorted yet
 	"I6V2 Core"
 	"I3V2 Core"
 	
-	##Tehru
+	#========================#Tehru
 	#Weapons
 	"Vuskchet Cannon"
 	"Vuskchet Turret"
 	"Vrrpak Gun"
 	"Vrrpak Turret"
+	
+	"Illar Missile Defence"
+	
+	#Power
+	"Etlnak Reactor"
+	"Rivkrtelr Reactor"
 	
 	#Systems
 	"Ainvus Shield Generator"

@@ -4,7 +4,7 @@
 outfit "Eaur Power Cell"
 	category "Power"
 	cost 19000
-	thumbnail "outfit/eaur power cell"
+	thumbnail "outfit/zorcn eaur cell"
 	"mass" 10
 	"outfit space" -10
 	"energy generation" .75
@@ -14,7 +14,7 @@ outfit "Eaur Power Cell"
 outfit "Euman Power Cell"
 	category "Power"
 	cost 48000
-	thumbnail "outfit/euman power cell"
+	thumbnail "outfit/zorcn euman cell"
 	"mass" 38
 	"outfit space" -38
 	"energy generation" 2.8
@@ -24,7 +24,7 @@ outfit "Euman Power Cell"
 outfit "Evtarn Power Cell"
 	category "Power"
 	cost 76000
-	thumbnail "outfit/evtarn power cell"
+	thumbnail "outfit/zorcn evtarn cell"
 	"mass" 56
 	"outfit space" -56
 	"energy generation" 3.4
@@ -34,7 +34,7 @@ outfit "Evtarn Power Cell"
 outfit "Rcke Generator"
 	category "Power"
 	cost 8000000
-	thumbnail "outfit/rcke fusion"
+	thumbnail "outfit/zorcn rcke fusion"
 	"mass" 100
 	"outfit space" -100
 	"energy generation" 20
@@ -139,7 +139,7 @@ outfit "Neyton M1 Fuel Tank"
 outfit "Nitil Shielding System"
 	category "Systems"
 	cost 50000
-	thumbnail "outfit/nitil shield"
+	thumbnail "outfit/zorcn nitil shield"
 	"mass" 25
 	"outfit space" -25
 	"shields" 200
@@ -153,7 +153,7 @@ outfit "Nitil Shielding System"
 outfit "Korbus Shield Generator"
 	category "Systems"
 	cost 30000
-	thumbnail "outfit/korbus shield"
+	thumbnail "outfit/zorcn korbus shield"
 	"mass" 20
 	"outfit space" -20
 	"shield generation" .33
@@ -164,7 +164,7 @@ outfit "Korbus Shield Generator"
 outfit "Kussn Shield Generator"
 	category "Systems"
 	cost 90000
-	thumbnail "outfit/kussn shield"
+	thumbnail "outfit/zorcn kussn shield"
 	"mass" 50
 	"outfit space" -50
 	"shield generation" 1.25
@@ -367,7 +367,7 @@ outfit "VLS support modification"
 outfit "Anlis Gauss Gun"
 	category "Guns"
 	cost 26000
-	thumbnail "outfit/anlis gauss gun"
+	thumbnail "outfit/zorcn anlis gun"
 	"mass" 8
 	"outfit space" -8
 	"weapon capacity" -8
@@ -393,7 +393,7 @@ outfit "Anlis Gauss Gun"
 outfit "Anlis Gauss Turret"
 	category "Turrets"
 	cost 120000
-	thumbnail "outfit/anlis turret"
+	thumbnail "outfit/zorcn anlis turret"
 	"mass" 22
 	"outfit space" -22
 	"weapon capacity" -22
@@ -424,7 +424,7 @@ outfit "Anlis Gauss Turret"
 outfit "Utvr40 Shell"
 	category "Ammunition"
 	cost 150
-	thumbnail "outfit/utvr40 shell"
+	thumbnail "outfit/zorcn utvr40 shell"
 	"mass" 1
 	"utvr40 capacity" -1
 	description "
@@ -432,7 +432,7 @@ outfit "Utvr40 Shell"
 outfit "Utvr40 Storage Room"
 	category "Ammunition"
 	cost 180000
-	thumbnail "outfit/utvr40 storage"
+	thumbnail "outfit/zorcn utvr40 storage"
 	"mass" .2
 	"outfit space" -20
 	"utvr40 capacity" 20
@@ -441,7 +441,7 @@ outfit "Utvr40 Storage Room"
 outfit "Utvr40 Gun"
 	category "Guns"
 	cost 740000
-	thumbnail "outfit/utvr40 gun"
+	thumbnail "outfit/zorcn utvr40 gun"
 	"mass" 100
 	"outfit space" -120
 	"weapon capacity" -120
@@ -472,7 +472,7 @@ outfit "Utvr40 Gun"
 outfit "Utvr40 Turret"
 	category "Turrets"
 	cost 1580000
-	thumbnail "outfit/utvr40 turret"
+	thumbnail "outfit/zorcn utvr40 turret"
 	"mass" 240
 	"outfit space" -280
 	"weapon capacity" -280
@@ -519,7 +519,7 @@ effect "utvr40 fire"
 outfit "Muaner Missile"
 	category "Ammunition"
 	cost 300
-	thumbnail "outfit/muaner missile"
+	thumbnail "outfit/zorcn muaner missile"
 	"mass" .06
 	"muaner capacity" -1
 	description "
@@ -527,7 +527,7 @@ outfit "Muaner Missile"
 outfit "Muaner Missile Rack"
 	category "Ammunition"
 	cost 20000
-	thumbnail "outfit/muaner missile rack"
+	thumbnail "outfit/zorcn muaner missile rack"
 	"mass" 2.4
 	"outfit space" -7
 	"muaner capacity" 200
@@ -537,7 +537,7 @@ outfit "Muaner Missile Rack"
 outfit "Muaner Missile Launcher"
 	category "Secondary Weapons"
 	cost 80000
-	thumbnail "outfit/muaner launcher"
+	thumbnail "outfit/zorcn muaner launcher"
 	"mass" 7
 	"outfit space" -20
 	"weapon capacity" -20
@@ -577,7 +577,7 @@ outfit "Muaner Missile Launcher"
 outfit "Ronc Rocket"
 	category "Ammunition"
 	cost 25
-	thumbnail "outfit/ronc missile"
+	thumbnail "outfit/zorcn ronc missile"
 	"mass" .03
 	"ronc capacity" -1
 	description "
@@ -585,7 +585,7 @@ outfit "Ronc Rocket"
 outfit "Ronc Storage Crate"
 	category "Ammunition"
 	cost 5000
-	thumbnail "outfit/ronc pod"
+	thumbnail "outfit/zorcn ronc pod"
 	"mass" 2
 	"outfit space" -8
 	"ronc capacity" 200
@@ -604,7 +604,7 @@ effect "ronc dust"
 outfit "Ronc Pod"
 	category "Secondary Weapons"
 	cost 20000
-	thumbnail "outfit/ronc pod"
+	thumbnail "outfit/zorcn ronc pod"
 	"mass" 5
 	"outfit space" -14
 	"weapon capacity" -14
@@ -639,7 +639,7 @@ outfit "Ronc Pod"
 outfit "Ronc Turret"
 	category "Secondary Weapons"
 	cost 60000
-	thumbnail "outfit/ronc turret"
+	thumbnail "outfit/zorcn ronc turret"
 	"mass" 16
 	"outfit space" -22
 	"weapon capacity" -22
@@ -684,7 +684,7 @@ effect "ronc fire"
 outfit "Durnske Missile"
 	category "Ammunition"
 	cost 25000
-	thumbnail "outfit/durnske missile"
+	thumbnail "outfit/zorcn durnske missile"
 	"mass" .8
 	"durnske capacity" -1
 	description "Durnske Anti-Ship Missile"
@@ -692,7 +692,7 @@ outfit "Durnske Missile"
 outfit "Durnske Missile Launcher"
 	category "Secondary Weapons"
 	cost 200000
-	thumbnail "outfit/durnske launcher"
+	thumbnail "outfit/zorcn durnske launcher"
 	"mass" 2
 	"outfit space" -16
 	"weapon capacity" -16
@@ -731,7 +731,7 @@ outfit "Durnske Missile Launcher"
 outfit "Durnske VLS"
 	category "Secondary Weapons"
 	cost 200000
-	thumbnail "outfit/durnske vls"
+	thumbnail "outfit/zorcn durnske vls"
 	"mass" 2
 	"outfit space" -8
 	"weapon capacity" -8
@@ -813,7 +813,7 @@ outfit "Funes Missile Launcher"
 outfit "Krabusin Missile"
 	category "Ammunition"
 	cost 1300
-	thumbnail "outfit/krabusin"
+	thumbnail "outfit/zorcn krabusin"
 	"mass" .08
 	"krabusin capacity" -1
 	description "
@@ -821,7 +821,7 @@ outfit "Krabusin Missile"
 outfit "Krabusin Missile Rack"
 	category "Ammunition"
 	cost 20000
-	thumbnail "outfit/sidewinder storage"
+	thumbnail "outfit/zorcn krabusin"
 	"mass" 2.4
 	"outfit space" -7
 	"krabusin capacity" 200
@@ -831,7 +831,7 @@ outfit "Krabusin Missile Rack"
 outfit "Krabusin Missile Launcher"
 	category "Secondary Weapons"
 	cost 140000
-	thumbnail "outfit/krabusin"
+	thumbnail "outfit/zorcn krabusin"
 	"mass" 6
 	"outfit space" -20
 	"weapon capacity" -20
@@ -880,7 +880,7 @@ outfit "Etkan Rocket"
 outfit "Etkan Rocket CIWS Turret"
 	category "Turrets"
 	cost 80000
-	thumbnail "outfit/etkan am"
+	thumbnail "outfit/zorcn etkan am"
 	"mass" 24
 	"outfit space" -30
 	"weapon capacity" -30
@@ -905,7 +905,7 @@ outfit "Etkan Rocket CIWS Turret"
 outfit "Huer CIWS Turret"
 	category "Turrets"
 	cost 60000
-	thumbnail "outfit/huer ciws"
+	thumbnail "outfit/zorcn huer ciws"
 	"mass" 16
 	"outfit space" -16
 	"weapon capacity" -16
@@ -926,7 +926,7 @@ outfit "Huer CIWS Turret"
 outfit "Huer II CIWS Turret"
 	category "Turrets"
 	cost 120000
-	thumbnail "outfit/huer ii ciws"
+	thumbnail "outfit/zorcn huer ii ciws"
 	"mass" 22
 	"outfit space" -22
 	"weapon capacity" -22
@@ -956,7 +956,7 @@ effect "huer anti-missile"
 outfit "Hyut SMG"
 	category "Hand to Hand"
 	cost 9000
-	thumbnail "outfit/hyut"
+	thumbnail "outfit/zorcn hyut"
 	"capture attack" .7
 	"capture defense" .7
 	"unplunderable" 1
@@ -965,8 +965,8 @@ outfit "Hyut SMG"
 outfit "Ronar Rocket Rifle"
 	category "Hand to Hand"
 	cost 18000
-	thumbnail "outfit/ronar rocket rifle"
+	thumbnail "outfit/zorcn ronar rocket rifle"
 	"capture attack" 1.2
 	"capture defense" .8
 	"unplunderable" 1
-	description "Zorcn combat where built around rockets and missiles, even their hand held weapon. These rocket rifle are found to be very effective for offensively but due to the blast generated by the rocket it's slightly harder than other alternative to find a good position without burning yourself as you fire the weapon."
+	description "Zorcn combat where built around rockets and missiles, even their hand held weapon. These rocket rifle are found to be very effective offensively but due to the blast generated by the rocket it's slightly harder than other alternative to find a good position without burning yourself as you fire the weapon."

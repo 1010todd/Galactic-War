@@ -986,5 +986,14 @@ outfit "Sakkaid Blaster"
 	"unplunderable" 1
 	description "While not as lethal as regular firearm these weapon are easier to use."
 	
+outfit "Dels Admiral License"     
+    category Special        
+    cost 500000        
+    thumbnail outfit/license        
+    description `A license granted to Dels equivalent of admirals allowing them to purchase and command carriers.`
 	
-	
+outfit "Dels Commander License"     
+    category Special        
+    cost 250000        
+    thumbnail outfit/license        
+    description `A license granted to Dels equivalent of commander allowing them to purchase and command most large warships.`

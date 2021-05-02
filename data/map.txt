@@ -47863,9 +47863,7 @@ system "Trochzempt ZAZ-1"
 	link Saor
 	link "Zerax WS-2"
 	link "Zoivol WS-1"
-	asteroids "small metal" 1 3.6036
-	asteroids "medium metal" 1 2.5844
-	asteroids "large metal" 1 3.8584
+	arrival 1500
 	trade Clothing 160
 	trade Electronics 890
 	trade Equipment 630
@@ -47881,11 +47879,9 @@ system "Trochzempt ZAZ-1"
 	fleet point 600
 	fleet "Zis Civillian Fleet" 500
 	fleet "Zis Mining Fleet" 700
-	fleet ""
 	object "Trochzempt ZAZ-1"
 		sprite planet/trochzempt
 		period 10
-		fleet ""
 
 system Tuarli
 	pos -50929.2 -55082.2

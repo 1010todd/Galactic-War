@@ -229,10 +229,11 @@ ship "Tehru Tcvarka"
 			"hull damage" 1500
 			"hit force" 4500
 	outfits
-		"Vuskchet Cannon" 3
+		"Vuskchet Cannon" 4
+		"Vrrpak Turret" 2
+		"Illar Missile Defence" 2
 		
-		"Fusion Reactor"
-		"LP288a Battery Pack"
+		"Rivkrtelr Reactor"
 		"Pivura Shield Generator"
 		"Water Coolant System"
 		"Tactical Scanner"
@@ -241,18 +242,72 @@ ship "Tehru Tcvarka"
 		"Ivtorne Steering"
 		"Hyperdrive"
 		
-	gun -22 -171.5
-	gun 54.5 -14
-	gun 77 -15.5
-	turret -21 -117.5
-	turret 20 -76
-	turret 64.5 105.5
-	turret -41 157
-	engine -40 191.5 .4
-	engine 40 191.5 .4
-	engine -23 193.5 .6
-	engine 23 193.5 .6
-	engine 0 193.5
+	gun -13 -186.5
+	gun 13 -186.5
+	gun -37.5 -44.5
+	gun 37.5 -44.5
+	turret 0 -141.5
+	turret 0 -105.5 "Illar Missile Defence"
+	turret -23 128.5 "Illar Missile Defence"
+	turret 23 128.5
+	engine 0 199
+		zoom 1
+		angle 0
+		under
+	engine -9.5 196.5
+		zoom .8
+		angle 0
+		under
+	engine 9.5 196.5
+		zoom .8
+		angle 0
+		under
+	engine -16 190
+		zoom .5
+		angle 0
+		under
+	engine 16 190
+		zoom .5
+		angle 0
+		under
+	"reverse engine" -40 -38.5
+		zoom .5
+		angle 180
+		under
+	"reverse engine" 40 -38.5
+		zoom .5
+		angle 180
+		under
+	"steering engine" -34.5 181.5
+		zoom 1
+		angle 315
+		under
+		left
+	"steering engine" 34.5 181.5
+		zoom 1
+		angle 45
+		under
+		right
+	"steering engine" -37 175.5
+		zoom 1
+		angle 315
+		under
+		left
+	"steering engine" 37 175.5
+		zoom 1
+		angle 45
+		under
+		right
+	"steering engine" -24.5 188
+		zoom 1
+		angle 315
+		under
+		left
+	"steering engine" 24.5 188
+		zoom 1
+		angle 45
+		under
+		right
 	leak "leak" 30 50
 	leak "flame" 30 80
 	leak "big leak" 30 30
