@@ -89,6 +89,23 @@ ship "Qoro(E) Goth"
 	explode "tiny explosion" 20
 	description "A heavier version of Gosat."
 	
+ship "Qoro(E) Goth" "Goth Mixed"
+	outfits
+		"Algarral Battle Gun" 2
+		"Orthall Assault Cannon" 2
+		"Aog Cell"
+		"Gotam Ion Thruster"
+		"Ornai Shield Generator"
+		"Hyperdrive"
+		
+ship "Qoro(E) Goth" "Goth Bomber"
+	outfits
+		"Orthall Assault Cannon" 4
+		"Aog Cell"
+		"Gotam Ion Thruster"
+		"Ornai Shield Generator"
+		"Hyperdrive"
+	
 ship "Qoro(E) Golosta"
 	sprite "ship/qoro golosta"
 	attributes

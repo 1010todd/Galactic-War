@@ -114,8 +114,8 @@ outfit "Vokkar Gun" #PG10
 		"firing force" 8
 		"firing heat" 135
 		"hit force" 32
-		"shield damage" 45
-		"hull damage" 40
+		"shield damage" 68
+		"hull damage" 66
 	description "."
 	
 effect "vokkar spark"
@@ -212,15 +212,15 @@ outfit "Dels Sokak Cannon"
 		icon "icon/sokak"
 		"inaccuracy" 1.2
 		"velocity" 35
-		"lifetime" 35
-		"reload" 40
+		"lifetime" 17
+		"reload" 50
 		"firing energy" 60
 		"firing force" 30
 		"firing heat" 180
 		"hit force" 160
-		"shield damage" 110
-		"hull damage" 175
-	description "Dels Sokak Cannon deals four times more damage than Human's Particle Cannon."
+		"shield damage" 200
+		"hull damage" 320
+	description "A large cannon used by Dels while looks outdated it can pack quite a punch."
 	
 outfit "Dels Sokak Cannon Turret"
 	category "Secondary Weapons"
@@ -245,19 +245,19 @@ outfit "Dels Sokak Cannon Turret"
 		"turret turn" 1
 		"velocity" 35
 		"lifetime" 17
-		"reload" 46
+		"reload" 56
 		"firing energy" 60
 		"firing force" 30
 		"firing heat" 180
 		"hit force" 160
-		"shield damage" 110
-		"hull damage" 175
+		"shield damage" 200
+		"hull damage" 320
 	description "Dels Sokak Cannon mounted on a turret."
 	
 outfit "Sokak Slug"
 	category "Ammunition"
 	cost 200
-	thumbnail "outfit/hai tracker"
+	thumbnail "outfit/dels sokak slug"
 	"sokak capacity" -1
 	"mass" .02
 	description "Ammo for Sokak cannon."
@@ -265,7 +265,7 @@ outfit "Sokak Slug"
 outfit "Sokak Slug Storage"
 	category "Systems"
 	cost 9000
-	thumbnail "outfit/red screwdriver"
+	thumbnail "outfit/dels sokak slug"
 	"mass" 25
 	"outfit space" -50
 	"weapon capacity" -50
@@ -370,8 +370,8 @@ outfit "Kotdar Turret" #HA1
 		"firing force" 10
 		"firing heat" 340
 		"hit force" 80
-		"shield damage" 240
-		"hull damage" 450
+		"shield damage" 110
+		"hull damage" 175
 	description "These are large long-range anti-capital turret."
 	
 #=========================================[Anti Missile]=============================
