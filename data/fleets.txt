@@ -451,7 +451,7 @@ fleet "Kroom Kanai"
 	personality
 		confusion 25
 		frugal 
-		plunder
+		plunders
 		disables
 	variant 20
 		"Kargorko" 25
@@ -578,7 +578,7 @@ fleet "Ignaggen Miner"
 	cargo 0
 	personality
 		confusion 10
-		frugal mining harvests plunderss
+		frugal mining harvests plunders
 	variant 20
 		"Gikeor" 3
 		
@@ -1304,7 +1304,7 @@ fleet "Tehru Insker Patrol"
 		"Tehru Avir" 3
 	variant 5
 		"Tehru Mavuin"
-		"Tehru Avir" 2	
+		"Tehru Avir" 2
 		"Tehru Piv" 6
 	variant 10
 		"Tehru Tcvarka" 1
@@ -1312,5 +1312,5 @@ fleet "Tehru Insker Patrol"
 	variant 10
 		"Tehru Tcvarka" 1
 		"Tehru Mavuin"
-		"Tehru Avir" 2	
+		"Tehru Avir" 2
 		"Tehru Piv" 6

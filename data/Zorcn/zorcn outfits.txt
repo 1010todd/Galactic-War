@@ -634,7 +634,7 @@ outfit "Ronc Pod"
 		"firing force" 12
 		"missile strength" 2
 		"blast radius" 5
-	description "
+	description ""
 	
 outfit "Ronc Turret"
 	category "Secondary Weapons"
@@ -655,7 +655,7 @@ outfit "Ronc Turret"
 		"hit effect" "tiny explosion"
 		"hit effect" "smoke" 2
 		"live effect" "ronc dust" 50
-		"inaccuracy" 5
+		"inaccuracy" 10
 		"velocity" 30
 		"random velocity" 2
 		"acceleration" .2
@@ -671,7 +671,7 @@ outfit "Ronc Turret"
 		"firing force" 8
 		"missile strength" 2
 		"blast radius" 5
-	description "
+	description ""
 	
 effect "ronc fire"
 	sprite "effect/flame"
