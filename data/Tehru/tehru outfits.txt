@@ -19,9 +19,9 @@ outfit "Vuskchet Cannon"
 		"firing heat" 330
 		"firing force" 150
 		"hit force" 300
-		"shield damage" 160
-		"hull damage" 105
-	description "
+		"shield damage" 240
+		"hull damage" 165
+	description ""
 	
 outfit "Vuskchet Turret"
 	category "Turrets"
@@ -45,9 +45,9 @@ outfit "Vuskchet Turret"
 		"firing heat" 330
 		"firing force" 150
 		"hit force" 300
-		"shield damage" 160
-		"hull damage" 105
-	description "
+		"shield damage" 240
+		"hull damage" 165
+	description ""
 	
 effect "vuskchet"
 	sprite "effect/afterburner"
@@ -61,7 +61,7 @@ effect "vuskchet"
 	
 outfit "Vrrpak Gun"
 	category "Guns"
-	cost 332000
+	cost 432000
 	thumbnail "outfit/tehru vrrpak gun"
 	"mass" 20
 	"outfit space" -20
@@ -81,13 +81,14 @@ outfit "Vrrpak Gun"
 		"burst count" 50
 		"firing energy" 5
 		"firing heat" 2
-		"shield damage" 6
-		"hull damage" 5
+		"shield damage" 7
+		"hull damage" 6
+		"piercing" .05
 	description "
 	
 outfit "Vrrpak Turret"
 	category "Turrets"
-	cost 382000
+	cost 482000
 	thumbnail "outfit/tehru vrrpak turret"
 	"mass" 28
 	"outfit space" -28
@@ -110,8 +111,9 @@ outfit "Vrrpak Turret"
 		"burst count" 50
 		"firing energy" 5
 		"firing heat" 2
-		"shield damage" 6
-		"hull damage" 5
+		"shield damage" 7
+		"hull damage" 6
+		"piercing" .05
 	description "
 	
 outfit "Illar Missile Defence"
@@ -127,7 +129,7 @@ outfit "Illar Missile Defence"
 		"hardpoint offset" 3.25
 		"hit effect" "illar am"
 		"die effect" "vuskchet"
-		"anti-missile" 7
+		"anti-missile" 9
 		"velocity" 350
 		"lifetime" 1
 		"reload" 15
@@ -146,6 +148,18 @@ effect "illar am"
 	"velocity scale" 1
 	
 #=========================Power=======================
+outfit "Apirval Generator"
+	category "Power"
+	cost 6200000
+	thumbnail "outfit/tehru reactor"
+	"mass" 21
+	"outfit space" -21
+	"energy generation" 4.5
+	"heat generation" 6
+	"energy capacity" 500
+	description "."
+	
+
 outfit "Etlnak Reactor"
 	category "Power"
 	cost 6200000
