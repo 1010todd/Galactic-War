@@ -173,7 +173,7 @@ outfit "R5 Micro Anti-Missile Turret"
 outfit "R3 Energy Tracer" 
 	category "Guns"
 	cost 180000
-	thumbnail "outfit/energy tracer"
+	thumbnail "outfit/zis energy tracer"
 	"mass" 10
 	"outfit space" -10
 	"weapon capacity" -10
@@ -198,12 +198,12 @@ outfit "R3 Energy Tracer"
 		"shield damage" 360
 		"hull damage" 120
 		"missile strength" 20
-	description "Similar to Pug Seeker but not the same, it doesn't spin, it told that they were made by machines that the Zis fleet gave them, but how it works is still unclear for the Geevas."
+	description ""
 	
 outfit "R1 Homing Beam" 
 	category "Guns"
 	cost 860000
-	thumbnail "outfit/energy tracer"
+	thumbnail "outfit/zis energy tracer"
 	"mass" 30
 	"outfit space" -30
 	"weapon capacity" -30
@@ -698,7 +698,7 @@ outfit "Prototype Cloaking Device"
 outfit "Kimal Assualt Rifle"
 	category "Hand to Hand"
 	cost 12000
-	thumbnail "outfit/kimal"
+	thumbnail "outfit/geeva kimal"
 	"capture attack" 1
 	"capture defense" 1.3
 	"unplunderable" 1
@@ -707,7 +707,7 @@ outfit "Kimal Assualt Rifle"
 outfit "ZK-20 Portable Railgun"
 	category "Hand to Hand"
 	cost 220000
-	thumbnail "outfit/portable railgun"
+	thumbnail "outfit/geeva portable railgun"
 	"capture attack" .6
 	"capture defense" 12
 	"unplunderable" 1
