@@ -98,7 +98,7 @@ ship "DS-5548 D-Guardian"
 	explode "big explosion" 5
 	explode "huge explosion" 3
 	"final explode" "final explosion large"
-	description "With help form the Wallagi a few of these ship has been built to defend the left territory."
+	description "."
 	
 outfit "A9H-Z Anti-Missile"
 	category "Turrets"
@@ -130,6 +130,7 @@ outfit "G90-Z Blaster Turret"
 		"hardpoint offset" 15.
 		sprite "projectile/particle beam"
 		sound "proton"
+		"turret turn" 3
 		"inaccuracy" 0.01
 		"velocity" 24
 		"lifetime" 50
@@ -153,6 +154,7 @@ outfit "AG90-Z Gun Turret"
 		sprite "projectile/proton"
 		sound "particle"
 		"inaccuracy" 0.01
+		"turret turn" 3
 		"velocity" 25
 		"lifetime" 32
 		"reload" 100
@@ -212,7 +214,6 @@ outfit "SA9 Nuclear Launcher"
 		"acceleration" 1
 		"drag" .06
 		"turn" 4
-		"homing" 4
 		"radar tracking" .8
 		"optical tracking" .9
 		"trigger radius" 20
@@ -222,7 +223,7 @@ outfit "SA9 Nuclear Launcher"
 		"heat damage" 5000
 		"hit force" 4000
 		"missile strength" 350
-	description "
+	description ""
 	
 outfit "SA9 Nuclear Missile"
 	category "Ammunition"
@@ -230,7 +231,7 @@ outfit "SA9 Nuclear Missile"
 	thumbnail "outfit/nuke"
 	"mass" 10
 	"sa9 capacity" -1
-	description "
+	description ""
 	
 ship "HW80B Delsaylor"
 	sprite "ship/dels delsaylor"

@@ -167,7 +167,7 @@ outfit "Hasus Launcher"
 		"acceleration" .8
 		"drag" .01
 		"turn" 4
-		"homing" 4
+		"radar tracking" .8
 		"shield damage" 880
 		"hull damage" 450
 		"piercing" .1
@@ -200,7 +200,7 @@ outfit "Y2 Coran Gun"
 		"hull damage" 2880
 		"piercing" .4
 		
-outfit "Barmott Anti-Missile" //used to be Donko Anti-Missile
+outfit "Barmott Anti-Missile" #used to be Donko Anti-Missile
 	category "Turrets"
 	cost 5000000
 	thumbnail "outfit/donko anti missile"
@@ -227,7 +227,7 @@ outfit "Citorn Anti-Missile"
 	"turret mounts" -1
 	weapon
 		"hit effect" "donko anti-missile"
-		ammo "Nurbote" //Todo, give it proper ammo
+		ammo "Nurbote" 1 #Todo, give it proper ammo
 		"anti-missile" 88
 		"velocity" 400
 		"lifetime" 1

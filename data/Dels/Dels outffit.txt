@@ -118,23 +118,23 @@ outfit "Vokkar Gun" #PG10
 		"hull damage" 40
 	description "."
 	
-effect "vokkar spark"      
-    "sprite" "effect/vokkar effect"
-	#sound "energylauncher"	
-    lifetime 5
-    "random angle" 30               
-    "random velocity" 12        
-    "velocity scale" .2
+effect "vokkar spark"
+	"sprite" "effect/vokkar effect"
+	#sound "energylauncher"
+	lifetime 5
+	"random angle" 30
+	"random velocity" 12
+	"velocity scale" .2
 	
-effect "vokkar impact"      
-    "sprite" "effect/vokkar impact"
+effect "vokkar impact"
+	"sprite" "effect/vokkar impact"
 		"no repeat"
 		"frame rate" 30
 	#sound "energylauncher"	
-    lifetime 10
-    "random angle" 22               
-    "random velocity" 12        
-    "velocity scale" .1
+	lifetime 10
+	"random angle" 22
+	"random velocity" 12
+	"velocity scale" .1
 	
 outfit "TC5 Cutter"
 	category "Guns"
@@ -374,7 +374,7 @@ outfit "Kotdar Turret" #HA1
 		"hull damage" 450
 	description "These are long-range large anti-capital turret."
 	
-=========================================[Anti Missile]=============================
+#=========================================[Anti Missile]=============================
 	
 outfit "Fitar Anti-Missile" #A1A
 	category "Turrets"
@@ -428,7 +428,7 @@ outfit "Ganoau Anti-Missile" #A1H
 		
 
 		
-=========================================[Secondary]=============================
+#=========================================[Secondary]=============================
 		
 outfit "DT1 Launcher"
 	category "Secondary Weapons"
@@ -473,7 +473,7 @@ outfit "DT1 Missile"
 	thumbnail "outfit/meteor"
 	"dt1 capacity" -1
 	description "DT1 lancher's ammo."
-		
+	
 outfit "SK4 Launcher"
 	category "Secondary Weapons"
 	cost 470000
@@ -541,7 +541,7 @@ outfit "sk4"
 		"hit force" 25
 		"missile strength" 1
 		
-=========================================[Systems]=============================
+#=========================================[Systems]=============================
 		
 outfit "Dels Ramscoop"
 	category "Systems"
@@ -552,7 +552,7 @@ outfit "Dels Ramscoop"
 	"ramscoop" 2
 	description "."
 	
-=========================================[Engines]=============================
+#=========================================[Engines]=============================
 	
 outfit "Hao Ion Engines"
 	category "Engines"
@@ -784,7 +784,7 @@ outfit "Vikuan Steering"
 	"steering flare sound" "plasma huge"
 
 	
-=========================================[Shields]=============================
+#=========================================[Shields]=============================
 	
 outfit "SR10 Shield Generator"
 	category "Systems"
@@ -857,7 +857,7 @@ outfit "Type-F Hyperdrive"
 	"jump fuel" 175
 	description "Dels's Type-F Hyperdrive allow ships to jump at speed"
 	
-=========================================[Energy]=============================
+#=========================================[Energy]=============================
 	
 outfit "Dalsa Fusion Reactor"
 	category "Power"
@@ -966,7 +966,7 @@ outfit "K3016a Battery Pack" #Ocean
 	"energy capacity" 24000
 	description "Dels's largest battery"
 	
-=========================================[H2H]=============================
+#=========================================[H2H]=============================
 	
 outfit "Delisma Longrifle"
 	category "Hand to Hand"
@@ -985,15 +985,17 @@ outfit "Sakkaid Blaster"
 	"capture defense" .8
 	"unplunderable" 1
 	description "While not as lethal as regular firearm these weapon are easier to use."
+
+#=================================[Special]===============================
+
+outfit "Dels Admiral License"
+	category Special
+	cost 500000
+	thumbnail outfit/license
+	description `A license granted to Dels equivalent of admirals allowing them to purchase and command carriers.`
 	
-outfit "Dels Admiral License"     
-    category Special        
-    cost 500000        
-    thumbnail outfit/license        
-    description `A license granted to Dels equivalent of admirals allowing them to purchase and command carriers.`
-	
-outfit "Dels Commander License"     
-    category Special        
-    cost 250000        
-    thumbnail outfit/license        
-    description `A license granted to Dels equivalent of commander allowing them to purchase and command most large warships.`
+outfit "Dels Commander License"
+	category Special
+	cost 250000
+	thumbnail outfit/license
+	description `A license granted to Dels equivalent of commander allowing them to purchase and command most large warships.`
