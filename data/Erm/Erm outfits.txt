@@ -223,7 +223,7 @@ outfit "Korlar Cannon Turret"
 		"lifetime" 50
 		"reload" 100
 		"hit force" 140
-		"firing froce" 120
+		"firing force" 120
 		"firing energy" 40
 		"firing heat" 80
 		"shield damage" 8000
@@ -272,6 +272,7 @@ outfit "Zouron Machinegun"
 		sound "anti-missile"
 		"hit effect" "tiny explosion"
 		"inaccuracy" 1
+		"turret turn" 4
 		"velocity" 30
 		"lifetime" 20
 		"reload" 8
