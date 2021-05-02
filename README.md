@@ -2,10 +2,6 @@
 This is a repository for endless sky mod "Galactic War"
 The mod is currently in development stage, many things are subjected to changes later on.
 
-There is currently two branches: 
-master: Main branch
-development: Very unstable branch where I update regularly with unfinished features. Currently the main difference is extra start and new map. Will be merged with master once the feature is done for the time.(Current goal is to rearrange the systems to the new map and fill Dels-Ignaggen-Erader space)
-
 ### About
 This mod will be about a war set in another galaxy. Currently it includes 10 races with unique ships.
 
