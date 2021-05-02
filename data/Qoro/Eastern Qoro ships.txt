@@ -25,10 +25,16 @@ ship "Qoro(E) Gosat"
 		"Gotam Ion Thruster"
 		"Ornai Shield Generator"
 	
-	engine -24.5 32.5
-	engine 24.5 32.5
-	gun -24.5 -1
-	gun 24.5 -1
+	gun -20.5 -32
+	gun 20.5 -32
+	engine -13.5 24
+		zoom 1
+		angle 0
+		under
+	engine 13.5 24
+		zoom 1
+		angle 0
+		under
 	explode "tiny explosion" 20
 	description "These are cheap fighters to be deployed in mass and overwhelm the enemy in combat."
 
@@ -68,16 +74,20 @@ ship "Qoro(E) Goth"
 		"Ornai Shield Generator"
 		"Hyperdrive"
 	
-	gun -24.5 -1
-	gun 24.5 -1
-	gun 0 -1
-	gun 0 -1
-	engine -24.5 32.5
-	engine -0.5 32.5
-	engine -0.5 32.5
-	engine 24.5 32.5
+	gun -14 -37.5
+	gun 14 -37.5
+	gun -19.5 -19.5
+	gun 19.5 -19.5
+	engine -11 27.5
+		zoom 1
+		angle 0
+		under
+	engine 11 27.5
+		zoom 1
+		angle 0
+		under
 	explode "tiny explosion" 20
-	description "
+	description "A heavier version of Gosat."
 	
 ship "Qoro(E) Golosta"
 	sprite "ship/qoro golosta"
