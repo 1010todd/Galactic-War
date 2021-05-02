@@ -189,7 +189,7 @@ outfit "Vurlugigr Reactor" #Lava
 	"energy generation" 6.8
 	"heat generation" 36
 	"cooling inefficiency" 1
-	#"energy capacity" 5000
+	"energy capacity" 5000
 	description "These are very powerful reactor for the size but also the hottest running, it is also very difficult to route cooling system around these reactors making it bad idea to stack to many of them."
 	
 outfit "Orvuilugr Reactor" #Magma
@@ -201,7 +201,7 @@ outfit "Orvuilugr Reactor" #Magma
 	"energy generation" 17.6
 	"heat generation" 56
 	"cooling inefficiency" 1
-	#"energy capacity" 8000
+	"energy capacity" 8000
 	description "A bigger and slightly more heat efficient version of Vurlugigr Reactor.
 	
 outfit "Telour Generator"
@@ -213,6 +213,14 @@ outfit "Telour Generator"
 	"energy generation" 35
 	"heat generation" 77
 	description "A complex and powerful generator utilizing rare and unique kind of rocks to generate energy. The exact process is unknown and to most, it's just magic."
+	
+outfit "Budkuril Capacitor"
+	category "Power"
+	cost 230000
+	thumbnail "outfit/aeon cell"
+	"mass" 15
+	"outfit space" -15
+	"energy capacity" 3000
 	
 outfit "Ignaggen Cooling System"
 	category "Systems"
