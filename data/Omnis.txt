@@ -4,7 +4,7 @@ mission "Omnis-GW: licenses add"
 	job
 	repeat
 	source
-		system "Omnis" 
+		system "Omnis"
 		system "Galactic War"
 	on accept
 		set "license: Dels Admiral"
