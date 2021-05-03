@@ -125,7 +125,7 @@ ship "Tansa"
 	engine 6.5 35
 	explode "tiny explosion" 20
 	explode "small explosion" 5
-	description "
+	description "Wallagi fighter for chasing faster ships."
 	
 ship "Sentasor"
 	sprite "ship/wallagi sentasor"
@@ -208,8 +208,8 @@ ship "Mecohni"
 			"hull damage" 5000
 			"hit force" 2500
 	outfits
-		"S20-F Markla Turret" 16
-		"P50-B Marley Turret" 10
+		"S20-F Markla Turret" 11
+		"P50-B Marley Turret" 8
 		"T70-E Sesmal Torpedo" 6
 		"A88-G Kemper Missile Defense"
 		"A80-H Jestar Anti-missile" 6
@@ -237,31 +237,24 @@ ship "Mecohni"
 	#Main
 	turret -29 -1069 "P50-B Marley Turret"
 	turret -19 -918 "P50-B Marley Turret"
-	turret -7 -801 "P50-B Marley Turret"
 	turret 2 -658 "P50-B Marley Turret"
 	turret -16 1242 "P50-B Marley Turret"
 	turret 105 1542 "P50-B Marley Turret"
 	turret -99 1546 "P50-B Marley Turret"
-	turret -278 1550 "P50-B Marley Turret"
 	turret -373 537 "P50-B Marley Turret"
 	turret -371 722 "P50-B Marley Turret"
 	#AF
 	turret 198 -113 "S20-F Markla Turret"
-	turret 198 -33 "S20-F Markla Turret"
 	turret 199 45 "S20-F Markla Turret"
 	turret 201 105 "S20-F Markla Turret"
 	turret 200 201 "S20-F Markla Turret"
-	turret -286 150 "S20-F Markla Turret"
 	turret -292 56 "S20-F Markla Turret"
 	turret -463 1036 "S20-F Markla Turret"
 	turret -464 1185 "S20-F Markla Turret" 
-	turret 158 523 "S20-F Markla Turret"
 	turret 160 653 "S20-F Markla Turret"
 	turret 164 818 "S20-F Markla Turret"
-	turret 83 736 "S20-F Markla Turret"
 	turret 83 534 "S20-F Markla Turret"
 	turret -238 518 "S20-F Markla Turret"
-	turret -238 703 "S20-F Markla Turret"
 	#Fighters/Drones
 	drone 432 -1430
 	drone 432 -1230

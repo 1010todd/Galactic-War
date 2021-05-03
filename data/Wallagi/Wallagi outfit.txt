@@ -435,10 +435,9 @@ outfit "markla flak"
 		"blast radius" 12
 		"safe"
 		"lifetime" 9
-		"random angle" 360
-		"random spin" 3
+		"inaccuracy" 360
 		"random velocity" .1
-		"velocity scale" -.05
+		"velocity" -.05
 		"hit force" 5
 		"shield damage" 22
 		"hull damage" 12

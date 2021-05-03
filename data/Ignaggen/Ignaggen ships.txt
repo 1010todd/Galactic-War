@@ -14,10 +14,10 @@
 ship "I'nos" #1st
 	sprite "ship/ignaggen inos"
 	thumbnail "thumbnail/ignaggen inos thumb"
-	licenses
-#		"Kager Lergen"
 	attributes
 		category "Heavy Warship"
+		licenses
+#			"Kager Lergen"
 		"cost" 10000000
 		"shields" 13500
 		"hull" 12000
@@ -103,10 +103,10 @@ ship "I'nos" #1st
 ship "Loerlen" #2nd, used by civs
 	sprite "ship/ignaggen loerlen"
 	thumbnail "thumbnail/ignaggen loerlen thumb"
-	licenses
-#		"Kager Lergen"
 	attributes
 		category "Medium Warship"
+		licenses
+#			"Kager Lergen"
 		"cost" 5200000
 		"shields" 6700
 		"hull" 2300
@@ -152,7 +152,7 @@ ship "Loerlen" #2nd, used by civs
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description "
+	description ""
 	
 #Civillian
 	
@@ -275,7 +275,7 @@ ship "Kina"
 	engine 11 32
 	explode "tiny explosion" 10
 	explode "small explosion" 10
-	description "
+	description ""
 	
 ship "Gikeor"
 	sprite "ship/ignaggen gikeor"
@@ -317,7 +317,7 @@ ship "Gikeor"
 	engine 14 24
 	explode "tiny explosion" 10
 	explode "small explosion" 20
-	description "
+	description ""
 	
 ship "Gikeor" "Offensive Gikeor"
 	outfits
@@ -338,7 +338,7 @@ ship "Gikeor" "Offensive Gikeor"
 	engine 14 24
 	explode "tiny explosion" 10
 	explode "small explosion" 20
-	description "
+	description ""
 	
 ship "Koggareu"
 	sprite "ship/ignaggen koggareu"

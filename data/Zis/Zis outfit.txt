@@ -105,7 +105,7 @@ outfit "SnowStorm Gun"
 		"firing energy" 12
 		"firing heat" -2
 		"slowing damage" .1
-	description "
+	description ""
 	
 outfit "SnowStorm Projectile"
 	weapon
@@ -150,7 +150,7 @@ outfit "ForstBite Lance"
 		"shield damage" 12
 		"hull damage" 20
 		"slowing damage" .2
-	description "
+	description ""
 	
 outfit "DZ-10 Dark Blaster"
 	category "Guns"
@@ -200,7 +200,7 @@ outfit "DZ-15 Dark Blaster"
 		"hit force" 22
 		"heat damage" 5
 		"slowing damage" .5
-	description "
+	description ""
 		
 outfit "DZ-10 Dark Blaster Turret"
 	category "Turrets"
@@ -445,8 +445,7 @@ effect "zdragons breath hit"
 	"random velocity" 25
 	"random angle" 30
 	"velocity scale" 1
-	"drag" .1
-	sound "kuzxenhit"
+	sound "zdragonbreath hit"
 	
 outfit "Vozka Cannon Turret"
 	category "Turrets"
@@ -472,7 +471,7 @@ outfit "Vozka Cannon Turret"
 		"shield damage" 1000
 		"hull damage" 1000
 		"piercing" .08
-	description "
+	description ""
 	
 outfit "Airzi Cannon"
 	category "Guns"
@@ -497,13 +496,13 @@ outfit "Airzi Cannon"
 		"reload" 120
 		"firing energy" 5010
 		"firing heat" 1260
-		"firing froce" 1200
+		"firing force" 1200
 		"shield damage" 5210
 		"hull damage" 5810
 		"hit force" 35
 		"missile strength" 1000
 		"stream"
-	description "
+	description ""
 	
 outfit "Airzi"
 	weapon
@@ -692,7 +691,7 @@ outfit "Tizon Turret"
 		"hull damage" 1800
 		"safe"
 		"blast radius" 50
-	description "
+	description ""
 	
 outfit "Ginal Turret"
 	category "Turrets"
@@ -768,7 +767,7 @@ outfit "Syfar Torpedo Turret"
 		"shield damage" 4000
 		"hull damage" 4000
 		"hit force" 50
-	description "
+	description ""
 	
 outfit "Syfar Torpedo"
 	category "Ammunition"
@@ -786,7 +785,7 @@ outfit "Syfar Torpedo Storage"
 	"outfit space" -5
 	"syfar capacity" 30
 	ammo "Syfar Torpedo"
-	description "
+	description ""
 	
 outfit "Syfar Torpedo Turret (Penta)"
 	category "Secondary Weapons"
@@ -821,7 +820,7 @@ outfit "Syfar Torpedo Turret (Penta)"
 		"shield damage" 4000
 		"hull damage" 4000
 		"hit force" 50
-	description "
+	description ""
 	
 outfit "Syfar Torpedo Turret (Penta Full Salvo Mode)"
 	category "Secondary Weapons"
@@ -855,7 +854,7 @@ outfit "Syfar Torpedo Turret (Penta Full Salvo Mode)"
 		"hull damage" 4000
 		"hit force" 50
 		"submunition" "Syfar" 5
-	description "
+	description ""
 	
 outfit "Syfar Torpedo Launcher(Single)"
 	category "Secondary Weapons"
@@ -885,7 +884,7 @@ outfit "Syfar Torpedo Launcher(Single)"
 		"hull damage" 4000
 		"hit force" 50
 		"stream"
-	description "
+	description ""
 	
 outfit "Syfar"
 	weapon
@@ -940,7 +939,7 @@ outfit "Rozzen Missile"
 	thumbnail "outfit/zis rozzen missile"
 	"mass" .3
 	"rozzen capacity" -1
-	description "
+	description ""
 	
 outfit "Rozzen Missile Rack"
 	category "Ammunition"
@@ -950,7 +949,7 @@ outfit "Rozzen Missile Rack"
 	"outfit space" -8
 	"rozzen capacity" 30
 	ammo "Rozzen Missile"
-	description "
+	description ""
 	
 outfit "Rozzen"
 	weapon
@@ -1023,7 +1022,7 @@ outfit "Urza Energy Rocket"
 		"shield damage" 3800
 		"hull damage" 5800
 		"phasing"
-	description "
+	description ""
 	
 effect "urza hit"
 	sprite "effect/urza hit"
@@ -1044,6 +1043,7 @@ outfit "Xin rotary cannon"
 	"outfit space" -8
 	"weapon capacity" -8
 	"gun ports" -1
+	"cooling" 5
 	weapon
 		sprite "projectile/tinyflare"
 			"random start frame"
@@ -1054,11 +1054,10 @@ outfit "Xin rotary cannon"
 		"reload" 1
 		"firing energy" .5
 		"firing heat" 1.2
-		"cooling" 5
 		"submunition" "xinbullet" 2
 		"cluster"
 		"hit effect" "bullet impact"
-	description `
+	description ``
 	
 outfit "xinbullet"
 	weapon
@@ -1134,7 +1133,7 @@ outfit "LW-1S Shield Generator"
 	"outfit space" -20
 	"shield generation" 50
 	"shield energy" 45
-	description "
+	description ""
 	
 outfit "MW-1S Shield Generator"
 	category "Systems"
@@ -1144,7 +1143,7 @@ outfit "MW-1S Shield Generator"
 	"outfit space" -30
 	"shield generation" 64
 	"shield energy" 55
-	description "
+	description ""
 	
 outfit "MW-4S Shield Generator"
 	category "Systems"
@@ -1154,7 +1153,7 @@ outfit "MW-4S Shield Generator"
 	"outfit space" -40
 	"shield generation" 70
 	"shield energy" 65
-	description "
+	description ""
 	
 outfit "HW-1S Shield Generator"
 	category "Systems"
@@ -1164,7 +1163,7 @@ outfit "HW-1S Shield Generator"
 	"outfit space" -60
 	"shield generation" 90
 	"shield energy" 85
-	description "
+	description ""
 	
 outfit "FT-1H Hull Regenerator"
 	category "Systems"
@@ -1174,7 +1173,7 @@ outfit "FT-1H Hull Regenerator"
 	"outfit space" -5
 	"hull repair rate" 23
 	"hull energy" 23
-	description "
+	description ""
 	
 outfit "LW-1H Hull Regenerator"
 	category "Systems"
@@ -1184,7 +1183,7 @@ outfit "LW-1H Hull Regenerator"
 	"outfit space" -20
 	"hull repair rate" 94
 	"hull energy" 93
-	description "
+	description ""
 	
 outfit "MW-1H Hull Regenerator"
 	category "Systems"
@@ -1194,7 +1193,7 @@ outfit "MW-1H Hull Regenerator"
 	"outfit space" -28
 	"hull repair rate" 110
 	"hull energy" 105
-	description "
+	description ""
 	
 outfit "HW-1H Hull Regenerator"
 	category "Systems"
@@ -1204,7 +1203,7 @@ outfit "HW-1H Hull Regenerator"
 	"outfit space" -60
 	"hull repair rate" 282
 	"hull energy" 280
-	description "
+	description ""
 	
 outfit "FT-1 Reactor"
 	category "Power"
@@ -1215,7 +1214,7 @@ outfit "FT-1 Reactor"
 	"energy generation" 20
 	"heat generation" 10
 	"energy capacity" 1000
-	description "
+	description ""
 	
 outfit "FT-2 Reactor"
 	category "Power"
@@ -1225,7 +1224,7 @@ outfit "FT-2 Reactor"
 	"outfit space" -20
 	"energy generation" 23
 	"heat generation" 14
-	description "
+	description ""
 	
 outfit "LW-2 Reactor"
 	category "Power"
@@ -1236,7 +1235,7 @@ outfit "LW-2 Reactor"
 	"energy generation" 62
 	"heat generation" 30
 	"energy capacity" 3000
-	description "
+	description ""
 	
 outfit "MW-1 Reactor"
 	category "Power"
@@ -1247,7 +1246,7 @@ outfit "MW-1 Reactor"
 	"energy generation" 95
 	"heat generation" 45
 	"energy capacity" 6000
-	description "
+	description ""
 	
 outfit "A1 Battery"
 	category "Power"
@@ -1256,7 +1255,7 @@ outfit "A1 Battery"
 	"mass" 5
 	"outfit space" -5
 	"energy capacity" 5000
-	description "
+	description ""
 	
 outfit "MW-2 Reactor"
 	category "Power"
@@ -1266,7 +1265,7 @@ outfit "MW-2 Reactor"
 	"outfit space" -90
 	"energy generation" 130
 	"heat generation" 50
-	description "
+	description ""
 	
 outfit "HW-1 Reactor"
 	category "Power"
@@ -1276,7 +1275,7 @@ outfit "HW-1 Reactor"
 	"outfit space" -120
 	"energy generation" 184
 	"heat generation" 66
-	description "
+	description ""
 	
 outfit "HW-4 Anti-Matter Reactor"
 	category "Power"
