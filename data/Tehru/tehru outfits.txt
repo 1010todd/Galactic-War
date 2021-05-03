@@ -71,7 +71,7 @@ outfit "Vrrpak Gun"
 		sprite "projectile/vrrpak laser"
 			"frame rate" 10
 			"rewind"
-		sound "laser4"
+		sound "gw aser4"
 		"hit effect" "vuskchet"
 		"inaccuracy" 0.1
 		"velocity" 350
@@ -100,7 +100,7 @@ outfit "Vrrpak Turret"
 		sprite "projectile/vrrpak laser"
 			"frame rate" 10
 			"rewind"
-		sound "laser4"
+		sound "gw laser4"
 		"hit effect" "vuskchet"
 		"inaccuracy" 0.1
 		"turret turn" 2.8
@@ -143,7 +143,7 @@ effect "illar am"
 	sprite "projectile/vrrpak laser"
 		"frame rate" 10
 		"rewind"
-	sound "energy3"
+	sound "gw energy3"
 	"lifetime" 5
 	"velocity scale" 1
 	

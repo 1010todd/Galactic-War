@@ -114,6 +114,7 @@ outfit "Nuru Manli"
 	"integrated system" 1
 	"uninstallable" -1
 	"manli" 1
+	"unplunderable" 1
 	weapon
 		"hit effect" "Manli Hit"
 		"velocity" 1500
@@ -128,7 +129,6 @@ outfit "Nuru Manli"
 		"hull damage" 80
 		"heat damage" 95
 		"cluster"
-		"unplunderable"
 	description "[Author Note: These are not actual turret but required for functionality]"
 	
 outfit "Nuru Manli (AM)"
@@ -139,6 +139,7 @@ outfit "Nuru Manli (AM)"
 	"integrated system" 1
 	"uninstallable" -1
 	"manli" -1
+	"unplunderable" 1
 	weapon
 		"die effect" "Manli Hit"
 		"velocity" 1000
@@ -149,7 +150,6 @@ outfit "Nuru Manli (AM)"
 		"firing energy" 12
 		"firing heat" 7
 		"anti-missile" 14
-		"unplunderable"
 	description "Nuru basic ship weapon can also shoot down missiles."
 		
 effect "vordai fire"
@@ -193,7 +193,7 @@ outfit "Nuru Vordai"
 	"nuru weaponization" -1
 	"unplunderable" 1
 	weapon
-        sound "vordai"
+		sound "vordai"
 		"lifetime" 1
 		"inaccuracy" 0
 		"fire effect" "vordai fire" 3

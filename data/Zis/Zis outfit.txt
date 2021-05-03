@@ -162,7 +162,7 @@ outfit "DZ-10 Dark Blaster"
 	"gun ports" -1
 	weapon
 		sprite "projectile/darkblaster"
-		sound "darkblaster"
+		sound "gw darkblaster"
 		"inaccuracy" 1
 		"velocity" 23
 		"lifetime" 38
@@ -187,7 +187,7 @@ outfit "DZ-15 Dark Blaster"
 	"gun ports" -1
 	weapon
 		sprite "projectile/darkblaster"
-		sound "darkblaster"
+		sound "gw darkblaster"
 		"inaccuracy" 1
 		"velocity" 23
 		"lifetime" 38
@@ -212,7 +212,7 @@ outfit "DZ-10 Dark Blaster Turret"
 	"turret mounts" -1
 	weapon
 		sprite "projectile/darkblaster"
-		sound "darkblaster"
+		sound "gw darkblaster"
 		"hardpoint sprite" "hardpoint/dark blaster turret"
 		"hardpoint offset" 9.
 		"turret turn" 3.5
@@ -239,7 +239,7 @@ outfit "DZ-84 Darklance"
 	"gun ports" -1
 	weapon
 		sprite "projectile/darklance"
-		sound "darklance"
+		sound "gw darklance"
 		"hit effect" "electron impact"
 		"fire effect" "electron impact"
 		"inaccuracy" .05
@@ -266,7 +266,7 @@ outfit "DZ-84 Darklance (Rear)"
 	"gun ports" -1
 	weapon
 		sprite "projectile/rdarklance"
-		sound "darklance"
+		sound "gw darklance"
 		"hit effect" "electron impact"
 		"fire effect" "electron impact"
 		"inaccuracy" .05
@@ -294,7 +294,7 @@ outfit "DZ-84 Darklance Turret"
 	"turret mounts" -1
 	weapon
 		sprite "projectile/darklance"
-		sound "darklance"
+		sound "gw darklance"
 		"hardpoint sprite" "hardpoint/darklance turret"
 		"hardpoint offset" 8.
 		"turret turn" 1.9
@@ -324,7 +324,7 @@ outfit "DZ-5 Micro Darklance"
 	"gun ports" -1
 	weapon
 		sprite "projectile/darklance"
-		sound "darklance"
+		sound "gw darklance"
 		"hit effect" "electron impact"
 		"fire effect" "electron impact"
 		"inaccuracy" .1
@@ -349,7 +349,7 @@ outfit "WD-2 Welder"
 	"gun ports" -1
 	weapon
 		sprite "projectile/flare"
-		sound "darklance"
+		sound "gw darklance"
 		"hit effect" "fire-lance impact"
 		"inaccuracy" .1
 		"velocity" 10
@@ -398,9 +398,9 @@ outfit "Zis Dragon's Breath" #Thanks Arkhne for the name idea.
 	"gun ports" -5
 	"spinal mount" -1
 	weapon
-		sound "laser6"
+		sound "gw laser6"
 		icon "icon/dragons breath"
-		"fire effect" "zdragons breath fire"		
+		"fire effect" "zdragons breath fire"
 		"hit effect" "zdragons breath hit" 3
 		"live effect" "zdragons breath live" 23
 		"inaccuracy" .5
@@ -747,7 +747,7 @@ outfit "Syfar Torpedo Turret"
 	"syfar capacity" 30
 	weapon
 		sprite "projectile/syfar torpedo"
-		sound "syfar"
+		sound "gw syfar"
 		icon "icon/syfar"
 		ammo "Syfar Torpedo"
 		"fire effect" "meteor fire"
@@ -799,7 +799,7 @@ outfit "Syfar Torpedo Turret (Penta)"
 	"syfar capacity" 50
 	weapon
 		sprite "projectile/syfar torpedo"
-		sound "syfar"
+		sound "gw syfar"
 		icon "icon/syfar"
 		ammo "Syfar Torpedo"
 		"fire effect" "meteor fire"
@@ -833,7 +833,7 @@ outfit "Syfar Torpedo Turret (Penta Full Salvo Mode)"
 	"syfar capacity" 50
 	weapon
 		sprite "projectile/syfar torpedo"
-		sound "syfar"
+		sound "gw syfar"
 		icon "icon/syfar"
 		ammo "Syfar Torpedo"
 		"fire effect" "meteor fire"
@@ -865,7 +865,7 @@ outfit "Syfar Torpedo Launcher(Single)"
 	"syfar capacity" 1
 	weapon
 		sprite "projectile/syfar torpedo"
-		sound "syfar"
+		sound "gw syfar"
 		icon "icon/syfar"
 		ammo "Syfar Torpedo"
 		"fire effect" "meteor fire"
@@ -1005,7 +1005,7 @@ outfit "Urza Energy Rocket"
 	"gun ports" -1
 	weapon
 		sprite "projectile/urza"
-		sound "urza"
+		sound "gw urza"
 		"hit effect" "urza hit"
 		"inaccuracy" 0
 		"velocity" 15
@@ -1025,7 +1025,7 @@ effect "urza hit"
 	sprite "effect/urza hit"
 		"no repeat"
 		"frame rate" 20
-	sound "urza impact"
+	sound "gw urza impact"
 	"lifetime" 16
 	"random angle" 360
 	"random velocity" .2
@@ -1069,7 +1069,7 @@ outfit "xinbullet"
 		"hit force" .5
 		"hit effect" "bullet impact"
 		
-outfit "Kuichan Missile"
+outfit "Kuzaun Missile"
 	category "Secondary Weapons"
 	cost 2000000
 	thumbnail "outfit/nuke"
@@ -1082,7 +1082,7 @@ outfit "Kuichan Missile"
 			"no repeat"
 			"frame rate" .25
 		sound "nuke"
-		ammo "Kuichan Missile"
+		ammo "Kuzaun Missile"
 		"stream"
 		icon "icon/nuke"
 		"hit effect" "nuke explosion"
@@ -1109,7 +1109,7 @@ outfit "Kuichan Missile"
 		"hit force" 4000
 		"missile strength" 800
 	description "."
-	description "	[Kuichan missiles are a one-shot weapon: each missile occupies a gun slot, and after it is fired, the slot it was in is left empty.]"
+	description "	[Kuzaun missiles are a one-shot weapon: each missile occupies a gun slot, and after it is fired, the slot it was in is left empty.]"
 
 	
 outfit "FT-1S Shield Generator"

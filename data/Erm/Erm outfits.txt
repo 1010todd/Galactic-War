@@ -8,7 +8,7 @@ outfit "Aranut Anti-Shield Energy Missile"
 	"gun ports" -1
 	weapon
 		sprite "projectile/aranut"
-		sound "atmas"
+		sound "gw atmas"
 		"fire effect" "meteor fire"
 		"die effect" "medium explosion"
 		"hit effect" "medium explosion"
@@ -40,7 +40,7 @@ outfit "Atmas Anti-Armour Energy Missile"
 	"gun ports" -1
 	weapon
 		sprite "projectile/atmas"
-		sound "atmas"
+		sound "gw atmas"
 		"fire effect" "meteor fire"
 		"die effect" "medium explosion"
 		"hit effect" "medium explosion"
@@ -71,7 +71,7 @@ outfit "Aorken Paralyzer Energy Missile"
 	"gun ports" -1
 	weapon
 		sprite "projectile/aranut"
-		sound "atmas"
+		sound "gw atmas"
 		"fire effect" "meteor fire"
 		"die effect" "medium explosion"
 		"hit effect" "medium explosion"
@@ -272,7 +272,6 @@ outfit "Zouron Machinegun"
 		sound "anti-missile"
 		"hit effect" "tiny explosion"
 		"inaccuracy" 1
-		"turret turn" 4
 		"velocity" 30
 		"lifetime" 20
 		"reload" 8
@@ -294,6 +293,7 @@ outfit "Zouron Machinegun Turret"
 		sound "anti-missile"
 		"hit effect" "tiny explosion"
 		"inaccuracy" 1.3
+		"turret turn" 4
 		"hardpoint sprite" "hardpoint/blaster turret"
 		"hardpoint offset" 9.
 		"velocity" 30

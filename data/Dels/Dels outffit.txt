@@ -10,7 +10,7 @@ outfit "Skue-6 Blaster" #BA1
 	"gun ports" -1
 	weapon
 		sprite "projectile/skueshot"
-		sound "dblaster"
+		sound "gw dblaster"
 		"hit effect" "blaster impact"
 		"inaccuracy" 2
 		"velocity" 12
@@ -32,7 +32,7 @@ outfit "Skue-8 Blaster" #BA2
 	"gun ports" -1
 	weapon
 		sprite "projectile/skue2shot"
-		sound "dblaster2"
+		sound "gw dblaster2"
 		"hit effect" "blaster impact"
 		"inaccuracy" 2
 		"velocity" 12
@@ -54,7 +54,7 @@ outfit "Skue-8 Reverse Blaster" #BA2
 	"gun ports" -1
 	weapon
 		sprite "projectile/skue2shot"
-		sound "dblaster2"
+		sound "gw dblaster2"
 		"hit effect" "blaster impact"
 		"inaccuracy" 2
 		"velocity" -8.5
@@ -77,7 +77,7 @@ outfit "Ukar-3 Blaster" #BA3
 	weapon
 		sprite "projectile/ukarshot"
 		"fire effect" "vokkar spark" 3
-		sound "dblaster3"
+		sound "gw dblaster3"
 		"hit effect" "blaster impact"
 		"inaccuracy" 1.8
 		"velocity" 19
@@ -102,7 +102,7 @@ outfit "Vokkar Gun" #PG10
 	"gun ports" -1
 	weapon
 		sprite "projectile/vokkar"
-		sound "energy2"
+		sound "gw energy2"
 		"fire effect" "vokkar impact"  
 		"hit effect" "vokkar spark" 3
 		"hit effect" "vokkar impact"  
@@ -120,7 +120,7 @@ outfit "Vokkar Gun" #PG10
 	
 effect "vokkar spark"
 	"sprite" "effect/vokkar effect"
-	#sound "energylauncher"
+	#sound "gw energylauncher"
 	lifetime 5
 	"random angle" 30
 	"random velocity" 12
@@ -130,7 +130,7 @@ effect "vokkar impact"
 	"sprite" "effect/vokkar impact"
 		"no repeat"
 		"frame rate" 30
-	#sound "energylauncher"	
+	#sound "gw energylauncher"	
 	lifetime 10
 	"random angle" 22
 	"random velocity" 12
@@ -306,7 +306,7 @@ outfit "Skue-6 Turret" #AA1
 	weapon
 		"hit effect" "blaster impact"
 		sprite "projectile/skueshot"
-		sound "dblaster"
+		sound "gw dblaster"
 		"hardpoint sprite" "hardpoint/blaster turret"
 		"hardpoint offset" 9.
 		"inaccuracy" 2.4
@@ -330,7 +330,7 @@ outfit "Skue-8 Turret"
 	"turret mounts" -1
 	weapon
 		sprite "projectile/skue2shot"
-		sound "dblaster2"
+		sound "gw dblaster2"
 		"hardpoint sprite" "hardpoint/blaster turret"
 		"hardpoint offset" 9.
 		"hit effect" "blaster impact"
@@ -400,7 +400,7 @@ effect "fitar anti-missile"
 	sprite "effect/tiny explosion"
 		"no repeat"
 		"frame rate" 3
-	sound "energy1"
+	sound "gw energy1"
 	"lifetime" 21
 	"velocity scale" 1.5
 		

@@ -9,7 +9,7 @@ outfit "Igarsot Cannon"
 	weapon
 		sprite "projectile/igarsot beam"
 			"frame rate" 1
-		sound "energy1"
+		sound "gw energy1"
 		"hit effect" "particle impact"
 		"inaccuracy" 1
 		"velocity" 20
@@ -34,7 +34,7 @@ outfit "Igarsot Turret"
 	weapon
 		sprite "projectile/igarsot beam"
 			"frame rate" 1
-		sound "energy1"
+		sound "gw energy1"
 		"hit effect" "particle impact"
 		"hardpoint sprite" "hardpoint/igarsot turret"
 		"hardpoint offset" 15.

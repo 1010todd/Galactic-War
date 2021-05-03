@@ -10,7 +10,7 @@ mission "Omnis-GW: licenses add"
 		set "license: Dels Admiral"
 		set "license: Dels Commander"
 		
-mission "licenses remove"
+mission "Omnis-GW: licenses remove"
 	name `Remove all Licenses`
 	description `Take all licenses from the player.`
 	job
@@ -236,6 +236,8 @@ outfitter developer #Not completed and sorted yet
 	"FireStorm Flamethrower"
 	"Brumba Cannon"
 	"Zis Dragon's Breath" #Kuxzen
+	"Urza Energy Rocket"
+	"Xin rotary cannon"
 	#===================Kroom
 	"Krogak Missile Launcher" 
 	"Krogak Missile" 

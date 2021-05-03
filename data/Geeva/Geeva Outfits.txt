@@ -23,7 +23,7 @@ outfit "R6 Blaster Turret"
 		"firing heat" 64
 		"shield damage" 55
 		"hull damage" 46
-	description "
+	description ""
 	
 outfit "R6 Heavy Blaster Turret"
 	category "Turrets"
@@ -49,7 +49,7 @@ outfit "R6 Heavy Blaster Turret"
 		"firing heat" 75
 		"shield damage" 79
 		"hull damage" 68
-	description "
+	description ""
 	
 outfit "R7 Heavy Blaster Turret"
 	category "Turrets"
@@ -64,7 +64,7 @@ outfit "R7 Heavy Blaster Turret"
 		sprite "projectile/gheavy blaster"
 		"hardpoint sprite" "hardpoint/heliarch attractor"
 		"hardpoint offset" 9.
-		sound "syfar"
+		sound "gw syfar"
 		"hit effect" "blaster impact"
 		"inaccuracy" .8
 		"turret turn" 3.5
@@ -75,7 +75,7 @@ outfit "R7 Heavy Blaster Turret"
 		"firing heat" 79
 		"shield damage" 92
 		"hull damage" 77
-	description "
+	description ""
 	
 outfit "R5 Plasma Chain Turret"
 	category "Turrets"
@@ -103,7 +103,7 @@ outfit "R5 Plasma Chain Turret"
 		"shield damage" 75
 		"hull damage" 30
 		"heat damage" 160
-	description "
+	description ""
 	
 outfit "R6 Anti-Missile Turret"
 	category "Turrets"
@@ -125,7 +125,7 @@ outfit "R6 Anti-Missile Turret"
 		"reload" 3
 		"firing energy" 15
 		"firing heat" 6
-	description "
+	description ""
 	
 outfit "R7 Sentry Anti-Missile Turret"
 	category "Turrets"
@@ -146,7 +146,7 @@ outfit "R7 Sentry Anti-Missile Turret"
 		"reload" 1.5
 		"firing energy" 15
 		"firing heat" 6
-	description "
+	description ""
 	
 outfit "R5 Micro Anti-Missile Turret"
 	category "Turrets"
@@ -227,7 +227,7 @@ outfit "R1 Homing Beam"
 		"optical tracking" .6
 		"shield damage" 1
 		"hull damage" .5
-	description "
+	description ""
 	
 effect "homing beam trail"
     sprite "effect/homing beam"
@@ -236,38 +236,38 @@ effect "homing beam trail"
     "random angle" 180
     "velocity scale" 0.
 	
-outfit "R6 Fill-up Sheild Generator"
+outfit "R6 Fill-up Shield Generator"
 	category "Systems"
 	cost 50000
-	thumbnail "outfit/tiny sheild"
+	thumbnail "outfit/tiny shield"
 	"mass" 1
 	"outfit space" -1
 	"shield generation" .08
 	"shield energy" .06
 	"shield heat" .07
-	description "A tiny sheild generator designed to fill-up the left space in the ship."
+	description "A tiny shield generator designed to fill-up the left space in the ship."
 	
-outfit "R6 Sheild Generator"
+outfit "R6 Shield Generator"
 	category "Systems"
 	cost 740000
-	thumbnail "outfit/small sheild"
+	thumbnail "outfit/small shield"
 	"mass" 15
 	"outfit space" -15
 	"shield generation" 1.3
 	"shield energy" 1
 	"shield heat" 1.2
-	description "
+	description ""
 	
-outfit "R7 Sheild Generator"
+outfit "R7 Shield Generator"
 	category "Systems"
 	cost 800000
-	thumbnail "outfit/small sheild"
+	thumbnail "outfit/small shield"
 	"mass" 18
 	"outfit space" -18
 	"shield generation" 2
 	"shield energy" 1.5
 	"shield heat" 1.1
-	description "
+	description ""
 	
 outfit "R5 Micro Batteries"
 	category "Power"
@@ -276,7 +276,7 @@ outfit "R5 Micro Batteries"
 	"mass" 5
 	"outfit space" -5
 	"energy capacity" 880
-	description "
+	description ""
 	
 outfit "R5 Mini Batteries"
 	category "Power"
@@ -285,7 +285,7 @@ outfit "R5 Mini Batteries"
 	"mass" 10
 	"outfit space" -10
 	"energy capacity" 1760
-	description "
+	description ""
 	
 outfit "R5 Small Batteries"
 	category "Power"
@@ -294,7 +294,7 @@ outfit "R5 Small Batteries"
 	"mass" 21
 	"outfit space" -21
 	"energy capacity" 5100
-	description "
+	description ""
 	
 outfit "R6 Cooling Device"
 	category "Systems"
@@ -332,7 +332,7 @@ outfit "R6 Fusion Reactor"
 	"outfit space" -78
 	"energy generation" 19.6
 	"heat generation" 30
-	description "
+	description ""
 	
 outfit "R1 Sun Reactor"
 	category "Power"
@@ -342,7 +342,7 @@ outfit "R1 Sun Reactor"
 	"outfit space" -100
 	"energy generation" 50
 	"heat generation" 180
-	description "
+	description ""
 	
 outfit "R4 Tiny Ion Thruster"
 	category "Engines"
@@ -357,7 +357,7 @@ outfit "R4 Tiny Ion Thruster"
 	"flare sprite" "effect/ion flare/tiny"
 		"frame rate" 1.2
 	"flare sound" "ion tiny"
-	description "
+	description ""
 	
 outfit "R4 Small Ion Thruster"
 	category "Engines"
@@ -372,7 +372,7 @@ outfit "R4 Small Ion Thruster"
 	"flare sprite" "effect/ion flare/small"
 		"frame rate" 1.1
 	"flare sound" "ion small"
-	description "
+	description ""
 	
 outfit "R4 Medium Ion Thruster"
 	category "Engines"
@@ -387,7 +387,7 @@ outfit "R4 Medium Ion Thruster"
 	"flare sprite" "effect/ion flare/medium"
 		"frame rate" 1.0
 	"flare sound" "ion medium"
-	description "
+	description ""
 	
 outfit "R4 Large Ion Thruster"
 	category "Engines"
@@ -402,7 +402,7 @@ outfit "R4 Large Ion Thruster"
 	"flare sprite" "effect/ion flare/large"
 		"frame rate" 0.9
 	"flare sound" "ion large"
-	description "
+	description ""
 	
 outfit "R4 Huge Ion Thruster"
 	category "Engines"
@@ -417,7 +417,7 @@ outfit "R4 Huge Ion Thruster"
 	"flare sprite" "effect/ion flare/huge"
 		"frame rate" 0.8
 	"flare sound" "ion huge"
-	description "
+	description ""
 	
 outfit "R4 Tiny Ion Steering"
 	category "Engines"
@@ -429,7 +429,7 @@ outfit "R4 Tiny Ion Steering"
 	"turn" 280
 	"turning energy" .2
 	"turning heat" .4
-	description "
+	description ""
 	
 outfit "R4 Small Ion Steering"
 	category "Engines"
@@ -441,7 +441,7 @@ outfit "R4 Small Ion Steering"
 	"turn" 330
 	"turning energy" .4
 	"turning heat" .5
-	description "
+	description ""
 	
 outfit "R4 Medium Ion Steering"
 	category "Engines"
@@ -453,7 +453,7 @@ outfit "R4 Medium Ion Steering"
 	"turn" 615
 	"turning energy" .8
 	"turning heat" .7
-	description "
+	description ""
 	
 outfit "R4 Large Ion Steering"
 	category "Engines"
@@ -465,7 +465,7 @@ outfit "R4 Large Ion Steering"
 	"turn" 1260
 	"turning energy" 1.1
 	"turning heat" .9
-	description "
+	description ""
 	
 outfit "R4 Huge Ion Steering"
 	category "Engines"
@@ -477,7 +477,7 @@ outfit "R4 Huge Ion Steering"
 	"turn" 2306
 	"turning energy" 2.4
 	"turning heat" 1.2
-	description "
+	description ""
 	
 outfit "XHEAS Missile BIMM"
 	category "Secondary Weapons"
@@ -512,7 +512,7 @@ outfit "XHEAS Missile BIMM"
 		"hit force" 60
 		"missile strength" 1200
 		"piercing" .2
-	description "Extermely High Explosive Anti-Ship Missile." 
+	description "Extremely High Explosive Anti-Ship Missile." 
 	
 outfit "XHEAS Missile BIMM(Rear)"
 	category "Secondary Weapons"
@@ -547,7 +547,7 @@ outfit "XHEAS Missile BIMM(Rear)"
 		"hit force" 60
 		"missile strength" 1200
 		"piercing" .2
-	description "Extermely High Explosive Anti-Ship Missile." 
+	description "Extremely High Explosive Anti-Ship Missile." 
 	
 outfit "HHVB Turret"
 	category "Turrets"
@@ -576,7 +576,7 @@ outfit "HHVB Turret"
 		"shield damage" 1000
 		"hull damage" 1600
 		"piercing" .02
-	description "
+	description ""
 	
 outfit "HPDL Anti-missile"
 	category "Turrets"
@@ -596,7 +596,7 @@ outfit "HPDL Anti-missile"
 		"reload" 2.5
 		"firing energy" .1
 		"firing heat" .1
-	description "
+	description ""
 	
 effect "hpdl laser"
 	sprite "projectile/laser"
@@ -622,7 +622,7 @@ outfit "R6 Radar Jammer"
 	"mass" 1
 	"outfit space" -1
 	"radar jamming" 4
-	description "
+	description ""
 	
 outfit "R7 Radar Jammer"
 	category "Systems"
@@ -631,7 +631,7 @@ outfit "R7 Radar Jammer"
 	"mass" 1
 	"outfit space" -1
 	"radar jamming" 6.6
-	description "
+	description ""
 	
 outfit "R2 Ramscoop"
 	category "Systems"
@@ -640,7 +640,7 @@ outfit "R2 Ramscoop"
 	"mass" 8
 	"outfit space" -8
 	"ramscoop" 4
-	description "
+	description ""
 	
 outfit "R2 Hyperdrive"
 	category "Systems"
@@ -650,7 +650,7 @@ outfit "R2 Hyperdrive"
 	"outfit space" -25
 	"jump speed" 1.3
 	"hyperdrive" 1
-	description "
+	description ""
 	
 outfit "R3 Hyperdrive"
 	category "Systems"
@@ -660,7 +660,7 @@ outfit "R3 Hyperdrive"
 	"outfit space" -25
 	"jump speed" 1.5
 	"hyperdrive" 1
-	description "
+	description ""
 	
 outfit "Borderless Hyperdrive"
 	category "Systems"
@@ -670,7 +670,7 @@ outfit "Borderless Hyperdrive"
 	"outfit space" -30
 	"jump speed" 1
 	"jump drive" 1
-	description "
+	description ""
 	
 outfit "Geeva Surveillance Pod"
 	category "Systems"
@@ -683,9 +683,9 @@ outfit "Geeva Surveillance Pod"
 	"cargo scan power" 50
 	"cargo scan speed" 1
 	"atmosphere scan" 500
-	description "
+	description ""
 	
-outfit "Prototype Cloaking Device"
+outfit "Geeva R0e SSCS"
 	category "Systems"
 	cost 2200000
 	"mass" 50
@@ -693,30 +693,31 @@ outfit "Prototype Cloaking Device"
 	"cloak" .01
 	"cloaking energy" 10
 	"cloaking fuel" 1
-	description "
+	"cloaking heat" 12
+	description "Geeva Starship Concealment System."
 	
-outfit "Kimal Assualt Rifle"
+outfit "Kimal Assault Rifle"
 	category "Hand to Hand"
-	cost 12000
+	cost 50000
 	thumbnail "outfit/geeva kimal"
-	"capture attack" 1
-	"capture defense" 1.3
+	"capture attack" 1.2
+	"capture defense" 2.8
 	"unplunderable" 1
-	description "
+	description "A lightweight selective fire assault rifle commonly found abroad Geeva ships in the frontline. While a single shot might not be sufficient to kill most races, this gun will make sure there's enough bullets hitting them within a trigger pull." 
 	
 outfit "ZK-20 Portable Railgun"
 	category "Hand to Hand"
 	cost 220000
 	thumbnail "outfit/geeva portable railgun"
-	"capture attack" .6
-	"capture defense" 12
+	"capture attack" 1.8
+	"capture defense" 10
 	"unplunderable" 1
-	description "A heavy portable railgun given to the Geevan by the Zis fleet having the same fire rate as a semi-auto rifle and being extremly accurate but heavy in weight and recoil, due to their weight and size most Geevan require a exoskeleton arm to carry and fire with it and these railguns are usually more effective using in a role of a sniper rifle, because of that the railgun is usually used for defending." 
+	description "A large and heavy railgun that'll shoot clean through most cover your opponent can find and everyone else behind them. Due to its weight it's much very difficult to carry and use especially for offensive while on the defence it makes a perfect weapon. The primary complain is usually the clean up after the fight."
 	
 outfit "LRP Grenades"
 	plural "LRP Grenades"
 	category "Hand to Hand"
-	cost 27000
+	cost 57000
 	thumbnail "outfit/fragmentation grenades"
 	"capture attack" 3
 	"capture defense" .6
@@ -739,6 +740,6 @@ outfit "Hidden Sentry"
 	thumbnail "outfit/hidden sentry"
 	"mass" 1
 	"outfit space" -1
-	"capture defense" 5.8
+	"capture defense" 7
 	"unplunderable" 1
-	description "
+	description "In other to avoid as much life losses as possible, some Geevan captain prefer to install these automated defence turrets hidden along the hallways."
