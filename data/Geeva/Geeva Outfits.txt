@@ -168,7 +168,7 @@ outfit "R5 Micro Anti-Missile Turret"
 		"reload" 2
 		"firing energy" 8
 		"firing heat" 3
-	description "
+	description ""
 	
 outfit "R3 Energy Tracer" 
 	category "Guns"
@@ -230,11 +230,11 @@ outfit "R1 Homing Beam"
 	description ""
 	
 effect "homing beam trail"
-    sprite "effect/homing beam"
-        "frame rate" 20
-    "lifetime" 200
-    "random angle" 180
-    "velocity scale" 0.
+	sprite "effect/homing beam"
+		"frame rate" 20
+	"lifetime" 200
+	"random angle" 180
+	"velocity scale" 0.
 	
 outfit "R6 Fill-up Shield Generator"
 	category "Systems"
