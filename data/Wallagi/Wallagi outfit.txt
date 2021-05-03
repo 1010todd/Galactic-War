@@ -196,7 +196,7 @@ outfit "Cilhr Anti-missile" #sach #Primary AM
 		"reload" 3
 		"firing energy" 1
 		"firing heat" 1
-	description "
+	description ""
 	
 outfit "Eilgur Anti-missile" #For later use
 	category "Turrets"
@@ -216,7 +216,7 @@ outfit "Eilgur Anti-missile" #For later use
 		"reload" 5
 		"firing energy" 1
 		"firing heat" 1
-	description "
+	description ""
 	
 outfit "Jestar Anti-missile"
 	category "Turrets"
@@ -236,7 +236,7 @@ outfit "Jestar Anti-missile"
 		"reload" 7.5
 		"firing energy" 8
 		"firing heat" 8
-	description "
+	description ""
 	
 outfit "Kemper Missile Defense"
 	category "Turrets"
@@ -255,7 +255,7 @@ outfit "Kemper Missile Defense"
 		"reload" 1
 		"firing energy" 12
 		"firing heat" 12
-	description "
+	description ""
 	
 #=======================WEapons
 	
@@ -269,7 +269,7 @@ outfit "E10-B Klingar"
 	"gun ports" -1
 	weapon
 		sprite "projectile/electron"
-		sound "laser5"
+		sound "gw laser5"
 		"hit effect" "electron impact"
 		"fire effect" "electron impact"
 		"inaccuracy" .1
@@ -281,7 +281,7 @@ outfit "E10-B Klingar"
 		"shield damage" 10
 		"hull damage" 10
 		"hit force" 5
-	description "
+	description ""
 	
 outfit "T30-E Semfal Torpedo"
 	category "Guns"
@@ -293,7 +293,7 @@ outfit "T30-E Semfal Torpedo"
 	"gun ports" -1
 	weapon
 		sprite "projectile/ion bolt"
-		sound "energylauncher"
+		sound "gw energylauncher"
 		"hit effect" "ion spark"
 		"inaccuracy" 1
 		"velocity" 25
@@ -311,7 +311,7 @@ outfit "T30-E Semfal Torpedo"
 		"hit force" 12
 		"missile strength" 34
 		"ion damage" 1
-	description "
+	description ""
 	
 outfit "T70-E Sesmal Torpedo"
 	category "Guns"
@@ -323,7 +323,7 @@ outfit "T70-E Sesmal Torpedo"
 	"gun ports" -1
 	weapon
 		sprite "projectile/ion bolt"
-		sound "energylauncher"
+		sound "gw energylauncher"
 		"hit effect" "ion spark"
 		"inaccuracy" 1
 		"velocity" 9
@@ -341,7 +341,7 @@ outfit "T70-E Sesmal Torpedo"
 		"hit force" 34
 		"missile strength" 65
 		"ion damage" 4
-	description "
+	description ""
 	
 outfit "P50-B Lemtar Turret"
 	category "Turrets"
@@ -355,7 +355,7 @@ outfit "P50-B Lemtar Turret"
 	weapon
 		sprite "projectile/ion bolt"
 			"frame rate" 3
-		sound "energy2"
+		sound "gw energy2"
 		"hardpoint sprite" "hardpoint/heavy anti-missile"
 		"hardpoint offset" 5.
 		"hit effect" "plasma explosion"
@@ -369,7 +369,7 @@ outfit "P50-B Lemtar Turret"
 		"shield damage" 380
 		"hull damage" 140
 		"ion damage" .5
-	description "
+	description ""
 	
 outfit "P50-B Marley Turret"
 	category "Turrets"
@@ -382,7 +382,7 @@ outfit "P50-B Marley Turret"
 	"required crew" 2
 	weapon
 		sprite "projectile/marley"
-		sound "energy2"
+		sound "gw energy2"
 		"hit effect" "ion impact"
 		"hardpoint sprite" "hardpoint/heavy anti-missile"
 		"hardpoint offset" 5.
@@ -397,7 +397,7 @@ outfit "P50-B Marley Turret"
 		"hull damage" 300
 		"piercing" .3
 		"hit force" 10
-	description "
+	description ""
 	
 outfit "S20-F Markla Turret"
 	category "Turrets"
@@ -410,7 +410,7 @@ outfit "S20-F Markla Turret"
 	"required crew" 1
 	weapon
 		sprite "projectile/tiny dual ion"
-		sound "energy3"
+		sound "gw energy3"
 		"hit effect" "plasma explosion"
 		"inaccuracy" 2
 		"turret turn" 3
@@ -424,7 +424,7 @@ outfit "S20-F Markla Turret"
 		"ion damage" .6
 		"submunition" "markla flak" 3
 		"split range" 8
-	description "
+	description ""
 	
 outfit "markla flak"
 	weapon

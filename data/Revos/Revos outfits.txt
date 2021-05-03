@@ -1,6 +1,6 @@
 #
 
-outfit "B Kechon"
+outfit "Kechon Beam"
 	category "Guns"
 	cost 19000000
 	thumbnail "outfit/warscythe"
@@ -11,7 +11,7 @@ outfit "B Kechon"
 	weapon
 		sprite "projectile/skylance"
 			"frame rate" 2
-		sound "blance"
+		sound "gw blance"
 		"hit effect" "skylance impact"
 		"inaccuracy" .9
 		"velocity" 500
@@ -23,7 +23,7 @@ outfit "B Kechon"
 		"hull damage" 10 
 		"ion damage" .5
 		
-outfit "SL Botavu"
+outfit "Botavu Turret"
 	category "Turrets"
 	cost 19000000
 	thumbnail "outfit/longsword"
@@ -100,7 +100,7 @@ effect "rvs botavu laser"
 	"lifetime" 5
 	"velocity scale" .1
 		
-outfit "E Anor"
+outfit "Anor Missile"
 	category "Secondary Weapons"
 	cost 29000000
 	thumbnail "outfit/bardich"
@@ -126,7 +126,7 @@ outfit "E Anor"
 		"acceleration" 2
 		"drag" .1
 		"turn" 6
-		"homing" 4
+		"optical tracking" 4
 		"missile strength" 600
 
 outfit "Vubeto Anti-Missile"
@@ -179,7 +179,7 @@ outfit "MAM-core"
 	
 
 	
-outfit "S-DASH drive"
+outfit "S-Dar drive"
 	category "Engines"
 	"cost" 7000000
 	thumbnail "outfit/afterburner"

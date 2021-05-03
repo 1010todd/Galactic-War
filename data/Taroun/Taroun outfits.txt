@@ -11,6 +11,7 @@ outfit "Serulan Turret"
 		"hit effect" "serulan impact"
 		"hardpoint sprite" "hardpoint/serulan turret"
 		"hardpoint offset" 5.
+		"turret turn" 4
 		"inaccuracy" 1.8
 		"velocity" 40
 		"lifetime" 28
@@ -41,6 +42,7 @@ outfit "Taroun Deflector"
 	"turret mounts" -1
 	weapon
 		"velocity" 400
+		"turret turn" 360
 		"lifetime" 1
 		"reload" 1
 		"firing energy" 10
@@ -48,7 +50,7 @@ outfit "Taroun Deflector"
 		"hit force" 80
 		"shield damage" 60
 		"ion damage" .4
-	description "
+	description ""
 	
 outfit "Taroun Missile Interceptor"
 	category "Turrets"
@@ -66,7 +68,7 @@ outfit "Taroun Missile Interceptor"
 		"firing energy" 15
 		"firing heat" 8
 		"anti-missile" 154
-	description "
+	description ""
 
 outfit "Urmou Launcher"
 	category "Turrets"
@@ -80,6 +82,7 @@ outfit "Urmou Launcher"
 		sprite "projectile/urmou"
 			"frame rate" 30
 		sound "gw emissile"
+		"turret turn" 4
 		"fire effect" "smoke"
 		"hit effect" "smoke"
 		"submunition" "Urmou" 5
@@ -95,7 +98,7 @@ outfit "Urmou Launcher"
 		"hull damage" 50
 		"hit force" -350
 		"missile strength" 500
-	description "
+	description ""
 	
 outfit "Urmou"
 	weapon
@@ -180,7 +183,7 @@ outfit "Lymaou Launcher"
 		"hit force" 35
 		"missile strength" 1000
 		"stream"
-	description "
+	description ""
 	
 outfit "Ursun Thruster"
 	category "Engines"

@@ -32,6 +32,7 @@ outfit "SSm10"
 	weapon
 		sprite "projectile/energy ball"
 			"frame rate" 20
+		"turret turn" 4
 		"inaccuracy" 0
 		"velocity" 35
 		"lifetime" 1
@@ -85,6 +86,7 @@ outfit "G10 Turret"
 		sprite "projectile/tiny dual ion"
 		sound "ion"
 		"hit effect" "blaster impact"
+		"turret turn" 4
 		"inaccuracy" 1
 		"velocity" 14
 		"lifetime" 10

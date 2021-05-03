@@ -21,7 +21,7 @@ outfit "Yiisk Eye"
 		"firing force" 80
 		"hit force" -80
 		phasing
-	description "
+	description ""
 	
 effect "yiisk eye"
 	sprite "effect/eye"
@@ -46,7 +46,7 @@ outfit "Yiisk Anti-Missile Field"
 		"firing energy" 10
 		"firing heat" 1
 		"anti-missile" 40
-	description "
+	description ""
 	
 outfit "Yiisk Decay Field"
 	category "Turrets"
@@ -58,6 +58,7 @@ outfit "Yiisk Decay Field"
 	"turret mounts" -1
 	weapon
 		"velocity" 300
+		"turret turn" 360
 		"lifetime" 1
 		"reload" 1
 		"firing energy" 10
@@ -66,4 +67,4 @@ outfit "Yiisk Decay Field"
 		phasing
 		"firing heat" 1
 		"hit force" -10
-	description "
+	description ""

@@ -29,19 +29,19 @@ ship "Homan"
 			"hull damage" 500
 			"hit force" 150
 	outfits
-		"B Kechon" 4
-		"E Anor"
+		"Kechon Beam" 4
+		"Anor Missile"
 		"Vubeto Anti-Missile"
 		"MQ-Shield Generator"
 		"MAM-core"
 		"IO Engines"
 		"Jump Drive"
 		
-	gun -1.5 -30.5 "E Anor"
-	gun -18 -22.5 "B-lance"
-	gun 15.5 -22.5 "B-lance"
-	gun 22.5 -16.5 "B-lance"
-	gun -25 -17 "B-lance"
+	gun -1.5 -30.5 "Anor Missile"
+	gun -18 -22.5 "Kechon Beam"
+	gun 15.5 -22.5 "Kechon Beam"
+	gun 22.5 -16.5 "Kechon Beam"
+	gun -25 -17 "Kechon Beam"
 	engine -1.5 17
 	turret -1 -5.5 "Revos Anti-Missile"
 	explode "tiny explosion" 12
@@ -76,17 +76,17 @@ ship "Rova"
 			"hull damage" 500
 			"hit force" 150
 	outfits
-		"B Kechon" 2
-		"E Anor"
+		"Kechon Beam" 2
+		"Anor Missile"
 		"Vubeto Anti-Missile"
 		"MQ-Shield Generator"
 		"MAM-core"
 		"IO Engines"
 		"Jump Drive"
 		
-	gun 17.5 -25.5 "B-lance"
-	gun -19 -26 "B-lance"
-	gun -0.5 -1 "E Anor"
+	gun 17.5 -25.5 "Kechon Beam"
+	gun -19 -26 "Kechon Beam"
+	gun -0.5 -1 "Anor Missile"
 	turret -0.5 -9 "Revos Anti-Missile"
 	engine -18 20
 	engine 17.5 20.5
@@ -122,8 +122,8 @@ ship "Mokla"
 			"hull damage" 500
 			"hit force" 150
 	outfits
-		"B-lance" 4
-		"E-missile" 2
+		"Kechon Beam" 4
+		"Anor Missile 2
 		"Revos Anti-Missile" 3
 		"MQ-Shield Generator"
 		"MAM-core"
@@ -133,10 +133,10 @@ ship "Mokla"
 	gun 2 -36 "E-missile"
 	engine -14.5 29.5
 	engine 17 29
-	gun -13 -31 "B-lance"
-	gun 17 -31 "B-lance"
-	gun 10.5 -36 "B-lance"
-	gun -5.5 -36 "B-lance"
+	gun -13 -31 "Kechon Beam"
+	gun 17 -31 "Kechon Beam"
+	gun 10.5 -36 "Kechon Beam"
+	gun -5.5 -36 "Kechon Beam"
 	turret -21 -14 "Revos Anti-Missile"
 	turret 24.5 -13 "Revos Anti-Missile"
 	turret 1.5 6.5 "Revos Anti-Missile"
@@ -174,16 +174,16 @@ ship "Caosma" "Caosma transport"
 			"hull damage" 500
 			"hit force" 150
 	outfits
-		"B Kechon" 2
-		"E-missile" 
+		"Kechon Beam" 2
+		"Anor Missile" 
 		"Revos Anti-Missile" 2
 		"MQ-Shield Generator"
 		"MAM-core"
 		"IO2 Engines"
 		"Jump Drive"
 		
-	gun -26.5 -37 "B-lance"
-	gun 26.5 -37 "B-lance"
+	gun -26.5 -37 "Kechon Beam"
+	gun 26.5 -37 "Kechon Beam"
 	gun -0.5 -29 "E-missile"
 	turret 0 -4
 	engine -44.5 30
@@ -221,16 +221,16 @@ ship "Caosma"
 			"hull damage" 500
 			"hit force" 150
 	outfits
-		"B Kechon" 2
-		"E-missile" 
+		"Kechon Beam" 2
+		"Anor Missile" 
 		"Revos Anti-Missile" 2
 		"MQ-Shield Generator"
 		"MAM-core"
 		"IO2 Engines"
 		"Jump Drive"
 		
-	gun -26.5 -37 "B-lance"
-	gun 26.5 -37 "B-lance"
+	gun -26.5 -37 "Kechon Beam"
+	gun 26.5 -37 "Kechon Beam"
 	gun -0.5 -29 "E-missile"
 	turret 0 -4
 	engine -44.5 30
