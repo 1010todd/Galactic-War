@@ -185,16 +185,17 @@ outfit "Y2 Coran Gun"
 	"gun ports" -1
 	"spinal mount" -1
 	weapon
-		sprite "projectile/blaster"
-		sound "proton"
-		ammo "Nurbote" 1 //Placeholder, but that's the concept(To fire these crystal)
+		sprite "projectile/marley"
+		sound "gw energylauncer"
+		ammo "Nurbote" 1 #//Placeholder, but that's the concept(To fire these crystal) #thinking again, might be a bad idea, idk
 		icon "icon/hasus"
+		"fire effect" "ion impact" 3
 		"hit effect" "skylance impact"
 		"inaccuracy" .1
 		"velocity" 25
 		"lifetime" 20
 		"reload" 60
-		"firing energy" 330
+		"firing energy" 3300
 		"firing heat" 11
 		"shield damage" 6000
 		"hull damage" 2880

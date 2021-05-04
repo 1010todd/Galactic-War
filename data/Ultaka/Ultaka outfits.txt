@@ -8,6 +8,8 @@ outfit "B60 Core"
 	"outfit space" -150
 	"energy generation" 1700
 	"cooling" 30
+	"maintenance costs" 150000
+	description "Mysterious object sitting at the heart of an Ultaka ship powering it and its large energy consumption with ease. It also sucks away heat from the surrounding area regradless of the insulation around it."
 	
 outfit "B20 Core"
 	category "Power"
@@ -17,6 +19,7 @@ outfit "B20 Core"
 	"outfit space" -10
 	"energy generation" 165
 	"cooling" 2.4
+	"maintenance costs" 20000
 	
 outfit "B10 Core"
 	category "Power"
@@ -26,6 +29,8 @@ outfit "B10 Core"
 	"outfit space" -5
 	"energy generation" 95
 	"cooling" 2
+	"maintenance costs" 5000
+	description "The smallest of it's kind, these power units provide energy for Ultaka's fighters but may as well power an entire battleship from other races."
 	
 outfit "EB6 Battery"
 	category "Power"
@@ -134,7 +139,7 @@ outfit "M-Hyper Engines" #Type-1S
 	"afterburner heat" 50
 	"flare sprite" "effect/ultaka flare/small"
 	
-outfit "Ultaka Heat Shunt"
+outfit "Ultaka Heat Shunt" #Placeholder
 	category "Systems"
 	cost 6000000
 	thumbnail "outfit/unknown"
@@ -151,6 +156,7 @@ outfit "Model-3A Rifle"
 	"capture attack" 8
 	"capture defense" 9.8
 	"unplunderable" 1
+	description "Primary weapon of the Ultaka infantries. These weapons are insanely powerful it might as well be a anti-ship weapon for many. It is guaranteed anyone but the most well protected within a dozen meters of where the shot lands will be reduced to elementary particles. Thankfully the firepower is adjustable on the go."
 	
 outfit "Ultaka IDS"
 	category "Hand to Hand"

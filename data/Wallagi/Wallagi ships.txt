@@ -8,6 +8,7 @@ ship "Telsarator"
 		"shields" 39000
 		"hull" 24000
 		"required crew" 1
+		"capture defense" 120
 		"bunks" 3
 		"mass" 20
 		"drag" 1.4
@@ -52,6 +53,7 @@ ship "Dettalor"
 		"hull" 80000
 		"required crew" 14
 		"bunks" 30
+		"capture defense" 360
 		"mass" 400
 		"drag" 5
 		"heat dissipation" .6
@@ -104,6 +106,7 @@ ship "Tansa"
 		"shields" 34000
 		"hull" 20000
 		"required crew" 1
+		"capture defense" 100
 		"bunks" 1
 		"mass" 16
 		"drag" 1
@@ -142,6 +145,7 @@ ship "Sentasor"
 		"shields" 380000
 		"hull" 236000
 		"required crew" 40
+		"capture defense" 500
 		"bunks" 320
 		"mass" 1250
 		"drag" 11
@@ -203,6 +207,7 @@ ship "Mecohni"
 		"hull" 6890000
 		"hull repair rate" 68
 		"required crew" 1200
+		"capture defense" 5000
 		"bunks" 4200
 		"mass" 2480
 		"drag" 20
