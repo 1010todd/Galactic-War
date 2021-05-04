@@ -1,6 +1,6 @@
-ship "Qoro(E) Gosat"
-	sprite "ship/qoro e gosat"
-	thumbnail "thumbnail/qoro e gosat thumb"
+ship "Qoro(E) Gasat" #Gosat
+	sprite "ship/qoro e gasat"
+	thumbnail "thumbnail/qoro e gasat thumb"
 	attributes
 		category "Fighter"
 		"cost" 981000
@@ -38,15 +38,16 @@ ship "Qoro(E) Gosat"
 	explode "tiny explosion" 20
 	description "These are cheap fighters to be deployed in mass and overwhelm the enemy in combat."
 
-ship "Qoro(E) Gosat" "Gosat Bomber"
+ship "Qoro(E) Gasat" "Gasat Bomber"
 	outfits
 		"Orthall Assault Cannon" 2
 		"Aog Cell"
 		"Gotam Ion Thruster"
 		"Ornai Shield Generator"
 	
-ship "Qoro(E) Goth"
-	sprite "ship/qoro e goth"
+ship "Qoro(E) Ganoth"
+	sprite "ship/qoro e ganoth"
+	thumbnail "thumbnail/qoro e ganoth thumb"
 	attributes
 		category "Interceptor"
 		"cost" 933000
@@ -89,7 +90,7 @@ ship "Qoro(E) Goth"
 	explode "tiny explosion" 20
 	description "A heavier version of Gosat."
 	
-ship "Qoro(E) Goth" "Goth Mixed"
+ship "Qoro(E) Ganoth" "Ganoth Mixed"
 	outfits
 		"Algarral Battle Gun" 2
 		"Orthall Assault Cannon" 2
@@ -98,7 +99,7 @@ ship "Qoro(E) Goth" "Goth Mixed"
 		"Ornai Shield Generator"
 		"Hyperdrive"
 		
-ship "Qoro(E) Goth" "Goth Bomber"
+ship "Qoro(E) Ganoth" "Ganoth Bomber"
 	outfits
 		"Orthall Assault Cannon" 4
 		"Aog Cell"
@@ -106,8 +107,9 @@ ship "Qoro(E) Goth" "Goth Bomber"
 		"Ornai Shield Generator"
 		"Hyperdrive"
 	
-ship "Qoro(E) Golosta"
-	sprite "ship/qoro golosta"
+ship "Qoro(E) Elgarel"
+	sprite "ship/qoro elgarel"
+	thumbnail "thumbnail/qoro e elgarel thumb"
 	attributes
 		category "Light Warship"
 		"cost" 11480000
