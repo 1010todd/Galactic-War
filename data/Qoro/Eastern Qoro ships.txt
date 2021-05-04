@@ -116,7 +116,7 @@ ship "Qoro(E) Elgarel"
 		"shields" 5800
 		"hull" 9800
 		"required crew" 2
-		"bunks" 6
+		"bunks" 4
 		"mass" 400
 		"drag" 5.7
 		"heat dissipation" .75
@@ -132,7 +132,8 @@ ship "Qoro(E) Elgarel"
 			"hit force" 4800
 	outfits
 		"Orthall Assault Cannon" 2
-		"Qoro(E) Anti-Missile" 2
+		"Algarral Battle Gun" 2
+		"Qoro(E) Anti-Missile"
 		"Goa Cell"
 		"Norklo'Ar Shield Generator"
 		
@@ -140,19 +141,55 @@ ship "Qoro(E) Elgarel"
 		"Gotam Ion Thruster"
 		"Hyperdrive"
 	
-	gun -33 -3.5
-	gun 33 -3.5
-	turret 0 -21
-	turret 0 24.5
-	engine -33 44.5
-	engine 33 44.5
+	gun -32.5 -40.5 "Algarral Battle Gun"
+	gun 32.5 -40.5 "Algarral Battle Gun"
+	gun -7.5 -49.5
+	gun 7.5 -49.5
+	turret 0 -12.5
+	bay "fighter" 0 27
+		under
+	engine -32.5 13.5
+		zoom .8
+		angle 0
+		under
+	engine 32.5 13.5
+		zoom .8
+		angle 0
+		under
+	"reverse engine" -22 -19
+		zoom .5
+		angle 180
+		under
+	"reverse engine" 22 -19
+		zoom .5
+		angle 180
+		under
+	"steering engine" -22 -19
+		zoom .3
+		angle 0
+		under
+		left
+	"steering engine" 22 -19
+		zoom .3
+		angle 0
+		under
+		right
+	"steering engine" -32.5 13.5
+		zoom .3
+		angle 0
+		under
+		right
+	"steering engine" 32.5 13.5
+		zoom .3
+		angle 0
+		under
+		left
 	explode "tiny explosion" 60
 	explode "small explosion" 30
 	explode "medium explosion" 35
 	explode "large explosion" 20
-	explode "huge explosion" 6
-	"final explode" "final explosion medium"
-	description ""
+	"final explode" "final explosion small"
+	description "A small lightwarship that can carry a fighter with it into battle. Also used as freighter and recovery ship."
 	
 ship "Qoro(E) Gaurun"
 	sprite "ship/qoro gaurun"
