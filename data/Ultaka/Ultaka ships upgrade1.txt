@@ -28,21 +28,49 @@ ship "Ultaka Dominator" "Dominator UP1"
 		"B60 Core"
 		"Ultaka heat destroyer"
 		"Hyper Engines"
-		"U30-A anti missile" 4
-		"M20G Gun" 4
-		"Ultaka Antimatter Cannon UP1"
+		"U30-A anti missile" 1
+		"M20G Gun" 2
 	
-	turret -4 -81 "M20G Gun"
-	turret -4.5 -60 "M20G Gun"
-	turret -4.5 -26 "M20G Gun"
-	turret -4.5 -4 "M20G Gun"
-	gun -4.5 -109.5 "Ultaka Antimatter Cannon"
-	turret -17.5 12 "U30-A anti missile"
-	turret 7 11 "U30-A anti missile"
-	turret 16.5 11.5 "U30-A anti missile"
-	turret -30.5 10.5 "U30-A anti missile"
-	fighter -30 87
-	fighter 24 87
+	gun 0 -120
+	turret -33 3
+	turret 33 3
+	turret 0 -69.5 "U20-B anti missile"
+	engine -26 111
+		zoom 1
+		angle 0
+		under
+	engine 26 111
+		zoom 1
+		angle 0
+		under
+	"steering engine" -22 -88.5
+		zoom .5
+		angle -90
+		under
+		left
+	"steering engine" 22 -88.5
+		zoom .5
+		angle 90
+		under
+		right
+	"steering engine" -39.5 33.5
+		zoom .5
+		angle -90
+		under
+		left
+	"steering engine" 39.5 33.5
+		zoom .5
+		angle 90
+		under
+		right
+	"reverse engine" -20.5 -94.5
+		zoom 1
+		angle 180
+		under
+	"reverse engine" 20.5 -94.5
+		zoom 1
+		angle 180
+		under
 	engine 16 117
 	engine -21.5 117
 	explode "tiny explosion" 12

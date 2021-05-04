@@ -87,7 +87,7 @@ ship "Rova"
 	gun 17.5 -25.5 "Kechon Beam"
 	gun -19 -26 "Kechon Beam"
 	gun -0.5 -1 "Anor Missile"
-	turret -0.5 -9 "Revos Anti-Missile"
+	turret -0.5 -9 "Vubeto Anti-Missile"
 	engine -18 20
 	engine 17.5 20.5
 	explode "tiny explosion" 12
@@ -124,7 +124,7 @@ ship "Mokla"
 	outfits
 		"Kechon Beam" 4
 		"Anor Missile" 2
-		"Revos Anti-Missile" 3
+		"Vubeto Anti-Missile" 3
 		"MQ-Shield Generator"
 		"MAM-core"
 		"IO2 Engines"
@@ -137,11 +137,11 @@ ship "Mokla"
 	gun 17 -31 "Kechon Beam"
 	gun 10.5 -36 "Kechon Beam"
 	gun -5.5 -36 "Kechon Beam"
-	turret -21 -14 "Revos Anti-Missile"
-	turret 24.5 -13 "Revos Anti-Missile"
-	turret 1.5 6.5 "Revos Anti-Missile"
-	gun -12.5 -2 "E-missile"
-	gun 15 -3.5 "E-missile"
+	turret -21 -14 "Vubeto Anti-Missile"
+	turret 24.5 -13 "Vubeto Anti-Missile"
+	turret 1.5 6.5 "Vubeto Anti-Missile"
+	gun -12.5 -2 "Anor Missile"
+	gun 15 -3.5 "Anor Missile"
 	explode "tiny explosion" 12
 	explode "small explosion" 16
 	

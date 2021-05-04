@@ -23,12 +23,15 @@ ship "Telsarator"
 			"hull damage" 1100
 			"hit force" 300
 	outfits
+		"Cilhr Anti-missile" 1
+		"Klingar Laser" 2
+
 		"Asenil Shield Generator"
 		"C10-W Hinlar Core"
 		"Ulyukar Heat Control"
+
 		"Kal-1 Engines"
-		"A10-M Sach Anti-missile"1
-		"E10-B Klingar" 2
+		
 	
 	engine -9 60
 	engine 9 60
@@ -63,25 +66,29 @@ ship "Dettalor"
 			"hull damage" 5000
 			"hit force" 2500
 	outfits
+		"Lemtar Turret" 3
+		"Cilhr Anti-missile" 2
+		"Semfal Torpedo" 2
+
 		"Lestur Shield Generator"
 		"C40-W Milar Core"
 		"Ulyukar Heat Control"
+
 		"Kal-4 Engines"
-		"Cilhr Anti-missile" 2
-		"T30-E Semfal Torpedo" 2
-		"P50-B Lemtar Turret" 3
+		
+		
 	
 	fighter 31.5 -99.5 under
 	engine -23.5 184
 	engine 21.5 183.5 
-	gun -31.5 -162 "T30-E Semfal Torpedo"
-	gun 20.5 -40.5 "T30-E Semfal Torpedo"
+	gun -31.5 -162 "Semfal Torpedo"
+	gun 20.5 -40.5 "Semfal Torpedo"
 	turret -8.5 -71.5 "Cilhr Anti-missile"
 	turret 32.5 2 "Cilhr Anti-missile"
 	engine 2 185.5
-	turret -15.5 -79.5 "P50-B Lemtar Turret"
-	turret -1.5 -23.5 "P50-B Lemtar Turret"
-	turret 12 -7 "P50-B Lemtar Turret"
+	turret -15.5 -79.5 "Lemtar Turret"
+	turret -1.5 -23.5 "Lemtar Turret"
+	turret 12 -7 "Lemtar Turret"
 	explode "tiny explosion" 12
 	explode "small explosion" 16
 	explode "medium explosion" 30
@@ -115,8 +122,8 @@ ship "Tansa"
 		"C10-W Hinlar Core"
 		"Ulyukar Heat Control"
 		"Kal-1 Engines"
-		"A10-M Sach Anti-missile" 1
-		"E10-B Klingar" 2
+		"Cilhr Anti-missile" 1
+		"Klingar Laser" 2
 	
 	gun -5 -28.5
 	gun 5 -28.5
@@ -150,13 +157,16 @@ ship "Sentasor"
 			"hull damage" 5000
 			"hit force" 2500
 	outfits
+		"Cilhr Anti-missile" 2
+		"Semfal Torpedo" 3
+		"Lemtar Turret" 5
+
 		"Tensel Shield Generator"
 		"C60-W Falmin Core"
 		"Ulyukar Heat Control"
+
 		"Kal-8 Engines"
-		"Cilhr Anti-missile" 2
-		"T30-E Semfal Torpedo" 3
-		"P50-B Lemtar Turret" 5
+		
 	
 	fighter -90 -131 under
 	fighter -90 -62.5 under
@@ -167,16 +177,16 @@ ship "Sentasor"
 	engine 5.5 299
 	turret -17 -142.5 "Cilhr Anti-missile"
 	turret 69 -7 "Cilhr Anti-missile"
-	gun 68 -252.5 "T30-E Semfal Torpedo"
-	gun 90 -201 "T30-E Semfal Torpedo"
-	gun 70 -23.5 "T30-E Semfal Torpedo"
-	turret 13 -139.5 "P50-B Lemtar Turret"
-	turret 11.5 -59 "P50-B Lemtar Turret"
-	turret 20.5 -6.5 "P50-B Lemtar Turret"
-	turret 49 36 "P50-B Lemtar Turret" 
-	turret 77 55 "P50-B Lemtar Turret"
-	turret 71.5 112.5 "S20-F Markla Turret"
-	turret 23.5 57.5 "S20-F Markla Turret"
+	gun 68 -252.5 "Semfal Torpedo"
+	gun 90 -201 "Semfal Torpedo"
+	gun 70 -23.5 "Semfal Torpedo"
+	turret 13 -139.5 "Lemtar Turret"
+	turret 11.5 -59 "Lemtar Turret"
+	turret 20.5 -6.5 "Lemtar Turret"
+	turret 49 36 "Lemtar Turret"
+	turret 77 55 "Lemtar Turret"
+	turret 71.5 112.5 "Markla Turret"
+	turret 23.5 57.5 "Markla Turret"
 	explode "tiny explosion" 22
 	explode "small explosion" 26
 	explode "medium explosion" 50
@@ -208,53 +218,53 @@ ship "Mecohni"
 			"hull damage" 5000
 			"hit force" 2500
 	outfits
-		"S20-F Markla Turret" 11
-		"P50-B Marley Turret" 8
-		"T70-E Sesmal Torpedo" 6
-		"A88-G Kemper Missile Defense"
-		"A80-H Jestar Anti-missile" 6
+		"Markla Turret" 11
+		"Marley Turret" 8
+		"Sesmal Torpedo" 6
+		"Kemper Missile Defense"
+		"Jestar Anti-missile" 6
 		
-		"Wallagi heat shunt" 2
+		"Ulyukar Heat Control" 2
 		"Kal-10 Engines" 2
 		"C80-W Mallar Core" 
 		"Malgos Shield Generator" 2
 		
 		
-	gun -409 -1851 "T70-E Sesmal Torpedo"
-	gun -410 -1710 "T70-E Sesmal Torpedo"
-	gun -127 -1846 "T70-E Sesmal Torpedo"
-	gun -131 -1707 "T70-E Sesmal Torpedo"
-	gun 327 -1817 "T70-E Sesmal Torpedo"
-	gun 413 -1668 "T70-E Sesmal Torpedo"
+	gun -409 -1851 "Sesmal Torpedo"
+	gun -410 -1710 "Sesmal Torpedo"
+	gun -127 -1846 "Sesmal Torpedo"
+	gun -131 -1707 "Sesmal Torpedo"
+	gun 327 -1817 "Sesmal Torpedo"
+	gun 413 -1668 "Sesmal Torpedo"
 	#AM
-	turret -436 -1191 "A80-H Jestar Anti-missile"
-	turret -169 -1229 "A80-H Jestar Anti-missile"
-	turret -263 -62 "A80-H Jestar Anti-missile"
-	turret 84 322 "A80-H Jestar Anti-missile"
-	turret -262 1250 "A80-H Jestar Anti-missile"
-	turret -264 987 "A80-H Jestar Anti-missile"
-	turret -264 1126 "A88-G Kemper Missile Defense"
+	turret -436 -1191 "Jestar Anti-missile"
+	turret -169 -1229 "Jestar Anti-missile"
+	turret -263 -62 "Jestar Anti-missile"
+	turret 84 322 "Jestar Anti-missile"
+	turret -262 1250 "Jestar Anti-missile"
+	turret -264 987 "Jestar Anti-missile"
+	turret -264 1126 "Kemper Missile Defense"
 	#Main
-	turret -29 -1069 "P50-B Marley Turret"
-	turret -19 -918 "P50-B Marley Turret"
-	turret 2 -658 "P50-B Marley Turret"
-	turret -16 1242 "P50-B Marley Turret"
-	turret 105 1542 "P50-B Marley Turret"
-	turret -99 1546 "P50-B Marley Turret"
-	turret -373 537 "P50-B Marley Turret"
-	turret -371 722 "P50-B Marley Turret"
+	turret -29 -1069 "Marley Turret"
+	turret -19 -918 "Marley Turret"
+	turret 2 -658 "Marley Turret"
+	turret -16 1242 "Marley Turret"
+	turret 105 1542 "Marley Turret"
+	turret -99 1546 "Marley Turret"
+	turret -373 537 "Marley Turret"
+	turret -371 722 "Marley Turret"
 	#AF
-	turret 198 -113 "S20-F Markla Turret"
-	turret 199 45 "S20-F Markla Turret"
-	turret 201 105 "S20-F Markla Turret"
-	turret 200 201 "S20-F Markla Turret"
-	turret -292 56 "S20-F Markla Turret"
-	turret -463 1036 "S20-F Markla Turret"
-	turret -464 1185 "S20-F Markla Turret" 
-	turret 160 653 "S20-F Markla Turret"
-	turret 164 818 "S20-F Markla Turret"
-	turret 83 534 "S20-F Markla Turret"
-	turret -238 518 "S20-F Markla Turret"
+	turret 198 -113 "Markla Turret"
+	turret 199 45 "Markla Turret"
+	turret 201 105 "Markla Turret"
+	turret 200 201 "Markla Turret"
+	turret -292 56 "Markla Turret"
+	turret -463 1036 "Markla Turret"
+	turret -464 1185 "Markla Turret" 
+	turret 160 653 "Markla Turret"
+	turret 164 818 "Markla Turret"
+	turret 83 534 "Markla Turret"
+	turret -238 518 "Markla Turret"
 	#Fighters/Drones
 	drone 432 -1430
 	drone 432 -1230

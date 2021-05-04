@@ -179,21 +179,7 @@ ship "Qoro(N) Matoanan"
 		
 		"Hyperdrive"
 		
-	engine -18 230
-	engine 18 230
-	gun -15 -226 "Torpedo Launcher"
-	gun 15 -226 "Torpedo Launcher"
-	gun -40 -133 "Sidewinder Missile Launcher"
-	gun -45 -128 "Sidewinder Missile Launcher"
-	turret -22 -148 "Heavy Laser Turret"
-	turret 26 -80 "Heavy Anti-Missile Turret"
-	turret -41 -20 "Heavy Laser Turret"
-	turret 32 -7 "Heavy Laser Turret"
-	turret 53 82 "Heavy Laser Turret"
-	turret -37 186 "Heavy Anti-Missile Turret"
-	fighter -38 -26
-	fighter 35 36
-	fighter -47 97
+	
 	explode "small explosion" 25
 	explode "medium explosion" 35
 	explode "large explosion" 45
