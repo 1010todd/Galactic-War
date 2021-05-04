@@ -3053,10 +3053,12 @@ planet "Galactic War"
 	description `This ringworld is much bigger than any previously seen, consuming well over a whole systems worth of materials to construct. Here the outfitters and shipyards stock anything from vanilla content to plugin content. There is no need to go running about to find some superior technology, it's all right here!`
 	spaceport `This ringworld is much bigger than any previously seen, consuming well over a whole systems worth of materials to construct. Here the outfitters and shipyards stock anything from vanilla content to plugin content. There is no need to go running about to find some superior technology, it's all right here!`
 	shipyard developer
+	shipyard "GalacticWar"
 	shipyard "Wallagi"
 	shipyard "Dels Advanced"
 	shipyard "Dels Pirate"
 	outfitter developer
+	outfitter "GalacticWar"
 	outfitter "Dels Advanced"
 	outfitter "Donko Advanced"
 	bribe 0

@@ -9,6 +9,7 @@ mission "Omnis-GW: licenses add"
 	on accept
 		set "license: Dels Admiral"
 		set "license: Dels Commander"
+		set "license: Kakaima"
 		
 mission "Omnis-GW: licenses remove"
 	name `Remove all Licenses`
@@ -490,11 +491,10 @@ shipyard developer
 	"Qoro(N) Masec"
 	"Qoro(N) Matoanan"
 	#==================Revos
-	"Homan"
-	"Rova"
-	"Sentories"
-	"Mokla"
-	"Caosma"
+	"Revos Homan"
+	"Revos Rova"
+	"Revos Mokla"
+	"Revos Caosma"
 	"Caosma transport"
 	#=====================Donko
 	"Sao"
@@ -502,12 +502,9 @@ shipyard developer
 	"Matka"
 	"Koi"
 	"Koi (Drone)"
+	"Koi (Freighter)"
 	"Kanse"
-	"Dantra"
 	"Senka"
-	#====================Rakgonnera
-	"Grey Rakgonnera"
-	"Grey Battle Rakgonnera"
 	#==================Taroun
 	Eroun
 	Oresu

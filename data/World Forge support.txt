@@ -1,5 +1,5 @@
 outfitter modoutfits #Not completed and sorted yet
-		#=============Dels
+	#=============Dels
 	#===Weapon
 	"Skue-6 Blaster"
 	"Skue-8 Blaster"
@@ -13,6 +13,7 @@ outfitter modoutfits #Not completed and sorted yet
 	"Dels Sokak Cannon"
 	"Dels Sokak Cannon Turret"
 	"Sokak Slug"
+	"Sokak Slug Storage"
 	"SK4 Launcher"
 	"SK4 Missile"
 	"DT1 Launcher"
@@ -197,6 +198,7 @@ outfitter modoutfits #Not completed and sorted yet
 	"Rozzen Missile"
 	"Rozzen Missile Rack"
 	"Rozzen Vertical Launching System"
+	"ZIS Galactic Drive"
 	"HW-1 Reactor"
 	"MW-2 Reactor"
 	"MW-1 Reactor"
@@ -208,6 +210,8 @@ outfitter modoutfits #Not completed and sorted yet
 	"FireStorm Flamethrower"
 	"Brumba Cannon"
 	"Zis Dragon's Breath" #Kuxzen
+	"Urza Energy Rocket"
+	"Xin rotary cannon"
 	#===================Kroom
 	"Krogak Missile Launcher" 
 	"Krogak Missile" 
@@ -251,7 +255,7 @@ outfitter modoutfits #Not completed and sorted yet
 	"E Anor"
 	"B Kechon"
 	#====================New Sky merge
-	###Zorcn###
+	#==============##Zorcn###
 	#Weapons
 	"Huer II CIWS Turret"
 	"Huer CIWS Turret"
@@ -316,7 +320,7 @@ outfitter modoutfits #Not completed and sorted yet
 	#Other 
 	"VLS support modification"
 	
-	##Vareen##
+	#=================#Vareen##
 	#Weapons
 	"Lismnia Gun"
 	"Lismnia Turret"
@@ -328,12 +332,19 @@ outfitter modoutfits #Not completed and sorted yet
 	"I6V2 Core"
 	"I3V2 Core"
 	
-	##Tehru
+	#========================#Tehru
 	#Weapons
 	"Vuskchet Cannon"
 	"Vuskchet Turret"
 	"Vrrpak Gun"
 	"Vrrpak Turret"
+	
+	"Illar Missile Defence"
+	
+	#Power
+	"Etlnak Reactor"
+	"Rivkrtelr Reactor"
+	"Apirval Generator"
 	
 	#Systems
 	"Ainvus Shield Generator"
@@ -380,6 +391,7 @@ shipyard modships
 	"Katen Civ 2a"
 	"Katen Civ 2b"
 	"Katen Civ 3a"
+	"AF-18 Zyon"
 	"AS-56 Virsiz"
 	"ZN-7681 Eaxes"
 	#====================Ultaka
@@ -441,18 +453,18 @@ shipyard modships
 	"Ekdor"
 	"Eudaion"
 	#====================Qoro
-	"Qoro(E) Goth"
-	"Qoro(E) Gosat"
-	"Qoro(E) Golosta"
+	"Qoro(E) Ganoth"
+	"Qoro(E) Gasat"
+	"Qoro(E) Elgarel"
+	"Qoro(E) Logr"
 	"Qoro(N) Manta"
 	"Qoro(N) Masec"
 	"Qoro(N) Matoanan"
 	#==================Revos
-	"Homan"
-	"Rova"
-	"Sentories"
-	"Mokla"
-	"Caosma"
+	"Revos Homan"
+	"Revos Rova"
+	"Revos Mokla"
+	"Revos Caosma"
 	"Caosma transport"
 	#=====================Donko
 	"Sao"
@@ -460,12 +472,9 @@ shipyard modships
 	"Matka"
 	"Koi"
 	"Koi (Drone)"
+	"Koi (Freighter)"
 	"Kanse"
-	"Dantra"
 	"Senka"
-	#====================Rakgonnera
-	"Grey Rakgonnera"
-	"Grey Battle Rakgonnera"
 	#==================Taroun
 	Eroun
 	Oresu

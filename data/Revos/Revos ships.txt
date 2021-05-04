@@ -1,6 +1,6 @@
 #
 
-ship "Homan"
+ship "Revos Homan"
 	sprite "ship/revos homan"
 	attributes
 		category "Interceptor"
@@ -47,7 +47,7 @@ ship "Homan"
 	explode "tiny explosion" 12
 	explode "small explosion" 16
 	
-ship "Rova"
+ship "Revos Rova"
 	sprite "ship/revos rova"
 	attributes
 		category "Interceptor"
@@ -93,7 +93,7 @@ ship "Rova"
 	explode "tiny explosion" 12
 	explode "small explosion" 16
 	
-ship "Mokla"
+ship "Revos Mokla"
 	sprite "ship/revos mokla"
 	attributes
 		category "Light Warship"
@@ -144,7 +144,7 @@ ship "Mokla"
 	explode "tiny explosion" 12
 	explode "small explosion" 16
 	
-ship "Caosma" "Caosma transport"
+ship "Revos Caosma" "Caosma transport"
 	sprite "ship/revos caosma-t"
 	attributes
 		category "Transport"
@@ -175,7 +175,7 @@ ship "Caosma" "Caosma transport"
 	outfits
 		"Kechon Beam" 2
 		"Anor Missile" 
-		"Revos Anti-Missile" 2
+		"Vubeto Anti-Missile" 2
 		"MQ-Shield Generator"
 		"MAM-core"
 		"IO2 Engines"
@@ -183,7 +183,7 @@ ship "Caosma" "Caosma transport"
 		
 	gun -26.5 -37 "Kechon Beam"
 	gun 26.5 -37 "Kechon Beam"
-	gun -0.5 -29 "E-missile"
+	gun -0.5 -29 "Anor Missile"
 	turret 0 -4
 	engine -44.5 30
 	engine 44.5 30
@@ -191,7 +191,7 @@ ship "Caosma" "Caosma transport"
 	explode "tiny explosion" 13
 	explode "small explosion" 20
 	
-ship "Caosma"
+ship "Revos Caosma"
 	sprite "ship/revos caosma"
 	attributes
 		category "Light Freighter"
@@ -222,7 +222,7 @@ ship "Caosma"
 	outfits
 		"Kechon Beam" 2
 		"Anor Missile" 
-		"Revos Anti-Missile" 2
+		"Vubeto Anti-Missile" 2
 		"MQ-Shield Generator"
 		"MAM-core"
 		"IO2 Engines"
@@ -230,7 +230,7 @@ ship "Caosma"
 		
 	gun -26.5 -37 "Kechon Beam"
 	gun 26.5 -37 "Kechon Beam"
-	gun -0.5 -29 "E-missile"
+	gun -0.5 -29 "Anor Missile" 
 	turret 0 -4
 	engine -44.5 30
 	engine 44.5 30
