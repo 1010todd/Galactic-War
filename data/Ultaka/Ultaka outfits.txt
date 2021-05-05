@@ -1,42 +1,62 @@
 #
 # ========Power===============
-outfit "B60 Core"
+outfit "B60 Ve'el Core"
 	category "Power"
 	cost 1000000000
 	thumbnail "outfit/ultaka b core"
 	"mass" 600
 	"outfit space" -150
 	"energy generation" 1700
-	"cooling" 30
+	"cooling" 12 #Just for lore reason. These are some very very high end stuffs, it doesn't have to make sense to us. Don't complain.
 	"maintenance costs" 150000
-	description "Mysterious object sitting at the heart of an Ultaka ship powering it and its large energy consumption with ease. It also sucks away heat from the surrounding area regradless of the insulation around it."
+	description "Mysterious object sitting at the heart of a large Ultaka ship powering it and its large energy consumption with ease."
+	description "These mysterious generators appears to suck away heat from its surrounding regradless of insulation and cuts off at a certain radius creating a sudden drop of temperature around it."
+	description "All material surrounding it aside from it self seems to degrade and become weaker. Without constant maintenance something is going to break."
 	
-outfit "B20 Core"
+outfit "B30 Gal'e Core"
+	category "Power"
+	cost 4400000
+	thumbnail "outfit/ultaka b core"
+	mass 100
+	"outfit space" -25
+	"energy generation" 150
+	"cooling" 2.9
+	"maintenance costs" 40000
+	description "."
+	description "These mysterious generators appears to suck away heat from its surrounding regradless of insulation and cuts off at a certain radius creating a sudden drop of temperature around it."
+	description "All material surrounding it aside from it self seems to degrade and become weaker. Without constant maintenance something is going to break."
+
+outfit "B20 Erul Core"
 	category "Power"
 	cost 1800000
 	thumbnail "outfit/ultaka b core"
 	mass 40
 	"outfit space" -10
-	"energy generation" 165
+	"energy generation" 150
 	"cooling" 2.4
 	"maintenance costs" 20000
+	description "A slightly bigger power system then B10."
+	description "These mysterious generators appears to suck away heat from its surrounding regradless of insulation and cuts off at a certain radius creating a sudden drop of temperature around it."
+	description "All material surrounding it aside from it self seems to degrade and become weaker. Without constant maintenance something is going to break."
 	
-outfit "B10 Core"
+outfit "B10 Anht Core"
 	category "Power"
 	cost 1000000
 	thumbnail "outfit/ultaka b core"
 	mass 20
 	"outfit space" -5
-	"energy generation" 95
+	"energy generation" 75
 	"cooling" 2
 	"maintenance costs" 5000
 	description "The smallest of it's kind, these power units provide energy for Ultaka's fighters but may as well power an entire battleship from other races."
-	
-outfit "EB6 Battery"
+	description "These mysterious generators appears to suck away heat from its surrounding regradless of insulation and cuts off at a certain radius creating a sudden drop of temperature around it."
+	description "All material surrounding it aside from it self seems to degrade and become weaker. Without constant maintenance something is going to break."
+
+outfit "EB6 Battery" #EB6
 	category "Power"
 	cost 1000000
 	thumbnail "outfit/unknown"
-	mass 40
+	mass 80
 	"outfit space" -20
 	"energy capacity" 80000
 	"energy consumption" 12

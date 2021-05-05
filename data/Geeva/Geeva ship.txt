@@ -21,24 +21,28 @@ ship "Hailika"
 			"hull damage" 150
 			"hit force" 450
 	outfits
-		"R6 Blaster Turret"
-		"R6 Micro Fusion Reactor"
-		"R5 Micro Batteries"
-		"R6 Shield Generator"
-		"R6 Fill-up Shield Generator" 10
-		"R6 Cooling Device"
-		"R2 Ramscoop"
-		"R4 Small Ion Thruster"
-		"R4 Small Ion Steering"
-		"R2 Hyperdrive"
+		"Ilcor-06 Blaster Turret"
+
+		"Turlo-06 Reactor"
+		"Aiple-05 Batteries"
+		"Palir-06 Shield Generator"
+		"Nipalir-06 Shield Generator" 10
+		"Cirpa-06 Cooling Device"
+		"Welt-03 Ramscoop"
+
 		"Kimal Assault Rifle" 2
+
+		"Iogel02-04 Thruster"
+		"Iogel02-04 Steering"
+		"Silr-02 Hyperdrive"
+		
 		
 	turret 0 15
 	engine 0 35.5
 	explode "tiny explosion" 10
 	explode "small explosion" 20
 	explode "medium explosion" 15
-	description "."
+	description "Small Geeva transport, commonly found every where in Geeva space."
 	
 ship "Kinika"
 	sprite "ship/geeva kinika"
@@ -63,24 +67,28 @@ ship "Kinika"
 			"hull damage" 150
 			"hit force" 450
 	outfits
-		"R6 Blaster Turret" 2
-		"R6 Heavy Blaster Turret"
-		"R6 Anti-Missile Turret" 2
-		"R3 Energy Tracer" 2
-		"R6 Micro Fusion Reactor"
-		"R5 Mini Batteries"
-		"R6 Shield Generator" 2
-		"R6 Fill-up Shield Generator" 3
-		"R2 Ramscoop"
-		"R6 Cooling Device"
-		"R4 Medium Ion Thruster"
-		"R4 Medium Ion Steering"
-		"R4 Tiny Ion Steering"
-		"R2 Hyperdrive"
+		"Ilcor-06 Blaster Turret" 2
+		"Noilcor-06 Blaster Turret"
+		"Rilar-06 Anti-Missile" 2
+		"Zilnor-03 Energy Tracer" 2
+
+		"Niturlo-06 Reactor"
+		"Erlip-05 Batteries"
+		"Palir-06 Shield Generator" 2
+		"Nipalir-06 Shield Generator" 3
+		"Cirpa-06 Cooling Device"
+		"Welt-03 Ramscoop"
+
 		"Hidden Sentry"
 		"Kimal Assault Rifle" 5
 		"ZK-20 Portable Railgun"
 		"LRP Grenades"
+
+		"R4 Medium Ion Thruster"
+		"R4 Medium Ion Steering"
+		"R4 Tiny Ion Steering"
+		"R2 Hyperdrive"
+		
 		
 	turret 0 -0.5 "R6 Heavy Blaster Turret"
 	turret -20 6.5 "R6 Blaster Turret" 
@@ -119,24 +127,25 @@ ship "Kimali"
 			"hull damage" 1500
 			"hit force" 4500
 	outfits
-		"R3 Energy Tracer" 4
-		"R6 Heavy Blaster Turret" 10
-		"R6 Anti-Missile Turret" 6
+		"Zilnor-03 Energy Tracer" 4
+		"Noilcor-06 Blaster Turret" 10
+		"Rilar-06 Anti-Missile" 6
 		
-		"R6 Fusion Reactor"
-		"R5 Small Batteries" 2
-		"R6 Shield Generator" 5
-		"R6 Large Radar Jammer"
-		"R6 Cooling Device" 2
-		"R2 Ramscoop"
+		"Turlo-06 Reactor"
+		"Siltr-05 Batteries" 2
+		"Palir-06 Shield Generator" 5
+		"Kielir-06 Jammer"
+		"Cirpa-06 Cooling Device" 2
+		"Welt-03 Ramscoop"
+
 		"Hidden Sentry" 5
 		"Kimal Assault Rifle" 45
 		"ZK-20 Portable Railgun" 5
 		"LRP Grenades" 5
 		
-		"R4 Huge Ion Thruster"
-		"R4 Huge Ion Steering"
-		"R2 Hyperdrive"
+		"Iogel04-04 Thruster"
+		"Iogel04-04 Steering"
+		"Silr-02 Hyperdrive"
 		
 	turret -54 -23 "R6 Heavy Blaster Turret"
 	turret 54.5 -22.5 "R6 Heavy Blaster Turret"
@@ -194,26 +203,27 @@ ship "Mayuinia"
 			"hull damage" 1500
 			"hit force" 4500
 	outfits
-		"R1 Homing Beam" 2
-		"R5 Plasma Burst Turret" 2
-		"R7 Heavy Blaster Turret" 8
-		"R7 Sentry Anti-Missile Turret" 6
+		"Vytorn-01 Homing Beam" 2
+		"Virnel-05 Plasma Turret" 2
+		"Noilcor-07 Blaster Turret" 8
+		"Sentry-03 Anti-Missile" 6
 		
-		"R1 Sun Reactor"
-		"R5 Small Batteries" 4
-		"R7 Shield Generator" 5
-		"R7 Radar Jammer"
-		"R7 Cooling Device" 4
-		"R2 Ramscoop" 2
+		"Solter-01 Sun Reactor"
+		"Siltr-05 Batteries" 4
+		"Palir-07 Shield Generator" 5
+		"Kielir-07 Jammer"
+		"Cirpa-07 Cooling Device" 4
+		"Welt-03 Ramscoop" 2
+
 		"Hidden Sentry" 5
 		"Kimal Assault Rifle" 45
 		"ZK-20 Portable Railgun" 5
 		"LRP Grenades" 5
 		
-		"R4 Huge Ion Thruster"
-		"R4 Huge Ion Steering"
-		"R3 Hyperdrive"
-		"Borderless Hyperdrive"
+		"Iogel05-04 Thruster"
+		"Iogel05-04 Steering"
+		"Silr-03 Hyperdrive"
+		"Unvrsel-02 Star Drive"
 		
 	turret -17 -157.5 "R5 Plasma Burst Turret"
 	turret 16.5 -158.5 "R5 Plasma Burst Turret"

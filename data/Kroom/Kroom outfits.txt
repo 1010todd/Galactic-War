@@ -178,8 +178,6 @@ outfit "Karar Missile Single"
 		"acceleration" 1
 		"drag" .1
 		"turn" 2
-		"homing" 2
-		"infrared tracking" .5
 		"radar tracking" .5
 		"shield damage" 200
 		"hull damage" 120
@@ -187,7 +185,7 @@ outfit "Karar Missile Single"
 		"missile strength" 8
 		"stream"
 	
-outfit "M-5 Battery Pack"
+outfit "Ekalo Battery Pack" #M-5
 	category "Power"
 	cost 12000
 	thumbnail "outfit/tiny battery"
@@ -196,7 +194,7 @@ outfit "M-5 Battery Pack"
 	"energy capacity" 1000
 	description ""
 	
-outfit "M-6 Battery Pack"
+outfit "Galrugl Battery Pack" #M-6
 	category "Power"
 	cost 26000
 	thumbnail "outfit/small battery"
@@ -205,7 +203,7 @@ outfit "M-6 Battery Pack"
 	"energy capacity" 1950
 	description ""
 	
-outfit "M-11 Battery Pack"
+outfit "Gokal Battery Pack" #M-11
 	category "Power"
 	cost 100000
 	thumbnail "outfit/medium battery"
@@ -214,7 +212,7 @@ outfit "M-11 Battery Pack"
 	"energy capacity" 4900
 	description ""
 	
-outfit "M-12 Battery Pack"
+outfit "Huglr Battery Pack" #M-12
 	category "Power"
 	cost 145000
 	thumbnail "outfit/large battery"
@@ -223,7 +221,7 @@ outfit "M-12 Battery Pack"
 	"energy capacity" 10000
 	description ""
 	
-outfit "M-6 Photovoltaic Panel"
+outfit "Biuger Photovoltaic Panel" #M-6
 	category "Power"
 	cost 10000
 	thumbnail "outfit/tiny photovoltaic"
@@ -232,24 +230,70 @@ outfit "M-6 Photovoltaic Panel"
 	"solar collection" .1
 	description ""
 	
-outfit "M-4 Fuel Cell"
+outfit "Burtal Fuel Cell"
 	category "Power"
-	cost 38000
+	cost 58000
 	thumbnail "outfit/tiny fuel cell"
 	"mass" 20
 	"outfit space" -20
 	"energy generation" 2
 	"heat generation" 1.8
+	"ion protection" 1
+	description "Powerful and rugged generator protected against ionization weapon widely used by their opponent, Geeva."
+
+outfit "Fulakor Fuel Cell"
+	category "Power"
+	cost 89000
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 42
+	"outfit space" -42
+	"energy generation" 4.1
+	"heat generation" 3.6
+	"ion protection" 1.7
+	description "Powerful and rugged generator protected against ionization weapon widely used by their opponent, Geeva."
+
+outfit "Gadorke Fuel Cell"
+	category "Power"
+	cost 105000
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 63
+	"outfit space" -63
+	"energy generation" 8.3
+	"heat generation" 7.8
+	"ion protection" 2.4
+	description "Powerful and rugged generator protected against ionization weapon widely used by their opponent, Geeva."
+
+outfit "Atuga Radiothermal"
+	category "Power"
+	cost 310000
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 34
+	"outfit space" -34
+	"energy generation" 4
+	"heat generation" 20
+	"ion protection" .02
 	description ""
 	
-outfit "M-5 Fission Reactor"
+outfit "Kutsabik Fission Reactor"
 	category "Power"
 	cost 1800000
 	thumbnail "outfit/fission"
 	"mass" 60
 	"outfit space" -60
-	"energy generation" 10.4
+	"energy generation" 8.9
 	"heat generation" 24
+	"ion protection" .5
+	description ""
+
+outfit "Luketak Fission Reactor"
+	category "Power"
+	cost 3000000
+	thumbnail "outfit/fission"
+	"mass" 101
+	"outfit space" -101
+	"energy generation" 12.6
+	"heat generation" 36
+	"ion protection" .7
 	description ""
 	
 outfit "Keno Shield Generator"
@@ -272,7 +316,7 @@ outfit "Kosak Shield Generator"
 	"shield energy" .28
 	description ""
 	
-outfit "Koka Shield Generator"
+outfit "Kourta Shield Generator" #Koka
 	category "Systems"
 	cost 32000
 	thumbnail "outfit/medium shield"
@@ -282,7 +326,7 @@ outfit "Koka Shield Generator"
 	"shield energy" .6
 	description ""
 	
-outfit "Kona Shield Generator"
+outfit "Kutkar Shield Generator"
 	category "Systems"
 	cost 100000
 	thumbnail "outfit/large shield"
@@ -292,20 +336,21 @@ outfit "Kona Shield Generator"
 	"shield energy" .8
 	description ""
 	
-outfit "Karmo Thruster"
+outfit "Kalmo Thruster" #Karmo
 	category "Engines"
 	"cost" 22000
 	thumbnail "outfit/tiny plasma thruster"
 	"mass" 18
 	"outfit space" -18
 	"engine capacity" -18
-	"thrust" 9
+	"thrust" 15
 	"thrusting energy" .9
 	"thrusting heat" 1.1
 	"flare sprite" "effect/plasma flare/tiny"
 		"frame rate" 5
 	"flare sound" "plasma tiny"
-	description ""
+	"slowing protection" .01
+	description "These are very rugged and powerful thruster for the size."
 	
 outfit "Karmar Thruster"
 	category "Engines"
@@ -314,12 +359,13 @@ outfit "Karmar Thruster"
 	"mass" 35
 	"outfit space" -35
 	"engine capacity" -35
-	"thrust" 18
+	"thrust" 31.8
 	"thrusting energy" 1.8
 	"thrusting heat" 3.6
 	"flare sprite" "effect/plasma flare/small"
 		"frame rate" 6
 	"flare sound" "plasma small"
+	"slowing protection" .02
 	description ""
 	
 outfit "Kompar Thruster"
@@ -329,22 +375,23 @@ outfit "Kompar Thruster"
 	"mass" 80
 	"outfit space" -80
 	"engine capacity" -80
-	"thrust" 46
+	"thrust" 75
 	"thrusting energy" 4
 	"thrusting heat" 8
 	"flare sprite" "effect/plasma flare/large"
 		"frame rate" 0.9
 	"flare sound" "plasma large"
+	"slowing protection" .03
 	description ""
 	
-outfit "Karmo Steering"
+outfit "Karmo Steering" #Karmo
 	category "Engines"
 	"cost" 18000
 	thumbnail "outfit/tiny plasma steering"
 	"mass" 12
 	"outfit space" -12
 	"engine capacity" -12
-	"turn" 238
+	"turn" 368
 	"turning energy" .4
 	"turning heat" .96
 	description ""
@@ -356,7 +403,7 @@ outfit "Karmar Steering"
 	"mass" 22
 	"outfit space" -22
 	"engine capacity" -22
-	"turn" 484
+	"turn" 602
 	"turning energy" 0.9
 	"turning heat" 2.3
 	description ""
