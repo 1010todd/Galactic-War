@@ -244,7 +244,7 @@ effect "donko anti-missile"
 	"lifetime" 12
 	"velocity scale" 1
 		
-outfit "K6 Shield Generator"
+outfit "ORK6 Shield Generator"
 	category "Systems"
 	cost 50000000
 	thumbnail "outfit/unknown"
@@ -254,7 +254,7 @@ outfit "K6 Shield Generator"
 	"shield energy" 12
 	"shield delay" 4
 	
-outfit "K5 Shield Generator"
+outfit "ORK5 Shield Generator"
 	category "Systems"
 	cost 2600000
 	thumbnail "outfit/unknown"
@@ -264,7 +264,7 @@ outfit "K5 Shield Generator"
 	"shield energy" 9.2
 	"shield delay" 4
 	
-outfit "K4 Shield Generator"
+outfit "ORK4 Shield Generator"
 	category "Systems"
 	cost 2000000
 	thumbnail "outfit/unknown"
@@ -274,7 +274,7 @@ outfit "K4 Shield Generator"
 	"shield energy" 6.3
 	"shield delay" 3
 	
-outfit "K2 Shield Generator"
+outfit "ORK2 Shield Generator"
 	category "Systems"
 	cost 150000
 	thumbnail "outfit/unknown"
@@ -284,7 +284,7 @@ outfit "K2 Shield Generator"
 	"shield energy" 4.6
 	"shield delay" 2
 	
-outfit "K1 Shield Generator"
+outfit "ORK1 Shield Generator"
 	category "Systems"
 	cost 100000
 	thumbnail "outfit/unknown"
@@ -294,7 +294,7 @@ outfit "K1 Shield Generator"
 	"shield energy" 2.6
 	"shield delay" 1
 
-outfit "T6 Thruster"
+outfit "DIT6 Thruster"
 	category "Engines"
 	"cost" 1000000
 	thumbnail "outfit/donko engine dual"
@@ -308,7 +308,7 @@ outfit "T6 Thruster"
 		"frame rate" 1
 	"flare sound" "ion huge"
 	
-outfit "T6 Steering"
+outfit "DIT6 Steering"
 	category "Engines"
 	"cost" 800000
 	thumbnail "outfit/unknown"
@@ -319,7 +319,7 @@ outfit "T6 Steering"
 	"turning energy" 64
 	"turning heat" 53
 	
-outfit "T5 Thruster"
+outfit "DIT5 Thruster"
 	category "Engines"
 	"cost" 800000
 	thumbnail "outfit/donko engine dual"
@@ -333,7 +333,7 @@ outfit "T5 Thruster"
 		"frame rate" 1
 	"flare sound" "ion large"
 	
-outfit "T5 Steering"
+outfit "DIT5 Steering"
 	category "Engines"
 	"cost" 600000
 	thumbnail "outfit/unknown"
@@ -344,7 +344,7 @@ outfit "T5 Steering"
 	"turning energy" 52
 	"turning heat" 48
 	
-outfit "T4 Thruster"
+outfit "DIT4 Thruster"
 	category "Engines"
 	"cost" 600000
 	thumbnail "outfit/donko engine dual"
@@ -358,7 +358,7 @@ outfit "T4 Thruster"
 		"frame rate" 1
 	"flare sound" "ion medium"
 	
-outfit "T4 Steering"
+outfit "DIT4 Steering"
 	category "Engines"
 	"cost" 400000
 	thumbnail "outfit/unknown"
@@ -369,7 +369,7 @@ outfit "T4 Steering"
 	"turning energy" 43
 	"turning heat" 36
 	
-outfit "T3 Thruster"
+outfit "DIT3 Thruster"
 	category "Engines"
 	"cost" 19000
 	thumbnail "outfit/donko engine dual"
@@ -383,7 +383,7 @@ outfit "T3 Thruster"
 		"frame rate" 1.5
 	"flare sound" "ion small"
 	
-outfit "T3 Steering"
+outfit "DIT3 Steering"
 	category "Engines"
 	"cost" 18000
 	thumbnail "outfit/small ion steering"
@@ -394,7 +394,7 @@ outfit "T3 Steering"
 	"turning energy" 26
 	"turning heat" 22
 	
-outfit "T2 Thruster"
+outfit "DIT2 Thruster"
 	category "Engines"
 	"cost" 19000
 	thumbnail "outfit/donko engine dual"
@@ -408,7 +408,7 @@ outfit "T2 Thruster"
 		"frame rate" 1.5
 	"flare sound" "ion small"
 	
-outfit "T2 Steering"
+outfit "DIT2 Steering"
 	category "Engines"
 	"cost" 18000
 	thumbnail "outfit/small ion steering"
@@ -419,7 +419,7 @@ outfit "T2 Steering"
 	"turning energy" 18
 	"turning heat" 16
 	
-outfit "T1 Thruster"
+outfit "DIT1 Thruster"
 	category "Engines"
 	"cost" 10000
 	thumbnail "outfit/donko engine dual"
@@ -433,7 +433,7 @@ outfit "T1 Thruster"
 		"frame rate" 1.5
 	"flare sound" "ion tiny"
 	
-outfit "T1 Steering"
+outfit "DIT1 Steering"
 	category "Engines"
 	"cost" 10000
 	thumbnail "outfit/tiny ion steering"
@@ -448,13 +448,13 @@ outfit "Donko Hyperdrive"
 	category "Systems"
 	cost 90000
 	thumbnail "outfit/hyperdrive"
-	"mass" 18
-	"outfit space" -18
+	"mass" 20
+	"outfit space" -20
 	"jump speed" 5
 	"hyperdrive" 1
-	description "Donko Hyperdrive is slightly smaller and faster than standard hyperdrive due to totally different method of entering hyperspace." 
+	description "." 
 	
-outfit "R1 Cell"
+outfit "OER1 Cell"
 	category "Power"
 	cost 180000
 	thumbnail "outfit/tiny fuel cell"
@@ -463,7 +463,7 @@ outfit "R1 Cell"
 	"energy generation" 30
 	"energy capacity" 500
 	
-outfit "R2 Cell"
+outfit "OER2 Cell"
 	category "Power"
 	cost 360000
 	thumbnail "outfit/small fuel cell"
@@ -472,7 +472,7 @@ outfit "R2 Cell"
 	"energy generation" 50
 	"energy capacity" 1000
 	
-outfit "R5 Cell"
+outfit "OER5 Cell"
 	category "Power"
 	cost 1000000
 	thumbnail "outfit/big fuel cell"
@@ -481,7 +481,7 @@ outfit "R5 Cell"
 	"energy generation" 160
 	"energy capacity" 2600
 	
-outfit "Experimental ANTI-10 Core"
+outfit "NIA10X Core"
 	category "Power"
 	cost 34000000
 	thumbnail "outfit/donko core"
@@ -490,4 +490,4 @@ outfit "Experimental ANTI-10 Core"
 	"energy generation" 65
 	"heat generation" 45
 	"energy capacity" 5000
-	description "Donko's experimental antimatter core."
+	description "Donko's experimental power generator"

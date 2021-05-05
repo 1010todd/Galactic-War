@@ -25,16 +25,19 @@ ship "Sao"
 			"hull damage" 5000
 			"hit force" 1500
 	outfits
-		"Donko Hyperdrive"
-		"Jump Drive"
-		"K6 Shield Generator"
-		"Experimental ANTI-10 Core"
-		"T6 Thruster"
-		"T6 Steering"
+
 		"J6 KED Turret" 4
 		"Barmott Anti-Missile" 3
 		"Y2 Coran Gun"
 		"Nurbote" 60
+
+		"ORK6 Shield Generator"
+		"NIA10X Core"
+
+		"DIT6 Thruster"
+		"DIT6 Steering"
+		"Donko Hyperdrive"
+		"Jump Drive"
 		
 	gun -0.5 -244 "Y2 Coran Gun"
 	turret -103.5 -85.5 "J6 KED Turret" 
@@ -98,12 +101,14 @@ ship "Kanse"
 		"J2 MES Gun" 2
 		"J2 KED Gun" 2
 		"Barmott Anti-Missile"
-		"Jump Drive"
-		"R2 Cell"
-		"K1 Shield Generator"
-		"T2 Thruster"
-		"T2 Steering"
+
+		"OER2 Cell"
+		"ORK1 Shield Generator"
+
+		"DIT2 Thruster"
+		"DIT2 Steering"
 		"Donko Hyperdrive"
+		"Jump Drive"
 		
 	gun -26 -42
 	gun 26 -42
@@ -154,10 +159,12 @@ ship "Kolso"
 			"hit force" 180
 	outfits
 		"J1 MES Gun" 3
-		"R1 Cell"
-		"K1 Shield Generator"
-		"T1 Thruster"
-		"T1 Steering"
+
+		"OER1 Cell"
+		"ORK1 Shield Generator"
+
+		"DIT1 Thruster"
+		"DIT1 Steering"
 		
 	gun -11.5 -27.5
 	gun 11.5 -27.5
@@ -192,10 +199,12 @@ ship "Matka"
 			"hit force" 180
 	outfits
 		"J1 MES Gun" 2
-		"R1 Cell"
-		"K1 Shield Generator"
-		"T1 Thruster"
-		"T1 Steering"
+
+		"OER1 Cell"
+		"ORK1 Shield Generator"
+
+		"DIT1 Thruster"
+		"DIT1 Steering"
 		
 	gun -2 -7.5
 	gun 2 -7.5
@@ -235,16 +244,18 @@ ship "Koi"
 			"hull damage" 2850 
 			"hit force" 8550 
 	outfits 
-		"Donko Hyperdrive"
-		"Jump Drive"
+		"J4 KED Turret" 6
 		"Hasus Launcher" 2
 		"Hasus Missile" 80
 		"Barmott Anti-Missile" 5
-		"K4 Shield Generator"
-		"T4 Steering"
-		"T4 Thruster"
-		"R5 Cell"
-		"J4 KED Turret" 6
+
+		"OER5 Cell"
+		"ORK4 Shield Generator"
+
+		"DIT4 Steering"
+		"DIT4 Thruster"
+		"Donko Hyperdrive"
+		"Jump Drive"
 
 	gun -56.5 -76
 	gun 56.5 -76
@@ -296,16 +307,18 @@ ship "Koi" "Koi (Drone)"
 			"hull damage" 2850 
 			"hit force" 8550 
 	outfits 
-		"Donko Hyperdrive"
-		"Jump Drive"
+		"J4 KED Turret" 6
 		"Hasus Launcher" 2
 		"Hasus Missile" 80
-		"Barmott Anti-Missile" 6
-		"K4 Shield Generator"
-		"T4 Steering"
-		"T4 Thruster"
-		"R5 Cell"
-		"J4 KED Turret" 6
+		"Barmott Anti-Missile" 5
+
+		"OER5 Cell"
+		"ORK4 Shield Generator"
+
+		"DIT4 Steering"
+		"DIT4 Thruster"
+		"Donko Hyperdrive"
+		"Jump Drive"
 
 	gun -56.5 -76
 	gun 56.5 -76
@@ -360,16 +373,19 @@ ship "Koi" "Koi (Freighter)"
 			"hull damage" 2850 
 			"hit force" 8550 
 	outfits 
-		"Donko Hyperdrive"
-		"Jump Drive"
+		"J4 KED Turret" 6
 		"Hasus Launcher" 2
 		"Hasus Missile" 80
 		"Barmott Anti-Missile" 5
-		"K4 Shield Generator"
-		"T4 Steering"
-		"T4 Thruster"
-		"R5 Cell"
-		"J4 KED Turret" 6
+
+		"OER5 Cell"
+		"ORK4 Shield Generator"
+
+		"DIT4 Steering"
+		"DIT4 Thruster"
+		"Donko Hyperdrive"
+		"Jump Drive"
+		
 
 	gun -56.5 -76
 	gun 56.5 -76
@@ -416,17 +432,21 @@ ship "Senka"
 			"hull damage" 2850 
 			"hit force" 8550 
 	outfits 
-		"Donko Hyperdrive"
-		"Jump Drive"
+		
+		"J4 KED Turret" 2
+		"J4 MES Turret" 4
 		"Hasus Launcher" 4
 		"Hasus Missile" 160
 		"Barmott Anti-Missile"
-		"K5 Shield Generator"
-		"T5 Steering"
-		"T5 Thruster"
-		"R5 Cell"
-		"J4 KED Turret" 2
-		"J4 MES Turret" 4
+
+		"ORK5 Shield Generator"
+		"OER5 Cell"
+
+		"DIT5 Steering"
+		"DIT5 Thruster"
+		"Donko Hyperdrive"
+		"Jump Drive"
+		
 
 	gun -53 -167
 	gun 53 -167
