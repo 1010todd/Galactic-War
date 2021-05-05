@@ -23,9 +23,9 @@ ship "Qargi"
 			"hull damage" 1800
 			"hit force" 5400
 	outfits
-		"FB10 Heat Beam" 4
+		"FB6 Heat Beam" 4
 		"GT10 Particle Repeater Turret" 6
-		"Qanse Warder" 4
+		"Qanse Anti-Missile" 4
 		
 		"Y-Class Core"
 		"F-Type Heat Shunt"
@@ -81,7 +81,7 @@ ship "Dantra"
 			"hit force" 540
 	outfits
 		"GT10 Particle Repeater" 4
-		"Qanse Warder"
+		"Qanse Anti-Missile"
 		
 		"Y-Class Core"
 		"E-Type Heat Shunt"
@@ -93,7 +93,7 @@ ship "Dantra"
 	gun -29 -21.5
 	gun 22 -34
 	gun 29 -21.5
-	turret -1 -4 "Qanse Warder"
+	turret -1 -4 "Qanse Anti-Missile"
 	engine 14 38
 	engine -14 38
 	explode "tiny explosion" 20

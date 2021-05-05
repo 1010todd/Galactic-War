@@ -18,7 +18,10 @@ outfit "Qanse Anti-Missile" #Placeholder
 		"firing heat" 5
 	description ""
 	
-outfit "FB10 Heat Beam"
+
+#[alpha][alpha][number][number]
+#Alphabets for weapon identification, number for weapon type.
+outfit "FB6 Heat Beam"
 	category "Guns"
 	cost 600000
 	thumbnail "outfit/fire-lance"
@@ -96,7 +99,7 @@ outfit "GT10 Particle Repeater"
 		"cluster"
 	description ""
 	
-outfit "DT10 Laser Turret"
+outfit "DT6 Laser Turret"
 	category "Turrets"
 	cost 1473000
 	thumbnail "outfit/slicer turret"
@@ -160,16 +163,6 @@ outfit "B-Class Engine"
 	"flare sound" "plasma small"
 	description ""
 	
-outfit "UC Drive"
-	category "Systems"
-	cost 1000000
-	thumbnail "outfit/jump drive"
-	"mass" 20
-	"outfit space" -20
-	"jump speed" 10
-	"hyperdrive" 1
-	"jump drive" 1
-	"jump fuel" 200
 	
 outfit "2C-Type Transporter"
 	category "Systems"
@@ -180,7 +173,7 @@ outfit "2C-Type Transporter"
 	"jump speed" 10
 	"hyperdrive" 1
 	"jump drive" 1
-	"jump fuel" 20
+	"jump fuel" 200
 	
 	
 # W,X,Y,Z Core
