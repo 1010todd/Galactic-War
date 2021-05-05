@@ -2,6 +2,9 @@
 #galaxy "Galaxy 3" #To be moved due to conflict with Omnis.
 #	pos 866.326 -11179.5
 #	sprite ui/galaxy3
+#galaxy NGC5477
+#	pos -50500 -53000
+#	sprite ui/ngc5477
 
 galaxy "Milky Way"
 	pos 0 0
@@ -18,10 +21,6 @@ galaxy "Galaxy 2"
 galaxy "Galaxy 4"
 	pos -38408.8 -54126
 	sprite ui/galaxy4
-
-#galaxy NGC5477
-#	pos -50500 -53000
-#	sprite ui/ngc5477
 
 system Acoem
 	pos -44853.7 -58046.5
@@ -2404,42 +2403,42 @@ system Bovdar
 	trade Plastic 505
 	fleet "Dels Kaote" 10000
 	fleet "Dels Outward Merchant" 800
-		object
+	object
 		sprite star/m4
 		period 10
-		object
+	object
 		sprite planet/oberon
 		distance 178.81
 		period 62.6194
-		object
+	object
 		sprite planet/rock15
 		distance 315.06
 		period 146.457
-		object
+	object
 		sprite planet/dust4
 		distance 540.5
 		period 329.09
-		object
+	object
 		sprite planet/ice1
 		distance 914.46
 		period 724.216
-		object
+	object
 		sprite planet/gas7
 		distance 1814.02
 		period 2023.41
-			object
+		object
 			sprite planet/rock0
 			distance 256
 			period 14.571
-			object
+		object
 			sprite planet/dust5
 			distance 410
 			period 29.5329
-			object
+		object
 			sprite planet/desert4
 			distance 540
 			period 44.6397
-	
+
 system Braton
 	pos -52517.6 -54475.4
 	government "Tehru Insker"
@@ -3972,42 +3971,42 @@ system Codelo
 	fleet "Dels Kaote" 1000
 	fleet "Dels merchant" 600
 	fleet "Dels Central Merchant" 700
-			object
+	object
 		sprite star/g5
 		period 10
-			object
+	object
 		sprite planet/gas2
 		distance 453.25
 		period 154.393
 		offset 270.797
-				object
+		object
 			sprite planet/ice8
 			distance 215
 			period 19.1017
-				object
+		object
 			sprite planet/dust5
 			distance 325
 			period 35.5009
-			object Senmari
+	object Senmari
 		sprite planet/rock12
 		distance 962.07
 		period 477.452
 		offset 198.437
-			object
+	object
 		sprite planet/gas11
 		distance 1377.96
 		period 818.417
 		offset 210.569
-				object
+		object
 			sprite planet/rock7
 			distance 238
 			period 12.11
-			object
+	object
 		sprite planet/gas0
 		distance 2371.2
 		period 1847.45
 		offset 135.308
-		
+
 system Collak
 	pos -50900.1 -55369.5
 	government Dels
@@ -5863,39 +5862,39 @@ system Deefolks
 	fleet "Dels miner" 2000
 	fleet Ignaggen 700
 	fleet "Dels Kaote" 1000
-		object
+	object
 		sprite star/k5
 		period 10
-		object Donto
+	object Donto
 		sprite planet/forest1
 		distance 446.577
 		period 182.911
 		offset 243.531
-			object
+		object
 			sprite planet/rock7
 			distance 137
 			period 17.9601
 			offset 309.419
-		object
+	object
 		sprite planet/cloud0
 		distance 871.067
 		period 498.28
 		offset 340.507
-			object
+		object
 			sprite planet/ice0
 			distance 162
 			period 25.4101
-		object
+	object
 		sprite planet/desert7
 		distance 1332.91
 		period 943.186
 		offset 343.901
-		object
+	object
 		sprite planet/gas1
 		distance 2015.95
 		period 1754.35
 		offset 352.261
-	
+
 system Deekurti
 	pos -52040.8 -54774.8
 	government Dels
@@ -6160,46 +6159,46 @@ system Delona
 	fleet "Dels Kaote" 1000
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 800
-		object
+	object
 		sprite star/k5
 		period 10
-		object
+	object
 		sprite planet/mercury
 		distance 133.41
 		period 29.8661
-		object
+	object
 		sprite planet/cloud5
 		distance 523.41
 		period 232.091
-			object
+		object
 			sprite planet/tethys
 			distance 178
 			period 15.5202
-		object
+	object
 		sprite planet/rock7
 		distance 972.7
 		period 587.982
-		object Densaer
+	object Densaer
 		sprite planet/dust1
 		distance 1318.71
 		period 928.154
-		object
+	object
 		sprite planet/gas4
 		distance 2442
 		period 2338.92
-			object
+		object
 			sprite planet/desert4
 			distance 227
 			period 12.0625
-			object
+		object
 			sprite planet/dust4
 			distance 340
 			period 22.1114
-			object
+		object
 			sprite planet/luna
 			distance 478
 			period 36.8586
-	
+
 system Deloop
 	pos -51592.3 -55632.4
 	government Dels
@@ -6224,30 +6223,30 @@ system Deloop
 	trade Plastic 357
 	fleet "Dels Kaote" 10000
 	fleet "Dels Outward Merchant" 600
-		object
+	object
 		sprite star/m0
 		period 10
-		object
+	object
 		sprite planet/venus
 		distance 155.76
 		period 43.4679
-		object
+	object
 		sprite planet/desert9
 		distance 422.32
 		period 194.065
-		object
+	object
 		sprite planet/desert0
 		distance 959.28
 		period 664.359
-		object
+	object
 		sprite planet/gas17
 		distance 2318.17
 		period 2495.76
-			object
+		object
 			sprite planet/dust0
 			distance 201
 			period 12.175
-	
+
 system Delur
 	pos -49117.6 -55796.7
 	government Revos
@@ -7742,52 +7741,52 @@ system Duraai
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 1000
 	fleet "Dels Central Merchant" 600
-		object
+	object
 		sprite star/k0
 		distance 38.8754
 		period 13.6631
 		offset 180
-		object
+	object
 		sprite star/m0
 		distance 59.1246
 		period 13.6631
-		object
+	object
 		sprite planet/lava5
 		distance 196.335
 		period 38.744
-		object
+	object
 		sprite planet/desert0
 		distance 403.335
 		period 114.079
-		object Falla
+	object Falla
 		sprite planet/forest0
 		distance 826.545
 		period 334.664
 		offset 332.659
-		object
+	object
 		sprite planet/neptune
 		distance 1120.38
 		period 528.151
 		offset 6.20929
-		object
+	object
 		sprite planet/rock1
 		distance 1544.63
 		period 854.962
 		offset 2.76756
-		object
+	object
 		sprite planet/gas16
 		distance 3415.88
 		period 2811.67
 		offset 0.378445
-			object
+		object
 			sprite planet/ice8
 			distance 203
 			period 15.2244
-			object
+		object
 			sprite planet/ice7
 			distance 363
 			period 36.4047
-	
+
 system Durdan
 	pos -52263.8 -54780.3
 	government Dels
@@ -9935,51 +9934,51 @@ system Erkma
 	fleet "Erm CIV Fleet" 800
 	fleet "Resmakia CIV Fleet" 1000
 	fleet "Resmakia SDF Fleet" 700
-		object
+	object
 		sprite star/m0
 		distance 39.2117
 		period 15.2515
-		object
+	object
 		sprite star/m4
 		distance 53.7883
 		period 15.2515
 		offset 180
-		object
+	object
 		sprite planet/rock16
 		distance 197.628
 		period 47.2456
-		object Jacokler
+	object Jacokler
 		sprite planet/rock12
 		distance 581.188
 		period 238.266
 		offset 283.73
-			object Korles
+		object Korles
 			sprite planet/luna
 			distance 180.979
 			period 25.3669
 			offset 44.5572
-		object
+	object
 		sprite planet/gas9
 		distance 1941.66
 		period 1454.95
 		offset 352.478
-			object
+		object
 			sprite planet/ice7
 			distance 246
 			period 14.4675
-			object
+		object
 			sprite planet/rock7
 			distance 387
 			period 28.5468
-			object
+		object
 			sprite planet/callisto
 			distance 555
 			period 49.0264
-			object
+		object
 			sprite planet/rhea
 			distance 676
 			period 65.9038
-	
+
 system Ernauor
 	pos -51078.5 -55365.6
 	government Dels
@@ -10973,32 +10972,32 @@ system "Fee Lo"
 	fleet "Dels Outward Merchant" 800
 	fleet "Dels Central Merchant" 600
 	fleet Ignaggen 1400
-		object
+	object
 		sprite star/m4
 		period 10
-		object Sendori
+	object Sendori
 		sprite planet/cloud3
 		distance 246.04
 		period 101.072
-		object
+	object
 		sprite planet/uranus
 		distance 595.44
 		period 380.521
 		offset 170.434
-		object
+	object
 		sprite planet/gas11
 		distance 1461.08
 		period 1462.62
 		offset 292.444
-			object
+		object
 			sprite planet/dust3
 			distance 257
 			period 13.5887
-			object
+		object
 			sprite planet/oberon
 			distance 384
 			period 24.8184
-	
+
 system "Fee Ro"
 	pos -51980.6 -54860.4
 	government Dels
@@ -11169,37 +11168,37 @@ system Feeroko
 	fleet "Dels miner" 1200
 	fleet Ignaggen 700
 	fleet "Dels Central Merchant" 1200
-		object
+	object
 		sprite star/g5
 		period 10
-		object
+	object
 		sprite planet/dust4
 		distance 196.21
 		period 43.9746
-		object Ka'erie
+	object Ka'erie
 		sprite planet/earth
 		distance 568.989
 		period 217.158
 		offset 309.227
-		object
+	object
 		sprite planet/gas11
 		distance 1413.37
 		period 850.163
 		offset 62.7772
-			object
+		object
 			sprite planet/lava0
 			distance 279
 			period 15.3704
-			object
+		object
 			sprite planet/rhea
 			distance 444
 			period 30.8569
-		object
+	object
 		sprite planet/gas7
 		distance 3233.26
 		period 2941.58
 		offset 7.15399
-	
+
 system Fekkal
 	pos -44799.7 -58026.4
 	government Ultaka
@@ -13171,40 +13170,40 @@ system Genlo
 	fleet "Dels Kaote" 1000
 	fleet "Dels merchant" 600
 	fleet "Dels Central Merchant" 1200
-		object
+	object
 		sprite star/g0
 		distance 11.5556
 		period 12.1709
-		object
+	object
 		sprite star/m8
 		distance 92.4444
 		period 12.1709
 		offset 180
-		object
+	object
 		sprite planet/cloud7
 		distance 366.404
 		period 80.4846
-			object
+		object
 			sprite planet/rock14
 			distance 150
 			period 25.612
-		object Deesok
+	object Deesok
 		sprite planet/forest4
 		distance 1056.44
 		period 394.041
-			object
+		object
 			sprite planet/dust1
 			distance 183
 			period 22.1789
-		object
+	object
 		sprite planet/gas3
 		distance 1705.73
 		period 808.424
-			object
+		object
 			sprite planet/ice7
 			distance 320
 			period 14.6214
-	
+
 system Gerdusee
 	pos -51324.6 -54753.6
 	government Dels
@@ -15377,34 +15376,34 @@ system Govri
 	trade Plastic 443
 	fleet "Dels Kaote" 20000
 	fleet "Dels Outward Merchant" 700
-		object
+	object
 		sprite star/k5
 		period 10
-		object
+	object
 		sprite planet/dust1
 		distance 127.69
 		period 27.9661
-		object
+	object
 		sprite planet/ocean3
 		distance 421.69
 		period 167.836
-		object
+	object
 		sprite planet/forest0
 		distance 781.94
 		period 423.795
-		object
+	object
 		sprite planet/gas10
 		distance 2224.75
 		period 2033.84
-			object
+		object
 			sprite planet/rhea
 			distance 191
 			period 13.8946
-			object
+		object
 			sprite planet/rock3
 			distance 304
 			period 27.9002
-	
+
 system Gowok
 	pos -49599.7 -54615.2
 	government "Qoro (East)"
@@ -16910,38 +16909,38 @@ system Heosli
 	link Teona
 	asteroids "large metal" 1 1.608
 	fleet "Erm Raid Fleet" 20000
-		object
+	object
 		sprite star/k5
 		period 10
-		object
+	object
 		sprite planet/lava1
 		distance 175.41
 		period 45.0275
-		object
+	object
 		sprite planet/ice6
 		distance 355.1
 		period 129.695
-		object
+	object
 		sprite planet/desert5
 		distance 1046.1
 		period 655.776
-			object
+		object
 			sprite planet/rock3
 			distance 129
 			period 16.1108
-		object
+	object
 		sprite planet/desert0
 		distance 1490.1
 		period 1114.86
-			object
+		object
 			sprite planet/miranda
 			distance 146
 			period 22.1764
-		object
+	object
 		sprite planet/gas6
 		distance 3837.06
 		period 4606.74
-	
+
 system Heukao
 	pos -51634.8 -55210.3
 	government Dels
@@ -21316,44 +21315,44 @@ system Keemolk
 	trade Metal 555
 	trade Plastic 447
 	fleet "Dels Outward Merchant" 1000
-		object
+	object
 		sprite star/a5
 		distance 7.8797
 		period 9.63047
-		object
+	object
 		sprite star/m4
 		distance 123.12
 		period 9.63047
 		offset 180
-		object
+	object
 		sprite planet/gas12
 		distance 500.53
 		period 71.926
-			object
+		object
 			sprite planet/europa
 			distance 270
 			period 11.6528
-		object
+	object
 		sprite planet/gas7
 		distance 1440.14
 		period 351.033
-			object
+		object
 			sprite planet/ice7
 			distance 268
 			period 15.6075
-			object
+		object
 			sprite planet/rock0
 			distance 380
 			period 26.3515
-		object
+	object
 		sprite planet/gas6
 		distance 2628.3
 		period 865.472
-			object
+		object
 			sprite planet/ice0
 			distance 268
 			period 11.2064
-	
+
 system Keemoroco
 	pos -51186.1 -55665.6
 	government Dels
@@ -21378,40 +21377,40 @@ system Keemoroco
 	trade Plastic 400
 	fleet "Dels Kaote" 10000
 	fleet "Dels Outward Merchant" 1000
-		object
+	object
 		sprite star/m4
 		period 10
-		object
+	object
 		sprite planet/ice5
 		distance 192
 		period 69.6744
-		object
+	object
 		sprite planet/gas7
 		distance 662.76
 		period 446.844
-		object Qenor
+	object Qenor
 		sprite planet/lava3
 		distance 951.25
 		period 768.357
 		offset 15.1047
-		object
+	object
 		sprite planet/gas16
 		distance 2284.81
 		period 2860.2
 		offset 3.36811
-			object
+		object
 			sprite planet/ice7
 			distance 193
 			period 14.1134
-			object
+		object
 			sprite planet/rock17
 			distance 331
 			period 31.6985
-			object
+		object
 			sprite planet/lava0
 			distance 464
 			period 52.6107
-	
+
 system Keen
 	pos -50970.7 -55380.6
 	government Dels
@@ -21547,38 +21546,38 @@ system Keerak
 	trade Metal 289
 	trade Plastic 435
 	fleet "Dels Outward Merchant" 1000
-		object
+	object
 		sprite star/k5
 		period 10
-		object
+	object
 		sprite planet/cloud6
 		distance 223.61
 		period 64.8086
-		object
+	object
 		sprite planet/rhea
 		distance 492.86
 		period 212.071
-		object
+	object
 		sprite planet/cloud4
 		distance 806.82
 		period 444.182
-		object
+	object
 		sprite planet/gas12
 		distance 2047.66
 		period 1795.9
-			object
+		object
 			sprite planet/rock3
 			distance 262
 			period 11.1388
-			object
+		object
 			sprite planet/dust7
 			distance 408
 			period 21.6459
-			object
+		object
 			sprite planet/dust3
 			distance 570
 			period 35.7435
-	
+
 system Keikas
 	pos -44934.9 -59272.5
 	government Krinek
@@ -25699,45 +25698,45 @@ system Kolha
 	fleet "Revos small" 1000
 	fleet "Revos big" 1500
 	fleet "Revos merchant" 600
-		object
+	object
 		sprite star/m4
 		period 10
-		object Voltali
+	object Voltali
 		sprite planet/desert7
 		distance 325.741
 		period 153.968
 		offset 322.121
-			object Jocuta
+		object Jocuta
 			sprite planet/station4
 			distance 123.126
 			period 21.7877
 			offset 126.678
-		object
+	object
 		sprite planet/ocean9
 		distance 634.708
 		period 418.776
 		offset 24.1732
-		object
+	object
 		sprite planet/lava4
 		distance 993.548
 		period 820.171
 		offset 136.34
-		object
+	object
 		sprite planet/cloud3
 		distance 1368.55
 		period 1325.9
 		offset 337.861
-		object
+	object
 		sprite planet/gas12
 		distance 2002.55
 		period 2346.91
 		offset 118.204
-		object
+	object
 		sprite planet/dust1
 		distance 4396.04
 		period 7633.32
 		offset 14.8895
-	
+
 system Konker
 	pos -44501.9 -58295.3
 	government Ultaka
@@ -28863,47 +28862,47 @@ system Loasta
 	fleet "Dels merchant" 1200
 	fleet "Dels miner" 1200
 	fleet "Dels Central Merchant" 1000
-		object
+	object
 		sprite star/k5
 		distance 36.45
 		period 16.2857
 		offset 180
-		object
+	object
 		sprite star/m4
 		distance 66.55
 		period 16.2857
-		object
+	object
 		sprite planet/lava7
 		distance 202.96
 		period 45.0471
-		object Aelowee
+	object Aelowee
 		sprite planet/cloud3
 		distance 628.45
 		period 245.447
 		offset 34.9933
-			object
+		object
 			sprite planet/luna
 			distance 163
 			period 22.8831
 			offset 339.534
-		object
+	object
 		sprite planet/gas14
 		distance 1754.14
 		period 1144.58
 		offset 356.457
-			object
+		object
 			sprite planet/miranda
 			distance 214
 			period 12.7491
-			object
+		object
 			sprite planet/dust5
 			distance 304
 			period 21.5858
-			object
+		object
 			sprite planet/dust1
 			distance 410
 			period 33.8092
-	
+
 system Lode
 	pos -45143.3 -58195.5
 	government Ultaka
@@ -29037,36 +29036,36 @@ system Loluime
 	fleet "Dels Kaote" 600
 	fleet "Dels merchant" 600
 	fleet "Dels Central Merchant" 600
-		object
+	object
 		sprite star/f5
 		period 10
-		object
+	object
 		sprite planet/cloud2
 		distance 239.29
 		period 35.7532
-		object Sealo
+	object Sealo
 		sprite planet/cloud3
 		distance 636.13
 		period 154.97
-		object Ea'rae
+	object Ea'rae
 		sprite planet/rock10
 		distance 1114.37
 		period 359.312
-			object
+		object
 			sprite planet/ice7
 			distance 160
 			period 17.0332
-		object
+	object
 		sprite planet/neptune
 		distance 1680.01
 		period 665.113
 		offset 214.452
-		object
+	object
 		sprite planet/callisto
 		distance 3986.26
 		period 2430.95
 		offset 342.649
-	
+
 system Loomera
 	pos -51050.2 -55217.2
 	government Dels
@@ -32001,34 +32000,34 @@ system "Mea Sua"
 	fleet "Dels miner" 1000
 	fleet "Dels Central Merchant" 600
 	fleet Ignaggen 1400
-		object
+	object
 		sprite star/k5
 		period 10
-		object
+	object
 		sprite planet/fog0
 		distance 258.21
 		period 80.4184
-		object
+	object
 		sprite planet/ocean6
 		distance 680.05
 		period 343.722
-		object
+	object
 		sprite planet/jupiter
 		distance 1167.01
 		period 772.695
-			object
+		object
 			sprite planet/rhea
 			distance 252
 			period 12.5708
-		object
+	object
 		sprite planet/gas0
 		distance 1897.9
 		period 1602.53
-			object
+		object
 			sprite planet/lava0
 			distance 293
 			period 14.698
-	
+
 system "Mea Vol"
 	pos -51154.2 -55111.6
 	government Dels
@@ -32487,54 +32486,54 @@ system Mesavor
 	fleet "Dels Kaote" 1200
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 1200
-		object
+	object
 		sprite star/g0
 		distance 37.2773
 		period 13.2844
 		offset 180
-		object
+	object
 		sprite star/k0
 		distance 82.7227
 		period 13.2844
-		object
+	object
 		sprite planet/desert7
 		distance 309.973
 		period 55.1512
-		object
+	object
 		sprite planet/gas8
 		distance 826.933
 		period 240.312
-			object
+		object
 			sprite planet/miranda
 			distance 196
 			period 14.607
-			object
+		object
 			sprite planet/dust1
 			distance 320
 			period 30.4721
-		object Ereata
+	object Ereata
 		sprite planet/forest1
 		distance 1609.93
 		period 652.8
 		offset 251.569
-			object Sanon
+		object Sanon
 			sprite planet/station6
 			distance 185
 			period 28.1828
-		object
+	object
 		sprite planet/gas10
 		distance 2559.22
 		period 1308.37
 		offset 164.175
-			object
+		object
 			sprite planet/luna
 			distance 203
 			period 15.2244
-			object
+		object
 			sprite planet/ice8
 			distance 313
 			period 29.1483
-	
+
 system Metardor
 	pos -51357.9 -55318.3
 	government Dels
@@ -32914,50 +32913,50 @@ system Molta
 	fleet "Revos small" 800
 	fleet "Revos big" 1000
 	fleet "Revos merchant" 700
-		object
+	object
 		sprite star/m0
 		period 10
-		object Sonan
+	object Sonan
 		sprite planet/rock4
 		distance 336.496
 		period 138.024
 		offset 225.328
-		object
+	object
 		sprite planet/ocean5
 		distance 566.736
 		period 301.687
 		offset 332.641
-		object
+	object
 		sprite planet/gas10
 		distance 1437.5
 		period 1218.7
 		offset 135.888
-			object
+		object
 			sprite planet/desert4
 			distance 200
 			period 14.8882
-			object
+		object
 			sprite planet/rhea
 			distance 291
 			period 26.1298
-			object
+		object
 			sprite planet/luna
 			distance 396
 			period 41.4801
-		object
+	object
 		sprite planet/gas3
 		distance 2391.71
 		period 2615.45
 		offset 36.0065
-			object
+		object
 			sprite planet/rock17
 			distance 270
 			period 11.3321
-			object
+		object
 			sprite planet/rock3
 			distance 354
 			period 17.0126
-	
+
 system Momi
 	pos -48951.3 -56595.4
 	government Revos
@@ -35003,43 +35002,43 @@ system Neevouka
 	fleet "Dels merchant" 600
 	fleet "Dels miner" 1200
 	fleet "Dels Central Merchant" 800
-		object
+	object
 		sprite star/m0
 		period 10
-		object
+	object
 		sprite planet/gas5
 		distance 605.41
 		period 333.088
 		offset 10.6466
-			object Destri
+		object Destri
 			sprite planet/station2
 			distance 275.484
 			period 417.401
 			offset 235.329
-		object
+	object
 		sprite planet/mercury
 		distance 1018.89
 		period 727.241
 		offset 20.2781
-		object
+	object
 		sprite planet/gas13
 		distance 1607.13
 		period 1440.67
 		offset 339.335
-		object
+	object
 		sprite planet/gas10
 		distance 2941.13
 		period 3566.62
 		offset 61.0973
-			object
+		object
 			sprite planet/miranda
 			distance 197
 			period 14.5545
-			object
+		object
 			sprite planet/dust0
 			distance 324
 			period 30.6983
-	
+
 system Neflim
 	pos -52236.2 -56028.6
 	government Geeva
@@ -36359,47 +36358,47 @@ system Norva
 	fleet "Revos small" 1000
 	fleet "Revos big" 1500
 	fleet "Revos merchant" 600
-		object
+	object
 		sprite star/f0
 		period 10
-		object
+	object
 		sprite planet/rock13
 		distance 252.36
 		period 32.9203
-		object Nose'in
+	object Nose'in
 		sprite planet/rock5
 		distance 468.325
 		period 83.2251
 		offset 0.281001
-		object
+	object
 		sprite planet/gas11
 		distance 808.935
 		period 188.931
 		offset 122.232
-		object
+	object
 		sprite planet/neptune
 		distance 1196.94
 		period 340.047
 		offset 45.6178
-		object
+	object
 		sprite planet/ice5
 		distance 1773.23
 		period 613.167
 		offset 17.0063
-		object
+	object
 		sprite planet/gas7
 		distance 6518.24
 		period 4321.44
 		offset 0.652372
-			object
+		object
 			sprite planet/ice8
 			distance 252
 			period 14.2309
-			object
+		object
 			sprite planet/europa
 			distance 364
 			period 24.7049
-	
+
 system Norvu
 	pos -49703.8 -54907.3
 	government Revos
@@ -38667,38 +38666,38 @@ system "Qee Fol"
 	fleet "Dels Kaote" 1000
 	fleet "Dels merchant" 1200
 	fleet "Dels pirate" 500
-		object
+	object
 		sprite star/g0
 		period 10
-		object
+	object
 		sprite planet/rock16
 		distance 202.84
 		period 35.1624
-		object Qee'Sensa
+	object Qee'Sensa
 		sprite planet/desert0
 		distance 427.955
 		period 107.757
 		offset 223.119
-		object
+	object
 		sprite planet/cloud1
 		distance 781.115
 		period 265.718
 		offset 49.9039
-			object
+		object
 			sprite planet/dust7
 			distance 162
 			period 16.8355
-		object
+	object
 		sprite planet/rock14
 		distance 1837.88
 		period 959.008
 		offset 5.73759
-		object
+	object
 		sprite planet/dust4
 		distance 4406.37
 		period 3560.15
 		offset 0.637616
-	
+
 system "Qee Fuour"
 	pos -52248.8 -55481
 	government "Dels (Pirate)"
@@ -39129,37 +39128,37 @@ system "Qee Norsua"
 	trade Medical 510
 	trade Metal 504
 	trade Plastic 457
-		object
+	object
 		sprite star/m4
 		period 10
-		object
+	object
 		sprite planet/lava5
 		distance 228.09
 		period 90.2154
 		offset 265.787
-		object
+	object
 		sprite planet/lava6
 		distance 405.069
 		period 213.509
 		offset 319.064
-		object
+	object
 		sprite planet/neptune
 		distance 1426.32
 		period 1410.74
 		offset 310.707
-			object
+		object
 			sprite planet/dust4
 			distance 226
 			period 16.9276
-			object
+		object
 			sprite planet/tethys
 			distance 355
 			period 33.3253
-			object
+		object
 			sprite planet/dust3
 			distance 498
 			period 55.3702
-	
+
 system "Qee Ordie"
 	pos -52444.4 -55534.7
 	government "Dels (Pirate)"
@@ -42348,47 +42347,47 @@ system Rokel
 	fleet "Erm CIV Fleet" 800
 	fleet "Resmakia CIV Fleet" 1000
 	fleet "Resmakia SDF Fleet" 700
-		object
+	object
 		sprite star/k0
 		period 10
-		object Korfelna
+	object Korfelna
 		sprite planet/desert5
 		distance 499.184
 		period 202.223
 		offset 90.1003
-			object Korpelnon
+		object Korpelnon
 			sprite planet/io
 			distance 130.144
 			period 16.3257
 			offset 102.922
-		object
+	object
 		sprite planet/lava4
 		distance 792.218
 		period 404.302
 		offset 280.335
-		object
+	object
 		sprite planet/cloud6
 		distance 1174.63
 		period 729.943
 		offset 170.412
-			object
+		object
 			sprite planet/callisto
 			distance 161
 			period 20.9144
-		object
+	object
 		sprite planet/gas5
 		distance 2597.04
 		period 2399.69
 		offset 323.808
-			object
+		object
 			sprite planet/desert4
 			distance 243
 			period 12.5967
-			object
+		object
 			sprite planet/rock17
 			distance 358
 			period 22.5254
-	
+
 system Romor
 	pos -52593.1 -56071.6
 	government ZIS
@@ -45076,38 +45075,38 @@ system Sedop
 	trade Plastic 452
 	fleet "Dels Kaote" 10000
 	fleet "Dels Outward Merchant" 700
-		object
+	object
 		sprite star/g0
 		period 10
-		object
+	object
 		sprite planet/rock5
 		distance 142.25
 		period 20.6503
-		object
+	object
 		sprite planet/rock19
 		distance 460.86
 		period 120.421
-			object
+		object
 			sprite planet/dust5
 			distance 158
 			period 26.5425
-		object
+	object
 		sprite planet/ocean3
 		distance 1146.55
 		period 472.539
-		object
+	object
 		sprite planet/desert0
 		distance 1353.55
 		period 606.121
-		object
+	object
 		sprite planet/gas17
 		distance 3985.84
 		period 3062.87
-			object
+		object
 			sprite planet/lava0
 			distance 222
 			period 14.132
-	
+
 system Selna
 	pos -44307.9 -58071.3
 	government Ultaka
@@ -47316,52 +47315,52 @@ system Tekle
 	asteroids "medium metal" 2 5.2125
 	asteroids "large metal" 11 4.3125
 	fleet "Erm Raid Fleet" 20000
-		object
+	object
 		sprite star/k0
 		distance 33.0498
 		period 15.357
 		offset 180
-		object
+	object
 		sprite star/m4
 		distance 68.9502
 		period 15.357
-		object
+	object
 		sprite planet/cloud1
 		distance 238.16
 		period 54.791
-		object
+	object
 		sprite planet/gas2
 		distance 918.77
 		period 415.161
-			object
+		object
 			sprite planet/dust1
 			distance 221
 			period 19.9069
-			object
+		object
 			sprite planet/io
 			distance 343
 			period 38.4907
-			object
+		object
 			sprite planet/luna
 			distance 483
 			period 64.3184
-		object
+	object
 		sprite planet/jupiter
 		distance 2532.38
 		period 1899.76
-			object
+		object
 			sprite planet/rock3
 			distance 280
 			period 14.7231
-			object
+		object
 			sprite planet/rhea
 			distance 398
 			period 24.9509
-			object
+		object
 			sprite planet/ice7
 			distance 516
 			period 36.8329
-	
+
 system Teona
 	pos -45044.3 -58103.5
 	government Ultaka
@@ -47594,7 +47593,6 @@ system "Trochzempt ZAZ-1"
 	link Saor
 	link "Zerax WS-2"
 	link "Zoivol WS-1"
-	arrival 1500
 	trade Clothing 160
 	trade Electronics 890
 	trade Equipment 630
@@ -47610,9 +47608,11 @@ system "Trochzempt ZAZ-1"
 	fleet point 600
 	fleet "Zis Civillian Fleet" 500
 	fleet "Zis Mining Fleet" 700
+	arrival 1500
 	object "Trochzempt ZAZ-1"
 		sprite planet/trochzempt
 		period 10
+		arrival 1500
 
 system Tuarli
 	pos -50929.2 -55082.2
@@ -48520,44 +48520,44 @@ system Untalaer
 	asteroids "medium metal" 6 2.2344
 	asteroids "large metal" 1 2.6866
 	fleet "Erm Raid Fleet" 50000
-		object
+	object
 		sprite star/f0
 		distance 15.33
 		period 11.2939
 		offset 180
-		object
+	object
 		sprite star/m0
 		distance 113.67
 		period 11.2939
-		object
+	object
 		sprite planet/lava2
 		distance 258.67
 		period 32.0686
-		object
+	object
 		sprite planet/gas10
 		distance 931.28
 		period 219.069
-			object
+		object
 			sprite planet/ice0
 			distance 199
 			period 14.7767
-			object
+		object
 			sprite planet/io
 			distance 324
 			period 30.6983
-			object
+		object
 			sprite planet/rhea
 			distance 464
 			period 52.6107
-		object
+	object
 		sprite planet/desert8
 		distance 1562.64
 		period 476.156
-		object Leoulner
+	object Leoulner
 		sprite planet/wormhole
 		distance 2103.65
 		period 743.74
-	
+
 system "Ur ii"
 	pos -50589.3 -53374.3
 	government Nuru
@@ -50460,48 +50460,48 @@ system Vobeelee
 	fleet "Dels Outward Merchant" 700
 	fleet "Dels Central Merchant" 500
 	fleet Ignaggen 1400
-		object
+	object
 		sprite star/g0
 		period 10
-		object
+	object
 		sprite planet/cloud0
 		distance 156.01
 		period 23.7179
-		object
+	object
 		sprite planet/ice5
 		distance 452.82
 		period 117.283
-		object
+	object
 		sprite planet/cloud2
 		distance 743.66
 		period 246.837
-		object Delro
+	object Delro
 		sprite planet/forest2
 		distance 1076.25
 		period 429.752
 		offset 30.366
-		object
+	object
 		sprite planet/gas17
 		distance 2289.69
 		period 1333.56
 		offset 9.7051
-			object
+		object
 			sprite planet/miranda
 			distance 217
 			period 13.6572
-			object
+		object
 			sprite planet/oberon
 			distance 313
 			period 23.6586
-			object
+		object
 			sprite planet/lava0
 			distance 423
 			period 37.1693
-			object
+		object
 			sprite planet/ice7
 			distance 577
 			period 59.2157
-	
+
 system Vobi
 	pos -49928 -54774.4
 	government Revos
@@ -51737,46 +51737,46 @@ system Worak
 	fleet "Donko Guard Big" 500
 	fleet "Donko Guard Small" 500
 	fleet "Revos small" 20000
-			object
+	object
 		sprite star/m4
 		period 10
-			object Wobore
+	object Wobore
 		sprite planet/ice1
 		distance 269
 		period 115.545
 		offset 316.287
-				object
+		object
 			sprite planet/desert4
 			distance 168
 			period 18.6106
-			object
+	object
 		sprite planet/lava6
 		distance 657
 		period 441.031
 		offset 310.826
-			object
+	object
 		sprite planet/gas2
 		distance 1161.41
 		period 1036.57
 		offset 256.354
-				object
+		object
 			sprite planet/dust1
 			distance 183
 			period 15
-				object
+		object
 			sprite planet/ice8
 			distance 299
 			period 31.3272
-			object
+	object
 		sprite planet/gas11
 		distance 2335.65
 		period 2956.19
 		offset 341.29
-				object
+		object
 			sprite planet/ice0
 			distance 276
 			period 15.1231
-		
+
 system "Ya ok na"
 	pos -50290.5 -53409.5
 	government Nuru
@@ -52773,8 +52773,8 @@ planet Dunsirnk
 
 planet Duqerva
 	landscape land/dune3
-	description `A desert planet with very hot climate. A few native flora exist but have no practical applications. Aside from a small town near the spaceport there is no other settlement on this planet.`
-	spaceport `The spaceport is just a flat are with small buildings next to it.`
+	description `The world appears, at first glance, to be composed of islands of red suspended in an ocean of gold. Once closer to the ground this is revealed to be countless red-rock mesa jutting upwards from a sandy basin they share. Thin curtains of flowering vines cling precariously to the sides of these cliffs, sticking to the shadowed side of the formations like moss. Aside from a small town near the spaceport, there's no sign of higher life upon this planet.`
+	spaceport `The spaceport is little more than a simple landing pad raised onto stilts, the better to keep it above the shifting sands. Every so often an attendant comes out to check on the pad, and if necessary, shove any accumulated grit off the side.`
 
 planet Ea'rae
 	attributes Dels
