@@ -154,7 +154,7 @@ effect "rvs anti-missile"
 	"lifetime" 21
 	"velocity scale" 1
 		
-outfit "MQ-Shield Generator"
+outfit "Mudor-ki Shield Generator" #MQ
 	category "Systems"
 	cost 3000000
 	thumbnail "outfit/unknown"
@@ -165,7 +165,7 @@ outfit "MQ-Shield Generator"
 	"shield energy" 13
 	"heat generation" 6
 	
-outfit "MAM-core"
+outfit "Ipordine-type Core" #MAM-core
 	category "Systems"
 	cost 2000000
 	thumbnail "outfit/unknown"
@@ -175,10 +175,35 @@ outfit "MAM-core"
 	"heat generation" 12
 	"cooling inefficiency" 10
 	"energy capacity" 5000
+	description "Standard Revos power cores."
 	
+outfit "Enuda-type Core" #MAM-core
+	category "Systems"
+	cost 2000000
+	thumbnail "outfit/unknown"
+	"mass" 10
+	"outfit space" -10
+	"energy generation" 18
+	"heat generation" 4
+	"cooling inefficiency" 8
+	"energy capacity" 3000
+	"ion resistance" 1
+	"ion resistance heat" 5
+	"energy protection" 3
+	description "A more resistant power core used by Revos that provides resistance against attacks targeting energy systems."
+	
+outfit "Pordukel-type Heat Controller"
+	category "Systems"
+	cost 150000
+	thumbnail "outfit/liquid helium"
+	"mass" 12
+	"outfit space" -12
+	"cooling" 4
+	"active cooling" 40
+	"cooling energy" 5
+	description ""
 
-	
-outfit "S-Dar drive"
+outfit "Darloid Drive" #S-Dar, DASH
 	category "Engines"
 	"cost" 7000000
 	thumbnail "outfit/afterburner"
@@ -186,13 +211,12 @@ outfit "S-Dar drive"
 	"outfit space" -10
 	"engine capacity" -10
 	"afterburner thrust" 250
-	"afterburner fuel" .001
+	"afterburner energy" 5
 	"afterburner heat" 1.0
 	"afterburner effect" "afterburner"
-	"reverse thrust" 250
 	description ""
 	
-outfit "IO Engines"
+outfit "Oidor Type-1 Engines" #IO
 	category "Engines"
 	"cost" 27000
 	thumbnail "outfit/tiny ion thruster"
@@ -209,7 +233,7 @@ outfit "IO Engines"
 		"frame rate" 1.2
 	"flare sound" "ion tiny"
 	
-outfit "IO2 Engines"
+outfit "Oidor Type-2 Engines" #IO2
 	category "Engines"
 	"cost" 30000
 	thumbnail "outfit/small ion thruster"

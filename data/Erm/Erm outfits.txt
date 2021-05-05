@@ -28,7 +28,7 @@ outfit "Aranut Missile"
 		"hull damage" 500
 		"disruption damage" .5
 		"phasing"
-	description "Erm's Anti-Shield Weapon are very effective at taking down the enemy shield."
+	description "Erm's Anti-Shield weapon."
 	
 outfit "Atmas Missile"
 	category "Guns"
@@ -59,7 +59,7 @@ outfit "Atmas Missile"
 		"shield damage" 560
 		"hull damage" 5300
 		"phasing"
-	description "Erm's Anti-Shield Weapon are very effective at taking down the enemy shield."
+	description "Erm's Anti-Armour."
 	
 outfit "Aorken Paralyzer Missile"
 	category "Guns"
@@ -130,7 +130,7 @@ outfit "Atarkor Missile"
 		"hull damage" 1200
 		"hit force" 45
 		"piercing" .95
-	description ""
+	description "Erm Shield piercing missile."
 	
 outfit "atarkor bullet"
 	weapon
@@ -145,6 +145,32 @@ outfit "atarkor bullet"
 		"shield damage" 300
 		"hull damage" 3000
 	
+outfit "Tordel Paralyzer Laser"
+	category "Guns"
+	cost 20000000
+	thumbnail "outfit/unknown"
+	"mass" 18
+	"outfit space" -18
+	"weapon capacity" -18
+	"gun ports" -1
+	weapon
+		sprite "projectile/skylance"
+			"frame rate" 1
+		sound "erm paralyzer"
+		"hit effect" "skylance impact"
+		"inaccuracy" .4
+		"velocity" 500
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 30
+		"firing heat" 15
+		"shield damage" 30
+		"hull damage" 8
+		"ion damage" .5
+		"disruption damage" .2
+		"slowing damage" 10
+	description "As the label says, this weapon will paralyze most ships in mere seconds."
+
 outfit "Norden Cannon"
 	category "Guns"
 	cost 7600000
@@ -468,30 +494,7 @@ outfit "Kizan-Hordel Graviton Engines"
 	"jump drive" 1
 	"jump speed" 5
 	
-outfit "Tordel Paralyzer Laser"
-	category "Guns"
-	cost 20000000
-	thumbnail "outfit/unknown"
-	"mass" 18
-	"outfit space" -18
-	"weapon capacity" -18
-	"gun ports" -1
-	weapon
-		sprite "projectile/skylance"
-			"frame rate" 1
-		sound "erm paralyzer"
-		"hit effect" "skylance impact"
-		"inaccuracy" .4
-		"velocity" 500
-		"lifetime" 1
-		"reload" 1
-		"firing energy" 30
-		"firing heat" 15
-		"shield damage" 30
-		"hull damage" 8
-		"ion damage" .3
-		"disruption damage" .2
-		"slowing damage" 10
+
 		
 outfit "Erm Armoury and Ship defense system"
 	category "Hand to Hand"
