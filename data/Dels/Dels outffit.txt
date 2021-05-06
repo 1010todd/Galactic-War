@@ -430,7 +430,7 @@ outfit "Ganoau Anti-Missile" #A1H
 		
 #=========================================[Secondary]=============================
 		
-outfit "DT1 Launcher"
+outfit "Dakte-1 Launcher" #DT1
 	category "Secondary Weapons"
 	cost 200000
 	thumbnail "outfit/meteor launcher"
@@ -444,7 +444,7 @@ outfit "DT1 Launcher"
 			"no repeat"
 			"frame rate" .1
 		sound "meteor"
-		ammo "DT1 Missile"
+		ammo "Dakte-1 Missile"
 		icon "icon/meteor"
 		"fire effect" "meteor fire"
 		"die effect" "missile death"
@@ -467,14 +467,14 @@ outfit "DT1 Launcher"
 		"hit force" 39
 	description "Dels missile."
 		
-outfit "DT1 Missile"
+outfit "Dakte-1 Missile" #SK4
 	category "Ammunition"
 	cost 550
 	thumbnail "outfit/meteor"
 	"dt1 capacity" -1
-	description "DT1 lancher's ammo."
+	description "Dakte-1 lancher's ammo."
 	
-outfit "SK4 Launcher"
+outfit "Saikel-4 Launcher" #SK4
 	category "Secondary Weapons"
 	cost 470000
 	thumbnail "outfit/thunderhead launcher"
@@ -488,9 +488,9 @@ outfit "SK4 Launcher"
 			"no repeat"
 			"frame rate" .1
 		sound "thunderhead"
-		ammo "SK4 Missile"
+		ammo "Saikel-4 Missile"
 		icon "icon/thunderhead"
-		"submunition" "sk4" 4
+		"submunition" "sk4" 8
 		"split range" 600
 		"fire effect" "meteor fire"
 		"die effect" "missile death"
@@ -513,12 +513,12 @@ outfit "SK4 Launcher"
 		"hit force" 68
 	description ""
 	
-outfit "SK4 Missile"
+outfit "Saikel-4 Missile"
 	category "Ammunition"
 	cost 1000
 	thumbnail "outfit/thunderhead"
 	"sk4 capacity" -1
-	description "Ammo for SK4 launcher"
+	description "Ammo for Saikel-4 launcher"
 	
 outfit "sk4"
 	weapon
@@ -528,17 +528,17 @@ outfit "sk4"
 		"die effect" "missile death"
 		"hit effect" "small explosion"
 		"inaccuracy" 90
-		"velocity" 2
+		"velocity" 15
 		"lifetime" 200
 		"acceleration" 1.4
 		"drag" .1
 		"turn" 3
 		"homing" 3
-		"optical tracking" .9
+		"optical tracking" .3
 		"radar tracking" .4
-		"shield damage" 24
-		"hull damage" 20
-		"hit force" 25
+		"shield damage" 12
+		"hull damage" 10
+		"hit force" 4
 		"missile strength" 1
 		
 #=========================================[Systems]=============================
@@ -550,7 +550,7 @@ outfit "Dels Ramscoop"
 	"mass" 10
 	"outfit space" -10
 	"ramscoop" 2
-	description "."
+	description "These ramscoop provide Dels captain alternative to outfitting with fuel pods for long range travel."
 	
 #=========================================[Engines]=============================
 	
