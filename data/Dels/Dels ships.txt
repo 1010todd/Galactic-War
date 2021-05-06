@@ -317,8 +317,8 @@ ship "Eudaion"
 	outfits
 		"Fitar Anti-Missile" 2
 		"Skue-6 Turret" 2
-		"DT1 Launcher" 2
-		"DT1 Missile" 80
+		"Dakte-1 Launcher" 2
+		"Dakte-1 Missile" 80
 		
 		"C20 Fuel Cell"
 		"K0108 Battery Pack"
@@ -328,9 +328,9 @@ ship "Eudaion"
 		"Hyperdrive"
 		
 		
-	gun -14 -174 "DT1 Launcher"
+	gun -14 -174 "Dakte-1 Launcher"
 	gun -7 -169
-	gun 62.5 -66 "DT1 Launcher"
+	gun 62.5 -66 "Dakte-1 Launcher"
 	gun 62.5 -63.5
 	turret 42 -40
 	turret 18 44
@@ -560,8 +560,8 @@ ship "Secsen"
 			"hit force" 650
 	outfits
 		"Vokkar Gun" 2
-		"DT1 Launcher" 2
-		"DT1 Missile" 80
+		"Dakte-1 Launcher" 2
+		"Dakte-1 Missile" 80
 		"Ganoau Anti-Missile"
 		
 		"SR30 Shield Generator"
@@ -787,6 +787,8 @@ ship "Darca"
 		"Ganoau Anti-Missile" 2
 		"Skue-8 Turret" 2
 		"Kotdar Turret" 4
+		"Saikel-4 Launcher" 2
+		"Saikel-4 Missile" 60
 		
 		"Liquid Nitrogen Cooler"
 		"SR50 Shield Generator"
@@ -893,8 +895,8 @@ ship "Decso"
 		
 		"Skue-8 Turret" 1
 		"Kotdar Turret" 2
-		"SK4 Launcher" 4
-		"SK4 Missile"120
+		"Saikel-4 Launcher" 4
+		"Saikel-4 Missile"120
 		"Ganoau Anti-Missile" 2
 		
 		"Liquid Nitrogen Cooler"
@@ -953,8 +955,8 @@ ship "Dacar"
 			"hull damage" 1500
 			"hit force" 4500
 	outfits
-		"SK4 Launcher" 1
-		"SK4 Missile" 30
+		"Saikel-4 Launcher" 1
+		"Saikel-4 Missile" 30
 		"Dels Sokak Cannon Turret" 1
 		"Sokak Slug" 50
 		"Kotdar Turret" 2
