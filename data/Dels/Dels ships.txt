@@ -781,7 +781,7 @@ ship "Darca"
 			"blast radius" 160
 			"shield damage" 1600
 			"hull damage" 800
-			"hit force" 2400
+			"hit force" 5400
 	outfits
 		
 		"Ganoau Anti-Missile" 2
@@ -864,6 +864,8 @@ ship "Darca"
 	explode "small explosion" 36
 	explode "medium explosion" 17
 	explode "big explosion" 20
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
 	description "Primary carrier deployed by Prada Kaote and one of the largest warship used by Dels. It is designed to fight in a fleet along with other warships and depoly drones and figthers as distraction."
 	
 ship "Decso"
@@ -890,11 +892,12 @@ ship "Decso"
 			"blast radius" 160
 			"shield damage" 1600
 			"hull damage" 800
-			"hit force" 2400
+			"hit force" 5000
 	outfits
 		
 		"Skue-8 Turret" 1
-		"Kotdar Turret" 2
+		"Dels Sokak Cannon Turret" 2
+		"Sokak Slug" 100
 		"Saikel-4 Launcher" 4
 		"Saikel-4 Missile"120
 		"Ganoau Anti-Missile" 2
@@ -928,6 +931,8 @@ ship "Decso"
 	explode "small explosion" 36
 	explode "medium explosion" 24
 	explode "big explosion" 20
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
 	description "Built by Puda Der shipyard for Kaote and Dardornai Navy as response to raising threat from the newly formed Ufulre after contact with Ignaggen. Though most Dels belive the real reason is to provide Kaote and Dardornai anti-capital capability incase of Ignaggen hostility."
 	
 ship "Dacar"
@@ -993,6 +998,7 @@ ship "Dacar"
 	explode "medium explosion" 50
 	explode "big explosion" 40
 	explode "huge explosion" 10
+	"final explode" "final explosion large"
 	description "One of the few Irbor Sefora's warship design. While lacking of the distinct cargo pods found in freighters of the same shipyard, Dacar is intended to be used as armed freighter capable of defending it self in an event of an attack."
 #=================FIGHTER/DRONE
 ship "Dee"

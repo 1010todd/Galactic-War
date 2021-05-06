@@ -195,7 +195,7 @@ outfit "Vurlugigr Reactor" #Lava
 	
 outfit "Orvuilugr Reactor" #Magma
 	category "Power"
-	cost 3100000
+	cost 4800000
 	thumbnail "outfit/double plasma core"
 	"mass" 63
 	"outfit space" -63
@@ -207,8 +207,8 @@ outfit "Orvuilugr Reactor" #Magma
 	
 outfit "Telour Generator"
 	category "Power"
-	cost 6300000
-	thumbnail "outfit/tiny fuel cell"
+	cost 6800000
+	thumbnail "outfit/ignaggen telour"
 	"mass" 100
 	"outfit space" -100
 	"energy generation" 35
@@ -237,7 +237,7 @@ outfit "Ignaggen Cooling System"
 outfit "Genos Shield Generator"
 	category "Systems"
 	cost 22000
-	thumbnail "outfit/tiny shield"
+	thumbnail "outfit/ignaggen shield tiny"
 	"mass" 12
 	"outfit space" -12
 	"shield generation" .1
@@ -247,12 +247,12 @@ outfit "Genos Shield Generator"
 outfit "Genes Shield Generator"
 	category "Systems"
 	cost 28000
-	thumbnail "outfit/small shield"
+	thumbnail "outfit/ignaggen shield small"
 	"mass" 20
 	"outfit space" -20
 	"shield generation" .2
 	"shield energy" .45
-	description ""
+	description "Small Ignaggen shield."
 	
 outfit "Genel Shield Generator"
 	category "Systems"
@@ -284,7 +284,7 @@ outfit "Kager Gekar Shield Generator"
 	"outfit space" -40
 	"shield generation" .6
 	"shield energy" 1.8
-	description "Ignaggen Military Sheild Generator."
+	description "Large and powerful shield reserved for Ignaggen military warships."
 	
 outfit "Rila Thruster"
 	category "Engines"
