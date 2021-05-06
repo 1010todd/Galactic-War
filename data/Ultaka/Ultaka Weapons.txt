@@ -18,8 +18,9 @@ outfit "FM10M Gun"
 		"reload" 10
 		"firing energy" 50
 		"firing heat" 50
-		"shield damage" 25
-		"hull damage" 25
+		"shield damage" 50
+		"hull damage" 50
+	description "A small gun used by Ultaka fighters, balanced between shield and hull damage."
 	
 outfit "FM10M Gun Group1"
 	category "Guns"
@@ -41,8 +42,8 @@ outfit "FM10M Gun Group1"
 		"burst count" 2
 		"firing energy" 50
 		"firing heat" 50
-		"shield damage" 37.5
-		"hull damage" 37.5
+		"shield damage" 75
+		"hull damage" 75
 		"cluster"
 	
 outfit "FM10M Gun Group2"
@@ -65,11 +66,11 @@ outfit "FM10M Gun Group2"
 		"burst count" 10
 		"firing energy" 50
 		"firing heat" 50
-		"shield damage" 50
-		"hull damage" 50
+		"shield damage" 100
+		"hull damage" 100
 		"cluster"
 	
-outfit "M1 Particle Gun"
+outfit "M01A Turret" #M1 Gun
 	category "Turrets"
 	cost 600000
 	thumbnail "outfit/mturret"
@@ -94,7 +95,7 @@ outfit "M1 Particle Gun"
 		"hull damage" 2000
 		"piercing" .1
 	
-outfit "G1 Turret"
+outfit "G01A Turret" #G1 Turret
 	category "Turrets"
 	cost 400000
 	thumbnail "outfit/g1turret"
@@ -171,7 +172,7 @@ outfit "Trapper"
 		"hull damage" 40
 		"ion damage" .5
 	
-outfit "M10G Gun"
+outfit "M10G Turret" #M10G Gun
 	category "Turrets"
 	cost 6500000
 	thumbnail "outfit/mturret"
@@ -196,7 +197,7 @@ outfit "M10G Gun"
 		"hull damage" 115
 		"ion damage" .05
 		
-outfit "M20G Gun"
+outfit "M20G Turret" #M20G Turret
 	category "Turrets"
 	cost 6500000
 	thumbnail "outfit/mturret"
@@ -595,7 +596,7 @@ outfit "Type-E fragment"
 		"hull damage" 8
 		"ion damage" 10
 		
-outfit "Ultaka Damage Field"
+outfit "D12E B-Field Projector" #"Ultaka Damage Field"
 	category "Turrets"
 	cost 150000
 	thumbnail "outfit/unknown"
@@ -603,16 +604,22 @@ outfit "Ultaka Damage Field"
 	"outfit space" -40
 	"weapon capacity" -40
 	"turret mounts" -1
+	"ultaka bcore" -1
 	weapon
-		"velocity" 400
+		"velocity" 1
 		"turret turn" 20
 		"lifetime" 1
 		"reload" 1
+		"blast radius" 400
+		"trigger radius" 400
+		"safe"
+		"no damage scaling"
 		"firing energy" 20
 		"firing heat" 5
-		"hit force" 60
 		"shield damage" 15
 		"hull damage" 15
+		"heat damage" -15
+	description "This is a device to amplifiy the effect from Ultaka B-series cores and utilize it as weapon."
 		
 outfit "Ultaka Antimatter Cannon"
 	category "Guns"
@@ -683,7 +690,7 @@ outfit "Ultaka Vanquisher Cannon"
 	"gun ports" -1
 	"spinal mount" -1
 	weapon
-		"sprite" "uvc"
+		"sprite" "projectile/uvc"
 		"inaccuracy" 0.1
 		"velocity" 15
 		"lifetime" 300
@@ -709,7 +716,7 @@ outfit "Ultaka Destroyer Cannon"
 	"gun ports" -1
 	"spinal mount" -1
 	weapon
-		"sprite" "udc"
+		"sprite" "projectile/udc"
 		"inaccuracy" 0
 		"velocity" 20
 		"lifetime" 600
@@ -793,53 +800,6 @@ outfit "E40R-E"
 		"hull damage" 700
 		"hit force" 45
 	description "Ultaka's energy torpedo"
-	
-outfit "E40R-S Chain Strike" #Crash, don't use
-	category "Secondary Weapons"
-	cost 47000000
-	thumbnail "outfit/ionic afterburner"
-	"mass" 50
-	"outfit space" -50
-	"weapon capacity" -50
-	"gun ports" -1
-	weapon
-		sprite "projectile/ion bolt"
-		sound "proton"
-		icon "projectile/blaster"
-		"submunition" "Type-S fragment" 1
-		"split range" 450
-		"fire effect" "meteor fire"
-		"die effect" "medium explosion"
-		"hit effect" "medium explosion"
-		"inaccuracy" 1
-		"velocity" 10
-		"lifetime" 400
-		"reload" 55
-		"firing energy" 60
-		"firing heat" 20
-		"acceleration" 1
-		"drag" .01
-		"turn" 5
-		"homing" 5
-		"optical tracking" 1
-		"missile strength" 460
-		"shield damage" 3500
-		"hull damage" 4500
-		"hit force" 50
-	description "Prototype Chain Strike"
-	
-outfit "Type-S fragment"
-	weapon
-		sprite "projectile/ion bolt"
-			"frame rate" 1
-		"hit effect" "medium explosion"
-		"submunition" "Type-S fragment" 1
-		"velocity" 10
-		"lifetime" 150
-		"inaccuracy" 15
-		"shield damage" 3100
-		"hull damage" 4100
-		"hit force" 20
 	
 outfit "Ultaka Micro-Antimatter Bomb"
 	category "Guns"

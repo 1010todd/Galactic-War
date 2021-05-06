@@ -1,4 +1,4 @@
-outfit "Mrag Gun"
+outfit "Mrag Gun" 
 	category "Guns"
 	cost 10000000
 	thumbnail "outfit/unknown"
@@ -17,7 +17,7 @@ outfit "Mrag Gun"
 		"firing heat" 0
 		"shield damage" 20
 		"hull damage" 35
-		"piercing" .05
+	description ""
 		
 outfit "Mrag Turret"
 	category "Turrets"
@@ -41,7 +41,6 @@ outfit "Mrag Turret"
 		"firing heat" 0
 		"shield damage" 20
 		"hull damage" 35
-		"piercing" .05
 	
 outfit "FireStorm Flamethrower"
 	category "Guns"
@@ -66,8 +65,8 @@ outfit "FireStorm Flamethrower"
 		"reload" 1
 		"firing energy" 12
 		"firing heat" 6
-	description "FireStorm Flamethrower aren't actually a real flamethrower, but it shoot fire-like stream of superheated plasma cloud on your enemy overheating them and could even melt some weaker ships."
-	
+	description ""
+
 outfit "FireStorm Projectile"
 	weapon
 		sprite "projectile/flamethrower"
@@ -79,7 +78,7 @@ outfit "FireStorm Projectile"
 		"lifetime" 22
 		"shield damage" 4
 		"hull damage" 8
-		"heat damage" 125
+		"heat damage" 260
 		
 outfit "SnowStorm Gun"
 	category "Guns"
@@ -175,8 +174,8 @@ outfit "DZ-10 Dark Blaster"
 		"hit force" 20
 		"heat damage" 4
 		"slowing damage" .3
-	description "While the Darklance fires a beam of unknown laser, Dark blaster compress these energy and fire them in a small ball."
-		
+	description ""
+
 outfit "DZ-15 Dark Blaster"
 	category "Guns"
 	cost 12000000
@@ -714,14 +713,14 @@ outfit "Ginal Turret"
 		"reload" 30
 		"firing energy" 30
 		"firing heat" 50
-		"shield damage" 200
-		"hull damage" 465
+		"shield damage" 15
+		"hull damage" 20
 		"hit force" 40
 		"heat damage" 4
-		"submunition" "ginal fragment" 8
+		"submunition" "ginal fragment" 16
 		"split range" 80
-	description "As Karloz's main cannons are too slow to chase small and fast fighters these turret were made to guard the ship from fighters in close range while able to provide some fire power aginst larger warships."
-	
+	description "Anti Fighter Turret."
+
 outfit "ginal fragment"
 	weapon
 		sprite "projectile/proton fragment"
