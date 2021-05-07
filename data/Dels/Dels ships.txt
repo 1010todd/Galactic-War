@@ -105,7 +105,7 @@ ship "Dels Serdeen"
 	explode "small explosion" 5
 	description "Mid-sized mid-ranged transport manufactured by [shipyard] for general transit across Dels space."
 
-ship "Sendo"
+ship "Dels Doreenor" #wip
 	sprite "ship/dels sendo"
 	thumbnail "thumbnail/dels sendo thumb"
 	attributes
@@ -152,7 +152,7 @@ ship "Sendo"
 	description "High speed long range transport commonly used for long range transit as well as the upper classes for business and vacation alike."
 
 #=================LIGHT FREIGHTER
-ship "Desen"
+ship "Dels Desen"
 	sprite "ship/dels desen"
 	thumbnail "thumbnail/dels desen thumb"
 	attributes
@@ -206,7 +206,7 @@ ship "Desen"
 	explode "small explosion" 5
 	description "A direct descent to Irbor Sefora shipyard's older frighter than were used since the early days of Dels interstellar exploration using the design of detachable rounded cargo pods on the side allowing transportation of cargo over short distance without lifting vehicle which most early spaceport lacks. This design became less important in modern days where most spaceports were well equipped resulting in decreased popularity of the ship among the more experienced captains."
 	
-ship "Donson"
+ship "Dels Donson"
 	sprite "ship/dels donson"
 	thumbnail "thumbnail/dels donson thumb"
 	attributes
@@ -253,7 +253,7 @@ ship "Donson"
 	explode "small explosion" 5
 	description "These are more recent freighter built by Puda Der shipyard. It challanged Irbor Sefora older Desen with greater manuverbility at the cost of cargo space."
 	
-ship "Manoon"
+ship "Dels Manoon"
 	sprite "ship/dels manoon"
 	thumbnail "thumbnail/dels manoon thumb"
 	attributes
@@ -304,7 +304,7 @@ ship "Manoon"
 	
 
 #=================HEAVY FREIGHTER
-ship "Eudaion"
+ship "Dels Eudaion"
 	sprite "ship/dels eudaion"
 	thumbnail "thumbnail/dels eudaion thumb"
 	attributes
@@ -370,7 +370,7 @@ ship "Eudaion"
 	description "As Dels colony expands further, Eudaion was released to satisfy the need for long range freighter."
 
 #=================INTERCEPTOR
-ship "Desin"
+ship "Dels Desin"
 	sprite "ship/dels desin"
 	thumbnail "thumbnail/dels desin thumb"
 	attributes
@@ -425,7 +425,7 @@ ship "Desin"
 	explode "small explosion" 5
 	description "Light and fast interceptor made by [shipyard 1] as entry level combat ship."
 	
-ship "Derso"
+ship "Dels Derso"
 	sprite "ship/dels derso"
 	thumbnail "thumbnail/dels derso thumb"
 	attributes
@@ -498,7 +498,7 @@ ship "Derso"
 	explode "small explosion" 10
 	description "[shipyard 2]'s heavier alternative to [shipyard 1] Desin, less agile but packs a punch."
 	
-ship "Ekdor"
+ship "Dels Ekdor"
 	sprite "ship/dels ekdor"
 	thumbnail "thumbnail/dels ekdor thumb"
 	attributes
@@ -548,7 +548,7 @@ ship "Ekdor"
 	description "Irbor Sefora attempts at interceptor turns out to be boarderline light escort. Trading agility for heavy armament."
 
 #=================LIGHT WARSHIP
-ship "Secsen"
+ship "Dels Secsen"
 	sprite "ship/dels secsen"
 	thumbnail "thumbnail/dels secsen thumb"
 	attributes
@@ -602,7 +602,7 @@ ship "Secsen"
 	explode "small explosion" 16
 	description ""
 	
-ship "Senro"
+ship "Dels Senro"
 	sprite "ship/dels senro"
 	thumbnail "thumbnail/dels senro thumb"
 	attributes
@@ -656,7 +656,7 @@ ship "Senro"
 	explode "small explosion" 40
 	description ""
 	
-ship "Deeris"
+ship "Dels Deeris"
 	sprite "ship/dels deeris"
 	thumbnail "thumbnail/dels deeris thumb"
 	attributes
@@ -712,7 +712,7 @@ ship "Deeris"
 	explode "small explosion" 5
 	description "."
 #=================MEDIUM WARSHIP
-ship "Uldeor" #WiP
+ship "Dels Uldeor" #WiP
 	sprite "ship/dels deeris"
 	thumbnail "thumbnail/dels deeris thumb"
 	attributes
@@ -769,7 +769,7 @@ ship "Uldeor" #WiP
 	description "A common frigate used by Prada Kaote as primary fighting force."
 	
 #=================HEAVY WARSHIP
-ship "Darca"
+ship "Dels Darca"
 	sprite "ship/dels darca"
 	thumbnail "thumbnail/dels darca thumb"
 	attributes
@@ -881,7 +881,7 @@ ship "Darca"
 	"final explode" "final explosion large"
 	description "Primary carrier deployed by Prada Kaote and one of the largest warship used by Dels. It is designed to fight in a fleet along with other warships and depoly drones and figthers as distraction."
 	
-ship "Decso"
+ship "Dels Decso"
 	sprite "ship/dels decso"
 	thumbnail "thumbnail/dels decso thumb"
 	attributes
@@ -948,7 +948,7 @@ ship "Decso"
 	"final explode" "final explosion large"
 	description "Built by Puda Der shipyard for Kaote and Dardornai Navy as response to raising threat from the newly formed Ufulre after contact with Ignaggen. Though most Dels belive the real reason is to provide Kaote and Dardornai anti-capital capability incase of Ignaggen hostility."
 	
-ship "Dacar"
+ship "Dels Dacar"
 	sprite "ship/dels dacar"
 	thumbnail "thumbnail/dels dacar thumb"
 	attributes
@@ -1014,7 +1014,7 @@ ship "Dacar"
 	"final explode" "final explosion large"
 	description "One of the few Irbor Sefora's warship design. While lacking of the distinct cargo pods found in freighters of the same shipyard, Dacar is intended to be used as armed freighter capable of defending it self in an event of an attack."
 #=================FIGHTER/DRONE
-ship "Dee"
+ship "Dels Dee"
 	sprite "ship/dels dea"
 	thumbnail "thumbnail/dels dea thumb"
 	attributes
@@ -1054,7 +1054,7 @@ ship "Dee"
 		right
 	description "Dels Anti-Missile drone designed to guard their ships from hostile missile."
 	
-ship "Dea"
+ship "Dels Dea"
 	sprite "ship/dels dea"
 	thumbnail "thumbnail/dels dea thumb"
 	attributes
