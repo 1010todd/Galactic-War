@@ -245,20 +245,57 @@ ship "Qoro(E) Elogarl"
 			"hit force" 4800
 	outfits
 		"Orthall Assault Cannon" 2
+		"Algarral Battle Gun" 4
 		"Qoro(E) Anti-Missile" 2
-		"Goa Cell"
+		"Heur Cell"
 		"Norklo'Ar Shield Generator"
 		
 		"Gowaki Ion Thruster"
 		"Gotam Ion Thruster"
 		"Hyperdrive"
 	
-	gun -33 -3.5
-	gun 33 -3.5
-	turret 0 -21
-	turret 0 24.5
-	engine -33 44.5
-	engine 33 44.5
+	gun -9 -94.5 "Orthall Assault Cannon"
+	gun 9 -94.5 "Orthall Assault Cannon"
+	gun -53.5 -78
+	gun 53.5 -78
+	gun -53.5 -78
+	gun 53.5 -78
+	turret 0 -24.5
+	turret 0 46.5
+	engine 0 97
+		zoom 1
+		angle 0
+		under
+	"steering engine" -15 -69
+		zoom .5
+		angle 255
+		under
+		right
+	"steering engine" 15 -69
+		zoom .5
+		angle 105
+		under
+		left
+	"steering engine" -16.5 -55.5
+		zoom .5
+		angle 255
+		under
+		right
+	"steering engine" 16.5 -55.5
+		zoom .5
+		angle 105
+		under
+		left
+	"steering engine" -16.5 95.5
+		zoom 1
+		angle 45
+		under
+		right
+	"steering engine" 16.5 95.5
+		zoom 1
+		angle 315
+		under
+		left
 	explode "tiny explosion" 60
 	explode "small explosion" 30
 	explode "medium explosion" 35
