@@ -204,16 +204,16 @@ fleet "Donko Guard Small"
 		confusion 20
 		heroic opportunistic plunders disables
 	variant 10
-		"Koi"
-		"Kolso" 6
+		"Donko Koi"
+		"Donko Kolso" 6
 	variant 20
-		"Kanse" 3
+		"Donko Kanse" 3
 	variant 5
-		"Kanse" 3
-		"Koi"
-		"Kolso" 6
+		"Donko Kanse" 3
+		"Donko Koi"
+		"Donko Kolso" 6
 	variant 1
-		"Senka"
+		"Donko Senka"
 		
 fleet "Wallagi Patrol"
 	government "Wallagi"
@@ -275,7 +275,7 @@ fleet "Qoro (North)"
 	names "Qoro(north)"
 	cargo 1
 	personality
-		confusion 10
+		confusion 20
 		heroic opportunistic
 		frugal 
 		plunders
@@ -298,7 +298,7 @@ fleet "Qoro (East)"
 	names "Qoro(east)"
 	cargo 1
 	personality
-		confusion 10
+		confusion 30
 		heroic opportunistic
 		frugal 
 		plunders
@@ -316,6 +316,9 @@ fleet "Qoro (East)"
 		"Qoro(E) Elgarel" 3
 		"Qoro(E) Ganoth" 4
 		"Qoro(E) Gasat" 3
+	variant 30
+		"Qoro(E) Elogarl"
+		"Qoro(E) Ganoth" 3
 		
 fleet "Small Pug T2"
 	government "Pug"
