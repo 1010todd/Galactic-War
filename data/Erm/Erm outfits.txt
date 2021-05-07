@@ -402,7 +402,7 @@ outfit "Erm cooling system" #Placeholder
 	"cooling" 130
 	description ""
 	
-outfit "Estera Shield Generator"
+outfit "Tuerel Shield Generator" #Estera
 	category "Systems"
 	cost 3000000
 	thumbnail "outfit/unknown"
@@ -412,7 +412,7 @@ outfit "Estera Shield Generator"
 	"shield energy" 180
 	description ""
 	
-outfit "Retoek Shield Generator"
+outfit "Estera Shield Generator" #Retoek
 	category "Systems"
 	cost 900000
 	thumbnail "outfit/unknown"
@@ -420,6 +420,16 @@ outfit "Retoek Shield Generator"
 	"outfit space" -20
 	"shield generation" 20
 	"shield energy" 10
+	description ""
+
+outfit "Atelnor Shield Generator" 
+	category "Systems"
+	cost 900000
+	thumbnail "outfit/unknown"
+	"mass" 10
+	"outfit space" -10
+	"shield generation" 10
+	"shield energy" 5
 	description ""
 	
 outfit "Harken Graviton Engines"
