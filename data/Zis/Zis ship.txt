@@ -1655,11 +1655,13 @@ ship "ZN-7681 Eaxes"
 		"ZIS AM Lock" -6
 		"unremovable" -5
 		"uninstallable" 1
-		"outfit scan power" 350
+		"outfit scan power" 5000
 		"outfit scan speed" 3
-		"cargo scan power" 350
+		"cargo scan power" 5000
 		"cargo scan speed" 3
 		"atmosphere scan" 1000
+		"tactical scan power" 5000
+		"asteroid scan power" 10000
 		"spinal mount" 1
 		weapon
 			"blast radius" 800
