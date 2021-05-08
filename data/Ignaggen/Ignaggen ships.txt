@@ -18,17 +18,17 @@ ship "I'nos" #1st
 		category "Heavy Warship"
 		licenses
 #			"Kager Lergen"
-		"cost" 10000000
+		"cost" 14000000
 		"shields" 13500
-		"hull" 12000
+		"hull" 22000
 		"required crew" 50
 		"bunks" 100
-		"mass" 750
+		"mass" 1250
 		"drag" 8.6
-		"heat dissipation" .45
+		"heat dissipation" .78
 		"fuel capacity" 600
 		"cargo space" 80
-		"outfit space" 730
+		"outfit space" 1200
 		"weapon capacity" 470
 		"engine capacity" 170
 		weapon
@@ -42,6 +42,7 @@ ship "I'nos" #1st
 		"Gikorel Anti-Missile" 2
 		
 		"Telour Generator"
+		"Huleddor Capacitor"
 		"Kager Gekar Shield Generator"
 		"Ignaggen Cooling System"
 		
@@ -110,9 +111,9 @@ ship "Loerlen" #2nd, used by civs
 		"hull" 2300
 		"required crew" 32
 		"bunks" 45
-		"mass" 280
+		"mass" 320
 		"drag" 5.2
-		"heat dissipation" .7
+		"heat dissipation" .8
 		"fuel capacity" 600
 		"cargo space" 55
 		"outfit space" 390
@@ -164,9 +165,9 @@ ship "Keorlen"
 		"hull" 3800
 		"required crew" 5
 		"bunks" 10
-		"mass" 750
+		"mass" 1050
 		"drag" 3.1
-		"heat dissipation" .7
+		"heat dissipation" .8
 		"fuel capacity" 600
 		"cargo space" 800
 		"outfit space" 380
@@ -244,9 +245,9 @@ ship "Kina"
 		"hull" 1300
 		"required crew" 1
 		"bunks" 2
-		"mass" 65
+		"mass" 76
 		"drag" 2.4
-		"heat dissipation" .7
+		"heat dissipation" 1
 		"fuel capacity" 300
 		"cargo space" 60
 		"outfit space" 150
@@ -285,7 +286,7 @@ ship "Gikeor"
 		"hull" 800
 		"required crew" 1
 		"bunks" 2
-		"mass" 70
+		"mass" 75
 		"drag" 1.6
 		"heat dissipation" .9
 		"fuel capacity" 600
@@ -348,7 +349,7 @@ ship "Koggareu"
 		"hull" 2100
 		"required crew" 1
 		"bunks" 2
-		"mass" 75
+		"mass" 98
 		"drag" 1.6
 		"heat dissipation" .9
 		"fuel capacity" 600

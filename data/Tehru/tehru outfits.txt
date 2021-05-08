@@ -156,7 +156,7 @@ outfit "Apirval Generator"
 	"outfit space" -21
 	"energy generation" 4.5
 	"heat generation" 6
-	"energy capacity" 500
+	"energy capacity" 2400
 	description "."
 	
 
@@ -169,7 +169,7 @@ outfit "Etlnak Reactor"
 	"energy generation" 12
 	"heat generation" 28
 	"shield protection" -.2
-	"energy capacity" 1000
+	"energy capacity" 5000
 	description "These reactors, while powerful for it's size combined with low heat it disrupt the shielding slightly."
 	
 outfit "Rivkrtelr Reactor"
@@ -181,7 +181,7 @@ outfit "Rivkrtelr Reactor"
 	"energy generation" 21
 	"heat generation" 47
 	"shield protection" -.2
-	"energy capacity" 2000
+	"energy capacity" 12000
 	description ""
 	
 #=========================Shield======================
@@ -229,7 +229,7 @@ outfit "Pivura Shield Generator"
 	"shield heat" 2.6
 	description ""
 	
-	
+#===============================Engines==================
 outfit "Akonu Thruster"
 	category "Engines"
 	"cost" 140000
@@ -283,7 +283,7 @@ outfit "Ivtorne Thruster"
 	"outfit space" -82
 	"engine capacity" -82
 	"thrust" 81.9
-	"thrusting energy" 8.3
+	"thrusting energy" 7.4
 	"thrusting heat" 17.4
 	"flare sprite" "effect/atomic flare/large"
 		"frame rate" 11
@@ -298,7 +298,7 @@ outfit "Urhas Thruster"
 	"outfit space" -127
 	"engine capacity" -127
 	"thrust" 139.7
-	"thrusting energy" 13.3
+	"thrusting energy" 10.1
 	"thrusting heat" 29.1
 	"flare sprite" "effect/atomic flare/huge"
 		"frame rate" 10
@@ -361,7 +361,7 @@ outfit "Urhas Steering"
 	"outfit space" -92
 	"engine capacity" -92
 	"turn" 3509
-	"turning energy" 6.6
+	"turning energy" 5.6
 	"turning heat" 17.5
 	description ""
 	

@@ -398,7 +398,7 @@ outfit "Zis Dragon's Breath" #Thanks Arkhne for the name idea.
 	"spinal mount" -1
 	weapon
 		sound "gw laser6"
-		icon "icon/dragons breath"
+		icon "icon/zdragonbreath"
 		"fire effect" "zdragons breath fire"
 		"hit effect" "zdragons breath hit" 3
 		"live effect" "zdragons breath live" 23
@@ -904,9 +904,10 @@ outfit "Rozzen Vertical Launching System"
 	"rozzen capacity" 30
 	weapon
 		sprite "projectile/rozzenlaunch"
-			"frame rate" 8
+			"frame rate" 60
 		sound "sidewinder"
-		ammo "Rozzen Missile"
+		#ammo "Rozzen Assembler" 0  #Experiment
+		ammo "Rozzen Missile" 1
 		"turret turn" 360
 		icon "icon/rozzen"
 		"fire effect" "smoke"
@@ -925,9 +926,17 @@ outfit "Rozzen Vertical Launching System"
 		"hit force" 35
 		"missile strength" 1000
 		"stream"
-	description "Reviving the ancient technology of launching missiles vertically result in the new Rozzen VLS, requiring less space than most missile launchers."
+	description "."
 	description "Instead of installing missile launchers on a gun port, Rozzen VLS are installed on turret mounts."
 	
+outfit "Rozzen Assembler" #experiment
+	plural "Rozzen Missiles"
+	category "Ammunition"
+	cost 1820000
+	thumbnail "outfit/zis rozzen vls"
+	"mass" 20
+	description ""
+
 outfit "Rozzen Missile"
 	plural "Rozzen Missiles"
 	category "Ammunition"
@@ -992,7 +1001,7 @@ outfit "Zaikor Turret"
 		"hull damage" 80
 		"hit force" 20
 		"heat damage" 5
-	description "While these turret don't do much damage them selves but like blasters, many of them are going to be a trouble."
+	description "."
 	
 outfit "Urza Energy Rocket"
 	category "Guns"

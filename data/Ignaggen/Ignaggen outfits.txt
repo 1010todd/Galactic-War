@@ -18,8 +18,8 @@ outfit "Igarsot Cannon"
 		"firing energy" 50
 		"firing heat" 220
 		"heat damage" 12
-		"shield damage" 48
-		"hull damage" 40
+		"shield damage" 56
+		"hull damage" 44
 	description "Common anti-ship weaponry recently developed and fielded by Ignaggen."
 	
 outfit "Igarsot Turret"
@@ -46,8 +46,8 @@ outfit "Igarsot Turret"
 		"firing energy" 50
 		"firing heat" 220
 		"heat damage" 12
-		"shield damage" 48
-		"hull damage" 40
+		"shield damage" 56
+		"hull damage" 44
 	description ""
 	
 outfit "Georlen Gun"
@@ -169,7 +169,7 @@ outfit "Gatourot Capacitor"
 	"heat generation" 12
 	description "An ultra compact capacitor with downside of generating some amount of heat."
 
-	
+#======================================================Power
 outfit "Vultador Cell" #Lava
 	category "Power"
 	cost 43000
@@ -222,7 +222,17 @@ outfit "Budkuril Capacitor"
 	"mass" 15
 	"outfit space" -15
 	"energy capacity" 3000
+
+outfit "Huleddor Capacitor"
+	category "Power"
+	cost 230000
+	thumbnail "outfit/aeon cell"
+	"mass" 46
+	"outfit space" -46
+	"energy capacity" 9000
 	
+#==========================================System
+
 outfit "Ignaggen Cooling System"
 	category "Systems"
 	cost 200000
@@ -257,7 +267,7 @@ outfit "Genes Shield Generator"
 outfit "Genel Shield Generator"
 	category "Systems"
 	cost 35000
-	thumbnail "outfit/medium shield"
+	thumbnail "outfit/ignaggen shield small"
 	"mass" 36
 	"outfit space" -36
 	"shield generation" .34
@@ -267,7 +277,7 @@ outfit "Genel Shield Generator"
 outfit "Gelaf Shield Generator"
 	category "Systems"
 	cost 110000
-	thumbnail "outfit/large shield"
+	thumbnail "outfit/ignaggen shield small"
 	"mass" 46
 	"outfit space" -46
 	"shield generation" .53
@@ -277,7 +287,7 @@ outfit "Gelaf Shield Generator"
 outfit "Kager Gekar Shield Generator"
 	category "Systems"
 	cost 150000
-	thumbnail "outfit/large shield"
+	thumbnail "outfit/ignaggen shield small"
 	licenses
 		"Kager Lergen"
 	"mass" 40
