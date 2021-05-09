@@ -5,14 +5,13 @@
 #galaxy NGC5477
 #	pos -50500 -53000
 #	sprite ui/ngc5477
+#galaxy "Galaxy 1 Credit"
+#	pos -50287.5 -54701
+#	sprite ui/m83credit
 
 galaxy "Galaxy 1"
 	pos -50000 -54661
 	sprite ui/m83ed
-
-#galaxy "Galaxy 1 Credit"
-#	pos -50287.5 -54701
-#	sprite ui/m83credit
 
 galaxy "Galaxy 2"
 	pos -43949.7 -58602.3
@@ -3791,14 +3790,58 @@ system Carsen
 			distance 510
 			period 46.9044
 
+system Ceillame
+	pos -51588.5 -56393.1
+	government Geeva
+	habitable 320
+	belt 1405
+	link Kirvismellar
+	link Mereliva
+	asteroids "medium rock" 25 6.3
+	asteroids "large rock" 1 3.9
+	asteroids "small metal" 11 7.2
+	asteroids "medium metal" 39 10.05
+	asteroids "large metal" 35 4.5
+	minables titanium 4 11.0251
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/gas3
+		distance 371.64
+		period 160.202
+	object
+		sprite planet/gas12
+		distance 877.65
+		period 581.389
+	object
+		sprite planet/gas0
+		distance 1771.29
+		period 1666.94
+	object
+		sprite planet/dust7
+		distance 2063.05
+		period 2095.32
+
 system Celvorle
-	pos -51272.3 -55753.6
+	pos -51264.3 -55728.6
 	government Dels
 	habitable 1566.68
 	belt 1680
 	link Dukoree
 	link Hevonor
 	link Keemolk
+	link Muderlee
 	asteroids "large metal" 1 2.91
 	trade Clothing 359
 	trade Electronics 781
@@ -8216,7 +8259,7 @@ system "Dukor Nor"
 			period 50.1596
 
 system Dukoree
-	pos -51358.4 -55696.8
+	pos -51363.4 -55681.8
 	government Dels
 	habitable 1080
 	belt 1243
@@ -9791,6 +9834,65 @@ system Eiekdarmor
 			distance 497
 			period 41.5456
 
+system Eiliwerra
+	pos -51476.5 -56433.1
+	government Geeva
+	habitable 1080
+	belt 1892
+	link Gorkva
+	link Isvysalmor
+	asteroids "medium rock" 1 2.6622
+	asteroids "large rock" 1 2.9682
+	asteroids "small metal" 1 4.4982
+	asteroids "medium metal" 13 1.989
+	asteroids "large metal" 1 3.7638
+	minables lead 3 2.51824
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/ice7
+		distance 141.44
+		period 20.4742
+	object
+		sprite planet/rock19
+		distance 314.44
+		period 67.8664
+	object
+		sprite planet/desert10
+		distance 553.8
+		period 158.627
+	object
+		sprite planet/rock11
+		distance 782.01
+		period 266.175
+	object
+		sprite planet/gas0
+		distance 1660.9
+		period 823.879
+		object
+			sprite planet/dust7
+			distance 275
+			period 13.3646
+		object
+			sprite planet/luna
+			distance 372
+			period 21.0267
+		object
+			sprite planet/dust5
+			distance 550
+			period 37.8008
+
 system Eillinor
 	pos -51664.6 -56308.9
 	government Geeva
@@ -10102,6 +10204,7 @@ system Elkeur
 	belt 1606
 	link Eudelkor
 	link Hevonor
+	link Muderlee
 	link Ruklernul
 	link Veeloor
 	asteroids "small rock" 17 1.5162
@@ -13232,6 +13335,7 @@ system Filneiva
 	belt 1126
 	link Kilvorile
 	link Oebade
+	link Vaibeilo
 	link Velivori
 	asteroids "large rock" 2 1.4535
 	asteroids "small metal" 5 1.479
@@ -13512,6 +13616,62 @@ system "Fir su na"
 		sprite planet/gas9
 		distance 1890.19
 		period 1013.99
+
+system Fisrelia
+	pos -51697.5 -56051.9
+	government Geeva
+	habitable 2372.76
+	belt 1166
+	link Tilverel
+	asteroids "small rock" 2 1.802
+	asteroids "medium rock" 20 1.139
+	asteroids "large rock" 5 2.38
+	asteroids "small metal" 3 2.295
+	asteroids "medium metal" 87 1.564
+	asteroids "large metal" 4 2.074
+	minables aluminum 17 2.23054
+	minables copper 30 2.72708
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/f0
+		period 10
+	object
+		sprite planet/rock9
+		distance 261.01
+		period 34.6273
+	object
+		sprite planet/desert5
+		distance 615.85
+		period 125.501
+	object
+		sprite planet/rock15
+		distance 983.41
+		period 253.242
+	object
+		sprite planet/gas10
+		distance 1602.05
+		period 526.559
+		object
+			sprite planet/rock17
+			distance 219
+			period 17.0594
+		object
+			sprite planet/lava0
+			distance 366
+			period 36.8569
+		object
+			sprite planet/rhea
+			distance 469
+			period 53.4634
 
 system Flama
 	pos -52175.2 -56156.1
@@ -13945,8 +14105,10 @@ system Gamali
 	government "Kroom Kakaima"
 	habitable 1080
 	belt 1618
-	link Ginso
+	link Ginsolor
+	link Lergumul
 	link Ogaki
+	link Oliga
 	asteroids "medium rock" 1 5.916
 	asteroids "large rock" 2 3.927
 	asteroids "medium metal" 12 3.621
@@ -14971,11 +15133,73 @@ system Gilda
 			distance 464
 			period 25.5295
 
+system Gillevinan
+	pos -51570.5 -56524.1
+	government Geeva
+	habitable 486.68
+	belt 1474
+	link Iskivesa
+	link Visilmara
+	asteroids "small rock" 83 3.668
+	asteroids "medium rock" 51 2.38
+	asteroids "large rock" 25 3.528
+	asteroids "small metal" 38 2.828
+	asteroids "medium metal" 14 3.64
+	asteroids "large metal" 24 1.904
+	minables iron 58 3.2454
+	minables tungsten 4 5.65347
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/cloud8
+		distance 331.25
+		period 109.313
+		object
+			sprite planet/dust5
+			distance 139
+			period 19.8034
+	object
+		sprite planet/cloud6
+		distance 797.49
+		period 408.344
+		object
+			sprite planet/tethys
+			distance 135
+			period 16.0586
+	object
+		sprite planet/rock10
+		distance 1458.18
+		period 1009.61
+	object
+		sprite planet/gas11
+		distance 2948.22
+		period 2902.54
+		object
+			sprite planet/dust3
+			distance 266
+			period 14.3087
+		object
+			sprite planet/dust4
+			distance 388
+			period 25.2072
+
 system Ginja
-	pos -51076.3 -56524.2
+	pos -51066.3 -56511.2
 	government "Kroom Kakaima"
 	habitable 486.68
 	link Gamila
+	link Gormel
 	link Migarro
 	link Skuga
 	asteroids "small rock" 13 7.9924
@@ -15080,12 +15304,13 @@ system Ginma
 			distance 444
 			period 37.393
 
-system Ginso
-	pos -50929.4 -56620.5
+system Ginsolor
+	pos -50926.4 -56610.5
 	government "Kroom Kakaima"
 	habitable 486.68
 	belt 1196
 	link Gamali
+	link Mukorrai
 	link Ogaki
 	asteroids "small rock" 1 5.13
 	asteroids "medium rock" 38 6.57
@@ -15721,7 +15946,7 @@ system Gokomse
 			period 20.5608
 
 system Golima
-	pos -51210.4 -56487.7
+	pos -51176.4 -56478.7
 	government "Kroom Kakaima"
 	habitable 486.68
 	link Gamila
@@ -16346,7 +16571,9 @@ system Gorkva
 	government Geeva
 	habitable 486.68
 	belt 1167
+	link Eiliwerra
 	link Grion
+	link Isvysalmor
 	link Mereliva
 	asteroids "large rock" 1 3.465
 	asteroids "small metal" 25 3.894
@@ -16392,10 +16619,11 @@ system Gorkva
 			period 33.9637
 
 system Gormarrel
-	pos -51089.9 -56609.7
+	pos -51058.9 -56589.7
 	government "Kroom Kakaima"
 	habitable 233.28
 	belt 1129
+	link Mukorrai
 	link Skuga
 	asteroids "large rock" 1 2.8424
 	asteroids "small metal" 5 4.7124
@@ -16441,6 +16669,75 @@ system Gormarrel
 		sprite planet/dust7
 		distance 2217.65
 		period 2735.02
+
+system Gormel
+	pos -50999.5 -56545.8
+	government "Kroom Kakaima"
+	habitable 1080
+	belt 1523
+	link Ginja
+	asteroids "small rock" 12 10.281
+	asteroids "medium rock" 9 6.9
+	asteroids "large rock" 10 9.66
+	asteroids "small metal" 123 3.519
+	asteroids "medium metal" 90 9.522
+	asteroids "large metal" 29 10.281
+	minables aluminum 43 12.5149
+	minables copper 14 8.0076
+	minables lead 35 11.1175
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/dust2
+		distance 164.64
+		period 25.7129
+	object
+		sprite planet/ice3
+		distance 592.6
+		period 175.586
+		object
+			sprite planet/dust1
+			distance 155
+			period 18.4539
+	object
+		sprite planet/gas11
+		distance 1538.49
+		period 734.497
+		object
+			sprite planet/oberon
+			distance 269
+			period 14.5514
+		object
+			sprite planet/rock7
+			distance 388
+			period 25.2072
+	object
+		sprite planet/uranus
+		distance 3397.49
+		period 2410.38
+		object
+			sprite planet/rock0
+			distance 221
+			period 14.0366
+		object
+			sprite planet/rock17
+			distance 342
+			period 27.0217
+		object
+			sprite planet/callisto
+			distance 501
+			period 47.9104
 
 system Gormor
 	pos -50985.8 -56262.1
@@ -17239,11 +17536,12 @@ system Grion
 			period 34.5578
 
 system Grrakvok
-	pos -51262.8 -56554.5
+	pos -51228.8 -56553.5
 	government "Kroom Kakaima"
 	habitable 425.92
 	belt 1731
 	link Golima
+	link Lagerol
 	link Rekulervel
 	asteroids "small rock" 1 1.4872
 	asteroids "medium rock" 17 0.9971
@@ -17529,10 +17827,11 @@ system Gumar
 			period 33.2259
 
 system Gumen
-	pos -50753 -56546.1
+	pos -50760 -56516.1
 	government "Kroom Kakaima"
 	habitable 425.92
 	belt 1971
+	link Korgor
 	link Ogaki
 	link Rager
 	asteroids "medium rock" 40 3.0134
@@ -18810,7 +19109,7 @@ system Heulree
 			period 44.7941
 
 system Hevonor
-	pos -51176.3 -55776.6
+	pos -51160.3 -55748.6
 	government Dels
 	habitable 719.96
 	belt 1331
@@ -19658,6 +19957,61 @@ system Ibnavi
 			sprite planet/lava0
 			distance 267
 			period 16.359
+
+system Ickilvar
+	pos -52216.1 -55773.7
+	government Geeva
+	habitable 1566.68
+	belt 1159
+	link Kilvorile
+	link Vaibeilo
+	asteroids "small metal" 5 6.5076
+	asteroids "medium metal" 4 8.932
+	asteroids "large metal" 5 3.9556
+	minables uranium 1 12.1249
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/g0
+		distance 39.7625
+		period 14.6347
+	object
+		sprite star/k0
+		distance 88.2375
+		period 14.6347
+		offset 180
+	object
+		sprite planet/cloud1
+		distance 281.488
+		period 47.7264
+	object
+		sprite planet/jupiter
+		distance 644.498
+		period 165.349
+	object
+		sprite planet/ocean8
+		distance 1070.66
+		period 354.035
+	object
+		sprite planet/gas16
+		distance 1507.07
+		period 591.247
+		object
+			sprite planet/luna
+			distance 191
+			period 13.8946
+	object
+		sprite planet/gas5
+		distance 3271.28
+		period 1890.8
 
 system Iekega
 	pos -52207.7 -54656.6
@@ -21348,6 +21702,8 @@ system Iskivesa
 	government Geeva
 	habitable 1505.92
 	belt 1422
+	link Gillevinan
+	link Millsavor
 	link Vikerna
 	asteroids "small rock" 4 5.52
 	asteroids "medium rock" 9 4.16
@@ -21608,6 +21964,72 @@ system Isverdis
 			sprite planet/ice0
 			distance 279
 			period 11.9034
+
+system Isvysalmor
+	pos -51552.5 -56457.1
+	government Geeva
+	habitable 1715
+	belt 1204
+	link Eiliwerra
+	link Gorkva
+	link Villarmel
+	asteroids "small rock" 14 4.8256
+	asteroids "medium rock" 12 4.16
+	asteroids "large rock" 19 3.4944
+	asteroids "small metal" 3 2.5376
+	asteroids "medium metal" 51 3.328
+	asteroids "large metal" 14 4.992
+	minables copper 2 6.05067
+	minables neodymium 8 7.00443
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/f5
+		period 10
+	object
+		sprite planet/gas4
+		distance 290.25
+		period 47.7624
+	object
+		sprite planet/lava6
+		distance 586.46
+		period 137.178
+	object
+		sprite planet/gas14
+		distance 1282.02
+		period 443.374
+		object
+			sprite planet/rhea
+			distance 256
+			period 16.6809
+		object
+			sprite planet/europa
+			distance 393
+			period 31.7284
+		object
+			sprite planet/oberon
+			distance 474
+			period 42.0268
+		object
+			sprite planet/io
+			distance 551
+			period 52.6728
+	object
+		sprite planet/gas1
+		distance 2204.31
+		period 999.625
+		object
+			sprite planet/ice8
+			distance 243
+			period 15.14
 
 system Iviak
 	pos -49813.5 -54372.7
@@ -21982,7 +22404,6 @@ system Javil
 	government "Kroom Kakaima"
 	habitable 233.28
 	link Oliga
-	link Rager
 	link Scmila
 	asteroids "small rock" 5 3.468
 	asteroids "medium rock" 8 3.332
@@ -22321,6 +22742,7 @@ system Juelirna
 	belt 1603
 	link Irvodera
 	link Ravo'oua
+	link Veejurnu
 	asteroids "small rock" 1 1.9877
 	asteroids "medium rock" 46 1.7875
 	asteroids "large rock" 24 1.4157
@@ -25650,6 +26072,70 @@ system Kiaun
 			distance 222
 			period 16.4802
 
+system Kiavirar
+	pos -51874.5 -56264.2
+	government Geeva
+	habitable 2140.92
+	belt 1616
+	link Merlivin
+	asteroids "small rock" 6 2.301
+	asteroids "medium rock" 3 5.382
+	asteroids "large rock" 4 4.095
+	asteroids "small metal" 3 2.301
+	asteroids "medium metal" 2 5.421
+	asteroids "large metal" 10 4.68
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/f5
+		distance 25.6636
+		period 12.6661
+		offset 180
+	object
+		sprite star/k5
+		distance 103.336
+		period 12.6661
+	object
+		sprite planet/desert5
+		distance 354.146
+		period 57.6148
+		object
+			sprite planet/desert4
+			distance 145
+			period 19.1993
+	object
+		sprite planet/mercury
+		distance 697.556
+		period 159.268
+	object
+		sprite planet/lava2
+		distance 940.806
+		period 249.465
+	object
+		sprite planet/jupiter
+		distance 1539.25
+		period 522.062
+		object
+			sprite planet/dust7
+			distance 248
+			period 12.2727
+		object
+			sprite planet/callisto
+			distance 374
+			period 22.7284
+	object
+		sprite planet/gas14
+		distance 2992.94
+		period 1415.49
+
 system Kichui
 	pos -44835.1 -59227.6
 	government Krinek
@@ -25899,11 +26385,12 @@ system Kilerno
 			period 22.9346
 
 system Kilvorile
-	pos -52204.1 -55842.3
+	pos -52209.1 -55831.3
 	government Geeva
 	habitable 233.28
 	belt 1684
 	link Filneiva
+	link Ickilvar
 	link Velivori
 	asteroids "large metal" 1 2.967
 	trade Clothing 0
@@ -26242,10 +26729,11 @@ system Kirvadel
 			period 49.0392
 
 system Kirvismellar
-	pos -51676.1 -56426.8
+	pos -51670.1 -56426.8
 	government Geeva
 	habitable 719.96
 	belt 1392
+	link Ceillame
 	link Ismelar
 	link Villarmel
 	asteroids "small rock" 33 3.2604
@@ -29011,6 +29499,74 @@ system Kordel
 		distance 3224.66
 		period 1139.52
 
+system Korgor
+	pos -50699.5 -56540.8
+	government "Kroom Kakaima"
+	habitable 486.68
+	belt 1488
+	link Gumen
+	asteroids "small rock" 1 2.639
+	asteroids "medium rock" 27 5.1562
+	asteroids "large rock" 5 3.2074
+	asteroids "small metal" 24 2.1924
+	asteroids "medium metal" 36 5.6434
+	asteroids "large metal" 8 5.5216
+	minables aluminum 2 7.95111
+	minables gold 17 7.80605
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/lava3
+		distance 144.29
+		period 31.4263
+	object
+		sprite planet/lava5
+		distance 335.18
+		period 111.264
+	object
+		sprite planet/gas12
+		distance 808.27
+		period 416.651
+		object
+			sprite planet/rock3
+			distance 298
+			period 13.5117
+	object
+		sprite planet/rock2
+		distance 1297.43
+		period 847.353
+	object
+		sprite planet/gas4
+		distance 1703.44
+		period 1274.76
+	object
+		sprite planet/gas15
+		distance 3580.48
+		period 3884.63
+		object
+			sprite planet/europa
+			distance 212
+			period 16.248
+		object
+			sprite planet/io
+			distance 326
+			period 30.983
+		object
+			sprite planet/rock7
+			distance 409
+			period 43.5394
+
 system Korlassa
 	pos -44673.4 -58366.8
 	government Ultaka
@@ -30091,6 +30647,58 @@ system "La lei no"
 			distance 318
 			period 14.4846
 
+system Lagerol
+	pos -51254 -56640
+	government "Kroom Kakaima"
+	habitable 425.92
+	belt 1491
+	link Grrakvok
+	asteroids "small rock" 9 5.236
+	asteroids "medium rock" 2 3.916
+	asteroids "large rock" 11 4.796
+	asteroids "small metal" 25 6.6
+	asteroids "medium metal" 42 2.332
+	asteroids "large metal" 150 2.948
+	minables aluminum 19 4.37378
+	minables titanium 15 4.71388
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/rock12
+		distance 163.76
+		period 40.617
+	object
+		sprite planet/ice5
+		distance 558.37
+		period 255.728
+	object
+		sprite planet/dust0
+		distance 964.62
+		period 580.671
+	object
+		sprite planet/rock10
+		distance 1325.58
+		period 935.416
+	object
+		sprite planet/uranus
+		distance 4229.59
+		period 5331.43
+		object
+			sprite planet/luna
+			distance 228
+			period 14.7087
+
 system "Lao Mari"
 	pos -48793.4 -55384
 	government Uninhabited
@@ -31040,6 +31648,61 @@ system Lerdosia
 			distance 544
 			period 51.6722
 
+system Lergumul
+	pos -50956.7 -56460.7
+	government "Kroom Kakaima"
+	habitable 425.92
+	belt 1669
+	link Gamali
+	asteroids "small rock" 1 1.9125
+	asteroids "medium rock" 40 3.8625
+	asteroids "large rock" 11 2.9625
+	asteroids "small metal" 8 3.15
+	asteroids "medium metal" 173 4.575
+	asteroids "large metal" 88 2.5875
+	minables tungsten 46 6.44736
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/cloud5
+		distance 214.01
+		period 60.6802
+	object
+		sprite planet/ice4
+		distance 515.85
+		period 227.081
+	object
+		sprite planet/ice2
+		distance 763.46
+		period 408.861
+	object
+		sprite planet/gas14
+		distance 1390.95
+		period 1005.46
+		object
+			sprite planet/dust4
+			distance 256
+			period 16.6809
+	object
+		sprite planet/gas4
+		distance 2732.56
+		period 2768.54
+		object
+			sprite planet/dust1
+			distance 228
+			period 12.1423
+
 system Lerkelha
 	pos -50846.7 -55681.4
 	government Dels
@@ -31834,11 +32497,11 @@ system Lilmari
 			period 39.1861
 
 system Lima
-	pos -51560 -56502.4
+	pos -51289 -56487.4
 	government "Kroom Kakaima"
 	habitable 320
 	belt 1806
-	link Villarmel
+	link Rekulervel
 	asteroids "small rock" 30 4.08
 	asteroids "medium rock" 64 2.19
 	asteroids "large rock" 31 4.29
@@ -36057,6 +36720,7 @@ system Mereliva
 	government Geeva
 	habitable 1080
 	belt 1204
+	link Ceillame
 	link Eillinor
 	link Gorkva
 	link Grion
@@ -36121,6 +36785,7 @@ system Merlivin
 	habitable 1111.68
 	belt 1954
 	link Ilgalia
+	link Kiavirar
 	link Ligeilvi
 	link Myscovil
 	link Vordeli
@@ -36646,6 +37311,67 @@ system Milineila
 		sprite planet/gas15
 		distance 1941.7
 		period 1913.19
+
+system Millsavor
+	pos -51504 -56542
+	government Geeva
+	habitable 320
+	belt 1182
+	link Iskivesa
+	link Visilmara
+	asteroids "small rock" 29 1.3416
+	asteroids "medium rock" 137 1.95
+	asteroids "large rock" 51 1.2012
+	asteroids "small metal" 45 0.8424
+	asteroids "medium metal" 31 1.17
+	asteroids "large metal" 8 2.0592
+	minables neodymium 2 2.78585
+	minables platinum 22 2.35527
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/ice7
+		distance 117.01
+		period 28.3022
+	object
+		sprite planet/cloud7
+		distance 284.17
+		period 107.116
+	object
+		sprite planet/dust6
+		distance 553.33
+		period 291.046
+	object
+		sprite planet/titan
+		distance 1437.94
+		period 1219.26
+	object
+		sprite planet/gas9
+		distance 2201.38
+		period 2309.55
+		object
+			sprite planet/dust4
+			distance 252
+			period 15
+		object
+			sprite planet/rock14
+			distance 409
+			period 31.0153
+		object
+			sprite planet/dust5
+			distance 535
+			period 46.4003
 
 system "Mir se"
 	pos -50690.2 -53122.9
@@ -37631,6 +38357,69 @@ system Mudeodar
 			distance 573
 			period 40.1965
 
+system Muderlee
+	pos -51219 -55783.5
+	government Dels
+	habitable 5360
+	belt 1815
+	link Celvorle
+	link Elkeur
+	asteroids "small rock" 7 3.9396
+	asteroids "medium rock" 28 3.1752
+	asteroids "large rock" 8 3.087
+	asteroids "small metal" 34 3.4692
+	asteroids "medium metal" 6 3.087
+	asteroids "large metal" 9 1.8228
+	minables lead 18 3.46798
+	minables silicon 2 5.46566
+	trade Clothing 359
+	trade Electronics 781
+	trade Equipment 421
+	trade Food 538
+	trade "Heavy Metals" 716
+	trade Industrial 845
+	trade "Luxury Goods" 966
+	trade Medical 693
+	trade Metal 578
+	trade Plastic 513
+	object
+		sprite star/a5
+		distance 38.7155
+		period 7.27203
+		offset 180
+	object
+		sprite star/f5
+		distance 82.2845
+		period 7.27203
+	object
+		sprite planet/desert3
+		distance 331.495
+		period 32.9756
+	object
+		sprite planet/desert0
+		distance 541.535
+		period 68.852
+	object
+		sprite planet/ice6
+		distance 934.175
+		period 155.998
+		object
+			sprite planet/europa
+			distance 120
+			period 16.5247
+	object
+		sprite planet/gas11
+		distance 2645.06
+		period 743.245
+		object
+			sprite planet/dust0
+			distance 258
+			period 13.6681
+		object
+			sprite planet/rock0
+			distance 364
+			period 22.905
+
 system Mugorle
 	pos -51025.8 -56338.1
 	government "Kroom Kakaima"
@@ -37858,6 +38647,61 @@ system Mukoglee
 			sprite planet/callisto
 			distance 482
 			period 64.1188
+
+system Mukorrai
+	pos -51002.5 -56626.8
+	government "Kroom Kakaima"
+	habitable 486.68
+	belt 1646
+	link Ginsolor
+	link Gormarrel
+	asteroids "medium rock" 2 6.6752
+	asteroids "large rock" 1 5.7792
+	asteroids "small metal" 3 3.5392
+	asteroids "medium metal" 3 4.1664
+	asteroids "large metal" 3 2.7776
+	minables iron 2 8.19805
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/rock12
+		distance 208.41
+		period 54.5527
+	object
+		sprite planet/lava2
+		distance 393.9
+		period 141.748
+	object
+		sprite planet/cloud1
+		distance 877.15
+		period 471.031
+		object
+			sprite planet/ice8
+			distance 164
+			period 17.1483
+	object
+		sprite planet/gas3
+		distance 1601.15
+		period 1161.68
+	object
+		sprite planet/gas14
+		distance 3486.59
+		period 3732.84
+		object
+			sprite planet/rock14
+			distance 262
+			period 17.2707
 
 system Mulva
 	pos -49326.2 -57427.8
@@ -39138,7 +39982,7 @@ system Nareldor
 		period 1498.64
 
 system Navelir
-	pos -51955.7 -55991.2
+	pos -51963.7 -56019.2
 	government Geeva
 	habitable 625
 	belt 1872
@@ -41525,12 +42369,12 @@ system Oebade
 			period 29.3045
 
 system Ogaki
-	pos -50848.3 -56566
+	pos -50853.3 -56551
 	government "Kroom Kakaima"
 	habitable 2795
 	belt 1291
 	link Gamali
-	link Ginso
+	link Ginsolor
 	link Gumen
 	asteroids "small rock" 1 4.5864
 	asteroids "medium rock" 11 3.1668
@@ -41766,9 +42610,10 @@ system Olfor
 			period 19.0736
 
 system Oliga
-	pos -50889.2 -56476.4
+	pos -50874.2 -56477.4
 	government "Kroom Kakaima"
 	habitable 621.68
+	link Gamali
 	link Gularo
 	link Javil
 	link Tulkurle
@@ -42069,6 +42914,65 @@ system Omili
 		distance 4115.94
 		period 4224.97
 		offset 22.58
+
+system Omudor
+	pos -50906.5 -56260.8
+	government "Kroom Kakaima"
+	habitable 1250
+	belt 1084
+	link Ugnorvol
+	asteroids "medium rock" 4 4.8575
+	asteroids "large rock" 6 6.525
+	asteroids "small metal" 3 5.51
+	asteroids "medium metal" 3 7.83
+	asteroids "large metal" 1 5.8725
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/g5
+		distance 61.5
+		period 15.4334
+		offset 180
+	object
+		sprite star/g5
+		distance 61.5
+		period 15.4334
+	object
+		sprite planet/lava4
+		distance 210.5
+		period 34.5528
+	object
+		sprite planet/desert2
+		distance 461.74
+		period 112.254
+	object
+		sprite planet/cloud8
+		distance 767.75
+		period 240.677
+	object
+		sprite planet/gas5
+		distance 1587.51
+		period 715.615
+	object
+		sprite planet/gas16
+		distance 2401.55
+		period 1331.5
+		object
+			sprite planet/rock3
+			distance 184
+			period 13.1378
+		object
+			sprite planet/dust5
+			distance 316
+			period 29.5684
 
 system Ordel
 	pos -48974.1 -56412.1
@@ -45021,13 +45925,11 @@ system Radon
 			period 47.1029
 
 system Rager
-	pos -50670.7 -56507.5
+	pos -50683.7 -56471.5
 	government "Kroom Kakaima"
 	habitable 425.92
 	belt 1812
 	link Gumen
-	link Javil
-	link Scmila
 	asteroids "small rock" 2 7.83
 	asteroids "medium rock" 8 7.074
 	asteroids "large rock" 1 7.884
@@ -45367,7 +46269,6 @@ system Ravo'oua
 	link Juelirna
 	link Orseune
 	link Orudelnel
-	link Veejurnu
 	asteroids "small rock" 16 4.7952
 	asteroids "medium rock" 309 9.72
 	asteroids "large rock" 16 7.2576
@@ -46176,11 +47077,12 @@ system Rekle
 			period 28.4591
 
 system Rekulervel
-	pos -51336.9 -56556.7
+	pos -51316.9 -56557.7
 	government "Kroom Kakaima"
 	habitable 625
 	belt 1817
 	link Grrakvok
+	link Lima
 	asteroids "small rock" 6 2.4
 	asteroids "medium rock" 3 3.216
 	asteroids "large rock" 38 3.456
@@ -50123,12 +51025,11 @@ system Saska
 		offset 340.818
 
 system Scmila
-	pos -50778.6 -56476.1
+	pos -50781.6 -56438.1
 	government "Kroom Kakaima"
 	habitable 553.28
 	link Grakli
 	link Javil
-	link Rager
 	asteroids "small rock" 19 1.547
 	asteroids "medium rock" 62 1.972
 	asteroids "large rock" 7 2.465
@@ -50963,7 +51864,7 @@ system Simei
 		period 2128.69
 
 system Skuga
-	pos -51156.3 -56565.3
+	pos -51111.3 -56565.3
 	government "Kroom Kakaima"
 	habitable 320
 	belt 1473
@@ -52661,6 +53562,7 @@ system Tilverel
 	government Geeva
 	habitable 806.68
 	belt 1624
+	link Fisrelia
 	link Ligeilvi
 	asteroids "medium rock" 65 3.28
 	asteroids "large rock" 2 2.96
@@ -53390,12 +54292,13 @@ system Uelvo
 			period 29.8678
 
 system Ugnorvol
-	pos -50933.8 -56317.1
+	pos -50940.8 -56309.1
 	government "Kroom Kakaima"
 	habitable 1111.68
 	belt 1612
 	link Gormor
 	link Kogorlur
+	link Omudor
 	asteroids "medium rock" 38 3.888
 	asteroids "large rock" 2 6.24
 	asteroids "small metal" 184 3.936
@@ -54737,6 +55640,71 @@ system Urtuin
 			distance 515
 			period 47.5959
 
+system Vaibeilo
+	pos -52203.1 -55701.7
+	government Geeva
+	habitable 425.92
+	belt 1697
+	link Filneiva
+	link Ickilvar
+	asteroids "small metal" 4 2.268
+	asteroids "medium metal" 19 1.764
+	asteroids "large metal" 2 2.352
+	minables aluminum 2 2.83374
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/lava2
+		distance 189.24
+		period 50.4563
+	object
+		sprite planet/uranus
+		distance 820.45
+		period 455.485
+		object
+			sprite planet/miranda
+			distance 231
+			period 15
+		object
+			sprite planet/tethys
+			distance 310
+			period 23.3193
+	object
+		sprite planet/rock9
+		distance 1390.49
+		period 1004.96
+		object
+			sprite planet/desert4
+			distance 122
+			period 17.2841
+	object
+		sprite planet/gas4
+		distance 3107.25
+		period 3357.07
+		object
+			sprite planet/dust3
+			distance 227
+			period 12.0625
+		object
+			sprite planet/dust0
+			distance 325
+			period 20.6644
+		object
+			sprite planet/io
+			distance 413
+			period 29.6021
+
 system Varleron
 	pos -50579.2 -54854
 	government Ignaggen
@@ -54921,7 +55889,7 @@ system Veejurnu
 	belt 1745
 	link Cuvorai
 	link Edarmido
-	link Ravo'oua
+	link Juelirna
 	asteroids "small rock" 5 1.0472
 	asteroids "medium rock" 2 1.3706
 	asteroids "large rock" 15 1.463
@@ -56131,13 +57099,13 @@ system Vilkia
 		period 2702.56
 
 system Villarmel
-	pos -51646.8 -56502.6
+	pos -51641.8 -56501.6
 	government Geeva
 	habitable 320
 	belt 1755
+	link Isvysalmor
 	link Kevildar
 	link Kirvismellar
-	link Lima
 	link Vikerna
 	asteroids "small rock" 8 2.4225
 	asteroids "medium rock" 22 3.135
@@ -56562,6 +57530,68 @@ system Viselit
 			sprite planet/dust3
 			distance 675
 			period 49.5069
+
+system Visilmara
+	pos -51480.5 -56506.1
+	government Geeva
+	habitable 745.92
+	belt 1053
+	link Gillevinan
+	link Millsavor
+	asteroids "small rock" 3 3.1284
+	asteroids "medium rock" 3 2.1384
+	asteroids "large rock" 9 3.2076
+	asteroids "small metal" 1 2.4552
+	asteroids "medium metal" 3 2.8908
+	asteroids "large metal" 3 3.4056
+	minables iron 5 4.29686
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/k5
+		distance 40.326
+		period 13.3477
+	object
+		sprite star/m0
+		distance 53.674
+		period 13.3477
+		offset 180
+	object
+		sprite planet/mercury
+		distance 274.684
+		period 66.6751
+	object
+		sprite planet/titan
+		distance 440.094
+		period 135.217
+	object
+		sprite planet/rock4
+		distance 694.854
+		period 268.259
+	object
+		sprite planet/uranus
+		distance 991.864
+		period 457.501
+	object
+		sprite planet/gas17
+		distance 2530.67
+		period 1864.52
+		object
+			sprite planet/ice0
+			distance 209
+			period 12.909
+		object
+			sprite planet/desert4
+			distance 347
+			period 27.6164
 
 system Voaiick
 	pos -49821.1 -54150.9
