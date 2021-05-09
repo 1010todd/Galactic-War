@@ -41,7 +41,10 @@ outfit "Taroun Deflector"
 	"weapon capacity" -85
 	"turret mounts" -1
 	weapon
-		"velocity" 400
+		"velocity" 1
+		"trigger radius" 500
+		"blast radius" 500
+		"gravitational"
 		"turret turn" 360
 		"lifetime" 1
 		"reload" 1

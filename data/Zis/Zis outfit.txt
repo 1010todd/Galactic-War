@@ -1,6 +1,6 @@
 
 	
-outfit "FT-1S Shield Generator"
+outfit "GSa05Gp-02 Shield Generator" #FT-1S 
 	category "Systems"
 	cost 80000000
 	thumbnail "outfit/zisftshield"
@@ -10,7 +10,7 @@ outfit "FT-1S Shield Generator"
 	"shield energy" 12
 	description "."
 	
-outfit "LW-1S Shield Generator"
+outfit "GSa20Gp-02 Shield Generator" #LW-1S
 	category "Systems"
 	cost 322000000
 	thumbnail "outfit/zisftshield"
@@ -20,7 +20,7 @@ outfit "LW-1S Shield Generator"
 	"shield energy" 45
 	description ""
 	
-outfit "MW-1S Shield Generator"
+outfit "GSa30Gp-02 Shield Generator" #MW-1S 
 	category "Systems"
 	cost 8000000
 	thumbnail "outfit/zismwshield"
@@ -30,37 +30,37 @@ outfit "MW-1S Shield Generator"
 	"shield energy" 55
 	description ""
 	
-outfit "MW-4S Shield Generator"
+outfit "GSa41Gp-02 Shield Generator" #MW-4S
 	category "Systems"
 	cost 12000000
 	thumbnail "outfit/zismwshield"
-	"mass" 40
-	"outfit space" -40
+	"mass" 41
+	"outfit space" -41
 	"shield generation" 70
 	"shield energy" 65
 	description ""
 	
-outfit "HW-1S Shield Generator"
+outfit "GSa62Gp-02 Shield Generator" #HW-1S
 	category "Systems"
 	cost 36000000
 	thumbnail "outfit/huge shield"
-	"mass" 60
-	"outfit space" -60
+	"mass" 62
+	"outfit space" -62
 	"shield generation" 90
 	"shield energy" 85
 	description ""
 	
-outfit "FT-1H Hull Regenerator"
+outfit "GHa05Gp-02 Hull Regenerator" #FT-1H
 	category "Systems"
 	cost 8000000
 	thumbnail "outfit/tiny shield"
 	"mass" 5
 	"outfit space" -5
-	"hull repair rate" 23
-	"hull energy" 23
+	"hull repair rate" 24
+	"hull energy" 24
 	description ""
 	
-outfit "LW-1H Hull Regenerator"
+outfit "GHa20Gp-02 Hull Regenerator" #LW-1H
 	category "Systems"
 	cost 12000000
 	thumbnail "outfit/small shield"
@@ -70,7 +70,7 @@ outfit "LW-1H Hull Regenerator"
 	"hull energy" 93
 	description ""
 	
-outfit "MW-1H Hull Regenerator"
+outfit "GHa28Gp-02 Hull Regenerator" #MW-1H 
 	category "Systems"
 	cost 12000000
 	thumbnail "outfit/small shield"
@@ -80,17 +80,37 @@ outfit "MW-1H Hull Regenerator"
 	"hull energy" 105
 	description ""
 	
-outfit "HW-1H Hull Regenerator"
+outfit "GHa43Gp-02 Hull Regenerator" #MW-1H 
+	category "Systems"
+	cost 12000000
+	thumbnail "outfit/small shield"
+	"mass" 43
+	"outfit space" -43
+	"hull repair rate" 163
+	"hull energy" 155
+	description ""
+
+outfit "GHa60Gp-02 Hull Regenerator" #HW-1H
 	category "Systems"
 	cost 36000000
 	thumbnail "outfit/huge shield"
 	"mass" 60
 	"outfit space" -60
 	"hull repair rate" 282
-	"hull energy" 280
+	"hull energy" 265
+	description ""
+
+outfit "GHb12Gp-02 Hull Regenerator"
+	category "Systems"
+	cost 36000000
+	thumbnail "outfit/huge shield"
+	"mass" 120
+	"outfit space" -120
+	"hull repair rate" 612
+	"hull energy" 542
 	description ""
 	
-outfit "FT-1 Reactor"
+outfit "EPa20Cx-01 Generator" #FT-1 Reactor
 	category "Power"
 	cost 6000000
 	thumbnail "outfit/unknown"
@@ -101,48 +121,39 @@ outfit "FT-1 Reactor"
 	"energy capacity" 1000
 	description ""
 	
-outfit "FT-2 Reactor"
+outfit "EPa20Gx-02 Generator" #FT-2 Reactor
 	category "Power"
 	cost 6000000
 	thumbnail "outfit/unknown"
 	"mass" 20
 	"outfit space" -20
-	"energy generation" 23
+	"energy generation" 25
 	"heat generation" 14
 	description ""
 	
-outfit "LW-2 Reactor"
+outfit "EPa60Cx-01 Generator" #LW-2 Reactor
 	category "Power"
-	cost 6000000
+	cost 12000000
 	thumbnail "outfit/unknown"
 	"mass" 60
 	"outfit space" -60
-	"energy generation" 62
+	"energy generation" 67
 	"heat generation" 30
 	"energy capacity" 3000
 	description ""
-	
-outfit "MW-1 Reactor"
+	 
+outfit "EPa90Cx-01 Generator" #MW-1 Reactor
 	category "Power"
 	cost 9000000
 	thumbnail "outfit/unknown"
 	"mass" 90
 	"outfit space" -90
-	"energy generation" 95
-	"heat generation" 45
+	"energy generation" 100
+	"heat generation" 42
 	"energy capacity" 6000
 	description ""
 	
-outfit "A1 Battery"
-	category "Power"
-	cost 5000000
-	thumbnail "outfit/unknown"
-	"mass" 5
-	"outfit space" -5
-	"energy capacity" 5000
-	description ""
-	
-outfit "MW-2 Reactor"
+outfit "EPa90Gx-02 Generator" #MW-2 Reactor
 	category "Power"
 	cost 9000000
 	thumbnail "outfit/unknown"
@@ -152,27 +163,49 @@ outfit "MW-2 Reactor"
 	"heat generation" 50
 	description ""
 	
-outfit "HW-1 Reactor"
+outfit "EPb12Gx-01 Generator" #HW-1 Reactor
 	category "Power"
 	cost 9000000
 	thumbnail "outfit/unknown"
 	"mass" 120
 	"outfit space" -120
-	"energy generation" 184
+	"energy generation" 240
 	"heat generation" 66
 	description ""
 	
-outfit "HW-4 Anti-Matter Reactor"
+outfit "EPb12Cx-04 Generator" #HW-4 Reactor
 	category "Power"
 	cost 120000000
 	thumbnail "outfit/unknown"
 	"mass" 120
 	"outfit space" -120
-	"energy generation" 240
-	"heat generation" 500
+	"energy generation" 184
+	"heat generation" 61
 	"energy capacity" 200000
-	description "Extremely powerful reactor of unknown origin some say that these reactors are miniaturized version of the reactor at the core of Trochzempt."
-	
+	description ""
+
+outfit "ESa05Gt-05 Battery" #A1
+	category "Power"
+	cost 5000000
+	thumbnail "outfit/unknown"
+	"mass" 5
+	"outfit space" -5
+	"energy capacity" 5000
+	"ion protection" 1000
+	"energy protection" 1000
+	description ""
+
+outfit "ESa12Gt-05 Battery" 
+	category "Power"
+	cost 12000000
+	thumbnail "outfit/unknown"
+	"mass" 12
+	"outfit space" -12
+	"energy capacity" 12000
+	"ion protection" 1000
+	"energy protection" 1000
+	description ""
+
 outfit "ZIS Anti-Missile System"
 	category "Turrets"
 	cost 40000000
@@ -191,9 +224,12 @@ outfit "ZIS Anti-Missile System"
 		"reload" 1
 		"firing energy" 200
 		"firing heat" 12
-	description "Unlike Anti-Missile used by Human or Quarg these ones are more similar to Drak's Anti-Missile field, simply a visble anti-missile field."
-	
-outfit "Nitro-Type4 Engine"
+	description ""
+
+#========================================Engines========================
+#Todo: Rename
+
+outfit "MPa20Sb-04 Engine" #Nitro-Type4
 	category "Engines"
 	"cost" 2800000
 	thumbnail "outfit/tiny plasma engines"
@@ -212,11 +248,11 @@ outfit "Nitro-Type4 Engine"
 	"afterburner energy" 4
 	"afterburner heat" 8
 	"afterburner effect" "afterburner"
-	description "[Nitro is only the name for this engine, the engine actually have nothing related to nitro]"
+	description ""
 	
-outfit "M-10 Engine"
+outfit "MPa20Gp-02 Engine" #M-10
 	category "Engines"
-	"cost" 2500000
+	"cost" 6100000
 	thumbnail "outfit/tiny ion engines"
 	"mass" 20
 	"outfit space" -20
@@ -229,9 +265,9 @@ outfit "M-10 Engine"
 	"thrusting heat" 0.05
 	"flare sprite" "effect/ion flare/tiny"
 		"frame rate" 1.2
-	description "Zis M engines are known to be cooler than Graviton Engines used by Quarg and Drak and from their design these engines surly aren't inspired or based of graviton at all but a completely different technology which are unknown to you."
-		
-outfit "M-20 Engine"
+	description "
+
+outfit "MPa30Gp-02 Engine" #M-20
 	category "Engines"
 	"cost" 5000000
 	thumbnail "outfit/tiny ion engines"
@@ -248,7 +284,7 @@ outfit "M-20 Engine"
 		"frame rate" 1.1
 		
 		
-outfit "M-80 Engine"
+outfit "MPa60Gp-02 Engine" #M-80
 	category "Engines"
 	"cost" 8000000
 	thumbnail "outfit/huge ion engines"
@@ -290,7 +326,7 @@ effect "zis galactic drive"
 	"velocity scale" 1
 	"random velocity" 6
 		
-outfit "ZIS Recon Pod"
+outfit "ZIS Patrol Kit" #Recon Pod
 	category "Systems"
 	cost 42000000
 	thumbnail "outfit/outfit scanner"
@@ -301,13 +337,27 @@ outfit "ZIS Recon Pod"
 	"cargo scan power" 35
 	"cargo scan speed" 5
 	"atmosphere scan" 500
+	"tactical scan power" 35
+
+outfit "ZIS Recon Kit"
+	category "Systems"
+	cost 42000000
+	thumbnail "outfit/outfit scanner"
+	"mass" 5
+	"outfit space" -5
+	"outfit scan power" 65
+	"outfit scan speed" 5
+	"cargo scan power" 65
+	"cargo scan speed" 5
+	"atmosphere scan" 700
+	"tactical scan power" 70
 	
 outfit "AC-30 Assault Rifle"
 	category "Hand to Hand"
 	cost 36000
 	thumbnail "outfit/zis rifle"
-	"capture attack" 3
-	"capture defense" 3
+	"capture attack" 9
+	"capture defense" 9
 	"unplunderable" 1
 	description "This is the primary weapon of the Zis ground force, while appears to shoot regular bullets, these are far more powerful."
 	
@@ -315,8 +365,8 @@ outfit "XB-60 Blaster"
 	category "Hand to Hand"
 	cost 36000
 	thumbnail "outfit/zis xb blaster"
-	"capture attack" 3
-	"capture defense" 3
+	"capture attack" 9
+	"capture defense" 9
 	"unplunderable" 1
 	description "XB-60 Blaster is simple blaster with various features to adapt to fit the current situation from long range sniper duel to close combat, being an energy weapon with built-in generator allow them to continuously fire at their target without reloading, the weapon it self can deal less damage to most enemy compared to AC-30 but it's light weight make them more maneuverable for offensive mission than the AC-30."
 	
