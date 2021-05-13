@@ -490,6 +490,7 @@ system Agaka
 	government Geeva
 	habitable 1250
 	belt 1593
+	link Calinavo
 	link Flama
 	link Gumarre
 	link Milkirvy
@@ -502,7 +503,7 @@ system Agaka
 	asteroids "large metal" 22 5.664
 	minables copper 20 7.58926
 	minables lead 31 5.61311
-	fleet "Geeva Battle Fleet" 900
+	fleet "Geeva Battle Fleet" 2000
 	fleet "Geeva Civillian" 800
 	object
 		sprite star/g5
@@ -808,6 +809,7 @@ system Ailaleli
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 2000
 	object
 		sprite star/g0
 		distance 34.1709
@@ -930,6 +932,7 @@ system Akaima
 	minables titanium 2 9.49053
 	fleet "Kroom Kanai" 800
 	fleet "Kakaima Defense" 3200
+	fleet "Geeva Battle Fleet" 2800
 	object
 		sprite star/a5
 		distance 17.7108
@@ -1083,7 +1086,6 @@ system Akogi
 	asteroids "large metal" 1 5.475
 	minables gold 5 5.95612
 	fleet "Kroom Kanai" 800
-	fleet "Kakaima Defense" 3200
 	object
 		sprite star/g5
 		period 10
@@ -2371,6 +2373,7 @@ system Asinaki
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1000
 	object
 		sprite star/g0
 		period 10
@@ -2973,6 +2976,7 @@ system Belvire
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1000
 	object
 		sprite star/k0
 		period 10
@@ -3133,6 +3137,7 @@ system Billedar
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 800
 	object
 		sprite star/k5
 		period 10
@@ -3182,6 +3187,8 @@ system Bismessia
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 800
+	fleet "Geeva Civillian" 800
 	object
 		sprite star/f0
 		distance 29.6054
@@ -4696,13 +4703,14 @@ system C5-3
 			period 43.7745
 
 system Calinavo
-	pos -52038.1 -56167.3
+	pos -52076.1 -56184.3
 	government Geeva
 	habitable 425.92
 	belt 1081
-	link Elivanis
+	link Agaka
 	link Ivilnervi
-	link Lilmari
+	link Milkirvy
+	link Mivaril
 	asteroids "small rock" 11 2.057
 	asteroids "medium rock" 16 1.19
 	asteroids "large rock" 19 1.972
@@ -4720,6 +4728,7 @@ system Calinavo
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 2000
 	object
 		sprite star/k5
 		period 10
@@ -4888,6 +4897,7 @@ system Ceillame
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1000
 	object
 		sprite star/m0
 		period 10
@@ -5326,6 +5336,8 @@ system Cilvasrie
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 2000
+	fleet "Geeva Civillian" 800
 	object
 		sprite star/k0
 		period 10
@@ -9765,6 +9777,9 @@ system Dulkor
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kroom Kanai" 1200
+	fleet "Kakaima Defense" 6500
+	fleet "Geeva Battle Fleet" 6500
 	object
 		sprite star/f5
 		distance 22.326
@@ -10022,6 +10037,7 @@ system Durdan
 	trade Metal 279
 	trade Plastic 373
 	fleet "Dels Outward Merchant" 1400
+	fleet "Dels Kaote" 1200
 	object
 		sprite star/g5
 		period 10
@@ -10956,6 +10972,7 @@ system Easterla
 	government Erader
 	habitable 1215
 	link Mersekkar
+	link Mteluen
 	link Ulsenmor
 	asteroids "small rock" 1 6.885
 	asteroids "medium rock" 24 8.1
@@ -11459,6 +11476,7 @@ system Eikole
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kakaima Defense" 800
 	object
 		sprite star/m4
 		period 10
@@ -11568,6 +11586,7 @@ system Eillinor
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1000
 	object
 		sprite star/f5
 		period 10
@@ -11679,6 +11698,7 @@ system Eilvari
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1200
 	object
 		sprite star/k5
 		period 10
@@ -11735,6 +11755,7 @@ system Eilverel
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1000
 	object
 		sprite star/g0
 		period 10
@@ -11856,6 +11877,8 @@ system Eldok
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kakaima Defense" 800
+	fleet "Geeva Battle Fleet" 3100
 	object
 		sprite star/k0
 		period 10
@@ -11963,12 +11986,12 @@ system Eldrra
 		period 1641.65
 
 system Elivanis
-	pos -51985.5 -56110.7
+	pos -51993.5 -56115.7
 	government Geeva
 	habitable 1505.92
 	belt 1746
-	link Calinavo
 	link Milineila
+	link Mivaril
 	asteroids "small rock" 69 3.993
 	asteroids "medium rock" 100 4.125
 	asteroids "large rock" 83 1.848
@@ -11988,6 +12011,7 @@ system Elivanis
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 2000
 	object
 		sprite star/g0
 		distance 33.374
@@ -12223,6 +12247,7 @@ system Elnorha
 	trade Metal 283
 	trade Plastic 297
 	fleet "Dels Outward Merchant" 1000
+	fleet "Dels Kaote" 1200
 	object
 		sprite star/g5
 		period 10
@@ -13270,6 +13295,7 @@ system Esmelle
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1000
 	object
 		sprite star/a5
 		distance 8.2406
@@ -13420,6 +13446,8 @@ system Etologe
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kakaima Defense" 800
+	fleet "Geeva Battle Fleet" 2000
 	object
 		sprite star/m4
 		period 10
@@ -13902,6 +13930,7 @@ system Falisrel
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 800
 	object
 		sprite star/f0
 		distance 15.9242
@@ -15258,7 +15287,7 @@ system Fienel
 			distance 497
 			period 58.3219
 
-system Fiiktar
+system Filiktar
 	pos -52544.1 -55798.3
 	government Geeva
 	habitable 320
@@ -15277,6 +15306,8 @@ system Fiiktar
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1500
+	fleet "Geeva Civillian" 1000
 	object
 		sprite star/m0
 		period 10
@@ -15330,7 +15361,8 @@ system Filneiva
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
-	fleet "Zis Heavy Patrol Fleet" 15000
+	fleet "Geeva Battle Fleet" 1200
+	fleet "Geeva Civillian" 800
 	object
 		sprite star/k0
 		period 10
@@ -15387,6 +15419,7 @@ system Filvairi
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 2000
 	object
 		sprite star/a5
 		distance 8.18045
@@ -15676,6 +15709,7 @@ system Fisrelia
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1200
 	object
 		sprite star/f0
 		period 10
@@ -15725,7 +15759,7 @@ system Flama
 	asteroids "large metal" 6 3.2994
 	minables lead 9 2.0265
 	minables neodymium 1 2.80492
-	fleet "Geeva Battle Fleet" 900
+	fleet "Geeva Battle Fleet" 2000
 	fleet "Geeva Civillian" 800
 	object
 		sprite star/g5
@@ -16434,7 +16468,8 @@ system Gamila
 	asteroids "large metal" 9 2.0664
 	fleet "Kakaima Defense" 800
 	fleet "Kakaima Civillian" 600
-	fleet "Geeva Battle Fleet" 2200
+	fleet "Geeva Battle Fleet" 20000
+	fleet "Kroom Kanai" 3000
 	object
 		sprite star/k5
 		distance 61.5
@@ -16497,7 +16532,7 @@ system Ganet
 	asteroids "medium metal" 39 3.74
 	asteroids "large metal" 76 3.036
 	minables lead 6 4.31995
-	fleet "Geeva Battle Fleet" 900
+	fleet "Geeva Battle Fleet" 2000
 	fleet "Geeva Civillian" 800
 	object
 		sprite star/m4
@@ -16549,7 +16584,7 @@ system Gankol
 	asteroids "medium metal" 7 2.5116
 	asteroids "large metal" 3 3.6478
 	fleet "Kroom Kanai" 800
-	fleet "Kakaima Defense" 1200
+	fleet "Geeva Battle Fleet" 1500
 	object
 		sprite star/b5
 		period 10
@@ -16660,7 +16695,7 @@ system Gavnan
 	minables lead 4 5.02275
 	minables neodymium 4 3.67271
 	minables tungsten 2 4.12864
-	fleet "Kroom Kanai" 800
+	fleet "Kroom Kanai" 600
 	object
 		sprite star/m0
 		period 10
@@ -16950,6 +16985,7 @@ system Gelfer
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1000
 	object
 		sprite star/k5
 		period 10
@@ -17069,6 +17105,7 @@ system Gelinar
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1000
 	object
 		sprite star/f5
 		distance 44.4365
@@ -17906,7 +17943,6 @@ system Gilda
 	asteroids "large metal" 4 5.0388
 	minables copper 7 8.41558
 	fleet "Kroom Kanai" 800
-	fleet "Kakaima Defense" 3200
 	object
 		sprite star/m4
 		period 10
@@ -17963,6 +17999,7 @@ system Gillevinan
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 800
 	object
 		sprite star/k0
 		period 10
@@ -18026,6 +18063,7 @@ system Gilmelor
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 800
 	object
 		sprite star/k5
 		period 10
@@ -18077,7 +18115,7 @@ system Ginja
 	asteroids "large metal" 68 6.8614
 	fleet "Kakaima Defense" 800
 	fleet "Kakaima Civillian" 600
-	fleet "Geeva Battle Fleet" 2800
+	fleet "Geeva Battle Fleet" 28000
 	object
 		sprite star/k0
 		period 10
@@ -18130,7 +18168,6 @@ system Ginma
 	minables lead 2 10.6152
 	minables tungsten 2 7.08972
 	fleet "Kroom Kanai" 800
-	fleet "Kakaima Defense" 1200
 	object
 		sprite star/g0
 		distance 23.0857
@@ -18387,6 +18424,7 @@ system Givarel
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 900
 	object
 		sprite star/k0
 		period 10
@@ -18444,7 +18482,7 @@ system Givilor
 	minables aluminum 5 4.62948
 	minables tungsten 7 4.29236
 	minables uranium 4 3.82157
-	fleet "Geeva Battle Fleet" 900
+	fleet "Geeva Battle Fleet" 2000
 	fleet "Geeva Civillian" 800
 	object
 		sprite star/m0
@@ -19026,7 +19064,7 @@ system Golima
 	asteroids "large metal" 25 3.552
 	fleet "Kakaima Defense" 800
 	fleet "Kakaima Civillian" 600
-	fleet "Geeva Battle Fleet" 2200
+	fleet "Geeva Battle Fleet" 20000
 	object
 		sprite star/k0
 		period 10
@@ -19339,7 +19377,6 @@ system Gonma
 	asteroids "large metal" 11 4.914
 	minables copper 41 3.48702
 	fleet "Kroom Kanai" 800
-	fleet "Kakaima Defense" 8200
 	object
 		sprite star/k0
 		period 10
@@ -19632,6 +19669,8 @@ system Gorelvar
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kakaima Defense" 800
+	fleet "Geeva Battle Fleet" 20000
 	object
 		sprite star/g0
 		period 10
@@ -19841,6 +19880,7 @@ system Gormarrel
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kakaima Defense" 800
 	object
 		sprite star/m4
 		period 10
@@ -20005,6 +20045,8 @@ system Gormor
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kakaima Defense" 800
+	fleet "Kroom Kanai" 22000
 	object
 		sprite star/g5
 		distance 18.1184
@@ -20842,6 +20884,7 @@ system Grokkeka
 	government "Kroom Kakaima"
 	habitable 233.28
 	belt 1077
+	link Kadeinol
 	link Lukgar
 	link Nenkorva
 	asteroids "small metal" 92 5.016
@@ -20922,6 +20965,7 @@ system Grrakvok
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kakaima Defense" 800
 	object
 		sprite star/k5
 		period 10
@@ -21034,7 +21078,7 @@ system Gukali
 	asteroids "large metal" 19 2.6208
 	minables iron 15 3.1238
 	fleet "Kroom Kanai" 800
-	fleet "Kakaima Defense" 1200
+	fleet "Kakaima Defense" 3500
 	object
 		sprite star/g5
 		period 10
@@ -21272,7 +21316,7 @@ system Gumarre
 	asteroids "small metal" 13 3.15
 	asteroids "medium metal" 26 1.7325
 	asteroids "large metal" 12 2.1375
-	fleet "Geeva Battle Fleet" 900
+	fleet "Geeva Battle Fleet" 1500
 	fleet "Geeva Civillian" 800
 	object
 		sprite star/k0
@@ -21392,6 +21436,9 @@ system Gumolnuk
 	asteroids "medium metal" 34 2.304
 	asteroids "large metal" 41 3.888
 	minables aluminum 2 3.85218
+	fleet "Kroom Kanai" 600
+	fleet "Kakaima Defense" 3000
+	fleet "Geeva Battle Fleet" 2800
 	object
 		sprite star/k5
 		distance 36.45
@@ -22788,6 +22835,7 @@ system Hidawe
 	trade Metal 355
 	trade Plastic 281
 	fleet "Dels Outward Merchant" 1400
+	fleet "Dels Kaote" 1200
 	object
 		sprite star/g5
 		distance 38.9631
@@ -23576,6 +23624,8 @@ system Ickilvar
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1000
+	fleet "Geeva Civillian" 800
 	object
 		sprite star/g0
 		distance 39.7625
@@ -23635,6 +23685,7 @@ system Iekega
 	trade Metal 405
 	trade Plastic 371
 	fleet "Dels Outward Merchant" 1600
+	fleet "Dels Kaote" 2200
 	object
 		sprite star/k5
 		period 10
@@ -23834,6 +23885,7 @@ system Ievilse
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 800
 	object
 		sprite star/g0
 		distance 29.8218
@@ -24088,6 +24140,8 @@ system Igureo
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kroom Kanai" 600
+	fleet "Kakaima Defense" 3000
 	object
 		sprite star/g0
 		period 10
@@ -24398,6 +24452,7 @@ system Ikilnog
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kakaima Defense" 1200
 	object
 		sprite star/m0
 		period 10
@@ -24601,6 +24656,7 @@ system Ikvere
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1200
 	object
 		sprite star/m4
 		distance 46.5
@@ -24773,6 +24829,7 @@ system Ilgalia
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1000
 	object
 		sprite star/m4
 		period 10
@@ -24842,6 +24899,7 @@ system Ilgorle
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1000
 	object
 		sprite star/g5
 		period 10
@@ -24912,6 +24970,8 @@ system Ilitnetar
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1200
+	fleet "Geeva Civillian" 800
 	object
 		sprite star/k5
 		period 10
@@ -25074,6 +25134,8 @@ system Ilvertel
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 2000
+	fleet "Geeva Civillian" 1000
 	object
 		sprite star/k0
 		period 10
@@ -25852,6 +25914,7 @@ system Isbelvanh
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1000
 	object
 		sprite star/k0
 		distance 18.8924
@@ -25913,6 +25976,7 @@ system Isilver
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1000
 	object
 		sprite star/k5
 		period 10
@@ -25975,6 +26039,7 @@ system Iskivesa
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 800
 	object
 		sprite star/g0
 		distance 31.1113
@@ -26028,6 +26093,7 @@ system Ismelar
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1000
 	object
 		sprite star/g0
 		period 10
@@ -26073,6 +26139,7 @@ system Ismilvel
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1200
 	object
 		sprite star/g5
 		period 10
@@ -26242,6 +26309,7 @@ system Isverdis
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 800
 	object
 		sprite star/m4
 		period 10
@@ -26467,6 +26535,7 @@ system Ivilnervi
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 2000
 	object
 		sprite star/b5
 		period 10
@@ -26523,6 +26592,8 @@ system Iyneril
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 2000
+	fleet "Geeva Civillian" 1000
 	object
 		sprite star/m0
 		period 10
@@ -26575,6 +26646,7 @@ system Iyviltor
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1000
 	object
 		sprite star/k5
 		period 10
@@ -27232,6 +27304,7 @@ system Julkorr
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kakaima Defense" 800
 	object
 		sprite star/g0
 		period 10
@@ -27572,6 +27645,7 @@ system Kaaroknel
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kakaima Defense" 800
 	object
 		sprite star/g0
 		distance 63
@@ -27605,6 +27679,60 @@ system Kaaroknel
 			sprite planet/dust7
 			distance 210
 			period 13.0018
+
+system Kadeinol
+	pos -50175.6 -56840.1
+	government "Kroom Kakaima"
+	habitable 486.68
+	belt 1182
+	link Grokkeka
+	asteroids "small rock" 3 5.481
+	asteroids "medium rock" 72 2.4192
+	asteroids "large rock" 13 3.969
+	asteroids "small metal" 2 3.402
+	asteroids "medium metal" 8 4.6872
+	asteroids "large metal" 3 2.1168
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/rock19
+		distance 183.44
+		period 45.0484
+	object
+		sprite planet/desert0
+		distance 505.88
+		period 206.305
+	object
+		sprite planet/uranus
+		distance 1072.77
+		period 637.086
+		object
+			sprite planet/callisto
+			distance 226
+			period 14.5156
+		object
+			sprite planet/desert4
+			distance 340
+			period 26.785
+	object
+		sprite planet/cloud0
+		distance 1843.33
+		period 1434.97
+		object
+			sprite planet/dust5
+			distance 166
+			period 26.357
 
 system Kaise
 	pos -44702 -59081.6
@@ -28538,6 +28666,7 @@ system Kasirlas
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1000
 	object
 		sprite star/k0
 		distance 53.205
@@ -28816,6 +28945,7 @@ system Keedouin
 	trade Metal 410
 	trade Plastic 295
 	fleet "Dels Outward Merchant" 1400
+	fleet "Dels Kaote" 1600
 	object
 		sprite star/g0
 		period 10
@@ -29456,6 +29586,7 @@ system Keggar
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kakaima Defense" 800
 	object
 		sprite star/g0
 		period 10
@@ -29734,6 +29865,7 @@ system Keldorek
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kroom Kanai" 800
 	object
 		sprite star/g5
 		distance 54.7235
@@ -29963,6 +30095,7 @@ system Kelimaros
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1000
 	object
 		sprite star/m0
 		period 10
@@ -30207,6 +30340,8 @@ system Kelivar
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1000
+	fleet "Geeva Civillian" 800
 	object
 		sprite star/g5
 		distance 33.1595
@@ -30915,6 +31050,8 @@ system Kerdin
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kroom Kanai" 800
+	fleet "Geeva Battle Fleet" 1200
 	object
 		sprite star/f5
 		distance 45.2093
@@ -31024,6 +31161,7 @@ system Kerilar
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1200
 	object
 		sprite star/k0
 		period 10
@@ -31507,6 +31645,7 @@ system Kevildar
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1000
 	object
 		sprite star/m8
 		period 10
@@ -31663,6 +31802,7 @@ system Kiavirar
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1200
 	object
 		sprite star/f5
 		distance 25.6636
@@ -32035,6 +32175,8 @@ system Kilvorile
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1200
+	fleet "Geeva Civillian" 800
 	object
 		sprite star/m4
 		period 10
@@ -32085,6 +32227,7 @@ system Kimuriel
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 900
 	object
 		sprite star/m0
 		distance 34.5737
@@ -32387,6 +32530,7 @@ system Kirvadel
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 800
 	object
 		sprite star/g5
 		period 10
@@ -32453,6 +32597,7 @@ system Kirveil
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 800
 	object
 		sprite star/a5
 		distance 50.4695
@@ -32510,6 +32655,7 @@ system Kirvismellar
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1000
 	object
 		sprite star/k0
 		distance 29.1616
@@ -35097,6 +35243,8 @@ system Kogorlur
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kakaima Defense" 800
+	fleet "Kroom Kanai" 3200
 	object
 		sprite star/m8
 		period 10
@@ -35230,6 +35378,8 @@ system Kogurel
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kakaima Defense" 800
+	fleet "Geeva Battle Fleet" 3000
 	object
 		sprite star/k5
 		distance 52
@@ -35595,6 +35745,7 @@ system Korelga
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kroom Kanai" 800
 	object
 		sprite star/g0
 		period 10
@@ -36421,6 +36572,7 @@ system Kukek
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kakaima Defense" 800
 	object
 		sprite star/g0
 		period 10
@@ -36484,6 +36636,7 @@ system Kukorre
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kakaima Defense" 800
 	object
 		sprite star/g0
 		period 10
@@ -37196,6 +37349,7 @@ system Kusgugar
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kakaima Defense" 1000
 	object
 		sprite star/g5
 		period 10
@@ -37410,6 +37564,7 @@ system Lagerol
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kakaima Defense" 800
 	object
 		sprite star/k5
 		period 10
@@ -37816,7 +37971,8 @@ system Leeounacr
 	trade Medical 589
 	trade Metal 407
 	trade Plastic 284
-	fleet "Dels Outward Merchant" 1400
+	fleet "Dels Outward Merchant" 1200
+	fleet "Dels Kaote" 1400
 	object
 		sprite star/k5
 		distance 24.3083
@@ -37926,6 +38082,53 @@ system Leggorma
 			distance 400
 			period 29.9972
 
+system Leinen
+	pos -49539.4 -55492.3
+	government EraderF2
+	habitable 233.28
+	belt 1314
+	link Sikerel
+	asteroids "medium rock" 29 2.176
+	asteroids "large rock" 4 1.856
+	asteroids "small metal" 3 4.096
+	asteroids "medium metal" 33 2.208
+	asteroids "large metal" 7 2.304
+	minables lead 2 3.98549
+	minables silver 1 2.66528
+	trade Clothing 369
+	trade Electronics 745
+	trade Equipment 429
+	trade Food 0
+	trade "Heavy Metals" 973
+	trade Industrial 655
+	trade "Luxury Goods" 1133
+	trade Medical 620
+	trade Metal 241
+	trade Plastic 405
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/lava5
+		distance 143
+		period 44.7842
+	object
+		sprite planet/gas14
+		distance 614
+		period 398.45
+	object
+		sprite planet/callisto
+		distance 1086.09
+		period 937.389
+	object
+		sprite planet/rock3
+		distance 1850.1
+		period 2084.08
+	object
+		sprite planet/gas8
+		distance 2137.34
+		period 2587.81
+
 system Leion
 	pos -50558.6 -54958.6
 	government Ignaggen
@@ -38018,6 +38221,7 @@ system Lelliuk
 	trade Metal 353
 	trade Plastic 376
 	fleet "Dels Outward Merchant" 1600
+	fleet "Dels Kaote" 2000
 	object
 		sprite star/k0
 		distance 17.5894
@@ -38111,7 +38315,7 @@ system Lena
 system Lenevai
 	pos -52432.1 -55652.3
 	government Geeva
-	habitable 1948.28
+	habitable 233.28
 	belt 1365
 	link Magrilnil
 	link Oebade
@@ -38135,48 +38339,43 @@ system Lenevai
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
-	fleet "Zis Heavy Patrol Fleet" 15000
-	object
-		sprite star/f5
-		distance 14.3684
-		period 11.9126
-		offset 180
+	fleet "Geeva Battle Fleet" 800
+	fleet "Geeva Civillian" 1000
 	object
 		sprite star/m4
-		distance 105.632
-		period 11.9126
-	object
-		sprite planet/cloud2
-		distance 274.792
-		period 41.28
-	object
-		sprite planet/gas16
-		distance 588.952
-		period 129.525
-	object
-		sprite planet/gas2
-		distance 1373.16
-		period 461.123
+		period 10
+	object Vibilen
+		sprite planet/cloud3
+		distance 270.25
+		period 116.351
 		object
-			sprite planet/dust7
-			distance 206
-			period 17.9149
+			sprite planet/ice8
+			distance 163
+			period 22.8831
 	object
-		sprite planet/gas13
-		distance 2484.57
-		period 1122.31
+		sprite planet/gas14
+		distance 690.14
+		period 474.818
+	object
+		sprite planet/lava6
+		distance 1343.23
+		period 1289.28
+	object
+		sprite planet/gas17
+		distance 2764.99
+		period 3807.69
+		object
+			sprite planet/dust5
+			distance 236
+			period 15.4896
 		object
 			sprite planet/ice7
-			distance 297
-			period 14.4492
-		object
-			sprite planet/europa
-			distance 401
-			period 22.6687
+			distance 400
+			period 34.1793
 		object
 			sprite planet/dust4
-			distance 484
-			period 30.0593
+			distance 512
+			period 49.4969
 
 system Leno
 	pos -49919.8 -54916.9
@@ -39086,6 +39285,7 @@ system Ligeilvi
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1000
 	object
 		sprite star/k0
 		distance 40.6038
@@ -39253,6 +39453,7 @@ system Liiveris
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1000
 	object
 		sprite star/k5
 		period 10
@@ -39432,7 +39633,8 @@ system Lilamil
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
-	fleet "Geeva Battle Fleet" 900
+	fleet "Geeva Battle Fleet" 2000
+	fleet "Geeva Civillian" 800
 	object
 		sprite star/g5
 		distance 52.9723
@@ -39492,7 +39694,7 @@ system Lilima
 	minables iron 20 9.00727
 	minables lead 11 11.5788
 	minables platinum 3 9.63617
-	fleet "Geeva Battle Fleet" 900
+	fleet "Geeva Battle Fleet" 2000
 	fleet "Geeva Civillian" 800
 	object
 		sprite star/k5
@@ -39541,7 +39743,7 @@ system Lilmar
 	minables copper 4 4.46993
 	fleet "Kakaima Defense" 800
 	fleet "Kakaima Civillian" 600
-	fleet "Geeva Battle Fleet" 4200
+	fleet "Geeva Battle Fleet" 2000
 	object
 		sprite star/m0
 		period 10
@@ -39586,8 +39788,8 @@ system Lilmari
 	government Geeva
 	habitable 1715
 	belt 1060
-	link Calinavo
 	link Ilgalia
+	link Mivaril
 	asteroids "small rock" 2 0.876
 	asteroids "medium rock" 3 1.788
 	asteroids "large rock" 23 1.104
@@ -39606,6 +39808,7 @@ system Lilmari
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1500
 	object
 		sprite star/f5
 		period 10
@@ -41960,6 +42163,8 @@ system Magrilnil
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1200
+	fleet "Geeva Civillian" 1000
 	object
 		sprite star/f5
 		period 10
@@ -42722,6 +42927,7 @@ system Malelnal
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 2000
 	object
 		sprite star/f5
 		distance 22.9891
@@ -43820,6 +44026,7 @@ system Masrele
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1200
 	object
 		sprite star/g5
 		period 10
@@ -44486,6 +44693,8 @@ system Mekgorvu
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kakaima Defense" 800
+	fleet "Kroom Kanai" 2200
 	object
 		sprite star/k0
 		period 10
@@ -44636,6 +44845,8 @@ system Melkartor
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 2000
+	fleet "Geeva Civillian" 800
 	object
 		sprite star/g0
 		period 10
@@ -44759,6 +44970,7 @@ system Mereliva
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 900
 	object
 		sprite star/g0
 		period 10
@@ -44824,6 +45036,7 @@ system Merlivin
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 800
 	object
 		sprite star/g5
 		distance 52.5345
@@ -45001,6 +45214,7 @@ system Mersilves
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 800
 	object
 		sprite star/m0
 		period 10
@@ -45393,6 +45607,8 @@ system Migarro
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kakaima Defense" 800
+	fleet "Kroom Kanai" 3200
 	object
 		sprite star/k5
 		period 10
@@ -45449,6 +45665,8 @@ system Mihilga
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1500
+	fleet "Geeva Civillian" 1200
 	object
 		sprite star/g5
 		period 10
@@ -45567,6 +45785,7 @@ system Milcure
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 2000
 	object
 		sprite star/m0
 		distance 51
@@ -45629,6 +45848,7 @@ system Milineila
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 2000
 	object
 		sprite star/m0
 		period 10
@@ -45655,6 +45875,7 @@ system Milkirvy
 	habitable 425.92
 	belt 1272
 	link Agaka
+	link Calinavo
 	asteroids "medium rock" 14 2.24
 	asteroids "large rock" 3 3.976
 	asteroids "small metal" 24 3.136
@@ -45670,6 +45891,7 @@ system Milkirvy
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 2000
 	object
 		sprite star/k5
 		period 10
@@ -45731,6 +45953,7 @@ system Millsavor
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 800
 	object
 		sprite star/m0
 		period 10
@@ -45865,7 +46088,7 @@ system Misvirel
 	government Geeva
 	habitable 912.6
 	belt 1200
-	link Fiiktar
+	link Filiktar
 	link Taaikeno
 	asteroids "small rock" 17 6.864
 	asteroids "medium rock" 4 6.578
@@ -45885,6 +46108,8 @@ system Misvirel
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1500
+	fleet "Geeva Civillian" 1200
 	object
 		sprite star/k0
 		distance 45.2709
@@ -45971,6 +46196,58 @@ system Mitura
 			distance 327
 			period 31.1257
 
+system Mivaril
+	pos -52023 -56214.4
+	government Geeva
+	habitable 5000
+	belt 1122
+	link Calinavo
+	link Elivanis
+	link Lilmari
+	asteroids "small rock" 6 9.432
+	asteroids "medium rock" 3 10.296
+	asteroids "large rock" 43 9.576
+	asteroids "small metal" 20 4.104
+	asteroids "medium metal" 14 10.584
+	asteroids "large metal" 58 10.008
+	minables aluminum 28 11.9626
+	minables iron 30 13.2452
+	minables uranium 7 9.19707
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1500
+	object
+		sprite star/a0
+		period 10
+	object
+		sprite planet/gas13
+		distance 425
+		period 49.5631
+		object
+			sprite planet/dust4
+			distance 283
+			period 13.4397
+	object
+		sprite planet/lava1
+		distance 1043.44
+		period 190.667
+	object
+		sprite planet/gas11
+		distance 1802.48
+		period 432.893
+		object
+			sprite planet/rock17
+			distance 236
+			period 11.9576
+
 system Mivirpar
 	pos -50059.3 -53885.8
 	government Uninhabited
@@ -46019,6 +46296,73 @@ system Mivirpar
 			distance 235
 			period 11.3204
 
+system Mixilvar
+	pos -52215.4 -55979.2
+	government Geeva
+	habitable 1250
+	belt 1515
+	link Neflim
+	asteroids "small rock" 3 5.76
+	asteroids "medium rock" 78 8.76
+	asteroids "large rock" 25 7.62
+	asteroids "small metal" 74 3.42
+	asteroids "medium metal" 4 4.56
+	asteroids "large metal" 26 7.8
+	minables aluminum 1 11.8706
+	minables silver 2 10.3299
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	fleet "Geeva Battle Fleet" 2000
+	object
+		sprite star/g5
+		distance 49.5
+		period 11.1444
+		offset 180
+	object
+		sprite star/g5
+		distance 49.5
+		period 11.1444
+	object
+		sprite planet/ice4
+		distance 293.59
+		period 56.9137
+	object
+		sprite planet/gas16
+		distance 922.15
+		period 316.816
+		object
+			sprite planet/dust3
+			distance 199
+			period 14.7767
+		object
+			sprite planet/rock0
+			distance 287
+			period 25.5929
+	object
+		sprite planet/gas3
+		distance 1958.79
+		period 980.814
+		object
+			sprite planet/dust5
+			distance 312
+			period 14.0766
+		object
+			sprite planet/luna
+			distance 464
+			period 25.5295
+		object
+			sprite planet/io
+			distance 609
+			period 38.3876
+
 system Mogilvar
 	pos -51496.5 -56249.4
 	government Geeva
@@ -46045,6 +46389,7 @@ system Mogilvar
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 900
 	object
 		sprite star/a5
 		distance 7.15789
@@ -46174,6 +46519,8 @@ system Molelca
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 2000
+	fleet "Geeva Civillian" 800
 	object
 		sprite star/m8
 		period 10
@@ -46541,6 +46888,8 @@ system Morildor
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kroom Kanai" 800
+	fleet "Geeva Battle Fleet" 2500
 	object
 		sprite star/m4
 		period 10
@@ -46562,7 +46911,7 @@ system Morildor
 		period 3129.57
 
 system Morivel
-	pos -51910.1 -55703.9
+	pos -51907.1 -55699.9
 	government Geeva
 	habitable 1080
 	belt 1694
@@ -46584,6 +46933,7 @@ system Morivel
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 800
 	object
 		sprite star/g0
 		period 10
@@ -46636,6 +46986,7 @@ system Morkadul
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kroom Kanai" 1000
 	object
 		sprite star/g0
 		period 10
@@ -47120,6 +47471,7 @@ system Mrovisilr
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1000
 	object
 		sprite star/k0
 		period 10
@@ -47147,6 +47499,72 @@ system Mrovisilr
 			sprite planet/rock0
 			distance 229
 			period 14.1128
+
+system Mteluen
+	pos -49850.2 -55402.5
+	government Erader
+	habitable 425.92
+	belt 1934
+	link Easterla
+	link Muelet
+	link Nordulla
+	asteroids "small rock" 1 2.4864
+	asteroids "medium rock" 9 2.4192
+	asteroids "large rock" 1 3.8976
+	asteroids "small metal" 22 2.352
+	asteroids "medium metal" 10 3.7968
+	asteroids "large metal" 70 1.9152
+	minables iron 28 3.51814
+	minables lead 8 4.3765
+	trade Clothing 300
+	trade Electronics 665
+	trade Equipment 368
+	trade Food 0
+	trade "Heavy Metals" 899
+	trade Industrial 713
+	trade "Luxury Goods" 1285
+	trade Medical 478
+	trade Metal 304
+	trade Plastic 401
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/desert7
+		distance 166.25
+		period 41.5469
+	object
+		sprite planet/gas14
+		distance 563.86
+		period 259.509
+		object
+			sprite planet/europa
+			distance 249
+			period 16.0014
+	object
+		sprite planet/rock9
+		distance 1157.47
+		period 763.239
+		object
+			sprite planet/rock14
+			distance 152
+			period 24.0366
+	object
+		sprite planet/uranus
+		distance 1916.48
+		period 1626.12
+		object
+			sprite planet/dust7
+			distance 240
+			period 15.8851
+		object
+			sprite planet/desert4
+			distance 331
+			period 25.7285
+		object
+			sprite planet/dust3
+			distance 474
+			period 44.0901
 
 system "Mu ii"
 	pos -50930.6 -52977.8
@@ -47338,6 +47756,8 @@ system Muelet
 	government Erader
 	habitable 553.28
 	belt 1872
+	link Mteluen
+	link Voimira
 	link Yuruar
 	asteroids "large rock" 2 5.875
 	asteroids "small metal" 20 7.9375
@@ -47408,6 +47828,8 @@ system Mugorle
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kakaima Defense" 800
+	fleet "Kroom Kanai" 2200
 	object
 		sprite star/k5
 		period 10
@@ -47745,7 +48167,7 @@ system Mukoglee
 			period 64.1188
 
 system Mukorka
-	pos -51308.7 -56727.7
+	pos -51321.1 -56707.4
 	government "Kroom Kakaima"
 	habitable 320
 	belt 1763
@@ -47768,6 +48190,7 @@ system Mukorka
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kakaima Defense" 800
 	object
 		sprite star/m0
 		period 10
@@ -47816,6 +48239,7 @@ system Mukorrai
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kakaima Defense" 1200
 	object
 		sprite star/k0
 		period 10
@@ -47928,6 +48352,7 @@ system Mukurva
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kakaima Defense" 800
 	object
 		sprite star/g0
 		period 10
@@ -48551,6 +48976,7 @@ system Mutorlel
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 800
 	object
 		sprite star/k0
 		period 10
@@ -48603,6 +49029,7 @@ system Myscovil
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1200
 	object
 		sprite star/f5
 		distance 16.0393
@@ -48712,6 +49139,8 @@ system Myveris
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 800
+	fleet "Geeva Civillian" 1000
 	object
 		sprite star/f5
 		period 10
@@ -48772,6 +49201,7 @@ system Myvismir
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1500
 	object
 		sprite star/g5
 		period 10
@@ -49622,6 +50052,7 @@ system Navelir
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1000
 	object
 		sprite star/g5
 		period 10
@@ -49793,6 +50224,7 @@ system Neflim
 	belt 1407
 	link Cilvasrie
 	link Ganet
+	link Mixilvar
 	asteroids "small rock" 21 3.5904
 	asteroids "medium rock" 10 6.9168
 	asteroids "large rock" 25 4.488
@@ -49801,7 +50233,7 @@ system Neflim
 	asteroids "large metal" 19 4.4352
 	minables copper 1 5.79389
 	minables titanium 4 5.33696
-	fleet "Geeva Battle Fleet" 900
+	fleet "Geeva Battle Fleet" 2000
 	fleet "Geeva Civillian" 800
 	object
 		sprite star/g0
@@ -50787,6 +51219,7 @@ system Nikavel
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1000
 	object
 		sprite star/a5
 		distance 14.8418
@@ -51174,6 +51607,7 @@ system Nordulla
 	habitable 1080
 	belt 1898
 	link Gelgolunel
+	link Mteluen
 	link Uronuar
 	link Voimira
 	asteroids "small rock" 40 3.5322
@@ -51690,6 +52124,7 @@ system Nugekkor
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kroom Kanai" 800
 	object
 		sprite star/f5
 		distance 22.4805
@@ -51744,6 +52179,8 @@ system Nugorel
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kroom Kanai" 800
+	fleet "Kakaima Defense" 4200
 	object
 		sprite star/g0
 		period 10
@@ -52458,7 +52895,8 @@ system Oebade
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
-	fleet "Zis Heavy Patrol Fleet" 15000
+	fleet "Geeva Battle Fleet" 1200
+	fleet "Geeva Civillian" 800
 	object
 		sprite star/k0
 		distance 42.9374
@@ -52701,6 +53139,8 @@ system Oivacur
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 2000
+	fleet "Geeva Civillian" 800
 	object
 		sprite star/g0
 		distance 26.8689
@@ -52826,6 +53266,7 @@ system Okasor
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kroom Kanai" 600
 	object
 		sprite star/g5
 		distance 29.1217
@@ -52897,6 +53338,7 @@ system Okelnei
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kakaima Defense" 800
 	object
 		sprite star/f5
 		period 10
@@ -53084,6 +53526,7 @@ system Okugar
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kakaima Defense" 800
 	object
 		sprite star/k5
 		period 10
@@ -53517,7 +53960,6 @@ system Omili
 	asteroids "large metal" 30 1.75
 	minables iron 8 3.95254
 	fleet "Kroom Kanai" 800
-	fleet "Kakaima Defense" 1200
 	object
 		sprite star/g5
 		period 10
@@ -53567,6 +54009,8 @@ system Omudor
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kakaima Defense" 800
+	fleet "Kroom Kanai" 22000
 	object
 		sprite star/g5
 		distance 61.5
@@ -53975,6 +54419,7 @@ system Orkervl
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1200
 	object
 		sprite star/g5
 		period 10
@@ -54358,6 +54803,8 @@ system "Panmur Kaul"
 	trade Medical 463
 	trade Metal 238
 	trade Plastic 343
+	fleet "Dels Outward Merchant" 22000
+	fleet "Dels Kaote" 1000
 	object
 		sprite star/f5
 		period 10
@@ -54409,6 +54856,7 @@ system Pellavin
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 800
 	object
 		sprite star/k0
 		distance 44.0323
@@ -54545,6 +54993,7 @@ system Petrives
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 2000
 	object
 		sprite star/k5
 		distance 45.045
@@ -54599,6 +55048,7 @@ system Pilmier
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1000
 	object
 		sprite star/k0
 		period 10
@@ -54656,6 +55106,7 @@ system Piltakir
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1500
 	object
 		sprite star/g5
 		distance 41.5898
@@ -54720,6 +55171,7 @@ system Pivaris
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 800
 	object
 		sprite star/g0
 		distance 39.1412
@@ -54769,6 +55221,7 @@ system Portivil
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1500
 	object
 		sprite star/k5
 		period 10
@@ -54824,6 +55277,7 @@ system Prudeiko
 	trade Metal 228
 	trade Plastic 356
 	fleet "Dels Outward Merchant" 2000
+	fleet "Dels Kaote" 1000
 	object
 		sprite star/f5
 		distance 20.2921
@@ -55030,6 +55484,7 @@ system Pyvors
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 2000
 	object
 		sprite star/m4
 		period 10
@@ -58513,6 +58968,7 @@ system Regullo
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kakaima Defense" 800
 	object
 		sprite star/g0
 		distance 45.8211
@@ -58936,6 +59392,8 @@ system Rekulervel
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kakaima Defense" 800
+	fleet "Geeva Battle Fleet" 2000
 	object
 		sprite star/g5
 		period 10
@@ -59869,8 +60327,8 @@ system Rilgeril
 	asteroids "large metal" 2 7.14
 	minables lead 6 6.43544
 	minables titanium 9 6.31671
-	fleet "Geeva Battle Fleet" 900
-	fleet "Geeva Civillian" 800
+	fleet "Geeva Battle Fleet" 1600
+	fleet "Geeva Civillian" 600
 	object
 		sprite star/m4
 		period 10
@@ -59912,7 +60370,7 @@ system Riliga
 	minables iron 1 3.97251
 	minables tungsten 1 5.03369
 	fleet "Kroom Kanai" 800
-	fleet "Kakaima Defense" 3200
+	fleet "Geeva Battle Fleet" 1200
 	object
 		sprite star/g5
 		period 10
@@ -60037,6 +60495,7 @@ system Rilmerel
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 800
 	object
 		sprite star/m0
 		period 10
@@ -60107,6 +60566,7 @@ system Rilvarel
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1000
 	object
 		sprite star/g5
 		distance 42.5547
@@ -63977,6 +64437,7 @@ system Sikerel
 	government EraderF2
 	habitable 425.92
 	belt 1550
+	link Leinen
 	link Murasai
 	asteroids "medium rock" 5 4.125
 	asteroids "large rock" 1 2.585
@@ -64201,7 +64662,6 @@ system Skuga
 	minables lead 6 4.48612
 	fleet "Kakaima Defense" 800
 	fleet "Kakaima Civillian" 600
-	fleet "Geeva Battle Fleet" 3800
 	object
 		sprite star/m0
 		period 10
@@ -64685,6 +65145,7 @@ system Sturvor
 	fleet "Dels merchant" 600
 	fleet "Dels Outward Merchant" 800
 	fleet "Dels Central Merchant" 600
+	fleet "Dels Kaote" 1400
 	object
 		sprite star/k5
 		period 10
@@ -65457,7 +65918,7 @@ system Taaikeno
 	government Geeva
 	habitable 912.6
 	belt 1574
-	link Fiiktar
+	link Filiktar
 	link Misvirel
 	asteroids "small rock" 4 1.7108
 	asteroids "medium rock" 3 1.7654
@@ -65478,6 +65939,8 @@ system Taaikeno
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1500
+	fleet "Geeva Civillian" 1200
 	object
 		sprite star/k0
 		distance 57.4054
@@ -65546,6 +66009,8 @@ system Tacisive
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1500
+	fleet "Geeva Civillian" 800
 	object
 		sprite star/k5
 		period 10
@@ -65960,6 +66425,7 @@ system Tilverel
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1000
 	object
 		sprite star/k0
 		distance 48.3959
@@ -66308,6 +66774,8 @@ system Tulkurle
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kakaima Defense" 800
+	fleet "Kroom Kanai" 6600
 	object
 		sprite star/g0
 		period 10
@@ -66583,6 +67051,8 @@ system Udileen
 	trade Medical 593
 	trade Metal 291
 	trade Plastic 376
+	fleet "Dels Outward Merchant" 1600
+	fleet "Dels Kaote" 2200
 	object
 		sprite star/k0
 		period 10
@@ -66752,6 +67222,8 @@ system Ugnorvol
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kakaima Defense" 800
+	fleet "Kroom Kanai" 6500
 	object
 		sprite star/g5
 		distance 44.6544
@@ -66996,6 +67468,7 @@ system Ukara
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kroom Kanai" 600
 	object
 		sprite star/g0
 		period 10
@@ -67051,6 +67524,7 @@ system Ukkaru
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kakaima Defense" 800
 	object
 		sprite star/k0
 		distance 43.4041
@@ -67168,6 +67642,7 @@ system Ukmaai
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kroom Kanai" 600
 	object
 		sprite star/k0
 		period 10
@@ -67215,6 +67690,8 @@ system Ukubar
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kakaima Defense" 800
+	fleet "Geeva Battle Fleet" 3000
 	object
 		sprite star/m0
 		period 10
@@ -67280,6 +67757,7 @@ system Ukvore
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kakaima Defense" 800
 	object
 		sprite star/g0
 		distance 10.3333
@@ -67443,6 +67921,7 @@ system Ullervou
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kakaima Defense" 800
 	object
 		sprite star/a5
 		period 10
@@ -67872,6 +68351,9 @@ system Urdori
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kroom Kanai" 800
+	fleet "Kakaima Defense" 3200
+	fleet "Geeva Battle Fleet" 2200
 	object
 		sprite star/m0
 		period 10
@@ -68457,6 +68939,8 @@ system Vaibeilo
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 800
+	fleet "Geeva Civillian" 800
 	object
 		sprite star/k5
 		period 10
@@ -68934,6 +69418,8 @@ system Velivori
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1500
+	fleet "Geeva Civillian" 800
 	object
 		sprite star/g5
 		period 10
@@ -68989,6 +69475,8 @@ system Velmer
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1200
+	fleet "Geeva Civillian" 800
 	object
 		sprite star/k0
 		period 10
@@ -69043,6 +69531,7 @@ system Velnenis
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1600
 	object
 		sprite star/g5
 		period 10
@@ -69932,6 +70421,8 @@ system Viivasir
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1200
+	fleet "Geeva Civillian" 800
 	object
 		sprite star/g0
 		period 10
@@ -70104,6 +70595,7 @@ system Vikerna
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1000
 	object
 		sprite star/f5
 		distance 26.968
@@ -70153,6 +70645,7 @@ system Vikilry
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1500
 	object
 		sprite star/k0
 		period 10
@@ -70223,6 +70716,7 @@ system Vilismar
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1000
 	object
 		sprite star/k5
 		period 10
@@ -70273,6 +70767,8 @@ system Viljerval
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 2000
+	fleet "Geeva Civillian" 800
 	object
 		sprite star/f5
 		distance 36.3248
@@ -70335,6 +70831,8 @@ system Vilkavis
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1500
+	fleet "Geeva Civillian" 800
 	object
 		sprite star/m0
 		period 10
@@ -70392,6 +70890,7 @@ system Vilkia
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1000
 	object
 		sprite star/g5
 		period 10
@@ -70443,6 +70942,7 @@ system Villarmel
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1000
 	object
 		sprite star/m0
 		period 10
@@ -70499,6 +70999,7 @@ system Villecul
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1000
 	object
 		sprite star/f5
 		distance 23.6523
@@ -70563,6 +71064,7 @@ system Vilornel
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 2000
 	object
 		sprite star/k5
 		period 10
@@ -70615,7 +71117,8 @@ system Viltakr
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
-	fleet "Zis Heavy Patrol Fleet" 12000
+	fleet "Geeva Battle Fleet" 800
+	fleet "Geeva Civillian" 1200
 	object
 		sprite star/f5
 		distance 33.9209
@@ -70905,7 +71408,7 @@ system Viselit
 	government Geeva
 	habitable 486.68
 	belt 1987
-	link Fiiktar
+	link Filiktar
 	link Magrilnil
 	link Velmer
 	asteroids "small rock" 1 5.589
@@ -70927,6 +71430,8 @@ system Viselit
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1500
+	fleet "Geeva Civillian" 1000
 	object
 		sprite star/k0
 		period 10
@@ -70992,6 +71497,7 @@ system Visilmara
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 800
 	object
 		sprite star/k5
 		distance 40.326
@@ -71278,6 +71784,7 @@ system Voimira
 	habitable 1080
 	belt 1698
 	link Ivgarret
+	link Muelet
 	link Nordulla
 	asteroids "small rock" 2 6.762
 	asteroids "medium rock" 3 3.542
@@ -71797,6 +72304,7 @@ system Vordeli
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 800
 	object
 		sprite star/g5
 		distance 38.0966
@@ -71896,6 +72404,7 @@ system Vorseli
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1500
 	object
 		sprite star/k5
 		period 10
@@ -71950,6 +72459,7 @@ system Vuburke
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kakaima Defense" 800
 	object
 		sprite star/g5
 		period 10
@@ -72130,6 +72640,7 @@ system Vukder
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kakaima Defense" 800
 	object
 		sprite star/g5
 		period 10
@@ -72194,6 +72705,7 @@ system Vukleda
 	trade Metal 274
 	trade Plastic 378
 	fleet "Dels Outward Merchant" 1000
+	fleet "Dels Kaote" 1200
 	object
 		sprite star/m4
 		distance 39.2229
@@ -72329,6 +72841,7 @@ system Vukuor
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kroom Kanai" 800
 	object
 		sprite star/f5
 		distance 44.8229
@@ -72553,6 +73066,8 @@ system Vutilor
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kakaima Defense" 800
+	fleet "Geeva Battle Fleet" 2000
 	object
 		sprite star/m4
 		period 10
@@ -72984,6 +73499,7 @@ system Xibelna
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Geeva Battle Fleet" 1500
 	object
 		sprite star/k5
 		period 10
@@ -73716,7 +74232,8 @@ system ligar
 	minables titanium 5 7.73964
 	fleet "Kakaima Defense" 800
 	fleet "Kakaima Civillian" 600
-	fleet "Geeva Battle Fleet" 3800
+	fleet "Geeva Battle Fleet" 20000
+	fleet "Kroom Kanai" 2200
 	object
 		sprite star/k5
 		period 10
@@ -74825,8 +75342,7 @@ planet Likveera
 	spaceport .
 
 planet Livaki
-	attributes Geeva
-	landscape land/myrabella2
+	landscape land/moutaingrey0
 	description .
 	spaceport .
 	"required reputation" 1
@@ -75564,6 +76080,11 @@ planet Vetlorui
 	spaceport `The spaceport is crowded with individuals from both races living in harmony.`
 	shipyard "Dels Basic"
 	outfitter "Dels Basic"
+
+planet Vibilen
+	landscape land/sea16-harro
+	description `This is a sparsely populated planet.`
+	spaceport .
 
 planet Vimistr
 	landscape land/sea13-sfiera

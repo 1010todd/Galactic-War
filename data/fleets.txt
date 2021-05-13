@@ -413,6 +413,22 @@ fleet "Kakaima Civillian"
 		"Grakka" 1
 		"Giro" 2
 		
+fleet "Kakaima Logistic" #To replace Civilian"
+	government "Kroom Kakaima"
+	names "Kroom"
+	cargo 1
+	personality
+		confusion 30
+		frugal 
+		plunders
+		disables
+	variant 20
+		"Gikaar" 3
+	variant 15
+		"Gikaar" 5
+		"Grakka" 1
+		"Giro" 2
+		
 fleet "Geeva Battle Fleet"
 	government "Geeva"
 	names "Geeva BF"
