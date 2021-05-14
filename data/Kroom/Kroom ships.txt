@@ -1,13 +1,14 @@
 #Kroom Kakaima
 ship "Grokva"
 	sprite "ship/kroom grokva"
+	thumbnail "thumbnail/kroom grokva thumb"
 	attributes
 		category "Heavy Warship"
 		licenses
 			"Kakaima"
 		"cost" 10000000
 		"shields" 16500
-		"hull" 6000
+		"hull" 8000
 		"required crew" 90
 		"bunks" 120
 		"mass" 700
@@ -24,10 +25,10 @@ ship "Grokva"
 			"hull damage" 1300
 			"hit force" 3900
 	outfits
-		"Krogak Missile Launcher" 2
-		"Krogak Missile" 70
-		"Kroom Blaster Turret" 7
-		"Kroom Anti-Missile Turret" 4
+		"Krogak Missile Launcher" 4
+		"Krogak Missile" 140
+		"Kroom Blaster Turret" 6
+		"Kroom Anti-Missile Turret" 3
 		
 		"Kutsabik Fission Reactor"
 		"Biuger Photovoltaic Panel" 3
@@ -42,25 +43,61 @@ ship "Grokva"
 		"Kompar Steering"
 		"Hyperdrive"
 		
-	turret 0 -159 "Kroom Blaster Turret"
-	turret 0 -118.5 "Kroom Blaster Turret"
-	turret -28.5 -36 "Kroom Anti-Missile Turret"
-	turret 29 -37.5 "Kroom Anti-Missile Turret"
-	turret -28.5 -22.5 "Kroom Blaster Turret"
-	turret 27.5 -20 "Kroom Blaster Turret"
-	turret -28 62 "Kroom Blaster Turret"
-	turret 29 60.5 "Kroom Blaster Turret"
-	turret -28 77 "Kroom Anti-Missile Turret"
-	turret 27.5 78.5 "Kroom Anti-Missile Turret"
-	turret 0 130.5 "Kroom Blaster Turret"
-	fighter 0 88.5
-	fighter 0 88.5
-	fighter 0 88.5
-	fighter 0 88.5
-	gun -25 -126
-	gun 25 -126
-	engine -14 171
-	engine 15 171.5
+	gun -8 -183.5
+	gun 8 -183.5
+	gun -30.5 -202
+	gun 30.5 -202
+	turret -60.5 -127
+	turret 60.5 -127
+	turret -66.5 -48 "Kroom Anti-Missile Turret"
+	turret 66.5 -48 "Kroom Anti-Missile Turret"
+	turret -52 -10
+	turret 52 -10
+	turret -70.5 147
+	turret 70.5 147
+	turret -9.5 -122.5 "Kroom Anti-Missile Turret"
+	engine -33.5 196
+		zoom 1
+		angle 0
+		under
+	engine 33.5 196
+		zoom 1
+		angle 0
+		under
+	"reverse engine" -29 -201
+		zoom .5
+		angle 180
+		under
+	"reverse engine" 29 -201
+		zoom .5
+		angle 180
+		under
+	"steering engine" -39.5 -161.5
+		zoom .5
+		angle 100
+		over
+		right
+	"steering engine" 39.5 -161.5
+		zoom .5
+		angle 260
+		over
+		left
+	"steering engine" -62 174
+		zoom .5
+		angle 90
+		under
+		left
+	"steering engine" 62 174
+		zoom .5
+		angle 270
+		under
+		right
+	bay "fighter" -86.5 14
+	bay "fighter" 86.5 14
+	bay "fighter" -86.5 14
+	bay "fighter" 86.5 14
+	bay "fighter" -86.5 14
+	bay "fighter" 86.5 14
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -93,7 +130,6 @@ ship "Giro"
 			"hit force" 180
 	outfits
 		"Kroom Blaster" 2
-		"Karar Missile Single" 2
 		
 		"Burtal Fuel Cell"
 		"Ekalo Battery Pack"
@@ -102,10 +138,20 @@ ship "Giro"
 		"Kalmo Thruster"
 		"Kalmo Steering"
 		
-	gun -4 -33 "Kroom Blaster"
-	gun 4 -33 "Kroom Blaster"
-	gun -15.5 22.5 "Krogak Missile Single"
-	gun 15.5 22.5 "Krogak Missile Single"
+	gun -10 -28
+	gun 10 -28
+	engine -9.5 34
+		zoom .4
+		angle 0
+		under
+	engine 9.5 34
+		zoom .4
+		angle 0
+		under
+	engine 0 28.5
+		zoom 1
+		angle 0
+		under
 	engine 0 39.5
 	explode "tiny explosion" 15
 	explode "small explosion" 5
