@@ -108,6 +108,7 @@ ship "Grokva"
 
 ship "Giro"
 	sprite "ship/kroom giro"
+	thumbnail "thumbnail/kroom giro thumb"
 	attributes
 		category "Fighter"
 		licenses
@@ -266,6 +267,7 @@ ship "Gikaar"
 	
 ship "Garokka"
 	sprite "ship/kroom garokka"
+	thumbnail "thumbnail/kroom garokka thumb"
 	attributes
 		category "Light Warship"
 		"cost" 460000
@@ -299,10 +301,51 @@ ship "Garokka"
 		"Karmar Steering"
 		"Hyperdrive"
 		
-	gun 20 -11
-	gun -20 -11
-	turret 0 4.5
-	engine 0 47.5
+	gun -20.5 -43.5
+	gun 20.5 -43.5
+	gun -36 -34
+	gun 36 -34
+	turret 0 -12.5
+	engine 0 59.5
+		zoom 1
+		angle 0
+		under
+	engine -13 58
+		zoom .6
+		angle 0
+		under
+	engine 13 58
+		zoom .6
+		angle 0
+		under
+	"reverse engine" -52 -3
+		zoom .4
+		angle 180
+		under
+	"reverse engine" 52 -3
+		zoom .4
+		angle 180
+		under
+	"steering engine" -52 -3
+		zoom .4
+		angle 0
+		under
+		right
+	"steering engine" 52 -3
+		zoom .4
+		angle 0
+		under
+		left
+	"steering engine" -52 7
+		zoom .4
+		angle 0
+		under
+		left
+	"steering engine" 52 7
+		zoom .4
+		angle 0
+		under
+		right
 	explode "tiny explosion" 10
 	explode "small explosion" 20
 	explode "medium explosion" 15
