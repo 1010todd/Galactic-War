@@ -1036,7 +1036,7 @@ fleet "point"
 	variant 1
 		"point" 5
 		
-fleet "Taroun Defense Fleet"
+fleet "Taroun Defense"
 	government "Taroun"
 	names "Taroun"
 	personality
@@ -1048,13 +1048,29 @@ fleet "Taroun Defense Fleet"
 		Eroun 3
 		Oresu 4
 		
-fleet "Taroun Raid Fleet"
+fleet "Taroun Patrol"
 	government "Taroun"
 	names "Taroun"
 	personality
 		heroic
 		vindictive
 		frugal
+		opportunistic
+	variant 4
+		Eroun 1
+		Oresu 2
+	variant 5
+		Oresu 3
+	variant 1
+		Eroun 2
+		Oresu 4
+
+fleet "Taroun Raid"
+	government "Taroun"
+	names "Taroun"
+	personality
+		heroic
+		vindictive
 		opportunistic
 	variant 1
 		Eroun 6
