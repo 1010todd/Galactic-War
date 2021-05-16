@@ -222,6 +222,7 @@ ship "Grakka"
 	
 ship "Gikaar"
 	sprite "ship/kroom gikaar"
+	thumbnail "thumbnail/kroom gikaar thumb"
 	attributes
 		category "Light Freighter"
 		"cost" 440000
@@ -255,10 +256,58 @@ ship "Gikaar"
 		"Karmar Steering"
 		"Hyperdrive"
 		
-	gun -15 -40
-	gun 15 -40
-	turret 0 -17
-	engine 0 49
+	gun -15.5 -50.5
+	gun 15.5 -50.5
+	turret 0 -23.5
+	turret 0 -2
+	engine 0 58.5
+		zoom 1
+		angle 0
+		under
+	engine -11 57.5
+		zoom .7
+		angle 0
+		under
+	engine 11 57.5
+		zoom .7
+		angle 0
+		under
+	"reverse engine" -13.5 -45.5
+		zoom 1
+		angle 180
+		over
+	"reverse engine" 13.5 -45.5
+		zoom 1
+		angle 180
+		over
+	"reverse engine" -20.5 35
+		zoom 1
+		angle 170
+		under
+	"reverse engine" 20.5 35
+		zoom 1
+		angle 190
+		under
+	"steering engine" -15.5 -40.5
+		zoom 1
+		angle 90
+		over
+		right
+	"steering engine" 15.5 -40.5
+		zoom 1
+		angle -90
+		over
+		left
+	"steering engine" -22.5 38
+		zoom 1
+		angle 90
+		under
+		left
+	"steering engine" 22.5 38
+		zoom 1
+		angle -90
+		under
+		right
 	explode "tiny explosion" 10
 	explode "small explosion" 20
 	explode "medium explosion" 15
@@ -328,12 +377,12 @@ ship "Garokka"
 		under
 	"steering engine" -52 -3
 		zoom .4
-		angle 0
+		angle 180
 		under
 		right
 	"steering engine" 52 -3
 		zoom .4
-		angle 0
+		angle 180
 		under
 		left
 	"steering engine" -52 7
