@@ -184,7 +184,7 @@ outfit "Karar Missile Single"
 		"hit force" 30
 		"missile strength" 8
 		"stream"
-	
+#===============================================POWER
 outfit "Ekalo Battery Pack" #M-5
 	category "Power"
 	cost 12000
@@ -295,6 +295,8 @@ outfit "Luketak Fission Reactor"
 	"heat generation" 36
 	"ion protection" .7
 	description ""
+
+#===============================================SYSTEM
 	
 outfit "Keno Shield Generator"
 	category "Systems"
@@ -336,6 +338,8 @@ outfit "Kutkar Shield Generator"
 	"shield energy" .8
 	description ""
 	
+#===============================================ENGINES
+
 outfit "Kalmo Thruster" #Karmo
 	category "Engines"
 	"cost" 22000
@@ -384,7 +388,7 @@ outfit "Kompar Thruster"
 	"slowing protection" .03
 	description ""
 	
-outfit "Karmo Steering" #Karmo
+outfit "Kalmo Steering" #Karmo
 	category "Engines"
 	"cost" 18000
 	thumbnail "outfit/tiny plasma steering"
@@ -394,6 +398,9 @@ outfit "Karmo Steering" #Karmo
 	"turn" 368
 	"turning energy" .4
 	"turning heat" .96
+	"steering flare sprite" "effect/plasma flare/tiny"
+		"frame rate" 5
+	"slowing protection" .01
 	description ""
 	
 outfit "Karmar Steering"
@@ -406,6 +413,9 @@ outfit "Karmar Steering"
 	"turn" 602
 	"turning energy" 0.9
 	"turning heat" 2.3
+	"steering flare sprite" "effect/plasma flare/small"
+		"frame rate" 5
+	"slowing protection" .02
 	description ""
 	
 outfit "Kompar Steering"
@@ -418,21 +428,25 @@ outfit "Kompar Steering"
 	"turn" 2000
 	"turning energy" 3.4
 	"turning heat" 7.8
+	"steering flare sprite" "effect/plasma flare/large"
+		"frame rate" 6
+	"slowing protection" .03
 	description ""
 	
 outfit "Gorka Homai"
 	category "Hand to Hand"
-	cost 4000
+	cost 8000
 	thumbnail "outfit/kroom gorka"
-	"capture attack" .7
-	"capture defense" .7
+	"capture attack" .8
+	"capture defense" .8
 	"unplunderable" 1
-	description "Groka Homai is a gun designed to be small, cheap, compact, and light gun for the Kroom Kanai, this gun uses 8.3*2.3mm rounds each magazine can hold 28 rounds, the magazine have a small hook that can easily attach to a belt, the magazine case is made of something very similar to plastic to be diposable"
-	
+	description "Groka Homai is a cheap compact submachinegun manufactured and used by Kroom Kanai for boarding and capturing Kakaima ships. Due to naturally high resilience of the Kroom these guns were also made to be much more powerful than most other weapon of the same size and can decimate your enemies before you even know it. If it hits."
+
 outfit "Hok O-Homai"
 	category "Hand to Hand"
-	cost 7300
+	cost 10300
 	thumbnail "outfit/kroom hok"
-	"capture attack" 1.1
-	"capture defense" 1.1
+	"capture attack" .7
+	"capture defense" 1.2
 	"unplunderable" 1
+	description "Standard battle rifle used by Kroom Kakaima, much more powerful than Gorka Homai used by the Kanai but less manuverable."
