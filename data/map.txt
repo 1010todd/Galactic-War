@@ -504,7 +504,7 @@ system Agaka
 	minables copper 20 7.58926
 	minables lead 31 5.61311
 	fleet "Geeva Battle Fleet" 2000
-	fleet "Geeva Civillian" 800
+	fleet "Geeva Civillian" 700
 	object
 		sprite star/g5
 		distance 58.5
@@ -810,6 +810,7 @@ system Ailaleli
 	trade Metal 0
 	trade Plastic 0
 	fleet "Geeva Battle Fleet" 2000
+	fleet "Geeva Civillian" 600
 	object
 		sprite star/g0
 		distance 34.1709
@@ -5185,6 +5186,7 @@ system Calinavo
 	trade Metal 0
 	trade Plastic 0
 	fleet "Geeva Battle Fleet" 2000
+	fleet "Geeva Civillian" 700
 	object
 		sprite star/k5
 		period 10
@@ -5793,7 +5795,7 @@ system Cilvasrie
 	trade Metal 0
 	trade Plastic 0
 	fleet "Geeva Battle Fleet" 2000
-	fleet "Geeva Civillian" 800
+	fleet "Geeva Civillian" 600
 	object
 		sprite star/k0
 		period 10
@@ -12527,6 +12529,7 @@ system Elivanis
 	trade Metal 0
 	trade Plastic 0
 	fleet "Geeva Battle Fleet" 2000
+	fleet "Geeva Civillian" 700
 	object
 		sprite star/g0
 		distance 33.374
@@ -15938,6 +15941,7 @@ system Filvairi
 	trade Metal 0
 	trade Plastic 0
 	fleet "Geeva Battle Fleet" 2000
+	fleet "Geeva Civillian" 600
 	object
 		sprite star/a5
 		distance 8.18045
@@ -16278,7 +16282,7 @@ system Flama
 	minables lead 9 2.0265
 	minables neodymium 1 2.80492
 	fleet "Geeva Battle Fleet" 2000
-	fleet "Geeva Civillian" 800
+	fleet "Geeva Civillian" 600
 	object
 		sprite star/g5
 		distance 43.341
@@ -17051,7 +17055,7 @@ system Ganet
 	asteroids "large metal" 76 3.036
 	minables lead 6 4.31995
 	fleet "Geeva Battle Fleet" 2000
-	fleet "Geeva Civillian" 800
+	fleet "Geeva Civillian" 600
 	object
 		sprite star/m4
 		period 10
@@ -19064,7 +19068,7 @@ system Givilor
 	minables tungsten 7 4.29236
 	minables uranium 4 3.82157
 	fleet "Geeva Battle Fleet" 2000
-	fleet "Geeva Civillian" 800
+	fleet "Geeva Civillian" 600
 	object
 		sprite star/m0
 		period 10
@@ -25529,6 +25533,7 @@ system Ilgalia
 	trade Metal 0
 	trade Plastic 0
 	fleet "Geeva Battle Fleet" 1000
+	fleet "Geeva Civillian" 700
 	object
 		sprite star/m4
 		period 10
@@ -27347,6 +27352,7 @@ system Ivilnervi
 	trade Metal 0
 	trade Plastic 0
 	fleet "Geeva Battle Fleet" 2000
+	fleet "Geeva Civillian" 700
 	object
 		sprite star/b5
 		period 10
@@ -30920,6 +30926,49 @@ system Keios
 			sprite planet/rock17
 			distance 572
 			period 35.9318
+
+system Keisha
+	pos -49542.1 -55662.8
+	government EraderF2
+	habitable 425.92
+	belt 1652
+	link Madou
+	asteroids "small rock" 5 2.5152
+	asteroids "medium rock" 19 2.3424
+	asteroids "large rock" 17 2.016
+	asteroids "small metal" 17 1.248
+	asteroids "medium metal" 8 2.1504
+	asteroids "large metal" 15 2.7264
+	minables tungsten 4 2.63167
+	trade Clothing 369
+	trade Electronics 745
+	trade Equipment 429
+	trade Food 0
+	trade "Heavy Metals" 973
+	trade Industrial 655
+	trade "Luxury Goods" 1133
+	trade Medical 620
+	trade Metal 241
+	trade Plastic 405
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/lava4
+		distance 146.25
+		period 34.2799
+	object
+		sprite planet/gas11
+		distance 551.26
+		period 250.86
+	object
+		sprite planet/ice0
+		distance 1221.26
+		period 827.196
+	object
+		sprite planet/gas4
+		distance 2196.15
+		period 1994.75
 
 system Kelarral
 	pos -50157.8 -55209
@@ -38218,6 +38267,7 @@ system Koudak
 	habitable 659.2
 	belt 1301
 	link Madou
+	link Sokeri
 	asteroids "large metal" 1 2.397
 	trade Clothing 369
 	trade Electronics 745
@@ -41834,7 +41884,7 @@ system Lilamil
 	trade Metal 0
 	trade Plastic 0
 	fleet "Geeva Battle Fleet" 2000
-	fleet "Geeva Civillian" 800
+	fleet "Geeva Civillian" 600
 	object
 		sprite star/g5
 		distance 52.9723
@@ -41895,7 +41945,7 @@ system Lilima
 	minables lead 11 11.5788
 	minables platinum 3 9.63617
 	fleet "Geeva Battle Fleet" 2000
-	fleet "Geeva Civillian" 800
+	fleet "Geeva Civillian" 600
 	object
 		sprite star/k5
 		period 10
@@ -42009,6 +42059,7 @@ system Lilmari
 	trade Metal 0
 	trade Plastic 0
 	fleet "Geeva Battle Fleet" 1500
+	fleet "Geeva Civillian" 700
 	object
 		sprite star/f5
 		period 10
@@ -44184,6 +44235,7 @@ system Madou
 	habitable 233.28
 	belt 1930
 	link Ismalei
+	link Keisha
 	link Koudak
 	asteroids "small rock" 6 3.5464
 	asteroids "medium rock" 2 2.1736
@@ -45255,6 +45307,7 @@ system Malelnal
 	trade Metal 0
 	trade Plastic 0
 	fleet "Geeva Battle Fleet" 2000
+	fleet "Geeva Civillian" 600
 	object
 		sprite star/f5
 		distance 22.9891
@@ -47411,7 +47464,7 @@ system Melkartor
 	trade Metal 0
 	trade Plastic 0
 	fleet "Geeva Battle Fleet" 2000
-	fleet "Geeva Civillian" 800
+	fleet "Geeva Civillian" 600
 	object
 		sprite star/g0
 		period 10
@@ -48415,6 +48468,7 @@ system Milcure
 	trade Metal 0
 	trade Plastic 0
 	fleet "Geeva Battle Fleet" 2000
+	fleet "Geeva Civillian" 700
 	object
 		sprite star/m0
 		distance 51
@@ -48478,6 +48532,7 @@ system Milineila
 	trade Metal 0
 	trade Plastic 0
 	fleet "Geeva Battle Fleet" 2000
+	fleet "Geeva Civillian" 600
 	object
 		sprite star/m0
 		period 10
@@ -48521,6 +48576,7 @@ system Milkirvy
 	trade Metal 0
 	trade Plastic 0
 	fleet "Geeva Battle Fleet" 2000
+	fleet "Geeva Civillian" 700
 	object
 		sprite star/k5
 		period 10
@@ -48915,6 +48971,7 @@ system Mivaril
 	trade Metal 0
 	trade Plastic 0
 	fleet "Geeva Battle Fleet" 1500
+	fleet "Geeva Civillian" 700
 	object
 		sprite star/a0
 		period 10
@@ -49012,6 +49069,7 @@ system Mixilvar
 	trade Metal 0
 	trade Plastic 0
 	fleet "Geeva Battle Fleet" 2000
+	fleet "Geeva Civillian" 800
 	object
 		sprite star/g5
 		distance 49.5
@@ -49268,7 +49326,7 @@ system Molelca
 	trade Metal 0
 	trade Plastic 0
 	fleet "Geeva Battle Fleet" 2000
-	fleet "Geeva Civillian" 800
+	fleet "Geeva Civillian" 600
 	object
 		sprite star/m8
 		period 10
@@ -53176,7 +53234,7 @@ system Neflim
 	minables copper 1 5.79389
 	minables titanium 4 5.33696
 	fleet "Geeva Battle Fleet" 2000
-	fleet "Geeva Civillian" 800
+	fleet "Geeva Civillian" 600
 	object
 		sprite star/g0
 		period 10
@@ -56198,7 +56256,7 @@ system Oivacur
 	trade Metal 0
 	trade Plastic 0
 	fleet "Geeva Battle Fleet" 2000
-	fleet "Geeva Civillian" 800
+	fleet "Geeva Civillian" 600
 	object
 		sprite star/g0
 		distance 26.8689
@@ -58056,6 +58114,7 @@ system Petrives
 	trade Metal 0
 	trade Plastic 0
 	fleet "Geeva Battle Fleet" 2000
+	fleet "Geeva Civillian" 700
 	object
 		sprite star/k5
 		distance 45.045
@@ -58284,6 +58343,7 @@ system Portivil
 	trade Metal 0
 	trade Plastic 0
 	fleet "Geeva Battle Fleet" 1500
+	fleet "Geeva Civillian" 600
 	object
 		sprite star/k5
 		period 10
@@ -58547,6 +58607,7 @@ system Pyvors
 	trade Metal 0
 	trade Plastic 0
 	fleet "Geeva Battle Fleet" 2000
+	fleet "Geeva Civillian" 600
 	object
 		sprite star/m4
 		period 10
@@ -67106,6 +67167,51 @@ system Seilerei
 			distance 368
 			period 28.7495
 
+system Seishen
+	pos -49576.1 -55567.8
+	government EraderF2
+	habitable 625
+	belt 1464
+	link Shikarn
+	asteroids "small rock" 1 2.1714
+	asteroids "medium rock" 2 1.8942
+	asteroids "large rock" 17 2.772
+	asteroids "large metal" 1 1.3398
+	minables neodymium 5 4.99142
+	trade Clothing 369
+	trade Electronics 745
+	trade Equipment 429
+	trade Food 0
+	trade "Heavy Metals" 973
+	trade Industrial 655
+	trade "Luxury Goods" 1133
+	trade Medical 620
+	trade Metal 241
+	trade Plastic 405
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/rock8
+		distance 140.25
+		period 26.5751
+	object
+		sprite planet/forest2
+		distance 494.09
+		period 175.723
+	object
+		sprite planet/gas1
+		distance 985.53
+		period 495.022
+	object
+		sprite planet/europa
+		distance 1499.78
+		period 929.312
+	object
+		sprite planet/luna
+		distance 3467.78
+		period 3267.36
+
 system Sellorse
 	pos -50056.9 -55541.9
 	government Erader
@@ -67573,6 +67679,7 @@ system Shikarn
 	government EraderF2
 	habitable 2035
 	belt 1351
+	link Seishen
 	link Sikerel
 	asteroids "large metal" 1 1.4616
 	trade Clothing 369
@@ -68291,6 +68398,53 @@ system Sokel
 			sprite planet/lava0
 			distance 407
 			period 21.5663
+
+system Sokeri
+	pos -49496.1 -55726.8
+	government EraderF2
+	habitable 425.92
+	belt 1762
+	link Koudak
+	asteroids "medium rock" 7 1.428
+	asteroids "large rock" 4 0.9072
+	asteroids "small metal" 8 2.436
+	asteroids "medium metal" 7 1.7976
+	asteroids "large metal" 3 1.5456
+	minables iron 1 2.16605
+	minables lead 3 1.76685
+	trade Clothing 369
+	trade Electronics 745
+	trade Equipment 429
+	trade Food 0
+	trade "Heavy Metals" 973
+	trade Industrial 655
+	trade "Luxury Goods" 1133
+	trade Medical 620
+	trade Metal 241
+	trade Plastic 405
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/rock11
+		distance 158.36
+		period 38.6246
+	object
+		sprite planet/cloud5
+		distance 504.8
+		period 219.824
+	object
+		sprite planet/gas14
+		distance 1060.84
+		period 669.685
+	object
+		sprite planet/dust0
+		distance 1528.88
+		period 1158.66
+	object
+		sprite planet/dust7
+		distance 3341.32
+		period 3743.46
 
 system Sorel
 	pos -49942 -54865.4
@@ -74443,7 +74597,7 @@ system Vilkavis
 	trade Metal 0
 	trade Plastic 0
 	fleet "Geeva Battle Fleet" 1500
-	fleet "Geeva Civillian" 800
+	fleet "Geeva Civillian" 700
 	object
 		sprite star/m0
 		period 10
@@ -74676,6 +74830,7 @@ system Vilornel
 	trade Metal 0
 	trade Plastic 0
 	fleet "Geeva Battle Fleet" 2000
+	fleet "Geeva Civillian" 600
 	object
 		sprite star/k5
 		period 10
@@ -76078,6 +76233,7 @@ system Vorseli
 	trade Metal 0
 	trade Plastic 0
 	fleet "Geeva Battle Fleet" 1500
+	fleet "Geeva Civillian" 600
 	object
 		sprite star/k5
 		period 10
@@ -79901,4 +80057,12 @@ planet Zionetyr
 	description `Zionetyr is a very dry planet home to a few of the toughest plants and animal. Majority of the planet surface remains untouched, as there is nothing to do here. However, you can spot a few military drones screening the planet every now and then, yet for what reason is unknown.`
 	spaceport `There is not designated parking, just an empty flat land on dirt with fuel pipe running out of a small concrete building. `
 	outfitter "Zorcn Basic Ammo"
+
+planet ""
+	description .
+	spaceport .
+	shipyard plugin
+	shipyard developer
+	outfitter plugin
+	outfitter developer
 
