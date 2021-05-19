@@ -50,6 +50,9 @@ ship "Zorcn Augyr"
 		"outfit space" 250
 		"weapon capacity" 100
 		"engine capacity" 60
+		"hull repair rate" .1
+		"hull energy" .1
+		"repair delay" 30
 		weapon
 			"blast radius" 30
 			"shield damage" 300
@@ -64,6 +67,7 @@ ship "Zorcn Augyr"
 		"Euman Power Cell"
 		"Nuxin Capacitor"
 		"Korbus Shield Generator"
+		"Erlyus Repair Drones"
 		"P-type Heat Re-distributor"
 		
 		"Haron Thruster"
@@ -104,6 +108,9 @@ ship "Zorcn Mausr"
 		"outfit space" 195
 		"weapon capacity" 50
 		"engine capacity" 70
+		"hull repair rate" .1
+		"hull energy" .1
+		"repair delay" 30
 		weapon
 			"blast radius" 24
 			"shield damage" 240
@@ -117,6 +124,7 @@ ship "Zorcn Mausr"
 		"Euman Power Cell"
 		"Nuxin Capacitor"
 		"Nitil Shielding System"
+		"Erlyus Repair Drones"
 		
 		"Haron Thruster"
 		"Haron Steering"
@@ -193,6 +201,9 @@ ship "Zorcn Eytis"
 		"outfit space" 210
 		"weapon capacity" 35
 		"engine capacity" 60
+		"hull repair rate" .1
+		"hull energy" .1
+		"repair delay" 30
 		weapon
 			"blast radius" 12
 			"shield damage" 120
@@ -200,10 +211,12 @@ ship "Zorcn Eytis"
 			"hit force" 180
 	outfits
 		"Huer CIWS Turret" 2 
+
 		"Euman Power Cell"
 		"Nuxin Capacitor"
 		"Eaur Power Cell"
 		"Korbus Shield Generator"
+		"Erlyus Repair Drones"
 		
 		"Haron Thruster"
 		"Haron Steering"
@@ -235,6 +248,9 @@ ship "Zorcn Bytis"
 		"outfit space" 210
 		"weapon capacity" 35
 		"engine capacity" 60
+		"hull repair rate" .1
+		"hull energy" .1
+		"repair delay" 30
 		weapon
 			"blast radius" 12
 			"shield damage" 120
@@ -242,10 +258,12 @@ ship "Zorcn Bytis"
 			"hit force" 180
 	outfits
 		"Huer CIWS Turret" 2 
+
 		"Euman Power Cell"
 		"Nuxin Capacitor"
 		"Eaur Power Cell"
 		"Korbus Shield Generator"
+		"Erlyus Repair Drones"
 		
 		"Haron Thruster"
 		"Haron Steering"
@@ -278,6 +296,9 @@ ship "Zorcn Enntr"
 		"outfit space" 260
 		"weapon capacity" 55
 		"engine capacity" 70
+		"hull repair rate" .1
+		"hull energy" .1
+		"repair delay" 30
 		weapon
 			"blast radius" 12
 			"shield damage" 120
@@ -285,10 +306,12 @@ ship "Zorcn Enntr"
 			"hit force" 180
 	outfits
 		"Huer II CIWS Turret" 2
+
 		"Euman Power Cell"
 		"Nuxin Capacitor"
 		"Eaur Power Cell" 2
 		"Korbus Shield Generator"
+		"Kiacle Repair Drones"
 		"Luxury Accommodations"
 		
 		"Haron Thruster"
@@ -324,6 +347,9 @@ ship "Zorcn Beltr"
 		"outfit space" 190
 		"weapon capacity" 35
 		"engine capacity" 40
+		"hull repair rate" .1
+		"hull energy" .1
+		"repair delay" 30
 		weapon
 			"blast radius" 40
 			"shield damage" 400
@@ -335,6 +361,7 @@ ship "Zorcn Beltr"
 		"Euman Power Cell"
 		"Nuxin Capacitor"
 		"Korbus Shield Generator"
+		"Kiacle Repair Drones"
 		"P-type Heat Re-distributor"
 		
 		"Haahesn Thruster"
@@ -368,6 +395,9 @@ ship "Zorcn Bermas"
 		"outfit space" 260
 		"weapon capacity" 60
 		"engine capacity" 55
+		"hull repair rate" .1
+		"hull energy" .1
+		"repair delay" 30
 		weapon
 			"blast radius" 40
 			"shield damage" 400
@@ -379,6 +409,7 @@ ship "Zorcn Bermas"
 		"Euman Power Cell"
 		"Nuxin Capacitor"
 		"Korbus Shield Generator"
+		"Erlyus Repair Drones"
 		"P-type Heat Re-distributor"
 		
 		"Haron Thruster"
@@ -415,6 +446,9 @@ ship "Zorcn Barsten"
 		"outfit space" 330
 		"weapon capacity" 140
 		"engine capacity" 70
+		"hull repair rate" .2
+		"hull energy" .2
+		"repair delay" 30
 		weapon
 			"blast radius" 40
 			"shield damage" 400
@@ -431,6 +465,7 @@ ship "Zorcn Barsten"
 		"Euman Power Cell"
 		"Nuxin Capacitor"
 		"Korbus Shield Generator"
+		"Kiacle Repair Drones"
 		"P-type Heat Re-distributor"
 		
 		"Haron Reverse Thruster"
@@ -474,6 +509,9 @@ ship "Zorcn Vixta"
 		"engine capacity" 60
 		"tactical scan power" 25
 		"radar jamming" 4
+		"hull repair rate" .2
+		"hull energy" .2
+		"repair delay" 30
 		weapon
 			"blast radius" 40
 			"shield damage" 400
@@ -487,6 +525,7 @@ ship "Zorcn Vixta"
 		"Eaur Power Cell"
 		"Euman Power Cell"
 		"Nuxin Capacitor"
+		"Kiacle Repair Drones"
 		"P-type Heat Re-distributor"
 		
 		"Haron Thruster"
@@ -527,6 +566,9 @@ ship "Zorcn Nuar'an"
 		"outfit space" 330
 		"weapon capacity" 90
 		"engine capacity" 70
+		"hull repair rate" .1
+		"hull energy" .1
+		"repair delay" 30
 		weapon
 			"blast radius" 40
 			"shield damage" 400
@@ -540,6 +582,7 @@ ship "Zorcn Nuar'an"
 		"Euman Power Cell"
 		"Nuxin Capacitor"
 		"Korbus Shield Generator"
+		"Erlyus Repair Drones"
 		"P-type Heat Re-distributor"
 		
 		"Haron Reverse Thruster"
@@ -576,6 +619,9 @@ ship "Zorcn Emaryt"
 		"weapon capacity" 125
 		"engine capacity" 190
 		"tactical scan power" 15
+		"hull repair rate" .2
+		"hull energy" .2
+		"repair delay" 30
 		weapon
 			"blast radius" 120
 			"shield damage" 1200
@@ -589,6 +635,7 @@ ship "Zorcn Emaryt"
 		"Rcke Generator"
 		"Nuxin Capacitor"
 		"Kussn Shield Generator"
+		"Kiacle Repair Drones"
 		"Large Radar Jammer" #Placeholder
 		"Liquid Helium Cooler" 
 		
@@ -635,6 +682,9 @@ ship "Zorcn Mtyr"
 		"weapon capacity" 270
 		"engine capacity" 190
 		"tactical scan power" 30
+		"hull repair rate" .2
+		"hull energy" .2
+		"repair delay" 45
 		weapon
 			"blast radius" 120
 			"shield damage" 1200
@@ -650,6 +700,7 @@ ship "Zorcn Mtyr"
 		"Rcke Generator"
 		"Nuxin Capacitor"
 		"Nitil Shielding System"
+		"Lvrken Repair Drones"
 		"Large Radar Jammer" #Placeholder
 		"Liquid Helium Cooler" 
 		"Hyut SMG" 8
@@ -704,6 +755,9 @@ ship "Zorcn Bitorn"
 		"outfit space" 570
 		"weapon capacity" 170
 		"engine capacity" 190
+		"hull repair rate" .2
+		"hull energy" .2
+		"repair delay" 45
 		weapon
 			"blast radius" 120
 			"shield damage" 1200
@@ -718,6 +772,7 @@ ship "Zorcn Bitorn"
 		"Rcke Generator"
 		"Nuxin Capacitor"
 		"Korbus Shield Generator"
+		"Kubr Repair Drones"
 		"Liquid Helium Cooler"
 		
 		"Hvean Reverse Thruster"
@@ -767,6 +822,9 @@ ship "Zorcn Vorrix"
 		"weapon capacity" 200
 		"engine capacity" 90
 		"tactical scan power" 30
+		"hull repair rate" .3
+		"hull energy" .35
+		"repair delay" 45
 		weapon
 			"blast radius" 120
 			"shield damage" 1200
@@ -782,6 +840,7 @@ ship "Zorcn Vorrix"
 		"Rcke Generator"
 		"Nuxin Capacitor"
 		"Kussn Shield Generator"
+		"Kubr Repair Drones"
 		"Large Radar Jammer" #Placeholder
 		"Liquid Helium Cooler"
 		"Hyut SMG" 8
@@ -835,6 +894,9 @@ ship "Zorcn Inckv"
 		"cargo scan speed" 1
 		"tactical scan power" 40
 		"vertical launching support" 8
+		"hull repair rate" .35
+		"hull energy" .35
+		"repair delay" 45
 		weapon
 			"blast radius" 300
 			"shield damage" 3000
@@ -856,6 +918,7 @@ ship "Zorcn Inckv"
 		"Rcke Generator"
 		"Nuxin Capacitor"
 		"Kussn Shield Generator"
+		"Lvrken Repair Drones"
 		"Large Radar Jammer"
 		"Liquid Helium Cooler"
 		
@@ -918,6 +981,9 @@ ship "Zorcn Itrras"
 		"cargo scan speed" 1
 		"tactical scan power" 30
 		"scan interference" 2
+		"hull repair rate" .35
+		"hull energy" .35
+		"repair delay" 45
 		weapon
 			"blast radius" 300
 			"shield damage" 3000
@@ -933,6 +999,7 @@ ship "Zorcn Itrras"
 		"Rcke Generator"
 		"Nuxin Capacitor"
 		"Kussn Shield Generator"
+		"Lvrken Repair Drones"
 		"Large Radar Jammer"
 		"Liquid Helium Cooler"
 		
@@ -991,6 +1058,9 @@ ship "Zorcn Genex"
 		"cargo scan power" 34
 		"cargo scan speed" 2
 		"tactical scan power" 45
+		"hull repair rate" .35
+		"hull energy" .35
+		"repair delay" 45
 		weapon
 			"blast radius" 300
 			"shield damage" 3000
@@ -1010,6 +1080,7 @@ ship "Zorcn Genex"
 		"Rcke Generator"
 		"Nuxin Capacitor" 2
 		"Kussn Shield Generator"
+		"Lvrken Repair Drones"
 		"Large Radar Jammer" 2
 		"Liquid Helium Cooler"
 		
@@ -1079,6 +1150,9 @@ ship "Zorcn Xima"
 		"cargo scan power" 88
 		"cargo scan speed" 2
 		"tactical scan power" 90
+		"hull repair rate" .5
+		"hull energy" .5
+		"repair delay" 50
 		weapon
 			"blast radius" 300
 			"shield damage" 3000
@@ -1098,6 +1172,7 @@ ship "Zorcn Xima"
 		"Rcke Generator" 2
 		"Nuxin Capacitor" 2
 		"Kussn Shield Generator" 2
+		"Lvrken Repair Drones" 2
 		"Large Radar Jammer" 2
 		"Liquid Helium Cooler"
 		
