@@ -683,7 +683,7 @@ outfit "Ronc Pod"
 		"hit effect" "tiny explosion"
 		"hit effect" "smoke" 2
 		"live effect" "ronc dust" 50
-		"inaccuracy" 3
+		"inaccuracy" 4
 		"velocity" 30
 		"random velocity" 2
 		"acceleration" .2
@@ -699,7 +699,7 @@ outfit "Ronc Pod"
 		"firing force" 12
 		"missile strength" 2
 		"blast radius" 5
-	description ""
+	description "Unguided rockets fired in large burst to overwhelm the enemy's missile defence."
 	
 outfit "Ronc Turret"
 	category "Secondary Weapons"
@@ -838,7 +838,7 @@ outfit "Durnske VLS"
 outfit "Funes Missile Launcher"
 	category "Secondary Weapons"
 	cost 80000
-	thumbnail "outfit/sidewinder launcher"
+	thumbnail "outfit/zorcn muaner launcher"
 	"mass" 7
 	"outfit space" -20
 	"weapon capacity" -20
