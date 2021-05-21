@@ -108,9 +108,6 @@ government "Wallagi"
 	"attitude toward"
 		"Ultaka" -.1
 		"Dels (Pirate)" -.1
-		"Koman" -.1
-		"Qanse" -.1
-		"Aumar" 1
 		
 government "Dels" #Merchant
 	swizzle 0
@@ -121,6 +118,7 @@ government "Dels" #Merchant
 		"Ultaka" -1
 		"Revos" -.1
 		"Dels (Pirate)" -.1
+		"Kroom Kakaima" -.1
 		
 government "Dels Dardornai" #Government 2 fullname: Dardornai Kar Meda
 	swizzle 0
@@ -132,6 +130,7 @@ government "Dels Dardornai" #Government 2 fullname: Dardornai Kar Meda
 		#"Revos" -.1
 		"Dels Ufulre" -.1
 		"Dels" .1
+		"Kroom Kakaima" -.2
 		
 government "Dels Kaote" #Government 1 fullname: Prada Kaote
 	swizzle 0
@@ -196,9 +195,6 @@ government "Qoro (North)"
 	language "Qeuin"
 	"player reputation" -1
 	"attitude toward"
-		"Ultaka" -1
-		"Donko" -.1
-		"Dels" -.1
 		"Qoro (East)" -.1
 		
 government "Qoro (East)"
@@ -207,9 +203,6 @@ government "Qoro (East)"
 	language "Qeuin"
 	"player reputation" 1
 	"attitude toward"
-		"Wallagi" 1
-		"Ultaka" -1
-		"Donko" .1
 		"Qoro (North)" -.1
 		
 government "Qanse"
@@ -218,10 +211,6 @@ government "Qanse"
 	language "Qanse"
 	"player reputation" -10
 	"attitude toward"
-		"Ultaka" 1
-		"Wallagi" -.1
-		"Dels" -.1
-		"Revos" -.1
 		
 government "Geeva"
 	swizzle 6
@@ -242,6 +231,9 @@ government "Kroom Kakaima"
 	"attitude toward"
 		"Geeva" -.1
 		"Kroom Kanai" -.1
+		"Dels" -.1
+		"Dels Kaote" -.2
+		"Dels Dardornai" -.2
 		
 government "Kroom Kanai"
 	swizzle 0
@@ -267,6 +259,8 @@ government "Kager Ignaggen" #Ignaggen Guard
 	"attitude toward"
 		#"Wallagi" .1
 		"Dels" .1
+		"Dels Dardornai" .1
+		"Dels Kaote" .1
 		"Ignaggen(Outlaw)" -.1
 		"Ignaggen" 1
 		
@@ -277,7 +271,6 @@ government "Ignaggen(Outlaw)"
 	"attitude toward"
 		"Wallagi" -.1
 		"Ignaggen" -.1
-		"Kager Military" -.1
 		"Dels" -.1
 		
 government "Erm"
@@ -288,7 +281,6 @@ government "Erm"
 	"attitude toward"
 		"Ultaka" -.1
 		"Resmakia" 1
-		"Rakgonera" 1
 		
 government "Resmakia"
 	swizzle 6
@@ -298,17 +290,6 @@ government "Resmakia"
 	"attitude toward"
 		"Ultaka" -.1
 		"Erm" 1
-		"Rakgonera" 1
-		
-government "Rakgonnera"
-	swizzle 0
-	color .9 .0 .0
-	language "Resmakia"
-	"player reputation" 1
-	"attitude toward"
-		"Ultaka" -.1
-		"Erm" 1
-		"Resmakia" 1
 		
 government "Taroun"
 	swizzle 0
@@ -326,7 +307,6 @@ government "Darua Republic"
 	"player reputation" 0
 	"attitude toward"
 		"Makerurader" -.1
-		"Wallagi" 1
 		
 government "Ruluan Empire"
 	swizzle 0
