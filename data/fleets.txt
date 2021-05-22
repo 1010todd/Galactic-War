@@ -396,6 +396,9 @@ fleet "Kakaima Defense"
 		"Grokva" 2
 		"Grakka" 4
 		"Girok" 20
+	variant 10
+		"Garokka" 2
+		"Grokva" 1
 		
 fleet "Kakaima Civillian"
 	government "Kroom Kakaima"
@@ -408,6 +411,23 @@ fleet "Kakaima Civillian"
 		disables
 	variant 20
 		"Gikaar" 3
+	variant 20
+		"Gikaar" 3
+		"Garokka" 2
+	variant 20
+		"Gikaar" 6
+		"Garokka" 4
+	variant 10
+		"Gikaar" 8
+		"Garokka" 5
+		"Grokva" 1
+		"Girok" 4
+	variant 20
+		"Gikaar" 2
+		"Garokka" 1
+	variant 20
+		"Gikaar" 5
+		"Garokka" 3
 	variant 15
 		"Gikaar" 5
 		"Grakka" 1
@@ -424,11 +444,49 @@ fleet "Kakaima Logistic" #To replace Civilian"
 		disables
 	variant 20
 		"Gikaar" 3
+	variant 20
+		"Gikaar" 3
+		"Garokka" 2
+	variant 20
+		"Gikaar" 6
+		"Garokka" 4
+	variant 10
+		"Gikaar" 8
+		"Garokka" 5
+		"Grokva" 1
+		"Girok" 4
+	variant 20
+		"Gikaar" 2
+		"Garokka" 1
+	variant 20
+		"Gikaar" 5
+		"Garokka" 3
 	variant 15
 		"Gikaar" 5
 		"Grakka" 1
 		"Girok" 2
 		
+fleet "Kakaima Miner"
+	government "Kroom Kakaima"
+	names "Kroom"
+	cargo 1
+	personality
+		confusion 20
+		frugal 
+		plunders
+		disables
+	variant 20
+		"Garokka"
+	variant 20
+		"Garokka" 3
+	variant 20
+		"Garokka"
+		"Gikaar" 2
+	variant 15
+		"Gikaar" 3
+		"Grakka" 1
+		"Girok" 2
+
 fleet "Geeva Battle Fleet"
 	government "Geeva"
 	names "Geeva Guard"

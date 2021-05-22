@@ -2550,6 +2550,7 @@ system Arkargol
 	trade Medical 731
 	trade Metal 257
 	trade Plastic 440
+	fleet "Kakaima Defense" 1000
 	object
 		sprite star/g0
 		distance 64
@@ -19194,6 +19195,8 @@ system Garroke
 	trade Medical 874
 	trade Metal 324
 	trade Plastic 295
+	fleet "Kakaima Miner" 1000
+	fleet "Kakaima Defense" 1200
 	object
 		sprite star/g5
 		period 10
@@ -19289,6 +19292,66 @@ system Gavnan
 			sprite planet/europa
 			distance 257
 			period 13.7008
+
+system Gedeevo
+	pos -51107.8 -55575.3
+	government "Dels Kaote"
+	habitable 320
+	link Govnutae
+	link Halcaka
+	link Keepuy
+	link Reecos
+	asteroids "small rock" 3 3.816
+	asteroids "medium rock" 3 2.16
+	asteroids "large rock" 1 1.836
+	asteroids "medium metal" 7 2.88
+	asteroids "large metal" 2 1.908
+	trade Clothing 365
+	trade Electronics 673
+	trade Equipment 629
+	trade Food 547
+	trade "Heavy Metals" 999
+	trade Industrial 790
+	trade "Luxury Goods" 1448
+	trade Medical 833
+	trade Metal 274
+	trade Plastic 468
+	fleet "Dels Outward Merchant" 1500
+	object
+		sprite star/m0
+		period 10
+	object Deekulor
+		sprite planet/desert2
+		distance 275
+		period 101.973
+		object
+			sprite planet/dust7
+			distance 143
+			period 19.1527
+	object
+		sprite planet/gas9
+		distance 1081.29
+		period 795.057
+		object
+			sprite planet/dust3
+			distance 258
+			period 15.5389
+		object
+			sprite planet/miranda
+			distance 385
+			period 28.3258
+		object
+			sprite planet/rock0
+			distance 486
+			period 40.174
+	object
+		sprite planet/gas8
+		distance 2026.98
+		period 2040.61
+		object
+			sprite planet/callisto
+			distance 198
+			period 14.8311
 
 system Gedluro
 	pos -51701.5 -55086.6
@@ -20399,6 +20462,7 @@ system Gikaaro
 	trade Metal 442
 	trade Plastic 306
 	fleet "Kakaima Defense" 1200
+	fleet "Kakaima Logistic" 600
 	object
 		sprite star/g5
 		period 10
@@ -20406,18 +20470,21 @@ system Gikaaro
 		sprite planet/titan
 		distance 213.64
 		period 49.9625
-	object
-		sprite planet/ice5
-		distance 427.73
-		period 141.538
+	object Kugardor
+		sprite planet/forest3
+		distance 476.097
+		period 166.212
+		offset 196.148
 	object
 		sprite planet/fog0
-		distance 849.62
-		period 396.239
+		distance 880.987
+		period 418.383
+		offset 117.071
 	object
 		sprite planet/gas4
-		distance 1447.38
-		period 881.036
+		distance 1478.75
+		period 909.831
+		offset 31.4653
 		object
 			sprite planet/dust4
 			distance 255
@@ -20428,8 +20495,9 @@ system Gikaaro
 			period 23.491
 	object
 		sprite planet/gas0
-		distance 4163.02
-		period 4297.67
+		distance 4194.39
+		period 4346.33
+		offset 2.28052
 		object
 			sprite planet/lava0
 			distance 287
@@ -23029,29 +23097,35 @@ system Gorpatek
 	trade Medical 671
 	trade Metal 514
 	trade Plastic 399
+	fleet "Kakaima Defense" 1200
+	fleet "Kakaima Logistic" 600
 	object
 		sprite star/m0
 		period 10
-	object
+	object Pukotdor
 		sprite planet/desert6
-		distance 204
-		period 65.1524
+		distance 233.229
+		period 79.6452
+		offset 62.5977
 	object
 		sprite planet/ocean6
-		distance 646.81
-		period 367.832
+		distance 676.039
+		period 393.046
+		offset 161.623
 		object
 			sprite planet/dust3
 			distance 188
 			period 20.7352
 	object
 		sprite planet/lava3
-		distance 1426.81
-		period 1205.13
+		distance 1456.04
+		period 1242.35
+		offset 23.0401
 	object
 		sprite planet/gas8
-		distance 3295.05
-		period 4229.39
+		distance 3324.28
+		period 4285.79
+		offset 2.88379
 		object
 			sprite planet/rock14
 			distance 228
@@ -23376,7 +23450,7 @@ system Govnutae
 	pos -51120.3 -55522.6
 	government "Dels Kaote"
 	habitable 425.92
-	link Govo
+	link Gedeevo
 	link Keepuy
 	link Morcolor
 	asteroids "small rock" 13 8.211
@@ -23431,66 +23505,6 @@ system Govnutae
 		sprite planet/gas2
 		distance 2475.67
 		period 2387.45
-
-system Govo
-	pos -51107.8 -55575.3
-	government "Dels Kaote"
-	habitable 320
-	link Govnutae
-	link Halcaka
-	link Keepuy
-	link Reecos
-	asteroids "small rock" 3 3.816
-	asteroids "medium rock" 3 2.16
-	asteroids "large rock" 1 1.836
-	asteroids "medium metal" 7 2.88
-	asteroids "large metal" 2 1.908
-	trade Clothing 365
-	trade Electronics 673
-	trade Equipment 629
-	trade Food 547
-	trade "Heavy Metals" 999
-	trade Industrial 790
-	trade "Luxury Goods" 1448
-	trade Medical 833
-	trade Metal 274
-	trade Plastic 468
-	fleet "Dels Outward Merchant" 1500
-	object
-		sprite star/m0
-		period 10
-	object
-		sprite planet/desert2
-		distance 275
-		period 101.973
-		object
-			sprite planet/dust7
-			distance 143
-			period 19.1527
-	object
-		sprite planet/gas9
-		distance 1081.29
-		period 795.057
-		object
-			sprite planet/dust3
-			distance 258
-			period 15.5389
-		object
-			sprite planet/miranda
-			distance 385
-			period 28.3258
-		object
-			sprite planet/rock0
-			distance 486
-			period 40.174
-	object
-		sprite planet/gas8
-		distance 2026.98
-		period 2040.61
-		object
-			sprite planet/callisto
-			distance 198
-			period 14.8311
 
 system Govree
 	pos -51398.3 -55576.8
@@ -24899,7 +24913,7 @@ system Halcaka
 	pos -51050.4 -55623.3
 	government "Dels Kaote"
 	habitable 233.28
-	link Govo
+	link Gedeevo
 	link Keemol
 	link Ordelukor
 	asteroids "small rock" 1 2.639
@@ -29462,22 +29476,25 @@ system Ismelar
 		sprite planet/rock13
 		distance 441.65
 		period 112.971
-	object
+	object Melimarsil
 		sprite planet/forest0
-		distance 771.81
-		period 260.984
+		distance 853.811
+		period 303.662
+		offset 54.9725
 	object
 		sprite planet/gas11
-		distance 1345.3
-		period 600.588
+		distance 1427.3
+		period 656.329
+		offset 110.076
 		object
 			sprite planet/rock3
 			distance 275
 			period 15.041
 	object
 		sprite planet/gas7
-		distance 1881.66
-		period 993.482
+		distance 1963.66
+		period 1059.13
+		offset 48.5636
 
 system Ismilvel
 	pos -51645.9 -56117.6
@@ -31484,6 +31501,9 @@ system Kakorga
 	trade Medical 732
 	trade Metal 525
 	trade Plastic 347
+	fleet "Kakaima Defense" 1200
+	fleet "Kakaima Miner" 1000
+	fleet "Kakaima Logistic" 600
 	object
 		sprite star/a5
 		distance 32.9143
@@ -32351,6 +32371,7 @@ system Karkoggar
 	trade Metal 321
 	trade Plastic 410
 	fleet "Kakaima Defense" 1400
+	fleet "Taroun Patrol" 20000
 	object
 		sprite star/k5
 		period 10
@@ -33133,7 +33154,7 @@ system Keemol
 		sprite planet/rock17
 		distance 98
 		period 21.6932
-	object
+	object Meldukoor
 		sprite planet/cloud4
 		distance 279.96
 		period 104.744
@@ -33361,8 +33382,8 @@ system Keepuy
 	pos -51047.8 -55524.9
 	government "Dels Kaote"
 	habitable 486.68
+	link Gedeevo
 	link Govnutae
-	link Govo
 	link Haurotdi
 	asteroids "large metal" 1 1.7444
 	trade Clothing 317
@@ -40856,6 +40877,7 @@ system Kogudor
 	trade Metal 353
 	trade Plastic 309
 	fleet "Kakaima Defense" 1300
+	fleet "Kakaima Logistic" 600
 	object
 		sprite star/f5
 		period 10
@@ -42412,6 +42434,7 @@ system Kudakga
 	trade Metal 396
 	trade Plastic 367
 	fleet "Kakaima Defense" 1200
+	fleet "Kakaima Logistic" 600
 	object
 		sprite star/m0
 		period 10
@@ -48784,6 +48807,8 @@ system Magakor
 	trade Metal 364
 	trade Plastic 441
 	fleet "Kakaima Defense" 1200
+	fleet "Kakaima Logistic" 600
+	fleet "Kakaima Miner" 800
 	object
 		sprite star/k0
 		distance 40.0655
@@ -55168,16 +55193,19 @@ system Morcolor
 		period 53.7302
 	object Kuderlor
 		sprite planet/ice2
-		distance 506.66
-		period 182.471
+		distance 696.032
+		period 293.808
+		offset 264.412
 	object
 		sprite planet/forest0
-		distance 777.66
-		period 346.98
+		distance 967.032
+		period 481.151
+		offset 19.9972
 	object
 		sprite planet/gas1
-		distance 2003.75
-		period 1435.11
+		distance 2193.12
+		period 1643.29
+		offset 41.74
 
 system Morde
 	pos -49425.7 -57451.8
@@ -62708,7 +62736,7 @@ system Oivacur
 		sprite planet/ice4
 		distance 637.221
 		period 165.804
-	object
+	object Vilicari
 		sprite planet/forest1
 		distance 1020.11
 		period 335.838
@@ -64708,18 +64736,21 @@ system Petrives
 		sprite planet/ganymede
 		distance 440.435
 		period 135.374
-	object
+	object Vikerlia
 		sprite planet/ice6
-		distance 833.525
-		period 352.445
+		distance 770.595
+		period 313.295
+		offset 148.028
 	object
 		sprite planet/cloud7
-		distance 1585.48
-		period 924.607
+		distance 1522.55
+		period 870.104
+		offset 320.154
 	object
 		sprite planet/gas15
-		distance 2703.84
-		period 2059.14
+		distance 2640.91
+		period 1987.67
+		offset 349.73
 
 system Pilmier
 	pos -51614.7 -56231.9
@@ -67846,6 +67877,7 @@ system Rakgor
 	trade Medical 869
 	trade Metal 331
 	trade Plastic 296
+	fleet "Kakaima Defense" 1400
 	object
 		sprite star/m0
 		period 10
@@ -68543,7 +68575,7 @@ system Reecos
 	pos -51138.3 -55616.3
 	government "Dels Kaote"
 	habitable 320
-	link Govo
+	link Gedeevo
 	link Jerteano
 	link Keemoroco
 	link Kintuy
@@ -83159,7 +83191,7 @@ system Visilmara
 		sprite planet/titan
 		distance 440.094
 		period 135.217
-	object
+	object Makulifaril
 		sprite planet/rock4
 		distance 694.854
 		period 268.259
@@ -86250,6 +86282,12 @@ planet Daskavee
 	outfitter "Dels Advanced"
 	bribe 0.5
 
+planet Deekulor
+	landscape land/badlands8
+	description `A planet with its surface covered almost entirely in land seperated into multiple continent by deep, kilometers wide rivers all conneted to another at some. The lands are mostly flat and covered in small plants. Large trees only exist closer to the water body.`
+	description `Cities and towns can be found pretty much anywhere on the planet  surrounded by farmlands. Orchards can also be found surrounding towns that are closer to the shore.`
+	spaceport .
+
 planet Deerevul
 	landscape land/snow7
 	description `This giant ball of snow is a home to surprising amount of large creature. Dels settlement here are hidden among the snow, only sign for their presence is the lights from windows, a control tower, and a large blast door in a nearby hill that leads into the spaceport.`
@@ -86385,7 +86423,7 @@ planet Dukorde
 planet Dukoreda
 	landscape land/sea12-sfiera
 	description `A warm planet with mostly flat land covered in vegatations and streaks of rivers inbetween, mountain ranges apper only in the deepest region of land. The northern ice cap connects two largest continent together though non travel there due to unbearable coldness. `
-	description `Many cities can be seen with countless constuction projects underway. Most settlement are built around a spaceport as primary method of interstate travelling right now is by replusor craft as railways are mostly underconstruction.`
+	description `	Many cities can be seen with countless constuction projects underway. Most settlement are built around a spaceport as primary method of interstate travelling right now is by replusor craft as railways are mostly underconstruction.`
 	spaceport `The spaceport appears to be the oldest building in the area and skyscrapers are being built everywhere. This planet also appears to be the home to a very large shipyard that is always active day or night.`
 	shipyard "Dels Advanced"
 	outfitter "Dels Advanced"
@@ -86443,8 +86481,7 @@ planet Eilina
 	"required reputation" 1
 
 planet Eilnachi
-	attributes Geeva
-	landscape land/dune0
+	landscape land/land29
 	description .
 	spaceport .
 	"required reputation" 1
@@ -87096,6 +87133,13 @@ planet Kudledar
 	landscape land/sea10-sfiera
 	description `Ocean world with perfect atmosphere to support life yet little to non seems to exist in the deep water of this planet. Some scanning shows the water here are heavily contaminated with various metals and chemicals.`
 
+planet Kugardor
+	landscape land/land3
+	description `Fields of grey concrete streches across the planet as the Kroom built their concrete building over most avaliable land. Mountains blown and razed to the ground to harvest more materials for their construction and to flatten them into more usuable land.`
+	spaceport `The spaceport is a large multi-layered grey building sitting in the middle of the city.`
+	shipyard "Kakaima Advanced"
+	outfitter "Kakaima Advanced"
+
 planet Kukoga
 	landscape land/forest3
 	description ,
@@ -87132,7 +87176,7 @@ planet Leepordi
 	attributes mining
 	landscape land/canyon01
 	description `A dry planet with little atmosphere. Lands covered in tiny pieces of silver glittering metal varying in densities around the planet.`
-	description `Some mining operations can be seen on the planet mostly where there's less glittering metals.`
+	description `	Some mining operations can be seen on the planet mostly where there's less glittering metals.`
 	spaceport .
 
 planet Leevunla
@@ -87224,8 +87268,11 @@ planet Likveera
 
 planet Livaki
 	landscape land/land6
-	description `A planet with mix of forest and towns all blended together spanning across the entire planet home to billions.`
-	spaceport .
+	description `A planet where large area of lands are covered entirely in forest dotted with buildings painted and decorated to replicate their surroundings making them slightly harder to identify with bare eyes. Streets and roads concealed under the shades of trees. While at first glance there may not seems to be many building, the lights at night reveals countless more homes and buildings that where hidden among the trees.`
+	description `Outside the forest reveals large metropolis of massive skyscrapers with enough space that could very well counted as a city by itself. Buildings painted in light grey with hints of other colours that wouldn't be noticable on first sight. Another notable thing about Geevan architecture is that it completely lacks of sharp corner and smooth texture. `
+	spaceport `The spaceport is shaped like a giant tree even far larger than the surrounding buildings with trunk of steel with branches and leaves as landing pads. `
+	shipyard "Geeva Advanced"
+	outfitter "Geeva Advanced"
 	"required reputation" 1
 
 planet Lordeeva
@@ -87341,6 +87388,11 @@ planet Makeele
 	description .
 	spaceport .
 
+planet Makulifaril
+	landscape land/canyon2
+	description .
+	spaceport .
+
 planet Masriqo
 	attributes Qoro(north)
 	landscape land/city5
@@ -87368,6 +87420,23 @@ planet Meggiven
 	shipyard developer
 	outfitter plugin
 	outfitter developer
+
+planet Meldukoor
+	attributes mining
+	landscape land/badlands7
+	description `A large red planet devoid of native life. Rocky barren streches across the planet with small patches of white dust like mold on breads. `
+	description `A few settlement can be found close to large mining site along with gigantic machines and trucks working day and night.`
+	spaceport `Right next to the space port is several large pile of ores with rails in between. Overhead cranes moves along the rail to pick up and dump ores into a freighter waiting nearby. Pretty much everyone here wears a dust mask to avoid inhaling the dirts and dust from the operations.`
+
+planet Melimarsil
+	attributes farming
+	landscape land/land23
+	description `From afar the planet seems to be covered in yellow-ish desert but up close reveals endless field of grain farms. Green plants and trees exist only on the rocky mountains where its unsuitable for farming. `
+	description `Aside from small town here and there, most other buildings are hidden among the trees on the mountains. Tall bridges streches across the fields below to connect the cities together. Some longer bridges are still underconstruction.`
+	spaceport `The spaceport here appeares to be more militarized, you counted at least a dozen guns already from a quick look with more possibly hidden among the trees and buildings. `
+	shipyard "Geeva Advanced"
+	outfitter "Geeva Advanced"
+	security 0.7
 
 planet Mentail
 	landscape land/fog3
@@ -87520,7 +87589,7 @@ planet Nilimachi
 planet Nirvuvia
 	landscape land/canyon02
 	description `A planet covered mostly in dry lifeless desert coated in shimmering metals  and filled with an unusually dense and large craters, most looks very old and were there for at least a few million years if not more. The weather here is very calm all year long, very little rain if any at all get past the coast. `
-	description `Cities here are built near the coast.`
+	description `	Cities here are built near the coast.`
 	spaceport `The spaceport here is built a bit further inland than the cities with large amount of landing pads to accommodate the amont of traffic with even more landing pads are being built.`
 	outfitter "Dels Advanced"
 
@@ -87660,6 +87729,13 @@ planet Parturkelaai
 	landscape land/dune6-harro
 	description `Among the green field of vegetations is dotted with area where nothing grows. The spots vary in size from a few meter in diameter to a hundred meters. These spots seems to occur all over the entire planet. `
 	spaceport .
+
+planet Pukotdor
+	attributes mining
+	landscape land/land28
+	description `Large planet of mostly red rocks, with sound of large mining machines echoing from the across the range of mountains. `
+	description `Mined areas stripped of their ores are turned into factories and refineries.`
+	spaceport `The spaceport is a flat area surrounded by grey buildings and warehouses. `
 
 planet Qansta
 	attributes Qoro(north)
@@ -88011,6 +88087,17 @@ planet Vetlorui
 planet Vibilen
 	landscape land/sea16-harro
 	description `This is a sparsely populated planet.`
+	spaceport .
+
+planet Vikerlia
+	landscape land/mountain9
+	description `Sea of clouds covers almost the entire planet revealing only the highest range of mountains as island. Below is a sea of liqud water and land shaded by the sea of clouds above devoid of any colour, pools of lava can be seen across the planet. Temperature below the clouds here are rather hot.`
+	description `Settlements here are built above the sea of clouds, most hanging off the cliffs and steep slope of the mountains.`
+	spaceport `The spaceport here is built on a plateu barely a few meters above the clouds. `
+
+planet Vilicari
+	landscape land/land8
+	description .
 	spaceport .
 
 planet Vimistr
