@@ -3541,10 +3541,11 @@ system Avurin
 			period 13.9072
 
 system Badarvi
-	pos -49826 -56369.7
+	pos -49822 -56386.7
 	government EraderF4
 	habitable 486.68
 	belt 1161
+	link Dishavor
 	asteroids "small rock" 4 6.215
 	asteroids "medium rock" 2 5.72
 	asteroids "large rock" 6 3.135
@@ -7379,7 +7380,7 @@ system Culdo
 system Cuvorai
 	pos -50863.9 -55602.2
 	government "Dels Kaote"
-	habitable 425.92
+	habitable 486.68
 	belt 1957
 	link Edarmido
 	link Irvodera
@@ -7404,36 +7405,49 @@ system Cuvorai
 	trade Plastic 415
 	fleet "Dels merchant" 800
 	object
-		sprite star/k5
+		sprite star/k0
 		period 10
 	object
-		sprite planet/luna
-		distance 122.25
-		period 26.1981
+		sprite planet/desert8
+		distance 205.388
+		period 53.3706
+		offset 138.971
 	object
-		sprite planet/rock14
-		distance 356.25
-		period 130.325
+		sprite planet/desert2
+		distance 592.638
+		period 261.591
+		offset 353.147
 	object
-		sprite planet/rock6
-		distance 565.69
-		period 260.774
+		sprite planet/rock19
+		distance 936.328
+		period 519.494
+		offset 224.438
+		object
+			sprite planet/dust1
+			distance 131
+			period 20.0384
 	object
-		sprite planet/gas7
-		distance 1629.69
-		period 1275.13
+		sprite planet/dust5
+		distance 1261.09
+		period 812.001
+		offset 104.992
+	object
+		sprite planet/uranus
+		distance 1943.34
+		period 1553.32
+		offset 35.0756
 		object
-			sprite planet/desert4
-			distance 221
-			period 11.6874
+			sprite planet/miranda
+			distance 227
+			period 14.6121
 		object
-			sprite planet/rock3
-			distance 313
-			period 19.6991
+			sprite planet/ice7
+			distance 319
+			period 24.3422
 		object
-			sprite planet/ice0
-			distance 461
-			period 35.2113
+			sprite planet/io
+			distance 439
+			period 39.298
 
 system "Cuzi no"
 	pos -51141.2 -54107.5
@@ -8412,6 +8426,7 @@ system Dakmorda
 	government "Kroom Kakaima"
 	habitable 1400
 	belt 1785
+	link Dishavor
 	link Lukuro
 	asteroids "small rock" 5 6.5826
 	asteroids "large rock" 1 7.3899
@@ -10601,6 +10616,63 @@ system Dijahka
 		distance 3360.98
 		period 2337.59
 
+system Dishavor
+	pos -49908.5 -56423
+	government EraderF4
+	habitable 486.68
+	belt 1568
+	link Badarvi
+	link Dakmorda
+	asteroids "small rock" 19 4.68
+	asteroids "medium rock" 20 3.84
+	asteroids "large rock" 7 3.72
+	asteroids "small metal" 123 5.16
+	asteroids "medium metal" 4 3.24
+	asteroids "large metal" 66 8.82
+	minables iron 6 11.503
+	minables neodymium 32 6.71505
+	trade Clothing 369
+	trade Electronics 745
+	trade Equipment 429
+	trade Food 0
+	trade "Heavy Metals" 973
+	trade Industrial 655
+	trade "Luxury Goods" 1133
+	trade Medical 620
+	trade Metal 241
+	trade Plastic 405
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/lava0
+		distance 130
+		period 26.8753
+	object
+		sprite planet/mercury
+		distance 422.61
+		period 157.524
+	object
+		sprite planet/forest5
+		distance 769.45
+		period 386.998
+		object
+			sprite planet/dust1
+			distance 141
+			period 18.0786
+	object
+		sprite planet/gas7
+		distance 2351.49
+		period 2067.54
+		object
+			sprite planet/ice0
+			distance 240
+			period 13.2266
+		object
+			sprite planet/rock14
+			distance 391
+			period 27.504
+
 system Dobareen
 	pos -50046.2 -56158.6
 	government "Dels Dardornai"
@@ -12318,6 +12390,76 @@ system Dureede
 			sprite planet/ice8
 			distance 572
 			period 34.9429
+
+system Durkanda
+	pos -49784.1 -55737.8
+	government Erader
+	habitable 4270
+	belt 1587
+	link Serkakel
+	asteroids "small rock" 21 3.7576
+	asteroids "medium rock" 1 3.4496
+	asteroids "large rock" 3 3.388
+	asteroids "small metal" 2 7.8848
+	asteroids "medium metal" 51 5.6056
+	asteroids "large metal" 31 7.1456
+	minables copper 2 10.4781
+	minables iron 13 6.64834
+	trade Clothing 315
+	trade Electronics 628
+	trade Equipment 448
+	trade Food 395
+	trade "Heavy Metals" 1187
+	trade Industrial 687
+	trade "Luxury Goods" 1040
+	trade Medical 503
+	trade Metal 504
+	trade Plastic 260
+	object
+		sprite star/a5
+		distance 19.3208
+		period 9.2834
+		offset 180
+	object
+		sprite star/g5
+		distance 112.679
+		period 9.2834
+	object
+		sprite planet/venus
+		distance 350.489
+		period 40.1659
+	object
+		sprite planet/gas3
+		distance 819.739
+		period 143.668
+		object
+			sprite planet/rock7
+			distance 305
+			period 13.6055
+	object
+		sprite planet/gas11
+		distance 1569.43
+		period 380.591
+		object
+			sprite planet/oberon
+			distance 224
+			period 11.0573
+		object
+			sprite planet/tethys
+			distance 295
+			period 16.7113
+	object
+		sprite planet/gas1
+		distance 2425.68
+		period 731.301
+		object
+			sprite planet/io
+			distance 213
+			period 12.4247
+		object
+			sprite planet/europa
+			distance 296
+			period 20.3542
 
 system Durkul
 	pos -49324.2 -55536.6
@@ -20566,6 +20708,7 @@ system Gilmelor
 	trade Metal 241
 	trade Plastic 396
 	fleet "Geeva Battle Fleet" 800
+	fleet "Kakaima Defense" 1800
 	object
 		sprite star/k5
 		period 10
@@ -24700,6 +24843,58 @@ system Haino
 			distance 611
 			period 42.6356
 
+system Hakishi
+	pos -50009.8 -56284.9
+	government EraderF4
+	habitable 5625
+	belt 1017
+	link Medarke
+	asteroids "medium rock" 47 2.266
+	asteroids "large rock" 1 1.76
+	asteroids "small metal" 1 1.804
+	asteroids "medium metal" 4 2.882
+	asteroids "large metal" 8 1.32
+	minables iron 1 4.10327
+	trade Clothing 369
+	trade Electronics 745
+	trade Equipment 429
+	trade Food 0
+	trade "Heavy Metals" 973
+	trade Industrial 655
+	trade "Luxury Goods" 1133
+	trade Medical 620
+	trade Metal 241
+	trade Plastic 405
+	object
+		sprite star/a0
+		distance 12.8889
+		period 6.66324
+	object
+		sprite star/g5
+		distance 103.111
+		period 6.66324
+		offset 180
+	object
+		sprite planet/lava2
+		distance 238.351
+		period 19.6257
+	object
+		sprite planet/cloud6
+		distance 675.241
+		period 93.5809
+		object
+			sprite planet/rock0
+			distance 163
+			period 21.3053
+	object
+		sprite planet/ice2
+		distance 1349.93
+		period 264.525
+	object
+		sprite planet/gas1
+		distance 2137.69
+		period 527.128
+
 system Halcaka
 	pos -51050.4 -55623.3
 	government "Dels Kaote"
@@ -25819,26 +26014,30 @@ system Hintee
 		sprite planet/cloud5
 		distance 224.44
 		period 75.1857
-	object
-		sprite planet/forest4
-		distance 569.08
-		period 303.56
+	object Tedeelar
+		sprite planet/rock2
+		distance 635.669
+		period 358.37
+		offset 123.344
 	object
 		sprite planet/gas17
-		distance 893.09
-		period 596.799
+		distance 948.679
+		period 653.377
+		offset 140.842
 	object
 		sprite planet/gas2
-		distance 1388.93
-		period 1157.46
+		distance 1444.52
+		period 1227.64
+		offset 47.9135
 		object
 			sprite planet/dust3
 			distance 194
 			period 16.3726
 	object
 		sprite planet/rhea
-		distance 2223.69
-		period 2344.75
+		distance 2279.28
+		period 2433.22
+		offset 15.0384
 
 system "Hok si"
 	pos -50433.8 -53242.4
@@ -29145,6 +29344,7 @@ system Iskivesa
 	trade Metal 394
 	trade Plastic 460
 	fleet "Geeva Battle Fleet" 800
+	fleet "Kakaima Defense" 2500
 	object
 		sprite star/g0
 		distance 31.1113
@@ -36626,6 +36826,7 @@ system Kirvadel
 	trade Metal 355
 	trade Plastic 451
 	fleet "Geeva Battle Fleet" 800
+	fleet "Kakaima Defense" 2500
 	object
 		sprite star/g5
 		period 10
@@ -51582,6 +51783,7 @@ system Medarke
 	government EraderF4
 	habitable 3645
 	belt 1631
+	link Hakishi
 	asteroids "small rock" 74 1.856
 	asteroids "medium rock" 56 1.84
 	asteroids "large rock" 60 1.008
@@ -54662,14 +54864,16 @@ system Mokugea
 			sprite planet/dust4
 			distance 128
 			period 18.5747
-	object
-		sprite planet/ice2
-		distance 1009.35
-		period 390.311
+	object Dukoreda
+		sprite planet/earth
+		distance 1065.6
+		period 423.389
+		offset 93.4664
 	object
 		sprite planet/gas9
-		distance 1917.19
-		period 1021.75
+		distance 1984.44
+		period 1075.98
+		offset 23.0006
 		object
 			sprite planet/ice8
 			distance 253
@@ -54962,7 +55166,7 @@ system Morcolor
 		sprite planet/fog0
 		distance 224.25
 		period 53.7302
-	object
+	object Kuderlor
 		sprite planet/ice2
 		distance 506.66
 		period 182.471
@@ -55892,30 +56096,35 @@ system Mudeodar
 	object
 		sprite star/m4
 		period 10
-	object
+	object Kudledar
 		sprite planet/ocean7
-		distance 236.49
-		period 95.2446
+		distance 237.08
+		period 95.6015
+		offset 22.2695
 	object
 		sprite planet/rock16
-		distance 511.74
-		period 303.176
+		distance 512.33
+		period 303.701
+		offset 3.58579
 	object
 		sprite planet/rock7
-		distance 1076.83
-		period 925.427
+		distance 1077.42
+		period 926.188
+		offset 0.558013
 	object
 		sprite planet/gas10
-		distance 1463.08
-		period 1465.63
+		distance 1463.67
+		period 1466.51
+		offset 0.258537
 		object
 			sprite planet/dust1
 			distance 206
 			period 15.5632
 	object
 		sprite planet/gas0
-		distance 3110.92
-		period 4544.17
+		distance 3111.51
+		period 4545.46
+		offset 0.0393551
 		object
 			sprite planet/rock17
 			distance 279
@@ -56087,7 +56296,7 @@ system Muedel
 		sprite planet/dust5
 		distance 688.374
 		period 216.674
-	object
+	object Keadour
 		sprite planet/desert5
 		distance 1036.37
 		period 400.262
@@ -57650,6 +57859,7 @@ system Mutorlel
 	trade Metal 389
 	trade Plastic 438
 	fleet "Geeva Battle Fleet" 800
+	fleet "Kakaima Defense" 1800
 	object
 		sprite star/k0
 		period 10
@@ -58651,12 +58861,14 @@ system Nareenor
 		period 268.668
 	object
 		sprite planet/forest3
-		distance 764.69
-		period 409.849
+		distance 731.05
+		period 383.104
+		offset 260.85
 	object
 		sprite planet/uranus
-		distance 2076.53
-		period 1834.02
+		distance 2042.89
+		period 1789.63
+		offset 353.148
 
 system Narek
 	pos -44964.3 -57908.5
@@ -73696,7 +73908,7 @@ system Sedop
 	trade Medical 854
 	trade Metal 426
 	trade Plastic 472
-	fleet "Dels Kaote" 10000
+	fleet "Dels Kaote" 1200
 	fleet "Dels Outward Merchant" 700
 	object
 		sprite star/g0
@@ -73713,7 +73925,7 @@ system Sedop
 			sprite planet/dust5
 			distance 158
 			period 26.5425
-	object
+	object Dukorde
 		sprite planet/ocean3
 		distance 1146.55
 		period 472.539
@@ -74233,6 +74445,7 @@ system Serkakel
 	pos -49816.9 -55658.3
 	government Erader
 	habitable 1080
+	link Durkanda
 	link Kerbukcamori
 	link Mettelen
 	link Mortarlen
@@ -75435,7 +75648,7 @@ system Sorniei
 			period 35.0804
 
 system Srivaka
-	pos -49726.2 -56204.3
+	pos -49720.2 -56197.3
 	government EraderF4
 	habitable 455
 	belt 1056
@@ -80462,7 +80675,7 @@ system Varulke
 system Vedeero
 	pos -51036.8 -54873.7
 	government "Dels Kaote"
-	habitable 1080
+	habitable 425.92
 	belt 1845
 	link Corduro
 	link Deefolks
@@ -80487,36 +80700,48 @@ system Vedeero
 	fleet Ignaggen 700
 	fleet "Dels Kaote" 1000
 	object
-		sprite star/g0
+		sprite star/k5
 		period 10
 	object
-		sprite planet/desert10
-		distance 290.16
-		period 60.1595
+		sprite planet/desert5
+		distance 164.89
+		period 41.0381
+	object "Rodeer la"
+		sprite planet/water1
+		distance 468.58
+		period 196.595
+		offset 152.846
+	object
+		sprite planet/ocean7
+		distance 912.39
+		period 534.154
+		offset 57.8809
 		object
-			sprite planet/dust1
-			distance 168
-			period 22.2931
+			sprite planet/ice0
+			distance 178
+			period 26.1134
 	object
-		sprite planet/dust5
-		distance 607.4
-		period 182.205
+		sprite planet/tethys
+		distance 1855.64
+		period 1549.3
+		offset 9.49902
 	object
-		sprite planet/rock17
-		distance 828.44
-		period 290.228
-	object
-		sprite planet/gas17
-		distance 1645.13
-		period 812.173
+		sprite planet/gas16
+		distance 4363.89
+		period 5587.36
+		offset 1.10047
 		object
-			sprite planet/dust4
-			distance 243
-			period 16.1839
-	object
-		sprite planet/gas9
-		distance 2150.69
-		period 1213.99
+			sprite planet/rhea
+			distance 209
+			period 15.9044
+		object
+			sprite planet/oberon
+			distance 294
+			period 26.5349
+		object
+			sprite planet/desert4
+			distance 417
+			period 44.823
 
 system Veejurnu
 	pos -50769.6 -55537.4
@@ -81365,7 +81590,7 @@ system Vertude
 		sprite planet/ice6
 		distance 558.77
 		period 160.767
-	object
+	object Kudevut
 		sprite planet/lava5
 		distance 908.53
 		period 333.317
@@ -82916,6 +83141,7 @@ system Visilmara
 	trade Metal 299
 	trade Plastic 479
 	fleet "Geeva Battle Fleet" 800
+	fleet "Kakaima Defense" 2500
 	object
 		sprite star/k5
 		distance 40.326
@@ -85997,6 +86223,11 @@ planet Cartuse
 	description .
 	spaceport .
 
+planet Ceeduka
+	landscape land/land5
+	description .
+	spaceport .
+
 planet Ceursity
 	landscape land/beach6
 	description .
@@ -86146,6 +86377,19 @@ planet Donto
 	bribe 0.2
 	security 0.2
 
+planet Dukorde
+	landscape land/sea4
+	description `Blue globe with few small continents here and there. Storm rages all over the planet bringing rains that would last days. Settlements are buit on hills and mountains high above the sea. `
+	spaceport .
+
+planet Dukoreda
+	landscape land/sea12-sfiera
+	description `A warm planet with mostly flat land covered in vegatations and streaks of rivers inbetween, mountain ranges apper only in the deepest region of land. The northern ice cap connects two largest continent together though non travel there due to unbearable coldness. `
+	description `Many cities can be seen with countless constuction projects underway. Most settlement are built around a spaceport as primary method of interstate travelling right now is by replusor craft as railways are mostly underconstruction.`
+	spaceport `The spaceport appears to be the oldest building in the area and skyscrapers are being built everywhere. This planet also appears to be the home to a very large shipyard that is always active day or night.`
+	shipyard "Dels Advanced"
+	outfitter "Dels Advanced"
+
 planet Dukreve
 	landscape land/land19
 	description `A cold planet left mostly untouched by the Dels. Storms appears to be fairly common but weak. Some settlements can be seen around the equator of the planet.`
@@ -86213,7 +86457,6 @@ planet Erdiuladen
 	outfitter "Dels Basic"
 
 planet Ereata
-	attributes Dels
 	landscape land/valley8
 	description .
 	spaceport .
@@ -86642,6 +86885,11 @@ planet Kateolr
 	description .
 	spaceport .
 
+planet Keadour
+	landscape land/mountain25-spfld
+	description .
+	spaceport .
+
 planet Keedavol
 	landscape land/badlands2
 	description `Dune of sands strech across majority of this single-continent planet. Very few life exist on the surface as opposed to marine life where you can see new kind of fish and corals everywhere you go. Wreckage of starships and what left of cities can be seen in some corner of the continent, none of these share their design and architecture with the Dels signalling that someone else was here before them. Most of these sites are closed off to visitors and were heavily guarded. `
@@ -86835,6 +87083,19 @@ planet Kroini
 	spaceport .
 	"required reputation" 1
 
+planet Kuderlor
+	landscape land/moutainsnow1
+	description .
+	spaceport .
+
+planet Kudevut
+	landscape land/land27
+	description `There's something odd about this planet, but you're not sure what.`
+
+planet Kudledar
+	landscape land/sea10-sfiera
+	description `Ocean world with perfect atmosphere to support life yet little to non seems to exist in the deep water of this planet. Some scanning shows the water here are heavily contaminated with various metals and chemicals.`
+
 planet Kukoga
 	landscape land/forest3
 	description ,
@@ -86870,7 +87131,8 @@ planet Lamarre
 planet Leepordi
 	attributes mining
 	landscape land/canyon01
-	description .
+	description `A dry planet with little atmosphere. Lands covered in tiny pieces of silver glittering metal varying in densities around the planet.`
+	description `Some mining operations can be seen on the planet mostly where there's less glittering metals.`
 	spaceport .
 
 planet Leevunla
@@ -87256,11 +87518,11 @@ planet Nilimachi
 	"required reputation" 1
 
 planet Nirvuvia
-	attributes dels
 	landscape land/canyon02
-	description `A lifeless planet covered in dunes of sand. The only visible development is the city with starships flying in and out all the time.`
-	description `	[Note to self: don't write when sleepy. Fix this later.]`
-	spaceport `Very busy spaceport.`
+	description `A planet covered mostly in dry lifeless desert coated in shimmering metals  and filled with an unusually dense and large craters, most looks very old and were there for at least a few million years if not more. The weather here is very calm all year long, very little rain if any at all get past the coast. `
+	description `Cities here are built near the coast.`
+	spaceport `The spaceport here is built a bit further inland than the cities with large amount of landing pads to accommodate the amont of traffic with even more landing pads are being built.`
+	outfitter "Dels Advanced"
 
 planet "Noc ti"
 	landscape land/bwerner4
@@ -87462,10 +87724,7 @@ planet Reiar
 	"required reputation" 1
 
 planet Rensake
-	attributes Destroyed
-	landscape land/lava2
-	description `This Dels's world is totally destroyed no sign of life at all. `
-	spaceport `This is the only and the last spaceport on this planet that survive the Ultaka attack. There were still alot fuel left in the fuel tank.`
+	landscape land/land0
 
 planet Rer'i
 	landscape land/valley3
@@ -87480,6 +87739,11 @@ planet Rerm
 	spaceport `	Every building taller than 3 story seem to have gold colored pipe big enought for the Erms to pass, but not you.`
 	"required reputation" 10
 	security 0.7
+
+planet "Rodeer la"
+	landscape land/land24
+	description `An aquatic world of mostly shallow ocean, coral reef can be found in most area of the planet. The only few landmass here are mountains and volcanos most clustered around the pole.`
+	spaceport .
 
 planet Roil
 	landscape land/dune0
@@ -87572,7 +87836,7 @@ planet Sentre
 planet Seoakee
 	attributes farming
 	landscape land/fog2
-	description .
+	description `A planet mostly covered in farmscape and swamplands. Few ranges of mountains existing only in the deepest part inland a home to multiple rivers keeping the planet alive. Cities are gathered in one corner of the planet where it is mostly a barren. Towns scattered around the planet appears to be the hub for gathering the harvest before transporting into the cities by rail then exported.`
 	spaceport .
 
 planet "Sin or"
@@ -87628,6 +87892,11 @@ planet Tcksinkre
 	landscape land/lava2
 	description `Tcksinkre is largely a barren with only a few alien plant of somesort growing out of the rocks and hillside. Other than a few mining sites scattered around the poles this planet remains mostly untouched.`
 	spaceport `Other than a small hotel and the mining section which is closed to visitors there is nothing. `
+
+planet Tedeelar
+	landscape land/moutainsnow3
+	description `A mostly frozen planet with a band of sea only existing around the equator. Settlements here are built on islands along the equator, fishing appears to be the common job here.`
+	spaceport `A small spaceport built on a small piece of land crossing the equator. The weather here is cold all day long and freezing at night. `
 
 planet Terleedor
 	landscape land/sea1
