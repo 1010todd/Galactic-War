@@ -62,7 +62,7 @@ ship "Dels Serdeen"
 		"fuel capacity" 600
 		"cargo space" 30
 		"outfit space" 240
-		"weapon capacity" 60
+		"weapon capacity" 80
 		"engine capacity" 93
 		weapon
 			"blast radius" 50
@@ -908,7 +908,7 @@ ship "Dels Decso"
 			"hit force" 5000
 	outfits
 		
-		"Skue-8 Turret" 1
+		"Skue-8 Quad Turret" 1
 		"Dels Sokak Cannon Turret" 2
 		"Sokak Slug" 100
 		"Saikel-4 Launcher" 4
@@ -927,7 +927,7 @@ ship "Dels Decso"
 	gun 14 -210.5
 	gun -37.5 -79
 	gun 37.5 -79
-	turret -0.5 -140 "Skue-8 Turret"
+	turret -0.5 -140 "Skue-8 Quad Turret"
 	turret -48 1 "Ganoau Anti-Missile"
 	turret 48 1 "Ganoau Anti-Missile"
 	turret -42.5 68

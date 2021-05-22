@@ -345,6 +345,31 @@ outfit "Skue-8 Turret"
 		"hull damage" 10
 	description "Turreted version of Skue-8 blaster."
 
+outfit "Skue-8 Quad Turret"
+	category "Turrets"
+	cost 33000
+	thumbnail "outfit/dels skue8"
+	"mass" 48
+	"outfit space" -48
+	"weapon capacity" -48
+	"turret mounts" -1
+	weapon
+		sprite "projectile/skue2shot"
+		sound "gw dblaster2"
+		"hardpoint sprite" "hardpoint/blaster turret"
+		"hardpoint offset" 9.
+		"hit effect" "blaster impact"
+		"inaccuracy" 2.4
+		"turret turn" 3.8
+		"velocity" 12
+		"lifetime" 45
+		"reload" 2.5
+		"firing energy" 20
+		"firing heat" 50
+		"shield damage" 12
+		"hull damage" 10
+	description "Turreted version of Skue-8 blaster."
+
 		
 outfit "Kotdar Turret" #HA1
 	category "Turrets"
