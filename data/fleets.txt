@@ -464,8 +464,24 @@ fleet "Kakaima Logistic" #To replace Civilian"
 	variant 15
 		"Gikaar" 5
 		"Grakka" 1
-		"Girok" 2
-		
+	variant 20
+		"Mukikor"
+		"Garokka" 2
+	variant 15
+		"Mukikor"
+		"Grakka"
+	variant 13
+		"Mukikor" 2
+		"Grakka"
+		"Garokka" 2
+	variant 12
+		"Mukikor"
+	variant 5
+		"Mukikor" 3
+		"Grokva" 1
+		"Girok" 4
+		"Garokka" 2
+
 fleet "Kakaima Miner"
 	government "Kroom Kakaima"
 	names "Kroom"
