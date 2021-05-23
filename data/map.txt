@@ -703,6 +703,7 @@ system Agnegba
 	trade Metal 322
 	trade Plastic 400
 	fleet "Kakaima Defense" 1000
+	fleet "Kakaima Logistic" 600
 	object
 		sprite star/g5
 		distance 52.0968
@@ -2561,6 +2562,7 @@ system Arkargol
 	trade Metal 257
 	trade Plastic 440
 	fleet "Kakaima Defense" 1000
+	fleet "Kakaima Logistic" 800
 	object
 		sprite star/g0
 		distance 64
@@ -13565,6 +13567,7 @@ system Eagguka
 	trade Metal 316
 	trade Plastic 364
 	fleet "Kakaima Defense" 1000
+	fleet "Kakaima Logistic" 600
 	object
 		sprite star/m0
 		period 10
@@ -15950,6 +15953,7 @@ system Erokvor
 	trade Metal 345
 	trade Plastic 299
 	fleet "Kakaima Defense" 1200
+	fleet "Kakaima Logistic" 600
 	object
 		sprite star/f5
 		period 10
@@ -19766,6 +19770,7 @@ system Garroke
 	trade Plastic 295
 	fleet "Kakaima Miner" 1000
 	fleet "Kakaima Defense" 1200
+	fleet "Kakaima Logistic" 600
 	object
 		sprite star/g5
 		period 10
@@ -21539,7 +21544,7 @@ system Ginsolor
 	trade Metal 432
 	trade Plastic 389
 	fleet "Kakaima Defense" 800
-	fleet "Kakaima Civillian" 600
+	fleet "Kakaima Logistic" 600
 	object
 		sprite star/k0
 		period 10
@@ -24636,7 +24641,7 @@ system Gukmen
 	trade Metal 347
 	trade Plastic 322
 	fleet "Kakaima Defense" 1200
-	fleet "Kakaima Civillian" 600
+	fleet "Kakaima Logistic" 600
 	object
 		sprite star/k5
 		period 10
@@ -28707,6 +28712,7 @@ system Ikvorse
 	trade Metal 382
 	trade Plastic 477
 	fleet "Kakaima Defense" 1200
+	fleet "Kakaima Logistic" 600
 	object
 		sprite star/g0
 		period 10
@@ -30419,6 +30425,7 @@ system Ismura
 	habitable 320
 	belt 1123
 	link Kethurva
+	link Vurkelu
 	asteroids "small rock" 14 9.5352
 	asteroids "medium rock" 8 5.0112
 	asteroids "large rock" 9 7.308
@@ -36633,6 +36640,7 @@ system Keugaur
 	trade Metal 343
 	trade Plastic 429
 	fleet "Kakaima Defense" 1000
+	fleet "Kakaima Logistic" 600
 	object
 		sprite star/g0
 		distance 32.6176
@@ -42479,6 +42487,7 @@ system Korgor
 	trade Metal 353
 	trade Plastic 394
 	fleet "Kakaima Defense" 1200
+	fleet "Kakaima Logistic" 600
 	object
 		sprite star/k0
 		period 10
@@ -43944,6 +43953,7 @@ system Kukorre
 	trade Metal 270
 	trade Plastic 344
 	fleet "Kakaima Defense" 800
+	fleet "Kakaima Logistic" 600
 	object
 		sprite star/g0
 		period 10
@@ -44847,6 +44857,7 @@ system Kusgugar
 	trade Metal 253
 	trade Plastic 314
 	fleet "Kakaima Defense" 1000
+	fleet "Kakaima Logistic" 600
 	object
 		sprite star/g5
 		period 10
@@ -50984,6 +50995,7 @@ system Makerranu
 	trade Metal 256
 	trade Plastic 396
 	fleet "Kakaima Defense" 1000
+	fleet "Kakaima Logistic" 600
 	object
 		sprite star/g5
 		period 10
@@ -58674,6 +58686,7 @@ system Mukorrai
 	trade Metal 508
 	trade Plastic 479
 	fleet "Kakaima Defense" 1200
+	fleet "Kakaima Logistic" 600
 	object
 		sprite star/k0
 		period 10
@@ -58913,6 +58926,7 @@ system Mulkutvare
 	trade Metal 347
 	trade Plastic 387
 	fleet "Kakaima Defense" 1200
+	fleet "Kakaima Logistic" 600
 	object
 		sprite star/g0
 		distance 35.1906
@@ -61437,6 +61451,7 @@ system Nergolvu
 	trade Metal 454
 	trade Plastic 504
 	fleet "Kakaima Defense" 1200
+	fleet "Kakaima Logistic" 600
 	object
 		sprite star/f5
 		distance 45.5957
@@ -64058,7 +64073,7 @@ system Ogaki
 	trade Metal 428
 	trade Plastic 309
 	fleet "Kakaima Defense" 1600
-	fleet "Kakaima Civillian" 700
+	fleet "Kakaima Logistic" 700
 	object
 		sprite star/f5
 		distance 45.2093
@@ -64867,6 +64882,7 @@ system Okrevug
 	trade Metal 287
 	trade Plastic 308
 	fleet "Kakaima Defense" 1200
+	fleet "Kakaima Logistic" 600
 	object
 		sprite star/g5
 		distance 16.3421
@@ -65177,7 +65193,7 @@ system Oliga
 	trade Metal 485
 	trade Plastic 447
 	fleet "Kakaima Defense" 800
-	fleet "Kakaima Civillian" 600
+	fleet "Kakaima Logistic" 600
 	fleet "Geeva Battle Fleet" 2200
 	object
 		sprite star/k0
@@ -69769,6 +69785,7 @@ system Rakgor
 	trade Metal 331
 	trade Plastic 296
 	fleet "Kakaima Defense" 1400
+	fleet "Kakaima Logistic" 600
 	object
 		sprite star/m0
 		period 10
@@ -77140,6 +77157,7 @@ system Skogedor
 	trade Metal 311
 	trade Plastic 271
 	fleet "Kakaima Defense" 1400
+	fleet "Kakaima Logistic" 600
 	object
 		sprite star/k0
 		distance 51.8049
@@ -79001,6 +79019,7 @@ system Tekgarbu
 	trade Metal 415
 	trade Plastic 431
 	fleet "Kakaima Defense" 1000
+	fleet "Kakaima Logistic" 600
 	object
 		sprite star/f5
 		period 10
@@ -81056,6 +81075,7 @@ system Ukvore
 	trade Metal 263
 	trade Plastic 367
 	fleet "Kakaima Defense" 800
+	fleet "Kakaima Logistic" 600
 	object
 		sprite star/g0
 		distance 10.3333
@@ -86801,6 +86821,69 @@ system Vurdesdur
 			distance 221
 			period 13.3797
 
+system Vurkelu
+	pos -52773.9 -54143.5
+	government "Tehru Insker"
+	habitable 851.84
+	belt 1282
+	link Ismura
+	asteroids "small rock" 42 3.7559
+	asteroids "medium rock" 17 7.5118
+	asteroids "large rock" 6 6.1364
+	asteroids "small metal" 1 2.9624
+	asteroids "medium metal" 9 5.0784
+	asteroids "large metal" 2 5.0784
+	minables aluminum 2 8.83935
+	minables iron 15 6.25089
+	minables titanium 2 6.49835
+	trade Clothing 239
+	trade Electronics 788
+	trade Equipment 413
+	trade Food 405
+	trade "Heavy Metals" 1208
+	trade Industrial 555
+	trade "Luxury Goods" 1001
+	trade Medical 837
+	trade Metal 270
+	trade Plastic 299
+	object
+		sprite star/k5
+		distance 46
+		period 12.0938
+		offset 180
+	object
+		sprite star/k5
+		distance 46
+		period 12.0938
+	object
+		sprite planet/lava5
+		distance 184.01
+		period 34.2092
+	object
+		sprite planet/fog0
+		distance 515.25
+		period 160.291
+		object
+			sprite planet/rock17
+			distance 177
+			period 17.3716
+	object
+		sprite planet/desert5
+		distance 993.86
+		period 429.407
+	object
+		sprite planet/ocean9
+		distance 1212.67
+		period 578.755
+	object
+		sprite planet/gas0
+		distance 3038.08
+		period 2294.98
+		object
+			sprite planet/miranda
+			distance 280
+			period 13.7307
+
 system Vurusin
 	pos -52670.2 -54493.5
 	government "Tehru Insker"
@@ -88350,7 +88433,7 @@ planet Cordeeil
 planet Darvikor
 	landscape land/mountain5
 	description `Majority of the landmass of this planet is gathered on a single continent, lying below the sea level, kept dry and seperated from each other by the ranges of sky high mountains surronding it. The lower spot of the mountains becomes a waterfall creating rivers flowing deep into the land. Multiple spots of lake can be found at the centre of each sector of land. Life within seems to vary widly from area to area except some large bird-like animals which can be saw everywhere all over the planet.  `
-	description `A plateau forms at the centre of the continent high above even the mountains which seperated the land and sea. On it is a dry open shrubland where rains reaching it are what left over from what formed the inner rivers and lakes.`
+	description `	A plateau forms at the centre of the continent high above even the mountains which seperated the land and sea. On it is a dry open shrubland where rains reaching it are what left over from what formed the inner rivers and lakes.`
 	spaceport `The spaceport is built atop of the plateau next to a medium sized town. `
 
 planet Daskavee
@@ -88366,7 +88449,7 @@ planet Daskavee
 planet Deekulor
 	landscape land/badlands8
 	description `A planet with its surface covered almost entirely in land seperated into multiple continent by deep, kilometers wide rivers all conneted to another at some. The lands are mostly flat and covered in small plants. Large trees only exist closer to the water body.`
-	description `Cities and towns can be found pretty much anywhere on the planet  surrounded by farmlands. Orchards can also be found surrounding towns that are closer to the shore.`
+	description `	Cities and towns can be found pretty much anywhere on the planet  surrounded by farmlands. Orchards can also be found surrounding towns that are closer to the shore.`
 	spaceport .
 
 planet Deerevul
@@ -88591,7 +88674,7 @@ planet Ereata
 planet Erildebor
 	landscape land/land12
 	description `This planet have a lot of water but very little atmosphere it fails to contain any heat long enough to melt the ice. Some form of green planets exist on the equator line buried in the ice only to wake up during the long hours where sunlight reaches melting the ice away only to be frozen again in the night. `
-	description `Small colonies can be found near the equator atop of the rocky mountains with large machines producing greenhouse gases as an effort to terraform the planet.`
+	description `	Small colonies can be found near the equator atop of the rocky mountains with large machines producing greenhouse gases as an effort to terraform the planet.`
 	spaceport `The spaceport have a few landing pads with a few large hangar to the side. Most ships that will not leave the planet soon are kept inside the hangar to avoid damage by the extreme coldness in the night.`
 
 planet Erlikme
@@ -89027,8 +89110,8 @@ planet Keadour
 planet Kedudakor
 	landscape land/badlands5
 	description `Water covers only about a sixth of the planet's surface and most of the land on the planet is dry desert. Most plants are found around the the sole giant lake this planet have, though, life within the desert is very rare, they still exist in small group as a spot found all across the surface. Mountains are rare but when one is found it towers above everything else by at least a kilometer. `
-	description `Settlements here can only be found closer to the shore surrounded by vast orchards contributing to a good portion of the greenery of the planet.`
-	description `New canals are still being dug to further expand the green area of the planet.`
+	description `	Settlements here can only be found closer to the shore surrounded by vast orchards contributing to a good portion of the greenery of the planet.`
+	description `	New canals are still being dug to further expand the green area of the planet.`
 	spaceport .
 
 planet Keedavol
@@ -89284,7 +89367,7 @@ planet Lamarre
 planet Ledokvua
 	landscape land/land9
 	description `A planet is tidally locked to the star leaving on end a warm ocean and another a dark cold ice scape full of crater from meteor impacts.`
-	description `Life and settlements can only be found on the warmer area of the planet. `
+	description `	Life and settlements can only be found on the warmer area of the planet. `
 	spaceport .
 
 planet Leeduvar
@@ -89389,7 +89472,7 @@ planet Likveera
 planet Livaki
 	landscape land/land6
 	description `A planet where large area of lands are covered entirely in forest dotted with buildings painted and decorated to replicate their surroundings making them slightly harder to identify with bare eyes. Streets and roads concealed under the shades of trees. While at first glance there may not seems to be many building, the lights at night reveals countless more homes and buildings that where hidden among the trees.`
-	description `Outside the forest reveals large metropolis of massive skyscrapers with enough space that could very well counted as a city by itself. Buildings painted in light grey with hints of other colours that wouldn't be noticable on first sight. Another notable thing about Geevan architecture is that it completely lacks of sharp corner and smooth texture. `
+	description `	Outside the forest reveals large metropolis of massive skyscrapers with enough space that could very well counted as a city by itself. Buildings painted in light grey with hints of other colours that wouldn't be noticable on first sight. Another notable thing about Geevan architecture is that it completely lacks of sharp corner and smooth texture. `
 	spaceport `The spaceport is shaped like a giant tree even far larger than the surrounding buildings with trunk of steel with branches and leaves as landing pads. `
 	shipyard "Geeva Advanced"
 	outfitter "Geeva Advanced"
@@ -89550,14 +89633,14 @@ planet Meldukoor
 	attributes mining
 	landscape land/badlands7
 	description `A large red planet devoid of native life. Rocky barren streches across the planet with small patches of white dust like mold on breads. `
-	description `A few settlement can be found close to large mining site along with gigantic machines and trucks working day and night.`
+	description `	A few settlement can be found close to large mining site along with gigantic machines and trucks working day and night.`
 	spaceport `Right next to the space port is several large pile of ores with rails in between. Overhead cranes moves along the rail to pick up and dump ores into a freighter waiting nearby. Pretty much everyone here wears a dust mask to avoid inhaling the dirts and dust from the operations.`
 
 planet Melimarsil
 	attributes farming
 	landscape land/land23
 	description `From afar the planet seems to be covered in yellow-ish desert but up close reveals endless field of grain farms. Green plants and trees exist only on the rocky mountains where its unsuitable for farming. `
-	description `Aside from small town here and there, most other buildings are hidden among the trees on the mountains. Tall bridges streches across the fields below to connect the cities together. Some longer bridges are still underconstruction.`
+	description `	Aside from small town here and there, most other buildings are hidden among the trees on the mountains. Tall bridges streches across the fields below to connect the cities together. Some longer bridges are still underconstruction.`
 	spaceport `The spaceport here appeares to be more militarized, you counted at least a dozen guns already from a quick look with more possibly hidden among the trees and buildings. `
 	shipyard "Geeva Advanced"
 	outfitter "Geeva Advanced"
@@ -89864,7 +89947,7 @@ planet Pukotdor
 	attributes mining
 	landscape land/land28
 	description `Large planet of mostly red rocks, with sound of large mining machines echoing from the across the range of mountains. `
-	description `Mined areas stripped of their ores are turned into factories and refineries.`
+	description `	Mined areas stripped of their ores are turned into factories and refineries.`
 	spaceport `The spaceport is a flat area surrounded by grey buildings and warehouses. `
 
 planet Qansta
@@ -90222,7 +90305,7 @@ planet Vibilen
 planet Vikerlia
 	landscape land/mountain9
 	description `Sea of clouds covers almost the entire planet revealing only the highest range of mountains as island. Below is a sea of liqud water and land shaded by the sea of clouds above devoid of any colour, pools of lava can be seen across the planet. Temperature below the clouds here are rather hot.`
-	description `Settlements here are built above the sea of clouds, most hanging off the cliffs and steep slope of the mountains.`
+	description `	Settlements here are built above the sea of clouds, most hanging off the cliffs and steep slope of the mountains.`
 	spaceport `The spaceport here is built on a plateu barely a few meters above the clouds. `
 
 planet Vilicari
