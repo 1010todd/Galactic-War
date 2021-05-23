@@ -160,6 +160,7 @@ ship "Girok"
 
 ship "Grakka"
 	sprite "ship/kroom grakka"
+	thumbnail "thumbnail/kroom grakka thumb"
 	attributes
 		category "Medium Warship"
 		licenses
@@ -185,8 +186,8 @@ ship "Grakka"
 	outfits
 		"Krogak Missile Launcher" 2
 		"Krogak Missile" 70
-		"Kroom Blaster Turret" 6
-		"Kroom Anti-Missile Turret" 3
+		"Kroom Blaster Turret" 4
+		"Kroom Anti-Missile Turret" 2
 		
 		"Kutsabik Fission Reactor"
 		"Biuger Photovoltaic Panel" 2
@@ -200,19 +201,46 @@ ship "Grakka"
 		"Karmar Steering" 2
 		"Hyperdrive"
 		
-	turret -18.5 -64 "Kroom Blaster Turret"
-	turret 18.5 -65.5 "Kroom Blaster Turret"
-	turret -17 -28.5 "Kroom Anti-Missile Turret"
-	turret 17 -29.5 "Kroom Anti-Missile Turret"
-	turret -17 67.5 "Kroom Blaster Turret"
-	turret 17 65.5 "Kroom Blaster Turret"
-	gun -25 -10 "Krogak Missile Launcher"
-	gun 25 -10 "Krogak Missile Launcher"
-	turret 0 29 "Kroom Anti-Missile Turret"
-	turret -35 18.5 "Kroom Blaster Turret"
-	turret 34.5 18.5 "Kroom Blaster Turret"
-	engine -7 90
-	engine 7 90
+	gun -23 -90
+	gun 23 -90
+	turret -27.5 -34.5
+	turret 27.5 -34.5
+	turret -27.5 -9.5 "Kroom Anti-Missile Turret"
+	turret 27.5 -9.5 "Kroom Anti-Missile Turret"
+	turret -42.5 49
+	turret 42.5 49
+	engine -22.5 83.5
+		zoom 1
+		angle 0
+		under
+	engine 22.5 83.5
+		zoom 1
+		angle 0
+		under
+	"reverse engine" 0 -61.5
+		zoom 1
+		angle 180
+		over
+	"steering engine" -32.5 -69
+		zoom .5
+		angle -90
+		under
+		left
+	"steering engine" 32.5 -69
+		zoom .5
+		angle 90
+		under
+		right
+	"steering engine" -63 60
+		zoom .3
+		angle -90
+		under
+		right
+	"steering engine" 63 60
+		zoom .3
+		angle 90
+		under
+		left
 	explode "tiny explosion" 18
 	explode "small explosion" 36
 	explode "medium explosion" 24
@@ -311,6 +339,104 @@ ship "Gikaar"
 	explode "tiny explosion" 10
 	explode "small explosion" 20
 	explode "medium explosion" 15
+	"final explode" "final explosion small"
+	description ""
+
+ship "Mukikor"
+	sprite "ship/kroom mukikor"
+	thumbnail "thumbnail/kroom mukikor thumb"
+	attributes
+		category "Heavy Freighter"
+		"cost" 440000
+		"shields" 12000
+		"hull" 9900
+		"required crew" 12
+		"bunks" 24
+		"mass" 150
+		"drag" 3.1
+		"heat dissipation" .6
+		"fuel capacity" 800
+		"cargo space" 600
+		"outfit space" 870
+		"weapon capacity" 350
+		"engine capacity" 180
+		weapon
+			"blast radius" 72
+			"shield damage" 720
+			"hull damage" 360
+			"hit force" 1080
+	outfits
+		"Kroom Blaster Turret" 6
+		"Kroom Anti-Missile Turret" 2
+		
+		"Luketak Fission Reactor"
+		"Gokal Battery Pack"
+		"Kourta Shield Generator"
+		"Water Coolant System" 2
+		"Hok O-Homai" 12
+		
+		"Kompar Thruster"
+		"Kompar Steering"
+		"Hyperdrive"
+
+	turret -71 -99.5
+	turret 71 -99.5
+	turret -38 0 "Kroom Anti-Missile Turret"
+	turret 38 0 "Kroom Anti-Missile Turret"
+	turret -97 95.5
+	turret 97 95.5
+	turret -54 75
+	turret 54 75
+	engine -48.5 183
+		zoom 1
+		angle 0
+		under
+	engine 48.5 183
+		zoom 1
+		angle 0
+		under
+	"reverse engine" -76 -164
+		zoom .5
+		angle 180
+		under
+	"reverse engine" 76 -164
+		zoom .5
+		angle 180
+		under
+	"steering engine" -67 -154
+		zoom .3
+		angle -90
+		over
+		right
+	"steering engine" 67 -154
+		zoom .3
+		angle 90
+		over
+		left
+	"steering engine" -67.5 -134
+		zoom .3
+		angle -90
+		over
+		right
+	"steering engine" 67.5 -134
+		zoom .3
+		angle 90
+		over
+		left
+	"steering engine" -26 187.5
+		zoom .3
+		angle -90
+		under
+		left
+	"steering engine" 26 187.5
+		zoom .3
+		angle 90
+		under
+		right
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 15
+	explode "large explosion" 5
 	"final explode" "final explosion small"
 	description ""
 	
