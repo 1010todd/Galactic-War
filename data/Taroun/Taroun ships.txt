@@ -1,18 +1,18 @@
 ship Eroun
 	sprite "ship/taroun eroun"
-	"never disabled"
 	attributes
 		category "Heavy Warship"
 		"cost" 1100000000
 		"shields" 5000000
 		"hull" 2400000
+		"absolute threshold" 1000
 		"required crew" 4
-		"bunks" 45
+		"bunks" 5
 		"mass" 1000
 		"drag" 10
 		"heat dissipation" 50
 		"fuel capacity" 1200
-		"cargo space" 120
+		"cargo space" 30
 		"outfit space" 800
 		"weapon capacity" 600
 		"engine capacity" 200
@@ -21,6 +21,10 @@ ship Eroun
 		"shield generation" 110
 		"shield energy" 110
 		"hull repair rate" 120
+		"ion protection" 40
+		"slowing resistance" 5
+		"slowing resistance energy" 13
+		"slowing resistance heat" 13
 		"hyperdrive" 1
 		"jump speed" 1.5
 		"jump drive" 1
@@ -54,16 +58,17 @@ ship Eroun
 	engine -15 183.5
 	explode "smoke" 50
 	"final explode" "final explosion large"
+	description "Taroun light warship, usually found in patrol and scout fleets. While armed, these ships are not meant for combat."
 	
 ship Oresu
 	sprite "ship/taroun oresu"
-	"never disabled"
 	attributes
 		category "Medium Warship"
 		"cost" 900000000
 		"shields" 3000000
 		"hull" 1600000
-		"required crew" 2
+		"absolute threshold" 1400
+		"required crew" 8
 		"bunks" 20
 		"mass" 600
 		"drag" 8
@@ -78,6 +83,8 @@ ship Oresu
 		"shield generation" 110
 		"shield energy" 110
 		"hull repair rate" 120
+		"ion protection" 40
+		"heat protection" 40
 		"hyperdrive" 1
 		"jump speed" 1.5
 		"jump drive" 1
@@ -95,6 +102,8 @@ ship Oresu
 		"Taroun Deflector"
 		"Serulan Turret" 2
 		"Urmou Launcher"
+
+		"Mroona Shield Reinforcer"
 		
 		"Ursun Thruster"
 		"Ursun Steering"
