@@ -28,6 +28,7 @@ ship "VK-35 Katen"
 			"scan interference" 1
 			"radar jamming" 5
 			"ZIS AM Lock" -1
+			"force protection" 40
 			weapon
 				"blast radius" 20
 				"shield damage" 1200
@@ -279,6 +280,7 @@ ship "RZ-28 Forlan"
 		"scan interference" 1
 		"radar jamming" 5
 		"ZIS AM Lock" -1
+		"force protection" 32
 		weapon
 			"blast radius" 35
 			"shield damage" 120
@@ -333,6 +335,7 @@ ship "RZ-621-02 Razor"
 		ramscoop 20
 		"gaslining" 1
 		"ZIS AM Lock" -1
+		"force protection" 55
 		weapon
 			"blast radius" 60
 			"shield damage" 6000
@@ -421,6 +424,7 @@ ship "SY-8662 Sysor"
 		"jump in sound" "zis galactic drive in"
 		"jump out sound" "zis galactic drive out"
 		"ZIS AM Lock" -4
+		"force protection" 65
 		weapon
 			"blast radius" 80
 			"shield damage" 800
@@ -492,6 +496,7 @@ ship "DT-510 Quadlancer"
 		"radar jamming" 8
 		"swizzle" 0
 		"ZIS AM Lock" -2
+		"force protection" 57
 		weapon
 			"blast radius" 250
 			"shield damage" 1000
@@ -550,6 +555,7 @@ ship "DT-224 Trazar"
 		ramscoop 20
 		"gaslining" 1
 		"ZIS AM Lock" -1
+		"force protection" 43
 		weapon
 			"blast radius" 60
 			"shield damage" 6000
@@ -1667,6 +1673,7 @@ ship "ZN-7681 Eaxes"
 		"tactical scan power" 5000
 		"asteroid scan power" 10000
 		"spinal mount" 1
+		"force protection" 70
 		weapon
 			"blast radius" 800
 			"shield damage" 8000
