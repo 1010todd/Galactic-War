@@ -533,8 +533,6 @@ ship "Kargorko"
 	sprite "ship/kroom kargorko"
 		"frame time" 5
 		"delay" 40
-		"random start frame"
-		"rewind"
 	attributes
 		category "Interceptor"
 		"cost" 300000
@@ -568,11 +566,38 @@ ship "Kargorko"
 		"Kalmo Steering"
 		"Hyperdrive"
 		
-	gun -8 -3 "Kroom Blaster"
-	gun 8 -3 "Kroom Blaster"
-	gun 17 12 "Karar Missile"
-	gun -17 12 "Karar Missile"
-	engine 0 39
+	gun -7.5 -14 "Kroom Blaster"
+	gun 7.5 -14 "Kroom Blaster"
+	gun -15.5 0.5
+	gun 15.5 0.5
+	engine -3 37
+		zoom 1
+		angle 0
+		under
+	engine 3 37
+		zoom 1
+		angle 0
+		under
+	"steering engine" -5 -29
+		zoom .5
+		angle -90
+		under
+		right
+	"steering engine" 5 -29
+		zoom 1
+		angle 90
+		under
+		left
+	"steering engine" -6.5 30
+		zoom 1
+		angle -90
+		under
+		left
+	"steering engine" 6.5 30
+		zoom 1
+		angle 90
+		under
+		right
 	explode "tiny explosion" 10
 	explode "small explosion" 20
 	explode "medium explosion" 15
