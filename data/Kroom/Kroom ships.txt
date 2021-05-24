@@ -609,45 +609,86 @@ ship "Kaargor"
 	attributes
 		category "Transport"
 		"cost" 340000
-		"shields" 1200
-		"hull" 500
-		"required crew" 1
-		"bunks" 22
-		"mass" 60
-		"drag" .9
-		"heat dissipation" .9
+		"shields" 4300
+		"hull" 1500
+		"required crew" 5
+		"bunks" 156
+		"mass" 260
+		"drag" 3.5
+		"heat dissipation" .5
 		"fuel capacity" 300
 		"cargo space" 20
 		"outfit space" 160
-		"weapon capacity" 20
-		"engine capacity" 90
+		"weapon capacity" 40
+		"engine capacity" 120
 		weapon
 			"blast radius" 72
 			"shield damage" 720
 			"hull damage" 360
 			"hit force" 1080
 	outfits
-		"Kroom Blaster" 2
+		"Kroom Blaster Turret"
+		"Kroom Anti-Missile Turret"
 		
 		"Ekalo Battery Pack"
-		"Burtal Fuel Cell"
+		"Fulakor Fuel Cell"
 		"Keno Shield Generator"
 
-		"Gorka Homai" 22
+		"Gorka Homai" 150
 		
-		"Kalmo Thruster"
-		"Kalmo Steering"
+		"Karmar Thruster"
+		"Karmar Steering"
 		"Hyperdrive"
 		
-	gun -14 -24
-	gun 14 -24
-	engine -5 39.5
-	engine 5 39.5
+	turret -29 73
+	turret 29 73
+	engine -18 98.5
+		zoom 1
+		angle 0
+		under
+	engine 18 98.5
+		zoom 1
+		angle 0
+		under
+	"reverse engine" 0 -98
+		zoom 1
+		angle 180
+		under
+	"steering engine" -25.5 -84
+		zoom .3
+		angle -90
+		under
+		right
+	"steering engine" 25.5 -84
+		zoom .3
+		angle 90
+		under
+		left
+	"steering engine" -39 81.5
+		zoom .3
+		angle 90
+		under
+		left
+	"steering engine" 39 81.5
+		zoom .3
+		angle 90
+		under
+		right
+	"steering engine" -39 86
+		zoom .3
+		angle 90
+		under
+		left
+	"steering engine" 39 86
+		zoom .3
+		angle 90
+		under
+		right
 	explode "tiny explosion" 10
 	explode "small explosion" 20
 	explode "medium explosion" 15
-	"final explode" "final explosion small"
-	description "Kaargor is a transport designed to board and capture enemy's ship."
+	"final explode" "final explosion medium"
+	description "A large yet fragile transport cobbled together from scraps and cheap materials, it's quite a miracle this thing can even fly at all."
 
 
 ship "Mugildor"
@@ -658,8 +699,8 @@ ship "Mugildor"
 		"cost" 3560000
 		"shields" 14000
 		"hull" 10900
-		"required crew" 45
-		"bunks" 60
+		"required crew" 188
+		"bunks" 200
 		"mass" 210
 		"drag" 8.8
 		"heat dissipation" .4
@@ -756,4 +797,4 @@ ship "Mugildor"
 	explode "medium explosion" 15
 	explode "large explosion" 5
 	"final explode" "final explosion small"
-	description "Heavily modified version of Kroom freighter Mukikor. "
+	description "Kroom Kanai warship heavily modified from the Mukikor."
