@@ -12,6 +12,8 @@ shipyard "Wallagi"
 	"Tansa"
 	"Sentasor"
 
+#======================================DELS
+
 shipyard "Dels Standard"
 	"Dels Dea"
 	"Dels Dee"
@@ -55,22 +57,6 @@ shipyard "Dels Pirate"
 	"Dels Secsen"
 	"Dels Derso"
 	"Dels Desin"
-
-shipyard "Donko Basic"
-	"Donko Kolso"
-	"Donko Matka"
-	"Donko Koi"
-	"Koi (Drone)"
-	"Donko Kanse"
-
-shipyard "Donko Advanced"
-	"Donko Sao"
-	"Donko Kolso"
-	"Donko Matka"
-	"Donko Koi"
-	"Koi (Drone)"
-	"Donko Kanse"
-	"Donko Senka" 
 	
 outfitter "Dels Ammo"
 	"Dakte-1 Missile"
@@ -202,6 +188,101 @@ outfitter "Dels Advanced"
 	"Liquid Nitrogen Cooling"
 	"Liquid Helium Cooling"
 	
+#======================================KROOM
+
+outfitter "Kroom Basic"
+	"Kroom Blaster"
+	"Kroom Blaster Turret"
+	"Kroom Proton Blaster"
+	"Kroom Anti-Missile Turret"
+	"Krogak Missile"
+	"Krogak Missile Box"
+	"Krogak Missile Launcher"
+	"Golkar Torpedo"
+
+	"Ekalo Battery Pack"
+	"Galrugl Battery Pack"
+	"Biuger Photovoltaic Panel"
+	"Burtal Fuel Cell"
+	"Fulakor Fuel Cell"
+
+	"Keno Shield Generator"
+	"Kosak Shield Generator"
+
+	"Kalmo Thruster"
+	"Kalmo Steering"
+
+outfitter "Kroom Advanced"
+	"Golkar Torpedo"
+	"Golkar Torpedo Storage"
+	"Golkar Torpedo Launcher"
+	"Golkar Torpedo Turret"
+
+outfitter "Kanai Basic"
+	"Karar Missile"
+
+	"Gorka Homai"
+	
+outfitter "Kakaima Basic"
+	"Atuga Radiothermal"
+	"Gadorke Fuel Cell"
+
+	"Karmar Thruster"
+	"Karmar Steering"
+
+	"Hok O-Homai"
+
+outfitter "Kakaima Advanced"
+	"Kutsabik Fission Reactor"
+	"Luketak Fission Reactor"
+	"Gokal Battery Pack"
+	"Huglr Battery Pack"
+
+	"Kourta Shield Generator"
+	"Kutkar Shield Generator"
+
+	"Kompar Thruster"
+	"Kompar Steering"
+
+shipyard "Kakaima Basic"
+	"Girok"
+	"Gikaar"
+	"Grakka"
+
+shipyard "Kakaima Advanced"
+	"Grokva"
+	"Garokka"
+	"Mukikor"
+
+shipyard "Kanai Basic"
+	"Kargorko"
+	"Kaargor"
+
+shipyard "Kanai Advanced"
+	"Mugildor"
+
+#======================================GEEVA
+
+outfitter "Geeva Basic"
+	"Ilcor-06 Blaster Turret"
+	"Noilcor-06 Blaster Turret"
+	"Rilar-06 Anti-Missile"
+
+	"Nipalir-06 Shield Generator"
+	"Kielir-06 Jammer"
+	"Silr-02 Hyperdrive"
+	"Cirpa-06 Cooling Device"
+
+	"Niturlo-06 Reactor"
+	"Aiple-05 Batteries"
+	"Erlip-05 Batteries"
+
+	"Iogel01-04 Thruster"
+	"Iogel02-04 Thruster"
+	"Iogel01-04 Steering"
+	"Iogel02-04 Steering"
+	"Local Map"
+
 outfitter "Geeva Advanced"
 	"Ilcor-06 Blaster Turret"
 	"Noilcor-06 Blaster Turret"
@@ -256,7 +337,17 @@ outfitter "Geeva Advanced"
 	"LRP Grenades"
 	"Geeva Sword"
 	"Sector Map"
+	"Local Map"
+	
+shipyard "Geeva Basic"
+	"Hailika"
+	"Kinika"
 
+shipyard "Geeva Advanced"
+	"Kimali"
+	
+#======================================IGNAGGEN
+	
 outfitter "Ignaggen Basic"
 	"Georlen Gun"
 	"Georlen Turret"
@@ -265,6 +356,7 @@ outfitter "Ignaggen Basic"
 	"Gatourot Capacitor"
 	"Vultador Cell"
 	"Vurlugigr Reactor"
+	"Local Map"
 	
 outfitter "Ignaggen Advanced"
 	"Gikorel Anti-Missile"
@@ -279,7 +371,8 @@ outfitter "Ignaggen Advanced"
 	"Vurlugigr Reactor"
 	"Orvuilugr Reactor"
 	"Ignaggen Cooling System"
-	
+	"Local Map"
+
 shipyard "Ignaggen Basic"
 	"Gikeor"
 	"Kina"
@@ -289,9 +382,11 @@ shipyard "Ignaggen Advanced"
 	"Koggareu"
 	"Kamuel"
 	"Leorlen"
-	
+
 shipyard "Ignaggen Military"
 	"I'nos"
+
+#=========================================DONKO
 	
 outfitter "Donko Basic"
 	"J1 MES Gun"
@@ -307,8 +402,7 @@ outfitter "Donko Basic"
 	"Donko Hyperdrive"
 	"R1 Cell"
 	"R2 Cell"
-	
-	
+
 outfitter "Donko Advanced"
 	"J1 MES Gun"
 	"J6 KED Turret"
@@ -333,3 +427,19 @@ outfitter "Donko Advanced"
 	"T2 Thruster"
 	"T2 Steering"
 	"K2 Shield Generator"
+
+shipyard "Donko Basic"
+	"Donko Kolso"
+	"Donko Matka"
+	"Donko Koi"
+	"Koi (Drone)"
+	"Donko Kanse"
+
+shipyard "Donko Advanced"
+	"Donko Sao"
+	"Donko Kolso"
+	"Donko Matka"
+	"Donko Koi"
+	"Koi (Drone)"
+	"Donko Kanse"
+	"Donko Senka" 

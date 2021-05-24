@@ -353,7 +353,7 @@ ship "Mukikor"
 		"required crew" 12
 		"bunks" 24
 		"mass" 150
-		"drag" 3.1
+		"drag" 7.1
 		"heat dissipation" .6
 		"fuel capacity" 800
 		"cargo space" 600
@@ -557,7 +557,7 @@ ship "Kargorko"
 			"hit force" 1080
 	outfits
 		"Kroom Blaster" 2
-		"Karar Missile Single" 2
+		"Karar Missile" 2
 		
 		"Ekalo Battery Pack"
 		"Burtal Fuel Cell"
@@ -570,8 +570,8 @@ ship "Kargorko"
 		
 	gun -8 -3 "Kroom Blaster"
 	gun 8 -3 "Kroom Blaster"
-	gun 17 12 "Karar Missile Single"
-	gun -17 12 "Karar Missile Single"
+	gun 17 12 "Karar Missile"
+	gun -17 12 "Karar Missile"
 	engine 0 39
 	explode "tiny explosion" 10
 	explode "small explosion" 20
@@ -623,3 +623,112 @@ ship "Kaargor"
 	explode "medium explosion" 15
 	"final explode" "final explosion small"
 	description "Kaargor is a transport designed to board and capture enemy's ship."
+
+
+ship "Mugildor"
+	sprite "ship/kroom modmukikor"
+	thumbnail "thumbnail/kroom modmukikor thumb"
+	attributes
+		category "Heavy Warship"
+		"cost" 3560000
+		"shields" 14000
+		"hull" 10900
+		"required crew" 45
+		"bunks" 60
+		"mass" 210
+		"drag" 8.8
+		"heat dissipation" .4
+		"fuel capacity" 800
+		"cargo space" 20
+		"outfit space" 970
+		"weapon capacity" 550
+		"engine capacity" 180
+		weapon
+			"blast radius" 72
+			"shield damage" 720
+			"hull damage" 360
+			"hit force" 1080
+	outfits
+		"Krogak Missile Launcher" 2
+		"Krogak Missile" 70
+		"Kroom Blaster Turret" 6
+		"Golkar Torpedo Turret" 2
+		"Golkar Torpedo Storage" 2
+		"Golkar Torpedo" 48
+		"Kroom Anti-Missile Turret" 2
+		
+		"Luketak Fission Reactor"
+		"Gokal Battery Pack"
+		"Kourta Shield Generator"
+		"Water Coolant System" 2
+		"Hok O-Homai" 20
+		"Groka Homai" 40
+		
+		"Kompar Thruster"
+		"Kompar Steering"
+		"Hyperdrive"
+
+	gun -37.5 -184.5
+	gun 37.5 -184.5
+	turret 0 -102.5
+	turret 0 -67.5 "Golkar Torpedo Turret"
+	turret 0 -32 "Golkar Torpedo Turret"
+	turret 0 -2
+	turret -54.5 88.5 "Kroom Anti-Missile Turret"
+	turret 54.5 88.5 "Kroom Anti-Missile Turret"
+	turret -54.5 127
+	turret 54.5 127
+	turret -98 95
+	turret 98 95
+	engine -51 181
+		zoom 1
+		angle 0
+		under
+	engine 51 181
+		zoom 1
+		angle 0
+		under
+	"reverse engine" -76 -164
+		zoom .5
+		angle 180
+		under
+	"reverse engine" 76 -164
+		zoom .5
+		angle 180
+		under
+	"steering engine" -67 -154
+		zoom .3
+		angle -90
+		over
+		right
+	"steering engine" 67 -154
+		zoom .3
+		angle 90
+		over
+		left
+	"steering engine" -67.5 -134
+		zoom .3
+		angle -90
+		over
+		right
+	"steering engine" 67.5 -134
+		zoom .3
+		angle 90
+		over
+		left
+	"steering engine" -26 187.5
+		zoom .3
+		angle -90
+		under
+		left
+	"steering engine" 26 187.5
+		zoom .3
+		angle 90
+		under
+		right
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 15
+	explode "large explosion" 5
+	"final explode" "final explosion small"
+	description "Heavily modified version of Kroom freighter Mukikor. "

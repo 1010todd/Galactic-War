@@ -86,7 +86,7 @@ outfit "Kroom Anti-Missile Turret"
 		"hardpoint sprite" "hardpoint/anti-missile"
 		"hardpoint offset" 4.
 		"hit effect" "small anti-missile"
-		"anti-missile" 3
+		"anti-missile" 4
 		"turret turn" 10
 		"velocity" 150
 		"lifetime" 1
@@ -101,7 +101,7 @@ outfit "Krogak Missile"
 	thumbnail "outfit/meteor"
 	"mass" .2
 	"krogak capacity" -1
-	description "A Krogak Missile serves as ammunition for the Krogak Missile Launcher. Each missile launcher has the capacity for 35 missiles; you cannot install missiles if you have not first purchased a launcher to store them in."
+	description "Ammo for Krogak missile launcher."
 
 outfit "Krogak Missile Box"
 	plural "Krogak Missile Boxes"
@@ -151,10 +151,10 @@ outfit "Krogak Missile Launcher"
 		"missile strength" 6
 	description ""
 	
-outfit "Karar Missile Single"
+outfit "Karar Missile"
 	category "Secondary Weapons"
 	cost 900
-	thumbnail "outfit/meteor launcher"
+	thumbnail "outfit/meteor"
 	"mass" .2
 	"outfit space" -1
 	"weapon capacity" -1
@@ -164,7 +164,7 @@ outfit "Karar Missile Single"
 			"no repeat"
 			"frame rate" .25
 		sound "meteor"
-		ammo "Karar Missile Single"
+		ammo "Karar Missile"
 		icon "icon/meteor"
 		"fire effect" "meteor fire"
 		"die effect" "missile death"
@@ -184,6 +184,101 @@ outfit "Karar Missile Single"
 		"hit force" 30
 		"missile strength" 8
 		"stream"
+
+outfit "Golkar Torpedo"
+	category "Ammunition"
+	cost 500
+	thumbnail "outfit/golkar torpedo"
+	"mass" .4
+	"golkar capacity" -1
+	description "Golkar Torpedo"
+
+outfit "Golkar Torpedo Storage"
+	category "Ammunition"
+	cost 500
+	thumbnail "outfit/golkar torpedo"
+	"mass" 5
+	"golkar capacity" 12
+	description "Golkar Torpedo Storage."
+
+outfit "Golkar Torpedo Launcher"
+	category "Secondary Weapons"
+	cost 60000
+	thumbnail "outfit/golkar launcher"
+	"mass" 10
+	"outfit space" -13
+	"weapon capacity" -13
+	"turret mount" -1
+	"golkar capacity" 6
+	"required crew" 1
+	weapon
+		sprite "projectile/golkar"
+		sound "zaikor"
+		ammo "Golkar Torpedo"
+		icon "icon/galkor"
+		"fire effect" "meteor fire"
+		"die effect" "missile death"
+		"hit effect" "medium explosion"
+		"inaccuracy" .2
+		"velocity" 13
+		"lifetime" 540
+		"reload" 150
+		"burst count" 3
+		"burst reload" 12
+		"firing energy" 5
+		"firing heat" 120
+		"acceleration" 1
+		"drag" .04
+		"turn" .7
+		"homing" 4
+		"radar tracking" .8
+		"shield damage" 1000
+		"hull damage" 1700
+		"heat damage" 1000
+		"hit force" 80
+		"missile strength" 35
+	description ""
+
+outfit "Golkar Torpedo Turret"
+	category "Secondary Weapons"
+	cost 86000
+	thumbnail "outfit/golkar turret"
+	"mass" 22
+	"outfit space" -30
+	"weapon capacity" -30
+	"turret mount" -1
+	"golkar capacity" 12
+	"required crew" 2
+	weapon
+		sprite "projectile/golkar"
+		sound "zaikor"
+		ammo "Golkar Torpedo"
+		icon "icon/galkor"
+		"hardpoint sprite" "hardpoint/kroom golkar turret hp"
+		"hardpoint offset" 9.
+		"turret turn" 1.8
+		"fire effect" "meteor fire"
+		"die effect" "missile death"
+		"hit effect" "medium explosion"
+		"inaccuracy" .2
+		"velocity" 13
+		"lifetime" 540
+		"reload" 180
+		"burst count" 3
+		"burst reload" 12
+		"firing energy" 5
+		"firing heat" 120
+		"acceleration" 1
+		"drag" .04
+		"turn" .7
+		"homing" 4
+		"radar tracking" .8
+		"shield damage" 1000
+		"hull damage" 1700
+		"heat damage" 1000
+		"hit force" 80
+		"missile strength" 35
+	description ""
 #===============================================POWER
 outfit "Ekalo Battery Pack" #M-5
 	category "Power"
