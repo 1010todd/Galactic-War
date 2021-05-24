@@ -382,65 +382,41 @@ fleet "Kakaima Defense"
 		heroic
 		frugal 
 		opportunistic
-		plunders
 	variant 10
 		"Grokva"
-		"Girok" 4
+		"Girok" 6
 	variant 20
 		"Grakka"
-		"Girok" 3
 	variant 15
 		"Grakka" 2
-		"Girok" 6
 	variant 1
 		"Grokva" 2
 		"Grakka" 4
-		"Girok" 20
+		"Girok" 12
 	variant 10
 		"Garokka" 2
-		"Grokva" 1
-		
-fleet "Kakaima Civillian"
-	government "Kroom Kakaima"
-	names "Kroom"
-	cargo 1
-	personality
-		confusion 30
-		frugal 
-		plunders
-		disables
-	variant 20
-		"Gikaar" 3
-	variant 20
-		"Gikaar" 3
-		"Garokka" 2
-	variant 20
-		"Gikaar" 6
-		"Garokka" 4
-	variant 10
-		"Gikaar" 8
-		"Garokka" 5
-		"Grokva" 1
-		"Girok" 4
-	variant 20
-		"Gikaar" 2
-		"Garokka" 1
-	variant 20
-		"Gikaar" 5
-		"Garokka" 3
+		"Grokva (Heavy)" 1
 	variant 15
-		"Gikaar" 5
-		"Grakka" 1
-		"Girok" 2
+		"Garokka (Light)" 3
+	variant 15
+		"Garokka (Heavy)" 3
+	variant 10
+		"Garokka (Heavy)" 2
+		"Grokva (Heavy)" 1
+		"Girok" 6
+		"Garokka (Light)" 3
+	variant 10
+		"Garokka (Heavy)" 2
+		"Grokva" 1
+		"Girok" 6
 		
-fleet "Kakaima Logistic" #To replace Civilian"
+fleet "Kakaima Logistic" 
 	government "Kroom Kakaima"
 	names "Kroom"
 	cargo 1
 	personality
 		confusion 30
 		frugal 
-		plunders
 		disables
 	variant 20
 		"Gikaar" 3
@@ -481,6 +457,12 @@ fleet "Kakaima Logistic" #To replace Civilian"
 		"Grokva" 1
 		"Girok" 4
 		"Garokka" 2
+	variant 2
+		"Mukikor" 3
+		"Grokva" 1
+		"Grokva (Heavy)" 1
+		"Girok" 8
+		"Garokka" 2
 
 fleet "Kakaima Miner"
 	government "Kroom Kakaima"
@@ -488,8 +470,7 @@ fleet "Kakaima Miner"
 	cargo 1
 	personality
 		confusion 20
-		frugal 
-		plunders
+		frugal plunders mining harvests
 		disables
 	variant 20
 		"Garokka"
@@ -501,7 +482,8 @@ fleet "Kakaima Miner"
 	variant 15
 		"Gikaar" 3
 		"Grakka" 1
-		"Girok" 2
+	variant 20
+		"Garokka (Light)"
 
 fleet "Geeva Battle Fleet"
 	government "Geeva"
@@ -568,6 +550,10 @@ fleet "Kroom Kanai"
 		"Kaargor" 6
 		"Grokva"
 		"Grakka" 2
+	variant 2
+		"Mugildor"
+		"Grakka" 2
+		"Kargorko" 20
 		
 fleet "Kager Ignaggen"
 	government "Kager Ignaggen"
@@ -593,9 +579,6 @@ fleet "Kager Ignaggen"
 		"I'nos" 2
 	variant 15
 		"Koggareu" 5
-		
-		
-	
 		
 fleet "Ignaggen"
 	government "Ignaggen"
@@ -678,7 +661,7 @@ fleet "Ignaggen Miner"
 	variant 20
 		"Gikeor" 3
 		
-fleet "Erm Raid Fleet" #Erm's expedition fleet to find the other race to help them fight the Ultaka
+fleet "Erm Raid Fleet" 
 	government "Erm"
 	names "Erm"
 	cargo 1
@@ -728,7 +711,6 @@ fleet "Erm SDF Fleet"
 		"Ernar" 8
 		"Hodanler" 3
 		"Eaken" 5
-		
 		
 fleet "Erm CIV Fleet"
 	government "Erm"
