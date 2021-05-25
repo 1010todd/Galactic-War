@@ -76,6 +76,50 @@ fleet "Dels Dardornai"
 		
 #=======
 	
+fleet "Dels Frontier Merchant"
+	government "Dels"
+	names "Dels civillian"
+	cargo 2
+	personality
+		confusion 25
+		timid
+	variant 80
+		"Dels Sendo"
+	variant 80
+		"Dels Donson"
+	variant 80
+		"Dels Desen"
+	variant 60
+		"Dels Donson" 5
+		"Dels Desin" 3
+	variant 60
+		"Dels Manoon"
+	variant 60
+		"Dels Manoon" 2
+		"Dels Derso" 2
+	variant 60
+		"Dels Eudaion"
+	variant 60
+		"Dels Eudaion"
+		"Dels Senro" 3
+		"Dels Deeris" 2
+	variant 60
+		"Dels Manoon"
+		"Dels Desen" 3
+	variant 50
+		"Dels Manoon"
+		"Dels Derso" 2
+	variant 45
+		"Dels Dacar"
+		"Dels Dea" 3
+	variant 45
+		"Dels Dacar"
+		"Dels Dea" 3
+		"Dels Manoon" 2
+		"Dels Deeris" 3
+	variant 60
+		"Dels Serdeen"
+
 fleet "Dels Central Merchant"
 	government "Dels"
 	names "Dels civillian"
