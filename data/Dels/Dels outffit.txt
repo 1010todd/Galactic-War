@@ -18,8 +18,10 @@ outfit "Skue-6 Blaster" #BA1
 		"reload" 8
 		"firing energy" 10
 		"firing heat" 32
-		"shield damage" 6
-		"hull damage" 4.2
+		"shield damage" 12
+		"hull damage" 9
+		"damage dropoff" 300
+		"dropoff modifier" .7
 	description "The smallest weapon in Dels space."
 
 outfit "Skue-8 Blaster" #BA2
@@ -40,8 +42,10 @@ outfit "Skue-8 Blaster" #BA2
 		"reload" 8
 		"firing energy" 20
 		"firing heat" 50
-		"shield damage" 12
-		"hull damage" 10
+		"shield damage" 24
+		"hull damage" 20
+		"damage dropoff" 350
+		"dropoff modifier" .7
 	description "A larger, more powerful upgrade to Skue-6 Blaster for ships with space for it."
 
 outfit "Skue-8 Reverse Blaster" #BA2
@@ -62,8 +66,10 @@ outfit "Skue-8 Reverse Blaster" #BA2
 		"reload" 8
 		"firing energy" 20
 		"firing heat" 50
-		"shield damage" 12
-		"hull damage" 10
+		"shield damage" 24
+		"hull damage" 20
+		"damage dropoff" 350
+		"dropoff modifier" .7
 	description "Experimental reverse gun."
 	
 outfit "Ukar-3 Blaster" #BA3
@@ -110,13 +116,15 @@ outfit "Vokkar Gun" #PG10
 		"velocity" 25
 		"lifetime" 25
 		"reload" 25
-		"firing energy" 220
+		"firing energy" 124
 		"firing force" 8
 		"firing heat" 135
-		"hit force" 32
-		"shield damage" 68
-		"hull damage" 66
-	description "."
+		"hit force" 80
+		"shield damage" 70
+		"hull damage" 68
+		"disruption damage" .07
+		"firing disruption" .1
+	description "This weapon can weakens the enemies shield allowing projectiles to partially damage the target's hull even with shields up, though, it doesn't care whose shield it's passing."
 	
 effect "vokkar spark"
 	"sprite" "effect/vokkar effect"
@@ -144,8 +152,6 @@ outfit "TC5 Cutter"
 	"outfit space" -10
 	"weapon capacity" -10
 	"gun ports" -1
-	licenses
-		"Dels Mining permit"
 	weapon
 		sprite "projectile/tinyflare"
 			"random start frame"
@@ -163,8 +169,8 @@ outfit "TC5 Cutter"
 		"hull damage" 1
 		"heat damage" 1
 		"hit force" 1
-	description "This is a weapon designed espically for mining astroids in space, but only the military and the permitted ones are allowed to use it."
-	
+	description "[Need rework. Will figure something out for it later.]"
+
 outfit "Odari Heat Cannon"
 	category "Guns"
 	cost 100000
@@ -173,8 +179,6 @@ outfit "Odari Heat Cannon"
 	"outfit space" -32
 	"weapon capacity" -32
 	"gun ports" -1
-	licenses
-		"Dels Mining permit"
 	weapon
 		sprite "projectile/tinyflare"
 			"random start frame"
@@ -192,7 +196,7 @@ outfit "Odari Heat Cannon"
 		"hull damage" 1
 		"heat damage" 80
 		"hit force" 1
-	description "The real reason TC5 requires permit."
+	description ""
 	
 outfit "Dels Sokak Cannon"
 	category "Secondary Weapons"
@@ -218,8 +222,8 @@ outfit "Dels Sokak Cannon"
 		"firing force" 30
 		"firing heat" 180
 		"hit force" 160
-		"shield damage" 200
-		"hull damage" 320
+		"shield damage" 400
+		"hull damage" 710
 	description "A large cannon used by Dels while looks outdated it can pack quite a punch."
 	
 outfit "Dels Sokak Cannon Turret"
@@ -250,8 +254,8 @@ outfit "Dels Sokak Cannon Turret"
 		"firing force" 30
 		"firing heat" 180
 		"hit force" 160
-		"shield damage" 200
-		"hull damage" 320
+		"shield damage" 400
+		"hull damage" 710
 	description "Dels Sokak Cannon mounted on a turret."
 	
 outfit "Sokak Slug"
@@ -291,9 +295,12 @@ outfit "TC0B Laser"
 		"firing energy" 40
 		"firing heat" 10
 		"shield damage" 3
-		"hull damage" 6
-		"heat damage" 20
-	description "A short-ranged laser."
+		"hull damage" 60
+		"heat damage" 40
+		"piercing" .3
+		"damage dropoff" 50 150
+		"parallel"
+	description "A short-ranged burst laser. While not the most powerful of its size, it can partially pierce through shields. Though, the damage drops significantly over range."
 	
 outfit "Skue-6 Turret" #AA1
 	category "Turrets"
@@ -316,8 +323,10 @@ outfit "Skue-6 Turret" #AA1
 		"reload" 8
 		"firing energy" 10
 		"firing heat" 32
-		"shield damage" 6
-		"hull damage" 4.2
+		"shield damage" 12
+		"hull damage" 9
+		"damage dropoff" 300
+		"dropoff modifier" .7
 	description "These are tiny turret mounted Skue-6 blasters for small ships and drones."
 		
 outfit "Skue-8 Turret"
@@ -341,8 +350,10 @@ outfit "Skue-8 Turret"
 		"reload" 8
 		"firing energy" 20
 		"firing heat" 50
-		"shield damage" 12
-		"hull damage" 10
+		"shield damage" 24
+		"hull damage" 20
+		"damage dropoff" 350
+		"dropoff modifier" .7
 	description "Turreted version of Skue-8 blaster."
 
 outfit "Skue-8 Quad Turret"
@@ -363,11 +374,13 @@ outfit "Skue-8 Quad Turret"
 		"turret turn" 3.8
 		"velocity" 12
 		"lifetime" 45
-		"reload" 2.5
+		"reload" 2
 		"firing energy" 20
 		"firing heat" 50
 		"shield damage" 12
 		"hull damage" 10
+		"damage dropoff" 350
+		"dropoff modifier" .7
 	description "Turreted version of Skue-8 blaster."
 
 		
@@ -397,6 +410,7 @@ outfit "Kotdar Turret" #HA1
 		"hit force" 80
 		"shield damage" 110
 		"hull damage" 175
+		"disruption damage" .1
 	description "These are large long-range anti-capital turret."
 	
 #=========================================[Anti Missile]=============================
@@ -530,8 +544,7 @@ outfit "Saikel-4 Launcher" #SK4
 		"drag" .1
 		"turn" 2
 		"homing" 3
-		"infrared tracking" .9
-		"radar tracking" .5
+		"radar tracking" .8
 		"missile strength" 10
 		"shield damage" 88
 		"hull damage" 76
@@ -558,11 +571,10 @@ outfit "sk4"
 		"acceleration" 1.4
 		"drag" .1
 		"turn" 3
-		"homing" 3
+		"homing" 2
 		"optical tracking" .3
-		"radar tracking" .4
-		"shield damage" 12
-		"hull damage" 10
+		"shield damage" 20
+		"hull damage" 20
 		"hit force" 4
 		"missile strength" 1
 		
