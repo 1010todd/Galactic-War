@@ -19,9 +19,7 @@ outfit "Qanse Anti-Missile" #Placeholder
 	description ""
 	
 
-#[alpha][alpha][number][number]
-#Alphabets for weapon identification, number for weapon type.
-outfit "FB6 Heat Beam"
+outfit "Fuebis06 Beam" #FB6 Heat Beam
 	category "Guns"
 	cost 600000
 	thumbnail "outfit/fire-lance"
@@ -46,7 +44,7 @@ outfit "FB6 Heat Beam"
 		"heat damage" 56
 	description ""
 	
-outfit "GT10 Particle Repeater Turret"
+outfit "Gairtes10 Turret" #GT10 Particle Repeater Turret
 	category "Turrets"
 	cost 490000
 	thumbnail "outfit/repeater turret"
@@ -73,7 +71,7 @@ outfit "GT10 Particle Repeater Turret"
 		"cluster"
 	description ""
 	
-outfit "GT10 Particle Repeater"
+outfit "Gairtes10 Gun"
 	category "Guns"
 	cost 400000
 	thumbnail "outfit/repeater"
@@ -99,7 +97,7 @@ outfit "GT10 Particle Repeater"
 		"cluster"
 	description ""
 	
-outfit "DT6 Laser Turret"
+outfit "Dalvista06 Beam Turret" #DT6 Laser
 	category "Turrets"
 	cost 1473000
 	thumbnail "outfit/slicer turret"

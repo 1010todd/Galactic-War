@@ -915,7 +915,7 @@ outfit "Syfar"
 		"damage dropoff" 100
 		"dropoff modifier" 2
 	
-outfit "Rozzen Vertical Launching System"
+outfit "Rozzen VLS Array" #Rozzen Vertical Launching System
 	category "Secondary Weapons"
 	cost 2500000
 	thumbnail "outfit/zis rozzen vls"
@@ -951,33 +951,6 @@ outfit "Rozzen Vertical Launching System"
 		"phasing"
 	description "Array of Rozzen missile launchers and missile generator machines."
 	description "Instead of installing missile launchers on a gun port, Rozzen VLS are installed on turret mounts."
-	
-outfit "Rozzen Assembler" #experiment
-	plural "Rozzen Missiles"
-	category "Ammunition"
-	cost 1820000
-	thumbnail "outfit/zis rozzen vls"
-	"mass" 20
-	description ""
-
-outfit "Rozzen Missile"
-	plural "Rozzen Missiles"
-	category "Ammunition"
-	cost 1200
-	thumbnail "outfit/zis rozzen missile"
-	"mass" .3
-	"rozzen capacity" -1
-	description ""
-	
-outfit "Rozzen Missile Rack"
-	category "Ammunition"
-	cost 17000
-	thumbnail "outfit/zis rozzen rack"
-	"mass" 2
-	"outfit space" -8
-	"rozzen capacity" 30
-	ammo "Rozzen Missile"
-	description ""
 	
 outfit "Rozzen"
 	weapon

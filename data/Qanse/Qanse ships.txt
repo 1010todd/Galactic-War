@@ -23,8 +23,8 @@ ship "Qargi"
 			"hull damage" 1800
 			"hit force" 5400
 	outfits
-		"FB6 Heat Beam" 4
-		"GT10 Particle Repeater Turret" 6
+		"Fuebis06 Beam" 4
+		"Gairtes10 Turret" 6
 		"Qanse Anti-Missile" 4
 		
 		"Y-Class Core"
@@ -41,12 +41,12 @@ ship "Qargi"
 	gun 43.5 -179.5
 	gun -60.5 -157.5
 	gun 60.5 -157.5
-	turret -39.5 -37.5 "GT10 Particle Repeater Turret"
-	turret 39.5 -37.5 "GT10 Particle Repeater Turret"
-	turret -39.5 3.5 "GT10 Particle Repeater Turret"
-	turret 39.5 3.5 "GT10 Particle Repeater Turret"
-	turret -36.5 40.5 "GT10 Particle Repeater Turret"
-	turret 36.5 40.5 "GT10 Particle Repeater Turret"
+	turret -39.5 -37.5 "Gairtes10 Turret"
+	turret 39.5 -37.5 "Gairtes10 Turret"
+	turret -39.5 3.5 "Gairtes10 Turret"
+	turret 39.5 3.5 "Gairtes10 Turret"
+	turret -36.5 40.5 "Gairtes10 Turret"
+	turret 36.5 40.5 "Gairtes10 Turret"
 	engine 39 182.5 
 	engine -39 182.5 
 	explode "tiny explosion" 20
@@ -80,7 +80,7 @@ ship "Dantra"
 			"hull damage" 170
 			"hit force" 540
 	outfits
-		"GT10 Particle Repeater" 4
+		"Gairtes10 Gun" 4
 		"Qanse Anti-Missile"
 		
 		"Y-Class Core"

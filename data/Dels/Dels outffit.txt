@@ -823,62 +823,62 @@ outfit "Vikuan Steering"
 	
 #=========================================[Shields]=============================
 	
-outfit "SR10 Shield Generator"
+outfit "Aeedul Shield Generator" #SR10
 	category "Systems"
 	cost 34000
 	thumbnail "outfit/dels small shield"
 	"mass" 11
 	"outfit space" -11
 	"shield generation" .2
-	"shield energy" .21
+	"shield energy" .24
 	"depleted shield delay" 5
 	"heat generation" 1
 	description "This is the smallest shield generator avaliable in Dels space. Powerful for its size but can take a while to recharge when depleted."
 
-outfit "SR20 Shield Generator"
+outfit "Dudae Shield Generator" #SR20
 	category "Systems"
 	cost 68000
 	thumbnail "outfit/dels small shield"
 	"mass" 15
 	"outfit space" -15
 	"shield generation" .3
-	"shield energy" .32
+	"shield energy" .35
 	"depleted shield delay" 6
 	"heat generation" 1.2
 	description "A little bit more powerful than SR10 sheild generator"
 	
-outfit "SR30 Shield Generator"
+outfit "Hiavee Shield Generator" #SR30
 	category "Systems"
 	cost 125000
 	thumbnail "outfit/dels small shield"
 	"mass" 22
 	"outfit space" -22
 	"shield generation" .5
-	"shield energy" .53
+	"shield energy" .56
 	"depleted shield delay" 8
 	"heat generation" 3.3
 	description "Dels large sheild generator"
 	
-outfit "SR40 Shield Generator"
+outfit "Holee Shield Generator" #SR40
 	category "Systems"
 	cost 250000
 	thumbnail "outfit/dels small shield"
 	"mass" 35
 	"outfit space" -35
 	"shield generation" .75
-	"shield energy" .76
+	"shield energy" .79
 	"depleted shield delay" 12
 	"heat generation" 4.5
 	description "Dels large sheild generator"
 	
-outfit "SR50 Shield Generator"
+outfit "Kaekur Shield Generator" #SR50
 	category "Systems"
 	cost 545000
 	thumbnail "outfit/dels small shield"
 	"mass" 50
 	"outfit space" -50
 	"shield generation" 1.7
-	"shield energy" 1.9
+	"shield energy" 2.2
 	"depleted shield delay" 18
 	"heat generation" 8
 	description "This is the most powerful shield generator the Dels have to offer."
@@ -928,7 +928,7 @@ outfit "Kulter Generator"
 	"cooling inefficiency" .01
 	description "."
 	
-outfit "C10 Fuel Cell"
+outfit "Deupar Fuel Cell" #C10
 	category "Power"
 	cost 38000
 	thumbnail "outfit/tiny fuel cell"
@@ -938,7 +938,7 @@ outfit "C10 Fuel Cell"
 	"heat generation" 1.4
 	description "Dels smallest fuel cell."
 	
-outfit "C20 Fuel Cell"
+outfit "Farlu Fuel Cell" #C20
 	category "Power"
 	cost 49000
 	thumbnail "outfit/small fuel cell"
@@ -948,7 +948,7 @@ outfit "C20 Fuel Cell"
 	"heat generation" 3.2
 	description "Dels small fuel cell."
 	
-outfit "C30 Fuel Cell"
+outfit "Hilke Fuel Cell" #C30
 	category "Power"
 	cost 49000
 	thumbnail "outfit/medium fuel cell"

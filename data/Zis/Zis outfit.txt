@@ -1,6 +1,6 @@
 
 	
-outfit "GSa05Gp-02 Shield Generator" #FT-1S 
+outfit "GSa05Gp-02 Shielding" #FT-1S 
 	category "Systems"
 	cost 80000000
 	thumbnail "outfit/zisftshield"
@@ -10,7 +10,7 @@ outfit "GSa05Gp-02 Shield Generator" #FT-1S
 	"shield energy" 12
 	description "."
 	
-outfit "GSa20Gp-02 Shield Generator" #LW-1S
+outfit "GSa20Gp-02 Shielding" #LW-1S
 	category "Systems"
 	cost 322000000
 	thumbnail "outfit/zisftshield"
@@ -20,7 +20,7 @@ outfit "GSa20Gp-02 Shield Generator" #LW-1S
 	"shield energy" 45
 	description ""
 	
-outfit "GSa30Gp-02 Shield Generator" #MW-1S 
+outfit "GSa30Gp-02 Shielding" #MW-1S 
 	category "Systems"
 	cost 8000000
 	thumbnail "outfit/zismwshield"
@@ -30,7 +30,7 @@ outfit "GSa30Gp-02 Shield Generator" #MW-1S
 	"shield energy" 55
 	description ""
 	
-outfit "GSa41Gp-02 Shield Generator" #MW-4S
+outfit "GSa41Gp-02 Shielding" #MW-4S
 	category "Systems"
 	cost 12000000
 	thumbnail "outfit/zismwshield"
@@ -40,17 +40,17 @@ outfit "GSa41Gp-02 Shield Generator" #MW-4S
 	"shield energy" 65
 	description ""
 	
-outfit "GSa62Gp-02 Shield Generator" #HW-1S
+outfit "GSa62Gp-02 Shielding" #HW-1S
 	category "Systems"
 	cost 36000000
-	thumbnail "outfit/huge shield"
+	thumbnail "outfit/zismwshield"
 	"mass" 62
 	"outfit space" -62
 	"shield generation" 90
 	"shield energy" 85
 	description ""
 	
-outfit "GHa05Gp-02 Hull Regenerator" #FT-1H
+outfit "GHa05Gp-02 Hull Repair" #FT-1H
 	category "Systems"
 	cost 8000000
 	thumbnail "outfit/tiny shield"
@@ -60,7 +60,7 @@ outfit "GHa05Gp-02 Hull Regenerator" #FT-1H
 	"hull energy" 24
 	description ""
 	
-outfit "GHa20Gp-02 Hull Regenerator" #LW-1H
+outfit "GHa20Gp-02 Hull Repair" #LW-1H
 	category "Systems"
 	cost 12000000
 	thumbnail "outfit/small shield"
@@ -70,7 +70,7 @@ outfit "GHa20Gp-02 Hull Regenerator" #LW-1H
 	"hull energy" 93
 	description ""
 	
-outfit "GHa28Gp-02 Hull Regenerator" #MW-1H 
+outfit "GHa28Gp-02 Hull Repair" #MW-1H 
 	category "Systems"
 	cost 12000000
 	thumbnail "outfit/small shield"
@@ -80,7 +80,7 @@ outfit "GHa28Gp-02 Hull Regenerator" #MW-1H
 	"hull energy" 105
 	description ""
 	
-outfit "GHa43Gp-02 Hull Regenerator" #MW-1H 
+outfit "GHa43Gp-02 Hull Repair" #MW-1H 
 	category "Systems"
 	cost 12000000
 	thumbnail "outfit/small shield"
@@ -90,7 +90,7 @@ outfit "GHa43Gp-02 Hull Regenerator" #MW-1H
 	"hull energy" 155
 	description ""
 
-outfit "GHa60Gp-02 Hull Regenerator" #HW-1H
+outfit "GHa60Gp-02 Hull Repair" #HW-1H
 	category "Systems"
 	cost 36000000
 	thumbnail "outfit/huge shield"
@@ -100,7 +100,7 @@ outfit "GHa60Gp-02 Hull Regenerator" #HW-1H
 	"hull energy" 265
 	description ""
 
-outfit "GHb12Gp-02 Hull Regenerator"
+outfit "GHb12Gp-02 Hull Repair"
 	category "Systems"
 	cost 36000000
 	thumbnail "outfit/huge shield"
@@ -227,7 +227,7 @@ outfit "ZIS Anti-Missile System"
 	description ""
 
 #========================================Engines========================
-#Todo: Rename
+
 
 outfit "MPa20Sb-04 Engine" #Nitro-Type4
 	category "Engines"
