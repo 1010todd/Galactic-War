@@ -13,7 +13,7 @@ Over 100 Ships,
 
 Over 400 Outfits,
 
-So many systems I don't bother to count anymore
+About 1500 Systems. (Most are still empty)
 
 To find the galaxy, head up to the system north of Ka'ch'chrai(The capital) in the Wanderer space, the wormhole will be in between Sko'karak and Pug Iyik
 
