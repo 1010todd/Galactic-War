@@ -533,6 +533,7 @@ ship "Kargorko"
 	sprite "ship/kroom kargorko"
 		"frame time" 5
 		"delay" 40
+	thumbnail "thumbnail/kroom kargorko thumb"
 	attributes
 		category "Interceptor"
 		"cost" 300000
@@ -606,6 +607,7 @@ ship "Kargorko"
 	
 ship "Kaargor"
 	sprite "ship/kroom kaargor"
+	thumbnail "thumbnail/kroom kaargor thumb"
 	attributes
 		category "Transport"
 		"cost" 340000

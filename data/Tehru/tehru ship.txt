@@ -153,7 +153,7 @@ ship "Tehru Piv"
 	
 ship "Tehru Vurbck"
 	sprite "ship/tehru vurbck"
-	thumbnail "thumbnail/tehru vurbck"
+	#thumbnail "thumbnail/tehru vurbck"
 	attributes
 		category "Heavy Freighter"
 		"cost" 12540000
@@ -175,6 +175,7 @@ ship "Tehru Vurbck"
 			"hull damage" 1500
 			"hit force" 4500
 	outfits
+		"Vuskchet Cannon" 2
 		"Vuskchet Turret"
 		"Vrrpak Turret" 2
 		"Geode Reactor" 2
@@ -188,8 +189,8 @@ ship "Tehru Vurbck"
 	gun -17.5 -186.5 "Vuskchet Cannon"
 	gun 17.5 -186.5 "Vuskchet Cannon"
 	turret 0 -75.5 "Vuskchet Turret"
-	turret 0 44 "Vrrpak Turret"
-	turret 0 90.5 "Vrrpak Turret"
+	turret 0 44 
+	turret 0 90.5 
 	engine -40 180
 	engine 40 180
 	engine -8 196 .5
@@ -246,7 +247,7 @@ ship "Tehru Tcvarka"
 	gun 13 -186.5
 	gun -37.5 -44.5
 	gun 37.5 -44.5
-	turret 0 -141.5 "Vuskchet Turret"
+	turret 0 -141.5 
 	turret 0 -105.5 "Illar Missile Defence"
 	turret -23 128.5 
 	turret 23 128.5

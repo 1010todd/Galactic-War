@@ -11,7 +11,7 @@ ship "VK-35 Katen"
 			"drag" .5
 			"heat dissipation" 1.5
 			"outfit space" 90
-			"weapon capacity" 42
+			"weapon capacity" 45
 			"engine capacity" 20
 			"fuel capacity" 500
 			"energy capacity" 19000
@@ -453,8 +453,8 @@ ship "SY-8662 Sysor"
 	turret 73 -11 "ZIS Anti-Missile System"
 	turret -62 118.5 "ZIS Anti-Missile System"
 	turret 61 119.5 "ZIS Anti-Missile System"
-	gun -18.5 -166.5 "Syfar Torpedo Launcher(Single)"
-	gun 19 -167 "Syfar Torpedo Launcher(Single)"
+	gun -18.5 -166.5 "Syfar Torpedo Launcher"
+	gun 19 -167 "Syfar Torpedo Launcher"
 	engine -21 190.5
 	engine 23.5 190
 	engine 0 191.5
@@ -592,7 +592,7 @@ ship "SG-60 Ginaz Patrol Drone"
 		"drag" .5
 		"heat dissipation" .9
 		"outfit space" 60
-		"weapon capacity" 22
+		"weapon capacity" 28
 		"engine capacity" 20
 		"automaton" 1
 		"energy capacity" 2000
