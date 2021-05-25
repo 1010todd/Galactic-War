@@ -244,24 +244,24 @@ outfit "Kttyr Thruster"
 	"mass" 30
 	"outfit space" -30
 	"engine capacity" -30
-	"shields" -20
+	"shield generation multiplier" -.1
 	"thrust" 24.5
 	"thrusting energy" 3
 	"thrusting heat" 4
 	"flare sprite" "effect/ion flare/small"
 		"frame rate" 6
 	"flare sound" "atomic small"
-	description "Another series of Zorcn engines, it is nearly as powerful as atomic engines of similar size. While generating less heat than atomic engines, these engines disrupt the shield matrix and slightly reduce the shields ability to absorb damage."
+	description "Another series of Zorcn engines, it is nearly as powerful as atomic engines of similar size. While generating less heat than atomic engines, these engines disrupt the shield matrix slightly reducing the ship's ability to regenerate shield."
 	
-outfit "Kynsin Thruster"
+outfit "Kxur Thruster"
 	category "Engines"
 	"cost" 880000
 	thumbnail "outfit/zorcn kthruster tiny"
 	"mass" 58
 	"outfit space" -58
 	"engine capacity" -58
-	"shields" -38
-	"thrust" 48
+	"shield generation multiplier" -.21
+	"thrust" 50
 	"thrusting energy" 6
 	"thrusting heat" 7.5
 	"flare sprite" "effect/ion flare/medium"
@@ -269,15 +269,15 @@ outfit "Kynsin Thruster"
 	"flare sound" "atomic medium"
 	description ""
 	
-outfit "Kxur Thruster"
+outfit "Kynsin Thruster"
 	category "Engines"
 	"cost" 1600000
 	thumbnail "outfit/zorcn kthruster tiny"
 	"mass" 110
 	"outfit space" -110
 	"engine capacity" -110
-	"shields" -77
-	"thrust" 98
+	"shield generation multiplier" -.35
+	"thrust" 99.4
 	"thrusting energy" 13
 	"thrusting heat" 14
 	"flare sprite" "effect/ion flare/huge"
