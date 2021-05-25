@@ -1187,6 +1187,7 @@ system Akmaedu
 	trade Metal 376
 	trade Plastic 314
 	fleet "Dels Dardornai" 600
+	fleet "Dels Frontier Merchant" 700
 	object
 		sprite star/f5
 		period 10
@@ -3017,7 +3018,7 @@ system Arrposil
 system Asinaki
 	pos -51733.1 -56545.8
 	government Geeva
-	habitable 1080
+	habitable 486.68
 	belt 1969
 	link Kevildar
 	link Nikavel
@@ -3041,40 +3042,24 @@ system Asinaki
 	trade Plastic 367
 	fleet "Geeva Battle Fleet" 1000
 	object
-		sprite star/g0
+		sprite star/k0
 		period 10
 	object
-		sprite planet/lava3
-		distance 200.25
-		period 34.4911
+		sprite planet/desert6
+		distance 173.21
+		period 41.3331
+	object Hivarsil
+		sprite planet/water1
+		distance 586.46
+		period 257.511
+	object
+		sprite planet/cloud7
+		distance 921.27
+		period 507.012
 	object
 		sprite planet/gas11
-		distance 907.09
-		period 332.525
-		object
-			sprite planet/rhea
-			distance 278
-			period 15.2878
-		object
-			sprite planet/io
-			distance 379
-			period 24.3353
-		object
-			sprite planet/dust4
-			distance 490
-			period 35.7744
-	object
-		sprite planet/gas4
-		distance 1898.34
-		period 1006.72
-		object
-			sprite planet/desert4
-			distance 242
-			period 13.2776
-		object
-			sprite planet/dust1
-			distance 367
-			period 24.7968
+		distance 2002.68
+		period 1625.01
 
 system Asmakor
 	pos -50323.6 -56534.8
@@ -9814,6 +9799,7 @@ system Delgelre
 	trade Plastic 452
 	fleet "Kager Ignaggen" 15000
 	fleet "Dels Dardornai" 1500
+	fleet "Dels Frontier Merchant" 700
 	object
 		sprite star/g5
 		distance 41.7441
@@ -10420,6 +10406,7 @@ system Dervekkor
 	trade Medical 703
 	trade Metal 283
 	trade Plastic 394
+	fleet "Dels Central Merchant" 800
 	object
 		sprite star/g0
 		period 10
@@ -11011,6 +10998,7 @@ system Dobareen
 	fleet "Kakaima Defense" 3200
 	fleet "Dels Dardornai" 600
 	fleet "Kager Ignaggen" 30000
+	fleet "Dels Frontier Merchant" 800
 	object
 		sprite star/m0
 		period 10
@@ -11073,6 +11061,7 @@ system Dodeanuh
 	trade Plastic 385
 	fleet "Kakaima Defense" 3000
 	fleet "Dels Dardornai" 600
+	fleet "Dels Frontier Merchant" 1100
 	object
 		sprite star/k0
 		period 10
@@ -11534,7 +11523,7 @@ system Dreevu
 	trade Medical 656
 	trade Metal 324
 	trade Plastic 419
-	fleet "Dels merchant" 600
+	fleet "Dels Central Merchant" 600
 	fleet "Dels Kaote" 1000
 	object
 		sprite star/k5
@@ -11597,6 +11586,7 @@ system Duanaoui
 	trade Medical 742
 	trade Metal 433
 	trade Plastic 509
+	fleet "Dels Central Merchant" 700
 	object
 		sprite star/m4
 		period 10
@@ -11901,6 +11891,8 @@ system Dukelor
 	trade Plastic 338
 	fleet "Dels Dardornai" 1200
 	fleet "Kager Ignaggen" 1500
+	fleet "Dels Frontier Merchant" 700
+	fleet Ignaggen 900
 	object
 		sprite star/g0
 		period 10
@@ -14037,7 +14029,7 @@ system Eiekdarmor
 	trade Medical 555
 	trade Metal 271
 	trade Plastic 402
-	fleet "Dels merchant" 600
+	fleet "Dels Central Merchant" 600
 	object
 		sprite star/k0
 		period 10
@@ -14106,6 +14098,7 @@ system Eikole
 	trade Metal 437
 	trade Plastic 307
 	fleet "Kakaima Defense" 800
+	fleet "Kakaima Logistic" 600
 	object
 		sprite star/m4
 		period 10
@@ -14686,6 +14679,7 @@ system Eldok
 	trade Plastic 327
 	fleet "Kakaima Defense" 800
 	fleet "Geeva Battle Fleet" 3100
+	fleet "Kakaima Logistic" 1200
 	object
 		sprite star/k0
 		period 10
@@ -15998,7 +15992,7 @@ system Eruaine
 	trade Medical 652
 	trade Metal 239
 	trade Plastic 378
-	fleet "Dels merchant" 600
+	fleet "Dels Central Merchant" 600
 	object
 		sprite star/g0
 		distance 54
@@ -16265,6 +16259,7 @@ system Etologe
 	trade Plastic 407
 	fleet "Kakaima Defense" 800
 	fleet "Geeva Battle Fleet" 2000
+	fleet "Kakaima Logistic" 1200
 	object
 		sprite star/m4
 		period 10
@@ -16405,7 +16400,7 @@ system Eudarvo
 	trade Medical 611
 	trade Metal 284
 	trade Plastic 302
-	fleet "Dels merchant" 700
+	fleet "Dels Central Merchant" 700
 	object
 		sprite star/m0
 		period 10
@@ -19324,6 +19319,7 @@ system Gallelonor
 	trade Plastic 415
 	fleet Ignaggen 700
 	fleet "Kager Ignaggen" 1000
+	fleet "Dels Central Merchant" 800
 	object
 		sprite star/k5
 		distance 51.9091
@@ -19441,7 +19437,7 @@ system Gamali
 	trade Metal 471
 	trade Plastic 365
 	fleet "Kakaima Defense" 800
-	fleet "Kakaima Civillian" 600
+	fleet "Kakaima Logistic" 600
 	fleet "Kroom Kanai" 22000
 	object
 		sprite star/g0
@@ -19510,7 +19506,7 @@ system Gamila
 	trade Metal 439
 	trade Plastic 440
 	fleet "Kakaima Defense" 800
-	fleet "Kakaima Civillian" 600
+	fleet "Kakaima Logistic" 1200
 	fleet "Geeva Battle Fleet" 20000
 	fleet "Kroom Kanai" 3000
 	object
@@ -21413,7 +21409,7 @@ system Ginja
 	trade Metal 348
 	trade Plastic 412
 	fleet "Kakaima Defense" 800
-	fleet "Kakaima Civillian" 600
+	fleet "Kakaima Logistic" 600
 	fleet "Geeva Battle Fleet" 28000
 	object
 		sprite star/k0
@@ -22402,8 +22398,9 @@ system Golima
 	trade Metal 376
 	trade Plastic 382
 	fleet "Kakaima Defense" 800
-	fleet "Kakaima Civillian" 600
+	fleet "Kakaima Logistic" 1300
 	fleet "Geeva Battle Fleet" 20000
+	fleet "Kroom Kanai" 2500
 	object
 		sprite star/k0
 		period 10
@@ -23077,6 +23074,7 @@ system Gorelvar
 	trade Plastic 357
 	fleet "Kakaima Defense" 800
 	fleet "Geeva Battle Fleet" 20000
+	fleet "Kakaima Logistic" 1200
 	object
 		sprite star/g0
 		period 10
@@ -24266,7 +24264,7 @@ system Grakli
 	trade Metal 515
 	trade Plastic 492
 	fleet "Kakaima Defense" 800
-	fleet "Kakaima Civillian" 600
+	fleet "Kakaima Logistic" 600
 	object
 		sprite star/g5
 		distance 40.2765
@@ -24455,6 +24453,7 @@ system Grrakvok
 	trade Metal 292
 	trade Plastic 317
 	fleet "Kakaima Defense" 800
+	fleet "Kakaima Logistic" 1000
 	object
 		sprite star/k5
 		period 10
@@ -30383,6 +30382,8 @@ system Ismione
 	trade Metal 357
 	trade Plastic 331
 	fleet "Kager Ignaggen" 1000
+	fleet "Dels Frontier Merchant" 700
+	fleet Ignaggen 900
 	object
 		sprite star/g0
 		period 10
@@ -31142,7 +31143,7 @@ system Jakvuk
 	trade Metal 511
 	trade Plastic 463
 	fleet "Kakaima Defense" 800
-	fleet "Kakaima Civillian" 600
+	fleet "Kakaima Logistic" 600
 	object
 		sprite star/m4
 		period 10
@@ -31491,6 +31492,7 @@ system Juelirna
 	trade Medical 792
 	trade Metal 391
 	trade Plastic 368
+	fleet "Dels Central Merchant" 800
 	object
 		sprite star/k5
 		period 10
@@ -32065,6 +32067,7 @@ system Kaekualen
 	trade Plastic 403
 	fleet "Dels Dardornai" 1000
 	fleet "Kager Ignaggen" 20000
+	fleet Ignaggen 900
 	object
 		sprite star/f0
 		distance 12.2402
@@ -34431,6 +34434,7 @@ system Keggar
 	trade Metal 353
 	trade Plastic 323
 	fleet "Kakaima Defense" 800
+	fleet "Kakaima Logistic" 600
 	object
 		sprite star/g0
 		period 10
@@ -35397,6 +35401,7 @@ system Kellagorol
 	trade Metal 352
 	trade Plastic 313
 	fleet "Kager Ignaggen" 1000
+	fleet "Dels Central Merchant" 800
 	object
 		sprite star/f5
 		distance 45.2093
@@ -36584,6 +36589,8 @@ system Ketreion
 	trade Metal 337
 	trade Plastic 362
 	fleet "Kager Ignaggen" 1000
+	fleet "Dels Frontier Merchant" 700
+	fleet Ignaggen 800
 	object
 		sprite star/m0
 		period 10
@@ -37649,6 +37656,7 @@ system Kiorelga
 	trade Metal 273
 	trade Plastic 321
 	fleet "Kager Ignaggen" 1000
+	fleet Ignaggen 800
 	object
 		sprite star/g0
 		distance 31.677
@@ -37912,26 +37920,30 @@ system Kirvismellar
 		sprite planet/rock6
 		distance 226.878
 		period 50.9443
-	object
-		sprite planet/callisto
-		distance 609.128
-		period 224.114
-	object
+	object Liveldur
+		sprite planet/dust1
+		distance 641.488
+		period 242.208
+		offset 141.699
+	object Mesilver
 		sprite planet/cloud2
-		distance 1179.74
-		period 604.066
+		distance 921.488
+		period 417.004
+		offset 36.1308
 		object
 			sprite planet/dust0
 			distance 160
 			period 16.2799
 	object
 		sprite planet/gas8
-		distance 1586.74
-		period 942.245
+		distance 1328.49
+		period 721.842
+		offset 219.938
 	object
 		sprite planet/gas2
-		distance 3597.43
-		period 3216.58
+		distance 3339.18
+		period 2876.5
+		offset 344.114
 
 system Kirvotur
 	pos -50569.1 -56394.6
@@ -41646,6 +41658,7 @@ system Koderda
 	fleet "Dels Dardornai" 600
 	fleet "Kakaima Defense" 1200
 	fleet "Kager Ignaggen" 15000
+	fleet "Dels Frontier Merchant" 2500
 	object
 		sprite star/k0
 		distance 48.5
@@ -42001,6 +42014,7 @@ system Kogurel
 	trade Plastic 434
 	fleet "Kakaima Defense" 800
 	fleet "Geeva Battle Fleet" 3000
+	fleet "Kakaima Logistic" 700
 	object
 		sprite star/k5
 		distance 52
@@ -42139,7 +42153,7 @@ system Kokakor
 	trade Medical 654
 	trade Metal 510
 	trade Plastic 474
-	fleet "Dels merchant" 600
+	fleet "Dels Central Merchant" 600
 	fleet Ignaggen 700
 	object
 		sprite star/k5
@@ -43144,6 +43158,8 @@ system Kreludoe
 	trade Plastic 359
 	fleet "Kager Ignaggen" 20000
 	fleet "Dels Dardornai" 1400
+	fleet Ignaggen 900
+	fleet "Dels Frontier Merchant" 700
 	object
 		sprite star/g0
 		period 10
@@ -43670,6 +43686,7 @@ system Kudearo
 	trade Metal 522
 	trade Plastic 321
 	fleet "Dels Dardornai" 1000
+	fleet "Dels Frontier Merchant" 700
 	object
 		sprite star/g0
 		period 10
@@ -45202,6 +45219,7 @@ system Lagerol
 	trade Metal 278
 	trade Plastic 374
 	fleet "Kakaima Defense" 800
+	fleet "Kakaima Logistic" 600
 	object
 		sprite star/k5
 		period 10
@@ -46677,6 +46695,7 @@ system Leudan
 	fleet "Kakaima Defense" 1200
 	fleet "Dels Dardornai" 600
 	fleet "Kager Ignaggen" 15000
+	fleet "Dels Frontier Merchant" 3000
 	object
 		sprite star/f5
 		period 10
@@ -47063,6 +47082,7 @@ system Liggaren
 	trade Metal 249
 	trade Plastic 292
 	fleet "Kager Ignaggen" 1000
+	fleet Ignaggen 800
 	object
 		sprite star/g0
 		distance 28.283
@@ -47471,8 +47491,8 @@ system Lilmar
 	trade Metal 320
 	trade Plastic 328
 	fleet "Kakaima Defense" 800
-	fleet "Kakaima Civillian" 600
 	fleet "Geeva Battle Fleet" 2000
+	fleet "Kakaima Logistic" 1200
 	object
 		sprite star/m0
 		period 10
@@ -48391,7 +48411,7 @@ system Loomera
 	trade Medical 697
 	trade Metal 516
 	trade Plastic 435
-	fleet "Dels merchant" 600
+	fleet "Dels Central Merchant" 600
 	object
 		sprite star/g5
 		distance 43.7706
@@ -49137,6 +49157,8 @@ system Lukelre
 	trade Metal 504
 	trade Plastic 295
 	fleet "Dels Dardornai" 1300
+	fleet "Dels Frontier Merchant" 700
+	fleet Ignaggen 900
 	object
 		sprite star/k0
 		period 10
@@ -53119,6 +53141,7 @@ system Medakua
 	fleet "Kakaima Defense" 3000
 	fleet "Dels Dardornai" 600
 	fleet "Kager Ignaggen" 20000
+	fleet "Dels Frontier Merchant" 800
 	object
 		sprite star/k5
 		period 10
@@ -53311,6 +53334,7 @@ system Medokle
 	fleet "Kakaima Defense" 3000
 	fleet "Dels Dardornai" 600
 	fleet "Kager Ignaggen" 15000
+	fleet "Dels Frontier Merchant" 1200
 	object
 		sprite star/m0
 		period 10
@@ -54073,6 +54097,7 @@ system Mekuldal
 	trade Metal 422
 	trade Plastic 292
 	fleet "Dels Dardornai" 900
+	fleet "Dels Frontier Merchant" 600
 	object
 		sprite star/f5
 		period 10
@@ -54348,7 +54373,7 @@ system Merlivin
 			sprite planet/miranda
 			distance 269
 			period 13.864
-	object
+	object Nelivaris
 		sprite planet/ocean6
 		distance 1563.69
 		period 741.813
@@ -56480,6 +56505,7 @@ system Mokugea
 	trade Metal 428
 	trade Plastic 278
 	fleet "Dels Dardornai" 600
+	fleet "Dels Frontier Merchant" 600
 	object
 		sprite star/g0
 		period 10
@@ -57864,6 +57890,8 @@ system Mudeula
 	trade Plastic 371
 	fleet "Dels Dardornai" 600
 	fleet "Kager Ignaggen" 20000
+	fleet "Dels Frontier Merchant" 700
+	fleet Ignaggen 1200
 	object
 		sprite star/k0
 		period 10
@@ -58272,6 +58300,7 @@ system Mukeanu
 	trade Metal 568
 	trade Plastic 374
 	fleet "Dels Dardornai" 1200
+	fleet "Dels Frontier Merchant" 800
 	object
 		sprite star/g5
 		distance 15.0987
@@ -58637,6 +58666,7 @@ system Mukorka
 	trade Metal 334
 	trade Plastic 370
 	fleet "Kakaima Defense" 800
+	fleet "Kakaima Logistic" 600
 	object
 		sprite star/m0
 		period 10
@@ -60538,6 +60568,7 @@ system Nareenor
 	trade Medical 698
 	trade Metal 450
 	trade Plastic 434
+	fleet "Dels Central Merchant" 700
 	object
 		sprite star/k5
 		period 10
@@ -60624,7 +60655,7 @@ system Nareldor
 	trade Metal 221
 	trade Plastic 430
 	fleet Ignaggen 700
-	fleet "Dels merchant" 700
+	fleet "Dels Central Merchant" 700
 	object
 		sprite star/k0
 		distance 21.4982
@@ -63118,6 +63149,7 @@ system Nugulvu
 	trade Metal 447
 	trade Plastic 394
 	fleet "Dels Dardornai" 1200
+	fleet "Dels Frontier Merchant" 600
 	object
 		sprite star/f5
 		period 10
@@ -64756,6 +64788,7 @@ system Okelnei
 	trade Metal 485
 	trade Plastic 309
 	fleet "Kakaima Defense" 800
+	fleet "Kakaima Logistic" 600
 	object
 		sprite star/f5
 		period 10
@@ -65068,6 +65101,7 @@ system Oldelnage
 	trade Metal 425
 	trade Plastic 298
 	fleet "Dels Dardornai" 1400
+	fleet "Dels Frontier Merchant" 600
 	object
 		sprite star/k0
 		period 10
@@ -65642,6 +65676,7 @@ system Ordeller
 	trade Medical 518
 	trade Metal 214
 	trade Plastic 477
+	fleet "Dels Central Merchant" 800
 	object
 		sprite star/m4
 		period 10
@@ -65878,6 +65913,7 @@ system Orelpelor
 	trade Metal 427
 	trade Plastic 302
 	fleet "Kakaima Defense" 800
+	fleet "Kakaima Logistic" 600
 	object
 		sprite star/k5
 		period 10
@@ -66097,7 +66133,7 @@ system Orseune
 	trade Medical 661
 	trade Metal 294
 	trade Plastic 358
-	fleet "Dels merchant" 800
+	fleet "Dels Central Merchant" 800
 	object
 		sprite star/k5
 		period 10
@@ -66158,6 +66194,7 @@ system Orudelnel
 	trade Medical 747
 	trade Metal 465
 	trade Plastic 464
+	fleet "Dels Central Merchant" 700
 	object
 		sprite star/g5
 		period 10
@@ -67125,7 +67162,7 @@ system Pyvors
 	object
 		sprite star/m4
 		period 10
-	object
+	object Vivirkarir
 		sprite planet/desert0
 		distance 196.29
 		period 72.0226
@@ -69672,7 +69709,7 @@ system Ragerka
 	trade Metal 363
 	trade Plastic 421
 	fleet "Kakaima Defense" 800
-	fleet "Kakaima Civillian" 600
+	fleet "Kakaima Logistic" 600
 	object
 		sprite star/k5
 		period 10
@@ -69725,7 +69762,7 @@ system Raioanor
 	trade Medical 704
 	trade Metal 451
 	trade Plastic 484
-	fleet "Dels merchant" 700
+	fleet "Dels Central Merchant" 700
 	object
 		sprite star/g5
 		period 10
@@ -70092,7 +70129,7 @@ system Ravo'oua
 	trade Medical 698
 	trade Metal 408
 	trade Plastic 380
-	fleet "Dels merchant" 600
+	fleet "Dels Central Merchant" 700
 	object
 		sprite star/g5
 		distance 39.9577
@@ -70419,7 +70456,7 @@ system Redeino
 	trade Medical 618
 	trade Metal 304
 	trade Plastic 293
-	fleet "Dels merchant" 700
+	fleet "Dels Central Merchant" 700
 	object
 		sprite star/m4
 		period 10
@@ -71166,6 +71203,7 @@ system Rekulervel
 	trade Plastic 369
 	fleet "Kakaima Defense" 800
 	fleet "Geeva Battle Fleet" 2000
+	fleet "Kakaima Logistic" 1200
 	object
 		sprite star/g5
 		period 10
@@ -72780,6 +72818,7 @@ system Rokudea
 	fleet "Kakaima Defense" 3000
 	fleet "Dels Dardornai" 600
 	fleet "Kager Ignaggen" 15000
+	fleet "Dels Frontier Merchant" 1100
 	object
 		sprite star/g5
 		distance 41.3122
@@ -75705,7 +75744,7 @@ system Scmila
 	trade Metal 530
 	trade Plastic 483
 	fleet "Kakaima Defense" 800
-	fleet "Kakaima Civillian" 600
+	fleet "Kakaima Logistic" 600
 	fleet "Geeva Battle Fleet" 2200
 	fleet "Kroom Kanai" 2200
 	object
@@ -77218,7 +77257,7 @@ system Skuga
 	trade Metal 448
 	trade Plastic 355
 	fleet "Kakaima Defense" 800
-	fleet "Kakaima Civillian" 600
+	fleet "Kakaima Logistic" 1000
 	object
 		sprite star/m0
 		period 10
@@ -78200,7 +78239,7 @@ system Suere
 	trade Medical 628
 	trade Metal 251
 	trade Plastic 401
-	fleet "Dels merchant" 600
+	fleet "Dels Central Merchant" 600
 	fleet "Dels Kaote" 1000
 	object
 		sprite star/g5
@@ -80684,6 +80723,7 @@ system Ukeldor
 	fleet "Kakaima Defense" 1200
 	fleet "Dels Dardornai" 600
 	fleet "Kager Ignaggen" 15000
+	fleet "Dels Frontier Merchant" 2500
 	object
 		sprite star/k0
 		period 10
@@ -80781,6 +80821,7 @@ system Ukkaru
 	trade Metal 391
 	trade Plastic 368
 	fleet "Kakaima Defense" 800
+	fleet "Kakaima Logistic" 600
 	object
 		sprite star/k0
 		distance 43.4041
@@ -81008,6 +81049,7 @@ system Ukubar
 	trade Plastic 456
 	fleet "Kakaima Defense" 800
 	fleet "Geeva Battle Fleet" 3000
+	fleet "Kakaima Logistic" 700
 	object
 		sprite star/m0
 		period 10
@@ -81133,6 +81175,7 @@ system Ulbarelk
 	trade Plastic 406
 	fleet "Kager Ignaggen" 20000
 	fleet "Dels Dardornai" 800
+	fleet "Dels Frontier Merchant" 800
 	object
 		sprite star/k0
 		period 10
@@ -84590,7 +84633,7 @@ system Villarmel
 	object
 		sprite star/m0
 		period 10
-	object
+	object Kasilvara
 		sprite planet/rock2
 		distance 251.01
 		period 88.9245
@@ -85389,6 +85432,7 @@ system Vobeelee
 	fleet "Dels Outward Merchant" 700
 	fleet "Dels Central Merchant" 500
 	fleet Ignaggen 1400
+	fleet "Dels Frontier Merchant" 1200
 	object
 		sprite star/g0
 		period 10
@@ -86082,26 +86126,29 @@ system Vordeli
 		sprite planet/rock2
 		distance 487.153
 		period 132.67
-	object
+	object Noeviseir
 		sprite planet/rock19
-		distance 870.763
-		period 317.048
+		distance 954.66
+		period 363.956
+		offset 233.304
 		object
 			sprite planet/io
 			distance 167
 			period 28.8423
 	object
 		sprite planet/uranus
-		distance 1706.6
-		period 869.909
+		distance 1790.5
+		period 934.837
+		offset 46.1079
 		object
 			sprite planet/dust1
 			distance 245
 			period 16.3841
 	object
 		sprite planet/dust0
-		distance 3477.85
-		period 2530.71
+		distance 3561.75
+		period 2622.83
+		offset 8.0148
 
 system Vorsck
 	pos -50557.9 -52667.8
@@ -86970,6 +87017,7 @@ system Vutilor
 	trade Plastic 409
 	fleet "Kakaima Defense" 800
 	fleet "Geeva Battle Fleet" 2000
+	fleet "Kakaima Logistic" 1200
 	object
 		sprite star/m4
 		period 10
@@ -88256,7 +88304,7 @@ system ligar
 	trade Metal 286
 	trade Plastic 410
 	fleet "Kakaima Defense" 800
-	fleet "Kakaima Civillian" 600
+	fleet "Kakaima Logistic" 1500
 	fleet "Geeva Battle Fleet" 20000
 	fleet "Kroom Kanai" 2200
 	object
@@ -88638,7 +88686,6 @@ planet Eerakai
 	outfitter "Dels Ammo"
 
 planet Eilina
-	attributes Geeva
 	landscape land/sea9
 	description .
 	spaceport .
@@ -88928,6 +88975,11 @@ planet Hinvure
 	shipyard "Zorcn Basic"
 	outfitter "Zorcn Basic"
 
+planet Hivarsil
+	landscape land/sea15-harro
+	description .
+	spaceport .
+
 planet Hogral
 	landscape land/land10
 	description .
@@ -89091,6 +89143,11 @@ planet Kar'i
 	spaceport .
 	"required reputation" 1
 
+planet Kasilvara
+	landscape land/land26
+	description .
+	spaceport .
+
 planet Kasker
 	landscape land/valley4
 	description .
@@ -89225,10 +89282,9 @@ planet Koho
 	"required reputation" 1
 
 planet Koili
-	attributes Geeva
 	landscape land/fog6
-	description .
-	spaceport .
+	description `A world with deep oceans splashed with clusters of island all over at seemingly random pattern. Settlements here are hidden inside mountians and imitiates the forest of giant trees which are quite hard to idenitfy by eyes and might've missed if not for the huge amount of ships and boats found everywhere there's water. `
+	spaceport `The spaceport is built on cliffs right beside a cave with opening large enough to easily sail an ocean liner through which appears to be the shipyard. The buildings around the spaceport are built to look like giant trees, a very convincing one leave for lights from windows and door at the base. Inside the tree-like buildings reveals shops, homes, and "elevator" which transport people into a large underground complex.`
 	"required reputation" 1
 
 planet "Komre 142:20"
@@ -89478,6 +89534,14 @@ planet Livaki
 	outfitter "Geeva Advanced"
 	"required reputation" 1
 
+planet Liveldur
+	attributes mining
+	landscape land/canyon6
+	description `A small planet with thin atmosphere not enough for most species to breath. Giant metallic silver-coated tracked vehicles bombards the mountains and hills infront of it with plasma beams and collecting the resulting dust and chunks of rocks with tractor beam. `
+	spaceport `The spaceport is a metallic silver large circular buildings with very little features on the surface coming very close to what one might imagine as futuristic with everything from conveyor robot arms to mining truck parking bays hidden behind the surface revealed only when in use.`
+	spaceport `	The interior as well looks nothing like an industrial building. Everything were tucked hidden behind the panels and vents neatly intregrated into the design of mostly simple curved lines and patterns. Labors such as cleaning and transportation were done by robots, the people here looks more like ones that work inside offices and labs than someone who works in the field.`
+	outfitter "Geeva Advanced"
+
 planet Lordeeva
 	landscape land/fog6
 	description `This planet have its rotation axis almost perpendicular to the star. The planet is however too warm for any significant area of ocean to freeze.`
@@ -89715,6 +89779,13 @@ planet Meramos-P340P
 	shipyard Wallagi
 	"required reputation" 1
 
+planet Mesilver
+	landscape land/fields4
+	description `This planet is a mix of mostly two industries, farmlands cover nearly all of the fertile grounds and metallic unusually shaped buildings covered what used to be a barren. It's nearly impossible to distinguish residentual buildings from factories, usually the latter were only hinted by large container trucks coupled to it and usually fewer windows on all side, no exposed machinery nor unsightly vents sticking out. Alot of buidlings are rather large and intergrated. What seems like large residental complex also happens to have manufacturing sector on the other side and a mall at another corner. Standalone buildings usually have bridges connecting them to other buildings. `
+	spaceport `The spaceport is one massive building siting atop of a mountain far above everything else surrounding it. There seems to be some very large landing pads outside yet all ships enter one of the dozen bays to find exspansive parking lots beneath the gigantic building that can easily fit hundreds of freighter inside. A section of parking inside is exclusive to freighters where facilities are designed for quick loading and unloading of cargo. `
+	shipyard "Geeva Advanced"
+	outfitter "Geeva Advanced"
+
 planet Meson
 	attributes Dels
 	landscape land/badlands0
@@ -89765,6 +89836,11 @@ planet Neikor
 
 planet Neinoru
 	landscape land/myrabella3
+	description .
+	spaceport .
+
+planet Nelivaris
+	landscape land/land12
 	description .
 	spaceport .
 
@@ -89823,6 +89899,11 @@ planet Noctus
 
 planet Noelvur
 	landscape land/hills0
+	description .
+	spaceport .
+
+planet Noeviseir
+	landscape land/beach8-sfiera
 	description .
 	spaceport .
 
@@ -90324,6 +90405,12 @@ planet Vinnyris
 	description `As hinted with many active mines and scars of old mining sites spread across the planet this planet was the backbone of Zorcn metal industry since their early day in space. Without question this planet is heavily polluted with dust and other harmful gas as result of the extensive minings here and because of such, no surface settlement outside of those close to the mines are seen.`
 	spaceport `The Zorcn has abandoned their old spaceport and built a new one inside an very large, old mining site sealed with metal dome with a few large doors that will blast high pressure gas from the edge as it opens. Even then everyone inside is wearing at least a respirator while operating around the landing pads. They even had free disposible respirator despenser at each landing pads for the ship crews but due to anatomical difference it won't fit for you.`
 	spaceport `	Most of the shops and other facilities are dug into the walls around the landing area with air lock entrance. Inside somewhat reminds you of a mall.`
+
+planet Vivirkarir
+	landscape land/canyon2
+	description `The surface of this planet are covered with mostly black rocks and some volcanoes. Small patches of grass and bushes can be seen in some random spot and around the lakes and rivers. Geeva buildings are mostly found mid way from equator to the pole on both halves. Standing out from the ground surronding them with smooth curved buildings coating in shiny silver with stripes of various colour painted on it. Most of these towns are built around a gigantic construct of twisted grills probably some sort of climate controlling machines judging from the flow of air around it.`
+	spaceport `The spaceport here is shaped like stadium where steps becomes landing pads and inside is home to various shops selling everything from a piece of candy to outfits for your ship.`
+	outfitter "Geeva Advanced"
 
 planet Vodarnal
 	landscape land/beach5
