@@ -135,9 +135,7 @@ fleet "Revos small"
 	names "Revos small"
 	cargo 1
 	personality
-		heroic 
-		disables 
-		forbearing
+		heroic  
 		opportunistic
 	variant 10
 		"Revos Homan"
@@ -159,14 +157,50 @@ fleet "Revos small"
 		"Revos Mokla"
 		"Revos Rova" 3
 	variant 3
-		"Revos Cosma"
+		"Revos Caosma"
 	variant 1
-		"Revos Cosma"
+		"Revos Caosma"
 		"Revos Rova" 2
 	variant 1
-		"Cosma transport"
+		"Caosma (Transport)"
 		"Revos Rova" 2
+	variant 1
+		"Mokla (Botavu)"
+	variant 1
+		"Mokla (Barviska)"
 		
+fleet "Revos Defense"
+	government "Revos"
+	names "Revos small"
+	personality
+		heroic  
+		opportunistic
+	variant 10
+		"Revos Homan" 5
+		"Revos Rova" 12
+	variant 10
+		"Revos Mokla"
+		"Mokla (Botavu)" 2
+		"Revos Homan" 2
+		"Revos Rova" 3
+	variant 10
+		"Revos Mokla" 1
+		"Mokla (Botavu)" 1
+		"Mokla (Barviska)" 1
+		"Revos Homan" 2
+		"Revos Rova" 3
+	variant 10
+		"Revos Mokla"
+		"Mokla (Botavu)" 2
+		"Mokla (Barviska)" 2
+		"Revos Rova" 5
+	variant 10
+		"Mokla (Barviska)"
+		"Mokla (Botavu)"
+		"Revos Rova" 10
+	variant 10
+		"Revos Mokla" 3
+		"Revos Rova" 3
 
 fleet "Donko Guard Big"
 	government "Donko"
@@ -913,7 +947,6 @@ fleet "Zis Raid Fleet"
 	fighters "Zis fighter"
 	personality
 		heroic
-		frugal
 		opportunistic
 		plunders
 	variant 1
@@ -935,7 +968,6 @@ fleet "Zis Defense Fleet"
 	fighters "Zis fighter"
 	personality
 		heroic
-		frugal
 		opportunistic
 	variant 1
 		"ZN-7681 Eaxes"
@@ -960,7 +992,6 @@ fleet "Zis Mining Fleet"
 	cargo 1
 	personality
 		heroic
-		plunders
 		frugal
 		mining harvests
 		disables
@@ -1100,8 +1131,8 @@ fleet "Taroun Defense"
 		frugal
 		opportunistic
 	variant 1
-		Eroun 3
-		Oresu 4
+		"Taroun Eroun" 3
+		"Taroun Oresu" 4
 		
 fleet "Taroun Patrol"
 	government "Taroun"
@@ -1112,13 +1143,13 @@ fleet "Taroun Patrol"
 		frugal
 		opportunistic
 	variant 4
-		Eroun 1
-		Oresu 2
+		"Taroun Eroun" 1
+		"Taroun Oresu" 2
 	variant 5
-		Oresu 3
+		"Taroun Oresu" 3
 	variant 1
-		Eroun 2
-		Oresu 4
+		"Taroun Eroun" 2
+		"Taroun Oresu" 4
 
 fleet "Taroun Raid"
 	government "Taroun"
@@ -1128,8 +1159,8 @@ fleet "Taroun Raid"
 		vindictive
 		opportunistic
 	variant 1
-		Eroun 6
-		Oresu 10
+		"Taroun Eroun" 6
+		"Taroun Oresu" 10
 		
 # New Sky Merge
 

@@ -4,6 +4,8 @@ government "Ultaka(Mega)"
 	color .17 .09 .06
 	language "Ultaka"
 	"player reputation" -1000
+	"crew attack" 251
+    "crew defense" 300
 	"attitude toward"
 		"Merchant" -.01
 		"Pirate" -.01
@@ -34,6 +36,8 @@ government "Ultaka"
 	color .91 .42 .09
 	language "Ultaka"
 	"player reputation" -1000
+	"crew attack" 100
+    "crew defense" 100
 	"attitude toward"
 #		"Merchant" -.01
 #		"Pirate" -.01
@@ -68,16 +72,15 @@ government "ZIS"
 	swizzle 3
 	color 0.037 0.153 0.8
 	"player reputation" 1
+	"crew attack" 500
+    "crew defense" 1200
 	"attitude toward"
-		"Pirate" -.01
-		"Korath" -.1
 		"Ultaka" -1
 		"Ultaka (Mega)" -1
 		#"Quarg" -.1
 		"Qanse" -.1
 		"Kroom Kakaima" -.01
 		"ZIS " 1
-		"Taroun" -.1
 		"Geeva" 1
 		
 government "ZIS " #Government for construction drones.
@@ -124,6 +127,8 @@ government "Dels Dardornai" #Government 2 fullname: Dardornai Kar Meda
 	swizzle 0
 	color .089 .8 .245
 	"player reputation" 0
+	"crew attack" 1.4
+    "crew defense" 1.3
 	"attitude toward"
 		#"Wallagi" 1
 		#"Ultaka" -1
@@ -131,17 +136,22 @@ government "Dels Dardornai" #Government 2 fullname: Dardornai Kar Meda
 		"Dels Ufulre" -.1
 		"Dels" .1
 		"Kroom Kakaima" -.2
+		"Dels Kaote" 1
 		
 government "Dels Kaote" #Government 1 fullname: Prada Kaote
 	swizzle 0
 	color .089 .8 .245
 	"player reputation" 1
+	"crew attack" 1
+    "crew defense" 2.2
 	"attitude toward"
 		#"Wallagi" 1
 		#"Ultaka" -1
 		#"Revos" -.1
 		"Dels Ufulre" -.1
 		"Dels" .1
+		"Dels Dardornai" 1
+		"Kroom Kakaima" -.01
 		
 government "Dels Ufulre" #Seperatist fullname: Ufulre Qer
 	swizzle 1
@@ -297,8 +307,6 @@ government "Taroun"
 	color .6 .6 .6
 	"player reputation" 0
 	"attitude toward"
-		"Zis" -.1
-		"Geeva" -.1
 		
 #############VVVV[Eraders]VVVV
 		

@@ -17,7 +17,7 @@ outfit "Kechon Beam"
 		"velocity" 500
 		"lifetime" 1
 		"reload" 1
-		"firing energy" 15
+		"firing energy" 5
 		"firing heat" .1
 		"shield damage" 7
 		"hull damage" 10 
@@ -40,10 +40,8 @@ outfit "Botavu Turret"
 		"velocity" 1
 		"lifetime" 1
 		"reload" 40
-		"firing energy" 15
+		"firing energy" 30
 		"firing heat" .1
-		"shield damage" 65
-		"hull damage" 85 
 		"ion damage" .5
 		"stream"
 		
@@ -76,8 +74,8 @@ outfit "rvs botavu2"
 		"lifetime" 5
 		"hit force" 30
 		"velocity" -500
-		"shield damage" 8.4
-		"hull damage" 7
+		"shield damage" 80
+		"hull damage" 70
 		
 outfit "rvs botavu3"
 	weapon
@@ -90,8 +88,8 @@ outfit "rvs botavu3"
 		"lifetime" 1
 		"hit force" 30
 		"velocity" 500
-		"shield damage" 8.4
-		"hull damage" 7
+		"shield damage" 90
+		"hull damage" 84
 		
 effect "rvs botavu laser"
 	sprite "projectile/skylance"
@@ -100,6 +98,49 @@ effect "rvs botavu laser"
 	"lifetime" 5
 	"velocity scale" .1
 		
+outfit "Barviska Turret"
+	category "Turrets"
+	cost 19000000
+	thumbnail "outfit/longsword"
+	"mass" 20
+	"outfit space" -20
+	"weapon capacity" -20
+	"turret mounts" -1
+	weapon
+		sound "tracker"
+		"hit effect" "skylance impact"
+		"inaccuracy" 45
+		"turret turn" 360
+		"submunition" "rvs barviska"
+		"velocity" 20
+		"lifetime" 30
+		"drag" 1
+		"reload" 40
+		"firing energy" 30
+		"firing heat" .1
+		"split range" 500
+		"cluster"
+
+outfit "rvs barviska"
+	weapon
+		sprite "effect/skylance impact"
+			"frame rate" 2
+		"hit effect" "skylance impact"
+		"live effect" "skylance impact" 200
+		"inaccuracy" 0
+		"drag" .1
+		"turn" 360
+		"homing" 1
+		"optical tracking" .8
+		"lifetime" 150
+		"hit force" 30
+		"acceleration" 3
+		"velocity" 12
+		"shield damage" 500
+		"hull damage" 500
+		"slowing damage" 50
+		"ion damage" 50
+
 outfit "Anor Missile"
 	category "Secondary Weapons"
 	cost 29000000
@@ -126,7 +167,8 @@ outfit "Anor Missile"
 		"acceleration" 2
 		"drag" .1
 		"turn" 6
-		"optical tracking" 4
+		"homing" 3
+		"optical tracking" 1
 		"missile strength" 600
 
 outfit "Vubeto Anti-Missile"
@@ -158,10 +200,10 @@ outfit "Mudor-ki Shield Generator" #MQ
 	category "Systems"
 	cost 3000000
 	thumbnail "outfit/unknown"
-	"mass" 12
-	"outfit space" -12
-	"shield generation" 8
-	"cooling inefficiency" 10
+	"mass" 22
+	"outfit space" -22
+	"shield generation" 50
+	"cooling inefficiency" 30
 	"shield energy" 13
 	"heat generation" 6
 	
@@ -201,7 +243,7 @@ outfit "Pordukel Heat Controller"
 	"cooling" 4
 	"active cooling" 40
 	"cooling energy" 5
-	description ""
+	description "Revos Cooling System"
 
 outfit "Darloid Drive" #S-Dar, DASH
 	category "Engines"
@@ -214,7 +256,7 @@ outfit "Darloid Drive" #S-Dar, DASH
 	"afterburner energy" 5
 	"afterburner heat" 1.0
 	"afterburner effect" "afterburner"
-	description ""
+	description "Revos Speed booster."
 	
 outfit "Oidor Type-1 Engines" #IO
 	category "Engines"

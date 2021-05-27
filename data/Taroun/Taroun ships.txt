@@ -1,7 +1,7 @@
-ship Eroun
+ship "Taroun Eroun"
 	sprite "ship/taroun eroun"
 	attributes
-		category "Heavy Warship"
+		category "Medium Warship"
 		"cost" 1100000000
 		"shields" 5000000
 		"hull" 2400000
@@ -58,12 +58,12 @@ ship Eroun
 	engine -15 183.5
 	explode "smoke" 50
 	"final explode" "final explosion large"
-	description "Taroun light warship, usually found in patrol and scout fleets. While armed, these ships are not meant for combat."
+	description "Mostly a bigger version of Oresu"
 	
-ship Oresu
+ship "Taroun Oresu"
 	sprite "ship/taroun oresu"
 	attributes
-		category "Medium Warship"
+		category "Light Warship"
 		"cost" 900000000
 		"shields" 3000000
 		"hull" 1600000
@@ -117,3 +117,4 @@ ship Oresu
 	engine 0 98.5
 	explode "smoke" 40
 	"final explode" "final explosion large"
+	description "Taroun light warship, usually found in patrol and scout fleets. While armed, these ships are not meant for combat."

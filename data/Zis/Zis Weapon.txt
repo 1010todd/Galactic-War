@@ -17,7 +17,7 @@ outfit "Mrag Gun"
 		"firing heat" 0
 		"shield damage" 20
 		"hull damage" 35
-	description ""
+	description "Energy efficient and cool running general purpose gun used by Zis fighter."
 		
 outfit "Mrag Turret"
 	category "Turrets"
@@ -41,6 +41,7 @@ outfit "Mrag Turret"
 		"firing heat" 0
 		"shield damage" 20
 		"hull damage" 35
+	description "Energy efficient and cool running general purpose gun turret used by Zis fighter."
 	
 outfit "Zortal Flamethrower" #FireStorm
 	category "Guns"
@@ -55,30 +56,32 @@ outfit "Zortal Flamethrower" #FireStorm
 			"frame rate" 60
 			"no repeat"
 		sound "flamethrower"
-		"submunition" "Zortal Projectile" 2
+		"submunition" "Zortal Projectile"
 		"inaccuracy" 12
 		"velocity" 9
 		"shield damage" 8
 		"hull damage" 22
-		"heat damage" 260
-		"lifetime" 5
-		"reload" 1
+		"heat damage" 460
+		"lifetime" 1
+		"reload" 10
+		"burst count" 60
+		"burst reload" 1
 		"firing energy" 12
 		"firing heat" 6
-	description ""
+	description "More or less a flamethrower, this is a burst firing weapon that can easily overheat a ship in a short time."
 
 outfit "Zortal Projectile"
 	weapon
-		sprite "projectile/flamethrower"
+		sprite "projectile/zortal"
 			"frame rate" 17
 			"random start frame"
 		"hit effect" "flamethrower hit"
 		"die effect" "flamethrower die"
-		"inaccuracy" 20
+		"inaccuracy" 8
 		"lifetime" 22
 		"shield damage" 4
 		"hull damage" 8
-		"heat damage" 260
+		"heat damage" 1860
 		
 outfit "Nelcor Gun" #SnowStorm
 	category "Guns"
@@ -93,7 +96,7 @@ outfit "Nelcor Gun" #SnowStorm
 			"frame rate" 60
 			"no repeat"
 		sound "flamethrower"
-		"submunition" "Nelcor Projectile" 2
+		"submunition" "Nelcor Projectile"
 		"inaccuracy" 12
 		"velocity" 9
 		"shield damage" 8
@@ -115,8 +118,8 @@ outfit "Nelcor Projectile"
 		"inaccuracy" 20
 		"lifetime" 22
 		"shield damage" 0
-		"hull damage" 0
-		"heat damage" 0
+		"hull damage" 5
+		"heat damage" -50
 		"slowing damage" .1
 
 effect "frostwave hit"
@@ -168,13 +171,11 @@ outfit "DZ-10 Dark Blaster"
 		"reload" 12
 		"firing energy" 20
 		"firing heat" 18
-		"shield damage" 35
-		"hull damage" 35
-		"ion damage" 5
-		"hit force" 20
-		"heat damage" 4
-		"slowing damage" .3
-	description ""
+		"shield damage" 60
+		"hull damage" 12
+		"ion damage" 30
+		"slowing damage" .5
+	description "A small gun used by Zis fighters that while can barely scratch hulls, will decrease the target ship ability to maneuver and fire back."
 
 outfit "DZ-15 Dark Blaster"
 	category "Guns"
@@ -193,13 +194,12 @@ outfit "DZ-15 Dark Blaster"
 		"reload" 13
 		"firing energy" 24
 		"firing heat" 19
-		"shield damage" 35
-		"hull damage" 35
+		"shield damage" 20
+		"hull damage" 53
 		"ion damage" 1
-		"hit force" 22
-		"heat damage" 5
-		"slowing damage" .5
-	description ""
+		"slowing damage" 20
+		"piercing" .2
+	description "A variation of DZ-10 that focuses more on reducing target's mobility."
 		
 outfit "DZ-10 Dark Blaster Turret"
 	category "Turrets"
@@ -214,19 +214,45 @@ outfit "DZ-10 Dark Blaster Turret"
 		sound "gw darkblaster"
 		"hardpoint sprite" "hardpoint/dark blaster turret"
 		"hardpoint offset" 9.
-		"turret turn" 3.5
+		"turret turn" 6
 		"inaccuracy" 1.5
 		"velocity" 23
 		"lifetime" 38
 		"reload" 12
 		"firing energy" 20
 		"firing heat" 18
-		"shield damage" 35
-		"hull damage" 35
-		"ion damage" 5
-		"hit force" 20
-		"heat damage" 4
-		"slowing damage" .03
+		"shield damage" 60
+		"hull damage" 12
+		"ion damage" 30
+		"slowing damage" .5
+	description "Turret version of DZ-10."
+
+outfit "DZ-15 Dark Blaster Turret"
+	category "Turrets"
+	cost 17000000
+	thumbnail "outfit/zis dark blaster turret"
+	"mass" 14
+	"outfit space" -14
+	"weapon capacity" -14
+	"turret mounts" -1
+	weapon
+		sprite "projectile/darkblaster"
+		sound "gw darkblaster"
+		"hardpoint sprite" "hardpoint/dark blaster turret"
+		"hardpoint offset" 9.
+		"turret turn" 6
+		"inaccuracy" 1.5
+		"velocity" 23
+		"lifetime" 38
+		"reload" 12
+		"firing energy" 20
+		"firing heat" 18
+		"shield damage" 20
+		"hull damage" 53
+		"ion damage" 1
+		"slowing damage" 20
+		"piercing" .2
+	description "Turret version of DZ-15."
 		
 outfit "DZ-84 Darklance"
 	category "Guns"
@@ -247,13 +273,13 @@ outfit "DZ-84 Darklance"
 		"reload" 1
 		"firing energy" 45
 		"firing heat" 66
-		"shield damage" 40
-		"hull damage" 40
-		"ion damage" .5
-		"hit force" 10
-		"heat damage" 6
-		"slowing damage" .01
-	description "."
+		"shield damage" 65
+		"hull damage" 65
+		"ion damage" 5
+		"slowing damage" 5
+		"piercing" .25
+		"hit force" -20
+	description "Based on similar technology to Dark Blaster, these Darklances provides more accuracy and effectiveness at cost of using more energy."
 
 outfit "DZ-84 Darklance (Rear)"
 	category "Guns"
@@ -274,12 +300,12 @@ outfit "DZ-84 Darklance (Rear)"
 		"reload" 1
 		"firing energy" 45
 		"firing heat" 66
-		"shield damage" 40
-		"hull damage" 40
-		"ion damage" .5
-		"hit force" 10
-		"heat damage" 6
-		"slowing damage" .01
+		"shield damage" 65
+		"hull damage" 65
+		"ion damage" 5
+		"slowing damage" 5
+		"piercing" .25
+		"hit force" -20
 	description "."
 	description "[This is a rear version of darklance that shoots backward]"
 		
@@ -305,12 +331,12 @@ outfit "DZ-84 Darklance Turret"
 		"reload" 1
 		"firing energy" 45
 		"firing heat" 66
-		"shield damage" 40
-		"hull damage" 40
-		"ion damage" .5
-		"hit force" 10
-		"heat damage" 6
-		"slowing damage" .01
+		"shield damage" 65
+		"hull damage" 65
+		"ion damage" 5
+		"slowing damage" 5
+		"piercing" .25
+		"hit force" -20
 	description "."
 		
 outfit "DZ-5 Micro Darklance"
@@ -333,10 +359,10 @@ outfit "DZ-5 Micro Darklance"
 		"firing energy" 4.3
 		"firing heat" 1.2
 		"shield damage" 18
-		"hull damage" 10
-		"ion damage" .08
-		"hit force" 3
-	description "."
+		"hull damage" 18
+		"ion damage" .8
+		"slowing damage" .8
+	description "Miniturized Darklance for drones."
 	
 outfit "WD-2 Welder"
 	category "Guns"
@@ -385,7 +411,7 @@ outfit "Felran Turret"
 		"hull damage" .5
 		"heat damage" 10
 		"piercing" 1
-	description ""
+	description "" #I forgot what this thing supposed to be. TBD.
 	
 outfit "Zis Dragon's Breath" #Thanks Arkhne for the name idea.
 	category "Secondary Weapons"
@@ -403,7 +429,7 @@ outfit "Zis Dragon's Breath" #Thanks Arkhne for the name idea.
 		"hit effect" "zdragons breath hit" 3
 		"live effect" "zdragons breath live" 23
 		"inaccuracy" .5
-		"range override" 5000
+		"range override" 3000
 		"velocity override" 84
 		"velocity" 12
 		"lifetime" 42
@@ -411,12 +437,13 @@ outfit "Zis Dragon's Breath" #Thanks Arkhne for the name idea.
 		"firing energy" 620
 		"firing heat" 550
 		"firing fuel" .1
-		"shield damage" 500
-		"hull damage" 500
+		"shield damage" 5000
+		"hull damage" 5000
+		"heat damage" 5000
 		"acceleration" 2.5
 		"piercing" .7
 		"phasing"
-	description ``
+	description `It's a giant beam gun is all they bother to tell you.`
 	
 effect "zdragons breath fire"
 	sprite "effect/zdragons breath fire"
@@ -436,7 +463,7 @@ effect "zdragons breath live"
 	
 	
 effect "zdragons breath hit"
-	sprite "effect/zdragons breath hit"
+	sprite "effect/zdragons breath live"
 		"frame rate" 12
 		"random start frame"
 	"lifetime" 2 #5
@@ -716,7 +743,6 @@ outfit "Ginal Turret"
 		"shield damage" 15
 		"hull damage" 20
 		"hit force" 40
-		"heat damage" 4
 		"submunition" "ginal fragment" 16
 		"split range" 80
 	description "Anti Fighter Turret."
@@ -732,7 +758,76 @@ outfit "ginal fragment"
 		"hit force" 8
 		"shield damage" 24
 		"hull damage" 50
+		"piercing" .5
 		
+outfit "Buztekur Turret"
+	category "Turrets"
+	cost 840000
+	thumbnail "outfit/Buztekur turret"
+	"mass" 34
+	"outfit space" -34
+	"weapon capacity" -34
+	"turret mounts" -1
+	weapon
+		sprite "projectile/vuskchet"
+		sound "tracker"
+		"hardpoint sprite" "hardpoint/tizon turret"
+		"hardpoint offset" 35.
+		"turret turn" 5
+		"hit effect" "piercer explosion"
+		"live effect" "vuskchet" 100
+		"inaccuracy" 30
+		"velocity" 12
+		"lifetime" 35
+		"reload" 5
+		"burst count" 5
+		"burst reload" 1
+		"firing energy" 100
+		"firing heat" 330
+		"firing force" 150
+		"hit force" 1000
+		"gravitational"
+		"shield damage" 120
+		"hull damage" 5000
+		"tracking" 1
+		"homing" 4
+		"turn" 4
+	description "Zis short range bombardment turret."
+		
+outfit "Kelzilvaan Turret"
+	category "Turrets"
+	cost 65000000
+	thumbnail "outfit/zis zoika"
+	"mass" 36
+	"outfit space" -36
+	"weapon capacity" -36
+	"turret mounts" -1
+	weapon
+		sprite "projectile/kelzilvaan"
+			"random start frame"
+			"frame rate" 30
+		sound "gw laser3"
+		"hardpoint sprite" "hardpoint/tizon turret"
+		"hardpoint offset" 35.
+		"turret turn" 5
+		#"fire effect" "beam laser impact" 3
+		"inaccuracy" .1
+		"velocity" 2500
+		"lifetime" 1
+		"reload" 12
+		"burst count" 30
+		"burst reload" 1
+		"firing energy" 5000
+		"firing heat" 20
+		"shield damage" 1000
+		"hull damage" 2000
+		"disruption damage" 50
+		"slowing damage" 50
+		"hit force" -2000
+		"gravitational"
+		"cluster"
+	description "Zis tractor beam."
+
 outfit "Syfar-3 Turret" #Syfar Torpedo Turret
 	category "Secondary Weapons"
 	cost 47100000
@@ -1096,13 +1191,13 @@ outfit "Kuzaun Missile"
 		"inaccuracy" .5
 		"velocity" 12
 		"lifetime" 1800
-		"reload" 120
+		"reload" 20
 		"firing energy" 10
 		"firing heat" 10
 		"acceleration" 1
 		"drag" .08
 		"turn" 4
-		"homing" 5
+		"homing" 4
 		"radar tracking" 1
 		"optical tracking" 1
 		safe
@@ -1111,6 +1206,7 @@ outfit "Kuzaun Missile"
 		"shield damage" 12000
 		"hull damage" 22000
 		"hit force" 4000
+		"piercing" 2
 		"missile strength" 800
 	description "."
 	description "	[Kuzaun missiles are a one-shot weapon: each missile occupies a gun slot, and after it is fired, the slot it was in is left empty.]"

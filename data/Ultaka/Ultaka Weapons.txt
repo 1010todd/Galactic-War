@@ -441,7 +441,7 @@ outfit "U10-A anti missile"
 		sound "heavy anti-missile"
 		"hardpoint sprite" "hardpoint/warder"
 		"hardpoint offset" 4.
-		"anti-missile" 25
+		"anti-missile" 45
 		"turret turn" 18
 		"velocity" 400
 		"lifetime" 1
@@ -464,7 +464,7 @@ outfit "U20-A anti missile"
 		sound "heavy anti-missile"
 		"hardpoint sprite" "hardpoint/warder"
 		"hardpoint offset" 4.
-		"anti-missile" 25
+		"anti-missile" 55
 		"turret turn" 18
 		"velocity" 520
 		"lifetime" 1
@@ -487,7 +487,7 @@ outfit "U20-B anti missile"
 		sound "heavy anti-missile"
 		"hardpoint sprite" "hardpoint/warder"
 		"hardpoint offset" 4.
-		"anti-missile" 30
+		"anti-missile" 60
 		"turret turn" 18
 		"velocity" 450
 		"lifetime" 1
@@ -507,7 +507,7 @@ outfit "U30-A anti missile"
 		sound "heavy anti-missile"
 		"hardpoint sprite" "hardpoint/warder"
 		"hardpoint offset" 4.
-		"anti-missile" 37
+		"anti-missile" 69
 		"turret turn" 18
 		"velocity" 600
 		"lifetime" 1
@@ -527,7 +527,7 @@ outfit "U60-A anti missile"
 		sound "heavy anti-missile"
 		"hardpoint sprite" "hardpoint/warder"
 		"hardpoint offset" 4.
-		"anti-missile" 48
+		"anti-missile" 115
 		"turret turn" 18
 		"velocity" 600
 		"lifetime" 1
@@ -598,7 +598,7 @@ outfit "Type-E fragment"
 		
 outfit "D12E B-Field Projector" #"Ultaka Damage Field"
 	category "Turrets"
-	cost 150000
+	cost 1500000
 	thumbnail "outfit/unknown"
 	"mass" 40
 	"outfit space" -40
@@ -616,9 +616,10 @@ outfit "D12E B-Field Projector" #"Ultaka Damage Field"
 		"no damage scaling"
 		"firing energy" 20
 		"firing heat" 5
-		"shield damage" 15
-		"hull damage" 15
+		"shield damage" 9
+		"hull damage" 9
 		"heat damage" -15
+		"piercing" 100
 	description "This is a device to amplifiy the effect from Ultaka B-series cores and utilize it as weapon."
 		
 outfit "Ultaka Antimatter Cannon"

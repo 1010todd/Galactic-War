@@ -22,7 +22,7 @@ ship "Revos Homan"
 		"turning energy" 1
 		"thrust" 15
 		"thrusting energy" 1
-		"hull repair rate" .5
+		"hull repair rate" 50
 		weapon
 			"blast radius" 25
 			"shield damage" 100
@@ -48,6 +48,7 @@ ship "Revos Homan"
 	engine -1.5 17
 	explode "tiny explosion" 12
 	explode "small explosion" 16
+	description "Common interceptor used by Revos."
 	
 ship "Revos Rova"
 	sprite "ship/revos rova"
@@ -71,7 +72,7 @@ ship "Revos Rova"
 		"thrust" 20
 		"thrusting energy" 1
 		"hull repair rate" .3
-		"self destruct" .5
+		"self destruct" 35
 		weapon
 			"blast radius" 25
 			"shield damage" 100
@@ -96,6 +97,7 @@ ship "Revos Rova"
 	engine 17.5 20.5
 	explode "tiny explosion" 12
 	explode "small explosion" 16
+	description "Automated interceptor used by Revos."
 	
 ship "Revos Mokla"
 	sprite "ship/revos mokla"
@@ -119,7 +121,7 @@ ship "Revos Mokla"
 		"turning energy" 1
 		"thrust" 15
 		"thrusting energy" 1
-		"hull repair rate" .6
+		"hull repair rate" 60
 		weapon
 			"blast radius" 25
 			"shield damage" 100
@@ -149,8 +151,9 @@ ship "Revos Mokla"
 	gun 15 -3.5 "Anor Missile"
 	explode "tiny explosion" 12
 	explode "small explosion" 16
+	description "Revos Warship sometimes found in a patrol, usually deployed only when needed."
 	
-ship "Revos Caosma" "Caosma transport"
+ship "Revos Caosma" "Caosma (Transport)"
 	sprite "ship/revos caosma-t"
 	attributes
 		category "Transport"
@@ -172,7 +175,7 @@ ship "Revos Caosma" "Caosma transport"
 		"turning energy" 1
 		"thrust" 15
 		"thrusting energy" 1
-		"hull repair rate" .5
+		"hull repair rate" 50
 		weapon
 			"blast radius" 25
 			"shield damage" 100
@@ -198,6 +201,7 @@ ship "Revos Caosma" "Caosma transport"
 	turret 0 29
 	explode "tiny explosion" 13
 	explode "small explosion" 20
+	description "Transport used by Revos."
 	
 ship "Revos Caosma"
 	sprite "ship/revos caosma"
@@ -221,7 +225,7 @@ ship "Revos Caosma"
 		"turning energy" 1
 		"thrust" 15
 		"thrusting energy" 1
-		"hull repair rate" .5
+		"hull repair rate" 50
 		weapon
 			"blast radius" 25
 			"shield damage" 100
@@ -246,3 +250,4 @@ ship "Revos Caosma"
 	turret 0 29
 	explode "tiny explosion" 13
 	explode "small explosion" 20
+	description "Revos Cargo ship."
