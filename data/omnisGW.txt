@@ -745,147 +745,78 @@ system "Galactic War"
 	link Kroom
 	link Omnis
 	link Zorcn
+	object "Galactic War"
+		sprite planet/trochzempt
 	object "GW Plugins"
 		sprite sprite/station8
-		distance 444
+		distance 2300
 		offset 90
 	object "GW Default"
 		sprite sprite/station8
-		distance 444
+		distance 2300
 		offset 270
-	object "Galactic War"
-		sprite planet/ringworld
-		distance 812
-	object "Galactic War"
-		sprite planet/ringworld
-		distance 812
-		offset 20
-	object "Galactic War"
-		sprite planet/ringworld
-		distance 812
-		offset 40
-	object "Galactic War"
-		sprite planet/ringworld
-		distance 812
-		offset 60
-	object "Galactic War"
-		sprite planet/ringworld
-		distance 812
-		offset 80
-	object "Galactic War"
-		sprite planet/ringworld
-		distance 812
-		offset 100
-	object "Galactic War"
-		sprite planet/ringworld
-		distance 812
-		offset 120
-	object "Galactic War"
-		sprite planet/ringworld
-		distance 812
-		offset 140
-	object "Galactic War"
-		sprite planet/ringworld
-		distance 812
-		offset 160
-	object "Galactic War"
-		sprite planet/ringworld
-		distance 812
-		offset 180
-	object "Galactic War"
-		sprite planet/ringworld
-		distance 812
-		offset 200
-	object "Galactic War"
-		sprite planet/ringworld
-		distance 812
-		offset 220
-	object "Galactic War"
-		sprite planet/ringworld
-		distance 812
-		offset 240
-	object "Galactic War"
-		sprite planet/ringworld
-		distance 812
-		offset 260
-	object "Galactic War"
-		sprite planet/ringworld
-		distance 812
-		offset 280
-	object "Galactic War"
-		sprite planet/ringworld
-		distance 812
-		offset 300
-	object "Galactic War"
-		sprite planet/ringworld
-		distance 812
-		offset 320
-	object "Galactic War"
-		sprite planet/ringworld
-		distance 812
-		offset 340
 	object
 		sprite sprite/category_transport
-		distance 1200
+		distance 2700
 	object
 		sprite sprite/category_light_freighter
-		distance 1200
+		distance 2700
 		offset 40
 	object
 		sprite sprite/category_heavy_freighter
-		distance 1200
+		distance 2700
 		offset 80
 	object
 		sprite sprite/category_interceptor
-		distance 1200
+		distance 2700
 		offset 120
 	object
 		sprite sprite/category_light_warship
-		distance 1200
+		distance 2700
 		offset 160
 	object
 		sprite sprite/category_medium_warship
-		distance 1200
+		distance 2700
 		offset 200
 	object
 		sprite sprite/category_heavy_warship
-		distance 1200
+		distance 2700
 		offset 240
 	object
 		sprite sprite/category_fighter
-		distance 1200
+		distance 2700
 		offset 280
 	object
 		sprite sprite/category_drone
-		distance 1200
+		distance 2700
 		offset 320
 	object "Dels Desen"
 		sprite "ship/dels desen"
-		distance 1500
+		distance 3000
 		offset 40
 	object "Ultaka Hunter"
 		sprite "ship/ultaka hunter"
-		distance 1450
+		distance 3000
 		offset 115
 	object "Wallagi Telsarator"
 		sprite "ship/wallagi telsarator"
-		distance 1450
+		distance 3000
 		offset 125
 	object "Ultaka Dominator"
 		sprite "ship/ultaka dominator"
-		distance 1450
+		distance 3000
 		offset 160
 	object "Ultaka Conqueror"
 		sprite "ship/ultaka conqueror"
-		distance 1800
+		distance 3700
 		offset 230
 	object "Ultaka Summoner"
 		sprite "ship/ultaka summoner"
-		distance 1800
+		distance 3700
 		offset 250
 	object "ZN-7681 Eaxes"
 		sprite "ship/zis eaxes"
-		distance 2500
+		distance 4000
 		offset 240
 
 system Geeva
@@ -3027,31 +2958,39 @@ system Zorcn
 		sprite sprite/category_drone
 		distance 1200
 		offset 320
-	object "Zorcn"
-		sprite "ship/ermeirae"
+	object "Zorcn Bytis"
+		sprite "ship/zorcn bytis"
 		distance 1450
-		offset 40
-	object "Zorcn"
-		sprite "ship/ermhindersan"
+		offset 35
+	object "Zorcn Bermas"
+		sprite "ship/zorcn bermas"
 		distance 1500
-		offset 40
-	object "Zorcn"
-		sprite "ship/ermernar"
+		offset 45
+	object "Zorcn Barsten"
+		sprite "ship/zorcn barsten"
 		distance 1450
-		offset 160
-	object "Zorcn"
-		sprite "ship/ermhordanler"
+		offset 155
+	object "Zorcn Vixta"
+		sprite "ship/zorcn vixta"
 		distance 1450
-		offset 160
-	object "Zorcn"
-		sprite "ship/ermroekler"
+		offset 165
+	object "Zorcn Vorrix"
+		sprite "ship/zorcn vorrix"
+		distance 1450
+		offset 200
+	object "Zorcn Incskv"
+		sprite "ship/zorcn incskv"
 		distance 1500
-		offset 240
+		offset 230
+	object "Zorcn Genex"
+		sprite "ship/zorcn genex"
+		distance 1500
+		offset 250
 
 planet "Galactic War"
 	landscape landscape/station6
-	description `This ringworld is much bigger than any previously seen, consuming well over a whole systems worth of materials to construct. Here the outfitters and shipyards stock anything from vanilla content to plugin content. There is no need to go running about to find some superior technology, it's all right here!`
-	spaceport `This ringworld is much bigger than any previously seen, consuming well over a whole systems worth of materials to construct. Here the outfitters and shipyards stock anything from vanilla content to plugin content. There is no need to go running about to find some superior technology, it's all right here!`
+	description `This megastructure is much bigger than any previously seen, consuming well over multiple systems worth of materials to construct. Here the outfitters and shipyards stock everything from Galactic War plugin. There is no need to go running about to find some superior technology, it's all right here!`
+	spaceport `This megastructure is much bigger than any previously seen, consuming well over multiple systems worth of materials to construct. Here the outfitters and shipyards stock everything from Galactic War plugin. There is no need to go running about to find some superior technology, it's all right here!`
 	shipyard developer
 	shipyard "GalacticWar"
 	shipyard "Wallagi"
@@ -3061,6 +3000,40 @@ planet "Galactic War"
 	outfitter "GalacticWar"
 	outfitter "Dels Advanced"
 	outfitter "Donko Advanced"
+	bribe 0
+
+planet "GW Plugins"
+	landscape landscape/station6
+	description ``
+	spaceport ``
+	shipyard developer
+	shipyard "GalacticWar Plugin"
+	outfitter developer
+	outfitter "GalacticWar Plugin"
+	bribe 0
+
+planet "GW Default"
+	landscape landscape/station6
+	description ``
+	spaceport ``
+	shipyard developer
+	shipyard "GalacticWar"
+	shipyard "Wallagi"
+	shipyard "Dels Advanced"
+	shipyard "Dels Pirate"
+	shipyard "Kakaima Basic"
+	shipyard "Kakaima Advanced"
+	shipyard "Kanai Basic"
+	shipyard "Kanai Advanced"
+	outfitter developer
+	outfitter "GalacticWar"
+	outfitter "Dels Advanced"
+	outfitter "Donko Advanced"
+	outfitter "Kroom Basic"
+	outfitter "Kroom Advanced"
+	outfitter "Kanai Basic"
+	outfitter "Kakaima Basic"
+	outfitter "Kakaima Advanced"
 	bribe 0
 
 planet "Ultaka Hunter"
