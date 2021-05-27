@@ -875,71 +875,60 @@ fleet "Zis Heavy Patrol Fleet"
 		heroic
 		frugal
 		opportunistic
-		plunders
 		disables
 	variant 1
-		"VK-35 Katen" 18
-		"RZ-621-02 Razor" 5
-		"SY-8662 Sysor" 3
-		"SG-60 Ginaz Patrol Drone" 16
+		"ZN-7681 Eaxes"
+		"DT-510 Quadlancer" 6
+		"AF-18 Zyon" 10
+		"DT-224 Trazar" 4
 	variant 5
-		"VK-35 Katen" 9
+		"ZC-4226 Zaikul"
+		"ZM-5422 Karloz"
+		"BS-2237 Ryuzo" 2
+		"BX-3826 Kazai"
+		"AD-672 Ranzai" 8
+		"XF-26 Mizu" 26
+	variant 10
+		"ZM-5422 Karloz"
+		"BS-2237 Ryuzo" 4
+		"BX-3826 Kazai" 2
+	variant 20
+		"BX-3826 Kazai" 3
+		"BS-2237 Ryuzo" 8
+		"AD-672 Ranzai" 12
+
+fleet "Zis Light Patrol Fleet"
+	government "ZIS"
+	names "Zis"
+	fighters "Zis fighter"
+	cargo 1
+	personality
+		heroic
+		frugal
+		opportunistic
+		disables
 	variant 5
-		"VK-35 Katen" 6
-		"RZ-621-02 Razor" 1
-		"SG-60 Ginaz Patrol Drone" 2
-	variant 5
-		"RZ-621-02 Razor" 3
-		"SG-60 Ginaz Patrol Drone" 6
-	variant 3
-		"SY-8662 Sysor"
-		"VK-35 Katen" 6
-		"SG-60 Ginaz Patrol Drone" 2
-	variant 3
-		"SY-8662 Sysor" 
-		"RZ-621-02 Razor" 3
-		"SG-60 Ginaz Patrol Drone" 8
-	variant 1
-		"VK-35 Katen" 27
-		"RZ-621-02 Razor" 12
-		"SY-8662 Sysor" 5
-		"SG-60 Ginaz Patrol Drone" 34
-	variant 3
-		"DT-510 Quadlancer" 2
-		"SY-8662 Sysor"
-		"SG-60 Ginaz Patrol Drone" 2
-	variant 5
-		"DT-510 Quadlancer" 3
-	variant 4
-		"RZ-28 Forlan" 3
-		"DT-224 Trazar"
-	variant 5
-		"RZ-28 Forlan" 9
-	variant 5
-		"DT-224 Trazar" 3
-	variant 2
-		"SY-8662 Sysor"
-		"SG-60 Ginaz Patrol Drone" 2
-		"DT-224 Trazar" 3
-	variant 2
-		"SY-8662 Sysor"
-		"SG-60 Ginaz Patrol Drone" 2
-		"DT-224 Trazar" 6
-		"RZ-28 Forlan" 3
-	variant 2
-		"SY-8662 Sysor" 
-		"RZ-621-02 Razor" 3
-		"SG-60 Ginaz Patrol Drone" 8
-		"RZ-28 Forlan" 6
-	variant 2
-		"RZ-621-02 Razor" 3
-		"SG-60 Ginaz Patrol Drone" 6
-		"RZ-28 Forlan" 6
-	variant 2
-		"SY-8662 Sysor" 
-		"SG-60 Ginaz Patrol Drone" 2
-		"DT-510 Quadlancer" 3
-		"DT-224 Trazar" 6
+		"BX-3826 Kazai" 3
+		"BS-2237 Ryuzo" 8
+		"AD-672 Ranzai" 12
+	variant 20
+		"BX-3826 Kazai"
+		"BS-2237 Ryuzo"
+		"AD-672 Ranzai" 4
+	variant 20
+		"BS-2237 Ryuzo" 2
+		"AD-672 Ranzai" 4
+	variant 20
+		"BS-2237 Ryuzo" 3
+		"AD-672 Ranzai" 4
+	variant 20
+		"BX-3826 Kazai"
+		"AD-672 Ranzai" 6
+	variant 20
+		"BS-2237 Ryuzo"
+		"AD-672 Ranzai" 8
+	variant 35
+		"AD-672 Ranzai" 6
 		
 fleet "Zis Raid Fleet"
 	government "ZIS"
@@ -950,17 +939,19 @@ fleet "Zis Raid Fleet"
 		opportunistic
 		plunders
 	variant 1
-		"VK-35 Katen" 18
-		"RZ-621-02 Razor" 5
-		"SY-8662 Sysor" 3
-		"SG-60 Ginaz Patrol Drone" 16
-		"DT-224 Trazar" 3
+		"ZN-7681 Eaxes"
+		"TZ-3468 Seoui" 5
+		"DT-510 Quadlancer" 12
+		"RZ-28 Forlan" 18
+		"AF-18 Zyon" 10
+		"DT-224 Trazar" 8
 	variant 1
-		"VK-35 Katen" 18
-		"RZ-621-02 Razor" 5
-		"SY-8662 Sysor" 3
-		"SG-60 Ginaz Patrol Drone" 16
-		"DT-510 Quadlancer" 3
+		"ZC-4226 Zaikul"
+		"ZM-5422 Karloz" 2
+		"BS-2237 Ryuzo" 3
+		"BX-3826 Kazai" 6
+		"AD-672 Ranzai" 12
+		"XF-26 Mizu" 24
 		
 fleet "Zis Defense Fleet"
 	government "ZIS"
@@ -997,6 +988,9 @@ fleet "Zis Mining Fleet"
 		disables
 	variant 1
 		"Miner Razor"
+		"Ginaz Builder" 2
+	variant 1
+		"SY-8662 Sysor"
 		"Ginaz Builder" 2
 		
 fleet "Zis Civillian Fleet"
@@ -1099,6 +1093,69 @@ fleet "Zis Civillian Fleet"
 	variant 2
 		"Katen Civ 2a" 2
 		"AS-56 Virsiz"
+	variant 1
+		"VK-35 Katen" 18
+		"RZ-621-02 Razor" 5
+		"SY-8662 Sysor" 3
+		"SG-60 Ginaz Patrol Drone" 16
+	variant 5
+		"VK-35 Katen" 9
+	variant 5
+		"VK-35 Katen" 6
+		"RZ-621-02 Razor" 1
+		"SG-60 Ginaz Patrol Drone" 2
+	variant 5
+		"RZ-621-02 Razor" 3
+		"SG-60 Ginaz Patrol Drone" 6
+	variant 3
+		"SY-8662 Sysor"
+		"VK-35 Katen" 6
+		"SG-60 Ginaz Patrol Drone" 2
+	variant 3
+		"SY-8662 Sysor" 
+		"RZ-621-02 Razor" 3
+		"SG-60 Ginaz Patrol Drone" 8
+	variant 1
+		"VK-35 Katen" 27
+		"RZ-621-02 Razor" 12
+		"SY-8662 Sysor" 5
+		"SG-60 Ginaz Patrol Drone" 34
+	variant 3
+		"DT-510 Quadlancer" 2
+		"SY-8662 Sysor"
+		"SG-60 Ginaz Patrol Drone" 2
+	variant 5
+		"DT-510 Quadlancer" 3
+	variant 4
+		"RZ-28 Forlan" 3
+		"DT-224 Trazar"
+	variant 5
+		"RZ-28 Forlan" 9
+	variant 5
+		"DT-224 Trazar" 3
+	variant 2
+		"SY-8662 Sysor"
+		"SG-60 Ginaz Patrol Drone" 2
+		"DT-224 Trazar" 3
+	variant 2
+		"SY-8662 Sysor"
+		"SG-60 Ginaz Patrol Drone" 2
+		"DT-224 Trazar" 6
+		"RZ-28 Forlan" 3
+	variant 2
+		"SY-8662 Sysor" 
+		"RZ-621-02 Razor" 3
+		"SG-60 Ginaz Patrol Drone" 8
+		"RZ-28 Forlan" 6
+	variant 2
+		"RZ-621-02 Razor" 3
+		"SG-60 Ginaz Patrol Drone" 6
+		"RZ-28 Forlan" 6
+	variant 2
+		"SY-8662 Sysor" 
+		"SG-60 Ginaz Patrol Drone" 2
+		"DT-510 Quadlancer" 3
+		"DT-224 Trazar" 6
 		
 		
 fleet "Zis Construction Fleet"

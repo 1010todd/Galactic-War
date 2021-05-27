@@ -2,9 +2,9 @@ ship "Roekler"
 	sprite "ship/erm roekler"
 	attributes
 		category "Heavy Warship"
-		"cost" 120000000
-		"shields" 2900000
-		"hull" 3200000
+		"cost" 952000000
+		"shields" 720000
+		"hull" 640000
 		"hull repair rate" 200
 		"required crew" 22
 		"bunks" 324
@@ -29,7 +29,7 @@ ship "Roekler"
 		"Atmas Missile" 2
 		"Norden Dual Cannon Turret" 11
 		"Kaiza Anti-Fighter Turret" 6
-		"Erm Missile Prevention System" 8
+		"Erm Missile Guard" 8
 		
 		"Nurhid-2 Core"
 		"Tuerel Shield Generator"
@@ -61,14 +61,14 @@ ship "Roekler"
 	gun -54 -304 "Atmas Missile"
 	gun 56 -304.5 "Atmas Missile"
 	#MPS
-	turret -28.5 -278 "Erm Missile Prevention System"
-	turret 28 -279 "Erm Missile Prevention System"
-	turret -28.5 -123 "Erm Missile Prevention System"
-	turret 28 -122.5 "Erm Missile Prevention System"
-	turret -28.5 186 "Erm Missile Prevention System"
-	turret 28.5 185 "Erm Missile Prevention System"
-	turret -29.5 263.5 "Erm Missile Prevention System"
-	turret 29.5 265 "Erm Missile Prevention System"
+	turret -28.5 -278 "Erm Missile Guard"
+	turret 28 -279 "Erm Missile Guard"
+	turret -28.5 -123 "Erm Missile Guard"
+	turret 28 -122.5 "Erm Missile Guard"
+	turret -28.5 186 "Erm Missile Guard"
+	turret 28.5 185 "Erm Missile Guard"
+	turret -29.5 263.5 "Erm Missile Guard"
+	turret 29.5 265 "Erm Missile Guard"
 	engine -80.5 296
 	engine -23 328
 	engine 23 327.5
@@ -85,9 +85,9 @@ ship "Hidersan"
 	sprite "ship/erm hidersan"
 	attributes
 		category "Heavy Freighter"
-		"cost" 80020000
-		"shields" 680000
-		"hull" 720000
+		"cost" 560000000
+		"shields" 480000
+		"hull" 320000
 		"required crew" 8
 		"bunks" 12
 		"mass" 364
@@ -109,7 +109,7 @@ ship "Hidersan"
 	outfits
 		"Kaiza Anti-Fighter Turret" 4
 		"Norden Dual Cannon Turret"
-		"Erm Missile Prevention System" 4
+		"Erm Missile Guard" 4
 		"Aorken Paralyzer Missile" 4
 		
 		"Nurhid-1 Core"
@@ -128,10 +128,10 @@ ship "Hidersan"
 	gun 62 -218 "Aorken Paralyzer Missile"
 	gun -68 -131.5 "Aorken Paralyzer Missile"
 	gun 68 -132.5 "Aorken Paralyzer Missile"
-	turret -53.5 131 "Erm Missile Prevention System"
-	turret 50 130.5 "Erm Missile Prevention System"
-	turret -54 -185.5 "Erm Missile Prevention System"
-	turret 52.5 -186 "Erm Missile Prevention System"
+	turret -53.5 131 "Erm Missile Guard"
+	turret 50 130.5 "Erm Missile Guard"
+	turret -54 -185.5 "Erm Missile Guard"
+	turret 52.5 -186 "Erm Missile Guard"
 	engine -56 212
 	engine 54.5 211.5
 	engine -16 235.5
@@ -148,9 +148,9 @@ ship "Hordanler"
 	sprite "ship/erm hordanler"
 	attributes
 		category "Medium Warship"
-		"cost" 86090000
-		"shields" 580000
-		"hull" 530000
+		"cost" 427000000
+		"shields" 380000
+		"hull" 230000
 		"required crew" 18
 		"bunks" 34
 		"mass" 438
@@ -171,7 +171,7 @@ ship "Hordanler"
 			"hit force" 600
 	outfits
 		"Kaiza Anti-Fighter Turret" 2
-		"Erm Missile Prevention System" 4
+		"Erm Missile Guard" 4
 		"Atarkor Missile" 2
 		"Aranut Missile" 2
 		"Korlar Cannon Turret" 6
@@ -199,10 +199,10 @@ ship "Hordanler"
 	gun -48.5 -163 "Aranut Missile"
 	gun 49.5 -163 "Aranut Missile"
 	#MPS
-	turret -80 -23.5 "Erm Missile Prevention System"
-	turret 79.5 -24 "Erm Missile Prevention System"
-	turret -67 121 "Erm Missile Prevention System"
-	turret 62.5 122 "Erm Missile Prevention System"
+	turret -80 -23.5 "Erm Missile Guard"
+	turret 79.5 -24 "Erm Missile Guard"
+	turret -67 121 "Erm Missile Guard"
+	turret 62.5 122 "Erm Missile Guard"
 	engine -14 170.5
 	engine 14 170.5
 	explode "tiny explosion" 12
@@ -217,7 +217,7 @@ ship "Hordanler" "Hordanler Anti-Fighter"
 	sprite "ship/erm hordanler"
 	outfits
 		"Kaiza Anti-Fighter Turret" 8
-		"Erm Missile Prevention System" 4
+		"Erm Missile Guard" 4
 		"Atarkor Missile" 2
 		"Aranut Missile" 2
 		
@@ -244,10 +244,10 @@ ship "Hordanler" "Hordanler Anti-Fighter"
 	gun -48.5 -163 "Aranut Missile"
 	gun 49.5 -163 "Aranut Missile"
 	#MPS
-	turret -80 -23.5 "Erm Missile Prevention System"
-	turret 79.5 -24 "Erm Missile Prevention System"
-	turret -67 121 "Erm Missile Prevention System"
-	turret 62.5 122 "Erm Missile Prevention System"
+	turret -80 -23.5 "Erm Missile Guard"
+	turret 79.5 -24 "Erm Missile Guard"
+	turret -67 121 "Erm Missile Guard"
+	turret 62.5 122 "Erm Missile Guard"
 	engine -14 170.5
 	engine 14 170.5
 	explode "tiny explosion" 12
@@ -261,9 +261,9 @@ ship "Ernar"
 	sprite "ship/erm ernar"
 	attributes
 		category "Light Warship"
-		"cost" 38090000
-		"shields" 250000
-		"hull" 280000
+		"cost" 181000000
+		"shields" 150000
+		"hull" 120000
 		"required crew" 5
 		"bunks" 12
 		"mass" 238
@@ -284,7 +284,7 @@ ship "Ernar"
 			"hit force" 600
 	outfits
 		"Kaiza Anti-Fighter Turret" 2
-		"Erm Missile Prevention System" 2
+		"Erm Missile Guard" 2
 		"Tordel Paralyzer Laser" 2
 		"Aranut Missile" 2
 		
@@ -302,8 +302,8 @@ ship "Ernar"
 	turret 0 -28 "Kaiza Anti-Fighter Turret"
 	turret 0 51 "Kaiza Anti-Fighter Turret"
 	#MPS
-	turret -24.5 15.5 "Erm Missile Prevention System"
-	turret 25.5 15 "Erm Missile Prevention System"
+	turret -24.5 15.5 "Erm Missile Guard"
+	turret 25.5 15 "Erm Missile Guard"
 	engine -9 60
 	engine 9 60
 	explode "tiny explosion" 12
@@ -314,7 +314,7 @@ ship "Ernar"
 ship "Ernar" "Ernar Offensive"
 	outfits
 		"Kaiza Anti-Fighter Turret" 2
-		"Erm Missile Prevention System" 2
+		"Erm Missile Guard" 2
 		"Atmas Missile" 2
 		"Aranut Missile" 2
 		
@@ -332,8 +332,8 @@ ship "Ernar" "Ernar Offensive"
 	turret 0 -28 "Kaiza Anti-Fighter Turret"
 	turret 0 51 "Kaiza Anti-Fighter Turret"
 	#MPS
-	turret -24.5 15.5 "Erm Missile Prevention System"
-	turret 25.5 15 "Erm Missile Prevention System"
+	turret -24.5 15.5 "Erm Missile Guard"
+	turret 25.5 15 "Erm Missile Guard"
 	explode "tiny explosion" 12
 	explode "small explosion" 16
 	"final explode" "final explosion small"
@@ -342,7 +342,7 @@ ship "Ernar" "Ernar Offensive"
 ship "Ernar" "Ernar Offensive(S)"
 	outfits
 		"Kaiza Anti-Fighter Turret" 2
-		"Erm Missile Prevention System" 2
+		"Erm Missile Guard" 2
 		"Aranut Missile" 4
 		
 		"Korgel-1 Core"
@@ -359,8 +359,8 @@ ship "Ernar" "Ernar Offensive(S)"
 	turret 0 -28 "Kaiza Anti-Fighter Turret"
 	turret 0 51 "Kaiza Anti-Fighter Turret"
 	#MPS
-	turret -24.5 15.5 "Erm Missile Prevention System"
-	turret 25.5 15 "Erm Missile Prevention System"
+	turret -24.5 15.5 "Erm Missile Guard"
+	turret 25.5 15 "Erm Missile Guard"
 	explode "tiny explosion" 12
 	explode "small explosion" 16
 	"final explode" "final explosion small"
@@ -369,7 +369,7 @@ ship "Ernar" "Ernar Offensive(S)"
 ship "Ernar" "Ernar Offensive(A)"
 	outfits
 		"Kaiza Anti-Fighter Turret" 2
-		"Erm Missile Prevention System" 2
+		"Erm Missile Guard" 2
 		"Atmas Missile" 4
 		
 		"Korgel-1 Core"
@@ -386,8 +386,8 @@ ship "Ernar" "Ernar Offensive(A)"
 	turret 0 -28 "Kaiza Anti-Fighter Turret"
 	turret 0 51 "Kaiza Anti-Fighter Turret"
 	#MPS
-	turret -24.5 15.5 "Erm Missile Prevention System"
-	turret 25.5 15 "Erm Missile Prevention System"
+	turret -24.5 15.5 "Erm Missile Guard"
+	turret 25.5 15 "Erm Missile Guard"
 	explode "tiny explosion" 12
 	explode "small explosion" 16
 	"final explode" "final explosion small"
@@ -397,9 +397,9 @@ ship "Eaken"
 	sprite "ship/erm eaken"
 	attributes
 		category "Interceptor"
-		"cost" 12090000
-		"shields" 120000
-		"hull" 180000
+		"cost" 98000000
+		"shields" 60000
+		"hull" 80000
 		"required crew" 1
 		"bunks" 2
 		"mass" 96
@@ -420,7 +420,7 @@ ship "Eaken"
 			"hit force" 600
 	outfits
 		"Zouron Machinegun" 4
-		"Erm Missile Prevention System"
+		"Erm Missile Guard"
 		
 		"Kizan-Korgel-1 Core"
 		"Estera Shield Generator"
@@ -443,9 +443,9 @@ ship "Eirae"
 	sprite "ship/erm eirae"
 	attributes
 		category "Light Freighter"
-		"cost" 10090000
-		"shields" 98000
-		"hull" 96000
+		"cost" 88200000
+		"shields" 48000
+		"hull" 78000
 		"required crew" 1
 		"bunks" 3
 		"mass" 78
@@ -466,7 +466,7 @@ ship "Eirae"
 			"hit force" 600
 	outfits
 		"Zouron Machinegun Turret" 2
-		"Erm Missile Prevention System"
+		"Erm Missile Guard"
 		
 		"Kizan-Korgel-1 Core"
 		"Estera Shield Generator"
@@ -476,7 +476,7 @@ ship "Eirae"
 		
 	turret -26 17.5 "Zouron Machinegun Turret"
 	turret 26 17.5 "Zouron Machinegun Turret"
-	turret 0 0 "Erm Missile Prevention System"
+	turret 0 0 "Erm Missile Guard"
 	engine -20 39
 	engine 20 39
 	explode "tiny explosion" 12
