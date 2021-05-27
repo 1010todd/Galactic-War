@@ -10,7 +10,7 @@ outfit "FM10M Gun"
 	"gun ports" -1
 	weapon
 		sprite "projectile/blaster"
-		sound "proton"
+		sound "gw energy1"
 		"hit effect" "particle"
 		"inaccuracy" .1
 		"velocity" 20
@@ -32,7 +32,7 @@ outfit "FM10M Gun Group1"
 	"gun ports" -1
 	weapon
 		sprite "projectile/blaster"
-		sound "proton"
+		sound "gw energy1"
 		"hit effect" "particle"
 		"inaccuracy" .1
 		"velocity" 20
@@ -56,7 +56,7 @@ outfit "FM10M Gun Group2"
 	"gun ports" -1
 	weapon
 		sprite "projectile/blaster"
-		sound "proton"
+		sound "gw energy1"
 		"hit effect" "particle"
 		"inaccuracy" .1
 		"velocity" 20
@@ -80,7 +80,7 @@ outfit "M01A Turret" #M1 Gun
 	"turret mounts" -1
 	weapon
 		sprite "projectile/particle beam"
-		sound "particle"
+		sound "gw dblaster3"
 		"hit effect" "particle"
 		"hardpoint sprite" "hardpoint/m turret"
 		"hardpoint offset" 9.
@@ -182,7 +182,7 @@ outfit "M10G Turret" #M10G Gun
 	"turret mounts" -1
 	weapon
 		sprite "projectile/particle beam"
-		sound "particle"
+		sound "gw dblaster3"
 		"hit effect" "particle"
 		"hardpoint sprite" "hardpoint/m turret"
 		"hardpoint offset" 9.
@@ -208,7 +208,7 @@ outfit "M20G Turret" #M20G Turret
 	weapon
 		sprite "projectile/particle beam"
 			"frame rate" 1
-		sound "particle"
+		sound "gw dblaster3"
 		"hit effect" "particle"
 		"hardpoint sprite" "hardpoint/m turret"
 		"hardpoint offset" 9.
@@ -222,7 +222,7 @@ outfit "M20G Turret" #M20G Turret
 		"shield damage" 600
 		"hull damage" 540
 		"ion damage" .3
-		
+
 outfit "G10A Turret"
 	category "Turrets"
 	cost 230000
@@ -347,7 +347,6 @@ outfit "G20E Turret"
 		"hull damage" 170
 		"ion damage" .3
 		
-
 		
 outfit "M40G Turret"
 	category "Turrets"
@@ -360,7 +359,7 @@ outfit "M40G Turret"
 	weapon
 		sprite "projectile/m4g"
 			"frame rate" 1
-		sound "proton"
+		sound "gw dblaster3"
 		"hit effect" "particle impact"
 		"hardpoint sprite" "hardpoint/m turret"
 		"hardpoint offset" 9.
@@ -387,7 +386,7 @@ outfit "M100SG-M Turret"
 	weapon
 		sprite "projectile/m4g"
 			"frame rate" 1
-		sound "proton"
+		sound "gw dblaster3"
 		"hit effect" "particle impact"
 		"hardpoint sprite" "hardpoint/m turret"
 		"hardpoint offset" 9.

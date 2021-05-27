@@ -248,8 +248,9 @@ ship "Ultaka Summoner"
 			"hull damage" 500
 			"hit force" 1500
 	outfits
-		"M10G Gun" 4
-		"U20-B anti missile" 6
+		"M10G Gun" 3
+		"G20A Turret" 4
+		"U20-B anti missile" 2
 		"Ultaka Antimatter Cannon" 2
 
 		"USG100 Shield Generator"
@@ -261,13 +262,15 @@ ship "Ultaka Summoner"
 		"Model-3A Rifle" 200
 		"Ultaka IDS" 5
 		
-	turret -68 -279.5
-	turret 68 -279.5
-	turret -78.5 -98.5
-	turret 78.5 -98.5
-	turret -21.5 74
-	turret 21.5 74
-	turret -0.5 199.5
+	turret -46 -218 "M10G Gun"
+	turret 46 -218 "M10G Gun"
+	turret -51.5 -177.5 "G20A Turret"
+	turret 51.5 -177.5 "G20A Turret"
+	turret -54 -137 "U20-B anti missile"
+	turret 54 -137 "U20-B anti missile"
+	turret -68 53.5 "G20A Turret"
+	turret 68 53.5 "G20A Turret"
+	turret -0.5 283 "M10G Gun"
 	engine -77 427
 		zoom 2
 		angle 0
@@ -454,8 +457,8 @@ ship "Ultaka Conqueror"
 			"hull damage" 500
 			"hit force" 1500
 	outfits
-		"M20G Gun" 4
-		"G20C Turret" 2
+		"M20G Gun" 5
+		"G20C Turret" 8
 		"U20-B anti missile" 2
 		"Ultaka Vanquisher Cannon" 2
 
@@ -471,14 +474,21 @@ ship "Ultaka Conqueror"
 		
 	gun -39.5 -431 "Ultaka Vanquisher Cannon"
 	gun 39.5 -431 "Ultaka Vanquisher Cannon"
-	turret 0 -338.5 "M20G Gun"
-	turret 0 -272.5 "M20G Gun"
-	turret -108 -103 
-	turret 108 -103
-	turret -109 -7 "G20C Turret"
-	turret 109 -7 "G20C Turret"
-	turret -162 121 "M20G Gun"
-	turret 162 121 "M20G Gun"
+	turret 0 -391 "M20G Gun"
+	turret 0 -341 "M20G Gun"
+	turret 0 -295 "M20G Gun"
+	turret -107 -102 "G20C Turret"
+	turret 107 -102 "G20C Turret"
+	turret -107 -56.5 "U20-B anti missile"
+	turret 107 -56.5 "U20-B anti missile"
+	turret -107 -6 "G20C Turret"
+	turret 107 -6 "G20C Turret"
+	turret -168 -31 "G20C Turret"
+	turret 168 -31 "G20C Turret"
+	turret -161 122.5 "G20C Turret"
+	turret 161 122.5 "G20C Turret"
+	turret -87.5 105.5 "M20G Gun"
+	turret 87.5 105.5 "M20G Gun"
 	engine -66 444
 		zoom 2
 		angle 0
@@ -525,7 +535,7 @@ ship "Ultaka Conqueror"
 	description ""
 	
 ship "Ultaka Path-Maker"
-	sprite "ship/pathmaker"
+	sprite "ship/ultaka pathmaker"
 	attributes
 		category "Heavy Freighter"
 		"cost" 600000000
@@ -599,6 +609,8 @@ ship "Ultaka Path-Maker"
 	#description "Ultaka Path-Maker is a translated call sign from Wallagi's langauge "Ultaka Werloi", original name(untranslated) "Reutinay"."
 	#description "Ultaka Path-Makers are ancient wormhole and hyperspace link maker ship."
 	
+#===============================================[Titans]
+
 ship "Ultaka Galactic Destroyer"
 	sprite "ship/ultaka destroyer"
 		delay 10
@@ -727,11 +739,10 @@ ship "Ultaka Reaper"
 			"hull damage" 50000
 			"hit force" 15000
 	outfits
-		"E40R-D" 2
 		"Ultaka Vanquisher Cannon" 2
-		"U30-A anti missile" 9
-		"M40G Turret" 15
-		"M10G Gun" 6
+		"U30-A anti missile" 6
+		"M40G Turret" 6
+		"G20E Turret" 16
 
 		"USG200 Shield Generator"
 		"B60 Ve'el Core"
@@ -744,19 +755,36 @@ ship "Ultaka Reaper"
 		"Ultaka IDS" 2
 		
 		
-	gun -84 -978.5
-	gun 84 -978.5
-	turret -1.5 -792
-	turret -1.5 -696
-	turret -1.5 -592
-	turret -196 -349.5
-	turret 196 -349.5
-	turret -201.5 -253.5
-	turret 201.5 -253.5
-	turret -126.5 205.5
-	turret 126.5 205.5
-	turret -126.5 632
-	turret 126.5 632
+	gun -84 -984
+	gun 84 -984
+	turret -1.5 -832 "M40G Turret"
+	turret -1.5 -752 "M40G Turret"
+	turret -1.5 -672 "M40G Turret"
+	turret -1.5 -597 "M40G Turret"
+	turret -46.5 -472 "G20E Turret"
+	turret 46.5 -472 "G20E Turret"
+	turret -132 -224 "G20E Turret"
+	turret 132 -224 "G20E Turret"
+	turret -108 -144 "G20E Turret"
+	turret 108 -144 "G20E Turret"
+	turret -198.5 -346.5 "U30-A anti missile"
+	turret 198.5 -346.5 "U30-A anti missile"
+	turret -209.5 -250.5 "G20E Turret"
+	turret 209.5 -250.5 "G20E Turret"
+	turret -182.5 -829.5 "G20E Turret"
+	turret 182.5 -829.5 "G20E Turret"
+	turret -262.5 -701.5 "U30-A anti missile"
+	turret 262.5 -701.5 "U30-A anti missile"
+	turret -321.5 -544 "G20E Turret"
+	turret 321.5 -544 "G20E Turret"
+	turret -361.5 -400 "G20E Turret"
+	turret 361.5 -400 "G20E Turret"
+	turret -121.5 -32 "G20E Turret"
+	turret 121.5 -32 "G20E Turret"
+	turret -113.5 34.5 "U30-A anti missile"
+	turret 113.5 34.5 "U30-A anti missile"
+	turret -25.5 842.5 "M40G Turret"
+	turret 25.5 842.5 "M40G Turret"
 	fighter -329.5 61.5 right
 	fighter 329.5 61.5 left
 	fighter -321.5 365.5 right
@@ -792,8 +820,8 @@ ship "Ultaka Reaper"
 	explode "huge explosion" 30
 	explode "nuke explosion" 5
 	"final explode" "final explosion nuke" 2
-	description "Ultaka Reaper is a translated call sign from Wallagi's langauge "Ultaka Erlutti", original name(untranslated) "Tymerrueney"."
-	description "Ultaka Reapers are very large and rare warship that are usually found escorting the Ultaka Galactic Destroyer or other large ships, they're huge but vulnerable to fighters since the ship is mostly equipped with slow turrets for destroying enemy's large ships, there only two way for this ship to defend it self from fighters alone are to trust their own fighters or lock the it's splitting missile on the fighters or else they have to be covered by other smaller ships."
+	#description "Ultaka Reaper is a translated call sign from Wallagi's langauge "Ultaka Erlutti", original name(untranslated) "Tymerrueney"."
+	#description "Ultaka Reapers are very large and rare warship that are usually found escorting the Ultaka Galactic Destroyer or other large ships, they're huge but vulnerable to fighters since the ship is mostly equipped with slow turrets for destroying enemy's large ships, there only two way for this ship to defend it self from fighters alone are to trust their own fighters or lock the it's splitting missile on the fighters or else they have to be covered by other smaller ships."
 	
 
 ship "Ultaka Trapper"
