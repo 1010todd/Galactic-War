@@ -826,13 +826,13 @@ ship "ZM-5422 Karloz"
 		"Zymar Turret" 3
 		"Ginal Turret" 12
 		"ZIS Anti-Missile System" 6
-		"Syfar Torpedo Turret" 4
+		"Syfar-3 Turret" 4
 		"Syfar Torpedo" 120
 		"Eundorrel Cannon" 4
 		
-		"EPb12Cx-01 Generator"
-		"GHa43Gp-02 Hull Repair"
-		"GSa41Gp-02 Shielding"
+		"EPb12Cx-04 Generator"
+		"GHb12Gp-02 Hull Repair"
+		"GSb14Gp-02 Shielding"
 		
 		"MPa60Gp-02 Engine"
 		"Zis Galactic Drive"
@@ -892,7 +892,7 @@ ship "ZM-5422 Karloz" "Karloz Drone"
 	sprite "ship/zis karloz"
 	attributes
 		category "Heavy Warship"
-		"cost" 195000000000
+		"cost" 19500000000
 		"shields" 10220000
 		"hull" 12800000
 		"automaton" 1
@@ -963,7 +963,7 @@ ship "AD-672 Ranzai"
 	outfits
 		"Ginal Turret" 2
 		"ZIS Anti-Missile System" 2
-		"Syfar Torpedo Turret" 3
+		"Syfar-3 Turret" 3
 		"Syfar Torpedo" 90
 		
 		"EPa60Cx-01 Generator" 2
@@ -1029,7 +1029,7 @@ ship "BS-2237 Ryuzo"
 	outfits
 		"Zaikor Turret" 4
 		"ZIS Anti-Missile System" 2
-		"Syfar Torpedo Turret" 3
+		"Syfar-3 Turret" 3
 		"Syfar Torpedo" 90
 		
 		"EPa60Cx-01 Generator"
@@ -1097,11 +1097,10 @@ ship "BX-3826 Kazai"
 	outfits
 		"Zaikor Turret" 5
 		"ZIS Anti-Missile System" 4
-		"Syfar Torpedo Turret (Penta)" 10
+		"Syfar-5 Turret" 10
 		"Syfar Torpedo" 500
 		
 		"EPa90Cx-01 Generator" 2
-		"FT-1 Reactor" 2
 		"GSa41Gp-02 Shielding"
 		"GHa43Gp-02 Hull Repair"
 		
@@ -1171,7 +1170,7 @@ ship "XF-26 Mizu"
 	outfits
 		"Zaikor Turret"
 		"ZIS Anti-Missile System"
-		"Syfar Torpedo Launcher(Single)" 4
+		"Syfar Torpedo Launcher" 4
 		"Syfar Torpedo" 4
 		
 		"GSa05Gp-02 Shielding"
@@ -1209,7 +1208,7 @@ ship "ZC-4226 Zaikul"
 		"heat dissipation" .65
 		"fuel capacity" 600
 		"cargo space" 130
-		"outfit space" 1260
+		"outfit space" 1460
 		"weapon capacity" 860
 		"engine capacity" 70
 		"ramscoop" 80
@@ -1233,14 +1232,13 @@ ship "ZC-4226 Zaikul"
 		"Zoika Turret" 3
 		"Ginal Turret" 4
 		"ZIS Anti-Missile System" 6
-		"Syfar Torpedo Turret" 2
+		"Syfar-3 Turret" 2
 		"Syfar Torpedo" 60
 		"Rozzen VLS Array" 16
-		"Rozzen Missile" 480
 		
 		"EPb12Cx-04 Generator"
 		"EPa90Cx-01 Generator"
-		"GHb12Gp-02 Hull Repair"
+		"GHa60Gp-02 Hull Repair"
 		"GSa62Gp-02 Shielding"
 		
 		"MPa60Gp-02 Engine"
@@ -1477,13 +1475,10 @@ ship "ZN-7681 Eaxes"
 		"ZIS Anti-Missile System" 8
 		"Tizon Turret" 8
 		"Rozzen VLS Array" 2
-		"Rozzen Missile" 240
 		
 		"EPb12Cx-04 Generator" 2
+		"GSb14Gp-02 Shielding"
 		"GHb12Gp-02 Hull Repair"
-		"GHa43Gp-02 Hull Repair"
-		"GSa62Gp-02 Shielding"
-		"MW-1S Shield Generator"
 		
 		"MPa60Gp-02 Engine" 2
 		"Zis Galactic Drive"

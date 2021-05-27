@@ -613,10 +613,8 @@ outfit "Fernai Shotgun"
 		"firing energy" 38
 		"firing force" 4
 		"firing heat" 48
-		"shield damage" 154
-		"hull damage" 210
-	description "Fernai Shotgun is an up sized shotgun for spaceships, Fernai shoot down small fast fighters easily while it can also deal a decent damage to bigger ships."
-	
+	description ""
+
 outfit "Fernai Fragment"
 	weapon
 		sprite "projectile/proton fragment"
@@ -626,8 +624,8 @@ outfit "Fernai Fragment"
 		"inaccuracy" 8
 		"lifetime" 22
 		"hit force" 8
-		"shield damage" 22
-		"hull damage" 30
+		"shield damage" 80
+		"hull damage" 110
 		
 outfit "Zymar Turret"
 	category "Turrets"
@@ -655,11 +653,13 @@ outfit "Zymar Turret"
 		"shield damage" 6200
 		"hull damage" 8300
 		"hit force" 180
+		"heat damage" 100
+		"piercing" 10
 		"cluster"
 		"safe"
 		"blast radius" 200
-	description "While extrenally similar to ancient cannon turrets used back in times ships are still in the sea, these gun mechanism are extremely complicated combined with various of technologies slavaged by the Zis giving this cannon nearly as powerful as a Drak's Anti-Matter cannons."
-	
+	description ""
+
 outfit "Zoika Turret"
 	category "Turrets"
 	cost 65000000
@@ -689,8 +689,8 @@ outfit "Zoika Turret"
 		"cluster"
 		"safe"
 		"blast radius" 100
-	description "Externally similar to Zymar turret but a totally different gun, giving less damage than Zymar but also produce less heat."
-	
+	description ""
+
 outfit "Tizon Turret"
 	category "Turrets"
 	cost 65000000
@@ -1033,7 +1033,7 @@ outfit "Rozzen VLS Array" #Rozzen Vertical Launching System
 		"inaccuracy" 1
 		"velocity" 0
 		"lifetime" 20
-		"reload" 100
+		"reload" 40
 		"burst reload" 14
 		"burst count" 20
 		"firing energy" 5
