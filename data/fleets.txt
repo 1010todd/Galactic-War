@@ -304,7 +304,7 @@ fleet "Qanse Small"
 	variant 15
 		"Dantra" 2
 		
-fleet "Qoro (North)"
+fleet "Qoro (N) Battle Fleet"
 	government "Qoro (North)"
 	names "Qoro(north)"
 	cargo 1
@@ -326,8 +326,18 @@ fleet "Qoro (North)"
 	variant 30
 		"Qoro(N) Masec" 2
 		"Qoro(N) Manta" 3
+
+fleet "Qoro (N) Miner"
+	government "Qoro (North)"
+	names "Qoro(north)"
+	cargo 1
+	personality
+		confusion 20 
+		plunders mining harvests
+	variant 50
+		"Qoro(N) Manta"
 		
-fleet "Qoro (East)"
+fleet "Qoro (E) Battle Fleet"
 	government "Qoro (East)"
 	names "Qoro(east)"
 	cargo 1
@@ -353,50 +363,6 @@ fleet "Qoro (East)"
 	variant 30
 		"Qoro(E) Elogarl"
 		"Qoro(E) Ganoth" 3
-		
-fleet "Small Pug T2"
-	government "Pug"
-	names "pug"
-	cargo 1
-	personality
-		heroic
-	variant 1
-		"Tier2 Zibruka"
-	variant 2
-		"Tier2 Zibruka" 2
-	variant 2
-		"Tier2 Enfolta"
-	variant 1
-		"Tier2 Enfolta"
-		"Tier2 Zibruka"
-
-fleet "Large Pug T2"
-	government "Pug"
-	names "pug"
-	cargo 1
-	personality
-		heroic
-	variant 1
-		"Tier2 Enfolta"
-		"Tier2 Zibruka" 2
-	variant 1
-		"Tier2 Enfolta" 2
-	variant 1
-		"Tier2 Zibruka" 5
-	variant 2
-		"Tier2 Maboro"
-		"Tier2 Zibruka" 2
-	variant 3
-		"Tier2 Maboro"
-		"Tier2 Enfolta"
-		"Tier2 Zibruka"
-	variant 2
-		"Tier2 Maboro"
-		"Tier2 Enfolta" 2
-	variant 1
-		"Tier2 Maboro"
-		"Tier2 Enfolta"
-		"Tier2 Zibruka" 2
 		
 fleet "Aumar Probe"
 	government "Aumar"
@@ -672,7 +638,7 @@ fleet "Ignaggen"
 		"Kina" 6
 	
 fleet "Ignaggen Outlaw"
-	government "Ignaggen(Outlaw)"
+	government "Nilra Ignaggen"
 	names "Ignaggen"
 	cargo 1
 	personality
@@ -683,7 +649,6 @@ fleet "Ignaggen Outlaw"
 		"Gikeor" 5
 	variant 10
 		"Offensive Gikeor" 3
-		
 		
 fleet "Ignaggen Miner"
 	government "Ignaggen"

@@ -7,28 +7,8 @@ government "Ultaka(Mega)"
 	"crew attack" 251
     "crew defense" 300
 	"attitude toward"
-		"Merchant" -.01
-		"Pirate" -.01
-		"Republic" -.01
-		"Hai (Unfettered)" -.01
-		"Hai" -.01
-		"Korath" -.01
-		"Quarg" -.01
-		"Wanderer" -.01
-		"Pug" -.01
-		"Syndicate" -.01
-		"Free Worlds" -.01
-		"Navy Intelligence" -.01
-		"Navy (Oathkeeper)" -.01
 		"Wallagi" -.01
-		"Dels" -.01
-		"Aumar" -.01
-		"Donko" -.01
-		"Revos" -.01
-		"Dels (Pirate)" -.01
-		"Qoro (North)" -.01
-		"Qoro (East)" -.01
-		"Ultaka" 10
+		"Ultaka" 1
 		"ZIS" -.2
 
 government "Ultaka"
@@ -57,7 +37,6 @@ government "Ultaka"
 		"Aumar" -.01
 		"Donko" -.01
 		"Revos" -.1
-		"Dels (Pirate)" -.01
 		"Qoro (North)" -.01
 		"Qoro (East)" -.01
 		"Qanse" 1
@@ -66,7 +45,6 @@ government "Ultaka"
 		"Ignaggen" -.01
 		"Resmakia" -.01
 		"Erm" -.01
-		"Rakgonnera" -.01
 		
 government "ZIS"
 	swizzle 3
@@ -77,7 +55,6 @@ government "ZIS"
 	"attitude toward"
 		"Ultaka" -1
 		"Ultaka (Mega)" -1
-		#"Quarg" -.1
 		"Qanse" -.1
 		"Kroom Kakaima" -.01
 		"ZIS " 1
@@ -110,7 +87,6 @@ government "Wallagi"
 	"player reputation" 2
 	"attitude toward"
 		"Ultaka" -.1
-		"Dels (Pirate)" -.1
 		
 government "Dels" #Merchant
 	swizzle 0
@@ -260,7 +236,7 @@ government "Ignaggen" #Ignaggen Merchant
 	"attitude toward"
 		#"Wallagi" .1
 		"Dels" .1
-		"Ignaggen(Outlaw)" -.1
+		"Nilra Ignaggen" -.1
 		
 government "Kager Ignaggen" #Ignaggen Guard
 	swizzle 0
@@ -271,12 +247,12 @@ government "Kager Ignaggen" #Ignaggen Guard
 		"Dels" .1
 		"Dels Dardornai" .1
 		"Dels Kaote" .1
-		"Ignaggen(Outlaw)" -.1
+		"Nilra Ignaggen" -.1
 		"Ignaggen" 1
 		"Kroom Kakaima" -.01
 		
-government "Ignaggen(Outlaw)"
-	swizzle 6
+government "Nilra Ignaggen"
+	swizzle 0
 	color .99 .00 .00
 	"player reputation" -1
 	"attitude toward"
@@ -310,50 +286,67 @@ government "Taroun"
 		
 #############VVVV[Eraders]VVVV
 		
-government "Darua Republic"
-	swizzle 0
+government "Erader Darua"
+	swizzle 5
 	color .2 .2 .4
 	"player reputation" 0
 	"attitude toward"
 		"Makerurader" -.1
+		"Erader Kasiva" .1
 		
-government "Ruluan Empire"
+government "Erader Kasiva"
 	swizzle 0
 	color .179 .2 .0
 	"player reputation" 0
 	"attitude toward"
 		"Makerurader" -.1
-		
+		"Erader Darua" .1
+	
+government "Erader Mukube"
+	swizzle 4
+	color .179 .2 .0
+	"player reputation" 0
+	"attitude toward"
+		"Erader Darua" .1
+
+government "Erader Narpul"
+	swizzle 2
+	color .179 .2 .0
+	"player reputation" 0
+	"attitude toward"
+		"Makerurader" .1
+
 government "Makerurader"
 	swizzle 6
 	color .0 .0 .0
-	"player reputation" 0
+	"player reputation" -1
 	"attitude toward"
-		"Darua Republic" -.1
+		"Erader Darua" -.1
+		"Erader Kasiva" -.1
 		
 	#========================================New Sky Merge
 
-government "Nuru" #Highly Advanced Alien, currently ~T3, can potentially becomes more powerful in the near future.
+government "Nuru"
 	swizzle 0
 	"player reputation" 0
 	"bribe" 0
 	"attitude toward"
 		"Xyncil Zorcn" -.01
-	"friendly hail" "untranslated friendly nuru"
-	"hostile hail" "untranslated hostile nuru"
+	#"friendly hail" "untranslated friendly nuru"
+	#"hostile hail" "untranslated hostile nuru"
 	language "Nuru"
 	
-government "Zorcn" #T1 alien with more primitive shielding than human but compensated with higher hull strength.
+government "Zorcn"
 	color .38 .38 .38
 	swizzle 0
 	"player reputation" 0
 	"attitude toward"
 		"Xyncil Zorcn" -.1
-	"friendly hail" "untranslated friendly zorcn"
-	"hostile hail" "untranslated hostile zorcn"
+	#"friendly hail" "untranslated friendly zorcn"
+	#"hostile hail" "untranslated hostile zorcn"
 	language "Zorcn"
 	
-government "Vuskr Zorcn" #Official military force of the Zorcn
+government "Vuskr Zorcn"
 	color .54 .48 .48
 	"crew attack" 1.2
 	"crew defense" 2.2
@@ -362,11 +355,11 @@ government "Vuskr Zorcn" #Official military force of the Zorcn
 	"attitude toward"
 		"Xyncil Zorcn" -.1
 		"Zorcn" 1
-	"friendly hail" "untranslated friendly zorcn"
-	"hostile hail" "untranslated hostile zorcn"
+	#"friendly hail" "untranslated friendly zorcn"
+	#"hostile hail" "untranslated hostile zorcn"
 	language "Zorcn"
 	
-government "Xyncil Zorcn" #Terrorist Zorcn fraction
+government "Xyncil Zorcn"
 	color .10 .28 .19
 	swizzle 3
 	"player reputation" -1
@@ -374,8 +367,8 @@ government "Xyncil Zorcn" #Terrorist Zorcn fraction
 		"Vuskr Zorcn" -.2
 		"Zorcn" -.1
 		"Nuru" -.1
-	"friendly hail" "untranslated friendly zorcn"
-	"hostile hail" "untranslated hostile zorcn"
+	#"friendly hail" "untranslated friendly zorcn"
+	#"hostile hail" "untranslated hostile zorcn"
 	language "Zorcn"
 	
 government "Vareen" #WiP
