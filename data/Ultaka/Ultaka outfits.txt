@@ -8,7 +8,7 @@ outfit "B60 Ve'el Core"
 	"outfit space" -150
 	"energy generation" 1700
 	"ultaka bcore" 15
-	"cooling" 12 #Just for lore reason. These are some very very high end stuffs, it doesn't have to make sense to us. Don't complain.
+	"cooling" 12 #Yes, f u.
 	"maintenance costs" 150000
 	description "Mysterious object sitting at the heart of a large Ultaka ship powering it and its large energy consumption with ease."
 	description "These mysterious generators appears to suck away heat from its surrounding regradless of insulation and cuts off at a certain radius creating a sudden drop of temperature around it."
@@ -75,6 +75,7 @@ outfit "USG200 Shield Generator"
 	"outfit space" -210
 	"shield generation" 8.6
 	"shield energy" 15.3
+	description "A large Ultaka Shield generator."
 	
 outfit "USG150 Shield Generator"
 	category "Systems"
@@ -123,6 +124,12 @@ outfit "Kel'aku Engines" #Type-1
 	"jump drive" 1
 	"jump speed" 10
 	"flare sprite" "effect/ultaka flare/huge"
+		"frame rate" 120
+	"flare sound" "plasma huge"
+	"steering flare sprite" "effect/ultaka flare/small"
+		"frame rate" 120
+	"steering flare sound" "plasma tiny"
+	description `Standard Ultaka Engine system, a combination of jumpdrive, thruster, steering, and "afterburner".`
 	
 outfit "DR Drive" #Type-2
 	category "Engines"
@@ -162,6 +169,12 @@ outfit "Kel'aku-Cu Engines" #Type-1S
 	"afterburner energy" 45
 	"afterburner heat" 50
 	"flare sprite" "effect/ultaka flare/small"
+		"frame rate" 120
+	"flare sound" "plasma small"
+	"steering flare sprite" "effect/ultaka flare/small"
+		"frame rate" 120
+	"steering flare sound" "plasma tiny"
+	description "Smaller version of Ultaka's Kel'aku Engine System for fighters and other small ships within their fleet."
 	
 outfit "Ultaka Heat Shunt" #Placeholder
 	category "Systems"

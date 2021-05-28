@@ -426,12 +426,12 @@ system Donko
 		sprite "ship/ermernar"
 		distance 1450
 		offset 160
-	object "Donko"
-		sprite "ship/ermhordanler"
+	object "Donko Koi"
+		sprite "ship/donko koi"
 		distance 1450
 		offset 160
-	object "Donko"
-		sprite "ship/ermroekler"
+	object "Donko Sao"
+		sprite "ship/donko sao"
 		distance 1500
 		offset 240
 
@@ -790,31 +790,35 @@ system "Galactic War"
 		sprite sprite/category_drone
 		distance 2700
 		offset 320
-	object "Dels Desen"
+	object "GW Desen"
 		sprite "ship/dels desen"
 		distance 3000
 		offset 40
-	object "Ultaka Hunter"
+	object "GW Hunter"
 		sprite "ship/ultaka hunter"
 		distance 3000
 		offset 115
-	object "Wallagi Telsarator"
+	object "GW Telsarator"
 		sprite "ship/wallagi telsarator"
 		distance 3000
 		offset 125
-	object "Ultaka Dominator"
+	object "GW Oresu"
+		sprite "ship/taroun oresu"
+		distance 3000
+		offset 200
+	object "GW Dominator"
 		sprite "ship/ultaka dominator"
 		distance 3000
 		offset 160
-	object "Ultaka Conqueror"
+	object "GW Conqueror"
 		sprite "ship/ultaka conqueror"
 		distance 3700
 		offset 230
-	object "Ultaka Summoner"
+	object "GW Summoner"
 		sprite "ship/ultaka summoner"
 		distance 3700
 		offset 250
-	object "ZN-7681 Eaxes"
+	object "GW Eaxes"
 		sprite "ship/zis eaxes"
 		distance 4000
 		offset 240
@@ -2241,10 +2245,10 @@ system Ultaka
 		sprite sprite/category_drone
 		distance 1200
 		offset 320
-	object #"Ultaka Hunter"
+	object "Ultaka Hunter"
 		sprite "ship/ultaka hunter"
 		distance 1450
-		offset 120
+		offset 115
 	object "Ultaka Path Maker"
 		sprite "ship/ultaka pathmaker"
 		distance 1500
@@ -2532,8 +2536,8 @@ system Wallagi
 		sprite sprite/category_drone
 		distance 1200
 		offset 320
-	object "Wallagi Tansa"
-		sprite "ship/wallagi tansa"
+	object "Wallagi Talselar"
+		sprite "ship/wallagi Talselar"
 		distance 1450
 		offset 280
 	object "Wallagi Telsarator"
@@ -2987,6 +2991,8 @@ system Zorcn
 		distance 1500
 		offset 250
 
+#==============================Galactic War Planets=======================
+
 planet "Galactic War"
 	landscape landscape/station6
 	description `This megastructure is much bigger than any previously seen, consuming well over multiple systems worth of materials to construct. Here the outfitters and shipyards stock everything from Galactic War plugin. There is no need to go running about to find some superior technology, it's all right here!`
@@ -3036,14 +3042,76 @@ planet "GW Default"
 	outfitter "Kakaima Advanced"
 	bribe 0
 
+#===============================Dels Planets
+
+planet "Dels"
+	landscape "landscape/station6"
+	description ``
+	spaceport ``
+	shipyard "Dels Advanced"
+	shipyard "Dels Pirate"
+
+
+#===============================Tribute+Fleets 
+# Note: "GW" Prefix is for selecting ships to be used at Galactic War system to avoid wormholes.
+
+planet "Taroun Oresu"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Taroun Oresu"
+
+planet "GW Oresu"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Taroun Oresu"
+
+fleet "Taroun Oresu"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Taroun Oresu"
+
+planet "Taroun Eroun"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Taroun Eroun"
+
+planet "GW Eroun"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Taroun Eroun"
+
+fleet "Taroun Eroun"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Taroun Eroun"
+
 planet "Ultaka Hunter"
 	government arena
 	bribe 0
 	tribute 1
 		threshold 0
-		fleet "ul Hunter"
+		fleet "Ultaka Hunter"
+
+planet "GW Hunter"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ultaka Hunter"
 		
-fleet "ul Hunter"
+fleet "Ultaka Hunter"
 	government "arena"
 	personality
 		heroic
@@ -3055,9 +3123,16 @@ planet "Ultaka Dominator"
 	bribe 0
 	tribute 1
 		threshold 0
-		fleet "ul Dominator"
-		
-fleet "ul Dominator"
+		fleet "Ultaka Dominator"
+	
+planet "GW Dominator"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ultaka Dominator"
+
+fleet "Ultaka Dominator"
 	government "arena"
 	personality
 		heroic
@@ -3069,9 +3144,16 @@ planet "Ultaka Conqueror"
 	bribe 0
 	tribute 1
 		threshold 0
-		fleet "ul Conqueror"
+		fleet "Ultaka Conqueror"
 		
-fleet "ul Conqueror"
+planet "GW Conqueror"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ultaka Conqueror"
+
+fleet "Ultaka Conqueror"
 	government "arena"
 	personality
 		heroic
@@ -3083,9 +3165,16 @@ planet "Ultaka Summoner"
 	bribe 0
 	tribute 1
 		threshold 0
-		fleet "ul Summoner"
+		fleet "Ultaka Summoner"
 		
-fleet "ul Summoner"
+planet "GW Summoner"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ultaka Summoner"
+
+fleet "Ultaka Summoner"
 	government "arena"
 	personality
 		heroic
@@ -3093,21 +3182,105 @@ fleet "ul Summoner"
 		"Ultaka Summoner"
 		"Ultaka Termite" 12
 		
-planet "ZN-7681 Eaxes"
+planet "Wallagi Telsarator"
 	government arena
 	bribe 0
 	tribute 1
 		threshold 0
-		fleet "zis Eaxes"
+		fleet "Wallagi Telsarator"
 		
-planet "Zis Eaxes"
+planet "GW Telsarator"
 	government arena
 	bribe 0
 	tribute 1
 		threshold 0
-		fleet "zis Eaxes"
+		fleet "Wallagi Telsarator"
 		
-fleet "zis Eaxes"
+fleet "Wallagi Telsarator"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Wallagi Telsarator"
+
+planet "Wallagi Dettalor"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Wallagi Dettalor"
+		
+planet "GW Dettalor"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Wallagi Dettalor"
+		
+fleet "Wallagi Dettalor"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Wallagi Dettalor"
+
+planet "Wallagi Sentasor"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Wallagi Sentasor"
+		
+planet "GW Sentasor"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Wallagi Sentasor"
+		
+fleet "Wallagi Sentasor"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Wallagi Sentasor"
+
+planet "Wallagi Talselar"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Wallagi Talselar"
+		
+planet "GW Talselar"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Wallagi Talselar"
+		
+fleet "Wallagi Talselar"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Wallagi Talselar"
+
+planet "ZIS Eaxes"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "ZIS Eaxes"
+		
+planet "GW Eaxes"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "ZIS Eaxes"
+		
+fleet "ZIS Eaxes"
 	government "arena"
 	personality
 		heroic
