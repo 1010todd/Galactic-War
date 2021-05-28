@@ -30,7 +30,7 @@ ship "Ultaka Hunter"
 		"B10 Anht Core"
 		"B6E Hap'al Battery"
 		"Ultaka Heat Shunt"
-		"M-Hyper Engines"
+		"Kel'aku-Cu Engines"
 		"FM10M Gun"
 		"FM10M Gun Group1" 2
 		"Model-3A Rifle" 1
@@ -262,64 +262,104 @@ ship "Ultaka Summoner"
 		"Model-3A Rifle" 200
 		"Ultaka IDS" 5
 		
-	turret -46 -218 "M10G Gun"
-	turret 46 -218 "M10G Gun"
-	turret -51.5 -177.5 "G20A Turret"
-	turret 51.5 -177.5 "G20A Turret"
-	turret -54 -137 "U20-B anti missile"
-	turret 54 -137 "U20-B anti missile"
-	turret -68 53.5 "G20A Turret"
-	turret 68 53.5 "G20A Turret"
-	turret -0.5 283 "M10G Gun"
-	engine -77 427
-		zoom 2
+	turret -37 -177.5
+	turret 37 -177.5
+	turret -40.5 -144.5
+	turret 40.5 -144.5
+	turret -45.5 -113
+	turret 45.5 -113
+	turret -52.5 41
+	turret 52.5 41
+	turret -0.5 177.5
+	turret -0.5 198
+	engine -64 343.5
+		zoom 1
 		angle 0
 		under
-	engine 77 427
-		zoom 2
+	engine 64 343.5
+		zoom 1
 		angle 0
 		under
-	"reverse engine" -123.5 -278.5
+	"reverse engine" -59.5 -319
 		zoom 1
 		angle 180
 		under
-	"reverse engine" 123.5 -278.5
+	"reverse engine" 59.5 -319
 		zoom 1
 		angle 180
 		under
-	fighter -146.5 1
-	fighter 146.5 1
-	fighter -150 109
-	fighter 150 109
-	fighter -146.5 1
-	fighter 146.5 1
-	fighter -150 109
-	fighter 150 109
-	fighter -146.5 1
-	fighter 146.5 1
-	fighter -150 109
-	fighter 150 109
-	fighter -146.5 1
-	fighter 146.5 1
-	fighter -150 109
-	fighter 150 109
-	fighter -146.5 1
-	fighter 146.5 1
-	fighter -150 109
-	fighter 150 109
-	fighter -146.5 1
-	fighter 146.5 1
-	fighter -150 109
-	fighter 150 109
-	fighter -146.5 1
-	fighter 146.5 1
-	fighter -150 109
-	fighter 150 109
-	fighter -146.5 1
-	fighter 146.5 1
-	fighter -150 109
-	fighter 150 109
-	
+	"steering engine" -99.5 -230.5
+		zoom .5
+		angle -90
+		under
+		right
+	"steering engine" 99.5 -230.5
+		zoom .5
+		angle 90
+		under
+		left
+	"steering engine" -99.5 -230.5
+		zoom .5
+		angle -90
+		over
+		right
+	"steering engine" 99.5 -230.5
+		zoom .5
+		angle 90
+		over
+		left
+	"steering engine" -122.5 177.5
+		zoom .5
+		angle -90
+		under
+		left
+	"steering engine" 122.5 177.5
+		zoom .5
+		angle 90
+		under
+		right
+	"steering engine" -123.5 203.5
+		zoom .5
+		angle -90
+		under
+		left
+	"steering engine" 123.5 203.5
+		zoom .5
+		angle 90
+		under
+		right
+	bay "Fighter" -121 -2
+	bay "Fighter" 121 -2
+	bay "Fighter" -122 84
+	bay "Fighter" 122 84
+	bay "Fighter" -121 -2
+	bay "Fighter" 121 -2
+	bay "Fighter" -122 84
+	bay "Fighter" 122 84
+	bay "Fighter" -121 -2
+	bay "Fighter" 121 -2
+	bay "Fighter" -122 84
+	bay "Fighter" 122 84
+	bay "Fighter" -121 -2
+	bay "Fighter" 121 -2
+	bay "Fighter" -122 84
+	bay "Fighter" 122 84
+	bay "Fighter" -121 -2
+	bay "Fighter" 121 -2
+	bay "Fighter" -122 84
+	bay "Fighter" 122 84
+	bay "Fighter" -121 -2
+	bay "Fighter" 121 -2
+	bay "Fighter" -122 84
+	bay "Fighter" 122 84
+	bay "Fighter" -121 -2
+	bay "Fighter" 121 -2
+	bay "Fighter" -122 84
+	bay "Fighter" 122 84
+	bay "Fighter" -121 -2
+	bay "Fighter" 121 -2
+	bay "Fighter" -122 84
+	bay "Fighter" 122 84
 	explode "tiny explosion" 12
 	explode "small explosion" 16
 	explode "medium explosion" 30
@@ -415,7 +455,7 @@ ship "Ultaka Servant"
 		"USG50 Shield Generator"
 		"B10 Anht Core"
 		"Ultaka Heat Shunt"
-		"M-Hyper Engines"
+		"Kel'aku-Cu Engines"
 		"FM10M Gun" 1
 		"MU10-A anti missile" 2
 	
@@ -457,7 +497,7 @@ ship "Ultaka Conqueror"
 			"hull damage" 500
 			"hit force" 1500
 	outfits
-		"M20G Gun" 5
+		"M20G Gun" 6
 		"G20C Turret" 8
 		"U20-B anti missile" 2
 		"Ultaka Vanquisher Cannon" 2
@@ -472,59 +512,32 @@ ship "Ultaka Conqueror"
 		"Model-3A Rifle" 300
 		"Ultaka IDS" 5
 		
-	gun -39.5 -431 "Ultaka Vanquisher Cannon"
-	gun 39.5 -431 "Ultaka Vanquisher Cannon"
-	turret 0 -391 "M20G Gun"
-	turret 0 -341 "M20G Gun"
-	turret 0 -295 "M20G Gun"
-	turret -107 -102 "G20C Turret"
-	turret 107 -102 "G20C Turret"
-	turret -107 -56.5 "U20-B anti missile"
-	turret 107 -56.5 "U20-B anti missile"
-	turret -107 -6 "G20C Turret"
-	turret 107 -6 "G20C Turret"
-	turret -168 -31 "G20C Turret"
-	turret 168 -31 "G20C Turret"
-	turret -161 122.5 "G20C Turret"
-	turret 161 122.5 "G20C Turret"
-	turret -87.5 105.5 "M20G Gun"
-	turret 87.5 105.5 "M20G Gun"
-	engine -66 444
-		zoom 2
+	gun -30.5 -335
+	gun 30.5 -335
+	turret 0 -289 "M20G Gun"
+	turret 0 -249.5 "M20G Gun"
+	turret 0 -200.5 "M20G Gun"
+	turret -81 -72
+	turret 81 -72
+	turret -81 -37.5 "M20G Gun"
+	turret 81 -37.5 "M20G Gun"
+	turret -81 -3
+	turret 81 -3
+	turret -125 -20 "U20-B anti missile"
+	turret 125 -20 "U20-B anti missile"
+	turret -72.5 82
+	turret 72.5 82
+	turret -61.5 106.5
+	turret 61.5 106.5
+	turret 0 187 "M20G Gun"
+	engine -48 340.5
+		zoom 1
 		angle 0
 		under
-	engine 66 444
-		zoom 2
+	engine 48 340.5
+		zoom 1
 		angle 0
 		under
-	"reverse engine" -85 -366
-		zoom 1
-		angle 180
-		under
-	"reverse engine" 85 -366
-		zoom 1
-		angle 180
-		under
-	"steering engine" -85 -366
-		zoom .5
-		angle 90
-		under
-		left
-	"steering engine" 85 -366
-		zoom .5
-		angle -90
-		under
-		right
-	"steering engine" -152.5 199
-		zoom .5
-		angle 90
-		under
-		left
-	"steering engine" 152.5 199
-		zoom .5
-		angle -90
-		under
-		right
 	explode "tiny explosion" 12
 	explode "small explosion" 16
 	explode "medium explosion" 30
