@@ -1,25 +1,15 @@
-#
-#galaxy "Galaxy 3" #To be moved due to conflict with Omnis.
-#	pos 866.326 -11179.5
-#	sprite ui/galaxy3
-#galaxy NGC5477
-#	pos -50500 -53000
-#	sprite ui/ngc5477
-#galaxy "Galaxy 1 Credit"
-#	pos -50287.5 -54701
-#	sprite ui/m83credit
 
-galaxy "Galaxy 1"
+galaxy "GW Galaxy 1"
 	pos -50000 -54661
 	sprite ui/m83ed
 
-galaxy "Galaxy 2"
+galaxy "GW Galaxy 2"
 	pos -43949.7 -58602.3
-	sprite ui/pinwheel
+	sprite ui/galaxy1
 
-galaxy "Galaxy 4"
+galaxy "GW Galaxy 3"
 	pos -38408.8 -54126
-	sprite ui/galaxy4
+	sprite ui/ngc5468
 
 system Abartae
 	pos -49510.1 -56337.9
@@ -5313,7 +5303,7 @@ system Busirvek
 			period 22.2461
 
 system C1-1
-	pos -49658.9 -54056.4
+	pos -48507.5 -53158
 	government Donko
 	habitable 2035
 	belt 1548
@@ -5370,7 +5360,7 @@ system C1-1
 			period 52.2709
 
 system C1-2
-	pos -49621.4 -54005.3
+	pos -48438.7 -53115.6
 	government Donko
 	habitable 625
 	belt 1954
@@ -5422,7 +5412,7 @@ system C1-2
 			period 78.6181
 
 system C2-1
-	pos -49718 -54068.3
+	pos -48551.7 -53093.8
 	government Donko
 	habitable 806.68
 	belt 1014
@@ -5478,7 +5468,7 @@ system C2-1
 			period 30.3293
 
 system C2-2
-	pos -49671.2 -53985.9
+	pos -48411 -53047.8
 	government Donko
 	habitable 320
 	belt 1593
@@ -5523,7 +5513,7 @@ system C2-2
 			period 24.1326
 
 system C2-3
-	pos -49648.6 -53909.1
+	pos -48375.4 -53087
 	government Donko
 	habitable 945
 	belt 1253
@@ -5591,7 +5581,7 @@ system C2-3
 			period 43.5909
 
 system C2-4
-	pos -49568.6 -53967.6
+	pos -48355.7 -53134.5
 	government Donko
 	habitable 425.92
 	belt 1687
@@ -5639,7 +5629,7 @@ system C2-4
 			period 12.9419
 
 system C3-1
-	pos -49680.3 -54125.2
+	pos -48602.1 -53075.8
 	government Donko
 	habitable 2372.76
 	belt 1697
@@ -5692,7 +5682,7 @@ system C3-1
 			period 22.1058
 
 system C3-2
-	pos -49756.7 -54116.8
+	pos -48639.4 -53013
 	government Donko
 	habitable 1080
 	belt 1408
@@ -5753,7 +5743,7 @@ system C3-2
 			period 77.3043
 
 system C3-3
-	pos -49785.9 -54064.1
+	pos -48604.6 -52977.7
 	government Donko
 	habitable 1111.68
 	belt 1051
@@ -5797,7 +5787,7 @@ system C3-3
 		period 978.618
 
 system C3-4
-	pos -49747.9 -54012.1
+	pos -48485.8 -53041.9
 	government Donko
 	habitable 425.92
 	belt 1341
@@ -5852,7 +5842,7 @@ system C3-4
 			period 47.5761
 
 system C3-5
-	pos -49610.7 -53890.3
+	pos -48330.6 -53042.8
 	government Donko
 	habitable 486.68
 	belt 1777
@@ -5895,7 +5885,7 @@ system C3-5
 			period 38.8364
 
 system C4-1
-	pos -49667.9 -54204.1
+	pos -48632.6 -53116.3
 	government Donko
 	habitable 320
 	belt 1035
@@ -5943,7 +5933,7 @@ system C4-1
 			period 42.2887
 
 system C4-2
-	pos -49742.9 -54214.1
+	pos -48712.8 -53047.6
 	government Donko
 	habitable 2160
 	belt 1804
@@ -5996,7 +5986,7 @@ system C4-2
 			period 21.9639
 
 system C4-3
-	pos -49831.3 -54008
+	pos -48521.4 -52987.9
 	government Donko
 	habitable 3645
 	belt 1002
@@ -6052,7 +6042,7 @@ system C4-3
 			period 22.4007
 
 system C5-1
-	pos -49633.9 -54272.9
+	pos -48634.3 -53189.7
 	government Donko
 	habitable 135
 	belt 1803
@@ -6094,7 +6084,7 @@ system C5-1
 			period 25.9621
 
 system C5-2
-	pos -49718.6 -54287.4
+	pos -48709.6 -53116.1
 	government Donko
 	habitable 945
 	belt 1947
@@ -6136,7 +6126,7 @@ system C5-2
 		period 1082.64
 
 system C5-3
-	pos -49897.8 -53963.5
+	pos -48522.1 -52885.2
 	government Donko
 	habitable 320
 	belt 1576
@@ -6916,7 +6906,7 @@ system Cilvasrie
 		period 1657.61
 
 system "Coai Mesoh'a"
-	pos -49587.6 -54061.3
+	pos -48435.5 -53171.9
 	government Donko
 	habitable 1080
 	belt 1490
@@ -7726,7 +7716,7 @@ system "Cuzi no"
 		period 997.603
 
 system "D1 A"
-	pos -49379.2 -54325.4
+	pos -48143 -53464.5
 	government Donko
 	habitable 425.92
 	belt 1790
@@ -7788,7 +7778,7 @@ system "D1 A"
 			period 25.9621
 
 system "D1 B2"
-	pos -49289.2 -54363.4
+	pos -48085.8 -53455.6
 	government Donko
 	habitable 320
 	belt 1298
@@ -7839,7 +7829,7 @@ system "D1 B2"
 			period 15.6075
 
 system "D2 A"
-	pos -49409.2 -54389.4
+	pos -48161.1 -53523.3
 	government Donko
 	habitable 486.68
 	belt 1073
@@ -7893,7 +7883,7 @@ system "D2 A"
 			period 51.1885
 
 system "D2 B"
-	pos -49345.2 -54412.4
+	pos -48072.1 -53527.5
 	government Donko
 	habitable 1080
 	belt 1505
@@ -7940,7 +7930,7 @@ system "D2 B"
 		offset 30.1347
 
 system "D3 A1"
-	pos -49480.2 -54411.4
+	pos -48222.4 -53575.2
 	government Donko
 	habitable 2795
 	belt 1276
@@ -7994,7 +7984,7 @@ system "D3 A1"
 			period 21.5287
 
 system "D3 A2"
-	pos -49483.2 -54346.4
+	pos -48248.6 -53507.9
 	government Donko
 	habitable 425.92
 	belt 1921
@@ -8041,7 +8031,7 @@ system "D3 A2"
 			period 26.252
 
 system "D3 B"
-	pos -49319.2 -54465.4
+	pos -48129 -53581.1
 	government Donko
 	habitable 320
 	belt 1774
@@ -8121,7 +8111,7 @@ system "D3 B"
 			period 38.0071
 
 system "D4 A1"
-	pos -49564.2 -54451.4
+	pos -48409 -53664.3
 	government Donko
 	habitable 135
 	belt 1828
@@ -8174,7 +8164,7 @@ system "D4 A1"
 			period 21.5942
 
 system "D4 A2"
-	pos -49544.2 -54377.4
+	pos -48309.6 -53575.9
 	government Donko
 	habitable 233.28
 	belt 1217
@@ -8226,7 +8216,7 @@ system "D4 A2"
 			period 28.4563
 
 system "D4 A3"
-	pos -49584.6 -54342
+	pos -48453.1 -53547.6
 	government Donko
 	habitable 1715
 	belt 1346
@@ -8269,7 +8259,7 @@ system "D4 A3"
 			period 27.1812
 
 system "D4 A4"
-	pos -49529.6 -54296
+	pos -48454.6 -53423.2
 	government Donko
 	habitable 4131.68
 	belt 1308
@@ -8336,7 +8326,7 @@ system "D4 A4"
 			period 18.6229
 
 system "D4 B1"
-	pos -49264.6 -54510
+	pos -48153.4 -53684.4
 	government Donko
 	habitable 425.92
 	belt 1306
@@ -8389,7 +8379,7 @@ system "D4 B1"
 			period 15.7904
 
 system "D4 B2"
-	pos -49257.6 -54429
+	pos -48185.9 -53601.8
 	government Donko
 	habitable 625
 	belt 1184
@@ -8438,7 +8428,7 @@ system "D4 B2"
 			period 24.6576
 
 system "D5 B1"
-	pos -49228.8 -54585.8
+	pos -48226.4 -53726.6
 	government Donko
 	habitable 1566.68
 	belt 1446
@@ -8486,7 +8476,7 @@ system "D5 B1"
 		period 881.203
 
 system "D5 B2"
-	pos -49182.8 -54538.8
+	pos -48128.9 -53772.5
 	government Donko
 	habitable 625
 	belt 1659
@@ -8544,7 +8534,7 @@ system "D5 B2"
 			period 22.5463
 
 system "D5 B3"
-	pos -49164.5 -54439.9
+	pos -48236.8 -53653
 	government Donko
 	habitable 1215
 	belt 1156
@@ -8600,13 +8590,12 @@ system "D5 B3"
 			period 14.571
 
 system "Dakai Eor'en"
-	pos -49566.6 -54246
+	pos -48578.2 -53240.3
 	government Donko
 	habitable 2372.76
 	belt 1658
 	link C5-1
 	link "D4 A4"
-	link S6-9
 	asteroids "small rock" 18 2.7489
 	asteroids "medium rock" 1 2.5245
 	asteroids "large rock" 1 1.7765
@@ -9118,6 +9107,64 @@ system Darvultke
 		sprite planet/gas10
 		distance 2114.46
 		period 1199.7
+
+system Deamulur
+	pos -49873.7 -55971.7
+	government "Dels Dardornai"
+	habitable 486.68
+	belt 1485
+	link Kadukeeva
+	link Mukkaedu
+	asteroids "small rock" 29 1.8
+	asteroids "medium rock" 153 1.356
+	asteroids "large rock" 30 1.032
+	asteroids "small metal" 6 0.612
+	asteroids "medium metal" 10 1.392
+	asteroids "large metal" 7 1.668
+	minables copper 1 2.56461
+	minables lead 42 1.86901
+	minables tungsten 22 1.40346
+	trade Clothing 312
+	trade Electronics 686
+	trade Equipment 349
+	trade Food 191
+	trade "Heavy Metals" 1074
+	trade Industrial 527
+	trade "Luxury Goods" 1076
+	trade Medical 582
+	trade Metal 299
+	trade Plastic 450
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/rock6
+		distance 151.24
+		period 33.7239
+	object
+		sprite planet/ocean6
+		distance 438.08
+		period 166.253
+	object
+		sprite planet/gas5
+		distance 1478.17
+		period 1030.45
+		object
+			sprite planet/rock3
+			distance 268
+			period 14.5898
+		object
+			sprite planet/oberon
+			distance 383
+			period 24.9256
+		object
+			sprite planet/rhea
+			distance 510
+			period 38.3003
+		object
+			sprite planet/dust1
+			distance 613
+			period 50.4705
 
 system Deannen
 	pos -44620.3 -57951.4
@@ -11215,10 +11262,11 @@ system Dofolk
 			period 37.1143
 
 system Dolker
-	pos -49667.8 -54388.5
+	pos -49589 -54425.4
 	government Revos
 	habitable 425.92
 	belt 1578
+	link Eider
 	link Kulor
 	asteroids "small rock" 1 11.4318
 	asteroids "medium rock" 12 8.2998
@@ -11385,7 +11433,7 @@ system Dopolk
 		period 4448.22
 
 system "Dorai Nowoku"
-	pos -49318.2 -54304.4
+	pos -48084.3 -53380.2
 	government Donko
 	habitable 486.68
 	belt 1916
@@ -13977,11 +14025,11 @@ system Eicegu
 			period 91.4915
 
 system Eider
-	pos -49882.4 -54602.4
+	pos -49526.3 -54330.9
 	government Revos
 	habitable 1705
 	belt 1305
-	link Lena
+	link Dolker
 	asteroids "small rock" 81 1.815
 	asteroids "medium rock" 8 1.9305
 	asteroids "large rock" 36 1.914
@@ -14494,7 +14542,7 @@ system Ekdurvel
 			period 13.0078
 
 system Ekiltador
-	pos -49873.6 -55782
+	pos -49875.6 -55814
 	government Erader
 	habitable 320
 	belt 1129
@@ -14616,7 +14664,7 @@ system Ekvekkor
 			period 30.2879
 
 system Elbasor
-	pos -49832.6 -55762
+	pos -49823.6 -55783
 	government Erader
 	habitable 625
 	belt 1653
@@ -16646,7 +16694,7 @@ system Eullagora
 			period 38.8841
 
 system Eundo
-	pos -49758.8 -54441.5
+	pos -49777.9 -54488.5
 	government Revos
 	habitable 425.92
 	belt 1987
@@ -25821,6 +25869,8 @@ system Haperwagan
 	habitable 135
 	belt 1558
 	link Ekiltador
+	link Immoraal
+	link Mukkaedu
 	link Nerkondir
 	link Peltarven
 	asteroids "small rock" 16 2.2984
@@ -28329,6 +28379,52 @@ system Ikaroreg
 			distance 356
 			period 22.3369
 
+system Ikashiva
+	pos -49698.2 -55853.4
+	government EraderF2
+	habitable 425.92
+	belt 1804
+	link Immoraal
+	link Misirga
+	asteroids "large metal" 1 5.4648
+	trade Clothing 341
+	trade Electronics 660
+	trade Equipment 514
+	trade Food 178
+	trade "Heavy Metals" 1140
+	trade Industrial 643
+	trade "Luxury Goods" 996
+	trade Medical 530
+	trade Metal 386
+	trade Plastic 509
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/titan
+		distance 126.64
+		period 27.6218
+	object
+		sprite planet/rock14
+		distance 291.08
+		period 96.2531
+	object
+		sprite planet/uranus
+		distance 720.64
+		period 374.95
+	object
+		sprite planet/jupiter
+		distance 1478.45
+		period 1101.81
+	object
+		sprite planet/neptune
+		distance 1957.86
+		period 1679.07
+		object
+			sprite planet/europa
+			distance 201
+			period 14.198
+
 system Ikgorel
 	pos -50212 -56717.2
 	government "Kroom Kakaima"
@@ -29293,10 +29389,12 @@ system Immeal
 			period 21.4226
 
 system Immoraal
-	pos -49747.1 -55834
+	pos -49778.1 -55843
 	government Erader
 	habitable 466.56
 	belt 1443
+	link Haperwagan
+	link Ikashiva
 	asteroids "large metal" 1 9.1
 	trade Clothing 326
 	trade Electronics 679
@@ -29821,8 +29919,8 @@ system Irlaai
 			period 13.2451
 
 system "Irshall Mer"
-	pos -49124.1 -53878.5
-	government Ultaka
+	pos -47558.8 -53201.2
+	government Donko
 	habitable 625
 	belt 1904
 	link M1-14
@@ -32064,6 +32162,62 @@ system Kadika
 			sprite planet/ice0
 			distance 377
 			period 19.2264
+
+system Kadukeeva
+	pos -49892.7 -56029.7
+	government "Dels Dardornai"
+	habitable 1050.92
+	belt 1416
+	link Deamulur
+	link Shaporvah
+	link Ukdelare
+	asteroids "small rock" 11 5.187
+	asteroids "medium rock" 31 3.9501
+	asteroids "large rock" 70 2.3541
+	asteroids "small metal" 37 3.192
+	asteroids "medium metal" 66 3.591
+	asteroids "large metal" 41 5.9451
+	minables aluminum 2 7.24683
+	minables neodymium 37 3.88684
+	trade Clothing 312
+	trade Electronics 686
+	trade Equipment 349
+	trade Food 191
+	trade "Heavy Metals" 1074
+	trade Industrial 527
+	trade "Luxury Goods" 1076
+	trade Medical 582
+	trade Metal 299
+	trade Plastic 450
+	object
+		sprite star/g5
+		distance 49.8498
+		period 16.8319
+	object
+		sprite star/k5
+		distance 73.1502
+		period 16.8319
+		offset 180
+	object
+		sprite planet/desert3
+		distance 277.76
+		period 57.1189
+	object
+		sprite planet/gas0
+		distance 625.2
+		period 192.887
+	object
+		sprite planet/lava2
+		distance 928.49
+		period 349.093
+	object
+		sprite planet/gas11
+		distance 1750.74
+		period 903.874
+		object
+			sprite planet/miranda
+			distance 227
+			period 11.2802
 
 system Kaekualen
 	pos -50350 -55974.9
@@ -44203,7 +44357,7 @@ system Kullorail
 			period 17.4998
 
 system Kulor
-	pos -49693.8 -54471.5
+	pos -49670.9 -54467.7
 	government Revos
 	habitable 1705
 	belt 1126
@@ -45949,7 +46103,6 @@ system Lena
 	government Revos
 	habitable 625
 	belt 1045
-	link Eider
 	link Vobi
 	link Yorta
 	asteroids "small rock" 41 4.4408
@@ -49552,11 +49705,10 @@ system Lumaar
 			period 22.6373
 
 system M1-12
-	pos -48931 -53890.2
-	government Ultaka
+	pos -47339.5 -53105.2
+	government Donko
 	habitable 1080
 	belt 1294
-	link M1-14
 	link M1-21
 	link M1-33
 	asteroids "small rock" 11 8.8704
@@ -49592,15 +49744,13 @@ system M1-12
 			period 11.1438
 
 system M1-14
-	pos -49051.9 -53881.6
-	government Ultaka
+	pos -47456.2 -53233.4
+	government Donko
 	habitable 1850
 	belt 1570
 	link "Irshall Mer"
-	link M1-12
 	link M1-16
 	link M1-21
-	link M1-33
 	asteroids "medium rock" 6 1.86
 	asteroids "large rock" 1 2.1
 	asteroids "small metal" 22 3.15
@@ -49646,12 +49796,13 @@ system M1-14
 			period 64.7574
 
 system M1-16
-	pos -49122.5 -53802.6
-	government Ultaka
+	pos -47447.4 -53180.5
+	government Donko
 	habitable 2606.04
 	belt 1094
 	link "Irshall Mer"
 	link M1-14
+	link M1-21
 	link M1-33
 	link M1-55
 	asteroids "small rock" 8 1.6786
@@ -49700,12 +49851,14 @@ system M1-16
 		period 1088.87
 
 system M1-21
-	pos -48996.9 -53965.6
-	government Ultaka
+	pos -47397.4 -53190.8
+	government Donko
 	habitable 486.68
 	belt 1243
 	link M1-12
 	link M1-14
+	link M1-16
+	link M1-33
 	asteroids "small rock" 4 2.6136
 	asteroids "medium rock" 30 3.146
 	asteroids "large rock" 12 2.4442
@@ -49743,13 +49896,14 @@ system M1-21
 		period 2263.61
 
 system M1-33
-	pos -49037.9 -53776.6
-	government Ultaka
+	pos -47416.9 -53124.9
+	government Donko
 	habitable 851.84
 	belt 1147
 	link M1-12
-	link M1-14
 	link M1-16
+	link M1-21
+	link M1-55
 	asteroids "medium rock" 23 3.597
 	asteroids "large rock" 1 4.29
 	asteroids "small metal" 42 1.848
@@ -49797,12 +49951,13 @@ system M1-33
 			period 30.0748
 
 system M1-55
-	pos -49227.4 -53851.5
-	government Ultaka
+	pos -47492.5 -53148.6
+	government Donko
 	habitable 1715
 	belt 1276
 	link "Irshall Mer"
 	link M1-16
+	link M1-33
 	asteroids "medium rock" 33 10.4284
 	asteroids "large rock" 3 11.3535
 	asteroids "small metal" 6 8.5782
@@ -55728,6 +55883,7 @@ system Misirga
 	government EraderF2
 	habitable 135
 	belt 1823
+	link Ikashiva
 	link Meigari
 	asteroids "small rock" 16 4.0546
 	asteroids "medium rock" 169 5.852
@@ -58490,11 +58646,14 @@ system Mukeldar
 			period 20.281
 
 system Mukkaedu
-	pos -49923.1 -55929.9
+	pos -49923.1 -55922.9
 	government "Dels Dardornai"
 	habitable 486.68
 	belt 1008
+	link Deamulur
 	link Dukelgar
+	link Haperwagan
+	link Nerkondir
 	asteroids "small rock" 6 7.5487
 	asteroids "medium rock" 11 4.5733
 	asteroids "large rock" 2 5.5651
@@ -61554,6 +61713,7 @@ system Nerkondir
 	belt 1330
 	link Haperwagan
 	link Miscorvel
+	link Mukkaedu
 	asteroids "small rock" 29 5.346
 	asteroids "medium rock" 4 6.7554
 	asteroids "large rock" 23 2.8674
@@ -69424,10 +69584,11 @@ system Qidove
 			period 14.8275
 
 system Qortuan
-	pos -49675.3 -54695.6
+	pos -49777 -54581.2
 	government Revos
 	habitable 320
 	belt 1320
+	link Soeku
 	link Yorta
 	asteroids "small rock" 1 9.6174
 	asteroids "medium rock" 7 9.6876
@@ -73670,7 +73831,7 @@ system "Ruu ei"
 			period 24.0584
 
 system S1-1
-	pos -49390.6 -54046.8
+	pos -48002.7 -53045
 	government Donko
 	habitable 425.92
 	link S1-2
@@ -73725,7 +73886,7 @@ system S1-1
 			period 52.5187
 
 system S1-2
-	pos -49307.2 -54028.7
+	pos -47896 -53051.3
 	government Donko
 	habitable 4087.76
 	link S1-1
@@ -73773,7 +73934,7 @@ system S1-2
 		period 737.458
 
 system S1-3
-	pos -49280.5 -53944.1
+	pos -47815.1 -53000.1
 	government Donko
 	habitable 486.68
 	link S1-2
@@ -73814,7 +73975,7 @@ system S1-3
 			period 25.3475
 
 system S1-4
-	pos -49342.8 -53909.1
+	pos -47855 -52950.7
 	government Donko
 	habitable 1715
 	link S1-3
@@ -73859,7 +74020,7 @@ system S1-4
 			period 11.8208
 
 system S1-5
-	pos -49413.4 -53922
+	pos -47921.8 -52921.8
 	government Donko
 	habitable 1705
 	link S1-4
@@ -73906,7 +74067,7 @@ system S1-5
 			period 30.6983
 
 system S1-6
-	pos -49452 -53976.6
+	pos -48000 -52976.6
 	government Donko
 	habitable 486.68
 	link S1-1
@@ -73944,13 +74105,12 @@ system S1-6
 		period 2116.33
 
 system S2-1
-	pos -49339.7 -54094.9
+	pos -47976 -53108
 	government Donko
 	habitable 1705
 	link S1-1
 	link S1-2
 	link S2-2
-	link S3-1
 	asteroids "small rock" 2 4.1905
 	asteroids "medium rock" 5 4.3384
 	asteroids "large rock" 9 3.6975
@@ -74005,7 +74165,7 @@ system S2-1
 			period 35.2113
 
 system S2-2
-	pos -49260.7 -54070.2
+	pos -47862.9 -53098.8
 	government Donko
 	habitable 1566.68
 	link S1-2
@@ -74067,7 +74227,7 @@ system S2-2
 			period 17.6079
 
 system S2-3
-	pos -49214.7 -53996.5
+	pos -47767.8 -53038
 	government Donko
 	habitable 1715
 	link S1-2
@@ -74120,10 +74280,9 @@ system S2-3
 			period 91.0828
 
 system S3-1
-	pos -49360.6 -54177.6
+	pos -48152.4 -53231.4
 	government Donko
 	habitable 1080
-	link S2-1
 	link S4-1
 	link S4-2
 	link S4-7
@@ -74163,7 +74322,7 @@ system S3-1
 		period 1155.06
 
 system S3-2
-	pos -49213.2 -54136.1
+	pos -47873.4 -53203.7
 	government Donko
 	habitable 425.92
 	link S2-2
@@ -74207,7 +74366,7 @@ system S3-2
 			period 20.281
 
 system S3-3
-	pos -49176.2 -54078.8
+	pos -47764.1 -53178.6
 	government Donko
 	habitable 1566.68
 	belt 1084
@@ -74270,7 +74429,7 @@ system S3-3
 			period 21.2393
 
 system S3-4
-	pos -49139.4 -54040
+	pos -47694.8 -53080.5
 	government Donko
 	habitable 1715
 	belt 1619
@@ -74318,7 +74477,7 @@ system S3-4
 		period 1256.99
 
 system S4-1
-	pos -49352.8 -54263.6
+	pos -48165.9 -53337
 	government Donko
 	habitable 625
 	link "Dorai Nowoku"
@@ -74361,7 +74520,7 @@ system S4-1
 			period 34.6848
 
 system S4-2
-	pos -49295.7 -54247.4
+	pos -48094.7 -53292.7
 	government Donko
 	habitable 625
 	link S3-1
@@ -74410,7 +74569,7 @@ system S4-2
 			period 20.4812
 
 system S4-3
-	pos -49128.1 -54186.9
+	pos -47811.8 -53267.6
 	government Donko
 	habitable 1080
 	link S3-2
@@ -74455,7 +74614,7 @@ system S4-3
 			period 27.2812
 
 system S4-4
-	pos -49095.4 -54124.9
+	pos -47713.1 -53228.1
 	government Donko
 	habitable 1715
 	link S3-3
@@ -74489,7 +74648,7 @@ system S4-4
 		period 1030.03
 
 system S4-5
-	pos -49086.1 -54044.8
+	pos -47692.1 -53162.8
 	government Donko
 	habitable 5000
 	link S3-4
@@ -74537,8 +74696,8 @@ system S4-5
 			period 15.4972
 
 system S4-6
-	pos -49120.4 -53954
-	government Ultaka
+	pos -47624.4 -53190.7
+	government Donko
 	habitable 233.28
 	belt 1333
 	link "Irshall Mer"
@@ -74589,7 +74748,7 @@ system S4-6
 			period 40.2312
 
 system S4-7
-	pos -49425.4 -54146.7
+	pos -48223.2 -53238.7
 	government Donko
 	habitable 425.92
 	link S3-1
@@ -74632,7 +74791,7 @@ system S4-7
 			period 57.269
 
 system S4-8
-	pos -49406.3 -54225.1
+	pos -48249.9 -53333.7
 	government Donko
 	habitable 973.36
 	link S3-1
@@ -74681,7 +74840,7 @@ system S4-8
 			period 14.6327
 
 system S5-1
-	pos -49250.7 -54278.6
+	pos -48034.1 -53324.4
 	government Donko
 	habitable 945
 	link S4-2
@@ -74727,7 +74886,7 @@ system S5-1
 			period 22.8505
 
 system S5-2
-	pos -49189.2 -54223.8
+	pos -47903.6 -53267.1
 	government Donko
 	habitable 425.92
 	belt 1060
@@ -74771,7 +74930,7 @@ system S5-2
 			period 15.4386
 
 system S5-3
-	pos -49128.2 -54256.8
+	pos -47888.9 -53318.7
 	government Donko
 	habitable 320
 	belt 1946
@@ -74839,7 +74998,7 @@ system S5-3
 			period 70.5043
 
 system S5-4
-	pos -49058.2 -54270.8
+	pos -47786.5 -53330.4
 	government Donko
 	habitable 1566.68
 	belt 1087
@@ -74888,7 +75047,7 @@ system S5-4
 			period 21.1246
 
 system S5-5
-	pos -49071.1 -54190.2
+	pos -47719.3 -53276.9
 	government Donko
 	habitable 233.28
 	link S4-3
@@ -74933,7 +75092,7 @@ system S5-5
 			period 39.7727
 
 system S5-6
-	pos -49453.3 -54087.9
+	pos -48332.3 -53174.9
 	government Donko
 	habitable 233.28
 	link S4-7
@@ -74970,7 +75129,7 @@ system S5-6
 		period 4368.5
 
 system S5-7
-	pos -49502.7 -54127
+	pos -48333.9 -53227.8
 	government Donko
 	habitable 486.68
 	link S4-7
@@ -75019,7 +75178,7 @@ system S5-7
 			period 28.0493
 
 system S5-8
-	pos -49476.7 -54171.3
+	pos -48302.3 -53299.7
 	government Donko
 	habitable 1215
 	belt 1002
@@ -75080,7 +75239,7 @@ system S5-8
 			period 52.1013
 
 system S5-9
-	pos -49423.1 -54270.4
+	pos -48233.8 -53444.7
 	government Donko
 	habitable 486.68
 	link S4-1
@@ -75120,7 +75279,7 @@ system S5-9
 			period 12.3397
 
 system S6-1
-	pos -49250.4 -54341
+	pos -47995 -53383.8
 	government Donko
 	habitable 945
 	belt 1396
@@ -75175,7 +75334,7 @@ system S6-1
 			period 23.831
 
 system S6-2
-	pos -49182.1 -54294.5
+	pos -47933.6 -53342.5
 	government Donko
 	habitable 425.92
 	link S5-2
@@ -75224,7 +75383,7 @@ system S6-2
 			period 50.433
 
 system S6-3
-	pos -49110.4 -54330
+	pos -47892 -53368.7
 	government Donko
 	habitable 625
 	belt 1447
@@ -75271,7 +75430,7 @@ system S6-3
 			period 13.8946
 
 system S6-4
-	pos -49075.2 -54361.8
+	pos -47840.6 -53379.7
 	government Donko
 	habitable 625
 	belt 1276
@@ -75333,7 +75492,7 @@ system S6-4
 			period 35.7289
 
 system S6-7
-	pos -49513.4 -53996
+	pos -48285.4 -53147.4
 	government Donko
 	habitable 945
 	belt 1259
@@ -75380,7 +75539,7 @@ system S6-7
 		period 1125.85
 
 system S6-8
-	pos -49595.1 -54122.4
+	pos -48400.7 -53204
 	government Donko
 	habitable 5360
 	link "Coai Mesoh'a"
@@ -75430,10 +75589,9 @@ system S6-8
 			period 16.2914
 
 system S6-9
-	pos -49552.1 -54191.4
+	pos -48391.8 -53268.3
 	government Donko
 	habitable 10355
-	link "Dakai Eor'en"
 	link S5-7
 	link S6-8
 	asteroids "small rock" 3 8.1648
@@ -76605,6 +76763,7 @@ system Shaporvah
 	habitable 1250
 	belt 1900
 	link Djamadre
+	link Kadukeeva
 	link Myanaha
 	asteroids "small rock" 15 1.8876
 	asteroids "medium rock" 18 2.1996
@@ -77424,12 +77583,13 @@ system Sodoranu
 			period 16.3726
 
 system Soeku
-	pos -49757.3 -54532.6
+	pos -49735.7 -54497
 	government Revos
 	habitable 425.92
 	belt 1231
 	link Eundo
 	link Kulor
+	link Qortuan
 	link Vuivor
 	asteroids "small rock" 2 2.2515
 	asteroids "medium rock" 112 1.9095
@@ -79607,9 +79767,7 @@ system "Trochzempt ZAZ-1"
 	fleet "Zis Heavy Patrol Fleet" 800
 	arrival 1500
 	object "Trochzempt ZAZ-1"
-		sprite planet/trochzempt
-		period 10
-		arrival 1500
+		sprite planet/trochzempt_construction
 
 system Tuarli
 	pos -50929.2 -55082.2
@@ -80668,6 +80826,7 @@ system Ukdelare
 	habitable 1313.28
 	belt 1168
 	link Dukelgar
+	link Kadukeeva
 	asteroids "medium rock" 6 10.212
 	asteroids "large rock" 1 8.97
 	asteroids "medium metal" 1 7.038
@@ -82007,7 +82166,7 @@ system Urkvulnar
 			period 38.313
 
 system Urkwaar
-	pos -49004.8 -54388.2
+	pos -47816.5 -53473.2
 	government Donko
 	habitable 486.68
 	link S6-4
@@ -86393,12 +86552,11 @@ system Vuikorel
 			period 91.6961
 
 system Vuivor
-	pos -49751.3 -54621.6
+	pos -49669 -54529.1
 	government Revos
 	habitable 2340
 	belt 1109
 	link Soeku
-	link Yorta
 	asteroids "small rock" 84 1.3338
 	asteroids "medium rock" 96 1.2844
 	asteroids "large rock" 30 3.3839
@@ -87388,7 +87546,7 @@ system Woggenlo
 		period 594.238
 
 system Worak
-	pos -49360.6 -53981.9
+	pos -47924.3 -53005.6
 	government Donko
 	habitable 233.28
 	link S1-1
@@ -87780,13 +87938,12 @@ system Yorsekager
 			period 35.6747
 
 system Yorta
-	pos -49768.3 -54696.6
+	pos -49810.3 -54640.7
 	government Revos
 	habitable 719.96
 	belt 1149
 	link Lena
 	link Qortuan
-	link Vuivor
 	asteroids "small rock" 10 1.4784
 	asteroids "medium rock" 3 2.592
 	asteroids "large rock" 35 1.1904
