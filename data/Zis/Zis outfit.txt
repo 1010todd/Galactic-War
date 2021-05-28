@@ -239,7 +239,7 @@ outfit "ZIS Anti-Missile System"
 #========================================Engines========================
 
 
-outfit "MPa20Sb-04 Engine" #Nitro-Type4
+outfit "MPa20Sb-04 Engines" #Nitro-Type4
 	category "Engines"
 	"cost" 2800000
 	thumbnail "outfit/tiny plasma engines"
@@ -260,7 +260,7 @@ outfit "MPa20Sb-04 Engine" #Nitro-Type4
 	"afterburner effect" "afterburner"
 	description ""
 	
-outfit "MPa20Gp-02 Engine" #M-10
+outfit "MPa20Gp-02 Engines" #M-10
 	category "Engines"
 	"cost" 6100000
 	thumbnail "outfit/tiny ion engines"
@@ -277,7 +277,7 @@ outfit "MPa20Gp-02 Engine" #M-10
 		"frame rate" 1.2
 	description ""
 
-outfit "MPa30Gp-02 Engine" #M-20
+outfit "MPa30Gp-02 Engines" #M-20
 	category "Engines"
 	"cost" 5000000
 	thumbnail "outfit/tiny ion engines"
@@ -294,7 +294,7 @@ outfit "MPa30Gp-02 Engine" #M-20
 		"frame rate" 1.1
 		
 		
-outfit "MPa60Gp-02 Engine" #M-80
+outfit "MPa60Gp-02 Engines" #M-80
 	category "Engines"
 	"cost" 8000000
 	thumbnail "outfit/huge ion engines"
@@ -312,6 +312,25 @@ outfit "MPa60Gp-02 Engine" #M-80
 	"reverse thrust" 70
 	"reverse thrusting energy" 12
 	"reverse thrusting heat" 20
+
+outfit "MPb12Gp-02 Engines" #M-80
+	category "Engines"
+	"cost" 8000000
+	thumbnail "outfit/huge ion engines"
+	"mass" 121
+	"outfit space" -121
+	"engine capacity" -121
+	"turn" 3300
+	"turning energy" 14
+	"turning heat" 0.4
+	"thrust" 160.0
+	"thrusting energy" 30
+	"thrusting heat" 0.4
+	"flare sprite" "effect/ion flare/huge"
+		"frame rate" .9
+	"reverse thrust" 140
+	"reverse thrusting energy" 20
+	"reverse thrusting heat" 37
 	
 
 outfit "Immel Cloaking System"
@@ -322,6 +341,7 @@ outfit "Immel Cloaking System"
 	"cloak" .9
 	"cloaking energy" 5
 	"cloaking heat" 10
+	description `Zis most advanced cloaking device in production.`
 		
 outfit "Zis Galactic Drive"
 	category "Systems"
@@ -331,11 +351,13 @@ outfit "Zis Galactic Drive"
 	"hyperdrive" 1
 	"jump speed" 6
 	"jump drive" 1
-	"jump range" 3100
+	"jump range" 300
 	"jump effect" "zis galactic drive"
 	"jump sound" "zis galactic drive"
 	"jump in sound" "zis galactic drive in"
 	"jump out sound" "zis galactic drive out"
+	description `ZIS Galactic drive allows their force to travel the galaxy independently with ease reducing months of travel to less than a day.`
+	description `However, due to safety reason the drives are being limited to certain range for the time.`
 	
 effect "zis galactic drive"
 	sprite "effect/zis galactic drive"
