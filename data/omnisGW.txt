@@ -2827,7 +2827,7 @@ system Zis
 		sprite "ship/ermhindersan"
 		distance 1500
 		offset 40
-	object "ZIS razor"
+	object "ZIS Razor"
 		sprite "ship/zis razor"
 		distance 1450
 		offset 160
@@ -3042,7 +3042,7 @@ planet "GW Default"
 	outfitter "Kakaima Advanced"
 	bribe 0
 
-#===============================Dels Planets
+#===============================Planets
 
 planet "Dels"
 	landscape "landscape/station6"
@@ -3050,6 +3050,73 @@ planet "Dels"
 	spaceport ``
 	shipyard "Dels Advanced"
 	shipyard "Dels Pirate"
+	outfitter "Dels Advanced"
+
+planet "Donko"
+	landscape "landscape/station6"
+	description ``
+	spaceport ``
+	shipyard "Donko Advanced"
+	outfitter "Donko Advanced"
+
+planet "Erader"
+	landscape "landscape/station6"
+	description `(This Fraction is WIP)`
+	spaceport ``
+
+planet "Geeva"
+	landscape "landscape/station6"
+	description ``
+	spaceport ``
+	shipyard "Geeva Basic"
+	shipyard "Geeva Advanced"
+	outfitter "Geeva Advanced"
+
+planet "Ignaggen"
+	landscape "landscape/station6"
+	description ``
+	spaceport ``
+	shipyard "Ignaggen Basic"
+	shipyard "Ignaggen Small"
+	shipyard "Ignaggen Advanced"
+	shipyard "Ignaggen Large"
+	shipyard "Ignaggen Military"
+	outfitter "Ignaggen Basic"
+	outfitter "Ignaggen Advanced"
+
+planet "Kroom"
+	landscape "landscape/station6"
+	description ``
+	spaceport ``
+	shipyard "Kakaima Basic"
+	shipyard "Kakaima Advanced"
+	shipyard "Kanai Basic"
+	shipyard "Kanai Advanced"
+	outfitter "Kroom Basic"
+	outfitter "Kroom Advanced"
+	outfitter "Kanai Basic"
+	outfitter "Kakaima Basic"
+	outfitter "Kakaima Advanced"
+
+planet "Kumakk"
+	landscape "landscape/station6"
+	description `(This Fraction is WIP)`
+	spaceport ``
+
+planet "Wallagi"
+	landscape "landscape/station6"
+	description ``
+	spaceport ``
+	shipyard "Wallagi"
+	outfitter "Wallagi"
+
+planet "ZIS"
+	landscape "landscape/station6"
+	description ``
+	spaceport ``
+	shipyard "ZIS Old"
+	shipyard "ZIS Advanced"
+	outfitter "ZIS Advanced"
 
 
 #===============================Tribute+Fleets 
