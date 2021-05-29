@@ -7,6 +7,225 @@ galaxy "GW Galaxy 2"
 	pos -38922 -62394.1
 	sprite ui/galaxy1
 
+system ,*D@bdcH$&4*4
+	pos -50798.8 -56276.2
+	habitable 233.28
+	belt 1352
+	asteroids "small rock" 2 3.2568
+	asteroids "medium rock" 13 2.07
+	asteroids "large rock" 6 3.7536
+	asteroids "small metal" 2 1.9044
+	asteroids "medium metal" 16 2.1528
+	asteroids "large metal" 2 2.484
+	minables tungsten 4 4.71647
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/io
+		distance 104.04
+		period 27.7921
+	object
+		sprite planet/venus
+		distance 470.8
+		period 267.532
+		object
+			sprite planet/dust1
+			distance 181
+			period 27.7867
+	object
+		sprite planet/callisto
+		distance 1086.64
+		period 938.101
+	object
+		sprite planet/jupiter
+		distance 2273.53
+		period 2839.04
+		object
+			sprite planet/dust0
+			distance 261
+			period 13.2502
+
+system 09*HVB%13FfG4$
+	pos -50923.7 -56188.9
+	habitable 425.92
+	belt 1068
+	asteroids "large rock" 1 7.83
+	asteroids "medium metal" 13 2.61
+	asteroids "large metal" 3 2.6622
+	minables iron 4 4.63229
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/mars
+		distance 171.04
+		period 43.3553
+	object
+		sprite planet/desert3
+		distance 662.88
+		period 330.787
+		object
+			sprite planet/dust1
+			distance 179
+			period 24.952
+	object
+		sprite planet/fog0
+		distance 1063.92
+		period 672.604
+	object
+		sprite planet/gas14
+		distance 1935.92
+		period 1650.92
+		object
+			sprite planet/ice8
+			distance 243
+			period 15.4265
+		object
+			sprite planet/rock14
+			distance 369
+			period 28.8668
+		object
+			sprite planet/dust5
+			distance 501
+			period 45.6683
+		object
+			sprite planet/desert4
+			distance 633
+			period 64.8581
+
+system 0Ol<@dAvR$u341m
+	pos -50787.8 -56210.2
+	habitable 425.92
+	belt 1326
+	asteroids "small rock" 2 2.4244
+	asteroids "medium rock" 21 1.7226
+	asteroids "large rock" 10 3.828
+	asteroids "medium metal" 3 1.6907
+	asteroids "large metal" 1 2.0735
+	minables copper 2 3.86217
+	minables lead 2 3.36684
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/cloud2
+		distance 267.16
+		period 84.6356
+		object
+			sprite planet/dust4
+			distance 153
+			period 15.2233
+	object
+		sprite planet/gas17
+		distance 1114.41
+		period 721.047
+		object
+			sprite planet/oberon
+			distance 200
+			period 12.0842
+		object
+			sprite planet/dust1
+			distance 343
+			period 27.1403
+		object
+			sprite planet/miranda
+			distance 456
+			period 41.6026
+		object
+			sprite planet/ice0
+			distance 545
+			period 54.3586
+	object
+		sprite planet/gas3
+		distance 2093.42
+		period 1856.44
+		object
+			sprite planet/io
+			distance 311
+			period 14.0089
+
+system =P3n0R#daE
+	pos -49980.2 -56041.6
+	government Uninhabited
+	habitable 2201.68
+	belt 1178
+	asteroids "small rock" 24 3.036
+	asteroids "medium rock" 6 5.0715
+	asteroids "large rock" 2 4.83
+	asteroids "medium metal" 2 2.2425
+	asteroids "large metal" 15 3.8295
+	minables lead 10 4.06151
+	trade Clothing 326
+	trade Electronics 662
+	trade Equipment 426
+	trade Food 254
+	trade "Heavy Metals" 889
+	trade Industrial 646
+	trade "Luxury Goods" 1060
+	trade Medical 767
+	trade Metal 362
+	trade Plastic 473
+	object
+		sprite star/f5
+		distance 27.6312
+		period 11.9137
+		offset 180
+	object
+		sprite star/k0
+		distance 97.3688
+		period 11.9137
+	object
+		sprite planet/dust2
+		distance 235.809
+		period 30.869
+	object
+		sprite planet/rock3
+		distance 477.849
+		period 89.0469
+	object
+		sprite planet/lava1
+		distance 1050.49
+		period 290.249
+	object
+		sprite planet/water0
+		distance 1210.13
+		period 358.864
+	object
+		sprite planet/gas15
+		distance 3074.22
+		period 1453.07
+
 system Abartae
 	pos -49595.1 -56414.9
 	government "Erader Narpul"
@@ -1320,6 +1539,1074 @@ system Akogi
 			sprite planet/dust5
 			distance 165
 			period 17.8378
+
+system "Aku 3328"
+	pos -48135.1 -52940.6
+	government Donko
+	habitable 1566.68
+	belt 1084
+	link Aku-2263
+	link Aku-3882
+	link Aku-4682
+	asteroids "large rock" 1 4.488
+	asteroids "small metal" 2 3.234
+	asteroids "medium metal" 61 4.62
+	asteroids "large metal" 2 3.531
+	minables aluminum 3 5.92862
+	minables copper 7 7.1098
+	minables iron 3 6.61007
+	object
+		sprite star/g0
+		distance 29.5112
+		period 9.3574
+		offset 180
+	object
+		sprite star/k0
+		distance 65.4888
+		period 9.3574
+	object
+		sprite planet/ice6
+		distance 238.489
+		period 37.2196
+	object
+		sprite planet/lava6
+		distance 447.579
+		period 95.6917
+	object
+		sprite planet/gas16
+		distance 1097.74
+		period 367.552
+		object
+			sprite planet/rock3
+			distance 215
+			period 16.5941
+		object
+			sprite planet/ice7
+			distance 343
+			period 33.4379
+		object
+			sprite planet/tethys
+			distance 516
+			period 61.6981
+	object
+		sprite planet/gas4
+		distance 2854.98
+		period 1541.61
+		object
+			sprite planet/rock7
+			distance 250
+			period 13.9414
+		object
+			sprite planet/ice8
+			distance 331
+			period 21.2393
+
+system Aku-1000
+	pos -48368.5 -52792.9
+	government Donko
+	habitable 1715
+	belt 1055
+	link Aku-1264
+	link Aku-1452
+	link Aku-973
+	asteroids "small rock" 7 4.9392
+	asteroids "medium rock" 62 8.7612
+	asteroids "large rock" 2 6.8796
+	asteroids "medium metal" 19 3.6456
+	asteroids "large metal" 1 3.8808
+	minables copper 1 14.5279
+	minables gold 3 11.3725
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/f5
+		period 10
+	object
+		sprite planet/ice3
+		distance 192.64
+		period 25.8254
+	object
+		sprite planet/ice1
+		distance 617.33
+		period 148.151
+	object
+		sprite planet/gas10
+		distance 904.58
+		period 262.784
+	object
+		sprite planet/gas17
+		distance 1845.94
+		period 766.045
+		object
+			sprite planet/oberon
+			distance 215
+			period 13.4689
+		object
+			sprite planet/europa
+			distance 350
+			period 27.9753
+
+system Aku-122
+	pos -48197.1 -52813.1
+	government Donko
+	habitable 486.68
+	link Aku-1823
+	link Aku-2263
+	link Aku-234
+	link Aku-322
+	link Aku-5
+	link Worak
+	asteroids "medium rock" 8 3.696
+	asteroids "large rock" 7 3.486
+	asteroids "small metal" 3 5.208
+	asteroids "medium metal" 7 5.208
+	asteroids "large metal" 3 6.3
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/desert5
+		distance 212.76
+		period 56.2695
+	object
+		sprite planet/ice8
+		distance 420.2
+		period 156.179
+	object
+		sprite planet/cloud1
+		distance 656.2
+		period 304.784
+	object
+		sprite planet/gas13
+		distance 1936.84
+		period 1545.54
+		object
+			sprite planet/rock0
+			distance 293
+			period 14.1583
+		object
+			sprite planet/miranda
+			distance 432
+			period 25.3475
+
+system Aku-1264
+	pos -48332.7 -52816
+	government Donko
+	habitable 425.92
+	link Aku-1000
+	link Aku-1442
+	link Aku-1452
+	link Aku-973
+	link Worak
+	asteroids "small rock" 22 4.3092
+	asteroids "medium rock" 45 4.3605
+	asteroids "large rock" 15 3.5397
+	asteroids "small metal" 11 6.0021
+	asteroids "medium metal" 253 3.0267
+	asteroids "large metal" 15 7.182
+	fleet "Revos small" 20000
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/lava7
+		distance 226.09
+		period 65.8898
+	object
+		sprite planet/ocean3
+		distance 417.34
+		period 165.246
+	object
+		sprite planet/rock3
+		distance 741.59
+		period 391.419
+	object
+		sprite planet/gas2
+		distance 1107.59
+		period 714.438
+		object
+			sprite planet/ice0
+			distance 206
+			period 17.9149
+	object
+		sprite planet/gas8
+		distance 2692.48
+		period 2707.85
+		object
+			sprite planet/luna
+			distance 219
+			period 17.2521
+		object
+			sprite planet/dust0
+			distance 321
+			period 30.615
+		object
+			sprite planet/europa
+			distance 460
+			period 52.5187
+
+system Aku-1442
+	pos -48323.4 -52864.7
+	government Donko
+	habitable 625
+	belt 1581
+	link Aku-1264
+	link Aku-1452
+	link Aku-1523
+	link Aku-1894
+	link Worak
+	asteroids "medium rock" 3 9.702
+	asteroids "large rock" 11 7.92
+	asteroids "large metal" 1 8.778
+	minables iron 6 10.3587
+	minables uranium 3 11.242
+	trade Clothing 320
+	trade Electronics 720
+	trade Equipment 590
+	trade Food 230
+	trade "Heavy Metals" 1330
+	trade Industrial 790
+	trade "Luxury Goods" 890
+	trade Medical 800
+	trade Metal 480
+	trade Plastic 460
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/desert2
+		distance 163.84
+		period 33.5544
+	object
+		sprite planet/lava0
+		distance 553.09
+		period 208.12
+	object
+		sprite planet/rock14
+		distance 820.3
+		period 375.906
+	object
+		sprite planet/gas1
+		distance 1382.39
+		period 822.367
+		object
+			sprite planet/rock0
+			distance 237
+			period 14.5827
+		object
+			sprite planet/europa
+			distance 329
+			period 23.8512
+	object
+		sprite planet/gas3
+		distance 2315.75
+		period 1783.03
+		object
+			sprite planet/tethys
+			distance 258
+			period 10.5851
+		object
+			sprite planet/dust7
+			distance 374
+			period 18.4745
+		object
+			sprite planet/miranda
+			distance 459
+			period 25.1179
+
+system Aku-1452
+	pos -48387.4 -52849.7
+	government Donko
+	habitable 486.68
+	belt 1769
+	link Aku-1000
+	link Aku-1264
+	link Aku-1442
+	link Aku-1523
+	link Aku-2359
+	asteroids "small rock" 57 6.71
+	asteroids "medium rock" 10 2.915
+	asteroids "large rock" 17 3.135
+	asteroids "small metal" 12 4.565
+	asteroids "medium metal" 126 8.195
+	asteroids "large metal" 19 4.785
+	minables copper 1 12.6818
+	minables lead 2 10.2068
+	minables silver 8 9.10226
+	trade Clothing 320
+	trade Electronics 720
+	trade Equipment 590
+	trade Food 230
+	trade "Heavy Metals" 1330
+	trade Industrial 790
+	trade "Luxury Goods" 890
+	trade Medical 800
+	trade Metal 480
+	trade Plastic 460
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/desert7
+		distance 163.01
+		period 37.7363
+	object
+		sprite planet/ocean7
+		distance 520.85
+		period 215.53
+		object
+			sprite planet/europa
+			distance 161
+			period 22.4632
+	object
+		sprite planet/cloud1
+		distance 878.06
+		period 471.764
+	object
+		sprite planet/gas9
+		distance 2376.82
+		period 2101.03
+		object
+			sprite planet/rock14
+			distance 253
+			period 15.0894
+
+system Aku-1523
+	pos -48354.4 -52910.7
+	government Donko
+	habitable 8873.28
+	belt 1178
+	link Aku-1442
+	link Aku-1452
+	link Aku-1894
+	link Aku-2359
+	link Aku-3242
+	asteroids "small rock" 6 2.1216
+	asteroids "medium rock" 82 3.4
+	asteroids "large rock" 90 2.176
+	asteroids "small metal" 21 3.4
+	asteroids "medium metal" 106 3.128
+	asteroids "large metal" 2 2.9648
+	minables lead 48 4.02882
+	minables silver 38 5.58488
+	trade Clothing 320
+	trade Electronics 720
+	trade Equipment 590
+	trade Food 230
+	trade "Heavy Metals" 1330
+	trade Industrial 790
+	trade "Luxury Goods" 890
+	trade Medical 800
+	trade Metal 480
+	trade Plastic 460
+	object
+		sprite star/b5
+		distance 4.0224
+		period 8.03628
+	object
+		sprite star/m4
+		distance 148.978
+		period 8.03628
+		offset 180
+	object
+		sprite planet/rock8
+		distance 306.978
+		period 22.839
+	object
+		sprite planet/rock11
+		distance 633.228
+		period 67.664
+	object
+		sprite planet/desert3
+		distance 1264.23
+		period 190.878
+	object
+		sprite planet/gas8
+		distance 1542.47
+		period 257.242
+	object
+		sprite planet/gas0
+		distance 1937.91
+		period 362.258
+
+system Aku-1823
+	pos -48229 -52870.3
+	government Donko
+	habitable 4087.76
+	link Aku-122
+	link Aku-1894
+	link Aku-2263
+	link Aku-3882
+	link Worak
+	asteroids "small rock" 15 1.82
+	asteroids "medium rock" 6 4.165
+	asteroids "large rock" 4 3.325
+	asteroids "small metal" 1 2.17
+	asteroids "medium metal" 47 3.535
+	asteroids "large metal" 12 3.08
+	minables Nurbote 12 3.1
+	fleet "Revos small" 20000
+	object
+		sprite star/f0
+		distance 52.4431
+		period 8.74344
+	object
+		sprite star/f5
+		distance 72.5569
+		period 8.74344
+		offset 180
+	object
+		sprite planet/ice1
+		distance 256.247
+		period 25.6629
+	object
+		sprite planet/cloud3
+		distance 656.857
+		period 105.323
+	object
+		sprite planet/gas6
+		distance 1103.07
+		period 229.203
+		object
+			sprite planet/dust7
+			distance 276
+			period 11.7119
+	object
+		sprite planet/uranus
+		distance 2404.07
+		period 737.458
+
+system Aku-1894
+	pos -48281.4 -52895.7
+	government Donko
+	habitable 625
+	belt 1994
+	link Aku-1442
+	link Aku-1523
+	link Aku-1823
+	link Aku-3242
+	link Worak
+	asteroids "small rock" 3 2.5696
+	asteroids "large rock" 26 0.8976
+	asteroids "medium metal" 6 1.8128
+	asteroids "large metal" 8 1.0384
+	minables lead 3 1.18567
+	minables neodymium 6 1.32118
+	minables silicon 2 1.43682
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/desert9
+		distance 169.09
+		period 35.1801
+	object
+		sprite planet/rock6
+		distance 360.58
+		period 109.553
+	object
+		sprite planet/gas13
+		distance 1251.79
+		period 708.626
+		object
+			sprite planet/ice8
+			distance 284
+			period 13.511
+	object
+		sprite planet/gas0
+		distance 2182.88
+		period 1631.79
+		object
+			sprite planet/oberon
+			distance 284
+			period 14.026
+		object
+			sprite planet/luna
+			distance 416
+			period 24.8655
+
+system Aku-2263
+	pos -48163.9 -52844.8
+	government Donko
+	habitable 1566.68
+	link "Aku 3328"
+	link Aku-122
+	link Aku-1823
+	link Aku-3882
+	asteroids "small rock" 4 3.7296
+	asteroids "medium rock" 23 6.3
+	asteroids "large rock" 11 6.1488
+	asteroids "small metal" 6 2.7216
+	asteroids "medium metal" 3 4.536
+	asteroids "large metal" 2 2.772
+	fleet "Ultaka Patrol" 1000
+	object
+		sprite star/g0
+		distance 34.1709
+		period 11.6589
+		offset 180
+	object
+		sprite star/k0
+		distance 75.8291
+		period 11.6589
+	object
+		sprite planet/gas0
+		distance 458.829
+		period 99.3222
+		object
+			sprite planet/europa
+			distance 243
+			period 11.1011
+	object
+		sprite planet/lava7
+		distance 854.389
+		period 252.379
+	object
+		sprite planet/gas10
+		distance 1487.48
+		period 579.757
+		object
+			sprite planet/miranda
+			distance 212
+			period 16.248
+		object
+			sprite planet/ice8
+			distance 350
+			period 34.4667
+		object
+			sprite planet/dust0
+			distance 473
+			period 54.1488
+	object
+		sprite planet/gas8
+		distance 2309.73
+		period 1121.79
+		object
+			sprite planet/dust3
+			distance 222
+			period 17.6079
+
+system Aku-234
+	pos -48217 -52758
+	government Donko
+	habitable 1705
+	link Aku-122
+	link Aku-322
+	link Aku-5
+	asteroids "small rock" 2 4.1905
+	asteroids "medium rock" 5 4.3384
+	asteroids "large rock" 9 3.6975
+	asteroids "small metal" 10 2.9087
+	asteroids "medium metal" 44 3.7961
+	asteroids "large metal" 19 3.8947
+	object
+		sprite star/g0
+		distance 34.824
+		period 8.96981
+		offset 180
+	object
+		sprite star/g5
+		distance 60.176
+		period 8.96981
+	object
+		sprite planet/desert7
+		distance 200.616
+		period 27.5262
+	object
+		sprite planet/ganymede
+		distance 442.306
+		period 90.1119
+	object
+		sprite planet/desert4
+		distance 894.146
+		period 259.006
+	object
+		sprite planet/water1
+		distance 1427.31
+		period 522.364
+		object
+			sprite planet/ice7
+			distance 166
+			period 18.5656
+	object
+		sprite planet/gas7
+		distance 2189.12
+		period 992.204
+		object
+			sprite planet/rock3
+			distance 245
+			period 13.642
+		object
+			sprite planet/rhea
+			distance 353
+			period 23.5935
+		object
+			sprite planet/dust3
+			distance 461
+			period 35.2113
+
+system Aku-2359
+	pos -48430.1 -52924.2
+	government Donko
+	habitable 320
+	belt 1576
+	link Aku-1452
+	link Aku-1523
+	link Mke-43
+	asteroids "medium rock" 14 4.4
+	asteroids "large rock" 1 3.52
+	asteroids "small metal" 2 6.105
+	asteroids "medium metal" 6 8.085
+	asteroids "large metal" 2 5.94
+	minables lead 2 6.41224
+	minables titanium 1 9.64591
+	minables tungsten 2 9.82219
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/cloud6
+		distance 156.49
+		period 43.7739
+	object
+		sprite planet/lava7
+		distance 357.78
+		period 151.324
+	object
+		sprite planet/rock3
+		distance 757.59
+		period 466.269
+	object
+		sprite planet/gas7
+		distance 2373.23
+		period 2585.2
+		object
+			sprite planet/dust5
+			distance 239
+			period 13.144
+		object
+			sprite planet/lava0
+			distance 352
+			period 23.4933
+		object
+			sprite planet/callisto
+			distance 533
+			period 43.7745
+
+system Aku-322
+	pos -48163.8 -52775
+	government Donko
+	habitable 1715
+	link Aku-122
+	link Aku-234
+	link Aku-5
+	asteroids "large rock" 1 3.276
+	asteroids "small metal" 1 3.094
+	asteroids "medium metal" 3 3.198
+	asteroids "large metal" 2 3.432
+	object
+		sprite star/f5
+		period 10
+	object
+		sprite planet/dust6
+		distance 174.49
+		period 22.263
+	object
+		sprite planet/cloud3
+		distance 459.53
+		period 95.1478
+	object
+		sprite planet/desert0
+		distance 739.22
+		period 194.128
+		object
+			sprite planet/tethys
+			distance 118
+			period 16.1133
+	object
+		sprite planet/gas15
+		distance 2425.22
+		period 1153.6
+		object
+			sprite planet/rhea
+			distance 212
+			period 16.248
+		object
+			sprite planet/rock17
+			distance 339
+			period 32.8546
+		object
+			sprite planet/callisto
+			distance 498
+			period 58.498
+		object
+			sprite planet/dust7
+			distance 669
+			period 91.0828
+
+system Aku-3242
+	pos -48299.4 -52931.7
+	government Donko
+	habitable 233.28
+	belt 1149
+	link Aku-1523
+	link Aku-1894
+	link Aku-3882
+	link Aku-9734
+	asteroids "small rock" 1 3.7752
+	asteroids "large rock" 1 1.4872
+	asteroids "small metal" 2 3.718
+	asteroids "medium metal" 1 4.0326
+	asteroids "large metal" 6 1.8876
+	minables silicon 2 3.23161
+	minables uranium 2 4.36918
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/mercury
+		distance 131.24
+		period 39.375
+	object
+		sprite planet/gas10
+		distance 743.08
+		period 530.487
+		object
+			sprite planet/ice7
+			distance 223
+			period 17.5289
+		object
+			sprite planet/dust3
+			distance 323
+			period 30.5563
+	object
+		sprite planet/dust6
+		distance 1247.29
+		period 1153.65
+	object
+		sprite planet/rock1
+		distance 1502.18
+		period 1524.77
+	object
+		sprite planet/gas11
+		distance 4207.22
+		period 7146.84
+		object
+			sprite planet/dust0
+			distance 248
+			period 12.8812
+		object
+			sprite planet/rhea
+			distance 380
+			period 24.4317
+		object
+			sprite planet/dust7
+			distance 532
+			period 40.4711
+
+system Aku-3882
+	pos -48207.4 -52916.7
+	government Donko
+	habitable 425.92
+	link "Aku 3328"
+	link Aku-1823
+	link Aku-2263
+	link Aku-3242
+	link Aku-9734
+	asteroids "small rock" 2 5.8995
+	asteroids "medium rock" 6 3.2338
+	asteroids "large rock" 1 4.7633
+	asteroids "medium metal" 5 4.37
+	asteroids "large metal" 1 4.1078
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/desert9
+		distance 155.64
+		period 37.6338
+	object
+		sprite planet/dust4
+		distance 315.89
+		period 108.818
+	object
+		sprite planet/dust2
+		distance 575.53
+		period 267.607
+	object
+		sprite planet/cloud7
+		distance 750.14
+		period 398.208
+	object
+		sprite planet/gas3
+		distance 3312.15
+		period 3694.55
+		object
+			sprite planet/oberon
+			distance 281
+			period 12.0316
+		object
+			sprite planet/tethys
+			distance 398
+			period 20.281
+
+system Aku-4682
+	pos -48090.8 -52900.5
+	government Donko
+	habitable 1715
+	belt 1619
+	link "Aku 3328"
+	asteroids "small rock" 30 7.0956
+	asteroids "medium rock" 18 4.7628
+	asteroids "large rock" 31 3.7422
+	asteroids "small metal" 9 4.131
+	asteroids "medium metal" 29 3.5964
+	asteroids "large metal" 3 4.5198
+	minables neodymium 3 6.57935
+	minables silver 27 8.78671
+	object
+		sprite star/f5
+		period 10
+	object
+		sprite planet/mars
+		distance 271
+		period 43.0905
+		object
+			sprite planet/lava0
+			distance 138
+			period 21.6658
+	object
+		sprite planet/uranus
+		distance 963.36
+		period 288.809
+		object
+			sprite planet/europa
+			distance 218
+			period 13.7518
+	object
+		sprite planet/forest2
+		distance 1461.61
+		period 539.728
+		object
+			sprite planet/ice8
+			distance 162
+			period 19.718
+	object
+		sprite planet/dust0
+		distance 2568.05
+		period 1256.99
+
+system Aku-5
+	pos -48241 -52789.7
+	government Donko
+	habitable 1715
+	link Aku-122
+	link Aku-234
+	link Aku-322
+	link Aku-862
+	link Worak
+	asteroids "small rock" 3 4.104
+	asteroids "medium rock" 25 2.088
+	asteroids "large rock" 3 5.4
+	asteroids "small metal" 2 3.78
+	asteroids "medium metal" 23 4.86
+	asteroids "large metal" 1 4.572
+	object
+		sprite star/f5
+		period 10
+	object
+		sprite planet/desert8
+		distance 241.81
+		period 36.3195
+	object
+		sprite planet/rock16
+		distance 471.62
+		period 98.9273
+	object
+		sprite planet/gas3
+		distance 1279.71
+		period 442.176
+		object
+			sprite planet/dust1
+			distance 284
+			period 12.2248
+		object
+			sprite planet/miranda
+			distance 420
+			period 21.9856
+	object
+		sprite planet/gas9
+		distance 2837.27
+		period 1459.75
+		object
+			sprite planet/desert4
+			distance 215
+			period 11.8208
+
+system Aku-862
+	pos -48281.8 -52729.8
+	government Donko
+	habitable 1705
+	link Aku-5
+	link Aku-973
+	asteroids "small rock" 11 2.548
+	asteroids "medium rock" 44 3.22
+	asteroids "large rock" 25 2.156
+	asteroids "small metal" 93 2.1
+	asteroids "medium metal" 18 3.472
+	asteroids "large metal" 5 3.752
+	object
+		sprite star/g0
+		distance 43.2551
+		period 12.4171
+		offset 180
+	object
+		sprite star/g5
+		distance 74.7449
+		period 12.4171
+	object
+		sprite planet/lava3
+		distance 224.635
+		period 32.6147
+	object
+		sprite planet/fog0
+		distance 504.925
+		period 109.91
+	object
+		sprite planet/rock16
+		distance 886.685
+		period 255.771
+	object
+		sprite planet/gas16
+		distance 2004.72
+		period 869.521
+		object
+			sprite planet/miranda
+			distance 179
+			period 12.606
+		object
+			sprite planet/luna
+			distance 324
+			period 30.6983
+
+system Aku-973
+	pos -48328 -52759.6
+	government Donko
+	habitable 486.68
+	link Aku-1000
+	link Aku-1264
+	link Aku-862
+	asteroids "small rock" 92 3.5235
+	asteroids "medium rock" 43 4.8285
+	asteroids "large rock" 17 4.4805
+	asteroids "small metal" 6 2.9145
+	asteroids "medium metal" 37 4.5675
+	asteroids "large metal" 1 6.2205
+	minables Nurbote 5 1.6
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/ice3
+		distance 172
+		period 40.9007
+	object
+		sprite planet/ocean1
+		distance 427.09
+		period 160.036
+	object
+		sprite planet/gas11
+		distance 1282.34
+		period 832.613
+		object
+			sprite planet/rhea
+			distance 255
+			period 13.4304
+	object
+		sprite planet/gas8
+		distance 2388.34
+		period 2116.33
+
+system Aku-9734
+	pos -48238.2 -52945.8
+	government Donko
+	habitable 486.68
+	belt 1777
+	link Aku-3242
+	link Aku-3882
+	asteroids "medium rock" 8 2.1109
+	asteroids "large rock" 4 1.1286
+	asteroids "medium metal" 4 1.7974
+	asteroids "large metal" 5 2.6961
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/ice3
+		distance 304.36
+		period 96.2763
+		object
+			sprite planet/lava0
+			distance 152
+			period 17.9207
+	object
+		sprite planet/gas6
+		distance 915.36
+		period 502.142
+	object
+		sprite planet/gas0
+		distance 1975.36
+		period 1591.87
+		object
+			sprite planet/rhea
+			distance 279
+			period 13.6572
+		object
+			sprite planet/rock14
+			distance 408
+			period 24.1517
+		object
+			sprite planet/dust3
+			distance 560
+			period 38.8364
 
 system Akuarnor
 	pos -49907.2 -56752
@@ -5417,885 +6704,6 @@ system Busirvek
 			period 22.2461
 			"Erader Darua"
 
-system C1-1
-	pos -48507.5 -53158
-	government Donko
-	habitable 2035
-	belt 1548
-	link C1-2
-	link C2-1
-	link "Coai Mesoh'a"
-	asteroids "medium rock" 19 5.712
-	asteroids "large rock" 1 4.872
-	asteroids "small metal" 8 10.5
-	asteroids "medium metal" 33 7.308
-	asteroids "large metal" 4 7.224
-	minables lead 12 13.3837
-	minables titanium 5 8.83859
-	object
-		sprite star/f5
-		distance 20.7568
-		period 13.4474
-	object
-		sprite star/m0
-		distance 111.243
-		period 13.4474
-		offset 180
-	object
-		sprite planet/rock12
-		distance 280.683
-		period 41.6968
-	object
-		sprite planet/gas17
-		distance 861.093
-		period 224.054
-		object
-			sprite planet/rock14
-			distance 253
-			period 17.1931
-	object
-		sprite planet/io
-		distance 1603.3
-		period 569.248
-	object
-		sprite planet/gas15
-		distance 2928.14
-		period 1404.97
-		object
-			sprite planet/callisto
-			distance 195
-			period 14.3334
-		object
-			sprite planet/desert4
-			distance 327
-			period 31.1257
-		object
-			sprite planet/dust3
-			distance 462
-			period 52.2709
-
-system C1-2
-	pos -48438.7 -53115.6
-	government Donko
-	habitable 625
-	belt 1954
-	link C1-1
-	link C2-2
-	link C2-3
-	link C2-4
-	link "Coai Mesoh'a"
-	asteroids "small rock" 74 2.7761
-	asteroids "medium rock" 19 4.3401
-	asteroids "large rock" 86 5.0048
-	asteroids "medium metal" 1 2.4242
-	asteroids "large metal" 1 5.2785
-	minables iron 1 8.01819
-	object
-		sprite star/g5
-		period 10
-	object
-		sprite planet/desert9
-		distance 163.09
-		period 33.3243
-	object
-		sprite planet/rock19
-		distance 378.13
-		period 117.647
-	object
-		sprite planet/forest2
-		distance 849.34
-		period 396.043
-	object
-		sprite planet/gas17
-		distance 1916.55
-		period 1342.46
-		object
-			sprite planet/oberon
-			distance 230
-			period 14.9027
-		object
-			sprite planet/dust5
-			distance 349
-			period 27.8555
-		object
-			sprite planet/io
-			distance 524
-			period 51.2472
-		object
-			sprite planet/ice8
-			distance 697
-			period 78.6181
-
-system C2-1
-	pos -48551.7 -53093.8
-	government Donko
-	habitable 806.68
-	belt 1014
-	link C1-1
-	link C3-1
-	link C3-2
-	link C3-3
-	link C3-4
-	asteroids "small rock" 29 5.5062
-	asteroids "medium rock" 57 4.9266
-	asteroids "large rock" 4 3.0912
-	asteroids "small metal" 8 5.5062
-	asteroids "medium metal" 49 4.5885
-	asteroids "large metal" 10 5.5062
-	minables silver 12 9.02978
-	minables titanium 27 8.68838
-	object
-		sprite star/k0
-		distance 39.2721
-		period 13.8727
-	object
-		sprite star/m0
-		distance 59.7279
-		period 13.8727
-		offset 180
-	object
-		sprite planet/lava0
-		distance 226.728
-		period 48.0803
-	object
-		sprite planet/titan
-		distance 384.018
-		period 105.983
-	object
-		sprite planet/cloud3
-		distance 600.268
-		period 207.122
-	object
-		sprite planet/gas9
-		distance 1812.31
-		period 1086.57
-	object
-		sprite planet/gas8
-		distance 4777.75
-		period 4650.98
-		object
-			sprite planet/callisto
-			distance 195
-			period 14.4954
-		object
-			sprite planet/dust5
-			distance 319
-			period 30.3293
-
-system C2-2
-	pos -48411 -53047.8
-	government Donko
-	habitable 320
-	belt 1593
-	link C1-2
-	link C2-3
-	asteroids "small rock" 4 2.431
-	asteroids "medium rock" 9 2.1216
-	asteroids "large rock" 3 2.3647
-	asteroids "large metal" 1 2.7846
-	minables iron 1 3.5055
-	minables titanium 1 4.16791
-	object
-		sprite star/m0
-		period 10
-	object
-		sprite planet/lava6
-		distance 165.69
-		period 47.6902
-	object
-		sprite planet/gas8
-		distance 643.94
-		period 365.387
-		object
-			sprite planet/miranda
-			distance 206
-			period 15.739
-		object
-			sprite planet/desert4
-			distance 327
-			period 31.4774
-	object
-		sprite planet/gas9
-		distance 1709.19
-		period 1580.05
-		object
-			sprite planet/ice0
-			distance 256
-			period 15.3586
-		object
-			sprite planet/dust7
-			distance 346
-			period 24.1326
-
-system C2-3
-	pos -48375.4 -53087
-	government Donko
-	habitable 945
-	belt 1253
-	link C1-2
-	link C2-2
-	link C2-4
-	link C3-5
-	asteroids "small rock" 2 2.73
-	asteroids "medium rock" 71 2.436
-	asteroids "large rock" 8 2.814
-	asteroids "small metal" 7 1.155
-	asteroids "medium metal" 175 1.848
-	asteroids "large metal" 10 2.856
-	minables lead 17 3.20351
-	minables titanium 37 2.48225
-	minables tungsten 37 3.83434
-	object
-		sprite star/g5
-		distance 33.8624
-		period 13.012
-		offset 180
-	object
-		sprite star/m0
-		distance 66.1376
-		period 13.012
-	object
-		sprite planet/dust1
-		distance 181.028
-		period 31.6928
-	object
-		sprite planet/desert4
-		distance 316.268
-		period 73.1857
-	object
-		sprite planet/rock4
-		distance 636.268
-		period 208.835
-	object
-		sprite planet/gas2
-		distance 1432.68
-		period 705.613
-		object
-			sprite planet/luna
-			distance 198
-			period 16.8816
-		object
-			sprite planet/dust4
-			distance 319
-			period 34.5224
-	object
-		sprite planet/gas11
-		distance 3283.32
-		period 2448.01
-		object
-			sprite planet/rock3
-			distance 269
-			period 14.5514
-		object
-			sprite planet/europa
-			distance 408
-			period 27.1812
-		object
-			sprite planet/dust0
-			distance 559
-			period 43.5909
-
-system C2-4
-	pos -48355.7 -53134.5
-	government Donko
-	habitable 425.92
-	belt 1687
-	link C1-2
-	link C2-3
-	link C3-5
-	asteroids "small rock" 30 3.78
-	asteroids "medium rock" 47 3.06
-	asteroids "large rock" 7 2.76
-	asteroids "small metal" 1 4.32
-	asteroids "medium metal" 5 3.81
-	asteroids "large metal" 1 2.82
-	minables iron 7 6.37729
-	minables silicon 2 4.60748
-	object
-		sprite star/k5
-		period 10
-	object
-		sprite planet/ice5
-		distance 189.16
-		period 50.4243
-	object
-		sprite planet/ice4
-		distance 414.41
-		period 163.509
-	object
-		sprite planet/lava6
-		distance 727.66
-		period 380.442
-	object
-		sprite planet/gas17
-		distance 1588.5
-		period 1227.09
-		object
-			sprite planet/ice0
-			distance 225
-			period 14.4194
-	object
-		sprite planet/gas3
-		distance 2263.66
-		period 2087.43
-		object
-			sprite planet/callisto
-			distance 295
-			period 12.9419
-
-system C3-1
-	pos -48602.1 -53075.8
-	government Donko
-	habitable 2372.76
-	belt 1697
-	link C2-1
-	link C3-2
-	link C4-1
-	link C4-2
-	asteroids "small rock" 47 4.125
-	asteroids "medium rock" 44 4.653
-	asteroids "large rock" 12 2.112
-	asteroids "small metal" 28 2.97
-	asteroids "medium metal" 119 4.818
-	asteroids "large metal" 3 3.432
-	minables copper 1 7.85512
-	minables tungsten 30 4.78119
-	object
-		sprite star/f0
-		period 10
-	object
-		sprite planet/titan
-		distance 167.01
-		period 17.7234
-	object
-		sprite planet/ice1
-		distance 406.45
-		period 67.289
-	object
-		sprite planet/rock1
-		distance 854.46
-		period 205.102
-	object
-		sprite planet/gas8
-		distance 1315.27
-		period 391.702
-		object
-			sprite planet/ice7
-			distance 202
-			period 15.2828
-	object
-		sprite planet/gas7
-		distance 2187.63
-		period 840.222
-		object
-			sprite planet/rhea
-			distance 243
-			period 13.4753
-		object
-			sprite planet/tethys
-			distance 338
-			period 22.1058
-
-system C3-2
-	pos -48639.4 -53013
-	government Donko
-	habitable 1080
-	belt 1408
-	link C2-1
-	link C3-1
-	link C3-3
-	link C4-2
-	asteroids "small rock" 1 3.0492
-	asteroids "large rock" 2 1.5477
-	asteroids "medium metal" 13 3.3264
-	asteroids "large metal" 3 1.4322
-	object
-		sprite star/g0
-		period 10
-	object
-		sprite planet/ice2
-		distance 239.64
-		period 45.153
-	object
-		sprite planet/lava4
-		distance 542.68
-		period 153.874
-	object
-		sprite planet/rock11
-		distance 808.17
-		period 279.642
-	object
-		sprite planet/rock18
-		distance 1076.21
-		period 429.728
-		object
-			sprite planet/io
-			distance 127
-			period 17.9915
-	object
-		sprite planet/desert2
-		distance 1549.77
-		period 742.59
-	object
-		sprite planet/gas2
-		distance 3975.46
-		period 3050.91
-		object
-			sprite planet/dust0
-			distance 197
-			period 16.7538
-		object
-			sprite planet/ice8
-			distance 289
-			period 29.7688
-		object
-			sprite planet/miranda
-			distance 454
-			period 58.6136
-		object
-			sprite planet/rhea
-			distance 546
-			period 77.3043
-
-system C3-3
-	pos -48604.6 -52977.7
-	government Donko
-	habitable 1111.68
-	belt 1051
-	link C2-1
-	link C3-2
-	link C3-4
-	link C4-3
-	asteroids "large metal" 1 5.265
-	object
-		sprite star/g5
-		distance 42.4654
-		period 11.4611
-	object
-		sprite star/k0
-		distance 54.5346
-		period 11.4611
-		offset 180
-	object
-		sprite planet/cloud7
-		distance 211.225
-		period 36.8287
-	object
-		sprite planet/rock4
-		distance 631.585
-		period 190.422
-	object
-		sprite planet/gas8
-		distance 1148.99
-		period 467.248
-		object
-			sprite planet/desert4
-			distance 212
-			period 16.4316
-		object
-			sprite planet/miranda
-			distance 333
-			period 32.3477
-	object
-		sprite planet/neptune
-		distance 1880.88
-		period 978.618
-
-system C3-4
-	pos -48485.8 -53041.9
-	government Donko
-	habitable 425.92
-	belt 1341
-	link C2-1
-	link C3-3
-	link C4-3
-	asteroids "small rock" 1 4.004
-	asteroids "large rock" 1 4.84
-	asteroids "small metal" 1 4.4
-	asteroids "medium metal" 17 5.94
-	asteroids "large metal" 11 4.268
-	minables copper 1 6.20772
-	minables titanium 2 8.71889
-	object
-		sprite star/k5
-		period 10
-	object
-		sprite planet/rock16
-		distance 163.25
-		period 40.4274
-	object
-		sprite planet/gas17
-		distance 634.25
-		period 309.59
-		object
-			sprite planet/dust5
-			distance 222
-			period 14.132
-	object
-		sprite planet/gas3
-		distance 1493.25
-		period 1118.39
-		object
-			sprite planet/ice0
-			distance 307
-			period 13.7395
-	object
-		sprite planet/gas9
-		distance 2624.5
-		period 2605.95
-		object
-			sprite planet/rock7
-			distance 252
-			period 15
-		object
-			sprite planet/dust1
-			distance 378
-			period 27.5568
-		object
-			sprite planet/ice8
-			distance 544
-			period 47.5761
-
-system C3-5
-	pos -48244.2 -52981.8
-	government Donko
-	habitable 486.68
-	belt 1777
-	link C2-3
-	link C2-4
-	asteroids "medium rock" 8 2.1109
-	asteroids "large rock" 4 1.1286
-	asteroids "medium metal" 4 1.7974
-	asteroids "large metal" 5 2.6961
-	object
-		sprite star/k0
-		period 10
-	object
-		sprite planet/ice3
-		distance 304.36
-		period 96.2763
-		object
-			sprite planet/lava0
-			distance 152
-			period 17.9207
-	object
-		sprite planet/gas6
-		distance 915.36
-		period 502.142
-	object
-		sprite planet/gas0
-		distance 1975.36
-		period 1591.87
-		object
-			sprite planet/rhea
-			distance 279
-			period 13.6572
-		object
-			sprite planet/rock14
-			distance 408
-			period 24.1517
-		object
-			sprite planet/dust3
-			distance 560
-			period 38.8364
-
-system C4-1
-	pos -48632.6 -53116.3
-	government Donko
-	habitable 320
-	belt 1035
-	link C3-1
-	link C4-2
-	link C5-1
-	asteroids "small rock" 4 2.3782
-	asteroids "medium rock" 65 1.7457
-	asteroids "large rock" 9 1.8216
-	asteroids "small metal" 30 2.3529
-	asteroids "medium metal" 143 1.9228
-	asteroids "large metal" 38 3.1878
-	minables lead 12 3.37633
-	minables uranium 6 3.66153
-	object
-		sprite star/m0
-		period 10
-	object
-		sprite planet/ice3
-		distance 198.44
-		period 62.507
-	object
-		sprite planet/lava1
-		distance 422.8
-		period 194.396
-	object
-		sprite planet/dust5
-		distance 1026.49
-		period 735.389
-	object
-		sprite planet/gas17
-		distance 1798.1
-		period 1704.93
-		object
-			sprite planet/luna
-			distance 222
-			period 14.132
-		object
-			sprite planet/rock7
-			distance 328
-			period 25.3796
-		object
-			sprite planet/dust1
-			distance 461
-			period 42.2887
-
-system C4-2
-	pos -48712.8 -53047.6
-	government Donko
-	habitable 2160
-	belt 1804
-	link C3-1
-	link C3-2
-	link C4-1
-	link C5-2
-	asteroids "medium rock" 45 2.958
-	asteroids "large rock" 3 3.91
-	asteroids "medium metal" 7 3.638
-	asteroids "large metal" 1 2.21
-	minables iron 12 3.89085
-	minables silicon 1 3.66905
-	object
-		sprite star/g0
-		distance 56.5
-		period 10.3383
-		offset 180
-	object
-		sprite star/g0
-		distance 56.5
-		period 10.3383
-	object
-		sprite planet/gas12
-		distance 914.5
-		period 238.017
-		object
-			sprite planet/ice7
-			distance 288
-			period 12.8373
-		object
-			sprite planet/rock3
-			distance 406
-			period 21.4869
-		object
-			sprite planet/luna
-			distance 550
-			period 33.8789
-		object
-			sprite planet/io
-			distance 693
-			period 47.9165
-	object
-		sprite planet/cloud0
-		distance 2095.66
-		period 825.685
-		object
-			sprite planet/dust4
-			distance 147
-			period 21.9639
-
-system C4-3
-	pos -48521.4 -52987.9
-	government Donko
-	habitable 3645
-	belt 1002
-	link C3-3
-	link C3-4
-	link C5-3
-	asteroids "medium rock" 10 3.618
-	asteroids "large rock" 2 3.429
-	asteroids "small metal" 72 1.566
-	asteroids "medium metal" 28 1.377
-	asteroids "large metal" 15 1.998
-	minables aluminum 14 2.15661
-	minables copper 11 2.99029
-	minables uranium 1 3.38947
-	object
-		sprite star/a5
-		period 10
-	object
-		sprite planet/cloud4
-		distance 189.24
-		period 17.2477
-	object
-		sprite planet/rock6
-		distance 677.65
-		period 116.874
-		object
-			sprite planet/ice8
-			distance 144
-			period 21.7223
-	object
-		sprite planet/gas5
-		distance 1392.14
-		period 344.14
-		object
-			sprite planet/rock17
-			distance 242
-			period 12.519
-		object
-			sprite planet/oberon
-			distance 369
-			period 23.5715
-	object
-		sprite planet/gas7
-		distance 2254.1
-		period 709.04
-		object
-			sprite planet/miranda
-			distance 260
-			period 14.9139
-		object
-			sprite planet/desert4
-			distance 341
-			period 22.4007
-
-system C5-1
-	pos -48634.3 -53189.7
-	government Donko
-	habitable 135
-	belt 1803
-	link C4-1
-	link C5-2
-	link "Dakai Eor'en"
-	asteroids "small rock" 7 1.7856
-	asteroids "medium rock" 7 2.2464
-	asteroids "large rock" 2 1.8144
-	asteroids "medium metal" 35 3.8304
-	asteroids "large metal" 10 2.0448
-	minables gold 3 5.36181
-	object
-		sprite star/m8
-		period 10
-	object
-		sprite planet/rock6
-		distance 179.69
-		period 82.9238
-	object
-		sprite planet/desert0
-		distance 400.85
-		period 276.29
-	object
-		sprite planet/desert8
-		distance 801.49
-		period 781.16
-	object
-		sprite planet/gas17
-		distance 2355.78
-		period 3936.36
-		object
-			sprite planet/desert4
-			distance 206
-			period 12.6321
-		object
-			sprite planet/tethys
-			distance 333
-			period 25.9621
-
-system C5-2
-	pos -48709.6 -53116.1
-	government Donko
-	habitable 945
-	belt 1947
-	link C4-2
-	link C5-1
-	asteroids "large metal" 1 1.272
-	object
-		sprite star/g5
-		distance 33.1852
-		period 12.6236
-		offset 180
-	object
-		sprite star/m0
-		distance 64.8148
-		period 12.6236
-	object
-		sprite planet/rock11
-		distance 203.505
-		period 37.7751
-	object
-		sprite planet/ice4
-		distance 509.715
-		period 149.739
-		object
-			sprite planet/desert4
-			distance 131
-			period 18.8482
-	object
-		sprite planet/ocean4
-		distance 828.965
-		period 310.562
-	object
-		sprite planet/gas5
-		distance 1315.25
-		period 620.667
-	object
-		sprite planet/gas6
-		distance 1905.86
-		period 1082.64
-
-system C5-3
-	pos -48522.1 -52885.2
-	government Donko
-	habitable 320
-	belt 1576
-	link C4-3
-	asteroids "medium rock" 14 4.4
-	asteroids "large rock" 1 3.52
-	asteroids "small metal" 2 6.105
-	asteroids "medium metal" 6 8.085
-	asteroids "large metal" 2 5.94
-	minables lead 2 6.41224
-	minables titanium 1 9.64591
-	minables tungsten 2 9.82219
-	trade Clothing 0
-	trade Electronics 0
-	trade Equipment 0
-	trade Food 0
-	trade "Heavy Metals" 0
-	trade Industrial 0
-	trade "Luxury Goods" 0
-	trade Medical 0
-	trade Metal 0
-	trade Plastic 0
-	object
-		sprite star/m0
-		period 10
-	object
-		sprite planet/cloud6
-		distance 156.49
-		period 43.7739
-	object
-		sprite planet/lava7
-		distance 357.78
-		period 151.324
-	object
-		sprite planet/rock3
-		distance 757.59
-		period 466.269
-	object
-		sprite planet/gas7
-		distance 2373.23
-		period 2585.2
-		object
-			sprite planet/dust5
-			distance 239
-			period 13.144
-		object
-			sprite planet/lava0
-			distance 352
-			period 23.4933
-		object
-			sprite planet/callisto
-			distance 533
-			period 43.7745
-
 system Calinavo
 	pos -52076.1 -56184.3
 	government Geeva
@@ -7079,9 +7487,9 @@ system "Coai Mesoh'a"
 	government Donko
 	habitable 1080
 	belt 1490
-	link C1-1
-	link C1-2
-	link S6-8
+	link Mak-234
+	link Mak-342
+	link Sa-244
 	asteroids "small rock" 3 2.088
 	asteroids "medium rock" 25 1.45
 	asteroids "large rock" 2 4.118
@@ -7884,887 +8292,467 @@ system "Cuzi no"
 		distance 2830.29
 		period 997.603
 
-system "D1 A"
-	pos -48143 -53464.5
+system Da-0831
+	pos -48539.3 -53358.7
 	government Donko
-	habitable 425.92
-	belt 1790
-	link "D2 A"
-	link "Dorai Nowoku"
-	asteroids "small rock" 3 9.3264
-	asteroids "medium rock" 9 8.352
-	asteroids "large rock" 2 6.3336
-	asteroids "small metal" 34 9.6744
-	asteroids "medium metal" 18 7.0296
-	asteroids "large metal" 55 5.2896
-	minables copper 2 9.54126
-	minables neodymium 10 14.0019
-	minables tungsten 28 10.6529
-	fleet "Donko small" 500
-	fleet "Donko Guard Small" 500
-	object
-		sprite star/k5
-		period 10
-	object
-		sprite planet/rock19
-		distance 183.69
-		period 48.253
-	object
-		sprite planet/rock15
-		distance 461.69
-		period 192.274
-	object "Losat 46:3"
-		sprite planet/ocean8
-		distance 725.1
-		period 378.436
-	object
-		sprite planet/gas12
-		distance 1534.19
-		period 1164.7
-		offset 52.8659
-		object "Ma'Losat Kosai 1"
-			sprite planet/rock7
-			distance 264
-			period 11.2665
-			offset 184.413
-		object "Komre 468:45"
-			sprite planet/station3
-			distance 395
-			period 20.6196
-			offset 223.749
-	object
-		sprite planet/gas17
-		distance 2518.63
-		period 2449.87
-		offset 31.2949
-		object
-			sprite planet/tethys
-			distance 216
-			period 13.5629
-		object
-			sprite planet/rock14
-			distance 333
-			period 25.9621
-
-system "D1 B2"
-	pos -48085.8 -53455.6
-	government Donko
-	habitable 320
-	belt 1298
-	link "D2 B"
-	link "Dorai Nowoku"
-	asteroids "small rock" 1 7.569
-	asteroids "medium rock" 12 5.133
-	asteroids "large rock" 3 8.874
-	asteroids "medium metal" 17 10.353
-	asteroids "large metal" 4 10.179
-	minables tungsten 1 14.9411
-	fleet "Donko small" 500
-	fleet "Donko Guard Small" 500
-	object
-		sprite star/m0
-		period 10
-	object "Losat 87:1"
-		sprite planet/rock16
-		distance 281.924
-		period 105.848
-		offset 349.59
-	object
-		sprite planet/gas5
-		distance 1032.41
-		period 741.764
-		offset 163.996
-		object
-			sprite planet/luna
-			distance 245
-			period 12.7525
-		object
-			sprite planet/io
-			distance 389
-			period 25.5136
-	object
-		sprite planet/venus
-		distance 1587.45
-		period 1414.28
-		offset 52.3795
-	object
-		sprite planet/gas7
-		distance 3027.34
-		period 3724.58
-		offset 9.86949
-		object
-			sprite planet/dust3
-			distance 268
-			period 15.6075
-
-system "D2 A"
-	pos -48161.1 -53523.3
-	government Donko
-	habitable 486.68
-	belt 1073
-	link "D1 A"
-	link "D2 B"
-	link "D3 A1"
-	link "D3 A2"
-	asteroids "large metal" 1 8.5176
-	fleet "Donko small" 500
-	fleet "Donko Guard Small" 450
-	object
-		sprite star/k0
-		period 10
-	object
-		sprite planet/rock19
-		distance 352.25
-		period 119.871
-		object
-			sprite planet/rock3
-			distance 152
-			period 25.045
-	object
-		sprite planet/gas5
-		distance 1138.54
-		period 696.563
-		object
-			sprite planet/oberon
-			distance 228
-			period 11.4485
-		object
-			sprite planet/dust0
-			distance 338
-			period 20.6644
-		object
-			sprite planet/rhea
-			distance 504.29
-			period 37.6589
-			offset 280.866
-	object "Losat 65:3"
-		sprite planet/ice3
-		distance 2096.83
-		period 1740.94
-		offset 1.32154
-		object
-			sprite planet/rock0
-			distance 144
-			period 16.5247
-		object "Komre 142:20"
-			sprite planet/station5
-			distance 306
-			period 51.1885
-
-system "D2 B"
-	pos -48072.1 -53527.5
-	government Donko
-	habitable 1080
-	belt 1505
-	link "D1 B2"
-	link "D2 A"
-	link "D3 B"
-	asteroids "small rock" 12 5.0949
-	asteroids "medium rock" 66 3.0294
-	asteroids "large rock" 46 4.4982
-	asteroids "small metal" 25 5.3703
-	asteroids "medium metal" 80 5.6916
-	asteroids "large metal" 61 6.5178
-	minables silicon 25 5.26369
-	fleet "Donko small" 500
-	fleet "Donko Guard Small" 500
+	habitable 1400
+	belt 1877
+	link Da-0992
+	link Da-1273
+	link "Dakai Eor'en"
+	asteroids "small rock" 1 3.354
+	asteroids "medium rock" 25 2.834
+	asteroids "large rock" 1 1.872
+	asteroids "small metal" 3 2.418
+	asteroids "medium metal" 8 3.692
+	asteroids "large metal" 5 3.666
+	minables neodymium 2 4.34777
+	minables titanium 2 5.75432
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
 	object
 		sprite star/g0
-		period 10
-	object
-		sprite planet/ice6
-		distance 155.36
-		period 23.5699
-	object "Losat 36:2"
-		sprite planet/dust5
-		distance 392.97
-		period 94.8172
-	object
-		sprite planet/lava3
-		distance 557.97
-		period 160.422
-	object
-		sprite planet/neptune
-		distance 1312.58
-		period 578.811
-		offset 146.982
-		object
-			sprite planet/io
-			distance 191
-			period 13.1517
-	object
-		sprite planet/gas16
-		distance 2691.83
-		period 1699.89
-		offset 30.1347
-
-system "D3 A1"
-	pos -48222.4 -53575.2
-	government Donko
-	habitable 2795
-	belt 1276
-	link "D2 A"
-	link "D3 A2"
-	link "D4 A1"
-	link "D4 A2"
-	asteroids "large metal" 1 2.0706
-	fleet "Donko small" 400
-	fleet "Donko Guard Small" 500
-	object
-		sprite star/f5
-		distance 46.3685
-		period 9.94583
-	object
-		sprite star/g0
-		distance 73.6315
-		period 9.94583
+		distance 28.8
+		period 15.12
 		offset 180
 	object
-		sprite planet/rock15
-		distance 214.041
-		period 23.6928
-	object
-		sprite planet/rock7
-		distance 416.041
-		period 64.2058
-	object
-		sprite planet/jupiter
-		distance 852.001
-		period 188.161
-		object
-			sprite planet/io
-			distance 244
-			period 11.977
-	object
-		sprite planet/ganymede
-		distance 1340.09
-		period 371.168
-	object
-		sprite planet/gas4
-		distance 3829.09
-		period 1792.72
-		object
-			sprite planet/europa
-			distance 235
-			period 12.7057
-		object
-			sprite planet/tethys
-			distance 334
-			period 21.5287
-
-system "D3 A2"
-	pos -48248.6 -53507.9
-	government Donko
-	habitable 425.92
-	belt 1921
-	link "D2 A"
-	link "D3 A1"
-	link "D4 A2"
-	link "D4 A3"
-	link "D4 A4"
-	asteroids "small rock" 1 3.762
-	asteroids "medium rock" 1 3.168
-	asteroids "large rock" 2 3.102
-	asteroids "small metal" 28 4.092
-	asteroids "medium metal" 1 2.277
-	asteroids "large metal" 3 3.036
-	minables lead 8 6.31723
-	fleet "Donko small" 500
-	fleet "Donko Guard Small" 400
-	object
-		sprite star/k5
-		period 10
-	object
-		sprite planet/cloud1
-		distance 218.24
-		period 62.4881
-	object
-		sprite planet/cloud5
-		distance 638.33
-		period 312.582
-		object
-			sprite planet/rock14
-			distance 196
-			period 17.9329
-	object
-		sprite planet/gas12
-		distance 1824.42
-		period 1510.37
-		object
-			sprite planet/dust1
-			distance 303
-			period 13.8532
-		object
-			sprite planet/dust4
-			distance 464
-			period 26.252
-
-system "D3 B"
-	pos -48129 -53581.1
-	government Donko
-	habitable 320
-	belt 1774
-	link "D2 B"
-	link "D4 B1"
-	link "D4 B2"
-	asteroids "medium rock" 11 6.45
-	asteroids "large rock" 3 4.95
-	asteroids "small metal" 27 6
-	asteroids "medium metal" 69 3.95
-	asteroids "large metal" 11 5.95
-	minables aluminum 6 6.43412
-	minables platinum 9 8.47231
-	minables titanium 24 5.76601
-	fleet "Donko small" 500
-	fleet "Donko Guard Small" 500
-	fleet "Donko Guard Big" 1000
-	object
 		sprite star/m0
-		period 10
+		distance 97.2
+		period 15.12
 	object
-		sprite planet/jupiter
-		distance 1039.16
-		period 749.046
-		offset 303.398
+		sprite planet/titan
+		distance 221.69
+		period 35.287
+	object
+		sprite planet/rock18
+		distance 418.33
+		period 91.4691
+	object
+		sprite planet/cloud3
+		distance 633.74
+		period 170.554
+	object
+		sprite planet/ocean5
+		distance 842.9
+		period 261.613
+	object
+		sprite planet/uranus
+		distance 1150.94
+		period 417.422
+	object
+		sprite planet/gas9
+		distance 5788.43
+		period 4708.01
 		object
 			sprite planet/rock0
-			distance 259
-			period 13.0982
-		object "Komre 224:10"
-			sprite planet/station1
-			distance 396.55
-			period 24.8147
-			offset 327.057
-	object
-		sprite planet/rock11
-		distance 1939.34
-		period 1909.7
-		offset 248.567
-	object
-		sprite planet/gas1
-		distance 3160.7
-		period 3973.37
-		offset 103.025
-		object
-			sprite planet/ice8
-			distance 208
-			period 11.9898
-		object
-			sprite planet/desert4
-			distance 347
-			period 25.8351
-		object
-			sprite planet/dust0
-			distance 501
-			period 44.82
-		object
-			sprite planet/rock14
-			distance 646
-			period 65.6242
-	object
-		sprite planet/gas0
-		distance 4490.7
-		period 6729.08
-		offset 108.672
-		object
-			sprite planet/luna
-			distance 283
-			period 13.952
-		object
-			sprite planet/callisto
-			distance 404
-			period 23.7974
-		object
-			sprite planet/io
-			distance 552
-			period 38.0071
+			distance 262
+			period 15.9017
 
-system "D4 A1"
-	pos -48409 -53664.3
-	government Donko
-	habitable 135
-	belt 1828
-	link "D3 A1"
-	link "D4 A2"
-	asteroids "small rock" 3 4.536
-	asteroids "medium rock" 5 3.465
-	asteroids "large rock" 4 4.914
-	asteroids "small metal" 33 8.19
-	asteroids "medium metal" 2 6.741
-	asteroids "large metal" 30 7.182
-	minables iron 14 11.096
-	minables lead 7 14.1663
-	fleet "Donko small" 650
-	fleet "Donko Guard Small" 500
-	object
-		sprite star/m8
-		period 10
-	object "Losat 10:1"
-		sprite planet/ocean8
-		distance 199.69
-		period 97.1466
-		offset 74.9022
-	object
-		sprite planet/cloud5
-		distance 605.45
-		period 512.874
-		offset 225.814
-		object
-			sprite planet/dust4
-			distance 212
-			period 20.173
-	object
-		sprite planet/lava7
-		distance 1004.26
-		period 1095.63
-		offset 61.9967
-	object
-		sprite planet/gas6
-		distance 1718.51
-		period 2452.57
-		offset 15.9109
-		object
-			sprite planet/rock0
-			distance 268
-			period 11.2064
-		object
-			sprite planet/desert4
-			distance 415
-			period 21.5942
-
-system "D4 A2"
-	pos -48309.6 -53575.9
+system Da-0992
+	pos -48525.3 -53302.7
 	government Donko
 	habitable 233.28
-	belt 1217
-	link "D3 A1"
-	link "D3 A2"
-	link "D4 A1"
-	link "D4 A3"
-	asteroids "small rock" 124 1.6856
-	asteroids "medium rock" 113 1.5092
-	asteroids "large rock" 54 1.2936
-	asteroids "small metal" 8 1.2348
-	asteroids "medium metal" 23 1.7052
-	asteroids "large metal" 2 2.646
-	minables aluminum 10 1.69021
-	minables copper 3 2.25776
-	minables iron 7 2.63872
-	fleet "Donko small" 500
-	fleet "Donko Guard Small" 500
+	belt 1150
+	link Da-0831
+	link Da-1273
+	link Da-3481
+	link "Dakai Eor'en"
+	asteroids "small rock" 31 2.541
+	asteroids "medium rock" 199 2.835
+	asteroids "large rock" 2 1.743
+	asteroids "small metal" 10 1.617
+	asteroids "medium metal" 16 2.898
+	asteroids "large metal" 3 3.129
+	minables aluminum 23 4.05412
+	minables lead 23 2.77981
+	minables neodymium 12 4.9376
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
 	object
 		sprite star/m4
 		period 10
 	object
-		sprite planet/dust2
-		distance 130.56
-		period 39.0694
-	object
-		sprite planet/rock10
-		distance 471.17
-		period 267.848
-	object
-		sprite planet/mars
-		distance 830.41
-		period 626.701
-	object
-		sprite planet/rock6
-		distance 1155.1
-		period 1028.14
-	object
-		sprite planet/uranus
-		distance 1738.34
-		period 1898.12
+		sprite planet/desert3
+		distance 278.01
+		period 121.398
 		object
-			sprite planet/rock7
-			distance 218
-			period 13.7518
+			sprite planet/rock14
+			distance 164
+			period 21.8822
+	object
+		sprite planet/gas1
+		distance 1016.37
+		period 848.592
 		object
-			sprite planet/rock3
-			distance 354
-			period 28.4563
+			sprite planet/rock17
+			distance 241
+			period 14.9534
+		object
+			sprite planet/oberon
+			distance 338
+			period 24.8365
+	object
+		sprite planet/gas14
+		distance 1628.58
+		period 1721.21
+	object
+		sprite planet/io
+		distance 2242.22
+		period 2780.6
 
-system "D4 A3"
-	pos -48453.1 -53547.6
+system Da-1273
+	pos -48604.3 -53309.7
+	government Donko
+	habitable 1080
+	belt 1195
+	link Da-0831
+	link Da-0992
+	link Da-2001
+	link Da-3481
+	asteroids "small rock" 4 5.2608
+	asteroids "medium rock" 10 2.7264
+	asteroids "large rock" 6 4.6464
+	asteroids "small metal" 3 3.9936
+	asteroids "medium metal" 14 4.8
+	asteroids "large metal" 20 3.0336
+	minables titanium 14 6.32197
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/desert8
+		distance 175.16
+		period 28.2163
+	object
+		sprite planet/lava5
+		distance 371.92
+		period 87.3016
+	object
+		sprite planet/ice6
+		distance 781.96
+		period 266.149
+	object
+		sprite planet/desert2
+		distance 988.77
+		period 378.435
+	object
+		sprite planet/gas7
+		distance 1909.18
+		period 1015.36
+		object
+			sprite planet/europa
+			distance 235
+			period 12.8154
+		object
+			sprite planet/io
+			distance 376
+			period 25.9366
+		object
+			sprite planet/dust7
+			distance 460
+			period 35.0968
+
+system Da-2001
+	pos -48613.3 -53248.7
+	government Donko
+	habitable 945
+	belt 1607
+	link Da-1273
+	link Da-3481
+	link Da-3892
+	link Da-4392
+	asteroids "medium rock" 18 3.09
+	asteroids "large rock" 1 3.09
+	asteroids "small metal" 19 2.97
+	asteroids "medium metal" 126 2.61
+	asteroids "large metal" 17 3.96
+	minables lead 31 5.26857
+	minables tungsten 5 3.97191
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/g5
+		distance 31.1534
+		period 11.4822
+	object
+		sprite star/m0
+		distance 60.8466
+		period 11.4822
+		offset 180
+	object
+		sprite planet/lava6
+		distance 186.847
+		period 33.2332
+	object
+		sprite planet/cloud5
+		distance 596.487
+		period 189.559
+		object
+			sprite planet/lava0
+			distance 222
+			period 21.6171
+	object
+		sprite planet/lava2
+		distance 1331.3
+		period 632.057
+	object
+		sprite planet/rhea
+		distance 1759.91
+		period 960.679
+	object
+		sprite planet/gas0
+		distance 3950.67
+		period 3231.09
+		object
+			sprite planet/europa
+			distance 269
+			period 12.9296
+
+system Da-3481
+	pos -48541.3 -53253.7
 	government Donko
 	habitable 1715
-	belt 1346
-	link "D3 A2"
-	link "D4 A2"
-	link "D4 A4"
-	asteroids "small rock" 72 4.686
-	asteroids "medium rock" 10 2.871
-	asteroids "large rock" 62 2.211
-	asteroids "small metal" 43 3.531
-	asteroids "medium metal" 26 3.234
-	asteroids "large metal" 22 2.739
-	minables tungsten 6 3.46956
+	belt 1959
+	link Da-0992
+	link Da-1273
+	link Da-2001
+	link Da-3892
+	asteroids "medium rock" 109 1.8696
+	asteroids "large rock" 3 2.9412
+	asteroids "medium metal" 6 1.1856
+	asteroids "large metal" 3 1.2084
+	minables aluminum 29 2.59528
+	minables lead 6 2.1375
+	minables neodymium 13 2.61743
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
 	object
 		sprite star/f5
 		period 10
 	object
-		sprite planet/cloud2
-		distance 191.29
-		period 25.5544
+		sprite planet/rock3
+		distance 192.56
+		period 25.8093
 	object
-		sprite planet/desert1
-		distance 718.18
-		period 185.899
-		object
-			sprite planet/dust4
-			distance 157
-			period 17.0764
-	object
-		sprite planet/gas11
-		distance 1662.39
-		period 654.677
-		object
-			sprite planet/callisto
-			distance 280
-			period 15.4531
-		object
-			sprite planet/tethys
-			distance 408
-			period 27.1812
-
-system "D4 A4"
-	pos -48454.6 -53423.2
-	government Donko
-	habitable 4131.68
-	belt 1308
-	link "D3 A2"
-	link "D4 A3"
-	link "Dakai Eor'en"
-	asteroids "small rock" 2 3.5775
-	asteroids "medium rock" 4 4.1175
-	asteroids "large rock" 10 6.0075
-	asteroids "small metal" 11 3.915
-	asteroids "medium metal" 1 7.2225
-	asteroids "large metal" 5 5.6025
-	minables aluminum 4 8.94927
-	minables lead 1 5.57182
-	minables silver 4 7.73673
-	object
-		sprite star/a5
-		distance 12.8394
-		period 7.08168
-		offset 180
-	object
-		sprite star/k0
-		distance 96.1606
-		period 7.08168
-	object
-		sprite planet/cloud0
-		distance 412.321
-		period 52.1014
-		object
-			sprite planet/dust5
-			distance 175
-			period 28.5293
-	object
-		sprite planet/cloud6
-		distance 919.081
-		period 173.391
-		object
-			sprite planet/lava0
-			distance 181
-			period 24.9301
-	object
-		sprite planet/gas17
-		distance 1607.64
-		period 401.125
-		object
-			sprite planet/tethys
-			distance 208
-			period 12.8165
-		object
-			sprite planet/rock14
-			distance 320
-			period 24.4567
-	object
-		sprite planet/gas6
-		distance 2663.65
-		period 855.485
-		object
-			sprite planet/miranda
-			distance 267
-			period 11.1438
-		object
-			sprite planet/io
-			distance 376
-			period 18.6229
-
-system "D4 B1"
-	pos -48153.4 -53684.4
-	government Donko
-	habitable 425.92
-	belt 1306
-	link "D3 B"
-	link "D4 B2"
-	link "D5 B1"
-	link "D5 B2"
-	link "D5 B3"
-	asteroids "medium rock" 13 4.7348
-	asteroids "large rock" 1 5.9052
-	asteroids "small metal" 25 4.522
-	asteroids "medium metal" 13 7.182
-	asteroids "large metal" 4 7.9268
-	minables aluminum 4 7.64498
-	minables titanium 4 8.30525
-	object
-		sprite star/k5
-		period 10
-	object
-		sprite planet/gas9
-		distance 488.84
-		period 209.482
-		object
-			sprite planet/ice7
-			distance 228
-			period 12.909
-		object
-			sprite planet/desert4
-			distance 332
-			period 22.6828
+		sprite planet/cloud8
+		distance 415.85
+		period 81.9093
 	object
 		sprite planet/gas5
-		distance 1286.53
-		period 894.388
+		distance 1222.66
+		period 412.94
+		object
+			sprite planet/dust1
+			distance 280
+			period 15.5806
 		object
 			sprite planet/ice8
-			distance 232
-			period 11.7511
-		object
-			sprite planet/dust0
-			distance 353
-			period 22.0551
+			distance 390
+			period 25.612
 	object
-		sprite planet/gas15
-		distance 2447.14
-		period 2346.3
+		sprite planet/gas13
+		distance 2102.91
+		period 931.449
 		object
-			sprite planet/dust1
-			distance 208
-			period 15.7904
+			sprite planet/tethys
+			distance 285
+			period 13.5824
 
-system "D4 B2"
-	pos -48185.9 -53601.8
+system Da-3892
+	pos -48593.3 -53168.7
 	government Donko
 	habitable 625
-	belt 1184
-	link "D3 B"
-	link "D4 B1"
-	link "D5 B3"
-	asteroids "large metal" 1 1.9125
+	belt 1041
+	link Da-2001
+	link Da-3481
+	link Da-4392
+	link Da-5663
+	asteroids "small rock" 1 3.528
+	asteroids "medium rock" 67 8.176
+	asteroids "large rock" 2 4.256
+	asteroids "small metal" 3 4.984
+	asteroids "medium metal" 18 4.088
+	asteroids "large metal" 14 3.864
+	minables iron 11 10.2426
+	minables silver 7 6.81725
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
 	object
 		sprite star/g5
 		period 10
 	object
-		sprite planet/cloud0
-		distance 204.29
-		period 46.7187
+		sprite planet/rock16
+		distance 146.81
+		period 28.4612
+	object
+		sprite planet/rock15
+		distance 325.77
+		period 94.0777
 	object
 		sprite planet/gas15
-		distance 956.54
-		period 473.342
-		object
-			sprite planet/dust7
-			distance 209
-			period 15.9044
-		object
-			sprite planet/io
-			distance 314
-			period 29.2881
-		object
-			sprite planet/dust4
-			distance 415
-			period 44.501
-		object
-			sprite planet/lava0
-			distance 536
-			period 65.3197
+		distance 745.33
+		period 325.569
 	object
-		sprite planet/gas9
-		distance 2062.5
-		period 1498.69
-		object
-			sprite planet/ice7
-			distance 232
-			period 13.2502
-		object
-			sprite planet/callisto
-			distance 351
-			period 24.6576
+		sprite planet/rock0
+		distance 982.33
+		period 492.613
+	object
+		sprite planet/gas4
+		distance 3287.37
+		period 3015.73
 
-system "D5 B1"
-	pos -48226.4 -53726.6
+system Da-4392
+	pos -48657.3 -53200.7
 	government Donko
-	habitable 1566.68
-	belt 1446
-	link "D4 B1"
-	link "D5 B2"
-	asteroids "small rock" 5 3.186
-	asteroids "medium rock" 17 3.726
-	asteroids "large rock" 4 2.97
-	asteroids "small metal" 1 1.566
-	asteroids "medium metal" 1 2.862
-	asteroids "large metal" 1 2.43
-	minables iron 1 3.44387
+	habitable 1715
+	belt 1217
+	link Da-2001
+	link Da-3892
+	link Da-5663
+	asteroids "large metal" 1 4.1492
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
 	object
-		sprite star/g0
-		distance 36.3454
-		period 12.7894
-		offset 180
+		sprite star/f5
+		period 10
 	object
-		sprite star/k0
-		distance 80.6546
-		period 12.7894
+		sprite planet/ice2
+		distance 183.04
+		period 23.9192
 	object
-		sprite planet/lava3
-		distance 251.295
-		period 40.2573
+		sprite planet/venus
+		distance 409.2
+		period 79.9524
 	object
-		sprite planet/cloud7
-		distance 577.385
-		period 140.206
-		object
-			sprite planet/dust3
-			distance 147
-			period 24.8475
+		sprite planet/mercury
+		distance 667.89
+		period 166.719
 	object
-		sprite planet/ocean2
-		distance 1030.59
-		period 334.35
-	object
-		sprite planet/gas2
-		distance 1574.15
-		period 631.162
+		sprite planet/water0
+		distance 1095.85
+		period 350.392
 	object
 		sprite planet/rock14
-		distance 1966.39
-		period 881.203
+		distance 1257.46
+		period 430.694
+	object
+		sprite planet/rock7
+		distance 1400.67
+		period 506.328
+	object
+		sprite planet/rock0
+		distance 1805.28
+		period 740.875
+	object
+		sprite planet/gas15
+		distance 17501.6
+		period 22363.8
 
-system "D5 B2"
-	pos -48128.9 -53772.5
+system Da-5663
+	pos -48664.3 -53130.7
 	government Donko
-	habitable 625
-	belt 1659
-	link "D4 B1"
-	link "D5 B1"
-	asteroids "small rock" 11 4.6284
-	asteroids "medium rock" 102 2.9203
-	asteroids "large rock" 9 7.8793
-	asteroids "small metal" 3 5.5651
-	asteroids "medium metal" 10 6.7773
-	asteroids "large metal" 6 5.2896
-	minables copper 39 6.23319
-	object
-		sprite star/g5
-		period 10
-	object
-		sprite planet/rock17
-		distance 145.25
-		period 28.0088
-	object
-		sprite planet/dust6
-		distance 305.25
-		period 85.3303
-	object
-		sprite planet/gas2
-		distance 1365.81
-		period 807.617
-		object
-			sprite planet/luna
-			distance 194
-			period 16.3726
-		object
-			sprite planet/dust0
-			distance 309
-			period 32.9119
-		object
-			sprite planet/rhea
-			distance 408
-			period 49.935
-		object
-			sprite planet/dust3
-			distance 578
-			period 84.1989
-	object
-		sprite planet/jupiter
-		distance 3533.05
-		period 3360.04
-		object
-			sprite planet/ice7
-			distance 285
-			period 15.1192
-		object
-			sprite planet/oberon
-			distance 372
-			period 22.5463
-
-system "D5 B3"
-	pos -48236.8 -53653
-	government Donko
-	habitable 1215
-	belt 1156
-	link "D4 B1"
-	link "D4 B2"
-	asteroids "small rock" 4 3.588
-	asteroids "medium rock" 13 4.6176
-	asteroids "large rock" 10 3.9624
-	asteroids "small metal" 2 3.6504
-	asteroids "medium metal" 11 2.2152
-	asteroids "large metal" 9 2.5584
-	minables aluminum 12 3.80088
+	habitable 1080
+	belt 1816
+	link Da-3892
+	link Da-4392
+	link Mke-2267
+	asteroids "large metal" 1 4.956
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
 	object
 		sprite star/g0
-		distance 9.77778
-		period 9.47318
+		period 10
 	object
-		sprite star/m8
-		distance 78.2222
-		period 9.47318
-		offset 180
+		sprite planet/rock4
+		distance 177.84
+		period 28.8664
 	object
-		sprite planet/ice6
-		distance 341.472
-		period 72.4111
-		object
-			sprite planet/io
-			distance 150
-			period 23.094
+		sprite planet/ice3
+		distance 557.25
+		period 160.112
 	object
-		sprite planet/rock19
-		distance 842.832
-		period 280.791
-		object
-			sprite planet/dust1
-			distance 135
-			period 20.9631
+		sprite planet/ice2
+		distance 804.74
+		period 277.863
 	object
-		sprite planet/gas14
-		distance 1684.08
-		period 793.08
-		object
-			sprite planet/rock0
-			distance 235
-			period 14.671
-	object
-		sprite planet/gas7
-		distance 2929.09
-		period 1819.16
-		object
-			sprite planet/dust3
-			distance 256
-			period 14.571
+		sprite planet/gas3
+		distance 1908.5
+		period 1014.81
 
 system "Dakai Eor'en"
-	pos -48578.2 -53240.3
+	pos -48463.2 -53359.3
 	government Donko
 	habitable 2372.76
 	belt 1658
-	link C5-1
-	link "D4 A4"
+	link Da-0831
+	link Da-0992
+	link "Dek A4"
 	asteroids "small rock" 18 2.7489
 	asteroids "medium rock" 1 2.5245
 	asteroids "large rock" 1 1.7765
@@ -9874,6 +9862,817 @@ system Deepla
 			sprite planet/dust7
 			distance 466
 			period 50.12
+
+system "Dek A"
+	pos -48320.1 -53466.3
+	government Donko
+	habitable 486.68
+	belt 1073
+	link "Dek A"
+	link "Dek A1"
+	link "Dek A2"
+	link "Dek B"
+	asteroids "small rock" 3 9.3264
+	asteroids "medium rock" 9 8.352
+	asteroids "large rock" 2 6.3336
+	asteroids "small metal" 34 9.6744
+	asteroids "medium metal" 18 7.0296
+	asteroids "large metal" 55 5.2896
+	asteroids "large metal" 1 8.5176
+	minables copper 2 9.54126
+	minables neodymium 10 14.0019
+	minables tungsten 28 10.6529
+	fleet "Donko small" 500
+	fleet "Donko Guard Small" 500
+	fleet "Donko small" 500
+	fleet "Donko Guard Small" 450
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/rock19
+		distance 183.69
+		period 48.253
+	object
+		sprite planet/rock15
+		distance 461.69
+		period 192.274
+	object "Losat 46:3"
+		sprite planet/ocean8
+		distance 725.1
+		period 378.436
+	object
+		sprite planet/gas12
+		distance 1534.19
+		period 1164.7
+		offset 52.8659
+		object "Ma'Losat Kosai 1"
+			sprite planet/rock7
+			distance 264
+			period 11.2665
+			offset 184.413
+		object "Komre 468:45"
+			sprite planet/station3
+			distance 395
+			period 20.6196
+			offset 223.749
+	object
+		sprite planet/gas17
+		distance 2518.63
+		period 2449.87
+		offset 31.2949
+		object
+			sprite planet/tethys
+			distance 216
+			period 13.5629
+		object
+			sprite planet/rock14
+			distance 333
+			period 25.9621
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/rock19
+		distance 352.25
+		period 119.871
+		object
+			sprite planet/rock3
+			distance 152
+			period 25.045
+	object
+		sprite planet/gas5
+		distance 1138.54
+		period 696.563
+		object
+			sprite planet/oberon
+			distance 228
+			period 11.4485
+		object
+			sprite planet/dust0
+			distance 338
+			period 20.6644
+		object
+			sprite planet/rhea
+			distance 504.29
+			period 37.6589
+			offset 280.866
+	object "Losat 65:3"
+		sprite planet/ice3
+		distance 2096.83
+		period 1740.94
+		offset 1.32154
+		object
+			sprite planet/rock0
+			distance 144
+			period 16.5247
+		object "Komre 142:20"
+			sprite planet/station5
+			distance 306
+			period 51.1885
+
+system "Dek A1"
+	pos -48407 -53496.3
+	government Donko
+	habitable 135
+	belt 1828
+	link "Dek A"
+	link "Dek A1"
+	link "Dek A2"
+	asteroids "large metal" 1 2.0706
+	asteroids "small rock" 3 4.536
+	asteroids "medium rock" 5 3.465
+	asteroids "large rock" 4 4.914
+	asteroids "small metal" 33 8.19
+	asteroids "medium metal" 2 6.741
+	asteroids "large metal" 30 7.182
+	minables iron 14 11.096
+	minables lead 7 14.1663
+	fleet "Donko small" 400
+	fleet "Donko Guard Small" 500
+	fleet "Donko small" 650
+	fleet "Donko Guard Small" 500
+	object
+		sprite star/f5
+		distance 46.3685
+		period 9.94583
+	object
+		sprite star/g0
+		distance 73.6315
+		period 9.94583
+		offset 180
+	object
+		sprite planet/rock15
+		distance 214.041
+		period 23.6928
+	object
+		sprite planet/rock7
+		distance 416.041
+		period 64.2058
+	object
+		sprite planet/jupiter
+		distance 852.001
+		period 188.161
+		object
+			sprite planet/io
+			distance 244
+			period 11.977
+	object
+		sprite planet/ganymede
+		distance 1340.09
+		period 371.168
+	object
+		sprite planet/gas4
+		distance 3829.09
+		period 1792.72
+		object
+			sprite planet/europa
+			distance 235
+			period 12.7057
+		object
+			sprite planet/tethys
+			distance 334
+			period 21.5287
+	object
+		sprite star/m8
+		period 10
+	object "Losat 10:1"
+		sprite planet/ocean8
+		distance 199.69
+		period 97.1466
+		offset 74.9022
+	object
+		sprite planet/cloud5
+		distance 605.45
+		period 512.874
+		offset 225.814
+		object
+			sprite planet/dust4
+			distance 212
+			period 20.173
+	object
+		sprite planet/lava7
+		distance 1004.26
+		period 1095.63
+		offset 61.9967
+	object
+		sprite planet/gas6
+		distance 1718.51
+		period 2452.57
+		offset 15.9109
+		object
+			sprite planet/rock0
+			distance 268
+			period 11.2064
+		object
+			sprite planet/desert4
+			distance 415
+			period 21.5942
+
+system "Dek A2"
+	pos -48363.6 -53434.9
+	government Donko
+	habitable 233.28
+	belt 1217
+	link "Dek A"
+	link "Dek A1"
+	link "Dek A2"
+	link "Dek A3"
+	link "Dek A4"
+	asteroids "small rock" 1 3.762
+	asteroids "medium rock" 1 3.168
+	asteroids "large rock" 2 3.102
+	asteroids "small metal" 28 4.092
+	asteroids "medium metal" 1 2.277
+	asteroids "large metal" 3 3.036
+	asteroids "small rock" 124 1.6856
+	asteroids "medium rock" 113 1.5092
+	asteroids "large rock" 54 1.2936
+	asteroids "small metal" 8 1.2348
+	asteroids "medium metal" 23 1.7052
+	asteroids "large metal" 2 2.646
+	minables lead 8 6.31723
+	minables aluminum 10 1.69021
+	minables copper 3 2.25776
+	minables iron 7 2.63872
+	fleet "Donko small" 500
+	fleet "Donko Guard Small" 400
+	fleet "Donko small" 500
+	fleet "Donko Guard Small" 500
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/cloud1
+		distance 218.24
+		period 62.4881
+	object
+		sprite planet/cloud5
+		distance 638.33
+		period 312.582
+		object
+			sprite planet/rock14
+			distance 196
+			period 17.9329
+	object
+		sprite planet/gas12
+		distance 1824.42
+		period 1510.37
+		object
+			sprite planet/dust1
+			distance 303
+			period 13.8532
+		object
+			sprite planet/dust4
+			distance 464
+			period 26.252
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/dust2
+		distance 130.56
+		period 39.0694
+	object
+		sprite planet/rock10
+		distance 471.17
+		period 267.848
+	object
+		sprite planet/mars
+		distance 830.41
+		period 626.701
+	object
+		sprite planet/rock6
+		distance 1155.1
+		period 1028.14
+	object
+		sprite planet/uranus
+		distance 1738.34
+		period 1898.12
+		object
+			sprite planet/rock7
+			distance 218
+			period 13.7518
+		object
+			sprite planet/rock3
+			distance 354
+			period 28.4563
+
+system "Dek A3"
+	pos -48441.1 -53452.6
+	government Donko
+	habitable 1715
+	belt 1346
+	link "Dek A2"
+	link "Dek A4"
+	asteroids "small rock" 72 4.686
+	asteroids "medium rock" 10 2.871
+	asteroids "large rock" 62 2.211
+	asteroids "small metal" 43 3.531
+	asteroids "medium metal" 26 3.234
+	asteroids "large metal" 22 2.739
+	minables tungsten 6 3.46956
+	object
+		sprite star/f5
+		period 10
+	object
+		sprite planet/cloud2
+		distance 191.29
+		period 25.5544
+	object
+		sprite planet/desert1
+		distance 718.18
+		period 185.899
+		object
+			sprite planet/dust4
+			distance 157
+			period 17.0764
+	object
+		sprite planet/gas11
+		distance 1662.39
+		period 654.677
+		object
+			sprite planet/callisto
+			distance 280
+			period 15.4531
+		object
+			sprite planet/tethys
+			distance 408
+			period 27.1812
+
+system "Dek A4"
+	pos -48403.6 -53388.2
+	government Donko
+	habitable 4131.68
+	belt 1308
+	link "Dakai Eor'en"
+	link "Dek A2"
+	link "Dek A3"
+	asteroids "small rock" 2 3.5775
+	asteroids "medium rock" 4 4.1175
+	asteroids "large rock" 10 6.0075
+	asteroids "small metal" 11 3.915
+	asteroids "medium metal" 1 7.2225
+	asteroids "large metal" 5 5.6025
+	minables aluminum 4 8.94927
+	minables lead 1 5.57182
+	minables silver 4 7.73673
+	object
+		sprite star/a5
+		distance 12.8394
+		period 7.08168
+		offset 180
+	object
+		sprite star/k0
+		distance 96.1606
+		period 7.08168
+	object
+		sprite planet/cloud0
+		distance 412.321
+		period 52.1014
+		object
+			sprite planet/dust5
+			distance 175
+			period 28.5293
+	object
+		sprite planet/cloud6
+		distance 919.081
+		period 173.391
+		object
+			sprite planet/lava0
+			distance 181
+			period 24.9301
+	object
+		sprite planet/gas17
+		distance 1607.64
+		period 401.125
+		object
+			sprite planet/tethys
+			distance 208
+			period 12.8165
+		object
+			sprite planet/rock14
+			distance 320
+			period 24.4567
+	object
+		sprite planet/gas6
+		distance 2663.65
+		period 855.485
+		object
+			sprite planet/miranda
+			distance 267
+			period 11.1438
+		object
+			sprite planet/io
+			distance 376
+			period 18.6229
+
+system "Dek B"
+	pos -48328 -53527.1
+	government Donko
+	habitable 320
+	belt 1774
+	link "Dek A"
+	link "Dek B"
+	link "Dek B2"
+	asteroids "small rock" 12 5.0949
+	asteroids "medium rock" 66 3.0294
+	asteroids "large rock" 46 4.4982
+	asteroids "small metal" 25 5.3703
+	asteroids "medium metal" 80 5.6916
+	asteroids "large metal" 61 6.5178
+	asteroids "medium rock" 11 6.45
+	asteroids "large rock" 3 4.95
+	asteroids "small metal" 27 6
+	asteroids "medium metal" 69 3.95
+	asteroids "large metal" 11 5.95
+	minables silicon 25 5.26369
+	minables aluminum 6 6.43412
+	minables platinum 9 8.47231
+	minables titanium 24 5.76601
+	fleet "Donko small" 500
+	fleet "Donko Guard Small" 500
+	fleet "Donko small" 500
+	fleet "Donko Guard Small" 500
+	fleet "Donko Guard Big" 1000
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/ice6
+		distance 155.36
+		period 23.5699
+	object "Losat 36:2"
+		sprite planet/dust5
+		distance 392.97
+		period 94.8172
+	object
+		sprite planet/lava3
+		distance 557.97
+		period 160.422
+	object
+		sprite planet/neptune
+		distance 1312.58
+		period 578.811
+		offset 146.982
+		object
+			sprite planet/io
+			distance 191
+			period 13.1517
+	object
+		sprite planet/gas16
+		distance 2691.83
+		period 1699.89
+		offset 30.1347
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/jupiter
+		distance 1039.16
+		period 749.046
+		offset 303.398
+		object
+			sprite planet/rock0
+			distance 259
+			period 13.0982
+		object "Komre 224:10"
+			sprite planet/station1
+			distance 396.55
+			period 24.8147
+			offset 327.057
+	object
+		sprite planet/rock11
+		distance 1939.34
+		period 1909.7
+		offset 248.567
+	object
+		sprite planet/gas1
+		distance 3160.7
+		period 3973.37
+		offset 103.025
+		object
+			sprite planet/ice8
+			distance 208
+			period 11.9898
+		object
+			sprite planet/desert4
+			distance 347
+			period 25.8351
+		object
+			sprite planet/dust0
+			distance 501
+			period 44.82
+		object
+			sprite planet/rock14
+			distance 646
+			period 65.6242
+	object
+		sprite planet/gas0
+		distance 4490.7
+		period 6729.08
+		offset 108.672
+		object
+			sprite planet/luna
+			distance 283
+			period 13.952
+		object
+			sprite planet/callisto
+			distance 404
+			period 23.7974
+		object
+			sprite planet/io
+			distance 552
+			period 38.0071
+
+system "Dek B1"
+	pos -48230.4 -53601.6
+	government Donko
+	habitable 1566.68
+	belt 1446
+	link "Dek B1"
+	link "Dek B2"
+	link "Dek B3"
+	asteroids "medium rock" 13 4.7348
+	asteroids "large rock" 1 5.9052
+	asteroids "small metal" 25 4.522
+	asteroids "medium metal" 13 7.182
+	asteroids "large metal" 4 7.9268
+	asteroids "small rock" 5 3.186
+	asteroids "medium rock" 17 3.726
+	asteroids "large rock" 4 2.97
+	asteroids "small metal" 1 1.566
+	asteroids "medium metal" 1 2.862
+	asteroids "large metal" 1 2.43
+	minables aluminum 4 7.64498
+	minables titanium 4 8.30525
+	minables iron 1 3.44387
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/gas9
+		distance 488.84
+		period 209.482
+		object
+			sprite planet/ice7
+			distance 228
+			period 12.909
+		object
+			sprite planet/desert4
+			distance 332
+			period 22.6828
+	object
+		sprite planet/gas5
+		distance 1286.53
+		period 894.388
+		object
+			sprite planet/ice8
+			distance 232
+			period 11.7511
+		object
+			sprite planet/dust0
+			distance 353
+			period 22.0551
+	object
+		sprite planet/gas15
+		distance 2447.14
+		period 2346.3
+		object
+			sprite planet/dust1
+			distance 208
+			period 15.7904
+	object
+		sprite star/g0
+		distance 36.3454
+		period 12.7894
+		offset 180
+	object
+		sprite star/k0
+		distance 80.6546
+		period 12.7894
+	object
+		sprite planet/lava3
+		distance 251.295
+		period 40.2573
+	object
+		sprite planet/cloud7
+		distance 577.385
+		period 140.206
+		object
+			sprite planet/dust3
+			distance 147
+			period 24.8475
+	object
+		sprite planet/ocean2
+		distance 1030.59
+		period 334.35
+	object
+		sprite planet/gas2
+		distance 1574.15
+		period 631.162
+	object
+		sprite planet/rock14
+		distance 1966.39
+		period 881.203
+
+system "Dek B2"
+	pos -48268.9 -53538.5
+	government Donko
+	habitable 625
+	belt 1659
+	link "Dek B"
+	link "Dek B1"
+	link "Dek B3"
+	asteroids "small rock" 1 7.569
+	asteroids "medium rock" 12 5.133
+	asteroids "large rock" 3 8.874
+	asteroids "medium metal" 17 10.353
+	asteroids "large metal" 4 10.179
+	asteroids "large metal" 1 1.9125
+	asteroids "small rock" 11 4.6284
+	asteroids "medium rock" 102 2.9203
+	asteroids "large rock" 9 7.8793
+	asteroids "small metal" 3 5.5651
+	asteroids "medium metal" 10 6.7773
+	asteroids "large metal" 6 5.2896
+	minables tungsten 1 14.9411
+	minables copper 39 6.23319
+	fleet "Donko small" 500
+	fleet "Donko Guard Small" 500
+	object
+		sprite star/m0
+		period 10
+	object "Losat 87:1"
+		sprite planet/rock16
+		distance 281.924
+		period 105.848
+		offset 349.59
+	object
+		sprite planet/gas5
+		distance 1032.41
+		period 741.764
+		offset 163.996
+		object
+			sprite planet/luna
+			distance 245
+			period 12.7525
+		object
+			sprite planet/io
+			distance 389
+			period 25.5136
+	object
+		sprite planet/venus
+		distance 1587.45
+		period 1414.28
+		offset 52.3795
+	object
+		sprite planet/gas7
+		distance 3027.34
+		period 3724.58
+		offset 9.86949
+		object
+			sprite planet/dust3
+			distance 268
+			period 15.6075
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/cloud0
+		distance 204.29
+		period 46.7187
+	object
+		sprite planet/gas15
+		distance 956.54
+		period 473.342
+		object
+			sprite planet/dust7
+			distance 209
+			period 15.9044
+		object
+			sprite planet/io
+			distance 314
+			period 29.2881
+		object
+			sprite planet/dust4
+			distance 415
+			period 44.501
+		object
+			sprite planet/lava0
+			distance 536
+			period 65.3197
+	object
+		sprite planet/gas9
+		distance 2062.5
+		period 1498.69
+		object
+			sprite planet/ice7
+			distance 232
+			period 13.2502
+		object
+			sprite planet/callisto
+			distance 351
+			period 24.6576
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/rock17
+		distance 145.25
+		period 28.0088
+	object
+		sprite planet/dust6
+		distance 305.25
+		period 85.3303
+	object
+		sprite planet/gas2
+		distance 1365.81
+		period 807.617
+		object
+			sprite planet/luna
+			distance 194
+			period 16.3726
+		object
+			sprite planet/dust0
+			distance 309
+			period 32.9119
+		object
+			sprite planet/rhea
+			distance 408
+			period 49.935
+		object
+			sprite planet/dust3
+			distance 578
+			period 84.1989
+	object
+		sprite planet/jupiter
+		distance 3533.05
+		period 3360.04
+		object
+			sprite planet/ice7
+			distance 285
+			period 15.1192
+		object
+			sprite planet/oberon
+			distance 372
+			period 22.5463
+
+system "Dek B3"
+	pos -48312.8 -53582
+	government Donko
+	habitable 1215
+	belt 1156
+	link "Dek B1"
+	link "Dek B2"
+	asteroids "small rock" 4 3.588
+	asteroids "medium rock" 13 4.6176
+	asteroids "large rock" 10 3.9624
+	asteroids "small metal" 2 3.6504
+	asteroids "medium metal" 11 2.2152
+	asteroids "large metal" 9 2.5584
+	minables aluminum 12 3.80088
+	object
+		sprite star/g0
+		distance 9.77778
+		period 9.47318
+	object
+		sprite star/m8
+		distance 78.2222
+		period 9.47318
+		offset 180
+	object
+		sprite planet/ice6
+		distance 341.472
+		period 72.4111
+		object
+			sprite planet/io
+			distance 150
+			period 23.094
+	object
+		sprite planet/rock19
+		distance 842.832
+		period 280.791
+		object
+			sprite planet/dust1
+			distance 135
+			period 20.9631
+	object
+		sprite planet/gas14
+		distance 1684.08
+		period 793.08
+		object
+			sprite planet/rock0
+			distance 235
+			period 14.671
+	object
+		sprite planet/gas7
+		distance 2929.09
+		period 1819.16
+		object
+			sprite planet/dust3
+			distance 256
+			period 14.571
 
 system Dekuoda
 	pos -49561.8 -55901.5
@@ -11602,14 +12401,14 @@ system Dopolk
 		period 4448.22
 
 system "Dorai Nowoku"
-	pos -48084.3 -53380.2
+	pos -48102.3 -53385.2
 	government Donko
 	habitable 486.68
 	belt 1916
-	link "D1 A"
-	link "D1 B2"
-	link S4-1
-	link S6-1
+	link Sa-463
+	link Sa-523
+	link Sa-637
+	link Sa-783
 	asteroids "medium rock" 17 1.742
 	asteroids "large rock" 2 1.651
 	asteroids "small metal" 5 1.066
@@ -14214,7 +15013,7 @@ system Eicegu
 			period 91.4915
 
 system Eidalr
-	pos -48537.4 -53442.1
+	pos -48479.4 -53410.1
 	government Revos
 	habitable 1705
 	belt 1305
@@ -24519,6 +25318,56 @@ system Guvrn
 			distance 314
 			period 29.6191
 
+system HEuds67x2#29
+	pos -51544.2 -56088.3
+	government Uninhabited
+	habitable 625
+	belt 1634
+	asteroids "medium rock" 32 3.192
+	asteroids "large rock" 28 2.136
+	asteroids "small metal" 19 1.968
+	asteroids "medium metal" 18 1.68
+	asteroids "large metal" 12 1.536
+	minables copper 9 2.2822
+	minables silicon 3 3.39259
+	trade Clothing 326
+	trade Electronics 662
+	trade Equipment 426
+	trade Food 254
+	trade "Heavy Metals" 889
+	trade Industrial 646
+	trade "Luxury Goods" 1060
+	trade Medical 767
+	trade Metal 362
+	trade Plastic 473
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/desert8
+		distance 158
+		period 31.7765
+	object
+		sprite planet/cloud3
+		distance 429.61
+		period 142.473
+	object
+		sprite planet/rock12
+		distance 793.61
+		period 357.71
+		object
+			sprite planet/oberon
+			distance 155
+			period 20.1059
+	object
+		sprite planet/desert6
+		distance 1573.86
+		period 999.008
+	object
+		sprite planet/rock0
+		distance 2713.07
+		period 2261.06
+
 system Hael
 	pos -44604.7 -58103.4
 	government Ultaka
@@ -29249,10 +30098,10 @@ system "Irshall Mer"
 	government Donko
 	habitable 625
 	belt 1904
-	link M1-14
-	link M1-16
-	link M1-55
-	link S4-6
+	link Mer-14
+	link Mer-16
+	link Mer-55
+	link Sa-C236
 	asteroids "small rock" 9 12.1104
 	asteroids "medium rock" 1 7.569
 	asteroids "large rock" 2 5.9711
@@ -49462,304 +50311,6 @@ system Lumaar
 			distance 373
 			period 22.6373
 
-system M1-12
-	pos -47339.5 -53105.2
-	government Donko
-	habitable 1080
-	belt 1294
-	link M1-21
-	link M1-33
-	asteroids "small rock" 11 8.8704
-	asteroids "medium rock" 20 10.0128
-	asteroids "large rock" 33 3.7632
-	asteroids "small metal" 10 3.4944
-	asteroids "medium metal" 16 5.9136
-	asteroids "large metal" 7 9.8112
-	minables lead 4 7.16811
-	minables titanium 17 9.73226
-	object
-		sprite star/g0
-		period 10
-	object
-		sprite planet/ice3
-		distance 245.69
-		period 46.8737
-	object
-		sprite planet/ice6
-		distance 461.05
-		period 120.495
-	object
-		sprite planet/ocean0
-		distance 816.81
-		period 284.138
-	object
-		sprite planet/gas3
-		distance 1766.22
-		period 903.473
-		object
-			sprite planet/europa
-			distance 267
-			period 11.1438
-
-system M1-14
-	pos -47456.2 -53233.4
-	government Donko
-	habitable 1850
-	belt 1570
-	link "Irshall Mer"
-	link M1-16
-	link M1-21
-	asteroids "medium rock" 6 1.86
-	asteroids "large rock" 1 2.1
-	asteroids "small metal" 22 3.15
-	asteroids "medium metal" 6 3.39
-	asteroids "large metal" 11 3.6
-	minables iron 9 5.91375
-	object
-		sprite star/f5
-		distance 7.00541
-		period 8.74744
-		offset 180
-	object
-		sprite star/m8
-		distance 88.9946
-		period 8.74744
-	object
-		sprite planet/cloud7
-		distance 263.685
-		period 39.82
-	object
-		sprite planet/dust2
-		distance 450.685
-		period 88.9781
-	object
-		sprite planet/gas7
-		distance 1290.68
-		period 431.225
-		object
-			sprite planet/dust4
-			distance 275
-			period 16.2229
-		object
-			sprite planet/oberon
-			distance 400
-			period 28.4591
-		object
-			sprite planet/dust7
-			distance 564
-			period 47.6485
-		object
-			sprite planet/luna
-			distance 692
-			period 64.7574
-
-system M1-16
-	pos -47447.4 -53180.5
-	government Donko
-	habitable 2606.04
-	belt 1094
-	link "Irshall Mer"
-	link M1-14
-	link M1-21
-	link M1-33
-	link M1-55
-	asteroids "small rock" 8 1.6786
-	asteroids "medium rock" 3 1.6632
-	asteroids "large rock" 2 0.8932
-	asteroids "medium metal" 35 1.771
-	asteroids "large metal" 25 1.463
-	minables copper 10 3.24081
-	minables uranium 5 2.51521
-	object
-		sprite star/f0
-		distance 9.4886
-		period 8.55122
-		offset 180
-	object
-		sprite star/m4
-		distance 96.5114
-		period 8.55122
-	object
-		sprite planet/lava5
-		distance 249.001
-		period 30.7873
-	object
-		sprite planet/desert2
-		distance 642.001
-		period 127.46
-	object
-		sprite planet/gas15
-		distance 1438.25
-		period 427.387
-		object
-			sprite planet/callisto
-			distance 209
-			period 15.9044
-		object
-			sprite planet/tethys
-			distance 302
-			period 27.6253
-		object
-			sprite planet/rhea
-			distance 412
-			period 44.0193
-	object
-		sprite planet/uranus
-		distance 2682.89
-		period 1088.87
-
-system M1-21
-	pos -47397.4 -53190.8
-	government Donko
-	habitable 486.68
-	belt 1243
-	link M1-12
-	link M1-14
-	link M1-16
-	link M1-33
-	asteroids "small rock" 4 2.6136
-	asteroids "medium rock" 30 3.146
-	asteroids "large rock" 12 2.4442
-	asteroids "small metal" 120 2.0812
-	asteroids "medium metal" 50 2.3474
-	asteroids "large metal" 6 2.5168
-	minables aluminum 7 3.07269
-	minables tungsten 1 3.78213
-	object
-		sprite star/k0
-		period 10
-	object
-		sprite planet/cloud1
-		distance 192.36
-		period 48.3738
-	object
-		sprite planet/titan
-		distance 510.85
-		period 209.353
-	object
-		sprite planet/gas2
-		distance 1278.26
-		period 828.642
-		object
-			sprite planet/miranda
-			distance 205
-			period 17.7847
-		object
-			sprite planet/ice7
-			distance 324
-			period 35.3372
-	object
-		sprite planet/gas12
-		distance 2497.9
-		period 2263.61
-
-system M1-33
-	pos -47416.9 -53124.9
-	government Donko
-	habitable 851.84
-	belt 1147
-	link M1-12
-	link M1-16
-	link M1-21
-	link M1-55
-	asteroids "medium rock" 23 3.597
-	asteroids "large rock" 1 4.29
-	asteroids "small metal" 42 1.848
-	asteroids "medium metal" 2 2.409
-	asteroids "large metal" 21 3.201
-	minables copper 6 3.89585
-	minables gold 21 3.19646
-	minables titanium 15 4.11391
-	object
-		sprite star/k5
-		distance 56
-		period 16.2446
-		offset 180
-	object
-		sprite star/k5
-		distance 56
-		period 16.2446
-	object
-		sprite planet/rock16
-		distance 281.81
-		period 64.8359
-	object
-		sprite planet/lava4
-		distance 519.06
-		period 162.072
-	object
-		sprite planet/rock12
-		distance 956.06
-		period 405.143
-		object
-			sprite planet/dust0
-			distance 164
-			period 21.8822
-	object
-		sprite planet/gas7
-		distance 2505.42
-		period 1718.71
-		object
-			sprite planet/rhea
-			distance 275
-			period 16.2229
-		object
-			sprite planet/tethys
-			distance 415
-			period 30.0748
-
-system M1-55
-	pos -47492.5 -53148.6
-	government Donko
-	habitable 1715
-	belt 1276
-	link "Irshall Mer"
-	link M1-16
-	link M1-33
-	asteroids "medium rock" 33 10.4284
-	asteroids "large rock" 3 11.3535
-	asteroids "small metal" 6 8.5782
-	asteroids "medium metal" 41 8.0736
-	asteroids "large metal" 2 11.0171
-	minables aluminum 15 9.85305
-	minables tungsten 15 10.5253
-	minables uranium 18 17.9473
-	object
-		sprite star/f5
-		period 10
-	object
-		sprite planet/cloud0
-		distance 162.21
-		period 19.9547
-	object
-		sprite planet/gas0
-		distance 871.05
-		period 248.309
-		object
-			sprite planet/miranda
-			distance 259
-			period 12.2154
-		object
-			sprite planet/dust1
-			distance 392
-			period 22.745
-	object
-		sprite planet/forest3
-		distance 1426.14
-		period 520.201
-	object
-		sprite planet/gas8
-		distance 2196.1
-		period 994.045
-		object
-			sprite planet/ice7
-			distance 228
-			period 18.3265
-		object
-			sprite planet/europa
-			distance 349
-			period 34.7068
-
 system "M83 Core"
 	pos -50287.5 -54701
 	habitable 233.28
@@ -51062,6 +51613,333 @@ system Majorsel
 			sprite planet/miranda
 			distance 490
 			period 34.0844
+
+system Mak-113
+	pos -48375.4 -53087
+	government Donko
+	habitable 945
+	belt 1253
+	link Mak-12
+	link Mak-306
+	link Mak-342
+	asteroids "small rock" 2 2.73
+	asteroids "medium rock" 71 2.436
+	asteroids "large rock" 8 2.814
+	asteroids "small metal" 7 1.155
+	asteroids "medium metal" 175 1.848
+	asteroids "large metal" 10 2.856
+	minables lead 17 3.20351
+	minables titanium 37 2.48225
+	minables tungsten 37 3.83434
+	object
+		sprite star/g5
+		distance 33.8624
+		period 13.012
+		offset 180
+	object
+		sprite star/m0
+		distance 66.1376
+		period 13.012
+	object
+		sprite planet/dust1
+		distance 181.028
+		period 31.6928
+	object
+		sprite planet/desert4
+		distance 316.268
+		period 73.1857
+	object
+		sprite planet/rock4
+		distance 636.268
+		period 208.835
+	object
+		sprite planet/gas2
+		distance 1432.68
+		period 705.613
+		object
+			sprite planet/luna
+			distance 198
+			period 16.8816
+		object
+			sprite planet/dust4
+			distance 319
+			period 34.5224
+	object
+		sprite planet/gas11
+		distance 3283.32
+		period 2448.01
+		object
+			sprite planet/rock3
+			distance 269
+			period 14.5514
+		object
+			sprite planet/europa
+			distance 408
+			period 27.1812
+		object
+			sprite planet/dust0
+			distance 559
+			period 43.5909
+
+system Mak-12
+	pos -48411 -53047.8
+	government Donko
+	habitable 320
+	belt 1593
+	link Mak-113
+	link Mak-342
+	asteroids "small rock" 4 2.431
+	asteroids "medium rock" 9 2.1216
+	asteroids "large rock" 3 2.3647
+	asteroids "large metal" 1 2.7846
+	minables iron 1 3.5055
+	minables titanium 1 4.16791
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/lava6
+		distance 165.69
+		period 47.6902
+	object
+		sprite planet/gas8
+		distance 643.94
+		period 365.387
+		object
+			sprite planet/miranda
+			distance 206
+			period 15.739
+		object
+			sprite planet/desert4
+			distance 327
+			period 31.4774
+	object
+		sprite planet/gas9
+		distance 1709.19
+		period 1580.05
+		object
+			sprite planet/ice0
+			distance 256
+			period 15.3586
+		object
+			sprite planet/dust7
+			distance 346
+			period 24.1326
+
+system Mak-234
+	pos -48507.5 -53158
+	government Donko
+	habitable 2035
+	belt 1548
+	link "Coai Mesoh'a"
+	link Mak-3203
+	link Mak-342
+	asteroids "medium rock" 19 5.712
+	asteroids "large rock" 1 4.872
+	asteroids "small metal" 8 10.5
+	asteroids "medium metal" 33 7.308
+	asteroids "large metal" 4 7.224
+	minables lead 12 13.3837
+	minables titanium 5 8.83859
+	object
+		sprite star/f5
+		distance 20.7568
+		period 13.4474
+	object
+		sprite star/m0
+		distance 111.243
+		period 13.4474
+		offset 180
+	object
+		sprite planet/rock12
+		distance 280.683
+		period 41.6968
+	object
+		sprite planet/gas17
+		distance 861.093
+		period 224.054
+		object
+			sprite planet/rock14
+			distance 253
+			period 17.1931
+	object
+		sprite planet/io
+		distance 1603.3
+		period 569.248
+	object
+		sprite planet/gas15
+		distance 2928.14
+		period 1404.97
+		object
+			sprite planet/callisto
+			distance 195
+			period 14.3334
+		object
+			sprite planet/desert4
+			distance 327
+			period 31.1257
+		object
+			sprite planet/dust3
+			distance 462
+			period 52.2709
+
+system Mak-306
+	pos -48355.7 -53134.5
+	government Donko
+	habitable 425.92
+	belt 1687
+	link Mak-113
+	link Mak-342
+	asteroids "small rock" 30 3.78
+	asteroids "medium rock" 47 3.06
+	asteroids "large rock" 7 2.76
+	asteroids "small metal" 1 4.32
+	asteroids "medium metal" 5 3.81
+	asteroids "large metal" 1 2.82
+	minables iron 7 6.37729
+	minables silicon 2 4.60748
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/ice5
+		distance 189.16
+		period 50.4243
+	object
+		sprite planet/ice4
+		distance 414.41
+		period 163.509
+	object
+		sprite planet/lava6
+		distance 727.66
+		period 380.442
+	object
+		sprite planet/gas17
+		distance 1588.5
+		period 1227.09
+		object
+			sprite planet/ice0
+			distance 225
+			period 14.4194
+	object
+		sprite planet/gas3
+		distance 2263.66
+		period 2087.43
+		object
+			sprite planet/callisto
+			distance 295
+			period 12.9419
+
+system Mak-3203
+	pos -48549.8 -53118.6
+	government Donko
+	habitable 320
+	belt 1994
+	link Mak-234
+	link Mke-2535
+	asteroids "small rock" 29 2.112
+	asteroids "medium rock" 4 5.1072
+	asteroids "large rock" 4 2.88
+	asteroids "small metal" 3 2.2272
+	asteroids "large metal" 1 2.3808
+	minables copper 3 2.72608
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/gas5
+		distance 363.96
+		period 155.262
+		object
+			sprite planet/rock17
+			distance 253
+			period 13.3822
+	object
+		sprite planet/mars
+		distance 811.85
+		period 517.248
+	object
+		sprite planet/dust6
+		distance 992.54
+		period 699.209
+	object
+		sprite planet/gas9
+		distance 2335.95
+		period 2524.53
+		object
+			sprite planet/desert4
+			distance 226
+			period 12.7395
+		object
+			sprite planet/europa
+			distance 304
+			period 19.8747
+		object
+			sprite planet/dust3
+			distance 421
+			period 32.3902
+
+system Mak-342
+	pos -48438.7 -53115.6
+	government Donko
+	habitable 625
+	belt 1954
+	link "Coai Mesoh'a"
+	link Mak-113
+	link Mak-12
+	link Mak-234
+	link Mak-306
+	asteroids "small rock" 74 2.7761
+	asteroids "medium rock" 19 4.3401
+	asteroids "large rock" 86 5.0048
+	asteroids "medium metal" 1 2.4242
+	asteroids "large metal" 1 5.2785
+	minables iron 1 8.01819
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/desert9
+		distance 163.09
+		period 33.3243
+	object
+		sprite planet/rock19
+		distance 378.13
+		period 117.647
+	object
+		sprite planet/forest2
+		distance 849.34
+		period 396.043
+	object
+		sprite planet/gas17
+		distance 1916.55
+		period 1342.46
+		object
+			sprite planet/oberon
+			distance 230
+			period 14.9027
+		object
+			sprite planet/dust5
+			distance 349
+			period 27.8555
+		object
+			sprite planet/io
+			distance 524
+			period 51.2472
+		object
+			sprite planet/ice8
+			distance 697
+			period 78.6181
 
 system Makalar
 	pos -49445.1 -55261.4
@@ -55014,6 +55892,304 @@ system Melvurero
 			distance 518
 			period 37.0473
 
+system Mer-12
+	pos -47339.5 -53105.2
+	government Donko
+	habitable 1080
+	belt 1294
+	link Mer-21
+	link Mer-33
+	asteroids "small rock" 11 8.8704
+	asteroids "medium rock" 20 10.0128
+	asteroids "large rock" 33 3.7632
+	asteroids "small metal" 10 3.4944
+	asteroids "medium metal" 16 5.9136
+	asteroids "large metal" 7 9.8112
+	minables lead 4 7.16811
+	minables titanium 17 9.73226
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/ice3
+		distance 245.69
+		period 46.8737
+	object
+		sprite planet/ice6
+		distance 461.05
+		period 120.495
+	object
+		sprite planet/ocean0
+		distance 816.81
+		period 284.138
+	object
+		sprite planet/gas3
+		distance 1766.22
+		period 903.473
+		object
+			sprite planet/europa
+			distance 267
+			period 11.1438
+
+system Mer-14
+	pos -47456.2 -53233.4
+	government Donko
+	habitable 1850
+	belt 1570
+	link "Irshall Mer"
+	link Mer-16
+	link Mer-21
+	asteroids "medium rock" 6 1.86
+	asteroids "large rock" 1 2.1
+	asteroids "small metal" 22 3.15
+	asteroids "medium metal" 6 3.39
+	asteroids "large metal" 11 3.6
+	minables iron 9 5.91375
+	object
+		sprite star/f5
+		distance 7.00541
+		period 8.74744
+		offset 180
+	object
+		sprite star/m8
+		distance 88.9946
+		period 8.74744
+	object
+		sprite planet/cloud7
+		distance 263.685
+		period 39.82
+	object
+		sprite planet/dust2
+		distance 450.685
+		period 88.9781
+	object
+		sprite planet/gas7
+		distance 1290.68
+		period 431.225
+		object
+			sprite planet/dust4
+			distance 275
+			period 16.2229
+		object
+			sprite planet/oberon
+			distance 400
+			period 28.4591
+		object
+			sprite planet/dust7
+			distance 564
+			period 47.6485
+		object
+			sprite planet/luna
+			distance 692
+			period 64.7574
+
+system Mer-16
+	pos -47447.4 -53180.5
+	government Donko
+	habitable 2606.04
+	belt 1094
+	link "Irshall Mer"
+	link Mer-14
+	link Mer-21
+	link Mer-33
+	link Mer-55
+	asteroids "small rock" 8 1.6786
+	asteroids "medium rock" 3 1.6632
+	asteroids "large rock" 2 0.8932
+	asteroids "medium metal" 35 1.771
+	asteroids "large metal" 25 1.463
+	minables copper 10 3.24081
+	minables uranium 5 2.51521
+	object
+		sprite star/f0
+		distance 9.4886
+		period 8.55122
+		offset 180
+	object
+		sprite star/m4
+		distance 96.5114
+		period 8.55122
+	object
+		sprite planet/lava5
+		distance 249.001
+		period 30.7873
+	object
+		sprite planet/desert2
+		distance 642.001
+		period 127.46
+	object
+		sprite planet/gas15
+		distance 1438.25
+		period 427.387
+		object
+			sprite planet/callisto
+			distance 209
+			period 15.9044
+		object
+			sprite planet/tethys
+			distance 302
+			period 27.6253
+		object
+			sprite planet/rhea
+			distance 412
+			period 44.0193
+	object
+		sprite planet/uranus
+		distance 2682.89
+		period 1088.87
+
+system Mer-21
+	pos -47397.4 -53190.8
+	government Donko
+	habitable 486.68
+	belt 1243
+	link Mer-12
+	link Mer-14
+	link Mer-16
+	link Mer-33
+	asteroids "small rock" 4 2.6136
+	asteroids "medium rock" 30 3.146
+	asteroids "large rock" 12 2.4442
+	asteroids "small metal" 120 2.0812
+	asteroids "medium metal" 50 2.3474
+	asteroids "large metal" 6 2.5168
+	minables aluminum 7 3.07269
+	minables tungsten 1 3.78213
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/cloud1
+		distance 192.36
+		period 48.3738
+	object
+		sprite planet/titan
+		distance 510.85
+		period 209.353
+	object
+		sprite planet/gas2
+		distance 1278.26
+		period 828.642
+		object
+			sprite planet/miranda
+			distance 205
+			period 17.7847
+		object
+			sprite planet/ice7
+			distance 324
+			period 35.3372
+	object
+		sprite planet/gas12
+		distance 2497.9
+		period 2263.61
+
+system Mer-33
+	pos -47416.9 -53124.9
+	government Donko
+	habitable 851.84
+	belt 1147
+	link Mer-12
+	link Mer-16
+	link Mer-21
+	link Mer-55
+	asteroids "medium rock" 23 3.597
+	asteroids "large rock" 1 4.29
+	asteroids "small metal" 42 1.848
+	asteroids "medium metal" 2 2.409
+	asteroids "large metal" 21 3.201
+	minables copper 6 3.89585
+	minables gold 21 3.19646
+	minables titanium 15 4.11391
+	object
+		sprite star/k5
+		distance 56
+		period 16.2446
+		offset 180
+	object
+		sprite star/k5
+		distance 56
+		period 16.2446
+	object
+		sprite planet/rock16
+		distance 281.81
+		period 64.8359
+	object
+		sprite planet/lava4
+		distance 519.06
+		period 162.072
+	object
+		sprite planet/rock12
+		distance 956.06
+		period 405.143
+		object
+			sprite planet/dust0
+			distance 164
+			period 21.8822
+	object
+		sprite planet/gas7
+		distance 2505.42
+		period 1718.71
+		object
+			sprite planet/rhea
+			distance 275
+			period 16.2229
+		object
+			sprite planet/tethys
+			distance 415
+			period 30.0748
+
+system Mer-55
+	pos -47492.5 -53148.6
+	government Donko
+	habitable 1715
+	belt 1276
+	link "Irshall Mer"
+	link Mer-16
+	link Mer-33
+	asteroids "medium rock" 33 10.4284
+	asteroids "large rock" 3 11.3535
+	asteroids "small metal" 6 8.5782
+	asteroids "medium metal" 41 8.0736
+	asteroids "large metal" 2 11.0171
+	minables aluminum 15 9.85305
+	minables tungsten 15 10.5253
+	minables uranium 18 17.9473
+	object
+		sprite star/f5
+		period 10
+	object
+		sprite planet/cloud0
+		distance 162.21
+		period 19.9547
+	object
+		sprite planet/gas0
+		distance 871.05
+		period 248.309
+		object
+			sprite planet/miranda
+			distance 259
+			period 12.2154
+		object
+			sprite planet/dust1
+			distance 392
+			period 22.745
+	object
+		sprite planet/forest3
+		distance 1426.14
+		period 520.201
+	object
+		sprite planet/gas8
+		distance 2196.1
+		period 994.045
+		object
+			sprite planet/ice7
+			distance 228
+			period 18.3265
+		object
+			sprite planet/europa
+			distance 349
+			period 34.7068
+
 system Mereliva
 	pos -51588.7 -56347.4
 	government Geeva
@@ -56955,6 +58131,489 @@ system Mixilvar
 			sprite planet/io
 			distance 609
 			period 38.3876
+
+system Mke-1267
+	pos -48616.1 -53040.8
+	government Donko
+	habitable 2372.76
+	belt 1697
+	link Mke-2267
+	link Mke-2535
+	link Mke-3402
+	link Mke-5239
+	link Mke-923
+	asteroids "small rock" 47 4.125
+	asteroids "medium rock" 44 4.653
+	asteroids "large rock" 12 2.112
+	asteroids "small metal" 28 2.97
+	asteroids "medium metal" 119 4.818
+	asteroids "large metal" 3 3.432
+	minables copper 1 7.85512
+	minables tungsten 30 4.78119
+	object
+		sprite star/f0
+		period 10
+	object
+		sprite planet/titan
+		distance 167.01
+		period 17.7234
+	object
+		sprite planet/ice1
+		distance 406.45
+		period 67.289
+	object
+		sprite planet/rock1
+		distance 854.46
+		period 205.102
+	object
+		sprite planet/gas8
+		distance 1315.27
+		period 391.702
+		object
+			sprite planet/ice7
+			distance 202
+			period 15.2828
+	object
+		sprite planet/gas7
+		distance 2187.63
+		period 840.222
+		object
+			sprite planet/rhea
+			distance 243
+			period 13.4753
+		object
+			sprite planet/tethys
+			distance 338
+			period 22.1058
+
+system Mke-2000
+	pos -48515.8 -53038.9
+	government Donko
+	habitable 425.92
+	belt 1341
+	link Mke-2535
+	link Mke-43
+	link Mke-923
+	asteroids "small rock" 1 4.004
+	asteroids "large rock" 1 4.84
+	asteroids "small metal" 1 4.4
+	asteroids "medium metal" 17 5.94
+	asteroids "large metal" 11 4.268
+	minables copper 1 6.20772
+	minables titanium 2 8.71889
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/rock16
+		distance 163.25
+		period 40.4274
+	object
+		sprite planet/gas17
+		distance 634.25
+		period 309.59
+		object
+			sprite planet/dust5
+			distance 222
+			period 14.132
+	object
+		sprite planet/gas3
+		distance 1493.25
+		period 1118.39
+		object
+			sprite planet/ice0
+			distance 307
+			period 13.7395
+	object
+		sprite planet/gas9
+		distance 2624.5
+		period 2605.95
+		object
+			sprite planet/rock7
+			distance 252
+			period 15
+		object
+			sprite planet/dust1
+			distance 378
+			period 27.5568
+		object
+			sprite planet/ice8
+			distance 544
+			period 47.5761
+
+system Mke-2267
+	pos -48666.6 -53072.3
+	government Donko
+	habitable 320
+	belt 1035
+	link Da-5663
+	link Mke-1267
+	link Mke-5239
+	asteroids "small rock" 4 2.3782
+	asteroids "medium rock" 65 1.7457
+	asteroids "large rock" 9 1.8216
+	asteroids "small metal" 30 2.3529
+	asteroids "medium metal" 143 1.9228
+	asteroids "large metal" 38 3.1878
+	minables lead 12 3.37633
+	minables uranium 6 3.66153
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/ice3
+		distance 198.44
+		period 62.507
+	object
+		sprite planet/lava1
+		distance 422.8
+		period 194.396
+	object
+		sprite planet/dust5
+		distance 1026.49
+		period 735.389
+	object
+		sprite planet/gas17
+		distance 1798.1
+		period 1704.93
+		object
+			sprite planet/luna
+			distance 222
+			period 14.132
+		object
+			sprite planet/rock7
+			distance 328
+			period 25.3796
+		object
+			sprite planet/dust1
+			distance 461
+			period 42.2887
+
+system Mke-2535
+	pos -48559.7 -53071.8
+	government Donko
+	habitable 806.68
+	belt 1014
+	link Mak-3203
+	link Mke-1267
+	link Mke-2000
+	link Mke-923
+	asteroids "small rock" 29 5.5062
+	asteroids "medium rock" 57 4.9266
+	asteroids "large rock" 4 3.0912
+	asteroids "small metal" 8 5.5062
+	asteroids "medium metal" 49 4.5885
+	asteroids "large metal" 10 5.5062
+	minables silver 12 9.02978
+	minables titanium 27 8.68838
+	object
+		sprite star/k0
+		distance 39.2721
+		period 13.8727
+	object
+		sprite star/m0
+		distance 59.7279
+		period 13.8727
+		offset 180
+	object
+		sprite planet/lava0
+		distance 226.728
+		period 48.0803
+	object
+		sprite planet/titan
+		distance 384.018
+		period 105.983
+	object
+		sprite planet/cloud3
+		distance 600.268
+		period 207.122
+	object
+		sprite planet/gas9
+		distance 1812.31
+		period 1086.57
+	object
+		sprite planet/gas8
+		distance 4777.75
+		period 4650.98
+		object
+			sprite planet/callisto
+			distance 195
+			period 14.4954
+		object
+			sprite planet/dust5
+			distance 319
+			period 30.3293
+
+system Mke-3402
+	pos -48625.4 -52989
+	government Donko
+	habitable 1080
+	belt 1408
+	link Mke-1267
+	link Mke-4329
+	link Mke-5239
+	link Mke-923
+	asteroids "small rock" 1 3.0492
+	asteroids "large rock" 2 1.5477
+	asteroids "medium metal" 13 3.3264
+	asteroids "large metal" 3 1.4322
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/ice2
+		distance 239.64
+		period 45.153
+	object
+		sprite planet/lava4
+		distance 542.68
+		period 153.874
+	object
+		sprite planet/rock11
+		distance 808.17
+		period 279.642
+	object
+		sprite planet/rock18
+		distance 1076.21
+		period 429.728
+		object
+			sprite planet/io
+			distance 127
+			period 17.9915
+	object
+		sprite planet/desert2
+		distance 1549.77
+		period 742.59
+	object
+		sprite planet/gas2
+		distance 3975.46
+		period 3050.91
+		object
+			sprite planet/dust0
+			distance 197
+			period 16.7538
+		object
+			sprite planet/ice8
+			distance 289
+			period 29.7688
+		object
+			sprite planet/miranda
+			distance 454
+			period 58.6136
+		object
+			sprite planet/rhea
+			distance 546
+			period 77.3043
+
+system Mke-43
+	pos -48493.4 -52977.9
+	government Donko
+	habitable 3645
+	belt 1002
+	link Aku-2359
+	link Mke-2000
+	link Mke-4329
+	link Mke-923
+	asteroids "medium rock" 10 3.618
+	asteroids "large rock" 2 3.429
+	asteroids "small metal" 72 1.566
+	asteroids "medium metal" 28 1.377
+	asteroids "large metal" 15 1.998
+	minables aluminum 14 2.15661
+	minables copper 11 2.99029
+	minables uranium 1 3.38947
+	object
+		sprite star/a5
+		period 10
+	object
+		sprite planet/cloud4
+		distance 189.24
+		period 17.2477
+	object
+		sprite planet/rock6
+		distance 677.65
+		period 116.874
+		object
+			sprite planet/ice8
+			distance 144
+			period 21.7223
+	object
+		sprite planet/gas5
+		distance 1392.14
+		period 344.14
+		object
+			sprite planet/rock17
+			distance 242
+			period 12.519
+		object
+			sprite planet/oberon
+			distance 369
+			period 23.5715
+	object
+		sprite planet/gas7
+		distance 2254.1
+		period 709.04
+		object
+			sprite planet/miranda
+			distance 260
+			period 14.9139
+		object
+			sprite planet/desert4
+			distance 341
+			period 22.4007
+
+system Mke-4329
+	pos -48566.6 -52946.7
+	government Donko
+	habitable 1111.68
+	belt 1051
+	link Mke-3402
+	link Mke-43
+	link Mke-923
+	asteroids "large metal" 1 5.265
+	object
+		sprite star/g5
+		distance 42.4654
+		period 11.4611
+	object
+		sprite star/k0
+		distance 54.5346
+		period 11.4611
+		offset 180
+	object
+		sprite planet/cloud7
+		distance 211.225
+		period 36.8287
+	object
+		sprite planet/rock4
+		distance 631.585
+		period 190.422
+	object
+		sprite planet/gas8
+		distance 1148.99
+		period 467.248
+		object
+			sprite planet/desert4
+			distance 212
+			period 16.4316
+		object
+			sprite planet/miranda
+			distance 333
+			period 32.3477
+	object
+		sprite planet/neptune
+		distance 1880.88
+		period 978.618
+
+system Mke-5239
+	pos -48687.8 -53022.6
+	government Donko
+	habitable 2160
+	belt 1804
+	link Mke-1267
+	link Mke-2267
+	link Mke-3402
+	asteroids "medium rock" 45 2.958
+	asteroids "large rock" 3 3.91
+	asteroids "medium metal" 7 3.638
+	asteroids "large metal" 1 2.21
+	minables iron 12 3.89085
+	minables silicon 1 3.66905
+	object
+		sprite star/g0
+		distance 56.5
+		period 10.3383
+		offset 180
+	object
+		sprite star/g0
+		distance 56.5
+		period 10.3383
+	object
+		sprite planet/gas12
+		distance 914.5
+		period 238.017
+		object
+			sprite planet/ice7
+			distance 288
+			period 12.8373
+		object
+			sprite planet/rock3
+			distance 406
+			period 21.4869
+		object
+			sprite planet/luna
+			distance 550
+			period 33.8789
+		object
+			sprite planet/io
+			distance 693
+			period 47.9165
+	object
+		sprite planet/cloud0
+		distance 2095.66
+		period 825.685
+		object
+			sprite planet/dust4
+			distance 147
+			period 21.9639
+
+system Mke-923
+	pos -48562.8 -53009.9
+	government Donko
+	habitable 425.92
+	belt 1325
+	link Mke-1267
+	link Mke-2000
+	link Mke-2535
+	link Mke-3402
+	link Mke-43
+	link Mke-4329
+	asteroids "medium rock" 1 6.2491
+	asteroids "large rock" 2 6.3802
+	asteroids "large metal" 1 3.059
+	minables gold 1 7.00123
+	minables silver 1 7.02882
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/rock5
+		distance 209.44
+		period 58.747
+	object
+		sprite planet/rock3
+		distance 359
+		period 131.837
+	object
+		sprite planet/dust1
+		distance 641.76
+		period 315.105
+	object
+		sprite planet/rock11
+		distance 789.4
+		period 429.874
+	object
+		sprite planet/gas16
+		distance 1664.65
+		period 1316.38
+		object
+			sprite planet/desert4
+			distance 209
+			period 15.9044
+		object
+			sprite planet/ice8
+			distance 353
+			period 34.9108
 
 system Modher'ai
 	pos -49361.8 -55596.5
@@ -60890,6 +62549,55 @@ system "Na Lao"
 			sprite planet/lava0
 			distance 411
 			period 23.5219
+
+system Na0H$v2%nnJ8
+	pos -50961.6 -56136.3
+	habitable 1080
+	belt 1074
+	asteroids "small rock" 1 4.0128
+	asteroids "medium rock" 5 6.061
+	asteroids "large rock" 9 6.1446
+	asteroids "medium metal" 18 5.8938
+	asteroids "large metal" 2 3.8456
+	minables copper 1 6.11359
+	minables iron 6 6.97367
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/rock10
+		distance 218.96
+		period 39.4362
+	object
+		sprite planet/rock9
+		distance 441.12
+		period 112.767
+	object
+		sprite planet/ice4
+		distance 929.12
+		period 344.712
+	object
+		sprite planet/gas13
+		distance 1519.56
+		period 720.983
+	object
+		sprite planet/ocean9
+		distance 2028.12
+		period 1111.7
+		object
+			sprite planet/luna
+			distance 147
+			period 18.2466
 
 system Nacca
 	pos -44447.7 -58007.5
@@ -75014,20 +76722,154 @@ system "Ruu ei"
 			distance 446
 			period 24.0584
 
-system S3-1
+system "Sa ii no"
+	pos -50346.5 -53453
+	government Nuru
+	habitable 425.92
+	link "Ra ke"
+	link "Se kog ii"
+	link "Ya ok na"
+	asteroids "small rock" 20 2.3331
+	asteroids "medium rock" 14 3.0954
+	asteroids "large rock" 2 2.9568
+	asteroids "medium metal" 31 2.1252
+	asteroids "large metal" 33 3.465
+	fleet Nuru 800
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/rock8
+		distance 140.24
+		period 32.1887
+	object "Ii sin"
+		sprite planet/desert7
+		distance 462.301
+		period 192.656
+		offset 314.999
+	object "Ii so"
+		sprite planet/rock6
+		distance 743.461
+		period 392.901
+		offset 233.266
+	object
+		sprite planet/gas12
+		distance 1281.42
+		period 889.066
+		offset 326.394
+		object
+			sprite planet/ice7
+			distance 292
+			period 13.1057
+	object
+		sprite planet/gas1
+		distance 3098.78
+		period 3343.35
+		offset 356.2
+
+system Sa-142
+	pos -48223.2 -53238.7
+	government Donko
+	habitable 425.92
+	link Sa-231
+	link Sa-321
+	link Sa-411
+	link Sa-902
+	link Sa-943
+	asteroids "medium metal" 1 4.374
+	asteroids "large metal" 2 3.8394
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/rock18
+		distance 150.61
+		period 35.8242
+	object
+		sprite planet/desert1
+		distance 674.97
+		period 339.878
+		object
+			sprite planet/dust4
+			distance 150
+			period 15.9472
+	object
+		sprite planet/gas15
+		distance 1692.13
+		period 1349.11
+		object
+			sprite planet/dust7
+			distance 205
+			period 15.45
+		object
+			sprite planet/ice0
+			distance 332
+			period 31.8423
+		object
+			sprite planet/dust5
+			distance 491
+			period 57.269
+
+system Sa-225
+	pos -48036.1 -53315.4
+	government Donko
+	habitable 945
+	link Sa-234
+	link Sa-463
+	link Sa-637
+	asteroids "small rock" 7 2.3184
+	asteroids "medium rock" 202 1.4868
+	asteroids "large rock" 9 2.8476
+	asteroids "small metal" 1 3.4524
+	asteroids "medium metal" 116 2.268
+	asteroids "large metal" 6 1.7136
+	object
+		sprite star/g5
+		distance 29.4603
+		period 10.559
+	object
+		sprite star/m0
+		distance 57.5397
+		period 10.559
+		offset 180
+	object
+		sprite planet/rock4
+		distance 222.79
+		period 43.27
+	object
+		sprite planet/rock18
+		distance 542.8
+		period 164.552
+	object
+		sprite planet/gas9
+		distance 1285.24
+		period 599.543
+	object
+		sprite planet/gas12
+		distance 2146.93
+		period 1294.41
+		object
+			sprite planet/miranda
+			distance 278
+			period 12.1745
+		object
+			sprite planet/desert4
+			distance 423
+			period 22.8505
+
+system Sa-231
 	pos -48152.4 -53231.4
 	government Donko
 	habitable 1080
-	link S4-1
-	link S4-2
-	link S4-7
-	link S4-8
+	link Sa-142
+	link Sa-234
+	link Sa-411
+	link Sa-523
 	asteroids "small rock" 20 7.5072
 	asteroids "medium rock" 49 6.4032
 	asteroids "large rock" 5 5.4096
 	asteroids "medium metal" 16 5.6856
 	asteroids "large metal" 1 8.004
-	fleet "Ultaka Patrol" 1000
 	object
 		sprite star/g0
 		period 10
@@ -75056,56 +76898,14 @@ system S3-1
 		distance 2080.51
 		period 1155.06
 
-system S4-1
-	pos -48165.9 -53337
-	government Donko
-	habitable 625
-	link "Dorai Nowoku"
-	link S3-1
-	link S4-2
-	link S4-8
-	link S5-9
-	asteroids "small rock" 58 3.872
-	asteroids "medium rock" 51 6.16
-	asteroids "large rock" 27 3.08
-	asteroids "small metal" 5 6.512
-	asteroids "medium metal" 50 2.244
-	asteroids "large metal" 10 5.368
-	object
-		sprite star/g5
-		period 10
-	object
-		sprite planet/desert0
-		distance 236.49
-		period 58.1888
-	object
-		sprite planet/gas17
-		distance 697.74
-		period 294.89
-	object
-		sprite planet/gas3
-		distance 1139.9
-		period 615.772
-	object
-		sprite planet/gas2
-		distance 2816.15
-		period 2391.13
-		object
-			sprite planet/ice0
-			distance 185
-			period 15.2466
-		object
-			sprite planet/miranda
-			distance 320
-			period 34.6848
-
-system S4-2
+system Sa-234
 	pos -48094.7 -53292.7
 	government Donko
 	habitable 625
-	link S3-1
-	link S4-1
-	link S5-1
+	link Sa-225
+	link Sa-231
+	link Sa-463
+	link Sa-523
 	asteroids "small rock" 12 6.4525
 	asteroids "medium rock" 16 8.3375
 	asteroids "large rock" 116 6.4525
@@ -75148,57 +76948,214 @@ system S4-2
 			distance 336
 			period 20.4812
 
-system S4-3
-	pos -47814.5 -53232.4
+system Sa-244
+	pos -48400.7 -53204
 	government Donko
-	habitable 1080
-	link S4-4
-	link S5-2
-	link S5-3
-	link S5-4
-	link S5-5
-	asteroids "medium rock" 4 3.6375
-	asteroids "large rock" 2 3.0375
-	asteroids "large metal" 1 5.1
+	habitable 5360
+	link "Coai Mesoh'a"
+	link Sa-342
+	link Sa-902
+	asteroids "small rock" 15 3.132
+	asteroids "medium rock" 11 2.88
+	asteroids "large rock" 2 1.836
+	asteroids "medium metal" 11 1.8
+	asteroids "large metal" 6 2.016
 	object
-		sprite star/g0
-		period 10
+		sprite star/a5
+		distance 44.1549
+		period 8.8572
 	object
-		sprite planet/ice3
-		distance 238.89
-		period 44.9412
+		sprite star/f5
+		distance 93.8451
+		period 8.8572
+		offset 180
 	object
-		sprite planet/cloud1
-		distance 551.14
-		period 157.486
+		sprite planet/luna
+		distance 229.805
+		period 19.0334
 	object
-		sprite planet/cloud0
-		distance 1110.18
-		period 450.234
-		object
-			sprite planet/rock7
-			distance 146
-			period 21.7402
+		sprite planet/gas0
+		distance 728.965
+		period 107.532
 	object
-		sprite planet/gas11
-		distance 2419.22
-		period 1448.31
-		object
-			sprite planet/dust4
-			distance 265
-			period 14.2281
+		sprite planet/desert8
+		distance 1116.58
+		period 203.849
+	object
+		sprite planet/rock10
+		distance 1437.59
+		period 297.802
 		object
 			sprite planet/rock0
-			distance 409
-			period 27.2812
+			distance 160
+			period 17.0332
+	object
+		sprite planet/gas14
+		distance 2802.28
+		period 810.483
+		object
+			sprite planet/dust4
+			distance 252
+			period 16.2914
 
-system S4-4
-	pos -47713.1 -53228.1
+system Sa-321
+	pos -48302.3 -53299.7
+	government Donko
+	habitable 1215
+	belt 1002
+	link Sa-142
+	link Sa-902
+	asteroids "small rock" 49 3.298
+	asteroids "medium rock" 12 4.182
+	asteroids "large rock" 46 2.618
+	asteroids "small metal" 31 3.808
+	asteroids "medium metal" 27 1.938
+	asteroids "large metal" 1 2.89
+	minables aluminum 4 5.40496
+	minables platinum 2 3.34955
+	object
+		sprite star/g0
+		distance 11.2222
+		period 11.6481
+	object
+		sprite star/m8
+		distance 89.7778
+		period 11.6481
+		offset 180
+	object
+		sprite planet/desert5
+		distance 315.988
+		period 64.4581
+	object
+		sprite planet/gas11
+		distance 846.238
+		period 282.495
+		object
+			sprite planet/ice0
+			distance 251
+			period 13.1156
+	object
+		sprite planet/gas17
+		distance 1643.85
+		period 764.829
+		object
+			sprite planet/dust1
+			distance 246
+			period 16.4845
+	object
+		sprite planet/gas10
+		distance 2540.26
+		period 1469.23
+		object
+			sprite planet/io
+			distance 212
+			period 16.248
+		object
+			sprite planet/rock14
+			distance 319
+			period 29.9905
+		object
+			sprite planet/ice7
+			distance 461
+			period 52.1013
+
+system Sa-342
+	pos -48391.8 -53268.3
+	government Donko
+	habitable 10355
+	link Sa-244
+	link Sa-902
+	asteroids "small rock" 3 8.1648
+	asteroids "medium rock" 9 6.237
+	asteroids "large rock" 5 7.8246
+	asteroids "large metal" 2 3.0051
+	object
+		sprite star/b5
+		distance 26.6649
+		period 8.03015
+	object
+		sprite star/f5
+		distance 134.335
+		period 8.03015
+		offset 180
+	object
+		sprite planet/desert2
+		distance 384.975
+		period 29.6916
+	object
+		sprite planet/lava5
+		distance 582.065
+		period 55.2004
+	object
+		sprite planet/rock14
+		distance 783.755
+		period 86.2493
+	object
+		sprite planet/ice5
+		distance 1008.72
+		period 125.932
+	object
+		sprite planet/rhea
+		distance 2726.36
+		period 559.575
+
+system Sa-411
+	pos -48247.9 -53312.7
+	government Donko
+	habitable 973.36
+	link Sa-142
+	link Sa-231
+	link Sa-523
+	link Sa-663
+	asteroids "small rock" 18 2.5974
+	asteroids "medium rock" 195 1.7082
+	asteroids "large rock" 55 1.9656
+	asteroids "small metal" 50 2.3634
+	asteroids "medium metal" 21 1.404
+	asteroids "large metal" 4 2.34
+	fleet "Ultaka Patrol" 1000
+	object
+		sprite star/k0
+		distance 58
+		period 16.0181
+		offset 180
+	object
+		sprite star/k0
+		distance 58
+		period 16.0181
+	object
+		sprite planet/desert7
+		distance 262.24
+		period 54.4467
+	object
+		sprite planet/ice1
+		distance 614.85
+		period 195.469
+	object
+		sprite planet/desert10
+		distance 1110.61
+		period 474.532
+		object
+			sprite planet/rock3
+			distance 153
+			period 19.3751
+	object
+		sprite planet/gas2
+		distance 2239.82
+		period 1359.07
+		object
+			sprite planet/tethys
+			distance 180
+			period 14.6327
+
+system Sa-420
+	pos -47841.1 -53227.1
 	government Donko
 	habitable 1715
-	link S4-3
-	link S4-5
-	link S5-5
+	link Sa-446
+	link Sa-458
+	link Sa-488
+	link Sa-500
 	asteroids "small rock" 29 4.9704
 	asteroids "medium rock" 57 5.6544
 	asteroids "large rock" 6 2.8272
@@ -75225,12 +77182,12 @@ system S4-4
 		distance 2248.78
 		period 1030.03
 
-system S4-5
-	pos -47692.1 -53162.8
+system Sa-446
+	pos -47832.1 -53164.8
 	government Donko
 	habitable 5000
-	link S4-4
-	link S4-6
+	link Sa-420
+	link Sa-458
 	asteroids "medium rock" 2 1.5552
 	asteroids "large rock" 38 1.9296
 	asteroids "small metal" 2 2.1312
@@ -75272,13 +77229,15 @@ system S4-5
 			distance 279
 			period 15.4972
 
-system S4-6
-	pos -47624.4 -53190.7
+system Sa-458
+	pos -47758.4 -53203.7
 	government Donko
 	habitable 233.28
 	belt 1333
-	link "Irshall Mer"
-	link S4-5
+	link Sa-420
+	link Sa-446
+	link Sa-489
+	link Sa-500
 	asteroids "small rock" 9 4.0005
 	asteroids "medium rock" 16 2.6145
 	asteroids "large rock" 10 1.827
@@ -75324,152 +77283,381 @@ system S4-6
 			distance 527
 			period 40.2312
 
-system S4-7
-	pos -48223.2 -53238.7
-	government Donko
-	habitable 425.92
-	link S3-1
-	link S4-8
-	link S5-6
-	link S5-7
-	link S5-8
-	asteroids "medium metal" 1 4.374
-	asteroids "large metal" 2 3.8394
-	object
-		sprite star/k5
-		period 10
-	object
-		sprite planet/rock18
-		distance 150.61
-		period 35.8242
-	object
-		sprite planet/desert1
-		distance 674.97
-		period 339.878
-		object
-			sprite planet/dust4
-			distance 150
-			period 15.9472
-	object
-		sprite planet/gas15
-		distance 1692.13
-		period 1349.11
-		object
-			sprite planet/dust7
-			distance 205
-			period 15.45
-		object
-			sprite planet/ice0
-			distance 332
-			period 31.8423
-		object
-			sprite planet/dust5
-			distance 491
-			period 57.269
-
-system S4-8
-	pos -48249.9 -53333.7
-	government Donko
-	habitable 973.36
-	link S3-1
-	link S4-1
-	link S4-7
-	link S5-9
-	asteroids "small rock" 18 2.5974
-	asteroids "medium rock" 195 1.7082
-	asteroids "large rock" 55 1.9656
-	asteroids "small metal" 50 2.3634
-	asteroids "medium metal" 21 1.404
-	asteroids "large metal" 4 2.34
-	fleet "Ultaka Patrol" 1000
-	object
-		sprite star/k0
-		distance 58
-		period 16.0181
-		offset 180
-	object
-		sprite star/k0
-		distance 58
-		period 16.0181
-	object
-		sprite planet/desert7
-		distance 262.24
-		period 54.4467
-	object
-		sprite planet/ice1
-		distance 614.85
-		period 195.469
-	object
-		sprite planet/desert10
-		distance 1110.61
-		period 474.532
-		object
-			sprite planet/rock3
-			distance 153
-			period 19.3751
-	object
-		sprite planet/gas2
-		distance 2239.82
-		period 1359.07
-		object
-			sprite planet/tethys
-			distance 180
-			period 14.6327
-
-system S5-1
-	pos -48034.1 -53324.4
+system Sa-463
+	pos -48090 -53334.8
 	government Donko
 	habitable 945
-	link S4-2
-	link S6-1
-	asteroids "small rock" 7 2.3184
-	asteroids "medium rock" 202 1.4868
-	asteroids "large rock" 9 2.8476
-	asteroids "small metal" 1 3.4524
-	asteroids "medium metal" 116 2.268
-	asteroids "large metal" 6 1.7136
+	belt 1396
+	link "Dorai Nowoku"
+	link Sa-225
+	link Sa-234
+	link Sa-637
+	asteroids "small rock" 2 2.4624
+	asteroids "medium rock" 2 2.4192
+	asteroids "large rock" 6 5.7456
+	asteroids "medium metal" 1 6.4368
+	asteroids "large metal" 6 5.184
 	object
 		sprite star/g5
-		distance 29.4603
-		period 10.559
-	object
-		sprite star/m0
-		distance 57.5397
-		period 10.559
+		distance 38.9418
+		period 16.0469
 		offset 180
 	object
-		sprite planet/rock4
-		distance 222.79
-		period 43.27
+		sprite star/m0
+		distance 76.0582
+		period 16.0469
 	object
-		sprite planet/rock18
-		distance 542.8
-		period 164.552
+		sprite planet/cloud4
+		distance 245.468
+		period 50.0423
 	object
-		sprite planet/gas9
-		distance 1285.24
-		period 599.543
+		sprite planet/tethys
+		distance 518.508
+		period 153.631
 	object
-		sprite planet/gas12
-		distance 2146.93
-		period 1294.41
+		sprite planet/gas0
+		distance 1131.52
+		period 495.264
 		object
-			sprite planet/miranda
-			distance 278
-			period 12.1745
+			sprite planet/rock3
+			distance 276
+			period 13.4376
+	object
+		sprite planet/ocean4
+		distance 1679.68
+		period 895.743
+	object
+		sprite planet/jupiter
+		distance 2360.17
+		period 1491.96
+		object
+			sprite planet/luna
+			distance 281
+			period 14.802
+		object
+			sprite planet/ice8
+			distance 386
+			period 23.831
+
+system Sa-488
+	pos -47936.5 -53218.4
+	government Donko
+	habitable 1080
+	link Sa-420
+	link Sa-490
+	link Sa-528
+	link Sa-544
+	link Sa-555
+	asteroids "medium rock" 4 3.6375
+	asteroids "large rock" 2 3.0375
+	asteroids "large metal" 1 5.1
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/ice3
+		distance 238.89
+		period 44.9412
+	object
+		sprite planet/cloud1
+		distance 551.14
+		period 157.486
+	object
+		sprite planet/cloud0
+		distance 1110.18
+		period 450.234
+		object
+			sprite planet/rock7
+			distance 146
+			period 21.7402
+	object
+		sprite planet/gas11
+		distance 2419.22
+		period 1448.31
+		object
+			sprite planet/dust4
+			distance 265
+			period 14.2281
+		object
+			sprite planet/rock0
+			distance 409
+			period 27.2812
+
+system Sa-489
+	pos -47711.8 -53251.9
+	government Donko
+	habitable 486.68
+	belt 1917
+	link Sa-458
+	link Sa-C38
+	link Sa-C438
+	asteroids "small rock" 2 2.4
+	asteroids "medium rock" 7 2.424
+	asteroids "large rock" 7 2.136
+	asteroids "large metal" 5 2.688
+	minables aluminum 5 2.70386
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/lava1
+		distance 127.69
+		period 26.1622
+	object
+		sprite planet/ice1
+		distance 437.78
+		period 166.082
+		object
+			sprite planet/dust7
+			distance 170
+			period 18.9439
+	object
+		sprite planet/dust1
+		distance 1046.54
+		period 613.864
+	object
+		sprite planet/lava5
+		distance 1207.43
+		period 760.731
+	object
+		sprite planet/cloud7
+		distance 1427.07
+		period 977.476
+	object
+		sprite planet/gas4
+		distance 4395.03
+		period 5283
+		object
+			sprite planet/luna
+			distance 239
+			period 13.0315
+		object
+			sprite planet/ice7
+			distance 351
+			period 23.1931
+		object
+			sprite planet/io
+			distance 503
+			period 39.7877
+		object
+			sprite planet/europa
+			distance 664
+			period 60.3461
+
+system Sa-490
+	pos -47890.3 -53256.9
+	government Donko
+	habitable 233.28
+	link Sa-488
+	link Sa-528
+	asteroids "small rock" 31 7.1148
+	asteroids "medium rock" 25 7.056
+	asteroids "large rock" 127 8.7024
+	asteroids "small metal" 10 3.9984
+	asteroids "medium metal" 1 7.2324
+	asteroids "large metal" 16 7.056
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/rock10
+		distance 177.56
+		period 61.9639
+	object
+		sprite planet/gas14
+		distance 526.81
+		period 316.667
+	object
+		sprite planet/uranus
+		distance 1360.7
+		period 1314.51
+	object
+		sprite planet/gas7
+		distance 2185.66
+		period 2676.06
+		object
+			sprite planet/ice7
+			distance 262
+			period 15.0863
 		object
 			sprite planet/desert4
-			distance 423
-			period 22.8505
+			distance 407
+			period 29.2094
+		object
+			sprite planet/dust5
+			distance 500
+			period 39.7727
 
-system S5-2
-	pos -47903.6 -53267.1
+system Sa-500
+	pos -47795.6 -53254.8
+	government Donko
+	habitable 486.68
+	belt 1002
+	link Sa-420
+	link Sa-458
+	asteroids "small rock" 76 5.772
+	asteroids "medium rock" 116 4.719
+	asteroids "large rock" 21 5.148
+	asteroids "medium metal" 1 2.262
+	asteroids "large metal" 3 4.602
+	minables iron 2 9.49086
+	minables uranium 11 6.5029
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/rock7
+		distance 109.41
+		period 20.7503
+	object
+		sprite planet/ice2
+		distance 462.41
+		period 180.293
+	object
+		sprite planet/gas2
+		distance 819.25
+		period 425.17
+		object
+			sprite planet/luna
+			distance 186
+			period 15.3704
+	object
+		sprite planet/gas8
+		distance 1569.94
+		period 1127.88
+		object
+			sprite planet/rock3
+			distance 190
+			period 13.9414
+		object
+			sprite planet/dust3
+			distance 312
+			period 29.3365
+	object
+		sprite planet/gas15
+		distance 2173.5
+		period 1837.29
+
+system Sa-523
+	pos -48165.9 -53337
+	government Donko
+	habitable 625
+	link "Dorai Nowoku"
+	link Sa-231
+	link Sa-234
+	link Sa-411
+	link Sa-663
+	asteroids "small rock" 58 3.872
+	asteroids "medium rock" 51 6.16
+	asteroids "large rock" 27 3.08
+	asteroids "small metal" 5 6.512
+	asteroids "medium metal" 50 2.244
+	asteroids "large metal" 10 5.368
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/desert0
+		distance 236.49
+		period 58.1888
+	object
+		sprite planet/gas17
+		distance 697.74
+		period 294.89
+	object
+		sprite planet/gas3
+		distance 1139.9
+		period 615.772
+	object
+		sprite planet/gas2
+		distance 2816.15
+		period 2391.13
+		object
+			sprite planet/ice0
+			distance 185
+			period 15.2466
+		object
+			sprite planet/miranda
+			distance 320
+			period 34.6848
+
+system Sa-528
+	pos -47904.5 -53287.4
+	government Donko
+	habitable 1566.68
+	belt 1087
+	link Sa-488
+	link Sa-490
+	link Sa-546
+	link Sa-555
+	asteroids "small rock" 2 9.306
+	asteroids "medium rock" 5 8.844
+	asteroids "large rock" 1 6.204
+	asteroids "small metal" 14 8.382
+	asteroids "large metal" 21 7.722
+	object
+		sprite star/g0
+		distance 37.2773
+		period 13.2844
+	object
+		sprite star/k0
+		distance 82.7227
+		period 13.2844
+		offset 180
+	object
+		sprite planet/desert1
+		distance 329.163
+		period 60.3512
+	object
+		sprite planet/gas9
+		distance 764.413
+		period 213.581
+		object
+			sprite planet/europa
+			distance 252
+			period 15
+	object
+		sprite planet/gas5
+		distance 1699.45
+		period 708
+		object
+			sprite planet/miranda
+			distance 249
+			period 13.0661
+		object
+			sprite planet/dust0
+			distance 343
+			period 21.1246
+
+system Sa-544
+	pos -47980.6 -53288.1
 	government Donko
 	habitable 425.92
 	belt 1060
-	link S4-3
-	link S5-3
-	link S6-2
+	link Sa-488
+	link Sa-546
+	link Sa-555
+	link Sa-637
 	asteroids "small rock" 18 6.8875
 	asteroids "medium rock" 79 6.612
 	asteroids "large rock" 17 5.6753
@@ -75506,16 +77694,15 @@ system S5-2
 			distance 289
 			period 15.4386
 
-system S5-3
-	pos -47888.9 -53318.7
+system Sa-546
+	pos -47935.9 -53348.7
 	government Donko
 	habitable 320
 	belt 1946
-	link S4-3
-	link S5-2
-	link S5-4
-	link S6-2
-	link S6-3
+	link Sa-528
+	link Sa-544
+	link Sa-555
+	link Sa-637
 	asteroids "small rock" 84 1.677
 	asteroids "medium rock" 7 1.508
 	asteroids "large rock" 7 1.391
@@ -75574,350 +77761,71 @@ system S5-3
 			distance 564
 			period 70.5043
 
-system S5-4
-	pos -47786.5 -53330.4
-	government Donko
-	habitable 1566.68
-	belt 1087
-	link S4-3
-	link S5-3
-	link S5-5
-	link S6-3
-	link S6-4
-	asteroids "small rock" 2 9.306
-	asteroids "medium rock" 5 8.844
-	asteroids "large rock" 1 6.204
-	asteroids "small metal" 14 8.382
-	asteroids "large metal" 21 7.722
-	object
-		sprite star/g0
-		distance 37.2773
-		period 13.2844
-	object
-		sprite star/k0
-		distance 82.7227
-		period 13.2844
-		offset 180
-	object
-		sprite planet/desert1
-		distance 329.163
-		period 60.3512
-	object
-		sprite planet/gas9
-		distance 764.413
-		period 213.581
-		object
-			sprite planet/europa
-			distance 252
-			period 15
-	object
-		sprite planet/gas5
-		distance 1699.45
-		period 708
-		object
-			sprite planet/miranda
-			distance 249
-			period 13.0661
-		object
-			sprite planet/dust0
-			distance 343
-			period 21.1246
-
-system S5-5
-	pos -47719.3 -53276.9
-	government Donko
-	habitable 233.28
-	link S4-3
-	link S4-4
-	link S5-4
-	asteroids "small rock" 31 7.1148
-	asteroids "medium rock" 25 7.056
-	asteroids "large rock" 127 8.7024
-	asteroids "small metal" 10 3.9984
-	asteroids "medium metal" 1 7.2324
-	asteroids "large metal" 16 7.056
-	object
-		sprite star/m4
-		period 10
-	object
-		sprite planet/rock10
-		distance 177.56
-		period 61.9639
-	object
-		sprite planet/gas14
-		distance 526.81
-		period 316.667
-	object
-		sprite planet/uranus
-		distance 1360.7
-		period 1314.51
-	object
-		sprite planet/gas7
-		distance 2185.66
-		period 2676.06
-		object
-			sprite planet/ice7
-			distance 262
-			period 15.0863
-		object
-			sprite planet/desert4
-			distance 407
-			period 29.2094
-		object
-			sprite planet/dust5
-			distance 500
-			period 39.7727
-
-system S5-6
-	pos -48332.3 -53174.9
-	government Donko
-	habitable 233.28
-	link S4-7
-	link S5-7
-	link S6-7
-	asteroids "small rock" 2 3.591
-	asteroids "medium rock" 10 3.4485
-	asteroids "large rock" 3 1.4535
-	asteroids "small metal" 118 2.451
-	asteroids "medium metal" 64 2.5365
-	asteroids "large metal" 64 3.99
-	object
-		sprite star/m4
-		period 10
-	object
-		sprite planet/venus
-		distance 155.84
-		period 50.9495
-	object
-		sprite planet/lava1
-		distance 351.8
-		period 172.808
-	object
-		sprite planet/desert1
-		distance 687.69
-		period 472.292
-	object
-		sprite planet/rock14
-		distance 1214.58
-		period 1108.56
-	object
-		sprite planet/gas11
-		distance 3030.22
-		period 4368.5
-
-system S5-7
-	pos -48333.9 -53227.8
-	government Donko
-	habitable 486.68
-	link S4-7
-	link S5-6
-	link S5-8
-	link S6-8
-	link S6-9
-	asteroids "small rock" 6 4.488
-	asteroids "medium rock" 15 2.992
-	asteroids "large rock" 13 3.842
-	asteroids "large metal" 3 2.788
-	object
-		sprite star/k0
-		period 10
-	object
-		sprite planet/rock18
-		distance 178.25
-		period 43.1502
-	object
-		sprite planet/gas16
-		distance 706.89
-		period 340.774
-		object
-			sprite planet/dust5
-			distance 239
-			period 19.4489
-		object
-			sprite planet/oberon
-			distance 342
-			period 33.2917
-	object
-		sprite planet/gas1
-		distance 1780.73
-		period 1362.5
-	object
-		sprite planet/gas14
-		distance 2418.94
-		period 2157.13
-		object
-			sprite planet/rock7
-			distance 238
-			period 14.9529
-		object
-			sprite planet/tethys
-			distance 362
-			period 28.0493
-
-system S5-8
-	pos -48302.3 -53299.7
-	government Donko
-	habitable 1215
-	belt 1002
-	link S4-7
-	link S5-7
-	asteroids "small rock" 49 3.298
-	asteroids "medium rock" 12 4.182
-	asteroids "large rock" 46 2.618
-	asteroids "small metal" 31 3.808
-	asteroids "medium metal" 27 1.938
-	asteroids "large metal" 1 2.89
-	minables aluminum 4 5.40496
-	minables platinum 2 3.34955
-	object
-		sprite star/g0
-		distance 11.2222
-		period 11.6481
-	object
-		sprite star/m8
-		distance 89.7778
-		period 11.6481
-		offset 180
-	object
-		sprite planet/desert5
-		distance 315.988
-		period 64.4581
-	object
-		sprite planet/gas11
-		distance 846.238
-		period 282.495
-		object
-			sprite planet/ice0
-			distance 251
-			period 13.1156
-	object
-		sprite planet/gas17
-		distance 1643.85
-		period 764.829
-		object
-			sprite planet/dust1
-			distance 246
-			period 16.4845
-	object
-		sprite planet/gas10
-		distance 2540.26
-		period 1469.23
-		object
-			sprite planet/io
-			distance 212
-			period 16.248
-		object
-			sprite planet/rock14
-			distance 319
-			period 29.9905
-		object
-			sprite planet/ice7
-			distance 461
-			period 52.1013
-
-system S5-9
-	pos -48233.8 -53444.7
-	government Donko
-	habitable 486.68
-	link S4-1
-	link S4-8
-	asteroids "small rock" 2 2.745
-	asteroids "medium rock" 28 3.735
-	asteroids "large rock" 6 2.475
-	asteroids "small metal" 1 5.805
-	asteroids "medium metal" 7 6.3
-	asteroids "large metal" 1 6.57
-	object
-		sprite star/k0
-		period 10
-	object
-		sprite planet/rock1
-		distance 154.25
-		period 34.7357
-	object
-		sprite planet/rock11
-		distance 413.94
-		period 152.702
-	object
-		sprite planet/ice0
-		distance 575.3
-		period 250.196
-	object
-		sprite planet/dust1
-		distance 763.59
-		period 382.586
-	object
-		sprite planet/gas11
-		distance 2164
-		period 1825.26
-		object
-			sprite planet/rock3
-			distance 241
-			period 12.3397
-
-system S6-1
-	pos -47995 -53383.8
-	government Donko
-	habitable 945
-	belt 1396
-	link "Dorai Nowoku"
-	link S5-1
-	link S6-2
-	asteroids "small rock" 2 2.4624
-	asteroids "medium rock" 2 2.4192
-	asteroids "large rock" 6 5.7456
-	asteroids "medium metal" 1 6.4368
-	asteroids "large metal" 6 5.184
-	object
-		sprite star/g5
-		distance 38.9418
-		period 16.0469
-		offset 180
-	object
-		sprite star/m0
-		distance 76.0582
-		period 16.0469
-	object
-		sprite planet/cloud4
-		distance 245.468
-		period 50.0423
-	object
-		sprite planet/tethys
-		distance 518.508
-		period 153.631
-	object
-		sprite planet/gas0
-		distance 1131.52
-		period 495.264
-		object
-			sprite planet/rock3
-			distance 276
-			period 13.4376
-	object
-		sprite planet/ocean4
-		distance 1679.68
-		period 895.743
-	object
-		sprite planet/jupiter
-		distance 2360.17
-		period 1491.96
-		object
-			sprite planet/luna
-			distance 281
-			period 14.802
-		object
-			sprite planet/ice8
-			distance 386
-			period 23.831
-
-system S6-2
-	pos -47933.6 -53342.5
+system Sa-555
+	pos -47936.8 -53310.9
 	government Donko
 	habitable 425.92
-	link S5-2
-	link S5-3
-	link S6-1
-	link S6-3
+	belt 1999
+	link Sa-488
+	link Sa-528
+	link Sa-544
+	link Sa-546
+	asteroids "small rock" 13 3.0602
+	asteroids "medium rock" 47 1.7732
+	asteroids "large rock" 10 3.8038
+	asteroids "small metal" 7 3.3176
+	asteroids "medium metal" 16 2.7742
+	asteroids "large metal" 8 1.7446
+	minables lead 3 4.30662
+	minables uranium 7 3.66255
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/ice2
+		distance 161.44
+		period 39.7569
+	object
+		sprite planet/mars
+		distance 495.33
+		period 213.667
+	object
+		sprite planet/lava0
+		distance 989.33
+		period 603.126
+	object
+		sprite planet/lava6
+		distance 1143.37
+		period 749.335
+	object
+		sprite planet/gas10
+		distance 3930.73
+		period 4776.46
+		object
+			sprite planet/rock17
+			distance 213
+			period 16.3631
+
+system Sa-637
+	pos -48028.6 -53359.5
+	government Donko
+	habitable 425.92
+	link "Dorai Nowoku"
+	link Sa-225
+	link Sa-463
+	link Sa-544
+	link Sa-546
+	link Sa-783
 	asteroids "small rock" 18 1.106
 	asteroids "medium rock" 6 1.148
 	asteroids "large rock" 13 1.638
@@ -75959,60 +77867,52 @@ system S6-2
 			distance 542
 			period 50.433
 
-system S6-3
-	pos -47892 -53368.7
+system Sa-663
+	pos -48209.8 -53391.7
 	government Donko
-	habitable 625
-	belt 1447
-	link S5-3
-	link S5-4
-	link S6-2
-	link S6-4
-	asteroids "small rock" 3 2.548
-	asteroids "medium rock" 37 3.164
-	asteroids "large rock" 2 1.736
-	asteroids "small metal" 10 3.528
-	asteroids "medium metal" 7 3.276
-	asteroids "large metal" 10 4.172
+	habitable 486.68
+	link Sa-411
+	link Sa-523
+	asteroids "small rock" 2 2.745
+	asteroids "medium rock" 28 3.735
+	asteroids "large rock" 6 2.475
+	asteroids "small metal" 1 5.805
+	asteroids "medium metal" 7 6.3
+	asteroids "large metal" 1 6.57
 	object
-		sprite star/g5
+		sprite star/k0
 		period 10
 	object
-		sprite planet/desert7
-		distance 139.81
-		period 26.4501
+		sprite planet/rock1
+		distance 154.25
+		period 34.7357
 	object
-		sprite planet/rock16
-		distance 486.1
-		period 171.478
+		sprite planet/rock11
+		distance 413.94
+		period 152.702
 	object
-		sprite planet/gas10
-		distance 1125.86
-		period 604.431
-		object
-			sprite planet/luna
-			distance 191
-			period 13.8946
-		object
-			sprite planet/ice8
-			distance 323
-			period 30.5563
+		sprite planet/ice0
+		distance 575.3
+		period 250.196
 	object
-		sprite planet/gas15
-		distance 1915.47
-		period 1341.32
+		sprite planet/dust1
+		distance 763.59
+		period 382.586
+	object
+		sprite planet/gas11
+		distance 2164
+		period 1825.26
 		object
-			sprite planet/callisto
-			distance 191
-			period 13.8946
+			sprite planet/rock3
+			distance 241
+			period 12.3397
 
-system S6-4
-	pos -47840.6 -53379.7
+system Sa-772
+	pos -47977.6 -53393.7
 	government Donko
 	habitable 625
 	belt 1276
-	link S5-4
-	link S6-3
+	link Sa-783
 	link Urkwaar
 	asteroids "medium rock" 3 6.0116
 	asteroids "large rock" 2 3.5644
@@ -76068,12 +77968,58 @@ system S6-4
 			distance 412
 			period 35.7289
 
-system S6-7
-	pos -48285.4 -53147.4
+system Sa-783
+	pos -48042 -53407.7
+	government Donko
+	habitable 625
+	belt 1447
+	link "Dorai Nowoku"
+	link Sa-637
+	link Sa-772
+	asteroids "small rock" 3 2.548
+	asteroids "medium rock" 37 3.164
+	asteroids "large rock" 2 1.736
+	asteroids "small metal" 10 3.528
+	asteroids "medium metal" 7 3.276
+	asteroids "large metal" 10 4.172
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/desert7
+		distance 139.81
+		period 26.4501
+	object
+		sprite planet/rock16
+		distance 486.1
+		period 171.478
+	object
+		sprite planet/gas10
+		distance 1125.86
+		period 604.431
+		object
+			sprite planet/luna
+			distance 191
+			period 13.8946
+		object
+			sprite planet/ice8
+			distance 323
+			period 30.5563
+	object
+		sprite planet/gas15
+		distance 1915.47
+		period 1341.32
+		object
+			sprite planet/callisto
+			distance 191
+			period 13.8946
+
+system Sa-843
+	pos -48270.4 -53170.4
 	government Donko
 	habitable 945
 	belt 1259
-	link S5-6
+	link Sa-943
 	asteroids "medium rock" 5 1.4592
 	asteroids "large rock" 1 2.048
 	asteroids "medium metal" 7 3.7888
@@ -76115,140 +78061,421 @@ system S6-7
 		distance 1956.25
 		period 1125.85
 
-system S6-8
-	pos -48400.7 -53204
+system Sa-902
+	pos -48333.9 -53227.8
 	government Donko
-	habitable 5360
-	link "Coai Mesoh'a"
-	link S5-7
-	link S6-9
-	asteroids "small rock" 15 3.132
-	asteroids "medium rock" 11 2.88
-	asteroids "large rock" 2 1.836
-	asteroids "medium metal" 11 1.8
-	asteroids "large metal" 6 2.016
+	habitable 486.68
+	link Sa-142
+	link Sa-244
+	link Sa-321
+	link Sa-342
+	link Sa-943
+	asteroids "small rock" 6 4.488
+	asteroids "medium rock" 15 2.992
+	asteroids "large rock" 13 3.842
+	asteroids "large metal" 3 2.788
 	object
-		sprite star/a5
-		distance 44.1549
-		period 8.8572
+		sprite star/k0
+		period 10
 	object
-		sprite star/f5
-		distance 93.8451
-		period 8.8572
-		offset 180
+		sprite planet/rock18
+		distance 178.25
+		period 43.1502
 	object
-		sprite planet/luna
-		distance 229.805
-		period 19.0334
-	object
-		sprite planet/gas0
-		distance 728.965
-		period 107.532
-	object
-		sprite planet/desert8
-		distance 1116.58
-		period 203.849
-	object
-		sprite planet/rock10
-		distance 1437.59
-		period 297.802
+		sprite planet/gas16
+		distance 706.89
+		period 340.774
 		object
-			sprite planet/rock0
-			distance 160
-			period 17.0332
+			sprite planet/dust5
+			distance 239
+			period 19.4489
+		object
+			sprite planet/oberon
+			distance 342
+			period 33.2917
+	object
+		sprite planet/gas1
+		distance 1780.73
+		period 1362.5
 	object
 		sprite planet/gas14
-		distance 2802.28
-		period 810.483
+		distance 2418.94
+		period 2157.13
 		object
-			sprite planet/dust4
-			distance 252
-			period 16.2914
+			sprite planet/rock7
+			distance 238
+			period 14.9529
+		object
+			sprite planet/tethys
+			distance 362
+			period 28.0493
 
-system S6-9
-	pos -48391.8 -53268.3
+system Sa-943
+	pos -48328.3 -53181.9
 	government Donko
-	habitable 10355
-	link S5-7
-	link S6-8
-	asteroids "small rock" 3 8.1648
-	asteroids "medium rock" 9 6.237
-	asteroids "large rock" 5 7.8246
-	asteroids "large metal" 2 3.0051
+	habitable 233.28
+	link Sa-142
+	link Sa-843
+	link Sa-902
+	asteroids "small rock" 2 3.591
+	asteroids "medium rock" 10 3.4485
+	asteroids "large rock" 3 1.4535
+	asteroids "small metal" 118 2.451
+	asteroids "medium metal" 64 2.5365
+	asteroids "large metal" 64 3.99
 	object
-		sprite star/b5
-		distance 26.6649
-		period 8.03015
+		sprite star/m4
+		period 10
 	object
-		sprite star/f5
-		distance 134.335
-		period 8.03015
-		offset 180
+		sprite planet/venus
+		distance 155.84
+		period 50.9495
 	object
-		sprite planet/desert2
-		distance 384.975
-		period 29.6916
+		sprite planet/lava1
+		distance 351.8
+		period 172.808
 	object
-		sprite planet/lava5
-		distance 582.065
-		period 55.2004
+		sprite planet/desert1
+		distance 687.69
+		period 472.292
 	object
 		sprite planet/rock14
-		distance 783.755
-		period 86.2493
+		distance 1214.58
+		period 1108.56
 	object
-		sprite planet/ice5
-		distance 1008.72
-		period 125.932
+		sprite planet/gas11
+		distance 3030.22
+		period 4368.5
+
+system Sa-C1
+	pos -47766.6 -53095.8
+	government Donko
+	habitable 233.28
+	belt 1819
+	link Sa-C23
+	asteroids "large metal" 1 5.415
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/gas7
+		distance 524.04
+		period 314.172
+		object
+			sprite planet/io
+			distance 259
+			period 14.8279
+		object
+			sprite planet/dust4
+			distance 414
+			period 29.9662
+	object
+		sprite planet/gas4
+		distance 1557.48
+		period 1609.74
+		object
+			sprite planet/dust7
+			distance 257
+			period 14.531
+		object
+			sprite planet/rock17
+			distance 360
+			period 24.0908
+		object
+			sprite planet/dust0
+			distance 461
+			period 34.9099
+
+system Sa-C23
+	pos -47717.6 -53113.8
+	government Donko
+	habitable 233.28
+	belt 1684
+	link Sa-C1
+	link Sa-C38
+	asteroids "medium rock" 9 7.424
+	asteroids "large rock" 1 5.104
+	asteroids "small metal" 1 7.424
+	asteroids "large metal" 1 7.714
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/lava7
+		distance 168.96
+		period 57.5171
+	object
+		sprite planet/jupiter
+		distance 472.37
+		period 268.871
+	object
+		sprite planet/rock17
+		distance 741.06
+		period 528.325
+	object
+		sprite planet/gas14
+		distance 1386.1
+		period 1351.49
+	object
+		sprite planet/lava2
+		distance 1735.35
+		period 1893.22
 	object
 		sprite planet/rhea
-		distance 2726.36
-		period 559.575
+		distance 2371.19
+		period 3023.92
 
-system "Sa ii no"
-	pos -50346.5 -53453
-	government Nuru
+system Sa-C236
+	pos -47623.6 -53174.8
+	government Donko
 	habitable 425.92
-	link "Ra ke"
-	link "Se kog ii"
-	link "Ya ok na"
-	asteroids "small rock" 20 2.3331
-	asteroids "medium rock" 14 3.0954
-	asteroids "large rock" 2 2.9568
-	asteroids "medium metal" 31 2.1252
-	asteroids "large metal" 33 3.465
-	fleet Nuru 800
+	belt 1016
+	link "Irshall Mer"
+	link Sa-C38
+	link Sa-C438
+	link Sa-C90
+	asteroids "small rock" 17 3.72
+	asteroids "medium rock" 54 2.1
+	asteroids "large rock" 30 2.7
+	asteroids "small metal" 16 4.29
+	asteroids "medium metal" 6 2.19
+	asteroids "large metal" 8 2.7
+	minables lead 22 2.98462
+	minables tungsten 14 4.36255
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
 	object
 		sprite star/k5
 		period 10
 	object
-		sprite planet/rock8
-		distance 140.24
-		period 32.1887
-	object "Ii sin"
-		sprite planet/desert7
-		distance 462.301
-		period 192.656
-		offset 314.999
-	object "Ii so"
-		sprite planet/rock6
-		distance 743.461
-		period 392.901
-		offset 233.266
+		sprite planet/lava7
+		distance 171.69
+		period 43.6027
 	object
-		sprite planet/gas12
-		distance 1281.42
-		period 889.066
-		offset 326.394
+		sprite planet/forest5
+		distance 532.53
+		period 238.184
 		object
-			sprite planet/ice7
-			distance 292
-			period 13.1057
+			sprite planet/ice0
+			distance 162
+			period 22.2643
 	object
-		sprite planet/gas1
-		distance 3098.78
-		period 3343.35
-		offset 356.2
+		sprite planet/desert4
+		distance 1086.78
+		period 694.398
+	object
+		sprite planet/gas7
+		distance 2478.78
+		period 2391.95
+		object
+			sprite planet/rock3
+			distance 248
+			period 13.8934
+
+system Sa-C38
+	pos -47710.6 -53161.8
+	government Donko
+	habitable 2859.44
+	belt 1226
+	link Sa-489
+	link Sa-C23
+	link Sa-C236
+	link Sa-C438
+	link Sa-C90
+	asteroids "small rock" 17 1.7808
+	asteroids "medium rock" 23 3.192
+	asteroids "large rock" 37 3.6624
+	asteroids "small metal" 1 2.0496
+	asteroids "medium metal" 11 2.7888
+	asteroids "large metal" 31 4.1664
+	minables copper 5 4.53558
+	minables silver 13 4.76286
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/f0
+		distance 23.658
+		period 12.2586
+	object
+		sprite star/k0
+		distance 115.342
+		period 12.2586
+		offset 180
+	object
+		sprite planet/gas8
+		distance 465.902
+		period 75.2249
+		object
+			sprite planet/rock14
+			distance 220
+			period 17.3704
+	object
+		sprite planet/cloud0
+		distance 891.542
+		period 199.128
+	object
+		sprite planet/rock18
+		distance 1395.3
+		period 389.872
+	object
+		sprite planet/gas9
+		distance 1908.14
+		period 623.499
+		object
+			sprite planet/dust4
+			distance 268
+			period 16.451
+		object
+			sprite planet/dust0
+			distance 352
+			period 24.7631
+
+system Sa-C438
+	pos -47659.6 -53214.8
+	government Donko
+	habitable 486.68
+	belt 1863
+	link Sa-489
+	link Sa-C236
+	link Sa-C38
+	asteroids "small rock" 14 5.8725
+	asteroids "medium rock" 10 6.6825
+	asteroids "large rock" 26 8.64
+	asteroids "small metal" 10 3.915
+	asteroids "medium metal" 11 7.965
+	asteroids "large metal" 10 7.7625
+	minables lead 15 10.4124
+	minables platinum 22 13.0458
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/ice3
+		distance 187.01
+		period 46.3698
+	object
+		sprite planet/ice1
+		distance 453.17
+		period 174.916
+	object
+		sprite planet/cloud8
+		distance 1022.18
+		period 592.556
+		object
+			sprite planet/rock14
+			distance 154
+			period 23.094
+	object
+		sprite planet/lava5
+		distance 1353.39
+		period 902.761
+	object
+		sprite planet/ice0
+		distance 2301.63
+		period 2002.13
+
+system Sa-C90
+	pos -47656.6 -53121.8
+	government Donko
+	habitable 320
+	belt 1561
+	link Sa-C236
+	link Sa-C38
+	asteroids "small rock" 26 2.28
+	asteroids "medium rock" 17 3.952
+	asteroids "large rock" 47 3.04
+	asteroids "small metal" 131 4.0128
+	asteroids "medium metal" 82 3.6784
+	asteroids "large metal" 22 3.5264
+	minables copper 27 4.17303
+	minables silver 6 6.95506
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/rock19
+		distance 291.96
+		period 111.55
+		object
+			sprite planet/luna
+			distance 143
+			period 22.8539
+	object
+		sprite planet/lava1
+		distance 576.12
+		period 309.211
+	object
+		sprite planet/desert3
+		distance 963.37
+		period 668.613
+		object
+			sprite planet/tethys
+			distance 124
+			period 14.3866
+	object
+		sprite planet/ice1
+		distance 1589.98
+		period 1417.66
+	object
+		sprite planet/desert4
+		distance 2451.19
+		period 2713.63
 
 system Saluke
 	pos -50678.1 -56060.7
@@ -76455,654 +78682,6 @@ system Saor
 			distance 287.322
 			period 12.792
 			offset 289.6
-
-system "Sarmar 3328"
-	pos -48135.1 -52940.6
-	government Donko
-	habitable 1566.68
-	belt 1084
-	link Sarmar-2263
-	link Sarmar-3882
-	link Sarmar-4682
-	asteroids "large rock" 1 4.488
-	asteroids "small metal" 2 3.234
-	asteroids "medium metal" 61 4.62
-	asteroids "large metal" 2 3.531
-	minables aluminum 3 5.92862
-	minables copper 7 7.1098
-	minables iron 3 6.61007
-	object
-		sprite star/g0
-		distance 29.5112
-		period 9.3574
-		offset 180
-	object
-		sprite star/k0
-		distance 65.4888
-		period 9.3574
-	object
-		sprite planet/ice6
-		distance 238.489
-		period 37.2196
-	object
-		sprite planet/lava6
-		distance 447.579
-		period 95.6917
-	object
-		sprite planet/gas16
-		distance 1097.74
-		period 367.552
-		object
-			sprite planet/rock3
-			distance 215
-			period 16.5941
-		object
-			sprite planet/ice7
-			distance 343
-			period 33.4379
-		object
-			sprite planet/tethys
-			distance 516
-			period 61.6981
-	object
-		sprite planet/gas4
-		distance 2854.98
-		period 1541.61
-		object
-			sprite planet/rock7
-			distance 250
-			period 13.9414
-		object
-			sprite planet/ice8
-			distance 331
-			period 21.2393
-
-system Sarmar-1000
-	pos -48368.5 -52792.9
-	government Donko
-	habitable 1715
-	belt 1055
-	link Sarmar-1264
-	link Sarmar-973
-	asteroids "small rock" 7 4.9392
-	asteroids "medium rock" 62 8.7612
-	asteroids "large rock" 2 6.8796
-	asteroids "medium metal" 19 3.6456
-	asteroids "large metal" 1 3.8808
-	minables copper 1 14.5279
-	minables gold 3 11.3725
-	trade Clothing 0
-	trade Electronics 0
-	trade Equipment 0
-	trade Food 0
-	trade "Heavy Metals" 0
-	trade Industrial 0
-	trade "Luxury Goods" 0
-	trade Medical 0
-	trade Metal 0
-	trade Plastic 0
-	object
-		sprite star/f5
-		period 10
-	object
-		sprite planet/ice3
-		distance 192.64
-		period 25.8254
-	object
-		sprite planet/ice1
-		distance 617.33
-		period 148.151
-	object
-		sprite planet/gas10
-		distance 904.58
-		period 262.784
-	object
-		sprite planet/gas17
-		distance 1845.94
-		period 766.045
-		object
-			sprite planet/oberon
-			distance 215
-			period 13.4689
-		object
-			sprite planet/europa
-			distance 350
-			period 27.9753
-
-system Sarmar-122
-	pos -48197.1 -52813.1
-	government Donko
-	habitable 486.68
-	link Sarmar-1823
-	link Sarmar-2263
-	link Sarmar-234
-	link Sarmar-322
-	link Sarmar-5
-	link Worak
-	asteroids "medium rock" 8 3.696
-	asteroids "large rock" 7 3.486
-	asteroids "small metal" 3 5.208
-	asteroids "medium metal" 7 5.208
-	asteroids "large metal" 3 6.3
-	object
-		sprite star/k0
-		period 10
-	object
-		sprite planet/desert5
-		distance 212.76
-		period 56.2695
-	object
-		sprite planet/ice8
-		distance 420.2
-		period 156.179
-	object
-		sprite planet/cloud1
-		distance 656.2
-		period 304.784
-	object
-		sprite planet/gas13
-		distance 1936.84
-		period 1545.54
-		object
-			sprite planet/rock0
-			distance 293
-			period 14.1583
-		object
-			sprite planet/miranda
-			distance 432
-			period 25.3475
-
-system Sarmar-1264
-	pos -48332.7 -52816
-	government Donko
-	habitable 425.92
-	link Sarmar-1000
-	link Sarmar-973
-	link Worak
-	asteroids "small rock" 22 4.3092
-	asteroids "medium rock" 45 4.3605
-	asteroids "large rock" 15 3.5397
-	asteroids "small metal" 11 6.0021
-	asteroids "medium metal" 253 3.0267
-	asteroids "large metal" 15 7.182
-	fleet "Revos small" 20000
-	object
-		sprite star/k5
-		period 10
-	object
-		sprite planet/lava7
-		distance 226.09
-		period 65.8898
-	object
-		sprite planet/ocean3
-		distance 417.34
-		period 165.246
-	object
-		sprite planet/rock3
-		distance 741.59
-		period 391.419
-	object
-		sprite planet/gas2
-		distance 1107.59
-		period 714.438
-		object
-			sprite planet/ice0
-			distance 206
-			period 17.9149
-	object
-		sprite planet/gas8
-		distance 2692.48
-		period 2707.85
-		object
-			sprite planet/luna
-			distance 219
-			period 17.2521
-		object
-			sprite planet/dust0
-			distance 321
-			period 30.615
-		object
-			sprite planet/europa
-			distance 460
-			period 52.5187
-
-system Sarmar-1823
-	pos -48229 -52870.3
-	government Donko
-	habitable 4087.76
-	link Sarmar-122
-	link Sarmar-2263
-	link Sarmar-3882
-	link Worak
-	asteroids "small rock" 15 1.82
-	asteroids "medium rock" 6 4.165
-	asteroids "large rock" 4 3.325
-	asteroids "small metal" 1 2.17
-	asteroids "medium metal" 47 3.535
-	asteroids "large metal" 12 3.08
-	minables Nurbote 12 3.1
-	fleet "Revos small" 20000
-	object
-		sprite star/f0
-		distance 52.4431
-		period 8.74344
-	object
-		sprite star/f5
-		distance 72.5569
-		period 8.74344
-		offset 180
-	object
-		sprite planet/ice1
-		distance 256.247
-		period 25.6629
-	object
-		sprite planet/cloud3
-		distance 656.857
-		period 105.323
-	object
-		sprite planet/gas6
-		distance 1103.07
-		period 229.203
-		object
-			sprite planet/dust7
-			distance 276
-			period 11.7119
-	object
-		sprite planet/uranus
-		distance 2404.07
-		period 737.458
-
-system Sarmar-2263
-	pos -48163.9 -52844.8
-	government Donko
-	habitable 1566.68
-	link "Sarmar 3328"
-	link Sarmar-122
-	link Sarmar-1823
-	link Sarmar-3882
-	asteroids "small rock" 4 3.7296
-	asteroids "medium rock" 23 6.3
-	asteroids "large rock" 11 6.1488
-	asteroids "small metal" 6 2.7216
-	asteroids "medium metal" 3 4.536
-	asteroids "large metal" 2 2.772
-	fleet "Ultaka Patrol" 1000
-	object
-		sprite star/g0
-		distance 34.1709
-		period 11.6589
-		offset 180
-	object
-		sprite star/k0
-		distance 75.8291
-		period 11.6589
-	object
-		sprite planet/gas0
-		distance 458.829
-		period 99.3222
-		object
-			sprite planet/europa
-			distance 243
-			period 11.1011
-	object
-		sprite planet/lava7
-		distance 854.389
-		period 252.379
-	object
-		sprite planet/gas10
-		distance 1487.48
-		period 579.757
-		object
-			sprite planet/miranda
-			distance 212
-			period 16.248
-		object
-			sprite planet/ice8
-			distance 350
-			period 34.4667
-		object
-			sprite planet/dust0
-			distance 473
-			period 54.1488
-	object
-		sprite planet/gas8
-		distance 2309.73
-		period 1121.79
-		object
-			sprite planet/dust3
-			distance 222
-			period 17.6079
-
-system Sarmar-234
-	pos -48217 -52758
-	government Donko
-	habitable 1705
-	link Sarmar-122
-	link Sarmar-322
-	link Sarmar-5
-	asteroids "small rock" 2 4.1905
-	asteroids "medium rock" 5 4.3384
-	asteroids "large rock" 9 3.6975
-	asteroids "small metal" 10 2.9087
-	asteroids "medium metal" 44 3.7961
-	asteroids "large metal" 19 3.8947
-	object
-		sprite star/g0
-		distance 34.824
-		period 8.96981
-		offset 180
-	object
-		sprite star/g5
-		distance 60.176
-		period 8.96981
-	object
-		sprite planet/desert7
-		distance 200.616
-		period 27.5262
-	object
-		sprite planet/ganymede
-		distance 442.306
-		period 90.1119
-	object
-		sprite planet/desert4
-		distance 894.146
-		period 259.006
-	object
-		sprite planet/water1
-		distance 1427.31
-		period 522.364
-		object
-			sprite planet/ice7
-			distance 166
-			period 18.5656
-	object
-		sprite planet/gas7
-		distance 2189.12
-		period 992.204
-		object
-			sprite planet/rock3
-			distance 245
-			period 13.642
-		object
-			sprite planet/rhea
-			distance 353
-			period 23.5935
-		object
-			sprite planet/dust3
-			distance 461
-			period 35.2113
-
-system Sarmar-322
-	pos -48163.8 -52775
-	government Donko
-	habitable 1715
-	link Sarmar-122
-	link Sarmar-234
-	link Sarmar-5
-	asteroids "large rock" 1 3.276
-	asteroids "small metal" 1 3.094
-	asteroids "medium metal" 3 3.198
-	asteroids "large metal" 2 3.432
-	object
-		sprite star/f5
-		period 10
-	object
-		sprite planet/dust6
-		distance 174.49
-		period 22.263
-	object
-		sprite planet/cloud3
-		distance 459.53
-		period 95.1478
-	object
-		sprite planet/desert0
-		distance 739.22
-		period 194.128
-		object
-			sprite planet/tethys
-			distance 118
-			period 16.1133
-	object
-		sprite planet/gas15
-		distance 2425.22
-		period 1153.6
-		object
-			sprite planet/rhea
-			distance 212
-			period 16.248
-		object
-			sprite planet/rock17
-			distance 339
-			period 32.8546
-		object
-			sprite planet/callisto
-			distance 498
-			period 58.498
-		object
-			sprite planet/dust7
-			distance 669
-			period 91.0828
-
-system Sarmar-3882
-	pos -48207.4 -52916.7
-	government Donko
-	habitable 425.92
-	link "Sarmar 3328"
-	link Sarmar-1823
-	link Sarmar-2263
-	asteroids "small rock" 2 5.8995
-	asteroids "medium rock" 6 3.2338
-	asteroids "large rock" 1 4.7633
-	asteroids "medium metal" 5 4.37
-	asteroids "large metal" 1 4.1078
-	object
-		sprite star/k5
-		period 10
-	object
-		sprite planet/desert9
-		distance 155.64
-		period 37.6338
-	object
-		sprite planet/dust4
-		distance 315.89
-		period 108.818
-	object
-		sprite planet/dust2
-		distance 575.53
-		period 267.607
-	object
-		sprite planet/cloud7
-		distance 750.14
-		period 398.208
-	object
-		sprite planet/gas3
-		distance 3312.15
-		period 3694.55
-		object
-			sprite planet/oberon
-			distance 281
-			period 12.0316
-		object
-			sprite planet/tethys
-			distance 398
-			period 20.281
-
-system Sarmar-4682
-	pos -48090.8 -52888.5
-	government Donko
-	habitable 1715
-	belt 1619
-	link "Sarmar 3328"
-	asteroids "small rock" 30 7.0956
-	asteroids "medium rock" 18 4.7628
-	asteroids "large rock" 31 3.7422
-	asteroids "small metal" 9 4.131
-	asteroids "medium metal" 29 3.5964
-	asteroids "large metal" 3 4.5198
-	minables neodymium 3 6.57935
-	minables silver 27 8.78671
-	object
-		sprite star/f5
-		period 10
-	object
-		sprite planet/mars
-		distance 271
-		period 43.0905
-		object
-			sprite planet/lava0
-			distance 138
-			period 21.6658
-	object
-		sprite planet/uranus
-		distance 963.36
-		period 288.809
-		object
-			sprite planet/europa
-			distance 218
-			period 13.7518
-	object
-		sprite planet/forest2
-		distance 1461.61
-		period 539.728
-		object
-			sprite planet/ice8
-			distance 162
-			period 19.718
-	object
-		sprite planet/dust0
-		distance 2568.05
-		period 1256.99
-
-system Sarmar-5
-	pos -48241 -52789.7
-	government Donko
-	habitable 1715
-	link Sarmar-122
-	link Sarmar-234
-	link Sarmar-322
-	link Sarmar-862
-	link Worak
-	asteroids "small rock" 3 4.104
-	asteroids "medium rock" 25 2.088
-	asteroids "large rock" 3 5.4
-	asteroids "small metal" 2 3.78
-	asteroids "medium metal" 23 4.86
-	asteroids "large metal" 1 4.572
-	object
-		sprite star/f5
-		period 10
-	object
-		sprite planet/desert8
-		distance 241.81
-		period 36.3195
-	object
-		sprite planet/rock16
-		distance 471.62
-		period 98.9273
-	object
-		sprite planet/gas3
-		distance 1279.71
-		period 442.176
-		object
-			sprite planet/dust1
-			distance 284
-			period 12.2248
-		object
-			sprite planet/miranda
-			distance 420
-			period 21.9856
-	object
-		sprite planet/gas9
-		distance 2837.27
-		period 1459.75
-		object
-			sprite planet/desert4
-			distance 215
-			period 11.8208
-
-system Sarmar-862
-	pos -48281.8 -52729.8
-	government Donko
-	habitable 1705
-	link Sarmar-5
-	link Sarmar-973
-	asteroids "small rock" 11 2.548
-	asteroids "medium rock" 44 3.22
-	asteroids "large rock" 25 2.156
-	asteroids "small metal" 93 2.1
-	asteroids "medium metal" 18 3.472
-	asteroids "large metal" 5 3.752
-	object
-		sprite star/g0
-		distance 43.2551
-		period 12.4171
-		offset 180
-	object
-		sprite star/g5
-		distance 74.7449
-		period 12.4171
-	object
-		sprite planet/lava3
-		distance 224.635
-		period 32.6147
-	object
-		sprite planet/fog0
-		distance 504.925
-		period 109.91
-	object
-		sprite planet/rock16
-		distance 886.685
-		period 255.771
-	object
-		sprite planet/gas16
-		distance 2004.72
-		period 869.521
-		object
-			sprite planet/miranda
-			distance 179
-			period 12.606
-		object
-			sprite planet/luna
-			distance 324
-			period 30.6983
-
-system Sarmar-973
-	pos -48328 -52759.6
-	government Donko
-	habitable 486.68
-	link Sarmar-1000
-	link Sarmar-1264
-	link Sarmar-862
-	asteroids "small rock" 92 3.5235
-	asteroids "medium rock" 43 4.8285
-	asteroids "large rock" 17 4.4805
-	asteroids "small metal" 6 2.9145
-	asteroids "medium metal" 37 4.5675
-	asteroids "large metal" 1 6.2205
-	minables Nurbote 5 1.6
-	object
-		sprite star/k0
-		period 10
-	object
-		sprite planet/ice3
-		distance 172
-		period 40.9007
-	object
-		sprite planet/ocean1
-		distance 427.09
-		period 160.036
-	object
-		sprite planet/gas11
-		distance 1282.34
-		period 832.613
-		object
-			sprite planet/rhea
-			distance 255
-			period 13.4304
-	object
-		sprite planet/gas8
-		distance 2388.34
-		period 2116.33
 
 system Saska
 	pos -49069.7 -55711.8
@@ -83759,10 +85338,10 @@ system Urkvulnar
 			period 38.313
 
 system Urkwaar
-	pos -47816.5 -53473.2
+	pos -47873.5 -53435.2
 	government Donko
 	habitable 486.68
-	link S6-4
+	link Sa-772
 	asteroids "small rock" 8 2.366
 	asteroids "medium rock" 44 4.9348
 	asteroids "large rock" 2 1.9604
@@ -84332,6 +85911,53 @@ system Urtuin
 			sprite planet/desert4
 			distance 515
 			period 47.5959
+
+system VCJNAREO?p9x5uyse;tgyi
+	pos -51464.2 -56043.3
+	government Uninhabited
+	habitable 1715
+	belt 1248
+	asteroids "small rock" 18 3.4086
+	asteroids "medium rock" 125 2.4219
+	asteroids "large rock" 38 3.5581
+	asteroids "small metal" 14 4.3654
+	asteroids "medium metal" 28 3.7674
+	asteroids "large metal" 12 4.485
+	minables lead 1 5.92317
+	minables tungsten 1 4.34284
+	trade Clothing 326
+	trade Electronics 662
+	trade Equipment 426
+	trade Food 254
+	trade "Heavy Metals" 889
+	trade Industrial 646
+	trade "Luxury Goods" 1060
+	trade Medical 767
+	trade Metal 362
+	trade Plastic 473
+	object
+		sprite star/f5
+		period 10
+	object
+		sprite planet/rock11
+		distance 162.09
+		period 19.9325
+	object
+		sprite planet/lava3
+		distance 341.98
+		period 61.0842
+	object
+		sprite planet/dust1
+		distance 770.23
+		period 206.471
+	object
+		sprite planet/ocean2
+		distance 1137.79
+		period 370.699
+	object
+		sprite planet/io
+		distance 3547.63
+		period 2040.96
 
 system Vaibeilo
 	pos -52203.1 -55701.7
@@ -89216,10 +90842,12 @@ system Worak
 	pos -48258.3 -52836.6
 	government Donko
 	habitable 233.28
-	link Sarmar-122
-	link Sarmar-1264
-	link Sarmar-1823
-	link Sarmar-5
+	link Aku-122
+	link Aku-1264
+	link Aku-1442
+	link Aku-1823
+	link Aku-1894
+	link Aku-5
 	asteroids "small rock" 8 6.8425
 	asteroids "medium rock" 24 5.5775
 	asteroids "large rock" 7 5.175
@@ -90108,6 +91736,106 @@ system "Zoivol WS-1"
 		distance 395.506
 		period 152.449
 		offset 5.07441
+
+system _#R(0484HFFosld6EW
+	pos -51541.9 -56009.8
+	government Uninhabited
+	habitable 486.68
+	belt 1881
+	asteroids "small rock" 53 4.4275
+	asteroids "medium rock" 16 4.37
+	asteroids "large rock" 4 3.68
+	asteroids "medium metal" 7 8.51
+	asteroids "large metal" 1 5.9225
+	minables aluminum 19 8.93093
+	minables titanium 5 9.44873
+	trade Clothing 326
+	trade Electronics 662
+	trade Equipment 426
+	trade Food 254
+	trade "Heavy Metals" 889
+	trade Industrial 646
+	trade "Luxury Goods" 1060
+	trade Medical 767
+	trade Metal 362
+	trade Plastic 473
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/rock0
+		distance 196.49
+		period 49.94
+	object
+		sprite planet/ice6
+		distance 373.7
+		period 130.985
+	object
+		sprite planet/ice4
+		distance 696.91
+		period 333.583
+	object
+		sprite planet/rock9
+		distance 1614.15
+		period 1175.86
+	object
+		sprite planet/gas6
+		distance 4731.31
+		period 5900.79
+		object
+			sprite planet/rock14
+			distance 311
+			period 14.0089
+		object
+			sprite planet/dust4
+			distance 411
+			period 21.2827
+
+system dhf89aPE(RY:WIf
+	pos -50930 -56047.4
+	government Uninhabited
+	habitable 425.92
+	belt 1688
+	asteroids "small rock" 4 2.622
+	asteroids "large rock" 2 3.5055
+	asteroids "medium metal" 10 2.166
+	asteroids "large metal" 1 4.1325
+	minables iron 2 4.70604
+	minables silver 2 3.51425
+	minables tungsten 1 4.38263
+	trade Clothing 326
+	trade Electronics 662
+	trade Equipment 426
+	trade Food 254
+	trade "Heavy Metals" 889
+	trade Industrial 646
+	trade "Luxury Goods" 1060
+	trade Medical 767
+	trade Metal 362
+	trade Plastic 473
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/desert5
+		distance 211.76
+		period 59.7258
+	object
+		sprite planet/rock14
+		distance 481.92
+		period 205.049
+	object
+		sprite planet/dust0
+		distance 705.92
+		period 363.521
+	object
+		sprite planet/cloud6
+		distance 907.13
+		period 529.542
+	object
+		sprite planet/gas1
+		distance 3053.13
+		period 3269.75
 
 system ligar
 	pos -51216.3 -56398.2
