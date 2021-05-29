@@ -32,13 +32,13 @@ fleet "Resmakia Mines"
 	personality
 		waiting heroic mute staying
 	variant 60
-		"Metal Astroid" 5
+		"Resmakia Asteroid" 5
 	variant 30
-		"Metal Astroid" 6
+		"Resmakia Asteroid" 6
 	variant 1
-		"Metal Astroid" 8
+		"Resmakia Asteroid" 8
 		
-fleet "Ultaka small"
+fleet "Ultaka Small"
 	government "Ultaka"
 	names "Ultaka Small"
 	cargo 3
@@ -66,7 +66,7 @@ fleet "Ultaka Patrol"
 		"Ultaka Dominator"
 		"Ultaka Hunter" 2
 		
-fleet "Ultaka big"
+fleet "Ultaka Big"
 	government "Ultaka"
 	names "Ultaka Big"
 	fighters "Ultaka Fighter"
@@ -292,6 +292,14 @@ fleet "Donko Guard Small"
 		"Donko Kolso" 6
 	variant 1
 		"Donko Senka"
+
+fleet "Donko Small"
+	variant 5
+		"Donko Kanse" 3
+		"Donko Koi"
+	variant 5
+		"Donko Kanse" 3
+		"Koi (Freighter)"
 		
 fleet "Wallagi Patrol"
 	government "Wallagi"

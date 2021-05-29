@@ -2,13 +2,12 @@
 
 #Juvellen
 
-ship "Metal Asteroid"
+ship "Metal Asteroid" "Resmakia Asteroid"
 	sprite "asteroid/large metal/spin"
 		"frame rate" 2
 		"frame time" 2
 		"delay" 2
 		"random start frame"
-	
 	attributes
 		category "Drone"
 		"cost" 255000

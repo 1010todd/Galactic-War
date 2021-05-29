@@ -9828,9 +9828,7 @@ system "Dek A"
 	minables copper 2 9.54126
 	minables neodymium 10 14.0019
 	minables tungsten 28 10.6529
-	fleet "Donko small" 500
-	fleet "Donko Guard Small" 500
-	fleet "Donko small" 500
+	fleet "Donko Small" 500
 	fleet "Donko Guard Small" 450
 	object
 		sprite star/k5
@@ -9934,9 +9932,9 @@ system "Dek A1"
 	asteroids "large metal" 30 7.182
 	minables iron 14 11.096
 	minables lead 7 14.1663
-	fleet "Donko small" 400
+	
 	fleet "Donko Guard Small" 500
-	fleet "Donko small" 650
+	fleet "Donko Small" 650
 	fleet "Donko Guard Small" 500
 	object
 		sprite star/f5
@@ -10041,9 +10039,9 @@ system "Dek A2"
 	minables aluminum 10 1.69021
 	minables copper 3 2.25776
 	minables iron 7 2.63872
-	fleet "Donko small" 500
+	fleet "Donko Small" 500
 	fleet "Donko Guard Small" 400
-	fleet "Donko small" 500
+	fleet "Donko Small" 500
 	fleet "Donko Guard Small" 500
 	object
 		sprite star/k5
@@ -10236,9 +10234,9 @@ system "Dek B"
 	minables aluminum 6 6.43412
 	minables platinum 9 8.47231
 	minables titanium 24 5.76601
-	fleet "Donko small" 500
+	fleet "Donko Small" 500
 	fleet "Donko Guard Small" 500
-	fleet "Donko small" 500
+	fleet "Donko Small" 500
 	fleet "Donko Guard Small" 500
 	fleet "Donko Guard Big" 1000
 	object
@@ -10444,7 +10442,7 @@ system "Dek B2"
 	asteroids "large metal" 6 5.2896
 	minables tungsten 1 14.9411
 	minables copper 39 6.23319
-	fleet "Donko small" 500
+	fleet "Donko Small" 500
 	fleet "Donko Guard Small" 500
 	object
 		sprite star/m0
@@ -12361,7 +12359,7 @@ system "Dorai Nowoku"
 	asteroids "medium metal" 5 1.937
 	asteroids "large metal" 5 1.794
 	minables lead 1 2.49528
-	fleet "Donko small" 500
+	fleet "Donko Small" 500
 	fleet "Donko Guard Small" 500
 	object
 		sprite star/k0
@@ -78355,7 +78353,7 @@ system Saska
 	asteroids "medium metal" 18 6.477
 	asteroids "large metal" 5 3.06
 	fleet "Recon Ultaka" 700
-	fleet "Ultaka small" 700
+	fleet "Ultaka Small" 700
 	fleet "Ultaka Big" 700
 	object
 		sprite star/g0
@@ -91732,7 +91730,7 @@ planet Donto
 	description `Donto is now almost deserted due to the recent invasion and now it was located in between the pirates and the Ultakas. `
 	description `	Everyone here seems to be ready to evacuate at any time with a fleet of Darca(Dels largest military carrier) ready to take off imminently in case the Ultaka came.`
 	spaceport `The spaceport seems to be the place where everyone comes to hang out, play, shopping, etc. in their free times, along with a long row of Darcas parking.`
-	outfitter "Dels ammo"
+	outfitter "Dels Ammo"
 	bribe 0.2
 	security 0.2
 
