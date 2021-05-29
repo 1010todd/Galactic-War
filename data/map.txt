@@ -1600,6 +1600,65 @@ system Alkurud
 			distance 385
 			period 22.1385
 
+system Alnor
+	pos -49838.3 -54943.1
+	government Revos
+	habitable 945
+	belt 1287
+	link Kotai
+	link Lelerno
+	link Norva
+	asteroids "small rock" 1 1.8
+	asteroids "large rock" 1 2.772
+	asteroids "small metal" 16 2.592
+	asteroids "medium metal" 1 4.428
+	asteroids "large metal" 17 1.944
+	minables silicon 7 2.378
+	minables titanium 3 3.98112
+	fleet "Revos small" 1000
+	fleet "Revos big" 1500
+	fleet "Revos merchant" 600
+	object
+		sprite star/g5
+		distance 35.5556
+		period 14
+	object
+		sprite star/m0
+		distance 69.4444
+		period 14
+		offset 180
+	object Sentre
+		sprite planet/rock4
+		distance 333.444
+		period 79.2281
+		offset 212.231
+		object
+			sprite planet/rock7
+			distance 162
+			period 18.7717
+	object
+		sprite planet/titan
+		distance 874.804
+		period 336.675
+		offset 13.3223
+	object
+		sprite planet/gas13
+		distance 2181.05
+		period 1325.39
+		offset 0.37051
+		object
+			sprite planet/ice8
+			distance 292
+			period 14.0859
+		object
+			sprite planet/dust0
+			distance 406
+			period 23.094
+		object
+			sprite planet/rhea
+			distance 509
+			period 32.4181
+
 system Alrtar
 	pos -51170.6 -55151.5
 	government "Dels Kaote"
@@ -1846,65 +1905,6 @@ system Ampoore
 			sprite planet/tethys
 			distance 301
 			period 21.2671
-
-system Ano
-	pos -49838.3 -54943.1
-	government Revos
-	habitable 945
-	belt 1287
-	link Kotai
-	link Leno
-	link Norva
-	asteroids "small rock" 1 1.8
-	asteroids "large rock" 1 2.772
-	asteroids "small metal" 16 2.592
-	asteroids "medium metal" 1 4.428
-	asteroids "large metal" 17 1.944
-	minables silicon 7 2.378
-	minables titanium 3 3.98112
-	fleet "Revos small" 1000
-	fleet "Revos big" 1500
-	fleet "Revos merchant" 600
-	object
-		sprite star/g5
-		distance 35.5556
-		period 14
-	object
-		sprite star/m0
-		distance 69.4444
-		period 14
-		offset 180
-	object Sentre
-		sprite planet/rock4
-		distance 333.444
-		period 79.2281
-		offset 212.231
-		object
-			sprite planet/rock7
-			distance 162
-			period 18.7717
-	object
-		sprite planet/titan
-		distance 874.804
-		period 336.675
-		offset 13.3223
-	object
-		sprite planet/gas13
-		distance 2181.05
-		period 1325.39
-		offset 0.37051
-		object
-			sprite planet/ice8
-			distance 292
-			period 14.0859
-		object
-			sprite planet/dust0
-			distance 406
-			period 23.094
-		object
-			sprite planet/rhea
-			distance 509
-			period 32.4181
 
 system Aomaneg
 	pos -50885.1 -55016
@@ -11438,7 +11438,7 @@ system Dolker
 
 system Dolmoriwakla
 	pos -52256.9 -55403.8
-	government "Dels (Pirate)"
+	government "Dels Ufulre"
 	habitable 486.68
 	belt 1045
 	link "Qee Fuour"
@@ -11455,7 +11455,7 @@ system Dolmoriwakla
 	trade Medical 636
 	trade Metal 318
 	trade Plastic 306
-	fleet "Dels pirate" 500
+	fleet "Dels Ufulre Patrol" 500
 	object
 		sprite star/k0
 		period 10
@@ -22182,7 +22182,7 @@ system "Go se ri"
 
 system Gohal
 	pos -49529.5 -54704.6
-	government "Qoro (East)"
+	government "Qoro Siogal"
 	habitable 1111.68
 	belt 1901
 	link Gokal
@@ -22238,7 +22238,7 @@ system Gohal
 
 system Gohao
 	pos -49365.7 -54462.2
-	government "Qoro (East)"
+	government "Qoro Siogal"
 	habitable 486.68
 	belt 1799
 	link Gohoko
@@ -22250,7 +22250,7 @@ system Gohao
 	asteroids "large metal" 1 7.4256
 	minables silicon 8 9.25223
 	minables titanium 2 7.65963
-	fleet "Qoro (E) Battle Fleet" 500
+	fleet "Qoro Siogal Battle Fleet" 500
 	object
 		sprite star/k0
 		period 10
@@ -22289,7 +22289,7 @@ system Gohao
 
 system Gohoko
 	pos -49341.5 -54539.6
-	government "Qoro (East)"
+	government "Qoro Siogal"
 	habitable 486.68
 	belt 1189
 	link Gohao
@@ -22302,7 +22302,7 @@ system Gohoko
 	asteroids "medium metal" 15 3.885
 	asteroids "large metal" 2 3.885
 	minables lead 1 5.37444
-	fleet "Qoro (E) Battle Fleet" 1000
+	fleet "Qoro Siogal Battle Fleet" 1000
 	object
 		sprite star/k0
 		period 10
@@ -22345,7 +22345,7 @@ system Gohoko
 
 system Gohol
 	pos -49294.3 -54607.4
-	government "Qoro (East)"
+	government "Qoro Siogal"
 	habitable 659.2
 	belt 1691
 	link Gorod
@@ -22387,7 +22387,7 @@ system Gohol
 
 system Gokak
 	pos -49662.5 -54604.6
-	government "Qoro (East)"
+	government "Qoro Siogal"
 	habitable 1250
 	belt 1503
 	link Gosako
@@ -22439,7 +22439,7 @@ system Gokak
 
 system Gokal
 	pos -49564.5 -54745.6
-	government "Qoro (East)"
+	government "Qoro Siogal"
 	habitable 625
 	belt 1257
 	link Gohal
@@ -22483,7 +22483,7 @@ system Gokal
 
 system Gokhom
 	pos -49463.5 -54601.6
-	government "Qoro (East)"
+	government "Qoro Siogal"
 	habitable 851.84
 	belt 1482
 	link Golo
@@ -22551,7 +22551,7 @@ system Gokhom
 
 system Goko
 	pos -49466.5 -54540.6
-	government "Qoro (East)"
+	government "Qoro Siogal"
 	habitable 425.92
 	belt 1698
 	link Golo
@@ -22566,7 +22566,7 @@ system Goko
 	asteroids "large metal" 20 2.862
 	minables copper 5 5.30026
 	minables uranium 36 6.09239
-	fleet "Qoro (E) Battle Fleet" 1500
+	fleet "Qoro Siogal Battle Fleet" 1500
 	object
 		sprite star/k5
 		period 10
@@ -22605,7 +22605,7 @@ system Goko
 
 system Gokomse
 	pos -49594.6 -54673
-	government "Qoro (East)"
+	government "Qoro Siogal"
 	habitable 1111.68
 	belt 1848
 	link Gohal
@@ -22723,7 +22723,7 @@ system Golima
 
 system Golo
 	pos -49387.5 -54562.6
-	government "Qoro (East)"
+	government "Qoro Siogal"
 	habitable 945
 	belt 1519
 	link Gokhom
@@ -22738,7 +22738,7 @@ system Golo
 	asteroids "large metal" 33 2.4426
 	minables copper 2 4.64985
 	minables silicon 2 4.60455
-	fleet "Qoro (E) Battle Fleet" 1500
+	fleet "Qoro Siogal Battle Fleet" 1500
 	object
 		sprite star/g5
 		distance 34.2011
@@ -22775,7 +22775,7 @@ system Golo
 
 system Goma
 	pos -49511.5 -54758.6
-	government "Qoro (East)"
+	government "Qoro Siogal"
 	habitable 425.92
 	belt 1074
 	link Gohal
@@ -22820,7 +22820,7 @@ system Goma
 
 system Gomar
 	pos -49547.5 -54588.6
-	government "Qoro (East)"
+	government "Qoro Siogal"
 	habitable 320
 	belt 1818
 	link Gokhom
@@ -22867,7 +22867,7 @@ system Gomar
 
 system Gomokori
 	pos -49456.7 -54455.2
-	government "Qoro (East)"
+	government "Qoro Siogal"
 	habitable 719.96
 	belt 1075
 	link Gorica
@@ -22881,7 +22881,7 @@ system Gomokori
 	minables iron 20 6.62584
 	minables silver 2 4.6549
 	minables tungsten 1 4.54391
-	fleet "Qoro (E) Battle Fleet" 500
+	fleet "Qoro Siogal Battle Fleet" 500
 	object
 		sprite star/k0
 		distance 35.642
@@ -22925,7 +22925,7 @@ system Gomokori
 
 system Gonal
 	pos -49455.5 -54718.6
-	government "Qoro (East)"
+	government "Qoro Siogal"
 	habitable 2692.76
 	belt 1846
 	link Gohal
@@ -23394,7 +23394,7 @@ system Gorelvar
 
 system Goric
 	pos -49471.5 -54641.6
-	government "Qoro (East)"
+	government "Qoro Siogal"
 	habitable 1715
 	belt 1001
 	link Gokhom
@@ -23441,7 +23441,7 @@ system Goric
 
 system Gorica
 	pos -49410.5 -54504.6
-	government "Qoro (East)"
+	government "Qoro Siogal"
 	habitable 425.92
 	belt 1903
 	link Gohoko
@@ -23458,7 +23458,7 @@ system Gorica
 	minables iron 1 13.2503
 	minables silver 1 12.357
 	minables titanium 4 12.1997
-	fleet "Qoro (E) Battle Fleet" 1000
+	fleet "Qoro Siogal Battle Fleet" 1000
 	object
 		sprite star/k5
 		period 10
@@ -23789,7 +23789,7 @@ system Gormor
 
 system Gorod
 	pos -49345.5 -54655.6
-	government "Qoro (East)"
+	government "Qoro Siogal"
 	habitable 5425.92
 	belt 1888
 	link Gohol
@@ -23841,7 +23841,7 @@ system Gorod
 
 system Gorok
 	pos -49534.5 -54626.6
-	government "Qoro (East)"
+	government "Qoro Siogal"
 	habitable 425.92
 	belt 1492
 	link Gohal
@@ -23889,7 +23889,7 @@ system Gorok
 
 system Goroklo
 	pos -49403.5 -54674.6
-	government "Qoro (East)"
+	government "Qoro Siogal"
 	habitable 320
 	belt 1333
 	link Gonal
@@ -24058,7 +24058,7 @@ system Gorrakai
 
 system Gosako
 	pos -49611.7 -54572.2
-	government "Qoro (East)"
+	government "Qoro Siogal"
 	habitable 912.6
 	belt 1818
 	link Gokak
@@ -24113,7 +24113,7 @@ system Gosako
 
 system Gosofo
 	pos -49507.7 -54486.2
-	government "Qoro (East)"
+	government "Qoro Siogal"
 	habitable 2201.68
 	belt 1155
 	link Goko
@@ -24128,7 +24128,7 @@ system Gosofo
 	minables iron 11 8.09703
 	minables lead 35 11.3981
 	minables silicon 3 9.31938
-	fleet "Qoro (E) Battle Fleet" 1000
+	fleet "Qoro Siogal Battle Fleet" 1000
 	object
 		sprite star/f5
 		distance 24.7575
@@ -24165,7 +24165,7 @@ system Gosofo
 
 system Gosoko
 	pos -49559.7 -54530.2
-	government "Qoro (East)"
+	government "Qoro Siogal"
 	habitable 233.28
 	belt 1017
 	link Gokhom
@@ -24179,7 +24179,7 @@ system Gosoko
 	asteroids "large metal" 1 1.7172
 	minables gold 1 6.31155
 	minables silicon 9 5.58199
-	fleet "Qoro (E) Battle Fleet" 1500
+	fleet "Qoro Siogal Battle Fleet" 1500
 	object
 		sprite star/m4
 		period 10
@@ -24222,7 +24222,7 @@ system Gosoko
 
 system Gosol
 	pos -49297.5 -54559.6
-	government "Qoro (East)"
+	government "Qoro Siogal"
 	habitable 858.28
 	belt 1131
 	link Gohoko
@@ -24234,7 +24234,7 @@ system Gosol
 	asteroids "medium metal" 2 6.351
 	asteroids "large metal" 2 10.875
 	minables aluminum 2 16.7457
-	fleet "Qoro (E) Battle Fleet" 1500
+	fleet "Qoro Siogal Battle Fleet" 1500
 	object
 		sprite star/g5
 		distance 31.5287
@@ -24263,7 +24263,7 @@ system Gosol
 
 system Gosos
 	pos -49408.5 -54629.6
-	government "Qoro (East)"
+	government "Qoro Siogal"
 	habitable 320
 	belt 1391
 	link Gokhom
@@ -24469,7 +24469,7 @@ system Govree
 
 system Gowok
 	pos -49599.7 -54615.2
-	government "Qoro (East)"
+	government "Qoro Siogal"
 	habitable 625
 	belt 1429
 	link Gokak
@@ -43407,8 +43407,8 @@ system Kotai
 	government Revos
 	habitable 233.28
 	belt 1089
-	link Ano
-	link Leno
+	link Alnor
+	link Lelerno
 	link Soarel
 	asteroids "small metal" 3 3.996
 	asteroids "large metal" 8 3.672
@@ -46300,6 +46300,45 @@ system Leion
 			distance 568
 			period 34.577
 
+system Lelerno
+	pos -49852.8 -54881.9
+	government Revos
+	habitable 486.68
+	belt 1616
+	link Alnor
+	link Kotai
+	link Soarel
+	asteroids "small rock" 67 3.7664
+	asteroids "medium rock" 219 4.6464
+	asteroids "large rock" 2 3.696
+	asteroids "small metal" 6 2.0768
+	asteroids "medium metal" 46 2.112
+	asteroids "large metal" 3 1.8304
+	fleet "Revos small" 1500
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/ice7
+		distance 151.36
+		period 33.7641
+	object
+		sprite planet/cloud2
+		distance 447.37
+		period 171.569
+	object
+		sprite planet/gas13
+		distance 1166.18
+		period 722.082
+	object
+		sprite planet/lava7
+		distance 1630.47
+		period 1193.73
+	object
+		sprite planet/gas6
+		distance 2019.88
+		period 1645.99
+
 system Lelliuk
 	pos -52282.1 -54710.7
 	government "Dels Kaote"
@@ -46482,45 +46521,6 @@ system Lenevai
 			sprite planet/dust4
 			distance 512
 			period 49.4969
-
-system Leno
-	pos -49852.8 -54881.9
-	government Revos
-	habitable 486.68
-	belt 1616
-	link Ano
-	link Kotai
-	link Soarel
-	asteroids "small rock" 67 3.7664
-	asteroids "medium rock" 219 4.6464
-	asteroids "large rock" 2 3.696
-	asteroids "small metal" 6 2.0768
-	asteroids "medium metal" 46 2.112
-	asteroids "large metal" 3 1.8304
-	fleet "Revos small" 1500
-	object
-		sprite star/k0
-		period 10
-	object
-		sprite planet/ice7
-		distance 151.36
-		period 33.7641
-	object
-		sprite planet/cloud2
-		distance 447.37
-		period 171.569
-	object
-		sprite planet/gas13
-		distance 1166.18
-		period 722.082
-	object
-		sprite planet/lava7
-		distance 1630.47
-		period 1193.73
-	object
-		sprite planet/gas6
-		distance 2019.88
-		period 1645.99
 
 system Leonnal
 	pos -50538 -55255.1
@@ -48229,7 +48229,7 @@ system Lirel
 	habitable 5000
 	belt 1730
 	link Norvu
-	link Orel
+	link Oerel
 	asteroids "medium rock" 1 1.666
 	asteroids "large rock" 1 2.4304
 	asteroids "small metal" 4 1.2544
@@ -50501,7 +50501,7 @@ system Mabaza
 
 system Macadela
 	pos -49273.9 -55176.4
-	government "Qoro (North)"
+	government "Makau A Qoro"
 	habitable 4070.92
 	belt 1108
 	link Masodel
@@ -50678,7 +50678,7 @@ system Madou
 
 system Maekke
 	pos -49342.9 -55082.7
-	government "Qoro (North)"
+	government "Makau A Qoro"
 	habitable 1080
 	belt 1043
 	link Marake
@@ -51033,7 +51033,7 @@ system Magulerre
 
 system Mahakla
 	pos -49494.6 -55149.7
-	government "Qoro (North)"
+	government "Makau A Qoro"
 	habitable 9065.92
 	belt 1156
 	link Makolo
@@ -51098,7 +51098,7 @@ system Mahakla
 
 system Mahalmal
 	pos -49373.6 -55330.5
-	government "Qoro (North)"
+	government "Makau A Qoro"
 	habitable 2372.76
 	belt 1694
 	link Marickar
@@ -51112,7 +51112,7 @@ system Mahalmal
 	asteroids "large metal" 30 3.003
 	minables iron 26 3.02579
 	minables neodymium 10 2.56057
-	fleet "Qoro (N) Battle Fleet" 1500
+	fleet "Qoro Makau Battle Fleet" 1500
 	object
 		sprite star/f0
 		period 10
@@ -51418,7 +51418,7 @@ system Maisenni
 
 system Majaslo
 	pos -49443.8 -54963
-	government "Qoro (North)"
+	government "Makau A Qoro"
 	habitable 425.92
 	belt 1572
 	link Makhom
@@ -51464,7 +51464,7 @@ system Majaslo
 
 system Majol
 	pos -49434.5 -55033.4
-	government "Qoro (North)"
+	government "Makau A Qoro"
 	habitable 455
 	belt 1696
 	link Makhom
@@ -51516,7 +51516,7 @@ system Majol
 
 system Majorsel
 	pos -49573.9 -55006.7
-	government "Qoro (North)"
+	government "Makau A Qoro"
 	habitable 455
 	belt 1709
 	link Masowla
@@ -51584,7 +51584,7 @@ system Majorsel
 
 system Makalar
 	pos -49445.1 -55261.4
-	government "Qoro (North)"
+	government "Makau A Qoro"
 	habitable 1080
 	belt 1108
 	link Malsos
@@ -51597,7 +51597,7 @@ system Makalar
 	asteroids "medium metal" 5 1.474
 	asteroids "large metal" 1 2.508
 	minables aluminum 4 3.90684
-	fleet "Qoro (N) Battle Fleet" 1500
+	fleet "Qoro Makau Battle Fleet" 1500
 	object
 		sprite star/g0
 		period 10
@@ -51689,7 +51689,7 @@ system Makerranu
 
 system Makhom
 	pos -49495.9 -55005.2
-	government "Qoro (North)"
+	government "Makau A Qoro"
 	habitable 425.92
 	belt 1651
 	link Majaslo
@@ -51805,7 +51805,7 @@ system Makkior
 
 system Makolo
 	pos -49530.9 -55112.2
-	government "Qoro (North)"
+	government "Makau A Qoro"
 	habitable 1050.92
 	belt 1218
 	link Mahakla
@@ -52172,7 +52172,7 @@ system Maloa
 
 system Malsos
 	pos -49375.6 -55245.3
-	government "Qoro (North)"
+	government "Makau A Qoro"
 	habitable 320
 	belt 1580
 	link Makalar
@@ -52185,7 +52185,7 @@ system Malsos
 	asteroids "large metal" 2 8.064
 	minables silver 1 10.981
 	minables titanium 1 9.01322
-	fleet "Qoro (N) Battle Fleet" 1500
+	fleet "Qoro Makau Battle Fleet" 1500
 	object
 		sprite star/m0
 		period 10
@@ -52224,7 +52224,7 @@ system Malsos
 
 system Manalh
 	pos -49472.9 -55198.1
-	government "Qoro (North)"
+	government "Makau A Qoro"
 	habitable 912.6
 	belt 1764
 	link Mahakla
@@ -52490,7 +52490,7 @@ system "Mar si ver"
 
 system Marake
 	pos -49410.4 -55093.8
-	government "Qoro (North)"
+	government "Makau A Qoro"
 	habitable 135
 	belt 1997
 	link Maekke
@@ -52537,7 +52537,7 @@ system Marake
 
 system Marakelr
 	pos -49425.2 -55302.2
-	government "Qoro (North)"
+	government "Makau A Qoro"
 	habitable 486.68
 	belt 1320
 	link Makalar
@@ -52691,7 +52691,7 @@ system Marelvar
 
 system Marickar
 	pos -49355.1 -55421.4
-	government "Qoro (North)"
+	government "Makau A Qoro"
 	habitable 135
 	belt 1212
 	link Mahalmal
@@ -52749,7 +52749,7 @@ system Marickar
 
 system Marital
 	pos -49311.6 -55357.1
-	government "Qoro (North)"
+	government "Makau A Qoro"
 	habitable 2372.76
 	belt 1566
 	link Mahalmal
@@ -52837,7 +52837,7 @@ system Marmailei
 
 system Maroki
 	pos -49474.6 -55070.1
-	government "Qoro (North)"
+	government "Makau A Qoro"
 	habitable 486.68
 	belt 1661
 	link Mahakla
@@ -53009,7 +53009,7 @@ system Masaun
 
 system Masekin
 	pos -49310.3 -55296.7
-	government "Qoro (North)"
+	government "Makau A Qoro"
 	habitable 486.68
 	belt 1121
 	link Marital
@@ -53022,7 +53022,7 @@ system Masekin
 	asteroids "large metal" 2 3.6288
 	minables iron 6 7.19312
 	minables titanium 3 7.65044
-	fleet "Qoro (N) Battle Fleet" 500
+	fleet "Qoro Makau Battle Fleet" 500
 	object
 		sprite star/k0
 		period 10
@@ -53079,7 +53079,7 @@ system Masekin
 
 system Masilvar
 	pos -49233.9 -55256.7
-	government "Qoro (North)"
+	government "Makau A Qoro"
 	habitable 486.68
 	belt 1828
 	link Masodel
@@ -53276,7 +53276,7 @@ system Masklela
 
 system Masodel
 	pos -49300.8 -55227.8
-	government "Qoro (North)"
+	government "Makau A Qoro"
 	habitable 320
 	belt 1468
 	link Macadela
@@ -53324,7 +53324,7 @@ system Masodel
 
 system Masolo
 	pos -49371.9 -55284.8
-	government "Qoro (North)"
+	government "Makau A Qoro"
 	habitable 233.28
 	belt 1414
 	link Mahalmal
@@ -53341,7 +53341,7 @@ system Masolo
 	minables aluminum 1 7.91903
 	minables iron 1 8.62643
 	minables neodymium 9 8.61661
-	fleet "Qoro (N) Battle Fleet" 1000
+	fleet "Qoro Makau Battle Fleet" 1000
 	object
 		sprite star/m4
 		period 10
@@ -53376,7 +53376,7 @@ system Masolo
 
 system Masowla
 	pos -49549 -55057.7
-	government "Qoro (North)"
+	government "Makau A Qoro"
 	habitable 625
 	belt 1165
 	link Majorsel
@@ -53707,7 +53707,7 @@ system Maulveera
 
 system Mavasilda
 	pos -49360.9 -55151.7
-	government "Qoro (North)"
+	government "Makau A Qoro"
 	habitable 5425.92
 	belt 1208
 	link Maekke
@@ -53769,7 +53769,7 @@ system Mavasilda
 
 system Mavisilca
 	pos -49411.9 -55210.4
-	government "Qoro (North)"
+	government "Makau A Qoro"
 	habitable 425.92
 	belt 1792
 	link Malsos
@@ -57529,7 +57529,7 @@ system Molta
 	habitable 320
 	belt 1652
 	link Norva
-	link Orel
+	link Oerel
 	asteroids "small rock" 27 5.865
 	asteroids "medium rock" 45 4.8875
 	asteroids "large rock" 30 5.75
@@ -63834,7 +63834,7 @@ system Norva
 	government Revos
 	habitable 2372.76
 	belt 1760
-	link Ano
+	link Alnor
 	link Molta
 	asteroids "small rock" 14 6.525
 	asteroids "medium rock" 46 5.085
@@ -65083,6 +65083,67 @@ system Oebade
 			sprite planet/rock7
 			distance 361
 			period 29.3045
+
+system Oerel
+	pos -49629.4 -55140.1
+	government Revos
+	habitable 425.92
+	belt 1684
+	link Lirel
+	link Molta
+	asteroids "small rock" 7 4.176
+	asteroids "medium rock" 14 1.943
+	asteroids "large rock" 1 2.987
+	asteroids "small metal" 1 3.654
+	asteroids "medium metal" 71 1.45
+	asteroids "large metal" 15 3.48
+	minables lead 22 3.14724
+	minables tungsten 9 2.30838
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/rock15
+		distance 141.69
+		period 32.6892
+	object
+		sprite planet/cloud8
+		distance 473.53
+		period 199.718
+	object
+		sprite planet/mars
+		distance 702.78
+		period 361.098
+	object
+		sprite planet/mercury
+		distance 1133.78
+		period 739.927
+	object
+		sprite planet/uranus
+		distance 1624.87
+		period 1269.47
+	object
+		sprite planet/gas8
+		distance 7103.88
+		period 11604.8
+		object
+			sprite planet/rock7
+			distance 215
+			period 16.7816
+		object
+			sprite planet/dust4
+			distance 347
+			period 34.4089
 
 system Oerkulla
 	pos -50361.7 -55845.1
@@ -66898,67 +66959,6 @@ system Oreeder
 			distance 427
 			period 22.5375
 
-system Orel
-	pos -49629.4 -55140.1
-	government Revos
-	habitable 425.92
-	belt 1684
-	link Lirel
-	link Molta
-	asteroids "small rock" 7 4.176
-	asteroids "medium rock" 14 1.943
-	asteroids "large rock" 1 2.987
-	asteroids "small metal" 1 3.654
-	asteroids "medium metal" 71 1.45
-	asteroids "large metal" 15 3.48
-	minables lead 22 3.14724
-	minables tungsten 9 2.30838
-	trade Clothing 0
-	trade Electronics 0
-	trade Equipment 0
-	trade Food 0
-	trade "Heavy Metals" 0
-	trade Industrial 0
-	trade "Luxury Goods" 0
-	trade Medical 0
-	trade Metal 0
-	trade Plastic 0
-	object
-		sprite star/k5
-		period 10
-	object
-		sprite planet/rock15
-		distance 141.69
-		period 32.6892
-	object
-		sprite planet/cloud8
-		distance 473.53
-		period 199.718
-	object
-		sprite planet/mars
-		distance 702.78
-		period 361.098
-	object
-		sprite planet/mercury
-		distance 1133.78
-		period 739.927
-	object
-		sprite planet/uranus
-		distance 1624.87
-		period 1269.47
-	object
-		sprite planet/gas8
-		distance 7103.88
-		period 11604.8
-		object
-			sprite planet/rock7
-			distance 215
-			period 16.7816
-		object
-			sprite planet/dust4
-			distance 347
-			period 34.4089
-
 system Orelpelor
 	pos -51218.2 -56706.5
 	government "Kroom Kakaima"
@@ -68135,7 +68135,7 @@ system Pyvors
 
 system "Qee Auaro"
 	pos -51979.2 -55427.2
-	government "Dels (Pirate)"
+	government "Dels Ufulre"
 	habitable 3645
 	belt 1750
 	link "Qee Nori"
@@ -68156,6 +68156,7 @@ system "Qee Auaro"
 	trade Medical 493
 	trade Metal 322
 	trade Plastic 470
+	fleet "Dels Ufulre Patrol" 1000
 	object
 		sprite star/a5
 		period 10
@@ -68198,7 +68199,7 @@ system "Qee Auaro"
 
 system "Qee Aukbe"
 	pos -51473.3 -55949.4
-	government "Dels (Pirate)"
+	government "Dels Ufulre"
 	habitable 1400
 	belt 1977
 	link "Qee Bulen"
@@ -68218,6 +68219,7 @@ system "Qee Aukbe"
 	trade Medical 899
 	trade Metal 436
 	trade Plastic 488
+	fleet "Dels Ufulre Patrol" 1000
 	object
 		sprite star/g0
 		distance 25.3714
@@ -68250,7 +68252,7 @@ system "Qee Aukbe"
 
 system "Qee Bulen"
 	pos -51552.3 -55903.4
-	government "Dels (Pirate)"
+	government "Dels Ufulre"
 	habitable 1566.68
 	belt 1177
 	link "Qee Aukbe"
@@ -68272,6 +68274,7 @@ system "Qee Bulen"
 	trade Medical 887
 	trade Metal 393
 	trade Plastic 400
+	fleet "Dels Ufulre Patrol" 1000
 	object
 		sprite star/g0
 		distance 38.2092
@@ -68308,7 +68311,7 @@ system "Qee Bulen"
 
 system "Qee Damour"
 	pos -52224.4 -55277.5
-	government "Dels (Pirate)"
+	government "Dels Ufulre"
 	habitable 233.28
 	belt 1558
 	link "Qee Dunor"
@@ -68324,6 +68327,7 @@ system "Qee Damour"
 	trade Medical 611
 	trade Metal 452
 	trade Plastic 364
+	fleet "Dels Ufulre Patrol" 1000
 	object
 		sprite star/m4
 		period 10
@@ -68354,7 +68358,7 @@ system "Qee Damour"
 
 system "Qee Darua"
 	pos -52180.1 -55144.1
-	government "Dels (Pirate)"
+	government "Dels Ufulre"
 	habitable 8640
 	belt 1608
 	link "Qee Dunor"
@@ -68378,6 +68382,7 @@ system "Qee Darua"
 	trade Medical 630
 	trade Metal 433
 	trade Plastic 472
+	fleet "Dels Ufulre Patrol" 1000
 	object
 		sprite star/b5
 		period 10
@@ -68408,7 +68413,7 @@ system "Qee Darua"
 
 system "Qee Dinar"
 	pos -52363.4 -55499.7
-	government "Dels (Pirate)"
+	government "Dels Ufulre"
 	habitable 233.28
 	belt 1552
 	link "Qee Kakur"
@@ -68433,6 +68438,7 @@ system "Qee Dinar"
 	trade Medical 562
 	trade Metal 281
 	trade Plastic 321
+	fleet "Dels Ufulre Patrol" 1000
 	object
 		sprite star/m4
 		period 10
@@ -68467,7 +68473,7 @@ system "Qee Dinar"
 
 system "Qee Divar"
 	pos -52380.4 -55276.4
-	government "Dels (Pirate)"
+	government "Dels Ufulre"
 	habitable 1080
 	belt 1994
 	link "Qee Golle"
@@ -68489,6 +68495,7 @@ system "Qee Divar"
 	trade Medical 616
 	trade Metal 486
 	trade Plastic 444
+	fleet "Dels Ufulre Patrol" 1000
 	object
 		sprite star/g0
 		period 10
@@ -68519,7 +68526,7 @@ system "Qee Divar"
 
 system "Qee Doar"
 	pos -52177.3 -55614
-	government "Dels (Pirate)"
+	government "Dels Ufulre"
 	habitable 1080
 	belt 1641
 	link "Qee Urqide"
@@ -68538,6 +68545,7 @@ system "Qee Doar"
 	trade Medical 689
 	trade Metal 254
 	trade Plastic 439
+	fleet "Dels Ufulre Patrol" 1000
 	object
 		sprite star/g0
 		period 10
@@ -68580,7 +68588,7 @@ system "Qee Doar"
 
 system "Qee Duain"
 	pos -52065.7 -55516.9
-	government "Dels (Pirate)"
+	government "Dels Ufulre"
 	habitable 1250
 	belt 1949
 	link "Qee Uardiue"
@@ -68603,6 +68611,7 @@ system "Qee Duain"
 	trade Medical 553
 	trade Metal 267
 	trade Plastic 383
+	fleet "Dels Ufulre Patrol" 1000
 	object
 		sprite star/g5
 		distance 50
@@ -68643,7 +68652,7 @@ system "Qee Duain"
 
 system "Qee Duao"
 	pos -52371.5 -55221.9
-	government "Dels (Pirate)"
+	government "Dels Ufulre"
 	habitable 320
 	belt 1401
 	link "Qee Durdao"
@@ -68663,6 +68672,7 @@ system "Qee Duao"
 	trade Medical 564
 	trade Metal 508
 	trade Plastic 427
+	fleet "Dels Ufulre Patrol" 1000
 	object
 		sprite star/m0
 		period 10
@@ -68697,7 +68707,7 @@ system "Qee Duao"
 
 system "Qee Dukur"
 	pos -52097.8 -55315.6
-	government "Dels (Pirate)"
+	government "Dels Ufulre"
 	habitable 486.68
 	belt 1763
 	link "Qee Norsua"
@@ -68721,6 +68731,7 @@ system "Qee Dukur"
 	trade Medical 541
 	trade Metal 510
 	trade Plastic 452
+	fleet "Dels Ufulre Patrol" 1000
 	object
 		sprite star/k0
 		period 10
@@ -68755,7 +68766,7 @@ system "Qee Dukur"
 
 system "Qee Dunor"
 	pos -52226.6 -55204.8
-	government "Dels (Pirate)"
+	government "Dels Ufulre"
 	habitable 320
 	belt 1781
 	link "Qee Damour"
@@ -68778,6 +68789,7 @@ system "Qee Dunor"
 	trade Medical 628
 	trade Metal 450
 	trade Plastic 375
+	fleet "Dels Ufulre Patrol" 1000
 	object
 		sprite star/m0
 		period 10
@@ -68804,7 +68816,7 @@ system "Qee Dunor"
 
 system "Qee Durdao"
 	pos -52391 -55149.9
-	government "Dels (Pirate)"
+	government "Dels Ufulre"
 	habitable 625
 	belt 1609
 	link "Qee Duao"
@@ -68826,6 +68838,7 @@ system "Qee Durdao"
 	trade Medical 510
 	trade Metal 512
 	trade Plastic 474
+	fleet "Dels Ufulre Patrol" 1000
 	object
 		sprite star/g5
 		period 10
@@ -68872,7 +68885,7 @@ system "Qee Durdao"
 
 system "Qee Fol"
 	pos -51924.3 -55587.3
-	government "Dels (Pirate)"
+	government "Dels Ufulre"
 	habitable 1080
 	link "Qee Nor"
 	link "Qee Urio"
@@ -68891,9 +68904,8 @@ system "Qee Fol"
 	trade Medical 589
 	trade Metal 227
 	trade Plastic 382
-	fleet "Dels Kaote" 1000
-	fleet "Dels merchant" 1200
-	fleet "Dels pirate" 500
+	fleet "Dels Ufulre Raid" 500
+	fleet "Dels Ufulre Patrol" 1000
 	object
 		sprite star/g0
 		period 10
@@ -68928,7 +68940,7 @@ system "Qee Fol"
 
 system "Qee Fuour"
 	pos -52248.8 -55481
-	government "Dels (Pirate)"
+	government "Dels Ufulre"
 	habitable 1505.92
 	belt 1129
 	link Dolmoriwakla
@@ -68951,6 +68963,7 @@ system "Qee Fuour"
 	trade Medical 601
 	trade Metal 240
 	trade Plastic 286
+	fleet "Dels Ufulre Patrol" 1000
 	object
 		sprite star/g0
 		distance 35.6366
@@ -68991,7 +69004,7 @@ system "Qee Fuour"
 
 system "Qee Golle"
 	pos -52304.1 -55310.7
-	government "Dels (Pirate)"
+	government "Dels Ufulre"
 	habitable 486.68
 	belt 1919
 	link Dolmoriwakla
@@ -69017,6 +69030,7 @@ system "Qee Golle"
 	trade Medical 616
 	trade Metal 466
 	trade Plastic 382
+	fleet "Dels Ufulre Patrol" 1000
 	object
 		sprite star/k0
 		period 10
@@ -69055,7 +69069,7 @@ system "Qee Golle"
 
 system "Qee Kakur"
 	pos -52351.4 -55584.7
-	government "Dels (Pirate)"
+	government "Dels Ufulre"
 	habitable 745.92
 	belt 1673
 	link "Qee Dinar"
@@ -69071,6 +69085,7 @@ system "Qee Kakur"
 	trade Medical 551
 	trade Metal 275
 	trade Plastic 334
+	fleet "Dels Ufulre Patrol" 1000
 	object
 		sprite star/k5
 		distance 35.178
@@ -69099,7 +69114,7 @@ system "Qee Kakur"
 
 system "Qee Karol"
 	pos -52502.4 -55471.6
-	government "Dels (Pirate)"
+	government "Dels Ufulre"
 	habitable 320
 	belt 1684
 	link "Qee Ordie"
@@ -69117,6 +69132,7 @@ system "Qee Karol"
 	trade Medical 489
 	trade Metal 413
 	trade Plastic 458
+	fleet "Dels Ufulre Patrol" 1000
 	object
 		sprite star/m0
 		period 10
@@ -69151,7 +69167,7 @@ system "Qee Karol"
 
 system "Qee Licor"
 	pos -51405.3 -55990.4
-	government "Dels (Pirate)"
+	government "Dels Ufulre"
 	habitable 135
 	belt 1636
 	link "Qee Aukbe"
@@ -69166,6 +69182,7 @@ system "Qee Licor"
 	trade Medical 886
 	trade Metal 472
 	trade Plastic 522
+	fleet "Dels Ufulre Patrol" 1000
 	object
 		sprite star/m8
 		period 10
@@ -69196,7 +69213,7 @@ system "Qee Licor"
 
 system "Qee Nor"
 	pos -51833.7 -55588.4
-	government "Dels (Pirate)"
+	government "Dels Ufulre"
 	habitable 486.68
 	link "Qee Fol"
 	link "Qee Norika"
@@ -69217,9 +69234,8 @@ system "Qee Nor"
 	trade Medical 585
 	trade Metal 211
 	trade Plastic 461
-	fleet "Dels Kaote" 1000
-	fleet "Dels merchant" 1200
-	fleet "Dels pirate" 500
+	fleet "Dels Ufulre Raid" 500
+	fleet "Dels Ufulre Patrol" 1000
 	object
 		sprite star/k0
 		period 10
@@ -69250,7 +69266,7 @@ system "Qee Nor"
 
 system "Qee Nori"
 	pos -51886.6 -55453.7
-	government "Dels (Pirate)"
+	government "Dels Ufulre"
 	habitable 486.68
 	belt 1724
 	link "Qee Auaro"
@@ -69272,7 +69288,8 @@ system "Qee Nori"
 	trade Medical 568
 	trade Metal 264
 	trade Plastic 493
-	fleet "Dels pirate" 500
+	fleet "Dels Ufulre Raid" 600
+	fleet "Dels Ufulre Patrol" 1000
 	object
 		sprite star/k0
 		period 10
@@ -69316,7 +69333,7 @@ system "Qee Nori"
 
 system "Qee Norika"
 	pos -51863.3 -55519.3
-	government "Dels (Pirate)"
+	government "Dels Ufulre"
 	habitable 858.28
 	link "Qee Nor"
 	link "Qee Nori"
@@ -69338,7 +69355,8 @@ system "Qee Norika"
 	trade Metal 246
 	trade Plastic 479
 	fleet "Dels merchant" 1200
-	fleet "Dels pirate" 500
+	fleet "Dels Ufulre Raid" 500
+	fleet "Dels Ufulre Patrol" 600
 	object
 		sprite star/g5
 		distance 24.7337
@@ -69383,7 +69401,7 @@ system "Qee Norika"
 
 system "Qee Norsua"
 	pos -52021.3 -55350.2
-	government "Dels (Pirate)"
+	government "Dels Ufulre"
 	habitable 233.28
 	link "Qee Auaro"
 	link "Qee Dukur"
@@ -69402,6 +69420,7 @@ system "Qee Norsua"
 	trade Medical 503
 	trade Metal 428
 	trade Plastic 435
+	fleet "Dels Ufulre Patrol" 1000
 	object
 		sprite star/m4
 		period 10
@@ -69435,7 +69454,7 @@ system "Qee Norsua"
 
 system "Qee Ordie"
 	pos -52444.4 -55534.7
-	government "Dels (Pirate)"
+	government "Dels Ufulre"
 	habitable 912.6
 	belt 1061
 	link "Qee Dinar"
@@ -69458,6 +69477,7 @@ system "Qee Ordie"
 	trade Medical 515
 	trade Metal 367
 	trade Plastic 398
+	fleet "Dels Ufulre Patrol" 1000
 	object
 		sprite star/k0
 		distance 50.4047
@@ -69494,7 +69514,7 @@ system "Qee Ordie"
 
 system "Qee Rol"
 	pos -52289.9 -55526.3
-	government "Dels (Pirate)"
+	government "Dels Ufulre"
 	habitable 486.68
 	link "Qee Dinar"
 	link "Qee Fuour"
@@ -69512,8 +69532,7 @@ system "Qee Rol"
 	trade Medical 570
 	trade Metal 242
 	trade Plastic 307
-	fleet "Dels merchant" 1200
-	fleet "Dels pirate" 500
+	fleet "Dels Ufulre Patrol" 1000
 	object
 		sprite star/k0
 		period 10
@@ -69548,7 +69567,7 @@ system "Qee Rol"
 
 system "Qee Ruvee"
 	pos -51702.1 -55808.1
-	government "Dels (Pirate)"
+	government "Dels Ufulre"
 	habitable 425.92
 	belt 1503
 	link "Qee Vardel"
@@ -69571,6 +69590,7 @@ system "Qee Ruvee"
 	trade Medical 688
 	trade Metal 329
 	trade Plastic 299
+	fleet "Dels Ufulre Patrol" 1000
 	object
 		sprite star/k5
 		period 10
@@ -69597,7 +69617,7 @@ system "Qee Ruvee"
 
 system "Qee Tolor"
 	pos -51814.9 -55487
-	government "Dels (Pirate)"
+	government "Dels Ufulre"
 	habitable 851.84
 	link Keedulva
 	link "Qee Norika"
@@ -69618,7 +69638,8 @@ system "Qee Tolor"
 	trade Metal 307
 	trade Plastic 495
 	fleet "Dels merchant" 1200
-	fleet "Dels pirate" 500
+	fleet "Dels Ufulre Raid" 500
+	fleet "Dels Ufulre Patrol" 600
 	object
 		sprite star/k5
 		distance 49
@@ -69667,7 +69688,7 @@ system "Qee Tolor"
 
 system "Qee Tuaku"
 	pos -52095.7 -55244.7
-	government "Dels (Pirate)"
+	government "Dels Ufulre"
 	habitable 640
 	belt 1011
 	link "Qee Darua"
@@ -69689,6 +69710,7 @@ system "Qee Tuaku"
 	trade Medical 593
 	trade Metal 485
 	trade Plastic 492
+	fleet "Dels Ufulre Patrol" 1000
 	object
 		sprite star/m0
 		distance 56
@@ -69737,7 +69759,7 @@ system "Qee Tuaku"
 
 system "Qee Uardiue"
 	pos -52131.3 -55483.8
-	government "Dels (Pirate)"
+	government "Dels Ufulre"
 	habitable 4725
 	belt 1087
 	link "Qee Duain"
@@ -69760,6 +69782,7 @@ system "Qee Uardiue"
 	trade Medical 603
 	trade Metal 256
 	trade Plastic 413
+	fleet "Dels Ufulre Patrol" 1000
 	object
 		sprite star/a5
 		distance 27.2
@@ -69796,7 +69819,7 @@ system "Qee Uardiue"
 
 system "Qee Ultur"
 	pos -52304.9 -55256.8
-	government "Dels (Pirate)"
+	government "Dels Ufulre"
 	habitable 425.92
 	belt 1655
 	link "Qee Damour"
@@ -69819,6 +69842,7 @@ system "Qee Ultur"
 	trade Medical 612
 	trade Metal 496
 	trade Plastic 333
+	fleet "Dels Ufulre Patrol" 1000
 	object
 		sprite star/k5
 		period 10
@@ -69865,7 +69889,7 @@ system "Qee Ultur"
 
 system "Qee Urio"
 	pos -52000.7 -55564.6
-	government "Dels (Pirate)"
+	government "Dels Ufulre"
 	habitable 233.28
 	belt 1316
 	link "Qee Duain"
@@ -69883,6 +69907,7 @@ system "Qee Urio"
 	trade Medical 562
 	trade Metal 246
 	trade Plastic 328
+	fleet "Dels Ufulre Patrol" 1000
 	object
 		sprite star/m4
 		period 10
@@ -69909,7 +69934,7 @@ system "Qee Urio"
 
 system "Qee Urqide"
 	pos -52185.3 -55516.1
-	government "Dels (Pirate)"
+	government "Dels Ufulre"
 	habitable 625
 	belt 1589
 	link "Qee Doar"
@@ -69935,6 +69960,7 @@ system "Qee Urqide"
 	trade Medical 634
 	trade Metal 241
 	trade Plastic 377
+	fleet "Dels Ufulre Patrol" 1000
 	object
 		sprite star/g5
 		period 10
@@ -69977,7 +70003,7 @@ system "Qee Urqide"
 
 system "Qee Urua"
 	pos -51826.5 -55654.7
-	government "Dels (Pirate)"
+	government "Dels Ufulre"
 	habitable 1080
 	belt 1662
 	link "Qee Nor"
@@ -69999,6 +70025,7 @@ system "Qee Urua"
 	trade Medical 541
 	trade Metal 224
 	trade Plastic 400
+	fleet "Dels Ufulre Patrol" 1000
 	object
 		sprite star/g0
 		period 10
@@ -70045,7 +70072,7 @@ system "Qee Urua"
 
 system "Qee Vardel"
 	pos -51633 -55873.7
-	government "Dels (Pirate)"
+	government "Dels Ufulre"
 	habitable 1715
 	belt 1229
 	link "Qee Bulen"
@@ -70068,6 +70095,7 @@ system "Qee Vardel"
 	trade Medical 798
 	trade Metal 377
 	trade Plastic 332
+	fleet "Dels Ufulre Patrol" 1000
 	object
 		sprite star/f5
 		period 10
@@ -70102,7 +70130,7 @@ system "Qee Vardel"
 
 system "Qee Varmor"
 	pos -52235.6 -55575.3
-	government "Dels (Pirate)"
+	government "Dels Ufulre"
 	habitable 486.68
 	belt 1938
 	link "Qee Rol"
@@ -70126,6 +70154,7 @@ system "Qee Varmor"
 	trade Medical 582
 	trade Metal 241
 	trade Plastic 346
+	fleet "Dels Ufulre Patrol" 1000
 	object
 		sprite star/k0
 		period 10
@@ -70156,7 +70185,7 @@ system "Qee Varmor"
 
 system "Qee Vulkuri"
 	pos -51776.5 -55750.3
-	government "Dels (Pirate)"
+	government "Dels Ufulre"
 	habitable 625
 	belt 1344
 	link "Qee Ruvee"
@@ -70180,6 +70209,7 @@ system "Qee Vulkuri"
 	trade Medical 599
 	trade Metal 264
 	trade Plastic 308
+	fleet "Dels Ufulre Patrol" 1000
 	object
 		sprite star/g5
 		period 10
@@ -70222,7 +70252,7 @@ system "Qee Vulkuri"
 
 system "Qee Vurelo"
 	pos -52406.5 -55086.9
-	government "Dels (Pirate)"
+	government "Dels Ufulre"
 	habitable 1050.92
 	belt 1899
 	link "Qee Durdao"
@@ -70245,6 +70275,7 @@ system "Qee Vurelo"
 	trade Medical 487
 	trade Metal 507
 	trade Plastic 493
+	fleet "Dels Ufulre Patrol" 1000
 	object
 		sprite star/g5
 		distance 49.0392
@@ -78456,7 +78487,7 @@ system Soarel
 	habitable 233.28
 	belt 1830
 	link Kotai
-	link Leno
+	link Lelerno
 	link Vorabi
 	asteroids "small rock" 15 3.1694
 	asteroids "medium rock" 29 2.1827
@@ -89629,7 +89660,7 @@ planet Asokqen
 	landscape land/desert5
 	description .
 	spaceport .
-	shipyard "Dels Pirate"
+	shipyard "Dels Ufulre Raid"
 	"required reputation" 1
 	bribe 0.5
 
@@ -89797,11 +89828,11 @@ planet "Dikena "
 	spaceport `Judging from the buildings around it, this spaceport was probably once a storage for storing ores harvested from the planet below back in the days where fighting gravity wasn't as trivial as today. Now it had mostly been abandoned.`
 
 planet Dolmorikan
-	attributes `"Dels (Pirate)"`
+	attributes `"Dels Ufulre"`
 	landscape land/forest0
 	description .
 	spaceport .
-	shipyard "Dels Pirate"
+	shipyard "Dels Ufulre Raid"
 	"required reputation" 2
 	bribe 0.9
 
@@ -91247,7 +91278,7 @@ planet Qee'Sensa
 	landscape land/water2
 	description .
 	spaceport .
-	shipyard "Dels Pirate"
+	shipyard "Dels Ufulre Raid"
 	"required reputation" 1
 	bribe 0.3
 
@@ -91267,12 +91298,12 @@ planet Qensok
 	landscape land/canyon2
 	description .
 	spaceport .
-	shipyard "Dels Pirate"
+	shipyard "Dels Ufulre Raid"
 	"required reputation" 1
 	bribe 0.7
 
 planet Qensokari
-	attributes `"Dels (Pirate)"`
+	attributes `"Dels Ufulre"`
 	landscape land/dune4
 	description .
 	spaceport .

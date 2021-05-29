@@ -304,9 +304,9 @@ fleet "Qanse Small"
 	variant 15
 		"Dantra" 2
 		
-fleet "Qoro (N) Battle Fleet"
-	government "Qoro (North)"
-	names "Qoro(north)"
+fleet "Qoro Makau Battle Fleet"
+	government "Makau A Qoro"
+	names "Qoro Makau"
 	cargo 1
 	personality
 		confusion 20
@@ -315,31 +315,31 @@ fleet "Qoro (N) Battle Fleet"
 		plunders
 		disables
 	variant 50
-		"Qoro(N) Manta" 5
+		"Qoro(M) Manta" 5
 	variant 40
-		"Qoro(N) Masec"
+		"Qoro(M) Masec"
 	variant 40
-		"Qoro(N) Manta" 4
+		"Qoro(M) Manta" 4
 	variant 30
-		"Qoro(N) Masec"
-		"Qoro(N) Manta" 3
+		"Qoro(M) Masec"
+		"Qoro(M) Manta" 3
 	variant 30
-		"Qoro(N) Masec" 2
-		"Qoro(N) Manta" 3
+		"Qoro(M) Masec" 2
+		"Qoro(M) Manta" 3
 
-fleet "Qoro (N) Miner"
-	government "Qoro (North)"
-	names "Qoro(north)"
+fleet "Qoro Makau Miner"
+	government "Makau A Qoro"
+	names "Qoro Makau"
 	cargo 1
 	personality
 		confusion 20 
 		plunders mining harvests
 	variant 50
-		"Qoro(N) Manta"
+		"Qoro(M) Manta"
 		
-fleet "Qoro (E) Battle Fleet"
-	government "Qoro (East)"
-	names "Qoro(east)"
+fleet "Qoro Siogal Battle Fleet"
+	government "Qoro Siogal"
+	names "Qoro Siogal"
 	cargo 1
 	personality
 		confusion 30
@@ -348,21 +348,21 @@ fleet "Qoro (E) Battle Fleet"
 		plunders
 		disables
 	variant 50
-		"Qoro(E) Ganoth" 5
+		"Qoro(S) Ganoth" 5
 	variant 40
-		"Qoro(E) Ganoth" 2
-		"Qoro(E) Elgarel"
-		"Qoro(E) Gasat"
+		"Qoro(S) Ganoth" 2
+		"Qoro(S) Elgarel"
+		"Qoro(S) Gasat"
 	variant 40
-		"Qoro(E) Elgarel" 2
-		"Qoro(E) Gasat" 2
+		"Qoro(S) Elgarel" 2
+		"Qoro(S) Gasat" 2
 	variant 30
-		"Qoro(E) Elgarel" 3
-		"Qoro(E) Ganoth" 4
-		"Qoro(E) Gasat" 3
+		"Qoro(S) Elgarel" 3
+		"Qoro(S) Ganoth" 4
+		"Qoro(S) Gasat" 3
 	variant 30
-		"Qoro(E) Elogarl"
-		"Qoro(E) Ganoth" 3
+		"Qoro(S) Elogarl"
+		"Qoro(S) Ganoth" 3
 		
 fleet "Aumar Probe"
 	government "Aumar"

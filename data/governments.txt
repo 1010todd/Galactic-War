@@ -37,8 +37,8 @@ government "Ultaka"
 		"Aumar" -.01
 		"Donko" -.01
 		"Revos" -.1
-		"Qoro (North)" -.01
-		"Qoro (East)" -.01
+		"Makau A Qoro" -.01
+		"Qoro Siogal" -.01
 		"Qanse" 1
 		"Ultaka(Mega)" 10
 		"ZIS" -.2
@@ -106,10 +106,6 @@ government "Dels Dardornai" #Government 2 fullname: Dardornai Kar Meda
 	"crew attack" 1.4
     "crew defense" 1.3
 	"attitude toward"
-		#"Wallagi" 1
-		#"Ultaka" -1
-		#"Revos" -.1
-		"Dels Ufulre" -.1
 		"Dels" .1
 		"Kroom Kakaima" -.2
 		"Dels Kaote" 1
@@ -121,45 +117,29 @@ government "Dels Kaote" #Government 1 fullname: Prada Kaote
 	"crew attack" 1
     "crew defense" 2.2
 	"attitude toward"
-		#"Wallagi" 1
-		#"Ultaka" -1
-		#"Revos" -.1
 		"Dels Ufulre" -.1
 		"Dels" .1
 		"Dels Dardornai" 1
 		"Kroom Kakaima" -.01
 		
-government "Dels Ufulre" #Seperatist fullname: Ufulre Qer
+government "Dels Ufulre" #
 	swizzle 1
 	color .343 .89 .25
 	"player reputation" -10
 	"attitude toward"
-		"Dels Dardornai" -.1
 		"Dels Kaote" -.1
 		"Dels" .1
-		
-government "Dels (Pirate)" #Deprecated 
-	swizzle 1
-	color .343 .89 .25
-	"player reputation" -10
-	"attitude toward"
-		"Wallagi" -.1
-		"Ultaka" -.01
-		#"Revos" -.1
-		"Dels" -.1
 		
 government "Aumar"
 	swizzle 5
 	color .8 .58 .58
 	"player reputation" .1
 	"attitude toward"
-		"Wallagi" .1
-		"Dels" .1
-		
+
 government "Donko"
 	swizzle 0
 	color .8 .781 .163
-	language "Konon"
+	language "Donko"
 	"player reputation" 1
 	"attitude toward"
 		"Wallagi" .1
@@ -175,21 +155,21 @@ government "Revos"
 		"Ultaka" -.1
 		"Donko" .1
 		
-government "Qoro (North)"
+government "Makau A Qoro"
 	swizzle 0
 	color .004 .0 .89
-	language "Qeuin"
+	language "Makau Qoro"
 	"player reputation" -1
 	"attitude toward"
-		"Qoro (East)" -.1
+		"Qoro Siogal" -.1
 		
-government "Qoro (East)"
-	swizzle 0
+government "Qoro Siogal"
+	swizzle 5
 	color .0 .89 .006
-	language "Qeuin"
+	language "Siogalian"
 	"player reputation" 1
 	"attitude toward"
-		"Qoro (North)" -.1
+		"Makau A Qoro" -.1
 		
 government "Qanse"
 	swizzle 3

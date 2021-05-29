@@ -1,4 +1,4 @@
-ship "Qoro(E) Logr" 
+ship "Qoro(S) Logr" 
 	sprite "ship/qoro e logr"
 	thumbnail "thumbnail/qoro e logr thumb"
 	attributes
@@ -28,7 +28,7 @@ ship "Qoro(E) Logr"
 	explode "tiny explosion" 10
 	description "Eastern Qoro Cargo pods. It is equipped with basic reaction wheels and RCS for fine tuning when docking in space."
 
-ship "Qoro(E) Gasat" #Gosat
+ship "Qoro(S) Gasat" #Gosat
 	sprite "ship/qoro e gasat"
 	thumbnail "thumbnail/qoro e gasat thumb"
 	attributes
@@ -68,14 +68,14 @@ ship "Qoro(E) Gasat" #Gosat
 	explode "tiny explosion" 20
 	description "These are cheap fighters to be deployed in mass and overwhelm the enemy in combat."
 
-ship "Qoro(E) Gasat" "Gasat Bomber"
+ship "Qoro(S) Gasat" "Gasat Bomber"
 	outfits
 		"Orthall Assault Cannon" 2
 		"Aog Cell"
 		"Gotam Ion Thruster"
 		"Ornai Shield Generator"
 	
-ship "Qoro(E) Ganoth"
+ship "Qoro(S) Ganoth"
 	sprite "ship/qoro e ganoth"
 	thumbnail "thumbnail/qoro e ganoth thumb"
 	attributes
@@ -120,7 +120,7 @@ ship "Qoro(E) Ganoth"
 	explode "tiny explosion" 20
 	description "A heavier version of Gosat."
 	
-ship "Qoro(E) Ganoth" "Ganoth Mixed"
+ship "Qoro(S) Ganoth" "Ganoth Mixed"
 	outfits
 		"Algarral Battle Gun" 2
 		"Orthall Assault Cannon" 2
@@ -129,7 +129,7 @@ ship "Qoro(E) Ganoth" "Ganoth Mixed"
 		"Ornai Shield Generator"
 		"Hyperdrive"
 		
-ship "Qoro(E) Ganoth" "Ganoth Bomber"
+ship "Qoro(S) Ganoth" "Ganoth Bomber"
 	outfits
 		"Orthall Assault Cannon" 4
 		"Aog Cell"
@@ -137,7 +137,7 @@ ship "Qoro(E) Ganoth" "Ganoth Bomber"
 		"Ornai Shield Generator"
 		"Hyperdrive"
 	
-ship "Qoro(E) Elgarel"
+ship "Qoro(S) Elgarel"
 	sprite "ship/qoro elgarel"
 	thumbnail "thumbnail/qoro e elgarel thumb"
 	attributes
@@ -163,7 +163,7 @@ ship "Qoro(E) Elgarel"
 	outfits
 		"Orthall Assault Cannon" 2
 		"Algarral Battle Gun" 2
-		"Qoro(E) Anti-Missile"
+		"Qoro(S) Anti-Missile"
 		"Goa Cell"
 		"Norklo'Ar Shield Generator"
 		
@@ -221,7 +221,7 @@ ship "Qoro(E) Elgarel"
 	"final explode" "final explosion small"
 	description "A small lightwarship that can carry a fighter with it into battle. Also used as freighter and recovery ship."
 	
-ship "Qoro(E) Elogarl"
+ship "Qoro(S) Elogarl"
 	sprite "ship/qoro e elogarl"
 	thumbnail "thumbnail/qoro e elogarl thumb"
 	attributes
@@ -247,7 +247,7 @@ ship "Qoro(E) Elogarl"
 	outfits
 		"Orthall Assault Cannon" 2
 		"Algarral Battle Gun" 4
-		"Qoro(E) Anti-Missile" 2
+		"Qoro(S) Anti-Missile" 2
 		"Heur Cell"
 		"Norklo'Ar Shield Generator"
 		
