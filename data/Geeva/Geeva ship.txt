@@ -12,7 +12,7 @@ ship "Hailika"
 		"heat dissipation" .90
 		"fuel capacity" 400
 		"cargo space" 15
-		"outfit space" 195
+		"outfit space" 230
 		"weapon capacity" 30
 		"engine capacity" 50
 		weapon
@@ -90,11 +90,11 @@ ship "Kinika"
 		"Silr-02 Hyperdrive"
 		
 		
-	turret 0 -0.5 "R6 Heavy Blaster Turret"
-	turret -20 6.5 "R6 Blaster Turret" 
-	turret 20.5 7 "R6 Anti-Missile Turret"
-	turret -21 25 "R6 Anti-Missile Turret"
-	turret 19.5 25 "R6 Blaster Turret" 
+	turret 0 -0.5 "Noilcor-06 Blaster Turret"
+	turret -20 6.5
+	turret 20.5 7 "Rilar-06 Anti-Missile"
+	turret -21 25 "Rilar-06 Anti-Missile"
+	turret 19.5 25
 	gun -20 -23
 	gun 20 -23
 	engine -7 53.5
@@ -147,26 +147,26 @@ ship "Kimali"
 		"Iogel04-04 Steering"
 		"Silr-02 Hyperdrive"
 		
-	turret -54 -23 "R6 Heavy Blaster Turret"
-	turret 54.5 -22.5 "R6 Heavy Blaster Turret"
-	turret -55 8 "R6 Heavy Blaster Turret"
-	turret 54.5 8 "R6 Heavy Blaster Turret" 
-	turret -55 39.5 "R6 Heavy Blaster Turret"
-	turret 54 40 "R6 Heavy Blaster Turret"
-	turret -54.5 72 "R6 Heavy Blaster Turret"
-	turret 54.5 71 "R6 Heavy Blaster Turret"
-	turret -54.5 101 "R6 Heavy Blaster Turret"
-	turret 55 100.5 "R6 Heavy Blaster Turret"
+	turret -54 -23 "Noilcor-06 Blaster Turret"
+	turret 54.5 -22.5 "Noilcor-06 Blaster Turret"
+	turret -55 8 "Noilcor-06 Blaster Turret"
+	turret 54.5 8 "Noilcor-06 Blaster Turret" 
+	turret -55 39.5 "Noilcor-06 Blaster Turret"
+	turret 54 40 "Noilcor-06 Blaster Turret"
+	turret -54.5 72 "Noilcor-06 Blaster Turret"
+	turret 54.5 71 "Noilcor-06 Blaster Turret"
+	turret -54.5 101 "Noilcor-06 Blaster Turret"
+	turret 55 100.5 "Noilcor-06 Blaster Turret"
 	gun -43.5 -102.5
 	gun 43 -102.5
 	gun -24.5 -126.5
 	gun 23.5 -128
-	turret -27.5 -43.5 "R6 Anti-Missile Turret"
-	turret 28.5 -44 "R6 Anti-Missile Turret"
-	turret -29 54 "R6 Anti-Missile Turret"
-	turret 28.5 53 "R6 Anti-Missile Turret"
-	turret -28.5 113.5 "R6 Anti-Missile Turret"
-	turret 28.5 114.5 "R6 Anti-Missile Turret"
+	turret -27.5 -43.5 "Rilar-06 Anti-Missile"
+	turret 28.5 -44 "Rilar-06 Anti-Missile"
+	turret -29 54 "Rilar-06 Anti-Missile"
+	turret 28.5 53 "Rilar-06 Anti-Missile"
+	turret -28.5 113.5 "Rilar-06 Anti-Missile"
+	turret 28.5 114.5 "Rilar-06 Anti-Missile"
 	engine -13 143
 	engine 13 143
 	engine 0 142.5
@@ -225,24 +225,24 @@ ship "Mayuinia"
 		"Silr-03 Hyperdrive"
 		"Unvrsel-02 Star Drive"
 		
-	turret -17 -157.5 "R5 Plasma Burst Turret"
-	turret 16.5 -158.5 "R5 Plasma Burst Turret"
-	turret -20 -137.5 "R7 Sentry Anti-Missile Turret"
-	turret 19.5 -136.5 "R7 Sentry Anti-Missile Turret"
-	turret -24.5 -118 "R7 Sentry Anti-Missile Turret"
-	turret 23.5 -117 "R7 Sentry Anti-Missile Turret"
-	turret -12 -79 "R7 Heavy Blaster Turret"
-	turret 12 -79.5 "R7 Heavy Blaster Turret"
-	turret -28.5 -34.5 "R7 Heavy Blaster Turret"
-	turret 29.5 -34.5 "R7 Heavy Blaster Turret"
-	turret -29 9 "R7 Heavy Blaster Turret"
-	turret 29.5 9.5 "R7 Heavy Blaster Turret"
-	turret -23 53 "R7 Heavy Blaster Turret"
-	turret 24 53 "R7 Heavy Blaster Turret"
-	turret -24 111 "R7 Sentry Anti-Missile Turret"
-	turret 23.5 111 "R7 Sentry Anti-Missile Turret"
-	gun -39.5 -171 "R1 Homing Beam"
-	gun 37.5 -171 "R1 Homing Beam"
+	turret -17 -157.5 "Virnel-05 Plasma Turret"
+	turret 16.5 -158.5 "Virnel-05 Plasma Turret"
+	turret -20 -137.5 "Sentry-03 Anti-Missile"
+	turret 19.5 -136.5 "Sentry-03 Anti-Missile"
+	turret -24.5 -118 "Sentry-03 Anti-Missile"
+	turret 23.5 -117 "Sentry-03 Anti-Missile"
+	turret -12 -79 "Noilcor-07 Blaster Turret"
+	turret 12 -79.5 "Noilcor-07 Blaster Turret"
+	turret -28.5 -34.5 "Noilcor-07 Blaster Turret"
+	turret 29.5 -34.5 "Noilcor-07 Blaster Turret"
+	turret -29 9 "Noilcor-07 Blaster Turret"
+	turret 29.5 9.5 "Noilcor-07 Blaster Turret"
+	turret -23 53 "Noilcor-07 Blaster Turret"
+	turret 24 53 "Noilcor-07 Blaster Turret"
+	turret -24 111 "Sentry-03 Anti-Missile"
+	turret 23.5 111 "Sentry-03 Anti-Missile"
+	gun -39.5 -171 "Vytorn-01 Homing Beam"
+	gun 37.5 -171 "Vytorn-01 Homing Beam"
 	engine -37.5 193.5
 	engine 36 194
 	engine 0 203

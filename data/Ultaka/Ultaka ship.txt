@@ -248,7 +248,7 @@ ship "Ultaka Summoner"
 			"hull damage" 500
 			"hit force" 1500
 	outfits
-		"M10G Gun" 3
+		"M10G Turret" 3
 		"G20A Turret" 4
 		"U20-B anti missile" 2
 		"Ultaka Antimatter Cannon" 2
@@ -497,7 +497,7 @@ ship "Ultaka Conqueror"
 			"hull damage" 500
 			"hit force" 1500
 	outfits
-		"M20G Gun" 6
+		"M20G Turret" 6
 		"G20C Turret" 8
 		"U20-B anti missile" 2
 		"Ultaka Vanquisher Cannon" 2
@@ -514,13 +514,13 @@ ship "Ultaka Conqueror"
 		
 	gun -30.5 -335
 	gun 30.5 -335
-	turret 0 -289 "M20G Gun"
-	turret 0 -249.5 "M20G Gun"
-	turret 0 -200.5 "M20G Gun"
+	turret 0 -289 "M20G Turret"
+	turret 0 -249.5 "M20G Turret"
+	turret 0 -200.5 "M20G Turret"
 	turret -81 -72
 	turret 81 -72
-	turret -81 -37.5 "M20G Gun"
-	turret 81 -37.5 "M20G Gun"
+	turret -81 -37.5 "M20G Turret"
+	turret 81 -37.5 "M20G Turret"
 	turret -81 -3
 	turret 81 -3
 	turret -125 -20 "U20-B anti missile"
@@ -529,7 +529,7 @@ ship "Ultaka Conqueror"
 	turret 72.5 82
 	turret -61.5 106.5
 	turret 61.5 106.5
-	turret 0 187 "M20G Gun"
+	turret 0 187 "M20G Turret"
 	engine -48 340.5
 		zoom 1
 		angle 0
@@ -583,24 +583,24 @@ ship "Ultaka Path-Maker"
 		"B60 Ve'el Core"
 		"Ultaka Heat Shunt"
 		"Kel'aku Engines"
-		"M1 Particle Gun" 6
+		"M01A Turret" 6
 		"U20-B anti missile" 8
-		"G1 Turret" 6
+		"G01A Turret" 6
 		
-	turret -3.5 -166 "M1 Particle Gun"
-	turret -4 -135 "M1 Particle Gun"
-	turret -3.5 -99.5 "M1 Particle Gun"
-	turret -4 -72 "M1 Particle Gun"
-	turret -3.5 92.5 "M1 Particle Gun"
-	turret -3.5 126.5 "M1 Particle Gun"
+	turret -3.5 -166 "M01A Turret"
+	turret -4 -135 "M01A Turret"
+	turret -3.5 -99.5 "M01A Turret"
+	turret -4 -72 "M01A Turret"
+	turret -3.5 92.5 "M01A Turret"
+	turret -3.5 126.5 "M01A Turret"
 	engine -47.5 257
 	engine 39 257
-	turret 27.5 -10 "G1 Turret"
-	turret -37.5 -10 "G1 Turret"
-	turret 52.5 -14.5 "G1 Turret"
-	turret -62.5 -15.5 "G1 Turret"
-	turret 77 -19 "G1 Turret"
-	turret -84.5 -19.5 "G1 Turret"
+	turret 27.5 -10 "G01A Turret"
+	turret -37.5 -10 "G01A Turret"
+	turret 52.5 -14.5 "G01A Turret"
+	turret -62.5 -15.5 "G01A Turret"
+	turret 77 -19 "G01A Turret"
+	turret -84.5 -19.5 "G01A Turret"
 	gun -55.5 -199
 	gun 51 -199.5
 	gun 57.5 -184.5

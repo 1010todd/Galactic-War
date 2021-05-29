@@ -505,8 +505,7 @@ ship "DT-510 Quadlancer"
 		"GSa20Gp-02 Shielding" 2
 		"GHa20Gp-02 Hull Repair"
 		"EPa90Cx-01 Generator"
-		"Medium Graviton Thruster"
-		"Medium Graviton Steering"
+		"MPa30Gp-02 Engines"
 		"ZIS Anti-Missile System" 2
 		
 	engine 0 31
@@ -535,7 +534,7 @@ ship "DT-224 Trazar"
 		"heat dissipation" .9
 		"fuel capacity" 600
 		"cargo space" 50
-		"outfit space" 180
+		"outfit space" 245
 		"weapon capacity" 160
 		"engine capacity" 35
 		"energy capacity" 12000
@@ -562,11 +561,13 @@ ship "DT-224 Trazar"
 	outfits
 		"Fernai Shotgun" 4
 		"DZ-10 Dark Blaster Turret"
-		"MPa30Gp-02 Engines"
+		"ZIS Anti-Missile System"
+
 		"EPa60Cx-01 Generator"
 		"GSa20Gp-02 Shielding"
 		"GHa20Gp-02 Hull Repair"
-		"ZIS Anti-Missile System"
+
+		"MPa30Gp-02 Engines"
 		
 	gun -44.5 -90.5 "Fernai Shotgun"
 	gun 45 -90.5 "Fernai Shotgun"
@@ -646,12 +647,11 @@ ship "SG-60 Ginaz Patrol Drone" "Ginaz Builder"
 	outfits
 		"ZIS Anti-Missile System"
 		"DZ-5 Micro Darklance" 1
-		"Nano Strike" 2
 		"MPa20Gp-02 Engines"
 		
-	gun -5.5 -23.5 "Nano Strike"
+	gun -5.5 -23.5
 	gun 0 -29 "DZ-5 Micro Darklance"
-	gun 5.5 -23.5 "Nano Strike"
+	gun 5.5 -23.5
 	engine 0 27.5
 	turret 0 1.5
 	explode "tiny explosion" 15
@@ -802,7 +802,7 @@ ship "ZM-5422 Karloz"
 		"heat dissipation" .8
 		"fuel capacity" 600
 		"cargo space" 100
-		"outfit space" 1460
+		"outfit space" 1860
 		"weapon capacity" 1180
 		"engine capacity" 60
 		"ramscoop" 80
@@ -860,10 +860,10 @@ ship "ZM-5422 Karloz"
 	turret -37 184 "Ginal Turret"
 	turret 37 183.5 "Ginal Turret"
 	#Torpedoes
-	turret -77.5 -83.5 "Syfar Torpedo Turret"
-	turret 76 -80 "Syfar Torpedo Turret"
-	turret -84 -25 "Syfar Torpedo Turret"
-	turret 84 -24 "Syfar Torpedo Turret"
+	turret -77.5 -83.5 "Syfar-3 Turret"
+	turret 76 -80 "Syfar-3 Turret"
+	turret -84 -25 "Syfar-3 Turret"
+	turret 84 -24 "Syfar-3 Turret"
 	#AMs 
 	turret 44 -296 "ZIS Anti-Missile System"
 	turret -44 -298 "ZIS Anti-Missile System"
@@ -942,7 +942,7 @@ ship "AD-672 Ranzai"
 		"cargo space" 10
 		"outfit space" 460
 		"weapon capacity" 220
-		"engine capacity" 60
+		"engine capacity" 50
 		"ZIS AM Lock" -2
 		"ramscoop" 40
 		"hyperdrive" 1
@@ -975,9 +975,9 @@ ship "AD-672 Ranzai"
 	turret 0 -102.5 "Ginal Turret"
 	turret 0 121.5 "Ginal Turret"
 	#Torpedoes
-	turret 0 14.5 "Syfar Torpedo Turret"
-	turret 0 43.5 "Syfar Torpedo Turret"
-	turret 0 92.5 "Syfar Torpedo Turret"
+	turret 0 14.5 "Syfar-3 Turret"
+	turret 0 43.5 "Syfar-3 Turret"
+	turret 0 92.5 "Syfar-3 Turret"
 	#AM
 	turret 0 -102.5 "ZIS Anti-Missile System"
 	turret 0 121.5 "ZIS Anti-Missile System"
@@ -1008,7 +1008,7 @@ ship "BS-2237 Ryuzo"
 		"cargo space" 20
 		"outfit space" 620
 		"weapon capacity" 320
-		"engine capacity" 50
+		"engine capacity" 60
 		"ZIS AM Lock" -2
 		"ramscoop" 50
 		"hyperdrive" 1
@@ -1034,7 +1034,6 @@ ship "BS-2237 Ryuzo"
 		
 		"EPa60Cx-01 Generator"
 		"EPa90Cx-01 Generator"
-		"MW-1S Shield Generator"
 		"GHb12Gp-02 Hull Repair"
 		
 		"MPa60Gp-02 Engines"
@@ -1044,9 +1043,9 @@ ship "BS-2237 Ryuzo"
 	turret 0 58 "Zaikor Turret" 
 	turret 0 130.5 "Zaikor Turret"
 	#Torpedoes 
-	turret 0 -23.5 "Syfar Torpedo Turret"
-	turret 0 1 "Syfar Torpedo Turret"
-	turret 0 25.5 "Syfar Torpedo Turret"
+	turret 0 -23.5 "Syfar-3 Turret"
+	turret 0 1 "Syfar-3 Turret"
+	turret 0 25.5 "Syfar-3 Turret"
 	#AM
 	turret 0 -91 "ZIS Anti-Missile System"
 	turret 0 93.5 "ZIS Anti-Missile System"
@@ -1076,7 +1075,7 @@ ship "BX-3826 Kazai"
 		"cargo space" 40
 		"outfit space" 1200
 		"weapon capacity" 850
-		"engine capacity" 70
+		"engine capacity" 90
 		"ZIS AM Lock" -4
 		"ramscoop" 50
 		"hyperdrive" 1
@@ -1113,16 +1112,16 @@ ship "BX-3826 Kazai"
 	turret 0 117 "Zaikor Turret"
 	turret 0 147 "Zaikor Turret"
 	#Torps
-	turret -35 -37.5 "Syfar Torpedo Turret (Penta)"
-	turret 35 -37.5 "Syfar Torpedo Turret (Penta)"
-	turret -35 -4 "Syfar Torpedo Turret (Penta)"
-	turret 35 -4 "Syfar Torpedo Turret (Penta)"
-	turret -35 31 "Syfar Torpedo Turret (Penta)"
-	turret 35 31 "Syfar Torpedo Turret (Penta)"
-	turret -35 64.5 "Syfar Torpedo Turret (Penta)"
-	turret 35 64.5 "Syfar Torpedo Turret (Penta)"
-	turret -35 98 "Syfar Torpedo Turret (Penta)"
-	turret 35 98 "Syfar Torpedo Turret (Penta)"
+	turret -35 -37.5 "Syfar-5 Turret"
+	turret 35 -37.5 "Syfar-5 Turret"
+	turret -35 -4 "Syfar-5 Turret"
+	turret 35 -4 "Syfar-5 Turret"
+	turret -35 31 "Syfar-5 Turret"
+	turret 35 31 "Syfar-5 Turret"
+	turret -35 64.5 "Syfar-5 Turret"
+	turret 35 64.5 "Syfar-5 Turret"
+	turret -35 98 "Syfar-5 Turret"
+	turret 35 98 "Syfar-5 Turret"
 	#AM
 	turret 40.5 129 "ZIS Anti-Missile System"
 	turret -41.5 128 "ZIS Anti-Missile System"
@@ -1270,8 +1269,8 @@ ship "ZC-4226 Zaikul"
 	turret -27.5 7.5 "Rozzen VLS Array"
 	turret 27 8.5 "Rozzen VLS Array"
 	#Torpedoes
-	turret -76 -180 "Syfar Torpedo Turret"
-	turret 76 -180 "Syfar Torpedo Turret"
+	turret -76 -180 "Syfar-3 Turret"
+	turret 76 -180 "Syfar-3 Turret"
 	#AMs 
 	turret 86 -270.5 "ZIS Anti-Missile System"
 	turret -85 -269 "ZIS Anti-Missile System"
@@ -1588,7 +1587,7 @@ ship "Balzita"
 		"MPa60Gp-02 Engines"
 	
 	gun 0 20 "Airzi Cannon"
-	turret -33 -89.5 "Zaikor Turet"
+	turret -33 -89.5 "Zaikor Turret"
 	turret 34.5 -90 "Zaikor Turret"
 	engine -56 187
 	engine 56 187
@@ -1637,10 +1636,10 @@ ship "AF-18 Zyon"
 		"MPa20Sb-04 Engines"
 		
 	gun 0 -29.5 "Xin rotary cannon"
-	gun 10.5 -10 "Kuichan Missile"
-	gun -10.5 -10 "Kuichan Missile"
-	gun -18 -5 "Kuichan Missile"
-	gun 18 -5 "Kuichan Missile"
+	gun 10.5 -10 "Kuzaun Missile"
+	gun -10.5 -10 "Kuzaun Missile"
+	gun -18 -5 "Kuzaun Missile"
+	gun 18 -5 "Kuzaun Missile"
 	engine 0 31
 	turret 0 -4
 	explode "nuke explosion" 1

@@ -5,7 +5,7 @@ government "Ultaka(Mega)"
 	language "Ultaka"
 	"player reputation" -1000
 	"crew attack" 251
-    "crew defense" 300
+	"crew defense" 300
 	"attitude toward"
 		"Wallagi" -.01
 		"Ultaka" 1
@@ -17,7 +17,7 @@ government "Ultaka"
 	language "Ultaka"
 	"player reputation" -1000
 	"crew attack" 100
-    "crew defense" 100
+	"crew defense" 100
 	"attitude toward"
 #		"Merchant" -.01
 #		"Pirate" -.01
@@ -51,7 +51,7 @@ government "ZIS"
 	color 0.037 0.153 0.8
 	"player reputation" 1
 	"crew attack" 500
-    "crew defense" 1200
+	"crew defense" 1200
 	"attitude toward"
 		"Ultaka" -1
 		"Ultaka (Mega)" -1
@@ -104,7 +104,7 @@ government "Dels Dardornai" #Government 2 fullname: Dardornai Kar Meda
 	color .089 .8 .245
 	"player reputation" 0
 	"crew attack" 1.4
-    "crew defense" 1.3
+	"crew defense" 1.3
 	"attitude toward"
 		"Dels" .1
 		"Kroom Kakaima" -.2
@@ -115,7 +115,7 @@ government "Dels Kaote" #Government 1 fullname: Prada Kaote
 	color .089 .8 .245
 	"player reputation" 1
 	"crew attack" 1
-    "crew defense" 2.2
+	"crew defense" 2.2
 	"attitude toward"
 		"Dels Ufulre" -.1
 		"Dels" .1

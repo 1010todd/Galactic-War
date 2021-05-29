@@ -140,247 +140,124 @@ person "1010todd"
 			"How was my mod?"
 			"Any suggestion?"
 			"Thank you for trying out my mod!"
-	ship "VK-80 Inel" "Inel"
-		sprite "ship/zis katen"
-		attributes
-			category "Interceptor"
-			"cost" 38200000
-			"shields" 120000
-			"hull" 120000
-			"required crew" 1
-			"bunks" 2
-			"mass" 25
-			"drag" .5
-			"heat dissipation" 1.5
-			"outfit space" 250
-			"weapon capacity" 90
-			"engine capacity" 30
-			"fuel capacity" 500
-			"energy capacity" 19000
-			"shield generation" 10000
-			"energy generation" 8300
-			"hull repair rate" 10000
-			"cooling" 800
-			"hyperdrive" 1
-			"jump speed" 10
-			"jump drive" 1
-			"ramscoop" 35
-			"scan interference" 1
-			"radar jamming" 5
-			weapon
-				"blast radius" 12
-				"shield damage" 120
-				"hull damage" 60
-				"hit force" 180
-		outfits	
-			"Mrag Ga Lok" 6
-			"Mrag Ga Rotta"
-			"Misel Shel"
+	ship "ZN-7681 Eaxes"
+	sprite "ship/zis eaxes"
+	attributes
+		category "Heavy Warship"
+		"cost" 13720000000
+		"shields" 19050000
+		"hull" 9550000
+		"required crew" 5500
+		"bunks" 6000
+		"mass" 18000
+		"drag" 12
+		"heat dissipation" 1000
+		"fuel capacity" 1000
+		"cargo space" 300
+		"outfit space" 1860
+		"weapon capacity" 1680
+		"engine capacity" 120
+		"energy generation" 50000
+		"ramscoop" 1200
+		"hyperdrive" 1
+		"jump speed" 6.2
+		"jump drive" 1
+		"jump effect" "zis galactic drive"
+		"jump sound" "zis galactic drive"
+		"jump in sound" "zis galactic drive in"
+		"jump out sound" "zis galactic drive out"
+		"cooling" 200000
+		"scan interference" 300
+		"radar jamming" 300
+		"ZIS AM Lock" -6
+		"unremovable" -5
+		"uninstallable" 1
+		"outfit scan power" 5000
+		"outfit scan speed" 3
+		"cargo scan power" 5000
+		"cargo scan speed" 3
+		"atmosphere scan" 1000
+		"tactical scan power" 5000
+		"asteroid scan power" 10000
+		"spinal mount" 1
+		"force protection" 70
+		"piercing protection" 1200
+		"disruption protection" 1200
+		"heat protection" 120
+		weapon
+			"blast radius" 800
+			"shield damage" 80000
+			"hull damage" 40000
+			"hit force" 85000
+	outfits
+		"Zis Dragon's Breath" 
+		"Ginal Turret" 4
+		"ZIS Anti-Missile System" 8
+		"Tizon Turret" 8
+		"Rozzen VLS Array" 2
 		
-			"Mrag Maver"
-			"Rage Keppar"
-			"ZIS Racon Canner"
-			"PewPewPew PewPewPew"
+		"EPb12Cx-04 Generator" 2
+		"GSb14Gp-02 Shielding"
+		"GHb12Gp-02 Hull Repair"
 		
-		gun -36.5 -52 "Mrag Ga Lok"
-		gun -36.5 -52 "Mrag Ga Lok"
-		gun 34 -51 "Mrag Ga Lok"
-		gun 34 -51 "Mrag Ga Lok"
-		gun -7 -25 "Mrag Ga Lok"
-		gun 4 -25 "Mrag Ga Lok"
-		turret -1 34.5 "Mrag Ga Rotta"
-		turret 0 0 "Kad Muti Ira"
-		turret 0 0 "Rage Keppar"
-		gun 0 21.5 "Brumbar Kano"
-		engine 19 42
-		engine -21 42
-		explode "nuke explosion" 1
+		"MPa60Gp-02 Engines" 2
+		"Zis Galactic Drive"
+		"AC-30 Assault Rifle" 6000
 		
-outfit "Mrag Ga Lok"
-	category "Guns"
-	cost 10000000
-	thumbnail "outfit/unknown"
-	"mass" 5
-	"outfit space" -5
-	"weapon capacity" -5
-	"gun ports" -1
-	weapon
-		sprite "projectile/mod blaster"
-		sound "pulse"
-		"inaccuracy" 0
-		"velocity" 40
-		"lifetime" 24
-		"reload" 9
-		"firing energy" 5
-		"firing heat" 0
-		"shield damage" 250
-		"hull damage" 550
-		"piercing" .05
-		
-outfit "Mrag Ga Rotta"
-	category "Turrets"
-	cost 15000000
-	thumbnail "outfit/unknown"
-	"mass" 6
-	"outfit space" -6
-	"weapon capacity" -6
-	"turret mounts" -1
-	weapon
-		sprite "projectile/mod blaster"
-		sound "pulse"
-		"inaccuracy" 0.01
-		"turret turn" 20
-		"velocity" 40
-		"lifetime" 24
-		"reload" 9
-		"firing energy" 5
-		"firing heat" 0
-		"shield damage" 250
-		"hull damage" 550
-		"piercing" .05
-		
-outfit "Brumbar Kano"
-	category "Guns"
-	cost 80000000
-	thumbnail "outfit/energy tracer"
-	"mass" 10
-	"outfit space" -10
-	"weapon capacity" -10
-	"gun ports" -1
-	weapon
-		sprite "projectile/proton"
-		sound "heavy rocket hit"
-		"inaccuracy" 0
-		"velocity" 40
-		"lifetime" 30
-		"reload" 120
-		"firing energy" 120
-		"firing heat" 0
-		"shield damage" 2000
-		"hull damage" 2000
-		"piercing" .1
-		
-outfit "Misel Shel"
-	category "Turrets"
-	cost 40000000
-	thumbnail "outfit/unknown"
-	"mass" 5
-	"outfit space" -5
-	"weapon capacity" -5
-	"turret mounts" -1
-	weapon
-		"fire effect" "masai fire"
-		"anti-missile" 550
-		"turret turn" 20
-		"velocity" 100
-		"lifetime" 1
-		"reload" 1
-		"firing energy" 500
-		"firing heat" 12
+	gun 0 -550
+	gun 0 -550
+	gun 0 -550
+	gun 0 -550
+	gun 0 -550
+	turret -116 -220 "Tizon Turret"
+	turret 116 -220 "Tizon Turret"
+	turret -124 -140 "Tizon Turret"
+	turret 124 -140 "Tizon Turret"
+	turret -126 -70 "Tizon Turret"
+	turret 126 -70 "Tizon Turret"
+	turret -8 4 "Rozzen VLS Array"
+	turret 8 4 "Rozzen VLS Array"
+	turret -74 26 "Ginal Turret"
+	turret 74 26 "Ginal Turret"
+	turret -70 292 "Ginal Turret"
+	turret 70 292 "Ginal Turret"
+	turret 0 350 "Tizon Turret"
+	turret 0 424 "Tizon Turret"
+	#AM
+	turret -8 4 "ZIS Anti-Missile System"
+	turret 8 4 "ZIS Anti-Missile System"
+	turret -90 -576 "ZIS Anti-Missile System"
+	turret 90 -576 "ZIS Anti-Missile System"
+	turret -156 -210 "ZIS Anti-Missile System"
+	turret 156 -210 "ZIS Anti-Missile System"
+	turret -170 498 "ZIS Anti-Missile System"
+	turret 170 498 "ZIS Anti-Missile System"
 	
-outfit "Rage Keppar"
-	category "Turrets"
-	cost 10000000
-	thumbnail "outfit/unknown"
-	"mass" 5
-	"outfit space" -5
-	"weapon capacity" -5
-	"turret mounts" -1
-	weapon
-		"velocity" 900
-		"turret turn" 20
-		"lifetime" 1
-		"reload" 1
-		"firing energy" .5
-		"firing force" 5
-		
-outfit "Mrag Maver"
-	category "Engines"
-	"cost" 2500000
-	thumbnail "outfit/tiny ion engines"
-	"mass" 20
-	"outfit space" -20
-	"engine capacity" -20
-	"turn" 200
-	"turning energy" .5
-	"thrust" 10.0
-	"thrusting energy" .10
-	"flare sprite" "effect/ion flare/tiny"
-		"frame rate" 1.2
-		
-outfit "ZIS Racon Canner"
-	category "Systems"
-	cost 42000000
-	thumbnail "outfit/outfit scanner"
-	"mass" 3
-	"outfit space" -3
-	"outfit scan power" 35
-	"outfit scan speed" 5
-	"cargo scan power" 35
-	"cargo scan speed" 5
-	"atmosphere scan" 500
+	engine -80 734
+		zoom 1
+		angle 0
+		under
+	engine 80 734
+		zoom 1
+		angle 0
+		under
+	engine 0 740
+		zoom 1
+		angle 0
+		under
+	bay "Fighter" -156 152 left
+	bay "Fighter" 156 152 right
+	bay "Fighter" -156 152 left
+	bay "Fighter" 156 152 right
+	bay "Fighter" -156 152 left
+	bay "Fighter" 156 152 right
+	bay "Fighter" -156 152 left
+	bay "Fighter" 156 152 right
+	bay "Fighter" -156 152 left
+	bay "Fighter" 156 152 right
 	
-outfit "PewPewPew PewPewPew"
-	category "Hand to Hand"
-	cost 98000000
-	thumbnail "outfit/zis rifle"
-	"capture attack" 200000
-	"capture defense" 500000
-	"unplunderable" 1
+	explode "nuke explosion" 25
+	"final explode" "final explosion large"
+	description `[A]`
+	description `A more recent battlecarrier design.`
 	
-ship "VK-80 Inel"
-		sprite "ship/inel"
-		attributes
-			category "Interceptor"
-			"cost" 38200000
-			"shields" 9000000
-			"hull" 9000000
-			"required crew" 1
-			"bunks" 2
-			"mass" 25
-			"drag" .5
-			"heat dissipation" 1.5
-			"outfit space" 250
-			"weapon capacity" 90
-			"engine capacity" 30
-			"fuel capacity" 500
-			"energy capacity" 19000
-			"shield generation" 5000
-			"energy generation" 8300
-			"hull repair rate" 5000
-			"cooling" 800
-			"hyperdrive" 1
-			"jump speed" 10
-			"jump drive" 1
-			"ramscoop" 35
-			"scan interference" 1
-			"radar jamming" 5
-			weapon
-				"blast radius" 12
-				"shield damage" 120
-				"hull damage" 60
-				"hit force" 180
-		outfits	
-			"Mrag Ga Lok" 6
-			"Mrag Ga Rotta"
-			"Misel Shel"
-		
-			"Mrag Maver"
-			"Rage Keppar"
-			"ZIS Racon Canner"
-			"PewPewPew PewPewPew"
-		
-		gun -36.5 -52 "Mrag Ga Lok"
-		gun -36.5 -52 "Mrag Ga Lok"
-		gun 34 -51 "Mrag Ga Lok"
-		gun 34 -51 "Mrag Ga Lok"
-		gun -7 -25 "Mrag Ga Lok"
-		gun 4 -25 "Mrag Ga Lok"
-		turret -1 34.5 "Mrag Ga Rotta"
-		turret 0 0 "Misel Shel"
-		turret 0 0 "Rage Keppar"
-		gun 0 21.5 "Brumbar Kano"
-		engine 19 42
-		engine -21 42
-		explode "nuke explosion" 1
-		
