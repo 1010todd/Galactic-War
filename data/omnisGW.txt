@@ -126,7 +126,7 @@ system Aumar
 		distance 1450
 		offset 40
 	object "Aumar"
-		sprite "ship/ermhindersan"
+		sprite "ship/ermhidersan"
 		distance 1500
 		offset 40
 	object "Aumar"
@@ -273,7 +273,7 @@ system Dels
 		distance 1450
 		offset 40
 	object "Dels"
-		sprite "ship/ermhindersan"
+		sprite "ship/ermhidersan"
 		distance 1500
 		offset 40
 	object "Dels"
@@ -419,7 +419,7 @@ system Donko
 		distance 1450
 		offset 40
 	object "Donko"
-		sprite "ship/ermhindersan"
+		sprite "ship/ermhidersan"
 		distance 1500
 		offset 40
 	object "Donko"
@@ -575,7 +575,7 @@ system Erader
 		distance 1450
 		offset 40
 	object "Erader"
-		sprite "ship/ermhindersan"
+		sprite "ship/ermhidersan"
 		distance 1500
 		offset 40
 	object "Erader"
@@ -716,8 +716,8 @@ system Erm
 		sprite "ship/erm eirae"
 		distance 1450
 		offset 40
-	object "Erm Hindersan"
-		sprite "ship/erm hindersan"
+	object "Erm Hidersan"
+		sprite "ship/erm hidersan"
 		distance 1500
 		offset 40
 	object "Erm Ernar"
@@ -954,7 +954,7 @@ system Geeva
 		distance 1450
 		offset 40
 	object "Geeva"
-		sprite "ship/ermhindersan"
+		sprite "ship/ermhidersan"
 		distance 1500
 		offset 40
 	object "Geeva"
@@ -1098,7 +1098,7 @@ system Ignaggen
 		distance 1450
 		offset 40
 	object "Ignaggen"
-		sprite "ship/ermhindersan"
+		sprite "ship/ermhidersan"
 		distance 1500
 		offset 40
 	object "Ignaggen"
@@ -1241,7 +1241,7 @@ system Isgeda
 		distance 1450
 		offset 40
 	object "Isgeda"
-		sprite "ship/ermhindersan"
+		sprite "ship/ermhidersan"
 		distance 1500
 		offset 40
 	object "Isgeda"
@@ -1384,7 +1384,7 @@ system Kroom
 		distance 1450
 		offset 40
 	object "Kroom"
-		sprite "ship/ermhindersan"
+		sprite "ship/ermhidersan"
 		distance 1500
 		offset 40
 	object "Kroom Garokka"
@@ -1530,7 +1530,7 @@ system Kumakk
 		distance 1450
 		offset 40
 	object "Kumakk"
-		sprite "ship/ermhindersan"
+		sprite "ship/ermhidersan"
 		distance 1500
 		offset 40
 	object "Kumakk"
@@ -1672,7 +1672,7 @@ system Nuru
 		distance 1450
 		offset 40
 	object "Nuru"
-		sprite "ship/ermhindersan"
+		sprite "ship/ermhidersan"
 		distance 1500
 		offset 40
 	object "Nuru Ar Pu Ha"
@@ -1821,7 +1821,7 @@ system Qoro
 		distance 1450
 		offset 40
 	object "Qoro"
-		sprite "ship/ermhindersan"
+		sprite "ship/ermhidersan"
 		distance 1500
 		offset 40
 	object "Qoro"
@@ -2107,7 +2107,7 @@ system Taroun
 		distance 1450
 		offset 40
 	object "Taroun"
-		sprite "ship/ermhindersan"
+		sprite "ship/ermhidersan"
 		distance 1500
 		offset 40
 	object "Taroun"
@@ -2396,7 +2396,7 @@ system Uoorn
 		distance 1450
 		offset 40
 	object "Uoorn"
-		sprite "ship/ermhindersan"
+		sprite "ship/ermhidersan"
 		distance 1500
 		offset 40
 	object "Uoorn"
@@ -2537,7 +2537,7 @@ system Wallagi
 		distance 1200
 		offset 320
 	object "Wallagi Talselar"
-		sprite "ship/wallagi Talselar"
+		sprite "ship/wallagi talselar"
 		distance 1450
 		offset 280
 	object "Wallagi Telsarator"
@@ -2549,7 +2549,7 @@ system Wallagi
 		distance 1450
 		offset 200
 	object "Wallagi Sentasor"
-		sprite "ship/wallagi Sentasor"
+		sprite "ship/wallagi sentasor"
 		distance 1500
 		offset 240
 
@@ -2680,7 +2680,7 @@ system Xessian
 		distance 1450
 		offset 40
 	object "Xessian"
-		sprite "ship/ermhindersan"
+		sprite "ship/ermhidersan"
 		distance 1500
 		offset 40
 	object "Xessian"
@@ -2824,11 +2824,11 @@ system Zis
 		distance 1450
 		offset 40
 	object "ZIS"
-		sprite "ship/ermhindersan"
+		sprite "ship/ermhidersan"
 		distance 1500
 		offset 40
 	object "ZIS Razor"
-		sprite "ship/zis razor"
+		sprite "ship/zis razor-two"
 		distance 1450
 		offset 160
 	object "ZIS Sysor"
@@ -3268,7 +3268,7 @@ fleet "Wallagi Telsarator"
 	personality
 		heroic
 	variant
-		"Wallagi Telsarator"
+		"Telsarator"
 
 planet "Wallagi Dettalor"
 	government arena
@@ -3289,7 +3289,7 @@ fleet "Wallagi Dettalor"
 	personality
 		heroic
 	variant
-		"Wallagi Dettalor"
+		"Dettalor"
 
 planet "Wallagi Sentasor"
 	government arena
@@ -3310,7 +3310,7 @@ fleet "Wallagi Sentasor"
 	personality
 		heroic
 	variant
-		"Wallagi Sentasor"
+		"Sentasor"
 
 planet "Wallagi Talselar"
 	government arena
@@ -3331,7 +3331,7 @@ fleet "Wallagi Talselar"
 	personality
 		heroic
 	variant
-		"Wallagi Talselar"
+		"Talselar"
 
 planet "ZIS Eaxes"
 	government arena

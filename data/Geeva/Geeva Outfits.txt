@@ -242,7 +242,7 @@ outfit "Vytorn-01 Homing Beam" #R1 Homing Beam
 	description "."
 	
 effect "homing beam trail"
-	sprite "effect/homing beam"
+	sprite "projectile/homing beam"
 		"frame rate" 20
 	"lifetime" 200
 	"random angle" 180

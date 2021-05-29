@@ -4,7 +4,7 @@ start "GW Dev G1"
 	thumbnail "land/sivael1"
 	date 16 11 3013
 	system "Sector Dels"
-	planet "threequestionmarks"
+	planet "Thing"
 	conversation "GW Developer Start"
 	account
 		credits 99999999999999
@@ -14,6 +14,8 @@ start "GW Dev G1"
 	set "license: Coalition"
 	set "license: Heliarch"
 	set "license: Kakaima"
+	set "license: Dels Commander"
+	set "license: Dels Admiral"
 	set "license: Militia"
 	set "license: Navy Auxiliary"
 	set "license: Navy Carrier"

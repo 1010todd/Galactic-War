@@ -174,7 +174,7 @@ outfit "TC5 Cutter"
 outfit "Odari Heat Cannon"
 	category "Guns"
 	cost 100000
-	thumbnail "outfit/tc5"
+	thumbnail "outfit/dels tc5"
 	"mass" 32
 	"outfit space" -32
 	"weapon capacity" -32
@@ -513,6 +513,14 @@ outfit "Dakte-1 Missile" #SK4
 	"dt1 capacity" -1
 	description "Dakte-1 lancher's ammo."
 	
+outfit "Dakte-1 Storage"
+	category "Systems"
+	cost 9000
+	thumbnail "outfit/dels sokak storage"
+	"mass" 2
+	"outfit space" -10
+	"dt1 capacity" 50
+
 outfit "Saikel-4 Launcher" #SK4
 	category "Secondary Weapons"
 	cost 470000
@@ -558,6 +566,14 @@ outfit "Saikel-4 Missile"
 	"sk4 capacity" -1
 	description "Ammo for Saikel-4 launcher"
 	
+outfit "Saikel-4 Magazines"
+	category "Systems"
+	cost 9000
+	thumbnail "outfit/dels sokak storage"
+	"mass" 2
+	"outfit space" -10
+	"sk4 capacity" 30
+
 outfit "sk4"
 	weapon
 		sprite "projectile/thunderhead fragment"

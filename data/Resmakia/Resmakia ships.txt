@@ -121,7 +121,7 @@ ship "Kajmaraj"
 			"hull damage" 1500
 			"hit force" 4500
 	outfits
-		"Reiji Turret" 7
+		"Reijir Turret" 7
 		"Resmakia Anti-Missile" 2
 		"Norden Cannon" 2
 		
@@ -134,15 +134,15 @@ ship "Kajmaraj"
 		"Parfod Steering"
 		"Hyperdrive"
 		
-	turret -30 -182 "Reiji Turret"
-	turret 30 -182 "Reiji Turret" 
-	turret -30 -161 "Reiji Turret"
-	turret 30 -161 "Reiji Turret"
-	turret -30 -139 "Reiji Turret"
-	turret 30 -139 "Reiji Turret"
+	turret -30 -182 "Reijir Turret"
+	turret 30 -182 "Reijir Turret" 
+	turret -30 -161 "Reijir Turret"
+	turret 30 -161 "Reijir Turret"
+	turret -30 -139 "Reijir Turret"
+	turret 30 -139 "Reijir Turret"
 	gun -54 -171 "Norden Cannon"
 	gun 54 -171 "Norden Cannon"
-	turret 0 194 "Reiji Turret"
+	turret 0 194 "Reijir Turret"
 	turret -11 49 "Resmakia Anti-Missile"
 	turret 11 49 "Resmakia Anti-Missile"
 	engine -26 274.5
@@ -178,8 +178,8 @@ ship "Jortar"
 			"hull damage" 420
 			"hit force" 1260
 	outfits
-		"Reiji Guns" 2
-		"Reiji Turret"
+		"Reijir Guns" 2
+		"Reijir Turret"
 		"Resmakia Anti-Missile"
 		"Marra Reactor"
 		"Kerjos Battery" 3
@@ -188,9 +188,9 @@ ship "Jortar"
 		"Corjen Thruster" 2
 		"Corjen Steering" 2
 		"Hyperdrive"
-	gun -20 -40 "Reiji Guns"
-	gun 20 -40 "Reiji Guns"
-	turret 0 -28.5 "Reiji Turret"
+	gun -20 -40 "Reijir Guns"
+	gun 20 -40 "Reijir Guns"
+	turret 0 -28.5 "Reijir Turret"
 	turret 0 -4 "Resmakia Anti-Missile"
 	engine -6.5 70
 	engine 6.5 70
@@ -226,7 +226,7 @@ ship "Termat"
 			"hit force" 1800
 	outfits
 		"Kaiza Anti-Fighter Turret" 2
-		"Reiji Turret"
+		"Reijir Turret"
 		"Resmakia Anti-Missile" 2
 		
 		"Merju Reactor"
@@ -239,7 +239,7 @@ ship "Termat"
 		"Jappar Steering"
 		"Hyperdrive"
 		
-	turret 0 6.5 "Reiji Turret"
+	turret 0 6.5 "Reijir Turret"
 	turret 0 106 "Kaiza Anti-Fighter Turret"
 	turret 0 125.5 "Kaiza Anti-Fighter Turret"
 	turret 35 -16.5 "Resmakia Anti-Missile"

@@ -263,7 +263,7 @@ outfit "Ultaka Executor Cannon" #MKIS
 	"gun ports" -1
 	"spinal mount" -1
 	weapon
-		"sprite" "ultaka executor"
+		"sprite" "projectile/ultaka executor"
 			"frame rate" 6.66
 		"inaccuracy" 0
 		"velocity" 20
@@ -287,7 +287,7 @@ outfit "Ultaka Executor Cannon" #MKIS
 
 outfit "Ultaka Executor Missile"
 	weapon
-		"sprite" "ultaka executor bolt"
+		"sprite" "projectile/ultaka executor bolt"
 			"frame rate" 5
 			"no repeat"
 		"inaccuracy" 0
@@ -315,7 +315,7 @@ outfit "Ultaka Hellstorm" #LOSK-M Bomb #this weapon is untested.
 	"weapon capacity" -20
 	"gun ports" -1
 	weapon
-		sprite "emissile"
+		sprite "projectile/emissile"
 			"frame rate" 21
 		"velocity" 10
 		"turn" 4.5
@@ -329,7 +329,7 @@ outfit "Ultaka Hellstorm" #LOSK-M Bomb #this weapon is untested.
 
 outfit "ul hellstorm 1"
 	weapon
-		sprite "emissile"
+		sprite "projectile/emissile"
 			"frame rate" 21
 		"velocity" 10
 		"turn" -4.5
@@ -339,7 +339,7 @@ outfit "ul hellstorm 1"
 
 outfit "ul hellstorm 2"
 	weapon
-		sprite "emissile"
+		sprite "projectile/emissile"
 			"frame rate" 22
 		"velocity" 10
 		"turn" 4.5
@@ -349,7 +349,7 @@ outfit "ul hellstorm 2"
 
 outfit "ul hellstorm 3"
 	weapon
-		sprite "emissile"
+		sprite "projectile/emissile"
 			"frame rate" 23
 		"velocity" 10
 		"turn" -4.5
@@ -359,7 +359,7 @@ outfit "ul hellstorm 3"
 
 outfit "ul hellstorm 4"
 	weapon
-		sprite "emissile"
+		sprite "projectile/emissile"
 			"frame rate" 24
 		"velocity" 10
 		"turn" 4.5

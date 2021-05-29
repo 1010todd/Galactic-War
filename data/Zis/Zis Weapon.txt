@@ -763,7 +763,7 @@ outfit "ginal fragment"
 outfit "Buztekur Turret"
 	category "Turrets"
 	cost 840000
-	thumbnail "outfit/Buztekur turret"
+	thumbnail "outfit/zis buztekur"
 	"mass" 34
 	"outfit space" -34
 	"weapon capacity" -34
@@ -1023,8 +1023,6 @@ outfit "Rozzen VLS Array" #Rozzen Vertical Launching System
 		sprite "projectile/rozzenlaunch"
 			"frame rate" 80
 		sound "sidewinder"
-		#ammo "Rozzen Assembler" 0  #Experiment
-		#ammo "Rozzen Missile" 1
 		"turret turn" 360
 		icon "icon/rozzen"
 		"fire effect" "smoke"

@@ -92,18 +92,18 @@ fleet "Ultaka big"
 		"Ultaka Termite" 10
 		"Ultaka Hunter" 4
 	variant 5
-		"Ultaka Ultaka Reaper"
+		"Ultaka Reaper"
 		"Ultaka Termite" 10
 	variant 3
-		"Ultaka Ultaka Reaper"
+		"Ultaka Reaper"
 		"Ultaka Hunter" 5
 		"Ultaka Termite" 10
 	variant 2
-		"Ultaka Ultaka Reaper"
+		"Ultaka Reaper"
 		"Ultaka Dominator" 3
 		"Ultaka Termite" 12
 	variant 1
-		"Ultaka Ultaka Reaper"
+		"Ultaka Reaper"
 		"Ultaka Conqueror" 1
 		"Ultaka Termite" 14
 		
@@ -169,6 +169,50 @@ fleet "Revos small"
 	variant 1
 		"Mokla (Barviska)"
 		
+fleet "Revos big"
+	government "Revos"
+	names "Revos small"
+	cargo 1
+	personality
+		heroic  
+		opportunistic
+	variant 10
+		"Revos Homan" 3
+		"Mokla (Barviska)" 2
+		"Mokla (Botavu)"
+		"Caosma (Transport)" 3
+		"Revos Caosma" 3
+	variant 10
+		"Revos Homan" 8
+		"Revos Rova" 4
+		"Caosma (Transport)"
+		"Revos Caosma" 3
+	variant 12
+		"Revos Caosma" 5
+		"Revos Mokla" 2
+		"Revos Homan" 5
+		"Revos Rova" 5
+
+fleet "Revos merchant"
+	government "Revos"
+	names "Revos small"
+	cargo 1
+	personality
+		heroic  
+		opportunistic
+	variant 14
+		"Revos Homan" 3
+		"Caosma (Transport)"
+		"Revos Caosma"
+	variant 10
+		"Revos Homan" 8
+		"Revos Rova" 4
+		"Revos Caosma" 4
+	variant 10
+		"Revos Caosma" 2
+		"Revos Homan" 3
+		"Revos Rova" 4
+
 fleet "Revos Defense"
 	government "Revos"
 	names "Revos small"
@@ -211,23 +255,23 @@ fleet "Donko Guard Big"
 		confusion 10
 		heroic opportunistic plunders
 	variant 10
-		"Sao"
-		"Kolso" 16
-		"Matka" 8
+		"Donko Sao"
+		"Donko Kolso" 16
+		"Donko Matka" 8
 	variant 12
-		"Koi" 3
-		"Kolso" 16
+		"Donko Koi" 3
+		"Donko Kolso" 16
 	variant 5
-		"Sao"
-		"Kolso" 20
-		"Matka" 8
-		"Koi"
-		"Kanse" 3
+		"Donko Sao"
+		"Donko Kolso" 20
+		"Donko Matka" 8
+		"Donko Koi"
+		"Donko Kanse" 3
 	variant 5
-		"Senka" 2
-		"Sao"
-		"Kolso" 16
-		"Matka" 8
+		"Donko Senka" 2
+		"Donko Sao"
+		"Donko Kolso" 16
+		"Donko Matka" 8
 		
 fleet "Donko Guard Small"
 	government "Donko"
@@ -363,15 +407,6 @@ fleet "Qoro Siogal Battle Fleet"
 	variant 30
 		"Qoro(S) Elogarl"
 		"Qoro(S) Ganoth" 3
-		
-fleet "Aumar Probe"
-	government "Aumar"
-	names "Aumar Probe"
-	cargo 0
-	personality
-		surveillance mute
-	variant 5
-		"Gy-2"
 		
 fleet "Kakaima Defense"
 	government "Kroom Kakaima"

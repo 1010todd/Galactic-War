@@ -1179,10 +1179,10 @@ ship "XF-26 Mizu"
 		
 	turret 0 -10.5 "Zaikor Turret"
 	turret 0 0 "ZIS Anti-Missile System"
-	gun -17 -2 "Syfar Torpedo Launcher(Single)"
-	gun -12.5 1 "Syfar Torpedo Launcher(Single)"
-	gun 12.5 1 "Syfar Torpedo Launcher(Single)"
-	gun 17 -2 "Syfar Torpedo Launcher(Single)"
+	gun -17 -2 "Syfar Torpedo Launcher"
+	gun -12.5 1 "Syfar Torpedo Launcher"
+	gun 12.5 1 "Syfar Torpedo Launcher"
+	gun 17 -2 "Syfar Torpedo Launcher"
 	engine -13 34
 	engine -5 42
 	engine 5 42
@@ -1208,7 +1208,7 @@ ship "ZC-4226 Zaikul"
 		"fuel capacity" 600
 		"cargo space" 130
 		"outfit space" 1460
-		"weapon capacity" 860
+		"weapon capacity" 908
 		"engine capacity" 70
 		"ramscoop" 80
 		"hyperdrive" 1

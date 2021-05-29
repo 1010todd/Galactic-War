@@ -243,7 +243,7 @@ fleet "Dels miner"
 	variant 20
 		"Dels Senro"
 	variant 30
-		"Dels Desin Miner"
+		"Desin Miner"
 	variant 10
 		"Dels Ekdor"
 	variant 40
@@ -259,38 +259,38 @@ fleet "Dels Ufulre Patrol"
 		confusion 30
 		plunders harvests
 	variant 80 
-		"Desin"
+		"Dels Desin"
 	variant 60
-		"Desin" 2
+		"Dels Desin" 2
 	variant 20
-		"Desin" 4
+		"Dels Desin" 4
 	variant 5
 		"Dacar heavy"
 	variant 1
 		"Dacar heavy"
-		"Derso" 3
+		"Dels Derso" 3
 	variant 20
-		"Senro"
+		"Dels Senro"
 	variant 10
-		"Senro" 3
+		"Dels Senro" 3
 	variant 10
-		"Secsen" 3
+		"Dels Secsen" 3
 	variant 50
-		"Derso" 5
+		"Dels Derso" 5
 	variant 70
-		"Derso"
+		"Dels Derso"
 	variant 60
-		"Derso" 3
+		"Dels Derso" 3
 	variant 2
-		"Dacar"
-		"Dea" 4
+		"Dels Dacar"
+		"Dels Dea" 4
 	variant 1
 		"Dacar heavy"
-		"Dea" 5
+		"Dels Dea" 5
 	variant 30
-		"Ekdor"
+		"Dels Ekdor"
 	variant 12
-		"Ekdor" 2
+		"Dels Ekdor" 2
 
 fleet "Dels Ufulre Raid"
 	government "Dels Ufulre"
@@ -300,257 +300,35 @@ fleet "Dels Ufulre Raid"
 		confusion 30
 		plunders harvests
 	variant 20
-		"Desin" 4
+		"Dels Desin" 4
 	variant 10
 		"Dacar heavy"
-		"Dea" 5
+		"Dels Dea" 5
 	variant 10
 		"Dacar heavy"
-		"Dea" 5
-		"Derso" 3
+		"Dels Dea" 5
+		"Dels Derso" 3
 	variant 20
-		"Senro" 3
+		"Dels Senro" 3
 	variant 10
-		"Secsen" 3
+		"Dels Secsen" 3
 	variant 50
-		"Derso" 5
+		"Dels Derso" 5
 	variant 30
-		"Derso" 2
-		"Secsen" 3
+		"Dels Derso" 2
+		"Dels Secsen" 3
 	variant 60
-		"Derso" 3
+		"Dels Derso" 3
 	variant 20
-		"Dacar"
-		"Dea" 5
-		"Ekdor" 3
-		"Secsen" 2
+		"Dels Dacar"
+		"Dels Dea" 5
+		"Dels Ekdor" 3
+		"Dels Secsen" 2
 	variant 10
 		"Dacar heavy"
-		"Dea" 5
+		"Dels Dea" 5
 	variant 30
-		"Ekdor" 2
-		"Derso" 2
+		"Dels Ekdor" 2
+		"Dels Derso" 2
 	variant 20
-		"Ekdor" 3
-
-#==============================Old====================
-fleet "Dels guard"
-	government "Dels"
-	names "Dels Guard"
-	fighters "Dels Fighter"
-	cargo 1
-	personality
-		confusion 10
-		heroic opportunistic frugal
-	variant 4
-		"Dee" 4
-		"Dea" 4
-		"Darca"
-	variant 2
-		"Dee" 4
-		"Dea" 4
-		"Darca"
-		"Decso"
-	variant 2
-		"Dee" 4
-		"Dea" 4
-		"Darca"
-		"Decso"
-		"Deeris" 5
-	variant 2
-		"Dee" 4
-		"Dea" 4
-		"Darca"
-		"Decso"
-	variant 1
-		"Dee" 4
-		"Dea" 4
-		"Darca"
-		"Decso" 2
-	variant 1
-		"Delsaylor"
-		"Dee" 10
-		"Dea" 10
-	variant 4
-		"Dacar heavy"
-		"Dee" 3
-		"Dea" 3
-	variant 5
-		"Dacar"
-		"Dee" 3
-		"Dea" 3
-	variant 10
-		"Secsen" 3
-	variant 10
-		"Senro" 3
-	variant 10
-		"Deeris" 3
-
-fleet "Dels military miner"
-	government "Dels"
-	names "Dels guard"
-	cargo 0
-	personality
-		confusion 10
-		frugal mining harvests
-	variant 20
-		"Deeris" 3
-	variant 50
-		"Senro" 3
-
-fleet "Dels merchant"
-	government "Dels"
-	names "Dels civillian"
-	cargo 1
-	personality
-		confusion 30
-		timid appeasing
-	variant 80
-		"Sendo"
-	variant 80
-		"Desen"
-	variant 60
-		"Donson"
-	variant 60
-		"Desen"
-		"Desin"
-	variant 60
-		"Sendo"
-		"Desin"
-	variant 55
-		"Desen"
-		"Sendo"
-		"Desin"
-	variant 55
-		"Sendo" 2
-		"Desin"
-	variant 55
-		"Desen" 2
-		"Desin"
-	variant 40
-		"Donson" 2
-		"Desin" 2
-	variant 10
-		"Donson" 5
-		"Decso"
-	variant 40
-		"Desen" 2
-		"Sendo" 2
-		"Desin"
-	variant 10
-		"Sendo" 4
-	variant 10
-		"Desen" 4
-	variant 2
-		"Sendo" 10
-		"Decso"
-		"Dea" 2
-	variant 2 
-		"Desen" 5
-		"Decso"
-		"Dea" 2
-	variant 1
-		"Sendo" 10
-		"Desen" 10
-		"Decso"
-		"Dea" 2
-	variant 1
-		"Sendo" 10
-		"Desen" 10
-		"Dacar heavy"
-		"Dea" 5
-	variant 1
-		"Sendo" 10
-		"Desen" 10
-		"Senro" 3
-	variant 30
-		"Senro" 2
-		"Donson" 4
-	variant 40
-		"Dacar" 
-		"Dea" 5
-	variant 40
-		"Dacar" 
-		"Donson" 12
-		"Senro" 3
-		"Dea" 3
-	variant 20
-		"Secsen" 3
-		"Donson" 6
-		"Sendo" 4
-	variant 1
-		"Decso"
-		"Rova"
-		"Sendo" 11
-		"Desen" 12
-		"Donson" 6
-		"Dacar heavy" 3
-		"Dea" 8
-		"Senro" 3
-		"Derso" 5
-	variant 1
-		"Derso"
-		"Desen" 2
-		"Sendo" 2
-	variant 1
-		"Derso"
-		"Donson" 5
-	variant 20
-		"Deeris" 3
-		"Donson" 6
-	variant 20
-		"Manoon"
-	variant 20
-		"Manoon" 2
-	variant 20
-		"Manoon" 3
-	variant 10
-		"Ekdor" 2
-		"Manoon"
-	variant 20
-		"Ekdor"
-		"Eudaion"
-	variant 20
-		"Eudaion"
-
-fleet "Dels pirate"
-	government "Dels (Pirate)"
-	names "Dels civillian"
-	cargo 2
-	personality
-		confusion 30
-		plunders harvests
-	variant 80 
-		"Desin"
-	variant 60
-		"Desin" 2
-	variant 20
-		"Desin" 4
-	variant 5
-		"Dacar heavy"
-	variant 1
-		"Dacar heavy"
-		"Derso" 3
-	variant 20
-		"Senro"
-	variant 10
-		"Senro" 3
-	variant 10
-		"Secsen" 3
-	variant 50
-		"Derso" 5
-	variant 70
-		"Derso"
-	variant 60
-		"Derso" 3
-	variant 2
-		"Dacar"
-		"Dea" 4
-	variant 1
-		"Dacar heavy"
-		"Dea" 5
-	variant 30
-		"Ekdor"
-	variant 12
-		"Ekdor" 2
-		
+		"Dels Ekdor" 3
