@@ -141,123 +141,123 @@ person "1010todd"
 			"Any suggestion?"
 			"Thank you for trying out my mod!"
 	ship "ZN-7681 Eaxes"
-	sprite "ship/zis eaxes"
-	attributes
-		category "Heavy Warship"
-		"cost" 13720000000
-		"shields" 19050000
-		"hull" 9550000
-		"required crew" 5500
-		"bunks" 6000
-		"mass" 18000
-		"drag" 12
-		"heat dissipation" 1000
-		"fuel capacity" 1000
-		"cargo space" 300
-		"outfit space" 1860
-		"weapon capacity" 1680
-		"engine capacity" 120
-		"energy generation" 50000
-		"ramscoop" 1200
-		"hyperdrive" 1
-		"jump speed" 6.2
-		"jump drive" 1
-		"jump effect" "zis galactic drive"
-		"jump sound" "zis galactic drive"
-		"jump in sound" "zis galactic drive in"
-		"jump out sound" "zis galactic drive out"
-		"cooling" 200000
-		"scan interference" 300
-		"radar jamming" 300
-		"ZIS AM Lock" -6
-		"unremovable" -5
-		"uninstallable" 1
-		"outfit scan power" 5000
-		"outfit scan speed" 3
-		"cargo scan power" 5000
-		"cargo scan speed" 3
-		"atmosphere scan" 1000
-		"tactical scan power" 5000
-		"asteroid scan power" 10000
-		"spinal mount" 1
-		"force protection" 70
-		"piercing protection" 1200
-		"disruption protection" 1200
-		"heat protection" 120
-		weapon
-			"blast radius" 800
-			"shield damage" 80000
-			"hull damage" 40000
-			"hit force" 85000
-	outfits
-		"Zis Dragon's Breath" 
-		"Ginal Turret" 4
-		"ZIS Anti-Missile System" 8
-		"Tizon Turret" 8
-		"Rozzen VLS Array" 2
+		sprite "ship/zis eaxes"
+		attributes
+			category "Heavy Warship"
+			"cost" 13720000000
+			"shields" 19050000
+			"hull" 9550000
+			"required crew" 5500
+			"bunks" 6000
+			"mass" 18000
+			"drag" 12
+			"heat dissipation" 1000
+			"fuel capacity" 1000
+			"cargo space" 300
+			"outfit space" 1860
+			"weapon capacity" 1680
+			"engine capacity" 120
+			"energy generation" 50000
+			"ramscoop" 1200
+			"hyperdrive" 1
+			"jump speed" 6.2
+			"jump drive" 1
+			"jump effect" "zis galactic drive"
+			"jump sound" "zis galactic drive"
+			"jump in sound" "zis galactic drive in"
+			"jump out sound" "zis galactic drive out"
+			"cooling" 200000
+			"scan interference" 300
+			"radar jamming" 300
+			"ZIS AM Lock" -6
+			"unremovable" -5
+			"uninstallable" 1
+			"outfit scan power" 5000
+			"outfit scan speed" 3
+			"cargo scan power" 5000
+			"cargo scan speed" 3
+			"atmosphere scan" 1000
+			"tactical scan power" 5000
+			"asteroid scan power" 10000
+			"spinal mount" 1
+			"force protection" 70
+			"piercing protection" 1200
+			"disruption protection" 1200
+			"heat protection" 120
+			weapon
+				"blast radius" 800
+				"shield damage" 80000
+				"hull damage" 40000
+				"hit force" 85000
+		outfits
+			"Zis Dragon's Breath" 
+			"Ginal Turret" 4
+			"ZIS Anti-Missile System" 8
+			"Tizon Turret" 8
+			"Rozzen VLS Array" 2
 		
-		"EPb12Cx-04 Generator" 2
-		"GSb14Gp-02 Shielding"
-		"GHb12Gp-02 Hull Repair"
+			"EPb12Cx-04 Generator" 2
+			"GSb14Gp-02 Shielding"
+			"GHb12Gp-02 Hull Repair"
 		
-		"MPa60Gp-02 Engines" 2
-		"Zis Galactic Drive"
-		"AC-30 Assault Rifle" 6000
+			"MPa60Gp-02 Engines" 2
+			"Zis Galactic Drive"
+			"AC-30 Assault Rifle" 6000
 		
-	gun 0 -550
-	gun 0 -550
-	gun 0 -550
-	gun 0 -550
-	gun 0 -550
-	turret -116 -220 "Tizon Turret"
-	turret 116 -220 "Tizon Turret"
-	turret -124 -140 "Tizon Turret"
-	turret 124 -140 "Tizon Turret"
-	turret -126 -70 "Tizon Turret"
-	turret 126 -70 "Tizon Turret"
-	turret -8 4 "Rozzen VLS Array"
-	turret 8 4 "Rozzen VLS Array"
-	turret -74 26 "Ginal Turret"
-	turret 74 26 "Ginal Turret"
-	turret -70 292 "Ginal Turret"
-	turret 70 292 "Ginal Turret"
-	turret 0 350 "Tizon Turret"
-	turret 0 424 "Tizon Turret"
-	#AM
-	turret -8 4 "ZIS Anti-Missile System"
-	turret 8 4 "ZIS Anti-Missile System"
-	turret -90 -576 "ZIS Anti-Missile System"
-	turret 90 -576 "ZIS Anti-Missile System"
-	turret -156 -210 "ZIS Anti-Missile System"
-	turret 156 -210 "ZIS Anti-Missile System"
-	turret -170 498 "ZIS Anti-Missile System"
-	turret 170 498 "ZIS Anti-Missile System"
+		gun 0 -550
+		gun 0 -550
+		gun 0 -550
+		gun 0 -550
+		gun 0 -550
+		turret -116 -220 "Tizon Turret"
+		turret 116 -220 "Tizon Turret"
+		turret -124 -140 "Tizon Turret"
+		turret 124 -140 "Tizon Turret"
+		turret -126 -70 "Tizon Turret"
+		turret 126 -70 "Tizon Turret"
+		turret -8 4 "Rozzen VLS Array"
+		turret 8 4 "Rozzen VLS Array"
+		turret -74 26 "Ginal Turret"
+		turret 74 26 "Ginal Turret"
+		turret -70 292 "Ginal Turret"
+		turret 70 292 "Ginal Turret"
+		turret 0 350 "Tizon Turret"
+		turret 0 424 "Tizon Turret"
+		#AM
+		turret -8 4 "ZIS Anti-Missile System"
+		turret 8 4 "ZIS Anti-Missile System"
+		turret -90 -576 "ZIS Anti-Missile System"
+		turret 90 -576 "ZIS Anti-Missile System"
+		turret -156 -210 "ZIS Anti-Missile System"
+		turret 156 -210 "ZIS Anti-Missile System"
+		turret -170 498 "ZIS Anti-Missile System"
+		turret 170 498 "ZIS Anti-Missile System"
 	
-	engine -80 734
-		zoom 1
-		angle 0
-		under
-	engine 80 734
-		zoom 1
-		angle 0
-		under
-	engine 0 740
-		zoom 1
-		angle 0
-		under
-	bay "Fighter" -156 152 left
-	bay "Fighter" 156 152 right
-	bay "Fighter" -156 152 left
-	bay "Fighter" 156 152 right
-	bay "Fighter" -156 152 left
-	bay "Fighter" 156 152 right
-	bay "Fighter" -156 152 left
-	bay "Fighter" 156 152 right
-	bay "Fighter" -156 152 left
-	bay "Fighter" 156 152 right
+		engine -80 734
+			zoom 1
+			angle 0
+			under
+		engine 80 734
+			zoom 1
+			angle 0
+			under
+		engine 0 740
+			zoom 1
+			angle 0
+			under
+		bay "Fighter" -156 152 left
+		bay "Fighter" 156 152 right
+		bay "Fighter" -156 152 left
+		bay "Fighter" 156 152 right
+		bay "Fighter" -156 152 left
+		bay "Fighter" 156 152 right
+		bay "Fighter" -156 152 left
+		bay "Fighter" 156 152 right
+		bay "Fighter" -156 152 left
+		bay "Fighter" 156 152 right
 	
-	explode "nuke explosion" 25
-	"final explode" "final explosion large"
-	description `[A]`
-	description `A more recent battlecarrier design.`
+		explode "nuke explosion" 25
+		"final explode" "final explosion large"
+		description `[A]`
+		description `[A] A more recent battlecarrier design.`
 	
