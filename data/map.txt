@@ -4,12 +4,8 @@ galaxy "GW Galaxy 1"
 	sprite ui/m83ed
 
 galaxy "GW Galaxy 2"
-	pos -43949.7 -58602.3
+	pos -38922 -62394.1
 	sprite ui/galaxy1
-
-galaxy "GW Galaxy 3"
-	pos -38408.8 -54126
-	sprite ui/ngc5468
 
 system Abartae
 	pos -49595.1 -56414.9
@@ -1607,6 +1603,7 @@ system Alnor
 	belt 1287
 	link Kotai
 	link Lelerno
+	link Nesoral
 	link Norva
 	asteroids "small rock" 1 1.8
 	asteroids "large rock" 1 2.772
@@ -6366,6 +6363,57 @@ system Calinavo
 			sprite planet/rock7
 			distance 481
 			period 42.1632
+
+system "Caril Nuka"
+	pos -49395.5 -54426.6
+	government "Qoro Siogal"
+	habitable 425.92
+	belt 1903
+	link "Galhunen Fuso"
+	link "Koguna Fuso"
+	link "Kulhor Lesu"
+	link "Kulma Lesu"
+	asteroids "small rock" 1 7.42
+	asteroids "medium rock" 4 8.75
+	asteroids "large rock" 7 7.63
+	asteroids "small metal" 23 9.17
+	asteroids "medium metal" 3 6.58
+	asteroids "large metal" 23 4.76
+	minables iron 1 13.2503
+	minables silver 1 12.357
+	minables titanium 4 12.1997
+	fleet "Qoro Siogal Battle Fleet" 1000
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/rock6
+		distance 189.25
+		period 50.4603
+	object
+		sprite planet/gas1
+		distance 738.69
+		period 389.125
+		object
+			sprite planet/oberon
+			distance 237
+			period 14.5827
+		object
+			sprite planet/desert4
+			distance 314
+			period 22.2387
+	object
+		sprite planet/gas13
+		distance 1861.94
+		period 1557.2
+		object
+			sprite planet/tethys
+			distance 273
+			period 12.7337
+		object
+			sprite planet/rock0
+			distance 383
+			period 21.1596
 
 system Carmo
 	pos -44263.4 -58285.8
@@ -19533,7 +19581,7 @@ system Gakrava
 		period 2149.78
 
 system "Galaxy 3 Core"
-	pos -40855 -58490.3
+	pos -38922 -62394.1
 	government Ultaka
 	habitable 2372.76
 	belt 1901
@@ -19578,6 +19626,58 @@ system "Galaxy 3 Core"
 			sprite planet/desert4
 			distance 329
 			period 31.7666
+
+system "Galhunen Fuso"
+	pos -49480.7 -54402.2
+	government "Qoro Siogal"
+	habitable 2201.68
+	belt 1155
+	link "Caril Nuka"
+	link "Koguna Fuso"
+	link "Kulma Lesu"
+	asteroids "small rock" 10 8.51
+	asteroids "medium rock" 10 7.82
+	asteroids "large rock" 4 4.5425
+	asteroids "small metal" 1 6.095
+	asteroids "medium metal" 175 7.8775
+	asteroids "large metal" 9 6.785
+	minables iron 11 8.09703
+	minables lead 35 11.3981
+	minables silicon 3 9.31938
+	fleet "Qoro Siogal Battle Fleet" 1000
+	object
+		sprite star/f5
+		distance 24.7575
+		period 10.1044
+	object
+		sprite star/k0
+		distance 87.2425
+		period 10.1044
+		offset 180
+	object
+		sprite planet/dust2
+		distance 222.802
+		period 28.3506
+	object
+		sprite planet/desert0
+		distance 681.962
+		period 151.818
+		object
+			sprite planet/tethys
+			distance 117
+			period 15.9089
+	object
+		sprite planet/gas10
+		distance 1019.96
+		period 277.689
+	object
+		sprite planet/rock16
+		distance 1655.21
+		period 574.068
+	object
+		sprite planet/gas3
+		distance 2242.85
+		period 905.491
 
 system Gallelonor
 	pos -50661.8 -55377.4
@@ -20088,6 +20188,61 @@ system Garroke
 			sprite planet/rock14
 			distance 383
 			period 26.6642
+
+system "Gasol Lega"
+	pos -49449.5 -54791.6
+	government "Qoro Siogal"
+	habitable 1111.68
+	belt 1901
+	link "Komsu Lesu"
+	link "Makule Neka"
+	link "Nalku Kake"
+	link "Nekore Nuka"
+	asteroids "small rock" 7 8.5376
+	asteroids "large rock" 1 8.8711
+	asteroids "small metal" 63 3.8686
+	asteroids "medium metal" 5 7.6038
+	asteroids "large metal" 33 8.6043
+	minables iron 17 7.10551
+	minables lead 12 6.16277
+	minables titanium 2 7.68164
+	object
+		sprite star/g5
+		distance 38.5253
+		period 9.90362
+	object
+		sprite star/k0
+		distance 49.4747
+		period 9.90362
+		offset 180
+	object
+		sprite planet/desert8
+		distance 196.965
+		period 33.1629
+	object
+		sprite planet/rock9
+		distance 629.125
+		period 189.311
+		object
+			sprite planet/dust4
+			distance 158
+			period 25.4737
+	object
+		sprite planet/dust2
+		distance 944.565
+		period 348.271
+	object
+		sprite planet/gas16
+		distance 1938.05
+		period 1023.57
+		object
+			sprite planet/tethys
+			distance 173
+			period 11.9775
+		object
+			sprite planet/dust3
+			distance 265
+			period 22.7073
 
 system Gavnan
 	pos -51160.9 -55993.4
@@ -22180,484 +22335,54 @@ system "Go se ri"
 			distance 426
 			period 53.2757
 
-system Gohal
-	pos -49529.5 -54704.6
+system "Goklaro Han"
+	pos -49424.5 -54592.6
 	government "Qoro Siogal"
-	habitable 1111.68
-	belt 1901
-	link Gokal
-	link Gokomse
-	link Goma
-	link Gonal
-	link Gorok
-	asteroids "small rock" 7 8.5376
-	asteroids "large rock" 1 8.8711
-	asteroids "small metal" 63 3.8686
-	asteroids "medium metal" 5 7.6038
-	asteroids "large metal" 33 8.6043
-	minables iron 17 7.10551
-	minables lead 12 6.16277
-	minables titanium 2 7.68164
-	object
-		sprite star/g5
-		distance 38.5253
-		period 9.90362
-	object
-		sprite star/k0
-		distance 49.4747
-		period 9.90362
-		offset 180
-	object
-		sprite planet/desert8
-		distance 196.965
-		period 33.1629
-	object
-		sprite planet/rock9
-		distance 629.125
-		period 189.311
-		object
-			sprite planet/dust4
-			distance 158
-			period 25.4737
-	object
-		sprite planet/dust2
-		distance 944.565
-		period 348.271
-	object
-		sprite planet/gas16
-		distance 1938.05
-		period 1023.57
-		object
-			sprite planet/tethys
-			distance 173
-			period 11.9775
-		object
-			sprite planet/dust3
-			distance 265
-			period 22.7073
-
-system Gohao
-	pos -49365.7 -54462.2
-	government "Qoro Siogal"
-	habitable 486.68
-	belt 1799
-	link Gohoko
-	asteroids "small rock" 1 5.5328
-	asteroids "medium rock" 6 6.9888
-	asteroids "large rock" 4 9.3184
-	asteroids "small metal" 1 9.1728
-	asteroids "medium metal" 24 6.4064
-	asteroids "large metal" 1 7.4256
-	minables silicon 8 9.25223
-	minables titanium 2 7.65963
-	fleet "Qoro Siogal Battle Fleet" 500
-	object
-		sprite star/k0
-		period 10
-	object Gohasiki
-		sprite planet/cloud3
-		distance 201.24
-		period 51.7618
-	object
-		sprite planet/ocean4
-		distance 552.45
-		period 235.439
-		object
-			sprite planet/rock17
-			distance 154
-			period 17.3985
-	object
-		sprite planet/gas5
-		distance 1702.66
-		period 1273.88
-		object
-			sprite planet/lava0
-			distance 273
-			period 15
-		object
-			sprite planet/rock0
-			distance 431
-			period 29.7552
-		object
-			sprite planet/dust4
-			distance 553
-			period 43.2449
-		object
-			sprite planet/luna
-			distance 687
-			period 59.8801
-
-system Gohoko
-	pos -49341.5 -54539.6
-	government "Qoro Siogal"
-	habitable 486.68
-	belt 1189
-	link Gohao
-	link Gorica
-	link Gosol
-	asteroids "small rock" 2 3.99
-	asteroids "medium rock" 9 2.415
-	asteroids "large rock" 2 2.31
-	asteroids "small metal" 6 4.305
-	asteroids "medium metal" 15 3.885
-	asteroids "large metal" 2 3.885
-	minables lead 1 5.37444
-	fleet "Qoro Siogal Battle Fleet" 1000
-	object
-		sprite star/k0
-		period 10
-	object
-		sprite planet/mercury
-		distance 160.81
-		period 36.975
-	object
-		sprite planet/lava4
-		distance 516.42
-		period 212.786
-		object
-			sprite planet/io
-			distance 151
-			period 23.7997
-	object
-		sprite planet/gas2
-		distance 1127.18
-		period 686.164
-		object
-			sprite planet/rock17
-			distance 192
-			period 16.1201
-	object
-		sprite planet/gas9
-		distance 2238.22
-		period 1919.96
-		object
-			sprite planet/dust7
-			distance 227
-			period 12.8242
-		object
-			sprite planet/rock7
-			distance 340
-			period 23.5076
-		object
-			sprite planet/dust0
-			distance 421
-			period 32.3902
-
-system Gohol
-	pos -49294.3 -54607.4
-	government "Qoro Siogal"
-	habitable 659.2
-	belt 1691
-	link Gorod
-	link Gosol
-	asteroids "small rock" 52 3.212
-	asteroids "medium rock" 48 2.992
-	asteroids "large rock" 57 2.2
-	asteroids "medium metal" 25 1.628
-	asteroids "large metal" 1 2.288
-	object
-		sprite star/k5
-		distance 32.5573
-		period 13.7478
-	object
-		sprite star/m4
-		distance 59.4427
-		period 13.7478
-		offset 180
-	object
-		sprite planet/desert5
-		distance 223.883
-		period 52.1894
-	object
-		sprite planet/rock18
-		distance 584.643
-		period 220.235
-	object
-		sprite planet/gas0
-		distance 1224.48
-		period 667.545
-	object
-		sprite planet/jupiter
-		distance 1947.72
-		period 1339.19
-		object
-			sprite planet/ice8
-			distance 264
-			period 13.4793
-
-system Gokak
-	pos -49662.5 -54604.6
-	government "Qoro Siogal"
-	habitable 1250
-	belt 1503
-	link Gosako
-	link Gowok
-	asteroids "small rock" 9 8.1972
-	asteroids "medium rock" 61 9.0045
-	asteroids "large rock" 20 7.452
-	asteroids "small metal" 4 6.5205
-	asteroids "medium metal" 1 7.452
-	asteroids "large metal" 6 7.1415
-	minables silicon 22 16.2806
-	object
-		sprite star/g5
-		distance 61
-		period 15.2456
-		offset 180
-	object
-		sprite star/g5
-		distance 61
-		period 15.2456
-	object
-		sprite planet/desert2
-		distance 217.49
-		period 36.2881
-	object
-		sprite planet/rock15
-		distance 546.1
-		period 144.382
-	object
-		sprite planet/desert7
-		distance 965.74
-		period 339.543
-	object
-		sprite planet/gas17
-		distance 1687.95
-		period 784.593
-		object
-			sprite planet/dust1
-			distance 209
-			period 12.909
-		object
-			sprite planet/rock17
-			distance 335
-			period 26.1963
-		object
-			sprite planet/ice8
-			distance 448
-			period 40.5126
-
-system Gokal
-	pos -49564.5 -54745.6
-	government "Qoro Siogal"
-	habitable 625
-	belt 1257
-	link Gohal
-	asteroids "small rock" 2 7.6125
-	asteroids "medium rock" 41 6.4525
-	asteroids "large rock" 4 5.5825
-	asteroids "small metal" 7 9.135
-	asteroids "medium metal" 10 4.5675
-	asteroids "large metal" 37 7.0325
-	object
-		sprite star/g5
-		period 10
-	object
-		sprite planet/dust6
-		distance 147.21
-		period 28.5776
-	object
-		sprite planet/desert9
-		distance 457.1
-		period 156.364
-	object
-		sprite planet/lava3
-		distance 653.1
-		period 267.048
-	object
-		sprite planet/gas4
-		distance 1954.74
-		period 1382.78
-		object
-			sprite planet/rock0
-			distance 257
-			period 14.531
-		object
-			sprite planet/callisto
-			distance 383
-			period 26.436
-		object
-			sprite planet/rhea
-			distance 559
-			period 46.6139
-
-system Gokhom
-	pos -49463.5 -54601.6
-	government "Qoro Siogal"
-	habitable 851.84
-	belt 1482
-	link Golo
-	link Gomar
-	link Goric
-	link Gorok
-	link Gosoko
-	link Gosos
-	asteroids "small rock" 17 2.163
-	asteroids "medium rock" 3 1.533
-	asteroids "large rock" 3 1.533
-	asteroids "medium metal" 1 3.087
-	asteroids "large metal" 11 1.974
-	minables aluminum 3 2.80856
-	minables titanium 5 3.54659
-	object
-		sprite star/k5
-		distance 47.5
-		period 12.6901
-		offset 180
-	object
-		sprite star/k5
-		distance 47.5
-		period 12.6901
-	object
-		sprite planet/gas12
-		distance 696.39
-		period 251.86
-		object
-			sprite planet/europa
-			distance 292
-			period 13.1057
-		object
-			sprite planet/ice0
-			distance 386
-			period 19.9189
-		object
-			sprite planet/dust1
-			distance 524
-			period 31.5052
-	object
-		sprite planet/gas2
-		distance 1543.39
-		period 830.988
-		object
-			sprite planet/dust3
-			distance 193
-			period 16.2462
-	object
-		sprite planet/gas14
-		distance 2787.68
-		period 2017.18
-		object
-			sprite planet/dust0
-			distance 206
-			period 12.0409
-		object
-			sprite planet/ice8
-			distance 320
-			period 23.3122
-		object
-			sprite planet/io
-			distance 431
-			period 36.4397
-
-system Goko
-	pos -49466.5 -54540.6
-	government "Qoro Siogal"
-	habitable 425.92
-	belt 1698
-	link Golo
-	link Gorica
-	link Gosofo
-	link Gosoko
-	asteroids "small rock" 8 5.832
-	asteroids "medium rock" 2 5.508
-	asteroids "large rock" 11 5.238
-	asteroids "small metal" 26 3.132
-	asteroids "medium metal" 105 3.942
-	asteroids "large metal" 20 2.862
-	minables copper 5 5.30026
-	minables uranium 36 6.09239
+	habitable 945
+	belt 1519
+	link "Humalr Kega"
+	asteroids "small rock" 3 4.0158
+	asteroids "medium rock" 17 2.7324
+	asteroids "large rock" 8 4.2228
+	asteroids "small metal" 18 4.6368
+	asteroids "medium metal" 109 3.2292
+	asteroids "large metal" 33 2.4426
+	minables copper 2 4.64985
+	minables silicon 2 4.60455
 	fleet "Qoro Siogal Battle Fleet" 1500
 	object
-		sprite star/k5
-		period 10
-	object
-		sprite planet/cloud8
-		distance 179.25
-		period 46.5141
-	object
-		sprite planet/ocean9
-		distance 500.41
-		period 216.963
-	object
-		sprite planet/lava6
-		distance 866.65
-		period 494.495
-	object
-		sprite planet/rock16
-		distance 1044.65
-		period 654.413
-	object
-		sprite planet/lava0
-		distance 1341.34
-		period 952.148
-	object
-		sprite planet/gas13
-		distance 1642.43
-		period 1290.11
-	object
-		sprite planet/gas12
-		distance 2225.87
-		period 2035.38
-		object
-			sprite planet/desert4
-			distance 296
-			period 13.3759
-
-system Gokomse
-	pos -49594.6 -54673
-	government "Qoro Siogal"
-	habitable 1111.68
-	belt 1848
-	link Gohal
-	asteroids "small rock" 16 2.0304
-	asteroids "medium rock" 41 1.5336
-	asteroids "large rock" 10 2.5488
-	asteroids "small metal" 28 2.9808
-	asteroids "medium metal" 2 2.484
-	asteroids "large metal" 86 2.7648
-	minables lead 22 3.89891
-	minables tungsten 30 3.17336
-	object
 		sprite star/g5
-		distance 50.7834
-		period 14.9885
-	object
-		sprite star/k0
-		distance 65.2166
-		period 14.9885
+		distance 34.2011
+		period 13.2077
 		offset 180
 	object
-		sprite planet/lava7
-		distance 200.777
-		period 34.1303
+		sprite star/m0
+		distance 66.7989
+		period 13.2077
 	object
-		sprite planet/ice1
-		distance 584.667
-		period 169.603
-	object
-		sprite planet/oberon
-		distance 833.627
-		period 288.754
-	object
-		sprite planet/rock10
-		distance 1175.52
-		period 483.519
+		sprite planet/ice3
+		distance 363.799
+		period 90.2893
 		object
-			sprite planet/dust4
-			distance 153
-			period 15.9277
+			sprite planet/ice8
+			distance 174
+			period 21.949
 	object
-		sprite planet/gas1
-		distance 1890.52
-		period 986.145
-		object
-			sprite planet/rock7
-			distance 220
-			period 13.0422
-		object
-			sprite planet/dust0
-			distance 298
-			period 20.5608
+		sprite planet/rock15
+		distance 771.049
+		period 278.591
+	object
+		sprite planet/ocean5
+		distance 1054.05
+		period 445.282
+	object
+		sprite planet/gas17
+		distance 1520.01
+		period 771.105
+	object
+		sprite planet/lava0
+		distance 2997.01
+		period 2134.89
 
 system Golima
 	pos -51176.4 -56478.7
@@ -22720,267 +22445,6 @@ system Golima
 			sprite planet/io
 			distance 253
 			period 15.0894
-
-system Golo
-	pos -49387.5 -54562.6
-	government "Qoro Siogal"
-	habitable 945
-	belt 1519
-	link Gokhom
-	link Goko
-	link Gorica
-	link Gosos
-	asteroids "small rock" 3 4.0158
-	asteroids "medium rock" 17 2.7324
-	asteroids "large rock" 8 4.2228
-	asteroids "small metal" 18 4.6368
-	asteroids "medium metal" 109 3.2292
-	asteroids "large metal" 33 2.4426
-	minables copper 2 4.64985
-	minables silicon 2 4.60455
-	fleet "Qoro Siogal Battle Fleet" 1500
-	object
-		sprite star/g5
-		distance 34.2011
-		period 13.2077
-		offset 180
-	object
-		sprite star/m0
-		distance 66.7989
-		period 13.2077
-	object
-		sprite planet/ice3
-		distance 363.799
-		period 90.2893
-		object
-			sprite planet/ice8
-			distance 174
-			period 21.949
-	object
-		sprite planet/rock15
-		distance 771.049
-		period 278.591
-	object
-		sprite planet/ocean5
-		distance 1054.05
-		period 445.282
-	object
-		sprite planet/gas17
-		distance 1520.01
-		period 771.105
-	object
-		sprite planet/lava0
-		distance 2997.01
-		period 2134.89
-
-system Goma
-	pos -49511.5 -54758.6
-	government "Qoro Siogal"
-	habitable 425.92
-	belt 1074
-	link Gohal
-	link Gonal
-	asteroids "medium rock" 11 7.194
-	asteroids "large rock" 1 4.686
-	asteroids "small metal" 4 9.9
-	asteroids "medium metal" 2 7.326
-	asteroids "large metal" 13 6.27
-	minables titanium 6 10.5683
-	object
-		sprite star/k5
-		period 10
-	object
-		sprite planet/cloud4
-		distance 328
-		period 115.135
-		object
-			sprite planet/dust0
-			distance 164
-			period 19.7541
-	object
-		sprite planet/mercury
-		distance 627
-		period 304.297
-	object
-		sprite planet/titan
-		distance 843.29
-		period 474.637
-	object
-		sprite planet/rock19
-		distance 1093.25
-		period 700.608
-	object
-		sprite planet/gas11
-		distance 1429.61
-		period 1047.66
-	object
-		sprite planet/gas4
-		distance 5882.57
-		period 8744.73
-
-system Gomar
-	pos -49547.5 -54588.6
-	government "Qoro Siogal"
-	habitable 320
-	belt 1818
-	link Gokhom
-	link Gosoko
-	asteroids "small metal" 20 4.5144
-	asteroids "medium metal" 21 5.7456
-	asteroids "large metal" 10 5.1528
-	minables titanium 3 9.20202
-	object
-		sprite star/m0
-		period 10
-	object
-		sprite planet/ice2
-		distance 226
-		period 75.971
-	object
-		sprite planet/dust2
-		distance 440.44
-		period 206.688
-	object
-		sprite planet/rock7
-		distance 761.13
-		period 469.541
-	object
-		sprite planet/neptune
-		distance 1266.42
-		period 1007.75
-		object
-			sprite planet/dust3
-			distance 235
-			period 17.9487
-	object
-		sprite planet/gas8
-		distance 4314.03
-		period 6335.92
-		object
-			sprite planet/lava0
-			distance 202
-			period 15.2828
-		object
-			sprite planet/rock14
-			distance 366
-			period 37.2734
-
-system Gomokori
-	pos -49456.7 -54455.2
-	government "Qoro Siogal"
-	habitable 719.96
-	belt 1075
-	link Gorica
-	link Gosofo
-	asteroids "small rock" 59 4.64
-	asteroids "medium rock" 10 2.624
-	asteroids "large rock" 83 2.432
-	asteroids "small metal" 25 4.672
-	asteroids "medium metal" 22 3.104
-	asteroids "large metal" 10 1.6
-	minables iron 20 6.62584
-	minables silver 2 4.6549
-	minables tungsten 1 4.54391
-	fleet "Qoro Siogal Battle Fleet" 500
-	object
-		sprite star/k0
-		distance 35.642
-		period 17.1987
-		offset 180
-	object
-		sprite star/m4
-		distance 74.358
-		period 17.1987
-	object
-		sprite planet/titan
-		distance 198.918
-		period 41.8232
-	object Golaststa
-		sprite planet/forest3
-		distance 590.008
-		period 213.645
-		offset 239.713
-	object
-		sprite planet/gas17
-		distance 1078.1
-		period 527.709
-		offset 306.83
-		object
-			sprite planet/dust4
-			distance 231
-			period 15
-	object
-		sprite planet/gas4
-		distance 2819.51
-		period 2231.86
-		offset 355.111
-		object
-			sprite planet/rock0
-			distance 239
-			period 13.0315
-		object
-			sprite planet/dust7
-			distance 351
-			period 23.1931
-
-system Gonal
-	pos -49455.5 -54718.6
-	government "Qoro Siogal"
-	habitable 2692.76
-	belt 1846
-	link Gohal
-	link Goma
-	link Goric
-	link Gorok
-	link Goroklo
-	asteroids "small rock" 15 3.7492
-	asteroids "large rock" 10 4.55
-	asteroids "medium metal" 4 4.0404
-	asteroids "large metal" 2 2.4752
-	minables aluminum 2 5.6194
-	minables lead 3 6.4635
-	minables silver 4 4.87041
-	object
-		sprite star/f0
-		distance 12.0026
-		period 7.82426
-		offset 180
-	object
-		sprite star/m0
-		distance 88.9974
-		period 7.82426
-	object
-		sprite planet/rock13
-		distance 313.207
-		period 42.7277
-	object
-		sprite planet/desert6
-		distance 532.207
-		period 94.6417
-	object
-		sprite planet/uranus
-		distance 948.457
-		period 225.158
-		object
-			sprite planet/rhea
-			distance 208
-			period 12.8165
-	object
-		sprite planet/forest6
-		distance 1453.02
-		period 426.941
-	object
-		sprite planet/gas12
-		distance 4400.66
-		period 2250.28
-		object
-			sprite planet/luna
-			distance 271
-			period 11.7176
-		object
-			sprite planet/miranda
-			distance 375
-			period 19.0736
 
 system Gonma
 	pos -51153.1 -56095.1
@@ -23392,105 +22856,6 @@ system Gorelvar
 			distance 682
 			period 45.4927
 
-system Goric
-	pos -49471.5 -54641.6
-	government "Qoro Siogal"
-	habitable 1715
-	belt 1001
-	link Gokhom
-	link Gonal
-	link Goroklo
-	asteroids "small rock" 8 5.2003
-	asteroids "medium rock" 121 2.737
-	asteroids "large rock" 20 2.5806
-	asteroids "medium metal" 4 4.3401
-	asteroids "large metal" 1 2.8543
-	minables silver 26 3.42693
-	minables titanium 27 3.42693
-	object
-		sprite star/f5
-		period 10
-	object
-		sprite planet/desert9
-		distance 200
-		period 27.3195
-	object
-		sprite planet/cloud4
-		distance 519.41
-		period 114.339
-		object
-			sprite planet/rhea
-			distance 156
-			period 18.3265
-	object
-		sprite planet/rock16
-		distance 840.41
-		period 235.323
-	object
-		sprite planet/cloud5
-		distance 1085.25
-		period 345.321
-	object
-		sprite planet/gas16
-		distance 2260.54
-		period 1038.12
-		object
-			sprite planet/lava0
-			distance 216
-			period 16.7101
-
-system Gorica
-	pos -49410.5 -54504.6
-	government "Qoro Siogal"
-	habitable 425.92
-	belt 1903
-	link Gohoko
-	link Goko
-	link Golo
-	link Gomokori
-	link Gosofo
-	asteroids "small rock" 1 7.42
-	asteroids "medium rock" 4 8.75
-	asteroids "large rock" 7 7.63
-	asteroids "small metal" 23 9.17
-	asteroids "medium metal" 3 6.58
-	asteroids "large metal" 23 4.76
-	minables iron 1 13.2503
-	minables silver 1 12.357
-	minables titanium 4 12.1997
-	fleet "Qoro Siogal Battle Fleet" 1000
-	object
-		sprite star/k5
-		period 10
-	object
-		sprite planet/rock6
-		distance 189.25
-		period 50.4603
-	object
-		sprite planet/gas1
-		distance 738.69
-		period 389.125
-		object
-			sprite planet/oberon
-			distance 237
-			period 14.5827
-		object
-			sprite planet/desert4
-			distance 314
-			period 22.2387
-	object
-		sprite planet/gas13
-		distance 1861.94
-		period 1557.2
-		object
-			sprite planet/tethys
-			distance 273
-			period 12.7337
-		object
-			sprite planet/rock0
-			distance 383
-			period 21.1596
-
 system Gorkva
 	pos -51506.6 -56379.8
 	government Geeva
@@ -23787,155 +23152,6 @@ system Gormor
 		distance 2122.31
 		period 1418.62
 
-system Gorod
-	pos -49345.5 -54655.6
-	government "Qoro Siogal"
-	habitable 5425.92
-	belt 1888
-	link Gohol
-	link Gosos
-	asteroids "small rock" 3 9.9
-	asteroids "medium rock" 45 5.175
-	asteroids "large rock" 6 8.475
-	asteroids "large metal" 1 11.25
-	minables aluminum 1 8.27036
-	minables copper 9 9.18535
-	minables silver 1 8.57732
-	object
-		sprite star/a0
-		distance 11.1466
-		period 9.18874
-		offset 180
-	object
-		sprite star/k5
-		distance 130.853
-		period 9.18874
-	object
-		sprite planet/rhea
-		distance 248.103
-		period 21.2213
-	object
-		sprite planet/desert8
-		distance 432.743
-		period 48.8842
-	object
-		sprite planet/cloud1
-		distance 1015.99
-		period 175.857
-		object
-			sprite planet/dust3
-			distance 182
-			period 20.0476
-	object
-		sprite planet/cloud7
-		distance 1401.23
-		period 284.832
-	object
-		sprite planet/neptune
-		distance 2663.59
-		period 746.492
-		object
-			sprite planet/oberon
-			distance 178
-			period 11.8321
-
-system Gorok
-	pos -49534.5 -54626.6
-	government "Qoro Siogal"
-	habitable 425.92
-	belt 1492
-	link Gohal
-	link Gokhom
-	link Gonal
-	link Gowok
-	asteroids "small rock" 1 3.2144
-	asteroids "medium rock" 6 2.0776
-	asteroids "large rock" 35 2.0776
-	asteroids "small metal" 9 2.352
-	asteroids "medium metal" 2 4.0768
-	asteroids "large metal" 4 2.5088
-	minables aluminum 2 3.01676
-	object
-		sprite star/k5
-		period 10
-	object
-		sprite planet/desert1
-		distance 365.89
-		period 135.651
-		object
-			sprite planet/rhea
-			distance 182
-			period 21.3135
-	object
-		sprite planet/lava6
-		distance 790.98
-		period 431.166
-	object
-		sprite planet/tethys
-		distance 1081.23
-		period 689.085
-	object
-		sprite planet/cloud2
-		distance 1599.24
-		period 1239.56
-		object
-			sprite planet/ice8
-			distance 181
-			period 19.588
-	object
-		sprite planet/uranus
-		distance 2692.05
-		period 2707.2
-
-system Goroklo
-	pos -49403.5 -54674.6
-	government "Qoro Siogal"
-	habitable 320
-	belt 1333
-	link Gonal
-	link Goric
-	link Gosos
-	asteroids "small rock" 1 4.806
-	asteroids "medium rock" 10 2.862
-	asteroids "large rock" 7 2.7
-	asteroids "medium metal" 2 7.236
-	asteroids "large metal" 1 3.78
-	object
-		sprite star/m0
-		period 10
-	object
-		sprite planet/rock11
-		distance 125.25
-		period 31.3438
-	object
-		sprite planet/forest4
-		distance 454.21
-		period 216.456
-	object
-		sprite planet/mars
-		distance 819.05
-		period 524.144
-	object
-		sprite planet/gas15
-		distance 1459.21
-		period 1246.41
-	object
-		sprite planet/gas6
-		distance 2313.5
-		period 2488.22
-		object
-			sprite planet/rock17
-			distance 270
-			period 11.3321
-		object
-			sprite planet/rock14
-			distance 383
-			period 19.1453
-		object
-			sprite planet/dust5
-			distance 570
-			period 34.7598
-
 system Gorpatek
 	pos -50597.3 -56572.8
 	government "Kroom Kakaima"
@@ -24055,255 +23271,6 @@ system Gorrakai
 		sprite planet/gas8
 		distance 1933.02
 		period 1164.76
-
-system Gosako
-	pos -49611.7 -54572.2
-	government "Qoro Siogal"
-	habitable 912.6
-	belt 1818
-	link Gokak
-	link Gowok
-	asteroids "small rock" 3 2.241
-	asteroids "medium rock" 33 2.187
-	asteroids "large rock" 1 1.404
-	asteroids "large metal" 4 2.295
-	minables gold 1 4.18364
-	minables tungsten 10 3.09026
-	object
-		sprite star/k0
-		distance 42.4707
-		period 11.4943
-	object
-		sprite star/k5
-		distance 48.5293
-		period 11.4943
-		offset 180
-	object
-		sprite planet/ganymede
-		distance 190.169
-		period 34.7241
-	object
-		sprite planet/desert3
-		distance 381.579
-		period 98.6954
-	object
-		sprite planet/forest1
-		distance 623.589
-		period 206.19
-	object
-		sprite planet/gas17
-		distance 1023.08
-		period 433.295
-	object
-		sprite planet/neptune
-		distance 1374.49
-		period 674.733
-	object
-		sprite planet/gas3
-		distance 1988.58
-		period 1174.18
-		object
-			sprite planet/callisto
-			distance 296
-			period 13.0078
-		object
-			sprite planet/io
-			distance 389
-			period 19.597
-
-system Gosofo
-	pos -49507.7 -54486.2
-	government "Qoro Siogal"
-	habitable 2201.68
-	belt 1155
-	link Goko
-	link Gomokori
-	link Gorica
-	asteroids "small rock" 10 8.51
-	asteroids "medium rock" 10 7.82
-	asteroids "large rock" 4 4.5425
-	asteroids "small metal" 1 6.095
-	asteroids "medium metal" 175 7.8775
-	asteroids "large metal" 9 6.785
-	minables iron 11 8.09703
-	minables lead 35 11.3981
-	minables silicon 3 9.31938
-	fleet "Qoro Siogal Battle Fleet" 1000
-	object
-		sprite star/f5
-		distance 24.7575
-		period 10.1044
-	object
-		sprite star/k0
-		distance 87.2425
-		period 10.1044
-		offset 180
-	object
-		sprite planet/dust2
-		distance 222.802
-		period 28.3506
-	object
-		sprite planet/desert0
-		distance 681.962
-		period 151.818
-		object
-			sprite planet/tethys
-			distance 117
-			period 15.9089
-	object
-		sprite planet/gas10
-		distance 1019.96
-		period 277.689
-	object
-		sprite planet/rock16
-		distance 1655.21
-		period 574.068
-	object
-		sprite planet/gas3
-		distance 2242.85
-		period 905.491
-
-system Gosoko
-	pos -49559.7 -54530.2
-	government "Qoro Siogal"
-	habitable 233.28
-	belt 1017
-	link Gokhom
-	link Goko
-	link Gomar
-	asteroids "small rock" 9 3.1428
-	asteroids "medium rock" 18 2.9808
-	asteroids "large rock" 8 4.7952
-	asteroids "small metal" 4 3.24
-	asteroids "medium metal" 1 4.1472
-	asteroids "large metal" 1 1.7172
-	minables gold 1 6.31155
-	minables silicon 9 5.58199
-	fleet "Qoro Siogal Battle Fleet" 1500
-	object
-		sprite star/m4
-		period 10
-	object
-		sprite planet/miranda
-		distance 120.36
-		period 34.5816
-	object
-		sprite planet/ice1
-		distance 300.72
-		period 136.573
-	object
-		sprite planet/rock16
-		distance 680.97
-		period 465.386
-		object
-			sprite planet/dust4
-			distance 149
-			period 24.8225
-	object
-		sprite planet/gas17
-		distance 2682.26
-		period 3638.08
-		object
-			sprite planet/lava0
-			distance 257
-			period 17.6024
-		object
-			sprite planet/ice7
-			distance 388
-			period 32.6528
-		object
-			sprite planet/rock7
-			distance 534
-			period 52.7212
-		object
-			sprite planet/io
-			distance 655
-			period 71.6202
-
-system Gosol
-	pos -49297.5 -54559.6
-	government "Qoro Siogal"
-	habitable 858.28
-	belt 1131
-	link Gohoko
-	link Gohol
-	asteroids "small rock" 24 4.437
-	asteroids "medium rock" 40 11.136
-	asteroids "large rock" 12 12.267
-	asteroids "small metal" 1 6.003
-	asteroids "medium metal" 2 6.351
-	asteroids "large metal" 2 10.875
-	minables aluminum 2 16.7457
-	fleet "Qoro Siogal Battle Fleet" 1500
-	object
-		sprite star/g5
-		distance 31.5287
-		period 17.0582
-	object
-		sprite star/m4
-		distance 84.4713
-		period 17.0582
-		offset 180
-	object
-		sprite planet/lava5
-		distance 236.111
-		period 49.536
-	object
-		sprite planet/rock0
-		distance 454.721
-		period 132.393
-	object
-		sprite planet/lava7
-		distance 820.761
-		period 321.049
-	object
-		sprite planet/gas9
-		distance 2053.57
-		period 1270.6
-
-system Gosos
-	pos -49408.5 -54629.6
-	government "Qoro Siogal"
-	habitable 320
-	belt 1391
-	link Gokhom
-	link Golo
-	link Gorod
-	link Goroklo
-	asteroids "medium rock" 27 4.2504
-	asteroids "large rock" 2 3.9123
-	asteroids "small metal" 13 7.1967
-	asteroids "medium metal" 82 2.8014
-	asteroids "large metal" 17 5.796
-	minables iron 26 4.75279
-	minables titanium 34 5.26629
-	object
-		sprite star/m0
-		period 10
-	object
-		sprite planet/rock10
-		distance 180.25
-		period 54.1125
-	object
-		sprite planet/lava6
-		distance 555.86
-		period 293.044
-	object
-		sprite planet/cloud3
-		distance 748.7
-		period 458.086
-	object
-		sprite planet/jupiter
-		distance 2115.91
-		period 2176.36
-		object
-			sprite planet/rock0
-			distance 273
-			period 14.1744
-		object
-			sprite planet/miranda
-			distance 367
-			period 22.0933
 
 system Gotgorkada
 	pos -50370.8 -56387.1
@@ -24466,63 +23433,6 @@ system Govree
 			sprite planet/rock3
 			distance 304
 			period 27.9002
-
-system Gowok
-	pos -49599.7 -54615.2
-	government "Qoro Siogal"
-	habitable 625
-	belt 1429
-	link Gokak
-	link Gorok
-	link Gosako
-	asteroids "small rock" 90 1.449
-	asteroids "medium rock" 110 3.059
-	asteroids "large rock" 36 2.622
-	asteroids "small metal" 18 2.07
-	asteroids "medium metal" 19 2.139
-	asteroids "large metal" 16 1.932
-	minables copper 20 2.6781
-	minables iron 3 4.16671
-	minables uranium 9 3.77253
-	object
-		sprite star/g5
-		period 10
-	object
-		sprite planet/titan
-		distance 152.04
-		period 29.9955
-	object
-		sprite planet/lava1
-		distance 309.08
-		period 86.9413
-	object
-		sprite planet/gas16
-		distance 867.09
-		period 408.523
-		object
-			sprite planet/dust0
-			distance 201
-			period 15
-		object
-			sprite planet/rock14
-			distance 311
-			period 28.8694
-	object
-		sprite planet/gas9
-		distance 1605.93
-		period 1029.7
-	object
-		sprite planet/gas13
-		distance 2693.34
-		period 2236.44
-		object
-			sprite planet/rock17
-			distance 244
-			period 10.7596
-		object
-			sprite planet/luna
-			distance 343
-			period 17.9329
 
 system Grakli
 	pos -50749.5 -56380.2
@@ -26028,6 +24938,99 @@ system Haleon
 		distance 2042.99
 		period 1789.76
 
+system "Hanul Kake"
+	pos -49251.3 -54587.4
+	government "Qoro Siogal"
+	habitable 659.2
+	belt 1691
+	link "Roluda Han"
+	link "Solrelu Nuka"
+	asteroids "small rock" 52 3.212
+	asteroids "medium rock" 48 2.992
+	asteroids "large rock" 57 2.2
+	asteroids "medium metal" 25 1.628
+	asteroids "large metal" 1 2.288
+	object
+		sprite star/k5
+		distance 32.5573
+		period 13.7478
+	object
+		sprite star/m4
+		distance 59.4427
+		period 13.7478
+		offset 180
+	object
+		sprite planet/desert5
+		distance 223.883
+		period 52.1894
+	object
+		sprite planet/rock18
+		distance 584.643
+		period 220.235
+	object
+		sprite planet/gas0
+		distance 1224.48
+		period 667.545
+	object
+		sprite planet/jupiter
+		distance 1947.72
+		period 1339.19
+		object
+			sprite planet/ice8
+			distance 264
+			period 13.4793
+
+system "Haola Lesu"
+	pos -49282.7 -54414.2
+	government "Qoro Siogal"
+	habitable 486.68
+	belt 1799
+	link "Kulhor Lesu"
+	asteroids "small rock" 1 5.5328
+	asteroids "medium rock" 6 6.9888
+	asteroids "large rock" 4 9.3184
+	asteroids "small metal" 1 9.1728
+	asteroids "medium metal" 24 6.4064
+	asteroids "large metal" 1 7.4256
+	minables silicon 8 9.25223
+	minables titanium 2 7.65963
+	fleet "Qoro Siogal Battle Fleet" 500
+	object
+		sprite star/k0
+		period 10
+	object Gohasiki
+		sprite planet/cloud3
+		distance 201.24
+		period 51.7618
+	object
+		sprite planet/ocean4
+		distance 552.45
+		period 235.439
+		object
+			sprite planet/rock17
+			distance 154
+			period 17.3985
+	object
+		sprite planet/gas5
+		distance 1702.66
+		period 1273.88
+		object
+			sprite planet/lava0
+			distance 273
+			period 15
+		object
+			sprite planet/rock0
+			distance 431
+			period 29.7552
+		object
+			sprite planet/dust4
+			distance 553
+			period 43.2449
+		object
+			sprite planet/luna
+			distance 687
+			period 59.8801
+
 system Haoler
 	pos -44817.3 -57865.5
 	government Ultaka
@@ -27266,6 +26269,84 @@ system Houtar
 			distance 377
 			period 24.3422
 
+system "Huabel Mcor"
+	pos -49655.6 -54745.8
+	government "Qoro Siogal"
+	habitable 455
+	belt 1866
+	link "Kelau Kega"
+	link Masalke
+	link "Riqir Mcor"
+	asteroids "small rock" 4 2.584
+	asteroids "medium rock" 79 4.4897
+	asteroids "large rock" 7 1.7442
+	asteroids "small metal" 26 4.522
+	asteroids "medium metal" 64 3.3915
+	asteroids "large metal" 19 3.0039
+	minables aluminum 15 6.41036
+	minables copper 15 7.56955
+	minables titanium 21 4.81453
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	fleet "Qoro Siogal Battle Fleet" 500
+	object
+		sprite star/m0
+		distance 25.2198
+		period 14.6954
+		offset 180
+	object
+		sprite star/m8
+		distance 59.7802
+		period 14.6954
+	object
+		sprite planet/rock15
+		distance 228.39
+		period 64.7248
+	object
+		sprite planet/lava4
+		distance 426.03
+		period 164.898
+	object
+		sprite planet/gas14
+		distance 1272.32
+		period 851.038
+		object
+			sprite planet/callisto
+			distance 219
+			period 13.1985
+		object
+			sprite planet/dust4
+			distance 367
+			period 28.6324
+	object
+		sprite planet/cloud1
+		distance 1840.93
+		period 1481.19
+	object
+		sprite planet/gas8
+		distance 2914.62
+		period 2950.71
+		object
+			sprite planet/io
+			distance 208
+			period 15.9688
+		object
+			sprite planet/rhea
+			distance 343
+			period 33.8157
+		object
+			sprite planet/europa
+			distance 439
+			period 48.9636
+
 system Huadinee
 	pos -51755 -55308.2
 	government "Dels Kaote"
@@ -27472,6 +26553,72 @@ system Hulis
 			sprite planet/europa
 			distance 366
 			period 27.9858
+
+system "Humalr Kega"
+	pos -49487.5 -54539.6
+	government "Qoro Siogal"
+	habitable 851.84
+	belt 1482
+	link "Goklaro Han"
+	link "Koguna Fuso"
+	link "Sorkul Marel"
+	asteroids "small rock" 17 2.163
+	asteroids "medium rock" 3 1.533
+	asteroids "large rock" 3 1.533
+	asteroids "medium metal" 1 3.087
+	asteroids "large metal" 11 1.974
+	minables aluminum 3 2.80856
+	minables titanium 5 3.54659
+	fleet "Qoro Siogal Battle Fleet" 1500
+	object
+		sprite star/k5
+		distance 47.5
+		period 12.6901
+		offset 180
+	object
+		sprite star/k5
+		distance 47.5
+		period 12.6901
+	object
+		sprite planet/gas12
+		distance 696.39
+		period 251.86
+		object
+			sprite planet/europa
+			distance 292
+			period 13.1057
+		object
+			sprite planet/ice0
+			distance 386
+			period 19.9189
+		object
+			sprite planet/dust1
+			distance 524
+			period 31.5052
+	object
+		sprite planet/gas2
+		distance 1543.39
+		period 830.988
+		object
+			sprite planet/dust3
+			distance 193
+			period 16.2462
+	object
+		sprite planet/gas14
+		distance 2787.68
+		period 2017.18
+		object
+			sprite planet/dust0
+			distance 206
+			period 12.0409
+		object
+			sprite planet/ice8
+			distance 320
+			period 23.3122
+		object
+			sprite planet/io
+			distance 431
+			period 36.4397
 
 system Hunos
 	pos -50421.2 -52879.8
@@ -32764,6 +31911,57 @@ system Kakorga
 			distance 489
 			period 53.876
 
+system "Kakur Lega"
+	pos -49282.5 -54683.6
+	government "Qoro Siogal"
+	habitable 1250
+	belt 1503
+	link "Sormore Han"
+	asteroids "small rock" 9 8.1972
+	asteroids "medium rock" 61 9.0045
+	asteroids "large rock" 20 7.452
+	asteroids "small metal" 4 6.5205
+	asteroids "medium metal" 1 7.452
+	asteroids "large metal" 6 7.1415
+	minables silicon 22 16.2806
+	object
+		sprite star/g5
+		distance 61
+		period 15.2456
+		offset 180
+	object
+		sprite star/g5
+		distance 61
+		period 15.2456
+	object
+		sprite planet/desert2
+		distance 217.49
+		period 36.2881
+	object
+		sprite planet/rock15
+		distance 546.1
+		period 144.382
+	object
+		sprite planet/desert7
+		distance 965.74
+		period 339.543
+	object
+		sprite planet/gas17
+		distance 1687.95
+		period 784.593
+		object
+			sprite planet/dust1
+			distance 209
+			period 12.909
+		object
+			sprite planet/rock17
+			distance 335
+			period 26.1963
+		object
+			sprite planet/ice8
+			distance 448
+			period 40.5126
+
 system "Kal Daha"
 	pos -48798.4 -55548
 	government Uninhabited
@@ -35148,6 +34346,58 @@ system Kelarral
 			distance 654
 			period 49.0143
 
+system "Kelau Kega"
+	pos -49621.6 -54680.8
+	government "Qoro Siogal"
+	habitable 233.28
+	belt 1099
+	link "Huabel Mcor"
+	link "Riqir Mcor"
+	link "Sokalku Kega"
+	asteroids "large metal" 1 2.1168
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	fleet "Qoro Siogal Battle Fleet" 600
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/rock6
+		distance 173.25
+		period 59.7216
+	object
+		sprite planet/lava6
+		distance 435.25
+		period 237.81
+	object
+		sprite planet/gas2
+		distance 939.66
+		period 754.358
+		object
+			sprite planet/dust1
+			distance 183
+			period 15
+		object
+			sprite planet/ice8
+			distance 299
+			period 31.3272
+	object
+		sprite planet/gas11
+		distance 2113.9
+		period 2545.35
+		object
+			sprite planet/ice0
+			distance 276
+			period 15.1231
+
 system Keldmen
 	pos -49738.5 -55287.3
 	habitable 625
@@ -37522,7 +36772,7 @@ system Kichui
 			period 14.4905
 
 system Kieslen
-	pos -44680 -59287.4
+	pos -44693.6 -59321.5
 	government Krinek
 	habitable 625
 	link Finar
@@ -42418,6 +41668,60 @@ system Kogudor
 			distance 648
 			period 58.6804
 
+system "Koguna Fuso"
+	pos -49478.5 -54475.6
+	government "Qoro Siogal"
+	habitable 425.92
+	belt 1698
+	link "Caril Nuka"
+	link "Galhunen Fuso"
+	link "Humalr Kega"
+	link "Sorkul Marel"
+	asteroids "small rock" 8 5.832
+	asteroids "medium rock" 2 5.508
+	asteroids "large rock" 11 5.238
+	asteroids "small metal" 26 3.132
+	asteroids "medium metal" 105 3.942
+	asteroids "large metal" 20 2.862
+	minables copper 5 5.30026
+	minables uranium 36 6.09239
+	fleet "Qoro Siogal Battle Fleet" 1500
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/cloud8
+		distance 179.25
+		period 46.5141
+	object
+		sprite planet/ocean9
+		distance 500.41
+		period 216.963
+	object
+		sprite planet/lava6
+		distance 866.65
+		period 494.495
+	object
+		sprite planet/rock16
+		distance 1044.65
+		period 654.413
+	object
+		sprite planet/lava0
+		distance 1341.34
+		period 952.148
+	object
+		sprite planet/gas13
+		distance 1642.43
+		period 1290.11
+	object
+		sprite planet/gas12
+		distance 2225.87
+		period 2035.38
+		object
+			sprite planet/desert4
+			distance 296
+			period 13.3759
+
 system Kogurel
 	pos -51363.7 -56661.7
 	government "Kroom Kakaima"
@@ -42738,6 +42042,62 @@ system Kolha
 		distance 4396.04
 		period 7633.32
 		offset 14.8895
+
+system "Komsu Lesu"
+	pos -49399.6 -54735
+	government "Qoro Siogal"
+	habitable 1111.68
+	belt 1848
+	link "Gasol Lega"
+	asteroids "small rock" 16 2.0304
+	asteroids "medium rock" 41 1.5336
+	asteroids "large rock" 10 2.5488
+	asteroids "small metal" 28 2.9808
+	asteroids "medium metal" 2 2.484
+	asteroids "large metal" 86 2.7648
+	minables lead 22 3.89891
+	minables tungsten 30 3.17336
+	object
+		sprite star/g5
+		distance 50.7834
+		period 14.9885
+	object
+		sprite star/k0
+		distance 65.2166
+		period 14.9885
+		offset 180
+	object
+		sprite planet/lava7
+		distance 200.777
+		period 34.1303
+	object
+		sprite planet/ice1
+		distance 584.667
+		period 169.603
+	object
+		sprite planet/oberon
+		distance 833.627
+		period 288.754
+	object
+		sprite planet/rock10
+		distance 1175.52
+		period 483.519
+		object
+			sprite planet/dust4
+			distance 153
+			period 15.9277
+	object
+		sprite planet/gas1
+		distance 1890.52
+		period 986.145
+		object
+			sprite planet/rock7
+			distance 220
+			period 13.0422
+		object
+			sprite planet/dust0
+			distance 298
+			period 20.5608
 
 system Konker
 	pos -44501.9 -58295.3
@@ -43409,6 +42769,7 @@ system Kotai
 	belt 1089
 	link Alnor
 	link Lelerno
+	link Nesoral
 	link Soarel
 	asteroids "small metal" 3 3.996
 	asteroids "large metal" 8 3.672
@@ -44500,6 +43861,62 @@ system Kulgarei
 			distance 344
 			period 31.7885
 
+system "Kulhor Lesu"
+	pos -49316.5 -54467.6
+	government "Qoro Siogal"
+	habitable 486.68
+	belt 1189
+	link "Caril Nuka"
+	link "Haola Lesu"
+	link "Solrelu Nuka"
+	asteroids "small rock" 2 3.99
+	asteroids "medium rock" 9 2.415
+	asteroids "large rock" 2 2.31
+	asteroids "small metal" 6 4.305
+	asteroids "medium metal" 15 3.885
+	asteroids "large metal" 2 3.885
+	minables lead 1 5.37444
+	fleet "Qoro Siogal Battle Fleet" 1000
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/mercury
+		distance 160.81
+		period 36.975
+	object
+		sprite planet/lava4
+		distance 516.42
+		period 212.786
+		object
+			sprite planet/io
+			distance 151
+			period 23.7997
+	object
+		sprite planet/gas2
+		distance 1127.18
+		period 686.164
+		object
+			sprite planet/rock17
+			distance 192
+			period 16.1201
+	object
+		sprite planet/gas9
+		distance 2238.22
+		period 1919.96
+		object
+			sprite planet/dust7
+			distance 227
+			period 12.8242
+		object
+			sprite planet/rock7
+			distance 340
+			period 23.5076
+		object
+			sprite planet/dust0
+			distance 421
+			period 32.3902
+
 system Kulkor
 	pos -50620.5 -56444.1
 	government "Kroom Kakaima"
@@ -44621,6 +44038,64 @@ system Kullorail
 			sprite planet/dust5
 			distance 256
 			period 17.4998
+
+system "Kulma Lesu"
+	pos -49384.7 -54390.2
+	government "Qoro Siogal"
+	habitable 719.96
+	belt 1075
+	link "Caril Nuka"
+	link "Galhunen Fuso"
+	asteroids "small rock" 59 4.64
+	asteroids "medium rock" 10 2.624
+	asteroids "large rock" 83 2.432
+	asteroids "small metal" 25 4.672
+	asteroids "medium metal" 22 3.104
+	asteroids "large metal" 10 1.6
+	minables iron 20 6.62584
+	minables silver 2 4.6549
+	minables tungsten 1 4.54391
+	fleet "Qoro Siogal Battle Fleet" 500
+	object
+		sprite star/k0
+		distance 35.642
+		period 17.1987
+		offset 180
+	object
+		sprite star/m4
+		distance 74.358
+		period 17.1987
+	object
+		sprite planet/titan
+		distance 198.918
+		period 41.8232
+	object Golaststa
+		sprite planet/forest3
+		distance 590.008
+		period 213.645
+		offset 239.713
+	object
+		sprite planet/gas17
+		distance 1078.1
+		period 527.709
+		offset 306.83
+		object
+			sprite planet/dust4
+			distance 231
+			period 15
+	object
+		sprite planet/gas4
+		distance 2819.51
+		period 2231.86
+		offset 355.111
+		object
+			sprite planet/rock0
+			distance 239
+			period 13.0315
+		object
+			sprite planet/dust7
+			distance 351
+			period 23.1931
 
 system Kulor
 	pos -49670.9 -54467.7
@@ -51046,6 +50521,7 @@ system Mahakla
 	asteroids "large metal" 1 4.608
 	minables iron 18 6.45945
 	minables titanium 6 3.93533
+	fleet "Qoro Makau Battle Fleet" 1500
 	object
 		sprite star/b5
 		distance 6.67121
@@ -51422,6 +50898,8 @@ system Majaslo
 	habitable 425.92
 	belt 1572
 	link Makhom
+	link Malkukor
+	link Masilkavu
 	asteroids "small rock" 2 1.326
 	asteroids "medium rock" 1 1.19
 	asteroids "large rock" 1 1.445
@@ -51430,6 +50908,7 @@ system Majaslo
 	minables copper 1 2.20613
 	minables iron 1 1.99518
 	minables lead 1 2.88803
+	fleet "Qoro Makau Battle Fleet" 1200
 	object
 		sprite star/k5
 		period 10
@@ -51476,6 +50955,7 @@ system Majol
 	asteroids "medium metal" 28 4.1412
 	asteroids "large metal" 5 4.93
 	minables iron 21 8.77025
+	fleet "Qoro Makau Battle Fleet" 1200
 	object
 		sprite star/m0
 		distance 24.033
@@ -51536,6 +51016,7 @@ system Majorsel
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Qoro Makau Battle Fleet" 2800
 	object
 		sprite star/m0
 		distance 28.7802
@@ -51702,6 +51183,7 @@ system Makhom
 	asteroids "medium metal" 111 5.1612
 	asteroids "large metal" 88 6.7298
 	minables lead 8 8.71291
+	fleet "Qoro Makau Battle Fleet" 1200
 	object
 		sprite star/k5
 		period 10
@@ -51817,6 +51299,7 @@ system Makolo
 	asteroids "large metal" 13 4.8608
 	minables lead 12 6.57863
 	minables titanium 2 4.80822
+	fleet "Qoro Makau Battle Fleet" 1500
 	object
 		sprite star/g5
 		distance 41.7441
@@ -51981,6 +51464,107 @@ system Makudal
 			distance 470
 			period 61.7393
 
+system "Makule Neka"
+	pos -49394.5 -54838.6
+	government "Qoro Siogal"
+	habitable 425.92
+	belt 1074
+	link "Gasol Lega"
+	link "Nalku Kake"
+	asteroids "medium rock" 11 7.194
+	asteroids "large rock" 1 4.686
+	asteroids "small metal" 4 9.9
+	asteroids "medium metal" 2 7.326
+	asteroids "large metal" 13 6.27
+	minables titanium 6 10.5683
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/cloud4
+		distance 328
+		period 115.135
+		object
+			sprite planet/dust0
+			distance 164
+			period 19.7541
+	object
+		sprite planet/mercury
+		distance 627
+		period 304.297
+	object
+		sprite planet/titan
+		distance 843.29
+		period 474.637
+	object
+		sprite planet/rock19
+		distance 1093.25
+		period 700.608
+	object
+		sprite planet/gas11
+		distance 1429.61
+		period 1047.66
+	object
+		sprite planet/gas4
+		distance 5882.57
+		period 8744.73
+
+system Malekru
+	pos -49564.8 -54859.3
+	government "Makau A Qoro"
+	habitable 625
+	belt 1925
+	link Malkukor
+	link Masalke
+	link Masolve
+	asteroids "small rock" 9 2.3652
+	asteroids "medium rock" 60 2.8836
+	asteroids "large rock" 21 3.402
+	asteroids "small metal" 3 2.2356
+	asteroids "medium metal" 35 2.9484
+	asteroids "large metal" 1 2.7864
+	minables copper 29 3.39709
+	minables lead 11 5.26578
+	minables neodymium 11 5.03696
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	fleet "Qoro Makau Battle Fleet" 800
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/rock19
+		distance 243.04
+		period 60.6229
+	object
+		sprite planet/desert8
+		distance 480
+		period 168.26
+	object
+		sprite planet/rock0
+		distance 653.25
+		period 267.14
+	object
+		sprite planet/gas7
+		distance 1167.25
+		period 638.066
+		object
+			sprite planet/ice7
+			distance 259
+			period 14.8279
+	object
+		sprite planet/gas10
+		distance 2094.06
+		period 1533.22
+
 system Malelnal
 	pos -52271.7 -56175.7
 	government Geeva
@@ -52051,6 +51635,59 @@ system Malelnal
 			sprite planet/rock14
 			distance 313
 			period 23.6586
+
+system Malkukor
+	pos -49516.6 -54920.8
+	government "Makau A Qoro"
+	habitable 625
+	belt 1931
+	link Majaslo
+	link Malekru
+	link Marade
+	asteroids "small rock" 7 5.04
+	asteroids "medium rock" 16 4.795
+	asteroids "large rock" 16 5.005
+	asteroids "small metal" 13 1.995
+	asteroids "large metal" 1 5.25
+	minables lead 4 5.59848
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	fleet "Qoro Makau Battle Fleet" 1200
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/lava1
+		distance 133.76
+		period 24.7519
+	object
+		sprite planet/ocean9
+		distance 435.12
+		period 145.222
+	object
+		sprite planet/rock1
+		distance 1277.88
+		period 730.895
+		object
+			sprite planet/dust7
+			distance 168
+			period 25.3208
+	object
+		sprite planet/jupiter
+		distance 2611.64
+		period 2135.45
+		object
+			sprite planet/dust5
+			distance 281
+			period 14.802
 
 system Mallukavi
 	pos -50808.4 -54978
@@ -52232,6 +51869,7 @@ system Manalh
 	asteroids "medium rock" 3 1.6128
 	asteroids "large rock" 1 2.1504
 	asteroids "large metal" 1 3.0912
+	fleet "Qoro Makau Battle Fleet" 1500
 	object
 		sprite star/k0
 		distance 40.6038
@@ -52487,6 +52125,58 @@ system "Mar si ver"
 			sprite planet/rhea
 			distance 521
 			period 30.3754
+
+system Marade
+	pos -49595.6 -54904.8
+	government "Makau A Qoro"
+	habitable 1215
+	belt 1110
+	link Malkukor
+	asteroids "medium rock" 6 2.31
+	asteroids "large rock" 13 2.4
+	asteroids "small metal" 103 2.85
+	asteroids "medium metal" 188 4.2
+	asteroids "large metal" 33 3.36
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	fleet "Qoro Makau Battle Fleet" 1200
+	object
+		sprite star/g0
+		distance 9.44444
+		period 8.99291
+		offset 180
+	object
+		sprite star/m8
+		distance 75.5556
+		period 8.99291
+	object
+		sprite planet/rock15
+		distance 197.556
+		period 31.8644
+	object
+		sprite planet/gas0
+		distance 541.246
+		period 144.499
+	object
+		sprite planet/gas6
+		distance 1116.5
+		period 428.112
+	object
+		sprite planet/gas4
+		distance 2662.39
+		period 1576.44
+		object
+			sprite planet/dust4
+			distance 232
+			period 12.4632
 
 system Marake
 	pos -49410.4 -55093.8
@@ -52854,6 +52544,7 @@ system Maroki
 	minables aluminum 6 2.05369
 	minables titanium 14 3.64011
 	minables uranium 3 2.69428
+	fleet "Qoro Makau Battle Fleet" 1200
 	object
 		sprite star/k0
 		period 10
@@ -52948,6 +52639,69 @@ system Marreion
 			sprite planet/desert4
 			distance 223
 			period 13.3098
+
+system Masalke
+	pos -49577.6 -54791.8
+	government "Makau A Qoro"
+	habitable 486.68
+	belt 1321
+	link "Huabel Mcor"
+	link Malekru
+	link Masolve
+	asteroids "medium rock" 9 1.2672
+	asteroids "large rock" 9 0.8976
+	asteroids "large metal" 1 1.7952
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	fleet "Qoro Makau Battle Fleet" 600
+	fleet "Qoro Siogal Battle Fleet" 800
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/rock13
+		distance 195.61
+		period 49.6049
+	object
+		sprite planet/jupiter
+		distance 722.61
+		period 352.204
+		object
+			sprite planet/tethys
+			distance 249
+			period 12.347
+		object
+			sprite planet/ice0
+			distance 361
+			period 21.5537
+	object
+		sprite planet/gas9
+		distance 2330.65
+		period 2040.11
+		object
+			sprite planet/dust5
+			distance 271
+			period 16.728
+		object
+			sprite planet/rhea
+			distance 395
+			period 29.4365
+		object
+			sprite planet/desert4
+			distance 523
+			period 44.848
+		object
+			sprite planet/callisto
+			distance 721
+			period 72.5928
 
 system Masaun
 	pos -50258.3 -52810.5
@@ -53076,6 +52830,65 @@ system Masekin
 			sprite planet/dust1
 			distance 586
 			period 47.173
+
+system Masilkavu
+	pos -49468.6 -54892.8
+	government "Makau A Qoro"
+	habitable 858.28
+	belt 1051
+	link Majaslo
+	link Masolve
+	asteroids "small rock" 104 4.725
+	asteroids "medium rock" 31 1.9278
+	asteroids "large rock" 153 4.3848
+	asteroids "small metal" 11 3.7044
+	asteroids "medium metal" 14 2.6838
+	asteroids "large metal" 28 4.8006
+	minables iron 4 4.73349
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	fleet "Qoro Makau Battle Fleet" 1200
+	object
+		sprite star/g5
+		distance 27.4517
+		period 13.8589
+	object
+		sprite star/m4
+		distance 73.5483
+		period 13.8589
+		offset 180
+	object
+		sprite planet/rock8
+		distance 206.588
+		period 40.5419
+	object
+		sprite planet/lava3
+		distance 387.278
+		period 104.059
+	object
+		sprite planet/gas7
+		distance 1036.28
+		period 455.47
+	object
+		sprite planet/dust2
+		distance 1777.84
+		period 1023.49
+	object
+		sprite planet/gas6
+		distance 4537.09
+		period 4172.64
+		object
+			sprite planet/rock17
+			distance 278
+			period 11.8395
 
 system Masilvar
 	pos -49233.9 -55256.7
@@ -53374,6 +53187,67 @@ system Masolo
 		distance 2651.52
 		period 3575.72
 
+system Masolve
+	pos -49515.6 -54835.8
+	government "Makau A Qoro"
+	habitable 5320
+	belt 1320
+	link Malekru
+	link Masalke
+	link Masilkavu
+	asteroids "small rock" 7 3.25
+	asteroids "medium rock" 132 3.575
+	asteroids "large rock" 3 1.65
+	asteroids "small metal" 3 3.575
+	asteroids "medium metal" 24 3.55
+	asteroids "large metal" 3 1.475
+	minables lead 5 4.90075
+	minables titanium 38 6.57852
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	fleet "Qoro Makau Battle Fleet" 800
+	object
+		sprite star/a0
+		distance 6.79699
+		period 6.58752
+	object
+		sprite star/m0
+		distance 106.203
+		period 6.58752
+		offset 180
+	object
+		sprite planet/cloud2
+		distance 280.443
+		period 25.7556
+	object
+		sprite planet/gas5
+		distance 895.283
+		period 146.908
+		object
+			sprite planet/ice7
+			distance 274
+			period 15.0825
+		object
+			sprite planet/dust4
+			distance 414
+			period 28.0122
+	object
+		sprite planet/gas15
+		distance 1676.89
+		period 376.584
+	object
+		sprite planet/gas8
+		distance 2266.14
+		period 591.61
+
 system Masowla
 	pos -49549 -55057.7
 	government "Makau A Qoro"
@@ -53388,6 +53262,7 @@ system Masowla
 	asteroids "large metal" 3 0.876
 	minables titanium 3 1.56496
 	minables uranium 4 1.85723
+	fleet "Qoro Makau Battle Fleet" 1500
 	object
 		sprite star/g5
 		period 10
@@ -53791,6 +53666,7 @@ system Mavisilca
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Qoro Makau Battle Fleet" 1800
 	object
 		sprite star/k5
 		period 10
@@ -55459,6 +55335,53 @@ system Mersilves
 			sprite planet/lava0
 			distance 301
 			period 26.0185
+
+system "Merul Marel"
+	pos -49569.5 -54529.6
+	government "Qoro Siogal"
+	habitable 320
+	belt 1818
+	link "Rokebul Lesu"
+	link "Sorkul Marel"
+	asteroids "small metal" 20 4.5144
+	asteroids "medium metal" 21 5.7456
+	asteroids "large metal" 10 5.1528
+	minables titanium 3 9.20202
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/ice2
+		distance 226
+		period 75.971
+	object
+		sprite planet/dust2
+		distance 440.44
+		period 206.688
+	object
+		sprite planet/rock7
+		distance 761.13
+		period 469.541
+	object
+		sprite planet/neptune
+		distance 1266.42
+		period 1007.75
+		object
+			sprite planet/dust3
+			distance 235
+			period 17.9487
+	object
+		sprite planet/gas8
+		distance 4314.03
+		period 6335.92
+		object
+			sprite planet/lava0
+			distance 202
+			period 15.2828
+		object
+			sprite planet/rock14
+			distance 366
+			period 37.2734
 
 system Mesavor
 	pos -51299.3 -55376.7
@@ -61397,6 +61320,64 @@ system Nalk
 			distance 217
 			period 12.7763
 
+system "Nalku Kake"
+	pos -49346.5 -54795.6
+	government "Qoro Siogal"
+	habitable 2692.76
+	belt 1846
+	link "Gasol Lega"
+	link "Makule Neka"
+	link "Riconla Kake"
+	link "Soniga Laku"
+	asteroids "small rock" 15 3.7492
+	asteroids "large rock" 10 4.55
+	asteroids "medium metal" 4 4.0404
+	asteroids "large metal" 2 2.4752
+	minables aluminum 2 5.6194
+	minables lead 3 6.4635
+	minables silver 4 4.87041
+	object
+		sprite star/f0
+		distance 12.0026
+		period 7.82426
+		offset 180
+	object
+		sprite star/m0
+		distance 88.9974
+		period 7.82426
+	object
+		sprite planet/rock13
+		distance 313.207
+		period 42.7277
+	object
+		sprite planet/desert6
+		distance 532.207
+		period 94.6417
+	object
+		sprite planet/uranus
+		distance 948.457
+		period 225.158
+		object
+			sprite planet/rhea
+			distance 208
+			period 12.8165
+	object
+		sprite planet/forest6
+		distance 1453.02
+		period 426.941
+	object
+		sprite planet/gas12
+		distance 4400.66
+		period 2250.28
+		object
+			sprite planet/luna
+			distance 271
+			period 11.7176
+		object
+			sprite planet/miranda
+			distance 375
+			period 19.0736
+
 system Nanai
 	pos -48937.4 -56788.3
 	government Revos
@@ -62114,6 +62095,52 @@ system Negoer
 			distance 275
 			period 27.6321
 
+system "Nekore Nuka"
+	pos -49491.9 -54733.7
+	government "Qoro Siogal"
+	habitable 625
+	belt 1257
+	link "Gasol Lega"
+	link "Sokalku Kega"
+	asteroids "small rock" 2 7.6125
+	asteroids "medium rock" 41 6.4525
+	asteroids "large rock" 4 5.5825
+	asteroids "small metal" 7 9.135
+	asteroids "medium metal" 10 4.5675
+	asteroids "large metal" 37 7.0325
+	fleet "Qoro Siogal Battle Fleet" 800
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/dust6
+		distance 147.21
+		period 28.5776
+	object
+		sprite planet/desert9
+		distance 457.1
+		period 156.364
+	object
+		sprite planet/lava3
+		distance 653.1
+		period 267.048
+	object
+		sprite planet/gas4
+		distance 1954.74
+		period 1382.78
+		object
+			sprite planet/rock0
+			distance 257
+			period 14.531
+		object
+			sprite planet/callisto
+			distance 383
+			period 26.436
+		object
+			sprite planet/rhea
+			distance 559
+			period 46.6139
+
 system Nelha
 	pos -51147 -55401
 	government "Dels Kaote"
@@ -62713,6 +62740,75 @@ system Nersaer
 			distance 531
 			period 49.8311
 			"Erader Darua"
+
+system Nesoral
+	pos -49903.3 -54964
+	government Revos
+	habitable 760
+	belt 1783
+	link Alnor
+	link Kotai
+	asteroids "small rock" 9 3.4104
+	asteroids "medium rock" 3 3.3698
+	asteroids "large rock" 8 2.8826
+	asteroids "small metal" 3 2.4766
+	asteroids "medium metal" 90 2.9638
+	asteroids "large metal" 24 5.1562
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/g5
+		distance 18.2961
+		period 15.1673
+		offset 180
+	object
+		sprite star/m8
+		distance 84.7039
+		period 15.1673
+	object
+		sprite planet/rock8
+		distance 303.064
+		period 76.5517
+	object
+		sprite planet/dust2
+		distance 531.474
+		period 177.777
+	object
+		sprite planet/dust5
+		distance 898.514
+		period 390.787
+	object
+		sprite planet/desert6
+		distance 1214.67
+		period 614.247
+		object
+			sprite planet/lava0
+			distance 150
+			period 19.1409
+	object
+		sprite planet/gas16
+		distance 4181.56
+		period 3923.39
+		object
+			sprite planet/dust3
+			distance 203
+			period 15.2244
+		object
+			sprite planet/dust1
+			distance 326
+			period 30.983
+		object
+			sprite planet/rhea
+			distance 495
+			period 57.9702
 
 system Neulod
 	pos -51207.6 -55410.8
@@ -72992,6 +73088,52 @@ system Revynos
 		distance 2227.99
 		period 715.893
 
+system "Riconla Kake"
+	pos -49286.5 -54826.6
+	government "Qoro Siogal"
+	habitable 1715
+	belt 1001
+	link "Nalku Kake"
+	link "Soniga Laku"
+	asteroids "small rock" 8 5.2003
+	asteroids "medium rock" 121 2.737
+	asteroids "large rock" 20 2.5806
+	asteroids "medium metal" 4 4.3401
+	asteroids "large metal" 1 2.8543
+	minables silver 26 3.42693
+	minables titanium 27 3.42693
+	object
+		sprite star/f5
+		period 10
+	object
+		sprite planet/desert9
+		distance 200
+		period 27.3195
+	object
+		sprite planet/cloud4
+		distance 519.41
+		period 114.339
+		object
+			sprite planet/rhea
+			distance 156
+			period 18.3265
+	object
+		sprite planet/rock16
+		distance 840.41
+		period 235.323
+	object
+		sprite planet/cloud5
+		distance 1085.25
+		period 345.321
+	object
+		sprite planet/gas16
+		distance 2260.54
+		period 1038.12
+		object
+			sprite planet/lava0
+			distance 216
+			period 16.7101
+
 system Rikier
 	pos -44756 -59015.6
 	government Krinek
@@ -73494,6 +73636,65 @@ system Riokel
 			distance 704
 			period 47.7116
 
+system "Riqir Mcor"
+	pos -49714.6 -54691.8
+	government "Qoro Siogal"
+	habitable 320
+	belt 1667
+	link "Huabel Mcor"
+	link "Kelau Kega"
+	asteroids "small rock" 17 3.835
+	asteroids "medium rock" 92 4.2575
+	asteroids "large rock" 5 4.5825
+	asteroids "small metal" 226 4.3875
+	asteroids "medium metal" 40 2.7625
+	asteroids "large metal" 1 3.0225
+	minables iron 37 6.34374
+	minables titanium 29 6.48101
+	minables tungsten 20 7.06755
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	fleet "Qoro Siogal Battle Fleet" 600
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/rock0
+		distance 137.25
+		period 35.9545
+	object
+		sprite planet/gas1
+		distance 850.41
+		period 554.533
+		object
+			sprite planet/oberon
+			distance 228
+			period 13.76
+		object
+			sprite planet/rock14
+			distance 367
+			period 28.1005
+	object
+		sprite planet/gas11
+		distance 1637.37
+		period 1481.51
+		object
+			sprite planet/ice7
+			distance 275
+			period 15.041
+	object
+		sprite planet/gas14
+		distance 2471.13
+		period 2746.81
+
 system Riyava
 	pos -49749 -56348.8
 	government "Erader Narpul"
@@ -73732,6 +73933,52 @@ system Rokarl
 			distance 242
 			period 13.3922
 
+system "Rokebul Lesu"
+	pos -49536.5 -54589.6
+	government "Qoro Siogal"
+	habitable 425.92
+	belt 1492
+	link "Merul Marel"
+	link "Wolkur Kega"
+	asteroids "small rock" 1 3.2144
+	asteroids "medium rock" 6 2.0776
+	asteroids "large rock" 35 2.0776
+	asteroids "small metal" 9 2.352
+	asteroids "medium metal" 2 4.0768
+	asteroids "large metal" 4 2.5088
+	minables aluminum 2 3.01676
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/desert1
+		distance 365.89
+		period 135.651
+		object
+			sprite planet/rhea
+			distance 182
+			period 21.3135
+	object
+		sprite planet/lava6
+		distance 790.98
+		period 431.166
+	object
+		sprite planet/tethys
+		distance 1081.23
+		period 689.085
+	object
+		sprite planet/cloud2
+		distance 1599.24
+		period 1239.56
+		object
+			sprite planet/ice8
+			distance 181
+			period 19.588
+	object
+		sprite planet/uranus
+		distance 2692.05
+		period 2707.2
+
 system Rokel
 	pos -45270.5 -58329.4
 	government Resmakia
@@ -73857,6 +74104,58 @@ system Rokudea
 			sprite planet/miranda
 			distance 501
 			period 45.6683
+
+system "Roluda Han"
+	pos -49184.5 -54634.6
+	government "Qoro Siogal"
+	habitable 5425.92
+	belt 1888
+	link "Hanul Kake"
+	link "Sormore Han"
+	asteroids "small rock" 3 9.9
+	asteroids "medium rock" 45 5.175
+	asteroids "large rock" 6 8.475
+	asteroids "large metal" 1 11.25
+	minables aluminum 1 8.27036
+	minables copper 9 9.18535
+	minables silver 1 8.57732
+	object
+		sprite star/a0
+		distance 11.1466
+		period 9.18874
+		offset 180
+	object
+		sprite star/k5
+		distance 130.853
+		period 9.18874
+	object
+		sprite planet/rhea
+		distance 248.103
+		period 21.2213
+	object
+		sprite planet/desert8
+		distance 432.743
+		period 48.8842
+	object
+		sprite planet/cloud1
+		distance 1015.99
+		period 175.857
+		object
+			sprite planet/dust3
+			distance 182
+			period 20.0476
+	object
+		sprite planet/cloud7
+		distance 1401.23
+		period 284.832
+	object
+		sprite planet/neptune
+		distance 2663.59
+		period 746.492
+		object
+			sprite planet/oberon
+			distance 178
+			period 11.8321
 
 system Rolveggel
 	pos -50520.6 -55637.9
@@ -76077,7 +76376,6 @@ system Sanaen
 
 system Santqoi
 	pos -348.536 -921.201
-	government Wallagi
 	habitable 320
 	link Wensta
 	asteroids "small rock" 2 4.5
@@ -76096,7 +76394,6 @@ system Santqoi
 	trade Medical 800
 	trade Metal 480
 	trade Plastic 460
-	fleet "Wallagi Patrol" 600
 	object
 		sprite star/m0
 		period 10
@@ -78648,6 +78945,63 @@ system Soeku
 		distance 3179.91
 		period 3475.51
 
+system "Sokalku Kega"
+	pos -49540.7 -54678.2
+	government "Qoro Siogal"
+	habitable 912.6
+	belt 1818
+	link "Kelau Kega"
+	link "Nekore Nuka"
+	link "Wolkur Kega"
+	asteroids "small rock" 3 2.241
+	asteroids "medium rock" 33 2.187
+	asteroids "large rock" 1 1.404
+	asteroids "large metal" 4 2.295
+	minables gold 1 4.18364
+	minables tungsten 10 3.09026
+	fleet "Qoro Siogal Battle Fleet" 800
+	object
+		sprite star/k0
+		distance 42.4707
+		period 11.4943
+	object
+		sprite star/k5
+		distance 48.5293
+		period 11.4943
+		offset 180
+	object
+		sprite planet/ganymede
+		distance 190.169
+		period 34.7241
+	object
+		sprite planet/desert3
+		distance 381.579
+		period 98.6954
+	object
+		sprite planet/forest1
+		distance 623.589
+		period 206.19
+	object
+		sprite planet/gas17
+		distance 1023.08
+		period 433.295
+	object
+		sprite planet/neptune
+		distance 1374.49
+		period 674.733
+	object
+		sprite planet/gas3
+		distance 1988.58
+		period 1174.18
+		object
+			sprite planet/callisto
+			distance 296
+			period 13.0078
+		object
+			sprite planet/io
+			distance 389
+			period 19.597
+
 system Sokel
 	pos -44475.7 -58635
 	government Ultaka
@@ -78742,6 +79096,153 @@ system Sokeri
 		distance 3341.32
 		period 3743.46
 
+system "Solrelu Nuka"
+	pos -49269.5 -54520.6
+	government "Qoro Siogal"
+	habitable 858.28
+	belt 1131
+	link "Hanul Kake"
+	link "Kulhor Lesu"
+	asteroids "small rock" 24 4.437
+	asteroids "medium rock" 40 11.136
+	asteroids "large rock" 12 12.267
+	asteroids "small metal" 1 6.003
+	asteroids "medium metal" 2 6.351
+	asteroids "large metal" 2 10.875
+	minables aluminum 2 16.7457
+	fleet "Qoro Siogal Battle Fleet" 1500
+	object
+		sprite star/g5
+		distance 31.5287
+		period 17.0582
+	object
+		sprite star/m4
+		distance 84.4713
+		period 17.0582
+		offset 180
+	object
+		sprite planet/lava5
+		distance 236.111
+		period 49.536
+	object
+		sprite planet/rock0
+		distance 454.721
+		period 132.393
+	object
+		sprite planet/lava7
+		distance 820.761
+		period 321.049
+	object
+		sprite planet/gas9
+		distance 2053.57
+		period 1270.6
+
+system "Soniga Laku"
+	pos -49274.5 -54749.6
+	government "Qoro Siogal"
+	habitable 320
+	belt 1333
+	link "Nalku Kake"
+	link "Riconla Kake"
+	link "Sormore Han"
+	asteroids "small rock" 1 4.806
+	asteroids "medium rock" 10 2.862
+	asteroids "large rock" 7 2.7
+	asteroids "medium metal" 2 7.236
+	asteroids "large metal" 1 3.78
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/rock11
+		distance 125.25
+		period 31.3438
+	object
+		sprite planet/forest4
+		distance 454.21
+		period 216.456
+	object
+		sprite planet/mars
+		distance 819.05
+		period 524.144
+	object
+		sprite planet/gas15
+		distance 1459.21
+		period 1246.41
+	object
+		sprite planet/gas6
+		distance 2313.5
+		period 2488.22
+		object
+			sprite planet/rock17
+			distance 270
+			period 11.3321
+		object
+			sprite planet/rock14
+			distance 383
+			period 19.1453
+		object
+			sprite planet/dust5
+			distance 570
+			period 34.7598
+
+system "Sorkul Marel"
+	pos -49577.7 -54476.2
+	government "Qoro Siogal"
+	habitable 233.28
+	belt 1017
+	link "Humalr Kega"
+	link "Koguna Fuso"
+	link "Merul Marel"
+	asteroids "small rock" 9 3.1428
+	asteroids "medium rock" 18 2.9808
+	asteroids "large rock" 8 4.7952
+	asteroids "small metal" 4 3.24
+	asteroids "medium metal" 1 4.1472
+	asteroids "large metal" 1 1.7172
+	minables gold 1 6.31155
+	minables silicon 9 5.58199
+	fleet "Qoro Siogal Battle Fleet" 1500
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/miranda
+		distance 120.36
+		period 34.5816
+	object
+		sprite planet/ice1
+		distance 300.72
+		period 136.573
+	object
+		sprite planet/rock16
+		distance 680.97
+		period 465.386
+		object
+			sprite planet/dust4
+			distance 149
+			period 24.8225
+	object
+		sprite planet/gas17
+		distance 2682.26
+		period 3638.08
+		object
+			sprite planet/lava0
+			distance 257
+			period 17.6024
+		object
+			sprite planet/ice7
+			distance 388
+			period 32.6528
+		object
+			sprite planet/rock7
+			distance 534
+			period 52.7212
+		object
+			sprite planet/io
+			distance 655
+			period 71.6202
+
 system Sorlar
 	pos -44376.4 -58240.8
 	government Ultaka
@@ -78784,6 +79285,49 @@ system Sorlar
 			sprite planet/lava0
 			distance 285
 			period 12.2894
+
+system "Sormore Han"
+	pos -49196.5 -54714.6
+	government "Qoro Siogal"
+	habitable 320
+	belt 1391
+	link "Kakur Lega"
+	link "Roluda Han"
+	link "Soniga Laku"
+	asteroids "medium rock" 27 4.2504
+	asteroids "large rock" 2 3.9123
+	asteroids "small metal" 13 7.1967
+	asteroids "medium metal" 82 2.8014
+	asteroids "large metal" 17 5.796
+	minables iron 26 4.75279
+	minables titanium 34 5.26629
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/rock10
+		distance 180.25
+		period 54.1125
+	object
+		sprite planet/lava6
+		distance 555.86
+		period 293.044
+	object
+		sprite planet/cloud3
+		distance 748.7
+		period 458.086
+	object
+		sprite planet/jupiter
+		distance 2115.91
+		period 2176.36
+		object
+			sprite planet/rock0
+			distance 273
+			period 14.1744
+		object
+			sprite planet/miranda
+			distance 367
+			period 22.0933
 
 system Sorniei
 	pos -51143.5 -54185.1
@@ -88510,14 +89054,12 @@ system Weker
 
 system Wensta
 	pos -380.821 -958.083
-	government Wallagi
 	habitable 3452.76
 	link Santqoi
 	asteroids "small rock" 4 4.0068
 	asteroids "medium rock" 113 4.0446
 	asteroids "large rock" 11 4.725
 	asteroids "large metal" 1 5.5944
-	fleet "Wallagi Patrol" 600
 	object
 		sprite star/f0
 		distance 34.7201
@@ -88535,10 +89077,6 @@ system Wensta
 		sprite planet/cloud3
 		distance 414.69
 		period 57.486
-		object Letamos-P382S
-			sprite planet/battlestationw
-			distance 202
-			period 11.4747
 	object
 		sprite planet/gas4
 		distance 1238.9
@@ -88616,6 +89154,63 @@ system Woggenlo
 		sprite planet/dust4
 		distance 2003.7
 		period 594.238
+
+system "Wolkur Kega"
+	pos -49482.7 -54648.2
+	government "Qoro Siogal"
+	habitable 625
+	belt 1429
+	link "Rokebul Lesu"
+	link "Sokalku Kega"
+	asteroids "small rock" 90 1.449
+	asteroids "medium rock" 110 3.059
+	asteroids "large rock" 36 2.622
+	asteroids "small metal" 18 2.07
+	asteroids "medium metal" 19 2.139
+	asteroids "large metal" 16 1.932
+	minables copper 20 2.6781
+	minables iron 3 4.16671
+	minables uranium 9 3.77253
+	fleet "Qoro Siogal Battle Fleet" 800
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/titan
+		distance 152.04
+		period 29.9955
+	object
+		sprite planet/lava1
+		distance 309.08
+		period 86.9413
+	object
+		sprite planet/gas16
+		distance 867.09
+		period 408.523
+		object
+			sprite planet/dust0
+			distance 201
+			period 15
+		object
+			sprite planet/rock14
+			distance 311
+			period 28.8694
+	object
+		sprite planet/gas9
+		distance 1605.93
+		period 1029.7
+	object
+		sprite planet/gas13
+		distance 2693.34
+		period 2236.44
+		object
+			sprite planet/rock17
+			distance 244
+			period 10.7596
+		object
+			sprite planet/luna
+			distance 343
+			period 17.9329
 
 system Worak
 	pos -48258.3 -52836.6
