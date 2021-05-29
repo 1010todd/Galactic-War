@@ -248,7 +248,90 @@ fleet "Dels miner"
 		"Dels Ekdor"
 	variant 40
 		"Dels Deeris"
-		
+
+#==================================
+
+fleet "Dels Ufulre Patrol"
+	government "Dels Ufulre"
+	names "Dels civillian"
+	cargo 2
+	personality
+		confusion 30
+		plunders harvests
+	variant 80 
+		"Desin"
+	variant 60
+		"Desin" 2
+	variant 20
+		"Desin" 4
+	variant 5
+		"Dacar heavy"
+	variant 1
+		"Dacar heavy"
+		"Derso" 3
+	variant 20
+		"Senro"
+	variant 10
+		"Senro" 3
+	variant 10
+		"Secsen" 3
+	variant 50
+		"Derso" 5
+	variant 70
+		"Derso"
+	variant 60
+		"Derso" 3
+	variant 2
+		"Dacar"
+		"Dea" 4
+	variant 1
+		"Dacar heavy"
+		"Dea" 5
+	variant 30
+		"Ekdor"
+	variant 12
+		"Ekdor" 2
+
+fleet "Dels Ufulre Raid"
+	government "Dels Ufulre"
+	names "Dels civillian"
+	cargo 2
+	personality
+		confusion 30
+		plunders harvests
+	variant 20
+		"Desin" 4
+	variant 10
+		"Dacar heavy"
+		"Dea" 5
+	variant 10
+		"Dacar heavy"
+		"Dea" 5
+		"Derso" 3
+	variant 20
+		"Senro" 3
+	variant 10
+		"Secsen" 3
+	variant 50
+		"Derso" 5
+	variant 30
+		"Derso" 2
+		"Secsen" 3
+	variant 60
+		"Derso" 3
+	variant 20
+		"Dacar"
+		"Dea" 5
+		"Ekdor" 3
+		"Secsen" 2
+	variant 10
+		"Dacar heavy"
+		"Dea" 5
+	variant 30
+		"Ekdor" 2
+		"Derso" 2
+	variant 20
+		"Ekdor" 3
 
 #==============================Old====================
 fleet "Dels guard"
