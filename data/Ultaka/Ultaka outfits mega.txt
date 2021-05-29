@@ -1,28 +1,4 @@
 #
-
-outfit "SDG6 Core"
-	category "Power"
-	cost 1000000000
-	thumbnail "outfit/unknown"
-	"mass" 150
-	"outfit space" -150
-	"energy generation" 95000
-	
-outfit "SDG2 Core"
-	category "Power"
-	cost 1000000
-	thumbnail "outfit/unknown"
-	mass 15
-	"outfit space" -10
-	"energy generation" 1650
-	
-outfit "SDG1 Core"
-	category "Power"
-	cost 1000000
-	thumbnail "outfit/unknown"
-	mass 10
-	"outfit space" -5
-	"energy generation" 950
 	
 outfit "DMSG20 Shield Generator"
 	category "Systems"
@@ -31,7 +7,7 @@ outfit "DMSG20 Shield Generator"
 	"mass" 105
 	"outfit space" -105
 	"shield generation" 176
-	"shield energy" 20
+	"shield energy" 200
 	
 outfit "DMSG15 Shield Generator"
 	category "Systems"
@@ -40,7 +16,7 @@ outfit "DMSG15 Shield Generator"
 	"mass" 75
 	"outfit space" -75
 	"shield generation" 145
-	"shield energy" 10
+	"shield energy" 150
 	
 outfit "DMSG10 Shield Generator"
 	category "Systems"
@@ -49,7 +25,7 @@ outfit "DMSG10 Shield Generator"
 	"mass" 50
 	"outfit space" -50
 	"shield generation" 93
-	"shield energy" 5
+	"shield energy" 90
 	
 outfit "DMSG5 Shield Generator"
 	category "Systems"
@@ -58,57 +34,16 @@ outfit "DMSG5 Shield Generator"
 	"mass" 25
 	"outfit space" -25
 	"shield generation" 65
-	"shield energy" 2.5
+	"shield energy" 50
 	
-outfit "ZTK Engines"
-	category "Engines"
-	"cost" 350000
-	thumbnail "outfit/unknown"
-	"mass" 40
-	"outfit space" -40
-	"engine capacity" -40
-	"thrust" 95
-	"thrusting energy" 25
-	"thrusting heat" 30
-	"turn" 1500
-	"turning energy" 15
-	"turning heat" 20
-	"hyperdrive" 1
-	"jump drive" 1
-	"jump speed" 10
-	"afterburner energy" 5
-	"afterburner heat" 20
-	"afterburner thrust" 45.0
-	"flare sprite" "effect/ultaka flare/huge"
-	
-outfit "YTK Engines"
-	category "Engines"
-	"cost" 35000
-	thumbnail "outfit/unknown"
-	"mass" 20
-	"outfit space" -20
-	"engine capacity" -20
-	"thrust" 80
-	"thrusting energy" 15
-	"thrusting heat" 25
-	"turn" 1140
-	"turning energy" 5
-	"turning heat" 15
-	"hyperdrive" 1
-	"jump drive" 1
-	"jump speed" 10
-	"afterburner energy" 2.5
-	"afterburner heat" 10
-	"afterburner thrust" 23.0
-	"flare sprite" "effect/ultaka flare/small"
-	
-outfit "Ultaka Heat Shunt"
+outfit "SHM02 Heat Control" #Ultaka Heat Shunt
 	category "Systems"
 	cost 6000000
 	thumbnail "outfit/unknown"
 	mass 20
 	"outfit space" -20
 	"cooling" 150
+	"active cooling" 150
 	
 outfit "Retos Mulaer Defegin"
 	category "Systems"
