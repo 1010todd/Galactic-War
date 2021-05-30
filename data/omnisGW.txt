@@ -7,14 +7,6 @@ system Aumar
 	link Dels
 	link Erader
 	link "Galactic War"
-	object "Aumar Plugins"
-		sprite sprite/station8
-		distance 444
-		offset 90
-	object "Aumar Default"
-		sprite sprite/station8
-		distance 444
-		offset 270
 	object "Aumar"
 		sprite planet/ringworld
 		distance 812
@@ -154,14 +146,6 @@ system Dels
 	link Ignaggen
 	link Kumakk
 	link Qoro
-	object "Dels Plugins"
-		sprite sprite/station8
-		distance 444
-		offset 90
-	object "Dels Default"
-		sprite sprite/station8
-		distance 444
-		offset 270
 	object "Dels"
 		sprite planet/ringworld
 		distance 812
@@ -300,14 +284,6 @@ system Donko
 	link Uoorn
 	link Wallagi
 	link Zis
-	object "Donko Plugins"
-		sprite sprite/station8
-		distance 444
-		offset 90
-	object "Donko Default"
-		sprite sprite/station8
-		distance 444
-		offset 270
 	object "Donko"
 		sprite planet/ringworld
 		distance 812
@@ -456,14 +432,6 @@ system Erader
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
-	object "Erader Plugins"
-		sprite sprite/station8
-		distance 444
-		offset 90
-	object "Erader Default"
-		sprite sprite/station8
-		distance 444
-		offset 270
 	object "Erader"
 		sprite planet/ringworld
 		distance 812
@@ -598,14 +566,6 @@ system Erm
 	belt 1659
 	link Geeva
 	link Xessian
-	object "Erm Plugins"
-		sprite sprite/station8
-		distance 444
-		offset 90
-	object "Erm Default"
-		sprite sprite/station8
-		distance 444
-		offset 270
 	object "Erm"
 		sprite planet/ringworld
 		distance 812
@@ -835,14 +795,6 @@ system Geeva
 	link Wallagi
 	link Xessian
 	link Zorcn
-	object "Geeva Plugins"
-		sprite sprite/station8
-		distance 444
-		offset 90
-	object "Geeva Default"
-		sprite sprite/station8
-		distance 444
-		offset 270
 	object "Geeva"
 		sprite planet/ringworld
 		distance 812
@@ -1122,14 +1074,6 @@ system Isgeda
 	link Donko
 	link Ultaka
 	link Wallagi
-	object "Isgeda Plugins"
-		sprite sprite/station8
-		distance 444
-		offset 90
-	object "Isgeda Default"
-		sprite sprite/station8
-		distance 444
-		offset 270
 	object "Isgeda"
 		sprite planet/ringworld
 		distance 812
@@ -1265,14 +1209,6 @@ system Kroom
 	link Erader
 	link "Galactic War"
 	link Kumakk
-	object "Kroom Plugins"
-		sprite sprite/station8
-		distance 444
-		offset 90
-	object "Kroom Default"
-		sprite sprite/station8
-		distance 444
-		offset 270
 	object "Kroom"
 		sprite planet/ringworld
 		distance 812
@@ -1411,14 +1347,6 @@ system Kumakk
 	link Nuru
 	link Qoro
 	link Revos
-	object "Kumakk Plugins"
-		sprite sprite/station8
-		distance 444
-		offset 90
-	object "Kumakk Default"
-		sprite sprite/station8
-		distance 444
-		offset 270
 	object "Kumakk"
 		sprite planet/ringworld
 		distance 812
@@ -1553,14 +1481,6 @@ system Nuru
 	belt 1908
 	link Kumakk
 	link Revos
-	object "Nuru Plugins"
-		sprite sprite/station8
-		distance 444
-		offset 90
-	object "Nuru Default"
-		sprite sprite/station8
-		distance 444
-		offset 270
 	object "Nuru"
 		sprite planet/ringworld
 		distance 812
@@ -1702,14 +1622,6 @@ system Qoro
 	link Kumakk
 	link Uoorn
 	link Wallagi
-	object "Qoro Plugins"
-		sprite sprite/station8
-		distance 444
-		offset 90
-	object "Qoro Default"
-		sprite sprite/station8
-		distance 444
-		offset 270
 	object "Qoro"
 		sprite planet/ringworld
 		distance 812
@@ -1846,14 +1758,6 @@ system Revos
 	link Nuru
 	link Taroun
 	link Uoorn
-	object "Revos Plugins"
-		sprite sprite/station8
-		distance 444
-		offset 90
-	object "Revos Default"
-		sprite sprite/station8
-		distance 444
-		offset 270
 	object "Revos"
 		sprite planet/ringworld
 		distance 812
@@ -1988,14 +1892,6 @@ system Taroun
 	link Revos
 	link Uoorn
 	link Zis
-	object "Taroun Plugins"
-		sprite sprite/station8
-		distance 444
-		offset 90
-	object "Taroun Default"
-		sprite sprite/station8
-		distance 444
-		offset 270
 	object "Taroun"
 		sprite planet/ringworld
 		distance 812
@@ -2131,14 +2027,6 @@ system Ultaka
 	link Donko
 	link Isgeda
 	link Zis
-	object "Ultaka Plugins"
-		sprite sprite/station8
-		distance 444
-		offset 90
-	object "Ultaka Default"
-		sprite sprite/station8
-		distance 444
-		offset 270
 	object "Ultaka"
 		sprite planet/ringworld
 		distance 812
@@ -2277,14 +2165,6 @@ system Uoorn
 	link Revos
 	link Taroun
 	link Zis
-	object "Uoorn Plugins"
-		sprite sprite/station8
-		distance 444
-		offset 90
-	object "Uoorn Default"
-		sprite sprite/station8
-		distance 444
-		offset 270
 	object "Uoorn"
 		sprite planet/ringworld
 		distance 812
@@ -2422,14 +2302,6 @@ system Wallagi
 	link Isgeda
 	link Qoro
 	link Xessian
-	object "Wallagi Plugins"
-		sprite sprite/station8
-		distance 444
-		offset 90
-	object "Wallagi Default"
-		sprite sprite/station8
-		distance 444
-		offset 270
 	object "Wallagi"
 		sprite planet/ringworld
 		distance 812
@@ -2561,14 +2433,6 @@ system Xessian
 	link Erm
 	link Geeva
 	link Wallagi
-	object "Xessian Plugins"
-		sprite sprite/station8
-		distance 444
-		offset 90
-	object "Xessian Default"
-		sprite sprite/station8
-		distance 444
-		offset 270
 	object "Xessian"
 		sprite planet/ringworld
 		distance 812
@@ -2705,14 +2569,6 @@ system Zis
 	link Taroun
 	link Ultaka
 	link Uoorn
-	object "ZIS Plugins"
-		sprite sprite/station8
-		distance 444
-		offset 90
-	object "ZIS Default"
-		sprite sprite/station8
-		distance 444
-		offset 270
 	object "ZIS"
 		sprite planet/ringworld
 		distance 812
@@ -2848,14 +2704,6 @@ system Zorcn
 	link "Galactic War"
 	link Geeva
 	link Ignaggen
-	object "Zorcn Plugins"
-		sprite sprite/station8
-		distance 444
-		offset 90
-	object "Zorcn Default"
-		sprite sprite/station8
-		distance 444
-		offset 270
 	object "Zorcn"
 		sprite planet/ringworld
 		distance 812
@@ -3044,9 +2892,16 @@ planet "GW Default"
 
 #===============================Planets
 
+planet "Aumar"
+	landscape "landscape/station6"
+	description `(This Fraction is WIP)`
+	spaceport ``
+	outfitter "Aumar"
+	shipyard "Aumar"
+
 planet "Dels"
 	landscape "landscape/station6"
-	description ``
+	description `Dels`
 	spaceport ``
 	shipyard "Dels Advanced"
 	shipyard "Dels Ufulre"
@@ -3054,7 +2909,7 @@ planet "Dels"
 
 planet "Donko"
 	landscape "landscape/station6"
-	description ``
+	description `Donko`
 	spaceport ``
 	shipyard "Donko Advanced"
 	outfitter "Donko Advanced"
@@ -3063,26 +2918,40 @@ planet "Erader"
 	landscape "landscape/station6"
 	description `(This Fraction is WIP)`
 	spaceport ``
+	outfitter "Erader All"
+	shipyard "Erader All"
+
+planet "Erm"
+	landscape "landscape/station6"
+	description ``
+	spaceport ``
+	outfitter "Erm All"
+	shipyard "Erm All"
 
 planet "Geeva"
 	landscape "landscape/station6"
 	description ``
 	spaceport ``
+	outfitter "Geeva Advanced"
 	shipyard "Geeva Basic"
 	shipyard "Geeva Advanced"
-	outfitter "Geeva Advanced"
 
 planet "Ignaggen"
 	landscape "landscape/station6"
 	description ``
 	spaceport ``
+	outfitter "Ignaggen Basic"
+	outfitter "Ignaggen Advanced"
 	shipyard "Ignaggen Basic"
 	shipyard "Ignaggen Small"
 	shipyard "Ignaggen Advanced"
 	shipyard "Ignaggen Large"
 	shipyard "Ignaggen Military"
-	outfitter "Ignaggen Basic"
-	outfitter "Ignaggen Advanced"
+
+planet "Isgeda"
+	landscape "landscape/station6"
+	description `(This Fraction is WIP)`
+	spaceport ``
 
 planet "Kroom"
 	landscape "landscape/station6"
@@ -3103,6 +2972,41 @@ planet "Kumakk"
 	description `(This Fraction is WIP)`
 	spaceport ``
 
+planet "Nuru"
+	landscape "landscape/station6"
+	description ``
+	spaceport ``
+	outfitter "Nuru All"
+	shipyard "Nuru All"
+
+planet "Qoro"
+	landscape "landscape/station6"
+	description ``
+	spaceport ``
+	outfitter "Qoro Makau Basic"
+	outfitter "Qoro Siogal Basic"
+	shipyard "Qoro Makau Basic"
+	shipyard "Qoro Siogal Basic"
+
+planet "Revos"
+	landscape "landscape/station6"
+	description ``
+	spaceport ``
+	outfitter "Revos All"
+	shipyard "Revos All"
+
+planet "Taroun"
+	landscape "landscape/station6"
+	description ``
+	spaceport ``
+	outfitter "Taroun All"
+	shipyard "Taroun All"
+
+planet "Uroon"
+	landscape "landscape/station6"
+	description `WIP`
+	spaceport ``
+
 planet "Wallagi"
 	landscape "landscape/station6"
 	description ``
@@ -3117,6 +3021,20 @@ planet "ZIS"
 	shipyard "ZIS Old"
 	shipyard "ZIS Advanced"
 	outfitter "ZIS Advanced"
+
+planet "Zorcn"
+	landscape "landscape/station6"
+	description ``
+	spaceport ``
+	shipyard "Zorcn Basic"
+	shipyard "Zorcn Advanced"
+	shipyard "Zorcn Military"
+	shipyard "Zorcn Neyton"
+	shipyard "Zorcn Xyncil"
+	outfitter "Zorcn Basic Ammo"
+	outfitter "Zorcn Basic"
+	outfitter "Zorcn Advanced"
+	outfitter "Neyton Outfits"
 
 
 #===============================Tribute+Fleets 
