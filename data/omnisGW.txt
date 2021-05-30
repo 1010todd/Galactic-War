@@ -675,7 +675,7 @@ system Erm
 	object "Erm Hidersan"
 		sprite "ship/erm hidersan"
 		distance 1500
-		offset 40
+		offset 80
 	object "Erm Ernar"
 		sprite "ship/erm ernar"
 		distance 1450
@@ -683,7 +683,7 @@ system Erm
 	object "Erm Hordanler"
 		sprite "ship/erm hordanler"
 		distance 1450
-		offset 160
+		offset 200
 	object "Erm Roekler"
 		sprite "ship/erm roekler"
 		distance 1500
@@ -1700,6 +1700,10 @@ system Qoro
 		offset 320
 	object "Qoro(M) Manta"
 		sprite "ship/qoro m manta"
+		distance 1450
+		offset 115
+	object "Qoro(S) Ganoth"
+		sprite "ship/qoro m ganoth"
 		distance 1450
 		offset 120
 	object "Qoro(S) Gasat"
@@ -3240,6 +3244,134 @@ fleet "Donko Senka"
 	variant
 		"Donko Senka"
 
+#================================Erm
+
+planet "Erm Ernar"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Erm Ernar"
+
+planet "GW Ernar"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Erm Ernar"
+
+fleet "Erm Ernar"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Ernar"
+
+planet "Erm Roekler"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Erm Roekler"
+
+planet "GW Roekler"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Erm Roekler"
+
+fleet "Erm Roekler"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Roekler"
+
+planet "Erm Hidersan"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Erm Hidersan"
+
+planet "GW Hidersan"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Erm Hidersan"
+
+fleet "Erm Hidersan"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Hidersan"
+
+planet "Erm Hordanler"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Erm Hordanler"
+
+planet "GW Hordanler"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Erm Hordanler"
+
+fleet "Erm Hordanler"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Hordanler"
+
+planet "Erm Eaken"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Erm Eaken"
+
+planet "GW Eaken"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Erm Eaken"
+
+fleet "Erm Eaken"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Eaken"
+		
+planet "Erm Eirae"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Erm Eirae"
+
+planet "GW Eirae"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Erm Eirae"
+
+fleet "Erm Eirae"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Eirae"
+
 #================================Geeva
 
 planet "Geeva Hailika"
@@ -3498,6 +3630,27 @@ fleet "Qoro(M) Masec"
 		heroic
 	variant
 		"Qoro(M) Masec"
+
+planet "Qoro(S) Ganoth"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Qoro(S) Ganoth"
+
+planet "GW Ganoth"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Qoro(S) Ganoth"
+
+fleet "Qoro(S) Ganoth"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Qoro(S) Ganoth"
 
 planet "Qoro(S) Gasat"
 	government arena
@@ -4037,6 +4190,27 @@ fleet "ZIS Sysor"
 		"SY-8662 Sysor"
 
 #===========================Zorcn
+
+planet "Zorcn Bytis"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Zorcn Bytis"
+		
+planet "GW Bytis"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Zorcn Bytis"
+		
+fleet "Zorcn Bytis"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Zorcn Bytis"
 
 planet "Zorcn Barsten"
 	government arena
