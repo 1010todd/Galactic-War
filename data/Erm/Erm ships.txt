@@ -1,5 +1,6 @@
 ship "Roekler"
 	sprite "ship/erm roekler"
+	"swizzle" 0
 	attributes
 		category "Heavy Warship"
 		"cost" 952000000
@@ -18,7 +19,6 @@ ship "Roekler"
 		"engine capacity" 120
 		"ramscoop" 80
 		"MPS" -8
-		"swizzle" 0
 		weapon
 			"blast radius" 80
 			"shield damage" 800
@@ -83,6 +83,7 @@ ship "Roekler"
 	
 ship "Hidersan"
 	sprite "ship/erm hidersan"
+	"swizzle" 0
 	attributes
 		category "Heavy Freighter"
 		"cost" 560000000
@@ -100,7 +101,6 @@ ship "Hidersan"
 		"engine capacity" 140
 		"MPS" -4
 		"ramscoop" 60
-		"swizzle" 0
 		weapon
 			"blast radius" 40
 			"shield damage" 400
@@ -146,6 +146,7 @@ ship "Hidersan"
 	
 ship "Hordanler"
 	sprite "ship/erm hordanler"
+	"swizzle" 0
 	attributes
 		category "Medium Warship"
 		"cost" 427000000
@@ -163,7 +164,6 @@ ship "Hordanler"
 		"engine capacity" 140
 		"MPS" -4
 		"ramscoop" 60
-		"swizzle" 0
 		weapon
 			"blast radius" 40
 			"shield damage" 400
@@ -215,6 +215,7 @@ ship "Hordanler"
 	
 ship "Hordanler" "Hordanler Anti-Fighter"
 	sprite "ship/erm hordanler"
+	"swizzle" 0
 	outfits
 		"Kaiza Anti-Fighter Turret" 8
 		"Erm Missile Guard" 4
@@ -259,6 +260,7 @@ ship "Hordanler" "Hordanler Anti-Fighter"
 	
 ship "Ernar"
 	sprite "ship/erm ernar"
+	"swizzle" 0
 	attributes
 		category "Light Warship"
 		"cost" 181000000
@@ -395,6 +397,7 @@ ship "Ernar" "Ernar Offensive(A)"
 	
 ship "Eaken"
 	sprite "ship/erm eaken"
+	"swizzle" 0
 	attributes
 		category "Interceptor"
 		"cost" 98000000
@@ -441,6 +444,7 @@ ship "Eaken"
 	
 ship "Eirae"
 	sprite "ship/erm eirae"
+	"swizzle" 0
 	attributes
 		category "Light Freighter"
 		"cost" 88200000
