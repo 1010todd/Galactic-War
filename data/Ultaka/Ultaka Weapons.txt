@@ -124,9 +124,9 @@ outfit "G80 Turret"
 	category "Turrets"
 	cost 1900000
 	thumbnail "outfit/ultaka g1turret"
-	"mass" 20
-	"outfit space" -20
-	"weapon capacity" -20
+	"mass" 98
+	"outfit space" -98
+	"weapon capacity" -98
 	"turret mounts" -1
 	weapon
 		sprite "projectile/tiny dual ion"
@@ -135,18 +135,18 @@ outfit "G80 Turret"
 		"hardpoint sprite" "hardpoint/g1 turret"
 		"hardpoint offset" 9.
 		"inaccuracy" 1
-		"turret turn" 5.5
-		"velocity" 20
-		"lifetime" 150
-		"reload" 20
-		"firing energy" 15
+		"turret turn" 5.8
+		"velocity" 40
+		"lifetime" 500
+		"reload" 13
+		"firing energy" 30
 		"firing heat" 12
 		"shield damage" 5500
-		"hull damage" 5400
-		"ion damage" .1
-		"disruption damage" .1
-		"burst reload" 15
-		"burst count" 30
+		"hull damage" 4500
+		"ion damage" 40
+		"disruption damage" 40
+		"burst reload" 5
+		"burst count" 3
 		"cluster"
 	
 outfit "Trapper"
@@ -379,9 +379,9 @@ outfit "M100SG-M Turret"
 	category "Turrets"
 	cost 27000000
 	thumbnail "outfit/quad blaster turret"
-	"mass" 80
-	"outfit space" -80
-	"weapon capacity" -80
+	"mass" 98
+	"outfit space" -98
+	"weapon capacity" -98
 	"turret mounts" -1
 	weapon
 		sprite "projectile/m4g"
@@ -392,15 +392,15 @@ outfit "M100SG-M Turret"
 		"hardpoint offset" 9.
 		"inaccuracy" 1
 		"turret turn" 2.5
-		"velocity" 30
-		"lifetime" 146
+		"velocity" 50
+		"lifetime" 500
 		"reload" 43
 		"firing energy" 20
 		"firing heat" 40
 		"shield damage" 710
 		"hull damage" 1100
 		"piercing" .3
-		"disruption damage" .5
+		"disruption damage" 50
 		
 outfit "MU10-A anti missile"
 	category "Turrets"
@@ -535,6 +535,28 @@ outfit "U60-A anti missile"
 		"burst count" 20
 		"firing energy" .8
 		"firing heat" 1.6
+
+outfit "VR85-A anti missile"
+	category "Turrets"
+	cost 12000000
+	thumbnail "outfit/unknown"
+	mass 87
+	"outfit space" -87
+	"weapon capacity" -87
+	"turret mounts" -1
+	weapon
+		sound "gw emissile"
+		"hardpoint sprite" "hardpoint/warder"
+		"hardpoint offset" 4.
+		"anti-missile" 1540
+		"turret turn" 18
+		"velocity" 2000
+		"lifetime" 1
+		"reload" 20
+		"burst reload" 2
+		"burst count" 5
+		"firing energy" 10
+		"firing heat" 35
 		
 
 outfit "Type-B fragment"
@@ -724,9 +746,10 @@ outfit "Ultaka Destroyer Cannon"
 		"firing heat" 88700
 		"hit force" -9600
 		"blast radius" 120
-		"shield damage" 85000
-		"hull damage" 85000
-		"missile strength" 1510
+		"safe"
+		"shield damage" 95000
+		"hull damage" 95000
+		"missile strength" 2510
 		"piercing" .4
 	description "If anything would challenge the toughness of the ringworld it would be this. Getting hit by it is a death-sentence." 
 		

@@ -73,8 +73,9 @@ outfit "USG200 Shield Generator"
 	thumbnail "outfit/ultaka shield"
 	"mass" 210
 	"outfit space" -210
-	"shield generation" 8.6
-	"shield energy" 15.3
+	"shield generation" 34.4
+	"shield energy" 68.5
+	"ion protection" 1.3
 	description "A large Ultaka Shield generator."
 	
 outfit "USG150 Shield Generator"
@@ -83,8 +84,9 @@ outfit "USG150 Shield Generator"
 	thumbnail "outfit/ultaka shield"
 	"mass" 151
 	"outfit space" -151
-	"shield generation" 4.0
-	"shield energy" 7.9
+	"shield generation" 16.2
+	"shield energy" 33.2
+	"ion protection" 1.1
 	
 outfit "USG100 Shield Generator"
 	category "Systems"
@@ -92,8 +94,9 @@ outfit "USG100 Shield Generator"
 	thumbnail "outfit/ultaka shield"
 	"mass" 100
 	"outfit space" -100
-	"shield generation" 2.5
-	"shield energy" 5
+	"shield generation" 10
+	"shield energy" 23.6
+	"ion protection" .8
 	
 outfit "USG50 Shield Generator"
 	category "Systems"
@@ -101,8 +104,10 @@ outfit "USG50 Shield Generator"
 	thumbnail "outfit/ultaka shield"
 	"mass" 54
 	"outfit space" -50
-	"shield generation" 1.2
-	"shield energy" 2
+	"shield generation" 4.7
+	"shield energy" 14
+	"ion protection" 1
+	description "A small Ultaka Shield generator."
 	
 outfit "Kel'aku Engines" #Type-1
 	category "Engines"
@@ -112,11 +117,11 @@ outfit "Kel'aku Engines" #Type-1
 	"outfit space" -40
 	"engine capacity" -40
 	"thrust" 77
-	"thrusting energy" 30
-	"thrusting heat" 25
+	"thrusting energy" 15
+	"thrusting heat" 27
 	"turn" 1105
-	"turning energy" 20
-	"turning heat" 15
+	"turning energy" 10
+	"turning heat" 17
 	"afterburner thrust" 88
 	"afterburner energy" 88
 	"afterburner heat" 90
@@ -140,14 +145,21 @@ outfit "DR Drive" #Type-2
 	"engine capacity" -40
 	"dr drive" 1
 	"thrust" 60
-	"thrusting energy" 33
+	"thrusting energy" 18
 	"thrusting heat" 22
 	"turn" 1000
-	"turning energy" 21
+	"turning energy" 12
 	"turning heat" 12
 	"hyperdrive" 1
 	"jump drive" 1
-	"jump speed" .5
+	"jump speed" 10
+	"afterburner thrust" 60
+	"afterburner energy" 62
+	"afterburner heat" 58
+	"slowing protection" 12
+	"slowing resistance" 8
+	"slowing resistance energy" 3.2
+	description `An engine set less powerful than Ultaka standard Kel'aku Engines but more resistant and slightly more efficient.`
 	
 outfit "Kel'aku-Cu Engines" #Type-1S
 	category "Engines"
@@ -157,11 +169,11 @@ outfit "Kel'aku-Cu Engines" #Type-1S
 	"outfit space" -20
 	"engine capacity" -20
 	"thrust" 52
-	"thrusting energy" 20
-	"thrusting heat" 20
+	"thrusting energy" 12
+	"thrusting heat" 25
 	"turn" 660
-	"turning energy" 10
-	"turning heat" 10
+	"turning energy" 6
+	"turning heat" 15
 	"hyperdrive" 1
 	"jump drive" 1
 	"jump speed" 10
@@ -182,16 +194,16 @@ outfit "Ultaka Heat Shunt" #Placeholder
 	thumbnail "outfit/unknown"
 	mass 20
 	"outfit space" -20
-	"cooling" 15
+	"cooling" 12
 	"active cooling" 30
-	"cooling energy" 60
+	"cooling energy" 80
 	
 outfit "Model-3A Rifle"
 	category "Hand to Hand"
 	cost 230000
 	thumbnail "outfit/ultaka model3a"
-	"capture attack" 8
-	"capture defense" 9.8
+	"capture attack" 12
+	"capture defense" 12
 	"unplunderable" 1
 	description "Primary weapon of the Ultaka infantries. These weapons are insanely powerful it might as well be a anti-ship weapon for many. It is guaranteed anyone but the most well protected within a dozen meters of where the shot lands will be reduced to elementary particles. Thankfully the firepower is adjustable on the go."
 	

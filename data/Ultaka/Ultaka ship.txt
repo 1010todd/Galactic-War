@@ -10,7 +10,7 @@ ship "Ultaka Hunter"
 		"required crew" 1
 		"bunks" 3
 		"mass" 150
-		"drag" 6
+		"drag" 1.5
 		"heat dissipation" 1.3
 		"fuel capacity" 400
 		"cargo space" 7
@@ -18,8 +18,8 @@ ship "Ultaka Hunter"
 		"weapon capacity" 59
 		"engine capacity" 37
 		"self destruct" .01
-		"radar jamming" 5
-		"scan interference" .6
+		"radar jamming" 40
+		"scan interference" 1
 		weapon
 			"blast radius" 200
 			"shield damage" 2200
@@ -79,9 +79,9 @@ ship "Ultaka Dominator"
 		"cargo space" 80
 		"outfit space" 550
 		"weapon capacity" 320
-		"engine capacity" 120
-		"radar jamming" 5
-		"scan interference" .6
+		"engine capacity" 80
+		"radar jamming" 30
+		"scan interference" 1
 		weapon
 			"blast radius" 250
 			"shield damage" 1000
@@ -167,8 +167,8 @@ ship "Ultaka Annihilator"
 		"outfit space" 1300
 		"weapon capacity" 800
 		"engine capacity" 60
-		"radar jamming" 5
-		"scan interference" .6
+		"radar jamming" 40
+		"scan interference" 1
 		weapon
 			"blast radius" 250
 			"shield damage" 1000
@@ -240,8 +240,8 @@ ship "Ultaka Summoner"
 		"outfit space" 933
 		"weapon capacity" 68
 		"engine capacity" 800
-		"radar jamming" 5
-		"scan interference" .6
+		"radar jamming" 40
+		"scan interference" 1.5
 		weapon
 			"blast radius" 250
 			"shield damage" 1000
@@ -388,8 +388,8 @@ ship "Ultaka Termite"
 		"weapon capacity" 49
 		"engine capacity" 27
 		"self destruct" .1
-		"radar jamming" 5
-		"scan interference" .6
+		"radar jamming" 40
+		"scan interference" .8
 		weapon
 			"blast radius" 200
 			"shield damage" 2200
@@ -444,8 +444,8 @@ ship "Ultaka Servant"
 		"weapon capacity" 70
 		"engine capacity" 27
 		"self destruct" .01
-		"radar jamming" 5
-		"scan interference" .6
+		"radar jamming" 30
+		"scan interference" .8
 		weapon
 			"blast radius" 200
 			"shield damage" 2200
@@ -488,8 +488,8 @@ ship "Ultaka Conqueror"
 		"outfit space" 2200
 		"weapon capacity" 1300
 		"engine capacity" 120
-		"radar jamming" 5
-		"scan interference" .6
+		"radar jamming" 40
+		"scan interference" 3
 		"spinal mount" 2
 		weapon
 			"blast radius" 250
@@ -626,9 +626,6 @@ ship "Ultaka Path-Maker"
 
 ship "Ultaka Galactic Destroyer"
 	sprite "ship/ultaka destroyer"
-		delay 10
-		rewind
-		"frame rate" 28
 	attributes
 		category "Heavy Warship"
 		"cost" 600000000
@@ -637,17 +634,20 @@ ship "Ultaka Galactic Destroyer"
 		"hull repair rate" 50
 		"required crew" 1700
 		"bunks" 3910
-		"mass" 2660
+		"mass" 26600
 		"drag" 22.3
 		"heat dissipation" .6
 		"fuel capacity" 10000
+		"fuel protection" 20
 		"cargo space" 1200
 		"outfit space" 6400
 		"weapon capacity" 3300
 		"engine capacity" 200
-		"radar jamming" 5
-		"scan interference" .6
+		"radar jamming" 120
+		"scan interference" 5
 		"spinal mount" 2
+		"hull protection" 1
+		"force protection" 60
 		weapon
 			"blast radius" 5000
 			"shield damage" 100000
@@ -735,7 +735,7 @@ ship "Ultaka Reaper"
 		"hull repair rate" 12
 		"required crew" 580
 		"bunks" 1600
-		"mass" 2800
+		"mass" 28000
 		"drag" 20.3
 		"heat dissipation" .8
 		"fuel capacity" 5000
@@ -743,9 +743,10 @@ ship "Ultaka Reaper"
 		"outfit space" 4500
 		"weapon capacity" 2100
 		"engine capacity" 120
-		"radar jamming" 5
-		"scan interference" .6
+		"radar jamming" 50
+		"scan interference" 23
 		"spinal mount" 2
+		"force protection" 30
 		weapon
 			"blast radius" 3500
 			"shield damage" 100000
@@ -845,6 +846,7 @@ ship "Ultaka Trapper"
 		"shields" 25000
 		"hull" 13000
 		"hull repair rate" .2
+		"threshold percentage" .01
 		"automaton" 1
 		"mass" 70
 		"drag" 3
