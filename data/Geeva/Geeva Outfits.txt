@@ -219,8 +219,8 @@ outfit "Vytorn-01 Homing Beam" #R1 Homing Beam
 	"gun ports" -1
 	weapon
 		sprite "projectile/homing beam"
-			"frame rate" 20
-		sound "grab-strike"
+			"frame rate" 1
+		sound "gw laser3"
 		"fire effect" "electron impact"
 		"live effect" "homing beam trail" 200
 		"inaccuracy" 0
@@ -232,7 +232,7 @@ outfit "Vytorn-01 Homing Beam" #R1 Homing Beam
 		"acceleration" 1.1
 		"drag" .1
 		"turn" 5
-		"homing" 5
+		"homing" 4
 		"optical tracking" 1
 		"radar tracking" 1
 		"infrared tracking" 1
@@ -243,8 +243,8 @@ outfit "Vytorn-01 Homing Beam" #R1 Homing Beam
 	
 effect "homing beam trail"
 	sprite "projectile/homing beam"
-		"frame rate" 20
-	"lifetime" 200
+		"frame rate" 1
+	"lifetime" 10
 	"random angle" 180
 	"velocity scale" 0.
 	
