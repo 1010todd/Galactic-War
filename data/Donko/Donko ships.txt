@@ -249,10 +249,10 @@ ship "Donko Koi"
 			"hull damage" 2850 
 			"hit force" 8550 
 	outfits 
-		"J4 KED Turret" 6
+		"J4 KED Turret" 3
 		"Hasus Launcher" 2
 		"Hasus Missile" 80
-		"Barmott Anti-Missile" 5
+		"Barmott Anti-Missile" 2
 
 		"OER5 Cell"
 		"ORK4 Shield Generator"
@@ -286,14 +286,14 @@ ship "Donko Koi"
 	explode "small explosion" 15
 	explode "medium explosion" 10
 	explode "big explosion" 3
-	description ""
+	description "Koi is a Donko carrier."
 	
 ship "Donko Koi" "Koi (Drone)"
 	sprite "ship/donko koi" 
 	thumbnail "thumbnail/donko koi thumb"
 	"swizzle" 0
 	attributes 
-		category "Heavy Freighter" 
+		category "Medium Warship" 
 		"cost" 30000000 
 		"shields" 34000 
 		"hull" 22000 
@@ -312,35 +312,6 @@ ship "Donko Koi" "Koi (Drone)"
 			"shield damage" 5700 
 			"hull damage" 2850 
 			"hit force" 8550 
-	outfits 
-		"J4 KED Turret" 6
-		"Hasus Launcher" 2
-		"Hasus Missile" 80
-		"Barmott Anti-Missile" 5
-
-		"OER5 Cell"
-		"ORK4 Shield Generator"
-
-		"DIT4 Steering"
-		"DIT4 Thruster"
-		"Donko Hyperdrive"
-		"Jump Drive"
-
-	gun -56.5 -76
-	gun 56.5 -76
-	turret -44 84
-	turret 44 84
-	turret -27.5 63
-	turret 27.5 63
-	turret 0 70
-	engine -16.5 131
-		zoom 1
-		angle 0
-		under
-	engine 16.5 131
-		zoom 1
-		angle 0
-		under
 	drone 0 -35
 	drone 0 -35
 	drone 0 -35
@@ -353,14 +324,14 @@ ship "Donko Koi" "Koi (Drone)"
 	explode "small explosion" 15
 	explode "medium explosion" 10
 	explode "big explosion" 3
-	description "" 
+	description "A variant of Koi for carrying drones." 
 	
 ship "Donko Koi" "Koi (Freighter)"
 	sprite "ship/donko koi" 
 	thumbnail "thumbnail/donko koi thumb"
 	"swizzle" 0
 	attributes 
-		category "Medium Warship" 
+		category "Heavy Freighter" 
 		"cost" 30000000 
 		"shields" 34000 
 		"hull" 22000  
@@ -392,29 +363,10 @@ ship "Donko Koi" "Koi (Freighter)"
 		"DIT4 Thruster"
 		"Donko Hyperdrive"
 		"Jump Drive"
-		
 
-	gun -56.5 -76
-	gun 56.5 -76
-	turret -44 84
-	turret 44 84
-	turret -27.5 63
-	turret 27.5 63
-	turret 0 70
-	engine -16.5 131
-		zoom 1
-		angle 0
-		under
-	engine 16.5 131
-		zoom 1
-		angle 0
-		under
-	explode "tiny explosion" 15
-	explode "small explosion" 15
-	explode "medium explosion" 10
-	explode "big explosion" 3
-	description "" 
-	
+	drone 0 -35 #No way to completely remove it 
+	description "Freighter variant Koi."
+
 ship "Donko Senka" 
 	sprite "ship/donko senka" 
 	thumbnail "thumbnail/donko senka thumb"
