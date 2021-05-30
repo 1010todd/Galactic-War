@@ -2147,7 +2147,7 @@ system Ultaka
 		offset 250
 	object "Ultaka Reaper"
 		sprite "ship/ultaka reaper"
-		distance 2400
+		distance 3400
 		offset 240
 
 system Uoorn
@@ -2680,15 +2680,15 @@ system Zis
 		distance 1200
 		offset 320
 	object "ZIS Virsiz"
-		sprite "ship/ermeirae"
+		sprite "ship/zis virsiz"
 		distance 1450
 	object "ZIS Katen"
-		sprite "ship/ermeirae"
+		sprite "ship/zis katen"
 		distance 1450
 		offset 120
 	object "ZIS Ranzai"
-		sprite "ship/ermhidersan"
-		distance 1450
+		sprite "ship/zis ranzai"
+		distance 1480
 		offset 155
 	object "ZIS Razor"
 		sprite "ship/zis razor-two"
@@ -2700,12 +2700,12 @@ system Zis
 		offset 200
 	object "ZIS Eaxes"
 		sprite "ship/zis eaxes"
-		distance 1800
-		offset 220
+		distance 2100
+		offset 230
 	object "ZIS Karloz"
 		sprite "ship/zis karloz"
 		distance 1800
-		offset 280
+		offset 250
 
 system Zorcn
 	pos 73.3109 -9807.28
@@ -2851,6 +2851,10 @@ system Zorcn
 		sprite "ship/zorcn genex"
 		distance 1500
 		offset 250
+	object "Zorcn Xima"
+		sprite "ship/zorcn xima"
+		distance 2000
+		offset 240
 
 #==============================Galactic War Planets=======================
 
@@ -3544,6 +3548,114 @@ fleet "Ignaggen Koggareu"
 		heroic
 	variant
 		"Koggareu"
+
+planet "Ignaggen I'nos"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ignaggen I'nos"
+
+planet "GW I'nos"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ignaggen I'nos"
+
+fleet "Ignaggen I'nos"
+	government "arena"
+	personality
+		heroic
+	variant
+		"I'nos"
+
+#================================Kroom
+
+planet "Kroom Kargorko"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Kroom Kargorko"
+
+planet "GW Kargorko"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Kroom Kargorko"
+
+fleet "Kroom Kargorko"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Kargorko"
+
+planet "Kroom Garokka"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Kroom Garokka"
+
+planet "GW Garokka"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Kroom Garokka"
+
+fleet "Kroom Garokka"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Garokka"
+
+planet "Kroom Grakka"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Kroom Grakka"
+
+planet "GW Grakka"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Kroom Grakka"
+
+fleet "Kroom Grakka"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Grakka"
+
+planet "Kroom Grokva"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Kroom Grokva"
+
+planet "GW Grokva"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Kroom Grokva"
+
+fleet "Kroom Grokva"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Grokva"
+
 
 #================================Nuru
 
@@ -4423,3 +4535,24 @@ fleet "Zorcn Vorrix"
 		heroic
 	variant
 		"Zorcn Vorrix"
+
+planet "Zorcn Xima"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Zorcn Xima"
+		
+planet "GW Xima"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Zorcn Xima"
+		
+fleet "Zorcn Xima"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Zorcn Xima"

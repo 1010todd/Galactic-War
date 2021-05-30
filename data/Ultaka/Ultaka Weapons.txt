@@ -568,9 +568,6 @@ outfit "Type-D fragment"
 		"velocity" 70
 		"lifetime" 400
 		"inaccuracy" 180
-		sprite "projectile/blaster"
-			"no repeat"
-			"frame rate" .25
 		"die effect" "missile death"
 		"hit effect" "medium explosion"
 		"acceleration" 4
@@ -589,11 +586,11 @@ outfit "Type-E fragment"
 			"frame rate" 1
 		"hit effect" "particle"
 		"velocity" 55
-		"lifetime" 150
+		"lifetime" 50
 		"inaccuracy" 15
 		"shield damage" 11
 		"hull damage" 8
-		"ion damage" 10
+		"ion damage" 2
 		
 outfit "D12E B-Field Projector" #"Ultaka Damage Field"
 	category "Turrets"
