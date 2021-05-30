@@ -7,6 +7,8 @@ system Aumar
 	link Dels
 	link Erader
 	link "Galactic War"
+	object
+		sprite "sprite/wisp_green"
 	object "Aumar"
 		sprite planet/ringworld
 		distance 812
@@ -130,6 +132,8 @@ system Dels
 	link Ignaggen
 	link Kumakk
 	link Qoro
+	object
+		sprite "sprite/wisp_green"
 	object "Dels"
 		sprite planet/ringworld
 		distance 812
@@ -276,6 +280,8 @@ system Donko
 	link Uoorn
 	link Wallagi
 	link Zis
+	object
+		sprite "sprite/wisp_green"
 	object "Donko"
 		sprite planet/ringworld
 		distance 812
@@ -383,17 +389,17 @@ system Donko
 		distance 1200
 		offset 320
 	object "Donko Matka"
-		sprite "ship/ermeirae"
+		sprite "ship/donko matka"
 		distance 1450
-		offset 40
+		offset 320
 	object "Donko Kolso"
-		sprite "ship/ermhidersan"
+		sprite "ship/donko kolso"
 		distance 1500
-		offset 40
+		offset 280
 	object "Donko Kanse"
-		sprite "ship/ermernar"
+		sprite "ship/donko kanse"
 		distance 1450
-		offset 160
+		offset 120
 	object "Donko Koi"
 		sprite "ship/donko koi"
 		distance 1450
@@ -401,11 +407,11 @@ system Donko
 	object "Donko Sao"
 		sprite "ship/donko sao"
 		distance 1500
-		offset 240
+		offset 250
 	object "Donko Senka"
-		sprite "ship/donko sao"
+		sprite "ship/donko senka"
 		distance 1500
-		offset 240
+		offset 235
 
 system Erader
 	pos 164.311 -9936.28
@@ -418,16 +424,8 @@ system Erader
 	link Kroom
 	link Kumakk
 	asteroids "large metal" 1 6.804
-	trade Clothing 0
-	trade Electronics 0
-	trade Equipment 0
-	trade Food 0
-	trade "Heavy Metals" 0
-	trade Industrial 0
-	trade "Luxury Goods" 0
-	trade Medical 0
-	trade Metal 0
-	trade Plastic 0
+	object
+		sprite "sprite/wisp_green"
 	object "Erader"
 		sprite planet/ringworld
 		distance 812
@@ -562,6 +560,8 @@ system Erm
 	belt 1659
 	link Geeva
 	link Xessian
+	object
+		sprite "sprite/wisp_green"
 	object "Erm"
 		sprite planet/ringworld
 		distance 812
@@ -701,6 +701,8 @@ system "Galactic War"
 	link Kroom
 	link Omnis
 	link Zorcn
+	object
+		sprite "sprite/wisp_green"
 	object "Galactic War"
 		sprite planet/trochzempt_complete
 	object "GW Plugins"
@@ -791,6 +793,8 @@ system Geeva
 	link Wallagi
 	link Xessian
 	link Zorcn
+	object
+		sprite "sprite/wisp_green"
 	object "Geeva"
 		sprite planet/ringworld
 		distance 812
@@ -918,6 +922,8 @@ system Ignaggen
 	link "Galactic War"
 	link Geeva
 	link Zorcn
+	object
+		sprite "sprite/wisp_green"
 	object "Ignaggen"
 		sprite planet/ringworld
 		distance 812
@@ -1045,6 +1051,8 @@ system Isgeda
 	link Donko
 	link Ultaka
 	link Wallagi
+	object
+		sprite "sprite/wisp_green"
 	object "Isgeda"
 		sprite planet/ringworld
 		distance 812
@@ -1180,6 +1188,8 @@ system Kroom
 	link Erader
 	link "Galactic War"
 	link Kumakk
+	object
+		sprite "sprite/wisp_green"
 	object "Kroom"
 		sprite planet/ringworld
 		distance 812
@@ -1318,6 +1328,8 @@ system Kumakk
 	link Nuru
 	link Qoro
 	link Revos
+	object
+		sprite "sprite/wisp_green"
 	object "Kumakk"
 		sprite planet/ringworld
 		distance 812
@@ -1452,6 +1464,8 @@ system Nuru
 	belt 1908
 	link Kumakk
 	link Revos
+	object
+		sprite "sprite/wisp_green"
 	object "Nuru"
 		sprite planet/ringworld
 		distance 812
@@ -1592,6 +1606,8 @@ system Qoro
 	link Kumakk
 	link Uoorn
 	link Wallagi
+	object
+		sprite "sprite/wisp_green"
 	object "Qoro"
 		sprite planet/ringworld
 		distance 812
@@ -1732,6 +1748,8 @@ system Revos
 	link Nuru
 	link Taroun
 	link Uoorn
+	object
+		sprite "sprite/wisp_green"
 	object "Revos"
 		sprite planet/ringworld
 		distance 812
@@ -1866,6 +1884,8 @@ system Taroun
 	link Revos
 	link Uoorn
 	link Zis
+	object
+		sprite "sprite/wisp_green"
 	object "Taroun"
 		sprite planet/ringworld
 		distance 812
@@ -1989,6 +2009,8 @@ system Ultaka
 	link Donko
 	link Isgeda
 	link Zis
+	object
+		sprite "sprite/wisp_green"
 	object "Ultaka"
 		sprite planet/ringworld
 		distance 812
@@ -2127,6 +2149,8 @@ system Uoorn
 	link Revos
 	link Taroun
 	link Zis
+	object
+		sprite "sprite/wisp_green"
 	object "Uoorn"
 		sprite planet/ringworld
 		distance 812
@@ -2264,6 +2288,8 @@ system Wallagi
 	link Isgeda
 	link Qoro
 	link Xessian
+	object
+		sprite "sprite/wisp_green"
 	object "Wallagi"
 		sprite planet/ringworld
 		distance 812
@@ -2395,6 +2421,8 @@ system Xessian
 	link Erm
 	link Geeva
 	link Wallagi
+	object
+		sprite "sprite/wisp_green"
 	object "Xessian"
 		sprite planet/ringworld
 		distance 812
@@ -2531,6 +2559,8 @@ system Zis
 	link Taroun
 	link Ultaka
 	link Uoorn
+	object
+		sprite "sprite/wisp_green"
 	object "ZIS"
 		sprite planet/ringworld
 		distance 812
@@ -2673,6 +2703,8 @@ system Zorcn
 	link "Galactic War"
 	link Geeva
 	link Ignaggen
+	object
+		sprite "sprite/wisp_green"
 	object "Zorcn"
 		sprite planet/ringworld
 		distance 812
@@ -3180,6 +3212,27 @@ fleet "Donko Koi"
 		heroic
 	variant
 		"Donko Koi"
+
+planet "Donko Kolso"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Donko Kolso"
+
+planet "GW Kolso"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Donko Kolso"
+
+fleet "Donko Kolso"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Donko Kolso"
 
 planet "Donko Matka"
 	government arena
