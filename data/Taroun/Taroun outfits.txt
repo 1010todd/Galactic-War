@@ -25,7 +25,7 @@ outfit "Serulan Turret"
 effect "serulan impact"
 	sprite "effect/serulan impact"
 		"no repeat"
-		"frame rate" 30
+		"frame rate" 3
 	sound "darkblaster"
 	"lifetime" 30
 	"random angle" 20
@@ -109,8 +109,7 @@ outfit "Urmou"
 			"frame rate" 30
 		"die effect" "serulan impact"
 		"hit effect" "serulan impact"
-		"live effect" "lymaou trail" 200
-		"live effect" "antimatter dust" 200
+		"live effect" "lymaou trail" 50
 		"inaccuracy" 180
 		"velocity" 30
 		"lifetime" 600
@@ -129,7 +128,7 @@ outfit "Lymaou"
 	weapon
 		sprite "projectile/lymaou"
 		"die effect" "drak bolt impact"
-		"hit effect" "drak bolt impact"
+		"hit effect" "lymaou impact"
 		"hit effect" "nuke explosion"
 		"live effect" "lymaou trail" 200
 		"live effect" "antimatter spark" 200
@@ -151,11 +150,21 @@ outfit "Lymaou"
 		
 effect "lymaou trail"
 	sprite "effect/lymaou trail"
-	"lifetime" 80
+		"frame rate" 1
+		"no repeat"
+	"lifetime" 40
 	"velocity scale" 1.
 	"random velocity" 1.
 	"random angle" 30
 	"random spin" 10
+
+effect "lymaou impact"
+	sprite "effect/lymaou impact"
+		"frame rate" 20
+		"no repeat"
+	"lifetime" 10
+	"velocity scale" 0
+	"random angle" 1
 		
 outfit "Lymaou Launcher"
 	category "Guns"
@@ -167,9 +176,10 @@ outfit "Lymaou Launcher"
 	"gun ports" -1
 	weapon
 		sprite "projectile/lymaou"
+			"frame rate" 55
 		sound "lymaou"
-		"fire effect" "smoke"
-		"hit effect" "smoke"
+		"fire effect" "lymaou impact"
+		"hit effect" "lymaou impact"
 		"submunition" "Lymaou"
 		"inaccuracy" 1
 		"velocity" 1
@@ -181,8 +191,8 @@ outfit "Lymaou Launcher"
 		"firing energy" 5610
 		"firing heat" 1960
 		"firing force" 1200
-		"shield damage" 5610
-		"hull damage" 5610
+		"shield damage" 2000
+		"hull damage" 2000
 		"hit force" 35
 		"missile strength" 1000
 		"stream"
