@@ -2,6 +2,7 @@
 ship "Donko Sao"
 	sprite "ship/donko sao"
 	thumbnail "thumbnail/donko sao thumb"
+	"swizzle" 0
 	attributes
 		category "Heavy Warship"
 		"cost" 90900000
@@ -19,7 +20,6 @@ ship "Donko Sao"
 		"engine capacity" 300
 		"hull repair" 1
 		"spinal mount" 1
-		"swizzle" 0
 		weapon
 			"blast radius" 250
 			"shield damage" 1000
@@ -78,6 +78,7 @@ ship "Donko Sao"
 ship "Donko Kanse"
 	sprite "ship/donko kanse"
 	thumbnail "thumbnail/donko kanse thumb"
+	"swizzle" 0
 	attributes
 		category "Interceptor"
 		"cost" 425000
@@ -93,7 +94,6 @@ ship "Donko Kanse"
 		"outfit space" 222
 		"weapon capacity" 120
 		"engine capacity" 50
-		"swizzle" 0
 		weapon
 			"blast radius" 20
 			"shield damage" 160
@@ -141,6 +141,7 @@ ship "Donko Kanse"
 ship "Donko Kolso"
 	sprite "ship/donko kolso"
 	thumbnail "thumbnail/donko kolso thumb"
+	"swizzle" 0
 	attributes
 		category "Fighter"
 		"cost" 100000
@@ -154,7 +155,6 @@ ship "Donko Kolso"
 		"outfit space" 90
 		"weapon capacity" 36
 		"engine capacity" 30
-		"swizzle" 0
 		weapon
 			"blast radius" 12
 			"shield damage" 120
@@ -184,6 +184,7 @@ ship "Donko Kolso"
 ship "Donko Matka"
 	sprite "ship/donko matka"
 	thumbnail "thumbnail/donko matka thumb"
+	"swizzle" 0
 	attributes
 		category "Drone"
 		"cost" 90000
@@ -195,7 +196,6 @@ ship "Donko Matka"
 		"outfit space" 80
 		"weapon capacity" 24
 		"engine capacity" 30
-		"swizzle" 0
 		weapon
 			"blast radius" 12
 			"shield damage" 120
@@ -227,6 +227,7 @@ ship "Donko Matka"
 ship "Donko Koi" 
 	sprite "ship/donko koi" 
 	thumbnail "thumbnail/donko koi thumb"
+	"swizzle" 0
 	attributes 
 		category "Medium Warship" 
 		"cost" 30000000 
@@ -242,7 +243,6 @@ ship "Donko Koi"
 		"outfit space" 800 
 		"weapon capacity" 500 
 		"engine capacity" 150 
-		"swizzle" 0
 		weapon 
 			"blast radius" 570 
 			"shield damage" 5700 
@@ -291,6 +291,7 @@ ship "Donko Koi"
 ship "Donko Koi" "Koi (Drone)"
 	sprite "ship/donko koi" 
 	thumbnail "thumbnail/donko koi thumb"
+	"swizzle" 0
 	attributes 
 		category "Heavy Freighter" 
 		"cost" 30000000 
@@ -306,7 +307,6 @@ ship "Donko Koi" "Koi (Drone)"
 		"outfit space" 800 
 		"weapon capacity" 500 
 		"engine capacity" 150 
-		"swizzle" 0
 		weapon 
 			"blast radius" 570 
 			"shield damage" 5700 
@@ -358,6 +358,7 @@ ship "Donko Koi" "Koi (Drone)"
 ship "Donko Koi" "Koi (Freighter)"
 	sprite "ship/donko koi" 
 	thumbnail "thumbnail/donko koi thumb"
+	"swizzle" 0
 	attributes 
 		category "Medium Warship" 
 		"cost" 30000000 
@@ -373,7 +374,6 @@ ship "Donko Koi" "Koi (Freighter)"
 		"outfit space" 800 
 		"weapon capacity" 500 
 		"engine capacity" 150 
-		"swizzle" 0
 		weapon 
 			"blast radius" 570 
 			"shield damage" 5700 
@@ -418,6 +418,7 @@ ship "Donko Koi" "Koi (Freighter)"
 ship "Donko Senka" 
 	sprite "ship/donko senka" 
 	thumbnail "thumbnail/donko senka thumb"
+	"swizzle" 0
 	attributes 
 		category "Heavy Warship" 
 		"cost" 55000000 
@@ -433,7 +434,6 @@ ship "Donko Senka"
 		"outfit space" 1100 
 		"weapon capacity" 630 
 		"engine capacity" 180 
-		"swizzle" 0
 		weapon 
 			"blast radius" 570 
 			"shield damage" 5700 
