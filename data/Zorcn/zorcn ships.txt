@@ -50,8 +50,8 @@ ship "Zorcn Augyr"
 		"outfit space" 250
 		"weapon capacity" 100
 		"engine capacity" 60
-		"hull repair rate" .1
-		"hull energy" .1
+		"hull repair rate" .2
+		"hull energy" .2
 		"repair delay" 30
 		weapon
 			"blast radius" 30
@@ -108,8 +108,8 @@ ship "Zorcn Mausr"
 		"outfit space" 206
 		"weapon capacity" 50
 		"engine capacity" 70
-		"hull repair rate" .1
-		"hull energy" .1
+		"hull repair rate" .2
+		"hull energy" .2
 		"repair delay" 30
 		weapon
 			"blast radius" 24
@@ -158,6 +158,8 @@ ship "Zorcn Mausr Lite"
 		"weapon capacity" 50
 		"engine capacity" 70
 		"upgrade capacity" 5
+		"hull repair rate" .2
+		"hull energy" .2
 		weapon
 			"blast radius" 24
 			"shield damage" 240
@@ -201,8 +203,8 @@ ship "Zorcn Eytis"
 		"outfit space" 210
 		"weapon capacity" 35
 		"engine capacity" 60
-		"hull repair rate" .1
-		"hull energy" .1
+		"hull repair rate" .2
+		"hull energy" .2
 		"repair delay" 30
 		weapon
 			"blast radius" 12
@@ -248,8 +250,8 @@ ship "Zorcn Bytis"
 		"outfit space" 210
 		"weapon capacity" 35
 		"engine capacity" 60
-		"hull repair rate" .1
-		"hull energy" .1
+		"hull repair rate" .2
+		"hull energy" .2
 		"repair delay" 30
 		weapon
 			"blast radius" 12
@@ -296,8 +298,8 @@ ship "Zorcn Enntr"
 		"outfit space" 260
 		"weapon capacity" 55
 		"engine capacity" 70
-		"hull repair rate" .1
-		"hull energy" .1
+		"hull repair rate" .2
+		"hull energy" .2
 		"repair delay" 30
 		weapon
 			"blast radius" 12
@@ -347,8 +349,8 @@ ship "Zorcn Beltr"
 		"outfit space" 190
 		"weapon capacity" 35
 		"engine capacity" 40
-		"hull repair rate" .1
-		"hull energy" .1
+		"hull repair rate" .2
+		"hull energy" .2
 		"repair delay" 30
 		weapon
 			"blast radius" 40
@@ -395,8 +397,8 @@ ship "Zorcn Bermas"
 		"outfit space" 260
 		"weapon capacity" 60
 		"engine capacity" 55
-		"hull repair rate" .1
-		"hull energy" .1
+		"hull repair rate" .2
+		"hull energy" .2
 		"repair delay" 30
 		weapon
 			"blast radius" 40
@@ -446,8 +448,8 @@ ship "Zorcn Barsten"
 		"outfit space" 345
 		"weapon capacity" 140
 		"engine capacity" 70
-		"hull repair rate" .2
-		"hull energy" .2
+		"hull repair rate" .3
+		"hull energy" .3
 		"repair delay" 30
 		weapon
 			"blast radius" 40
@@ -509,8 +511,8 @@ ship "Zorcn Vixta"
 		"engine capacity" 60
 		"tactical scan power" 25
 		"radar jamming" 4
-		"hull repair rate" .2
-		"hull energy" .2
+		"hull repair rate" .3
+		"hull energy" .3
 		"repair delay" 30
 		weapon
 			"blast radius" 40
@@ -566,8 +568,8 @@ ship "Zorcn Nuar'an"
 		"outfit space" 330
 		"weapon capacity" 90
 		"engine capacity" 70
-		"hull repair rate" .1
-		"hull energy" .1
+		"hull repair rate" .2
+		"hull energy" .2
 		"repair delay" 30
 		weapon
 			"blast radius" 40
@@ -619,8 +621,8 @@ ship "Zorcn Emaryt"
 		"weapon capacity" 125
 		"engine capacity" 190
 		"tactical scan power" 15
-		"hull repair rate" .2
-		"hull energy" .2
+		"hull repair rate" .3
+		"hull energy" .3
 		"repair delay" 30
 		weapon
 			"blast radius" 120
@@ -682,8 +684,8 @@ ship "Zorcn Mtyr"
 		"weapon capacity" 270
 		"engine capacity" 190
 		"tactical scan power" 30
-		"hull repair rate" .2
-		"hull energy" .2
+		"hull repair rate" .4
+		"hull energy" .4
 		"repair delay" 45
 		weapon
 			"blast radius" 120
@@ -754,8 +756,8 @@ ship "Zorcn Bitorn"
 		"outfit space" 570
 		"weapon capacity" 170
 		"engine capacity" 190
-		"hull repair rate" .2
-		"hull energy" .2
+		"hull repair rate" .4
+		"hull energy" .4
 		"repair delay" 45
 		weapon
 			"blast radius" 120
@@ -821,8 +823,8 @@ ship "Zorcn Vorrix"
 		"weapon capacity" 200
 		"engine capacity" 90
 		"tactical scan power" 30
-		"hull repair rate" .3
-		"hull energy" .35
+		"hull repair rate" .4
+		"hull energy" .42
 		"repair delay" 45
 		weapon
 			"blast radius" 120
@@ -893,8 +895,8 @@ ship "Zorcn Inckv"
 		"cargo scan speed" 1
 		"tactical scan power" 40
 		"vertical launching support" 8
-		"hull repair rate" .35
-		"hull energy" .35
+		"hull repair rate" .7
+		"hull energy" .7
 		"repair delay" 45
 		weapon
 			"blast radius" 300
@@ -980,8 +982,8 @@ ship "Zorcn Itrras"
 		"cargo scan speed" 1
 		"tactical scan power" 30
 		"scan interference" 2
-		"hull repair rate" .35
-		"hull energy" .35
+		"hull repair rate" .7
+		"hull energy" .7
 		"repair delay" 45
 		weapon
 			"blast radius" 300
@@ -1031,8 +1033,6 @@ ship "Zorcn Itrras"
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
 	description "Itrras is one of the oldest Zorcn ship remaining in service, mostly used as military freighter for transporting military secrets. Despite the design being a few centuries old, its armor is still very durable."
-
-#Planned, regenerating hull tech.
 	
 ship "Zorcn Genex"
 	sprite "ship/zorcn genex"
@@ -1057,8 +1057,8 @@ ship "Zorcn Genex"
 		"cargo scan power" 34
 		"cargo scan speed" 2
 		"tactical scan power" 45
-		"hull repair rate" .35
-		"hull energy" .35
+		"hull repair rate" .7
+		"hull energy" .7
 		"repair delay" 45
 		weapon
 			"blast radius" 300
@@ -1149,8 +1149,8 @@ ship "Zorcn Xima"
 		"cargo scan power" 88
 		"cargo scan speed" 2
 		"tactical scan power" 90
-		"hull repair rate" .5
-		"hull energy" .5
+		"hull repair rate" 1
+		"hull energy" 1
 		"repair delay" 50
 		weapon
 			"blast radius" 300
