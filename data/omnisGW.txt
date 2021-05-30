@@ -117,22 +117,6 @@ system Aumar
 		sprite "ship/aumar gy2"
 		distance 1450
 		offset 40
-	object "Aumar"
-		sprite "ship/ermhidersan"
-		distance 1500
-		offset 40
-	object "Aumar"
-		sprite "ship/ermernar"
-		distance 1450
-		offset 160
-	object "Aumar"
-		sprite "ship/ermhordanler"
-		distance 1450
-		offset 160
-	object "Aumar"
-		sprite "ship/ermroekler"
-		distance 1500
-		offset 240
 
 system Dels
 	pos 135.311 -9884.28
@@ -398,15 +382,15 @@ system Donko
 		sprite sprite/category_drone
 		distance 1200
 		offset 320
-	object "Donko"
+	object "Donko Matka"
 		sprite "ship/ermeirae"
 		distance 1450
 		offset 40
-	object "Donko"
+	object "Donko Kolso"
 		sprite "ship/ermhidersan"
 		distance 1500
 		offset 40
-	object "Donko"
+	object "Donko Kanse"
 		sprite "ship/ermernar"
 		distance 1450
 		offset 160
@@ -415,6 +399,10 @@ system Donko
 		distance 1450
 		offset 160
 	object "Donko Sao"
+		sprite "ship/donko sao"
+		distance 1500
+		offset 240
+	object "Donko Senka"
 		sprite "ship/donko sao"
 		distance 1500
 		offset 240
@@ -1710,26 +1698,26 @@ system Qoro
 		sprite sprite/category_drone
 		distance 1200
 		offset 320
-	object "Qoro"
-		sprite "ship/ermeirae"
+	object "Qoro(M) Manta"
+		sprite "ship/qoro m manta"
 		distance 1450
-		offset 40
-	object "Qoro"
-		sprite "ship/ermhidersan"
+		offset 120
+	object "Qoro(S) Gasat"
+		sprite "ship/qoro s gasat"
+		distance 1450
+		offset 280
+	object "Qoro(M) Masec"
+		sprite "ship/qoro m masec"
 		distance 1500
-		offset 40
-	object "Qoro"
-		sprite "ship/ermernar"
+		offset 200
+	object "Qoro(S) Elgarel"
+		sprite "ship/qoro s elgarel"
 		distance 1450
 		offset 160
-	object "Qoro"
-		sprite "ship/ermhordanler"
+	object "Qoro(S) Elogarl"
+		sprite "ship/qoro s elogarl"
 		distance 1450
-		offset 160
-	object "Qoro"
-		sprite "ship/ermroekler"
-		distance 1500
-		offset 240
+		offset 200
 
 system Revos
 	pos 327.311 -9931.28
@@ -1857,14 +1845,14 @@ system Revos
 		sprite "ship/revos mokla"
 		distance 1450
 		offset 160
-	object "Revos"
-		sprite "ship/ermhordanler"
+	object "Revos Rova"
+		sprite "ship/revos rova"
 		distance 1450
-		offset 180
-	object "Revos"
-		sprite "ship/ermroekler"
+		offset 120
+	object "Revos Homan"
+		sprite "ship/revos homan"
 		distance 1500
-		offset 240
+		offset 120
 
 system Taroun
 	pos 383.311 -9896.28
@@ -1980,18 +1968,6 @@ system Taroun
 		sprite sprite/category_drone
 		distance 1200
 		offset 320
-	object "Taroun"
-		sprite "ship/ermeirae"
-		distance 1450
-		offset 40
-	object "Taroun"
-		sprite "ship/ermhidersan"
-		distance 1500
-		offset 40
-	object "Taroun"
-		sprite "ship/ermernar"
-		distance 1450
-		offset 160
 	object "Taroun Oresu"
 		sprite "ship/taroun oresu"
 		distance 1450
@@ -1999,7 +1975,7 @@ system Taroun
 	object "Taroun Eroun"
 		sprite "ship/taroun eroun"
 		distance 1500
-		offset 240
+		offset 200
 
 system Ultaka
 	pos 310.311 -9778.28
@@ -2657,18 +2633,21 @@ system Zis
 		sprite sprite/category_drone
 		distance 1200
 		offset 320
-	object "ZIS"
+	object "ZIS Virsiz"
 		sprite "ship/ermeirae"
 		distance 1450
-		offset 40
-	object "ZIS"
+	object "ZIS Katen"
+		sprite "ship/ermeirae"
+		distance 1450
+		offset 120
+	object "ZIS Ranzai"
 		sprite "ship/ermhidersan"
-		distance 1500
-		offset 40
+		distance 1450
+		offset 155
 	object "ZIS Razor"
 		sprite "ship/zis razor-two"
 		distance 1450
-		offset 160
+		offset 165
 	object "ZIS Sysor"
 		sprite "ship/zis sysor"
 		distance 1500
@@ -3154,6 +3133,113 @@ fleet "Dels Senro"
 	variant
 		"Dels Senro"
 
+#================================Donko
+
+planet "Donko Kanse"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Donko Kanse"
+
+planet "GW Kanse"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Donko Kanse"
+
+fleet "Donko Kanse"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Donko Kanse"
+
+planet "Donko Koi"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Donko Koi"
+
+planet "GW Koi"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Donko Koi"
+
+fleet "Donko Koi"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Donko Koi"
+
+planet "Donko Matka"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Donko Matka"
+
+planet "GW Matka"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Donko Matka"
+
+fleet "Donko Matka"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Donko Matka"
+
+planet "Donko Sao"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Donko Sao"
+
+planet "GW Sao"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Donko Sao"
+
+fleet "Donko Sao"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Donko Sao"
+
+planet "Donko Senka"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Donko Senka"
+
+planet "GW Senka"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Donko Senka"
+
+fleet "Donko Senka"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Donko Senka"
+
 #================================Geeva
 
 planet "Geeva Hailika"
@@ -3305,6 +3391,284 @@ fleet "Nuru Ar Da Sam"
 		heroic
 	variant
 		"Ar Da Sam"
+
+planet "Nuru Ko Dok Sam"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Nuru Ko Dok Sam"
+
+planet "GW Ar Da Sam"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Nuru Ko Dok Sam"
+
+fleet "Nuru Ko Dok Sam"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Ko Dok Sam"
+
+planet "Nuru Ca Mok Si"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Nuru Ca Mok Si"
+
+planet "GW Ca Mok Si"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Nuru Ca Mok Si"
+
+fleet "Nuru Ca Mok Si"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Ca Mok Si"
+
+planet "Nuru Wi Wai Si"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Nuru Wi Wai Si"
+
+planet "GW Wi Wai Si"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Nuru Wi Wai Si"
+
+fleet "Nuru Wi Wai Si"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Wi Wai Si"
+
+#================================Qoro
+
+planet "Qoro(M) Manta"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Qoro(M) Manta"
+
+planet "GW Manta"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Qoro(M) Manta"
+
+fleet "Qoro(M) Manta"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Qoro(M) Manta"
+
+planet "Qoro(M) Masec"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Qoro(M) Masec"
+
+planet "GW Masec"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Qoro(M) Masec"
+
+fleet "Qoro(M) Masec"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Qoro(M) Masec"
+
+planet "Qoro(S) Gasat"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Qoro(S) Gasat"
+
+planet "GW Gasat"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Qoro(S) Gasat"
+
+fleet "Qoro(S) Gasat"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Qoro(S) Gasat"
+
+planet "Qoro(S) Elgarel"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Qoro(S) Elgarel"
+
+planet "GW Elgarel"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Qoro(S) Elgarel"
+
+fleet "Qoro(S) Elgarel"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Qoro(S) Elgarel"
+
+planet "Qoro(S) Elogarl"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Qoro(S) Elogarl"
+
+planet "GW Elogarl"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Qoro(S) Elogarl"
+
+fleet "Qoro(S) Elogarl"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Qoro(S) Elogarl"
+
+#================================Revos
+
+planet "Revos Homan"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Revos Homan"
+
+planet "GW Homan"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Revos Homan"
+
+fleet "Revos Homan"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Revos Homan"
+
+planet "Revos Rova"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Revos Rova"
+
+planet "GW Rova"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Revos Rova"
+
+fleet "Revos Rova"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Revos Rova"
+
+planet "Revos Mokla"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Revos Rova"
+
+planet "GW Mokla"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Revos Mokla"
+
+fleet "Revos Mokla"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Revos Mokla"
+
+planet "Revos Caosma(C)"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Revos Caosma(C)"
+
+planet "GW Caosma(C)"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Revos Caosma(C)"
+
+fleet "Revos Caosma(C)"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Revos Caosma"
+
+planet "Revos Caosma(T)"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Revos Caosma(T)"
+
+planet "GW Caosma(T)"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Revos Caosma(T)"
+
+fleet "Revos Caosma(T)"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Caosma (Transport)"
+
 #================================Taroun
 
 planet "Taroun Oresu"
@@ -3609,6 +3973,27 @@ fleet "ZIS Kazai"
 	variant
 		"BX-3826 Kazai"
 
+planet "ZIS Ranzai"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "ZIS Ranzai"
+		
+planet "GW Ranzai"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "ZIS Ranzai"
+		
+fleet "ZIS Ranzai"
+	government "arena"
+	personality
+		heroic
+	variant
+		"AD-672 Ranzai"
+
 planet "ZIS Razor"
 	government arena
 	bribe 0
@@ -3623,7 +4008,7 @@ planet "GW Razor"
 		threshold 0
 		fleet "ZIS Razor"
 		
-fleet "ZIS Kazai"
+fleet "ZIS Razor"
 	government "arena"
 	personality
 		heroic
