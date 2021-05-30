@@ -242,7 +242,7 @@ system Dels
 		offset 320
 	object "Dels Desen"
 		sprite "ship/dels desen"
-		distance 1450
+		distance 1500
 		offset 35
 	object "Dels Donson"
 		sprite "ship/dels donson"
@@ -255,7 +255,7 @@ system Dels
 	object "Dels Senro"
 		sprite "ship/dels senro"
 		distance 1450
-		offset 155
+		offset 150
 	object "Dels Deeris"
 		sprite "ship/dels deeris"
 		distance 1450
@@ -263,10 +263,10 @@ system Dels
 	object "Dels Secsen"
 		sprite "ship/dels secsen"
 		distance 1450
-		offset 165
+		offset 170
 	object "Dels Darca"
 		sprite "ship/dels darca"
-		distance 1500
+		distance 1600
 		offset 240
 
 system Donko
@@ -674,7 +674,7 @@ system Erm
 		offset 40
 	object "Erm Hidersan"
 		sprite "ship/erm hidersan"
-		distance 1500
+		distance 1550
 		offset 80
 	object "Erm Ernar"
 		sprite "ship/erm ernar"
@@ -682,11 +682,11 @@ system Erm
 		offset 160
 	object "Erm Hordanler"
 		sprite "ship/erm hordanler"
-		distance 1450
+		distance 1500
 		offset 200
 	object "Erm Roekler"
 		sprite "ship/erm roekler"
-		distance 1500
+		distance 1600
 		offset 240
 
 system "Galactic War"
@@ -1717,9 +1717,9 @@ system Qoro
 	object "Qoro(M) Manta"
 		sprite "ship/qoro m manta"
 		distance 1450
-		offset 115
+		offset 110
 	object "Qoro(S) Ganoth"
-		sprite "ship/qoro m ganoth"
+		sprite "ship/qoro s ganoth"
 		distance 1450
 		offset 120
 	object "Qoro(S) Gasat"
@@ -1729,7 +1729,7 @@ system Qoro
 	object "Qoro(M) Masec"
 		sprite "ship/qoro m masec"
 		distance 1500
-		offset 200
+		offset 210
 	object "Qoro(S) Elgarel"
 		sprite "ship/qoro s elgarel"
 		distance 1450
@@ -1737,7 +1737,7 @@ system Qoro
 	object "Qoro(S) Elogarl"
 		sprite "ship/qoro s elogarl"
 		distance 1450
-		offset 200
+		offset 190
 
 system Revos
 	pos 327.311 -9931.28
@@ -2120,23 +2120,35 @@ system Ultaka
 	object "Ultaka Hunter"
 		sprite "ship/ultaka hunter"
 		distance 1450
-		offset 115
+		offset 120
 	object "Ultaka Path Maker"
 		sprite "ship/ultaka pathmaker"
-		distance 1500
+		distance 1550
 		offset 80
 	object "Ultaka Shadow Strike"
 		sprite "ship/ultaka shadow strike"
 		distance 1450
+		offset 150
+	object "Ultaka Dominator"
+		sprite "ship/ultaka dominator"
+		distance 1450
 		offset 160
+	object "Ultaka Annihilator"
+		sprite "ship/ultaka annihilator"
+		distance 1450
+		offset 170
 	object "Ultaka Conqueror"
 		sprite "ship/ultaka conqueror"
-		distance 1600
-		offset 220
+		distance 1800
+		offset 230
+	object "Ultaka Summoner"
+		sprite "ship/ultaka summoner"
+		distance 1800
+		offset 250
 	object "Ultaka Reaper"
 		sprite "ship/ultaka reaper"
-		distance 1700
-		offset 260
+		distance 2400
+		offset 240
 
 system Uoorn
 	pos 291.311 -9878.28
@@ -2406,11 +2418,11 @@ system Wallagi
 		offset 120
 	object "Wallagi Dettalor"
 		sprite "ship/wallagi dettalor"
-		distance 1450
+		distance 1500
 		offset 200
 	object "Wallagi Sentasor"
 		sprite "ship/wallagi sentasor"
-		distance 1500
+		distance 1600
 		offset 240
 
 system Xessian
@@ -3941,6 +3953,27 @@ fleet "Ultaka Hunter"
 		heroic
 	variant
 		"Ultaka Hunter"
+
+planet "Ultaka Annihilator"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ultaka Annihilator"
+	
+planet "GW Annihilator"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ultaka Annihilator"
+
+fleet "Ultaka Annihilator"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Ultaka Annihilator"
 
 planet "Ultaka Dominator"
 	government arena
