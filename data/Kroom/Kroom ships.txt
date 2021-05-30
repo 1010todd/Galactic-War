@@ -531,7 +531,7 @@ ship "Garokka"
 
 ship "Kargorko"
 	sprite "ship/kroom kargorko"
-		"frame time" 5
+		"frame time" 1
 		"delay" 40
 	thumbnail "thumbnail/kroom kargorko thumb"
 	attributes
@@ -581,22 +581,22 @@ ship "Kargorko"
 		under
 	"steering engine" -5 -29
 		zoom .5
-		angle -90
+		angle 90
 		under
 		right
 	"steering engine" 5 -29
-		zoom 1
-		angle 90
+		zoom .5
+		angle -90
 		under
 		left
 	"steering engine" -6.5 30
 		zoom 1
-		angle -90
+		angle 90
 		under
 		left
 	"steering engine" 6.5 30
 		zoom 1
-		angle 90
+		angle -90
 		under
 		right
 	explode "tiny explosion" 10
