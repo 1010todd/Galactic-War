@@ -113,8 +113,8 @@ system Aumar
 		sprite sprite/category_drone
 		distance 1200
 		offset 320
-	object "Aumar"
-		sprite "ship/ermeirae"
+	object "Aumar Gy-2"
+		sprite "ship/aumar gy2"
 		distance 1450
 		offset 40
 	object "Aumar"
@@ -252,24 +252,32 @@ system Dels
 		sprite sprite/category_drone
 		distance 1200
 		offset 320
-	object "Dels"
-		sprite "ship/ermeirae"
+	object "Dels Desen"
+		sprite "ship/dels desen"
 		distance 1450
-		offset 40
-	object "Dels"
-		sprite "ship/ermhidersan"
+		offset 35
+	object "Dels Donson"
+		sprite "ship/dels donson"
 		distance 1500
 		offset 40
-	object "Dels"
-		sprite "ship/ermernar"
+	object "Dels Manoon"
+		sprite "ship/dels manoon"
+		distance 1500
+		offset 45
+	object "Dels Senro"
+		sprite "ship/dels senro"
+		distance 1450
+		offset 155
+	object "Dels Deeris"
+		sprite "ship/dels deeris"
 		distance 1450
 		offset 160
-	object "Dels"
-		sprite "ship/ermhordanler"
+	object "Dels Secsen"
+		sprite "ship/dels secsen"
 		distance 1450
-		offset 160
-	object "Dels"
-		sprite "ship/ermroekler"
+		offset 165
+	object "Dels Darca"
+		sprite "ship/dels darca"
 		distance 1500
 		offset 240
 
@@ -901,24 +909,15 @@ system Geeva
 		sprite sprite/category_drone
 		distance 1200
 		offset 320
-	object "Geeva"
-		sprite "ship/ermeirae"
+	object "Geeva Hailika"
+		sprite "ship/geeva hailika"
 		distance 1450
-		offset 40
-	object "Geeva"
-		sprite "ship/ermhidersan"
-		distance 1500
-		offset 40
-	object "Geeva"
-		sprite "ship/ermernar"
+	object "Geeva Kinika"
+		sprite "ship/geeva kinika"
 		distance 1450
 		offset 160
-	object "Geeva"
-		sprite "ship/ermhordanler"
-		distance 1450
-		offset 160
-	object "Geeva"
-		sprite "ship/ermroekler"
+	object "Geeva Kimali"
+		sprite "ship/geeva kimali"
 		distance 1500
 		offset 240
 
@@ -931,14 +930,6 @@ system Ignaggen
 	link "Galactic War"
 	link Geeva
 	link Zorcn
-	object "Ignaggen Plugins"
-		sprite sprite/station8
-		distance 444
-		offset 90
-	object "Ignaggen Default"
-		sprite sprite/station8
-		distance 444
-		offset 270
 	object "Ignaggen"
 		sprite planet/ringworld
 		distance 812
@@ -1045,24 +1036,16 @@ system Ignaggen
 		sprite sprite/category_drone
 		distance 1200
 		offset 320
-	object "Ignaggen"
-		sprite "ship/ermeirae"
+	object "Ignaggen Koggareu"
+		sprite "ship/ignaggen koggareu"
 		distance 1450
-		offset 40
-	object "Ignaggen"
-		sprite "ship/ermhidersan"
+		offset 115
+	object "Ignaggen Gikeor"
+		sprite "ship/ignaggen gikeor"
 		distance 1500
-		offset 40
-	object "Ignaggen"
-		sprite "ship/ermernar"
-		distance 1450
-		offset 160
-	object "Ignaggen"
-		sprite "ship/ermhordanler"
-		distance 1450
-		offset 160
-	object "Ignaggen"
-		sprite "ship/ermroekler"
+		offset 120
+	object "Ignaggen I'nos"
+		sprite "ship/ignaggen inos"
 		distance 1500
 		offset 240
 
@@ -1315,24 +1298,24 @@ system Kroom
 		sprite sprite/category_drone
 		distance 1200
 		offset 320
-	object "Kroom"
-		sprite "ship/ermeirae"
+	object "Kroom Kaagor"
+		sprite "ship/kroom kaagor"
 		distance 1450
-		offset 40
-	object "Kroom"
-		sprite "ship/ermhidersan"
+		offset 35
+	object "Kroom Kargorko"
+		sprite "ship/kroom kargorko"
 		distance 1500
 		offset 40
 	object "Kroom Garokka"
-		sprite "ship/ermernar"
+		sprite "ship/kroom garokka"
 		distance 1450
 		offset 160
 	object "Kroom Grakka"
-		sprite "ship/ermhordanler"
+		sprite "ship/kroom grakka"
 		distance 1450
-		offset 160
+		offset 200
 	object "Kroom Grokva"
-		sprite "ship/ermroekler"
+		sprite "ship/kroom grokva"
 		distance 1500
 		offset 240
 
@@ -1587,26 +1570,25 @@ system Nuru
 		sprite sprite/category_drone
 		distance 1200
 		offset 320
-	object "Nuru"
-		sprite "ship/ermeirae"
+	object "Nuru Wi Wai Si"
+		sprite "ship/nuru wi wai si"
+		distance 1450
+	object "Nuru Ca Mok Si"
+		sprite "ship/nuru ca mok si"
 		distance 1450
 		offset 40
-	object "Nuru"
-		sprite "ship/ermhidersan"
-		distance 1500
-		offset 40
-	object "Nuru Ar Pu Ha"
-		sprite "ship/ermernar"
+	object "Nuru Ko Dok Sam"
+		sprite "ship/nuru ko dok sam"
+		distance 1450
+		offset 80
+	object "Nuru Ar Pu Haa"
+		sprite "ship/nuru ar pu haa"
 		distance 1450
 		offset 160
-	object "Nuru"
-		sprite "ship/ermhordanler"
+	object "Nuru Ar Da Sam"
+		sprite "ship/nuru ar da sam"
 		distance 1450
-		offset 160
-	object "Nuru"
-		sprite "ship/ermroekler"
-		distance 1500
-		offset 240
+		offset 120
 
 system "Omnis"
 	add link "Galactic War"
@@ -2011,11 +1993,11 @@ system Taroun
 		distance 1450
 		offset 160
 	object "Taroun Oresu"
-		sprite "ship/ermhordanler"
+		sprite "ship/taroun oresu"
 		distance 1450
 		offset 160
 	object "Taroun Eroun"
-		sprite "ship/ermroekler"
+		sprite "ship/taroun eroun"
 		distance 1500
 		offset 240
 
@@ -2145,14 +2127,14 @@ system Ultaka
 		sprite "ship/ultaka shadow strike"
 		distance 1450
 		offset 160
-	object "Ultaka"
-		sprite "ship/ermhordanler"
-		distance 1450
-		offset 180
+	object "Ultaka Conqueror"
+		sprite "ship/ultaka conqueror"
+		distance 1600
+		offset 220
 	object "Ultaka Reaper"
 		sprite "ship/ultaka reaper"
-		distance 1500
-		offset 240
+		distance 1700
+		offset 260
 
 system Uoorn
 	pos 291.311 -9878.28
@@ -2694,7 +2676,11 @@ system Zis
 	object "ZIS Eaxes"
 		sprite "ship/zis eaxes"
 		distance 1800
-		offset 240
+		offset 220
+	object "ZIS Karloz"
+		sprite "ship/zis karloz"
+		distance 1800
+		offset 280
 
 system Zorcn
 	pos 73.3109 -9807.28
@@ -3040,6 +3026,287 @@ planet "Zorcn"
 #===============================Tribute+Fleets 
 # Note: "GW" Prefix is for selecting ships to be used at Galactic War system to avoid wormholes.
 
+#================================Dels
+
+planet "Dels Darca"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Dels Darca"
+
+planet "GW Darca"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Dels Darca"
+
+fleet "Dels Darca"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Dels Darca"
+
+planet "Dels Deeris"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Dels Deeris"
+
+planet "GW Deeris"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Dels Deeris"
+
+fleet "Dels Deeris"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Dels Deeris"
+
+planet "Dels Desen"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Dels Desen"
+
+planet "GW Desen"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Dels Desen"
+
+fleet "Dels Desen"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Dels Desen"
+
+planet "Dels Donson"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Dels Donson"
+
+planet "GW Donson"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Dels Donson"
+
+fleet "Dels Donson"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Dels Donson"
+
+planet "Dels Secsen"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Dels Secsen"
+
+planet "GW Secsen"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Dels Secsen"
+
+fleet "Dels Secsen"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Dels Secsen"
+
+planet "Dels Senro"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Dels Senro"
+
+planet "GW Senro"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Dels Senro"
+
+fleet "Dels Senro"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Dels Senro"
+
+#================================Geeva
+
+planet "Geeva Hailika"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Geeva Hailika"
+
+planet "GW Hailika"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Geeva Hailika"
+
+fleet "Geeva Hailika"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Hailika"
+
+planet "Geeva Kinika"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Geeva Kinika"
+
+planet "GW Kinika"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Geeva Kinika"
+
+fleet "Geeva Kinika"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Kinika"
+
+planet "Geeva Kimali"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Geeva Kimali"
+
+planet "GW Kimali"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Geeva Kimali"
+
+fleet "Geeva Kimali"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Kimali"
+
+#================================Ignaggen
+planet "Ignaggen Gikeor"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ignaggen Gikeor"
+
+planet "GW Gikeor"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ignaggen Gikeor"
+
+fleet "Ignaggen Gikeor"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Gikeor"
+		
+planet "Ignaggen Koggareu"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ignaggen Koggareu"
+
+planet "GW Koggareu"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ignaggen Koggareu"
+
+fleet "Ignaggen Koggareu"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Koggareu"
+
+#================================Nuru
+
+planet "Nuru Ar Pu Haa"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Nuru Ar Pu Haa"
+
+planet "GW Ar Pu Haa"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Nuru Ar Pu Haa"
+
+fleet "Nuru Ar Pu Haa"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Ar Pu Haa"
+
+planet "Nuru Ar Da Sam"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Nuru Ar Da Sam"
+
+planet "GW Ar Da Sam"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Nuru Ar Da Sam"
+
+fleet "Nuru Ar Da Sam"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Ar Da Sam"
+#================================Taroun
+
 planet "Taroun Oresu"
 	government arena
 	bribe 0
@@ -3081,6 +3348,8 @@ fleet "Taroun Eroun"
 		heroic
 	variant
 		"Taroun Eroun"
+
+#================================Ultaka
 
 planet "Ultaka Hunter"
 	government arena
@@ -3166,7 +3435,31 @@ fleet "Ultaka Summoner"
 	variant
 		"Ultaka Summoner"
 		"Ultaka Termite" 12
+
+planet "Ultaka Reaper"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ultaka Reaper"
 		
+planet "GW Reaper"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ultaka Reaper"
+
+fleet "Ultaka Reaper"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Ultaka Reaper"
+		"Ultaka Termite" 12
+		
+#================================Wallagi
+
 planet "Wallagi Telsarator"
 	government arena
 	bribe 0
@@ -3251,6 +3544,8 @@ fleet "Wallagi Talselar"
 	variant
 		"Talselar"
 
+#================================Zis
+
 planet "ZIS Eaxes"
 	government arena
 	bribe 0
@@ -3271,3 +3566,215 @@ fleet "ZIS Eaxes"
 		heroic
 	variant
 		"ZN-7681 Eaxes"
+
+planet "ZIS Karloz"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "ZIS Karloz"
+		
+planet "GW Karloz"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "ZIS Karloz"
+		
+fleet "ZIS Karloz"
+	government "arena"
+	personality
+		heroic
+	variant
+		"ZM-5422 Karloz"
+
+planet "ZIS Kazai"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "ZIS Kazai"
+		
+planet "GW Kazai"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "ZIS Kazai"
+		
+fleet "ZIS Kazai"
+	government "arena"
+	personality
+		heroic
+	variant
+		"BX-3826 Kazai"
+
+planet "ZIS Razor"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "ZIS Razor"
+		
+planet "GW Razor"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "ZIS Razor"
+		
+fleet "ZIS Kazai"
+	government "arena"
+	personality
+		heroic
+	variant
+		"RZ-621-02 Razor"
+
+planet "ZIS Sysor"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "ZIS Sysor"
+		
+planet "GW Sysor"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "ZIS Sysor"
+		
+fleet "ZIS Sysor"
+	government "arena"
+	personality
+		heroic
+	variant
+		"SY-8662 Sysor"
+
+#===========================Zorcn
+
+planet "Zorcn Barsten"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Zorcn Barsten"
+		
+planet "GW Barsten"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Zorcn Barsten"
+		
+fleet "Zorcn Barsten"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Zorcn Barsten"
+
+planet "Zorcn Bermas"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Zorcn Bermas"
+		
+planet "GW Bermas"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Zorcn Bermas"
+		
+fleet "Zorcn Bermas"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Zorcn Bermas"
+
+planet "Zorcn Genex"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Zorcn Genex"
+		
+planet "GW Genex"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Zorcn Genex"
+		
+fleet "Zorcn Genex"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Zorcn Genex"
+
+planet "Zorcn Inckv"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Zorcn Inckv"
+		
+planet "GW Inckv"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Zorcn Inckv"
+		
+fleet "Zorcn Inckv"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Zorcn Inckv"
+
+planet "Zorcn Vixta"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Zorcn Vixta"
+		
+planet "GW Vixta"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Zorcn Vixta"
+		
+fleet "Zorcn Vixta"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Zorcn Vixta"
+
+planet "Zorcn Vorrix"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Zorcn Vorrix"
+		
+planet "GW Vorrix"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Zorcn Vorrix"
+		
+fleet "Zorcn Vorrix"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Zorcn Vorrix"
