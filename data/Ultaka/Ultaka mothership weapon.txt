@@ -1,6 +1,7 @@
 ship "SSm10"
 	attributes
-		"hull" 500
+		category "Drone"
+		"hull" 50000
 		"automaton" 1
 		"mass" 10
 		"drag" 1
@@ -21,6 +22,7 @@ ship "SSm10"
 	engine -17 35
 	engine 17 35
 	turret 0 0 "SSm10 Turret"
+	description "SSm10 Turret representation of a planet-based gun"
 	
 outfit "SSm10 Turret"
 	category "Turrets"
@@ -50,6 +52,7 @@ outfit "SSm10 Turret"
 		"burst reload" 15
 		"burst count" 30
 		"cluster"
+	description "Ultaka mothership turret."
 		
 fleet "Ultaka mothership weapon"
 	government "Ultaka"
