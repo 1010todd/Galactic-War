@@ -127,11 +127,11 @@ outfit "Varsrel Drone"
 outfit "Varsrel Drone Storage"
 	category "Ammunition"
 	cost 33000
-	thumbnail "outfit/tehru varsrel Storage"
+	thumbnail "outfit/tehru varsrel storage"
 	"mass" 4
 	"outfit space" 10
 	"varsrel capacity" 30
-	description "Varsrel drone for launching with Varsrel drone launcher."
+	description "Varsrel drone storage for launching with Varsrel drone launcher."
 
 outfit "Varsrel Drone Launcher"
 	category "Guns"
@@ -317,14 +317,14 @@ effect "illar am"
 #=========================Power=======================
 outfit "Apirval Generator"
 	category "Power"
-	cost 6200000
+	cost 3200000
 	thumbnail "outfit/tehru reactor"
 	"mass" 21
 	"outfit space" -21
 	"energy generation" 4.5
 	"heat generation" 6
 	"energy capacity" 2400
-	description "."
+	description "A small Tehru reactor, unlike the bigger reactors its effect on the shields is unnoticeable."
 	
 
 outfit "Etlnak Reactor"
@@ -347,9 +347,9 @@ outfit "Rivkrtelr Reactor"
 	"outfit space" -114
 	"energy generation" 21
 	"heat generation" 47
-	"shield protection" -.2
+	"shield protection" -.3
 	"energy capacity" 12000
-	description ""
+	description "Large Tehru reactor."
 	
 #=========================Shield======================
 outfit "Ainvus Shield Generator"
@@ -361,7 +361,7 @@ outfit "Ainvus Shield Generator"
 	"shield generation" .41
 	"shield energy" .47
 	"shield heat" .35
-	description ""
+	description "Tiny Tehru shield generator"
 	
 outfit "Epir Shield Generator"
 	category "Systems"
@@ -372,7 +372,7 @@ outfit "Epir Shield Generator"
 	"shield generation" 1
 	"shield energy" 1.5
 	"shield heat" .68
-	description ""
+	description "Small Tehru shield generator"
 	
 outfit "Jukir Shield Generator"
 	category "Systems"
@@ -383,7 +383,7 @@ outfit "Jukir Shield Generator"
 	"shield generation" 2.8
 	"shield energy" 3.2
 	"shield heat" 1.5
-	description ""
+	description "Medium Tehru shield generator"
 	
 outfit "Pivura Shield Generator"
 	category "Systems"
@@ -394,7 +394,7 @@ outfit "Pivura Shield Generator"
 	"shield generation" 5.8
 	"shield energy" 6.1
 	"shield heat" 2.6
-	description ""
+	description "Large Tehru shield generator"
 	
 #===============================Engines==================
 outfit "Akonu Thruster"
@@ -410,7 +410,7 @@ outfit "Akonu Thruster"
 	"flare sprite" "effect/atomic flare/tiny"
 		"frame rate" 14
 	"flare sound" "atomic tiny"
-	description ""
+	description "tiny Tehru thruster"
 	
 outfit "Ahura Thruster"
 	category "Engines"
@@ -425,7 +425,7 @@ outfit "Ahura Thruster"
 	"flare sprite" "effect/atomic flare/small"
 		"frame rate" 13
 	"flare sound" "atomic small"
-	description ""
+	description "small Tehru thruster"
 	
 outfit "Fokhun Thruster"
 	category "Engines"
@@ -440,7 +440,7 @@ outfit "Fokhun Thruster"
 	"flare sprite" "effect/atomic flare/medium"
 		"frame rate" 12
 	"flare sound" "atomic medium"
-	description ""
+	description "medium Tehru thruster"
 	
 outfit "Ivtorne Thruster"
 	category "Engines"
@@ -455,7 +455,7 @@ outfit "Ivtorne Thruster"
 	"flare sprite" "effect/atomic flare/large"
 		"frame rate" 11
 	"flare sound" "atomic large"
-	description ""
+	description "large Tehru thruster"
 	
 outfit "Urhas Thruster"
 	category "Engines"
@@ -470,7 +470,7 @@ outfit "Urhas Thruster"
 	"flare sprite" "effect/atomic flare/huge"
 		"frame rate" 10
 	"flare sound" "atomic huge"
-	description ""
+	description "huge Tehru thruster"
 
 outfit "Akonu Steering"
 	category "Engines"
