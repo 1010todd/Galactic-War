@@ -186,20 +186,24 @@ outfit "Y2 Coran Gun"
 	"spinal mount" -1
 	weapon
 		sprite "projectile/marley"
-		sound "gw energylauncer"
+		sound "utvr40 fire"
 		ammo "Nurbote" 1 #//Placeholder, but that's the concept(To fire these crystal) #thinking again, might be a bad idea, idk
 		icon "icon/hasus"
-		"fire effect" "ion impact" 3
+		"fire effect" "masai fire" 3
+		"live effect" "rail sparks" 50
 		"hit effect" "skylance impact"
+		"hit effect" "masai fire" 3
 		"inaccuracy" .1
 		"velocity" 25
-		"lifetime" 20
+		"lifetime" 400
 		"reload" 60
 		"firing energy" 3300
 		"firing heat" 11
-		"shield damage" 6000
-		"hull damage" 2880
-		"piercing" .4
+		"firing force" 100
+		"shield damage" 6500
+		"hull damage" 5880
+		"piercing" 1.5
+		"disruption damage" 200
 		
 outfit "Barmott Anti-Missile" #used to be Donko Anti-Missile
 	category "Turrets"
@@ -229,7 +233,7 @@ outfit "Citorn Anti-Missile"
 	weapon
 		"hit effect" "donko anti-missile"
 		ammo "Nurbote" 1 #Todo, give it proper ammo
-		"anti-missile" 88
+		"anti-missile" 350
 		"velocity" 400
 		"lifetime" 1
 		"reload" 45
@@ -253,6 +257,7 @@ outfit "ORK6 Shield Generator"
 	"shield generation" 12.4
 	"shield energy" 12
 	"shield delay" 4
+	description "Donko Shield generator"
 	
 outfit "ORK5 Shield Generator"
 	category "Systems"
@@ -263,6 +268,7 @@ outfit "ORK5 Shield Generator"
 	"shield generation" 9.6
 	"shield energy" 9.2
 	"shield delay" 4
+	description "Donko Shield generator"
 	
 outfit "ORK4 Shield Generator"
 	category "Systems"
@@ -273,6 +279,7 @@ outfit "ORK4 Shield Generator"
 	"shield generation" 6.6
 	"shield energy" 6.3
 	"shield delay" 3
+	description "Donko Shield generator"
 	
 outfit "ORK2 Shield Generator"
 	category "Systems"
@@ -283,6 +290,7 @@ outfit "ORK2 Shield Generator"
 	"shield generation" 4.8
 	"shield energy" 4.6
 	"shield delay" 2
+	description "Donko Shield generator"
 	
 outfit "ORK1 Shield Generator"
 	category "Systems"
@@ -293,6 +301,7 @@ outfit "ORK1 Shield Generator"
 	"shield generation" 2.6
 	"shield energy" 2.6
 	"shield delay" 1
+	description "Donko Shield generator"
 
 outfit "DIT6 Thruster"
 	category "Engines"
@@ -302,11 +311,15 @@ outfit "DIT6 Thruster"
 	"outfit space" -70
 	"engine capacity" -70
 	"thrust" 105
-	"thrusting energy" 60
-	"thrusting heat" 45
+	"thrusting energy" 6.1
+	"thrusting heat" 10
+	"energy consumption" 2
+	"heat generation" 2
 	"flare sprite" "effect/atomic flare/huge"
-		"frame rate" 1
+		"frame rate" .6
 	"flare sound" "ion huge"
+	description "Current the largest thruster Donko make."
+	description "Donko DIT-series engines requires energy to maintain its ready-to-fire state."
 	
 outfit "DIT6 Steering"
 	category "Engines"
@@ -316,8 +329,14 @@ outfit "DIT6 Steering"
 	"outfit space" -100
 	"engine capacity" -100
 	"turn" 2200
-	"turning energy" 64
-	"turning heat" 53
+	"turning energy" 3
+	"turning heat" 4.6
+	"energy consumption" 1.2
+	"heat generation" 1.2
+	"steering flare sprite" "effect/atomic flare/huge"
+		"frame rate" .6
+	description "Largest Donko Steering."
+	description "Donko DIT-series engines requires energy to maintain its ready-to-fire state."
 	
 outfit "DIT5 Thruster"
 	category "Engines"
@@ -327,11 +346,15 @@ outfit "DIT5 Thruster"
 	"outfit space" -55
 	"engine capacity" -55
 	"thrust" 90
-	"thrusting energy" 53
-	"thrusting heat" 36
+	"thrusting energy" 5.3
+	"thrusting heat" 8.3
+	"energy consumption" 1.7
+	"heat generation" 1.7
 	"flare sprite" "effect/atomic flare/large"
-		"frame rate" 1
+		"frame rate" .8
 	"flare sound" "ion large"
+	description "Large Donko thruster."
+	description "Donko DIT-series engines requires energy to maintain its ready-to-fire state."
 	
 outfit "DIT5 Steering"
 	category "Engines"
@@ -341,8 +364,14 @@ outfit "DIT5 Steering"
 	"outfit space" -60
 	"engine capacity" -60
 	"turn" 1210
-	"turning energy" 52
-	"turning heat" 48
+	"turning energy" 2.8
+	"turning heat" 4.6
+	"energy consumption" .8
+	"heat generation" .8
+	"steering flare sprite" "effect/atomic flare/large"
+		"frame rate" .8
+	description "Large Donko Steering."
+	description "Donko DIT-series engines requires energy to maintain its ready-to-fire state."
 	
 outfit "DIT4 Thruster"
 	category "Engines"
@@ -352,11 +381,15 @@ outfit "DIT4 Thruster"
 	"outfit space" -40
 	"engine capacity" -40
 	"thrust" 67
-	"thrusting energy" 45
-	"thrusting heat" 32
+	"thrusting energy" 2.1
+	"thrusting heat" 3.8
+	"energy consumption" 1.2
+	"heat generation" 1.2
 	"flare sprite" "effect/atomic flare/medium"
 		"frame rate" 1
 	"flare sound" "ion medium"
+	description "Medium-sized Donko thruster."
+	description "Donko DIT-series engines requires energy to maintain its ready-to-fire state."
 	
 outfit "DIT4 Steering"
 	category "Engines"
@@ -366,8 +399,14 @@ outfit "DIT4 Steering"
 	"outfit space" -50
 	"engine capacity" -50
 	"turn" 890
-	"turning energy" 43
-	"turning heat" 36
+	"turning energy" 1.2
+	"turning heat" 2.2
+	"energy consumption" .65
+	"heat generation" .65
+	"steering flare sprite" "effect/atomic flare/medium"
+		"frame rate" 1
+	description "Medium Donko Steering."
+	description "Donko DIT-series engines requires energy to maintain its ready-to-fire state."
 	
 outfit "DIT3 Thruster"
 	category "Engines"
@@ -377,11 +416,15 @@ outfit "DIT3 Thruster"
 	"outfit space" -23
 	"engine capacity" -23
 	"thrust" 18.9
-	"thrusting energy" 33
-	"thrusting heat" 26
+	"thrusting energy" 1.9
+	"thrusting heat" 3.2
+	"energy consumption" 1
+	"heat generation" 1
 	"flare sprite" "effect/atomic flare/small"
-		"frame rate" 1.5
+		"frame rate" 1.2
 	"flare sound" "ion small"
+	description "Small Donko thruster."
+	description "Donko DIT-series engines requires energy to maintain its ready-to-fire state."
 	
 outfit "DIT3 Steering"
 	category "Engines"
@@ -391,8 +434,14 @@ outfit "DIT3 Steering"
 	"outfit space" -30
 	"engine capacity" -30
 	"turn" 552
-	"turning energy" 26
-	"turning heat" 22
+	"turning energy" .82
+	"turning heat" 1.6
+	"energy consumption" .5
+	"heat generation" .5
+	"steering flare sprite" "effect/atomic flare/small"
+		"frame rate" 1.2
+	description "Small Donko Steering."
+	description "Donko DIT-series engines requires energy to maintain its ready-to-fire state."
 	
 outfit "DIT2 Thruster"
 	category "Engines"
@@ -402,11 +451,15 @@ outfit "DIT2 Thruster"
 	"outfit space" -23
 	"engine capacity" -23
 	"thrust" 10.4
-	"thrusting energy" 25
-	"thrusting heat" 18
+	"thrusting energy" 1
+	"thrusting heat" 1.7
+	"energy consumption" .7
+	"heat generation" .7
 	"flare sprite" "effect/atomic flare/small"
-		"frame rate" 1.5
+		"frame rate" 1.4
 	"flare sound" "ion small"
+	description "Smaller Donko thruster."
+	description "Donko DIT-series engines requires energy to maintain its ready-to-fire state."
 	
 outfit "DIT2 Steering"
 	category "Engines"
@@ -416,8 +469,14 @@ outfit "DIT2 Steering"
 	"outfit space" -15
 	"engine capacity" -15
 	"turn" 350
-	"turning energy" 18
-	"turning heat" 16
+	"turning energy" .5
+	"turning heat" .8
+	"energy consumption" .4
+	"heat generation" .4
+	"steering flare sprite" "effect/atomic flare/small"
+		"frame rate" 1.4
+	description "Smaller Donko Steering."
+	description "Donko DIT-series engines requires energy to maintain its ready-to-fire state."
 	
 outfit "DIT1 Thruster"
 	category "Engines"
@@ -427,11 +486,15 @@ outfit "DIT1 Thruster"
 	"outfit space" -14
 	"engine capacity" -14
 	"thrust" 5.6
-	"thrusting energy" 14
-	"thrusting heat" 9
+	"thrusting energy" .6
+	"thrusting heat" 1.2
+	"energy consumption" .5
+	"heat generation" .5
 	"flare sprite" "effect/atomic flare/tiny"
 		"frame rate" 1.5
 	"flare sound" "ion tiny"
+	description "Smallest Donko thruster."
+	description "Donko DIT-series engines requires energy to maintain its ready-to-fire state."
 	
 outfit "DIT1 Steering"
 	category "Engines"
@@ -441,8 +504,14 @@ outfit "DIT1 Steering"
 	"outfit space" -10
 	"engine capacity" -10
 	"turn" 170
-	"turning energy" 9
-	"turning heat" 7
+	"turning energy" .3
+	"turning heat" .6
+	"energy consumption" .3
+	"heat generation" .3
+	"steering flare sprite" "effect/atomic flare/tiny"
+		"frame rate" 1.5
+	description "Smallest Donko Steering."
+	description "Donko DIT-series engines requires energy to maintain its ready-to-fire state."
 	
 outfit "Donko Hyperdrive"
 	category "Systems"
