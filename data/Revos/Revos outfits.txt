@@ -22,6 +22,7 @@ outfit "Kechon Beam"
 		"shield damage" 7
 		"hull damage" 10 
 		"ion damage" .5
+	description "Revos primary beam weapon, commonly found on most Revos ships."
 		
 outfit "Botavu Turret"
 	category "Turrets"
@@ -44,6 +45,7 @@ outfit "Botavu Turret"
 		"firing heat" .1
 		"ion damage" .5
 		"stream"
+	description "Revos long range weapon."
 		
 outfit "rvs botavu1"
 	weapon
@@ -170,6 +172,7 @@ outfit "Anor Missile"
 		"homing" 3
 		"optical tracking" 1
 		"missile strength" 600
+	description "Revos energy-based homing projectile."
 
 outfit "Vubeto Anti-Missile"
 	category "Turrets"
@@ -187,6 +190,7 @@ outfit "Vubeto Anti-Missile"
 		"lifetime" 1
 		"reload" 2.5
 		"firing energy" .1
+	description "Revos Anti-Missile."
 	
 effect "rvs anti-missile"
 	sprite "effect/quarg anti missile"
@@ -206,6 +210,7 @@ outfit "Mudor-ki Shield Generator" #MQ
 	"cooling inefficiency" 30
 	"shield energy" 13
 	"heat generation" 6
+	description "Revos Shield Generator."
 	
 outfit "Ipordine-type Core" #MAM-core
 	category "Systems"
@@ -274,6 +279,7 @@ outfit "Oidor Type-1 Engines" #IO
 	"flare sprite" "effect/ion flare/tiny"
 		"frame rate" 1.2
 	"flare sound" "ion tiny"
+	description "Revos engines."
 	
 outfit "Oidor Type-2 Engines" #IO2
 	category "Engines"
@@ -291,3 +297,4 @@ outfit "Oidor Type-2 Engines" #IO2
 	"flare sprite" "effect/ion flare/small"
 		"frame rate" 1.2
 	"flare sound" "ion small"
+	description "Revos slgihtly bigger engines."

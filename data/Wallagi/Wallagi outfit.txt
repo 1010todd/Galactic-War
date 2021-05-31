@@ -8,6 +8,7 @@ outfit "Asenil Shield Generator" #Wasen
 	"outfit space" -11
 	"shield generation" 1
 	"shield energy" 1
+	description "Wallagi tiny shield generator for fighters."
 	
 outfit "Filkei Shield Generator"
 	category "Systems"
@@ -17,6 +18,7 @@ outfit "Filkei Shield Generator"
 	"outfit space" -24
 	"shield generation" 2.1
 	"shield energy" 2
+	description "Wallagi small shield generator."
 	
 outfit "Lestur Shield Generator"
 	category "Systems"
@@ -26,6 +28,7 @@ outfit "Lestur Shield Generator"
 	"outfit space" -56
 	"shield generation" 4.6
 	"shield energy" 4.3
+	description "Wallagi medium shield generator."
 	
 outfit "Sestar Shield Generator"
 	category "Systems"
@@ -35,6 +38,7 @@ outfit "Sestar Shield Generator"
 	"outfit space" -104
 	"shield generation" 6.3
 	"shield energy" 5.7
+	description "Wallagi large shield generator."
 	
 outfit "Tensel Shield Generator"
 	category "Systems"
@@ -44,6 +48,7 @@ outfit "Tensel Shield Generator"
 	"outfit space" -130
 	"shield generation" 11.5
 	"shield energy" 10.4
+	description "Wallagi huge shield generator."
 	
 outfit "Yalgos Shield Generator" #Malgos
 	category "Systems"
@@ -53,6 +58,7 @@ outfit "Yalgos Shield Generator" #Malgos
 	"outfit space" -220
 	"shield generation" 21.2
 	"shield energy" 20
+	description "Wallagi massive shield generator found only on the biggest ships."
 	
 outfit "C10-W Hinlar Core"
 	category "Power"
@@ -168,13 +174,15 @@ outfit "Kal-10 Engines"
 	
 outfit "Ulyukar Heat Control"
 	category "Systems"
-	cost 600000
+	cost 3600000
 	thumbnail "outfit/unknown"
 	mass 15
 	"outfit space" -15
 	"cooling" 12
-	"active cooling" 42
-	"cooling energy" 3
+	"active cooling" 10
+	"cooling energy" 8
+	"heat protection" 2
+	"description" "Wallagi small heat controlling system. Aside from ability to increase cooling as it gets hotter, it also provides some protection against external heat sources from enemy fire."
 	
 #Anti- missile
 	
@@ -188,15 +196,15 @@ outfit "Cilhr Anti-missile" #sach #Primary AM
 	"turret mounts" -1
 	weapon
 		"fire effect" "particle impact"
-		sound "energy1"
-		"anti-missile" 6
+		sound "gw energy1"
+		"anti-missile" 60
 		"turret turn" 14
 		"velocity" 200
 		"lifetime" 1
 		"reload" 3
 		"firing energy" 1
 		"firing heat" 1
-	description ""
+	description "Wallagi primary anti missile"
 	
 outfit "Eilgur Anti-missile" #For later use
 	category "Turrets"
@@ -208,15 +216,15 @@ outfit "Eilgur Anti-missile" #For later use
 	"turret mounts" -1
 	weapon
 		"fire effect" "particle impact"
-		sound "energy1"
-		"anti-missile" 30
+		sound "gw energy1"
+		"anti-missile" 90
 		"turret turn" 14
 		"velocity" 200
 		"lifetime" 1
-		"reload" 5
-		"firing energy" 1
-		"firing heat" 1
-	description ""
+		"reload" 12
+		"firing energy" 5
+		"firing heat" 5
+	description "Wallagi improved anti missile."
 	
 outfit "Jestar Anti-missile"
 	category "Turrets"
@@ -236,7 +244,7 @@ outfit "Jestar Anti-missile"
 		"reload" 7.5
 		"firing energy" 8
 		"firing heat" 8
-	description ""
+	description "Wallagi large anti missile."
 	
 outfit "Kemper Missile Defense"
 	category "Turrets"
@@ -255,7 +263,7 @@ outfit "Kemper Missile Defense"
 		"reload" 1
 		"firing energy" 12
 		"firing heat" 12
-	description ""
+	description "Wallagi long range anti missile system."
 	
 #=======================WEapons
 	

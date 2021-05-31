@@ -8,7 +8,7 @@ outfit "GSa05Gp-02 Shielding" #FT-1S
 	"outfit space" -5
 	"shield generation" 15
 	"shield energy" 12
-	description "."
+	description "Zis tiny shielding for fighters."
 	
 outfit "GSa20Gp-02 Shielding" #LW-1S
 	category "Systems"
@@ -18,7 +18,7 @@ outfit "GSa20Gp-02 Shielding" #LW-1S
 	"outfit space" -20
 	"shield generation" 50
 	"shield energy" 45
-	description ""
+	description "Zis small shielding."
 	
 outfit "GSa30Gp-02 Shielding" #MW-1S 
 	category "Systems"
@@ -28,7 +28,7 @@ outfit "GSa30Gp-02 Shielding" #MW-1S
 	"outfit space" -30
 	"shield generation" 64
 	"shield energy" 55
-	description ""
+	description "Zis medium shielding."
 	
 outfit "GSa41Gp-02 Shielding" #MW-4S
 	category "Systems"
@@ -38,7 +38,7 @@ outfit "GSa41Gp-02 Shielding" #MW-4S
 	"outfit space" -41
 	"shield generation" 70
 	"shield energy" 65
-	description ""
+	description "Zis larger medium-sized shielding."
 	
 outfit "GSa62Gp-02 Shielding" #HW-1S
 	category "Systems"
@@ -48,7 +48,7 @@ outfit "GSa62Gp-02 Shielding" #HW-1S
 	"outfit space" -62
 	"shield generation" 90
 	"shield energy" 85
-	description ""
+	description "Zis large shielding system."
 
 outfit "GSb14Gp-02 Shielding"
 	category "Systems"
@@ -58,7 +58,7 @@ outfit "GSb14Gp-02 Shielding"
 	"outfit space" -145
 	"shield generation" 210
 	"shield energy" 200
-	description ""
+	description "Zis Huge shielding system."
 	
 outfit "GHa05Gp-02 Hull Repair" #FT-1H
 	category "Systems"
@@ -68,7 +68,7 @@ outfit "GHa05Gp-02 Hull Repair" #FT-1H
 	"outfit space" -5
 	"hull repair rate" 24
 	"hull energy" 24
-	description ""
+	description "Zis tiny hull repair system for fighters."
 	
 outfit "GHa20Gp-02 Hull Repair" #LW-1H
 	category "Systems"
@@ -78,7 +78,7 @@ outfit "GHa20Gp-02 Hull Repair" #LW-1H
 	"outfit space" -20
 	"hull repair rate" 94
 	"hull energy" 93
-	description ""
+	description "Zis small hull repair for larger fighters."
 	
 outfit "GHa28Gp-02 Hull Repair" #MW-1H 
 	category "Systems"
@@ -88,7 +88,7 @@ outfit "GHa28Gp-02 Hull Repair" #MW-1H
 	"outfit space" -28
 	"hull repair rate" 110
 	"hull energy" 105
-	description ""
+	description "Zis small hull repair for small warships."
 	
 outfit "GHa43Gp-02 Hull Repair" #MW-1H 
 	category "Systems"
@@ -98,7 +98,7 @@ outfit "GHa43Gp-02 Hull Repair" #MW-1H
 	"outfit space" -43
 	"hull repair rate" 163
 	"hull energy" 155
-	description ""
+	description "Zis hull repair."
 
 outfit "GHa60Gp-02 Hull Repair" #HW-1H
 	category "Systems"
@@ -108,7 +108,7 @@ outfit "GHa60Gp-02 Hull Repair" #HW-1H
 	"outfit space" -60
 	"hull repair rate" 282
 	"hull energy" 265
-	description ""
+	description "Zis big hull repair"
 
 outfit "GHb12Gp-02 Hull Repair"
 	category "Systems"
@@ -118,7 +118,7 @@ outfit "GHb12Gp-02 Hull Repair"
 	"outfit space" -120
 	"hull repair rate" 612
 	"hull energy" 542
-	description ""
+	description "Zis huge hull repair"
 	
 outfit "EPa20Cx-01 Generator" #FT-1 Reactor
 	category "Power"
@@ -129,7 +129,7 @@ outfit "EPa20Cx-01 Generator" #FT-1 Reactor
 	"energy generation" 20
 	"heat generation" 10
 	"energy capacity" 1000
-	description ""
+	description "Zis power generator, comes with built-in capacitors."
 	
 outfit "EPa20Gx-02 Generator" #FT-2 Reactor
 	category "Power"
@@ -139,7 +139,7 @@ outfit "EPa20Gx-02 Generator" #FT-2 Reactor
 	"outfit space" -20
 	"energy generation" 25
 	"heat generation" 14
-	description ""
+	description "Zis power generator, tuned for higher output."
 	
 outfit "EPa60Cx-01 Generator" #LW-2 Reactor
 	category "Power"
@@ -150,7 +150,17 @@ outfit "EPa60Cx-01 Generator" #LW-2 Reactor
 	"energy generation" 67
 	"heat generation" 30
 	"energy capacity" 3000
-	description ""
+	description "Zis medium power generator with built-in capacitors."
+
+outfit "EPa60Gx-01 Generator" #LW-2 Reactor
+	category "Power"
+	cost 12000000
+	thumbnail "outfit/unknown"
+	"mass" 60
+	"outfit space" -60
+	"energy generation" 73
+	"heat generation" 38
+	description "Zis medium power generator tuned for higher output."
 	
 outfit "EPa90Cx-01 Generator" #MW-1 Reactor
 	category "Power"
@@ -161,7 +171,7 @@ outfit "EPa90Cx-01 Generator" #MW-1 Reactor
 	"energy generation" 100
 	"heat generation" 42
 	"energy capacity" 6000
-	description ""
+	description "Zis large power generator."
 	
 outfit "EPa90Gx-02 Generator" #MW-2 Reactor
 	category "Power"
@@ -171,7 +181,7 @@ outfit "EPa90Gx-02 Generator" #MW-2 Reactor
 	"outfit space" -90
 	"energy generation" 130
 	"heat generation" 50
-	description ""
+	description "Zis large power generator."
 	
 outfit "EPb12Gx-01 Generator" #HW-1 Reactor
 	category "Power"
@@ -181,7 +191,7 @@ outfit "EPb12Gx-01 Generator" #HW-1 Reactor
 	"outfit space" -120
 	"energy generation" 240
 	"heat generation" 66
-	description ""
+	description "Zis huge power generator"
 	
 outfit "EPb12Cx-04 Generator" #HW-4 Reactor
 	category "Power"
@@ -192,7 +202,7 @@ outfit "EPb12Cx-04 Generator" #HW-4 Reactor
 	"energy generation" 184
 	"heat generation" 61
 	"energy capacity" 200000
-	description ""
+	description "Zis huge power generator"
 
 outfit "ESa05Gt-05 Battery" #A1
 	category "Power"
@@ -203,7 +213,7 @@ outfit "ESa05Gt-05 Battery" #A1
 	"energy capacity" 5000
 	"ion protection" 1000
 	"energy protection" 1000
-	description ""
+	description "Zis dedicated battery. Provides protection against loss of energy."
 
 outfit "ESa12Gt-05 Battery" 
 	category "Power"
@@ -214,7 +224,7 @@ outfit "ESa12Gt-05 Battery"
 	"energy capacity" 12000
 	"ion protection" 1000
 	"energy protection" 1000
-	description ""
+	description "Zis dedicated battery. Provides protection against loss of energy."
 
 #========================================Engines========================
 
@@ -238,8 +248,8 @@ outfit "MPa20Sb-04 Engines" #Nitro-Type4
 	"afterburner energy" 4
 	"afterburner heat" 8
 	"afterburner effect" "afterburner"
-	description ""
-	
+	description "Zis engine block tuned for high output and activatable speed boost(afterburner)."
+	#Todo, this variant for other engine size, also more engines.
 outfit "MPa20Gp-02 Engines" #M-10
 	category "Engines"
 	"cost" 6100000
@@ -255,7 +265,10 @@ outfit "MPa20Gp-02 Engines" #M-10
 	"thrusting heat" 0.05
 	"flare sprite" "effect/ion flare/tiny"
 		"frame rate" 1.2
-	description ""
+	"reverse thrust" 8
+	"reverse thrusting energy" 1.2
+	"reverse thrusting heat" .05
+	description "Zis standard small engine block found on fighters and other small ships alike."
 
 outfit "MPa30Gp-02 Engines" #M-20
 	category "Engines"
@@ -272,6 +285,10 @@ outfit "MPa30Gp-02 Engines" #M-20
 	"thrusting heat" 0.1
 	"flare sprite" "effect/ion flare/small"
 		"frame rate" 1.1
+	"reverse thrust" 18
+	"reverse thrusting energy" 2.3
+	"reverse thrusting heat" .1
+	description "Zis standard engine block."
 		
 		
 outfit "MPa60Gp-02 Engines" #M-80
@@ -292,6 +309,7 @@ outfit "MPa60Gp-02 Engines" #M-80
 	"reverse thrust" 70
 	"reverse thrusting energy" 12
 	"reverse thrusting heat" 20
+	description "Zis standard large engine block."
 
 outfit "MPb12Gp-02 Engines" #M-80
 	category "Engines"
@@ -311,6 +329,7 @@ outfit "MPb12Gp-02 Engines" #M-80
 	"reverse thrust" 140
 	"reverse thrusting energy" 20
 	"reverse thrusting heat" 37
+	description "Zis standard huge engine block, found on large warships."
 	
 
 outfit "Immel Cloaking System"
@@ -338,6 +357,8 @@ outfit "Zis Galactic Drive"
 	"jump out sound" "zis galactic drive out"
 	description `ZIS Galactic drive allows their force to travel the galaxy independently with ease reducing months of travel to less than a day.`
 	description `However, due to safety reason the drives are being limited to certain range for the time.`
+				#Too much Jump Range can take forever to path find for AI especially with large number of systems within range.
+				#So it's just waiting for more optimized Ai to unlock the full range, and cost.
 	
 effect "zis galactic drive"
 	sprite "effect/zis galactic drive"
@@ -359,6 +380,7 @@ outfit "ZIS Patrol Kit" #Recon Pod
 	"cargo scan speed" 5
 	"atmosphere scan" 500
 	"tactical scan power" 35
+	description "Zis standard scanners for patrolling ships."
 
 outfit "ZIS Recon Kit"
 	category "Systems"
@@ -371,8 +393,9 @@ outfit "ZIS Recon Kit"
 	"cargo scan power" 65
 	"cargo scan speed" 5
 	"atmosphere scan" 700
-	"fuel generation" 5
+	"fuel generation" 2
 	"tactical scan power" 70
+	description "More advanced package of scanners for reconaissance and fuel generation machine to prevent getting stranded."
 	
 outfit "AC-30 Assault Rifle"
 	category "Hand to Hand"
