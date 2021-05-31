@@ -133,6 +133,45 @@ outfit "J6 KED Turret"
 		"shield damage" 5300
 		"hull damage" 3200
 		"piercing" .34
+
+outfit "B3 LAR Turret"
+	category "Turrets"
+	cost 65000000
+	thumbnail "outfit/b3 lar turret"
+	mass 60
+	"outfit space" -60
+	"weapon capacity" -60
+	"turret mounts" -1
+	weapon
+		sprite "projectile/skylance"
+			"frame rate" 6
+		sound "gw blance"
+		"hit effect" "jump drive"
+		"submunition" "donko b3 lar"
+		"inaccuracy" .1
+		"turret turn" 3
+		"velocity" 500
+		"drag" .2
+		"lifetime" 1
+		"reload" 3
+		"burst count" 30
+		"burst reload" 1
+		"firing energy" 25
+		"firing heat" 40
+
+outfit "donko b3 lar"
+	weapon
+		sprite "projectile/emissile"
+			"frame rate" 3
+		"shield damage" 20
+		"hull damage" 15
+		"velocity" -450
+		"acceleration" 1
+		"drag" .3
+		"turn" 4
+		"homing" 4
+		"optical tracking" .5
+		"ion damage" 5
 		
 outfit "Hasus Missile"
 	category "Ammunition"
@@ -167,13 +206,15 @@ outfit "Hasus Launcher"
 		"acceleration" .8
 		"drag" .01
 		"turn" 4
+		"homing" 4
 		"radar tracking" .8
 		"shield damage" 880
 		"hull damage" 450
-		"piercing" .1
+		"piercing" .5
 		"hit force" 60
 		"missile strength" 60
-	description "." 
+		"phasing"
+	description "Donko Hasus missile can avoid obstructions." 
 		
 outfit "Y2 Coran Gun"
 	category "Guns"
@@ -557,7 +598,7 @@ outfit "NIA10X Core"
 	"mass" 140
 	"outfit space" -140
 	"energy generation" 65
-	"heat generation" 45
+	"heat generation" 120
 	"energy capacity" 5000
 	description "Donko's experimental power generator"
 
