@@ -1208,3 +1208,25 @@ outfit "Kuzaun Missile"
 		"missile strength" 800
 	description "."
 	description "	[Kuzaun missiles are a one-shot weapon: each missile occupies a gun slot, and after it is fired, the slot it was in is left empty.]"
+
+#=========================================Anti-Missile
+
+outfit "ZIS Anti-Missile System"
+	category "Turrets"
+	cost 40000000
+	thumbnail "outfit/unknown"
+	"mass" 5
+	"outfit space" -5
+	"weapon capacity" -5
+	"turret mounts" -1
+	"ZIS AM Lock" 1
+	weapon
+		"fire effect" "masai fire"
+		"anti-missile" 250
+		"turret turn" 20
+		"velocity" 450
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 200
+		"firing heat" 12
+	description ""
