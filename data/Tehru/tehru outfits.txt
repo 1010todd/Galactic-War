@@ -120,9 +120,9 @@ outfit "Varsrel Drone Launcher"
 	category "Guns"
 	cost 1700000
 	thumbnail "outfit/tehru varsrel"
-	mass 24
-	"outfit space" -24
-	"weapon capacity" -24
+	mass 16
+	"outfit space" -20
+	"weapon capacity" -20
 	"gun ports" -1
 	weapon
 		sprite "projectile/varsrel"
@@ -133,10 +133,11 @@ outfit "Varsrel Drone Launcher"
 		submunition "varsrel beam 1"
 		submunition "varsrel 1"
 		"inaccuracy" .1
-		"velocity" 80
+		"range override" 1200
+		"velocity" 120
 		"lifetime" 20
-		"drag" .2
-		"acceleration" .1
+		"drag" .15
+		"acceleration" 1
 		"turn" 4
 		"homing" 2
 		"radar tracking" .8
@@ -157,9 +158,9 @@ outfit "varsrel 1"
 		submunition "varsrel 2"
 		"hit effect" "small explosion"
 		"lifetime" 20
-		"drag" .2
-		"acceleration" .1
-		"turn" 4
+		"drag" .13
+		"acceleration" 1
+		"turn" 8
 		"homing" 2
 		"radar tracking" .8
 		"optical tracking" .7
@@ -183,9 +184,9 @@ outfit "varsrel 2"
 		submunition "varsrel 3"
 		"hit effect" "small explosion"
 		"lifetime" 20
-		"drag" .2
-		"acceleration" .1
-		"turn" 4
+		"drag" .1
+		"acceleration" .8
+		"turn" 10
 		"homing" 2
 		"radar tracking" .8
 		"optical tracking" .7
@@ -209,9 +210,9 @@ outfit "varsrel 3"
 		submunition "varsrel 4"
 		"hit effect" "small explosion"
 		"lifetime" 20
-		"drag" .2
-		"acceleration" .1
-		"turn" 4
+		"drag" .05
+		"acceleration" .7
+		"turn" 8
 		"homing" 2
 		"radar tracking" .8
 		"optical tracking" .7
@@ -234,9 +235,9 @@ outfit "varsrel 4"
 		submunition "varsrel beam 5"
 		"hit effect" "small explosion"
 		"lifetime" 20
-		"drag" .2
-		"acceleration" .1
-		"turn" 4
+		"drag" .01
+		"acceleration" .5
+		"turn" 6
 		"homing" 2
 		"radar tracking" .8
 		"optical tracking" .7
