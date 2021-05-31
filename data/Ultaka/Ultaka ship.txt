@@ -242,6 +242,7 @@ ship "Ultaka Summoner"
 		"engine capacity" 800
 		"radar jamming" 40
 		"scan interference" 1.5
+		"force protection" 20
 		weapon
 			"blast radius" 250
 			"shield damage" 1000
@@ -491,6 +492,7 @@ ship "Ultaka Conqueror"
 		"radar jamming" 40
 		"scan interference" 3
 		"spinal mount" 2
+		"force protection" 20
 		weapon
 			"blast radius" 250
 			"shield damage" 1000
@@ -634,7 +636,7 @@ ship "Ultaka Galactic Destroyer"
 		"hull repair rate" 50
 		"required crew" 1700
 		"bunks" 3910
-		"mass" 26600
+		"mass" 7600
 		"drag" 22.3
 		"heat dissipation" .6
 		"fuel capacity" 10000
@@ -647,7 +649,7 @@ ship "Ultaka Galactic Destroyer"
 		"scan interference" 5
 		"spinal mount" 2
 		"hull protection" 1
-		"force protection" 60
+		"force protection" 120
 		weapon
 			"blast radius" 5000
 			"shield damage" 100000
@@ -661,7 +663,7 @@ ship "Ultaka Galactic Destroyer"
 		"VR85-A anti missile" 2
 		"Ultaka Destroyer Cannon" 2
 
-		"USG200 Shield Generator" 10
+		"USG200 Shield Generator" 20
 		"B60 Ve'el Core" 5
 		"B6E Hap'al Battery" 5
 		"Ultaka Heat Shunt" 5
@@ -736,7 +738,7 @@ ship "Ultaka Reaper"
 		"hull repair rate" 12
 		"required crew" 580
 		"bunks" 1600
-		"mass" 28000
+		"mass" 4000
 		"drag" 20.3
 		"heat dissipation" .8
 		"fuel capacity" 5000
@@ -747,7 +749,7 @@ ship "Ultaka Reaper"
 		"radar jamming" 50
 		"scan interference" 23
 		"spinal mount" 2
-		"force protection" 30
+		"force protection" 60
 		weapon
 			"blast radius" 3500
 			"shield damage" 100000
@@ -759,7 +761,7 @@ ship "Ultaka Reaper"
 		"M40G Turret" 6
 		"G20E Turret" 16
 
-		"USG200 Shield Generator"
+		"USG200 Shield Generator" 4
 		"B60 Ve'el Core"
 		"B6E Hap'al Battery"
 		"Ultaka Heat Shunt" 3
