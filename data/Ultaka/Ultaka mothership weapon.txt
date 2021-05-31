@@ -24,23 +24,32 @@ ship "SSm10"
 	
 outfit "SSm10 Turret"
 	category "Turrets"
-	thumbnail "outfit/unknown"
-	"mass" 5
-	"outfit space" -5
-	"weapon capacity" -5
+	cost 1900000
+	thumbnail "outfit/ultaka g1turret"
+	"mass" 50
+	"outfit space" -50
+	"weapon capacity" -50
 	"turret mounts" -1
 	weapon
-		sprite "projectile/energy ball"
-			"frame rate" 20
-		"turret turn" 4
-		"inaccuracy" 0
-		"velocity" 35
-		"lifetime" 1
-		"reload" 800
-		"firing energy" 10
-		"blast radius" 200
-		"shield damage" 1000000
-		"hull damage" 1000000
+		sprite "projectile/tiny dual ion"
+		sound "gw gprojectile"
+		"hit effect" "blaster impact"
+		"hardpoint sprite" "hardpoint/g1 turret"
+		"hardpoint offset" 9.
+		"inaccuracy" 1
+		"turret turn" 5.5
+		"velocity" 20
+		"lifetime" 150
+		"reload" 20
+		"firing energy" 15
+		"firing heat" 12
+		"shield damage" 55000
+		"hull damage" 54000
+		"ion damage" .1
+		"disruption damage" .1
+		"burst reload" 15
+		"burst count" 30
+		"cluster"
 		
 fleet "Ultaka mothership weapon"
 	government "Ultaka"

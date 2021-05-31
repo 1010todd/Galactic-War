@@ -29,32 +29,3 @@ mission "Saska Lape Weapon"
 			engine -17 35
 			engine 17 35
 			turret 0 0
-
-outfit "SSm10 Turret"
-	category "Turrets"
-	cost 1900000
-	thumbnail "outfit/ultaka g1turret"
-	"mass" 50
-	"outfit space" -50
-	"weapon capacity" -50
-	"turret mounts" -1
-	weapon
-		sprite "projectile/tiny dual ion"
-		sound "gw gprojectile"
-		"hit effect" "blaster impact"
-		"hardpoint sprite" "hardpoint/g1 turret"
-		"hardpoint offset" 9.
-		"inaccuracy" 1
-		"turret turn" 5.5
-		"velocity" 20
-		"lifetime" 150
-		"reload" 20
-		"firing energy" 15
-		"firing heat" 12
-		"shield damage" 5500
-		"hull damage" 5400
-		"ion damage" .1
-		"disruption damage" .1
-		"burst reload" 15
-		"burst count" 30
-		"cluster"
