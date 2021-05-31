@@ -100,6 +100,7 @@ outfit "Larpauron Turret"
 		"turret turn" 3.2
 		"inaccuracy" 0
 		"velocity" 1
+		"velocity override" 80
 		"lifetime" 1
 		"reload" 30
 		"firing energy" 450
@@ -118,8 +119,8 @@ outfit "Larpauron"
 		"lifetime" 200
 		"acceleration" 1
 		"drag" .01
-		"turn" 4
-		"homing" 4
+		"turn" 10
+		"homing" 2
 		"optical tracking" .9
 		"shield damage" 850
 		"hull damage" 2200
@@ -131,8 +132,8 @@ effect "larpauron trail"
 	sprite "projectile/larpauron"
 		"frame rate" 1
 		"no repeat"
-	"lifetime" 5
-	"velocity scale" .9
+	"lifetime" 10
+	"velocity scale" .1
 
 outfit "Taroun Missile Interceptor"
 	category "Turrets"
