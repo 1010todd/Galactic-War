@@ -5,8 +5,8 @@ ship "SSm10"
 		"mass" 10
 		"drag" 1
 		"heat dissipation" .9
-		"outfit space" 5
-		"weapon capacity" 5
+		"outfit space" 50
+		"weapon capacity" 50
 		"heat generation" .1
 		
 		"energy generation" 400
@@ -20,7 +20,7 @@ ship "SSm10"
 	
 	engine -17 35
 	engine 17 35
-	turret 0 0
+	turret 0 0 "SSm10 Turret"
 	
 outfit "SSm10 Turret"
 	category "Turrets"
