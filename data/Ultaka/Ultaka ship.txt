@@ -657,7 +657,8 @@ ship "Ultaka Galactic Destroyer"
 		
 		"M100SG-M Turret" 10
 		"G80 Turret" 8
-		"U60-A anti missile" 8
+		"U60-A anti missile" 6
+		"VR85-A anti missile" 2
 		"Ultaka Destroyer Cannon" 2
 
 		"USG200 Shield Generator" 10
@@ -687,8 +688,8 @@ ship "Ultaka Galactic Destroyer"
 	turret -380.5 -122.5 "U60-A anti missile"
 	turret 343.5 17.5 "U60-A anti missile"
 	turret -342.5 15.5 "U60-A anti missile"
-	turret -0.5 715.5 "U60-A anti missile"
-	turret -0.5 1059.5 "U60-A anti missile"
+	turret -0.5 715.5 "VR85-A anti missile"
+	turret -0.5 1059.5 "VR85-A anti missile"
 	engine -368.5 1961.5
 	engine 369 1961.5
 	engine 122.5 1963

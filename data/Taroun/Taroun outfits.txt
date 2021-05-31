@@ -20,7 +20,7 @@ outfit "Serulan Turret"
 		"firing heat" 160
 		"shield damage" 325
 		"hull damage" 325
-	description "Taroun Mysterious Turret."
+	description "Taroun Basic weapon."
 
 effect "serulan impact"
 	sprite "effect/serulan impact"
@@ -44,17 +44,96 @@ outfit "Taroun Deflector"
 		"velocity" 1
 		"trigger radius" 500
 		"blast radius" 500
+		"range override" 500
 		"gravitational"
 		"turret turn" 360
+		"safe"
 		"lifetime" 1
 		"reload" 1
 		"firing energy" 10
 		"firing heat" 9
 		"hit force" 80
 		"shield damage" 60
-		"ion damage" .4
+		"ion damage" 4
+	description ""
+
+outfit "Taroun Restrainter"
+	category "Turrets"
+	cost 1000000
+	thumbnail "outfit/unknown"
+	"mass" 80
+	"outfit space" -80
+	"weapon capacity" -80
+	"turret mounts" -1
+	weapon
+		"velocity" 1
+		"trigger radius" 400
+		"blast radius" 400
+		"range override" 400
+		"gravitational"
+		"turret turn" 360
+		"safe"
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 10
+		"firing heat" 9
+		"shield damage" 60
+		"ion damage" 4
+		"fuel damage" 60
+		"slowing damage" 20
 	description ""
 	
+outfit "Larpauron Turret"
+	category "Turrets"
+	cost 1200000
+	thumbnail "outfit/taroun serulan turret"
+	"mass" 54
+	"outfit space" -54
+	"weapon capacity" -54
+	"turret mounts" -1
+	weapon
+		sprite "projectile/larpauron"
+		sound "gw dblaster3"
+		"hardpoint sprite" "hardpoint/serulan turret"
+		"hardpoint offset" 5.
+		"submunition" "Larpauron" 3
+		"turret turn" 3.2
+		"inaccuracy" 0
+		"velocity" 1
+		"lifetime" 1
+		"reload" 30
+		"firing energy" 450
+		"firing heat" 500
+	description "Taroun  Turret."
+
+outfit "Larpauron"
+	weapon
+		sprite "projectile/larpauron"
+			"frame rate" .1
+			"no repeat"
+			"start frame" 0
+		"live effect" "larpauron trail" 500
+		"inaccuracy" 22
+		"velocity" 80
+		"lifetime" 200
+		"acceleration" 1
+		"drag" .01
+		"turn" 4
+		"homing" 4
+		"optical tracking" .9
+		"shield damage" 850
+		"hull damage" 2200
+		"piercing" 2.5
+		"energy damage" 2000
+		"ion damage" 50
+
+effect "larpauron trail"
+	sprite "projectile/larpauron"
+		"frame rate" 1
+		"no repeat"
+	"lifetime" 5
+	"velocity scale" .9
+
 outfit "Taroun Missile Interceptor"
 	category "Turrets"
 	cost 1200000
