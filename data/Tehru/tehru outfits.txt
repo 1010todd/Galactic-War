@@ -115,28 +115,46 @@ outfit "Vrrpak Turret"
 		"hull damage" 6
 		"piercing" .05
 	description ""
-	
+
+outfit "Varsrel Drone"
+	category "Ammunition"
+	cost 3000
+	thumbnail "outfit/tehru varsrel"
+	"mass" .03
+	"varsrel capacity" -1
+	description "Varsrel drone for launching with Varsrel drone launcher."
+
+outfit "Varsrel Drone Storage"
+	category "Ammunition"
+	cost 33000
+	thumbnail "outfit/tehru varsrel Storage"
+	"mass" 4
+	"outfit space" 10
+	"varsrel capacity" 30
+	description "Varsrel drone for launching with Varsrel drone launcher."
+
 outfit "Varsrel Drone Launcher"
 	category "Guns"
 	cost 1700000
-	thumbnail "outfit/tehru varsrel"
+	thumbnail "outfit/tehru varsrel launcher"
 	mass 16
 	"outfit space" -20
 	"weapon capacity" -20
 	"gun ports" -1
+	"varsrel capacity" 20
 	weapon
 		sprite "projectile/varsrel"
 			"frame rate" 0
 			"start frame" 0
-		sound "particle"
+		sound "sidewinder"
 		"hit effect" "small explosion"
 		submunition "varsrel beam 1"
 		submunition "varsrel 1"
 		"inaccuracy" .1
 		"range override" 1200
-		"velocity" 120
+		"velocity" 100
 		"lifetime" 20
-		"drag" .15
+		"drag" .12
 		"acceleration" 1
 		"turn" 4
 		"homing" 2
@@ -145,9 +163,10 @@ outfit "Varsrel Drone Launcher"
 		"reload" 60
 		"firing energy" 33
 		"firing heat" 11
-		"shield damage" 100
-		"hull damage" 80
+		"shield damage" 120
+		"hull damage" 85
 		"piercing" .01
+	description "This weapon launches Varsrel drones which after being launched will begins to attack the target for a few second before running out of power."
 
 outfit "varsrel 1"
 	weapon
@@ -171,8 +190,8 @@ outfit "varsrel beam 1"
 			"random start frame"
 		"lifetime" 1
 		"velocity" 350
-		"shield damage" 100
-		"hull damage" 80
+		"shield damage" 120
+		"hull damage" 85
 		"piercing" .01
 
 outfit "varsrel 2"
@@ -186,7 +205,7 @@ outfit "varsrel 2"
 		"lifetime" 20
 		"drag" .1
 		"acceleration" .8
-		"turn" 10
+		"turn" 12
 		"homing" 2
 		"radar tracking" .8
 		"optical tracking" .7
@@ -197,8 +216,8 @@ outfit "varsrel beam 2"
 			"random start frame"
 		"lifetime" 1
 		"velocity" 350
-		"shield damage" 100
-		"hull damage" 80
+		"shield damage" 120
+		"hull damage" 85
 		"piercing" .01
 
 outfit "varsrel 3"
@@ -210,7 +229,7 @@ outfit "varsrel 3"
 		submunition "varsrel 4"
 		"hit effect" "small explosion"
 		"lifetime" 20
-		"drag" .05
+		"drag" .1
 		"acceleration" .7
 		"turn" 8
 		"homing" 2
@@ -223,8 +242,8 @@ outfit "varsrel beam 3"
 			"random start frame"
 		"lifetime" 1
 		"velocity" 350
-		"shield damage" 100
-		"hull damage" 80
+		"shield damage" 120
+		"hull damage" 85
 		"piercing" .01
 
 outfit "varsrel 4"
@@ -235,7 +254,7 @@ outfit "varsrel 4"
 		submunition "varsrel beam 5"
 		"hit effect" "small explosion"
 		"lifetime" 20
-		"drag" .01
+		"drag" .1
 		"acceleration" .5
 		"turn" 6
 		"homing" 2
@@ -248,8 +267,8 @@ outfit "varsrel beam 4"
 			"random start frame"
 		"lifetime" 1
 		"velocity" 350
-		"shield damage" 100
-		"hull damage" 80
+		"shield damage" 120
+		"hull damage" 85
 		"piercing" .01
 
 outfit "varsrel beam 5"
@@ -258,8 +277,8 @@ outfit "varsrel beam 5"
 			"random start frame"
 		"lifetime" 1
 		"velocity" 350
-		"shield damage" 100
-		"hull damage" 80
+		"shield damage" 120
+		"hull damage" 85
 		"piercing" .01
 
 
