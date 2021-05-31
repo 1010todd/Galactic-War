@@ -134,7 +134,7 @@ outfit "Varsrel Drone Storage"
 	description "Varsrel drone storage for launching with Varsrel drone launcher."
 
 outfit "Varsrel Drone Launcher"
-	category "Guns"
+	category "Secondary Weapons"
 	cost 1700000
 	thumbnail "outfit/tehru varsrel launcher"
 	mass 16
@@ -147,6 +147,8 @@ outfit "Varsrel Drone Launcher"
 			"frame rate" 0
 			"start frame" 0
 		sound "sidewinder"
+		ammo "Varsrel Drone" 1
+		icon "icon/varsrel"
 		"hit effect" "small explosion"
 		submunition "varsrel beam 1"
 		submunition "varsrel 1"
