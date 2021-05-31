@@ -2879,6 +2879,7 @@ system Alnor
 	government Revos
 	habitable 945
 	belt 1287
+	link Bustar
 	link Kotai
 	link Lelerno
 	link Nesoral
@@ -4869,6 +4870,67 @@ system Aulorain
 		distance 1982.57
 		period 1973.91
 
+system Aulura
+	pos -49710.4 -54983
+	government Revos
+	habitable 486.68
+	belt 1899
+	link Bustar
+	link Molta
+	link Norva
+	asteroids "small rock" 6 5.8968
+	asteroids "medium rock" 5 5.4756
+	asteroids "large rock" 33 5.6628
+	asteroids "small metal" 28 6.7392
+	asteroids "medium metal" 124 3.1824
+	asteroids "large metal" 26 6.5988
+	minables copper 25 8.83702
+	minables gold 32 6.71939
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	fleet "Revos small" 1000
+	fleet "Revos merchant" 600
+	fleet "Revos big" 1500
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/rock11
+		distance 161.64
+		period 37.2616
+	object
+		sprite planet/lava4
+		distance 509.64
+		period 208.609
+	object
+		sprite planet/gas1
+		distance 1148.6
+		period 705.816
+		object
+			sprite planet/rock0
+			distance 214
+			period 12.5123
+		object
+			sprite planet/callisto
+			distance 320
+			period 22.8792
+		object
+			sprite planet/dust1
+			distance 432
+			period 35.8873
+	object
+		sprite planet/neptune
+		distance 2191.85
+		period 1860.61
+
 system Avurin
 	pos -52489.9 -54654.3
 	government "Tehru Insker"
@@ -6650,6 +6712,61 @@ system Busirvek
 			distance 396
 			period 22.2461
 
+system Bustar
+	pos -49772.4 -54925
+	government Revos
+	habitable 233.28
+	belt 1285
+	link Alnor
+	link Aulura
+	link Lelerno
+	link Norva
+	asteroids "medium rock" 24 3.0498
+	asteroids "large rock" 6 4.9946
+	asteroids "small metal" 6 5.083
+	asteroids "medium metal" 18 3.8454
+	asteroids "large metal" 23 4.5084
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	fleet "Revos small" 1000
+	fleet "Revos merchant" 600
+	fleet "Revos big" 1500
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/desert0
+		distance 143.25
+		period 44.9017
+	object
+		sprite planet/gas7
+		distance 951.46
+		period 768.612
+		object
+			sprite planet/rock3
+			distance 257
+			period 14.6565
+		object
+			sprite planet/rock0
+			distance 408
+			period 29.3171
+		object
+			sprite planet/miranda
+			distance 571
+			period 48.5383
+	object
+		sprite planet/gas8
+		distance 2088.15
+		period 2498.99
+
 system Calinavo
 	pos -52076.1 -56184.3
 	government Geeva
@@ -8084,7 +8201,7 @@ system Cukelu
 			period 31.555
 
 system Culdo
-	pos -49235.1 -57392.2
+	pos -49414.1 -57139.2
 	government Revos
 	habitable 1715
 	belt 1375
@@ -9932,7 +10049,6 @@ system "Dek A1"
 	asteroids "large metal" 30 7.182
 	minables iron 14 11.096
 	minables lead 7 14.1663
-	
 	fleet "Donko Guard Small" 500
 	fleet "Donko Small" 650
 	fleet "Donko Guard Small" 500
@@ -10817,6 +10933,7 @@ system Dellur
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Revos small" 1000
 	object
 		sprite star/k0
 		period 10
@@ -12174,11 +12291,12 @@ system Dofolk
 			period 37.1143
 
 system Dolker
-	pos -49589 -54425.4
+	pos -49544.9 -54388.6
 	government Revos
 	habitable 425.92
 	belt 1578
 	link Eidalr
+	link Eundo
 	link Kulor
 	asteroids "small rock" 1 11.4318
 	asteroids "medium rock" 12 8.2998
@@ -13727,12 +13845,13 @@ system Durkanda
 			period 20.3542
 
 system Durkul
-	pos -49324.2 -55536.6
+	pos -49303.2 -55553.6
 	government Revos
 	habitable 745.92
 	belt 1645
 	link Foklo
 	link Oleldar
+	link Vuralo
 	asteroids "small rock" 1 6.0368
 	asteroids "medium rock" 87 7.5264
 	asteroids "large rock" 12 5.88
@@ -17606,11 +17725,12 @@ system Eullagora
 			period 38.8841
 
 system Eundo
-	pos -49753.9 -54464.5
+	pos -49511.6 -54302.9
 	government Revos
 	habitable 425.92
 	belt 1987
-	link Soeku
+	link Dolker
+	link Vuivor
 	asteroids "small rock" 37 1.5484
 	asteroids "medium rock" 161 1.5092
 	asteroids "large rock" 19 1.5876
@@ -19737,6 +19857,7 @@ system Foklo
 	belt 1346
 	link Durkul
 	link Kolha
+	link Vuralo
 	asteroids "small rock" 2 1.8954
 	asteroids "medium rock" 6 2.8314
 	asteroids "large rock" 3 3.2292
@@ -19925,7 +20046,7 @@ system Fukulle
 			period 49.5683
 
 system Furmo
-	pos -49033 -57153.2
+	pos -49167.7 -56877.3
 	government Revos
 	habitable 1715
 	belt 1895
@@ -19947,6 +20068,7 @@ system Furmo
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Revos small" 5000
 	object
 		sprite star/f5
 		period 10
@@ -28365,7 +28487,7 @@ system "Ii su"
 		period 1115.92
 
 system "Ikar ar"
-	pos -50241.5 -53748.1
+	pos -50226.5 -53749.1
 	government Uninhabited
 	habitable 486.68
 	belt 1093
@@ -42689,7 +42811,7 @@ system Kolde
 		period 1302.25
 
 system Kolha
-	pos -49489.2 -55331.4
+	pos -49474.2 -55368.4
 	government Revos
 	habitable 233.28
 	belt 1662
@@ -43454,7 +43576,7 @@ system Koslen
 		period 3346.64
 
 system Kotai
-	pos -49905 -54900.4
+	pos -49894 -54893.4
 	government Revos
 	habitable 233.28
 	belt 1089
@@ -43465,7 +43587,9 @@ system Kotai
 	asteroids "small metal" 3 3.996
 	asteroids "large metal" 8 3.672
 	minables aluminum 1 6.81378
-	fleet "Revos small" 1500
+	fleet "Revos small" 1000
+	fleet "Revos merchant" 600
+	fleet "Revos big" 1500
 	object
 		sprite star/m4
 		period 10
@@ -44789,7 +44913,7 @@ system "Kulma Lesu"
 			period 23.1931
 
 system Kulor
-	pos -49670.9 -54467.7
+	pos -49629.9 -54429.7
 	government Revos
 	habitable 1705
 	belt 1126
@@ -46459,11 +46583,12 @@ system Leion
 			period 34.577
 
 system Lelerno
-	pos -49852.8 -54881.9
+	pos -49828.8 -54884.9
 	government Revos
 	habitable 486.68
 	belt 1616
 	link Alnor
+	link Bustar
 	link Kotai
 	link Soarel
 	asteroids "small rock" 67 3.7664
@@ -46472,7 +46597,9 @@ system Lelerno
 	asteroids "small metal" 6 2.0768
 	asteroids "medium metal" 46 2.112
 	asteroids "large metal" 3 1.8304
-	fleet "Revos small" 1500
+	fleet "Revos small" 1000
+	fleet "Revos merchant" 600
+	fleet "Revos big" 1500
 	object
 		sprite star/k0
 		period 10
@@ -46569,7 +46696,7 @@ system Lelliuk
 		period 2501.79
 
 system Lenail
-	pos -49851 -54716.4
+	pos -49862 -54708.4
 	government Revos
 	habitable 625
 	belt 1045
@@ -48393,6 +48520,7 @@ system Lirel
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Revos small" 1000
 	object
 		sprite star/a0
 		period 10
@@ -56141,7 +56269,7 @@ system Merlivin
 			period 12.3191
 
 system Merlyu
-	pos -49126.9 -57290.9
+	pos -49278.2 -56968
 	government Revos
 	habitable 1715
 	belt 1935
@@ -56161,6 +56289,7 @@ system Merlyu
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Revos small" 20000
 	object
 		sprite star/f5
 		period 10
@@ -58868,10 +58997,11 @@ system Molelca
 		period 3861.64
 
 system Molta
-	pos -49688.7 -55093.7
+	pos -49701.7 -55052.7
 	government Revos
 	habitable 320
 	belt 1652
+	link Aulura
 	link Norva
 	link Oerel
 	asteroids "small rock" 27 5.865
@@ -59074,7 +59204,7 @@ system Morcolor
 		offset 41.74
 
 system Morde
-	pos -49425.7 -57451.8
+	pos -49499.7 -57188.8
 	government Revos
 	habitable 625
 	belt 1539
@@ -61358,7 +61488,7 @@ system Mulkutvare
 			period 52.6107
 
 system Mulva
-	pos -49326.2 -57427.8
+	pos -49476.2 -57127.8
 	government Revos
 	habitable 1715
 	belt 1484
@@ -62813,7 +62943,7 @@ system "Nalku Kake"
 			period 19.0736
 
 system Nanai
-	pos -48937.4 -56788.3
+	pos -48964.4 -56741.3
 	government Revos
 	habitable 486.68
 	belt 1446
@@ -62827,7 +62957,7 @@ system Nanai
 	asteroids "large metal" 10 2.288
 	minables iron 19 3.13897
 	minables lead 1 2.99782
-	fleet "Revos small" 1500
+	fleet "Revos small" 2000
 	object
 		sprite star/k0
 		period 10
@@ -64179,6 +64309,8 @@ system Nesoral
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Revos small" 1000
+	fleet "Revos big" 1500
 	object
 		sprite star/g5
 		distance 18.2961
@@ -65336,6 +65468,8 @@ system Norva
 	habitable 2372.76
 	belt 1760
 	link Alnor
+	link Aulura
+	link Bustar
 	link Molta
 	asteroids "small rock" 14 6.525
 	asteroids "medium rock" 46 5.085
@@ -65411,6 +65545,7 @@ system Norvu
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Revos small" 1000
 	object
 		sprite star/f0
 		distance 14.1416
@@ -66586,7 +66721,7 @@ system Oebade
 			period 29.3045
 
 system Oerel
-	pos -49629.4 -55140.1
+	pos -49643.4 -55128.1
 	government Revos
 	habitable 425.92
 	belt 1684
@@ -66610,6 +66745,7 @@ system Oerel
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Revos small" 1000
 	object
 		sprite star/k5
 		period 10
@@ -67740,6 +67876,7 @@ system Oleldar
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Revos small" 1000
 	object
 		sprite star/k0
 		period 10
@@ -67777,7 +67914,7 @@ system Oleldar
 			period 14.3035
 
 system Olfor
-	pos -49216.9 -57330.7
+	pos -49368.9 -57046.7
 	government Revos
 	habitable 1111.68
 	belt 1846
@@ -67797,6 +67934,7 @@ system Olfor
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Revos small" 20000
 	object
 		sprite star/g5
 		distance 41.1521
@@ -68252,6 +68390,7 @@ system Ordel
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Revos small" 1500
 	object
 		sprite star/k0
 		period 10
@@ -71863,7 +72002,7 @@ system Qidove
 			period 14.8275
 
 system Qortuan
-	pos -49777 -54581.2
+	pos -49732 -54578.2
 	government Revos
 	habitable 320
 	belt 1320
@@ -71883,6 +72022,7 @@ system Qortuan
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Revos small" 1500
 	object
 		sprite star/m0
 		period 10
@@ -74358,7 +74498,7 @@ system Reulo
 			period 14.4438
 
 system Reulor
-	pos -48998.5 -57008.1
+	pos -49071.5 -56821.1
 	government Revos
 	habitable 621.68
 	belt 1865
@@ -74379,6 +74519,7 @@ system Reulor
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Revos small" 3000
 	object
 		sprite star/k0
 		distance 19.1095
@@ -79989,7 +80130,7 @@ system "So ker"
 			period 12.0316
 
 system Soarel
-	pos -49873 -54843.4
+	pos -49864 -54832.4
 	government Revos
 	habitable 233.28
 	belt 1830
@@ -80004,7 +80145,8 @@ system Soarel
 	asteroids "large metal" 79 3.2292
 	minables silver 1 4.92767
 	minables tungsten 25 4.29624
-	fleet "Revos small" 1500
+	fleet "Revos small" 1000
+	fleet "Revos big" 1500
 	object
 		sprite star/m4
 		period 10
@@ -80101,14 +80243,12 @@ system Sodoranu
 			period 16.3726
 
 system Soeku
-	pos -49735.7 -54497
+	pos -49663.7 -54508
 	government Revos
 	habitable 425.92
 	belt 1231
-	link Eundo
 	link Kulor
 	link Qortuan
-	link Vuivor
 	asteroids "small rock" 2 2.2515
 	asteroids "medium rock" 112 1.9095
 	asteroids "large rock" 5 1.938
@@ -80127,6 +80267,7 @@ system Soeku
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Revos small" 1500
 	object
 		sprite star/k5
 		period 10
@@ -82535,6 +82676,7 @@ system "Trochzempt ZAZ-1"
 	arrival 1500
 	object "Trochzempt ZAZ-1"
 		sprite planet/trochzempt_construction
+		arrival 1500
 
 system Tuarli
 	pos -50929.2 -55082.2
@@ -83155,7 +83297,7 @@ system Uekvared
 			period 15.7904
 
 system Uelvo
-	pos -49295.2 -57375.9
+	pos -49432.2 -57062.9
 	government Revos
 	habitable 135
 	belt 1269
@@ -89033,7 +89175,7 @@ system Vonov
 			period 13.7446
 
 system Vorabi
-	pos -49891 -54786.4
+	pos -49877 -54773.4
 	government Revos
 	habitable 1400
 	belt 1855
@@ -89370,11 +89512,11 @@ system Vuikorel
 			period 91.6961
 
 system Vuivor
-	pos -49669 -54529.1
+	pos -49436 -54245.1
 	government Revos
 	habitable 2340
 	belt 1109
-	link Soeku
+	link Eundo
 	asteroids "small rock" 84 1.3338
 	asteroids "medium rock" 96 1.2844
 	asteroids "large rock" 30 3.3839
@@ -89804,6 +89946,73 @@ system Vullgerven
 			sprite planet/dust7
 			distance 226
 			period 12.0863
+
+system Vuralo
+	pos -49319.4 -55480
+	government Revos
+	habitable 1111.68
+	belt 1940
+	link Durkul
+	link Foklo
+	asteroids "medium rock" 4 4.875
+	asteroids "large rock" 1 3.8125
+	asteroids "small metal" 1 3.6875
+	asteroids "medium metal" 5 8.6875
+	asteroids "large metal" 1 8.875
+	minables neodymium 1 9.25973
+	minables titanium 1 7.93125
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	fleet "Revos small" 800
+	object
+		sprite star/g5
+		distance 43.7788
+		period 11.9969
+	object
+		sprite star/k0
+		distance 56.2212
+		period 11.9969
+		offset 180
+	object
+		sprite planet/callisto
+		distance 188.471
+		period 31.0411
+	object
+		sprite planet/rock6
+		distance 559.111
+		period 158.605
+		object
+			sprite planet/rock14
+			distance 143
+			period 21.4964
+	object
+		sprite planet/gas10
+		distance 1163.2
+		period 475.94
+		object
+			sprite planet/dust5
+			distance 224
+			period 17.6469
+	object
+		sprite planet/gas6
+		distance 2648.01
+		period 1634.74
+		object
+			sprite planet/dust3
+			distance 311
+			period 14.0089
+		object
+			sprite planet/rock3
+			distance 456
+			period 24.8721
 
 system Vurdesdur
 	pos -50761.1 -55888.5
@@ -90806,7 +91015,7 @@ system Yorsekager
 			period 35.6747
 
 system Yorta
-	pos -49810.3 -54640.7
+	pos -49788.3 -54647.7
 	government Revos
 	habitable 719.96
 	belt 1149
@@ -90830,6 +91039,7 @@ system Yorta
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Revos small" 1500
 	object
 		sprite star/k0
 		distance 38.5581
@@ -91629,7 +91839,7 @@ planet Delgaurra
 	spaceport .
 
 planet Delro
-	attributes Dels
+	attributes urban
 	landscape land/land18
 	description `Delro, when first seen from space, appears not so much a world as a glittering marble. Broken up by scant green patches, everything else about the planet's surface is dominated by megalopolis-speckled seascape. Glittering spires of gold arc upwards from the islands they root in, with few of the colossal buildings displaying the same design twice - or any evidence of drab construction done purely for utility's sake.`
 	description `	Few islands on this largely oceanic planet lack development or habitation of some sort, though similarly few are linked by any sort of road network. For such an evidently large population, some other manner of transport must be utilized.`
@@ -91929,7 +92139,7 @@ planet Godoko
 	"required reputation" 1
 
 planet Gohasiki
-	attributes ``
+	attributes ""
 	landscape land/city9
 	description `An Eastern Qoro planet with alot of large cities.`
 	spaceport `This planet spaceport was built in a large building with evalators to the underground bunker.`
@@ -91963,9 +92173,9 @@ planet Gokoto
 	"required reputation" 1
 
 planet Golaststa
-	attributes ``
+	attributes ""
 	landscape land/forest1
-	description `.`
+	description .
 	spaceport `Surprisly similar Human's spaceport.`
 	shipyard "Qoro Siogal Basic"
 	outfitter "Qoro Siogal Basic"
@@ -93365,8 +93575,6 @@ planet Tansaqa
 
 planet "Tarounian Wormhole"
 
-planet "Wormhole Glink"
-
 planet Tcksinkre
 	landscape land/lava2
 	description `Tcksinkre is largely a barren with only a few alien plant of somesort growing out of the rocks and hillside. Other than a few mining sites scattered around the poles this planet remains mostly untouched.`
@@ -93550,6 +93758,8 @@ planet Wobore
 	attributes Donko
 	landscape land/snow0
 	description .
+
+planet "Wormhole Glink"
 
 planet Xornir
 	landscape land/city1
