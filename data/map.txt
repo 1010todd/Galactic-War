@@ -958,6 +958,15 @@ system "Ai su ke"
 	asteroids "large metal" 57 8.829
 	minables iron 24 15.2482
 	minables lead 24 8.55324
+	trade Clothing 333
+	trade Electronics 678
+	trade Equipment 606
+	trade "Heavy Metals" 1081
+	trade Industrial 610
+	trade "Luxury Goods" 1367
+	trade Medical 780
+	trade Metal 262
+	trade Plastic 288
 	fleet Nuru 800
 	object
 		sprite star/m0
@@ -1550,6 +1559,7 @@ system "Aku 3328"
 	minables aluminum 3 5.92862
 	minables copper 7 7.1098
 	minables iron 3 6.61007
+	fleet "Donko Guard Small" 500
 	object
 		sprite star/g0
 		distance 29.5112
@@ -1621,6 +1631,7 @@ system Aku-1000
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Donko Guard Small" 500
 	object
 		sprite star/f5
 		period 10
@@ -1649,6 +1660,62 @@ system Aku-1000
 			distance 350
 			period 27.9753
 
+system Aku-11028
+	pos -48327.5 -53042.1
+	government Donko
+	habitable 1715
+	belt 1450
+	link Aku-12803
+	link Aku-5802
+	link Aku-6838
+	link Mak-113
+	asteroids "large rock" 5 3.6504
+	asteroids "small metal" 2 4.056
+	asteroids "medium metal" 2 2.1528
+	asteroids "large metal" 2 2.5272
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	fleet "Donko Guard Small" 600
+	object
+		sprite star/f5
+		period 10
+	object
+		sprite planet/rock2
+		distance 225.76
+		period 32.7641
+	object
+		sprite planet/cloud3
+		distance 444.76
+		period 90.5976
+	object
+		sprite planet/gas11
+		distance 1482.05
+		period 551.09
+		object
+			sprite planet/rock3
+			distance 239
+			period 12.1864
+		object
+			sprite planet/miranda
+			distance 375
+			period 23.9511
+	object
+		sprite planet/gas10
+		distance 3072.14
+		period 1644.71
+		object
+			sprite planet/ice0
+			distance 213
+			period 16.3631
+
 system Aku-122
 	pos -48197.1 -52813.1
 	government Donko
@@ -1664,6 +1731,7 @@ system Aku-122
 	asteroids "small metal" 3 5.208
 	asteroids "medium metal" 7 5.208
 	asteroids "large metal" 3 6.3
+	fleet "Donko Guard Small" 500
 	object
 		sprite star/k0
 		period 10
@@ -1693,7 +1761,7 @@ system Aku-122
 			period 25.3475
 
 system Aku-1264
-	pos -48332.7 -52816
+	pos -48322.7 -52816
 	government Donko
 	habitable 425.92
 	link Aku-1000
@@ -1707,7 +1775,10 @@ system Aku-1264
 	asteroids "small metal" 11 6.0021
 	asteroids "medium metal" 253 3.0267
 	asteroids "large metal" 15 7.182
+	minables Nurbote 5 4.23894
 	fleet "Revos small" 20000
+	fleet "Donko Guard Small" 500
+	fleet "Donko Miner" 1400
 	object
 		sprite star/k5
 		period 10
@@ -1715,7 +1786,7 @@ system Aku-1264
 		sprite planet/lava7
 		distance 226.09
 		period 65.8898
-	object
+	object Kurbor-23
 		sprite planet/ocean3
 		distance 417.34
 		period 165.246
@@ -1748,6 +1819,58 @@ system Aku-1264
 			distance 460
 			period 52.5187
 
+system Aku-12803
+	pos -48250.2 -53063.1
+	government Donko
+	habitable 2372.76
+	belt 1590
+	link Aku-11028
+	link Aku-9932
+	asteroids "small rock" 13 8.16
+	asteroids "medium rock" 27 9
+	asteroids "large rock" 21 7.14
+	asteroids "small metal" 34 5.52
+	asteroids "medium metal" 1 3.78
+	asteroids "large metal" 5 6.9
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	fleet "Donko Guard Small" 600
+	object
+		sprite star/f0
+		period 10
+	object
+		sprite planet/luna
+		distance 195.89
+		period 22.5139
+	object
+		sprite planet/lava7
+		distance 554.14
+		period 107.118
+	object
+		sprite planet/gas14
+		distance 1299.58
+		period 384.714
+		object
+			sprite planet/dust4
+			distance 240
+			period 15.1417
+	object
+		sprite planet/gas15
+		distance 2251.83
+		period 877.479
+		object
+			sprite planet/rock17
+			distance 212
+			period 16.248
+
 system Aku-1442
 	pos -48323.4 -52864.7
 	government Donko
@@ -1773,6 +1896,9 @@ system Aku-1442
 	trade Medical 800
 	trade Metal 480
 	trade Plastic 460
+	fleet "Donko Guard Small" 500
+	fleet "Revos small" 20000
+	fleet "Donko Miner" 1400
 	object
 		sprite star/g5
 		period 10
@@ -1846,6 +1972,8 @@ system Aku-1452
 	trade Medical 800
 	trade Metal 480
 	trade Plastic 460
+	fleet "Donko Guard Small" 500
+	fleet "Revos small" 20000
 	object
 		sprite star/k0
 		period 10
@@ -1883,6 +2011,7 @@ system Aku-1523
 	link Aku-1452
 	link Aku-1894
 	link Aku-2359
+	link Aku-2543
 	link Aku-3242
 	asteroids "small rock" 6 2.1216
 	asteroids "medium rock" 82 3.4
@@ -1902,6 +2031,8 @@ system Aku-1523
 	trade Medical 800
 	trade Metal 480
 	trade Plastic 460
+	fleet "Donko Guard Small" 500
+	fleet "Revos small" 20000
 	object
 		sprite star/b5
 		distance 4.0224
@@ -1949,6 +2080,8 @@ system Aku-1823
 	asteroids "large metal" 12 3.08
 	minables Nurbote 12 3.1
 	fleet "Revos small" 20000
+	fleet "Donko Guard Small" 500
+	fleet "Donko Miner" 1400
 	object
 		sprite star/f0
 		distance 52.4431
@@ -2006,6 +2139,7 @@ system Aku-1894
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Donko Guard Small" 500
 	object
 		sprite star/g5
 		period 10
@@ -2039,20 +2173,21 @@ system Aku-1894
 			period 24.8655
 
 system Aku-2263
-	pos -48163.9 -52844.8
+	pos -48151.9 -52854.8
 	government Donko
 	habitable 1566.68
 	link "Aku 3328"
 	link Aku-122
 	link Aku-1823
 	link Aku-3882
+	link Aku-4682
 	asteroids "small rock" 4 3.7296
 	asteroids "medium rock" 23 6.3
 	asteroids "large rock" 11 6.1488
 	asteroids "small metal" 6 2.7216
 	asteroids "medium metal" 3 4.536
 	asteroids "large metal" 2 2.772
-	fleet "Ultaka Patrol" 1000
+	fleet "Donko Guard Small" 500
 	object
 		sprite star/g0
 		distance 34.1709
@@ -2112,6 +2247,7 @@ system Aku-234
 	asteroids "small metal" 10 2.9087
 	asteroids "medium metal" 44 3.7961
 	asteroids "large metal" 19 3.8947
+	fleet "Donko Guard Small" 600
 	object
 		sprite star/g0
 		distance 34.824
@@ -2165,6 +2301,7 @@ system Aku-2359
 	belt 1576
 	link Aku-1452
 	link Aku-1523
+	link Aku-2543
 	link Mke-43
 	asteroids "medium rock" 14 4.4
 	asteroids "large rock" 1 3.52
@@ -2184,6 +2321,8 @@ system Aku-2359
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Revos small" 20000
+	fleet "Donko Guard Small" 600
 	object
 		sprite star/m0
 		period 10
@@ -2216,6 +2355,73 @@ system Aku-2359
 			distance 533
 			period 43.7745
 
+system Aku-2543
+	pos -48398.5 -52960.1
+	government Donko
+	habitable 320
+	belt 1767
+	link Aku-1523
+	link Aku-2359
+	link Aku-6838
+	asteroids "small rock" 11 6.993
+	asteroids "medium rock" 44 7.749
+	asteroids "large rock" 18 4.347
+	asteroids "small metal" 18 7.875
+	asteroids "medium metal" 67 8.631
+	asteroids "large metal" 19 7.434
+	minables aluminum 32 10.7825
+	minables silver 3 11.0969
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	fleet "Donko Guard Small" 600
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/desert6
+		distance 202.61
+		period 64.4876
+	object
+		sprite planet/ocean5
+		distance 643.85
+		period 365.31
+		object
+			sprite planet/europa
+			distance 136
+			period 19.1658
+	object
+		sprite planet/ice8
+		distance 898.1
+		period 601.828
+	object
+		sprite planet/ice6
+		distance 1164.14
+		period 888.163
+	object
+		sprite planet/gas10
+		distance 2108.14
+		period 2164.38
+		object
+			sprite planet/luna
+			distance 228
+			period 18.1217
+		object
+			sprite planet/ice7
+			distance 339
+			period 32.8546
+		object
+			sprite planet/dust5
+			distance 483
+			period 55.875
+
 system Aku-322
 	pos -48163.8 -52775
 	government Donko
@@ -2227,6 +2433,7 @@ system Aku-322
 	asteroids "small metal" 1 3.094
 	asteroids "medium metal" 3 3.198
 	asteroids "large metal" 2 3.432
+	fleet "Donko Guard Small" 500
 	object
 		sprite star/f5
 		period 10
@@ -2268,13 +2475,15 @@ system Aku-322
 			period 91.0828
 
 system Aku-3242
-	pos -48299.4 -52931.7
+	pos -48302.4 -52940.7
 	government Donko
 	habitable 233.28
 	belt 1149
 	link Aku-1523
 	link Aku-1894
 	link Aku-3882
+	link Aku-5802
+	link Aku-6838
 	link Aku-9734
 	asteroids "small rock" 1 3.7752
 	asteroids "large rock" 1 1.4872
@@ -2293,6 +2502,7 @@ system Aku-3242
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Donko Guard Small" 500
 	object
 		sprite star/m4
 		period 10
@@ -2351,6 +2561,7 @@ system Aku-3882
 	asteroids "large rock" 1 4.7633
 	asteroids "medium metal" 5 4.37
 	asteroids "large metal" 1 4.1078
+	fleet "Donko Guard Small" 500
 	object
 		sprite star/k5
 		period 10
@@ -2389,6 +2600,7 @@ system Aku-4682
 	habitable 1715
 	belt 1619
 	link "Aku 3328"
+	link Aku-2263
 	asteroids "small rock" 30 7.0956
 	asteroids "medium rock" 18 4.7628
 	asteroids "large rock" 31 3.7422
@@ -2397,6 +2609,7 @@ system Aku-4682
 	asteroids "large metal" 3 4.5198
 	minables neodymium 3 6.57935
 	minables silver 27 8.78671
+	fleet "Donko Guard Small" 500
 	object
 		sprite star/f5
 		period 10
@@ -2444,6 +2657,7 @@ system Aku-5
 	asteroids "small metal" 2 3.78
 	asteroids "medium metal" 23 4.86
 	asteroids "large metal" 1 4.572
+	fleet "Donko Guard Small" 500
 	object
 		sprite star/f5
 		period 10
@@ -2476,6 +2690,130 @@ system Aku-5
 			distance 215
 			period 11.8208
 
+system Aku-5802
+	pos -48301.2 -53005.8
+	government Donko
+	habitable 625
+	belt 1698
+	link Aku-11028
+	link Aku-3242
+	link Aku-6838
+	link Aku-9734
+	link Aku-9932
+	asteroids "small rock" 22 6.1275
+	asteroids "medium rock" 12 5.51
+	asteroids "large rock" 17 4.655
+	asteroids "medium metal" 3 4.5125
+	asteroids "large metal" 1 6.745
+	minables aluminum 8 7.81983
+	minables lead 5 5.67374
+	minables neodymium 12 7.36112
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	fleet "Donko Guard Small" 600
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/titan
+		distance 176.61
+		period 37.5529
+	object Kormor-21391
+		sprite planet/ice4
+		distance 691.441
+		period 290.906
+		offset 95.2499
+		object
+			sprite planet/ice8
+			distance 152
+			period 23.5574
+	object
+		sprite planet/ocean0
+		distance 1092.08
+		period 577.434
+		offset 127.301
+	object
+		sprite planet/gas14
+		distance 2532.12
+		period 2038.67
+		offset 279.917
+		object
+			sprite planet/europa
+			distance 232
+			period 14.391
+		object
+			sprite planet/rock0
+			distance 364
+			period 28.282
+
+system Aku-6838
+	pos -48362.5 -52988.1
+	government Donko
+	habitable 3645
+	belt 1600
+	link Aku-11028
+	link Aku-2543
+	link Aku-3242
+	link Aku-5802
+	asteroids "small rock" 1 2.97
+	asteroids "medium rock" 9 2.7126
+	asteroids "large rock" 3 1.8216
+	asteroids "small metal" 32 1.98
+	asteroids "medium metal" 111 1.2474
+	asteroids "large metal" 97 1.9206
+	minables aluminum 20 1.91016
+	minables copper 26 2.04327
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	fleet "Donko Guard Small" 600
+	object
+		sprite star/a5
+		period 10
+	object
+		sprite planet/mars
+		distance 177.24
+		period 15.6334
+	object
+		sprite planet/desert8
+		distance 409.24
+		period 54.8502
+	object
+		sprite planet/titan
+		distance 1015.73
+		period 214.476
+	object
+		sprite planet/gas0
+		distance 2131.73
+		period 652.093
+		object
+			sprite planet/io
+			distance 281
+			period 13.8044
+		object
+			sprite planet/dust4
+			distance 414
+			period 24.6864
+		object
+			sprite planet/rock17
+			distance 500
+			period 32.7651
+
 system Aku-862
 	pos -48281.8 -52729.8
 	government Donko
@@ -2488,6 +2826,7 @@ system Aku-862
 	asteroids "small metal" 93 2.1
 	asteroids "medium metal" 18 3.472
 	asteroids "large metal" 5 3.752
+	fleet "Donko Guard Small" 600
 	object
 		sprite star/g0
 		distance 43.2551
@@ -2536,6 +2875,8 @@ system Aku-973
 	asteroids "medium metal" 37 4.5675
 	asteroids "large metal" 1 6.2205
 	minables Nurbote 5 1.6
+	fleet "Donko Guard Small" 600
+	fleet "Donko Miner" 1400
 	object
 		sprite star/k0
 		period 10
@@ -2561,16 +2902,19 @@ system Aku-973
 		period 2116.33
 
 system Aku-9734
-	pos -48238.2 -52945.8
+	pos -48234.2 -52958.8
 	government Donko
 	habitable 486.68
 	belt 1777
 	link Aku-3242
 	link Aku-3882
+	link Aku-5802
+	link Aku-9932
 	asteroids "medium rock" 8 2.1109
 	asteroids "large rock" 4 1.1286
 	asteroids "medium metal" 4 1.7974
 	asteroids "large metal" 5 2.6961
+	fleet "Donko Guard Small" 500
 	object
 		sprite star/k0
 		period 10
@@ -2602,6 +2946,71 @@ system Aku-9734
 			sprite planet/dust3
 			distance 560
 			period 38.8364
+
+system Aku-9932
+	pos -48223.2 -53011.1
+	government Donko
+	habitable 912.6
+	belt 1528
+	link Aku-12803
+	link Aku-5802
+	link Aku-9734
+	asteroids "small rock" 12 4.3092
+	asteroids "medium rock" 30 3.8934
+	asteroids "large rock" 8 3.0618
+	asteroids "small metal" 1 2.7216
+	asteroids "medium metal" 50 2.6838
+	asteroids "large metal" 65 2.5326
+	minables lead 5 5.6127
+	minables titanium 1 4.61171
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	fleet "Donko Guard Small" 600
+	object
+		sprite star/k0
+		distance 50.4047
+		period 14.8613
+	object
+		sprite star/k5
+		distance 57.5953
+		period 14.8613
+		offset 180
+	object
+		sprite planet/desert5
+		distance 253.845
+		period 53.5517
+	object
+		sprite planet/dust6
+		distance 515.095
+		period 154.793
+	object
+		sprite planet/gas0
+		distance 899.305
+		period 357.092
+	object
+		sprite planet/uranus
+		distance 1618.31
+		period 862.006
+		object
+			sprite planet/desert4
+			distance 205
+			period 12.5402
+		object
+			sprite planet/rhea
+			distance 321
+			period 24.5715
+		object
+			sprite planet/dust7
+			distance 434
+			period 38.6285
 
 system Akuarnor
 	pos -49907.2 -56752
@@ -2841,7 +3250,9 @@ system Alkurud
 	trade Medical 727
 	trade Metal 418
 	trade Plastic 356
-	fleet "Dels Outward Merchant" 600
+	fleet "Dels Outward Merchant" 800
+	fleet "Dels Kaote" 1000
+	fleet "Dels Ufulre Raid" 2500
 	object
 		sprite star/m4
 		period 10
@@ -2895,6 +3306,16 @@ system Alnor
 	asteroids "large metal" 17 1.944
 	minables silicon 7 2.378
 	minables titanium 3 3.98112
+	trade Clothing 270
+	trade Electronics 728
+	trade Equipment 653
+	trade Food 340
+	trade "Heavy Metals" 1038
+	trade Industrial 597
+	trade "Luxury Goods" 1375
+	trade Medical 725
+	trade Metal 278
+	trade Plastic 486
 	fleet "Revos small" 1000
 	fleet "Revos big" 1500
 	fleet "Revos merchant" 600
@@ -3962,9 +4383,16 @@ system Arr'sinyr
 	minables lead 4 7.61641
 	minables silver 4 8.13199
 	minables tungsten 6 4.4223
-	trade Clothing 210
+	trade Clothing 265
+	trade Electronics 679
+	trade Equipment 663
 	trade Food 220
-	trade Metal 360
+	trade "Heavy Metals" 882
+	trade Industrial 827
+	trade "Luxury Goods" 1200
+	trade Medical 672
+	trade Metal 394
+	trade Plastic 351
 	fleet "Small Zorcn Vuskr" 800
 	fleet "Large Zorcn Vuskr" 1000
 	fleet Nuru 1400
@@ -4015,16 +4443,16 @@ system Arr'suzlt
 	asteroids "medium metal" 11 12.702
 	asteroids "large metal" 1 6.351
 	minables aluminum 13 13.7313
-	trade Clothing 200
-	trade Electronics 700
-	trade Equipment 600
+	trade Clothing 232
+	trade Electronics 658
+	trade Equipment 656
 	trade Food 250
-	trade "Heavy Metals" 960
-	trade Industrial 780
-	trade "Luxury Goods" 1200
-	trade Medical 560
-	trade Metal 380
-	trade Plastic 360
+	trade "Heavy Metals" 942
+	trade Industrial 860
+	trade "Luxury Goods" 1164
+	trade Medical 646
+	trade Metal 363
+	trade Plastic 402
 	fleet "Small Zorcn Vuskr" 800
 	fleet "Large Zorcn Vuskr" 1000
 	fleet Nuru 2000
@@ -4095,12 +4523,16 @@ system Arr'tuz
 	asteroids "small metal" 18 8.736
 	asteroids "medium metal" 76 7.7952
 	asteroids "large metal" 26 9.408
-	trade Clothing 300
-	trade Equipment 560
+	trade Clothing 260
+	trade Electronics 694
+	trade Equipment 671
 	trade Food 180
-	trade Medical 500
-	trade Metal 400
-	trade Plastic 300
+	trade "Heavy Metals" 877
+	trade Industrial 789
+	trade "Luxury Goods" 1233
+	trade Medical 633
+	trade Metal 322
+	trade Plastic 345
 	fleet "Small Zorcn Vuskr" 800
 	fleet "Large Zorcn Vuskr" 1000
 	fleet Nuru 2000
@@ -4157,7 +4589,16 @@ system Arr'xi
 	asteroids "small metal" 27 3.5625
 	asteroids "medium metal" 7 5.225
 	asteroids "large metal" 172 3.9425
+	trade Clothing 241
+	trade Electronics 669
+	trade Equipment 684
 	trade Food 190
+	trade "Heavy Metals" 941
+	trade Industrial 769
+	trade "Luxury Goods" 1287
+	trade Medical 598
+	trade Metal 355
+	trade Plastic 377
 	fleet "Small Zorcn Vuskr" 800
 	fleet "Large Zorcn Vuskr" 1000
 	fleet Nuru 1400
@@ -4589,7 +5030,7 @@ system Atorma
 			period 28.2155
 
 system "Au Hall"
-	pos -48870.3 -55462.8
+	pos -48900.3 -55495.8
 	government Aumar
 	habitable 486.68
 	link "Kal Seka"
@@ -4630,14 +5071,14 @@ system "Au Hall"
 			period 26.1604
 		object Hallma
 			sprite planet/station2
-			distance 249.99
-			period 49.6874
-			offset 266.106
+			distance 245
+			period 54.6298
+			offset 91.92
 	object
 		sprite planet/gas2
-		distance 1301.99
-		period 851.824
-		offset 248.932
+		distance 1297
+		period 846.931
+		offset 218.763
 		object
 			sprite planet/dust0
 			distance 161
@@ -4648,9 +5089,9 @@ system "Au Hall"
 			period 25.256
 	object
 		sprite planet/gas17
-		distance 2752.65
-		period 2618.57
-		offset 83.3153
+		distance 2747.66
+		period 2611.46
+		offset 78.6876
 		object
 			sprite planet/dust3
 			distance 209
@@ -4680,6 +5121,15 @@ system "Au saa"
 	asteroids "small metal" 19 5.2647
 	asteroids "medium metal" 28 4.83
 	asteroids "large metal" 6 2.5116
+	trade Clothing 310
+	trade Electronics 739
+	trade Equipment 580
+	trade "Heavy Metals" 1091
+	trade Industrial 791
+	trade "Luxury Goods" 1449
+	trade Medical 595
+	trade Metal 413
+	trade Plastic 382
 	fleet Nuru 800
 	object
 		sprite star/g5
@@ -4883,6 +5333,7 @@ system Aulura
 	belt 1899
 	link Bustar
 	link Molta
+	link Mrulevor
 	link Norva
 	asteroids "small rock" 6 5.8968
 	asteroids "medium rock" 5 5.4756
@@ -4892,16 +5343,16 @@ system Aulura
 	asteroids "large metal" 26 6.5988
 	minables copper 25 8.83702
 	minables gold 32 6.71939
-	trade Clothing 0
-	trade Electronics 0
-	trade Equipment 0
-	trade Food 0
-	trade "Heavy Metals" 0
-	trade Industrial 0
-	trade "Luxury Goods" 0
-	trade Medical 0
-	trade Metal 0
-	trade Plastic 0
+	trade Clothing 211
+	trade Electronics 836
+	trade Equipment 537
+	trade Food 175
+	trade "Heavy Metals" 1149
+	trade Industrial 694
+	trade "Luxury Goods" 1362
+	trade Medical 710
+	trade Metal 282
+	trade Plastic 443
 	fleet "Revos small" 1000
 	fleet "Revos merchant" 600
 	fleet "Revos big" 1500
@@ -6137,6 +6588,9 @@ system Bordelvun
 	trade Medical 682
 	trade Metal 358
 	trade Plastic 403
+	fleet "Dels Outward Merchant" 800
+	fleet "Dels Kaote" 1000
+	fleet "Dels Ufulre Raid" 2500
 	object
 		sprite star/g5
 		distance 48.2287
@@ -6796,22 +7250,24 @@ system Bustar
 	link Alnor
 	link Aulura
 	link Lelerno
+	link Leuranu
+	link Mrulevor
 	link Norva
 	asteroids "medium rock" 24 3.0498
 	asteroids "large rock" 6 4.9946
 	asteroids "small metal" 6 5.083
 	asteroids "medium metal" 18 3.8454
 	asteroids "large metal" 23 4.5084
-	trade Clothing 0
-	trade Electronics 0
-	trade Equipment 0
-	trade Food 0
-	trade "Heavy Metals" 0
-	trade Industrial 0
-	trade "Luxury Goods" 0
-	trade Medical 0
-	trade Metal 0
-	trade Plastic 0
+	trade Clothing 228
+	trade Electronics 773
+	trade Equipment 605
+	trade Food 276
+	trade "Heavy Metals" 1239
+	trade Industrial 606
+	trade "Luxury Goods" 1436
+	trade Medical 676
+	trade Metal 291
+	trade Plastic 463
 	fleet "Revos small" 1000
 	fleet "Revos merchant" 600
 	fleet "Revos big" 1500
@@ -8457,6 +8913,7 @@ system Da-0831
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Donko Guard Small" 700
 	object
 		sprite star/g0
 		distance 28.8
@@ -8523,6 +8980,7 @@ system Da-0992
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Donko Guard Small" 700
 	object
 		sprite star/m4
 		period 10
@@ -8581,6 +9039,7 @@ system Da-1273
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Donko Guard Small" 700
 	object
 		sprite star/g0
 		period 10
@@ -8643,6 +9102,7 @@ system Da-2001
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Donko Guard Small" 700
 	object
 		sprite star/g5
 		distance 31.1534
@@ -8707,6 +9167,7 @@ system Da-3481
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Donko Guard Small" 700
 	object
 		sprite star/f5
 		period 10
@@ -8766,6 +9227,7 @@ system Da-3892
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Donko Guard Small" 700
 	object
 		sprite star/g5
 		period 10
@@ -8809,6 +9271,7 @@ system Da-4392
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Donko Guard Small" 700
 	object
 		sprite star/f5
 		period 10
@@ -8864,6 +9327,7 @@ system Da-5663
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Donko Guard Small" 700
 	object
 		sprite star/g0
 		period 10
@@ -8887,7 +9351,7 @@ system Da-5663
 system "Dakai Eor'en"
 	pos -48463.2 -53359.3
 	government Donko
-	habitable 2372.76
+	habitable 486.68
 	belt 1658
 	link Da-0831
 	link Da-0992
@@ -8900,45 +9364,42 @@ system "Dakai Eor'en"
 	asteroids "large metal" 5 2.0009
 	minables copper 2 2.79847
 	minables lead 1 3.553
+	fleet "Donko Guard Small" 600
+	fleet "Donko Small" 500
 	object
-		sprite star/f0
+		sprite star/k0
 		period 10
 	object
-		sprite planet/rock15
-		distance 159.44
-		period 16.5321
+		sprite planet/ice8
+		distance 164.76
+		period 38.3456
+	object Mukaika-33024
+		sprite planet/forest5
+		distance 464.063
+		period 181.261
+		offset 177.179
 	object
-		sprite planet/cloud0
-		distance 498.88
-		period 91.5013
-		object
-			sprite planet/dust7
-			distance 158
-			period 24.4748
+		sprite planet/forest1
+		distance 874.063
+		period 468.546
+		offset 120.565
 	object
-		sprite planet/rhea
-		distance 826.57
-		period 195.143
-	object
-		sprite planet/gas4
-		distance 1454.26
-		period 455.403
+		sprite planet/gas6
+		distance 1732.62
+		period 1307.66
+		offset 21.6312
 		object
-			sprite planet/rock14
-			distance 252
-			period 14.1091
+			sprite planet/io
+			distance 278
+			period 11.8395
 		object
-			sprite planet/lava0
-			distance 403
-			period 28.5335
+			sprite planet/europa
+			distance 366
+			period 17.8849
 		object
-			sprite planet/oberon
-			distance 493
-			period 38.6071
-	object
-		sprite planet/uranus
-		distance 2722.15
-		period 1166.28
+			sprite planet/ice0
+			distance 511
+			period 29.505
 
 system Dakmorda
 	pos -49967.4 -56468
@@ -9265,6 +9726,8 @@ system Dardine
 	trade Metal 423
 	trade Plastic 307
 	fleet "Dels Outward Merchant" 600
+	fleet "Dels Kaote" 1000
+	fleet "Dels Ufulre Raid" 2500
 	object
 		sprite star/m0
 		period 10
@@ -10022,7 +10485,7 @@ system "Dek A"
 	minables neodymium 10 14.0019
 	minables tungsten 28 10.6529
 	fleet "Donko Small" 500
-	fleet "Donko Guard Small" 450
+	fleet "Donko Guard Small" 600
 	object
 		sprite star/k5
 		period 10
@@ -10109,13 +10572,16 @@ system "Dek A"
 			period 51.1885
 
 system "Dek A1"
-	pos -48407 -53496.3
+	pos -48381 -53490.3
 	government Donko
 	habitable 135
 	belt 1828
 	link "Dek A"
 	link "Dek A1"
 	link "Dek A2"
+	link "Dek A3"
+	link "Dek B"
+	link "Dorai Nowoku"
 	asteroids "large metal" 1 2.0706
 	asteroids "small rock" 3 4.536
 	asteroids "medium rock" 5 3.465
@@ -10125,9 +10591,8 @@ system "Dek A1"
 	asteroids "large metal" 30 7.182
 	minables iron 14 11.096
 	minables lead 7 14.1663
-	fleet "Donko Guard Small" 500
 	fleet "Donko Small" 650
-	fleet "Donko Guard Small" 500
+	fleet "Donko Guard Small" 600
 	object
 		sprite star/f5
 		distance 46.3685
@@ -10232,9 +10697,7 @@ system "Dek A2"
 	minables copper 3 2.25776
 	minables iron 7 2.63872
 	fleet "Donko Small" 500
-	fleet "Donko Guard Small" 400
-	fleet "Donko Small" 500
-	fleet "Donko Guard Small" 500
+	fleet "Donko Guard Small" 600
 	object
 		sprite star/k5
 		period 10
@@ -10299,6 +10762,7 @@ system "Dek A3"
 	government Donko
 	habitable 1715
 	belt 1346
+	link "Dek A1"
 	link "Dek A2"
 	link "Dek A4"
 	asteroids "small rock" 72 4.686
@@ -10308,6 +10772,7 @@ system "Dek A3"
 	asteroids "medium metal" 26 3.234
 	asteroids "large metal" 22 2.739
 	minables tungsten 6 3.46956
+	fleet "Donko Guard Small" 600
 	object
 		sprite star/f5
 		period 10
@@ -10353,6 +10818,7 @@ system "Dek A4"
 	minables aluminum 4 8.94927
 	minables lead 1 5.57182
 	minables silver 4 7.73673
+	fleet "Donko Guard Small" 600
 	object
 		sprite star/a5
 		distance 12.8394
@@ -10409,8 +10875,11 @@ system "Dek B"
 	habitable 320
 	belt 1774
 	link "Dek A"
+	link "Dek A1"
 	link "Dek B"
 	link "Dek B2"
+	link "Dek B3"
+	link "Dorai Nowoku"
 	asteroids "small rock" 12 5.0949
 	asteroids "medium rock" 66 3.0294
 	asteroids "large rock" 46 4.4982
@@ -10427,10 +10896,8 @@ system "Dek B"
 	minables platinum 9 8.47231
 	minables titanium 24 5.76601
 	fleet "Donko Small" 500
-	fleet "Donko Guard Small" 500
-	fleet "Donko Small" 500
-	fleet "Donko Guard Small" 500
-	fleet "Donko Guard Big" 1000
+	fleet "Donko Guard Small" 600
+	fleet "Donko Miner" 1400
 	object
 		sprite star/g0
 		period 10
@@ -10543,6 +11010,7 @@ system "Dek B1"
 	minables aluminum 4 7.64498
 	minables titanium 4 8.30525
 	minables iron 1 3.44387
+	fleet "Donko Guard Small" 600
 	object
 		sprite star/k5
 		period 10
@@ -10635,20 +11103,20 @@ system "Dek B2"
 	minables tungsten 1 14.9411
 	minables copper 39 6.23319
 	fleet "Donko Small" 500
-	fleet "Donko Guard Small" 500
+	fleet "Donko Guard Small" 600
 	object
 		sprite star/m0
 		period 10
 	object "Losat 87:1"
 		sprite planet/rock16
-		distance 281.924
-		period 105.848
-		offset 349.59
+		distance 383.934
+		period 120.366
+		offset 173.148
 	object
 		sprite planet/gas5
-		distance 1032.41
-		period 741.764
-		offset 163.996
+		distance 1134.42
+		period 611.337
+		offset 11.8858
 		object
 			sprite planet/luna
 			distance 245
@@ -10659,29 +11127,33 @@ system "Dek B2"
 			period 25.5136
 	object
 		sprite planet/venus
-		distance 1587.45
-		period 1414.28
-		offset 52.3795
+		distance 1689.46
+		period 1111.07
+		offset 305.758
 	object
 		sprite planet/gas7
-		distance 3027.34
-		period 3724.58
-		offset 9.86949
+		distance 3129.35
+		period 2800.92
+		offset 350.57
 		object
 			sprite planet/dust3
 			distance 268
 			period 15.6075
 	object
 		sprite star/g5
-		period 10
+		distance 102.01
+		period 16.4849
+		offset 21.5293
 	object
 		sprite planet/cloud0
-		distance 204.29
-		period 46.7187
+		distance 306.3
+		period 85.7711
+		offset 354.183
 	object
 		sprite planet/gas15
-		distance 956.54
-		period 473.342
+		distance 1058.55
+		period 551.045
+		offset 196.334
 		object
 			sprite planet/dust7
 			distance 209
@@ -10700,8 +11172,9 @@ system "Dek B2"
 			period 65.3197
 	object
 		sprite planet/gas9
-		distance 2062.5
-		period 1498.69
+		distance 2164.51
+		period 1611.24
+		offset 199.688
 		object
 			sprite planet/ice7
 			distance 232
@@ -10712,19 +11185,24 @@ system "Dek B2"
 			period 24.6576
 	object
 		sprite star/g5
-		period 10
+		distance 102.01
+		period 16.4849
+		offset 21.5293
 	object
 		sprite planet/rock17
-		distance 145.25
-		period 28.0088
+		distance 247.26
+		period 62.2087
+		offset 213.394
 	object
 		sprite planet/dust6
-		distance 305.25
-		period 85.3303
+		distance 407.26
+		period 131.501
+		offset 348.592
 	object
 		sprite planet/gas2
-		distance 1365.81
-		period 807.617
+		distance 1467.82
+		period 899.765
+		offset 183.302
 		object
 			sprite planet/luna
 			distance 194
@@ -10743,8 +11221,9 @@ system "Dek B2"
 			period 84.1989
 	object
 		sprite planet/jupiter
-		distance 3533.05
-		period 3360.04
+		distance 3635.06
+		period 3506.61
+		offset 53.2967
 		object
 			sprite planet/ice7
 			distance 285
@@ -10759,8 +11238,10 @@ system "Dek B3"
 	government Donko
 	habitable 1215
 	belt 1156
+	link "Dek B"
 	link "Dek B1"
 	link "Dek B2"
+	link "Dorai Nowoku"
 	asteroids "small rock" 4 3.588
 	asteroids "medium rock" 13 4.6176
 	asteroids "large rock" 10 3.9624
@@ -10768,6 +11249,7 @@ system "Dek B3"
 	asteroids "medium metal" 11 2.2152
 	asteroids "large metal" 9 2.5584
 	minables aluminum 12 3.80088
+	fleet "Donko Guard Small" 600
 	object
 		sprite star/g0
 		distance 9.77778
@@ -11001,16 +11483,16 @@ system Dellur
 	asteroids "medium metal" 5 1.1505
 	asteroids "large metal" 5 1.17
 	minables tungsten 7 1.78227
-	trade Clothing 0
-	trade Electronics 0
-	trade Equipment 0
-	trade Food 0
-	trade "Heavy Metals" 0
-	trade Industrial 0
-	trade "Luxury Goods" 0
-	trade Medical 0
-	trade Metal 0
-	trade Plastic 0
+	trade Clothing 339
+	trade Electronics 806
+	trade Equipment 424
+	trade Food 262
+	trade "Heavy Metals" 970
+	trade Industrial 702
+	trade "Luxury Goods" 1027
+	trade Medical 528
+	trade Metal 364
+	trade Plastic 340
 	fleet "Revos small" 1000
 	object
 		sprite star/k0
@@ -11193,7 +11675,7 @@ system Deloop
 		sprite planet/venus
 		distance 155.76
 		period 43.4679
-	object
+	object Lorbukder
 		sprite planet/desert9
 		distance 422.32
 		period 194.065
@@ -12385,16 +12867,17 @@ system Dolker
 	minables copper 1 15.5746
 	minables lead 14 17.3197
 	minables tungsten 1 11.1649
-	trade Clothing 0
-	trade Electronics 0
-	trade Equipment 0
-	trade Food 0
-	trade "Heavy Metals" 0
-	trade Industrial 0
-	trade "Luxury Goods" 0
-	trade Medical 0
-	trade Metal 0
-	trade Plastic 0
+	trade Clothing 277
+	trade Electronics 826
+	trade Equipment 572
+	trade Food 257
+	trade "Heavy Metals" 907
+	trade Industrial 649
+	trade "Luxury Goods" 1114
+	trade Medical 598
+	trade Metal 248
+	trade Plastic 284
+	fleet "Revos small" 1500
 	object
 		sprite star/k5
 		period 10
@@ -12541,14 +13024,13 @@ system Dopolk
 		period 4448.22
 
 system "Dorai Nowoku"
-	pos -48102.3 -53385.2
+	pos -48385.3 -53556.2
 	government Donko
 	habitable 486.68
 	belt 1916
-	link Sa-463
-	link Sa-523
-	link Sa-637
-	link Sa-783
+	link "Dek A1"
+	link "Dek B"
+	link "Dek B3"
 	asteroids "medium rock" 17 1.742
 	asteroids "large rock" 2 1.651
 	asteroids "small metal" 5 1.066
@@ -13939,16 +14421,16 @@ system Durkul
 	minables aluminum 1 15.0085
 	minables silicon 11 11.9613
 	minables titanium 9 14.326
-	trade Clothing 0
-	trade Electronics 0
-	trade Equipment 0
-	trade Food 0
-	trade "Heavy Metals" 0
-	trade Industrial 0
-	trade "Luxury Goods" 0
-	trade Medical 0
-	trade Metal 0
-	trade Plastic 0
+	trade Clothing 322
+	trade Electronics 674
+	trade Equipment 402
+	trade Food 348
+	trade "Heavy Metals" 1046
+	trade Industrial 620
+	trade "Luxury Goods" 1011
+	trade Medical 465
+	trade Metal 499
+	trade Plastic 298
 	object
 		sprite star/k5
 		distance 36.465
@@ -15147,16 +15629,16 @@ system Eidalr
 	asteroids "large metal" 31 1.7325
 	minables aluminum 8 3.41317
 	minables copper 48 3.31656
-	trade Clothing 0
-	trade Electronics 0
-	trade Equipment 0
-	trade Food 0
-	trade "Heavy Metals" 0
-	trade Industrial 0
-	trade "Luxury Goods" 0
-	trade Medical 0
-	trade Metal 0
-	trade Plastic 0
+	trade Clothing 290
+	trade Electronics 808
+	trade Equipment 586
+	trade Food 278
+	trade "Heavy Metals" 907
+	trade Industrial 716
+	trade "Luxury Goods" 1024
+	trade Medical 572
+	trade Metal 244
+	trade Plastic 310
 	object
 		sprite star/g0
 		distance 37.7566
@@ -16407,7 +16889,16 @@ system Eonar'ai
 	haze _menu/haze-red
 	link Eosin
 	asteroids "large metal" 1 3.933
+	trade Clothing 329
+	trade Electronics 768
+	trade Equipment 681
 	trade Food 350
+	trade "Heavy Metals" 677
+	trade Industrial 720
+	trade "Luxury Goods" 1043
+	trade Medical 732
+	trade Metal 390
+	trade Plastic 524
 	fleet "Small Zorcn Vuskr" 800
 	fleet "Large Zorcn Vuskr" 1000
 	fleet "Small Zorcn Merchant" 900
@@ -16462,7 +16953,16 @@ system Eonnisso
 	asteroids "large metal" 19 2.6208
 	minables aluminum 14 3.29509
 	minables silicon 6 6.07008
+	trade Clothing 340
+	trade Electronics 675
+	trade Equipment 629
 	trade Food 350
+	trade "Heavy Metals" 833
+	trade Industrial 702
+	trade "Luxury Goods" 1045
+	trade Medical 710
+	trade Metal 430
+	trade Plastic 481
 	fleet "Small Zorcn Vuskr" 800
 	fleet "Large Zorcn Vuskr" 1000
 	fleet "Small Zorcn Merchant" 900
@@ -16515,7 +17015,16 @@ system Eonsai
 	asteroids "small metal" 4 0.87
 	asteroids "medium metal" 32 1.34
 	asteroids "large metal" 37 0.5
+	trade Clothing 349
+	trade Electronics 800
+	trade Equipment 633
 	trade Food 360
+	trade "Heavy Metals" 821
+	trade Industrial 834
+	trade "Luxury Goods" 985
+	trade Medical 769
+	trade Metal 511
+	trade Plastic 411
 	fleet "Small Zorcn Vuskr" 800
 	fleet "Large Zorcn Vuskr" 1000
 	fleet "Small Zorcn Merchant" 700
@@ -16566,7 +17075,16 @@ system Eosin
 	asteroids "small metal" 1 7.2036
 	asteroids "medium metal" 60 7.2036
 	asteroids "large metal" 38 4.2282
+	trade Clothing 318
+	trade Electronics 755
+	trade Equipment 652
 	trade Food 300
+	trade "Heavy Metals" 754
+	trade Industrial 760
+	trade "Luxury Goods" 1044
+	trade Medical 735
+	trade Metal 430
+	trade Plastic 507
 	fleet "Small Zorcn Vuskr" 800
 	fleet "Large Zorcn Vuskr" 1000
 	fleet "Small Zorcn Merchant" 700
@@ -16619,7 +17137,16 @@ system Eosion
 	asteroids "large metal" 112 9.5904
 	minables copper 20 11.0583
 	minables lead 83 11.4312
+	trade Clothing 342
+	trade Electronics 763
+	trade Equipment 588
 	trade Food 390
+	trade "Heavy Metals" 918
+	trade Industrial 792
+	trade "Luxury Goods" 1005
+	trade Medical 750
+	trade Metal 483
+	trade Plastic 396
 	fleet "Small Zorcn Vuskr" 800
 	fleet "Large Zorcn Vuskr" 1000
 	fleet "Small Zorcn Merchant" 600
@@ -17331,6 +17858,15 @@ system Eten
 	asteroids "large metal" 1 4.4748
 	minables iron 7 5.41554
 	minables lead 17 5.80302
+	trade Clothing 292
+	trade Electronics 809
+	trade Equipment 368
+	trade "Heavy Metals" 957
+	trade Industrial 690
+	trade "Luxury Goods" 1000
+	trade Medical 509
+	trade Metal 486
+	trade Plastic 440
 	fleet "Small Zorcn Vuskr" 1500
 	object
 		sprite star/k5
@@ -17383,6 +17919,15 @@ system Etine
 	asteroids "medium rock" 1 3.8918
 	asteroids "large rock" 8 1.6269
 	asteroids "large metal" 2 1.9459
+	trade Clothing 304
+	trade Electronics 827
+	trade Equipment 366
+	trade "Heavy Metals" 961
+	trade Industrial 717
+	trade "Luxury Goods" 1020
+	trade Medical 521
+	trade Metal 486
+	trade Plastic 457
 	fleet "Small Zorcn Vuskr" 1500
 	object
 		sprite star/k0
@@ -17474,6 +18019,15 @@ system Etrn
 	asteroids "small metal" 1 5.0116
 	asteroids "medium metal" 2 5.1986
 	asteroids "large metal" 7 3.0294
+	trade Clothing 292
+	trade Electronics 702
+	trade Equipment 377
+	trade "Heavy Metals" 1149
+	trade Industrial 755
+	trade "Luxury Goods" 1056
+	trade Medical 677
+	trade Metal 493
+	trade Plastic 265
 	fleet "Small Zorcn Vuskr" 1500
 	object
 		sprite star/k0
@@ -17526,6 +18080,15 @@ system Etsyin
 	minables lead 2 3.96315
 	minables titanium 2 3.26328
 	minables tungsten 2 4.89631
+	trade Clothing 321
+	trade Electronics 775
+	trade Equipment 400
+	trade "Heavy Metals" 1016
+	trade Industrial 688
+	trade "Luxury Goods" 1014
+	trade Medical 588
+	trade Metal 461
+	trade Plastic 374
 	fleet "Small Zorcn Vuskr" 1500
 	object
 		sprite star/f5
@@ -17818,16 +18381,17 @@ system Eundo
 	minables aluminum 26 2.43629
 	minables iron 62 2.18138
 	minables lead 29 1.61736
-	trade Clothing 0
-	trade Electronics 0
-	trade Equipment 0
-	trade Food 0
-	trade "Heavy Metals" 0
-	trade Industrial 0
-	trade "Luxury Goods" 0
-	trade Medical 0
-	trade Metal 0
-	trade Plastic 0
+	trade Clothing 269
+	trade Electronics 849
+	trade Equipment 511
+	trade Food 178
+	trade "Heavy Metals" 846
+	trade Industrial 592
+	trade "Luxury Goods" 1200
+	trade Medical 585
+	trade Metal 244
+	trade Plastic 299
+	fleet "Revos small" 1500
 	object
 		sprite star/k5
 		period 10
@@ -18155,6 +18719,15 @@ system "Far io su"
 	asteroids "small metal" 2 0.8424
 	asteroids "medium metal" 7 1.2168
 	asteroids "large metal" 4 2.1528
+	trade Clothing 329
+	trade Electronics 777
+	trade Equipment 498
+	trade "Heavy Metals" 1146
+	trade Industrial 602
+	trade "Luxury Goods" 1377
+	trade Medical 577
+	trade Metal 262
+	trade Plastic 377
 	fleet Nuru 800
 	object
 		sprite star/g0
@@ -19699,9 +20272,16 @@ system "Fir su na"
 	asteroids "large metal" 2 4.4625
 	minables lead 1 5.0925
 	minables neodymium 1 4.90875
-	trade Clothing 350
+	trade Clothing 292
+	trade Electronics 671
+	trade Equipment 403
 	trade Food 450
-	trade Metal 360
+	trade "Heavy Metals" 694
+	trade Industrial 826
+	trade "Luxury Goods" 1255
+	trade Medical 518
+	trade Metal 560
+	trade Plastic 419
 	fleet Nuru 500
 	object
 		sprite star/g5
@@ -19942,6 +20522,16 @@ system Foklo
 	asteroids "small metal" 3 3.2058
 	asteroids "large metal" 2 1.9656
 	minables copper 1 4.03566
+	trade Clothing 382
+	trade Electronics 681
+	trade Equipment 371
+	trade Food 333
+	trade "Heavy Metals" 1025
+	trade Industrial 647
+	trade "Luxury Goods" 1018
+	trade Medical 467
+	trade Metal 467
+	trade Plastic 352
 	fleet "Revos small" 1000
 	fleet "Revos big" 1500
 	fleet "Revos merchant" 600
@@ -20136,16 +20726,16 @@ system Furmo
 	asteroids "medium metal" 15 5.8786
 	asteroids "large metal" 1 6.4714
 	minables lead 4 8.44571
-	trade Clothing 0
-	trade Electronics 0
-	trade Equipment 0
-	trade Food 0
-	trade "Heavy Metals" 0
-	trade Industrial 0
-	trade "Luxury Goods" 0
-	trade Medical 0
-	trade Metal 0
-	trade Plastic 0
+	trade Clothing 326
+	trade Electronics 673
+	trade Equipment 539
+	trade Food 158
+	trade "Heavy Metals" 781
+	trade Industrial 752
+	trade "Luxury Goods" 1032
+	trade Medical 584
+	trade Metal 452
+	trade Plastic 492
 	fleet "Revos small" 5000
 	object
 		sprite star/f5
@@ -22239,16 +22829,16 @@ system Getga
 			period 13.144
 
 system Giakai
-	pos -51232.7 -53822
+	pos -51702.1 -55902.8
 	government Uninhabited
 	habitable 425.92
 	belt 1183
-	asteroids "small rock" 8 2.366
-	asteroids "medium rock" 44 4.9348
-	asteroids "large rock" 2 1.9604
-	asteroids "small metal" 41 3.042
-	asteroids "medium metal" 12 4.5292
-	asteroids "large metal" 8 4.2588
+	asteroids "small rock" 9 3.0268
+	asteroids "medium rock" 49 4.7012
+	asteroids "large rock" 88 3.1234
+	asteroids "small metal" 17 3.1556
+	asteroids "medium metal" 26 1.61
+	asteroids "large metal" 46 2.9302
 	minables aluminum 8 4.02294
 	object
 		sprite star/k5
@@ -22258,21 +22848,25 @@ system Giakai
 		distance 201.16
 		period 55.2979
 	object
-		sprite planet/ocean2
-		distance 455
-		period 188.111
+		sprite planet/lava4
+		distance 433
+		period 174.634
+		offset 137.984
 	object
 		sprite planet/gas2
-		distance 1127.01
-		period 733.31
+		distance 1083.01
+		period 690.788
+		offset 93.6018
 	object
 		sprite planet/rhea
-		distance 1830.42
-		period 1517.83
+		distance 1786.42
+		period 1463.43
+		offset 282.275
 	object
 		sprite planet/neptune
-		distance 2597.31
-		period 2565.56
+		distance 2553.31
+		period 2500.64
+		offset 327.887
 		object
 			sprite planet/io
 			distance 218
@@ -23188,7 +23782,16 @@ system "Go se ri"
 	asteroids "small metal" 15 3.705
 	asteroids "medium metal" 44 2.275
 	asteroids "large metal" 89 4.81
+	trade Clothing 230
+	trade Electronics 642
+	trade Equipment 578
 	trade Food 370
+	trade "Heavy Metals" 956
+	trade Industrial 793
+	trade "Luxury Goods" 1265
+	trade Medical 494
+	trade Metal 419
+	trade Plastic 474
 	fleet Nuru 500
 	fleet "Small Zorcn Merchant" 900
 	object
@@ -23265,7 +23868,7 @@ system "Goklaro Han"
 		sprite planet/rock15
 		distance 771.049
 		period 278.591
-	object
+	object Okelgaris
 		sprite planet/ocean5
 		distance 1054.05
 		period 445.282
@@ -23416,6 +24019,15 @@ system "Gor ser i"
 	asteroids "small metal" 5 4.312
 	asteroids "medium metal" 1 1.9096
 	asteroids "large metal" 10 2.7104
+	trade Clothing 286
+	trade Electronics 812
+	trade Equipment 528
+	trade "Heavy Metals" 1047
+	trade Industrial 783
+	trade "Luxury Goods" 1456
+	trade Medical 662
+	trade Metal 486
+	trade Plastic 297
 	fleet Nuru 800
 	object
 		sprite star/m0
@@ -25223,7 +25835,16 @@ system Guvasu
 	minables aluminum 32 3.36055
 	minables lead 9 3.21058
 	minables uranium 11 2.27331
+	trade Clothing 290
+	trade Electronics 743
+	trade Equipment 545
 	trade Food 180
+	trade "Heavy Metals" 998
+	trade Industrial 742
+	trade "Luxury Goods" 1206
+	trade Medical 637
+	trade Metal 291
+	trade Plastic 485
 	fleet "Small Zorcn Vuskr" 800
 	fleet "Large Zorcn Vuskr" 1000
 	fleet "Small Zorcn Merchant" 800
@@ -25266,16 +25887,16 @@ system Guvin
 	asteroids "small metal" 6 2.508
 	asteroids "medium metal" 65 1.496
 	asteroids "large metal" 12 3.212
-	trade Clothing 240
-	trade Electronics 680
-	trade Equipment 560
+	trade Clothing 271
+	trade Electronics 675
+	trade Equipment 595
 	trade Food 290
-	trade "Heavy Metals" 900
-	trade Industrial 760
-	trade "Luxury Goods" 1100
-	trade Medical 600
-	trade Metal 290
-	trade Plastic 300
+	trade "Heavy Metals" 1024
+	trade Industrial 835
+	trade "Luxury Goods" 1261
+	trade Medical 574
+	trade Metal 288
+	trade Plastic 451
 	fleet "Small Zorcn Vuskr" 800
 	fleet "Large Zorcn Vuskr" 1000
 	fleet Nuru 4000
@@ -25321,7 +25942,16 @@ system Guvran
 	asteroids "small metal" 7 2.394
 	asteroids "medium metal" 191 3.4048
 	asteroids "large metal" 1 3.059
+	trade Clothing 239
+	trade Electronics 808
+	trade Equipment 633
 	trade Food 230
+	trade "Heavy Metals" 960
+	trade Industrial 815
+	trade "Luxury Goods" 1211
+	trade Medical 614
+	trade Metal 277
+	trade Plastic 498
 	fleet "Small Zorcn Vuskr" 800
 	fleet "Large Zorcn Vuskr" 1000
 	fleet "Small Zorcn Merchant" 800
@@ -25372,7 +26002,16 @@ system Guvrn
 	asteroids "medium metal" 6 7.7112
 	asteroids "large metal" 15 8.3592
 	minables tungsten 27 5.84583
+	trade Clothing 270
+	trade Electronics 762
+	trade Equipment 602
 	trade Food 130
+	trade "Heavy Metals" 915
+	trade Industrial 753
+	trade "Luxury Goods" 1281
+	trade Medical 587
+	trade Metal 304
+	trade Plastic 486
 	fleet "Small Zorcn Vuskr" 800
 	fleet "Large Zorcn Vuskr" 1000
 	fleet "Small Zorcn Merchant" 800
@@ -25773,18 +26412,21 @@ system Halcaka
 		sprite planet/dust2
 		distance 130.56
 		period 39.0694
-	object
+	object Cudeelu
 		sprite planet/rock18
-		distance 475.56
-		period 271.6
+		distance 355.224
+		period 175.338
+		offset 41.4284
 	object
 		sprite planet/rock16
-		distance 832.85
-		period 629.465
+		distance 712.514
+		period 498.094
+		offset 152.497
 	object
 		sprite planet/gas10
-		distance 1697.26
-		period 1831.23
+		distance 1576.92
+		period 1639.98
+		offset 54.8802
 		object
 			sprite planet/dust1
 			distance 234
@@ -25951,20 +26593,23 @@ system "Haola Lesu"
 		period 10
 	object Gohasiki
 		sprite planet/cloud3
-		distance 201.24
-		period 51.7618
+		distance 312.51
+		period 100.169
+		offset 21.1291
 	object
 		sprite planet/ocean4
-		distance 552.45
-		period 235.439
+		distance 663.72
+		period 310.038
+		offset 214.361
 		object
 			sprite planet/rock17
 			distance 154
 			period 17.3985
 	object
 		sprite planet/gas5
-		distance 1702.66
-		period 1273.88
+		distance 1813.93
+		period 1400.78
+		offset 315.522
 		object
 			sprite planet/lava0
 			distance 273
@@ -26701,7 +27346,6 @@ system Heulree
 	fleet "Dels Central Merchant" 800
 	fleet "Dels Kaote" 500
 	fleet "Dels Outward Merchant" 600
-	fleet "Dels Central Merchant" 800
 	object
 		sprite star/k5
 		period 10
@@ -27051,9 +27695,16 @@ system "Hok si"
 	asteroids "small metal" 1 5.4288
 	asteroids "medium metal" 3 3.4684
 	asteroids "large metal" 1 3.7323
-	trade Clothing 230
+	trade Clothing 279
+	trade Electronics 672
+	trade Equipment 482
 	trade Food 380
-	trade Metal 350
+	trade "Heavy Metals" 855
+	trade Industrial 824
+	trade "Luxury Goods" 1217
+	trade Medical 495
+	trade Metal 515
+	trade Plastic 451
 	fleet Nuru 500
 	fleet "Small Zorcn Merchant" 700
 	object
@@ -27311,6 +27962,8 @@ system Huadinee
 	trade Metal 442
 	trade Plastic 300
 	fleet "Dels Outward Merchant" 600
+	fleet "Dels Kaote" 1000
+	fleet "Dels Central Merchant" 1200
 	object
 		sprite star/k5
 		period 10
@@ -27361,16 +28014,16 @@ system Huein
 	asteroids "large metal" 15 1.9591
 	minables copper 3 2.44029
 	minables iron 5 2.24568
-	trade Clothing 199
-	trade Electronics 700
-	trade Equipment 490
+	trade Clothing 279
+	trade Electronics 741
+	trade Equipment 673
 	trade Food 260
-	trade "Heavy Metals" 1049
-	trade Industrial 890
-	trade "Luxury Goods" 1265
-	trade Medical 640
-	trade Metal 493
-	trade Plastic 336
+	trade "Heavy Metals" 863
+	trade Industrial 815
+	trade "Luxury Goods" 1088
+	trade Medical 718
+	trade Metal 458
+	trade Plastic 425
 	fleet "Small Zorcn Vuskr" 600
 	fleet "Large Zorcn Vuskr" 800
 	fleet Nuru 4000
@@ -27447,7 +28100,16 @@ system Hulis
 	asteroids "small metal" 1 3.456
 	asteroids "medium metal" 18 3.1104
 	asteroids "large metal" 8 2.88
+	trade Clothing 308
+	trade Electronics 811
+	trade Equipment 625
 	trade Food 280
+	trade "Heavy Metals" 833
+	trade Industrial 820
+	trade "Luxury Goods" 1065
+	trade Medical 758
+	trade Metal 443
+	trade Plastic 486
 	fleet "Small Zorcn Vuskr" 800
 	fleet "Large Zorcn Vuskr" 1000
 	fleet "Small Zorcn Merchant" 400
@@ -27572,7 +28234,16 @@ system Hunos
 	minables neodymium 3 1.58471
 	minables titanium 1 1.73652
 	minables tungsten 3 1.23914
+	trade Clothing 280
+	trade Electronics 766
+	trade Equipment 657
 	trade Food 270
+	trade "Heavy Metals" 873
+	trade Industrial 715
+	trade "Luxury Goods" 1156
+	trade Medical 865
+	trade Metal 521
+	trade Plastic 476
 	fleet "Small Zorcn Vuskr" 800
 	fleet "Large Zorcn Vuskr" 1200
 	fleet "Small Zorcn Merchant" 800
@@ -27626,7 +28297,16 @@ system Hunysin
 	asteroids "small metal" 5 4.2891
 	asteroids "medium metal" 13 5.3824
 	asteroids "large metal" 8 12.615
+	trade Clothing 225
+	trade Electronics 829
+	trade Equipment 635
 	trade Food 300
+	trade "Heavy Metals" 918
+	trade Industrial 719
+	trade "Luxury Goods" 1165
+	trade Medical 861
+	trade Metal 398
+	trade Plastic 404
 	fleet "Small Zorcn Vuskr" 800
 	fleet "Large Zorcn Vuskr" 1000
 	fleet "Small Zorcn Merchant" 600
@@ -27669,7 +28349,16 @@ system Hurrei
 	minables aluminum 19 4.28164
 	minables copper 12 5.80234
 	minables iron 26 7.13739
+	trade Clothing 340
+	trade Electronics 774
+	trade Equipment 677
 	trade Food 220
+	trade "Heavy Metals" 854
+	trade Industrial 787
+	trade "Luxury Goods" 1085
+	trade Medical 793
+	trade Metal 532
+	trade Plastic 466
 	fleet "Small Zorcn Vuskr" 800
 	fleet "Large Zorcn Vuskr" 1000
 	fleet "Small Zorcn Merchant" 800
@@ -28422,15 +29111,16 @@ system Ignelio
 			period 50.7177
 
 system Igsiai
-	pos -51238.3 -53736.8
+	pos -51329.7 -56138.1
 	government Uninhabited
 	habitable 8645
 	belt 1888
-	asteroids "small rock" 7 4.6512
-	asteroids "medium rock" 2 2.9376
-	asteroids "large rock" 9 2.5296
-	asteroids "medium metal" 80 3.3048
-	asteroids "large metal" 13 5.1
+	asteroids "small rock" 8 1.924
+	asteroids "medium rock" 57 1.131
+	asteroids "large rock" 13 0.884
+	asteroids "small metal" 3 1.378
+	asteroids "medium metal" 237 1.391
+	asteroids "large metal" 3 0.923
 	minables iron 23 4.80852
 	minables lead 7 6.26661
 	object
@@ -28443,13 +29133,15 @@ system Igsiai
 		distance 96.0093
 		period 9.2011
 	object
-		sprite planet/ice2
-		distance 322.259
-		period 24.8877
+		sprite planet/lava3
+		distance 1169.09
+		period 171.968
+		offset 150.498
 	object
 		sprite planet/gas0
-		distance 1101.26
-		period 157.221
+		distance 1937.09
+		period 366.777
+		offset 51.5582
 		object
 			sprite planet/tethys
 			distance 274
@@ -28460,8 +29152,9 @@ system Igsiai
 			period 24.7759
 	object
 		sprite planet/gas8
-		distance 2083.55
-		period 409.151
+		distance 2919.38
+		period 678.599
+		offset 114.12
 		object
 			sprite planet/dust4
 			distance 219
@@ -28542,6 +29235,15 @@ system "Ii su"
 	asteroids "large rock" 83 6.5208
 	asteroids "small metal" 7 3.6608
 	asteroids "large metal" 10 7.722
+	trade Clothing 293
+	trade Electronics 783
+	trade Equipment 441
+	trade "Heavy Metals" 1081
+	trade Industrial 672
+	trade "Luxury Goods" 1366
+	trade Medical 651
+	trade Metal 319
+	trade Plastic 305
 	fleet Nuru 800
 	object
 		sprite star/g0
@@ -30191,29 +30893,40 @@ system "Irshall Mer"
 	asteroids "large metal" 13 5.3824
 	minables platinum 28 15.7304
 	minables uranium 23 12.7878
+	fleet "Donko Miner" 1400
 	object
 		sprite star/g5
 		period 10
 	object
-		sprite planet/cloud7
-		distance 178.64
-		period 38.2022
+		sprite planet/luna
+		distance 170.76
+		period 35.7025
 	object
-		sprite planet/lava3
-		distance 370.48
-		period 114.095
+		sprite planet/mercury
+		distance 338.8
+		period 99.7781
+	object "Melor 526:1"
+		sprite planet/rock6
+		distance 825.484
+		period 379.475
+		offset 200.692
 	object
-		sprite planet/rock5
-		distance 748.97
-		period 327.957
-	object
-		sprite planet/oberon
-		distance 988.98
-		period 497.624
-	object
-		sprite planet/uranus
-		distance 2181.98
-		period 1630.78
+		sprite planet/jupiter
+		distance 1668.73
+		period 1090.69
+		offset 116.638
+		object
+			sprite planet/rock17
+			distance 265
+			period 13.556
+		object
+			sprite planet/dust7
+			distance 382
+			period 23.4616
+		object
+			sprite planet/io
+			distance 472
+			period 32.2236
 
 system Irviggo
 	pos -50326.4 -55070.1
@@ -30340,6 +31053,15 @@ system "Is mur"
 	asteroids "small metal" 19 3.496
 	asteroids "medium metal" 6 2.204
 	asteroids "large metal" 2 3.344
+	trade Clothing 230
+	trade Electronics 736
+	trade Equipment 462
+	trade "Heavy Metals" 890
+	trade Industrial 809
+	trade "Luxury Goods" 1269
+	trade Medical 614
+	trade Metal 356
+	trade Plastic 341
 	object
 		sprite star/g5
 		period 10
@@ -31304,10 +32026,16 @@ system Izarr
 	asteroids "small metal" 40 3.399
 	asteroids "medium metal" 14 2.805
 	asteroids "large metal" 48 3.135
-	trade Clothing 360
-	trade Equipment 500
+	trade Clothing 209
+	trade Electronics 669
+	trade Equipment 649
 	trade Food 130
-	trade "Luxury Goods" 1100
+	trade "Heavy Metals" 963
+	trade Industrial 667
+	trade "Luxury Goods" 1353
+	trade Medical 557
+	trade Metal 290
+	trade Plastic 331
 	fleet "Small Zorcn Vuskr" 800
 	fleet "Large Zorcn Vuskr" 1000
 	fleet Nuru 2000
@@ -31353,7 +32081,16 @@ system Iznai
 	link Iznes
 	link "Mar si ver"
 	asteroids "large metal" 1 2.2374
+	trade Clothing 228
+	trade Electronics 678
+	trade Equipment 642
 	trade Food 144
+	trade "Heavy Metals" 1073
+	trade Industrial 602
+	trade "Luxury Goods" 1418
+	trade Medical 578
+	trade Metal 317
+	trade Plastic 304
 	fleet "Small Zorcn Vuskr" 800
 	fleet "Large Zorcn Vuskr" 1000
 	fleet Nuru 1200
@@ -31404,7 +32141,16 @@ system Iznes
 	link Izzin
 	link Kurnes
 	asteroids "large metal" 1 7.14
+	trade Clothing 267
+	trade Electronics 743
+	trade Equipment 639
 	trade Food 145
+	trade "Heavy Metals" 970
+	trade Industrial 641
+	trade "Luxury Goods" 1431
+	trade Medical 512
+	trade Metal 292
+	trade Plastic 333
 	fleet "Small Zorcn Vuskr" 800
 	fleet "Large Zorcn Vuskr" 1000
 	fleet Nuru 1200
@@ -31455,7 +32201,16 @@ system Izzin
 	asteroids "large rock" 2 3.8194
 	asteroids "small metal" 1 2.2308
 	asteroids "large metal" 1 4.0898
+	trade Clothing 241
+	trade Electronics 711
+	trade Equipment 640
 	trade Food 180
+	trade "Heavy Metals" 960
+	trade Industrial 705
+	trade "Luxury Goods" 1382
+	trade Medical 499
+	trade Metal 294
+	trade Plastic 408
 	fleet "Small Zorcn Vuskr" 800
 	fleet "Large Zorcn Vuskr" 1000
 	fleet Nuru 4000
@@ -31690,6 +32445,7 @@ system Jerteano
 	trade Medical 758
 	trade Metal 321
 	trade Plastic 457
+	fleet "Dels Outward Merchant" 2000
 	object
 		sprite star/k0
 		period 10
@@ -34169,6 +34925,15 @@ system "Ke er a"
 	asteroids "small metal" 15 3.036
 	asteroids "medium metal" 30 2.904
 	asteroids "large metal" 44 4.455
+	trade Clothing 292
+	trade Electronics 712
+	trade Equipment 563
+	trade "Heavy Metals" 1027
+	trade Industrial 796
+	trade "Luxury Goods" 1378
+	trade Medical 575
+	trade Metal 414
+	trade Plastic 381
 	fleet Nuru 800
 	object
 		sprite star/a5
@@ -34389,6 +35154,9 @@ system Keedulva
 	trade Medical 717
 	trade Metal 323
 	trade Plastic 469
+	fleet "Dels Outward Merchant" 1000
+	fleet "Dels Kaote" 1000
+	fleet "Dels Ufulre Raid" 1500
 	object
 		sprite star/g5
 		distance 53.4101
@@ -37470,6 +38238,15 @@ system "Ki ya er"
 	asteroids "small metal" 1 1.8216
 	asteroids "medium metal" 37 3.6696
 	asteroids "large metal" 4 3.8016
+	trade Clothing 378
+	trade Electronics 719
+	trade Equipment 654
+	trade "Heavy Metals" 1080
+	trade Industrial 605
+	trade "Luxury Goods" 1330
+	trade Medical 800
+	trade Metal 301
+	trade Plastic 294
 	fleet Nuru 800
 	object
 		sprite star/k0
@@ -43018,6 +43795,16 @@ system Kolha
 	asteroids "large metal" 4 3.2634
 	minables copper 6 3.29043
 	minables neodymium 2 2.36594
+	trade Clothing 411
+	trade Electronics 677
+	trade Equipment 385
+	trade Food 262
+	trade "Heavy Metals" 959
+	trade Industrial 733
+	trade "Luxury Goods" 959
+	trade Medical 469
+	trade Metal 468
+	trade Plastic 432
 	fleet "Revos small" 1000
 	fleet "Revos big" 1500
 	fleet "Revos merchant" 600
@@ -43781,6 +44568,16 @@ system Kotai
 	asteroids "small metal" 3 3.996
 	asteroids "large metal" 8 3.672
 	minables aluminum 1 6.81378
+	trade Clothing 308
+	trade Electronics 669
+	trade Equipment 682
+	trade Food 439
+	trade "Heavy Metals" 557
+	trade Industrial 663
+	trade "Luxury Goods" 1303
+	trade Medical 684
+	trade Metal 265
+	trade Plastic 471
 	fleet "Revos small" 1000
 	fleet "Revos merchant" 600
 	fleet "Revos big" 1500
@@ -44143,6 +44940,15 @@ system "Ku se a"
 	asteroids "small metal" 21 1.9
 	asteroids "medium metal" 29 2.55
 	asteroids "large metal" 18 2
+	trade Clothing 242
+	trade Electronics 693
+	trade Equipment 451
+	trade "Heavy Metals" 866
+	trade Industrial 778
+	trade "Luxury Goods" 1167
+	trade Medical 538
+	trade Metal 377
+	trade Plastic 385
 	fleet Nuru 800
 	object
 		sprite star/g0
@@ -45123,16 +45929,17 @@ system Kulor
 	asteroids "large metal" 16 2.4624
 	minables aluminum 5 5.65788
 	minables tungsten 35 5.40928
-	trade Clothing 0
-	trade Electronics 0
-	trade Equipment 0
-	trade Food 0
-	trade "Heavy Metals" 0
-	trade Industrial 0
-	trade "Luxury Goods" 0
-	trade Medical 0
-	trade Metal 0
-	trade Plastic 0
+	trade Clothing 242
+	trade Electronics 809
+	trade Equipment 627
+	trade Food 290
+	trade "Heavy Metals" 915
+	trade Industrial 725
+	trade "Luxury Goods" 1193
+	trade Medical 721
+	trade Metal 325
+	trade Plastic 266
+	fleet "Revos small" 1500
 	object
 		sprite star/g0
 		distance 37.0235
@@ -45371,9 +46178,16 @@ system "Kur go"
 	minables aluminum 3 6.02908
 	minables iron 7 10.4413
 	minables tungsten 28 9.20257
-	trade Clothing 260
+	trade Clothing 302
+	trade Electronics 699
+	trade Equipment 457
 	trade Food 370
-	trade Metal 400
+	trade "Heavy Metals" 752
+	trade Industrial 857
+	trade "Luxury Goods" 1264
+	trade Medical 503
+	trade Metal 560
+	trade Plastic 449
 	fleet Nuru 500
 	fleet "Small Zorcn Merchant" 700
 	fleet "Large Zorcn Merchant" 800
@@ -45597,8 +46411,16 @@ system Kurmak
 	asteroids "small metal" 33 3.0107
 	asteroids "medium metal" 47 2.6312
 	asteroids "large metal" 3 3.5926
+	trade Clothing 304
+	trade Electronics 812
+	trade Equipment 634
 	trade Food 330
-	trade Medical 800
+	trade "Heavy Metals" 900
+	trade Industrial 729
+	trade "Luxury Goods" 1315
+	trade Medical 493
+	trade Metal 263
+	trade Plastic 295
 	fleet "Small Zorcn Vuskr" 800
 	fleet "Large Zorcn Vuskr" 1000
 	fleet "Small Zorcn Merchant" 800
@@ -45643,8 +46465,16 @@ system Kurnes
 	asteroids "large metal" 2 4.2672
 	minables silver 7 4.92022
 	minables titanium 13 4.55091
+	trade Clothing 341
+	trade Electronics 824
+	trade Equipment 615
 	trade Food 255
-	trade Medical 760
+	trade "Heavy Metals" 885
+	trade Industrial 707
+	trade "Luxury Goods" 1384
+	trade Medical 493
+	trade Metal 250
+	trade Plastic 300
 	fleet "Small Zorcn Vuskr" 800
 	fleet "Large Zorcn Vuskr" 1000
 	fleet "Small Zorcn Merchant" 800
@@ -45690,8 +46520,16 @@ system Kursek
 	asteroids "small metal" 108 3.28
 	asteroids "medium metal" 42 4.04
 	asteroids "large metal" 7 3.92
+	trade Clothing 294
+	trade Electronics 820
+	trade Equipment 620
 	trade Food 320
-	trade Medical 900
+	trade "Heavy Metals" 899
+	trade Industrial 688
+	trade "Luxury Goods" 1411
+	trade Medical 477
+	trade Metal 251
+	trade Plastic 276
 	fleet "Small Zorcn Vuskr" 800
 	fleet "Large Zorcn Vuskr" 1000
 	fleet "Small Zorcn Merchant" 800
@@ -45740,7 +46578,16 @@ system Kurzun
 	asteroids "large metal" 8 5.5216
 	minables aluminum 4 8.66281
 	minables tungsten 25 8.15057
+	trade Clothing 268
+	trade Electronics 831
+	trade Equipment 608
 	trade Food 330
+	trade "Heavy Metals" 910
+	trade Industrial 710
+	trade "Luxury Goods" 1345
+	trade Medical 486
+	trade Metal 257
+	trade Plastic 290
 	fleet "Small Zorcn Vuskr" 800
 	fleet "Large Zorcn Vuskr" 1000
 	fleet "Zorcn Miner" 1500
@@ -46090,9 +46937,16 @@ system "La lei no"
 	minables aluminum 5 2.50166
 	minables copper 4 2.89702
 	minables uranium 12 3.2191
-	trade Clothing 300
+	trade Clothing 267
+	trade Electronics 660
+	trade Equipment 398
 	trade Food 400
-	trade Metal 420
+	trade "Heavy Metals" 699
+	trade Industrial 872
+	trade "Luxury Goods" 1233
+	trade Medical 505
+	trade Metal 524
+	trade Plastic 382
 	fleet Nuru 500
 	object
 		sprite star/b5
@@ -46441,6 +47295,7 @@ system Ledeero
 	trade Metal 392
 	trade Plastic 499
 	fleet "Dels Kaote" 1000
+	fleet "Dels Outward Merchant" 700
 	object
 		sprite star/k5
 		period 10
@@ -46556,6 +47411,7 @@ system Leeironarve
 	trade Medical 678
 	trade Metal 506
 	trade Plastic 480
+	fleet "Dels Frontier Merchant" 800
 	object
 		sprite star/m0
 		period 10
@@ -46837,6 +47693,7 @@ system Lelerno
 	link Alnor
 	link Bustar
 	link Kotai
+	link Leuranu
 	link Soarel
 	asteroids "small rock" 67 3.7664
 	asteroids "medium rock" 219 4.6464
@@ -46844,6 +47701,16 @@ system Lelerno
 	asteroids "small metal" 6 2.0768
 	asteroids "medium metal" 46 2.112
 	asteroids "large metal" 3 1.8304
+	trade Clothing 249
+	trade Electronics 663
+	trade Equipment 676
+	trade Food 365
+	trade "Heavy Metals" 1051
+	trade Industrial 639
+	trade "Luxury Goods" 1366
+	trade Medical 683
+	trade Metal 262
+	trade Plastic 440
 	fleet "Revos small" 1000
 	fleet "Revos merchant" 600
 	fleet "Revos big" 1500
@@ -46956,6 +47823,16 @@ system Lenail
 	asteroids "large metal" 16 3.276
 	minables iron 3 5.73291
 	minables platinum 4 4.55579
+	trade Clothing 305
+	trade Electronics 723
+	trade Equipment 675
+	trade Food 522
+	trade "Heavy Metals" 872
+	trade Industrial 864
+	trade "Luxury Goods" 1464
+	trade Medical 789
+	trade Metal 294
+	trade Plastic 444
 	fleet "Revos small" 1500
 	object
 		sprite star/g5
@@ -47230,6 +48107,15 @@ system "Ler si ea"
 	asteroids "large rock" 83 6.5888
 	asteroids "medium metal" 15 4.176
 	asteroids "large metal" 2 5.568
+	trade Clothing 328
+	trade Electronics 786
+	trade Equipment 500
+	trade "Heavy Metals" 1107
+	trade Industrial 634
+	trade "Luxury Goods" 1310
+	trade Medical 545
+	trade Metal 282
+	trade Plastic 298
 	object
 		sprite star/m0
 		period 10
@@ -47785,6 +48671,68 @@ system Leunorra
 		period 2252.4
 		offset 347.617
 
+system Leuranu
+	pos -49770.9 -54877.6
+	government Revos
+	habitable 486.68
+	belt 1559
+	link Bustar
+	link Lelerno
+	link Mrulevor
+	asteroids "small rock" 36 8.1732
+	asteroids "medium rock" 269 8.7024
+	asteroids "large rock" 4 4.704
+	asteroids "small metal" 7 5.4684
+	asteroids "medium metal" 35 6.5856
+	asteroids "large metal" 10 3.528
+	minables iron 1 16.1505
+	trade Clothing 261
+	trade Electronics 723
+	trade Equipment 675
+	trade Food 303
+	trade "Heavy Metals" 1230
+	trade Industrial 625
+	trade "Luxury Goods" 1429
+	trade Medical 606
+	trade Metal 314
+	trade Plastic 411
+	fleet "Revos small" 1000
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/lava3
+		distance 231.09
+		period 63.6957
+	object
+		sprite planet/cloud8
+		distance 448.1
+		period 171.989
+	object
+		sprite planet/cloud4
+		distance 1118.34
+		period 678.108
+		object
+			sprite planet/lava0
+			distance 164
+			period 19.7541
+	object
+		sprite planet/neptune
+		distance 1921.38
+		period 1527.07
+		object
+			sprite planet/rock14
+			distance 220
+			period 16.258
+		object
+			sprite planet/rock7
+			distance 342
+			period 31.5117
+		object
+			sprite planet/rock17
+			distance 486
+			period 53.381
+
 system "Li par "
 	pos -50515.8 -53366
 	government Nuru
@@ -47800,7 +48748,16 @@ system "Li par "
 	asteroids "large rock" 43 4.186
 	asteroids "medium metal" 25 1.9642
 	asteroids "large metal" 2 3.5098
+	trade Clothing 241
+	trade Electronics 677
+	trade Equipment 485
 	trade Food 460
+	trade "Heavy Metals" 924
+	trade Industrial 807
+	trade "Luxury Goods" 1289
+	trade Medical 589
+	trade Metal 376
+	trade Plastic 385
 	fleet Nuru 800
 	object
 		sprite star/f5
@@ -48654,16 +49611,16 @@ system Linol
 	asteroids "medium metal" 20 3.216
 	asteroids "large metal" 2 3.504
 	minables iron 6 4.37969
-	trade Clothing 0
-	trade Electronics 0
-	trade Equipment 0
-	trade Food 0
-	trade "Heavy Metals" 0
-	trade Industrial 0
-	trade "Luxury Goods" 0
-	trade Medical 0
-	trade Metal 0
-	trade Plastic 0
+	trade Clothing 190
+	trade Electronics 843
+	trade Equipment 417
+	trade Food 249
+	trade "Heavy Metals" 979
+	trade Industrial 813
+	trade "Luxury Goods" 1080
+	trade Medical 488
+	trade Metal 427
+	trade Plastic 464
 	object
 		sprite star/f5
 		distance 23.2763
@@ -48757,16 +49714,16 @@ system Lirel
 	asteroids "small metal" 4 1.2544
 	asteroids "medium metal" 52 2.2344
 	asteroids "large metal" 3 1.4308
-	trade Clothing 0
-	trade Electronics 0
-	trade Equipment 0
-	trade Food 0
-	trade "Heavy Metals" 0
-	trade Industrial 0
-	trade "Luxury Goods" 0
-	trade Medical 0
-	trade Metal 0
-	trade Plastic 0
+	trade Clothing 297
+	trade Electronics 609
+	trade Equipment 562
+	trade Food 140
+	trade "Heavy Metals" 1015
+	trade Industrial 778
+	trade "Luxury Goods" 1076
+	trade Medical 551
+	trade Metal 343
+	trade Plastic 431
 	fleet "Revos small" 1000
 	object
 		sprite star/a0
@@ -48913,6 +49870,15 @@ system "Lo re ai"
 	asteroids "small metal" 2 3.6792
 	asteroids "medium metal" 18 3.78
 	asteroids "large metal" 3 3.1248
+	trade Clothing 325
+	trade Electronics 700
+	trade Equipment 565
+	trade "Heavy Metals" 1075
+	trade Industrial 572
+	trade "Luxury Goods" 1471
+	trade Medical 539
+	trade Metal 255
+	trade Plastic 325
 	fleet Nuru 800
 	object
 		sprite star/k5
@@ -49441,6 +50407,15 @@ system "Lor ai"
 	minables iron 5 3.57544
 	minables titanium 27 3.0641
 	minables uranium 5 3.43219
+	trade Clothing 339
+	trade Electronics 791
+	trade Equipment 537
+	trade "Heavy Metals" 1086
+	trade Industrial 642
+	trade "Luxury Goods" 1390
+	trade Medical 486
+	trade Metal 243
+	trade Plastic 342
 	fleet Nuru 800
 	object
 		sprite star/g0
@@ -50074,6 +51049,7 @@ system Lukeeradu
 	trade Medical 582
 	trade Metal 459
 	trade Plastic 520
+	fleet "Dels Frontier Merchant" 700
 	object
 		sprite star/g0
 		period 10
@@ -50466,6 +51442,7 @@ system Lumaar
 	trade Medical 760
 	trade Metal 268
 	trade Plastic 468
+	fleet "Dels Outward Merchant" 700
 	object
 		sprite star/g0
 		period 10
@@ -50533,7 +51510,16 @@ system "Ma os ii"
 	asteroids "small metal" 9 1.86
 	asteroids "medium metal" 55 1.14
 	asteroids "large metal" 11 1.86
+	trade Clothing 210
+	trade Electronics 648
+	trade Equipment 650
 	trade Food 240
+	trade "Heavy Metals" 1051
+	trade Industrial 799
+	trade "Luxury Goods" 1342
+	trade Medical 569
+	trade Metal 411
+	trade Plastic 448
 	fleet Nuru 800
 	fleet "Small Zorcn Vuskr" 1800
 	fleet "Large Zorcn Vuskr" 2200
@@ -50589,6 +51575,8 @@ system Maakoren
 	trade Medical 697
 	trade Metal 324
 	trade Plastic 460
+	fleet "Dels Outward Merchant" 800
+	fleet "Dels Kaote" 1000
 	object
 		sprite star/g0
 		period 10
@@ -50635,6 +51623,15 @@ system Maaynai
 	asteroids "small metal" 53 5.8725
 	asteroids "medium metal" 80 3.321
 	asteroids "large metal" 34 2.106
+	trade Clothing 284
+	trade Electronics 680
+	trade Equipment 646
+	trade "Heavy Metals" 920
+	trade Industrial 599
+	trade "Luxury Goods" 1254
+	trade Medical 860
+	trade Metal 251
+	trade Plastic 330
 	fleet "Small Zorcn Vuskr" 800
 	fleet "Large Zorcn Vuskr" 1000
 	object
@@ -51100,7 +52097,7 @@ system Maggelor
 			period 12.6143
 
 system Magosen-L2885
-	pos -48854.9 -56597
+	pos -48859.9 -56594
 	government Wallagi
 	habitable 1715
 	asteroids "small rock" 4 7.566
@@ -51439,6 +52436,15 @@ system "Mai tai"
 	asteroids "small metal" 2 1.32
 	asteroids "medium metal" 8 1.92
 	asteroids "large metal" 1 2.664
+	trade Clothing 203
+	trade Electronics 749
+	trade Equipment 548
+	trade "Heavy Metals" 1059
+	trade Industrial 751
+	trade "Luxury Goods" 1428
+	trade Medical 857
+	trade Metal 209
+	trade Plastic 281
 	fleet Nuru 1200
 	object
 		sprite star/m4
@@ -51488,9 +52494,16 @@ system "Mai yu "
 	asteroids "small metal" 6 2.508
 	asteroids "medium metal" 65 1.496
 	asteroids "large metal" 12 3.212
-	trade Clothing 280
+	trade Clothing 286
+	trade Electronics 673
+	trade Equipment 392
 	trade Food 470
-	trade Metal 370
+	trade "Heavy Metals" 761
+	trade Industrial 836
+	trade "Luxury Goods" 1228
+	trade Medical 487
+	trade Metal 529
+	trade Plastic 372
 	fleet Nuru 500
 	fleet "Small Zorcn Merchant" 900
 	object
@@ -51820,6 +52833,7 @@ system Mak-113
 	government Donko
 	habitable 945
 	belt 1253
+	link Aku-11028
 	link Mak-12
 	link Mak-306
 	link Mak-342
@@ -53162,7 +54176,16 @@ system "Mar si ver"
 	asteroids "small metal" 2 7.3689
 	asteroids "medium metal" 5 6.5772
 	asteroids "large metal" 3 3.654
+	trade Clothing 262
+	trade Electronics 729
+	trade Equipment 640
 	trade Food 200
+	trade "Heavy Metals" 1167
+	trade Industrial 706
+	trade "Luxury Goods" 1396
+	trade Medical 646
+	trade Metal 351
+	trade Plastic 390
 	fleet Nuru 800
 	fleet "Small Zorcn Vuskr" 1800
 	fleet "Large Zorcn Vuskr" 2200
@@ -53798,10 +54821,16 @@ system Masaun
 	asteroids "small metal" 10 8.667
 	asteroids "medium metal" 101 11.178
 	asteroids "large metal" 17 8.991
+	trade Clothing 278
+	trade Electronics 797
+	trade Equipment 590
 	trade Food 400
-	trade "Heavy Metals" 1100
-	trade "Luxury Goods" 1700
-	trade Medical 660
+	trade "Heavy Metals" 1047
+	trade Industrial 799
+	trade "Luxury Goods" 1073
+	trade Medical 786
+	trade Metal 423
+	trade Plastic 415
 	fleet "Small Zorcn Vuskr" 800
 	fleet "Large Zorcn Vuskr" 1000
 	fleet "Small Zorcn Merchant" 600
@@ -54046,7 +55075,16 @@ system Masiofa
 	asteroids "large metal" 13 1.918
 	minables aluminum 1 3.30129
 	minables titanium 4 1.8204
+	trade Clothing 229
+	trade Electronics 768
+	trade Equipment 636
 	trade Food 330
+	trade "Heavy Metals" 936
+	trade Industrial 693
+	trade "Luxury Goods" 1184
+	trade Medical 840
+	trade Metal 310
+	trade Plastic 355
 	fleet "Small Zorcn Vuskr" 800
 	fleet "Large Zorcn Vuskr" 1000
 	fleet "Small Zorcn Merchant" 600
@@ -54432,7 +55470,16 @@ system Masyuin
 	asteroids "small metal" 7 2.08
 	asteroids "medium metal" 6 3.172
 	asteroids "large metal" 6 1.638
+	trade Clothing 250
+	trade Electronics 728
+	trade Equipment 572
 	trade Food 360
+	trade "Heavy Metals" 875
+	trade Industrial 592
+	trade "Luxury Goods" 1240
+	trade Medical 788
+	trade Metal 264
+	trade Plastic 403
 	fleet "Small Zorcn Vuskr" 800
 	fleet "Large Zorcn Vuskr" 1000
 	fleet "Small Zorcn Merchant" 800
@@ -54489,7 +55536,16 @@ system Matarna
 	asteroids "large rock" 1 1.548
 	asteroids "medium metal" 54 2.502
 	asteroids "large metal" 11 2.07
+	trade Clothing 248
+	trade Electronics 846
+	trade Equipment 637
 	trade Food 310
+	trade "Heavy Metals" 935
+	trade Industrial 771
+	trade "Luxury Goods" 1113
+	trade Medical 809
+	trade Metal 354
+	trade Plastic 424
 	fleet "Small Zorcn Vuskr" 800
 	fleet "Large Zorcn Vuskr" 1000
 	fleet "Small Zorcn Merchant" 500
@@ -56532,16 +57588,16 @@ system Merlyu
 	asteroids "medium metal" 3 7.8078
 	asteroids "large metal" 3 4.4226
 	minables lead 2 11.4922
-	trade Clothing 0
-	trade Electronics 0
-	trade Equipment 0
-	trade Food 0
-	trade "Heavy Metals" 0
-	trade Industrial 0
-	trade "Luxury Goods" 0
-	trade Medical 0
-	trade Metal 0
-	trade Plastic 0
+	trade Clothing 290
+	trade Electronics 712
+	trade Equipment 526
+	trade Food 143
+	trade "Heavy Metals" 806
+	trade Industrial 653
+	trade "Luxury Goods" 1040
+	trade Medical 564
+	trade Metal 426
+	trade Plastic 493
 	fleet "Revos small" 20000
 	object
 		sprite star/f5
@@ -57626,6 +58682,15 @@ system "Mir se"
 	asteroids "small metal" 16 7.2772
 	asteroids "medium metal" 7 8.8872
 	asteroids "large metal" 13 8.5008
+	trade Clothing 312
+	trade Electronics 794
+	trade Equipment 585
+	trade "Heavy Metals" 1204
+	trade Industrial 686
+	trade "Luxury Goods" 1421
+	trade Medical 610
+	trade Metal 293
+	trade Plastic 466
 	fleet Nuru 800
 	object
 		sprite star/k5
@@ -58295,6 +59360,7 @@ system Mke-1267
 	asteroids "large metal" 3 3.432
 	minables copper 1 7.85512
 	minables tungsten 30 4.78119
+	fleet "Donko Guard Small" 600
 	object
 		sprite star/f0
 		period 10
@@ -58346,6 +59412,7 @@ system Mke-2000
 	asteroids "large metal" 11 4.268
 	minables copper 1 6.20772
 	minables titanium 2 8.71889
+	fleet "Donko Guard Small" 600
 	object
 		sprite star/k5
 		period 10
@@ -58402,6 +59469,7 @@ system Mke-2267
 	asteroids "large metal" 38 3.1878
 	minables lead 12 3.37633
 	minables uranium 6 3.66153
+	fleet "Donko Guard Small" 700
 	object
 		sprite star/m0
 		period 10
@@ -58451,6 +59519,7 @@ system Mke-2535
 	asteroids "large metal" 10 5.5062
 	minables silver 12 9.02978
 	minables titanium 27 8.68838
+	fleet "Donko Guard Small" 600
 	object
 		sprite star/k0
 		distance 39.2721
@@ -58502,6 +59571,7 @@ system Mke-3402
 	asteroids "large rock" 2 1.5477
 	asteroids "medium metal" 13 3.3264
 	asteroids "large metal" 3 1.4322
+	fleet "Donko Guard Small" 600
 	object
 		sprite star/g0
 		period 10
@@ -58567,6 +59637,7 @@ system Mke-43
 	minables aluminum 14 2.15661
 	minables copper 11 2.99029
 	minables uranium 1 3.38947
+	fleet "Donko Guard Small" 600
 	object
 		sprite star/a5
 		period 10
@@ -58616,6 +59687,7 @@ system Mke-4329
 	link Mke-43
 	link Mke-923
 	asteroids "large metal" 1 5.265
+	fleet "Donko Guard Small" 600
 	object
 		sprite star/g5
 		distance 42.4654
@@ -58664,6 +59736,7 @@ system Mke-5239
 	asteroids "large metal" 1 2.21
 	minables iron 12 3.89085
 	minables silicon 1 3.66905
+	fleet "Donko Guard Small" 700
 	object
 		sprite star/g0
 		distance 56.5
@@ -58728,6 +59801,7 @@ system Mke-923
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Donko Guard Small" 600
 	object
 		sprite star/k5
 		period 10
@@ -59271,6 +60345,16 @@ system Molta
 	asteroids "large metal" 1 7.59
 	minables aluminum 37 8.91761
 	minables iron 23 9.83057
+	trade Clothing 229
+	trade Electronics 783
+	trade Equipment 564
+	trade Food 146
+	trade "Heavy Metals" 1066
+	trade Industrial 762
+	trade "Luxury Goods" 1292
+	trade Medical 663
+	trade Metal 250
+	trade Plastic 397
 	fleet "Revos small" 800
 	fleet "Revos big" 1000
 	fleet "Revos merchant" 700
@@ -59875,6 +60959,16 @@ system Morolmi
 	minables aluminum 2 6.4247
 	minables lead 7 4.22625
 	minables titanium 5 6.16705
+	trade Clothing 235
+	trade Electronics 704
+	trade Equipment 603
+	trade Food 414
+	trade "Heavy Metals" 846
+	trade Industrial 738
+	trade "Luxury Goods" 1038
+	trade Medical 758
+	trade Metal 499
+	trade Plastic 405
 	fleet "Revos small" 1500
 	object
 		sprite star/g0
@@ -60276,6 +61370,74 @@ system Mrovisilr
 			distance 229
 			period 14.1128
 
+system Mrulevor
+	pos -49716.9 -54913.6
+	government Revos
+	habitable 945
+	belt 1900
+	link Aulura
+	link Bustar
+	link Leuranu
+	asteroids "medium rock" 12 4.68
+	asteroids "large rock" 1 5.512
+	asteroids "small metal" 5 7.8
+	asteroids "medium metal" 7 7.384
+	asteroids "large metal" 24 6.76
+	minables lead 4 6.80563
+	minables silver 4 12.2437
+	trade Clothing 244
+	trade Electronics 792
+	trade Equipment 599
+	trade Food 260
+	trade "Heavy Metals" 1232
+	trade Industrial 648
+	trade "Luxury Goods" 1424
+	trade Medical 649
+	trade Metal 316
+	trade Plastic 470
+	fleet "Revos small" 1000
+	object
+		sprite star/g5
+		distance 37.2487
+		period 15.0118
+		offset 180
+	object
+		sprite star/m0
+		distance 72.7513
+		period 15.0118
+	object
+		sprite planet/cloud5
+		distance 368.761
+		period 92.143
+		object
+			sprite planet/rock3
+			distance 163
+			period 13.6003
+	object
+		sprite planet/gas5
+		distance 911.201
+		period 357.903
+		object
+			sprite planet/oberon
+			distance 250
+			period 13.1449
+	object
+		sprite planet/gas11
+		distance 1590.56
+		period 825.41
+		object
+			sprite planet/dust5
+			distance 285
+			period 15.8688
+	object
+		sprite planet/gas16
+		distance 2590.72
+		period 1715.83
+		object
+			sprite planet/tethys
+			distance 174
+			period 12.0815
+
 system Msekivan
 	pos -49352.3 -56400.7
 	government Makerurader
@@ -60428,6 +61590,15 @@ system "Mu ii"
 	minables copper 3 3.972
 	minables iron 1 7.20961
 	minables lead 6 6.72396
+	trade Clothing 313
+	trade Electronics 735
+	trade Equipment 551
+	trade "Heavy Metals" 1120
+	trade Industrial 612
+	trade "Luxury Goods" 1444
+	trade Medical 669
+	trade Metal 251
+	trade Plastic 284
 	fleet Nuru 800
 	object
 		sprite star/k5
@@ -60916,7 +62087,16 @@ system Muion
 	asteroids "small metal" 3 8.6319
 	asteroids "medium metal" 10 5.8995
 	asteroids "large metal" 9 3.9123
+	trade Clothing 279
+	trade Electronics 843
+	trade Equipment 575
 	trade Food 310
+	trade "Heavy Metals" 1019
+	trade Industrial 737
+	trade "Luxury Goods" 1142
+	trade Medical 678
+	trade Metal 300
+	trade Plastic 515
 	fleet "Small Zorcn Vuskr" 800
 	fleet "Large Zorcn Vuskr" 1000
 	fleet "Small Zorcn Merchant" 800
@@ -61170,6 +62350,7 @@ system Mukeldar
 	trade Medical 528
 	trade Metal 336
 	trade Plastic 434
+	fleet "Dels Frontier Merchant" 700
 	object
 		sprite star/g0
 		period 10
@@ -61818,7 +62999,16 @@ system Munyr
 	asteroids "small metal" 13 1.5444
 	asteroids "medium metal" 26 1.9188
 	asteroids "large metal" 18 2.4804
+	trade Clothing 251
+	trade Electronics 797
+	trade Equipment 580
 	trade Food 330
+	trade "Heavy Metals" 967
+	trade Industrial 763
+	trade "Luxury Goods" 1271
+	trade Medical 548
+	trade Metal 329
+	trade Plastic 379
 	fleet "Small Zorcn Vuskr" 800
 	fleet "Large Zorcn Vuskr" 1000
 	object
@@ -62004,7 +63194,16 @@ system Museni
 	asteroids "small metal" 12 2.4794
 	asteroids "medium metal" 2 3.542
 	asteroids "large metal" 67 2.3529
+	trade Clothing 304
+	trade Electronics 846
+	trade Equipment 557
 	trade Food 280
+	trade "Heavy Metals" 1035
+	trade Industrial 687
+	trade "Luxury Goods" 1132
+	trade Medical 668
+	trade Metal 273
+	trade Plastic 511
 	fleet "Small Zorcn Vuskr" 800
 	fleet "Large Zorcn Vuskr" 1000
 	fleet "Small Zorcn Merchant" 800
@@ -62109,8 +63308,16 @@ system Mussanna
 	asteroids "medium metal" 1 3.15
 	asteroids "large metal" 1 6.435
 	minables silicon 12 10.205
+	trade Clothing 309
+	trade Electronics 843
+	trade Equipment 501
 	trade Food 380
-	trade Metal 230
+	trade "Heavy Metals" 970
+	trade Industrial 651
+	trade "Luxury Goods" 1185
+	trade Medical 686
+	trade Metal 255
+	trade Plastic 509
 	fleet "Small Zorcn Vuskr" 800
 	fleet "Large Zorcn Vuskr" 1000
 	fleet "Zorcn Frontier Merchant" 600
@@ -62163,7 +63370,16 @@ system Mussun
 	asteroids "small metal" 20 3.3558
 	asteroids "medium metal" 17 3.4986
 	asteroids "large metal" 3 1.2138
+	trade Clothing 221
+	trade Electronics 747
+	trade Equipment 529
 	trade Food 370
+	trade "Heavy Metals" 1050
+	trade Industrial 708
+	trade "Luxury Goods" 1186
+	trade Medical 633
+	trade Metal 446
+	trade Plastic 441
 	fleet "Small Zorcn Vuskr" 800
 	fleet "Large Zorcn Vuskr" 1000
 	object
@@ -62207,16 +63423,16 @@ system Mutol
 	link Ordel
 	asteroids "medium metal" 1 3.4916
 	asteroids "large metal" 4 5.6028
-	trade Clothing 0
-	trade Electronics 0
-	trade Equipment 0
-	trade Food 0
-	trade "Heavy Metals" 0
-	trade Industrial 0
-	trade "Luxury Goods" 0
-	trade Medical 0
-	trade Metal 0
-	trade Plastic 0
+	trade Clothing 217
+	trade Electronics 832
+	trade Equipment 399
+	trade Food 340
+	trade "Heavy Metals" 990
+	trade Industrial 766
+	trade "Luxury Goods" 1047
+	trade Medical 563
+	trade Metal 492
+	trade Plastic 413
 	object
 		sprite star/f5
 		distance 25.8628
@@ -63222,6 +64438,16 @@ system Nanai
 	asteroids "large metal" 10 2.288
 	minables iron 19 3.13897
 	minables lead 1 2.99782
+	trade Clothing 243
+	trade Electronics 709
+	trade Equipment 650
+	trade Food 376
+	trade "Heavy Metals" 799
+	trade Industrial 786
+	trade "Luxury Goods" 993
+	trade Medical 765
+	trade Metal 483
+	trade Plastic 458
 	fleet "Revos small" 2000
 	object
 		sprite star/k0
@@ -64564,16 +65790,16 @@ system Nesoral
 	asteroids "small metal" 3 2.4766
 	asteroids "medium metal" 90 2.9638
 	asteroids "large metal" 24 5.1562
-	trade Clothing 0
-	trade Electronics 0
-	trade Equipment 0
-	trade Food 0
-	trade "Heavy Metals" 0
-	trade Industrial 0
-	trade "Luxury Goods" 0
-	trade Medical 0
-	trade Metal 0
-	trade Plastic 0
+	trade Clothing 333
+	trade Electronics 706
+	trade Equipment 686
+	trade Food 421
+	trade "Heavy Metals" 839
+	trade Industrial 592
+	trade "Luxury Goods" 1308
+	trade Medical 689
+	trade Metal 263
+	trade Plastic 495
 	fleet "Revos small" 1000
 	fleet "Revos big" 1500
 	object
@@ -64738,6 +65964,15 @@ system "Ni tyu ke"
 	asteroids "large rock" 5 1.4124
 	asteroids "medium metal" 7 1.1616
 	asteroids "large metal" 1 1.9404
+	trade Clothing 279
+	trade Electronics 714
+	trade Equipment 591
+	trade "Heavy Metals" 1070
+	trade Industrial 675
+	trade "Luxury Goods" 1370
+	trade Medical 847
+	trade Metal 247
+	trade Plastic 276
 	fleet Nuru 500
 	object
 		sprite star/f5
@@ -65112,10 +66347,16 @@ system "Niy tur oc"
 	asteroids "large rock" 20 7.5168
 	asteroids "medium metal" 6 7.7112
 	asteroids "large metal" 15 8.3592
-	trade Clothing 270
+	trade Clothing 226
+	trade Electronics 648
+	trade Equipment 445
 	trade Food 450
-	trade Metal 420
-	trade Plastic 370
+	trade "Heavy Metals" 719
+	trade Industrial 849
+	trade "Luxury Goods" 1162
+	trade Medical 499
+	trade Metal 502
+	trade Plastic 333
 	fleet Nuru 500
 	object
 		sprite star/g5
@@ -65168,6 +66409,15 @@ system "No ur"
 	asteroids "small metal" 8 2.576
 	asteroids "medium metal" 101 6.716
 	asteroids "large metal" 5 5.658
+	trade Clothing 304
+	trade Electronics 710
+	trade Equipment 601
+	trade "Heavy Metals" 1159
+	trade Industrial 770
+	trade "Luxury Goods" 1387
+	trade Medical 617
+	trade Metal 358
+	trade Plastic 436
 	fleet Nuru 800
 	object
 		sprite star/g5
@@ -65320,6 +66570,15 @@ system "Nor se si"
 	asteroids "small metal" 6 5.3244
 	asteroids "medium metal" 46 7.2558
 	asteroids "large metal" 33 4.0194
+	trade Clothing 301
+	trade Electronics 802
+	trade Equipment 514
+	trade "Heavy Metals" 1086
+	trade Industrial 743
+	trade "Luxury Goods" 1450
+	trade Medical 675
+	trade Metal 410
+	trade Plastic 347
 	fleet Nuru 800
 	object
 		sprite star/m4
@@ -65743,6 +67002,16 @@ system Norva
 	asteroids "medium metal" 18 2.97
 	asteroids "large metal" 8 5.715
 	minables titanium 3 5.77908
+	trade Clothing 240
+	trade Electronics 808
+	trade Equipment 559
+	trade Food 234
+	trade "Heavy Metals" 1158
+	trade Industrial 679
+	trade "Luxury Goods" 1358
+	trade Medical 720
+	trade Metal 275
+	trade Plastic 456
 	fleet "Revos small" 1000
 	fleet "Revos big" 1500
 	fleet "Revos merchant" 600
@@ -65800,16 +67069,16 @@ system Norvu
 	asteroids "large metal" 1 3.6288
 	minables aluminum 2 7.85454
 	minables copper 1 5.70992
-	trade Clothing 0
-	trade Electronics 0
-	trade Equipment 0
-	trade Food 0
-	trade "Heavy Metals" 0
-	trade Industrial 0
-	trade "Luxury Goods" 0
-	trade Medical 0
-	trade Metal 0
-	trade Plastic 0
+	trade Clothing 369
+	trade Electronics 626
+	trade Equipment 455
+	trade Food 171
+	trade "Heavy Metals" 948
+	trade Industrial 772
+	trade "Luxury Goods" 970
+	trade Medical 516
+	trade Metal 436
+	trade Plastic 451
 	fleet "Revos small" 1000
 	object
 		sprite star/f0
@@ -66474,6 +67743,15 @@ system Nuranci
 	link Nusin
 	link Nuverg
 	asteroids "large metal" 1 0.77
+	trade Clothing 400
+	trade Electronics 649
+	trade Equipment 394
+	trade "Heavy Metals" 925
+	trade Industrial 648
+	trade "Luxury Goods" 1421
+	trade Medical 821
+	trade Metal 362
+	trade Plastic 485
 	fleet "Small Zorcn Vuskr" 800
 	fleet "Large Zorcn Vuskr" 1000
 	object
@@ -66574,6 +67852,15 @@ system Nusin
 	link Nuversk
 	asteroids "large rock" 4 2.9458
 	asteroids "large metal" 1 1.5444
+	trade Clothing 329
+	trade Electronics 729
+	trade Equipment 488
+	trade "Heavy Metals" 867
+	trade Industrial 621
+	trade "Luxury Goods" 1370
+	trade Medical 818
+	trade Metal 310
+	trade Plastic 398
 	fleet "Small Zorcn Vuskr" 800
 	fleet "Large Zorcn Vuskr" 1000
 	object
@@ -66629,6 +67916,15 @@ system Nusinnai
 	asteroids "large metal" 1 1.314
 	minables copper 1 4.39946
 	minables titanium 8 2.75183
+	trade Clothing 352
+	trade Electronics 721
+	trade Equipment 616
+	trade "Heavy Metals" 917
+	trade Industrial 595
+	trade "Luxury Goods" 1357
+	trade Medical 871
+	trade Metal 312
+	trade Plastic 283
 	fleet "Small Zorcn Vuskr" 800
 	fleet "Large Zorcn Vuskr" 1000
 	fleet "Zorcn Miner" 1000
@@ -66674,6 +67970,15 @@ system Nuverg
 	asteroids "small metal" 5 2.7202
 	asteroids "medium metal" 35 2.8014
 	asteroids "large metal" 91 6.0088
+	trade Clothing 412
+	trade Electronics 625
+	trade Equipment 350
+	trade "Heavy Metals" 934
+	trade Industrial 644
+	trade "Luxury Goods" 1448
+	trade Medical 811
+	trade Metal 407
+	trade Plastic 512
 	fleet "Small Zorcn Vuskr" 800
 	fleet "Large Zorcn Vuskr" 1000
 	object
@@ -66731,6 +68036,15 @@ system Nuversk
 	asteroids "small metal" 1 4.5675
 	asteroids "medium metal" 12 4.176
 	asteroids "large metal" 11 2.871
+	trade Clothing 345
+	trade Electronics 785
+	trade Equipment 524
+	trade "Heavy Metals" 873
+	trade Industrial 600
+	trade "Luxury Goods" 1424
+	trade Medical 858
+	trade Metal 339
+	trade Plastic 298
 	fleet "Small Zorcn Vuskr" 800
 	fleet "Large Zorcn Vuskr" 1000
 	object
@@ -66884,6 +68198,15 @@ system "Oe ei ke"
 	asteroids "small metal" 2 1.8984
 	asteroids "medium metal" 2 1.2096
 	asteroids "large metal" 8 2.2176
+	trade Clothing 355
+	trade Electronics 736
+	trade Equipment 552
+	trade "Heavy Metals" 1106
+	trade Industrial 635
+	trade "Luxury Goods" 1464
+	trade Medical 556
+	trade Metal 252
+	trade Plastic 321
 	fleet Nuru 800
 	object
 		sprite star/g5
@@ -67001,16 +68324,16 @@ system Oerel
 	asteroids "large metal" 15 3.48
 	minables lead 22 3.14724
 	minables tungsten 9 2.30838
-	trade Clothing 0
-	trade Electronics 0
-	trade Equipment 0
-	trade Food 0
-	trade "Heavy Metals" 0
-	trade Industrial 0
-	trade "Luxury Goods" 0
-	trade Medical 0
-	trade Metal 0
-	trade Plastic 0
+	trade Clothing 235
+	trade Electronics 671
+	trade Equipment 627
+	trade Food 136
+	trade "Heavy Metals" 1047
+	trade Industrial 785
+	trade "Luxury Goods" 1194
+	trade Medical 581
+	trade Metal 260
+	trade Plastic 410
 	fleet "Revos small" 1000
 	object
 		sprite star/k5
@@ -67680,9 +69003,16 @@ system "Ok ei se"
 	asteroids "small metal" 6 8.625
 	asteroids "medium metal" 33 9.75
 	asteroids "large metal" 41 10.05
-	trade Clothing 210
+	trade Clothing 289
+	trade Electronics 689
+	trade Equipment 548
 	trade Food 286
-	trade Metal 340
+	trade "Heavy Metals" 866
+	trade Industrial 854
+	trade "Luxury Goods" 1244
+	trade Medical 577
+	trade Metal 510
+	trade Plastic 400
 	fleet "Small Zorcn Vuskr" 1800
 	fleet "Large Zorcn Vuskr" 2200
 	fleet Nuru 500
@@ -68132,16 +69462,16 @@ system Oleldar
 	asteroids "medium metal" 20 5.1324
 	asteroids "large metal" 3 4.732
 	minables aluminum 8 5.30482
-	trade Clothing 0
-	trade Electronics 0
-	trade Equipment 0
-	trade Food 0
-	trade "Heavy Metals" 0
-	trade Industrial 0
-	trade "Luxury Goods" 0
-	trade Medical 0
-	trade Metal 0
-	trade Plastic 0
+	trade Clothing 324
+	trade Electronics 735
+	trade Equipment 430
+	trade Food 342
+	trade "Heavy Metals" 1013
+	trade Industrial 669
+	trade "Luxury Goods" 1003
+	trade Medical 482
+	trade Metal 438
+	trade Plastic 296
 	fleet "Revos small" 1000
 	object
 		sprite star/k0
@@ -68190,16 +69520,16 @@ system Olfor
 	asteroids "large metal" 47 4.3848
 	minables copper 9 6.65756
 	minables uranium 2 7.01822
-	trade Clothing 0
-	trade Electronics 0
-	trade Equipment 0
-	trade Food 0
-	trade "Heavy Metals" 0
-	trade Industrial 0
-	trade "Luxury Goods" 0
-	trade Medical 0
-	trade Metal 0
-	trade Plastic 0
+	trade Clothing 262
+	trade Electronics 716
+	trade Equipment 523
+	trade Food 135
+	trade "Heavy Metals" 840
+	trade Industrial 608
+	trade "Luxury Goods" 1020
+	trade Medical 557
+	trade Metal 441
+	trade Plastic 483
 	fleet "Revos small" 20000
 	object
 		sprite star/g5
@@ -68646,16 +69976,16 @@ system Ordel
 	asteroids "medium metal" 60 1.9481
 	asteroids "large metal" 35 3.4914
 	minables iron 1 3.63645
-	trade Clothing 0
-	trade Electronics 0
-	trade Equipment 0
-	trade Food 0
-	trade "Heavy Metals" 0
-	trade Industrial 0
-	trade "Luxury Goods" 0
-	trade Medical 0
-	trade Metal 0
-	trade Plastic 0
+	trade Clothing 249
+	trade Electronics 751
+	trade Equipment 488
+	trade Food 397
+	trade "Heavy Metals" 950
+	trade Industrial 709
+	trade "Luxury Goods" 1027
+	trade Medical 662
+	trade Metal 514
+	trade Plastic 366
 	fleet "Revos small" 1500
 	object
 		sprite star/k0
@@ -68829,6 +70159,7 @@ system Oreeder
 	trade Medical 810
 	trade Metal 329
 	trade Plastic 535
+	fleet "Dels Outward Merchant" 800
 	object
 		sprite star/k5
 		period 10
@@ -68836,7 +70167,7 @@ system Oreeder
 		sprite planet/desert3
 		distance 161.84
 		period 39.9048
-	object
+	object Elkuordai
 		sprite planet/ocean3
 		distance 383.6
 		period 145.618
@@ -69335,6 +70666,15 @@ system "Pa tua"
 	asteroids "small metal" 1 2.2116
 	asteroids "medium metal" 3 2.5764
 	asteroids "large metal" 4 2.394
+	trade Clothing 259
+	trade Electronics 641
+	trade Equipment 440
+	trade "Heavy Metals" 806
+	trade Industrial 709
+	trade "Luxury Goods" 1074
+	trade Medical 548
+	trade Metal 503
+	trade Plastic 357
 	fleet Nuru 500
 	object
 		sprite star/m0
@@ -70135,17 +71475,20 @@ system "Qee Aukbe"
 		distance 466.119
 		period 107.582
 	object
-		sprite planet/cloud2
-		distance 682.809
-		period 190.741
+		sprite planet/lava6
+		distance 637.809
+		period 172.2
+		offset 242.892
 	object
 		sprite planet/gas12
-		distance 1754.37
-		period 785.556
+		distance 1664.37
+		period 725.89
+		offset 231.196
 	object
 		sprite planet/gas1
-		distance 2255.81
-		period 1145.38
+		distance 2165.81
+		period 1077.52
+		offset 103.154
 
 system "Qee Bulen"
 	pos -51552.3 -55903.4
@@ -71495,7 +72838,7 @@ system "Qee Ruvee"
 		sprite planet/rock16
 		distance 149.76
 		period 35.5214
-	object
+	object "Veeralu Ka"
 		sprite planet/water0
 		distance 394
 		period 151.579
@@ -72280,16 +73623,16 @@ system Qortuan
 	asteroids "medium rock" 7 9.6876
 	asteroids "large rock" 4 9.6174
 	asteroids "large metal" 8 9.0558
-	trade Clothing 0
-	trade Electronics 0
-	trade Equipment 0
-	trade Food 0
-	trade "Heavy Metals" 0
-	trade Industrial 0
-	trade "Luxury Goods" 0
-	trade Medical 0
-	trade Metal 0
-	trade Plastic 0
+	trade Clothing 286
+	trade Electronics 709
+	trade Equipment 684
+	trade Food 467
+	trade "Heavy Metals" 777
+	trade Industrial 849
+	trade "Luxury Goods" 1381
+	trade Medical 858
+	trade Metal 463
+	trade Plastic 316
 	fleet "Revos small" 1500
 	object
 		sprite star/m0
@@ -72345,7 +73688,16 @@ system "Ra ke"
 	asteroids "medium metal" 127 2.3958
 	asteroids "large metal" 5 2.1296
 	minables iron 17 3.83978
+	trade Clothing 247
+	trade Electronics 671
+	trade Equipment 400
 	trade Food 0
+	trade "Heavy Metals" 763
+	trade Industrial 839
+	trade "Luxury Goods" 1159
+	trade Medical 473
+	trade Metal 473
+	trade Plastic 315
 	fleet Nuru 800
 	object
 		sprite star/g5
@@ -73045,6 +74397,15 @@ system Reanio
 	asteroids "large rock" 6 2.2382
 	asteroids "medium metal" 2 2.7797
 	asteroids "large metal" 1 4.7652
+	trade Clothing 344
+	trade Electronics 762
+	trade Equipment 418
+	trade "Heavy Metals" 960
+	trade Industrial 613
+	trade "Luxury Goods" 1125
+	trade Medical 700
+	trade Metal 273
+	trade Plastic 464
 	fleet "Small Zorcn Vuskr" 1200
 	fleet "Large Zorcn Vuskr" 1900
 	object
@@ -73260,6 +74621,7 @@ system Redarlvil
 	trade Medical 495
 	trade Metal 433
 	trade Plastic 488
+	fleet "Dels Frontier Merchant" 700
 	object
 		sprite star/k0
 		period 10
@@ -73529,6 +74891,7 @@ system Reevukmarai
 	trade Metal 542
 	trade Plastic 315
 	fleet "Dels Outward Merchant" 700
+	fleet "Dels Central Merchant" 1200
 	object
 		sprite star/k0
 		period 10
@@ -73959,6 +75322,15 @@ system Reiusna
 	link Reuin
 	link Revynos
 	asteroids "large metal" 1 4.4772
+	trade Clothing 327
+	trade Electronics 789
+	trade Equipment 449
+	trade "Heavy Metals" 951
+	trade Industrial 629
+	trade "Luxury Goods" 1176
+	trade Medical 696
+	trade Metal 248
+	trade Plastic 482
 	fleet "Small Zorcn Vuskr" 1200
 	object
 		sprite star/a5
@@ -74614,6 +75986,15 @@ system Reuin
 	asteroids "small metal" 11 1.7472
 	asteroids "medium metal" 15 4.8048
 	asteroids "large metal" 7 5.04
+	trade Clothing 361
+	trade Electronics 806
+	trade Equipment 429
+	trade "Heavy Metals" 925
+	trade Industrial 625
+	trade "Luxury Goods" 1155
+	trade Medical 718
+	trade Metal 245
+	trade Plastic 468
 	fleet "Small Zorcn Vuskr" 1200
 	object
 		sprite star/f5
@@ -74721,16 +76102,16 @@ system Reulo
 	asteroids "large metal" 2 3.864
 	minables aluminum 2 6.55405
 	minables lead 2 4.86324
-	trade Clothing 0
-	trade Electronics 0
-	trade Equipment 0
-	trade Food 0
-	trade "Heavy Metals" 0
-	trade Industrial 0
-	trade "Luxury Goods" 0
-	trade Medical 0
-	trade Metal 0
-	trade Plastic 0
+	trade Clothing 266
+	trade Electronics 831
+	trade Equipment 442
+	trade Food 206
+	trade "Heavy Metals" 973
+	trade Industrial 760
+	trade "Luxury Goods" 1057
+	trade Medical 496
+	trade Metal 360
+	trade Plastic 419
 	object
 		sprite star/g5
 		distance 18.8289
@@ -74777,16 +76158,16 @@ system Reulor
 	asteroids "large rock" 3 6.1712
 	asteroids "medium metal" 25 2.4128
 	asteroids "large metal" 1 3.0624
-	trade Clothing 0
-	trade Electronics 0
-	trade Equipment 0
-	trade Food 0
-	trade "Heavy Metals" 0
-	trade Industrial 0
-	trade "Luxury Goods" 0
-	trade Medical 0
-	trade Metal 0
-	trade Plastic 0
+	trade Clothing 298
+	trade Electronics 670
+	trade Equipment 598
+	trade Food 247
+	trade "Heavy Metals" 797
+	trade Industrial 804
+	trade "Luxury Goods" 978
+	trade Medical 663
+	trade Metal 490
+	trade Plastic 477
 	fleet "Revos small" 3000
 	object
 		sprite star/k0
@@ -74846,6 +76227,15 @@ system Revynos
 	asteroids "medium metal" 14 4.452
 	asteroids "large metal" 9 3.78
 	minables "" 0 0
+	trade Clothing 372
+	trade Electronics 763
+	trade Equipment 421
+	trade "Heavy Metals" 955
+	trade Industrial 612
+	trade "Luxury Goods" 1101
+	trade Medical 668
+	trade Metal 310
+	trade Plastic 433
 	fleet "Small Zorcn Vuskr" 1200
 	object
 		sprite star/f0
@@ -76275,6 +77665,15 @@ system "Ru fu aa"
 	asteroids "small metal" 48 1.76
 	asteroids "medium metal" 182 2.244
 	asteroids "large metal" 85 1.98
+	trade Clothing 373
+	trade Electronics 715
+	trade Equipment 624
+	trade "Heavy Metals" 1064
+	trade Industrial 622
+	trade "Luxury Goods" 1413
+	trade Medical 681
+	trade Metal 246
+	trade Plastic 289
 	fleet Nuru 800
 	object
 		sprite star/f5
@@ -76657,13 +78056,15 @@ system Ruklernul
 		distance 453.62
 		period 115.907
 	object
-		sprite planet/forest3
-		distance 983.06
-		period 369.777
+		sprite planet/forest0
+		distance 1009.06
+		period 384.544
+		offset 135.344
 	object
 		sprite planet/gas7
-		distance 1907.22
-		period 999.243
+		distance 1959.22
+		period 1040.39
+		offset 188.778
 		object
 			sprite planet/desert4
 			distance 228
@@ -76753,8 +78154,16 @@ system "Ruu ei"
 	asteroids "large rock" 4 1.652
 	asteroids "medium metal" 1 1.624
 	asteroids "large metal" 1 2.716
-	trade Clothing 290
+	trade Clothing 237
+	trade Electronics 672
+	trade Equipment 440
 	trade Food 422
+	trade "Heavy Metals" 849
+	trade Industrial 771
+	trade "Luxury Goods" 1195
+	trade Medical 517
+	trade Metal 433
+	trade Plastic 395
 	fleet Nuru 800
 	object
 		sprite star/k5
@@ -76802,6 +78211,15 @@ system "Sa ii no"
 	asteroids "large rock" 2 2.9568
 	asteroids "medium metal" 31 2.1252
 	asteroids "large metal" 33 3.465
+	trade Clothing 200
+	trade Electronics 638
+	trade Equipment 399
+	trade "Heavy Metals" 798
+	trade Industrial 792
+	trade "Luxury Goods" 1142
+	trade Medical 507
+	trade Metal 441
+	trade Plastic 290
 	fleet Nuru 800
 	object
 		sprite star/k5
@@ -77356,7 +78774,6 @@ system Sa-463
 	government Donko
 	habitable 945
 	belt 1396
-	link "Dorai Nowoku"
 	link Sa-225
 	link Sa-234
 	link Sa-637
@@ -77630,7 +79047,6 @@ system Sa-523
 	pos -48165.9 -53337
 	government Donko
 	habitable 625
-	link "Dorai Nowoku"
 	link Sa-231
 	link Sa-234
 	link Sa-411
@@ -77888,7 +79304,6 @@ system Sa-637
 	pos -48028.6 -53359.5
 	government Donko
 	habitable 425.92
-	link "Dorai Nowoku"
 	link Sa-225
 	link Sa-463
 	link Sa-544
@@ -78041,7 +79456,6 @@ system Sa-783
 	government Donko
 	habitable 625
 	belt 1447
-	link "Dorai Nowoku"
 	link Sa-637
 	link Sa-772
 	asteroids "small rock" 3 2.548
@@ -78752,7 +80166,7 @@ system Saor
 			offset 289.6
 
 system Saska
-	pos -49069.7 -55711.8
+	pos -49062.7 -55723.8
 	government Ultaka
 	habitable 1080
 	asteroids "small rock" 3 2.805
@@ -78848,6 +80262,15 @@ system "Se kog ii"
 	asteroids "large rock" 19 4.7996
 	asteroids "medium metal" 1 2.2646
 	asteroids "large metal" 2 3.4476
+	trade Clothing 238
+	trade Electronics 661
+	trade Equipment 414
+	trade "Heavy Metals" 832
+	trade Industrial 802
+	trade "Luxury Goods" 1115
+	trade Medical 525
+	trade Metal 382
+	trade Plastic 328
 	fleet Nuru 800
 	object
 		sprite star/k0
@@ -79440,6 +80863,15 @@ system "Ser tai ke"
 	asteroids "small metal" 2 1.6575
 	asteroids "medium metal" 37 4.68
 	asteroids "large metal" 20 1.8525
+	trade Clothing 333
+	trade Electronics 732
+	trade Equipment 516
+	trade "Heavy Metals" 1150
+	trade Industrial 595
+	trade "Luxury Goods" 1436
+	trade Medical 506
+	trade Metal 266
+	trade Plastic 413
 	fleet Nuru 800
 	object
 		sprite star/k5
@@ -79756,6 +81188,15 @@ system "Si ei ao"
 	asteroids "medium metal" 1 6.426
 	asteroids "large metal" 1 7.614
 	minables titanium 17 6.15915
+	trade Clothing 315
+	trade Electronics 818
+	trade Equipment 506
+	trade "Heavy Metals" 1106
+	trade Industrial 638
+	trade "Luxury Goods" 1474
+	trade Medical 553
+	trade Metal 277
+	trade Plastic 313
 	fleet Nuru 800
 	object
 		sprite star/m4
@@ -80367,6 +81808,15 @@ system "So ker"
 	asteroids "large rock" 1 2.739
 	asteroids "medium metal" 5 1.914
 	asteroids "large metal" 1 2.112
+	trade Clothing 313
+	trade Electronics 725
+	trade Equipment 519
+	trade "Heavy Metals" 1077
+	trade Industrial 585
+	trade "Luxury Goods" 1370
+	trade Medical 504
+	trade Metal 269
+	trade Plastic 343
 	object
 		sprite star/g0
 		period 10
@@ -80415,6 +81865,16 @@ system Soarel
 	asteroids "large metal" 79 3.2292
 	minables silver 1 4.92767
 	minables tungsten 25 4.29624
+	trade Clothing 319
+	trade Electronics 686
+	trade Equipment 662
+	trade Food 428
+	trade "Heavy Metals" 885
+	trade Industrial 769
+	trade "Luxury Goods" 1347
+	trade Medical 645
+	trade Metal 313
+	trade Plastic 471
 	fleet "Revos small" 1000
 	fleet "Revos big" 1500
 	object
@@ -80527,16 +81987,16 @@ system Soeku
 	asteroids "large metal" 17 4.0755
 	minables aluminum 24 3.91272
 	minables lead 4 4.50712
-	trade Clothing 0
-	trade Electronics 0
-	trade Equipment 0
-	trade Food 0
-	trade "Heavy Metals" 0
-	trade Industrial 0
-	trade "Luxury Goods" 0
-	trade Medical 0
-	trade Metal 0
-	trade Plastic 0
+	trade Clothing 252
+	trade Electronics 777
+	trade Equipment 654
+	trade Food 347
+	trade "Heavy Metals" 860
+	trade Industrial 830
+	trade "Luxury Goods" 1279
+	trade Medical 805
+	trade Metal 461
+	trade Plastic 273
 	fleet "Revos small" 1500
 	object
 		sprite star/k5
@@ -81943,7 +83403,16 @@ system "Suu yu ii"
 	asteroids "large rock" 3 0.9408
 	asteroids "medium metal" 70 2.4192
 	asteroids "large metal" 36 1.68
+	trade Clothing 239
+	trade Electronics 697
+	trade Equipment 599
 	trade Food 290
+	trade "Heavy Metals" 976
+	trade Industrial 869
+	trade "Luxury Goods" 1282
+	trade Medical 480
+	trade Metal 483
+	trade Plastic 488
 	fleet Nuru 500
 	fleet "Small Zorcn Vuskr" 2000
 	fleet "Large Zorcn Vuskr" 2600
@@ -83079,6 +84548,15 @@ system "Tui se ko"
 	asteroids "small metal" 35 4.3956
 	asteroids "medium metal" 8 2.079
 	asteroids "large metal" 48 2.1384
+	trade Clothing 340
+	trade Electronics 804
+	trade Equipment 527
+	trade "Heavy Metals" 1156
+	trade Industrial 679
+	trade "Luxury Goods" 1454
+	trade Medical 660
+	trade Metal 342
+	trade Plastic 387
 	fleet Nuru 800
 	object
 		sprite star/k5
@@ -83541,6 +85019,7 @@ system Uekvared
 	trade Medical 527
 	trade Metal 468
 	trade Plastic 473
+	fleet "Dels Frontier Merchant" 800
 	object
 		sprite star/a5
 		distance 19.1745
@@ -84254,6 +85733,7 @@ system Uklame
 	trade Medical 604
 	trade Metal 373
 	trade Plastic 466
+	fleet "Dels Frontier Merchant" 700
 	object
 		sprite star/g5
 		distance 41.3389
@@ -84952,6 +86432,15 @@ system "Ur ii"
 	asteroids "small metal" 31 6.5826
 	asteroids "medium metal" 84 3.6018
 	asteroids "large metal" 177 8.6319
+	trade Clothing 220
+	trade Electronics 756
+	trade Equipment 489
+	trade "Heavy Metals" 966
+	trade Industrial 826
+	trade "Luxury Goods" 1359
+	trade Medical 663
+	trade Metal 438
+	trade Plastic 290
 	fleet Nuru 800
 	object
 		sprite star/g5
@@ -85201,6 +86690,7 @@ system Urkedel
 	trade Medical 582
 	trade Metal 470
 	trade Plastic 415
+	fleet "Dels Outward Merchant" 700
 	object
 		sprite star/k0
 		period 10
@@ -85259,6 +86749,7 @@ system Urkela
 	trade Medical 584
 	trade Metal 507
 	trade Plastic 485
+	fleet "Dels Outward Merchant" 600
 	object
 		sprite star/m0
 		period 10
@@ -87045,6 +88536,7 @@ system Verstinas
 	asteroids "small metal" 2 4.4064
 	asteroids "medium metal" 2 3.3354
 	asteroids "large metal" 9 3.8862
+	fleet Nuru 1600
 	object
 		sprite star/m0
 		period 10
@@ -87209,6 +88701,15 @@ system Viarrn
 	asteroids "large metal" 8 5.512
 	minables lead 7 7.24221
 	minables uranium 18 5.12037
+	trade Clothing 239
+	trade Electronics 686
+	trade Equipment 354
+	trade "Heavy Metals" 1234
+	trade Industrial 819
+	trade "Luxury Goods" 1125
+	trade Medical 735
+	trade Metal 484
+	trade Plastic 266
 	fleet "Small Zorcn Vuskr" 1500
 	object
 		sprite star/g5
@@ -87469,6 +88970,15 @@ system Viite
 	asteroids "large metal" 10 5.0274
 	minables aluminum 3 11.4614
 	minables copper 1 6.94648
+	trade Clothing 263
+	trade Electronics 666
+	trade Equipment 385
+	trade "Heavy Metals" 1229
+	trade Industrial 808
+	trade "Luxury Goods" 1044
+	trade Medical 741
+	trade Metal 491
+	trade Plastic 274
 	fleet "Small Zorcn Vuskr" 1500
 	object
 		sprite star/f0
@@ -88284,6 +89794,15 @@ system Vionur
 	asteroids "large rock" 1 4.2
 	asteroids "medium metal" 36 5.082
 	asteroids "large metal" 1 3.108
+	trade Clothing 282
+	trade Electronics 664
+	trade Equipment 438
+	trade "Heavy Metals" 1206
+	trade Industrial 807
+	trade "Luxury Goods" 973
+	trade Medical 741
+	trade Metal 482
+	trade Plastic 290
 	fleet "Small Zorcn Vuskr" 1500
 	object
 		sprite star/g5
@@ -88472,16 +89991,16 @@ system Virtas
 	asteroids "large metal" 58 1.9602
 	minables copper 11 4.66962
 	minables titanium 26 3.06982
-	trade Clothing 165
-	trade Electronics 655
-	trade Equipment 513
+	trade Clothing 313
+	trade Electronics 725
+	trade Equipment 411
 	trade Food 278
-	trade "Heavy Metals" 1019
-	trade Industrial 824
-	trade "Luxury Goods" 1206
-	trade Medical 547
-	trade Metal 307
-	trade Plastic 321
+	trade "Heavy Metals" 1109
+	trade Industrial 737
+	trade "Luxury Goods" 1020
+	trade Medical 648
+	trade Metal 502
+	trade Plastic 252
 	fleet "Zorcn Miner" 600
 	fleet "Small Zorcn Vuskr" 1500
 	object
@@ -88913,6 +90432,15 @@ system Voesni
 	asteroids "small metal" 8 3.835
 	asteroids "medium metal" 11 3.12
 	asteroids "large metal" 76 4.0625
+	trade Clothing 301
+	trade Electronics 811
+	trade Equipment 690
+	trade "Heavy Metals" 1111
+	trade Industrial 860
+	trade "Luxury Goods" 1128
+	trade Medical 486
+	trade Metal 553
+	trade Plastic 499
 	fleet "Small Zorcn Vuskr" 800
 	object
 		sprite star/b5
@@ -89144,6 +90672,15 @@ system Volarnus
 	asteroids "small metal" 70 1.7442
 	asteroids "medium metal" 43 4.8222
 	asteroids "large metal" 2 2.5308
+	trade Clothing 351
+	trade Electronics 820
+	trade Equipment 705
+	trade "Heavy Metals" 1109
+	trade Industrial 890
+	trade "Luxury Goods" 1092
+	trade Medical 483
+	trade Metal 551
+	trade Plastic 498
 	fleet "Small Zorcn Vuskr" 800
 	object
 		sprite star/k5
@@ -89381,6 +90918,15 @@ system Vonin
 	asteroids "small metal" 4 4.0824
 	asteroids "medium metal" 9 8.3916
 	asteroids "large metal" 1 3.1752
+	trade Clothing 219
+	trade Electronics 759
+	trade Equipment 612
+	trade "Heavy Metals" 1092
+	trade Industrial 787
+	trade "Luxury Goods" 1179
+	trade Medical 538
+	trade Metal 538
+	trade Plastic 474
 	fleet "Small Zorcn Vuskr" 800
 	object
 		sprite star/g0
@@ -89471,6 +91017,16 @@ system Vorabi
 	minables silicon 3 6.32153
 	minables titanium 5 6.33107
 	minables tungsten 3 6.11802
+	trade Clothing 351
+	trade Electronics 752
+	trade Equipment 660
+	trade Food 461
+	trade "Heavy Metals" 977
+	trade Industrial 853
+	trade "Luxury Goods" 1432
+	trade Medical 698
+	trade Metal 319
+	trade Plastic 469
 	fleet "Revos small" 1500
 	object
 		sprite star/g0
@@ -89586,6 +91142,15 @@ system Vorsck
 	asteroids "large rock" 9 5.7456
 	asteroids "medium metal" 9 9.9036
 	asteroids "large metal" 11 9.7524
+	trade Clothing 243
+	trade Electronics 731
+	trade Equipment 515
+	trade "Heavy Metals" 1079
+	trade Industrial 628
+	trade "Luxury Goods" 1167
+	trade Medical 680
+	trade Metal 468
+	trade Plastic 435
 	fleet "Small Zorcn Vuskr" 800
 	object
 		sprite star/k0
@@ -89805,16 +91370,17 @@ system Vuivor
 	asteroids "medium metal" 1 3.4086
 	asteroids "large metal" 5 2.717
 	minables tungsten 38 2.61644
-	trade Clothing 0
-	trade Electronics 0
-	trade Equipment 0
-	trade Food 0
-	trade "Heavy Metals" 0
-	trade Industrial 0
-	trade "Luxury Goods" 0
-	trade Medical 0
-	trade Metal 0
-	trade Plastic 0
+	trade Clothing 255
+	trade Electronics 848
+	trade Equipment 499
+	trade Food 148
+	trade "Heavy Metals" 803
+	trade Industrial 602
+	trade "Luxury Goods" 1242
+	trade Medical 625
+	trade Metal 244
+	trade Plastic 328
+	fleet "Revos small" 1500
 	object
 		sprite star/f5
 		distance 36.859
@@ -90242,16 +91808,16 @@ system Vuralo
 	asteroids "large metal" 1 8.875
 	minables neodymium 1 9.25973
 	minables titanium 1 7.93125
-	trade Clothing 0
-	trade Electronics 0
-	trade Equipment 0
-	trade Food 0
-	trade "Heavy Metals" 0
-	trade Industrial 0
-	trade "Luxury Goods" 0
-	trade Medical 0
-	trade Metal 0
-	trade Plastic 0
+	trade Clothing 319
+	trade Electronics 689
+	trade Equipment 402
+	trade Food 328
+	trade "Heavy Metals" 1000
+	trade Industrial 598
+	trade "Luxury Goods" 1038
+	trade Medical 517
+	trade Metal 493
+	trade Plastic 319
 	fleet "Revos small" 800
 	object
 		sprite star/g5
@@ -90933,28 +92499,29 @@ system Worak
 	fleet "Donko Guard Big" 500
 	fleet "Donko Guard Small" 500
 	fleet "Revos small" 20000
+	fleet "Donko Miner" 1400
 	object
 		sprite star/m4
 		period 10
 	object Wobore
 		sprite planet/ice1
-		distance 269
-		period 115.545
-		offset 316.287
+		distance 324.804
+		period 153.304
+		offset 198.734
 		object
 			sprite planet/desert4
 			distance 168
 			period 18.6106
 	object
 		sprite planet/lava6
-		distance 657
-		period 441.031
-		offset 310.826
+		distance 712.804
+		period 498.398
+		offset 47.2573
 	object
 		sprite planet/gas2
-		distance 1161.41
-		period 1036.57
-		offset 256.354
+		distance 1217.21
+		period 1112.17
+		offset 191.956
 		object
 			sprite planet/dust1
 			distance 183
@@ -90965,9 +92532,9 @@ system Worak
 			period 31.3272
 	object
 		sprite planet/gas11
-		distance 2335.65
-		period 2956.19
-		offset 341.29
+		distance 2391.45
+		period 3062.77
+		offset 34.351
 		object
 			sprite planet/ice0
 			distance 276
@@ -91058,10 +92625,16 @@ system "Ya ok na"
 	minables copper 1 8.65747
 	minables titanium 1 5.20874
 	minables uranium 4 5.25776
-	trade Clothing 220
+	trade Clothing 224
+	trade Electronics 635
+	trade Equipment 459
 	trade Food 526
-	trade Metal 400
-	trade Plastic 450
+	trade "Heavy Metals" 757
+	trade Industrial 768
+	trade "Luxury Goods" 1102
+	trade Medical 503
+	trade Metal 494
+	trade Plastic 315
 	fleet Nuru 500
 	object
 		sprite star/m4
@@ -91115,7 +92688,16 @@ system "Yi ku"
 	asteroids "small metal" 17 5.94
 	asteroids "medium metal" 9 4.3362
 	asteroids "large metal" 12 7.0092
+	trade Clothing 272
+	trade Electronics 646
+	trade Equipment 643
 	trade Food 350
+	trade "Heavy Metals" 1043
+	trade Industrial 847
+	trade "Luxury Goods" 1346
+	trade Medical 516
+	trade Metal 404
+	trade Plastic 463
 	fleet Nuru 800
 	object
 		sprite star/k0
@@ -91310,16 +92892,16 @@ system Yorta
 	asteroids "large metal" 4 1.5936
 	minables aluminum 5 1.52491
 	minables titanium 3 2.62384
-	trade Clothing 0
-	trade Electronics 0
-	trade Equipment 0
-	trade Food 0
-	trade "Heavy Metals" 0
-	trade Industrial 0
-	trade "Luxury Goods" 0
-	trade Medical 0
-	trade Metal 0
-	trade Plastic 0
+	trade Clothing 283
+	trade Electronics 672
+	trade Equipment 696
+	trade Food 547
+	trade "Heavy Metals" 776
+	trade Industrial 851
+	trade "Luxury Goods" 1446
+	trade Medical 849
+	trade Metal 337
+	trade Plastic 385
 	fleet "Revos small" 1500
 	object
 		sprite star/k0
@@ -91665,16 +93247,16 @@ system Zausn
 	asteroids "large metal" 64 3.7856
 	minables iron 49 5.2767
 	minables silver 55 6.87793
-	trade Clothing 320
-	trade Electronics 890
-	trade Equipment 580
+	trade Clothing 310
+	trade Electronics 759
+	trade Equipment 593
 	trade Food 450
-	trade "Heavy Metals" 1200
-	trade Industrial 670
-	trade "Luxury Goods" 1800
-	trade Medical 600
-	trade Metal 390
-	trade Plastic 310
+	trade "Heavy Metals" 1153
+	trade Industrial 831
+	trade "Luxury Goods" 1045
+	trade Medical 790
+	trade Metal 486
+	trade Plastic 472
 	fleet "Small Zorcn Vuskr" 600
 	fleet "Large Zorcn Vuskr" 800
 	fleet "Small Zorcn Merchant" 400
@@ -91968,7 +93550,8 @@ planet Aelowee
 
 planet Aeulhen
 	landscape land/city14
-	description `Aumar's Planet similar to Earth. Alot of Aumar's arcitecture and vehicle are very similar to 23rd century human technology. Seem like they're just start to explore space`
+	description `A green ball of mostly grasslands and other small green vegatation covering large part of the planet's surface. Ocean split into two, one on each half of the hemisphere. `
+	description `Towns and cities are usually found along the water bodies. Architecture in each area of the planet appears slightly different to each other, some are very detailed and decorated while another is much more simplistic with focus on functionality.`
 
 planet Aikino
 	landscape land/sea13-sfiera
@@ -92080,6 +93663,13 @@ planet Ceursity
 planet Cordeeil
 	landscape land/mountain21-harro
 	description .
+	spaceport .
+
+planet Cudeelu
+	attributes mining
+	landscape land/canyon6
+	description `Surface covered in dark blue rocks with pockets of lakes and rivers scatter across the planet.`
+	description `A few Dels settlement can be seen in some spot surrounding a mine.`
 	spaceport .
 
 planet Darvikor
@@ -92300,6 +93890,11 @@ planet Eilnachi
 	description .
 	spaceport .
 	"required reputation" 1
+
+planet Elkuordai
+	landscape land/beach7-sfiera
+	description .
+	spaceport .
 
 planet Endeerai
 	landscape land/fog4
@@ -92931,6 +94526,11 @@ planet Korles
 	spaceport .
 	"required reputation" 1
 
+planet Kormor-21391
+	landscape land/mountain8
+	description .
+	spaceport .
+
 planet Korpelnon
 	landscape land/nasa1
 	description `Korpelnon is now used by the Resmakia as a space fortress.`
@@ -93013,6 +94613,11 @@ planet "Kulpr Vonal"
 	landscape land/loc2
 	description .
 	spaceport .
+
+planet Kurbor-23
+	landscape land/beach2
+	description `This blue planet while from afar may seems to be comprosed of ocean, a third of the surface with very shallow, enough for the sands to be revealed during low tides. A single island sits in the northern hemisphere of the planet where settlements can be found. `
+	spaceport `Unlike their ship Donko construction materials for buildings are rather something else. An odd dull material in various tones of grey that you can't identifiy exactly what is it.`
 
 planet Kurtelo
 	landscape land/valley14-harro
@@ -93152,6 +94757,11 @@ planet Liveldur
 	spaceport `	The interior as well looks nothing like an industrial building. Everything were tucked hidden behind the panels and vents neatly intregrated into the design of mostly simple curved lines and patterns. Labors such as cleaning and transportation were done by robots, the people here looks more like ones that work inside offices and labs than someone who works in the field.`
 	outfitter "Geeva Advanced"
 
+planet Lorbukder
+	landscape land/fields4
+	description .
+	spaceport .
+
 planet Lordeeva
 	landscape land/fog6
 	description `This planet have its rotation axis almost perpendicular to the star. The planet is however too warm for any significant area of ocean to freeze.`
@@ -93245,7 +94855,6 @@ planet Madine
 	security 0.3
 
 planet Magosen-L2885
-	attributes Wallagi
 	landscape land/space2
 	description `This is a massive spaceship.`
 	spaceport .
@@ -93319,6 +94928,11 @@ planet Melimarsil
 	shipyard "Geeva Advanced"
 	outfitter "Geeva Advanced"
 	security 0.7
+
+planet "Melor 526:1"
+	landscape land/land14
+	description .
+	spaceport .
 
 planet Mentail
 	landscape land/fog3
@@ -93419,6 +95033,11 @@ planet Morlenka
 	description .
 	spaceport .
 	"required reputation" 1
+
+planet Mukaika-33024
+	landscape land/land19
+	description .
+	spaceport .
 
 planet Muneera
 	attributes mining
@@ -93578,6 +95197,11 @@ planet Okamo
 	description .
 	spaceport .
 	"required reputation" 1
+
+planet Okelgaris
+	landscape land/sea7
+	description .
+	spaceport .
 
 planet Okkonak
 	landscape land/fields9
@@ -93904,10 +95528,8 @@ planet "Trochzempt ZAZ-1"
 	description `	.`
 	spaceport `As with anything of this station being impossibly large as if it is inhabitated by giants, the spaceport is large enough for ships of eveysize, prehaps it could even fit a planetoid or two inside.`
 	spaceport `	As large as it can be, lights from drones and ships flying in and out of is visible from angle making it possibly also the busiest spaceport ever as well.`
-	shipyard Modtest
-	shipyard plugin
-	outfitter Modtest
-	outfitter plugin
+	shipyard "ZIS Old"
+	outfitter "ZIS Advanced"
 	tribute 500000
 		threshold 20000
 		fleet "Zis Defense Fleet" 20
@@ -93943,7 +95565,7 @@ planet Ukborta
 planet "Ur sos"
 	landscape land/snow5
 	description `The consipracy is true, they have a hidden base on the moon to observe us! Well, them. `
-	description `	The cold moon of [planet name], glaciers and snow covering most of the surface. The Nuru built a small observation base deep inside a mountian with a giant cave as it's entrance.`
+	description `	The cold moon of Urnoria Os Remanda, glaciers and snow covering most of the surface. The Nuru built a small observation base deep inside a mountian with a giant cave as it's entrance.`
 	spaceport `There is nearly nothing but lights and cave wall around this tiny spaceport. `
 
 planet "Ur uin"
@@ -93972,12 +95594,18 @@ planet "Urmoku Arkrauli"
 	"required reputation" 2000
 
 planet "Urnoria Os Remanda"
+	attributes `"requires: cloak"`
 	landscape land/mountain0
 	description `This planet is restricted only to a few permitted individuals because it is a home to another sentient organism. Buildings of wood and stone, horse carriage as transport, they seems to be in the era comparable to human "middle age". `
 	description `	As permitted by the Nuru, you're only allowed to observe from your cloaked ship and not allowed to make any interactions with the local inhabitants.`
 	description `	(Texts of the 2nd paragraph is a placeholder for a possible landing mission.)`
 	spaceport `Error 404: Spaceport not found. Though, the roof of that castle looks like it'll fit you ship...`
 	"required reputation" 10
+
+planet "Veeralu Ka"
+	landscape land/beach9-sfiera
+	description .
+	spaceport .
 
 planet Veeulakir
 	landscape land/mountain5
@@ -94057,9 +95685,11 @@ planet Wensa
 	"required reputation" 1
 
 planet Wobore
-	attributes Donko
 	landscape land/snow0
 	description .
+	spaceport .
+	shipyard "Donko Advanced"
+	outfitter "Donko Advanced"
 
 planet "Wormhole Glink"
 
