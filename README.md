@@ -6,6 +6,7 @@ The mod is currently in development stage, many things are subjected to changes 
 This is a massive content mod about a war in another galaxy.
 While no story content yet it's currently consist of:
 
+1 Accessible galaxy.
 
 16+ Races with their own ships and outfits,
 
@@ -17,9 +18,9 @@ About 1500 Systems. (Most are still empty)
 
 To find the galaxy, head up to the system north of Ka'ch'chrai(The capital) in the Wanderer space, the wormhole will be in between Sko'karak and Pug Iyik
 
-## Download (Old Version)
-To download the lastest (development) version, press code and download as zip from this repository.
+## Download
+To download the lastest (development) version, press the green [code] button and download as zip from this repository.
 
 To install you can extract the zip in your plugin folder.
-https://drive.google.com/open?id=0B9l01A5yEKsvZDRkaUlGSU56UkU
+
 
