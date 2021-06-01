@@ -13,6 +13,7 @@ outfit "Asutur Thruster" #Masta
 	"flare sprite" "effect/qoro flare/tiny"
 		"frame rate" 10
 	"flare sound" "seeker"
+	description "Makau A Qoro tiny thruster."
 	
 outfit "Eensura Thruster" #Maseen
 	category "Engines"
@@ -27,6 +28,7 @@ outfit "Eensura Thruster" #Maseen
 	"flare sprite" "effect/qoro flare/small"
 		"frame rate" 10
 	"flare sound" "seeker"
+	description "Makau A Qoro small thruster."
 	
 outfit "Maseka Thruster" 
 	category "Engines"
@@ -41,6 +43,7 @@ outfit "Maseka Thruster"
 	"flare sprite" "effect/qoro flare/medium"
 		"frame rate" 10
 	"flare sound" "seeker"
+	description "Makau A Qoro medium thruster."
 	
 outfit "Otsarui Thruster" #Masenta
 	category "Engines"
@@ -55,6 +58,7 @@ outfit "Otsarui Thruster" #Masenta
 	"flare sprite" "effect/qoro flare/big"
 		"frame rate" 10
 	"flare sound" "seeker"
+	description "Makau A Qoro large thruster."
 	
 outfit "Sokenue Thruster" #Masokae
 	category "Engines"
@@ -69,6 +73,7 @@ outfit "Sokenue Thruster" #Masokae
 	"flare sprite" "effect/qoro flare/huge"
 		"frame rate" 10
 	"flare sound" "seeker"
+	description "Makau A Qoro huge thruster."
 	
 # Steering
 outfit "Asutur-ian Steering"
@@ -149,6 +154,7 @@ outfit "Mas-Senkai Gun"
 		"shield damage" 26
 		"hull damage" 58
 		"heat damage" 5
+	description "A Makau Qoro gun. Usually found along side with Mase-Dettai to take down the enemy armor."
 		
 outfit "Mase-Dettai Laser"
 	category "Guns"
@@ -171,7 +177,7 @@ outfit "Mase-Dettai Laser"
 		"firing heat" .4
 		"shield damage" 3
 		"hull damage" .7
-	description ""
+	description "Makau Qoro laser for tearing down shields."
 		
 outfit "Masai-kem Missile Defence" #Dunno tf is this.
 	category "Guns"
