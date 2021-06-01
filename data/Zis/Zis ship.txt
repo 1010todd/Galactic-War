@@ -40,6 +40,7 @@ ship "VK-35 Katen"
 			"ZIS Anti-Missile System"
 		
 			"MPa20Gp-02 Engines"
+			"EPa20Cx-01 Generator"
 			"GSa05Gp-02 Shielding"
 			"GHa05Gp-02 Hull Repair" 
 			"ZIS Patrol Kit"
@@ -66,6 +67,7 @@ ship "VK-35 Katen" "Katen Civ 1"
 			"ZIS Anti-Missile System"
 		
 			"MPa20Gp-02 Engines"
+			"EPa20Gx-01 Generator"
 			"GSa05Gp-02 Shielding"
 			"GHa05Gp-02 Hull Repair" 
 			
@@ -81,6 +83,7 @@ ship "VK-35 Katen" "Katen Civ S1"
 			"ZIS Anti-Missile System"
 		
 			"MPa20Gp-02 Engines"
+			"EPa20Cx-01 Generator"
 			"GSa05Gp-02 Shielding"
 			"GHa05Gp-02 Hull Repair" 
 			
@@ -96,6 +99,7 @@ ship "VK-35 Katen" "Katen Civ 1a"
 			"ZIS Anti-Missile System"
 		
 			"MPa20Sb-04 Engines"
+			"EPa20Cx-01 Generator"
 			"GSa05Gp-02 Shielding"
 			"GHa05Gp-02 Hull Repair" 
 			
@@ -111,6 +115,7 @@ ship "VK-35 Katen" "Katen Civ 1b"
 			"ZIS Anti-Missile System"
 		
 			"MPa20Sb-04 Engines"
+			"EPa20Cx-01 Generator"
 			"GSa05Gp-02 Shielding"
 			"GHa05Gp-02 Hull Repair" 
 			
@@ -123,6 +128,7 @@ ship "VK-35 Katen" "Katen Dark Blaster"
 			"ZIS Anti-Missile System"
 		
 			"MPa20Gp-02 Engines"
+			"EPa20Gx-01 Generator"
 			"GSa05Gp-02 Shielding"
 			"GHa05Gp-02 Hull Repair" 
 			
@@ -137,6 +143,7 @@ ship "VK-35 Katen" "Katen Civ 2"
 			"ZIS Anti-Missile System"
 		
 			"MPa20Gp-02 Engines"
+			"EPa20Cx-01 Generator"
 			"GSa05Gp-02 Shielding"
 			"GHa05Gp-02 Hull Repair" 
 			
@@ -150,6 +157,7 @@ ship "VK-35 Katen" "Katen Civ 2a"
 			"ZIS Anti-Missile System"
 		
 			"MPa20Gp-02 Engines"
+			"EPa20Cx-01 Generator"
 			"GSa05Gp-02 Shielding"
 			"GHa05Gp-02 Hull Repair" 
 			
@@ -163,6 +171,7 @@ ship "VK-35 Katen" "Katen Civ 2b"
 			"ZIS Anti-Missile System"
 		
 			"MPa20Gp-02 Engines"
+			"EPa20Cx-01 Generator"
 			"GSa05Gp-02 Shielding"
 			"GHa05Gp-02 Hull Repair" 
 			
@@ -176,6 +185,7 @@ ship "VK-35 Katen" "Katen Civ 3"
 			"ZIS Anti-Missile System"
 		
 			"MPa20Gp-02 Engines"
+			"EPa20Cx-01 Generator"
 			"GSa05Gp-02 Shielding"
 			"GHa05Gp-02 Hull Repair" 
 			
@@ -202,6 +212,7 @@ ship "VK-35 Katen" "Katen Civ 3a"
 			"ZIS Anti-Missile System"
 		
 			"MPa20Gp-02 Engines"
+			"EPa20Cx-01 Generator"
 			"GSa05Gp-02 Shielding"
 			"GHa05Gp-02 Hull Repair" 
 			
@@ -228,6 +239,7 @@ ship "VK-35 Katen" "Katen Civ 4"
 			"ZIS Anti-Missile System"
 		
 			"MPa20Gp-02 Engines"
+			"EPa20Cx-01 Generator"
 			"GSa05Gp-02 Shielding"
 			"GHa05Gp-02 Hull Repair" 
 			
@@ -242,6 +254,7 @@ ship "VK-35 Katen" "Katen Civ 4b"
 			"ZIS Anti-Missile System"
 		
 			"MPa20Gp-02 Engines"
+			"EPa20Cx-01 Generator"
 			"GSa05Gp-02 Shielding"
 			"GHa05Gp-02 Hull Repair" 
 			
@@ -290,9 +303,11 @@ ship "RZ-28 Forlan"
 		"DZ-10 Dark Blaster" 4
 		"ZIS Anti-Missile System"
 		
-		"MPa20Gp-02 Engines"
 		"GSa05Gp-02 Shielding"
 		"GHa05Gp-02 Hull Repair" 
+		"EPa60Cx-01 Generator"
+
+		"MPa20Gp-02 Engines"
 		
 	gun -44 -3
 	gun 44 -3
@@ -346,6 +361,7 @@ ship "RZ-621-02 Razor"
 
 		"GSa20Gp-02 Shielding"
 		"GHa20Gp-02 Hull Repair"
+		"EPa60Cx-01 Generator"
 		"ZIS Patrol Kit"
 		"ZIS Anti-Missile System"
 		
@@ -374,6 +390,7 @@ ship "RZ-621-02 Razor" "Miner Razor"
 		
 		"GSa20Gp-02 Shielding"
 		"GHa20Gp-02 Hull Repair"
+		"EPa60Cx-01 Generator"
 
 		"MPa30Gp-02 Engines"
 		
@@ -502,11 +519,14 @@ ship "DT-510 Quadlancer"
 	outfits
 		"DZ-84 Darklance" 2
 		"DZ-84 Darklance (Rear)" 2
+		"ZIS Anti-Missile System" 2
+
 		"GSa20Gp-02 Shielding" 2
 		"GHa20Gp-02 Hull Repair"
 		"EPa90Cx-01 Generator"
+
 		"MPa30Gp-02 Engines"
-		"ZIS Anti-Missile System" 2
+		
 		
 	engine 0 31
 	gun -15.5 -99 "DZ-84 Darklance"
