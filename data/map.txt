@@ -1065,10 +1065,14 @@ system Aiborgu
 			period 22.8792
 
 system Aifveva
-	pos -49491.5 -55995.9
+	pos -49468.5 -55978.9
 	government "Erader Mukube"
 	habitable 2372.76
 	belt 1059
+	link Mapocor
+	link Modolu
+	link Taokeva
+	link Tubora
 	asteroids "large metal" 1 3.0576
 	trade Clothing 369
 	trade Electronics 745
@@ -4406,10 +4410,12 @@ system Asmakor
 			period 25.0233
 
 system Asudama
-	pos -49481.6 -55811.4
+	pos -49473.6 -55810.4
 	government "Erader Kasiva"
 	habitable 1080
 	belt 1220
+	link Kaisien
+	link Kisnoma
 	link Mishive
 	link Modiavi
 	link Yugaida
@@ -5118,10 +5124,14 @@ system Bamussor
 			period 73.9286
 
 system Baporve
-	pos -49391.5 -55941.9
+	pos -49379.5 -55941.9
 	government "Erader Mukube"
 	habitable 9126.68
 	belt 1588
+	link Kulvada
+	link Modolu
+	link Moqiven
+	link Naghare
 	asteroids "small rock" 13 5.4208
 	asteroids "medium rock" 7 4.6948
 	asteroids "large rock" 8 6.1468
@@ -5366,10 +5376,11 @@ system Basule
 			period 13.874
 
 system Batorpla
-	pos -49383.5 -56085.9
+	pos -49304.5 -56055.9
 	government "Erader Mukube"
 	habitable 486.68
 	belt 1127
+	link Mabaza
 	asteroids "medium rock" 38 6.72
 	asteroids "large rock" 1 6.768
 	asteroids "small metal" 36 4.32
@@ -5427,10 +5438,13 @@ system Batorpla
 			period 65.0019
 
 system Belatven
-	pos -49452.5 -56164.9
+	pos -49438.5 -56101.9
 	government "Erader Mukube"
 	habitable 425.92
 	belt 1939
+	link Mabaza
+	link Qidove
+	link Taokeva
 	asteroids "medium rock" 35 5.5476
 	asteroids "large rock" 9 6.1686
 	asteroids "small metal" 1 3.0222
@@ -5819,6 +5833,8 @@ system Biserine
 	habitable 8640
 	belt 1075
 	link Kitrola
+	link Koudak
+	link Mokorai
 	asteroids "small rock" 20 2.318
 	asteroids "medium rock" 11 3.458
 	asteroids "large rock" 18 2.356
@@ -6158,6 +6174,66 @@ system Bordelvun
 		sprite planet/gas12
 		distance 2041.97
 		period 1138.54
+
+system Borkuma
+	pos -49642.8 -55971.4
+	government "Erader Mukube"
+	habitable 2507.76
+	belt 1224
+	link Kyueirai
+	link Tubora
+	asteroids "large metal" 1 5.1128
+	trade Clothing 369
+	trade Electronics 745
+	trade Equipment 429
+	trade Food 0
+	trade "Heavy Metals" 973
+	trade Industrial 655
+	trade "Luxury Goods" 1133
+	trade Medical 620
+	trade Metal 241
+	trade Plastic 405
+	object
+		sprite star/f0
+		distance 5.97545
+		period 9.34117
+		offset 180
+	object
+		sprite star/m8
+		distance 105.025
+		period 9.34117
+	object
+		sprite planet/lava3
+		distance 304.585
+		period 42.4599
+	object
+		sprite planet/io
+		distance 642.275
+		period 130.016
+	object
+		sprite planet/gas3
+		distance 984.965
+		period 246.915
+	object
+		sprite planet/gas11
+		distance 1477.21
+		period 453.505
+	object
+		sprite planet/gas15
+		distance 2193.65
+		period 820.672
+		object
+			sprite planet/miranda
+			distance 208
+			period 15.7904
+		object
+			sprite planet/rock14
+			distance 325
+			period 30.8406
+		object
+			sprite planet/rock3
+			distance 445
+			period 49.4125
 
 system Bosluven
 	pos -50954.5 -55758.5
@@ -10739,8 +10815,10 @@ system Dekuoda
 	government "Erader Kasiva"
 	habitable 486.68
 	belt 1478
+	link Kyueirai
 	link Mishive
 	link Nyugokai
+	link Tubora
 	asteroids "large metal" 1 2.6334
 	trade Clothing 287
 	trade Electronics 845
@@ -25338,7 +25416,7 @@ system Guvrn
 system HEuds67x2#29
 	pos -51544.2 -56088.3
 	government Uninhabited
-	habitable 625
+	habitable 320
 	belt 1634
 	asteroids "medium rock" 32 3.192
 	asteroids "large rock" 28 2.136
@@ -25358,32 +25436,38 @@ system HEuds67x2#29
 	trade Metal 362
 	trade Plastic 473
 	object
-		sprite star/g5
+		sprite star/m0
 		period 10
 	object
 		sprite planet/desert8
-		distance 158
-		period 31.7765
+		distance 153
+		period 42.3177
+		offset 155.095
 	object
-		sprite planet/cloud3
-		distance 429.61
-		period 142.473
+		sprite planet/lava4
+		distance 420.557
+		period 192.851
+		offset 10.9856
 	object
-		sprite planet/rock12
-		distance 793.61
-		period 357.71
+		sprite planet/lava1
+		distance 744.557
+		period 454.288
+		offset 329.877
 		object
 			sprite planet/oberon
-			distance 155
-			period 20.1059
+			distance 123
+			period 28.8668
+			offset 230.133
 	object
 		sprite planet/desert6
-		distance 1573.86
-		period 999.008
+		distance 1492.81
+		period 1289.7
+		offset 314.321
 	object
 		sprite planet/rock0
-		distance 2713.07
-		period 2261.06
+		distance 2632.02
+		period 3019.38
+		offset 331.911
 
 system Hael
 	pos -44604.7 -58103.4
@@ -25611,6 +25695,7 @@ system Hakishi
 	belt 1017
 	link Gabukkage
 	link Medarke
+	link Meddasima
 	asteroids "medium rock" 47 2.266
 	asteroids "large rock" 1 1.76
 	asteroids "small metal" 1 1.804
@@ -32690,6 +32775,60 @@ system Kaishide
 			distance 281
 			period 15.5359
 
+system Kaisien
+	pos -49429.2 -55739.5
+	government "Erader Kasiva"
+	habitable 858.28
+	belt 1457
+	link Asudama
+	link Kisnoma
+	link Koudak
+	link Sokeri
+	asteroids "large metal" 1 5.964
+	trade Clothing 205
+	trade Electronics 667
+	trade Equipment 661
+	trade Food 280
+	trade "Heavy Metals" 958
+	trade Industrial 610
+	trade "Luxury Goods" 1062
+	trade Medical 599
+	trade Metal 290
+	trade Plastic 309
+	object
+		sprite star/g5
+		distance 30.9851
+		period 16.6189
+	object
+		sprite star/m4
+		distance 83.0149
+		period 16.6189
+		offset 180
+	object
+		sprite planet/oberon
+		distance 219.975
+		period 44.5456
+	object
+		sprite planet/gas8
+		distance 691.135
+		period 248.079
+		object
+			sprite planet/dust7
+			distance 203
+			period 15.3965
+		object
+			sprite planet/rock3
+			distance 356
+			period 35.7562
+	object
+		sprite planet/ganymede
+		distance 1451.82
+		period 755.295
+	object
+		sprite planet/gas0
+		distance 2347.18
+		period 1552.62
+
 system Kakorga
 	pos -50645.6 -56620
 	government "Kroom Kakaima"
@@ -33300,7 +33439,7 @@ system Kaor
 			period 30.6983
 
 system Kaornral
-	pos -50507.3 -57339.6
+	pos -50512.3 -57293.6
 	government Taroun
 	habitable 486.68
 	belt 1839
@@ -38512,6 +38651,61 @@ system Kirvotur
 			distance 357
 			period 22.2474
 
+system Kisnoma
+	pos -49387.2 -55801.5
+	government "Erader Kasiva"
+	habitable 425.92
+	belt 1758
+	link Asudama
+	link Kaisien
+	link Kulvada
+	link Mokorai
+	asteroids "small rock" 70 2.52
+	asteroids "medium rock" 24 2.961
+	asteroids "large rock" 1 2.415
+	asteroids "small metal" 2 1.911
+	asteroids "medium metal" 124 2.436
+	asteroids "large metal" 32 1.659
+	minables silver 15 3.22957
+	minables titanium 6 4.28363
+	trade Clothing 205
+	trade Electronics 667
+	trade Equipment 661
+	trade Food 280
+	trade "Heavy Metals" 958
+	trade Industrial 610
+	trade "Luxury Goods" 1062
+	trade Medical 599
+	trade Metal 290
+	trade Plastic 309
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/desert9
+		distance 141.61
+		period 32.6616
+	object
+		sprite planet/gas0
+		distance 652.61
+		period 323.129
+		object
+			sprite planet/europa
+			distance 243
+			period 11.1011
+	object
+		sprite planet/gas8
+		distance 1351.42
+		period 962.901
+		object
+			sprite planet/desert4
+			distance 223
+			period 17.727
+	object
+		sprite planet/gas16
+		distance 2752.42
+		period 2798.78
+
 system Kitorna
 	pos -50254.5 -55360.9
 	government Ignaggen
@@ -43627,6 +43821,8 @@ system Koudak
 	government "Erader Kasiva"
 	habitable 659.2
 	belt 1301
+	link Biserine
+	link Kaisien
 	link Madou
 	link Sokeri
 	asteroids "large metal" 1 2.397
@@ -45038,10 +45234,14 @@ system Kulordar
 		period 1169.9
 
 system Kulvada
-	pos -49307.5 -55905.9
+	pos -49325.5 -55863.9
 	government "Erader Mukube"
 	habitable 1715
 	belt 1016
+	link Baporve
+	link Kisnoma
+	link Moqiven
+	link Todike
 	asteroids "small rock" 2 1.9418
 	asteroids "medium rock" 16 1.596
 	asteroids "large rock" 3 1.5428
@@ -45825,6 +46025,53 @@ system Kuveralkel
 			sprite planet/oberon
 			distance 502
 			period 37.0965
+
+system Kyueirai
+	pos -49635 -55902.7
+	government "Erader Kasiva"
+	habitable 1080
+	belt 1410
+	link Borkuma
+	link Dekuoda
+	link Nyugokai
+	asteroids "large metal" 1 4.165
+	trade Clothing 251
+	trade Electronics 820
+	trade Equipment 513
+	trade Food 173
+	trade "Heavy Metals" 1146
+	trade Industrial 650
+	trade "Luxury Goods" 1097
+	trade Medical 553
+	trade Metal 357
+	trade Plastic 502
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/gas12
+		distance 353.84
+		period 81.0137
+	object
+		sprite planet/rock5
+		distance 684.68
+		period 218.062
+	object
+		sprite planet/jupiter
+		distance 1755.04
+		period 894.909
+		object
+			sprite planet/dust0
+			distance 267
+			period 13.7097
+		object
+			sprite planet/rock0
+			distance 364
+			period 21.823
+		object
+			sprite planet/lava0
+			distance 536
+			period 38.995
 
 system "La lei no"
 	pos -50317.5 -53260
@@ -49470,7 +49717,7 @@ system Lourge
 		offset 3.93658
 
 system Luaarla
-	pos -50462.9 -57156.8
+	pos -50386.9 -57168.8
 	government Taroun
 	habitable 1080
 	belt 1965
@@ -50427,10 +50674,12 @@ system Maaynai
 			period 38.3421
 
 system Mabaza
-	pos -49432.3 -56115
+	pos -49373.3 -56076
 	government "Erader Mukube"
 	habitable 320
 	belt 1216
+	link Batorpla
+	link Belatven
 	asteroids "small rock" 5 2.7104
 	asteroids "medium rock" 100 2.9876
 	asteroids "large rock" 4 4.158
@@ -52836,10 +53085,13 @@ system Maodeso
 			period 71.0676
 
 system Mapocor
-	pos -49474.5 -56063.9
+	pos -49433.5 -56011.9
 	government "Erader Mukube"
 	habitable 625
 	belt 1495
+	link Aifveva
+	link Naghare
+	link Taokeva
 	asteroids "small rock" 4 9.9528
 	asteroids "medium rock" 10 10.1616
 	asteroids "large rock" 1 7.2384
@@ -54831,6 +55083,7 @@ system Meddasima
 	government "Erader Narpul"
 	habitable 621.68
 	belt 1999
+	link Hakishi
 	link Srimari
 	asteroids "medium rock" 1 1.2152
 	asteroids "large rock" 3 2.8028
@@ -57577,6 +57830,7 @@ system Mishive
 	belt 1332
 	link Asudama
 	link Dekuoda
+	link Modolu
 	asteroids "medium rock" 10 2.2113
 	asteroids "large rock" 2 1.8252
 	asteroids "small metal" 3 4.7385
@@ -58629,6 +58883,9 @@ system Modolu
 	government "Erader Mukube"
 	habitable 973.36
 	belt 1251
+	link Aifveva
+	link Baporve
+	link Mishive
 	asteroids "small rock" 5 9.0596
 	asteroids "large rock" 10 5.3592
 	asteroids "small metal" 10 6.2524
@@ -58828,10 +59085,12 @@ system Mokakga
 			period 20.281
 
 system Mokorai
-	pos -49390.5 -55789.9
+	pos -49355.5 -55727.9
 	government "Erader Kasiva"
 	habitable 320
 	belt 1836
+	link Biserine
+	link Kisnoma
 	asteroids "small rock" 9 3.564
 	asteroids "medium rock" 17 2.7192
 	asteroids "large rock" 5 2.2704
@@ -59060,10 +59319,13 @@ system Molta
 			period 17.0126
 
 system Moqiven
-	pos -49323.5 -55990.9
+	pos -49297.5 -55936.9
 	government "Erader Mukube"
 	habitable 8640
 	belt 1247
+	link Baporve
+	link Kulvada
+	link Siborr
 	asteroids "small rock" 3 1.694
 	asteroids "large rock" 1 1.2705
 	asteroids "medium metal" 6 0.6413
@@ -61230,7 +61492,7 @@ system Mukorrai
 			period 17.2707
 
 system Mukoulaon
-	pos -50639 -57396.8
+	pos -50655 -57411.8
 	government Taroun
 	habitable 973.36
 	belt 1583
@@ -61268,7 +61530,7 @@ system Mukoulaon
 		sprite planet/ice6
 		distance 501.38
 		period 143.937
-	object
+	object "Laouren Nrkua"
 		sprite planet/forest5
 		distance 1028.38
 		period 422.818
@@ -62675,10 +62937,13 @@ system Nagettor
 			period 45.0611
 
 system Naghare
-	pos -49395.5 -56026.9
+	pos -49364.5 -55997.9
 	government "Erader Mukube"
 	habitable 2140.92
 	belt 1027
+	link Baporve
+	link Mapocor
+	link Siborr
 	asteroids "small rock" 2 4.08
 	asteroids "medium rock" 19 4.8552
 	asteroids "large rock" 2 5.7528
@@ -66508,6 +66773,7 @@ system Nyugokai
 	habitable 486.68
 	belt 1062
 	link Dekuoda
+	link Kyueirai
 	link Meigari
 	link Yugaida
 	asteroids "large metal" 1 6.968
@@ -71946,10 +72212,12 @@ system "Qee Vurelo"
 			period 20.8184
 
 system Qidove
-	pos -49316.5 -56149.9
+	pos -49516.5 -56152.9
 	government "Erader Mukube"
 	habitable 640
 	belt 1147
+	link Belatven
+	link Taokeva
 	asteroids "small rock" 1 1.9575
 	asteroids "medium rock" 3 2.4975
 	asteroids "large rock" 1 1.62
@@ -79518,10 +79786,12 @@ system "Si ei ao"
 			period 12.8154
 
 system Siborr
-	pos -49278.5 -56059.9
+	pos -49290.5 -56005.9
 	government "Erader Mukube"
 	habitable 851.84
 	belt 1665
+	link Moqiven
+	link Naghare
 	asteroids "medium rock" 4 4.5675
 	asteroids "large rock" 2 2.0475
 	asteroids "medium metal" 67 2.6775
@@ -80403,6 +80673,7 @@ system Sokeri
 	government "Erader Kasiva"
 	habitable 425.92
 	belt 1762
+	link Kaisien
 	link Kiashimo
 	link Koudak
 	link Modiavi
@@ -81898,10 +82169,14 @@ system Takuvurdan
 		period 1909.78
 
 system Taokeva
-	pos -49546.9 -56113.4
+	pos -49503.9 -56071.4
 	government "Erader Mukube"
 	habitable 455
 	belt 1739
+	link Aifveva
+	link Belatven
+	link Mapocor
+	link Qidove
 	asteroids "small rock" 2 2.6312
 	asteroids "medium rock" 3 2.8886
 	asteroids "large rock" 12 4.1756
@@ -82480,10 +82755,11 @@ system Todelbe
 			period 15.2054
 
 system Todike
-	pos -49246.3 -55842
+	pos -49260.3 -55839
 	government "Erader Mukube"
 	habitable 233.28
 	belt 1472
+	link Kulvada
 	asteroids "small rock" 17 4.1472
 	asteroids "medium rock" 22 3.8016
 	asteroids "large rock" 42 3.6
@@ -82730,10 +83006,13 @@ system Tuarli
 		period 4379.61
 
 system Tubora
-	pos -49575.9 -56028.1
+	pos -49561.9 -55976.1
 	government "Erader Mukube"
 	habitable 945
 	belt 1919
+	link Aifveva
+	link Borkuma
+	link Dekuoda
 	asteroids "medium rock" 1 3.6288
 	asteroids "large rock" 1 6.5856
 	asteroids "small metal" 2 4.8384
@@ -85114,7 +85393,7 @@ system Urkwaar
 			period 26.1482
 
 system Urlansa
-	pos -50561.3 -57408.7
+	pos -50566.3 -57361.7
 	government Taroun
 	habitable 425.92
 	belt 1389
@@ -85213,7 +85492,7 @@ system Urmarse
 			period 30.9016
 
 system Uromanu
-	pos -50597 -57359.8
+	pos -50625 -57383.8
 	government Taroun
 	habitable 2372.76
 	belt 1799
@@ -85253,7 +85532,7 @@ system Uromanu
 		sprite planet/lava0
 		distance 653.26
 		period 137.108
-	object
+	object "Urmoku Arkrauli"
 		sprite planet/gas5
 		distance 1966.22
 		period 715.948
@@ -85669,13 +85948,15 @@ system VCJNAREO?p9x5uyse;tgyi
 		distance 770.23
 		period 206.471
 	object
-		sprite planet/ocean2
-		distance 1137.79
-		period 370.699
+		sprite planet/lava4
+		distance 1115.79
+		period 359.999
+		offset 132.512
 	object
 		sprite planet/io
-		distance 3547.63
-		period 2040.96
+		distance 3503.63
+		period 2003.11
+		offset 333.733
 
 system Vaibeilo
 	pos -52203.1 -55701.7
@@ -91318,7 +91599,7 @@ system Yuruar
 			period 42.8762
 
 system Zaubaruer
-	pos -50485.8 -57248.9
+	pos -50458.8 -57214.9
 	government Taroun
 	habitable 625
 	belt 1034
@@ -91499,14 +91780,16 @@ system _#R(0484HFFosld6EW
 	pos -51541.9 -56009.8
 	government Uninhabited
 	habitable 486.68
-	belt 1881
-	asteroids "small rock" 53 4.4275
-	asteroids "medium rock" 16 4.37
-	asteroids "large rock" 4 3.68
-	asteroids "medium metal" 7 8.51
-	asteroids "large metal" 1 5.9225
-	minables aluminum 19 8.93093
-	minables titanium 5 9.44873
+	belt 1004
+	asteroids "small rock" 117 4.7328
+	asteroids "medium rock" 40 2.61
+	asteroids "large rock" 100 3.654
+	asteroids "small metal" 15 4.4892
+	asteroids "medium metal" 40 4.4196
+	asteroids "large metal" 49 3.5496
+	minables aluminum 17 6.48516
+	minables iron 16 5.6226
+	minables tungsten 11 4.26487
 	trade Clothing 326
 	trade Electronics 662
 	trade Equipment 426
@@ -91525,21 +91808,25 @@ system _#R(0484HFFosld6EW
 		distance 196.49
 		period 49.94
 	object
-		sprite planet/ice6
-		distance 373.7
-		period 130.985
+		sprite planet/lava6
+		distance 354.7
+		period 121.124
+		offset 185.838
 	object
-		sprite planet/ice4
-		distance 696.91
-		period 333.583
+		sprite planet/lava2
+		distance 633.91
+		period 289.387
+		offset 251.457
 	object
-		sprite planet/rock9
-		distance 1614.15
-		period 1175.86
+		sprite planet/lava3
+		distance 1516.15
+		period 1070.41
+		offset 141.88
 	object
 		sprite planet/gas6
-		distance 4731.31
-		period 5900.79
+		distance 4623.31
+		period 5699.91
+		offset 344.414
 		object
 			sprite planet/rock14
 			distance 311
@@ -92737,6 +93024,12 @@ planet Lamarre
 	description .
 	spaceport .
 
+planet "Laouren Nrkua"
+	landscape land/beach9-sfiera
+	description .
+	spaceport .
+	"required reputation" 100
+
 planet Ledokvua
 	landscape land/land9
 	description `A planet is tidally locked to the star leaving on end a warm ocean and another a dark cold ice scape full of crater from meteor impacts.`
@@ -93668,6 +93961,15 @@ planet Uriysn
 	landscape land/fields3
 	description `This planet was first settled several centuries ago mostly with people escaping the crowded planets. Large tree-cutting machines can be seen around the edge of forests quickly removing trees from the ground and leaving it on the truck behind. `
 	spaceport `The spaceport is undergoing renovation with more landing pads and buildings being constructed. Majority of ships transiting are large cargo ships loading up large stack of tree trunks.`
+
+planet "Urmoku Arkrauli"
+	attributes `"requires: gaslining"`
+	landscape land/nasa2
+	description `Deep below the thick atmosphere reveals a giant entrance surrounded by liquid hydrogen compressed by insane amount of pressure. The entrance is sealed by some sort of force field that only allow ships to pass through. Inside reveals a room large enough to comforably fly around dimly lit by arrays of light along the wall revealing various forms of dark and organic material and machines attached and extended from the wall. Along the wall of living machines in this spacious room is scattered with landing bays.`
+	spaceport `Everything in the spaceport is automated with most Tarouns passing time to time going on with their buisness. `
+	shipyard "Taroun Basic"
+	outfitter "Taroun Advanced"
+	"required reputation" 2000
 
 planet "Urnoria Os Remanda"
 	landscape land/mountain0
