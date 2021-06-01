@@ -21,7 +21,7 @@ fleet "Dels Kaote"
 		"Dels Dea" 4
 		"Dels Darca"
 		"Dels Decso"
-		"Dels Deeris" 5
+		"Dels Secsen" 5
 	variant 2
 		"Dels Dee" 4
 		"Dels Dea" 4
@@ -32,47 +32,47 @@ fleet "Dels Kaote"
 		"Dels Dea" 4
 		"Dels Darca"
 		"Dels Decso" 2
-	variant 4
-		"Dacar heavy"
-		"Dels Dee" 3
-		"Dels Dea" 3
-	variant 5
-		"Dels Dacar"
-		"Dels Dee" 3
-		"Dels Dea" 3
 	variant 10
 		"Dels Secsen" 3
+	variant 7
+		"Dels Secsen" 6
 	variant 10
 		"Dels Senro" 3
-	variant 10
-		"Dels Deeris" 3
 		
 fleet "Dels Dardornai"
 	government "Dels Dardornai"
-	names "Dels Guard"
+	names "Dels Dardornai"
 	fighters "Dels Fighter"
 	cargo 1
 	personality
-		confusion 10
-		heroic opportunistic frugal
+		confusion 15
+		heroic
 	variant 3
 		"Dels Decso"
+		"Dels Senro" 4
 	variant 3
 		"Dels Decso"
-		"Dels Deeris" 5
+		"Dels Secsen" 5
 	variant 6
 		"Dels Decso"
 	variant 4
 		"Dels Decso" 2
-	variant 10
+	variant 12
 		"Dels Secsen" 3
-	variant 10
+	variant 12
 		"Dels Senro" 3
 	variant 10
 		"Dels Deeris" 3
+	variant 6
+		"Dels Dacar"
+		"Dels Dea" 5
 	variant 5
 		"Dels Dacar"
 		"Dels Dea" 3
+		"Dels Dee" 2
+		"Dels Senro" 3
+	variant 8
+		"Dels Senro" 6
 		
 #=======
 	

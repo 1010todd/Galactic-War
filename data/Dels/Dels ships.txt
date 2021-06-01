@@ -554,7 +554,7 @@ ship "Dels Secsen"
 	attributes
 		category "Light Warship"
 		"cost" 1100000
-		"shields" 2800
+		"shields" 3800
 		"hull" 750
 		"required crew" 2
 		"bunks" 4
@@ -600,7 +600,7 @@ ship "Dels Secsen"
 		under
 	explode "tiny explosion" 20
 	explode "small explosion" 16
-	description ""
+	description "Puda Der shipyard Secsen is manufactured primarily for use by Kaote"
 	
 ship "Dels Senro"
 	sprite "ship/dels senro"
@@ -608,7 +608,7 @@ ship "Dels Senro"
 	attributes
 		category "Light Warship"
 		"cost" 1530000
-		"shields" 4700
+		"shields" 4300
 		"hull" 900
 		"required crew" 7
 		"bunks" 14
@@ -654,7 +654,7 @@ ship "Dels Senro"
 	explode "big explosion" 16
 	explode "tiny explosion" 28
 	explode "small explosion" 40
-	description "A light attack craft designed to bombard and destroy larger warships with big guns."
+	description "An attack craft designed to bombard and destroy larger warships with big guns."
 	
 ship "Dels Deeris"
 	sprite "ship/dels deeris"
