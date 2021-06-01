@@ -284,7 +284,7 @@ outfit "Masenar Turret"
 		"hull damage" 60
 		"stream"
 		"piercing" .2
-	description "This is a northern Qoro anti-fighter turret, due to how it works, with most of it's core mechanism hidden inside the ship the turret can turn very fast. Though, due to the being a relativly new technology it suffered heavily from inaccuracy." 
+	description "This is a northern Qoro anti-fighter turret, due to how it works, most of its core mechanism is hidden inside the ship allowing the turret can turn very fast. Though, due to the being a relativly new technology it suffered heavily from inaccuracy." 
 		
 effect "masenar fire"
 	sprite "effect/masenar fire"
@@ -324,14 +324,17 @@ outfit "Masini-Senmari Turret"
 		"turret turn" 2.4
 		"velocity" 22
 		"lifetime" 34
-		"reload" 30
+		"reload" 20
 		"burst reload" 8
 		"burst count" 3
 		"firing energy" 22
 		"firing heat" 12
 		"shield damage" 160
 		"hull damage" 68
+		"energy damage" 40
+		"piercing" .1
 		"stream"
+	description "Medium-sized Makau Qoro anti-ship turret"
 
 effect "masini live"
 	sprite "projectile/masenar"
