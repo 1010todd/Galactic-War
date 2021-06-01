@@ -44,7 +44,7 @@ ship "Dels Sendo"
 		under
 	explode "tiny explosion" 10
 	explode "small explosion" 5
-	description "Sendo manufactured by [shipyard]. It is the smallest and cheapest transport avaliable in this space."
+	description "The Sendo is a small transport manufactured by Firklee shipyard. It is the smallest and cheapest transport avaliable in this space."
 	
 ship "Dels Serdeen" 
 	sprite "ship/dels serdeen"
@@ -103,7 +103,7 @@ ship "Dels Serdeen"
 		under
 	explode "tiny explosion" 10
 	explode "small explosion" 5
-	description "Mid-sized mid-ranged transport manufactured by [shipyard] for general transit across Dels space."
+	description "Mid-sized mid-ranged transport manufactured by Firklee shipyard for general transit across Dels space."
 
 ship "Dels Doreenor" #wip
 	sprite "ship/dels sendo"
@@ -430,7 +430,7 @@ ship "Dels Derso"
 	thumbnail "thumbnail/dels derso thumb"
 	attributes
 		category "Interceptor"
-		"cost" 265000
+		"cost" 256000
 		"shields" 1100
 		"hull" 400
 		"required crew" 1
@@ -503,7 +503,7 @@ ship "Dels Ekdor"
 	thumbnail "thumbnail/dels ekdor thumb"
 	attributes
 		category "Interceptor"
-		"cost" 285000
+		"cost" 265000
 		"shields" 1200
 		"hull" 600
 		"required crew" 1
@@ -553,7 +553,7 @@ ship "Dels Secsen"
 	thumbnail "thumbnail/dels secsen thumb"
 	attributes
 		category "Light Warship"
-		"cost" 1500000
+		"cost" 1100000
 		"shields" 2800
 		"hull" 750
 		"required crew" 2
@@ -607,7 +607,7 @@ ship "Dels Senro"
 	thumbnail "thumbnail/dels senro thumb"
 	attributes
 		category "Light Warship"
-		"cost" 2250000
+		"cost" 1530000
 		"shields" 4700
 		"hull" 900
 		"required crew" 7
@@ -654,14 +654,14 @@ ship "Dels Senro"
 	explode "big explosion" 16
 	explode "tiny explosion" 28
 	explode "small explosion" 40
-	description ""
+	description "A light attack craft designed to bombard and destroy larger warships with big guns."
 	
 ship "Dels Deeris"
 	sprite "ship/dels deeris"
 	thumbnail "thumbnail/dels deeris thumb"
 	attributes
 		category "Light Warship"
-		"cost" 2800000
+		"cost" 1400000
 		"shields" 2150
 		"hull" 880
 		"required crew" 2
@@ -711,6 +711,7 @@ ship "Dels Deeris"
 	explode "tiny explosion" 10
 	explode "small explosion" 5
 	description "."
+
 #=================MEDIUM WARSHIP
 ship "Dels Uldeor" #WiP
 	sprite "ship/dels deeris"
