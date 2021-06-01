@@ -17,7 +17,7 @@ ship "I'nos" #1st
 	attributes
 		category "Heavy Warship"
 		licenses
-#			"Kager Lergen"
+			"Kager Lergen"
 		"cost" 14000000
 		"shields" 13500
 		"hull" 22000
@@ -25,7 +25,7 @@ ship "I'nos" #1st
 		"bunks" 100
 		"mass" 1250
 		"drag" 8.6
-		"heat dissipation" .78
+		"heat dissipation" 5
 		"fuel capacity" 600
 		"cargo space" 80
 		"outfit space" 1200
@@ -113,7 +113,7 @@ ship "Loerlen" #2nd, used by civs
 		"bunks" 45
 		"mass" 320
 		"drag" 5.2
-		"heat dissipation" .8
+		"heat dissipation" 2.6
 		"fuel capacity" 600
 		"cargo space" 55
 		"outfit space" 390
@@ -167,7 +167,7 @@ ship "Keorlen"
 		"bunks" 10
 		"mass" 1050
 		"drag" 3.1
-		"heat dissipation" .8
+		"heat dissipation" 2.4
 		"fuel capacity" 600
 		"cargo space" 800
 		"outfit space" 380
@@ -247,7 +247,7 @@ ship "Kina"
 		"bunks" 2
 		"mass" 76
 		"drag" 2.4
-		"heat dissipation" 1
+		"heat dissipation" 3
 		"fuel capacity" 300
 		"cargo space" 60
 		"outfit space" 150
@@ -288,7 +288,7 @@ ship "Gikeor"
 		"bunks" 2
 		"mass" 75
 		"drag" 1.6
-		"heat dissipation" .9
+		"heat dissipation" 3
 		"fuel capacity" 600
 		"cargo space" 30
 		"outfit space" 240
@@ -351,7 +351,7 @@ ship "Koggareu"
 		"bunks" 2
 		"mass" 98
 		"drag" 1.6
-		"heat dissipation" .9
+		"heat dissipation" 7
 		"fuel capacity" 600
 		"cargo space" 30
 		"outfit space" 240
@@ -407,7 +407,7 @@ ship "Kamuel"
 		"bunks" 2
 		"mass" 180
 		"drag" 1.8
-		"heat dissipation" .9
+		"heat dissipation" 7
 		"fuel capacity" 600
 		"cargo space" 50
 		"outfit space" 240
