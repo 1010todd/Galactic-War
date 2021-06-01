@@ -280,7 +280,7 @@ fleet "Donko Guard Small"
 	cargo 1
 	personality
 		confusion 20
-		heroic opportunistic plunders disables
+		heroic opportunistic disables
 	variant 10
 		"Donko Koi"
 		"Donko Kolso" 6
@@ -294,12 +294,35 @@ fleet "Donko Guard Small"
 		"Donko Senka"
 
 fleet "Donko Small"
+	government "Donko"
+	names "Donko Civilian"
+	fighters "Donko Fighter"
+	cargo 2
+	personality
+		confusion 20
+		disables
 	variant 5
 		"Donko Kanse" 3
 		"Donko Koi"
+		"Donko Kolso"
 	variant 5
 		"Donko Kanse" 3
 		"Koi (Freighter)"
+	variant 3
+		"Koi (Freighter)"
+
+fleet "Donko Miner"
+	government "Donko"
+	names "Donko Civilian"
+	fighters "Donko Fighter"
+	personality
+		confusion 20
+		disables
+	variant 30
+		"Donko Kanse"
+	variant 10
+		"Koi (Freighter)"
+		"Donko Matka"
 		
 fleet "Wallagi Patrol"
 	government "Wallagi"
@@ -937,6 +960,22 @@ fleet "Zis Light Patrol Fleet"
 		"AD-672 Ranzai" 8
 	variant 35
 		"AD-672 Ranzai" 6
+	variant 15
+		"RZ-621-02 Razor" 3
+		"SG-60 Ginaz Patrol Drone" 6
+	variant 20
+		"DT-510 Quadlancer" 3
+		"DT-224 Trazar" 2
+	variant 20
+		"DT-510 Quadlancer"
+		"DT-224 Trazar" 3
+	variant 30
+		"DT-510 Quadlancer" 2
+		"DT-224 Trazar" 2
+	variant 30
+		"TZ-3468 Seoui"
+		"DT-510 Quadlancer" 2
+		"DT-224 Trazar"
 		
 fleet "Zis Raid Fleet"
 	government "ZIS"
