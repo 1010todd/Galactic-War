@@ -97,6 +97,8 @@ outfit "J4 MES Turret"
 	"turret mounts" -1
 	weapon
 		sprite "projectile/blaster"
+		"hardpoint sprite" "hardpoint/donko j4mes turret hp"
+		"hardpoint offset" 9
 		sound "proton"
 		"hit effect" "skylance impact"
 		"inaccuracy" .2
@@ -120,6 +122,8 @@ outfit "J4 KED Turret"
 	weapon
 		sprite "projectile/ion bolt"
 			"frame rate" 1
+		"hardpoint sprite" "hardpoint/donko j4mes turret hp"
+		"hardpoint offset" 9
 		sound "proton"
 		"hit effect" "jump drive"
 		"inaccuracy" .1
@@ -144,6 +148,8 @@ outfit "J6 KED Turret"
 	weapon
 		sprite "projectile/ion bolt"
 			"frame rate" 1
+		"hardpoint sprite" "hardpoint/donko j4mes turret hp"
+		"hardpoint offset" 9
 		sound "proton"
 		"hit effect" "jump drive"
 		"inaccuracy" .1
@@ -168,6 +174,8 @@ outfit "B3 LAR Turret"
 	weapon
 		sprite "projectile/skylance"
 			"frame rate" 6
+		"hardpoint sprite" "hardpoint/donko j4mes turret hp"
+		"hardpoint offset" 9
 		sound "gw blance"
 		"hit effect" "jump drive"
 		"submunition" "donko b3 lar"
