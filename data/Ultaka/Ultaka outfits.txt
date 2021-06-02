@@ -10,6 +10,7 @@ outfit "B60 Ve'el Core"
 	"ultaka bcore" 15
 	"cooling" 12 #Yes, f u.
 	"maintenance costs" 150000
+	"unplunderable" 1
 	description "Mysterious object sitting at the heart of a large Ultaka ship powering it and its large energy consumption with ease."
 	description "These mysterious generators appears to suck away heat from its surrounding regradless of insulation and cuts off at a certain radius creating a sudden drop of temperature around it."
 	description "All material surrounding it aside from it self seems to degrade and become weaker. Without constant maintenance something is going to break."
@@ -24,6 +25,7 @@ outfit "B30 Gal'e Core"
 	"cooling" 2.9
 	"ultaka bcore" 2.5
 	"maintenance costs" 40000
+	"unplunderable" 1
 	description "."
 	description "These mysterious generators appears to suck away heat from its surrounding regradless of insulation and cuts off at a certain radius creating a sudden drop of temperature around it."
 	description "All material surrounding it aside from it self seems to degrade and become weaker. Without constant maintenance something is going to break."
@@ -38,6 +40,7 @@ outfit "B20 Erul Core"
 	"cooling" 2.4
 	"ultaka bcore" 1
 	"maintenance costs" 20000
+	"unplunderable" 1
 	description "A slightly bigger power system then B10."
 	description "These mysterious generators appears to suck away heat from its surrounding regradless of insulation and cuts off at a certain radius creating a sudden drop of temperature around it."
 	description "All material surrounding it aside from it self seems to degrade and become weaker. Without constant maintenance something is going to break."
@@ -52,6 +55,7 @@ outfit "B10 Anht Core"
 	"cooling" 2
 	"ultaka bcore" .5
 	"maintenance costs" 5000
+	"unplunderable" 1
 	description "The smallest of it's kind, these power units provide energy for Ultaka's fighters but may as well power an entire battleship from other races."
 	description "These mysterious generators appears to suck away heat from its surrounding regradless of insulation and cuts off at a certain radius creating a sudden drop of temperature around it."
 	description "All material surrounding it aside from it self seems to degrade and become weaker. Without constant maintenance something is going to break."
@@ -75,6 +79,7 @@ outfit "USG200 Shield Generator"
 	"outfit space" -210
 	"shield generation" 34.4
 	"shield energy" 68.5
+	"shield heat" 60
 	"ion protection" 1.3
 	description "A large Ultaka Shield generator."
 	
@@ -86,8 +91,10 @@ outfit "USG150 Shield Generator"
 	"outfit space" -151
 	"shield generation" 16.2
 	"shield energy" 33.2
+	"shield heat" 30
 	"ion protection" 1.1
-	
+	description ""
+
 outfit "USG100 Shield Generator"
 	category "Systems"
 	cost 300000
@@ -96,7 +103,9 @@ outfit "USG100 Shield Generator"
 	"outfit space" -100
 	"shield generation" 10
 	"shield energy" 23.6
+	"shield heat" 23
 	"ion protection" .8
+	description "Medium sized Ultaka shield generator"
 	
 outfit "USG50 Shield Generator"
 	category "Systems"
@@ -106,6 +115,7 @@ outfit "USG50 Shield Generator"
 	"outfit space" -50
 	"shield generation" 4.7
 	"shield energy" 14
+	"shield heat" 14
 	"ion protection" 1
 	description "A small Ultaka Shield generator."
 	
