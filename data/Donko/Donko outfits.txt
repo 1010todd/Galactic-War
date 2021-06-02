@@ -42,6 +42,28 @@ outfit "J2 MES Gun"
 		"shield damage" 30
 		"hull damage" 14
 	description ""
+
+outfit "J4 MES Gun"
+	category "Guns"
+	cost 2800000
+	thumbnail "outfit/donko j4mes"
+	mass 37
+	"outfit space" -37
+	"weapon capacity" -37
+	"gun ports" -1
+	weapon
+		sprite "projectile/blaster"
+		sound "proton"
+		"hit effect" "skylance impact"
+		"inaccuracy" .2
+		"turret turn" 6
+		"velocity" 23
+		"lifetime" 45
+		"reload" 10
+		"firing energy" 90
+		"firing heat" 10
+		"shield damage" 90
+		"hull damage" 67
 		
 outfit "J2 KED Gun"
 	category "Guns"
@@ -68,7 +90,7 @@ outfit "J2 KED Gun"
 outfit "J4 MES Turret"
 	category "Turrets"
 	cost 18000000
-	thumbnail "outfit/j4mes gun"
+	thumbnail "outfit/donko j4mes turret"
 	mass 37
 	"outfit space" -37
 	"weapon capacity" -37
