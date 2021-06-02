@@ -9,17 +9,18 @@
 #============================[Transport]=======================
 ship "Genterrac"
 	sprite "ship/erader gentarrac"
+	thumbnail "thumbnail/erader gentarrac thumb"
 	attributes
 		category "Transport"
 		"cost" 730000
 		"shields" 1300
 		"hull" 860
-		"required crew" 3
-		"bunks" 18
-		"mass" 240
+		"required crew" 2
+		"bunks" 12
+		"mass" 80
 		"drag" 5.6
-		"heat dissipation" .6
-		"fuel capacity" 600
+		"heat dissipation" .8
+		"fuel capacity" 300
 		"cargo space" 150
 		"outfit space" 250
 		"weapon capacity" 80
@@ -30,7 +31,6 @@ ship "Genterrac"
 			"hull damage" 200
 			"hit force" 600
 	outfits
-		"Blaster Turret" 2
 		"Heavy Anti-Missile Turret"
 		
 		"nGVF-EE Fuel Cell"
@@ -41,16 +41,60 @@ ship "Genterrac"
 		"X2200 Ion Steering"
 		"Scram Drive"
 		
-	engine -9 97
-	engine 9 97
-	turret 0 -52 "Blaster Turret"
-	turret 0 65 "Blaster Turret"
-	turret 0 6 "Heavy Anti-Missile Turret"
+	turret 0 20
+	engine 0 40
+		zoom 1
+		angle 0
+		under
+	engine -11.5 38.5
+		zoom .7
+		angle 0
+		under
+	engine 11.5 38.5
+		zoom .7
+		angle 0
+		under
+	"reverse engine" -6 -36
+		zoom .2
+		angle 180
+		under
+	"reverse engine" 6 -36
+		zoom .2
+		angle 180
+		under
+	"reverse engine" -24 10.5
+		zoom .3
+		angle 180
+		under
+	"reverse engine" 24 10.5
+		zoom .3
+		angle 180
+		under
+	"steering engine" -10 -30.5
+		zoom .3
+		angle -90
+		under
+		right
+	"steering engine" 10 -30.5
+		zoom .3
+		angle 90
+		under
+		left
+	"steering engine" -25.5 28
+		zoom .3
+		angle -90
+		under
+		left
+	"steering engine" 25.5 28
+		zoom .3
+		angle 90
+		under
+		right
 	explode "tiny explosion" 10
 	explode "small explosion" 30
 	explode "medium explosion" 20
 	"final explode" "final explosion small"
-	description ""
+	description "A compact transport ship built by Erader Darua."
 	
 #============================[Light Freighter]=================
 ship "Dauren"

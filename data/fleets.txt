@@ -725,7 +725,22 @@ fleet "Ignaggen Miner"
 		frugal mining harvests plunders
 	variant 20
 		"Gikeor" 3
-		
+	
+fleet "Erader Darua Merchant" 
+	government "Erader Darua"
+	names "Erader Darua"
+	cargo 1
+	personality
+		heroic
+		frugal 
+		opportunistic
+	variant 20
+		"Genterrac"
+	variant 20
+		"Dauren"
+	variant 20
+		"Raular"
+
 fleet "Erm Raid Fleet" 
 	government "Erm"
 	names "Erm"
