@@ -1,0 +1,9 @@
+#Mark the plugin version to the save file.
+#I'll try to update this if I don't forget.
+
+mission "GW Version: v0.1.0-D"
+	landing
+	invisible
+	on offer
+		set "GW Version: v0.1.0-D"
+		fail
