@@ -712,11 +712,11 @@ outfit "Ultaka Vanquisher Cannon"
 	"gun ports" -1
 	"spinal mount" -1
 	weapon
-		"sprite" "projectile/uvc"
+		"sprite" "projectile/ultaka vanquisher"
 		"inaccuracy" 0.1
 		"velocity" 15
 		"lifetime" 300
-		"hit effect" "antimatter dust" 10
+		"hit effect" "ultaka vanquisher hit"
 		"hit effect" "nuke explosion"
 		"reload" 600
 		"firing energy" 9010
@@ -726,8 +726,18 @@ outfit "Ultaka Vanquisher Cannon"
 		"hull damage" 40250
 		"missile strength" 1100
 		"piercing" .3
-	description "Unlike the smaller Ultaka Anitmatter Cannon, this weapon is based on a different technology which allows even greater destructive capability. This will easily tear apart anything but the strongest warships. On the bright side, only the ship hit by this will be destroyed."
+	description "Unlike the smaller Ultaka Antimatter Cannon, this weapon is based on a different technology which allows even greater destructive capability. This will easily tear apart anything but the strongest warships. On the bright side, only the ship hit by this will be destroyed."
 		
+effect "ultaka vanquisher hit"
+	sprite "effect/ultaka hit1"
+		"frame rate" 5
+		"no repeat"
+	"random spin" 5
+	"random angle" 30
+	"lifetime" 20
+	"velocity scale" 0
+	"random frame rate" 10
+
 outfit "Ultaka Destroyer Cannon"
 	category "Guns"
 	cost 1500000000
