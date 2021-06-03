@@ -3,7 +3,7 @@
 outfit "FM10M Gun"
 	category "Guns"
 	cost 8000000
-	thumbnail "outfit/unknown"
+	thumbnail "outfit/ultaka fm10m"
 	mass 10
 	"outfit space" -10
 	"weapon capacity" -10
@@ -25,7 +25,7 @@ outfit "FM10M Gun"
 outfit "FM10M Gun Group1"
 	category "Guns"
 	cost 8000000
-	thumbnail "outfit/unknown"
+	thumbnail "outfit/ultaka fm10m"
 	mass 10
 	"outfit space" -10
 	"weapon capacity" -10
@@ -45,11 +45,12 @@ outfit "FM10M Gun Group1"
 		"shield damage" 75
 		"hull damage" 75
 		"cluster"
+	description "Ultaka FM10M tuned to syncronize firing in cluster slightly slower than than standard variant."
 	
 outfit "FM10M Gun Group2"
 	category "Guns"
 	cost 7900000
-	thumbnail "outfit/unknown"
+	thumbnail "outfit/ultaka fm10m"
 	mass 10
 	"outfit space" -10
 	"weapon capacity" -10
@@ -69,6 +70,7 @@ outfit "FM10M Gun Group2"
 		"shield damage" 100
 		"hull damage" 100
 		"cluster"
+	description "Ultaka FM10M tuned to syncronize firing in cluster slightly slower than than standard variant."
 	
 outfit "M01A Turret" #M1 Gun
 	category "Turrets"
