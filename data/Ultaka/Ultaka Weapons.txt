@@ -730,19 +730,19 @@ outfit "Ultaka Vanquisher Cannon"
 		
 effect "ultaka vanquisher hit"
 	sprite "effect/ultaka hit1"
-		"frame rate" 5
+		"frame rate" 12
 		"no repeat"
 	"random spin" 5
 	"random angle" 30
-	"lifetime" 20
+	"lifetime" 14
 	"velocity scale" 0
 	"random frame rate" 10
 
 effect "ultaka vanquisher hit2"
 	sprite "effect/ultaka vanquisher hit"
-		"frame rate" 1
+		"frame rate" 5
 		"no repeat"
-	"lifetime" 20
+	"lifetime" 30
 	"velocity scale" 0
 	"random frame rate" 10
 
