@@ -717,7 +717,7 @@ outfit "Ultaka Vanquisher Cannon"
 		"velocity" 15
 		"lifetime" 300
 		"hit effect" "ultaka vanquisher hit"
-		"hit effect" "nuke explosion"
+		"hit effect" "ultaka vanquisher hit2"
 		"reload" 600
 		"firing energy" 9010
 		"firing heat" 8870
@@ -737,6 +737,15 @@ effect "ultaka vanquisher hit"
 	"lifetime" 20
 	"velocity scale" 0
 	"random frame rate" 10
+
+effect "ultaka vanquisher hit2"
+	sprite "effect/ultaka vanquisher hit"
+		"frame rate" 1
+		"no repeat"
+	"lifetime" 20
+	"velocity scale" 0
+	"random frame rate" 10
+
 
 outfit "Ultaka Destroyer Cannon"
 	category "Guns"
