@@ -1,0 +1,420 @@
+ship "Azelpur"
+	sprite "ship/erader mr azelpur"
+	thumbnail "thumbnail/erader mr azelpur thumb"
+	attributes
+		category "Interceptor"
+		"cost" 1090000
+		"shields" 1200
+		"hull" 800
+		"required crew" 1
+		"bunks" 2
+		"mass" 80
+		"drag" 1
+		"heat dissipation" .8
+		"fuel capacity" 400
+		"cargo space" 10
+		"outfit space" 360
+		"weapon capacity" 155
+		"engine capacity" 70
+		weapon
+			"blast radius" 40
+			"shield damage" 400
+			"hull damage" 200
+			"hit force" 600
+	outfits
+		"Particle Cannon"
+		
+		"RT-I Radiothermal"
+		"LP036a Battery Pack"
+		"D23-QP Shield Generator"
+		"Cooling Ducts"
+		
+		"Greyhound Plasma Thruster"
+		"Greyhound Plasma Steering"
+		"Hyperdrive"
+		
+	gun 0 -29.5
+	engine -12.5 37
+		zoom 1
+		angle 0
+		under
+	engine 12.5 37
+		zoom 1
+		angle 0
+		under
+	"reverse engine" -15.5 3
+		zoom .8
+		angle 180
+		under
+	"reverse engine" 15.5 3
+		zoom .8
+		angle 180
+		under
+	"steering engine" -15.5 3
+		zoom .5
+		angle 180
+		under
+		left
+	"steering engine" 15.5 3
+		zoom .5
+		angle 180
+		under
+		right
+	"steering engine" -13 37.5
+		zoom .5
+		angle 0
+		under
+		right
+	"steering engine" 13 37.5
+		zoom .5
+		angle 0
+		under
+		left
+	leak "leak" 50 50
+	leak "flame" 40 80
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 15
+	"final explode" "final explosion small"
+	description "Makerurader Interceptor."
+
+ship "Sorgeldaz"
+	sprite "ship/erader mr sorgeldaz"
+	thumbnail "thumbnail/erader mr sorgeldaz thumb"
+	attributes
+		category "Medium Warship"
+		"cost" 1090000
+		"shields" 6100
+		"hull" 4000
+		"required crew" 6
+		"bunks" 12
+		"mass" 218
+		"drag" 3.5
+		"heat dissipation" .6
+		"fuel capacity" 400
+		"cargo space" 460
+		"outfit space" 360
+		"weapon capacity" 130
+		"engine capacity" 120
+		weapon
+			"blast radius" 40
+			"shield damage" 400
+			"hull damage" 200
+			"hit force" 600
+	outfits
+		"Particle Cannon"
+		
+		"RT-I Radiothermal"
+		"LP036a Battery Pack"
+		"D23-QP Shield Generator"
+		"Cooling Ducts"
+		
+		"Greyhound Plasma Thruster"
+		"Greyhound Plasma Steering"
+		"Hyperdrive"
+		
+	turret 0 -103
+	turret -23.5 -79.5
+	turret 23.5 -79.5
+	turret -23.5 -62.5
+	turret 23.5 -62.5
+	turret 0 85.5
+	engine -31 135.5
+		zoom 1
+		angle 0
+		over
+	engine 31 135.5
+		zoom 1
+		angle 0
+		0ver
+	engine -39.5 148
+		zoom 1
+		angle 0
+		under
+	engine 39.5 148
+		zoom 1
+		angle 0
+		under
+	"reverse engine" -21.5 -139
+		zoom .4
+		angle 180
+		under
+	"reverse engine" 21.5 -139
+		zoom .4
+		angle 180
+		under
+	"steering engine" -20.5 -113
+		zoom .3
+		angle -90
+		under
+		right
+	"steering engine" 20.5 -113
+		zoom .3
+		angle 90
+		under
+		left
+	"steering engine" -67 102.5
+		zoom .3
+		angle -90
+		under
+		left
+	"steering engine" 67 102.5
+		zoom .3
+		angle 90
+		under
+		right
+	leak "leak" 50 50
+	leak "flame" 40 80
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 15
+	"final explode" "final explosion medium"
+	description "Makerurader Freighter, which isn't that far from being a warship itself."
+
+ship "Ertezkaral"
+	sprite "ship/erader mr ertezkaral"
+	thumbnail "thumbnail/erader mr ertezkaral thumb"
+	attributes
+		category "Medium Warship"
+		"cost" 1090000
+		"shields" 5600
+		"hull" 2800
+		"required crew" 8
+		"bunks" 36
+		"mass" 218
+		"drag" 3.5
+		"heat dissipation" .75
+		"fuel capacity" 500
+		"cargo space" 10
+		"outfit space" 360
+		"weapon capacity" 170
+		"engine capacity" 85
+		weapon
+			"blast radius" 40
+			"shield damage" 400
+			"hull damage" 200
+			"hit force" 600
+	outfits
+		"Particle Cannon" 6
+		
+		"RT-I Radiothermal"
+		"LP036a Battery Pack"
+		"D23-QP Shield Generator"
+		"Cooling Ducts"
+		
+		"Greyhound Plasma Thruster"
+		"Greyhound Plasma Steering"
+		"Hyperdrive"
+		
+	gun -21 -98.5
+	gun 21 -98.5
+	gun -46.5 -39
+	gun 46.5 -39
+	gun -50 -39
+	gun 50 -39
+	turret 0 -87
+	turret 0 -41
+	turret 0 89
+	engine -25 95.5
+		zoom 1
+		angle 0
+		under
+	engine 25 95.5
+		zoom 1
+		angle 0
+		under
+	"reverse engine" -12.5 -103.5
+		zoom .4
+		angle 180
+		under
+	"reverse engine" 12.5 -103.5
+		zoom .4
+		angle 180
+		under
+	"steering engine" -12 -111
+		zoom .3
+		angle -90
+		under
+		right
+	"steering engine" 12 -111
+		zoom .3
+		angle 90
+		under
+		left
+	"steering engine" -34 -69.5
+		zoom .3
+		angle -90
+		under
+		right
+	"steering engine" 34 -69.5
+		zoom .3
+		angle 90
+		under
+		left
+	"steering engine" -13.5 111.5
+		zoom .3
+		angle -90
+		under
+		left
+	"steering engine" 13.5 111.5
+		zoom .3
+		angle 90
+		under
+		right
+	leak "leak" 50 50
+	leak "flame" 40 80
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 15
+	"final explode" "final explosion medium"
+	description "Makerurader Warship"
+
+
+ship "Vardarkin"
+	sprite "ship/erader mr vardarkin"
+	thumbnail "thumbnail/erader mr vardarkin thumb"
+	attributes
+		category "Heavy Warship"
+		"cost" 1090000
+		"shields" 18400
+		"hull" 9800
+		"required crew" 8
+		"bunks" 36
+		"mass" 218
+		"drag" 3.5
+		"heat dissipation" .6
+		"fuel capacity" 500
+		"cargo space" 30
+		"outfit space" 760
+		"weapon capacity" 380
+		"engine capacity" 170
+		weapon
+			"blast radius" 40
+			"shield damage" 400
+			"hull damage" 200
+			"hit force" 600
+	outfits
+		"Particle Cannon" 10
+		
+		"RT-I Radiothermal"
+		"LP036a Battery Pack"
+		"D23-QP Shield Generator"
+		"Cooling Ducts"
+		
+		"Greyhound Plasma Thruster"
+		"Greyhound Plasma Steering"
+		"Hyperdrive"
+		
+	gun -26 -190.5
+	gun 26 -190.5
+	gun -26 -190.5
+	gun 26 -190.5
+	gun -37.5 -186.5
+	gun 37.5 -186.5
+	gun -37.5 -186.5
+	gun 37.5 -186.5
+	gun -65 -143
+	gun 65 -143
+	gun -65 -143
+	gun 65 -143
+	gun -89.5 40
+	gun 89.5 40
+	gun -89.5 40
+	gun 89.5 40
+	gun -89.5 40
+	gun 89.5 40
+	turret 0 -84
+	turret 0 -28
+	turret -52 -84
+	turret 52 -84
+	turret -55 27
+	turret 55 27
+	engine -39.5 195
+		zoom 1
+		angle 0
+		under
+	engine 39.5 195
+		zoom 1
+		angle 0
+		under
+	engine -70.5 177.5
+		zoom 1
+		angle 0
+		under
+	engine 70.5 177.5
+		zoom 1
+		angle 0
+		under
+	"reverse engine" -57 -146.5
+		zoom .3
+		angle 180
+		under
+	"reverse engine" 57 -146.5
+		zoom .3
+		angle 180
+		under
+	"reverse engine" -24 -189.5
+		zoom .5
+		angle 180
+		under
+	"reverse engine" 24 -189.5
+		zoom .5
+		angle 180
+		under
+	"steering engine" -21.5 -211.5
+		zoom .3
+		angle -90
+		under
+		right
+	"steering engine" 21.5 -211.5
+		zoom .3
+		angle 90
+		under
+		left
+	"steering engine" -21 -208.5
+		zoom .3
+		angle -90
+		under
+		right
+	"steering engine" 21 -208.5
+		zoom .3
+		angle 90
+		under
+		left
+	"steering engine" -56.5 -167.5
+		zoom .3
+		angle -90
+		under
+		right
+	"steering engine" 56.5 -167.5
+		zoom .3
+		angle 90
+		under
+		left
+	"steering engine" -110.5 124.5
+		zoom .3
+		angle -90
+		under
+		left
+	"steering engine" 110.5 124.5
+		zoom .3
+		angle 90
+		under
+		right
+	"steering engine" -16.5 211
+		zoom .3
+		angle -90
+		under
+		left
+	"steering engine" 16.5 211
+		zoom .3
+		angle 90
+		under
+		right
+	leak "leak" 50 50
+	leak "flame" 40 80
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 15
+	"final explode" "final explosion large"
+	description "Makerurader cruiser."

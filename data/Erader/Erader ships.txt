@@ -146,7 +146,7 @@ ship "Raular"
 	sprite "ship/erader raular"
 	attributes
 		category "Light Freighter"
-		"cost" 730000
+		"cost" 200000
 		"shields" 1600
 		"hull" 950
 		"required crew" 2
@@ -185,7 +185,7 @@ ship "Raular"
 	explode "medium explosion" 20
 	leak "leak" 50 50
 	"final explode" "final explosion small"
-	description ""
+	description "A small and cheap freighter found used by all Erader fractions."
 	
 #======================[Heavy Freighter]=====================
 
@@ -196,7 +196,7 @@ ship "Raular"
 #======================[Medium Warship=============================
 ship "Kemvanh"
 	sprite "ship/erader kemvanh"
-	thumbnail "thumbnail/erader kemvanh"
+	thumbnail "thumbnail/erader kemvanh thumb"
 	attributes
 		category "Medium Warship"
 		"cost" 1090000
@@ -276,7 +276,7 @@ ship "Kemvanh"
 	explode "small explosion" 20
 	explode "medium explosion" 15
 	"final explode" "final explosion small"
-	description ""
+	description "Darua Republic Warship"
 ##=====================[Heavy Warship]==================================
 
 

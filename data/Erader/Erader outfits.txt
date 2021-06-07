@@ -1,3 +1,8 @@
+
+
+
+#==============================Power=====================
+
 outfit "E6-H Generator"
 	category "Power"
 	cost 2800000
@@ -18,3 +23,38 @@ outfit "E6-V Generator"
 	"heat generation" 8.4
 	description "Slightly less powerful variant of Erader E6-H but much more heat efficient."
 	
+outfit "H-1AE Battery Array"
+	category "Power"
+	cost 30000
+	thumbnail "outfit/small battery"
+	"mass" 26
+	"outfit space" -26
+	"energy capacity" 2200
+	description "Smallest battery array found in Erader space."
+
+outfit "H-2AE Battery Array"
+	category "Power"
+	cost 67000
+	thumbnail "outfit/medium battery"
+	"mass" 42
+	"outfit space" -42
+	"energy capacity" 4800
+	description "This medium-sized battery pack is intended for ships that need to fire the occasional salvo of high-powered weaponry without running out of energy. As with all battery packs, relying on batteries is risky if combat lasts long enough for them to become depleted."
+
+outfit "H-5AE Battery Array"
+	category "Power"
+	cost 150000
+	thumbnail "outfit/large battery"
+	"mass" 90
+	"outfit space" -90
+	"energy capacity" 10400
+	description "This is a large battery pack designed for ships that may occasionally have high power needs but do not want the expense or the heat associated with a more powerful ship's generator."
+
+outfit "H-A0E Battery Array"
+	category "Power"
+	cost 380000
+	thumbnail "outfit/huge battery"
+	"mass" 160
+	"outfit space" -160
+	"energy capacity" 23000
+	description "For most ships that require this much power, a larger generator makes more sense than a battery this size. However, battery packs have the advantage that they generate no heat, so some captains use them instead of powerful generators if they do not expect to be in combat frequently or for extended periods of time."
