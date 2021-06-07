@@ -137,12 +137,12 @@ effect "vokkar spark"
 effect "vokkar impact"
 	"sprite" "effect/vokkar impact"
 		"no repeat"
-		"frame rate" 30
+		"frame rate" 10
 	#sound "gw energylauncher"	
 	lifetime 10
 	"random angle" 22
-	"random velocity" 12
-	"velocity scale" .1
+	"random velocity" .1
+	"velocity scale" -.1
 	
 outfit "TC5 Cutter"
 	category "Guns"
