@@ -14,7 +14,7 @@ ship "Azelpur"
 		"fuel capacity" 400
 		"cargo space" 10
 		"outfit space" 360
-		"weapon capacity" 155
+		"weapon capacity" 40
 		"engine capacity" 70
 		weapon
 			"blast radius" 40
@@ -62,12 +62,12 @@ ship "Azelpur"
 		right
 	"steering engine" -13 37.5
 		zoom .5
-		angle 0
+		angle 90
 		under
 		right
 	"steering engine" 13 37.5
 		zoom .5
-		angle 0
+		angle -90
 		under
 		left
 	leak "leak" 50 50
@@ -145,22 +145,22 @@ ship "Sorgeldaz"
 		under
 	"steering engine" -20.5 -113
 		zoom .3
-		angle -90
+		angle 90
 		under
 		right
 	"steering engine" 20.5 -113
 		zoom .3
-		angle 90
+		angle -90
 		under
 		left
 	"steering engine" -67 102.5
 		zoom .3
-		angle -90
+		angle 90
 		under
 		left
 	"steering engine" 67 102.5
 		zoom .3
-		angle 90
+		angle -90
 		under
 		right
 	leak "leak" 50 50
@@ -233,32 +233,32 @@ ship "Ertezkaral"
 		under
 	"steering engine" -12 -111
 		zoom .3
-		angle -90
+		angle 90
 		under
 		right
 	"steering engine" 12 -111
 		zoom .3
-		angle 90
+		angle -90
 		under
 		left
 	"steering engine" -34 -69.5
 		zoom .3
-		angle -90
+		angle 90
 		under
 		right
 	"steering engine" 34 -69.5
 		zoom .3
-		angle 90
+		angle -90
 		under
 		left
 	"steering engine" -13.5 111.5
 		zoom .3
-		angle -90
+		angle 90
 		under
 		left
 	"steering engine" 13.5 111.5
 		zoom .3
-		angle 90
+		angle -90
 		under
 		right
 	leak "leak" 50 50
@@ -276,7 +276,7 @@ ship "Vardarkin"
 	attributes
 		category "Heavy Warship"
 		"cost" 1090000
-		"shields" 18400
+		"shields" 13400
 		"hull" 9800
 		"required crew" 8
 		"bunks" 36
@@ -285,8 +285,8 @@ ship "Vardarkin"
 		"heat dissipation" .6
 		"fuel capacity" 500
 		"cargo space" 30
-		"outfit space" 760
-		"weapon capacity" 380
+		"outfit space" 610
+		"weapon capacity" 280
 		"engine capacity" 170
 		weapon
 			"blast radius" 40
@@ -296,7 +296,7 @@ ship "Vardarkin"
 	outfits
 		"Particle Cannon" 10
 		
-		"RT-I Radiothermal"
+		"E6-H Generator" 2
 		"LP036a Battery Pack"
 		"D23-QP Shield Generator"
 		"Cooling Ducts"
@@ -363,52 +363,52 @@ ship "Vardarkin"
 		under
 	"steering engine" -21.5 -211.5
 		zoom .3
-		angle -90
+		angle 90
 		under
 		right
 	"steering engine" 21.5 -211.5
 		zoom .3
-		angle 90
+		angle -90
 		under
 		left
 	"steering engine" -21 -208.5
 		zoom .3
-		angle -90
+		angle 90
 		under
 		right
 	"steering engine" 21 -208.5
 		zoom .3
-		angle 90
+		angle -90
 		under
 		left
 	"steering engine" -56.5 -167.5
 		zoom .3
-		angle -90
+		angle 90
 		under
 		right
 	"steering engine" 56.5 -167.5
 		zoom .3
-		angle 90
+		angle -90
 		under
 		left
 	"steering engine" -110.5 124.5
 		zoom .3
-		angle -90
+		angle 90
 		under
 		left
 	"steering engine" 110.5 124.5
 		zoom .3
-		angle 90
+		angle -90
 		under
 		right
 	"steering engine" -16.5 211
 		zoom .3
-		angle -90
+		angle 90
 		under
 		left
 	"steering engine" 16.5 211
 		zoom .3
-		angle 90
+		angle -90
 		under
 		right
 	leak "leak" 50 50
