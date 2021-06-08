@@ -1,5 +1,36 @@
 
+#==============================Gun========================
 
+#==============================Turret======================
+
+outfit "Yeutark Turret"
+	category "Turrets"
+	"cost" 350000
+	thumbnail "outfit/erader yeutak turret"
+	"mass" 68
+	"outfit space" -68
+	"weapon capacity" -68
+	"turret mounts" -1
+	weapon
+		sprite "projectile/yeutark shot"
+		sound "zaikor"
+		"hardpoint sprite" "hardpoint/yeutark turret"
+		"hardpoint offset" 8.
+		"hit effect" "particle impact"
+		"inaccuracy" 1
+		"turret turn" 1.2
+		"velocity" 30
+		"lifetime" 60
+		"reload" 32
+		"burst count" 2
+		"burst reload" 10
+		"firing energy" 100
+		"firing force" 20
+		"firing heat" 340
+		"hit force" 80
+		"shield damage" 120
+		"hull damage" 155
+	description ""
 
 #==============================Power=====================
 
@@ -39,7 +70,7 @@ outfit "H-2AE Battery Array"
 	"mass" 42
 	"outfit space" -42
 	"energy capacity" 4800
-	description "This medium-sized battery pack is intended for ships that need to fire the occasional salvo of high-powered weaponry without running out of energy. As with all battery packs, relying on batteries is risky if combat lasts long enough for them to become depleted."
+	description "Medium sized battery array"
 
 outfit "H-5AE Battery Array"
 	category "Power"
@@ -48,7 +79,7 @@ outfit "H-5AE Battery Array"
 	"mass" 90
 	"outfit space" -90
 	"energy capacity" 10400
-	description "This is a large battery pack designed for ships that may occasionally have high power needs but do not want the expense or the heat associated with a more powerful ship's generator."
+	description "Large battery array"
 
 outfit "H-A0E Battery Array"
 	category "Power"
@@ -57,4 +88,4 @@ outfit "H-A0E Battery Array"
 	"mass" 160
 	"outfit space" -160
 	"energy capacity" 23000
-	description "For most ships that require this much power, a larger generator makes more sense than a battery this size. However, battery packs have the advantage that they generate no heat, so some captains use them instead of powerful generators if they do not expect to be in combat frequently or for extended periods of time."
+	description "Huge battery array."
