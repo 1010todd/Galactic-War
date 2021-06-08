@@ -262,10 +262,11 @@ outfit "Y2 Coran Gun"
 		sound "utvr40 fire"
 		ammo "Nurbote" 1 #//Placeholder, but that's the concept(To fire these crystal) #thinking again, might be a bad idea, idk
 		icon "icon/hasus"
-		"fire effect" "masai fire" 3
+		"fire effect" "coran fire" 3
+		"fire effect" "coran spark" 12
 		"live effect" "rail sparks" 50
-		"hit effect" "skylance impact"
-		"hit effect" "masai fire" 3
+		"hit effect" "coran spark" 6
+		"hit effect" "coran fire"
 		"inaccuracy" .1
 		"velocity" 25
 		"lifetime" 400
@@ -277,6 +278,26 @@ outfit "Y2 Coran Gun"
 		"hull damage" 5880
 		"piercing" 1.5
 		"disruption damage" 200
+
+effect "coran fire"
+	sprite "effect/coran fire"
+		"no repeat"
+		"frame rate" 30
+	"lifetime" 9
+	"random angle" 5
+	"velocity scale" .5
+
+effect "coran spark"
+	sprite "effect/coran spark"
+		"no repeat"
+		"frame rate" 19
+	sound "gw edistort1"
+	"random angle" 30
+	"lifetime" 12
+	"random lifetime" 5
+	"velocity scale" 1
+	"random velocity" 20
+	"random frame rate" 5
 		
 outfit "Barmott Anti-Missile" #used to be Donko Anti-Missile
 	category "Turrets"
