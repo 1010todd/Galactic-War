@@ -31,6 +31,31 @@ effect "serulan impact"
 	"random angle" 20
 	"velocity scale" -.05
 	"random spin" 10
+
+outfit "Vulrekau Turret"
+	category "Turrets"
+	cost 1200000
+	thumbnail "outfit/taroun serulan turret"
+	"mass" 40
+	"outfit space" -40
+	"weapon capacity" -40
+	"turret mounts" -1
+	weapon
+		"hit effect" "lymaou impact"
+		"hardpoint sprite" "hardpoint/serulan turret"
+		"hardpoint offset" 5.
+		"turret turn" 3.2
+		"inaccuracy" 0
+		"velocity" 500
+		"lifetime" 1
+		"reload" 15
+		"burst count" 3
+		"burst reload" 3
+		"firing energy" 120
+		"firing heat" 240
+		"hull damage" 150
+		"piercing" 2
+	description "Taroun Basic weapon."
 	
 outfit "Taroun Deflector"
 	category "Turrets"
@@ -67,9 +92,9 @@ outfit "Taroun Restrainter"
 	"turret mounts" -1
 	weapon
 		"velocity" 1
-		"trigger radius" 400
-		"blast radius" 400
-		"range override" 400
+		"trigger radius" 600
+		"blast radius" 600
+		"range override" 600
 		"gravitational"
 		"turret turn" 360
 		"safe"
@@ -261,6 +286,7 @@ outfit "Lymaou Launcher"
 		"fire effect" "lymaou impact"
 		"hit effect" "lymaou impact"
 		"submunition" "Lymaou"
+		"velocity override" 20
 		"inaccuracy" 1
 		"velocity" 1
 		"burst reload" 8
