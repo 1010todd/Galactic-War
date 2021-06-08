@@ -464,3 +464,345 @@ effect "markla flak"
 	"random velocity" .1
 	"random spin" 4
 	"velocity scale" -.05
+
+outfit "Sikarl Mine"
+	category "Ammo"
+	cost 25000
+	thumbnail "outfit/wallagi sikarl ammo"
+	"sikarl mine capacity" -1
+	"mass" .1
+	description "Ammo for Sikarl Mine launcher"
+
+outfit "Sikarl Mine Launcher"
+	category "Secondary Weapons"
+	cost 1700000
+	thumbnail "outfit/wallagi sikarl launcher"
+	mass 14
+	"outfit space" -21
+	"weapon capacity" -21
+	"turret mounts" -1
+	"sikarl mine capacity" 20
+	weapon
+		sprite "projectile/sikarl mine"
+			"frame rate" 10
+			"start frame" 0
+			"no repeat"
+		"hardpoint sprite" "hardpoint/wallagi sikarl launcher hp"
+		sound "gw edistort4"
+		ammo "Sikarl Mine" 1
+		icon "icon/sikarl"
+		"hit effect" "small explosion"
+		submunition "sikarl field 1"
+		submunition "sikarl 1"
+		"inaccuracy" .1
+		"range override" 1200
+		"split range" 480
+		"velocity" 100
+		"lifetime" 400
+		"drag" .8
+		"acceleration" 1
+		"turn" 4
+		"homing" 2
+		"radar tracking" .9
+		"reload" 180
+		"firing energy" 60
+		"firing heat" 3
+		"shield damage" 120
+		"hull damage" 85
+		"phasing"
+	description "Sigarl mine used by Wallgi, shielded and cloaks and will activate when target enters the area."
+
+outfit "sikarl 1"
+	weapon
+		sprite "projectile/sikarl mine"
+			"frame rate" 0
+			"start frame" 2
+		submunition "sikarl field 2"
+		submunition "sikarl 2"
+		"hit effect" "small explosion"
+		"trigger radius" 425
+		"lifetime" 1
+		"drag" .13
+		"turn" 80
+		"homing" 2
+		"radar tracking" .9
+
+outfit "sikarl field 1"
+	weapon
+		sprite "projectile/sikarl field"
+			"random start frame"
+		"lifetime" 1
+		"velocity" 1
+		"trigger radius" 425
+		"blast radius" 500
+		"safe"
+		"shield damage" 400
+		"hull damage" 100
+		"ion damage" 20
+		"disruption damage" 20
+
+outfit "sikarl 2"
+	weapon
+		sprite "projectile/sikarl mine"
+			"frame rate" 0
+			"start frame" 1
+		submunition "sikarl field 3"
+		submunition "sikarl 3"
+		"hit effect" "small explosion"
+		"trigger radius" 425
+		"lifetime" 1
+		"drag" .13
+		"turn" 80
+		"homing" 2
+		"radar tracking" .9
+
+outfit "sikarl field 2"
+	weapon
+		sprite "projectile/sikarl field"
+			"random start frame"
+		"lifetime" 1
+		"velocity" 1
+		"trigger radius" 425
+		"blast radius" 500
+		"safe"
+		"shield damage" 400
+		"hull damage" 100
+		"ion damage" 20
+		"disruption damage" 20
+
+outfit "sikarl 3"
+	weapon
+		sprite "projectile/sikarl mine"
+			"frame rate" 0
+			"start frame" 0
+		submunition "sikarl field 4"
+		submunition "sikarl 4"
+		"hit effect" "small explosion"
+		"trigger radius" 425
+		"lifetime" 1
+		"drag" .13
+		"turn" 80
+		"homing" 2
+		"radar tracking" .9
+
+outfit "sikarl field 3"
+	weapon
+		sprite "projectile/sikarl field"
+			"random start frame"
+		"lifetime" 1
+		"velocity" 1
+		"trigger radius" 425
+		"blast radius" 500
+		"safe"
+		"shield damage" 400
+		"hull damage" 100
+		"ion damage" 20
+		"disruption damage" 20
+
+outfit "sikarl 4"
+	weapon
+		sprite "projectile/sikarl mine"
+			"frame rate" 0
+			"start frame" 0
+		submunition "sikarl field 5"
+		submunition "sikarl 5"
+		"hit effect" "small explosion"
+		"trigger radius" 425
+		"lifetime" 1
+		"drag" .13
+		"turn" 80
+		"homing" 2
+		"radar tracking" .9
+		"missile strength" 500
+
+outfit "sikarl field 4"
+	weapon
+		sprite "projectile/sikarl field"
+			"random start frame"
+		"lifetime" 1
+		"velocity" 1
+		"trigger radius" 425
+		"blast radius" 500
+		"safe"
+		"shield damage" 400
+		"hull damage" 100
+		"ion damage" 20
+		"disruption damage" 20
+
+outfit "sikarl 5"
+	weapon
+		sprite "projectile/sikarl mine"
+			"frame rate" 0
+			"start frame" 0
+		submunition "sikarl field 6"
+		submunition "sikarl 6"
+		"hit effect" "small explosion"
+		"trigger radius" 500
+		"lifetime" 1
+		"drag" .13
+		"turn" 80
+		"homing" 2
+		"radar tracking" .9
+		"missile strength" 600
+
+outfit "sikarl field 5"
+	weapon
+		sprite "projectile/sikarl field"
+			"random start frame"
+		"lifetime" 1
+		"velocity" 1
+		"trigger radius" 425
+		"blast radius" 500
+		"safe"
+		"shield damage" 400
+		"hull damage" 100
+		"ion damage" 20
+		"disruption damage" 20
+
+outfit "sikarl 6"
+	weapon
+		sprite "projectile/sikarl mine"
+			"frame rate" 0
+			"start frame" 0
+		submunition "sikarl field 7"
+		submunition "sikarl 7"
+		"hit effect" "small explosion"
+		"trigger radius" 500
+		"lifetime" 1
+		"drag" .13
+		"turn" 80
+		"homing" 2
+		"radar tracking" .9
+		"missile strength" 800
+
+outfit "sikarl field 6"
+	weapon
+		sprite "projectile/sikarl field"
+			"random start frame"
+		"lifetime" 1
+		"velocity" 1
+		"trigger radius" 425
+		"blast radius" 500
+		"safe"
+		"shield damage" 400
+		"hull damage" 100
+		"ion damage" 20
+		"disruption damage" 20
+
+outfit "sikarl 7"
+	weapon
+		sprite "projectile/sikarl mine"
+			"frame rate" 0
+			"start frame" 0
+		submunition "sikarl field 8"
+		submunition "sikarl 8"
+		"hit effect" "small explosion"
+		"trigger radius" 500
+		"lifetime" 1
+		"drag" .13
+		"turn" 80
+		"homing" 2
+		"radar tracking" .9
+		"missile strength" 1000
+
+outfit "sikarl field 7"
+	weapon
+		sprite "projectile/sikarl field"
+			"random start frame"
+		"lifetime" 1
+		"velocity" 1
+		"trigger radius" 425
+		"blast radius" 500
+		"safe"
+		"shield damage" 400
+		"hull damage" 100
+		"ion damage" 20
+		"disruption damage" 20
+
+outfit "sikarl 8"
+	weapon
+		sprite "projectile/sikarl mine"
+			"frame rate" 0
+			"start frame" 0
+		submunition "sikarl field 9"
+		submunition "sikarl 9"
+		"hit effect" "small explosion"
+		"trigger radius" 500
+		"lifetime" 1
+		"drag" .13
+		"turn" 80
+		"homing" 2
+		"radar tracking" .9
+		"missile strength" 1000
+
+outfit "sikarl field 8"
+	weapon
+		sprite "projectile/sikarl field"
+			"random start frame"
+		"lifetime" 1
+		"velocity" 1
+		"trigger radius" 425
+		"blast radius" 500
+		"safe"
+		"shield damage" 400
+		"hull damage" 100
+		"ion damage" 20
+		"disruption damage" 20
+
+outfit "sikarl 9"
+	weapon
+		sprite "projectile/sikarl mine"
+			"frame rate" 0
+			"start frame" 0
+		submunition "sikarl field 10"
+		submunition "sikarl 10"
+		"hit effect" "small explosion"
+		"trigger radius" 500
+		"lifetime" 1
+		"drag" .13
+		"turn" 80
+		"homing" 2
+		"radar tracking" .9
+		"missile strength" 1000
+
+outfit "sikarl field 9"
+	weapon
+		sprite "projectile/sikarl field"
+			"random start frame"
+		"lifetime" 1
+		"velocity" 1
+		"trigger radius" 425
+		"blast radius" 500
+		"safe"
+		"shield damage" 400
+		"hull damage" 100
+		"ion damage" 20
+		"disruption damage" 20
+
+outfit "sikarl 10"
+	weapon
+		sprite "projectile/sikarl mine"
+			"frame rate" 0
+			"start frame" 0
+		"hit effect" "small explosion"
+		"trigger radius" 425
+		"lifetime" 1
+		"drag" .13
+		"turn" 80
+		"homing" 2
+		"radar tracking" .9
+		"missile strength" 1000
+
+outfit "sikarl field 10" #Initially I want it to last 20 frames but this is getting tedious... I'll just double the damages
+	weapon
+		sprite "projectile/sikarl field"
+			"random start frame"
+		"lifetime" 1
+		"velocity" 1
+		"trigger radius" 425
+		"blast radius" 500
+		"safe"
+		"shield damage" 400
+		"hull damage" 100
+		"ion damage" 20
+		"disruption damage" 20
