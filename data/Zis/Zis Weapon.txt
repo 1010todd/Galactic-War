@@ -828,6 +828,52 @@ outfit "Kelzilvaan Turret"
 		"cluster"
 	description "Zis tractor beam."
 
+outfit "Zis Dissector Turret"
+	category "Turrets"
+	cost 900000000
+	thumbnail "outfit/zis dissector turret"
+	"mass" 54
+	"outfit space" -54
+	"weapon capacity" -54
+	"turret mounts" -1
+	weapon
+		sound "gw edistort3"
+		"hardpoint sprite" "hardpoint/zis dissector turret hp"
+		"hardpoint offset" 8
+		"turret turn" 5
+		"hit effect" "dissector impact"
+		"fire effect" "dissector fire"
+		"inaccuracy" 1
+		"velocity" 1200
+		"lifetime" 1
+		"reload" 40
+		"firing energy" 80
+		"firing heat" 20
+		"shield damage" 1000
+		"hull damage" 2500
+		"relative fuel damage" .01 #That'd be too OP.
+		"relative energy damage" .01
+		#"slowing damage" .1
+		"safe"
+		"piercing" 5
+	description "Mysterious Zis weapon that ignores shields and directly damage the ship's internal systems."
+
+effect "dissector impact"
+	sprite "effect/zis dissector hit"
+		"no repeat"
+		"frame rate" 17
+	"lifetime" 23
+	"velocity scale" .01
+
+effect "dissector fire"
+	sprite "effect/zis dissector fire"
+		"no repeat"
+		"frame rate" 67
+	"lifetime" 3
+	"random angle" 2
+	"random spin" 1
+	"velocity scale" 1
+
 outfit "Syfar-3 Turret" #Syfar Torpedo Turret
 	category "Secondary Weapons"
 	cost 47100000
