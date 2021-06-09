@@ -50,7 +50,7 @@ outfit "Cusin Capacitor"
 	"outfit space" -8
 	"energy capacity" 750
 	"heat generation" .1
-	description ""
+	description "zorcn tiny battery"
 	
 outfit "Ksin Capacitor"
 	category "Power"
@@ -62,7 +62,7 @@ outfit "Ksin Capacitor"
 	"energy consumption" .03
 	"heat generation" .03
 	"thermo-elec capacity" 4
-	description ""
+	description "Zorcn small battery"
 	
 outfit "Nuxin Capacitor"
 	category "Power"
@@ -125,7 +125,7 @@ outfit "Neyton K1 Shield Module"
 	"mass" 2.5
 	"upgrade capacity" -1
 	"shields" 150
-	description ""
+	description "Shield projector module for Mausr lite"
 	
 outfit "Neyton M1 Fuel Tank"
 	category "Systems"
@@ -134,7 +134,7 @@ outfit "Neyton M1 Fuel Tank"
 	"mass" 8
 	"upgrade capacity" -1
 	"fuel capacity" 100
-	description ""
+	description "Fuel tank module designed to fit into special slots on the Mausr lite"
 	
 outfit "Nitil Shielding System"
 	category "Systems"
@@ -159,7 +159,7 @@ outfit "Korbus Shield Generator"
 	"shield generation" .3
 	"shield energy" .32
 	"shield heat" .2
-	description "." 
+	description "Zorcn small shield generator." 
 	
 outfit "Kussn Shield Generator"
 	category "Systems"
@@ -170,7 +170,7 @@ outfit "Kussn Shield Generator"
 	"shield generation" 1.1
 	"shield energy" 1.1
 	"shield heat" .5
-	description "."
+	description "Zorcn medium shield generator."
 
 outfit "Erlyus Repair Drones"
 	category "Systems"
@@ -218,7 +218,7 @@ outfit "Lvrken Repair Drones"
 	"repair delay" 60
 	"hull heat" .8
 	"hull repair multiplier" 4
-	description "Currently the largest shipboard repair drones offered by Zorcn, these are the similar to the model found in regular Zorcn repair shop."
+	description "Currently one of the largest shipboard repair drones offered by Zorcn, these are the similar to the model found in regular Zorcn repair shop."
 
 outfit "Zuvkor Repair Drones"
 	category "Systems"
@@ -448,7 +448,7 @@ outfit "Anlis Gauss Gun"
 		"hit force" 15
 		"shield damage" 14
 		"hull damage" 19
-	description ""
+	description "Small gauss gun used by Zorcn. This weapon accepts pretty much every magnetic metal of any size that can fit inside it so ammunition isn't really a concern."
 	
 outfit "Anlis Gauss Turret"
 	category "Turrets"
@@ -479,7 +479,7 @@ outfit "Anlis Gauss Turret"
 		"hit force" 15
 		"shield damage" 14
 		"hull damage" 19
-	description ""
+	description "Zorcn Anlis guns on a turret."
 	
 outfit "Utvr40 Shell"
 	category "Ammunition"
@@ -487,7 +487,7 @@ outfit "Utvr40 Shell"
 	thumbnail "outfit/zorcn utvr40 shell"
 	"mass" 1
 	"utvr40 capacity" -1
-	description ""
+	description "Ammunition for Utvr40 gun."
 	
 outfit "Utvr40 Storage Room"
 	category "Ammunition"
@@ -496,7 +496,7 @@ outfit "Utvr40 Storage Room"
 	"mass" .2
 	"outfit space" -20
 	"utvr40 capacity" 20
-	description ""
+	description "Ammo Storage for Utvr40 gun"
 	
 outfit "Utvr40 Gun"
 	category "Guns"
@@ -527,7 +527,7 @@ outfit "Utvr40 Gun"
 		"shield damage" 900
 		"hull damage" 2100
 		"blast radius" 55
-	description ""
+	description "A large artillery cannon used by Zorcn, while slow to reload, a single shot from one of this will blow an interceptor to bits."
 	
 outfit "Utvr40 Turret"
 	category "Turrets"
@@ -640,7 +640,7 @@ outfit "Ronc Rocket"
 	thumbnail "outfit/zorcn ronc missile"
 	"mass" .03
 	"ronc capacity" -1
-	description ""
+	description "Ammo for Ronc launcher."
 	
 outfit "Ronc Storage Crate"
 	category "Ammunition"
@@ -650,7 +650,7 @@ outfit "Ronc Storage Crate"
 	"outfit space" -8
 	"ronc capacity" 200
 	ammo "Ronc Rocket"
-	description "The Javelin Storage Crate is used to store extra ammunition for Javelin Pods."
+	description "A machine-friendly crate that allows Ronc Pod easy access to extra ammunition."
 
 effect "ronc dust"
 	sprite "effect/ronc smoke"
@@ -944,7 +944,7 @@ outfit "Etkan Rocket"
 	thumbnail "outfit/meteor"
 	"mass" .04
 	"etkan capacity" -1
-	description ""
+	description "Ammunition required for Etkan CIWS to fire."
 	
 outfit "Etkan Rocket CIWS Turret"
 	category "Turrets"
