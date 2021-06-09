@@ -1,35 +1,137 @@
 
 #==============================Gun========================
 
+outfit "Aserap Ammo"
+	category "Ammunition"
+	cost 200
+	thumbnail "outfit/meteor"
+	"mass" .01
+	"aserap capacity" -1
+	description "Ammo for Erader Aserap Auto cannon and Kakuran Energy Cannon"
+
+outfit "Aserap Auto Cannon"
+	category "Guns"
+	cost 15000
+	thumbnail "outfit/blaster"
+	"mass" 3
+	"outfit space" -8
+	"weapon capacity" -8
+	"gun ports" -1
+	"aserap capacity" 500
+	weapon
+		sprite "projectile/bullet"
+			"random start frame"
+			"frame rate" 0
+		sound "tiny explosion"
+		"hit effect" "tiny explosion"
+		"ammo" "Aserap Ammo"
+		"inaccuracy" 1
+		"velocity" 20
+		"lifetime" 30
+		"reload" 6
+		"burst count" 30
+		"burst reload" 2
+		"firing energy" 2
+		"firing heat" 12
+		"shield damage" 6
+		"hull damage" 12
+	description "Standard Auto Cannon found on Erader spaceships."
+
+outfit "Kuakuran Energy Cannon"
+	category "Guns"
+	cost 15000
+	thumbnail "outfit/dels skue8"
+	"mass" 10
+	"outfit space" -10
+	"weapon capacity" -10
+	"gun ports" -1
+	weapon
+		sprite "projectile/skueshot"
+		sound "gw edistort4"
+		"hit effect" "blaster impact"
+		"ammo" "Aserap Ammo"
+		"inaccuracy" 2
+		"velocity" 25
+		"lifetime" 20
+		"reload" 13
+		"firing energy" 30
+		"firing heat" 38
+		"shield damage" 20
+		"hull damage" 12
+	description "Makerurader energy cannon, use the same ammunition as Aserap yet are significantly more powerful."
+
 #==============================Turret======================
+
+outfit "Yeutark Shell"
+	category "Ammunition"
+	cost 200
+	thumbnail "outfit/meteor"
+	"mass" .1
+	"yeutark capacity" -1
+	description "A Meteor Missile serves as ammunition for the Meteor Missile Launcher. Each missile launcher has the capacity for 30 missiles; you cannot install missiles if you have not first purchased a launcher to store them in."
+
+outfit "Yeutark Shell Storage"
+	category "Ammunition"
+	cost 9000
+	thumbnail "outfit/meteor storage"
+	"mass" 2
+	"outfit space" -5
+	"yeutark capacity" 15
+	ammo "Yeutark Shell"
+	description "The Meteor Missile Box is used to store extra ammunition for Meteor Missile Launchers."
 
 outfit "Yeutark Turret"
 	category "Turrets"
 	"cost" 350000
 	thumbnail "outfit/erader yeutak turret"
-	"mass" 68
+	"mass" 66
 	"outfit space" -68
 	"weapon capacity" -68
 	"turret mounts" -1
+	"yeutark capacity" 20
 	weapon
 		sprite "projectile/yeutark shot"
 		sound "zaikor"
 		"hardpoint sprite" "hardpoint/yeutark turret"
 		"hardpoint offset" 8.
-		"hit effect" "particle impact"
+		"hit effect" "beam laser impact"
+		"fire effect" "small explosion"
+		"ammo" "Yeutark Shell"
 		"inaccuracy" 1
 		"turret turn" 1.2
-		"velocity" 30
-		"lifetime" 60
+		"velocity" 25
+		"lifetime" 65
 		"reload" 32
 		"burst count" 2
 		"burst reload" 10
-		"firing energy" 100
+		"firing energy" 60
 		"firing force" 20
 		"firing heat" 340
 		"hit force" 80
-		"shield damage" 120
-		"hull damage" 155
+		"shield damage" 140
+		"hull damage" 185
+	description "Makerurader shipboard cannon turret."
+
+outfit "Rudarel CIWS"
+	category "Turrets"
+	cost 60000
+	thumbnail "outfit/anti-missile"
+	"mass" 11
+	"outfit space" -11
+	"weapon capacity" -11
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/anti-missile"
+		"hardpoint offset" 4.
+		"hit effect" "small anti-missile"
+		"anti-missile" 5
+		"velocity" 150
+		"lifetime" 1
+		"reload" 8
+		"burst count" 8
+		"burst reload" 2
+		"firing energy" 6
+		"firing heat" 5
 	description ""
 
 #==============================Power=====================
