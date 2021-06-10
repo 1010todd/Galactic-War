@@ -715,7 +715,7 @@ outfit "Ultaka Vanquisher Cannon"
 	weapon
 		"sprite" "projectile/ultaka vanquisher"
 		"inaccuracy" 0.1
-		"velocity" 15
+		"velocity" 22
 		"lifetime" 300
 		"hit effect" "ultaka vanquisher hit"
 		"hit effect" "ultaka vanquisher hit2"
@@ -725,8 +725,8 @@ outfit "Ultaka Vanquisher Cannon"
 		"hit force" 900
 		"shield damage" 40250
 		"hull damage" 40250
-		"missile strength" 1100
-		"piercing" .3
+		"missile strength" 1600
+		"piercing" .35
 	description "Unlike the smaller Ultaka Antimatter Cannon, this weapon is based on a different technology which allows even greater destructive capability. This will easily tear apart anything but the strongest warships. On the bright side, only the ship hit by this will be destroyed."
 		
 effect "ultaka vanquisher hit"
@@ -773,7 +773,7 @@ outfit "Ultaka Destroyer Cannon"
 		"shield damage" 95000
 		"hull damage" 95000
 		"missile strength" 2510
-		"piercing" .4
+		"piercing" 1
 	description "If anything would challenge the toughness of the ringworld it would be this. Getting hit by it is a death-sentence." 
 		
 outfit "E40R-D"
