@@ -1248,11 +1248,26 @@ fleet "Taroun Defense"
 		heroic
 		vindictive
 		frugal
-		opportunistic
 	variant 1
 		"Taroun Eroun" 3
 		"Taroun Oresu" 4
-		
+	
+fleet "Taroun Logistic"
+	government "Taroun"
+	names "Taroun"
+	personality
+		frugal
+		opportunistic
+	variant 5
+		"Taroun Ulkoura"
+	variant 4
+		"Taroun Ulkoura" 2
+	variant 3
+		"Taroun Ulkoura" 3
+	variant 5
+		"Taroun Ulkoura" 2
+		"Taroun Oresu" 2
+
 fleet "Taroun Patrol"
 	government "Taroun"
 	names "Taroun"
@@ -1260,7 +1275,6 @@ fleet "Taroun Patrol"
 		heroic
 		vindictive
 		frugal
-		opportunistic
 	variant 4
 		"Taroun Eroun" 1
 		"Taroun Oresu" 2
