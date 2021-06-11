@@ -18,8 +18,8 @@ outfit "Serulan Turret"
 		"reload" 15
 		"firing energy" 160
 		"firing heat" 160
-		"shield damage" 325
-		"hull damage" 325
+		"shield damage" 12500
+		"hull damage" 12500
 	description "Taroun Basic weapon."
 
 effect "serulan impact"
@@ -53,7 +53,7 @@ outfit "Vulrekau Turret"
 		"burst reload" 3
 		"firing energy" 120
 		"firing heat" 240
-		"hull damage" 150
+		"hull damage" 15000
 		"piercing" 2
 	description "Taroun Basic weapon."
 	
@@ -78,7 +78,7 @@ outfit "Taroun Deflector"
 		"firing energy" 10
 		"firing heat" 9
 		"hit force" 80
-		"shield damage" 60
+		"shield damage" 600
 		"ion damage" 4
 	description ""
 
@@ -102,7 +102,7 @@ outfit "Taroun Restrainter"
 		"reload" 1
 		"firing energy" 10
 		"firing heat" 9
-		"shield damage" 60
+		"shield damage" 421
 		"ion damage" 4
 		"fuel damage" 60
 		"slowing damage" 20
@@ -128,9 +128,9 @@ outfit "Larpauron Turret"
 		"velocity override" 80
 		"lifetime" 1
 		"reload" 30
-		"firing energy" 450
+		"firing energy" 650
 		"firing heat" 500
-	description "Taroun  Turret."
+	description "Taroun long range turret."
 
 outfit "Larpauron"
 	weapon
@@ -147,8 +147,8 @@ outfit "Larpauron"
 		"turn" 10
 		"homing" 2
 		"optical tracking" .9
-		"shield damage" 1850
-		"hull damage" 800
+		"shield damage" 18500
+		"hull damage" 8000
 		"piercing" .3
 		"energy damage" 500
 		"ion damage" 15
@@ -188,8 +188,8 @@ outfit "Ismakur Turret"
 		"disruption damage" 12
 		"blast radius" 120
 		"piercing" 5
-		"shield damage" 28
-		"hull damage" 13
+		"shield damage" 2800
+		"hull damage" 1300
 		"safe"
 	description "Taroun Odd-looking Turret."
 
@@ -272,8 +272,8 @@ outfit "Urmou"
 		"turn" 4
 		"homing" 4
 		"optical tracking" 1
-		"shield damage" 850
-		"hull damage" 10
+		"shield damage" 8500
+		"hull damage" 100
 		"hit force" -150
 		"safe"
 		"phasing"
@@ -295,8 +295,8 @@ outfit "Lymaou"
 		"turn" 1
 		"homing" 1
 		"optical tracking" .9
-		"shield damage" 5610
-		"hull damage" 5610
+		"shield damage" 81000
+		"hull damage" 81000
 		"hit force" 3000
 		"blast radius" 200
 		"safe"
@@ -346,8 +346,6 @@ outfit "Lymaou Launcher"
 		"firing energy" 5610
 		"firing heat" 1960
 		"firing force" 1200
-		"shield damage" 2000
-		"hull damage" 2000
 		"hit force" 35
 		"missile strength" 1000
 		"stream"
