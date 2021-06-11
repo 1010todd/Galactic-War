@@ -2000,6 +2000,10 @@ system Taroun
 		sprite "ship/taroun eroun"
 		distance 1500
 		offset 200
+	object "Taroun Ulkoura"
+		sprite "ship/taroun ulkoura"
+		distance 1500
+		offset 80
 
 system Ultaka
 	pos 310.311 -9778.28
@@ -4042,6 +4046,27 @@ fleet "Taroun Eroun"
 		heroic
 	variant
 		"Taroun Eroun"
+
+planet "Taroun Ulkoura"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Taroun Ulkoura"
+
+planet "GW Ulkoura"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Taroun Ulkoura"
+
+fleet "Taroun Ulkoura"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Taroun Ulkoura"
 
 #================================Ultaka
 

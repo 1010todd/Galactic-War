@@ -342,6 +342,8 @@ effect "donko anti-missile"
 	"lifetime" 12
 	"velocity scale" 1
 		
+#==============================================================System
+
 outfit "ORK6 Shield Generator"
 	category "Systems"
 	cost 50000000
@@ -439,7 +441,7 @@ outfit "DIT5 Thruster"
 	"mass" 55
 	"outfit space" -55
 	"engine capacity" -55
-	"thrust" 90
+	"thrust" 78
 	"thrusting energy" 5.3
 	"thrusting heat" 8.3
 	"energy consumption" 1.7
@@ -474,7 +476,7 @@ outfit "DIT4 Thruster"
 	"mass" 40
 	"outfit space" -40
 	"engine capacity" -40
-	"thrust" 67
+	"thrust" 36.3
 	"thrusting energy" 2.1
 	"thrusting heat" 3.8
 	"energy consumption" 1.2
@@ -492,7 +494,7 @@ outfit "DIT4 Steering"
 	"mass" 50
 	"outfit space" -50
 	"engine capacity" -50
-	"turn" 890
+	"turn" 965
 	"turning energy" 1.2
 	"turning heat" 2.2
 	"energy consumption" .65
@@ -509,7 +511,7 @@ outfit "DIT3 Thruster"
 	"mass" 34
 	"outfit space" -23
 	"engine capacity" -23
-	"thrust" 18.9
+	"thrust" 19.5
 	"thrusting energy" 1.9
 	"thrusting heat" 3.2
 	"energy consumption" 1
@@ -527,7 +529,7 @@ outfit "DIT3 Steering"
 	"mass" 30
 	"outfit space" -30
 	"engine capacity" -30
-	"turn" 552
+	"turn" 788
 	"turning energy" .82
 	"turning heat" 1.6
 	"energy consumption" .5
@@ -544,7 +546,7 @@ outfit "DIT2 Thruster"
 	"mass" 23
 	"outfit space" -23
 	"engine capacity" -23
-	"thrust" 10.4
+	"thrust" 14.8
 	"thrusting energy" 1
 	"thrusting heat" 1.7
 	"energy consumption" .7
@@ -562,7 +564,7 @@ outfit "DIT2 Steering"
 	"mass" 15
 	"outfit space" -15
 	"engine capacity" -15
-	"turn" 350
+	"turn" 465
 	"turning energy" .5
 	"turning heat" .8
 	"energy consumption" .4
@@ -579,7 +581,7 @@ outfit "DIT1 Thruster"
 	"mass" 14
 	"outfit space" -14
 	"engine capacity" -14
-	"thrust" 5.6
+	"thrust" 7.8
 	"thrusting energy" .6
 	"thrusting heat" 1.2
 	"energy consumption" .5
@@ -597,7 +599,7 @@ outfit "DIT1 Steering"
 	"mass" 10
 	"outfit space" -10
 	"engine capacity" -10
-	"turn" 170
+	"turn" 230
 	"turning energy" .3
 	"turning heat" .6
 	"energy consumption" .3
