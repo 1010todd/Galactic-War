@@ -307,6 +307,13 @@ outfit "Ultaka Executor Missile"
 		"missile strength" 5000
 		"piercing" 3
 	
+effect "ul hellstorm live"
+	sprite "projectile/larpauron"
+		"frame rate" 10
+		"no repeat"
+	"lifetime" 5
+	"velocity scale" .1
+	
 outfit "Ultaka Hellstorm" #LOSK-M Bomb #this weapon is untested.
 	category "Guns"
 	cost 5000000
@@ -318,9 +325,12 @@ outfit "Ultaka Hellstorm" #LOSK-M Bomb #this weapon is untested.
 	weapon
 		sprite "projectile/emissile"
 			"frame rate" 21
+		"live effect" "ul hellstorm live" 20
 		"velocity" 10
-		"turn" 4.5
+		"turn" 5
 		"lifetime" 10
+		"drag" .5
+		"acceleration" 10
 		"submunition" "ul hellstorm 1"
 		"reload" 20
 		"firing energy" 680
@@ -333,9 +343,11 @@ outfit "ul hellstorm 1"
 	weapon
 		sprite "projectile/emissile"
 			"frame rate" 21
-		"velocity" 10
-		"turn" -4.5
-		"lifetime" 20
+		"live effect" "ul hellstorm live" 20
+		"turn" -5
+		"drag" .5
+		"acceleration" 10
+		"lifetime" 30
 		"submunition" "ul hellstorm 2"
 		"piercing" .8
 
@@ -343,9 +355,11 @@ outfit "ul hellstorm 2"
 	weapon
 		sprite "projectile/emissile"
 			"frame rate" 22
-		"velocity" 10
-		"turn" 4.5
-		"lifetime" 20
+		"live effect" "ul hellstorm live" 20
+		"turn" 5
+		"drag" .5
+		"acceleration" 10
+		"lifetime" 40
 		"submunition" "ul hellstorm 3"
 		"piercing" .8
 
@@ -353,9 +367,11 @@ outfit "ul hellstorm 3"
 	weapon
 		sprite "projectile/emissile"
 			"frame rate" 23
-		"velocity" 10
-		"turn" -4.5
-		"lifetime" 20
+		"live effect" "ul hellstorm live" 20
+		"turn" -5
+		"drag" .5
+		"acceleration" 10
+		"lifetime" 40
 		"submunition" "ul hellstorm 4"
 		"piercing" .8
 
@@ -363,9 +379,11 @@ outfit "ul hellstorm 4"
 	weapon
 		sprite "projectile/emissile"
 			"frame rate" 24
-		"velocity" 10
-		"turn" 4.5
-		"lifetime" 20
+		"live effect" "ul hellstorm live" 20
+		"turn" 5
+		"drag" .5
+		"acceleration" 10
+		"lifetime" 40
 		"shield damage" 500
 		"hull damage" 100000
 		"ion damage" 1000

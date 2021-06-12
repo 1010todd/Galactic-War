@@ -46,9 +46,10 @@ outfit "Kuakuran Energy Cannon"
 	"weapon capacity" -10
 	"gun ports" -1
 	weapon
-		sprite "projectile/skueshot"
+		sprite "projectile/gw green beam"
 		sound "gw edistort4"
-		"hit effect" "blaster impact"
+		"hit effect" "masenar impact"
+		"live effect" "kuakuran trail"
 		"ammo" "Aserap Ammo"
 		"inaccuracy" 2
 		"velocity" 25
@@ -59,6 +60,11 @@ outfit "Kuakuran Energy Cannon"
 		"shield damage" 20
 		"hull damage" 12
 	description "Makerurader energy cannon, use the same ammunition as Aserap yet are significantly more powerful."
+
+effect "kuakuran trail"
+	sprite "projectile/gw green beam"
+	"lifetime" 5
+	"velocity scale" .1
 
 #==============================Turret======================
 

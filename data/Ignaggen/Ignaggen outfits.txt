@@ -138,7 +138,7 @@ outfit "Rakkrao Cannon"
 outfit "Gikorel Anti-Missile"
 	category "Turrets"
 	cost 62000
-	thumbnail "outfit/anti-missile"
+	thumbnail "outfit/ignaggen georlen turret"
 	"mass" 14
 	"outfit space" -14
 	"weapon capacity" -14
@@ -146,6 +146,7 @@ outfit "Gikorel Anti-Missile"
 	weapon
 		"die effect" "particle impact"
 		"fire effect" "particle impact"
+		"live effect" "gikorel shot"
 		"hardpoint sprite" "hardpoint/warder"
 		"hardpoint offset" 4.
 		"anti-missile" 4
@@ -158,6 +159,12 @@ outfit "Gikorel Anti-Missile"
 		"firing heat" 5
 	description "Modified version of Georlen guns for anti-missile purpose. It was only developed due to contact with the Dels as Ignaggen themselves don't use missile(or even know how to make one)."
 	description "While not perfect, it find itself in Dels market as long-range alternative."
+
+effect "gikorel shot"
+	sprite "projectile/georlen"
+			"frame rate" 3
+	"lifetime" 12
+	"velocity scale" .1
 
 outfit "Gatourot Capacitor"
 	category "Power"
