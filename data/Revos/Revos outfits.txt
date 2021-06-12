@@ -143,6 +143,83 @@ outfit "rvs barviska"
 		"slowing damage" 50
 		"ion damage" 50
 
+outfit "Kuloles Spawner"
+	category "Turrets"
+	cost 19000000
+	thumbnail "outfit/longsword"
+	"mass" 56
+	"outfit space" -56
+	"weapon capacity" -56
+	"turret mounts" -1
+	weapon
+		sound "laser3"
+		sprite "projectile/emissile"
+			"frame rate" 1
+		"hit effect" "skylance impact"
+		"live effect" "kuloles1 live" 20
+		"inaccuracy" 360
+		"turret turn" 180
+		"submunition" "rvs kuloles1"
+		"velocity" 40
+		"lifetime" 10
+		"reload" 1
+		"firing energy" 3
+		"firing heat" .1
+		"ion damage" 10
+		"stream"
+		"phasing"
+	description "Revos weapon."
+
+effect "kuloles1 live"
+	sprite "projectile/larpauron"
+		"frame rate" 1
+		"no repeat"
+	"lifetime" 10
+	"velocity scale" .1
+
+outfit "rvs kuloles1"
+	weapon
+		sprite "projectile/emissile"
+			"frame rate" 60
+		"hit effect" "skylance impact"
+		"inaccuracy" 0
+		"submunition" "rvs kuloles2"
+		"drag" .1
+		"turn" 360
+		"homing" 2
+		"optical tracking" .8
+		"lifetime" 18
+		"hit force" 30
+		"velocity" -40
+		"shield damage" 80
+		"hull damage" 70
+		"phasing"
+
+outfit "rvs kuloles2"
+	weapon
+		sprite "effect/skylance impact"
+			"frame rate" 2
+		"hit effect" "skylance impact"
+		"live effect" "kuloles2 live" 20
+		"inaccuracy" 0
+		"drag" .06
+		"turn" 1
+		"homing" 2
+		"acceleration" 1
+		"optical tracking" .8
+		"lifetime" 50
+		"hit force" 30
+		"velocity" 25
+		"shield damage" 800
+		"hull damage" 700
+		"phasing"
+
+effect "kuloles2 live"
+	sprite "effect/skylance impact"
+		"frame rate" 1
+	"lifetime" 5
+	"velocity scale" .2
+
 outfit "Anor Missile"
 	category "Secondary Weapons"
 	cost 29000000
