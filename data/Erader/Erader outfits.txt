@@ -4,7 +4,7 @@
 outfit "Aserap Ammo"
 	category "Ammunition"
 	cost 200
-	thumbnail "outfit/meteor"
+	thumbnail "outfit/sokak slug"
 	"mass" .01
 	"aserap capacity" -1
 	description "Ammo for Erader Aserap Auto cannon and Kakuran Energy Cannon"
@@ -45,11 +45,12 @@ outfit "Kuakuran Energy Cannon"
 	"outfit space" -10
 	"weapon capacity" -10
 	"gun ports" -1
+	"aserap capacity" 500
 	weapon
 		sprite "projectile/gw green beam"
 		sound "gw edistort4"
 		"hit effect" "masenar impact"
-		"live effect" "kuakuran trail"
+		"live effect" "kuakuran trail" 100
 		"ammo" "Aserap Ammo"
 		"inaccuracy" 2
 		"velocity" 25
@@ -165,7 +166,7 @@ outfit "E6-V Generator"
 outfit "H-1AE Battery Array"
 	category "Power"
 	cost 30000
-	thumbnail "outfit/small battery"
+	thumbnail "outfit/erader battery tiny"
 	"mass" 26
 	"outfit space" -26
 	"energy capacity" 2200
@@ -174,7 +175,7 @@ outfit "H-1AE Battery Array"
 outfit "H-2AE Battery Array"
 	category "Power"
 	cost 67000
-	thumbnail "outfit/medium battery"
+	thumbnail "outfit/erader battery small"
 	"mass" 42
 	"outfit space" -42
 	"energy capacity" 4800
