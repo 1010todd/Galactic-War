@@ -170,6 +170,8 @@ outfit "H-1AE Battery Array"
 	"mass" 26
 	"outfit space" -26
 	"energy capacity" 2200
+	"energy consumption" .1
+	"heat generation" .1
 	description "Smallest battery array found in Erader space."
 
 outfit "H-2AE Battery Array"
@@ -178,7 +180,9 @@ outfit "H-2AE Battery Array"
 	thumbnail "outfit/erader battery small"
 	"mass" 42
 	"outfit space" -42
-	"energy capacity" 4800
+	"energy capacity" 4400
+	"energy consumption" .08
+	"heat generation" .12
 	description "Erader Medium sized battery array"
 
 outfit "H-5AE Battery Array"
@@ -187,14 +191,17 @@ outfit "H-5AE Battery Array"
 	thumbnail "outfit/erader battery large"
 	"mass" 90
 	"outfit space" -90
-	"energy capacity" 10400
+	"energy capacity" 8800
+	"energy consumption" .1
+	"heat generation" .13
 	description "Erader large battery array"
 
 outfit "H-A0E Battery Array"
 	category "Power"
 	cost 380000
-	thumbnail "outfit/huge battery"
+	thumbnail "outfit/erader battery huge"
 	"mass" 160
 	"outfit space" -160
-	"energy capacity" 23000
-	description "Huge battery array."
+	"energy capacity" 16000
+	"heat generation" .1
+	description "Erader Huge battery array."
