@@ -3,7 +3,7 @@
 
 outfit "Aserap Ammo"
 	category "Ammunition"
-	cost 200
+	cost 8
 	thumbnail "outfit/sokak slug"
 	"mass" .01
 	"aserap capacity" -1
@@ -12,12 +12,12 @@ outfit "Aserap Ammo"
 outfit "Aserap Auto Cannon"
 	category "Guns"
 	cost 15000
-	thumbnail "outfit/blaster"
+	thumbnail "outfit/erader aserap gun"
 	"mass" 3
 	"outfit space" -8
 	"weapon capacity" -8
 	"gun ports" -1
-	"aserap capacity" 500
+	"aserap capacity" 2000
 	weapon
 		sprite "projectile/bullet"
 			"random start frame"
@@ -45,7 +45,7 @@ outfit "Kuakuran Energy Cannon"
 	"outfit space" -10
 	"weapon capacity" -10
 	"gun ports" -1
-	"aserap capacity" 500
+	"aserap capacity" 800
 	weapon
 		sprite "projectile/gw green beam"
 		sound "gw edistort4"
