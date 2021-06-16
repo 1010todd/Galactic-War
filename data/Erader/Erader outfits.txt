@@ -28,7 +28,7 @@ outfit "Aserap Autocannon"
 	"gun ports" -1
 	"aserap capacity" 1000
 	weapon
-		sprite "projectile/bullet"
+		sprite "projectile/aserap bullet"
 			"random start frame"
 			"frame rate" 0
 		sound "tiny explosion"
@@ -90,7 +90,7 @@ outfit "Aserap Turret"
 	weapon
 		"hardpoint sprite" "hardpoint/erader aserap turret hp"
 		"hardpoint offset" 4.
-		sprite "projectile/bullet"
+		sprite "projectile/aserap bullet"
 			"random start frame"
 			"frame rate" 0
 		sound "tiny explosion"
