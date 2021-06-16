@@ -4,12 +4,21 @@
 outfit "Aserap Ammo"
 	category "Ammunition"
 	cost 8
-	thumbnail "outfit/sokak slug"
+	thumbnail "outfit/erader aserap ammo"
 	"mass" .01
 	"aserap capacity" -1
-	description "Ammo for Erader Aserap Auto cannon and Kakuran Energy Cannon"
+	description "Ammo for Erader Aserap autocannon and Kakuran Energy Cannon"
 
-outfit "Aserap Auto Cannon"
+outfit "Aserap Ammo Storage"
+	category "Ammunition"
+	cost 8
+	thumbnail "outfit/erader aserap ammo storage"
+	"mass" 2
+	"outfit space" 10
+	"aserap capacity" 1000
+	description "Ammo Storage for Aserap autocannon and Kakuran energy cannon."
+
+outfit "Aserap Autocannon"
 	category "Guns"
 	cost 15000
 	thumbnail "outfit/erader aserap gun"
@@ -35,7 +44,7 @@ outfit "Aserap Auto Cannon"
 		"firing heat" 12
 		"shield damage" 6
 		"hull damage" 12
-	description "Standard Auto Cannon found on Erader spaceships."
+	description "Standard Autocannon found on Erader spaceships."
 
 outfit "Kuakuran Energy Cannon"
 	category "Guns"
@@ -45,7 +54,7 @@ outfit "Kuakuran Energy Cannon"
 	"outfit space" -10
 	"weapon capacity" -10
 	"gun ports" -1
-	"aserap capacity" 800
+	"aserap capacity" 500
 	weapon
 		sprite "projectile/gw green beam"
 		sound "gw edistort4"
@@ -60,7 +69,7 @@ outfit "Kuakuran Energy Cannon"
 		"firing heat" 38
 		"shield damage" 20
 		"hull damage" 12
-	description "Makerurader energy cannon, use the same ammunition as Aserap yet are significantly more powerful."
+	description "Makerurader energy cannon, though, it still use ammunition, these cannons are significantly more powerful than Aserap."
 
 effect "kuakuran trail"
 	sprite "projectile/gw green beam"
@@ -68,6 +77,36 @@ effect "kuakuran trail"
 	"velocity scale" .1
 
 #==============================Turret======================
+
+outfit "Aserap Turret"
+	category "Turrets"
+	cost 15000
+	thumbnail "outfit/erader aserap turret"
+	"mass" 6
+	"outfit space" -20
+	"weapon capacity" -20
+	"turret mounts" -1
+	"aserap capacity" 4000
+	weapon
+		"hardpoint sprite" "hardpoint/erader aserap turret hp"
+		"hardpoint offset" 4.
+		sprite "projectile/bullet"
+			"random start frame"
+			"frame rate" 0
+		sound "tiny explosion"
+		"hit effect" "tiny explosion"
+		"ammo" "Aserap Ammo"
+		"inaccuracy" 1
+		"velocity" 20
+		"lifetime" 30
+		"reload" 6
+		"burst count" 30
+		"burst reload" 1
+		"firing energy" 2
+		"firing heat" 12
+		"shield damage" 6
+		"hull damage" 12
+	description "A pair of Aserap autocannon on a turret."
 
 outfit "Yeutark Shell"
 	category "Ammunition"
@@ -95,11 +134,12 @@ outfit "Yeutark Turret"
 	"outfit space" -68
 	"weapon capacity" -68
 	"turret mounts" -1
+	"required crew" 2
 	"yeutark capacity" 20
 	weapon
 		sprite "projectile/yeutark shot"
 		sound "zaikor"
-		"hardpoint sprite" "hardpoint/yeutark turret"
+		"hardpoint sprite" "hardpoint/yeutark turret hp"
 		"hardpoint offset" 8.
 		"hit effect" "beam laser impact"
 		"fire effect" "small explosion"
