@@ -26,7 +26,7 @@ outfit "Aserap Autocannon"
 	"outfit space" -8
 	"weapon capacity" -8
 	"gun ports" -1
-	"aserap capacity" 2000
+	"aserap capacity" 1000
 	weapon
 		sprite "projectile/bullet"
 			"random start frame"
@@ -86,7 +86,7 @@ outfit "Aserap Turret"
 	"outfit space" -20
 	"weapon capacity" -20
 	"turret mounts" -1
-	"aserap capacity" 4000
+	"aserap capacity" 2000
 	weapon
 		"hardpoint sprite" "hardpoint/erader aserap turret hp"
 		"hardpoint offset" 4.
