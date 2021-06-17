@@ -3142,6 +3142,7 @@ system Akuarnor
 	habitable 135
 	belt 1865
 	link Dakumuka
+	link Kuagakru
 	asteroids "medium rock" 5 3.6708
 	asteroids "large rock" 1 3.5378
 	asteroids "small metal" 2 3.2186
@@ -3156,6 +3157,7 @@ system Akuarnor
 	trade Medical 815
 	trade Metal 260
 	trade Plastic 447
+	fleet "Kakaima Defense" 1200
 	object
 		sprite star/m8
 		period 10
@@ -3961,6 +3963,7 @@ system Apurtak
 	trade Medical 812
 	trade Metal 357
 	trade Plastic 434
+	fleet "Kakaima Defense" 600
 	object
 		sprite star/g0
 		period 10
@@ -7276,6 +7279,7 @@ system Bokgarkau
 	habitable 425.92
 	belt 1323
 	link Korgudar
+	link Kuagakru
 	asteroids "small rock" 12 3.6456
 	asteroids "medium rock" 31 4.2042
 	asteroids "large rock" 5 1.7346
@@ -7294,6 +7298,7 @@ system Bokgarkau
 	trade Medical 812
 	trade Metal 357
 	trade Plastic 434
+	fleet "Kakaima Defense" 800
 	object
 		sprite star/k5
 		period 10
@@ -22284,6 +22289,7 @@ system Gakrava
 	trade Medical 757
 	trade Metal 253
 	trade Plastic 370
+	fleet "Kakaima Defense" 1400
 	object
 		sprite star/k5
 		period 10
@@ -34744,6 +34750,7 @@ system Kadeinol
 	belt 1182
 	link Grokkeka
 	link Keggolkor
+	link Naakurga
 	asteroids "small rock" 3 5.481
 	asteroids "medium rock" 72 2.4192
 	asteroids "large rock" 13 3.969
@@ -36598,6 +36605,7 @@ system Kasuzete
 	habitable 425.92
 	belt 1723
 	link Likeran
+	link Xulkaero
 	asteroids "small rock" 42 2.52
 	asteroids "medium rock" 1 4.88
 	asteroids "large rock" 2 2.08
@@ -40708,6 +40716,7 @@ system Kildakna
 	habitable 1080
 	belt 1803
 	link Gakrava
+	link Naakurga
 	asteroids "small rock" 6 2.3296
 	asteroids "medium rock" 7 3.0212
 	asteroids "large rock" 3 3.7128
@@ -40723,6 +40732,7 @@ system Kildakna
 	trade Medical 774
 	trade Metal 286
 	trade Plastic 323
+	fleet "Kakaima Defense" 1500
 	object
 		sprite star/g0
 		period 10
@@ -46713,6 +46723,7 @@ system Korgudar
 	trade Medical 812
 	trade Metal 357
 	trade Plastic 434
+	fleet "Kakaima Defense" 800
 	object
 		sprite star/g0
 		period 10
@@ -47581,6 +47592,60 @@ system "Ku se a"
 		distance 3166.43
 		period 2168.72
 
+system Kuagakru
+	pos -49807.5 -56738.9
+	government "Kroom Kakaima"
+	habitable 1715
+	belt 1497
+	link Akuarnor
+	link Bokgarkau
+	asteroids "small rock" 9 3.0704
+	asteroids "large rock" 2 3.4048
+	asteroids "medium metal" 1 4.3472
+	asteroids "large metal" 1 1.7632
+	trade Clothing 259
+	trade Electronics 778
+	trade Equipment 528
+	trade Food 159
+	trade "Heavy Metals" 680
+	trade Industrial 618
+	trade "Luxury Goods" 1034
+	trade Medical 812
+	trade Metal 357
+	trade Plastic 434
+	fleet "Kakaima Defense" 1400
+	object
+		sprite star/f5
+		period 10
+	object
+		sprite planet/ice2
+		distance 263.36
+		period 41.2812
+		object
+			sprite planet/ice8
+			distance 122
+			period 16.9396
+	object
+		sprite planet/cloud8
+		distance 601.2
+		period 142.382
+	object
+		sprite planet/lava2
+		distance 778.36
+		period 209.748
+	object
+		sprite planet/gas5
+		distance 1234.6
+		period 419.003
+	object
+		sprite planet/gas6
+		distance 1844.85
+		period 765.367
+		object
+			sprite planet/rock14
+			distance 290
+			period 12.6143
+
 system Kuakurda
 	pos -49649.8 -56097
 	government "Erader Mukube"
@@ -48192,6 +48257,7 @@ system Kukelvar
 	trade Medical 812
 	trade Metal 357
 	trade Plastic 434
+	fleet "Kakaima Defense" 800
 	object
 		sprite star/m0
 		period 10
@@ -51590,6 +51656,58 @@ system Lieevaor
 			distance 305
 			period 22.7574
 
+system Lierarur
+	pos -49535.6 -56682.6
+	government Makerurader
+	habitable 233.28
+	belt 1312
+	link Urselvau
+	asteroids "small rock" 5 5.148
+	asteroids "medium rock" 28 4.68
+	asteroids "large rock" 6 2.988
+	asteroids "small metal" 111 3.312
+	asteroids "medium metal" 41 4.356
+	asteroids "large metal" 18 3.456
+	minables iron 9 7.22066
+	minables neodymium 9 4.89371
+	trade Clothing 287
+	trade Electronics 845
+	trade Equipment 527
+	trade Food 169
+	trade "Heavy Metals" 1199
+	trade Industrial 669
+	trade "Luxury Goods" 1191
+	trade Medical 621
+	trade Metal 274
+	trade Plastic 464
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/cloud7
+		distance 140.89
+		period 43.7967
+	object
+		sprite planet/jupiter
+		distance 455.65
+		period 254.723
+	object
+		sprite planet/desert9
+		distance 761.86
+		period 550.724
+	object
+		sprite planet/uranus
+		distance 1745.62
+		period 1910.05
+		object
+			sprite planet/luna
+			distance 235
+			period 15.3913
+		object
+			sprite planet/rock3
+			distance 320
+			period 24.4567
+
 system Ligeilvi
 	pos -51795.8 -56156.1
 	government Geeva
@@ -52053,6 +52171,7 @@ system Likhama
 	trade Medical 812
 	trade Metal 357
 	trade Plastic 434
+	fleet "Kakaima Defense" 600
 	object
 		sprite star/k5
 		period 10
@@ -67407,6 +67526,65 @@ system Na0H$v2%nnJ8
 			sprite planet/luna
 			distance 147
 			period 18.2466
+
+system Naakurga
+	pos -50083.5 -56836.9
+	government "Kroom Kakaima"
+	habitable 2372.76
+	belt 1924
+	link Kadeinol
+	link Kildakna
+	asteroids "small rock" 1 0.924
+	asteroids "medium rock" 45 0.84
+	asteroids "large rock" 8 1.176
+	asteroids "small metal" 32 1.9488
+	asteroids "medium metal" 36 1.2264
+	asteroids "large metal" 95 1.428
+	minables aluminum 2 1.89835
+	minables copper 8 2.19802
+	minables silicon 6 1.74182
+	trade Clothing 360
+	trade Electronics 705
+	trade Equipment 582
+	trade Food 302
+	trade "Heavy Metals" 745
+	trade Industrial 642
+	trade "Luxury Goods" 1176
+	trade Medical 771
+	trade Metal 292
+	trade Plastic 280
+	fleet "Kakaima Defense" 1600
+	object
+		sprite star/f0
+		period 10
+	object
+		sprite planet/lava7
+		distance 211.41
+		period 25.2419
+	object
+		sprite planet/rock19
+		distance 439.65
+		period 75.6996
+	object
+		sprite planet/ice0
+		distance 639.61
+		period 132.833
+	object
+		sprite planet/gas10
+		distance 1371.45
+		period 417.064
+		object
+			sprite planet/oberon
+			distance 211
+			period 16.1332
+		object
+			sprite planet/europa
+			distance 297
+			period 26.9421
+	object
+		sprite planet/gas9
+		distance 3407.41
+		period 1633.31
 
 system Nacca
 	pos -44447.7 -58007.5
@@ -85383,6 +85561,7 @@ system Shalteera
 	trade Medical 812
 	trade Metal 357
 	trade Plastic 434
+	fleet "Kakaima Defense" 600
 	object
 		sprite star/k0
 		period 10
@@ -91804,6 +91983,7 @@ system Urselvau
 	government Makerurader
 	habitable 912.6
 	belt 1172
+	link Lierarur
 	link Vurkarel
 	asteroids "small rock" 15 3.996
 	asteroids "large rock" 6 3.888
@@ -97626,6 +97806,58 @@ system Xibelna
 			sprite planet/ice7
 			distance 622
 			period 51.1639
+
+system Xulkaero
+	pos -49640.6 -56633.6
+	government Makerurader
+	habitable 486.68
+	belt 1021
+	link Kasuzete
+	asteroids "small rock" 56 4.848
+	asteroids "medium rock" 80 5.904
+	asteroids "large rock" 30 4.176
+	asteroids "small metal" 10 4.944
+	asteroids "medium metal" 10 3.408
+	asteroids "large metal" 35 5.472
+	minables aluminum 1 7.91053
+	minables tungsten 1 6.64215
+	trade Clothing 287
+	trade Electronics 845
+	trade Equipment 527
+	trade Food 169
+	trade "Heavy Metals" 1199
+	trade Industrial 669
+	trade "Luxury Goods" 1191
+	trade Medical 621
+	trade Metal 274
+	trade Plastic 464
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/lava3
+		distance 137.64
+		period 29.2789
+	object
+		sprite planet/ice5
+		distance 408.53
+		period 149.718
+	object
+		sprite planet/rock3
+		distance 595.09
+		period 263.216
+	object
+		sprite planet/ocean0
+		distance 770.65
+		period 387.904
+	object
+		sprite planet/gas11
+		distance 3594.34
+		period 3907.21
+		object
+			sprite planet/dust1
+			distance 283
+			period 15.7021
 
 system "Ya ok na"
 	pos -50290.5 -53409.5

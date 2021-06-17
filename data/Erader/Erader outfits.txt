@@ -73,8 +73,8 @@ outfit "Kuakuran Energy Cannon"
 
 effect "kuakuran trail"
 	sprite "projectile/gw green beam"
-	"lifetime" 5
-	"velocity scale" .1
+	"lifetime" 3
+	"velocity scale" .6
 
 #==============================Turret======================
 
@@ -87,6 +87,7 @@ outfit "Aserap Turret"
 	"weapon capacity" -20
 	"turret mounts" -1
 	"aserap capacity" 2000
+	"required crew" 1
 	weapon
 		"hardpoint sprite" "hardpoint/erader aserap turret hp"
 		"hardpoint offset" 4.
@@ -162,7 +163,7 @@ outfit "Yeutark Turret"
 
 outfit "Rudarel CIWS"
 	category "Turrets"
-	cost 60000
+	cost 50000
 	thumbnail "outfit/anti-missile"
 	"mass" 11
 	"outfit space" -11
