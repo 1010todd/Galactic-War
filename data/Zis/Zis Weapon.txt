@@ -603,7 +603,7 @@ outfit "Fernai Shotgun"
 	"gun ports" -1
 	weapon
 		sprite "projectile/proton"
-		sound "proton"
+		sound "gw gun1"
 		"hit effect" "proton impact" 3
 		"inaccuracy" 1
 		"submunition" "Fernai Fragment" 8
@@ -621,9 +621,24 @@ outfit "Fernai Fragment"
 			"no repeat"
 			"frame rate" 2
 		"hit effect" "proton impact"
+		"submunition" "Fernai FragSpin"
 		"inaccuracy" 8
-		"lifetime" 22
+		"lifetime" 11
+		"random lifetime" 5
 		"hit force" 8
+
+outfit "Fernai FragSpin"
+	weapon
+		sprite "projectile/proton fragment"
+			"no repeat"
+			"frame rate" 2
+		"hit effect" "proton impact"
+		"inaccuracy" 0
+		"velocity" -4
+		"turn" 12
+		"lifetime" 16
+		"random lifetime" 5
+		"hit force" 12
 		"shield damage" 80
 		"hull damage" 110
 		
