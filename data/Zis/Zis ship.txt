@@ -28,7 +28,7 @@ ship "VK-35 Katen"
 			"scan interference" 1
 			"radar jamming" 5
 			"ZIS AM Lock" -1
-			"force protection" 40
+			"force protection" 5
 			weapon
 				"blast radius" 20
 				"shield damage" 1200
@@ -349,7 +349,7 @@ ship "RZ-621-02 Razor"
 		ramscoop 20
 		"gaslining" 1
 		"ZIS AM Lock" -1
-		#"force protection" 55
+		"force protection" 8
 		weapon
 			"blast radius" 60
 			"shield damage" 6000
@@ -438,7 +438,7 @@ ship "SY-8662 Sysor"
 		"jump in sound" "zis galactic drive in"
 		"jump out sound" "zis galactic drive out"
 		"ZIS AM Lock" -4
-		#"force protection" 65
+		"force protection" 13
 		weapon
 			"blast radius" 80
 			"shield damage" 800
@@ -572,7 +572,7 @@ ship "DT-224 Trazar"
 		ramscoop 20
 		"gaslining" 1
 		"ZIS AM Lock" -1
-		"force protection" 43
+		"force protection" 46
 		weapon
 			"blast radius" 60
 			"shield damage" 6000
@@ -622,6 +622,7 @@ ship "SG-60 Ginaz Patrol Drone"
 		"cooling" 150
 		"gaslining" 1
 		"ZIS AM Lock" -1
+		"force protection" 2
 		weapon
 			"blast radius" 5
 			"shield damage" 50
@@ -664,6 +665,7 @@ ship "SG-60 Ginaz Patrol Drone" "Ginaz Builder"
 		"gaslining" 1
 		"cargo space" 5
 		"ZIS AM Lock" -1
+		"force protection" 2
 	outfits
 		"ZIS Anti-Missile System"
 		"DZ-5 Micro Darklance" 1
@@ -770,6 +772,7 @@ ship "TZ-3468 Seoui"
 		"jump in sound" "zis galactic drive in"
 		"jump out sound" "zis galactic drive out"
 		"ZIS AM Lock" -4
+		"force protection" 30
 		weapon
 			"blast radius" 80
 			"shield damage" 800
@@ -837,6 +840,7 @@ ship "ZM-5422 Karloz"
 		"scan interference" 22
 		"radar jamming" 22
 		"ZIS AM Lock" -6
+		"force protection" 70
 		weapon
 			"blast radius" 80
 			"shield damage" 800
@@ -938,6 +942,7 @@ ship "ZM-5422 Karloz" "Karloz Drone"
 		"scan interference" 22
 		"radar jamming" 22
 		"ZIS AM Lock" -6
+		"force protection" 70
 		weapon
 			"blast radius" 80
 			"shield damage" 800
@@ -975,6 +980,7 @@ ship "AD-672 Ranzai"
 		"cooling" 100
 		"scan interference" 2.5
 		"radar jamming" 5
+		"force protection" 43
 		weapon
 			"blast radius" 40
 			"shield damage" 400
@@ -1041,6 +1047,7 @@ ship "BS-2237 Ryuzo"
 		"cooling" 130
 		"scan interference" 4
 		"radar jamming" 5.6
+		"force protection" 52
 		weapon
 			"blast radius" 40
 			"shield damage" 400
@@ -1108,6 +1115,7 @@ ship "BX-3826 Kazai"
 		"cooling" 150
 		"scan interference" 2.8
 		"radar jamming" 5
+		"force protection" 55
 		weapon
 			"blast radius" 40
 			"shield damage" 400
@@ -1181,6 +1189,7 @@ ship "XF-26 Mizu"
 		"radar jamming" .9
 		"energy capacity" 2200
 		"energy generation" 30
+		"force protection" 30
 		weapon
 			"blast radius" 40
 			"shield damage" 400
@@ -1242,6 +1251,7 @@ ship "ZC-4226 Zaikul"
 		"scan interference" 25
 		"radar jamming" 22
 		"ZIS AM Lock" -6
+		"force protection" 60
 		weapon
 			"blast radius" 80
 			"shield damage" 800
@@ -1367,6 +1377,7 @@ ship "AS-56 Virsiz"
 			"scan interference" 6
 			"radar jamming" 12
 			"ZIS AM Lock" -1
+			"force protection" 40
 			weapon
 				"blast radius" 20
 				"shield damage" 1200
@@ -1419,6 +1430,7 @@ ship "AD-860A Aorlan"
 		ramscoop 20
 		"gaslining" 1
 		"ZIS AM Lock" -1
+		"force protection" 8
 		weapon
 			"blast radius" 60
 			"shield damage" 6000
@@ -1482,7 +1494,7 @@ ship "ZN-7681 Eaxes"
 		"tactical scan power" 5000
 		"asteroid scan power" 10000
 		"spinal mount" 1
-		"force protection" 70
+		"force protection" 78
 		weapon
 			"blast radius" 800
 			"shield damage" 80000
@@ -1594,6 +1606,7 @@ ship "Balzita"
 		"radar jamming" 10
 		"unremovable" -1
 		"uninstallable" 1
+		"force protection" 90
 		weapon
 			"blast radius" 200
 			"shield damage" 20000
@@ -1640,6 +1653,7 @@ ship "AF-18 Zyon"
 		"radar jamming" .9
 		"energy capacity" 2200
 		"energy generation" 30
+		"force protection" 6
 		weapon
 			"blast radius" 40
 			"shield damage" 400
@@ -1688,6 +1702,7 @@ ship "AF-18 Zyon" "Interceptor Zyon"
 		"radar jamming" .9
 		"energy capacity" 2200
 		"energy generation" 30
+		"force protection" 6
 		weapon
 			"blast radius" 40
 			"shield damage" 400
