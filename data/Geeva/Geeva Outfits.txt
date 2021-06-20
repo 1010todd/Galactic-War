@@ -239,7 +239,7 @@ outfit "Vytorn-01 Homing Beam" #R1 Homing Beam
 		"shield damage" 1
 		"hull damage" .5
 		"slowing damage" .02
-	description "."
+	description "Homing beam weapon used by Geeva."
 	
 effect "homing beam trail"
 	sprite "projectile/homing beam"
@@ -268,7 +268,7 @@ outfit "Palir-06 Shield Generator" #R6
 	"shield generation" 1.3
 	"shield energy" 1
 	"shield heat" 1.2
-	description ""
+	description "Geeva shield generator"
 	
 outfit "Palir-07 Shield Generator" #R7
 	category "Systems"
@@ -279,7 +279,7 @@ outfit "Palir-07 Shield Generator" #R7
 	"shield generation" 2
 	"shield energy" 1.5
 	"shield heat" 1.1
-	description ""
+	description "Geeva improved shield generator"
 	
 outfit "Aiple-05 Batteries" #R5 Micro
 	category "Power"
@@ -315,16 +315,17 @@ outfit "Cirpa-06 Cooling Device" #R6
 	"mass" 10
 	"outfit space" -10
 	"cooling" 27
-	description "."
+	description "Geeva passive cooling system."
 	
 outfit "Cirpa-07 Cooling Device" 
 	category "Systems"
-	cost 48000
+	cost 50000
 	thumbnail "outfit/water cooling"
 	"mass" 30
 	"outfit space" -30
-	"cooling" 88
-	description "."
+	"cooling" 60
+	"heat protection" 2
+	description "Geeva passive cooling system."
 
 outfit "Gialor-06 Cooling Device" #R7
 	category "Systems"
@@ -335,7 +336,7 @@ outfit "Gialor-06 Cooling Device" #R7
 	"active cooling" 56
 	"cooling energy" 10
 	"cooling" 20
-	description "."
+	description "Geeva active cooling system."
 	
 outfit "Niturlo-06 Reactor" #R6 Micro Fusion
 	category "Power"
@@ -345,7 +346,7 @@ outfit "Niturlo-06 Reactor" #R6 Micro Fusion
 	"outfit space" -35
 	"energy generation" 6.8
 	"heat generation" 10.2
-	description "."
+	description "Geeva small reactor."
 	
 outfit "Turlo-06 Reactor" #R6 Fusion
 	category "Power"
@@ -355,7 +356,7 @@ outfit "Turlo-06 Reactor" #R6 Fusion
 	"outfit space" -78
 	"energy generation" 8.6
 	"heat generation" 30
-	description ""
+	description "Geeva reactor."
 	
 outfit "Solter-01 Reactor" #R1 Sun
 	category "Power"
@@ -630,13 +631,13 @@ effect "hpdl laser"
 	"velocity scale" 1
 	
 effect "blast pulse"
-	sprite "effect/blast pulse"
-		"no repeat"
-		"frame rate" 2
+	sprite "effect/huge spark"
+		"start frame" 1
+		"frame rate" 0
 	"lifetime" 61
 	"random angle" 360
 	"random spin" 10
-	"velocity scale" .00001
+	"velocity scale" .001
 	
 outfit "Kielir-06 Jammer"
 	category "Systems"
@@ -665,7 +666,7 @@ outfit "Welt-03 Ramscoop" #R2
 	"mass" 8
 	"outfit space" -8
 	"ramscoop" 4
-	description ""
+	description "Efficient ramscoop used by Geeva during the early expansion."
 	
 outfit "Silr-02 Hyperdrive"
 	category "Systems"
@@ -697,7 +698,7 @@ outfit "Unvrsel-02 Star Drive"
 	"jump speed" .1
 	"jump drive" 1
 	"hyperdrive" 1
-	description ""
+	description "A Geeva FTL drive that also allows ships to travel outside of hyperlanes."
 	
 outfit "Calirtei Survey System"
 	category "Systems"
@@ -766,7 +767,7 @@ outfit "Geeva Sword"
 outfit "Hidden Sentry"
 	category "Hand to Hand"
 	cost 78000
-	thumbnail "outfit/hidden sentry"
+	#thumbnail "outfit/hidden sentry"
 	"mass" 1
 	"outfit space" -1
 	"capture defense" 7
