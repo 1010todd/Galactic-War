@@ -13,18 +13,18 @@ ship "Genterrac"
 	attributes
 		category "Transport"
 		"cost" 730000
-		"shields" 1300
-		"hull" 860
+		"shields" 720
+		"hull" 670
 		"required crew" 2
 		"bunks" 12
 		"mass" 80
 		"drag" 5.6
 		"heat dissipation" .8
 		"fuel capacity" 300
-		"cargo space" 150
-		"outfit space" 250
-		"weapon capacity" 80
-		"engine capacity" 70
+		"cargo space" 30
+		"outfit space" 145
+		"weapon capacity" 20
+		"engine capacity" 62
 		weapon
 			"blast radius" 40
 			"shield damage" 400
@@ -37,8 +37,8 @@ ship "Genterrac"
 		"H-1AE Battery Array"
 		"P2a Shield Generator"
 		
-		"Eseyar Ion Thruster"
-		"Esinkan Ion Steering"
+		"Eseyar Ion Thruster" 2
+		"Esinkan Ion Steering" 2
 		"Hyperdrive"
 		
 	turret 0 20
@@ -128,7 +128,7 @@ ship "Dauren"
 		"P2a Shield Generator"
 		
 		"Eseyar Ion Thruster" 2
-		"Esinkan Ion Steering" 2
+		"Esinkan Ion Steering" 3
 		"Hyperdrive"
 		
 	engine -9 97
@@ -140,7 +140,7 @@ ship "Dauren"
 	explode "small explosion" 30
 	explode "medium explosion" 20
 	"final explode" "final explosion small"
-	description ""
+	description "Erader Freighter maufactured by Darua."
 
 ship "Raular"
 	sprite "ship/erader raular"
@@ -151,14 +151,14 @@ ship "Raular"
 		"hull" 750
 		"required crew" 2
 		"bunks" 3
-		"mass" 120
+		"mass" 60
 		"drag" 5.6
 		"heat dissipation" .7
 		"fuel capacity" 300
 		"cargo space" 50
-		"outfit space" 250
+		"outfit space" 130
 		"weapon capacity" 20
-		"engine capacity" 40
+		"engine capacity" 50
 		weapon
 			"blast radius" 40
 			"shield damage" 400
@@ -172,7 +172,7 @@ ship "Raular"
 		"P2a Shield Generator"
 		
 		"Eseyar Ion Thruster"
-		"Esinkan Ion Steering"
+		"Esinkan Ion Steering" 2
 		"Hyperdrive"
 		
 	turret 0 -3.5
@@ -192,22 +192,22 @@ ship "Raular"
 #======================[Interceptor]========================
 ship "Kelranter"
 	sprite "ship/erader kelranter"
-	thumbnail "ship/erader kelranter thumb"
+	thumbnail "thumbnail/erader kelranter thumb"
 	attributes
 		category "Interceptor"
-		"cost" 200000
-		"shields" 1200
-		"hull" 600
+		"cost" 150000
+		"shields" 800
+		"hull" 500
 		"required crew" 1
 		"bunks" 1
 		"mass" 80
 		"drag" 5.6
-		"heat dissipation" .7
+		"heat dissipation" .9
 		"fuel capacity" 300
 		"cargo space" 40
-		"outfit space" 250
-		"weapon capacity" 30
-		"engine capacity" 50
+		"outfit space" 148
+		"weapon capacity" 24
+		"engine capacity" 55
 		weapon
 			"blast radius" 40
 			"shield damage" 400
@@ -221,8 +221,8 @@ ship "Kelranter"
 		"H-1AE Battery Array"
 		"P2a Shield Generator"
 		
-		"Eseyar Ion Thruster"
-		"Esinkan Ion Steering"
+		"Eseyar Ion Thruster" 2
+		"Esinkan Ion Steering" 2
 		"Hyperdrive"
 		
 	gun 0 -29
@@ -283,12 +283,12 @@ ship "Kemvanh"
 		"bunks" 12
 		"mass" 160
 		"drag" 4
-		"heat dissipation" .8
+		"heat dissipation" .7
 		"fuel capacity" 400
 		"cargo space" 10
 		"outfit space" 360
-		"weapon capacity" 155
-		"engine capacity" 70
+		"weapon capacity" 135
+		"engine capacity" 80
 		weapon
 			"blast radius" 40
 			"shield damage" 400
@@ -301,7 +301,7 @@ ship "Kemvanh"
 		"Aserap Ammo" 4000
 		"Rudarel CIWS" 2
 		
-		"Va1-I Radiothermal" 2
+		"E6-V Generator"
 		"H-2AE Battery Array"
 		"P6a Shield Generator"
 		"Cooling Ducts"

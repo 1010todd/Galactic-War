@@ -13,9 +13,9 @@ ship "Azelpur"
 		"heat dissipation" .8
 		"fuel capacity" 400
 		"cargo space" 10
-		"outfit space" 360
-		"weapon capacity" 40
-		"engine capacity" 70
+		"outfit space" 190
+		"weapon capacity" 30
+		"engine capacity" 80
 		weapon
 			"blast radius" 40
 			"shield damage" 400
@@ -93,8 +93,8 @@ ship "Sorgeldaz"
 		"heat dissipation" .6
 		"fuel capacity" 400
 		"cargo space" 460
-		"outfit space" 360
-		"weapon capacity" 130
+		"outfit space" 440
+		"weapon capacity" 150
 		"engine capacity" 120
 		weapon
 			"blast radius" 40
@@ -108,7 +108,7 @@ ship "Sorgeldaz"
 		"Aserap Ammo" 2000
 		"Rudarel CIWS" 3
 		
-		"E6-V Generator"
+		"E6-V Generator" 2
 		"H-2AE Battery Array"
 		"P6a Shield Generator"
 		"Cooling Ducts"
@@ -190,9 +190,9 @@ ship "Ertezkaral"
 		"heat dissipation" .75
 		"fuel capacity" 500
 		"cargo space" 10
-		"outfit space" 360
+		"outfit space" 420
 		"weapon capacity" 170
-		"engine capacity" 85
+		"engine capacity" 110
 		weapon
 			"blast radius" 40
 			"shield damage" 400
@@ -210,6 +210,7 @@ ship "Ertezkaral"
 		
 		"Gerneil Plasma Thruster"
 		"Ginskel Plasma Steering"
+		"Esinkan Ion Steering"
 		"Hyperdrive"
 		
 	gun -21 -98.5
@@ -323,9 +324,9 @@ ship "Vardarkin"
 		"heat dissipation" .6
 		"fuel capacity" 500
 		"cargo space" 30
-		"outfit space" 740
-		"weapon capacity" 280
-		"engine capacity" 170
+		"outfit space" 920
+		"weapon capacity" 310
+		"engine capacity" 190
 		weapon
 			"blast radius" 40
 			"shield damage" 400
@@ -338,10 +339,10 @@ ship "Vardarkin"
 		"Yeutark Turret" 2
 		"Yeutark Shell" 40
 		
-		"E6-H Generator" 2
+		"E6-H Generator" 3
 		"H-A0E Battery Array"
 		"P6a Shield Generator" 2
-		"Cooling Ducts"
+		"Liquid Nitrogen Cooler"
 		
 		"Kenlark-G2 Atomic Thruster"
 		"Kenlark-c2 Atomic Steering"

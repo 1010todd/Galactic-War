@@ -31,7 +31,7 @@ outfit "Aserap Autocannon"
 		sprite "projectile/aserap bullet"
 			"random start frame"
 			"frame rate" 0
-		sound "tiny explosion"
+		sound "gw gun1"
 		"hit effect" "tiny explosion"
 		"ammo" "Aserap Ammo"
 		"inaccuracy" 1
@@ -139,7 +139,7 @@ outfit "Aserap Turret"
 		sprite "projectile/aserap bullet"
 			"random start frame"
 			"frame rate" 0
-		sound "tiny explosion"
+		sound "gw gun1"
 		"hit effect" "tiny explosion"
 		"ammo" "Aserap Ammo"
 		"turret turn" 5
@@ -188,7 +188,7 @@ outfit "Yeutark Turret"
 		sound "zaikor"
 		"hardpoint sprite" "hardpoint/yeutark turret hp"
 		"hardpoint offset" 8.
-		"hit effect" "beam laser impact"
+		"hit effect" "medium explosion"
 		"fire effect" "small explosion"
 		"ammo" "Yeutark Shell"
 		"inaccuracy" 1
@@ -378,7 +378,7 @@ outfit "Esinkan Ion Steering"
 	"mass" 10
 	"outfit space" -10
 	"engine capacity" -10
-	"turn" 150
+	"turn" 155
 	"turning energy" .3
 	"turning heat" .3
 	"steering flare sprite" "effect/ion flare/tiny"
