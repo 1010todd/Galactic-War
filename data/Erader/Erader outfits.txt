@@ -228,6 +228,27 @@ outfit "Rudarel CIWS"
 		"firing heat" 5
 	description ""
 
+#==============================Systems===================
+outfit "P2a Shield Generator"
+	category "Systems"
+	cost 15000
+	thumbnail "outfit/erader shield tiny"
+	"mass" 12
+	"outfit space" -12
+	"shield generation" .13
+	"shield energy" .13
+	description "Erader tiny shield generator."
+
+outfit "P6a Shield Generator"
+	category "Systems"
+	cost 60000
+	thumbnail "outfit/erader shield medium"
+	"mass" 34
+	"outfit space" -34
+	"shield generation" .5
+	"shield energy" .5
+	description "Erader medium shield generator."
+
 #==============================Power=====================
 
 outfit "E6-H Generator"
