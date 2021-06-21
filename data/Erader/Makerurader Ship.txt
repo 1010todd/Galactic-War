@@ -201,6 +201,7 @@ ship "Ertezkaral"
 	outfits
 		"Kuakuran Energy Cannon" 6
 		"Aserap Ammo" 6000
+		"Rudarel CIWS" 3
 		
 		"E6-H Generator"
 		"H-5AE Battery Array"
@@ -274,6 +275,38 @@ ship "Ertezkaral"
 	"final explode" "final explosion medium"
 	description "Makerurader Warship"
 
+ship "Ertezkaral" "Ertezkaral (Anti-Fighter)"
+	outfits
+		"Kuakuran Energy Cannon" 6
+		"Aserap Ammo" 10000
+		"Rudarel CIWS" 1
+		"Aserap Turret" 2
+		
+		"E6-H Generator"
+		"H-5AE Battery Array"
+		"D23-QP Shield Generator"
+		"Cooling Ducts"
+		
+		"Gerneil Plasma Thruster"
+		"Ginskel Plasma Steering"
+		"Hyperdrive"
+
+ship "Ertezkaral" "Ertezkaral (Heavy)"
+	outfits
+		"Kuakuran Energy Cannon" 6
+		"Aserap Ammo" 6000
+		"Rudarel CIWS" 2
+		"Yeutark Turret" 1
+		"Yeutark Shell" 20
+		
+		"E6-H Generator"
+		"H-5AE Battery Array"
+		"D23-QP Shield Generator"
+		"Cooling Ducts"
+		
+		"Gerneil Plasma Thruster"
+		"Ginskel Plasma Steering"
+		"Hyperdrive"
 
 ship "Vardarkin"
 	sprite "ship/erader mr vardarkin"

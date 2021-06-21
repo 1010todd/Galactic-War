@@ -249,6 +249,8 @@ system Abartae
 	trade Medical 620
 	trade Metal 241
 	trade Plastic 405
+	fleet "Makerurader Logistic Fleet" 700
+	fleet "Makerurader Battle Fleet" 700
 	object
 		sprite star/g5
 		distance 48.634
@@ -268,20 +270,24 @@ system Abartae
 		period 160.061
 	object
 		sprite planet/desert10
-		distance 774.646
-		period 266.03
+		distance 861.053
+		period 311.76
+		offset 320.127
 	object
 		sprite planet/lava2
-		distance 1075.14
-		period 434.981
+		distance 1161.55
+		period 488.461
+		offset 309.525
 	object
 		sprite planet/gas1
-		distance 1552.23
-		period 754.584
+		distance 1638.64
+		period 818.463
+		offset 127.191
 	object
 		sprite planet/gas7
-		distance 5054.24
-		period 4433.62
+		distance 5140.65
+		period 4547.8
+		offset 6.96385
 		object
 			sprite planet/desert4
 			distance 244
@@ -718,6 +724,9 @@ system Aetrelr
 	trade Medical 558
 	trade Metal 317
 	trade Plastic 468
+	fleet "Darua Navy" 1000
+	fleet "Darua Merchant" 600
+	fleet Ignaggen 800
 	object
 		sprite star/m8
 		period 10
@@ -3256,6 +3265,9 @@ system Akulera
 	trade Medical 621
 	trade Metal 274
 	trade Plastic 464
+	fleet "Makerurader Battle Fleet" 1000
+	fleet "Makerurader Mining Fleet" 1100
+	fleet "Makerurader Logistic Fleet" 600
 	object
 		sprite star/m4
 		period 10
@@ -3263,7 +3275,7 @@ system Akulera
 		sprite planet/rock5
 		distance 146.49
 		period 46.4337
-	object
+	object Pysrennarz
 		sprite planet/mars
 		distance 346.98
 		period 169.269
@@ -3753,6 +3765,7 @@ system Ampoore
 	trade Medical 620
 	trade Metal 241
 	trade Plastic 405
+	fleet "Makerurader Battle Fleet" 1200
 	object
 		sprite star/g5
 		period 10
@@ -4018,6 +4031,7 @@ system Apurtak
 	trade Metal 357
 	trade Plastic 434
 	fleet "Kakaima Defense" 600
+	fleet "Makerurader Battle Fleet" 1200
 	object
 		sprite star/g0
 		period 10
@@ -4441,6 +4455,8 @@ system Argornecai
 	trade Medical 493
 	trade Metal 508
 	trade Plastic 434
+	fleet "Darua Navy" 1200
+	fleet "Darua Merchant" 600
 	object
 		sprite star/m0
 		period 10
@@ -4628,6 +4644,7 @@ system Arleogen
 	trade Medical 588
 	trade Metal 557
 	trade Plastic 387
+	fleet "Darua Navy" 1000
 	object
 		sprite star/f5
 		period 10
@@ -5282,6 +5299,9 @@ system Asmalra
 	trade Medical 621
 	trade Metal 274
 	trade Plastic 464
+	fleet "Makerurader Battle Fleet" 1000
+	fleet "Makerurader Mining Fleet" 1100
+	fleet "Makerurader Logistic Fleet" 600
 	object
 		sprite star/k5
 		period 10
@@ -5337,6 +5357,9 @@ system Asturil
 	trade Medical 621
 	trade Metal 274
 	trade Plastic 464
+	fleet "Makerurader Battle Fleet" 1000
+	fleet "Makerurader Mining Fleet" 1100
+	fleet "Makerurader Logistic Fleet" 700
 	object
 		sprite star/g5
 		period 10
@@ -5457,6 +5480,7 @@ system Atorka
 	trade Medical 556
 	trade Metal 243
 	trade Plastic 292
+	fleet "Darua Navy" 1000
 	object
 		sprite star/g0
 		distance 34.5053
@@ -5519,6 +5543,8 @@ system Atorma
 	trade Medical 588
 	trade Metal 557
 	trade Plastic 387
+	fleet "Darua Navy" 1000
+	fleet "Darua Merchant" 600
 	object
 		sprite star/g5
 		distance 45.5299
@@ -5777,6 +5803,9 @@ system Aulakura
 	trade Medical 621
 	trade Metal 274
 	trade Plastic 464
+	fleet "Makerurader Battle Fleet" 1000
+	fleet "Makerurader Mining Fleet" 1200
+	fleet "Makerurader Logistic Fleet" 700
 	object
 		sprite star/k0
 		period 10
@@ -6052,6 +6081,7 @@ system Badarvi
 	trade Medical 620
 	trade Metal 241
 	trade Plastic 405
+	fleet "Makerurader Battle Fleet" 800
 	object
 		sprite star/k0
 		period 10
@@ -6166,6 +6196,7 @@ system Bamussor
 	trade Metal 342
 	trade Plastic 312
 	fleet Ignaggen 700
+	fleet "Kager Ignaggen" 1400
 	object
 		sprite star/a5
 		distance 7.09774
@@ -6380,6 +6411,9 @@ system Basksrek
 	trade Medical 621
 	trade Metal 274
 	trade Plastic 464
+	fleet "Makerurader Battle Fleet" 1000
+	fleet "Makerurader Mining Fleet" 1000
+	fleet "Makerurader Logistic Fleet" 600
 	object
 		sprite star/g0
 		distance 38.8563
@@ -6405,7 +6439,7 @@ system Basksrek
 			sprite planet/dust4
 			distance 151
 			period 23.3253
-	object
+	object Etzlanvar
 		sprite planet/rock9
 		distance 1474.41
 		period 548.437
@@ -6451,6 +6485,9 @@ system Basmakel
 	trade Medical 621
 	trade Metal 274
 	trade Plastic 464
+	fleet "Makerurader Battle Fleet" 800
+	fleet "Makerurader Mining Fleet" 1200
+	fleet "Makerurader Logistic Fleet" 600
 	object
 		sprite star/k5
 		period 10
@@ -6458,18 +6495,20 @@ system Basmakel
 		sprite planet/lava7
 		distance 228.04
 		period 66.744
-	object
+	object Misrzinal
 		sprite planet/cloud3
-		distance 589.8
-		period 277.622
+		distance 629.564
+		period 306.165
+		offset 11.8887
 		object
 			sprite planet/ice8
 			distance 157
 			period 21.6313
 	object
 		sprite planet/gas13
-		distance 1755.09
-		period 1425.1
+		distance 1794.85
+		period 1473.8
+		offset 27.4641
 		object
 			sprite planet/dust5
 			distance 267
@@ -6688,6 +6727,9 @@ system Bavarsek
 	trade Medical 621
 	trade Metal 274
 	trade Plastic 464
+	fleet "Makerurader Battle Fleet" 1200
+	fleet "Makerurader Mining Fleet" 1300
+	fleet "Makerurader Logistic Fleet" 700
 	object
 		sprite star/g5
 		period 10
@@ -7833,6 +7875,7 @@ system Bshiha
 	trade Medical 620
 	trade Metal 241
 	trade Plastic 405
+	fleet "Makerurader Battle Fleet" 800
 	object
 		sprite star/k0
 		distance 44.3375
@@ -7963,6 +8006,7 @@ system Bsikor
 	trade Medical 620
 	trade Metal 241
 	trade Plastic 405
+	fleet "Makerurader Battle Fleet" 2200
 	object
 		sprite star/k5
 		period 10
@@ -8020,25 +8064,30 @@ system Bukalrel
 	trade Medical 621
 	trade Metal 274
 	trade Plastic 464
+	fleet "Makerurader Battle Fleet" 1400
+	fleet "Makerurader Logistic Fleet" 600
 	object
 		sprite star/m0
 		period 10
-	object
+	object Varuxilna
 		sprite planet/desert1
 		distance 236.56
 		period 81.3574
-	object
+	object Aslnakan
 		sprite planet/rock10
-		distance 504.57
-		period 253.435
+		distance 501.765
+		period 251.325
+		offset 312.546
 	object
 		sprite planet/gas8
-		distance 1205.82
-		period 936.286
+		distance 1203.01
+		period 933.021
+		offset 354.703
 	object
 		sprite planet/gas17
-		distance 2206.38
-		period 2317.42
+		distance 2203.57
+		period 2313.01
+		offset 358.833
 		object
 			sprite planet/rock0
 			distance 205
@@ -8388,6 +8437,7 @@ system Bushoni
 	trade Medical 495
 	trade Metal 321
 	trade Plastic 321
+	fleet "Darua Merchant" 800
 	object
 		sprite star/g5
 		period 10
@@ -8446,6 +8496,9 @@ system Busirvek
 	trade Medical 511
 	trade Metal 550
 	trade Plastic 275
+	fleet "Darua Navy" 1000
+	fleet "Darua Miner" 1200
+	fleet "Darua Merchant" 600
 	object
 		sprite star/g0
 		period 10
@@ -10719,6 +10772,7 @@ system Dakmorda
 	trade Metal 376
 	trade Plastic 488
 	fleet "Kakaima Defense" 800
+	fleet "Makerurader Battle Fleet" 1200
 	object
 		sprite star/g0
 		distance 29.2571
@@ -13760,6 +13814,7 @@ system Dishavor
 	trade Medical 620
 	trade Metal 241
 	trade Plastic 405
+	fleet "Makerurader Battle Fleet" 600
 	object
 		sprite star/k0
 		period 10
@@ -14340,6 +14395,7 @@ system Dorvulmer
 	trade Metal 351
 	trade Plastic 359
 	fleet Ignaggen 700
+	fleet "Kager Ignaggen" 1200
 	object
 		sprite star/k5
 		period 10
@@ -15604,6 +15660,8 @@ system Durkanda
 	trade Medical 503
 	trade Metal 504
 	trade Plastic 260
+	fleet "Darua Navy" 1000
+	fleet "Darua Merchant" 800
 	object
 		sprite star/a5
 		distance 19.3208
@@ -16513,6 +16571,9 @@ system Easterla
 	trade Medical 537
 	trade Metal 301
 	trade Plastic 489
+	fleet "Darua Navy" 1000
+	fleet "Darua Merchant" 600
+	fleet Ignaggen 1200
 	object
 		sprite star/g0
 		distance 12.1111
@@ -16531,25 +16592,29 @@ system Easterla
 			distance 161
 			period 26.2027
 	object
-		sprite planet/forest6
-		distance 766.419
-		period 243.484
-	object
+		sprite planet/ice2
+		distance 772.419
+		period 246.349
+		offset 37.7915
+	object Telkennas
 		sprite planet/ocean6
-		distance 1047.26
-		period 388.913
-	object
+		distance 1058.01
+		period 394.917
+		offset 29.8123
+	object Lertanukel
 		sprite planet/gas17
-		distance 1449.95
-		period 633.579
+		distance 1460.7
+		period 640.639
+		offset 13.3494
 		object
 			sprite planet/dust1
 			distance 208
 			period 12.8165
 	object
 		sprite planet/rhea
-		distance 1977.91
-		period 1009.44
+		distance 1988.66
+		period 1017.68
+		offset 6.15806
 
 system Edarmido
 	pos -50790.7 -55617.6
@@ -16703,7 +16768,8 @@ system "Eevil Or"
 	trade Metal 432
 	trade Plastic 378
 	fleet Ignaggen 700
-	fleet "Dels Central Merchant" 700
+	fleet "Darua Merchant" 1500
+	fleet "Kager Ignaggen" 1000
 	object
 		sprite star/m4
 		period 10
@@ -17404,6 +17470,9 @@ system Ekiltador
 	trade Medical 511
 	trade Metal 550
 	trade Plastic 275
+	fleet "Darua Navy" 800
+	fleet "Darua Miner" 1200
+	fleet "Darua Merchant" 800
 	object
 		sprite star/m0
 		period 10
@@ -17523,6 +17592,8 @@ system Elbasor
 	trade Medical 507
 	trade Metal 531
 	trade Plastic 258
+	fleet "Darua Navy" 1000
+	fleet "Darua Merchant" 600
 	object
 		sprite star/g5
 		period 10
@@ -18463,6 +18534,7 @@ system Eraku
 	trade Medical 559
 	trade Metal 262
 	trade Plastic 306
+	fleet "Darua Navy" 1000
 	object
 		sprite star/k0
 		period 10
@@ -19632,6 +19704,8 @@ system Eullagora
 	trade Medical 844
 	trade Metal 329
 	trade Plastic 433
+	fleet Ignaggen 800
+	fleet "Kager Ignaggen" 1200
 	object
 		sprite star/k0
 		period 10
@@ -23547,6 +23621,7 @@ system Gelgolunel
 	trade Plastic 320
 	fleet Ignaggen 700
 	fleet "Kager Ignaggen" 1000
+	fleet "Darua Merchant" 800
 	object
 		sprite star/k5
 		period 10
@@ -24115,6 +24190,7 @@ system Gerrani
 	trade Metal 463
 	trade Plastic 397
 	fleet Ignaggen 700
+	fleet "Kager Ignaggen" 1200
 	object
 		sprite star/m8
 		period 10
@@ -24276,6 +24352,8 @@ system Gievelorre
 	trade Medical 850
 	trade Metal 511
 	trade Plastic 290
+	fleet Ignaggen 800
+	fleet "Kager Ignaggen" 1000
 	object
 		sprite star/k0
 		period 10
@@ -24473,6 +24551,7 @@ system Gikorekken
 	trade Medical 711
 	trade Metal 547
 	trade Plastic 308
+	fleet Ignaggen 800
 	object
 		sprite star/k5
 		period 10
@@ -24915,6 +24994,8 @@ system Gioelevel
 	trade Metal 524
 	trade Plastic 386
 	fleet Ignaggen 700
+	fleet "Darua Merchant" 1800
+	fleet "Kager Ignaggen" 1200
 	object
 		sprite star/f5
 		distance 9.26757
@@ -26852,6 +26933,7 @@ system Gullairo
 	trade Metal 329
 	trade Plastic 433
 	fleet Ignaggen 700
+	fleet "Kager Ignaggen" 1400
 	object
 		sprite star/k0
 		distance 42.0489
@@ -27506,6 +27588,8 @@ system Hadura
 	trade Medical 620
 	trade Metal 241
 	trade Plastic 405
+	fleet "Makerurader Logistic Fleet" 700
+	fleet "Makerurader Battle Fleet" 700
 	object
 		sprite star/m0
 		period 10
@@ -28128,6 +28212,7 @@ system Haperwagan
 	trade Medical 511
 	trade Metal 550
 	trade Plastic 275
+	fleet "Darua Navy" 800
 	object
 		sprite star/m8
 		period 10
@@ -29249,6 +29334,7 @@ system Houtar
 	trade Medical 829
 	trade Metal 506
 	trade Plastic 500
+	fleet "Darua Merchant" 800
 	object
 		sprite star/g0
 		period 10
@@ -31081,6 +31167,7 @@ system Ikashiva
 	trade Medical 530
 	trade Metal 386
 	trade Plastic 509
+	fleet "Darua Merchant" 800
 	object
 		sprite star/k5
 		period 10
@@ -31090,20 +31177,24 @@ system Ikashiva
 		period 27.6218
 	object
 		sprite planet/rock14
-		distance 291.08
-		period 96.2531
+		distance 367.777
+		period 136.701
+		offset 101.814
 	object
 		sprite planet/uranus
-		distance 720.64
-		period 374.95
+		distance 797.337
+		period 436.374
+		offset 142.96
 	object
 		sprite planet/jupiter
-		distance 1478.45
-		period 1101.81
+		distance 1555.15
+		period 1188.65
+		offset 25.2513
 	object
 		sprite planet/neptune
-		distance 1957.86
-		period 1679.07
+		distance 2034.56
+		period 1778.69
+		offset 12.7036
 		object
 			sprite planet/europa
 			distance 201
@@ -31136,6 +31227,8 @@ system Ikesylr
 	trade Medical 621
 	trade Metal 274
 	trade Plastic 464
+	fleet "Makerurader Battle Fleet" 1000
+	fleet "Makerurader Logistic Fleet" 600
 	object
 		sprite star/g5
 		distance 35.5556
@@ -31459,6 +31552,8 @@ system Iksarvan
 	trade Medical 621
 	trade Metal 274
 	trade Plastic 464
+	fleet "Makerurader Battle Fleet" 1000
+	fleet "Makerurader Logistic Fleet" 600
 	object
 		sprite star/g5
 		period 10
@@ -32075,6 +32170,8 @@ system Ilseykar
 	trade Medical 621
 	trade Metal 274
 	trade Plastic 464
+	fleet "Makerurader Battle Fleet" 1200
+	fleet "Makerurader Logistic Fleet" 700
 	object
 		sprite star/g0
 		period 10
@@ -32230,6 +32327,8 @@ system Immoraal
 	trade Medical 537
 	trade Metal 228
 	trade Plastic 451
+	fleet "Darua Navy" 800
+	fleet "Darua Merchant" 800
 	object
 		sprite star/m4
 		distance 41.5
@@ -33172,6 +33271,8 @@ system Iskelba
 	trade Medical 621
 	trade Metal 274
 	trade Plastic 464
+	fleet "Makerurader Battle Fleet" 1400
+	fleet "Makerurader Logistic Fleet" 600
 	object
 		sprite star/g5
 		distance 46.6075
@@ -33755,6 +33856,9 @@ system Ivgarret
 	trade Medical 554
 	trade Metal 422
 	trade Plastic 477
+	fleet Ignaggen 700
+	fleet "Kager Ignaggen" 1400
+	fleet "Ignaggen Miner" 1200
 	object
 		sprite star/k5
 		period 10
@@ -35561,6 +35665,7 @@ system Kaishide
 	trade Medical 671
 	trade Metal 532
 	trade Plastic 515
+	fleet "Darua Merchant" 1200
 	object
 		sprite star/m4
 		period 10
@@ -36168,6 +36273,7 @@ system Kandhari
 	trade Medical 620
 	trade Metal 241
 	trade Plastic 405
+	fleet "Makerurader Battle Fleet" 800
 	object
 		sprite star/k5
 		distance 39.897
@@ -36927,6 +37033,9 @@ system Kasuzete
 	trade Medical 621
 	trade Metal 274
 	trade Plastic 464
+	fleet "Makerurader Battle Fleet" 1200
+	fleet "Makerurader Mining Fleet" 1300
+	fleet "Makerurader Logistic Fleet" 700
 	object
 		sprite star/k5
 		period 10
@@ -38408,6 +38517,7 @@ system Keldmen
 	trade Medical 564
 	trade Metal 237
 	trade Plastic 295
+	fleet "Darua Navy" 1200
 	object
 		sprite star/g5
 		period 10
@@ -39113,6 +39223,7 @@ system Kelruro
 	trade Medical 489
 	trade Metal 306
 	trade Plastic 322
+	fleet "Darua Navy" 1000
 	object
 		sprite star/k0
 		distance 53.6717
@@ -39599,6 +39710,8 @@ system Kerbukcamori
 	trade Medical 510
 	trade Metal 452
 	trade Plastic 309
+	fleet "Darua Navy" 1200
+	fleet "Darua Merchant" 800
 	object
 		sprite star/g5
 		distance 34.8783
@@ -40061,6 +40174,8 @@ system Kesulkan
 	trade Medical 621
 	trade Metal 274
 	trade Plastic 464
+	fleet "Makerurader Battle Fleet" 600
+	fleet "Makerurader Logistic Fleet" 600
 	object
 		sprite star/k5
 		period 10
@@ -40436,6 +40551,9 @@ system Keutazran
 	trade Medical 621
 	trade Metal 274
 	trade Plastic 464
+	fleet "Makerurader Battle Fleet" 1000
+	fleet "Makerurader Mining Fleet" 1600
+	fleet "Makerurader Logistic Fleet" 700
 	object
 		sprite star/f5
 		distance 45.9821
@@ -40843,6 +40961,8 @@ system Kiazonre
 	trade Medical 621
 	trade Metal 274
 	trade Plastic 464
+	fleet "Makerurader Battle Fleet" 1400
+	fleet "Makerurader Logistic Fleet" 700
 	object
 		sprite star/g0
 		period 10
@@ -41554,6 +41674,9 @@ system Kiralukr
 	trade Medical 621
 	trade Metal 274
 	trade Plastic 464
+	fleet "Makerurader Battle Fleet" 800
+	fleet "Makerurader Mining Fleet" 1400
+	fleet "Makerurader Logistic Fleet" 600
 	object
 		sprite star/g0
 		distance 21.0286
@@ -41579,7 +41702,7 @@ system Kiralukr
 			sprite planet/rock17
 			distance 127
 			period 18.3575
-	object
+	object Zuriluxan
 		sprite planet/dust1
 		distance 1345.16
 		period 527.421
@@ -47235,6 +47358,8 @@ system Kortenler
 	trade Medical 511
 	trade Metal 550
 	trade Plastic 275
+	fleet "Darua Navy" 1200
+	fleet "Darua Merchant" 700
 	object
 		sprite star/k0
 		period 10
@@ -47242,7 +47367,7 @@ system Kortenler
 		sprite planet/rock15
 		distance 133.41
 		period 27.9396
-	object
+	object Siyernal
 		sprite planet/ice3
 		distance 444.41
 		period 169.869
@@ -47358,6 +47483,7 @@ system Kosidate
 	trade Medical 702
 	trade Metal 553
 	trade Plastic 513
+	fleet "Darua Merchant" 800
 	object
 		sprite star/k5
 		period 10
@@ -48689,6 +48815,7 @@ system Kulaso
 	trade Medical 556
 	trade Metal 243
 	trade Plastic 292
+	fleet "Darua Navy" 1200
 	object
 		sprite star/g0
 		period 10
@@ -50104,6 +50231,7 @@ system Laborai
 	trade Medical 511
 	trade Metal 550
 	trade Plastic 275
+	fleet "Darua Navy" 1000
 	object
 		sprite star/k0
 		period 10
@@ -51471,6 +51599,9 @@ system Lermellan
 	trade Medical 562
 	trade Metal 357
 	trade Plastic 474
+	fleet "Darua Navy" 1200
+	fleet "Darua Merchant" 600
+	fleet Ignaggen 1200
 	object
 		sprite star/m8
 		period 10
@@ -52058,6 +52189,9 @@ system Lierarur
 	trade Medical 621
 	trade Metal 274
 	trade Plastic 464
+	fleet "Makerurader Battle Fleet" 1400
+	fleet "Makerurader Mining Fleet" 1200
+	fleet "Makerurader Logistic Fleet" 600
 	object
 		sprite star/m4
 		period 10
@@ -52479,6 +52613,9 @@ system Likeran
 	trade Medical 621
 	trade Metal 274
 	trade Plastic 464
+	fleet "Makerurader Battle Fleet" 1000
+	fleet "Makerurader Mining Fleet" 1100
+	fleet "Makerurader Logistic Fleet" 700
 	object
 		sprite star/a0
 		period 10
@@ -52550,6 +52687,7 @@ system Likhama
 	trade Metal 357
 	trade Plastic 434
 	fleet "Kakaima Defense" 600
+	fleet "Makerurader Battle Fleet" 1200
 	object
 		sprite star/k5
 		period 10
@@ -56780,6 +56918,9 @@ system Makeldur
 	trade Medical 621
 	trade Metal 274
 	trade Plastic 464
+	fleet "Makerurader Battle Fleet" 1200
+	fleet "Makerurader Mining Fleet" 1200
+	fleet "Makerurader Logistic Fleet" 700
 	object
 		sprite star/k0
 		period 10
@@ -58621,6 +58762,7 @@ system Mashela
 	trade Medical 620
 	trade Metal 241
 	trade Plastic 405
+	fleet "Makerurader Logistic Fleet" 700
 	object
 		sprite star/g5
 		period 10
@@ -58857,6 +58999,7 @@ system Masklela
 	trade Medical 561
 	trade Metal 501
 	trade Plastic 318
+	fleet "Darua Navy" 1000
 	object
 		sprite star/g0
 		distance 47.654
@@ -61440,6 +61583,8 @@ system Mersekkar
 	trade Medical 539
 	trade Metal 343
 	trade Plastic 472
+	fleet "Darua Navy" 1000
+	fleet "Darua Merchant" 600
 	object
 		sprite star/g0
 		period 10
@@ -61686,6 +61831,9 @@ system Mesveren
 	trade Medical 826
 	trade Metal 424
 	trade Plastic 271
+	fleet "Darua Miner" 1400
+	fleet "Darua Navy" 1200
+	fleet "Darua Merchant" 800
 	object
 		sprite star/k0
 		period 10
@@ -61825,6 +61973,8 @@ system Mettelen
 	trade Medical 496
 	trade Metal 532
 	trade Plastic 290
+	fleet "Darua Navy" 1200
+	fleet "Darua Miner" 1400
 	object
 		sprite star/g0
 		period 10
@@ -62526,6 +62676,8 @@ system Mirgel
 	trade Medical 617
 	trade Metal 225
 	trade Plastic 307
+	fleet "Darua Navy" 1400
+	fleet "Darua Miner" 1400
 	object
 		sprite star/k5
 		distance 50
@@ -62589,6 +62741,7 @@ system Mirregen
 	trade Metal 489
 	trade Plastic 314
 	fleet Ignaggen 700
+	fleet "Kager Ignaggen" 1000
 	object
 		sprite star/g0
 		period 10
@@ -62635,6 +62788,7 @@ system Miscorvel
 	trade Medical 537
 	trade Metal 228
 	trade Plastic 451
+	fleet "Darua Navy" 800
 	object
 		sprite star/g5
 		period 10
@@ -62809,6 +62963,7 @@ system Misorqa
 	trade Medical 620
 	trade Metal 241
 	trade Plastic 405
+	fleet "Makerurader Battle Fleet" 600
 	object
 		sprite star/k5
 		period 10
@@ -63151,6 +63306,7 @@ system Mkalkur
 	trade Medical 564
 	trade Metal 237
 	trade Plastic 295
+	fleet "Darua Navy" 1200
 	object
 		sprite star/k0
 		distance 55.5385
@@ -64870,6 +65026,8 @@ system Morsalo
 	trade Medical 669
 	trade Metal 448
 	trade Plastic 290
+	fleet "Darua Navy" 1000
+	fleet "Darua Merchant" 600
 	object
 		sprite star/k5
 		period 10
@@ -64930,6 +65088,8 @@ system Mortarlen
 	trade Medical 507
 	trade Metal 531
 	trade Plastic 258
+	fleet "Darua Navy" 1200
+	fleet "Darua Merchant" 600
 	object
 		sprite star/k5
 		period 10
@@ -65316,6 +65476,8 @@ system Msekivan
 	trade Medical 621
 	trade Metal 274
 	trade Plastic 464
+	fleet "Makerurader Battle Fleet" 800
+	fleet "Makerurader Logistic Fleet" 600
 	object
 		sprite star/k0
 		distance 53.5
@@ -65389,6 +65551,9 @@ system Mteluen
 	trade Medical 562
 	trade Metal 339
 	trade Plastic 476
+	fleet "Darua Navy" 1000
+	fleet "Darua Merchant" 600
+	fleet Ignaggen 800
 	object
 		sprite star/k5
 		period 10
@@ -65771,6 +65936,9 @@ system Muelet
 	trade Medical 545
 	trade Metal 369
 	trade Plastic 405
+	fleet "Darua Navy" 1000
+	fleet "Darua Merchant" 600
+	fleet Ignaggen 800
 	object
 		sprite star/m0
 		distance 37.1035
@@ -66625,6 +66793,7 @@ system Mukuate
 	trade Medical 739
 	trade Metal 513
 	trade Plastic 481
+	fleet "Darua Merchant" 1200
 	object
 		sprite star/m0
 		period 10
@@ -66991,6 +67160,7 @@ system Murasai
 	trade Medical 567
 	trade Metal 415
 	trade Plastic 380
+	fleet "Darua Merchant" 800
 	object
 		sprite star/k0
 		distance 41.0705
@@ -67122,6 +67292,8 @@ system Muselsar
 	trade Medical 564
 	trade Metal 237
 	trade Plastic 295
+	fleet "Darua Navy" 1200
+	fleet "Darua Miner" 1400
 	object
 		sprite star/f5
 		period 10
@@ -67410,6 +67582,9 @@ system Muterkav
 	trade Medical 621
 	trade Metal 274
 	trade Plastic 464
+	fleet "Makerurader Battle Fleet" 1000
+	fleet "Makerurader Mining Fleet" 1200
+	fleet "Makerurader Logistic Fleet" 600
 	object
 		sprite star/g0
 		distance 21.2571
@@ -67569,6 +67744,8 @@ system Muzkalz
 	trade Medical 621
 	trade Metal 274
 	trade Plastic 464
+	fleet "Makerurader Battle Fleet" 1200
+	fleet "Makerurader Logistic Fleet" 700
 	object
 		sprite star/m0
 		period 10
@@ -67783,6 +67960,7 @@ system Mysuken
 	trade Medical 658
 	trade Metal 445
 	trade Plastic 456
+	fleet "Darua Merchant" 800
 	object
 		sprite star/k5
 		period 10
@@ -69364,6 +69542,7 @@ system Negoer
 	trade Metal 561
 	trade Plastic 339
 	fleet Ignaggen 700
+	fleet "Kager Ignaggen" 1000
 	object
 		sprite star/g0
 		distance 28.5659
@@ -69932,6 +70111,8 @@ system Nerkondir
 	trade Medical 511
 	trade Metal 550
 	trade Plastic 275
+	fleet "Darua Navy" 800
+	fleet "Darua Miner" 1600
 	object
 		sprite star/k5
 		period 10
@@ -69987,6 +70168,9 @@ system Nersaer
 	trade Medical 670
 	trade Metal 524
 	trade Plastic 332
+	fleet "Darua Navy" 800
+	fleet "Darua Merchant" 600
+	fleet Ignaggen 800
 	object
 		sprite star/a5
 		distance 4.32143
@@ -70129,6 +70313,7 @@ system Netelra
 	trade Medical 556
 	trade Metal 243
 	trade Plastic 292
+	fleet "Darua Navy" 1200
 	object
 		sprite star/k0
 		period 10
@@ -70811,6 +70996,9 @@ system Niogeornen
 	trade Medical 844
 	trade Metal 329
 	trade Plastic 433
+	fleet Ignaggen 800
+	fleet "Kager Ignaggen" 1800
+	fleet "Ignaggen Miner" 1200
 	object
 		sprite star/k0
 		period 10
@@ -71213,6 +71401,7 @@ system Nordulla
 	trade Plastic 407
 	fleet "Kager Ignaggen" 1000
 	fleet Ignaggen 700
+	fleet "Darua Merchant" 700
 	object
 		sprite star/g0
 		period 10
@@ -71453,6 +71642,8 @@ system Norsicor
 	trade Medical 556
 	trade Metal 411
 	trade Plastic 405
+	fleet "Darua Navy" 1000
+	fleet "Darua Merchant" 700
 	object
 		sprite star/f0
 		period 10
@@ -73276,6 +73467,7 @@ system Oikcager
 	trade Medical 641
 	trade Metal 518
 	trade Plastic 327
+	fleet Ignaggen 1200
 	object
 		sprite star/k0
 		period 10
@@ -74858,6 +75050,9 @@ system Orilegan
 	trade Medical 844
 	trade Metal 329
 	trade Plastic 433
+	fleet Ignaggen 600
+	fleet "Kager Ignaggen" 1200
+	fleet "Ignaggen Miner" 1200
 	object
 		sprite star/m0
 		period 10
@@ -74972,6 +75167,8 @@ system Orregal
 	trade Medical 877
 	trade Metal 469
 	trade Plastic 337
+	fleet Ignaggen 700
+	fleet "Kager Ignaggen" 1000
 	object
 		sprite star/g5
 		period 10
@@ -74979,7 +75176,7 @@ system Orregal
 		sprite planet/desert7
 		distance 233.09
 		period 56.9384
-	object
+	object Gassilga
 		sprite planet/rock2
 		distance 467.3
 		period 161.627
@@ -75425,6 +75622,8 @@ system Peltarven
 	trade Medical 537
 	trade Metal 228
 	trade Plastic 451
+	fleet "Darua Navy" 800
+	fleet "Darua Miner" 1400
 	object
 		sprite star/m8
 		period 10
@@ -78393,6 +78592,9 @@ system Radelur
 	trade Medical 621
 	trade Metal 274
 	trade Plastic 464
+	fleet "Makerurader Battle Fleet" 1000
+	fleet "Makerurader Mining Fleet" 1100
+	fleet "Makerurader Logistic Fleet" 600
 	object
 		sprite star/g5
 		distance 30.7133
@@ -78432,8 +78634,13 @@ system Radelur
 			period 13.6328
 	object
 		sprite planet/gas14
-		distance 3014.64
-		period 2259.95
+		distance 3200.64
+		period 2472.3
+		offset 56.5532
+		object Vannmetsal
+			sprite planet/station4
+			distance 241
+			period 15.2365
 
 system Radger
 	pos -50569.1 -55025.2
@@ -78697,6 +78904,9 @@ system Rakaul
 	trade Medical 621
 	trade Metal 274
 	trade Plastic 464
+	fleet "Makerurader Battle Fleet" 1200
+	fleet "Makerurader Mining Fleet" 1200
+	fleet "Makerurader Logistic Fleet" 700
 	object
 		sprite star/k5
 		distance 19.9761
@@ -78710,7 +78920,7 @@ system Rakaul
 		sprite planet/cloud3
 		distance 302.184
 		period 88.719
-	object
+	object Turzelvar
 		sprite planet/venus
 		distance 598.824
 		period 247.49
@@ -78873,6 +79083,8 @@ system Rasator
 	trade Medical 498
 	trade Metal 548
 	trade Plastic 389
+	fleet "Darua Navy" 1200
+	fleet "Darua Merchant" 600
 	object
 		sprite star/k0
 		distance 35.3052
@@ -78888,28 +79100,32 @@ system Rasator
 		period 42.5696
 	object
 		sprite planet/ice4
-		distance 539.495
-		period 176.478
+		distance 554.217
+		period 183.751
+		offset 92.4145
 		object
 			sprite planet/dust1
 			distance 170
 			period 27.8635
 	object
 		sprite planet/oberon
-		distance 831.455
-		period 337.65
+		distance 846.177
+		period 346.658
+		offset 31.7497
 	object
 		sprite planet/uranus
-		distance 1140.06
-		period 542.13
+		distance 1154.78
+		period 552.662
+		offset 14.5016
 		object
 			sprite planet/tethys
 			distance 193
 			period 11.4554
 	object
 		sprite planet/gas9
-		distance 3900.06
-		period 3430.18
+		distance 3914.78
+		period 3449.62
+		offset 0.677633
 		object
 			sprite planet/ice7
 			distance 246
@@ -79120,6 +79336,8 @@ system Ravsikza
 	trade Medical 621
 	trade Metal 274
 	trade Plastic 464
+	fleet "Makerurader Battle Fleet" 1000
+	fleet "Makerurader Logistic Fleet" 600
 	object
 		sprite star/g5
 		period 10
@@ -80006,6 +80224,8 @@ system Reisarlor
 	trade Medical 541
 	trade Metal 431
 	trade Plastic 489
+	fleet "Darua Navy" 1400
+	fleet "Darua Merchant" 600
 	object
 		sprite star/g5
 		period 10
@@ -80015,24 +80235,28 @@ system Reisarlor
 		period 31.25
 	object
 		sprite planet/dust2
-		distance 355.06
-		period 107.047
+		distance 477.575
+		period 166.987
+		offset 122.032
 	object
 		sprite planet/io
-		distance 888.07
-		period 423.439
+		distance 1010.58
+		period 514.019
+		offset 198.519
 	object
 		sprite planet/cloud0
-		distance 1188.32
-		period 655.421
+		distance 1310.83
+		period 759.35
+		offset 99.6129
 		object
 			sprite planet/rock7
 			distance 152
 			period 23.094
 	object
 		sprite planet/ice0
-		distance 2420.32
-		period 1905.15
+		distance 2542.83
+		period 2051.62
+		offset 17.876
 
 system Reisein
 	pos -44324.6 -58442.2
@@ -81781,6 +82005,7 @@ system Riyismara
 	trade Medical 620
 	trade Metal 241
 	trade Plastic 405
+	fleet "Makerurader Battle Fleet" 800
 	object
 		sprite star/f5
 		period 10
@@ -82310,6 +82535,8 @@ system Roterla
 	trade Medical 586
 	trade Metal 512
 	trade Plastic 378
+	fleet "Darua Navy" 1000
+	fleet "Darua Merchant" 600
 	object
 		sprite star/k5
 		period 10
@@ -82317,7 +82544,7 @@ system Roterla
 		sprite planet/lava2
 		distance 123.96
 		period 26.7497
-	object
+	object Laseran
 		sprite planet/dust6
 		distance 497.05
 		period 214.781
@@ -82752,6 +82979,9 @@ system Rukare
 	trade Medical 621
 	trade Metal 274
 	trade Plastic 464
+	fleet "Makerurader Battle Fleet" 800
+	fleet "Makerurader Mining Fleet" 1000
+	fleet "Makerurader Logistic Fleet" 600
 	object
 		sprite star/k5
 		distance 54
@@ -85049,6 +85279,8 @@ system Salhaner
 	trade Medical 556
 	trade Metal 243
 	trade Plastic 292
+	fleet "Darua Navy" 1200
+	fleet "Darua Miner" 1400
 	object
 		sprite star/k5
 		period 10
@@ -85668,6 +85900,7 @@ system Seilerei
 	trade Medical 536
 	trade Metal 339
 	trade Plastic 326
+	fleet "Darua Merchant" 800
 	object
 		sprite star/f5
 		distance 36.3248
@@ -85745,6 +85978,7 @@ system Seirala
 	trade Medical 620
 	trade Metal 241
 	trade Plastic 405
+	fleet "Makerurader Battle Fleet" 600
 	object
 		sprite star/f5
 		period 10
@@ -85860,6 +86094,9 @@ system Sellorse
 	trade Medical 775
 	trade Metal 371
 	trade Plastic 253
+	fleet "Darua Navy" 1000
+	fleet "Darua Miner" 1400
+	fleet "Darua Merchant" 700
 	object
 		sprite star/k5
 		distance 19.7354
@@ -85873,7 +86110,7 @@ system Sellorse
 		sprite planet/cloud4
 		distance 218.425
 		period 54.5207
-	object
+	object Marelkasan
 		sprite planet/desert1
 		distance 455.425
 		period 164.147
@@ -86180,6 +86417,8 @@ system Serkakel
 	trade Medical 503
 	trade Metal 504
 	trade Plastic 260
+	fleet "Darua Navy" 1000
+	fleet "Darua Merchant" 600
 	object
 		sprite star/g0
 		period 10
@@ -86233,6 +86472,9 @@ system Serlennor
 	trade Medical 774
 	trade Metal 507
 	trade Plastic 310
+	fleet "Darua Navy" 1000
+	fleet "Darua Merchant" 700
+	fleet Ignaggen 800
 	object
 		sprite star/k0
 		distance 46.4125
@@ -86337,6 +86579,7 @@ system Shalteera
 	trade Metal 357
 	trade Plastic 434
 	fleet "Kakaima Defense" 600
+	fleet "Makerurader Battle Fleet" 1200
 	object
 		sprite star/k0
 		period 10
@@ -86802,6 +87045,7 @@ system Sikerel
 	trade Medical 591
 	trade Metal 351
 	trade Plastic 317
+	fleet "Darua Merchant" 800
 	object
 		sprite star/k5
 		period 10
@@ -89833,6 +90077,7 @@ system Tolrevaan
 	trade Medical 583
 	trade Metal 530
 	trade Plastic 359
+	fleet "Darua Navy" 1000
 	object
 		sprite star/m0
 		period 10
@@ -89894,6 +90139,8 @@ system Tormordu
 	trade Medical 620
 	trade Metal 241
 	trade Plastic 405
+	fleet "Makerurader Logistic Fleet" 600
+	fleet "Makerurader Battle Fleet" 600
 	object
 		sprite star/g0
 		period 10
@@ -91779,6 +92026,8 @@ system Ulsenmor
 	trade Medical 567
 	trade Metal 353
 	trade Plastic 424
+	fleet "Darua Navy" 1000
+	fleet "Darua Merchant" 600
 	object
 		sprite star/f5
 		period 10
@@ -92038,6 +92287,7 @@ system Uramase
 	trade Medical 523
 	trade Metal 408
 	trade Plastic 476
+	fleet "Darua Navy" 1000
 	object
 		sprite star/b5
 		distance 6.71819
@@ -92101,6 +92351,7 @@ system Uraten
 	trade Medical 493
 	trade Metal 485
 	trade Plastic 389
+	fleet "Darua Navy" 1000
 	object
 		sprite star/g0
 		period 10
@@ -92224,6 +92475,9 @@ system Urkealkre
 	trade Medical 621
 	trade Metal 274
 	trade Plastic 464
+	fleet "Makerurader Battle Fleet" 1200
+	fleet "Makerurader Mining Fleet" 1600
+	fleet "Makerurader Logistic Fleet" 800
 	object
 		sprite star/g0
 		distance 39.1412
@@ -92556,10 +92810,12 @@ system Urmarse
 	trade Medical 695
 	trade Metal 507
 	trade Plastic 379
+	fleet "Darua Navy" 1000
+	fleet "Darua Merchant" 600
 	object
 		sprite star/m8
 		period 10
-	object
+	object Serelgus
 		sprite planet/desert8
 		distance 160.16
 		period 69.7789
@@ -92677,6 +92933,7 @@ system Uronuar
 	trade Plastic 346
 	fleet Ignaggen 700
 	fleet "Kager Ignaggen" 1000
+	fleet "Darua Merchant" 1000
 	object
 		sprite star/g5
 		period 10
@@ -92684,30 +92941,34 @@ system Uronuar
 		sprite planet/dust5
 		distance 128.25
 		period 23.2384
-	object
+	object Nagelluna
 		sprite planet/rock16
-		distance 401.14
-		period 128.548
+		distance 421.899
+		period 138.654
+		offset 1.23007
 		object
 			sprite planet/ice0
 			distance 128
 			period 19.7643
-	object
-		sprite planet/lava5
-		distance 776.23
-		period 346.024
+	object Errengal
+		sprite planet/lava3
+		distance 794.989
+		period 358.642
+		offset 63.6122
 	object
 		sprite planet/desert1
-		distance 1392.23
-		period 831.164
+		distance 1408.99
+		period 846.216
+		offset 13.0519
 		object
 			sprite planet/rock14
 			distance 165
 			period 18.3981
 	object
 		sprite planet/gas7
-		distance 2601.59
-		period 2123.14
+		distance 2618.35
+		period 2143.69
+		offset 2.75167
 		object
 			sprite planet/io
 			distance 257
@@ -92846,6 +93107,8 @@ system Urselvau
 	trade Medical 621
 	trade Metal 274
 	trade Plastic 464
+	fleet "Makerurader Battle Fleet" 1200
+	fleet "Makerurader Logistic Fleet" 600
 	object
 		sprite star/k0
 		distance 50.4047
@@ -92972,6 +93235,8 @@ system Urtenlo
 	trade Medical 583
 	trade Metal 378
 	trade Plastic 378
+	fleet "Darua Navy" 1000
+	fleet "Darua Merchant" 600
 	object
 		sprite star/m0
 		period 10
@@ -93452,6 +93717,9 @@ system Varzelka
 	trade Medical 621
 	trade Metal 274
 	trade Plastic 464
+	fleet "Makerurader Battle Fleet" 1200
+	fleet "Makerurader Mining Fleet" 1200
+	fleet "Makerurader Logistic Fleet" 1000
 	object
 		sprite star/m0
 		period 10
@@ -94348,6 +94616,8 @@ system Versakor
 	trade Medical 621
 	trade Metal 274
 	trade Plastic 464
+	fleet "Makerurader Battle Fleet" 800
+	fleet "Makerurader Mining Fleet" 1200
 	object
 		sprite star/f0
 		distance 5.43712
@@ -95011,6 +95281,7 @@ system Vikeor
 	trade Metal 511
 	trade Plastic 353
 	fleet Ignaggen 700
+	fleet "Kager Ignaggen" 1200
 	object
 		sprite star/m4
 		period 10
@@ -95733,6 +96004,7 @@ system Viorkar
 	trade Metal 342
 	trade Plastic 453
 	fleet Ignaggen 700
+	fleet "Kager Ignaggen" 1000
 	object
 		sprite star/g5
 		period 10
@@ -95794,6 +96066,9 @@ system Vironeggen
 	trade Medical 760
 	trade Metal 544
 	trade Plastic 293
+	fleet "Darua Merchant" 800
+	fleet Ignaggen 800
+	fleet "Kager Ignaggen" 1000
 	object
 		sprite star/k0
 		period 10
@@ -96107,6 +96382,8 @@ system Vixbarkal
 	trade Medical 621
 	trade Metal 274
 	trade Plastic 464
+	fleet "Makerurader Battle Fleet" 1200
+	fleet "Makerurader Logistic Fleet" 700
 	object
 		sprite star/f5
 		period 10
@@ -96170,6 +96447,7 @@ system Viyuan
 	trade Medical 620
 	trade Metal 241
 	trade Plastic 405
+	fleet "Makerurader Battle Fleet" 800
 	object
 		sprite star/f5
 		period 10
@@ -96427,7 +96705,8 @@ system Voimira
 	trade Metal 434
 	trade Plastic 447
 	fleet Ignaggen 700
-	fleet "Dels Central Merchant" 600
+	fleet "Darua Merchant" 800
+	fleet "Kager Ignaggen" 1000
 	object
 		sprite star/g0
 		period 10
@@ -97681,6 +97960,7 @@ system Vullgerven
 	trade Metal 307
 	trade Plastic 438
 	fleet Ignaggen 700
+	fleet "Kager Ignaggen" 1200
 	object
 		sprite star/g0
 		period 10
@@ -97943,6 +98223,9 @@ system Vurkarel
 	trade Medical 621
 	trade Metal 274
 	trade Plastic 464
+	fleet "Makerurader Battle Fleet" 1000
+	fleet "Makerurader Mining Fleet" 1300
+	fleet "Makerurader Logistic Fleet" 600
 	object
 		sprite star/f0
 		distance 23.7677
@@ -98740,6 +99023,8 @@ system Xulkaero
 	trade Medical 621
 	trade Metal 274
 	trade Plastic 464
+	fleet "Makerurader Battle Fleet" 1200
+	fleet "Makerurader Logistic Fleet" 800
 	object
 		sprite star/k0
 		period 10
@@ -98747,7 +99032,7 @@ system Xulkaero
 		sprite planet/lava3
 		distance 137.64
 		period 29.2789
-	object
+	object Kilarbasin
 		sprite planet/ice5
 		distance 408.53
 		period 149.718
@@ -98998,33 +99283,39 @@ system Yorsekager
 	trade Medical 514
 	trade Metal 565
 	trade Plastic 345
+	fleet "Darua Navy" 1000
+	fleet "Darua Merchant" 600
 	object
 		sprite star/m4
 		period 10
-	object
+	object Geltenarin
 		sprite planet/cloud3
-		distance 150.49
-		period 48.3485
+		distance 196.893
+		period 72.3548
+		offset 87.0985
 	object
 		sprite planet/rock16
-		distance 525.38
-		period 315.378
+		distance 571.783
+		period 358.07
+		offset 184.326
 		object
 			sprite planet/oberon
 			distance 146
 			period 24.0767
 	object
 		sprite planet/desert1
-		distance 1008.14
-		period 838.306
+		distance 1054.54
+		period 896.846
+		offset 37.9599
 		object
 			sprite planet/europa
 			distance 173
 			period 19.7523
 	object
 		sprite planet/gas9
-		distance 2389.39
-		period 3058.81
+		distance 2435.79
+		period 3148.34
+		offset 4.53215
 		object
 			sprite planet/rock3
 			distance 233
@@ -99248,6 +99539,8 @@ system Yurtanlo
 	trade Medical 530
 	trade Metal 435
 	trade Plastic 453
+	fleet "Darua Navy" 1200
+	fleet "Darua Merchant" 600
 	object
 		sprite star/m0
 		period 10
@@ -99255,7 +99548,7 @@ system Yurtanlo
 		sprite planet/ice5
 		distance 171.69
 		period 50.304
-	object
+	object Lakrelna
 		sprite planet/ocean2
 		distance 518.73
 		period 264.178
@@ -99305,6 +99598,9 @@ system Yuruar
 	trade Medical 588
 	trade Metal 293
 	trade Plastic 306
+	fleet "Darua Navy" 1000
+	fleet "Darua Merchant" 600
+	fleet Ignaggen 1200
 	object
 		sprite star/f5
 		period 10
@@ -99832,6 +100128,11 @@ planet Aserenar
 	description .
 	spaceport .
 
+planet Aslnakan
+	landscape land/canyon7
+	description .
+	spaceport .
+
 planet Asokqen
 	landscape land/desert5
 	description .
@@ -100160,6 +100461,19 @@ planet Eroar
 	spaceport .
 	"required reputation" 1
 
+planet Errengal
+	landscape land/land27
+	description `A volcanically active planet covered in harden lava and ash. River of molten rocks deep along the ravines between plates of land. To your surprise the Ignaggen did settled here. Living inside underground city carved into the mountains. Mountains which Ignaggens live in looks slightly different from other mountains, they probably made some modification to the surface of it.`
+	spaceport .
+
+planet Etzlanvar
+	landscape land/land31
+	description `This planet is probably a home to billions of Erader all living in one massive city with grid of buildings streching as far as you can see. `
+	spaceport `The spaceport is a titanic building located at the heart of the city with large opening on each side leading into a spacious hangar bay that can probably fit hundreds of warships at a time.`
+	shipyard "Makerurader Large"
+	outfitter "Makerurader Advanced"
+	"required reputation" 5
+
 planet "Eu set"
 	landscape land/hills1
 	description `Most of the land on this plant is a barren land with no life except for a few microscopic creatures. There is only one city on this planet housing nearly a million of Nurus. It was only until recently when the Nuru decided to begin terraforming this planet.`
@@ -100213,6 +100527,11 @@ planet "Garl 4"
 	spaceport .
 	"required reputation" 1
 
+planet Gassilga
+	landscape land/mountain25-spfld
+	description .
+	spaceport .
+
 planet Geenav
 	landscape land/forest0
 	description `This is the origin of the Geeva and the Kroom.`
@@ -100226,6 +100545,11 @@ planet Gellorua
 	description `	Ignaggen settlements can be found around the planet though ones in the south are much easier to find as towns of boulders sticks out more among the the green plants.`
 	spaceport `The spaceport here sits atop of a large plateu with boundary lines chipped into the stone surface dividing the landing pads. There's no stucture around aside from a small building in the centre with the elevator leading down to into the chambers below where most of the activity takes place with everything you might want from a place to sleep to food and even entertainments, this is an entire underground city on its own.`
 	outfitter "Ignaggen Basic"
+
+planet Geltenarin
+	landscape land/canyon02
+	description .
+	spaceport .
 
 planet Geonnel
 	landscape land/sea2
@@ -100563,7 +100887,7 @@ planet Ka'erie
 planet Kado'laroe
 	landscape land/canyon2
 	description `This the biggest moon orbiting the gas planet below, it is even bigger than some planet you've seen.`
-	description `A good portion of this moon is covered in field of factories all interconneted with countless pipes and rails constantly operating day and night manufacturing all sort of goods from mined resource. Large mining vehicles can be found across the surface digging up tons of material to be transported to the factory by drones.`
+	description `	A good portion of this moon is covered in field of factories all interconneted with countless pipes and rails constantly operating day and night manufacturing all sort of goods from mined resource. Large mining vehicles can be found across the surface digging up tons of material to be transported to the factory by drones.`
 	spaceport `The spaceport is built on a large tower a hundred meters above the factories on the surface. This building appears to also house all the Kumakk living here.`
 	"required reputation" 2
 
@@ -100669,6 +100993,12 @@ planet Kier
 	description .
 	spaceport .
 	"required reputation" 1
+
+planet Kilarbasin
+	landscape land/land18
+	description `This archipelago world appears to be a destination for vacation. Buildings here are much more decorated and stylish than other Makerurader worlds. `
+	spaceport .
+	"required reputation" 5
 
 planet Kilino
 	attributes Geeva
@@ -100871,8 +101201,14 @@ planet Kurtelo
 	attributes farming
 	landscape land/valley14-harro
 	description `The planet have very unstable weather, in some area the wind blows close to the speed of sound while next to it is an area with no air movement at all. Large part of the surface is fertile soil but the only vegetation around is grass. Some larger plants and trees can be seen as you go closer to inhabited area. `
-	description `Most of the settlements here are small towns and village surrounded by farmland. Farming vehicles here is rare, most work here seems to be done manually with large amount of people, probably almost the half of the village working in the same plot.`
+	description `	Most of the settlements here are small towns and village surrounded by farmland. Farming vehicles here is rare, most work here seems to be done manually with large amount of people, probably almost the half of the village working in the same plot.`
 	spaceport `Currently the spaceport is nothing more than a few concrete landing pads surrounding a small 3 story building. There was evidence of some construction nearby but there's no one working on it right now.`
+
+planet Lakrelna
+	landscape land/moutainsnow4
+	description `An odd planet where the temperature remains very low despite being on the closer side to the star.`
+	description `One of the primary industry here appears to be mining, though unlike regular open pit mines normally found elsewhere, here metals are mined with large cutters carving solid chips out of the surface.`
+	spaceport `The construction here have heavy emphasis on using steel for structural components and surface. With somesort of coating these steel are warm to touch even when the temperature outside is near zero celcius.`
 
 planet Lamarre
 	landscape land/land15
@@ -100884,6 +101220,11 @@ planet "Laouren Nrkua"
 	description .
 	spaceport .
 	"required reputation" 100
+
+planet Laseran
+	landscape land/land26
+	description .
+	spaceport .
 
 planet Laurenia
 	landscape land/sea6
@@ -100911,7 +101252,7 @@ planet Leepordi
 planet Leevunla
 	landscape land/sea16-harro
 	description `Almost the entire of this planet have tropical climate with warm sea seeping into every corner of land on the planet. As it turns out it quickly became a favorite planet for Dels colonist and farmers alike where they can easily grow their favorite corps and trees here without extensive terraforming or dependence on greenhouses.`
-	description `Area closer to the sea here seems to be reserved only for orchards where buildings are very rare. Towns and cities are built further inland where it is more dry.`
+	description `	Area closer to the sea here seems to be reserved only for orchards where buildings are very rare. Towns and cities are built further inland where it is more dry.`
 	spaceport `The spaceport here looks very expensive, detailed with decorations everywhere even in cargo sector where one would expect to be less prioritized about aesthetic. From quick look, the food court sells mostly the same thing with very little variation.`
 	outfitter "Dels Ammo"
 
@@ -100965,6 +101306,12 @@ planet Lermoili
 	description .
 	spaceport .
 	"required reputation" 1
+
+planet Lertanukel
+	landscape land/beach1
+	description `Large oceanic planet with three large continent streched longitudinally located close together around the equator of the planet.`
+	description `Erader settlements is mostly clustered around a bigger city leaving area further away completely untouched.`
+	spaceport .
 
 planet Lerwer
 	landscape land/canyon0
@@ -101142,6 +101489,11 @@ planet Makulifaril
 	description .
 	spaceport .
 
+planet Marelkasan
+	landscape land/hills6-sfiera
+	description .
+	spaceport .
+
 planet Masriqo
 	attributes Qoro(north)
 	landscape land/city5
@@ -101286,6 +101638,12 @@ planet Meson
 	bribe 0.3
 	security 0.4
 
+planet Misrzinal
+	landscape land/canyon5
+	description .
+	spaceport .
+	"required reputation" 1
+
 planet Moer
 	landscape land/myrabella5
 	description .
@@ -101319,6 +101677,11 @@ planet Muneera
 planet "NHK Wormhole"
 
 planet "NST Wormhole"
+
+planet Nagelluna
+	landscape land/fields1
+	description .
+	spaceport .
 
 planet Neaivudel
 	landscape land/land10
@@ -101536,6 +101899,13 @@ planet Pukotdor
 	description `	Mined areas stripped of their ores are turned into factories and refineries.`
 	spaceport `The spaceport is a flat area surrounded by grey buildings and warehouses. `
 
+planet Pysrennarz
+	landscape land/canyon04
+	description .
+	spaceport .
+	outfitter "Makerurader Ammo"
+	"required reputation" 1
+
 planet Qansta
 	attributes Qoro(north)
 	landscape land/space2
@@ -101719,6 +102089,11 @@ planet Seoakee
 	description `A planet mostly covered in farmscape and swamplands. Few ranges of mountains existing only in the deepest part inland a home to multiple rivers keeping the planet alive. Cities are gathered in one corner of the planet where it is mostly a barren. Towns scattered around the planet appears to be the hub for gathering the harvest before transporting into the cities by rail then exported.`
 	spaceport .
 
+planet Serelgus
+	landscape land/desert6
+	description .
+	spaceport .
+
 planet Silyrenir
 	landscape land/land6
 	description .
@@ -101728,6 +102103,11 @@ planet "Sin or"
 	landscape land/snowmountains2
 	description `This freezing and mounatianious planet would've been one of the last option for human to colonize, yet for the Nuru this planet was one of the earliest to be colonized after its discovery. They seems to have found themselves enjoying the challange of building gigantic buildings off the cliffs and deep into the thick snow. There are clear distinctions between the era of when each buildings were built, or grown. One of it being how insane and impossible the newer buildings are. Sprouting off steep cliffs like mushrooms yet as tall as one of the tallest mountain on the planet.`
 	spaceport `The spaceport is located in one of the cliffside cities that scattered all over the planet. Thankfully it seems to be much more supported than the newer buildings around. Aside from the Nuru you can also see a few of other alien around enjoying the view of the cliffside city.`
+
+planet Siyernal
+	landscape land/beach7-sfiera
+	description .
+	spaceport .
 
 planet Skkyn'ai
 	landscape land/mountain15-sfiera
@@ -101783,6 +102163,11 @@ planet Tedeelar
 	description `A mostly frozen planet with a band of sea only existing around the equator. Settlements here are built on islands along the equator, fishing appears to be the common job here.`
 	spaceport `A small spaceport built on a small piece of land crossing the equator. The weather here is cold all day long and freezing at night. `
 
+planet Telkennas
+	landscape land/badlands0
+	description `A blue planet with one supercontinent as its only landmass, not even small island exist away from the continent. Settlements however can be easily found almost everywhere across the land, even in the deepest, dryest area.`
+	spaceport .
+
 planet Terleedor
 	landscape land/sea1
 	description `This planet surface is mostly water with a largest continent only the size of what would be a large island on other world. Its deep ocean is a home to many large marine animals as well as smaller deep sea creatures. Many unusual and colorful coral can also be found in the dept that requires specifically designed submarines to reach. `
@@ -101819,6 +102204,12 @@ planet Tulvauno
 	landscape land/mountain17-harro
 	description .
 	spaceport .
+
+planet Turzelvar
+	landscape land/nasa7
+	description .
+	spaceport .
+	"required reputation" 2
 
 planet Tyrne
 	landscape land/valley13-harro
@@ -101890,6 +102281,17 @@ planet Uronalu
 	description `	Part of the rocky surface is covered in smooth jet black material spreading and branching out along the ravines like tree roots, each of these structures spans across several kilometers in diameter. Occasionally, a ship will raise through the surface of these roots like ghost through a wall, smoothly, without disturbtion to the surface at all.`
 	spaceport `As guided, your ship is pulled in upon contact with the structure. Everything went black as your ship is pushed around inside it. After a few second your ship emerges inside a dimly lit hangar bay just the right size for your ship, a large window is located on one side giving you a view of a large city from above. `
 	"required reputation" 50
+
+planet Vannmetsal
+	landscape land/loc2
+	description .
+	spaceport .
+	"required reputation" 3
+
+planet Varuxilna
+	landscape land/land14
+	description .
+	spaceport .
 
 planet "Veeralu Ka"
 	landscape land/beach9-sfiera
@@ -102002,4 +102404,10 @@ planet Zionetyr
 	description `Zionetyr is a very dry planet home to a few of the toughest plants and animal. Majority of the planet surface remains untouched, as there is nothing to do here. However, you can spot a few military drones screening the planet every now and then, yet for what reason is unknown.`
 	spaceport `There is not designated parking, just an empty flat land on dirt with fuel pipe running out of a small concrete building. `
 	outfitter "Zorcn Basic Ammo"
+
+planet Zuriluxan
+	landscape land/badlands6
+	description `A small planet devoid of atmosphere but rich in resource. Massive mining vehicles can be seen all over the planet ripping out chuncks of rocks and ores from the surface.`
+	spaceport `The spaceport is intergrated with massive factory processing mined ores into standard materials for further uses. Landing pads are grouped by type of cargo transported.`
+	"required reputation" 1
 

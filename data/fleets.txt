@@ -51,7 +51,7 @@ fleet "Makerurader Battle Fleet"
 	cargo 1
 	personality
 		heroic
-		confusion 20
+		confusion 12
 	variant 20
 		"Ertezkaral" 2
 	variant 12
@@ -61,11 +61,20 @@ fleet "Makerurader Battle Fleet"
 		"Ertezkaral" 2
 	variant 14
 		"Vardarkin" 2
-		"Azelpur" 12
+		"Ertezkaral" 4
+	variant 14
+		"Vardarkin" 2
+		"Ertezkaral" 4
+		"Ertezkaral (Anti-Fighter)" 2
+	variant 14
+		"Vardarkin" 2
+		"Ertezkaral" 2
+		"Ertezkaral (Anti-Fighter)" 2
+		"Ertezkaral (Heavy)" 2
 	variant 10
 		"Vardarkin" 2
-		"Ertezkaral" 3
-		"Azelpur" 6
+		"Ertezkaral" 4
+		"Ertezkaral (Heavy)" 2
 
 fleet "Makerurader Logistic Fleet"
 	government "Makerurader"
@@ -93,6 +102,19 @@ fleet "Makerurader Logistic Fleet"
 		"Vardarkin"
 		"Ertezkaral" 3
 		"Azelpur" 6
+
+fleet "Makerurader Mining Fleet"
+	government "Erader Darua"
+	names "Erader Darua Merchant"
+	cargo 1
+	personality
+		confusion 20
+		plunders
+		mining harvests
+	variant 10
+		"Ertezkaral"
+	variant 40
+		"Azelpur"
 		
 fleet "Recon Ultaka"
 	government "Ultaka"
