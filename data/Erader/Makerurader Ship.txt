@@ -22,15 +22,15 @@ ship "Azelpur"
 			"hull damage" 200
 			"hit force" 600
 	outfits
-		"Particle Cannon"
+		"Kuakuran Energy Cannon"
 		
-		"RT-I Radiothermal"
-		"LP036a Battery Pack"
+		"Va1-I Radiothermal"
+		"H-1AE Battery Array"
 		"D23-QP Shield Generator"
 		"Cooling Ducts"
 		
-		"Greyhound Plasma Thruster"
-		"Greyhound Plasma Steering"
+		"Gerneil Plasma Thruster"
+		"Ginskel Plasma Steering"
 		"Hyperdrive"
 		
 	gun 0 -29.5
@@ -102,15 +102,19 @@ ship "Sorgeldaz"
 			"hull damage" 200
 			"hit force" 600
 	outfits
-		"Particle Cannon"
+		"Yeutark Turret"
+		"Yeutark Shell" 20
+		"Aserap Turret" 2
+		"Aserap Ammo" 2000
+		"Rudarel CIWS" 3
 		
-		"RT-I Radiothermal"
-		"LP036a Battery Pack"
+		"E6-V Generator"
+		"H-2AE Battery Array"
 		"D23-QP Shield Generator"
 		"Cooling Ducts"
 		
-		"Greyhound Plasma Thruster"
-		"Greyhound Plasma Steering"
+		"Gerneil Plasma Thruster"
+		"Ginskel Plasma Steering"
 		"Hyperdrive"
 		
 	turret 0 -103
@@ -195,15 +199,16 @@ ship "Ertezkaral"
 			"hull damage" 200
 			"hit force" 600
 	outfits
-		"Particle Cannon" 6
+		"Kuakuran Energy Cannon" 6
+		"Aserap Ammo" 6000
 		
-		"RT-I Radiothermal"
-		"LP036a Battery Pack"
+		"E6-H Generator"
+		"H-5AE Battery Array"
 		"D23-QP Shield Generator"
 		"Cooling Ducts"
 		
-		"Greyhound Plasma Thruster"
-		"Greyhound Plasma Steering"
+		"Gerneil Plasma Thruster"
+		"Ginskel Plasma Steering"
 		"Hyperdrive"
 		
 	gun -21 -98.5
@@ -294,15 +299,19 @@ ship "Vardarkin"
 			"hull damage" 200
 			"hit force" 600
 	outfits
-		"Particle Cannon" 10
+		"Kuakuran Energy Cannon" 14
+		"Aserap Ammo" 1400
+		"Rudarel CIWS" 2
+		"Yeutark Turret" 2
+		"Yeutark Shell" 40
 		
 		"E6-H Generator" 2
-		"LP036a Battery Pack"
+		"H-A0E Battery Array"
 		"D23-QP Shield Generator"
 		"Cooling Ducts"
 		
-		"Greyhound Plasma Thruster"
-		"Greyhound Plasma Steering"
+		"Kenlark-G2 Atomic Thruster"
+		"Kenlark-c2 Atomic Steering"
 		"Hyperdrive"
 		
 	gun -26 -190.5
