@@ -10,6 +10,7 @@ mission "Omnis-GW: licenses add"
 		set "license: Dels Admiral"
 		set "license: Dels Commander"
 		set "license: Kakaima"
+		set "license: Kager Lergen"
 		
 mission "Omnis-GW: licenses remove"
 	name `Remove all Licenses`
@@ -22,6 +23,8 @@ mission "Omnis-GW: licenses remove"
 	on accept
 		clear "license: Dels Admiral"
 		clear "license: Dels Commander"
+		clear "license: Kakaima"
+		clear "license: Kager Lergen"
 	
 #===============================Outfitter, Shipyards==========================
 

@@ -1,10 +1,11 @@
 #Mark the plugin version to the save file.
 #I'll try to update this if I don't forget.
+#Please don't mess with this btw.
 
-mission "GW Version: v0.1.1-A"
+mission "GW Version: v0.1.1-B"
 	landing
 	invisible
 	on offer
-		set "GW Version: v0.1.1-A"
-		clear "GW Version: v0.1.0-D"
+		set "GW Version: v0.1.1-B"
+		#clear "GW Version: v0.1.1-A"
 		fail
