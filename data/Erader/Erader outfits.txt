@@ -3,7 +3,7 @@
 
 outfit "Aserap Ammo"
 	category "Ammunition"
-	cost 8
+	cost 2
 	thumbnail "outfit/erader aserap ammo"
 	"mass" .01
 	"aserap capacity" -1
@@ -11,7 +11,7 @@ outfit "Aserap Ammo"
 
 outfit "Aserap Ammo Storage"
 	category "Ammunition"
-	cost 8
+	cost 2100
 	thumbnail "outfit/erader aserap ammo storage"
 	"mass" 2
 	"outfit space" 10
@@ -75,6 +75,51 @@ effect "kuakuran trail"
 	sprite "projectile/gw green beam"
 	"lifetime" 3
 	"velocity scale" .6
+
+outfit "Kainar Slug"
+	category "Ammunition"
+	cost 8
+	thumbnail "outfit/erader aserap ammo"
+	"mass" .1
+	"kainar capacity" -1
+	description "Ammo for Erader Aserap autocannon and Kakuran Energy Cannon"
+
+outfit "Kainar Slug Storage"
+	category "Ammunition"
+	cost 8
+	thumbnail "outfit/erader aserap ammo storage"
+	"mass" 2
+	"outfit space" 10
+	"kainar capacity" 10
+	description "Ammo Storage for Aserap autocannon and Kakuran energy cannon."
+
+outfit "Kainar Mass Accelerator"
+	category "Guns"
+	cost 350000
+	thumbnail "outfit/erader aserap gun"
+	"mass" 45
+	"outfit space" -45
+	"weapon capacity" -45
+	"gun ports" -1
+	"kainar capacity" 30
+	weapon
+		sprite "projectile/aserap bullet"
+			"random start frame"
+			"frame rate" 0
+		sound "tiny explosion"
+		"fire effect" "medium explosion"
+		"hit effect" "large explosion"
+		"ammo" "Kainar Slug"
+		"inaccuracy" .5
+		"velocity" 50
+		"lifetime" 30
+		"reload" 60
+		"firing energy" 80
+		"firing heat" 120
+		"shield damage" 600
+		"hull damage" 1200
+		"piercing" .1
+	description "Large and powerful cannon used by Erader Darua warships."
 
 #==============================Turret======================
 
@@ -205,6 +250,16 @@ outfit "E6-V Generator"
 	"heat generation" 8.4
 	description "Slightly less powerful variant of Erader E6-H but much more heat efficient."
 	
+outfit "Va1-I Radiothermal"
+	category "Power"
+	cost 50000
+	thumbnail "outfit/small radiothermal"
+	"mass" 21
+	"outfit space" -21
+	"energy generation" 2
+	"heat generation" 11
+	description "Erader generator."
+
 outfit "H-1AE Battery Array"
 	category "Power"
 	cost 30000
@@ -247,3 +302,95 @@ outfit "H-A0E Battery Array"
 	"energy capacity" 16000
 	"heat generation" .1
 	description "Erader Huge battery array."
+
+#=============================Engines
+
+outfit "Eseyar Ion Thruster"
+	category "Engines"
+	"cost" 10000
+	thumbnail "outfit/tiny ion thruster"
+	"mass" 15
+	"outfit space" -15
+	"engine capacity" -15
+	"thrust" 5
+	"thrusting energy" .5
+	"thrusting heat" .5
+	"flare sprite" "effect/ion flare/small"
+		"frame rate" 1
+	"flare sound" "ion small"
+	description "A tiny, cheap Erader ion thruster."
+
+outfit "Gerneil Plasma Thruster"
+	category "Engines"
+	"cost" 99000
+	thumbnail "outfit/medium plasma thruster"
+	"mass" 40
+	"outfit space" -40
+	"engine capacity" -40
+	"thrust" 34.2
+	"thrusting energy" 5
+	"thrusting heat" 10.2
+	"flare sprite" "effect/plasma flare/medium"
+		"frame rate" 12
+	"flare sound" "plasma medium"
+	description "Erader powerful pulse engine"
+
+outfit "Kenlark-G2 Atomic Thruster"
+	category "Engines"
+	"cost" 1120000
+	thumbnail "outfit/large atomic thruster"
+	"mass" 84
+	"outfit space" -84
+	"engine capacity" -84
+	"thrust" 84
+	"thrusting energy" 12.3
+	"thrusting heat" 14.6
+	"flare sprite" "effect/atomic flare/large"
+		"frame rate" 20
+	"flare sound" "atomic large"
+	description "Erader atomic pulse engine."
+
+outfit "Esinkan Ion Steering"
+	category "Engines"
+	"cost" 10000
+	thumbnail "outfit/tiny ion steering"
+	"mass" 10
+	"outfit space" -10
+	"engine capacity" -10
+	"turn" 150
+	"turning energy" .3
+	"turning heat" .3
+	"steering flare sprite" "effect/ion flare/tiny"
+		"frame rate" 1.2
+	"steering flare sound" "ion tiny"
+	description "Erader steering."
+
+outfit "Ginskel Plasma Steering"
+	category "Engines"
+	"cost" 79000
+	thumbnail "outfit/medium plasma steering"
+	"mass" 40
+	"outfit space" -40
+	"engine capacity" -40
+	"turn" 950
+	"turning energy" 3.2
+	"turning heat" 6.8
+	"steering flare sprite" "effect/plasma flare/medium"
+		"frame rate" 11
+	"steering flare sound" "plasma medium"
+	description "Erader steering."
+
+outfit "Kenlark-c2 Atomic Steering"
+	category "Engines"
+	"cost" 960000
+	thumbnail "outfit/large atomic steering"
+	"mass" 60
+	"outfit space" -60
+	"engine capacity" -60
+	"turn" 2000
+	"turning energy" 8.2
+	"turning heat" 12.5
+	"steering flare sprite" "effect/atomic flare/large"
+		"frame rate" 19
+	"steering flare sound" "atomic large"
+	description "Erader large steering"

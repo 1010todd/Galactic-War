@@ -31,15 +31,15 @@ ship "Genterrac"
 			"hull damage" 200
 			"hit force" 600
 	outfits
-		"Heavy Anti-Missile Turret"
+		"Rudarel CIWS"
 		
-		"nGVF-EE Fuel Cell"
-		"LP036a Battery Pack"
+		"Va1-I Radiothermal"
+		"H-1AE Battery Array"
 		"D14-RN Shield Generator"
 		
-		"X2700 Ion Thruster"
-		"X2200 Ion Steering"
-		"Scram Drive"
+		"Eseyar Ion Thruster"
+		"Esinkan Ion Steering"
+		"Hyperdrive"
 		
 	turret 0 20
 	engine 0 40
@@ -120,22 +120,22 @@ ship "Dauren"
 			"hull damage" 200
 			"hit force" 600
 	outfits
-		"Blaster Turret" 2
-		"Heavy Anti-Missile Turret"
+		"Aserap Turret" 2
+		"Rudarel CIWS"
 		
-		"nGVF-EE Fuel Cell"
-		"LP036a Battery Pack"
+		"Va1-I Radiothermal"
+		"H-2AE Battery Array"
 		"D14-RN Shield Generator"
 		
-		"X2700 Ion Thruster"
-		"X2200 Ion Steering"
-		"Scram Drive"
+		"Eseyar Ion Thruster" 2
+		"Esinkan Ion Steering" 2
+		"Hyperdrive"
 		
 	engine -9 97
 	engine 9 97
-	turret 0 -52 "Blaster Turret"
-	turret 0 65 "Blaster Turret"
-	turret 0 6 "Heavy Anti-Missile Turret"
+	turret 0 -52
+	turret 0 65
+	turret 0 6
 	explode "tiny explosion" 10
 	explode "small explosion" 30
 	explode "medium explosion" 20
@@ -147,17 +147,17 @@ ship "Raular"
 	attributes
 		category "Light Freighter"
 		"cost" 200000
-		"shields" 1600
-		"hull" 950
+		"shields" 1100
+		"hull" 750
 		"required crew" 2
 		"bunks" 3
 		"mass" 120
 		"drag" 5.6
 		"heat dissipation" .7
 		"fuel capacity" 300
-		"cargo space" 60
+		"cargo space" 50
 		"outfit space" 250
-		"weapon capacity" 40
+		"weapon capacity" 20
 		"engine capacity" 40
 		weapon
 			"blast radius" 40
@@ -165,15 +165,15 @@ ship "Raular"
 			"hull damage" 200
 			"hit force" 600
 	outfits
-		"Heavy Anti-Missile Turret"
+		"Rudarel CIWS"
 		
-		"nGVF-EE Fuel Cell"
-		"LP036a Battery Pack"
+		"Va1-I Radiothermal"
+		"H-1AE Battery Array"
 		"D14-RN Shield Generator"
 		
-		"X2700 Ion Thruster"
-		"X2200 Ion Steering"
-		"Scram Drive"
+		"Eseyar Ion Thruster"
+		"Esinkan Ion Steering"
+		"Hyperdrive"
 		
 	turret 0 -3.5
 	engine 0 41
@@ -190,7 +190,84 @@ ship "Raular"
 #======================[Heavy Freighter]=====================
 
 #======================[Interceptor]========================
-
+ship "Kelranter"
+	sprite "ship/erader kelranter"
+	thumbnail "ship/erader kelranter thumb"
+	attributes
+		category "Interceptor"
+		"cost" 200000
+		"shields" 1200
+		"hull" 600
+		"required crew" 1
+		"bunks" 1
+		"mass" 80
+		"drag" 5.6
+		"heat dissipation" .7
+		"fuel capacity" 300
+		"cargo space" 40
+		"outfit space" 250
+		"weapon capacity" 30
+		"engine capacity" 50
+		weapon
+			"blast radius" 40
+			"shield damage" 400
+			"hull damage" 200
+			"hit force" 600
+	outfits
+		"Aserap Autocannon"
+		"Aserap Ammo" 1000
+		
+		"Va1-I Radiothermal"
+		"H-1AE Battery Array"
+		"D14-RN Shield Generator"
+		
+		"Eseyar Ion Thruster"
+		"Esinkan Ion Steering"
+		"Hyperdrive"
+		
+	gun 0 -29
+	engine -15.5 36
+		zoom 1
+		angle 0
+		under
+	engine 15.5 36
+		zoom 1
+		angle 0
+		under
+	"reverse engine" -13 -10
+		zoom .8
+		angle 180
+		under
+	"reverse engine" 13 -10
+		zoom .8
+		angle 180
+		under
+	"steering engine" -13 -10
+		zoom .5
+		angle 180
+		under
+		left
+	"steering engine" 13 -10
+		zoom .5
+		angle 180
+		under
+		right
+	"steering engine" -16.5 36
+		zoom .5
+		angle 0
+		under
+		right
+	"steering engine" 16.5 36
+		zoom .5
+		angle 0
+		under
+		left
+	explode "tiny explosion" 15
+	explode "small explosion" 20
+	explode "medium explosion" 10
+	leak "leak" 50 50
+	"final explode" "final explosion small"
+	description "A small ship made by Erader Darua for asteroid mining. While classified as interceptor it is mostly a freighter."
 #======================[Light Warship]=============================
 
 #======================[Medium Warship=============================
@@ -218,22 +295,26 @@ ship "Kemvanh"
 			"hull damage" 200
 			"hit force" 600
 	outfits
-		"Particle Cannon"
+		"Kainar Mass Accelerator"
+		"Kainar Slug" 30
+		"Aserap Turret" 2
+		"Aserap Ammo" 4000
+		"Rudarel CIWS" 2
 		
-		"RT-I Radiothermal"
-		"LP036a Battery Pack"
+		"Va1-I Radiothermal" 2
+		"H-2AE Battery Array"
 		"D23-QP Shield Generator"
 		"Cooling Ducts"
 		
-		"Greyhound Plasma Thruster"
-		"Greyhound Plasma Steering"
+		"Gerneil Plasma Thruster"
+		"Ginskel Plasma Steering"
 		"Hyperdrive"
 		
 	gun 0 -73
 	turret -34 -10.5
 	turret 34 -10.5
-	turret -37 45
-	turret 37 45
+	turret -37 45 "Aserap Turret"
+	turret 37 45 "Aserap Turret"
 	engine -29 83.5
 		zoom 1
 		angle 0

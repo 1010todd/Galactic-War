@@ -1,4 +1,49 @@
+fleet "Darua Merchant"
+	government "Erader Darua"
+	names "Erader Darua Merchant"
+	cargo 1
+	personality
+		opportunistic
+		timid
+		confusion 40
+	variant 50
+		"Raular"
+	variant 50
+		"Genterrac"
+	variant 40
+		"Raular" 2
+	variant 45
+		"Genterrac" 2
+	variant 30
+		"Genterrac" 3
+	variant 10
+		"Raular" 3
+	variant 20
+		"Dauren"
+	variant 40
+		"Kelranter"
 
+fleet "Darua Miner"
+	government "Erader Darua"
+	names "Erader Darua Merchant"
+	cargo 1
+	personality
+		confusion 30
+		plunders
+		mining harvests
+	variant 40
+		"Kelranter"
+
+fleet "Darua Navy"
+	government "Erader Darua"
+	names "Erader Darua Guard"
+	cargo 1
+	personality
+		heroic
+		opportunistic
+		confusion 20
+	variant 8
+		"Kemvanh"
 		
 fleet "Recon Ultaka"
 	government "Ultaka"

@@ -1,148 +1,3 @@
-
-
-phrase "Ultaka Big"
-	word
-		"Ea"
-		"Tel"
-		"Kan"
-		"Ma"
-		"Kol"
-		"Ul"
-		"Au"
-		"Aos"
-		"Taa"
-		"El"
-		"Vol"
-		"Va"
-	word
-		"far"
-		"mer"
-		"ker"
-		"lee"
-		"dol"
-		"a"
-		"kal"
-		"mei"
-	word
-		"ra"
-		"re"
-		"ke"
-		"lo"
-		"la"
-		"ue"
-		"co"
-		"ko"
-		"sea"
-		"sa"
-	word
-		"ma"
-		"na"
-		"ka"
-		"la"
-		"ca"
-		"sa"
-	word
-		"-"
-	phrase 
-		"letter"
-	phrase 
-		"letter"
-	phrase 
-		"letter"
-		
-phrase "Ultaka Big(Mega)"
-	word
-		"Malk"
-		"Teal"
-		"Nec"
-		"Morl"
-		"Karl"
-		"Uma"
-		"Asul"
-		"Asam"
-		"Taa"
-		"Elk"
-		"Voil"
-		"Vam"
-	word
-		"cro"
-		"mol"
-		"kam"
-		"laom"
-		"vau"
-		"ku"
-		"kal"
-		"mur"
-	word
-		"ra"
-		"ru"
-		"nor"
-		"lor"
-		"moi"
-		"uon"
-		"con"
-		"kolk"
-		"soe"
-		"som"
-	word
-		"-"
-	phrase 
-		"letter"
-	phrase 
-		"digit"
-	phrase 
-		"digit"
-	phrase 
-		"letter"
-	phrase 
-		"letter"
-		
-phrase "Ultaka Small"
-	word
-		"Ea"
-		"Tel"
-		"Kan"
-		"Ma"
-		"Kol"
-		"Ul"
-		"Au"
-		"Aos"
-		"Taa"
-		"El"
-		"Vol"
-		"Va"
-	word
-		"ma"
-		"na"
-		"ka"
-		"la"
-		"ca"
-		"sa"
-	word
-		"-"
-	phrase 
-		"letter"
-	phrase 
-		"letter"
-
-phrase "Ultaka Fighter"
-	word
-		"Far"
-		"Mer"
-		"Ker"
-		"Leer"
-		"Del"
-		"Ae"
-		"Kal"
-		"Mei"
-		"Mai"
-	word
-		"-"
-	phrase 
-		"digit"
-	phrase 
-		"digit"
-	
 phrase "Dels Guard"
 	word
 		"Dal Pra "
@@ -317,8 +172,6 @@ phrase "Dels civillian"
 		"n"
 		""
 		
-		
-		
 phrase "Dels Fighter"
 	word
 		"Das"
@@ -338,6 +191,257 @@ phrase "Dels Fighter"
 		"-"
 	phrase 
 		"digit"
+
+phrase "Erader Darua Guard"
+	phrase "digit"
+	phrase "digit"
+	phrase "digit"
+	word
+		"-"
+	word
+		"Asken"
+		"Kanlar"
+		"Samils"
+		"Keshir"
+		"Nursal"
+		"Sorel"
+		"Marten"
+		"Terrel"
+
+phrase "Erader Darua Merchant"
+	word
+		"A"
+		"An"
+		"Al"
+		"As"
+		"Ae"
+		"Ca"
+		"Ce"
+		"Cl"
+		"Cr"
+		"Er"
+		"El"
+		"En"
+		"Ea"
+		"Kr"
+		"Kl"
+		"Ke"
+		"Ka"
+		"Ra"
+		"Rn"
+		"Re"
+		"Fa"
+		"Fl"
+		"Ka"
+		"Ke"
+		"Kr"
+	word
+		"ser"
+		"sa"
+		"san"
+		"sel"
+		"si"
+		"ra"
+		"ran"
+		"ke"
+		"ka"
+		"kan"
+		"nin"
+		"nir"
+		"nia"
+		"or"
+		"ol"
+		"os"
+		"le"
+		"lan"
+		"lar"
+		"lor"
+		"en"
+		"er"
+		"ga"
+		"se"
+	word
+		"n"
+		"h"
+		"an"
+		"l"
+		"k"
+		"y"
+		"i"
+		"r"
+
+
+phrase "Erader Darua Merchant"
+	word
+		"Asernan"
+		"Lekel"
+		"Mayneir"
+		"Bera"
+		"Helsain"
+		"Osren"
+		"Kettelnel"
+		"Orpin"
+		"Likcar"
+	word
+		" "
+		" "
+		"a "
+		"an "
+		"en "
+	word
+		"Rel"
+		"Arl"
+		"Mark"
+		"Ken"
+		"Sinar"
+		"Airren"
+		"Can"
+		"Cer"
+
+phrase "Ultaka Big"
+	word
+		"Ea"
+		"Tel"
+		"Kan"
+		"Ma"
+		"Kol"
+		"Ul"
+		"Au"
+		"Aos"
+		"Taa"
+		"El"
+		"Vol"
+		"Va"
+	word
+		"far"
+		"mer"
+		"ker"
+		"lee"
+		"dol"
+		"a"
+		"kal"
+		"mei"
+	word
+		"ra"
+		"re"
+		"ke"
+		"lo"
+		"la"
+		"ue"
+		"co"
+		"ko"
+		"sea"
+		"sa"
+	word
+		"ma"
+		"na"
+		"ka"
+		"la"
+		"ca"
+		"sa"
+	word
+		"-"
+	phrase 
+		"letter"
+	phrase 
+		"letter"
+	phrase 
+		"letter"
+		
+phrase "Ultaka Big(Mega)"
+	word
+		"Malk"
+		"Teal"
+		"Nec"
+		"Morl"
+		"Karl"
+		"Uma"
+		"Asul"
+		"Asam"
+		"Taa"
+		"Elk"
+		"Voil"
+		"Vam"
+	word
+		"cro"
+		"mol"
+		"kam"
+		"laom"
+		"vau"
+		"ku"
+		"kal"
+		"mur"
+	word
+		"ra"
+		"ru"
+		"nor"
+		"lor"
+		"moi"
+		"uon"
+		"con"
+		"kolk"
+		"soe"
+		"som"
+	word
+		"-"
+	phrase 
+		"letter"
+	phrase 
+		"digit"
+	phrase 
+		"digit"
+	phrase 
+		"letter"
+	phrase 
+		"letter"
+		
+phrase "Ultaka Small"
+	word
+		"Ea"
+		"Tel"
+		"Kan"
+		"Ma"
+		"Kol"
+		"Ul"
+		"Au"
+		"Aos"
+		"Taa"
+		"El"
+		"Vol"
+		"Va"
+	word
+		"ma"
+		"na"
+		"ka"
+		"la"
+		"ca"
+		"sa"
+	word
+		"-"
+	phrase 
+		"letter"
+	phrase 
+		"letter"
+
+phrase "Ultaka Fighter"
+	word
+		"Far"
+		"Mer"
+		"Ker"
+		"Leer"
+		"Del"
+		"Ae"
+		"Kal"
+		"Mei"
+		"Mai"
+	word
+		"-"
+	phrase 
+		"digit"
+	phrase 
+		"digit"
+	
+
 	
 phrase "Ignaggen"
 	word
