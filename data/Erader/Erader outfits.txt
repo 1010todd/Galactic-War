@@ -72,9 +72,9 @@ outfit "Kuakuran Energy Cannon"
 	description "Makerurader energy cannon, though, it still use ammunition, these cannons are significantly more powerful than Aserap."
 
 effect "kuakuran trail"
-	sprite "projectile/gw green beam"
+	sprite "effect/gw green trail"
 	"lifetime" 3
-	"velocity scale" .6
+	"velocity scale" 1
 
 outfit "Kainar Slug"
 	category "Ammunition"

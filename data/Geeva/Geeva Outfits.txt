@@ -202,10 +202,11 @@ outfit "Zilnor-03 Energy Tracer" #R3 Energy Tracer
 		"acceleration" 1.1
 		"drag" .1
 		"turn" 2
+		"homing" 2
 		"optical tracking" .7
 		"shield damage" 360
 		"hull damage" 120
-		"ion damage" .5
+		"ion damage" 1
 		"missile strength" 20
 	description "A compact homing energy projectile technology. While it shares some design similarity with other Geeva energy weapons, non of the Geevan seems to understand how it works."
 	
