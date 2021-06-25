@@ -138,14 +138,24 @@ outfit "Kel'aku Engines" #Type-1
 	"hyperdrive" 1
 	"jump drive" 1
 	"jump speed" 10
+	"jump effect" "ultaka gate drive"
 	"flare sprite" "effect/ultaka flare/huge"
-		"frame rate" 120
+		"frame rate" 30
 	"flare sound" "plasma huge"
 	"steering flare sprite" "effect/ultaka flare/small"
-		"frame rate" 120
+		"frame rate" 30
 	"steering flare sound" "plasma tiny"
 	description `Standard Ultaka Engine system, a combination of jumpdrive, thruster, steering, and "afterburner".`
 	
+effect "ultaka gate drive"
+	sprite "effect/ultaka gate drive"
+		"no repeat"
+		"frame rate" 14
+	"lifetime" 14
+	"velocity scale" 1
+	"random spin" 9
+	"random angle" 90
+
 outfit "DR Drive" #Type-2
 	category "Engines"
 	"cost" 380000
@@ -191,10 +201,10 @@ outfit "Kel'aku-Cu Engines" #Type-1S
 	"afterburner energy" 45
 	"afterburner heat" 50
 	"flare sprite" "effect/ultaka flare/small"
-		"frame rate" 120
+		"frame rate" 30
 	"flare sound" "plasma small"
 	"steering flare sprite" "effect/ultaka flare/small"
-		"frame rate" 120
+		"frame rate" 30
 	"steering flare sound" "plasma tiny"
 	description "Smaller version of Ultaka's Kel'aku Engine System for fighters and other small ships within their fleet."
 	
