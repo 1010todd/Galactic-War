@@ -253,9 +253,9 @@ ship "Donko Koi"
 		"heat dissipation" .8
 		"fuel capacity" 600 
 		"cargo space" 40 
-		"outfit space" 800 
-		"weapon capacity" 500 
-		"engine capacity" 150 
+		"outfit space" 575 
+		"weapon capacity" 320 
+		"engine capacity" 130 
 		"hull repair rate" 1
 		"hull repair multiplier" 2
 		weapon 
@@ -303,7 +303,7 @@ ship "Donko Koi"
 	explode "small explosion" 15
 	explode "medium explosion" 10
 	explode "big explosion" 3
-	description "Koi is a Donko carrier."
+	description "Koi is a Donko fighter carrier."
 	
 ship "Donko Koi" "Koi (Drone)"
 	sprite "ship/donko koi" 
@@ -320,10 +320,10 @@ ship "Donko Koi" "Koi (Drone)"
 		"drag"  2 
 		"heat dissipation" .8 
 		"fuel capacity" 600 
-		"cargo space" 250 
-		"outfit space" 800 
-		"weapon capacity" 500 
-		"engine capacity" 150 
+		"cargo space" 40 
+		"outfit space" 585
+		"weapon capacity" 336
+		"engine capacity" 130 
 		"hull repair rate" 1
 		"hull repair multiplier" 2
 		weapon 
@@ -360,10 +360,10 @@ ship "Donko Koi" "Koi (Freighter)"
 		"drag"  2 
 		"heat dissipation" .8 
 		"fuel capacity" 600 
-		"cargo space" 40 
-		"outfit space" 800 
-		"weapon capacity" 500 
-		"engine capacity" 150 
+		"cargo space" 250 
+		"outfit space" 576
+		"weapon capacity" 322
+		"engine capacity" 130 
 		"hull repair rate" 1
 		"hull repair multiplier" 2
 		weapon 

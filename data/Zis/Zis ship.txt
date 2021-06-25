@@ -10,7 +10,7 @@ ship "VK-35 Katen"
 			"mass" 25
 			"drag" .5
 			"heat dissipation" 1.5
-			"outfit space" 90
+			"outfit space" 120
 			"weapon capacity" 45
 			"engine capacity" 20
 			"fuel capacity" 500
@@ -273,12 +273,12 @@ ship "RZ-28 Forlan"
 		"mass" 24
 		"drag" .5
 		"heat dissipation" 2
-		"outfit space" 125
+		"outfit space" 145
 		"weapon capacity" 124
 		"engine capacity" 102
 		"fuel capacity" 500
-		"energy capacity" 19000
-		"energy generation" 8800
+		"energy capacity" 1200
+		"energy generation" 8
 		"ramscoop" 20
 		"hyperdrive" 1
 		"jump speed" 6
@@ -333,9 +333,9 @@ ship "RZ-621-02 Razor"
 		"heat dissipation" .9
 		"fuel capacity" 600
 		"cargo space" 80
-		"outfit space" 480
-		"weapon capacity" 250
-		"engine capacity" 35
+		"outfit space" 266
+		"weapon capacity" 150
+		"engine capacity" 62
 		"hyperdrive" 1
 		"jump speed" 6
 		"jump drive" 1
@@ -472,8 +472,8 @@ ship "SY-8662 Sysor"
 	engine -21 190.5
 	engine 23.5 190
 	engine 0 191.5
-	drone -53.5 72 under
-	drone 53.5 72 under
+	bay "drone" -53.5 72 under
+	bay "drone" 53.5 72 under
 	explode "nuke explosion" 8
 	"final explode" "final explosion large"
 	description `Sysor is another very old design still used by Zis. It used to be a warship back when it was made, now it is mostly used as freighter.`
@@ -492,11 +492,11 @@ ship "DT-510 Quadlancer"
 		"heat dissipation" 10.3
 		"fuel capacity" 600
 		"cargo space" 15
-		"outfit space" 480
+		"outfit space" 372
 		"weapon capacity" 200
 		"engine capacity" 80
-		"energy capacity" 19000
-		"energy generation" 160
+		"energy capacity" 1900
+		"energy generation" 16
 		"ramscoop" 15
 		"cooling" 54
 		"hyperdrive" 1
@@ -526,7 +526,6 @@ ship "DT-510 Quadlancer"
 		"EPa90Cx-01 Generator"
 
 		"MPa30Gp-02 Engines"
-		
 		
 	engine 0 31
 	gun -15.5 -99 "DZ-84 Darklance"
@@ -757,8 +756,8 @@ ship "TZ-3468 Seoui"
 		"heat dissipation" .75
 		"fuel capacity" 1000
 		"cargo space" 100
-		"outfit space" 730
-		"weapon capacity" 390
+		"outfit space" 568
+		"weapon capacity" 290
 		"engine capacity" 120
 		"ramscoop" 60
 		"cooling" 380
@@ -1032,7 +1031,7 @@ ship "BS-2237 Ryuzo"
 		"heat dissipation" .84
 		"fuel capacity" 600
 		"cargo space" 20
-		"outfit space" 620
+		"outfit space" 520
 		"weapon capacity" 320
 		"engine capacity" 60
 		"ZIS AM Lock" -2
