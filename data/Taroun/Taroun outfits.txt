@@ -185,11 +185,13 @@ outfit "Ismakur Turret"
 		"firing energy" 6
 		"firing heat" 12
 		"ion damage" 1
-		"disruption damage" 12
+		"disruption damage" 2
 		"blast radius" 120
-		"piercing" 5
-		"shield damage" 2800
+		"piercing" 4
+		"shield damage" 2400
 		"hull damage" 1300
+		"damage dropoff" 1300
+		"dropoff modifier" .5
 		"safe"
 	description "Taroun Odd-looking Turret."
 
