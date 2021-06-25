@@ -758,7 +758,8 @@ outfit "Ultaka Destroyer Cannon"
 	"gun ports" -1
 	"spinal mount" -1
 	weapon
-		"sprite" "projectile/udc"
+		"sprite" "projectile/energy ball"
+			"frame rate" 30
 		"inaccuracy" 0
 		"velocity" 20
 		"lifetime" 600
@@ -772,7 +773,7 @@ outfit "Ultaka Destroyer Cannon"
 		"safe"
 		"shield damage" 95000
 		"hull damage" 95000
-		"missile strength" 2510
+		"missile strength" 8900
 		"piercing" 1
 	description "If anything would challenge the toughness of the ringworld it would be this. Getting hit by it is a death-sentence." 
 		
