@@ -787,7 +787,7 @@ ship "TZ-3468 Seoui"
 		"GSa41Gp-02 Shielding"
 		"GHa43Gp-02 Hull Repair"
 		
-		"MPa60Gp-02 Engines"
+		"MPa60Gp-02 Engines" 2
 		
 	gun -29.5 -172
 	gun 31 -172.5
@@ -826,7 +826,7 @@ ship "ZM-5422 Karloz"
 		"cargo space" 100
 		"outfit space" 1860
 		"weapon capacity" 1180
-		"engine capacity" 260
+		"engine capacity" 360
 		"ramscoop" 80
 		"hyperdrive" 1
 		"jump speed" 6.2
@@ -857,7 +857,7 @@ ship "ZM-5422 Karloz"
 		"GHb12Gp-02 Hull Repair"
 		"GSb14Gp-02 Shielding"
 		
-		"MPa60Gp-02 Engines"
+		"MPa60Gp-02 Engines" 4
 		"Zis Galactic Drive"
 		
 	#Main cannon
@@ -928,7 +928,7 @@ ship "ZM-5422 Karloz" "Karloz Drone"
 		"cargo space" 100
 		"outfit space" 1860
 		"weapon capacity" 1180
-		"engine capacity" 260
+		"engine capacity" 360
 		"ramscoop" 80
 		"hyperdrive" 1
 		"jump speed" 6.2
@@ -966,7 +966,7 @@ ship "AD-672 Ranzai"
 		"cargo space" 10
 		"outfit space" 460
 		"weapon capacity" 220
-		"engine capacity" 50
+		"engine capacity" 65
 		"ZIS AM Lock" -2
 		"ramscoop" 40
 		"hyperdrive" 1
@@ -995,7 +995,7 @@ ship "AD-672 Ranzai"
 		"GSa20Gp-02 Shielding"
 		"GHa20Gp-02 Hull Repair"
 		
-		"MPa30Gp-02 Engines"
+		"MPa60Gp-02 Engines"
 		
 	turret 0 -102.5 "Ginal Turret"
 	turret 0 121.5 "Ginal Turret"
@@ -1033,7 +1033,7 @@ ship "BS-2237 Ryuzo"
 		"cargo space" 20
 		"outfit space" 520
 		"weapon capacity" 320
-		"engine capacity" 60
+		"engine capacity" 90
 		"ZIS AM Lock" -2
 		"ramscoop" 50
 		"hyperdrive" 1
@@ -1063,6 +1063,7 @@ ship "BS-2237 Ryuzo"
 		"GHb12Gp-02 Hull Repair"
 		
 		"MPa60Gp-02 Engines"
+		"MPa30Gp-02 Engines"
 		
 	turret 0 -129 "Zaikor Turret" 
 	turret 0 -57 "Zaikor Turret" 
@@ -1101,7 +1102,7 @@ ship "BX-3826 Kazai"
 		"cargo space" 40
 		"outfit space" 1200
 		"weapon capacity" 850
-		"engine capacity" 90
+		"engine capacity" 120
 		"ZIS AM Lock" -4
 		"ramscoop" 50
 		"hyperdrive" 1
@@ -1130,8 +1131,7 @@ ship "BX-3826 Kazai"
 		"GSa41Gp-02 Shielding"
 		"GHa43Gp-02 Hull Repair"
 		
-		"MPa60Gp-02 Engines"
-		"MPa30Gp-02 Engines"
+		"MPa60Gp-02 Engines" 2
 		
 	turret 0 -125 "Zaikor Turret"
 	turret 0 -36 "Zaikor Turret"
@@ -1237,7 +1237,7 @@ ship "ZC-4226 Zaikul"
 		"cargo space" 130
 		"outfit space" 1460
 		"weapon capacity" 908
-		"engine capacity" 70
+		"engine capacity" 350
 		"ramscoop" 80
 		"hyperdrive" 1
 		"jump speed" 6.2
@@ -1269,7 +1269,7 @@ ship "ZC-4226 Zaikul"
 		"GHa60Gp-02 Hull Repair"
 		"GSa62Gp-02 Shielding"
 		
-		"MPa60Gp-02 Engines"
+		"MPa60Gp-02 Engines" 2
 		
 	#Main guns
 	turret 0 -184 "Zoika Turret"
@@ -1413,7 +1413,7 @@ ship "AD-860A Aorlan"
 		"fuel capacity" 600
 		"outfit space" 320
 		"weapon capacity" 180
-		"engine capacity" 35
+		"engine capacity" 60
 		"energy capacity" 12000
 		"energy generation" 120
 		"hyperdrive" 1
@@ -1469,7 +1469,7 @@ ship "ZN-7681 Eaxes"
 		"cargo space" 300
 		"outfit space" 1860
 		"weapon capacity" 1680
-		"engine capacity" 120
+		"engine capacity" 420
 		"energy generation" 50
 		"ramscoop" 120
 		"hyperdrive" 1
@@ -1510,7 +1510,7 @@ ship "ZN-7681 Eaxes"
 		"GSb14Gp-02 Shielding"
 		"GHb12Gp-02 Hull Repair"
 		
-		"MPa60Gp-02 Engines" 2
+		"MPa60Gp-02 Engines" 4
 		"Zis Galactic Drive"
 		
 	gun 0 -550

@@ -250,6 +250,7 @@ outfit "MPa20Sb-04 Engines" #Nitro-Type4
 	"afterburner effect" "afterburner"
 	description "Zis engine block tuned for high output and activatable speed boost(afterburner)."
 	#Todo, this variant for other engine size, also more engines.
+
 outfit "MPa20Gp-02 Engines" #M-10
 	category "Engines"
 	"cost" 6100000
@@ -298,15 +299,15 @@ outfit "MPa60Gp-02 Engines" #M-80
 	"mass" 60
 	"outfit space" -60
 	"engine capacity" -60
-	"turn" 1600
+	"turn" 800
 	"turning energy" 8
 	"turning heat" 0.2
-	"thrust" 80.0
+	"thrust" 40.0
 	"thrusting energy" 16
 	"thrusting heat" 0.4
 	"flare sprite" "effect/ion flare/huge"
 		"frame rate" .9
-	"reverse thrust" 70
+	"reverse thrust" 35
 	"reverse thrusting energy" 12
 	"reverse thrusting heat" 20
 	description "Zis standard large engine block."
@@ -318,15 +319,15 @@ outfit "MPb12Gp-02 Engines" #M-80
 	"mass" 121
 	"outfit space" -121
 	"engine capacity" -121
-	"turn" 3300
+	"turn" 1500
 	"turning energy" 14
 	"turning heat" 0.4
-	"thrust" 160.0
+	"thrust" 81.0
 	"thrusting energy" 30
 	"thrusting heat" 0.4
 	"flare sprite" "effect/ion flare/huge"
 		"frame rate" .9
-	"reverse thrust" 140
+	"reverse thrust" 70
 	"reverse thrusting energy" 20
 	"reverse thrusting heat" 37
 	description "Zis standard huge engine block, found on large warships."
