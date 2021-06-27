@@ -248,7 +248,7 @@ outfit "Ignaggen Cooling System"
 	"outfit space" -10
 	"cooling" 3
 	"active cooling" 10
-	"cooling energy" 30
+	"cooling energy" 8
 	description "These cooling systems where developed to control the heat of Ignaggen hot-running components."
 	
 outfit "Genos Shield Generator"
@@ -303,7 +303,9 @@ outfit "Kager Gekar Shield Generator"
 	"shield energy" 1.8
 	description "Large and powerful shield reserved for Ignaggen military warships."
 	
-outfit "Rila Thruster"
+#========================================================Engine
+
+outfit "Ielur Thruster" #Rila
 	category "Engines"
 	"cost" 22000
 	thumbnail "outfit/tiny plasma thruster"
@@ -317,9 +319,9 @@ outfit "Rila Thruster"
 		"frame rate" 5
 	"flare sound" "plasma tiny"
 	"ignaggen engine port" 1
-	description "Ignaggen engines are slightly more powerful and efficient than other engines but due to some design limitation it won't work as well on other ships aside from one made by Ignaggen."
+	description "Ignaggen Engine."
 	
-outfit "Rika Thruster"
+outfit "Rika Thruster" #Rika
 	category "Engines"
 	"cost" 43000
 	thumbnail "outfit/small plasma thruster"
@@ -333,9 +335,9 @@ outfit "Rika Thruster"
 		"frame rate" 6
 	"flare sound" "plasma small"
 	"ignaggen engine port" 2
-	description ""
+	description "Ignaggen Engine"
 	
-outfit "Ielur Thruster"
+outfit "Rila Thruster" #Ielur
 	category "Engines"
 	"cost" 43000
 	thumbnail "outfit/small plasma thruster"
@@ -349,9 +351,9 @@ outfit "Ielur Thruster"
 		"frame rate" 6
 	"flare sound" "plasma small"
 	"ignaggen engine port" 3
-	description ""
+	description "Ignaggen Engine"
 	
-outfit "Rilen Thruster"
+outfit "Rilen Thruster" #Rilen
 	category "Engines"
 	"cost" 134000
 	thumbnail "outfit/large plasma thruster"
@@ -365,9 +367,9 @@ outfit "Rilen Thruster"
 		"frame rate" 0.9
 	"flare sound" "plasma large"
 	"ignaggen engine port" 4
-	description ""
+	description "Ignaggen Engine"
 	
-outfit "Rila Steering"
+outfit "Ielur Steering" #Rila
 	category "Engines"
 	"cost" 18000
 	thumbnail "outfit/tiny plasma steering"
@@ -377,9 +379,9 @@ outfit "Rila Steering"
 	"turn" 280
 	"turning energy" .26
 	"turning heat" .36
-	description ""
+	description "Ignaggen Engine"
 	
-outfit "Rika Steering"
+outfit "Rika Steering" #Rika
 	category "Engines"
 	"cost" 36000
 	thumbnail "outfit/small plasma steering"
@@ -389,9 +391,9 @@ outfit "Rika Steering"
 	"turn" 580
 	"turning energy" 0.5
 	"turning heat" .6
-	description ""
+	description "Ignaggen Engine"
 	
-outfit "Rilen Steering"
+outfit "Rilen Steering" #Rilen
 	category "Engines"
 	"cost" 179000
 	thumbnail "outfit/large plasma steering"
@@ -401,5 +403,6 @@ outfit "Rilen Steering"
 	"turn" 2220
 	"turning energy" 2.2
 	"turning heat" 2.3
-	description ""
+	description "Ignaggen Engine"
+	
 	
