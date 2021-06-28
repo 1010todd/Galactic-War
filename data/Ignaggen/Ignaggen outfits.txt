@@ -66,11 +66,11 @@ outfit "Georlen Gun"
 		"hit effect" "particle impact"
 		"die effect" "particle impact"
 		"inaccuracy" 2
-		"velocity" 20
+		"velocity" 22
 		"lifetime" 20
 		"reload" 8
-		"firing energy" 20
-		"firing heat" 18
+		"firing energy" 10
+		"firing heat" 8
 		"heat damage" 8
 		"shield damage" 20
 		"hull damage" 18
@@ -93,15 +93,15 @@ outfit "Georlen Turret"
 		sound "proton"
 		"hit effect" "particle impact"
 		"die effect" "particle impact"
-		"hardpoint sprite" "hardpoint/grab-strike"
+		"hardpoint sprite" "hardpoint/ignaggen georlen turret hp"
 		"hardpoint offset" 7.
 		"inaccuracy" 2
-		"velocity" 20
+		"velocity" 22
 		"lifetime" 20
 		"reload" 8
-		"turret turn" 3
-		"firing energy" 20
-		"firing heat" 18
+		"turret turn" 5
+		"firing energy" 10
+		"firing heat" 8
 		"heat damage" 8
 		"shield damage" 20
 		"hull damage" 18
@@ -166,16 +166,6 @@ effect "gikorel shot"
 	"lifetime" 12
 	"velocity scale" .1
 
-outfit "Gatourot Capacitor"
-	category "Power"
-	cost 18000
-	thumbnail "outfit/tiny battery"
-	"mass" 4
-	"outfit space" -4
-	"energy capacity" 750
-	"heat generation" 12
-	description "An ultra compact capacitor with downside of generating some amount of heat."
-
 #======================================================Power
 outfit "Vultador Cell" #Lava
 	category "Power"
@@ -232,12 +222,23 @@ outfit "Budkuril Capacitor"
 
 outfit "Huleddor Capacitor"
 	category "Power"
-	cost 230000
+	cost 400000
 	thumbnail "outfit/aeon cell"
 	"mass" 46
 	"outfit space" -46
 	"energy capacity" 9000
 	
+outfit "Gatourot Capacitor"
+	category "Power"
+	cost 18000
+	thumbnail "outfit/tiny battery"
+	"mass" 4
+	"outfit space" -4
+	"energy capacity" 750
+	"heat generation" 12
+	description "An ultra compact capacitor with downside of generating some amount of heat."
+
+
 #==========================================System
 
 outfit "Ignaggen Cooling System"
