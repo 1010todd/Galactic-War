@@ -1,0 +1,621 @@
+
+#============================Weapons=========================
+
+outfit "Ordakko Gun"
+	category "Guns"
+	cost 360000
+	thumbnail "outfit/heavy laser"
+	"mass" 14
+	"outfit space" -14
+	"weapon capacity" -14
+	"gun ports" -1
+	weapon
+		sound "tracker"
+		"hit effect" "thrasher impact"
+		"fire effect" "ordakko laser"
+		"inaccuracy" .1
+		"velocity" 450
+		"lifetime" 1
+		"reload" 20
+		"firing energy" 60
+		"firing heat" 68
+		"firing force" 2
+		"shield damage" 68
+		"hull damage" 120
+		"piercing" .1
+	description "Kumakk laser gun"
+
+effect "ordakko laser"
+	sprite "projectile/ordakko laser"
+		"no repeat"
+		"frame rate" 30
+	"lifetime" 5
+	"velocity scale" 1.
+
+outfit "Ordakko Turret"
+	category "Turrets"
+	cost 420000
+	thumbnail "outfit/heavy laser turret"
+	"mass" 20
+	"outfit space" -20
+	"weapon capacity" -20
+	"turret mounts" -1
+	weapon
+		sound "tracker"
+		"hit effect" "thrasher impact"
+		"fire effect" "ordakko laser"
+		"inaccuracy" .15
+		"turret turn" 4
+		"velocity" 450
+		"lifetime" 1
+		"reload" 20
+		"firing energy" 60
+		"firing heat" 68
+		"firing force" 2
+		"shield damage" 68
+		"hull damage" 120
+		"piercing" .1
+	description "Kumakk laser turret"
+
+outfit "Ku'alno Turret"
+	category "Turrets"
+	cost 420000
+	thumbnail "outfit/qoro m masenar"
+	"mass" 82
+	"outfit space" -82
+	"weapon capacity" -82
+	"turret mounts" -1
+	weapon
+		sound "gw edistort2"
+		sprite "projectile/gw green beam"
+		"fire effect" "typhoon fire"
+		"submunition" "ku'alno turn1"
+		"live effect" "ku'alno trail" 50
+		"inaccuracy" 30
+		"turret turn" 2.5
+		"velocity" 20
+		"lifetime" 20
+		"reload" 43
+		"firing energy" 60
+		"firing heat" 68
+		"firing force" 2
+	description "Kumakk turret"
+
+effect "ku'alno trail"
+	sprite "effect/gw green trail"
+	"lifetime" 9
+	"velocity scale" 0.1
+
+outfit "ku'alno turn1"
+	weapon
+		sprite "projectile/itis"
+		"submunition" "ku'alno shot1"
+		"velocity" -20
+		"lifetime" 2
+		"turn" 50
+		"homing" 2
+		"optical tracking" 1
+		"phasing"
+		
+outfit "ku'alno shot1"
+	weapon
+		sprite "projectile/itis"
+		"submunition" "ku'alno rand1"
+		"live effect" "ku'alno trail" 50
+		"velocity" 20
+		"lifetime" 20
+
+outfit "ku'alno rand1"
+	weapon
+		sprite "projectile/itis"
+		"submunition" "ku'alno turn2"
+		"live effect" "ku'alno trail" 50
+		"inaccuracy" 25
+		"lifetime" 20
+
+outfit "ku'alno turn2"
+	weapon
+		sprite "projectile/itis"
+		"submunition" "ku'alno shot2"
+		"velocity" -20
+		"lifetime" 2
+		"turn" 50
+		"homing" 2
+		"optical tracking" .9
+		"phasing"
+
+outfit "ku'alno shot2"
+	weapon
+		sprite "projectile/itis"
+		"submunition" "ku'alno rand2"
+		"live effect" "ku'alno trail" 50
+		"velocity" 20
+		"lifetime" 20
+		"split range" 600
+
+outfit "ku'alno rand2"
+	weapon
+		sprite "projectile/itis"
+		"submunition" "ku'alno turn3"
+		"live effect" "ku'alno trail" 50
+		"inaccuracy" 15
+		"lifetime" 20
+		"split range" 600
+
+outfit "ku'alno turn3"
+	weapon
+		sprite "projectile/itis"
+		"submunition" "ku'alno shot3"
+		"velocity" -20
+		"lifetime" 2
+		"turn" 50
+		"homing" 2
+		"optical tracking" .8
+		"phasing"
+		"split range" 600
+
+outfit "ku'alno shot3"
+	weapon
+		sprite "projectile/itis"
+		"submunition" "ku'alno rand3"
+		"live effect" "ku'alno trail" 50
+		"velocity" 20
+		"lifetime" 20
+		"split range" 600
+
+outfit "ku'alno rand3"
+	weapon
+		sprite "projectile/itis"
+		"submunition" "ku'alno turn4"
+		"live effect" "ku'alno trail" 50
+		"inaccuracy" 15
+		"lifetime" 20
+		"split range" 600
+
+outfit "ku'alno turn4"
+	weapon
+		sprite "projectile/itis"
+		"submunition" "ku'alno shot4"
+		"velocity" -20
+		"lifetime" 2
+		"turn" 50
+		"homing" 2
+		"optical tracking" .7
+		"phasing"
+
+outfit "ku'alno shot4"
+	weapon
+		sprite "projectile/itis"
+		"live effect" "ku'alno trail" 50
+		"velocity" 40
+		"lifetime" 20
+		"shield damage" 300
+		"hull damage" 215
+		"piercing" .03
+
+outfit "Loku'nol Missile"
+	category "Ammunition"
+	cost 500
+	thumbnail "outfit/kroom golkar torpedo"
+	"mass" .4
+	"loku'nol capacity" -1
+	description "Loku'nol Torpedo"
+
+outfit "Loku'nol Missile Storage"
+	category "Ammunition"
+	cost 500
+	thumbnail "outfit/kroom golkar torpedo"
+	"mass" 5
+	"loku'nol capacity" 20
+	description "Loku'nol Missile Storage."
+
+outfit "Loku'nol Missile Launcher"
+	category "Secondary Weapons"
+	cost 60000
+	thumbnail "outfit/kroom golkar launcher"
+	"mass" 10
+	"outfit space" -13
+	"weapon capacity" -13
+	"gun ports" -1
+	"loku'nol capacity" 20
+	weapon
+		sprite "projectile/golkar"
+		sound "zaikor"
+		ammo "Loku'nol Missile"
+		icon "icon/galkor"
+		"fire effect" "meteor fire"
+		"die effect" "missile death"
+		"live effect" "afterburner" 50
+		"hit effect" "medium explosion"
+		"inaccuracy" .2
+		"velocity" 13
+		"lifetime" 540
+		"reload" 30
+		"firing energy" 5
+		"firing heat" 120
+		"acceleration" 1
+		"drag" .04
+		"turn" 3
+		"homing" 4
+		"radar tracking" .8
+		"shield damage" 320
+		"hull damage" 80
+		"hit force" 80
+		"disruption damage" 80
+		"firing disruption" 5
+		"missile strength" 56
+	description ""
+
+outfit "Loku'nol Missile Turret"
+	category "Secondary Weapons"
+	cost 86000
+	thumbnail "outfit/kroom golkar turret"
+	"mass" 22
+	"outfit space" -30
+	"weapon capacity" -30
+	"turret mounts" -1
+	"loku'nol capacity" 20
+	weapon
+		sprite "projectile/golkar"
+		sound "zaikor"
+		ammo "Loku'nol Missile"
+		icon "icon/galkor"
+		"hardpoint sprite" "hardpoint/kroom golkar turret hp"
+		"hardpoint offset" 9.
+		"turret turn" 1.8
+		"fire effect" "meteor fire"
+		"die effect" "missile death"
+		"live effect" "afterburner" 50
+		"hit effect" "medium explosion"
+		"inaccuracy" .2
+		"velocity" 13
+		"lifetime" 540
+		"reload" 30
+		"firing energy" 5
+		"firing heat" 120
+		"acceleration" 1
+		"drag" .04
+		"turn" 3
+		"homing" 4
+		"radar tracking" .8
+		"shield damage" 320
+		"hull damage" 80
+		"hit force" 80
+		"disruption damage" 80
+		"firing disruption" 5
+		"missile strength" 56
+	description ""
+
+outfit "Ko'lorke Missile Shield"
+	category "Turrets"
+	cost 62000
+	thumbnail "outfit/ignaggen georlen turret"
+	"mass" 26
+	"outfit space" -26
+	"weapon capacity" -26
+	"turret mounts" -1
+	weapon
+		"die effect" "ko'lorke am hit"
+		"hit effect" "ko'lorke am"
+		sound "gw edistort1"
+		"hardpoint sprite" "hardpoint/warder"
+		"hardpoint offset" 4.
+		"anti-missile" 13
+		"velocity" 580
+		"lifetime" 1
+		"reload" 10
+		"firing energy" 6
+		"firing heat" 12
+	description "
+
+effect "ko'lorke am"
+	sprite "effect/kolorke am"
+		"random start frame"
+		"frame rate" 0
+	"lifetime" 5
+	"velocity scale" 1
+
+effect "ko'lorke am hit"
+	sprite "effect/kolorke am hit"
+		"frame rate" 30
+	"lifetime" 5
+	"random angle" 480
+	"velocity scale" 0
+
+#=========================Systems==============================
+
+outfit "Cu'nosu Shield Generator"
+	category "Systems"
+	cost 150000
+	thumbnail "outfit/kumakk shield tiny"
+	"mass" 26
+	"outfit space" -23
+	"shield generation" 1
+	"shield energy" 2.5
+	"shield heat" 4
+	"disruption resistance" 1
+	"disruption resistance energy" -1
+	"disruption resistance heat" 10
+	description "Kumakk Shielding."
+
+outfit "Gulgo'ro Shield Generator"
+	category "Systems"
+	cost 150000
+	thumbnail "outfit/kumakk shield small"
+	"mass" 49
+	"outfit space" -45
+	"shield generation" 1.6
+	"shield energy" 3.7
+	"shield heat" 5.9
+	"disruption resistance" 2
+	"disruption resistance energy" -2
+	"disruption resistance heat" 21
+	description "Kumakk Shielding."
+
+outfit "Ko'rosul Shield Generator"
+	category "Systems"
+	cost 150000
+	thumbnail "outfit/kumakk shield medium"
+	"mass" 83
+	"outfit space" -78
+	"shield generation" 3.4
+	"shield energy" 6.6
+	"shield heat" 11.8
+	"disruption resistance" 3.6
+	"disruption resistance energy" -3.6
+	"disruption resistance heat" 42.7
+	description "Kumakk Shielding."
+
+outfit "No'uro Shield Generator"
+	category "Systems"
+	cost 150000
+	thumbnail "outfit/kumakk shield large"
+	"mass" 136
+	"outfit space" -120
+	"shield generation" 6.9
+	"shield energy" 11.7
+	"shield heat" 20.6
+	"disruption resistance" 4.8
+	"disruption resistance energy" -4.8
+	"disruption resistance heat" 52
+	description "Kumakk Shielding."
+
+#=========================Power==============================
+
+outfit "Sol-6ii Generator"
+	category "Power"
+	cost 3200000
+	thumbnail "outfit/kumakk generator tiny"
+	"mass" 14
+	"outfit space" -14
+	"energy generation" 2.8
+	"heat generation" 3.4
+	"ion resistance" .3
+	"ion resistance energy" 1
+	"ion resistance heat" 7.5
+	description "Kumakk Generator"
+
+outfit "Sol-9ia Generator"
+	category "Power"
+	cost 6400000
+	thumbnail "outfit/kumakk generator small"
+	"mass" 33
+	"outfit space" -33
+	"energy generation" 5.7
+	"heat generation" 7
+	"ion resistance" .7
+	"ion resistance energy" 2
+	"ion resistance heat" 9
+	description "Kumakk Generator"
+
+outfit "Vuk-9ix Generator"
+	category "Power"
+	cost 12400000
+	thumbnail "outfit/kumakk generator huge"
+	"mass" 111
+	"outfit space" -111
+	"energy generation" 36.1
+	"heat generation" 62
+	"ion resistance" 2
+	"ion resistance energy" 14
+	"ion resistance heat" 60
+	description "Kumakk Generator"
+
+outfit "Ekken'lar Capacitor"
+	category "Power"
+	cost 160000
+	thumbnail "outfit/kumakk capacitor"
+	"mass" 23
+	"outfit space" -23
+	"energy capacity" 4000
+	"active cooling" 14
+	"cooling energy" -14
+	"energy consumption" 2
+	description "Kumakk battery"
+
+#=========================Engines==============================
+
+outfit "Cokor Thruster"
+	category "Engines"
+	"cost" 45000
+	thumbnail "outfit/tiny plasma thruster"
+	"mass" 18
+	"outfit space" -18
+	"engine capacity" -18
+	"thrust" 8
+	"thrusting energy" 1
+	"thrusting heat" 1
+	"afterburner thrust" 20
+	"afterburner energy" 12
+	"afterburner heat" 22
+	"active cooling" 12
+	"cooling energy" 6
+	"afterburner effect" "kumakk small afterburner"
+	"flare sprite" "effect/kumakk flare/tiny"
+		"frame rate" 6
+	"flare sound" "plasma tiny"
+	description "Kumakk Thruster."
+	
+outfit "Kolun'a Thruster"
+	category "Engines"
+	"cost" 92000
+	thumbnail "outfit/small plasma thruster"
+	"mass" 35
+	"outfit space" -35
+	"engine capacity" -35
+	"thrust" 21
+	"thrusting energy" 2
+	"thrusting heat" 2
+	"afterburner thrust" 40
+	"afterburner energy" 34
+	"afterburner heat" 30.7
+	"active cooling" 16
+	"cooling energy" 7.9
+	"afterburner effect" "kumakk medium afterburner"
+	"flare sprite" "effect/kumakk flare/small"
+		"frame rate" 6
+	"flare sound" "plasma small"
+	description "Kumakk Thruster"
+	
+outfit "Lelu'a Thruster"
+	category "Engines"
+	"cost" 178000
+	thumbnail "outfit/medium plasma thruster"
+	"mass" 68
+	"outfit space" -68
+	"engine capacity" -68
+	"thrust" 47.6
+	"thrusting energy" 3.5
+	"thrusting heat" 3.5
+	"afterburner thrust" 84
+	"afterburner energy" 62
+	"afterburner heat" 60
+	"active cooling" 32
+	"cooling energy" 16
+	"afterburner effect" "kumakk large afterburner"
+	"flare sprite" "effect/kumakk flare/medium"
+		"frame rate" 6
+	"flare sound" "plasma small"
+	description "Kumakk Thruster"
+	
+outfit "Mocoro Thruster"
+	category "Engines"
+	"cost" 345000
+	thumbnail "outfit/large plasma thruster"
+	"mass" 80
+	"outfit space" -80
+	"engine capacity" -80
+	"thrust" 55 
+	"thrusting energy" 4.8
+	"thrusting heat" 4.8
+	"afterburner thrust" 120
+	"afterburner energy" 80
+	"afterburner heat" 120
+	"afterburner effect" "kumakk huge afterburner"
+	"active cooling" 65
+	"cooling energy" 30
+	"flare sprite" "effect/kumakk flare/large"
+		"frame rate" 6
+	"flare sound" "plasma large"
+	description "Kumakk Thruster"
+
+effect "kumakk small afterburner"
+	sprite "effect/kumakk flare/large afterburner"
+		"no repeat"
+		"frame rate" 30
+	sound "ionic afterburner"
+	"lifetime" 14
+	"random angle" 30
+	"random spin" 10
+	"velocity scale" 1.
+
+effect "kumakk medium afterburner"
+	sprite "effect/kumakk flare/large afterburner"
+		"no repeat"
+		"frame rate" 26
+	sound "ionic afterburner"
+	"lifetime" 16
+	"random angle" 30
+	"random spin" 10
+	"velocity scale" 1.
+
+effect "kumakk large afterburner"
+	sprite "effect/kumakk flare/large afterburner"
+		"no repeat"
+		"frame rate" 24
+	sound "ionic afterburner"
+	"lifetime" 18
+	"random angle" 30
+	"random spin" 10
+	"velocity scale" 1.
+
+effect "kumakk huge afterburner"
+	sprite "effect/kumakk flare/huge afterburner"
+		"no repeat"
+		"frame rate" 16
+	sound "ionic afterburner"
+	"lifetime" 20
+	"random angle" 30
+	"random spin" 10
+	"velocity scale" 1.
+
+outfit "Cokor Steering"
+	category "Engines"
+	"cost" 16000
+	thumbnail "outfit/tiny plasma steering"
+	"mass" 13
+	"outfit space" -13
+	"engine capacity" -13
+	"turn" 222
+	"turning energy" .3
+	"turning heat" .3
+	"steering flare sprite" "effect/kumakk flare/tiny"
+		"frame rate" 6
+	"steering flare sound" "plasma tiny"
+	description "Kumakk Steering"
+
+outfit "Kolun'a Steering"
+	category "Engines"
+	"cost" 32000
+	thumbnail "outfit/small plasma steering"
+	"mass" 27
+	"outfit space" -27
+	"engine capacity" -27
+	"turn" 456
+	"turning energy" .6
+	"turning heat" .6
+	"steering flare sprite" "effect/kumakk flare/small"
+		"frame rate" 6
+	"steering flare sound" "plasma small"
+	description "Kumakk Steering"
+
+outfit "Lelu'a Steering"
+	category "Engines"
+	"cost" 64000
+	thumbnail "outfit/medium plasma steering"
+	"mass" 53
+	"outfit space" -53
+	"engine capacity" -53
+	"turn" 896
+	"turning energy" 1.1
+	"turning heat" 1.1
+	"steering flare sprite" "effect/kumakk flare/medium"
+		"frame rate" 6
+	"steering flare sound" "plasma medium"
+	description "Kumakk Steering"
+
+outfit "Mocoro Steering"
+	category "Engines"
+	"cost" 88000
+	thumbnail "outfit/large plasma steering"
+	"mass" 76
+	"outfit space" -76
+	"engine capacity" -76
+	"turn" 1425
+	"turning energy" 1.9
+	"turning heat" 1.9
+	"steering flare sprite" "effect/kumakk flare/large"
+		"frame rate" 6
+	"steering flare sound" "plasma large"
+	description "Kumakk Steering"
+

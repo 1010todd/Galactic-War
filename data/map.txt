@@ -7696,6 +7696,7 @@ system Bosluven
 	trade Medical 584
 	trade Metal 268
 	trade Plastic 493
+	fleet "Dels Frontier Merchant" 800
 	object
 		sprite star/g5
 		period 10
@@ -7711,7 +7712,7 @@ system Bosluven
 		sprite planet/rock0
 		distance 613.53
 		period 243.15
-	object
+	object Kileedalre
 		sprite planet/ocean2
 		distance 970.77
 		period 483.943
@@ -8877,6 +8878,7 @@ system Celvorle
 	trade Metal 231
 	trade Plastic 273
 	fleet "Dels Outward Merchant" 1000
+	fleet "Dels Frontier Merchant" 800
 	object
 		sprite star/g0
 		distance 34.7921
@@ -11469,6 +11471,7 @@ system Deecolnel
 	trade Medical 595
 	trade Metal 343
 	trade Plastic 325
+	fleet "Dels Frontier Merchant" 800
 	object
 		sprite star/g5
 		distance 58
@@ -11661,6 +11664,7 @@ system Deelivosr
 	trade Medical 580
 	trade Metal 411
 	trade Plastic 468
+	fleet "Dels Frontier Merchant" 800
 	object
 		sprite star/k5
 		period 10
@@ -17860,6 +17864,7 @@ system Elkeur
 	trade Metal 245
 	trade Plastic 277
 	fleet "Dels Outward Merchant" 1000
+	fleet "Dels Frontier Merchant" 1000
 	object
 		sprite star/a0
 		period 10
@@ -17917,6 +17922,7 @@ system Elkorker
 	trade Medical 676
 	trade Metal 316
 	trade Plastic 397
+	fleet "Dels Frontier Merchant" 800
 	object
 		sprite star/k5
 		period 10
@@ -24733,7 +24739,7 @@ system Gilmelor
 	trade Metal 241
 	trade Plastic 396
 	fleet "Geeva Battle Fleet" 800
-	fleet "Kakaima Defense" 1800
+	fleet "Kakaima Defense" 1200
 	object
 		sprite star/k5
 		period 10
@@ -28915,6 +28921,7 @@ system Hevonor
 	trade Medical 868
 	trade Metal 210
 	trade Plastic 272
+	fleet "Dels Frontier Merchant" 800
 	object
 		sprite star/k0
 		distance 32.7258
@@ -34537,6 +34544,7 @@ system Jerteano
 	trade Metal 321
 	trade Plastic 457
 	fleet "Dels Outward Merchant" 2000
+	fleet "Dels Frontier Merchant" 800
 	object
 		sprite star/k0
 		period 10
@@ -37736,6 +37744,7 @@ system Keemolk
 	trade Metal 230
 	trade Plastic 308
 	fleet "Dels Outward Merchant" 1000
+	fleet "Dels Frontier Merchant" 800
 	object
 		sprite star/a5
 		distance 7.8797
@@ -37798,8 +37807,9 @@ system Keemoroco
 	trade Medical 852
 	trade Metal 250
 	trade Plastic 382
-	fleet "Dels Kaote" 10000
+	fleet "Dels Kaote" 1000
 	fleet "Dels Outward Merchant" 1000
+	fleet "Dels Frontier Merchant" 800
 	object
 		sprite star/m4
 		period 10
@@ -38636,6 +38646,7 @@ system Keldoyr
 	trade Medical 643
 	trade Metal 325
 	trade Plastic 430
+	fleet "Dels Frontier Merchant" 800
 	object
 		sprite star/k5
 		period 10
@@ -42322,6 +42333,8 @@ system Ko'Bohdle
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kumakk Logistic" 800
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/k5
 		period 10
@@ -42388,6 +42401,8 @@ system Ko'aoeo
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/f5
 		distance 55.2558
@@ -42446,6 +42461,8 @@ system Ko'boro
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kumakk Logistic" 600
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/f0
 		distance 42.2271
@@ -42506,6 +42523,8 @@ system Ko'budol
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/m0
 		period 10
@@ -42560,6 +42579,8 @@ system Ko'coro
 	asteroids "large metal" 5 1.89
 	minables lead 2 4.18678
 	minables silver 1 5.78705
+	fleet "Kumakk Logistic" 600
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/k5
 		distance 47.619
@@ -42618,6 +42639,9 @@ system Ko'coso
 	asteroids "large metal" 68 6.8614
 	minables gold 47 13.7655
 	minables tungsten 47 7.77677
+	fleet "Kumakk Miner" 1200
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/k0
 		period 10
@@ -42682,6 +42706,9 @@ system Ko'couezur
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kumakk Miner" 1400
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/k0
 		period 10
@@ -42718,6 +42745,8 @@ system Ko'covo
 	link Ko'rojo
 	link Ko'sowo
 	asteroids "large metal" 1 2.142
+	fleet "Kumakk Logistic" 600
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/g0
 		period 10
@@ -42771,6 +42800,8 @@ system Ko'daho
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/f5
 		distance 28.2943
@@ -42829,6 +42860,8 @@ system Ko'darmo
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/k5
 		period 10
@@ -42886,6 +42919,8 @@ system Ko'dero
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/f5
 		period 10
@@ -42952,6 +42987,8 @@ system Ko'doaor
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/m8
 		period 10
@@ -43011,6 +43048,8 @@ system Ko'doco
 	asteroids "large metal" 15 5.499
 	minables copper 2 8.13322
 	minables iron 6 7.26649
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/g5
 		period 10
@@ -43067,6 +43106,9 @@ system Ko'dolou
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kumakk Miner" 1400
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/m8
 		period 10
@@ -43128,6 +43170,9 @@ system Ko'dormo
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kumakk Miner" 1300
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/g5
 		distance 15.6316
@@ -43182,6 +43227,9 @@ system Ko'dorsu
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kumakk Miner" 1400
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/f0
 		distance 11.5475
@@ -43303,6 +43351,9 @@ system Ko'eokor
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kumakk Miner" 1400
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/f0
 		period 10
@@ -43320,12 +43371,19 @@ system Ko'eokor
 		period 304.44
 	object
 		sprite planet/gas13
-		distance 1516.01
-		period 484.715
+		distance 1554.63
+		period 503.355
+		offset 35.2318
+		object Ke'uleko
+			sprite planet/station1
+			distance 262
+			period 11.9719
+			offset 319.755
 	object
 		sprite planet/gas3
-		distance 4752.45
-		period 2690.35
+		distance 4924.07
+		period 2837.39
+		offset 9.05148
 		object
 			sprite planet/dust0
 			distance 284
@@ -43365,6 +43423,8 @@ system Ko'godalo
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/g5
 		period 10
@@ -43376,7 +43436,7 @@ system Ko'godalo
 		sprite planet/luna
 		distance 369.66
 		period 113.717
-	object
+	object Ko'urelacun
 		sprite planet/cloud5
 		distance 699.1
 		period 295.753
@@ -43413,6 +43473,8 @@ system Ko'hordul
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/k5
 		period 10
@@ -43467,6 +43529,8 @@ system Ko'ioxue
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/k5
 		period 10
@@ -43515,6 +43579,8 @@ system Ko'joco
 	asteroids "medium rock" 8 3.332
 	asteroids "large rock" 5 5.032
 	asteroids "large metal" 1 4.216
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/k5
 		distance 30.434
@@ -43566,6 +43632,9 @@ system Ko'joho
 	asteroids "large metal" 6 2.7018
 	minables aluminum 30 4.93914
 	minables titanium 48 8.93749
+	fleet "Kumakk Miner" 1300
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/k5
 		period 10
@@ -43620,10 +43689,12 @@ system Ko'jolmo
 	asteroids "large metal" 3 8.8479
 	minables iron 4 9.04147
 	minables silicon 8 9.46926
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/m4
 		period 10
-	object
+	object Ko'ledolr
 		sprite planet/ice4
 		distance 239.04
 		period 96.7892
@@ -43658,7 +43729,8 @@ system Ko'koco
 	link Ko'sozo
 	link Ko'vorda
 	asteroids "large metal" 1 2.3175
-	fleet "Revos small" 12000
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/a5
 		period 10
@@ -43716,6 +43788,8 @@ system Ko'kodao
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kumakk Logistic" 600
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/g0
 		distance 28.0002
@@ -43783,6 +43857,8 @@ system Ko'kolur
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/f5
 		period 10
@@ -43832,6 +43908,7 @@ system Ko'komo
 	asteroids "large metal" 1 8.1378
 	minables neodymium 25 5.38984
 	minables titanium 1 7.10692
+	fleet "Kumakk Miner" 1200
 	object
 		sprite star/m0
 		period 10
@@ -43893,6 +43970,8 @@ system Ko'kusor
 	asteroids "large metal" 33 6.09
 	minables iron 13 9.79982
 	minables neodymium 3 6.47763
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/g0
 		distance 19.8947
@@ -43962,6 +44041,8 @@ system Ko'laso
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kumakk Logistic" 600
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/g5
 		period 10
@@ -43969,7 +44050,7 @@ system Ko'laso
 		sprite planet/rock13
 		distance 166
 		period 34.2202
-	object
+	object Kul'elrel
 		sprite planet/desert5
 		distance 633
 		period 254.815
@@ -44010,6 +44091,8 @@ system Ko'lobo
 	asteroids "large metal" 1 2.691
 	minables iron 11 6.07785
 	minables tungsten 7 5.01439
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/f5
 		period 10
@@ -44072,6 +44155,9 @@ system Ko'locdo
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kumakk Miner" 1100
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/f5
 		period 10
@@ -44125,7 +44211,8 @@ system Ko'lolo
 	minables aluminum 4 8.84884
 	minables iron 3 5.85004
 	minables tungsten 3 9.401
-	fleet "Revos small" 10000
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/g5
 		period 10
@@ -44177,6 +44264,8 @@ system Ko'lorulo
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/g0
 		distance 29.8218
@@ -44223,6 +44312,8 @@ system Ko'luclo
 	asteroids "medium metal" 11 5.936
 	asteroids "large metal" 12 4.088
 	minables aluminum 1 6.40483
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/g0
 		distance 35.5572
@@ -44295,6 +44386,8 @@ system Ko'madol
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/g0
 		period 10
@@ -44346,6 +44439,8 @@ system Ko'meoso
 	asteroids "large metal" 1 1.908
 	minables gold 2 3.80007
 	minables lead 3 5.83907
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200s
 	object
 		sprite star/a5
 		distance 34.9714
@@ -44392,14 +44487,17 @@ system Ko'moda
 	pos -50737.6 -54268.1
 	government Kumakk
 	habitable 3452.76
-	belt 1092
+	belt 1607
 	link Ko'komo
-	asteroids "medium rock" 5 8.0752
-	asteroids "large rock" 8 7.2128
-	asteroids "small metal" 2 8.9376
-	asteroids "medium metal" 8 3.9984
-	asteroids "large metal" 5 5.9584
-	minables iron 3 8.3217
+	asteroids "small rock" 31 4.293
+	asteroids "medium rock" 8 4.05
+	asteroids "large rock" 29 5.994
+	asteroids "small metal" 3 6.642
+	asteroids "medium metal" 2 8.829
+	asteroids "large metal" 3 11.016
+	minables iron 5 8.58719
+	minables lead 17 7.62167
+	minables silver 18 9.75228
 	trade Clothing 0
 	trade Electronics 0
 	trade Equipment 0
@@ -44410,6 +44508,7 @@ system Ko'moda
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kumakk Miner" 1200
 	object
 		sprite star/f0
 		distance 40.9759
@@ -44477,6 +44576,8 @@ system Ko'modor
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/m0
 		period 10
@@ -44522,6 +44623,8 @@ system Ko'momor
 	asteroids "medium rock" 2 5.7876
 	asteroids "large rock" 1 7.917
 	asteroids "large metal" 1 4.095
+	fleet "Kumakk Logistic" 800
+	fleet "Kumakk Security" 1800
 	object
 		sprite star/m0
 		period 10
@@ -44568,6 +44671,9 @@ system Ko'morho
 	asteroids "large metal" 28 9.52
 	minables aluminum 42 10.0889
 	minables copper 69 7.92407
+	fleet "Kumakk Logistic" 800
+	fleet "Kumakk Miner" 1200
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/a5
 		distance 15.2752
@@ -44623,6 +44729,8 @@ system Ko'morol
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/g5
 		period 10
@@ -44683,6 +44791,8 @@ system Ko'movar
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/f0
 		distance 22.3083
@@ -44734,6 +44844,8 @@ system Ko'mozo
 	asteroids "medium metal" 28 10.152
 	asteroids "large metal" 3 3.96
 	minables aluminum 2 15.0049
+	fleet "Kumakk Logistic" 600
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/f5
 		period 10
@@ -44783,6 +44895,8 @@ system Ko'neoho
 	asteroids "medium metal" 5 5.206
 	asteroids "large metal" 2 5.016
 	minables neodymium 1 5.38837
+	fleet "Kumakk Logistic" 600
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/f5
 		period 10
@@ -44800,12 +44914,18 @@ system Ko'neoho
 		period 259.861
 	object
 		sprite planet/gas7
-		distance 1703.11
-		period 678.878
+		distance 1832.11
+		period 757.452
+		offset 73.2998
+		object Ke'lokunre
+			sprite planet/station4
+			distance 258
+			period 14.7421
 	object
 		sprite planet/gas10
-		distance 2363.11
-		period 1109.57
+		distance 2621.11
+		period 1296.15
+		offset 62.234
 		object
 			sprite planet/rock17
 			distance 173
@@ -44844,6 +44964,8 @@ system Ko'noeor
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/m4
 		period 10
@@ -44885,6 +45007,8 @@ system Ko'oxzo
 	asteroids "small metal" 6 4.2042
 	asteroids "medium metal" 4 4.6956
 	asteroids "large metal" 3 3.6582
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/k5
 		period 10
@@ -44949,6 +45073,8 @@ system Ko'radol
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/g0
 		distance 61.5
@@ -44990,6 +45116,8 @@ system Ko'rohou
 	asteroids "medium metal" 6 2.032
 	asteroids "large metal" 6 0.8
 	minables aluminum 3 2.49726
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/m0
 		distance 47
@@ -45051,6 +45179,9 @@ system Ko'rojo
 	asteroids "medium metal" 1 4.964
 	asteroids "large metal" 6 2.856
 	minables tungsten 13 4.88734
+	fleet "Kumakk Miner" 1500
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/m0
 		period 10
@@ -45058,7 +45189,7 @@ system Ko'rojo
 		sprite planet/rock18
 		distance 147.25
 		period 39.9547
-	object
+	object Ko'coqenril
 		sprite planet/forest3
 		distance 556.41
 		period 293.479
@@ -45089,6 +45220,8 @@ system Ko'rolmo
 	asteroids "small metal" 2 9.204
 	asteroids "medium metal" 6 7.332
 	asteroids "large metal" 4 9.672
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/g0
 		period 10
@@ -45131,6 +45264,8 @@ system Ko'rono
 	asteroids "large metal" 7 6.336
 	minables iron 1 9.7634
 	minables silicon 3 10.8441
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/k0
 		period 10
@@ -45188,6 +45323,8 @@ system Ko'soco
 	minables aluminum 5 11.6717
 	minables lead 2 6.89851
 	minables tungsten 6 8.38864
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/m4
 		period 10
@@ -45238,6 +45375,9 @@ system Ko'sodoe
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kumakk Miner" 1400
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/g5
 		period 10
@@ -45292,6 +45432,8 @@ system Ko'sohor
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/m4
 		period 10
@@ -45344,6 +45486,8 @@ system Ko'soso
 	minables aluminum 1 5.70944
 	minables lead 1 4.86604
 	minables titanium 1 5.88822
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/m0
 		period 10
@@ -45388,6 +45532,8 @@ system Ko'soudo
 	asteroids "medium metal" 37 3.6696
 	asteroids "large metal" 4 3.8016
 	minables lead 12 5.11997
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/g5
 		period 10
@@ -45430,6 +45576,8 @@ system Ko'sowo
 	asteroids "small metal" 19 3.7536
 	asteroids "medium metal" 68 2.8704
 	asteroids "large metal" 15 2.3736
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/m0
 		period 10
@@ -45437,18 +45585,20 @@ system Ko'sowo
 		sprite planet/dust6
 		distance 223.04
 		period 74.4833
-	object
+	object Ko'elzuxen
 		sprite planet/ocean1
-		distance 632.04
-		period 355.305
+		distance 571.043
+		period 305.132
+		offset 138.115
 		object
 			sprite planet/ice8
 			distance 165
 			period 21.3256
 	object
 		sprite planet/gas11
-		distance 1569.33
-		period 1390.13
+		distance 1508.33
+		period 1309.88
+		offset 338.858
 		object
 			sprite planet/dust1
 			distance 264
@@ -45459,8 +45609,9 @@ system Ko'sowo
 			period 22.341
 	object
 		sprite planet/gas7
-		distance 3311.37
-		period 4260.85
+		distance 3250.37
+		period 4143.67
+		offset 356.816
 		object
 			sprite planet/rock14
 			distance 272
@@ -45493,6 +45644,8 @@ system Ko'sozo
 	asteroids "large metal" 3 7.3575
 	minables platinum 5 6.04638
 	minables silver 8 7.55798
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/f5
 		period 10
@@ -45550,6 +45703,8 @@ system Ko'uozor
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/g0
 		period 10
@@ -45602,6 +45757,8 @@ system Ko'urnol
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/k0
 		period 10
@@ -45609,18 +45766,21 @@ system Ko'urnol
 		sprite planet/rock13
 		distance 155.84
 		period 35.2742
-	object
+	object Uo'kodan
 		sprite planet/ocean5
-		distance 361.45
-		period 124.598
-	object
+		distance 424.159
+		period 158.391
+		offset 304.4
+	object Nukar'rokul
 		sprite planet/cloud4
-		distance 756.34
-		period 377.15
+		distance 687.7
+		period 326.992
+		offset 191.955
 	object
 		sprite planet/uranus
-		distance 1441.9
-		period 992.752
+		distance 1373.26
+		period 922.715
+		offset 329.002
 		object
 			sprite planet/dust3
 			distance 248
@@ -45631,8 +45791,9 @@ system Ko'urnol
 			period 26.4313
 	object
 		sprite planet/gas7
-		distance 3924.15
-		period 4457.14
+		distance 3855.51
+		period 4340.71
+		offset 357.557
 		object
 			sprite planet/dust0
 			distance 242
@@ -45664,6 +45825,8 @@ system Ko'vokher
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/g0
 		distance 41.4223
@@ -45733,6 +45896,8 @@ system Ko'vorda
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kumakk Logistic" 600
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/k0
 		period 10
@@ -45779,6 +45944,8 @@ system Ko'xomo
 	asteroids "medium metal" 9 3.8514
 	asteroids "large metal" 5 2.4696
 	minables gold 12 3.20933
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/m8
 		period 10
@@ -45835,6 +46002,9 @@ system Ko'zoco
 	minables lead 27 4.92739
 	minables tungsten 3 4.46833
 	minables uranium 3 2.64957
+	fleet "Kumakk Miner" 1400
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/f5
 		period 10
@@ -45868,6 +46038,8 @@ system Ko'zomo
 	link Ko'madol
 	link Ko'zoco
 	asteroids "large metal" 1 2.3114
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/m8
 		period 10
@@ -45913,6 +46085,8 @@ system Ko'zourho
 	asteroids "medium metal" 8 3.2368
 	asteroids "large metal" 4 3.128
 	minables copper 14 2.36997
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/m0
 		period 10
@@ -45920,7 +46094,7 @@ system Ko'zourho
 		sprite planet/rock2
 		distance 206.29
 		period 66.2525
-	object
+	object Ko'korcela
 		sprite planet/rock10
 		distance 460.33
 		period 220.846
@@ -46023,6 +46197,9 @@ system Ko'zovoe
 	minables copper 11 3.80744
 	minables lead 47 4.8169
 	minables tungsten 4 3.46455
+	fleet "Kumakk Logistic" 600
+	fleet "Kumakk Miner" 1500
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/g5
 		period 10
@@ -53850,6 +54027,7 @@ system Lomeerel
 	trade Medical 656
 	trade Metal 259
 	trade Plastic 366
+	fleet "Dels Frontier Merchant" 1000
 	object
 		sprite star/f5
 		distance 21.8839
@@ -60138,6 +60316,7 @@ system Medvurkula
 	trade Medical 546
 	trade Metal 310
 	trade Plastic 465
+	fleet "Dels Frontier Merchant" 800
 	object
 		sprite star/g0
 		distance 26.9714
@@ -67700,7 +67879,7 @@ system Mutorlel
 	trade Metal 389
 	trade Plastic 438
 	fleet "Geeva Battle Fleet" 800
-	fleet "Kakaima Defense" 1800
+	fleet "Kakaima Defense" 1200
 	object
 		sprite star/k0
 		period 10
@@ -74870,6 +75049,7 @@ system Ordelukor
 	trade Medical 684
 	trade Metal 281
 	trade Plastic 493
+	fleet "Dels Frontier Merchant" 800
 	object
 		sprite star/g5
 		period 10
@@ -74883,16 +75063,18 @@ system Ordelukor
 		period 136.952
 	object
 		sprite planet/ocean5
-		distance 884.08
-		period 420.588
+		distance 858.552
+		period 402.504
+		offset 201.182
 		object
 			sprite planet/lava0
 			distance 138
 			period 19.5901
 	object
 		sprite planet/gas12
-		distance 2085.52
-		period 1523.85
+		distance 2059.99
+		period 1495.95
+		offset 341.751
 		object
 			sprite planet/miranda
 			distance 278
@@ -83110,6 +83292,7 @@ system Ruklernul
 	trade Metal 237
 	trade Plastic 271
 	fleet "Dels Outward Merchant" 2000
+	fleet "Dels Frontier Merchant" 1200
 	object
 		sprite star/g5
 		distance 49.47
@@ -91578,6 +91761,7 @@ system Uklerval
 	trade Medical 550
 	trade Metal 425
 	trade Plastic 376
+	fleet "Dels Frontier Merchant" 800
 	object
 		sprite star/k0
 		period 10
@@ -93912,6 +94096,7 @@ system Veeloor
 	trade Medical 774
 	trade Metal 238
 	trade Plastic 292
+	fleet "Dels Frontier Merchant" 1000
 	object
 		sprite star/k5
 		period 10
@@ -100932,6 +101117,18 @@ planet Kateolr
 	description .
 	spaceport .
 
+planet Ke'lokunre
+	landscape land/sivael6
+	description .
+	spaceport .
+	"required reputation" 2
+
+planet Ke'uleko
+	landscape land/sivael0
+	description .
+	spaceport .
+	"required reputation" 2
+
 planet Keadour
 	landscape land/mountain25-spfld
 	description .
@@ -101007,6 +101204,11 @@ planet Kilarbasin
 	spaceport .
 	"required reputation" 5
 
+planet Kileedalre
+	landscape land/land31
+	description `A terrestrial planet full of life. Large part of the planet seems to be untouched by the Dels as most of their towns so far sits closer to the shore.`
+	spaceport `The spaceport is located in one of the bigger town on a large island off the coast of the main continent connected by a bridge. Road network between towns here appears to be under construction. `
+
 planet Kilino
 	attributes Geeva
 	landscape land/sea13-sfiera
@@ -101035,10 +101237,34 @@ planet Ko'ami
 	spaceport .
 	"required reputation" 1
 
+planet Ko'coqenril
+	landscape land/snowmountains2
+	description .
+	spaceport .
+	"required reputation" 3
+
 planet "Ko'da Mose"
 	landscape land/lava0
 	description `This planet is heavily mined for their resources by autonomus mining machines. Lands drained of their resource were converted into massive factories capable of turning raw materials into a finish product by itself.`
 	spaceport `The spaceport is located in the centre of the factories with rows and rows of hangar bays stacked into a large square tower. Everything is largely autonomus with a few Kumakk around only to monitor the machines.`
+
+planet Ko'elzuxen
+	landscape land/snow2
+	description .
+	spaceport .
+	"required reputation" 4
+
+planet Ko'korcela
+	landscape land/snow7
+	description .
+	spaceport .
+	"required reputation" 3
+
+planet Ko'ledolr
+	landscape land/snow8
+	description .
+	spaceport .
+	"required reputation" 2
 
 planet Ko'senai
 	landscape land/fog0
@@ -101046,6 +101272,12 @@ planet Ko'senai
 	spaceport .
 	"required reputation" 1
 	security 0.3
+
+planet Ko'urelacun
+	landscape land/sky9
+	description ,
+	spaceport .
+	"required reputation" 2
 
 planet Kogano
 	landscape land/hills1
@@ -101183,6 +101415,12 @@ planet Kukoga
 	spaceport .
 	"required reputation" 1
 
+planet Kul'elrel
+	landscape land/bwerner2
+	description .
+	spaceport .
+	"required reputation" 2
+
 planet Kulderva
 	landscape land/moutaingrey1
 	description `There is only one continent on this planet centred at a colossal crater that can easily place a large moon inside. Numerous pillars punches high into the clouds curved like rib bones forming a cage around the the crater. Inside the crater is empty but patches of moss on the stone surfaces. A number more of mountain ranges surround the crater in folds with peaks getting higher and higher and it closes to the edge of the crater. Towards the edge of the continent is more tame, with mostly hills hosting variety of biomes from tropical forest up to taiga and tundra at the far north. You can see small bushes and tall grasses moving from tiny animals movement but there is no sign of any animal larger than that.`
@@ -101214,7 +101452,7 @@ planet Kurtelo
 planet Lakrelna
 	landscape land/moutainsnow4
 	description `An odd planet where the temperature remains very low despite being on the closer side to the star.`
-	description `One of the primary industry here appears to be mining, though unlike regular open pit mines normally found elsewhere, here metals are mined with large cutters carving solid chips out of the surface.`
+	description `	One of the primary industry here appears to be mining, though unlike regular open pit mines normally found elsewhere, here metals are mined with large cutters carving solid chips out of the surface.`
 	spaceport `The construction here have heavy emphasis on using steel for structural components and surface. With somesort of coating these steel are warm to touch even when the temperature outside is near zero celcius.`
 
 planet Lamarre
@@ -101317,7 +101555,7 @@ planet Lermoili
 planet Lertanukel
 	landscape land/beach1
 	description `Large oceanic planet with three large continent streched longitudinally located close together around the equator of the planet.`
-	description `Erader settlements is mostly clustered around a bigger city leaving area further away completely untouched.`
+	description `	Erader settlements is mostly clustered around a bigger city leaving area further away completely untouched.`
 	spaceport .
 
 planet Lerwer
@@ -101801,6 +102039,11 @@ planet Ntteron
 	outfitter "Zorcn Advanced"
 	outfitter "Neyton Outfits"
 
+planet Nukar'rokul
+	landscape land/land28
+	description .
+	spaceport .
+
 planet Nulekcurda
 	landscape land/mountain3
 	description `Majority of the planet surface is cold, dry land and ranges of mountains scattered across the land. Small pockets of lakes form in some area around the equator deep in the land surrounded by mountains. The largest body of water on the planet is no larger than a medium sized continent.`
@@ -102245,6 +102488,11 @@ planet Uglurren
 planet Ukborta
 	landscape land/lava0
 	description ..
+	spaceport .
+
+planet Uo'kodan
+	landscape land/beach5
+	description .
 	spaceport .
 
 planet "Ur sos"
