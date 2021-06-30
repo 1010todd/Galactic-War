@@ -454,7 +454,7 @@ outfit "Cokor Thruster"
 	"flare sprite" "effect/kumakk flare/tiny"
 		"frame rate" 6
 	"flare sound" "plasma tiny"
-	description "Kumakk Thruster."
+	description "Smallest Kumakk Thruster, comes with built-in afterburner."
 	
 outfit "Kolun'a Thruster"
 	category "Engines"
@@ -475,7 +475,7 @@ outfit "Kolun'a Thruster"
 	"flare sprite" "effect/kumakk flare/small"
 		"frame rate" 6
 	"flare sound" "plasma small"
-	description "Kumakk Thruster"
+	description "Small Kumakk Thruster with built-in afterburner."
 	
 outfit "Lelu'a Thruster"
 	category "Engines"
@@ -495,8 +495,8 @@ outfit "Lelu'a Thruster"
 	"afterburner effect" "kumakk large afterburner"
 	"flare sprite" "effect/kumakk flare/medium"
 		"frame rate" 6
-	"flare sound" "plasma small"
-	description "Kumakk Thruster"
+	"flare sound" "plasma medium"
+	description "Medium Kumakk Thruster with built-in afterburner"
 	
 outfit "Mocoro Thruster"
 	category "Engines"
@@ -517,10 +517,10 @@ outfit "Mocoro Thruster"
 	"flare sprite" "effect/kumakk flare/large"
 		"frame rate" 6
 	"flare sound" "plasma large"
-	description "Kumakk Thruster"
+	description "Large Kumakk Thruster with built-in afterburner"
 
 effect "kumakk small afterburner"
-	sprite "effect/kumakk flare/large afterburner"
+	sprite "effect/kumakk flare/small afterburner"
 		"no repeat"
 		"frame rate" 30
 	sound "ionic afterburner"
@@ -530,7 +530,7 @@ effect "kumakk small afterburner"
 	"velocity scale" 1.
 
 effect "kumakk medium afterburner"
-	sprite "effect/kumakk flare/large afterburner"
+	sprite "effect/kumakk flare/medium afterburner"
 		"no repeat"
 		"frame rate" 26
 	sound "ionic afterburner"

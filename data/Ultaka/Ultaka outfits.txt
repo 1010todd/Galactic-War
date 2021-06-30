@@ -1,4 +1,8 @@
 #
+#Ultaka Outfits will probably beconsidered horribly inefficient in energy and most likely required to be paired with their absurdly powerful generators
+#
+#
+
 # ========Power===============
 outfit "B60 Ve'el Core"
 	category "Power"
@@ -133,12 +137,13 @@ outfit "Kel'aku Engines" #Type-1
 	"turning energy" 10
 	"turning heat" 17
 	"afterburner thrust" 88
-	"afterburner energy" 88
+	"afterburner energy" 44
 	"afterburner heat" 90
 	"hyperdrive" 1
 	"jump drive" 1
 	"jump speed" 10
 	"jump effect" "ultaka gate drive"
+	"slowing protection" 3
 	"flare sprite" "effect/ultaka flare/huge"
 		"frame rate" 30
 	"flare sound" "plasma huge"
@@ -175,7 +180,7 @@ outfit "DR Drive" #Type-2
 	"jump speed" 10
 	"jump effect" "ultaka gate drive"
 	"afterburner thrust" 60
-	"afterburner energy" 62
+	"afterburner energy" 30
 	"afterburner heat" 58
 	"slowing protection" 12
 	"slowing resistance" 8
@@ -200,8 +205,9 @@ outfit "Kel'aku-Cu Engines" #Type-1S
 	"jump speed" 10
 	"jump effect" "ultaka gate drive"
 	"afterburner thrust" 45
-	"afterburner energy" 45
+	"afterburner energy" 22.5
 	"afterburner heat" 50
+	"slowing protection" 3
 	"flare sprite" "effect/ultaka flare/small"
 		"frame rate" 30
 	"flare sound" "plasma small"
