@@ -523,7 +523,7 @@ outfit "Dakte-1 Storage"
 
 outfit "Saikel-4 Launcher" #SK4
 	category "Secondary Weapons"
-	cost 470000
+	cost 78000
 	thumbnail "outfit/thunderhead launcher"
 	"mass" 7
 	"outfit space" -30
@@ -538,7 +538,7 @@ outfit "Saikel-4 Launcher" #SK4
 		ammo "Saikel-4 Missile"
 		icon "icon/thunderhead"
 		"submunition" "sk4" 8
-		"split range" 600
+		"split range" 500
 		"fire effect" "meteor fire"
 		"die effect" "missile death"
 		"hit effect" "medium explosion"
@@ -554,8 +554,6 @@ outfit "Saikel-4 Launcher" #SK4
 		"homing" 3
 		"radar tracking" .8
 		"missile strength" 10
-		"shield damage" 88
-		"hull damage" 76
 		"hit force" 68
 	description ""
 	
@@ -585,12 +583,12 @@ outfit "sk4"
 		"velocity" 15
 		"lifetime" 200
 		"acceleration" 1.4
-		"drag" .1
+		"drag" .08
 		"turn" 3
 		"homing" 2
 		"optical tracking" .3
-		"shield damage" 20
-		"hull damage" 20
+		"shield damage" 40
+		"hull damage" 40
 		"hit force" 4
 		"missile strength" 1
 		
@@ -602,7 +600,8 @@ outfit "Dels Ramscoop"
 	thumbnail "outfit/ramscoop"
 	"mass" 10
 	"outfit space" -10
-	"ramscoop" 2
+	"ramscoop" 1.5
+	"solar heat" .5
 	description "These ramscoop provide Dels captain alternative to outfitting with fuel pods for long range travel."
 	
 #=========================================[Engines]=============================

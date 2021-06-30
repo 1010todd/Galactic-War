@@ -188,30 +188,30 @@ ship "Qoro(S) Elgarel"
 		under
 	"reverse engine" -22 -19
 		zoom .5
-		angle 180
+		angle 0
 		under
 	"reverse engine" 22 -19
 		zoom .5
-		angle 180
+		angle 0
 		under
 	"steering engine" -22 -19
 		zoom .3
-		angle 0
+		angle 90
 		under
 		left
 	"steering engine" 22 -19
 		zoom .3
-		angle 0
+		angle -90
 		under
 		right
 	"steering engine" -32.5 13.5
 		zoom .3
-		angle 0
+		angle 90
 		under
 		right
 	"steering engine" 32.5 13.5
 		zoom .3
-		angle 0
+		angle -90
 		under
 		left
 	explode "tiny explosion" 60

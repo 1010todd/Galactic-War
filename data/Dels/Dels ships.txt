@@ -95,11 +95,11 @@ ship "Dels Serdeen"
 		under
 	"reverse engine" -4 -52
 		zoom .3
-		angle 180
+		angle 0
 		under
 	"reverse engine" 4 -52
 		zoom .3
-		angle 180
+		angle 0
 		under
 	explode "tiny explosion" 10
 	explode "small explosion" 5
@@ -468,11 +468,11 @@ ship "Dels Derso"
 		under
 	"reverse engine" -25.5 -6
 		zoom 1
-		angle 180
+		angle 0
 		under
 	"reverse engine" 25.5 -6
 		zoom 1
-		angle 180
+		angle 0
 		under
 	"steering engine" -25.5 -6
 		zoom .3
@@ -778,30 +778,29 @@ ship "Dels Darca"
 		licenses
 			"Dels Admiral"
 		"cost" 9000000
-		"shields" 18500
-		"hull" 7500
-		"mass" 920
+		"shields" 22600
+		"hull" 12600
+		"mass" 1720
 		"required crew" 200
 		"bunks" 600
 		"drag" 20
 		"heat dissipation" .4
-		"outfit space" 1470
+		"outfit space" 1170
 		"weapon capacity" 450
 		"engine capacity" 340
 		"fuel capacity" 600
-		"cargo space" 60
+		"cargo space" 80
 		weapon
 			"blast radius" 160
 			"shield damage" 1600
 			"hull damage" 800
 			"hit force" 5400
 	outfits
-		
 		"Ganoau Anti-Missile" 2
 		"Skue-8 Turret" 2
 		"Kotdar Turret" 4
-		"Saikel-4 Launcher" 2
-		"Saikel-4 Missile" 60
+		"Saikel-4 Launcher" 6
+		"Saikel-4 Missile" 320
 		
 		"Liquid Nitrogen Cooler"
 		"Kaekur Shield Generator"
@@ -813,6 +812,18 @@ ship "Dels Darca"
 		
 	gun -36.5 -307
 	gun 36.5 -307
+	gun -77 -77
+		"angle" 90
+		"parallel"
+	gun 77 -77
+		"angle" -90
+		"parallel"
+	gun -79.5 -53
+		"angle" 90
+		"parallel"
+	gun 79.5 -53
+		"angle" -90
+		"parallel"
 	turret -43.5 -193.5 "Skue-8 Turret"
 	turret 43.5 -193.5 "Ganoau Anti-Missile"
 	turret -49.5 -132.5 
@@ -821,6 +832,10 @@ ship "Dels Darca"
 	turret 103 88.5
 	turret -109 147.5 "Ganoau Anti-Missile"
 	turret 109 147.5 "Skue-8 Turret"
+	bay "Drone" -60.5 46 left
+	bay "Drone" 60.5 46 right
+	bay "Drone" -60.5 46 left
+	bay "Drone" 60.5 46 right
 	bay "Drone" -60.5 46 left
 	bay "Drone" 60.5 46 right
 	bay "Drone" -60.5 46 left
@@ -847,30 +862,30 @@ ship "Dels Darca"
 		under
 	"reverse engine" -34.5 -311
 		zoom 1
-		angle 180
+		angle 0
 		under
 	"reverse engine" 34.5 -311
 		zoom 1
-		angle 180
+		angle 0
 		under
 	"steering engine" -57 -266
 		zoom 1
-		angle -90
+		angle 90
 		under
 		right
 	"steering engine" 57 -266
 		zoom 1
-		angle 90
+		angle -90
 		under
 		left
 	"steering engine" -82.5 258.5
 		zoom 1
-		angle -90
+		angle 90
 		under
 		right
 	"steering engine" 82.5 258.5
 		zoom 1
-		angle 90
+		angle -90
 		under
 		left
 	explode "tiny explosion" 18

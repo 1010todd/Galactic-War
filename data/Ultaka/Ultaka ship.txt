@@ -48,11 +48,11 @@ ship "Ultaka Hunter"
 		under
 	"reverse engine" -18 -14.5
 		zoom 1
-		angle 180
+		angle 0
 		under
 	"reverse engine" 18 -14.5
 		zoom 1
-		angle 180
+		angle 0
 		under
 	explode "tiny explosion" 60
 	explode "small explosion" 40
@@ -132,11 +132,11 @@ ship "Ultaka Dominator"
 		right
 	"reverse engine" -20.5 -94.5
 		zoom 1
-		angle 180
+		angle 0
 		under
 	"reverse engine" 20.5 -94.5
 		zoom 1
-		angle 180
+		angle 0
 		under
 	explode "tiny explosion" 12
 	explode "small explosion" 16
@@ -207,11 +207,11 @@ ship "Ultaka Annihilator"
 		under
 	"reverse engine" -12.5 -56
 		zoom 1
-		angle 180
+		angle 0
 		under
 	"reverse engine" 12.5 -56
 		zoom 1
-		angle 180
+		angle 0
 		under
 	explode "tiny explosion" 12
 	explode "small explosion" 16
@@ -283,50 +283,50 @@ ship "Ultaka Summoner"
 		under
 	"reverse engine" -59.5 -319
 		zoom 1
-		angle 180
+		angle 0
 		under
 	"reverse engine" 59.5 -319
 		zoom 1
-		angle 180
+		angle 0
 		under
 	"steering engine" -99.5 -230.5
 		zoom .5
-		angle -90
+		angle 90
 		under
 		right
 	"steering engine" 99.5 -230.5
 		zoom .5
-		angle 90
+		angle -90
 		under
 		left
 	"steering engine" -99.5 -230.5
 		zoom .5
-		angle -90
+		angle 90
 		over
 		right
 	"steering engine" 99.5 -230.5
 		zoom .5
-		angle 90
+		angle -90
 		over
 		left
 	"steering engine" -122.5 177.5
 		zoom .5
-		angle -90
+		angle 90
 		under
 		left
 	"steering engine" 122.5 177.5
 		zoom .5
-		angle 90
+		angle -90
 		under
 		right
 	"steering engine" -123.5 203.5
 		zoom .5
-		angle -90
+		angle 90
 		under
 		left
 	"steering engine" 123.5 203.5
 		zoom .5
-		angle 90
+		angle -90
 		under
 		right
 	bay "Fighter" -121 -2
