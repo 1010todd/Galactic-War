@@ -2,11 +2,11 @@
 #I'll try to update this if I don't forget.
 #Please don't mess with this btw.
 
-mission "GW Version: v0.1.2-A"
+mission "GW Version: v0.1.2-B"
 	landing
 	invisible
 	on offer
-		set "GW Version: v0.1.2-A"
+		set "GW Version: v0.1.2-B"
 		clear "GW Version: v0.1.1-B"
 		clear "GW Version: v0.1.1-A"
 		fail
