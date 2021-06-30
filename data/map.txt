@@ -40228,6 +40228,7 @@ system Kethren
 	habitable 858.28
 	belt 1203
 	link Kethurva
+	link Kuvynra
 	link Urkvulnar
 	asteroids "small rock" 1 8.9378
 	asteroids "medium rock" 6 5.0025
@@ -40292,6 +40293,7 @@ system Kethurva
 	link Bhakrul
 	link Ismura
 	link Kethren
+	link Kuvynra
 	asteroids "medium rock" 6 4.3416
 	asteroids "large rock" 20 4.536
 	asteroids "small metal" 43 4.2768
@@ -42707,8 +42709,8 @@ system Ko'couezur
 	trade Metal 0
 	trade Plastic 0
 	fleet "Kumakk Miner" 1400
-	fleet "Kumakk Logistic" 500
-	fleet "Kumakk Security" 1200
+	fleet "Kumakk Logistic" 800
+	fleet "Kumakk Security" 1600
 	object
 		sprite star/k0
 		period 10
@@ -43299,6 +43301,8 @@ system Ko'eodor
 	trade Medical 0
 	trade Metal 0
 	trade Plastic 0
+	fleet "Kumakk Logistic" 600
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/k0
 		distance 27.8655
@@ -43909,6 +43913,8 @@ system Ko'komo
 	minables neodymium 25 5.38984
 	minables titanium 1 7.10692
 	fleet "Kumakk Miner" 1200
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/m0
 		period 10
@@ -44440,7 +44446,7 @@ system Ko'meoso
 	minables gold 2 3.80007
 	minables lead 3 5.83907
 	fleet "Kumakk Logistic" 500
-	fleet "Kumakk Security" 1200s
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/a5
 		distance 34.9714
@@ -44509,6 +44515,7 @@ system Ko'moda
 	trade Metal 0
 	trade Plastic 0
 	fleet "Kumakk Miner" 1200
+	fleet "Kumakk Logistic" 2000
 	object
 		sprite star/f0
 		distance 40.9759
@@ -46132,6 +46139,8 @@ system Ko'zouzo
 	asteroids "small metal" 1 0.99
 	asteroids "medium metal" 2 1.62
 	asteroids "large metal" 2 1.38
+	fleet "Kumakk Logistic" 600
+	fleet "Kumakk Security" 1200
 	object
 		sprite star/g0
 		period 10
@@ -50288,6 +50297,66 @@ system Kuveralkel
 			sprite planet/oberon
 			distance 502
 			period 37.0965
+
+system Kuvynra
+	pos -52720.5 -54323.1
+	government "Tehru Insker"
+	habitable 466.56
+	belt 1127
+	link Kethren
+	link Kethurva
+	link Skkryu
+	asteroids "small rock" 2 5.8696
+	asteroids "medium rock" 16 5.9334
+	asteroids "large rock" 3 6.1886
+	asteroids "small metal" 1 5.3592
+	asteroids "medium metal" 78 9.4424
+	asteroids "large metal" 9 9.3148
+	minables aluminum 26 12.1005
+	minables iron 6 14.1768
+	trade Clothing 233
+	trade Electronics 781
+	trade Equipment 438
+	trade Food 365
+	trade "Heavy Metals" 1209
+	trade Industrial 587
+	trade "Luxury Goods" 1002
+	trade Medical 826
+	trade Metal 252
+	trade Plastic 291
+	object
+		sprite star/m4
+		distance 55.5
+		period 21.6566
+		offset 180
+	object
+		sprite star/m4
+		distance 55.5
+		period 21.6566
+	object
+		sprite planet/rock13
+		distance 314.11
+		period 103.093
+		object
+			sprite planet/rock7
+			distance 149
+			period 22.8635
+	object
+		sprite planet/ocean9
+		distance 723.27
+		period 360.211
+	object
+		sprite planet/gas11
+		distance 1315.83
+		period 883.906
+		object
+			sprite planet/dust0
+			distance 249
+			period 12.9592
+	object
+		sprite planet/gas6
+		distance 1948.19
+		period 1592.4
 
 system Kyueirai
 	pos -49635 -55902.7
@@ -87429,6 +87498,7 @@ system Skkryu
 	government "Tehru Insker"
 	habitable 945
 	belt 1813
+	link Kuvynra
 	link Mehkur
 	link Uhsin
 	asteroids "small rock" 10 5.292
