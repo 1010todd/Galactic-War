@@ -358,7 +358,7 @@ outfit "Skue-8 Turret"
 
 outfit "Skue-8 Quad Turret"
 	category "Turrets"
-	cost 33000
+	cost 162000
 	thumbnail "outfit/dels skue8"
 	"mass" 48
 	"outfit space" -48
@@ -381,13 +381,13 @@ outfit "Skue-8 Quad Turret"
 		"hull damage" 10
 		"damage dropoff" 350
 		"dropoff modifier" .7
-	description "Turreted version of Skue-8 blaster."
+	description "Skue-8 blasters, 4 of it on a turret."
 
 		
 outfit "Kotdar Turret" #HA1
 	category "Turrets"
 	"cost" 350000
-	thumbnail "outfit/unknown"
+	thumbnail "outfit/dels sokak turret"
 	"mass" 50
 	"outfit space" -50
 	"weapon capacity" -50
@@ -395,8 +395,8 @@ outfit "Kotdar Turret" #HA1
 	weapon
 		sprite "projectile/particle beam"
 		sound "particle"
-		"hardpoint sprite" "hardpoint/blaster turret"
-		"hardpoint offset" 9.
+		"hardpoint sprite" "hardpoint/dels sokak turret hp"
+		"hardpoint offset" 6.
 		"hit effect" "particle impact"
 		"inaccuracy" 1
 		"turret turn" 1.2
@@ -720,7 +720,7 @@ outfit "Fekorna Thruster"
 	"flare sprite" "effect/plasma flare/small"
 		"frame rate" 6
 	"flare sound" "plasma small"
-	description ""
+	description "Dels Plasma"
 
 outfit "Ornao Thruster"
 	category "Engines"
@@ -735,6 +735,7 @@ outfit "Ornao Thruster"
 	"flare sprite" "effect/plasma flare/medium"
 		"frame rate" 7
 	"flare sound" "plasma medium"
+	description "Dels Plasma"
 
 outfit "Qutaran Thruster"
 	category "Engines"
@@ -749,6 +750,7 @@ outfit "Qutaran Thruster"
 	"flare sprite" "effect/plasma flare/large"
 		"frame rate" 8
 	"flare sound" "plasma large"
+	description "Dels Plasma"
 
 outfit "Vikuan Thruster"
 	category "Engines"
@@ -763,6 +765,7 @@ outfit "Vikuan Thruster"
 	"flare sprite" "effect/plasma flare/huge"
 		"frame rate" 9
 	"flare sound" "plasma huge"
+	description "Dels Plasma"
 
 
 outfit "Auker Steering"
@@ -778,6 +781,7 @@ outfit "Auker Steering"
 	"steering flare sprite" "effect/plasma flare/tiny"
 		"frame rate" 5
 	"steering flare sound" "plasma tiny"
+	description "Dels Plasma"
 
 outfit "Fekorna Steering"
 	category "Engines"
@@ -792,6 +796,7 @@ outfit "Fekorna Steering"
 	"steering flare sprite" "effect/plasma flare/small"
 		"frame rate" 6
 	"steering flare sound" "plasma small"
+	description "Dels Plasma"
 
 outfit "Ornao Steering"
 	category "Engines"
@@ -806,6 +811,7 @@ outfit "Ornao Steering"
 	"steering flare sprite" "effect/plasma flare/medium"
 		"frame rate" 7
 	"steering flare sound" "plasma medium"
+	description "Dels Plasma"
 
 outfit "Qutaran Steering"
 	category "Engines"
@@ -820,6 +826,7 @@ outfit "Qutaran Steering"
 	"steering flare sprite" "effect/plasma flare/large"
 		"frame rate" 8
 	"steering flare sound" "plasma large"
+	description "Dels Plasma"
 
 outfit "Vikuan Steering"
 	category "Engines"
@@ -834,6 +841,7 @@ outfit "Vikuan Steering"
 	"steering flare sprite" "effect/plasma flare/huge"
 		"frame rate" 9
 	"steering flare sound" "plasma huge"
+	description "Dels Plasma"
 
 	
 #=========================================[Shields]=============================

@@ -119,6 +119,24 @@ fleet "Dels Frontier Merchant"
 		"Dels Deeris" 3
 	variant 60
 		"Dels Serdeen"
+	variant 40
+		"Desin Aserap"
+	variant 30
+		"Ekdor Skue8"
+	variant 42
+		"Eudaion Shield"
+	variant 42
+		"Eudaion Shield"
+		"Desin Aserap"2
+		"Dels Desin"
+	variant 42
+		"Eudaion Shield"
+		"Dels Deeris"
+	variant 42
+		"Eudaion Shield" 2
+		"Ekdor Georlen" 2
+	variant 30
+		"Eudaion Engine"
 
 fleet "Dels Central Merchant"
 	government "Dels"
@@ -178,8 +196,16 @@ fleet "Dels Outward Merchant"
 		"Dels Donson"
 	variant 100
 		"Dels Desen"
+	variant 50
+		"Ekdor Georlen"
+	variant 30
+		"Ekdor Georlen" 2
 	variant 100
 		"Dels Desin"
+	variant 80
+		"Desin Skue8"
+	variant 50
+		"Ekdor Skue8"
 	variant 100
 		"Dels Sendo" 2
 		"Dels Desin"
@@ -200,18 +226,39 @@ fleet "Dels Outward Merchant"
 		"Dels Ekdor" 2
 	variant 70
 		"Dels Manoon"
+		"Ekdor Skue8" 2
+	variant 70
+		"Dels Manoon"
 		"Dels Desin" 2
+	variant 60
+		"Dels Manoon"
+		"Desin Skue8" 3
+	variant 60
+		"Dels Manoon"
+		"Ekdor Georlen"
+		"Desin Skue8" 2
 	variant 70
 		"Dels Manoon" 3
 		"Dels Secsen" 3
 		"Dels Desin" 2
 	variant 50
 		"Dels Eudaion"
+	variant 42
+		"Eudaion Shield"
+	variant 42
+		"Eudaion Shield"
+		"Dels Deeris"
+	variant 42
+		"Eudaion Shield" 2
+		"Ekdor Georlen" 2
 	variant 60
 		"Dels Eudaion"
 		"Dels Derso" 3
 	variant 60
 		"Dels Eudaion" 2
+	variant 60
+		"Dels Eudaion" 2
+		"Ekdor Georlen" 2
 	variant 40
 		"Dels Dacar"
 		"Dels Dea" 3
@@ -220,6 +267,16 @@ fleet "Dels Outward Merchant"
 		"Dels Dea" 5
 		"Dels Manoon" 2
 		"Dels Deeris" 3
+	variant 40
+		"Dels Dacar"
+		"Dels Dea" 5
+		"Dels Manoon" 2
+		"Dels Deeris" 3
+		"Ekdor Georlen" 3
+	variant 40
+		"Eudaion Engine"
+	variant 1
+		"Dacar Tehru"
 	
 
 		
@@ -234,6 +291,8 @@ fleet "Dels miner"
 		"Dels Desin"
 	variant 60
 		"Dels Desin" 2
+	variant 50
+		"Desin Skue8"
 	variant 20
 		"Dels Desin" 4
 	variant 50
@@ -258,39 +317,51 @@ fleet "Dels Ufulre Patrol"
 	personality
 		confusion 30
 		plunders harvests
-	variant 80 
-		"Dels Desin"
-	variant 60
-		"Dels Desin" 2
+	variant 60 
+		"Ulfulre Desin"
+	variant 40
+		"Ulfulre Desin" 2
 	variant 20
-		"Dels Desin" 4
+		"Ulfulre Desin" 4
 	variant 5
-		"Dacar heavy"
+		"Ulfulre Dacar"
 	variant 1
-		"Dacar heavy"
-		"Dels Derso" 3
+		"Ulfulre Dacar"
+		"Ulfulre Derso" 3
 	variant 20
-		"Dels Senro"
+		"Ulfulre Senro"
+	variant 15
+		"Ulfulre Senro Blaster"
+		"Ulfulre Senro"
+	variant 11
+		"Ulfulre Senro Blaster"
 	variant 10
-		"Dels Senro" 3
+		"Ulfulre Senro" 3
 	variant 10
-		"Dels Secsen" 3
-	variant 50
-		"Dels Derso" 5
-	variant 70
-		"Dels Derso"
+		"Ulfulre Secsen" 3
+	vairant 12
+		"Ulfulre Secsen Shield"
+		"Ulfulre Secsen"
+		"Ulfulre Secsen Vokkar"
+	vairant 12
+		"Ulfulre Secsen Shield"
+		"Ulfulre Secsen Vokkar" 2
+	variant 41
+		"Ulfulre Derso" 5
 	variant 60
-		"Dels Derso" 3
+		"Ulfulre Derso"
+	variant 40
+		"Ulfulre Derso" 3
 	variant 2
-		"Dels Dacar"
+		"Ulfulre Dacar"
 		"Dels Dea" 4
 	variant 1
-		"Dacar heavy"
+		"Ulfulre Dacar"
 		"Dels Dea" 5
-	variant 30
-		"Dels Ekdor"
-	variant 12
-		"Dels Ekdor" 2
+	variant 61
+		"Ulfulre Ekdor"
+	variant 45
+		"Ulfulre Ekdor" 2
 
 fleet "Dels Ufulre Raid"
 	government "Dels Ufulre"
@@ -300,35 +371,44 @@ fleet "Dels Ufulre Raid"
 		confusion 30
 		plunders harvests
 	variant 20
-		"Dels Desin" 4
+		"Ulfulre Desin" 4
 	variant 10
-		"Dacar heavy"
+		"Ulfulre Dacar"
 		"Dels Dea" 5
 	variant 10
-		"Dacar heavy"
+		"Ulfulre Dacar"
 		"Dels Dea" 5
-		"Dels Derso" 3
+		"Ulfulre Derso" 3
 	variant 20
-		"Dels Senro" 3
+		"Dels Deeris" 3
+	variant 20
+		"Ulfulre Senro" 3
 	variant 10
-		"Dels Secsen" 3
+		"Ulfulre Secsen" 3
 	variant 50
-		"Dels Derso" 5
+		"Ulfulre Derso" 5
 	variant 30
-		"Dels Derso" 2
-		"Dels Secsen" 3
-	variant 60
-		"Dels Derso" 3
+		"Ulfulre Secsen" 3
+		"Ulfulre Derso" 2
+	variant 30
+		"Ulfulre Secsen Vokkar" 3
+	variant 40
+		"Ulfulre Derso" 3
 	variant 20
 		"Dels Dacar"
 		"Dels Dea" 5
-		"Dels Ekdor" 3
-		"Dels Secsen" 2
+		"Ulfulre Ekdor" 3
+		"Ulfulre Secsen" 2
 	variant 10
-		"Dacar heavy"
+		"Ulfulre Dacar"
 		"Dels Dea" 5
-	variant 30
-		"Dels Ekdor" 2
-		"Dels Derso" 2
 	variant 20
-		"Dels Ekdor" 3
+		"Ulfulre Dacar"
+		"Dels Dea" 5
+		"Ulfulre Secsen Vokkar"2
+		"Ulfulre Secsen Shield"
+	variant 30
+		"Ulfulre Ekdor" 2
+		"Ulfulre Derso" 2
+	variant 20
+		"Ulfulre Ekdor" 3
