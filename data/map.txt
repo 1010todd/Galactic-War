@@ -4143,7 +4143,6 @@ system Ardeedur
 	trade Metal 254
 	trade Plastic 307
 	fleet "Dels Central Merchant" 600
-	fleet "Dels Central Merchant" 700
 	object
 		sprite star/g5
 		period 10
@@ -5098,7 +5097,7 @@ system Arrposil
 		sprite planet/desert9
 		distance 573.503
 		period 151.595
-	object
+	object Rarellgon
 		sprite planet/desert3
 		distance 964.943
 		period 330.852
@@ -7345,6 +7344,7 @@ system Boggale
 	trade Metal 314
 	trade Plastic 388
 	fleet Ignaggen 700
+	fleet "Kager Ignaggen" 1100
 	object
 		sprite star/m0
 		period 10
@@ -7352,7 +7352,7 @@ system Boggale
 		sprite planet/lava3
 		distance 154.25
 		period 42.8374
-	object
+	object Garellion
 		sprite planet/desert2
 		distance 356.54
 		period 150.538
@@ -8860,7 +8860,7 @@ system Ceillame
 system Celvorle
 	pos -51264.3 -55728.6
 	government "Dels Kaote"
-	habitable 1566.68
+	habitable 425.92
 	belt 1680
 	link Dukoree
 	link Hevonor
@@ -8880,42 +8880,32 @@ system Celvorle
 	fleet "Dels Outward Merchant" 1000
 	fleet "Dels Frontier Merchant" 800
 	object
-		sprite star/g0
-		distance 34.7921
-		period 11.9783
+		sprite star/k5
+		period 10
 	object
-		sprite star/k0
-		distance 77.2079
-		period 11.9783
-		offset 180
+		sprite planet/lava1
+		distance 146.16
+		period 34.2483
+	object Vecorul
+		sprite planet/cloud0
+		distance 577
+		period 268.633
+		offset 8.54665
+		object
+			sprite planet/rock17
+			distance 151
+			period 22.8665
+			offset 339.229
 	object
-		sprite planet/cloud8
-		distance 373.898
-		period 73.0633
-		object
-			sprite planet/callisto
-			distance 175
-			period 27.9753
+		sprite planet/oberon
+		distance 1150.84
+		period 756.691
+		offset 3.04252
 	object
-		sprite planet/gas12
-		distance 926.138
-		period 284.828
-	object
-		sprite planet/gas2
-		distance 1689.43
-		period 701.745
-		object
-			sprite planet/ice7
-			distance 212
-			period 18.7033
-		object
-			sprite planet/europa
-			distance 304
-			period 32.1163
-		object
-			sprite planet/dust5
-			distance 394
-			period 47.387
+		sprite planet/gas10
+		distance 2244.93
+		period 2061.58
+		offset 0.57127
 
 system Cenex
 	pos -51673.6 -54811.6
@@ -11245,6 +11235,7 @@ system Deamulur
 	trade Medical 582
 	trade Metal 299
 	trade Plastic 450
+	fleet "Dels Frontier Merchant" 700
 	object
 		sprite star/k0
 		period 10
@@ -14769,6 +14760,8 @@ system Dukelgar
 	trade Plastic 482
 	fleet "Kager Ignaggen" 2000
 	fleet "Dels Dardornai" 1500
+	fleet "Dels Frontier Merchant" 700
+	fleet Ignaggen 800
 	object
 		sprite star/k0
 		period 10
@@ -14847,22 +14840,25 @@ system Dukelor
 		sprite planet/lava1
 		distance 368.53
 		period 86.1108
-	object
+	object Keuluqen
 		sprite planet/desert2
-		distance 675.74
-		period 213.805
+		distance 708.623
+		period 229.599
+		offset 142.845
 	object
 		sprite planet/gas0
-		distance 1155.74
-		period 478.232
+		distance 1188.62
+		period 498.786
+		offset 37.8849
 		object
 			sprite planet/callisto
 			distance 286
 			period 14.1744
 	object
 		sprite planet/gas7
-		distance 3015.95
-		period 2015.97
+		distance 3048.83
+		period 2049.03
+		offset 3.5189
 
 system Dukgelka
 	pos -50203.7 -56271.4
@@ -15095,7 +15091,7 @@ system "Dukor Nor"
 		sprite planet/dust6
 		distance 900.957
 		period 324.434
-	object
+	object Duleekul
 		sprite planet/desert6
 		distance 1125.45
 		period 452.957
@@ -15536,7 +15532,7 @@ system Durdan
 			sprite planet/ice8
 			distance 176
 			period 20.2683
-	object
+	object Dualel
 		sprite planet/cloud4
 		distance 669.13
 		period 276.94
@@ -23894,6 +23890,7 @@ system Gellugardel
 	trade Metal 385
 	trade Plastic 430
 	fleet "Kager Ignaggen" 1000
+	fleet Ignaggen 800
 	object
 		sprite star/k0
 		period 10
@@ -23901,7 +23898,7 @@ system Gellugardel
 		sprite planet/ganymede
 		distance 132.84
 		period 27.7608
-	object
+	object Delrragion
 		sprite planet/desert2
 		distance 326.73
 		period 107.083
@@ -25037,8 +25034,14 @@ system Gioelevel
 			period 35.1373
 	object
 		sprite planet/gas14
-		distance 1941.55
-		period 795.606
+		distance 2048.89
+		period 862.484
+		offset 80.4162
+		object Aggelreal
+			sprite planet/station3
+			distance 244
+			period 15.5218
+			offset 229.609
 
 system Gioneva
 	pos -50264.8 -55636.9
@@ -28219,6 +28222,7 @@ system Haperwagan
 	trade Metal 550
 	trade Plastic 275
 	fleet "Darua Navy" 800
+	fleet "Darua Merchant" 700
 	object
 		sprite star/m8
 		period 10
@@ -30273,7 +30277,7 @@ system Iekega
 		sprite planet/dust1
 		distance 200.49
 		period 55.0218
-	object
+	object Kelveegen
 		sprite planet/cloud3
 		distance 492.74
 		period 211.994
@@ -32022,7 +32026,7 @@ system Iliongis
 			sprite planet/rock0
 			distance 154
 			period 19.9116
-	object
+	object Geddelior
 		sprite planet/forest0
 		distance 737.279
 		period 293.198
@@ -32272,7 +32276,7 @@ system Ilvertel
 		period 3627.81
 
 system Immeal
-	pos -50340.6 -55547
+	pos -50340.6 -55551.4
 	government Ignaggen
 	habitable 1080
 	belt 1486
@@ -35302,6 +35306,7 @@ system Kadukeeva
 	trade Medical 582
 	trade Metal 299
 	trade Plastic 450
+	fleet "Dels Frontier Merchant" 700
 	object
 		sprite star/g5
 		distance 49.8498
@@ -38037,6 +38042,7 @@ system Kegerravo
 	trade Medical 621
 	trade Metal 401
 	trade Plastic 406
+	fleet Ignaggen 700
 	object
 		sprite star/f0
 		period 10
@@ -38873,6 +38879,7 @@ system Kelinorra
 	trade Medical 586
 	trade Metal 318
 	trade Plastic 526
+	fleet Ignaggen 700
 	object
 		sprite star/g5
 		distance 30.4415
@@ -38896,20 +38903,22 @@ system Kelinorra
 		period 323.238
 	object
 		sprite planet/gas1
-		distance 1319.98
-		period 654.781
+		distance 1625.98
+		period 895.196
+		offset 180.332
+		object Kilnerrin
+			sprite planet/station1kd
+			distance 215
+			period 12.6001
 		object
-			sprite planet/ice7
-			distance 228
-			period 13.76
-		object
-			sprite planet/oberon
-			distance 334
-			period 24.3969
+			sprite planet/tethys
+			distance 350
+			period 26.1708
 	object
 		sprite planet/desert3
-		distance 1941.99
-		period 1168.46
+		distance 2363.99
+		period 1569.33
+		offset 96.1168
 		object
 			sprite planet/ice8
 			distance 173
@@ -39011,10 +39020,11 @@ system Keliropor
 	trade Metal 272
 	trade Plastic 303
 	fleet Ignaggen 700
+	fleet "Ignaggen Miner" 1400
 	object
 		sprite star/m0
 		period 10
-	object
+	object Pelorlla
 		sprite planet/rock6
 		distance 250.25
 		period 88.521
@@ -48021,7 +48031,7 @@ system Kreludoe
 		sprite planet/rock4
 		distance 347.1
 		period 78.71
-	object
+	object Duelukane
 		sprite planet/forest2
 		distance 911.34
 		period 334.864
@@ -48680,12 +48690,17 @@ system Kudearo
 		period 229.652
 	object
 		sprite planet/gas13
-		distance 1957.98
-		period 1054.53
+		distance 2243.98
+		period 1293.83
+		offset 77.1132
+		object Ku'dulrena
+			sprite planet/station5
+			distance 299
+			period 14.5954
 		object
-			sprite planet/ice8
-			distance 259
-			period 11.7668
+			sprite planet/dust4
+			distance 447
+			period 26.6791
 
 system Kudelaei
 	pos -49993.1 -56094.9
@@ -63040,6 +63055,7 @@ system Miscorvel
 	trade Metal 228
 	trade Plastic 451
 	fleet "Darua Navy" 800
+	fleet "Darua Merchant" 800
 	object
 		sprite star/g5
 		period 10
@@ -64899,7 +64915,7 @@ system Mordelvek
 	object
 		sprite star/m4
 		period 10
-	object
+	object Mveleeken
 		sprite planet/desert5
 		distance 217.24
 		period 83.8554
@@ -65117,7 +65133,7 @@ system Morkarelu
 		sprite planet/lava5
 		distance 286.379
 		period 64.1698
-	object
+	object Kelhenionar
 		sprite planet/rock8
 		distance 586.189
 		period 187.921
@@ -66689,6 +66705,9 @@ system Mukkaedu
 	trade Medical 524
 	trade Metal 362
 	trade Plastic 529
+	fleet "Darua Merchant" 700
+	fleet "Dels Frontier Merchant" 600
+	fleet Ignaggen 800
 	object
 		sprite star/k0
 		period 10
@@ -66696,7 +66715,7 @@ system Mukkaedu
 		sprite planet/tethys
 		distance 165
 		period 38.4294
-	object
+	object Eradelar
 		sprite planet/desert1
 		distance 472.44
 		period 186.191
@@ -70364,6 +70383,7 @@ system Nerkondir
 	trade Plastic 275
 	fleet "Darua Navy" 800
 	fleet "Darua Miner" 1600
+	fleet "Darua Merchant" 700
 	object
 		sprite star/k5
 		period 10
@@ -70371,7 +70391,7 @@ system Nerkondir
 		sprite planet/desert9
 		distance 206.89
 		period 57.6773
-	object
+	object Lidarkeu
 		sprite planet/forest4
 		distance 434.53
 		period 175.56
@@ -76563,14 +76583,16 @@ system "Qee Bulen"
 		sprite planet/mercury
 		distance 482.591
 		period 107.137
-	object
+	object Eluhelqur
 		sprite planet/gas11
-		distance 1197.08
-		period 418.557
+		distance 1464.29
+		period 566.252
+		offset 89.0378
 	object
 		sprite planet/gas14
-		distance 2115.29
-		period 983.162
+		distance 2123.29
+		period 988.743
+		offset 3.23167
 		object
 			sprite planet/io
 			distance 254
@@ -76713,7 +76735,7 @@ system "Qee Dinar"
 	object
 		sprite star/m4
 		period 10
-	object
+	object Kequrelee
 		sprite planet/venus
 		distance 249.41
 		period 103.155
@@ -76832,7 +76854,7 @@ system "Qee Doar"
 			sprite planet/rhea
 			distance 148
 			period 22.6337
-	object
+	object Qelureen
 		sprite planet/callisto
 		distance 901.01
 		period 329.187
@@ -77034,6 +77056,15 @@ system "Qee Dukur"
 			sprite planet/luna
 			distance 629
 			period 78.5974
+	object
+		sprite planet/gas5
+		distance 3496.56
+		period 3748.86
+		offset 6.44536
+		object Qeluk'lure
+			sprite planet/station5
+			distance 265
+			period 14.3455
 
 system "Qee Dunor"
 	pos -52226.6 -55204.8
@@ -77190,28 +77221,28 @@ system "Qee Fol"
 		period 35.1624
 	object Qee'Sensa
 		sprite planet/desert0
-		distance 427.955
-		period 107.757
-		offset 223.119
+		distance 649.588
+		period 201.514
+		offset 109.445
 	object
 		sprite planet/cloud1
-		distance 781.115
-		period 265.718
-		offset 49.9039
+		distance 1002.75
+		period 386.488
+		offset 88.1638
 		object
 			sprite planet/dust7
 			distance 162
 			period 16.8355
 	object
 		sprite planet/rock14
-		distance 1837.88
-		period 959.008
-		offset 5.73759
+		distance 2059.51
+		period 1137.61
+		offset 111.306
 	object
 		sprite planet/dust4
-		distance 4406.37
-		period 3560.15
-		offset 0.637616
+		distance 4628
+		period 3832.12
+		offset 13.4928
 
 system "Qee Fuour"
 	pos -52248.8 -55481
@@ -77256,7 +77287,7 @@ system "Qee Fuour"
 		sprite planet/callisto
 		distance 513.463
 		period 119.929
-	object
+	object Hulreekel
 		sprite planet/forest3
 		distance 1034.9
 		period 343.17
@@ -78437,7 +78468,7 @@ system "Qee Varmor"
 		sprite planet/cloud5
 		distance 196.29
 		period 49.8638
-	object
+	object Ulkuerel
 		sprite planet/cloud6
 		distance 554.5
 		period 236.75
@@ -80137,7 +80168,7 @@ system Reevukmarai
 		sprite planet/cloud3
 		distance 201.24
 		period 51.7618
-	object
+	object Vulurelan
 		sprite planet/mercury
 		distance 502.88
 		period 204.472
@@ -91015,7 +91046,7 @@ system Udileen
 		sprite planet/desert6
 		distance 226.89
 		period 61.9671
-	object
+	object Kildaven
 		sprite planet/ocean3
 		distance 443.7
 		period 169.462
@@ -91552,6 +91583,7 @@ system Ukdelare
 	trade Medical 582
 	trade Metal 299
 	trade Plastic 450
+	fleet "Dels Frontier Merchant" 700
 	object
 		sprite star/g0
 		distance 16.5197
@@ -94827,6 +94859,7 @@ system Verrelnage
 	trade Medical 620
 	trade Metal 353
 	trade Plastic 503
+	fleet Ignaggen 700
 	object
 		sprite star/g0
 		period 10
@@ -95550,7 +95583,7 @@ system Vikeor
 		sprite planet/dust2
 		distance 120.96
 		period 34.8405
-	object
+	object Korar'alen
 		sprite planet/dust4
 		distance 454.4
 		period 253.676
@@ -98042,7 +98075,7 @@ system Vukruo
 		sprite planet/rock11
 		distance 149.01
 		period 47.637
-	object
+	object Dudeekle
 		sprite planet/ganymede
 		distance 306.82
 		period 140.749
@@ -99753,6 +99786,7 @@ system Yugellar
 	trade Metal 362
 	trade Plastic 389
 	fleet "Kager Ignaggen" 1000
+	fleet Ignaggen 800
 	object
 		sprite star/m0
 		period 10
@@ -100325,6 +100359,13 @@ planet Aeulhen
 	description `A green ball of mostly grasslands and other small green vegatation covering large part of the planet's surface. Ocean split into two, one on each half of the hemisphere. `
 	description `	Towns and cities are usually found along the water bodies. Architecture in each area of the planet appears slightly different to each other, some are very detailed and decorated while another is much more simplistic with focus on functionality.`
 
+planet Aggelreal
+	attributes station
+	landscape land/sivael0
+	description `This station is a little more than some hollowed asteroid. The interior gives similar feel to a cave, maybe more well lit and less humid.`
+	spaceport .
+	outfitter "Ignaggen Basic"
+
 planet Aikino
 	landscape land/sea13-sfiera
 	description .
@@ -100399,8 +100440,12 @@ planet Asokqen
 	description .
 	spaceport .
 	shipyard "Dels Ufulre"
+	outfitter "Dels Basic"
 	"required reputation" 1
 	bribe 0.5
+	tribute 1300
+		threshold 1300
+		fleet "Dels Ulfulre Patrol" 12
 
 planet Aulingar
 	landscape land/canyon6
@@ -100421,6 +100466,7 @@ planet Bunabei
 	landscape land/dune6-harro
 	description .
 	spaceport .
+	outfitter "Dels Ammo"
 
 planet Caree
 	attributes Dels
@@ -100514,6 +100560,11 @@ planet Delro
 	bribe 0.5
 	security 0.9
 
+planet Delrragion
+	landscape land/hills0
+	description .
+	spaceport .
+
 planet Densaer
 	attributes Dels
 	landscape land/badlands5
@@ -100578,8 +100629,12 @@ planet Dolmorikan
 	description .
 	spaceport .
 	shipyard "Dels Ufulre"
+	outfitter "Dels Basic"
 	"required reputation" 2
 	bribe 0.9
+	tribute 3500
+		threshold 2000
+		fleet "Dels Ulfulre Patrol" 18
 
 planet Dolseern
 	attributes Dels
@@ -100608,6 +100663,24 @@ planet Donto
 	bribe 0.2
 	security 0.2
 
+planet Dualel
+	landscape land/hills1
+	description `A mostly barren planet with remains of small towns and cities with architecture unlike those of the Dels visible in a few places. Most of these areas are off limits to citizens.`
+	spaceport .
+	outfitter "Dels Basic"
+
+planet Dudeekle
+	landscape land/canyon05
+	description .
+	spaceport .
+
+planet Duelukane
+	landscape land/sky3
+	description .
+	spaceport .
+	shipyard "Dels Basic"
+	outfitter "Dels Advanced"
+
 planet Dukorde
 	landscape land/sea4
 	description `Blue globe with few small continents here and there. Storm rages all over the planet bringing rains that would last days. Settlements are buit on hills and mountains high above the sea. `
@@ -100625,6 +100698,12 @@ planet Dukreve
 	landscape land/land19
 	description `A cold planet left mostly untouched by the Dels. Storms appears to be fairly common but weak. Some settlements can be seen around the equator of the planet.`
 	spaceport .
+
+planet Duleekul
+	landscape land/sky7
+	description .
+	spaceport .
+	outfitter "Dels Ammo"
 
 planet Dunsirnk
 	landscape land/desert2
@@ -100683,10 +100762,30 @@ planet Elkuordai
 	description .
 	spaceport .
 
+planet Eluhelqur
+	landscape land/myrabella2
+	description `A massice aquatic planet where most land raise barely above the ocean. Tides raise and fall much less than most other planet even land barely above the average waterline stays untouched by the seas for most of the years.`
+	description `	Even with little land, Dels here still build farm and orchards almost everywhere they can. `
+	spaceport .
+	"required reputation" 1
+	tribute 1300
+		threshold 1000
+		fleet "Ulfulre Patrol" 10
+
 planet Endeerai
 	landscape land/fog4
 	description `A green ball of rocks covered in thin layer of moss-like plants and water filled with microscopic algae which in large number reflected green lights. Life other than small aquatic creatures are nearly impossible to find. `
 	spaceport .
+
+planet Eradelar
+	landscape land/sky9
+	description `A densely populated planet with mix of many styles of architecture from the 3 races.`
+	spaceport `This appear to be a trading hub for the 3 races inhabiting this area of space. Bazaar with items from Dels, Ignaggen, and Erader spaces are all gathered here.`
+	shipyard "Dels Basic"
+	shipyard "Erader Basic"
+	outfitter "Dels Advanced"
+	outfitter "Ignaggen Advanced"
+	outfitter "Erader Basic"
 
 planet Erdiuladen
 	landscape land/water3
@@ -100783,6 +100882,13 @@ planet Ganokka
 	spaceport .
 	"required reputation" 1
 
+planet Garellion
+	landscape land/sky9
+	description .
+	spaceport .
+	shipyard "Ignaggen Large"
+	outfitter "Ignaggen Advanced"
+
 planet "Garl 4"
 	landscape land/station2
 	description .
@@ -100793,6 +100899,12 @@ planet Gassilga
 	landscape land/mountain25-spfld
 	description .
 	spaceport .
+
+planet Geddelior
+	landscape land/mfield5
+	description .
+	spaceport .
+	outfitter "Ignaggen Basic"
 
 planet Geenav
 	landscape land/forest0
@@ -101016,6 +101128,16 @@ planet Huderigna
 	outfitter "Dels Basic"
 	outfitter "Ignaggen Basic"
 
+planet Hulreekel
+	landscape land/sea4
+	description .
+	spaceport .
+	outfitter "Dels Basic"
+	"required reputation" 3
+	tribute 2100
+		threshold 1200
+		fleet "Dels Ulfulre Patrol" 12
+
 planet "Hurin Its"
 	landscape land/city2
 	description `This is the Zorcn homeworld, so densely populated some cities have grown so large covering a good portion of the small continent it was built upon along with tall sky scrapers and extremely complex road network no sunlight can touch the ground anymore in some area. With the Nuru intervention and their gigantic white tree here and there acting as air filter, the pollution doesn't seems to be as bad as the most populated human planets.`
@@ -101034,6 +101156,7 @@ planet Ieheder
 	landscape land/sea12-sfiera
 	description .
 	spaceport .
+	outfitter "Dels Ammo"
 
 planet Ieudea
 	attributes mining
@@ -101238,22 +101361,52 @@ planet Kekarle
 	spaceport .
 	"required reputation" 1
 
+planet Kelhenionar
+	landscape land/lava3
+	description .
+	spaceport .
+	outfitter "Ignaggen Basic"
+
 planet Kelranma
 	landscape land/canyon3
 	description `This planet was using the Resmakia Alliance's newest camoflauge technology to make the planet look like a gas giant.`
 	spaceport .
 	"required reputation" 1
 
+planet Kelveegen
+	landscape land/sky6
+	description .
+	spaceport .
+	outfitter "Dels Ammo"
+
+planet Kequrelee
+	landscape land/dmottl0
+	description .
+	spaceport .
+	tribute 1600
+		threshold 1000
+		fleet "Ulfulre Patrol" 9
+
 planet Kereeno
 	landscape land/land14
 	description .
 	spaceport .
+	shipyard "Dels Basic"
+	outfitter "Dels Ammo"
 
 planet Kermar
 	landscape land/desert5
 	description `Kermar is a small Ignaggen's mining planet.`
 	spaceport .
 	"required reputation" 1
+
+planet Keuluqen
+	landscape land/desert4
+	description `A hot and dry planet.`
+	spaceport `Most of the population on this planet lives underground due to immerse heat during the day.`
+	shipyard "Dels Basic"
+	outfitter "Ignaggen Basic"
+	outfitter "Dels Basic"
 
 planet Kevolur
 	landscape land/sky0
@@ -101266,6 +101419,7 @@ planet Kier
 	landscape land/desert6
 	description .
 	spaceport .
+	outfitter "Ignaggen Basic"
 	"required reputation" 1
 
 planet Kilarbasin
@@ -101273,6 +101427,11 @@ planet Kilarbasin
 	description `This archipelago world appears to be a destination for vacation. Buildings here are much more decorated and stylish than other Makerurader worlds. `
 	spaceport .
 	"required reputation" 5
+
+planet Kildaven
+	landscape land/sea12-sfiera
+	description .
+	spaceport .
 
 planet Kileedalre
 	landscape land/land31
@@ -101285,6 +101444,11 @@ planet Kilino
 	description .
 	spaceport .
 	"required reputation" 1
+
+planet Kilnerrin
+	landscape land/loc2
+	description .
+	spaceport .
 
 planet Kinoli
 	attributes Geeva
@@ -101400,6 +101564,13 @@ planet Konoko
 	spaceport .
 	"required reputation" 1
 
+planet Korar'alen
+	landscape land/sky8
+	description .
+	spaceport `The spaceport is built on a very high plateu above the clouds, it is extremely cold even with Ignaggen heater around almost every inches. A small building contains a few elevators leading to an underground city.`
+	shipyard "Ignaggen Small"
+	outfitter "Ignaggen Basic"
+
 planet Korfelna
 	landscape land/valley3
 	description `Resmakia Alliance Frontline planet for repair and refuelling.`
@@ -101458,6 +101629,13 @@ planet Kroini
 	description .
 	spaceport .
 	"required reputation" 1
+
+planet Ku'dulrena
+	attributes station
+	landscape land/sivael9
+	description .
+	spaceport .
+	outfitter "Dels Ammo"
 
 planet Kuderlor
 	landscape land/moutainsnow1
@@ -101648,6 +101826,11 @@ planet Liamerle
 	description .
 	spaceport .
 	"required reputation" 1
+
+planet Lidarkeu
+	landscape land/mountain14-sfiera
+	description .
+	spaceport .
 
 planet Lignuvar
 	landscape land/mountain23-spfld
@@ -101989,6 +102172,12 @@ planet Muneera
 	outfitter "Dels Basic"
 	outfitter "Dels Advanced"
 
+planet Mveleeken
+	landscape land/lava2
+	description .
+	spaceport .
+	outfitter "Dels Ammo"
+
 planet "NHK Wormhole"
 
 planet "NST Wormhole"
@@ -102005,6 +102194,11 @@ planet Neaivudel
 
 planet Neekabure
 	landscape land/dmottl2
+	description .
+	spaceport .
+	tribute 1200
+		threshold 1000
+		fleet "Ulfulre Patrol" 10
 
 planet Neikor
 	landscape land/badlands5
@@ -102212,6 +102406,11 @@ planet Parturkelaai
 	description `Among the green field of vegetations is dotted with area where nothing grows. The spots vary in size from a few meter in diameter to a hundred meters. These spots seems to occur all over the entire planet. `
 	spaceport .
 
+planet Pelorlla
+	landscape land/dune3
+	description .
+	spaceport .
+
 planet Pukotdor
 	attributes mining
 	landscape land/land28
@@ -102239,7 +102438,29 @@ planet Qee'Sensa
 	spaceport .
 	shipyard "Dels Ufulre"
 	"required reputation" 1
-	bribe 0.3
+	tribute 1200
+		threshold 1200
+		fleet "Dels Ulfulre Patrol" 9
+
+planet Qeluk'lure
+	attributes station
+	landscape land/loc2
+	description .
+	spaceport .
+	outfitter "Dels Ammo"
+	"required reputation" 1
+	tribute 600
+		threshold 1000
+		fleet "Dels Ulfulre Patrol" 9
+
+planet Qelureen
+	landscape land/desert7
+	description .
+	spaceport .
+	"required reputation" 1
+	tribute 1800
+		threshold 1200
+		fleet "Dels Ulfulre Patrol" 10
 
 planet Qenor
 	attributes Destroyed
@@ -102260,6 +102481,9 @@ planet Qensok
 	shipyard "Dels Ufulre"
 	"required reputation" 1
 	bribe 0.7
+	tribute 1500
+		threshold 1300
+		fleet "Dels Ulfulre Patrol" 11
 
 planet Qensokari
 	attributes `"Dels Ufulre"`
@@ -102268,6 +102492,12 @@ planet Qensokari
 	spaceport .
 	"required reputation" 1
 	bribe 0.6
+
+planet Rarellgon
+	landscape land/canyon7
+	description .
+	spaceport .
+	outfitter "Ignaggen Basic"
 
 planet Rearkem
 	landscape land/desert0
@@ -102476,6 +102706,9 @@ planet Tansaqa
 	spaceport .
 	"required reputation" 1
 	bribe 0.7
+	tribute 1400
+		threshold 1100
+		fleet "Dels Ulfulre Patrol" 10
 
 planet "Tarounian Wormhole"
 
@@ -102560,6 +102793,15 @@ planet Ukborta
 	description ..
 	spaceport .
 
+planet Ulkuerel
+	landscape land/desert1
+	description .
+	spaceport .
+	"required reputation" 1
+	tribute 1300
+		threshold 1000
+		fleet "Dels Ulfulre Patrol" 9
+
 planet Uo'kodan
 	landscape land/beach5
 	description .
@@ -102595,6 +102837,9 @@ planet "Urmoku Arkrauli"
 	shipyard "Taroun Basic"
 	outfitter "Taroun Advanced"
 	"required reputation" 2000
+	tribute 12000
+		threshold 20000
+		fleet "Taroun Defense" 30
 
 planet "Urnoria Os Remanda"
 	attributes `"requires: cloak"`
@@ -102624,10 +102869,20 @@ planet Varuxilna
 	description .
 	spaceport .
 
+planet Vecorul
+	landscape land/dmottl5
+	description .
+	spaceport .
+	outfitter "Dels Ammo"
+
 planet "Veeralu Ka"
 	landscape land/beach9-sfiera
 	description .
 	spaceport .
+	outfitter "Dels Ammo"
+	tribute 1000
+		threshold 1000
+		fleet "Dels Ulfulre Patrol" 9
 
 planet Veeulakir
 	landscape land/mountain5
@@ -102697,6 +102952,12 @@ planet Voltali
 	description .
 	spaceport .
 	security 0.9
+
+planet Vulurelan
+	attributes mining
+	landscape land/canyon0
+	description `A small planet with thin atmosphere. Most settlements here are located around a mine.`
+	spaceport .
 
 planet Vyrnexon
 	landscape land/badlands3
