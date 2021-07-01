@@ -22,7 +22,8 @@ ship "Revos Homan"
 		"turning energy" 1
 		"thrust" 15
 		"thrusting energy" 1
-		"hull repair rate" 50
+		"hull repair rate" 10.5
+		"piercing resistance" .1
 		weapon
 			"blast radius" 25
 			"shield damage" 100
@@ -71,8 +72,9 @@ ship "Revos Rova"
 		"turning energy" 1
 		"thrust" 20
 		"thrusting energy" 1
-		"hull repair rate" .3
-		"self destruct" 35
+		"hull repair rate" 10.5
+		"self destruct" .35
+		"piercing resistance" .07
 		weapon
 			"blast radius" 25
 			"shield damage" 100
@@ -121,7 +123,8 @@ ship "Revos Mokla"
 		"turning energy" 1
 		"thrust" 15
 		"thrusting energy" 1
-		"hull repair rate" 60
+		"hull repair rate" 20.2
+		"piercing resistance" .13
 		weapon
 			"blast radius" 25
 			"shield damage" 100
@@ -175,7 +178,8 @@ ship "Revos Caosma" "Caosma (Transport)"
 		"turning energy" 1
 		"thrust" 15
 		"thrusting energy" 1
-		"hull repair rate" 50
+		"hull repair rate" 10
+		"piercing resistance" .1
 		weapon
 			"blast radius" 25
 			"shield damage" 100
@@ -225,7 +229,8 @@ ship "Revos Caosma"
 		"turning energy" 1
 		"thrust" 15
 		"thrusting energy" 1
-		"hull repair rate" 50
+		"hull repair rate" 10
+		"piercing resistance" .1
 		weapon
 			"blast radius" 25
 			"shield damage" 100

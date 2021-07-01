@@ -21,7 +21,7 @@ outfit "Kechon Beam"
 		"firing heat" .1
 		"shield damage" 7
 		"hull damage" 10 
-		"ion damage" .5
+		"ion damage" .05
 	description "Revos primary beam weapon, commonly found on most Revos ships."
 		
 outfit "Botavu Turret"
@@ -159,6 +159,7 @@ outfit "Kuloles Spawner"
 		"live effect" "kuloles1 live" 20
 		"inaccuracy" 360
 		"turret turn" 180
+		"range override" 800
 		"submunition" "rvs kuloles1"
 		"velocity" 40
 		"lifetime" 10
@@ -210,8 +211,8 @@ outfit "rvs kuloles2"
 		"lifetime" 50
 		"hit force" 30
 		"velocity" 25
-		"shield damage" 800
-		"hull damage" 700
+		"shield damage" 200
+		"hull damage" 150
 		"phasing"
 
 effect "kuloles2 live"
@@ -283,9 +284,9 @@ outfit "Mudor-ki Shield Generator" #MQ
 	thumbnail "outfit/unknown"
 	"mass" 22
 	"outfit space" -22
-	"shield generation" 50
+	"shield generation" 40
 	"cooling inefficiency" 30
-	"shield energy" 13
+	"shield energy" 25
 	"heat generation" 6
 	description "Revos Shield Generator."
 	
