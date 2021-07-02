@@ -4345,6 +4345,7 @@ system Aretu
 	trade Metal 524
 	trade Plastic 371
 	fleet "Dels Outward Merchant" 1200
+	fleet "Dels Kaote" 1400
 	object
 		sprite star/k0
 		period 10
@@ -5382,7 +5383,7 @@ system Asturil
 		sprite planet/rock11
 		distance 367.37
 		period 112.661
-	object
+	object Liarkerse
 		sprite planet/earth
 		distance 594.37
 		period 231.849
@@ -6763,7 +6764,7 @@ system Bavarsek
 		sprite planet/lava3
 		distance 181.25
 		period 39.0424
-	object
+	object Serilazr
 		sprite planet/forest0
 		distance 517.69
 		period 188.462
@@ -7783,7 +7784,7 @@ system Bovdar
 	trade Medical 844
 	trade Metal 334
 	trade Plastic 421
-	fleet "Dels Kaote" 10000
+	fleet "Dels Kaote" 1200
 	fleet "Dels Outward Merchant" 800
 	object
 		sprite star/m4
@@ -12646,6 +12647,7 @@ system Delelaur
 	trade Metal 475
 	trade Plastic 402
 	fleet "Dels Outward Merchant" 800
+	fleet "Dels Kaote" 1200
 	object
 		sprite star/f5
 		period 10
@@ -15206,6 +15208,7 @@ system Dukoree
 	trade Metal 240
 	trade Plastic 319
 	fleet "Dels Outward Merchant" 1000
+	fleet "Dels Kaote" 1200
 	object
 		sprite star/g0
 		period 10
@@ -15655,6 +15658,9 @@ system Dureede
 	trade Medical 856
 	trade Metal 412
 	trade Plastic 429
+	fleet "Dels Kaote" 1200
+	fleet "Dels Central Merchant" 600
+	fleet "Dels Outward Merchant" 2000
 	object
 		sprite star/k0
 		distance 52.7383
@@ -19163,6 +19169,7 @@ system Erwal
 	trade Plastic 335
 	fleet "Kager Ignaggen" 800
 	fleet Ignaggen 700
+	fleet "Ignaggen Miner" 1500
 	object
 		sprite star/k0
 		period 10
@@ -20520,6 +20527,7 @@ system Feelov
 	trade Metal 458
 	trade Plastic 484
 	fleet "Dels Outward Merchant" 800
+	fleet "Dels Kaote" 1200
 	object
 		sprite star/g0
 		distance 33.6568
@@ -24911,19 +24919,19 @@ system Ginja
 		offset 153.928
 	object Graimo
 		sprite planet/rock9
-		distance 728.904
-		period 356.816
-		offset 248.772
+		distance 734.778
+		period 361.137
+		offset 270.526
 	object
 		sprite planet/uranus
-		distance 1200.11
-		period 753.828
-		offset 156.508
+		distance 1205.98
+		period 759.365
+		offset 162.759
 	object
 		sprite planet/gas5
-		distance 3856.11
-		period 4341.73
-		offset 7.58856
+		distance 3861.98
+		period 4351.65
+		offset 7.92787
 		object
 			sprite planet/rock14
 			distance 278
@@ -29282,6 +29290,7 @@ system Hintee
 	trade Metal 448
 	trade Plastic 486
 	fleet "Dels Outward Merchant" 1000
+	fleet "Dels Kaote" 1400
 	object
 		sprite star/m0
 		period 10
@@ -32332,7 +32341,7 @@ system Ilseykar
 		sprite planet/gas15
 		distance 647.54
 		period 200.562
-	object
+	object Kyerasil
 		sprite planet/forest2
 		distance 1241.03
 		period 532.135
@@ -33442,7 +33451,7 @@ system Iskelba
 		sprite planet/rock6
 		distance 463.732
 		period 123.219
-	object
+	object Kelzarcaven
 		sprite planet/rock4
 		distance 789.692
 		period 273.818
@@ -36598,11 +36607,10 @@ system Kaor
 			period 30.6983
 
 system Kaornral
-	pos -50512.3 -57293.6
+	pos -50508.3 -57255.6
 	government Taroun
 	habitable 486.68
 	belt 1839
-	link Urlansa
 	link Zaubaruer
 	asteroids "medium rock" 5 6.1596
 	asteroids "large rock" 1 6.3684
@@ -37574,6 +37582,7 @@ system Keebusinor
 	trade Metal 383
 	trade Plastic 479
 	fleet "Dels Outward Merchant" 700
+	fleet "Dels Kaote" 1200
 	object
 		sprite star/g5
 		distance 28.7831
@@ -41195,7 +41204,7 @@ system Kiazonre
 			sprite planet/dust5
 			distance 158
 			period 26.5425
-	object
+	object Rommedal
 		sprite planet/ocean3
 		distance 682.3
 		period 216.926
@@ -51451,7 +51460,7 @@ system Lelerno
 		sprite planet/ice7
 		distance 151.36
 		period 33.7641
-	object
+	object "Norail Vorsa"
 		sprite planet/cloud2
 		distance 447.37
 		period 171.569
@@ -57438,7 +57447,7 @@ system Makeldur
 		sprite planet/lava5
 		distance 188
 		period 46.7385
-	object
+	object Lardarkezal
 		sprite planet/rock14
 		distance 442.16
 		period 168.581
@@ -58180,7 +58189,7 @@ system Malsos
 		sprite planet/rock15
 		distance 154.09
 		period 42.7707
-	object
+	object Maralisa
 		sprite planet/forest1
 		distance 378.3
 		period 164.528
@@ -61934,7 +61943,7 @@ system Mereliva
 		sprite planet/rock11
 		distance 422.62
 		period 105.748
-	object
+	object Likarile
 		sprite planet/mercury
 		distance 659.83
 		period 206.299
@@ -66048,7 +66057,7 @@ system Msekivan
 		sprite planet/rock0
 		distance 512.3
 		period 148.665
-	object
+	object Ksazauila
 		sprite planet/rock2
 		distance 756.91
 		period 266.987
@@ -68172,7 +68181,7 @@ system Muterkav
 		sprite planet/oberon
 		distance 776.163
 		period 231.167
-	object
+	object Artarlerga
 		sprite planet/gas17
 		distance 1769.92
 		period 796.026
@@ -70232,6 +70241,7 @@ system Nelha
 	trade Plastic 415
 	fleet "Dels Central Merchant" 600
 	fleet "Dels Outward Merchant" 1500
+	fleet "Dels Kaote" 1500
 	object
 		sprite star/k0
 		distance 50.5
@@ -71009,6 +71019,7 @@ system Neulod
 	trade Metal 482
 	trade Plastic 308
 	fleet "Dels Outward Merchant" 1200
+	fleet "Dels Kaote" 1500
 	object
 		sprite star/k0
 		period 10
@@ -74947,7 +74958,6 @@ system Oliga
 	trade Plastic 447
 	fleet "Kakaima Defense" 800
 	fleet "Kakaima Logistic" 600
-	fleet "Geeva Battle Fleet" 2200
 	object
 		sprite star/k0
 		distance 20.1953
@@ -76297,7 +76307,7 @@ system Pelvorda
 		sprite planet/dust7
 		distance 477.05
 		period 166.712
-	object
+	object Harkaorra
 		sprite planet/ice1
 		distance 909.05
 		period 438.532
@@ -79961,7 +79971,7 @@ system Ravsikza
 	object
 		sprite star/g5
 		period 10
-	object
+	object Kisaleran
 		sprite planet/gas5
 		distance 427.25
 		period 141.3
@@ -86476,7 +86486,6 @@ system "Sector Dels"
 		distance 4800
 		offset 287
 		period 1
-	# Zorcn?
 	object Thing
 		sprite planet/wormhole
 		distance 1124		
@@ -86562,6 +86571,7 @@ system Seelyan
 	trade Metal 510
 	trade Plastic 308
 	fleet "Dels Outward Merchant" 1400
+	fleet "Dels Kaote" 1500
 	object
 		sprite star/a0
 		distance 57.3418
@@ -88207,7 +88217,7 @@ system Skuga
 	object
 		sprite star/m0
 		period 10
-	object Okami
+	object Okamak
 		sprite planet/desert0
 		distance 335.613
 		period 137.481
@@ -88391,6 +88401,8 @@ system Sodoranu
 	trade Metal 393
 	trade Plastic 486
 	fleet "Dels Outward Merchant" 2000
+	fleet "Dels Central Merchant" 600
+	fleet "Dels Kaote" 1500
 	object
 		sprite star/g5
 		period 10
@@ -93258,7 +93270,7 @@ system Urkealkre
 		sprite planet/tethys
 		distance 1067.33
 		period 352.385
-	object
+	object Sarelkera
 		sprite planet/forest1
 		distance 1229.22
 		period 435.526
@@ -93437,14 +93449,16 @@ system Urkvulnar
 		sprite planet/gas9
 		distance 358.82
 		period 82.73
-	object
+	object "Naryrule Ser"
 		sprite planet/water0
-		distance 698.43
-		period 224.663
+		distance 958.971
+		period 361.457
+		offset 12.0718
 	object
 		sprite planet/gas12
-		distance 2374.68
-		period 1408.5
+		distance 2635.22
+		period 1646.55
+		offset 66.3352
 		object
 			sprite planet/dust1
 			distance 308
@@ -93498,12 +93512,11 @@ system Urkwaar
 			period 26.1482
 
 system Urlansa
-	pos -50566.3 -57361.7
+	pos -50548.3 -57340.7
 	government Taroun
 	habitable 425.92
 	belt 1389
 	link Aulorain
-	link Kaornral
 	link Uromanu
 	asteroids "small rock" 9 7.5036
 	asteroids "medium rock" 2 6.8952
@@ -93881,11 +93894,11 @@ system Urselvau
 		sprite planet/desert9
 		distance 546.315
 		period 169.077
-	object
+	object Varakzeral
 		sprite planet/ice2
 		distance 1024.61
 		period 434.265
-		object
+		object Larekazren
 			sprite planet/callisto
 			distance 164
 			period 26.4015
@@ -100911,12 +100924,23 @@ planet Aokri
 	landscape land/badlands0
 	description .
 	spaceport .
+	shipyard "Ignaggen Small"
+	shipyard "Ignaggen Large"
+	shipyard "Ignaggen Advanced"
+	shipyard "Ignaggen Military"
+	outfitter "Ignaggen Basic"
+	outfitter "Ignaggen Advanced"
 	"required reputation" 1
 
 planet Aori
 	landscape land/dune2
 	description .
 	spaceport .
+	shipyard "Ignaggen Small"
+	shipyard "Ignaggen Large"
+	shipyard "Ignaggen Advanced"
+	outfitter "Ignaggen Basic"
+	outfitter "Ignaggen Advanced"
 	"required reputation" 1
 
 planet "Aorlai Station"
@@ -100937,6 +100961,14 @@ planet Arkor
 	spaceport .
 	"required reputation" 1
 
+planet Artarlerga
+	attributes fishing
+	landscape land/land4
+	description `A blue planet with only one continent vaguely forming a cross. `
+	spaceport .
+	outfitter "Makerurader Ammo"
+	outfitter "Erader Basic"
+
 planet Arulhed
 	landscape land/mountain12-sfiera
 	description .
@@ -100950,9 +100982,15 @@ planet Aserenar
 	spaceport .
 
 planet Aslnakan
+	attributes mining `"heavy industry"`
 	landscape land/canyon7
 	description .
 	spaceport .
+	shipyard "Makerurader Small"
+	shipyard "Makerurader Large"
+	outfitter "Erader Basic"
+	outfitter "Makerurader Advanced"
+	"required reputation" 5
 
 planet Asokqen
 	landscape land/desert5
@@ -101795,15 +101833,24 @@ planet Geltenarin
 	outfitter "Erader Basic"
 
 planet Geonnel
+	attributes mining
 	landscape land/sea2
-	description .
+	description `Large terresial planet scarred with mining operations by the Ignaggen.`
 	spaceport .
+	shipyard "Ignaggen Small"
+	shipyard "Ignaggen Large"
+	outfitter "Ignaggen Basic"
+	outfitter "Ignaggen Advanced"
 	"required reputation" 1
 
 planet Geori
 	landscape land/desert4
 	description .
 	spaceport .
+	shipyard "Ignaggen Small"
+	shipyard "Ignaggen Advanced"
+	outfitter "Ignaggen Basic"
+	outfitter "Ignaggen Advanced"
 	"required reputation" 1
 
 planet Gerolveo
@@ -101894,6 +101941,7 @@ planet Graimo
 	landscape land/snow0
 	description .
 	spaceport .
+	outfitter "Kroom Ammo"
 	"required reputation" 1
 
 planet Gricall
@@ -101917,6 +101965,7 @@ planet Grokni
 	landscape land/snow0
 	description .
 	spaceport .
+	outfitter "Kroom Ammo"
 	"required reputation" 1
 
 planet Grookma
@@ -101949,6 +101998,12 @@ planet Hallma
 	outfitter Aumar
 	bribe 0.3
 	security 0.4
+
+planet Harkaorra
+	landscape land/snow7
+	description .
+	spaceport .
+	outfitter "Kroom Ammo"
 
 planet Hensirah
 	landscape land/mountain5
@@ -102109,6 +102164,10 @@ planet Ikwer
 	landscape land/forest0
 	description .
 	spaceport .
+	shipyard "Ignaggen Small"
+	shipyard "Ignaggen Large"
+	outfitter "Ignaggen Basic"
+	outfitter "Ignaggen Advanced"
 	"required reputation" 1
 
 planet Iraneke
@@ -102121,12 +102180,19 @@ planet Ire
 	landscape land/canyon7
 	description .
 	spaceport .
+	shipyard "Ignaggen Small"
+	shipyard "Ignaggen Large"
+	shipyard "Ignaggen Advanced"
+	outfitter "Ignaggen Basic"
+	outfitter "Ignaggen Advanced"
 	"required reputation" 1
 
 planet Irgvirnel
 	landscape land/land13
 	description .
 	spaceport .
+	shipyard "Ignaggen Small"
+	outfitter "Ignaggen Basic"
 
 planet Irnilgar
 	landscape land/fields6
@@ -102360,6 +102426,16 @@ planet Kelveegen
 	spaceport .
 	outfitter "Dels Ammo"
 
+planet Kelzarcaven
+	attributes mining
+	landscape land/canyon9
+	description .
+	spaceport .
+	shipyard "Makerurader Small"
+	outfitter "Erader Basic"
+	outfitter "Makerurader Advanced"
+	"required reputation" 4
+
 planet Keolensa
 	attributes mining
 	landscape land/mfield5
@@ -102422,6 +102498,7 @@ planet Kier
 	landscape land/desert6
 	description .
 	spaceport .
+	shipyard "Ignaggen Basic"
 	outfitter "Ignaggen Basic"
 	"required reputation" 1
 
@@ -102441,6 +102518,7 @@ planet Kilarbasin
 	landscape land/land18
 	description `This archipelago world appears to be a destination for vacation. Buildings here are much more decorated and stylish than other Makerurader worlds. `
 	spaceport .
+	outfitter "Makerurader Ammo"
 	"required reputation" 5
 
 planet Kildaven
@@ -102483,6 +102561,14 @@ planet "Kir ai"
 	landscape land/fog0
 	description `This planet is covered in seemingly endless sea of clouds released from several vent holes on the surface of the planets. The cloud is so dense in some areas even sunlight fails to penetrate. Most life on this planet thrive around the geothermal vents found across the planet. `
 	description `	Aside from what seems to be Nuru's alien weather station, the surface of the planet remain untouched.`
+
+planet Kisaleran
+	attributes mining
+	landscape land/bwerner3
+	description .
+	spaceport .
+	outfitter "Makerurader Ammo"
+	"required reputation" 3
 
 planet Kisnyr
 	landscape land/mountain14-sfiera
@@ -102542,9 +102628,14 @@ planet Kogano
 	"required reputation" 1
 
 planet Koger
-	landscape land/snow11-sfiera
+	landscape land/land31
 	description .
 	spaceport .
+	shipyard "Ignaggen Small"
+	shipyard "Ignaggen Large"
+	shipyard "Ignaggen Advanced"
+	outfitter "Ignaggen Basic"
+	outfitter "Ignaggen Advanced"
 	"required reputation" 1
 
 planet Koho
@@ -102621,12 +102712,22 @@ planet Korram
 	landscape land/bwerner3
 	description .
 	spaceport .
+	shipyard "Ignaggen Basic"
+	shipyard "Ignaggen Large"
+	outfitter "Ignaggen Basic"
+	outfitter "Ignaggen Advanced"
 	"required reputation" 1
 
 planet Korre
 	landscape land/mountain11-sfiera
 	description .
 	spaceport .
+	shipyard "Ignaggen Small"
+	shipyard "Ignaggen Large"
+	shipyard "Ignaggen Advanced"
+	shipyard "Ignaggen Military"
+	outfitter "Ignaggen Basic"
+	outfitter "Ignaggen Advanced"
 	"required reputation" 1
 
 planet Kotona
@@ -102651,6 +102752,17 @@ planet Kroini
 	description .
 	spaceport .
 	"required reputation" 1
+
+planet Ksazauila
+	attributes mining
+	landscape land/dune1
+	description .
+	spaceport .
+	shipyard "Makerurader Small"
+	outfitter "Makerurader Advanced"
+	outfitter "Makerurader Ammo"
+	outfitter "Erader Basic"
+	"required reputation" 2
 
 planet Ku'dulrena
 	attributes station
@@ -102751,6 +102863,14 @@ planet Kuvagake
 	spaceport .
 	outfitter "Kroom Basic"
 
+planet Kyerasil
+	landscape land/mountain14-sfiera
+	description .
+	spaceport .
+	shipyard "Makerurader Small"
+	outfitter "Erader Basic"
+	"required reputation" 6
+
 planet Laedelu
 	landscape land/lava0
 	description .
@@ -102775,6 +102895,21 @@ planet "Laouren Nrkua"
 	description .
 	spaceport .
 	"required reputation" 100
+
+planet Lardarkezal
+	attributes mining
+	landscape land/dune3
+	description .
+	spaceport .
+	outfitter "Makerurader Ammo"
+
+planet Larekazren
+	attributes mining
+	landscape land/desert3
+	description .
+	spaceport .
+	outfitter "Makerurader Ammo"
+	"required reputation" 1
 
 planet Laseran
 	landscape land/land26
@@ -102827,6 +102962,10 @@ planet Lelorgel
 	landscape land/canyon03
 	description `A dry, nearly lifeless planet with thin atmosphere. Without streaks of red lights along the streets it would've been nearly impossible to identifiy the rocky settlements hidden among the hills.`
 	spaceport .
+	shipyard "Ignaggen Basic"
+	shipyard "Ignaggen Large"
+	outfitter "Ignaggen Basic"
+	outfitter "Ignaggen Advanced"
 
 planet Lelranor
 	attributes mining
@@ -102844,6 +102983,7 @@ planet Lenmar
 	landscape land/bwerner8
 	description .
 	spaceport .
+	outfitter "Ignaggen Basic"
 	"required reputation" 1
 
 planet Lensar
@@ -102915,10 +103055,25 @@ planet Leyshirai
 	spaceport .
 
 planet Liamerle
+	attributes mining
 	landscape land/mountain6
 	description .
 	spaceport .
+	shipyard "Ignaggen Small"
+	shipyard "Ignaggen Advanced"
+	shipyard "Ignaggen Large"
+	shipyard "Ignaggen Military"
+	outfitter "Ignaggen Basic"
+	outfitter "Ignaggen Advanced"
 	"required reputation" 1
+
+planet Liarkerse
+	landscape land/dune0
+	description .
+	spaceport .
+	shipyard "Makerurader Small"
+	outfitter "Erader Basic"
+	"required reputation" 6
 
 planet Lidarkeu
 	landscape land/mountain14-sfiera
@@ -102931,6 +103086,12 @@ planet Lidarkeu
 planet Lignuvar
 	landscape land/mountain23-spfld
 	description `A planet with a large mix of green terrain, from completely flat grasslands to mountain peaks piercing the clouds. `
+	spaceport .
+
+planet Likarile
+	attributes mining
+	landscape land/badlands3
+	description .
 	spaceport .
 
 planet Likveera
@@ -103111,6 +103272,11 @@ planet Makorai
 
 planet Makulifaril
 	landscape land/canyon2
+	description .
+	spaceport .
+
+planet Maralisa
+	landscape land/canyon3
 	description .
 	spaceport .
 
@@ -103322,6 +103488,7 @@ planet Misrzinal
 	landscape land/canyon5
 	description .
 	spaceport .
+	outfitter "Makerurader Ammo"
 	"required reputation" 1
 
 planet Misushal
@@ -103418,6 +103585,11 @@ planet Nardelur
 	spaceport .
 	outfitter "Dels Ammo"
 
+planet "Naryrule Ser"
+	landscape land/lava1
+	description .
+	spaceport .
+
 planet Neaivudel
 	landscape land/land10
 	description .
@@ -103442,6 +103614,8 @@ planet Neikor
 	landscape land/badlands5
 	description .
 	spaceport .
+	shipyard "Ignaggen Small"
+	outfitter "Ignaggen Basic"
 	"required reputation" 1
 
 planet Neileeke
@@ -103509,6 +103683,11 @@ planet Nevolgor
 	landscape land/land15
 	description .
 	spaceport .
+	shipyard "Ignaggen Basic"
+	shipyard "Ignaggen Small"
+	shipyard "Ignaggen Large"
+	outfitter "Ignaggen Basic"
+	outfitter "Ignaggen Advanced"
 
 planet Niflima
 	attributes Geeva
@@ -103569,6 +103748,11 @@ planet Noglein
 	spaceport .
 	shipyard "Ignaggen Basic"
 	outfitter "Ignaggen Basic"
+
+planet "Norail Vorsa"
+	landscape land/land5
+	description .
+	spaceport .
 
 planet Nose'in
 	attributes Revos
@@ -103650,12 +103834,15 @@ planet Oikako
 	landscape land/valley3
 	description .
 	spaceport .
+	outfitter "Kroom Ammo"
+	outfitter "Kroom Basic"
 	"required reputation" 1
 
-planet Okami
+planet Okamak
 	landscape land/sea13-sfiera
 	description .
 	spaceport .
+	outfitter "Kroom Ammo"
 	"required reputation" 1
 
 planet Okamo
@@ -103695,7 +103882,7 @@ planet Olkona
 
 planet Orgillen
 	landscape land/mountain22-spfld
-	description `Large port of the planet is covered in dry hills of stone, few plants can grow in this harsh enviroment where the temperature is uncomfortably high in during the long day and night is freezing cold.`
+	description `Large part of the planet is covered in dry hills of stone, few plants can grow in this harsh enviroment where the temperature is uncomfortably high in during the long day followed by a freezing cold night.`
 	description `	Close to the shore however, is full of life with varity of animals rivalling even a much more prosperous world. `
 	description `	Ignaggen towns and cities can be found across the planet, while most tends to stick near the boarder between the rocky desert and the sea, a few larger mining outpost can also be found far from other settlements.`
 	spaceport `Their spaceport, while large and busy consist of mostly single story buildings surrounding what looks like a giant flat piece of stone cracked and seperated evenly into landing pads. `
@@ -103717,6 +103904,11 @@ planet Osma
 	landscape land/desert1
 	description .
 	spaceport .
+	shipyard "Ignaggen Small"
+	shipyard "Ignaggen Advanced"
+	shipyard "Ignaggen Large"
+	outfitter "Ignaggen Basic"
+	outfitter "Ignaggen Advanced"
 	"required reputation" 1
 
 planet Parturkelaai
@@ -103740,7 +103932,11 @@ planet Pysrennarz
 	landscape land/canyon04
 	description .
 	spaceport .
+	shipyard "Makerurader Small"
+	shipyard "Makerurader Large"
 	outfitter "Makerurader Ammo"
+	outfitter "Makerurader Advanced"
+	outfitter "Erader Basic"
 	"required reputation" 1
 
 planet Qansta
@@ -103913,6 +104109,14 @@ planet Rokkem
 	spaceport .
 	"required reputation" 1
 
+planet Rommedal
+	attributes fishing
+	landscape land/sea10-sfiera
+	description .
+	spaceport .
+	outfitter "Makerurader Ammo"
+	"required reputation" 3
+
 planet Ronha
 	landscape land/sea4
 	description .
@@ -103966,6 +104170,14 @@ planet Sareesa
 	outfitter "Dels Basic"
 	bribe 0.5
 	security 0.3
+
+planet Sarelkera
+	landscape land/desert1
+	description .
+	spaceport .
+	shipyard "Makerurader Small"
+	outfitter "Erader Basic"
+	"required reputation" 5
 
 planet Sarqunri
 	landscape land/land29
@@ -104089,6 +104301,16 @@ planet Seriki
 	landscape land/mfield5
 	description .
 	spaceport .
+
+planet Serilazr
+	landscape land/fields7
+	description .
+	spaceport .
+	shipyard "Makerurader Small"
+	shipyard "Makerurader Large"
+	outfitter "Erader Basic"
+	outfitter "Makerurader Advanced"
+	"required reputation" 5
 
 planet Serzulpha
 	landscape land/bwerner5
@@ -104278,6 +104500,10 @@ planet Turzelvar
 	landscape land/nasa7
 	description .
 	spaceport .
+	shipyard "Makerurader Small"
+	shipyard "Makerurader Large"
+	outfitter "Erader Basic"
+	outfitter "Makerurader Advanced"
 	"required reputation" 2
 
 planet Tyrne
@@ -104398,10 +104624,27 @@ planet Vannmetsal
 	spaceport .
 	"required reputation" 3
 
+planet Varakzeral
+	landscape land/dune0
+	description .
+	spaceport .
+	shipyard "Makerurader Small"
+	shipyard "Makerurader Large"
+	outfitter "Erader Basic"
+	outfitter "Makerurader Advanced"
+	outfitter "Makerurader Ammo"
+	"required reputation" 2
+
 planet Varuxilna
+	attributes `"heavy industry"`
 	landscape land/land14
 	description .
 	spaceport .
+	shipyard "Makerurader Small"
+	shipyard "Makerurader Large"
+	outfitter "Erader Basic"
+	outfitter "Makerurader Advanced"
+	"required reputation" 5
 
 planet Vaxildeeru
 	landscape land/canyon6
@@ -104629,8 +104872,12 @@ planet Zionetyr
 	outfitter "Zorcn Basic Ammo"
 
 planet Zuriluxan
+	attributes mining
 	landscape land/badlands6
 	description `A small planet devoid of atmosphere but rich in resource. Massive mining vehicles can be seen all over the planet ripping out chuncks of rocks and ores from the surface.`
 	spaceport `The spaceport is intergrated with massive factory processing mined ores into standard materials for further uses. Landing pads are grouped by type of cargo transported.`
+	shipyard "Makerurader Small"
+	outfitter "Makerurader Ammo"
+	outfitter "Erader Basic"
 	"required reputation" 1
 
