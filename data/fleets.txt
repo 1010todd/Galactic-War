@@ -45,6 +45,107 @@ fleet "Darua Navy"
 	variant 8
 		"Kemvanh"
 
+fleet "Donko Guard Big"
+	government "Donko"
+	names "Donko Guard"
+	fighters "Donko Fighter"
+	cargo 1
+	personality
+		confusion 10
+		heroic opportunistic plunders
+	variant 10
+		"Donko Sao"
+		"Donko Kolso" 16
+		"Donko Matka" 8
+	variant 12
+		"Donko Koi" 3
+		"Donko Kolso" 16
+	variant 5
+		"Donko Sao"
+		"Donko Kolso" 20
+		"Donko Matka" 8
+		"Donko Koi"
+		"Donko Kanse" 3
+	variant 5
+		"Donko Senka" 2
+		"Donko Sao"
+		"Donko Kolso" 16
+		"Donko Matka" 8
+		
+fleet "Donko Guard Small"
+	government "Donko"
+	names "Donko Guard"
+	fighters "Donko Fighter"
+	cargo 1
+	personality
+		confusion 20
+		heroic opportunistic disables
+	variant 10
+		"Donko Koi"
+		"Donko Kolso" 6
+	variant 20
+		"Donko Kanse" 3
+	variant 5
+		"Donko Kanse" 3
+		"Donko Koi"
+		"Donko Kolso" 6
+	variant 1
+		"Donko Senka"
+
+fleet "Donko Small"
+	government "Donko"
+	names "Donko Civilian"
+	fighters "Donko Fighter"
+	cargo 2
+	personality
+		confusion 20
+		disables
+	variant 5
+		"Donko Kanse" 3
+		"Donko Koi"
+		"Donko Kolso"
+	variant 5
+		"Donko Kanse" 3
+		"Koi (Freighter)"
+	variant 3
+		"Koi (Freighter)"
+
+fleet "Donko Miner"
+	government "Donko"
+	names "Donko Civilian"
+	fighters "Donko Fighter"
+	personality
+		confusion 20
+		disables
+	variant 30
+		"Donko Kanse"
+	variant 10
+		"Koi (Freighter)"
+		"Donko Matka"
+
+fleet "Kasiva Merchant"
+	government "Erader Kasiva"
+	names "Erader Kasiva"
+	cargo 1
+	personality
+		opportunistic
+		timid
+		confusion 40
+	variant 50
+		"Raular"
+	variant 50
+		"Genterrac"
+	variant 40
+		"Raular" 2
+	variant 45
+		"Genterrac" 2
+	variant 30
+		"Genterrac" 3
+	variant 20
+		"Raular" 3
+	variant 40
+		"Kelranter"
+
 fleet "Kumakk Miner"
 	government "Kumakk"
 	names "Kumakk"
@@ -154,6 +255,58 @@ fleet "Makerurader Mining Fleet"
 		"Ertezkaral"
 	variant 40
 		"Azelpur"
+
+fleet "Mukube Merchant"
+	government "Erader Mukube"
+	names "Erader Mukube Merchant"
+	cargo 1
+	personality
+		opportunistic
+		timid
+		confusion 40
+	variant 50
+		"Raular"
+	variant 50
+		"Genterrac"
+	variant 40
+		"Raular" 2
+	variant 45
+		"Genterrac" 2
+	variant 30
+		"Genterrac" 3
+	variant 10
+		"Raular" 3
+	variant 20
+		"Dauren"
+	variant 40
+		"Kelranter"
+
+fleet "Narpul Merchant"
+	government "Erader Mukube"
+	names "Erader Mukube Merchant"
+	cargo 1
+	personality
+		opportunistic
+		timid
+		confusion 40
+	variant 50
+		"Raular"
+	variant 60
+		"Genterrac"
+	variant 40
+		"Raular" 2
+	variant 50
+		"Genterrac" 2
+	variant 40
+		"Genterrac" 3
+	variant 10
+		"Raular" 3
+	variant 10
+		"Dauren"
+	variant 40
+		"Kelranter"
+	variant 1
+		"Sorgeldaz"
 		
 fleet "Recon Ultaka"
 	government "Ultaka"
@@ -401,83 +554,7 @@ fleet "Revos Defense"
 		"Revos Mokla" 3
 		"Revos Rova" 3
 
-fleet "Donko Guard Big"
-	government "Donko"
-	names "Donko Guard"
-	fighters "Donko Fighter"
-	cargo 1
-	personality
-		confusion 10
-		heroic opportunistic plunders
-	variant 10
-		"Donko Sao"
-		"Donko Kolso" 16
-		"Donko Matka" 8
-	variant 12
-		"Donko Koi" 3
-		"Donko Kolso" 16
-	variant 5
-		"Donko Sao"
-		"Donko Kolso" 20
-		"Donko Matka" 8
-		"Donko Koi"
-		"Donko Kanse" 3
-	variant 5
-		"Donko Senka" 2
-		"Donko Sao"
-		"Donko Kolso" 16
-		"Donko Matka" 8
-		
-fleet "Donko Guard Small"
-	government "Donko"
-	names "Donko Guard"
-	fighters "Donko Fighter"
-	cargo 1
-	personality
-		confusion 20
-		heroic opportunistic disables
-	variant 10
-		"Donko Koi"
-		"Donko Kolso" 6
-	variant 20
-		"Donko Kanse" 3
-	variant 5
-		"Donko Kanse" 3
-		"Donko Koi"
-		"Donko Kolso" 6
-	variant 1
-		"Donko Senka"
 
-fleet "Donko Small"
-	government "Donko"
-	names "Donko Civilian"
-	fighters "Donko Fighter"
-	cargo 2
-	personality
-		confusion 20
-		disables
-	variant 5
-		"Donko Kanse" 3
-		"Donko Koi"
-		"Donko Kolso"
-	variant 5
-		"Donko Kanse" 3
-		"Koi (Freighter)"
-	variant 3
-		"Koi (Freighter)"
-
-fleet "Donko Miner"
-	government "Donko"
-	names "Donko Civilian"
-	fighters "Donko Fighter"
-	personality
-		confusion 20
-		disables
-	variant 30
-		"Donko Kanse"
-	variant 10
-		"Koi (Freighter)"
-		"Donko Matka"
 		
 fleet "Wallagi Patrol"
 	government "Wallagi"
