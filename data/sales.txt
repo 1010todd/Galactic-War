@@ -337,6 +337,17 @@ outfitter "Erader All"
 	"P2a Shield Generator"
 	"P6a Shield Generator"
 
+outfitter "Darua Advanced"
+	"Kainar Slug"
+	"Kainar Slug Storage"
+	"Kainar Mass Accelerator"
+
+outfitter "Darua Ammo"
+	"Kainar Slug"
+
+outfitter "Erader Ammo"
+	"Aserap Ammo"
+
 outfitter "Erader Basic"
 	"H-1AE Battery Array"
 	"H-2AE Battery Array"
@@ -625,6 +636,11 @@ shipyard "Ignaggen Military"
 	
 #======================================KROOM
 
+outfitter "Kroom Ammo"
+	"Golkar Torpedo"
+	"Krogak Missile"
+	"Local Map"
+
 outfitter "Kroom Basic"
 	"Kroom Blaster"
 	"Kroom Blaster Turret"
@@ -655,6 +671,7 @@ outfitter "Kroom Basic"
 	"Outfit Scanner"
 	"Asteroid Scanner"
 	"Cargo Scanner"
+	"Local Map"
 
 outfitter "Kroom Advanced"
 	"Golkar Torpedo"
@@ -670,11 +687,19 @@ outfitter "Kroom Advanced"
 	"Outfit Scanner"
 	"Asteroid Scanner"
 	"Cargo Scanner"
+	"Local Map"
 
 outfitter "Kanai Basic"
 	"Karar Missile"
 
 	"Gorka Homai"
+
+	"Outfits Expansion"
+	"Cargo Expansion"
+	"Small Bunk Room"
+	"Bunk Room"
+	"Fuel Pod"
+	"Local Map"
 	
 outfitter "Kakaima Basic"
 	"Atuga Radiothermal"
@@ -684,6 +709,16 @@ outfitter "Kakaima Basic"
 	"Karmar Steering"
 
 	"Hok O-Homai"
+
+	"Outfits Expansion"
+	"Cargo Expansion"
+	"Small Bunk Room"
+	"Bunk Room"
+	"Fuel Pod"
+	"Outfit Scanner"
+	"Asteroid Scanner"
+	"Cargo Scanner"
+	"Local Map"
 
 outfitter "Kakaima Advanced"
 	"Kutsabik Fission Reactor"
@@ -696,6 +731,16 @@ outfitter "Kakaima Advanced"
 
 	"Kompar Thruster"
 	"Kompar Steering"
+
+	"Outfits Expansion"
+	"Cargo Expansion"
+	"Small Bunk Room"
+	"Bunk Room"
+	"Fuel Pod"
+	"Outfit Scanner"
+	"Asteroid Scanner"
+	"Cargo Scanner"
+	"Local Map"
 
 shipyard "Kakaima Basic"
 	"Girok"
@@ -817,6 +862,52 @@ shipyard "Taroun Basic"
 shipyard "Taroun Advanced"
 	"Taroun Eroun"
 	"Taroun Oresu"
+
+#======================================Tehru
+
+outfitter "Tehru All"
+	#Weapons
+	"Vuskchet Cannon"
+	"Vuskchet Turret"
+	"Vrrpak Gun"
+	"Vrrpak Turret"
+	"Varsrel Drone Launcher"
+	"Varsrel Drone Storage"
+	"Varsrel Drone"
+	
+	"Illar Missile Defence"
+	
+	#Power
+	"Etlnak Reactor"
+	"Rivkrtelr Reactor"
+	"Apirval Generator"
+	"Eysiral Energy Storage"
+	
+	#Systems
+	"Ainvus Shield Generator"
+	"Epir Shield Generator"
+	"Jukir Shield Generator"
+	"Pivura Shield Generator"
+	
+	#Engines
+	"Akonu Thruster"
+	"Ahura Thruster"
+	"Fokhun Thruster"
+	"Ivtorne Thruster"
+	"Urhas Thruster"
+	
+	"Akonu Steering"
+	"Ahura Steering"
+	"Fokhun Steering"
+	"Ivtorne Steering"
+	"Urhas Steering"
+
+outfitter "Insker Ammo"
+	"Varsrel Drone"
+	"Local Map"
+	"Fuel Pod"
+
+shipyard "Tehru All"
 
 #======================================Wallagi
 	
