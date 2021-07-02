@@ -1,6 +1,6 @@
 mission "Omnis-GW: licenses add"
 	name `Add all GW Licenses`
-	description `Gives all from Galactic War plugin licenses to the player.`
+	description `Gives all Galactic War plugin licenses to the player.`
 	job
 	repeat
 	source
@@ -13,8 +13,8 @@ mission "Omnis-GW: licenses add"
 		set "license: Kager Lergen"
 		
 mission "Omnis-GW: licenses remove"
-	name `Remove all Licenses`
-	description `Take all licenses from the player.`
+	name `Remove all GW Licenses`
+	description `Take all Galactic War plugin licenses from the player.`
 	job
 	repeat
 	source
@@ -26,6 +26,41 @@ mission "Omnis-GW: licenses remove"
 		clear "license: Kakaima"
 		clear "license: Kager Lergen"
 	
+mission "Omnis-GW: Mark Capitals"
+	name "GW Mark Capitals"
+	description `Create marker on the map that points to capital system of each fraction.`
+	job
+	repeat
+	source
+		system "Omnis"
+		system "Galactic War"
+		system "Sector Dels"
+	waypoint Vobeelee #Dels Kaote
+	waypoint Mokugea #Dels Dardornai
+	waypoint Dolmoriwakla #Dels Ulfulre
+	waypoint Rilgeril #Geeva
+	waypoint Erwal #Ignaggen
+	waypoint "Trochzempt ZAZ-1" #Zis
+	waypoint Mortarlen #Erader Darua
+	waypoint Vishil #Erader Kasiva
+	waypoint Aifveva #Erader Mukube
+	waypoint Nihverka #Erader Narpul
+	waypoint Basksrek #Makerurader
+	waypoint Ginma #Kroom Kanai
+	waypoint Okrevug #Kroom Kakaima
+	waypoint Rilgeril #Geeva
+	waypoint Worak #Donko
+	waypoint Zausn #Zorcn
+	waypoint Urlansa #Taroun (This and below are not actually the capital, just centre of their existing system)
+	waypoint "Magosen-L2885" #Wallagi
+	waypoint Molta #Revos
+	waypoint "Haola Lesu" #Qoro Siogarl
+	waypoint Malsos #Makau a Qoro
+	waypoint "Go se ri" #Nuru
+	waypoint "Ko'kusor" #Kumakk
+	waypoint Urkvulnar #Tehru Insker
+	
+
 #===============================Outfitter, Shipyards==========================
 
 outfitter developer
