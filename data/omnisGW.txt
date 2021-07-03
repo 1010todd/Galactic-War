@@ -2103,6 +2103,10 @@ system Tehru
 		sprite sprite/category_heavy_freighter
 		distance 1200
 		offset 80
+		object "Tehru Vurbck"
+			sprite "ship/tehru vurbck"
+			distance 500
+			offset 80
 	object
 		sprite sprite/category_interceptor
 		distance 1200
@@ -2111,6 +2115,10 @@ system Tehru
 		sprite sprite/category_light_warship
 		distance 1200
 		offset 160
+		object "Tehru Avir"
+			sprite "ship/tehru avir"
+			distance 400
+			offset 160
 	object
 		sprite sprite/category_medium_warship
 		distance 1200
@@ -2119,6 +2127,14 @@ system Tehru
 		sprite sprite/category_heavy_warship
 		distance 1200
 		offset 240
+		object "Tehru Mavuin"
+			sprite "ship/tehru mavuin"
+			distance 600
+			offset 270
+		object "Tehru Tcvarka"
+			sprite "ship/tehru tcvarka"
+			distance 600
+			offset 210
 	object
 		sprite sprite/category_fighter
 		distance 1200
@@ -2127,6 +2143,10 @@ system Tehru
 		sprite sprite/category_drone
 		distance 1200
 		offset 320
+		object "Tehru Piv"
+			sprite "ship/tehru piv"
+			distance 300
+			offset 320
 
 system Ultaka
 	pos 310.311 -9778.28
@@ -4666,6 +4686,101 @@ fleet "Taroun Ulkoura"
 		"Taroun Ulkoura"
 
 #================================Tehru
+
+planet "Tehru Piv"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Tehru Piv"
+planet "GW Piv"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Tehru Piv"
+fleet "Tehru Piv"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Tehru Piv"
+
+planet "Tehru Vurbck"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Tehru Vurbck"
+planet "GW Vurbck"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Tehru Vurbck"
+fleet "Tehru Vurbck"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Tehru Vurbck"
+
+planet "Tehru Mavuin"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Tehru Mavuin"
+planet "GW Mavuin"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Tehru Mavuin"
+fleet "Tehru Mavuin"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Tehru Mavuin"
+
+planet "Tehru Tcvarka"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Tehru Tcvarka"
+planet "GW Tcvarka"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Tehru Tcvarka"
+fleet "Tehru Tcvarka"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Tehru Tcvarka"
+
+planet "Tehru Avir"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Tehru Avir"
+planet "GW Avir"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Tehru Avir"
+fleet "Tehru Avir"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Tehru Avir"
 
 #================================Ultaka
 
