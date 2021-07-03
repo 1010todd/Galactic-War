@@ -11,7 +11,7 @@ outfit "FN12G Gun"
 	weapon
 		sprite "projectile/blaster"
 		sound "proton"
-		"hit effect" "particle"
+		"hit effect" "particle impact"
 		"inaccuracy" .1
 		"velocity" 20
 		"lifetime" 40
@@ -35,7 +35,7 @@ outfit "N20G Turret"
 		sprite "projectile/particle beam"
 			"frame rate" 1
 		sound "particle"
-		"hit effect" "particle"
+		"hit effect" "particle impact"
 		"hardpoint sprite" "hardpoint/m turret"
 		"hardpoint offset" 9.
 		"inaccuracy" .1
@@ -60,7 +60,7 @@ outfit "U20-AG anti missile"
 	weapon
 		sprite "projectile/blaster"
 			"frame rate" 1
-		"hit effect" "particle"
+		"hit effect" "particle impact"
 		sound "heavy anti-missile"
 		"hardpoint sprite" "hardpoint/warder"
 		"hardpoint offset" 4.

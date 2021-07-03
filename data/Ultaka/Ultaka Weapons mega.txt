@@ -10,7 +10,7 @@ outfit "FK1M Gun"
 	weapon
 		sprite "projectile/blaster"
 		sound "proton"
-		"hit effect" "particle"
+		"hit effect" "particle impact"
 		"inaccuracy" .1
 		"velocity" 20
 		"lifetime" 100
@@ -31,7 +31,7 @@ outfit "FK1M Gun Group1"
 	weapon
 		sprite "projectile/blaster"
 		sound "proton"
-		"hit effect" "particle"
+		"hit effect" "particle impact"
 		"inaccuracy" .1
 		"velocity" 20
 		"lifetime" 100
@@ -55,7 +55,7 @@ outfit "FK1M Gun Group2"
 	weapon
 		sprite "projectile/blaster"
 		sound "proton"
-		"hit effect" "particle"
+		"hit effect" "particle impact"
 		"inaccuracy" .1
 		"velocity" 20
 		"lifetime" 100
@@ -103,7 +103,7 @@ outfit "DKS1 Turret"
 	weapon
 		sprite "projectile/m4g"
 		sound "tracker"
-		"hit effect" "particle"
+		"hit effect" "particle impact"
 		"inaccuracy" .1
 		"turret turn" 3
 		"velocity" 30
@@ -126,7 +126,7 @@ outfit "DKS2 Turret"
 	weapon
 		sprite "projectile/m4g"
 		sound "tracker"
-		"hit effect" "particle"
+		"hit effect" "particle impact"
 		"inaccuracy" .1
 		"turret turn" 3
 		"velocity" 32
