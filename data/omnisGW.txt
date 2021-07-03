@@ -554,12 +554,13 @@ system Erader
 		offset 240
 
 system Erm
-	pos 111.311 -9736.28
+	pos 364.311 -9969.28
 	government cheat
 	habitable 233.28
 	belt 1659
-	link Geeva
-	link Xessian
+	link Nuru
+	link Tehru
+	link Revos
 	object
 		sprite "sprite/wisp_green"
 	object "Erm"
@@ -787,7 +788,6 @@ system Geeva
 	habitable 553.28
 	belt 1834
 	link Dels
-	link Erm
 	link Ignaggen
 	link Qoro
 	link Wallagi
@@ -1188,6 +1188,7 @@ system Kroom
 	link Erader
 	link "Galactic War"
 	link Kumakk
+	link Nuru
 	object
 		sprite "sprite/wisp_green"
 	object "Kroom"
@@ -1326,6 +1327,7 @@ system Kumakk
 	link Erader
 	link Kroom
 	link Nuru
+	link Uoorn
 	link Qoro
 	link Revos
 	object
@@ -1458,12 +1460,15 @@ system Kumakk
 		offset 240
 
 system Nuru
-	pos 297.311 -9973.28
+	pos 257.311 -9962.28
 	government cheat
 	habitable 553.28
 	belt 1908
+	link Erm
+	link Kroom
 	link Kumakk
 	link Revos
+	link Tehru
 	object
 		sprite "sprite/wisp_green"
 	object "Nuru"
@@ -1744,6 +1749,7 @@ system Revos
 	government cheat
 	habitable 2795
 	belt 1808
+	link Erm
 	link Kumakk
 	link Nuru
 	link Taroun
@@ -2004,6 +2010,123 @@ system Taroun
 		sprite "ship/taroun ulkoura"
 		distance 1500
 		offset 80
+
+system Tehru
+	pos 290.766 -10002.3
+	government cheat
+	habitable 486.68
+	belt 1467
+	link Erm
+	link Kroom
+	link Nuru
+	object
+		sprite "sprite/wisp_green"
+	object "Tehru"
+		sprite planet/ringworld
+		distance 812
+	object "Tehru"
+		sprite planet/ringworld
+		distance 812
+		offset 20
+	object "Tehru"
+		sprite planet/ringworld
+		distance 812
+		offset 40
+	object "Tehru"
+		sprite planet/ringworld
+		distance 812
+		offset 60
+	object "Tehru"
+		sprite planet/ringworld
+		distance 812
+		offset 80
+	object "Tehru"
+		sprite planet/ringworld
+		distance 812
+		offset 100
+	object "Tehru"
+		sprite planet/ringworld
+		distance 812
+		offset 120
+	object "Tehru"
+		sprite planet/ringworld
+		distance 812
+		offset 140
+	object "Tehru"
+		sprite planet/ringworld
+		distance 812
+		offset 160
+	object "Tehru"
+		sprite planet/ringworld
+		distance 812
+		offset 180
+	object "Tehru"
+		sprite planet/ringworld
+		distance 812
+		offset 200
+	object "Tehru"
+		sprite planet/ringworld
+		distance 812
+		offset 220
+	object "Tehru"
+		sprite planet/ringworld
+		distance 812
+		offset 240
+	object "Tehru"
+		sprite planet/ringworld
+		distance 812
+		offset 260
+	object "Tehru"
+		sprite planet/ringworld
+		distance 812
+		offset 280
+	object "Tehru"
+		sprite planet/ringworld
+		distance 812
+		offset 300
+	object "Tehru"
+		sprite planet/ringworld
+		distance 812
+		offset 320
+	object "Tehru"
+		sprite planet/ringworld
+		distance 812
+		offset 340
+	object
+		sprite sprite/category_transport
+		distance 1200
+	object
+		sprite sprite/category_light_freighter
+		distance 1200
+		offset 40
+	object
+		sprite sprite/category_heavy_freighter
+		distance 1200
+		offset 80
+	object
+		sprite sprite/category_interceptor
+		distance 1200
+		offset 120
+	object
+		sprite sprite/category_light_warship
+		distance 1200
+		offset 160
+	object
+		sprite sprite/category_medium_warship
+		distance 1200
+		offset 200
+	object
+		sprite sprite/category_heavy_warship
+		distance 1200
+		offset 240
+	object
+		sprite sprite/category_fighter
+		distance 1200
+		offset 280
+	object
+		sprite sprite/category_drone
+		distance 1200
+		offset 320
 
 system Ultaka
 	pos 310.311 -9778.28
@@ -2434,7 +2557,6 @@ system Xessian
 	government cheat
 	habitable 1715
 	belt 1964
-	link Erm
 	link Geeva
 	link Wallagi
 	object
@@ -3022,6 +3144,14 @@ planet "Taroun"
 	spaceport ``
 	outfitter "Taroun All"
 	shipyard "Taroun All"
+
+planet "Tehru"
+	landscape "landscape/station6"
+	description ``
+	spaceport ``
+	outfitter "Tehru All"
+	outfitter "Insker Ammo"
+	shipyard "Tehru All"
 
 planet "Ultaka"
 	landscape "landscape/station6"
@@ -4534,6 +4664,8 @@ fleet "Taroun Ulkoura"
 		heroic
 	variant
 		"Taroun Ulkoura"
+
+#================================Tehru
 
 #================================Ultaka
 
