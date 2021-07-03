@@ -1,93 +1,10 @@
 
-government "Ultaka(Mega)"
-	swizzle 0
-	color .17 .09 .06
-	language "Ultaka"
-	"player reputation" -1000
-	"crew attack" 251
-	"crew defense" 300
-	"attitude toward"
-		"Wallagi" -.01
-		"Ultaka" 1
-		"ZIS" -.2
-
-government "Ultaka"
-	swizzle 0
-	color .91 .42 .09
-	language "Ultaka"
-	"player reputation" -1000
-	"crew attack" 100
-	"crew defense" 100
-	"attitude toward"
-#		"Merchant" -.01
-#		"Pirate" -.01
-#		"Republic" -.01
-#		"Hai (Unfettered)" -.01
-#		"Hai" -.01
-#		"Korath" -.01
-#		"Quarg" -.01
-#		"Wanderer" -.01
-		"Pug" -.1
-#		"Syndicate" -.1
-#		"Free Worlds" -.1
-#		"Navy Intelligence" -.1
-#		"Navy (Oathkeeper)" -.1
-		"Wallagi" -.01
-		"Dels" -.01
-		"Aumar" -.01
-		"Donko" -.01
-		"Revos" -.1
-		"Makau A Qoro" -.01
-		"Qoro Siogal" -.01
-		"Qanse" 1
-		"Ultaka(Mega)" 10
-		"ZIS" -.2
-		"Ignaggen" -.01
-		"Resmakia" -.01
-		"Erm" -.01
-		
-government "ZIS"
-	swizzle 3
-	color 0.037 0.153 0.8
-	"player reputation" 1
-	"crew attack" 500
-	"crew defense" 1200
-	"attitude toward"
-		"Ultaka" -1
-		"Ultaka (Mega)" -1
-		"Kroom Kakaima" -.01
-		"ZIS " 1
-		"Geeva" 1
-		
-government "ZIS " #Government for construction drones.
-	"display name" "ZIS"
-	swizzle 3
-	color 0.037 0.153 0.8
-	"player reputation" 1
-	"attitude toward"
-		"ZIS" 1
-		"Ultaka" -1
-		"Ultaka (Mega)" -1
-		"   " -.01
-		
-government "   "
-	swizzle 3
-	color 0 0 0
-	"player reputation" 0
-	"penalty for"
-		assist 0
-		disable 0
-		board 0
-		capture 0
-		destroy 0
-		atrocity 0
-		
-government "Wallagi"
+government "Aumar"
 	swizzle 5
-	"player reputation" 2
+	color .8 .58 .58
+	"player reputation" .1
 	"attitude toward"
-		"Ultaka" -.1
-		
+
 government "Dels" #Merchant
 	swizzle 0
 	color .089 .8 .245
@@ -129,12 +46,6 @@ government "Dels Ufulre" #
 	"attitude toward"
 		"Dels Kaote" -.1
 		"Dels" .1
-		
-government "Aumar"
-	swizzle 5
-	color .8 .58 .58
-	"player reputation" .1
-	"attitude toward"
 
 government "Donko"
 	swizzle 0
@@ -145,127 +56,7 @@ government "Donko"
 		"Wallagi" .1
 		"Ultaka" -10
 		"Revos" .1
-		
-government "Revos"
-	swizzle 4
-	color .8 .269 .679
-	"player reputation" 0
-	"attitude toward"
-		"Wallagi" .1
-		"Ultaka" -.1
-		"Donko" .1
-		
-government "Makau A Qoro"
-	swizzle 0
-	color .004 .0 .89
-	language "Makau Qoro"
-	"player reputation" -1
-	"attitude toward"
-		"Qoro Siogal" -.1
-		
-government "Qoro Siogal"
-	swizzle 5
-	color .0 .89 .006
-	language "Siogalian"
-	"player reputation" 1
-	"attitude toward"
-		"Makau A Qoro" -.1
-		
-government "Qanse"
-	swizzle 3
-	color .0 .89 .005
-	language "Qanse"
-	"player reputation" -10
-	"attitude toward"
-		
-government "Geeva"
-	swizzle 6
-	color .73 .100 .0
-	"player reputation" 1
-	"attitude toward"
-		#"Wallagi" .1
-		"Dels" .1
-		"Revos" .1
-		"Kroom Kakaima" -.1
-		"ZIS" 1
-		
-government "Kroom Kakaima"
-	swizzle 2
-	color .20 .100 .5
-	language "Kroom"
-	"player reputation" -1
-	"attitude toward"
-		"Geeva" -.1
-		"Kroom Kanai" -.1
-		"Dels" -.1
-		"Dels Kaote" -.2
-		"Dels Dardornai" -.2
-		
-government "Kroom Kanai"
-	swizzle 0
-	color .20 .100 .5
-	language "Kroom"
-	"player reputation" 0
-	"attitude toward"
-		"Kroom Kakaima" -.1
-		
-government "Ignaggen" #Ignaggen Merchant
-	swizzle 0
-	color .99 .42 .00
-	"player reputation" 1
-	"attitude toward"
-		#"Wallagi" .1
-		"Dels" .1
-		"Nilra Ignaggen" -.1
-		
-government "Kager Ignaggen" #Ignaggen Guard
-	swizzle 0
-	color .99 .30 .40
-	"player reputation" 1
-	"attitude toward"
-		#"Wallagi" .1
-		"Dels" .1
-		"Dels Dardornai" .1
-		"Dels Kaote" .1
-		"Nilra Ignaggen" -.1
-		"Ignaggen" 1
-		"Kroom Kakaima" -.01
-		
-government "Nilra Ignaggen"
-	swizzle 0
-	color .99 .00 .00
-	"player reputation" -1
-	"attitude toward"
-		"Wallagi" -.1
-		"Ignaggen" -.1
-		"Dels" -.1
-		
-government "Erm"
-	swizzle 0
-	color .0 .0 .16
-	language "Resmakia"
-	"player reputation" 1
-	"attitude toward"
-		"Ultaka" -.1
-		"Resmakia" 1
-		
-government "Resmakia"
-	swizzle 6
-	color .0 .1 .2
-	language "Resmakia"
-	"player reputation" 1
-	"attitude toward"
-		"Ultaka" -.1
-		"Erm" 1
-		
-government "Taroun"
-	swizzle 0
-	color .6 .6 .6
-	"player reputation" 0
-	"crew attack" 200
-	"crew defense" 400
-	"attitude toward"
-		
+
 #############VVVV[Eraders]VVVV
 		
 government "Erader Darua"
@@ -305,18 +96,59 @@ government "Makerurader"
 	"attitude toward"
 		"Erader Darua" -.1
 		"Erader Kasiva" -.1
-		
-#===============================
+	
+####################################
 
-government "Krinek" #WiP
+government "Erm"
 	swizzle 0
-	"player reputation" 0
+	color .0 .0 .16
+	language "Resmakia"
+	"player reputation" 1
+	"attitude toward"
+		"Ultaka" -.1
+		"Resmakia" 1
 
-government "Kumakk" #WiP
-	swizzle 3
-	"player reputation" 0
+government "Geeva"
+	swizzle 6
+	color .73 .100 .0
+	"player reputation" 1
+	"attitude toward"
+		#"Wallagi" .1
+		"Dels" .1
+		"Revos" .1
+		"Kroom Kakaima" -.1
+		"ZIS" 1
 
-	#========================================New Sky Merge
+government "Ignaggen" #Ignaggen Merchant
+	swizzle 0
+	color .99 .42 .00
+	"player reputation" 1
+	"attitude toward"
+		#"Wallagi" .1
+		"Dels" .1
+		"Nilra Ignaggen" -.1
+		
+government "Kager Ignaggen" #Ignaggen Guard
+	swizzle 0
+	color .99 .30 .40
+	"player reputation" 1
+	"attitude toward"
+		#"Wallagi" .1
+		"Dels" .1
+		"Dels Dardornai" .1
+		"Dels Kaote" .1
+		"Nilra Ignaggen" -.1
+		"Ignaggen" 1
+		"Kroom Kakaima" -.01
+		
+government "Nilra Ignaggen"
+	swizzle 0
+	color .99 .00 .00
+	"player reputation" -1
+	"attitude toward"
+		"Wallagi" -.1
+		"Ignaggen" -.1
+		"Dels" -.1
 
 government "Nuru"
 	swizzle 0
@@ -327,7 +159,202 @@ government "Nuru"
 	#"friendly hail" "untranslated friendly nuru"
 	#"hostile hail" "untranslated hostile nuru"
 	language "Nuru"
+
+government "Krinek" #WiP
+	swizzle 0
+	"player reputation" 0
+
+government "Kroom Kakaima"
+	swizzle 2
+	color .20 .100 .5
+	language "Kroom"
+	"player reputation" -1
+	"attitude toward"
+		"Geeva" -.1
+		"Kroom Kanai" -.1
+		"Dels" -.1
+		"Dels Kaote" -.2
+		"Dels Dardornai" -.2
+		
+government "Kroom Kanai"
+	swizzle 0
+	color .20 .100 .5
+	language "Kroom"
+	"player reputation" 0
+	"attitude toward"
+		"Kroom Kakaima" -.1
+
+government "Kumakk"
+	swizzle 3
+	"player reputation" 0
+
+government "Qanse"
+	swizzle 3
+	color .0 .89 .005
+	language "Qanse"
+	"player reputation" -10
+	"attitude toward"
+
+government "Makau A Qoro"
+	swizzle 0
+	color .004 .0 .89
+	language "Makau Qoro"
+	"player reputation" -1
+	"attitude toward"
+		"Qoro Siogal" -.1
+		
+government "Qoro Siogal"
+	swizzle 5
+	color .0 .89 .006
+	language "Siogalian"
+	"player reputation" 1
+	"attitude toward"
+		"Makau A Qoro" -.1
+		
+government "Resmakia"
+	swizzle 6
+	color .0 .1 .2
+	language "Resmakia"
+	"player reputation" 1
+	"attitude toward"
+		"Ultaka" -.1
+		"Erm" 1
+
+government "Revos"
+	swizzle 4
+	color .8 .269 .679
+	"player reputation" 0
+	"attitude toward"
+		"Wallagi" .1
+		"Ultaka" -.1
+		"Donko" .1
+
+government "Taroun"
+	swizzle 0
+	color .6 .6 .6
+	"player reputation" 0
+	"crew attack" 200
+	"crew defense" 400
+	"attitude toward"
+
+government "Tehru Insker" #Tehru Fraction1
+	swizzle 4
+	"player reputation" -1
 	
+government "Tehru Miitr" #Tehru Fraction2
+	swizzle 6
+
+government "Ultaka"
+	swizzle 0
+	color .91 .42 .09
+	language "Ultaka"
+	"player reputation" -1000
+	"crew attack" 100
+	"crew defense" 100
+	"attitude toward"
+#		"Merchant" -.01
+#		"Pirate" -.01
+#		"Republic" -.01
+#		"Hai (Unfettered)" -.01
+#		"Hai" -.01
+#		"Korath" -.01
+#		"Quarg" -.01
+#		"Wanderer" -.01
+		"Pug" -.1
+#		"Syndicate" -.1
+#		"Free Worlds" -.1
+#		"Navy Intelligence" -.1
+#		"Navy (Oathkeeper)" -.1
+		"Wallagi" -.01
+		"Dels" -.01
+		"Aumar" -.01
+		"Donko" -.01
+		"Revos" -.1
+		"Makau A Qoro" -.01
+		"Qoro Siogal" -.01
+		"Qanse" 1
+		"Ultaka(Mega)" 10
+		"ZIS" -.2
+		"Ignaggen" -.01
+		"Resmakia" -.01
+		"Erm" -.01
+
+government "Ultaka(Mega)"
+	swizzle 0
+	color .17 .09 .06
+	language "Ultaka"
+	"player reputation" -1000
+	"crew attack" 251
+	"crew defense" 300
+	"attitude toward"
+		"Wallagi" -.01
+		"Ultaka" 1
+		"ZIS" -.2
+
+government "Ultaka(Alrul)"
+	swizzle 0
+	color .17 .09 .06
+	language "Ultaka"
+	"player reputation" -1000
+	"crew attack" 3000
+	"crew defense" 10000
+	"attitude toward"
+		"Wallagi" -.01
+		"Ultaka" 1
+		"Ultaka(Mega)" 1
+		"ZIS" -.1
+
+government "Vareen" #WiP
+	swizzle 0
+	"player reputation" -1
+
+government "Wallagi"
+	swizzle 5
+	"player reputation" 2
+	"attitude toward"
+		"Ultaka" -.1
+		
+government "Yiisk" #WiP
+	swizzle 0
+	"player reputation" -1
+	
+
+government "ZIS"
+	swizzle 3
+	color 0.037 0.153 0.8
+	"player reputation" 1
+	"crew attack" 500
+	"crew defense" 1200
+	"attitude toward"
+		"Ultaka" -1
+		"Ultaka (Mega)" -1
+		"Kroom Kakaima" -.01
+		"ZIS " 1
+		"Geeva" 1
+		
+government "ZIS " #Government for construction drones.
+	"display name" "ZIS"
+	swizzle 3
+	color 0.037 0.153 0.8
+	"player reputation" 1
+	"attitude toward"
+		"ZIS" 1
+		"Ultaka" -1
+		"Ultaka (Mega)" -1
+		"   " -.01
+		
+government "   "
+	swizzle 3
+	color 0 0 0
+	"player reputation" 0
+	"penalty for"
+		assist 0
+		disable 0
+		board 0
+		capture 0
+		destroy 0
+		atrocity 0
+
 government "Zorcn"
 	color .38 .38 .38
 	swizzle 0
@@ -362,25 +389,3 @@ government "Xyncil Zorcn"
 	#"friendly hail" "untranslated friendly zorcn"
 	#"hostile hail" "untranslated hostile zorcn"
 	language "Zorcn"
-	
-government "Vareen" #WiP
-	swizzle 0
-	"player reputation" 0
-	
-government "Yiisk" #WiP
-	swizzle 0
-	"player reputation" -1
-	
-government "Tehru Insker" #Tehru Fraction1
-	swizzle 4
-	"player reputation" -1
-	
-government "Tehru Miitr" #Tehru Fraction2
-	swizzle 6
-		
-		
-		
-		
-		
-		
-		
