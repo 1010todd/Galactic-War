@@ -472,8 +472,8 @@ ship "SY-8662 Sysor"
 	engine -21 190.5
 	engine 23.5 190
 	engine 0 191.5
-	bay "drone" -53.5 72 under
-	bay "drone" 53.5 72 under
+	bay "Drone" -53.5 72 under
+	bay "Drone" 53.5 72 under
 	explode "nuke explosion" 8
 	"final explode" "final explosion large"
 	description `Sysor is another very old design still used by Zis. It used to be a warship back when it was made, now it is mostly used as freighter.`
@@ -1031,7 +1031,7 @@ ship "BS-2237 Ryuzo"
 		"heat dissipation" .84
 		"fuel capacity" 600
 		"cargo space" 20
-		"outfit space" 520
+		"outfit space" 570
 		"weapon capacity" 320
 		"engine capacity" 90
 		"ZIS AM Lock" -2
@@ -1100,7 +1100,7 @@ ship "BX-3826 Kazai"
 		"heat dissipation" .8
 		"fuel capacity" 600
 		"cargo space" 40
-		"outfit space" 1200
+		"outfit space" 1215
 		"weapon capacity" 850
 		"engine capacity" 120
 		"ZIS AM Lock" -4

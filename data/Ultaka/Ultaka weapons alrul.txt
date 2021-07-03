@@ -26,8 +26,8 @@ effect "ultaka death touch"
 		"no repeat"
 	"random angle" 360
 	"random spin" 90
-	"velocity" 1.
-	"life time" 25
+	"velocity scale" 1.
+	"lifetime" 25
 	
 outfit "Arvasr Sweeper"
 	category "Turrets"
@@ -223,7 +223,7 @@ outfit "urxesh shot"
 		"shield damage" 20000
 		"hull damage" 2200
 		"piercing" .5
-		"missile strenght" 200000
+		"missile strength" 200000
 
 effect "urxesh live"
 	sprite "effect/urxesh live"

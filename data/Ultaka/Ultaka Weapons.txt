@@ -11,7 +11,7 @@ outfit "FM10M Gun"
 	weapon
 		sprite "projectile/ultaka fm10m"
 		sound "gw energy1"
-		"hit effect" "particle"
+		"hit effect" "particle impact"
 		"inaccuracy" .1
 		"velocity" 20
 		"lifetime" 40
@@ -33,7 +33,7 @@ outfit "FM10M Gun Group1"
 	weapon
 		sprite "projectile/ultaka fm10m"
 		sound "gw energy1"
-		"hit effect" "particle"
+		"hit effect" "particle impact"
 		"inaccuracy" .1
 		"velocity" 20
 		"lifetime" 40
@@ -58,7 +58,7 @@ outfit "FM10M Gun Group2"
 	weapon
 		sprite "projectile/ultaka fm10m"
 		sound "gw energy1"
-		"hit effect" "particle"
+		"hit effect" "particle impact"
 		"inaccuracy" .1
 		"velocity" 20
 		"lifetime" 40
@@ -83,7 +83,7 @@ outfit "M01A Turret" #M1 Gun
 	weapon
 		sprite "projectile/particle beam"
 		sound "gw dblaster3"
-		"hit effect" "particle"
+		"hit effect" "particle impact"
 		"hardpoint sprite" "hardpoint/m turret"
 		"hardpoint offset" 9.
 		"inaccuracy" .5
@@ -185,7 +185,7 @@ outfit "M10G Turret" #M10G Gun
 	weapon
 		sprite "projectile/particle beam"
 		sound "gw dblaster3"
-		"hit effect" "particle"
+		"hit effect" "particle impact"
 		"hardpoint sprite" "hardpoint/m turret"
 		"hardpoint offset" 9.
 		"inaccuracy" .1
@@ -211,7 +211,7 @@ outfit "M20G Turret" #M20G Turret
 		sprite "projectile/particle beam"
 			"frame rate" 1
 		sound "gw dblaster3"
-		"hit effect" "particle"
+		"hit effect" "particle impact"
 		"hardpoint sprite" "hardpoint/m turret"
 		"hardpoint offset" 9.
 		"inaccuracy" .1
@@ -416,7 +416,7 @@ outfit "MU10-A anti missile"
 	weapon
 		sprite "projectile/blaster"
 			"frame rate" 1
-		"hit effect" "particle"
+		"fire effect" "particle impact"
 		sound "heavy anti-missile"
 		"hardpoint sprite" "hardpoint/warder"
 		"hardpoint offset" 4.
@@ -439,7 +439,7 @@ outfit "U10-A anti missile"
 	weapon
 		sprite "projectile/blaster"
 			"frame rate" 1
-		"hit effect" "particle"
+		"fire effect" "particle impact"
 		sound "heavy anti-missile"
 		"hardpoint sprite" "hardpoint/warder"
 		"hardpoint offset" 4.
@@ -462,7 +462,7 @@ outfit "U20-A anti missile"
 	weapon
 		sprite "projectile/blaster"
 			"frame rate" 1
-		"hit effect" "particle"
+		"fire effect" "particle impact"
 		sound "heavy anti-missile"
 		"hardpoint sprite" "hardpoint/warder"
 		"hardpoint offset" 4.
@@ -485,7 +485,7 @@ outfit "U20-B anti missile"
 	weapon
 		sprite "projectile/blaster"
 			"frame rate" 1
-		"hit effect" "particle"
+		"fire effect" "particle impact"
 		sound "heavy anti-missile"
 		"hardpoint sprite" "hardpoint/warder"
 		"hardpoint offset" 4.
@@ -566,7 +566,7 @@ outfit "Type-B fragment"
 	weapon
 		sprite "projectile/blaster"
 			"frame rate" 1
-		"hit effect" "particle"
+		"hit effect" "particle impact"
 		sound "heavy anti-missile"
 		"velocity" 32
 		"lifetime" 8
@@ -578,7 +578,7 @@ outfit "Type-C fragment"
 	weapon
 		sprite "projectile/blaster"
 			"frame rate" 1
-		"hit effect" "particle"
+		"hit effect" "particle impact"
 		sound "heavy anti-missile"
 		"velocity" 20
 		"lifetime" 12
@@ -609,7 +609,7 @@ outfit "Type-E fragment"
 	weapon
 		sprite "projectile/ion bolt"
 			"frame rate" 1
-		"hit effect" "particle"
+		"hit effect" "particle impact"
 		"velocity" 55
 		"lifetime" 20
 		"inaccuracy" 15
