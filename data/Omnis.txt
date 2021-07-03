@@ -59,7 +59,36 @@ mission "Omnis-GW: Mark Capitals"
 	waypoint "Go se ri" #Nuru
 	waypoint "Ko'kusor" #Kumakk
 	waypoint Urkvulnar #Tehru Insker
-	
+
+mission "Omnis-GW: reveal omnis"
+	invisible
+	landing
+	repeat
+	source
+		government "cheat"
+	on accept
+		event "Omnis-GW: reveal omnis"
+
+event "Omnis-GW: reveal omnis"
+	visit "Aumar"
+	visit "Dels"
+	visit "Donko"
+	visit "Erader"
+	visit "Galactic War"
+	visit "Geeva"
+	visit "Ignaggen"
+	visit "Isgeda"
+	visit "Kroom"
+	visit "Kumakk"
+	visit "Nuru"
+	visit "Qoro"
+	visit "Revos"
+	visit "Taroun"
+	visit "Ultaka"
+	visit "Uoorn"
+	visit "Wallagi"
+	visit "Zis"
+	visit "Zorcn"
 
 #===============================Outfitter, Shipyards==========================
 
