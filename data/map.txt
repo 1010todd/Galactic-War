@@ -86384,18 +86384,113 @@ system "Sector Dels"
 	trade Metal 489
 	trade Plastic 448
 	object
-		sprite star/f0
-		period 10
-	object
-		sprite planet/lava2
-		distance 1585.2
-		period 518.274
-		offset 334.073
-		object Thing
-			sprite planet/wormhole
-			distance 1301.2
-			period 1083.97
-			offset 79.3685
+		sprite ui/m83ed-devmap	
+	object "Dev Station Dels"
+		sprite "ship/dels darca"
+		distance 2460
+		offset 273
+		period 1
+	object "Dev Station Dels Ufulre"
+		sprite "ship/dels dacar"
+		distance 3800
+		offset 279
+		period 1
+	object "Dev Station Donko"
+		sprite "ship/donko koi"
+		distance 6160
+		offset 131
+		period 1
+	object "Dev Station Erader Darua"
+		sprite "ship/erader kemvanh"
+		distance 1622
+		offset 64
+		period 1
+	object "Dev Station Erader Mukube"
+		sprite "ship/erader daren"
+		distance 2840
+		offset 52
+		period 1
+	object "Dev Station Geeva"
+		sprite "ship/geeva mayuinia"
+		distance 3422
+		offset 303
+		period 1
+	object "Dev Station Ignaggen"
+		sprite "ship/ignaggen keorlen"
+		distance 256
+		offset 10
+		period 1
+	object "Dev Station Kroom Kakaima"
+		sprite "ship/kroom grakka"
+		distance 2240
+		offset 345
+		period 1
+	object "Dev Station Kroom Kanai"
+		sprite "ship/kroom grokva"
+		distance 2100
+		offset 316
+		period 1
+	object "Dev Station Kumakk"
+		sprite "ship/kumakk oulkorke"
+		distance 2048
+		offset 190
+		period 1
+	object "Dev Station Makau A Qoro"
+		sprite "ship/qoro m manta"
+		distance 2646
+		offset 90
+		period 1
+	object "Dev Station Makerurader"
+		sprite "ship/erader mr vardarkin"
+		distance 3730
+		offset 44
+		period 1
+	object "Dev Station Nuru"
+		sprite "ship/nuru ar pu haa"
+		distance 3768
+		offset 180
+		period 1
+	object "Dev Station Qoro Siogal"
+		sprite "ship/qoro s gasat"
+		distance 2696
+		offset 124
+		period 1
+	object "Dev Station Revos"
+		sprite "ship/revos caosma"
+		distance 1640
+		offset 104
+		period 1
+	object "Dev Station Taroun"
+		sprite "ship/taroun oresu"
+		distance 4500
+		offset 358
+		period 1
+	object "Dev Station Tehru Insker"
+		sprite "ship/tehru tcvarka"
+		distance 4986
+		offset 0
+		period 1
+		offset 242		
+	object "Dev Station Ultaka"
+		sprite "ship/ultaka summoner"
+		distance 3530
+		offset 70
+		period 1
+	object "Dev Station Wallagi"
+		sprite "ship/wallagi dettalor"
+		distance 4760
+		offset 50
+		period 1	
+	object "Dev Station Zis"
+		sprite "ship/zis sysor"
+		distance 4800
+		offset 287
+		period 1
+	object Thing
+		sprite planet/wormhole
+		distance 1124		
+		offset 152
+		period 1
 
 system Sedop
 	pos -51476.5 -55571.8
@@ -101132,6 +101227,189 @@ planet Deunaee
 	spaceport .
 	outfitter "Dels Standard"
 
+planet "Dev Station Dels"
+	landscape land/nasa5
+	description "Developer station for Dels and ships and outfits. The Dels Dardornai and Dels Kaote are represented by this station."
+	spaceport .
+	shipyard "Dels Standard"
+	shipyard "Dels Basic"
+	shipyard "Dels Advanced"
+	outfitter "Dels Standard"
+	outfitter "Dels Basic"
+	outfitter "Dels Advanced"
+	outfitter "Dels Ammo"
+	
+planet "Dev Station Dels Ufulre"
+	landscape land/nasa5
+	description "Developer station for Dels Ufulre ships and outfits."
+	spaceport .
+	shipyard "Dels Ufulre"
+	outfitter "Dels Standard"
+	outfitter "Dels Basic"
+	outfitter "Dels Advanced"
+	outfitter "Dels Ammo"
+
+planet "Dev Station Donko"
+	landscape land/nasa5
+	description "Developer station for Donko ships and outfits."
+	spaceport .
+	outfitter "Donko Ammo"
+	outfitter "Donko Basic"
+	outfitter "Donko Advanced"
+	shipyard "Donko Basic"
+	shipyard "Donko Advanced"
+	
+planet "Dev Station Erader Darua"
+	landscape land/nasa5
+	description "Developer station for Erader Darua ships and outfits."
+	spaceport .
+	outfitter "Darua Advanced"
+	outfitter "Darua Ammo"
+	outfitter "Erader Ammo"
+	outfitter "Erader Basic"
+	shipyard "Erader Basic"
+	shipyard "Darua Advanced"
+	
+planet "Dev Station Erader Mukube"
+	landscape land/nasa5
+	description "Developer station for Erader Mukube ships and outfits."
+	spaceport .
+	# Nothing special defined for Mukube
+	outfitter "Erader Ammo"
+	outfitter "Erader Basic"
+	shipyard "Erader Basic"
+	
+planet "Dev Station Geeva"
+	landscape land/nasa5
+	description "Developer station for Geeva ships and outfits."
+	spaceport .
+	outfitter "Geeva Basic"
+	outfitter "Geeva Advanced"
+	shipyard "Geeva Basic"
+	shipyard "Geeva Advanced"
+	
+planet "Dev Station Ignaggen"
+	landscape land/nasa5
+	description "Developer station for Ignaggen ships and outfits."
+	spaceport .
+	outfitter "Ignaggen Basic"
+	outfitter "Ignaggen Advanced"
+	shipyard "Ignaggen Basic"
+	shipyard "Ignaggen Small"
+	shipyard "Ignaggen Advanced"
+	shipyard "Ignaggen Large"
+	shipyard "Ignaggen Military"
+	
+planet "Dev Station Kroom Kakaima"
+	landscape land/nasa5
+	description "Developer station for Kroom Kakaima ships and outfits."
+	spaceport .
+	outfitter "Kroom Ammo"
+	outfitter "Kroom Basic"
+	outfitter "Kroom Advanced"
+	outfitter "Kakaima Basic"
+	outfitter "Kakaima Advanced"
+	shipyard "Kakaima Basic"
+	shipyard "Kakaima Advanced"
+	
+planet "Dev Station Kroom Kanai"
+	landscape land/nasa5
+	description "Developer station for Kroom Kanai ships and outfits."
+	spaceport .
+	outfitter "Kroom Ammo"
+	outfitter "Kroom Basic"
+	outfitter "Kroom Advanced"
+	outfitter "Kanai Basic"
+	# There is no "Kanai Advanced" outfitter defined
+	shipyard "Kanai Basic"
+	shipyard "Kanai Advanced"
+	
+planet "Dev Station Kumakk"
+	landscape land/nasa5
+	description "Developer station for Kumakk ships and outfits."
+	spaceport .
+	# Nothing defined for Kumakk
+
+planet "Dev Station Makau A Qoro"
+	landscape land/nasa5
+	description "Developer station for Makau A Qoro ships and outfits."
+	spaceport .
+	outfitter "Qoro Makau Basic"
+	shipyard "Qoro Makau Basic"
+	
+planet "Dev Station Makerurader"
+	landscape land/nasa5
+	description "Developer station for Makerurader ships and outfits."
+	spaceport .
+	outfitter "Erader Ammo"
+	outfitter "Erader Basic"
+	outfitter "Makerurader Ammo"
+	outfitter "Makerurader Advanced"
+	shipyard "Erader Basic"
+	shipyard "Makerurader Small"
+	shipyard "Makerurader Large"
+	
+planet "Dev Station Nuru"
+	landscape land/nasa5
+	description "Developer station for Nuru ships and outfits."
+	spaceport .
+	outfitter "Nuru All"
+	shipyard "Nuru All"
+
+planet "Dev Station Qoro Siogal"
+	landscape land/nasa5
+	description "Developer station for Qoro Siogal ships and outfits."
+	spaceport .
+	outfitter "Qoro Siogal Basic"
+	shipyard "Qoro Siogal Basic"
+	
+planet "Dev Station Revos"
+	landscape land/nasa5
+	description "Developer station for Revos ships and outfits."
+	spaceport .
+	outfitter "Revos All"
+	shipyard "Revos All"
+	
+planet "Dev Station Taroun"
+	landscape land/nasa5
+	description "Developer station for Taroun ships and outfits."
+	spaceport .
+	shipyard "Taroun All"
+	shipyard "Taroun Basic"
+	shipyard "Taroun Advanced"
+	outfitter "Taroun All"
+	outfitter "Taroun Basic"
+	outfitter "Taroun Advanced"
+	
+planet "Dev Station Tehru Insker"
+	landscape land/nasa5
+	description "Developer station for Tehru Insker ships and outfits."
+	spaceport .
+	shipyard "Tehru All"
+	outfitter "Tehru All"
+	outfitter "Insker Ammo"
+
+planet "Dev Station Ultaka"
+	landscape land/nasa5
+	description "Developer station for Ultaka ships and outfits."
+	spaceport .
+	
+planet "Dev Station Wallagi"
+	landscape land/nasa5
+	description "Developer station for Wallagi ships and outfits."
+	spaceport .
+	outfitter "Wallagi Basic"
+	outfitter "Wallagi"
+	shipyard "Wallagi"
+	
+planet "Dev Station Zis"
+	landscape land/nasa5
+	description "Developer station for Zis ships and outfits."
+	spaceport .
+	outfitter "ZIS Advanced"
+	shipyard "ZIS Advanced"
+	shipyard "ZIS Old"
+	
 planet Devaren
 	attributes station
 	landscape land/sivael1
