@@ -122,7 +122,7 @@ outfit "Rilar-06 Anti-Missile" #R6 Anti-Missile Turret
 	"weapon capacity" -25
 	"turret mounts" -1
 	weapon
-		"hit effect" "r6 anti-missile"
+		#"hit effect" "r6 anti-missile"
 		"fire effect" "electron impact"
 		"hardpoint sprite" "hardpoint/heavy anti-missile"
 		"hardpoint offset" 5.
@@ -166,8 +166,8 @@ outfit "Nirilar-05 Anti-Missile" #R5 Micro Anti-Missile Turret
 	"weapon capacity" -5
 	"turret mounts" -1
 	weapon
-		"hit effect" "r5 anti-missile"
-		"fire effect" "laser impact"
+		#"hit effect" "r5 anti-missile"
+		"fire effect" "beam laser impact"
 		"hardpoint sprite" "hardpoint/heavy anti-missile"
 		"hardpoint offset" 5.
 		"anti-missile" 5
