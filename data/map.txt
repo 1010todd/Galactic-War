@@ -14206,7 +14206,6 @@ system Dolker
 	government Revos
 	habitable 425.92
 	belt 1578
-	link Eidalr
 	link Eundo
 	link Kulor
 	asteroids "small rock" 1 11.4318
@@ -14256,6 +14255,10 @@ system Dolker
 			sprite planet/ice0
 			distance 209
 			period 12.909
+	object "Revos-Donko Wormhole"
+		sprite planet/wormhole
+		distance 4000
+		period 20
 
 system Dolmoriwakla
 	pos -52256.9 -55403.8
@@ -17012,7 +17015,6 @@ system Eidalr
 	government Revos
 	habitable 1705
 	belt 1305
-	link Dolker
 	asteroids "small rock" 81 1.815
 	asteroids "medium rock" 8 1.9305
 	asteroids "large rock" 36 1.914
@@ -17056,6 +17058,10 @@ system Eidalr
 		sprite planet/gas12
 		distance 2289.85
 		period 1061.47
+	object "Revos-Donko Wormhole"
+		sprite planet/wormhole
+		distance 4000
+		period 20
 
 system Eiekdarmor
 	pos -50939.7 -55258.6
@@ -104084,6 +104090,9 @@ planet "Reuke Ksa"
 	landscape land/sivael1
 	description .
 	spaceport .
+
+planet "Revos-Donko Wormhole"
+	description ""
 
 planet Rixircar
 	landscape land/land12
