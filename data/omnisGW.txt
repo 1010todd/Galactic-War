@@ -3057,6 +3057,463 @@ planet "Zorcn"
 	outfitter "Zorcn Advanced"
 	outfitter "Neyton Outfits"
 
+#================================Wormholes
+
+planet "Dels Kaote Capital"
+	government arena
+planet "Omnis-GW: Dels Kaote Wormhole"
+	government cheat
+system "Vobeelee"
+	add object "Omnis-GW: Dels Kaote Wormhole"
+		sprite "sprite/wisp_green"
+		distance 3000
+		offset 0
+system "Dels"
+	add object "Dels Kaote Capital"
+		sprite "planet/venus"
+		distance 3300
+		offset 0
+	add object "Omnis-GW: Dels Kaote Wormhole"
+		sprite "sprite/wisp_green"
+		distance 3000
+		offset 0
+
+planet "Dels Dardornai Capital"
+	government arena
+planet "Omnis-GW: Dels Dardornai Wormhole"
+	government cheat
+system "Mokugea"
+	add object "Omnis-GW: Dels Dardornai Wormhole"
+		sprite "sprite/wisp_green"
+		distance 3000
+		offset 330
+system "Dels"
+	add object "Dels Dardornai Capital"
+		sprite "planet/venus"
+		distance 3300
+		offset 330
+	add object "Omnis-GW: Dels Dardornai Wormhole"
+		sprite "sprite/wisp_green"
+		distance 3000
+		offset 330
+
+planet "Dels Ufulre Capital"
+	government arena
+planet "Omnis-GW: Dels Ufulre Wormhole"
+	government cheat
+system "Dolmoriwakla"
+	add object "Omnis-GW: Dels Ufulre Wormhole"
+		sprite "sprite/wisp_green"
+		distance 3000
+		offset 30
+system "Dels"
+	add object "Dels Ufulre Capital"
+		sprite "planet/venus"
+		distance 3300
+		offset 30
+	add object "Omnis-GW: Dels Ufulre Wormhole"
+		sprite "sprite/wisp_green"
+		distance 3000
+		offset 30
+
+planet "Donko Capital"
+	government arena
+planet "Omnis-GW: Donko Wormhole"
+	government cheat
+system "Worak"
+	add object "Omnis-GW: Donko Wormhole"
+		sprite "sprite/wisp_green"
+		distance 3000
+		offset 0
+system "Donko"
+	add object "Donko Capital"
+		sprite "planet/venus"
+		distance 3300
+		offset 0
+	add object "Omnis-GW: Donko Wormhole"
+		sprite "sprite/wisp_green"
+		distance 3000
+		offset 0
+
+planet "Erader Darua Capital"
+	government arena
+planet "Omnis-GW: Erader Darua Wormhole"
+	government cheat
+system "Mortarlen"
+	add object "Omnis-GW: Erader Darua Wormhole"
+		sprite "sprite/wisp_green"
+		distance 3000
+		offset 0
+system "Erader"
+	add object "Erader Darua Capital"
+		sprite "planet/venus"
+		distance 3300
+		offset 300
+	add object "Omnis-GW: Erader Darua Wormhole"
+		sprite "sprite/wisp_green"
+		distance 3000
+		offset 300
+
+planet "Erader Kasiva Capital"
+	government arena
+planet "Omnis-GW: Erader Kasiva Wormhole"
+	government cheat
+system "Vishil"
+	add object "Omnis-GW: Erader Kasiva Wormhole"
+		sprite "sprite/wisp_green"
+		distance 3000
+		offset 0
+system "Erader"
+	add object "Erader Kasiva Capital"
+		sprite "planet/venus"
+		distance 3300
+		offset 330
+	add object "Omnis-GW: Erader Kasiva Wormhole"
+		sprite "sprite/wisp_green"
+		distance 3000
+		offset 330
+
+planet "Erader Mukube Capital"
+	government arena
+planet "Omnis-GW: Erader Mukube Wormhole"
+	government cheat
+system "Aifveva"
+	add object "Omnis-GW: Erader Mukube Wormhole"
+		sprite "sprite/wisp_green"
+		distance 3000
+		offset 0
+system "Erader"
+	add object "Erader Mukube Capital"
+		sprite "planet/venus"
+		distance 3300
+		offset 0
+	add object "Omnis-GW: Erader Mukube Wormhole"
+		sprite "sprite/wisp_green"
+		distance 3000
+		offset 0
+
+planet "Erader Narpul Capital"
+	government arena
+planet "Omnis-GW: Erader Narpul Wormhole"
+	government cheat
+system "Nihverka"
+	add object "Omnis-GW: Erader Narpul Wormhole"
+		sprite "sprite/wisp_green"
+		distance 3000
+		offset 0
+system "Erader"
+	add object "Erader Narpul Capital"
+		sprite "planet/venus"
+		distance 3300
+		offset 30
+	add object "Omnis-GW: Erader Narpul Wormhole"
+		sprite "sprite/wisp_green"
+		distance 3000
+		offset 30
+
+planet "Geeva Capital"
+	government arena
+planet "Omnis-GW: Geeva Wormhole"
+	government cheat
+system "Rilgeril"
+	add object "Omnis-GW: Geeva Wormhole"
+		sprite "sprite/wisp_green"
+		distance 3000
+		offset 0
+system "Geeva"
+	add object "Geeva Capital"
+		sprite "planet/venus"
+		distance 3300
+		offset 0
+	add object "Omnis-GW: Geeva Wormhole"
+		sprite "sprite/wisp_green"
+		distance 3000
+		offset 0
+
+planet "Ignaggen Capital"
+	government arena
+planet "Omnis-GW: Ignaggen Wormhole"
+	government cheat
+system "Erwal"
+	add object "Omnis-GW: Ignaggen Wormhole"
+		sprite "sprite/wisp_green"
+		distance 3000
+		offset 0
+system "Ignaggen"
+	add object "Ignaggen Capital"
+		sprite "planet/venus"
+		distance 3300
+		offset 0
+	add object "Omnis-GW: Ignaggen Wormhole"
+		sprite "sprite/wisp_green"
+		distance 3000
+		offset 0
+
+planet "Kroom Kakaima Capital"
+	government arena
+planet "Omnis-GW: Kroom Kakaima Wormhole"
+	government cheat
+system "Okrevug"
+	add object "Omnis-GW: Kroom Kakaima Wormhole"
+		sprite "sprite/wisp_green"
+		distance 3000
+		offset 0
+system "Kroom"
+	add object "Kroom Kakaima Capital"
+		sprite "planet/venus"
+		distance 3300
+		offset 330
+	add object "Omnis-GW: Kroom Kakaima Wormhole"
+		sprite "sprite/wisp_green"
+		distance 3000
+		offset 330
+
+planet "Kroom Kanai Capital"
+	government arena
+planet "Omnis-GW: Kroom Kanai Wormhole"
+	government cheat
+system "Ginma"
+	add object "Omnis-GW: Kroom Kanai Wormhole"
+		sprite "sprite/wisp_green"
+		distance 3000
+		offset 0
+system "Kroom"
+	add object "Kroom Kanai Capital"
+		sprite "planet/venus"
+		distance 3300
+		offset 30
+	add object "Omnis-GW: Kroom Kanai Wormhole"
+		sprite "sprite/wisp_green"
+		distance 3000
+		offset 30
+
+planet "Kumakk Capital"
+	government arena
+planet "Omnis-GW: Kumakk Wormhole"
+	government cheat
+system "Ko'kusor"
+	add object "Omnis-GW: Kumakk Wormhole"
+		sprite "sprite/wisp_green"
+		distance 3000
+		offset 0
+system "Kumakk"
+	add object "Kumakk Capital"
+		sprite "planet/venus"
+		distance 3300
+		offset 0
+	add object "Omnis-GW: Kumakk Wormhole"
+		sprite "sprite/wisp_green"
+		distance 3000
+		offset 0
+
+planet "Makau a Qoro Capital"
+	government arena
+planet "Omnis-GW: Makau a Qoro Wormhole"
+	government cheat
+system "Malsos"
+	add object "Omnis-GW: Makau a Qoro Wormhole"
+		sprite "sprite/wisp_green"
+		distance 3000
+		offset 0
+system "Qoro"
+	add object "Makau a Qoro Capital"
+		sprite "planet/venus"
+		distance 3300
+		offset 330
+	add object "Omnis-GW: Makau a Qoro Wormhole"
+		sprite "sprite/wisp_green"
+		distance 3000
+		offset 330
+
+planet "Makerurader Capital"
+	government arena
+planet "Omnis-GW: Makerurader Wormhole"
+	government cheat
+system "Basksrek"
+	add object "Omnis-GW: Makerurader Wormhole"
+		sprite "sprite/wisp_green"
+		distance 3000
+		offset 0
+system "Erader"
+	add object "Makerurader Capital"
+		sprite "planet/venus"
+		distance 3300
+		offset 60
+	add object "Omnis-GW: Makerurader Wormhole"
+		sprite "sprite/wisp_green"
+		distance 3000
+		offset 60
+
+planet "Nuru Capital"
+	government arena
+planet "Omnis-GW: Nuru Wormhole"
+	government cheat
+system "Go se ri"
+	add object "Omnis-GW: Nuru Wormhole"
+		sprite "sprite/wisp_green"
+		distance 3000
+		offset 0
+system "Nuru"
+	add object "Nuru Capital"
+		sprite "planet/venus"
+		distance 3300
+		offset 0
+	add object "Omnis-GW: Nuru Wormhole"
+		sprite "sprite/wisp_green"
+		distance 3000
+		offset 0
+
+planet "Qoro Siogarl Capital"
+	government arena
+planet "Omnis-GW: Qoro Siogarl Wormhole"
+	government cheat
+system "Haola Lesu"
+	add object "Omnis-GW: Qoro Siogarl Wormhole"
+		sprite "sprite/wisp_green"
+		distance 3000
+		offset 0
+system "Qoro"
+	add object "Qoro Siogarl Capital"
+		sprite "planet/venus"
+		distance 3300
+		offset 30
+	add object "Omnis-GW: Qoro Siogarl Wormhole"
+		sprite "sprite/wisp_green"
+		distance 3000
+		offset 30
+
+planet "Revos Capital"
+	government arena
+planet "Omnis-GW: Revos Wormhole"
+	government cheat
+system "Molta"
+	add object "Omnis-GW: Revos Wormhole"
+		sprite "sprite/wisp_green"
+		distance 3000
+		offset 0
+system "Revos"
+	add object "Revos Capital"
+		sprite "planet/venus"
+		distance 3300
+		offset 0
+	add object "Omnis-GW: Revos Wormhole"
+		sprite "sprite/wisp_green"
+		distance 3000
+		offset 0
+
+planet "Taroun Territory"
+	government arena
+planet "Omnis-GW: Taroun Wormhole"
+	government cheat
+system "Urlansa"
+	add object "Omnis-GW: Taroun Wormhole"
+		sprite "sprite/wisp_green"
+		distance 3000
+		offset 0
+system "Taroun"
+	add object "Taroun Territory"
+		sprite "planet/venus"
+		distance 3300
+		offset 0
+	add object "Omnis-GW: Taroun Wormhole"
+		sprite "sprite/wisp_green"
+		distance 3000
+		offset 0
+
+planet "Tehru Insker Capital"
+	government arena
+planet "Omnis-GW: Tehru Insker Wormhole"
+	government cheat
+system "Urkvulnar"
+	add object "Omnis-GW: Tehru Insker Wormhole"
+		sprite "sprite/wisp_green"
+		distance 3000
+		offset 0
+system "Tehru"
+	add object "Tehru Insker Capital"
+		sprite "planet/venus"
+		distance 3300
+		offset 0
+	add object "Omnis-GW: Tehru Insker Wormhole"
+		sprite "sprite/wisp_green"
+		distance 3000
+		offset 0
+
+planet "Ultaka Capital"
+	government arena
+planet "Omnis-GW: Ultaka Wormhole"
+	government cheat
+system "Saska"
+	add object "Omnis-GW: Ultaka Wormhole"
+		sprite "sprite/wisp_green"
+		distance 3000
+		offset 0
+system "Ultaka"
+	add object "Ultaka Capital"
+		sprite "planet/venus"
+		distance 3300
+		offset 0
+	add object "Omnis-GW: Ultaka Wormhole"
+		sprite "sprite/wisp_green"
+		distance 3000
+		offset 0
+
+planet "Wallagi Territory"
+	government arena
+planet "Omnis-GW: Wallagi Wormhole"
+	government cheat
+system "Magosen-L2885"
+	add object "Omnis-GW: Wallagi Wormhole"
+		sprite "sprite/wisp_green"
+		distance 3000
+		offset 0
+system "Wallagi"
+	add object "Wallagi Territory"
+		sprite "planet/venus"
+		distance 3300
+		offset 0
+	add object "Omnis-GW: Wallagi Wormhole"
+		sprite "sprite/wisp_green"
+		distance 3000
+		offset 0
+
+planet "Zis Capital"
+	government arena
+planet "Omnis-GW: Zis Wormhole"
+	government cheat
+system "Trochzempt ZAZ-1"
+	add object "Omnis-GW: Zis Wormhole"
+		sprite "sprite/wisp_green"
+		distance 3000
+		offset 0
+system "Zis"
+	add object "Zis Capital"
+		sprite "planet/venus"
+		distance 3300
+		offset 0
+	add object "Omnis-GW: Zis Wormhole"
+		sprite "sprite/wisp_green"
+		distance 3000
+		offset 0
+
+planet "Zorcn Capital"
+	government arena
+planet "Omnis-GW: Zorcn Wormhole"
+	government cheat
+system "Zausn"
+	add object "Omnis-GW: Zorcn Wormhole"
+		sprite "sprite/wisp_green"
+		distance 3000
+		offset 0
+system "Zorcn"
+	add object "Zorcn Capital"
+		sprite "planet/venus"
+		distance 3300
+		offset 0
+	add object "Omnis-GW: Zorcn Wormhole"
+		sprite "sprite/wisp_green"
+		distance 3000
+		offset 0
 
 #===============================Tribute+Fleets 
 # Note: "GW" Prefix is for selecting ships to be used at Galactic War system to avoid wormholes.
