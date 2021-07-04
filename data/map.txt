@@ -86389,8 +86389,6 @@ system "Sector Dels"
 	trade Medical 737
 	trade Metal 489
 	trade Plastic 448
-	object
-		sprite ui/m83ed-devmap	
 	object "Dev Station Dels"
 		sprite "ship/dels darca"
 		distance 2460
@@ -104877,6 +104875,21 @@ planet Yanshuri
 
 planet Zalvalhe
 	landscape land/land15
+	description .
+	spaceport .
+
+planet "Zerax WS-2"
+	landscape land/space0
+	description .
+	spaceport .
+
+planet "Zoivol WS-1"
+	landscape land/space0
+	description .
+	spaceport .
+
+planet "Zondra Station"
+	landscape land/space0
 	description .
 	spaceport .
 
