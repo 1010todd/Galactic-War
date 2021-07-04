@@ -758,7 +758,52 @@ shipyard "Kanai Basic"
 
 shipyard "Kanai Advanced"
 	"Mugildor"
-	
+
+#======================================Kumakk
+
+shipyard "Kumakk All"
+	# Interceptors
+	"Kasoulek"
+
+	# Light Freighters
+	"Oulkorke"
+
+	# Heavy Warships
+	"Akolucor"
+
+outfitter "Kumakk All"
+	# Weapons
+	"Ordakko Gun"
+	"Ordakko Turret"
+	"Ku'alno Turret"
+	"Loku'nol Missile"
+	"Loku'nol Missile Storage"
+	"Loku'nol Missile Launcher"
+	"Loku'nol Missile Turret"
+	"Ko'lorke Missile Shield"
+
+	# Systems
+	"Cu'nosu Shield Generator"
+	"Gulgo'ro Shield Generator"
+	"Ko'rosul Shield Generator"
+	"No'uro Shield Generator"
+
+	# Power
+	"Sol-6ii Generator"
+	"Sol-9ia Generator"
+	"Vuk-9ix Generator"
+	"Ekken'lar Capacitor"
+
+	# Engines
+	"Cokor Thruster"
+	"Kolun'a Thruster"
+	"Lelu'a Thruster"
+	"Mocoro Thruster"
+	"Cokor Steering"
+	"Kolun'a Steering"
+	"Lelu'a Steering"
+	"Mocoro Steering"
+
 #======================================Nuru
 outfitter "Nuru All"
 	"Uora Power Cells"

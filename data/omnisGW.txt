@@ -1377,71 +1377,71 @@ system Kumakk
 	object "Kumakk"
 		sprite planet/ringworld
 		distance 812
-	object "Kumakk"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 20
-	object "Kumakk"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 40
-	object "Kumakk"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 60
-	object "Kumakk"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 80
-	object "Kumakk"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 100
-	object "Kumakk"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 120
-	object "Kumakk"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 140
-	object "Kumakk"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 160
-	object "Kumakk"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 180
-	object "Kumakk"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 200
-	object "Kumakk"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 220
-	object "Kumakk"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 240
-	object "Kumakk"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 260
-	object "Kumakk"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 280
-	object "Kumakk"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 300
-	object "Kumakk"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 320
-	object "Kumakk"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 340
@@ -1452,6 +1452,10 @@ system Kumakk
 		sprite sprite/category_light_freighter
 		distance 1200
 		offset 40
+		object "Kumakk Oulkorke"
+			sprite "ship/kumakk oulkorke"
+			distance 400
+			offset 40
 	object
 		sprite sprite/category_heavy_freighter
 		distance 1200
@@ -1460,6 +1464,10 @@ system Kumakk
 		sprite sprite/category_interceptor
 		distance 1200
 		offset 120
+		object "Kumakk Kasoulek"
+			sprite "ship/kumakk kasoulek"
+			distance 400
+			offset 120
 	object
 		sprite sprite/category_light_warship
 		distance 1200
@@ -1472,6 +1480,10 @@ system Kumakk
 		sprite sprite/category_heavy_warship
 		distance 1200
 		offset 240
+		object "Kumakk Akolucor"
+			sprite "ship/kumakk akolucor"
+			distance 1000
+			offset 240
 	object
 		sprite sprite/category_fighter
 		distance 1200
@@ -1480,26 +1492,6 @@ system Kumakk
 		sprite sprite/category_drone
 		distance 1200
 		offset 320
-	object "Kumakk"
-		sprite "ship/ermeirae"
-		distance 1450
-		offset 40
-	object "Kumakk"
-		sprite "ship/ermhidersan"
-		distance 1500
-		offset 40
-	object "Kumakk"
-		sprite "ship/ermernar"
-		distance 1450
-		offset 160
-	object "Kumakk"
-		sprite "ship/ermhordanler"
-		distance 1450
-		offset 160
-	object "Kumakk"
-		sprite "ship/ermroekler"
-		distance 1500
-		offset 240
 
 system Nuru
 	pos 257.311 -9962.28
@@ -3223,8 +3215,10 @@ planet "Kroom"
 
 planet "Kumakk"
 	landscape "landscape/station6"
-	description `(This Fraction is WIP)`
+	description `(This faction is WIP)`
 	spaceport ``
+	shipyard "Kumakk All"
+	outfitter "Kumakk All"
 
 planet "Nuru"
 	landscape "landscape/station6"
@@ -3563,16 +3557,16 @@ planet "Omnis-GW: Kumakk Wormhole"
 system "Ko'kusor"
 	add object "Omnis-GW: Kumakk Wormhole"
 		sprite "sprite/wisp_green"
-		distance 3000
+		distance 4000
 		offset 0
 system "Kumakk"
 	add object "Kumakk Capital"
 		sprite "planet/venus"
-		distance 3300
+		distance 4300
 		offset 0
 	add object "Omnis-GW: Kumakk Wormhole"
 		sprite "sprite/wisp_green"
-		distance 3000
+		distance 4000
 		offset 0
 
 planet "Makau a Qoro Capital"
@@ -4564,6 +4558,65 @@ fleet "Kroom Girok"
 		heroic
 	variant
 		"Girok"
+
+#================================Kumakk
+
+planet "Kumakk Akolucor"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Kumakk Akolucor"
+planet "GW Akolucor"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Kumakk Akolucor"
+fleet "Kumakk Akolucor"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Akolucor"
+
+planet "Kumakk Kasoulek"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Kumakk Kasoulek"
+planet "GW Kasoulek"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Kumakk Kasoulek"
+fleet "Kumakk Kasoulek"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Kasoulek"
+
+planet "Kumakk Oulkorke"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Kumakk Oulkorke"
+planet "GW Oulkorke"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Kumakk Oulkorke"
+fleet "Kumakk Oulkorke"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Oulkorke"
 
 #================================Nuru
 
