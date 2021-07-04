@@ -38,7 +38,6 @@ mission "Omnis-GW: Mark Capitals"
 	waypoint Vobeelee #Dels Kaote
 	waypoint Mokugea #Dels Dardornai
 	waypoint Dolmoriwakla #Dels Ulfulre
-	waypoint Rilgeril #Geeva
 	waypoint Erwal #Ignaggen
 	waypoint "Trochzempt ZAZ-1" #Zis
 	waypoint Mortarlen #Erader Darua
@@ -59,7 +58,36 @@ mission "Omnis-GW: Mark Capitals"
 	waypoint "Go se ri" #Nuru
 	waypoint "Ko'kusor" #Kumakk
 	waypoint Urkvulnar #Tehru Insker
-	
+	waypoint Saska #Ultaka
+
+mission "Omnis-GW: reveal omnis"
+	invisible
+	landing
+	source
+		government "cheat"
+	on accept
+		event "Omnis-GW: reveal omnis"
+
+event "Omnis-GW: reveal omnis"
+	visit "Aumar"
+	visit "Dels"
+	visit "Donko"
+	visit "Erader"
+	visit "Galactic War"
+	visit "Geeva"
+	visit "Ignaggen"
+	visit "Isgeda"
+	visit "Kroom"
+	visit "Kumakk"
+	visit "Nuru"
+	visit "Qoro"
+	visit "Revos"
+	visit "Taroun"
+	visit "Ultaka"
+	visit "Uoorn"
+	visit "Wallagi"
+	visit "Zis"
+	visit "Zorcn"
 
 #===============================Outfitter, Shipyards==========================
 
