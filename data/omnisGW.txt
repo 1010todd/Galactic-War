@@ -566,71 +566,71 @@ system Erm
 	object "Erm"
 		sprite planet/ringworld
 		distance 812
-	object "Erm"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 20
-	object "Erm"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 40
-	object "Erm"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 60
-	object "Erm"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 80
-	object "Erm"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 100
-	object "Erm"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 120
-	object "Erm"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 140
-	object "Erm"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 160
-	object "Erm"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 180
-	object "Erm"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 200
-	object "Erm"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 220
-	object "Erm"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 240
-	object "Erm"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 260
-	object "Erm"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 280
-	object "Erm"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 300
-	object "Erm"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 320
-	object "Erm"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 340
@@ -641,26 +641,50 @@ system Erm
 		sprite sprite/category_light_freighter
 		distance 1200
 		offset 40
+		object "Erm Eirae"
+			sprite "ship/erm eirae"
+			distance 500
+			offset 40
 	object
 		sprite sprite/category_heavy_freighter
 		distance 1200
 		offset 80
+		object "Erm Hidersan"
+			sprite "ship/erm hidersan"
+			distance 500
+			offset 80
 	object
 		sprite sprite/category_interceptor
 		distance 1200
 		offset 120
+		object "Erm Eaken"
+			sprite "ship/erm eaken"
+			distance 500
+			offset 120
 	object
 		sprite sprite/category_light_warship
 		distance 1200
 		offset 160
+		object "Erm Ernar"
+			sprite "ship/erm ernar"
+			distance 500
+			offset 160
 	object
 		sprite sprite/category_medium_warship
 		distance 1200
 		offset 200
+		object "Erm Hordanler"
+			sprite "ship/erm hordanler"
+			distance 500
+			offset 200
 	object
 		sprite sprite/category_heavy_warship
 		distance 1200
 		offset 240
+		object "Erm Roekler"
+			sprite "ship/erm roekler"
+			distance 1000
+			offset 240
 	object
 		sprite sprite/category_fighter
 		distance 1200
@@ -669,26 +693,6 @@ system Erm
 		sprite sprite/category_drone
 		distance 1200
 		offset 320
-	object "Erm Eirae"
-		sprite "ship/erm eirae"
-		distance 1450
-		offset 40
-	object "Erm Hidersan"
-		sprite "ship/erm hidersan"
-		distance 1550
-		offset 80
-	object "Erm Ernar"
-		sprite "ship/erm ernar"
-		distance 1450
-		offset 160
-	object "Erm Hordanler"
-		sprite "ship/erm hordanler"
-		distance 1500
-		offset 200
-	object "Erm Roekler"
-		sprite "ship/erm roekler"
-		distance 1600
-		offset 240
 
 system "Galactic War"
 	pos 61.8109 -9955.78
@@ -2058,71 +2062,71 @@ system Tehru
 	object "Tehru"
 		sprite planet/ringworld
 		distance 812
-	object "Tehru"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 20
-	object "Tehru"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 40
-	object "Tehru"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 60
-	object "Tehru"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 80
-	object "Tehru"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 100
-	object "Tehru"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 120
-	object "Tehru"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 140
-	object "Tehru"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 160
-	object "Tehru"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 180
-	object "Tehru"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 200
-	object "Tehru"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 220
-	object "Tehru"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 240
-	object "Tehru"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 260
-	object "Tehru"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 280
-	object "Tehru"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 300
-	object "Tehru"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 320
-	object "Tehru"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 340
@@ -2163,12 +2167,12 @@ system Tehru
 		offset 240
 		object "Tehru Mavuin"
 			sprite "ship/tehru mavuin"
-			distance 600
-			offset 270
+			distance 1000
+			offset 240
 		object "Tehru Tcvarka"
 			sprite "ship/tehru tcvarka"
-			distance 600
-			offset 210
+			distance 2000
+			offset 240
 	object
 		sprite sprite/category_fighter
 		distance 1200
@@ -3690,16 +3694,16 @@ planet "Omnis-GW: Tehru Insker Wormhole"
 system "Urkvulnar"
 	add object "Omnis-GW: Tehru Insker Wormhole"
 		sprite "sprite/wisp_green"
-		distance 3000
+		distance 4000
 		offset 0
 system "Tehru"
 	add object "Tehru Insker Capital"
 		sprite "planet/venus"
-		distance 3300
+		distance 4300
 		offset 0
 	add object "Omnis-GW: Tehru Insker Wormhole"
 		sprite "sprite/wisp_green"
-		distance 3000
+		distance 4000
 		offset 0
 
 planet "Ultaka Capital"
@@ -4185,6 +4189,27 @@ fleet "Erm Eirae"
 		heroic
 	variant
 		"Eirae"
+
+planet "Erm Eaken"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Erm Eaken"
+
+planet "GW Eaken"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Erm Eaken"
+
+fleet "Erm Eaken"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Eaken"
 
 #================================Geeva
 
