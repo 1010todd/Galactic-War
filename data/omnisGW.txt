@@ -12,71 +12,71 @@ system Aumar
 	object "Aumar"
 		sprite planet/ringworld
 		distance 812
-	object "Aumar"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 20
-	object "Aumar"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 40
-	object "Aumar"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 60
-	object "Aumar"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 80
-	object "Aumar"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 100
-	object "Aumar"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 120
-	object "Aumar"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 140
-	object "Aumar"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 160
-	object "Aumar"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 180
-	object "Aumar"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 200
-	object "Aumar"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 220
-	object "Aumar"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 240
-	object "Aumar"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 260
-	object "Aumar"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 280
-	object "Aumar"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 300
-	object "Aumar"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 320
-	object "Aumar"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 340
@@ -87,6 +87,10 @@ system Aumar
 		sprite sprite/category_light_freighter
 		distance 1200
 		offset 40
+		object "Aumar Gy-2"
+			sprite "ship/aumar gy2"
+			distance 300
+			offset 40
 	object
 		sprite sprite/category_heavy_freighter
 		distance 1200
@@ -115,10 +119,6 @@ system Aumar
 		sprite sprite/category_drone
 		distance 1200
 		offset 320
-	object "Aumar Gy-2"
-		sprite "ship/aumar gy2"
-		distance 1450
-		offset 40
 
 system Dels
 	pos 135.311 -9884.28
@@ -1194,129 +1194,155 @@ system Kroom
 	object "Kroom"
 		sprite planet/ringworld
 		distance 812
-	object "Kroom"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 20
-	object "Kroom"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 40
-	object "Kroom"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 60
-	object "Kroom"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 80
-	object "Kroom"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 100
-	object "Kroom"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 120
-	object "Kroom"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 140
-	object "Kroom"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 160
-	object "Kroom"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 180
-	object "Kroom"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 200
-	object "Kroom"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 220
-	object "Kroom"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 240
-	object "Kroom"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 260
-	object "Kroom"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 280
-	object "Kroom"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 300
-	object "Kroom"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 320
-	object "Kroom"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 340
 	object
 		sprite sprite/category_transport
 		distance 1200
+		offset 0
+		object "Kroom Kaargor"
+			#factions "Kroom Kanai"
+			sprite "ship/kroom kaargor"
+			distance 400
+			offset 0
 	object
 		sprite sprite/category_light_freighter
 		distance 1200
 		offset 40
+		object "Kroom Gikaar"
+			#factions "Kroom Kakaima"
+			sprite "ship/kroom gikaar"
+			distance 300
+			offset 40
 	object
 		sprite sprite/category_heavy_freighter
 		distance 1200
 		offset 80
+		object "Kroom Mukikor"
+			#factions "Kroom Kakaima"
+			sprite "ship/kroom mukikor"
+			distance 600
+			offset 80
 	object
 		sprite sprite/category_interceptor
 		distance 1200
 		offset 120
+		object "Kroom Kargorko"
+			#factions "Kroom Kanai"
+			sprite "ship/kroom kargorko"
+			distance 300
+			offset 120
 	object
 		sprite sprite/category_light_warship
 		distance 1200
 		offset 160
+		object "Kroom Garokka"
+			#factions "Kroom Kakaima"
+			sprite "ship/kroom garokka"
+			distance 300
+			offset 160
 	object
 		sprite sprite/category_medium_warship
 		distance 1200
 		offset 200
+		object "Kroom Grakka"
+			#factions "Kroom Kakaima"
+			sprite "ship/kroom grakka"
+			distance 400
+			offset 200
 	object
 		sprite sprite/category_heavy_warship
 		distance 1200
 		offset 240
+		object "Kroom Grokva"
+			#factions "Kroom Kakaima"
+			sprite "ship/kroom grokva"
+			distance 1000
+			offset 230
+		object "Kroom Mugildor"
+			#factions "Kroom Kanai"
+			sprite "ship/kroom modmukikor"
+			distance 1000
+			offset 250
 	object
 		sprite sprite/category_fighter
 		distance 1200
 		offset 280
+		object "Kroom Girok"
+			#factions "Kroom Kakaima"
+			sprite "ship/kroom girok"
+			distance 600
+			offset 280
 	object
 		sprite sprite/category_drone
 		distance 1200
 		offset 320
-	object "Kroom Kaargor"
-		sprite "ship/kroom kaargor"
-		distance 1450
-		offset 35
-	object "Kroom Kargorko"
-		sprite "ship/kroom kargorko"
-		distance 1500
-		offset 40
-	object "Kroom Garokka"
-		sprite "ship/kroom garokka"
-		distance 1450
-		offset 160
-	object "Kroom Grakka"
-		sprite "ship/kroom grakka"
-		distance 1450
-		offset 200
-	object "Kroom Grokva"
-		sprite "ship/kroom grokva"
-		distance 1500
-		offset 240
 
 system Kumakk
 	pos 217.311 -9914.28
@@ -2866,101 +2892,178 @@ system Zorcn
 	object "Zorcn"
 		sprite planet/ringworld
 		distance 812
-	object "Zorcn"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 20
-	object "Zorcn"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 40
-	object "Zorcn"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 60
-	object "Zorcn"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 80
-	object "Zorcn"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 100
-	object "Zorcn"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 120
-	object "Zorcn"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 140
-	object "Zorcn"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 160
-	object "Zorcn"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 180
-	object "Zorcn"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 200
-	object "Zorcn"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 220
-	object "Zorcn"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 240
-	object "Zorcn"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 260
-	object "Zorcn"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 280
-	object "Zorcn"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 300
-	object "Zorcn"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 320
-	object "Zorcn"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 340
 	object
 		sprite sprite/category_transport
 		distance 1200
+		offset 0
+		object "Zorcn Emaryt"
+			sprite "ship/zorcn emaryt"
+			distance 1000
+			offset 340
+		object "Zorcn Eytis"
+			sprite "ship/zorcn eytis"
+			distance 500
+			offset 340
+		object "Zorcn Enntr"
+			sprite "ship/zorcn enntr"
+			distance 900
+			offset 20
+		object "Zorcn Nuar'an"
+			sprite "ship/zorcn nuar'an"
+			distance 400
+			offset 30
 	object
 		sprite sprite/category_light_freighter
 		distance 1200
 		offset 40
+		object "Zorcn Bytis"
+			sprite "ship/zorcn bytis"
+			distance 400
+			offset 10
+		object "Zorcn Beltr"
+			sprite "ship/zorcn beltr"
+			distance 1000
+			offset 40
+		object "Zorcn Bermas"
+			sprite "ship/zorcn bermas"
+			distance 400
+			offset 70
 	object
 		sprite sprite/category_heavy_freighter
 		distance 1200
 		offset 80
+		object "Zorcn Mtyr"
+			sprite "ship/zorcn mtyr"
+			distance 600
+			offset 60
+		object "Zorcn Bitorn"
+			sprite "ship/zorcn bitorn"
+			distance 600
+			offset 100
 	object
 		sprite sprite/category_interceptor
 		distance 1200
 		offset 120
+		object "Zorcn Augyr"
+			sprite "ship/zorcn augyr"
+			distance 300
+			offset 90
+		object "Zorcn Mausr"
+			sprite "ship/zorcn mausr"
+			distance 1000
+			offset 120
+		object "Zorcn Mausr Lite"
+			sprite "ship/zorcn mausr"
+			distance 300
+			offset 150
 	object
 		sprite sprite/category_light_warship
 		distance 1200
 		offset 160
+		object "Zorcn Barsten"
+			sprite "ship/zorcn barsten"
+			distance 400
+			offset 160
+		object "Zorcn Vixta"
+			sprite "ship/zorcn vixta"
+			distance 1000
+			offset 160
 	object
 		sprite sprite/category_medium_warship
 		distance 1200
 		offset 200
+		object "Zorcn Vorrix"
+			sprite "ship/zorcn vorrix"
+			distance 450
+			offset 200
 	object
 		sprite sprite/category_heavy_warship
 		distance 1200
 		offset 240
+		object "Zorcn Incskv"
+			sprite "ship/zorcn incskv"
+			distance 1000
+			offset 230
+		object "Zorcn Itrras"
+			sprite "ship/zorcn itrras"
+			distance 1000
+			offset 250
+		object "Zorcn Genex"
+			sprite "ship/zorcn genex"
+			distance 2000
+			offset 230
+		object "Zorcn Xima"
+			sprite "ship/zorcn xima"
+			distance 2000
+			offset 250
 	object
 		sprite sprite/category_fighter
 		distance 1200
@@ -2969,38 +3072,10 @@ system Zorcn
 		sprite sprite/category_drone
 		distance 1200
 		offset 320
-	object "Zorcn Bytis"
-		sprite "ship/zorcn bytis"
-		distance 1450
-		offset 35
-	object "Zorcn Bermas"
-		sprite "ship/zorcn bermas"
-		distance 1500
-		offset 45
-	object "Zorcn Barsten"
-		sprite "ship/zorcn barsten"
-		distance 1450
-		offset 155
-	object "Zorcn Vixta"
-		sprite "ship/zorcn vixta"
-		distance 1450
-		offset 165
-	object "Zorcn Vorrix"
-		sprite "ship/zorcn vorrix"
-		distance 1450
-		offset 200
-	object "Zorcn Incskv"
-		sprite "ship/zorcn incskv"
-		distance 1500
-		offset 230
-	object "Zorcn Genex"
-		sprite "ship/zorcn genex"
-		distance 1500
-		offset 250
-	object "Zorcn Xima"
-		sprite "ship/zorcn xima"
-		distance 2000
-		offset 240
+		object "Zorcn Dermue"
+			sprite "ship/zorcn dermue"
+			distance 400
+			offset 320
 
 #==============================Galactic War Planets=======================
 
@@ -3057,7 +3132,7 @@ planet "GW Default"
 
 planet "Aumar"
 	landscape "landscape/station6"
-	description `(This Fraction is WIP)`
+	description `(This faction is WIP)`
 	spaceport ``
 	outfitter "Aumar"
 	shipyard "Aumar"
@@ -3211,6 +3286,7 @@ planet "Zorcn"
 	shipyard "Zorcn Advanced"
 	shipyard "Zorcn Military"
 	shipyard "Zorcn Neyton"
+	shipyard "Zorcn Omnis"
 	shipyard "Zorcn Xyncil"
 	outfitter "Zorcn Basic Ammo"
 	outfitter "Zorcn Basic"
@@ -3410,41 +3486,58 @@ system "Ignaggen"
 		offset 0
 
 planet "Kroom Kakaima Capital"
-	government arena
+	government cheat
+	landscape "landscape/station6"
+	description ""
+	spaceport ""
+	shipyard "Kakaima Basic"
+	shipyard "Kakaima Advanced"
+	outfitter "Kroom Basic"
+	outfitter "Kroom Advanced"
+	outfitter "Kakaima Basic"
+	outfitter "Kakaima Advanced"
 planet "Omnis-GW: Kroom Kakaima Wormhole"
 	government cheat
 system "Okrevug"
 	add object "Omnis-GW: Kroom Kakaima Wormhole"
 		sprite "sprite/wisp_green"
-		distance 3000
+		distance 4000
 		offset 0
 system "Kroom"
 	add object "Kroom Kakaima Capital"
 		sprite "planet/venus"
-		distance 3300
+		distance 4300
 		offset 330
 	add object "Omnis-GW: Kroom Kakaima Wormhole"
 		sprite "sprite/wisp_green"
-		distance 3000
+		distance 4000
 		offset 330
 
 planet "Kroom Kanai Capital"
-	government arena
+	government cheat
+	landscape "landscape/station6"
+	description ""
+	spaceport ""
+	shipyard "Kanai Basic"
+	shipyard "Kanai Advanced"
+	outfitter "Kroom Basic"
+	outfitter "Kroom Advanced"
+	outfitter "Kanai Basic"
 planet "Omnis-GW: Kroom Kanai Wormhole"
 	government cheat
 system "Ginma"
 	add object "Omnis-GW: Kroom Kanai Wormhole"
 		sprite "sprite/wisp_green"
-		distance 3000
+		distance 4000
 		offset 0
 system "Kroom"
 	add object "Kroom Kanai Capital"
 		sprite "planet/venus"
-		distance 3300
+		distance 4300
 		offset 30
 	add object "Omnis-GW: Kroom Kanai Wormhole"
 		sprite "sprite/wisp_green"
-		distance 3000
+		distance 4000
 		offset 30
 
 planet "Kumakk Capital"
@@ -3663,20 +3756,41 @@ planet "Omnis-GW: Zorcn Wormhole"
 system "Zausn"
 	add object "Omnis-GW: Zorcn Wormhole"
 		sprite "sprite/wisp_green"
-		distance 3000
+		distance 4000
 		offset 0
 system "Zorcn"
 	add object "Zorcn Capital"
 		sprite "planet/venus"
-		distance 3300
+		distance 4300
 		offset 0
 	add object "Omnis-GW: Zorcn Wormhole"
 		sprite "sprite/wisp_green"
-		distance 3000
+		distance 4000
 		offset 0
 
 #===============================Tribute+Fleets 
 # Note: "GW" Prefix is for selecting ships to be used at Galactic War system to avoid wormholes.
+
+#================================Aumar
+
+planet "Aumar Gy-2"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Aumar Gy-2"
+planet "GW Kaargor"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Aumar Gy-2"
+fleet "Aumar Gy-2"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Gy-2"
 
 #================================Dels
 
@@ -4193,20 +4307,75 @@ fleet "Ignaggen I'nos"
 
 #================================Kroom
 
+planet "Kroom Kaargor"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Kroom Kaargor"
+planet "GW Kaargor"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Kroom Kaargor"
+fleet "Kroom Kaargor"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Kaargor"
+
+planet "Kroom Gikaar"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Kroom Gikaar"
+planet "GW Gikaar"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Kroom Gikaar"
+fleet "Kroom Gikaar"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Gikaar"
+
+planet "Kroom Mukikor"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Kroom Mukikor"
+planet "GW Mukikor"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Kroom Mukikor"
+fleet "Kroom Mukikor"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Mukikor"
+
 planet "Kroom Kargorko"
 	government arena
 	bribe 0
 	tribute 1
 		threshold 0
 		fleet "Kroom Kargorko"
-
 planet "GW Kargorko"
 	government arena
 	bribe 0
 	tribute 1
 		threshold 0
 		fleet "Kroom Kargorko"
-
 fleet "Kroom Kargorko"
 	government "arena"
 	personality
@@ -4220,14 +4389,12 @@ planet "Kroom Garokka"
 	tribute 1
 		threshold 0
 		fleet "Kroom Garokka"
-
 planet "GW Garokka"
 	government arena
 	bribe 0
 	tribute 1
 		threshold 0
 		fleet "Kroom Garokka"
-
 fleet "Kroom Garokka"
 	government "arena"
 	personality
@@ -4241,14 +4408,12 @@ planet "Kroom Grakka"
 	tribute 1
 		threshold 0
 		fleet "Kroom Grakka"
-
 planet "GW Grakka"
 	government arena
 	bribe 0
 	tribute 1
 		threshold 0
 		fleet "Kroom Grakka"
-
 fleet "Kroom Grakka"
 	government "arena"
 	personality
@@ -4262,14 +4427,12 @@ planet "Kroom Grokva"
 	tribute 1
 		threshold 0
 		fleet "Kroom Grokva"
-
 planet "GW Grokva"
 	government arena
 	bribe 0
 	tribute 1
 		threshold 0
 		fleet "Kroom Grokva"
-
 fleet "Kroom Grokva"
 	government "arena"
 	personality
@@ -4277,6 +4440,43 @@ fleet "Kroom Grokva"
 	variant
 		"Grokva"
 
+planet "Kroom Mugildor"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Kroom Mugildor"
+planet "GW Mugildor"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Kroom Mugildor"
+fleet "Kroom Mugildor"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Mugildor"
+
+planet "Kroom Girok"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Kroom Girok"
+planet "GW Girok"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Kroom Girok"
+fleet "Kroom Girok"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Girok"
 
 #================================Nuru
 
@@ -5128,20 +5328,113 @@ fleet "ZIS Sysor"
 
 #===========================Zorcn
 
+planet "Zorcn Dermue"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Zorcn Dermue"
+planet "GW Dermue"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Zorcn Dermue"
+fleet "Zorcn Dermue"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Zorcn Dermue"
+
+planet "Zorcn Augyr"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Zorcn Augyr"
+planet "GW Augyr"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Zorcn Augyr"
+fleet "Zorcn Augyr"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Zorcn Augyr"
+
+planet "Zorcn Mausr"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Zorcn Mausr"
+planet "GW Mausr"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Zorcn Mausr"
+fleet "Zorcn Mausr"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Zorcn Mausr"
+
+planet "Zorcn Mausr Lite"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Zorcn Mausr Lite"
+planet "GW Mausr Lite"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Zorcn Mausr Lite"
+fleet "Zorcn Mausr Lite"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Zorcn Mausr Lite"
+
+planet "Zorcn Eytis"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Zorcn Eytis"
+planet "GW Eytis"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Zorcn Eytis"
+fleet "Zorcn Eytis"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Zorcn Eytis"
+
 planet "Zorcn Bytis"
 	government arena
 	bribe 0
 	tribute 1
 		threshold 0
 		fleet "Zorcn Bytis"
-		
 planet "GW Bytis"
 	government arena
 	bribe 0
 	tribute 1
 		threshold 0
 		fleet "Zorcn Bytis"
-		
 fleet "Zorcn Bytis"
 	government "arena"
 	personality
@@ -5149,26 +5442,43 @@ fleet "Zorcn Bytis"
 	variant
 		"Zorcn Bytis"
 
-planet "Zorcn Barsten"
+planet "Zorcn Enntr"
 	government arena
 	bribe 0
 	tribute 1
 		threshold 0
-		fleet "Zorcn Barsten"
-		
-planet "GW Barsten"
+		fleet "Zorcn Enntr"
+planet "GW Enntr"
 	government arena
 	bribe 0
 	tribute 1
 		threshold 0
-		fleet "Zorcn Barsten"
-		
-fleet "Zorcn Barsten"
+		fleet "Zorcn Enntr"
+fleet "Zorcn Enntr"
 	government "arena"
 	personality
 		heroic
 	variant
-		"Zorcn Barsten"
+		"Zorcn Enntr"
+
+planet "Zorcn Beltr"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Zorcn Beltr"
+planet "GW Beltr"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Zorcn Beltr"
+fleet "Zorcn Beltr"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Zorcn Beltr"
 
 planet "Zorcn Bermas"
 	government arena
@@ -5176,14 +5486,12 @@ planet "Zorcn Bermas"
 	tribute 1
 		threshold 0
 		fleet "Zorcn Bermas"
-		
 planet "GW Bermas"
 	government arena
 	bribe 0
 	tribute 1
 		threshold 0
 		fleet "Zorcn Bermas"
-		
 fleet "Zorcn Bermas"
 	government "arena"
 	personality
@@ -5191,47 +5499,24 @@ fleet "Zorcn Bermas"
 	variant
 		"Zorcn Bermas"
 
-planet "Zorcn Genex"
+planet "Zorcn Barsten"
 	government arena
 	bribe 0
 	tribute 1
 		threshold 0
-		fleet "Zorcn Genex"
-		
-planet "GW Genex"
+		fleet "Zorcn Barsten"
+planet "GW Barsten"
 	government arena
 	bribe 0
 	tribute 1
 		threshold 0
-		fleet "Zorcn Genex"
-		
-fleet "Zorcn Genex"
+		fleet "Zorcn Barsten"
+fleet "Zorcn Barsten"
 	government "arena"
 	personality
 		heroic
 	variant
-		"Zorcn Genex"
-
-planet "Zorcn Incskv"
-	government arena
-	bribe 0
-	tribute 1
-		threshold 0
-		fleet "Zorcn Incskv"
-		
-planet "GW Inckv"
-	government arena
-	bribe 0
-	tribute 1
-		threshold 0
-		fleet "Zorcn Incskv"
-		
-fleet "Zorcn Incskv"
-	government "arena"
-	personality
-		heroic
-	variant
-		"Zorcn Incskv"
+		"Zorcn Barsten"
 
 planet "Zorcn Vixta"
 	government arena
@@ -5239,14 +5524,12 @@ planet "Zorcn Vixta"
 	tribute 1
 		threshold 0
 		fleet "Zorcn Vixta"
-		
 planet "GW Vixta"
 	government arena
 	bribe 0
 	tribute 1
 		threshold 0
 		fleet "Zorcn Vixta"
-		
 fleet "Zorcn Vixta"
 	government "arena"
 	personality
@@ -5254,20 +5537,94 @@ fleet "Zorcn Vixta"
 	variant
 		"Zorcn Vixta"
 
+planet "Zorcn Nuar'an"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Zorcn Nuar'an"
+planet "GW Nuar'an"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Zorcn Nuar'an"
+fleet "Zorcn Nuar'an"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Zorcn Nuar'an"
+
+planet "Zorcn Emaryt"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Zorcn Emaryt"
+planet "GW Emaryt"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Zorcn Emaryt"
+fleet "Zorcn Emaryt"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Zorcn Emaryt"
+
+planet "Zorcn Mtyr"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Zorcn Mtyr"
+planet "GW Mtyr"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Zorcn Mtyr"
+fleet "Zorcn Mtyr"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Zorcn Mtyr"
+
+planet "Zorcn Bitorn"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Zorcn Bitorn"
+planet "GW Bitorn"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Zorcn Bitorn"
+fleet "Zorcn Bitorn"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Zorcn Bitorn"
+
 planet "Zorcn Vorrix"
 	government arena
 	bribe 0
 	tribute 1
 		threshold 0
 		fleet "Zorcn Vorrix"
-		
 planet "GW Vorrix"
 	government arena
 	bribe 0
 	tribute 1
 		threshold 0
 		fleet "Zorcn Vorrix"
-		
 fleet "Zorcn Vorrix"
 	government "arena"
 	personality
@@ -5275,20 +5632,75 @@ fleet "Zorcn Vorrix"
 	variant
 		"Zorcn Vorrix"
 
+planet "Zorcn Incskv"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Zorcn Incskv"
+planet "GW Incskv"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Zorcn Incskv"
+fleet "Zorcn Incskv"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Zorcn Incskv"
+
+planet "Zorcn Itrras"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Zorcn Itrras"
+planet "GW Itrras"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Zorcn Itrras"
+fleet "Zorcn Itrras"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Zorcn Itrras"
+
+planet "Zorcn Genex"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Zorcn Genex"
+planet "GW Genex"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Zorcn Genex"
+fleet "Zorcn Genex"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Zorcn Genex"
+
 planet "Zorcn Xima"
 	government arena
 	bribe 0
 	tribute 1
 		threshold 0
 		fleet "Zorcn Xima"
-		
 planet "GW Xima"
 	government arena
 	bribe 0
 	tribute 1
 		threshold 0
 		fleet "Zorcn Xima"
-		
 fleet "Zorcn Xima"
 	government "arena"
 	personality
