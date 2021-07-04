@@ -927,71 +927,71 @@ system Ignaggen
 	object "Ignaggen"
 		sprite planet/ringworld
 		distance 812
-	object "Ignaggen"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 20
-	object "Ignaggen"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 40
-	object "Ignaggen"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 60
-	object "Ignaggen"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 80
-	object "Ignaggen"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 100
-	object "Ignaggen"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 120
-	object "Ignaggen"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 140
-	object "Ignaggen"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 160
-	object "Ignaggen"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 180
-	object "Ignaggen"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 200
-	object "Ignaggen"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 220
-	object "Ignaggen"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 240
-	object "Ignaggen"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 260
-	object "Ignaggen"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 280
-	object "Ignaggen"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 300
-	object "Ignaggen"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 320
-	object "Ignaggen"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 340
@@ -1002,14 +1002,34 @@ system Ignaggen
 		sprite sprite/category_light_freighter
 		distance 1200
 		offset 40
+		object "Ignaggen Kina"
+			sprite "ship/ignaggen kina"
+			distance 500
+			offset 20
+		object "Ignaggen Kamuel"
+			sprite "ship/ignaggen kamuel"
+			distance 500
+			offset 60
 	object
 		sprite sprite/category_heavy_freighter
 		distance 1200
 		offset 80
+		object "Ignaggen Keorlen"
+			sprite "ship/ignaggen keorlen"
+			distance 600
+			offset 80
 	object
 		sprite sprite/category_interceptor
 		distance 1200
 		offset 120
+		object "Ignaggen Gikeor"
+			sprite "ship/ignaggen gikeor"
+			distance 400
+			offset 100
+		object "Ignaggen Koggareu"
+			sprite "ship/ignaggen koggareu"
+			distance 400
+			offset 140
 	object
 		sprite sprite/category_light_warship
 		distance 1200
@@ -1018,10 +1038,18 @@ system Ignaggen
 		sprite sprite/category_medium_warship
 		distance 1200
 		offset 200
+		object "Ignaggen Loerlen"
+			sprite "ship/ignaggen loerlen"
+			distance 500
+			offset 200
 	object
 		sprite sprite/category_heavy_warship
 		distance 1200
 		offset 240
+		object "Ignaggen I'nos"
+			sprite "ship/ignaggen inos"
+			distance 1000
+			offset 240
 	object
 		sprite sprite/category_fighter
 		distance 1200
@@ -1030,18 +1058,6 @@ system Ignaggen
 		sprite sprite/category_drone
 		distance 1200
 		offset 320
-	object "Ignaggen Koggareu"
-		sprite "ship/ignaggen koggareu"
-		distance 1450
-		offset 115
-	object "Ignaggen Gikeor"
-		sprite "ship/ignaggen gikeor"
-		distance 1500
-		offset 120
-	object "Ignaggen I'nos"
-		sprite "ship/ignaggen inos"
-		distance 1500
-		offset 240
 
 system Isgeda
 	pos 263.311 -9721.28
@@ -3473,16 +3489,16 @@ planet "Omnis-GW: Ignaggen Wormhole"
 system "Erwal"
 	add object "Omnis-GW: Ignaggen Wormhole"
 		sprite "sprite/wisp_green"
-		distance 3000
+		distance 4000
 		offset 0
 system "Ignaggen"
 	add object "Ignaggen Capital"
 		sprite "planet/venus"
-		distance 3300
+		distance 4300
 		offset 0
 	add object "Omnis-GW: Ignaggen Wormhole"
 		sprite "sprite/wisp_green"
-		distance 3000
+		distance 4000
 		offset 0
 
 planet "Kroom Kakaima Capital"
@@ -4242,47 +4258,6 @@ fleet "Geeva Kimali"
 		"Kimali"
 
 #================================Ignaggen
-planet "Ignaggen Gikeor"
-	government arena
-	bribe 0
-	tribute 1
-		threshold 0
-		fleet "Ignaggen Gikeor"
-
-planet "GW Gikeor"
-	government arena
-	bribe 0
-	tribute 1
-		threshold 0
-		fleet "Ignaggen Gikeor"
-
-fleet "Ignaggen Gikeor"
-	government "arena"
-	personality
-		heroic
-	variant
-		"Gikeor"
-		
-planet "Ignaggen Koggareu"
-	government arena
-	bribe 0
-	tribute 1
-		threshold 0
-		fleet "Ignaggen Koggareu"
-
-planet "GW Koggareu"
-	government arena
-	bribe 0
-	tribute 1
-		threshold 0
-		fleet "Ignaggen Koggareu"
-
-fleet "Ignaggen Koggareu"
-	government "arena"
-	personality
-		heroic
-	variant
-		"Koggareu"
 
 planet "Ignaggen I'nos"
 	government arena
@@ -4290,20 +4265,132 @@ planet "Ignaggen I'nos"
 	tribute 1
 		threshold 0
 		fleet "Ignaggen I'nos"
-
 planet "GW I'nos"
 	government arena
 	bribe 0
 	tribute 1
 		threshold 0
 		fleet "Ignaggen I'nos"
-
 fleet "Ignaggen I'nos"
 	government "arena"
 	personality
 		heroic
 	variant
 		"I'nos"
+
+planet "Ignaggen Loerlen"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ignaggen Loerlen"
+planet "GW Loerlen"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ignaggen Loerlen"
+fleet "Ignaggen Loerlen"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Loerlen"
+
+planet "Ignaggen Keorlen"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ignaggen Keorlen"
+planet "GW Keorlen"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ignaggen Keorlen"
+fleet "Ignaggen Keorlen"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Keorlen"
+
+planet "Ignaggen Kina"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ignaggen Kina"
+planet "GW Kina"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ignaggen Kina"
+fleet "Ignaggen Kina"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Kina"
+
+planet "Ignaggen Kamuel"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ignaggen Kamuel"
+planet "GW Kamuel"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ignaggen Kamuel"
+fleet "Ignaggen Kamuel"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Kamuel"
+
+planet "Ignaggen Gikeor"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ignaggen Gikeor"
+planet "GW Gikeor"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ignaggen Gikeor"
+fleet "Ignaggen Gikeor"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Gikeor"
+
+planet "Ignaggen Koggareu"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ignaggen Koggareu"
+planet "GW Koggareu"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ignaggen Koggareu"
+fleet "Ignaggen Koggareu"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Koggareu"
 
 #================================Kroom
 
