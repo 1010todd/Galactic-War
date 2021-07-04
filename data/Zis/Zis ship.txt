@@ -51,7 +51,7 @@ ship "VK-35 Katen"
 		gun 34 -51
 		gun -7 -25
 		gun 4 -25
-		turret 0 34.5 "Mrag Turret"
+		turret 0 34.5
 		turret 0 34.5 "ZIS Anti-Missile System"
 		gun 0 21.5
 		engine 19 42
@@ -128,9 +128,9 @@ ship "VK-35 Katen" "Katen Dark Blaster"
 			"ZIS Anti-Missile System"
 		
 			"MPa20Gp-02 Engines"
-			"EPa20Gx-01 Generator"
+			"EPa20Gx-02 Generator"
 			"GSa05Gp-02 Shielding"
-			"GHa05Gp-02 Hull Repair" 
+			"GHa05Gp-02 Hull Repair"
 			
 		description "A fighter of ancient design. These sold in shipyard are infact no longer in production."
 		description "Dark Blaster Variant."

@@ -604,6 +604,188 @@ outfit "Dels Ramscoop"
 	"solar heat" .5
 	description "These ramscoop provide Dels captain alternative to outfitting with fuel pods for long range travel."
 	
+#=========================================[Shields]=============================
+	
+outfit "Aeedul Shield Generator" #SR10
+	category "Systems"
+	cost 34000
+	thumbnail "outfit/dels small shield"
+	"mass" 11
+	"outfit space" -11
+	"shield generation" .2
+	"shield energy" .24
+	"depleted shield delay" 5
+	"heat generation" 1
+	description "This is the smallest shield generator avaliable in Dels space. Powerful for its size but can take a while to recharge when depleted."
+
+outfit "Dudae Shield Generator" #SR20
+	category "Systems"
+	cost 68000
+	thumbnail "outfit/dels small shield"
+	"mass" 15
+	"outfit space" -15
+	"shield generation" .3
+	"shield energy" .35
+	"depleted shield delay" 6
+	"heat generation" 1.2
+	description "A little bit more powerful than SR10 shield generator"
+	
+outfit "Hiavee Shield Generator" #SR30
+	category "Systems"
+	cost 125000
+	thumbnail "outfit/dels small shield"
+	"mass" 22
+	"outfit space" -22
+	"shield generation" .5
+	"shield energy" .56
+	"depleted shield delay" 8
+	"heat generation" 3.3
+	description "Dels large shield generator"
+	
+outfit "Holee Shield Generator" #SR40
+	category "Systems"
+	cost 250000
+	thumbnail "outfit/dels small shield"
+	"mass" 35
+	"outfit space" -35
+	"shield generation" .75
+	"shield energy" .79
+	"depleted shield delay" 12
+	"heat generation" 4.5
+	description "Dels large shield generator"
+	
+outfit "Kaekur Shield Generator" #SR50
+	category "Systems"
+	cost 545000
+	thumbnail "outfit/dels small shield"
+	"mass" 50
+	"outfit space" -50
+	"shield generation" 1.7
+	"shield energy" 2.2
+	"depleted shield delay" 18
+	"heat generation" 8
+	description "This is the most powerful shield generator the Dels have to offer."
+	
+outfit "Type-F Hyperdrive"
+	category "Systems"
+	cost 50000
+	thumbnail "outfit/hyperdrive"
+	"mass" 25
+	"outfit space" -25
+	"jump speed" 1.5
+	"hyperdrive" 1
+	"jump fuel" 175
+	description "Dels's Type-F Hyperdrive allow ships to jump at speed"
+	
+#=========================================[Energy]=============================
+	
+outfit "Dalsa Fusion Reactor"
+	category "Power"
+	cost 5500000
+	thumbnail "outfit/dels fusion big"
+	"mass" 110
+	"outfit space" -110
+	"energy generation" 20.2
+	"heat generation" 60
+	"operating costs" 100
+	description "Currently the most powerful fusion reactor the Dels have to offer. Due to it's extreme complexity the workers always complain when they have to deal with it."
+	
+outfit "Deela Fusion Reactor"
+	category "Power"
+	cost 2800000
+	thumbnail "outfit/dels fusion small"
+	"mass" 50
+	"outfit space" -50
+	"energy generation" 9.7
+	"heat generation" 34.6
+	description "Dels's small Fusion Reactor for smaller ships."
+	
+outfit "Kulter Generator"
+	category "Power"
+	cost 3000000
+	thumbnail "outfit/dels kulter generator"
+	"mass" 30
+	"outfit space" -30
+	"enery generation" 5.4
+	"heat generation" 9.4
+	"cooling inefficiency" .01
+	description "."
+	
+outfit "Deupar Fuel Cell" #C10
+	category "Power"
+	cost 38000
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 18
+	"outfit space" -18
+	"energy generation" 2
+	"heat generation" 1.4
+	description "Dels smallest fuel cell."
+	
+outfit "Farlu Fuel Cell" #C20
+	category "Power"
+	cost 49000
+	thumbnail "outfit/small fuel cell"
+	"mass" 28
+	"outfit space" -28
+	"energy generation" 4
+	"heat generation" 3.2
+	description "Dels small fuel cell."
+	
+outfit "Hilke Fuel Cell" #C30
+	category "Power"
+	cost 49000
+	thumbnail "outfit/medium fuel cell"
+	"mass" 40
+	"outfit space" -40
+	"energy generation" 7
+	"heat generation" 6.7
+	description "Dels medium fuel cell."
+	
+outfit "K0108 Battery Pack" #Cannal
+	category "Power"
+	cost 9000
+	thumbnail "outfit/tiny battery"
+	"mass" 8
+	"outfit space" -8
+	"energy capacity" 980
+	description "Dels's smallest battery" 
+	
+outfit "K0218 Battery Pack" #River
+	category "Power"
+	cost 30000
+	thumbnail "outfit/small battery"
+	"mass" 18
+	"outfit space" -18
+	"energy capacity" 2000
+	description "Dels battery"
+	
+outfit "K0538 Battery Pack" #Sea
+	category "Power"
+	cost 70000
+	thumbnail "outfit/medium battery"
+	"mass" 38
+	"outfit space" -38
+	"energy capacity" 4900
+	description "Dels's medium-sized battery"
+	
+outfit "K1180 Battery Pack" #Gulf
+	category "Power"
+	cost 160000
+	thumbnail "outfit/large battery"
+	"mass" 80
+	"outfit space" -80
+	"energy capacity" 11000
+	description "Dels's large battery"
+	
+outfit "K3016a Battery Pack" #Ocean
+	category "Power"
+	cost 385000
+	thumbnail "outfit/huge battery"
+	"mass" 160
+	"outfit space" -160
+	"energy capacity" 24000
+	description "Dels's largest battery"
+
 #=========================================[Engines]=============================
 	
 outfit "Hao Ion Engines"
@@ -842,189 +1024,6 @@ outfit "Vikuan Steering"
 		"frame rate" 9
 	"steering flare sound" "plasma huge"
 	description "Dels Plasma"
-
-	
-#=========================================[Shields]=============================
-	
-outfit "Aeedul Shield Generator" #SR10
-	category "Systems"
-	cost 34000
-	thumbnail "outfit/dels small shield"
-	"mass" 11
-	"outfit space" -11
-	"shield generation" .2
-	"shield energy" .24
-	"depleted shield delay" 5
-	"heat generation" 1
-	description "This is the smallest shield generator avaliable in Dels space. Powerful for its size but can take a while to recharge when depleted."
-
-outfit "Dudae Shield Generator" #SR20
-	category "Systems"
-	cost 68000
-	thumbnail "outfit/dels small shield"
-	"mass" 15
-	"outfit space" -15
-	"shield generation" .3
-	"shield energy" .35
-	"depleted shield delay" 6
-	"heat generation" 1.2
-	description "A little bit more powerful than SR10 shield generator"
-	
-outfit "Hiavee Shield Generator" #SR30
-	category "Systems"
-	cost 125000
-	thumbnail "outfit/dels small shield"
-	"mass" 22
-	"outfit space" -22
-	"shield generation" .5
-	"shield energy" .56
-	"depleted shield delay" 8
-	"heat generation" 3.3
-	description "Dels large shield generator"
-	
-outfit "Holee Shield Generator" #SR40
-	category "Systems"
-	cost 250000
-	thumbnail "outfit/dels small shield"
-	"mass" 35
-	"outfit space" -35
-	"shield generation" .75
-	"shield energy" .79
-	"depleted shield delay" 12
-	"heat generation" 4.5
-	description "Dels large shield generator"
-	
-outfit "Kaekur Shield Generator" #SR50
-	category "Systems"
-	cost 545000
-	thumbnail "outfit/dels small shield"
-	"mass" 50
-	"outfit space" -50
-	"shield generation" 1.7
-	"shield energy" 2.2
-	"depleted shield delay" 18
-	"heat generation" 8
-	description "This is the most powerful shield generator the Dels have to offer."
-	
-outfit "Type-F Hyperdrive"
-	category "Systems"
-	cost 50000
-	thumbnail "outfit/hyperdrive"
-	"mass" 25
-	"outfit space" -25
-	"jump speed" 1.5
-	"hyperdrive" 1
-	"jump fuel" 175
-	description "Dels's Type-F Hyperdrive allow ships to jump at speed"
-	
-#=========================================[Energy]=============================
-	
-outfit "Dalsa Fusion Reactor"
-	category "Power"
-	cost 5500000
-	thumbnail "outfit/dels fusion big"
-	"mass" 110
-	"outfit space" -110
-	"energy generation" 20.2
-	"heat generation" 60
-	"operating costs" 100
-	description "Currently the most powerful fusion reactor the Dels have to offer. Due to it's extreme complexity the workers always complain when they have to deal with it."
-	
-outfit "Deela Fusion Reactor"
-	category "Power"
-	cost 2800000
-	thumbnail "outfit/dels fusion small"
-	"mass" 50
-	"outfit space" -50
-	"energy generation" 9.7
-	"heat generation" 34.6
-	description "Dels's small Fusion Reactor for smaller ships."
-	
-outfit "Kulter Generator"
-	category "Power"
-	cost 3000000
-	thumbnail "outfit/dels kulter generator"
-	"mass" 30
-	"outfit space" -30
-	"enery generation" 5.4
-	"heat generation" 9.4
-	"cooling inefficiency" .01
-	description "."
-	
-outfit "Deupar Fuel Cell" #C10
-	category "Power"
-	cost 38000
-	thumbnail "outfit/tiny fuel cell"
-	"mass" 18
-	"outfit space" -18
-	"energy generation" 2
-	"heat generation" 1.4
-	description "Dels smallest fuel cell."
-	
-outfit "Farlu Fuel Cell" #C20
-	category "Power"
-	cost 49000
-	thumbnail "outfit/small fuel cell"
-	"mass" 28
-	"outfit space" -28
-	"energy generation" 4
-	"heat generation" 3.2
-	description "Dels small fuel cell."
-	
-outfit "Hilke Fuel Cell" #C30
-	category "Power"
-	cost 49000
-	thumbnail "outfit/medium fuel cell"
-	"mass" 40
-	"outfit space" -40
-	"energy generation" 7
-	"heat generation" 6.7
-	description "Dels medium fuel cell."
-	
-outfit "K0108 Battery Pack" #Cannal
-	category "Power"
-	cost 9000
-	thumbnail "outfit/tiny battery"
-	"mass" 8
-	"outfit space" -8
-	"energy capacity" 980
-	description "Dels's smallest battery" 
-	
-outfit "K0218 Battery Pack" #River
-	category "Power"
-	cost 30000
-	thumbnail "outfit/small battery"
-	"mass" 18
-	"outfit space" -18
-	"energy capacity" 2000
-	description "Dels battery"
-	
-outfit "K0538 Battery Pack" #Sea
-	category "Power"
-	cost 70000
-	thumbnail "outfit/medium battery"
-	"mass" 38
-	"outfit space" -38
-	"energy capacity" 4900
-	description "Dels's medium-sized battery"
-	
-outfit "K1180 Battery Pack" #Gulf
-	category "Power"
-	cost 160000
-	thumbnail "outfit/large battery"
-	"mass" 80
-	"outfit space" -80
-	"energy capacity" 11000
-	description "Dels's large battery"
-	
-outfit "K3016a Battery Pack" #Ocean
-	category "Power"
-	cost 385000
-	thumbnail "outfit/huge battery"
-	"mass" 160
-	"outfit space" -160
-	"energy capacity" 24000
-	description "Dels's largest battery"
 	
 #=========================================[H2H]=============================
 	
