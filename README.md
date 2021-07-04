@@ -20,6 +20,9 @@ About 1500 Systems. (Most are still empty)
 
 To find the galaxy, head up to the system north of Ka'ch'chrai(The capital) in the Wanderer space, the wormhole will be in between Sko'karak and Pug Iyik
 
+### Known Issues
+Galaxy image not appearing. To fix this, turn on "reduce large graphic" option in the setting and restart the game.
+
 ## Download
 To download the lastest (development) version, press the green [code] button and download as zip from this repository.
 
