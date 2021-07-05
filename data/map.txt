@@ -1,3 +1,6 @@
+	# Nothing special defined for Mukube
+	# There is no "Kanai Advanced" outfitter defined
+	# Nothing defined for Kumakk
 
 galaxy "GW Galaxy 1"
 	pos -50000 -54661
@@ -5145,6 +5148,7 @@ system Asinaki
 	trade Metal 402
 	trade Plastic 367
 	fleet "Geeva Battle Fleet" 1000
+	fleet "Geeva Civillian" 800
 	object
 		sprite star/k0
 		period 10
@@ -7143,6 +7147,7 @@ system Bilsirval
 	trade Metal 369
 	trade Plastic 270
 	fleet "Geeva Battle Fleet" 1000
+	fleet "Geeva Civillian" 700
 	object
 		sprite star/k0
 		distance 41.0705
@@ -7156,7 +7161,7 @@ system Bilsirval
 		sprite planet/lava4
 		distance 228.929
 		period 45.864
-	object
+	object Pysiril
 		sprite planet/cloud5
 		distance 797.139
 		period 298.003
@@ -17268,6 +17273,7 @@ system Eillinor
 	trade Metal 319
 	trade Plastic 314
 	fleet "Geeva Battle Fleet" 1000
+	fleet "Geeva Civillian" 700
 	object
 		sprite star/f5
 		period 10
@@ -17291,7 +17297,7 @@ system Eillinor
 			sprite planet/dust3
 			distance 246
 			period 13.6082
-	object
+	object Visrali
 		sprite planet/gas3
 		distance 1998.1
 		period 862.688
@@ -17437,6 +17443,7 @@ system Eilverel
 	trade Metal 536
 	trade Plastic 461
 	fleet "Geeva Battle Fleet" 1000
+	fleet "Geeva Civillian" 700
 	object
 		sprite star/g0
 		period 10
@@ -19231,6 +19238,7 @@ system Esmelle
 	trade Metal 347
 	trade Plastic 319
 	fleet "Geeva Battle Fleet" 1000
+	fleet "Geeva Civillian" 700
 	object
 		sprite star/a5
 		distance 8.2406
@@ -20031,6 +20039,7 @@ system Falisrel
 	trade Metal 516
 	trade Plastic 474
 	fleet "Geeva Battle Fleet" 800
+	fleet "Geeva Civillian" 700
 	object
 		sprite star/f0
 		distance 15.9242
@@ -21420,7 +21429,7 @@ system Filiktar
 	object
 		sprite star/m0
 		period 10
-	object
+	object Lysirfarir
 		sprite planet/desert3
 		distance 353.96
 		period 148.907
@@ -21827,6 +21836,7 @@ system Fisrelia
 	trade Metal 275
 	trade Plastic 320
 	fleet "Geeva Battle Fleet" 1200
+	fleet "Geeva Civillian" 1000
 	object
 		sprite star/f0
 		period 10
@@ -23664,6 +23674,7 @@ system Gelfer
 	trade Metal 402
 	trade Plastic 394
 	fleet "Geeva Battle Fleet" 1000
+	fleet "Geeva Civillian" 700
 	object
 		sprite star/k5
 		period 10
@@ -23673,24 +23684,28 @@ system Gelfer
 		period 50.7445
 	object
 		sprite planet/gas9
-		distance 789.05
-		period 429.589
+		distance 880.779
+		period 506.636
+		offset 17.7738
+		object "Ciransir Inis"
+			sprite planet/station6
+			distance 256
+			period 15.3586
+			offset 86.8403
 		object
-			sprite planet/luna
-			distance 234
-			period 13.4219
-		object
-			sprite planet/dust4
-			distance 391
-			period 28.9905
+			sprite planet/rock14
+			distance 418
+			period 32.0446
 	object
 		sprite planet/dust5
-		distance 1332.01
-		period 942.231
+		distance 1727.74
+		period 1391.92
+		offset 1.86389
 	object
 		sprite planet/gas2
-		distance 2151.26
-		period 1933.91
+		distance 2546.99
+		period 2491.36
+		offset 122.107
 		object
 			sprite planet/rock7
 			distance 207
@@ -23792,6 +23807,7 @@ system Gelinar
 	trade Metal 366
 	trade Plastic 317
 	fleet "Geeva Battle Fleet" 1000
+	fleet "Geeva Civillian" 700
 	object
 		sprite star/f5
 		distance 44.4365
@@ -25248,6 +25264,7 @@ system Givarel
 	trade Metal 266
 	trade Plastic 297
 	fleet "Geeva Battle Fleet" 900
+	fleet "Geeva Civillian" 800
 	object
 		sprite star/k0
 		period 10
@@ -25255,18 +25272,21 @@ system Givarel
 		sprite planet/rock3
 		distance 125.21
 		period 25.4037
-	object
+	object Selriras
 		sprite planet/forest4
-		distance 349.77
-		period 118.607
+		distance 456.992
+		period 177.134
+		offset 346.883
 	object
 		sprite planet/dust6
-		distance 813.21
-		period 420.477
+		distance 920.432
+		period 506.321
+		offset 205.425
 	object
 		sprite planet/gas12
-		distance 1563.46
-		period 1120.9
+		distance 1670.68
+		period 1238.17
+		offset 43.0471
 		object
 			sprite planet/rock17
 			distance 288
@@ -25277,8 +25297,9 @@ system Givarel
 			period 18.6934
 	object
 		sprite planet/gas16
-		distance 2445.46
-		period 2192.7
+		distance 2552.68
+		period 2338.48
+		offset 14.4843
 		object
 			sprite planet/oberon
 			distance 219
@@ -27191,7 +27212,7 @@ system Gumarre
 	trade Metal 550
 	trade Plastic 442
 	fleet "Geeva Battle Fleet" 1500
-	fleet "Geeva Civillian" 800
+	fleet "Geeva Civillian" 700
 	object
 		sprite star/k0
 		distance 47.2058
@@ -30360,22 +30381,25 @@ system Ickilvar
 		sprite planet/jupiter
 		distance 644.498
 		period 165.349
-	object
+	object Silnarin
 		sprite planet/ocean8
-		distance 1070.66
-		period 354.035
+		distance 1113.64
+		period 375.565
+		offset 130.895
 	object
 		sprite planet/gas16
-		distance 1507.07
-		period 591.247
+		distance 1550.05
+		period 616.719
+		offset 56.6035
 		object
 			sprite planet/luna
 			distance 191
 			period 13.8946
 	object
 		sprite planet/gas5
-		distance 3271.28
-		period 1890.8
+		distance 3314.26
+		period 1928.19
+		offset 8.30932
 
 system Iekega
 	pos -52207.7 -54656.6
@@ -33320,6 +33344,7 @@ system Isbelvanh
 	trade Metal 514
 	trade Plastic 370
 	fleet "Geeva Battle Fleet" 1000
+	fleet "Geeva Civillian" 700
 	object
 		sprite star/k0
 		distance 18.8924
@@ -33382,6 +33407,7 @@ system Isilver
 	trade Metal 332
 	trade Plastic 292
 	fleet "Geeva Battle Fleet" 1000
+	fleet "Geeva Civillian" 700
 	object
 		sprite star/k5
 		period 10
@@ -33620,6 +33646,7 @@ system Ismelar
 	trade Metal 289
 	trade Plastic 345
 	fleet "Geeva Battle Fleet" 1000
+	fleet "Geeva Civillian" 700
 	object
 		sprite star/g0
 		period 10
@@ -39032,7 +39059,7 @@ system Kelimaros
 		sprite planet/cloud2
 		distance 215.89
 		period 70.9306
-	object
+	object Risaroli
 		sprite planet/cloud8
 		distance 503.18
 		period 252.389
@@ -40914,6 +40941,7 @@ system Kevildar
 	trade Metal 417
 	trade Plastic 350
 	fleet "Geeva Battle Fleet" 1000
+	fleet "Geeva Civillian" 800
 	object
 		sprite star/m8
 		period 10
@@ -52756,6 +52784,7 @@ system Ligeilvi
 	trade Metal 324
 	trade Plastic 353
 	fleet "Geeva Battle Fleet" 1000
+	fleet "Geeva Civillian" 700
 	object
 		sprite star/k0
 		distance 40.6038
@@ -52773,22 +52802,21 @@ system Ligeilvi
 			sprite planet/dust4
 			distance 161
 			period 27.8808
-	object
-		sprite planet/gas16
-		distance 800.566
-		period 299.927
-	object
-		sprite planet/dust2
-		distance 1141.66
-		period 510.767
+	object Silvaria
+		sprite planet/ocean1
+		distance 909.66
+		period 363.277
+		offset 226.53
 	object
 		sprite planet/gas5
-		distance 1580.91
-		period 832.298
+		distance 1384.91
+		period 682.421
+		offset 197.188
 	object
 		sprite planet/gas11
-		distance 2550.07
-		period 1705.09
+		distance 2354.07
+		period 1512.34
+		offset 313.822
 		object
 			sprite planet/rock0
 			distance 252
@@ -52998,6 +53026,7 @@ system Liiveris
 	trade Metal 248
 	trade Plastic 278
 	fleet "Geeva Battle Fleet" 1000
+	fleet "Geeva Civillian" 700
 	object
 		sprite star/k5
 		period 10
@@ -56379,7 +56408,7 @@ system Magrilnil
 		sprite planet/ganymede
 		distance 800.29
 		period 218.675
-	object
+	object Aslraris
 		sprite planet/rock18
 		distance 1529.54
 		period 577.789
@@ -61938,6 +61967,7 @@ system Mereliva
 	trade Metal 462
 	trade Plastic 368
 	fleet "Geeva Battle Fleet" 900
+	fleet "Geeva Civillian" 800
 	object
 		sprite star/g0
 		period 10
@@ -61951,20 +61981,23 @@ system Mereliva
 		period 105.748
 	object Likarile
 		sprite planet/mercury
-		distance 659.83
-		period 206.299
+		distance 730.894
+		period 240.508
+		offset 264.618
 	object
 		sprite planet/gas11
-		distance 1327.72
-		period 588.854
+		distance 1398.78
+		period 636.757
+		offset 49.728
 		object
 			sprite planet/ice0
 			distance 249
 			period 12.9592
 	object
 		sprite planet/gas8
-		distance 3210.16
-		period 2213.8
+		distance 3281.22
+		period 2287.71
+		offset 5.68083
 		object
 			sprite planet/lava0
 			distance 235
@@ -62004,6 +62037,7 @@ system Merlivin
 	trade Metal 326
 	trade Plastic 293
 	fleet "Geeva Battle Fleet" 800
+	fleet "Geeva Civillian" 700
 	object
 		sprite star/g5
 		distance 52.5345
@@ -69810,6 +69844,7 @@ system Navelir
 	trade Metal 507
 	trade Plastic 468
 	fleet "Geeva Battle Fleet" 1000
+	fleet "Geeva Civillian" 700
 	object
 		sprite star/g5
 		period 10
@@ -69821,7 +69856,7 @@ system Navelir
 		sprite planet/ice5
 		distance 387.25
 		period 121.929
-	object
+	object Visusra
 		sprite planet/cloud4
 		distance 859.61
 		period 403.248
@@ -71502,6 +71537,7 @@ system Nikavel
 	trade Metal 378
 	trade Plastic 343
 	fleet "Geeva Battle Fleet" 1000
+	fleet "Geeva Civillian" 800
 	object
 		sprite star/a5
 		distance 14.8418
@@ -73587,7 +73623,7 @@ system Oebade
 		sprite planet/ocean8
 		distance 1016.62
 		period 429.2
-	object
+	object Orsalir
 		sprite planet/desert2
 		distance 1252.23
 		period 586.742
@@ -76172,6 +76208,7 @@ system Pellavin
 	trade Metal 368
 	trade Plastic 368
 	fleet "Geeva Battle Fleet" 800
+	fleet "Geeva Civillian" 700
 	object
 		sprite star/k0
 		distance 44.0323
@@ -76185,18 +76222,20 @@ system Pellavin
 		sprite planet/ganymede
 		distance 231.218
 		period 49.5155
-	object
+	object Coristanir
 		sprite planet/cloud6
-		distance 521.828
-		period 167.88
+		distance 563.427
+		period 188.35
+		offset 246.283
 		object
 			sprite planet/ice0
 			distance 142
 			period 17.3236
 	object
 		sprite planet/gas6
-		distance 1173.84
-		period 566.398
+		distance 1215.44
+		period 596.773
+		offset 84.6808
 		object
 			sprite planet/miranda
 			distance 262
@@ -76207,8 +76246,9 @@ system Pellavin
 			period 17.3743
 	object
 		sprite planet/gas11
-		distance 2912.73
-		period 2213.91
+		distance 2954.33
+		period 2261.5
+		offset 8.95795
 
 system Peltarven
 	pos -49912 -55845
@@ -76433,6 +76473,7 @@ system Pilmier
 	trade Metal 267
 	trade Plastic 300
 	fleet "Geeva Battle Fleet" 1000
+	fleet "Geeva Civillian" 700
 	object
 		sprite star/k0
 		period 10
@@ -82329,6 +82370,7 @@ system Rilmerel
 	trade Metal 374
 	trade Plastic 309
 	fleet "Geeva Battle Fleet" 800
+	fleet "Geeva Civillian" 700
 	object
 		sprite star/m0
 		period 10
@@ -86392,109 +86434,108 @@ system "Sector Dels"
 	object "Dev Station Dels"
 		sprite "ship/dels darca"
 		distance 2460
-		offset 273
 		period 1
+		offset 273
 	object "Dev Station Dels Ufulre"
 		sprite "ship/dels dacar"
 		distance 3800
-		offset 279
 		period 1
+		offset 279
 	object "Dev Station Donko"
 		sprite "ship/donko koi"
 		distance 6160
-		offset 131
 		period 1
+		offset 131
 	object "Dev Station Erader Darua"
 		sprite "ship/erader kemvanh"
 		distance 1622
-		offset 64
 		period 1
+		offset 64
 	object "Dev Station Erader Mukube"
 		sprite "ship/erader daren"
 		distance 2840
-		offset 52
 		period 1
+		offset 52
 	object "Dev Station Geeva"
 		sprite "ship/geeva mayuinia"
 		distance 3422
-		offset 303
 		period 1
+		offset 303
 	object "Dev Station Ignaggen"
 		sprite "ship/ignaggen keorlen"
 		distance 256
-		offset 10
 		period 1
+		offset 10
 	object "Dev Station Kroom Kakaima"
 		sprite "ship/kroom grakka"
 		distance 2240
-		offset 345
 		period 1
+		offset 345
 	object "Dev Station Kroom Kanai"
 		sprite "ship/kroom grokva"
 		distance 2100
-		offset 316
 		period 1
+		offset 316
 	object "Dev Station Kumakk"
 		sprite "ship/kumakk oulkorke"
 		distance 2048
-		offset 190
 		period 1
+		offset 190
 	object "Dev Station Makau A Qoro"
 		sprite "ship/qoro m manta"
 		distance 2646
-		offset 90
 		period 1
+		offset 90
 	object "Dev Station Makerurader"
 		sprite "ship/erader mr vardarkin"
 		distance 3730
-		offset 44
 		period 1
+		offset 44
 	object "Dev Station Nuru"
 		sprite "ship/nuru ar pu haa"
 		distance 3768
-		offset 180
 		period 1
+		offset 180
 	object "Dev Station Qoro Siogal"
 		sprite "ship/qoro s gasat"
 		distance 2696
-		offset 124
 		period 1
+		offset 124
 	object "Dev Station Revos"
 		sprite "ship/revos caosma"
 		distance 1640
-		offset 104
 		period 1
+		offset 104
 	object "Dev Station Taroun"
 		sprite "ship/taroun oresu"
 		distance 4500
-		offset 358
 		period 1
+		offset 358
 	object "Dev Station Tehru Insker"
 		sprite "ship/tehru tcvarka"
 		distance 4986
-		offset 0
 		period 1
-		offset 242		
+		offset 242
 	object "Dev Station Ultaka"
 		sprite "ship/ultaka summoner"
 		distance 3530
-		offset 70
 		period 1
+		offset 70
 	object "Dev Station Wallagi"
 		sprite "ship/wallagi dettalor"
 		distance 4760
+		period 1
 		offset 50
-		period 1	
 	object "Dev Station Zis"
 		sprite "ship/zis sysor"
 		distance 4800
-		offset 287
 		period 1
+		offset 287
 	object Thing
 		sprite planet/wormhole
-		distance 1124		
-		offset 152
+		distance 1124
 		period 1
+		offset 152
 
 system Sedop
 	pos -51476.5 -55571.8
@@ -90096,7 +90137,7 @@ system Tacisive
 			sprite planet/rock0
 			distance 168
 			period 22.2931
-	object
+	object Kerasila
 		sprite planet/desert0
 		distance 609.34
 		period 291.532
@@ -90576,6 +90617,7 @@ system Tilverel
 	trade Metal 294
 	trade Plastic 328
 	fleet "Geeva Battle Fleet" 1000
+	fleet "Geeva Civillian" 800
 	object
 		sprite star/k0
 		distance 48.3959
@@ -94920,6 +94962,7 @@ system Velnenis
 	trade Metal 547
 	trade Plastic 430
 	fleet "Geeva Battle Fleet" 1600
+	fleet "Geeva Civillian" 700
 	object
 		sprite star/g5
 		period 10
@@ -96249,6 +96292,7 @@ system Vilismar
 	trade Metal 508
 	trade Plastic 370
 	fleet "Geeva Battle Fleet" 1000
+	fleet "Geeva Civillian" 700
 	object
 		sprite star/k5
 		period 10
@@ -96423,6 +96467,7 @@ system Vilkia
 	trade Metal 436
 	trade Plastic 326
 	fleet "Geeva Battle Fleet" 1000
+	fleet "Geeva Civillian" 700
 	object
 		sprite star/g5
 		period 10
@@ -96434,7 +96479,7 @@ system Vilkia
 		sprite planet/dust2
 		distance 292.44
 		period 80.0157
-	object
+	object "Syril Virlapir"
 		sprite planet/ocean9
 		distance 614
 		period 243.429
@@ -96510,7 +96555,7 @@ system Villarmel
 system Villecul
 	pos -52023 -56403.8
 	government Geeva
-	habitable 2201.68
+	habitable 625
 	belt 1560
 	link Isbelvanh
 	link Rilmerel
@@ -96532,43 +96577,53 @@ system Villecul
 	trade Metal 442
 	trade Plastic 305
 	fleet "Geeva Battle Fleet" 1000
+	fleet "Geeva Civillian" 700
 	object
-		sprite star/f5
-		distance 23.6523
-		period 9.43536
+		sprite star/g5
+		period 10
 	object
-		sprite star/k0
-		distance 83.3477
-		period 9.43536
-		offset 180
+		sprite planet/rock8
+		distance 157.64
+		period 31.6679
+	object Aulsiran
+		sprite planet/desert3
+		distance 565.946
+		period 215.418
+		offset 172.868
 	object
-		sprite planet/dust2
-		distance 257.758
-		period 35.2777
-	object
-		sprite planet/rock4
-		distance 543.918
-		period 108.139
-	object
-		sprite planet/desert2
-		distance 897.878
-		period 229.355
-	object
-		sprite planet/rock0
-		distance 1146.88
-		period 331.1
+		sprite planet/gas9
+		distance 1512.79
+		period 941.426
+		offset 261.456
+		object
+			sprite planet/dust1
+			distance 257
+			period 15.4486
+		object
+			sprite planet/dust0
+			distance 385
+			period 28.3258
+		object
+			sprite planet/io
+			distance 459
+			period 36.8731
 	object
 		sprite planet/neptune
-		distance 1610.88
-		period 551.159
+		distance 2671.23
+		period 2208.95
+		offset 58.1209
 		object
-			sprite planet/callisto
-			distance 230
-			period 17.379
-	object
-		sprite planet/tethys
-		distance 4968.92
-		period 2985.9
+			sprite planet/dust3
+			distance 225
+			period 16.8154
+		object
+			sprite planet/rhea
+			distance 379
+			period 36.7613
+		object
+			sprite planet/dust5
+			distance 565
+			period 66.9121
 
 system Vilornel
 	pos -52299.5 -56248.7
@@ -96989,18 +97044,21 @@ system Viselit
 		sprite planet/lava5
 		distance 411.76
 		period 151.497
-	object
-		sprite planet/desert10
-		distance 790.65
-		period 403.102
+	object "Syris Salrisla"
+		sprite planet/ocean9
+		distance 645.125
+		period 297.101
+		offset 275.944
 	object
 		sprite planet/lava7
-		distance 1336.34
-		period 885.755
+		distance 1190.81
+		period 745.083
+		offset 167.9
 	object
 		sprite planet/gas13
-		distance 2925.63
-		period 2869.24
+		distance 2780.1
+		period 2657.85
+		offset 335.016
 		object
 			sprite planet/rock7
 			distance 263
@@ -98077,6 +98135,7 @@ system Vordeli
 	trade Metal 282
 	trade Plastic 269
 	fleet "Geeva Battle Fleet" 800
+	fleet "Geeva Civillian" 700
 	object
 		sprite star/g5
 		distance 38.0966
@@ -99748,21 +99807,24 @@ system Xibelna
 	trade Metal 533
 	trade Plastic 399
 	fleet "Geeva Battle Fleet" 1500
+	fleet "Geeva Civillian" 700
 	object
 		sprite star/k5
 		period 10
-	object
+	object Silryri
 		sprite planet/desert8
-		distance 315.44
-		period 108.585
+		distance 357.611
+		period 131.073
+		offset 188.245
 		object
 			sprite planet/io
 			distance 130
 			period 19.0117
 	object
 		sprite planet/gas12
-		distance 1095.25
-		period 702.532
+		distance 1137.42
+		period 743.494
+		offset 80.819
 		object
 			sprite planet/lava0
 			distance 297
@@ -99777,8 +99839,9 @@ system Xibelna
 			period 31.6857
 	object
 		sprite planet/gas11
-		distance 2789.34
-		period 2855.28
+		distance 2831.51
+		period 2920.27
+		offset 8.03267
 		object
 			sprite planet/miranda
 			distance 257
@@ -100996,6 +101059,12 @@ planet Aslnakan
 	outfitter "Makerurader Advanced"
 	"required reputation" 5
 
+planet Aslraris
+	landscape land/myrabella5
+	description .
+	spaceport .
+	outfitter "Geeva Basic"
+
 planet Asokqen
 	landscape land/desert5
 	description .
@@ -101012,6 +101081,12 @@ planet Aulingar
 	landscape land/canyon6
 	description .
 	spaceport .
+
+planet Aulsiran
+	landscape land/snow10
+	description .
+	spaceport .
+	outfitter "Geeva Basic"
 
 planet Auradei
 	landscape land/fog2
@@ -101077,6 +101152,14 @@ planet Ceursity
 	"required reputation" 10
 	security 0.9
 
+planet "Ciransir Inis"
+	attributes station
+	landscape land/sivael8
+	description `A large station acting as both an orbital shipyard and fuel refinery. `
+	spaceport .
+	shipyard "Geeva Basic"
+	outfitter "Geeva Basic"
+
 planet Colqesan
 	landscape land/myrabella5
 	description .
@@ -101086,6 +101169,12 @@ planet Cordeeil
 	landscape land/mountain21-harro
 	description .
 	spaceport .
+
+planet Coristanir
+	landscape land/mountain19-harro
+	description .
+	spaceport .
+	outfitter "Geeva Basic"
 
 planet Cudeelu
 	attributes mining
@@ -101233,7 +101322,7 @@ planet Deunaee
 
 planet "Dev Station Dels"
 	landscape land/nasa5
-	description "Developer station for Dels and ships and outfits. The Dels Dardornai and Dels Kaote are represented by this station."
+	description `Developer station for Dels and ships and outfits. The Dels Dardornai and Dels Kaote are represented by this station.`
 	spaceport .
 	shipyard "Dels Standard"
 	shipyard "Dels Basic"
@@ -101242,10 +101331,10 @@ planet "Dev Station Dels"
 	outfitter "Dels Basic"
 	outfitter "Dels Advanced"
 	outfitter "Dels Ammo"
-	
+
 planet "Dev Station Dels Ufulre"
 	landscape land/nasa5
-	description "Developer station for Dels Ufulre ships and outfits."
+	description `Developer station for Dels Ufulre ships and outfits.`
 	spaceport .
 	shipyard "Dels Ufulre"
 	outfitter "Dels Standard"
@@ -101255,128 +101344,125 @@ planet "Dev Station Dels Ufulre"
 
 planet "Dev Station Donko"
 	landscape land/nasa5
-	description "Developer station for Donko ships and outfits."
+	description `Developer station for Donko ships and outfits.`
 	spaceport .
+	shipyard "Donko Basic"
+	shipyard "Donko Advanced"
 	outfitter "Donko Ammo"
 	outfitter "Donko Basic"
 	outfitter "Donko Advanced"
-	shipyard "Donko Basic"
-	shipyard "Donko Advanced"
-	
+
 planet "Dev Station Erader Darua"
 	landscape land/nasa5
-	description "Developer station for Erader Darua ships and outfits."
+	description `Developer station for Erader Darua ships and outfits.`
 	spaceport .
+	shipyard "Erader Basic"
+	shipyard "Darua Advanced"
 	outfitter "Darua Advanced"
 	outfitter "Darua Ammo"
 	outfitter "Erader Ammo"
 	outfitter "Erader Basic"
-	shipyard "Erader Basic"
-	shipyard "Darua Advanced"
-	
+
 planet "Dev Station Erader Mukube"
 	landscape land/nasa5
-	description "Developer station for Erader Mukube ships and outfits."
+	description `Developer station for Erader Mukube ships and outfits.`
 	spaceport .
-	# Nothing special defined for Mukube
+	shipyard "Erader Basic"
 	outfitter "Erader Ammo"
 	outfitter "Erader Basic"
-	shipyard "Erader Basic"
-	
+
 planet "Dev Station Geeva"
 	landscape land/nasa5
-	description "Developer station for Geeva ships and outfits."
+	description `Developer station for Geeva ships and outfits.`
 	spaceport .
-	outfitter "Geeva Basic"
-	outfitter "Geeva Advanced"
 	shipyard "Geeva Basic"
 	shipyard "Geeva Advanced"
-	
+	outfitter "Geeva Basic"
+	outfitter "Geeva Advanced"
+
 planet "Dev Station Ignaggen"
 	landscape land/nasa5
-	description "Developer station for Ignaggen ships and outfits."
+	description `Developer station for Ignaggen ships and outfits.`
 	spaceport .
-	outfitter "Ignaggen Basic"
-	outfitter "Ignaggen Advanced"
 	shipyard "Ignaggen Basic"
 	shipyard "Ignaggen Small"
 	shipyard "Ignaggen Advanced"
 	shipyard "Ignaggen Large"
 	shipyard "Ignaggen Military"
-	
+	outfitter "Ignaggen Basic"
+	outfitter "Ignaggen Advanced"
+
 planet "Dev Station Kroom Kakaima"
 	landscape land/nasa5
-	description "Developer station for Kroom Kakaima ships and outfits."
+	description `Developer station for Kroom Kakaima ships and outfits.`
 	spaceport .
+	shipyard "Kakaima Basic"
+	shipyard "Kakaima Advanced"
 	outfitter "Kroom Ammo"
 	outfitter "Kroom Basic"
 	outfitter "Kroom Advanced"
 	outfitter "Kakaima Basic"
 	outfitter "Kakaima Advanced"
-	shipyard "Kakaima Basic"
-	shipyard "Kakaima Advanced"
-	
+
 planet "Dev Station Kroom Kanai"
 	landscape land/nasa5
-	description "Developer station for Kroom Kanai ships and outfits."
+	description `Developer station for Kroom Kanai ships and outfits.`
 	spaceport .
+	shipyard "Kanai Basic"
+	shipyard "Kanai Advanced"
 	outfitter "Kroom Ammo"
 	outfitter "Kroom Basic"
 	outfitter "Kroom Advanced"
 	outfitter "Kanai Basic"
-	# There is no "Kanai Advanced" outfitter defined
-	shipyard "Kanai Basic"
-	shipyard "Kanai Advanced"
-	
+
 planet "Dev Station Kumakk"
 	landscape land/nasa5
-	description "Developer station for Kumakk ships and outfits."
+	description `Developer station for Kumakk ships and outfits.`
 	spaceport .
-	# Nothing defined for Kumakk
 
 planet "Dev Station Makau A Qoro"
 	landscape land/nasa5
-	description "Developer station for Makau A Qoro ships and outfits."
+	description `Developer station for Makau A Qoro ships and outfits.`
 	spaceport .
-	outfitter "Qoro Makau Basic"
 	shipyard "Qoro Makau Basic"
-	
+	outfitter "Qoro Makau Basic"
+
 planet "Dev Station Makerurader"
 	landscape land/nasa5
-	description "Developer station for Makerurader ships and outfits."
+	description `Developer station for Makerurader ships and outfits.`
 	spaceport .
+	shipyard "Erader Basic"
+	shipyard "Makerurader Small"
+	shipyard "Makerurader Large"
 	outfitter "Erader Ammo"
 	outfitter "Erader Basic"
 	outfitter "Makerurader Ammo"
 	outfitter "Makerurader Advanced"
-	shipyard "Erader Basic"
-	shipyard "Makerurader Small"
-	shipyard "Makerurader Large"
-	
+
 planet "Dev Station Nuru"
 	landscape land/nasa5
-	description "Developer station for Nuru ships and outfits."
+	description `Developer station for Nuru ships and outfits.`
 	spaceport .
-	outfitter "Nuru All"
 	shipyard "Nuru All"
+	outfitter "Nuru All"
 
 planet "Dev Station Qoro Siogal"
 	landscape land/nasa5
-	description "Developer station for Qoro Siogal ships and outfits."
+	description `Developer station for Qoro Siogal ships and outfits.`
 	spaceport .
-	outfitter "Qoro Siogal Basic"
 	shipyard "Qoro Siogal Basic"
-	
+	outfitter "Qoro Siogal Basic"
+
 planet "Dev Station Revos"
 	landscape land/nasa5
-	description "Developer station for Revos ships and outfits."
+	description `Developer station for Revos ships and outfits.`
 	spaceport .
-	outfitter "Revos All"
 	shipyard "Revos All"
-	
+	outfitter "Revos All"
+
 planet "Dev Station Taroun"
 	landscape land/nasa5
-	description "Developer station for Taroun ships and outfits."
+	description `Developer station for Taroun ships and outfits.`
 	spaceport .
 	shipyard "Taroun All"
 	shipyard "Taroun Basic"
@@ -101384,10 +101470,10 @@ planet "Dev Station Taroun"
 	outfitter "Taroun All"
 	outfitter "Taroun Basic"
 	outfitter "Taroun Advanced"
-	
+
 planet "Dev Station Tehru Insker"
 	landscape land/nasa5
-	description "Developer station for Tehru Insker ships and outfits."
+	description `Developer station for Tehru Insker ships and outfits.`
 	spaceport .
 	shipyard "Tehru All"
 	outfitter "Tehru All"
@@ -101395,30 +101481,30 @@ planet "Dev Station Tehru Insker"
 
 planet "Dev Station Ultaka"
 	landscape land/nasa5
-	description "Developer station for Ultaka ships and outfits."
+	description `Developer station for Ultaka ships and outfits.`
 	spaceport .
-	shipyard "Ultaka"
+	shipyard Ultaka
 	shipyard "Ultaka Mega"
 	shipyard "Ultaka Neurn"
 	shipyard "Ultaka Alrul"
 	outfitter "Ultaka All"
-	
+
 planet "Dev Station Wallagi"
 	landscape land/nasa5
-	description "Developer station for Wallagi ships and outfits."
+	description `Developer station for Wallagi ships and outfits.`
 	spaceport .
+	shipyard Wallagi
 	outfitter "Wallagi Basic"
-	outfitter "Wallagi"
-	shipyard "Wallagi"
-	
+	outfitter Wallagi
+
 planet "Dev Station Zis"
 	landscape land/nasa5
-	description "Developer station for Zis ships and outfits."
+	description `Developer station for Zis ships and outfits.`
 	spaceport .
-	outfitter "ZIS Advanced"
 	shipyard "ZIS Advanced"
 	shipyard "ZIS Old"
-	
+	outfitter "ZIS Advanced"
+
 planet Devaren
 	attributes station
 	landscape land/sivael1
@@ -101694,7 +101780,7 @@ planet "Eu set"
 planet Eubare
 	landscape land/fields8
 	description `A planet with only one super continent consist of mostly flat lands. Large number of unusual land animals can be seen.`
-	description `This plant also appears to be the home to a significant number of Erader.`
+	description `	This plant also appears to be the home to a significant number of Erader.`
 	spaceport .
 	shipyard "Erader Basic"
 	outfitter "Erader Basic"
@@ -102076,9 +102162,11 @@ planet Hirlivrsyl
 	spaceport .
 
 planet Hivarsil
+	attributes fishing
 	landscape land/sea15-harro
-	description .
-	spaceport .
+	description `An ocean world with over 90% of its surface water. The water runs deep in most area but are split with under water ridges raising far above almost touching the surface. Home to alien corals with rather sharp edge and shapes similar to crystals like bismuth.  Brimming with aquatic life most on the smaller end with the largest you can find barely over a meter long. `
+	spaceport `There's a few settlement on the surface with the spaceport located in one of the bigger town next to the sea right beside a port. Half of the ships docked at the port appears to be submarines.`
+	outfitter "Geeva Basic"
 
 planet Hogral
 	landscape land/land10
@@ -102468,6 +102556,13 @@ planet Kequrelee
 	tribute 1600
 		threshold 1000
 		fleet "Dels Ufulre Patrol" 9
+
+planet Kerasila
+	attributes mining
+	landscape land/canyon2
+	description .
+	spaceport .
+	outfitter "Geeva Basic"
 
 planet Kereeno
 	landscape land/land14
@@ -103100,8 +103195,9 @@ planet Lignuvar
 planet Likarile
 	attributes mining
 	landscape land/badlands3
-	description .
-	spaceport .
+	description `A cold, lifeless planet with thin atmosphere with most of the surface scarred from extensive mining operation. A significant portion of the surface is noticably flattened from the mining. Large vehicles with tractor array tears apart the mountains of rocks with ease, at this rate one of them can easily flatten a large mountain in a week.`
+	spaceport `The spaceport is a large tower in the middle of a large flat area. Heavily armed with multiple gun turrets some size of a small spacecraft, though, it was probably decades since it was last fired. `
+	outfitter "Geeva Basic"
 
 planet Likveera
 	landscape land/snow10
@@ -103227,6 +103323,11 @@ planet Lyransil
 	spaceport .
 	shipyard "Erader Basic"
 	outfitter "Erader Basic"
+
+planet Lysirfarir
+	landscape land/snow4
+	description ,
+	spaceport ,
 
 planet "Ma'Losat Gosk 2"
 	attributes Donko
@@ -103489,7 +103590,7 @@ planet Minraise
 	attributes mining
 	landscape land/desert6
 	description `A world where waterbodies form lakes that scattered out through the lands. Though there is very little vegetation around. Only a few lake appears to be surrounded by some plants. `
-	description `Primary industry here appears to be mining and smeltery.`
+	description `	Primary industry here appears to be mining and smeltery.`
 	spaceport .
 	outfitter "Erader Basic"
 
@@ -103909,6 +104010,12 @@ planet Orlibe
 	description `This is a hyperspace fuel harvesting station.`
 	spaceport .
 
+planet Orsalir
+	landscape land/desert5
+	description .
+	spaceport .
+	outfitter "Geeva Basic"
+
 planet Osma
 	landscape land/desert1
 	description .
@@ -103936,6 +104043,14 @@ planet Pukotdor
 	description `Large planet of mostly red rocks, with sound of large mining machines echoing from the across the range of mountains. `
 	description `	Mined areas stripped of their ores are turned into factories and refineries.`
 	spaceport `The spaceport is a flat area surrounded by grey buildings and warehouses. `
+
+planet Pysiril
+	attributes farming
+	landscape land/snowmountains2
+	description .
+	spaceport .
+	outfitter "Geeva Basic"
+	outfitter "Geeva Advanced"
 
 planet Pysrennarz
 	landscape land/canyon04
@@ -104095,7 +104210,12 @@ planet "Reuke Ksa"
 	spaceport .
 
 planet "Revos-Donko Wormhole"
-	description ""
+
+planet Risaroli
+	landscape land/canyon1
+	description .
+	spaceport .
+	outfitter "Geeva Basic"
 
 planet Rixircar
 	landscape land/land12
@@ -104249,6 +104369,15 @@ planet Sellgaro
 	description `Water world with dotted with island across the entire surface with some cluster of islands forming a circle around an area resembling a large crater. Vast majority of the lifeform existing are microscopic aquatic life similar to planktons.`
 	spaceport `The spaceport is an rocky cliff positioned somewhat unnaturally on the side of a mountain, the buildings appears like it was carved out of a giant boulder. `
 
+planet Selriras
+	landscape land/forest3
+	description `The surface of this planet looks like it was split into two layers with what seems to be a continent-spanning plains with large spots of plateau mixed in between, all of with similar height. Most of the plateau are surrouned by steep cliffs causing each of thes inland island to form their own ecosystem, some clearly visible with entirely different trees and animals. `
+	description `Towns and cities can be found scattered everywhere on the planet many connected by elevated highway, in fact most of the cities are "lifted" above from the ground where most of the surface commute occurs above the natural ground surrounding it.`
+	spaceport .
+	shipyard "Geeva Basic"
+	outfitter "Geeva Basic"
+	outfitter "Geeva Advanced"
+
 planet Sendare
 	landscape land/hills1
 	description .
@@ -104360,6 +104489,22 @@ planet Sikorella
 	shipyard "Ignaggen Basic"
 	outfitter "Ignaggen Basic"
 
+planet Silnarin
+	landscape land/snow7
+	description .
+	spaceport .
+	outfitter "Geeva Basic"
+
+planet Silryri
+	landscape land/mountain17-harro
+	description .
+	spaceport .
+
+planet Silvaria
+	landscape land/snowmountains1
+	description .
+	spaceport .
+
 planet Silyrenir
 	landscape land/land6
 	description .
@@ -104432,6 +104577,18 @@ planet Synmora
 	spaceport .
 	outfitter "Erader Ammo"
 
+planet "Syril Virlapir"
+	attributes fishing
+	landscape land/fog3
+	description .
+	spaceport .
+
+planet "Syris Salrisla"
+	attributes fishing
+	landscape land/bwerner1
+	description .
+	spaceport .
+
 planet Takaurek
 	landscape land/lava6
 	description `An Earth-like planet with signs of some recent bombardment on what used to be a settlement.`
@@ -104453,7 +104610,6 @@ planet Tansaqa
 		fleet "Dels Ufulre Patrol" 10
 
 planet "Tarounian Wormhole"
-	description ""
 
 planet Tcksinkre
 	landscape land/lava2
@@ -104764,6 +104920,19 @@ planet Vinnyris
 	spaceport `The Zorcn has abandoned their old spaceport and built a new one inside an very large, old mining site sealed with metal dome with a few large doors that will blast high pressure gas from the edge as it opens. Even then everyone inside is wearing at least a respirator while operating around the landing pads. They even had free disposible respirator despenser at each landing pads for the ship crews but due to anatomical difference it won't fit for you.`
 	spaceport `	Most of the shops and other facilities are dug into the walls around the landing area with air lock entrance. Inside somewhat reminds you of a mall.`
 
+planet Visrali
+	landscape land/sivael0
+	description `This planet appear to be the host to several surface skimming stations size of an island, each with multiple towers raised into the sky briming with lights from the interior similar to a city. The number of visible weapon on each island is notable, perhaps enough to take down a whole fleet of warships by itself.`
+	spaceport `The layout varies from island to island, some have landing pads above on the side facing the void, others have hangar bays inside. When taken a closer look, many of these island appears to be a spaceship, or once was. Despite the extensive expansion on the exterior, the core layout is more akin to those of spaceship than a spacestation, perhaps some of these island may still be spaceworthly. `
+	outfitter "Geeva Basic"
+	outfitter "Geeva Advanced"
+
+planet Visusra
+	attributes mining
+	landscape land/badlands7
+	description .
+	spaceport .
+
 planet Vivirkarir
 	landscape land/canyon2
 	description `The surface of this planet are covered with mostly black rocks and some volcanoes. Small patches of grass and bushes can be seen in some random spot and around the lakes and rivers. Geeva buildings are mostly found mid way from equator to the pole on both halves. Standing out from the ground surronding them with smooth curved buildings coating in shiny silver with stripes of various colour painted on it. Most of these towns are built around a gigantic construct of twisted grills probably some sort of climate controlling machines judging from the flow of air around it.`
@@ -104883,6 +105052,12 @@ planet "Zerax WS-2"
 	description .
 	spaceport .
 
+planet Zionetyr
+	landscape land/mfield5
+	description `Zionetyr is a very dry planet home to a few of the toughest plants and animal. Majority of the planet surface remains untouched, as there is nothing to do here. However, you can spot a few military drones screening the planet every now and then, yet for what reason is unknown.`
+	spaceport `There is not designated parking, just an empty flat land on dirt with fuel pipe running out of a small concrete building. `
+	outfitter "Zorcn Basic Ammo"
+
 planet "Zoivol WS-1"
 	landscape land/space0
 	description .
@@ -104892,12 +105067,6 @@ planet "Zondra Station"
 	landscape land/space0
 	description .
 	spaceport .
-
-planet Zionetyr
-	landscape land/mfield5
-	description `Zionetyr is a very dry planet home to a few of the toughest plants and animal. Majority of the planet surface remains untouched, as there is nothing to do here. However, you can spot a few military drones screening the planet every now and then, yet for what reason is unknown.`
-	spaceport `There is not designated parking, just an empty flat land on dirt with fuel pipe running out of a small concrete building. `
-	outfitter "Zorcn Basic Ammo"
 
 planet Zuriluxan
 	attributes mining
