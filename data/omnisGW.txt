@@ -2490,71 +2490,71 @@ system Wallagi
 	object "Wallagi"
 		sprite planet/ringworld
 		distance 812
-	object "Wallagi"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 20
-	object "Wallagi"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 40
-	object "Wallagi"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 60
-	object "Wallagi"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 80
-	object "Wallagi"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 100
-	object "Wallagi"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 120
-	object "Wallagi"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 140
-	object "Wallagi"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 160
-	object "Wallagi"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 180
-	object "Wallagi"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 200
-	object "Wallagi"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 220
-	object "Wallagi"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 240
-	object "Wallagi"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 260
-	object "Wallagi"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 280
-	object "Wallagi"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 300
-	object "Wallagi"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 320
-	object "Wallagi"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 340
@@ -2573,6 +2573,10 @@ system Wallagi
 		sprite sprite/category_interceptor
 		distance 1200
 		offset 120
+		object "Wallagi Telsarator"
+			sprite "ship/wallagi telsarator"
+			distance 500
+			offset 120
 	object
 		sprite sprite/category_light_warship
 		distance 1200
@@ -2581,34 +2585,34 @@ system Wallagi
 		sprite sprite/category_medium_warship
 		distance 1200
 		offset 200
+		object "Wallagi Dettalor"
+			sprite "ship/wallagi dettalor"
+			distance 500
+			offset 200
 	object
 		sprite sprite/category_heavy_warship
 		distance 1200
 		offset 240
+		object "Wallagi Sentasor"
+			sprite "ship/wallagi sentasor"
+			distance 1000
+			offset 240
+		object "Wallagi Mecohni"
+			sprite "ship/wallagi mecohni"
+			distance 4000
+			offset 240
 	object
 		sprite sprite/category_fighter
 		distance 1200
 		offset 280
+		object "Wallagi Talselar"
+			sprite "ship/wallagi talselar"
+			distance 500
+			offset 280
 	object
 		sprite sprite/category_drone
 		distance 1200
 		offset 320
-	object "Wallagi Talselar"
-		sprite "ship/wallagi talselar"
-		distance 1450
-		offset 280
-	object "Wallagi Telsarator"
-		sprite "ship/wallagi telsarator"
-		distance 1450
-		offset 120
-	object "Wallagi Dettalor"
-		sprite "ship/wallagi dettalor"
-		distance 1500
-		offset 200
-	object "Wallagi Sentasor"
-		sprite "ship/wallagi sentasor"
-		distance 1600
-		offset 240
 
 system Xessian
 	pos 163.311 -9734.28
@@ -3281,6 +3285,7 @@ planet "Wallagi"
 	landscape "landscape/station6"
 	description ``
 	spaceport ``
+	shipyard "Wallagi All"
 	shipyard "Wallagi"
 	outfitter "Wallagi"
 
@@ -3732,16 +3737,16 @@ planet "Omnis-GW: Wallagi Wormhole"
 system "Magosen-L2885"
 	add object "Omnis-GW: Wallagi Wormhole"
 		sprite "sprite/wisp_green"
-		distance 3000
+		distance 4000
 		offset 0
 system "Wallagi"
 	add object "Wallagi Territory"
 		sprite "planet/venus"
-		distance 3300
+		distance 4300
 		offset 0
 	add object "Omnis-GW: Wallagi Wormhole"
 		sprite "sprite/wisp_green"
-		distance 3000
+		distance 4000
 		offset 0
 
 planet "Zis Capital"
@@ -5362,6 +5367,27 @@ fleet "Wallagi Talselar"
 		heroic
 	variant
 		"Talselar"
+
+planet "Wallagi Mecohni"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Wallagi Mecohni"
+
+planet "GW Mecohni"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Wallagi Mecohni"
+
+fleet "Wallagi Mecohni"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Mecohni"
 
 #================================Zis
 
