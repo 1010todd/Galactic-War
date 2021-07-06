@@ -145,6 +145,21 @@ fleet "Kasiva Merchant"
 		"Raular" 3
 	variant 40
 		"Kelranter"
+	variant 30
+		"Kyseruna"
+	variant 20
+		"Kyseruna"
+		"Aikiyu" 2
+
+fleet "Kasiva Navy"
+	government "Erader Kasiva"
+	names "Erader Kasiva"
+	cargo 1
+	personality
+		heroic
+		confusion 20
+	variant 40
+		"Eishen"
 
 fleet "Kumakk Miner"
 	government "Kumakk"
@@ -244,7 +259,7 @@ fleet "Makerurader Logistic Fleet"
 		"Azelpur" 6
 
 fleet "Makerurader Mining Fleet"
-	government "Erader Darua"
+	government "Makerurader"
 	names "Erader Makerurader"
 	cargo 1
 	personality

@@ -103,21 +103,19 @@ outfit "Kainar Mass Accelerator"
 	"gun ports" -1
 	"kainar capacity" 30
 	weapon
-		sprite "projectile/aserap bullet"
-			"random start frame"
-			"frame rate" 0
+		sprite "projectile/particle beam"
 		sound "tiny explosion"
-		"fire effect" "medium explosion"
+		"fire effect" "small explosion"
 		"hit effect" "large explosion"
 		"ammo" "Kainar Slug"
 		"inaccuracy" .5
 		"velocity" 50
 		"lifetime" 30
-		"reload" 60
+		"reload" 120
 		"firing energy" 80
 		"firing heat" 120
-		"shield damage" 600
-		"hull damage" 1200
+		"shield damage" 400
+		"hull damage" 600
 		"piercing" .1
 	description "Large and powerful cannon used by Erader Darua warships."
 
