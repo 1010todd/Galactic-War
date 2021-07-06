@@ -909,6 +909,33 @@ shipyard "Nuru All"
 
 #======================================Qoro
 
+shipyard "Qoro All"
+	# Transport
+
+	# Light Freighter
+
+	# Heavy Freighter
+
+	# Interceptor
+	"Qoro(S) Ganoth"   # Qoro Siogal / qoro s ganoth
+	"Qoro(M) Manta"    # Qoro Makau / qoro m manta
+
+	# Light Warship
+	"Qoro(S) Elgarel"  # Qoro Siogal / qoro s elgarel
+
+	# Medium Warship
+	"Qoro(S) Elogarl"  # Qoro Siogal / qoro s elogarl
+	"Qoro(M) Masec"    # Qoro Makau / qoro m masec
+
+	# Heavy Warship
+	"Qoro(M) Matoanan" # Qoro Makau / ship/qoro m matoanan
+
+	# Fighter
+	"Qoro(S) Gasat"    # Qoro Siogal / qoro s gasat
+	"Qoro(S) Logr"     # Qoro Siogal / qoro s logr
+
+	# Drone
+
 outfitter "Qoro Makau Basic"
 	"Mase-Dettai Laser"
 
@@ -952,6 +979,7 @@ shipyard "Revos All"
 	"Caosma (Transport)"
 
 #======================================Taroun
+
 outfitter "Taroun All"
 	"Lymaou Launcher"
 	"Serulan Turret"

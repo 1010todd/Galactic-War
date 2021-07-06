@@ -1746,71 +1746,71 @@ system Qoro
 	object "Qoro"
 		sprite planet/ringworld
 		distance 812
-	object "Qoro"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 20
-	object "Qoro"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 40
-	object "Qoro"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 60
-	object "Qoro"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 80
-	object "Qoro"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 100
-	object "Qoro"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 120
-	object "Qoro"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 140
-	object "Qoro"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 160
-	object "Qoro"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 180
-	object "Qoro"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 200
-	object "Qoro"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 220
-	object "Qoro"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 240
-	object "Qoro"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 260
-	object "Qoro"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 280
-	object "Qoro"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 300
-	object "Qoro"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 320
-	object "Qoro"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 340
@@ -1829,50 +1829,66 @@ system Qoro
 		sprite sprite/category_interceptor
 		distance 1200
 		offset 120
+		object "Qoro(S) Ganoth"
+			# faction siogal
+			sprite "ship/qoro s ganoth"
+			distance 500
+			offset 120
+		object "Qoro(M) Manta"
+			# faction makau
+			sprite "ship/qoro m manta"
+			distance 1000
+			offset 120
 	object
 		sprite sprite/category_light_warship
 		distance 1200
 		offset 160
+		object "Qoro(S) Elgarel"
+			# faction siogal
+			sprite "ship/qoro s elgarel"
+			distance 500
+			offset 160
 	object
 		sprite sprite/category_medium_warship
 		distance 1200
 		offset 200
+		object "Qoro(S) Elogarl"
+			# faction siogal
+			sprite "ship/qoro s elogarl"
+			distance 500
+			offset 200
+		object "Qoro(M) Masec"
+			# faction makau
+			sprite "ship/qoro m masec"
+			distance 1000
+			offset 200
 	object
 		sprite sprite/category_heavy_warship
 		distance 1200
 		offset 240
+		object "Qoro(M) Matoanan"
+			# faction makau
+			sprite "ship/qoro m matoanan"
+			distance 1000
+			offset 240
 	object
 		sprite sprite/category_fighter
 		distance 1200
 		offset 280
+		object "Qoro(S) Gasat"
+			# faction siogal
+			sprite "ship/qoro s Gasat"
+			distance 500
+			offset 280
+		object "Qoro(S) Logr"
+			# faction siogal
+			sprite "ship/qoro s Logr"
+			distance 1000
+			offset 280
 	object
 		sprite sprite/category_drone
 		distance 1200
 		offset 320
-	object "Qoro(M) Manta"
-		sprite "ship/qoro m manta"
-		distance 1450
-		offset 110
-	object "Qoro(S) Ganoth"
-		sprite "ship/qoro s ganoth"
-		distance 1450
-		offset 120
-	object "Qoro(S) Gasat"
-		sprite "ship/qoro s gasat"
-		distance 1450
-		offset 280
-	object "Qoro(M) Masec"
-		sprite "ship/qoro m masec"
-		distance 1500
-		offset 210
-	object "Qoro(S) Elgarel"
-		sprite "ship/qoro s elgarel"
-		distance 1450
-		offset 160
-	object "Qoro(S) Elogarl"
-		sprite "ship/qoro s elogarl"
-		distance 1450
-		offset 190
 
 system Revos
 	pos 327.311 -9931.28
@@ -3383,8 +3399,7 @@ planet "Qoro"
 	spaceport ``
 	outfitter "Qoro Makau Basic"
 	outfitter "Qoro Siogal Basic"
-	shipyard "Qoro Makau Basic"
-	shipyard "Qoro Siogal Basic"
+	shipyard "Qoro All"
 
 planet "Revos"
 	landscape "landscape/station6"
@@ -3737,11 +3752,11 @@ system "Malsos"
 system "Qoro"
 	add object "Makau a Qoro Capital"
 		sprite "planet/venus"
-		distance 3300
+		distance 4300
 		offset 330
 	add object "Omnis-GW: Makau a Qoro Wormhole"
 		sprite "sprite/wisp_green"
-		distance 3000
+		distance 4000
 		offset 330
 
 planet "Makerurader Capital"
@@ -3794,11 +3809,11 @@ system "Haola Lesu"
 system "Qoro"
 	add object "Qoro Siogarl Capital"
 		sprite "planet/venus"
-		distance 3300
+		distance 4300
 		offset 30
 	add object "Omnis-GW: Qoro Siogarl Wormhole"
 		sprite "sprite/wisp_green"
-		distance 3000
+		distance 4000
 		offset 30
 
 planet "Revos Capital"
@@ -5401,131 +5416,157 @@ fleet "Nuru Wi Wai Si"
 
 #================================Qoro
 
-planet "Qoro(M) Manta"
-	government arena
-	bribe 0
-	tribute 1
-		threshold 0
-		fleet "Qoro(M) Manta"
-
-planet "GW Manta"
-	government arena
-	bribe 0
-	tribute 1
-		threshold 0
-		fleet "Qoro(M) Manta"
-
-fleet "Qoro(M) Manta"
-	government "arena"
-	personality
-		heroic
-	variant
-		"Qoro(M) Manta"
-
-planet "Qoro(M) Masec"
-	government arena
-	bribe 0
-	tribute 1
-		threshold 0
-		fleet "Qoro(M) Masec"
-
-planet "GW Masec"
-	government arena
-	bribe 0
-	tribute 1
-		threshold 0
-		fleet "Qoro(M) Masec"
-
-fleet "Qoro(M) Masec"
-	government "arena"
-	personality
-		heroic
-	variant
-		"Qoro(M) Masec"
-
 planet "Qoro(S) Ganoth"
-	government arena
+	government "Qoro Siogal (Omnis)"
 	bribe 0
 	tribute 1
 		threshold 0
 		fleet "Qoro(S) Ganoth"
-
-planet "GW Ganoth"
-	government arena
+planet "GW Qoro(S) Ganoth"
+	government "Qoro Siogal (Omnis)"
 	bribe 0
 	tribute 1
 		threshold 0
 		fleet "Qoro(S) Ganoth"
-
 fleet "Qoro(S) Ganoth"
-	government "arena"
+	government "Qoro Siogal (Omnis)"
 	personality
 		heroic
 	variant
 		"Qoro(S) Ganoth"
 
-planet "Qoro(S) Gasat"
-	government arena
+planet "Qoro(M) Manta"
+	government "Makau A Qoro (Omnis)"
 	bribe 0
 	tribute 1
 		threshold 0
-		fleet "Qoro(S) Gasat"
-
-planet "GW Gasat"
-	government arena
+		fleet "Qoro(M) Manta"
+planet "GW Qoro(M) Manta"
+	government "Makau A Qoro (Omnis)"
 	bribe 0
 	tribute 1
 		threshold 0
-		fleet "Qoro(S) Gasat"
-
-fleet "Qoro(S) Gasat"
-	government "arena"
+		fleet "Qoro(M) Manta"
+fleet "Qoro(M) Manta"
+	government "Makau A Qoro (Omnis)"
 	personality
 		heroic
 	variant
-		"Qoro(S) Gasat"
+		"Qoro(M) Manta"
 
 planet "Qoro(S) Elgarel"
-	government arena
+	government "Qoro Siogal (Omnis)"
 	bribe 0
 	tribute 1
 		threshold 0
 		fleet "Qoro(S) Elgarel"
-
-planet "GW Elgarel"
-	government arena
+planet "GW Qoro(S) Elgarel"
+	government "Qoro Siogal (Omnis)"
 	bribe 0
 	tribute 1
 		threshold 0
 		fleet "Qoro(S) Elgarel"
-
 fleet "Qoro(S) Elgarel"
-	government "arena"
+	government "Qoro Siogal (Omnis)"
 	personality
 		heroic
 	variant
 		"Qoro(S) Elgarel"
 
 planet "Qoro(S) Elogarl"
-	government arena
+	government "Qoro Siogal (Omnis)"
 	bribe 0
 	tribute 1
 		threshold 0
 		fleet "Qoro(S) Elogarl"
-
-planet "GW Elogarl"
-	government arena
+planet "GW Qoro(S) Elogarl"
+	government "Qoro Siogal (Omnis)"
 	bribe 0
 	tribute 1
 		threshold 0
 		fleet "Qoro(S) Elogarl"
-
 fleet "Qoro(S) Elogarl"
-	government "arena"
+	government "Qoro Siogal (Omnis)"
 	personality
 		heroic
 	variant
 		"Qoro(S) Elogarl"
+
+planet "Qoro(M) Masec"
+	government "Makau A Qoro (Omnis)"
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Qoro(M) Masec"
+planet "GW Qoro(M) Masec"
+	government "Makau A Qoro (Omnis)"
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Qoro(M) Masec"
+fleet "Qoro(M) Masec"
+	government "Makau A Qoro (Omnis)"
+	personality
+		heroic
+	variant
+		"Qoro(M) Masec"
+
+planet "Qoro(M) Matoanan"
+	government "Makau A Qoro (Omnis)"
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Qoro(M) Matoanan"
+planet "GW Qoro(M) Matoanan"
+	government "Makau A Qoro (Omnis)"
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Qoro(M) Matoanan"
+fleet "Qoro(M) Matoanan"
+	government "Makau A Qoro (Omnis)"
+	personality
+		heroic
+	variant
+		"Qoro(M) Matoanan"
+
+planet "Qoro(S) Gasat"
+	government "Qoro Siogal (Omnis)"
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Qoro(S) Gasat"
+planet "GW Qoro(S) Gasat"
+	government "Qoro Siogal (Omnis)"
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Qoro(S) Gasat"
+fleet "Qoro(S) Gasat"
+	government "Qoro Siogal (Omnis)"
+	personality
+		heroic
+	variant
+		"Qoro(S) Gasat"
+
+planet "Qoro(S) Logr"
+	government "Qoro Siogal (Omnis)"
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Qoro(S) Logr"
+planet "GW Qoro(S) Logr"
+	government "Qoro Siogal (Omnis)"
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Qoro(S) Logr"
+fleet "Qoro(S) Logr"
+	government "Qoro Siogal (Omnis)"
+	personality
+		heroic
+	variant
+		"Qoro(S) Logr"
 
 #================================Revos
 

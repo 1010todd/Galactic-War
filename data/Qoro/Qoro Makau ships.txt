@@ -1,3 +1,14 @@
+#============================[Transport]=============================
+
+
+#============================[Light Freighter]=======================
+
+
+#============================[Heavy Freighter]=======================
+
+
+#============================[Interceptor]===========================
+
 ship "Qoro(M) Manta"
 	sprite "ship/qoro m manta"
 	thumbnail "thumbnail/qoro m manta thumb"
@@ -79,7 +90,13 @@ ship "Qoro(M) Manta"
 	explode "small explosion" 4
 	description "These are the smallest ship used by the Northern Qoro, they are usually kept for asteroid mining and were rarely deployed in the frontline being the weakest ship."
 	description "Northern Qoro ships are designed and optimised for very though shielding. Works best with their own shield generators. These ships also have a tiny built-in shield generator."
-	
+
+
+#============================[Light Warship]=========================
+
+
+#============================[Medium Warship]========================
+
 ship "Qoro(M) Masec"
 	sprite "ship/qoro m masec"
 	thumbnail "thumbnail/qoro m masec thumb"
@@ -142,7 +159,10 @@ ship "Qoro(M) Masec"
 	explode "large explosion" 25
 	"final explode" "final explosion large"
 	description ""
-	
+
+
+#============================[Heavy Warship]=========================
+
 ship "Qoro(M) Matoanan"
 	sprite "ship/qoro m matoanan"
 	attributes
@@ -176,9 +196,8 @@ ship "Qoro(M) Matoanan"
 		"Qutimaka Cell"
 		"Oatua Shield Generator"
 		"QSSS Cable"
-		
+
 		"Hyperdrive"
-		
 	
 	explode "small explosion" 25
 	explode "medium explosion" 35
@@ -186,3 +205,9 @@ ship "Qoro(M) Matoanan"
 	explode "huge explosion" 30
 	"final explode" "final explosion large"
 	description "[Ma'toa'nan] Matoanan is a giant worldship built by the northen Qoros to carry the left of their people from the Ultaka invasion the weapons on the ship are mainly designed to disable the enemy ships before they can attack the ship, it's one of the biggest ship you've ever seen."
+
+
+#============================[Fighter]===============================
+
+
+#============================[Drone]=================================

@@ -1,80 +1,14 @@
-ship "Qoro(S) Logr" 
-	sprite "ship/qoro s logr"
-	thumbnail "thumbnail/qoro s logr thumb"
-	attributes
-		category "Fighter"
-		"cost" 100000
-		"shields" 100
-		"hull" 1500
-		"automaton" 1
-		"required crew" 1
-		"bunks" 1
-		"mass" 16
-		"drag" .9
-		"cargo space" 50
-		"heat dissipation" .8
-		"outfit space" 0
-		"weapon capacity" 0
-		"engine capacity" 0
-		"thrust" 1
-		"turn" 10
-		weapon
-			"blast radius" 40
-			"shield damage" 320
-			"hull damage" 160
-			"hit force" 48
-	outfits
-	
-	explode "tiny explosion" 10
-	description "Eastern Qoro Cargo pods. It is equipped with basic reaction wheels and RCS for fine tuning when docking in space."
+#============================[Transport]=============================
 
-ship "Qoro(S) Gasat" #Gosat
-	sprite "ship/qoro s gasat"
-	thumbnail "thumbnail/qoro s gasat thumb"
-	attributes
-		category "Fighter"
-		"cost" 981000
-		"shields" 1500
-		"hull" 2600
-		"required crew" 1
-		"bunks" 1
-		"mass" 28
-		"drag" .9
-		"heat dissipation" .8
-		"outfit space" 95
-		"weapon capacity" 20
-		"engine capacity" 40
-		weapon
-			"blast radius" 48
-			"shield damage" 320
-			"hull damage" 160
-			"hit force" 480
-	outfits
-		"Algarral Battle Gun" 2
-		"Aog Cell"
-		"Gotam Ion Thruster"
-		"Ornai Shield Generator"
-	
-	gun -20.5 -32
-	gun 20.5 -32
-	engine -13.5 24
-		zoom 1
-		angle 0
-		under
-	engine 13.5 24
-		zoom 1
-		angle 0
-		under
-	explode "tiny explosion" 20
-	description "These are cheap fighters to be deployed in mass and overwhelm the enemy in combat."
 
-ship "Qoro(S) Gasat" "Gasat Bomber"
-	outfits
-		"Orthall Assault Cannon" 2
-		"Aog Cell"
-		"Gotam Ion Thruster"
-		"Ornai Shield Generator"
-	
+#============================[Light Freighter]=======================
+
+
+#============================[Heavy Freighter]=======================
+
+
+#============================[Interceptor]===========================
+
 ship "Qoro(S) Ganoth"
 	sprite "ship/qoro s ganoth"
 	thumbnail "thumbnail/qoro s ganoth thumb"
@@ -136,7 +70,10 @@ ship "Qoro(S) Ganoth" "Ganoth Bomber"
 		"Gotam Ion Thruster"
 		"Ornai Shield Generator"
 		"Hyperdrive"
-	
+
+
+#============================[Light Warship]=========================
+
 ship "Qoro(S) Elgarel"
 	sprite "ship/qoro s elgarel"
 	thumbnail "thumbnail/qoro s elgarel thumb"
@@ -219,8 +156,10 @@ ship "Qoro(S) Elgarel"
 	explode "medium explosion" 35
 	explode "large explosion" 20
 	"final explode" "final explosion small"
-	description "A small lightwarship that can carry a fighter with it into battle. Also used as freighter and recovery ship."
-	
+	description "A small light warship that can carry a fighter with it into battle. Also used as freighter and recovery ship."
+
+#============================[Medium Warship]========================
+
 ship "Qoro(S) Elogarl"
 	sprite "ship/qoro s elogarl"
 	thumbnail "thumbnail/qoro s elogarl thumb"
@@ -304,3 +243,88 @@ ship "Qoro(S) Elogarl"
 	explode "huge explosion" 6
 	"final explode" "final explosion medium"
 	description ""
+
+#============================[Heavy Warship]=========================
+
+
+#============================[Fighter]===============================
+
+ship "Qoro(S) Gasat" #Gosat
+	sprite "ship/qoro s gasat"
+	thumbnail "thumbnail/qoro s gasat thumb"
+	attributes
+		category "Fighter"
+		"cost" 981000
+		"shields" 1500
+		"hull" 2600
+		"required crew" 1
+		"bunks" 1
+		"mass" 28
+		"drag" .9
+		"heat dissipation" .8
+		"outfit space" 95
+		"weapon capacity" 20
+		"engine capacity" 40
+		weapon
+			"blast radius" 48
+			"shield damage" 320
+			"hull damage" 160
+			"hit force" 480
+	outfits
+		"Algarral Battle Gun" 2
+		"Aog Cell"
+		"Gotam Ion Thruster"
+		"Ornai Shield Generator"
+
+	gun -20.5 -32
+	gun 20.5 -32
+	engine -13.5 24
+		zoom 1
+		angle 0
+		under
+	engine 13.5 24
+		zoom 1
+		angle 0
+		under
+	explode "tiny explosion" 20
+	description "These are cheap fighters to be deployed en masse and overwhelm the enemy in combat."
+
+ship "Qoro(S) Gasat" "Gasat Bomber"
+	outfits
+		"Orthall Assault Cannon" 2
+		"Aog Cell"
+		"Gotam Ion Thruster"
+		"Ornai Shield Generator"
+
+ship "Qoro(S) Logr"
+	sprite "ship/qoro s logr"
+	thumbnail "thumbnail/qoro s logr thumb"
+	attributes
+		category "Fighter"
+		"cost" 100000
+		"shields" 100
+		"hull" 1500
+		"automaton" 1
+		"required crew" 1
+		"bunks" 1
+		"mass" 16
+		"drag" .9
+		"cargo space" 50
+		"heat dissipation" .8
+		"outfit space" 0
+		"weapon capacity" 0
+		"engine capacity" 0
+		"thrust" 1
+		"turn" 10
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 160
+			"hit force" 48
+	outfits
+
+	explode "tiny explosion" 10
+	description "Eastern Qoro Cargo pods. It is equipped with basic reaction wheels and RCS for fine tuning when docking in space."
+
+
+#============================[Drone]=================================
