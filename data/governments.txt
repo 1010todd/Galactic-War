@@ -389,3 +389,37 @@ government "Xyncil Zorcn"
 	#"friendly hail" "untranslated friendly zorcn"
 	#"hostile hail" "untranslated hostile zorcn"
 	language "Zorcn"
+
+
+# Omnis System Governments
+# Each faction should have its own Omnis variant here.
+
+government "Erader Darua (Omnis)"
+	"display name" "Erader Darua"
+	swizzle 5
+	"player reputation" -1
+	fine 0
+
+government "Erader Kasiva (Omnis)"
+	"display name" "Erader Kasiva"
+	swizzle 0
+	"player reputation" -1
+	fine 0
+
+government "Erader Mukube (Omnis)"
+	"display name" "Erader Mukube"
+	swizzle 4
+	"player reputation" -1
+	fine 0
+
+government "Erader Narpul (Omnis)"
+	"display name" "Erader Narpul"
+	swizzle 2
+	"player reputation" -1
+	fine 0
+
+government "Makerurader (Omnis)"
+	"display name" "Makerurader"
+	swizzle 6
+	"player reputation" -1
+	fine 0

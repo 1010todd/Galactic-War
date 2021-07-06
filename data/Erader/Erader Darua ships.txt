@@ -1,12 +1,5 @@
-#
-#
-#
-#
-#
+#============================[Transport]=============================
 
-
-
-#============================[Transport]=======================
 ship "Genterrac"
 	sprite "ship/erader gentarrac"
 	thumbnail "thumbnail/erader gentarrac thumb"
@@ -95,8 +88,10 @@ ship "Genterrac"
 	explode "medium explosion" 20
 	"final explode" "final explosion small"
 	description "A compact transport ship built by Erader Darua."
-	
-#============================[Light Freighter]=================
+
+
+#============================[Light Freighter]=======================
+
 ship "Dauren"
 	sprite "ship/erader daren"
 	attributes
@@ -186,10 +181,13 @@ ship "Raular"
 	leak "leak" 50 50
 	"final explode" "final explosion small"
 	description "A small and cheap freighter found used by all Erader fractions."
-	
-#======================[Heavy Freighter]=====================
 
-#======================[Interceptor]========================
+
+#============================[Heavy Freighter]=======================
+
+
+#============================[Interceptor]===========================
+
 ship "Kelranter"
 	sprite "ship/erader kelranter"
 	thumbnail "thumbnail/erader kelranter thumb"
@@ -268,9 +266,13 @@ ship "Kelranter"
 	leak "leak" 50 50
 	"final explode" "final explosion small"
 	description "A small ship made by Erader Darua for asteroid mining. While classified as interceptor it is mostly a freighter."
-#======================[Light Warship]=============================
 
-#======================[Medium Warship=============================
+
+#============================[Light Warship]=========================
+
+
+#============================[Medium Warship]========================
+
 ship "Kemvanh"
 	sprite "ship/erader kemvanh"
 	thumbnail "thumbnail/erader kemvanh thumb"
@@ -358,7 +360,12 @@ ship "Kemvanh"
 	explode "medium explosion" 15
 	"final explode" "final explosion small"
 	description "Darua Republic Warship"
-##=====================[Heavy Warship]==================================
 
 
-##=====================[Fighter/Drone]===============================
+#============================[Heavy Warship]=========================
+
+
+#============================[Fighter]===============================
+
+
+#============================[Drone]=================================

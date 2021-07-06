@@ -345,7 +345,8 @@ shipyard "Donko Advanced"
 	"Donko Kanse"
 	"Donko Senka" 
 
-#======================================ERADER
+#======================================Erader
+
 outfitter "Erader All"
 	"E6-H Generator"
 	"E6-V Generator"
@@ -439,17 +440,34 @@ outfitter "Makerurader Advanced"
 	"Cargo Scanner"
 
 shipyard "Erader All"
-	#==========Daurua
-	"Genterrac"
-	"Dauren"
-	"Raular"
-	"Kemvanh"
-	"Kelranter"
-	#========Makerurader
-	"Vardarkin"
-	"Ertezkaral"
-	"Sorgeldaz"
-	"Azelpur"
+	# Transport
+	"Genterrac"  # Darua
+
+	# Light Freighter
+	"Dauren"     # Darua
+	"Raular"     # Darua
+
+	# Heavy Freighter
+	"Kyseruna"   # Kasiva
+
+	# Interceptor
+	"Kelranter"  # Darua
+	"Aikiyu"     # Kasiva
+	"Azelpur"    # Makerurader
+
+	# Light Warship
+
+	# Medium Warship
+	"Kemvanh"    # Darua
+	"Eishen"     # Kasiva
+	"Sorgeldaz"  # Makerurader
+	"Ertezkaral" # Makerurader
+
+	# Heavy Warship
+	"Vardarkin"  # Makerurader
+
+	# Fighter
+	# Drone
 
 shipyard "Erader Basic"
 	"Kelranter"

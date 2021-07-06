@@ -1,3 +1,14 @@
+#============================[Transport]=============================
+
+
+#============================[Light Freighter]=======================
+
+
+#============================[Heavy Freighter]=======================
+
+
+#============================[Interceptor]===========================
+
 ship "Azelpur"
 	sprite "ship/erader mr azelpur"
 	thumbnail "thumbnail/erader mr azelpur thumb"
@@ -78,6 +89,12 @@ ship "Azelpur"
 	explode "medium explosion" 15
 	"final explode" "final explosion small"
 	description "Makerurader Interceptor, rarely deployed in battle fleets, it is most commonly found behind the frontline mining asteroids."
+
+
+#============================[Light Warship]=========================
+
+
+#============================[Medium Warship]========================
 
 ship "Sorgeldaz"
 	sprite "ship/erader mr sorgeldaz"
@@ -310,6 +327,9 @@ ship "Ertezkaral" "Ertezkaral (Heavy)"
 		"Ginskel Plasma Steering"
 		"Hyperdrive"
 
+
+#============================[Heavy Warship]=========================
+
 ship "Vardarkin"
 	sprite "ship/erader mr vardarkin"
 	thumbnail "thumbnail/erader mr vardarkin thumb"
@@ -462,3 +482,9 @@ ship "Vardarkin"
 	explode "medium explosion" 15
 	"final explode" "final explosion large"
 	description "Makerurader cruiser."
+
+
+#============================[Fighter]===============================
+
+
+#============================[Drone]=================================

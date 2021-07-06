@@ -1,3 +1,11 @@
+#============================[Transport]=============================
+
+
+#============================[Light Freighter]=======================
+
+
+#============================[Heavy Freighter]=======================
+
 ship "Kyseruna"
 	sprite "ship/erader ks kyseruna"
 	thumbnail "thumbnail/erader ks kyseruna thumb"
@@ -133,6 +141,9 @@ ship "Kyseruna"
 	"final explode" "final explosion large"
 	description "Kasiva Empire heavy freighter."
 
+
+#============================[Interceptor]===========================
+
 ship "Aikiyu" #Todo, make single-shot missile for this ship
 	sprite "ship/erader ks aikiyu"
 	thumbnail "thumbnail/erader ks aikiyu thumb"
@@ -214,6 +225,12 @@ ship "Aikiyu" #Todo, make single-shot missile for this ship
 	leak "leak" 50 50
 	"final explode" "final explosion small"
 	description "Kasiva Fighter/Interceptor"
+
+
+#============================[Light Warship]=========================
+
+
+#============================[Medium Warship]========================
 
 ship "Eishen"
 	sprite "ship/erader ks eishen"
@@ -322,3 +339,12 @@ ship "Eishen"
 	explode "medium explosion" 15
 	"final explode" "final explosion small"
 	description "Kasiva Empire Warship"
+
+
+#============================[Heavy Warship]=========================
+
+
+#============================[Fighter]===============================
+
+
+#============================[Drone]=================================
