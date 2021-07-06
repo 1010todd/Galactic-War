@@ -802,77 +802,80 @@ system Geeva
 	object "Geeva"
 		sprite planet/ringworld
 		distance 812
-	object "Geeva"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 20
-	object "Geeva"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 40
-	object "Geeva"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 60
-	object "Geeva"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 80
-	object "Geeva"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 100
-	object "Geeva"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 120
-	object "Geeva"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 140
-	object "Geeva"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 160
-	object "Geeva"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 180
-	object "Geeva"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 200
-	object "Geeva"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 220
-	object "Geeva"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 240
-	object "Geeva"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 260
-	object "Geeva"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 280
-	object "Geeva"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 300
-	object "Geeva"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 320
-	object "Geeva"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 340
 	object
 		sprite sprite/category_transport
 		distance 1200
+		object "Geeva Hailika"
+			sprite "ship/geeva hailika"
+			distance 500
 	object
 		sprite sprite/category_light_freighter
 		distance 1200
@@ -893,10 +896,26 @@ system Geeva
 		sprite sprite/category_medium_warship
 		distance 1200
 		offset 200
+		object "Geeva Kinika"
+			sprite "ship/geeva kinika"
+			distance 500
+			offset 200
 	object
 		sprite sprite/category_heavy_warship
 		distance 1200
 		offset 240
+		object "Geeva Kimali"
+			sprite "ship/geeva kimali"
+			distance 1000
+			offset 240
+		object "Geeva Mayuinia"
+			sprite "ship/geeva mayuinia"
+			distance 2000
+			offset 240
+		object "Geeva HD-8426 Tarallion"
+			sprite "ship/zis tarallion"
+			distance 3000
+			offset 240
 	object
 		sprite sprite/category_fighter
 		distance 1200
@@ -905,17 +924,7 @@ system Geeva
 		sprite sprite/category_drone
 		distance 1200
 		offset 320
-	object "Geeva Hailika"
-		sprite "ship/geeva hailika"
-		distance 1450
-	object "Geeva Kinika"
-		sprite "ship/geeva kinika"
-		distance 1450
-		offset 160
-	object "Geeva Kimali"
-		sprite "ship/geeva kimali"
-		distance 1500
-		offset 240
+
 
 system Ignaggen
 	pos 104.311 -9844.28
@@ -3239,8 +3248,7 @@ planet "Geeva"
 	description ``
 	spaceport ``
 	outfitter "Geeva Advanced"
-	shipyard "Geeva Basic"
-	shipyard "Geeva Advanced"
+	shipyard "Geeva All"
 
 planet "Ignaggen"
 	landscape "landscape/station6"
@@ -3524,16 +3532,16 @@ planet "Omnis-GW: Geeva Wormhole"
 system "Rilgeril"
 	add object "Omnis-GW: Geeva Wormhole"
 		sprite "sprite/wisp_green"
-		distance 3000
+		distance 4000
 		offset 0
 system "Geeva"
 	add object "Geeva Capital"
 		sprite "planet/venus"
-		distance 3300
+		distance 4300
 		offset 0
 	add object "Omnis-GW: Geeva Wormhole"
 		sprite "sprite/wisp_green"
-		distance 3000
+		distance 4000
 		offset 0
 
 planet "Ignaggen Capital"
@@ -4275,14 +4283,12 @@ planet "Geeva Hailika"
 	tribute 1
 		threshold 0
 		fleet "Geeva Hailika"
-
 planet "GW Hailika"
 	government arena
 	bribe 0
 	tribute 1
 		threshold 0
 		fleet "Geeva Hailika"
-
 fleet "Geeva Hailika"
 	government "arena"
 	personality
@@ -4296,14 +4302,12 @@ planet "Geeva Kinika"
 	tribute 1
 		threshold 0
 		fleet "Geeva Kinika"
-
 planet "GW Kinika"
 	government arena
 	bribe 0
 	tribute 1
 		threshold 0
 		fleet "Geeva Kinika"
-
 fleet "Geeva Kinika"
 	government "arena"
 	personality
@@ -4317,20 +4321,56 @@ planet "Geeva Kimali"
 	tribute 1
 		threshold 0
 		fleet "Geeva Kimali"
-
 planet "GW Kimali"
 	government arena
 	bribe 0
 	tribute 1
 		threshold 0
 		fleet "Geeva Kimali"
-
 fleet "Geeva Kimali"
 	government "arena"
 	personality
 		heroic
 	variant
 		"Kimali"
+
+planet "Geeva Mayuinia"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Geeva Mayuinia"
+planet "GW Mayuinia"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Geeva Mayuinia"
+fleet "Geeva Mayuinia"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Mayuinia"
+
+planet "Geeva HD-8426 Tarallion"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Geeva HD-8426 Tarallion"
+planet "GW HD-8426 Tarallion"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Geeva HD-8426 Tarallion"
+fleet "Geeva HD-8426 Tarallion"
+	government "arena"
+	personality
+		heroic
+	variant
+		"HD-8426 Tarallion"
 
 #================================Ignaggen
 
