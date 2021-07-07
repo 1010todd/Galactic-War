@@ -1,3 +1,17 @@
+#============================[Transport]=============================
+
+
+#============================[Light Freighter]=======================
+
+
+#============================[Heavy Freighter]=======================
+
+
+#============================[Interceptor]===========================
+
+
+#============================[Light Warship]=========================
+
 ship "Ultaka Ghost"
 	sprite "ship/ultaka ghost"
 		"frame time" 5
@@ -36,7 +50,7 @@ ship "Ultaka Ghost"
 		"E40R-D" 1
 		"Model-3A Rifle" 5
 		"Ultaka IDS" 1
-	
+
 	gun 0 -121.5
 	turret 0 -45 "M10G Turret"
 	turret -33 10 "U20-B anti missile"
@@ -49,3 +63,15 @@ ship "Ultaka Ghost"
 	explode "big explosion" 40
 	explode "huge explosion" 20
 	description ""
+
+
+#============================[Medium Warship]========================
+
+
+#============================[Heavy Warship]=========================
+
+
+#============================[Fighter]===============================
+
+
+#============================[Drone]=================================

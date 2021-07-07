@@ -917,22 +917,22 @@ shipyard "Qoro All"
 	# Heavy Freighter
 
 	# Interceptor
-	"Qoro(S) Ganoth"   # Qoro Siogal / qoro s ganoth
-	"Qoro(M) Manta"    # Qoro Makau / qoro m manta
+	"Qoro(S) Ganoth"   # Qoro Siogal
+	"Qoro(M) Manta"    # Qoro Makau
 
 	# Light Warship
-	"Qoro(S) Elgarel"  # Qoro Siogal / qoro s elgarel
+	"Qoro(S) Elgarel"  # Qoro Siogal
 
 	# Medium Warship
-	"Qoro(S) Elogarl"  # Qoro Siogal / qoro s elogarl
-	"Qoro(M) Masec"    # Qoro Makau / qoro m masec
+	"Qoro(S) Elogarl"  # Qoro Siogal
+	"Qoro(M) Masec"    # Qoro Makau
 
 	# Heavy Warship
-	"Qoro(M) Matoanan" # Qoro Makau / ship/qoro m matoanan
+	"Qoro(M) Matoanan" # Qoro Makau
 
 	# Fighter
-	"Qoro(S) Gasat"    # Qoro Siogal / qoro s gasat
-	"Qoro(S) Logr"     # Qoro Siogal / qoro s logr
+	"Qoro(S) Gasat"    # Qoro Siogal
+	"Qoro(S) Logr"     # Qoro Siogal
 
 	# Drone
 
@@ -1075,7 +1075,50 @@ shipyard "Tehru All"
 	# Light Warship
 	"Tehru Avir"
 
+
 #======================================Ultaka
+
+shipyard "Ultaka All"
+	# Transport
+
+	# Light Freighter
+
+	# Heavy Freighter
+	"Ultaka Path-Maker"         # Ultaka
+
+	# Interceptor
+	"Ultaka Hunter"             # Ultaka
+	"Ultaka Poltergeist"        # Ultaka Mega
+	"Ultaka Trapper"            # Ultaka
+
+	# Light Warship
+	"Ultaka Annihilator"        # Ultaka
+	"Ultaka Dominator"          # Ultaka
+	"Ultaka Ghost"              # Ultaka Neurn
+	"Ultaka Shadow Strike"      # Ultaka Mega
+	"Ultaka Var'ahx"            # Ultaka Alrul
+
+	# Medium Warship
+	"Ultaka Julseir"            # Ultaka Alrul
+
+	# Heavy Warship
+	"Ultaka Conqueror"          # Ultaka
+	"Ultaka Darkedge"           # Ultaka Mega
+	"Ultaka Death Bringer"      # Ultaka Mega
+	"Ultaka Galactic Destroyer" # Ultaka
+	"Ultaka Necromancer"        # Ultaka Mega
+	"Ultaka Netherward"         # Ultaka Mega
+	"Ultaka Reaper"             # Ultaka
+	"Ultaka Summoner"           # Ultaka
+	"Ultaka Vyvis"              # Ultaka Alrul
+
+	# Fighter
+	"Ultaka Termite"            # Ultaka
+	"Ultaka Wraith"             # Ultaka Mega
+
+	# Drone
+	"Ultaka Revenant"           # Ultaka Mega
+	"Ultaka Servant"            # Ultaka
 
 shipyard "Ultaka"
 	"Ultaka Annihilator"

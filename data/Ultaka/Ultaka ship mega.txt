@@ -1,4 +1,64 @@
-#
+#============================[Transport]=============================
+
+
+#============================[Light Freighter]=======================
+
+
+#============================[Heavy Freighter]=======================
+
+
+#============================[Interceptor]===========================
+
+ship "Ultaka Poltergeist"
+	sprite "ship/ultaka poltergeist"
+	attributes
+		category "Interceptor"
+		"cost" 900000
+		"shields" 85000
+		"hull" 67000
+		"hull repair rate" 300
+		"required crew" 1
+		"bunks" 3
+		"mass" 250
+		"drag" 6.9
+		"heat dissipation" 1.3
+		"fuel capacity" 400
+		"cargo space" 7
+		"outfit space" 426
+		"weapon capacity" 149
+		"engine capacity" 107
+		"self destruct" .01
+		"radar jamming" 5
+		"scan interference" .8
+		weapon
+			"blast radius" 200
+			"shield damage" 2200
+			"hull damage" 1100
+			"hit force" 300
+	outfits
+		"FK1M Gun" 3
+		"KDG1 anti missile"
+
+		"B10 Anht Core"
+		"DMSG5 Shield Generator"
+		"SHM02 Heat Control"
+
+		"Kel'aku-Cu Engines"
+
+	gun 0 -61 "FK1M Gun"
+	gun 16 -17 "FK1M Gun"
+	gun -16 -17 "FK1M Gun"
+	turret 0 18 "KDG1 anti missile"
+	engine -24 60
+	engine 24 60
+	explode "tiny explosion" 60
+	explode "small explosion" 40
+	explode "medium explosion" 30
+	explode "big explosion" 10
+	description ""
+
+
+#============================[Light Warship]=========================
 
 ship "Ultaka Shadow Strike"
 	sprite "ship/ultaka shadow strike"
@@ -35,7 +95,7 @@ ship "Ultaka Shadow Strike"
 		"KLG1 Turret" 8
 		"Retos Mulaer Defegin"
 		"D12E B-Field Projector"
-	
+
 	gun -16 -140
 	gun 16 -140
 	turret 0 0 "D12E B-Field Projector"
@@ -59,7 +119,13 @@ ship "Ultaka Shadow Strike"
 	explode "big explosion" 40
 	explode "huge explosion" 20
 	description "."
-	
+
+
+#============================[Medium Warship]========================
+
+
+#============================[Heavy Warship]=========================
+
 ship "Ultaka Necromancer"
 	sprite "ship/ultaka necromancer"
 	attributes
@@ -98,7 +164,7 @@ ship "Ultaka Necromancer"
 		"Retos Mulaer Defegin"
 
 		"Kel'aku Engines"
-		
+
 	turret -1 -126.5
 	turret -57.5 -71
 	turret 57 -72.5
@@ -200,146 +266,7 @@ ship "Ultaka Necromancer"
 	explode "big explosion" 40
 	explode "huge explosion" 20
 	description "."
-	
-ship "Ultaka Poltergeist"
-	sprite "ship/ultaka poltergeist"
-	attributes
-		category "Interceptor"
-		"cost" 900000
-		"shields" 85000
-		"hull" 67000
-		"hull repair rate" 300
-		"required crew" 1
-		"bunks" 3
-		"mass" 250
-		"drag" 6.9
-		"heat dissipation" 1.3
-		"fuel capacity" 400
-		"cargo space" 7
-		"outfit space" 426
-		"weapon capacity" 149
-		"engine capacity" 107
-		"self destruct" .01
-		"radar jamming" 5
-		"scan interference" .8
-		weapon
-			"blast radius" 200
-			"shield damage" 2200
-			"hull damage" 1100
-			"hit force" 300
-	outfits
-		"FK1M Gun" 3
-		"KDG1 anti missile"
 
-		"B10 Anht Core"
-		"DMSG5 Shield Generator"
-		"SHM02 Heat Control"
-
-		"Kel'aku-Cu Engines"
-	
-	gun 0 -61 "FK1M Gun"
-	gun 16 -17 "FK1M Gun"
-	gun -16 -17 "FK1M Gun"
-	turret 0 18 "KDG1 anti missile"
-	engine -24 60
-	engine 24 60
-	explode "tiny explosion" 60
-	explode "small explosion" 40
-	explode "medium explosion" 30
-	explode "big explosion" 10
-	description ""
-	
-ship "Ultaka Wraith"
-	sprite "ship/ultaka wraith"
-	attributes
-		category "Fighter"
-		"cost" 400000
-		"shields" 75000
-		"hull" 59000
-		"hull repair rate" 150
-		"required crew" 1
-		"bunks" 1
-		"mass" 200
-		"drag" 6.9
-		"heat dissipation" 1.3
-		"fuel capacity" 400
-		"cargo space" 7
-		"outfit space" 426
-		"weapon capacity" 149
-		"engine capacity" 107
-		"self destruct" .01
-		"radar jamming" 5
-		"scan interference" .8
-		weapon
-			"blast radius" 200
-			"shield damage" 2200
-			"hull damage" 1100
-			"hit force" 300
-	outfits
-		"FK1M Gun" 1
-		"Ultaka Hellstorm" 2
-		
-		"DMSG5 Shield Generator"
-		"B10 Anht Core"
-		"SHM02 Heat Control"
-
-		"Kel'aku-Cu Engines"
-	
-	gun -10.5 -2 "Ultaka Hellstorm"
-	gun 12.5 -2 "Ultaka Hellstorm"
-	engine -7 40.5
-	engine 11 40
-	gun 1 -36.5
-	explode "tiny explosion" 60
-	explode "small explosion" 40
-	explode "medium explosion" 30
-	explode "big explosion" 10
-	description ""
-	
-ship "Ultaka Revenant"
-	sprite "ship/ultaka revenant"
-	attributes
-		category "Drone"
-		"cost" 400000
-		"shields" 72000
-		"hull" 51000
-		"hull repair rate" 100
-		"mass" 180
-		"drag" 6.9
-		"heat dissipation" 1.3
-		"fuel capacity" 400
-		"cargo space" 1
-		"outfit space" 426
-		"weapon capacity" 149
-		"engine capacity" 107
-		"self destruct" .01
-		"radar jamming" 5
-		"scan interference" .8
-		weapon
-			"blast radius" 200
-			"shield damage" 2200
-			"hull damage" 1100
-			"hit force" 300
-	outfits
-		"FK1M Gun" 1
-		"KDG1 anti missile" 2
-
-		"DMSG5 Shield Generator"
-		"B10 Anht Core"
-		"SHM02 Heat Control"
-
-		"Kel'aku-Cu Engines"
-	
-	turret 0 -7.5
-	turret 0 8
-	gun 0 -35.5
-	engine 0 37.5
-	explode "tiny explosion" 60
-	explode "small explosion" 40
-	explode "medium explosion" 30
-	explode "big explosion" 10
-	description ""
-	
 ship "Ultaka Darkedge"
 	sprite "ship/ultaka darkedge"
 	attributes
@@ -416,7 +343,7 @@ ship "Ultaka Darkedge"
 	explode "big explosion" 40
 	explode "huge explosion" 20
 	description "."
-	
+
 ship "Ultaka Death Bringer"
 	sprite "ship/ultaka death bringer"
 	attributes
@@ -454,7 +381,7 @@ ship "Ultaka Death Bringer"
 		"Retos Mulaer Defegin"
 
 		"Kel'aku Engines" 5
-		
+
 	turret -48.5 -1675 "DKS2 Turret"
 	turret 44.5 -1675 "DKS2 Turret"
 	turret -45.5 -1418 "DKS2 Turret"
@@ -507,7 +434,7 @@ ship "Ultaka Death Bringer"
 	fighter -758.5 0.5 left
 	"final explode" "final explosion nuke" 5
 	description "."
-	
+
 ship "Ultaka Netherward"
 	sprite "ship/ultaka netherward"
 	attributes
@@ -534,7 +461,7 @@ ship "Ultaka Netherward"
 			"hull damage" 50000
 			"hit force" 15000
 	outfits
-		
+
 		"Ultaka Harvester Beam" 2
 		"KDG5 anti missile" 9
 		"KLG1 Turret" 12
@@ -545,8 +472,8 @@ ship "Ultaka Netherward"
 		"SHM02 Heat Control" 3
 
 		"Kel'aku Engines" 2
-		
-		
+
+
 	turret -18 -761 "KLG1 Turret"
 	turret 18.5 -759.5 "KLG1 Turret"
 	turret -18 -624.5 "KLG1 Turret"
@@ -578,8 +505,8 @@ ship "Ultaka Netherward"
 	turret 173 117.5 "KDG5 anti missile"
 	turret -147 161 "KDG5 anti missile"
 	turret 146 159.5 "KDG5 anti missile"
-	gun 395 -16.5 
-	gun -394.5 -15 
+	gun 395 -16.5
+	gun -394.5 -15
 	fighter 285.5 -531.5
 	fighter -288 -531.5
 	fighter 285.5 -531.5
@@ -601,4 +528,100 @@ ship "Ultaka Netherward"
 	explode "huge explosion" 30
 	explode "nuke explosion" 5
 	"final explode" "final explosion nuke" 2
+	description ""
+
+#============================[Fighter]===============================
+
+ship "Ultaka Wraith"
+	sprite "ship/ultaka wraith"
+	attributes
+		category "Fighter"
+		"cost" 400000
+		"shields" 75000
+		"hull" 59000
+		"hull repair rate" 150
+		"required crew" 1
+		"bunks" 1
+		"mass" 200
+		"drag" 6.9
+		"heat dissipation" 1.3
+		"fuel capacity" 400
+		"cargo space" 7
+		"outfit space" 426
+		"weapon capacity" 149
+		"engine capacity" 107
+		"self destruct" .01
+		"radar jamming" 5
+		"scan interference" .8
+		weapon
+			"blast radius" 200
+			"shield damage" 2200
+			"hull damage" 1100
+			"hit force" 300
+	outfits
+		"FK1M Gun" 1
+		"Ultaka Hellstorm" 2
+
+		"DMSG5 Shield Generator"
+		"B10 Anht Core"
+		"SHM02 Heat Control"
+
+		"Kel'aku-Cu Engines"
+
+	gun -10.5 -2 "Ultaka Hellstorm"
+	gun 12.5 -2 "Ultaka Hellstorm"
+	engine -7 40.5
+	engine 11 40
+	gun 1 -36.5
+	explode "tiny explosion" 60
+	explode "small explosion" 40
+	explode "medium explosion" 30
+	explode "big explosion" 10
+	description ""
+
+
+#============================[Drone]=================================
+
+ship "Ultaka Revenant"
+	sprite "ship/ultaka revenant"
+	attributes
+		category "Drone"
+		"cost" 400000
+		"shields" 72000
+		"hull" 51000
+		"hull repair rate" 100
+		"mass" 180
+		"drag" 6.9
+		"heat dissipation" 1.3
+		"fuel capacity" 400
+		"cargo space" 1
+		"outfit space" 426
+		"weapon capacity" 149
+		"engine capacity" 107
+		"self destruct" .01
+		"radar jamming" 5
+		"scan interference" .8
+		weapon
+			"blast radius" 200
+			"shield damage" 2200
+			"hull damage" 1100
+			"hit force" 300
+	outfits
+		"FK1M Gun" 1
+		"KDG1 anti missile" 2
+
+		"DMSG5 Shield Generator"
+		"B10 Anht Core"
+		"SHM02 Heat Control"
+
+		"Kel'aku-Cu Engines"
+
+	turret 0 -7.5
+	turret 0 8
+	gun 0 -35.5
+	engine 0 37.5
+	explode "tiny explosion" 60
+	explode "small explosion" 40
+	explode "medium explosion" 30
+	explode "big explosion" 10
 	description ""

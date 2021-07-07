@@ -2307,71 +2307,71 @@ system Ultaka
 	object "Ultaka"
 		sprite planet/ringworld
 		distance 812
-	object "Ultaka"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 20
-	object "Ultaka"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 40
-	object "Ultaka"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 60
-	object "Ultaka"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 80
-	object "Ultaka"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 100
-	object "Ultaka"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 120
-	object "Ultaka"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 140
-	object "Ultaka"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 160
-	object "Ultaka"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 180
-	object "Ultaka"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 200
-	object "Ultaka"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 220
-	object "Ultaka"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 240
-	object "Ultaka"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 260
-	object "Ultaka"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 280
-	object "Ultaka"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 300
-	object "Ultaka"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 320
-	object "Ultaka"
+	object
 		sprite planet/ringworld
 		distance 812
 		offset 340
@@ -2386,62 +2386,145 @@ system Ultaka
 		sprite sprite/category_heavy_freighter
 		distance 1200
 		offset 80
+		object "Ultaka Path-Maker"
+			# faction ultaka
+			sprite "ship/ultaka pathmaker"
+			distance 500
+			offset 80
 	object
 		sprite sprite/category_interceptor
 		distance 1200
 		offset 120
+		object "Ultaka Hunter"
+			# faction ultaka
+			sprite "ship/ultaka hunter"
+			distance 500
+			offset 120
+		object "Ultaka Poltergeist"
+			# faction ultaka mega
+			sprite "ship/ultaka poltergeist"
+			distance 1000
+			offset 120
+		object "Ultaka Trapper"
+			# faction ultaka
+			sprite "ship/ultaka trapper"
+			distance 1500
+			offset 120
 	object
 		sprite sprite/category_light_warship
 		distance 1200
 		offset 160
+		object "Ultaka Annihilator"
+			# faction ultaka
+			sprite "ship/ultaka annihilator"
+			distance 500
+			offset 160
+		object "Ultaka Dominator"
+			# faction ultaka
+			sprite "ship/ultaka dominator"
+			distance 1000
+			offset 160
+		object "Ultaka Ghost"
+			# faction ultaka neurn
+			sprite "ship/ultaka ghost"
+			distance 1500
+			offset 160
+		object "Ultaka Shadow Strike"
+			# faction ultaka mega
+			sprite "ship/ultaka shadow strike"
+			distance 2000
+			offset 160
+		object "Ultaka Var'ahx"
+			# faction ultaka alrul
+			sprite "ship/ultaka varahx"
+			distance 2500
+			offset 160
 	object
 		sprite sprite/category_medium_warship
 		distance 1200
 		offset 200
+		object "Ultaka Julseir"
+			# faction ultaka alrul
+			sprite "ship/ultaka julseir"
+			distance 500
+			offset 200
 	object
 		sprite sprite/category_heavy_warship
 		distance 1200
 		offset 240
+		object "Ultaka Conqueror"
+			# faction ultaka
+			sprite "ship/ultaka conqueror"
+			distance 2000
+			offset 240
+		object "Ultaka Darkedge"
+			# faction ultaka mega
+			sprite "ship/ultaka darkedge"
+			distance 4000
+			offset 240
+		object "Ultaka Death Bringer"
+			# faction ultaka mega
+			sprite "ship/ultaka death bringer"
+			distance 8000
+			offset 240
+		object "Ultaka Galactic Destroyer"
+			# faction ultaka
+			sprite "ship/ultaka destroyer"
+			distance 16000
+			offset 240
+		object "Ultaka Necromancer"
+			# faction ultaka mega
+			sprite "ship/ultaka necromancer"
+			distance 20000
+			offset 240
+		object "Ultaka Netherward"
+			# faction ultaka mega
+			sprite "ship/ultaka netherward"
+			distance 22500
+			offset 240
+		object "Ultaka Reaper"
+			# faction ultaka
+			sprite "ship/ultaka reaper"
+			distance 25000
+			offset 240
+		object "Ultaka Summoner"
+			# faction ultaka
+			sprite "ship/ultaka summoner"
+			distance 27500
+			offset 240
+		object "Ultaka Vyvis"
+			# faction ultaka alrul
+			sprite "ship/ultaka vyvis"
+			distance 30000
+			offset 240
 	object
 		sprite sprite/category_fighter
 		distance 1200
 		offset 280
+		object "Ultaka Termite"
+			# faction ultaka alrul
+			sprite "ship/ultaka termite"
+			distance 500
+			offset 280
+		object "Ultaka Wraith"
+			# faction ultaka mega
+			sprite "ship/ultaka wraith"
+			distance 1000
+			offset 280
 	object
 		sprite sprite/category_drone
 		distance 1200
 		offset 320
-	object "Ultaka Hunter"
-		sprite "ship/ultaka hunter"
-		distance 1450
-		offset 120
-	object "Ultaka Path Maker"
-		sprite "ship/ultaka pathmaker"
-		distance 1550
-		offset 80
-	object "Ultaka Shadow Strike"
-		sprite "ship/ultaka shadow strike"
-		distance 1450
-		offset 150
-	object "Ultaka Dominator"
-		sprite "ship/ultaka dominator"
-		distance 1450
-		offset 160
-	object "Ultaka Annihilator"
-		sprite "ship/ultaka annihilator"
-		distance 1450
-		offset 170
-	object "Ultaka Conqueror"
-		sprite "ship/ultaka conqueror"
-		distance 1800
-		offset 230
-	object "Ultaka Summoner"
-		sprite "ship/ultaka summoner"
-		distance 1800
-		offset 250
-	object "Ultaka Reaper"
-		sprite "ship/ultaka reaper"
-		distance 3400
-		offset 240
+		object "Ultaka Revenant"
+			# faction ultaka mega
+			sprite "ship/ultaka revenant"
+			distance 500
+			offset 320
+		object "Ultaka Servant"
+			# faction ultaka
+			sprite "ship/ultaka servant"
+			distance 1000
+			offset 320
 
 system Uoorn
 	pos 291.311 -9878.28
@@ -3427,10 +3510,7 @@ planet "Ultaka"
 	landscape "landscape/station6"
 	description ``
 	spaceport ``
-	shipyard "Ultaka"
-	shipyard "Ultaka Mega"
-	shipyard "Ultaka Neurn"
-	shipyard "Ultaka Alrul"
+	shipyard "Ultaka All"
 	outfitter "Ultaka All"
 
 planet "Uoorn"
@@ -3880,16 +3960,16 @@ planet "Omnis-GW: Ultaka Wormhole"
 system "Saska"
 	add object "Omnis-GW: Ultaka Wormhole"
 		sprite "sprite/wisp_green"
-		distance 3000
+		distance 5000
 		offset 0
 system "Ultaka"
 	add object "Ultaka Capital"
 		sprite "planet/venus"
-		distance 3300
+		distance 4300
 		offset 0
 	add object "Omnis-GW: Ultaka Wormhole"
 		sprite "sprite/wisp_green"
-		distance 3000
+		distance 4000
 		offset 0
 
 planet "Wallagi Territory"
@@ -5839,133 +5919,442 @@ fleet "Tehru Avir"
 
 #================================Ultaka
 
-planet "Ultaka Hunter"
-	government arena
+planet "Ultaka Path-Maker"
+	government "Ultaka (Omnis)"
 	bribe 0
 	tribute 1
 		threshold 0
-		fleet "Ultaka Hunter"
+		fleet "Ultaka Path-Maker"
+planet "GW Ultaka Path-Maker"
+	government "Ultaka (Omnis)"
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ultaka Path-Maker"
+fleet "Ultaka Path-Maker"
+	government "Ultaka (Omnis)"
+	personality
+		heroic
+	variant
+		"Ultaka Path-Maker"
 
-planet "GW Hunter"
-	government arena
+planet "Ultaka Hunter"
+	government "Ultaka (Omnis)"
 	bribe 0
 	tribute 1
 		threshold 0
 		fleet "Ultaka Hunter"
-		
+planet "GW Ultaka Hunter"
+	government "Ultaka (Omnis)"
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ultaka Hunter"
 fleet "Ultaka Hunter"
-	government "arena"
+	government "Ultaka (Omnis)"
 	personality
 		heroic
 	variant
 		"Ultaka Hunter"
 
-planet "Ultaka Annihilator"
-	government arena
+planet "Ultaka Poltergeist"
+	government "Ultaka Mega (Omnis)"
 	bribe 0
 	tribute 1
 		threshold 0
-		fleet "Ultaka Annihilator"
-	
-planet "GW Annihilator"
-	government arena
+		fleet "Ultaka Poltergeist"
+planet "GW Ultaka Poltergeist"
+	government "Ultaka Mega (Omnis)"
 	bribe 0
 	tribute 1
 		threshold 0
-		fleet "Ultaka Annihilator"
+		fleet "Ultaka Poltergeist"
+fleet "Ultaka Poltergeist"
+	government "Ultaka Mega (Omnis)"
+	personality
+		heroic
+	variant
+		"Ultaka Poltergeist"
 
+planet "Ultaka Trapper"
+	government "Ultaka (Omnis)"
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ultaka Trapper"
+planet "GW Ultaka Trapper"
+	government "Ultaka (Omnis)"
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ultaka Trapper"
+fleet "Ultaka Trapper"
+	government "Ultaka (Omnis)"
+	personality
+		heroic
+	variant
+		"Ultaka Trapper"
+
+planet "Ultaka Annihilator"
+	government "Ultaka (Omnis)"
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ultaka Annihilator"
+planet "GW Ultaka Annihilator"
+	government "Ultaka (Omnis)"
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ultaka Annihilator"
 fleet "Ultaka Annihilator"
-	government "arena"
+	government "Ultaka (Omnis)"
 	personality
 		heroic
 	variant
 		"Ultaka Annihilator"
 
 planet "Ultaka Dominator"
-	government arena
+	government "Ultaka (Omnis)"
 	bribe 0
 	tribute 1
 		threshold 0
 		fleet "Ultaka Dominator"
-	
-planet "GW Dominator"
-	government arena
+planet "GW Ultaka Dominator"
+	government "Ultaka (Omnis)"
 	bribe 0
 	tribute 1
 		threshold 0
 		fleet "Ultaka Dominator"
-
 fleet "Ultaka Dominator"
-	government "arena"
+	government "Ultaka (Omnis)"
 	personality
 		heroic
 	variant
 		"Ultaka Dominator"
-		
-planet "Ultaka Conqueror"
-	government arena
-	bribe 0
-	tribute 1
-		threshold 0
-		fleet "Ultaka Conqueror"
-		
-planet "GW Conqueror"
-	government arena
-	bribe 0
-	tribute 1
-		threshold 0
-		fleet "Ultaka Conqueror"
 
+planet "Ultaka Ghost"
+	government "Ultaka Neurn (Omnis)"
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ultaka Ghost"
+planet "GW Ultaka Ghost"
+	government "Ultaka Neurn (Omnis)"
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ultaka Ghost"
+fleet "Ultaka Ghost"
+	government "Ultaka Neurn (Omnis)"
+	personality
+		heroic
+	variant
+		"Ultaka Ghost"
+
+planet "Ultaka Shadow Strike"
+	government "Ultaka Mega (Omnis)"
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ultaka Shadow Strike"
+planet "GW Ultaka Shadow Strike"
+	government "Ultaka Mega (Omnis)"
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ultaka Shadow Strike"
+fleet "Ultaka Shadow Strike"
+	government "Ultaka Mega (Omnis)"
+	personality
+		heroic
+	variant
+		"Ultaka Shadow Strike"
+
+planet "Ultaka Var'ahx"
+	government "Ultaka Alrul (Omnis)"
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ultaka Var'ahx"
+planet "GW Ultaka Var'ahx"
+	government "Ultaka Alrul (Omnis)"
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ultaka Var'ahx"
+fleet "Ultaka Var'ahx"
+	government "Ultaka Alrul (Omnis)"
+	personality
+		heroic
+	variant
+		"Ultaka Var'ahx"
+
+planet "Ultaka Julseir"
+	government "Ultaka Alrul (Omnis)"
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ultaka Julseir"
+planet "GW Ultaka Julseir"
+	government "Ultaka Alrul (Omnis)"
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ultaka Julseir"
+fleet "Ultaka Julseir"
+	government "Ultaka Alrul (Omnis)"
+	personality
+		heroic
+	variant
+		"Ultaka Julseir"
+
+planet "Ultaka Conqueror"
+	government "Ultaka (Omnis)"
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ultaka Conqueror"
+planet "GW Ultaka Conqueror"
+	government "Ultaka (Omnis)"
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ultaka Conqueror"
 fleet "Ultaka Conqueror"
-	government "arena"
+	government "Ultaka (Omnis)"
 	personality
 		heroic
 	variant
 		"Ultaka Conqueror"
-		
-planet "Ultaka Summoner"
-	government arena
-	bribe 0
-	tribute 1
-		threshold 0
-		fleet "Ultaka Summoner"
-		
-planet "GW Summoner"
-	government arena
-	bribe 0
-	tribute 1
-		threshold 0
-		fleet "Ultaka Summoner"
 
-fleet "Ultaka Summoner"
-	government "arena"
+planet "Ultaka Darkedge"
+	government "Ultaka Mega (Omnis)"
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ultaka Darkedge"
+planet "GW Ultaka Darkedge"
+	government "Ultaka Mega (Omnis)"
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ultaka Darkedge"
+fleet "Ultaka Darkedge"
+	government "Ultaka Mega (Omnis)"
 	personality
 		heroic
 	variant
-		"Ultaka Summoner"
-		"Ultaka Termite" 12
+		"Ultaka Darkedge"
+
+planet "Ultaka Death Bringer"
+	government "Ultaka Mega (Omnis)"
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ultaka Death Bringer"
+planet "GW Ultaka Death Bringer"
+	government "Ultaka Mega (Omnis)"
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ultaka Death Bringer"
+fleet "Ultaka Death Bringer"
+	government "Ultaka Mega (Omnis)"
+	personality
+		heroic
+	variant
+		"Ultaka Death Bringer"
+
+planet "Ultaka Galactic Destroyer"
+	government "Ultaka (Omnis)"
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ultaka Galactic Destroyer"
+planet "GW Ultaka Galactic Destroyer"
+	government "Ultaka (Omnis)"
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ultaka Galactic Destroyer"
+fleet "Ultaka Galactic Destroyer"
+	government "Ultaka (Omnis)"
+	personality
+		heroic
+	variant
+		"Ultaka Galactic Destroyer"
+
+planet "Ultaka Necromancer"
+	government "Ultaka Mega (Omnis)"
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ultaka Necromancer"
+planet "GW Ultaka Necromancer"
+	government "Ultaka Mega (Omnis)"
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ultaka Necromancer"
+fleet "Ultaka Necromancer"
+	government "Ultaka Mega (Omnis)"
+	personality
+		heroic
+	variant
+		"Ultaka Necromancer"
+
+planet "Ultaka Netherward"
+	government "Ultaka Mega (Omnis)"
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ultaka Netherward"
+planet "GW Ultaka Netherward"
+	government "Ultaka Mega (Omnis)"
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ultaka Netherward"
+fleet "Ultaka Netherward"
+	government "Ultaka Mega (Omnis)"
+	personality
+		heroic
+	variant
+		"Ultaka Netherward"
 
 planet "Ultaka Reaper"
-	government arena
+	government "Ultaka (Omnis)"
 	bribe 0
 	tribute 1
 		threshold 0
 		fleet "Ultaka Reaper"
-		
-planet "GW Reaper"
-	government arena
+planet "GW Ultaka Reaper"
+	government "Ultaka (Omnis)"
 	bribe 0
 	tribute 1
 		threshold 0
 		fleet "Ultaka Reaper"
-
 fleet "Ultaka Reaper"
-	government "arena"
+	government "Ultaka (Omnis)"
 	personality
 		heroic
 	variant
 		"Ultaka Reaper"
-		"Ultaka Termite" 12
+
+planet "Ultaka Summoner"
+	government "Ultaka (Omnis)"
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ultaka Summoner"
+planet "GW Ultaka Summoner"
+	government "Ultaka (Omnis)"
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ultaka Summoner"
+fleet "Ultaka Summoner"
+	government "Ultaka (Omnis)"
+	personality
+		heroic
+	variant
+		"Ultaka Summoner"
+
+planet "Ultaka Vyvis"
+	government "Ultaka Alrul (Omnis)"
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ultaka Vyvis"
+planet "GW Ultaka Vyvis"
+	government "Ultaka Alrul (Omnis)"
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ultaka Vyvis"
+fleet "Ultaka Vyvis"
+	government "Ultaka Alrul (Omnis)"
+	personality
+		heroic
+	variant
+		"Ultaka Vyvis"
+
+planet "Ultaka Revenant"
+	government "Ultaka Mega (Omnis)"
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ultaka Revenant"
+planet "GW Ultaka Revenant"
+	government "Ultaka Mega (Omnis)"
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ultaka Revenant"
+fleet "Ultaka Revenant"
+	government "Ultaka Mega (Omnis)"
+	personality
+		heroic
+	variant
+		"Ultaka Revenant"
+
+planet "Ultaka Termite"
+	government "Ultaka (Omnis)"
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ultaka Termite"
+planet "GW Ultaka Termite"
+	government "Ultaka (Omnis)"
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ultaka Termite"
+fleet "Ultaka Termite"
+	government "Ultaka (Omnis)"
+	personality
+		heroic
+	variant
+		"Ultaka Termite"
+
+planet "Ultaka Wraith"
+	government "Ultaka Mega (Omnis)"
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ultaka Wraith"
+planet "GW Ultaka Wraith"
+	government "Ultaka Mega (Omnis)"
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ultaka Wraith"
+fleet "Ultaka Wraith"
+	government "Ultaka Mega (Omnis)"
+	personality
+		heroic
+	variant
+		"Ultaka Wraith"
+
+planet "Ultaka Servant"
+	government "Ultaka (Omnis)"
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ultaka Servant"
+planet "GW Ultaka Servant"
+	government "Ultaka (Omnis)"
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ultaka Servant"
+fleet "Ultaka Servant"
+	government "Ultaka (Omnis)"
+	personality
+		heroic
+	variant
+		"Ultaka Servant"
 		
 #================================Wallagi
 

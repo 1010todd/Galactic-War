@@ -1,86 +1,20 @@
 #T6.5? Anything less than a huge swarm of Arfecta should be even close to scratching it.
 #Rather low hull but with protection.
 
-ship "Ultaka Vyvis"
-	sprite "ship/ultaka vyvis"
-	#thumbnail "thumbnail/"
-	"uncapturable"
-	attributes
-		category "Heavy Warship"
-		"cost" 44200000
-		"shields" 45300000
-		"shield generation" 450000
-		"hull" 1000000
-		"hull protection" 3
-		"hull repair rate" 80000
-		"repair delay" 240
-		"absolute threshold" 1000
-		"required crew" 350
-		"bunks" 1200
-		"mass" 1200
-		"drag" 18.1
-		"heat dissipation" 100
-		"fuel capacity" 1500
-		"cargo space" 2000
-		"outfit space" 27900
-		"weapon capacity" 12000
-		"engine capacity" 7200
-		"force protection" 100
-		"cooling" 3000
-		"piercing protection" 3
-		"heat protection" 100
-		"spinal mount" 5
-		"radar jamming" 100
-		"scan interference" 100
-		"instructable" 1
-		"hyperdrive" 1
-		"jump drive" 1
-		"jump speed" 10
-		"jump effect" "ultaka gate drive"
-		"afterburner thrust" 450
-		"afterburner energy" 450
-		"afterburner heat" 500
-		"energy generation" 2000
-		"pocket space" 1450
-		weapon
-			"blast radius" 580
-			"shield damage" 6600
-			"hull damage" 4800
-			"hit force" 7600
-	outfits
-		"Ve'raun defense"
-		"Ultaka Cosmic Ripper"
-		"Arvasr Sweeper" 4
-		"Urxesh Summoner" 2
 
-		"B60 Ve'el Core"
-		
-		"Urvulre Engines" 3
-		
-	gun 0 -299.5
-	gun 0 -299.5
-	gun 0 -299.5
-	gun 0 -299.5
-	gun 0 -299.5
-	turret 0 13 "Ve'raun defense"
-	turret -33.5 -290.5 "Urxesh Summoner"
-	turret 33.5 -290.5 "Urxesh Summoner"
-	turret -160.5 3 "Arvasr Sweeper"
-	turret 160.5 3 "Arvasr Sweeper"
-	turret -160.5 58.5 "Arvasr Sweeper"
-	turret 160.5 58.5 "Arvasr Sweeper"
-	turret -162 117
-	turret 162 117
-	engine 0 374
-		zoom 1
-		angle 0
-		under
-	"reverse engine" 0 374
-		zoom 1
-		angle 0
-		under
-	explode "ultaka gate drive" 50
-	description "Exotic Ultaka warship widely believed to be just a myth, or rather most who saw it never returns."
+#============================[Transport]=============================
+
+
+#============================[Light Freighter]=======================
+
+
+#============================[Heavy Freighter]=======================
+
+
+#============================[Interceptor]===========================
+
+
+#============================[Light Warship]=========================
 
 ship "Ultaka Var'ahx"
 	sprite "ship/ultaka varahx"
@@ -159,6 +93,8 @@ ship "Ultaka Var'ahx"
 	explode "ultaka gate drive" 50
 	description ""
 
+#============================[Medium Warship]========================
+
 ship "Ultaka Julseir"
 	sprite "ship/ultaka julseir"
 	#thumbnail "thumbnail/"
@@ -232,3 +168,91 @@ ship "Ultaka Julseir"
 		under
 	explode "ultaka gate drive" 50
 	description ""
+
+#============================[Heavy Warship]=========================
+
+ship "Ultaka Vyvis"
+	sprite "ship/ultaka vyvis"
+	#thumbnail "thumbnail/"
+	"uncapturable"
+	attributes
+		category "Heavy Warship"
+		"cost" 44200000
+		"shields" 45300000
+		"shield generation" 450000
+		"hull" 1000000
+		"hull protection" 3
+		"hull repair rate" 80000
+		"repair delay" 240
+		"absolute threshold" 1000
+		"required crew" 350
+		"bunks" 1200
+		"mass" 1200
+		"drag" 18.1
+		"heat dissipation" 100
+		"fuel capacity" 1500
+		"cargo space" 2000
+		"outfit space" 27900
+		"weapon capacity" 12000
+		"engine capacity" 7200
+		"force protection" 100
+		"cooling" 3000
+		"piercing protection" 3
+		"heat protection" 100
+		"spinal mount" 5
+		"radar jamming" 100
+		"scan interference" 100
+		"instructable" 1
+		"hyperdrive" 1
+		"jump drive" 1
+		"jump speed" 10
+		"jump effect" "ultaka gate drive"
+		"afterburner thrust" 450
+		"afterburner energy" 450
+		"afterburner heat" 500
+		"energy generation" 2000
+		"pocket space" 1450
+		weapon
+			"blast radius" 580
+			"shield damage" 6600
+			"hull damage" 4800
+			"hit force" 7600
+	outfits
+		"Ve'raun defense"
+		"Ultaka Cosmic Ripper"
+		"Arvasr Sweeper" 4
+		"Urxesh Summoner" 2
+
+		"B60 Ve'el Core"
+
+		"Urvulre Engines" 3
+
+	gun 0 -299.5
+	gun 0 -299.5
+	gun 0 -299.5
+	gun 0 -299.5
+	gun 0 -299.5
+	turret 0 13 "Ve'raun defense"
+	turret -33.5 -290.5 "Urxesh Summoner"
+	turret 33.5 -290.5 "Urxesh Summoner"
+	turret -160.5 3 "Arvasr Sweeper"
+	turret 160.5 3 "Arvasr Sweeper"
+	turret -160.5 58.5 "Arvasr Sweeper"
+	turret 160.5 58.5 "Arvasr Sweeper"
+	turret -162 117
+	turret 162 117
+	engine 0 374
+		zoom 1
+		angle 0
+		under
+	"reverse engine" 0 374
+		zoom 1
+		angle 0
+		under
+	explode "ultaka gate drive" 50
+	description "Exotic Ultaka warship widely believed to be just a myth, or rather most who saw it never returns."
+
+#============================[Fighter]===============================
+
+
+#============================[Drone]=================================
