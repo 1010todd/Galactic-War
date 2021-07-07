@@ -197,6 +197,42 @@ outfit "KDT5 anti missile"
 		"firing energy" .1
 		"firing heat" .5
 		
+outfit "Ultaka Ambusher"
+	category "Guns"
+	cost 60000000
+	thumbnail "outfit/unknown"
+	"mass" 30
+	"outfit space" -30
+	"weapon capacity" -30
+	"gun ports" -1
+	weapon
+		sprite "projectile/spear1"
+			"frame rate" 13
+			"no repeat"
+		sound "skylance"
+		"hit effect" "skylance impact"
+		"submunition" "ul ambusher shot" 22
+		"inaccuracy" .4
+		"velocity" 50
+		"lifetime" 1
+		"reload" 3
+		"burst reload" 1
+		"burst count" 10
+		"firing energy" 30
+		"firing heat" 40
+		
+outfit "ul ambusher shot"
+	weapon
+		sprite "projectile/spear1"
+				"frame rate" 13
+				"no repeat"
+		"inaccuracy" 90
+		"velocity" 50
+		"lifetime" 18
+		"shield damage" 120
+		"hull damage" 50
+		"ion damage" 12
+		"heat damage" 50
 		
 outfit "R62K B-Field Projector" #RFK-1 Damage Field
 	category "Turrets"
