@@ -582,6 +582,48 @@ ship "Ultaka Wraith"
 
 #============================[Drone]=================================
 
+ship "Ultaka Ambusher"
+	sprite "ship/ultaka ambusher"
+	attributes
+		category "Drone"
+		"cost" 310000
+		"shields" 80000
+		"hull" 55000
+		"shield generation" 6
+		"hull repair rate" 6
+		"threshold percentage" .01
+		"automaton" 1
+		"mass" 70
+		"drag" 3
+		"heat dissipation" 1.3
+		"outfit space" 80
+		"weapon capacity" 50
+		"engine capacity" 27
+		"self destruct" .9
+		"cooling" 20
+		"cloak" .06
+		"cloaking energy" 1
+		"energy generation" 200
+		"energy capacity" 5000
+		"turn" 400
+		"turning energy" .2
+		"thrust" 100
+		"thrusting energy" .3
+		"radar jamming" 10
+		"scan interference" .6
+		weapon
+			"blast radius" 200
+			"shield damage" 2200
+			"hull damage" 1100
+			"hit force" 300
+	outfits
+		"Ultaka Heat Shunt"
+		"Ultaka Ambusher"
+
+	gun 0 0
+	explode "huge explosion" 1
+	description ""
+
 ship "Ultaka Revenant"
 	sprite "ship/ultaka revenant"
 	attributes

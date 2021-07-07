@@ -2405,11 +2405,6 @@ system Ultaka
 			sprite "ship/ultaka poltergeist"
 			distance 1000
 			offset 120
-		object "Ultaka Trapper"
-			# faction ultaka
-			sprite "ship/ultaka trapper"
-			distance 1500
-			offset 120
 	object
 		sprite sprite/category_light_warship
 		distance 1200
@@ -2515,15 +2510,25 @@ system Ultaka
 		sprite sprite/category_drone
 		distance 1200
 		offset 320
+		object "Ultaka Ambusher"
+			# faction ultaka mega
+			sprite "ship/ultaka ambusher"
+			distance 500
+			offset 320
 		object "Ultaka Revenant"
 			# faction ultaka mega
 			sprite "ship/ultaka revenant"
-			distance 500
+			distance 1000
 			offset 320
 		object "Ultaka Servant"
 			# faction ultaka
 			sprite "ship/ultaka servant"
-			distance 1000
+			distance 1500
+			offset 320
+		object "Ultaka Trapper"
+			# faction ultaka
+			sprite "ship/ultaka trapper"
+			distance 2000
 			offset 320
 
 system Uoorn
@@ -5976,25 +5981,6 @@ fleet "Ultaka Poltergeist"
 	variant
 		"Ultaka Poltergeist"
 
-planet "Ultaka Trapper"
-	government "Ultaka (Omnis)"
-	bribe 0
-	tribute 1
-		threshold 0
-		fleet "Ultaka Trapper"
-planet "GW Ultaka Trapper"
-	government "Ultaka (Omnis)"
-	bribe 0
-	tribute 1
-		threshold 0
-		fleet "Ultaka Trapper"
-fleet "Ultaka Trapper"
-	government "Ultaka (Omnis)"
-	personality
-		heroic
-	variant
-		"Ultaka Trapper"
-
 planet "Ultaka Annihilator"
 	government "Ultaka (Omnis)"
 	bribe 0
@@ -6280,6 +6266,25 @@ fleet "Ultaka Vyvis"
 	variant
 		"Ultaka Vyvis"
 
+planet "Ultaka Ambusher"
+	government "Ultaka Mega (Omnis)"
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ultaka Ambusher"
+planet "GW Ultaka Ambusher"
+	government "Ultaka Mega (Omnis)"
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ultaka Ambusher"
+fleet "Ultaka Ambusher"
+	government "Ultaka Mega (Omnis)"
+	personality
+		heroic
+	variant
+		"Ultaka Ambusher"
+
 planet "Ultaka Revenant"
 	government "Ultaka Mega (Omnis)"
 	bribe 0
@@ -6355,7 +6360,26 @@ fleet "Ultaka Servant"
 		heroic
 	variant
 		"Ultaka Servant"
-		
+
+planet "Ultaka Trapper"
+	government "Ultaka (Omnis)"
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ultaka Trapper"
+planet "GW Ultaka Trapper"
+	government "Ultaka (Omnis)"
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Ultaka Trapper"
+fleet "Ultaka Trapper"
+	government "Ultaka (Omnis)"
+	personality
+		heroic
+	variant
+		"Ultaka Trapper"
+
 #================================Wallagi
 
 planet "Wallagi Telsarator"

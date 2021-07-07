@@ -146,47 +146,6 @@ ship "Ultaka Hunter"
 	#description "Ultaka Hunter is a translated call sign from Wallagi's langauge "Ultaka Latsor", original name(untranslated) "Reyluret"."
 	#description "Ultaka Hunter are the most common Ultaka warship, usually came in a squadron of 3 alone to patrol, scout, and disturb enemy transport convoy."
 
-# Titan
-ship "Ultaka Trapper"
-	sprite "ship/ultaka trapper"
-	attributes
-		category "Interceptor"
-		"cost" 310000
-		"shields" 25000
-		"hull" 13000
-		"hull repair rate" .2
-		"threshold percentage" .01
-		"automaton" 1
-		"mass" 70
-		"drag" 3
-		"heat dissipation" 1.3
-		"outfit space" 286
-		"weapon capacity" 70
-		"engine capacity" 27
-		"self destruct" .9
-		"cooling" 20
-		"cloak" .03
-		"cloaking energy" 1
-		"energy generation" 200
-		"energy capacity" 5000
-		"turn" 400
-		"turning energy" .2
-		"thrust" 100
-		"thrusting energy" .3
-		"radar jamming" 5
-		"scan interference" .6
-		weapon
-			"blast radius" 200
-			"shield damage" 2200
-			"hull damage" 1100
-			"hit force" 300
-	outfits
-		"Ultaka Heat Shunt"
-		"Trapper"
-
-	gun 0 0
-	explode "huge explosion" 1
-	description ""
 
 #============================[Light Warship]=========================
 
@@ -902,3 +861,45 @@ ship "Ultaka Servant"
 	explode "big explosion" 10
 	#description "Ultaka Servant is a translated call sign from Wallagi's langauge "Ultaka Seyu", original name(untranslated) "Yamelu"."
 	#description "Ultaka Servants are small anti-missile drones with only one offensive gun, they're considered pretty useless among both the Wallagi and Ultaka since most Ultaka ships are already well protected against missiles."
+
+# Titan
+ship "Ultaka Trapper"
+	sprite "ship/ultaka trapper"
+	attributes
+		category "Drone"
+		"cost" 310000
+		"shields" 25000
+		"hull" 13000
+		"hull repair rate" .2
+		"threshold percentage" .01
+		"automaton" 1
+		"mass" 70
+		"drag" 3
+		"heat dissipation" 1.3
+		"outfit space" 80
+		"weapon capacity" 50
+		"engine capacity" 27
+		"self destruct" .9
+		"cooling" 20
+		"cloak" .03
+		"cloaking energy" 1
+		"energy generation" 200
+		"energy capacity" 5000
+		"turn" 400
+		"turning energy" .2
+		"thrust" 100
+		"thrusting energy" .3
+		"radar jamming" 10
+		"scan interference" .6
+		weapon
+			"blast radius" 200
+			"shield damage" 80000
+			"hull damage" 20000
+			"hit force" 300
+	outfits
+		"Ultaka Heat Shunt"
+		"Trapper"
+
+	gun 0 0
+	explode "masai fire" 1
+	description ""
