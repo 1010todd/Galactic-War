@@ -222,15 +222,17 @@ outfit "Ultaka Ambusher"
 		"firing heat" 40
 		
 outfit "ul ambusher shot"
-	sprite "projectile/spear1"
-			"frame rate" 13
-			"no repeat"
-	"inaccuracy" 90
-	"lifetime" 18
-	"shield damage" 120
-	"hull damage" 50
-	"ion damage" 12
-	"heat damage" 50
+	weapon
+		sprite "projectile/spear1"
+				"frame rate" 13
+				"no repeat"
+		"inaccuracy" 90
+		"velocity" 50
+		"lifetime" 18
+		"shield damage" 120
+		"hull damage" 50
+		"ion damage" 12
+		"heat damage" 50
 		
 outfit "R62K B-Field Projector" #RFK-1 Damage Field
 	category "Turrets"
