@@ -20,7 +20,45 @@ outfitter "Aumar"
 shipyard "Aumar"
 	"Gy-2"
 
-#======================================DELS
+#======================================Dels
+
+shipyard "Dels All"
+	# Transport
+	"Dels Doreenor"
+	"Dels Sendo"
+	"Dels Serdeen"
+
+	# Light Freighter
+	"Dels Desen"
+	"Dels Donson"
+	"Dels Manoon"
+
+	# Heavy Freighter
+	"Dels Eudaion"
+
+	# Interceptor
+	"Dels Derso"
+	"Dels Desin"
+	"Dels Ekdor"
+
+	# Light Warship
+	"Dels Deeris"
+	"Dels Secsen"
+	"Dels Senro"
+
+	# Medium Warship
+	"Dels Uldeor"
+
+	# Heavy Warship
+	"Dels Darca"
+	"Dels Decso"
+	"Dels Dacar"
+
+	# Fighter
+
+	# Drone
+	"Dels Dea"
+	"Dels Dee"
 
 shipyard "Dels Standard"
 	"Dels Dea"
@@ -38,7 +76,7 @@ shipyard "Dels Basic"
 	"Dels Dee"
 	"Dels Deeris"
 	"Dels Derso"
-	
+
 shipyard "Dels Advanced"
 	"Dels Darca"
 	"Dels Dea"
@@ -56,7 +94,7 @@ shipyard "Dels Advanced"
 	"Dels Ekdor"
 	"Dels Eudaion"
 	"Dels Manoon"
-	
+
 shipyard "Dels Ufulre"
 	"Dels Dacar"
 	"Dels Dea"
@@ -65,7 +103,7 @@ shipyard "Dels Ufulre"
 	"Dels Secsen"
 	"Dels Derso"
 	"Dels Desin"
-	
+
 outfitter "Dels Ammo"
 	"Dakte-1 Missile"
 	"Saikel-4 Missile"
@@ -73,7 +111,7 @@ outfitter "Dels Ammo"
 	"Local Map"
 	"Fuel Pod"
 	"Dels Ramscoop"
-	
+
 outfitter "Dels Standard"
 	"Sokak Slug"
 	"Skue-6 Blaster"
@@ -103,7 +141,7 @@ outfitter "Dels Standard"
 	"Outfit Scanner"
 	"Asteroid Scanner"
 	"Cargo Scanner"
-	
+
 outfitter "Dels Basic"
 	"Skue-6 Blaster"
 	"Skue-8 Blaster"
@@ -146,7 +184,7 @@ outfitter "Dels Basic"
 	"Outfit Scanner"
 	"Asteroid Scanner"
 	"Cargo Scanner"
-	
+
 outfitter "Dels Advanced"
 	"Skue-6 Blaster"
 	"Skue-8 Blaster"
@@ -217,7 +255,7 @@ outfitter "Dels Advanced"
 	"Outfit Scanner"
 	"Asteroid Scanner"
 	"Cargo Scanner"
-	
+
 #=========================================DONKO
 	
 outfitter "Donko Ammo"
@@ -307,7 +345,8 @@ shipyard "Donko Advanced"
 	"Donko Kanse"
 	"Donko Senka" 
 
-#======================================ERADER
+#======================================Erader
+
 outfitter "Erader All"
 	"E6-H Generator"
 	"E6-V Generator"
@@ -401,17 +440,34 @@ outfitter "Makerurader Advanced"
 	"Cargo Scanner"
 
 shipyard "Erader All"
-	#==========Daurua
-	"Genterrac"
-	"Dauren"
-	"Raular"
-	"Kemvanh"
-	"Kelranter"
-	#========Makerurader
-	"Vardarkin"
-	"Ertezkaral"
-	"Sorgeldaz"
-	"Azelpur"
+	# Transport
+	"Genterrac"  # Darua
+
+	# Light Freighter
+	"Dauren"     # Darua
+	"Raular"     # Darua
+
+	# Heavy Freighter
+	"Kyseruna"   # Kasiva
+
+	# Interceptor
+	"Kelranter"  # Darua
+	"Aikiyu"     # Kasiva
+	"Azelpur"    # Makerurader
+
+	# Light Warship
+
+	# Medium Warship
+	"Kemvanh"    # Darua
+	"Eishen"     # Kasiva
+	"Sorgeldaz"  # Makerurader
+	"Ertezkaral" # Makerurader
+
+	# Heavy Warship
+	"Vardarkin"  # Makerurader
+
+	# Fighter
+	# Drone
 
 shipyard "Erader Basic"
 	"Kelranter"
@@ -570,6 +626,30 @@ shipyard "Geeva Basic"
 shipyard "Geeva Advanced"
 	"Kimali"
 	
+shipyard "Geeva All"
+	# Transport
+	"Hailika"
+
+	# Light Freighter
+
+	# Heavy Freighter
+
+	# Interceptor
+
+	# Light Warship
+
+	"Kinika"
+	# Medium Warship
+
+	# Heavy Warship
+	"Kimali"
+	"Mayuinia" # Tier 2
+	"HD-8426 Tarallion" # Got from the Zis
+
+	# Fighter
+
+	# Drone
+
 #======================================IGNAGGEN
 	
 outfitter "Ignaggen Basic"
@@ -758,7 +838,52 @@ shipyard "Kanai Basic"
 
 shipyard "Kanai Advanced"
 	"Mugildor"
-	
+
+#======================================Kumakk
+
+shipyard "Kumakk All"
+	# Interceptors
+	"Kasoulek"
+
+	# Light Freighters
+	"Oulkorke"
+
+	# Heavy Warships
+	"Akolucor"
+
+outfitter "Kumakk All"
+	# Weapons
+	"Ordakko Gun"
+	"Ordakko Turret"
+	"Ku'alno Turret"
+	"Loku'nol Missile"
+	"Loku'nol Missile Storage"
+	"Loku'nol Missile Launcher"
+	"Loku'nol Missile Turret"
+	"Ko'lorke Missile Shield"
+
+	# Systems
+	"Cu'nosu Shield Generator"
+	"Gulgo'ro Shield Generator"
+	"Ko'rosul Shield Generator"
+	"No'uro Shield Generator"
+
+	# Power
+	"Sol-6ii Generator"
+	"Sol-9ia Generator"
+	"Vuk-9ix Generator"
+	"Ekken'lar Capacitor"
+
+	# Engines
+	"Cokor Thruster"
+	"Kolun'a Thruster"
+	"Lelu'a Thruster"
+	"Mocoro Thruster"
+	"Cokor Steering"
+	"Kolun'a Steering"
+	"Lelu'a Steering"
+	"Mocoro Steering"
+
 #======================================Nuru
 outfitter "Nuru All"
 	"Uora Power Cells"
@@ -783,6 +908,33 @@ shipyard "Nuru All"
 
 
 #======================================Qoro
+
+shipyard "Qoro All"
+	# Transport
+
+	# Light Freighter
+
+	# Heavy Freighter
+
+	# Interceptor
+	"Qoro(S) Ganoth"   # Qoro Siogal
+	"Qoro(M) Manta"    # Qoro Makau
+
+	# Light Warship
+	"Qoro(S) Elgarel"  # Qoro Siogal
+
+	# Medium Warship
+	"Qoro(S) Elogarl"  # Qoro Siogal
+	"Qoro(M) Masec"    # Qoro Makau
+
+	# Heavy Warship
+	"Qoro(M) Matoanan" # Qoro Makau
+
+	# Fighter
+	"Qoro(S) Gasat"    # Qoro Siogal
+	"Qoro(S) Logr"     # Qoro Siogal
+
+	# Drone
 
 outfitter "Qoro Makau Basic"
 	"Mase-Dettai Laser"
@@ -827,6 +979,7 @@ shipyard "Revos All"
 	"Caosma (Transport)"
 
 #======================================Taroun
+
 outfitter "Taroun All"
 	"Lymaou Launcher"
 	"Serulan Turret"
@@ -855,6 +1008,7 @@ outfitter "Taroun Advanced"
 shipyard "Taroun All"
 	"Taroun Eroun"
 	"Taroun Oresu"
+	"Taroun Ulkoura"
 	
 shipyard "Taroun Basic"
 	"Taroun Oresu"
@@ -921,7 +1075,51 @@ shipyard "Tehru All"
 	# Light Warship
 	"Tehru Avir"
 
+
 #======================================Ultaka
+
+shipyard "Ultaka All"
+	# Transport
+
+	# Light Freighter
+
+	# Heavy Freighter
+	"Ultaka Path-Maker"         # Ultaka
+
+	# Interceptor
+	"Ultaka Hunter"             # Ultaka
+	"Ultaka Poltergeist"        # Ultaka Mega
+
+	# Light Warship
+	"Ultaka Annihilator"        # Ultaka
+	"Ultaka Dominator"          # Ultaka
+	"Ultaka Ghost"              # Ultaka Neurn
+	"Ultaka Shadow Strike"      # Ultaka Mega
+	"Ultaka Var'ahx"            # Ultaka Alrul
+
+	# Medium Warship
+	"Ultaka Julseir"            # Ultaka Alrul
+
+	# Heavy Warship
+	"Ultaka Conqueror"          # Ultaka
+	"Ultaka Darkedge"           # Ultaka Mega
+	"Ultaka Death Bringer"      # Ultaka Mega
+	"Ultaka Galactic Destroyer" # Ultaka
+	"Ultaka Necromancer"        # Ultaka Mega
+	"Ultaka Netherward"         # Ultaka Mega
+	"Ultaka Reaper"             # Ultaka
+	"Ultaka Summoner"           # Ultaka
+	"Ultaka Vyvis"              # Ultaka Alrul
+
+	# Fighter
+	"Ultaka Termite"            # Ultaka
+	"Ultaka Wraith"             # Ultaka Mega
+
+	# Drone
+	"Ultaka Ambusher"           # Ultaka Mega
+	"Ultaka Revenant"           # Ultaka Mega
+	"Ultaka Servant"            # Ultaka
+	"Ultaka Trapper"            # Ultaka
 
 shipyard "Ultaka"
 	"Ultaka Annihilator"
@@ -1017,6 +1215,20 @@ outfitter "Ultaka All"
 	"Hausiar Revolver"
 
 #======================================Wallagi
+
+shipyard "Wallagi All"
+	# Interceptor
+	"Telsarator"
+
+	# Medium Warship
+	"Dettalor"
+
+	#Fighter
+	"Talselar"
+
+	# Heavy Warship
+	"Sentasor"
+	"Mecohni"
 
 shipyard "Wallagi"
 	"Telsarator"
@@ -1161,6 +1373,45 @@ shipyard "ZIS Old"
 	"Katen Civ 2b"
 	"Katen Civ 3a"
 
+shipyard "ZIS All"
+	# Transport
+	"AS-56 Virsiz"
+
+	# Light Freighter
+
+	# Heavy Freighter
+	"SY-8662 Sysor"
+
+	# Interceptor
+	"VK-35 Katen"
+	"RZ-28 Forlan"
+	"AF-18 Zyon (Interceptor)"
+
+	# Light Warship
+	"RZ-621-02 Razor"
+	"DT-510 Quadlancer"
+	"DT-224 Trazar"
+	"AD-672 Ranzai"
+	"AD-860A Aorlan"
+
+	# Medium Warship
+	"TZ-3468 Seoui"
+	"BS-2237 Ryuzo"
+	"BX-3826 Kazai"
+
+	# Heavy Warship
+	"ZM-5422 Karloz"
+	"ZC-4226 Zaikul"
+	"ZN-7681 Eaxes"
+	"Balzita"
+
+	# Fighter
+	"XF-26 Mizu"
+	"AF-18 Zyon"
+
+	# Drone
+	"SG-60 Ginaz Patrol Drone"
+
 #=====================================Zorcn
 
 shipyard "Zorcn Basic"
@@ -1193,6 +1444,9 @@ shipyard "Zorcn Neyton"
 shipyard "Zorcn Xyncil"
 	"Zorcn Vixta"
 	"Zorcn Vorrix"
+
+shipyard "Zorcn Omnis"
+	"Zorcn Xima" # Normally unlocked after story progress
 	
 outfitter "Zorcn Basic Ammo"
 	"Anlis Gun Ammo"
