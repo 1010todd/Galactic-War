@@ -549,6 +549,10 @@ system Erader
 			# faction darua
 			sprite "ship/erader gentarrac"
 			distance 500
+		object "Erader Kunshera"
+			# faction narpul
+			sprite "ship/erader np kunshera"
+			distance 1000
 	object
 		sprite sprite/category_light_freighter
 		distance 1200
@@ -590,6 +594,11 @@ system Erader
 			# faction makerurader
 			sprite "ship/erader mr azelpur"
 			distance 1500
+			offset 120
+		object "Erader Nukrau"
+			# faction narpul
+			sprite "ship/erader np nukrau"
+			distance 2000
 			offset 120
 	object
 		sprite sprite/category_light_warship
@@ -3638,7 +3647,15 @@ system "Donko"
 		offset 0
 
 planet "Erader Darua Capital"
-	government arena
+	landscape landscape/station6
+	government cheat
+	description "Erader Darua ships and outfits."
+	outfitter "Darua Advanced"
+	outfitter "Darua Ammo"
+	outfitter "Erader Ammo"
+	outfitter "Erader Basic"
+	shipyard "Erader Basic"
+	shipyard "Darua Advanced"
 planet "Omnis-GW: Erader Darua Wormhole"
 	government cheat
 system "Mortarlen"
@@ -3657,7 +3674,14 @@ system "Erader"
 		offset 300
 
 planet "Erader Kasiva Capital"
-	government arena
+	landscape landscape/station6
+	government cheat
+	description "Erader Kasiva ships and outfits."
+	outfitter "Erader Ammo"
+	outfitter "Erader Basic"
+	shipyard "Erader Basic"
+	shipyard "Kasiva Basic"
+	shipyard "Kasiva Advanced"
 planet "Omnis-GW: Erader Kasiva Wormhole"
 	government cheat
 system "Vishil"
@@ -3676,7 +3700,12 @@ system "Erader"
 		offset 330
 
 planet "Erader Mukube Capital"
-	government arena
+	landscape landscape/station6
+	government cheat
+	description "Erader Mukube ships and outfits."
+	outfitter "Erader Ammo"
+	outfitter "Erader Basic"
+	shipyard "Erader Basic"
 planet "Omnis-GW: Erader Mukube Wormhole"
 	government cheat
 system "Aifveva"
@@ -3695,7 +3724,13 @@ system "Erader"
 		offset 0
 
 planet "Erader Narpul Capital"
-	government arena
+	landscape landscape/station6
+	government cheat
+	description "Erader Narpul ships and outfits."
+	outfitter "Erader Ammo"
+	outfitter "Erader Basic"
+	shipyard "Erader Basic"
+	shipyard "Narpul Basic"
 planet "Omnis-GW: Erader Narpul Wormhole"
 	government cheat
 system "Nihverka"
@@ -3754,8 +3789,7 @@ system "Ignaggen"
 planet "Kroom Kakaima Capital"
 	government cheat
 	landscape "landscape/station6"
-	description ""
-	spaceport ""
+	description "Kroom Kakaima ships and outfits."
 	shipyard "Kakaima Basic"
 	shipyard "Kakaima Advanced"
 	outfitter "Kroom Basic"
@@ -3782,8 +3816,7 @@ system "Kroom"
 planet "Kroom Kanai Capital"
 	government cheat
 	landscape "landscape/station6"
-	description ""
-	spaceport ""
+	description "Kroom Kanai ships and outfits."
 	shipyard "Kanai Basic"
 	shipyard "Kanai Advanced"
 	outfitter "Kroom Basic"
@@ -3845,7 +3878,13 @@ system "Qoro"
 		offset 330
 
 planet "Makerurader Capital"
-	government arena
+	landscape landscape/station6
+	government cheat
+	description "Makerurader ships and outfits."
+	outfitter "Makerurader Ammo"
+	outfitter "Makerurader Advanced"
+	shipyard "Makerurader Small"
+	shipyard "Makerurader Large"
 planet "Omnis-GW: Makerurader Wormhole"
 	government cheat
 system "Basksrek"
@@ -4570,6 +4609,25 @@ fleet "Erader Genterrac"
 	variant
 		"Genterrac"
 
+planet "Erader Kunshera"
+	government "Erader Narpul (Omnis)"
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Erader Kunshera"
+planet "GW Kunshera"
+	government "Erader Narpul (Omnis)"
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Erader Kunshera"
+fleet "Erader Kunshera"
+	government "Erader Narpul (Omnis)"
+	personality
+		heroic
+	variant
+		"Kunshera"
+
 planet "Erader Dauren"
 	government "Erader Darua (Omnis)"
 	bribe 0
@@ -4683,6 +4741,25 @@ fleet "Erader Azelpur"
 		heroic
 	variant
 		"Azelpur"
+
+planet "Erader Nukrau"
+	government "Erader Narpul (Omnis)"
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Erader Nukrau"
+planet "GW Nukrau"
+	government "Erader Narpul (Omnis)"
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Erader Nukrau"
+fleet "Erader Nukrau"
+	government "Erader Narpul (Omnis)"
+	personality
+		heroic
+	variant
+		"Nukrau"
 
 planet "Erader Kemvanh"
 	government "Erader Darua (Omnis)"
