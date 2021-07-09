@@ -10,11 +10,11 @@ government "Dels" #Merchant
 	color .089 .8 .245
 	"player reputation" 1
 	"attitude toward"
-		"Wallagi" 1
-		"Ultaka" -1
-		"Revos" -.1
-		"Dels (Pirate)" -.1
+		#"Wallagi" 1
+		#"Ultaka" -1
+		#"Revos" -.1
 		"Kroom Kakaima" -.1
+		"Tehru Insker" -.01
 		
 government "Dels Dardornai" #Government 2 fullname: Dardornai Kar Meda
 	swizzle 0
@@ -38,6 +38,7 @@ government "Dels Kaote" #Government 1 fullname: Prada Kaote
 		"Dels" .1
 		"Dels Dardornai" 1
 		"Kroom Kakaima" -.01
+		"Tehru Insker" -.01
 		
 government "Dels Ufulre" #
 	swizzle 1
@@ -88,6 +89,7 @@ government "Erader Narpul"
 	"player reputation" 0
 	"attitude toward"
 		"Makerurader" .1
+		"Kroom Kakaima" -.2
 
 government "Makerurader"
 	swizzle 6
@@ -96,6 +98,7 @@ government "Makerurader"
 	"attitude toward"
 		"Erader Darua" -.1
 		"Erader Kasiva" -.1
+		"Kroom Kakaima" -.2
 	
 ####################################
 
@@ -170,11 +173,15 @@ government "Kroom Kakaima"
 	language "Kroom"
 	"player reputation" -1
 	"attitude toward"
-		"Geeva" -.1
-		"Kroom Kanai" -.1
+		"Geeva" -.3
+		"Kroom Kanai" -.2
 		"Dels" -.1
 		"Dels Kaote" -.2
 		"Dels Dardornai" -.2
+		"Ignaggen" -.01
+		"Erader Narpul" -.1
+		"Erader Kasiva" -.01
+		"Makerurader" -.2
 		
 government "Kroom Kanai"
 	swizzle 0
