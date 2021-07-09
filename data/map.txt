@@ -3778,6 +3778,7 @@ system Ampoore
 	trade Metal 241
 	trade Plastic 405
 	fleet "Makerurader Battle Fleet" 1200
+	fleet "Narpul Merchant" 2200
 	object
 		sprite star/g5
 		period 10
@@ -5122,6 +5123,57 @@ system Arrposil
 		distance 1880.1
 		period 899.816
 
+system Asailer
+	pos -49106 -53871.9
+	government Revos
+	habitable 2997.76
+	belt 1384
+	link Eakulor
+	link Shulore
+	asteroids "small rock" 4 2.079
+	asteroids "large rock" 15 2.9925
+	asteroids "small metal" 1 3.591
+	asteroids "medium metal" 6 2.1735
+	asteroids "large metal" 1 1.7955
+	minables lead 2 4.72765
+	minables uranium 3 3.84685
+	trade Clothing 255
+	trade Electronics 848
+	trade Equipment 499
+	trade Food 148
+	trade "Heavy Metals" 803
+	trade Industrial 602
+	trade "Luxury Goods" 1242
+	trade Medical 625
+	trade Metal 244
+	trade Plastic 328
+	fleet "Revos small" 1500
+	object
+		sprite star/f0
+		distance 26.2696
+		period 10.3328
+		offset 180
+	object
+		sprite star/g5
+		distance 99.7304
+		period 10.3328
+	object
+		sprite planet/gas8
+		distance 344.94
+		period 46.8034
+	object
+		sprite planet/cloud1
+		distance 784.19
+		period 160.433
+	object
+		sprite planet/rock10
+		distance 1222.63
+		period 312.323
+	object
+		sprite planet/gas0
+		distance 2083.92
+		period 694.998
+
 system Asinaki
 	pos -51733.1 -56545.8
 	government Geeva
@@ -5190,6 +5242,7 @@ system Asirava
 	trade Medical 620
 	trade Metal 241
 	trade Plastic 405
+	fleet "Narpul Merchant" 1600
 	object
 		sprite star/f0
 		distance 17.3492
@@ -5472,6 +5525,71 @@ system Asudama
 			sprite planet/europa
 			distance 197
 			period 14.5545
+
+system Asulkel
+	pos -49353.8 -54176.2
+	government Revos
+	habitable 912.6
+	belt 1211
+	link Dulrealo
+	link Vuivor
+	asteroids "small rock" 2 6.669
+	asteroids "medium rock" 1 5.073
+	asteroids "large rock" 4 3.933
+	asteroids "small metal" 3 4.959
+	asteroids "medium metal" 3 8.151
+	asteroids "large metal" 5 4.218
+	minables lead 1 9.67169
+	minables tungsten 2 6.81379
+	minables uranium 1 8.14292
+	trade Clothing 255
+	trade Electronics 848
+	trade Equipment 499
+	trade Food 148
+	trade "Heavy Metals" 803
+	trade Industrial 602
+	trade "Luxury Goods" 1242
+	trade Medical 625
+	trade Metal 244
+	trade Plastic 328
+	fleet "Revos small" 1500
+	object
+		sprite star/k0
+		distance 54.6051
+		period 16.7571
+	object
+		sprite star/k5
+		distance 62.3949
+		period 16.7571
+		offset 180
+	object
+		sprite planet/desert6
+		distance 233.085
+		period 47.1184
+	object
+		sprite planet/dust6
+		distance 429.495
+		period 117.857
+	object
+		sprite planet/rock4
+		distance 712.305
+		period 251.721
+	object
+		sprite planet/ice2
+		distance 1091.59
+		period 477.542
+	object
+		sprite planet/gas13
+		distance 2969.8
+		period 2142.95
+		object
+			sprite planet/desert4
+			distance 285
+			period 13.5824
+		object
+			sprite planet/ice7
+			distance 403
+			period 22.8385
 
 system Atorka
 	pos -49760.9 -55334.4
@@ -6107,6 +6225,7 @@ system Badarvi
 	trade Plastic 405
 	fleet "Makerurader Battle Fleet" 800
 	fleet "Kakaima Defense" 1200
+	fleet "Narpul Merchant" 2500
 	object
 		sprite star/k0
 		period 10
@@ -13872,6 +13991,7 @@ system Dishavor
 	trade Plastic 405
 	fleet "Makerurader Battle Fleet" 600
 	fleet "Kakaima Defense" 800
+	fleet "Narpul Merchant" 2500
 	object
 		sprite star/k0
 		period 10
@@ -15386,6 +15506,74 @@ system Dulkor
 			distance 382
 			period 30.4056
 
+system Dulrealo
+	pos -49290.8 -54057.5
+	government Revos
+	habitable 745.92
+	belt 1884
+	link Asulkel
+	link Eakulor
+	asteroids "small rock" 2 2.448
+	asteroids "medium rock" 48 5.184
+	asteroids "large rock" 9 3.312
+	asteroids "small metal" 5 3.168
+	asteroids "medium metal" 58 4.128
+	asteroids "large metal" 7 3.024
+	minables copper 14 5.43473
+	minables lead 27 8.15643
+	trade Clothing 255
+	trade Electronics 848
+	trade Equipment 499
+	trade Food 148
+	trade "Heavy Metals" 803
+	trade Industrial 602
+	trade "Luxury Goods" 1242
+	trade Medical 625
+	trade Metal 244
+	trade Plastic 328
+	fleet "Revos small" 1500
+	object
+		sprite star/k5
+		distance 48.477
+		period 17.5927
+	object
+		sprite star/m0
+		distance 64.523
+		period 17.5927
+		offset 180
+	object
+		sprite planet/gas13
+		distance 516.523
+		period 171.929
+		object
+			sprite planet/rock7
+			distance 269
+			period 12.4549
+	object
+		sprite planet/ocean4
+		distance 972.083
+		period 443.883
+	object
+		sprite planet/gas10
+		distance 1898.32
+		period 1211.35
+		object
+			sprite planet/dust5
+			distance 238
+			period 19.3269
+		object
+			sprite planet/ice8
+			distance 397
+			period 41.6373
+		object
+			sprite planet/miranda
+			distance 506
+			period 59.9133
+		object
+			sprite planet/lava0
+			distance 689
+			period 95.1976
+
 system Dulvurka
 	pos -51426.4 -55363.1
 	government "Dels Kaote"
@@ -16634,6 +16822,50 @@ system Eagguka
 			distance 184
 			period 13.2863
 
+system Eakulor
+	pos -49179.2 -53966
+	government Revos
+	habitable 1715
+	belt 1045
+	link Asailer
+	link Dulrealo
+	asteroids "small rock" 1 4.3392
+	asteroids "medium rock" 8 2.2272
+	asteroids "large rock" 1 4.3776
+	asteroids "small metal" 34 3.648
+	asteroids "medium metal" 44 3.6096
+	asteroids "large metal" 1 2.3424
+	trade Clothing 255
+	trade Electronics 848
+	trade Equipment 499
+	trade Food 148
+	trade "Heavy Metals" 803
+	trade Industrial 602
+	trade "Luxury Goods" 1242
+	trade Medical 625
+	trade Metal 244
+	trade Plastic 328
+	fleet "Revos small" 1500
+	object
+		sprite star/f5
+		period 10
+	object
+		sprite planet/ice6
+		distance 237.44
+		period 35.3394
+	object
+		sprite planet/cloud0
+		distance 461.48
+		period 95.7541
+	object
+		sprite planet/lava2
+		distance 913.04
+		period 266.479
+	object
+		sprite planet/gas15
+		distance 2059.08
+		period 902.48
+
 system Easterla
 	pos -49823.4 -55431.9
 	government "Erader Darua"
@@ -17020,6 +17252,7 @@ system Eidalr
 	government Revos
 	habitable 1705
 	belt 1305
+	link Vahshero
 	asteroids "small rock" 81 1.815
 	asteroids "medium rock" 8 1.9305
 	asteroids "large rock" 36 1.914
@@ -17038,6 +17271,7 @@ system Eidalr
 	trade Medical 572
 	trade Metal 244
 	trade Plastic 310
+	fleet "Revos small" 1500
 	object
 		sprite star/g0
 		distance 37.7566
@@ -27739,6 +27973,7 @@ system Hadura
 	trade Plastic 405
 	fleet "Makerurader Logistic Fleet" 700
 	fleet "Makerurader Battle Fleet" 700
+	fleet "Narpul Merchant" 700
 	object
 		sprite star/m0
 		period 10
@@ -27896,6 +28131,7 @@ system Hagawon
 	trade Metal 241
 	trade Plastic 405
 	fleet "Makerurader Battle Fleet" 800
+	fleet "Narpul Merchant" 2200
 	object
 		sprite star/k0
 		period 10
@@ -28013,6 +28249,7 @@ system Hakishi
 	trade Plastic 405
 	fleet "Makerurader Battle Fleet" 600
 	fleet "Kakaima Defense" 1300
+	fleet "Narpul Merchant" 3500
 	object
 		sprite star/a0
 		distance 12.8889
@@ -36498,6 +36735,7 @@ system Kandhari
 	trade Plastic 405
 	fleet "Makerurader Battle Fleet" 800
 	fleet "Kakaima Defense" 1200
+	fleet "Narpul Merchant" 2500
 	object
 		sprite star/k5
 		distance 39.897
@@ -59325,6 +59563,7 @@ system Mashela
 	trade Plastic 405
 	fleet "Makerurader Logistic Fleet" 700
 	fleet "Makerurader Battle Fleet" 1200
+	fleet "Narpul Merchant" 700
 	object
 		sprite star/g5
 		period 10
@@ -60508,7 +60747,8 @@ system Medarke
 	trade Metal 241
 	trade Plastic 405
 	fleet "Makerurader Battle Fleet" 600
-	fleet "Narpul Merchant" 800
+	fleet "Narpul Merchant" 1800
+	fleet "Kakaima Defense" 2400
 	object
 		sprite star/a5
 		period 10
@@ -60575,6 +60815,8 @@ system Meddasima
 	trade Metal 241
 	trade Plastic 405
 	fleet "Makerurader Battle Fleet" 600
+	fleet "Narpul Merchant" 1800
+	fleet "Kakaima Defense" 2400
 	object
 		sprite star/k0
 		distance 17.5894
@@ -63549,6 +63791,7 @@ system Misorqa
 	trade Plastic 405
 	fleet "Makerurader Battle Fleet" 600
 	fleet "Kakaima Defense" 800
+	fleet "Narpul Merchant" 2500
 	object
 		sprite star/k5
 		period 10
@@ -71036,6 +71279,58 @@ system "Neukar Lega"
 			sprite planet/rhea
 			distance 566
 			period 39.4622
+
+system Neukolre
+	pos -48861.9 -53652
+	government Revos
+	habitable 425.92
+	belt 1464
+	link Salkuon
+	link Seolku
+	asteroids "medium rock" 8 0.825
+	asteroids "large rock" 1 1.035
+	asteroids "small metal" 5 1.425
+	asteroids "medium metal" 212 1.035
+	asteroids "large metal" 9 1.815
+	minables aluminum 20 1.53187
+	minables uranium 15 1.60116
+	trade Clothing 255
+	trade Electronics 848
+	trade Equipment 499
+	trade Food 148
+	trade "Heavy Metals" 803
+	trade Industrial 602
+	trade "Luxury Goods" 1242
+	trade Medical 625
+	trade Metal 244
+	trade Plastic 328
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/gas7
+		distance 265.36
+		period 83.7817
+	object
+		sprite planet/gas9
+		distance 657.72
+		period 326.932
+	object
+		sprite planet/mercury
+		distance 1136.08
+		period 742.18
+	object
+		sprite planet/gas10
+		distance 1846.24
+		period 1537.55
+		object
+			sprite planet/luna
+			distance 183
+			period 13.0309
+		object
+			sprite planet/dust3
+			distance 333
+			period 31.9863
 
 system Neulod
 	pos -51207.6 -55410.8
@@ -82639,7 +82934,7 @@ system Riyava
 		sprite planet/cloud7
 		distance 147.41
 		period 32.451
-	object
+	object Vhisraha
 		sprite planet/rock12
 		distance 513.7
 		period 211.107
@@ -82689,6 +82984,7 @@ system Riyismara
 	trade Plastic 405
 	fleet "Makerurader Battle Fleet" 800
 	fleet "Kakaima Defense" 1200
+	fleet "Narpul Merchant" 2500
 	object
 		sprite star/f5
 		period 10
@@ -86003,6 +86299,69 @@ system Salhaner
 			distance 276
 			period 13.4376
 
+system Salkuon
+	pos -48719.6 -53577
+	government Revos
+	habitable 2859.44
+	belt 1076
+	link Neukolre
+	link Vahshero
+	asteroids "small rock" 9 3.3528
+	asteroids "medium rock" 12 3.0096
+	asteroids "large rock" 5 1.452
+	asteroids "small metal" 7 2.376
+	asteroids "medium metal" 14 2.7192
+	asteroids "large metal" 20 2.6928
+	minables iron 15 4.03626
+	minables lead 2 4.46842
+	trade Clothing 255
+	trade Electronics 848
+	trade Equipment 499
+	trade Food 148
+	trade "Heavy Metals" 803
+	trade Industrial 602
+	trade "Luxury Goods" 1242
+	trade Medical 625
+	trade Metal 244
+	trade Plastic 328
+	object
+		sprite star/f0
+		distance 19.2327
+		period 8.98539
+	object
+		sprite star/k0
+		distance 93.7673
+		period 8.98539
+		offset 180
+	object
+		sprite planet/rock12
+		distance 265.457
+		period 32.3528
+	object
+		sprite planet/ice1
+		distance 606.457
+		period 111.717
+		object
+			sprite planet/miranda
+			distance 148
+			period 15.3883
+	object
+		sprite planet/rock3
+		distance 878.867
+		period 194.897
+	object
+		sprite planet/gas12
+		distance 2022.12
+		period 680.188
+		object
+			sprite planet/ice8
+			distance 274
+			period 11.9127
+		object
+			sprite planet/io
+			distance 370
+			period 18.6934
+
 system Saluke
 	pos -50678.1 -56060.7
 	government "Dels Dardornai"
@@ -86237,6 +86596,7 @@ system Sarpharan
 	trade Medical 620
 	trade Metal 241
 	trade Plastic 405
+	fleet "Narpul Merchant" 700
 	object
 		sprite star/f5
 		period 10
@@ -86768,6 +87128,7 @@ system Seirala
 	trade Plastic 405
 	fleet "Makerurader Battle Fleet" 600
 	fleet "Kakaima Defense" 800
+	fleet "Narpul Merchant" 2500
 	object
 		sprite star/f5
 		period 10
@@ -87078,6 +87439,75 @@ system Sennai
 		sprite planet/gas12
 		distance 2193.56
 		period 1862.78
+
+system Seolku
+	pos -48998 -53710.4
+	government Revos
+	habitable 2340
+	belt 1977
+	link Neukolre
+	link Shulore
+	asteroids "medium rock" 4 3.6225
+	asteroids "large rock" 3 4.4505
+	asteroids "medium metal" 3 2.3115
+	asteroids "large metal" 1 2.07
+	minables lead 1 5.73123
+	trade Clothing 255
+	trade Electronics 848
+	trade Equipment 499
+	trade Food 148
+	trade "Heavy Metals" 803
+	trade Industrial 602
+	trade "Luxury Goods" 1242
+	trade Medical 625
+	trade Metal 244
+	trade Plastic 328
+	fleet "Revos small" 1500
+	object
+		sprite star/f5
+		distance 28.0449
+		period 8.89684
+	object
+		sprite star/g5
+		distance 76.9551
+		period 8.89684
+		offset 180
+	object
+		sprite planet/cloud4
+		distance 249.715
+		period 32.6302
+	object
+		sprite planet/ice7
+		distance 451.405
+		period 79.3052
+	object
+		sprite planet/rock4
+		distance 645.815
+		period 135.711
+	object
+		sprite planet/gas10
+		distance 1317.07
+		period 395.242
+		object
+			sprite planet/tethys
+			distance 205
+			period 15.45
+		object
+			sprite planet/dust3
+			distance 300
+			period 27.3514
+		object
+			sprite planet/dust5
+			distance 475
+			period 54.4926
+	object
+		sprite planet/jupiter
+		distance 2299.76
+		period 911.957
+		object
+			sprite planet/rock3
+			distance 246
+			period 12.1245
 
 system Seorduka
 	pos -51173.8 -54651.6
@@ -87531,6 +87961,62 @@ system Shikarn
 		distance 2803.08
 		period 1315.92
 
+system Shulore
+	pos -49064.1 -53795.6
+	government Revos
+	habitable 5425.92
+	belt 1215
+	link Asailer
+	link Seolku
+	asteroids "small rock" 25 8.424
+	asteroids "medium rock" 8 5.6862
+	asteroids "large rock" 6 7.1604
+	asteroids "small metal" 120 9.126
+	asteroids "medium metal" 13 9.1962
+	asteroids "large metal" 189 9.0558
+	minables lead 141 15.5546
+	minables platinum 13 13.4907
+	trade Clothing 255
+	trade Electronics 848
+	trade Equipment 499
+	trade Food 148
+	trade "Heavy Metals" 803
+	trade Industrial 602
+	trade "Luxury Goods" 1242
+	trade Medical 625
+	trade Metal 244
+	trade Plastic 328
+	fleet "Revos small" 1500
+	object
+		sprite star/a0
+		distance 11.3036
+		period 9.38355
+		offset 180
+	object
+		sprite star/k5
+		distance 132.696
+		period 9.38355
+	object
+		sprite planet/gas12
+		distance 547.786
+		period 69.621
+		object
+			sprite planet/ice0
+			distance 284
+			period 12.5708
+	object
+		sprite planet/ice4
+		distance 994.596
+		period 170.331
+	object
+		sprite planet/gas6
+		distance 1742.49
+		period 394.982
+		object
+			sprite planet/rock3
+			distance 307
+			period 13.7395
+
 system "Si ei ao"
 	pos -50930.9 -53055.4
 	government Nuru
@@ -87775,6 +88261,7 @@ system Sikanqar
 	trade Medical 620
 	trade Metal 241
 	trade Plastic 405
+	fleet "Narpul Merchant" 700
 	object
 		sprite star/m0
 		period 10
@@ -90951,6 +91438,7 @@ system Tormordu
 	trade Plastic 405
 	fleet "Makerurader Logistic Fleet" 600
 	fleet "Makerurader Battle Fleet" 600
+	fleet "Narpul Merchant" 700
 	object
 		sprite star/g0
 		period 10
@@ -94201,6 +94689,55 @@ system VCJNAREO?p9x5uyse;tgyi
 		period 2003.11
 		offset 333.733
 
+system Vahshero
+	pos -48612.8 -53458.7
+	government Revos
+	habitable 135
+	belt 1783
+	link Eidalr
+	link Salkuon
+	asteroids "small rock" 2 4.4
+	asteroids "medium rock" 1 7.59
+	asteroids "large rock" 3 4.73
+	asteroids "medium metal" 15 5.335
+	asteroids "large metal" 4 6.875
+	minables copper 1 7.73388
+	minables lead 1 6.88315
+	minables titanium 4 6.61799
+	trade Clothing 255
+	trade Electronics 848
+	trade Equipment 499
+	trade Food 148
+	trade "Heavy Metals" 803
+	trade Industrial 602
+	trade "Luxury Goods" 1242
+	trade Medical 625
+	trade Metal 244
+	trade Plastic 328
+	object
+		sprite star/m8
+		period 10
+	object
+		sprite planet/ocean3
+		distance 164.49
+		period 72.6277
+	object
+		sprite planet/lava5
+		distance 484.7
+		period 367.369
+	object
+		sprite planet/gas4
+		distance 1320.74
+		period 1652.41
+		object
+			sprite planet/rhea
+			distance 269
+			period 15.5606
+	object
+		sprite planet/gas17
+		distance 1847.63
+		period 2734.11
+
 system Vaibeilo
 	pos -52203.1 -55701.7
 	government Geeva
@@ -94295,6 +94832,7 @@ system Vaihsiar
 	trade Medical 620
 	trade Metal 241
 	trade Plastic 405
+	fleet "Narpul Merchant" 700
 	object
 		sprite star/k5
 		period 10
@@ -97298,6 +97836,7 @@ system Viyuan
 	trade Metal 241
 	trade Plastic 405
 	fleet "Makerurader Battle Fleet" 800
+	fleet "Narpul Merchant" 2500
 	object
 		sprite star/f5
 		period 10
@@ -98408,6 +98947,7 @@ system Vuivor
 	government Revos
 	habitable 2340
 	belt 1109
+	link Asulkel
 	link Eundo
 	asteroids "small rock" 84 1.3338
 	asteroids "medium rock" 96 1.2844
@@ -103445,6 +103985,8 @@ planet Mehhani
 	landscape land/sky0
 	description .
 	spaceport .
+	shipyard "Erader Basic"
+	shipyard "Narpul Basic"
 	outfitter "Erader Basic"
 
 planet Mekudor
@@ -104372,7 +104914,7 @@ planet Sellgaro
 planet Selriras
 	landscape land/forest3
 	description `The surface of this planet looks like it was split into two layers with what seems to be a continent-spanning plains with large spots of plateau mixed in between, all of with similar height. Most of the plateau are surrouned by steep cliffs causing each of thes inland island to form their own ecosystem, some clearly visible with entirely different trees and animals. `
-	description `Towns and cities can be found scattered everywhere on the planet many connected by elevated highway, in fact most of the cities are "lifted" above from the ground where most of the surface commute occurs above the natural ground surrounding it.`
+	description `	Towns and cities can be found scattered everywhere on the planet many connected by elevated highway, in fact most of the cities are "lifted" above from the ground where most of the surface commute occurs above the natural ground surrounding it.`
 	spaceport .
 	shipyard "Geeva Basic"
 	outfitter "Geeva Basic"
@@ -104870,6 +105412,14 @@ planet Veulreenu
 	description .
 	spaceport .
 	outfitter "Dels Basic"
+
+planet Vhisraha
+	landscape land/forest2
+	description .
+	spaceport .
+	shipyard "Erader Basic"
+	shipyard "Narpul Basic"
+	outfitter "Erader Basic"
 
 planet Vibilen
 	landscape land/sea16-harro
