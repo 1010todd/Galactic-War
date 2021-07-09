@@ -361,8 +361,8 @@ outfit "ORK6 Shield Generator"
 	thumbnail "outfit/unknown"
 	"mass" 160
 	"outfit space" -160
-	"shield generation" 12.4
-	"shield energy" 12
+	"shield generation" 48.2
+	"shield energy" 38.3
 	"shield delay" 4
 	description "Donko Shield generator"
 	
@@ -372,8 +372,8 @@ outfit "ORK5 Shield Generator"
 	thumbnail "outfit/unknown"
 	"mass" 100
 	"outfit space" -100
-	"shield generation" 9.6
-	"shield energy" 9.2
+	"shield generation" 28.6
+	"shield energy" 21.8 #abit more energy efficient than largest.
 	"shield delay" 4
 	description "Donko Shield generator"
 	
@@ -383,19 +383,30 @@ outfit "ORK4 Shield Generator"
 	thumbnail "outfit/unknown"
 	"mass" 60
 	"outfit space" -60
-	"shield generation" 6.6
-	"shield energy" 6.3
+	"shield generation" 16.6
+	"shield energy" 16.3
 	"shield delay" 3
 	description "Donko Shield generator"
 	
+outfit "ORK3 Shield Generator"
+	category "Systems"
+	cost 600000
+	thumbnail "outfit/unknown"
+	"mass" 30
+	"outfit space" -30
+	"shield generation" 7.9
+	"shield energy" 7.5
+	"shield delay" 2.5
+	description "Donko Shield generator"
+
 outfit "ORK2 Shield Generator"
 	category "Systems"
 	cost 150000
 	thumbnail "outfit/unknown"
 	"mass" 20
 	"outfit space" -20
-	"shield generation" 4.8
-	"shield energy" 4.6
+	"shield generation" 5.28
+	"shield energy" 5.2
 	"shield delay" 2
 	description "Donko Shield generator"
 	
@@ -409,6 +420,64 @@ outfit "ORK1 Shield Generator"
 	"shield energy" 2.6
 	"shield delay" 1
 	description "Donko Shield generator"
+	
+outfit "Donko Hyperdrive"
+	category "Systems"
+	cost 90000
+	thumbnail "outfit/hyperdrive"
+	"mass" 20
+	"outfit space" -20
+	"jump speed" 5
+	"hyperdrive" 1
+	description "." 
+	
+#=================================================================Power
+
+outfit "OER1 Cell"
+	category "Power"
+	cost 990000
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 10
+	"outfit space" -10
+	"energy generation" 8.8
+	"heat generation" 10
+	"energy capacity" 500
+	description "Donko Power Generator"
+	
+outfit "OER2 Cell"
+	category "Power"
+	cost 1360000
+	thumbnail "outfit/small fuel cell"
+	"mass" 15
+	"outfit space" -15
+	"energy generation" 14.7
+	"heat generation" 16
+	"energy capacity" 1000
+	description "Donko Power Generator"
+	
+outfit "OER5 Cell"
+	category "Power"
+	cost 5000000
+	thumbnail "outfit/big fuel cell"
+	"mass" 50
+	"outfit space" -50
+	"energy generation" 47.8
+	"heat generation" 49
+	"energy capacity" 2600
+	description "Donko Power Generator"
+	
+outfit "NIA10X Core"
+	category "Power"
+	cost 34000000
+	thumbnail "outfit/donko core"
+	"mass" 140
+	"outfit space" -140
+	"energy generation" 138
+	"heat generation" 120
+	"energy capacity" 5000
+	description "Donko's experimental power generator"
+
+#=======================================Engines
 
 outfit "DIT6 Thruster"
 	category "Engines"
@@ -619,54 +688,6 @@ outfit "DIT1 Steering"
 		"frame rate" 1.5
 	description "Smallest Donko Steering."
 	description "Donko DIT-series engines requires energy to maintain its ready-to-fire state."
-	
-outfit "Donko Hyperdrive"
-	category "Systems"
-	cost 90000
-	thumbnail "outfit/hyperdrive"
-	"mass" 20
-	"outfit space" -20
-	"jump speed" 5
-	"hyperdrive" 1
-	description "." 
-	
-outfit "OER1 Cell"
-	category "Power"
-	cost 180000
-	thumbnail "outfit/tiny fuel cell"
-	"mass" 10
-	"outfit space" -10
-	"energy generation" 30
-	"energy capacity" 500
-	
-outfit "OER2 Cell"
-	category "Power"
-	cost 360000
-	thumbnail "outfit/small fuel cell"
-	"mass" 15
-	"outfit space" -15
-	"energy generation" 50
-	"energy capacity" 1000
-	
-outfit "OER5 Cell"
-	category "Power"
-	cost 1000000
-	thumbnail "outfit/big fuel cell"
-	"mass" 50
-	"outfit space" -50
-	"energy generation" 160
-	"energy capacity" 2600
-	
-outfit "NIA10X Core"
-	category "Power"
-	cost 34000000
-	thumbnail "outfit/donko core"
-	"mass" 140
-	"outfit space" -140
-	"energy generation" 65
-	"heat generation" 120
-	"energy capacity" 5000
-	description "Donko's experimental power generator"
 
 outfit "OSK3 Boarding Shield"
 	category "Hand to Hand"
