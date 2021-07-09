@@ -1,0 +1,67 @@
+mission "First Contact: Dels Dardornai"
+	landing
+	invisible
+	source
+		government "Dels Dardornai"
+
+	on offer
+		conversation
+			`(First Contact: Dels Dardornai) (Under construction)`
+
+	on complete
+		#log "Factions" "Dels Dardornai" `(Under construction)`
+		#event "dels dardornai label"
+
+
+mission "First Contact: Dels Kaote"
+	landing
+	invisible
+	source
+		government "Dels Kaote"
+
+	on offer
+		conversation
+			`(First Contact: Dels Kaote) (Under construction)`
+
+	on complete
+		#log "Factions" "Dels Kaote" `(Under construction)`
+		#event "dels kaote label"
+
+
+mission "First Contact: Dels Ufulre"
+	landing
+	invisible
+	source
+		government "Dels Ufulre"
+
+	on offer
+		conversation
+			`(First Contact: Dels Ufulre) (Under construction)`
+
+	on complete
+		#log "Factions" "Dels Ufulre" `(Under construction)`
+		#event "dels ufulre label"
+
+
+#
+# Debug Tools
+#
+
+mission "gw: dels mission reset"
+	name "GW: Dels Mission Reset"
+	job
+	repeat
+	to offer
+		has "gw: debug mode"
+	description "Reset all Dels missions and events."
+	source
+		government "cheat" "Dels" "Dels Dardornai" "Dels Kaote" "Dels Ufulre"
+	on accept
+		dialog phrase "gw mission reset"
+		clear "First Contact: Dels Dardornai: declined"
+		clear "First Contact: Dels Dardornai: offered"
+		clear "First Contact: Dels Kaote: declined"
+		clear "First Contact: Dels Kaote: offered"
+		clear "First Contact: Dels Ufulre: declined"
+		clear "First Contact: Dels Ufulre: offered"
+		fail
