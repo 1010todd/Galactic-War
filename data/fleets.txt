@@ -297,23 +297,32 @@ fleet "Mukube Merchant"
 		"Kelranter"
 
 fleet "Narpul Merchant"
-	government "Erader Mukube"
-	names "Erader Mukube Merchant"
+	government "Erader Narpul"
+	names "Erader Narpul Merchant"
 	cargo 1
 	personality
 		opportunistic
 		timid
-		confusion 40
+		confusion 35
 	variant 50
 		"Raular"
+	variant 40
+		"Raular"
+		"Nukrau"
 	variant 60
 		"Genterrac"
+	variant 50
+		"Genterrac"
+		"Nukrau"
 	variant 40
 		"Raular" 2
+		"Nukrau"
 	variant 50
 		"Genterrac" 2
+		"Nukrau"
 	variant 40
 		"Genterrac" 3
+		"Nukrau" 2
 	variant 10
 		"Raular" 3
 	variant 10
@@ -322,6 +331,16 @@ fleet "Narpul Merchant"
 		"Kelranter"
 	variant 1
 		"Sorgeldaz"
+	variant 30
+		"Kunshera"
+	variant 20
+		"Kunshera" 2
+	variant 20
+		"Kunshera"
+		"Nukrau" 2
+	variant 17
+		"Kunshera" 2
+		"Nukrau" 5
 		
 fleet "Recon Ultaka"
 	government "Ultaka"
