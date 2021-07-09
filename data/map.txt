@@ -731,6 +731,7 @@ system Aetrelr
 	fleet "Darua Navy" 1000
 	fleet "Darua Merchant" 600
 	fleet Ignaggen 800
+	fleet "Kasiva Merchant" 1600
 	object
 		sprite star/m8
 		period 10
@@ -1108,6 +1109,7 @@ system Aifveva
 	trade Metal 241
 	trade Plastic 405
 	fleet "Mukube Merchant" 600
+	fleet "Kasiva Merchant" 900
 	object
 		sprite star/k0
 		distance 36.29
@@ -5502,6 +5504,7 @@ system Asudama
 	trade Metal 272
 	trade Plastic 307
 	fleet "Kasiva Merchant" 700
+	fleet "Kasiva Navy" 1100
 	object
 		sprite star/g0
 		period 10
@@ -7042,7 +7045,8 @@ system Bessior
 	trade Medical 661
 	trade Metal 379
 	trade Plastic 440
-	fleet "Kager Ignaggen" 1000
+	fleet "Kager Ignaggen" 1400
+	fleet Ignaggen 800
 	object
 		sprite star/m4
 		period 10
@@ -7326,6 +7330,7 @@ system Biserine
 	trade Metal 486
 	trade Plastic 447
 	fleet "Kasiva Merchant" 700
+	fleet "Kasiva Navy" 1200
 	object
 		sprite star/b5
 		period 10
@@ -8609,6 +8614,7 @@ system Bushoni
 	trade Plastic 321
 	fleet "Darua Merchant" 800
 	fleet "Kasiva Merchant" 800
+	fleet "Kasiva Navy" 1200
 	object
 		sprite star/g5
 		period 10
@@ -8670,6 +8676,8 @@ system Busirvek
 	fleet "Darua Navy" 1000
 	fleet "Darua Miner" 1200
 	fleet "Darua Merchant" 600
+	fleet "Kasiva Merchant" 1500
+	fleet Ignaggen 1500
 	object
 		sprite star/g0
 		period 10
@@ -11411,6 +11419,10 @@ system Deamulur
 	trade Plastic 450
 	fleet "Dels Frontier Merchant" 700
 	fleet "Dels Dardornai" 1300
+	fleet Ignaggen 1000
+	fleet "Mukube Merchant" 1200
+	fleet "Kasiva Merchant" 1000
+	fleet "Darua Merchant" 1000
 	object
 		sprite star/k0
 		period 10
@@ -11418,7 +11430,7 @@ system Deamulur
 		sprite planet/rock6
 		distance 151.24
 		period 33.7239
-	object
+	object Musaluku
 		sprite planet/ocean6
 		distance 438.08
 		period 166.253
@@ -12718,6 +12730,9 @@ system Dekuoda
 	trade Medical 621
 	trade Metal 274
 	trade Plastic 464
+	fleet "Kasiva Merchant" 700
+	fleet "Kasiva Navy" 1000
+	fleet "Mukube Merchant" 1000
 	object
 		sprite star/k0
 		period 10
@@ -12842,6 +12857,8 @@ system Delgelre
 	fleet "Kager Ignaggen" 2500
 	fleet "Dels Dardornai" 1500
 	fleet "Dels Frontier Merchant" 700
+	fleet "Kasiva Merchant" 1200
+	fleet Ignaggen 1000
 	object
 		sprite star/g5
 		distance 41.7441
@@ -14115,26 +14132,30 @@ system Dobareen
 	object
 		sprite star/m0
 		period 10
-	object
+	object Kuadeonu
 		sprite planet/rock4
-		distance 170.29
-		period 49.69
+		distance 207.525
+		period 66.8482
+		offset 77.3673
 	object
 		sprite planet/gas6
-		distance 729.05
-		period 440.171
+		distance 766.285
+		period 474.319
+		offset 93.5598
 		object
 			sprite planet/dust5
 			distance 311
 			period 14.0089
 	object
 		sprite planet/rhea
-		distance 1255.74
-		period 995.026
+		distance 1292.97
+		period 1039.61
+		offset 24.6539
 	object
 		sprite planet/gas4
-		distance 1893.95
-		period 1843.05
+		distance 1931.18
+		period 1897.67
+		offset 8.93339
 		object
 			sprite planet/lava0
 			distance 264
@@ -14952,10 +14973,13 @@ system Dukelgar
 	trade Metal 352
 	trade Plastic 482
 	fleet "Kager Ignaggen" 2000
-	fleet "Dels Dardornai" 1500
+	fleet "Dels Dardornai" 1200
 	fleet "Dels Frontier Merchant" 700
 	fleet Ignaggen 800
 	fleet "Darua Navy" 1600
+	fleet "Mukube Merchant" 1200
+	fleet "Kasiva Merchant" 1000
+	fleet "Darua Merchant" 700
 	object
 		sprite star/k0
 		period 10
@@ -15935,6 +15959,7 @@ system Durkanda
 	trade Plastic 260
 	fleet "Darua Navy" 1000
 	fleet "Darua Merchant" 800
+	fleet "Kasiva Merchant" 900
 	object
 		sprite star/a5
 		distance 19.3208
@@ -16891,6 +16916,7 @@ system Easterla
 	fleet "Darua Navy" 1000
 	fleet "Darua Merchant" 600
 	fleet Ignaggen 1200
+	fleet "Kasiva Merchant" 1200
 	object
 		sprite star/g0
 		distance 12.1111
@@ -17801,6 +17827,7 @@ system Ekiltador
 	fleet "Darua Miner" 1200
 	fleet "Darua Merchant" 800
 	fleet "Dels Frontier Merchant" 1000
+	fleet "Kasiva Merchant" 1200
 	object
 		sprite star/m0
 		period 10
@@ -17922,6 +17949,7 @@ system Elbasor
 	trade Plastic 258
 	fleet "Darua Navy" 1000
 	fleet "Darua Merchant" 600
+	fleet "Kasiva Merchant" 1200
 	object
 		sprite star/g5
 		period 10
@@ -23982,6 +24010,7 @@ system Gelgolunel
 	fleet Ignaggen 700
 	fleet "Kager Ignaggen" 1000
 	fleet "Darua Merchant" 800
+	fleet "Kasiva Merchant" 1600
 	object
 		sprite star/k5
 		period 10
@@ -24251,6 +24280,9 @@ system Gellugardel
 	trade Plastic 430
 	fleet "Kager Ignaggen" 1000
 	fleet Ignaggen 800
+	fleet "Dels Frontier Merchant" 700
+	fleet "Kasiva Merchant" 1200
+	fleet "Darua Merchant" 1200
 	object
 		sprite star/k0
 		period 10
@@ -28606,6 +28638,7 @@ system Haperwagan
 	fleet "Mukube Merchant" 800
 	fleet "Dels Frontier Merchant" 700
 	fleet Ignaggen 1000
+	fleet "Kasiva Merchant" 800
 	object
 		sprite star/m8
 		period 10
@@ -29732,6 +29765,8 @@ system Houtar
 	trade Metal 506
 	trade Plastic 500
 	fleet "Darua Merchant" 800
+	fleet "Kasiva Merchant" 600
+	fleet "Kasiva Navy" 1200
 	object
 		sprite star/g0
 		period 10
@@ -30793,6 +30828,8 @@ system Ieongeler
 	trade Metal 391
 	trade Plastic 439
 	fleet "Kager Ignaggen" 1000
+	fleet Ignaggen 800
+	fleet "Dels Frontier Merchant" 1200
 	object
 		sprite star/g5
 		distance 45.5299
@@ -31586,6 +31623,8 @@ system Ikashiva
 	trade Plastic 509
 	fleet "Darua Merchant" 800
 	fleet "Kasiva Merchant" 700
+	fleet "Kasiva Navy" 1000
+	fleet "Mukube Merchant" 1000
 	object
 		sprite star/k5
 		period 10
@@ -32755,6 +32794,7 @@ system Immoraal
 	fleet "Darua Navy" 800
 	fleet "Darua Merchant" 800
 	fleet "Kasiva Merchant" 800
+	fleet "Mukube Merchant" 1000
 	object
 		sprite star/m4
 		distance 41.5
@@ -33829,6 +33869,7 @@ system Ismalei
 	trade Metal 346
 	trade Plastic 290
 	fleet "Kasiva Merchant" 600
+	fleet "Kasiva Navy" 1200
 	object
 		sprite star/m0
 		period 10
@@ -35737,6 +35778,10 @@ system Kadukeeva
 	trade Plastic 450
 	fleet "Dels Frontier Merchant" 700
 	fleet "Dels Dardornai" 1200
+	fleet Ignaggen 1000
+	fleet "Mukube Merchant" 1200
+	fleet "Kasiva Merchant" 1000
+	fleet "Darua Merchant" 1200
 	object
 		sprite star/g5
 		distance 49.8498
@@ -36121,6 +36166,8 @@ system Kaishide
 	trade Metal 532
 	trade Plastic 515
 	fleet "Darua Merchant" 1200
+	fleet "Kasiva Merchant" 600
+	fleet "Kasiva Navy" 1000
 	object
 		sprite star/m4
 		period 10
@@ -36170,6 +36217,7 @@ system Kaisien
 	trade Metal 290
 	trade Plastic 309
 	fleet "Kasiva Merchant" 700
+	fleet "Kasiva Navy" 1000
 	object
 		sprite star/g0
 		distance 22.8571
@@ -38831,6 +38879,8 @@ system Keisha
 	trade Metal 297
 	trade Plastic 303
 	fleet "Kasiva Merchant" 600
+	fleet "Darua Merchant" 1500
+	fleet "Kasiva Navy" 1000
 	object
 		sprite star/k5
 		period 10
@@ -40203,6 +40253,7 @@ system Kerbukcamori
 	trade Plastic 309
 	fleet "Darua Navy" 1200
 	fleet "Darua Merchant" 800
+	fleet "Kasiva Merchant" 900
 	object
 		sprite star/g5
 		distance 34.8783
@@ -41283,6 +41334,8 @@ system Kiashimo
 	trade Medical 670
 	trade Metal 502
 	trade Plastic 444
+	fleet "Kasiva Merchant" 600
+	fleet "Kasiva Navy" 1000
 	object
 		sprite star/g5
 		distance 29.4603
@@ -42114,6 +42167,7 @@ system Kiorelga
 	trade Plastic 321
 	fleet "Kager Ignaggen" 1000
 	fleet Ignaggen 800
+	fleet "Dels Frontier Merchant" 700
 	object
 		sprite star/g0
 		distance 31.677
@@ -42563,6 +42617,8 @@ system Kisnoma
 	trade Medical 599
 	trade Metal 290
 	trade Plastic 309
+	fleet "Kasiva Merchant" 700
+	fleet "Kasiva Navy" 1200
 	object
 		sprite star/k5
 		period 10
@@ -42678,6 +42734,7 @@ system Kitrola
 	trade Metal 499
 	trade Plastic 434
 	fleet "Kasiva Merchant" 700
+	fleet "Kasiva Navy" 1300
 	object
 		sprite star/g5
 		period 10
@@ -42727,6 +42784,8 @@ system Kiushai
 	trade Medical 620
 	trade Metal 241
 	trade Plastic 405
+	fleet "Kasiva Merchant" 700
+	fleet "Kasiva Navy" 1200
 	object
 		sprite star/k5
 		period 10
@@ -42784,6 +42843,9 @@ system Kiyshun
 	trade Medical 728
 	trade Metal 507
 	trade Plastic 477
+	fleet "Kasiva Merchant" 600
+	fleet "Kasiva Navy" 900
+	fleet "Darua Merchant" 1000
 	object
 		sprite star/f0
 		period 10
@@ -48051,6 +48113,7 @@ system Kortenler
 	trade Plastic 275
 	fleet "Darua Navy" 1200
 	fleet "Darua Merchant" 700
+	fleet "Kasiva Merchant" 1500
 	object
 		sprite star/k0
 		period 10
@@ -48175,6 +48238,8 @@ system Kosidate
 	trade Metal 553
 	trade Plastic 513
 	fleet "Darua Merchant" 800
+	fleet "Kasiva Merchant" 600
+	fleet "Kasiva Navy" 1200
 	object
 		sprite star/k5
 		period 10
@@ -48374,6 +48439,8 @@ system Koudak
 	trade Medical 599
 	trade Metal 290
 	trade Plastic 309
+	fleet "Kasiva Navy" 1200
+	fleet "Kasiva Merchant" 600
 	object
 		sprite star/k5
 		distance 39.2811
@@ -50001,6 +50068,7 @@ system Kulvada
 	trade Metal 241
 	trade Plastic 405
 	fleet "Mukube Merchant" 700
+	fleet "Kasiva Merchant" 800
 	object
 		sprite star/f5
 		period 10
@@ -50891,6 +50959,8 @@ system Kyueirai
 	trade Metal 357
 	trade Plastic 502
 	fleet "Kasiva Merchant" 800
+	fleet "Kasiva Navy" 1000
+	fleet "Mukube Merchant" 1000
 	object
 		sprite star/g0
 		period 10
@@ -51599,6 +51669,7 @@ system Leinen
 	trade Metal 368
 	trade Plastic 306
 	fleet "Kasiva Merchant" 600
+	fleet "Kasiva Navy" 1200
 	object
 		sprite star/m4
 		period 10
@@ -53094,6 +53165,7 @@ system Liggaren
 	trade Plastic 292
 	fleet "Kager Ignaggen" 1000
 	fleet Ignaggen 800
+	fleet "Dels Frontier Merchant" 700
 	object
 		sprite star/g0
 		distance 28.283
@@ -54119,6 +54191,8 @@ system Lisihe
 	trade Metal 346
 	trade Plastic 290
 	fleet "Kasiva Merchant" 600
+	fleet "Kasiva Navy" 800
+	fleet "Darua Merchant" 1000
 	object
 		sprite star/m4
 		period 10
@@ -56342,6 +56416,9 @@ system Madou
 	trade Medical 677
 	trade Metal 308
 	trade Plastic 299
+	fleet "Kasiva Merchant" 600
+	fleet "Kasiva Navy" 1200
+	fleet "Darua Merchant" 1500
 	object
 		sprite star/m4
 		period 10
@@ -56349,22 +56426,26 @@ system Madou
 		sprite planet/rock3
 		distance 155.41
 		period 50.7387
-	object
+	object Kisyonre
 		sprite planet/cloud8
-		distance 319.77
-		period 149.754
+		distance 319.41
+		period 149.501
+		offset 355.412
 	object
 		sprite planet/titan
-		distance 857.98
-		period 658.168
+		distance 857.62
+		period 657.754
+		offset 359.564
 	object
 		sprite planet/gas6
-		distance 1624.19
-		period 1714.26
+		distance 1623.83
+		period 1713.69
+		offset 359.911
 	object
 		sprite planet/uranus
-		distance 3945
-		period 6489.21
+		distance 3944.64
+		period 6488.32
+		offset 359.99
 		object
 			sprite planet/rock17
 			distance 238
@@ -57043,6 +57124,7 @@ system Mairol
 	trade Metal 424
 	trade Plastic 347
 	fleet "Kasiva Merchant" 600
+	fleet "Kasiva Navy" 1300
 	object
 		sprite star/f5
 		distance 34.9893
@@ -59302,6 +59384,7 @@ system Marreion
 	trade Metal 277
 	trade Plastic 284
 	fleet "Kager Ignaggen" 1000
+	fleet "Dels Frontier Merchant" 1200
 	object
 		sprite star/g5
 		distance 48.2287
@@ -59801,6 +59884,8 @@ system Masklela
 	trade Metal 501
 	trade Plastic 318
 	fleet "Darua Navy" 1000
+	fleet "Kasiva Merchant" 1400
+	fleet "Darua Merchant" 600
 	object
 		sprite star/g0
 		distance 47.654
@@ -61338,6 +61423,8 @@ system Meigari
 	trade Metal 448
 	trade Plastic 501
 	fleet "Kasiva Merchant" 600
+	fleet "Kasiva Navy" 1000
+	fleet "Darua Merchant" 1000
 	object
 		sprite star/g0
 		distance 28.283
@@ -62793,6 +62880,8 @@ system Mettelen
 	trade Plastic 290
 	fleet "Darua Navy" 1200
 	fleet "Darua Miner" 1400
+	fleet "Kasiva Merchant" 1000
+	fleet "Darua Merchant" 600
 	object
 		sprite star/g0
 		period 10
@@ -63680,6 +63769,9 @@ system Mishive
 	trade Medical 671
 	trade Metal 249
 	trade Plastic 447
+	fleet "Kasiva Merchant" 700
+	fleet "Kasiva Navy" 1000
+	fleet "Mukube Merchant" 1000
 	object
 		sprite star/k0
 		period 10
@@ -63734,6 +63826,8 @@ system Misirga
 	trade Metal 386
 	trade Plastic 509
 	fleet "Kasiva Merchant" 700
+	fleet "Kasiva Navy" 1000
+	fleet "Darua Merchant" 800
 	object
 		sprite star/m8
 		period 10
@@ -64690,6 +64784,7 @@ system Modher'ai
 	trade Metal 529
 	trade Plastic 467
 	fleet "Kasiva Merchant" 800
+	fleet "Kasiva Navy" 1400
 	object
 		sprite star/f5
 		distance 7.51622
@@ -64750,6 +64845,7 @@ system Modiavi
 	trade Metal 272
 	trade Plastic 307
 	fleet "Kasiva Merchant" 700
+	fleet "Kasiva Navy" 1000
 	object
 		sprite star/g0
 		period 10
@@ -64814,6 +64910,7 @@ system Modolu
 	trade Metal 241
 	trade Plastic 405
 	fleet "Mukube Merchant" 600
+	fleet "Kasiva Merchant" 800
 	object
 		sprite star/k0
 		distance 50.5
@@ -65025,6 +65122,7 @@ system Mokorai
 	trade Metal 241
 	trade Plastic 405
 	fleet "Kasiva Merchant" 700
+	fleet "Kasiva Navy" 1200
 	object
 		sprite star/m0
 		period 10
@@ -65935,6 +66033,7 @@ system Mortarlen
 	trade Plastic 258
 	fleet "Darua Navy" 1200
 	fleet "Darua Merchant" 600
+	fleet "Kasiva Merchant" 1000
 	object
 		sprite star/k5
 		period 10
@@ -66399,6 +66498,7 @@ system Mteluen
 	fleet "Darua Navy" 1000
 	fleet "Darua Merchant" 600
 	fleet Ignaggen 800
+	fleet "Kasiva Merchant" 1600
 	object
 		sprite star/k5
 		period 10
@@ -67291,6 +67391,7 @@ system Mukkaedu
 	fleet "Mukube Merchant" 800
 	fleet "Kager Ignaggen" 2000
 	fleet "Darua Navy" 1500
+	fleet "Kasiva Merchant" 800
 	object
 		sprite star/k0
 		period 10
@@ -67648,7 +67749,9 @@ system Mukuate
 	trade Medical 739
 	trade Metal 513
 	trade Plastic 481
-	fleet "Darua Merchant" 1200
+	fleet "Darua Merchant" 1000
+	fleet "Kasiva Merchant" 600
+	fleet "Kasiva Navy" 900
 	object
 		sprite star/m0
 		period 10
@@ -68018,6 +68121,8 @@ system Murasai
 	trade Metal 415
 	trade Plastic 380
 	fleet "Darua Merchant" 800
+	fleet "Kasiva Merchant" 600
+	fleet "Kasiva Navy" 1000
 	object
 		sprite star/k0
 		distance 41.0705
@@ -68821,6 +68926,8 @@ system Mysuken
 	trade Metal 445
 	trade Plastic 456
 	fleet "Darua Merchant" 800
+	fleet "Kasiva Merchant" 600
+	fleet "Kasiva Navy" 1000
 	object
 		sprite star/k5
 		period 10
@@ -70983,6 +71090,7 @@ system Nerkondir
 	fleet "Mukube Merchant" 800
 	fleet "Dels Frontier Merchant" 700
 	fleet Ignaggen 1000
+	fleet "Kasiva Merchant" 1500
 	object
 		sprite star/k5
 		period 10
@@ -72569,6 +72677,7 @@ system Norsicor
 	trade Plastic 405
 	fleet "Darua Navy" 1000
 	fleet "Darua Merchant" 700
+	fleet "Kasiva Merchant" 800
 	object
 		sprite star/f0
 		period 10
@@ -73727,6 +73836,7 @@ system Nyugokai
 	trade Metal 357
 	trade Plastic 502
 	fleet "Kasiva Merchant" 700
+	fleet "Kasiva Navy" 1000
 	object
 		sprite star/k0
 		period 10
@@ -76574,6 +76684,7 @@ system Peltarven
 	fleet "Darua Navy" 800
 	fleet "Darua Miner" 1400
 	fleet "Dels Frontier Merchant" 1000
+	fleet "Kasiva Merchant" 1400
 	object
 		sprite star/m8
 		period 10
@@ -87049,6 +87160,7 @@ system Seilerei
 	trade Plastic 326
 	fleet "Darua Merchant" 800
 	fleet "Kasiva Merchant" 800
+	fleet "Kasiva Navy" 1200
 	object
 		sprite star/f5
 		distance 36.3248
@@ -87196,6 +87308,8 @@ system Seishen
 	trade Metal 389
 	trade Plastic 296
 	fleet "Kasiva Merchant" 600
+	fleet "Kasiva Navy" 1000
+	fleet "Darua Merchant" 1500
 	object
 		sprite star/g5
 		period 10
@@ -87640,6 +87754,7 @@ system Serkakel
 	trade Plastic 260
 	fleet "Darua Navy" 1000
 	fleet "Darua Merchant" 600
+	fleet "Kasiva Merchant" 800
 	object
 		sprite star/g0
 		period 10
@@ -87870,6 +87985,7 @@ system Shaporvah
 	trade Metal 241
 	trade Plastic 405
 	fleet "Narpul Merchant" 800
+	fleet Ignaggen 1000
 	object
 		sprite star/g5
 		distance 48
@@ -88331,6 +88447,7 @@ system Sikerel
 	trade Plastic 317
 	fleet "Darua Merchant" 800
 	fleet "Kasiva Merchant" 700
+	fleet "Kasiva Navy" 1200
 	object
 		sprite star/k5
 		period 10
@@ -89148,6 +89265,8 @@ system Sokeri
 	trade Medical 556
 	trade Metal 272
 	trade Plastic 307
+	fleet "Kasiva Merchant" 600
+	fleet "Kasiva Navy" 1000
 	object
 		sprite star/k5
 		period 10
@@ -91317,6 +91436,7 @@ system Todike
 	trade Metal 241
 	trade Plastic 405
 	fleet "Mukube Merchant" 700
+	fleet "Kasiva Merchant" 800
 	object
 		sprite star/m4
 		period 10
@@ -91375,6 +91495,9 @@ system Tolrevaan
 	trade Metal 530
 	trade Plastic 359
 	fleet "Darua Navy" 1000
+	fleet "Darua Merchant" 600
+	fleet "Kasiva Merchant" 1800
+	fleet Ignaggen 1200
 	object
 		sprite star/m0
 		period 10
@@ -91578,6 +91701,7 @@ system Tubora
 	trade Metal 241
 	trade Plastic 405
 	fleet "Mukube Merchant" 700
+	fleet "Kasiva Merchant" 800
 	object
 		sprite star/g5
 		distance 36.9101
@@ -92595,6 +92719,8 @@ system Ukdelare
 	trade Plastic 450
 	fleet "Dels Frontier Merchant" 700
 	fleet "Dels Dardornai" 1200
+	fleet "Darua Merchant" 1000
+	fleet Ignaggen 1000
 	object
 		sprite star/g0
 		distance 16.5197
@@ -93332,6 +93458,7 @@ system Ulsenmor
 	trade Plastic 424
 	fleet "Darua Navy" 1000
 	fleet "Darua Merchant" 600
+	fleet "Kasiva Merchant" 1000
 	object
 		sprite star/f5
 		period 10
@@ -93589,6 +93716,8 @@ system Uramase
 	trade Metal 408
 	trade Plastic 476
 	fleet "Darua Navy" 1000
+	fleet "Kasiva Merchant" 1000
+	fleet "Darua Merchant" 600
 	object
 		sprite star/b5
 		distance 6.71819
@@ -93653,6 +93782,8 @@ system Uraten
 	trade Metal 485
 	trade Plastic 389
 	fleet "Darua Navy" 1000
+	fleet "Darua Merchant" 600
+	fleet "Kasiva Merchant" 1000
 	object
 		sprite star/g0
 		period 10
@@ -94236,6 +94367,7 @@ system Uronuar
 	fleet Ignaggen 700
 	fleet "Kager Ignaggen" 1000
 	fleet "Darua Merchant" 1000
+	fleet "Kasiva Merchant" 1800
 	object
 		sprite star/g5
 		period 10
@@ -94518,7 +94650,7 @@ system Urtelco
 			period 22.6168
 
 system Urtenlo
-	pos -49719.6 -55534.6
+	pos -49723 -55506.4
 	government "Erader Darua"
 	habitable 320
 	link Murasai
@@ -94539,6 +94671,7 @@ system Urtenlo
 	trade Plastic 378
 	fleet "Darua Navy" 1000
 	fleet "Darua Merchant" 600
+	fleet "Kasiva Merchant" 800
 	object
 		sprite star/m0
 		period 10
@@ -97642,6 +97775,8 @@ system Vishil
 	trade Metal 502
 	trade Plastic 444
 	fleet "Kasiva Merchant" 600
+	fleet "Kasiva Navy" 800
+	fleet "Darua Merchant" 1000
 	object
 		sprite star/g0
 		distance 26.5143
@@ -99410,6 +99545,7 @@ system Vunuke
 	trade Metal 241
 	trade Plastic 405
 	fleet "Mukube Merchant" 700
+	fleet "Kasiva Merchant" 800
 	object
 		sprite star/k0
 		distance 39.2721
@@ -100831,6 +100967,7 @@ system Yugaida
 	trade Metal 272
 	trade Plastic 307
 	fleet "Kasiva Merchant" 700
+	fleet "Kasiva Navy" 1200
 	object
 		sprite star/g5
 		distance 32.5079
@@ -100895,6 +101032,9 @@ system Yugellar
 	trade Plastic 389
 	fleet "Kager Ignaggen" 1000
 	fleet Ignaggen 800
+	fleet "Dels Frontier Merchant" 1000
+	fleet "Kasiva Merchant" 1200
+	fleet "Darua Merchant" 1200
 	object
 		sprite star/m0
 		period 10
@@ -100902,22 +101042,26 @@ system Yugellar
 		sprite planet/rock18
 		distance 157.96
 		period 44.3921
-	object
+	object Asegllegar
 		sprite planet/forest6
-		distance 553.6
-		period 291.259
+		distance 498.479
+		period 248.86
+		offset 30.9012
 	object
 		sprite planet/rock8
-		distance 755.24
-		period 464.101
+		distance 700.119
+		period 414.232
+		offset 216.182
 	object
 		sprite planet/dust1
-		distance 1679.53
-		period 1539.1
+		distance 1624.41
+		period 1463.96
+		offset 341.51
 	object
 		sprite planet/luna
-		distance 2091.77
-		period 2139.22
+		distance 2036.65
+		period 2055.23
+		offset 349.408
 
 system Yurtanlo
 	pos -49922.2 -55536.8
@@ -101582,6 +101726,13 @@ planet Arulhed
 	spaceport .
 	outfitter "Erader Ammo"
 	outfitter "Makerurader Ammo"
+
+planet Asegllegar
+	landscape land/dmottl5
+	description .
+	spaceport .
+	shipyard "Ignaggen Small"
+	outfitter "Ignaggen Basic"
 
 planet Aserenar
 	landscape land/fog1
@@ -103217,6 +103368,14 @@ planet Kisaleran
 planet Kisnyr
 	landscape land/mountain14-sfiera
 
+planet Kisyonre
+	landscape land/fields13-sfiera
+	description .
+	spaceport .
+	shipyard "Erader Basic"
+	shipyard "Kasiva Basic"
+	outfitter "Erader Basic"
+
 planet Ko'ami
 	landscape land/valley1
 	description .
@@ -103411,6 +103570,13 @@ planet Ksazauila
 planet Ku'dulrena
 	attributes station
 	landscape land/sivael9
+	description .
+	spaceport .
+	outfitter "Dels Ammo"
+
+planet Kuadeonu
+	attributes mining
+	landscape land/badlands2
 	description .
 	spaceport .
 	outfitter "Dels Ammo"
@@ -103901,6 +104067,8 @@ planet "Maisila Ksan"
 	description .
 	spaceport .
 	shipyard "Erader Basic"
+	shipyard "Kasiva Basic"
+	shipyard "Kasiva Advanced"
 	outfitter "Erader Basic"
 
 planet Makaree
@@ -104134,6 +104302,8 @@ planet Minraise
 	description `A world where waterbodies form lakes that scattered out through the lands. Though there is very little vegetation around. Only a few lake appears to be surrounded by some plants. `
 	description `	Primary industry here appears to be mining and smeltery.`
 	spaceport .
+	shipyard "Erader Basic"
+	shipyard "Kasiva Basic"
 	outfitter "Erader Basic"
 
 planet Misrzinal
@@ -104144,15 +104314,21 @@ planet Misrzinal
 	"required reputation" 1
 
 planet Misushal
-	landscape land/beach1
+	attributes fishing
+	landscape land/beach4
 	description .
 	spaceport .
+	shipyard "Erader Basic"
+	shipyard "Kasiva Basic"
 	outfitter "Erader Basic"
 
 planet Miyanis
 	landscape land/dmottl3
 	description .
 	spaceport .
+	shipyard "Erader Basic"
+	shipyard "Kasiva Basic"
+	shipyard "Kasiva Advanced"
 	outfitter "Erader Basic"
 
 planet Moer
@@ -104208,6 +104384,12 @@ planet Munghani
 	description .
 	spaceport .
 	outfitter "Makerurader Ammo"
+
+planet Musaluku
+	landscape land/dmottl1
+	description .
+	spaceport .
+	outfitter "Dels Ammo"
 
 planet Mveleeken
 	landscape land/lava2
