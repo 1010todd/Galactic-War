@@ -1286,6 +1286,60 @@ system Ailirla
 		period 2576.14
 		offset 69.0111
 
+system Ainsarl
+	pos -52757.5 -53836.3
+	government "Tehru Insker"
+	habitable 625
+	belt 1292
+	link Heruhlrahn
+	link Kulhyran
+	link Morynak
+	asteroids "small rock" 3 3.375
+	asteroids "medium rock" 4 2.88
+	asteroids "large rock" 6 3.375
+	asteroids "medium metal" 1 2.25
+	asteroids "large metal" 5 2.43
+	minables lead 1 5.7895
+	minables titanium 1 3.70658
+	minables uranium 3 4.12731
+	trade Clothing 239
+	trade Electronics 788
+	trade Equipment 413
+	trade Food 234
+	trade "Heavy Metals" 1208
+	trade Industrial 555
+	trade "Luxury Goods" 1001
+	trade Medical 837
+	trade Metal 270
+	trade Plastic 299
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/lava2
+		distance 132.29
+		period 24.345
+	object
+		sprite planet/ice6
+		distance 463.54
+		period 159.68
+	object
+		sprite planet/cloud8
+		distance 684.03
+		period 286.242
+	object
+		sprite planet/gas3
+		distance 1796.03
+		period 1217.84
+		object
+			sprite planet/ice8
+			distance 307
+			period 13.7395
+		object
+			sprite planet/io
+			distance 420
+			period 21.9856
+
 system Akaima
 	pos -51313 -56244.7
 	government "Kroom Kanai"
@@ -3457,7 +3511,7 @@ system Alkurud
 	trade Metal 418
 	trade Plastic 356
 	fleet "Dels Outward Merchant" 800
-	fleet "Dels Kaote" 1000
+	fleet "Dels Kaote" 700
 	fleet "Dels Ufulre Raid" 2500
 	object
 		sprite star/m4
@@ -4586,6 +4640,7 @@ system Arkkreil
 	belt 1260
 	link Insvishr
 	link Liikuare
+	link Skikella
 	asteroids "large metal" 2 10.584
 	trade Clothing 239
 	trade Electronics 788
@@ -5175,6 +5230,68 @@ system Asailer
 		sprite planet/gas0
 		distance 2083.92
 		period 694.998
+
+system Ashurla
+	pos -52876.8 -53867.9
+	government "Tehru Insker"
+	habitable 233.28
+	belt 1801
+	link Kshenryr
+	link Sahlre
+	asteroids "small rock" 37 3.838
+	asteroids "medium rock" 31 4.598
+	asteroids "large rock" 13 2.242
+	asteroids "small metal" 5 4.218
+	asteroids "medium metal" 1 2.812
+	asteroids "large metal" 5 4.522
+	minables aluminum 3 6.65591
+	minables copper 14 7.06309
+	minables iron 21 7.20404
+	trade Clothing 239
+	trade Electronics 788
+	trade Equipment 413
+	trade Food 234
+	trade "Heavy Metals" 1208
+	trade Industrial 555
+	trade "Luxury Goods" 1001
+	trade Medical 837
+	trade Metal 270
+	trade Plastic 299
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/lava2
+		distance 131.69
+		period 39.5777
+	object
+		sprite planet/cloud7
+		distance 399.7
+		period 209.277
+	object
+		sprite planet/rock12
+		distance 605.7
+		period 390.398
+	object
+		sprite planet/jupiter
+		distance 1921.54
+		period 2205.95
+		object
+			sprite planet/oberon
+			distance 244
+			period 11.977
+		object
+			sprite planet/lava0
+			distance 338
+			period 19.5271
+		object
+			sprite planet/europa
+			distance 500
+			period 35.1331
+		object
+			sprite planet/dust4
+			distance 646
+			period 51.5953
 
 system Asinaki
 	pos -51733.1 -56545.8
@@ -7111,6 +7228,7 @@ system Bhakrul
 	trade Medical 837
 	trade Metal 270
 	trade Plastic 299
+	fleet "Tehru Insker Patrol" 1000
 	object
 		sprite star/f5
 		distance 19.9705
@@ -7976,6 +8094,7 @@ system Braton
 	trade Medical 758
 	trade Metal 413
 	trade Plastic 324
+	fleet "Tehru Insker Patrol" 1000
 	object
 		sprite star/k0
 		distance 48.5379
@@ -13144,6 +13263,8 @@ system Delukre
 	trade Plastic 473
 	fleet "Dels Dardornai" 800
 	fleet "Kager Ignaggen" 20000
+	fleet "Dels Frontier Merchant" 800
+	fleet "Kasiva Merchant" 1400
 	object
 		sprite star/m0
 		period 10
@@ -13684,6 +13805,7 @@ system Deuqou
 	trade Metal 525
 	trade Plastic 337
 	fleet "Dels Outward Merchant" 600
+	fleet "Dels Kaote" 600
 	object
 		sprite star/a5
 		distance 8.55485
@@ -14129,6 +14251,7 @@ system Dobareen
 	fleet "Dels Dardornai" 600
 	fleet "Kager Ignaggen" 30000
 	fleet "Dels Frontier Merchant" 800
+	fleet "Kasiva Merchant" 1800
 	object
 		sprite star/m0
 		period 10
@@ -17214,6 +17337,67 @@ system Egnorel
 		distance 2340.9
 		period 936.538
 
+system Ehlrena
+	pos -52915.1 -53678.8
+	government "Tehru Insker"
+	habitable 625
+	belt 1208
+	link Uklayel
+	link Velsunra
+	asteroids "medium rock" 4 2.275
+	asteroids "large rock" 1 4.29
+	asteroids "small metal" 5 4.745
+	asteroids "medium metal" 112 3.055
+	asteroids "large metal" 55 4.5825
+	minables copper 34 5.84232
+	minables lead 16 6.90164
+	minables silver 17 6.11339
+	trade Clothing 239
+	trade Electronics 788
+	trade Equipment 413
+	trade Food 234
+	trade "Heavy Metals" 1208
+	trade Industrial 555
+	trade "Luxury Goods" 1001
+	trade Medical 837
+	trade Metal 270
+	trade Plastic 299
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/rock10
+		distance 182
+		period 39.285
+	object
+		sprite planet/forest1
+		distance 638.69
+		period 258.259
+		object
+			sprite planet/europa
+			distance 150
+			period 20.5761
+	object
+		sprite planet/gas6
+		distance 1326.9
+		period 773.352
+		object
+			sprite planet/luna
+			distance 305
+			period 13.6055
+		object
+			sprite planet/ice0
+			distance 405
+			period 20.8184
+	object
+		sprite planet/gas3
+		distance 3079.26
+		period 2733.94
+		object
+			sprite planet/oberon
+			distance 296
+			period 13.0078
+
 system Eicegu
 	pos -50628.9 -55267.3
 	government Ignaggen
@@ -17765,6 +17949,7 @@ system Ekdurvel
 	trade Metal 303
 	trade Plastic 488
 	fleet "Dels Outward Merchant" 1000
+	fleet "Dels Kaote" 1400
 	object
 		sprite star/g0
 		period 10
@@ -17786,12 +17971,19 @@ system Ekdurvel
 			period 12.5005
 	object
 		sprite planet/gas12
-		distance 1358.11
-		period 609.187
+		distance 1344.5
+		period 600.053
+		offset 357.28
+		object "Silre Duyee"
+			sprite planet/station3
+			distance 306
+			period 14.0594
+			offset 58.1992
 	object
 		sprite planet/gas3
-		distance 2540.47
-		period 1558.54
+		distance 2670.86
+		period 1680.06
+		offset 17.7298
 		object
 			sprite planet/dust0
 			distance 296
@@ -19944,6 +20136,7 @@ system Eududekor
 	trade Metal 450
 	trade Plastic 384
 	fleet "Dels Outward Merchant" 700
+	fleet "Dels Kaote" 800
 	object
 		sprite star/k0
 		distance 46
@@ -28995,6 +29188,75 @@ system Hellma
 			distance 210
 			period 16.0187
 
+system Helsain
+	pos -52867.8 -53970.9
+	government "Tehru Insker"
+	habitable 625
+	belt 1985
+	link Hsiorul
+	link Kilsaynol
+	asteroids "small rock" 18 5.2299
+	asteroids "medium rock" 1 2.4921
+	asteroids "large rock" 18 5.1597
+	asteroids "small metal" 10 3.3345
+	asteroids "medium metal" 39 1.8954
+	asteroids "large metal" 55 4.8789
+	minables aluminum 9 4.05597
+	minables titanium 1 5.77134
+	trade Clothing 239
+	trade Electronics 788
+	trade Equipment 413
+	trade Food 234
+	trade "Heavy Metals" 1208
+	trade Industrial 555
+	trade "Luxury Goods" 1001
+	trade Medical 837
+	trade Metal 270
+	trade Plastic 299
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/mars
+		distance 147.16
+		period 28.5631
+	object
+		sprite planet/rock11
+		distance 430.25
+		period 142.791
+	object
+		sprite planet/rock19
+		distance 635.34
+		period 256.23
+	object
+		sprite planet/lava1
+		distance 821.23
+		period 376.545
+	object
+		sprite planet/forest2
+		distance 1081.47
+		period 569.039
+	object
+		sprite planet/rock14
+		distance 1281.16
+		period 733.711
+	object
+		sprite planet/desert0
+		distance 1469.8
+		period 901.586
+	object
+		sprite planet/gas17
+		distance 2399.24
+		period 1880.31
+		object
+			sprite planet/rock17
+			distance 204
+			period 12.4485
+		object
+			sprite planet/dust5
+			distance 308
+			period 23.094
+
 system Heokos
 	pos -44802.2 -58216.9
 	government Ultaka
@@ -29148,6 +29410,63 @@ system Heosli
 		distance 3837.06
 		period 4606.74
 
+system Heruhlrahn
+	pos -52819.9 -53856.3
+	government "Tehru Insker"
+	habitable 2795
+	belt 1698
+	link Ainsarl
+	link Kshenryr
+	link Kulhyran
+	link Sahlre
+	asteroids "small metal" 4 6
+	asteroids "medium metal" 2 5.6
+	asteroids "large metal" 1 5.65
+	minables iron 1 6.05164
+	trade Clothing 239
+	trade Electronics 788
+	trade Equipment 413
+	trade Food 234
+	trade "Heavy Metals" 1208
+	trade Industrial 555
+	trade "Luxury Goods" 1001
+	trade Medical 837
+	trade Metal 270
+	trade Plastic 299
+	object
+		sprite star/f5
+		distance 51.7782
+		period 11.7362
+		offset 180
+	object
+		sprite star/g0
+		distance 82.2218
+		period 11.7362
+	object
+		sprite planet/europa
+		distance 201.062
+		period 21.5707
+	object
+		sprite planet/lava1
+		distance 360.062
+		period 51.6934
+	object
+		sprite planet/rock12
+		distance 830.302
+		period 181.019
+	object
+		sprite planet/gas7
+		distance 2102.71
+		period 729.523
+		object
+			sprite planet/desert4
+			distance 248
+			period 13.8934
+		object
+			sprite planet/dust1
+			distance 361
+			period 24.4001
+
 system Hethurel
 	pos -52650.2 -54428.7
 	government "Tehru Insker"
@@ -29172,6 +29491,8 @@ system Hethurel
 	trade Medical 687
 	trade Metal 329
 	trade Plastic 397
+	fleet "Tehru Insker Merchant" 800
+	fleet "Tehru Insker Patrol" 1000
 	object
 		sprite star/g5
 		period 10
@@ -29864,7 +30185,9 @@ system Hsiorul
 	government "Tehru Insker"
 	habitable 560.92
 	belt 1988
+	link Helsain
 	link Insvishr
+	link Kshenryr
 	asteroids "small rock" 4 2.1528
 	asteroids "medium rock" 14 3.1878
 	asteroids "large rock" 38 4.7196
@@ -30462,6 +30785,65 @@ system Hurrei
 			distance 286.609
 			period 12.7444
 			offset 134.07
+
+system Hykuanir
+	pos -52892.5 -53758.1
+	government "Tehru Insker"
+	habitable 625
+	belt 1245
+	link Sahlre
+	link Uklayel
+	link Velsunra
+	asteroids "small rock" 4 3.5424
+	asteroids "medium rock" 22 1.6992
+	asteroids "large rock" 7 2.304
+	asteroids "small metal" 2 2.4192
+	asteroids "medium metal" 100 3.3696
+	asteroids "large metal" 20 4.2912
+	minables copper 8 6.33028
+	minables lead 22 5.26299
+	minables titanium 10 5.34927
+	trade Clothing 239
+	trade Electronics 788
+	trade Equipment 413
+	trade Food 234
+	trade "Heavy Metals" 1208
+	trade Industrial 555
+	trade "Luxury Goods" 1001
+	trade Medical 837
+	trade Metal 270
+	trade Plastic 299
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/lava3
+		distance 139.64
+		period 26.4019
+	object
+		sprite planet/rock1
+		distance 648.33
+		period 264.128
+		object
+			sprite planet/rock14
+			distance 161
+			period 23.7549
+	object
+		sprite planet/gas10
+		distance 1374.22
+		period 815.088
+	object
+		sprite planet/dust1
+		distance 1853.03
+		period 1276.27
+	object
+		sprite planet/gas5
+		distance 3936.28
+		period 3951.38
+		object
+			sprite planet/europa
+			distance 238
+			period 12.2099
 
 system "Iakve "
 	pos -50873.2 -54535.8
@@ -31961,7 +32343,7 @@ system Ikneai
 	trade Medical 696
 	trade Metal 423
 	trade Plastic 360
-	fleet "Tehru Insker Patrol" 600
+	fleet "Tehru Insker Patrol" 800
 	object
 		sprite star/m4
 		period 10
@@ -32902,6 +33284,7 @@ system Insvishr
 	belt 1901
 	link Arkkreil
 	link Hsiorul
+	link Skikella
 	asteroids "medium rock" 3 4.094
 	asteroids "large rock" 1 3.496
 	asteroids "large metal" 7 4.876
@@ -33286,6 +33669,7 @@ system Iotuai
 	trade Metal 508
 	trade Plastic 451
 	fleet "Tehru Insker Patrol" 600
+	fleet "Tehru Insker Merchant" 1000
 	object
 		sprite star/g0
 		period 10
@@ -33299,12 +33683,18 @@ system Iotuai
 		period 103.683
 	object
 		sprite planet/gas12
-		distance 794.79
-		period 272.726
+		distance 947.79
+		period 355.154
+		offset 321.832
+		object Anulyor
+			sprite planet/station3k
+			distance 311
+			period 14.4054
 	object
 		sprite planet/gas0
-		distance 2034.79
-		period 1117.19
+		distance 2340.79
+		period 1378.45
+		offset 64.1589
 		object
 			sprite planet/oberon
 			distance 270
@@ -34100,6 +34490,7 @@ system Ismura
 	trade Medical 837
 	trade Metal 270
 	trade Plastic 299
+	fleet "Tehru Insker Patrol" 1000
 	object
 		sprite star/m0
 		period 10
@@ -36631,6 +37022,64 @@ system "Kal Seka"
 			sprite planet/rhea
 			distance 522
 			period 34.9512
+
+system Kalneran
+	pos -52715.1 -53925.8
+	government "Tehru Insker"
+	habitable 745.92
+	belt 1833
+	link Morynak
+	asteroids "small rock" 93 3.8784
+	asteroids "medium rock" 75 4.3392
+	asteroids "large rock" 34 2.9952
+	asteroids "small metal" 3 5.6832
+	asteroids "medium metal" 4 2.2272
+	asteroids "large metal" 2 4.5312
+	minables lead 5 6.03005
+	minables uranium 5 7.09877
+	trade Clothing 239
+	trade Electronics 788
+	trade Equipment 413
+	trade Food 234
+	trade "Heavy Metals" 1208
+	trade Industrial 555
+	trade "Luxury Goods" 1001
+	trade Medical 837
+	trade Metal 270
+	trade Plastic 299
+	object
+		sprite star/k5
+		distance 51.4801
+		period 19.2524
+	object
+		sprite star/m0
+		distance 68.5199
+		period 19.2524
+		offset 180
+	object
+		sprite planet/cloud1
+		distance 255.33
+		period 59.7539
+	object
+		sprite planet/gas13
+		distance 892.57
+		period 390.551
+		object
+			sprite planet/rock3
+			distance 288
+			period 13.7975
+		object
+			sprite planet/rock0
+			distance 383
+			period 21.1596
+	object
+		sprite planet/gas1
+		distance 2138.57
+		period 1448.44
+		object
+			sprite planet/rock14
+			distance 246
+			period 15.4212
 
 system Kamla
 	pos -50692.7 -54832.8
@@ -40783,6 +41232,8 @@ system Kethren
 	trade Medical 826
 	trade Metal 252
 	trade Plastic 291
+	fleet "Tehru Insker Patrol" 1000
+	fleet "Tehru Insker Merchant" 800
 	object
 		sprite star/g5
 		distance 22.8312
@@ -40848,6 +41299,8 @@ system Kethurva
 	trade Medical 837
 	trade Metal 270
 	trade Plastic 299
+	fleet "Tehru Insker Merchant" 800
+	fleet "Tehru Insker Patrol" 1000
 	object
 		sprite star/m4
 		period 10
@@ -41911,6 +42364,61 @@ system Kiloris
 			distance 208
 			period 15.7904
 			offset 8.44992
+
+system Kilsaynol
+	pos -52886.8 -53919.9
+	government "Tehru Insker"
+	habitable 486.68
+	belt 1418
+	link Helsain
+	link Kshenryr
+	asteroids "small rock" 29 1.1484
+	asteroids "medium rock" 35 1.3266
+	asteroids "large rock" 42 1.881
+	asteroids "medium metal" 36 2.376
+	asteroids "large metal" 2 2.7918
+	minables lead 33 3.21343
+	trade Clothing 239
+	trade Electronics 788
+	trade Equipment 413
+	trade Food 234
+	trade "Heavy Metals" 1208
+	trade Industrial 555
+	trade "Luxury Goods" 1001
+	trade Medical 837
+	trade Metal 270
+	trade Plastic 299
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/lava1
+		distance 199.96
+		period 51.2688
+	object
+		sprite planet/desert0
+		distance 383.25
+		period 136.038
+	object
+		sprite planet/cloud7
+		distance 1057.34
+		period 623.391
+		object
+			sprite planet/tethys
+			distance 109
+			period 15.8653
+	object
+		sprite planet/jupiter
+		distance 1754.23
+		period 1332.2
+		object
+			sprite planet/lava0
+			distance 275
+			period 14.3305
+		object
+			sprite planet/dust7
+			distance 404
+			period 25.5172
 
 system Kilvorile
 	pos -52209.1 -55831.3
@@ -48579,6 +49087,7 @@ system Kreludoe
 	fleet "Dels Dardornai" 1400
 	fleet Ignaggen 900
 	fleet "Dels Frontier Merchant" 700
+	fleet "Kasiva Merchant" 1200
 	object
 		sprite star/g0
 		period 10
@@ -48706,6 +49215,7 @@ system Kruherver
 	trade Medical 577
 	trade Metal 331
 	trade Plastic 322
+	fleet "Tehru Insker Patrol" 1000
 	object
 		sprite star/g5
 		period 10
@@ -48733,6 +49243,57 @@ system Kruherver
 		sprite planet/ice0
 		distance 2206.91
 		period 1658.81
+
+system Kshenryr
+	pos -52828.2 -53903
+	government "Tehru Insker"
+	habitable 486.68
+	belt 1652
+	link Ashurla
+	link Heruhlrahn
+	link Hsiorul
+	link Kilsaynol
+	asteroids "small rock" 2 4.1216
+	asteroids "medium rock" 3 4.5402
+	asteroids "large rock" 1 3.3166
+	asteroids "large metal" 1 4.025
+	trade Clothing 239
+	trade Electronics 788
+	trade Equipment 413
+	trade Food 234
+	trade "Heavy Metals" 1208
+	trade Industrial 555
+	trade "Luxury Goods" 1001
+	trade Medical 837
+	trade Metal 270
+	trade Plastic 299
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/desert7
+		distance 142.29
+		period 30.7751
+	object
+		sprite planet/forest2
+		distance 507.53
+		period 207.315
+		object
+			sprite planet/oberon
+			distance 177
+			period 22.5191
+	object
+		sprite planet/ganymede
+		distance 994.09
+		period 568.299
+	object
+		sprite planet/neptune
+		distance 2260.18
+		period 1948.29
+		object
+			sprite planet/rock3
+			distance 209
+			period 15.054
 
 system "Ku se a"
 	pos -50485.8 -53442
@@ -49288,6 +49849,7 @@ system Kudelaei
 	trade Plastic 473
 	fleet "Dels Dardornai" 800
 	fleet "Dels Frontier Merchant" 800
+	fleet "Kasiva Merchant" 1400
 	object
 		sprite star/k5
 		period 10
@@ -49732,6 +50294,79 @@ system "Kulhor Lesu"
 			sprite planet/dust0
 			distance 421
 			period 32.3902
+
+system Kulhyran
+	pos -52803.5 -53809.1
+	government "Tehru Insker"
+	habitable 1111.68
+	belt 1228
+	link Ainsarl
+	link Heruhlrahn
+	link Ruhkelar
+	link Sahlre
+	link Sahrelnur
+	asteroids "small rock" 38 6.164
+	asteroids "medium rock" 1 2.392
+	asteroids "large rock" 9 4.002
+	asteroids "small metal" 5 3.404
+	asteroids "medium metal" 71 6.302
+	asteroids "large metal" 7 2.484
+	minables lead 3 6.34695
+	trade Clothing 239
+	trade Electronics 788
+	trade Equipment 413
+	trade Food 234
+	trade "Heavy Metals" 1208
+	trade Industrial 555
+	trade "Luxury Goods" 1001
+	trade Medical 837
+	trade Metal 270
+	trade Plastic 299
+	object
+		sprite star/g5
+		distance 47.7189
+		period 13.6524
+		offset 180
+	object
+		sprite star/k0
+		distance 61.2811
+		period 13.6524
+	object
+		sprite planet/desert2
+		distance 299.921
+		period 62.3133
+	object
+		sprite planet/lava3
+		distance 506.481
+		period 136.746
+	object
+		sprite planet/forest2
+		distance 857.731
+		period 301.368
+		object
+			sprite planet/dust4
+			distance 175
+			period 22.1385
+	object
+		sprite planet/gas2
+		distance 1421.02
+		period 642.645
+		object
+			sprite planet/miranda
+			distance 204
+			period 17.6547
+	object
+		sprite planet/gas17
+		distance 3591.46
+		period 2582.12
+		object
+			sprite planet/ice7
+			distance 221
+			period 14.0366
+		object
+			sprite planet/lava0
+			distance 330
+			period 25.612
 
 system Kulkor
 	pos -50620.5 -56444.1
@@ -50714,6 +51349,8 @@ system Kusurn
 	trade Medical 760
 	trade Metal 305
 	trade Plastic 316
+	fleet "Tehru Insker Merchant" 800
+	fleet "Tehru Insker Patrol" 1000
 	object
 		sprite star/g5
 		distance 43.7788
@@ -50839,6 +51476,7 @@ system Kuveralkel
 	trade Medical 526
 	trade Metal 293
 	trade Plastic 324
+	fleet "Tehru Insker Patrol" 1400
 	object
 		sprite star/g5
 		period 10
@@ -50905,6 +51543,8 @@ system Kuvynra
 	trade Medical 826
 	trade Metal 252
 	trade Plastic 291
+	fleet "Tehru Insker Merchant" 800
+	fleet "Tehru Insker Patrol" 1000
 	object
 		sprite star/m4
 		distance 55.5
@@ -51862,34 +52502,40 @@ system Lelliuk
 		sprite planet/rock15
 		distance 186.971
 		period 41.0144
-	object
-		sprite planet/forest3
-		distance 654.221
-		period 268.45
+	object Akundeera
+		sprite planet/desert3
+		distance 668.221
+		period 277.113
+		offset 44.4879
 		object
 			sprite planet/rock14
-			distance 159
-			period 27.3629
+			distance 173
+			period 23.708
+			offset 7.6318
 	object
 		sprite planet/mercury
-		distance 962.861
-		period 479.316
+		distance 990.861
+		period 500.375
+		offset 33.5445
 	object
 		sprite planet/titan
-		distance 1245.3
-		period 704.998
+		distance 1273.3
+		period 728.908
+		offset 17.7753
 	object
 		sprite planet/desert1
-		distance 1731.59
-		period 1155.96
+		distance 1759.59
+		period 1184.11
+		offset 7.85804
 		object
 			sprite planet/lava0
 			distance 173
 			period 19.7523
 	object
 		sprite planet/dust1
-		distance 2897.23
-		period 2501.79
+		distance 2925.23
+		period 2538.15
+		offset 2.18729
 
 system Lenail
 	pos -49862 -54708.4
@@ -61158,6 +61804,7 @@ system Meedeli
 	trade Metal 327
 	trade Plastic 480
 	fleet "Dels Outward Merchant" 1000
+	fleet "Dels Kaote" 1400
 	object
 		sprite star/g5
 		distance 34.2011
@@ -61358,6 +62005,7 @@ system Mehkur
 	trade Medical 617
 	trade Metal 336
 	trade Plastic 322
+	fleet "Tehru Insker Merchant" 800
 	object
 		sprite star/m0
 		period 10
@@ -61696,6 +62344,7 @@ system Mekouka
 	trade Metal 424
 	trade Plastic 456
 	fleet "Dels Outward Merchant" 1000
+	fleet "Dels Kaote" 1200
 	object
 		sprite star/k0
 		period 10
@@ -65584,6 +66233,7 @@ system Mordelvek
 	trade Metal 375
 	trade Plastic 467
 	fleet "Dels Outward Merchant" 800
+	fleet "Dels Kaote" 1000
 	object
 		sprite star/m4
 		period 10
@@ -66073,6 +66723,57 @@ system Mortarlen
 			distance 271
 			period 12.594
 
+system Morynak
+	pos -52740.5 -53886.3
+	government "Tehru Insker"
+	habitable 486.68
+	belt 1699
+	link Ainsarl
+	link Kalneran
+	asteroids "medium rock" 4 4.2328
+	asteroids "large rock" 1 8.1224
+	asteroids "small metal" 7 4.004
+	asteroids "medium metal" 19 6.9212
+	asteroids "large metal" 12 8.2368
+	minables copper 5 10.6515
+	trade Clothing 239
+	trade Electronics 788
+	trade Equipment 413
+	trade Food 234
+	trade "Heavy Metals" 1208
+	trade Industrial 555
+	trade "Luxury Goods" 1001
+	trade Medical 837
+	trade Metal 270
+	trade Plastic 299
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/rock5
+		distance 189.25
+		period 47.2054
+	object
+		sprite planet/gas1
+		distance 467.54
+		period 183.302
+	object
+		sprite planet/gas16
+		distance 1334.58
+		period 884.006
+		object
+			sprite planet/ice0
+			distance 227
+			period 18.0026
+	object
+		sprite planet/gas12
+		distance 2211.67
+		period 1885.9
+		object
+			sprite planet/rhea
+			distance 304
+			period 13.9218
+
 system Motardai
 	pos -51914.3 -55139.8
 	government "Dels Kaote"
@@ -66103,6 +66804,7 @@ system Motardai
 	trade Metal 375
 	trade Plastic 411
 	fleet "Dels Outward Merchant" 800
+	fleet "Dels Kaote" 1000
 	object
 		sprite star/g5
 		period 10
@@ -66159,7 +66861,7 @@ system Motuirn
 	trade Medical 548
 	trade Metal 287
 	trade Plastic 326
-	fleet "Tehru Insker Patrol" 600
+	fleet "Tehru Insker Patrol" 1200
 	object
 		sprite star/b5
 		distance 10.5909
@@ -68195,6 +68897,7 @@ system Mureene
 	trade Metal 331
 	trade Plastic 365
 	fleet "Dels Outward Merchant" 1000
+	fleet "Dels Kaote" 1200
 	object
 		sprite star/g5
 		distance 17.2303
@@ -72247,6 +72950,7 @@ system Noeidae
 	trade Metal 485
 	trade Plastic 394
 	fleet "Dels Outward Merchant" 1000
+	fleet "Dels Kaote" 1600
 	object
 		sprite star/m4
 		period 10
@@ -73544,6 +74248,7 @@ system Nurvelka
 	trade Medical 526
 	trade Metal 293
 	trade Plastic 324
+	fleet "Tehru Insker Patrol" 1200
 	object
 		sprite star/m8
 		period 10
@@ -80961,6 +81666,7 @@ system Reevukmarai
 	trade Plastic 315
 	fleet "Dels Outward Merchant" 700
 	fleet "Dels Central Merchant" 1200
+	fleet "Dels Kaote" 600
 	object
 		sprite star/k0
 		period 10
@@ -84044,6 +84750,59 @@ system Ruhaude
 			distance 369
 			period 18.1052
 
+system Ruhkelar
+	pos -52824.5 -53763.6
+	government "Tehru Insker"
+	habitable 2035
+	belt 1424
+	link Kulhyran
+	link Sahlre
+	link Sahrelnur
+	link Uklayel
+	asteroids "small rock" 2 7.209
+	asteroids "medium rock" 1 11.907
+	asteroids "large rock" 1 11.097
+	asteroids "large metal" 1 5.67
+	trade Clothing 239
+	trade Electronics 788
+	trade Equipment 413
+	trade Food 234
+	trade "Heavy Metals" 1208
+	trade Industrial 555
+	trade "Luxury Goods" 1001
+	trade Medical 837
+	trade Metal 270
+	trade Plastic 299
+	object
+		sprite star/f5
+		distance 18.5553
+		period 11.3658
+		offset 180
+	object
+		sprite star/m0
+		distance 99.4447
+		period 11.3658
+	object
+		sprite planet/lava5
+		distance 333.455
+		period 53.9925
+	object
+		sprite planet/rock17
+		distance 478.095
+		period 92.6934
+	object
+		sprite planet/ice1
+		distance 918.785
+		period 246.944
+	object
+		sprite planet/gas4
+		distance 1775.99
+		period 663.652
+		object
+			sprite planet/desert4
+			distance 232
+			period 12.4632
+
 system Rukare
 	pos -49322.6 -56518.1
 	government Makerurader
@@ -86351,6 +87110,115 @@ system Sa-C90
 		distance 2451.19
 		period 2713.63
 
+system Sahlre
+	pos -52867.8 -53805.9
+	government "Tehru Insker"
+	habitable 659.2
+	belt 1828
+	link Ashurla
+	link Heruhlrahn
+	link Hykuanir
+	link Kulhyran
+	link Ruhkelar
+	asteroids "small rock" 67 3.06
+	asteroids "medium rock" 56 4.284
+	asteroids "large rock" 45 2.4072
+	asteroids "small metal" 15 5.0592
+	asteroids "medium metal" 67 3.468
+	asteroids "large metal" 17 2.1216
+	minables copper 2 6.12828
+	minables iron 8 4.99204
+	minables silver 7 5.63748
+	trade Clothing 239
+	trade Electronics 788
+	trade Equipment 413
+	trade Food 234
+	trade "Heavy Metals" 1208
+	trade Industrial 555
+	trade "Luxury Goods" 1001
+	trade Medical 837
+	trade Metal 270
+	trade Plastic 299
+	object
+		sprite star/k5
+		distance 28.6646
+		period 11.3574
+	object
+		sprite star/m4
+		distance 52.3354
+		period 11.3574
+		offset 180
+	object
+		sprite planet/rock4
+		distance 227.775
+		period 53.5564
+	object
+		sprite planet/ganymede
+		distance 435.025
+		period 141.359
+	object
+		sprite planet/forest3
+		distance 1065.99
+		period 542.223
+	object
+		sprite planet/gas4
+		distance 1829.99
+		period 1219.62
+		object
+			sprite planet/rhea
+			distance 239
+			period 13.0315
+
+system Sahrelnur
+	pos -52753.1 -53762.5
+	government "Tehru Insker"
+	habitable 486.68
+	belt 1360
+	link Kulhyran
+	link Ruhkelar
+	asteroids "small rock" 4 9.62
+	asteroids "medium rock" 1 4.16
+	asteroids "large rock" 5 4.875
+	asteroids "small metal" 7 7.54
+	asteroids "medium metal" 63 6.5
+	asteroids "large metal" 5 4.29
+	minables aluminum 14 12.3496
+	minables iron 6 9.7903
+	minables uranium 9 12.4728
+	trade Clothing 239
+	trade Electronics 788
+	trade Equipment 413
+	trade Food 234
+	trade "Heavy Metals" 1208
+	trade Industrial 555
+	trade "Luxury Goods" 1001
+	trade Medical 837
+	trade Metal 270
+	trade Plastic 299
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/desert0
+		distance 149.69
+		period 33.2068
+	object
+		sprite planet/ocean3
+		distance 445.94
+		period 170.747
+	object
+		sprite planet/desert8
+		distance 666.94
+		period 312.297
+	object
+		sprite planet/ice7
+		distance 1245.98
+		period 797.453
+	object
+		sprite planet/gas14
+		distance 2354.62
+		period 2071.66
+
 system Salhaner
 	pos -49793.4 -55222.2
 	government "Erader Darua"
@@ -88637,6 +89505,60 @@ system Simei
 		distance 2837.49
 		period 2128.69
 
+system Skikella
+	pos -52825.9 -54041.3
+	government "Tehru Insker"
+	habitable 486.68
+	belt 1012
+	link Arkkreil
+	link Insvishr
+	asteroids "large metal" 1 3.465
+	trade Clothing 239
+	trade Electronics 788
+	trade Equipment 413
+	trade Food 152
+	trade "Heavy Metals" 1208
+	trade Industrial 555
+	trade "Luxury Goods" 1001
+	trade Medical 837
+	trade Metal 270
+	trade Plastic 299
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/desert10
+		distance 255.04
+		period 73.85
+	object
+		sprite planet/ocean8
+		distance 584.05
+		period 255.925
+	object
+		sprite planet/desert7
+		distance 857.05
+		period 454.933
+	object
+		sprite planet/dust6
+		distance 1138.3
+		period 696.343
+	object
+		sprite planet/gas6
+		distance 1840.39
+		period 1431.54
+		object
+			sprite planet/io
+			distance 286
+			period 12.3542
+		object
+			sprite planet/ice0
+			distance 370
+			period 18.1789
+		object
+			sprite planet/dust7
+			distance 536
+			period 31.6965
+
 system Skkryu
 	pos -52771.5 -54347.1
 	government "Tehru Insker"
@@ -88661,6 +89583,8 @@ system Skkryu
 	trade Medical 582
 	trade Metal 289
 	trade Plastic 344
+	fleet "Tehru Insker Merchant" 800
+	fleet "Tehru Insker Patrol" 1000
 	object
 		sprite star/g5
 		distance 35.5556
@@ -88674,11 +89598,11 @@ system Skkryu
 		sprite planet/desert1
 		distance 235.694
 		period 47.0834
-	object
+	object Alrukan
 		sprite planet/water0
 		distance 604.104
 		period 193.202
-	object
+	object Aklyrur
 		sprite planet/rock2
 		distance 941.944
 		period 376.168
@@ -88788,6 +89712,7 @@ system Skruvika
 	trade Medical 837
 	trade Metal 270
 	trade Plastic 299
+	fleet "Tehru Insker Patrol" 1200
 	object
 		sprite star/g0
 		period 10
@@ -92478,6 +93403,8 @@ system Uhsin
 	trade Medical 579
 	trade Metal 329
 	trade Plastic 417
+	fleet "Tehru Insker Merchant" 800
+	fleet "Tehru Insker Patrol" 1000
 	object
 		sprite star/k5
 		period 10
@@ -92978,6 +93905,58 @@ system Uklame
 			sprite planet/dust3
 			distance 713
 			period 50.0057
+
+system Uklayel
+	pos -52860.5 -53702.6
+	government "Tehru Insker"
+	habitable 320
+	belt 1071
+	link Ehlrena
+	link Hykuanir
+	link Ruhkelar
+	asteroids "small rock" 3 3.3516
+	asteroids "medium rock" 10 3.1752
+	asteroids "large rock" 16 1.9992
+	asteroids "medium metal" 7 3.6456
+	asteroids "large metal" 4 2.94
+	minables iron 7 2.84625
+	trade Clothing 239
+	trade Electronics 788
+	trade Equipment 413
+	trade Food 234
+	trade "Heavy Metals" 1208
+	trade Industrial 555
+	trade "Luxury Goods" 1001
+	trade Medical 837
+	trade Metal 270
+	trade Plastic 299
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/desert9
+		distance 136.04
+		period 35.4801
+	object
+		sprite planet/ice2
+		distance 334.33
+		period 136.694
+	object
+		sprite planet/gas9
+		distance 1146.34
+		period 867.871
+		object
+			sprite planet/dust0
+			distance 255
+			period 15.2687
+	object
+		sprite planet/gas14
+		distance 1965.38
+		period 1948.3
+		object
+			sprite planet/oberon
+			distance 239
+			period 15.0472
 
 system Uklerval
 	pos -50854.5 -55861.1
@@ -94103,6 +95082,7 @@ system Urkvulnar
 	trade Medical 774
 	trade Metal 260
 	trade Plastic 312
+	fleet "Tehru Insker Patrol" 1000
 	object
 		sprite star/g0
 		period 10
@@ -94737,6 +95717,8 @@ system Urtuin
 	trade Medical 697
 	trade Metal 375
 	trade Plastic 392
+	fleet "Tehru Insker Merchant" 800
+	fleet "Tehru Insker Patrol" 800
 	object
 		sprite star/g0
 		period 10
@@ -95665,6 +96647,65 @@ system Velnenis
 			sprite planet/lava0
 			distance 528
 			period 40.0155
+
+system Velsunra
+	pos -52923.1 -53723.8
+	government "Tehru Insker"
+	habitable 2201.68
+	belt 1797
+	link Ehlrena
+	link Hykuanir
+	asteroids "small rock" 4 1.6744
+	asteroids "medium rock" 6 2.8014
+	asteroids "large rock" 11 2.7692
+	asteroids "small metal" 8 1.6744
+	asteroids "medium metal" 9 2.9302
+	asteroids "large metal" 5 3.7674
+	minables iron 9 3.41379
+	minables silver 5 4.06565
+	trade Clothing 239
+	trade Electronics 788
+	trade Equipment 413
+	trade Food 234
+	trade "Heavy Metals" 1208
+	trade Industrial 555
+	trade "Luxury Goods" 1001
+	trade Medical 837
+	trade Metal 270
+	trade Plastic 299
+	object
+		sprite star/f5
+		distance 21.8839
+		period 8.39722
+		offset 180
+	object
+		sprite star/k0
+		distance 77.1161
+		period 8.39722
+	object
+		sprite planet/dust6
+		distance 212.876
+		period 26.4773
+	object
+		sprite planet/rock0
+		distance 377.126
+		period 62.4328
+	object
+		sprite planet/desert2
+		distance 714.566
+		period 162.835
+		object
+			sprite planet/tethys
+			distance 145
+			period 19.5559
+	object
+		sprite planet/ocean3
+		distance 1520.33
+		period 505.345
+	object
+		sprite planet/gas16
+		distance 3491.02
+		period 1758.37
 
 system Veludol
 	pos -51433.7 -55791.2
@@ -99227,7 +100268,7 @@ system Vukleda
 	trade Metal 427
 	trade Plastic 345
 	fleet "Dels Outward Merchant" 1000
-	fleet "Dels Kaote" 1200
+	fleet "Dels Kaote" 1400
 	object
 		sprite star/m4
 		distance 39.2229
@@ -99882,11 +100923,12 @@ system Vurusin
 	trade Medical 627
 	trade Metal 426
 	trade Plastic 477
-	fleet "Tehru Insker Patrol" 600
+	fleet "Tehru Insker Patrol" 800
+	fleet "Tehru Insker Merchant" 800
 	object
 		sprite star/m8
 		period 10
-	object
+	object Sulvauran
 		sprite planet/cloud3
 		distance 147.09
 		period 61.4141
@@ -101661,15 +102703,37 @@ planet Akkelgar
 	outfitter "Kakaima Basic"
 	"required reputation" 2
 
+planet Aklyrur
+	landscape land/dmottl0
+	description .
+	spaceport .
+	outfitter 1
+
 planet Akrogea
 	landscape land/badlands4
 	description `A hot mountainous planet with alot of caves, perfect for the Rakgonerian.`
 	"required reputation" 1
 
+planet Akundeera
+	landscape land/land3
+	description `A mostly uninhabitated planet on the outskirt of Dels space. Most of its inhabitants seems to be seeking solitary from the rest of the society where most houses are several kilometers away from each other with a few small villages scattered around. `
+	spaceport .
+
+planet Alrukan
+	landscape land/sky5
+	description .
+	spaceport .
+
 planet Anorulee
 	landscape land/sivael0
 	description .
 	spaceport .
+
+planet Anulyor
+	landscape land/sivael7
+	description .
+	spaceport .
+	"required reputation" 1
 
 planet Aokri
 	landscape land/badlands0
@@ -102251,7 +103315,7 @@ planet Donto
 planet Dualel
 	landscape land/hills1
 	description `A mostly barren planet with remains of small towns and cities with architecture unlike those of the Dels visible in a few places. Most of these areas are off limits to citizens.`
-	spaceport .
+	spaceport `There's rather high amount of gun turrets and missile silo within the vicinity of the spaceport. Most visitor here appears to be military personel with occasional merchant dropping off some supplies. `
 	outfitter "Dels Basic"
 
 planet Dudeekle
@@ -105219,6 +106283,12 @@ planet Silnarin
 	spaceport .
 	outfitter "Geeva Basic"
 
+planet "Silre Duyee"
+	attributes station
+	landscape land/sivael9
+	description .
+	spaceport .
+
 planet Silryri
 	landscape land/mountain17-harro
 	description .
@@ -105287,6 +106357,12 @@ planet Suleenkeda
 	description .
 	spaceport .
 	outfitter "Dels Basic"
+
+planet Sulvauran
+	landscape land/land5
+	description ,
+	spaceport .
+	"required reputation" 1
 
 planet Sunytir
 	landscape land/badlands1
