@@ -110,7 +110,7 @@ mission "Ultaka Saska: Ultaka Hunt Player II"
 	npc kill
 		government "Ultaka"
 		personality
-			vindictive target entering
+			vindictive target entering unconstrained
 		system
 			distance 0 2
 		fleet "Ultaka Big" 3
@@ -170,7 +170,7 @@ mission "Ultaka Saska: Ultaka Hunt Player V"
 	npc kill
 		government "Ultaka(Mega)"
 		personality
-			vindictive target entering
+			vindictive target entering unconstrained
 		system
 			distance 0 2
 		fleet "Ultaka Mega Big" 5
@@ -192,7 +192,7 @@ mission "Ultaka Saska: Ultaka Hunt Player VIII"
 	npc kill
 		government "Ultaka(Alrul)"
 		personality
-			nemesis vindictive target entering
+			nemesis vindictive target entering unconstrained
 		system
 			distance 0 2
 		fleet "Ultaka Alrul Big" 2
@@ -212,7 +212,7 @@ mission "Ultaka Saska: Ultaka Hunt Player IX"
 	npc kill
 		government "Ultaka(Alrul)"
 		personality
-			nemesis vindictive target entering
+			nemesis vindictive target entering unconstrained
 		system
 			distance 0 1
 		fleet "Ultaka Alrul Big" 3
@@ -232,7 +232,7 @@ mission "Ultaka Saska: Ultaka Hunt Player X"
 	npc kill
 		government "Ultaka(Alrul)"
 		personality
-			nemesis vindictive target entering
+			nemesis vindictive target entering unconstrained
 		system
 			distance 0 1
 		fleet "Ultaka Alrul Big" 5
@@ -256,7 +256,7 @@ mission "Ultaka Saska: Ultaka Hunt Player EX"
 	npc kill
 		government "Ultaka(Alrul)"
 		personality
-			nemesis vindictive target entering
+			nemesis vindictive target entering unconstrained
 		system
 			distance 0 1
 		fleet "Ultaka Thwarter" 3
@@ -276,7 +276,7 @@ mission "Ultaka Saska: Ultaka Hunt Player XI"
 	npc kill
 		government "Ultaka(Alrul)"
 		personality
-			nemesis vindictive target entering
+			nemesis vindictive target entering unconstrained
 		system
 			distance 0 1
 		fleet "Ultaka Alrul Big" 5
