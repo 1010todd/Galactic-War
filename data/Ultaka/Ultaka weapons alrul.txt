@@ -291,6 +291,7 @@ outfit "Hausiar Revolver" #Revolver
 		"reload" 70
 		"firing energy" 20
 		"firing heat" 5
+		"phasing"
 	description ""
 	
 outfit "hausiar shot" #The shots to hit the target
@@ -318,6 +319,7 @@ outfit "hausiar spawner 1" #Spawn the first shot delay and the spawner for the n
 		"velocity" -300
 		"submunition" "hausiar spawner 2"
 		"submunition" "hausiar wait 1"
+		"phasing"
 		
 outfit "hausiar wait 1" #Delay, waiting for the entire  pentagon to complete for a short while. #turn 126 degree ccw to face forward.
 	weapon
@@ -328,6 +330,7 @@ outfit "hausiar wait 1" #Delay, waiting for the entire  pentagon to complete for
 		"turn" -126
 		"lifetime" 2
 		"submunition" "hausiar turret 1"
+		"phasing"
 
 outfit "hausiar turret 1"
 	weapon	
@@ -339,6 +342,7 @@ outfit "hausiar turret 1"
 		tracking 1
 		lifetime 70
 		"submunition" "hausiar shot"
+		"phasing"
 
 outfit "hausiar spawner 2"
 	weapon
@@ -349,6 +353,7 @@ outfit "hausiar spawner 2"
 		velocity 60
 		"submunition" "hausiar turn 2"
 		"submunition" "hausiar wait 2"
+		"phasing"
 		
 outfit "hausiar wait 2"
 	weapon
@@ -359,6 +364,7 @@ outfit "hausiar wait 2"
 		turn -3 #Turn in total of 180 degree to go to wait 1 position.
 		lifetime 61
 		"submunition" "hausiar load 2"
+		"phasing"
 		
 outfit "hausiar load 2" #Shoot back to wait 1 position
 	weapon
@@ -368,6 +374,7 @@ outfit "hausiar load 2" #Shoot back to wait 1 position
 		"lifetime" 10
 		velocity 60
 		"submunition" "hausiar wait 2a"
+		"phasing"
 		
 outfit "hausiar wait 2a" #turn clockwise to 54 degree to face forward then fire.
 	weapon
@@ -378,6 +385,7 @@ outfit "hausiar wait 2a" #turn clockwise to 54 degree to face forward then fire.
 		turn 54
 		lifetime 2
 		"submunition" "hausiar turret 2"
+		"phasing"
 
 outfit "hausiar turret 2"
 	weapon	
@@ -389,6 +397,7 @@ outfit "hausiar turret 2"
 		tracking 1
 		lifetime 10
 		"submunition" "hausiar shot"
+		"phasing"
 		
 outfit "hausiar turn 2"
 	weapon
@@ -399,6 +408,7 @@ outfit "hausiar turn 2"
 		velocity -60
 		turn 72
 		"submunition" "hausiar spawner 3"
+		"phasing"
 		
 outfit "hausiar spawner 3"
 	weapon
@@ -409,6 +419,7 @@ outfit "hausiar spawner 3"
 		velocity 60
 		"submunition" "hausiar turn 3"
 		"submunition" "hausiar wait 3"
+		"phasing"
 		
 outfit "hausiar wait 3" #Turn 180 degree
 	weapon
@@ -419,6 +430,7 @@ outfit "hausiar wait 3" #Turn 180 degree
 		turn -3.6
 		lifetime 51
 		"submunition" "hausiar load 3"
+		"phasing"
 		
 outfit "hausiar load 3" #move
 	weapon
@@ -428,6 +440,7 @@ outfit "hausiar load 3" #move
 		"lifetime" 10
 		velocity 60
 		"submunition" "hausiar wait 3a"
+		"phasing"
 		
 outfit "hausiar wait 3a" #Turn ccw 72 degree to face wait 2 pos and go there.
 	weapon
@@ -438,6 +451,7 @@ outfit "hausiar wait 3a" #Turn ccw 72 degree to face wait 2 pos and go there.
 		turn -7.2
 		lifetime 11
 		"submunition" "hausiar load 2"
+		"phasing"
 		
 outfit "hausiar turn 3"
 	weapon
@@ -448,6 +462,7 @@ outfit "hausiar turn 3"
 		velocity -60
 		turn 72
 		"submunition" "hausiar spawner 4"
+		"phasing"
 		
 outfit "hausiar spawner 4"
 	weapon
@@ -458,6 +473,7 @@ outfit "hausiar spawner 4"
 		velocity 60
 		"submunition" "hausiar turn 4"
 		"submunition" "hausiar wait 4"
+		"phasing"
 		
 outfit "hausiar wait 4"
 	weapon
@@ -468,6 +484,7 @@ outfit "hausiar wait 4"
 		turn -4.5
 		lifetime 41
 		"submunition" "hausiar load 4"
+		"phasing"
 		
 outfit "hausiar load 4"
 	weapon
@@ -477,6 +494,7 @@ outfit "hausiar load 4"
 		"lifetime" 10
 		velocity 60
 		"submunition" "hausiar wait 4a"
+		"phasing"
 		
 outfit "hausiar wait 4a"
 	weapon
@@ -487,6 +505,7 @@ outfit "hausiar wait 4a"
 		turn -7.2
 		lifetime 11
 		"submunition" "hausiar load 3"
+		"phasing"
 		
 outfit "hausiar turn 4"
 	weapon
@@ -497,6 +516,7 @@ outfit "hausiar turn 4"
 		velocity -60
 		turn 72
 		"submunition" "hausiar spawner 5"
+		"phasing"
 		
 outfit "hausiar spawner 5"
 	weapon
@@ -506,6 +526,7 @@ outfit "hausiar spawner 5"
 		"lifetime" 10
 		velocity 60
 		"submunition" "hausiar wait 5"
+		"phasing"
 		
 outfit "hausiar wait 5"
 	weapon
@@ -516,6 +537,7 @@ outfit "hausiar wait 5"
 		turn -6
 		lifetime 31
 		"submunition" "hausiar load 5"
+		"phasing"
 		
 outfit "hausiar load 5"
 	weapon
@@ -525,6 +547,7 @@ outfit "hausiar load 5"
 		"lifetime" 10
 		velocity 60
 		"submunition" "hausiar wait 5a"
+		"phasing"
 		
 outfit "hausiar wait 5a"
 	weapon
@@ -535,6 +558,7 @@ outfit "hausiar wait 5a"
 		turn -7.2
 		lifetime 11
 		"submunition" "hausiar load 4"
+		"phasing"
 		
 
 outfit "Ve'raun defense"
