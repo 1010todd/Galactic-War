@@ -7334,6 +7334,7 @@ mission "gw: enable debug mode"
 	name "GW: Enable debug mode"
 	job
 	repeat
+	deadline 1
 	to offer
 		not "gw: debug mode"
 	description "Enables debug mode for Galactic War. For now, this toggles visibility of certain jobs that let you control mission state."
@@ -7342,12 +7343,13 @@ mission "gw: enable debug mode"
 	on accept
 		dialog "Galactic War debug mode enabled."
 		set "gw: debug mode"
-		fail "gw: enable debug mode"
+
 
 mission "gw: disable debug mode"
 	name "GW: Disable debug mode"
 	job
 	repeat
+	deadline 1
 	to offer
 		has "gw: debug mode"
 	description "Disables debug mode for Galactic War. For now, this toggles visibility of certain jobs that let you control mission state."
@@ -7356,8 +7358,9 @@ mission "gw: disable debug mode"
 	on accept
 		dialog "Galactic War debug mode disabled."
 		clear "gw: debug mode"
-		fail "gw: disable debug mode"
-	
+		fail
+
+
 phrase "gw mission reset"
 	word
 		"Missions and events have been reset."
