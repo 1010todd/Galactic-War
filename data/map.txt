@@ -4640,6 +4640,7 @@ system Arkkreil
 	belt 1260
 	link Insvishr
 	link Liikuare
+	link Sinhrale
 	link Skikella
 	asteroids "large metal" 2 10.584
 	trade Clothing 239
@@ -34491,6 +34492,7 @@ system Ismura
 	trade Metal 270
 	trade Plastic 299
 	fleet "Tehru Insker Patrol" 1000
+	fleet "Tehru Insker Merchant" 800
 	object
 		sprite star/m0
 		period 10
@@ -41304,7 +41306,7 @@ system Kethurva
 	object
 		sprite star/m4
 		period 10
-	object
+	object Val'aulken
 		sprite planet/desert3
 		distance 177.01
 		period 61.6762
@@ -51459,6 +51461,7 @@ system Kuveralkel
 	government "Tehru Insker"
 	habitable 625
 	belt 1317
+	link Kyrunhel
 	link Nurvelka
 	asteroids "small rock" 2 3.9104
 	asteroids "medium rock" 1 5.5328
@@ -51562,7 +51565,7 @@ system Kuvynra
 			sprite planet/rock7
 			distance 149
 			period 22.8635
-	object
+	object Nyrenkel
 		sprite planet/ocean9
 		distance 723.27
 		period 360.211
@@ -51578,6 +51581,59 @@ system Kuvynra
 		sprite planet/gas6
 		distance 1948.19
 		period 1592.4
+
+system Kyrunhel
+	pos -52922.2 -54024.8
+	government "Tehru Insker"
+	habitable 486.68
+	belt 1257
+	link Kuveralkel
+	link Skikella
+	asteroids "medium rock" 3 5.9616
+	asteroids "large rock" 1 8.2248
+	asteroids "small metal" 91 7.0104
+	asteroids "medium metal" 106 6.0168
+	asteroids "large metal" 40 5.52
+	minables aluminum 2 10.8796
+	minables iron 1 8.03017
+	trade Clothing 310
+	trade Electronics 644
+	trade Equipment 631
+	trade Food 502
+	trade "Heavy Metals" 886
+	trade Industrial 564
+	trade "Luxury Goods" 990
+	trade Medical 526
+	trade Metal 293
+	trade Plastic 324
+	fleet "Tehru Insker Patrol" 1400
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/rock16
+		distance 188.89
+		period 47.0708
+	object
+		sprite planet/forest1
+		distance 484.98
+		period 193.653
+	object
+		sprite planet/rock9
+		distance 924.07
+		period 509.326
+	object
+		sprite planet/mars
+		distance 1123.31
+		period 682.634
+	object
+		sprite planet/gas8
+		distance 3065.31
+		period 3077.16
+		object
+			sprite planet/dust3
+			distance 183
+			period 13.1781
 
 system Kyueirai
 	pos -49635 -55902.7
@@ -53880,6 +53936,7 @@ system Liikuare
 	trade Medical 837
 	trade Metal 270
 	trade Plastic 299
+	fleet "Tehru Insker Patrol" 1200
 	object
 		sprite star/g5
 		distance 30.7133
@@ -89505,6 +89562,61 @@ system Simei
 		distance 2837.49
 		period 2128.69
 
+system Sinhrale
+	pos -52810.2 -54099.8
+	government "Tehru Insker"
+	habitable 4070.92
+	belt 1226
+	link Arkkreil
+	link Skikella
+	link Vurkelu
+	asteroids "small rock" 40 4.725
+	asteroids "medium rock" 6 4.165
+	asteroids "large rock" 13 1.925
+	asteroids "small metal" 2 2.45
+	asteroids "medium metal" 5 4.83
+	asteroids "large metal" 1 3.22
+	trade Clothing 239
+	trade Electronics 788
+	trade Equipment 413
+	trade Food 123
+	trade "Heavy Metals" 1208
+	trade Industrial 555
+	trade "Luxury Goods" 1001
+	trade Medical 837
+	trade Metal 270
+	trade Plastic 299
+	fleet "Tehru Insker Patrol" 1200
+	object
+		sprite star/a5
+		distance 13.8105
+		period 9.50768
+	object
+		sprite star/k5
+		distance 118.19
+		period 9.50768
+		offset 180
+	object
+		sprite planet/gas12
+		distance 507.2
+		period 71.6114
+		object
+			sprite planet/rock3
+			distance 280
+			period 12.3061
+	object
+		sprite planet/rock8
+		distance 1118.76
+		period 234.595
+	object
+		sprite planet/desert3
+		distance 1706.85
+		period 442.086
+	object
+		sprite planet/gas9
+		distance 2278.81
+		period 681.986
+
 system Skikella
 	pos -52825.9 -54041.3
 	government "Tehru Insker"
@@ -89512,6 +89624,8 @@ system Skikella
 	belt 1012
 	link Arkkreil
 	link Insvishr
+	link Kyrunhel
+	link Sinhrale
 	asteroids "large metal" 1 3.465
 	trade Clothing 239
 	trade Electronics 788
@@ -95083,6 +95197,7 @@ system Urkvulnar
 	trade Metal 260
 	trade Plastic 312
 	fleet "Tehru Insker Patrol" 1000
+	fleet "Tehru Insker Merchant" 800
 	object
 		sprite star/g0
 		period 10
@@ -100839,6 +100954,7 @@ system Vurkelu
 	belt 1282
 	link Ismura
 	link Liikuare
+	link Sinhrale
 	asteroids "small rock" 42 3.7559
 	asteroids "medium rock" 17 7.5118
 	asteroids "large rock" 6 6.1364
@@ -100858,6 +100974,8 @@ system Vurkelu
 	trade Medical 837
 	trade Metal 270
 	trade Plastic 299
+	fleet "Tehru Insker Patrol" 1200
+	fleet "Tehru Insker Merchant" 800
 	object
 		sprite star/k5
 		distance 46
@@ -100879,7 +100997,7 @@ system Vurkelu
 			sprite planet/rock17
 			distance 177
 			period 17.3716
-	object
+	object "Nekylr Alsen"
 		sprite planet/desert5
 		distance 993.86
 		period 429.407
@@ -105533,6 +105651,11 @@ planet Neishila
 	description .
 	spaceport .
 
+planet "Nekylr Alsen"
+	landscape land/fields0
+	description .
+	spaceport .
+
 planet Nelivaris
 	landscape land/land12
 	description .
@@ -105715,6 +105838,11 @@ planet Nuraalor
 	shipyard "Ignaggen Advanced"
 	outfitter "Ignaggen Basic"
 	outfitter "Ignaggen Advanced"
+
+planet Nyrenkel
+	landscape land/sky4
+	description .
+	spaceport .
 
 planet Ocrallar
 	landscape land/beach1
@@ -106575,6 +106703,11 @@ planet Vaggeonlia
 	spaceport `The spaceport marked by a light atop of a tall stone pillar, it is built where the weather seems much more calm with large cave-like opening dug into the mountain. `
 	shipyard "Ignaggen Small"
 	outfitter "Ignaggen Basic"
+
+planet Val'aulken
+	landscape land/land0
+	description .
+	spaceport .
 
 planet "Valgurke Kar"
 	landscape land/loc2
