@@ -3,7 +3,8 @@ mission "First Contact: Dels Dardornai"
 	invisible
 	source
 		government "Dels Dardornai"
-
+	to offer
+		not "GW Dels start"
 	on offer
 		conversation
 			`(First Contact: Dels Dardornai) (Under construction)`
@@ -14,7 +15,8 @@ mission "First Contact: Dels Kaote"
 	invisible
 	source
 		government "Dels Kaote"
-
+	to offer
+		not "GW Dels start"
 	on offer
 		conversation
 			`(First Contact: Dels Kaote) (Under construction)`
