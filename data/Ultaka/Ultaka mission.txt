@@ -36,8 +36,9 @@ mission "Ultaka Saska: Increase Security II"
 	landing
 	invisible
 	to offer
-		"reputation: Ultaka" <= -10000
-		"armament deterrence" >= 20000
+		or
+			"reputation: Ultaka" <= -10000
+			"armament deterrence" >= 20000
 	on offer
 		event "Ultaka Saska: Alrul Deployment"
 		event "Ultaka Saska: Security Timer II" 14
