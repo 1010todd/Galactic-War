@@ -2,6 +2,9 @@
 mission "Ultaka Saska Lape Weapon"
 	invisible
 	landing
+	repeat
+	to offer
+		not "Ultaka Saska Lape Weapon: active"
 	npc kill
 		government Ultaka
 		personality staying heroic launching
