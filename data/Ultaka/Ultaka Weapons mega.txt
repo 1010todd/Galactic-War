@@ -17,8 +17,8 @@ outfit "FK1M Gun"
 		"reload" 10
 		"firing energy" 10
 		"firing heat" 5
-		"shield damage" 2200
-		"hull damage" 2400
+		"shield damage" 220
+		"hull damage" 240
 	
 outfit "FK1M Gun Group1"
 	category "Guns"
@@ -40,8 +40,8 @@ outfit "FK1M Gun Group1"
 		"burst count" 2
 		"firing energy" 10
 		"firing heat" 5
-		"shield damage" 2200
-		"hull damage" 2400
+		"shield damage" 220
+		"hull damage" 240
 		"cluster"
 	
 outfit "FK1M Gun Group2"
@@ -64,8 +64,8 @@ outfit "FK1M Gun Group2"
 		"burst count" 10
 		"firing energy" 10
 		"firing heat" 5
-		"shield damage" 2200
-		"hull damage" 2400
+		"shield damage" 220
+		"hull damage" 240
 		"cluster"
 	
 		
@@ -86,10 +86,10 @@ outfit "KLG1 Turret"
 		"velocity" 35
 		"lifetime" 60
 		"reload" 22
-		"firing energy" 20
+		"firing energy" 54
 		"firing heat" 86
-		"shield damage" 12500
-		"hull damage" 12400
+		"shield damage" 1250
+		"hull damage" 1240
 		"ion damage" .2
 	
 outfit "DKS1 Turret"
@@ -109,10 +109,10 @@ outfit "DKS1 Turret"
 		"velocity" 35
 		"lifetime" 56
 		"reload" 59
-		"firing energy" 10
-		"firing heat" 10
-		"shield damage" 15800
-		"hull damage" 13500
+		"firing energy" 100
+		"firing heat" 100
+		"shield damage" 3580
+		"hull damage" 3350
 		"ion damage" 5
 		
 outfit "DKS2 Turret"
@@ -132,10 +132,10 @@ outfit "DKS2 Turret"
 		"velocity" 38
 		"lifetime" 60
 		"reload" 60
-		"firing energy" 12
-		"firing heat" 11
-		"shield damage" 18500
-		"hull damage" 14900
+		"firing energy" 120
+		"firing heat" 110
+		"shield damage" 3850
+		"hull damage" 3490
 		"ion damage" 6.3
 		
 outfit "KDG1 anti missile"
@@ -285,12 +285,12 @@ outfit "Ultaka Harvester Beam" #LOKS
 		"hit force" -900
 		"firing force" -9
 		"shield damage" 1000
-		"hull damage" 121000
+		"hull damage" 10000
 		"ion damage" 5000
 		"energy damage" 1000
 		"fuel damage" 5000
 		"phasing"
-		"piercing" 2
+		"piercing" .2
 		
 outfit "Ultaka Executor Cannon" #MKIS
 	category "Guns"
