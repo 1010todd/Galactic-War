@@ -144,7 +144,7 @@ outfit "Sentry-03 Anti-Missile" #R7 Sentry Anti-Missile Turret
 	"weapon capacity" -25
 	"turret mounts" -1
 	weapon
-		"fire effect" "blast pulse"
+		"fire effect" "smoke"
 		"die effect" "smoke"
 		"hardpoint sprite" "hardpoint/sentry am"
 		"hardpoint offset" 5.
@@ -349,6 +349,7 @@ outfit "Niturlo-06 Reactor" #R6 Micro Fusion
 	"outfit space" -35
 	"energy generation" 6.8
 	"heat generation" 10.2
+	"ion resistance" 1
 	description "Geeva small reactor."
 	
 outfit "Turlo-06 Reactor" #R6 Fusion
@@ -359,6 +360,7 @@ outfit "Turlo-06 Reactor" #R6 Fusion
 	"outfit space" -78
 	"energy generation" 16.7
 	"heat generation" 30
+	"ion resistance" 2
 	description "Geeva reactor."
 	
 outfit "Solter-01 Reactor" #R1 Sun
@@ -369,6 +371,7 @@ outfit "Solter-01 Reactor" #R1 Sun
 	"outfit space" -100
 	"energy generation" 29.8
 	"heat generation" 180
+	"ion resistance" 5
 	description "Geeva Reactor"
 	
 outfit "Iogel01-04 Thruster" #R4 Tiny Ion Thruster
@@ -532,12 +535,13 @@ outfit "XHEAS Missile BIMM"
 		"acceleration" 4
 		"drag" .1
 		"turn" 5
+		"homing" 4
 		"radar tracking" .8
 		"shield damage" 4503
 		"hull damage" 5600
 		"heat damage" 600
 		"hit force" 60
-		"missile strength" 1200
+		"missile strength" 5200
 		"piercing" .2
 	description "Extremely High Explosive Anti-Ship Missile." 
 	
@@ -567,12 +571,13 @@ outfit "XHEAS Missile BIMM(Rear)"
 		"acceleration" 4
 		"drag" .1
 		"turn" 5
+		"homing" 4
 		"radar tracking" .8
 		"shield damage" 4503
 		"hull damage" 5600
 		"heat damage" 600
 		"hit force" 60
-		"missile strength" 1200
+		"missile strength" 5200
 		"piercing" .2
 	description "Extremely High Explosive Anti-Ship Missile." 
 	
