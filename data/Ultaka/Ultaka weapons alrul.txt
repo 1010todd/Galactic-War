@@ -15,8 +15,8 @@ outfit "Ultaka Death Touch"
 		"reload" 1
 		"firing energy" 100
 		"firing heat" 20
-		"shield damage" 1600
-		"hull damage" 1600
+		"shield damage" 160
+		"hull damage" 160
 		"piercing" .3
 	description ""
 
@@ -224,7 +224,7 @@ outfit "urxesh shot"
 		"shield damage" 20000
 		"hull damage" 2200
 		"piercing" .5
-		"missile strength" 200000
+		"missile strength" 5000
 
 effect "urxesh live"
 	sprite "effect/urxesh live"
@@ -573,7 +573,7 @@ outfit "Ve'raun defense"
 	weapon
 		"fire effect" "heavy laser impact"
 		sound "gw laser4"
-		"anti-missile" 9000
+		"anti-missile" 600
 		"velocity" 430
 		"turret turn" 20
 		"lifetime" 1

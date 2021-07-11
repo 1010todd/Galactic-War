@@ -918,7 +918,7 @@ outfit "Syfar-3 Turret" #Syfar Torpedo Turret
 		"burst count" 3
 		"firing energy" 80
 		"firing heat" 12
-		"missile strength" 1800
+		"missile strength" 7800
 		"shield damage" 1000 #4000
 		"hull damage" 1000 #4000
 		"blast radius" 80
@@ -977,7 +977,7 @@ outfit "Syfar-5 Turret" #Syfar Torpedo Turret (Penta)
 		"burst count" 5
 		"firing energy" 80
 		"firing heat" 12
-		"missile strength" 1800
+		"missile strength" 7800
 		"shield damage" 1000 #4000
 		"hull damage" 1000 #4000
 		"blast radius" 80
@@ -1016,7 +1016,7 @@ outfit "Syfar-Penta Turret" #Syfar Torpedo Turret (Penta Full Salvo Mode)
 		"reload" 45
 		"firing energy" 80
 		"firing heat" 12
-		"missile strength" 1800
+		"missile strength" 7800
 		"submunition" "Syfar" 5
 	description ""
 	
@@ -1043,7 +1043,7 @@ outfit "Syfar Torpedo Launcher"
 		"reload" 45
 		"firing energy" 75
 		"firing heat" 11
-		"missile strength" 3800
+		"missile strength" 7800
 		"shield damage" 10000
 		"hull damage" 10000
 		"blast radius" 80
@@ -1061,7 +1061,7 @@ outfit "Syfar"
 		"hit effect" "medium explosion"
 		"inaccuracy" 20
 		"lifetime" 80
-		"missile strength" 3800
+		"missile strength" 7800
 		"shield damage" 10000
 		"hull damage" 10000
 		"blast radius" 80
@@ -1098,7 +1098,7 @@ outfit "Rozzen VLS Array" #Rozzen Vertical Launching System
 		"burst count" 20
 		"firing energy" 5
 		"firing heat" 18
-		"missile strength" 1500
+		"missile strength" 4500
 		"stream"
 		"phasing"
 	description "Array of Rozzen missile launchers and missile generator machines."
@@ -1122,7 +1122,7 @@ outfit "Rozzen"
 		"shield damage" 20000
 		"hull damage" 24000
 		"hit force" 200
-		"missile strength" 1500
+		"missile strength" 6500
 		"phasing"
 	
 outfit "Zaikor Turret"
