@@ -4,6 +4,7 @@ mission "First Contact: Dels Dardornai"
 	source
 		government "Dels Dardornai"
 	to offer
+		has "gw: debug mode"
 		not "GW Dels start"
 	on offer
 		conversation
@@ -16,6 +17,7 @@ mission "First Contact: Dels Kaote"
 	source
 		government "Dels Kaote"
 	to offer
+		has "gw: debug mode"
 		not "GW Dels start"
 	on offer
 		conversation
@@ -26,6 +28,7 @@ mission "First Contact: Dels Ufulre"
 	landing
 	invisible
 	source
+		has "gw: debug mode"
 		government "Dels Ufulre"
 
 	on offer
