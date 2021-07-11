@@ -24,7 +24,7 @@ outfit "Ilcor-06 Blaster Turret" #R6 Blaster Turret
 		"reload" 12
 		"firing energy" 40
 		"firing heat" 56
-		"shield damage" 55
+		"shield damage" 64
 		"hull damage" 46
 		"ion damage" .1
 	description "Standard energy blaster turret used by Geeva. Depsite the name blaster these have very little in common with other blasters elsewhere."
@@ -48,10 +48,10 @@ outfit "Noilcor-06 Blaster Turret" #R6 Heavy Blaster Turret
 		"turret turn" 2.8
 		"velocity" 33
 		"lifetime" 17
-		"reload" 23
+		"reload" 20
 		"firing energy" 45
 		"firing heat" 95
-		"shield damage" 95
+		"shield damage" 105
 		"hull damage" 88
 		"ion damage" .2
 	description "Mostly just bigger version of Ilcor-06 blaster."
@@ -75,12 +75,12 @@ outfit "Noilcor-07 Blaster Turret" #R7 Heavy Blaster Turret
 		"turret turn" 2
 		"velocity" 30
 		"lifetime" 25
-		"reload" 27
+		"reload" 21
 		"firing energy" 50
 		"firing heat" 80
-		"shield damage" 103
+		"shield damage" 117
 		"hull damage" 90
-		"ion damage" .23
+		"ion damage" .27
 	description "Noilcor-06 with improved accuracy and slightly improved power."
 	
 outfit "Virnel-05 Plasma Turret" #R5 Plasma Chain Turret
@@ -204,8 +204,8 @@ outfit "Zilnor-03 Energy Tracer" #R3 Energy Tracer
 		"turn" 2
 		"homing" 2
 		"optical tracking" .7
-		"shield damage" 360
-		"hull damage" 120
+		"shield damage" 560
+		"hull damage" 420
 		"ion damage" 1
 		"missile strength" 20
 	description "A compact homing energy projectile technology. While it shares some design similarity with other Geeva energy weapons, non of the Geevan seems to understand how it works."
@@ -235,11 +235,10 @@ outfit "Vytorn-01 Homing Beam" #R1 Homing Beam
 		"turn" 5
 		"homing" 4
 		"optical tracking" 1
-		"radar tracking" 1
 		"infrared tracking" 1
-		"shield damage" 1
-		"hull damage" .5
-		"slowing damage" .02
+		"shield damage" 3
+		"hull damage" 1.5
+		"slowing damage" .1
 	description "Homing beam weapon used by Geeva."
 	
 effect "homing beam trail"
@@ -282,33 +281,6 @@ outfit "Palir-07 Shield Generator" #R7
 	"shield heat" 1.1
 	description "Geeva improved shield generator"
 	
-outfit "Aiple-05 Batteries" #R5 Micro
-	category "Power"
-	cost 28000
-	thumbnail "outfit/tiny battery hai"
-	"mass" 5
-	"outfit space" -5
-	"energy capacity" 880
-	description ""
-	
-outfit "Erlip-05 Batteries" #R5 Mini
-	category "Power"
-	cost 42000
-	thumbnail "outfit/small battery hai"
-	"mass" 10
-	"outfit space" -10
-	"energy capacity" 1760
-	description ""
-	
-outfit "Siltr-05 Batteries" R5 Small
-	category "Power"
-	cost 88000
-	thumbnail "outfit/big battery hai"
-	"mass" 21
-	"outfit space" -21
-	"energy capacity" 5100
-	description ""
-	
 outfit "Cirpa-06 Cooling Device" #R6
 	category "Systems"
 	cost 48000
@@ -339,6 +311,36 @@ outfit "Gialor-06 Cooling Device" #R7
 	"cooling" 20
 	description "Geeva active cooling system."
 	
+
+#=========================Power
+
+outfit "Aiple-05 Batteries" #R5 Micro
+	category "Power"
+	cost 28000
+	thumbnail "outfit/tiny battery hai"
+	"mass" 5
+	"outfit space" -5
+	"energy capacity" 880
+	description ""
+	
+outfit "Erlip-05 Batteries" #R5 Mini
+	category "Power"
+	cost 42000
+	thumbnail "outfit/small battery hai"
+	"mass" 10
+	"outfit space" -10
+	"energy capacity" 1760
+	description ""
+	
+outfit "Siltr-05 Batteries" R5 Small
+	category "Power"
+	cost 88000
+	thumbnail "outfit/big battery hai"
+	"mass" 21
+	"outfit space" -21
+	"energy capacity" 5100
+	description ""
+	
 outfit "Niturlo-06 Reactor" #R6 Micro Fusion
 	category "Power"
 	cost 5500000
@@ -355,7 +357,7 @@ outfit "Turlo-06 Reactor" #R6 Fusion
 	thumbnail "outfit/fusion hai"
 	"mass" 78
 	"outfit space" -78
-	"energy generation" 8.6
+	"energy generation" 16.7
 	"heat generation" 30
 	description "Geeva reactor."
 	
@@ -365,9 +367,9 @@ outfit "Solter-01 Reactor" #R1 Sun
 	thumbnail "outfit/fusion hai"
 	"mass" 100
 	"outfit space" -100
-	"energy generation" 15
+	"energy generation" 29.8
 	"heat generation" 180
-	description ""
+	description "Geeva Reactor"
 	
 outfit "Iogel01-04 Thruster" #R4 Tiny Ion Thruster
 	category "Engines"
