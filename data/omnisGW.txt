@@ -7327,3 +7327,40 @@ fleet "Zorcn Xima"
 		heroic
 	variant
 		"Zorcn Xima"
+
+#==============================Galactic War Debug Tools=======================
+
+mission "gw: enable debug mode"
+	name "GW: Enable debug mode"
+	job
+	repeat
+	deadline 1
+	to offer
+		not "gw: debug mode"
+	description "Enables debug mode for Galactic War. For now, this toggles visibility of certain jobs that let you control mission state."
+	source
+		government "cheat"
+	on accept
+		dialog "Galactic War debug mode enabled."
+		set "gw: debug mode"
+
+
+mission "gw: disable debug mode"
+	name "GW: Disable debug mode"
+	job
+	repeat
+	deadline 1
+	to offer
+		has "gw: debug mode"
+	description "Disables debug mode for Galactic War. For now, this toggles visibility of certain jobs that let you control mission state."
+	source
+		government "cheat"
+	on accept
+		dialog "Galactic War debug mode disabled."
+		clear "gw: debug mode"
+		fail
+
+
+phrase "gw mission reset"
+	word
+		"Missions and events have been reset."
