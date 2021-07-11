@@ -3,17 +3,17 @@
 outfit "FN12G Gun"
 	category "Guns"
 	cost 8400000
-	thumbnail "outfit/unknown"
+	thumbnail "outfit/ultaka fm10m"
 	mass 10
 	"outfit space" -10
 	"weapon capacity" -10
 	"gun ports" -1
 	weapon
-		sprite "projectile/blaster"
-		sound "proton"
+		sprite "projectile/ultaka fm10m"
+		sound "gw edistort4"
 		"hit effect" "particle impact"
 		"inaccuracy" .1
-		"velocity" 20
+		"velocity" 25
 		"lifetime" 40
 		"reload" 10
 		"firing energy" 75

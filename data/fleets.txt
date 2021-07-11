@@ -346,7 +346,7 @@ fleet "Narpul Merchant"
 		"Kunshera" 2
 		"Nukrau" 5
 		
-fleet "Recon Ultaka"
+fleet "Recon Ultaka" #Todo Rename to fit with other fleet name.
 	government "Ultaka"
 	names "Ultaka Small"
 	cargo 1
@@ -453,19 +453,58 @@ fleet "Ultaka Big"
 		"Ultaka Conqueror" 1
 		"Ultaka Termite" 14
 		
-fleet "Ultaka mega"
+fleet "Ultaka Mega Small"
 	government "Ultaka(Mega)"
-	names "Ultaka Small"
+	names "Ultaka Big(Mega)"
+	cargo 2
+	personality
+		heroic opportunistic
+	variant 20
+		"Ultaka Shadow Strike" 2
+	variant 20
+		"Ultaka Poltergeist" 3
+	variant 18
+		"Ultaka Shadow Strike"
+		"Ultaka Poltergeist" 3
+
+fleet "Ultaka Mega Big"
+	government "Ultaka(Mega)"
+	names "Ultaka Big(Mega)"
 	cargo 3
 	personality
 		heroic opportunistic
-	variant 8
-		"Ultaka Shadow Strike"
-	variant 2
+	variant 20
+		"Ultaka Shadow Strike" 5
+		"Ultaka Poltergeist" 7
+	variant 13
 		"Ultaka Necromancer"
+		"Ultaka Revenant" 40
+		"Ultaka Wraith" 40
 		"Ultaka Shadow Strike" 2
+	variant 15
+		"Ultaka Darkedge"
+		"Ultaka Poltergeist" 5
+	variant 10
+		"Ultaka Darkedge"
+		"Ultaka Necromancer"
+		"Ultaka Revenant" 40
+		"Ultaka Wraith" 40
+		"Ultaka Shadow Strike" 3
+	variant 7
+		"Ultaka Darkedge" 2
+		"Ultaka Necromancer"
+		"Ultaka Revenant" 40
+		"Ultaka Wraith" 40
+		"Ultaka Shadow Strike" 6
+		"Ultaka Poltergeist" 6
+	variant 1
+		"Ultaka Netherward"
+		"Ultaka Wraith" 14
+		"Ultaka Darkedge" 2
+		"Ultaka Shadow Strike" 4
+		"Ultaka Poltergeist" 6
 
-fleet "Ultaka neurn"
+fleet "Ultaka Neurn Small"
 	government "Ultaka"
 	names "Ultaka Small"
 	cargo 3
@@ -473,8 +512,47 @@ fleet "Ultaka neurn"
 		heroic opportunistic
 	variant 8
 		"Ultaka Ghost"
-		
 
+fleet "Ultaka Alrul Big"
+	government "Ultaka(Alrul)"
+	names "Ultaka Big(Mega)"
+	cargo 5
+	personality
+		heroic opportunistic
+	variant 2
+		"Ultaka Vyvis"
+		"Ultaka Var'ahx" 2
+	variant 22
+		"Ultaka Julseir"
+		"Ultaka Var'ahx" 5
+	variant 20
+		"Ultaka Julseir" 3
+		"Ultaka Var'ahx" 5
+	variant 1
+		"Ultaka Vyvis"
+		"Ultaka Julseir" 2
+		"Ultaka Var'ahx" 3
+
+fleet "Ultaka Alrul Small"
+	government "Ultaka(Alrul)"
+	names "Ultaka Small"
+	cargo 1
+	personality
+		heroic opportunistic
+	variant 20
+		"Ultaka Var'ahx" 3
+	variant 14
+		"Ultaka Julseir"
+		"Ultaka Var'ahx" 2
+		
+fleet "Ultaka Thwarter"
+	government "Ultaka(Alrul)"
+	names "Ultaka Big(Mega)"
+	cargo 5
+	personality
+		heroic opportunistic
+	variant 1
+		"Vyvis Thwarter"
 		
 fleet "Revos small"
 	government "Revos"

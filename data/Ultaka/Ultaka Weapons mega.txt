@@ -83,8 +83,8 @@ outfit "KLG1 Turret"
 		"hit effect" "blaster impact"
 		"inaccuracy" 1
 		"turret turn" 12
-		"velocity" 30
-		"lifetime" 30
+		"velocity" 35
+		"lifetime" 60
 		"reload" 22
 		"firing energy" 20
 		"firing heat" 86
@@ -106,8 +106,8 @@ outfit "DKS1 Turret"
 		"hit effect" "particle impact"
 		"inaccuracy" .1
 		"turret turn" 3
-		"velocity" 30
-		"lifetime" 28
+		"velocity" 35
+		"lifetime" 56
 		"reload" 59
 		"firing energy" 10
 		"firing heat" 10
@@ -129,8 +129,8 @@ outfit "DKS2 Turret"
 		"hit effect" "particle impact"
 		"inaccuracy" .1
 		"turret turn" 3
-		"velocity" 32
-		"lifetime" 30
+		"velocity" 38
+		"lifetime" 60
 		"reload" 60
 		"firing energy" 12
 		"firing heat" 11
@@ -189,7 +189,7 @@ outfit "KDT5 anti missile"
 		sound "repeater"
 		"anti-missile" 400
 		"turret turn" 20
-		"velocity" 600
+		"velocity" 1200
 		"lifetime" 1
 		"reload" 5
 		"burst reload" 1
@@ -274,18 +274,19 @@ outfit "Ultaka Harvester Beam" #LOKS
 		"velocity" 3000
 		"lifetime" 1
 		"hit effect" "antimatter dust" 10
-		"hit effect" "nuke explosion" 3
-		"fire effect" "nuke explosion" 3
+		"hit effect" "nuke explosion" 1
+		"fire effect" "nuke explosion" 1
 		"reload" 10
 		"burst count" 120
 		"burst reload" 1
 		"firing energy" 2910
 		"firing heat" 1470
 		"hit force" -900
-		"firing force" -900
+		"firing force" -9
 		"shield damage" 1000
-		"hull damage" 521000
+		"hull damage" 121000
 		"ion damage" 5000
+		"energy damage" 1000
 		"fuel damage" 5000
 		"phasing"
 		"piercing" 2
@@ -343,6 +344,66 @@ outfit "Ultaka Executor Missile"
 		"missile strength" 5000
 		"piercing" 3
 	
+outfit "Ultaka Punisher"
+	category "Guns"
+	cost 1500000000
+	thumbnail "outfit/unknown"
+	"mass" 225
+	"outfit space" -225
+	"weapon capacity" -225
+	"gun ports" -1
+	"spinal mount" -1
+	weapon
+		"sprite" "projectile/ultaka executor bolt"
+			"frame rate" 6.66
+		"inaccuracy" 0
+		"velocity" 75
+		"lifetime" 2000
+		"hit effect" "antimatter dust" 10
+		"hit effect" "ultaka cosmic ripper hit"
+		"reload" 200
+		"burst count" 3
+		"burst reload" 12
+		"firing energy" 9010
+		"firing heat" 8870
+		"blast radius" 800
+		"safe"
+		"shield damage" 1000000000000
+		"hull damage" 500000000000
+		"piercing" 100000000
+		"disruption damage" 1000000000
+		"heat damage" 1000000000
+		"slowing damage" 1000000000
+	description "Bad bad."
+
+outfit "Ultaka Obstructor"
+	category "Turrets"
+	cost 6500000
+	thumbnail "outfit/unknown"
+	"mass" 80
+	"outfit space" -80
+	"weapon capacity" -80
+	"turret mounts" -1
+	weapon
+		"hit effect" "ultaka death touch"
+		"velocity" 1
+		"turret turn" 360
+		"lifetime" 1
+		"reload" 1
+		"blast radius" 2000
+		"trigger radius" 2000
+		"range override" 2000
+		"safe"
+		"no damage scaling"
+		"firing energy" 20
+		"firing heat" 5
+		"hit force" 5
+		"disruption damage" 1000000000
+		"heat damage" 1000000000
+		"slowing damage" 1000000000
+		"ion damage" 100000000000
+	description "Bad bad."
+
 effect "ul hellstorm live"
 	sprite "projectile/larpauron"
 		"frame rate" 10

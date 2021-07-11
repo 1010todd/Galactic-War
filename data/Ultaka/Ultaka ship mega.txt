@@ -16,7 +16,7 @@ ship "Ultaka Poltergeist"
 		"cost" 900000
 		"shields" 85000
 		"hull" 67000
-		"hull repair rate" 300
+		"hull repair rate" 30
 		"required crew" 1
 		"bunks" 3
 		"mass" 250
@@ -67,7 +67,7 @@ ship "Ultaka Shadow Strike"
 		"cost" 59000000
 		"shields" 343000
 		"hull" 262000
-		"hull repair rate" 1200
+		"hull repair rate" 120
 		"required crew" 150
 		"bunks" 600
 		"mass" 300
@@ -133,7 +133,7 @@ ship "Ultaka Necromancer"
 		"cost" 91000000
 		"shields" 1600000
 		"hull" 901000
-		"hull repair rate" 1600
+		"hull repair rate" 160
 		"required crew" 300
 		"bunks" 950
 		"mass" 760
@@ -274,7 +274,7 @@ ship "Ultaka Darkedge"
 		"cost" 60000000
 		"shields" 3300000
 		"hull" 970000
-		"hull repair rate" 20
+		"hull repair rate" 200
 		"required crew" 560
 		"bunks" 1210
 		"mass" 780
@@ -364,6 +364,7 @@ ship "Ultaka Death Bringer"
 		"engine capacity" 1200
 		"energy generation" 2000
 		"spinal mount" 2
+		"force protection" 660
 		weapon
 			"blast radius" 5000
 			"shield damage" 100000
@@ -442,7 +443,7 @@ ship "Ultaka Netherward"
 		"cost" 400000000
 		"shields" 11500000
 		"hull" 1395000
-		"hull repair rate" 2000
+		"hull repair rate" 500
 		"required crew" 600
 		"bunks" 1600
 		"mass" 2340
@@ -455,6 +456,7 @@ ship "Ultaka Netherward"
 		"engine capacity" 1200
 		"energy generation" 1600
 		"spinal mount" 2
+		"force protection" 250
 		weapon
 			"blast radius" 3500
 			"shield damage" 100000
@@ -539,7 +541,7 @@ ship "Ultaka Wraith"
 		"cost" 400000
 		"shields" 75000
 		"hull" 59000
-		"hull repair rate" 150
+		"hull repair rate" 15
 		"required crew" 1
 		"bunks" 1
 		"mass" 200
@@ -631,7 +633,7 @@ ship "Ultaka Revenant"
 		"cost" 400000
 		"shields" 72000
 		"hull" 51000
-		"hull repair rate" 100
+		"hull repair rate" 10
 		"mass" 180
 		"drag" 6.9
 		"heat dissipation" 1.3
@@ -640,7 +642,7 @@ ship "Ultaka Revenant"
 		"outfit space" 426
 		"weapon capacity" 149
 		"engine capacity" 107
-		"self destruct" .01
+		"self destruct" .1
 		"radar jamming" 5
 		"scan interference" .8
 		weapon

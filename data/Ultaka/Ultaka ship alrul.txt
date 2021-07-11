@@ -148,6 +148,7 @@ ship "Ultaka Julseir"
 		"Hausiar Revolver"
 
 		"B60 Ve'el Core"
+		"B6E Hap'al Battery"
 		
 		"Urvulre Engines" 2
 		
@@ -224,6 +225,7 @@ ship "Ultaka Vyvis"
 		"Urxesh Summoner" 2
 
 		"B60 Ve'el Core"
+		"B6E Hap'al Battery"
 
 		"Urvulre Engines" 3
 
@@ -252,6 +254,27 @@ ship "Ultaka Vyvis"
 	explode "ultaka gate drive" 50
 	description "Exotic Ultaka warship widely believed to be just a myth, or rather most who saw it never returns."
 
+ship "Ultaka Vyvis" "Vyvis Thwarter"
+	attribute
+		"shields" 45300000
+		"shield generation" 450000
+		"hull" 1000000
+		"hull protection" 99
+		"hull repair rate" 80000
+		"piercing protection" 99
+		"shield protection" 99
+		"energy protection" 99
+	outfits
+		"Ve'raun defense"
+		"Ultaka Punisher"
+		"Ultaka Obstructor" 4
+		"Urxesh Summoner" 2
+
+		"B60 Ve'el Core"
+		"B6E Hap'al Battery"
+
+		"Urvulre Engines" 3
+	
 #============================[Fighter]===============================
 
 

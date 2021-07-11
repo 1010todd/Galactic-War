@@ -1,4 +1,4 @@
-#
+#===============Spawn weapons for Ultaka mothership
 mission "Ultaka Saska Lape Weapon"
 	invisible
 	landing
@@ -10,3 +10,272 @@ mission "Ultaka Saska Lape Weapon"
 		personality staying heroic launching
 		system "Saska"
 		fleet "Ultaka mothership weapon" 3
+
+
+#==================Response to being hunted
+mission "Ultaka Saska: Increase Security"
+	landing
+	invisible
+	to offer
+		or
+			has "Ultaka Saska Lape Weapon: done" >= 2
+			"reputation: Ultaka" <= -5000
+	on offer
+		event "Ultaka upgrade 1"
+		event "Ultaka Saska: Mega Deployment"
+		event "Ultaka Saska: Security Timer" 14
+		
+event "Ultaka Saska: Mega Deployment"
+	system Saska
+		add fleet "Ultaka Mega Big" 700
+		add fleet "Ultaka Mega Small" 700
+		
+event "Ultaka Saska: Security Timer"
+
+mission "Ultaka Saska: Increase Security II"
+	landing
+	invisible
+	to offer
+		"reputation: Ultaka" <= -10000
+		"armament deterrence" >= 20000
+	on offer
+		event "Ultaka Saska: Alrul Deployment"
+		event "Ultaka Saska: Security Timer II" 14
+
+event "Ultaka Saska: Alrul Deployment"
+	system Saska
+		add fleet "Ultaka Alrul Small" 700
+		add fleet "Ultaka Alrul Big" 700
+
+event "Ultaka Saska: Security Timer II"
+
+mission "Ultaka Saska: Provoked"
+	landing
+	invisible
+	to offer
+		not "Ultaka Saska: Security Timer"
+		"reputation: Ultaka" <= -5100
+
+mission "Ultaka Saska: Ultaka Hunt Player I"
+	landing
+	invisible
+	repeat 5
+	to offer
+		"Ultaka Saska: Provoked: offered" >= 1
+		or
+			random < 10
+			and
+				random < 30
+				"armament deterrence" >= 10000
+	npc kill
+		government "Ultaka"
+		personality
+			vindictive target entering
+		system
+			distance 0 2
+		fleet "Ultaka Big" 1
+		
+mission "Ultaka Saska: Ultaka Hunt Player Ia"
+	landing
+	invisible
+	repeat
+	to offer
+		"Ultaka Saska: Provoked: offered" >= 1
+		or
+			random < 5
+			and
+				random < 40
+				"armament deterrence" >= 15000
+	npc kill
+		government "Ultaka"
+		personality
+			nemesis vindictive target entering
+		system
+			distance 0 1
+		fleet "Ultaka Neurn Small" 3
+		
+mission "Ultaka Saska: Ultaka Hunt Player II"
+	landing
+	invisible
+	repeat 12
+	to offer
+		"Ultaka Saska: Provoked: offered" >= 1
+		or
+			random < 10
+			and
+				random < 40
+				"armament deterrence" >= 15000
+		"reputation: Ultaka" <= -7000
+	npc kill
+		government "Ultaka"
+		personality
+			vindictive target entering
+		system
+			distance 0 2
+		fleet "Ultaka Big" 3
+		
+mission "Ultaka Saska: Ultaka Hunt Player III"
+	landing
+	invisible
+	repeat 20
+	to offer
+		"Ultaka Saska: Provoked: offered" >= 1
+		or
+			random < 24
+			and
+				random < 40
+				"armament deterrence" >= 15000
+		"reputation: Ultaka" <= -8200
+	npc kill
+		government "Ultaka(Mega)"
+		personality
+			vindictive target entering
+		system
+			distance 0 2
+		fleet "Ultaka Mega Big" 2
+
+mission "Ultaka Saska: Ultaka Hunt Player IV"
+	landing
+	invisible
+	repeat 5
+	to offer
+		"Ultaka Saska: Provoked: offered" >= 1
+		or
+			random < 20
+			and
+				random < 40
+				"armament deterrence" >= 15000
+		"reputation: Ultaka" <= -9000
+	npc kill
+		government "Ultaka(Mega)"
+		personality
+			vindictive target entering
+		system
+			distance 0 1
+		fleet "Ultaka Mega Big" 4
+
+mission "Ultaka Saska: Ultaka Hunt Player V"
+	landing
+	invisible
+	repeat 15
+	to offer
+		"Ultaka Saska: Provoked: offered" >= 1
+		or
+			random < 20
+			and
+				random < 50
+				"armament deterrence" >= 20000
+		"reputation: Ultaka" <= -10000
+	npc kill
+		government "Ultaka(Mega)"
+		personality
+			vindictive target entering
+		system
+			distance 0 2
+		fleet "Ultaka Mega Big" 5
+
+# VI, VII reserved for Ultaka Lvoris
+
+mission "Ultaka Saska: Ultaka Hunt Player VIII"
+	landing
+	invisible
+	repeat 10
+	to offer
+		"Ultaka Saska: Provoked: offered" >= 1
+		or
+			random < 10
+			and
+				random < 50
+				"armament deterrence" >= 20000
+		"reputation: Ultaka" <= -15000
+	npc kill
+		government "Ultaka(Alrul)"
+		personality
+			nemesis vindictive target entering
+		system
+			distance 0 2
+		fleet "Ultaka Alrul Big" 2
+
+mission "Ultaka Saska: Ultaka Hunt Player IX"
+	landing
+	invisible
+	repeat 15
+	to offer
+		"Ultaka Saska: Provoked: offered" >= 1
+		or
+			random < 10
+			and
+				random < 50
+				"armament deterrence" >= 20000
+		"reputation: Ultaka" <= -18000
+	npc kill
+		government "Ultaka(Alrul)"
+		personality
+			nemesis vindictive target entering
+		system
+			distance 0 1
+		fleet "Ultaka Alrul Big" 3
+
+mission "Ultaka Saska: Ultaka Hunt Player X"
+	landing
+	invisible
+	repeat 15
+	to offer
+		"Ultaka Saska: Provoked: offered" >= 1
+		or
+			random < 6
+			and
+				random < 50
+				"armament deterrence" >= 20000
+		"reputation: Ultaka" <= -20000
+	npc kill
+		government "Ultaka(Alrul)"
+		personality
+			nemesis vindictive target entering
+		system
+			distance 0 1
+		fleet "Ultaka Alrul Big" 5
+
+mission "Ultaka Saska: Ultaka Hunt Player EX"
+	landing
+	invisible
+	repeat
+	to offer
+		"Ultaka Saska: Provoked: offered" >= 1
+		or
+			and
+				random < 5
+				"armament deterrence" >= 120000
+			and
+				random < 50
+				"armament deterrence" >= 120000
+				"ships: Transport" >= 1
+				"flagship bunks" == 10000
+		"reputation: Ultaka" <= -25000
+	npc kill
+		government "Ultaka(Alrul)"
+		personality
+			nemesis vindictive target entering
+		system
+			distance 0 1
+		fleet "Ultaka Thwarter" 3
+
+mission "Ultaka Saska: Ultaka Hunt Player XI"
+	landing
+	invisible
+	repeat 15
+	to offer
+		"Ultaka Saska: Provoked: offered" >= 1
+		or
+			random < 7
+			and
+				random < 40
+				"armament deterrence" >= 24000
+		"reputation: Ultaka" <= -20000
+	npc kill
+		government "Ultaka(Alrul)"
+		personality
+			nemesis vindictive target entering
+		system
+			distance 0 1
+		fleet "Ultaka Alrul Big" 5

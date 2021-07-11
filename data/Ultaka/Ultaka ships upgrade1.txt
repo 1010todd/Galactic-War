@@ -1,81 +1,35 @@
 
-ship "Ultaka Dominator" "Dominator UP1"
-	sprite "ship/ultaka dominator"
-	attributes
-		category "Light Warship"
-		"cost" 59000000
-		"shields" 246000
-		"hull" 136700
-		"hull repair" 17
-		"required crew" 280
-		"bunks" 600
-		"mass" 370
-		"drag" 10.3
-		"heat dissipation" .8
-		"fuel capacity" 600
-		"cargo space" 500
-		"outfit space" 620
-		"weapon capacity" 380
-		"engine capacity" 120
-		"energy generation" 800
-		weapon
-			"blast radius" 250
-			"shield damage" 1000
-			"hull damage" 500
-			"hit force" 1500
+ship "Ultaka Hunter" "Hunter UP1"
 	outfits
-		"USG150 Shield Generator"
-		"B60 Ve'el Core"
+		"USG50 Shield Generator"
+		"B10 Anht Core"
+		"B6E Hap'al Battery"
+		"Ultaka Heat Shunt"
+		"Kel'aku-Cu Engines"
+		"FN12G Gun" 3
+		"Model-3A Rifle" 1
+
+ship "Ultaka Dominator" "Dominator UP1"
+	outfits
+		"USG100 Shield Generator"
+		"B20 Erul Core"
+		"B6E Hap'al Battery"
 		"Ultaka Heat Shunt"
 		"Kel'aku Engines"
-		"U30-A anti missile" 1
-		"M20G Turret" 2
-	
-	gun 0 -120
-	turret -33 3
-	turret 33 3
-	turret 0 -69.5 "U30-A anti missile"
-	engine -26 111
-		zoom 1
-		angle 0
-		under
-	engine 26 111
-		zoom 1
-		angle 0
-		under
-	"steering engine" -22 -88.5
-		zoom .5
-		angle -90
-		under
-		left
-	"steering engine" 22 -88.5
-		zoom .5
-		angle 90
-		under
-		right
-	"steering engine" -39.5 33.5
-		zoom .5
-		angle -90
-		under
-		left
-	"steering engine" 39.5 33.5
-		zoom .5
-		angle 90
-		under
-		right
-	"reverse engine" -20.5 -94.5
-		zoom 1
-		angle 0
-		under
-	"reverse engine" 20.5 -94.5
-		zoom 1
-		angle 0
-		under
-	engine 16 117
-	engine -21.5 117
-	explode "tiny explosion" 12
-	explode "small explosion" 16
-	explode "medium explosion" 30
-	explode "big explosion" 40
-	explode "huge explosion" 20
-	description "Ultaka's warship"
+		"U20-AG anti missile"
+		"N20G Turret" 2
+		"E40R-D" 1
+		"Model-3A Rifle" 5
+
+ship "Ultaka Dominator" "Dominator UP1a"
+	outfits
+		"USG100 Shield Generator"
+		"B20 Erul Core"
+		"B6E Hap'al Battery"
+		"Ultaka Heat Shunt"
+		"Kel'aku Engines"
+		"D25E B-Field Projector"
+		"N20G Turret" 2
+		"E40R-D" 1
+		"Model-3A Rifle" 5
+		
