@@ -315,7 +315,7 @@ outfit "hausiar spawner 1" #Spawn the first shot delay and the spawner for the n
 			"start frame" 1
 		"lifetime" 2 #Projectile have turn applied on the subsequent frame, if lifetime 1, it'll be dead before it can turn
 		"turn" 126
-		"velocity" -200
+		"velocity" -300
 		"submunition" "hausiar spawner 2"
 		"submunition" "hausiar wait 1"
 		

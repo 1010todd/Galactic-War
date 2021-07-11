@@ -718,30 +718,30 @@ fleet "Kakaima Defense"
 		heroic
 		frugal 
 		opportunistic
-	variant 10
+	variant 7
 		"Grokva"
 		"Girok" 6
 	variant 20
 		"Grakka"
-	variant 15
+	variant 22
 		"Grakka" 2
 	variant 1
 		"Grokva" 2
 		"Grakka" 4
 		"Girok" 12
-	variant 10
+	variant 5
 		"Garokka" 2
 		"Grokva (Heavy)" 1
-	variant 15
+	variant 25
 		"Garokka (Light)" 3
-	variant 15
+	variant 21
 		"Garokka (Heavy)" 3
-	variant 10
+	variant 5
 		"Garokka (Heavy)" 2
 		"Grokva (Heavy)" 1
 		"Girok" 6
 		"Garokka (Light)" 3
-	variant 10
+	variant 7
 		"Garokka (Heavy)" 2
 		"Grokva" 1
 		"Girok" 6
@@ -1579,7 +1579,7 @@ fleet "Small Zorcn Vuskr"
 	names "Vuskr Zorcn"
 	cargo 0
 	personality
-		heroic opportunistic
+		heroic
 	variant 20
 		"Zorcn Barsten" 2
 	variant 15
@@ -1594,7 +1594,7 @@ fleet "Large Zorcn Vuskr"
 	names "Vuskr Zorcn"
 	cargo 0
 	personality
-		heroic opportunistic
+		heroic
 	variant 20
 		"Zorcn Incskv"
 		"Zorcn Barsten" 3
@@ -1628,7 +1628,7 @@ fleet "Small Zorcn Merchant"
 	cargo 4
 	personality
 		confusion 30
-		timid frugal
+		timid #Most of their weapon use ammo, frugal will prevent them from using their weapon until it's too late.
 	variant 40
 		"Zorcn Bermas"
 	variant 40
@@ -1710,7 +1710,7 @@ fleet "Large Zorcn Merchant"
 	cargo 4
 	personality
 		confusion 20
-		timid frugal
+		timid
 	variant 20
 		"Zorcn Mtyr"
 		"Zorcn Dermue"
@@ -1846,6 +1846,35 @@ fleet "Tehru Insker Patrol"
 		"Tehru Avir" 3
 	variant 10
 		"Tehru Tcvarka" 1
+		"Tehru Mavuin"
+		"Tehru Avir" 2
+		"Tehru Piv" 6
+
+fleet "Tehru Insker Merchant"
+	government "Tehru Insker"
+	names "Tehru"
+	cargo 2
+	personality
+		timid
+		confusion 25
+	variant 15
+		"Tehru Vurbck"
+		"Tehru Avir" 2
+	variant 13
+		"Tehru Vurbck" 2
+		"Tehru Avir" 5
+	variant 12
+		"Tehru Vurbck" 2
+		"Tehru Tcvarka"
+		"Tehru Avir" 2
+	variant 12
+		"Tehru Vurbck" 2
+		"Tehru Mavuin"
+		"Tehru Piv" 6
+		"Tehru Avir" 2
+	variant 6
+		"Tehru Tcvarka" 1
+		"Tehru Vurbck" 3
 		"Tehru Mavuin"
 		"Tehru Avir" 2
 		"Tehru Piv" 6

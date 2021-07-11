@@ -1,31 +1,12 @@
 #
-mission "Saska Lape Weapon"
+mission "Ultaka Saska Lape Weapon"
 	invisible
 	landing
-	npc
+	repeat
+	to offer
+		not "Ultaka Saska Lape Weapon: active"
+	npc kill
 		government Ultaka
-		personality staying heroic
+		personality staying heroic launching
 		system "Saska"
-		ship "SSm10"
-			attributes
-				"hull" 500
-				"automaton" 1
-				"mass" 10
-				"drag" 1
-				"heat dissipation" .9
-				"outfit space" 50
-				"weapon capacity" 50
-				"heat generation" .1
-		
-				"energy generation" 400
-				"energy capacity" 100
-				"turn" 45
-				"turning energy" .2
-				"thrust" 20
-				"thrusting energy" .3
-			outfits
-				"SSm10 Turret"
-	
-			engine -17 35
-			engine 17 35
-			turret 0 0
+		fleet "Ultaka mothership weapon" 3

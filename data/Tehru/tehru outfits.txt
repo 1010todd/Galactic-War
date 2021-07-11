@@ -286,7 +286,7 @@ outfit "varsrel beam 5"
 
 outfit "Illar Missile Defence"
 	category "Turrets"
-	cost 80000
+	cost 380000
 	thumbnail "outfit/tehru vrrpak turret"
 	"mass" 20
 	"outfit space" -20
@@ -303,8 +303,8 @@ outfit "Illar Missile Defence"
 		"reload" 15
 		"burst reload" 2
 		"burst count" 5
-		"firing energy" .5
-		"firing heat" .2
+		"firing energy" 2.5
+		"firing heat" 1.2
 	description "This is basically a smaller version of Vrrpak Turret."
 	
 effect "illar am"

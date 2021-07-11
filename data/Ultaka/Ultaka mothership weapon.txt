@@ -19,8 +19,6 @@ ship "SSm10"
 	outfits
 		"SSm10 Turret"
 	
-	engine -17 35
-	engine 17 35
 	turret 0 0 "SSm10 Turret"
 	description "SSm10 Turret representation of a planet-based gun"
 	
@@ -40,7 +38,7 @@ outfit "SSm10 Turret"
 		"hardpoint offset" 9.
 		"inaccuracy" 1
 		"turret turn" 5.5
-		"velocity" 20
+		"velocity" 65
 		"lifetime" 150
 		"reload" 20
 		"firing energy" 15
@@ -82,8 +80,6 @@ ship "U-AF"
 	outfits
 		"G10 Turret"
 	
-	engine -17 35
-	engine 17 35
 	turret 0 0
 	
 outfit "G10 Turret"
@@ -95,12 +91,14 @@ outfit "G10 Turret"
 	"weapon capacity" -10
 	"turret mounts" -1
 	weapon
-		sprite "projectile/tiny dual ion"
-		sound "ion"
+		sprite "projectile/ion bolt"
+		sound "gw energy1"
 		"hit effect" "blaster impact"
+		"submunition" "Type-E fragment" 7
 		"turret turn" 4
 		"inaccuracy" 1
-		"velocity" 14
+		"velocity" 30
+		"velocity override" 45
 		"lifetime" 10
 		"reload" 10
 		"firing energy" 5
