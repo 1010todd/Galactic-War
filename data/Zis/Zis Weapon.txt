@@ -799,11 +799,11 @@ outfit "Buztekur Turret"
 		"burst reload" 1
 		"firing energy" 100
 		"firing heat" 330
-		"firing force" 150
-		"hit force" 1000
+		"firing force" 10
+		"hit force" 200
 		"gravitational"
 		"shield damage" 120
-		"hull damage" 50000
+		"hull damage" 6800
 		"tracking" 1
 		"homing" 4
 		"turn" 4
@@ -832,13 +832,13 @@ outfit "Kelzilvaan Turret"
 		"reload" 12
 		"burst count" 30
 		"burst reload" 1
-		"firing energy" 5000
+		"firing energy" 500
 		"firing heat" 20
-		"shield damage" 10000
-		"hull damage" 20000
-		"disruption damage" 50
+		"shield damage" 8000
+		"hull damage" 10000
+		"disruption damage" 10
 		"slowing damage" 50
-		"hit force" -2000
+		"hit force" -1000
 		"gravitational"
 		"cluster"
 	description "Zis tractor beam."

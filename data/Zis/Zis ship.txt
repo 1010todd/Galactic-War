@@ -1518,20 +1518,20 @@ ship "ZN-7681 Eaxes"
 	gun 0 -550
 	gun 0 -550
 	gun 0 -550
-	turret -116 -220 "Tizon Turret"
-	turret 116 -220 "Tizon Turret"
-	turret -124 -140 "Tizon Turret"
-	turret 124 -140 "Tizon Turret"
-	turret -126 -70 "Tizon Turret"
-	turret 126 -70 "Tizon Turret"
+	turret -116 -220
+	turret 116 -220
+	turret -124 -140
+	turret 124 -140
+	turret -126 -70
+	turret 126 -70 
 	turret -8 4 "Rozzen VLS Array"
 	turret 8 4 "Rozzen VLS Array"
 	turret -74 26 "Ginal Turret"
 	turret 74 26 "Ginal Turret"
 	turret -70 292 "Ginal Turret"
 	turret 70 292 "Ginal Turret"
-	turret 0 350 "Tizon Turret"
-	turret 0 424 "Tizon Turret"
+	turret 0 350 
+	turret 0 424 
 	#AM
 	turret -8 4 "ZIS Anti-Missile System"
 	turret 8 4 "ZIS Anti-Missile System"
@@ -1570,6 +1570,22 @@ ship "ZN-7681 Eaxes"
 	description `[A]`
 	description `A more recent battlecarrier design.`
 	
+ship "ZN-7681 Eaxes" "Eaxes Dissector"
+	outfits
+		"Zis Dragon's Breath" 
+		"Ginal Turret" 4
+		"ZIS Anti-Missile System" 8
+		"Zis Dissector Turret" 8
+		"Rozzen VLS Array" 2
+		
+		"EPb12Cx-04 Generator" 2
+		"ESa12Gt-05 Battery" 
+		"GSb14Gp-02 Shielding"
+		"GHb12Gp-02 Hull Repair"
+		
+		"MPa60Gp-02 Engines" 4
+		"Zis Galactic Drive"
+
 ship "Balzita"  
 	sprite "ship/zis balzita"
 	"never disabled"
