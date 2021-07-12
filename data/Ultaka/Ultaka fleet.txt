@@ -23,19 +23,7 @@ fleet "Ultaka Traps"
 		"Ultaka Trapper" 3
 	variant 1
 		"Ultaka Trapper" 8
-		
-fleet "Resmakia Mines"
-	government "Resmakia"
-	cargo 0
-	personality
-		waiting heroic mute staying
-	variant 60
-		"Resmakia Asteroid" 5
-	variant 30
-		"Resmakia Asteroid" 6
-	variant 1
-		"Resmakia Asteroid" 8
-		
+
 fleet "Ultaka Small"
 	government "Ultaka"
 	names "Ultaka Small"
