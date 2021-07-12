@@ -1,0 +1,103 @@
+# Galactic War missions not associated with any race or faction.
+
+outfit "Black Box"
+	category "Special"
+	cost 0
+	thumbnail "outfit/keystone"
+	"mass" 0
+	"outfit space" 0
+	"universal converter" 1
+	description "Mysterious black box that plugs into your ship."
+
+mission "gw: obtain black box"
+	landing
+	repeat
+	invisible
+	deadline 1
+	source
+		planet "Derelict Station"
+	to offer
+		not "gw: universal converter"
+	on offer
+		conversation
+			`Inside the station you find a long corridor, at the end of which stands a small chamber with a single pedestal in the center. A black box, small enough to fit in the palm of your hand, rests atop it.`
+
+			choice
+				`	(Take the box.)`
+					goto take
+				`	(Leave it.)`
+
+			`You search the rest of the small station, but there seems to be nothing else here. You return to your ship empty handed.`
+				goto done
+
+			label take
+			`	As soon as you touch the box, an array of electric blue lights appear on its surface, pulsing over your hand like ripples in a pond. It feels strange, like the device is scanning you or marking you somehow. Your hand tingles as if falling asleep, and you find that you can no longer move it, nor can you pull your body away.`
+			`	Feeling trapped, an involuntary shudder runs through you.`
+			`	You are just beginning to think of drastic escape measures when you see the pulses subside, and you feel the telltale tingling of your hand waking up. Through the fabric of your gloves, you feel the heavy click of a lock disengaging, and the box comes free at last.
+			`	The alien device feels unnaturally heavy in your hands.`
+			`	As you are about to leave the room, you see another seemingly identical box appear on the pedestal in place of the one you now hold. Not wanting to test your luck again, you leave it alone.`
+
+			choice
+				`(Return to your ship.)`
+
+			`	Back on your ship, you turn the mysterious black box over in your hands as you wonder what to do with it. As you do, you notice a grippable tab where the box was once locked to the pedestal. Curious, you pull on the tab, and a cord comes spooling out, sheathed in tightly woven, silvery white fabric that is cool to the touch.`
+			`	To your surprise, on the underside of the tab is a standard plug compatible with your ship's computer systems.`
+
+			choice
+				`	(Plug it in.)`
+					goto install
+				`	(Don't.)`
+					decline
+
+			label install
+			`	As soon as you plug the black box into your ship, an array of lines on the outside of the box light up with an electric blue glow. Other than that, nothing appears to happen, and a quick test of your ship's systems shows everything still in working order. You are sure that something has changed; you just don't know what.`
+			choice
+				`	"I'm sure this alien tech is completely trustworthy."`
+					accept
+				`	"Screw it. If this is some kind of space virus, I'm coming back and nuking the station from orbit."`
+					accept
+
+	on accept
+		set "gw: universal converter"
+		outfit "Black Box" 1
+
+#
+# Debug Tools
+#
+
+mission "gw: remove universal converter"
+	name "GW: Remove Universal Converter"
+	job
+	repeat
+	deadline 1
+	to offer
+		has "gw: debug mode"
+		has "gw: universal converter"
+	description "Takes away the Black Box (if you have one) and resets the mission where you get it."
+	source
+		government "cheat"
+	on accept
+		dialog "Universal Converter removed."
+		outfit "Black Box" -1
+		clear "gw: universal converter"
+		clear "gw: obtain black box: offered"
+		clear "gw: obtain black box: accepted"
+		clear "gw: obtain black box: declined"
+		clear "gw: obtain black box: failed"
+
+
+mission "gw: give universal converter"
+	name "GW: Give Universal Converter"
+	job
+	repeat
+	deadline 1
+	to offer
+		has "gw: debug mode"
+		not "gw: universal converter"
+	description "Allows use of the galactic wormhole."
+	source
+		government "cheat"
+	on accept
+		dialog "Universal Converter installed."
+		outfit "Black Box" 1
+		set "gw: universal converter"

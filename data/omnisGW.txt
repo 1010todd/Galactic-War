@@ -7358,7 +7358,6 @@ mission "gw: disable debug mode"
 	on accept
 		dialog "Galactic War debug mode disabled."
 		clear "gw: debug mode"
-		fail
 
 
 phrase "gw mission reset"

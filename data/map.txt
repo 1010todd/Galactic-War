@@ -101749,6 +101749,10 @@ system Wensta
 		sprite planet/wormhole
 		distance 2927.99
 		period 1078.53
+		object "Derelict Station"
+			sprite planet/station3kd
+			distance 560
+			period 500
 
 system Woggenlo
 	pos -50744.7 -54862.9
@@ -103498,6 +103502,12 @@ planet Deunaee
 	description .
 	spaceport .
 	outfitter "Dels Standard"
+
+planet "Derelict Station"
+	landscape land/sivael6
+	government Uninhabited
+	security 0
+	description "A derelict station of clearly alien origin orbits the system's wormhole."
 
 planet "Dev Station Dels"
 	landscape land/nasa5
@@ -107266,6 +107276,7 @@ planet Wobore
 	outfitter "Donko Advanced"
 
 planet "Wormhole Glink"
+	attributes "requires: universal converter"
 
 planet Xornir
 	landscape land/city1
