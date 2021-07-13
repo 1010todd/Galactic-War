@@ -59,7 +59,12 @@ mission "gw: obtain black box"
 
 	on accept
 		set "gw: universal converter"
+		event "gw: unlock wormhole"
 		outfit "Black Box" 1
+
+event "gw: unlock wormhole"
+	planet "Wormhole Glink"
+		remove attributes "requires: inaccessible"
 
 #
 # Debug Tools
@@ -101,3 +106,4 @@ mission "gw: give universal converter"
 		dialog "Universal Converter installed."
 		outfit "Black Box" 1
 		set "gw: universal converter"
+		event "gw: unlock wormhole"

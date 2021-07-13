@@ -8147,7 +8147,7 @@ system Bovdar
 	trade Medical 844
 	trade Metal 334
 	trade Plastic 421
-	fleet "Dels Kaote" 1200
+	fleet "Dels Kaote" 1400
 	fleet "Dels Outward Merchant" 800
 	object
 		sprite star/m4
@@ -14662,7 +14662,7 @@ system Dofolk
 			period 37.1143
 
 system Dolker
-	pos -49544.9 -54388.6
+	pos -49637.9 -54341.6
 	government Revos
 	habitable 425.92
 	belt 1578
@@ -20503,7 +20503,7 @@ system Eullagora
 			period 38.8841
 
 system Eundo
-	pos -49511.6 -54302.9
+	pos -49595.6 -54260.9
 	government Revos
 	habitable 425.92
 	belt 1987
@@ -24027,6 +24027,7 @@ system Gedeevo
 	trade Metal 274
 	trade Plastic 468
 	fleet "Dels Outward Merchant" 1500
+	fleet "Dels Kaote" 1500
 	object
 		sprite star/m0
 		period 10
@@ -27110,6 +27111,7 @@ system Govnutae
 	trade Plastic 481
 	fleet "Dels Outward Merchant" 1500
 	fleet "Dels Central Merchant" 700
+	fleet "Dels Kaote" 1600
 	object
 		sprite star/k5
 		period 10
@@ -38752,7 +38754,7 @@ system Keedulva
 			sprite planet/oberon
 			distance 194
 			period 14.2233
-	object
+	object "Ikuel Veuka"
 		sprite planet/desert1
 		distance 1879.67
 		period 977.67
@@ -39193,6 +39195,7 @@ system Keerak
 	trade Metal 466
 	trade Plastic 517
 	fleet "Dels Outward Merchant" 1000
+	fleet "Dels Kaote" 1500
 	object
 		sprite star/k5
 		period 10
@@ -42873,6 +42876,7 @@ system Kintuy
 	trade Metal 363
 	trade Plastic 478
 	fleet "Dels Outward Merchant" 1200
+	fleet "Dels Kaote" 1600
 	object
 		sprite star/k0
 		period 10
@@ -48940,6 +48944,7 @@ system Korudir
 	trade Plastic 457
 	fleet "Kager Ignaggen" 900
 	fleet Ignaggen 800
+	fleet "Ignaggen Miner" 1400
 	object
 		sprite star/g5
 		distance 15.4539
@@ -57276,10 +57281,11 @@ system Mabaza
 		period 2152.87
 
 system Macadela
-	pos -49273.9 -55176.4
+	pos -49242.9 -55195.4
 	government "Makau A Qoro"
 	habitable 4070.92
 	belt 1108
+	link Masihnre
 	link Masodel
 	asteroids "small rock" 10 3.588
 	asteroids "medium rock" 27 3.159
@@ -57465,6 +57471,7 @@ system Maekke
 	government "Makau A Qoro"
 	habitable 1080
 	belt 1043
+	link Makhenri
 	link Marake
 	link Mavasilda
 	asteroids "small rock" 4 1.552
@@ -58881,6 +58888,63 @@ system Makerranu
 		distance 2282.43
 		period 1744.68
 
+system Makhenri
+	pos -49368.5 -55039.2
+	government "Makau A Qoro"
+	habitable 425.92
+	belt 1181
+	link Maekke
+	link Marake
+	asteroids "small metal" 14 1.98
+	asteroids "medium metal" 18 2.838
+	asteroids "large metal" 1 2.684
+	minables aluminum 8 4.16577
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/ice5
+		distance 186.01
+		period 49.17
+	object
+		sprite planet/rock10
+		distance 424.9
+		period 169.756
+	object
+		sprite planet/fog0
+		distance 700.15
+		period 359.073
+	object
+		sprite planet/gas13
+		distance 1876.31
+		period 1575.26
+		object
+			sprite planet/dust3
+			distance 274
+			period 12.8037
+		object
+			sprite planet/tethys
+			distance 356
+			period 18.9621
+		object
+			sprite planet/dust7
+			distance 460
+			period 27.8514
+		object
+			sprite planet/ice8
+			distance 566
+			period 38.0132
+
 system Makhom
 	pos -49495.9 -55005.2
 	government "Makau A Qoro"
@@ -59970,6 +60034,7 @@ system Marake
 	habitable 135
 	belt 1997
 	link Maekke
+	link Makhenri
 	link Maroki
 	asteroids "small rock" 64 2.109
 	asteroids "medium rock" 35 1.9095
@@ -60682,6 +60747,69 @@ system Mashela
 			distance 381
 			period 30.2863
 
+system Masihnre
+	pos -49301.5 -55173.2
+	government "Makau A Qoro"
+	habitable 912.6
+	belt 1624
+	link Macadela
+	link Masodel
+	link Mavasilda
+	asteroids "small rock" 7 2.465
+	asteroids "medium rock" 34 0.884
+	asteroids "large rock" 1 2.006
+	asteroids "small metal" 4 0.986
+	asteroids "medium metal" 14 0.969
+	asteroids "large metal" 1 2.363
+	minables aluminum 8 1.28398
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/k0
+		distance 42.9374
+		period 11.6843
+	object
+		sprite star/k5
+		distance 49.0626
+		period 11.6843
+		offset 180
+	object
+		sprite planet/cloud1
+		distance 221.873
+		period 43.7598
+	object
+		sprite planet/dust1
+		distance 555.483
+		period 173.351
+	object
+		sprite planet/cloud8
+		distance 912.173
+		period 364.784
+	object
+		sprite planet/gas17
+		distance 1565.66
+		period 820.289
+	object
+		sprite planet/gas16
+		distance 3650.35
+		period 2920.26
+		object
+			sprite planet/io
+			distance 209
+			period 15.9044
+		object
+			sprite planet/miranda
+			distance 350
+			period 34.4667
+
 system Masilkavu
 	pos -49468.6 -54892.8
 	government "Makau A Qoro"
@@ -60946,6 +61074,7 @@ system Masodel
 	belt 1468
 	link Macadela
 	link Malsos
+	link Masihnre
 	link Masilvar
 	link Mavasilda
 	asteroids "small rock" 7 2.379
@@ -61452,11 +61581,12 @@ system Maulveera
 			period 12.4214
 
 system Mavasilda
-	pos -49360.9 -55151.7
+	pos -49351.9 -55154.7
 	government "Makau A Qoro"
 	habitable 5425.92
 	belt 1208
 	link Maekke
+	link Masihnre
 	link Masodel
 	asteroids "small rock" 45 4.125
 	asteroids "medium rock" 13 7.04
@@ -66477,6 +66607,7 @@ system Morcolor
 	trade Metal 419
 	trade Plastic 496
 	fleet "Dels Outward Merchant" 1200
+	fleet "Dels Kaote" 1600
 	object
 		sprite star/g5
 		period 10
@@ -81910,6 +82041,7 @@ system Reecos
 	trade Metal 333
 	trade Plastic 489
 	fleet "Dels Outward Merchant" 1500
+	fleet "Dels Kaote" 1600
 	object
 		sprite star/m0
 		period 10
@@ -100540,7 +100672,7 @@ system Vuikorel
 			period 91.6961
 
 system Vuivor
-	pos -49436 -54245.1
+	pos -49453 -54218.1
 	government Revos
 	habitable 2340
 	belt 1109
@@ -103424,7 +103556,6 @@ planet Delro
 	shipyard "Dels Advanced"
 	outfitter "Dels Advanced"
 	"required reputation" 1
-	bribe 0.5
 	security 0.9
 
 planet Delrragion
@@ -103474,6 +103605,12 @@ planet Denulkure
 	spaceport .
 	outfitter "Dels Ammo"
 
+planet "Derelict Station"
+	landscape land/sivael6
+	description `A derelict station of clearly alien origin orbits the system's wormhole.`
+	government Uninhabited
+	security 0
+
 planet Dermari
 	attributes Dels
 	landscape land/space5
@@ -103502,12 +103639,6 @@ planet Deunaee
 	description .
 	spaceport .
 	outfitter "Dels Standard"
-
-planet "Derelict Station"
-	landscape land/sivael6
-	government Uninhabited
-	security 0
-	description "A derelict station of clearly alien origin orbits the system's wormhole."
 
 planet "Dev Station Dels"
 	landscape land/nasa5
@@ -104445,6 +104576,11 @@ planet Ikorle
 	description .
 	spaceport .
 	"required reputation" 1
+
+planet "Ikuel Veuka"
+	attributes uninhabited
+	landscape land/desert10-harro
+	description `There's a few abandoned Dels buildings surrounding a spaceport with craters and blaster marks showing clear sign of a past battle that happened here.`
 
 planet Ikwer
 	landscape land/forest0
@@ -106343,6 +106479,7 @@ planet Qelureen
 		fleet "Dels Ufulre Patrol" 10
 
 planet Qenor
+	attributes uninhabited
 	landscape land/sea2
 	description `Something seems odd about cracks and crater here, you can tell exactly what. You also notice some unusually perfect objects with rather unnaturally sharp edge found in large pile, a mysterious ancient construct that stood against time and nature. Though even if it asked for further investigation the atmosphere is far too hostile for any to walk on even with spacesuits.`
 
@@ -106575,6 +106712,9 @@ planet "Saska Lape"
 	spaceport .
 	"required reputation" 1000
 	security 0.9
+	tribute 20000
+		threshold 20000
+		fleet "Ultaka Big" 50
 
 planet Scorhlan
 	landscape land/myrabella3
@@ -107276,7 +107416,7 @@ planet Wobore
 	outfitter "Donko Advanced"
 
 planet "Wormhole Glink"
-	attributes "requires: universal converter"
+	attributes "requires: inaccessible"
 
 planet Xornir
 	landscape land/city1
