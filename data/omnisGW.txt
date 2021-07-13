@@ -2463,47 +2463,47 @@ system Ultaka
 		object "Ultaka Conqueror"
 			# faction ultaka
 			sprite "ship/ultaka conqueror"
-			distance 2000
+			distance 1500
 			offset 240
 		object "Ultaka Darkedge"
 			# faction ultaka mega
 			sprite "ship/ultaka darkedge"
-			distance 4000
+			distance 3000
 			offset 240
 		object "Ultaka Death Bringer"
 			# faction ultaka mega
-			sprite "ship/ultaka death bringer"
-			distance 8000
+			sprite "ship/ultaka death bringer (mini)"
+			distance 4500
 			offset 240
 		object "Ultaka Galactic Destroyer"
 			# faction ultaka
-			sprite "ship/ultaka destroyer"
-			distance 16000
+			sprite "ship/ultaka destroyer (mini)"
+			distance 6000
 			offset 240
 		object "Ultaka Necromancer"
 			# faction ultaka mega
 			sprite "ship/ultaka necromancer"
-			distance 20000
+			distance 7500
 			offset 240
 		object "Ultaka Netherward"
 			# faction ultaka mega
-			sprite "ship/ultaka netherward"
-			distance 22500
+			sprite "ship/ultaka netherward (mini)"
+			distance 9000
 			offset 240
 		object "Ultaka Reaper"
 			# faction ultaka
-			sprite "ship/ultaka reaper"
-			distance 25000
+			sprite "ship/ultaka reaper (mini)"
+			distance 10500
 			offset 240
 		object "Ultaka Summoner"
 			# faction ultaka
 			sprite "ship/ultaka summoner"
-			distance 27500
+			distance 12000
 			offset 240
 		object "Ultaka Vyvis"
 			# faction ultaka alrul
 			sprite "ship/ultaka vyvis"
-			distance 30000
+			distance 13500
 			offset 240
 	object
 		sprite sprite/category_fighter
@@ -2807,8 +2807,8 @@ system Wallagi
 			distance 1000
 			offset 240
 		object "Wallagi Mecohni"
-			sprite "ship/wallagi mecohni"
-			distance 4000
+			sprite "ship/wallagi mecohni (mini)"
+			distance 2000
 			offset 240
 	object
 		sprite sprite/category_fighter
