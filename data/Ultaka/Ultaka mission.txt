@@ -63,6 +63,7 @@ mission "Ultaka Saska: Ultaka Hunt Player I"
 	repeat 5
 	to offer
 		"Ultaka Saska: Provoked: offered" >= 1
+		"reputation: Ultaka" <= -5100
 		or
 			random < 10
 			and
@@ -82,6 +83,7 @@ mission "Ultaka Saska: Ultaka Hunt Player Ia"
 	repeat
 	to offer
 		"Ultaka Saska: Provoked: offered" >= 1
+		"reputation: Ultaka" <= -5100
 		or
 			random < 5
 			and
