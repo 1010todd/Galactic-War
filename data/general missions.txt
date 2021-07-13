@@ -1,14 +1,10 @@
 # Galactic War missions not associated with any race or faction.
 
-outfit "Black Box"
+outfit "GW Universal Converter License"
 	category "Special"
-	cost 0
 	thumbnail "outfit/keystone"
-	"mass" 0
-	"outfit space" 0
-	"universal converter" 1
-	"unremovable" -1
-	description "Mysterious black box that plugs into your ship."
+	description "A mysterious black box that did something to you, and now it follows you around no matter what you do. There is no getting rid of it. Plugging it into your ship's systems seems to have upgraded them with the ability to communicate and trade with the alien races beyond the Wensta intergalactic wormhole."
+	description "	Any time you enter a new ship, the device seems to upgrade the comms system without your input."
 
 mission "gw: obtain black box"
 	landing
@@ -16,9 +12,9 @@ mission "gw: obtain black box"
 	invisible
 	deadline 1
 	source
-		planet "Derelict Station"
+		planet "Wensta Station"
 	to offer
-		not "gw: universal converter"
+		not "license: GW Universal Converter"
 	on offer
 		conversation
 			`Inside the station you find a long corridor, at the end of which stands a small chamber with a single pedestal in the center. A black box, small enough to fit in the palm of your hand, rests atop it.`
@@ -59,13 +55,20 @@ mission "gw: obtain black box"
 					accept
 
 	on accept
-		set "gw: universal converter"
-		event "gw: unlock wormhole"
-		outfit "Black Box" 1
+		set "license: GW Universal Converter"
+		event "gw: unlock wensta wormhole"
+		clear "event: gw: undo: unlock wensta wormhole"
 
-event "gw: unlock wormhole"
+
+event "gw: unlock wensta wormhole"
 	planet "Wormhole Glink"
 		remove attributes "requires: inaccessible"
+
+
+event "gw: undo: unlock wensta wormhole"
+	planet "Wormhole Glink"
+		add attributes "requires: inaccessible"
+
 
 #
 # Debug Tools
@@ -78,18 +81,19 @@ mission "gw: remove universal converter"
 	deadline 1
 	to offer
 		has "gw: debug mode"
-		has "gw: universal converter"
-	description "Takes away the Black Box (if you have one) and resets the mission where you get it."
+		has "license: GW Universal Converter"
+	description "Takes away the GW Universal Converter and resets the mission where you get it."
 	source
 		government "cheat"
 	on accept
 		dialog "Universal Converter removed."
-		outfit "Black Box" -1
-		clear "gw: universal converter"
+		clear "license: GW Universal Converter"
 		clear "gw: obtain black box: offered"
 		clear "gw: obtain black box: accepted"
 		clear "gw: obtain black box: declined"
 		clear "gw: obtain black box: failed"
+		clear "event: gw: unlock wensta wormhole"
+		event "gw: undo: unlock wensta wormhole"
 
 
 mission "gw: give universal converter"
@@ -99,12 +103,12 @@ mission "gw: give universal converter"
 	deadline 1
 	to offer
 		has "gw: debug mode"
-		not "gw: universal converter"
+		not "license: GW Universal Converter"
 	description "Allows use of the galactic wormhole."
 	source
 		government "cheat"
 	on accept
-		dialog "Universal Converter installed."
-		outfit "Black Box" 1
-		set "gw: universal converter"
-		event "gw: unlock wormhole"
+		dialog "Universal Converter granted."
+		set "license: GW Universal Converter"
+		event "gw: unlock wensta wormhole"
+		clear "event: gw: undo: unlock wensta wormhole"
