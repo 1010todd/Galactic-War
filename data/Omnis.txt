@@ -1009,7 +1009,8 @@ shipyard developer
 #=================================================================================================================================================
 
 outfitter plugin
-	#=============Dels
+	"Sector Map"
+	#==============================Dels
 	#===Weapon
 	"Skue-6 Blaster"
 	"Skue-8 Blaster"
@@ -1019,10 +1020,11 @@ outfitter plugin
 	"TC0B Laser"
 	"Skue-6 Turret"
 	"Skue-8 Turret"
+	"Skue-8 Quad Turret"
 	"Kotdar Turret"
 	"Dels Sokak Cannon"
 	"Dels Sokak Cannon Turret"
-	"Sokak Slug"
+	"Sokak Slug" #Cap 40
 	"Sokak Slug Storage"
 	"Saikel-4 Launcher" #Cap 30
 	"Saikel-4 Missile"
@@ -1071,7 +1073,7 @@ outfitter plugin
 	"Delisma Longrifle"
 	"Sakkaid Blaster"
 	
-	#==============Donko
+	#==================================Donko
 	"J1 MES Gun"
 	"J2 MES Gun"
 	"J2 KED Gun"
@@ -1107,7 +1109,63 @@ outfitter plugin
 	"OER2 Cell"
 	"OER5 Cell"
 	"NIA10X Core"
+	#========================================Erader
+	"Aserap Autocannon"
+	"Aserap Turret"
+	"Aserap Ammo"
+	"Aserap Ammo Storage"
+	"Kuakuran Energy Cannon"
+	"Kainar Slug"
+	"Kainar Slug Storage"
+	"Kainar Mass Accelerator"
+	"Yeutark Turret"
+	"Yeutark Shell"
+	"Yeutark Shell Storage"
+	"Rudarel CIWS"
+	"E6-H Generator"
+	"E6-V Generator"
+	"Va1-I Radiothermal"
+	"H-1AE Battery Array"
+	"H-2AE Battery Array"
+	"H-5AE Battery Array"
+	"H-A0E Battery Array"
+	"P2a Shield Generator"
+	"P6a Shield Generator"
 	
+	"Eseyar Ion Thruster"
+	"Gerneil Plasma Thruster"
+	"Kenlark-G2 Atomic Thruster"
+	"Esinkan Ion Steering"
+	"Ginskel Plasma Steering"
+	"Kenlark-c2 Atomic Steering"
+	#=========================================Kumakk
+	"Ordakko Gun"
+	"Ordakko Turret"
+	"Ku'alno Turret"
+	"Loku'nol Missile"
+	"Loku'nol Missile Storage"
+	"Loku'nol Missile Launcher"
+	"Loku'nol Missile Turret"
+	"Ko'lorke Missile Shield"
+	
+	"Cu'nosu Shield Generator"
+	"Gulgo'ro Shield Generator"
+	"Ko'rosul Shield Generator"
+	"No'uro Shield Generator"
+	
+	"Sol-6ii Generator"
+	"Sol-9ia Generator"
+	"Vuk-9ix Generator"
+	"Ekken'lar Capacitor"
+	
+	"Cokor Thruster"
+	"Kolun'a Thruster"
+	"Lelu'a Thruster"
+	"Mocoro Thruster"
+	"Cokor Steering"
+	"Kolun'a Steering"
+	"Lelu'a Steering"
+	"Mocoro Steering"
 	#=========================================Qanse
 	"Fuebis06 Beam"
 	"Gairtes10 Turret"
@@ -1191,6 +1249,7 @@ outfitter plugin
 	"E40R-D"
 	"E40R-E"
 	"SSm10 Turret"
+	"Ultaka Ambusher"
 	
 	"MU10-A anti missile"
 	"U10-A anti missile"
@@ -1225,6 +1284,12 @@ outfitter plugin
 	
 	"Model-3A Rifle"
 	"Ultaka IDS"
+
+	"Urxesh Summoner"
+	"Arvasr Sweeper"
+	"Ultaka Death Touch"
+	"Ultaka Cosmic Ripper"
+	"Hausiar Revolver"
 	#====================================Ignaggen
 	"Gikorel Anti-Missile"
 	"Igarsot Cannon"
@@ -1238,6 +1303,20 @@ outfitter plugin
 	"Vurlugigr Reactor"
 	"Orvuilugr Reactor"
 	"Ignaggen Cooling System"
+	"Genos Shield Generator"
+	"Genes Shield Generator"
+	"Genel Shield Generator"
+	"Gelaf Shield Generator"
+	"Kager Gekar Shield Generator"
+
+	"Ielur Thruster"
+	"Rika Thruster"
+	"Rila Thruster"
+	"Rilen Thruster"
+	
+	"Ielur Steering"
+	"Rika Steering" 
+	"Rilen Steering"
 	#======================================Geeva
 	"Ilcor-06 Blaster Turret"
 	"Noilcor-06 Blaster Turret"
@@ -1343,6 +1422,8 @@ outfitter plugin
 	"Lemtar Turret" 
 	"Marley Turret"
 	"Markla Turret"
+	"Sikarl Mine Launcher"
+	"Sikarl Mine"
 	"Cilhr Anti-missile"
 	"Eilgur Anti-missile"
 	"Jestar Anti-missile"
@@ -1374,6 +1455,7 @@ outfitter plugin
 	"WD-2 Welder"
 	"Buztekur Turret"
 	"Kelzilvaan Turret"
+	"Zis Dissector Turret"
 	"Relcor Lance"
 	"Nelcor Gun"
 	"Zortal Flamethrower"
@@ -1444,6 +1526,7 @@ outfitter plugin
 	"Taroun Deflector"
 	"Taroun Restrainter"
 	"Larpauron Turret"
+	"Ismakur Turret"
 	"Taroun Missile Interceptor"
 	"Urmou Launcher"
 	"Ursun Thruster"
@@ -1482,6 +1565,7 @@ outfitter plugin
 	"Anor Missile"
 	"Kechon Beam"
 	"Barviska Turret"
+	"Kuloles Spawner"
 	"Vubeto Anti-Missile"
 	
 	"Mudor-ki Shield Generator"
@@ -1589,6 +1673,7 @@ outfitter plugin
 	"Etlnak Reactor"
 	"Rivkrtelr Reactor"
 	"Apirval Generator"
+	"Eysiral Energy Storage"
 	
 	#Systems
 	"Ainvus Shield Generator"
@@ -1664,6 +1749,7 @@ shipyard plugin
 	"Ultaka Revenant"
 	"Ultaka Wraith"
 	"Ultaka Poltergeist"
+	"Ultaka Ambusher"
 	#================Ultaka (Neurn)
 	"Ultaka Ghost"
 	#================Ultaka (Alrul)
@@ -1676,6 +1762,24 @@ shipyard plugin
 	"Dettalor"
 	"Talselar"
 	"Sentasor"
+	#============================Erader
+	"Genterrac"
+	"Dauren"
+	"Raular"
+	"Kemvanh"
+	"Kelranter"
+	#========Kasiva
+	"Eishen"
+	"Aikiyu"
+	"Kyseruna"
+	#=========Narpul
+	"Nukrau"
+	"Kunshera"
+	#========Makerurader
+	"Vardarkin"
+	"Ertezkaral"
+	"Sorgeldaz"
+	"Azelpur"
 	#============================Erm
 	"Roekler"
 	"Ernar"
@@ -1683,6 +1787,10 @@ shipyard plugin
 	"Eaken"
 	"Hidersan"
 	"Eirae"
+	#===========================Kumakk
+	"Kasoulek"
+	"Oulkorke"
+	"Akolucor"
 	#================================Qanse
 	"Dantra"
 	"Qargi"
@@ -1737,6 +1845,7 @@ shipyard plugin
 	#==================Taroun
 	"Taroun Eroun"
 	"Taroun Oresu"
+	"Taroun Ulkoura"
 	#====================Resmakia
 	"Metal Asteroid"
 	"Metal Asteroid2"

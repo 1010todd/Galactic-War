@@ -2,6 +2,7 @@
 #I'll still update World Forge support if I don't forget.
 
 outfitter modoutfits
+	"Sector Map"
 	#==============================Dels
 	#===Weapon
 	"Skue-6 Blaster"
@@ -12,10 +13,11 @@ outfitter modoutfits
 	"TC0B Laser"
 	"Skue-6 Turret"
 	"Skue-8 Turret"
+	"Skue-8 Quad Turret"
 	"Kotdar Turret"
 	"Dels Sokak Cannon"
 	"Dels Sokak Cannon Turret"
-	"Sokak Slug"
+	"Sokak Slug" #Cap 40
 	"Sokak Slug Storage"
 	"Saikel-4 Launcher" #Cap 30
 	"Saikel-4 Missile"
@@ -106,14 +108,57 @@ outfitter modoutfits
 	"Aserap Ammo"
 	"Aserap Ammo Storage"
 	"Kuakuran Energy Cannon"
+	"Kainar Slug"
+	"Kainar Slug Storage"
+	"Kainar Mass Accelerator"
 	"Yeutark Turret"
+	"Yeutark Shell"
+	"Yeutark Shell Storage"
+	"Rudarel CIWS"
 	"E6-H Generator"
 	"E6-V Generator"
+	"Va1-I Radiothermal"
 	"H-1AE Battery Array"
 	"H-2AE Battery Array"
 	"H-5AE Battery Array"
 	"H-A0E Battery Array"
+	"P2a Shield Generator"
+	"P6a Shield Generator"
 	
+	"Eseyar Ion Thruster"
+	"Gerneil Plasma Thruster"
+	"Kenlark-G2 Atomic Thruster"
+	"Esinkan Ion Steering"
+	"Ginskel Plasma Steering"
+	"Kenlark-c2 Atomic Steering"
+	#=========================================Kumakk
+	"Ordakko Gun"
+	"Ordakko Turret"
+	"Ku'alno Turret"
+	"Loku'nol Missile"
+	"Loku'nol Missile Storage"
+	"Loku'nol Missile Launcher"
+	"Loku'nol Missile Turret"
+	"Ko'lorke Missile Shield"
+	
+	"Cu'nosu Shield Generator"
+	"Gulgo'ro Shield Generator"
+	"Ko'rosul Shield Generator"
+	"No'uro Shield Generator"
+	
+	"Sol-6ii Generator"
+	"Sol-9ia Generator"
+	"Vuk-9ix Generator"
+	"Ekken'lar Capacitor"
+	
+	"Cokor Thruster"
+	"Kolun'a Thruster"
+	"Lelu'a Thruster"
+	"Mocoro Thruster"
+	"Cokor Steering"
+	"Kolun'a Steering"
+	"Lelu'a Steering"
+	"Mocoro Steering"
 	#=========================================Qanse
 	"Fuebis06 Beam"
 	"Gairtes10 Turret"
@@ -197,6 +242,7 @@ outfitter modoutfits
 	"E40R-D"
 	"E40R-E"
 	"SSm10 Turret"
+	"Ultaka Ambusher"
 	
 	"MU10-A anti missile"
 	"U10-A anti missile"
@@ -231,6 +277,12 @@ outfitter modoutfits
 	
 	"Model-3A Rifle"
 	"Ultaka IDS"
+
+	"Urxesh Summoner"
+	"Arvasr Sweeper"
+	"Ultaka Death Touch"
+	"Ultaka Cosmic Ripper"
+	"Hausiar Revolver"
 	#====================================Ignaggen
 	"Gikorel Anti-Missile"
 	"Igarsot Cannon"
@@ -244,6 +296,20 @@ outfitter modoutfits
 	"Vurlugigr Reactor"
 	"Orvuilugr Reactor"
 	"Ignaggen Cooling System"
+	"Genos Shield Generator"
+	"Genes Shield Generator"
+	"Genel Shield Generator"
+	"Gelaf Shield Generator"
+	"Kager Gekar Shield Generator"
+
+	"Ielur Thruster"
+	"Rika Thruster"
+	"Rila Thruster"
+	"Rilen Thruster"
+	
+	"Ielur Steering"
+	"Rika Steering" 
+	"Rilen Steering"
 	#======================================Geeva
 	"Ilcor-06 Blaster Turret"
 	"Noilcor-06 Blaster Turret"
@@ -650,6 +716,7 @@ shipyard modships
 	"Katen Civ 2b"
 	"Katen Civ 3a"
 	"AF-18 Zyon"
+	"SG-60 Ginaz Patrol Drone"
 	"AS-56 Virsiz"
 	"ZN-7681 Eaxes"
 	#====================Ultaka
@@ -664,19 +731,47 @@ shipyard modships
 	"Ultaka Galactic Destroyer"
 	"Ultaka Servant"
 	"Ultaka Trapper"
+	"SSm10"
 	#=========Ultaka(Mega)
 	"Ultaka Darkedge"
 	"Ultaka Shadow Strike"
 	"Ultaka Necromancer"
-	"Ultaka Galactic Destroyer"
+	"Ultaka Death Bringer"
+	"Ultaka Netherward"
+	"Ultaka Revenant"
+	"Ultaka Wraith"
+	"Ultaka Poltergeist"
+	"Ultaka Ambusher"
 	#================Ultaka (Neurn)
 	"Ultaka Ghost"
+	#================Ultaka (Alrul)
+	"Ultaka Vyvis"
+	"Ultaka Var'ahx"
+	"Ultaka Julseir"
 	#============================Wallagi
 	"Mecohni"
 	"Telsarator"
 	"Dettalor"
 	"Talselar"
 	"Sentasor"
+	#============================Erader
+	"Genterrac"
+	"Dauren"
+	"Raular"
+	"Kemvanh"
+	"Kelranter"
+	#========Kasiva
+	"Eishen"
+	"Aikiyu"
+	"Kyseruna"
+	#=========Narpul
+	"Nukrau"
+	"Kunshera"
+	#========Makerurader
+	"Vardarkin"
+	"Ertezkaral"
+	"Sorgeldaz"
+	"Azelpur"
 	#============================Erm
 	"Roekler"
 	"Ernar"
@@ -684,6 +779,10 @@ shipyard modships
 	"Eaken"
 	"Hidersan"
 	"Eirae"
+	#===========================Kumakk
+	"Kasoulek"
+	"Oulkorke"
+	"Akolucor"
 	#================================Qanse
 	"Dantra"
 	"Qargi"
@@ -704,7 +803,6 @@ shipyard modships
 	"Dels Secsen"
 	"Dels Senro"
 	"Dels Deeris"
-	
 	#============HW
 	"Dels Darca"
 	"Dels Decso"
@@ -739,6 +837,7 @@ shipyard modships
 	#==================Taroun
 	"Taroun Eroun"
 	"Taroun Oresu"
+	"Taroun Ulkoura"
 	#====================Resmakia
 	"Metal Asteroid"
 	"Metal Asteroid2"
