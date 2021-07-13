@@ -804,12 +804,12 @@ system "Galactic War"
 	object "Galactic War"
 		sprite planet/trochzempt_complete
 	object "GW Plugins"
-		sprite sprite/station8
-		distance 2300
+		sprite planet/trochzempt_bay
+		distance 400
 		offset 90
 	object "GW Default"
-		sprite sprite/station8
-		distance 2300
+		sprite planet/trochzempt_bay
+		distance 400
 		offset 270
 	object
 		sprite sprite/category_transport
@@ -846,11 +846,11 @@ system "Galactic War"
 		sprite sprite/category_drone
 		distance 2700
 		offset 320
-	object "GW Desen"
+	object "GW Dels Desen"
 		sprite "ship/dels desen"
 		distance 3000
 		offset 40
-	object "GW Hunter"
+	object "GW Ultaka Hunter"
 		sprite "ship/ultaka hunter"
 		distance 3000
 		offset 115
@@ -858,26 +858,30 @@ system "Galactic War"
 		sprite "ship/wallagi telsarator"
 		distance 3000
 		offset 125
-	object "GW Oresu"
+	object "GW Taroun Oresu"
 		sprite "ship/taroun oresu"
 		distance 3000
 		offset 200
-	object "GW Dominator"
+	object "GW Ultaka Dominator"
 		sprite "ship/ultaka dominator"
 		distance 3000
 		offset 160
-	object "GW Conqueror"
+	object "GW Ultaka Conqueror"
 		sprite "ship/ultaka conqueror"
 		distance 3700
 		offset 230
-	object "GW Summoner"
+	object "GW Ultaka Summoner"
 		sprite "ship/ultaka summoner"
 		distance 3700
 		offset 250
-	object "GW Eaxes"
+	object "GW ZN-7681 Eaxes"
 		sprite "ship/zis eaxes"
 		distance 4000
 		offset 240
+	object "GW Genex"
+		sprite "ship/zorcn genex"
+		distance 4300
+		offset 230
 
 system Geeva
 	pos 145.311 -9808.28
