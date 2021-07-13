@@ -144,7 +144,7 @@ ship "Kyseruna"
 
 #============================[Interceptor]===========================
 
-ship "Aikiyu" #Todo, make single-shot missile for this ship
+ship "Aikiyu"
 	sprite "ship/erader ks aikiyu"
 	thumbnail "thumbnail/erader ks aikiyu thumb"
 	attributes
@@ -170,6 +170,7 @@ ship "Aikiyu" #Todo, make single-shot missile for this ship
 	outfits
 		"Aserap Autocannon" 4
 		"Aserap Ammo" 4000
+		"Skile Missile" 4
 		
 		"Va1-I Radiothermal"
 		"H-1AE Battery Array"
@@ -179,10 +180,10 @@ ship "Aikiyu" #Todo, make single-shot missile for this ship
 		"Esinkan Ion Steering" 2
 		"Hyperdrive"
 		
-	gun -10 -21
-	gun 10 -21
-	gun -11.5 -9
-	gun 11.5 -9
+	gun -10 -21 "Aserap Autocannon"
+	gun 10 -21 "Aserap Autocannon"
+	gun -11.5 -9 "Aserap Autocannon"
+	gun 11.5 -9 "Aserap Autocannon"
 	gun -23 18.5
 	gun 23 18.5
 	gun -27 23.5

@@ -204,6 +204,42 @@ outfit "Yeutark Turret"
 		"hull damage" 185
 	description "Makerurader shipboard cannon turret."
 
+outfit "Skile Missile"
+	category "Secondary Weapons"
+	cost 900
+	thumbnail "outfit/meteor"
+	"mass" .2
+	"outfit space" -1
+	"weapon capacity" -1
+	"gun ports" -1
+	weapon
+		sprite "projectile/meteor"
+			"no repeat"
+			"frame rate" .25
+		sound "meteor"
+		ammo "Skile Missile"
+		icon "icon/meteor"
+		"fire effect" "meteor fire"
+		"die effect" "missile death"
+		"hit effect" "medium explosion"
+		"inaccuracy" 12
+		"velocity" 8
+		"lifetime" 540
+		"reload" 35
+		"firing energy" 1
+		"firing heat" 25
+		"acceleration" 1.5
+		"drag" .07
+		"turn" 3
+		"homing" 2
+		"radar tracking" .7
+		"shield damage" 180
+		"hull damage" 135
+		"hit force" 30
+		"missile strength" 10
+		"stream"
+	description "Single shot missile used by Kasiva fighters."
+
 outfit "Rudarel CIWS"
 	category "Turrets"
 	cost 50000
