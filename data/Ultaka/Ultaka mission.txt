@@ -307,10 +307,10 @@ mission "gw: revert ultaka aggression"
 	repeat
 	deadline 1
 	to offer
-		had "gw: debug mode"
-	description "Reset Ultaka aggression and reputation preventing them from spawning outside of their system."
+		has "gw: debug mode"
+	description "Reset Ultaka aggression and reputation, preventing them from spawning outside of their system."
 	on accept
-		dialog "Reverted Ultaka agression, they will stop trying to hunt you down."
+		dialog "Reverted Ultaka agression; they will stop trying to hunt you down."
 		clear "Ultaka Saska: Increase Security: done"
 		clear "Ultaka Saska: Increase Security: offered"
 		clear "Ultaka Saska: Increase Security II: done"
