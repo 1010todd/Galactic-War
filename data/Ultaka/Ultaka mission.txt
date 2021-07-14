@@ -38,7 +38,9 @@ mission "Ultaka Saska: Increase Security II"
 	to offer
 		or
 			"reputation: Ultaka" <= -10000
-			"armament deterrence" >= 20000
+			and
+				"armament deterrence" >= 20000
+				"reputation: Ultaka" <= -7000
 	on offer
 		event "Ultaka Saska: Alrul Deployment"
 		event "Ultaka Saska: Security Timer II" 14
@@ -55,7 +57,18 @@ mission "Ultaka Saska: Provoked"
 	invisible
 	to offer
 		not "Ultaka Saska: Security Timer"
-		"reputation: Ultaka" <= -5100
+		"reputation: Ultaka" <= -5250
+		or
+			"reputation: Ultaka" <= -11000
+
+mission "Ultaka Saska: Provoked II"
+	landing
+	invisible
+	to offer
+		not "Ultaka Saska: Security Timer II"
+		"reputation: Ultaka" <= -8000
+		or
+			"reputation: Ultaka" <= -25000
 
 mission "Ultaka Saska: Ultaka Hunt Player I"
 	landing
@@ -184,7 +197,7 @@ mission "Ultaka Saska: Ultaka Hunt Player VIII"
 	invisible
 	repeat 10
 	to offer
-		"Ultaka Saska: Provoked: offered" >= 1
+		"Ultaka Saska: Provoked II: offered" >= 1
 		or
 			random < 10
 			and
@@ -204,7 +217,7 @@ mission "Ultaka Saska: Ultaka Hunt Player IX"
 	invisible
 	repeat 15
 	to offer
-		"Ultaka Saska: Provoked: offered" >= 1
+		"Ultaka Saska: Provoked II: offered" >= 1
 		or
 			random < 10
 			and
@@ -224,7 +237,7 @@ mission "Ultaka Saska: Ultaka Hunt Player X"
 	invisible
 	repeat 15
 	to offer
-		"Ultaka Saska: Provoked: offered" >= 1
+		"Ultaka Saska: Provoked II: offered" >= 1
 		or
 			random < 6
 			and
@@ -244,7 +257,7 @@ mission "Ultaka Saska: Ultaka Hunt Player EX"
 	invisible
 	repeat
 	to offer
-		"Ultaka Saska: Provoked: offered" >= 1
+		"Ultaka Saska: Provoked II: offered" >= 1
 		or
 			and
 				random < 5
@@ -268,7 +281,7 @@ mission "Ultaka Saska: Ultaka Hunt Player XI"
 	invisible
 	repeat 15
 	to offer
-		"Ultaka Saska: Provoked: offered" >= 1
+		"Ultaka Saska: Provoked II: offered" >= 1
 		or
 			random < 7
 			and
@@ -304,6 +317,8 @@ mission "gw: revert ultaka aggression"
 		clear "Ultaka Saska: Increase Security II: offered"
 		clear "Ultaka Saska: Provoked: done"
 		clear "Ultaka Saska: Provoked: offered"
+		clear "Ultaka Saska: Provoked II: done"
+		clear "Ultaka Saska: Provoked II: offered"
 		clear "event: Ultaka Saska: Mega Deployment"
 		clear "event: Ultaka upgrade 1"
 		clear "event: Ultaka Saska: Security Timer"
