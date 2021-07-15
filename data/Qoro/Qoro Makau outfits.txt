@@ -2,14 +2,16 @@
 # Thrusters
 outfit "Asutur Thruster" #Masta
 	category "Engines"
-	"cost" 10000
+	"cost" 50000
 	thumbnail "outfit/qoro m engine"
 	"mass" 14
 	"outfit space" -14
 	"engine capacity" -14
-	"thrust" 10.5
-	"thrusting energy" .3
+	"thrust" 6.5
+	"thrusting energy" .9
 	"thrusting heat" 1
+	"slowing resistance" .5
+	"slowing resistance energy" .3
 	"flare sprite" "effect/qoro flare/tiny"
 		"frame rate" 10
 	"flare sound" "seeker"
@@ -17,14 +19,16 @@ outfit "Asutur Thruster" #Masta
 	
 outfit "Eensura Thruster" #Maseen
 	category "Engines"
-	"cost" 20000
+	"cost" 106000
 	thumbnail "outfit/qoro m engine"
 	"mass" 24
 	"outfit space" -24
 	"engine capacity" -24
-	"thrust" 19.7
-	"thrusting energy" .5
+	"thrust" 15.8
+	"thrusting energy" 1.7
 	"thrusting heat" 2
+	"slowing resistance" .5
+	"slowing resistance energy" .3
 	"flare sprite" "effect/qoro flare/small"
 		"frame rate" 10
 	"flare sound" "seeker"
@@ -32,14 +36,16 @@ outfit "Eensura Thruster" #Maseen
 	
 outfit "Maseka Thruster" 
 	category "Engines"
-	"cost" 30000
+	"cost" 210000
 	thumbnail "outfit/qoro m engine"
 	"mass" 42
 	"outfit space" -42
 	"engine capacity" -42
-	"thrust" 41.7
-	"thrusting energy" 1.1
+	"thrust" 32.7
+	"thrusting energy" 2.3
 	"thrusting heat" 4.3
+	"slowing resistance" .55
+	"slowing resistance energy" .35
 	"flare sprite" "effect/qoro flare/medium"
 		"frame rate" 10
 	"flare sound" "seeker"
@@ -47,14 +53,16 @@ outfit "Maseka Thruster"
 	
 outfit "Otsarui Thruster" #Masenta
 	category "Engines"
-	"cost" 40000
+	"cost" 408000
 	thumbnail "outfit/qoro m engine"
 	"mass" 80
 	"outfit space" -80
 	"engine capacity" -80
-	"thrust" 79.8
-	"thrusting energy" 1.9
+	"thrust" 68.9
+	"thrusting energy" 3.9
 	"thrusting heat" 7.4
+	"slowing resistance" .6
+	"slowing resistance energy" .4
 	"flare sprite" "effect/qoro flare/big"
 		"frame rate" 10
 	"flare sound" "seeker"
@@ -62,14 +70,16 @@ outfit "Otsarui Thruster" #Masenta
 	
 outfit "Sokenue Thruster" #Masokae
 	category "Engines"
-	"cost" 50000
+	"cost" 8050000
 	thumbnail "outfit/qoro m engine"
 	"mass" 156
 	"outfit space" -156
 	"engine capacity" -156
-	"thrust" 162.8
-	"thrusting energy" 4.2
+	"thrust" 158.8
+	"thrusting energy" 6.8
 	"thrusting heat" 15.2
+	"slowing resistance" .7
+	"slowing resistance energy" .5
 	"flare sprite" "effect/qoro flare/huge"
 		"frame rate" 10
 	"flare sound" "seeker"
@@ -78,57 +88,57 @@ outfit "Sokenue Thruster" #Masokae
 # Steering
 outfit "Asutur-ian Steering"
 	category "Engines"
-	"cost" 10000
+	"cost" 36000
 	thumbnail "outfit/qoro m steering"
 	"mass" 10
 	"outfit space" -10
 	"engine capacity" -10
-	"turn" 300
-	"turning energy" .2
+	"turn" 250
+	"turning energy" .4
 	"turning heat" .5
 	
 outfit "Eensura-ian Steering"
 	category "Engines"
-	"cost" 20000
+	"cost" 70000
 	thumbnail "outfit/qoro m steering"
 	"mass" 20
 	"outfit space" -20
 	"engine capacity" -20
-	"turn" 600
-	"turning energy" .4
+	"turn" 550
+	"turning energy" .8
 	"turning heat" 1
 
 outfit "Maseka-ian Steering"
 	category "Engines"
-	"cost" 30000
+	"cost" 135000
 	thumbnail "outfit/qoro m steering"
 	"mass" 39
 	"outfit space" -39
 	"engine capacity" -39
 	"turn" 1200
-	"turning energy" .8
+	"turning energy" 1.4
 	"turning heat" 2
 	
 outfit "Otsarui-ian Steering"
 	category "Engines"
-	"cost" 40000
+	"cost" 260000
 	thumbnail "outfit/qoro m steering"
 	"mass" 78
 	"outfit space" -78
 	"engine capacity" -78
 	"turn" 2400
-	"turning energy" 1.56
+	"turning energy" 2.8
 	"turning heat" 3.8
 	
 outfit "Sokenue-ian Steering"
 	category "Engines"
-	"cost" 50000
+	"cost" 500000
 	thumbnail "outfit/qoro m steering"
 	"mass" 100
 	"outfit space" -100
 	"engine capacity" -100
 	"turn" 3610
-	"turning energy" 2.89
+	"turning energy" 4.9
 	"turning heat" 5.46
 	
 # Guns
