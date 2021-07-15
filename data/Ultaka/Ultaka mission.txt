@@ -98,6 +98,7 @@ mission "Ultaka Saska: Death Threats 1"
 
 			label provoke
 			`	As you fire off a galactic shitpost so blatantly offensive that its meaning transcends species and culture, you know it is only a matter of time before the Ultaka come after you.`
+
 			choice
 				`	"Attack me all you want, peasants. I am the greatest warlord this galaxy has ever seen."`
 					accept
@@ -342,7 +343,7 @@ mission "Ultaka Saska: Ultaka Hunt Player XI"
 # Debug Tools
 #
 
-mission "gw: revert ultaka aggression"
+mission "gw: revert ultaka aggression" #Todo :event to revert fleet spawn in Saska system.
 	name "GW: Revert Ultaka aggression"
 	job
 	repeat
