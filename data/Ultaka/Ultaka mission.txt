@@ -77,9 +77,8 @@ mission "Ultaka Saska: Death Threats 1"
 	invisible
 	deadline 1
 	to offer
-		"Ultaka Saska: Provoked: offered" >= 1
 		"ultaka death threats" == 0
-		"reputation: Ultaka" <= -5100
+		"reputation: Ultaka" <= -5250
 	on offer
 		conversation
 			`As you bring your ship in for a landing, you receive a high priority message from an unknown sender. Both the sender and the subject line are inscrutable strings of alien characters which your system helpfully identifies as an Ultakan script. Annoyingly, the same system refuses to provide a translation, though you are able to guess as to the contents.`
@@ -94,11 +93,12 @@ mission "Ultaka Saska: Death Threats 1"
 					goto provoke
 				`	(Don't provoke them.)`
 
-			`	Choosing the path of discretion for once in your life, you decide not to screw with the genocidial aliens. The Ultaka are still more determined to kill you than ever, but at least you were polite after blowing up all those ships.`
+			`	Choosing the path of discretion for once in your life, you decide not to screw with the genocidial aliens. The Ultaka are still determined to kill you, but at least you were polite after blowing up all those ships.`
 				accept
 
 			label provoke
-			`	Whatever else you have accomplished today, at least you can sleep soundly knowing that a powerful alien race is now even more hellbent on destroying you.`
+			`	As you fire off a galactic shitpost so blatantly offensive that its meaning transcends species and culture, you know it is only a matter of time before the Ultaka come after you.`
+
 			choice
 				`	"Attack me all you want, peasants. I am the greatest warlord this galaxy has ever seen."`
 					accept
@@ -116,6 +116,7 @@ mission "Ultaka Saska: Ultaka Hunt Player I"
 	invisible
 	repeat 5
 	to offer
+		"ultaka death threats" == 1
 		"Ultaka Saska: Provoked: offered" >= 1
 		"reputation: Ultaka" <= -5100
 		or
@@ -371,26 +372,37 @@ mission "gw: revert ultaka aggression" #Todo :event to revert fleet spawn in Sas
 		clear "Ultaka Saska: Death Threats 1: failed"
 		clear "Ultaka Saska: Ultaka Hunt Player I: active"
 		clear "Ultaka Saska: Ultaka Hunt Player I: offered"
+		clear "Ultaka Saska: Ultaka Hunt Player I: done"
 		clear "Ultaka Saska: Ultaka Hunt Player Ia: active"
 		clear "Ultaka Saska: Ultaka Hunt Player Ia: offered"
+		clear "Ultaka Saska: Ultaka Hunt Player Ia: done"
 		clear "Ultaka Saska: Ultaka Hunt Player II: active"
 		clear "Ultaka Saska: Ultaka Hunt Player II: offered"
+		clear "Ultaka Saska: Ultaka Hunt Player II: done"
 		clear "Ultaka Saska: Ultaka Hunt Player III: active"
 		clear "Ultaka Saska: Ultaka Hunt Player III: offered"
+		clear "Ultaka Saska: Ultaka Hunt Player III: done"
 		clear "Ultaka Saska: Ultaka Hunt Player IV: active"
 		clear "Ultaka Saska: Ultaka Hunt Player IV: offered"
+		clear "Ultaka Saska: Ultaka Hunt Player IV: done"
 		clear "Ultaka Saska: Ultaka Hunt Player V: active"
 		clear "Ultaka Saska: Ultaka Hunt Player V: offered"
+		clear "Ultaka Saska: Ultaka Hunt Player V: done"
 		clear "Ultaka Saska: Ultaka Hunt Player VIII: active"
 		clear "Ultaka Saska: Ultaka Hunt Player VIII: offered"
+		clear "Ultaka Saska: Ultaka Hunt Player VIII: done"
 		clear "Ultaka Saska: Ultaka Hunt Player IX: active"
 		clear "Ultaka Saska: Ultaka Hunt Player IX: offered"
+		clear "Ultaka Saska: Ultaka Hunt Player IX: done"
 		clear "Ultaka Saska: Ultaka Hunt Player X: active"
 		clear "Ultaka Saska: Ultaka Hunt Player X: offered"
+		clear "Ultaka Saska: Ultaka Hunt Player X: done"
 		clear "Ultaka Saska: Ultaka Hunt Player EX: active"
 		clear "Ultaka Saska: Ultaka Hunt Player EX: offered"
+		clear "Ultaka Saska: Ultaka Hunt Player EX: done"
 		clear "Ultaka Saska: Ultaka Hunt Player XI: active"
 		clear "Ultaka Saska: Ultaka Hunt Player XI: offered"
+		clear "Ultaka Saska: Ultaka Hunt Player XI: done"
 		fail "Ultaka Saska: Ultaka Hunt Player I"
 		fail "Ultaka Saska: Ultaka Hunt Player Ia"
 		fail "Ultaka Saska: Ultaka Hunt Player II"
@@ -424,4 +436,4 @@ mission "gw: reset ultaka death threats [1]"
 		clear "Ultaka Saska: Death Threats 1: failed"
 		clear "Ultaka Saska: Death Threats 1: done"
 		"ultaka death threats" = 0
-		"reputation: Ultaka" = -5100
+		"reputation: Ultaka" = -5250
