@@ -1,279 +1,10 @@
 
 
-outfit "Asenil Shield Generator" #Wasen
-	category "Systems"
-	cost 5000000
-	thumbnail "outfit/wallagi shield"
-	"mass" 11
-	"outfit space" -11
-	"shield generation" 1
-	"shield energy" 1
-	description "Wallagi tiny shield generator for fighters."
-	
-outfit "Filkei Shield Generator"
-	category "Systems"
-	cost 11000000
-	thumbnail "outfit/wallagi shield"
-	"mass" 24
-	"outfit space" -24
-	"shield generation" 2.1
-	"shield energy" 2
-	description "Wallagi small shield generator."
-	
-outfit "Lestur Shield Generator"
-	category "Systems"
-	cost 35000000
-	thumbnail "outfit/wallagi shield"
-	"mass" 56
-	"outfit space" -56
-	"shield generation" 4.6
-	"shield energy" 4.3
-	description "Wallagi medium shield generator."
-	
-outfit "Sestar Shield Generator"
-	category "Systems"
-	cost 50000000
-	thumbnail "outfit/wallagi shield"
-	"mass" 104
-	"outfit space" -104
-	"shield generation" 6.3
-	"shield energy" 5.7
-	description "Wallagi large shield generator."
-	
-outfit "Tensel Shield Generator"
-	category "Systems"
-	cost 57000000
-	thumbnail "outfit/wallagi shield"
-	"mass" 130
-	"outfit space" -130
-	"shield generation" 11.5
-	"shield energy" 10.4
-	description "Wallagi huge shield generator."
-	
-outfit "Yalgos Shield Generator" #Malgos
-	category "Systems"
-	cost 64000000
-	thumbnail "outfit/wallagi shield"
-	"mass" 220
-	"outfit space" -220
-	"shield generation" 21.2
-	"shield energy" 20
-	description "Wallagi massive shield generator found only on the biggest ships."
-	
-outfit "C10-W Hinlar Core"
-	category "Power"
-	cost 100000
-	thumbnail "outfit/unknown"
-	mass 9
-	"outfit space" -10
-	"energy generation" .6
-	"heat generation" .3
-	"energy capacity" 1000
-	
-outfit "C40-W Milar Core"
-	category "Power"
-	cost 1000000
-	thumbnail "outfit/unknown"
-	"mass" 72
-	"outfit space" -76
-	"energy generation" 23
-	"heat generation" 9
-	"energy capacity" 7400
-	
-outfit "C60-W Falmin Core"
-	category "Power"
-	cost 1000000
-	thumbnail "outfit/unknown"
-	"mass" 146
-	"outfit space" -152
-	"energy generation" 45
-	"heat generation" 12
-	"energy capacity" 15000
-	
-outfit "C80-W Mallar Core"
-	category "Power"
-	cost 1000000
-	thumbnail "outfit/unknown"
-	"mass" 202
-	"outfit space" -223
-	"energy generation" 51
-	"heat generation" 14
-	"energy capacity" 22000
-	
-outfit "Kal-1 Engines"
-	category "Engines"
-	"cost" 3500000
-	thumbnail "outfit/unknown"
-	"mass" 20
-	"outfit space" -20
-	"engine capacity" -20
-	"thrust" 24
-	"thrusting energy" 4.4
-	"thrusting heat" 2.9
-	"turn" 650
-	"turning energy" .5
-	"turning heat" .5
-	"hyperdrive" 1
-	"jump drive" 1
-	"jump speed" 1.2
-	"flare sprite" "effect/atomic flare/tiny"
-	description "Wallagi tiny engine"
-	
-outfit "Kal-4 Engines"
-	category "Engines"
-	"cost" 3500000
-	thumbnail "outfit/unknown"
-	"mass" 50
-	"outfit space" -50
-	"engine capacity" -50
-	"thrust" 51
-	"thrusting energy" 6
-	"thrusting heat" 4.2
-	"turn" 980
-	"turning energy" .7
-	"turning heat" .6
-	"hyperdrive" 1
-	"jump drive" 1
-	"jump speed" 1.2
-	"flare sprite" "effect/atomic flare/medium"
-	description "Wallagi medium engine"
-	
-outfit "Kal-8 Engines"
-	category "Engines"
-	"cost" 3500000
-	thumbnail "outfit/unknown"
-	"mass" 80
-	"outfit space" -80
-	"engine capacity" -80
-	"thrust" 87
-	"thrusting energy" 1.3
-	"thrusting heat" .8
-	"turn" 1420
-	"turning energy" 10
-	"turning heat" 7
-	"hyperdrive" 1
-	"jump drive" 1
-	"jump speed" 1.2
-	"flare sprite" "effect/atomic flare/large"
-	description "Wallagi large engine"
-	
-outfit "Kal-10 Engines"
-	category "Engines"
-	"cost" 3500000
-	thumbnail "outfit/unknown"
-	"mass" 140
-	"outfit space" -120
-	"engine capacity" -120
-	"thrust" 178
-	"thrusting energy" 21
-	"thrusting heat" 7
-	"turn" 2315
-	"turning energy" 1.5
-	"turning heat" .9
-	"hyperdrive" 1
-	"jump drive" 1
-	"jump speed" 1.2
-	"flare sprite" "effect/atomic flare/huge"
-	description "Wallagi huge engine"
-	
-outfit "Ulyukar Heat Control"
-	category "Systems"
-	cost 3600000
-	thumbnail "outfit/unknown"
-	mass 15
-	"outfit space" -15
-	"cooling" 12
-	"active cooling" 10
-	"cooling energy" 8
-	"heat protection" 2
-	"description" "Wallagi small heat controlling system. Aside from ability to increase cooling as it gets hotter, it also provides some protection against external heat sources from enemy fire."
-	
-#Anti- missile
-	
-outfit "Cilhr Anti-missile" #sach #Primary AM
-	category "Turrets"
-	cost 800000
-	thumbnail "outfit/heavy anti-missile"
-	"mass" 12
-	"outfit space" -12
-	"weapon capacity" -12
-	"turret mounts" -1
-	weapon
-		"fire effect" "particle impact"
-		sound "gw energy1"
-		"anti-missile" 60
-		"turret turn" 14
-		"velocity" 200
-		"lifetime" 1
-		"reload" 3
-		"firing energy" 1
-		"firing heat" 1
-	description "Wallagi primary anti missile"
-	
-outfit "Eilgur Anti-missile" #For later use
-	category "Turrets"
-	cost 1400000
-	thumbnail "outfit/heavy anti-missile"
-	"mass" 21
-	"outfit space" -21
-	"weapon capacity" -21
-	"turret mounts" -1
-	weapon
-		"fire effect" "particle impact"
-		sound "gw energy1"
-		"anti-missile" 90
-		"turret turn" 14
-		"velocity" 200
-		"lifetime" 1
-		"reload" 12
-		"firing energy" 5
-		"firing heat" 5
-	description "Wallagi improved anti missile."
-	
-outfit "Jestar Anti-missile"
-	category "Turrets"
-	cost 1200000
-	thumbnail "outfit/heavy anti-missile"
-	"mass" 80
-	"outfit space" -80
-	"weapon capacity" -80
-	"turret mounts" -1
-	weapon
-		"fire effect" "particle impact"
-		sound "energy2"
-		"anti-missile" 125
-		"turret turn" 18
-		"velocity" 400
-		"lifetime" 1
-		"reload" 7.5
-		"firing energy" 8
-		"firing heat" 8
-	description "Wallagi large anti missile."
-	
-outfit "Kemper Missile Defense"
-	category "Turrets"
-	cost 5000000
-	thumbnail "outfit/kmd"
-	"mass" 88
-	"outfit space" -88
-	"weapon capacity" -88
-	"turret mounts" -1
-	weapon
-		sound "minelayer"
-		"anti-missile" 100
-		"turret turn" 20
-		"velocity" 1100
-		"lifetime" 1
-		"reload" 1
-		"firing energy" 12
-		"firing heat" 12
-	description "Wallagi long range anti missile system."
-	
 #=======================WEapons
 	
 outfit "Klingar Laser" #E10-B 
 	category "Guns"
-	cost 1500000
+	cost 3500000
 	thumbnail "outfit/dels ukar3"
 	"mass" 20
 	"outfit space" -20
@@ -293,11 +24,11 @@ outfit "Klingar Laser" #E10-B
 		"shield damage" 10
 		"hull damage" 10
 		"hit force" 5
-	description ""
+	description "Wallagi Laser."
 	
 outfit "Semfal Torpedo" #T30-E 
 	category "Guns"
-	cost 5000000
+	cost 8000000
 	thumbnail "outfit/wallagi semfal torpedo"
 	"mass" 40
 	"outfit space" -40
@@ -323,7 +54,7 @@ outfit "Semfal Torpedo" #T30-E
 		"hit force" 12
 		"missile strength" 34
 		"ion damage" 1
-	description ""
+	description "Wallagi Ion torpedo"
 	
 outfit "Sesmal Torpedo" #T70-E 
 	category "Guns"
@@ -475,7 +206,7 @@ outfit "Sikarl Mine"
 
 outfit "Sikarl Mine Launcher"
 	category "Secondary Weapons"
-	cost 1700000
+	cost 4700000
 	thumbnail "outfit/wallagi sikarl launcher"
 	mass 14
 	"outfit space" -21
@@ -807,3 +538,296 @@ outfit "sikarl field 10" #Initially I want it to last 20 frames but this is gett
 		"hull damage" 100
 		"ion damage" 20
 		"disruption damage" 20
+
+#================================================Anti- missile
+	
+outfit "Cilhr Anti-missile" #sach #Primary AM
+	category "Turrets"
+	cost 2800000
+	thumbnail "outfit/heavy anti-missile"
+	"mass" 12
+	"outfit space" -12
+	"weapon capacity" -12
+	"turret mounts" -1
+	weapon
+		"fire effect" "particle impact"
+		sound "gw energy1"
+		"anti-missile" 60
+		"turret turn" 14
+		"velocity" 200
+		"lifetime" 1
+		"reload" 3
+		"firing energy" 1
+		"firing heat" 1
+	description "Wallagi primary anti missile"
+	
+outfit "Eilgur Anti-missile" #For later use
+	category "Turrets"
+	cost 5400000
+	thumbnail "outfit/heavy anti-missile"
+	"mass" 21
+	"outfit space" -21
+	"weapon capacity" -21
+	"turret mounts" -1
+	weapon
+		"fire effect" "particle impact"
+		sound "gw energy1"
+		"anti-missile" 90
+		"turret turn" 14
+		"velocity" 200
+		"lifetime" 1
+		"reload" 12
+		"firing energy" 5
+		"firing heat" 5
+	description "Wallagi improved anti missile."
+	
+outfit "Jestar Anti-missile"
+	category "Turrets"
+	cost 12000000
+	thumbnail "outfit/heavy anti-missile"
+	"mass" 80
+	"outfit space" -80
+	"weapon capacity" -80
+	"turret mounts" -1
+	weapon
+		"fire effect" "particle impact"
+		sound "energy2"
+		"anti-missile" 125
+		"turret turn" 18
+		"velocity" 400
+		"lifetime" 1
+		"reload" 7.5
+		"firing energy" 8
+		"firing heat" 8
+	description "Wallagi large anti missile."
+	
+outfit "Kemper Missile Defense"
+	category "Turrets"
+	cost 15000000
+	thumbnail "outfit/kmd"
+	"mass" 88
+	"outfit space" -88
+	"weapon capacity" -88
+	"turret mounts" -1
+	weapon
+		sound "minelayer"
+		"anti-missile" 100
+		"turret turn" 20
+		"velocity" 1100
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 12
+		"firing heat" 12
+	description "Wallagi long range anti missile system."
+	
+#===========================================================Systems
+
+outfit "Ulyukar Heat Control"
+	category "Systems"
+	cost 3600000
+	thumbnail "outfit/unknown"
+	mass 15
+	"outfit space" -15
+	"cooling" 12
+	"active cooling" 10
+	"cooling energy" 8
+	"heat protection" 2
+	"description" "Wallagi small heat controlling system. Aside from ability to increase cooling as it gets hotter, it also provides some protection against external heat sources from enemy fire."
+
+
+outfit "Asenil Shield Generator" #Wasen
+	category "Systems"
+	cost 5000000
+	thumbnail "outfit/wallagi shield"
+	"mass" 11
+	"outfit space" -11
+	"shield generation" 1
+	"shield energy" 1
+	description "Wallagi tiny shield generator for fighters."
+	
+outfit "Filkei Shield Generator"
+	category "Systems"
+	cost 11000000
+	thumbnail "outfit/wallagi shield"
+	"mass" 24
+	"outfit space" -24
+	"shield generation" 2.1
+	"shield energy" 2
+	description "Wallagi small shield generator."
+	
+outfit "Lestur Shield Generator"
+	category "Systems"
+	cost 35000000
+	thumbnail "outfit/wallagi shield"
+	"mass" 56
+	"outfit space" -56
+	"shield generation" 4.6
+	"shield energy" 4.3
+	description "Wallagi medium shield generator."
+	
+outfit "Sestar Shield Generator"
+	category "Systems"
+	cost 50000000
+	thumbnail "outfit/wallagi shield"
+	"mass" 104
+	"outfit space" -104
+	"shield generation" 6.3
+	"shield energy" 5.7
+	description "Wallagi large shield generator."
+	
+outfit "Tensel Shield Generator"
+	category "Systems"
+	cost 57000000
+	thumbnail "outfit/wallagi shield"
+	"mass" 130
+	"outfit space" -130
+	"shield generation" 11.5
+	"shield energy" 10.4
+	description "Wallagi huge shield generator."
+	
+outfit "Yalgos Shield Generator" #Malgos
+	category "Systems"
+	cost 64000000
+	thumbnail "outfit/wallagi shield"
+	"mass" 220
+	"outfit space" -220
+	"shield generation" 21.2
+	"shield energy" 20
+	description "Wallagi massive shield generator found only on the biggest ships."
+	
+#=========================================================Power
+
+outfit "C10-W Hinlar Core"
+	category "Power"
+	cost 1000000
+	thumbnail "outfit/unknown"
+	mass 9
+	"outfit space" -10
+	"energy generation" .6
+	"heat generation" .3
+	"ion resistance" .1
+	"ion resistance energy" -.1
+	"ion resistance heat" 2
+	"energy capacity" 1000
+	description "Tiny Wallagi generator."
+	
+outfit "C40-W Milar Core"
+	category "Power"
+	cost 15000000
+	thumbnail "outfit/unknown"
+	"mass" 72
+	"outfit space" -76
+	"energy generation" 23
+	"heat generation" 9
+	"ion resistance" 1
+	"ion resistance energy" -1
+	"ion resistance heat" 16
+	"energy capacity" 7400
+	description "Large Wallagi generator."
+	
+outfit "C60-W Falmin Core"
+	category "Power"
+	cost 42000000
+	thumbnail "outfit/unknown"
+	"mass" 146
+	"outfit space" -152
+	"energy generation" 45
+	"heat generation" 12
+	"ion resistance" 2.1
+	"ion resistance energy" -2.1
+	"ion resistance heat" 23
+	"energy capacity" 15000
+	description "Huge Wallagi generator."
+	
+outfit "C80-W Mallar Core"
+	category "Power"
+	cost 95000000
+	thumbnail "outfit/unknown"
+	"mass" 202
+	"outfit space" -223
+	"energy generation" 51
+	"heat generation" 14
+	"ion resistance" 4.3
+	"ion resistance energy" -4.3
+	"ion resistance heat" 42
+	"energy capacity" 22000
+	description "Massive Wallagi generator."
+	
+#==================================================Engines
+
+outfit "Kal-1 Engines"
+	category "Engines"
+	"cost" 3500000
+	thumbnail "outfit/unknown"
+	"mass" 20
+	"outfit space" -20
+	"engine capacity" -20
+	"thrust" 24
+	"thrusting energy" 4.4
+	"thrusting heat" 2.9
+	"turn" 650
+	"turning energy" .5
+	"turning heat" .5
+	"hyperdrive" 1
+	"jump drive" 1
+	"jump speed" 1.2
+	"flare sprite" "effect/atomic flare/tiny"
+	description "Wallagi tiny engine"
+	
+outfit "Kal-4 Engines"
+	category "Engines"
+	"cost" 3500000
+	thumbnail "outfit/unknown"
+	"mass" 50
+	"outfit space" -50
+	"engine capacity" -50
+	"thrust" 51
+	"thrusting energy" 6
+	"thrusting heat" 4.2
+	"turn" 980
+	"turning energy" .7
+	"turning heat" .6
+	"hyperdrive" 1
+	"jump drive" 1
+	"jump speed" 1.2
+	"flare sprite" "effect/atomic flare/medium"
+	description "Wallagi medium engine"
+	
+outfit "Kal-8 Engines"
+	category "Engines"
+	"cost" 3500000
+	thumbnail "outfit/unknown"
+	"mass" 80
+	"outfit space" -80
+	"engine capacity" -80
+	"thrust" 87
+	"thrusting energy" 1.3
+	"thrusting heat" .8
+	"turn" 1420
+	"turning energy" 10
+	"turning heat" 7
+	"hyperdrive" 1
+	"jump drive" 1
+	"jump speed" 1.2
+	"flare sprite" "effect/atomic flare/large"
+	description "Wallagi large engine"
+	
+outfit "Kal-10 Engines"
+	category "Engines"
+	"cost" 3500000
+	thumbnail "outfit/unknown"
+	"mass" 140
+	"outfit space" -120
+	"engine capacity" -120
+	"thrust" 178
+	"thrusting energy" 21
+	"thrusting heat" 7
+	"turn" 2315
+	"turning energy" 1.5
+	"turning heat" .9
+	"hyperdrive" 1
+	"jump drive" 1
+	"jump speed" 1.2
+	"flare sprite" "effect/atomic flare/huge"
+	description "Wallagi huge engine"
+
