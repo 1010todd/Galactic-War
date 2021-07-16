@@ -1,0 +1,30 @@
+mission "First Contact: Ignaggen"
+	landing
+	invisible
+	source
+		government "Ignaggen"
+	to offer
+		has "gw: debug mode"
+	on offer
+		conversation
+			`(First Contact: Ignaggen) (Under construction)`
+
+
+#
+# Debug Tools
+#
+
+mission "gw: ignaggen mission reset"
+	name "GW: Ignaggen Mission Reset"
+	job
+	repeat
+	deadline 1
+	to offer
+		has "gw: debug mode"
+	description "Reset all Ignaggen missions and events."
+	source
+		government "cheat" "Ignaggen"
+	on accept
+		dialog phrase "gw mission reset"
+		clear "First Contact: Ignaggen: declined"
+		clear "First Contact: Ignaggen: offered"
