@@ -270,7 +270,7 @@ outfit "Genes Shield Generator"
 	"outfit space" -20
 	"shield generation" .2
 	"shield energy" .45
-	description "Small Ignaggen shield."
+	description "A small Ignaggen shield generator."
 	
 outfit "Genel Shield Generator"
 	category "Systems"
@@ -280,7 +280,7 @@ outfit "Genel Shield Generator"
 	"outfit space" -36
 	"shield generation" .34
 	"shield energy" .7
-	description ""
+	description "A medium Ignaggen shield generator."
 	
 outfit "Gelaf Shield Generator"
 	category "Systems"
@@ -290,7 +290,7 @@ outfit "Gelaf Shield Generator"
 	"outfit space" -46
 	"shield generation" .53
 	"shield energy" 1.2
-	description ""
+	description "A large Ignaggen shield generator."
 	
 outfit "Kager Gekar Shield Generator"
 	category "Systems"
@@ -320,7 +320,7 @@ outfit "Ielur Thruster" #Rila
 		"frame rate" 5
 	"flare sound" "plasma tiny"
 	"ignaggen engine port" 1
-	description "Ignaggen Engine."
+	description "Ignaggen Engine (tiny)"
 	
 outfit "Rika Thruster" #Rika
 	category "Engines"
@@ -336,12 +336,12 @@ outfit "Rika Thruster" #Rika
 		"frame rate" 6
 	"flare sound" "plasma small"
 	"ignaggen engine port" 2
-	description "Ignaggen Engine"
+	description "Ignaggen Engine (small)"
 	
 outfit "Rila Thruster" #Ielur
 	category "Engines"
 	"cost" 43000
-	thumbnail "outfit/small plasma thruster"
+	thumbnail "outfit/medium plasma thruster"
 	"mass" 68
 	"outfit space" -68
 	"engine capacity" -68
@@ -350,9 +350,9 @@ outfit "Rila Thruster" #Ielur
 	"thrusting heat" 3.5
 	"flare sprite" "effect/plasma flare/medium"
 		"frame rate" 6
-	"flare sound" "plasma small"
+	"flare sound" "plasma medium"
 	"ignaggen engine port" 3
-	description "Ignaggen Engine"
+	description "Ignaggen Engine (medium)"
 	
 outfit "Rilen Thruster" #Rilen
 	category "Engines"
@@ -368,7 +368,7 @@ outfit "Rilen Thruster" #Rilen
 		"frame rate" 0.9
 	"flare sound" "plasma large"
 	"ignaggen engine port" 4
-	description "Ignaggen Engine"
+	description "Ignaggen Engine (large)"
 	
 outfit "Ielur Steering" #Rila
 	category "Engines"
@@ -380,7 +380,7 @@ outfit "Ielur Steering" #Rila
 	"turn" 280
 	"turning energy" .26
 	"turning heat" .36
-	description "Ignaggen Engine"
+	description "Ignaggen Engine (tiny)"
 	
 outfit "Rika Steering" #Rika
 	category "Engines"
@@ -392,7 +392,7 @@ outfit "Rika Steering" #Rika
 	"turn" 580
 	"turning energy" 0.5
 	"turning heat" .6
-	description "Ignaggen Engine"
+	description "Ignaggen Engine (small)"
 	
 outfit "Rilen Steering" #Rilen
 	category "Engines"
@@ -404,6 +404,6 @@ outfit "Rilen Steering" #Rilen
 	"turn" 2220
 	"turning energy" 2.2
 	"turning heat" 2.3
-	description "Ignaggen Engine"
+	description "Ignaggen Engine (large)"
 	
 	

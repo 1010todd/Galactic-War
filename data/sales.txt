@@ -663,18 +663,20 @@ shipyard "Geeva All"
 
 	# Drone
 
-#======================================IGNAGGEN
+#======================================Ignaggen
 	
 outfitter "Ignaggen Basic"
+	# Weapons
 	"Georlen Gun"
 	"Georlen Turret"
 	"Gikorel Anti-Missile"
-	
-	"Gatourot Capacitor"
-	"Vultador Cell"
-	"Vurlugigr Reactor"
-	"Local Map"
 
+	# Power
+	"Vultador Cell"       # Tiny battery/generator hybrid
+	"Vurlugigr Reactor"   # Small reactor
+	"Gatourot Capacitor"  # Tiny battery
+
+	"Local Map"
 	"Outfits Expansion"
 	"Cargo Expansion"
 	"Small Bunk Room"
@@ -683,22 +685,26 @@ outfitter "Ignaggen Basic"
 	"Outfit Scanner"
 	"Asteroid Scanner"
 	"Cargo Scanner"
-	
+
 outfitter "Ignaggen Advanced"
+	# Weapons
 	"Gikorel Anti-Missile"
 	"Igarsot Cannon"
 	"Igarsot Turret"
 	"Georlen Gun"
 	"Georlen Turret"
 	"Rakkrao Cannon"
-	
-	"Gatourot Capacitor"
-	"Vultador Cell"
-	"Vurlugigr Reactor"
-	"Orvuilugr Reactor"
-	"Ignaggen Cooling System"
-	"Local Map"
 
+	# Systems
+	"Ignaggen Cooling System"
+
+	# Power
+	"Vultador Cell"       # Tiny battery/generator hybrid
+	"Vurlugigr Reactor"   # Small reactor
+	"Orvuilugr Reactor"   # Medium reactor
+	"Gatourot Capacitor"  # Tiny battery
+
+	"Local Map"
 	"Outfits Expansion"
 	"Cargo Expansion"
 	"Small Bunk Room"
@@ -708,24 +714,92 @@ outfitter "Ignaggen Advanced"
 	"Asteroid Scanner"
 	"Cargo Scanner"
 
+outfitter "Ignaggen All"
+	# Guns
+	"Igarsot Cannon"
+	"Georlen Gun"
+	"Rakkrao Cannon"
+
+	# Turrets
+	"Igarsot Turret"
+	"Georlen Turret"
+	"Gikorel Anti-Missile"
+
+	# Secondary Weapons
+
+	# Ammunition
+
+	# Systems
+	"Ignaggen Cooling System"
+	"Genos Shield Generator"        # Tiny
+	"Genes Shield Generator"        # Small
+	"Genel Shield Generator"        # Medium
+	"Gelaf Shield Generator"        # Large
+	"Kager Gekar Shield Generator"  # Large, military
+
+	# Power
+	"Vultador Cell"       # Tiny battery/generator hybrid
+	"Vurlugigr Reactor"   # Small reactor
+	"Orvuilugr Reactor"   # Medium reactor
+	"Telour Generator"    # Large reactor
+	"Gatourot Capacitor"  # Tiny battery
+	"Budkuril Capacitor"  # Small battery
+	"Huleddor Capacitor"  # Medium battery
+
+	# Engines
+	"Ielur Thruster"  # Tiny thruster
+	"Rika Thruster"   # Small thruster
+	"Rila Thruster"   # Medium thruster
+	"Rilen Thruster"  # Large thruster
+	"Ielur Steering"  # Tiny steering
+	"Rika Steering"   # Small steering
+	"Rilen Steering"  # Large steering
+
 shipyard "Ignaggen Basic"
-	"Gikeor"
-	"Kina"
+	"Gikeor" # Interceptor
+	"Kina"   # Light freighter
 
 shipyard "Ignaggen Small"
-	"Gikeor"
-	"Kina"
+	"Gikeor" # Interceptor
+	"Kina"   # Light freighter
 
 shipyard "Ignaggen Advanced"
-	"Koggareu"
-	"Kamuel"
+	"Koggareu" # Interceptor
+	"Kamuel"   # Light freighter
 	
 shipyard "Ignaggen Large"
-	"Keorlen"
-	"Loerlen"
+	"Keorlen" # Heavy freighter
+	"Loerlen" # Medium warship
 
 shipyard "Ignaggen Military"
+	"I'nos" # Heavy warship
+
+shipyard "Ignaggen All"
+	# Transport
+
+	# Light Freighter
+	"Kamuel"
+	"Kina"
+
+	# Heavy Freighter
+	"Keorlen"
+
+	# Interceptor
+	"Gikeor"
+	"Koggareu"
+
+	# Light Warship
+
+	# Medium Warship
+	"Loerlen"
+
+	# Heavy Warship
 	"I'nos"
+
+	# Fighter
+
+	# Drone
+
 	
 #======================================KROOM
 
