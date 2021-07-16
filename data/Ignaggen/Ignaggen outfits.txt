@@ -1,55 +1,4 @@
-outfit "Igarsot Cannon"
-	category "Guns"
-	cost 340000
-	thumbnail "outfit/warscythe"
-	"mass" 34
-	"outfit space" -34
-	"weapon capacity" -34
-	"gun ports" -1
-	weapon
-		sprite "projectile/igarsot beam"
-			"frame rate" 1
-		sound "gw energy1"
-		"hit effect" "particle impact"
-		"inaccuracy" 1
-		"velocity" 20
-		"lifetime" 30
-		"reload" 12
-		"firing energy" 50
-		"firing heat" 220
-		"heat damage" 12
-		"shield damage" 56
-		"hull damage" 44
-	description "Common anti-ship weaponry recently developed and fielded by Ignaggen."
-	
-outfit "Igarsot Turret"
-	category "Turrets"
-	cost 390000
-	thumbnail "outfit/warscythe"
-	"mass" 54
-	"outfit space" -54
-	"weapon capacity" -54
-	"turret mounts" -1
-	"required crew" 1
-	weapon
-		sprite "projectile/igarsot beam"
-			"frame rate" 1
-		sound "gw energy1"
-		"hit effect" "particle impact"
-		"hardpoint sprite" "hardpoint/igarsot turret"
-		"hardpoint offset" 15.
-		"inaccuracy" 1
-		"velocity" 20
-		"lifetime" 30
-		"reload" 12
-		"turret turn" 1.8
-		"firing energy" 50
-		"firing heat" 220
-		"heat damage" 12
-		"shield damage" 56
-		"hull damage" 44
-	description ""
-	
+
 outfit "Georlen Gun"
 	category "Guns"
 	cost 80000
@@ -69,8 +18,8 @@ outfit "Georlen Gun"
 		"velocity" 22
 		"lifetime" 20
 		"reload" 8
-		"firing energy" 10
-		"firing heat" 8
+		"firing energy" 12
+		"firing heat" 21
 		"heat damage" 8
 		"shield damage" 20
 		"hull damage" 18
@@ -86,6 +35,7 @@ outfit "Georlen Turret"
 	"outfit space" -22
 	"weapon capacity" -22
 	"turret mounts" -1
+	"heat generation" 9
 	"required crew" 1
 	weapon
 		sprite "projectile/georlen"
@@ -100,22 +50,80 @@ outfit "Georlen Turret"
 		"lifetime" 20
 		"reload" 8
 		"turret turn" 5
-		"firing energy" 10
-		"firing heat" 8
+		"firing energy" 12
+		"firing heat" 21
 		"heat damage" 8
 		"shield damage" 20
 		"hull damage" 18
 		"burst reload" 5
 		"burst count" 5
+	description "Ignaggen Georlen turret"
+
+outfit "Igarsot Cannon"
+	category "Guns"
+	cost 340000
+	thumbnail "outfit/warscythe"
+	"mass" 34
+	"outfit space" -34
+	"weapon capacity" -34
+	"heat generation" 12
+	"gun ports" -1
+	weapon
+		sprite "projectile/igarsot beam"
+			"frame rate" 1
+		sound "gw energy1"
+		"hit effect" "particle impact"
+		"inaccuracy" 1
+		"velocity" 20
+		"lifetime" 30
+		"reload" 12
+		"firing energy" 50
+		"firing heat" 220
+		"heat damage" 18
+		"shield damage" 39
+		"hull damage" 26
+	description "Common anti-ship weaponry recently developed and fielded by Ignaggen."
+	
+outfit "Igarsot Turret"
+	category "Turrets"
+	cost 390000
+	thumbnail "outfit/warscythe"
+	"mass" 54
+	"outfit space" -54
+	"weapon capacity" -54
+	"turret mounts" -1
+	"heat generation" 12
+	"required crew" 1
+	weapon
+		sprite "projectile/igarsot beam"
+			"frame rate" 1
+		sound "gw energy1"
+		"hit effect" "particle impact"
+		"hardpoint sprite" "hardpoint/igarsot turret"
+		"hardpoint offset" 15.
+		"inaccuracy" 1
+		"velocity" 20
+		"lifetime" 30
+		"reload" 12
+		"turret turn" 1.8
+		"firing energy" 50
+		"firing heat" 220
+		"heat damage" 18
+		"shield damage" 39
+		"hull damage" 26
 	description ""
 
 outfit "Rakkrao Cannon"
 	category "Guns"
+	licenses
+		"Kager Lergen"
 	cost 500000
 	thumbnail "outfit/particle cannon"
 	"mass" 35
 	"outfit space" -35
 	"weapon capacity" -35
+	"heat generation" 22
+	"energy consumption" 7
 	"gun ports" -1
 	weapon
 		sprite "projectile/particle beam"
@@ -127,14 +135,15 @@ outfit "Rakkrao Cannon"
 		"reload" 30
 		"firing energy" 35
 		"firing force" 20
-		"firing heat" 150
+		"firing heat" 258
 		"hit force" 10
-		"shield damage" 70
+		"shield damage" 73
 		"hull damage" 120
-		"damage dropoff" 600
+		"damage dropoff" 650
 		"piercing" .2
-	description "Ignaggen anti-capital cannon"
-	
+	description "Ignaggen anti-capital cannon with capability to pierc through target shieldings, according to the Ignaggen the shield piercing effect was unexpected during the development. Now it became one of the primary weapon used by the Ignaggen military."
+	description "Due to the technology behind how it works this gun requires to be powered all the time to be ready to use. Damage dimishes at longer range"
+
 outfit "Gikorel Anti-Missile"
 	category "Turrets"
 	cost 62000

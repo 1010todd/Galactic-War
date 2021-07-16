@@ -10,7 +10,8 @@ mission "Omnis-GW: licenses add"
 		set "license: Dels Admiral"
 		set "license: Dels Commander"
 		set "license: Kakaima"
-		set "license: Kager Lergen"
+		set "license: Kager Lergen" #Ignaggen Military License/permit
+		set "license: Kagellen Ler" #Ignaggen Independent Combatant license/permit
 		
 mission "Omnis-GW: licenses remove"
 	name `Remove all GW Licenses`
@@ -25,6 +26,7 @@ mission "Omnis-GW: licenses remove"
 		clear "license: Dels Commander"
 		clear "license: Kakaima"
 		clear "license: Kager Lergen"
+		clear "license: Kagellen Ler"
 	
 mission "Omnis-GW: Mark Capitals"
 	name "GW Mark Capitals"

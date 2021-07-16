@@ -94,6 +94,8 @@ ship "Loerlen" #2nd, used by civs
 	thumbnail "thumbnail/ignaggen loerlen thumb"
 	attributes
 		category "Medium Warship"
+		licenses
+			"Kagellen Ler"
 		"cost" 5200000
 		"shields" 6700
 		"hull" 2300
@@ -113,8 +115,7 @@ ship "Loerlen" #2nd, used by civs
 			"hull damage" 500
 			"hit force" 1500
 	outfits
-		"Igarsot Cannon" 2
-		"Rakkrao Cannon" 2
+		"Igarsot Cannon" 4
 		"Gikorel Anti-Missile"
 		
 		"Vurlugigr Reactor"
@@ -132,8 +133,8 @@ ship "Loerlen" #2nd, used by civs
 	turret 0 16.5 "Gikorel Anti-Missile"
 	engine -24.5 81.5
 	engine 24.5 82.5
-	gun -31 -28.5 "Rakkrao Cannon"
-	gun 31 -29 "Rakkrao Cannon"
+	gun -31 -28.5
+	gun 31 -29
 	explode "tiny explosion" 18
 	explode "small explosion" 36
 	explode "medium explosion" 24
