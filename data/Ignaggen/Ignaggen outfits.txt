@@ -269,16 +269,23 @@ outfit "Genos Shield Generator"
 	"outfit space" -12
 	"shield generation" .1
 	"shield energy" .2
+	"shield protection" .1
+	"disruption protection" .1
+	"piercing protection" .1
 	description "Energy Shields were only recently introduced to the Ignaggen when they comes in contact with the Dels. Due to that their shielding technologies is still primitive."
-	
+	description "Even then, after they start figuring out the shielding technologies, they can already find a way to improve their properties to compensate for lower regeneration rate."
+
 outfit "Genes Shield Generator"
 	category "Systems"
-	cost 28000
+	cost 38000
 	thumbnail "outfit/ignaggen shield small"
 	"mass" 20
 	"outfit space" -20
 	"shield generation" .2
 	"shield energy" .45
+	"shield protection" .1
+	"disruption protection" .2
+	"piercing protection" .2
 	description "A small Ignaggen shield generator."
 	
 outfit "Genel Shield Generator"
@@ -289,6 +296,9 @@ outfit "Genel Shield Generator"
 	"outfit space" -36
 	"shield generation" .34
 	"shield energy" .7
+	"shield protection" .1
+	"disruption protection" .3
+	"piercing protection" .3
 	description "A medium Ignaggen shield generator."
 	
 outfit "Gelaf Shield Generator"
@@ -299,6 +309,9 @@ outfit "Gelaf Shield Generator"
 	"outfit space" -46
 	"shield generation" .53
 	"shield energy" 1.2
+	"shield protection" .1
+	"disruption protection" .7
+	"piercing protection" .7
 	description "A large Ignaggen shield generator."
 	
 outfit "Kager Gekar Shield Generator"
@@ -311,6 +324,9 @@ outfit "Kager Gekar Shield Generator"
 	"outfit space" -40
 	"shield generation" .6
 	"shield energy" 1.8
+	"shield protection" .5
+	"disruption protection" 1
+	"piercing protection" 1
 	description "Large and powerful shield reserved for Ignaggen military warships."
 	
 #========================================================Engine
