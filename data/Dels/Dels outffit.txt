@@ -16,7 +16,7 @@ outfit "Skue-6 Blaster" #BA1
 		"velocity" 12
 		"lifetime" 40
 		"reload" 8
-		"firing energy" 10
+		"firing energy" 6.8
 		"firing heat" 22
 		"shield damage" 12
 		"hull damage" 9
@@ -40,7 +40,7 @@ outfit "Skue-8 Blaster" #BA2
 		"velocity" 12
 		"lifetime" 45
 		"reload" 8
-		"firing energy" 20
+		"firing energy" 14
 		"firing heat" 45
 		"shield damage" 24
 		"hull damage" 20
@@ -64,7 +64,7 @@ outfit "Skue-8 Reverse Blaster" #BA2
 		"velocity" -8.5
 		"lifetime" 70
 		"reload" 8
-		"firing energy" 20
+		"firing energy" 14
 		"firing heat" 45
 		"shield damage" 24
 		"hull damage" 20
@@ -87,14 +87,14 @@ outfit "Ukar-3 Blaster" #BA3
 		"hit effect" "blaster impact"
 		"inaccuracy" 1.8
 		"velocity" 19
-		"lifetime" 45
+		"lifetime" 40
 		"reload" 15
 		"burst count" 5
 		"burst reload" 8
-		"firing energy" 52
+		"firing energy" 45
 		"firing heat" 85
-		"shield damage" 36
-		"hull damage" 26
+		"shield damage" 33
+		"hull damage" 23
 		"cluster"
 	description "A powerful burst-firing blaster. Despite the shorter range, the projectile is faster making it harder to dodge. Be aware that it also generates considerably more heat than regular blasters."
 	
@@ -120,11 +120,11 @@ outfit "Vokkar Gun" #PG10
 		"firing force" 8
 		"firing heat" 135
 		"hit force" 80
-		"shield damage" 70
-		"hull damage" 68
+		"shield damage" 65
+		"hull damage" 63
 		"disruption damage" .07
 		"firing disruption" .1
-	description "This weapon can weakens the enemies shield allowing projectiles to partially damage the target's hull even with shields up, though, it doesn't care whose shield it's passing."
+	description "This weapon can weakens the enemies shield allowing other projectiles to partially damage the target's hull even with shields up, though, it doesn't care whose shield it's passing."
 	
 effect "vokkar spark"
 	"sprite" "effect/vokkar effect"
@@ -218,7 +218,7 @@ outfit "Dels Sokak Cannon"
 		"velocity" 35
 		"lifetime" 17
 		"reload" 50
-		"firing energy" 60
+		"firing energy" 20
 		"firing force" 30
 		"firing heat" 180
 		"hit force" 160
@@ -250,7 +250,7 @@ outfit "Dels Sokak Cannon Turret"
 		"velocity" 35
 		"lifetime" 17
 		"reload" 56
-		"firing energy" 60
+		"firing energy" 20
 		"firing force" 30
 		"firing heat" 180
 		"hit force" 160
@@ -321,7 +321,7 @@ outfit "Skue-6 Turret" #AA1
 		"velocity" 12
 		"lifetime" 40
 		"reload" 8
-		"firing energy" 10
+		"firing energy" 6.8
 		"firing heat" 32
 		"shield damage" 12
 		"hull damage" 9
@@ -348,7 +348,7 @@ outfit "Skue-8 Turret"
 		"velocity" 12
 		"lifetime" 45
 		"reload" 8
-		"firing energy" 20
+		"firing energy" 14
 		"firing heat" 50
 		"shield damage" 24
 		"hull damage" 20
@@ -375,7 +375,7 @@ outfit "Skue-8 Quad Turret"
 		"velocity" 12
 		"lifetime" 45
 		"reload" 2
-		"firing energy" 20
+		"firing energy" 14
 		"firing heat" 50
 		"shield damage" 12
 		"hull damage" 10
@@ -719,7 +719,7 @@ outfit "Deupar Fuel Cell" #C10
 	thumbnail "outfit/tiny fuel cell"
 	"mass" 18
 	"outfit space" -18
-	"energy generation" 2
+	"energy generation" 1.5
 	"heat generation" 1.4
 	description "Dels smallest fuel cell."
 	
@@ -729,7 +729,7 @@ outfit "Farlu Fuel Cell" #C20
 	thumbnail "outfit/small fuel cell"
 	"mass" 28
 	"outfit space" -28
-	"energy generation" 4
+	"energy generation" 3
 	"heat generation" 3.2
 	description "Dels small fuel cell."
 	
@@ -739,7 +739,7 @@ outfit "Hilke Fuel Cell" #C30
 	thumbnail "outfit/medium fuel cell"
 	"mass" 40
 	"outfit space" -40
-	"energy generation" 7
+	"energy generation" 5.25
 	"heat generation" 6.7
 	description "Dels medium fuel cell."
 	
