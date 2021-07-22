@@ -59,7 +59,12 @@ government "Donko"
 		"Revos" .1
 
 #############VVVV[Eraders]VVVV
-		
+
+government "Erader"
+	swizzle 0
+	color .2 .2 .4
+	"player reputation" -1
+
 government "Erader Darua"
 	swizzle 5
 	color .2 .2 .4
@@ -155,6 +160,7 @@ government "Nilra Ignaggen"
 
 government "Nuru"
 	swizzle 0
+	color .10 .28 .19
 	"player reputation" 0
 	"bribe" 0
 	"attitude toward"
@@ -166,6 +172,11 @@ government "Nuru"
 government "Krinek" #WiP
 	swizzle 0
 	"player reputation" 0
+
+government "Kroom" #WiP
+	swizzle 0
+	"player reputation" 0
+	color .20 .100 .5
 
 government "Kroom Kakaima"
 	swizzle 2
@@ -193,6 +204,7 @@ government "Kroom Kanai"
 
 government "Kumakk"
 	swizzle 3
+	color .10 .28 .19
 	"player reputation" 0
 
 government "Qanse"
@@ -201,6 +213,11 @@ government "Qanse"
 	language "Qanse"
 	"player reputation" -10
 	"attitude toward"
+
+government "Qoro"
+	swizzle 0
+	color .004 .0 .89
+	"player reputation" -1
 
 government "Makau A Qoro"
 	swizzle 0
@@ -243,6 +260,11 @@ government "Taroun"
 	"crew attack" 200
 	"crew defense" 400
 	"attitude toward"
+
+government "Tehru"
+	swizzle 0
+	color .10 .28 .19
+	"player reputation" -1
 
 government "Tehru Insker" #Tehru Fraction1
 	swizzle 4
@@ -420,16 +442,19 @@ government "Ultaka(Alrul)"
 
 government "Vareen" #WiP
 	swizzle 0
+	color .10 .28 .19
 	"player reputation" -1
 
 government "Wallagi"
 	swizzle 5
+	color .10 .28 .19
 	"player reputation" 2
 	"attitude toward"
 		"Ultaka" -.1
 		
 government "Yiisk" #WiP
 	swizzle 0
+	color .10 .28 .19
 	"player reputation" -1
 	
 
