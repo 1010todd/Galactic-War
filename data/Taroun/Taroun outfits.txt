@@ -188,8 +188,8 @@ outfit "Ismakur Turret"
 		"disruption damage" 2
 		"blast radius" 120
 		"piercing" 4
-		"shield damage" 2400
-		"hull damage" 1300
+		"shield damage" 1500
+		"hull damage" 900
 		"damage dropoff" 1300
 		"dropoff modifier" .5
 		"safe"
@@ -210,6 +210,82 @@ effect "ismakur fire"
 		"random start frame"
 	"lifetime" 1
 	"velocity scale" 1
+
+outfit "Kilreol Turret"
+	category "Turrets"
+	cost 12000000
+	thumbnail "outfit/taroun kilreol turret"
+	"mass" 40
+	"outfit space" -44
+	"weapon capacity" -44
+	"turret mounts" -1
+	weapon
+		sprite "projectile/larpauron"
+		sound "gw edistort5"
+		"hardpoint sprite" "hardpoint/taroun kilreol turret hp"
+		"hardpoint offset" 5.
+		"submunition" "Kilreol transition" 1
+		"turret turn" 4.5
+		"inaccuracy" 1
+		"velocity" 30
+		"drag" .1
+		"acceleration" 12
+		"optical tracking" .8
+		"homing" 4
+		"split range" 300
+		"velocity override" 80
+		"lifetime" 100
+		"reload" 60
+		"firing energy" 650
+		"firing heat" 500
+	description ""
+
+outfit "Kilreol transition"
+	weapon
+		submunition "Kilreol transition2" 12
+		lifetime 2
+		turn 180
+		velocity -60
+
+outfit "Kilreol transition2"
+	weapon
+		sprite "projectile/larpauron"
+		submunition "Kilreol transition3"
+		"inaccuracy" 34
+		"lifetime" 10
+		#"velocity" 30
+		"random velocity" 5
+		"random lifetime" 5
+		"hit force" -80
+		"missile strength" 9000
+
+outfit "Kilreol transition3"
+	weapon
+		sprite "projectile/larpauron"
+		submunition "Kilreol shot" 2
+		lifetime 2
+		turn 180
+		"velocity" -80
+
+
+outfit "Kilreol shot"
+	weapon
+		sprite "projectile/larpauron"
+		"optical tracking" .9
+		"turn" 4
+		"homing" 4
+		"drag" .1
+		"acceleration" 4
+		"inaccuracy" .5
+		"velocity" 10
+		"random velocity" 12
+		"random lifetime" 15
+		"lifetime" 50
+		"shield damage" 510
+		"hull damage" 1500
+		"hit force" 38
+		"slowing damage" 5
+		
 
 outfit "Taroun Missile Interceptor"
 	category "Turrets"

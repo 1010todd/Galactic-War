@@ -561,6 +561,62 @@ outfit "hausiar wait 5a"
 		"submunition" "hausiar load 4"
 		"phasing"
 
+outfit "Paumas Pointspawn"
+	category "Turrets"
+	cost 2500000
+	thumbnail "outfit/ultaka paumas"
+	"mass" 34
+	"outfit space" -30
+	"weapon capacity" -30
+	"turret mounts" -1
+	#"rozzen capacity" 30
+	weapon
+		sound "sidewinder"
+		"hardpoint offset" 3000
+		"turret turn" 360
+		icon "icon/rozzen"
+		"fire effect" "smoke"
+		"submunition" "Paumas shot"
+		"inaccuracy" 45
+		"velocity" 0
+		"velocity override" 3000
+		"range override" 3000
+		"lifetime" 1
+		"reload" 20
+		"burst reload" 10
+		"burst count" 20
+		"firing energy" 500
+		"firing heat" 18
+		"stream"
+		"phasing"
+
+outfit "Paumas shot"
+	weapon
+		sprite "projectile/spear1"
+			"frame rate" 0
+			"start frame" 0
+		"live effect" "paumas live" 120
+		"hit effect" "ultaka vanquisher hit"
+		"shield damage" 7500
+		"hull damage" 8000
+		"lifetime" 400
+		velocity 20
+		"turn" 5
+		"acceleration" .5
+		"drag" .001
+		"homing" 4
+		"optical tracking" .9
+		"hit force" 25
+		"phasing"
+
+effect "paumas live"
+	sprite "projectile/spear1"
+		"frame rate" 10
+		"start frame" 0
+	"lifetime" 14
+	"velocity scale" 0.9
+	"random velocity" 1
+
 outfit "Ve'raun defense"
 	category "Turrets"
 	cost 3000000
