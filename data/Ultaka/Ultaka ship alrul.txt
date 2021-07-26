@@ -1,4 +1,4 @@
-#T6.5? Anything less than a huge swarm of Arfecta should be even close to scratching it.
+#T6.5? Anything less than a huge swarm of Arfecta shouldn't be even close to scratching it.
 #Rather low hull but with protection.
 
 
@@ -24,11 +24,11 @@ ship "Ultaka Var'ahx"
 		category "Light Warship"
 		"cost" 44200000
 		"shields" 6100000
-		"shield generation" 50000
+		"shield generation" 60000
 		"hull" 500000
 		"hull protection" 3
 		"hull repair rate" 20000
-		"repair delay" 100
+		"repair delay" 60
 		"absolute threshold" 500
 		"required crew" 100
 		"bunks" 1200
@@ -105,9 +105,9 @@ ship "Ultaka Julseir"
 		category "Medium Warship"
 		"cost" 44200000
 		"shields" 16700000
-		"shield generation" 155000
+		"shield generation" 178000
 		"hull" 650000
-		"hull protection" 3.1
+		"hull protection" 3.5
 		"hull repair rate" 30000
 		"repair delay" 120
 		"absolute threshold" 700
@@ -184,7 +184,7 @@ ship "Ultaka Vyvis"
 		category "Heavy Warship"
 		"cost" 44200000
 		"shields" 45300000
-		"shield generation" 450000
+		"shield generation" 453000
 		"hull" 1000000
 		"hull protection" 3
 		"hull repair rate" 80000
