@@ -17,6 +17,7 @@ ship "Qoro(M) Manta"
 		"cost" 4250000
 		"shields" 3800
 		"hull" 1900
+		"hull repair rate" 1
 		"required crew" 1
 		"bunks" 1
 		"mass" 20
@@ -29,8 +30,8 @@ ship "Qoro(M) Manta"
 		"engine capacity" 40
 		"shield generation" .1
 		"shield generation multiplier" .1
-		"disruption resistance" -.2
-		"piercing resistance" -.2
+		"disruption resistance" .2
+		"piercing resistance" .2
 		"mdf lock" -1
 		"QSSS Port R" 3
 		weapon
@@ -89,7 +90,7 @@ ship "Qoro(M) Manta"
 	explode "tiny explosion" 10
 	explode "small explosion" 4
 	description "These are the smallest ship used by the Northern Qoro, they are usually kept for asteroid mining and were rarely deployed in the frontline being the weakest ship."
-	description "Northern Qoro ships are designed and optimised for very though shielding. Works best with their own shield generators. These ships also have a tiny built-in shield generator."
+	description "Makau a Qoro ships are designed and optimised for very though shielding. Works best with their own shield generators. These ships also have a tiny built-in shield generator."
 
 
 #============================[Light Warship]=========================
@@ -105,6 +106,7 @@ ship "Qoro(M) Masec"
 		"cost" 42040000
 		"shields" 34400
 		"hull" 13400
+		"hull repair rate" 3
 		"required crew" 6
 		"bunks" 22
 		"mass" 100
@@ -117,8 +119,8 @@ ship "Qoro(M) Masec"
 		"engine capacity" 132
 		"shield generation" .1
 		"shield generation multiplier" .1
-		"disruption resistance" -.25
-		"piercing resistance" -.25
+		"disruption resistance" .25
+		"piercing resistance" .25
 		"QSSS Port R" 12
 		weapon
 			"blast radius" 320
@@ -204,7 +206,7 @@ ship "Qoro(M) Matoanan"
 	explode "large explosion" 45
 	explode "huge explosion" 30
 	"final explode" "final explosion large"
-	description "[Ma'toa'nan] Matoanan is a giant worldship built by the northen Qoros to carry the left of their people from the Ultaka invasion the weapons on the ship are mainly designed to disable the enemy ships before they can attack the ship, it's one of the biggest ship you've ever seen."
+	description "Ancient Qoro worldship"
 
 
 #============================[Fighter]===============================

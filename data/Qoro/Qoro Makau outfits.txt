@@ -185,8 +185,8 @@ outfit "Mase-Dettai Laser"
 		"reload" 1
 		"firing energy" 2
 		"firing heat" .4
-		"shield damage" 3
-		"hull damage" .7
+		"shield damage" 3.2
+		"hull damage" .82
 	description "Makau Qoro laser for tearing down shields."
 		
 outfit "Masai-kem Missile Defence" #Dunno tf is this.
@@ -421,7 +421,7 @@ outfit "QSSS Cable"
 	"QSSS Port R" -1
 	"QSSS Port T" -1
 	description "This is a cable that allows the ship and the generator to communicate, optimize, and multiply the shield generation efficiency and thoughness. While the shield generator and the ship it self will work with anything elses, they're meant to be paired for maximum effectiveness."
-	#description "These special cable to be used with Northern Qoro shield generator and their ships allowing the ship to communicate with the generator and reach maximum efficiency."
+	#description "These special cable to be used with Makau a Qoro shield generator and their ships allowing the ship to communicate with the generator and reach maximum efficiency."
 
 outfit "Oatua Shield Generator" #Makaso
 	category "Systems"
@@ -429,10 +429,11 @@ outfit "Oatua Shield Generator" #Makaso
 	thumbnail "outfit/qoro m shield small"
 	"mass" 81
 	"outfit space" -81
-	"shield generation" 27
+	"shield generation" 21.1
 	"shield energy" 25.4
 	"shield heat" 16.6
 	"QSSS Port T" 1
+	description	"Makau a Qoro huge shield"
 	
 outfit "Mekifa Shield Generator" #Matoas
 	category "Systems"
@@ -440,10 +441,11 @@ outfit "Mekifa Shield Generator" #Matoas
 	thumbnail "outfit/qoro m shield small"
 	"mass" 49
 	"outfit space" -49
-	"shield generation" 14.3
+	"shield generation" 7.4
 	"shield energy" 12.7
 	"shield heat" 8.8
 	"QSSS Port T" 1
+	description	"Makau a Qoro large shield"
 	
 outfit "Hadinna Shield Generator" #Makean
 	category "Systems"
@@ -451,10 +453,11 @@ outfit "Hadinna Shield Generator" #Makean
 	thumbnail "outfit/qoro m shield small"
 	"mass" 28
 	"outfit space" -28
-	"shield generation" 7.5
+	"shield generation" 3.9
 	"shield energy" 6.1
 	"shield heat" 7.5
 	"QSSS Port T" 1
+	description	"Makau a Qoro medium shield"
 	
 outfit "Etoka Shield Generator" #masoak
 	category "Systems"
@@ -462,10 +465,11 @@ outfit "Etoka Shield Generator" #masoak
 	thumbnail "outfit/qoro m shield small"
 	"mass" 12
 	"outfit space" -12
-	"shield generation" 2.9
+	"shield generation" 1.7
 	"shield energy" 2.2
 	"shield heat" 6.7
 	"QSSS Port T" 1
+	description	"Makau a Qoro small shield"
 	
 outfit "Biqune Shield Generator" #Mahen
 	category "Systems"
@@ -473,10 +477,11 @@ outfit "Biqune Shield Generator" #Mahen
 	thumbnail "outfit/qoro m shield small"
 	"mass" 4
 	"outfit space" -4
-	"shield generation" 1.7
+	"shield generation" .6
 	"shield energy" 2
 	"shield heat" 6
 	"QSSS Port T" 1
+	description	"Makau a Qoro tiny shield"
 	
 # Powers
 outfit "Aseki Cell" #Maseki
@@ -487,6 +492,7 @@ outfit "Aseki Cell" #Maseki
 	"outfit space" -10
 	"energy generation" 6
 	"energy capacity" 1000
+	description	"Makau a Qoro generator"
 	
 outfit "Eirjika Cell" #Masoki
 	category "Power"
@@ -496,6 +502,7 @@ outfit "Eirjika Cell" #Masoki
 	"outfit space" -15
 	"energy generation" 8.2
 	"energy capacity" 2000
+	description	"Makau a Qoro generator"
 	
 outfit "Fuguari Cell" #Masoki
 	category "Power"
@@ -505,6 +512,7 @@ outfit "Fuguari Cell" #Masoki
 	"outfit space" -24
 	"energy generation" 14.3
 	"energy capacity" 2300
+	description	"Makau a Qoro generator"
 	
 outfit "Qutimaka Cell" #Masaski
 	category "Power"
@@ -514,6 +522,7 @@ outfit "Qutimaka Cell" #Masaski
 	"outfit space" -50
 	"energy generation" 24.7
 	"energy capacity" 5000
+	description	"Makau a Qoro generator"
 	
 outfit "Meteon Akon"
 	category "Hand to Hand"

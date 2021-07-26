@@ -73,6 +73,71 @@ outfit "Qoro(S) Anti-Missile"
 		"cluster"
 	description ""
 	
+#=========================Systems
+
+//naming order is reversed, but still in order so maybe I'll leave it for now.
+
+outfit "Nurbolo Shield Generator"
+	category "Systems"
+	cost 2000000
+	thumbnail "outfit/unknown"
+	"mass" 29
+	"outfit space" -29
+	"shield generation" 6.7
+	"shield energy" 7
+	description "Qoro Siogal Shield generator"
+	
+outfit "Norklo'Ar Shield Generator"
+	category "Systems"
+	cost 150000
+	thumbnail "outfit/unknown"
+	"mass" 9
+	"outfit space" -9
+	"shield generation" 4.7
+	"shield energy" 5
+	description "Qoro Siogal Shield generator"
+	
+outfit "Ornai Shield Generator"
+	category "Systems"
+	cost 100000
+	thumbnail "outfit/unknown"
+	"mass" 6
+	"outfit space" -6
+	"shield generation" 2.5
+	"shield energy" 3
+	description "Qoro Siogal Shield generator"
+	
+#==============================Power
+
+outfit "Aog Cell" #Gol
+	category "Power"
+	cost 135000
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 9
+	"outfit space" -9
+	"energy generation" 27.6
+	"energy capacity" 1200
+	
+outfit "Goa Cell" #Gok
+	category "Power"
+	cost 313000
+	thumbnail "outfit/small fuel cell"
+	"mass" 14
+	"outfit space" -14
+	"energy generation" 46.5
+	"energy capacity" 2200
+	
+outfit "Heur Cell" #Goa
+	category "Power"
+	cost 840000
+	thumbnail "outfit/big fuel cell"
+	"mass" 49
+	"outfit space" -49
+	"energy generation" 154.7
+	"energy capacity" 5500
+	
+#=================================Engines
+
 outfit "Gotam Ion Thruster"
 	category "Engines"
 	"cost" 80000
@@ -108,67 +173,12 @@ outfit "Gowaki Ion Thruster"
 	"turning heat" 2.6
 	
 
-	
-outfit "Nurbolo Shield Generator"
-	category "Systems"
-	cost 2000000
-	thumbnail "outfit/unknown"
-	"mass" 29
-	"outfit space" -29
-	"shield generation" 6.7
-	"shield energy" 7
-	
-outfit "Norklo'Ar Shield Generator"
-	category "Systems"
-	cost 150000
-	thumbnail "outfit/unknown"
-	"mass" 9
-	"outfit space" -9
-	"shield generation" 4.7
-	"shield energy" 5
-	
-outfit "Ornai Shield Generator"
-	category "Systems"
-	cost 100000
-	thumbnail "outfit/unknown"
-	"mass" 6
-	"outfit space" -6
-	"shield generation" 2.5
-	"shield energy" 3
-	
-outfit "Aog Cell" #Gol
-	category "Power"
-	cost 135000
-	thumbnail "outfit/tiny fuel cell"
-	"mass" 9
-	"outfit space" -9
-	"energy generation" 27.6
-	"energy capacity" 1200
-	
-outfit "Goa Cell" #Gok
-	category "Power"
-	cost 313000
-	thumbnail "outfit/small fuel cell"
-	"mass" 14
-	"outfit space" -14
-	"energy generation" 46.5
-	"energy capacity" 2200
-	
-outfit "Heur Cell" #Goa
-	category "Power"
-	cost 840000
-	thumbnail "outfit/big fuel cell"
-	"mass" 49
-	"outfit space" -49
-	"energy generation" 154.7
-	"energy capacity" 5500
-	
 outfit "Qoro Armour Plating"
 	category "Special"
 	cost 10000
 	thumbnail "outfit/qoro s armour plate"
 	"mass" 20
-	"hull protection" .3
+	"hull protection" .01
 	"cooling inefficiency" .2
 	description "This outfit will decrease your ship's ability to cool down."
 	
@@ -178,7 +188,7 @@ outfit "Qoro Power Armour"
 	thumbnail "outfit/qoro s earmour plate"
 	"mass" 50
 	"outfit space" -3
-	"hull protection" .15
+	"hull protection" .01
 	"piercing protection" .15
 	"cooling inefficiency" .2
 	
@@ -189,4 +199,4 @@ outfit "Igornuit Rifle"
 	"capture attack" 1.2
 	"capture defense" 2
 	unplunderable 1
-	description ""
+	description "Rifle commonly used by Qoro Siogal"
