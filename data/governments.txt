@@ -98,7 +98,7 @@ government "Erader Narpul"
 
 government "Makerurader"
 	swizzle 6
-	color .0 .0 .0
+	color .5 .5 .5
 	"player reputation" -1
 	"attitude toward"
 		"Erader Darua" -.1
@@ -158,17 +158,6 @@ government "Nilra Ignaggen"
 		"Ignaggen" -.1
 		"Dels" -.1
 
-government "Nuru"
-	swizzle 0
-	color .10 .28 .19
-	"player reputation" 0
-	"bribe" 0
-	"attitude toward"
-		"Xyncil Zorcn" -.01
-	#"friendly hail" "untranslated friendly nuru"
-	#"hostile hail" "untranslated hostile nuru"
-	language "Nuru"
-
 government "Krinek" #WiP
 	swizzle 0
 	"player reputation" 0
@@ -206,6 +195,17 @@ government "Kumakk"
 	swizzle 3
 	color .10 .28 .19
 	"player reputation" 0
+
+government "Nuru"
+	swizzle 0
+	color .0 .0 .0
+	"player reputation" 0
+	"bribe" 0
+	"attitude toward"
+		"Xyncil Zorcn" -.01
+	#"friendly hail" "untranslated friendly nuru"
+	#"hostile hail" "untranslated hostile nuru"
+	language "Nuru"
 
 government "Qanse"
 	swizzle 3
@@ -454,7 +454,7 @@ government "Wallagi"
 		
 government "Yiisk" #WiP
 	swizzle 0
-	color .10 .28 .19
+	color .50 .28 .653
 	"player reputation" -1
 	
 
