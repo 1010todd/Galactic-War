@@ -183,8 +183,8 @@ outfit "Y-Class Core"
 	"outfit space" -100
 	"shield generation" 4
 	"shield energy" 4
-	"hull repair rate" 2
-	"hull energy" 2
+	"hull repair rate" 4.3
+	"hull energy" 4.3
 	"energy capacity" 4000
 	"energy generation" 26.4
 	"heat generation" 45.3
@@ -210,7 +210,7 @@ outfit "E-Type Heat Shunt"
 	"mass" 5
 	"outfit space" -5
 	"cooling" 30
-	description ""
+	description "Qanse tiny cooling"
 
 outfit "F-Type Heat Shunt"
 	category "Systems"
@@ -219,4 +219,4 @@ outfit "F-Type Heat Shunt"
 	"mass" 20
 	"outfit space" -20
 	"cooling" 90
-	description ""
+	description "Qanse cooling"
