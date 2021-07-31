@@ -40,10 +40,10 @@ outfit "B20 Erul Core"
 	thumbnail "outfit/ultaka b core"
 	mass 40
 	"outfit space" -10
-	"energy generation" 150
+	"energy generation" 120
 	"cooling" 2.4
 	"ultaka bcore" 1
-	"maintenance costs" 20000
+	"maintenance costs" 13000
 	"unplunderable" 1
 	description "A slightly bigger power system then B10."
 	description "These mysterious generators appears to suck away heat from its surrounding regradless of insulation and cuts off at a certain radius creating a sudden drop of temperature around it."
@@ -55,7 +55,7 @@ outfit "B10 Anht Core"
 	thumbnail "outfit/ultaka b core"
 	mass 20
 	"outfit space" -5
-	"energy generation" 75
+	"energy generation" 55
 	"cooling" 2
 	"ultaka bcore" .5
 	"maintenance costs" 5000
@@ -189,7 +189,7 @@ outfit "DR Drive" #Type-2
 	
 outfit "Kel'aku-Cu Engines" #Type-1S
 	category "Engines"
-	"cost" 2000000
+	"cost" 20000000
 	thumbnail "outfit/unknown"
 	"mass" 20
 	"outfit space" -20
