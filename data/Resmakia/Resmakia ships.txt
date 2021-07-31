@@ -8,6 +8,7 @@ ship "Metal Asteroid" "Resmakia Asteroid"
 		"frame time" 2
 		"delay" 2
 		"random start frame"
+	swizzle 0
 	attributes
 		category "Drone"
 		"cost" 255000
@@ -24,26 +25,26 @@ ship "Metal Asteroid" "Resmakia Asteroid"
 		"turning energy" .2
 		"thrust" 10
 		"thrusting energy" .3
-		swizzle 0
 		weapon
 			"blast radius" 250
 			"shield damage" 15000
 			"hull damage" 15000
 			"hit force" 240
 	outfits
-		"Contact Explosive"
+		"RMK Contact Explosive"
 		
 	turret 0 0
-	explode "huge explosion" 5
+	explode "huge explosion" 1
 	"final explode" "final explosion large"
-	description ""
+	description "Space mine concealed as asteroid used by Resmakia alliance."
 	
-ship "Metal Asteroid2"
+ship "Metal Asteroid" "Resmakia Asteroid2"
 	sprite "asteroid/large metal/spin"
 		"frame rate" 2
 		"frame time" 2
 		"delay" 2
 		"random start frame"
+	swizzle 0
 	attributes
 		category "Interceptor"
 		"cost" 255000
@@ -67,34 +68,11 @@ ship "Metal Asteroid2"
 			"hull damage" 15000
 			"hit force" 240
 	outfits
-		"Contact Explosive"
+		"RMK Contact Explosive"
 		
 	turret 0 0
-	explode "huge explosion" 5
+	explode "huge explosion" 1
 	"final explode" "final explosion large"
-	description ""
-	
-outfit "Contact Explosive"
-	category "Turrets"
-	cost 500
-	thumbnail "outfit/unknown"
-	"mass" 1
-	"outfit space" -1
-	"weapon capacity" -1
-	"turret mounts" -1
-	weapon
-		sprite "projectile/particle beam"
-		sound "particle"
-		"hit effect" "particle impact"
-		"inaccuracy" 0
-		"velocity" 12
-		"turret turn" 360
-		"lifetime" 1
-		"reload" 1
-		"firing energy" 1
-		"shield damage" 5000
-		"hull damage" 5000
-		"blast radius" 250
 	description ""
 	
 ship "Kajmaraj"

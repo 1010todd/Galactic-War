@@ -70,3 +70,25 @@ outfit "Resmakia Anti-Missile"
 		"lifetime" 1
 		"reload" 1
 		"firing energy" 12
+
+outfit "RMK Contact Explosive"
+	category "Turrets"
+	cost 500
+	thumbnail "outfit/unknown"
+	"mass" 1
+	"outfit space" -1
+	"weapon capacity" -1
+	"turret mounts" -1
+	weapon
+		sprite "projectile/particle beam"
+		sound "particle"
+		"hit effect" "particle impact"
+		"inaccuracy" 0
+		"velocity" 12
+		"turret turn" 360
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 1
+		"hull damage" 1000
+		"firing hull" 5000
+	description "Resmakia Asteroid mine trigger."
