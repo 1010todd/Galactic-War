@@ -40,7 +40,7 @@ outfit "Skue-8 Blaster" #BA2
 		"velocity" 12
 		"lifetime" 45
 		"reload" 8
-		"firing energy" 14
+		"firing energy" 11.2
 		"firing heat" 45
 		"shield damage" 24
 		"hull damage" 20
@@ -64,7 +64,7 @@ outfit "Skue-8 Reverse Blaster" #BA2
 		"velocity" -8.5
 		"lifetime" 70
 		"reload" 8
-		"firing energy" 14
+		"firing energy" 11.2
 		"firing heat" 45
 		"shield damage" 24
 		"hull damage" 20
@@ -91,7 +91,7 @@ outfit "Ukar-3 Blaster" #BA3
 		"reload" 15
 		"burst count" 5
 		"burst reload" 8
-		"firing energy" 45
+		"firing energy" 36
 		"firing heat" 85
 		"shield damage" 33
 		"hull damage" 23
@@ -116,7 +116,7 @@ outfit "Vokkar Gun" #PG10
 		"velocity" 25
 		"lifetime" 25
 		"reload" 25
-		"firing energy" 124
+		"firing energy" 100
 		"firing force" 8
 		"firing heat" 135
 		"hit force" 80
@@ -348,7 +348,7 @@ outfit "Skue-8 Turret"
 		"velocity" 12
 		"lifetime" 45
 		"reload" 8
-		"firing energy" 14
+		"firing energy" 11.2
 		"firing heat" 50
 		"shield damage" 24
 		"hull damage" 20
@@ -375,7 +375,7 @@ outfit "Skue-8 Quad Turret"
 		"velocity" 12
 		"lifetime" 45
 		"reload" 2
-		"firing energy" 14
+		"firing energy" 11.2
 		"firing heat" 50
 		"shield damage" 12
 		"hull damage" 10
@@ -679,7 +679,7 @@ outfit "Type-F Hyperdrive"
 	
 #=========================================[Energy]=============================
 	
-	#Todo : Rebalance Dels power gens.
+	#Todo : Rebalance Dels power gens. (Mainly fuel cells, have to also rebalance their weapon along side with that.)
 
 outfit "Dalsa Fusion Reactor"
 	category "Power"
@@ -687,7 +687,7 @@ outfit "Dalsa Fusion Reactor"
 	thumbnail "outfit/dels fusion big"
 	"mass" 110
 	"outfit space" -110
-	"energy generation" 20.2
+	"energy generation" 20.6
 	"heat generation" 60
 	"operating costs" 100
 	description "Currently the most powerful fusion reactor the Dels have to offer. Due to it's extreme complexity the workers always complain when they have to deal with it."
@@ -698,7 +698,7 @@ outfit "Deela Fusion Reactor"
 	thumbnail "outfit/dels fusion small"
 	"mass" 50
 	"outfit space" -50
-	"energy generation" 9.7
+	"energy generation" 9.6
 	"heat generation" 34.6
 	description "Dels's small Fusion Reactor for smaller ships."
 	
@@ -719,7 +719,7 @@ outfit "Deupar Fuel Cell" #C10
 	thumbnail "outfit/tiny fuel cell"
 	"mass" 18
 	"outfit space" -18
-	"energy generation" 1.5
+	"energy generation" 1.2
 	"heat generation" 1.4
 	description "Dels smallest fuel cell."
 	
@@ -729,7 +729,7 @@ outfit "Farlu Fuel Cell" #C20
 	thumbnail "outfit/small fuel cell"
 	"mass" 28
 	"outfit space" -28
-	"energy generation" 3
+	"energy generation" 2.5
 	"heat generation" 3.2
 	description "Dels small fuel cell."
 	
@@ -739,7 +739,7 @@ outfit "Hilke Fuel Cell" #C30
 	thumbnail "outfit/medium fuel cell"
 	"mass" 40
 	"outfit space" -40
-	"energy generation" 5.25
+	"energy generation" 4.3
 	"heat generation" 6.7
 	description "Dels medium fuel cell."
 	
