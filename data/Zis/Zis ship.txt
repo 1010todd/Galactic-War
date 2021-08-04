@@ -1346,58 +1346,58 @@ ship "ZC-4226 Zaikul"
 	description `[N]`
 
 ship "AS-56 Virsiz"
-		sprite "ship/zis virsiz"
-		attributes
-			category "Transport"
-			"cost" 712600000
-			"shields" 568000
-			"hull" 450000
-			"required crew" 1
-			"bunks" 22
-			"mass" 25
-			"drag" .3
-			"heat dissipation" 1.6
-			"cargo space" 5
-			"outfit space" 80
-			"weapon capacity" 20
-			"engine capacity" 20
-			"fuel capacity" 500
-			"energy capacity" 6000
-			"energy generation" 83
-			"cooling" 35
-			"hyperdrive" 1
-			"jump speed" 6.1
-			"jump drive" 1
-			"jump effect" "zis galactic drive"
-			"jump sound" "zis galactic drive"
-			"jump in sound" "zis galactic drive in"
-			"jump out sound" "zis galactic drive out"
-			"ramscoop" 15
-			"scan interference" 6
-			"radar jamming" 12
-			"ZIS AM Lock" -1
-			"force protection" 40
-			weapon
-				"blast radius" 20
-				"shield damage" 1200
-				"hull damage" 6000
-				"hit force" 180
-		outfits	
-			"Mrag Turret" 2
-			"ZIS Anti-Missile System"
+	sprite "ship/zis virsiz"
+	attributes
+		category "Transport"
+		"cost" 712600000
+		"shields" 568000
+		"hull" 450000
+		"required crew" 1
+		"bunks" 22
+		"mass" 25
+		"drag" .3
+		"heat dissipation" 1.6
+		"cargo space" 5
+		"outfit space" 80
+		"weapon capacity" 20
+		"engine capacity" 20
+		"fuel capacity" 500
+		"energy capacity" 6000
+		"energy generation" 83
+		"cooling" 35
+		"hyperdrive" 1
+		"jump speed" 6.1
+		"jump drive" 1
+		"jump effect" "zis galactic drive"
+		"jump sound" "zis galactic drive"
+		"jump in sound" "zis galactic drive in"
+		"jump out sound" "zis galactic drive out"
+		"ramscoop" 15
+		"scan interference" 6
+		"radar jamming" 12
+		"ZIS AM Lock" -1
+		"force protection" 40
+		weapon
+			"blast radius" 20
+			"shield damage" 1200
+			"hull damage" 6000
+			"hit force" 180
+	outfits	
+		"Mrag Turret" 2
+		"ZIS Anti-Missile System"
 		
-			"MPa20Gp-02 Engines"
-			"GSa05Gp-02 Shielding"
-			"GHa05Gp-02 Hull Repair" 
+		"MPa20Gp-02 Engines"
+		"GSa05Gp-02 Shielding"
+		"GHa05Gp-02 Hull Repair" 
 		
-		turret 0 34.5 "ZIS Anti-Missile System"
-		turret 0 -4.5
-		turret 0 33.5
-		engine -7 59.5
-		engine 7 59.5
-		explode "nuke explosion" 1
-		description "[A]"
-		description "A small and commonly used transport."
+	turret 0 34.5 "ZIS Anti-Missile System"
+	turret 0 -4.5
+	turret 0 33.5
+	engine -7 59.5
+	engine 7 59.5
+	explode "nuke explosion" 1
+	description "[A]"
+	description "A small and commonly used transport."
 		
 ship "AD-860A Aorlan"
 	sprite "ship/zis aorlan"
