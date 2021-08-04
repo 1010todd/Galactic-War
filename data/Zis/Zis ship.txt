@@ -1,265 +1,265 @@
 ship "VK-35 Katen"
-		sprite "ship/zis katen"
-		attributes
-			category "Interceptor"
-			"cost" 25200000
-			"shields" 18000
-			"hull" 28000
-			"required crew" 1
-			"bunks" 2
-			"mass" 25
-			"drag" .5
-			"heat dissipation" 1.5
-			"outfit space" 120
-			"weapon capacity" 45
-			"engine capacity" 20
-			"fuel capacity" 500
-			"energy capacity" 19000
-			"energy generation" 83
-			"cooling" 35
-			"hyperdrive" 1
-			"jump speed" 6
-			"jump drive" 1
-			"jump effect" "zis galactic drive"
-			"jump sound" "zis galactic drive"
-			"jump in sound" "zis galactic drive in"
-			"jump out sound" "zis galactic drive out"
-			"ramscoop" 15
-			"scan interference" 1
-			"radar jamming" 5
-			"ZIS AM Lock" -1
-			"force protection" 5
-			weapon
-				"blast radius" 20
-				"shield damage" 1200
-				"hull damage" 6000
-				"hit force" 180
-		outfits	
-			"Mrag Gun" 6
-			"Mrag Turret"
-			"ZIS Anti-Missile System"
+	sprite "ship/zis katen"
+	attributes
+		category "Interceptor"
+		"cost" 25200000
+		"shields" 18000
+		"hull" 28000
+		"required crew" 1
+		"bunks" 2
+		"mass" 25
+		"drag" .5
+		"heat dissipation" 1.5
+		"outfit space" 120
+		"weapon capacity" 45
+		"engine capacity" 20
+		"fuel capacity" 500
+		"energy capacity" 19000
+		"energy generation" 83
+		"cooling" 35
+		"hyperdrive" 1
+		"jump speed" 6
+		"jump drive" 1
+		"jump effect" "zis galactic drive"
+		"jump sound" "zis galactic drive"
+		"jump in sound" "zis galactic drive in"
+		"jump out sound" "zis galactic drive out"
+		"ramscoop" 15
+		"scan interference" 1
+		"radar jamming" 5
+		"ZIS AM Lock" -1
+		"force protection" 5
+		weapon
+			"blast radius" 20
+			"shield damage" 1200
+			"hull damage" 6000
+			"hit force" 180
+	outfits	
+		"Mrag Gun" 6
+		"Mrag Turret"
+		"ZIS Anti-Missile System"
 		
-			"MPa20Gp-02 Engines"
-			"EPa20Cx-01 Generator"
-			"GSa05Gp-02 Shielding"
-			"GHa05Gp-02 Hull Repair" 
-			"ZIS Patrol Kit"
+		"MPa20Gp-02 Engines"
+		"EPa20Cx-01 Generator"
+		"GSa05Gp-02 Shielding"
+		"GHa05Gp-02 Hull Repair" 
+		"ZIS Patrol Kit"
 		
-		gun -36.5 -52
-		gun 34 -51
-		gun -36.5 -52
-		gun 34 -51
-		gun -7 -25
-		gun 4 -25
-		turret 0 34.5
-		turret 0 34.5 "ZIS Anti-Missile System"
-		gun 0 21.5
-		engine 19 42
-		engine -21 42
-		explode "nuke explosion" 1
-		description "A fighter of ancient design. These sold in shipyard are infact no longer in production."
+	gun -36.5 -52
+	gun 34 -51
+	gun -36.5 -52
+	gun 34 -51
+	gun -7 -25
+	gun 4 -25
+	turret 0 34.5
+	turret 0 34.5 "ZIS Anti-Missile System"
+	gun 0 21.5
+	engine 19 42
+	engine -21 42
+	explode "nuke explosion" 1
+	description "A fighter of ancient design. These sold in shipyard are infact no longer in production."
 		
 ship "VK-35 Katen" "Katen Civ 1"
-		sprite "ship/zis katenciv-a"
-		"swizzle" 0
-		outfits	
-			"Zortal Flamethrower" 2
-			"ZIS Anti-Missile System"
+	sprite "ship/zis katenciv-a"
+	"swizzle" 0
+	outfits	
+		"Zortal Flamethrower" 2
+		"ZIS Anti-Missile System"
 		
-			"MPa20Gp-02 Engines"
-			"EPa20Gx-02 Generator"
-			"GSa05Gp-02 Shielding"
-			"GHa05Gp-02 Hull Repair" 
+		"MPa20Gp-02 Engines"
+		"EPa20Gx-02 Generator"
+		"GSa05Gp-02 Shielding"
+		"GHa05Gp-02 Hull Repair" 
 			
-		description "A fighter of ancient design. These sold in shipyard are infact no longer in production."
-		description "Fire Storm Variant."
+	description "A fighter of ancient design. These sold in shipyard are infact no longer in production."
+	description "Fire Storm Variant."
 			
 ship "VK-35 Katen" "Katen Civ S1"
-		sprite "ship/zis katenciv-a"
-		"swizzle" 0
-		outfits	
-			"Mrag Gun" 6
-			"Mrag Turret"
-			"ZIS Anti-Missile System"
+	sprite "ship/zis katenciv-a"
+	"swizzle" 0
+	outfits	
+		"Mrag Gun" 6
+		"Mrag Turret"
+		"ZIS Anti-Missile System"
 		
-			"MPa20Gp-02 Engines"
-			"EPa20Cx-01 Generator"
-			"GSa05Gp-02 Shielding"
-			"GHa05Gp-02 Hull Repair" 
+		"MPa20Gp-02 Engines"
+		"EPa20Cx-01 Generator"
+		"GSa05Gp-02 Shielding"
+		"GHa05Gp-02 Hull Repair" 
 			
-		description "A fighter of ancient design. These sold in shipyard are infact no longer in production."
-		description "Fire Storm Deco."
+	description "A fighter of ancient design. These sold in shipyard are infact no longer in production."
+	description "Fire Storm Deco."
 		
 ship "VK-35 Katen" "Katen Civ 1a"
-		sprite "ship/zis katenciv-a"
-		"swizzle" 0
-		outfits	
-			"Mrag Gun" 4
-			"Mrag Turret"
-			"ZIS Anti-Missile System"
+	sprite "ship/zis katenciv-a"
+	"swizzle" 0
+	outfits	
+		"Mrag Gun" 4
+		"Mrag Turret"
+		"ZIS Anti-Missile System"
 		
-			"MPa20Sb-04 Engines"
-			"EPa20Cx-01 Generator"
-			"GSa05Gp-02 Shielding"
-			"GHa05Gp-02 Hull Repair" 
+		"MPa20Sb-04 Engines"
+		"EPa20Cx-01 Generator"
+		"GSa05Gp-02 Shielding"
+		"GHa05Gp-02 Hull Repair" 
 			
-		description "A fighter of ancient design. These sold in shipyard are infact no longer in production."
-		description "Speedster Variant."
+	description "A fighter of ancient design. These sold in shipyard are infact no longer in production."
+	description "Speedster Variant."
 		
 ship "VK-35 Katen" "Katen Civ 1b"
-		sprite "ship/zis katenciv-d"
-		"swizzle" 0
-		outfits	
-			"Mrag Gun" 4
-			"Mrag Turret"
-			"ZIS Anti-Missile System"
+	sprite "ship/zis katenciv-d"
+	"swizzle" 0
+	outfits	
+		"Mrag Gun" 4
+		"Mrag Turret"
+		"ZIS Anti-Missile System"
 		
-			"MPa20Sb-04 Engines"
-			"EPa20Cx-01 Generator"
-			"GSa05Gp-02 Shielding"
-			"GHa05Gp-02 Hull Repair" 
+		"MPa20Sb-04 Engines"
+		"EPa20Cx-01 Generator"
+		"GSa05Gp-02 Shielding"
+		"GHa05Gp-02 Hull Repair" 
 			
-		description "A fighter of ancient design. These sold in shipyard are infact no longer in production."
-		description "Speedster 2 Variant."
+	description "A fighter of ancient design. These sold in shipyard are infact no longer in production."
+	description "Speedster 2 Variant."
 			
 ship "VK-35 Katen" "Katen Dark Blaster"
-		outfits	
-			"DZ-10 Dark Blaster" 4
-			"ZIS Anti-Missile System"
+	outfits	
+		"DZ-10 Dark Blaster" 4
+		"ZIS Anti-Missile System"
 		
-			"MPa20Gp-02 Engines"
-			"EPa20Gx-02 Generator"
-			"GSa05Gp-02 Shielding"
-			"GHa05Gp-02 Hull Repair"
+		"MPa20Gp-02 Engines"
+		"EPa20Gx-02 Generator"
+		"GSa05Gp-02 Shielding"
+		"GHa05Gp-02 Hull Repair"
 			
-		description "A fighter of ancient design. These sold in shipyard are infact no longer in production."
-		description "Dark Blaster Variant."
+	description "A fighter of ancient design. These sold in shipyard are infact no longer in production."
+	description "Dark Blaster Variant."
 		
 ship "VK-35 Katen" "Katen Civ 2"
-		sprite "ship/zis katenciv-b"
-		outfits	
-			"Mrag Gun" 6
-			"Mrag Turret"
-			"ZIS Anti-Missile System"
+	sprite "ship/zis katenciv-b"
+	outfits	
+		"Mrag Gun" 6
+		"Mrag Turret"
+		"ZIS Anti-Missile System"
 		
-			"MPa20Gp-02 Engines"
-			"EPa20Cx-01 Generator"
-			"GSa05Gp-02 Shielding"
-			"GHa05Gp-02 Hull Repair" 
+		"MPa20Gp-02 Engines"
+		"EPa20Cx-01 Generator"
+		"GSa05Gp-02 Shielding"
+		"GHa05Gp-02 Hull Repair" 
 			
-		description "A fighter of ancient design. These sold in shipyard are infact no longer in production."
-		description "Skull Deco Variant."
+	description "A fighter of ancient design. These sold in shipyard are infact no longer in production."
+	description "Skull Deco Variant."
 		
 ship "VK-35 Katen" "Katen Civ 2a"
-		sprite "ship/zis katenciv-b"
-		outfits	
-			"DZ-10 Dark Blaster" 4
-			"ZIS Anti-Missile System"
+	sprite "ship/zis katenciv-b"
+	outfits	
+		"DZ-10 Dark Blaster" 4
+		"ZIS Anti-Missile System"
 		
-			"MPa20Gp-02 Engines"
-			"EPa20Cx-01 Generator"
-			"GSa05Gp-02 Shielding"
-			"GHa05Gp-02 Hull Repair" 
+		"MPa20Gp-02 Engines"
+		"EPa20Cx-01 Generator"
+		"GSa05Gp-02 Shielding"
+		"GHa05Gp-02 Hull Repair" 
 			
-		description "A fighter of ancient design. These sold in shipyard are infact no longer in production."
-		description "Skull Deco+Dark Blaster Variant."
+	description "A fighter of ancient design. These sold in shipyard are infact no longer in production."
+	description "Skull Deco+Dark Blaster Variant."
 		
 ship "VK-35 Katen" "Katen Civ 2b"
-		sprite "ship/zis katenciv-b"
-		outfits	
-			"Fernai Shotgun" 2
-			"ZIS Anti-Missile System"
+	sprite "ship/zis katenciv-b"
+	outfits	
+		"Fernai Shotgun" 2
+		"ZIS Anti-Missile System"
 		
-			"MPa20Gp-02 Engines"
-			"EPa20Cx-01 Generator"
-			"GSa05Gp-02 Shielding"
-			"GHa05Gp-02 Hull Repair" 
+		"MPa20Gp-02 Engines"
+		"EPa20Cx-01 Generator"
+		"GSa05Gp-02 Shielding"
+		"GHa05Gp-02 Hull Repair" 
 			
-		description "A fighter of ancient design. These sold in shipyard are infact no longer in production."
-		description "Skull Deco+Shotgun Variant."
+	description "A fighter of ancient design. These sold in shipyard are infact no longer in production."
+	description "Skull Deco+Shotgun Variant."
 			
 ship "VK-35 Katen" "Katen Civ 3"
-		sprite "ship/zis katenciv-c"
-		outfits	
-			"Fernai Shotgun" 2
-			"ZIS Anti-Missile System"
+	sprite "ship/zis katenciv-c"
+	outfits	
+		"Fernai Shotgun" 2
+		"ZIS Anti-Missile System"
 		
-			"MPa20Gp-02 Engines"
-			"EPa20Cx-01 Generator"
-			"GSa05Gp-02 Shielding"
-			"GHa05Gp-02 Hull Repair" 
+		"MPa20Gp-02 Engines"
+		"EPa20Cx-01 Generator"
+		"GSa05Gp-02 Shielding"
+		"GHa05Gp-02 Hull Repair" 
 			
-		gun -36.5 -52 "Fernai Shotgun"
-		gun -36.5 -52
-		gun 34 -51 "Fernai Shotgun"
-		gun 34 -51
-		gun -7 -25
-		gun 4 -25
-		turret 0 34.5
-		turret 0 34.5 "ZIS Anti-Missile System"
-		gun 0 21.5
-		engine 19 42
-		engine -21 42
-		explode "nuke explosion" 1
-		description "A fighter of ancient design. These sold in shipyard are infact no longer in production."
-		description "Shotgun Variant."
+	gun -36.5 -52 "Fernai Shotgun"
+	gun -36.5 -52
+	gun 34 -51 "Fernai Shotgun"
+	gun 34 -51
+	gun -7 -25
+	gun 4 -25
+	turret 0 34.5
+	turret 0 34.5 "ZIS Anti-Missile System"
+	gun 0 21.5
+	engine 19 42
+	engine -21 42
+	explode "nuke explosion" 1
+	description "A fighter of ancient design. These sold in shipyard are infact no longer in production."
+	description "Shotgun Variant."
 		
 ship "VK-35 Katen" "Katen Civ 3a"
-		sprite "ship/zis katenciv-a"
-		"swizzle" 0
-		outfits	
-			"Fernai Shotgun" 2
-			"ZIS Anti-Missile System"
+	sprite "ship/zis katenciv-a"
+	"swizzle" 0
+	outfits	
+		"Fernai Shotgun" 2
+		"ZIS Anti-Missile System"
 		
-			"MPa20Gp-02 Engines"
-			"EPa20Cx-01 Generator"
-			"GSa05Gp-02 Shielding"
-			"GHa05Gp-02 Hull Repair" 
+		"MPa20Gp-02 Engines"
+		"EPa20Cx-01 Generator"
+		"GSa05Gp-02 Shielding"
+		"GHa05Gp-02 Hull Repair" 
 			
-		gun -36.5 -52 "Fernai Shotgun"
-		gun -36.5 -52
-		gun 34 -51 "Fernai Shotgun"
-		gun 34 -51
-		gun -7 -25
-		gun 4 -25
-		turret 0 34.5
-		turret 0 34.5 "ZIS Anti-Missile System"
-		gun 0 21.5
-		engine 19 42
-		engine -21 42
-		explode "nuke explosion" 1
-		description "A fighter of ancient design. These sold in shipyard are infact no longer in production."
-		description "Shotgun Variant."
+	gun -36.5 -52 "Fernai Shotgun"
+	gun -36.5 -52
+	gun 34 -51 "Fernai Shotgun"
+	gun 34 -51
+	gun -7 -25
+	gun 4 -25
+	turret 0 34.5
+	turret 0 34.5 "ZIS Anti-Missile System"
+	gun 0 21.5
+	engine 19 42
+	engine -21 42
+	explode "nuke explosion" 1
+	description "A fighter of ancient design. These sold in shipyard are infact no longer in production."
+	description "Shotgun Variant."
 			
 ship "VK-35 Katen" "Katen Civ 4"
-		sprite "ship/zis katenciv-d"
-		"swizzle" 0
-		outfits	
-			"Nelcor Gun" 2
-			"ZIS Anti-Missile System"
+	sprite "ship/zis katenciv-d"
+	"swizzle" 0
+	outfits	
+		"Nelcor Gun" 2
+		"ZIS Anti-Missile System"
 		
-			"MPa20Gp-02 Engines"
-			"EPa20Cx-01 Generator"
-			"GSa05Gp-02 Shielding"
-			"GHa05Gp-02 Hull Repair" 
+		"MPa20Gp-02 Engines"
+		"EPa20Cx-01 Generator"
+		"GSa05Gp-02 Shielding"
+		"GHa05Gp-02 Hull Repair" 
 			
-		description "A fighter of ancient design. These sold in shipyard are infact no longer in production."
-		description "Frost Flame Variant."
+	description "A fighter of ancient design. These sold in shipyard are infact no longer in production."
+	description "Frost Flame Variant."
 		
 ship "VK-35 Katen" "Katen Civ 4b"
-		sprite "ship/zis katenciv-d"
-		"swizzle" 0
-		outfits	
-			"Relcor Lance" 2
-			"ZIS Anti-Missile System"
+	sprite "ship/zis katenciv-d"
+	"swizzle" 0
+	outfits	
+		"Relcor Lance" 2
+		"ZIS Anti-Missile System"
 		
-			"MPa20Gp-02 Engines"
-			"EPa20Cx-01 Generator"
-			"GSa05Gp-02 Shielding"
-			"GHa05Gp-02 Hull Repair" 
+		"MPa20Gp-02 Engines"
+		"EPa20Cx-01 Generator"
+		"GSa05Gp-02 Shielding"
+		"GHa05Gp-02 Hull Repair" 
 			
-		description "A fighter of ancient design. These sold in shipyard are infact no longer in production."
-		description "Frost Lance Variant."
+	description "A fighter of ancient design. These sold in shipyard are infact no longer in production."
+	description "Frost Lance Variant."
 		
 ship "RZ-28 Forlan"
 	sprite "ship/zis forlan"
