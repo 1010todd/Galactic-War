@@ -178,8 +178,10 @@ outfit "Qoro Armour Plating"
 	cost 10000
 	thumbnail "outfit/qoro s armour plate"
 	"mass" 20
+	"outfit space" -2
 	"hull protection" .01
 	"cooling inefficiency" .2
+	"heat dissipation" -.02
 	description "This outfit will decrease your ship's ability to cool down."
 	
 outfit "Qoro Power Armour"
@@ -191,6 +193,7 @@ outfit "Qoro Power Armour"
 	"hull protection" .01
 	"piercing protection" .15
 	"cooling inefficiency" .2
+	"heat dissipation" -.02
 	
 outfit "Igornuit Rifle"
 	category "Hand to Hand"
