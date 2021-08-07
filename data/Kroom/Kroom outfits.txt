@@ -48,15 +48,15 @@ outfit "Kroom Blaster Turret"
 		"firing heat" 32
 		"shield damage" 10
 		"hull damage" 5
-	description ""
+	description "4 Kroom Blaster on a turret. Fires in burst."
 	
 outfit "Kroom Proton Blaster"
 	category "Guns"
 	cost 160000
-	thumbnail "outfit/proton gun"
-	"mass" 28
-	"outfit space" -28
-	"weapon capacity" -28
+	thumbnail "outfit/kroom proton"
+	"mass" 22
+	"outfit space" -22
+	"weapon capacity" -22
 	"gun ports" -1
 	weapon
 		sprite "projectile/kproton"
@@ -71,7 +71,7 @@ outfit "Kroom Proton Blaster"
 		"firing heat" 68
 		"shield damage" 12
 		"hull damage" 9.6
-	description ""
+	description "A Proton gun developed and used by Kroom Kakaima."
 	
 outfit "Kroom Anti-Missile Turret"
 	category "Turrets"
@@ -204,7 +204,7 @@ outfit "Golkar Torpedo Storage"
 
 outfit "Golkar Torpedo Launcher"
 	category "Secondary Weapons"
-	cost 60000
+	cost 160000
 	thumbnail "outfit/kroom golkar launcher"
 	"mass" 10
 	"outfit space" -13
@@ -238,7 +238,7 @@ outfit "Golkar Torpedo Launcher"
 		"heat damage" 1000
 		"hit force" 80
 		"missile strength" 35
-	description ""
+	description "Kroom powerful burst fire unguided torpedo."
 
 outfit "Golkar Torpedo Turret"
 	category "Secondary Weapons"
@@ -279,7 +279,7 @@ outfit "Golkar Torpedo Turret"
 		"heat damage" 1000
 		"hit force" 80
 		"missile strength" 35
-	description ""
+	description "Kroom powerful burst fire torpedo."
 #===============================================POWER
 outfit "Ekalo Battery Pack" #M-5
 	category "Power"
