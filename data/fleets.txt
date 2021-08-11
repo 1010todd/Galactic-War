@@ -1104,6 +1104,16 @@ fleet "Tehru Insker Merchant"
 		"Tehru Mavuin"
 		"Tehru Avir" 2
 		"Tehru Piv" 6
+
+fleet "Tehru Insker Miner"
+	government "Tehru Insker"
+	names "Tehru"
+	cargo 0
+	personality
+		mining harvest
+		confusion 20
+	variant 15
+		"Tehru Avir"
 		
 fleet "Wallagi Patrol"
 	government "Wallagi"

@@ -5,6 +5,17 @@ outfit "Sector Map"
 	map 999999
 	description "Remind me to get rid of this when the region is pretty much finished."
 
+outfitter "Standard Outfits"
+	"Outfits Expansion"
+	"Cargo Expansion"
+	"Small Bunk Room"
+	"Bunk Room"
+	"Fuel Pod"
+	"Outfit Scanner"
+	"Asteroid Scanner"
+	"Cargo Scanner"
+	"Local Map"
+
 #======================================AUMAR
 
 outfitter "Aumar"
@@ -1172,6 +1183,50 @@ outfitter "Insker Ammo"
 	"Local Map"
 	"Fuel Pod"
 
+outfitter "Insker Basic"
+	"Vrrpak Gun"
+	"Illar Missile Defence"
+	"Ainvus Shield Generator"
+	"Epir Shield Generator"
+
+	"Etlnak Reactor"
+
+	"Akonu Thruster"
+	"Ahura Thruster"
+	"Akonu Steering"
+	"Ahura Steering"
+
+outfitter "Insker Advanced"
+	"Vuskchet Cannon"
+	"Vuskchet Turret"
+	"Vrrpak Gun"
+	"Vrrpak Turret"
+	"Varsrel Drone Launcher"
+	"Varsrel Drone Storage"
+	"Varsrel Drone"
+
+	"Etlnak Reactor"
+	"Rivkrtelr Reactor"
+	"Apirval Generator"
+	"Eysiral Energy Storage"
+
+	"Ainvus Shield Generator"
+	"Epir Shield Generator"
+	"Jukir Shield Generator"
+	"Pivura Shield Generator"
+
+	"Akonu Thruster"
+	"Ahura Thruster"
+	"Fokhun Thruster"
+	"Ivtorne Thruster"
+	"Urhas Thruster"
+	
+	"Akonu Steering"
+	"Ahura Steering"
+	"Fokhun Steering"
+	"Ivtorne Steering"
+	"Urhas Steering"
+
 shipyard "Tehru All"
 	# Drone
 	"Tehru Piv"
@@ -1186,6 +1241,16 @@ shipyard "Tehru All"
 	# Light Warship
 	"Tehru Avir"
 
+shipyard "Insker Basic"
+	"Tehru Piv"
+	"Tehru Avir"
+
+shipyard "Insker Merchant"
+	"Tehru Vurbck"
+
+shipyard "Insker Military"
+	"Tehru Mavuin"
+	"Tehru Tcvarka"
 
 #======================================Ultaka
 
