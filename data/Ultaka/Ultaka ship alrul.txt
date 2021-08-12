@@ -262,7 +262,10 @@ ship "Ultaka Vyvis"
 	description "Exotic Ultaka warship widely believed to be just a myth, or rather most who saw it never returns."
 
 ship "Ultaka Vyvis" "Vyvis Thwarter"
+	"uncaptureable"
 	attributes
+		category "Heavy Warship"
+		"cost" 44200000
 		"shields" 45300000
 		"shield generation" 450000
 		"hull" 1000000
@@ -271,6 +274,35 @@ ship "Ultaka Vyvis" "Vyvis Thwarter"
 		"piercing protection" 99
 		"shield protection" 99
 		"energy protection" 99
+		"absolute threshold" 1000
+		"required crew" 350
+		"bunks" 1200
+		"mass" 1200
+		"drag" 18.1
+		"heat dissipation" 100
+		"fuel capacity" 1500
+		"cargo space" 2000
+		"outfit space" 27900
+		"weapon capacity" 12000
+		"engine capacity" 7200
+		"force protection" 100
+		"cooling" 3000
+		"heat protection" 100
+		"spinal mount" 5
+		"radar jamming" 100
+		"scan interference" 100
+		"instructable" 1
+		"hyperdrive" 1
+		"jump drive" 1
+		"jump speed" 10
+		"jump effect" "ultaka gate drive"
+		"jump range" 300
+		"afterburner thrust" 450
+		"afterburner energy" 450
+		"afterburner heat" 500
+		"energy generation" 2000
+		"pocket space" 1450
+		"ramscoop" 500
 	outfits
 		"Ve'raun defense"
 		"Ultaka Punisher"

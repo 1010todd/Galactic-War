@@ -28,9 +28,9 @@ mission "First Contact: Dels Ufulre"
 	landing
 	invisible
 	source
-		has "gw: debug mode"
 		government "Dels Ufulre"
-
+	to offer
+		has "gw: debug mode"
 	on offer
 		conversation
 			`(First Contact: Dels Ufulre) (Under construction)`

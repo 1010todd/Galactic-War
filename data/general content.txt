@@ -35,6 +35,7 @@ mission "gw: obtain black box"
 		not "license: GW Universal Converter"
 	on offer
 		conversation
+			label start
 			`Inside the station you find a long corridor, at the end of which stands a small chamber with a single pedestal in the center. A black box, small enough to fit in the palm of your hand, rests atop it.`
 
 			choice
@@ -42,9 +43,12 @@ mission "gw: obtain black box"
 					goto take
 				`	(Leave it.)`
 
-			`You search the rest of the small station, but there seems to be nothing else here. You return to your ship empty handed.`
-				goto done
-
+			`	You search the rest of the small station, but there seems to be nothing else here. You return to your ship empty handed. Though, you still feel like you're missing something.`
+			choice
+				`	(Go back to the station.)`
+					goto start
+				`	(Nah.)`
+					decline
 			label take
 			`	As soon as you touch the box, an array of electric blue lights appear on its surface, pulsing over your hand like ripples in a pond. It feels strange, like the device is scanning you or marking you somehow. Your hand tingles as if falling asleep, and you find that you can no longer move it, nor can you pull your body away.`
 			`	Feeling trapped, an involuntary shudder runs through you.`
