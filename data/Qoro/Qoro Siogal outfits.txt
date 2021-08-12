@@ -115,8 +115,9 @@ outfit "Aog Cell" #Gol
 	thumbnail "outfit/tiny fuel cell"
 	"mass" 9
 	"outfit space" -9
-	"energy generation" 27.6
+	"energy generation" .92
 	"energy capacity" 1200
+	description "Qoro Siogal power generator"
 	
 outfit "Goa Cell" #Gok
 	category "Power"
@@ -124,17 +125,19 @@ outfit "Goa Cell" #Gok
 	thumbnail "outfit/small fuel cell"
 	"mass" 14
 	"outfit space" -14
-	"energy generation" 46.5
+	"energy generation" 1.68
 	"energy capacity" 2200
+	description "Qoro Siogal power generator"
 	
 outfit "Heur Cell" #Goa
 	category "Power"
 	cost 840000
-	thumbnail "outfit/big fuel cell"
+	thumbnail "outfit/large fuel cell"
 	"mass" 49
 	"outfit space" -49
-	"energy generation" 154.7
+	"energy generation" 8.5
 	"energy capacity" 5500
+	description "Qoro Siogal power generator"
 	
 #=================================Engines
 
@@ -154,6 +157,7 @@ outfit "Gotam Ion Thruster"
 	"turn" 320
 	"turning energy" 1
 	"turning heat" 1.3
+	description "Qoro Siogal engine"
 	
 outfit "Gowaki Ion Thruster"
 	category "Engines"
@@ -164,13 +168,13 @@ outfit "Gowaki Ion Thruster"
 	"engine capacity" -70
 	"thrust" 24
 	"thrusting energy" 2.5
-	"thrusting heat" 2.6
+	"thrusting heat" 2.9
 	"flare sprite" "effect/ion flare/medium"
 		"frame rate" 1
 	"flare sound" "ion medium"
 	"turn" 660
 	"turning energy" 2
-	"turning heat" 2.6
+	"turning heat" 2.7
 	
 
 outfit "Qoro Armour Plating"
