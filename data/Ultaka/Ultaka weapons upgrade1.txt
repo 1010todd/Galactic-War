@@ -27,9 +27,9 @@ outfit "N20G Turret"
 	category "Turrets"
 	cost 6500000
 	thumbnail "outfit/ultaka mturret"
-	mass 65
-	"outfit space" -65
-	"weapon capacity" -65
+	mass 35
+	"outfit space" -35
+	"weapon capacity" -35
 	"turret mounts" -1
 	weapon
 		sprite "projectile/particle beam"
@@ -45,8 +45,8 @@ outfit "N20G Turret"
 		"reload" 35
 		"firing energy" 45
 		"firing heat" 30
-		"shield damage" 800
-		"hull damage" 720
+		"shield damage" 400
+		"hull damage" 370
 		"ion damage" .3
 
 outfit "U20-AG anti missile"

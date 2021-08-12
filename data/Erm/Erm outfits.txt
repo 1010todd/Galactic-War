@@ -134,7 +134,7 @@ outfit "Atarkor Missile"
 	
 outfit "atarkor bullet"
 	weapon
-		sprite "projectile/particle"
+		sprite "projectile/particle beam"
 			"frame rate" 1
 		"hit effect" "particle impact"
 		sound "tiny explosion"
@@ -516,7 +516,7 @@ outfit "Erm Nulbaan Gun"
 outfit "Erm Boarding Systems"
 	category "Hand to Hand"
 	cost 120000
-	thumbnail "outfit/easdf"
+	thumbnail "outfit/erm gun"
 	"mass" 3
 	"outfit space" -3
 	"capture attack" 400

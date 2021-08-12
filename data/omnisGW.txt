@@ -831,7 +831,7 @@ system "Galactic War"
 		sprite sprite/category_drone
 		distance 2700
 		offset 320
-	object "GW Dels Desen"
+	object "GW Desen"
 		sprite "ship/dels desen"
 		distance 3000
 		offset 40
@@ -843,7 +843,7 @@ system "Galactic War"
 		sprite "ship/wallagi telsarator"
 		distance 3000
 		offset 125
-	object "GW Taroun Oresu"
+	object "GW Oresu"
 		sprite "ship/taroun oresu"
 		distance 3000
 		offset 200
@@ -3278,7 +3278,7 @@ planet "GW Default"
 	landscape landscape/station6
 	description ``
 	spaceport ``
-	shipyard developer
+	#shipyard developer
 	shipyard "GalacticWar"
 	shipyard "Wallagi"
 	shipyard "Dels Advanced"
@@ -3287,7 +3287,7 @@ planet "GW Default"
 	shipyard "Kakaima Advanced"
 	shipyard "Kanai Basic"
 	shipyard "Kanai Advanced"
-	outfitter developer
+	#outfitter developer
 	outfitter "GalacticWar"
 	outfitter "Dels Advanced"
 	outfitter "Donko Advanced"
