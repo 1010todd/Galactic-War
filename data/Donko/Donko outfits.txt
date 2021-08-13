@@ -177,7 +177,7 @@ outfit "J6 KED Turret"
 outfit "B3 LAR Turret"
 	category "Turrets"
 	cost 65000000
-	thumbnail "outfit/b3 lar turret"
+	thumbnail "outfit/donko b3lar turret"
 	mass 60
 	"outfit space" -60
 	"weapon capacity" -60
@@ -185,11 +185,12 @@ outfit "B3 LAR Turret"
 	weapon
 		sprite "projectile/skylance"
 			"frame rate" 6
-		"hardpoint sprite" "hardpoint/donko j4mes turret hp"
+		"hardpoint sprite" "hardpoint/donko b3lar turret hp"
 		"hardpoint offset" 9
 		sound "gw blance"
 		"hit effect" "jump drive"
-		"submunition" "donko b3 lar"
+		"die effect" "jump drive"
+		"submunition" "donko lar frag" 5
 		"inaccuracy" .1
 		"turret turn" 3
 		"velocity" 500
@@ -200,20 +201,18 @@ outfit "B3 LAR Turret"
 		"burst reload" 1
 		"firing energy" 25
 		"firing heat" 40
+		"slowing damage" 5
 
-outfit "donko b3 lar"
+outfit "donko lar frag"
 	weapon
-		sprite "projectile/emissile"
-			"frame rate" 3
+		sprite "projectile/gw blue beam"
 		"shield damage" 20
 		"hull damage" 15
 		"velocity" -450
-		"acceleration" 1
+		"inaccuracy" 360
+		"lifetime" 20
 		"drag" .3
-		"turn" 4
-		"homing" 4
-		"optical tracking" .5
-		"ion damage" 5
+		"slowing damage" 5
 		
 outfit "Hasus Missile"
 	category "Ammunition"

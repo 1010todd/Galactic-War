@@ -441,10 +441,10 @@ ship "Donko Senka"
 	gun 34.5 -186
 	turret -20.5 -122 "J4 KED Turret"
 	turret 20.5 -122 "J4 KED Turret"
-	turret -21 -93.5 "J4 MES Turret"
-	turret 21 -93.5 "J4 MES Turret"
-	turret -20.5 -64 "J4 MES Turret"
-	turret 20.5 -64 "J4 MES Turret"
+	turret -21 -93.5
+	turret 21 -93.5
+	turret -20.5 -64
+	turret 20.5 -64
 	turret 0 -22.5 "Barmott Anti-Missile"
 	engine -16.5 152.5
 		zoom 1
@@ -459,3 +459,23 @@ ship "Donko Senka"
 	explode "medium explosion" 10
 	explode "big explosion" 3
 	description "Before the development of Sao, this ship were the vanguard of Donko's force filling the role of multipurpose cruiser." 
+
+ship "Donko Senka" "Senka (Laser)"
+	outfits
+		"J4 KED Turret" 2
+		"B3 LAR Turret" 2
+		"J4 MES Turret" 2
+		"Hasus Launcher" 4
+		"Hasus Missile" 160
+		"Barmott Anti-Missile"
+
+		"ORK5 Shield Generator"
+		"OER5 Cell"
+
+		"DIT5 Steering"
+		"DIT5 Thruster"
+		"Donko Hyperdrive"
+		"Jump Drive"
+
+		"OSK3 Boarding Shield" 30
+		
