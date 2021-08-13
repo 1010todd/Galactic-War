@@ -186,11 +186,12 @@ outfit "B3 LAR Turret"
 		sprite "projectile/skylance"
 			"frame rate" 6
 		"hardpoint sprite" "hardpoint/donko b3lar turret hp"
-		"hardpoint offset" 9
+		"hardpoint offset" 1
 		sound "gw blance"
 		"hit effect" "jump drive"
-		"die effect" "jump drive"
+		#"die effect" "jump drive" #die effect spawn at laser base :/
 		"submunition" "donko lar frag" 5
+		"submunition" "lar die effect" #This will do for now I guess.
 		"inaccuracy" .1
 		"turret turn" 3
 		"velocity" 500
@@ -208,12 +209,22 @@ outfit "donko lar frag"
 		sprite "projectile/gw blue beam"
 		"shield damage" 20
 		"hull damage" 15
+		"hit effect" "jump drive"
+		"die effect" "jump drive"
+		"fire effect" "jump drive"
 		"velocity" -450
 		"inaccuracy" 360
-		"lifetime" 20
+		"lifetime" 5
 		"drag" .3
 		"slowing damage" 5
-		
+
+outfit "lar die effect"
+	weapon
+		sprite "effect/jump drive"
+			"frame rate" 5
+		"lifetime" 10
+		"velocity" -500
+
 outfit "Hasus Missile"
 	category "Ammunition"
 	cost 2300
