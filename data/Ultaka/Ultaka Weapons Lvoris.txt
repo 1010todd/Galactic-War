@@ -46,15 +46,16 @@ outfit "Ultaka Nova Bombard"
 		"velocity" 60
 		"lifetime" 30
 		"drag" .01
-		"reload" 30
+		"reload" 120
 		"turn" 30
 		"burst count" 2
 		"burst reload" 10
 		"firing energy" 35
 		"firing heat" 900
 		"hit force" 50
-		"shield damage" 82000
-		"hull damage" 29800
+		"shield damage" 181000
+		"hull damage" 69800
+		"piercing" .1
 		"heat damage" 8000
 		"ion damage" 100
 		"blast radius" 450
