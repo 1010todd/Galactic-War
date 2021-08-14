@@ -1206,6 +1206,37 @@ fleet "Kroom Kanai"
 		"Mugildor"
 		"Grakka" 2
 		"Kargorko" 20
+
+fleet "Uoorn Patrol"
+	government "Uoorn"
+	names "Uoorn"
+	personality
+		confusion 30
+	variant 5
+		"Uoorn Warrior"
+	variant 10
+		"Uoorn Aggressor" 3
+
+fleet "Uoorn Defense"
+	government "Uoorn"
+	names "Uoorn"
+	personality
+		confusion 30
+	variant 5
+		"Uoorn Warrior" 3
+	variant 3
+		"Uoorn Aggressor" 8
+	variant 4
+		"Uoorn Warrior" 2
+		"Uoorn Aggressor" 5
+
+fleet "Uoorn Raid"
+	government "Uoorn"
+	names "Uoorn"
+	personality
+		confusion 30
+	variant 5
+		"Uoorn Aggressor" 10
 		
 fleet "Zis Heavy Patrol Fleet"
 	government "ZIS"

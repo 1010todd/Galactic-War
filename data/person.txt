@@ -138,8 +138,31 @@ person "1010todd"
 		word
 			"I hope you're enjoying the game!"
 			"How was my mod?"
-			"Any suggestion?"
+			"Any suggestion? Leave it at https://github.com/1010todd/Galactic-War !"
 			"Thank you for trying out my mod!"
+			"Checkout systems in the north."
+			"The galaxy is huge, keep exploring!"
+			"If you can't solve a problem, bring more guns."
+			"Have you tried Endless Sky? It's an awesome game!"
+			"Shoot me."
+			"Yes, I am a terrible writer."
+			"The storyline is coming soon. My soon."
+			"Shields Up!"
+			"Go south and spam spaceport."
+			"It's being worked on OK?"
+			"Correct."
+			"If you find some orange space rugby, shoot them for free stuffs."
+			"Get Adde Omnis. Don't ask, just go get it."
+			"Altera plugin is pretty nice, check it out!"
+			"Go north."
+			"Have you ever wonder where are all the stars?"
+			"Make a plugin!"
+			"You're no Admiral Danforth."
+			"Join the Navy. Explore the Galaxy!"
+			"Can you think of a creative hail? I can't."
+			"Join the Navy. Shoot the South!"
+			"Have you tried turning it off and on again?"
+			""
 	ship "ZN-7681 Eaxes"
 		sprite "ship/zis eaxes"
 		attributes
@@ -193,12 +216,13 @@ person "1010todd"
 			"Zis Dragon's Breath" 
 			"Ginal Turret" 4
 			"ZIS Anti-Missile System" 8
-			"Tizon Turret" 8
+			"Zis Dissector Turret" 8
 			"Rozzen VLS Array" 2
 		
 			"EPb12Cx-04 Generator" 2
 			"GSb14Gp-02 Shielding"
 			"GHb12Gp-02 Hull Repair"
+			"ESa12Gt-05 Battery" 
 		
 			"MPa60Gp-02 Engines" 2
 			"Zis Galactic Drive"
@@ -209,20 +233,20 @@ person "1010todd"
 		gun 0 -550
 		gun 0 -550
 		gun 0 -550
-		turret -116 -220 "Tizon Turret"
-		turret 116 -220 "Tizon Turret"
-		turret -124 -140 "Tizon Turret"
-		turret 124 -140 "Tizon Turret"
-		turret -126 -70 "Tizon Turret"
-		turret 126 -70 "Tizon Turret"
+		turret -116 -220 "Zis Dissector Turret"
+		turret 116 -220 "Zis Dissector Turret"
+		turret -124 -140 "Zis Dissector Turret"
+		turret 124 -140 "Zis Dissector Turret"
+		turret -126 -70 "Zis Dissector Turret"
+		turret 126 -70 "Zis Dissector Turret"
 		turret -8 4 "Rozzen VLS Array"
 		turret 8 4 "Rozzen VLS Array"
 		turret -74 26 "Ginal Turret"
 		turret 74 26 "Ginal Turret"
 		turret -70 292 "Ginal Turret"
 		turret 70 292 "Ginal Turret"
-		turret 0 350 "Tizon Turret"
-		turret 0 424 "Tizon Turret"
+		turret 0 350 "Zis Dissector Turret"
+		turret 0 424 "Zis Dissector Turret"
 		#AM
 		turret -8 4 "ZIS Anti-Missile System"
 		turret 8 4 "ZIS Anti-Missile System"

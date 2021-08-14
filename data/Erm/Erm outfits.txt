@@ -295,7 +295,7 @@ outfit "Zouron Machinegun"
 	"gun ports" -1
 	weapon
 		sprite "projectile/georlen"
-		sound "anti-missile"
+		sound "gw energy4"
 		"hit effect" "tiny explosion"
 		"inaccuracy" 1
 		"velocity" 30
@@ -316,7 +316,7 @@ outfit "Zouron Machinegun Turret"
 	"turret mounts" -1
 	weapon
 		sprite "projectile/georlen"
-		sound "anti-missile"
+		sound "gw energy4"
 		"hit effect" "tiny explosion"
 		"inaccuracy" 1.3
 		"turret turn" 4
