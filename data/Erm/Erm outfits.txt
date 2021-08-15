@@ -169,7 +169,7 @@ outfit "Tordel Paralyzer Laser"
 		"ion damage" .5
 		"disruption damage" .2
 		"slowing damage" 10
-	description "As the label says, this weapon will paralyze most ships in mere seconds."
+	description "Erm laser. As the label says, this weapon will paralyze most ships in mere seconds."
 
 outfit "Norden Cannon"
 	category "Guns"
@@ -196,6 +196,7 @@ outfit "Norden Cannon"
 		"piercing" .2
 		"safe"
 		"blast radius" 100
+	description "Erm standard weapon found on most Erm warship"
 	
 outfit "Norden Dual Cannon Turret"
 	category "Turrets"
@@ -226,6 +227,7 @@ outfit "Norden Dual Cannon Turret"
 		"piercing" .2
 		"safe"
 		"blast radius" 100
+	description "Erm standard weapon found on most Erm warship"
 		
 outfit "Korlar Cannon Turret"
 	category "Turrets"
@@ -257,6 +259,7 @@ outfit "Korlar Cannon Turret"
 		"piercing" .3
 		"safe"
 		"blast radius" 160
+	description "Erm anti-captial cannon"
 		
 outfit "Kaiza Anti-Fighter Turret"
 	category "Turrets"
@@ -284,6 +287,7 @@ outfit "Kaiza Anti-Fighter Turret"
 		"ion damage" .1
 		"safe"
 		"blast radius" 20
+	description "Erm anti-fighter turret"
 		
 outfit "Zouron Machinegun"
 	category "Guns"
@@ -305,6 +309,7 @@ outfit "Zouron Machinegun"
 		"firing heat" 5
 		"shield damage" 45
 		"hull damage" 50
+	description "One of the smallest weapon made and used by Erm, these are generally ineffective against similarly advanced technologies."
 		
 outfit "Zouron Machinegun Turret"
 	category "Turrets"
@@ -329,6 +334,7 @@ outfit "Zouron Machinegun Turret"
 		"firing heat" 5
 		"shield damage" 45
 		"hull damage" 50
+	description "One of the smallest weapon made and used by Erm, these are generally ineffective against similarly advanced technologies."
 		
 outfit "Erm Missile Guard" #Erm Missile Prevention System
 	category "Turrets"
@@ -348,6 +354,7 @@ outfit "Erm Missile Guard" #Erm Missile Prevention System
 		"reload" 1
 		"firing energy" 2
 		"firing heat" 2
+	description "Erm Anti-missile system."
 		
 outfit "Nurhid-2 Core"
 	category "Power"
@@ -355,10 +362,10 @@ outfit "Nurhid-2 Core"
 	thumbnail "outfit/unknown"
 	"mass" 150
 	"outfit space" -150
-	"energy generation" 400
+	"energy generation" 460
 	"heat generation" 60
 	"energy capacity" 12000
-	description ""
+	description "Erm power generator."
 	
 outfit "Nurhid-1 Core"
 	category "Power"
@@ -369,7 +376,7 @@ outfit "Nurhid-1 Core"
 	"energy generation" 340
 	"heat generation" 42
 	"energy capacity" 10000
-	description ""
+	description "Erm power generator."
 	
 outfit "Korgel-1 Core"
 	category "Power"
@@ -380,7 +387,7 @@ outfit "Korgel-1 Core"
 	"energy generation" 180
 	"heat generation" 20
 	"energy capacity" 9000
-	description ""
+	description "Erm small power generator."
 	
 outfit "Kizan-Korgel-1 Core"
 	category "Power"
@@ -391,7 +398,7 @@ outfit "Kizan-Korgel-1 Core"
 	"energy generation" 48
 	"heat generation" 12
 	"energy capacity" 3000
-	description ""
+	description "Erm tiny power generator."
 	
 outfit "Erm cooling system" #Placeholder
 	category "Systems"
@@ -410,7 +417,7 @@ outfit "Tuerel Shield Generator" #Estera
 	"outfit space" -200
 	"shield generation" 200
 	"shield energy" 180
-	description ""
+	description "Erm huge shield generator, found on the largest Erm cruisers and battleships"
 	
 outfit "Estera Shield Generator" #Retoek
 	category "Systems"
@@ -420,7 +427,7 @@ outfit "Estera Shield Generator" #Retoek
 	"outfit space" -20
 	"shield generation" 20
 	"shield energy" 10
-	description ""
+	description "Erm small shield generator."
 
 outfit "Atelnor Shield Generator" 
 	category "Systems"
@@ -430,7 +437,7 @@ outfit "Atelnor Shield Generator"
 	"outfit space" -10
 	"shield generation" 10
 	"shield energy" 5
-	description ""
+	description "Erm tiny shield generator."
 	
 outfit "Harken Graviton Engines"
 	category "Engines"
@@ -455,6 +462,7 @@ outfit "Harken Graviton Engines"
 	"hyperdrive" 1
 	"jump drive" 1
 	"jump speed" 7
+	description "Erm engines."
 	
 outfit "Hordel Graviton Engines"
 	category "Engines"
@@ -479,6 +487,7 @@ outfit "Hordel Graviton Engines"
 	"hyperdrive" 1
 	"jump drive" 1
 	"jump speed" 7
+	description "Erm engines."
 	
 outfit "Kizan-Hordel Graviton Engines"
 	category "Engines"
@@ -503,6 +512,7 @@ outfit "Kizan-Hordel Graviton Engines"
 	"hyperdrive" 1
 	"jump drive" 1
 	"jump speed" 5
+	description "Erm engines."
 	
 outfit "Erm Nulbaan Gun"
 	category "Hand to Hand"

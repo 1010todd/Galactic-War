@@ -19,7 +19,7 @@ outfit "Lismnia Gun"
 		"shield damage" 188
 		"hull damage" 200
 		"hit force" 15
-	description ""
+	description "Vareen gun that accelerates particles to near lightspeed."
 
 outfit "Lismnia Turret"
 	category "Turrets"
@@ -46,7 +46,7 @@ outfit "Lismnia Turret"
 		"shield damage" 188
 		"hull damage" 200
 		"hit force" 15
-	description ""
+	description "Turret version of Vareen Lismnia gun."
 	
 effect "lismnia impact"
 	sprite "effect/lismnia impact"
@@ -86,7 +86,7 @@ outfit "Hiseni Turret"
 		"shield damage" 30
 		"hull damage" 12
 		"hit force" 180
-	description ""
+	description "Medium sized Vareen turret, while not very powerful these will help them keep the enemy away."
 	
 outfit "Itis Gun"
 	category "Guns"
@@ -98,7 +98,7 @@ outfit "Itis Gun"
 	"gun ports" -1
 	weapon
 		sprite "projectile/itis"
-		sound "particle"
+		sound "gw egun"
 		"hit effect" "particle impact"
 		"inaccuracy" .5
 		"velocity" 45
@@ -110,7 +110,7 @@ outfit "Itis Gun"
 		"hit force" 40
 		"shield damage" 86
 		"hull damage" 63
-	description ""
+	description "Vareen gun"
 	
 outfit "Itir Gun"
 	category "Guns"
@@ -122,7 +122,7 @@ outfit "Itir Gun"
 	"gun ports" -1
 	weapon
 		sprite "projectile/itis"
-		sound "ion"
+		sound "gw elauncher2"
 		"hit effect" "particle impact"
 		"submunition" "Itir Fragment" 8
 		"inaccuracy" .5
@@ -133,9 +133,9 @@ outfit "Itir Gun"
 		"firing force" 8
 		"firing heat" 80
 		"hit force" 48
-		"shield damage" 76
-		"hull damage" 44
-	description ""
+		#"shield damage" 76
+		#"hull damage" 44
+	description "Vareen flak gun"
 	
 outfit "Itir Fragment"
 	weapon
@@ -145,7 +145,7 @@ outfit "Itir Fragment"
 		"inaccuracy" 270
 		"lifetime" 5
 		"hit force" 12
-		"shield damage" 7
+		"shield damage" 10
 		"hull damage" 5
 	
 
@@ -168,7 +168,7 @@ outfit "Viten Anti-Missile"
 		"reload" 3
 		"firing energy" 24
 		"firing heat" 10
-	description ""
+	description "Vareen antimissile"
 	
 effect "viten am"
 	sprite "effect/viten"
@@ -187,7 +187,7 @@ outfit "I6V2 Core"
 	"outfit space" -90
 	"energy generation" 23.0
 	"heat generation" 55.0
-	description ""
+	description "Vareen power generator"
 	
 outfit "I3V2 Core"
 	category "Power"
@@ -197,7 +197,7 @@ outfit "I3V2 Core"
 	"outfit space" -50
 	"energy generation" 9
 	"heat generation" 28.9
-	description ""
+	description "Vareen power generator"
 	
 outfit "S1V4 Batteries"
 	category "Power"
@@ -206,7 +206,7 @@ outfit "S1V4 Batteries"
 	"mass" 5
 	"outfit space" -5
 	"energy capacity" 550
-	description "."
+	description "Vareen tiny battery."
 
 outfit "S2V4 Batteries"
 	category "Power"
@@ -215,7 +215,7 @@ outfit "S2V4 Batteries"
 	"mass" 15
 	"outfit space" -15
 	"energy capacity" 2050
-	description "."
+	description "Vareen small battery."
 
 outfit "S3V4 Batteries"
 	category "Power"
@@ -224,7 +224,7 @@ outfit "S3V4 Batteries"
 	"mass" 30
 	"outfit space" -30
 	"energy capacity" 4080
-	description ""
+	description "Vareen medium battery"
 	
 outfit "F3V2 Shielding System"
 	category "Systems"
@@ -234,9 +234,10 @@ outfit "F3V2 Shielding System"
 	"outfit space" -15
 	"shield generation" 1.2
 	"shield energy" 1.2
+	"force protection" .2
 	"energy consumption" .3
 	"shield heat" 3
-	description ""
+	description "Vareen tiny shield"
 	
 outfit "F5V2 Shielding System"
 	category "Systems"
@@ -246,9 +247,10 @@ outfit "F5V2 Shielding System"
 	"outfit space" -40
 	"shield generation" 2.6
 	"shield energy" 2.6
+	"force protection" .8
 	"energy consumption" .6
 	"shield heat" 6
-	description ""
+	description "Vareen medium shield"
 	
 outfit "F6V2 Shielding System"
 	category "Systems"
@@ -259,5 +261,6 @@ outfit "F6V2 Shielding System"
 	"shield generation" 3.2
 	"shield energy" 3.2
 	"shield heat" 9
+	"force protection" 1.1
 	"energy consumption" .9
-	description ""
+	description "Vareen large shield"

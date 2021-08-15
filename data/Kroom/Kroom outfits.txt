@@ -288,7 +288,7 @@ outfit "Ekalo Battery Pack" #M-5
 	"mass" 10
 	"outfit space" -10
 	"energy capacity" 1000
-	description ""
+	description "Kroom tiny battery"
 	
 outfit "Galrugl Battery Pack" #M-6
 	category "Power"
@@ -297,7 +297,7 @@ outfit "Galrugl Battery Pack" #M-6
 	"mass" 18
 	"outfit space" -18
 	"energy capacity" 1950
-	description ""
+	description "Kroom small battery"
 	
 outfit "Gokal Battery Pack" #M-11
 	category "Power"
@@ -306,7 +306,7 @@ outfit "Gokal Battery Pack" #M-11
 	"mass" 45
 	"outfit space" -45
 	"energy capacity" 4900
-	description ""
+	description "Kroom medium battery"
 	
 outfit "Huglr Battery Pack" #M-12
 	category "Power"
@@ -315,7 +315,7 @@ outfit "Huglr Battery Pack" #M-12
 	"mass" 80
 	"outfit space" -80
 	"energy capacity" 10000
-	description ""
+	description "Kroom large battery"
 	
 outfit "Biuger Photovoltaic Panel" #M-6
 	category "Power"
@@ -323,8 +323,8 @@ outfit "Biuger Photovoltaic Panel" #M-6
 	thumbnail "outfit/tiny photovoltaic"
 	"mass" 3
 	"outfit space" -3
-	"solar collection" .1
-	description ""
+	"solar collection" .12
+	description "Kroom solar panel"
 	
 outfit "Burtal Fuel Cell"
 	category "Power"
@@ -335,7 +335,7 @@ outfit "Burtal Fuel Cell"
 	"energy generation" 2
 	"heat generation" 1.8
 	"ion protection" 1
-	description "Powerful and rugged generator protected against ionization weapon widely used by their opponent, Geeva."
+	description "Kroom's powerful and rugged generator protected against ionization weapon widely used by their opponent, Geeva."
 
 outfit "Fulakor Fuel Cell"
 	category "Power"
@@ -368,7 +368,7 @@ outfit "Atuga Radiothermal"
 	"energy generation" 4
 	"heat generation" 20
 	"ion protection" .02
-	description ""
+	description "Kroom power generator, while it is more powerful than their fuel cells it is more vulnerable to ion damages."
 	
 outfit "Kutsabik Fission Reactor"
 	category "Power"
@@ -379,7 +379,7 @@ outfit "Kutsabik Fission Reactor"
 	"energy generation" 8.9
 	"heat generation" 24
 	"ion protection" .5
-	description ""
+	description "Kroom fission reactor"
 
 outfit "Luketak Fission Reactor"
 	category "Power"
@@ -390,7 +390,7 @@ outfit "Luketak Fission Reactor"
 	"energy generation" 12.6
 	"heat generation" 36
 	"ion protection" .7
-	description ""
+	description "Kroom large fission reactor"
 
 #===============================================SYSTEM
 	
@@ -402,7 +402,7 @@ outfit "Keno Shield Generator"
 	"outfit space" -13
 	"shield generation" .18
 	"shield energy" .19
-	description ""
+	description "Kroom tiny shield"
 	
 outfit "Kosak Shield Generator"
 	category "Systems"
@@ -412,7 +412,7 @@ outfit "Kosak Shield Generator"
 	"outfit space" -21
 	"shield generation" .24
 	"shield energy" .28
-	description ""
+	description "Kroom small shield"
 	
 outfit "Kourta Shield Generator" #Koka
 	category "Systems"
@@ -422,7 +422,7 @@ outfit "Kourta Shield Generator" #Koka
 	"outfit space" -36
 	"shield generation" .52
 	"shield energy" .6
-	description ""
+	description "Kroom medium shield"
 	
 outfit "Kutkar Shield Generator"
 	category "Systems"
@@ -432,7 +432,7 @@ outfit "Kutkar Shield Generator"
 	"outfit space" -45
 	"shield generation" .78
 	"shield energy" .8
-	description ""
+	description "Kroom large shield"
 	
 #===============================================ENGINES
 
@@ -450,7 +450,7 @@ outfit "Kalmo Thruster" #Karmo
 		"frame rate" 5
 	"flare sound" "plasma tiny"
 	"slowing protection" .01
-	description "These are very rugged and powerful thruster for the size."
+	description "These are Kroom's rugged and powerful thruster for the size."
 	
 outfit "Karmar Thruster"
 	category "Engines"
@@ -466,7 +466,7 @@ outfit "Karmar Thruster"
 		"frame rate" 6
 	"flare sound" "plasma small"
 	"slowing protection" .02
-	description ""
+	description "Kroom thrusters are resistant against damage."
 	
 outfit "Kompar Thruster"
 	category "Engines"
@@ -482,7 +482,7 @@ outfit "Kompar Thruster"
 		"frame rate" 0.9
 	"flare sound" "plasma large"
 	"slowing protection" .03
-	description ""
+	description "Large Kroom thruster"
 	
 outfit "Kalmo Steering" #Karmo
 	category "Engines"
