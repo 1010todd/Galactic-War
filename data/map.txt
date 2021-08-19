@@ -7460,7 +7460,7 @@ system "Au saa"
 		sprite planet/ice1
 		distance 176.41
 		period 37.4891
-	object
+	object "Sen aar"
 		sprite planet/rock12
 		distance 593.37
 		period 231.264
@@ -83028,26 +83028,32 @@ system "Panmur Kaul"
 	object
 		sprite star/neutron
 		period 1
+		hazard "GW Pulsar" 30
 	object
 		sprite planet/rock13
 		distance 509.25
 		period 111
+		hazard "GW Pulsar" 30
 		object
 			sprite planet/miranda
 			distance 138
 			period 20.3789
+			hazard "GW Pulsar" 30
 	object
 		sprite planet/dust3
 		distance 798.61
 		period 217.987
+		hazard "GW Pulsar" 30
 	object
 		sprite planet/gas4
 		distance 1786.7
 		period 729.467
+		hazard "GW Pulsar" 30
 		object
 			sprite planet/io
 			distance 225
 			period 11.9034
+			hazard "GW Pulsar" 30
 
 system Pellavin
 	pos -51873.7 -56463.4
@@ -114636,6 +114642,11 @@ planet "NHK Wormhole"
 
 planet "NST Wormhole"
 
+planet NUoorn'neliue
+	attributes uninhabited
+	landscape land/mountain9
+	description `A pleasant Earth-like planet home to various flora and fauna. There's some number of crater visible on the surface though most seems to be old enough forest have entirely consumed it. Amids the colourful forest a cluster of giant mushroom sticks out like sore thumb. `
+
 planet Nagelluna
 	landscape land/fields1
 	description .
@@ -114780,6 +114791,7 @@ planet Nirvuvia
 planet "Noc ti"
 	landscape land/bwerner4
 	description `The warm climate of this planet seems to be less preferred by the Nuru as there're relativly few settlement here compared to the other worlds. Mostly small towns and a few cities, unlike the typical pine tree-shaped buildings found in other Nuru worlds, the buildings here are rounder in overall shapes with less branches.`
+	spaceport .
 
 planet Nocelduree
 	landscape land/mountain18-harro
@@ -114884,11 +114896,6 @@ planet Nuraalor
 	shipyard "Ignaggen Advanced"
 	outfitter "Ignaggen Basic"
 	outfitter "Ignaggen Advanced"
-
-planet NUoorn'neliue
-	attributes uninhabited
-	landscape land/mountain9
-	description `A pleasant Earth-like planet home to various flora and fauna. There's some number of crater visible on the surface though most seems to be old enough forest have entirely consumed it. Amids the colourful forest a cluster of giant mushroom sticks out like sore thumb. `
 
 planet Nyrenkel
 	landscape land/sky4
@@ -115377,6 +115384,12 @@ planet Selrynu
 	spaceport .
 	"required reputation" 1
 
+planet "Sen aar"
+	landscape land/dmottl2
+	description .
+	spaceport .
+	outfitter "Nuru Basic"
+
 planet Sendare
 	landscape land/hills1
 	description .
@@ -115540,6 +115553,8 @@ planet "Sin or"
 	landscape land/snowmountains2
 	description `This freezing and mounatianious planet would've been one of the last option for human to colonize, yet for the Nuru this planet was one of the earliest to be colonized after its discovery. They seems to have found themselves enjoying the challange of building gigantic buildings off the cliffs and deep into the thick snow. There are clear distinctions between the era of when each buildings were built, or grown. One of it being how insane and impossible the newer buildings are. Sprouting off steep cliffs like mushrooms yet as tall as one of the tallest mountain on the planet.`
 	spaceport `The spaceport is located in one of the cliffside cities that scattered all over the planet. Thankfully it seems to be much more supported than the newer buildings around. Aside from the Nuru you can also see a few of other alien around enjoying the view of the cliffside city.`
+	outfitter "Nuru Basic"
+	outfitter "Nuru Advanced"
 
 planet Sinkaradh
 	landscape land/hills0
@@ -115772,6 +115787,7 @@ planet "Ur uin"
 	description `Ur uin is a very cold rocky planet with total lack of natural water. The surface is full of craters, deep holes, and ravines most a result of older  Nuru mining machines. Some of the machines are still present on the planet but no longer operating. The machines are visited by a few replusor lift crafts from time to time.`
 	description `	There is a few cities around the planet, most were inside a dome or are constructing a dome over it. It is likely the domes were built to accomediate other races as the cities without one are still inhabitated and everything goes on like normal.`
 	spaceport `Unlike typical Nuru spaceport, ships landed inside large pods rather than flat landing pad. Each pod also serves as a huge airlock which does it work in an instant making the air inside suitable for you even before you step out of your ship.`
+	outfitter "Nuru Basic"
 
 planet Urdeilne
 	landscape land/fog6
@@ -115796,12 +115812,10 @@ planet "Urmoku Arkrauli"
 		fleet "Taroun Defense" 30
 
 planet "Urnoria Os Remanda"
-	attributes `"requires: cloak"`
+	attributes `"requires: cloak" "requires: inaccessible" uninhabited`
 	landscape land/mountain0
 	description `This planet is restricted only to a few permitted individuals because it is a home to another sentient organism. Buildings of wood and stone, horse carriage as transport, they seems to be in the era comparable to human "middle age". `
 	description `	As permitted by the Nuru, you're only allowed to observe from your cloaked ship and not allowed to make any interactions with the local inhabitants.`
-	description `	(Texts of the 2nd paragraph is a placeholder for a possible landing mission.)`
-	spaceport `Error 404: Spaceport not found. Though, the roof of that castle looks like it'll fit you ship...`
 	"required reputation" 10
 
 planet Uronalu
