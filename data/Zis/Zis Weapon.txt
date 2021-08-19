@@ -890,6 +890,148 @@ effect "dissector fire"
 	"random spin" 1
 	"velocity scale" 1
 
+outfit "Insilra Burst Field"
+	category "Turrets"
+	cost 900000000
+	thumbnail "outfit/zis dissector turret"
+	"mass" 354
+	"outfit space" -65
+	"weapon capacity" -65
+	"turret mounts" -1
+	weapon
+		sprite "effect/zis dissector fire"
+		sound "insilra fire"
+		"hardpoint sprite" "hardpoint/zis dissector turret hp"
+		"hardpoint offset" 0
+		"turret turn" 360
+		#"hit effect" "dissector impact"
+		"fire effect" "insilra fire2"
+		"submunition" "insilra fire" 360 #Can't have constant velocity with effects, smh.
+		"submunition" "insilra push delay"
+		"submunition" "insilra pull" 2
+		"range override" 1800
+		"velocity override" 2000
+		"lifetime" 1
+		"velocity" 0
+		"reload" 160
+		"firing energy" 150
+		"firing heat" 200
+
+outfit "insilra pull"
+	weapon
+		"shield damage" 85000
+		"hull damage" 120000
+		"fuel damage" 100
+		"energy damage" 4000
+		"heat damage" -6000
+		"hit force" -5000
+		"blast radius" 2000
+		"trigger radius" 2000
+		"lifetime" 2
+		"submunition" "insilra pull die" 120
+		"submunition" "insilra pull2 delay"
+		"no damage scaling"
+		"gravitational"
+		"safe"
+		
+outfit "insilra pull2 delay"
+	weapon
+		"lifetime" 10
+		"submunition" "insilra pull2"
+		
+outfit "insilra pull2"
+	weapon
+		"shield damage" 85000
+		"hull damage" 120000
+		"fuel damage" 100
+		"energy damage" 4000
+		"heat damage" -6000
+		"hit force" -5000
+		"blast radius" 2000
+		"trigger radius" 2000
+		"lifetime" 2
+		"submunition" "insilra pull die" 120
+		"no damage scaling"
+		"gravitational"
+		"safe"
+
+outfit "insilra push delay"
+	weapon
+		"lifetime" 15
+		"submunition" "insilra push"
+
+outfit "insilra push"
+	weapon
+		"shield damage" 5000
+		"hull damage" 6800
+		"ion damage" 80
+		"disruption damage" 180
+		"slowing damage" 30
+		"hit force" 15000
+		"blast radius" 1050
+		"trigger radius" 1050
+		"die effect" "insilra push die" 120
+		"die effect" "insilra push die2"
+		"lifetime" 1
+		#"no damage scaling"
+		"gravitational"
+		"safe"
+
+outfit "insilra fire"
+	weapon
+		sprite "effect/insilra fire"
+			"frame rate" 3
+			"no repeat"
+		"inaccuracy" 360
+		"velocity" 50
+		"lifetime" 40
+		"hit force" 50
+
+effect "insilra fire2"
+	sprite "effect/insilra fire2"
+		"frame rate" 25
+		"no repeat"
+	"random angle" 360
+	"velocity scale" 0
+	"lifetime" 22
+
+outfit "insilra pull die"
+	weapon
+		"inaccuracy" 360
+		"velocity" 2000
+		"lifetime" 1
+		"die effect" "insilra pull die"
+
+effect "insilra push die"
+	sprite "effect/insilra push die"
+		"frame rate" 4
+		"no repeat"
+	"velocity scale" 1
+	"random velocity" 50
+	"random angle" 360
+	"lifetime" 40
+	"random frame rate" 5
+	"random lifetime" 60
+	
+effect "insilra push die2"
+	sprite "effect/ultaka hit1"
+		"frame rate" 12
+		#"no repeat"
+	"velocity scale" 1
+	"random angle" 360
+	"lifetime" 10
+		
+	
+effect "insilra pull die"
+	sprite "effect/zis dissector hit"
+		"frame rate" 5
+		"no repeat"
+	"velocity scale" 1.
+	"random velocity" -50
+	"random angle" 360
+	"lifetime" 40
+	"random lifetime" 60
+
 outfit "Syfar-3 Turret" #Syfar Torpedo Turret
 	category "Secondary Weapons"
 	cost 47100000
