@@ -83028,32 +83028,26 @@ system "Panmur Kaul"
 	object
 		sprite star/neutron
 		period 1
-		hazard "GW Pulsar" 30
 	object
 		sprite planet/rock13
 		distance 509.25
 		period 111
-		hazard "GW Pulsar" 30
 		object
 			sprite planet/miranda
 			distance 138
 			period 20.3789
-			hazard "GW Pulsar" 30
 	object
 		sprite planet/dust3
 		distance 798.61
 		period 217.987
-		hazard "GW Pulsar" 30
 	object
 		sprite planet/gas4
 		distance 1786.7
 		period 729.467
-		hazard "GW Pulsar" 30
 		object
 			sprite planet/io
 			distance 225
 			period 11.9034
-			hazard "GW Pulsar" 30
 
 system Pellavin
 	pos -51873.7 -56463.4
@@ -100260,8 +100254,7 @@ system "Trochzempt ZAZ-1"
 	arrival 1500
 	object "Trochzempt ZAZ-1"
 		sprite planet/trochzempt_construction
-		arrival 1500
-
+		
 system Tuarli
 	pos -50929.2 -55082.2
 	government "Dels Kaote"
