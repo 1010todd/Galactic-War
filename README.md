@@ -28,6 +28,10 @@ To download the lastest (development) version, press the green [code] button and
 
 To install you can extract the zip in your plugin folder.
 
+Lite version:
+This version will have less animation frames and exclude @2x images to reduce memory required to load the plugin. Use this if you're using low end machines or 32 bit machines.
+https://mega.nz/file/sZ5FFaDD#hntC1a0Bo3O2Kwpgy9n5Fp_cwm_FTFjTp5Jc3V15cO4
+
 ## Contact
 If you found any bug/issue or have some suggestion, feel free to open an issue here or find me in Endless Sky Community discord server; https://discord.gg/ZeuASSx 
 
