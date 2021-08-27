@@ -73,6 +73,8 @@ outfit "B6E Hap'al Battery" #EB6
 	"energy capacity" 80000
 	"energy consumption" 12
 	"heat generation" 8
+	"ion resistance" 10
+	"ion resistance energy" -5
 	description "Ultra-high density energy storage used by the Ultaka, requires energy to maintain its capacity."
 	
 outfit "USG200 Shield Generator"
@@ -97,7 +99,7 @@ outfit "USG150 Shield Generator"
 	"shield energy" 33.2
 	"shield heat" 30
 	"ion protection" 1.1
-	description ""
+	description "Ultaka large shield generator"
 
 outfit "USG100 Shield Generator"
 	category "Systems"
