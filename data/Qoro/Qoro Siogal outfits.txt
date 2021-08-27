@@ -83,8 +83,9 @@ outfit "Nurbolo Shield Generator"
 	thumbnail "outfit/unknown"
 	"mass" 29
 	"outfit space" -29
-	"shield generation" 7.7
+	"shield generation" 1
 	"shield energy" 7
+	"shield heat" 5
 	description "Qoro Siogal Shield generator"
 	
 outfit "Norklo'Ar Shield Generator"
@@ -93,8 +94,9 @@ outfit "Norklo'Ar Shield Generator"
 	thumbnail "outfit/unknown"
 	"mass" 9
 	"outfit space" -9
-	"shield generation" 2.5
+	"shield generation" .6
 	"shield energy" 5
+	"shield heat" 3
 	description "Qoro Siogal Shield generator"
 	
 outfit "Ornai Shield Generator"
@@ -103,8 +105,9 @@ outfit "Ornai Shield Generator"
 	thumbnail "outfit/unknown"
 	"mass" 6
 	"outfit space" -6
-	"shield generation" 2.1
+	"shield generation" .32
 	"shield energy" 3
+	"shield heat" 1
 	description "Qoro Siogal Shield generator"
 	
 #==============================Power
@@ -175,6 +178,7 @@ outfit "Gowaki Ion Thruster"
 	"turn" 660
 	"turning energy" 2
 	"turning heat" 2.7
+	description "Qoro Siogal engine"
 	
 
 outfit "Qoro Armour Plating"
@@ -193,11 +197,13 @@ outfit "Qoro Power Armour"
 	cost 21000
 	thumbnail "outfit/qoro s earmour plate"
 	"mass" 50
-	"outfit space" -3
+	"outfit space" -4
 	"hull protection" .01
 	"piercing protection" .15
+	"disruption resistance" .1
 	"cooling inefficiency" .2
 	"heat dissipation" -.02
+	description "Qoro Siogal special armour plating for warships to improve shieldings."
 	
 outfit "Igornuit Rifle"
 	category "Hand to Hand"
