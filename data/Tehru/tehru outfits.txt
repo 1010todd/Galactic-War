@@ -366,7 +366,7 @@ outfit "Eysiral Energy Storage"
 	"ion resistance heat" 2.5
 	description "Tehru energy storage. Despite its size it can store a large amount of energy at the cost of reqiring some energy to maintain it. It is also more vulnerable to ionization."
 	
-#=========================Shield======================
+#=========================Systems======================
 outfit "Ainvus Shield Generator"
 	category "Systems"
 	cost 160000
@@ -411,6 +411,43 @@ outfit "Pivura Shield Generator"
 	"shield heat" 2.6
 	description "Large Tehru shield generator"
 	
+outfit "Cir'ai Hull Repair"
+	category "Systems"
+	cost 320000
+	thumbnail "outfit/tehru hull repair small"
+	"mass" 25
+	"outfit space" -25
+	"hull repair rate" 1
+	"hull energy" 1.3
+	"hull heat" .4
+	description "Small Tehru Hull repair"
+	
+outfit "Inlai Hull Repair"
+	category "Systems"
+	cost 660000
+	thumbnail "outfit/tehru hull repair small"
+	"mass" 65
+	"outfit space" -65
+	"hull repair rate" 2.8
+	"hull energy" 5.7
+	"hull heat" 2.3
+	description "Medium Tehru Hull repair"
+
+outfit "Fisra-Kaan'ri Hull Repair"
+	category "Systems"
+	cost 1260000
+	thumbnail "outfit/tehru hull repair small"
+	"mass" 53
+	"outfit space" -53
+	"hull repair rate" 8.9
+	"hull energy" 12.2
+	"energy consumption" 3
+	"hull heat" 5.2
+	"hull protection" -.1
+	"cooling inefficiency" .2
+	"repair delay" 30
+	description "Advanced Tehru Miitr Hull repair system, unlike other Tehru hull repair system this directly adjust the properties of the ship's hull allowing easier and faster repair not too different than bio-ships. Though this comes at a cost, the strenght of the hull will be reduced and cooling systems may have to work harder due to interference."
+
 #===============================Engines==================
 outfit "Akonu Thruster"
 	category "Engines"

@@ -23,8 +23,10 @@ ship "Tehru Avir"
 			"hit force" 1260
 	outfits
 		"Vuskchet Cannon"
+
 		"Apirval Generator" 2
 		"Jukir Shield Generator"
+		"Cir'ai Hull Repair"
 
 		"Fokhun Thruster"
 		"Fokhun Steering"
@@ -76,6 +78,7 @@ ship "Tehru Mavuin"
 		"Illar Missile Defence" 2
 		
 		"Rivkrtelr Reactor"
+		"Inlai Hull Repair"
 		"Pivura Shield Generator"
 		"Water Coolant System"
 		"Tactical Scanner"
@@ -179,9 +182,11 @@ ship "Tehru Vurbck"
 		"Vuskchet Turret"
 		"Vrrpak Turret" 2
 
+		"Inlai Hull Repair"
 		"Rivkrtelr Reactor"
 		"Epir Shield Generator"
 		"Water Coolant System" 2
+
 		"Ivtorne Thruster"
 		"Fokhun Steering"
 		Hyperdrive
@@ -235,6 +240,7 @@ ship "Tehru Tcvarka"
 		"Illar Missile Defence" 2
 		
 		"Rivkrtelr Reactor"
+		"Inlai Hull Repair"
 		"Pivura Shield Generator"
 		"Water Coolant System"
 		"Tactical Scanner"
@@ -319,3 +325,88 @@ ship "Tehru Tcvarka"
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
 	description "The primary Warship of Tehru Insker."
+
+ship "Tehru Iinsir"
+	sprite "ship/tehru iinsir"
+	thumbnail "thumbnail/tehru iinsir thumb"
+	attributes
+		category "Heavy Warship"
+		"cost" 20800000
+		"shields" 41000
+		"hull" 15000
+		"shield protection" .1
+		"required crew" 110
+		"bunks" 154
+		"mass" 835
+		"drag" 11.8
+		"heat dissipation" .7
+		"fuel capacity" 500
+		"cargo space" 100
+		"outfit space" 770
+		"weapon capacity" 550
+		"engine capacity" 210
+		weapon
+			"blast radius" 300
+			"shield damage" 3000
+			"hull damage" 1500
+			"hit force" 4500
+	outfits
+		"Vuskchet Cannon" 6
+		"Vuskchet Turret" 2
+		"Vrrpak Turret" 2
+		"Illar Missile Defence" 2
+		
+		"Rivkrtelr Reactor"
+		"Pivura Shield Generator"
+		"Fisra-Kaan'ri Hull Repair"
+		"Water Coolant System"
+		"Tactical Scanner"
+		
+		"Urhas Thruster"
+		"Ivtorne Steering"
+		"Hyperdrive"
+		
+	gun -27.5 -160.5
+	gun 27.5 -160.5
+	gun -27.5 -160.5
+	gun 27.5 -160.5
+	gun -27.5 -160.5
+	gun 27.5 -160.5
+	turret -22.5 -96.5 "Vuskchet Turret"
+	turret 22.5 -96.5 "Vuskchet Turret"
+	turret -40.5 -49.5
+	turret 40.5 -49.5
+	turret -114 67.5
+	turret 114 67.5
+	turret -99.5 132.5 "Vuskchet Turret"
+	turret 99.5 132.5 "Vuskchet Turret"
+	engine -50 240.5
+		zoom 1
+		angle 0
+		under
+	engine 50 240.5
+		zoom 1
+		angle 0
+		under
+	engine -0 255
+		zoom 1
+		angle 0
+		under
+	"reverse engine" 43.5 -72.5
+		zoom 1
+		angle 0
+		under
+	"reverse engine" -43.5 -72.5
+		zoom 1
+		angle 0
+		under
+	leak "leak" 30 50
+	leak "flame" 30 80
+	leak "big leak" 30 30
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "The primary Warship of Tehru Miitr."
