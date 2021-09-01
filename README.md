@@ -3,9 +3,6 @@ This is a repository for endless sky mod "Galactic War"
 The mod is currently in development stage, many things are subjected to changes later on.
 
 Currently the mod requires Endless Sky version 0.9.13+ to work properly.
-**WARNING : Will crash on lastest continuous version(1st Sep 2021), please use 0.9.14 release.
-
-Last confirmed version to work is 2fd9f8883ccc4bcfcd62e9aa12194f0941572543 , committed on August 13.
 
 ### About
 This is a massive content mod about a war in another galaxy.
@@ -25,6 +22,8 @@ To find the galaxy, head up to the system north of Ka'ch'chrai(The capital) in t
 
 ### Known Issues
 Galaxy image not appearing. To fix this, turn on "reduce large graphic" option in the setting and restart the game.
+
+Memory Leaks when used with Endless Sky continuous after 16 August 2021 (specifically commit dda40b619e5c722dcf213c31efa53626486297c0). Please download the lastest update with code button for the fix.
 
 ## Download
 To download the lastest (development) version, press the green [code] button and download as zip from this repository.
