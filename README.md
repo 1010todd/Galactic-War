@@ -32,7 +32,7 @@ To install you can extract the zip in your plugin folder.
 
 Lite version:
 This version will have less animation frames and exclude @2x images to reduce memory required to load the plugin. Use this if you're using low end machines or 32 bit machines.
-https://mega.nz/file/JcwUxQRD#EF3_w9gp96-FItw5Z583D039XX9e7d_ccbVdIJJjrYE
+https://mega.nz/file/8QpAAYhJ#H2vVusIAPKdlMZlzVNwTfTwzpV6tYQBsvZDXDdNhB54
 
 ## Contact
 If you found any bug/issue or have some suggestion, feel free to open an issue here or find me in Endless Sky Community discord server; https://discord.gg/ZeuASSx 
