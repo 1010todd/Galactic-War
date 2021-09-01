@@ -2624,8 +2624,8 @@ system Uoorn
 		sprite sprite/category_interceptor
 		distance 1200
 		offset 120
-		object "Uroon Aggressor"
-			sprite "ship/uroon aggressor"
+		object "Uoorn Aggressor"
+			sprite "ship/Uoorn aggressor"
 			distance 500
 			offset 200
 	object
@@ -2636,8 +2636,8 @@ system Uoorn
 		sprite sprite/category_medium_warship
 		distance 1200
 		offset 200
-		object "Uroon Warrior"
-			sprite "ship/uroon warrior"
+		object "Uoorn Warrior"
+			sprite "ship/Uoorn warrior"
 			distance 500
 			offset 200
 	object
@@ -6415,47 +6415,47 @@ fleet "Ultaka Trapper"
 		"Ultaka Trapper"
 
 #================================Uoorn
-planet "Uroon Aggressor"
+planet "Uoorn Aggressor"
 	government arena
 	bribe 0
 	tribute 1
 		threshold 0
-		fleet "Uroon Aggressor"
+		fleet "Uoorn Aggressor"
 		
 planet "GW Aggressor"
 	government arena
 	bribe 0
 	tribute 1
 		threshold 0
-		fleet "Uroon Aggressor"
+		fleet "Uoorn Aggressor"
 		
-fleet "Uroon Aggressor"
+fleet "Uoorn Aggressor"
 	government "arena"
 	personality
 		heroic
 	variant
-		"Uroon Aggressor"
+		"Uoorn Aggressor"
 
-planet "Uroon Warrior"
+planet "Uoorn Warrior"
 	government arena
 	bribe 0
 	tribute 1
 		threshold 0
-		fleet "Uroon Warrior"
+		fleet "Uoorn Warrior"
 		
 planet "GW Warrior"
 	government arena
 	bribe 0
 	tribute 1
 		threshold 0
-		fleet "Uroon Warrior"
+		fleet "Uoorn Warrior"
 		
-fleet "Uroon Warrior"
+fleet "Uoorn Warrior"
 	government "arena"
 	personality
 		heroic
 	variant
-		"Uroon Warrior"
+		"Uoorn Warrior"
 #================================Wallagi
 
 planet "Wallagi Telsarator"
