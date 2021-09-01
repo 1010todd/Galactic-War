@@ -5,6 +5,8 @@ system Aumar
 	link Dels
 	link Erader
 	link "Galactic War"
+	object
+		sprite "star/nova"
 	object  "Aumar"
 		sprite "planet/station1b"
 		object
@@ -128,6 +130,8 @@ system Dels
 	link Ignaggen
 	link Kumakk
 	link Qoro
+	object
+		sprite "star/nova"
 	object "Dels"
 		sprite "planet/station1b"
 		object
@@ -319,6 +323,8 @@ system Donko
 	link Uoorn
 	link Wallagi
 	link Zis
+	object
+		sprite "star/nova"
 	object "Donko"
 		sprite "planet/station1b"
 		object
@@ -460,6 +466,8 @@ system Erader
 	link "Galactic War"
 	link Kroom
 	link Kumakk
+	object
+		sprite "star/nova"
 	object "Erader"
 		sprite "planet/station1b"
 		object
@@ -643,6 +651,8 @@ system Erm
 	link Nuru
 	link Tehru
 	link Revos
+	object
+		sprite "star/nova"
 	object "Erm"
 		sprite "planet/station1b"
 		object
@@ -786,6 +796,8 @@ system "Galactic War"
 	link Kroom
 	link Omnis
 	link Zorcn
+	object
+		sprite "star/g3"
 	object "Galactic War"
 		sprite planet/trochzempt_complete
 	object "GW Plugins"
@@ -877,6 +889,8 @@ system Geeva
 	link Wallagi
 	link Xessian
 	link Zorcn
+	object
+		sprite "star/nova"
 	object "Geeva"
 		sprite "planet/station1b"
 		object
@@ -1012,6 +1026,8 @@ system Ignaggen
 	link "Galactic War"
 	link Geeva
 	link Zorcn
+	object
+		sprite "star/nova"
 	object "Ignaggen"
 		sprite "planet/station1b"
 		object
@@ -1155,6 +1171,8 @@ system Isgeda
 	link Donko
 	link Ultaka
 	link Wallagi
+	object
+		sprite "star/nova"
 	object "Isgeda"
 		sprite "planet/station1b"
 		object
@@ -1271,6 +1289,8 @@ system Kroom
 	link "Galactic War"
 	link Kumakk
 	link Nuru
+	object
+		sprite "star/nova"
 	object "Kroom"
 		sprite "planet/station1b"
 		object
@@ -1436,6 +1456,8 @@ system Kumakk
 	link Uoorn
 	link Qoro
 	link Revos
+	object
+		sprite "star/nova"
 	object "Kumakk"
 		sprite "planet/station1b"
 		object
@@ -1565,6 +1587,8 @@ system Nuru
 	link Kumakk
 	link Revos
 	link Tehru
+	object
+		sprite "star/nova"
 	object "Nuru"
 		sprite "planet/station1b"
 		object
@@ -1705,6 +1729,8 @@ system Qoro
 	link Kumakk
 	link Uoorn
 	link Wallagi
+	object
+		sprite "star/nova"
 	object "Qoro"
 		sprite "planet/station1b"
 		object
@@ -1862,6 +1888,8 @@ system Revos
 	link Nuru
 	link Taroun
 	link Uoorn
+	object
+		sprite "star/nova"
 	object "Revos"
 		sprite "planet/station1b"
 		object
@@ -1996,6 +2024,8 @@ system Taroun
 	link Revos
 	link Uoorn
 	link Zis
+	object
+		sprite "star/nova"
 	object "Taroun"
 		sprite "planet/station1b"
 		object
@@ -2123,6 +2153,8 @@ system Tehru
 	link Erm
 	link Kroom
 	link Nuru
+	object
+		sprite "star/nova"
 	object "Tehru"
 		sprite "planet/station1b"
 		object
@@ -2258,6 +2290,8 @@ system Ultaka
 	link Donko
 	link Isgeda
 	link Zis
+	object
+		sprite "star/nova"
 	object "Ultaka"
 		sprite "planet/station1b"
 		object
@@ -2496,6 +2530,8 @@ system Uoorn
 	link Revos
 	link Taroun
 	link Zis
+	object
+		sprite "star/nova"
 	object "Uoorn"
 		sprite "planet/station1b"
 		object
@@ -2584,6 +2620,10 @@ system Uoorn
 		sprite sprite/category_interceptor
 		distance 1200
 		offset 120
+		object "Uroon Aggressor"
+			sprite "sprite/uroon aggressor"
+			distance 500
+			offset 200
 	object
 		sprite sprite/category_light_warship
 		distance 1200
@@ -2592,6 +2632,10 @@ system Uoorn
 		sprite sprite/category_medium_warship
 		distance 1200
 		offset 200
+		object "Uroon Warrior"
+			sprite "sprite/uroon warrior"
+			distance 500
+			offset 200
 	object
 		sprite sprite/category_heavy_warship
 		distance 1200
@@ -2613,6 +2657,8 @@ system Wallagi
 	link Isgeda
 	link Qoro
 	link Xessian
+	object
+		sprite "star/nova"
 	object "Wallagi"
 		sprite "planet/station1b"
 		object
@@ -2863,6 +2909,8 @@ system Zis
 	link Taroun
 	link Ultaka
 	link Uoorn
+	object
+		sprite "star/nova"
 	object "ZIS"
 		sprite "planet/station1b"
 		object
@@ -3057,6 +3105,8 @@ system Zorcn
 	link "Galactic War"
 	link Geeva
 	link Ignaggen
+	object
+		sprite "star/nova"
 	object "Zorcn"
 		sprite "planet/station1b"
 		object
@@ -6361,7 +6411,47 @@ fleet "Ultaka Trapper"
 		"Ultaka Trapper"
 
 #================================Uoorn
+planet "Uroon Aggressor"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Uroon Aggressor"
+		
+planet "GW Aggressor"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Uroon Aggressor"
+		
+fleet "Uroon Aggressor"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Uroon Aggressor"
 
+planet "Uroon Warrior"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Uroon Warrior"
+		
+planet "GW Warrior"
+	government arena
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet "Uroon Warrior"
+		
+fleet "Uroon Warrior"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Uroon Warrior"
 #================================Wallagi
 
 planet "Wallagi Telsarator"
