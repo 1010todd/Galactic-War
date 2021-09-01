@@ -1,11 +1,17 @@
 #In the Resmakia alliance the Juvellen build warships and Maroheth build freighter and transport 
 
 #Juvellen
-ship "Metal Asteroid"
+ship "Metal Asteroid "
+	attributes
+		drag 1.0
+		weapon
+			"blast radius" 250
+			"shield damage" 15000
+			"hull damage" 15000
+			"hit force" 240
 
-ship "Metal Asteroid" "Resmakia Asteroid"
+ship "Metal Asteroid " "Resmakia Asteroid"
 	sprite "asteroid/large metal/spin"
-		"frame rate" 2
 		"frame time" 2
 		"delay" 2
 		"random start frame"
@@ -39,9 +45,8 @@ ship "Metal Asteroid" "Resmakia Asteroid"
 	"final explode" "final explosion large"
 	description "Space mine concealed as asteroid used by Resmakia alliance."
 	
-ship "Metal Asteroid" "Resmakia Asteroid2"
+ship "Metal Asteroid " "Resmakia Asteroid2"
 	sprite "asteroid/large metal/spin"
-		"frame rate" 3
 		"frame time" 3
 		"delay" 3
 		"random start frame"
