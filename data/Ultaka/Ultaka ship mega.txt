@@ -437,7 +437,7 @@ ship "Ultaka Death Bringer"
 	fighter -758.5 0.5 left
 	fighter 803 0.5 right
 	fighter -758.5 0.5 left
-	"final explode" "final explosion nuke" 5
+	"final explode" "final explosion large" 5
 	description "."
 
 ship "Ultaka Netherward"
@@ -533,7 +533,7 @@ ship "Ultaka Netherward"
 	explode "big explosion" 44
 	explode "huge explosion" 30
 	explode "nuke explosion" 5
-	"final explode" "final explosion nuke" 2
+	"final explode" "final explosion large" 2
 	description ""
 
 #============================[Fighter]===============================

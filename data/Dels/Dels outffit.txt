@@ -436,7 +436,7 @@ outfit "Fitar Anti-Missile" #A1A
 	description "These tiny anti missiles are meant to provide even the smallest ship minimal defense against missiles. Or just to fil in some left over spaces."
 		
 effect "fitar anti-missile"
-	sprite "effect/tiny explosion"
+	sprite "effect/explosion/tiny"
 		"no repeat"
 		"frame rate" 3
 	sound "gw energy1"
