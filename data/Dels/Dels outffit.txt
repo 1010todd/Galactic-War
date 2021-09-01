@@ -209,7 +209,7 @@ outfit "Dels Sokak Cannon"
 	"sokak capacity" 40
 	weapon
 		sprite "projectile/particle beam"
-		sound "small explosion"
+		sound "explosion small"
 		"hit effect" "particle impact"
 		"fire effect" "small explosion"
 		ammo "Sokak Slug"
@@ -238,7 +238,7 @@ outfit "Dels Sokak Cannon Turret"
 	"sokak capacity" 40
 	weapon
 		sprite "projectile/particle beam"
-		sound "particle"
+		sound "explosion small"
 		"hardpoint sprite" "hardpoint/dels sokak turret hp"
 		"hardpoint offset" 6.
 		"hit effect" "particle impact"
