@@ -152,7 +152,7 @@ outfit "Kuloles Spawner"
 	"weapon capacity" -56
 	"turret mounts" -1
 	weapon
-		sound "laser3"
+		sound "gw laser3"
 		sprite "projectile/emissile"
 			"frame rate" 1
 		"hit effect" "skylance impact"
@@ -232,7 +232,7 @@ outfit "Anor Missile"
 	weapon 
 		sprite "projectile/emissile"
 			"frame rate" 3.5
-		sound "emissile"
+		sound "gw emissile"
 		"hit effect" "grab-strike impact"
 		"inaccuracy" 1
 		"velocity" 15

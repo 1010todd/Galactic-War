@@ -8,7 +8,7 @@ outfit "Aranut Missile"
 	"gun ports" -1
 	weapon
 		sprite "projectile/aranut"
-		sound "gw atmas"
+		sound "erm atmas"
 		"fire effect" "meteor fire"
 		"die effect" "medium explosion"
 		"hit effect" "medium explosion"
@@ -40,7 +40,7 @@ outfit "Atmas Missile"
 	"gun ports" -1
 	weapon
 		sprite "projectile/atmas"
-		sound "gw atmas"
+		sound "erm atmas"
 		"fire effect" "meteor fire"
 		"die effect" "medium explosion"
 		"hit effect" "medium explosion"
@@ -71,7 +71,7 @@ outfit "Aorken Paralyzer Missile"
 	"gun ports" -1
 	weapon
 		sprite "projectile/aranut"
-		sound "gw atmas"
+		sound "erm atmas"
 		"fire effect" "meteor fire"
 		"die effect" "medium explosion"
 		"hit effect" "medium explosion"
@@ -137,7 +137,7 @@ outfit "atarkor bullet"
 		sprite "projectile/particle beam"
 			"frame rate" 1
 		"hit effect" "particle impact"
-		sound "tiny explosion"
+		sound "explosion tiny"
 		"velocity" 50
 		"lifetime" 20
 		"inaccuracy" 0
