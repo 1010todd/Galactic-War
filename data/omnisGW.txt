@@ -855,6 +855,10 @@ system "Galactic War"
 		sprite "ship/wallagi telsarator"
 		distance 3000
 		offset 125
+	object "GW Derso"
+		sprite "ship/dels derso"
+		distance 3100
+		offset 125
 	object "GW Oresu"
 		sprite "ship/taroun oresu"
 		distance 3000
@@ -2621,7 +2625,7 @@ system Uoorn
 		distance 1200
 		offset 120
 		object "Uroon Aggressor"
-			sprite "sprite/uroon aggressor"
+			sprite "ship/uroon aggressor"
 			distance 500
 			offset 200
 	object
@@ -2633,7 +2637,7 @@ system Uoorn
 		distance 1200
 		offset 200
 		object "Uroon Warrior"
-			sprite "sprite/uroon warrior"
+			sprite "ship/uroon warrior"
 			distance 500
 			offset 200
 	object
