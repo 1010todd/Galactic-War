@@ -64546,18 +64546,19 @@ system Masekin
 		period 116.7
 		object Masriqo
 			sprite planet/miranda
-			distance 142
-			period 21.704
+			distance 135.991
+			period 20.3409
+			offset 1.25797
 	object Qensero
 		sprite planet/oberon
-		distance 599.01
-		period 265.821
-		offset 176.66
+		distance 593.001
+		period 261.831
+		offset 150.157
 	object
 		sprite planet/gas6
-		distance 1106.25
-		period 667.142
-		offset 5.74198
+		distance 1100.24
+		period 661.713
+		offset 0.0566949
 		object Qansta
 			sprite planet/station4
 			distance 317
@@ -64565,9 +64566,9 @@ system Masekin
 			offset 167.512
 	object
 		sprite planet/gas15
-		distance 2127.69
-		period 1779.51
-		offset 248.409
+		distance 2121.68
+		period 1771.98
+		offset 247.305
 		object Wensa
 			sprite planet/desert4
 			distance 223
@@ -64575,9 +64576,9 @@ system Masekin
 			offset 16.7252
 	object
 		sprite planet/gas5
-		distance 4842.53
-		period 6110.08
-		offset 37.4808
+		distance 4836.52
+		period 6098.71
+		offset 37.3397
 		object
 			sprite planet/lava0
 			distance 248
@@ -83028,26 +83029,32 @@ system "Panmur Kaul"
 	object
 		sprite star/neutron
 		period 1
+		hazard "GW Pulsar" 30
 	object
 		sprite planet/rock13
 		distance 509.25
 		period 111
+		hazard "GW Pulsar" 30
 		object
 			sprite planet/miranda
 			distance 138
 			period 20.3789
+			hazard "GW Pulsar" 30
 	object
 		sprite planet/dust3
 		distance 798.61
 		period 217.987
+		hazard "GW Pulsar" 30
 	object
 		sprite planet/gas4
 		distance 1786.7
 		period 729.467
+		hazard "GW Pulsar" 30
 		object
 			sprite planet/io
 			distance 225
 			period 11.9034
+			hazard "GW Pulsar" 30
 
 system Pellavin
 	pos -51873.7 -56463.4
@@ -100254,7 +100261,8 @@ system "Trochzempt ZAZ-1"
 	arrival 1500
 	object "Trochzempt ZAZ-1"
 		sprite planet/trochzempt_construction
-		
+		arrival 1500
+
 system Tuarli
 	pos -50929.2 -55082.2
 	government "Dels Kaote"
@@ -114338,10 +114346,8 @@ planet Marsarhlan
 	outfitter "Erader Basic"
 
 planet Masriqo
-	attributes Qoro(north)
-	landscape land/city5
-	description `Qoro's one of the very last planet surviving Ultaka's invasion, their buildings are very similar to Humans.`
-	spaceport `Almost the same style as Human spaceport.`
+	landscape land/desert7
+	description `This moon appear to be used as processing plant for the mining operations on the planet below. Compromised of blocky buildings and weaves of alien metal similar to their ships. `
 	"required reputation" 1
 
 planet Matryykr
@@ -115041,7 +115047,6 @@ planet Pysrennarz
 	"required reputation" 1
 
 planet Qansta
-	attributes Qoro(north)
 	landscape land/space2
 	description .
 	spaceport .
@@ -115083,9 +115088,8 @@ planet Qenor
 	description `Something seems odd about cracks and crater here, you can tell exactly what. You also notice some unusually perfect objects with rather unnaturally sharp edge found in large pile, a mysterious ancient construct that stood against time and nature. Though even if it asked for further investigation the atmosphere is far too hostile for any to walk on even with spacesuits.`
 
 planet Qensero
-	attributes Qoro(north)
-	landscape land/mfield0
-	description `Another Qoro's last six planets, this planet have alot of tall buildings that are very similar to Humans.`
+	landscape land/desert9-sfiera
+	description .
 	spaceport .
 	"required reputation" 1
 
