@@ -20654,7 +20654,7 @@ system Enlornel
 			period 30.0784
 
 system Eonar'ai
-	pos -50256.1 -53005.1
+	pos -50210.1 -53074.1
 	government Zorcn
 	habitable 135
 	haze _menu/haze-red
@@ -20710,7 +20710,7 @@ system Eonar'ai
 			period 12.2248
 
 system Eonnisso
-	pos -50258.8 -52882.2
+	pos -50232.8 -52946.2
 	government Zorcn
 	habitable 2035
 	belt 1631
@@ -20777,7 +20777,7 @@ system Eonnisso
 			period 22.2053
 
 system Eonsai
-	pos -50180.1 -52934.1
+	pos -50176.1 -52985.1
 	government Zorcn
 	habitable 320
 	haze _menu/haze-red
@@ -20832,7 +20832,7 @@ system Eonsai
 			period 49.4664
 
 system Eosin
-	pos -50293.1 -52942.1
+	pos -50250.1 -53009.1
 	government Zorcn
 	habitable 1715
 	haze _menu/haze-red
@@ -20892,7 +20892,7 @@ system Eosin
 			period 13.2814
 
 system Eosion
-	pos -50197.1 -52854.1
+	pos -50179.1 -52898.1
 	government Zorcn
 	habitable 2035
 	belt 1621
@@ -28151,14 +28151,16 @@ system "Go se ri"
 		sprite planet/desert6
 		distance 485.05
 		period 136.963
-	object
+	object "Se ai jar"
 		sprite planet/desert10
-		distance 740.86
-		period 258.54
+		distance 808.864
+		period 294.942
+		offset 178.99
 	object
 		sprite planet/gas2
-		distance 1811.42
-		period 988.444
+		distance 1879.42
+		period 1044.62
+		offset 20.2157
 		object
 			sprite planet/rock17
 			distance 197
@@ -28376,22 +28378,26 @@ system "Gor ser i"
 		sprite planet/rock2
 		distance 170.64
 		period 49.8432
-	object
+	object "Ti or ei"
 		sprite planet/forest3
-		distance 437.05
-		period 204.306
-	object
+		distance 437.989
+		period 204.965
+		offset 66.2246
+	object "Si ta ai"
 		sprite planet/venus
-		distance 651.01
-		period 371.421
+		distance 651.949
+		period 372.225
+		offset 24.6829
 	object
 		sprite planet/cloud4
-		distance 888.82
-		period 592.524
+		distance 889.759
+		period 593.463
+		offset 11.3341
 	object
 		sprite planet/gas4
-		distance 2128.98
-		period 2196.56
+		distance 2129.92
+		period 2198.01
+		offset 1.2747
 
 system Gor'aika
 	pos -50418.5 -56718.6
@@ -30174,7 +30180,6 @@ system Guvasu
 	haze _menu/haze-red
 	link Guvin
 	link Guvrn
-	link Museni
 	asteroids "medium rock" 56 2.1112
 	asteroids "large rock" 10 2.4206
 	asteroids "small metal" 1 1.1284
@@ -30277,7 +30282,7 @@ system Guvin
 			period 31.1498
 
 system Guvran
-	pos -50588.1 -52865.4
+	pos -50585.1 -52856.4
 	government Zorcn
 	habitable 486.68
 	haze _menu/haze-red
@@ -32790,7 +32795,7 @@ system Hualrihn
 			period 18.6136
 
 system Huein
-	pos -50366.2 -52977.8
+	pos -50334.2 -53015.8
 	government Zorcn
 	habitable 233.28
 	belt 1048
@@ -32878,7 +32883,7 @@ system Huein
 			period 61.8775
 
 system Hulis
-	pos -50370.2 -52904.8
+	pos -50296.2 -52968.8
 	government Zorcn
 	habitable 320
 	haze _menu/haze-red
@@ -33013,7 +33018,7 @@ system "Humalr Kega"
 			period 36.4397
 
 system Hunos
-	pos -50421.2 -52879.8
+	pos -50404.2 -52923.8
 	government Zorcn
 	habitable 5425.92
 	belt 1719
@@ -33076,7 +33081,7 @@ system Hunos
 			period 30.0481
 
 system Hunysin
-	pos -50395.8 -52825.9
+	pos -50372.8 -52880.9
 	government Zorcn
 	habitable 425.92
 	haze _menu/haze-red
@@ -33124,7 +33129,7 @@ system Hunysin
 		period 771.146
 
 system Hurrei
-	pos -50422.2 -52943.8
+	pos -50367.2 -52969.8
 	government Zorcn
 	habitable 2201.68
 	belt 1623
@@ -36581,6 +36586,7 @@ system "Is mur"
 	trade Medical 614
 	trade Metal 356
 	trade Plastic 341
+	fleet Nuru 800
 	object
 		sprite star/g5
 		period 10
@@ -36592,26 +36598,30 @@ system "Is mur"
 		sprite planet/desert7
 		distance 388.89
 		period 122.704
-	object
+	object "Kur in er"
 		sprite planet/rock0
-		distance 565.9
-		period 215.392
+		distance 566.474
+		period 215.72
+		offset 28.282
 	object
 		sprite planet/gas7
-		distance 1017.34
-		period 519.181
+		distance 1017.91
+		period 519.621
+		offset 6.71146
 	object
 		sprite planet/cloud0
-		distance 1528.23
-		period 955.879
+		distance 1528.8
+		period 956.418
+		offset 2.4262
 		object
 			sprite planet/rhea
 			distance 175
 			period 28.5293
 	object
 		sprite planet/gas2
-		distance 5326.24
-		period 6219.44
+		distance 5326.81
+		period 6220.44
+		offset 0.106656
 		object
 			sprite planet/ice0
 			distance 198
@@ -37693,6 +37703,7 @@ system Iznai
 	fleet "Large Zorcn Vuskr" 1000
 	fleet Nuru 1200
 	fleet "Small Zorcn Merchant" 800
+	fleet "Large Zorcn Merchant" 1000
 	object
 		sprite star/k0
 		period 10
@@ -41204,6 +41215,7 @@ system "Ke er a"
 	trade Metal 414
 	trade Plastic 381
 	fleet Nuru 800
+	fleet "Small Zorcn Merchant" 1200
 	object
 		sprite star/a5
 		period 10
@@ -44916,18 +44928,21 @@ system "Ki ya er"
 		sprite planet/lava7
 		distance 197
 		period 50.1346
-	object
+	object "Var sin ne"
 		sprite planet/rhea
 		distance 364.44
 		period 126.147
+		offset -1.11199
 	object
 		sprite planet/ice4
 		distance 952.69
 		period 533.17
+		offset 359.999
 	object
 		sprite planet/desert8
 		distance 1425.9
 		period 976.274
+		offset 0.00124957
 		object
 			sprite planet/dust5
 			distance 178
@@ -44936,6 +44951,7 @@ system "Ki ya er"
 		sprite planet/gas5
 		distance 2291.15
 		period 1988.47
+		offset 359.997
 		object
 			sprite planet/luna
 			distance 246
@@ -54969,7 +54985,7 @@ system Kurdolga
 			period 19.8509
 
 system Kurmak
-	pos -50656.8 -52858.1
+	pos -50646.8 -52884.1
 	government Zorcn
 	habitable 320
 	haze _menu/haze-red
@@ -55019,7 +55035,7 @@ system Kurmak
 		period 4387.35
 
 system Kurnes
-	pos -50660.8 -52916.1
+	pos -50667.8 -52943.1
 	government Zorcn
 	habitable 2372.76
 	belt 1879
@@ -55078,7 +55094,7 @@ system Kurnes
 			period 16.0841
 
 system Kursek
-	pos -50717.4 -52854.9
+	pos -50719.4 -52899.9
 	government Zorcn
 	habitable 486.68
 	haze _menu/haze-red
@@ -55132,7 +55148,7 @@ system Kursek
 			period 12.484
 
 system Kurzun
-	pos -50678.4 -52791.6
+	pos -50694.4 -52846.6
 	government Zorcn
 	habitable 3645
 	belt 1289
@@ -60978,6 +60994,8 @@ system "Ma os ii"
 	fleet Nuru 800
 	fleet "Small Zorcn Vuskr" 1800
 	fleet "Large Zorcn Vuskr" 2200
+	fleet "Small Zorcn Merchant" 800
+	fleet "Large Zorcn Merchant" 1000
 	object
 		sprite star/m0
 		period 10
@@ -61069,7 +61087,6 @@ system Maaynai
 	government Zorcn
 	habitable 233.28
 	haze _menu/haze-red
-	link Masiofa
 	link Masyuin
 	link Nusinnai
 	asteroids "small rock" 1 5.022
@@ -61089,6 +61106,7 @@ system Maaynai
 	trade Plastic 330
 	fleet "Small Zorcn Vuskr" 800
 	fleet "Large Zorcn Vuskr" 1000
+	fleet "Small Zorcn Merchant" 800
 	object
 		sprite star/m4
 		period 10
@@ -61918,28 +61936,33 @@ system "Mai tai"
 	trade Plastic 281
 	fleet Nuru 1200
 	object
-		sprite star/m4
+		sprite star/nova
 		period 10
 	object
-		sprite planet/ice5
-		distance 188.49
-		period 67.7725
+		sprite planet/lava2
+		distance 974.104
+		period 796.213
+		offset 335.54
 	object
-		sprite planet/ice1
-		distance 705.74
-		period 491.008
+		sprite planet/lava4
+		distance 1430.35
+		period 1416.73
+		offset 88.4885
 		object
 			sprite planet/rock17
-			distance 141
-			period 14.3095
+			distance 118
+			period 16.4411
+			offset 275.37
 	object
 		sprite planet/gas14
-		distance 1528.95
-		period 1565.71
+		distance 2230.56
+		period 2758.95
+		offset 133.832
 	object
 		sprite planet/gas3
-		distance 2877.95
-		period 4043.39
+		distance 3579.56
+		period 5608.75
+		offset 303.3
 		object
 			sprite planet/io
 			distance 265
@@ -61986,19 +62009,19 @@ system "Mai yu "
 		period 40.5709
 	object "Ur uin"
 		sprite planet/rock4
-		distance 507.906
-		period 255.953
-		offset 0.184341
+		distance 506.473
+		period 254.87
+		offset 291.696
 	object
 		sprite planet/gas1
-		distance 1149.39
-		period 871.335
-		offset 359.572
+		distance 1147.96
+		period 869.708
+		offset 350.627
 	object
 		sprite planet/gas17
-		distance 1995.4
-		period 1993.1
-		offset 359.836
+		distance 1993.97
+		period 1990.96
+		offset 357.587
 		object
 			sprite planet/callisto
 			distance 223
@@ -63833,6 +63856,7 @@ system "Mar si ver"
 	fleet Nuru 800
 	fleet "Small Zorcn Vuskr" 1800
 	fleet "Large Zorcn Vuskr" 2200
+	fleet "Large Zorcn Merchant" 1000
 	object
 		sprite star/g5
 		distance 25.0055
@@ -64458,7 +64482,7 @@ system Masalke
 			period 72.5928
 
 system Masaun
-	pos -50258.3 -52810.5
+	pos -50228.3 -52860.5
 	government Zorcn
 	habitable 745.92
 	haze _menu/haze-red
@@ -64826,15 +64850,13 @@ system Masilvar
 		period 2717.03
 
 system Masiofa
-	pos -50332.8 -52776.9
+	pos -50286.8 -52832.9
 	government Zorcn
 	habitable 625
 	belt 1899
 	haze _menu/haze-red
 	link Hunysin
-	link Maaynai
 	link Masaun
-	link Masyuin
 	link Matarna
 	asteroids "small rock" 1 0.938
 	asteroids "medium rock" 1 2.058
@@ -65233,7 +65255,6 @@ system Masyuin
 	habitable 851.84
 	haze _menu/haze-red
 	link Maaynai
-	link Masiofa
 	link Mussanna
 	link Nusin
 	asteroids "small rock" 5 2.002
@@ -65295,7 +65316,7 @@ system Masyuin
 			period 32.5398
 
 system Matarna
-	pos -50330.8 -52860.9
+	pos -50277.8 -52885.9
 	government Zorcn
 	habitable 486.68
 	haze _menu/haze-red
@@ -71792,7 +71813,7 @@ system "Mu ii"
 		sprite planet/gas12
 		distance 850
 		period 480.313
-		object
+		object "Iun ni ir"
 			sprite planet/dust5
 			distance 304
 			period 13.9218
@@ -71800,7 +71821,7 @@ system "Mu ii"
 			sprite planet/rock17
 			distance 414
 			period 22.1251
-		object
+		object "Niu ri ui"
 			sprite planet/dust1
 			distance 546
 			period 33.51
@@ -72266,14 +72287,13 @@ system Mugorle
 			period 38.1043
 
 system Muion
-	pos -50527.8 -52802.1
+	pos -50548.8 -52803.1
 	government Zorcn
 	habitable 1715
 	haze _menu/haze-red
 	link Guvran
 	link Museni
 	link Mussanna
-	link Mussun
 	asteroids "large rock" 3 5.2785
 	asteroids "small metal" 3 8.6319
 	asteroids "medium metal" 10 5.8995
@@ -73251,7 +73271,7 @@ system Mulva
 			period 20.8184
 
 system Munyr
-	pos -50599.8 -52802.1
+	pos -50643.8 -52809.1
 	government Zorcn
 	habitable 320
 	haze _menu/haze-red
@@ -73507,13 +73527,11 @@ system Muselsar
 			period 25.2033
 
 system Museni
-	pos -50477.8 -52846.1
+	pos -50514.8 -52831.1
 	government Zorcn
 	habitable 625
 	haze _menu/haze-red
-	link Guvasu
 	link Muion
-	link Mussanna
 	asteroids "small rock" 95 2.7324
 	asteroids "medium rock" 41 2.3276
 	asteroids "large rock" 5 2.6818
@@ -73626,7 +73644,6 @@ system Mussanna
 	haze _menu/haze-red
 	link Masyuin
 	link Muion
-	link Museni
 	link Reiusna
 	asteroids "small rock" 1 2.835
 	asteroids "large rock" 2 6.39
@@ -73682,11 +73699,10 @@ system Mussanna
 		period 2078.57
 
 system Mussun
-	pos -50566.8 -52741.1
+	pos -50611.8 -52744.1
 	government Zorcn
 	habitable 135
 	haze _menu/haze-red
-	link Muion
 	link Munyr
 	link Vonin
 	link Vorsck
@@ -77084,7 +77100,7 @@ system Nhuaren
 			period 40.1312
 
 system "Ni tyu ke"
-	pos -50929.6 -52808.8
+	pos -50919.6 -52819.8
 	government Nuru
 	habitable 2795
 	belt 1366
@@ -77776,6 +77792,8 @@ system "No ur"
 	trade Metal 358
 	trade Plastic 436
 	fleet Nuru 800
+	fleet "Small Zorcn Merchant" 800
+	fleet "Large Zorcn Merchant" 1000
 	object
 		sprite star/g5
 		distance 37.286
@@ -77793,7 +77811,7 @@ system "No ur"
 		sprite planet/desert9
 		distance 395.514
 		period 97.055
-	object
+	object "Ma ui ai"
 		sprite planet/ice5
 		distance 1175.92
 		period 497.558
@@ -77997,7 +78015,7 @@ system "Nor se si"
 	object
 		sprite star/m4
 		period 10
-	object
+	object "Ba es si"
 		sprite planet/desert5
 		distance 151
 		period 48.5944
@@ -79426,6 +79444,60 @@ system Nulvekor
 			distance 477
 			period 37.0602
 
+system Nunairez
+	pos -50115.2 -52732.9
+	government Zorcn
+	habitable 425.92
+	belt 1669
+	link Nusinnai
+	link Zausn
+	asteroids "medium rock" 16 4.14
+	asteroids "large rock" 1 2.4012
+	asteroids "small metal" 11 3.036
+	asteroids "medium metal" 3 4.002
+	asteroids "large metal" 10 3.588
+	minables lead 7 4.23442
+	trade Clothing 352
+	trade Electronics 721
+	trade Equipment 616
+	trade Food 0
+	trade "Heavy Metals" 917
+	trade Industrial 595
+	trade "Luxury Goods" 1357
+	trade Medical 871
+	trade Metal 312
+	trade Plastic 283
+	fleet "Small Zorcn Vuskr" 800
+	fleet "Large Zorcn Vuskr" 1000
+	fleet "Small Zorcn Merchant" 500
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/rock17
+		distance 108.41
+		period 21.8776
+	object
+		sprite planet/luna
+		distance 354.37
+		period 129.295
+	object
+		sprite planet/rock1
+		distance 909.46
+		period 531.583
+	object
+		sprite planet/gas0
+		distance 1449.71
+		period 1069.84
+		object
+			sprite planet/lava0
+			distance 273
+			period 13.2191
+	object
+		sprite planet/gas14
+		distance 2504.12
+		period 2428.73
+
 system Nunryk
 	pos -52874.4 -53423.3
 	government "Tehru Insker"
@@ -79704,6 +79776,7 @@ system Nusinnai
 	belt 1517
 	haze _menu/haze-red
 	link Maaynai
+	link Nunairez
 	link Nuversk
 	asteroids "small rock" 14 1.188
 	asteroids "medium rock" 14 2.358
@@ -79724,6 +79797,7 @@ system Nusinnai
 	fleet "Small Zorcn Vuskr" 800
 	fleet "Large Zorcn Vuskr" 1000
 	fleet "Zorcn Miner" 1000
+	fleet "Small Zorcn Merchant" 500
 	object
 		sprite star/f5
 		distance 22.9891
@@ -79843,6 +79917,7 @@ system Nuversk
 	trade Plastic 298
 	fleet "Small Zorcn Vuskr" 800
 	fleet "Large Zorcn Vuskr" 1000
+	fleet "Small Zorcn Merchant" 800
 	object
 		sprite star/f0
 		distance 23.7677
@@ -83029,26 +83104,32 @@ system "Panmur Kaul"
 	object
 		sprite star/neutron
 		period 1
+		hazard "GW Pulsar" 30
 	object
 		sprite planet/rock13
 		distance 509.25
 		period 111
+		hazard "GW Pulsar" 30
 		object
 			sprite planet/miranda
 			distance 138
 			period 20.3789
+			hazard "GW Pulsar" 30
 	object
 		sprite planet/dust3
 		distance 798.61
 		period 217.987
+		hazard "GW Pulsar" 30
 	object
 		sprite planet/gas4
 		distance 1786.7
 		period 729.467
+		hazard "GW Pulsar" 30
 		object
 			sprite planet/io
 			distance 225
 			period 11.9034
+			hazard "GW Pulsar" 30
 
 system Pellavin
 	pos -51873.7 -56463.4
@@ -87123,7 +87204,7 @@ system Ravsikza
 			period 15.8851
 
 system Reanio
-	pos -50401.1 -52697
+	pos -50401.1 -52673
 	government Zorcn
 	habitable 8960
 	haze _menu/haze-red
@@ -88060,7 +88141,7 @@ system Reisein
 			period 26.5598
 
 system Reiusna
-	pos -50484.1 -52721
+	pos -50442.1 -52707
 	government Zorcn
 	habitable 3645
 	haze _menu/haze-red
@@ -88887,7 +88968,7 @@ system Retkar
 			period 26.0791
 
 system Reuin
-	pos -50489.1 -52664
+	pos -50491.1 -52679
 	government Zorcn
 	habitable 2201.68
 	haze _menu/haze-red
@@ -100255,6 +100336,7 @@ system "Trochzempt ZAZ-1"
 	arrival 1500
 	object "Trochzempt ZAZ-1"
 		sprite planet/trochzempt_construction
+		arrival 1500
 
 system Tuarli
 	pos -50929.2 -55082.2
@@ -100411,7 +100493,7 @@ system "Tui se ko"
 		sprite planet/desert2
 		distance 534.294
 		period 180.877
-	object
+	object "Siu nea"
 		sprite planet/ice4
 		distance 844.334
 		period 359.323
@@ -102741,7 +102823,7 @@ system Uoon'lraneel
 system "Ur ii"
 	pos -50589.3 -53374.3
 	government Nuru
-	habitable 625
+	habitable 320
 	link "Gor ser i"
 	link "Is mur"
 	link "Ke er a"
@@ -102762,40 +102844,57 @@ system "Ur ii"
 	trade Plastic 290
 	fleet Nuru 800
 	object
-		sprite star/g5
+		sprite star/m0
 		period 10
+	object "Nai ar"
+		sprite planet/rock6
+		distance 235.583
+		period 80.8541
+		offset 38.0093
 	object
-		sprite planet/gas7
-		distance 339.25
-		period 99.9769
-	object
-		sprite planet/gas4
-		distance 1076.26
-		period 564.931
+		sprite planet/jupiter
+		distance 738.423
+		period 448.687
+		offset 160.539
 		object
-			sprite planet/dust3
-			distance 239
-			period 13.0315
+			sprite planet/lava0
+			distance 269
+			period 13.864
+	object
+		sprite planet/cloud5
+		distance 1231.03
+		period 965.806
+		offset 62.2792
+	object
+		sprite planet/desert8
+		distance 1854.84
+		period 1786.26
+		offset 147.551
+		object "In hin er"
+			sprite planet/luna
+			distance 167
+			period 27.681
+	object
+		sprite planet/gas11
+		distance 4443.2
+		period 6622.61
+		offset 16.1248
+		object
+			sprite planet/rock17
+			distance 236
+			period 11.9576
+		object
+			sprite planet/dust0
+			distance 315
+			period 18.4393
+		object
+			sprite planet/miranda
+			distance 455
+			period 32.0107
 		object
 			sprite planet/dust5
-			distance 368
-			period 24.8983
-	object
-		sprite planet/gas0
-		distance 2518.35
-		period 2022.06
-		object
-			sprite planet/ice0
-			distance 253
-			period 11.7934
-		object
-			sprite planet/rock3
-			distance 404
-			period 23.7974
-		object
-			sprite planet/europa
-			distance 534
-			period 36.1633
+			distance 638
+			period 53.1507
 
 system Uramase
 	pos -49770.3 -55555.9
@@ -107839,7 +107938,7 @@ system Vobeelee
 			period 59.2157
 
 system Voesni
-	pos -50681.9 -52682.8
+	pos -50720.9 -52731.8
 	government Zorcn
 	habitable 9265
 	haze _menu/haze-red
@@ -108082,7 +108181,7 @@ system Volarnee
 			period 29.6144
 
 system Volarnus
-	pos -50752.9 -52696.8
+	pos -50757.9 -52706.8
 	government Zorcn
 	habitable 425.92
 	haze _menu/haze-red
@@ -108674,7 +108773,7 @@ system Vorilar
 			period 48.4626
 
 system Vorsck
-	pos -50557.9 -52667.8
+	pos -50544.9 -52704.8
 	government Zorcn
 	habitable 486.68
 	haze _menu/haze-red
@@ -110758,7 +110857,7 @@ system "Ya ok na"
 system "Yi ku"
 	pos -50549.6 -53214.2
 	government Nuru
-	habitable 912.6
+	habitable 858.28
 	link "Au saa"
 	link "Go se ri"
 	link "Ke er a"
@@ -110782,59 +110881,47 @@ system "Yi ku"
 	trade Metal 404
 	trade Plastic 463
 	fleet Nuru 800
+	fleet "Small Zorcn Merchant" 800
+	fleet "Large Zorcn Merchant" 1000
 	object
-		sprite star/k0
-		distance 44.3375
-		period 12.2604
+		sprite star/g5
+		distance 26.3645
+		period 13.0438
+	object
+		sprite star/m4
+		distance 70.6355
+		period 13.0438
 		offset 180
 	object
-		sprite star/k5
-		distance 50.6625
-		period 12.2604
-	object
-		sprite planet/ice3
-		distance 216.663
-		period 42.2275
-	object
-		sprite planet/tethys
-		distance 505.663
-		period 150.56
-	object
-		sprite planet/gas17
-		distance 1036.66
-		period 441.953
+		sprite planet/gas8
+		distance 323.475
+		period 79.4342
+	object "Yen ai ar"
+		sprite planet/ice1
+		distance 716.904
+		period 262.082
+		offset 98.4011
 		object
-			sprite planet/oberon
-			distance 198
-			period 11.9034
-		object
-			sprite planet/rock7
-			distance 321
-			period 24.5715
+			sprite planet/tethys
+			distance 161
+			period 17.4597
 	object
-		sprite planet/dust6
-		distance 1549.95
-		period 807.974
-	object
-		sprite planet/gas13
-		distance 2320.11
-		period 1479.73
+		sprite planet/gas4
+		distance 1676.9
+		period 937.579
+		offset 11.723
 		object
-			sprite planet/rock17
-			distance 256
-			period 11.563
+			sprite planet/rock3
+			distance 237
+			period 12.8683
+		object
+			sprite planet/ice7
+			distance 364
+			period 24.4934
 		object
 			sprite planet/dust5
-			distance 381
-			period 20.9941
-		object
-			sprite planet/io
-			distance 478
-			period 29.502
-		object
-			sprite planet/dust0
-			distance 614
-			period 42.95
+			distance 530
+			period 43.0339
 
 system Yikarnar
 	pos -50982.2 -54461.3
@@ -111404,11 +111491,12 @@ system Zaubaruer
 			period 34.7625
 
 system Zausn
-	pos -50227.2 -52765.6
+	pos -50182.2 -52803.6
 	government Zorcn
 	habitable 486.68
 	belt 1107
 	link Masaun
+	link Nunairez
 	asteroids "small rock" 10 2.5376
 	asteroids "medium rock" 13 2.8288
 	asteroids "large rock" 13 2.3296
@@ -111937,6 +112025,13 @@ planet Auradei
 	landscape land/fog2
 	description .
 	spaceport .
+
+planet "Ba es si"
+	landscape land/moutainsnow0
+	description .
+	spaceport .
+	shipyard "Nuru Basic"
+	outfitter "Nuru Basic"
 
 planet Balhellon
 	landscape land/mountain7
@@ -113140,6 +113235,12 @@ planet Ikwer
 	outfitter "Ignaggen Advanced"
 	"required reputation" 1
 
+planet "In hin er"
+	landscape land/land30
+	description .
+	spaceport .
+	outfitter "Nuru Basic"
+
 planet Ioon'ureen
 	attributes `uninhabited "hot surface"`
 	landscape land/badlands2
@@ -113202,6 +113303,12 @@ planet Iueva
 	landscape land/beach1
 	description .
 	spaceport .
+
+planet "Iun ni ir"
+	landscape land/land15
+	description .
+	spaceport .
+	outfitter "Nuru Basic"
 
 planet Ivyersin
 	landscape land/mountain24-spfld
@@ -113872,6 +113979,11 @@ planet Kuoketo
 	spaceport .
 	outfitter "Erader Ammo"
 
+planet "Kur in er"
+	landscape land/land7
+	description .
+	spaceport .
+
 planet Kurbor-23
 	landscape land/beach2
 	description `This blue planet while from afar may seems to be comprosed of ocean, a third of the surface with very shallow, enough for the sands to be revealed during low tides. A single island sits in the northern hemisphere of the planet where settlements can be found. `
@@ -114252,6 +114364,11 @@ planet Lysirfarir
 	landscape land/snow4
 	description ,
 	spaceport ,
+
+planet "Ma ui ai"
+	landscape land/canyon7
+	description .
+	spaceport .
 
 planet "Ma'Losat Gosk 2"
 	attributes Donko
@@ -114644,6 +114761,13 @@ planet Nagelluna
 	description .
 	spaceport .
 
+planet "Nai ar"
+	landscape land/mountain25-spfld
+	description .
+	spaceport .
+	shipyard "Nuru Basic"
+	outfitter "Nuru Basic"
+
 planet Nardelur
 	landscape land/mountain4
 	description .
@@ -114779,6 +114903,12 @@ planet Nirvuvia
 	description `	Cities here are built near the coast.`
 	spaceport `The spaceport here is built a bit further inland than the cities with large amount of landing pads to accommodate the amont of traffic with even more landing pads are being built.`
 	outfitter "Dels Advanced"
+
+planet "Niu ri ui"
+	landscape land/moutainsnow5
+	description .
+	spaceport .
+	outfitter "Nuru Basic"
 
 planet "Noc ti"
 	landscape land/bwerner4
@@ -115330,6 +115460,15 @@ planet Scorhlan
 	spaceport .
 	outfitter "Erader Basic"
 
+planet "Se ai jar"
+	landscape land/fields4
+	description .
+	spaceport .
+	shipyard "Nuru Basic"
+	shipyard "Nuru Advanced"
+	outfitter "Nuru Basic"
+	outfitter "Nuru Advanced"
+
 planet Sealo
 	attributes Dels
 	landscape land/forest1
@@ -115493,6 +115632,13 @@ planet Shridave
 	spaceport .
 	outfitter "Makerurader Ammo"
 
+planet "Si ta ai"
+	landscape land/mountain12-sfiera
+	description .
+	spaceport .
+	shipyard "Nuru Basic"
+	outfitter "Nuru Basic"
+
 planet Sidhranah
 	landscape land/fields6
 	description .
@@ -115552,6 +115698,12 @@ planet Sinkaradh
 	spaceport .
 	outfitter "Erader Basic"
 	outfitter "Makerurader Ammo"
+
+planet "Siu nea"
+	landscape land/snowmountains1
+	description .
+	spaceport .
+	outfitter "Nuru Basic"
 
 planet Siyernal
 	landscape land/beach7-sfiera
@@ -115687,12 +115839,19 @@ planet Thing
 	landscape land/nasa5
 	description .
 	spaceport .
-	shipyard GalacticWar
+	shipyard modtest
 	shipyard developer
 	shipyard plugin
-	outfitter GalacticWar
+	outfitter modtest
 	outfitter developer
 	outfitter plugin
+
+planet "Ti or ei"
+	landscape land/lava7-sfiera
+	description .
+	spaceport .
+	shipyard "Nuru Basic"
+	outfitter "Nuru Basic"
 
 planet "Trochzempt ZAZ-1"
 	attributes ZIS
@@ -115853,6 +116012,13 @@ planet Vannmetsal
 	description .
 	spaceport .
 	"required reputation" 3
+
+planet "Var sin ne"
+	landscape land/mountain3
+	description .
+	spaceport .
+	shipyard "Nuru Basic"
+	outfitter "Nuru Basic"
 
 planet Varakzeral
 	landscape land/dune0
@@ -116129,6 +116295,13 @@ planet Yanshuri
 	outfitter "Erader Basic"
 	outfitter "Makerurader Ammo"
 	"required reputation" 2
+
+planet "Yen ai ar"
+	landscape land/land12
+	description ..
+	spaceport .
+	shipyard "Nuru Basic"
+	outfitter "Nuru Basic"
 
 planet Zalvalhe
 	landscape land/land15
