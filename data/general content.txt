@@ -6,9 +6,9 @@
 
 outfit "GW Universal Converter License"
 	category "Special"
-	thumbnail "outfit/keystone"
+	thumbnail "outfit/gw black cube"
 	description "A mysterious black box that did something to you, and now it follows you around no matter what you do. There is no getting rid of it. Plugging it into your ship's systems seems to have upgraded them with the ability to communicate and trade with the alien races beyond the Wensta intergalactic wormhole."
-	description "	Any time you enter a new ship, the device seems to upgrade the comms system without your input."
+	# description "	Any time you enter a new ship, the device seems to upgrade the comms system without your input."
 
 
 #
@@ -23,73 +23,43 @@ phrase "gw mission reset"
 #
 # General Missions
 #
-
 mission "gw: obtain black box"
 	landing
-	repeat
 	invisible
-	deadline 1
-	source
-		planet "Wensta Station"
 	to offer
 		not "license: GW Universal Converter"
-	on offer
+	on enter "Wensta"
 		conversation
-			label start
-			`Inside the station you find a long corridor, at the end of which stands a small chamber with a single pedestal in the center. A black box, small enough to fit in the palm of your hand, rests atop it.`
-
+			`As you entered the system, you noticed some signal being beamed and its coordinate is very close. You didn't immedietly see the object but it can be quickly found from direction the signal.`
+			`	You take a close look at the object and it appears to be a flawless black box no bigger than your hand with array of lines around it. Your sensors shows no other reading from the box and the surrounding.`
 			choice
-				`	(Take the box.)`
-					goto take
-				`	(Leave it.)`
-
-			`	You search the rest of the small station, but there seems to be nothing else here. You return to your ship empty handed. Though, you still feel like you're missing something.`
-			choice
-				`	(Go back to the station.)`
-					goto start
-				`	(Nah.)`
-					decline
-			label take
-			`	As soon as you touch the box, an array of electric blue lights appear on its surface, pulsing over your hand like ripples in a pond. It feels strange, like the device is scanning you or marking you somehow. Your hand tingles as if falling asleep, and you find that you can no longer move it, nor can you pull your body away.`
+				`	(Take the box)`
+				`	(Leave it)`
+					defer
+			`	You take the box inside your ship and as soon as you touch the box, an array of electric blue lights appear on its surface, pulsing over your hand like ripples in a pond. It feels strange, like the device is scanning you or marking you somehow. Your hand tingles as if falling asleep, and you find that you can no longer move it, nor can you pull your body away.`
 			`	Feeling trapped, an involuntary shudder runs through you.`
-			`	You are just beginning to think of drastic escape measures when you see the pulses subside, and you feel the telltale tingling of your hand waking up. Through the fabric of your gloves, you feel the heavy click of a lock disengaging, and the box comes free at last.`
-			`	The alien device feels unnaturally heavy in your hands.`
-			`	As you are about to leave the room, you see another seemingly identical box appear on the pedestal in place of the one you now hold. Not wanting to test your luck again, you leave it alone.`
-
+			`	You are just beginning to think of drastic escape measures when you see the pulses subside, and you feel the telltale tingling of your hand waking up. Through the fabric of your gloves, you feel the heavy click of a lock disengaging.`
+			`	You flip the unnaturally heavy alien box around and find a port that looks like it could be plugged to your ship.`
 			choice
-				`(Return to your ship.)`
-
-			`	Back on your ship, you turn the mysterious black box over in your hands as you wonder what to do with it. As you do, you notice a grippable tab where the box was once locked to the pedestal. Curious, you pull on the tab, and a cord comes spooling out, sheathed in tightly woven, silvery white fabric that is cool to the touch.`
-			`	To your surprise, on the underside of the tab is a standard plug compatible with your ship's computer systems.`
-
-			choice
-				`	(Plug it in.)`
-					goto install
-				`	(Don't.)`
-					decline
-
-			label install
+				`	(Plug it in)`
+					goto plug
+				`	(Don't plug it)`
+				`	(Dump it out)`
+					defer
+			apply
+				set "gw: black box not plugged"
+			`	You put it down in your ship and continue with what you were doing.`
+				decline
+			label plug
+			apply
+				set "gw: black box plugged"
 			`	As soon as you plug the black box into your ship, an array of lines on the outside of the box light up with an electric blue glow. Other than that, nothing appears to happen, and a quick test of your ship's systems shows everything still in working order. You are sure that something has changed; you just don't know what.`
-			choice
-				`	"I'm sure this alien tech is completely trustworthy."`
-					accept
-				`	"Screw it. If this is some kind of space virus, I'm coming back and nuking the station from orbit."`
-					accept
-
-	on accept
+				decline
+	on decline
 		set "license: GW Universal Converter"
-		event "gw: unlock wensta wormhole"
-		clear "event: gw: undo: unlock wensta wormhole"
-
-
-event "gw: unlock wensta wormhole"
-	planet "Wormhole Glink"
-		remove attributes "requires: inaccessible"
-
-
-event "gw: undo: unlock wensta wormhole"
-	planet "Wormhole Glink"
-		add attributes "requires: inaccessible"
+	on defer
+		dialog
+			`You leave the box floating in space. I keeps beaming signal at you but you've already decided to just leave it.`
 
 
 #
@@ -144,8 +114,6 @@ mission "gw: remove universal converter"
 		clear "gw: obtain black box: accepted"
 		clear "gw: obtain black box: declined"
 		clear "gw: obtain black box: failed"
-		clear "event: gw: unlock wensta wormhole"
-		event "gw: undo: unlock wensta wormhole"
 
 
 mission "gw: give universal converter"
@@ -156,14 +124,12 @@ mission "gw: give universal converter"
 	to offer
 		has "gw: debug mode"
 		not "license: GW Universal Converter"
-	description "Allows use of the galactic wormhole."
+	description "Add GW Universal Converter."
 	source
 		government "cheat"
 	on accept
 		dialog "Universal Converter granted."
 		set "license: GW Universal Converter"
-		event "gw: unlock wensta wormhole"
-		clear "event: gw: undo: unlock wensta wormhole"
 
 
 #
