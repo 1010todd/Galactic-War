@@ -116262,14 +116262,14 @@ planet Wobore
 	outfitter "Donko Advanced"
 
 planet "Wormhole Glink"
-	attributes "requires: inaccessible"
+	# attributes "requires: inaccessible"
 
 planet Xornir
-	landscape land/city1
-	description `Xornir is a world populated by both the Nuru and the Zorcn. For centuries both have lived together in peace. The architecture of the buildings begins to mix forming one of the most exotic design of this galaxy.`
-	spaceport `Despite being governed by the Zorcn, Nuru were the first to settle and built a spaceport here. And again, the Nuru style spaceport has eclipsed over a good part of the captial of the planet. Most of the buildings surrounding the spaceport are made by the Nuru.`
 	shipyard "Zorcn Basic"
 	outfitter "Zorcn Basic"
+	landscape land/city1
+	description "Xornir is a world populated by both the Nuru and the Zorcn. For centuries both have lived together in peace. The architecture of the buildings begins to mix forming one of the most exotic design of this galaxy, a mix of concrete, metal, and unknown white material forming impossible-looking shapes and illusions."
+	spaceport "Despite being governed by the Zorcn, Nuru were the first to settle and built a spaceport here. And again, the Nuru style spaceport has eclipsed over a good part of the captial of the planet. Most of the buildings surrounding the spaceport are made by the Nuru."
 
 planet Xosenhera
 	attributes mining
