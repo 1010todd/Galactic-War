@@ -23,7 +23,7 @@ To find the galaxy, head up to the system north of Ka'ch'chrai(The capital) in t
 ### Known Issues
 Galaxy image not appearing. To fix this, turn on "reduce large graphic" option in the setting and restart the game.
 
-Memory Leaks when used with Endless Sky continuous after 16 August 2021 (specifically commit dda40b619e5c722dcf213c31efa53626486297c0). Please download the lastest update with code button or download the lastest release for the fix.
+Memory Leaks(Game will freeze or crash, check task manager if memory usage is higher than usual(With this plugin install, game usually peaks at 2-3GB RAM)) when used with Endless Sky continuous after 16 August 2021 (specifically commit dda40b619e5c722dcf213c31efa53626486297c0). Please download the lastest update with code button or download the lastest release for the fix.
 
 ## Download
 To download the lastest (development) version, press the green [code] button and download as zip from this repository.
