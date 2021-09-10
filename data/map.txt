@@ -1,6 +1,7 @@
 	# Nothing special defined for Mukube
 	# There is no "Kanai Advanced" outfitter defined
 	# Nothing defined for Kumakk
+	# attributes "requires: inaccessible"
 
 galaxy "GW Galaxy 1"
 	pos -50000 -54661
@@ -28153,14 +28154,14 @@ system "Go se ri"
 		period 136.963
 	object "Se ai jar"
 		sprite planet/desert10
-		distance 808.864
-		period 294.942
-		offset 178.99
+		distance 808.764
+		period 294.887
+		offset 177.994
 	object
 		sprite planet/gas2
-		distance 1879.42
-		period 1044.62
-		offset 20.2157
+		distance 1879.32
+		period 1044.54
+		offset 20.1741
 		object
 			sprite planet/rock17
 			distance 197
@@ -113647,6 +113648,7 @@ planet Kinoli
 	"required reputation" 1
 
 planet "Kir ai"
+	attributes uninhabited
 	landscape land/fog0
 	description `This planet is covered in seemingly endless sea of clouds released from several vent holes on the surface of the planets. The cloud is so dense in some areas even sunlight fails to penetrate. Most life on this planet thrive around the geothermal vents found across the planet. `
 	description `	Aside from what seems to be Nuru's alien weather station, the surface of the planet remain untouched.`
@@ -116262,14 +116264,13 @@ planet Wobore
 	outfitter "Donko Advanced"
 
 planet "Wormhole Glink"
-	# attributes "requires: inaccessible"
 
 planet Xornir
+	landscape land/city1
+	description `Xornir is a world populated by both the Nuru and the Zorcn. For centuries both have lived together in peace. The architecture of the buildings begins to mix forming one of the most exotic design of this galaxy, a mix of concrete, metal, and unknown white material forming impossible-looking shapes and illusions.`
+	spaceport `Despite being governed by the Zorcn, Nuru were the first to settle and built a spaceport here. And again, the Nuru style spaceport has eclipsed over a good part of the captial of the planet. Most of the buildings surrounding the spaceport are made by the Nuru.`
 	shipyard "Zorcn Basic"
 	outfitter "Zorcn Basic"
-	landscape land/city1
-	description "Xornir is a world populated by both the Nuru and the Zorcn. For centuries both have lived together in peace. The architecture of the buildings begins to mix forming one of the most exotic design of this galaxy, a mix of concrete, metal, and unknown white material forming impossible-looking shapes and illusions."
-	spaceport "Despite being governed by the Zorcn, Nuru were the first to settle and built a spaceport here. And again, the Nuru style spaceport has eclipsed over a good part of the captial of the planet. Most of the buildings surrounding the spaceport are made by the Nuru."
 
 planet Xosenhera
 	attributes mining
@@ -116279,6 +116280,8 @@ planet Xosenhera
 
 planet "Ya nu ei"
 	landscape land/mountain13-sfiera
+	description .
+	spaceport .
 
 planet Yakireina
 	attributes fishing
