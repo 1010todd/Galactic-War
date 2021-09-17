@@ -220,6 +220,8 @@ mission "gw: licenses add"
 		set "license: Kakaima"
 		set "license: Kager Lergen" #Ignaggen Military License/permit
 		set "license: Kagellen Ler" #Ignaggen Independent Combatant license/permit
+		set "license: Nuru Outfit"
+		set "license: Nuru Ship"
 
 
 mission "gw: licenses remove"
@@ -237,3 +239,5 @@ mission "gw: licenses remove"
 		clear "license: Kakaima"
 		clear "license: Kager Lergen"
 		clear "license: Kagellen Ler"
+		clear "license: Nuru Outfit"
+		clear "license: Nuru Ship"
