@@ -1,9 +1,9 @@
 mission "Nuru: Outfit Delivery[ASSX-IV Shield System]"
 	source
 		government "Nuru"
-	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
 		not attributes uninhabited
+	to offer
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're interested in your ASSX-IV Shield System. Will you sell it to us."`
@@ -24,4 +24,4 @@ mission "Nuru: Outfit Delivery[ASSX-IV Shield System]"
 		outfit "ASSX-IV Shield System" -1
 		payment 55000000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 139
+		"Nuru: Outfit Delivery Counter" += 139

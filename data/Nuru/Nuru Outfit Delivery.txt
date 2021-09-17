@@ -111,7 +111,7 @@ mission "Nuru: Outfit Delivery[Vytorn-01 Homing Beam]"
 			`	When they arrived one of the Nuru said something. "This weapon is strange, the working of this weapon is very advanced in comparison to technology used to construct it. We failed to know how civilization can discover the working for this weapon without discovering a better construction. Possible this technology is given or found."`
 			choice
 				`	"So you're saying they didn't made this weapon themselves?"`
-			`	"They made the weapon.", it pause a second before continuing "They don't understand the working inside, the process and rules that make it work. We also don't fully understand all of the working inside this but we are certain how it can be better."
+			`	"They made the weapon.", it pause a second before continuing "They don't understand the working inside, the process and rules that make it work. We also don't fully understand all of the working inside this but we are certain how it can be better."`
 			branch "firstpay" "next"
 				"Nuru: Outfit Delivery Counter" <= 0
 			label "next"
@@ -910,7 +910,6 @@ mission "Nuru: Outfit Delivery[Blue Sun Reactor]"
 		not attributes uninhabited
 	to offer
 		has "Nuru: Player asked to deliver outfits"r outfits" >= 1
-		not attributes uninhabited
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're interested in your Blue Sun Reactor. Will you sell it to us."`
@@ -1631,7 +1630,7 @@ mission "Nuru: Outfit Delivery[Jump Drive]"
 			`	It then hands you some credit chips and leave.`
 				accept
 			label nosellJD
-			`	"Noted, we will not ask for it again. If you change your decision scan your translator device at job board."
+			`	"Noted, we will not ask for it again. If you change your decision scan your translator device at job board."`
 				decline
 			label firstpay
 			`	It then hands you some credit chips, to you surprise just like the ones you use. You asked where did they got it from. They said they have a converter which they found on one of the planet they discovered, they're not certain of its origin nor how it works.`
@@ -1651,7 +1650,7 @@ mission "Nuru: Sell Outfit[Jump Drive]"
 		not attributes uninhabited
 	to offer
 		has "Nuru: Player asked to deliver outfits"
-		"Nuru: Outfit Delivery[Jump Drive]: declined"
+		has "Nuru: Outfit Delivery[Jump Drive]: declined"
 	on accept
 		outfit "Jump Drive" -1
 		payment 1100000

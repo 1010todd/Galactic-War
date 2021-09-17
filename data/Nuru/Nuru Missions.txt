@@ -301,7 +301,6 @@ mission "Nuru: Outfit License"
 				accept
 	on accept
 		set "License: Nuru Outfit"
-		decline
 		
 mission "Nuru: Ship License"
 	landing
@@ -317,7 +316,6 @@ mission "Nuru: Ship License"
 				accept
 	on accept
 		set "License: Nuru Ship"
-		decline
 			
 "landing message" `You're not permitted to land here.`
 	"planet/gw-remanda.png"
@@ -329,7 +327,7 @@ mission "Nuru: Urnoria Os Remanda Observation Entering"
 		has "First Contact: Nuru: offered"
 	on enter Verstinas
 		dialog 
-			`"Access to the planet below is restricted to authorized individuals only. If you wish to observe, please meet us on Ur sos."
+			`"Access to the planet below is restricted to authorized individuals only. If you wish to observe, please meet us on Ur sos.`
 	to complete
 		"Nuru: Urnoria Os Remanda Observation Moon: offered" = 1
 			
