@@ -15,7 +15,7 @@ mission "Nuru: Outfit Delivery[Electron Beam]"
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're interested in your Electron Beam. Will you sell it to us."`
@@ -35,7 +35,7 @@ mission "Nuru: Outfit Delivery[Electron Beam]"
 		outfit "Electron Beam" -1
 		payment 250000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 23
+		"Nuru: Outfit Delivery Counter" += 23
 		
 mission "Nuru: Outfit Delivery[Plasma Cannon]"
 	
@@ -43,7 +43,7 @@ mission "Nuru: Outfit Delivery[Plasma Cannon]"
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're interested in your Plasma Cannon. Will you sell it to us."`
@@ -63,7 +63,7 @@ mission "Nuru: Outfit Delivery[Plasma Cannon]"
 		outfit "Plasma Cannon" -1
 		payment 195000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 25
+		"Nuru: Outfit Delivery Counter" += 25
 		
 mission "Nuru: Outfit Delivery[Proton Gun]"
 	
@@ -71,7 +71,7 @@ mission "Nuru: Outfit Delivery[Proton Gun]"
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're interested in your Proton Gun. Will you sell it to us."`
@@ -91,7 +91,7 @@ mission "Nuru: Outfit Delivery[Proton Gun]"
 		outfit "Proton Gun" -1
 		payment 156000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 28
+		"Nuru: Outfit Delivery Counter" += 28
 		
 mission "Nuru: Outfit Delivery[Vytorn-01 Homing Beam]"
 	
@@ -99,7 +99,7 @@ mission "Nuru: Outfit Delivery[Vytorn-01 Homing Beam]"
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're interested in your Vytorn-01 Homing Beam. Will you sell it to us."`
@@ -123,7 +123,7 @@ mission "Nuru: Outfit Delivery[Vytorn-01 Homing Beam]"
 		outfit "Vytorn-01 Homing Beam" -1
 		payment 910000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 32
+		"Nuru: Outfit Delivery Counter" += 32
 		
 mission "Nuru: Outfit Delivery[Heavy Laser Turret]"
 	
@@ -131,7 +131,7 @@ mission "Nuru: Outfit Delivery[Heavy Laser Turret]"
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're interested in your Heavy Laser Turret. Will you sell it to us."`
@@ -160,7 +160,7 @@ mission "Nuru: Outfit Delivery[Heavy Laser Turret]"
 		outfit "Heavy Laser Turret" -1
 		payment 340000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 41
+		"Nuru: Outfit Delivery Counter" += 41
 		
 mission "Nuru: Outfit Delivery[Pug Seeker]"
 	
@@ -168,7 +168,7 @@ mission "Nuru: Outfit Delivery[Pug Seeker]"
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're interested in your Pug Seeker. Will you sell it to us."`
@@ -189,7 +189,7 @@ mission "Nuru: Outfit Delivery[Pug Seeker]"
 		outfit "Pug Seeker" -1
 		payment 580000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 38
+		"Nuru: Outfit Delivery Counter" += 38
 		
 mission "Nuru: Outfit Delivery[Pug Gridfire Turret]"
 	
@@ -197,7 +197,7 @@ mission "Nuru: Outfit Delivery[Pug Gridfire Turret]"
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're very interested in your Pug Gridfire Turret. Will you sell it to us."`
@@ -218,7 +218,7 @@ mission "Nuru: Outfit Delivery[Pug Gridfire Turret]"
 		outfit "Pug Gridfire Turret" -1
 		payment 28600000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 88
+		"Nuru: Outfit Delivery Counter" += 88
 		
 mission "Nuru: Outfit Delivery[Typhoon Torpedo]"
 	
@@ -226,7 +226,7 @@ mission "Nuru: Outfit Delivery[Typhoon Torpedo]"
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're interested in your Typhoon Torpedo. Will you sell it to us."`
@@ -246,7 +246,7 @@ mission "Nuru: Outfit Delivery[Typhoon Torpedo]"
 		outfit "Typhoon Torpedo" -1
 		payment 5000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 1
+		"Nuru: Outfit Delivery Counter" += 1
 		
 mission "Nuru: Outfit Delivery[Korath Grab-Strike]"
 	
@@ -254,7 +254,7 @@ mission "Nuru: Outfit Delivery[Korath Grab-Strike]"
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're interested in your Korath Grab-Strike. Will you sell it to us."`
@@ -274,7 +274,7 @@ mission "Nuru: Outfit Delivery[Korath Grab-Strike]"
 		outfit "Korath Grab-Strike" -1
 		payment 900000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 56
+		"Nuru: Outfit Delivery Counter" += 56
 		
 mission "Nuru: Outfit Delivery[Korath Detainer]"
 	
@@ -282,7 +282,7 @@ mission "Nuru: Outfit Delivery[Korath Detainer]"
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're interested in your Korath Detainer. Will you sell it to us."`
@@ -303,7 +303,7 @@ mission "Nuru: Outfit Delivery[Korath Detainer]"
 		outfit "Korath Detainer" -1
 		payment 1480000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 78
+		"Nuru: Outfit Delivery Counter" += 78
 		
 		#=================================================ENGINES
 		
@@ -313,7 +313,7 @@ mission "Nuru: Outfit Delivery[Maon Ion Engines]"
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're interested in your Maon Ion Engines. Will you sell it to us."`
@@ -332,7 +332,7 @@ mission "Nuru: Outfit Delivery[Maon Ion Engines]"
 		outfit "Maon Ion Engines" -1
 		payment 450000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 260
+		"Nuru: Outfit Delivery Counter" += 260
 		
 mission "Nuru: Outfit Delivery[Tyrant Plasma Thruster]"
 	
@@ -340,7 +340,7 @@ mission "Nuru: Outfit Delivery[Tyrant Plasma Thruster]"
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're interested in your Tyrant Plasma Thruster. Will you sell it to us."`
@@ -359,7 +359,7 @@ mission "Nuru: Outfit Delivery[Tyrant Plasma Thruster]"
 		outfit "Tyrant Plasma Thruster" -1
 		payment 490000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 167
+		"Nuru: Outfit Delivery Counter" += 167
 		
 mission `Nuru: Outfit Delivery["Bufaer" Atomic Thruster]`
 	
@@ -367,7 +367,7 @@ mission `Nuru: Outfit Delivery["Bufaer" Atomic Thruster]`
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're interested in your "Bufaer" Atomic Thruster. Will you sell it to us."`
@@ -386,7 +386,7 @@ mission `Nuru: Outfit Delivery["Bufaer" Atomic Thruster]`
 		outfit `"Bufaer" Atomic Thruster` -1
 		payment 2420000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 104
+		"Nuru: Outfit Delivery Counter" += 104
 		
 mission "Nuru: Outfit Delivery[Large Thrust Module]"
 	
@@ -394,7 +394,7 @@ mission "Nuru: Outfit Delivery[Large Thrust Module]"
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're interested in your Large Thrust Module. Will you sell it to us."`
@@ -413,7 +413,7 @@ mission "Nuru: Outfit Delivery[Large Thrust Module]"
 		outfit "Large Thrust Module" -1
 		payment 300000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 32
+		"Nuru: Outfit Delivery Counter" += 32
 		
 mission "Nuru: Outfit Delivery[X5700 Ion Thruster]"
 	
@@ -421,7 +421,7 @@ mission "Nuru: Outfit Delivery[X5700 Ion Thruster]"
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're interested in your X5700 Ion Thruster. Will you sell it to us."`
@@ -440,7 +440,7 @@ mission "Nuru: Outfit Delivery[X5700 Ion Thruster]"
 		outfit "X5700 Ion Thruster" -1
 		payment 300000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 134
+		"Nuru: Outfit Delivery Counter" += 134
 		
 mission "Nuru: Outfit Delivery[A860 Atomic Thruster]"
 	
@@ -448,7 +448,7 @@ mission "Nuru: Outfit Delivery[A860 Atomic Thruster]"
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're interested in your A860 Atomic Thruster. Will you sell it to us."`
@@ -467,7 +467,7 @@ mission "Nuru: Outfit Delivery[A860 Atomic Thruster]"
 		outfit "A860 Atomic Thruster" -1
 		payment 2400000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 127
+		"Nuru: Outfit Delivery Counter" += 127
 		
 mission "Nuru: Outfit Delivery[Thruster (Stellar Class)]"
 	
@@ -475,7 +475,7 @@ mission "Nuru: Outfit Delivery[Thruster (Stellar Class)]"
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're interested in your Thruster (Stellar Class). Will you sell it to us."`
@@ -494,7 +494,7 @@ mission "Nuru: Outfit Delivery[Thruster (Stellar Class)]"
 		outfit "Thruster (Stellar Class)" -1
 		payment 3000000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 118
+		"Nuru: Outfit Delivery Counter" += 118
 		
 mission "Nuru: Outfit Delivery[Type 4 Radiant Thruster]"
 	
@@ -502,7 +502,7 @@ mission "Nuru: Outfit Delivery[Type 4 Radiant Thruster]"
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're interested in your Type 4 Radiant Thruster. Will you sell it to us."`
@@ -521,7 +521,7 @@ mission "Nuru: Outfit Delivery[Type 4 Radiant Thruster]"
 		outfit "Type 4 Radiant Thruster" -1
 		payment 1500000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 65
+		"Nuru: Outfit Delivery Counter" += 65
 		
 mission "Nuru: Outfit Delivery[Vikuan Thruster]"
 	
@@ -529,7 +529,7 @@ mission "Nuru: Outfit Delivery[Vikuan Thruster]"
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're interested in your Vikuan Thruster. Will you sell it to us."`
@@ -548,7 +548,7 @@ mission "Nuru: Outfit Delivery[Vikuan Thruster]"
 		outfit "Vikuan Thruster" -1
 		payment 490000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 160
+		"Nuru: Outfit Delivery Counter" += 160
 		
 mission "Nuru: Outfit Delivery[A865 Atomic Steering]"
 	
@@ -556,7 +556,7 @@ mission "Nuru: Outfit Delivery[A865 Atomic Steering]"
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're interested in your A865 Atomic Steering. Will you sell it to us."`
@@ -575,7 +575,7 @@ mission "Nuru: Outfit Delivery[A865 Atomic Steering]"
 		outfit "A865 Atomic Steering" -1
 		payment 2000000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 92
+		"Nuru: Outfit Delivery Counter" += 92
 		
 mission "Nuru: Outfit Delivery[Vikuan Steering]"
 	
@@ -583,7 +583,7 @@ mission "Nuru: Outfit Delivery[Vikuan Steering]"
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're interested in your Vikuan Steering. Will you sell it to us."`
@@ -602,7 +602,7 @@ mission "Nuru: Outfit Delivery[Vikuan Steering]"
 		outfit "Vikuan Steering" -1
 		payment 420000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 155
+		"Nuru: Outfit Delivery Counter" += 155
 		
 mission "Nuru: Outfit Delivery[X5200 Ion Steering]"
 	
@@ -610,7 +610,7 @@ mission "Nuru: Outfit Delivery[X5200 Ion Steering]"
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're interested in your X5200 Ion Steering. Will you sell it to us."`
@@ -629,7 +629,7 @@ mission "Nuru: Outfit Delivery[X5200 Ion Steering]"
 		outfit "X5200 Ion Steering" -1
 		payment 250000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 100
+		"Nuru: Outfit Delivery Counter" += 100
 		
 mission "Nuru: Outfit Delivery[Tyrant Plasma Steering]"
 	
@@ -637,7 +637,7 @@ mission "Nuru: Outfit Delivery[Tyrant Plasma Steering]"
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're interested in your Tyrant Plasma Steering. Will you sell it to us."`
@@ -656,7 +656,7 @@ mission "Nuru: Outfit Delivery[Tyrant Plasma Steering]"
 		outfit "Tyrant Plasma Steering" -1
 		payment 420000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 125
+		"Nuru: Outfit Delivery Counter" += 125
 		
 mission "Nuru: Outfit Delivery[Vareti Engine Block]"
 	
@@ -664,7 +664,7 @@ mission "Nuru: Outfit Delivery[Vareti Engine Block]"
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're interested in your Vareti Engine Block. Will you sell it to us."`
@@ -683,7 +683,7 @@ mission "Nuru: Outfit Delivery[Vareti Engine Block]"
 		outfit "Vareti Engine Block" -1
 		payment 1980000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 168
+		"Nuru: Outfit Delivery Counter" += 168
 		
 mission "Nuru: Outfit Delivery[Steering (Stellar Class)]"
 	
@@ -691,7 +691,7 @@ mission "Nuru: Outfit Delivery[Steering (Stellar Class)]"
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're interested in your Steering (Stellar Class). Will you sell it to us."`
@@ -710,7 +710,7 @@ mission "Nuru: Outfit Delivery[Steering (Stellar Class)]"
 		outfit "Steering (Stellar Class)" -1
 		payment 2650000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 89
+		"Nuru: Outfit Delivery Counter" += 89
 		
 mission `Nuru: Outfit Delivery["Bufaer" Atomic Steering]`
 	
@@ -718,7 +718,7 @@ mission `Nuru: Outfit Delivery["Bufaer" Atomic Steering]`
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're interested in your "Bufaer" Atomic Steering. Will you sell it to us."`
@@ -737,7 +737,7 @@ mission `Nuru: Outfit Delivery["Bufaer" Atomic Steering]`
 		outfit `"Bufaer" Atomic Steering` -1
 		payment 2120000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 76
+		"Nuru: Outfit Delivery Counter" += 76
 		
 mission "Nuru: Outfit Delivery[Smelter-Class Steering]"
 	
@@ -745,7 +745,7 @@ mission "Nuru: Outfit Delivery[Smelter-Class Steering]"
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're interested in your Smelter-Class Steering. Will you sell it to us."`
@@ -764,7 +764,7 @@ mission "Nuru: Outfit Delivery[Smelter-Class Steering]"
 		outfit "Smelter-Class Steering" -1
 		payment 990000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 55
+		"Nuru: Outfit Delivery Counter" += 55
 		
 mission "Nuru: Outfit Delivery[Smelter-Class Thruster]"
 	
@@ -772,7 +772,7 @@ mission "Nuru: Outfit Delivery[Smelter-Class Thruster]"
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're interested in your Smelter-Class Thruster. Will you sell it to us."`
@@ -791,7 +791,7 @@ mission "Nuru: Outfit Delivery[Smelter-Class Thruster]"
 		outfit "Smelter-Class Thruster" -1
 		payment 1080000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 77
+		"Nuru: Outfit Delivery Counter" += 77
 		
 mission "Nuru: Outfit Delivery[Type 4 Radiant Steering]"
 	
@@ -799,7 +799,7 @@ mission "Nuru: Outfit Delivery[Type 4 Radiant Steering]"
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're interested in your Type 4 Radiant Steering. Will you sell it to us."`
@@ -818,7 +818,7 @@ mission "Nuru: Outfit Delivery[Type 4 Radiant Steering]"
 		outfit "Type 4 Radiant Steering" -1
 		payment 1200000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 47
+		"Nuru: Outfit Delivery Counter" += 47
 		
 mission "Nuru: Outfit Delivery[Medium Graviton Thruster]"
 	
@@ -826,7 +826,7 @@ mission "Nuru: Outfit Delivery[Medium Graviton Thruster]"
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're interested in your very Medium Graviton Thruster. Will you sell it to us."`
@@ -845,7 +845,7 @@ mission "Nuru: Outfit Delivery[Medium Graviton Thruster]"
 		outfit "Medium Graviton Thruster" -1
 		payment 24000000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 76
+		"Nuru: Outfit Delivery Counter" += 76
 		
 mission "Nuru: Outfit Delivery[Medium Graviton Steering]"
 	
@@ -853,7 +853,7 @@ mission "Nuru: Outfit Delivery[Medium Graviton Steering]"
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're interested in your very Medium Graviton Steering. Will you sell it to us."`
@@ -872,7 +872,7 @@ mission "Nuru: Outfit Delivery[Medium Graviton Steering]"
 		outfit "Medium Graviton Steering" -1
 		payment 20000000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 56
+		"Nuru: Outfit Delivery Counter" += 56
 		
 mission "Nuru: Outfit Delivery[System Core (Large)]"
 	
@@ -880,7 +880,7 @@ mission "Nuru: Outfit Delivery[System Core (Large)]"
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're interested in your System Core (Large). Will you sell it to us."`
@@ -899,7 +899,7 @@ mission "Nuru: Outfit Delivery[System Core (Large)]"
 		outfit "System Core (Large)" -1
 		payment 10000000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 93
+		"Nuru: Outfit Delivery Counter" += 93
 		
 		#=========================================================POWER GENERATOR
 		
@@ -909,7 +909,7 @@ mission "Nuru: Outfit Delivery[Blue Sun Reactor]"
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1r outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"r outfits" >= 1
 		not attributes uninhabited
 	on offer
 		conversation
@@ -929,7 +929,7 @@ mission "Nuru: Outfit Delivery[Blue Sun Reactor]"
 		outfit "Blue Sun Reactor" -1
 		payment 23000000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 153
+		"Nuru: Outfit Delivery Counter" += 153
 		
 mission "Nuru: Outfit Delivery[Aeon Cell]"
 	
@@ -937,7 +937,7 @@ mission "Nuru: Outfit Delivery[Aeon Cell]"
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're interested in your Aeon Cell. Will you sell it to us."`
@@ -957,7 +957,7 @@ mission "Nuru: Outfit Delivery[Aeon Cell]"
 		outfit "Aeon Cell" -1
 		payment 4560000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 163
+		"Nuru: Outfit Delivery Counter" += 163
 		
 mission "Nuru: Outfit Delivery[Antimatter Core]"
 	
@@ -965,7 +965,7 @@ mission "Nuru: Outfit Delivery[Antimatter Core]"
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're very interested in your Antimatter Core. Will you sell it to us."`
@@ -984,7 +984,7 @@ mission "Nuru: Outfit Delivery[Antimatter Core]"
 		outfit "Antimatter Core" -1
 		payment 185000000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 94
+		"Nuru: Outfit Delivery Counter" += 94
 		
 mission "Nuru: Outfit Delivery[Triple Plasma Core]"
 	
@@ -992,7 +992,7 @@ mission "Nuru: Outfit Delivery[Triple Plasma Core]"
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're interested in your Triple Plasma Core. Will you sell it to us."`
@@ -1011,7 +1011,7 @@ mission "Nuru: Outfit Delivery[Triple Plasma Core]"
 		outfit "Triple Plasma Core" -1
 		payment 23200000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 171
+		"Nuru: Outfit Delivery Counter" += 171
 		
 mission "Nuru: Outfit Delivery[Large Biochemical Cell]"
 	
@@ -1019,7 +1019,7 @@ mission "Nuru: Outfit Delivery[Large Biochemical Cell]"
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're interested in your Large Biochemical Cell. Will you sell it to us."`
@@ -1040,7 +1040,7 @@ mission "Nuru: Outfit Delivery[Large Biochemical Cell]"
 		outfit "Large Biochemical Cell" -1
 		payment 965000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 65
+		"Nuru: Outfit Delivery Counter" += 65
 		
 		
 mission "Nuru: Outfit Delivery[Telour Generator]"
@@ -1049,7 +1049,7 @@ mission "Nuru: Outfit Delivery[Telour Generator]"
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're very interested in your Telour Generator. Will you sell it to us."`
@@ -1069,7 +1069,7 @@ mission "Nuru: Outfit Delivery[Telour Generator]"
 		outfit "Telour Generator" -1
 		payment 7200000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 106
+		"Nuru: Outfit Delivery Counter" += 106
 		
 mission "Nuru: Outfit Delivery[Large Reactor Module]"
 	
@@ -1077,7 +1077,7 @@ mission "Nuru: Outfit Delivery[Large Reactor Module]"
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're interested in your Large Reactor Module. Will you sell it to us."`
@@ -1096,7 +1096,7 @@ mission "Nuru: Outfit Delivery[Large Reactor Module]"
 		outfit "Large Reactor Module" -1
 		payment 18500000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 100
+		"Nuru: Outfit Delivery Counter" += 100
 		
 mission "Nuru: Outfit Delivery[Boulder Reactor]"
 	
@@ -1104,7 +1104,7 @@ mission "Nuru: Outfit Delivery[Boulder Reactor]"
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're interested in your Boulder Reactor. Will you sell it to us."`
@@ -1123,7 +1123,7 @@ mission "Nuru: Outfit Delivery[Boulder Reactor]"
 		outfit "Boulder Reactor" -1
 		payment 5800000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 90
+		"Nuru: Outfit Delivery Counter" += 90
 		
 mission "Nuru: Outfit Delivery[NT-200 Nucleovoltaic]"
 	
@@ -1131,7 +1131,7 @@ mission "Nuru: Outfit Delivery[NT-200 Nucleovoltaic]"
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're interested in your NT-200 Nucleovoltaic. Will you sell it to us."`
@@ -1150,7 +1150,7 @@ mission "Nuru: Outfit Delivery[NT-200 Nucleovoltaic]"
 		outfit "NT-200 Nucleovoltaic" -1
 		payment 580000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 65
+		"Nuru: Outfit Delivery Counter" += 65
 		
 
 mission "Nuru: Outfit Delivery[Armageddon Core]"
@@ -1159,7 +1159,7 @@ mission "Nuru: Outfit Delivery[Armageddon Core]"
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're interested in your Armageddon Core. Will you sell it to us."`
@@ -1178,7 +1178,7 @@ mission "Nuru: Outfit Delivery[Armageddon Core]"
 		outfit "Armageddon Core" -1
 		payment 10000000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 130 #Tons + how interesting it is to them
+		"Nuru: Outfit Delivery Counter" += 130 #Tons + how interesting it is to them
 		
 mission "Nuru: Outfit Delivery[Crystal Capacitor]"
 	
@@ -1186,7 +1186,7 @@ mission "Nuru: Outfit Delivery[Crystal Capacitor]"
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're very interested in your Crystal Capacitor. Will you sell it to us."`
@@ -1207,7 +1207,7 @@ mission "Nuru: Outfit Delivery[Crystal Capacitor]"
 		outfit "Crystal Capacitor" -1
 		payment 250000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 20
+		"Nuru: Outfit Delivery Counter" += 20
 		
 		
 		#======================================================SHIELDS
@@ -1218,7 +1218,7 @@ mission "Nuru: Outfit Delivery[Gelaf Shield Generator]"
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're very interested in your Gelaf Shield Generator. Will you sell it to us."`
@@ -1238,7 +1238,7 @@ mission "Nuru: Outfit Delivery[Gelaf Shield Generator]"
 		outfit "Gelaf Shield Generator" -1
 		payment 360000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 51
+		"Nuru: Outfit Delivery Counter" += 51
 		
 mission "Nuru: Outfit Delivery[Dark Storm Shielding]"
 	
@@ -1246,7 +1246,7 @@ mission "Nuru: Outfit Delivery[Dark Storm Shielding]"
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're interested in your Dark Storm Shielding. Will you sell it to us."`
@@ -1265,7 +1265,7 @@ mission "Nuru: Outfit Delivery[Dark Storm Shielding]"
 		outfit "Dark Storm Shielding" -1
 		payment 850000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 41
+		"Nuru: Outfit Delivery Counter" += 41
 		
 mission "Nuru: Outfit Delivery[Hai Diamond Regenerator]"
 	
@@ -1273,7 +1273,7 @@ mission "Nuru: Outfit Delivery[Hai Diamond Regenerator]"
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're interested in your Hai Diamond Regenerator. Will you sell it to us."`
@@ -1292,7 +1292,7 @@ mission "Nuru: Outfit Delivery[Hai Diamond Regenerator]"
 		outfit "Hai Diamond Regenerator" -1
 		payment 1158000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 49
+		"Nuru: Outfit Delivery Counter" += 49
 		
 mission "Nuru: Outfit Delivery[Ka'het Grand Restorer]"
 	
@@ -1300,7 +1300,7 @@ mission "Nuru: Outfit Delivery[Ka'het Grand Restorer]"
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're interested in your Ka'het Grand Restorer. Will you sell it to us."`
@@ -1319,7 +1319,7 @@ mission "Nuru: Outfit Delivery[Ka'het Grand Restorer]"
 		outfit "Ka'het Grand Restorer" -1
 		payment 1055000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 87
+		"Nuru: Outfit Delivery Counter" += 87
 		
 mission "Nuru: Outfit Delivery[Quantum Shield Generator]"
 	
@@ -1327,7 +1327,7 @@ mission "Nuru: Outfit Delivery[Quantum Shield Generator]"
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're interested in your Quantum Shield Generator. Will you sell it to us."`
@@ -1346,7 +1346,7 @@ mission "Nuru: Outfit Delivery[Quantum Shield Generator]"
 		outfit "Quantum Shield Generator" -1
 		payment 47000000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 124
+		"Nuru: Outfit Delivery Counter" += 124
 		
 mission "Nuru: Outfit Delivery[Kaekur Shield Generator]"
 	
@@ -1354,7 +1354,7 @@ mission "Nuru: Outfit Delivery[Kaekur Shield Generator]"
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're interested in your Kaekur Shield Generator. Will you sell it to us."`
@@ -1373,7 +1373,7 @@ mission "Nuru: Outfit Delivery[Kaekur Shield Generator]"
 		outfit "Kaekur Shield Generator" -1
 		payment 550000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 50
+		"Nuru: Outfit Delivery Counter" += 50
 		
 mission "Nuru: Outfit Delivery[Overcharged Shield Module]"
 	
@@ -1381,7 +1381,7 @@ mission "Nuru: Outfit Delivery[Overcharged Shield Module]"
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're interested in your Overcharged Shield Module. Will you sell it to us."`
@@ -1400,7 +1400,7 @@ mission "Nuru: Outfit Delivery[Overcharged Shield Module]"
 		outfit "Overcharged Shield Module" -1
 		payment 1750000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 44
+		"Nuru: Outfit Delivery Counter" += 44
 		
 
 mission "Nuru: Outfit Delivery[D94-YV Shield Generator]"
@@ -1409,7 +1409,7 @@ mission "Nuru: Outfit Delivery[D94-YV Shield Generator]"
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're interested in your D94-YV Shield Generator. Will you sell it to us."`
@@ -1429,7 +1429,7 @@ mission "Nuru: Outfit Delivery[D94-YV Shield Generator]"
 		outfit "D94-YV Shield Generator" -1
 		payment 200000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 60
+		"Nuru: Outfit Delivery Counter" += 60
 		
 mission "Nuru: Outfit Delivery[USG200 Shield Generator]"
 	
@@ -1437,7 +1437,7 @@ mission "Nuru: Outfit Delivery[USG200 Shield Generator]"
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're very interested in your USG200 Shield Generator. Will you sell it to us."`
@@ -1457,7 +1457,7 @@ mission "Nuru: Outfit Delivery[USG200 Shield Generator]"
 		outfit "USG200 Shield Generator" -1
 		payment 20000000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 222
+		"Nuru: Outfit Delivery Counter" += 222
 		
 		
 mission "Nuru: Outfit Delivery[Large Repair Module]"
@@ -1466,7 +1466,7 @@ mission "Nuru: Outfit Delivery[Large Repair Module]"
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're interested in your Large Repair Module. Will you sell it to us."`
@@ -1485,7 +1485,7 @@ mission "Nuru: Outfit Delivery[Large Repair Module]"
 		outfit "Large Repair Module" -1
 		payment 600000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 21
+		"Nuru: Outfit Delivery Counter" += 21
 		
 		#=================================================MISC
 		
@@ -1495,7 +1495,7 @@ mission "Nuru: Outfit Delivery[Quantum Keystone]"
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're very interested in your Quantum Keystone. Will you sell it to us."`
@@ -1515,7 +1515,7 @@ mission "Nuru: Outfit Delivery[Quantum Keystone]"
 		outfit "Quantum Keystone" -1
 		payment 300000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 5
+		"Nuru: Outfit Delivery Counter" += 5
 		
 mission "Nuru: Outfit Delivery[Quantum Key Stone]"
 	
@@ -1523,7 +1523,7 @@ mission "Nuru: Outfit Delivery[Quantum Key Stone]"
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're very interested in your Quantum Key Stone. Will you sell it to us."`
@@ -1543,7 +1543,7 @@ mission "Nuru: Outfit Delivery[Quantum Key Stone]"
 		outfit "Quantum Key Stone" -1
 		payment 300000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 5
+		"Nuru: Outfit Delivery Counter" += 5
 	
 	
 mission "Nuru: Outfit Delivery[Liquid Helium Cooler]"
@@ -1552,7 +1552,7 @@ mission "Nuru: Outfit Delivery[Liquid Helium Cooler]"
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're interested in your Liquid Helium Cooler. Will you sell it to us."`
@@ -1572,7 +1572,7 @@ mission "Nuru: Outfit Delivery[Liquid Helium Cooler]"
 		outfit "Liquid Helium Cooler" -1
 		payment 170000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 41
+		"Nuru: Outfit Delivery Counter" += 41
 		
 
 mission "Nuru: Outfit Delivery[Jump Drive]"
@@ -1581,7 +1581,7 @@ mission "Nuru: Outfit Delivery[Jump Drive]"
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're very interested in your Jump Drive. Will you sell it to us."`
@@ -1603,15 +1603,24 @@ mission "Nuru: Outfit Delivery[Jump Drive]"
 				set "Nuru: To ask for Jump Drive source"
 			`	"We hope you will remember it sometime. We want to know the source for it."`
 				goto payandleave
+				
 			label bought
 			`	"Your worlds build it?"`
 			choice
 				`	"Yes."`
+					goto yes
 				`	"No, I just found the place."`
 			apply
 				set "Nuru: To ask for Jump Drive shop"
 			`	"Interesting. But I must go now, we will ask you details later."`
 				goto payandleave
+				
+			label yes
+			apply
+				set "Nuru: To ask for Jump Drive manufacturing world"
+			`	"Interesting. But I must go now, we will ask you details later."`
+				goto payandleave
+				
 			label alien
 			`	"We are very interested to investigate the alien further. We will contact you when need your help."`
 			apply
@@ -1631,7 +1640,7 @@ mission "Nuru: Outfit Delivery[Jump Drive]"
 		outfit "Jump Drive" -1
 		payment 1100000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 23
+		"Nuru: Outfit Delivery Counter" += 23
 		
 mission "Nuru: Sell Outfit[Jump Drive]"
 	job
@@ -1641,11 +1650,11 @@ mission "Nuru: Sell Outfit[Jump Drive]"
 		government "Nuru"
 		not attributes uninhabited
 	to offer
-		"Nuru: Player asked to deliver outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 		"Nuru: Outfit Delivery[Jump Drive]: declined"
 	on accept
 		outfit "Jump Drive" -1
 		payment 1100000
 		"reputation: Nuru" += 1
-		set "Nuru: Outfit Delivery Counter" += 23
+		"Nuru: Outfit Delivery Counter" += 23
 		

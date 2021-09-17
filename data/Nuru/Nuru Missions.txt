@@ -3,9 +3,8 @@ mission "First Contact: Nuru"
 	invisible
 	source
 		government Nuru
-		or
-			attributes "spaceport"
-			not attributes uninhabited
+		attributes "spaceport"
+		# not attributes uninhabited
 	on offer
 		conversation
 			`As you approach the planet, your comms picked up some noise sweeping across several frequencies but unable to decode it. Shortly after, you noticed a few dozen star-shaped drones about half-meter in diameter flying toward your ship without any visible armament. The drones orbit your ship for a few second before one of it projects a video at your viewport showing you the location of the spaceport of this planet.`
@@ -173,16 +172,16 @@ mission "Nuru: Partially Learned Language"
 	landing
 	to offer
 		or
-			"Nuru: Holographic Device"
-			"Nuru: Tablet"
-			"Nuru: Book"
-		"event: Nuru: language learning timer"
+			has "Nuru: Holographic Device"
+			has "Nuru: Tablet"
+			has "Nuru: Book"
+		has "event: Nuru: language learning 2 weeks"
 		
 		
 mission "Nuru: Learned Language"
 	landing
 	to offer
-		"event: Nuru: Learned Language"
+		has "event: Nuru: language learning 4 weeks"
 	on offer
 		set "language: Nuru"
 		
@@ -191,12 +190,11 @@ mission "Nuru: Brain Scan Attempt 1"
 	source
 		government Nuru
 		not planet "Ur sos"
-		or
-			attributes "spaceport"
-			not attributes uninhabited
+		attributes "spaceport"
+		# not attributes uninhabited
 	to offer
-		"First Contact: Nuru: offered"
-		"event: Nuru: language learning 2 weeks"
+		has "First Contact: Nuru: offered"
+		has "event: Nuru: language learning 2 weeks"
 		not "Nuru: Translate by brain scan"
 	on offer
 		conversation
@@ -247,14 +245,13 @@ mission "Nuru: Brain Scan Attempt 2"
 	source
 		government Nuru
 		not planet "Ur sos"
-		or
-			attributes "spaceport"
-			not attributes uninhabited
+		attributes "spaceport"
+		# not attributes uninhabited
 	to offer
 		not "Nuru: Translate by brain scan"
-		"event: Nuru: language learning 4 weeks"
-		"Nuru: Brain Scan Attempt 1: declined"
-		"language: Nuru"
+		has "event: Nuru: language learning 4 weeks"
+		has "Nuru: Brain Scan Attempt 1: declined"
+		has "language: Nuru"
 	on offer
 		conversation
 			`Upon landing a Nuru moves toward you asking if you had changed your mind about the translator device they gave you. If you're willing it will be easier for both to communicate later.`
@@ -279,13 +276,12 @@ mission "Nuru: Nuru Questioning"
 	landing
 	source
 		government Nuru
-		or
-			attributes "spaceport"
-			not attributes uninhabited
+		attributes "spaceport"
+		# not attributes uninhabited
 	to offer
-		"First Contact: Nuru: declined"
-		"language: Nuru"
-		"never offer" # temporary tag to prevent it from offering
+		has "First Contact: Nuru: declined"
+		has "language: Nuru"
+		has "never offer" # temporary tag to prevent it from offering
 	on offer
 		conversation
 			``
@@ -295,10 +291,10 @@ mission "Nuru: Outfit License"
 	landing
 	source
 		government "Nuru"
-		not attributes uninhabited
+		attributes "spaceport"
 	to offer
-		"First Contact: Nuru: offered"
-		"Nuru: Outfit Delivery Counter" >= 200
+		has "First Contact: Nuru: offered"
+		has "Nuru: Outfit Delivery Counter" >= 200
 	on offer
 		conversation
 			`Upon exiting your ship a Nuru come to meet you "We're very grateful for outfits you have delivered us. As agreed we will allow you to purchase some of our outfits. We hope you will keep delivering us new outsider technologies." your translator plays a quick, sharp sound similar to a violin, you're not sure what it means but according to the Nuru, you should be able to purchase most of their outfits now.`
@@ -311,10 +307,10 @@ mission "Nuru: Ship License"
 	landing
 	source
 		government "Nuru"
-		not attributes uninhabited
+		attributes "spaceport"
 	to offer
-		"First Contact: Nuru: offered"
-		"Nuru: Outfit Delivery Counter" >= 600
+		has "First Contact: Nuru: offered"
+		has "Nuru: Outfit Delivery Counter" >= 600
 	on offer
 		conversation
 			`Upon exiting your ship a Nuru come to meet you "We're very grateful for outfits you have delivered us. As agreed we will allow you to purchase some of our ship. We hope you will keep delivering us new outsider technologies." your translator plays a quick, sharp sound similar to a violin, you're not sure what it means but according to the Nuru, you should be able to purchase most of their ships now.`
@@ -330,7 +326,7 @@ mission "Nuru: Urnoria Os Remanda Observation Entering"
 	landing
 	invisible
 	to offer
-		"First Contact: Nuru: offered"
+		has "First Contact: Nuru: offered"
 	on enter Verstinas
 		dialog 
 			`"Access to the planet below is restricted to authorized individuals only. If you wish to observe, please meet us on Ur sos."
@@ -344,12 +340,12 @@ mission "Nuru: Urnoria Os Remanda Observation Moon"
 		planet "Ur sos"
 		government "Nuru"
 	to offer
-		"First Contact: Nuru: offered"
-		"language: Nuru"
+		has "First Contact: Nuru: offered"
+		has "language: Nuru"
 	on offer
 		conversation
 			branch "DeviceTranslateI"
-				"Nuru: Holographic Device"
+				"Nuru: Holographic Device" = 1
 				not "Nuru: Brain Scan Attempt 1: offered"
 			branch "DeviceTranslateI"
 				"Nuru: Tablet"
