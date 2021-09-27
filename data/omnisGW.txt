@@ -3318,7 +3318,7 @@ planet "Galactic War"
 	outfitter "Donko Advanced"
 	bribe 0
 
-planet "GW Plugins"
+planet "GW Plugins" #Not sure on its usefulness but will leave it here for now. Maybe it could be repurposed for something else later.
 	landscape landscape/station6
 	description ``
 	spaceport ``
@@ -3330,7 +3330,7 @@ planet "GW Plugins"
 
 planet "GW Default"
 	landscape landscape/station6
-	description ``
+	description `This bay of the megastructure contains only ships and outfits added by the plugin only.`
 	spaceport ``
 	#shipyard developer
 	shipyard "GalacticWar"

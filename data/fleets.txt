@@ -3,25 +3,24 @@ fleet "Darua Merchant"
 	names "Erader Darua Merchant"
 	cargo 1
 	personality
-		opportunistic
-		timid
 		confusion 40
+		timid opportunistic
 	variant 50
-		"Raular"
+		Raular
 	variant 50
-		"Genterrac"
+		Genterrac
 	variant 40
-		"Raular" 2
+		Raular 2
 	variant 45
-		"Genterrac" 2
+		Genterrac 2
 	variant 30
-		"Genterrac" 3
+		Genterrac 3
 	variant 10
-		"Raular" 3
+		Raular 3
 	variant 20
-		"Dauren"
+		Dauren
 	variant 40
-		"Kelranter"
+		Kelranter
 
 fleet "Darua Miner"
 	government "Erader Darua"
@@ -29,30 +28,27 @@ fleet "Darua Miner"
 	cargo 1
 	personality
 		confusion 30
-		plunders
-		mining harvests
+		plunders mining harvests
 	variant 40
-		"Kelranter"
+		Kelranter
 
 fleet "Darua Navy"
 	government "Erader Darua"
 	names "Erader Darua Guard"
 	cargo 1
 	personality
-		heroic
-		opportunistic
 		confusion 20
+		heroic opportunistic
 	variant 8
-		"Kemvanh"
+		Kemvanh
 
 fleet "Donko Guard Big"
-	government "Donko"
+	government Donko
 	names "Donko Guard"
 	fighters "Donko Fighter"
 	cargo 1
 	personality
-		confusion 10
-		heroic opportunistic plunders
+		plunders heroic opportunistic
 	variant 10
 		"Donko Sao"
 		"Donko Kolso" 16
@@ -89,15 +85,15 @@ fleet "Donko Guard Big"
 		"Senka (Laser)"
 		"Donko Kolso" 16
 		"Donko Matka" 8
-		
+
 fleet "Donko Guard Small"
-	government "Donko"
+	government Donko
 	names "Donko Guard"
 	fighters "Donko Fighter"
 	cargo 1
 	personality
 		confusion 20
-		heroic opportunistic disables
+		disables heroic opportunistic
 	variant 10
 		"Donko Koi"
 		"Donko Kolso" 6
@@ -107,11 +103,11 @@ fleet "Donko Guard Small"
 		"Donko Kanse" 3
 		"Donko Koi"
 		"Donko Kolso" 6
-	variant 1
+	variant
 		"Donko Senka"
 
 fleet "Donko Small"
-	government "Donko"
+	government Donko
 	names "Donko Civilian"
 	fighters "Donko Fighter"
 	cargo 2
@@ -129,7 +125,7 @@ fleet "Donko Small"
 		"Koi (Freighter)"
 
 fleet "Donko Miner"
-	government "Donko"
+	government Donko
 	names "Donko Civilian"
 	fighters "Donko Fighter"
 	personality
@@ -141,234 +137,220 @@ fleet "Donko Miner"
 		"Koi (Freighter)"
 		"Donko Matka"
 
-fleet "Erm Raid Fleet" 
-	government "Erm"
-	names "Erm"
+fleet "Erm Raid Fleet"
+	government Erm
+	names Erm
 	cargo 1
 	personality
-		heroic
-		frugal 
-		opportunistic
+		heroic frugal opportunistic
 	variant
-		"Roekler" 5
-		"Ernar" 12
-		"Hordanler" 8
-		"Eaken" 30
+		Roekler 5
+		Ernar 12
+		Hordanler 8
+		Eaken 30
 		"Ernar Offensive" 5
 		"Hordanler Anti-Fighter" 5
 
-		
 fleet "Erm SDF Fleet"
-	government "Erm"
-	names "Erm"
+	government Erm
+	names Erm
 	cargo 1
 	personality
-		heroic
-		frugal 
-		opportunistic
+		heroic frugal opportunistic
 	variant 10
-		"Roekler" 
-		"Ernar" 2
-		"Hordanler"
-		"Eaken" 10
+		Roekler
+		Ernar 2
+		Hordanler
+		Eaken 10
 	variant 12
-		"Roekler" 
-		"Ernar" 4
-		"Hordanler"
-		"Eaken" 5
+		Roekler
+		Ernar 4
+		Hordanler
+		Eaken 5
 	variant 8
-		"Roekler" 2
-		"Ernar" 8
-		"Hordanler" 2
-		"Eaken" 5
+		Roekler 2
+		Ernar 8
+		Hordanler 2
+		Eaken 5
 	variant 10
-		"Roekler" 2
-		"Ernar" 3
-		"Hordanler" 2
-		"Eaken" 5
+		Roekler 2
+		Ernar 3
+		Hordanler 2
+		Eaken 5
 	variant 7
-		"Roekler" 3
-		"Ernar" 8
-		"Hordanler" 3
-		"Eaken" 5
-		
+		Roekler 3
+		Ernar 8
+		Hordanler 3
+		Eaken 5
+
 fleet "Erm CIV Fleet"
-	government "Erm"
-	names "Erm"
+	government Erm
+	names Erm
 	cargo 1
 	personality
-		timid
-		frugal
-		opportunistic
+		timid frugal opportunistic
 	variant 10
-		"Eirae"
+		Eirae
 	variant 10
-		"Eirae"
-		"Eaken"
+		Eirae
+		Eaken
 	variant 7
-		"Eirae" 5
-		"Eaken" 2
+		Eirae 5
+		Eaken 2
 	variant 5
-		"Eirae" 10
-		"Eaken" 4
+		Eirae 10
+		Eaken 4
 	variant 10
-		"Eirae" 3
-		"Eaken" 2
+		Eirae 3
+		Eaken 2
 	variant 10
-		"Hidersan"
+		Hidersan
 	variant 9
-		"Hidersan"
-		"Eaken" 2
+		Hidersan
+		Eaken 2
 	variant 8
-		"Hidersan"
-		"Eaken" 4
+		Hidersan
+		Eaken 4
 	variant 6
-		"Hidersan"
-		"Hordanler"
-		"Ernar" 2
+		Hidersan
+		Hordanler
+		Ernar 2
 	variant 8
-		"Hidersan"
+		Hidersan
 		"Ernar Offensive"
 	variant 3
-		"Roekler"
-		"Hidersan" 3
-		"Hordanler"
-		"Ernar" 2
-	variant 1
-		"Roekler" 2
-		"Hidersan" 5
-		"Hordanler" 4
-		"Ernar" 8
-		"Eaken" 15
+		Roekler
+		Hidersan 3
+		Hordanler
+		Ernar 2
+	variant
+		Roekler 2
+		Hidersan 5
+		Hordanler 4
+		Ernar 8
+		Eaken 15
 	variant 8
-		"Hidersan" 2
-		"Eaken" 10
+		Hidersan 2
+		Eaken 10
 	variant 6
-		"Hidersan" 2
+		Hidersan 2
 		"Ernar Offensive" 2
-		"Ernar" 2
+		Ernar 2
 	variant 10
-		"Hidersan"
+		Hidersan
 		"Ernar Offensive(S)"
 		"Ernar Offensive(A)"
 
 fleet "Geeva Battle Fleet"
-	government "Geeva"
+	government Geeva
 	names "Geeva Guard"
 	cargo 1
 	personality
 		confusion 20
-		heroic
-		frugal 
-		opportunistic
+		heroic frugal opportunistic
 	variant 15
-		"Kimali" 1
-		"Kinika" 3
+		Kimali
+		Kinika 3
 	variant 20
-		"Kimali" 1
+		Kimali
 	variant 10
-		"Kimali" 2
-		"Kinika" 5
-		
+		Kimali 2
+		Kinika 5
+
 fleet "Geeva Civillian"
-	government "Geeva"
+	government Geeva
 	names "Geeva Civ"
 	cargo 1
 	personality
 		confusion 30
-		frugal 
-		plunders
-		disables
+		disables plunders frugal
 	variant 15
-		"Hailika"
+		Hailika
 	variant 20
-		"Hailika" 3
+		Hailika 3
 	variant 10
-		"Hailika" 5
-		"Kinika"
-	variant 1
-		"Hailika" 10
-		"Kinika" 2
+		Hailika 5
+		Kinika
+	variant
+		Hailika 10
+		Kinika 2
 
-fleet "Ignaggen"
-	government "Ignaggen"
-	names "Ignaggen"
+fleet Ignaggen
+	government Ignaggen
+	names Ignaggen
 	cargo 1
 	personality
 		confusion 40
-		frugal 
-		timid appeasing
-		plunders
+		timid plunders frugal appeasing
 	variant 20
-		"Kina"
+		Kina
 	variant 20
-		"Kina" 3
+		Kina 3
 	variant 20
-		"Kina"
-		"Gikeor" 2
+		Kina
+		Gikeor 2
 	variant 20
-		"Kina"
-		"Gikeor"
+		Kina
+		Gikeor
 	variant 20
-		"Kina" 10
-		"Gikeor" 5
+		Kina 10
+		Gikeor 5
 	variant 15
-		"Keorlen" 2
-		"Gikeor" 5
-		"Kina" 3
+		Keorlen 2
+		Gikeor 5
+		Kina 3
 	variant 20
-		"Keorlen" 3
-		"Gikeor" 2
+		Keorlen 3
+		Gikeor 2
 	variant 10
-		"Keorlen" 5
-		"Gikeor" 10
+		Keorlen 5
+		Gikeor 10
 	variant 30
-		"Keorlen" 1
-		"Gikeor" 2
+		Keorlen
+		Gikeor 2
 	variant 5
-		"Keorlen" 10
-		"Gikeor" 20
+		Keorlen 10
+		Gikeor 20
 	variant 20
-		"Gikeor" 3
+		Gikeor 3
 	variant 12
-		"Kamuel"
+		Kamuel
 	variant 10
-		"Kamuel" 2
+		Kamuel 2
 	variant 12
-		"Kamuel" 3
-		"Koggareu" 
+		Kamuel 3
+		Koggareu
 	variant 5
-		"Kamuel" 5
-		"Koggareu" 3
+		Kamuel 5
+		Koggareu 3
 	variant 12
-		"Kamuel"
-		"Koggareu"
+		Kamuel
+		Koggareu
 	variant 10
-		"Koggareu" 2
-		"Kina" 6
-	
+		Koggareu 2
+		Kina 6
+
 fleet "Ignaggen Outlaw"
 	government "Nilra Ignaggen"
-	names "Ignaggen"
+	names Ignaggen
 	cargo 1
 	personality
 		confusion 30
-		heroic 
-		plunders harvests
+		plunders heroic harvests
 	variant 20
-		"Gikeor" 5
+		Gikeor 5
 	variant 10
 		"Offensive Gikeor" 3
-		
+
 fleet "Ignaggen Miner"
-	government "Ignaggen"
-	names "Ignaggen"
+	government Ignaggen
+	names Ignaggen
 	cargo 0
 	personality
 		confusion 25
-		frugal mining harvests plunders
+		plunders frugal mining harvests
 	variant 20
-		"Gikeor" 3
+		Gikeor 3
 
 fleet "Kager Ignaggen"
 	government "Kager Ignaggen"
@@ -376,24 +358,22 @@ fleet "Kager Ignaggen"
 	cargo 1
 	personality
 		confusion 20
-		heroic
-		frugal 
-		opportunistic
+		heroic frugal opportunistic
 	variant 5
-		"I'nos"
-		"Loerlen" 4
+		I'nos
+		Loerlen 4
 	variant 10
-		"Loerlen" 2
-		"Koggareu" 3
+		Loerlen 2
+		Koggareu 3
 	variant 10
-		"I'nos"
-		"Koggareu" 4
+		I'nos
+		Koggareu 4
 	variant 10
-		"Loerlen" 5
+		Loerlen 5
 	variant 5
-		"I'nos" 2
+		I'nos 2
 	variant 15
-		"Koggareu" 5
+		Koggareu 5
 
 fleet "Kakaima Defense"
 	government "Kroom Kakaima"
@@ -401,340 +381,330 @@ fleet "Kakaima Defense"
 	cargo 1
 	personality
 		confusion 20
-		heroic
-		frugal 
-		opportunistic
+		heroic frugal opportunistic
 	variant 7
-		"Grokva"
-		"Girok" 6
+		Grokva
+		Girok 6
 	variant 20
-		"Grakka"
+		Grakka
 	variant 22
-		"Grakka" 2
-	variant 1
-		"Grokva" 2
-		"Grakka" 4
-		"Girok" 12
+		Grakka 2
+	variant
+		Grokva 2
+		Grakka 4
+		Girok 12
 	variant 5
-		"Garokka" 2
-		"Grokva (Heavy)" 1
+		Garokka 2
+		"Grokva (Heavy)"
 	variant 25
 		"Garokka (Light)" 3
 	variant 21
 		"Garokka (Heavy)" 3
 	variant 5
 		"Garokka (Heavy)" 2
-		"Grokva (Heavy)" 1
-		"Girok" 6
+		"Grokva (Heavy)"
+		Girok 6
 		"Garokka (Light)" 3
 	variant 7
 		"Garokka (Heavy)" 2
-		"Grokva" 1
-		"Girok" 6
-		
-fleet "Kakaima Logistic" 
+		Grokva
+		Girok 6
+
+fleet "Kakaima Logistic"
 	government "Kroom Kakaima"
-	names "Kroom"
+	names Kroom
 	cargo 1
 	personality
 		confusion 30
-		frugal 
-		disables
+		disables frugal
 	variant 20
-		"Gikaar" 3
+		Gikaar 3
 	variant 20
-		"Gikaar" 3
-		"Garokka" 2
+		Gikaar 3
+		Garokka 2
 	variant 20
-		"Gikaar" 6
-		"Garokka" 4
+		Gikaar 6
+		Garokka 4
 	variant 10
-		"Gikaar" 8
-		"Garokka" 5
-		"Grokva" 1
-		"Girok" 4
+		Gikaar 8
+		Garokka 5
+		Grokva
+		Girok 4
 	variant 20
-		"Gikaar" 2
-		"Garokka" 1
+		Gikaar 2
+		Garokka
 	variant 20
-		"Gikaar" 5
-		"Garokka" 3
+		Gikaar 5
+		Garokka 3
 	variant 15
-		"Gikaar" 5
-		"Grakka" 1
+		Gikaar 5
+		Grakka
 	variant 20
-		"Mukikor"
-		"Garokka" 2
+		Mukikor
+		Garokka 2
 	variant 15
-		"Mukikor"
-		"Grakka"
+		Mukikor
+		Grakka
 	variant 13
-		"Mukikor" 2
-		"Grakka"
-		"Garokka" 2
+		Mukikor 2
+		Grakka
+		Garokka 2
 	variant 12
-		"Mukikor"
+		Mukikor
 	variant 5
-		"Mukikor" 3
-		"Grokva" 1
-		"Girok" 4
-		"Garokka" 2
+		Mukikor 3
+		Grokva
+		Girok 4
+		Garokka 2
 	variant 2
-		"Mukikor" 3
-		"Grokva" 1
-		"Grokva (Heavy)" 1
-		"Girok" 8
-		"Garokka" 2
+		Mukikor 3
+		Grokva
+		"Grokva (Heavy)"
+		Girok 8
+		Garokka 2
 
 fleet "Kakaima Miner"
 	government "Kroom Kakaima"
-	names "Kroom"
+	names Kroom
 	cargo 1
 	personality
 		confusion 20
-		frugal plunders mining harvests
-		disables
+		disables plunders frugal mining harvests
 	variant 20
-		"Garokka"
+		Garokka
 	variant 20
-		"Garokka" 3
+		Garokka 3
 	variant 20
-		"Garokka"
-		"Gikaar" 2
+		Garokka
+		Gikaar 2
 	variant 15
-		"Gikaar" 3
-		"Grakka" 1
+		Gikaar 3
+		Grakka
 	variant 20
 		"Garokka (Light)"
-
 
 fleet "Kasiva Merchant"
 	government "Erader Kasiva"
 	names "Erader Kasiva"
 	cargo 1
 	personality
-		opportunistic
-		timid
 		confusion 40
+		timid opportunistic
 	variant 50
-		"Raular"
+		Raular
 	variant 50
-		"Genterrac"
+		Genterrac
 	variant 40
-		"Raular" 2
+		Raular 2
 	variant 45
-		"Genterrac" 2
+		Genterrac 2
 	variant 30
-		"Genterrac" 3
-		"Aikiyu" 3
+		Genterrac 3
+		Aikiyu 3
 	variant 20
-		"Raular" 3
-		"Aikiyu" 3
+		Raular 3
+		Aikiyu 3
 	variant 25
-		"Kelranter"
+		Kelranter
 	variant 30
-		"Aikiyu"
+		Aikiyu
 	variant 30
-		"Kyseruna"
+		Kyseruna
 	variant 20
-		"Kyseruna"
-		"Aikiyu" 2
+		Kyseruna
+		Aikiyu 2
 
 fleet "Kasiva Navy"
 	government "Erader Kasiva"
 	names "Erader Kasiva"
 	cargo 1
 	personality
-		heroic
 		confusion 20
+		heroic
 	variant 40
-		"Eishen"
+		Eishen
 
 fleet "Kumakk Miner"
-	government "Kumakk"
-	names "Kumakk"
+	government Kumakk
+	names Kumakk
 	personality
 		confusion 23
 		mining harvests
 	variant
-		"Kasoulek"
+		Kasoulek
 
 fleet "Kumakk Security"
-	government "Kumakk"
+	government Kumakk
 	names "Kumakk Security"
 	personality
 		confusion 15
 		heroic opportunistic
 	variant 10
-		"Akolucor"
+		Akolucor
 	variant 13
-		"Akolucor"
-		"Kasoulek" 3
+		Akolucor
+		Kasoulek 3
 	variant 8
-		"Akolucor" 2
+		Akolucor 2
 
 fleet "Kumakk Logistic"
-	government "Kumakk"
-	names "Kumakk"
+	government Kumakk
+	names Kumakk
 	personality
 		confusion 20
 		timid
 	variant 20
-		"Oulkorke"
+		Oulkorke
 	variant 17
-		"Oulkorke" 2
+		Oulkorke 2
 	variant 15
-		"Oulkorke" 3
+		Oulkorke 3
 	variant 5
-		"Oulkorke" 2
-		"Akolucor"
+		Oulkorke 2
+		Akolucor
 
 fleet "Makerurader Battle Fleet"
-	government "Makerurader"
+	government Makerurader
 	names "Erader Makerurader"
 	cargo 1
 	personality
-		heroic
 		confusion 12
+		heroic
 	variant 20
-		"Ertezkaral" 2
+		Ertezkaral 2
 	variant 12
-		"Ertezkaral" 3
+		Ertezkaral 3
 	variant 14
-		"Vardarkin"
-		"Ertezkaral" 2
+		Vardarkin
+		Ertezkaral 2
 	variant 14
-		"Vardarkin" 2
-		"Ertezkaral" 4
+		Vardarkin 2
+		Ertezkaral 4
 	variant 14
-		"Vardarkin" 2
-		"Ertezkaral" 4
+		Vardarkin 2
+		Ertezkaral 4
 		"Ertezkaral (Anti-Fighter)" 2
 	variant 14
-		"Vardarkin" 2
-		"Ertezkaral" 2
+		Vardarkin 2
+		Ertezkaral 2
 		"Ertezkaral (Anti-Fighter)" 2
 		"Ertezkaral (Heavy)" 2
 	variant 10
-		"Vardarkin" 2
-		"Ertezkaral" 4
+		Vardarkin 2
+		Ertezkaral 4
 		"Ertezkaral (Heavy)" 2
 
 fleet "Makerurader Logistic Fleet"
-	government "Makerurader"
+	government Makerurader
 	names "Erader Makerurader"
 	cargo 1
 	outfitters "Makerurader Ammo"
 	personality
-		heroic
 		confusion 20
+		heroic
 	variant 20
-		"Sorgeldaz"
-		"Ertezkaral" 2
+		Sorgeldaz
+		Ertezkaral 2
 	variant 20
-		"Sorgeldaz"
-		"Ertezkaral" 3
+		Sorgeldaz
+		Ertezkaral 3
 	variant 12
-		"Sorgeldaz"
-		"Azelpur" 8
+		Sorgeldaz
+		Azelpur 8
 	variant 12
-		"Sorgeldaz" 2
-		"Vardarkin"
-		"Ertezkaral" 2
+		Sorgeldaz 2
+		Vardarkin
+		Ertezkaral 2
 	variant 6
-		"Sorgeldaz" 3
-		"Vardarkin"
-		"Ertezkaral" 3
-		"Azelpur" 6
+		Sorgeldaz 3
+		Vardarkin
+		Ertezkaral 3
+		Azelpur 6
 
 fleet "Makerurader Mining Fleet"
-	government "Makerurader"
+	government Makerurader
 	names "Erader Makerurader"
 	cargo 1
 	personality
 		confusion 20
-		plunders
-		mining harvests
+		plunders mining harvests
 	variant 10
-		"Ertezkaral"
+		Ertezkaral
 	variant 40
-		"Azelpur"
+		Azelpur
 
 fleet "Mukube Merchant"
 	government "Erader Mukube"
 	names "Erader Mukube Merchant"
 	cargo 1
 	personality
-		opportunistic
-		timid
 		confusion 40
+		timid opportunistic
 	variant 50
-		"Raular"
+		Raular
 	variant 50
-		"Genterrac"
+		Genterrac
 	variant 40
-		"Raular" 2
+		Raular 2
 	variant 45
-		"Genterrac" 2
+		Genterrac 2
 	variant 30
-		"Genterrac" 3
+		Genterrac 3
 	variant 10
-		"Raular" 3
+		Raular 3
 	variant 20
-		"Dauren"
+		Dauren
 	variant 40
-		"Kelranter"
+		Kelranter
 
 fleet "Narpul Merchant"
 	government "Erader Narpul"
 	names "Erader Narpul Merchant"
 	cargo 1
 	personality
-		opportunistic
-		timid
 		confusion 35
+		timid opportunistic
 	variant 50
-		"Raular"
+		Raular
 	variant 40
-		"Raular"
-		"Nukrau"
+		Raular
+		Nukrau
 	variant 60
-		"Genterrac"
+		Genterrac
 	variant 50
-		"Genterrac"
-		"Nukrau"
+		Genterrac
+		Nukrau
 	variant 40
-		"Raular" 2
-		"Nukrau"
+		Raular 2
+		Nukrau
 	variant 50
-		"Genterrac" 2
-		"Nukrau"
+		Genterrac 2
+		Nukrau
 	variant 40
-		"Genterrac" 3
-		"Nukrau" 2
+		Genterrac 3
+		Nukrau 2
 	variant 10
-		"Raular" 3
+		Raular 3
 	variant 10
-		"Dauren"
+		Dauren
 	variant 40
-		"Kelranter"
-	variant 1
-		"Sorgeldaz"
+		Kelranter
+	variant
+		Sorgeldaz
 	variant 30
-		"Kunshera"
+		Kunshera
 	variant 20
-		"Kunshera" 2
+		Kunshera 2
 	variant 20
-		"Kunshera"
-		"Nukrau" 2
+		Kunshera
+		Nukrau 2
 	variant 17
-		"Kunshera" 2
-		"Nukrau" 5
-	
-fleet "Nuru"
-	government "Nuru"
-	names "Nuru"
-	cargo 3
+		Kunshera 2
+		Nukrau 5
+
+fleet Nuru
+	government Nuru
+	names Nuru
 	personality
 		heroic
 	variant 20
@@ -749,32 +719,29 @@ fleet "Nuru"
 		"Ar Pu Haa" 2
 	variant 20
 		"Ca Mok Si"
-	variant 1
+	variant
 		"Wi Wai Si"
 
 fleet "Qanse Small"
-	government "Qanse"
+	government Qanse
 	names "Qanse Small"
 	personality
 		confusion 20
 		heroic opportunistic
 	variant 5
-		"Qargi"
+		Qargi
 	variant 30
-		"Dantra"
+		Dantra
 	variant 15
-		"Dantra" 2
-		
+		Dantra 2
+
 fleet "Qoro Makau Battle Fleet"
 	government "Makau A Qoro"
 	names "Qoro Makau"
 	cargo 1
 	personality
 		confusion 20
-		heroic opportunistic
-		frugal 
-		plunders
-		disables
+		disables plunders heroic frugal opportunistic
 	variant 50
 		"Qoro(M) Manta" 5
 	variant 40
@@ -793,20 +760,18 @@ fleet "Qoro Makau Miner"
 	names "Qoro Makau"
 	cargo 1
 	personality
-		confusion 20 
+		confusion 20
 		plunders mining harvests
 	variant 50
 		"Qoro(M) Manta"
-		
+
 fleet "Qoro Siogal Battle Fleet"
 	government "Qoro Siogal"
 	names "Qoro Siogal"
 	cargo 1
 	personality
 		confusion 30
-		heroic opportunistic
-		frugal 
-		disables
+		disables heroic frugal opportunistic
 	variant 50
 		"Qoro(S) Ganoth" 5
 	variant 40
@@ -825,84 +790,77 @@ fleet "Qoro Siogal Battle Fleet"
 		"Qoro(S) Ganoth" 3
 
 fleet "Resmakia CIV Fleet"
-	government "Resmakia"
-	names "Resmakia"
+	government Resmakia
+	names Resmakia
 	cargo 1
 	personality
-		timid
-		frugal
-		plunders
-		disables
+		timid disables plunders frugal
 	variant 10
-		"Kajmaraj"
-		"Jortar" 2
-		"Termat" 4
-		"Tarrel" 2
+		Kajmaraj
+		Jortar 2
+		Termat 4
+		Tarrel 2
 	variant 50
-		"Tarrel"
+		Tarrel
 	variant 40
-		"Tarrel" 3
+		Tarrel 3
 	variant 40
-		"Termat"
+		Termat
 	variant 30
-		"Kajmaraj" 2
-		"Termat" 5
+		Kajmaraj 2
+		Termat 5
 	variant 30
-		"Kajmaraj"
-		"Termat" 3
+		Kajmaraj
+		Termat 3
 	variant 40
-		"Jortar" 2
-		"Termat"
+		Jortar 2
+		Termat
 	variant 40
-		"Jortar" 2
-		"Tarrel" 5
+		Jortar 2
+		Tarrel 5
 	variant 40
-		"Jortar" 5
-		"Termat" 2
-		
+		Jortar 5
+		Termat 2
+
 fleet "Resmakia SDF Fleet"
-	government "Resmakia"
-	names "Resmakia"
+	government Resmakia
+	names Resmakia
 	cargo 1
 	personality
-		heroic
-		frugal
-		opportunistic
-		plunders
+		plunders heroic frugal opportunistic
 	variant 10
-		"Kajmaraj" 3
-		"Jortar" 5
+		Kajmaraj 3
+		Jortar 5
 	variant 10
-		"Kajmaraj" 1
-		"Jortar" 3
+		Kajmaraj
+		Jortar 3
 	variant 10
-		"Kajmaraj" 2
-		"Jortar" 7
+		Kajmaraj 2
+		Jortar 7
 	variant 10
-		"Kajmaraj"
-		"Jortar" 2
+		Kajmaraj
+		Jortar 2
 	variant 10
-		"Jortar" 4
+		Jortar 4
 
 fleet "Resmakia Mines"
-	government "Resmakia"
+	government Resmakia
 	cargo 0
 	personality
-		waiting heroic mute staying
+		heroic staying waiting mute
 	variant 60
 		"Resmakia Asteroid" 5
 	variant 30
 		"Resmakia Asteroid" 6
-	variant 1
+	variant
 		"Resmakia Asteroid" 8
-		
+
 fleet "Revos small"
-	government "Revos"
+	government Revos
 	names "Revos small"
 	cargo 1
 	personality
-		heroic  
-		opportunistic
+		heroic opportunistic
 	variant 10
 		"Revos Homan"
 	variant 10
@@ -916,32 +874,31 @@ fleet "Revos small"
 		"Revos Rova" 2
 	variant 3
 		"Revos Mokla"
-	variant 1
+	variant
 		"Revos Mokla"
 		"Revos Homan" 2
-	variant 1
+	variant
 		"Revos Mokla"
 		"Revos Rova" 3
 	variant 3
 		"Revos Caosma"
-	variant 1
+	variant
 		"Revos Caosma"
 		"Revos Rova" 2
-	variant 1
+	variant
 		"Caosma (Transport)"
 		"Revos Rova" 2
-	variant 1
+	variant
 		"Mokla (Botavu)"
-	variant 1
+	variant
 		"Mokla (Barviska)"
-		
+
 fleet "Revos big"
-	government "Revos"
+	government Revos
 	names "Revos small"
 	cargo 1
 	personality
-		heroic  
-		opportunistic
+		heroic opportunistic
 	variant 10
 		"Revos Homan" 3
 		"Mokla (Barviska)" 2
@@ -960,12 +917,11 @@ fleet "Revos big"
 		"Revos Rova" 5
 
 fleet "Revos merchant"
-	government "Revos"
+	government Revos
 	names "Revos small"
 	cargo 1
 	personality
-		heroic  
-		opportunistic
+		heroic opportunistic
 	variant 14
 		"Revos Homan" 3
 		"Caosma (Transport)"
@@ -980,11 +936,10 @@ fleet "Revos merchant"
 		"Revos Rova" 4
 
 fleet "Revos Defense"
-	government "Revos"
+	government Revos
 	names "Revos small"
 	personality
-		heroic  
-		opportunistic
+		heroic opportunistic
 	variant 10
 		"Revos Homan" 5
 		"Revos Rova" 12
@@ -994,9 +949,9 @@ fleet "Revos Defense"
 		"Revos Homan" 2
 		"Revos Rova" 3
 	variant 10
-		"Revos Mokla" 1
-		"Mokla (Botavu)" 1
-		"Mokla (Barviska)" 1
+		"Revos Mokla"
+		"Mokla (Botavu)"
+		"Mokla (Barviska)"
 		"Revos Homan" 2
 		"Revos Rova" 3
 	variant 10
@@ -1013,25 +968,22 @@ fleet "Revos Defense"
 		"Revos Rova" 3
 
 fleet "Taroun Defense"
-	government "Taroun"
-	names "Taroun"
+	government Taroun
+	names Taroun
 	personality
-		heroic
-		vindictive
-		frugal
-	variant 1
+		heroic frugal vindictive
+	variant
 		"Taroun Eroun" 3
 		"Taroun Oresu" 4
-	variant 1
+	variant
 		"Eroun (Offense)" 2
 		"Oresu (Offense)" 5
-	
+
 fleet "Taroun Logistic"
-	government "Taroun"
-	names "Taroun"
+	government Taroun
+	names Taroun
 	personality
-		frugal
-		opportunistic
+		frugal opportunistic
 	variant 5
 		"Taroun Ulkoura"
 	variant 4
@@ -1043,39 +995,35 @@ fleet "Taroun Logistic"
 		"Taroun Oresu" 2
 
 fleet "Taroun Patrol"
-	government "Taroun"
-	names "Taroun"
+	government Taroun
+	names Taroun
 	personality
-		heroic
-		vindictive
-		frugal
+		heroic frugal vindictive
 	variant 4
-		"Taroun Eroun" 1
+		"Taroun Eroun"
 		"Taroun Oresu" 2
 	variant 5
 		"Taroun Oresu" 3
-	variant 1
+	variant
 		"Taroun Eroun" 2
 		"Taroun Oresu" 4
 
 fleet "Taroun Raid"
-	government "Taroun"
-	names "Taroun"
+	government Taroun
+	names Taroun
 	personality
-		heroic
-		vindictive
-		opportunistic
-	variant 1
+		heroic vindictive opportunistic
+	variant
 		"Taroun Eroun" 6
 		"Taroun Oresu" 10
-	variant 1
+	variant
 		"Taroun Eroun"
 		"Eroun (Offense)" 4
 		"Oresu (Offense)" 7
 
 fleet "Tehru Insker Patrol"
 	government "Tehru Insker"
-	names "Tehru"
+	names Tehru
 	cargo 1
 	personality
 		frugal
@@ -1086,21 +1034,21 @@ fleet "Tehru Insker Patrol"
 		"Tehru Avir" 2
 		"Tehru Piv" 6
 	variant 10
-		"Tehru Tcvarka" 1
+		"Tehru Tcvarka"
 		"Tehru Avir" 3
 	variant 10
-		"Tehru Tcvarka" 1
+		"Tehru Tcvarka"
 		"Tehru Mavuin"
 		"Tehru Avir" 2
 		"Tehru Piv" 6
 
 fleet "Tehru Insker Merchant"
 	government "Tehru Insker"
-	names "Tehru"
+	names Tehru
 	cargo 2
 	personality
-		timid
 		confusion 25
+		timid
 	variant 15
 		"Tehru Vurbck"
 		"Tehru Avir" 2
@@ -1117,7 +1065,7 @@ fleet "Tehru Insker Merchant"
 		"Tehru Piv" 6
 		"Tehru Avir" 2
 	variant 6
-		"Tehru Tcvarka" 1
+		"Tehru Tcvarka"
 		"Tehru Vurbck" 3
 		"Tehru Mavuin"
 		"Tehru Avir" 2
@@ -1125,91 +1073,89 @@ fleet "Tehru Insker Merchant"
 
 fleet "Tehru Insker Miner"
 	government "Tehru Insker"
-	names "Tehru"
+	names Tehru
 	cargo 0
 	personality
-		mining harvests
 		confusion 20
+		mining harvests
 	variant 15
 		"Tehru Avir"
-		
+
 fleet "Wallagi Patrol"
-	government "Wallagi"
+	government Wallagi
 	names "Wallagi small"
 	personality
 		heroic opportunistic
 	variant 10
-		"Telsarator" 3
+		Telsarator 3
 	variant 8
-		"Dettalor"
+		Dettalor
 	variant 5
-		"Dettalor"
-		"Telsarator"
-	variant 1
-		"Dettalor" 2
-		
+		Dettalor
+		Telsarator
+	variant
+		Dettalor 2
+
 fleet "Wallagi Small"
-	government "Wallagi"
+	government Wallagi
 	names "Wallagi small"
 	personality
 		heroic opportunistic
 	variant 5
-		"Dettalor"
-		"Telsarator" 3
-	variant 1
-		"Dettalor" 2
-		
+		Dettalor
+		Telsarator 3
+	variant
+		Dettalor 2
+
 fleet "Wallagi Big"
-	government "Wallagi"
+	government Wallagi
 	names "Wallagi big"
 	personality
 		heroic opportunistic
 	variant 5
-		"Sentasor"
-		"Dettalor" 3
-		"Talselar" 6
+		Sentasor
+		Dettalor 3
+		Talselar 6
 	variant 4
-		"Dettalor" 5
-		"Talselar" 4
+		Dettalor 5
+		Talselar 4
 	variant 5
-		"Sentasor"
-		"Talselar" 3
+		Sentasor
+		Talselar 3
 
 fleet "Kroom Kanai"
 	government "Kroom Kanai"
-	names "Kroom"
+	names Kroom
 	personality
 		confusion 25
-		frugal 
-		plunders
-		disables
+		disables plunders frugal
 	variant 20
-		"Kargorko" 25
-		"Kaargor"
+		Kargorko 25
+		Kaargor
 	variant 15
-		"Kargorko" 20
-		"Kaargor" 4
+		Kargorko 20
+		Kaargor 4
 	variant 10
-		"Kargorko" 26
-		"Kaargor" 3
-		"Grakka"
+		Kargorko 26
+		Kaargor 3
+		Grakka
 	variant 5
-		"Kargorko" 28
-		"Kaargor" 5
-		"Grokva"
-	variant 1
-		"Kargorko" 32
-		"Kaargor" 6
-		"Grokva"
-		"Grakka" 2
+		Kargorko 28
+		Kaargor 5
+		Grokva
+	variant
+		Kargorko 32
+		Kaargor 6
+		Grokva
+		Grakka 2
 	variant 2
-		"Mugildor"
-		"Grakka" 2
-		"Kargorko" 20
+		Mugildor
+		Grakka 2
+		Kargorko 20
 
 fleet "Uoorn Patrol"
-	government "Uoorn"
-	names "Uoorn"
+	government Uoorn
+	names Uoorn
 	personality
 		confusion 30
 	variant 5
@@ -1218,8 +1164,8 @@ fleet "Uoorn Patrol"
 		"Uoorn Aggressor" 3
 
 fleet "Uoorn Defense"
-	government "Uoorn"
-	names "Uoorn"
+	government Uoorn
+	names Uoorn
 	personality
 		confusion 30
 	variant 5
@@ -1231,29 +1177,26 @@ fleet "Uoorn Defense"
 		"Uoorn Aggressor" 5
 
 fleet "Uoorn Raid"
-	government "Uoorn"
-	names "Uoorn"
+	government Uoorn
+	names Uoorn
 	personality
 		confusion 30
 	variant 5
 		"Uoorn Aggressor" 10
-		
+
 fleet "Zis Heavy Patrol Fleet"
-	government "ZIS"
-	names "Zis"
+	government ZIS
+	names Zis
 	fighters "Zis fighter"
 	cargo 1
 	personality
-		heroic
-		frugal
-		opportunistic
-		disables
-	variant 1
+		disables heroic frugal opportunistic
+	variant
 		"ZN-7681 Eaxes"
 		"DT-510 Quadlancer" 6
 		"AF-18 Zyon" 10
 		"DT-224 Trazar" 4
-	variant 1
+	variant
 		"Eaxes Dissector"
 		"DT-510 Quadlancer" 6
 		"AF-18 Zyon" 10
@@ -1275,15 +1218,12 @@ fleet "Zis Heavy Patrol Fleet"
 		"AD-672 Ranzai" 12
 
 fleet "Zis Light Patrol Fleet"
-	government "ZIS"
-	names "Zis"
+	government ZIS
+	names Zis
 	fighters "Zis fighter"
 	cargo 1
 	personality
-		heroic
-		frugal
-		opportunistic
-		disables
+		disables heroic frugal opportunistic
 	variant 5
 		"BX-3826 Kazai" 3
 		"BS-2237 Ryuzo" 8
@@ -1322,38 +1262,35 @@ fleet "Zis Light Patrol Fleet"
 		"TZ-3468 Seoui"
 		"DT-510 Quadlancer" 2
 		"DT-224 Trazar"
-		
+
 fleet "Zis Raid Fleet"
-	government "ZIS"
-	names "Zis"
+	government ZIS
+	names Zis
 	fighters "Zis fighter"
 	personality
-		heroic
-		opportunistic
-		plunders
-	variant 1
+		plunders heroic opportunistic
+	variant
 		"ZN-7681 Eaxes"
 		"TZ-3468 Seoui" 5
 		"DT-510 Quadlancer" 12
 		"RZ-28 Forlan" 18
 		"AF-18 Zyon" 10
 		"DT-224 Trazar" 8
-	variant 1
+	variant
 		"ZC-4226 Zaikul"
 		"ZM-5422 Karloz" 2
 		"BS-2237 Ryuzo" 3
 		"BX-3826 Kazai" 6
 		"AD-672 Ranzai" 12
 		"XF-26 Mizu" 24
-		
+
 fleet "Zis Defense Fleet"
-	government "ZIS"
-	names "Zis"
+	government ZIS
+	names Zis
 	fighters "Zis fighter"
 	personality
-		heroic
-		opportunistic
-	variant 1
+		heroic opportunistic
+	variant
 		"ZN-7681 Eaxes"
 		"TZ-3468 Seoui" 5
 		"DT-510 Quadlancer" 8
@@ -1361,7 +1298,7 @@ fleet "Zis Defense Fleet"
 		"RZ-621-02 Razor" 5
 		"SG-60 Ginaz Patrol Drone" 24
 		"DT-224 Trazar" 8
-	variant 1
+	variant
 		"Eaxes Dissector"
 		"TZ-3468 Seoui" 5
 		"DT-510 Quadlancer" 8
@@ -1369,41 +1306,35 @@ fleet "Zis Defense Fleet"
 		"RZ-621-02 Razor" 5
 		"SG-60 Ginaz Patrol Drone" 24
 		"DT-224 Trazar" 8
-	variant 1
+	variant
 		"ZC-4226 Zaikul"
 		"ZM-5422 Karloz" 2
 		"BS-2237 Ryuzo" 3
 		"BX-3826 Kazai" 6
 		"AD-672 Ranzai" 12
 		"XF-26 Mizu" 24
-		
+
 fleet "Zis Mining Fleet"
-	government "ZIS"
-	names "Zis"
+	government ZIS
+	names Zis
 	fighters "Zis fighter"
 	cargo 1
 	personality
-		heroic
-		frugal
-		mining harvests
-		disables
-	variant 1
+		disables heroic frugal mining harvests
+	variant
 		"Miner Razor"
 		"Ginaz Builder" 2
-	variant 1
+	variant
 		"SY-8662 Sysor"
 		"Ginaz Builder" 2
-		
+
 fleet "Zis Civillian Fleet"
-	government "ZIS"
-	names "Zis"
+	government ZIS
+	names Zis
 	fighters "Zis fighter"
 	cargo 2
 	personality
-		plunders
-		frugal
-		opportunistic
-		disables
+		disables plunders frugal opportunistic
 	variant 3
 		"Miner Razor"
 		"Ginaz Builder" 2
@@ -1418,43 +1349,43 @@ fleet "Zis Civillian Fleet"
 		"SY-8662 Sysor"
 		"SG-60 Ginaz Patrol Drone" 2
 	variant 5
-		"Katen Civ 1" 
+		"Katen Civ 1"
 	variant 2
 		"Katen Civ 1" 2
 	variant 5
-		"Katen Civ 2" 
+		"Katen Civ 2"
 	variant 2
 		"Katen Civ 2" 2
-	variant 1
+	variant
 		"Katen Civ 2" 3
 		"SY-8662 Sysor"
 		"SG-60 Ginaz Patrol Drone" 2
-	variant 1
+	variant
 		"Katen Civ 3" 2
 		"SY-8662 Sysor"
 		"SG-60 Ginaz Patrol Drone" 2
-	variant 1
+	variant
 		"Katen Civ 4b" 3
 		"SY-8662 Sysor"
 		"SG-60 Ginaz Patrol Drone" 2
-	variant 1
+	variant
 		"Katen Civ 3a" 2
 		"SY-8662 Sysor"
 		"SG-60 Ginaz Patrol Drone" 2
 	variant 2
-		"Katen Civ 3" 
-	variant 1
+		"Katen Civ 3"
+	variant
 		"Katen Civ 3" 2
 	variant 5
-		"Katen Civ 4" 
+		"Katen Civ 4"
 	variant 2
 		"Katen Civ 4" 3
 	variant 4
-		"Katen Civ 4b" 
+		"Katen Civ 4b"
 	variant 2
 		"Katen Civ 4b" 2
 	variant 2
-		"Katen Civ 3a" 
+		"Katen Civ 3a"
 	variant 2
 		"Katen Civ 3a" 2
 	variant 5
@@ -1462,7 +1393,7 @@ fleet "Zis Civillian Fleet"
 	variant 2
 		"Katen Civ 2a" 2
 	variant 5
-		"Katen Dark Blaster" 
+		"Katen Dark Blaster"
 	variant 2
 		"Katen Dark Blaster" 2
 	variant 3
@@ -1477,13 +1408,13 @@ fleet "Zis Civillian Fleet"
 		"Katen Civ 4" 3
 		"AS-56 Virsiz" 5
 	variant 4
-		"Katen Civ 4b" 
+		"Katen Civ 4b"
 		"AS-56 Virsiz"
 	variant 2
 		"Katen Civ 4b" 2
 		"AS-56 Virsiz" 3
 	variant 2
-		"Katen Civ 3a" 
+		"Katen Civ 3a"
 		"AS-56 Virsiz"
 	variant 2
 		"Katen Civ 3a" 2
@@ -1494,7 +1425,7 @@ fleet "Zis Civillian Fleet"
 	variant 2
 		"Katen Civ 2a" 2
 		"AS-56 Virsiz"
-	variant 1
+	variant
 		"VK-35 Katen" 18
 		"RZ-621-02 Razor" 5
 		"SY-8662 Sysor" 3
@@ -1503,7 +1434,7 @@ fleet "Zis Civillian Fleet"
 		"VK-35 Katen" 9
 	variant 5
 		"VK-35 Katen" 6
-		"RZ-621-02 Razor" 1
+		"RZ-621-02 Razor"
 		"SG-60 Ginaz Patrol Drone" 2
 	variant 5
 		"RZ-621-02 Razor" 3
@@ -1513,10 +1444,10 @@ fleet "Zis Civillian Fleet"
 		"VK-35 Katen" 6
 		"SG-60 Ginaz Patrol Drone" 2
 	variant 3
-		"SY-8662 Sysor" 
+		"SY-8662 Sysor"
 		"RZ-621-02 Razor" 3
 		"SG-60 Ginaz Patrol Drone" 8
-	variant 1
+	variant
 		"VK-35 Katen" 27
 		"RZ-621-02 Razor" 12
 		"SY-8662 Sysor" 5
@@ -1544,7 +1475,7 @@ fleet "Zis Civillian Fleet"
 		"DT-224 Trazar" 6
 		"RZ-28 Forlan" 3
 	variant 2
-		"SY-8662 Sysor" 
+		"SY-8662 Sysor"
 		"RZ-621-02 Razor" 3
 		"SG-60 Ginaz Patrol Drone" 8
 		"RZ-28 Forlan" 6
@@ -1553,34 +1484,27 @@ fleet "Zis Civillian Fleet"
 		"SG-60 Ginaz Patrol Drone" 6
 		"RZ-28 Forlan" 6
 	variant 2
-		"SY-8662 Sysor" 
+		"SY-8662 Sysor"
 		"SG-60 Ginaz Patrol Drone" 2
 		"DT-510 Quadlancer" 3
 		"DT-224 Trazar" 6
-		
-		
+
 fleet "Zis Construction Fleet"
 	government "ZIS "
-	names "Zis"
+	names Zis
 	fighters "Zis fighter"
 	cargo 1
 	personality
-		heroic
-		vindictive
-		frugal
-		opportunistic
-		mining harvests
-	variant 1
+		heroic frugal vindictive mining harvests opportunistic
+	variant
 		"Ginaz Builder" 3
-		
-fleet "point"
+
+fleet point
 	government "   "
 	personality
 		heroic
-	variant 1
-		"point" 5
-		
-# New Sky Merge
+	variant
+		point 5
 
 fleet "Small Zorcn Vuskr"
 	government "Vuskr Zorcn"
@@ -1592,11 +1516,11 @@ fleet "Small Zorcn Vuskr"
 		"Zorcn Barsten" 2
 	variant 15
 		"Zorcn Barsten" 3
-	variant 1
+	variant
 		"Zorcn Incskv"
-	variant 1
+	variant
 		"Zorcn Itrras"
-		
+
 fleet "Large Zorcn Vuskr"
 	government "Vuskr Zorcn"
 	names "Vuskr Zorcn"
@@ -1624,19 +1548,19 @@ fleet "Large Zorcn Vuskr"
 		"Zorcn Genex"
 		"Zorcn Dermue" 4
 		"Zorcn Barsten" 3
-	variant 1
+	variant
 		"Zorcn Genex"
 		"Zorcn Dermue" 4
 		"Zorcn Incskv" 2
 		"Zorcn Barsten" 6
-		
+
 fleet "Small Zorcn Merchant"
-	government "Zorcn"
-	names "Zorcn"
+	government Zorcn
+	names Zorcn
 	cargo 4
 	personality
 		confusion 30
-		timid #Most of their weapon use ammo, frugal will prevent them from using their weapon until it's too late.
+		timid
 	variant 40
 		"Zorcn Bermas"
 	variant 40
@@ -1685,7 +1609,7 @@ fleet "Small Zorcn Merchant"
 		"Zorcn Bermas (Heavy Arm)"
 	variant 5
 		"Zorcn Bermas (Heavy Arm II)"
-	variant 1
+	variant
 		"Zorcn Bermas (Heavy Arm II)"
 		"Zorcn Bermas (Defense)" 2
 		"Zorcn Bermas (Medium Arm II)" 3
@@ -1701,7 +1625,7 @@ fleet "Small Zorcn Merchant"
 		"Zorcn Mtyr"
 		"Zorcn Bermas (Heavy Arm II)"
 		"Zorcn Augyr"
-	variant 1
+	variant
 		"Zorcn Nuar'an"
 	variant 20
 		"Zorcn Beltr" 5
@@ -1711,10 +1635,10 @@ fleet "Small Zorcn Merchant"
 		"Zorcn Beltr"
 	variant 12
 		"Zorcn Enntr" 3
-		
+
 fleet "Large Zorcn Merchant"
-	government "Zorcn"
-	names "Zorcn"
+	government Zorcn
+	names Zorcn
 	cargo 4
 	personality
 		confusion 20
@@ -1749,14 +1673,12 @@ fleet "Large Zorcn Merchant"
 		"Zorcn Emaryt"
 		"Zorcn Dermue"
 		"Zorcn Augyr" 2
-		
+
 fleet "Zorcn Frontier Merchant"
-	government "Zorcn"
-	names "Zorcn"
-	cargo 3
+	government Zorcn
+	names Zorcn
 	personality
-		confusion 10
-		timid 
+		timid
 	variant 15
 		"Zorcn Mtyr"
 		"Zorcn Dermue"
@@ -1778,18 +1700,18 @@ fleet "Zorcn Frontier Merchant"
 		"Zorcn Bermas (Heavy Arm)"
 	variant 5
 		"Zorcn Bermas (Heavy Arm II)"
-	variant 1
+	variant
 		"Zorcn Bermas (Heavy Arm II)"
 		"Zorcn Bermas (Defense)" 2
 		"Zorcn Bermas (Medium Arm II)" 3
-	variant 1
+	variant
 		"Zorcn Mtyr" 2
 		"Zorcn Dermue" 2
 		"Zorcn Augyr"
-		
+
 fleet "Zorcn Miner"
-	government "Zorcn"
-	names "Zorcn"
+	government Zorcn
+	names Zorcn
 	cargo 0
 	personality
 		timid frugal mining harvests
@@ -1797,10 +1719,10 @@ fleet "Zorcn Miner"
 		"Zorcn Augyr (Miner)"
 	variant 10
 		"Zorcn Mausr (Miner)"
-		
+
 fleet "Zorcn Xyncil Harasser"
 	government "Xyncil Zorcn"
-	names "Zorcn"
+	names Zorcn
 	cargo 0
 	personality
 		heroic harvests
@@ -1814,3 +1736,36 @@ fleet "Zorcn Xyncil Harasser"
 	variant 10
 		"Zorcn Vixta" 2
 		"Zorcn Barsten (Heavy)" 3
+
+fleet "Tehru Miitr Patrol"
+	government "Tehru Miitr"
+	names Tehru
+	fighters Tehru
+	cargo 1
+	personality
+		confusion 12
+		heroic
+	variant 5
+		"Tehru Iinsir"
+
+fleet "Tehru Miitr Merchant"
+	government "Tehru Miitr"
+	names Tehru
+	fighters Tehru
+	personality
+		confusion 15
+		timid frugal opportunistic
+	variant 30
+		"Tehru Vurbck"
+	variant 20
+		"Tehru Vurbck" 2
+	variant 10
+		"Tehru Iinsir"
+		"Tehru Vurbck" 3
+	variant 10
+		"Tehru Iinsir" 2
+		"Tehru Vurbck" 3
+	variant 1
+		"Tehru Iinsir"
+		"Tehru Vurbck" 4
+
