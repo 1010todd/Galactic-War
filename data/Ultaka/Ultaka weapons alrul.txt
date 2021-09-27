@@ -574,7 +574,7 @@ outfit "Paumas Pointspawn"
 		sound "sidewinder"
 		"hardpoint offset" 3000
 		"turret turn" 360
-		icon "icon/rozzen"
+		icon "icon/paumas"
 		"fire effect" "smoke"
 		"submunition" "Paumas shot"
 		"inaccuracy" 45
@@ -601,9 +601,9 @@ outfit "Paumas shot"
 		"hull damage" 8000
 		"lifetime" 400
 		velocity 20
-		"turn" 5
+		"turn" 7
 		"acceleration" .5
-		"drag" .001
+		"drag" .005
 		"homing" 4
 		"optical tracking" .9
 		"hit force" 25
