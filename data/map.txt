@@ -105737,7 +105737,7 @@ system Verstinas
 		distance 121.25
 		period 29.8544
 	object "Urnoria Os Remanda"
-		sprite planet/rock15
+		sprite planet/gw-remanda
 		distance 511.585
 		period 258.739
 		offset 164.875
@@ -116610,7 +116610,7 @@ system Aulycr
 	trade Metal 270
 	trade Plastic 299
 	object
-		sprite star/a-giant
+		sprite star/giant
 		period 10
 	object
 		sprite planet/water0-b
@@ -116651,7 +116651,7 @@ system Hyshcra
 	trade Metal 270
 	trade Plastic 299
 	object
-		sprite star/a8
+		sprite star/a5
 		period 10
 	object
 		sprite planet/forest0
@@ -116982,7 +116982,7 @@ system Yrnyiir
 	trade Metal 415
 	trade Plastic 447
 	object
-		sprite star/b8
+		sprite star/b5
 		distance 70.998487
 		period 33.285392
 	object
@@ -117262,11 +117262,11 @@ system Chranhr
 	trade Metal 270
 	trade Plastic 299
 	object
-		sprite star/g8
+		sprite star/g5
 		distance 552.16552
 		period 32.235391
 	object
-		sprite star/g-supergiant
+		sprite star/giant
 		distance 3.8344828
 		period 32.235391
 		offset 180
@@ -117501,7 +117501,7 @@ system Kanhrui
 	habitable 26374.2
 	belt 1780
 	object
-		sprite star/g8
+		sprite star/g5
 		distance 286.72321
 		period 28.189672
 	object
@@ -117548,7 +117548,7 @@ system Mavairk
 	link Kujralk
 	habitable 1058.4
 	object
-		sprite star/f8
+		sprite star/f0
 		period 10
 	object
 		sprite planet/ganymede-b
@@ -117685,7 +117685,7 @@ system Bhrynkkr
 	link Elskranh
 	habitable 1269.6
 	object
-		sprite star/a8
+		sprite star/a5
 		period 10
 	object
 		sprite "planet/ringworld left"
