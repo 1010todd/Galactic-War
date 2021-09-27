@@ -638,7 +638,7 @@ effect "hpdl laser"
 	"lifetime" 6
 	"velocity scale" 1
 	
-effect "blast pulse"
+effect "blast pulse" # Not sure what is this used for.
 	sprite "effect/huge spark"
 		"start frame" 1
 		"frame rate" 0
@@ -655,7 +655,7 @@ outfit "Kielir-06 Jammer"
 	"outfit space" -1
 	"radar jamming" 4
 	"scan interference" 5
-	description ""
+	description "Geeva standard jammer."
 	
 outfit "Kielir-07 Jammer"
 	category "Systems"
@@ -665,7 +665,7 @@ outfit "Kielir-07 Jammer"
 	"outfit space" -2
 	"radar jamming" 12
 	"scan interference" 14
-	description ""
+	description "Geeva improved Jammer."
 	
 outfit "Welt-03 Ramscoop" #R2
 	category "Systems"
@@ -684,7 +684,7 @@ outfit "Silr-02 Hyperdrive"
 	"outfit space" -25
 	"jump speed" 1.3
 	"hyperdrive" 1
-	description ""
+	description "Geeva hyperdrive with larger range of speed that it supports."
 	
 outfit "Silr-03 Hyperdrive"
 	category "Systems"
@@ -692,10 +692,10 @@ outfit "Silr-03 Hyperdrive"
 	thumbnail "outfit/hyperdrive"
 	"mass" 25
 	"outfit space" -25
-	"scram drive" 1.5
+	"scram drive" 1.7
 	"jump fuel" 150
 	"hyperdrive" 1
-	description ""
+	description "A variant of Geeva standard hyperdrive with support ofr larger range of  sideway speed allowing ships to jump faster."
 	
 outfit "Unvrsel-02 Star Drive"
 	category "Systems"
@@ -721,7 +721,7 @@ outfit "Calirtei Survey System"
 	"atmosphere scan" 500
 	"tactical scan power" 50
 	"asteroid scan power" 50
-	description ""
+	description "Geeva scanner"
 	
 outfit "Siteli-0e SSCS"
 	category "Systems"
