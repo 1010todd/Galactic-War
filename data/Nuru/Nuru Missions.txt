@@ -18,13 +18,13 @@ mission "First Contact: Nuru"
 				`	(Move closer to it.)`
 				`	(Stay where you are.)`
 				`	"What do you want?"`
-					goto what
+					goto what1
 				`	(Step back.)`
 					goto stepback
 			label movecloser
 			`	The alien moves toward you then raise the device closer to your head. You hear it making some sound similar to a cello sweeping across the notes and cords slowly. A few second later the device stop playing the sound and the alien lowers the device and hands it to you.`
 				goto next
-			label what
+			label what1
 			`	Again, the alien make some high-pitched noise some higher than what you can hear. It points at you then the ground between you and the alien, probably telling you to move closer to it.`
 			choice
 				`	(Move closer to it.)`
@@ -214,6 +214,7 @@ mission "Nuru: Brain Scan Attempt 1"
 				`	"Then if I have technologies from outside where do I bring it to?"`
 					goto where
 			`	"The minimum threshold is 600 tons worth of outfit and to be reduced for particularly special outfits."`
+			choice
 				`	"Ok, so if I have technologies from outside where do I bring it to?"`
 					goto where
 				`	"Got it, thanks."`
@@ -346,10 +347,10 @@ mission "Nuru: Urnoria Os Remanda Observation Moon"
 				"Nuru: Holographic Device" = 1
 				not "Nuru: Brain Scan Attempt 1: offered"
 			branch "DeviceTranslateI"
-				"Nuru: Tablet"
+				"Nuru: Tablet" = 1
 				not "Nuru: Brain Scan Attempt 1: offered"
 			branch "BookTranslateI"
-				"Nuru: Book"
+				"Nuru: Book" = 1
 				not "Nuru: Brain Scan Attempt 1: offered"
 			`On first sight this planets appears to be uninhabited, you wouldn't have found the Nuru observation base if not for the guidance from the Nuru which leads you towards a large cave which was hidden by some optical illusion, and probably some space magic. The inside is not very spacious and can barely fit a large ship, you find youself a place to land and meet the Nuru. "Welcome human. What is your purpose here."`
 			choice
