@@ -51,11 +51,11 @@ ship "Dels Serdeen"
 	thumbnail "thumbnail/dels serdeen thumb"
 	attributes
 		category "Transport"
-		"cost" 200000
+		"cost" 1240000
 		"shields" 1800
 		"hull" 900
 		"required crew" 10
-		"bunks" 50
+		"bunks" 40
 		"mass" 220
 		"drag" 2
 		"heat dissipation" .75
@@ -105,23 +105,23 @@ ship "Dels Serdeen"
 	explode "small explosion" 5
 	description "Mid-sized mid-ranged transport manufactured by Firklee shipyard for general transit across Dels space."
 
-ship "Dels Doreenor" #wip
-	sprite "ship/dels sendo"
-	thumbnail "thumbnail/dels sendo thumb"
+ship "Dels Doreenor"
+	sprite "ship/dels doreenor"
+	thumbnail "thumbnail/dels doreenor thumb"
 	attributes
 		category "Transport"
-		"cost" 200000
-		"shields" 600
-		"hull" 400
-		"required crew" 1
-		"bunks" 10
-		"mass" 80
-		"drag" 1.5
+		"cost" 1500000
+		"shields" 1200
+		"hull" 520
+		"required crew" 2
+		"bunks" 16
+		"mass" 137
+		"drag" 1.8
 		"heat dissipation" .8
 		"fuel capacity" 900
-		"cargo space" 25
-		"outfit space" 250
-		"weapon capacity" 45
+		"cargo space" 20
+		"outfit space" 246
+		"weapon capacity" 63
 		"engine capacity" 120
 		weapon
 			"blast radius" 12
@@ -129,24 +129,57 @@ ship "Dels Doreenor" #wip
 			"hull damage" 60
 			"hit force" 180
 	outfits
+		"Dakte-1 Launcher" 2
+		"Dakte-1 Missile" 80
 		"Fitar Anti-Missile"
 		
 		"Hilke Fuel Cell"
 		"K0108 Battery Pack"
 		"Aeedul Shield Generator"
 		
-		"Hao Ion Engines"
+		"Kuar Ion Engines"
 		"Type-F Hyperdrive"
 		
-	turret 0 1
-	engine -6 39
+	gun -10 -74.5
+	gun 10 -74.5
+	turret -0.5 22.5
+	turret 0.5 22.5
+	engine -7.5 75.5
 		zoom 1
 		angle 0
 		under
-	engine 6 39
+	engine 7.5 75.5
 		zoom 1
 		angle 0
 		under
+	"reverse engine" 22 -26
+		zoom 1
+		angle 0
+		under
+	"reverse engine" -22 -26
+		zoom 1
+		angle 0
+		under
+	"steering engine" 16 -66.5
+		zoom .5
+		angle -89
+		under
+		left
+	"steering engine" -16 -66.5
+		zoom .5
+		angle 89
+		under
+		right
+	"steering engine" 21.5 78
+		zoom .5
+		angle 76
+		under
+		right
+	"steering engine" -21.5 78
+		zoom .5
+		angle -76
+		under
+		left
 	explode "tiny explosion" 10
 	explode "small explosion" 5
 	description "High speed long range transport commonly used for long range transit as well as the upper classes for business and vacation alike."
