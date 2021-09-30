@@ -79,14 +79,14 @@ outfit "Igarsot Cannon"
 		"reload" 12
 		"firing energy" 50
 		"firing heat" 220
-		"heat damage" 18
-		"shield damage" 39
-		"hull damage" 26
+		"heat damage" 32
+		"shield damage" 45
+		"hull damage" 31
 	description "Common anti-ship weaponry recently developed and fielded by Ignaggen."
 	
 outfit "Igarsot Turret"
 	category "Turrets"
-	cost 390000
+	cost 410000
 	thumbnail "outfit/warscythe"
 	"mass" 54
 	"outfit space" -54
@@ -105,13 +105,13 @@ outfit "Igarsot Turret"
 		"velocity" 20
 		"lifetime" 30
 		"reload" 12
-		"turret turn" 1.8
+		"turret turn" 2
 		"firing energy" 50
 		"firing heat" 220
-		"heat damage" 18
-		"shield damage" 39
-		"hull damage" 26
-	description ""
+		"heat damage" 32
+		"shield damage" 45
+		"hull damage" 31
+	description "Ignaggen Igarsot cannon on a turret"
 
 outfit "Rakkrao Cannon"
 	category "Guns"
@@ -137,11 +137,11 @@ outfit "Rakkrao Cannon"
 		"firing force" 20
 		"firing heat" 258
 		"hit force" 10
-		"shield damage" 73
-		"hull damage" 120
+		"shield damage" 79
+		"hull damage" 132
 		"damage dropoff" 650
 		"piercing" .2
-	description "Ignaggen anti-capital cannon with capability to pierc through target shieldings, according to the Ignaggen the shield piercing effect was unexpected during the development. Now it became one of the primary weapon used by the Ignaggen military."
+	description "Ignaggen anti-capital cannon with capability to pierce through target shieldings, according to the Ignaggen the shield piercing effect was unexpected during the development. Now it became one of the primary weapon used by the Ignaggen military."
 	description "Due to the technology behind how it works this gun requires to be powered all the time to be ready to use. Damage dimishes at longer range"
 
 outfit "Gikorel Anti-Missile"
