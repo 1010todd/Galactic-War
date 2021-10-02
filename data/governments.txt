@@ -224,7 +224,7 @@ government "Tehru Insker"
 	color 0.51915127 0.69387549 0.71078432
 	"player reputation" -1
 	"attitude toward"
-		"Tehru Miitr" -0.1
+		#"Tehru Miitr" -0.1
 
 government "Tehru Miitr"
 	swizzle 6
@@ -232,7 +232,7 @@ government "Tehru Miitr"
 	"crew attack" 3
 	"crew defense" 4
 	"attitude toward"
-		"Tehru Insker" -0.1
+		#"Tehru Insker" -0.1
 
 government Ultaka
 	color 0.91000003 0.41999999 0.090000004
@@ -267,6 +267,7 @@ government Ultaka
 		"Kor Mereti" -0.01
 		"Kor Sestor" -0.01
 		Sankrit -0.01
+		Altera -0.01
 		"Dels Ufulre" -0.01
 		ZIS -0.2
 		"Dels Dardornai" -0.01
@@ -307,6 +308,10 @@ government Ultaka
 		Zorcn -0.01
 		Tuk'ux -0.01
 		Ultaka(Mega) 10
+		"Sayari Plushie" -0.01
+		"Yuyuko Saigyouji" -0.01
+		"Illumina Mining Company" -0.01
+		"Rogue" -0.01
 	language Ultaka
 
 government Ultaka(Mega)
@@ -342,6 +347,7 @@ government Ultaka(Mega)
 		"Kor Mereti" -0.01
 		"Kor Sestor" -0.01
 		Sankrit -0.01
+		"Altera" -0.01
 		"Dels Ufulre" -0.01
 		ZIS -0.2
 		"Dels Dardornai" -0.01
@@ -382,6 +388,10 @@ government Ultaka(Mega)
 		"Tehru Miitr" -0.01
 		Zorcn -0.01
 		Tuk'ux -0.01
+		"Sayari Plushie" -0.01
+		"Yuyuko Saigyouji" -0.01
+		"Illumina Mining Company" -0.01
+		"Rogue" -0.01
 	language Ultaka
 
 government Ultaka(Alrul)
