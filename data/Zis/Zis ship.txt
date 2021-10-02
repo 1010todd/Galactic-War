@@ -268,6 +268,7 @@ ship "RZ-28 Forlan"
 		"cost" 120800000
 		"shields" 320000
 		"hull" 280000
+		"hull protection" 1
 		"required crew" 1
 		"bunks" 2
 		"mass" 24
@@ -485,6 +486,7 @@ ship "DT-510 Quadlancer"
 		"cost" 1080000000
 		"shields" 880000
 		"hull" 650000
+		"hull protection" 1
 		"required crew" 3
 		"bunks" 5
 		"mass" 330
@@ -546,6 +548,7 @@ ship "DT-224 Trazar"
 		"cost" 1080000000
 		"shields" 1080000
 		"hull" 780000
+		"hull protection" 1
 		"required crew" 2
 		"bunks" 12
 		"mass" 110
@@ -749,6 +752,7 @@ ship "TZ-3468 Seoui"
 		"cost" 84000000
 		"shields" 540000
 		"hull" 565000
+		"hull protection" 1
 		"required crew" 8
 		"bunks" 20
 		"mass" 490
@@ -817,6 +821,7 @@ ship "ZM-5422 Karloz"
 		"cost" 195000000000
 		"shields" 10220000
 		"hull" 12800000
+		"hull protection" 2
 		"required crew" 28
 		"bunks" 350
 		"mass" 2190
@@ -918,6 +923,7 @@ ship "ZM-5422 Karloz" "Karloz Drone"
 		"cost" 19500000000
 		"shields" 10220000
 		"hull" 12800000
+		"hull protection" 2
 		"automaton" 1
 		"required crew" 28
 		"bunks" 350
@@ -957,6 +963,7 @@ ship "AD-672 Ranzai"
 		"cost" 3384600000
 		"shields" 1818000
 		"hull" 2660000
+		"hull protection" 1.2
 		"required crew" 8
 		"bunks" 32
 		"mass" 202
@@ -1024,6 +1031,7 @@ ship "BS-2237 Ryuzo"
 		"cost" 5354800000
 		"shields" 3465000
 		"hull" 3899000
+		"hull protection" 1.5
 		"required crew" 22
 		"bunks" 72
 		"mass" 282
@@ -1093,6 +1101,7 @@ ship "BX-3826 Kazai"
 		"cost" 6256700000
 		"shields" 4001000
 		"hull" 4580000
+		"hull protection" 1.5
 		"required crew" 12
 		"bunks" 85
 		"mass" 350
@@ -1172,6 +1181,7 @@ ship "XF-26 Mizu"
 		"cost" 1856000000
 		"shields" 980000
 		"hull" 1600000
+		"hull protection" 1.2
 		"required crew" 1
 		"bunks" 2
 		"mass" 96
@@ -1228,6 +1238,7 @@ ship "ZC-4226 Zaikul"
 		"cost" 12788000000
 		"shields" 6810000
 		"hull" 8230000
+		"hull protection" 1.5
 		"required crew" 46
 		"bunks" 380
 		"mass" 1980
@@ -1352,6 +1363,7 @@ ship "AS-56 Virsiz"
 		"cost" 712600000
 		"shields" 568000
 		"hull" 450000
+		"hull protection" 1.2
 		"required crew" 1
 		"bunks" 22
 		"mass" 25
@@ -1460,6 +1472,7 @@ ship "ZN-7681 Eaxes"
 		"cost" 13720000000
 		"shields" 10050000
 		"hull" 9550000
+		"hull protection" 1.6
 		"required crew" 168
 		"bunks" 3800
 		"mass" 2800

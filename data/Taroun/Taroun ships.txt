@@ -6,6 +6,8 @@ ship "Taroun Ulkoura"
 		"cost" 1100000000
 		"shields" 4000000
 		"hull" 2000000
+		"hull protection" .5
+		"shield protection" 1
 		"absolute threshold" 1200
 		"required crew" 12
 		"bunks" 12
@@ -67,6 +69,8 @@ ship "Taroun Eroun"
 		"cost" 1100000000
 		"shields" 5000000
 		"hull" 2400000
+		"hull protection" 1
+		"shield protection" 1
 		"absolute threshold" 1000
 		"required crew" 4
 		"bunks" 5
@@ -129,11 +133,13 @@ ship "Taroun Oresu"
 		"cost" 900000000
 		"shields" 3000000
 		"hull" 1600000
+		"hull protection" 1
+		"shield protection" 1
 		"absolute threshold" 1400
 		"required crew" 8
 		"bunks" 20
 		"mass" 600
-		"drag" 8
+		"drag" 4
 		"heat dissipation" 50
 		"fuel capacity" 1000
 		"cargo space" 60
