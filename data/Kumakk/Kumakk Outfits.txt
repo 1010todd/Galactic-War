@@ -244,7 +244,7 @@ outfit "Loku'nol Missile Launcher"
 		"disruption damage" 80
 		"firing disruption" 5
 		"missile strength" 56
-	description ""
+	description "Kumakk missile"
 
 outfit "Loku'nol Missile Turret"
 	category "Secondary Weapons"
@@ -284,12 +284,12 @@ outfit "Loku'nol Missile Turret"
 		"disruption damage" 80
 		"firing disruption" 5
 		"missile strength" 56
-	description ""
+	description "Kumakk missile"
 
 outfit "Ko'lorke Missile Shield"
 	category "Turrets"
 	cost 62000
-	thumbnail "outfit/ignaggen georlen turret"
+	thumbnail "outfit/unknown"
 	"mass" 26
 	"outfit space" -26
 	"weapon capacity" -26
@@ -306,7 +306,7 @@ outfit "Ko'lorke Missile Shield"
 		"reload" 10
 		"firing energy" 6
 		"firing heat" 12
-	description ""
+	description "Kumakk anti-missile."
 
 effect "ko'lorke am"
 	sprite "effect/kolorke am"
@@ -488,7 +488,7 @@ outfit "Lelu'a Thruster"
 	"thrusting energy" 3.5
 	"thrusting heat" 3.5
 	"afterburner thrust" 84
-	"afterburner energy" 62.5
+	"afterburner energy" 15.5
 	"afterburner heat" 15
 	"active cooling" 32
 	"cooling energy" 16
