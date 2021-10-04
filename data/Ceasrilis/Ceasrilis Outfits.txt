@@ -1,0 +1,233 @@
+outfit "Sihryi Missile Launcher"
+	category "Secondary Weapons"
+	cost 60000
+	thumbnail "outfit/kroom golkar launcher"
+	"mass" 10
+	"outfit space" -13
+	"weapon capacity" -13
+	"gun ports" -1
+	"sihryi capacity" 30
+	weapon
+		sprite "projectile/golkar"
+		sound "zaikor"
+		ammo "Sihryi Missile"
+		icon "icon/galkor"
+		"fire effect" "meteor fire"
+		"die effect" "missile death"
+		"live effect" "afterburner" 50
+		"hit effect" "medium explosion"
+		"inaccuracy" .2
+		"velocity" 13
+		"lifetime" 590
+		"reload" 20
+		"burst count" 5
+		"burst reload" 10
+		"firing energy" 5
+		"firing heat" 50
+		"acceleration" 1.2
+		"drag" .04
+		"turn" 7
+		"homing" 4
+		"radar tracking" .9
+		"shield damage" 220
+		"hull damage" 120
+		"hit force" 12
+		"missile strength" 21
+	description "Ceasrilis missile"
+
+outfit "Sihryi Missile"
+	category "Ammunition"
+	cost 1600
+	thumbnail "outfit/"
+	"mass" .4
+	"sihryi capacity" -1
+	description "Sihryi missile"
+
+outfit "Sihryi Missile Storage"
+	category "Ammunition"
+	cost 3700
+	thumbnail "outfit/kroom golkar torpedo"
+	"mass" 5
+	"sihryi capacity" 20
+	description "Sihryi Missile Storage."
+# 
+outfit "Mviorsin Gravimetric Mine"
+	category "Secondary Weapons"
+	cost 60000
+	thumbnail "outfit/kroom golkar launcher"
+	"mass" 10
+	"outfit space" -15
+	"weapon capacity" -15
+	"gun ports" -1
+	"mviorsin capacity" 32
+	weapon
+		sprite "projectile/golkar"
+		sound "zaikor"
+		ammo "Mviorsin Mine"
+		icon "icon/galkor"
+		"fire effect" "meteor fire"
+		"die effect" "missile death"
+		"hit effect" "medium explosion"
+		"inaccuracy" 30
+		"velocity" 32
+		"random velocity" 10
+		"lifetime" 15000
+		"reload" 25
+		"burst count" 8
+		"burst reload" 5
+		"firing energy" 8
+		"firing heat" 32
+		"acceleration" .11
+		"drag" .1
+		"turn" 7
+		"homing" 4
+		"optical tracking" .9
+		"shield damage" 220
+		"hull damage" 120
+		"hit force" 15
+		"missile strength" 42
+		"slowing damage" 50
+	description "Ceasrilis mine"
+
+outfit "Mviorsin Mine"
+	category "Ammunition"
+	cost 1800
+	thumbnail "outfit/"
+	"mass" .4
+	"sihryi capacity" -1
+	description "Mviorsin mine"
+
+outfit "Mviorsin Mine Storage"
+	category "Ammunition"
+	cost 3700
+	thumbnail "outfit/kroom golkar torpedo"
+	"mass" 5
+	"sihryi capacity" 20
+	description "Mviorsin Mine Storage."
+
+# Deployed Missiles tubes
+
+outfit "Disheir Missile Deployer"
+	category "Secondary Weapons"
+	cost 60000
+	thumbnail "outfit/kroom golkar launcher"
+	"mass" 10
+	"outfit space" -15
+	"weapon capacity" -15
+	"gun ports" -1
+	"disheir capacity" 20
+	weapon
+		sprite "projectile/golkar"
+		sound "zaikor"
+		ammo "Disheir Missile"
+		icon "icon/galkor"
+		"fire effect" "meteor fire"
+		"die effect" "missile death"
+		"hit effect" "medium explosion"
+		"submunition" "Disheir Missile Fire"
+		"inaccuracy" 12
+		"velocity" 3
+		"lifetime" 70
+		"reload" 22
+		"firing energy" 4
+		"firing heat" 21
+		"acceleration" .001
+		"drag" 1
+		"turn" 5
+		"homing" 4
+		"optical tracking" .9
+		"missile strength" 50
+	description "Ceasrilis missile."
+
+outfit "Disheir Missile Fire"
+	weapon
+		sprite "projectile/golkar"
+		"fire effect" "meteor fire"
+		"die effect" "missile death"
+		"shield damage" 130
+		"hull damage" 160
+		"hit force" 30
+		"missile strength" 23
+		"velocity" 10
+		"acceleration" 1
+		"drag" .1
+		"turn" 7
+		"homing" 4
+
+outfit "Disheir Missile"
+	category "Ammunition"
+	cost 1800
+	thumbnail "outfit/"
+	"mass" .4
+	"sihryi capacity" -1
+	description "Disheir missile"
+
+outfit "Disheir Missile Storage"
+	category "Ammunition"
+	cost 3700
+	thumbnail "outfit/kroom golkar torpedo"
+	"mass" 5
+	"sihryi capacity" 24
+	description "Disheir Missiles Storage."
+
+#=================================Systems
+
+outfit "Eisea-3 Shield Generator"
+	category "Systems"
+	cost 150000
+	thumbnail "outfit/tehru shield generator"
+	"mass" 14
+	"outfit space" -14
+	"shield generation" .38
+	"shield energy" .38
+	"shield heat" .3
+	description "Tiny Ceasrilis shield generator"
+	
+outfit "Geia-5 Shield Generator"
+	category "Systems"
+	cost 280000
+	thumbnail "outfit/tehru shield generator"
+	"mass" 28
+	"outfit space" -28
+	"shield generation" .97
+	"shield energy" .97
+	"shield heat" .9
+	description "Small Ceasrilis shield generator"
+
+#=================================Power
+
+outfit "Hirekil Power Generator"
+	category "Power"
+	cost 3600000
+	thumbnail "outfit/red sun"
+	"mass" 46
+	"outfit space" -46
+	"energy generation" 7.8
+	"heat generation" 10.2
+
+outfit "Lisrion Power Generator"
+	category "Power"
+	cost 7300000
+	thumbnail "outfit/yellow sun"
+	"mass" 75
+	"outfit space" -75
+	"energy generation" 13.6
+	"heat generation" 15.9
+
+outfit "Ealire Power Reserve"
+	category "Power"
+	cost 85300
+	thumbnail "outfit/tiny battery"
+	"mass" 12
+	"outfit space" -12
+	"energy capacity" 5690
+	description "Battery"
+
+outfit "Savinra Power Reserve"
+	category "Power"
+	cost 145100
+	thumbnail "outfit/tiny battery"
+	"mass" 35
+	"outfit space" -35
+	"energy capacity" 16800
+	description "Battery"
