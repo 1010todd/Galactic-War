@@ -18,7 +18,11 @@ Over 600 Outfits,
 
 Over 1500 Systems.
 
+## Accessing the Contents
+
 To find the galaxy, head up to the system north of Ka'ch'chrai(The capital) in the Wanderer space, the wormhole will be in between Sko'karak and Pug Iyik
+
+This plugin is complatible with Omnis and World Forge developer plugins, though, World Forge support will be missing some functions and may be slightly outdated.
 
 ### Known Issues
 Galaxy image not appearing. To fix this, turn on "reduce large graphic" option in the setting and restart the game.
