@@ -54,19 +54,19 @@ outfit "Sihryi Missile Storage"
 outfit "Mviorsin Gravimetric Mine"
 	category "Secondary Weapons"
 	cost 60000
-	thumbnail "outfit/kroom golkar launcher"
+	thumbnail "outfit/ceasrilis mviorsin mine launcher"
 	"mass" 10
 	"outfit space" -15
 	"weapon capacity" -15
 	"gun ports" -1
 	"mviorsin capacity" 32
 	weapon
-		sprite "projectile/golkar"
-		sound "zaikor"
+		sprite "projectile/ceasrilis mviorsin mine proj"
+		sound "sidewinder"
 		ammo "Mviorsin Mine"
 		icon "icon/galkor"
-		"fire effect" "meteor fire"
-		"die effect" "missile death"
+		"fire effect" "smoke"
+		"die effect" "tiny explosion"
 		"hit effect" "medium explosion"
 		"inaccuracy" 30
 		"velocity" 32
@@ -92,17 +92,17 @@ outfit "Mviorsin Gravimetric Mine"
 outfit "Mviorsin Mine"
 	category "Ammunition"
 	cost 1800
-	thumbnail "outfit/"
+	thumbnail "outfit/ceasrilis mviorsin mine"
 	"mass" .4
-	"sihryi capacity" -1
+	"mviorsin capacity" -1
 	description "Mviorsin mine"
 
 outfit "Mviorsin Mine Storage"
 	category "Ammunition"
-	cost 3700
-	thumbnail "outfit/kroom golkar torpedo"
+	cost 4700
+	thumbnail "outfit/ceasrilis mviorsin mine launcher"
 	"mass" 5
-	"sihryi capacity" 20
+	"mviorsin capacity" 15
 	description "Mviorsin Mine Storage."
 
 # Deployed Missiles tubes
