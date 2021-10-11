@@ -118679,7 +118679,7 @@ system Siyrin's
 			period 525.28183
 
 system Ikrcke
-	pos -53005.533 -52751.644
+	pos -53005.533 -52750.644
 	government "Tehru Miitr"
 	link Akn'Choka
 	link Mkir'Chau
@@ -118821,25 +118821,17 @@ system Kilakcr
 		sprite star/giant
 		distance 69.382022
 		period 82.296321
-	object
+	object Ashivisra
 		sprite planet/forest5
-		distance 326
+		distance 1350.3368
 		period 124.78472
 	object
 		sprite planet/water0
-		distance 958
+		distance 777.918
 		period 628.61285
-		object
-			sprite planet/station2kd
-			distance 268
-			period 114.8206
-		object
-			sprite planet/sheragi_postverta
-			distance 422
-			period 226.87482
-	object
+	object Snkrvera
 		sprite planet/water1
-		distance 1742
+		distance 1741.6358
 		period 1541.3711
 	object
 		sprite planet/browndwarf-l-rouge
@@ -118889,7 +118881,7 @@ system Vkurchet
 	object
 		sprite star/m0
 		period 10
-	object
+	object Miyskir
 		sprite planet/rock11-b
 		distance 213
 		period 161.48741
@@ -119734,10 +119726,6 @@ system Likcere
 		distance 4493
 		period 1601.942
 		object
-			sprite planet/station10
-			distance 227
-			period 89.506878
-		object
 			sprite planet/rhea-b
 			distance 376
 			period 226.75682
@@ -120033,10 +120021,6 @@ system Akri'alvik
 		sprite planet/station4bd
 		distance 490
 		period 510.42882
-		object
-			sprite planet/luna-b
-			distance 147
-			period 67.371563
 	object
 		sprite planet/gas7-b
 		distance 1356
@@ -121571,6 +121555,7 @@ system Kazzel'lo
 	asteroids "large metal" 12 1.904
 	minables titanium 3 2.8067964
 	minables lead 26 3.6583594
+	fleet "Akralva Hunter" 1500
 	habitable 1616.2
 	belt 1647
 	object
@@ -121620,19 +121605,92 @@ system Kazzel'lo
 			period 374.19466
 
 system Kahnirs
-	pos -52643.122 -53007.133
+	pos -52581.344 -52967.577
 	government Akralva
 	link Vikarak
-	asteroids "small rock" 16 2.346
-	asteroids "medium rock" 94 3.06
-	asteroids "large rock" 2 2.448
-	asteroids "small metal" 4 2.55
-	asteroids "medium metal" 6 2.04
-	asteroids "large metal" 12 1.904
-	minables titanium 3 2.8067964
-	minables lead 26 3.6583594
-	habitable 1616.2
-	belt 1647
+	asteroids "small rock" 1 2.7135
+	asteroids "medium rock" 6 3.1995
+	asteroids "large rock" 5 2.511
+	asteroids "small metal" 25 3.9285
+	asteroids "medium metal" 4 4.0095
+	asteroids "large metal" 125 2.0655
+	minables aluminum 2 3.0762885
+	minables lead 7 2.6326166
+	minables titanium 2 3.8582296
+	fleet "Akralva Hunter" 1200
+	habitable 50000
+	belt 1976
+	object
+		sprite star/wr
+		period 10
+	object
+		sprite planet/lava4-b
+		distance 744
+		period 81.174457
+		object
+			sprite planet/station9
+			distance 142
+			period 32.96893
+	object
+		sprite planet/neptune-b
+		distance 1336
+		period 195.33033
+	object
+		sprite planet/gas2-b
+		distance 2887
+		period 620.4834
+		object
+			sprite planet/dust4-b
+			distance 298
+			period 159.99374
+		object
+			sprite planet/station11
+			distance 451
+			period 186.61096
+		object
+			sprite planet/ice7-b
+			distance 590
+			period 375.05559
+		object
+			sprite planet/rock14-b
+			distance 762
+			period 550.49082
+	object
+		sprite planet/trochzempt_construction
+		distance 6649
+		period 2168.6751
+	object
+		sprite planet/uranus
+		distance 10431
+		period 4261.3667
+		object
+			sprite planet/station15
+			distance 227
+			period 66.636337
+		object
+			sprite planet/station2b
+			distance 421
+			period 74.984356
+		object
+			sprite planet/exp_Ixkek
+			distance 573
+			period 358.96289
+		object
+			sprite planet/desert4
+			distance 690
+			period 857.40392
+	object
+		sprite planet/gas1
+		distance 12215
+		period 5400.0801
+		object
+			sprite planet/rock3
+			distance 465
+			period 379.03564
+		object
+			sprite planet/ice8
+			distance 585
+			period 534.85298
 
 system Seenvihru
 	pos -52573.433 -53859.933
@@ -122058,16 +122116,78 @@ system Vikarak
 	government Akralva
 	link Kahnirs
 	link Kazzel'lo
-	asteroids "small rock" 16 2.346
-	asteroids "medium rock" 94 3.06
-	asteroids "large rock" 2 2.448
-	asteroids "small metal" 4 2.55
-	asteroids "medium metal" 6 2.04
-	asteroids "large metal" 12 1.904
-	minables titanium 3 2.8067964
-	minables lead 26 3.6583594
-	habitable 1616.2
-	belt 1647
+	asteroids "large rock" 1 3.876
+	asteroids "small metal" 7 2.958
+	asteroids "medium metal" 172 4.233
+	asteroids "large metal" 1 3.366
+	minables silver 31 6.3280462
+	minables tungsten 33 8.1867792
+	fleet "Akralva Hunter" 1200
+	habitable 6195.2
+	belt 1562
+	object
+		sprite star/g-giant
+		period 10
+	object
+		sprite planet/gas3-b
+		distance 923
+		period 318.65437
+		object
+			sprite planet/rock20
+			distance 288
+			period 184.75209
+		object
+			sprite planet/station17
+			distance 453
+			period 165.23686
+		object
+			sprite planet/io
+			distance 638
+			period 609.16036
+	object
+		sprite planet/gas7-hot
+		distance 2180
+		period 1156.6503
+		object
+			sprite planet/station4bd
+			distance 234
+			period 48.852932
+		object
+			sprite planet/altera_station0
+			distance 426
+			period 76.32414
+	object
+		sprite planet/gas14
+		distance 3120
+		period 1980.3831
+		object
+			sprite planet/rock7
+			distance 211
+			period 144.98915
+		object
+			sprite planet/station3k
+			distance 309
+			period 105.83031
+	object
+		sprite planet/sheragigasgiant
+		distance 4120
+		period 3005.1292
+		object
+			sprite planet/rock14
+			distance 513
+			period 304.08407
+	object
+		sprite planet/browndwarf-l
+		distance 5213
+		period 4277.0952
+	object
+		sprite planet/gas4-b
+		distance 6039
+		period 5332.9176
+		object
+			sprite planet/station8
+			distance 259
+			period 157.56156
 
 planet Shi'Veckre
 	attributes station
@@ -122079,5 +122199,18 @@ planet Thcherke
 	outfitter "Insker Basic"
 	landscape land/loc3
 	description "Large Tehru Insker fortress station heavily armed with numerous turrets. It is also an orbital shipyard in itself."
+	spaceport .
+
+planet Miyskir
+	attributes mining
+	description "A mostly dry world with very little life across the planet."
+
+planet Ashivisra
+	landscape land/greenmountains2
+
+planet Snkrvera
+	attributes fishing
+	landscape land/water4
+	description "A water world dotted with islands, most untouched by any civilization. "
 	spaceport .
 
