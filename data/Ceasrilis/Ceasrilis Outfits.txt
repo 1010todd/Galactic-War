@@ -239,48 +239,49 @@ outfit "Savinra Power Reserve"
 outfit "Eakis-1 Engine"
 	category "Engines"
 	"cost" 12000
-	thumbnail "outfit/tiny ion thruster"
+	thumbnail "outfit/ceasrilis engine tiny"
 	"mass" 36
 	"outfit space" -36
 	"engine capacity" -36
 	"thrust" 5.6
 	"thrusting energy" .5
 	"thrusting heat" .8
-	"flare sprite" "effect/ion flare/tiny"
+	"flare sprite" "effect/ceasrilis flare/tiny"
 		"frame rate" 1.2
 	"flare sound" "ion tiny"
 	"turn" 185
 	"turning energy" .45
 	"turning heat" .6
-	"steering flare sprite" "effect/ion flare/tiny"
+	"steering flare sprite" "effect/ceasrilis flare/tiny"
 		"frame rate" 1.2
 	"steering flare sound" "ion tiny"
 	"afterburner thrust" 20.0
 	"afterburner energy" 5.6
 	"afterburner heat" 15.0
 	"afterburner effect" "ionic afterburner"
-	description "Cearilis engines have low thrust but are very efficient. The engines can be overdriven in combat for greater speed.""
+	description "Cearilis engines have low thrust but are very efficient. The engines can be overdriven in combat for greater speed."
 
 outfit "Ealris-1 Engine"
 	category "Engines"
 	"cost" 26000
-	thumbnail "outfit/small ion thruster"
+	thumbnail "outfit/ceasrilis engine small"
 	"mass" 53
 	"outfit space" -53
 	"engine capacity" -53
 	"thrust" 12.6
 	"thrusting energy" 1.2
 	"thrusting heat" 1.6
-	"flare sprite" "effect/ion flare/small"
+	"flare sprite" "effect/ceasrilis flare/small"
 		"frame rate" 1.1
 	"flare sound" "ion small"
 	"turn" 378
 	"turning energy" .96
 	"turning heat" 1.19
-	"steering flare sprite" "effect/ion flare/tiny"
+	"steering flare sprite" "effect/ceasrilis flare/tiny"
 		"frame rate" 1.2
 	"steering flare sound" "ion tiny"
 	"afterburner thrust" 25.0
 	"afterburner energy" 7.5
 	"afterburner heat" 19.0
 	"afterburner effect" "ionic afterburner"
+	description "Cearilis engines have low thrust but are very efficient. The engines can be overdriven in combat for greater speed."
