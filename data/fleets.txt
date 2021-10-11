@@ -1,3 +1,80 @@
+fleet "Akralva Hunter"
+	government "Akralva"
+	names "Akralva"
+	cargo 0
+	personality
+		confusion 12
+		heroic plunders
+	variant 40
+		Hixur
+	variant 40
+		Virchan
+	variant 25
+		Helgirvas
+	variant 35
+		Hixur 2
+	variant 30
+		Hixur 3
+	variant 20
+		Virchan 2
+	variant 20
+		Virchan
+		Hixur
+	variant 15
+		Virchan
+		Hixur 2
+	variant 15
+		Virchan 2
+		Hixur 3
+	variant 15
+		Hixur 5
+	variant 1
+		Helgirvas
+		Virchan 3
+		Hixur 5
+
+fleet "Akralva Merchant"
+	government "Akralva"
+	names "Akralva"
+	cargo 2
+	personality
+		confusion 12
+		timid
+	variant 40
+		Hixur
+		Cinrious
+	variant 40
+		Cinrious
+	variant 35
+		Cinrious 2
+	variant 35
+		Cinrious 2
+		Hixur 2
+	variant 30
+		Cinrious 4
+		Hixur 2
+		Virchan
+	variant 30
+		Cinrious 4
+		Virchan 2
+	variant 1
+		Cinrious 5
+		Helgirvas
+		Virchan 4
+		Hixur 6
+
+fleet "Akralva Miner"
+	government "Akralva"
+	names "Akralva"
+	cargo 0
+	personality
+		confusion 12
+		mining harvests
+	variant 40
+		Hixur
+	variant 20
+		Virchan
+
 fleet "Darua Merchant"
 	government "Erader Darua"
 	names "Erader Darua Merchant"
