@@ -76,9 +76,9 @@ ship "Uoorn Warrior"
 		angle 100
 		under
 		right
-	leak "lymaou impact" 10 40
+	leak "uoorn leak" 5 20
 	explode "smoke" 50
-	explode "uoorn acid impact" 5
+	explode "uoorn acid impact" 12
 	explode "nuke explosion" 1
 	description "Uoorn Warrior is a defensive warship deployed by the Uoorn to guard their planets."
 
@@ -120,7 +120,7 @@ ship "Uoorn Aggressor"
 		zoom 1
 		angle 0
 		under
-	leak "lymaou impact" 10 40
+	leak "uoorn leak" 5 20
 	explode "smoke" 50
 	explode "uoorn acid impact" 5
 	explode "nuke explosion" 1
