@@ -404,7 +404,7 @@ outfit "M100SG-M Turret"
 		"hull damage" 1100
 		"piercing" .3
 		"disruption damage" 50
-		
+
 outfit "MU10-A anti missile"
 	category "Turrets"
 	cost 3000000
@@ -645,6 +645,15 @@ outfit "D12E B-Field Projector" #"Ultaka Damage Field"
 		"piercing" 100
 	description "This is a device to amplifiy the effect from Ultaka B-series cores and utilize it as weapon."
 		
+effect "Ultaka AM fire"
+	sprite "effect/ultaka am fire"
+		"no repeat"
+		"frame rate" 4
+	sound "lymaou"
+	"lifetime" 12
+	"random frame rate" 5
+	"velocity scale" 1.8
+
 outfit "Ultaka Antimatter Cannon"
 	category "Guns"
 	cost 5000000
