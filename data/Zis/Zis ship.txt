@@ -1,6 +1,7 @@
 ship "VK-35 Katen"
 	sprite "ship/zis katen"
 	attributes
+		"VK-35 Katen" #For identifying ship.
 		category "Interceptor"
 		"cost" 25200000
 		"shields" 18000
@@ -14,8 +15,8 @@ ship "VK-35 Katen"
 		"weapon capacity" 45
 		"engine capacity" 20
 		"fuel capacity" 500
-		"energy capacity" 19000
-		"energy generation" 83
+		#"energy capacity" 19000
+		#"energy generation" 83
 		"cooling" 35
 		"hyperdrive" 1
 		"jump speed" 6

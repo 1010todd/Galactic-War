@@ -1,10 +1,28 @@
+government Akralva
+	swizzle 0
+	color 0.8 0.4 0.4
+	"player reputation" -1
+	"attribute toward"
+		"Ceasrilis" -.1
+		"Kumakk" -.1
+		"Tehru Insker" -.01
+		"Tehru Miitr" -.01
+
 government Aumar
 	swizzle 5
 	color 0.80000001 0.57999998 0.57999998
 	"player reputation" 0.1
 
+government Ceasrilis
+	swizzle 5
+	color 0.089 0.8 0.245
+	"player reputation" 1
+	"attitude toward"
+		"Tehru Miitr" 0.01
+		"Tehru Insker" -0.01
+
 government Dels
-	color 0.089000002 0.80000001 0.245
+	color 0.089 0.8 0.245
 	"player reputation" 1
 	"attitude toward"
 		"Kroom Kakaima" -0.1
