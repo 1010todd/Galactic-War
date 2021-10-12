@@ -155,7 +155,8 @@ outfit "Varsrel Drone Launcher"
 		"inaccuracy" .1
 		"range override" 1200
 		"velocity" 100
-		"lifetime" 20
+		"lifetime" 80
+		"split range" 345
 		"drag" .12
 		"acceleration" 1
 		"turn" 4
@@ -185,6 +186,7 @@ outfit "varsrel 1"
 		"homing" 2
 		"radar tracking" .8
 		"optical tracking" .7
+		"split range" 345
 
 outfit "varsrel beam 1"
 	weapon
@@ -211,6 +213,7 @@ outfit "varsrel 2"
 		"homing" 2
 		"radar tracking" .8
 		"optical tracking" .7
+		"split range" 345
 
 outfit "varsrel beam 2"
 	weapon
@@ -237,6 +240,7 @@ outfit "varsrel 3"
 		"homing" 2
 		"radar tracking" .8
 		"optical tracking" .7
+		"split range" 345
 
 outfit "varsrel beam 3"
 	weapon
@@ -262,6 +266,7 @@ outfit "varsrel 4"
 		"homing" 2
 		"radar tracking" .8
 		"optical tracking" .7
+		"split range" 345
 
 outfit "varsrel beam 4"
 	weapon
