@@ -46954,9 +46954,10 @@ system Knnravis
 		distance 2068.25
 		period 2463.35
 
-system Ko'Bohdle
+system Ko'bohdle
 	pos -50926.3 -53849.3
 	government Kumakk
+	link Ko'lozok
 	link Ko'sohor
 	link Ko'sukor
 	asteroids "small rock" 7 2.6923
@@ -49505,7 +49506,6 @@ system Ko'morol
 system Ko'movar
 	pos -50825.8 -53992.6
 	government Kumakk
-	link Ko'kumore
 	link Ko'laso
 	link Ko'vokher
 	asteroids "small rock" 1 3.192
@@ -50331,7 +50331,7 @@ system Ko'sodoe
 system Ko'sohor
 	pos -50920.7 -53926.4
 	government Kumakk
-	link Ko'Bohdle
+	link Ko'bohdle
 	link Ko'kodao
 	link Ko'laso
 	link Ko'sourok
@@ -121409,7 +121409,9 @@ system Ko'nokor
 	asteroids "medium metal" 7 1.43
 	asteroids "large metal" 8 1.65
 	fleet "Kumakk Logistic" 1000
-	fleet "Kumakk Security" 1200
+	fleet "Kumakk Security" 800
+	fleet "Kumakk Heavy Security" 1000
+	fleet "Akralva Hunter" 2000
 	habitable 28275.2
 	belt 1283
 	trade Clothing 0
@@ -121860,10 +121862,10 @@ planet Ukkor'kikel
 system Ko'sukor
 	pos -50998.3 -53794.3
 	government Kumakk
-	link Ko'Bohdle
 	link Ko'alok
 	link Ko'aolkor
 	link Ko'aolor
+	link Ko'bohdle
 	link Ko'nokor
 	asteroids "medium rock" 5 2.414
 	asteroids "large rock" 10 3.128
@@ -121874,6 +121876,8 @@ system Ko'sukor
 	minables lead 20 3.2532449
 	fleet "Kumakk Logistic" 800
 	fleet "Kumakk Security" 1200
+	fleet "Akralva Hunter" 3100
+	fleet "Kumakk Heavy Security" 1200
 	habitable 361.25
 	belt 1330
 	trade Clothing 0
@@ -121966,8 +121970,8 @@ system Ko'ionio
 	pos -50759.4 -53887
 	government Kumakk
 	link Ko'akokoe
+	link Ko'aloku
 	link Ko'dormo
-	link Ko'kumore
 	asteroids "small rock" 12 3.3264
 	asteroids "medium rock" 45 4.347
 	asteroids "large rock" 15 5.5566
@@ -124306,6 +124310,7 @@ system Ko'aosor
 	fleet "Kumakk Logistic" 1500
 	fleet "Kumakk Security" 800
 	fleet "Akralva Hunter" 1200
+	fleet "Kumakk Heavy Security" 1000
 	habitable 423.2
 	belt 1283
 	trade Clothing 0
@@ -124599,6 +124604,7 @@ system Ko'shoukol
 	fleet "Kumakk Logistic" 1500
 	fleet "Kumakk Security" 800
 	fleet "Akralva Hunter" 1200
+	fleet "Kumakk Heavy Security" 1000
 	habitable 924.8
 	belt 1283
 	trade Clothing 0
@@ -124664,8 +124670,10 @@ system Ko'aolkor
 	asteroids "large metal" 16 2.686
 	minables silver 5 6.2798162
 	minables lead 20 3.2532449
-	fleet "Kumakk Logistic" 800
-	fleet "Kumakk Security" 1200
+	fleet "Kumakk Logistic" 1500
+	fleet "Kumakk Security" 800
+	fleet "Kumakk Heavy Security" 1000
+	fleet "Akralva Hunter" 2000
 	habitable 2560
 	belt 1330
 	trade Clothing 0
@@ -124870,7 +124878,7 @@ system Sihnruk
 			period 1157.7731
 
 system Vahrrah'ol
-	pos -51150.094 -53905.105
+	pos -51150.094 -53904.105
 	government Akralva
 	link Ko'aosor
 	link Ko'shoukol
@@ -124886,27 +124894,42 @@ system Vahrrah'ol
 	fleet "Akralva Hunter" 700
 	fleet "Akralva Merchant" 2800
 	fleet "Kumakk Security" 900
-	habitable 2163.2
+	fleet "Kumakk Heavy Security" 1100
+	habitable 1525
 	belt 1478
 	object
-		sprite star/o3
-		period 10
+		sprite star/m4
+		distance 179.61967
+		period 71.701911
+		offset 180
 	object
-		sprite planet/rock0-b
-		distance 216
-		period 61.048821
+		sprite star/giant
+		distance 34.380328
+		period 71.701911
 	object
-		sprite planet/exp
-		distance 404
-		period 156.15961
+		sprite planet/lava1-b
+		distance 680
+		period 406.13783
 	object
-		sprite planet/ice1-b
-		distance 709
-		period 363.04964
+		sprite planet/ocean6
+		distance 895
+		period 613.25998
 	object
-		sprite planet/exp_Zyr'c
-		distance 1102
-		period 703.50801
+		sprite planet/uranus
+		distance 1294
+		period 1066.1332
+		object
+			sprite planet/oberon
+			distance 222
+			period 203.71538
+	object
+		sprite planet/browndwarf-l-rouge
+		distance 2586
+		period 3011.9853
+		object
+			sprite planet/ice8-b
+			distance 288
+			period 184.75209
 
 planet Uk'erlok
 	outfitter "Standard Outfits"
@@ -124936,4 +124959,189 @@ planet Curhekval
 	landscape land/canyon0
 	description .
 	spaceport .
+
+system Ko'lozok
+	pos -50896.4 -53800
+	government Kumakk
+	link Ko'aloku
+	link Ko'bohdle
+	asteroids "large rock" 1 3.876
+	asteroids "small metal" 7 2.958
+	asteroids "medium metal" 172 4.233
+	asteroids "large metal" 1 3.366
+	minables silver 31 6.3280462
+	minables tungsten 33 8.1867792
+	fleet "Kumakk Miner" 1300
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200
+	habitable 361.25
+	belt 1562
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/k8
+		period 10
+	object
+		sprite planet/ocean8-b
+		distance 369
+		period 333.56511
+		object
+			sprite planet/ice8-b
+			distance 172
+			period 85.269416
+	object
+		sprite planet/forest6-b
+		distance 834
+		period 1133.4181
+	object
+		sprite planet/rock9-b
+		distance 1252
+		period 2084.7192
+		object
+			sprite planet/rock3-b
+			distance 136
+			period 59.952732
+	object
+		sprite planet/gas6-b
+		distance 1992
+		period 4183.84
+		object
+			sprite planet/europa-b
+			distance 343
+			period 300.5059
+	object
+		sprite planet/gas13
+		distance 2983
+		period 7666.9202
+	object
+		sprite planet/gas2-hot
+		distance 4941
+		period 16344.188
+		object
+			sprite "planet/asteroid base"
+			distance 195
+			period 71.263892
+		object
+			sprite planet/dust4-b
+			distance 307
+			period 167.29623
+		object
+			sprite planet/station5
+			distance 430
+			period 173.73008
+		object
+			sprite planet/station8
+			distance 538
+			period 471.70886
+
+system Ko'aloku
+	pos -50818.4 -53827
+	government Kumakk
+	link Ko'ionio
+	link Ko'lozok
+	asteroids "small rock" 1 2.7135
+	asteroids "medium rock" 6 3.1995
+	asteroids "large rock" 5 2.511
+	asteroids "small metal" 25 3.9285
+	asteroids "medium metal" 4 4.0095
+	asteroids "large metal" 125 2.0655
+	minables aluminum 2 3.0762885
+	minables lead 7 2.6326166
+	minables titanium 2 3.8582296
+	fleet "Kumakk Miner" 1300
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200
+	habitable 28275.2
+	belt 1976
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/m-giant
+		period 10
+	object
+		sprite planet/wisp
+		distance 870
+		period 136.49635
+		object
+			sprite planet/station4bd
+			distance 203
+			period 39.473979
+	object
+		sprite planet/gas13-b
+		distance 1450
+		period 293.69338
+	object
+		sprite planet/gas4
+		distance 2135
+		period 524.73372
+		object
+			sprite planet/rock3
+			distance 249
+			period 148.52503
+		object
+			sprite planet/station3bd
+			distance 354
+			period 174.31009
+	object
+		sprite planet/gas10-hot
+		distance 3471
+		period 1087.7374
+		object
+			sprite planet/altera_station0
+			distance 274
+			period 39.370721
+		object
+			sprite planet/rock20
+			distance 434
+			period 341.771
+	object
+		sprite planet/browndwarf-l-rouge
+		distance 5003
+		period 1882.2959
+
+system Ko'sourok
+	pos -50992.7 -53944.4
+	government Kumakk
+	link Ko'aolkor
+	link Ko'sohor
+	asteroids "small rock" 1 2.8272
+	asteroids "medium rock" 2 1.4136
+	asteroids "large rock" 1 1.9152
+	asteroids "small metal" 1 3.3288
+	asteroids "medium metal" 9 2.1888
+	asteroids "large metal" 7 2.7816
+	minables copper 3 2.47721
+	minables iron 7 2.64411
+	fleet "Kumakk Logistic" 500
+	fleet "Kumakk Security" 1200
+	habitable 233.28
+	belt 1260
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+
+system Ko'kumore
 
