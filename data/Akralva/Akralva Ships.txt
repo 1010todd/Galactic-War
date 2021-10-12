@@ -237,33 +237,33 @@ ship "Virchan"
 		angle 0
 		under
 	"reverse engine" 6 -60
-		zoom 1
+		zoom .6
 		angle -6
 		under
 	"reverse engine" -6 -60
-		zoom 1
+		zoom .6
 		angle 6
 		under
 	"steering engine" 26.5 -43.5
 		zoom .5
 		angle -101
 		under
-		right
+		left
 	"steering engine" -26.5 -43.5
 		zoom .5
 		angle 101
 		under
-		left
+		right
 	"steering engine" 30 10.5
 		zoom .5
 		angle -73
 		under
-		left
+		right
 	"steering engine" -30 10.5
 		zoom .5
 		angle 73
 		under
-		right
+		left
 	explode "tiny explosion" 80
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -294,10 +294,10 @@ ship "Hixur"
 		"hull protection" .1
 		"force protection" .05
 		weapon
-			"blast radius" 320
-			"shield damage" 4000
-			"hull damage" 2000
-			"hit force" 6000
+			"blast radius" 120
+			"shield damage" 2000
+			"hull damage" 1000
+			"hit force" 1000
 	outfits
 		"Vekrevira Gun"
 		
@@ -329,22 +329,22 @@ ship "Hixur"
 		zoom .3
 		angle -90
 		under
-		right
+		left
 	"steering engine" -13 -44.5
 		zoom .3
 		angle 90
 		under
-		left
+		right
 	"steering engine" 8.5 47.5
 		zoom .3
 		angle -90
 		under
-		left
+		right
 	"steering engine" -8.5 47.5
 		zoom .3
 		angle 90
 		under
-		right
+		left
 	explode "tiny explosion" 40
 	explode "small explosion" 35
 	explode "medium explosion" 30
