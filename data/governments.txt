@@ -7,6 +7,7 @@ government Akralva
 		"Kumakk" -.1
 		"Tehru Insker" -.01
 		"Tehru Miitr" -.01
+	#"language" Akralva
 
 government Aumar
 	swizzle 5
@@ -229,7 +230,7 @@ government Revos
 		Ultaka -0.1
 
 government Taroun
-	color 0.60000002 0.60000002 0.60000002
+	color 0.6 0.6 0.6
 	"crew attack" 200
 	"crew defense" 400
 
@@ -241,8 +242,11 @@ government "Tehru Insker"
 	swizzle 4
 	color 0.51915127 0.69387549 0.71078432
 	"player reputation" -1
+	"crew attack" 3
+	"crew defense" 4
 	"attitude toward"
 		#"Tehru Miitr" -0.1
+		"Akralva" -0.1
 
 government "Tehru Miitr"
 	swizzle 6
@@ -330,6 +334,8 @@ government Ultaka
 		"Yuyuko Saigyouji" -0.01
 		"Illumina Mining Company" -0.01
 		"Rogue" -0.01
+		"Akralva" -0.01
+		"Ceasrilis" -0.01
 	language Ultaka
 
 government Ultaka(Mega)
@@ -410,6 +416,8 @@ government Ultaka(Mega)
 		"Yuyuko Saigyouji" -0.01
 		"Illumina Mining Company" -0.01
 		"Rogue" -0.01
+		"Akralva" -0.01
+		"Ceasrilis" -0.01
 	language Ultaka
 
 government Ultaka(Alrul)
