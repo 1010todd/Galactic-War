@@ -1137,6 +1137,38 @@ fleet "Taroun Raid"
 		"Eroun (Offense)" 4
 		"Oresu (Offense)" 7
 
+fleet "Tehru Insker Offense"
+	government "Tehru Insker"
+	names Tehru
+	cargo 1
+	personality
+		heroic
+	variant 10
+		"Tehru Tcvarka"
+		"Tehru Mavuin"
+		"Tehru Avir" 6
+		"Tehru Piv" 6
+	variant 10
+		"Tehru Tcvarka"
+		"Mavuin (Varsrel)"
+		"Tehru Avir" 6
+		"Tehru Piv" 6
+	variant 10
+		"Tehru Tcvarka"
+		"Mavuin (Varsrel)" 2
+		"Tehru Piv" 12
+		"Tehru Avir" 3
+	variant 10
+		"Tehru Tcvarka" 2
+		"Tehru Mavuin"
+		"Tehru Avir" 3
+		"Tehru Piv" 12
+	variant 9
+		"Mavuin (Varsrel)"
+		"Tehru Mavuin" 2
+		"Tehru Piv" 18
+		"Tehru Avir" 8
+
 fleet "Tehru Insker Patrol"
 	government "Tehru Insker"
 	names Tehru
@@ -1149,12 +1181,21 @@ fleet "Tehru Insker Patrol"
 		"Tehru Mavuin"
 		"Tehru Avir" 2
 		"Tehru Piv" 6
+	variant 5
+		"Mavuin (Varsrel)"
+		"Tehru Avir" 2
+		"Tehru Piv" 6
 	variant 10
 		"Tehru Tcvarka"
 		"Tehru Avir" 3
 	variant 10
 		"Tehru Tcvarka"
 		"Tehru Mavuin"
+		"Tehru Avir" 2
+		"Tehru Piv" 6
+	variant 10
+		"Tehru Tcvarka"
+		"Mavuin (Varsrel)"
 		"Tehru Avir" 2
 		"Tehru Piv" 6
 

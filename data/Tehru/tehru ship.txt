@@ -117,6 +117,22 @@ ship "Tehru Mavuin"
 	"final explode" "final explosion large"
 	description "Carrier used by Tehru Insker."
 	
+ship "Tehru Mavuin" "Mavuin (Varsrel)"
+	outfits
+		"Varsrel Drone Launcher" 4
+		"Varsrel Drone" 80
+		"Vuskchet Turret" 2
+		"Illar Missile Defence" 2
+		
+		"Rivkrtelr Reactor"
+		"Inlai Hull Repair"
+		"Pivura Shield Generator"
+		"Water Coolant System"
+		"Tactical Scanner"
+		
+		"Urhas Thruster"
+		"Ivtorne Steering"
+		"Hyperdrive"
 
 ship "Tehru Piv"
 	sprite "ship/tehru piv"
@@ -211,6 +227,21 @@ ship "Tehru Vurbck"
 	"final explode" "final explosion large"
 	description "Common freighter used by both Tehru fraction."
 	
+ship "Tehru Vurbck" "Vurbck (Varsrel)"
+	outfits
+		"Varsrel Drone Launcher" 2
+		"Varsrel Drone" 2
+		"Vrrpak Turret" 2
+
+		"Inlai Hull Repair"
+		"Rivkrtelr Reactor"
+		"Epir Shield Generator"
+		"Water Coolant System" 2
+
+		"Ivtorne Thruster"
+		"Fokhun Steering"
+		Hyperdrive
+
 ship "Tehru Tcvarka"
 	sprite "ship/tehru tcvarka"
 	thumbnail "thumbnail/tehru tcvarka"
