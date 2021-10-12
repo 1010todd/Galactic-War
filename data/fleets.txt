@@ -75,6 +75,45 @@ fleet "Akralva Miner"
 	variant 20
 		Virchan
 
+fleet "Ceasrilis Merchant"
+	government "Ceasrilis"
+	names "Ceasrilis Merchant"
+	cargo 2
+	personality
+		confusion 40
+	variant 20
+		"Ansiyral"
+	variant 50
+		"Qisrkea"
+	variant 20
+		"Ansiyral"
+		"Qisrkea"
+	variant 10
+		"Ansiyral"
+		"Qisrkea" 2
+		"Reayranjr"
+	variant 10
+		"Ansiyral"
+		"Reayranjr"
+	variant 10
+		"Ansiyral" 3
+		"Qisrkea" 4
+		"Reayranjr"
+
+fleet "Ceasrilis Guard"
+	government "Ceasrilis"
+	names "Ceasrilis Guard"
+	cargo 1
+	personality
+		confusion 25
+	variant 20
+		"Reayranjr" 2
+	variant 20
+		"Ansiyral" 3
+	variant 8
+		"Reayranjr" 2
+		"Ansiyral" 3
+
 fleet "Darua Merchant"
 	government "Erader Darua"
 	names "Erader Darua Merchant"
