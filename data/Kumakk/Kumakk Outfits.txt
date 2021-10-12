@@ -28,7 +28,7 @@ outfit "Ordakko Gun"
 effect "ordakko laser"
 	sprite "projectile/ordakko laser"
 		"no repeat"
-		"frame rate" 30
+		"frame rate" 60
 	"lifetime" 5
 	"velocity scale" 1.
 
@@ -84,7 +84,7 @@ outfit "Ku'alno Turret"
 effect "ku'alno trail"
 	sprite "effect/gw green trail"
 	"lifetime" 9
-	"velocity scale" 0.1
+	"velocity scale" 0.8
 
 outfit "ku'alno turn1"
 	weapon
