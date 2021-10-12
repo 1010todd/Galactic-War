@@ -657,11 +657,31 @@ fleet "Kumakk Security"
 		heroic opportunistic
 	variant 10
 		Akolucor
-	variant 13
+	variant 10
 		Akolucor
 		Kasoulek 3
 	variant 8
 		Akolucor 2
+	variant 8
+		"Akolucor (Heavy)"
+		Akolucor
+
+fleet "Kumakk Heavy Security"
+	government Kumakk
+	names "Kumakk Security"
+	personality
+		confusion 12
+		heroic
+	variant 10
+		Akolucor 2
+	variant 10
+		"Akolucor (Heavy)"
+		Akolucor
+	variant 10
+		"Akolucor (Heavy)"
+		Akolucor 2
+	variant 10
+		Akolucor 3
 
 fleet "Kumakk Logistic"
 	government Kumakk
