@@ -384,6 +384,41 @@ fleet "Erm CIV Fleet"
 		"Ernar Offensive(S)"
 		"Ernar Offensive(A)"
 
+fleet "Gargoor'an Urn War Fleet"
+	government "Gargoor'an"
+	names "Gargoor'an"
+	cargo 1
+	personality
+		confusion 20
+	variant 30
+		"Bwehoke" 2
+		"Akyonur" 2
+	variant 30
+		"Bwehoke" 2
+		"Akyonur" 3
+	variant 25
+		"Bwehoke" 2
+		"Akyonur" 4
+
+fleet "Gargoor'an Akr War Fleet"
+	government "Gargoor'an"
+	names "Gargoor'an"
+	cargo 1
+	personality
+		confusion 20
+	variant 30
+		"Bwehoke"
+		"Bwehoke (Hull)"
+		"Akyonur" 2
+	variant 30
+		"Bwehoke"
+		"Bwehoke (Hull)"
+		"Akyonur" 3
+	variant 25
+		"Bwehoke"
+		"Bwehoke (Hull)"
+		"Akyonur" 4
+
 fleet "Geeva Battle Fleet"
 	government Geeva
 	names "Geeva Guard"

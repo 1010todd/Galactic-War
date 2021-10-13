@@ -1316,6 +1316,9 @@ system Aifveva
 	object "Omnis-GW: Erader Mukube Wormhole"
 		sprite sprite/wisp_green
 		distance 4000
+	object "Omnis-GW: Erader Mukube Wormhole"
+		sprite sprite/wisp_green
+		distance 4000
 
 system Ailaleli
 	pos -52223.6 -56209.5
@@ -8240,6 +8243,9 @@ system Basksrek
 			sprite planet/tethys
 			distance 533
 			period 32.3203
+	object "Omnis-GW: Makerurader Wormhole"
+		sprite sprite/wisp_green
+		distance 4000
 	object "Omnis-GW: Makerurader Wormhole"
 		sprite sprite/wisp_green
 		distance 4000
@@ -16324,6 +16330,10 @@ system Dolmoriwakla
 		sprite sprite/wisp_green
 		distance 4000
 		offset 30
+	object "Omnis-GW: Dels Ufulre Wormhole"
+		sprite sprite/wisp_green
+		distance 4000
+		offset 30
 
 system Dopolk
 	pos -51638.9 -54870.8
@@ -21603,6 +21613,9 @@ system Erwal
 	object "Omnis-GW: Ignaggen Wormhole"
 		sprite sprite/wisp_green
 		distance 4000
+	object "Omnis-GW: Ignaggen Wormhole"
+		sprite sprite/wisp_green
+		distance 4000
 
 system Esmelle
 	pos -51672.8 -56370.5
@@ -24730,6 +24743,7 @@ system Folseenoo
 	asteroids "large metal" 34 2.028
 	minables aluminum 3 2.53724
 	minables copper 1 3.19014
+	fleet "Uoorn Patrol" 1000
 	habitable 1566.68
 	belt 1362
 	trade Clothing 239
@@ -27815,6 +27829,9 @@ system Ginma
 	object "Omnis-GW: Kroom Kanai Wormhole"
 		sprite sprite/wisp_green
 		distance 4000
+	object "Omnis-GW: Kroom Kanai Wormhole"
+		sprite sprite/wisp_green
+		distance 4000
 
 system Ginsolor
 	pos -50926.4 -56610.5
@@ -28219,6 +28236,9 @@ system "Go se ri"
 			sprite planet/dust4
 			distance 426
 			period 53.2757
+	object "Omnis-GW: Nuru Wormhole"
+		sprite sprite/wisp_green
+		distance 4000
 	object "Omnis-GW: Nuru Wormhole"
 		sprite sprite/wisp_green
 		distance 4000
@@ -31142,6 +31162,9 @@ system "Haola Lesu"
 			sprite planet/luna
 			distance 687
 			period 59.8801
+	object "Omnis-GW: Qoro Siogarl Wormhole"
+		sprite sprite/wisp_green
+		distance 3000
 	object "Omnis-GW: Qoro Siogarl Wormhole"
 		sprite sprite/wisp_green
 		distance 3000
@@ -39821,6 +39844,8 @@ system Kalloo'anuu
 	pos -52785.3 -56741.2
 	government Uoorn
 	link Folseenoo
+	link Goouree'ai
+	link Mvigoora
 	asteroids "small rock" 1 4.1952
 	asteroids "medium rock" 5 6.2016
 	asteroids "large rock" 1 2.8728
@@ -39829,6 +39854,9 @@ system Kalloo'anuu
 	asteroids "large metal" 57 6.6576
 	minables copper 7 12.7883
 	minables silver 3 10.1598
+	fleet "Uoorn Patrol" 600
+	fleet "Uoorn Raid" 800
+	fleet "Gargoor'an Urn War Fleet" 1000
 	habitable 425.92
 	belt 1643
 	trade Clothing 239
@@ -39943,6 +39971,7 @@ system Kalroo'nulro
 	pos -52634.3 -56717.7
 	government Uoorn
 	link Folseenoo
+	link Luree'ooi
 	link Nuleeson'la
 	link Vilseeno
 	asteroids "medium rock" 19 2.32
@@ -48738,6 +48767,9 @@ system Ko'kusor
 			sprite planet/io
 			distance 637
 			period 60.2837
+	object "Omnis-GW: Kumakk Wormhole"
+		sprite sprite/wisp_green
+		distance 4000
 	object "Omnis-GW: Kumakk Wormhole"
 		sprite sprite/wisp_green
 		distance 4000
@@ -61707,6 +61739,9 @@ system Magosen-L2885
 	object "Omnis-GW: Wallagi Wormhole"
 		sprite sprite/wisp_green
 		distance 4000
+	object "Omnis-GW: Wallagi Wormhole"
+		sprite sprite/wisp_green
+		distance 4000
 
 system Magrilnil
 	pos -52495.1 -55688.3
@@ -63662,6 +63697,9 @@ system Malsos
 		sprite planet/gas13
 		distance 3738.72
 		period 5111.75
+	object "Omnis-GW: Makau a Qoro Wormhole"
+		sprite sprite/wisp_green
+		distance 3000
 	object "Omnis-GW: Makau a Qoro Wormhole"
 		sprite sprite/wisp_green
 		distance 3000
@@ -70466,6 +70504,10 @@ system Mokugea
 		sprite sprite/wisp_green
 		distance 4000
 		offset 330
+	object "Omnis-GW: Dels Dardornai Wormhole"
+		sprite sprite/wisp_green
+		distance 4000
+		offset 330
 
 system Molelca
 	pos -52400.1 -56001.8
@@ -70592,6 +70634,9 @@ system Molta
 			sprite planet/rock3
 			distance 354
 			period 17.0126
+	object "Omnis-GW: Revos Wormhole"
+		sprite sprite/wisp_green
+		distance 4000
 	object "Omnis-GW: Revos Wormhole"
 		sprite sprite/wisp_green
 		distance 4000
@@ -71334,6 +71379,9 @@ system Mortarlen
 			sprite planet/rock14
 			distance 271
 			period 12.594
+	object "Omnis-GW: Erader Darua Wormhole"
+		sprite sprite/wisp_green
+		distance 4000
 	object "Omnis-GW: Erader Darua Wormhole"
 		sprite sprite/wisp_green
 		distance 4000
@@ -77559,6 +77607,9 @@ system Nihverka
 	object "Omnis-GW: Erader Narpul Wormhole"
 		sprite sprite/wisp_green
 		distance 4000
+	object "Omnis-GW: Erader Narpul Wormhole"
+		sprite sprite/wisp_green
+		distance 4000
 
 system Nikavel
 	pos -51812.1 -56503.8
@@ -79483,6 +79534,7 @@ system Nuleeson'la
 	asteroids "medium metal" 20 2.904
 	asteroids "large metal" 9 4.532
 	minables aluminum 6 4.87278
+	fleet "Uoorn Patrol" 1000
 	habitable 486.68
 	belt 1538
 	trade Clothing 239
@@ -81478,6 +81530,9 @@ system Okrevug
 			sprite planet/dust7
 			distance 262
 			period 11.9719
+	object "Omnis-GW: Kroom Kakaima Wormhole"
+		sprite sprite/wisp_green
+		distance 4000
 	object "Omnis-GW: Kroom Kakaima Wormhole"
 		sprite sprite/wisp_green
 		distance 4000
@@ -89647,6 +89702,9 @@ system Rilgeril
 	object "Omnis-GW: Geeva Wormhole"
 		sprite sprite/wisp_green
 		distance 4000
+	object "Omnis-GW: Geeva Wormhole"
+		sprite sprite/wisp_green
+		distance 4000
 
 system Riliga
 	pos -51459.1 -56275.9
@@ -94287,6 +94345,9 @@ system Saska
 	object "Omnis-GW: Ultaka Wormhole"
 		sprite sprite/wisp_green
 		distance 5000
+	object "Omnis-GW: Ultaka Wormhole"
+		sprite sprite/wisp_green
+		distance 5000
 
 system Scmila
 	pos -50781.6 -56438.1
@@ -96217,6 +96278,7 @@ system Sier
 system Siineelo'a
 	pos -52495.2 -56644.4
 	link Aanroo'lee
+	link Aeei'loore
 	link Aseenlii'oor
 	asteroids "small rock" 1 4.14
 	asteroids "medium rock" 1 5.9225
@@ -100533,6 +100595,9 @@ system "Trochzempt ZAZ-1"
 	object "Omnis-GW: Zis Wormhole"
 		sprite sprite/wisp_green
 		distance 4000
+	object "Omnis-GW: Zis Wormhole"
+		sprite sprite/wisp_green
+		distance 4000
 
 system Tuarli
 	pos -50929.2 -55082.2
@@ -103551,6 +103616,9 @@ system Urkvulnar
 	object "Omnis-GW: Tehru Insker Wormhole"
 		sprite sprite/wisp_green
 		distance 4000
+	object "Omnis-GW: Tehru Insker Wormhole"
+		sprite sprite/wisp_green
+		distance 4000
 
 system Urkwaar
 	pos -47873.5 -53435.2
@@ -103635,6 +103703,9 @@ system Urlansa
 		distance 2664.09
 		period 2665.14
 		offset 311.928
+	object "Omnis-GW: Taroun Wormhole"
+		sprite sprite/wisp_green
+		distance 4000
 	object "Omnis-GW: Taroun Wormhole"
 		sprite sprite/wisp_green
 		distance 4000
@@ -107131,12 +107202,14 @@ system Vilseeno
 	government Uoorn
 	link Folseenoo
 	link Kalroo'nulro
+	link Luree'ooi
 	asteroids "small rock" 12 2.6432
 	asteroids "medium rock" 28 2.4192
 	asteroids "large rock" 38 3.9872
 	asteroids "small metal" 1 5.7792
 	asteroids "medium metal" 18 5.1968
 	asteroids "large metal" 4 4.7936
+	fleet "Uoorn Patrol" 1000
 	habitable 425.92
 	belt 1530
 	trade Clothing 239
@@ -107841,6 +107914,9 @@ system Vishil
 	object "Omnis-GW: Erader Kasiva Wormhole"
 		sprite sprite/wisp_green
 		distance 4000
+	object "Omnis-GW: Erader Kasiva Wormhole"
+		sprite sprite/wisp_green
+		distance 4000
 
 system Visilmara
 	pos -51480.5 -56506.1
@@ -108123,6 +108199,9 @@ system Vobeelee
 			sprite planet/ice7
 			distance 577
 			period 59.2157
+	object "Omnis-GW: Dels Kaote Wormhole"
+		sprite sprite/wisp_green
+		distance 4000
 	object "Omnis-GW: Dels Kaote Wormhole"
 		sprite sprite/wisp_green
 		distance 4000
@@ -110889,6 +110968,9 @@ system Worak
 	object "Omnis-GW: Donko Wormhole"
 		sprite sprite/wisp_green
 		distance 4000
+	object "Omnis-GW: Donko Wormhole"
+		sprite sprite/wisp_green
+		distance 4000
 
 system Xibelna
 	pos -52140.1 -56344.2
@@ -111745,6 +111827,9 @@ system Zausn
 		distance 2305.03
 		period 2006.56
 		offset 356.719
+	object "Omnis-GW: Zorcn Wormhole"
+		sprite sprite/wisp_green
+		distance 4000
 	object "Omnis-GW: Zorcn Wormhole"
 		sprite sprite/wisp_green
 		distance 4000
@@ -121500,10 +121585,6 @@ system Kahnirs
 		sprite planet/gw-island0
 		distance 694
 		period 677.13528
-		object
-			sprite planet/altera_station0
-			distance 220
-			period 28.325758
 	object
 		sprite planet/dust4-b
 		distance 1147
@@ -122057,10 +122138,6 @@ system Kerzeka
 			distance 288
 			period 184.75209
 		object
-			sprite planet/station17
-			distance 453
-			period 165.23686
-		object
 			sprite planet/io
 			distance 638
 			period 609.16036
@@ -122072,10 +122149,6 @@ system Kerzeka
 			sprite planet/station4bd
 			distance 234
 			period 48.852932
-		object
-			sprite planet/altera_station0
-			distance 426
-			period 76.32414
 	object
 		sprite planet/gas14
 		distance 3120
@@ -122084,10 +122157,6 @@ system Kerzeka
 			sprite planet/rock7
 			distance 211
 			period 144.98915
-		object
-			sprite planet/station3k
-			distance 309
-			period 105.83031
 	object
 		sprite planet/sheragigasgiant
 		distance 4120
@@ -122104,10 +122173,6 @@ system Kerzeka
 		sprite planet/gas4-b
 		distance 6039
 		period 5332.9176
-		object
-			sprite planet/station8
-			distance 259
-			period 157.56156
 
 system Vahrecuh
 	pos -52706.456 -52963.8
@@ -122266,10 +122331,6 @@ system Sihrake
 		sprite star/giant
 		distance 34.380328
 		period 71.701911
-	object
-		sprite planet/forest4
-		distance 314
-		period 127.43964
 	object
 		sprite planet/lava1-b
 		distance 680
@@ -125267,13 +125328,13 @@ system Rehveixa
 	object
 		sprite star/g8
 		period 10
-	object
+	object Iceanira
 		sprite planet/rock6-b
-		distance 166
+		distance 327.3243
 		period 99.477227
 	object
 		sprite planet/jupiter
-		distance 758
+		distance 961.02727
 		period 970.65601
 		object
 			sprite planet/dust3
@@ -127319,4 +127380,1031 @@ system Sinhrea
 	fleet "Akralva Merchant" 1500
 	habitable 2560
 	belt 1098
+
+system Xurceax
+	pos -52031.233 -53629.799
+	government Akralva
+	asteroids "medium rock" 10 4.785
+	asteroids "large rock" 2 3.685
+	asteroids "small metal" 33 5.39
+	asteroids "medium metal" 18 4.895
+	asteroids "large metal" 1 4.4
+	minables lead 3 8.6334875
+	minables uranium 5 8.9285625
+	fleet "Akralva Hunter" 800
+	fleet "Akralva Merchant" 700
+	fleet "Akralva Battlefleet" 800
+	habitable 2560
+	belt 1494
+	object
+		sprite star/o-supergiant
+		distance 350
+		period 327.39502
+		offset 180
+	object
+		sprite star/a-supergiant
+		distance 350
+		period 327.39502
+	object
+		sprite planet/dust5
+		distance 781
+		period 385.83495
+	object
+		sprite planet/gas7-b
+		distance 1150
+		period 689.40078
+	object
+		sprite planet/rhea-b
+		distance 1749
+		period 1293.0333
+	object
+		sprite planet/gas6-hot
+		distance 2238
+		period 1871.609
+	object
+		sprite planet/neptune-b
+		distance 2807.0942
+		period 2634.6097
+	object "Akralva Wormhole"
+		sprite planet/wormhole
+		distance 195.66779
+		period 327.395
+		offset 90
+
+planet "Akralva Wormhole"
+
+system Xuarickesi
+	pos -54503.733 -54356.299
+	government Akralva
+	link Ehrelxu
+	link Vicyirex
+	asteroids "small rock" 5 4.4
+	asteroids "medium rock" 13 2.55
+	asteroids "large rock" 2 2.85
+	asteroids "small metal" 4 2.75
+	asteroids "medium metal" 9 4.85
+	asteroids "large metal" 8 3.3
+	minables iron 1 5.682922
+	fleet "Akralva Hunter" 800
+	fleet "Akralva Merchant" 700
+	fleet "Akralva Battlefleet" 800
+	habitable 2560
+	belt 1280
+	object
+		sprite star/g-supergiant
+		distance 508.5
+		period 573.33234
+		offset 180
+	object
+		sprite star/k-supergiant
+		distance 508.5
+		period 573.33234
+	object
+		sprite planet/desert7
+		distance 1170
+		period 707.46312
+	object
+		sprite planet/lava3-b
+		distance 1389
+		period 915.1207
+	object
+		sprite planet/gas13-b
+		distance 2068
+		period 1662.4585
+	object
+		sprite planet/gas12
+		distance 2924
+		period 2795.0595
+		object
+			sprite planet/station0
+			distance 312
+			period 94.447727
+		object
+			sprite planet/europa
+			distance 440
+			period 436.60715
+	object
+		sprite planet/gas2-hot
+		distance 4412
+		period 5180.5786
+	object
+		sprite planet/jupiter
+		distance 5183
+		period 6596.2457
+	object "Akralva Wormhole"
+		sprite planet/wormhole
+		period 573.332
+		offset 90
+
+system Vicyirex
+	pos -54483.177 -54426.41
+	government Akralva
+	link Ehrelxu
+	link Hlevasi
+	link Xuarickesi
+	asteroids "medium rock" 11 1.584
+	asteroids "large rock" 7 1.7424
+	asteroids "small metal" 15 0.9856
+	asteroids "medium metal" 24 1.496
+	asteroids "large metal" 8 1.32
+	minables gold 1 2.3821605
+	fleet "Akralva Hunter" 800
+	fleet "Akralva Merchant" 700
+	habitable 1685
+	belt 1111
+	object
+		sprite star/g3
+		distance 144.33234
+		period 57.065739
+	object
+		sprite star/o5
+		distance 45.667656
+		period 57.065739
+		offset 180
+	object
+		sprite planet/water1
+		distance 333
+		period 132.40714
+	object
+		sprite planet/gas5-hot
+		distance 556
+		period 285.66513
+	object
+		sprite planet/gas4
+		distance 1492
+		period 1255.7358
+		object
+			sprite planet/dust7-b
+			distance 417
+			period 321.88794
+	object
+		sprite planet/lava0
+		distance 2147
+		period 2167.6697
+	object
+		sprite planet/gas13-b
+		distance 2723
+		period 3096.1109
+
+planet Iceanira
+	attributes mining
+	outfitter "Akralva Basic"
+	outfitter "Standard Outfits"
+	landscape land/canyon6
+	description .
+	spaceport .
+
+system Hlevasi
+	pos -54542.177 -54473.41
+	government Akralva
+	link Vahsrihal
+	link Vicyirex
+	asteroids "small rock" 3 3.4086
+	asteroids "medium rock" 65 4.5942
+	asteroids "large rock" 10 3.2604
+	asteroids "medium metal" 7 4.7424
+	asteroids "large metal" 6 4.1002
+	minables aluminum 11 8.3974289
+	minables tungsten 13 6.3222022
+	fleet "Akralva Hunter" 800
+	fleet "Akralva Merchant" 700
+	habitable 204.8
+	belt 1641
+	object
+		sprite star/m5
+		period 10
+	object Miexdaku
+		sprite planet/desert5
+		distance 160
+		period 126.49111
+	object
+		sprite planet/ice4
+		distance 530
+		period 762.59477
+	object
+		sprite planet/earth-b
+		distance 1024
+		period 2048
+	object
+		sprite planet/gas17
+		distance 2246
+		period 6652.6495
+		object
+			sprite planet/station1k
+			distance 221
+			period 124.19069
+
+planet Miexdaku
+	attributes mining
+	outfitter "Akralva Basic"
+	outfitter "Standard Outfits"
+	landscape land/canyon6
+	description .
+	spaceport .
+
+system Vahsrihal
+	pos -54623.844 -54493.077
+	government Akralva
+	link Hlevasi
+	asteroids "small rock" 11 1.3248
+	asteroids "medium rock" 3 0.9648
+	asteroids "large rock" 3 0.9072
+	asteroids "small metal" 7 0.8784
+	asteroids "large metal" 13 1.3536
+	minables platinum 2 2.2454041
+	fleet "Akralva Hunter" 800
+	fleet "Akralva Merchant" 700
+	habitable 336.2
+	belt 1415
+	object
+		sprite star/k3
+		period 10
+	object Kihelra
+		sprite planet/cloud3
+		distance 368
+		period 344.3641
+		object
+			sprite planet/lava0
+			distance 165
+			period 55.468132
+	object
+		sprite planet/gas1
+		distance 1624
+		period 3192.4579
+		object
+			sprite planet/dust1
+			distance 485
+			period 332.19355
+		object
+			sprite planet/dust7-b
+			distance 631
+			period 599.16255
+		object
+			sprite planet/station2kd
+			distance 783
+			period 573.4034
+	object
+		sprite planet/sheragi_postverta
+		distance 3078
+		period 8330.0779
+	object
+		sprite planet/browndwarf-y
+		distance 3908
+		period 11917.303
+		object
+			sprite planet/rhea
+			distance 437
+			period 284.1193
+
+planet Kihelra
+	outfitter "Akralva Basic"
+	outfitter "Standard Outfits"
+	landscape land/sea1
+	description .
+	spaceport .
+
+system Ehrelxu
+	pos -54416.844 -54397.855
+	government Akralva
+	link Kevsihe
+	link Vicyirex
+	link Xuarickesi
+	link Xueralo
+	asteroids "small rock" 107 3.3856
+	asteroids "medium rock" 14 2.2816
+	asteroids "large rock" 39 2.3552
+	asteroids "medium metal" 50 2.024
+	asteroids "large metal" 1 2.5392
+	minables lead 6 3.3123479
+	minables iron 33 5.3081424
+	minables neodymium 18 5.0174384
+	fleet "Akralva Hunter" 800
+	fleet "Akralva Merchant" 700
+	habitable 369.8
+	belt 1576
+	object
+		sprite star/g8
+		period 10
+	object
+		sprite planet/ice7
+		distance 274
+		period 210.95382
+	object Askrelva
+		sprite planet/gw-island0p
+		distance 530.60699
+		period 919.2584
+	object
+		sprite planet/desert1-b
+		distance 1268
+		period 2100.1022
+	object
+		sprite planet/gas16
+		distance 1811
+		period 3584.5877
+		object
+			sprite planet/dust0
+			distance 177
+			period 145.0288
+	object
+		sprite planet/gas0-b
+		distance 2520
+		period 5883.8603
+		object
+			sprite planet/dust5-b
+			distance 264
+			period 112.25961
+	object
+		sprite planet/rock7-b
+		distance 3116
+		period 8090.1712
+
+planet Askrelva
+	shipyard "Akralva Advanced"
+	shipyard "Akralva Basic"
+	shipyard "Akralva Intermediate"
+	outfitter "Akralva Advanced"
+	outfitter "Standard Outfits"
+	landscape land/fog1
+	description .
+	spaceport .
+	"required reputation" 5
+
+system Kevsihe
+	pos -54419.844 -54309.077
+	government Akralva
+	link Ehrelxu
+	asteroids "small rock" 1 2.8704
+	asteroids "large rock" 1 2.4656
+	asteroids "small metal" 7 2.7968
+	asteroids "medium metal" 3 2.4656
+	asteroids "large metal" 3 3.3856
+	minables aluminum 4 3.493635
+	fleet "Akralva Hunter" 800
+	fleet "Akralva Merchant" 700
+	habitable 13107.2
+	belt 1795
+	object
+		sprite star/b-supergiant
+		period 10
+	object
+		sprite planet/forest4-b
+		distance 482
+		period 82.672408
+	object
+		sprite planet/ice4-b
+		distance 1096
+		period 283.46919
+		object
+			sprite planet/ice8
+			distance 140
+			period 62.61706
+	object
+		sprite planet/ice8-b
+		distance 1490
+		period 449.33416
+	object
+		sprite planet/rock18
+		distance 1657
+		period 526.95532
+
+system Aeei'loore
+	pos -52557.2 -56611.4
+	link Luree'ooi
+	link Siineelo'a
+	asteroids "large metal" 1 3.6673
+	habitable 387.2
+	belt 1188
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/ocean6-b
+		distance 263
+		period 193.87015
+	object
+		sprite planet/ocean1
+		distance 656
+		period 763.71809
+	object
+		sprite planet/ice3
+		distance 1069
+		period 1588.7072
+		object
+			sprite planet/tethys
+			distance 167
+			period 132.91349
+	object
+		sprite planet/ocean2
+		distance 1411
+		period 2409.1722
+
+system Axrkeo'ai
+	pos -53030.566 -56658.355
+	government Gargoor'an
+	link Ehreu'sia
+	link Gooru'kaai
+	asteroids "small rock" 4 3.0912
+	asteroids "large rock" 17 2.6544
+	asteroids "small metal" 1 3.1584
+	asteroids "medium metal" 2 3.2928
+	asteroids "large metal" 1 2.3184
+	minables silver 1 3.9616819
+	minables aluminum 2 3.4998566
+	minables iron 1 4.0896576
+	fleet "Gargoor'an Urn War Fleet" 600
+	habitable 28275.2
+	belt 1810
+	object
+		sprite star/m-giant
+		period 10
+	object
+		sprite planet/desert5
+		distance 560
+		period 70.489461
+	object
+		sprite planet/desert4
+		distance 896
+		period 142.66064
+	object
+		sprite planet/browndwarf-l
+		distance 1671
+		period 363.33466
+	object
+		sprite planet/neptune
+		distance 2282
+		period 579.84993
+		object
+			sprite planet/station13
+			distance 199
+			period 87.308836
+		object
+			sprite planet/rock17-b
+			distance 327
+			period 364.1799
+	object
+		sprite planet/gas2
+		distance 2964
+		period 858.34019
+	object
+		sprite planet/gas0
+		distance 3619
+		period 1158.0439
+
+system Shukomag
+	pos -52914.566 -56650.355
+	government Gargoor'an
+	link Ehreu'sia
+	link Mahuokegin
+	link Shouroia
+	asteroids "small rock" 8 1.708
+	asteroids "medium rock" 14 1.848
+	asteroids "large rock" 41 1.68
+	asteroids "small metal" 10 2.716
+	asteroids "medium metal" 65 2.128
+	asteroids "large metal" 53 1.596
+	minables aluminum 2 2.6144933
+	fleet "Gargoor'an Urn War Fleet" 600
+	habitable 1667.2
+	belt 1380
+	object
+		sprite star/g5
+		distance 165.06718
+		period 69.057179
+		offset 180
+	object
+		sprite star/f-giant
+		distance 49.932821
+		period 69.057179
+	object
+		sprite planet/forest2-b
+		distance 327
+		period 129.53072
+	object
+		sprite planet/ice1-b
+		distance 569
+		period 297.31686
+	object
+		sprite planet/desert7-b
+		distance 1035
+		period 729.39313
+	object
+		sprite planet/gas0-hot
+		distance 1772
+		period 1633.9799
+
+system Mahuokegin
+	pos -52896.233 -56762.022
+	government Gargoor'an
+	link Goouree'ai
+	link Mvigoora
+	link Shukomag
+	asteroids "small rock" 7 2.0559
+	asteroids "medium rock" 7 1.8018
+	asteroids "large rock" 4 1.8942
+	asteroids "small metal" 3 2.1252
+	asteroids "medium metal" 48 1.9635
+	asteroids "large metal" 4 1.7094
+	minables lead 5 3.2844757
+	minables aluminum 8 3.3661985
+	fleet "Gargoor'an Urn War Fleet" 600
+	fleet "Uoorn Raid" 800
+	habitable 441.8
+	belt 1983
+	object
+		sprite star/f5
+		period 10
+	object Kusaakin
+		sprite planet/rock11-b
+		distance 165
+		period 90.189931
+	object
+		sprite planet/venus-b
+		distance 586
+		period 603.64077
+	object
+		sprite planet/gas10-b
+		distance 1135
+		period 1627.1438
+	object
+		sprite planet/neptune-b
+		distance 2074
+		period 4019.2523
+		object
+			sprite planet/dust1
+			distance 274.41183
+			period 312.86534
+		object
+			sprite planet/callisto
+			distance 571
+			period 357.08515
+
+system Mvigoora
+	pos -52842.2 -56711.4
+	link Goouree'ai
+	link Kalloo'anuu
+	link Mahuokegin
+	asteroids "large metal" 1 3.6673
+	fleet "Uoorn Patrol" 600
+	fleet "Uoorn Raid" 700
+	fleet "Gargoor'an Urn War Fleet" 500
+	habitable 387.2
+	belt 1188
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+
+system Shouroia
+	pos -52971.9 -56671.688
+	government Gargoor'an
+	link Ehreu'sia
+	link Gooru'kaai
+	link Shukomag
+	asteroids "large metal" 1 4.2978
+	fleet "Gargoor'an Urn War Fleet" 600
+	habitable 182.5
+	belt 1215
+	object
+		sprite star/f-dwarf
+		distance 67.958904
+		period 49.162543
+	object
+		sprite star/m8
+		distance 14.041096
+		period 49.162543
+		offset 180
+	object
+		sprite planet/forest0
+		distance 180.50543
+		period 161.22464
+	object
+		sprite planet/dust6
+		distance 427
+		period 584.19169
+	object
+		sprite planet/ocean2-b
+		distance 894
+		period 1769.7823
+	object
+		sprite planet/gas0-hot
+		distance 1890
+		period 5440.0923
+		object Hetrelu
+			sprite planet/io-b
+			distance 231
+			period 132.71457
+		object
+			sprite planet/rock14
+			distance 355
+			period 175.04921
+	object
+		sprite planet/gas16-b
+		distance 3382
+		period 13021.888
+		object
+			sprite planet/station8
+			distance 200
+			period 106.91672
+		object
+			sprite planet/rock3
+			distance 340
+			period 236.98398
+
+system Goouree'ai
+	pos -52821.867 -56769.067
+	link Kalloo'anuu
+	link Mahuokegin
+	link Mvigoora
+	asteroids "large metal" 1 3.6673
+	fleet "Uoorn Patrol" 600
+	fleet "Uoorn Raid" 700
+	fleet "Gargoor'an Urn War Fleet" 500
+	habitable 387.2
+	belt 1188
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+
+system Luree'ooi
+	pos -52638.867 -56626.4
+	link Aeei'loore
+	link Kalroo'nulro
+	link Vilseeno
+	asteroids "large metal" 1 3.201
+	habitable 2000
+	belt 1146
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/g5-old
+		period 10
+	object
+		sprite planet/rock12
+		distance 234
+		period 71.590234
+	object
+		sprite planet/desert10-b
+		distance 458
+		period 196.03256
+	object
+		sprite planet/gas5
+		distance 1539
+		period 1207.5022
+	object
+		sprite planet/gas6-b
+		distance 2849
+		period 3041.3659
+	object
+		sprite planet/gas3
+		distance 3908
+		period 4886.0941
+		object
+			sprite planet/rhea
+			distance 310
+			period 169.75443
+		object
+			sprite planet/lava0
+			distance 424
+			period 228.48958
+	object
+		sprite planet/gas17
+		distance 5462
+		period 8073.4199
+		object
+			sprite planet/rhea-b
+			distance 218
+			period 100.10674
+		object
+			sprite planet/dust5-b
+			distance 403
+			period 211.72649
+
+system Guraanke'lak
+	pos -52901.566 -56568.688
+	government Gargoor'an
+	link Akutetke
+	link Ehreu'sia
+	hidden
+	asteroids "small rock" 15 4.38
+	asteroids "medium rock" 8 3.36
+	asteroids "large rock" 9 4.44
+	asteroids "small metal" 3 3.84
+	asteroids "medium metal" 6 4.08
+	asteroids "large metal" 20 5.88
+	minables aluminum 28 7.8102148
+	fleet "Gargoor'an Urn War Fleet" 600
+	habitable 617
+	belt 1582
+	object
+		sprite star/o-dwarf
+		distance 99.247974
+		period 38.742386
+	object
+		sprite star/a3
+		distance 5.7520259
+		period 38.742386
+		offset 180
+	object
+		sprite planet/ice1-b
+		distance 222
+		period 119.10552
+	object
+		sprite planet/io-b
+		distance 410
+		period 298.93598
+	object
+		sprite planet/gas8-b
+		distance 985
+		period 1113.1579
+		object
+			sprite planet/rock14
+			distance 347
+			period 169.16551
+	object
+		sprite planet/uranus-b
+		distance 2114
+		period 3499.9343
+		object
+			sprite planet/ice7-b
+			distance 374
+			period 189.28885
+		object
+			sprite planet/dust0
+			distance 632
+			period 978.52058
+	object
+		sprite planet/gas6-b
+		distance 4374
+		period 10416.47
+		object
+			sprite planet/dust1
+			distance 349
+			period 202.77608
+	object
+		sprite planet/gas2-b
+		distance 5680
+		period 15414.339
+
+system Akutetke
+	pos -52876.566 -56511.022
+	government Gargoor'an
+	link Guraanke'lak
+	link Kereeo'on'ai
+	hidden
+	asteroids "small rock" 15 4.38
+	asteroids "medium rock" 8 3.36
+	asteroids "large rock" 9 4.44
+	asteroids "small metal" 3 3.84
+	asteroids "medium metal" 6 4.08
+	asteroids "large metal" 20 5.88
+	minables aluminum 28 7.8102148
+	fleet "Gargoor'an Urn War Fleet" 600
+	habitable 617
+	belt 1582
+
+system Ehreu'sia
+	pos -52972.233 -56615.355
+	government Gargoor'an
+	link Axrkeo'ai
+	link Guraanke'lak
+	link Shouroia
+	link Shukomag
+	asteroids "small rock" 9 1.0368
+	asteroids "medium rock" 149 1.8432
+	asteroids "large rock" 46 1.9008
+	asteroids "small metal" 44 1.5552
+	asteroids "medium metal" 119 1.3056
+	asteroids "large metal" 14 1.4784
+	minables neodymium 43 3.1118186
+	minables silver 62 2.3649821
+	minables uranium 62 2.605845
+	fleet "Gargoor'an Urn War Fleet" 600
+	habitable 259.2
+	belt 1947
+	object
+		sprite star/m3
+		period 10
+	object
+		sprite planet/gw-island0
+		distance 329
+		period 331.52886
+	object
+		sprite planet/gas4
+		distance 1358
+		period 2780.2071
+		object
+			sprite planet/rhea
+			distance 249
+			period 122.2018
+	object
+		sprite planet/gas3
+		distance 2344
+		period 6304.6924
+		object Vougat'lei
+			sprite planet/luna
+			distance 302.31587
+			period 6304.69
+			offset 45
+	object
+		sprite planet/tethys
+		distance 3189
+		period 10004.82
+
+planet Vougat'lei
+	landscape land/sky9
+	description .
+	spaceport .
+
+planet Hetrelu
+	description .
+	spaceport .
+
+planet Poscekoo
+	landscape land/sky0
+	description .
+	spaceport .
+
+planet Kusaakin
+	landscape land/sky5
+	description .
+	spaceport .
+
+system Kereeo'on'ai
+	pos -52854.233 -56461.355
+	government Gargoor'an
+	link Akutetke
+	hidden
+	asteroids "small rock" 1 2.592
+	asteroids "medium rock" 30 3.276
+	asteroids "large rock" 20 2.052
+	asteroids "small metal" 24 3.06
+	asteroids "medium metal" 113 2.772
+	asteroids "large metal" 5 3.024
+	minables uranium 7 3.9383616
+	minables lead 12 3.000254
+	minables tungsten 8 3.2481623
+	fleet "Gargoor'an Urn War Fleet" 600
+	habitable 606.25
+	belt 1963
+	object
+		sprite star/m4
+		distance 79.549485
+		period 56.032631
+		offset 180
+	object
+		sprite star/k8
+		distance 53.950515
+		period 56.032631
+	object
+		sprite planet/ganymede
+		distance 254
+		period 147.05158
+	object
+		sprite planet/cloud4-b
+		distance 450
+		period 346.7671
+	object
+		sprite planet/cloud0-b
+		distance 714
+		period 693.05298
+	object
+		sprite planet/gas11-b
+		distance 1711
+		period 2570.953
+		object
+			sprite planet/rhea
+			distance 241
+			period 116.36012
+	object
+		sprite planet/gas10-b
+		distance 3147
+		period 6413.0442
+	object
+		sprite planet/gas17
+		distance 3559
+		period 7712.7828
+
+system Xueralo
+	pos -54355.844 -54447.855
+	government Akralva
+	link Ealorsi
+	link Ehrelxu
+	asteroids "small rock" 31 3.99
+	asteroids "medium rock" 63 4.5675
+	asteroids "large rock" 95 4.305
+	asteroids "small metal" 7 3.9375
+	asteroids "medium metal" 25 3.465
+	asteroids "large metal" 100 5.04
+	minables neodymium 4 7.1347637
+	minables iron 71 8.7391893
+	minables gold 4 7.2109515
+	fleet "Akralva Hunter" 800
+	fleet "Akralva Merchant" 700
+	habitable 1411.2
+	belt 1675
+	object
+		sprite star/o8
+		period 10
+	object
+		sprite planet/mars-b
+		distance 237
+		period 86.870682
+	object
+		sprite planet/ocean8
+		distance 584
+		period 336.02375
+		object
+			sprite planet/rock20
+			distance 154
+			period 72.240659
+	object
+		sprite planet/ocean0-b
+		distance 918
+		period 662.23897
+	object
+		sprite planet/lava3-b
+		distance 1894
+		period 1962.5497
+
+system Ealorsi
+	pos -54375.844 -54520.855
+	government Akralva
+	link Xueralo
+	asteroids "medium rock" 8 3.1428
+	asteroids "large rock" 4 2.9808
+	asteroids "small metal" 83 2.1708
+	asteroids "medium metal" 69 2.106
+	asteroids "large metal" 7 2.2032
+	minables aluminum 7 2.5927992
+	minables silver 6 2.9155176
+	fleet "Akralva Hunter" 800
+	fleet "Akralva Merchant" 700
+	habitable 924.8
+	belt 1899
+	object
+		sprite star/b3
+		period 10
+	object
+		sprite planet/venus
+		distance 227
+		period 100.59117
+	object
+		sprite planet/lava5
+		distance 540
+		period 369.07253
+		object
+			sprite planet/io
+			distance 120
+			period 49.690399
+	object
+		sprite planet/ice1
+		distance 1259
+		period 1313.892
+		object
+			sprite planet/lava0
+			distance 161
+			period 53.463383
+	object
+		sprite planet/gas9
+		distance 2225
+		period 3086.8541
+	object
+		sprite planet/neptune-b
+		distance 3265
+		period 5487.1377
+		object
+			sprite planet/rock0-b
+			distance 222
+			period 125.03456
 

@@ -1,0 +1,146 @@
+outfit "Ogrua Void Blaster"
+	category "Guns"
+	cost 780000
+	thumbnail "outfit/dels vokkar"
+	"mass" 30
+	"outfit space" -30
+	"weapon capacity" -30
+	"gun ports" -1
+	weapon
+		sprite "projectile/homing beam"
+		sound "gw egun"
+		"hit effect" "skylance impact"
+		"inaccuracy" 1
+		"velocity" 34
+		"lifetime" 20
+		"reload" 15
+		"firing energy" 40
+		"firing heat" 80
+		"hit force" 40
+		"damage dropoff" 300 600
+		"shield damage" 120
+		"hull damage" 43
+		"piercing" .05
+		"slowing damage" 2
+		"firing shields" 10
+	description "Gargoor'an gun tuned for high shield damage."
+
+outfit "Kucoxi Sun Lance"
+	category "Guns"
+	cost 765000
+	thumbnail "outfit/fire-lance"
+	"mass" 30
+	"outfit space" -30
+	"weapon capacity" -30
+	"gun ports" -1
+	weapon
+		sprite "projectile/fire-lance"
+			"frame rate" 12
+			"random start frame"
+		sound "fire-lance"
+		"hit effect" "fire-lance impact"
+		"inaccuracy" .2
+		"velocity" 350
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 3.4
+		"firing heat" 5.4
+		"shield damage" 2.1
+		"hull damage" 5.9
+		"heat damage" 20
+	description "Gargoor'an sun lance"
+
+outfit "Viucoon Null Fire Turret"
+	category "Turrets"
+	cost 874000
+	thumbnail "outfit/repeater turret"
+	"mass" 50
+	"outfit space" -50
+	"weapon capacity" -50
+	"turret mounts" -1
+	weapon
+		sprite "projectile/ultaka m10"
+		"hardpoint sprite" "hardpoint/repeater turret"
+		"hardpoint offset" 7.
+		sound "gw gprojectile"
+		"inaccuracy" 2.5
+		"turret turn" 2.3
+		"velocity" 50
+		"lifetime" 20
+		"reload" 10
+		"burst reload" 2
+		"burst count" 2
+		"firing energy" 38
+		"firing heat" 56
+		"shield damage" 80
+		"hull damage" 60
+		"disruption damage" 10
+	description "Gargoor'an turret"
+
+outfit "Kaahrol Power Core"
+	category "Power"
+	cost 6000000
+	thumbnail "outfit/unknown"
+	"mass" 30
+	"outfit space" -30
+	"energy generation" 5.8
+	"heat generation" 9
+	"solar collection" 2
+	description "Gargoor'an small generator."
+
+outfit "Fhahu Star Drive"
+	category "Engines"
+	"cost" 185000
+	thumbnail "outfit/unknown"
+	"mass" 30
+	"outfit space" -30
+	"engine capacity" -30
+	"thrust" 21.9
+	"thrusting energy" 1.9
+	"thrusting heat" 2.5
+	"flare sprite" "effect/ka'het/small"
+		"frame rate" 3
+	"flare sound" "plasma small"
+	"scram drive" 1
+	description "Gargoor'an small thruster"
+
+outfit "Fhahu Maneuver Drive"
+	category "Engines"
+	cost 189000
+	thumbnail "outfit/unknown"
+	mass 22
+	"outfit space" -22
+	"engine capacity" -22
+	"turn" 600
+	"turning energy" 0.9
+	"turning heat" 1.5
+	description "Gargoor'an small steering"
+
+outfit "Jaciq'ai Star Drive"
+	category "Engines"
+	"cost" 356000
+	thumbnail "outfit/unknown"
+	"mass" 50
+	"outfit space" -50
+	"engine capacity" -50
+	"thrust" 38.4
+	"thrusting energy" 3.4
+	"thrusting heat" 5.3
+	"flare sprite" "effect/ka'het/medium"
+		"frame rate" 3
+	"flare sound" "plasma small"
+	"scram drive" 1
+	description "Gargoor'an medium thruster"
+
+outfit "Jaciq'ai Maneuver Drive"
+	category "Engines"
+	cost 348850
+	thumbnail "outfit/unknown"
+	mass 44
+	"outfit space" -44
+	"engine capacity" -44
+	"turn" 1050
+	"turning energy" 1.65
+	"turning heat" 2.3
+	description "Gargoor'an medium steering"
+	
