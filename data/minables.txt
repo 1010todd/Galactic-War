@@ -19,7 +19,7 @@ outfit "Nurbote"
 
 minable "Rock A"
 	sprite "asteroid/rock huge1/spin"
-		"frame rate" 5
+		"frame rate" 10
 	hull 4000
 	payload "Iron" 4
 	explode "smoke" 40
@@ -28,7 +28,7 @@ minable "Rock A"
 	
 minable "Rock B"
 	sprite "asteroid/rock huge2/spin"
-		"frame rate" 7
+		"frame rate" 13
 	hull 4000
 	payload "Copper" 3
 	explode "smoke" 40
@@ -37,7 +37,7 @@ minable "Rock B"
 	
 minable "Metal A"
 	sprite "asteroid/metal huge1/spin"
-		"frame rate" 9
+		"frame rate" 12
 	hull 7000
 	payload "Iron" 20
 	explode "smoke" 40

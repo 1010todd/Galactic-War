@@ -928,6 +928,15 @@ fleet "Qoro Makau Miner"
 	variant 50
 		"Qoro(M) Manta"
 
+fleet "Qoro Makau Merchant"
+	government "Makau A Qoro"
+	names "Qoro Makau"
+	cargo 1
+	personality
+		confusion 20
+	variant 50
+		"Qoro(M) Manta"
+
 fleet "Qoro Siogal Battle Fleet"
 	government "Qoro Siogal"
 	names "Qoro Siogal"
@@ -951,6 +960,23 @@ fleet "Qoro Siogal Battle Fleet"
 	variant 30
 		"Qoro(S) Elogarl"
 		"Qoro(S) Ganoth" 3
+
+fleet "Qoro Siogal Merchant"
+	government "Qoro Siogal"
+	names "Qoro Siogal"
+	cargo 3
+	personality
+		confusion 40
+	variant 30
+		"Qoro(S) Elgarel"
+		"Qoro(S) Logr"
+	variant 20
+		"Qoro(S) Elgarel" 2
+		"Qoro(S) Logr" 2
+	variant 10
+		"Qoro(S) Elgarel" 3
+		"Qoro(S) Logr" 3
+		"Qoro(S) Ganoth" 2
 
 fleet "Resmakia CIV Fleet"
 	government Resmakia
