@@ -3,8 +3,8 @@ fleet "Akralva Hunter"
 	names "Akralva"
 	cargo 0
 	personality
-		confusion 12
-		heroic plunders
+		confusion 15
+		plunders
 	variant 40
 		Hixur
 	variant 40
@@ -33,12 +33,39 @@ fleet "Akralva Hunter"
 		Virchan 3
 		Hixur 5
 
+fleet "Akralva Battlefleet"
+	government "Akralva"
+	names "Akralva"
+	cargo 0
+	personality
+		confusion 13
+		heroic
+	variant 30
+		Helgirvas
+		Virchan 3
+		Hixur 5
+	variant 30
+		Helgirvas
+		Virchan 5
+		Hixur 2
+	variant 30
+		Helgirvas
+		Virchan 2
+		Hixur 7
+	variant 30
+		Helgirvas
+		Hixur 11
+	variant 25
+		Helgirvas 2
+		Virchan 4
+		Hixur 4
+
 fleet "Akralva Merchant"
 	government "Akralva"
 	names "Akralva"
 	cargo 2
 	personality
-		confusion 12
+		confusion 20
 		timid
 	variant 40
 		Hixur

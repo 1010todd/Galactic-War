@@ -165,3 +165,25 @@ event "Akralva-Kumakk: Sihnruk Akralva retreat"
 		fleet "Akralva Hunter" 800
 		fleet "Akralva Merchant" 1200
 		
+mission "Akralva-Kumakk: Akralva Counter-Attack Generic 1"
+	landing
+	invisible
+	to offer
+		or
+			and # 'and' here is required as I want the chance to increase if Akralva have retreated from Sihnruk.
+				has "Akralva-Kumakk: Varrah'ol Battle Akralva Retreat"
+				random < 3
+			and
+				has "Akralva-Kumakk: Sihnruk Battle Akralva Retreat"
+				random < 5
+		has "never offer"
+	on offer
+		event "Akralva-Kumakk: Akralva Retake Sihnruk"
+
+event "Akralva-Kumakk: Akralva Retake Sihnruk"
+	system "Akralva"
+		government "Kumakk"
+		fleet "Akralva Hunter" 700
+		fleet "Akralva Battlefleet" 900
+		fleet "Kumakk Security" 1200
+		fleet "Kumakk Heavy Security" 1300
