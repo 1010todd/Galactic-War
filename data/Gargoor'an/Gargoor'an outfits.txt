@@ -91,7 +91,7 @@ outfit "fujrulk submunition"
 		"live effect" "fujrulk live"
 		"inaccuracy" 360
 		"velocity" 18
-		"lifetime" 20
+		"lifetime" 60
 		"acceleration" 1.7
 		"drag" .1
 		"turn" 9
@@ -159,6 +159,7 @@ outfit "Fhahu Star Drive"
 		"frame rate" 3
 	"flare sound" "plasma small"
 	"scram drive" 1
+	"hyperdrive" 1
 	description "Gargoor'an small thruster"
 
 outfit "Fhahu Maneuver Drive"
@@ -187,6 +188,7 @@ outfit "Jaciq'ai Star Drive"
 		"frame rate" 3
 	"flare sound" "plasma small"
 	"scram drive" 1
+	"hyperdrive" 1
 	description "Gargoor'an medium thruster"
 
 outfit "Jaciq'ai Maneuver Drive"
