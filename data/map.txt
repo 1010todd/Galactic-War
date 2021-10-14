@@ -19100,6 +19100,7 @@ system Ehlrena
 	minables copper 34 5.84232
 	minables lead 16 6.90164
 	minables silver 17 6.11339
+	fleet "Tehru Insker Patrol" 1500
 	habitable 625
 	belt 1208
 	trade Clothing 239
@@ -19163,6 +19164,7 @@ system Ehtunar
 	asteroids "large metal" 1 1.5
 	minables iron 2 3.21433
 	minables lead 12 3.71457
+	fleet "Tehru Insker Patrol" 1200
 	habitable 625
 	belt 1659
 	trade Clothing 239
@@ -24873,6 +24875,7 @@ system Fosme
 system Frashun
 	pos -52809 -53418
 	government "Tehru Insker"
+	link Chelychre
 	link Kelahker
 	link Keucorsai
 	link Nuhrelha
@@ -33427,6 +33430,7 @@ system Hykuanir
 	minables copper 8 6.33028
 	minables lead 22 5.26299
 	minables titanium 10 5.34927
+	fleet "Tehru Insker Patrol" 1500
 	habitable 625
 	belt 1245
 	trade Clothing 239
@@ -43328,6 +43332,7 @@ system Kelranhur
 	asteroids "large rock" 1 1.953
 	asteroids "medium metal" 2 1.323
 	asteroids "large metal" 1 1.386
+	fleet "Tehru Insker Patrol" 1200
 	habitable 320
 	belt 1554
 	trade Clothing 239
@@ -55653,6 +55658,7 @@ system Kyrante
 	asteroids "medium metal" 1 3.5112
 	asteroids "large metal" 29 2.7132
 	minables lead 16 6.62279
+	fleet "Tehru Insker Patrol" 1200
 	habitable 486.68
 	belt 1027
 	trade Clothing 239
@@ -61026,6 +61032,7 @@ system Lyri'asen
 	asteroids "large metal" 7 1.92
 	minables aluminum 46 2.67192
 	minables silver 8 2.43777
+	fleet "Tehru Insker Patrol" 1200
 	habitable 320
 	belt 1113
 	trade Clothing 239
@@ -79330,6 +79337,7 @@ system Nuhrelha
 	link Salhuryc
 	link Uhseryan
 	asteroids "large metal" 1 1.3608
+	fleet "Tehru Insker Patrol" 1200
 	habitable 560.92
 	belt 1653
 	trade Clothing 239
@@ -79718,6 +79726,7 @@ system Nunryk
 	asteroids "large metal" 36 1.4274
 	minables iron 2 2.78271
 	minables lead 21 2.03245
+	fleet "Tehru Insker Patrol" 1000
 	habitable 486.68
 	belt 1075
 	trade Clothing 239
@@ -83686,6 +83695,7 @@ system Phyhurs
 	minables copper 23 4.8575
 	minables silver 33 7.93461
 	minables titanium 19 8.22648
+	fleet "Tehru Insker Patrol" 1200
 	habitable 3452.76
 	belt 1583
 	trade Clothing 239
@@ -93799,6 +93809,7 @@ system Salhuryc
 	asteroids "small metal" 1 3.3375
 	asteroids "large metal" 31 4.5375
 	minables iron 3 8.07711
+	fleet "Tehru Insker Patrol" 1200
 	habitable 486.68
 	belt 1953
 	trade Clothing 239
@@ -94119,6 +94130,7 @@ system Sanrakyr
 	asteroids "medium metal" 10 1.6016
 	asteroids "large metal" 31 2.552
 	minables iron 23 2.83182
+	fleet "Tehru Insker Patrol" 1200
 	habitable 1050.92
 	belt 1295
 	trade Clothing 239
@@ -101431,6 +101443,7 @@ system Ugora
 system Uhseryan
 	pos -52768 -53454
 	government "Tehru Insker"
+	link Chelychre
 	link Frashun
 	link Lyri'asen
 	link Nuhrelha
@@ -101443,6 +101456,7 @@ system Uhseryan
 	minables aluminum 5 6.4342
 	minables copper 3 6.05737
 	minables titanium 2 5.54424
+	fleet "Tehru Insker Patrol" 1200
 	habitable 233.28
 	belt 1086
 	trade Clothing 239
@@ -105407,6 +105421,7 @@ system Velsunra
 	asteroids "large metal" 5 3.7674
 	minables iron 9 3.41379
 	minables silver 5 4.06565
+	fleet "Tehru Insker Patrol" 1500
 	habitable 2201.68
 	belt 1797
 	trade Clothing 239
@@ -123042,6 +123057,7 @@ system Izkeali
 system Keucorsai
 	pos -52766.233 -53379.8
 	government Akralva
+	link Chelychre
 	link Frashun
 	link Izkeali
 	asteroids "small rock" 3 2.024
@@ -128262,6 +128278,7 @@ system Kereeo'on'ai
 	pos -52854.233 -56461.355
 	government Gargoor'an
 	link Akutetke
+	link Saie'ieoc
 	hidden
 	asteroids "small rock" 1 2.592
 	asteroids "medium rock" 30 3.276
@@ -128405,4 +128422,96 @@ system Ealorsi
 			sprite planet/rock0-b
 			distance 222
 			period 125.03456
+
+system Chelychre
+	pos -52723 -53404.445
+	government "Tehru Insker"
+	link Frashun
+	link Keucorsai
+	link Uhseryan
+	asteroids "small rock" 16 7.5504
+	asteroids "medium rock" 3 7.0928
+	asteroids "large rock" 20 3.2032
+	asteroids "small metal" 9 4.7476
+	asteroids "medium metal" 12 8.5228
+	asteroids "large metal" 4 6.3492
+	minables aluminum 10 10.6669
+	fleet "Tehru Insker Patrol" 700
+	fleet "Tehru Insker Merchant" 1800
+	fleet "Akralva Hunter" 1500
+	habitable 912.6
+	belt 1728
+	trade Clothing 239
+	trade Electronics 788
+	trade Equipment 413
+	trade Food 234
+	trade "Heavy Metals" 1208
+	trade Industrial 555
+	trade "Luxury Goods" 1001
+	trade Medical 837
+	trade Metal 270
+	trade Plastic 299
+
+system Saie'ieoc
+	pos -52895.233 -56397.355
+	government Gargoor'an
+	link Kereeo'on'ai
+	hidden
+	asteroids "medium rock" 5 2.414
+	asteroids "large rock" 10 3.128
+	asteroids "small metal" 5 2.822
+	asteroids "medium metal" 203 3.264
+	asteroids "large metal" 16 2.686
+	minables silver 5 6.2798162
+	minables lead 20 3.2532449
+	fleet "Gargoor'an Urn War Fleet" 600
+	habitable 361.25
+	belt 1330
+	object
+		sprite star/k8
+		period 10
+	object
+		sprite planet/ocean8-b
+		distance 369
+		period 333.56511
+		object
+			sprite planet/ice8-b
+			distance 172
+			period 85.269416
+	object
+		sprite planet/forest6-b
+		distance 834
+		period 1133.4181
+	object
+		sprite planet/rock9-b
+		distance 1252
+		period 2084.7192
+		object
+			sprite planet/rock3-b
+			distance 136
+			period 59.952732
+	object
+		sprite planet/gas6-b
+		distance 1992
+		period 4183.84
+		object
+			sprite planet/europa-b
+			distance 343
+			period 300.5059
+	object
+		sprite planet/gas13
+		distance 2983
+		period 7666.9202
+	object
+		sprite planet/gas2-hot
+		distance 4941
+		period 16344.188
+		object
+			sprite "planet/asteroid base"
+			distance 195
+			period 71.263892
+		object
+			sprite planet/dust4-b
+			distance 307
+			period 167.29623
 
