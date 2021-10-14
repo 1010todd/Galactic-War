@@ -51,6 +51,15 @@ ship "Akyonur" "Akyonur (Hull)"
 		"Fhahu Star Drive"
 		"Fhahu Maneuver Drive"
 
+ship "Akyonur" "Akyonur (Missile)"
+	outfits
+		"Fujrulk Chaser Burst" 2
+
+		"Kaahrol Power Core"
+
+		"Fhahu Star Drive"
+		"Fhahu Maneuver Drive"
+
 ship "Bwehoke"
 	sprite "ship/gargoor'an bwehoke"
 	#thumbnail "thumbnail/gargoor'an bwehoke thumb"
@@ -142,6 +151,8 @@ ship "Axchriv"
 		"engine capacity" 190
 		"energy capacity" 24000
 	outfits
+		"Fujrulk Chaser Burst" 4
+		"Viucoon Null Fire Turret" 2
 
 		"Kaahrol Power Core" 4
 
@@ -186,6 +197,66 @@ ship "Axchriv"
 	explode "smoke" 320
 	explode "nuke explosion" 5
 	description "Gargoor'an heavily armoured carrier."
+
+ship "Iurenoa"
+	sprite "ship/gargoor'an iurenoa"
+	#thumbnail "thumbnail/gargoor'an iurenoa thumb"
+	"never disabled"
+	attributes
+		category "Fighter"
+		"cost" 7200000
+		"hull" 8500
+		"hull repair rate" .8
+		"required crew" 1
+		"bunks" 1
+		"mass" 80
+		"force protection" .05
+		"hull protection" .01
+		"drag" .6
+		"heat dissipation" .9
+		"fuel capacity" 100
+		"cargo space" 5
+		"outfit space" 160
+		"weapon capacity" 60
+		"engine capacity" 60
+		"energy capacity" 2000
+	outfits
+		"Ogrua Void Blaster" 2
+
+		"Kaahrol Power Core"
+
+		"Fhahu Star Drive"
+		"Fhahu Maneuver Drive"
+
+	gun -3 -18
+	gun 3 -18
+	gun -6.5 -13.5
+	gun 6.5 -13.5
+	engine 0 16.5
+		zoom 1
+		angle 0
+		under
+	leak "uoorn leak" 40 80
+	explode "smoke" 50
+	description "Gargoor'an fighter/bomber."
+
+ship "Iurenoa" "Iurenoa (Hull)"
+	outfits
+		"Kucoxi Sun Lance" 2
+
+		"Kaahrol Power Core"
+
+		"Fhahu Star Drive"
+		"Fhahu Maneuver Drive"
+
+ship "Iurenoa" "Iurenoa (Missile)"
+	outfits
+		"Fujrulk Chaser Burst" 2
+
+		"Kaahrol Power Core"
+
+		"Fhahu Star Drive"
+		"Fhahu Maneuver Drive"
 
 ship "Xuokuen"
 	sprite "ship/gargoor'an xuokuen"
