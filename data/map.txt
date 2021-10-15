@@ -129138,7 +129138,7 @@ system Vashacki
 		period 337.53172
 	object Isxeerah
 		sprite planet/forest1
-		distance 1206.7442
+		distance 1202.3076
 		period 1040.5298
 		object
 			sprite planet/luna
@@ -132266,6 +132266,7 @@ system Mishexkal
 	government Akralva
 	link Kaldeeral
 	link Kuraexel
+	link Xalviras'Kah
 	link Xulkegol
 	asteroids "medium rock" 58 2.349
 	asteroids "large rock" 14 2.871
@@ -132349,6 +132350,7 @@ system Kuraexel
 	pos -53934.844 -55011.827
 	government Akralva
 	link Mishexkal
+	link Xalviras'Kah
 	link Xulkegol
 	asteroids "large metal" 1 3.312
 	fleet "Akralva Hunter" 800
@@ -132396,6 +132398,7 @@ system Kegoais
 	pos -53941.288 -55059.382
 	government Akralva
 	link Siahcox
+	link Xalviras'Kah
 	link Xau'akre
 	link Xulkegol
 	asteroids "small rock" 3 1.5249
@@ -133298,14 +133301,10 @@ system Ushrex
 	object
 		sprite star/k0
 		period 10
-	object
+	object Hcexisal
 		sprite planet/forest6
 		distance 311
 		period 258.09622
-	object
-		sprite planet/forest6-b
-		distance 847
-		period 1160.0219
 	object
 		sprite planet/sheragi_postverta
 		distance 1726
@@ -133651,4 +133650,77 @@ system Sahu'aoxi
 		sprite planet/browndwarf-l
 		distance 3155
 		period 461.49587
+
+planet Kahsixle'Ozel
+	attributes "akralva fort"
+	shipyard "Akralva Advanced"
+	outfitter "Akralva Advanced"
+	outfitter "Standard Outfits"
+	landscape land/fields6
+	description "Akralva massive industrial and fortress world with no land left unutilized."
+	spaceport .
+	tribute 22000
+		threshold 8104
+		fleet "Akralva Battlefleet" 20
+		fleet "Akralva Hunter" 32
+
+system Xalviras'Kah
+	pos -53966.399 -55036.716
+	government Akralva
+	link Kegoais
+	link Kuraexel
+	link Mishexkal
+	asteroids "small rock" 4 3.179
+	asteroids "medium rock" 4 2.618
+	asteroids "large rock" 10 3.5156
+	asteroids "small metal" 8 3.0668
+	asteroids "medium metal" 13 2.7302
+	asteroids "large metal" 10 2.2066
+	minables titanium 3 4.9468217
+	minables aluminum 5 3.8347899
+	minables iron 3 3.8577184
+	fleet "Akralva Hunter" 7000
+	fleet "Akralva Merchant" 700
+	fleet "Akralva Battlefleet" 1000
+	habitable 1280
+	belt 1329
+	object
+		sprite star/b0
+		period 10
+	object
+		sprite planet/rock19
+		distance 368
+		period 176.4866
+	object
+		sprite planet/rock9
+		distance 567
+		period 337.53172
+	object Kahsixle'Ozel
+		sprite planet/forest1
+		distance 1201
+		period 1040.5298
+		object
+			sprite planet/luna-b
+			distance 127
+			period 54.101113
+	object
+		sprite planet/gas13-b
+		distance 1718
+		period 1780.2244
+	object
+		sprite planet/gas10-hot
+		distance 2118
+		period 2436.8508
+
+planet Hcexisal
+	shipyard "Akralva Basic"
+	outfitter "Akralva Basic"
+	outfitter "Standard Outfits"
+	landscape land/fields3
+	description "An unusually mountainous world. Farming were done atop of mountains with large tunnel entrances leading into massive industry beneath the earth."
+	spaceport .
+	tribute 9540
+		threshold 8104
+		fleet "Akralva Battlefleet" 12
+		fleet "Akralva Hunter" 18
 
