@@ -128681,7 +128681,7 @@ system Saie'ieoc
 		distance 2983
 		period 7666.9202
 	object "Akr-Urn Jump Tunnel"
-		sprite planet/wormhole
+		sprite "planet/jump tunnel"
 		distance 6851.2739
 		period 0
 		offset 215
@@ -129218,8 +129218,8 @@ system Akei'Soo
 			distance 742
 			period 764.02308
 	object "Akr-Urn Jump Tunnel"
-		sprite planet/wormhole
-		distance 5807.4892
+		sprite "planet/jump tunnel"
+		distance 5740.7937
 		period 0
 		offset 20
 
@@ -129231,6 +129231,8 @@ planet "Akr-Urn Jump Tunnel"
 system Heaxira
 	pos -53781.566 -55254.133
 	government Gargoor'an
+	link Cashikex
+	link Xeeloak
 	asteroids "small rock" 26 3.96
 	asteroids "medium rock" 38 3.48
 	asteroids "large rock" 20 3.24
@@ -130137,7 +130139,9 @@ planet Zukveksr
 system Shrexci
 	pos -54072.066 -54557.271
 	government Akralva
+	link Kahoor'hal
 	link Uxrakai
+	link Xarhecma
 	asteroids "medium rock" 17 5.916
 	asteroids "large rock" 1 3.6192
 	asteroids "small metal" 1 3.5496
@@ -130209,4 +130213,2083 @@ planet Myxiralke
 		threshold 8000
 		fleet "Akralva Battlefleet" 8
 		fleet "Akralva Hunter" 16
+
+system Xarhecma
+	pos -54038.177 -54611.382
+	government Akralva
+	link Kahoor'hal
+	link Koppuxla
+	link Shrexci
+	asteroids "medium rock" 5 2.414
+	asteroids "large rock" 10 3.128
+	asteroids "small metal" 5 2.822
+	asteroids "medium metal" 203 3.264
+	asteroids "large metal" 16 2.686
+	minables silver 5 6.2798162
+	minables lead 20 3.2532449
+	fleet "Akralva Hunter" 800
+	fleet "Akralva Merchant" 700
+	habitable 361.25
+	belt 1330
+	object
+		sprite star/k8
+		period 10
+	object
+		sprite planet/ocean8
+		distance 302.26468
+		period 333.56511
+		object
+			sprite planet/io
+			distance 172
+			period 85.269416
+	object Kavaksre
+		sprite planet/forest6-b
+		distance 575.127
+		period 1133.4181
+	object
+		sprite planet/rock9-b
+		distance 1242
+		period 2059.7924
+		object
+			sprite planet/rock7-b
+			distance 131
+			period 70.928173
+	object
+		sprite planet/gas6-hot
+		distance 1852
+		period 3750.6155
+	object
+		sprite planet/gas13
+		distance 2723
+		period 6686.7106
+	object
+		sprite planet/gas3
+		distance 4851
+		period 15899.665
+		object
+			sprite "planet/asteroid base"
+			distance 295
+			period 132.60217
+		object
+			sprite planet/dust5
+			distance 412
+			period 218.85851
+
+system Kahoor'hal
+	pos -54017.177 -54579.049
+	government Akralva
+	link Shrexci
+	link Xarhecma
+	asteroids "large rock" 1 3.876
+	asteroids "small metal" 7 2.958
+	asteroids "medium metal" 172 4.233
+	asteroids "large metal" 1 3.366
+	minables silver 31 6.3280462
+	minables tungsten 33 8.1867792
+	fleet "Akralva Hunter" 800
+	fleet "Akralva Merchant" 700
+	habitable 6195.2
+	belt 1562
+	object
+		sprite star/g-giant
+		period 10
+	object
+		sprite planet/gas4
+		distance 848
+		period 280.61514
+		object
+			sprite planet/rock3-b
+			distance 243
+			period 143.18912
+		object
+			sprite planet/io-b
+			distance 563
+			period 504.96725
+	object
+		sprite planet/gas7-hot
+		distance 2020
+		period 1031.6785
+	object
+		sprite planet/gas14
+		distance 2960
+		period 1830.016
+	object
+		sprite planet/sheragigasgiant
+		distance 3970
+		period 2842.5171
+		object
+			sprite planet/rock14-b
+			distance 513
+			period 304.08407
+	object
+		sprite planet/browndwarf-l
+		distance 5063
+		period 4093.8245
+	object
+		sprite planet/gas5
+		distance 6004
+		period 5286.6231
+
+planet Kavaksre
+	landscape land/sky3
+	description .
+	spaceport .
+	tribute 7850
+		threshold 8000
+		fleet "Akralva Battlefleet" 6
+		fleet "Akralva Hunter" 8
+
+system Shalakxa
+	pos -54006.51 -54663.938
+	government Akralva
+	link Koppuxla
+	asteroids "small rock" 2 2.0468
+	asteroids "medium rock" 36 2.3562
+	asteroids "large rock" 4 2.261
+	asteroids "medium metal" 3 2.023
+	asteroids "large metal" 1 1.9992
+	minables silver 1 4.24577
+	minables silicon 4 4.3978985
+	fleet "Akralva Hunter" 800
+	fleet "Akralva Merchant" 700
+	habitable 3276.8
+	belt 1478
+	object
+		sprite star/o0
+		period 10
+	object
+		sprite planet/lava7
+		distance 398
+		period 124.06367
+	object
+		sprite planet/rock4-b
+		distance 611
+		period 235.98361
+	object
+		sprite planet/ice6-b
+		distance 863
+		period 396.12862
+	object
+		sprite planet/water0-b
+		distance 1045
+		period 527.83048
+	object
+		sprite planet/gas4
+		distance 2596
+		period 2066.6982
+		object Keva'Hexila
+			sprite planet/station3k
+			distance 276.92261
+			period 70.965092
+		object
+			sprite planet/ice0
+			distance 446
+			period 356.04337
+		object
+			sprite planet/station12
+			distance 534
+			period 383.78719
+
+planet Keva'Hexila
+	attributes station
+	landscape land/sivael6
+	description .
+	spaceport .
+	tribute 5000
+		threshold 6500
+		fleet "Akralva Hunter" 6
+
+system Helagir
+	pos -54022.733 -54701.049
+	government Akralva
+	link Coogualrex
+	link Koppuxla
+	link Maculxea
+	asteroids "small rock" 15 4.0768
+	asteroids "medium rock" 2 4.004
+	asteroids "large rock" 4 6.4792
+	asteroids "small metal" 1 4.5864
+	asteroids "medium metal" 10 4.368
+	asteroids "large metal" 2 3.8584
+	minables lead 7 4.7361753
+	fleet "Akralva Hunter" 800
+	fleet "Akralva Merchant" 700
+	habitable 500
+	belt 1336
+	object
+		sprite star/a8
+		period 10
+	object Sommexal
+		sprite planet/rock12-b
+		distance 395
+		period 314.01879
+	object Calxulo
+		sprite planet/earth-b
+		distance 740
+		period 805.20705
+	object
+		sprite planet/cloud6
+		distance 1362
+		period 2010.5999
+		object
+			sprite planet/europa-b
+			distance 128
+			period 68.505712
+	object
+		sprite planet/rock0
+		distance 2131
+		period 3934.9133
+	object
+		sprite planet/gas6-b
+		distance 4080
+		period 10424.38
+	object
+		sprite planet/gas9
+		distance 6309
+		period 20044.756
+
+planet Sommexal
+	landscape land/sea8
+	description .
+	spaceport .
+	tribute 7750
+		threshold 8000
+		fleet "Akralva Battlefleet" 5
+		fleet "Akralva Hunter" 8
+
+system Vaanpolx
+	pos -54001.177 -54765.271
+	government Akralva
+	link Axecarna
+	link Coogualrex
+	link Kexaer
+	link Maculxea
+	link Max'haal
+	link Yhazorhai
+	asteroids "small rock" 16 2.346
+	asteroids "medium rock" 94 3.06
+	asteroids "large rock" 2 2.448
+	asteroids "small metal" 4 2.55
+	asteroids "medium metal" 6 2.04
+	asteroids "large metal" 12 1.904
+	minables titanium 3 2.8067964
+	minables lead 26 3.6583594
+	fleet "Akralva Hunter" 800
+	fleet "Akralva Merchant" 700
+	habitable 1616.2
+	belt 1647
+	object
+		sprite star/k3
+		distance 171.06794
+		period 70.628189
+		offset 180
+	object
+		sprite star/a-giant
+		distance 44.932063
+		period 70.628189
+	object
+		sprite planet/lava5-b
+		distance 298
+		period 114.45159
+	object
+		sprite planet/gas2
+		distance 1404
+		period 1170.4372
+		object
+			sprite planet/ice8-b
+			distance 270
+			period 167.7051
+	object
+		sprite planet/gas13-b
+		distance 2719
+		period 3154.36
+		object
+			sprite planet/dust4-b
+			distance 271
+			period 138.74985
+
+system Maculxea
+	pos -54050.177 -54731.382
+	government Akralva
+	link Axecarna
+	link Coogualrex
+	link Heklisa
+	link Helagir
+	link Mighelrig
+	link Vaanpolx
+	asteroids "medium rock" 2 1.4212
+	asteroids "large rock" 1 1.3277
+	asteroids "medium metal" 3 1.2716
+	asteroids "large metal" 1 0.9911
+	fleet "Akralva Hunter" 800
+	fleet "Akralva Merchant" 700
+	habitable 31.25
+	belt 1576
+	object
+		sprite star/a-dwarf
+		period 10
+	object
+		sprite planet/dust6
+		distance 137
+		period 256.56702
+	object
+		sprite planet/cloud2-b
+		distance 381
+		period 1189.8917
+	object
+		sprite planet/desert5-b
+		distance 629
+		period 2524.0384
+	object
+		sprite planet/gas16
+		distance 1942
+		period 13692.849
+	object
+		sprite planet/jupiter-b
+		distance 2953
+		period 25675.278
+		object
+			sprite planet/dust3-b
+			distance 254
+			period 153.02106
+
+system Heklisa
+	pos -54098.844 -54716.493
+	government Akralva
+	link Koppuxla
+	link Maculxea
+	link Mighelrig
+	asteroids "small rock" 2 3.0814
+	asteroids "medium rock" 2 3.038
+	asteroids "large rock" 11 3.1682
+	asteroids "medium metal" 2 3.7758
+	asteroids "large metal" 16 3.3852
+	minables copper 5 3.883966
+	minables lead 5 4.6455926
+	fleet "Akralva Hunter" 800
+	fleet "Akralva Merchant" 700
+	habitable 405
+	belt 1319
+	object
+		sprite star/g3
+		period 10
+	object
+		sprite planet/titan-b
+		distance 147
+		period 79.212457
+	object Koluxxer
+		sprite planet/water1-b
+		distance 462.26085
+		period 439.9151
+	object
+		sprite planet/cloud1-b
+		distance 711
+		period 842.60083
+	object
+		sprite planet/rock17-b
+		distance 1483
+		period 2538.2197
+
+planet Koluxxer
+	shipyard "Akralva Basic"
+	outfitter "Akralva Advanced"
+	outfitter "Akralva Basic"
+	landscape land/sky6
+	description .
+	spaceport .
+	tribute 8540
+		threshold 8000
+		fleet "Akralva Battlefleet" 8
+		fleet "Akralva Hunter" 13
+
+system Axecarna
+	pos -54066.177 -54784.271
+	government Akralva
+	link Kexaer
+	link Maculxea
+	link Mighelrig
+	link Vaanpolx
+	asteroids "small rock" 76 4.704
+	asteroids "medium rock" 61 5.376
+	asteroids "large rock" 1 2.8
+	asteroids "small metal" 1 5.264
+	asteroids "medium metal" 39 3.36
+	asteroids "large metal" 3 5.04
+	minables copper 1 5.3487989
+	minables lead 4 8.3131375
+	fleet "Akralva Hunter" 800
+	fleet "Akralva Merchant" 700
+	habitable 1280
+	belt 1450
+	object
+		sprite star/b0
+		period 10
+	object
+		sprite planet/ocean2
+		distance 241.99819
+		period 94.115913
+	object
+		sprite planet/rock12
+		distance 841
+		period 609.725
+	object
+		sprite planet/saturn
+		distance 2036
+		period 2296.7127
+		object
+			sprite planet/ice7-b
+			distance 247
+			period 101.59283
+		object
+			sprite planet/rock0-b
+			distance 370
+			period 269.03154
+	object
+		sprite planet/gas12
+		distance 2973
+		period 4052.5872
+	object
+		sprite planet/gas6-b
+		distance 4074
+		period 6500.871
+		object
+			sprite planet/ice8-b
+			distance 352
+			period 249.64025
+		object
+			sprite planet/dust0-b
+			distance 478
+			period 643.62987
+
+system Cashikex
+	pos -53826.899 -55268.133
+	government Gargoor'an
+	link Bahulsa
+	link Heaxira
+	link Solumaxsi
+	link Vixuola
+	link Xeeloak
+	asteroids "small rock" 1 2.8322
+	asteroids "medium rock" 3 1.9941
+	asteroids "large rock" 3 1.4739
+	asteroids "small metal" 2 1.9074
+	asteroids "medium metal" 15 2.1675
+	asteroids "large metal" 19 2.6588
+	minables iron 9 4.1684775
+	minables silver 10 4.5501807
+	minables copper 10 4.3988959
+	fleet "Gargoor'an Akr War Fleet" 800
+	habitable 6195.2
+	belt 1671
+	object
+		sprite star/g-giant
+		period 10
+	object
+		sprite planet/gas5
+		distance 762
+		period 239.02855
+		object
+			sprite planet/io-b
+			distance 253
+			period 152.11828
+		object
+			sprite planet/io
+			distance 388
+			period 288.90044
+		object
+			sprite planet/rock0-b
+			distance 470
+			period 385.16552
+	object
+		sprite planet/gas2-b
+		distance 1541
+		period 687.41861
+	object
+		sprite planet/browndwarf-t-rouge
+		distance 2981
+		period 1849.5254
+	object
+		sprite planet/gas6-b
+		distance 4577
+		period 3518.7523
+	object
+		sprite planet/gas9
+		distance 5836
+		period 5066.2924
+		object
+			sprite planet/luna
+			distance 384.52942
+			period 140.54567
+		object
+			sprite planet/station2kd
+			distance 276.4696
+			period 175.78937
+		object
+			sprite planet/oberon-b
+			distance 458
+			period 603.66023
+		object
+			sprite planet/ice8
+			distance 578
+			period 525.28183
+	object
+		sprite planet/gas6-hot
+		distance 7385
+		period 7211.7901
+
+system Soxelua
+	pos -53760.899 -55425.133
+	government Gargoor'an
+	link Pyshros
+	asteroids "small rock" 1 2.496
+	asteroids "large rock" 2 2.9536
+	asteroids "small metal" 3 4.16
+	asteroids "medium metal" 2 3.5776
+	asteroids "large metal" 3 2.3296
+	minables iron 1 4.2701341
+	minables gold 1 4.0758924
+	fleet "Gargoor'an Akr War Fleet" 600
+	habitable 336.2
+	belt 1300
+	object
+		sprite star/k3
+		period 10
+	object
+		sprite planet/ice3-b
+		distance 198
+		period 135.90766
+	object
+		sprite planet/ocean7-b
+		distance 604
+		period 724.105
+	object
+		sprite planet/gas8-b
+		distance 1927
+		period 4126.3752
+		object
+			sprite planet/rock14-b
+			distance 313
+			period 144.92194
+		object
+			sprite planet/miranda-b
+			distance 400
+			period 378.44417
+		object
+			sprite planet/station3kd
+			distance 541
+			period 245.17051
+	object
+		sprite planet/gas4
+		distance 3960
+		period 12155.95
+		object
+			sprite planet/lava0
+			distance 239
+			period 96.697328
+		object
+			sprite planet/desert4-b
+			distance 339
+			period 295.2646
+		object
+			sprite planet/dust3
+			distance 735
+			period 753.23697
+
+planet Calxulo
+	landscape land/sky5
+	description .
+	spaceport .
+	tribute 8150
+		fleet "Akralva Battlefleet" 7
+		fleet "Akralva Hunter" 12
+
+system Xeeloak
+	pos -53801.233 -55232.689
+	government Gargoor'an
+	link Cashikex
+	link Heaxira
+	link Vixuola
+	asteroids "small rock" 13 4.648
+	asteroids "medium rock" 50 3.752
+	asteroids "large rock" 16 4.872
+	asteroids "small metal" 9 4.312
+	asteroids "medium metal" 23 2.8
+	asteroids "large metal" 2 3.248
+	minables iron 4 4.6999462
+	fleet "Gargoor'an Akr War Fleet" 800
+	habitable 369.8
+	belt 1899
+	object
+		sprite star/g8
+		period 10
+	object
+		sprite planet/rock6
+		distance 166
+		period 99.477227
+	object
+		sprite planet/jupiter
+		distance 778
+		period 1009.3248
+		object
+			sprite planet/ice0
+			distance 265
+			period 163.06826
+		object
+			sprite planet/rock14
+			distance 394
+			period 204.67366
+	object
+		sprite planet/ocean8-b
+		distance 1493
+		period 2683.1889
+	object
+		sprite planet/neptune
+		distance 1850
+		period 3701.0004
+
+system Koppuxla
+	pos -54078.066 -54651.715
+	government Akralva
+	link Heklisa
+	link Helagir
+	link Shalakxa
+	link Xarhecma
+	asteroids "medium rock" 5 2.414
+	asteroids "large rock" 10 3.128
+	asteroids "small metal" 5 2.822
+	asteroids "medium metal" 203 3.264
+	asteroids "large metal" 16 2.686
+	minables silver 5 6.2798162
+	minables lead 20 3.2532449
+	fleet "Akralva Hunter" 800
+	fleet "Akralva Merchant" 700
+	habitable 361.25
+	belt 1330
+
+system Xucailo
+	pos -53884.344 -55204.911
+	government Gargoor'an
+	link Arraxsa
+	link Myshocua
+	link Vixuola
+	asteroids "small rock" 3 2.5454
+	asteroids "medium rock" 21 2.145
+	asteroids "large rock" 2 1.7446
+	asteroids "medium metal" 16 1.5158
+	asteroids "large metal" 1 2.86
+	minables iron 2 2.9052279
+	minables copper 10 2.3183719
+	minables titanium 8 2.1982891
+	fleet "Gargoor'an Akr War Fleet" 700
+	habitable 1641.25
+	belt 1844
+	object
+		sprite star/k5
+		distance 171.1866
+		period 71.797515
+	object
+		sprite star/k5-old
+		distance 48.313404
+		period 71.797515
+		offset 180
+	object
+		sprite planet/gas11-b
+		distance 598
+		period 322.8564
+		object
+			sprite planet/oberon-b
+			distance 248
+			period 240.53145
+		object
+			sprite planet/dust3-b
+			distance 330
+			period 226.60606
+	object
+		sprite planet/forest6
+		distance 1086
+		period 790.13693
+	object
+		sprite planet/cloud1
+		distance 1451
+		period 1220.2779
+	object
+		sprite planet/gw-continential3
+		distance 2106
+		period 2133.7581
+	object
+		sprite planet/gas17
+		distance 3004
+		period 3635.026
+		object
+			sprite planet/rock7
+			distance 202
+			period 135.81223
+		object
+			sprite planet/io-b
+			distance 324
+			period 220.45408
+
+system Solumaxsi
+	pos -53876.233 -55316.133
+	government Gargoor'an
+	link Bahulsa
+	link Cashikex
+	asteroids "small rock" 1 3.1059
+	asteroids "medium rock" 7 4.0194
+	asteroids "large rock" 2 5.2983
+	asteroids "small metal" 17 3.4713
+	asteroids "medium metal" 182 3.5931
+	asteroids "large metal" 39 3.4713
+	minables aluminum 12 5.1795281
+	minables lead 35 7.1429389
+	fleet "Gargoor'an Akr War Fleet" 600
+	habitable 3276.8
+	belt 1735
+	object
+		sprite star/o0
+		period 10
+	object
+		sprite planet/lava4-b
+		distance 389
+		period 119.87936
+	object
+		sprite planet/forest1-b
+		distance 758
+		period 326.07975
+	object
+		sprite planet/gas13-b
+		distance 1095
+		period 566.16264
+	object
+		sprite planet/gas7-b
+		distance 2011
+		period 1409.0881
+	object
+		sprite planet/gas6-hot
+		distance 3217
+		period 2850.9961
+	object
+		sprite planet/gas1
+		distance 4786
+		period 5173.4358
+		object
+			sprite planet/dust7-b
+			distance 468
+			period 382.70964
+		object
+			sprite planet/desert4
+			distance 585
+			period 669.33823
+
+system Vixuola
+	pos -53849.899 -55229.133
+	government Gargoor'an
+	link Bahulsa
+	link Cashikex
+	link Xeeloak
+	link Xucailo
+	asteroids "small rock" 7 3.9494
+	asteroids "medium rock" 157 3.9897
+	asteroids "large rock" 14 3.5061
+	asteroids "small metal" 24 2.3777
+	asteroids "medium metal" 99 3.1434
+	asteroids "large metal" 24 2.4986
+	minables platinum 13 6.1440568
+	minables copper 78 3.947513
+	fleet "Gargoor'an Akr War Fleet" 700
+	habitable 159.7
+	belt 1553
+	object
+		sprite star/m-dwarf
+		distance 62.507827
+		period 37.949708
+		offset 180
+	object
+		sprite star/m8
+		distance 3.4921728
+		period 37.949708
+	object
+		sprite planet/titan
+		distance 132
+		period 107.33798
+	object
+		sprite planet/lava5-b
+		distance 471
+		period 723.47561
+	object
+		sprite planet/rock19-b
+		distance 805
+		period 1616.5396
+	object
+		sprite planet/uranus
+		distance 1157
+		period 2785.4321
+
+system Arraxsa
+	pos -53935.899 -55202.133
+	government Gargoor'an
+	link Xucailo
+	asteroids "small rock" 4 3.179
+	asteroids "medium rock" 4 2.618
+	asteroids "large rock" 10 3.5156
+	asteroids "small metal" 8 3.0668
+	asteroids "medium metal" 13 2.7302
+	asteroids "large metal" 10 2.2066
+	minables titanium 3 4.9468217
+	minables aluminum 5 3.8347899
+	minables iron 3 3.8577184
+	fleet "Gargoor'an Akr War Fleet" 600
+	habitable 1280
+	belt 1329
+	object
+		sprite star/b0
+		period 10
+	object
+		sprite planet/rock19
+		distance 368
+		period 176.4866
+	object
+		sprite planet/rock9
+		distance 567
+		period 337.53172
+	object
+		sprite planet/forest1
+		distance 1201
+		period 1040.5298
+		object
+			sprite planet/luna-b
+			distance 127
+			period 54.101113
+	object
+		sprite planet/gas13-b
+		distance 1718
+		period 1780.2244
+	object
+		sprite planet/gas10-hot
+		distance 2118
+		period 2436.8508
+
+system Bahulsa
+	pos -53874.233 -55273.466
+	government Gargoor'an
+	link Cashikex
+	link Solumaxsi
+	link Vixuola
+	asteroids "small rock" 8 2.2825
+	asteroids "medium rock" 41 1.43
+	asteroids "large rock" 8 2.42
+	asteroids "small metal" 27 1.9525
+	asteroids "medium metal" 6 2.75
+	asteroids "large metal" 55 1.54
+	minables copper 2 2.5068509
+	minables titanium 35 1.9668341
+	minables iron 6 1.7649748
+	fleet "Gargoor'an Akr War Fleet" 600
+	habitable 395.65
+	belt 1204
+	object
+		sprite star/m-dwarf
+		distance 92.481739
+		period 41.308281
+	object
+		sprite star/g5
+		distance 2.0182611
+		period 41.308281
+		offset 180
+	object
+		sprite planet/cloud0-b
+		distance 268
+		period 197.28388
+	object
+		sprite planet/dust1-b
+		distance 631
+		period 712.7438
+	object
+		sprite planet/dust3
+		distance 795
+		period 1007.9526
+	object
+		sprite planet/gas9
+		distance 2847
+		period 6830.7849
+	object
+		sprite planet/oberon-b
+		distance 3571
+		period 9595.6452
+
+system Pyshros
+	pos -53742.899 -55382.133
+	government Gargoor'an
+	link Gogulras
+	link Mgaaosor
+	link Soxelua
+	asteroids "small rock" 38 2.0672
+	asteroids "medium rock" 44 2.0995
+	asteroids "large rock" 1 2.2287
+	asteroids "small metal" 56 1.9057
+	asteroids "medium metal" 94 1.8734
+	asteroids "large metal" 8 2.9393
+	minables silicon 13 3.075921
+	minables aluminum 18 2.7297306
+	minables uranium 15 2.1587155
+	fleet "Gargoor'an Akr War Fleet" 800
+	habitable 1641.25
+	belt 1914
+	object
+		sprite star/k0
+		distance 170.4067
+		period 71.30743
+		offset 180
+	object
+		sprite star/o0
+		distance 48.093298
+		period 71.30743
+	object
+		sprite planet/forest6
+		distance 336
+		period 135.97734
+	object
+		sprite planet/browndwarf-y-rouge
+		distance 968
+		period 664.92193
+	object
+		sprite planet/gas16
+		distance 1949
+		period 1899.6578
+		object
+			sprite planet/dust3
+			distance 299
+			period 195.43728
+	object
+		sprite planet/gas7
+		distance 2719
+		period 3130.1953
+	object
+		sprite planet/gas4
+		distance 3453
+		period 4479.7367
+		object
+			sprite planet/dust5-b
+			distance 232
+			period 92.480379
+	object
+		sprite planet/gas5-b
+		distance 4713
+		period 7143.3805
+		object
+			sprite planet/callisto-b
+			distance 282
+			period 123.93423
+		object
+			sprite planet/io-b
+			distance 425
+			period 331.19519
+		object
+			sprite planet/rock14
+			distance 597
+			period 381.75006
+
+system Gogulras
+	pos -53781.899 -55355.133
+	government Gargoor'an
+	link Mgaaosor
+	link Pyshros
+	asteroids "small rock" 9 3.1374
+	asteroids "medium rock" 19 3.213
+	asteroids "large rock" 29 3.6288
+	asteroids "medium metal" 2 3.78
+	asteroids "large metal" 2 2.7594
+	fleet "Gargoor'an Akr War Fleet" 600
+	habitable 8820
+	belt 1819
+	object
+		sprite planet/browndwarf-l-rouge
+		period 10
+	object
+		sprite planet/cloud0
+		distance 429
+		period 84.624602
+		object
+			sprite planet/dust7
+			distance 133
+			period 57.979983
+	object
+		sprite planet/ocean6
+		distance 963
+		period 284.60998
+		object
+			sprite planet/dust3
+			distance 169
+			period 83.048286
+	object
+		sprite planet/ice8-b
+		distance 1630
+		period 626.74677
+	object
+		sprite planet/gas0-hot
+		distance 2470
+		period 1169.112
+		object
+			sprite planet/rhea
+			distance 212
+			period 96.002463
+	object
+		sprite planet/gas3
+		distance 3384
+		period 1874.8056
+	object
+		sprite planet/browndwarf-l
+		distance 4465
+		period 2841.4688
+		object
+			sprite planet/rock20
+			distance 286
+			period 182.83093
+		object
+			sprite planet/dust7-b
+			distance 391
+			period 292.25756
+
+system Mgaaosor
+	pos -53733.899 -55321.133
+	government Gargoor'an
+	link Gogulras
+	link Pyshros
+	asteroids "medium rock" 49 1.8252
+	asteroids "large rock" 1 1.755
+	asteroids "small metal" 19 2.8782
+	asteroids "medium metal" 41 2.7378
+	asteroids "large metal" 8 2.2113
+	minables tungsten 3 3.8240224
+	minables lead 16 3.5926177
+	fleet "Gargoor'an Akr War Fleet" 800
+	habitable 50000
+	belt 1678
+	object
+		sprite star/wr
+		period 10
+	object
+		sprite planet/fog0-b
+		distance 786
+		period 88.144214
+	object
+		sprite planet/ice1
+		distance 1150
+		period 155.99359
+	object
+		sprite planet/gas13
+		distance 1809
+		period 307.76402
+	object
+		sprite planet/gas2-b
+		distance 3102
+		period 691.07102
+		object
+			sprite planet/rhea-b
+			distance 273
+			period 140.28866
+	object
+		sprite planet/gas13-b
+		distance 4230
+		period 1100.4506
+		object
+			sprite planet/io
+			distance 367
+			period 265.76618
+	object
+		sprite planet/tethys
+		distance 5804
+		period 1768.6875
+
+system Myshocua
+	pos -53904.899 -55164.8
+	government Gargoor'an
+	link Mayexyuk
+	link Xucailo
+	asteroids "large rock" 2 1.4308
+	asteroids "small metal" 7 1.2152
+	asteroids "medium metal" 3 1.4112
+	asteroids "large metal" 2 1.3132
+	minables tungsten 1 2.393076
+	fleet "Gargoor'an Akr War Fleet" 800
+	habitable 2560
+	belt 1888
+	object
+		sprite star/f-supergiant
+		distance 404.5
+		period 406.76895
+	object
+		sprite star/m-giant
+		distance 404.5
+		period 406.76895
+		offset 180
+	object
+		sprite planet/cloud5-b
+		distance 1077
+		period 624.81085
+	object
+		sprite planet/gas8
+		distance 2008
+		period 1590.6351
+		object
+			sprite planet/rock7-b
+			distance 319
+			period 269.52426
+	object
+		sprite planet/browndwarf-l
+		distance 3078
+		period 3018.7555
+		object
+			sprite planet/luna-b
+			distance 268
+			period 165.84516
+	object
+		sprite planet/gas7-b
+		distance 4316
+		period 5012.4167
+		object
+			sprite planet/dust5
+			distance 273
+			period 118.0488
+
+system Mayexyuk
+	pos -53923.899 -55130.133
+	government Gargoor'an
+	link Myshocua
+	asteroids "small rock" 15 2.808
+	asteroids "medium rock" 19 3.9312
+	asteroids "large rock" 2 3.888
+	asteroids "small metal" 15 2.2464
+	asteroids "medium metal" 2 3.3264
+	asteroids "large metal" 4 2.9376
+	minables titanium 1 3.7445457
+	minables aluminum 1 3.3043756
+	fleet "Gargoor'an Akr War Fleet" 600
+	habitable 361.25
+	belt 1129
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/forest5-b
+		distance 313
+		period 260.5899
+	object
+		sprite planet/browndwarf-l
+		distance 889
+		period 1247.3654
+	object
+		sprite planet/gas4
+		distance 1927
+		period 3980.7384
+		object
+			sprite planet/rhea
+			distance 231
+			period 109.19344
+		object
+			sprite planet/ice8
+			distance 326
+			period 222.49847
+	object
+		sprite planet/gas12
+		distance 2798
+		period 6964.8638
+		object
+			sprite planet/tethys-b
+			distance 395
+			period 483.49278
+
+system Vanhruave
+	pos -53997.177 -54850.604
+	government Akralva
+	link Kexaer
+	link Moguahhi
+	asteroids "large metal" 1 3.542
+	fleet "Akralva Hunter" 800
+	fleet "Akralva Merchant" 700
+	habitable 361.25
+	belt 1745
+	object
+		sprite star/k8
+		period 10
+	object
+		sprite planet/rock18
+		distance 340
+		period 295.02542
+		object
+			sprite planet/rhea
+			distance 151
+			period 57.709061
+	object
+		sprite planet/rock2
+		distance 707
+		period 884.64736
+	object
+		sprite planet/desert2
+		distance 1170
+		period 1883.3015
+	object
+		sprite planet/gas15-b
+		distance 2243
+		period 4999.0212
+	object
+		sprite planet/gas1
+		distance 3649
+		period 10372.94
+		object
+			sprite planet/europa-b
+			distance 613
+			period 717.96379
+	object
+		sprite planet/gas9-b
+		distance 5184
+		period 17564.612
+
+system Macrysir
+	pos -54057.177 -54858.16
+	government Akralva
+	link Kexaer
+	link Moguahhi
+	asteroids "medium metal" 60 2.208
+	asteroids "large metal" 1 1.272
+	minables tungsten 2 3.8700374
+	minables neodymium 7 4.0081747
+	minables titanium 2 3.2407452
+	fleet "Akralva Hunter" 800
+	fleet "Akralva Merchant" 700
+	habitable 635.65
+	belt 1035
+	object
+		sprite star/m-dwarf
+		distance 93.243766
+		period 32.589949
+	object
+		sprite star/a0
+		distance 1.2562338
+		period 32.589949
+		offset 180
+	object
+		sprite planet/ocean5-b
+		distance 210
+		period 107.96051
+	object
+		sprite planet/rock1-b
+		distance 417
+		period 302.09257
+	object
+		sprite planet/gas15
+		distance 1141
+		period 1367.302
+		object
+			sprite planet/io-b
+			distance 182
+			period 92.812763
+		object
+			sprite planet/lava0-b
+			distance 297
+			period 133.95295
+		object
+			sprite planet/europa-b
+			distance 407
+			period 388.42166
+		object
+			sprite planet/ice7-b
+			distance 534
+			period 322.9457
+	object
+		sprite planet/miranda
+		distance 1808
+		period 2727.3044
+
+system Mighelrig
+	pos -54100.51 -54761.271
+	government Akralva
+	link Axecarna
+	link Heklisa
+	link Maculxea
+	asteroids "small rock" 2 1.785
+	asteroids "medium rock" 2 3.213
+	asteroids "large rock" 1 2.3205
+	asteroids "medium metal" 14 2.3205
+	asteroids "large metal" 1 2.1063
+	minables aluminum 1 3.5111985
+	minables lead 1 2.8708798
+	fleet "Akralva Hunter" 800
+	fleet "Akralva Merchant" 700
+	habitable 819.2
+	belt 1363
+	object
+		sprite star/b5
+		period 10
+	object Nexalkai
+		sprite planet/rock6
+		distance 539
+		period 391.05079
+		object
+			sprite planet/dust7-b
+			distance 129
+			period 55.38411
+	object Nuivaolex
+		sprite planet/rock11
+		distance 918
+		period 869.18864
+	object
+		sprite planet/gas17-b
+		distance 2060
+		period 2921.8025
+		object
+			sprite planet/rhea
+			distance 422
+			period 269.61699
+		object
+			sprite planet/dust5
+			distance 549
+			period 336.64808
+	object
+		sprite planet/gas13
+		distance 3017
+		period 5178.6074
+		object
+			sprite planet/europa
+			distance 266
+			period 205.2269
+
+system Coogualrex
+	pos -53990.844 -54720.271
+	government Akralva
+	link Helagir
+	link Maculxea
+	link Max'haal
+	link Vaanpolx
+	asteroids "medium rock" 17 5.916
+	asteroids "large rock" 1 3.6192
+	asteroids "small metal" 1 3.5496
+	asteroids "medium metal" 11 3.5496
+	asteroids "large metal" 1 6.4032
+	minables copper 2 7.6397136
+	minables silicon 2 6.6859848
+	fleet "Akralva Hunter" 800
+	fleet "Akralva Merchant" 700
+	habitable 151.25
+	belt 1983
+	object
+		sprite star/m8
+		period 10
+	object Syunhor
+		sprite planet/forest5-b
+		distance 181
+		period 177.09861
+	object
+		sprite planet/ocean6
+		distance 584
+		period 1026.3998
+	object
+		sprite planet/ocean3-b
+		distance 1236
+		period 3160.276
+	object
+		sprite planet/desert5
+		distance 1543
+		period 4408.0467
+		object
+			sprite planet/miranda
+			distance 135
+			period 74.201465
+	object
+		sprite planet/gas9
+		distance 2494
+		period 9058.2015
+		object
+			sprite planet/luna-b
+			distance 227
+			period 129.2824
+		object
+			sprite planet/rhea
+			distance 318
+			period 176.36779
+		object
+			sprite planet/dust3-b
+			distance 406
+			period 309.23573
+		object
+			sprite "planet/asteroid base"
+			distance 587
+			period 372.19863
+	object
+		sprite planet/uranus-b
+		distance 3866
+		period 17481.958
+
+system Max'haal
+	pos -53958.51 -54740.604
+	government Akralva
+	link Coogualrex
+	link Vaanpolx
+	link Yhazorhai
+	asteroids "large metal" 1 2.2344
+	fleet "Akralva Hunter" 800
+	fleet "Akralva Merchant" 700
+	habitable 2560
+	belt 1376
+	object
+		sprite star/g-giant
+		distance 245.5
+		period 192.3301
+		offset 180
+	object
+		sprite star/b-supergiant
+		distance 245.5
+		period 192.3301
+	object
+		sprite planet/mars
+		distance 816
+		period 412.0598
+	object
+		sprite planet/ice5
+		distance 1270
+		period 800.0748
+	object
+		sprite planet/gas8-b
+		distance 1903
+		period 1467.5172
+		object
+			sprite planet/rock3-b
+			distance 315
+			period 211.33258
+	object
+		sprite planet/gas4-b
+		distance 2791
+		period 2606.5422
+		object
+			sprite planet/rock7-b
+			distance 217
+			period 151.21728
+
+system Yhazorhai
+	pos -53960.844 -54787.16
+	government Akralva
+	link Max'haal
+	link Vaanpolx
+	asteroids "small rock" 26 3.96
+	asteroids "medium rock" 38 3.48
+	asteroids "large rock" 20 3.24
+	asteroids "small metal" 1 4.02
+	asteroids "medium metal" 5 5.76
+	asteroids "large metal" 7 4.74
+	minables uranium 1 6.4408454
+	minables copper 18 4.6070722
+	minables silver 1 6.5615876
+	fleet "Akralva Hunter" 800
+	fleet "Akralva Merchant" 700
+	habitable 2560
+	belt 1572
+	object
+		sprite star/k-giant
+		distance 314
+		period 278.20471
+		offset 180
+	object
+		sprite star/a-supergiant
+		distance 314
+		period 278.20471
+	object
+		sprite planet/cloud5-b
+		distance 855
+		period 441.95106
+	object
+		sprite planet/ocean1-b
+		distance 1139
+		period 679.53307
+	object
+		sprite planet/gas17
+		distance 1632
+		period 1165.4811
+	object
+		sprite planet/gas0-hot
+		distance 3238
+		period 3257.1689
+		object
+			sprite planet/io-b
+			distance 578
+			period 525.28183
+	object
+		sprite planet/jupiter-b
+		distance 4872
+		period 6011.5426
+		object
+			sprite planet/tethys
+			distance 260
+			period 258.19889
+		object
+			sprite planet/lava0
+			distance 386
+			period 198.4717
+	object
+		sprite planet/gas6
+		distance 6069
+		period 8357.9683
+		object
+			sprite planet/dust7
+			distance 368
+			period 266.85316
+		object
+			sprite planet/desert4
+			distance 476
+			period 491.27228
+		object
+			sprite planet/europa
+			distance 628
+			period 744.47702
+
+planet Syunhor
+	shipyard "Akralva Basic"
+	outfitter "Akralva Advanced"
+	outfitter "Akralva Basic"
+	outfitter "Standard Outfits"
+	landscape land/mountain4
+	description .
+	spaceport .
+	tribute 8600
+		threshold 8000
+		fleet "Akralva Battlefleet" 9
+		fleet "Akralva Hunter" 11
+
+planet Nuivaolex
+	attributes mining
+	outfitter "Akralva Basic"
+	outfitter "Standard Outfits"
+	landscape land/mountain17-harro
+	description .
+	spaceport .
+	tribute 8000
+		threshold 8000
+		fleet "Akralva Battlefleet" 7
+		fleet "Akralva Hunter" 10
+
+system Moguahhi
+	pos -54013.51 -54882.715
+	government Akralva
+	link Gauxgurli
+	link Gazxuro
+	link Macrysir
+	link Mahgulzi
+	link Vanhruave
+	asteroids "small rock" 3 4.968
+	asteroids "medium rock" 63 4.6368
+	asteroids "large rock" 4 4.4712
+	asteroids "small metal" 13 4.9128
+	asteroids "medium metal" 36 3.2568
+	asteroids "large metal" 102 3.1464
+	minables tungsten 7 7.3377887
+	minables titanium 7 7.382691
+	fleet "Akralva Hunter" 800
+	fleet "Akralva Merchant" 700
+	habitable 13107.2
+	belt 1864
+	object
+		sprite star/k-giant
+		period 10
+	object
+		sprite planet/rock11
+		distance 400
+		period 62.5
+	object
+		sprite planet/gas4
+		distance 822
+		period 184.11864
+	object
+		sprite planet/ocean3
+		distance 1679
+		period 537.48466
+	object
+		sprite planet/gas14
+		distance 2350
+		period 890.00372
+		object
+			sprite "planet/asteroid base"
+			distance 256
+			period 107.19575
+
+planet Nexalkai
+	attributes mining
+	outfitter "Akralva Basic"
+	outfitter "Standard Outfits"
+	landscape land/mountain17-harro
+	description .
+	spaceport .
+	tribute 8000
+		threshold 8000
+		fleet "Akralva Battlefleet" 7
+		fleet "Akralva Hunter" 10
+
+system Kexaer
+	pos -54014.844 -54810.271
+	government Akralva
+	link Axecarna
+	link Macrysir
+	link Vaanpolx
+	link Vanhruave
+	asteroids "small rock" 16 2.346
+	asteroids "medium rock" 94 3.06
+	asteroids "large rock" 2 2.448
+	asteroids "small metal" 4 2.55
+	asteroids "medium metal" 6 2.04
+	asteroids "large metal" 12 1.904
+	minables titanium 3 2.8067964
+	minables lead 26 3.6583594
+	fleet "Akralva Hunter" 800
+	fleet "Akralva Merchant" 700
+	habitable 1616.2
+	belt 1647
+
+system Gazxuro
+	pos -54027.844 -54925.715
+	government Akralva
+	link Gauxgurli
+	link Mahgulzi
+	link Mahuxer
+	link Moguahhi
+	link Xeailva
+	asteroids "small rock" 19 1.1648
+	asteroids "medium rock" 2 1.0556
+	asteroids "large rock" 65 1.82
+	asteroids "small metal" 2 1.365
+	asteroids "medium metal" 7 1.0192
+	asteroids "large metal" 36 1.7108
+	minables tungsten 1 2.0207065
+	minables titanium 9 2.7084329
+	minables aluminum 1 2.7705079
+	fleet "Akralva Hunter" 800
+	fleet "Akralva Merchant" 700
+	fleet "Akralva Battlefleet" 2400
+	habitable 756.45
+	belt 1166
+	object
+		sprite star/b-dwarf
+		distance 109.93456
+		period 40.367128
+		offset 180
+	object
+		sprite star/b8
+		distance 5.5654372
+		period 40.367128
+	object
+		sprite planet/ice2
+		distance 224
+		period 109.0252
+	object
+		sprite planet/dust5-b
+		distance 554
+		period 424.0524
+	object Kuxrica
+		sprite planet/forest4
+		distance 909
+		period 891.25238
+	object
+		sprite planet/rock11-b
+		distance 1132
+		period 1238.5813
+	object
+		sprite planet/gas12
+		distance 1806
+		period 2495.9248
+		object
+			sprite planet/rock7
+			distance 277
+			period 218.08786
+		object
+			sprite planet/station1k
+			distance 391
+			period 292.25756
+		object
+			sprite planet/lava0-b
+			distance 505
+			period 296.9988
+
+planet Kuxrica
+	outfitter "Akralva Basic"
+	outfitter "Standard Outfits"
+	landscape land/dune0
+	description .
+	spaceport .
+	tribute 8750
+		threshold 8000
+		fleet "Akralva Battlefleet" 8
+		fleet "Akralva Hunter" 16
+
+system Mahgulzi
+	pos -53965.844 -54907.049
+	government Akralva
+	link Gazxuro
+	link Moguahhi
+	link Xeailva
+	asteroids "small metal" 3 3.3698
+	asteroids "medium metal" 8 2.1112
+	asteroids "large metal" 34 3.2074
+	minables iron 7 5.3785337
+	minables copper 4 3.4345218
+	minables titanium 7 4.3294324
+	fleet "Akralva Hunter" 800
+	fleet "Akralva Merchant" 700
+	fleet "Akralva Battlefleet" 2400
+	habitable 31.25
+	belt 1916
+	object
+		sprite star/f-dwarf
+		period 10
+	object
+		sprite planet/rock1-b
+		distance 344
+		period 1020.8399
+	object
+		sprite planet/gas2-b
+		distance 804
+		period 3647.5735
+	object
+		sprite planet/gas10
+		distance 2322
+		period 17902.484
+		object
+			sprite planet/dust0
+			distance 212
+			period 190.10701
+		object
+			sprite planet/rock3-b
+			distance 530
+			period 461.22668
+	object
+		sprite planet/gas0-b
+		distance 3150
+		period 28286.93
+	object
+		sprite planet/gas13-b
+		distance 3773
+		period 37080.894
+		object
+			sprite planet/dust0-b
+			distance 250
+			period 243.44696
+
+system Gauxgurli
+	pos -54060.844 -54909.16
+	government Akralva
+	link Gazxuro
+	link Moguahhi
+	asteroids "small rock" 29 2.418
+	asteroids "medium rock" 57 2.34
+	asteroids "large rock" 2 3.549
+	asteroids "small metal" 2 2.613
+	asteroids "medium metal" 6 2.262
+	asteroids "large metal" 4 2.574
+	minables silicon 9 3.8614703
+	fleet "Akralva Hunter" 800
+	fleet "Akralva Merchant" 700
+	fleet "Akralva Battlefleet" 2400
+	habitable 1685
+	belt 1983
+	object
+		sprite star/g3
+		distance 139.01484
+		period 53.941333
+		offset 180
+	object
+		sprite star/g0-old
+		distance 43.985163
+		period 53.941333
+	object
+		sprite planet/lava6
+		distance 250
+		period 86.13012
+	object
+		sprite planet/gas17
+		distance 1031
+		period 721.32841
+		object
+			sprite planet/europa-b
+			distance 473
+			period 486.63522
+	object
+		sprite planet/gas7-b
+		distance 2068
+		period 2049.1363
+	object
+		sprite planet/gas3-b
+		distance 3269
+		period 4072.5593
+		object
+			sprite planet/station1kd
+			distance 298
+			period 194.45764
+		object
+			sprite planet/tethys
+			distance 754
+			period 1275.1209
+	object
+		sprite planet/gas10
+		distance 4559
+		period 6707.3262
+		object
+			sprite planet/dust4-b
+			distance 223
+			period 103.57045
+
+system Mahuxer
+	pos -54041.844 -54973.049
+	government Akralva
+	link Gazxuro
+	link Kaldeeral
+	asteroids "large metal" 1 4.41
+	fleet "Akralva Hunter" 800
+	fleet "Akralva Merchant" 700
+	fleet "Akralva Battlefleet" 2400
+	habitable 290.45
+	belt 1211
+	object
+		sprite star/f-dwarf
+		distance 80.762954
+		period 45.18374
+		offset 180
+	object
+		sprite star/m3
+		distance 9.737046
+		period 45.18374
+	object
+		sprite planet/rock18-b
+		distance 244
+		period 200.0295
+	object
+		sprite planet/ocean0
+		distance 476
+		period 545.02915
+	object
+		sprite planet/gas3-b
+		distance 1235
+		period 2277.7693
+		object
+			sprite planet/station4b
+			distance 291
+			period 96.719004
+		object
+			sprite planet/callisto
+			distance 408
+			period 215.679
+	object
+		sprite planet/gas2-hot
+		distance 2472
+		period 6450.331
+		object
+			sprite planet/station2c
+			distance 181
+			period 63.728762
+	object
+		sprite planet/gas16-b
+		distance 3056
+		period 8866.2368
+
+system Kaldeeral
+	pos -53999.51 -54964.493
+	government Akralva
+	link Mahuxer
+	link Mishexkal
+	link Xeailva
+	asteroids "small rock" 25 1.0738
+	asteroids "medium rock" 5 0.91
+	asteroids "large rock" 27 1.7108
+	asteroids "small metal" 3 1.274
+	asteroids "medium metal" 39 1.1466
+	asteroids "large metal" 4 1.3468
+	minables aluminum 13 2.3033962
+	fleet "Akralva Hunter" 800
+	fleet "Akralva Merchant" 700
+	fleet "Akralva Battlefleet" 2400
+	habitable 336.2
+	belt 1280
+	object
+		sprite star/k3
+		period 10
+	object
+		sprite planet/desert3
+		distance 241
+		period 182.50371
+	object
+		sprite planet/rock13
+		distance 543
+		period 617.22838
+	object
+		sprite planet/cloud8
+		distance 866
+		period 1243.1484
+	object
+		sprite planet/ice7-b
+		distance 1474
+		period 2760.5293
+
+system Mishexkal
+	pos -53987.399 -54998.16
+	government Akralva
+	link Kaldeeral
+	link Kuraexel
+	link Xulkegol
+	asteroids "medium rock" 58 2.349
+	asteroids "large rock" 14 2.871
+	asteroids "medium metal" 151 4.35
+	asteroids "large metal" 2 2.9145
+	minables uranium 12 7.1194246
+	minables copper 56 6.116216
+	minables iron 17 5.9372048
+	fleet "Akralva Hunter" 800
+	fleet "Akralva Merchant" 700
+	fleet "Akralva Battlefleet" 1500
+	habitable 2560
+	belt 1294
+	object
+		sprite planet/browndwarf-l-rouge
+		distance 261
+		period 210.8292
+	object
+		sprite star/o-giant
+		distance 261
+		period 210.8292
+		offset 180
+	object
+		sprite planet/gas14-b
+		distance 1235
+		period 767.22977
+		object
+			sprite planet/dust4
+			distance 245
+			period 119.26904
+		object
+			sprite planet/dust5-b
+			distance 347
+			period 169.16551
+		object
+			sprite planet/dust3-b
+			distance 453
+			period 364.45836
+		object
+			sprite planet/dust1-b
+			distance 543
+			period 393.53044
+	object
+		sprite planet/browndwarf-y
+		distance 2373
+		period 2043.4858
+		object
+			sprite planet/tethys
+			distance 265
+			period 265.68263
+		object
+			sprite planet/ice8-b
+			distance 343
+			period 240.12744
+	object
+		sprite planet/gas9
+		distance 3415
+		period 3527.8578
+		object
+			sprite planet/lava0
+			distance 256
+			period 107.19575
+		object
+			sprite planet/dust5
+			distance 363
+			period 180.99958
+	object
+		sprite planet/gas0-b
+		distance 4148
+		period 4722.6214
+	object
+		sprite planet/gas10-b
+		distance 4803
+		period 5884.2876
+		object
+			sprite planet/rock0-b
+			distance 214
+			period 118.3372
+
+system Kuraexel
+	pos -53934.844 -55011.827
+	government Akralva
+	link Mishexkal
+	link Xulkegol
+	asteroids "large metal" 1 3.312
+	fleet "Akralva Hunter" 800
+	fleet "Akralva Merchant" 700
+	fleet "Akralva Battlefleet" 1500
+	habitable 1280
+	belt 1961
+	object
+		sprite star/f5-old
+		period 10
+	object
+		sprite planet/ocean9-b
+		distance 245
+		period 95.871415
+	object
+		sprite planet/mercury
+		distance 458
+		period 245.0407
+	object
+		sprite planet/desert1-b
+		distance 737
+		period 500.19718
+	object
+		sprite planet/gas17-b
+		distance 1076
+		period 882.38561
+
+planet Xualkir'Vesha
+	attributes "akralva fort"
+	shipyard "Akralva Advanced"
+	shipyard "Akralva Basic"
+	outfitter "Akralva Advanced"
+	outfitter "Akralva Basic"
+	outfitter "Standard Outfits"
+	landscape land/fields6
+	description "This planet is one of Akralva heavily defended world, though it's yet known why."
+	spaceport .
+	tribute 21000
+		threshold 9000
+		fleet "Akralva Battlefleet" 18
+		fleet "Akralva Hunter" 31
+		fleet "Akralva Merchant" 8
+
+system Kegoais
+	pos -53941.288 -55059.382
+	government Akralva
+	link Xulkegol
+	asteroids "small rock" 2 4.5298
+	asteroids "medium rock" 7 5.9334
+	asteroids "large rock" 3 4.785
+	asteroids "small metal" 1 4.785
+	asteroids "medium metal" 2 4.0194
+	asteroids "large metal" 6 5.1678
+	minables aluminum 3 9.572552
+	fleet "Akralva Hunter" 800
+	fleet "Akralva Merchant" 700
+	fleet "Akralva Battlefleet" 2400
+	habitable 941.8
+	belt 1973
+
+system Xeailva
+	pos -53990.844 -54937.827
+	government Akralva
+	link Gazxuro
+	link Kaldeeral
+	link Mahgulzi
+	asteroids "small rock" 19 1.1648
+	asteroids "medium rock" 2 1.0556
+	asteroids "large rock" 65 1.82
+	asteroids "small metal" 2 1.365
+	asteroids "medium metal" 7 1.0192
+	asteroids "large metal" 36 1.7108
+	minables tungsten 1 2.0207065
+	minables titanium 9 2.7084329
+	minables aluminum 1 2.7705079
+	fleet "Akralva Hunter" 800
+	fleet "Akralva Merchant" 700
+	fleet "Akralva Battlefleet" 2400
+	habitable 756.45
+	belt 1166
 
