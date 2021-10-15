@@ -288,6 +288,111 @@ outfit "varsrel beam 5"
 		"hull damage" 85
 		"piercing" .01
 
+outfit "Cveai Torpedo"
+	category "Ammunition"
+	cost 25
+	thumbnail "outfit/zorcn ronc missile"
+	"mass" .1
+	"ronc capacity" -1
+	description "Ammo for Ronc launcher."
+	
+outfit "Cveai Storage Rack"
+	category "Ammunition"
+	cost 5000
+	thumbnail "outfit/zorcn ronc pod"
+	"mass" 2
+	"outfit space" -8
+	"ronc capacity" 30
+	ammo "Cveai Torpedo"
+	description "A machine-friendly crate that allows Ronc Pod easy access to extra ammunition."
+
+effect "cveai trail"
+	sprite "effect/ronc smoke"
+		"no repeat"
+		"frame rate" 30
+	"lifetime" 5
+	"random angle" 30
+	"random spin" 50
+	"velocity scale" 0
+	
+outfit "Cveai Torpedo Launcher"
+	category "Secondary Weapons"
+	cost 20000
+	thumbnail "outfit/zorcn ronc pod"
+	"mass" 5
+	"outfit space" -19
+	"weapon capacity" -19
+	"gun ports" -1
+	"ronc capacity" 15
+	weapon
+		sprite "projectile/ronc"
+		ammo "Cveai Torpedo"
+		icon "icon/javelin"
+		"fire effect" "ronc fire"
+		"hit effect" "tiny explosion"
+		"hit effect" "smoke" 2
+		"live effect" "ronc dust" 50
+		"inaccuracy" 2.1
+		"velocity" 30
+		"acceleration" .3
+		"drag" .1
+		"lifetime" 40
+		"reload" 20
+		"burst reload" 5
+		"burst count" 3
+		"firing energy" .2
+		"firing heat" 12
+		"shield damage" 300
+		"hull damage" 450
+		"hit force" 35
+		"missile strength" 38
+		"blast radius" 5
+	description "Unguided rockets fired in large burst to overwhelm the enemy's missile defence."
+	
+outfit "Cveai Torpedo Turret"
+	category "Secondary Weapons"
+	cost 60000
+	thumbnail "outfit/zorcn ronc turret"
+	"mass" 16
+	"outfit space" -22
+	"weapon capacity" -22
+	"turret mounts" -1
+	"ronc capacity" 600
+	weapon
+		sprite "projectile/ronc"
+		"hardpoint sprite" "hardpoint/ronc turret"
+		"hardpoint offset" 5
+		"turret turn" 4
+		ammo "Cveai Torpedo"
+		icon "icon/javelin"
+		"fire effect" "ronc fire"
+		"hit effect" "tiny explosion"
+		"hit effect" "smoke" 2
+		"live effect" "ronc dust" 50
+		"inaccuracy" 2.1
+		"velocity" 30
+		"acceleration" .3
+		"drag" .1
+		"lifetime" 40
+		"reload" 20
+		"burst reload" 5
+		"burst count" 3
+		"firing energy" .2
+		"firing heat" 12
+		"shield damage" 300
+		"hull damage" 450
+		"hit force" 35
+		"missile strength" 38
+		"blast radius" 5
+	description "Initially designed as anti-fighter swarm turret but was also found to be sufficiently effective against large ships as well"
+	
+effect "ronc fire"
+	sprite "effect/flame"
+		"no repeat"
+		"frame rate" 30
+	"lifetime" 8
+	"random velocity" -2
+	
 
 outfit "Illar Missile Defence"
 	category "Turrets"
