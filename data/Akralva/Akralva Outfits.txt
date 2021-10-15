@@ -61,7 +61,7 @@ effect "vretlure fire"
 outfit "Vekrevira Gun"
 	category "Guns"
 	cost 680000
-	thumbnail "outfit/heavy laser"
+	thumbnail "outfit/akralva vekrevira"
 	"mass" 60
 	"outfit space" -60
 	"weapon capacity" -60
@@ -88,6 +88,34 @@ effect "vekrevira laser"
 		"frame rate" 35
 	"lifetime" 6
 	"velocity scale" 1.
+
+outfit "Vekrevira Turret"
+	category "Turrets"
+	cost 735000
+	thumbnail "outfit/akralva vekrevira turret"
+	"mass" 81
+	"outfit space" -81
+	"weapon capacity" -81
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sound "tracker"
+		"hardpoint sprite" "hardpoint/akralva vekrevira turret hp"
+		"hardpoint offset" 8.
+		"hit effect" "thrasher impact"
+		"fire effect" "vekrevira laser"
+		"inaccuracy" .3
+		"turret turn" 2.4
+		"velocity" 500
+		"lifetime" 1
+		"reload" 50
+		"firing energy" 90
+		"firing heat" 92
+		"firing force" 20
+		"shield damage" 360
+		"hull damage" 120
+		"slowing damage" 10
+	description "Akralva laser cannon turret"
 
 
 outfit "Ansrikre Power Core"

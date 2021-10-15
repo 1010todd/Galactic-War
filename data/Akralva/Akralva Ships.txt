@@ -109,6 +109,7 @@ ship "Helgirvas"
 			"hit force" 1260
 	outfits
 		"Vretlure Cannon" 18
+		"Vekrevira Turret" 2
 
 		"Keshire Solar Core"
 		"Lhorisva Protection Charm"
@@ -136,8 +137,8 @@ ship "Helgirvas"
 	gun 82.5 -34
 	gun -82.5 -34
 	gun 82.5 -34
-	turret 0 -53.5
-	turret 0 -19
+	turret 0 -53.5 "Vekrevira Turret"
+	turret 0 -19 "Vekrevira Turret"
 	turret -68 89.5
 	turret 68 89.5
 	turret -41.5 -16.5
