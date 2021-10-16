@@ -17278,7 +17278,7 @@ system Dukoree
 		offset 208.732
 		object Ulrulevur
 			sprite planet/station5
-			distance 279
+			distance 277.64496
 			period 16.5782
 
 system Dularvo
@@ -17739,7 +17739,7 @@ system Durdan
 			period 33.0604
 
 system Dureede
-	pos -51266.6 -55335.7
+	pos -51266.6 -55334.7
 	government "Dels Kaote"
 	link Mesavor
 	link Sodoranu
@@ -38746,7 +38746,7 @@ system Kaarkke
 system Kaaroknel
 	pos -51123.2 -56692.5
 	government "Kroom Kakaima"
-	link Kukek
+	link Kulkek
 	link Orelpelor
 	link Regullo
 	link Vuburke
@@ -42142,11 +42142,11 @@ system Kegerravo
 			offset 91.7077
 
 system Keggar
-	pos -51064 -56791.5
+	pos -51064 -56790.5
 	government "Kroom Kakaima"
 	link Eikole
-	link Kukek
 	link Kukorre
+	link Kulkek
 	link Okugar
 	link Regullo
 	asteroids "small rock" 2 3.3275
@@ -42180,7 +42180,7 @@ system Keggar
 		distance 622.64
 		period 189.105
 		object
-			sprite planet/dust3
+			sprite planet/station2
 			distance 246
 			period 12.8307
 	object
@@ -52530,7 +52530,7 @@ system Korlassa
 			period 23.1815
 
 system Korrekka
-	pos -50669.6 -56773.6
+	pos -50669.6 -56772.6
 	government "Kroom Kakaima"
 	link Kogudor
 	link Lokdera
@@ -53980,8 +53980,8 @@ system Kudelaei
 			distance 187
 			period 12.7407
 
-system Kukek
-	pos -51088.6 -56741.9
+system Kulkek
+	pos -51087.6 -56741.9
 	government "Kroom Kakaima"
 	link Kaaroknel
 	link Keggar
@@ -54156,7 +54156,7 @@ system Kukelvar
 		period 3502.94
 
 system Kukorre
-	pos -50977 -56820.5
+	pos -50977 -56819.5
 	government "Kroom Kakaima"
 	link Keggar
 	link Kusgugar
@@ -68010,7 +68010,7 @@ system Mesavor
 			period 30.4721
 	object Ereata
 		sprite planet/forest1
-		distance 1609.93
+		distance 1611.3593
 		period 652.8
 		offset 251.569
 		object Sanon
@@ -94540,6 +94540,7 @@ system "Se kog ii"
 system "Sector Dels"
 	pos -52933.35 -56808.894
 	government "Dels Kaote"
+	link Mahuokegin
 	asteroids "small rock" 1 4.0086
 	asteroids "medium rock" 2 2.0196
 	asteroids "large rock" 3 2.1726
@@ -114314,6 +114315,7 @@ planet Kuelgah
 	spaceport .
 
 planet Kugardor
+	attributes "kroom fort"
 	shipyard "Kakaima Advanced"
 	outfitter "Kakaima Advanced"
 	landscape land/land3
@@ -116301,7 +116303,7 @@ planet Ulkuerel
 planet Ulrulevur
 	attributes station
 	landscape land/sivael8
-	description .
+	description "Dels refinery station."
 	spaceport .
 
 planet Uo'kodan
@@ -128121,6 +128123,7 @@ system Mahuokegin
 	government Gargoor'an
 	link Goouree'ai
 	link Mvigoora
+	link "Sector Dels"
 	link Shukomag
 	asteroids "small rock" 7 2.0559
 	asteroids "medium rock" 7 1.8018
@@ -134156,4 +134159,27 @@ system Caokexle
 	fleet "Akralva Battlefleet" 2400
 	habitable 627.2
 	belt 1320
+
+planet Egoonka
+	attributes mining
+	outfitter "Kroom Basic"
+	landscape land/badlands1
+	description ..
+
+planet "Gekok Alcaga"
+	landscape land/station0
+	description "Kroom Kakaima refinery station."
+	spaceport .
+
+planet Makkoge
+	attributes factory mining
+	landscape land/fog0
+	description "A mining and factory world. "
+	spaceport .
+
+planet Kagaaro
+	attributes farming
+	landscape land/fields2
+	description "Majority of the land on this planet is dedicated to farming, mysterious smooth black pillars are raised in grid among the vast fields. Planting and harvesting use a mix of manual labor and machines."
+	spaceport .
 
