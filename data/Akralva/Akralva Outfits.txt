@@ -117,6 +117,7 @@ outfit "Vekrevira Turret"
 		"slowing damage" 10
 	description "Akralva laser cannon turret"
 
+#===================================Power
 
 outfit "Ansrikre Power Core"
 	category "Power"
@@ -197,6 +198,24 @@ outfit "Lhorisva Protection Charm"
 	"shield energy" 5
 	"required crew" 6
 	description "Akralva Shielding."
+
+outfit "Akralva Factory Module"
+	category "Systems"
+	cost 9000000
+	thumbnail "outfit/tehru hull repair small"
+	mass 180
+	"outfit space" -100
+	"cargo space" -200
+	"required crew" 80
+	"energy consumption" 5
+	"heat generation" 5
+	"industrial support" -1
+	"hull repair rate" 8
+	"hull repair delay" 180
+	"energy capacity" 1000
+	"operating costs" 20
+	description "This module allow a ship to become a mobile factory. Requires dedicated support systems(and a lot of space)."
+	description "Author Note: This outfit don't provide special funtionality yet."
 
 #=====================================Engines
 outfit "Eravarin Steering"

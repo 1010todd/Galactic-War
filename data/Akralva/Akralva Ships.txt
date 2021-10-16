@@ -27,7 +27,7 @@ ship "Cinrious"
 
 		"Ansrikre Power Core"
 		"Dhenvra Protection Charm"
-		"Ekken'lar Capacitor" 3
+		"Nikvyris Power Reservoir"
 
 		"Elvisri Thruster"
 		"Eravarin Steering"
@@ -81,6 +81,71 @@ ship "Cinrious"
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
 	description "Akralval freighter."
+
+ship "Kakziar"
+	sprite "ship/akralva kakziar"
+	thumbnail "thumbnail/akralva kakziar thumb"
+	attributes
+		category "Heavy Freighter"
+		"cost" 5200000
+		"shields" 20500
+		"hull" 37800
+		"required crew" 65
+		"bunks" 128
+		"mass" 1220
+		"drag" 7.8
+		"heat dissipation" .65
+		"fuel capacity" 600
+		"cargo space" 685
+		"outfit space" 570
+		"weapon capacity" 450
+		"engine capacity" 160
+		"hull protection" .1
+		"industrial support" 5
+		weapon
+			"blast radius" 120
+			"shield damage" 840
+			"hull damage" 420
+			"hit force" 1260
+	outfits
+		"Vekrevira Turret" 4
+
+		"Ghrivare Power Core"
+		"Heshriva Protection Charm"
+		"Akralva Factory Module"
+		"Nikvyris Power Reservoir"
+
+		"Iravri Thruster"
+		"Iqirir Steering"
+		"Hyperdrive"
+
+	turret -0.5 -138.5
+	turret -0.5 -106.5
+	turret -14 46.5
+	turret 14 46.5
+	bay "Fighter" -42.5 89.5
+	bay "Fighter" 42.5 89.5
+	bay "Fighter" -42.5 89.5
+	bay "Fighter" 42.5 89.5
+	bay "Fighter" -42.5 89.5
+	bay "Fighter" 42.5 89.5
+	engine -12.5 193
+		zoom 1
+		angle 0
+		under
+	engine 12.5 193
+		zoom 1
+		angle 0
+		under
+	leak "leak" 40 50
+	leak "flame" 40 30
+	explode "tiny explosion" 18
+	explode "small explosion" 36
+	explode "medium explosion" 24
+	explode "large explosion" 12
+	explode "nuke explosion" 3
+	"final explode" "final explosion large"
+	description "Akralva factory ship. Packed with machinery similarly advanced to its planet-based counterpart, this ship provides the Akralva capability to repair and manufacture equipment on the move. As well as quick relocation of manufacturing capability to provide new colonies similar capabilites to an established planets."
 
 ship "Helgirvas"
 	sprite "ship/akralva helgirvas"
