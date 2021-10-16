@@ -194,7 +194,7 @@ mission "GW: Mobile factory: produce Arziao Torpedo"
 	name "Mobile Factory"
 	description "Your mobile factory is producing 5 Arziao Torpedo every landing for 1 ton of Neodymium and 1 ton of Aluminum"
 	to offer
-		`GW: Mobile Fac Produce: Arziao Torpedo`
+		has `GW: Mobile Fac Produce: Arziao Torpedo`
 		not `GW: Mobile Fac Produce: Halted`
 	on offer
 		outfit Neodymium -1
@@ -205,6 +205,7 @@ mission "GW: Mobile factory: unlock Typhoon Torpedo"
 	landing
 	name "Mobile Factory: Unlocked Typhoon Torpedo"
 	to offer
+		has "GW: mobile factory menu landing: offered"
 		source
 			outfits "Typhoon Torpedo" # offer if source have this in outfitter.
 	on offer
@@ -216,7 +217,7 @@ mission "GW: Mobile factory: produce Typhoon Torpedo"
 	name "Mobile Factory"
 	description "Your mobile factory is producing 4 Typhoon Torpedo every landing for 1 ton of Iron and 1 ton of Copper"
 	to offer
-		`GW: Mobile Fac Produce: Typhoon Torpedo`
+		has `GW: Mobile Fac Produce: Typhoon Torpedo`
 		not `GW: Mobile Fac Produce: Halted`
 	on offer
 		outfit Iron -1
