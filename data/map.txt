@@ -8822,14 +8822,18 @@ system Bickorni
 	asteroids "large metal" 23 7.02
 	minables lead 23 6.43714
 	minables uranium 1 8.50367
-	habitable 1715
+	habitable 6400
 	belt 1394
 	object
-		sprite star/f5
-		period 10
+		sprite star/nova-old
+		distance 5.8362474
+		period 52
+		object
+			sprite star/nova-old-core
+			period 52
 	object
 		sprite planet/rock13
-		distance 291.69
+		distance 2119.9371
 		period 48.1183
 		object
 			sprite planet/rock0
@@ -8837,7 +8841,7 @@ system Bickorni
 			period 24.4934
 	object
 		sprite planet/gas11
-		distance 923.73
+		distance 3847.8818
 		period 271.172
 		object
 			sprite planet/rock3
@@ -8845,7 +8849,7 @@ system Bickorni
 			period 13.5095
 	object
 		sprite planet/gas16
-		distance 1831.74
+		distance 3174.6696
 		period 757.223
 		object
 			sprite planet/europa

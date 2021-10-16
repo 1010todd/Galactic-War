@@ -117,6 +117,88 @@ outfit "Vekrevira Turret"
 		"slowing damage" 10
 	description "Akralva laser cannon turret"
 
+outfit "Arziao Torpedo"
+	category "Ammunition"
+	cost 300
+	thumbnail "outfit/akralva arziao torpedo"
+	"mass" .2
+	"arziao capacity" -1
+	description "Akralva Arziao Torpedo"
+
+outfit "Arziao Torpedo Launcher"
+	category "Secondary Weapons"
+	cost 226000
+	thumbnail "outfit/akralva arziao launcher"
+	"mass" 10
+	"outfit space" -17
+	"weapon capacity" -17
+	"turret mounts" -1
+	"arziao capacity" 30
+	weapon
+		sprite "projectile/akralva arziao torpedo proj"
+			"frame rate" 50
+		sound "nuke"
+		ammo "Arziao Torpedo"
+		icon "icon/galkor"
+		"fire effect" "meteor fire"
+		"die effect" "missile death"
+		"live effect" "afterburner" 50
+		"hit effect" "medium explosion"
+		"inaccuracy" .1
+		"velocity" 10
+		"lifetime" 540
+		"reload" 45
+		"firing energy" 85
+		"firing heat" 50
+		"acceleration" 1
+		"drag" .06
+		"turn" 8
+		"homing" 4
+		"optical tracking" .9
+		"shield damage" 220
+		"hull damage" 380
+		"hit force" 120
+		"missile strength" 30
+	description "Akralva small torpedo launcher."
+
+outfit "Arziao Torpedo Turret"
+	category "Secondary Weapons"
+	cost 256000
+	thumbnail "outfit/akralva arziao turret"
+	"mass" 13
+	"outfit space" -21
+	"weapon capacity" -21
+	"turret mounts" -1
+	"arziao capacity" 30
+	weapon
+		sprite "projectile/akralva arziao torpedo proj"
+		sound "nuke"
+		ammo "Arziao Torpedo"
+		icon "icon/galkor"
+		"hardpoint sprite" "hardpoint/akralva arziao turret hp"
+		"hardpoint offset" 6.
+		"turret turn" 3.2
+		"fire effect" "meteor fire"
+		"die effect" "missile death"
+		"live effect" "afterburner" 50
+		"hit effect" "medium explosion"
+		"inaccuracy" .1
+		"velocity" 10
+		"lifetime" 540
+		"reload" 45
+		"firing energy" 85
+		"firing heat" 50
+		"acceleration" 1
+		"drag" .06
+		"turn" 8
+		"homing" 4
+		"optical tracking" .9
+		"shield damage" 220
+		"hull damage" 380
+		"hit force" 120
+		"missile strength" 30
+	description "Akralva small torpedo launcher turret for defensive role."
+
 #===================================Power
 
 outfit "Ansrikre Power Core"
