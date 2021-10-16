@@ -133,6 +133,7 @@ conversation "GW: mobile factory menu"
 	`This menu will not show up again. You can re-enable it at any job board.`
 		decline
 	label exit
+	``
 		defer
 	label halt
 	`The production will be halted. Confirm?`
@@ -187,6 +188,17 @@ mission "GW: mobile factory menu job"
 	repeat
 	name "Mobile Factory Menu"
 	description "Accept this and go to spaceport to access the menu."
+	to offer
+		has "never offer" #Doesn't work, the goal is to provide a way to manually access the menu...
+	on offer
+		require "Akralva Factory Module"
+		conversation "GW: mobile factory menu"
+
+mission "GW: mobile factory menu spaceport"
+	repeat
+	to offer
+		has "GW: mobile factory menu job: active"
+		has "never offer"
 	on offer
 		require "Akralva Factory Module"
 		conversation "GW: mobile factory menu"
