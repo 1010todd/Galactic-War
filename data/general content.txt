@@ -175,6 +175,8 @@ mission "GW: Mobile factory enable menu"
 	description "Enable mobile factory menu on landing. This will allow you to change settings even on uninhabited planets."
 	deadline 1
 	repeat
+	to offer
+		has `GW: Mobile Fac: Menu disabled`
 	on accept
 		dialog
 			`Enabled mobile factory menu on landing`
@@ -182,7 +184,7 @@ mission "GW: Mobile factory enable menu"
 
 mission "GW: mobile factory menu job"
 	repeat
-	on accept
+	on offer
 		require "Akralva Factory Module" 1
 		conversation "GW: mobile factory menu"
 
@@ -201,6 +203,7 @@ mission "GW: Mobile factory: produce Arziao Torpedo"
 
 mission "GW: Mobile factory: unlock Typhoon Torpedo"
 	landing
+	name "Mobile Factory: Unlocked Typhoon Torpedo"
 	to offer
 		source
 			outfits "Typhoon Torpedo" # offer if source have this in outfitter.
