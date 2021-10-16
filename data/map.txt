@@ -33501,20 +33501,22 @@ system Hykuanir
 			period 12.2099
 
 system "Iakve "
-	pos -50873.2 -54535.8
+	pos -50873.2 -54534.8
 	government Uninhabited
 	asteroids "small rock" 7 5.3975
 	asteroids "large rock" 2 3.8675
 	asteroids "medium metal" 1 5.1
 	asteroids "large metal" 3 5.8225
-	habitable 1080
+	habitable 1885
 	belt 1281
 	object
-		sprite star/g0
-		period 10
+		sprite star/nova-old
+		period 99
+		object
+			sprite star/nova-old-core
 	object
-		sprite planet/gas13
-		distance 412.25
+		sprite planet/lava1
+		distance 1840.7187
 		period 101.88
 		object
 			sprite planet/rock7
@@ -33522,7 +33524,7 @@ system "Iakve "
 			period 11.6988
 	object
 		sprite planet/gas7
-		distance 1265.34
+		distance 2652.3907
 		period 547.847
 		object
 			sprite planet/europa
@@ -33534,7 +33536,7 @@ system "Iakve "
 			period 25.3182
 	object
 		sprite planet/uranus
-		distance 2167.1
+		distance 3182.0745
 		period 1227.91
 		object
 			sprite planet/dust1
@@ -37557,11 +37559,11 @@ system Iviak
 			distance 159
 			period 25.7159
 	object
-		sprite planet/lava5
+		sprite planet/lava4
 		distance 688.85
 		period 220.057
 	object
-		sprite planet/cloud7
+		sprite planet/lava6
 		distance 1142.41
 		period 469.982
 		object
@@ -47909,7 +47911,7 @@ system Ko'dormo
 		period 1572.22
 
 system Ko'dorsu
-	pos -50647.6 -54347
+	pos -50647.6 -54346.333
 	government Kumakk
 	link Ko'lobo
 	link Ko'urnol
@@ -48261,7 +48263,7 @@ system Ko'hordul
 		sprite planet/desert1
 		distance 243.69
 		period 73.7314
-	object
+	object Kealo'conkko
 		sprite planet/water1
 		distance 492.98
 		period 212.148
@@ -48287,7 +48289,7 @@ system Ko'hordul
 			period 53.2925
 
 system Ko'ioxue
-	pos -50696.8 -54203.5
+	pos -50696.8 -54202.833
 	government Kumakk
 	link Ko'lobo
 	link Ko'roxler
@@ -48378,7 +48380,7 @@ system Ko'joco
 			sprite planet/io
 			distance 158
 			period 20.3326
-	object
+	object Ako'luca
 		sprite planet/desert0
 		distance 824.776
 		period 369.025
@@ -48544,7 +48546,7 @@ system Ko'koco
 			period 28.8188
 
 system Ko'kodao
-	pos -50901.7 -54008.4
+	pos -50901.7 -54007.733
 	government Kumakk
 	link Ko'noeor
 	link Ko'sohor
@@ -48810,7 +48812,7 @@ system Ko'kusor
 		distance 4000
 
 system Ko'laso
-	pos -50857.6 -53945.1
+	pos -50857.6 -53945.767
 	government Kumakk
 	link Ko'movar
 	link Ko'sohor
@@ -48867,7 +48869,7 @@ system Ko'laso
 			period 12.9713
 
 system Ko'lobo
-	pos -50678.5 -54277.9
+	pos -50678.5 -54277.233
 	government Kumakk
 	link Ko'doco
 	link Ko'dorsu
@@ -49733,7 +49735,7 @@ system Ko'neoho
 			period 41.9524
 
 system Ko'noeor
-	pos -50889.1 -54076.4
+	pos -50889.1 -54075.733
 	government Kumakk
 	link Ko'honor
 	link Ko'kodao
@@ -77741,14 +77743,17 @@ system Nilarhi
 	asteroids "large metal" 7 8.265
 	minables copper 6 4.74396
 	minables titanium 6 7.10554
-	habitable 1080
+	habitable 2560
 	belt 1676
 	object
-		sprite star/g0
-		period 10
+		sprite star/carbon
+		period 22
+		object
+			sprite star/carbon-core
+			period 22
 	object
-		sprite planet/ice6
-		distance 508.865
+		sprite planet/lava4
+		distance 1669.3948
 		period 139.718
 		offset 247.077
 	object
@@ -112271,6 +112276,9 @@ planet Alrukan
 	spaceport .
 
 planet Anhra'so
+	attributes farming
+	outfitter "Kumakk Basic"
+	outfitter "Standard Outfits"
 	landscape land/fields1
 	description .
 	spaceport .
@@ -112355,6 +112363,8 @@ planet Asegllegar
 	spaceport .
 
 planet Aserenar
+	outfitter "Geeva Basic"
+	outfitter "Standard Outfits"
 	landscape land/fog1
 	description .
 	spaceport .
@@ -114068,8 +114078,13 @@ planet Ko'a'nora
 	spaceport .
 
 planet "Ko'al Ladonre"
+	shipyard "Kumakk Advanced"
+	shipyard "Kumakk Basic"
+	outfitter "Kumakk Advanced"
+	outfitter "Standard Outfits"
 	landscape land/mountain15-sfiera
-	description .
+	description "A large portion of the planet is covered in dense metal buildings most raised several dozen floors above the ground. Mountains razed for materials and land."
+	description "Despite the massive industrial area this planet is barely one of the largest industry in Kumakk space."
 	spaceport .
 
 planet Ko'ami
@@ -114335,6 +114350,9 @@ planet Kukoga
 	"required reputation" 1
 
 planet Kul'elrel
+	attributes mining
+	outfitter "Kumakk Ammo"
+	outfitter "Standard Outfits"
 	landscape land/bwerner2
 	description .
 	spaceport .
@@ -116461,6 +116479,8 @@ planet Vekkagore
 	spaceport .
 
 planet Verilvar
+	outfitter "Geeva Basic"
+	outfitter "Standard Outfits"
 	landscape land/mountainsnow0
 	description .
 	spaceport .
@@ -122088,6 +122108,9 @@ system Ko'akokoe
 			period 230.73864
 
 planet Vukiorel
+	shipyard "Kumakk Basic"
+	outfitter "Kumakk Advanced"
+	outfitter "Standard Outfits"
 	landscape land/greenmountains1
 	description .
 	spaceport .
@@ -125117,14 +125140,6 @@ system Ko'aloku
 		sprite star/m-giant
 		period 10
 	object
-		sprite planet/wisp
-		distance 870
-		period 136.49635
-		object
-			sprite planet/station4bd
-			distance 203
-			period 39.473979
-	object
 		sprite planet/gas13-b
 		distance 1450
 		period 293.69338
@@ -125144,10 +125159,6 @@ system Ko'aloku
 		sprite planet/gas10-hot
 		distance 3471
 		period 1087.7374
-		object
-			sprite planet/altera_station0
-			distance 274
-			period 39.370721
 		object
 			sprite planet/rock20
 			distance 434
@@ -134181,5 +134192,20 @@ planet Kagaaro
 	attributes farming
 	landscape land/fields2
 	description "Majority of the land on this planet is dedicated to farming, mysterious smooth black pillars are raised in grid among the vast fields. Planting and harvesting use a mix of manual labor and machines."
+	spaceport .
+
+planet Ko'sahrel
+	outfitter "Kumakk Basic"
+	outfitter "Standard Outfits"
+	landscape land/mountain1
+	description ,
+	spaceport ,
+
+planet Ako'luca
+	attributes factory mining
+	shipyard "Kumakk Basic"
+	outfitter "Kumakk Advanced"
+	landscape land/hills1
+	description .
 	spaceport .
 
