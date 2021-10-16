@@ -1,5 +1,4 @@
 # Galactic War content not associated with any race or faction.
-# Todo : Instead of requring the player to land on the station, just give player the thing during flight in the system.
 #
 # Outfits
 #
@@ -61,7 +60,165 @@ mission "gw: obtain black box"
 		dialog
 			`You leave the box floating in space. I keeps beaming signal at you but you've already decided to just leave it.`
 
+#Personal note: mineable list: Aluminum Copper Gold Iron Lead Neodymium Platinum Silicon Silver Titanium Tungsten Uranium Yottrite Nurbote
 
+#Choice unlocking is going to be extremely tedious without choice hiding feature, I'll add more stuff when that's in.
+
+conversation "GW: mobile factory menu"
+	label menu
+	`You have a factory module which can produce a few specific outfits for you when materials are provided. Some outfits requires you to obtain the plan first by visiting an outfitter with the outfit or obtain and reverse engineer it, you will be notified when it does so. Select what you want to make below.`
+	branch productionhalted
+		has `GW: Mobile Fac Produce: Halted`
+	branch typhoonunlocked
+		has "GW: Mobile factory: unlock Typhoon Torpedo: offered"
+	choice
+		`	[Arziao Torpedo]`
+			goto `arziao ammo`
+		`	[Halt production]`
+			goto halt
+		`	[Exit]`
+			goto exit
+		`	[Disable this menu]`
+			goto disablemenu
+	label productionhalted
+	`Production is currently being halted.`
+	choice
+		`	[Continue production]`
+			goto continueproduction
+		`	[Exit]`
+			goto exit
+		`	[Disable this menu]`
+			goto disablemenu
+	label typhoonunlocked
+	choice
+		`	[Arziao Torpedo]`
+			goto `arziao ammo`
+		`	[Typhoon Torpedo]`
+			goto `typhoon ammo`
+		`	[Halt production]`
+			goto halt
+		`	[Exit]`
+			goto exit
+		`	[Disable this menu]`
+			goto disablemenu
+	label `arziao ammo`
+	`Your mobile factory will produce 5 Arziao Torpedos for 1 ton of Neodymium and 1 ton of Aluminum every landing. Confirm?`
+	choice
+		`	[Yes]`
+			goto `arziao ammo yes`
+		`	[No]`
+			goto menu
+	label `arziao ammo yes`
+	apply
+		set `GW: Mobile Fac Produce: Arziao Torpedo`
+		clear `GW: Mobile Fac Produce: Typhoon Torpedo`
+	`Your mobile factory will produce 5 Arziao Torpedos every landing.`
+		defer
+	label `typhoon ammo`
+	`Your mobile factory will produce 4 Typhoon Torpedos for 1 ton of Iron and 1 ton of Copper every landing. Confirm?`
+	choice
+		`	[Yes]`
+			goto `typhoon ammo yes`
+		`	[No]`
+			goto menu
+	label `typhoon ammo yes`
+	apply
+		set `GW: Mobile Fac Produce: Typhoon Torpedo`
+		clear `GW: Mobile Fac Produce: Arziao Torpedo`
+	`Your mobile factory will produce 4 Typhoon Torpedos every landing.`
+		defer
+	label `disablemenu`
+	apply
+		set `GW: Mobile Fac: Menu disabled`
+	`This menu will not show up again. You can re-enable it at any job board.`
+		decline
+	label exit
+		defer
+	label halt
+	`The production will be halted. Confirm?`
+	choice
+		`	[Yes]`
+			goto haltyes
+		`	[No]`
+			goto menu
+	label haltyes
+	apply
+		set `GW: Mobile Fac Produce: Halted`
+	`The production is halted. You can re-enable it at this menu.`
+		defer
+	label continueproduction
+	`The production will be continued. Confirm?`
+	choice
+		`	[Yes]`
+			goto stophaltyes
+		`	[No]`
+			goto menu
+	label stophaltyes
+	apply
+		clear `GW: Mobile Fac Produce: Halted`
+	`The production is continued.`
+		defer
+
+mission "GW: mobile factory menu landing"
+	repeat
+	landing
+	to offer
+		not `GW: Mobile Fac: Menu disabled`
+	on offer
+		require "Akralva Factory Module" 1
+		conversation "GW: mobile factory menu"
+			
+
+mission "GW: Mobile factory enable menu"
+	job
+	name "Enable mobile factory menu"
+	description "Enable mobile factory menu on landing. This will allow you to change settings even on uninhabited planets."
+	deadline 1
+	repeat
+	on accept
+		dialog
+			`Enabled mobile factory menu on landing`
+		clear `GW: Mobile Fac: Menu disabled`
+
+mission "GW: mobile factory menu job"
+	repeat
+	on accept
+		require "Akralva Factory Module" 1
+		conversation "GW: mobile factory menu"
+
+mission "GW: Mobile factory: produce Arziao Torpedo"
+	landing
+	repeat
+	name "Mobile Factory"
+	description "Your mobile factory is producing 5 Arziao Torpedo every landing for 1 ton of Neodymium and 1 ton of Aluminum"
+	to offer
+		`GW: Mobile Fac Produce: Arziao Torpedo`
+		not `GW: Mobile Fac Produce: Halted`
+	on offer
+		outfit Neodymium -1
+		outfit Aluminum -1
+		outfit "Arziao Torpedo" 5
+
+mission "GW: Mobile factory: unlock Typhoon Torpedo"
+	landing
+	to offer
+		source
+			outfits "Typhoon Torpedo" # offer if source have this in outfitter.
+	on offer
+		dialog "You can now produce Typhoon Torpedo at your mobile factory."
+
+mission "GW: Mobile factory: produce Typhoon Torpedo"
+	landing
+	repeat
+	name "Mobile Factory"
+	description "Your mobile factory is producing 4 Typhoon Torpedo every landing for 1 ton of Iron and 1 ton of Copper"
+	to offer
+		`GW: Mobile Fac Produce: Typhoon Torpedo`
+		not `GW: Mobile Fac Produce: Halted`
+	on offer
+		outfit Iron -1
+		outfit Copper -1
+		outfit "Typhoon Torpedo" 4
 #
 # Debug Tools
 #

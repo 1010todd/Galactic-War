@@ -119,7 +119,7 @@ outfit "Vekrevira Turret"
 
 outfit "Arziao Torpedo"
 	category "Ammunition"
-	cost 300
+	cost 3000
 	thumbnail "outfit/akralva arziao torpedo"
 	"mass" .2
 	"arziao capacity" -1
@@ -297,7 +297,7 @@ outfit "Akralva Factory Module"
 	"energy capacity" 1000
 	"operating costs" 20
 	description "This module allow a ship to become a mobile factory. Requires dedicated support systems(and a lot of space)."
-	description "Author Note: This outfit don't provide special funtionality yet."
+	description "Testing phase: This outfit will allow you to select outfit to create upon next landing, it will require materials. Currently there is not benefit for having more than 1 of this outfit."
 
 #=====================================Engines
 outfit "Eravarin Steering"
