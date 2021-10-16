@@ -165,7 +165,7 @@ mission "GW: mobile factory menu landing"
 	to offer
 		not `GW: Mobile Fac: Menu disabled`
 	on offer
-		require "Akralva Factory Module" 1
+		require "Akralva Factory Module"
 		conversation "GW: mobile factory menu"
 			
 
@@ -183,9 +183,10 @@ mission "GW: Mobile factory enable menu"
 		clear `GW: Mobile Fac: Menu disabled`
 
 mission "GW: mobile factory menu job"
+	job
 	repeat
 	on offer
-		require "Akralva Factory Module" 1
+		require "Akralva Factory Module"
 		conversation "GW: mobile factory menu"
 
 mission "GW: Mobile factory: produce Arziao Torpedo"
