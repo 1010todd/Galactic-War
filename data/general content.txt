@@ -206,8 +206,8 @@ mission "GW: Mobile factory: unlock Typhoon Torpedo"
 	name "Mobile Factory: Unlocked Typhoon Torpedo"
 	to offer
 		has "GW: mobile factory menu landing: offered"
-		source
-			has outfits "Typhoon Torpedo" # offer if source have this in outfitter.
+	source
+		outfits "Typhoon Torpedo" # offer if source have this in outfitter.
 	on offer
 		dialog "You can now produce Typhoon Torpedo at your mobile factory."
 
