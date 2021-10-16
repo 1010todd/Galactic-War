@@ -185,6 +185,8 @@ mission "GW: Mobile factory enable menu"
 mission "GW: mobile factory menu job"
 	job
 	repeat
+	name "Mobile Factory Menu"
+	description "Accept this and go to spaceport to access the menu."
 	on offer
 		require "Akralva Factory Module"
 		conversation "GW: mobile factory menu"
@@ -198,6 +200,7 @@ mission "GW: Mobile factory: produce Arziao Torpedo"
 		has `GW: Mobile Fac Produce: Arziao Torpedo`
 		not `GW: Mobile Fac Produce: Halted`
 	on offer
+		require "Akralva Factory Module"
 		outfit Neodymium -1
 		outfit Aluminum -1
 		outfit "Arziao Torpedo" 5
@@ -221,6 +224,7 @@ mission "GW: Mobile factory: produce Typhoon Torpedo"
 		has `GW: Mobile Fac Produce: Typhoon Torpedo`
 		not `GW: Mobile Fac Produce: Halted`
 	on offer
+		require "Akralva Factory Module"
 		outfit Iron -1
 		outfit Copper -1
 		outfit "Typhoon Torpedo" 4
