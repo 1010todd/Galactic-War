@@ -67,6 +67,7 @@ mission "gw: obtain black box"
 conversation "GW: mobile factory menu"
 	label menu
 	`You have a factory module which can produce a few specific outfits for you when materials are provided. Some outfits requires you to obtain the plan first by visiting an outfitter with the outfit or obtain and reverse engineer it, you will be notified when it does so. Select what you want to make below.`
+	`Note this will only work when the Factory Module is installed on the flagship.`
 	branch productionhalted
 		has `GW: Mobile Fac Produce: Halted`
 	branch typhoonunlocked
@@ -220,11 +221,10 @@ mission "GW: Mobile factory: produce Arziao Torpedo"
 mission "GW: Mobile factory: unlock Typhoon Torpedo"
 	landing
 	name "Mobile Factory: Unlocked Typhoon Torpedo"
-	to offer
-		has "GW: mobile factory menu landing: offered"
 	source
 		outfits "Typhoon Torpedo" # offer if source have this in outfitter.
 	on offer
+		require "Akralva Factory Module"
 		dialog "You can now produce Typhoon Torpedo at your mobile factory."
 
 mission "GW: Mobile factory: produce Typhoon Torpedo"
