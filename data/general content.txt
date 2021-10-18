@@ -72,6 +72,8 @@ conversation "GW: mobile factory menu"
 		has `GW: Mobile Fac Produce: Halted`
 	branch typhoonunlocked
 		has "GW: Mobile factory: unlock Typhoon Torpedo: offered"
+	branch finisherunlockedt
+		has "GW: Mobile Factory: unlock Finisher Torpedo: offered"
 	choice
 		`	[Arziao Torpedo]`
 			goto `arziao ammo`
@@ -102,6 +104,20 @@ conversation "GW: mobile factory menu"
 			goto exit
 		`	[Disable this menu]`
 			goto disablemenu
+	label finisherunlockedt
+	choice
+		`	[Arziao Torpedo]`
+			goto `arziao ammo`
+		`	[Typhoon Torpedo]`
+			goto `typhoon ammo`
+		`	[Finisher Torpedo]`
+			goto `finisher ammo`
+		`	[Halt production]`
+			goto halt
+		`	[Exit]`
+			goto exit
+		`	[Disable this menu]`
+			goto disablemenu
 	label `arziao ammo`
 	`Your mobile factory will produce 5 Arziao Torpedos for 1 ton of Neodymium and 1 ton of Aluminum every landing. Confirm?`
 	choice
@@ -113,6 +129,7 @@ conversation "GW: mobile factory menu"
 	apply
 		set `GW: Mobile Fac Produce: Arziao Torpedo`
 		clear `GW: Mobile Fac Produce: Typhoon Torpedo`
+		clear `GW: Mobile Fac Produce: Finisher Torpedo`
 	`Your mobile factory will produce 5 Arziao Torpedos every landing.`
 		defer
 	label `typhoon ammo`
@@ -126,7 +143,22 @@ conversation "GW: mobile factory menu"
 	apply
 		set `GW: Mobile Fac Produce: Typhoon Torpedo`
 		clear `GW: Mobile Fac Produce: Arziao Torpedo`
+		clear `GW: Mobile Fac Produce: Finisher Torpedo`
 	`Your mobile factory will produce 4 Typhoon Torpedos every landing.`
+		defer
+	label `finisher ammo`
+	`Your mobile factory will produce 2 Finisher Torpedos for 1 ton of Titanium and 1 ton of Tungsten every landing. Confirm?`
+	choice
+		`	[Yes]`
+			goto `finisher ammo yes`
+		`	[No]`
+			goto menu
+	label `finisher ammo yes`
+	apply
+		set `GW: Mobile Fac Produce: Finisher Torpedo`
+		clear `GW: Mobile Fac Produce: Arziao Torpedo`
+		clear `GW: Mobile Fac Produce: Typhoon Torpedo
+	`Your mobile factory will produce 2 Finisher Torpedos every landing.`
 		defer
 	label `disablemenu`
 	apply
@@ -240,6 +272,49 @@ mission "GW: Mobile factory: produce Typhoon Torpedo"
 		outfit Iron -1
 		outfit Copper -1
 		outfit "Typhoon Torpedo" 4
+
+mission "GW: Mobile factory: reverse engineer Finisher Torpedo"
+	landing
+	name "Mobile Factory: Reverse Engineer Finisher"
+	on offer
+		require "Akralva Factory Module"
+		require "Finisher Torpedo" 10
+		conversation
+			`You can reverse engineer 10 Finisher Torpedoes with your Factory Module for production, it will take about 2 months. Do it?`
+			choice
+				`[Yes]`
+					accept
+				`[Later]`
+					defer
+				`[No]`
+					decline
+	on accept
+		outfit "Finisher Torpedo" -10
+		event "GW: Mobile Factory: unlock Finisher Torpedo" 55 65
+
+event "GW: Mobile Factory: unlock Finisher Torpedo"
+
+mission "GW: Mobile Factory: unlock Finisher Torpedo"
+	landing
+	to offer
+		has "event: GW: Mobile Factory: unlock Finisher Torpedo"
+	on offer
+		require "Akralva Factory Module"
+		dialog "You can now produce Finisher Torpedo at your mobile factory."
+
+mission "GW: Mobile factory: produce Finisher Torpedo"
+	landing
+	repeat
+	name "Mobile Factory"
+	description "Your mobile factory is producing 2 Finisher Torpedo every landing for 1 ton of Titanium and 1 ton of Tungsten"
+	to offer
+		has `GW: Mobile Fac Produce: Finisher Torpedo`
+		not `GW: Mobile Fac Produce: Halted`
+	on offer
+		require "Akralva Factory Module"
+		outfit Tungsten -1
+		outfit Titanium -1
+		outfit "Finisher Torpedo" 2
 #
 # Debug Tools
 #
