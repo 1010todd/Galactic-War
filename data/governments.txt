@@ -1,6 +1,8 @@
 government Akralva
 	swizzle 0
 	color 0.8 0.4 0.4
+	"crew attack" 5
+	"crew defense" 3.8
 	"player reputation" -5
 	"attitude toward"
 		"Ceasrilis" -.1
@@ -22,6 +24,7 @@ government Ceasrilis
 	"attitude toward"
 		"Tehru Miitr" 1
 		"Tehru Insker" -0.01
+		"Akralva" -.2
 
 government Dels
 	color 0.089 0.8 0.245
