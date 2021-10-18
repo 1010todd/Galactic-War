@@ -68,7 +68,7 @@ outfit "Vekrevira Gun"
 	"gun ports" -1
 	weapon
 		sound "gw energylauncher2"
-		"hit effect" "thrasher impact"
+		"hit effect" "jump drive"
 		"fire effect" "vekrevira laser"
 		"inaccuracy" .1
 		"velocity" 500
@@ -102,7 +102,7 @@ outfit "Vekrevira Turret"
 		sound "gw energylauncher2"
 		"hardpoint sprite" "hardpoint/akralva vekrevira turret hp"
 		"hardpoint offset" 8.
-		"hit effect" "thrasher impact"
+		"hit effect" "jump drive"
 		"fire effect" "vekrevira laser"
 		"inaccuracy" .3
 		"turret turn" 2.4

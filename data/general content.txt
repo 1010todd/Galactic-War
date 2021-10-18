@@ -73,7 +73,7 @@ conversation "GW: mobile factory menu"
 	branch typhoonunlocked
 		has "GW: Mobile factory: unlock Typhoon Torpedo: offered"
 	branch finisherunlocked
-		has "GW: Mobile Factory: unlock Finisher Torpedo: offered" #Finisher unlocked without typoon unlocked
+		has "GW: Mobile Factory: unlock Finisher Torpedo: offered" #Finisher unlocked without typhoon unlocked
 	branch finisherunlockedt
 		has "GW: Mobile Factory: unlock Finisher Torpedo: offered"
 		has "GW: Mobile factory: unlock Typhoon Torpedo: offered"
