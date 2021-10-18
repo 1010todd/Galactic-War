@@ -72,8 +72,11 @@ conversation "GW: mobile factory menu"
 		has `GW: Mobile Fac Produce: Halted`
 	branch typhoonunlocked
 		has "GW: Mobile factory: unlock Typhoon Torpedo: offered"
+	branch finisherunlocked
+		has "GW: Mobile Factory: unlock Finisher Torpedo: offered" #Finisher unlocked without typoon unlocked
 	branch finisherunlockedt
 		has "GW: Mobile Factory: unlock Finisher Torpedo: offered"
+		has "GW: Mobile factory: unlock Typhoon Torpedo: offered"
 	choice
 		`	[Arziao Torpedo]`
 			goto `arziao ammo`
@@ -110,6 +113,18 @@ conversation "GW: mobile factory menu"
 			goto `arziao ammo`
 		`	[Typhoon Torpedo]`
 			goto `typhoon ammo`
+		`	[Finisher Torpedo]`
+			goto `finisher ammo`
+		`	[Halt production]`
+			goto halt
+		`	[Exit]`
+			goto exit
+		`	[Disable this menu]`
+			goto disablemenu
+	label finisherunlocked
+	choice
+		`	[Arziao Torpedo]`
+			goto `arziao ammo`
 		`	[Finisher Torpedo]`
 			goto `finisher ammo`
 		`	[Halt production]`
