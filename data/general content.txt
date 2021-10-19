@@ -265,6 +265,34 @@ mission "GW: Mobile factory: produce Arziao Torpedo"
 		outfit Aluminum -1
 		outfit "Arziao Torpedo" 5
 
+mission "GW: Mobile factory: produce Arziao Torpedo 2"
+	landing
+	repeat
+	name "Mobile Factory"
+	#description "Your mobile factory is producing 10 Arziao Torpedo every landing for 1 ton of Neodymium and 1 ton of Aluminum"
+	to offer
+		has `GW: Mobile Fac Produce: Arziao Torpedo`
+		not `GW: Mobile Fac Produce: Halted`
+	on offer
+		require "Akralva Factory Module" 2
+		outfit Neodymium -1
+		outfit Aluminum -1
+		outfit "Arziao Torpedo" 5
+
+mission "GW: Mobile factory: produce Arziao Torpedo 3"
+	landing
+	repeat
+	name "Mobile Factory"
+	#description "Your mobile factory is producing 15 Arziao Torpedo every landing for 1 ton of Neodymium and 1 ton of Aluminum"
+	to offer
+		has `GW: Mobile Fac Produce: Arziao Torpedo`
+		not `GW: Mobile Fac Produce: Halted`
+	on offer
+		require "Akralva Factory Module" 3
+		outfit Neodymium -1
+		outfit Aluminum -1
+		outfit "Arziao Torpedo" 5
+
 mission "GW: Mobile factory: unlock Typhoon Torpedo"
 	landing
 	name "Mobile Factory: Unlocked Typhoon Torpedo"
@@ -284,6 +312,34 @@ mission "GW: Mobile factory: produce Typhoon Torpedo"
 		not `GW: Mobile Fac Produce: Halted`
 	on offer
 		require "Akralva Factory Module"
+		outfit Iron -1
+		outfit Copper -1
+		outfit "Typhoon Torpedo" 4
+
+mission "GW: Mobile factory: produce Typhoon Torpedo 2"
+	landing
+	repeat
+	name "Mobile Factory"
+	description "Your mobile factory is producing 8 Typhoon Torpedo every landing for 2 ton of Iron and 2 ton of Copper"
+	to offer
+		has `GW: Mobile Fac Produce: Typhoon Torpedo`
+		not `GW: Mobile Fac Produce: Halted`
+	on offer
+		require "Akralva Factory Module" 2
+		outfit Iron -1
+		outfit Copper -1
+		outfit "Typhoon Torpedo" 4
+
+mission "GW: Mobile factory: produce Typhoon Torpedo 3"
+	landing
+	repeat
+	name "Mobile Factory"
+	description "Your mobile factory is producing 12 Typhoon Torpedo every landing for 3 ton of Iron and 3 ton of Copper"
+	to offer
+		has `GW: Mobile Fac Produce: Typhoon Torpedo`
+		not `GW: Mobile Fac Produce: Halted`
+	on offer
+		require "Akralva Factory Module" 3
 		outfit Iron -1
 		outfit Copper -1
 		outfit "Typhoon Torpedo" 4
@@ -325,11 +381,100 @@ mission "GW: Mobile factory: produce Finisher Torpedo"
 	to offer
 		has `GW: Mobile Fac Produce: Finisher Torpedo`
 		not `GW: Mobile Fac Produce: Halted`
+		not "GW: Mobile factory: Finisher Torpedo mastery 1: offered"
+		not "GW: Mobile factory: Finisher Torpedo mastery 2: offered"
 	on offer
 		require "Akralva Factory Module"
 		outfit Tungsten -1
 		outfit Titanium -1
 		outfit "Finisher Torpedo" 2
+
+mission "GW: Mobile factory: produce Finisher Torpedo 2" #Incase you have more than one factory module, this will stack and increase output.
+	landing
+	repeat
+	name "Mobile Factory"
+	description "Your mobile factory is producing 4 Finisher Torpedo every landing for 2 ton of Titanium and 2 ton of Tungsten"
+	to offer
+		has `GW: Mobile Fac Produce: Finisher Torpedo`
+		not `GW: Mobile Fac Produce: Halted`
+		not "GW: Mobile factory: Finisher Torpedo mastery 1: offered"
+		not "GW: Mobile factory: Finisher Torpedo mastery 2: offered"
+	on offer
+		require "Akralva Factory Module" 2
+		outfit Tungsten -1
+		outfit Titanium -1
+		outfit "Finisher Torpedo" 2
+
+mission "GW: Mobile factory: produce Finisher Torpedo 3"
+	landing
+	repeat
+	name "Mobile Factory"
+	description "Your mobile factory is producing 6 Finisher Torpedo every landing for 3 ton of Titanium and 3 ton of Tungsten"
+	to offer
+		has `GW: Mobile Fac Produce: Finisher Torpedo`
+		not `GW: Mobile Fac Produce: Halted`
+		not "GW: Mobile factory: Finisher Torpedo mastery 1: offered"
+		not "GW: Mobile factory: Finisher Torpedo mastery 2: offered"
+	on offer
+		require "Akralva Factory Module" 3
+		outfit Tungsten -1
+		outfit Titanium -1
+		outfit "Finisher Torpedo" 2
+
+mission "GW: Mobile factory: Finisher Torpedo mastery 1"
+	landing
+	to offer
+		"GW: Mobile factory: produce Finisher Torpedo: offered" == 5
+	on offer
+		dialog `Your factory is more experienced at manufacturing Finisher Torpedo and got better at it. Now it will produce 3 Finisher Torpedo every landing.`
+
+mission "GW: Mobile factory: produce Finisher Torpedo m1"
+	landing
+	repeat
+	name "Mobile Factory"
+	description "Your mobile factory is producing 3 Finisher Torpedo every landing for 1 ton of Titanium and 1 ton of Tungsten"
+	to offer
+		has `GW: Mobile Fac Produce: Finisher Torpedo`
+		not `GW: Mobile Fac Produce: Halted`
+		has "GW: Mobile factory: Finisher Torpedo mastery 1: offered"
+		not "GW: Mobile factory: Finisher Torpedo mastery 2: offered"
+	on offer
+		require "Akralva Factory Module"
+		outfit Tungsten -1
+		outfit Titanium -1
+		outfit "Finisher Torpedo" 3
+
+mission "GW: Mobile factory: produce Finisher Torpedo 2m1" #Incase you have more than one factory module, this will stack and increase output.
+	landing
+	repeat
+	name "Mobile Factory"
+	description "Your mobile factory is producing 6 Finisher Torpedo every landing for 2 ton of Titanium and 2 ton of Tungsten"
+	to offer
+		has `GW: Mobile Fac Produce: Finisher Torpedo`
+		not `GW: Mobile Fac Produce: Halted`
+		has "GW: Mobile factory: Finisher Torpedo mastery 1: offered"
+		not "GW: Mobile factory: Finisher Torpedo mastery 2: offered"
+	on offer
+		require "Akralva Factory Module" 2
+		outfit Tungsten -1
+		outfit Titanium -1
+		outfit "Finisher Torpedo" 3
+
+mission "GW: Mobile factory: produce Finisher Torpedo 3m1"
+	landing
+	repeat
+	name "Mobile Factory"
+	description "Your mobile factory is producing 9 Finisher Torpedo every landing for 3 ton of Titanium and 3 ton of Tungsten"
+	to offer
+		has `GW: Mobile Fac Produce: Finisher Torpedo`
+		not `GW: Mobile Fac Produce: Halted`
+		has "GW: Mobile factory: Finisher Torpedo mastery 1: offered"
+		not "GW: Mobile factory: Finisher Torpedo mastery 2: offered"
+	on offer
+		require "Akralva Factory Module" 3
+		outfit Tungsten -1
+		outfit Titanium -1
+		outfit "Finisher Torpedo" 3
 #
 # Debug Tools
 #
