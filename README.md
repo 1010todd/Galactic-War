@@ -4,6 +4,8 @@ The mod is currently in development stage, many things are subjected to changes 
 
 Currently the mod requires Endless Sky version 0.9.13+ to work properly.
 
+Some stars use new sprites that is was introduced in continous. Due to the system editor using the new resource some system might include these newer stars. Download and use this plugin to see the new stars: https://mega.nz/file/wUhGQaKB#O5_cjWEa5aQTUJ-gBZLE0lmGq6I_0NbQO_19t0xhPhs
+
 ## About
 This is a massive content mod about a war in another galaxy.
 While no story content yet it's currently consist of:
