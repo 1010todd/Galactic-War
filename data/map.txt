@@ -21345,7 +21345,7 @@ system Erkma
 			period 65.9038
 
 system Erleunod
-	pos -51426.7 -55876.2
+	pos -51426.7 -55875.2
 	government "Dels Kaote"
 	link Veludol
 	asteroids "small rock" 30 2.628
@@ -22095,7 +22095,7 @@ system Eudelkor
 		period 2773.31
 		offset 31.6463
 		object "Saldee Kenla"
-			sprite planet/station4
+			sprite "planet/station dels3"
 			distance 242
 			period 16.0841
 			offset 84.9732
@@ -32065,7 +32065,7 @@ system Heukao
 			period 22.1428
 
 system Heulree
-	pos -51802.2 -55209.6
+	pos -51802.2 -55208.1
 	government "Dels Kaote"
 	link Dueeneo
 	link Eedoruna
@@ -97842,7 +97842,7 @@ system Soarel
 			period 36.5122
 
 system Sodoranu
-	pos -51198.5 -55327.4
+	pos -51198.5 -55326.4
 	government "Dels Kaote"
 	link Duanaoui
 	link Dureede
@@ -97885,9 +97885,13 @@ system Sodoranu
 		offset 58.9895
 	object
 		sprite planet/gas17
-		distance 1221.56
+		distance 1330.0902
 		period 683.112
 		offset 58.692
+		object Adleedai
+			sprite "planet/station dels2"
+			distance 224.90651
+			period 60
 	object
 		sprite planet/gas2
 		distance 2353.52
@@ -105678,8 +105682,8 @@ system Veludol
 		period 1494.96
 		offset 30.0168
 		object Voruldecen
-			sprite planet/station2
-			distance 235
+			sprite "planet/station dels1"
+			distance 243.36499
 			period 14.671
 
 system Veokuidee
@@ -120035,10 +120039,6 @@ system Screni'Kela
 		sprite planet/gas4-b
 		distance 6039
 		period 5332.9176
-		object
-			sprite planet/station8
-			distance 259
-			period 157.56156
 
 system Ikrencer
 	pos -53102.867 -52570.311
@@ -121070,6 +121070,7 @@ system Kiceelgir
 	pos -52815.978 -52831.644
 	government "Tehru Miitr"
 	link Askria
+	link Eaekeira
 	link Shineka
 	link Siyrin's
 	asteroids "small rock" 1 2.7135
@@ -121148,6 +121149,7 @@ system Kiceelgir
 system Askria
 	pos -52859.644 -52740.644
 	government "Tehru Miitr"
+	link Eaekeira
 	link Iksiolin
 	link Kiceelgir
 	link Vkurchet
@@ -121223,7 +121225,10 @@ system Askria
 system Iksiolin
 	pos -52843.311 -52676.978
 	government "Tehru Miitr"
+	link Askreai
 	link Askria
+	link Eaekeira
+	link Kealire
 	link Screni'Kela
 	asteroids "small rock" 1 2.7135
 	asteroids "medium rock" 6 3.1995
@@ -121236,6 +121241,7 @@ system Iksiolin
 	minables titanium 2 3.8582296
 	fleet "Tehru Miitr Patrol" 1000
 	fleet "Tehru Miitr Merchant" 1200
+	fleet "Ceasrilis Merchant" 1000
 	habitable 500
 	belt 1976
 	trade Clothing 267
@@ -121255,17 +121261,13 @@ system Iksiolin
 		sprite planet/rock6
 		distance 271
 		period 178.44892
-		object
-			sprite planet/station12
-			distance 127
-			period 44.512723
 	object
 		sprite planet/rock11
 		distance 571
 		period 545.77565
-	object
+	object Hechreckii
 		sprite planet/forest5
-		distance 844
+		distance 763.23851
 		period 980.78465
 	object
 		sprite planet/uranus-b
@@ -121277,8 +121279,9 @@ system Iksiolin
 			period 65.757623
 
 system Kisil'Kece
-	pos -52865.867 -52599.311
+	pos -52852.534 -52599.755
 	government "Tehru Miitr"
+	link Kealire
 	link Screni'Kela
 	asteroids "small rock" 4 3.179
 	asteroids "medium rock" 4 2.618
@@ -121291,6 +121294,7 @@ system Kisil'Kece
 	minables iron 3 3.8577184
 	fleet "Tehru Miitr Patrol" 1500
 	fleet "Tehru Miitr Merchant" 800
+	fleet "Ceasrilis Merchant" 1000
 	habitable 31.25
 	belt 1329
 	trade Clothing 267
@@ -121318,10 +121322,6 @@ system Kisil'Kece
 		sprite planet/gas8
 		distance 1462
 		period 8944.1905
-		object
-			sprite planet/altera_station1
-			distance 376
-			period 63.289154
 	object
 		sprite planet/gas4
 		distance 2400
@@ -121331,17 +121331,9 @@ system Kisil'Kece
 		distance 3250
 		period 29644.561
 		object
-			sprite planet/station4bd
-			distance 255
-			period 55.574699
-		object
 			sprite planet/luna-b
 			distance 421
 			period 326.53051
-		object
-			sprite planet/station3k
-			distance 553
-			period 253.37282
 	object
 		sprite planet/gas15-b
 		distance 4851
@@ -121754,6 +121746,7 @@ system Kazzel'lo
 system Kahnirs
 	pos -52581.344 -52966.91
 	government Akralva
+	link "Coamei Aesir"
 	link Vikarak
 	asteroids "small rock" 1 2.7135
 	asteroids "medium rock" 6 3.1995
@@ -134298,10 +134291,14 @@ planet Ako'luca
 	spaceport .
 
 system Ceaikea
-	pos -52446.489 -52898.088
+	pos -52437.489 -52905.088
 	government Ceasrilis
+	link Heacuile
 	link Kansi'al
+	link Marveas
+	link Masheri
 	link Myrilai
+	link Saleare
 	link Seaiai
 	asteroids "large rock" 1 3.876
 	asteroids "small metal" 7 2.958
@@ -134382,6 +134379,7 @@ system Kalen'ja
 	pos -52379.489 -52747.977
 	government Ceasrilis
 	link Marveas
+	link Myraneai
 	link Nyrense
 	link Vanvira
 	asteroids "small rock" 2 4.5298
@@ -134546,6 +134544,7 @@ system Seaiai
 	pos -52466.6 -52951.755
 	government Ceasrilis
 	link Ceaikea
+	link Masheri
 	link Myrilai
 	asteroids "small rock" 3 2.024
 	asteroids "medium rock" 19 2.046
@@ -134763,6 +134762,9 @@ system Ayrean
 system Marveas
 	pos -52436.711 -52820.533
 	government Ceasrilis
+	link Akceana
+	link Ceaikea
+	link Heacuile
 	link Issneva
 	link Kalen'ja
 	link Kansi'al
@@ -134782,9 +134784,9 @@ system Marveas
 	object
 		sprite star/k3
 		period 10
-	object
+	object Senaria
 		sprite planet/desert3
-		distance 241
+		distance 276.72201
 		period 182.50371
 	object
 		sprite planet/rock13
@@ -134816,7 +134818,11 @@ system Nyrense
 system Vanvira
 	pos -52433.822 -52734.977
 	government Ceasrilis
+	link Akceana
+	link Aseran
+	link Cyneare
 	link Kalen'ja
+	link Myraneai
 	asteroids "medium rock" 58 2.349
 	asteroids "large rock" 14 2.871
 	asteroids "medium metal" 151 4.35
@@ -134893,4 +134899,1326 @@ system Vanvira
 			sprite planet/rock0-b
 			distance 214
 			period 118.3372
+
+system Vaehreakia
+	pos -52526.6 -52693.533
+	government Ceasrilis
+	link Aseran
+	link Aurelai
+	link Cyneare
+	link Kycakre
+	link Naceai
+	link Paerela
+	asteroids "medium rock" 5 2.414
+	asteroids "large rock" 10 3.128
+	asteroids "small metal" 5 2.822
+	asteroids "medium metal" 203 3.264
+	asteroids "large metal" 16 2.686
+	minables silver 5 6.2798162
+	minables lead 20 3.2532449
+	fleet "Ceasrilis Guard" 1200
+	fleet "Ceasrilis Merchant" 800
+	habitable 361.25
+	belt 1330
+	object
+		sprite star/k8
+		period 10
+	object "Vehyra Micea"
+		sprite planet/ocean8
+		distance 369
+		period 333.56511
+		object
+			sprite planet/io-b
+			distance 172
+			period 85.269416
+	object
+		sprite planet/forest6-b
+		distance 834
+		period 1133.4181
+	object
+		sprite planet/rock9-b
+		distance 1252
+		period 2084.7192
+	object
+		sprite planet/gas6-hot
+		distance 1872
+		period 3811.5343
+	object
+		sprite planet/gas13
+		distance 2743
+		period 6760.5149
+	object
+		sprite planet/gas3
+		distance 4931
+		period 16294.595
+		object
+			sprite planet/dust5-b
+			distance 452
+			period 251.49264
+
+system Cyneare
+	pos -52488.822 -52747.31
+	government Ceasrilis
+	link Akceana
+	link Nyceali
+	link Paerela
+	link Vaehreakia
+	link Vanvira
+	asteroids "large metal" 1 2.992
+	fleet "Ceasrilis Guard" 1200
+	fleet "Ceasrilis Merchant" 1000
+	habitable 8820
+	belt 1654
+	object
+		sprite planet/browndwarf-t-rouge
+		period 10
+	object
+		sprite planet/cloud0-b
+		distance 575
+		period 131.31443
+	object
+		sprite planet/gas7-b
+		distance 1485
+		period 545.00487
+	object
+		sprite planet/gas9-b
+		distance 2292
+		period 1045.0393
+		object
+			sprite planet/rock14
+			distance 390
+			period 201.56473
+	object
+		sprite planet/gas11-b
+		distance 3507
+		period 1977.9456
+		object
+			sprite planet/io-b
+			distance 271
+			period 168.63766
+		object
+			sprite planet/desert4
+			distance 395
+			period 371.37056
+		object
+			sprite planet/oberon
+			distance 510
+			period 709.3321
+	object
+		sprite planet/browndwarf-y
+		distance 4627
+		period 2997.5052
+
+planet Adleedai
+	landscape land/sivael4
+	description .
+	spaceport .
+
+system Aseran
+	pos -52461.155 -52684.31
+	government Ceasrilis
+	link Myraneai
+	link Naceai
+	link Vaehreakia
+	link Vanvira
+	asteroids "small rock" 16 2.346
+	asteroids "medium rock" 94 3.06
+	asteroids "large rock" 2 2.448
+	asteroids "small metal" 4 2.55
+	asteroids "medium metal" 6 2.04
+	asteroids "large metal" 12 1.904
+	minables titanium 3 2.8067964
+	minables lead 26 3.6583594
+	fleet "Ceasrilis Guard" 1200
+	fleet "Ceasrilis Merchant" 1000
+	habitable 1616.2
+	belt 1647
+	object
+		sprite star/k3
+		distance 171.06794
+		period 70.628189
+		offset 180
+	object
+		sprite star/a-giant
+		distance 44.932063
+		period 70.628189
+	object
+		sprite planet/lava5-b
+		distance 298
+		period 114.45159
+	object
+		sprite planet/forest5
+		distance 558
+		period 293.25724
+	object
+		sprite planet/gas2
+		distance 1384
+		period 1145.5171
+		object
+			sprite planet/io-b
+			distance 270
+			period 167.7051
+		object
+			sprite planet/station13
+			distance 572
+			period 425.47361
+	object
+		sprite planet/gas13-b
+		distance 2669
+		period 3067.7524
+		object
+			sprite planet/dust5
+			distance 276
+			period 120
+
+system Myraneai
+	pos -52397.489 -52697.977
+	government Ceasrilis
+	link Aseran
+	link Kalen'ja
+	link Vanvira
+	asteroids "small rock" 2 2.0468
+	asteroids "medium rock" 36 2.3562
+	asteroids "large rock" 4 2.261
+	asteroids "medium metal" 3 2.023
+	asteroids "large metal" 1 1.9992
+	minables silver 1 4.24577
+	minables silicon 4 4.3978985
+	fleet "Ceasrilis Guard" 1200
+	fleet "Ceasrilis Merchant" 1000
+	habitable 3276.8
+	belt 1478
+	object
+		sprite star/o0
+		period 10
+	object
+		sprite planet/lava7
+		distance 398
+		period 124.06367
+	object
+		sprite planet/rock4-b
+		distance 611
+		period 235.98361
+	object
+		sprite planet/ice6-b
+		distance 863
+		period 396.12862
+	object
+		sprite planet/water0-b
+		distance 1045
+		period 527.83048
+	object
+		sprite planet/gas4
+		distance 2606
+		period 2078.6513
+		object
+			sprite planet/ice7
+			distance 259
+			period 109.08556
+
+system Aurelai
+	pos -52561.6 -52634.755
+	government Ceasrilis
+	link Kycakre
+	link Naceai
+	link Vaehreakia
+	asteroids "medium rock" 10 4.785
+	asteroids "large rock" 2 3.685
+	asteroids "small metal" 33 5.39
+	asteroids "medium metal" 18 4.895
+	asteroids "large metal" 1 4.4
+	minables lead 3 8.6334875
+	minables uranium 5 8.9285625
+	fleet "Ceasrilis Guard" 1200
+	fleet "Ceasrilis Merchant" 1000
+	habitable 117964.8
+	belt 1494
+	object
+		sprite star/m-supergiant
+		period 10
+	object
+		sprite planet/rock17
+		distance 904
+		period 70.78177
+	object
+		sprite planet/fog0
+		distance 1133
+		period 99.314724
+	object
+		sprite planet/lava6
+		distance 1344
+		period 128.31212
+	object
+		sprite planet/browndwarf-t-rouge
+		distance 1795
+		period 198.04572
+		object
+			sprite planet/desert4
+			distance 278
+			period 219.2699
+	object
+		sprite planet/gas14
+		distance 2337
+		period 294.2096
+	object
+		sprite planet/browndwarf-l
+		distance 3145
+		period 459.3035
+
+system Naceai
+	pos -52505.6 -52650.088
+	government Ceasrilis
+	link Aseran
+	link Aurelai
+	link Vaehreakia
+	asteroids "medium rock" 2 1.4212
+	asteroids "large rock" 1 1.3277
+	asteroids "medium metal" 3 1.2716
+	asteroids "large metal" 1 0.9911
+	fleet "Ceasrilis Guard" 1200
+	fleet "Ceasrilis Merchant" 1000
+	habitable 31.25
+	belt 1576
+	object
+		sprite star/a-dwarf
+		period 10
+	object
+		sprite planet/dust6
+		distance 137
+		period 256.56702
+	object
+		sprite planet/cloud2-b
+		distance 381
+		period 1189.8917
+	object
+		sprite planet/desert5-b
+		distance 629
+		period 2524.0384
+	object
+		sprite planet/gas16
+		distance 1952
+		period 13798.749
+	object
+		sprite planet/jupiter-b
+		distance 2983
+		period 26067.529
+		object
+			sprite planet/dust4
+			distance 259
+			period 129.63678
+
+system Heacuile
+	pos -52482.378 -52855.422
+	government Ceasrilis
+	link Akceana
+	link Ceaikea
+	link Marveas
+	link Nyceali
+	link Saleare
+	asteroids "small rock" 2 3.0814
+	asteroids "medium rock" 2 3.038
+	asteroids "large rock" 11 3.1682
+	asteroids "medium metal" 2 3.7758
+	asteroids "large metal" 16 3.3852
+	minables copper 5 3.883966
+	minables lead 5 4.6455926
+	fleet "Ceasrilis Guard" 800
+	fleet "Ceasrilis Merchant" 1400
+	fleet "Akralva Hunter" 1800
+	habitable 405
+	belt 1319
+	object
+		sprite star/g3
+		period 10
+	object
+		sprite planet/titan-b
+		distance 147
+		period 79.212457
+	object Leaceari
+		sprite planet/water1-b
+		distance 470.90533
+		period 439.9151
+	object
+		sprite planet/cloud1-b
+		distance 711
+		period 842.60083
+	object
+		sprite planet/rock3
+		distance 1493
+		period 2563.9361
+
+system Akceana
+	pos -52465.711 -52790.2
+	government Ceasrilis
+	link Cyneare
+	link Heacuile
+	link Marveas
+	link Nyceali
+	link Vanvira
+	asteroids "small rock" 76 4.704
+	asteroids "medium rock" 61 5.376
+	asteroids "large rock" 1 2.8
+	asteroids "small metal" 1 5.264
+	asteroids "medium metal" 39 3.36
+	asteroids "large metal" 3 5.04
+	minables copper 1 5.3487989
+	minables lead 4 8.3131375
+	fleet "Ceasrilis Guard" 800
+	fleet "Ceasrilis Merchant" 1400
+	habitable 1280
+	belt 1450
+	object
+		sprite star/b0
+		period 10
+	object
+		sprite planet/ocean2
+		distance 242
+		period 94.115913
+	object Craaica
+		sprite planet/rock12
+		distance 1081.5219
+		period 609.725
+	object
+		sprite planet/saturn
+		distance 2036
+		period 2296.7127
+		object
+			sprite planet/ice8
+			distance 237
+			period 137.91869
+		object
+			sprite planet/rock14-b
+			distance 360
+			period 178.76042
+	object
+		sprite planet/gas12
+		distance 2973
+		period 4052.5872
+	object
+		sprite planet/gas6-b
+		distance 4074
+		period 6500.871
+		object
+			sprite planet/io
+			distance 352
+			period 249.64025
+		object
+			sprite planet/dust0-b
+			distance 478
+			period 643.62987
+
+planet Leaceari
+	shipyard "Ceasrilis Basic"
+	outfitter "Ceasrilis Basic"
+	outfitter "Standard Outfits"
+	description .
+	spaceport .
+
+system Masheri
+	pos -52501.711 -52928.755
+	government Ceasrilis
+	link Ceaikea
+	link "Coamei Aesir"
+	link Saleare
+	link Seaiai
+	asteroids "small rock" 49 2.6129
+	asteroids "medium rock" 145 3.0073
+	asteroids "large rock" 201 4.4863
+	asteroids "small metal" 3 3.5989
+	asteroids "large metal" 2 4.1412
+	minables lead 20 4.1763263
+	minables iron 49 6.8306136
+	fleet "Ceasrilis Guard" 800
+	fleet "Ceasrilis Merchant" 1400
+	fleet "Akralva Hunter" 1800
+	habitable 13107.2
+	belt 1098
+	object
+		sprite star/k-giant
+		period 10
+	object
+		sprite planet/ice3-b
+		distance 692
+		period 142.21623
+		object
+			sprite planet/miranda-b
+			distance 158
+			period 93.950146
+	object
+		sprite planet/sheragigasgiant
+		distance 2152
+		period 779.92606
+		object
+			sprite planet/rock7-b
+			distance 651
+			period 785.74805
+		object
+			sprite planet/station0
+			distance 799
+			period 387.06133
+	object
+		sprite planet/gas4
+		distance 3306
+		period 1485.061
+	object
+		sprite planet/neptune
+		distance 4118
+		period 2064.5221
+		object "Sacelia Delai"
+			sprite "planet/station dels1"
+			distance 236.07999
+			period 233.85436
+		object
+			sprite planet/rock0
+			distance 444
+			period 353.65115
+
+planet "Sacelia Delai"
+	landscape land/sivael7
+	description .
+	spaceport .
+
+system Nyceali
+	pos -52538.489 -52803.644
+	government Ceasrilis
+	link Akceana
+	link Cyneare
+	link Heacuile
+	link Iceari
+	link Lecaira
+	link Paerela
+	asteroids "small rock" 3 2.5454
+	asteroids "medium rock" 21 2.145
+	asteroids "large rock" 2 1.7446
+	asteroids "medium metal" 16 1.5158
+	asteroids "large metal" 1 2.86
+	minables iron 2 2.9052279
+	minables copper 10 2.3183719
+	minables titanium 8 2.1982891
+	fleet "Ceasrilis Guard" 1200
+	fleet "Ceasrilis Merchant" 1000
+	habitable 1641.25
+	belt 1844
+	object
+		sprite star/k5
+		distance 171.1866
+		period 71.797515
+	object
+		sprite star/k5-old
+		distance 48.313404
+		period 71.797515
+		offset 180
+	object
+		sprite planet/gas11-b
+		distance 648
+		period 364.18339
+		object
+			sprite planet/dust4
+			distance 263
+			period 132.65151
+	object
+		sprite planet/forest6
+		distance 1186
+		period 901.7469
+	object
+		sprite planet/cloud1
+		distance 1511
+		period 1296.7442
+	object
+		sprite planet/gw-continential3
+		distance 2086
+		period 2103.4349
+	object
+		sprite planet/gas17
+		distance 2964
+		period 3562.6645
+		object
+			sprite planet/lava0-b
+			distance 217
+			period 83.657951
+		object
+			sprite planet/miranda
+			distance 349
+			period 308.42528
+
+system Kycakre
+	pos -52593.933 -52682.866
+	government Ceasrilis
+	link Aurelai
+	link Cveanira
+	link Paerela
+	link Vaehreakia
+	link Vekcrare
+	asteroids "small rock" 15 2.808
+	asteroids "medium rock" 19 3.9312
+	asteroids "large rock" 2 3.888
+	asteroids "small metal" 15 2.2464
+	asteroids "medium metal" 2 3.3264
+	asteroids "large metal" 4 2.9376
+	minables titanium 1 3.7445457
+	minables aluminum 1 3.3043756
+	fleet "Ceasrilis Guard" 1200
+	fleet "Ceasrilis Merchant" 1000
+	habitable 361.25
+	belt 1129
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/forest5-b
+		distance 313
+		period 260.5899
+	object
+		sprite planet/browndwarf-l
+		distance 889
+		period 1247.3654
+	object
+		sprite planet/gas4
+		distance 2037
+		period 4326.4094
+		object
+			sprite planet/ice8-b
+			distance 226
+			period 128.42905
+	object
+		sprite planet/gas12
+		distance 2998
+		period 7724.8225
+		object
+			sprite planet/tethys-b
+			distance 254
+			period 249.313
+
+system Vekcrare
+	pos -52658.711 -52657.421
+	government Ceasrilis
+	link Cearike
+	link Cveanira
+	link Keacia
+	link Kycakre
+	asteroids "small rock" 7 3.9494
+	asteroids "medium rock" 157 3.9897
+	asteroids "large rock" 14 3.5061
+	asteroids "small metal" 24 2.3777
+	asteroids "medium metal" 99 3.1434
+	asteroids "large metal" 24 2.4986
+	minables platinum 13 6.1440568
+	minables copper 78 3.947513
+	fleet "Ceasrilis Guard" 1200
+	fleet "Ceasrilis Merchant" 1000
+	habitable 159.7
+	belt 1553
+	object
+		sprite star/m-dwarf
+		distance 62.507827
+		period 37.949708
+		offset 180
+	object
+		sprite star/m8
+		distance 3.4921728
+		period 37.949708
+	object
+		sprite planet/titan
+		distance 132
+		period 107.33798
+	object
+		sprite planet/lava5-b
+		distance 521
+		period 841.68409
+	object
+		sprite planet/rock19-b
+		distance 905
+		period 1926.9276
+	object
+		sprite planet/uranus
+		distance 1257
+		period 3154.2452
+
+system Cearike
+	pos -52726.378 -52649.088
+	government Ceasrilis
+	link Askreai
+	link Keacia
+	link Kealire
+	link Vekcrare
+	asteroids "small rock" 4 3.179
+	asteroids "medium rock" 4 2.618
+	asteroids "large rock" 10 3.5156
+	asteroids "small metal" 8 3.0668
+	asteroids "medium metal" 13 2.7302
+	asteroids "large metal" 10 2.2066
+	minables titanium 3 4.9468217
+	minables aluminum 5 3.8347899
+	minables iron 3 3.8577184
+	fleet "Ceasrilis Guard" 1200
+	fleet "Ceasrilis Merchant" 1000
+	habitable 1280
+	belt 1329
+	object
+		sprite star/b0
+		period 10
+	object
+		sprite planet/rock19
+		distance 368
+		period 176.4866
+	object
+		sprite planet/rock9
+		distance 567
+		period 337.53172
+	object
+		sprite planet/forest1
+		distance 1211
+		period 1053.5526
+		object
+			sprite planet/dust4-b
+			distance 132
+			period 47.167133
+	object
+		sprite planet/gas13-b
+		distance 1738
+		period 1811.4013
+	object
+		sprite planet/gas10-hot
+		distance 2138
+		period 2471.4485
+
+system Kealire
+	pos -52786.711 -52622.088
+	government Ceasrilis
+	link Askreai
+	link Cearike
+	link Iksiolin
+	link Kisil'Kece
+	asteroids "small rock" 1 3.1059
+	asteroids "medium rock" 7 4.0194
+	asteroids "large rock" 2 5.2983
+	asteroids "small metal" 17 3.4713
+	asteroids "medium metal" 182 3.5931
+	asteroids "large metal" 39 3.4713
+	minables aluminum 12 5.1795281
+	minables lead 35 7.1429389
+	fleet "Ceasrilis Guard" 1200
+	fleet "Ceasrilis Merchant" 1000
+	fleet "Tehru Miitr Merchant" 1000
+	habitable 3276.8
+	belt 1735
+	object
+		sprite star/o0
+		period 10
+	object
+		sprite planet/lava4-b
+		distance 389
+		period 119.87936
+	object
+		sprite planet/forest1-b
+		distance 758
+		period 326.07975
+	object
+		sprite planet/gas13-b
+		distance 1095
+		period 566.16264
+	object
+		sprite planet/gas7-b
+		distance 2011
+		period 1409.0881
+	object
+		sprite planet/gas6-hot
+		distance 3217
+		period 2850.9961
+	object
+		sprite planet/gas1
+		distance 4746
+		period 5108.7144
+		object
+			sprite planet/europa
+			distance 463
+			period 471.28467
+		object
+			sprite planet/desert4
+			distance 575
+			period 652.24926
+
+system Paerela
+	pos -52561.489 -52734.31
+	government Ceasrilis
+	link Cveanira
+	link Cyneare
+	link Kycakre
+	link Lecaira
+	link Nyceali
+	link Vaehreakia
+	asteroids "large rock" 2 1.4308
+	asteroids "small metal" 7 1.2152
+	asteroids "medium metal" 3 1.4112
+	asteroids "large metal" 2 1.3132
+	minables tungsten 1 2.393076
+	fleet "Ceasrilis Guard" 1200
+	fleet "Ceasrilis Merchant" 1000
+	habitable 2560
+	belt 1888
+	object
+		sprite star/f-supergiant
+		distance 404.5
+		period 406.76895
+	object
+		sprite star/m-giant
+		distance 404.5
+		period 406.76895
+		offset 180
+	object
+		sprite planet/cloud5-b
+		distance 1057
+		period 607.4877
+		object
+			sprite "planet/station dels1"
+			distance 188
+			period 97.440026
+	object
+		sprite planet/gas8
+		distance 1968
+		period 1543.3437
+		object
+			sprite planet/miranda
+			distance 549
+			period 608.51368
+	object
+		sprite planet/browndwarf-l
+		distance 3058
+		period 2989.3807
+		object
+			sprite planet/dust5-b
+			distance 278
+			period 121.30671
+	object
+		sprite planet/gas7-b
+		distance 3976
+		period 4431.9472
+		object
+			sprite planet/miranda-b
+			distance 258
+			period 196.03851
+		object
+			sprite planet/rhea-b
+			distance 362
+			period 214.21084
+
+system Saleare
+	pos -52499.378 -52890.422
+	government Ceasrilis
+	link Ceaikea
+	link "Coamei Aesir"
+	link Heacuile
+	link Iceari
+	link Masheri
+	asteroids "small rock" 1 2.496
+	asteroids "large rock" 2 2.9536
+	asteroids "small metal" 3 4.16
+	asteroids "medium metal" 2 3.5776
+	asteroids "large metal" 3 2.3296
+	minables iron 1 4.2701341
+	minables gold 1 4.0758924
+	fleet "Ceasrilis Guard" 800
+	fleet "Ceasrilis Merchant" 1400
+	fleet "Akralva Hunter" 1800
+	habitable 336.2
+	belt 1300
+	object
+		sprite star/k3
+		period 10
+	object
+		sprite planet/ocean7-b
+		distance 188
+		period 125.74274
+	object
+		sprite "planet/zenith hot"
+		distance 525.90065
+		period 688.43891
+	object
+		sprite planet/gas7-b
+		distance 1732
+		period 3516.1547
+		object
+			sprite planet/rock7
+			distance 223
+			period 157.53212
+		object
+			sprite planet/rock17-b
+			distance 290
+			period 304.15247
+		object
+			sprite planet/oberon-b
+			distance 396
+			period 485.32999
+	object
+		sprite planet/gas8-b
+		distance 3570
+		period 10405.153
+		object
+			sprite planet/oberon
+			distance 434
+			period 556.8381
+		object
+			sprite planet/lava0-b
+			distance 567
+			period 353.33952
+		object
+			sprite planet/desert4-b
+			distance 720
+			period 913.92504
+
+system Askreai
+	pos -52779.044 -52698.421
+	government Ceasrilis
+	link Cearike
+	link Eaekeira
+	link Iksiolin
+	link Keacia
+	link Kealire
+	asteroids "small rock" 8 2.2825
+	asteroids "medium rock" 41 1.43
+	asteroids "large rock" 8 2.42
+	asteroids "small metal" 27 1.9525
+	asteroids "medium metal" 6 2.75
+	asteroids "large metal" 55 1.54
+	minables copper 2 2.5068509
+	minables titanium 35 1.9668341
+	minables iron 6 1.7649748
+	minables "Rock A" 16 2
+	fleet "Ceasrilis Guard" 1200
+	fleet "Ceasrilis Merchant" 1000
+	fleet "Tehru Miitr Merchant" 1000
+	habitable 395.65
+	belt 1204
+	object
+		sprite star/m-dwarf
+		distance 92.481739
+		period 41.308281
+	object
+		sprite star/g5
+		distance 2.0182611
+		period 41.308281
+		offset 180
+	object Rekiace
+		sprite planet/cloud0-b
+		distance 329.46256
+		period 197.28388
+	object
+		sprite planet/dust3
+		distance 626
+		period 704.289
+	object
+		sprite planet/dust1-b
+		distance 790
+		period 998.45856
+	object
+		sprite planet/gas9
+		distance 2657
+		period 6158.5254
+		object
+			sprite planet/station2kd
+			distance 244
+			period 99.747579
+	object
+		sprite planet/rhea
+		distance 3406
+		period 8938.3298
+
+system Cveanira
+	pos -52631.933 -52748.755
+	government Ceasrilis
+	link Keacia
+	link Kycakre
+	link Lecaira
+	link Paerela
+	link Vekcrare
+	asteroids "small metal" 8 1.7028
+	asteroids "medium metal" 108 1.2078
+	asteroids "large metal" 77 1.7226
+	minables silicon 5 1.9355013
+	minables aluminum 46 2.1562918
+	minables neodymium 28 2.5247539
+	fleet "Ceasrilis Guard" 1200
+	fleet "Ceasrilis Merchant" 1000
+	habitable 1641.25
+	belt 1985
+	object
+		sprite star/k5
+		distance 189.12414
+		period 83.372963
+	object
+		sprite star/o0
+		distance 53.375857
+		period 83.372963
+		offset 180
+	object
+		sprite planet/dust0-b
+		distance 323
+		period 128.16263
+	object
+		sprite planet/ocean2
+		distance 1531.187
+		period 243.14504
+	object
+		sprite planet/neptune-b
+		distance 6893
+		period 12634.849
+	object
+		sprite planet/gas2
+		distance 7349
+		period 13909.131
+	object
+		sprite planet/gas7-hot
+		distance 7980
+		period 15738.45
+
+planet Hechreckii
+	shipyard "Miitr Basic"
+	outfitter "Miitr Advanced"
+	outfitter "Miitr Basic"
+	outfitter "Standard Outfits"
+	landscape land/forest4
+	description .
+	spaceport .
+
+planet Rekiace
+	outfitter "Ceasrilis Ammo"
+	outfitter "Standard Outfits"
+	landscape land/mountain7
+	description .
+	spaceport .
+
+system Keacia
+	pos -52702.933 -52724.644
+	government Ceasrilis
+	link Askreai
+	link Cearike
+	link Cveanira
+	link Vekcrare
+	asteroids "small rock" 1 2.8322
+	asteroids "medium rock" 3 1.9941
+	asteroids "large rock" 3 1.4739
+	asteroids "small metal" 2 1.9074
+	asteroids "medium metal" 15 2.1675
+	asteroids "large metal" 19 2.6588
+	minables iron 9 4.1684775
+	minables silver 10 4.5501807
+	minables copper 10 4.3988959
+	fleet "Ceasrilis Guard" 1200
+	fleet "Ceasrilis Merchant" 1000
+	habitable 6195.2
+	belt 1671
+	object
+		sprite star/g-giant
+		period 10
+	object
+		sprite planet/gas5
+		distance 802
+		period 258.09458
+		object
+			sprite planet/lava0
+			distance 263
+			period 111.62237
+		object
+			sprite planet/io-b
+			distance 408
+			period 311.52354
+		object
+			sprite planet/rock14-b
+			distance 500
+			period 292.59886
+	object
+		sprite planet/gas2-b
+		distance 1621
+		period 741.63779
+	object
+		sprite planet/browndwarf-t-rouge
+		distance 3041
+		period 1905.6448
+	object
+		sprite planet/gas6-b
+		distance 4617
+		period 3564.9803
+	object
+		sprite planet/gas9
+		distance 5906
+		period 5157.7168
+		object
+			sprite planet/luna-b
+			distance 240
+			period 140.54567
+		object
+			sprite planet/rhea-b
+			distance 473
+			period 319.94129
+		object
+			sprite planet/ice8-b
+			distance 608
+			period 566.70362
+	object
+		sprite planet/gas6-hot
+		distance 7485
+		period 7358.7667
+
+system Lecaira
+	pos -52594.155 -52785.644
+	government Ceasrilis
+	link Cveanira
+	link Nyceali
+	link Paerela
+	asteroids "small rock" 13 4.648
+	asteroids "medium rock" 50 3.752
+	asteroids "large rock" 16 4.872
+	asteroids "small metal" 9 4.312
+	asteroids "medium metal" 23 2.8
+	asteroids "large metal" 2 3.248
+	minables iron 4 4.6999462
+	fleet "Ceasrilis Guard" 1200
+	fleet "Ceasrilis Merchant" 1000
+	habitable 369.8
+	belt 1899
+	object
+		sprite star/g8
+		period 10
+	object
+		sprite planet/rock6
+		distance 166
+		period 99.477227
+	object
+		sprite planet/jupiter
+		distance 738
+		period 932.49408
+		object
+			sprite planet/ice0-b
+			distance 265
+			period 163.06826
+		object
+			sprite planet/rock17
+			distance 374
+			period 445.45286
+	object
+		sprite planet/ocean8-b
+		distance 1413
+		period 2470.4427
+	object
+		sprite planet/neptune
+		distance 1770
+		period 3463.5498
+
+planet Kaaceali
+	outfitter "Ceasrilis Basic"
+	outfitter "Standard Outfits"
+	landscape land/sea5
+	description .
+	spaceport .
+
+planet Senaria
+	outfitter "Ceasrilis Ammo"
+	outfitter "Standard Outfits"
+	landscape land/desert3
+	description .
+	spaceport .
+
+system Eaekeira
+	pos -52798.044 -52756.755
+	government Ceasrilis
+	link Askreai
+	link Askria
+	link Iksiolin
+	link Kiceelgir
+	asteroids "small rock" 2 1.785
+	asteroids "medium rock" 2 3.213
+	asteroids "large rock" 1 2.3205
+	asteroids "medium metal" 14 2.3205
+	asteroids "large metal" 1 2.1063
+	minables aluminum 1 3.5111985
+	minables lead 1 2.8708798
+	minables "Rock B" 5 3
+	fleet "Ceasrilis Guard" 800
+	fleet "Ceasrilis Merchant" 1000
+	fleet "Tehru Miitr Merchant" 1200
+	fleet "Akralva Hunter" 1800
+	fleet "Tehru Miitr Patrol" 1100
+	habitable 819.2
+	belt 1363
+	object
+		sprite star/b5
+		period 10
+	object
+		sprite planet/rock6
+		distance 187
+		period 79.912079
+	object
+		sprite planet/rock11
+		distance 420
+		period 268.98246
+	object Airmacir
+		sprite planet/forest5-b
+		distance 765
+		period 661.2142
+		object Inceahi
+			sprite "planet/station dels4"
+			distance 230.36006
+			period 59.550687
+	object
+		sprite planet/gas4
+		distance 2050
+		period 2900.5531
+		object
+			sprite planet/dust3-b
+			distance 232
+			period 133.57728
+		object
+			sprite planet/europa
+			distance 332
+			period 286.16661
+	object
+		sprite planet/gas17-b
+		distance 2947
+		period 4999.4269
+		object
+			sprite planet/rock0
+			distance 221
+			period 124.19069
+
+planet Airmacir
+	shipyard "Ceasrilis Advanced"
+	shipyard "Ceasrilis Basic"
+	outfitter "Ceasrilis Basic"
+	outfitter "Standard Outfits"
+	landscape land/forest2
+	description .
+	spaceport .
+
+planet Inceahi
+	landscape land/sivael5
+	description .
+	spaceport .
+
+system "Coamei Aesir"
+	pos -52569.6 -52910.422
+	government Ceasrilis
+	link Iceari
+	link Kahnirs
+	link Masheri
+	link Saleare
+	asteroids "large metal" 1 2.2344
+	fleet "Ceasrilis Guard" 800
+	fleet "Ceasrilis Merchant" 1800
+	fleet "Akralva Hunter" 1000
+	habitable 2560
+	belt 1376
+	object
+		sprite star/g-giant
+		distance 245.5
+		period 192.3301
+		offset 180
+	object
+		sprite star/b-supergiant
+		distance 245.5
+		period 192.3301
+	object
+		sprite planet/ice5
+		distance 836
+		period 427.30151
+		object
+			sprite planet/dust3-b
+			distance 172
+			period 85.269416
+	object
+		sprite planet/cloud5-b
+		distance 1335
+		period 862.27721
+	object
+		sprite planet/uranus-b
+		distance 1913
+		period 1479.0998
+		object
+			sprite "planet/asteroid base"
+			distance 225
+			period 88.326577
+	object
+		sprite planet/gas8-b
+		distance 2701
+		period 2481.4863
+		object
+			sprite planet/rock7-b
+			distance 414
+			period 398.48533
+
+planet "Vehyra Micea"
+	shipyard "Ceasrilis Advanced"
+	shipyard "Ceasrilis Basic"
+	outfitter "Ceasrilis All"
+	outfitter "Ceasrilis Basic"
+	outfitter "Standard Outfits"
+	landscape land/sea9
+	description .
+	spaceport .
+
+system Iceari
+	pos -52561.378 -52856.422
+	government Ceasrilis
+	link "Coamei Aesir"
+	link Nyceali
+	link Saleare
+	asteroids "medium rock" 17 5.916
+	asteroids "large rock" 1 3.6192
+	asteroids "small metal" 1 3.5496
+	asteroids "medium metal" 11 3.5496
+	asteroids "large metal" 1 6.4032
+	minables copper 2 7.6397136
+	minables silicon 2 6.6859848
+	minables "Metal A" 9 8
+	fleet "Ceasrilis Guard" 800
+	fleet "Ceasrilis Merchant" 1400
+	fleet "Akralva Hunter" 1800
+	habitable 151.25
+	belt 1983
+	object
+		sprite star/m8
+		period 10
+	object
+		sprite planet/ocean6
+		distance 196
+		period 199.56364
+	object
+		sprite planet/ocean3-b
+		distance 594
+		period 1052.8754
+	object
+		sprite planet/desert5
+		distance 1226
+		period 3122.0008
+	object
+		sprite planet/mars
+		distance 1553
+		period 4450.9681
+		object
+			sprite planet/dust5
+			distance 140
+			period 43.352054
+	object
+		sprite planet/gas13
+		distance 2499
+		period 9085.4551
+		object
+			sprite planet/europa-b
+			distance 257
+			period 194.89985
+		object
+			sprite planet/oberon
+			distance 328
+			period 365.85173
+		object
+			sprite planet/miranda
+			distance 396
+			period 372.78172
+		object
+			sprite planet/rhea-b
+			distance 567
+			period 419.90706
+	object
+		sprite planet/gas9
+		distance 3861
+		period 17448.054
 
