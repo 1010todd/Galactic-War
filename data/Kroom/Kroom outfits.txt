@@ -170,8 +170,8 @@ outfit "Karar Missile"
 		"die effect" "missile death"
 		"hit effect" "medium explosion"
 		"inaccuracy" 12
-		"velocity" 8
-		"lifetime" 540
+		"velocity" 12
+		"lifetime" 240
 		"reload" 48
 		"firing energy" 1
 		"firing heat" 20
@@ -185,6 +185,7 @@ outfit "Karar Missile"
 		"hit force" 30
 		"missile strength" 8
 		"stream"
+	description "Kroom short range single-shot missile, used primarily by Kroom Kanai."
 
 outfit "Golkar Torpedo"
 	category "Ammunition"
@@ -238,7 +239,7 @@ outfit "Golkar Torpedo Launcher"
 		"heat damage" 1000
 		"hit force" 80
 		"missile strength" 35
-	description "Kroom powerful burst fire unguided torpedo."
+	description "Kroom powerful burst fire torpedo."
 
 outfit "Golkar Torpedo Turret"
 	category "Secondary Weapons"

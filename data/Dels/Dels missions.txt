@@ -1,3 +1,71 @@
+mission "Dels: Kakaima Attack"
+	name "Defend <planet>"
+	description "Defeat a Kakaima attack on <destination>."
+	minor
+	repeat
+	to offer
+		"combat rating" > 800
+		random < 10
+	source
+		attributes "dels frontier"
+		government "Dels Dardornai"
+	npc evade
+		government "Kroom Kakaima"
+		personality heroic staying target harvests plunders
+		fleet "Kakaima Attack" 4
+	npc
+		government "Dels Dardornai"
+		personality heroic staying
+		fleet "Dels Dardornai" 7
+	on offer
+		conversation
+			branch "know Dels lang"
+				has `language: Dels`
+			`Suddenly you hear a loud siren and announcement in Dels language which you don't understand. Guessing from the number of warships and defense turrets powering up they're probably underattack.`
+				goto choice
+			label "know Dels lang"
+			`Suddenly you hear a loud siren and announcement in Dels language: "Large Kroom fleet is attacking us, we need every warship to join the fight!"`
+			label choice
+			choice
+				`	(Stay here until the fight is over.)`
+					goto stay
+				`	(Join the defense fleet.)`
+			label join
+			`The local Dardornai defense forces are preparing to repel the Kroom Kakaima attack. You join them, and take off together...`
+				launch
+			label stay
+			branch "Dels lose"
+				random < 2
+			``
+				decline
+			label "Dels lose"
+			`You waited for a while on the planet before begining to hear explosions different from planetary defense turrets firing. You go outside and looked up noticing Kroom warships descending into the atmosphere exchanging fire with ground defense turrets.`
+			`Thankfully they're too few to break through the planetary defenses and all were destroyed.`
+				decline
+	on visit
+		dialog phrase "generic pirate fleet battle on visit"
+	on complete
+		payment 220000
+		dialog phrase "generic kroom attack payment dialog"
+
+phrase "generic kroom attack payment dialog"
+	word
+		`The government of <planet>`
+	word
+		` `
+		` gratefully `
+	word
+		`pays you <payment> for helping to`
+	word
+		` drive off `
+		` defeat `
+	word
+		`the `
+	word
+		`Kroom.`
+		`raiders.`
+		`attackers.`
+
 mission "First Contact: Dels Dardornai"
 	landing
 	invisible

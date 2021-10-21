@@ -575,12 +575,45 @@ fleet "Kager Ignaggen"
 	variant 15
 		Koggareu 5
 
-fleet "Kakaima Defense"
+fleet "Kakaima Attack"
 	government "Kroom Kakaima"
 	names "Kakaima Defense"
 	cargo 1
 	personality
 		confusion 20
+		heroic
+	variant 20
+		"Grokva" 2
+		Girok 4
+		"Girok Torpedo" 8
+		"Garokka (Heavy)" 3
+	variant 20
+		"Grokva (Heavy)"
+		"Grokva"
+		Girok 6
+		"Girok Torpedo" 6
+		"Garokka" 2
+		"Garokka (Heavy)"
+	variant 20
+		"Grokva" 2
+		Girok 4
+		"Girok Torpedo" 8
+		"Garokka (Heavy)" 1
+		Grakka 2
+	variant 20
+		"Grokva (Heavy)"
+		"Grokva"
+		Girok 6
+		"Girok Torpedo" 6
+		"Garokka" 2
+		Grakka 2
+
+fleet "Kakaima Defense"
+	government "Kroom Kakaima"
+	names "Kakaima Defense"
+	cargo 1
+	personality
+		confusion 25
 		heroic frugal opportunistic
 	variant 7
 		Grokva

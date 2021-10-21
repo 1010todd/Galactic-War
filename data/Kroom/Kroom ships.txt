@@ -104,7 +104,7 @@ ship "Grokva"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description ""
+	description "Kroom Kakaima cruiser with a small squadron of support fighters used in both regular patrol and raid fleet."
 
 ship "Girok"
 	sprite "ship/kroom girok"
@@ -119,7 +119,7 @@ ship "Girok"
 		"required crew" 1
 		"bunks" 1
 		"mass" 30
-		"drag" .7
+		"drag" .5
 		"heat dissipation" .86
 		"outfit space" 100
 		"weapon capacity" 14
@@ -153,7 +153,6 @@ ship "Girok"
 		zoom 1
 		angle 0
 		under
-	engine 0 39.5
 	explode "tiny explosion" 15
 	explode "small explosion" 5
 	description ""
