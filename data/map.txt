@@ -3885,9 +3885,9 @@ system Akukanog
 		sprite planet/cloud6
 		distance 196.21
 		period 49.8333
-	object
+	object Loakkar
 		sprite planet/rock9
-		distance 580.45
+		distance 579.24535
 		period 253.563
 	object
 		sprite planet/rock0
@@ -7499,7 +7499,7 @@ system "Au saa"
 			period 14.6159
 
 system Augkuda
-	pos -50352.6 -56275.9
+	pos -50352.6 -56274.9
 	government "Kroom Kakaima"
 	link Dudelor
 	link Ogvukla
@@ -7515,6 +7515,7 @@ system Augkuda
 	minables lead 20 7.89978
 	fleet "Kakaima Defense" 600
 	fleet "Dels Dardornai" 4500
+	fleet "Kakaima Miner" 1400
 	habitable 745.92
 	belt 1011
 	trade Clothing 290
@@ -7544,9 +7545,9 @@ system Augkuda
 			sprite planet/desert4
 			distance 161
 			period 25.6804
-	object
+	object Akderok
 		sprite planet/dust2
-		distance 612.6
+		distance 612.60419
 		period 222.065
 	object
 		sprite planet/forest0
@@ -28642,7 +28643,7 @@ system Gorbuke
 			period 20.4052
 	object
 		sprite planet/neptune
-		distance 1770.26
+		distance 1770.4675
 		period 752.708
 		object
 			sprite planet/europa
@@ -40659,7 +40660,7 @@ system Kargen
 			period 80.2965
 
 system Kargolke
-	pos -50593.6 -56217.5
+	pos -50593.6 -56216.5
 	government "Kroom Kakaima"
 	link Akukanog
 	link Oggarlok
@@ -57558,7 +57559,7 @@ system Lersa
 			period 23.5715
 
 system Leudan
-	pos -50199 -56181.4
+	pos -50199 -56180.4
 	government "Dels Dardornai"
 	link Dodeanuh
 	link Dukgelka
@@ -66254,13 +66255,13 @@ system Medokle
 	object
 		sprite star/m0
 		period 10
-	object
+	object Keaderda
 		sprite planet/cloud4
-		distance 198.21
+		distance 318.37099
 		period 62.3984
 	object
 		sprite planet/cloud0
-		distance 554.46
+		distance 660.85074
 		period 291.938
 		object
 			sprite planet/callisto
@@ -66268,7 +66269,7 @@ system Medokle
 			period 26.8348
 	object
 		sprite planet/cloud6
-		distance 1003.71
+		distance 1188.4122
 		period 711.045
 		object
 			sprite planet/rhea
@@ -94600,9 +94601,8 @@ system "Se kog ii"
 			period 23.3384
 
 system "Sector Dels"
-	pos -52458.128 -53873.422
+	pos -50500.628 -56067.922
 	government "Dels Kaote"
-	link Nvhranrl
 	asteroids "small rock" 1 4.0086
 	asteroids "medium rock" 2 2.0196
 	asteroids "large rock" 3 2.1726
@@ -112703,6 +112703,7 @@ planet Densri
 	security 0.9
 
 planet Denulkure
+	attributes "dels frontier"
 	outfitter "Dels Ammo"
 	landscape land/land21
 	description .
@@ -113264,6 +113265,7 @@ planet Fornei
 	"required reputation" 1
 
 planet Fudareel
+	attributes "dels frontier"
 	outfitter "Dels Standard"
 	landscape land/land29
 	description "A planet covered rough rocky surface and small bodies of water sprinkled in between. Fields of giant crystals are found in large lake of water. "
@@ -114378,7 +114380,7 @@ planet Ku'dulrena
 	spaceport .
 
 planet Kuadeonu
-	attributes mining
+	attributes "dels frontier" mining
 	outfitter "Dels Ammo"
 	landscape land/badlands2
 	description .
@@ -121853,7 +121855,6 @@ system Seenvihru
 system Nvhranrl
 	pos -52522.767 -53939.933
 	government "Tehru Insker"
-	link "Sector Dels"
 	link Vshralur
 	asteroids "medium rock" 3 5.8968
 	asteroids "large rock" 10 6.1992
@@ -136221,4 +136222,20 @@ system Iceari
 		sprite planet/gas9
 		distance 3861
 		period 17448.054
+
+planet Akderok
+	landscape land/badlands8
+	description .
+	spaceport .
+
+planet Keaderda
+	attributes "dels frontier"
+	outfitter "Dels Ammo"
+	landscape land/sea5
+	description .
+	spaceport .
+
+planet Loakkar
+	landscape land/land3
+	description "This planet once was a Dels colony, now only ruins of small towns are left from the Kroom attack."
 
