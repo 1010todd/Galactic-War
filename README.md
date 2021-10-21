@@ -12,7 +12,7 @@ While no story content yet it's currently consist of:
 
 1 Accessible galaxy.
 
-16+ Races with their own ships and outfits,
+26+ Races with their own ships and outfits. Some with unique mechanic such as territory changes or even hunt you down depending on your interactions.
 
 Over 100 Ships,
 
