@@ -87,6 +87,7 @@ ship "I'nos" #1st
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
 	description "I'nos is the spearhead of the Ignaggen when exploring into new area. At least two dozens of them would be present in the expedition fleet when venturing into new systems maintaining security and safety of the rest of the fleet."
+	description "Since its introduction several millenia ago it had recived multiple upgrade to keep up with its neighbouring forces."
 
 
 ship "Loerlen" #2nd, used by civs
@@ -141,7 +142,7 @@ ship "Loerlen" #2nd, used by civs
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description ""
+	description "While combat is extremely rare within Ignaggen space, same couldn't be said for its neighbours, Loerlen is a recent design to provide an affordable escort for Ignaggen merchants who travels outside of Ignaggen territory."
 	
 #Civillian
 	
@@ -223,8 +224,8 @@ ship "Keorlen"
 	explode "small explosion" 20
 	explode "medium explosion" 15
 	"final explode" "final explosion large"
-	description "Ignaggen main freighter for transporting cargo."
-	
+	description "Keorlen is designed and built to replace older frighters which are much more difficult to manufacture, as agility and cost effectiveness of these freighters are much more preferred for Ignaggen which rarely face any combat, older freighters have been completely phased out of the Ignaggen merchant fleets."
+	#Todo : Make old freighters.
 ship "Kina"
 	sprite "ship/ignaggen kina"
 	thumbnail "thumbnail/ignaggen kina thumb"
@@ -264,7 +265,7 @@ ship "Kina"
 	engine 11 32
 	explode "tiny explosion" 10
 	explode "small explosion" 10
-	description ""
+	description "A cheaper, more modern clone of Kamuel. While not as durable as Kamuel it is much faster."
 	
 ship "Gikeor"
 	sprite "ship/ignaggen gikeor"
@@ -306,7 +307,7 @@ ship "Gikeor"
 	engine 14 24
 	explode "tiny explosion" 10
 	explode "small explosion" 20
-	description ""
+	description "A new interceptor design utilized by Ignaggens as astroid miners. While some consider it to be more fragile than the Koggareu, its improved shielding technologies compensated for the less durable hull."
 	
 ship "Gikeor" "Offensive Gikeor"
 	outfits
