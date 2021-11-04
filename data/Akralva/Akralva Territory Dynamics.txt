@@ -6,14 +6,14 @@ mission "Akralva-Kumakk: Varrah'ol Battle Generic 1"
 	landing
 	invisible
 	repeat 5
+	destination Vhirahe #fail safe to nearby planet of the same faction.
 	to offer
 		random < 30 # 30% chance
 		has "never offer"
 	npc kill
 		government "Akralva"
-		personality
-			waiting
-		system "Varrah'ol"
+		personality waiting
+		system "Vahrrah'ol"
 		fleet "Akralva Hunter" 1
 	on complete
 		event "Akralva-Kumakk: Varrah'ol battle reset timer" 30
@@ -84,15 +84,14 @@ mission "Akralva-Kumakk: Sihnruk Battle Generic 1"
 	landing
 	invisible
 	repeat 5
-	destination Sihnruk
+	destination Vhirahe
 	to offer
 		random < 30 # 30% chance
 		"Akralva-Kumakk: Varrah'ol Battle Generic 1: done" >= 3
 		has "never offer"
 	npc kill
 		government "Akralva"
-		personality
-			waiting
+		personality waiting
 		system "Sihnruk"
 		fleet "Akralva Hunter" 1
 	on complete
