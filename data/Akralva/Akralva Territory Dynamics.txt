@@ -8,6 +8,7 @@ mission "Akralva-Kumakk: Varrah'ol Battle Generic 1"
 	repeat 5
 	to offer
 		random < 30 # 30% chance
+		has "never offer"
 	npc kill
 		government "Akralva"
 		personality
@@ -83,8 +84,11 @@ mission "Akralva-Kumakk: Sihnruk Battle Generic 1"
 	landing
 	invisible
 	repeat 5
+	destination Sihnruk
 	to offer
 		random < 30 # 30% chance
+		"Akralva-Kumakk: Varrah'ol Battle Generic 1: done" >= 3
+		has "never offer"
 	npc kill
 		government "Akralva"
 		personality
