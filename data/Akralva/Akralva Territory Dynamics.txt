@@ -9,11 +9,11 @@ mission "Akralva-Kumakk: Varrah'ol Battle Generic 1"
 	destination Vhirahe #fail safe to nearby planet of the same faction.
 	to offer
 		random < 30 # 30% chance
-		has "never offer"
+		#has "never offer"
 	npc kill
 		government "Akralva"
-		personality waiting
-		system "Vahrrah'ol"
+		personality waiting staying
+		system `Vahrrah'ol`
 		fleet "Akralva Hunter" 1
 	on complete
 		event "Akralva-Kumakk: Varrah'ol battle reset timer" 30
@@ -88,10 +88,10 @@ mission "Akralva-Kumakk: Sihnruk Battle Generic 1"
 	to offer
 		random < 30 # 30% chance
 		"Akralva-Kumakk: Varrah'ol Battle Generic 1: done" >= 3
-		has "never offer"
+		#has "never offer"
 	npc kill
 		government "Akralva"
-		personality waiting
+		personality waiting staying
 		system "Sihnruk"
 		fleet "Akralva Hunter" 1
 	on complete
