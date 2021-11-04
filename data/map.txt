@@ -1326,6 +1326,9 @@ system Aifveva
 	object "Omnis-GW: Erader Mukube Wormhole"
 		sprite sprite/wisp_green
 		distance 4000
+	object "Omnis-GW: Erader Mukube Wormhole"
+		sprite sprite/wisp_green
+		distance 4000
 
 system Ailaleli
 	pos -52223.6 -56209.5
@@ -8253,6 +8256,9 @@ system Basksrek
 			sprite planet/tethys
 			distance 533
 			period 32.3203
+	object "Omnis-GW: Makerurader Wormhole"
+		sprite sprite/wisp_green
+		distance 4000
 	object "Omnis-GW: Makerurader Wormhole"
 		sprite sprite/wisp_green
 		distance 4000
@@ -16362,6 +16368,10 @@ system Dolmoriwakla
 		sprite sprite/wisp_green
 		distance 4000
 		offset 30
+	object "Omnis-GW: Dels Ufulre Wormhole"
+		sprite sprite/wisp_green
+		distance 4000
+		offset 30
 
 system Dopolk
 	pos -51638.9 -54870.8
@@ -21634,6 +21644,9 @@ system Erwal
 			sprite planet/miranda
 			distance 446
 			period 35.3177
+	object "Omnis-GW: Ignaggen Wormhole"
+		sprite sprite/wisp_green
+		distance 4000
 	object "Omnis-GW: Ignaggen Wormhole"
 		sprite sprite/wisp_green
 		distance 4000
@@ -27875,6 +27888,9 @@ system Ginma
 	object "Omnis-GW: Kroom Kanai Wormhole"
 		sprite sprite/wisp_green
 		distance 4000
+	object "Omnis-GW: Kroom Kanai Wormhole"
+		sprite sprite/wisp_green
+		distance 4000
 
 system Ginsolor
 	pos -50926.4 -56610.5
@@ -28279,6 +28295,9 @@ system "Go se ri"
 			sprite planet/dust4
 			distance 426
 			period 53.2757
+	object "Omnis-GW: Nuru Wormhole"
+		sprite sprite/wisp_green
+		distance 4000
 	object "Omnis-GW: Nuru Wormhole"
 		sprite sprite/wisp_green
 		distance 4000
@@ -31211,6 +31230,9 @@ system "Haola Lesu"
 			sprite planet/luna
 			distance 687
 			period 59.8801
+	object "Omnis-GW: Qoro Siogarl Wormhole"
+		sprite sprite/wisp_green
+		distance 3000
 	object "Omnis-GW: Qoro Siogarl Wormhole"
 		sprite sprite/wisp_green
 		distance 3000
@@ -41308,6 +41330,7 @@ system Kcyernak
 	asteroids "large metal" 19 1.008
 	minables iron 4 1.90439
 	minables titanium 13 1.8226
+	fleet "Tehru Insker Patrol" 1200
 	habitable 1715
 	belt 1248
 	trade Clothing 239
@@ -43540,6 +43563,7 @@ system Kelsoorel
 system Kelsvaru
 	pos -52641.4 -53820
 	government "Tehru Insker"
+	link Hckycoh
 	link Nurvicny
 	link Seenvihru
 	link Unknarval
@@ -48828,6 +48852,9 @@ system Ko'kusor
 			sprite planet/io
 			distance 637
 			period 60.2837
+	object "Omnis-GW: Kumakk Wormhole"
+		sprite sprite/wisp_green
+		distance 4000
 	object "Omnis-GW: Kumakk Wormhole"
 		sprite sprite/wisp_green
 		distance 4000
@@ -57266,6 +57293,7 @@ system Lerionket
 	asteroids "large metal" 1 2.646
 	minables copper 18 5.31231
 	minables titanium 4 4.44462
+	fleet "Tehru Insker Patrol" 1200
 	habitable 1080
 	belt 1700
 	trade Clothing 239
@@ -61817,6 +61845,9 @@ system Magosen-L2885
 	object "Omnis-GW: Wallagi Wormhole"
 		sprite sprite/wisp_green
 		distance 4000
+	object "Omnis-GW: Wallagi Wormhole"
+		sprite sprite/wisp_green
+		distance 4000
 
 system Magrilnil
 	pos -52495.1 -55688.3
@@ -63772,6 +63803,9 @@ system Malsos
 		sprite planet/gas13
 		distance 3738.72
 		period 5111.75
+	object "Omnis-GW: Makau a Qoro Wormhole"
+		sprite sprite/wisp_green
+		distance 3000
 	object "Omnis-GW: Makau a Qoro Wormhole"
 		sprite sprite/wisp_green
 		distance 3000
@@ -70597,6 +70631,10 @@ system Mokugea
 		sprite sprite/wisp_green
 		distance 4000
 		offset 330
+	object "Omnis-GW: Dels Dardornai Wormhole"
+		sprite sprite/wisp_green
+		distance 4000
+		offset 330
 
 system Molelca
 	pos -52400.1 -56001.8
@@ -70723,6 +70761,9 @@ system Molta
 			sprite planet/rock3
 			distance 354
 			period 17.0126
+	object "Omnis-GW: Revos Wormhole"
+		sprite sprite/wisp_green
+		distance 4000
 	object "Omnis-GW: Revos Wormhole"
 		sprite sprite/wisp_green
 		distance 4000
@@ -71474,6 +71515,9 @@ system Mortarlen
 			sprite planet/rock14
 			distance 271
 			period 12.594
+	object "Omnis-GW: Erader Darua Wormhole"
+		sprite sprite/wisp_green
+		distance 4000
 	object "Omnis-GW: Erader Darua Wormhole"
 		sprite sprite/wisp_green
 		distance 4000
@@ -77717,6 +77761,9 @@ system Nihverka
 	object "Omnis-GW: Erader Narpul Wormhole"
 		sprite sprite/wisp_green
 		distance 4000
+	object "Omnis-GW: Erader Narpul Wormhole"
+		sprite sprite/wisp_green
+		distance 4000
 
 system Nikavel
 	pos -51812.1 -56503.8
@@ -79983,6 +80030,7 @@ system Nurvicny
 	pos -52632.4 -53750
 	government "Tehru Insker"
 	link Kelsvaru
+	link Ncherak
 	link Valsrran
 	asteroids "small rock" 17 2.8896
 	asteroids "medium rock" 34 2.9904
@@ -81643,6 +81691,9 @@ system Okrevug
 			sprite planet/dust7
 			distance 262
 			period 11.9719
+	object "Omnis-GW: Kroom Kakaima Wormhole"
+		sprite sprite/wisp_green
+		distance 4000
 	object "Omnis-GW: Kroom Kakaima Wormhole"
 		sprite sprite/wisp_green
 		distance 4000
@@ -89831,6 +89882,9 @@ system Rilgeril
 	object "Omnis-GW: Geeva Wormhole"
 		sprite sprite/wisp_green
 		distance 4000
+	object "Omnis-GW: Geeva Wormhole"
+		sprite sprite/wisp_green
+		distance 4000
 
 system Riliga
 	pos -51459.1 -56275.9
@@ -94464,6 +94518,9 @@ system Saska
 		distance 1079.68
 		period 431.805
 		offset 340.818
+	object "Omnis-GW: Ultaka Wormhole"
+		sprite sprite/wisp_green
+		distance 5000
 	object "Omnis-GW: Ultaka Wormhole"
 		sprite sprite/wisp_green
 		distance 5000
@@ -100742,6 +100799,9 @@ system "Trochzempt ZAZ-1"
 	object "Omnis-GW: Zis Wormhole"
 		sprite sprite/wisp_green
 		distance 4000
+	object "Omnis-GW: Zis Wormhole"
+		sprite sprite/wisp_green
+		distance 4000
 
 system Tuarli
 	pos -50929.2 -55082.2
@@ -103773,6 +103833,9 @@ system Urkvulnar
 	object "Omnis-GW: Tehru Insker Wormhole"
 		sprite sprite/wisp_green
 		distance 4000
+	object "Omnis-GW: Tehru Insker Wormhole"
+		sprite sprite/wisp_green
+		distance 4000
 
 system Urkwaar
 	pos -47873.5 -53435.2
@@ -103857,6 +103920,9 @@ system Urlansa
 		distance 2664.09
 		period 2665.14
 		offset 311.928
+	object "Omnis-GW: Taroun Wormhole"
+		sprite sprite/wisp_green
+		distance 4000
 	object "Omnis-GW: Taroun Wormhole"
 		sprite sprite/wisp_green
 		distance 4000
@@ -108084,6 +108150,9 @@ system Vishil
 	object "Omnis-GW: Erader Kasiva Wormhole"
 		sprite sprite/wisp_green
 		distance 4000
+	object "Omnis-GW: Erader Kasiva Wormhole"
+		sprite sprite/wisp_green
+		distance 4000
 
 system Visilmara
 	pos -51480.5 -56506.1
@@ -108366,6 +108435,9 @@ system Vobeelee
 			sprite planet/ice7
 			distance 577
 			period 59.2157
+	object "Omnis-GW: Dels Kaote Wormhole"
+		sprite sprite/wisp_green
+		distance 4000
 	object "Omnis-GW: Dels Kaote Wormhole"
 		sprite sprite/wisp_green
 		distance 4000
@@ -111150,6 +111222,9 @@ system Worak
 	object "Omnis-GW: Donko Wormhole"
 		sprite sprite/wisp_green
 		distance 4000
+	object "Omnis-GW: Donko Wormhole"
+		sprite sprite/wisp_green
+		distance 4000
 
 system Xibelna
 	pos -52140.1 -56344.2
@@ -112006,6 +112081,9 @@ system Zausn
 		distance 2305.03
 		period 2006.56
 		offset 356.719
+	object "Omnis-GW: Zorcn Wormhole"
+		sprite sprite/wisp_green
+		distance 4000
 	object "Omnis-GW: Zorcn Wormhole"
 		sprite sprite/wisp_green
 		distance 4000
@@ -121782,10 +121860,11 @@ system Kahnirs
 			period 125.88034
 
 system Seenvihru
-	pos -52573.433 -53859.933
+	pos -52577.877 -53854.155
 	government "Tehru Insker"
 	link Kelsvaru
 	link Vshralur
+	link Vyhrekel
 	asteroids "medium rock" 10 4.785
 	asteroids "large rock" 2 3.685
 	asteroids "small metal" 33 5.39
@@ -124610,7 +124689,7 @@ system Kezelha
 			period 425.16372
 
 system Vashuri
-	pos -51250.428 -53981.105
+	pos -51250.428 -53980.661
 	government Akralva
 	link Ashnura
 	link Mashreva
@@ -129792,6 +129871,7 @@ system Ynhrecy
 system Nivrysha
 	pos -52562.9 -53567.799
 	government Akralva
+	link Sheckelr
 	link Syhrche
 	link Ynhrecy
 	asteroids "medium rock" 2 1.4212
@@ -136225,4 +136305,300 @@ planet Keaderda
 planet Loakkar
 	landscape land/land3
 	description "This planet once was a Dels colony, now only ruins of small towns are left from the Kroom attack."
+
+system Sheckelr
+	pos -52544.567 -53622.132
+	government Akralva
+	link Nchreky
+	link Nivrysha
+	asteroids "large rock" 1 3.876
+	asteroids "small metal" 7 2.958
+	asteroids "medium metal" 172 4.233
+	asteroids "large metal" 1 3.366
+	minables silver 31 6.3280462
+	minables tungsten 33 8.1867792
+	fleet "Akralva Hunter" 800
+	fleet "Akralva Merchant" 700
+	habitable 6195.2
+	belt 1562
+	object
+		sprite star/g-giant
+		period 10
+	object
+		sprite planet/gas4
+		distance 958
+		period 336.9501
+		object
+			sprite planet/rock7-b
+			distance 238
+			period 173.69098
+		object
+			sprite planet/lava0
+			distance 663
+			period 446.77402
+	object
+		sprite planet/gas7-hot
+		distance 2240
+		period 1204.729
+	object
+		sprite planet/gas14
+		distance 3170
+		period 2028.1787
+	object
+		sprite planet/sheragigasgiant
+		distance 4150
+		period 3038.0119
+		object
+			sprite planet/rock20
+			distance 503
+			period 426.43476
+	object
+		sprite planet/browndwarf-l
+		distance 5223
+		period 4289.4081
+	object
+		sprite planet/gas5
+		distance 6164
+		period 5499.3489
+
+system Nchreky
+	pos -52490.9 -53650.466
+	government Akralva
+	link Sheckelr
+	asteroids "medium rock" 5 2.414
+	asteroids "large rock" 10 3.128
+	asteroids "small metal" 5 2.822
+	asteroids "medium metal" 203 3.264
+	asteroids "large metal" 16 2.686
+	minables silver 5 6.2798162
+	minables lead 20 3.2532449
+	fleet "Akralva Hunter" 800
+	fleet "Akralva Merchant" 700
+	habitable 361.25
+	belt 1330
+	object
+		sprite star/k8
+		period 10
+	object
+		sprite planet/ocean8
+		distance 369
+		period 333.56511
+		object
+			sprite planet/io-b
+			distance 172
+			period 85.269416
+	object
+		sprite planet/forest6-b
+		distance 834
+		period 1133.4181
+	object
+		sprite planet/rock9-b
+		distance 1252
+		period 2084.7192
+	object
+		sprite planet/gas6-hot
+		distance 1872
+		period 3811.5343
+	object
+		sprite planet/gas13
+		distance 2743
+		period 6760.5149
+	object
+		sprite planet/gas3
+		distance 4931
+		period 16294.595
+		object
+			sprite planet/battlestationw
+			distance 315
+			period 85.134247
+		object
+			sprite planet/dust5-b
+			distance 452
+			period 251.49264
+		object
+			sprite planet/station7
+			distance 570
+			period 356.14751
+		object
+			sprite planet/stationh-ancient1
+			distance 718
+			period 196.96695
+
+system Ncherak
+	pos -52582.733 -53727.667
+	government "Tehru Insker"
+	link Nurvicny
+	asteroids "medium rock" 10 2.184
+	asteroids "large rock" 2 3.99
+	asteroids "small metal" 1 2.31
+	asteroids "medium metal" 3 2.646
+	asteroids "large metal" 1 2.142
+	fleet "Tehru Insker Patrol" 2000
+	habitable 36.45
+	belt 1695
+	trade Clothing 239
+	trade Electronics 788
+	trade Equipment 413
+	trade Food 234
+	trade "Heavy Metals" 1208
+	trade Industrial 555
+	trade "Luxury Goods" 1001
+	trade Medical 837
+	trade Metal 270
+	trade Plastic 299
+	object
+		sprite star/b-dwarf
+		period 10
+	object
+		sprite planet/rock18
+		distance 357
+		period 999.30613
+	object
+		sprite planet/cloud4-b
+		distance 680
+		period 2626.9971
+	object
+		sprite planet/rock3
+		distance 869
+		period 3795.1233
+	object
+		sprite planet/lava3
+		distance 1065
+		period 5148.9733
+	object
+		sprite planet/gas1-b
+		distance 1642
+		period 9857.2542
+	object
+		sprite planet/gas0-hot
+		distance 3703
+		period 33383.11
+		object
+			sprite planet/oberon-b
+			distance 206
+			period 182.09381
+
+system Vyhrekel
+	pos -52541.657 -53831.912
+	government "Tehru Insker"
+	link Hckycoh
+	link Mcahere
+	link Seenvihru
+	asteroids "small rock" 2 1.357
+	asteroids "medium rock" 20 2.231
+	asteroids "large rock" 2 1.564
+	asteroids "small metal" 5 1.61
+	asteroids "medium metal" 1 1.748
+	asteroids "large metal" 1 1.725
+	minables platinum 2 2.9672819
+	minables lead 7 3.3731837
+	fleet "Tehru Insker Patrol" 1200
+	habitable 3125
+	belt 1421
+	trade Clothing 239
+	trade Electronics 788
+	trade Equipment 413
+	trade Food 234
+	trade "Heavy Metals" 1208
+	trade Industrial 555
+	trade "Luxury Goods" 1001
+	trade Medical 837
+	trade Metal 270
+	trade Plastic 299
+	object
+		sprite star/k5-old
+		period 10
+	object
+		sprite planet/cloud7
+		distance 393
+		period 124.65474
+	object
+		sprite planet/gas1
+		distance 1239
+		period 697.79354
+		object
+			sprite planet/desert4
+			distance 493
+			period 517.82404
+	object
+		sprite planet/browndwarf-l
+		distance 2423
+		period 1908.3152
+	object
+		sprite planet/jupiter
+		distance 4533
+		period 4883.1331
+		object
+			sprite planet/lava0-b
+			distance 298
+			period 134.63005
+		object
+			sprite planet/desert4-b
+			distance 468
+			period 478.93945
+		object
+			sprite planet/rock0
+			distance 614
+			period 575.11299
+	object
+		sprite planet/gas13
+		distance 6671
+		period 8717.7898
+	object
+		sprite planet/browndwarf-l-rouge
+		distance 7274
+		period 9926.1293
+
+system Mcahere
+	pos -52509.102 -53805.134
+	government "Tehru Insker"
+	link Vyhrekel
+	asteroids "small rock" 2 1.357
+	asteroids "medium rock" 20 2.231
+	asteroids "large rock" 2 1.564
+	asteroids "small metal" 5 1.61
+	asteroids "medium metal" 1 1.748
+	asteroids "large metal" 1 1.725
+	minables platinum 2 2.9672819
+	minables lead 7 3.3731837
+	fleet "Tehru Insker Patrol" 1000
+	habitable 3125
+	belt 1421
+	trade Clothing 239
+	trade Electronics 788
+	trade Equipment 413
+	trade Food 234
+	trade "Heavy Metals" 1208
+	trade Industrial 555
+	trade "Luxury Goods" 1001
+	trade Medical 837
+	trade Metal 270
+	trade Plastic 299
+
+system Hckycoh
+	pos -52583.102 -53805.579
+	government "Tehru Insker"
+	link Kelsvaru
+	link Vyhrekel
+	asteroids "small rock" 2 1.357
+	asteroids "medium rock" 20 2.231
+	asteroids "large rock" 2 1.564
+	asteroids "small metal" 5 1.61
+	asteroids "medium metal" 1 1.748
+	asteroids "large metal" 1 1.725
+	minables platinum 2 2.9672819
+	minables lead 7 3.3731837
+	fleet "Tehru Insker Patrol" 1200
+	habitable 3125
+	belt 1421
+	trade Clothing 239
+	trade Electronics 788
+	trade Equipment 413
+	trade Food 234
+	trade "Heavy Metals" 1208
+	trade Industrial 555
+	trade "Luxury Goods" 1001
+	trade Medical 837
+	trade Metal 270
+	trade Plastic 299
 
