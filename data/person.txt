@@ -71,7 +71,7 @@
 
 person "Katau Vinur'en-Eur"
 	government "Ultaka(Mega)"
-	frequency 1
+	frequency 10
 	personality
 		heroic vindictive	
 	phrase
@@ -111,13 +111,13 @@ person "Katau Vinur'en-Eur"
 			"Ultaka Heat Shunt"
 			"DR Drive"
 			"U20-B anti missile" 2
-			"M10G Turret" 1
-			"E40R-D" 1
+			"Dahur Kyin Turret"
+			"Anshru Vorhey"
 			"Model-3A Rifle" 5
 			"Ultaka IDS" 1
 		
 		gun 0 -121.5
-		turret 0 -45 "M10G Turret"
+		turret 0 -45 "Dahur Kyin Turret"
 		turret -33 10 "U20-B anti missile"
 		turret 33 10 "U20-B anti missile"
 		engine -22 124
