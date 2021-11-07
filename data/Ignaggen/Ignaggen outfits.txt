@@ -178,11 +178,11 @@ effect "gikorel shot"
 #======================================================Power
 outfit "Vultador Cell" #Lava
 	category "Power"
-	cost 43000
+	cost 133000
 	thumbnail "outfit/tiny fuel cell"
 	"mass" 14
 	"outfit space" -14
-	"energy generation" 4.2
+	"energy generation" 3.9
 	"heat generation" 8
 	"energy capacity" 1000
 	description "A compact package of capacitor and generator."
@@ -193,7 +193,7 @@ outfit "Vurlugigr Reactor" #Lava
 	thumbnail "outfit/plasma core"
 	"mass" 30
 	"outfit space" -30
-	"energy generation" 6.8
+	"energy generation" 8.8
 	"heat generation" 36
 	"cooling inefficiency" 1
 	"energy capacity" 5000
@@ -205,7 +205,7 @@ outfit "Orvuilugr Reactor" #Magma
 	thumbnail "outfit/double plasma core"
 	"mass" 63
 	"outfit space" -63
-	"energy generation" 17.6
+	"energy generation" 19.6
 	"heat generation" 56
 	"cooling inefficiency" 1
 	"energy capacity" 8000
