@@ -2,8 +2,7 @@ mission "Ignaggen Delivery"
 	name "Delivery to <planet>"
 	job
 	repeat
-	#deadline 14
-	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
 	cargo random 5 2 .1
 	to offer
 		random < 70
@@ -23,8 +22,7 @@ mission "Ignaggen Long Range Delivery"
 	name "Delivery to <planet>"
 	job
 	repeat
-	#deadline 30
-	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
 	cargo random 5 2 .1
 	to offer
 		random < 60
@@ -44,8 +42,7 @@ mission "Ignaggen Bulk Delivery"
 	name "Bulk delivery to <planet>"
 	job
 	repeat
-	#deadline 16
-	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
 	cargo random 25 2 .05
 	to offer
 		random < 60
@@ -66,8 +63,7 @@ mission "Ignaggen Long Range Bulk Delivery"
 	name "Bulk delivery to <planet>"
 	job
 	repeat
-	#deadline 28
-	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
 	cargo random 25 2 .05
 	to offer
 		random < 50
@@ -88,8 +84,7 @@ mission "Ignaggen Large Bulk Delivery"
 	name "Large bulk delivery to <planet>"
 	job
 	repeat
-	#deadline 20
-	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
 	cargo random 40 2 .02
 	to offer
 		random < 50
@@ -111,8 +106,7 @@ mission "Ignaggen Long Range Large Bulk Delivery"
 	name "Large bulk delivery to <planet>"
 	job
 	repeat
-	#deadline 38
-	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
 	cargo random 40 2 .02
 	to offer
 		random < 40
