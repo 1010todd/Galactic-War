@@ -147,3 +147,25 @@ mission "gw: dels mission reset"
 		clear "First Contact: Dels Kaote: offered"
 		clear "First Contact: Dels Ufulre: declined"
 		clear "First Contact: Dels Ufulre: offered"
+		clear "Panmur Kaul Warning: offered"
+		clear "Panmur Kaul Warning: declined"
+		clear "Panmur Kaul Warning: active"
+
+mission "gw: dels First Contact reset"
+	name "GW: Dels First Contact Reset"
+	job
+	repeat
+	deadline 1
+	to offer
+		has "gw: debug mode"
+	description "Reset all Dels first contact missions."
+	source
+		government "cheat" "Dels" "Dels Dardornai" "Dels Kaote" "Dels Ufulre"
+	on accept
+		dialog phrase "gw mission reset"
+		clear "First Contact: Dels Dardornai: declined"
+		clear "First Contact: Dels Dardornai: offered"
+		clear "First Contact: Dels Kaote: declined"
+		clear "First Contact: Dels Kaote: offered"
+		clear "First Contact: Dels Ufulre: declined"
+		clear "First Contact: Dels Ufulre: offered"
