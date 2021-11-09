@@ -514,12 +514,13 @@ outfit "Dakte-1 Missile" #SK4
 	description "Dakte-1 lancher's ammo."
 	
 outfit "Dakte-1 Storage"
-	category "Systems"
+	category "Ammunition"
 	cost 9000
 	thumbnail "outfit/dels sokak storage"
 	"mass" 2
 	"outfit space" -10
 	"dt1 capacity" 50
+	description "Missile storage for Dels Dakte-1 missiles."
 
 outfit "Saikel-4 Launcher" #SK4
 	category "Secondary Weapons"
@@ -565,12 +566,13 @@ outfit "Saikel-4 Missile"
 	description "Ammo for Saikel-4 launcher"
 	
 outfit "Saikel-4 Magazines"
-	category "Systems"
+	category "Ammunition"
 	cost 9000
 	thumbnail "outfit/dels sokak storage"
 	"mass" 2
 	"outfit space" -10
 	"sk4 capacity" 30
+	description "Missile storage for Dels Saikel missiles."
 
 outfit "sk4"
 	weapon
