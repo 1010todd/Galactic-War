@@ -249,7 +249,23 @@ outfit "Nuru Void Motion System"
 	"nuru weaponization" 1
 	description `Unlike any starship engine ever seen, these "engines" are installed at the core of the ship and yet somehow able to move the ship in any direction.`
 	
-
-
-
+outfit "Nuru Outfit License"
+	category Special
+	cost 5000000
+	thumbnail outfit/unknown
+	description `Nuru licenses are added to the translator device given to you.`
+	description `This license allows you to purchase Nuru non-weapon outfits.`
 	
+outfit "Nuru War Weapon License"
+	category Special
+	cost 5000000
+	thumbnail outfit/unknown
+	description `Nuru licenses are added to the translator device given to you.`
+	description `This license allows you to purchase Nuru weapon outfits.`
+
+outfit "Nuru Ship License"
+	category Special
+	cost 15000000
+	thumbnail outfit/unknown
+	description `Nuru licenses are added to the translator device given to you.`	
+	description `This license allows you to purchase Nuru ships.`
