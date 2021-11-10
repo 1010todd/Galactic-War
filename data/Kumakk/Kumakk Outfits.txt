@@ -23,7 +23,7 @@ outfit "Ordakko Gun"
 		"shield damage" 68
 		"hull damage" 120
 		"piercing" .1
-	description "Kumakk laser gun"
+	description `A combination of laser and particle tech, this weapon accelerates viotile sub-atomic particles to practically lightspeed partially piercing through shields and disintregate armours with ease. Due to difficulty controlling these short-lived particles the weapon fires in "shot" instead of a constant beam.`
 
 effect "ordakko laser"
 	sprite "projectile/ordakko laser"
@@ -59,7 +59,7 @@ outfit "Ordakko Turret"
 
 outfit "Ku'alno Turret"
 	category "Turrets"
-	cost 420000
+	cost 820000
 	thumbnail "outfit/qoro m masenar turret"
 	"mass" 82
 	"outfit space" -82
@@ -79,7 +79,7 @@ outfit "Ku'alno Turret"
 		"firing energy" 120
 		"firing heat" 140
 		"firing force" 2
-	description "Kumakk turret. Fires a powerful, long-ranged projectile that travels in random zigzag path and partially pierce through shields."
+	description "Kumakk turret. Fires a powerful, long-ranged projectile that travels in random zigzag path and partially pierce through shields. Due to its random nature this weapon might struggle to track and hit smaller targets."
 
 effect "ku'alno trail"
 	sprite "effect/gw green trail"
@@ -192,6 +192,80 @@ outfit "ku'alno shot4"
 		"shield damage" 500
 		"hull damage" 388
 		"piercing" .03
+
+outfit "Ro'ohrek Turret"
+	category "Turrets"
+	cost 570000
+	thumbnail "outfit/qoro m masenar turret"
+	"mass" 41
+	"outfit space" -41
+	"weapon capacity" -41
+	"turret mounts" -1
+	weapon
+		sound "gw edistort2"
+		#sprite "projectile/gw green beam"
+		"fire effect" "typhoon fire"
+		"submunition" "ro'ohrek small"
+		"submunition" "ro'ohrek med"
+		"submunition" "ro'ohrek large"
+		"inaccuracy" .1
+		"turret turn" 3.2
+		"velocity" 15
+		"lifetime" 1
+		"reload" 30
+		"firing energy" 60
+		"firing heat" 55
+	description `Kumakk Ro'ohrek turret fires a burst of energy rings that counter-acts the very physics of energy shields and quickly disable it while capable of dealing substantial damage to hull of starships.` 
+
+outfit "ro'ohrek small"
+	weapon
+		sprite "projectile/kumakk roohrek small"
+			"start frame" 0
+			"frame rate" 10
+		#"live effect" "ku'alno trail" 50
+		"velocity" 30
+		"lifetime" 20
+		"shield damage" 240
+		"hull damage" 80
+		"disruption damage" 1
+		"energy damage" 50
+		"piercing" .5
+		"damage dropoff" 600
+		"damage dropoff modifier" .3
+
+outfit "ro'ohrek medium"
+	weapon
+		sprite "projectile/kumakk roohrek med"
+			"start frame" 0
+			"frame rate" 10
+		#"live effect" "ku'alno trail" 50
+		"velocity" 17
+		"lifetime" 20
+		"shield damage" 240
+		"hull damage" 80
+		"disruption damage" 2
+		"energy damage" 30
+		"slowing damage" .2
+		"piercing" .03
+		"damage dropoff" 460
+		"damage dropoff modifier" .3
+
+outfit "ro'ohrek large"
+	weapon
+		sprite "projectile/kumakk roohrek large"
+			"start frame" 0
+			"frame rate" 10
+		#"live effect" "ku'alno trail" 50
+		"velocity" 5
+		"lifetime" 20
+		"shield damage" 240
+		"hull damage" 80
+		"disruption damage" 5
+		"energy damage" 10
+		"slowing damage" .5
+		"piercing" .01
+		"damage dropoff" 350
+		"damage dropoff modifier" .3
 
 outfit "Loku'nol Missile"
 	category "Ammunition"
