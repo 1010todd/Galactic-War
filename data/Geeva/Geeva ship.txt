@@ -6,7 +6,7 @@ ship "Hailika"
 		"shields" 2400
 		"hull" 1800
 		"required crew" 1
-		"bunks" 20
+		"bunks" 12
 		"mass" 80
 		"drag" 1.9
 		"heat dissipation" .90
@@ -30,15 +30,18 @@ ship "Hailika"
 		"Cirpa-06 Cooling Device"
 		"Welt-03 Ramscoop"
 
-		"Kimal Assault Rifle" 2
+		#"Kimal Assault Rifle" 2
 
 		"Iogel02-04 Thruster"
 		"Iogel02-04 Steering"
 		"Silr-02 Hyperdrive"
 		
 		
-	turret 0 15
-	engine 0 35.5
+	turret 0 0
+	engine 0 49
+		zoom 1
+		angle 0
+		under
 	explode "tiny explosion" 10
 	explode "small explosion" 20
 	explode "medium explosion" 15
@@ -90,19 +93,41 @@ ship "Kinika"
 		"Silr-02 Hyperdrive"
 		
 		
-	turret 0 -0.5 "Noilcor-06 Blaster Turret"
-	turret -20 6.5
-	turret 20.5 7 "Rilar-06 Anti-Missile"
-	turret -21 25 "Rilar-06 Anti-Missile"
-	turret 19.5 25
-	gun -20 -23
-	gun 20 -23
-	engine -7 53.5
-	engine 7 53.5
+	gun -18.5 -16.5
+	gun 18.5 -16.5
+	gun -25.5 -4.5
+	gun 25.5 -4.5
+	turret -17 13.5
+	turret 17 13.5
+	turret -24 28.5
+	turret 24 28.5
+	turret 0 9 "Noilcor-06 Blaster Turret"
+	engine 0 58
+		zoom 1
+		angle 0
+		under
+	engine 12 58.5
+		zoom .5
+		angle 0
+		under
+	engine -12 58.5
+		zoom .5
+		angle 0
+		under
+	"steering engine" 12.5 59.5
+		zoom .4
+		angle 35
+		under
+		right
+	"steering engine" -12.5 59.5
+		zoom .4
+		angle -35
+		under
+		left
 	explode "tiny explosion" 10
 	explode "small explosion" 20
 	explode "medium explosion" 15
-	description "."
+	description "Geeva escort ship. Can be found accompaying all types of ships."
 	
 ship "Kimali"
 	sprite "ship/geeva kimali"
@@ -129,7 +154,7 @@ ship "Kimali"
 	outfits
 		"Zilnor-03 Energy Tracer" 4
 		"Noilcor-06 Blaster Turret" 10
-		"Rilar-06 Anti-Missile" 6
+		"Rilar-06 Anti-Missile" 2
 		
 		"Turlo-06 Reactor"
 		"Siltr-05 Batteries" 2
@@ -147,36 +172,51 @@ ship "Kimali"
 		"Iogel04-04 Steering"
 		"Silr-02 Hyperdrive"
 		
-	turret -54 -23 "Noilcor-06 Blaster Turret"
-	turret 54.5 -22.5 "Noilcor-06 Blaster Turret"
-	turret -55 8 "Noilcor-06 Blaster Turret"
-	turret 54.5 8 "Noilcor-06 Blaster Turret" 
-	turret -55 39.5 "Noilcor-06 Blaster Turret"
-	turret 54 40 "Noilcor-06 Blaster Turret"
-	turret -54.5 72 "Noilcor-06 Blaster Turret"
-	turret 54.5 71 "Noilcor-06 Blaster Turret"
-	turret -54.5 101 "Noilcor-06 Blaster Turret"
-	turret 55 100.5 "Noilcor-06 Blaster Turret"
-	gun -43.5 -102.5
-	gun 43 -102.5
-	gun -24.5 -126.5
-	gun 23.5 -128
-	turret -27.5 -43.5 "Rilar-06 Anti-Missile"
-	turret 28.5 -44 "Rilar-06 Anti-Missile"
-	turret -29 54 "Rilar-06 Anti-Missile"
-	turret 28.5 53 "Rilar-06 Anti-Missile"
-	turret -28.5 113.5 "Rilar-06 Anti-Missile"
-	turret 28.5 114.5 "Rilar-06 Anti-Missile"
-	engine -13 143
-	engine 13 143
-	engine 0 142.5
+	gun -21 -138.5
+	gun 21 -138.5
+	gun -29 -122
+	gun 29 -122
+	turret -32 21
+	turret 32 21
+	turret -36.5 41.5
+	turret 36.5 41.5
+	turret -37.5 61.5
+	turret 37.5 61.5
+	turret -36.5 80.5
+	turret 36.5 80.5
+	turret -32.5 96.5
+	turret 32.5 96.5
+	turret 0 47.5 "Rilar-06 Anti-Missile" 
+	turret 0 88 "Rilar-06 Anti-Missile" 
+	engine 0 150.5
+		zoom 1
+		angle 0
+		under
+	engine 19 155.5
+		zoom .5
+		angle 0
+		under
+	engine -19 155.5
+		zoom .5
+		angle 0
+		under
+	"steering engine" 18.5 155.5
+		zoom .5
+		angle 37
+		under
+		right
+	"steering engine" -18.5 155.5
+		zoom .5
+		angle -37
+		under
+		left
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "Geeva Heavy Warship"
+	description "Geeva Heavy Warship."
 
 #
 	
@@ -323,3 +363,4 @@ ship "HD-8426 Tarallion"
 	turret -65 29.5 "HPDL Anti-missile"
 	engine -27.5 337.5
 	engine 27.5 338.5
+	description "A powerful warship obviously not made by the Geeva. Only one is kept in secret at the heart of the Geeva capital, only to be used in the most dire time."
