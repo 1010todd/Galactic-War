@@ -81,7 +81,7 @@ mission "Panmur Kaul Warning" #To warn players before going into Panmur Kaul whi
 				or
 					has "language: Dels"
 					has `Dels: Eleeda is with you`
-			`A ship waiting in the system hails you as soon as you enter the system, you don't understand what they say but at least they send you a short animation showing a pulsar star destroying ships that jumped into the system. Maybe you should reconsider going there.`
+			`A ship waiting in the system hails you as soon as you enter the system, you don't understand what they say but at least they send you a short animation showing a pulsar star destroying ships that jumped into the system. Maybe you should reconsider going past this system.`
 				decline
 			label "understand Dels"
 			`A Dels Kaote warship hails you as soon as you enter the system, "The system ahead is off limits due to lethal pulsar activity. Please turn back.". They also send you a short animation of a system with pulsar and ships being destroyed by the pulsar beam as is jumps into the system.`
