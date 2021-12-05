@@ -87,6 +87,34 @@ mission "Panmur Kaul Warning" #To warn players before going into Panmur Kaul whi
 			`A Dels Kaote warship hails you as soon as you enter the system, "The system ahead is off limits due to lethal pulsar activity. Please turn back.". They also send you a short animation of a system with pulsar and ships being destroyed by the pulsar beam as is jumps into the system.`
 				decline
 
+mission "Panmur Kaul Warning Repeat 1"
+	landing
+	invisible
+	repeat 2
+	npc kill
+		government "Dels Kaote"
+		personality heroic unconstrained staying
+		system Prudeiko
+		fleet "Dels Kaote"
+			names "Dels Guard"
+			fighters "Dels Fighter"
+			variant
+				"Dels Decso" 2
+
+mission "Panmur Kaul Warning Repeat 2"
+	landing
+	invisible
+	repeat
+	npc kill
+		government "Dels Kaote"
+		personality heroic unconstrained staying
+		system Prudeiko
+		fleet "Dels Kaote"
+			names "Dels Guard"
+			fighters "Dels Fighter"
+			variant
+				"Dels Decso" 3
+				"Dels Secsen" 6
 #================There's still problems that we can't really check player's ship/attribute or manage the crew with missions
 
 mission "Dels officer: Made Dels Kaote angry notif"
