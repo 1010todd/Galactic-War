@@ -1,0 +1,15 @@
+mission "GW: Zis Sword equipped"
+	invisible
+	landing
+	on offer
+		require "Zis Standard Sword" 1
+		set "GW: Zis Sword equipped"
+
+mission "GW: Zis Sword unequipped"
+	invisible
+	landing
+	repeat
+	on offer
+		require "Zis Standard Sword" 0
+		clear "GW: Zis Sword equipped"
+		fail "GW: Zis Sword equipped"
