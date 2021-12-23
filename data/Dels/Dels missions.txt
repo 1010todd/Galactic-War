@@ -115,6 +115,15 @@ mission "Panmur Kaul Warning Repeat 2"
 			variant
 				"Dels Decso" 3
 				"Dels Secsen" 6
+
+mission "Dels officer: crossed Panmur Kaul check"
+	landing
+	invisible
+	on enter Avurin
+		set "Dels: crossed Panmur Kaul"
+	on enter "Panmur Kaul"
+		set "Dels: entered Panmur Kaul"
+
 #================There's still problems that we can't really check player's ship/attribute or manage the crew with missions
 
 mission "Dels officer: Made Dels Kaote angry notif"
