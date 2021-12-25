@@ -14,3 +14,10 @@ mission "GW Version: v0.1.4-A"
 		#clear "GW Version: v0.1.1-B"
 		#clear "GW Version: v0.1.1-A"
 		fail
+
+mission "Hot fix 26/12/2021"
+	landing
+	invisible
+	on offer
+		fail "Panmur Kaul Warning Repeat 2"
+		fail "Panmur Kaul Warning Repeat 1"

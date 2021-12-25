@@ -91,6 +91,8 @@ mission "Panmur Kaul Warning Repeat 1"
 	landing
 	invisible
 	repeat 2
+	to offer
+		"Panmur Kaul Warning: done"
 	npc kill
 		government "Dels Kaote"
 		personality heroic unconstrained staying
@@ -105,6 +107,11 @@ mission "Panmur Kaul Warning Repeat 2"
 	landing
 	invisible
 	repeat
+	to offer
+		or
+			"Panmur Kaul Warning Repeat 1: done"
+			"Panmur Kaul Warning Repeat 1: failed"
+		not "Panmur Kaul Warning Repeat 2: active"
 	npc kill
 		government "Dels Kaote"
 		personality heroic unconstrained staying
