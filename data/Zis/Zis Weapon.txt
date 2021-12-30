@@ -60,13 +60,13 @@ outfit "Zortal Flamethrower" #FireStorm
 		"inaccuracy" 12
 		"velocity" 9
 		"shield damage" 8
-		"hull damage" 22
+		"hull damage" 50
 		"heat damage" 460
 		"lifetime" 1
 		"reload" 10
 		"burst count" 60
 		"burst reload" 1
-		"firing energy" 12
+		"firing energy" 25
 		"firing heat" 6
 	description "More or less a flamethrower, this is a burst firing weapon that can easily overheat a ship in a short time."
 
@@ -80,7 +80,7 @@ outfit "Zortal Projectile"
 		"inaccuracy" 8
 		"lifetime" 22
 		"shield damage" 4
-		"hull damage" 8
+		"hull damage" 30
 		"heat damage" 1860
 		
 outfit "Nelcor Gun" #SnowStorm
@@ -99,15 +99,16 @@ outfit "Nelcor Gun" #SnowStorm
 		"submunition" "Nelcor Projectile"
 		"inaccuracy" 12
 		"velocity" 9
-		"shield damage" 8
-		"hull damage" 220
-		"heat damage" -120
 		"lifetime" 5
 		"reload" 1
-		"firing energy" 12
+		"firing energy" 19
 		"firing heat" -2
+		"shield damage" 8
+		"hull damage" 15
+		"heat damage" -120
 		"slowing damage" .1
-	description ""
+		"ion damage" .1
+	description "An inverse of the flamethrower, this weapon will slow down the activity of the ship hit by it."
 	
 outfit "Nelcor Projectile"
 	weapon
@@ -117,10 +118,11 @@ outfit "Nelcor Projectile"
 		"hit effect" "frostwave hit"
 		"inaccuracy" 20
 		"lifetime" 22
-		"shield damage" 0
-		"hull damage" 5
+		"shield damage" 8
+		"hull damage" 15
 		"heat damage" -50
 		"slowing damage" .1
+		"ion damage" .1
 
 effect "frostwave hit"
 	sprite "projectile/frostwave"
@@ -148,11 +150,12 @@ outfit "Relcor Lance"
 		"velocity" 450
 		"lifetime" 1
 		"reload" 1
-		"firing energy" 43
+		"firing energy" 23
 		"shield damage" 120
-		"hull damage" 200
+		"hull damage" 90
 		"slowing damage" .2
-	description ""
+		"ion damage" .2
+	description "Utilizing similar technology to the Nelcor gun but focused into a beam for greater range."
 	
 outfit "DZ-10 Dark Blaster"
 	category "Guns"
@@ -176,6 +179,7 @@ outfit "DZ-10 Dark Blaster"
 		"ion damage" 30
 		"slowing damage" .5
 	description "A small gun used by Zis fighters that while can barely scratch hulls, will decrease the target ship ability to maneuver and fire back."
+	description "Dark Blaster is a predecessor to the Darklance developed to utilize (back then) newly developed technology."
 
 outfit "DZ-15 Dark Blaster"
 	category "Guns"
@@ -194,11 +198,10 @@ outfit "DZ-15 Dark Blaster"
 		"reload" 13
 		"firing energy" 24
 		"firing heat" 19
-		"shield damage" 200
-		"hull damage" 530
-		"ion damage" 1
-		"slowing damage" 20
-		"piercing" .2
+		"shield damage" 300
+		"hull damage" 90
+		"ion damage" 35
+		"slowing damage" 2
 	description "A variation of DZ-10 that focuses more on reducing target's mobility."
 		
 outfit "DZ-10 Dark Blaster Turret"
@@ -247,11 +250,10 @@ outfit "DZ-15 Dark Blaster Turret"
 		"reload" 12
 		"firing energy" 20
 		"firing heat" 18
-		"shield damage" 200
-		"hull damage" 530
-		"ion damage" 1
-		"slowing damage" 20
-		"piercing" .2
+		"shield damage" 300
+		"hull damage" 90
+		"ion damage" 35
+		"slowing damage" 2
 	description "Turret version of DZ-15."
 		
 outfit "DZ-84 Darklance"
@@ -279,7 +281,9 @@ outfit "DZ-84 Darklance"
 		"slowing damage" 5
 		"piercing" .25
 		"hit force" -20
-	description "Based on similar technology to Dark Blaster, these Darklances provides more accuracy and effectiveness at cost of using more energy."
+		"firing force" 4
+	description "Based on similar technology to Dark Blaster, these Darklances provides better accuracy and effectiveness against armour as well as ability to partially pierce through shieldings for shorter range and more energy usage."
+	description "First entered mass production on Tu-13B058M353_345123.87 the DZ-84 Darklance remains a popular choice for operations in low risk area for their versatility and safety."
 
 outfit "DZ-84 Darklance (Rear)"
 	category "Guns"
@@ -306,6 +310,7 @@ outfit "DZ-84 Darklance (Rear)"
 		"slowing damage" 5
 		"piercing" .25
 		"hit force" -20
+		"firing force" 4
 	description "."
 	description "[This is a rear version of darklance that shoots backward]"
 		
@@ -337,11 +342,12 @@ outfit "DZ-84 Darklance Turret"
 		"slowing damage" 5
 		"piercing" .25
 		"hit force" -20
-	description "."
+		"firing force" 4
+	description "Darklance on a turret."
 		
 outfit "DZ-5 Micro Darklance"
 	category "Guns"
-	cost 3000000
+	cost 18000000
 	thumbnail "outfit/zis darklance micro"
 	"mass" 7
 	"outfit space" -7
@@ -444,7 +450,7 @@ outfit "Zis Dragon's Breath" #Thanks Arkhne for the name idea.
 		"acceleration" 2.5
 		"piercing" .7
 		"phasing"
-	description `It's a giant beam gun is all they bother to tell you.`
+	description `A giant sub-light beam gun that will reduce most target to the very basic of their structure, while not the most lethal it remains intimidating enough to scare off most enemies.`
 	
 effect "zdragons breath fire"
 	sprite "effect/zdragons breath fire"
@@ -550,7 +556,7 @@ outfit "Airzi"
 	
 outfit "Eundorrel Cannon"
 	category "Guns"
-	cost 8000000
+	cost 80000000
 	thumbnail "outfit/zis energy tracer"
 	"mass" 20
 	"outfit space" -20
@@ -568,10 +574,11 @@ outfit "Eundorrel Cannon"
 		"shield damage" 20000
 		"hull damage" 20000
 		"piercing" .08
+	description "Old precision planetary bombardment weapon capable of ensuring whatever targeted and everything else below it is reduced to their most basic structure in a single shot. Smaller variants of this weapon can still be found on older ground vehicle."
 	
 outfit "Eundorrel Turret"
 	category "Turrets"
-	cost 8200000
+	cost 82000000
 	thumbnail "outfit/unknown"
 	"mass" 36
 	"outfit space" -36
@@ -580,10 +587,10 @@ outfit "Eundorrel Turret"
 	weapon
 		sprite "projectile/red bolt"
 		sound "heavy rocket hit"
-		"inaccuracy" 1
-		"hardpoint sprite" "hardpoint/laser pointer"
+		"inaccuracy" .1
+		"hardpoint sprite" "hardpoint/laser pointer" #Todo: proper sprite
 		"hardpoint offset" 9.
-		"turret turn" 1.2
+		"turret turn" 2
 		"velocity" 43
 		"lifetime" 17
 		"reload" 280
@@ -592,11 +599,11 @@ outfit "Eundorrel Turret"
 		"shield damage" 20000
 		"hull damage" 20000
 		"piercing" .08
-	description "."
+	description "Eundorrel cannon adapted into a compact turret for space combat."
 
 outfit "Fernai Shotgun"
 	category "Guns"
-	cost 2300000
+	cost 43000000
 	thumbnail "outfit/proton gun"
 	"mass" 20
 	"outfit space" -20
@@ -614,7 +621,7 @@ outfit "Fernai Shotgun"
 		"firing energy" 38
 		"firing force" 4
 		"firing heat" 48
-	description ""
+	description "Upscaled version of Fennai Enforcer Shotgun developed to deal with Shievak Swarms at Tu-13B224M194_872611.01 . While the weapon it's based on is phased out for newer designs the Fernai Shotgun with few minor upgrades remains sufficiently powerful enough to remains in service until today."
 
 outfit "Fernai Fragment"
 	weapon
@@ -641,11 +648,11 @@ outfit "Fernai FragSpin"
 		"random lifetime" 5
 		"hit force" 12
 		"shield damage" 80
-		"hull damage" 110
+		"hull damage" 130
 		
 outfit "Zymar Turret"
 	category "Turrets"
-	cost 81000000
+	cost 810000000
 	thumbnail "outfit/zis zymar"
 	"mass" 130
 	"outfit space" -150
@@ -666,15 +673,16 @@ outfit "Zymar Turret"
 		"reload" 80
 		"firing energy" 70
 		"firing heat" 90
-		"shield damage" 142000
-		"hull damage" 163000
+		"shield damage" 182000
+		"hull damage" 193000
 		"hit force" 180
 		"heat damage" 100
 		"piercing" 10
 		"cluster"
 		"safe"
 		"blast radius" 200
-	description ""
+	description "Primary weapon of ancient Karloz battleships developed from an amalgamation of various technologies discovered up to Tu-13B255M122_488111.10 and somewhat considered a miracle it even worked at all. While not appear to be particularly special from outside it can be considered revolutionary as it provides the basis for several more prominent techologies developed shortly after such as Inrel device and Cehai phaser."
+	description "The weapon and Kraloz battleship remains in service today for more than it's historic value, but also the weapon's ability to bypass nearly all known shieldings to date."
 
 outfit "Zoika Turret"
 	category "Turrets"
@@ -1071,7 +1079,7 @@ outfit "Syfar-3 Turret" #Syfar Torpedo Turret
 		"slowing damage" .3
 		"damage dropoff" 100
 		"dropoff modifier" 2
-	description "This weapon require some amount of time to fully activate, deploy at long range for full effectiveness."
+	description "This weapon gains damage at longer range, deploy at long range for full effectiveness."
 	
 outfit "Syfar Torpedo"
 	category "Ammunition"
@@ -1432,4 +1440,4 @@ outfit "ZIS Anti-Missile System"
 		"reload" 1
 		"firing energy" 20
 		"firing heat" 12
-	description ""
+	description "A part of the standard defense system built into all Zis ships."
