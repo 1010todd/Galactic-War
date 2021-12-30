@@ -1312,7 +1312,6 @@ system Aifveva
 		sprite sprite/wisp_green
 		distance 4000
 
-
 system Ailaleli
 	pos -52223.6 -56209.5
 	government Geeva
@@ -27797,7 +27796,6 @@ system Ginma
 		sprite sprite/wisp_green
 		distance 4000
 
-
 system Ginsolor
 	pos -50926.4 -56610.5
 	government "Kroom Kakaima"
@@ -28204,7 +28202,6 @@ system "Go se ri"
 	object "Omnis-GW: Nuru Wormhole"
 		sprite sprite/wisp_green
 		distance 4000
-
 
 system "Goklaro Han"
 	pos -49424.5 -54592.6
@@ -31122,7 +31119,6 @@ system "Haola Lesu"
 	object "Omnis-GW: Qoro Siogarl Wormhole"
 		sprite sprite/wisp_green
 		distance 3000
-
 
 system Haoler
 	pos -39799.8 -61350.75
@@ -48728,7 +48724,6 @@ system Ko'kusor
 		sprite sprite/wisp_green
 		distance 4000
 
-
 system Ko'laso
 	pos -50857.6 -53945.767
 	government Kumakk
@@ -61692,7 +61687,6 @@ system Magosen-L2885
 		sprite sprite/wisp_green
 		distance 4000
 
-
 system Magrilnil
 	pos -52495.1 -55688.3
 	government Geeva
@@ -63650,7 +63644,6 @@ system Malsos
 	object "Omnis-GW: Makau a Qoro Wormhole"
 		sprite sprite/wisp_green
 		distance 3000
-
 
 system Mambla
 	pos -49281.1 -56134.3
@@ -70439,7 +70432,6 @@ system Mokugea
 		distance 4000
 		offset 330
 
-
 system Molelca
 	pos -52400.1 -56001.8
 	government Geeva
@@ -70568,7 +70560,6 @@ system Molta
 	object "Omnis-GW: Revos Wormhole"
 		sprite sprite/wisp_green
 		distance 4000
-
 
 system Moqiven
 	pos -49297.5 -55936.9
@@ -81445,7 +81436,6 @@ system Okrevug
 	object "Omnis-GW: Kroom Kakaima Wormhole"
 		sprite sprite/wisp_green
 		distance 4000
-
 
 system Okugar
 	pos -50983.7 -56753
@@ -94238,7 +94228,6 @@ system Saska
 		sprite sprite/wisp_green
 		distance 5000
 
-
 system Scmila
 	pos -50781.6 -56438.1
 	government "Kroom Kakaima"
@@ -103505,7 +103494,6 @@ system Urkvulnar
 		sprite sprite/wisp_green
 		distance 4000
 
-
 system Urkwaar
 	pos -47873.5 -53435.2
 	government Donko
@@ -103592,7 +103580,6 @@ system Urlansa
 	object "Omnis-GW: Taroun Wormhole"
 		sprite sprite/wisp_green
 		distance 4000
-
 
 system Urmarse
 	pos -49968.1 -55490.7
@@ -107788,7 +107775,6 @@ system Vishil
 		sprite sprite/wisp_green
 		distance 4000
 
-
 system Visilmara
 	pos -51480.5 -56506.1
 	government Geeva
@@ -111684,7 +111670,6 @@ system Zausn
 	object "Omnis-GW: Zorcn Wormhole"
 		sprite sprite/wisp_green
 		distance 4000
-
 
 system "Zerax WS-2"
 	pos -52896.6 -56013.1
@@ -116461,6 +116446,8 @@ planet Zalvalhe
 	spaceport .
 
 planet "Zerax WS-2"
+	attributes `"miners storage"`
+	outfitter "Standard Outfits"
 	landscape land/sivael7
 	description "A massive worldship size of a moon with what could be described as giant space vaccum tearing apart the planet below sucking everything into the ship or somewhere else from the ship... From the look of it the planet ripping tool installed on this ship is likely a more recent modification to the worldship which looks much older. "
 	description "Inside is multiple floors of living quarters and all sort of facilities."
@@ -116473,9 +116460,11 @@ planet Zionetyr
 	spaceport "There is not designated parking, just an empty flat land on dirt with fuel pipe running out of a small concrete building. "
 
 planet "Zoivol WS-1"
+	attributes `"miners storage"`
+	outfitter "Standard Outfits"
 	landscape land/space0
-	description .
-	spaceport .
+	description "Zoivol is an extremely ancient worldship. Once one of the few home of the Zis. Despite its age the condition of the worldship looks no older than a few months or a year at very best."
+	spaceport "The ship have a few massive hangars big enough you could probably fit a city inside. Streams of drones and mining ships come and go all the time."
 
 planet "Zondra Station"
 	landscape land/space0
