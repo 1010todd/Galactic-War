@@ -101,6 +101,39 @@ mission "First Contact: Uoorn"
 				`	(Shoot them anyway)`
 			apply
 				"reputation: Uoorn" <?= -50
-			`	You fired a salvo into the middle of the mushrooms, the mushrooms are fairly tough but eventually you manage to tear them apart. Suddenly, you get feeling of anger and hate directed at you, you feel that something hostile is approaching you. Almost immediately after, a swarm of white ships some organic, some covered in hard shells emerges from the patch of mushrooms and the cloud of dust in the area you bombarded. Following behind the ships is a swarm of massive creme-colored tendrils tipped with point or blade, all coming towards you. Without a second thought you fired up your engines and leave the planets' atmosphere.`
+			`	You fired a few salvo into the middle of the mushrooms, the mushrooms are fairly tough but eventually you manage to tear them apart. Suddenly, you get feeling of anger and hate directed at you, you feel that something hostile is approaching you. Almost immediately after, a swarm of white ships some organic, some covered in hard shells emerges from the patch of mushrooms and the cloud of dust in the area you bombarded. Following behind the ships is a swarm of massive creme-colored tendrils tipped with point or blade, all coming towards you. Without a second thought you fired up your engines and leave the planets' atmosphere.`
 				launch
 					
+mission "Uoorn: Uoorn-Gargoor'an battle (Kalloo'anuu)"
+	landing
+	invisible
+	npc
+		government "Uoorn"
+		personality heroic staying uninterested
+		system "Kalloo'anuu"
+		fleet "Uoorn Defense" 5
+	npc
+		government "Gargoor'an"
+		personality heroic staying uninterested
+		system "Kalloo'anuu"
+		fleet "Gargoor'an Urn War Fleet" 3
+	on enter "Kalloo'anuu"
+		set "Seen Uoorn fight Gargoor'an"
+		
+mission "Uoorn: Ask about Gargoor'an"
+	landing
+	to offer
+		has "Seen Uoorn fight Gargoor'an"
+	source
+		government "Uoorn"
+	on offer
+		conversation
+			`You recently saw the Uoorn fighting another alien in one of their system, would you ask the Uoorn about them?`
+			choice
+				`	(Yes)`
+				`	(Not yet)`
+					defer
+				`	(No)`
+					decline
+			`	You find the closest patch of giant mushrooms, presumably the Uoorn, and try to think about the aliens you saw with spiky black ships. It didn't take long before the Uoorn notice and answer you. Time felt long, you felt like you can feel the slight rotation of the galaxy spinning backward by several millions years, you feel like a fresh recruit being sent to the frontline in a war, for million years they fought in an endless stagnant war where only fronts they fight changes. Not once they felt demotivated, not once they felt tired or question the reason they have to fight, they just fight to keep them at bay. Like a perpetual machine that never stop running. They never know the origins of the Gargoor'an, for the Uoorn, they are just there to be fight and hold back at all cost. Unlike your first contact with them, this "conversation" feels more glitchy, incoherent, or missing some information. Presences of you? them? Gargoor'an? popping up in random position across the galaxy. You feels some difficult to explain horror if the Gargoor'an breakthrough and won. Whole galaxy consumed and turn lifeless as countless more of these alien ships raise to continue their invasion in another galaxy. It was a little confusing as many barely connected pieces of information flows into your mind in a short amount of time but from what you get the Uoorn where fighting these aliens they called Gargoor'an since their very beginning, and they apparently fight them everywhere across the galaxy, at least in the past. You don't get any information how they or the Gargoor'an got there.`
+				decline
