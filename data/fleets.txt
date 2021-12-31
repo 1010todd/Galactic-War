@@ -463,9 +463,11 @@ fleet "Geeva Civillian"
 	cargo 1
 	personality
 		confusion 30
-		disables plunders frugal
+		disables frugal
 	variant 15
 		Hailika
+	variant 5
+		Haisihril
 	variant 20
 		Hailika 3
 	variant 10
@@ -474,6 +476,15 @@ fleet "Geeva Civillian"
 	variant
 		Hailika 10
 		Kinika 2
+	variant 10
+		"Kuiseire"
+	variant 5
+		"Kuiseire"
+		Kinika 3
+	variant 1
+		Kimali
+		Kinika 3
+		"Kuiseire" 2
 
 fleet Ignaggen
 	government Ignaggen

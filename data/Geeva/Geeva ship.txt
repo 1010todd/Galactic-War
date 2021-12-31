@@ -1,5 +1,6 @@
 ship "Hailika"
 	sprite "ship/geeva hailika"
+	thumbnail "thumbnail/geeva hailika thumb"
 	attributes
 		category "Transport"
 		"cost" 300000
@@ -21,7 +22,7 @@ ship "Hailika"
 			"hull damage" 150
 			"hit force" 450
 	outfits
-		"Ilcor-06 Blaster Turret"
+		"Rilar-06 Anti-Missile"
 
 		"Turlo-06 Reactor"
 		"Aiple-05 Batteries"
@@ -46,9 +47,69 @@ ship "Hailika"
 	explode "small explosion" 20
 	explode "medium explosion" 15
 	description "Small Geeva transport, commonly found every where in Geeva space."
-	
+
+ship "Haisihril"
+	sprite "ship/geeva haisihril"
+	thumbnail "ship/geeva haisihril thumb"
+	attributes
+		category "Transport"
+		"cost" 300000
+		"shields" 2900
+		"hull" 2000
+		"required crew" 1
+		"bunks" 22
+		"mass" 110
+		"drag" 1.92
+		"heat dissipation" .90
+		"fuel capacity" 600
+		"cargo space" 18
+		"outfit space" 270
+		"weapon capacity" 35
+		"engine capacity" 75
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
+	outfits
+
+		"Turlo-06 Reactor"
+		"Aiple-05 Batteries"
+		"Palir-06 Shield Generator"
+		"Nipalir-06 Shield Generator" 10
+		"Cirpa-06 Cooling Device"
+		"Welt-03 Ramscoop"
+		"Luxury Accommodations"
+
+		#"Kimal Assault Rifle" 2
+
+		"Iogel02-04 Thruster"
+		"Iogel02-04 Steering"
+		"Silr-02 Hyperdrive"
+		
+		
+	engine 0 78.5
+		zoom 1
+		angle 0
+		under
+	"reverse engine" 22.5 -7
+		zoom 1
+		angle 10
+		under
+	"reverse engine" -22.5 -7
+		zoom 1
+		angle -10
+		under
+	gun -21.5 -6.5
+	gun 21.5 -6.5
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 15
+	description "Geeva luxury transport."
+		
 ship "Kinika"
 	sprite "ship/geeva kinika"
+	thumbnail "thumbnail/geeva kinika thumb"
 	attributes
 		category "Light Warship"
 		"cost" 1600000
@@ -131,6 +192,7 @@ ship "Kinika"
 	
 ship "Kimali"
 	sprite "ship/geeva kimali"
+	thumbnail "thumbnail/geeva kimali thumb"
 	attributes
 		category "Heavy Warship"
 		"cost" 21000000
@@ -217,6 +279,72 @@ ship "Kimali"
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
 	description "Geeva Heavy Warship."
+
+ship "Kuiseire"
+	sprite "ship/geeva kuiseire"
+	thumbnail "thumbnail/geeva kuiseire thumb"
+	attributes
+		category "Heavy Freighter"
+		"cost" 16000000
+		"shields" 37700
+		"hull" 10800
+		"required crew" 10
+		"bunks" 15
+		"mass" 650
+		"drag" 16.5
+		"heat dissipation" .6
+		"fuel capacity" 800
+		"cargo space" 600
+		"outfit space" 420
+		"weapon capacity" 150
+		"engine capacity" 250
+		weapon
+			"blast radius" 300
+			"shield damage" 3000
+			"hull damage" 1500
+			"hit force" 4500
+	outfits
+		"Rilar-06 Anti-Missile" 2
+		"Noilcor-06 Blaster Turret" 2
+		
+		"Turlo-06 Reactor"
+		"Siltr-05 Batteries" 1
+		"Palir-06 Shield Generator" 3
+		"Kielir-06 Jammer"
+		"Cirpa-06 Cooling Device" 2
+		"Welt-03 Ramscoop"
+
+		"Hidden Sentry" 3
+		"Kimal Assault Rifle" 9
+		"ZK-20 Portable Railgun" 1
+		
+		"Iogel04-04 Thruster"
+		"Iogel04-04 Steering"
+		"Silr-02 Hyperdrive"
+		
+	turret 0 -85.5 "Noilcor-06 Blaster Turret"
+	turret 0 -30.5 "Noilcor-06 Blaster Turret"
+	turret -44.5 83.5
+	turret 44.5 83.5
+	engine 0 143
+		zoom 1.5
+		angle 0
+		under
+	engine 31.5 144
+		zoom 1
+		angle 0
+		under
+	engine -31.5 144
+		zoom 1
+		angle 0
+		under
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "Geeva Heavy Freighter, lightly armed and most would operate deep within Geeva territory. Often relying heavily on escorts if they have to fight."
 
 #
 	
