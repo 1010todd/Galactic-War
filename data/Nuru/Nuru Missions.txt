@@ -303,7 +303,7 @@ mission "Nuru: Outfit License"
 			`Upon exiting your ship a Nuru come to meet you "We're very grateful for outfits you have delivered us. As agreed we will allow you to purchase some of our outfits. We hope you will keep delivering us new outsider technologies." your translator plays a quick, sharp sound similar to a violin, you're not sure what it means but according to the Nuru, you should be able to purchase most of their outfits now.`
 				accept
 	on accept
-		set "License: Nuru Outfit"
+		set "license: Nuru Outfit"
 		
 mission "Nuru: Ship License"
 	landing
@@ -318,7 +318,7 @@ mission "Nuru: Ship License"
 			`Upon exiting your ship a Nuru come to meet you "We're very grateful for outfits you have delivered us. As agreed we will allow you to purchase some of our ship. We hope you will keep delivering us new outsider technologies." your translator plays a quick, sharp sound similar to a violin, you're not sure what it means but according to the Nuru, you should be able to purchase most of their ships now.`
 				accept
 	on accept
-		set "License: Nuru Ship"
+		set "license: Nuru Ship"
 			
 "landing message" `You're not permitted to land here.`
 	"planet/gw-remanda"
