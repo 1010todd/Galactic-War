@@ -21,3 +21,21 @@ mission "Hot fix 26/12/2021"
 	on offer
 		fail "Panmur Kaul Warning Repeat 2"
 		fail "Panmur Kaul Warning Repeat 1"
+
+mission "Nuru License outfit fix"
+	landing
+	invisible
+	to offer
+		has "License: Nuru Outfit"
+	on offer
+		set "license: Nuru Outfit"
+		clear "License: Nuru Outfit"
+
+mission "Nuru License ship fix"
+	landing
+	invisible
+	to offer
+		has "License: Nuru Ship"
+	on offer
+		set "license: Nuru Ship"
+		clear "License: Nuru Ship" 
