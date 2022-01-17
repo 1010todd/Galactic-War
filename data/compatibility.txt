@@ -6,7 +6,8 @@ mission "GW Version: v0.1.4-A"
 	landing
 	invisible
 	on offer
-		set "GW Version: v0.1.4-A"
+		set "GW Version: v0.1.4-B"
+		clear "GW Version: v0.1.4-A"
 		clear "GW Version: v0.1.3-E"
 		clear "GW Version: v0.1.3-C"
 		#clear "GW Version: v0.1.3-A"
