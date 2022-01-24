@@ -36,7 +36,13 @@ To download the lastest (development) version, press the green [code] button and
 
 To install you can extract the zip in your plugin folder.
 
-Lite version:
+High-DPI plugin for Galactic War:
+
+For 4k monitors or if ships look blurry, you can download this plugin for sprites with higher resolution;
+https://github.com/1010todd/Galactic-War-hi-dpi
+
+Lite version: (Outdated)
+
 This version will have less animation frames and exclude @2x images to reduce memory required to load the plugin. Use this if you're using low end machines or 32 bit machines.
 https://mega.nz/file/8QpAAYhJ#H2vVusIAPKdlMZlzVNwTfTwzpV6tYQBsvZDXDdNhB54
 
