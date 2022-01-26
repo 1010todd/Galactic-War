@@ -84,7 +84,7 @@ outfit "Sesmal Torpedo" #T70-E
 		"hit force" 34
 		"missile strength" 65
 		"ion damage" 4
-	description ""
+	description "Wallagi large ion torpedo"
 	
 outfit "Lemtar Turret" #P50-B 
 	category "Turrets"
@@ -112,7 +112,7 @@ outfit "Lemtar Turret" #P50-B
 		"shield damage" 380
 		"hull damage" 140
 		"ion damage" .5
-	description ""
+	description "Wallagi turret"
 	
 outfit "Marley Turret" #P50-B 
 	category "Turrets"
@@ -140,7 +140,7 @@ outfit "Marley Turret" #P50-B
 		"hull damage" 300
 		"piercing" .3
 		"hit force" 10
-	description ""
+	description "Wallagi turret"
 	
 outfit "Markla Turret" #S20-F 
 	category "Turrets"
@@ -167,7 +167,7 @@ outfit "Markla Turret" #S20-F
 		"ion damage" .6
 		"submunition" "markla flak" 3
 		"split range" 8
-	description ""
+	description "Wallagi flak turret"
 	
 outfit "markla flak"
 	weapon
@@ -550,7 +550,7 @@ outfit "Cilhr Anti-missile" #sach #Primary AM
 	"weapon capacity" -12
 	"turret mounts" -1
 	weapon
-		"fire effect" "particle impact"
+		"fire effect" "wallagi am fire"
 		sound "gw energy1"
 		"anti-missile" 60
 		"turret turn" 14
@@ -570,7 +570,7 @@ outfit "Eilgur Anti-missile" #For later use
 	"weapon capacity" -21
 	"turret mounts" -1
 	weapon
-		"fire effect" "particle impact"
+		"fire effect" "wallagi am fire"
 		sound "gw energy1"
 		"anti-missile" 90
 		"turret turn" 14
@@ -590,7 +590,7 @@ outfit "Jestar Anti-missile"
 	"weapon capacity" -80
 	"turret mounts" -1
 	weapon
-		"fire effect" "particle impact"
+		"fire effect" "wallagi am fire"
 		sound "gw energy2"
 		"anti-missile" 125
 		"turret turn" 18
@@ -611,6 +611,7 @@ outfit "Kemper Missile Defense"
 	"turret mounts" -1
 	weapon
 		sound "minelayer"
+		"die effect" "walagi kemper hit"
 		"anti-missile" 100
 		"turret turn" 20
 		"velocity" 1100
@@ -620,6 +621,18 @@ outfit "Kemper Missile Defense"
 		"firing heat" 12
 	description "Wallagi long range anti missile system."
 	
+effect "wallagi am fire"
+	sprite "effect/donko mes fire"
+		"frame rate" 20
+		"no repeat"
+	lifetime 8
+
+effect "walagi kemper hit"
+	sprite "effect/vokka impact"
+		"frame rate" 30
+		"no repeat"
+	lifetime 5
+
 #===========================================================Systems
 
 outfit "Ulyukar Heat Control"
@@ -633,7 +646,6 @@ outfit "Ulyukar Heat Control"
 	"cooling energy" 8
 	"heat protection" 2
 	"description" "Wallagi small heat controlling system. Aside from ability to increase cooling as it gets hotter, it also provides some protection against external heat sources from enemy fire."
-
 
 outfit "Asenil Shield Generator" #Wasen
 	category "Systems"
