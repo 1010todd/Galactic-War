@@ -156,9 +156,10 @@ outfit "Arziao Torpedo Launcher"
 		"homing" 4
 		"optical tracking" .9
 		"shield damage" 220
-		"hull damage" 380
+		"hull damage" 450
 		"hit force" 120
-		"missile strength" 30
+		"piercing" .2
+		"missile strength" 50
 	description "Akralva small torpedo launcher."
 
 outfit "Arziao Torpedo Turret"
@@ -194,9 +195,10 @@ outfit "Arziao Torpedo Turret"
 		"homing" 4
 		"optical tracking" .9
 		"shield damage" 220
-		"hull damage" 380
+		"hull damage" 450
 		"hit force" 120
-		"missile strength" 30
+		"piercing" .2
+		"missile strength" 50
 	description "Akralva small torpedo launcher turret for defensive role."
 
 #===================================Power
