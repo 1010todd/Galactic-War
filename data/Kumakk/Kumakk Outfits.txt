@@ -270,15 +270,15 @@ outfit "ro'ohrek large"
 outfit "Loku'nol Missile"
 	category "Ammunition"
 	cost 500
-	thumbnail "outfit/kroom golkar torpedo"
+	thumbnail "outfit/kumakk lokunol missile"
 	"mass" .4
 	"loku'nol capacity" -1
-	description "Loku'nol Torpedo"
+	description "Kumakk Loku'nol Missile"
 
 outfit "Loku'nol Missile Storage"
 	category "Ammunition"
 	cost 4500
-	thumbnail "outfit/kroom golkar torpedo"
+	thumbnail "outfit/kumakk lokunol storage"
 	"mass" 5
 	"loku'nol capacity" 20
 	description "Loku'nol Missile Storage."
@@ -286,20 +286,22 @@ outfit "Loku'nol Missile Storage"
 outfit "Loku'nol Missile Launcher"
 	category "Secondary Weapons"
 	cost 380000
-	thumbnail "outfit/kroom golkar launcher"
+	thumbnail "outfit/kumakk lokunol launcher"
 	"mass" 10
 	"outfit space" -13
 	"weapon capacity" -13
 	"gun ports" -1
 	"loku'nol capacity" 20
 	weapon
-		sprite "projectile/golkar"
+		sprite "projectile/kumakk lokunol"
+			"frame rate" 15
+			"no repeat"
 		sound "zaikor"
 		ammo "Loku'nol Missile"
 		icon "icon/galkor"
 		"fire effect" "meteor fire"
 		"die effect" "missile death"
-		"live effect" "afterburner" 50
+		"live effect" "lokunol flare" 1
 		"hit effect" "medium explosion"
 		"inaccuracy" .2
 		"velocity" 13
@@ -311,10 +313,10 @@ outfit "Loku'nol Missile Launcher"
 		"drag" .04
 		"turn" 3
 		"homing" 4
-		"radar tracking" .8
-		"shield damage" 320
+		"radar tracking" .9
+		"shield damage" 380
 		"hull damage" 80
-		"hit force" 80
+		"hit force" 40
 		"disruption damage" 80
 		"firing disruption" 5
 		"missile strength" 56
@@ -323,14 +325,16 @@ outfit "Loku'nol Missile Launcher"
 outfit "Loku'nol Missile Turret"
 	category "Secondary Weapons"
 	cost 386000
-	thumbnail "outfit/kroom golkar turret"
+	thumbnail "outfit/kumakk lokunol turret"
 	"mass" 22
 	"outfit space" -30
 	"weapon capacity" -30
 	"turret mounts" -1
-	"loku'nol capacity" 20
+	"loku'nol capacity" 40
 	weapon
-		sprite "projectile/golkar"
+		sprite "projectile/kumakk lokunol"
+			"frame rate" 15
+			"no repeat"
 		sound "zaikor"
 		ammo "Loku'nol Missile"
 		icon "icon/galkor"
@@ -339,7 +343,7 @@ outfit "Loku'nol Missile Turret"
 		"turret turn" 1.8
 		"fire effect" "meteor fire"
 		"die effect" "missile death"
-		"live effect" "afterburner" 50
+		"live effect" "lokunol flare" 1
 		"hit effect" "medium explosion"
 		"inaccuracy" .2
 		"velocity" 13
@@ -351,14 +355,21 @@ outfit "Loku'nol Missile Turret"
 		"drag" .04
 		"turn" 3
 		"homing" 4
-		"radar tracking" .8
-		"shield damage" 320
+		"radar tracking" .9
+		"shield damage" 380
 		"hull damage" 80
-		"hit force" 80
+		"hit force" 40
 		"disruption damage" 80
 		"firing disruption" 5
 		"missile strength" 56
-	description "Kumakk missile"
+	description "Kumakk shield disruption missiles."
+
+effect "lokunol flare"
+	sprite "effect/kumakk lokunol flare"
+		"frame rate" 10
+		"no repeat"
+	"velocity scale" .95
+	"lifetime" 14
 
 outfit "Ko'lorke Missile Shield"
 	category "Turrets"
