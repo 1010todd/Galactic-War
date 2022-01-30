@@ -162,7 +162,7 @@ outfit "Arziao Torpedo Launcher"
 		icon "icon/galkor"
 		"fire effect" "arziao fire"
 		"die effect" "missile death"
-		"live effect" "arziao flare" 2
+		"live effect" "arziao flare" 450
 		"hit effect" "medium explosion"
 		"inaccuracy" .1
 		"velocity" 10
@@ -201,7 +201,7 @@ outfit "Arziao Torpedo Turret"
 		"turret turn" 3.2
 		"fire effect" "arziao fire"
 		"die effect" "missile death"
-		"live effect" "arziao flare" 2
+		"live effect" "arziao flare" 450
 		"hit effect" "medium explosion"
 		"inaccuracy" .1
 		"velocity" 10

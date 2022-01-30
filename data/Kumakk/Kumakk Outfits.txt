@@ -301,7 +301,7 @@ outfit "Loku'nol Missile Launcher"
 		icon "icon/galkor"
 		"fire effect" "meteor fire"
 		"die effect" "missile death"
-		"live effect" "lokunol flare" 1
+		"live effect" "lokunol flare" 500
 		"hit effect" "medium explosion"
 		"inaccuracy" .2
 		"velocity" 13
@@ -343,7 +343,7 @@ outfit "Loku'nol Missile Turret"
 		"turret turn" 1.8
 		"fire effect" "meteor fire"
 		"die effect" "missile death"
-		"live effect" "lokunol flare" 1
+		"live effect" "lokunol flare" 500
 		"hit effect" "medium explosion"
 		"inaccuracy" .2
 		"velocity" 13
