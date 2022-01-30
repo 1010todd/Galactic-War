@@ -117,6 +117,26 @@ outfit "Vekrevira Turret"
 		"slowing damage" 10
 	description "Akralva laser cannon turret"
 
+effect "arziao fire"
+	sprite "effect/arziao fire"
+		"no repeat"
+		"frame rate" 12
+	"lifetime" 12
+	"random angle" 1
+	"random lifetime" 1
+	"random velocity" 5
+	"velocity scale" 1.2
+
+effect "arziao flare"
+	sprite "effect/arziao flare"
+		"no repeat"
+		"frame rate" 1
+	"lifetime" 6
+	"random lifetime" 1
+	"random velocity" 1
+	"random angle" 2
+	"velocity scale" .95
+
 outfit "Arziao Torpedo"
 	category "Ammunition"
 	cost 3000
@@ -140,9 +160,9 @@ outfit "Arziao Torpedo Launcher"
 		sound "nuke"
 		ammo "Arziao Torpedo"
 		icon "icon/galkor"
-		"fire effect" "meteor fire"
+		"fire effect" "arziao fire"
 		"die effect" "missile death"
-		"live effect" "afterburner" 50
+		"live effect" "arziao flare" 2
 		"hit effect" "medium explosion"
 		"inaccuracy" .1
 		"velocity" 10
@@ -177,11 +197,11 @@ outfit "Arziao Torpedo Turret"
 		ammo "Arziao Torpedo"
 		icon "icon/galkor"
 		"hardpoint sprite" "hardpoint/akralva arziao turret hp"
-		"hardpoint offset" 6.
+		"hardpoint offset" 18.
 		"turret turn" 3.2
-		"fire effect" "meteor fire"
+		"fire effect" "arziao fire"
 		"die effect" "missile death"
-		"live effect" "afterburner" 50
+		"live effect" "arziao flare" 2
 		"hit effect" "medium explosion"
 		"inaccuracy" .1
 		"velocity" 10
