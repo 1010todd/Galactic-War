@@ -26,7 +26,7 @@ outfit "Vretlure Cannon"
 		"hit force" 90
 		"shield damage" 310
 		"hull damage" 295
-	description "Akralva cannon."
+	description "A large and rather crude-looking Akralva cannon found on nearly every Akralva warships."
 
 effect "vretlure a"
 	sprite "effect/vretlure effect"
@@ -144,6 +144,15 @@ outfit "Arziao Torpedo"
 	"mass" .2
 	"arziao capacity" -1
 	description "Akralva Arziao Torpedo"
+
+outfit "Arziao Torpedo Storage"
+	category "Ammunition"
+	cost 43000
+	thumbnail "outfit/akralva arziao torpedo"
+	"mass" 6
+	ammo "Arziao Torpedo"
+	"arziao capacity" 28
+	description "Akralva Arziao Torpedo Storage"
 
 outfit "Arziao Torpedo Launcher"
 	category "Secondary Weapons"
