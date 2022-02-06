@@ -107,6 +107,8 @@ mission "First Contact: Uoorn"
 mission "Uoorn: Uoorn-Gargoor'an battle (Kalloo'anuu)"
 	landing
 	invisible
+	to offer 
+		has "First Contact: Uoorn: offered"
 	npc
 		government "Uoorn"
 		personality heroic staying uninterested
@@ -124,6 +126,7 @@ mission "Uoorn: Ask about Gargoor'an"
 	landing
 	to offer
 		has "Seen Uoorn fight Gargoor'an"
+		has "First Contact: Uoorn: offered"
 	source
 		government "Uoorn"
 	on offer
