@@ -134296,7 +134296,6 @@ system Caqfurea
 	government Ceasrilis
 	link Ayrean
 	link Ghenre
-	link "SE-1 Jumpgate"
 	link Urekeia
 	asteroids "medium rock" 4 1.7374
 	asteroids "large rock" 5 1.6422
@@ -134345,6 +134344,10 @@ system Caqfurea
 		sprite planet/rock14-b
 		distance 4209
 		period 84020.455
+	object "SE-1 Jumpgate"
+		sprite planet/wormhole
+		distance 6952.0611
+		offset 180
 
 system Seaiai
 	pos -52466.6 -52951.755
