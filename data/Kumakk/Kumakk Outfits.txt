@@ -23,7 +23,7 @@ outfit "Ordakko Gun"
 		"shield damage" 68
 		"hull damage" 120
 		"piercing" .1
-	description `A combination of laser and particle tech, this weapon accelerates viotile sub-atomic particles to practically lightspeed partially piercing through shields and disintregate armours with ease. Due to difficulty controlling these short-lived particles the weapon fires in "shot" instead of a constant beam.`
+	description `A combination of laser and particle tech, this weapon accelerates volatile sub-atomic particles to practically lightspeed partially piercing through shields and disintregate armours with ease. Due to difficulty controlling these short-lived particles the weapon fires in "shot" instead of a constant beam.`
 
 effect "ordakko laser"
 	sprite "projectile/ordakko laser"
@@ -533,6 +533,19 @@ outfit "Ekken'lar Capacitor"
 	"cooling energy" -14
 	"energy consumption" 2
 	description "Kumakk battery"
+
+#==================================System
+
+outfit "Kol Ar Void Skipper"
+	category "Systems"
+	cost 2500000
+	thumbnail "outfit/jump drive"
+	"mass" 34
+	"outfit space" -34
+	"jump drive" 1
+	"jump fuel" 250
+	"energy consumption" 1
+	description `Kumakk experimental Jump Drive based on technology shared by Nuru.`
 
 #=========================Engines==============================
 
