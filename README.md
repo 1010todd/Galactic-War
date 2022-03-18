@@ -9,18 +9,19 @@ Some stars use new sprites that is was introduced in continous. Due to the syste
 ![GWcap2](https://user-images.githubusercontent.com/19187937/152830096-35d610a9-1fde-46a0-b4b8-694035cab411.PNG)
 
 ## About
-This is a massive content mod about a war in another galaxy.
-While no story content yet it's currently consist of:
+This is a massive content mod about a war in another galaxy. While no storyline exist yet there's a large galaxy to explore filled with various aliens with different advancement and specializations.
 
-1 Accessible galaxy.
+Currently the plugin consist of:
 
-26+ Races with their own ships and outfits. Some with unique mechanic such as territory changes or even hunt you down depending on your interactions.
+* 1 Accessible galaxy.
 
-Over 100 Ships,
+* 26+ Races with their own ships and outfits. Some with unique mechanic such as territory changes or even hunt you down depending on your interactions.
 
-Over 600 Outfits,
+* Over 100 Ships,
 
-Over 1500 Systems.
+* Over 600 Outfits,
+
+* Over 1500 Systems.
 
 ## Accessing the Contents
 
