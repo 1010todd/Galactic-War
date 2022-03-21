@@ -109,12 +109,12 @@ mission "Uoorn: Uoorn-Gargoor'an battle (Kalloo'anuu)"
 	invisible
 	to offer 
 		has "First Contact: Uoorn: offered"
-	npc
+	npc save
 		government "Uoorn"
 		personality heroic staying uninterested
 		system "Kalloo'anuu"
 		fleet "Uoorn Defense" 5
-	npc
+	npc kill
 		government "Gargoor'an"
 		personality heroic staying uninterested
 		system "Kalloo'anuu"
