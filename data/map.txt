@@ -94348,8 +94348,8 @@ system "Se kog ii"
 
 system "Sector Dels"
 	pos -51538.378 -55289.033
-	government "Dels Kaote"
-	link Vobeelee
+	government "Uninhabited"
+	#link Vobeelee
 	asteroids "small rock" 1 4.0086
 	asteroids "medium rock" 2 2.0196
 	asteroids "large rock" 3 2.1726
@@ -107989,7 +107989,7 @@ system Vobeelee
 	link Deloco
 	link Heukao
 	link Koedee
-	link "Sector Dels"
+	#link "Sector Dels"
 	link Veukeeo
 	asteroids "small rock" 3 3.3852
 	asteroids "medium rock" 5 2.184
