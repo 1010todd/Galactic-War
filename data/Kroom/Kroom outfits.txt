@@ -210,6 +210,13 @@ outfit "Golkar Torpedo Storage"
 	"golkar capacity" 12
 	description "Golkar Torpedo Storage."
 
+effect "golkar trail"
+	sprite "effect/kroom golkar trail"
+		"frame rate" 15
+		"no repeat"
+	"lifetime" 20
+	"velocity scale" 0
+
 outfit "Golkar Torpedo Launcher"
 	category "Secondary Weapons"
 	cost 160000
@@ -228,6 +235,7 @@ outfit "Golkar Torpedo Launcher"
 		"fire effect" "meteor fire"
 		"die effect" "missile death"
 		"hit effect" "medium explosion"
+		"live effect" "golkar trail" 200
 		"inaccuracy" .2
 		"velocity" 13
 		"lifetime" 540
@@ -269,6 +277,7 @@ outfit "Golkar Torpedo Turret"
 		"fire effect" "meteor fire"
 		"die effect" "missile death"
 		"hit effect" "medium explosion"
+		"live effect" "golkar trail" 200
 		"inaccuracy" .2
 		"velocity" 13
 		"lifetime" 540
