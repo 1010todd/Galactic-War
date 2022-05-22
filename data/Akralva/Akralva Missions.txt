@@ -1,0 +1,37 @@
+#To make sure the player met both Akralva and these races first before being able to gain rep.
+
+mission "Akralva rep unlock (Kumakk)"
+	to offer
+		has "GW: seen Akralva-Kumakk conflict"
+	on offer
+		event "Akralva rep unlock (Kumakk)"
+		fail
+
+event "Akralva rep unlock (Kumakk)"
+	government Akralva
+		"attitude toward"
+			"Kumakk" -.1
+		
+mission "Akralva rep unlock (Ceasrilis)"
+	to offer
+		has "GW: seen Akralva-Ceasrilis conflict"
+	on offer
+		event "Akralva rep unlock (Ceasrilis)"
+		fail
+
+event "Akralva rep unlock (Ceasrilis)"
+	government Akralva
+		"attitude toward"
+			"Ceasrilis" -.1
+			
+mission "Akralva rep unlock (Gargoor'an)"
+	to offer
+		has "GW: seen Akralva-Gargoor'an conflict"
+	on offer
+		event "Akralva rep unlock (Gargoor'an)"
+		fail
+
+event "Akralva rep unlock (Gargoor'an)"
+	government Akralva
+		"attitude toward"
+			"Gargoor'an" -.1

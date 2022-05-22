@@ -67,6 +67,75 @@ mission "GW: entered the Galaxy 1"
 		set "GW: entered Galaxy 1"
 		fail
 
+mission "GW: seen Akralva-Kumakk conflict"
+	invisible
+	landing
+	on enter "Vahrrah'ol"
+		set "GW: seen Akralva-Kumakk conflict"
+		fail
+	on enter "Ko'aosor"
+		set "GW: seen Akralva-Kumakk conflict"
+		fail
+	on enter "Ko'shoukol"
+		set "GW: seen Akralva-Kumakk conflict"
+		fail
+
+mission "GW: seen Akralva-Gargoor'an conflict"
+	invisible
+	landing
+	on enter "Mayexyuk"
+		set "GW: seen Akralva-Gargoor'an conflict"
+		fail
+	on enter "Myshocua"
+		set "GW: seen Akralva-Gargoor'an conflict"
+		fail
+	on enter "Voxulas"
+		set "GW: seen Akralva-Gargoor'an conflict"
+		fail
+	on enter "Siahcox"
+		set "GW: seen Akralva-Gargoor'an conflict"
+		fail
+	on enter "Vuaxiski"
+		set "GW: seen Akralva-Gargoor'an conflict"
+		fail
+	on enter "Mehxice"
+		set "GW: seen Akralva-Gargoor'an conflict"
+		fail
+
+mission "GW: seen Akralva-Ceasrilis conflict"
+	invisible
+	landing
+	on enter "Coamei Aesir"
+		set "GW: seen Akralva-Ceasrilis conflict"
+		fail
+	on enter "Urekeia"
+		set "GW: seen Akralva-Ceasrilis conflict"
+		fail
+	on enter "Seaiai"
+		set "GW: seen Akralva-Ceasrilis conflict"
+		fail
+	on enter "Ceaikea"
+		set "GW: seen Akralva-Ceasrilis conflict"
+		fail
+	on enter "Kansi'al"
+		set "GW: seen Akralva-Ceasrilis conflict"
+		fail
+	on enter "Issneva"
+		set "GW: seen Akralva-Ceasrilis conflict"
+		fail
+	on enter "Ghenre"
+		set "GW: seen Akralva-Ceasrilis conflict"
+		fail
+	on enter "Caqfurea"
+		set "GW: seen Akralva-Ceasrilis conflict"
+		fail
+	on enter "Myrilai"
+		set "GW: seen Akralva-Ceasrilis conflict"
+		fail
+	on enter "Sinhrea"
+		set "GW: seen Akralva-Ceasrilis conflict"
+		fail
+		
 #Personal note: mineable list: Aluminum Copper Gold Iron Lead Neodymium Platinum Silicon Silver Titanium Tungsten Uranium Yottrite Nurbote
 
 #Choice unlocking is going to be extremely tedious without choice hiding feature, I'll add more stuff when that's in.
