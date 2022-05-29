@@ -66,6 +66,16 @@ mission "GW: entered the Galaxy 1"
 	on enter "Ursekii"
 		set "GW: entered Galaxy 1"
 		fail
+		
+mission "GW: found Akralva wormhole"
+	invisible
+	landing
+	on enter "Xurceax"
+		set "GW: found Akralva wormhole"
+		fail
+	on enter "Xuarickesi"
+		set "GW: found Akralva wormhole"
+		fail
 
 mission "GW: seen Akralva-Kumakk conflict"
 	invisible

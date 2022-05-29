@@ -78,6 +78,18 @@ ship "Kasoulek"
 	"final explode" "final explosion small"
 	description "A small Kumakk fighter for asteroid mining, often as training for young pilots or recreation rather than required as a job."
 
+ship "Kasoulek" "Kasoulek (Explorer)"
+	outfits
+		"Ordakko Gun" 2
+
+		"Fuel Pod" 4
+		"Sol-6ii Generator"
+		"Cu'nosu Shield Generator"
+
+		"Cokor Thruster"
+		"Cokor Steering"
+		"Kol Ar Void Skipper"
+
 ship "Oulkorke"
 	sprite "ship/kumakk oulkorke"
 	thumbnail "thumbnail/kumakk oulkorke thumb"
@@ -326,3 +338,19 @@ ship "Akolucor" "Akolucor (Ro'ohrek)"
 		"Kolun'a Steering"
 		"Hyperdrive"
 		
+ship "Akolucor" "Akolucor (Explorer)"
+	outfits
+		"Loku'nol Missile Launcher" 4
+		"Loku'nol Missile" 80
+		"Ordakko Turret" 4
+		"Ku'alno Turret" 4
+		"Ko'lorke Missile Shield" 2
+
+		"Fuel Pod" 2
+		"Vuk-9ix Generator"
+		"No'uro Shield Generator"
+		"Ekken'lar Capacitor"
+
+		"Mocoro Thruster"
+		"Mocoro Steering"
+		"Kol Ar Void Skipper"

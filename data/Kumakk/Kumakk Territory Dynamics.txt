@@ -4,6 +4,7 @@ mission "Akralva-Kumakk: Ko'ausor Invaded Generic 1"
 	repeat 5
 	to offer
 		random < 30 # 30% chance
+		not "Akralva-Kumakk: Ko'ausor Invaded Generic 1: active"
 	npc kill
 		government "Kumakk"
 		personality
@@ -19,6 +20,7 @@ mission "Akralva-Kumakk: Ko'shoukol Invaded Generic 1"
 	repeat 5
 	to offer
 		random < 30 # 30% chance
+		not "Akralva-Kumakk: Ko'shoukol Invaded Generic 1: active"
 	npc kill
 		government "Kumakk"
 		personality
@@ -48,7 +50,7 @@ mission "Akralva-Kumakk: Kumakk Reinforce Boarder"
 		or # If one of these is true.
 			"Akralva-Kumakk: Ko'ausor Invaded Generic 1: done" == 5
 			"Akralva-Kumakk: Ko'shoukol Invaded Generic 1: done" == 5
-		not "event: Akralva-Kumakk: Kumakk Boarder invaded reset timer"
+		#not "event: Akralva-Kumakk: Kumakk Boarder invaded reset timer"
 	on offer
 		event "Akralva-Kumakk: Kumakk Boarder Reinforcement"
 
