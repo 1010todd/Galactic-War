@@ -90,6 +90,8 @@ hazard "GW Cloud of Decay"
 	"range" 100000
 	weapon
 		"relative heat damage" -0.35
-		"relative shield damage" .0001
+		"relative shield damage" .001
+		"relative hull damage" .027
 		"hull damage" 1
-		"piercing" .07
+		"piercing" .35
+		"target effect" "jump drive"
