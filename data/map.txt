@@ -123648,18 +123648,6 @@ system Harkezil
 			distance 132
 			period 57.327304
 	object
-		sprite planet/trochzempt_construction
-		distance 4003
-		period 77928.268
-		object
-			sprite planet/tethys-b
-			distance 2540
-			period 7883.9693
-		object
-			sprite planet/dust1
-			distance 2642
-			period 4223.5516
-	object
 		sprite planet/gas8-b
 		distance 8019
 		period 220951.5
@@ -123667,10 +123655,6 @@ system Harkezil
 			sprite planet/station3kd
 			distance 358
 			period 131.97658
-		object
-			sprite planet/sheragi_postverta
-			distance 514
-			period 304.97364
 
 system Sikarke
 	pos -52586.567 -53179.466
@@ -126487,10 +126471,6 @@ system Reahivas
 			sprite planet/tethys-b
 			distance 395
 			period 483.49278
-	object
-		sprite planet/saska
-		distance 3999
-		period 11900.581
 
 planet Nehraive
 	landscape land/fields6
@@ -127649,25 +127629,13 @@ system Myrilai
 			distance 227
 			period 129.2824
 	object
-		sprite planet/trochzempt_construction
-		distance 3870
-		period 7080.8848
-	object
 		sprite planet/gas2-b
 		distance 7541
 		period 19260.364
-		object
-			sprite planet/station3
-			distance 317
-			period 175.53652
 	object
 		sprite planet/gas17-b
 		distance 9963
 		period 29248.68
-		object
-			sprite planet/station13
-			distance 260
-			period 130.3883
 	object
 		sprite planet/gas1
 		distance 19754
@@ -129597,10 +129565,6 @@ system Vaukeare
 			sprite planet/tethys-b
 			distance 395
 			period 483.49278
-	object
-		sprite planet/saska
-		distance 3999
-		period 11900.581
 
 planet Seaceur
 	landscape land/sky8
@@ -138027,10 +137991,6 @@ system Urzekrul
 		sprite planet/gas2-b
 		distance 2695
 		period 5181.7254
-		object
-			sprite planet/station1k
-			distance 288
-			period 184.75209
 	object
 		sprite planet/browndwarf-y-rouge
 		distance 4181
@@ -138039,18 +137999,6 @@ system Urzekrul
 			sprite planet/luna-b
 			distance 304
 			period 200.35999
-	object
-		sprite planet/trochzempt_construction
-		distance 13286
-		period 56718.875
-		object
-			sprite planet/station2kd
-			distance 2583
-			period 3435.613
-		object
-			sprite planet/rock0
-			distance 2735
-			period 5406.7541
 	object
 		sprite planet/gas10-hot
 		distance 24298
@@ -139518,6 +139466,9 @@ system "Sector SE"
 		sprite planet/dust0
 		distance 4280
 		period 1666.6959
+	object "Omnis-GW: Ceasrilis Wormhole"
+		sprite sprite/wisp_green
+		distance 4685.7284
 
 system Mesiaai
 	pos -52224.6 -52807.866
@@ -139616,10 +139567,6 @@ system Gharil
 			sprite planet/dust1-b
 			distance 310
 			period 169.75443
-		object
-			sprite planet/UPS1
-			distance 412
-			period 395.60125
 	object
 		sprite planet/gas6
 		distance 2211
@@ -139632,14 +139579,6 @@ system Gharil
 		sprite planet/gas15-b
 		distance 3423
 		period 7417.3126
-	object
-		sprite planet/saska
-		distance 9511
-		period 34353.857
-		object
-			sprite planet/station2ver8
-			distance 581
-			period 529.37669
 	object
 		sprite planet/rock3-b
 		distance 21323
@@ -142082,10 +142021,6 @@ system Axukral
 		sprite planet/gas0-hot
 		distance 2330
 		period 4785.9264
-		object
-			sprite planet/station2ver8
-			distance 213
-			period 117.5087
 	object
 		sprite planet/gas10
 		distance 3142
@@ -142094,18 +142029,6 @@ system Axukral
 			sprite planet/europa
 			distance 223
 			period 157.53212
-	object
-		sprite planet/trochzempt_complete
-		distance 10411
-		period 45203.369
-		object
-			sprite planet/station5
-			distance 2592
-			period 2571.1347
-		object
-			sprite planet/station1adm
-			distance 2812
-			period 1294.4059
 	object
 		sprite planet/gas1
 		distance 21229
