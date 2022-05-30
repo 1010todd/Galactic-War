@@ -9,23 +9,25 @@ hazard "GW Pulsar"
 		"hull damage" 30
 		
 hazard "GW Star Crackle"
-	"period" 30
+	"period" 10
 	"duration" 15 50
-	"strength" .1 1
+	"strength" .75 2
 	"range" 12000
-	"environmental effect" "disruption spark" 10
+	"environmental effect" "disruption spark" 30
 	weapon
 		"relative heat damage" 0.00035
 		#"disruption damage" 30
 		"relative shield damage" .004
 		"relative hull damage" .0015
+		"hull damage" .1
+		"shield damage" .4
 		
 hazard "GW Star Crackle Residue"
-	"period" 30
+	"period" 10
 	"duration" 10 40
 	"strength" .025 .5
 	"range" 12000
-	"environmental effect" "disruption spark" 5
+	"environmental effect" "disruption spark" 12
 	weapon
 		"relative heat damage" 0.00035
 		#"disruption damage" 15
@@ -80,3 +82,14 @@ outfit "GW Star Crackle Spark"
 		"inaccuracy" 360
 		"shield damage" 200
 		"hull damage" 80
+		
+hazard "GW Cloud of Decay"
+	"period" 1
+	"duration" 1
+	"strength" 1
+	"range" 1000000
+	weapon
+		"relative heat damage" -0.35
+		"relative shield damage" .0001
+		"hull damage" 1
+		"piercing" .07

@@ -137640,18 +137640,6 @@ system Veahlruz
 		sprite planet/gas2-hot
 		distance 4936
 		period 11074.524
-		object
-			sprite planet/station17
-			distance 229
-			period 59.389934
-	object
-		sprite planet/trochzempt_construction
-		distance 8954
-		period 27057.52
-		object
-			sprite planet/luna
-			distance 2606
-			period 5028.7754
 
 planet Vaxulrix
 	landscape land/canyon03
@@ -138380,7 +138368,7 @@ system "Vulxi Eis"
 	minables iron 1 1.8140109
 	minables tungsten 1 1.8302219
 	minables copper 1 3.0346992
-	hazard "GW Star Crackle" 30
+	hazard "GW Star Crackle" 1
 	object
 		sprite star/f0
 		period 60.913107
@@ -138454,7 +138442,7 @@ system Auxkhaui
 	minables tungsten 5 5.5887299
 	minables aluminum 32 6.6162542
 	minables platinum 8 5.1710371
-	hazard "GW Star Crackle Residue" 30
+	hazard "GW Star Crackle Residue" 5
 	object
 		sprite star/l-dwarf
 		distance 117.34227
@@ -138497,7 +138485,7 @@ system Myunorx
 	asteroids "large metal" 2 6.525
 	minables neodymium 3 10.839843
 	minables aluminum 5 7.085142
-	hazard "GW Star Crackle Residue" 30
+	hazard "GW Star Crackle Residue" 5
 	object
 		sprite star/a-supergiant
 		distance 387.5
