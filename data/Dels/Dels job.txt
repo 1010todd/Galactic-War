@@ -311,6 +311,7 @@ mission "Dels Dardornai Blockade Running"
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
+		"reputation: Dels Dardornai" += 2
 		"assisted dardornai" ++
 		payment
 		payment 18000
