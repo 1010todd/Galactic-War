@@ -94696,10 +94696,11 @@ system "Se kog ii"
 			period 23.3384
 
 system "Sector Dels"
-	pos -51538.378 -55289.033
+	pos -51542.684 -55280.005
 	government Uninhabited
 	habitable 2372.76
 	belt 1949
+	link "Sector SE"
 	asteroids "small rock" 1 4.0086
 	asteroids "medium rock" 2 2.0196
 	asteroids "large rock" 3 2.1726
@@ -125941,6 +125942,7 @@ system Schereana
 	government Akralva
 	habitable 2560
 	belt 1098
+	link Beaurin
 	link Chisearan
 	link Urekeia
 	link Vaheia
@@ -134920,6 +134922,7 @@ system Caqfurea
 	habitable 8.45
 	belt 1884
 	link Ayrean
+	link Beaurin
 	link Ghenre
 	link Syrilmesia
 	link Urekeia
@@ -135152,6 +135155,7 @@ system Ayrean
 	link Caqfurea
 	link Ghenre
 	link Issneva
+	link Mesiaai
 	link Nyrense
 	asteroids "small rock" 65 0.741
 	asteroids "medium rock" 62 1.248
@@ -139470,4 +139474,442 @@ planet Cusxuari
 	landscape land/bwerner4
 	description .
 	spaceport .
+
+system "Sector SE"
+	pos -51968.906 -52723.866
+	government Uninhabited
+	habitable 22579.2
+	belt 1448
+	link "Sector Dels"
+	asteroids "small rock" 16 1.66
+	asteroids "medium rock" 77 1.12
+	asteroids "large rock" 33 1.44
+	asteroids "small metal" 2 1.08
+	asteroids "medium metal" 5 1.96
+	asteroids "large metal" 1 1.64
+	minables platinum 8 2.0883379
+	minables tungsten 12 2.4361779
+	trade Clothing 221
+	trade Electronics 777
+	trade Equipment 538
+	trade Food 149
+	trade "Heavy Metals" 1228
+	trade Industrial 816
+	trade "Luxury Goods" 1101
+	trade Medical 737
+	trade Metal 489
+	trade Plastic 448
+	object
+		sprite star/a-supergiant
+		period 10
+	object
+		sprite planet/rock19-b
+		distance 576
+		period 82.285714
+	object
+		sprite planet/luna-b
+		distance 1190
+		period 244.34933
+	object
+		sprite planet/gas2
+		distance 2452
+		period 722.72224
+		object
+			sprite planet/dust7-b
+			distance 309
+			period 205.32335
+		object
+			sprite planet/station2k
+			distance 460
+			period 258.19889
+	object
+		sprite planet/dust0
+		distance 4280
+		period 1666.6959
+
+system Mesiaai
+	pos -52224.6 -52807.866
+	government Ceasrilis
+	habitable 1616.2
+	belt 1683
+	link Ayrean
+	link Chieanra
+	asteroids "small rock" 23 1.4625
+	asteroids "medium rock" 37 1.872
+	asteroids "large rock" 56 1.677
+	asteroids "small metal" 1 1.326
+	asteroids "medium metal" 42 1.7745
+	asteroids "large metal" 2 1.7745
+	minables titanium 30 1.8288687
+	minables aluminum 32 2.0536171
+	fleet "Ceasrilis Guard" 800
+	fleet "Ceasrilis Merchant" 1400
+	fleet "Akralva Hunter" 1800
+	object
+		sprite star/k3
+		distance 171.06794
+		period 70.628189
+		offset 180
+	object
+		sprite star/k5-old
+		distance 44.932063
+		period 70.628189
+	object
+		sprite planet/cloud4
+		distance 406
+		period 182.00633
+	object
+		sprite planet/cloud5-b
+		distance 867
+		period 567.9709
+	object "Mayil Asri"
+		sprite planet/gw-remanda
+		distance 1366.9727
+		period 1122.0092
+	object
+		sprite "planet/asteroid base2"
+		distance 2498
+		period 2777.7048
+	object
+		sprite planet/jupiter-b
+		distance 3665
+		period 4936.378
+		object
+			sprite planet/dust5-b
+			distance 286
+			period 126.58046
+
+planet "Mayil Asri"
+	landscape land/beach8-sfiera
+	description .
+	spaceport .
+
+system Gharil
+	pos -52048.184 -52695.7
+	government Uninhabited
+	habitable 583.2
+	belt 1395
+	link Noearea
+	asteroids "small rock" 31 4.5198
+	asteroids "medium rock" 65 4.9104
+	asteroids "large rock" 10 3.6828
+	asteroids "small metal" 36 3.5154
+	asteroids "medium metal" 25 4.1292
+	asteroids "large metal" 58 3.348
+	minables lead 12 7.7000992
+	minables aluminum 51 6.5223888
+	minables silver 34 4.4491279
+	trade Clothing 221
+	trade Electronics 777
+	trade Equipment 538
+	trade Food 149
+	trade "Heavy Metals" 1228
+	trade Industrial 816
+	trade "Luxury Goods" 1101
+	trade Medical 737
+	trade Metal 489
+	trade Plastic 448
+	object
+		sprite star/a3
+		period 10
+	object
+		sprite planet/cloud4-b
+		distance 378
+		period 272.19111
+	object
+		sprite planet/gas12
+		distance 1103
+		period 1356.749
+		object
+			sprite planet/dust1-b
+			distance 310
+			period 169.75443
+		object
+			sprite planet/UPS1
+			distance 412
+			period 395.60125
+	object
+		sprite planet/gas6
+		distance 2211
+		period 3850.5197
+		object
+			sprite planet/dust1
+			distance 367
+			period 218.6642
+	object
+		sprite planet/gas15-b
+		distance 3423
+		period 7417.3126
+	object
+		sprite planet/saska
+		distance 9511
+		period 34353.857
+		object
+			sprite planet/station2ver8
+			distance 581
+			period 529.37669
+	object
+		sprite planet/rock3-b
+		distance 21323
+		period 115321.08
+
+system Chieanra
+	pos -52196.684 -52745.866
+	government Uninhabited
+	habitable 208080
+	belt 1997
+	link Mesiaai
+	link Noearea
+	asteroids "small rock" 37 8.3328
+	asteroids "medium rock" 82 6.076
+	asteroids "large rock" 29 5.3816
+	asteroids "small metal" 23 8.0724
+	asteroids "medium metal" 4 8.3328
+	asteroids "large metal" 6 8.1592
+	minables lead 1 11.924909
+	minables copper 5 12.509597
+	minables aluminum 2 13.094284
+	trade Clothing 221
+	trade Electronics 777
+	trade Equipment 538
+	trade Food 149
+	trade "Heavy Metals" 1228
+	trade Industrial 816
+	trade "Luxury Goods" 1101
+	trade Medical 737
+	trade Metal 489
+	trade Plastic 448
+	object
+		sprite star/carbon
+		period 10
+	object
+		sprite planet/browndwarf-y-rouge
+		distance 1473
+		period 110.84955
+	object
+		sprite planet/lava0
+		distance 2281
+		period 213.60812
+	object
+		sprite planet/rhea
+		distance 3253
+		period 363.79432
+	object
+		sprite planet/gas17
+		distance 5549
+		period 810.49793
+		object
+			sprite planet/oberon
+			distance 252
+			period 246.37416
+	object
+		sprite star/carbon-core
+
+system Noearea
+	pos -52125.184 -52730.7
+	government Uninhabited
+	habitable 1078.4
+	belt 1595
+	link Chieanra
+	link Gharil
+	asteroids "small rock" 6 6.7106
+	asteroids "medium rock" 5 6.409
+	asteroids "large rock" 5 7.2384
+	asteroids "large metal" 1 5.1272
+	minables iron 1 9.9591425
+	minables tungsten 4 7.973998
+	trade Clothing 221
+	trade Electronics 777
+	trade Equipment 538
+	trade Food 149
+	trade "Heavy Metals" 1228
+	trade Industrial 816
+	trade "Luxury Goods" 1101
+	trade Medical 737
+	trade Metal 489
+	trade Plastic 448
+	object
+		sprite star/m3
+		distance 110.14837
+		period 47.55619
+	object
+		sprite star/b5
+		distance 34.851632
+		period 47.55619
+		offset 180
+	object
+		sprite planet/fog0-b
+		distance 508
+		period 311.8535
+	object
+		sprite planet/ocean0
+		distance 1054
+		period 932.00012
+	object
+		sprite planet/jupiter-b
+		distance 1537
+		period 1641.2164
+	object
+		sprite planet/gas14-b
+		distance 2911
+		period 4277.7792
+
+system Beaurin
+	pos -52235.184 -52943.45
+	government Uninhabited
+	habitable 2000
+	belt 1316
+	link Caqfurea
+	link Hceneia
+	link Schereana
+	asteroids "small rock" 9 1.54
+	asteroids "medium rock" 1 2.4024
+	asteroids "large rock" 3 2.6796
+	asteroids "small metal" 3 1.7248
+	asteroids "medium metal" 8 2.8952
+	asteroids "large metal" 1 1.6632
+	minables iron 1 3.4426454
+	minables uranium 3 3.6012025
+	trade Clothing 221
+	trade Electronics 777
+	trade Equipment 538
+	trade Food 149
+	trade "Heavy Metals" 1228
+	trade Industrial 816
+	trade "Luxury Goods" 1101
+	trade Medical 737
+	trade Metal 489
+	trade Plastic 448
+	fleet "Ceasrilis Guard" 1500
+	fleet "Akralva Hunter" 1500
+	object
+		sprite star/g5-old
+		period 10
+	object
+		sprite planet/lava4
+		distance 354
+		period 133.20941
+	object
+		sprite planet/water1-b
+		distance 994
+		period 626.77198
+	object
+		sprite planet/cloud7
+		distance 1471
+		period 1128.3634
+
+system Hceneia
+	pos -52173.184 -52981.45
+	government Uninhabited
+	habitable 44556.8
+	belt 1089
+	link Beaurin
+	link Ceiarel
+	asteroids "small rock" 5 1.3992
+	asteroids "medium rock" 8 1.6896
+	asteroids "large rock" 7 2.4024
+	asteroids "small metal" 29 1.848
+	asteroids "medium metal" 85 1.9536
+	asteroids "large metal" 7 1.6632
+	trade Clothing 221
+	trade Electronics 777
+	trade Equipment 538
+	trade Food 149
+	trade "Heavy Metals" 1228
+	trade Industrial 816
+	trade "Luxury Goods" 1101
+	trade Medical 737
+	trade Metal 489
+	trade Plastic 448
+	object
+		sprite star/g-supergiant
+		period 10
+	object
+		sprite planet/venus
+		distance 892
+		period 112.88475
+		object
+			sprite planet/dust5-b
+			distance 194
+			period 70.716412
+	object
+		sprite planet/gas1
+		distance 2128
+		period 415.95412
+		object
+			sprite planet/miranda-b
+			distance 466
+			period 475.87261
+	object
+		sprite planet/gas10
+		distance 3803
+		period 993.75079
+	object
+		sprite planet/gas0-b
+		distance 6417
+		period 2178.1413
+	object
+		sprite planet/gas8
+		distance 7903
+		period 2976.9804
+		object
+			sprite planet/rock17-b
+			distance 492
+			period 672.11255
+
+system Ceiarel
+	pos -52135.017 -53039.783
+	government Uninhabited
+	habitable 683.65
+	belt 1258
+	link Hceneia
+	asteroids "small rock" 2 2.976
+	asteroids "medium rock" 2 2.387
+	asteroids "large rock" 3 1.767
+	asteroids "small metal" 7 2.387
+	asteroids "large metal" 2 2.48
+	minables gold 1 4.532944
+	trade Clothing 221
+	trade Electronics 777
+	trade Equipment 538
+	trade Food 149
+	trade "Heavy Metals" 1228
+	trade Industrial 816
+	trade "Luxury Goods" 1101
+	trade Medical 737
+	trade Metal 489
+	trade Plastic 448
+	object
+		sprite star/m0
+		distance 81.840708
+		period 59.419618
+	object
+		sprite star/g5
+		distance 62.659292
+		period 59.419618
+		offset 180
+	object
+		sprite planet/forest4-b
+		distance 348
+		period 222.07361
+	object
+		sprite planet/ocean7-b
+		distance 749
+		period 701.21438
+	object
+		sprite planet/ice2-b
+		distance 1218
+		period 1454.1159
+	object
+		sprite planet/desert5
+		distance 1554
+		period 2095.5817
+	object
+		sprite planet/gas5
+		distance 2196
+		period 3520.275
+	object
+		sprite planet/gas12
+		distance 5735
+		period 14856.901
 
