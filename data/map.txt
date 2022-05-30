@@ -1312,7 +1312,7 @@ system Aifveva
 	object "Omnis-GW: Erader Mukube Wormhole"
 		sprite sprite/wisp_green
 		distance 4000
-		
+
 system Ailaleli
 	pos -52223.6 -56209.5
 	government Geeva
@@ -8242,7 +8242,6 @@ system Basksrek
 	object "Omnis-GW: Makerurader Wormhole"
 		sprite sprite/wisp_green
 		distance 4000
-
 
 system Basmakel
 	pos -49366.9 -56471.2
@@ -16314,7 +16313,6 @@ system Dolmoriwakla
 		sprite sprite/wisp_green
 		distance 4000
 		offset 30
-
 
 system Dopolk
 	pos -51638.9 -54870.8
@@ -28205,7 +28203,6 @@ system "Go se ri"
 	object "Omnis-GW: Nuru Wormhole"
 		sprite sprite/wisp_green
 		distance 4000
-
 
 system "Goklaro Han"
 	pos -49424.5 -54592.6
@@ -48828,7 +48825,6 @@ system Ko'kusor
 		sprite sprite/wisp_green
 		distance 4000
 
-
 system Ko'laso
 	pos -50857.6 -53945.767
 	government Kumakk
@@ -62034,7 +62030,6 @@ system Magosen-L2885
 		sprite sprite/wisp_green
 		distance 4000
 
-
 system Magrilnil
 	pos -52495.1 -55688.3
 	government Geeva
@@ -70780,7 +70775,6 @@ system Mokugea
 		distance 4000
 		offset 330
 
-
 system Molelca
 	pos -52400.1 -56001.8
 	government Geeva
@@ -70909,7 +70903,6 @@ system Molta
 	object "Omnis-GW: Revos Wormhole"
 		sprite sprite/wisp_green
 		distance 4000
-
 
 system Moqiven
 	pos -49297.5 -55936.9
@@ -77857,7 +77850,6 @@ system Nihverka
 		sprite sprite/wisp_green
 		distance 4000
 
-
 system Nikavel
 	pos -51812.1 -56503.8
 	government Geeva
@@ -81787,6 +81779,7 @@ system Okrevug
 	object "Omnis-GW: Kroom Kakaima Wormhole"
 		sprite sprite/wisp_green
 		distance 4000
+
 system Okugar
 	pos -50983.7 -56753
 	government "Kroom Kakaima"
@@ -89943,7 +89936,6 @@ system Rilgeril
 		sprite sprite/wisp_green
 		distance 4000
 
-
 system Riliga
 	pos -51459.1 -56275.9
 	government "Kroom Kanai"
@@ -94579,7 +94571,6 @@ system Saska
 	object "Omnis-GW: Ultaka Wormhole"
 		sprite sprite/wisp_green
 		distance 5000
-
 
 system Scmila
 	pos -50781.6 -56438.1
@@ -100830,7 +100821,6 @@ system "Trochzempt ZAZ-1"
 		sprite sprite/wisp_green
 		distance 4000
 
-
 system Tuarli
 	pos -50929.2 -55082.2
 	government "Dels Kaote"
@@ -103847,7 +103837,6 @@ system Urkvulnar
 		sprite sprite/wisp_green
 		distance 4000
 
-
 system Urkwaar
 	pos -47873.5 -53435.2
 	government Donko
@@ -103934,7 +103923,6 @@ system Urlansa
 	object "Omnis-GW: Taroun Wormhole"
 		sprite sprite/wisp_green
 		distance 4000
-
 
 system Urmarse
 	pos -49968.1 -55490.7
@@ -108130,7 +108118,6 @@ system Vishil
 		sprite sprite/wisp_green
 		distance 4000
 
-
 system Visilmara
 	pos -51480.5 -56506.1
 	government Geeva
@@ -111167,7 +111154,6 @@ system Worak
 		sprite sprite/wisp_green
 		distance 4000
 
-
 system Xibelna
 	pos -52140.1 -56344.2
 	government Geeva
@@ -112026,7 +112012,6 @@ system Zausn
 	object "Omnis-GW: Zorcn Wormhole"
 		sprite sprite/wisp_green
 		distance 4000
-
 
 system "Zerax WS-2"
 	pos -52896.6 -56013.1
@@ -135234,16 +135219,50 @@ system Marveas
 system Nyrense
 	pos -52360.822 -52799.088
 	government Ceasrilis
-	habitable 290.45
-	belt 1211
+	habitable 500
+	belt 1477
 	link Ayrean
 	link Issneva
 	link Kalen'ja
 	link Marveas
-	asteroids "large metal" 1 4.41
+	asteroids "medium rock" 58 3.0015
+	asteroids "large rock" 2 3.0015
+	asteroids "small metal" 39 3.654
+	asteroids "medium metal" 5 3.5235
+	asteroids "large metal" 59 2.262
+	minables lead 26 3.8271495
+	minables silver 3 3.9114223
+	minables titanium 3 5.6637163
 	fleet "Ceasrilis Guard" 800
 	fleet "Ceasrilis Merchant" 1500
 	fleet "Akralva Hunter" 1600
+	object
+		sprite star/a5
+		period 10
+	object
+		sprite planet/tethys
+		distance 291
+		period 198.56353
+	object
+		sprite planet/ice0
+		distance 535
+		period 494.98343
+	object
+		sprite planet/gas13-b
+		distance 1245
+		period 1757.171
+	object
+		sprite planet/gas7
+		distance 3909
+		period 9775.9393
+	object
+		sprite planet/browndwarf-l-rouge
+		distance 9836
+		period 39020.045
+	object
+		sprite planet/dust7
+		distance 15753
+		period 79086.963
 
 system Vanvira
 	pos -52433.822 -52734.977
@@ -137495,6 +137514,7 @@ system Rahexvi
 	government Akralva
 	habitable 500
 	belt 1279
+	link Myunorx
 	link Vuzkremiz
 	asteroids "small rock" 11 3.0056
 	asteroids "medium rock" 49 4.2432
@@ -138314,68 +138334,13 @@ system Horxolka
 			distance 400
 			period 209.3667
 
-system Horxolka
-	pos -51319.4 -54267.494
-	government Akralva
-	habitable 204.8
-	belt 1074
-	link Hanrukin
-	link Hukxi'arhal
-	link Mohruxil
-	asteroids "small rock" 12 7.0525
-	asteroids "medium rock" 2 7.0525
-	asteroids "large rock" 14 7.595
-	asteroids "small metal" 4 6.1225
-	asteroids "medium metal" 11 4.7275
-	asteroids "large metal" 30 5.735
-	minables titanium 2 10.290055
-	fleet "Akralva Hunter" 1200
-	fleet "Akralva Merchant" 1500
-	object
-		sprite star/m5
-		period 10
-	object
-		sprite planet/ocean7
-		distance 310.61656
-		period 371.27079
-	object
-		sprite planet/desert7-b
-		distance 824
-		period 1478.3281
-	object
-		sprite planet/browndwarf-l-rouge
-		distance 2261
-		period 6719.4057
-	object
-		sprite planet/uranus
-		distance 4919
-		period 21562.308
-	object
-		sprite planet/jupiter-b
-		distance 10096
-		period 63402.157
-		object
-			sprite planet/dust7
-			distance 298
-			period 194.45764
-	object
-		sprite planet/gas10
-		distance 18495
-		period 157203.25
-		object
-			sprite planet/rock20
-			distance 244
-			period 144.07392
-		object
-			sprite planet/station7
-			distance 400
-			period 209.3667
-
 system "Vulxi Eis"
 	pos -51394.983 -53381.494
 	government Uninhabited
 	habitable 500
 	belt 1310
+	link Auxkhaui
+	link Myunorx
 	asteroids "small rock" 5 1.3845
 	asteroids "medium rock" 3 1.755
 	asteroids "large rock" 1 1.9305
@@ -138385,6 +138350,7 @@ system "Vulxi Eis"
 	minables iron 1 1.8140109
 	minables tungsten 1 1.8302219
 	minables copper 1 3.0346992
+	hazard "GW Star Crackle" 30
 	object
 		sprite star/f0
 		period 60.913107
@@ -138443,4 +138409,112 @@ planet Muxkear
 	description .
 	spaceport .
 	outfitter "Basic Outfits"
+
+system Auxkhaui
+	pos -51349.344 -53444.439
+	government Uninhabited
+	habitable 374.05
+	belt 1529
+	link Myunorx
+	link "Vulxi Eis"
+	asteroids "large rock" 1 3.876
+	asteroids "small metal" 7 2.958
+	asteroids "medium metal" 172 4.233
+	asteroids "large metal" 1 3.366
+	minables tungsten 5 5.5887299
+	minables aluminum 32 6.6162542
+	minables platinum 8 5.1710371
+	hazard "GW Star Crackle Residue" 30
+	object
+		sprite star/l-dwarf
+		distance 117.34227
+		period 61.936203
+		offset 180
+	object
+		sprite star/k8
+		distance 4.1577329
+		period 61.936203
+	object
+		sprite planet/desert5-b
+		distance 263
+		period 197.24854
+	object
+		sprite planet/rock9
+		distance 560
+		period 612.86131
+	object
+		sprite planet/cloud0
+		distance 1224
+		period 1980.3971
+	object
+		sprite planet/gas7
+		distance 2498
+		period 5773.8941
+
+system Myunorx
+	pos -51408.011 -53462.439
+	government Uninhabited
+	habitable 2560
+	belt 1066
+	link Auxkhaui
+	link Rahexvi
+	link "Vulxi Eis"
+	asteroids "small rock" 3 8.265
+	asteroids "medium rock" 9 7.743
+	asteroids "large rock" 1 5.829
+	asteroids "small metal" 3 5.046
+	asteroids "medium metal" 11 6.96
+	asteroids "large metal" 2 6.525
+	minables neodymium 3 10.839843
+	minables aluminum 5 7.085142
+	hazard "GW Star Crackle Residue" 30
+	object
+		sprite star/a-supergiant
+		distance 387.5
+		period 381.39726
+	object
+		sprite star/f-supergiant
+		distance 387.5
+		period 381.39726
+		offset 180
+	object
+		sprite planet/gw-continential1
+		distance 1005
+		period 563.21486
+	object
+		sprite planet/ocean1-b
+		distance 1385
+		period 911.17054
+	object
+		sprite planet/browndwarf-y
+		distance 1952
+		period 1524.5607
+	object
+		sprite planet/gas5
+		distance 3020
+		period 2933.8332
+		object
+			sprite planet/desert4-b
+			distance 257
+			period 194.89985
+	object
+		sprite planet/gas10-hot
+		distance 5170
+		period 6571.4442
+	object
+		sprite planet/gas2
+		distance 10697
+		period 19557.71
+		object
+			sprite planet/miranda
+			distance 314
+			period 263.21237
+		object
+			sprite planet/rock14
+			distance 473
+			period 269.22125
+		object
+			sprite planet/ice7-b
+			distance 622
+			period 405.97865
 

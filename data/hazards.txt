@@ -16,9 +16,21 @@ hazard "GW Star Crackle"
 	"environmental effect" "disruption spark" 10
 	weapon
 		"relative heat damage" 0.00035
-		"disruption damage" 30
+		#"disruption damage" 30
 		"relative shield damage" .004
 		"relative hull damage" .0015
+		
+hazard "GW Star Crackle Residue"
+	"period" 30
+	"duration" 10 40
+	"strength" .025 .5
+	"range" 12000
+	"environmental effect" "disruption spark" 5
+	weapon
+		"relative heat damage" 0.00035
+		#"disruption damage" 15
+		"relative shield damage" .002
+		"relative hull damage" .00075
 		
 mission "Vulxi Es Hazard"
 	landing
