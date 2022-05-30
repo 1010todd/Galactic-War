@@ -140096,13 +140096,6 @@ system Fumsiliir
 	link Csiliia
 	link Thiliaick
 	link Ysliia
-	asteroids "small rock" 12 4.8776
-	asteroids "medium rock" 41 4.2224
-	asteroids "large rock" 24 3.9312
-	asteroids "small metal" 25 9.0272
-	asteroids "medium metal" 4 8.0808
-	asteroids "large metal" 7 5.9696
-	minables iron 14 8.45646
 	minables tungsten 1 7.62576
 	hazard "GW Cloud of Decay" 1
 
@@ -140155,13 +140148,6 @@ system Thilisor
 	belt 1617
 	haze "ui/gw haze decay"
 	link Fusilir
-	asteroids "small rock" 12 2.146
-	asteroids "medium rock" 3 2.378
-	asteroids "large rock" 105 2.842
-	asteroids "small metal" 4 1.769
-	asteroids "medium metal" 3 1.595
-	asteroids "large metal" 7 2.32
-	minables aluminum 1 2.9314994
 	hazard "GW Cloud of Decay" 1
 	object
 		sprite star/o8
@@ -140204,12 +140190,6 @@ system Alisbatir
 	link Ashikan
 	link Fsiliai
 	asteroids "small rock" 4 4.368
-	asteroids "medium rock" 2 4.176
-	asteroids "large rock" 22 4.128
-	asteroids "medium metal" 1 4.512
-	asteroids "large metal" 2 2.832
-	minables lead 2 7.126241
-	minables copper 3 4.1726555
 	hazard "GW Cloud of Decay" 1
 	object
 		sprite star/o-giant
@@ -140254,7 +140234,6 @@ system Thilisiri
 	haze "ui/gw haze decay"
 	link Axukral
 	link Fucilir
-	asteroids "large metal" 1 1.6848
 	hazard "GW Cloud of Decay" 1
 	object
 		sprite star/m8
@@ -140293,14 +140272,7 @@ system Thiliaick
 	haze "ui/gw haze decay"
 	link Fumsiliir
 	link Horxolka
-	asteroids "small rock" 87 4.872
-	asteroids "medium rock" 90 4.524
-	asteroids "large rock" 101 4.408
 	asteroids "small metal" 1 4.234
-	asteroids "medium metal" 55 3.074
-	asteroids "large metal" 24 3.422
-	minables aluminum 8 8.1674485
-	minables titanium 43 4.3254534
 	hazard "GW Cloud of Decay" 1
 	object
 		sprite star/g8
@@ -141360,14 +141332,6 @@ system Makreekan
 	haze "ui/gw haze decay"
 	link Assriyai
 	link Ysniliia
-	asteroids "small rock" 37 4.62
-	asteroids "medium rock" 34 6.09
-	asteroids "large rock" 1 5.18
-	asteroids "small metal" 26 3.5
-	asteroids "medium metal" 176 6.37
-	asteroids "large metal" 126 4.2
-	minables lead 5 9.2575088
-	minables copper 59 6.92587
 	hazard "GW Cloud of Decay" 1
 	object
 		sprite star/m8
@@ -141393,14 +141357,6 @@ system Maukeikan
 	haze "ui/gw haze decay"
 	link Csiniliia
 	link Maaukeu
-	asteroids "small rock" 1 4.255
-	asteroids "medium rock" 7 5.2325
-	asteroids "large rock" 1 4.0825
-	asteroids "small metal" 16 3.1625
-	asteroids "medium metal" 16 4.945
-	asteroids "large metal" 40 4.8875
-	minables aluminum 10 8.070947
-	minables silver 10 6.4073996
 	hazard "GW Cloud of Decay" 1
 	object
 		sprite star/o-supergiant
@@ -141425,12 +141381,6 @@ system Iraleekan
 	haze "ui/gw haze decay"
 	link Chiniliai
 	link Eeiralphari
-	asteroids "medium rock" 1 3.174
-	asteroids "large rock" 11 4.5494
-	asteroids "small metal" 4 4.7081
-	asteroids "medium metal" 59 3.5972
-	asteroids "large metal" 2 3.6501
-	minables copper 2 5.729452
 	hazard "GW Cloud of Decay" 1
 	object
 		sprite star/k8
@@ -141909,23 +141859,6 @@ system Kueenphakan
 	haze "ui/gw haze decay"
 	link Csiliia
 	link "Mehrul Kuai"
-	hazard "GW Cloud of Decay" 1
-
-system Yskriia
-	pos -51252.511 -54480.772
-	government Uninhabited
-	habitable 806.68
-	belt 1383
-	haze "ui/gw haze decay"
-	link Ysliia
-	asteroids "small rock" 12 4.8776
-	asteroids "medium rock" 41 4.2224
-	asteroids "large rock" 24 3.9312
-	asteroids "small metal" 25 9.0272
-	asteroids "medium metal" 4 8.0808
-	asteroids "large metal" 7 5.9696
-	minables iron 14 8.45646
-	minables tungsten 1 7.62576
 	hazard "GW Cloud of Decay" 1
 
 system Yskriia
