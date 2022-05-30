@@ -39,6 +39,7 @@ mission "First Contact: Uoorn"
 			confusion 30
 		fleet "Uoorn Defense" 8
 	on offer
+		event "Uoorn name reveal"
 		conversation
 			`As you entered the planet's atmosphere you noticed a fairly large patch of white giant mushrooms sticking out from its surrounding. From quick scan you also noted some similarly large buds hidden barely beneath the the roof of fungi forest and respond differently to your sensor than regular mushrooms surrounding it, ones deeper inside from the edge of the patches also contains some clump of things you simply don't recognize.`
 			choice
@@ -103,6 +104,20 @@ mission "First Contact: Uoorn"
 				"reputation: Uoorn" <?= -50
 			`	You fired a few salvo into the middle of the mushrooms, the mushrooms are fairly tough but eventually you manage to tear them apart. Suddenly, you get feeling of anger and hate directed at you, you feel that something hostile is approaching you. Almost immediately after, a swarm of white ships some organic, some covered in hard shells emerges from the patch of mushrooms and the cloud of dust in the area you bombarded. Following behind the ships is a swarm of massive creme-colored tendrils tipped with point or blade, all coming towards you. Without a second thought you fired up your engines and leave the planets' atmosphere.`
 				launch
+					
+mission "Uoorn name reveal patch"
+	landing
+	deadline 1
+	to offer
+		has "First Contact: Uoorn: offered"
+	on offer
+		event "Uoorn name reveal"
+	on accept
+		fail
+					
+event "Uoorn name reveal"
+	government Uoorn
+		"display name" Uoorn
 					
 mission "Uoorn: Uoorn-Gargoor'an battle (Kalloo'anuu)"
 	landing
