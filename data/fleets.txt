@@ -1521,6 +1521,29 @@ fleet "Uoorn Raid"
 	variant 5
 		"Uoorn Aggressor" 10
 
+fleet "Vareen Guard"
+	government Vareen
+	names Vareen
+	personality
+		confusion 30
+	variant 5
+		"Vareen Versine" 3
+	variant 1
+		"Vareen Issenmar"
+
+fleet "Vareen Civilian"
+	government Vareen
+	names Vareen
+	personality
+		confusion 30
+		timid
+	variant 20
+		"Vareen Virmir"
+	variant 20
+		"Vareen Serispha"
+	variant 1
+		"Vareen Safrapha"
+		
 fleet "Zis Heavy Patrol Fleet"
 	government ZIS
 	names Zis

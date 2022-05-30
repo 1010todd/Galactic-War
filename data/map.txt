@@ -1994,6 +1994,7 @@ system Akla'runle
 	government Uoorn
 	habitable 425.92
 	belt 1552
+	link Akri'oonree
 	link Siineloo
 	link Uoon'lraneel
 	asteroids "small rock" 3 3.276
@@ -19723,6 +19724,7 @@ system Einsoolren
 	government Uoorn
 	habitable 486.68
 	belt 1326
+	link Eii'seenie
 	link Siinulre
 	asteroids "large metal" 2 4.173
 	trade Clothing 239
@@ -138070,6 +138072,7 @@ system Luxkuei
 	government Akralva
 	habitable 1703.2
 	belt 1241
+	link Axukral
 	link Hukxi'arhal
 	link Urzekrul
 	asteroids "small rock" 21 4.836
@@ -138303,6 +138306,7 @@ system Horxolka
 	link Hanrukin
 	link Hukxi'arhal
 	link Mohruxil
+	link Thiliaick
 	asteroids "small rock" 12 7.0525
 	asteroids "medium rock" 2 7.0525
 	asteroids "large rock" 14 7.595
@@ -139900,4 +139904,2216 @@ system Ceiarel
 		sprite planet/gas12
 		distance 5735
 		period 14856.901
+
+system Siliia
+	pos -51059.733 -54391.3
+	government Uninhabited
+	habitable 806.68
+	belt 1383
+	haze "ui/gw haze decay"
+	link Sikriia
+	asteroids "small rock" 12 4.8776
+	asteroids "medium rock" 41 4.2224
+	asteroids "large rock" 24 3.9312
+	asteroids "small metal" 25 9.0272
+	asteroids "medium metal" 4 8.0808
+	asteroids "large metal" 7 5.9696
+	minables iron 14 8.45646
+	minables tungsten 1 7.62576
+	hazard "GW Cloud of Decay" 1
+
+system Asiliis
+	pos -51211.678 -54419.411
+	government Uninhabited
+	habitable 806.68
+	belt 1383
+	haze "ui/gw haze decay"
+	link Asikriis
+	asteroids "small rock" 12 4.8776
+	asteroids "medium rock" 41 4.2224
+	asteroids "large rock" 24 3.9312
+	asteroids "small metal" 25 9.0272
+	asteroids "medium metal" 4 8.0808
+	asteroids "large metal" 7 5.9696
+	minables iron 14 8.45646
+	minables tungsten 1 7.62576
+	hazard "GW Cloud of Decay" 1
+
+system Csiliia
+	pos -51374.678 -54435.411
+	government Uninhabited
+	haze "ui/gw haze decay"
+	link Fumsiliir
+	link Kueenphakan
+	link Ysliia
+	hazard "GW Cloud of Decay" 1
+
+system Kisliia
+	pos -51602.928 -54411.661
+	government Uninhabited
+	haze "ui/gw haze decay"
+	link Chiliai
+	link Fucilir
+	link Seliierakan
+	hazard "GW Cloud of Decay" 1
+
+system Woliai
+	pos -51681.928 -54383.661
+	government Uninhabited
+	haze "ui/gw haze decay"
+	hazard "GW Cloud of Decay" 1
+
+system Msliia
+	pos -51750.178 -54330.161
+	government Uninhabited
+	haze "ui/gw haze decay"
+	hazard "GW Cloud of Decay" 1
+
+system Nhliai
+	pos -51832.678 -54294.661
+	government Uninhabited
+	haze "ui/gw haze decay"
+	link Fsiliai
+	link Fuasilir
+	link Nhkriai
+	hazard "GW Cloud of Decay" 1
+
+system Fsiliai
+	pos -51906.678 -54303.911
+	government Uninhabited
+	haze "ui/gw haze decay"
+	link Alisbatir
+	link Fuasilir
+	link Nhliai
+	hazard "GW Cloud of Decay" 1
+
+system Siniliia
+	pos -51949.428 -54243.328
+	government Uninhabited
+	haze "ui/gw haze decay"
+	link Sinikriia
+	hazard "GW Cloud of Decay" 1
+
+system Ciliai
+	pos -51122.678 -54433.411
+	government Uninhabited
+	habitable 806.68
+	belt 1383
+	haze "ui/gw haze decay"
+	link Cikriai
+	asteroids "small rock" 12 4.8776
+	asteroids "medium rock" 41 4.2224
+	asteroids "large rock" 24 3.9312
+	asteroids "small metal" 25 9.0272
+	asteroids "medium metal" 4 8.0808
+	asteroids "large metal" 7 5.9696
+	minables iron 14 8.45646
+	minables tungsten 1 7.62576
+	hazard "GW Cloud of Decay" 1
+
+system Chiliai
+	pos -51536.678 -54455.411
+	government Uninhabited
+	haze "ui/gw haze decay"
+	link Esliai
+	link Fucilir
+	link Kisliia
+	link Veeurkan
+	hazard "GW Cloud of Decay" 1
+
+system Esliai
+	pos -51449.678 -54430.411
+	government Uninhabited
+	haze "ui/gw haze decay"
+	link Chiliai
+	link Eskriai
+	link Fucilir
+	hazard "GW Cloud of Decay" 1
+
+system Ysliia
+	pos -51282.678 -54408.411
+	government Uninhabited
+	habitable 806.68
+	belt 1383
+	haze "ui/gw haze decay"
+	link Csiliia
+	link Fumsiliir
+	link Yskriia
+	asteroids "small rock" 12 4.8776
+	asteroids "medium rock" 41 4.2224
+	asteroids "large rock" 24 3.9312
+	asteroids "small metal" 25 9.0272
+	asteroids "medium metal" 4 8.0808
+	asteroids "large metal" 7 5.9696
+	minables iron 14 8.45646
+	minables tungsten 1 7.62576
+	hazard "GW Cloud of Decay" 1
+
+system Asiniliis
+	pos -52016.678 -54269.522
+	government Uninhabited
+	haze "ui/gw haze decay"
+	hazard "GW Cloud of Decay" 1
+
+system Ysniliia
+	pos -52075.678 -54206.022
+	government Uninhabited
+	haze "ui/gw haze decay"
+	link Fusilir
+	link Makreekan
+	hazard "GW Cloud of Decay" 1
+
+system Csiniliia
+	pos -52161.678 -54210.022
+	government Uninhabited
+	haze "ui/gw haze decay"
+	link Maukeikan
+	hazard "GW Cloud of Decay" 1
+
+system Esniliai
+	pos -52236.678 -54163.022
+	government Uninhabited
+	haze "ui/gw haze decay"
+	link Esnikriai
+	hazard "GW Cloud of Decay" 1
+
+system Chiniliai
+	pos -52293.011 -54104.606
+	government Uninhabited
+	haze "ui/gw haze decay"
+	link Iraleekan
+	hazard "GW Cloud of Decay" 1
+
+system Kisniliia
+	pos -52378.511 -54086.606
+	government Uninhabited
+	haze "ui/gw haze decay"
+	link Meekiukan
+	hazard "GW Cloud of Decay" 1
+
+system Woniliai
+	pos -52474.511 -54085.106
+	government Uninhabited
+	haze "ui/gw haze decay"
+	link Fuaiir
+	link Meekiukan
+	hazard "GW Cloud of Decay" 1
+
+system Msniliia
+	pos -52543.511 -54143.606
+	government Uninhabited
+	haze "ui/gw haze decay"
+	link Maekaelkan
+	link Nhniliai
+	hazard "GW Cloud of Decay" 1
+
+system Nhniliai
+	pos -52609.344 -54172.272
+	government Uninhabited
+	haze "ui/gw haze decay"
+	link Msniliia
+	link Nhnikriai
+	hazard "GW Cloud of Decay" 1
+
+system Fuaiir
+	pos -52476.372 -54025.106
+	government Uninhabited
+	haze "ui/gw haze decay"
+	link Woniliai
+	hazard "GW Cloud of Decay" 1
+
+system Fusilir
+	pos -52015.622 -54171.606
+	government Uninhabited
+	haze "ui/gw haze decay"
+	link Thilisor
+	link Ysniliia
+	hazard "GW Cloud of Decay" 1
+
+system Fuasilir
+	pos -51854.122 -54238.356
+	government Uninhabited
+	haze "ui/gw haze decay"
+	link Fsiliai
+	link Nhliai
+	hazard "GW Cloud of Decay" 1
+
+system Fucilir
+	pos -51526.372 -54401.606
+	government Uninhabited
+	haze "ui/gw haze decay"
+	link Chiliai
+	link Esliai
+	link Kisliia
+	link Thilisiri
+	hazard "GW Cloud of Decay" 1
+
+system Fumsiliir
+	pos -51291.122 -54357.106
+	government Uninhabited
+	habitable 806.68
+	belt 1383
+	haze "ui/gw haze decay"
+	link Csiliia
+	link Thiliaick
+	link Ysliia
+	asteroids "small rock" 12 4.8776
+	asteroids "medium rock" 41 4.2224
+	asteroids "large rock" 24 3.9312
+	asteroids "small metal" 25 9.0272
+	asteroids "medium metal" 4 8.0808
+	asteroids "large metal" 7 5.9696
+	minables iron 14 8.45646
+	minables tungsten 1 7.62576
+	hazard "GW Cloud of Decay" 1
+
+system "Oreei Asim"
+	pos -52388.65 -54300.161
+	government Vareen
+	habitable 451125
+	belt 1872
+	link "Area Veephi"
+	link Eeiralphari
+	link Shinreeai
+	link "Veeru Kichar"
+	asteroids "small rock" 55 2.55
+	asteroids "medium rock" 54 2.1165
+	asteroids "large rock" 168 1.9125
+	asteroids "medium metal" 41 2.2695
+	asteroids "large metal" 3 2.448
+	minables lead 1 3.1873607
+	minables titanium 11 2.7323244
+	minables silver 10 3.1662942
+	fleet "Vareen Civilian" 1500
+	fleet "Vareen Guard" 1800
+	object
+		sprite star/nova
+	object
+		sprite planet/lava5-cracked
+		distance 991
+		period 1521.7966
+	object
+		sprite planet/lava7-b
+		distance 1859
+		period 3909.8962
+	object
+		sprite planet/browndwarf-l-rouge
+		distance 4356.5
+		period 14026.61
+	object
+		sprite planet/browndwarf-t
+		distance 10357
+		period 51415.86
+	object
+		sprite star/nova-old
+	object
+		sprite star/f0
+
+system Thilisor
+	pos -52006.9 -54107.522
+	government Uninhabited
+	habitable 1411.2
+	belt 1617
+	haze "ui/gw haze decay"
+	link Fusilir
+	asteroids "small rock" 12 2.146
+	asteroids "medium rock" 3 2.378
+	asteroids "large rock" 105 2.842
+	asteroids "small metal" 4 1.769
+	asteroids "medium metal" 3 1.595
+	asteroids "large metal" 7 2.32
+	minables aluminum 1 2.9314994
+	hazard "GW Cloud of Decay" 1
+	object
+		sprite star/o8
+		period 10
+	object
+		sprite planet/gas17
+		distance 625
+		period 372.02381
+	object
+		sprite planet/jupiter
+		distance 1464
+		period 1333.7128
+	object
+		sprite planet/gas10-b
+		distance 3033
+		period 3977.0342
+		object
+			sprite planet/rock0
+			distance 212
+			period 116.68215
+	object "Thirli Cierssi"
+		sprite "planet/jump tunnel"
+		distance 4591.3878
+		offset 20
+		object
+			sprite planet/dyson1
+			distance 541.102
+			offset 275
+		object
+			sprite planet/dyson1
+			distance 541.10208
+			offset 125
+
+system Alisbatir
+	pos -51886.428 -54374.05
+	government Uninhabited
+	habitable 13107.2
+	belt 1098
+	haze "ui/gw haze decay"
+	link Ashikan
+	link Fsiliai
+	asteroids "small rock" 4 4.368
+	asteroids "medium rock" 2 4.176
+	asteroids "large rock" 22 4.128
+	asteroids "medium metal" 1 4.512
+	asteroids "large metal" 2 2.832
+	minables lead 2 7.126241
+	minables copper 3 4.1726555
+	hazard "GW Cloud of Decay" 1
+	object
+		sprite star/o-giant
+		period 10
+	object
+		sprite planet/ocean2
+		distance 623
+		period 121.48484
+	object
+		sprite "planet/zenith cold"
+		distance 1464
+		period 437.62452
+		object
+			sprite planet/station0ver8
+			distance 161
+			period 53.463383
+	object
+		sprite planet/forest1
+		distance 1953
+		period 674.28484
+	object
+		sprite planet/gas8
+		distance 3246
+		period 1444.8169
+	object
+		sprite planet/dust1-b
+		distance 3935
+		period 1928.4445
+	object "Thirli Cierssi"
+		distance 4500
+		period 1
+
+planet "Thirli Cierssi"
+	description .
+	spaceport .
+
+system Thilisiri
+	pos -51516.539 -54332.772
+	government Uninhabited
+	habitable 756.25
+	belt 1284
+	haze "ui/gw haze decay"
+	link Axukral
+	link Fucilir
+	asteroids "large metal" 1 1.6848
+	hazard "GW Cloud of Decay" 1
+	object
+		sprite star/m8
+		period 10
+	object
+		sprite planet/lava2-b
+		distance 536.42692
+		period 187.14191
+	object
+		sprite planet/ocean8-b
+		distance 1121.7174
+		period 1630.4365
+	object
+		sprite planet/io
+		distance 2394
+		period 6084.9286
+	object
+		sprite planet/gas2-b
+		distance 4413
+		period 15228.957
+	object
+		sprite planet/wisp
+		distance 8036
+		offset -10
+		object
+			sprite planet/dyson2
+			distance 200
+			period 1558
+			offset 155
+
+system Thiliaick
+	pos -51308.039 -54321.022
+	government Uninhabited
+	habitable 811.6
+	belt 1212
+	haze "ui/gw haze decay"
+	link Fumsiliir
+	link Horxolka
+	asteroids "small rock" 87 4.872
+	asteroids "medium rock" 90 4.524
+	asteroids "large rock" 101 4.408
+	asteroids "small metal" 1 4.234
+	asteroids "medium metal" 55 3.074
+	asteroids "large metal" 24 3.422
+	minables aluminum 8 8.1674485
+	minables titanium 43 4.3254534
+	hazard "GW Cloud of Decay" 1
+	object
+		sprite star/g8
+		period 57.10227
+		offset 180
+	object
+		sprite planet/lava7
+		distance 682.34754
+		period 333.26881
+	object
+		sprite planet/gas10-hot
+		distance 1063
+		period 1088.1127
+	object
+		sprite planet/gas8
+		distance 2705
+		period 4416.9744
+	object
+		sprite planet/wisp
+		distance 4332
+		offset -20
+		object
+			sprite planet/dyson1
+			distance 800
+		object
+			sprite planet/dyson1
+			distance 500
+			offset 100
+
+system Eii'seenie
+	pos -52104.817 -54097.411
+	government Uoorn
+	habitable 8820
+	belt 1035
+	link Einsoolren
+	asteroids "small rock" 2 5.238
+	asteroids "medium rock" 54 3.51
+	asteroids "large rock" 13 4.05
+	asteroids "small metal" 2 4.266
+	asteroids "medium metal" 1 4.158
+	asteroids "large metal" 1 4.104
+	minables copper 5 6.7106614
+	minables neodymium 5 3.7355277
+	minables iron 5 5.2747718
+	trade Clothing 239
+	trade Electronics 788
+	trade Equipment 413
+	trade Food 234
+	trade "Heavy Metals" 1208
+	trade Industrial 555
+	trade "Luxury Goods" 1001
+	trade Medical 837
+	trade Metal 270
+	trade Plastic 299
+	fleet "Uoorn Defense" 1500
+	object
+		sprite planet/browndwarf-y-rouge
+		period 10
+	object
+		sprite planet/dust6-b
+		distance 430
+		period 84.920665
+	object
+		sprite planet/mars
+		distance 1007
+		period 304.33711
+	object
+		sprite planet/ocean0
+		distance 1414
+		period 506.38964
+	object
+		sprite planet/gas5
+		distance 3619
+		period 2073.45
+		object
+			sprite "planet/asteroid base3"
+			distance 295
+			period 132.60217
+
+system Akri'oonree
+	pos -51945.928 -53994.717
+	government Uoorn
+	habitable 372.65
+	belt 1361
+	link Akla'runle
+	asteroids "small rock" 11 2.1567
+	asteroids "medium rock" 121 2.457
+	asteroids "large rock" 91 1.7199
+	asteroids "small metal" 1 2.1294
+	asteroids "medium metal" 9 1.3923
+	asteroids "large metal" 6 2.0748
+	minables titanium 3 3.1186361
+	trade Clothing 239
+	trade Electronics 788
+	trade Equipment 413
+	trade Food 234
+	trade "Heavy Metals" 1208
+	trade Industrial 555
+	trade "Luxury Goods" 1001
+	trade Medical 837
+	trade Metal 270
+	trade Plastic 299
+	fleet "Uoorn Defense" 2200
+	object
+		sprite star/b-dwarf
+		distance 78.039179
+		period 37.275081
+		offset 180
+	object
+		sprite star/k3
+		distance 8.4608211
+		period 37.275081
+	object
+		sprite planet/miranda-b
+		distance 226
+		period 157.41898
+	object
+		sprite planet/ice6-b
+		distance 501
+		period 519.57832
+	object
+		sprite planet/gas3-b
+		distance 1580
+		period 2909.9134
+		object
+			sprite planet/rock3-b
+			distance 411
+			period 314.96577
+	object
+		sprite planet/gas4-b
+		distance 2681
+		period 6431.9055
+	object
+		sprite planet/gas10-hot
+		distance 4222
+		period 12710.767
+		object
+			sprite planet/callisto-b
+			distance 220
+			period 85.398776
+
+planet "Vicean Kiree"
+	landscape land/fog3
+	description .
+	spaceport .
+
+system "Area Veephi"
+	pos -52306.733 -54274.467
+	government Vareen
+	habitable 374.05
+	belt 1529
+	link Eeiralphari
+	link Maaukeu
+	link Mapharau
+	link "Oreei Asim"
+	asteroids "large rock" 1 3.876
+	asteroids "small metal" 7 2.958
+	asteroids "medium metal" 172 4.233
+	asteroids "large metal" 1 3.366
+	minables tungsten 5 5.5887299
+	minables aluminum 32 6.6162542
+	minables platinum 8 5.1710371
+	fleet "Vareen Civilian" 800
+	fleet "Vareen Guard" 1200
+	object
+		sprite star/l-dwarf
+		distance 117.34227
+		period 61.936203
+		offset 180
+	object
+		sprite star/k8
+		distance 4.1577329
+		period 61.936203
+	object "Vicean Kiree"
+		sprite planet/forest6
+		distance 343.02369
+		period 197.24854
+	object
+		sprite planet/rock9
+		distance 560
+		period 612.86131
+	object
+		sprite planet/cloud0
+		distance 1224
+		period 1980.3971
+	object
+		sprite planet/gas7
+		distance 2498
+		period 5773.8941
+
+system Eeiralphari
+	pos -52380.733 -54232.217
+	government Vareen
+	habitable 2560
+	belt 1066
+	link "Area Veephi"
+	link Iraleekan
+	link Maehriphe
+	link Meekiukan
+	link "Oreei Asim"
+	link Shinreeai
+	asteroids "small rock" 3 8.265
+	asteroids "medium rock" 9 7.743
+	asteroids "large rock" 1 5.829
+	asteroids "small metal" 3 5.046
+	asteroids "medium metal" 11 6.96
+	asteroids "large metal" 2 6.525
+	minables neodymium 3 10.839843
+	minables aluminum 5 7.085142
+	fleet "Vareen Civilian" 800
+	fleet "Vareen Guard" 1200
+	object
+		sprite star/a-supergiant
+		distance 387.5
+		period 381.39726
+	object
+		sprite star/f-supergiant
+		distance 387.5
+		period 381.39726
+		offset 180
+	object
+		sprite planet/gw-continential1
+		distance 1005
+		period 563.21486
+	object
+		sprite planet/ocean1-b
+		distance 1385
+		period 911.17054
+	object
+		sprite planet/browndwarf-y
+		distance 1952
+		period 1524.5607
+	object
+		sprite planet/gas5
+		distance 3020
+		period 2933.8332
+		object
+			sprite planet/desert4-b
+			distance 257
+			period 194.89985
+	object
+		sprite planet/gas10-hot
+		distance 5170
+		period 6571.4442
+	object
+		sprite planet/gas2
+		distance 10697
+		period 19557.71
+		object
+			sprite planet/miranda
+			distance 314
+			period 263.21237
+		object
+			sprite planet/rock14
+			distance 473
+			period 269.22125
+		object
+			sprite planet/ice7-b
+			distance 622
+			period 405.97865
+
+system Maehriphe
+	pos -52467.733 -54222.217
+	government Vareen
+	habitable 627.2
+	belt 1668
+	link Eeiralphari
+	link Maekaelkan
+	link Meekiukan
+	link Shinreeai
+	asteroids "large metal" 1 0.966
+	fleet "Vareen Civilian" 800
+	fleet "Vareen Guard" 1200
+	object
+		sprite star/a0
+		period 10
+	object "Majurea Si"
+		sprite planet/forest2
+		distance 517.88433
+		period 192.10981
+	object
+		sprite planet/desert8-b
+		distance 869
+		period 914.8958
+	object
+		sprite planet/lava4
+		distance 1518
+		period 2112.2709
+
+system Shinreeai
+	pos -52458.483 -54277.967
+	government Vareen
+	habitable 2560
+	belt 1976
+	link Eeiralphari
+	link Maehriphe
+	link "Oreei Asim"
+	link Vaerphis
+	link "Veeru Kichar"
+	asteroids "small rock" 11 1.3248
+	asteroids "medium rock" 3 0.9648
+	asteroids "large rock" 3 0.9072
+	asteroids "small metal" 7 0.8784
+	asteroids "large metal" 13 1.3536
+	minables aluminum 3 2.0649168
+	minables tungsten 4 2.1705968
+	fleet "Vareen Civilian" 800
+	fleet "Vareen Guard" 1200
+	object
+		sprite star/giant
+		distance 174.5
+		period 115.2559
+		offset 180
+	object
+		sprite star/g-giant
+		distance 174.5
+		period 115.2559
+	object
+		sprite planet/gas5
+		distance 687
+		period 318.31721
+	object
+		sprite planet/forest6
+		distance 1109
+		period 652.86341
+	object
+		sprite planet/desert6
+		distance 1584
+		period 1114.4428
+	object
+		sprite planet/gas9
+		distance 2150
+		period 1762.3116
+
+system Maaukeu
+	pos -52253.483 -54321.967
+	government Vareen
+	habitable 2205
+	belt 1559
+	link "Area Veephi"
+	link Aseareu
+	link Assriyai
+	link Maukeikan
+	asteroids "small rock" 4 1.9872
+	asteroids "medium rock" 1 2.1384
+	asteroids "large rock" 3 1.188
+	asteroids "small metal" 5 1.404
+	asteroids "medium metal" 84 1.7928
+	asteroids "large metal" 12 1.8144
+	minables silver 20 1.919766
+	fleet "Vareen Civilian" 800
+	fleet "Vareen Guard" 1200
+	object
+		sprite star/g0-old
+		period 10
+	object
+		sprite planet/mercury
+		distance 341
+		period 119.94227
+	object
+		sprite planet/ice3-b
+		distance 1191
+		period 782.90369
+	object
+		sprite planet/gas1-b
+		distance 2240
+		period 2019.3552
+	object
+		sprite planet/gas0-hot
+		distance 3505
+		period 3952.5077
+		object
+			sprite planet/rock20
+			distance 223
+			period 125.88034
+	object
+		sprite planet/gas16-b
+		distance 15183
+		period 35635.026
+
+system Assriyai
+	pos -52163.483 -54334.967
+	government Vareen
+	habitable 374.05
+	belt 1529
+	link Maaukeu
+	link Makreekan
+	link Maruhial
+	link Meemishor
+	asteroids "large rock" 1 3.876
+	asteroids "small metal" 7 2.958
+	asteroids "medium metal" 172 4.233
+	asteroids "large metal" 1 3.366
+	minables tungsten 5 5.5887299
+	minables aluminum 32 6.6162542
+	minables platinum 8 5.1710371
+	fleet "Vareen Civilian" 600
+	fleet "Vareen Guard" 1200
+
+system Mapharau
+	pos -52314.983 -54350.967
+	government Vareen
+	habitable 392.5
+	belt 1508
+	link "Area Veephi"
+	link Aseareu
+	link Ashimarin
+	asteroids "small rock" 3 5.133
+	asteroids "medium rock" 56 6.438
+	asteroids "large rock" 4 5.742
+	asteroids "small metal" 15 5.307
+	asteroids "medium metal" 23 5.742
+	asteroids "large metal" 69 5.22
+	minables lead 1 8.7195832
+	minables neodymium 4 6.1785128
+	fleet "Vareen Civilian" 800
+	fleet "Vareen Guard" 1200
+	object
+		sprite star/a-dwarf
+		distance 108.6051
+		period 57.869293
+	object
+		sprite star/k5
+		distance 9.3949045
+		period 57.869293
+		offset 180
+	object
+		sprite planet/rock19-b
+		distance 268
+		period 198.07395
+	object
+		sprite planet/rock4-b
+		distance 585
+		period 638.79126
+	object
+		sprite planet/gas6
+		distance 1470
+		period 2544.4924
+	object
+		sprite planet/gas13-b
+		distance 2465
+		period 5525.2324
+	object
+		sprite planet/browndwarf-t
+		distance 3989
+		period 11374.209
+
+system Ashimarin
+	pos -52389.983 -54383.967
+	government Vareen
+	habitable 245
+	belt 1558
+	link Mapharau
+	link "Veeru Kichar"
+	asteroids "medium rock" 89 1.7765
+	asteroids "large rock" 3 2.6486
+	asteroids "small metal" 6 3.0685
+	asteroids "medium metal" 12 2.4548
+	asteroids "large metal" 3 2.5194
+	minables aluminum 7 3.5182175
+	minables iron 18 2.01685
+	fleet "Vareen Civilian" 800
+	fleet "Vareen Guard" 1200
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/ocean6-b
+		distance 288
+		period 279.28698
+	object
+		sprite planet/gas14
+		distance 1155
+		period 2243.0292
+		object
+			sprite planet/ice0
+			distance 256
+			period 154.83194
+	object
+		sprite planet/gas0
+		distance 1923
+		period 4818.711
+	object
+		sprite planet/europa
+		distance 4212
+		period 15620.484
+
+system "Veeru Kichar"
+	pos -52453.983 -54360.967
+	government Vareen
+	habitable 1411.2
+	belt 1178
+	link Ashimarin
+	link "Oreei Asim"
+	link Shinreeai
+	asteroids "large metal" 1 3.9933
+	fleet "Vareen Civilian" 800
+	fleet "Vareen Guard" 1200
+	object
+		sprite star/o8
+		period 10
+	object
+		sprite planet/rock11-b
+		distance 384
+		period 179.16268
+	object
+		sprite planet/cloud2
+		distance 1092.4675
+		period 573.45558
+	object
+		sprite planet/gas3-b
+		distance 2623
+		period 3198.5132
+	object
+		sprite planet/gas16
+		distance 4126
+		period 6310.2206
+	object
+		sprite planet/gas0
+		distance 5336
+		period 9280.5655
+	object
+		sprite planet/gas11
+		distance 12634
+		period 33811.312
+		object
+			sprite planet/dust1
+			distance 273
+			period 140.28866
+		object
+			sprite planet/izanamistation
+			distance 458
+			period 167.9801
+
+planet "Majurea Si"
+	landscape land/land6
+	description .
+	spaceport .
+
+planet Sumeeurirai
+	landscape land/watershore0
+	description .
+	spaceport .
+
+system Maruhial
+	pos -52071.9 -54355.05
+	government Vareen
+	habitable 369.8
+	belt 1531
+	link Assriyai
+	asteroids "small rock" 40 2.088
+	asteroids "medium rock" 63 1.944
+	asteroids "large rock" 15 3.456
+	asteroids "small metal" 6 3.204
+	asteroids "medium metal" 253 2.916
+	asteroids "large metal" 4 2.448
+	minables lead 2 2.944705
+	minables aluminum 56 3.8697996
+	fleet "Vareen Civilian" 600
+	fleet "Vareen Guard" 1100
+	object
+		sprite star/g8
+		period 10
+	object Ruaisimee
+		sprite planet/forest6
+		distance 434.14337
+		period 561.09985
+	object
+		sprite planet/gas2-b
+		distance 1669
+		period 3171.3637
+	object
+		sprite planet/gas4-b
+		distance 3888
+		period 11275.892
+		object
+			sprite "planet/station dels1"
+			distance 269
+			period 166.77427
+	object
+		sprite planet/gas7
+		distance 7291
+		period 28956.241
+		object
+			sprite planet/miranda-b
+			distance 260
+			period 198.32244
+	object
+		sprite planet/browndwarf-l-rouge
+		distance 15277
+		period 87825.101
+		object
+			sprite planet/dust5-b
+			distance 286
+			period 126.58046
+
+planet Ruaisimee
+	landscape land/moutaingrey0
+	description "A densely populated planet with highly decorated skyscrapers each so tall it's difficult to see the ground below. Many of these buildings are connected with curved bridges for pedestrian and vehicles alike."
+	spaceport .
+
+system Vaerphis
+	pos -52547.733 -54270.828
+	government Vareen
+	habitable 720
+	belt 1096
+	link Shinreeai
+	asteroids "medium rock" 17 2.546
+	asteroids "large rock" 3 2.736
+	asteroids "large metal" 5 2.85
+	minables neodymium 1 2.8215608
+	minables lead 3 4.6727992
+	fleet "Vareen Civilian" 800
+	fleet "Vareen Guard" 1200
+	object
+		sprite star/b8
+		period 10
+	object
+		sprite planet/cloud0
+		distance 338
+		period 207.13515
+	object
+		sprite planet/gas17
+		distance 1250
+		period 1473.1391
+	object
+		sprite planet/gas6-hot
+		distance 2526
+		period 4231.8354
+		object
+			sprite planet/dust3-b
+			distance 352
+			period 249.64025
+	object
+		sprite planet/gas10-hot
+		distance 8794
+		period 27488.968
+	object
+		sprite planet/gas3
+		distance 17620
+		period 77962.831
+		object
+			sprite planet/rhea-b
+			distance 323
+			period 180.54371
+
+system Aseareu
+	pos -52250.733 -54411.272
+	government Vareen
+	habitable 3699.2
+	belt 1606
+	link Maaukeu
+	link Mapharau
+	link Meemishor
+	asteroids "small rock" 9 1.352
+	asteroids "medium rock" 35 2.0592
+	asteroids "large rock" 32 1.1024
+	asteroids "small metal" 7 1.456
+	asteroids "medium metal" 7 1.7264
+	asteroids "large metal" 1 1.9552
+	minables titanium 4 2.0756695
+	minables iron 9 2.0725102
+	fleet "Vareen Civilian" 800
+	fleet "Vareen Guard" 1200
+	object
+		sprite star/f-giant
+		period 10
+	object
+		sprite planet/gas2-b
+		distance 1009
+		period 471.33299
+		object
+			sprite planet/station3bd
+			distance 294
+			period 131.9285
+		object
+			sprite planet/rock14
+			distance 434
+			period 236.62042
+		object
+			sprite planet/rhea
+			distance 635
+			period 497.66738
+	object
+		sprite planet/gas11
+		distance 2352
+		period 1677.4403
+		object
+			sprite planet/station3ver8
+			distance 275
+			period 172.38507
+	object
+		sprite planet/gas2
+		distance 3982
+		period 3695.2427
+		object
+			sprite planet/dust7-b
+			distance 315
+			period 211.33258
+	object
+		sprite planet/jupiter
+		distance 6769
+		period 8189.886
+	object
+		sprite planet/neptune
+		distance 7835
+		period 10198.812
+
+system Meemishor
+	pos -52177.706 -54411.661
+	government Vareen
+	habitable 204.8
+	belt 1304
+	link Aseareu
+	link Assriyai
+	link Nahrouel
+	asteroids "small rock" 39 2.574
+	asteroids "medium rock" 8 1.8018
+	asteroids "large rock" 13 2.2308
+	asteroids "small metal" 19 1.5444
+	asteroids "medium metal" 14 2.2594
+	asteroids "large metal" 6 2.002
+	fleet "Vareen Civilian" 800
+	fleet "Vareen Guard" 1200
+	object
+		sprite star/m5
+		period 10
+	object
+		sprite planet/cloud8
+		distance 256
+		period 256
+	object
+		sprite planet/lava6
+		distance 895
+		period 1673.457
+	object
+		sprite planet/ocean2
+		distance 1331
+		period 3034.919
+	object
+		sprite planet/gas16-b
+		distance 2568
+		period 8133.4078
+		object
+			sprite planet/rhea
+			distance 654
+			period 520.16989
+	object
+		sprite planet/gas2-hot
+		distance 7771
+		period 42814.944
+		object
+			sprite planet/dust5
+			distance 207
+			period 77.942286
+	object
+		sprite planet/browndwarf-y-rouge
+		distance 9207
+		period 55215.02
+		object
+			sprite planet/europa
+			distance 293
+			period 237.25385
+		object
+			sprite planet/luna-b
+			distance 424
+			period 330.02695
+		object
+			sprite planet/dust3-b
+			distance 604
+			period 561.12036
+
+system Nahrouel
+	pos -52122.733 -54462.55
+	government Vareen
+	habitable 1081.25
+	belt 1156
+	link Makyreeli
+	link Meemishor
+	asteroids "small rock" 2 2.8182
+	asteroids "medium rock" 7 3.5574
+	asteroids "large rock" 1 3.3726
+	asteroids "small metal" 1 4.5276
+	asteroids "medium metal" 4 2.9568
+	asteroids "large metal" 2 3.003
+	fleet "Vareen Civilian" 800
+	fleet "Vareen Guard" 1200
+	object
+		sprite star/k0
+		distance 91.560694
+		period 43.856703
+	object
+		sprite star/b8
+		distance 45.939306
+		period 43.856703
+		offset 180
+	object
+		sprite planet/ice6
+		distance 327
+		period 160.84352
+	object
+		sprite planet/ocean8-b
+		distance 852.19738
+		period 487.66074
+	object
+		sprite planet/gas12-b
+		distance 2221
+		period 2847.1134
+	object
+		sprite planet/jupiter
+		distance 3192
+		period 4905.4207
+		object
+			sprite planet/tethys
+			distance 416
+			period 522.55781
+	object
+		sprite planet/gas0-b
+		distance 4679
+		period 8705.8564
+		object
+			sprite planet/dust1-b
+			distance 289
+			period 152.8007
+
+system Makyreeli
+	pos -52034.039 -54475.883
+	government Vareen
+	habitable 500
+	belt 1805
+	link Nahrouel
+	link Shieenereen
+	asteroids "small rock" 1 2.5143
+	asteroids "large rock" 3 2.3987
+	asteroids "small metal" 1 1.8207
+	asteroids "medium metal" 15 2.2253
+	asteroids "large metal" 5 2.5721
+	minables titanium 1 2.5003332
+	minables lead 6 3.1566129
+	minables aluminum 2 2.3686151
+	fleet "Vareen Civilian" 800
+	fleet "Vareen Guard" 1200
+	object
+		sprite star/f0
+		period 10
+	object Anreeshi
+		sprite planet/gw-continential4
+		distance 502.54804
+		period 335.72607
+		object
+			sprite planet/rock17
+			distance 185
+			period 154.97154
+	object
+		sprite planet/UPS5
+		distance 957
+		period 1184.2077
+	object
+		sprite planet/gas0-b
+		distance 1635
+		period 2644.4577
+	object
+		sprite planet/gas16
+		distance 2926
+		period 6330.9878
+		object
+			sprite planet/luna
+			distance 389
+			period 290.01805
+	object
+		sprite planet/gas14-b
+		distance 4593
+		period 12451.012
+		object
+			sprite "planet/asteroid base3"
+			distance 282
+			period 123.93423
+
+planet "Sieeru Kuhrel"
+	landscape land/sea5
+	description .
+	spaceport .
+
+planet Anreeshi
+	landscape land/land4
+	description .
+	spaceport .
+
+system Shieenereen
+	pos -51959.706 -54523.55
+	government Vareen
+	habitable 1649.8
+	belt 1190
+	link Aphrekun
+	link Makyreeli
+	link Vehnrun
+	asteroids "large metal" 1 2.142
+	fleet "Vareen Civilian" 800
+	fleet "Vareen Guard" 1200
+	object
+		sprite star/g8
+		distance 141.98085
+		period 54.51374
+		offset 180
+	object
+		sprite star/g5-old
+		distance 41.019154
+		period 54.51374
+	object
+		sprite planet/gas9-hot
+		distance 526
+		period 265.64886
+		object
+			sprite planet/station13
+			distance 198
+			period 86.651557
+	object
+		sprite planet/gw-continential4
+		distance 1062
+		period 762.1073
+	object
+		sprite planet/browndwarf-y
+		distance 8581
+		period 17503.955
+		object
+			sprite planet/rock20
+			distance 300
+			period 196.41855
+
+system Aphrekun
+	pos -51917.706 -54578.55
+	government Vareen
+	habitable 44556.8
+	belt 1145
+	link Shieenereen
+	asteroids "small rock" 1 2.0412
+	asteroids "medium rock" 1 1.9116
+	asteroids "large rock" 1 2.8188
+	asteroids "medium metal" 11 2.7864
+	asteroids "large metal" 1 2.5272
+	minables tungsten 1 3.243875
+	fleet "Vareen Civilian" 800
+	fleet "Vareen Guard" 1200
+	object
+		sprite star/g-supergiant
+		period 10
+	object
+		sprite planet/rock12
+		distance 853
+		period 105.56296
+		object
+			sprite planet/rock0
+			distance 172
+			period 85.269416
+	object
+		sprite planet/gas6-hot
+		distance 1606
+		period 272.71329
+	object
+		sprite planet/browndwarf-l
+		distance 2215
+		period 441.72156
+	object
+		sprite planet/gas1-b
+		distance 3737
+		period 967.99395
+
+system Vehnrun
+	pos -51825.678 -54498.606
+	government Vareen
+	habitable 500
+	belt 1550
+	link Ashikan
+	link Ehreenai
+	link Sahnraen
+	link Shieenereen
+	asteroids "large metal" 1 5.346
+	fleet "Vareen Civilian" 800
+	fleet "Vareen Guard" 1500
+	object
+		sprite star/f0
+		period 10
+	object
+		sprite planet/ocean6-b
+		distance 398
+		period 317.603
+	object
+		sprite planet/ice1-b
+		distance 1200
+		period 1662.7688
+		object
+			sprite planet/ice0-b
+			distance 183
+			period 93.578753
+	object
+		sprite planet/cloud5-b
+		distance 1772
+		period 2983.7028
+	object
+		sprite planet/gas2-hot
+		distance 2866
+		period 6137.2564
+		object
+			sprite planet/station14
+			distance 222
+			period 125.03456
+
+system Ashikan
+	pos -51846.094 -54419.772
+	government Vareen
+	habitable 423.2
+	belt 1419
+	link Alisbatir
+	link Nhkriai
+	link Sahnraen
+	link Vehnrun
+	asteroids "small rock" 3 6.111
+	asteroids "medium rock" 5 3.213
+	asteroids "large rock" 11 3.402
+	asteroids "small metal" 1 5.922
+	asteroids "medium metal" 6 5.985
+	asteroids "large metal" 2 3.465
+	minables platinum 1 4.7328435
+	minables aluminum 6 7.0325145
+	minables copper 1 6.218586
+	fleet "Vareen Civilian" 900
+	fleet "Vareen Guard" 1400
+	object
+		sprite star/f3
+		period 10
+	object
+		sprite planet/lava3
+		distance 264
+		period 186.49966
+	object
+		sprite planet/rock14-b
+		distance 630
+		period 687.51628
+	object
+		sprite planet/ocean3
+		distance 1619
+		period 2832.3208
+	object
+		sprite planet/jupiter
+		distance 2370
+		period 5016.4292
+		object
+			sprite planet/oberon-b
+			distance 425
+			period 539.60721
+
+system Makreekan
+	pos -52098.817 -54281.633
+	government Uninhabited
+	habitable 151.25
+	belt 1785
+	haze "ui/gw haze decay"
+	link Assriyai
+	link Ysniliia
+	asteroids "small rock" 37 4.62
+	asteroids "medium rock" 34 6.09
+	asteroids "large rock" 1 5.18
+	asteroids "small metal" 26 3.5
+	asteroids "medium metal" 176 6.37
+	asteroids "large metal" 126 4.2
+	minables lead 5 9.2575088
+	minables copper 59 6.92587
+	hazard "GW Cloud of Decay" 1
+	object
+		sprite star/m8
+		period 10
+	object
+		sprite planet/lava7-b
+		distance 273
+		period 328.05093
+	object
+		sprite planet/lava6
+		distance 1600.5449
+		period 6909.0509
+	object
+		sprite planet/gas6-hot
+		distance 3392
+		period 14367.495
+
+system Maukeikan
+	pos -52180.956 -54261.356
+	government Uninhabited
+	habitable 19468.8
+	belt 1194
+	haze "ui/gw haze decay"
+	link Csiniliia
+	link Maaukeu
+	asteroids "small rock" 1 4.255
+	asteroids "medium rock" 7 5.2325
+	asteroids "large rock" 1 4.0825
+	asteroids "small metal" 16 3.1625
+	asteroids "medium metal" 16 4.945
+	asteroids "large metal" 40 4.8875
+	minables aluminum 10 8.070947
+	minables silver 10 6.4073996
+	hazard "GW Cloud of Decay" 1
+	object
+		sprite star/o-supergiant
+		period 10
+	object
+		sprite planet/gas16-b
+		distance 1994
+		period 570.77262
+
+system Esnikriai
+	pos -52258.872 -54210.661
+	government Uninhabited
+	haze "ui/gw haze decay"
+	link Esniliai
+	hazard "GW Cloud of Decay" 1
+
+system Iraleekan
+	pos -52320.983 -54164.883
+	government Uninhabited
+	habitable 361.25
+	belt 1514
+	haze "ui/gw haze decay"
+	link Chiniliai
+	link Eeiralphari
+	asteroids "medium rock" 1 3.174
+	asteroids "large rock" 11 4.5494
+	asteroids "small metal" 4 4.7081
+	asteroids "medium metal" 59 3.5972
+	asteroids "large metal" 2 3.6501
+	minables copper 2 5.729452
+	hazard "GW Cloud of Decay" 1
+	object
+		sprite star/k8
+		period 10
+	object
+		sprite planet/lava5
+		distance 284
+		period 225.22603
+	object
+		sprite planet/lava5-b
+		distance 599
+		period 689.8923
+
+system Meekiukan
+	pos -52403.15 -54143.05
+	government Uninhabited
+	haze "ui/gw haze decay"
+	link Eeiralphari
+	link Kisniliia
+	link Maehriphe
+	link Woniliai
+	hazard "GW Cloud of Decay" 1
+
+system Maekaelkan
+	pos -52528.9 -54199.05
+	government Uninhabited
+	haze "ui/gw haze decay"
+	link Maehriphe
+	link Msniliia
+	hazard "GW Cloud of Decay" 1
+
+system Nhnikriai
+	pos -52601.428 -54234.383
+	government Uninhabited
+	haze "ui/gw haze decay"
+	link Nhniliai
+	hazard "GW Cloud of Decay" 1
+
+system Sahnraen
+	pos -51766.678 -54451.467
+	government Vareen
+	habitable 627.2
+	belt 1341
+	link Ashikan
+	link Vehnrun
+	asteroids "small rock" 23 1.625
+	asteroids "medium rock" 4 2.325
+	asteroids "large rock" 5 2.075
+	asteroids "small metal" 58 1.65
+	asteroids "medium metal" 70 1.55
+	asteroids "large metal" 10 2.5
+	minables aluminum 11 3.0376176
+	minables iron 17 2.2462206
+	fleet "Vareen Civilian" 900
+	fleet "Vareen Guard" 1400
+	object
+		sprite star/a0
+		period 10
+	object
+		sprite planet/rock6
+		distance 278
+		period 165.54237
+	object
+		sprite planet/mars
+		distance 871
+		period 918.05606
+	object
+		sprite planet/desert9-b
+		distance 1343
+		period 1757.7455
+	object
+		sprite planet/neptune-b
+		distance 2388
+		period 4167.6712
+
+system Cikriai
+	pos -51104.289 -54521.356
+	government Uninhabited
+	habitable 806.68
+	belt 1383
+	haze "ui/gw haze decay"
+	link Ciliai
+	link Zahnrouel
+	asteroids "small rock" 12 4.8776
+	asteroids "medium rock" 41 4.2224
+	asteroids "large rock" 24 3.9312
+	asteroids "small metal" 25 9.0272
+	asteroids "medium metal" 4 8.0808
+	asteroids "large metal" 7 5.9696
+	minables iron 14 8.45646
+	minables tungsten 1 7.62576
+	hazard "GW Cloud of Decay" 1
+
+system Zahnrouel
+	pos -51065.956 -54604.606
+	government Uninhabited
+	habitable 500
+	belt 1509
+	haze "ui/gw haze decay"
+	link Cikriai
+	asteroids "medium rock" 6 2.387
+	asteroids "large rock" 1 1.55
+	asteroids "medium metal" 2 2.48
+	asteroids "large metal" 1 2.542
+	hazard "GW Cloud of Decay" 5
+	object
+		sprite star/f0
+		period 10
+	object
+		sprite planet/gas12-b
+		distance 4898
+		period 13711.601
+
+system Asikriis
+	pos -51188.456 -54503.772
+	government Uninhabited
+	habitable 806.68
+	belt 1383
+	haze "ui/gw haze decay"
+	link Asiliis
+	asteroids "small rock" 12 4.8776
+	asteroids "medium rock" 41 4.2224
+	asteroids "large rock" 24 3.9312
+	asteroids "small metal" 25 9.0272
+	asteroids "medium metal" 4 8.0808
+	asteroids "large metal" 7 5.9696
+	minables iron 14 8.45646
+	minables tungsten 1 7.62576
+	hazard "GW Cloud of Decay" 1
+
+system Sikriia
+	pos -51044.372 -54463.994
+	government Uninhabited
+	habitable 806.68
+	belt 1383
+	haze "ui/gw haze decay"
+	link Siliia
+	asteroids "small rock" 12 4.8776
+	asteroids "medium rock" 41 4.2224
+	asteroids "large rock" 24 3.9312
+	asteroids "small metal" 25 9.0272
+	asteroids "medium metal" 4 8.0808
+	asteroids "large metal" 7 5.9696
+	minables iron 14 8.45646
+	minables tungsten 1 7.62576
+	hazard "GW Cloud of Decay" 1
+
+system Ehreenai
+	pos -51746.289 -54536.994
+	government Vareen
+	habitable 204.8
+	belt 1778
+	link Sekeeuna
+	link Vehnrun
+	asteroids "small rock" 11 3.99
+	asteroids "medium rock" 140 5.643
+	asteroids "large rock" 24 4.389
+	asteroids "small metal" 10 3.705
+	asteroids "medium metal" 21 3.705
+	asteroids "large metal" 4 2.964
+	minables silver 18 9.4159535
+	minables neodymium 30 7.7713341
+	fleet "Vareen Civilian" 800
+	fleet "Vareen Guard" 1500
+	object
+		sprite star/m5
+		period 10
+	object Iceensha
+		sprite planet/gw-continential3
+		distance 313
+		period 346.09596
+	object
+		sprite planet/gas17-b
+		distance 1007
+		period 1997.2123
+	object
+		sprite planet/gas9-b
+		distance 2308
+		period 6930.0078
+		object
+			sprite "planet/asteroid base2"
+			distance 288
+			period 127.91055
+	object
+		sprite planet/dust0
+		distance 3237
+		period 11510.497
+	object
+		sprite planet/gas16-b
+		distance 4044
+		period 16072.992
+		object
+			sprite "planet/asteroid base3"
+			distance 228
+			period 90.098984
+		object
+			sprite planet/ionestation
+			distance 380
+			period 91.287093
+	object
+		sprite planet/gas7
+		distance 6711
+		period 34360.611
+
+planet Iceensha
+	landscape land/snow6
+	description .
+	spaceport .
+
+planet Vhereesh
+	landscape land/mountain1
+	description "There's only one large city on this planet centered around a strange building in the center which looks somewhat like a crashed ship. The surrounding building gradually gets taller as it's further from the center."
+	spaceport .
+
+system Sekeeuna
+	pos -51651.178 -54535.467
+	government Vareen
+	habitable 2560
+	belt 1417
+	link Ehreenai
+	link "Inhra Keeu"
+	link Seliierakan
+	asteroids "small rock" 6 1.3299
+	asteroids "medium rock" 15 0.8294
+	asteroids "large rock" 6 1.1154
+	asteroids "small metal" 3 0.9581
+	asteroids "medium metal" 6 1.2155
+	asteroids "large metal" 1 1.1011
+	minables iron 1 1.6659515
+	minables tungsten 3 1.0840096
+	minables silicon 1 1.1358761
+	fleet "Vareen Civilian" 800
+	fleet "Vareen Guard" 1500
+	object
+		sprite star/a-supergiant
+		distance 376
+		period 364.54553
+	object
+		sprite star/m-giant
+		distance 376
+		period 364.54553
+		offset 180
+	object
+		sprite planet/gas8-b
+		distance 1941
+		period 1511.692
+	object
+		sprite planet/gas1-b
+		distance 2981
+		period 2877.1862
+	object
+		sprite planet/gas16-b
+		distance 3992
+		period 4458.7263
+	object
+		sprite planet/gas4
+		distance 7391
+		period 11232.588
+		object
+			sprite planet/dust1
+			distance 250
+			period 122.93869
+	object
+		sprite planet/browndwarf-t
+		distance 11026
+		period 20466.896
+		object
+			sprite planet/dust4-b
+			distance 279
+			period 144.93888
+
+system "Inhra Keeu"
+	pos -51551.678 -54541.383
+	government Vareen
+	habitable 304.9
+	belt 1224
+	link Asranheel
+	link Sekeeuna
+	link Veeurkan
+	asteroids "small rock" 1 2.9792
+	asteroids "medium rock" 39 2.926
+	asteroids "large rock" 2 3.724
+	asteroids "small metal" 4 4.7348
+	asteroids "medium metal" 66 4.4156
+	asteroids "large metal" 22 3.6708
+	minables lead 2 4.8334217
+	minables uranium 24 4.4870778
+	fleet "Vareen Civilian" 900
+	fleet "Vareen Guard" 1500
+	object
+		sprite star/m-dwarf
+		distance 91.394884
+		period 46.682925
+		offset 180
+	object
+		sprite star/m0
+		distance 2.6051164
+		period 46.682925
+	object Khanphae
+		sprite planet/desert3-b
+		distance 456.59213
+		period 552.19951
+	object
+		sprite planet/lava5
+		distance 1127
+		period 1937.9928
+	object
+		sprite planet/saturn
+		distance 2303
+		period 5661.1829
+		object
+			sprite "planet/station dels4"
+			distance 299
+			period 88.606667
+		object
+			sprite planet/station1adm
+			distance 501
+			period 97.342862
+		object
+			sprite planet/station16
+			distance 720
+			period 505.61083
+	object
+		sprite planet/gas9
+		distance 3672
+		period 11397.781
+		object
+			sprite planet/miranda-b
+			distance 233
+			period 168.24637
+	object
+		sprite planet/gas16
+		distance 5028
+		period 18262.456
+
+system Veeurkan
+	pos -51534.067 -54496.606
+	government Uninhabited
+	haze "ui/gw haze decay"
+	link Chiliai
+	link "Inhra Keeu"
+	link Seliierakan
+	hazard "GW Cloud of Decay" 1
+
+system Seliierakan
+	pos -51608.4 -54468.494
+	government Uninhabited
+	haze "ui/gw haze decay"
+	link Kisliia
+	link Sekeeuna
+	link Veeurkan
+	hazard "GW Cloud of Decay" 1
+
+system Nhkriai
+	pos -51843.344 -54352.939
+	government Uninhabited
+	haze "ui/gw haze decay"
+	link Ashikan
+	link Nhliai
+	hazard "GW Cloud of Decay" 1
+
+system Asranheel
+	pos -51455.678 -54560.439
+	government Vareen
+	habitable 500
+	belt 1081
+	link "Inhra Keeu"
+	link "Mehrul Kuai"
+	asteroids "medium rock" 3 4.056
+	asteroids "large rock" 1 4.004
+	asteroids "small metal" 21 4.628
+	asteroids "medium metal" 32 3.068
+	asteroids "large metal" 4 3.068
+	minables aluminum 8 5.8006631
+	minables titanium 15 4.8283824
+	minables silicon 10 5.4741235
+	fleet "Vareen Civilian" 900
+	fleet "Vareen Guard" 1600
+	object
+		sprite star/f0
+		period 10
+	object
+		sprite planet/rock6-b
+		distance 421.42473
+		period 237.61331
+	object Cueiphi
+		sprite planet/rock2
+		distance 897
+		period 1074.6045
+	object
+		sprite planet/gas15
+		distance 5545
+		period 16516.283
+	object
+		sprite planet/browndwarf-y
+		distance 11482
+		period 49213.733
+		object
+			sprite planet/rock7-b
+			distance 300
+			period 245.8067
+	object
+		sprite planet/gas13-b
+		distance 24341
+		period 151903.44
+		object
+			sprite planet/luna
+			distance 276
+			period 173.32621
+
+system "Mehrul Kuai"
+	pos -51371.344 -54562.772
+	government Vareen
+	habitable 382.6
+	belt 1618
+	link Asranheel
+	link Kueenphakan
+	asteroids "large rock" 1 3.726
+	asteroids "small metal" 2 3.6432
+	asteroids "medium metal" 8 2.3184
+	asteroids "large metal" 5 2.5668
+	fleet "Vareen Civilian" 1000
+	fleet "Vareen Guard" 1700
+	object
+		sprite star/l-dwarf
+		distance 100.52065
+		period 48.497854
+		offset 180
+	object
+		sprite star/g8
+		distance 3.4793518
+		period 48.497854
+	object Seefuephr
+		sprite planet/rock12
+		distance 371.99207
+		period 211.95307
+	object
+		sprite planet/cloud6-b
+		distance 669
+		period 791.24629
+	object
+		sprite planet/ice5
+		distance 1023
+		period 1496.1873
+	object
+		sprite planet/water1-b
+		distance 1434
+		period 2483.1116
+	object
+		sprite planet/io-b
+		distance 1898
+		period 3781.0883
+	object
+		sprite planet/gas1
+		distance 2844
+		period 6935.3263
+		object
+			sprite planet/ice8
+			distance 481
+			period 398.7661
+		object
+			sprite planet/lava0-b
+			distance 624
+			period 407.93832
+
+system Eskriai
+	pos -51434.178 -54492.189
+	government Uninhabited
+	haze "ui/gw haze decay"
+	link Esliai
+	hazard "GW Cloud of Decay" 1
+
+system Kueenphakan
+	pos -51343.178 -54508.189
+	government Uninhabited
+	haze "ui/gw haze decay"
+	link Csiliia
+	link "Mehrul Kuai"
+	hazard "GW Cloud of Decay" 1
+
+system Yskriia
+	pos -51252.511 -54480.772
+	government Uninhabited
+	habitable 806.68
+	belt 1383
+	haze "ui/gw haze decay"
+	link Ysliia
+	asteroids "small rock" 12 4.8776
+	asteroids "medium rock" 41 4.2224
+	asteroids "large rock" 24 3.9312
+	asteroids "small metal" 25 9.0272
+	asteroids "medium metal" 4 8.0808
+	asteroids "large metal" 7 5.9696
+	minables iron 14 8.45646
+	minables tungsten 1 7.62576
+	hazard "GW Cloud of Decay" 1
+
+system Yskriia
+	pos -51252.511 -54480.772
+	government Uninhabited
+	habitable 806.68
+	belt 1383
+	haze "ui/gw haze decay"
+	link Ysliia
+	asteroids "small rock" 12 4.8776
+	asteroids "medium rock" 41 4.2224
+	asteroids "large rock" 24 3.9312
+	asteroids "small metal" 25 9.0272
+	asteroids "medium metal" 4 8.0808
+	asteroids "large metal" 7 5.9696
+	minables iron 14 8.45646
+	minables tungsten 1 7.62576
+	hazard "GW Cloud of Decay" 1
+
+planet Khanphae
+	landscape land/bwerner6
+	description "A desert planet home to a small outpost."
+	spaceport .
+
+planet Cueiphi
+	landscape land/snow1
+	description .
+	spaceport .
+
+planet Seefuephr
+	landscape land/canyon3
+	description .
+	spaceport .
+
+system Mskriia
+	hidden
+	pos -51758.067 -54383.939
+	government Uninhabited
+	haze "ui/gw haze decay"
+	hazard "GW Cloud of Decay" 1
+
+system Wokriai
+	pos -51675.4 -54433.939
+	government Uninhabited
+	haze "ui/gw haze decay"
+	hazard "GW Cloud of Decay" 1
+
+system Sinikriia
+	pos -51951.483 -54292.106
+	government Uninhabited
+	haze "ui/gw haze decay"
+	link Siniliia
+	hazard "GW Cloud of Decay" 1
+
+system Asinikriis
+	pos -52010.15 -54316.772
+	government Uninhabited
+	haze "ui/gw haze decay"
+	hazard "GW Cloud of Decay" 1
+
+system Axukral
+	pos -51509.983 -54261.161
+	government Akralva
+	habitable 441.8
+	belt 1713
+	link Luxkuei
+	link Thilisiri
+	asteroids "small rock" 4 6.474
+	asteroids "medium rock" 21 5.538
+	asteroids "large rock" 40 7.8
+	asteroids "medium metal" 2 4.212
+	asteroids "large metal" 2 7.488
+	minables titanium 4 8.6797518
+	minables aluminum 13 13.075001
+	fleet "Akralva Hunter" 1200
+	fleet "Akralva Merchant" 1500
+	object
+		sprite star/f5
+		period 10
+	object Kuxrulai
+		sprite planet/cloud6-b
+		distance 436
+		period 387.40201
+	object
+		sprite planet/uranus
+		distance 1461
+		period 2376.3339
+		object
+			sprite planet/ice8-b
+			distance 259
+			period 157.56156
+	object
+		sprite planet/gas0-hot
+		distance 2330
+		period 4785.9264
+		object
+			sprite planet/station2ver8
+			distance 213
+			period 117.5087
+	object
+		sprite planet/gas10
+		distance 3142
+		period 7494.4783
+		object
+			sprite planet/europa
+			distance 223
+			period 157.53212
+	object
+		sprite planet/trochzempt_complete
+		distance 10411
+		period 45203.369
+		object
+			sprite planet/station5
+			distance 2592
+			period 2571.1347
+		object
+			sprite planet/station1adm
+			distance 2812
+			period 1294.4059
+	object
+		sprite planet/gas1
+		distance 21229
+		period 131621.38
+
+planet Kuxrulai
+	landscape land/canyon2
+	description .
+	spaceport .
+	outfitter "Akralva Basic"
 
