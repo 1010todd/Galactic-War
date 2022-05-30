@@ -125,11 +125,11 @@ outfit "Itir Gun"
 		sound "gw energylauncher2"
 		"hit effect" "particle impact"
 		"submunition" "Itir Fragment" 8
-		"inaccuracy" .5
+		"inaccuracy" 5
 		"velocity" 40
-		"lifetime" 8
+		"lifetime" 12
 		"reload" 20
-		"firing energy" 56
+		"firing energy" 51
 		"firing force" 8
 		"firing heat" 80
 		"hit force" 48
@@ -147,8 +147,6 @@ outfit "Itir Fragment"
 		"hit force" 12
 		"shield damage" 10
 		"hull damage" 5
-	
-
 	
 outfit "Viten Anti-Missile"
 	category "Turrets"
@@ -205,7 +203,7 @@ outfit "S1V4 Batteries"
 	thumbnail "outfit/tiny battery hai"
 	"mass" 5
 	"outfit space" -5
-	"energy capacity" 550
+	"energy capacity" 1023
 	description "Vareen tiny battery."
 
 outfit "S2V4 Batteries"
@@ -214,7 +212,7 @@ outfit "S2V4 Batteries"
 	thumbnail "outfit/small battery hai"
 	"mass" 15
 	"outfit space" -15
-	"energy capacity" 2050
+	"energy capacity" 3150
 	description "Vareen small battery."
 
 outfit "S3V4 Batteries"
@@ -223,7 +221,7 @@ outfit "S3V4 Batteries"
 	thumbnail "outfit/medium battery hai"
 	"mass" 30
 	"outfit space" -30
-	"energy capacity" 4080
+	"energy capacity" 6780
 	description "Vareen medium battery"
 	
 outfit "F3V2 Shielding System"
