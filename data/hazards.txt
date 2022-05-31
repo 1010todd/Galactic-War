@@ -95,3 +95,25 @@ hazard "GW Cloud of Decay"
 		"hull damage" 1
 		"piercing" .35
 		"target effect" "jump drive"
+		
+hazard "GW Hypertear"
+	"period" 30
+	"duration" 1 30
+	"strength" .5 5
+	"range" 100000
+	weapon
+		"relative heat damage" -0.1
+		"relative shield damage" .3
+		"relative hull damage" .05
+		"hull damage" 1500
+		"piercing" .75
+		"target effect" "gw hypertear"
+		
+effect "gw hypertear"
+	sprite "effect/gw hypertear"
+		"no repeat"
+		"frame rate" 12
+	"lifetime" 11
+	"random angle" 180
+	"random spin" 1
+	"velocity scale" 0.

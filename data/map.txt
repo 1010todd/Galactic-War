@@ -141973,3 +141973,99 @@ planet Kuxrulai
 	spaceport .
 	outfitter "Akralva Basic"
 
+system Yuhoreal
+	pos -49249.15 -55412.245
+	government Uninhabited
+	attributes hypertear
+	"jump range" 85
+	haze "ui/gw haze hypertear"
+	hazard "GW Hypertear" 60
+
+system Talroen
+	pos -49188.428 -55360.3
+	government Uninhabited
+	attributes hypertear
+	"jump range" 85
+	haze "ui/gw haze hypertear"
+	hazard "GW Hypertear" 60
+
+system Aseolu
+	pos -49153.928 -55283.578
+	government Uninhabited
+	attributes hypertear
+	"jump range" 85
+	haze "ui/gw haze hypertear"
+	hazard "GW Hypertear" 60
+
+system Saleorel
+	pos -49119.594 -55217.467
+	government Uninhabited
+	attributes hypertear
+	"jump range" 75
+	haze "ui/gw haze hypertear"
+	link Eueonai
+	hazard "GW Hypertear" 60
+
+system Eueonai
+	pos -49090.872 -55119.244
+	government Uninhabited
+	attributes hypertear
+	"jump range" 75
+	haze "ui/gw haze hypertear"
+	link Eureotal
+	link Saleorel
+	hazard "GW Hypertear" 60
+
+system Skureoli
+	pos -49031.344 -55174.744
+	government Uninhabited
+	attributes hypertear
+	"jump range" 75
+	haze "ui/gw haze hypertear"
+	hazard "GW Hypertear" 60
+
+system Ameonire
+	pos -48967.678 -55146.411
+	government Uninhabited
+	attributes hypertear
+	"jump range" 73
+	haze "ui/gw haze hypertear"
+	link Tseonu
+	hazard "GW Hypertear" 60
+
+system Eureotal
+	pos -49160.594 -55061.411
+	government Uninhabited
+	attributes hypertear
+	"jump range" 65
+	haze "ui/gw haze hypertear"
+	link Eueonai
+	hazard "GW Hypertear" 180
+
+system Tseonu
+	pos -48935.483 -55083.133
+	government Uninhabited
+	attributes hypertear
+	"jump range" 70
+	haze "ui/gw haze hypertear"
+	link Ameonire
+	link Yeanlru
+	hazard "GW Hypertear" 55
+
+system Yeanlru
+	pos -48888.233 -55037.772
+	government Uninhabited
+	attributes hypertear
+	"jump range" 65
+	haze "ui/gw haze hypertear"
+	link Tseonu
+	hazard "GW Hypertear" 45
+
+system Yucaeon
+	pos -48969.65 -53788.856
+	government Uninhabited
+	attributes hypertear
+	"jump range" 85
+	haze "ui/gw haze hypertear"
+	hazard "GW Hypertear" 45
+
