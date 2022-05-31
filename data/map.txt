@@ -5336,6 +5336,7 @@ system Arema
 	government Ignaggen
 	habitable 425.92
 	belt 1834
+	haze _menu/haze-blackbody
 	link Eribai
 	asteroids "small rock" 5 3.536
 	asteroids "medium rock" 31 4.264
@@ -17256,6 +17257,7 @@ system Dularvo
 	government Ignaggen
 	habitable 2340
 	belt 1410
+	haze _menu/haze-blackbody
 	link Korudir
 	link Vokuder
 	asteroids "small rock" 12 5.08
@@ -20097,6 +20099,7 @@ system Eldrra
 	government Ignaggen
 	habitable 553.28
 	belt 1406
+	haze _menu/haze-blackbody
 	link Leion
 	link Varleron
 	link Vibug
@@ -21116,6 +21119,7 @@ system Erdorina
 	government Ignaggen
 	habitable 2035
 	belt 1664
+	haze _menu/haze-blackbody
 	link Leion
 	link Varleron
 	link Vigune
@@ -35975,6 +35979,7 @@ system Iogarre
 	government Ignaggen
 	habitable 233.28
 	belt 1372
+	haze _menu/haze-blackbody
 	link Inen
 	link Leion
 	asteroids "small rock" 14 5.684
@@ -36507,6 +36512,7 @@ system Irviggo
 	government Ignaggen
 	habitable 486.68
 	belt 1680
+	haze _menu/haze-blackbody
 	link Eribai
 	asteroids "small rock" 1 8.787
 	asteroids "medium rock" 38 9.918
@@ -40718,6 +40724,7 @@ system Karlai
 	government Ignaggen
 	habitable 486.68
 	belt 1981
+	haze _menu/haze-blackbody
 	link Arger
 	link Rokarl
 	asteroids "medium rock" 6 6.2118
@@ -40769,6 +40776,7 @@ system Karllan
 	government Ignaggen
 	habitable 625
 	belt 1231
+	haze _menu/haze-blackbody
 	link Aregolli
 	link Varleron
 	link Vibug
@@ -55298,7 +55306,7 @@ system Kurdagor
 	government Ignaggen
 	habitable 320
 	belt 1554
-	haze _menu/haze-133
+	haze _menu/haze-blackbody
 	link Korudir
 	link Raskal
 	asteroids "small rock" 4 1.995
@@ -56814,6 +56822,7 @@ system Leion
 	government Ignaggen
 	habitable 320
 	belt 1775
+	haze _menu/haze-blackbody
 	link Eldrra
 	link Erdorina
 	link Iogarre
@@ -90511,6 +90520,7 @@ system Rokarl
 	government Ignaggen
 	habitable 858.28
 	belt 1117
+	haze _menu/haze-blackbody
 	link Karlai
 	asteroids "small rock" 77 3.9083
 	asteroids "medium rock" 230 4.6512
@@ -104851,6 +104861,7 @@ system Varleron
 	government Ignaggen
 	habitable 1080
 	belt 1530
+	haze _menu/haze-blackbody
 	link Eldrra
 	link Erdorina
 	link Karllan
@@ -106587,6 +106598,7 @@ system Vigune
 	government Ignaggen
 	habitable 320
 	belt 1508
+	haze _menu/haze-blackbody
 	link Erdorina
 	asteroids "small rock" 25 8.8088
 	asteroids "medium rock" 10 9.3184
@@ -108549,6 +108561,7 @@ system Vokuder
 	government Ignaggen
 	habitable 1566.68
 	belt 1613
+	haze _menu/haze-blackbody
 	link Dularvo
 	link Varleron
 	asteroids "small rock" 6 2.5608
@@ -140104,6 +140117,7 @@ system "Oreei Asim"
 	government Vareen
 	habitable 451125
 	belt 1872
+	haze _menu/haze-full
 	link "Area Veephi"
 	link Eeiralphari
 	link Shinreeai
@@ -142056,10 +142070,15 @@ system Yeanlru
 	pos -48888.233 -55037.772
 	government Uninhabited
 	attributes hypertear
+	habitable 1620
 	"jump range" 65
 	haze "ui/gw haze hypertear"
 	link Tseonu
+	asteroids "small metal" 2 0.05
 	hazard "GW Hypertear" 45
+	object
+		sprite "star/gw dark star"
+		period 5
 
 system Yucaeon
 	pos -48969.65 -53788.856
@@ -142068,4 +142087,435 @@ system Yucaeon
 	"jump range" 85
 	haze "ui/gw haze hypertear"
 	hazard "GW Hypertear" 45
+
+system Zulbueol
+	pos -48831.339 -54981.7
+	government Uninhabited
+	attributes hypertear
+	habitable 1620
+	"jump range" 65
+	haze "ui/gw haze hypertear"
+	asteroids "small metal" 5 0.07
+	hazard "GW Hypertear" 45
+	object
+		sprite "star/gw dark star"
+	object
+		sprite planet/lava6
+		distance 2605.4141
+		period 654
+
+system "Elem Bvragun"
+	pos -52574.561 -55029.228
+	government Uninhabited
+	habitable 1641.25
+	belt 1900
+	haze _menu/haze-133
+	link "Isgil Fratmav"
+	asteroids "small rock" 68 1.6632
+	asteroids "medium rock" 118 1.7892
+	asteroids "large rock" 28 1.512
+	asteroids "small metal" 8 2.0916
+	asteroids "large metal" 64 1.512
+	minables lead 10 2.6269017
+	hazard "GW Cloud of Decay" 5
+	object
+		sprite star/k8
+		distance 143.89033
+		period 55.328918
+	object
+		sprite star/b0
+		distance 40.609673
+		period 55.328918
+		offset 180
+	object
+		sprite planet/cloud5
+		distance 382
+		period 164.83623
+	object
+		sprite planet/ice7
+		distance 787
+		period 487.43838
+	object
+		sprite planet/desert10
+		distance 1293
+		period 1026.4916
+	object
+		sprite planet/uranus
+		distance 2096
+		period 2118.5784
+		object
+			sprite planet/station1b
+			distance 319
+			period 49.457658
+	object
+		sprite planet/browndwarf-t
+		distance 3463
+		period 4499.211
+	object
+		sprite planet/gas6-b
+		distance 5090
+		period 8017.4138
+
+system "Esila Bvragun"
+	pos -52567.367 -55111.228
+	government Uninhabited
+	habitable 1220
+	belt 1909
+	haze _menu/haze-133
+	link "Isgil Fratmav"
+	asteroids "small rock" 12 0.891
+	asteroids "medium rock" 10 1.6335
+	asteroids "large rock" 5 0.957
+	asteroids "small metal" 74 1.5675
+	asteroids "medium metal" 116 0.99
+	asteroids "large metal" 57 0.9735
+	minables iron 51 1.8321876
+	hazard "GW Cloud of Decay" 5
+	object
+		sprite star/f0
+		distance 92.429642
+		period 10
+	object
+		sprite planet/titan-b
+		distance 113.22069
+		period 10
+		offset 180
+	object
+		sprite planet/rock17-b
+		distance 706
+		period 288.59825
+	object
+		sprite planet/desert2
+		distance 1624
+		period 1006.8521
+		object
+			sprite planet/rock14
+			distance 196
+			period 71.812778
+	object
+		sprite planet/callisto
+		distance 3215
+		period 2804.5172
+
+system "Isgil Fratmav"
+	pos -52647.756 -55077.589
+	government Uninhabited
+	habitable 86595.2
+	belt 1604
+	haze _menu/haze-133
+	link "Alei Bvragun"
+	link "Aspei Bvragun"
+	link "Elem Bvragun"
+	link "Esila Bvragun"
+	link "Plamaj Bvragun"
+	asteroids "small rock" 104 4.0824
+	asteroids "medium rock" 12 5.4432
+	asteroids "large rock" 4 4.158
+	asteroids "small metal" 7 6.8796
+	asteroids "medium metal" 1 4.7628
+	asteroids "large metal" 8 4.8384
+	minables silver 5 6.3316288
+	minables tungsten 11 5.585258
+	hazard "GW Cloud of Decay" 5
+	object
+		sprite star/m-giant
+		period 10
+	object "Uilenxi Fratmav"
+		sprite "planet/igshoal outpost station"
+		distance 2187
+		period 1162.2258
+
+system "Aspei Bvragun"
+	pos -52730.839 -55036.144
+	government Uninhabited
+	habitable 2560
+	belt 1163
+	haze _menu/haze-133
+	link "Isgil Fratmav"
+	asteroids "large metal" 1 3.905
+	hazard "GW Cloud of Decay" 5
+	object
+		sprite star/o-supergiant
+		distance 379
+		period 368.91713
+		offset 180
+	object
+		sprite star/f-supergiant
+		distance 379
+		period 368.91713
+	object
+		sprite planet/gas4-b
+		distance 1210
+		period 744.05162
+		object
+			sprite planet/ice0
+			distance 273
+			period 170.50793
+	object
+		sprite planet/lava3-b
+		distance 1833
+		period 1387.2946
+	object
+		sprite planet/gas5
+		distance 2697
+		period 2475.976
+		object
+			sprite planet/dust1
+			distance 287
+			period 151.21728
+	object
+		sprite planet/saturn
+		distance 3925
+		period 4346.9486
+		object
+			sprite planet/europa-b
+			distance 286
+			period 228.80256
+	object
+		sprite planet/gas5-b
+		distance 5300
+		period 6820.855
+
+system "Alei Bvragun"
+	pos -52717.283 -55135.7
+	government Uninhabited
+	habitable 3276.8
+	belt 1747
+	haze _menu/haze-133
+	link "Isgil Fratmav"
+	asteroids "small rock" 4 2.46
+	asteroids "medium rock" 10 2.07
+	asteroids "large rock" 7 2.61
+	asteroids "small metal" 30 2.07
+	asteroids "medium metal" 51 2.52
+	asteroids "large metal" 55 2.88
+	minables aluminum 4 4.7460866
+	minables lead 4 4.1430067
+	hazard "GW Cloud of Decay" 5
+	object
+		sprite star/o0
+		period 10
+	object
+		sprite planet/cloud4-b
+		distance 449
+		period 148.65843
+	object
+		sprite planet/gas3-b
+		distance 998
+		period 492.62431
+	object
+		sprite planet/browndwarf-y-rouge
+		distance 2352
+		period 1782.2803
+		object
+			sprite planet/rock17
+			distance 268
+			period 270.20697
+	object
+		sprite planet/gas7-hot
+		distance 4823
+		period 5233.5445
+		object
+			sprite planet/dust4-b
+			distance 237
+			period 113.47524
+
+planet "Uilenxi Fratmav"
+	landscape land/station0
+	description "A massive derelict station of unknown origin heavily damaged from time, maintained by rarely sighted repair bots climbing along the walls. It appears to have multiple types of ports and bays to accomodate various ships of entirely different design possibly a home to inter-specie alliance, this is also reinforced by the fact that multiple equipment and consoles found inside often comes in various shape and size while seemingly all of the same function. Many of the systems within the station appears to be active with electricity still powering the lights in many area, thankfully the defense turrets are all broken or inactive."
+	spaceport "Non of the various ports on the station is compatible with your ship so you landed inside one of the open bay. From inside you can spot a few broken ships left behind varying in size from fighter to massive freighter, from quick inspection all of them are too heavily damaged to be repaired for now."
+
+system "Nsen Bvragun"
+	pos -52600.478 -55148.95
+	government Uninhabited
+	habitable 423.2
+	belt 1337
+	haze _menu/haze-133
+	asteroids "small rock" 2 2.1024
+	asteroids "medium rock" 24 2.7072
+	asteroids "large rock" 23 1.6992
+	asteroids "medium metal" 8 2.88
+	asteroids "large metal" 1 2.8512
+	minables aluminum 4 4.4130856
+	hazard "GW Cloud of Decay" 5
+	object
+		sprite star/f3
+		period 10
+	object
+		sprite planet/ganymede-b
+		distance 347
+		period 281.03886
+	object
+		sprite planet/mercury-b
+		distance 808
+		period 998.59458
+	object
+		sprite planet/forest4-b
+		distance 1117
+		period 1623.1248
+	object
+		sprite planet/gas6
+		distance 3891
+		period 10552.71
+	object
+		sprite planet/trochzempt_construction
+		distance 9565
+		period 40672.384
+		object
+			sprite planet/lava0-b
+			distance 2589
+			period 3447.5907
+	object
+		sprite "planet/asteroid base2"
+		distance 18072
+		period 105628.59
+
+system "Nlai Bvragun"
+	pos -52659.144 -55164.95
+	government Uninhabited
+	habitable 1525
+	belt 1237
+	haze _menu/haze-133
+	asteroids "small rock" 25 1.386
+	asteroids "medium rock" 74 1.722
+	asteroids "large rock" 98 1.197
+	asteroids "small metal" 5 1.155
+	asteroids "medium metal" 40 1.134
+	asteroids "large metal" 11 1.659
+	minables titanium 7 2.1877265
+	minables lead 36 2.4372404
+	hazard "GW Cloud of Decay" 5
+	object
+		sprite star/m4
+		distance 151.08197
+		period 55.311932
+		offset 180
+	object
+		sprite star/o8
+		distance 28.918033
+		period 55.311932
+	object
+		sprite planet/ice8-b
+		distance 294
+		period 115.45987
+	object
+		sprite "planet/zenith cold"
+		distance 582
+		period 321.58409
+	object
+		sprite planet/gas17
+		distance 1040
+		period 768.17484
+	object
+		sprite planet/UPS2
+		distance 2352
+		period 2612.5586
+
+system "Psen Bvragun"
+	pos -52692.811 -54999.617
+	government Uninhabited
+	habitable 28275.2
+	belt 1568
+	haze _menu/haze-133
+	asteroids "small rock" 2 4.1013
+	asteroids "medium rock" 7 5.0778
+	asteroids "large rock" 12 6.3798
+	asteroids "small metal" 10 5.1429
+	asteroids "medium metal" 14 5.9241
+	asteroids "large metal" 11 4.6221
+	minables tungsten 7 8.5925897
+	minables iron 11 5.8102273
+	hazard "GW Cloud of Decay" 5
+	object
+		sprite star/m-giant
+		period 10
+	object
+		sprite planet/gas16
+		distance 958
+		period 157.72132
+		object
+			sprite planet/miranda
+			distance 212
+			period 146.0211
+	object
+		sprite planet/desert4-b
+		distance 1653
+		period 357.47974
+	object
+		sprite planet/gas7-b
+		distance 2169
+		period 537.31811
+		object
+			sprite planet/rock14-b
+			distance 257
+			period 107.82446
+	object
+		sprite planet/neptune-b
+		distance 4003
+		period 1347.1642
+	object
+		sprite planet/gas4-b
+		distance 7075
+		period 3165.4235
+		object
+			sprite planet/stationh-ancient1
+			distance 328
+			period 60.815945
+		object
+			sprite planet/station0
+			distance 538
+			period 213.86171
+		object
+			sprite "planet/station dels2"
+			distance 677
+			period 547.8499
+	object
+		sprite "planet/jump tunnel"
+		distance 13111
+		period 7985.3853
+
+system "Plamaj Bvragun"
+	pos -52625.478 -54986.283
+	government Uninhabited
+	habitable 296.45
+	belt 1141
+	haze _menu/haze-133
+	link "Isgil Fratmav"
+	asteroids "medium rock" 5 6.9936
+	asteroids "large rock" 1 5.952
+	asteroids "medium metal" 2 6.2496
+	asteroids "large metal" 1 5.5056
+	minables lead 1 6.9138432
+	hazard "GW Cloud of Decay" 5
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/io-b
+		distance 268
+		period 227.91424
+	object
+		sprite planet/rock13-b
+		distance 869
+		period 1330.7575
+	object
+		sprite planet/gas8-b
+		distance 1910
+		period 4336.3
+		object
+			sprite planet/rock0
+			distance 338
+			period 234.89603
+		object
+			sprite planet/dust3-b
+			distance 496
+			period 417.56408
+	object
+		sprite planet/gas15-b
+		distance 5002
+		period 18377.431
+		object
+			sprite planet/station3bd
+			distance 246
+			period 100.97649
 
