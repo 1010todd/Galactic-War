@@ -13,6 +13,7 @@ mission "Igshoal: Loot Uilenxi (Msivyut Blaster)"
 				`	(Leave it)`
 					decline
 			`	You get your tools and remove the weapon from the alien ship. The joints are very tough and took a while to cut but eventually you managed to remove the weapon without damaging the weapon itself.`
+				accept
 	on accept
 		"gw: looted uilenxi" += 1
 		outfit "Msivyut Blaster"
@@ -33,6 +34,7 @@ mission "Igshoal: Loot Uilenxi (Msivyut Blaster Turret)"
 				`	(Leave it)`
 					decline
 			`	You get your tools and remove the weapon from the alien ship. The joints are very tough and took a while to cut but eventually you managed to remove the weapon without damaging the weapon itself.`
+				accept
 	on accept
 		"gw: looted uilenxi" += 1
 		outfit "Msivyut Blaster Turret"
