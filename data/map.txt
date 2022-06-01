@@ -88,7 +88,7 @@ system 09*HVB%13FfG4$
 		period 43.3553
 	object
 		sprite planet/desert3
-		distance 662.88
+		distance 805.94754
 		period 330.787
 		object
 			sprite planet/dust1
@@ -84778,6 +84778,7 @@ system "Qee Divar"
 	habitable 1080
 	belt 1994
 	link "Qee Golle"
+	link "Qee Kudle"
 	asteroids "small rock" 6 4.205
 	asteroids "medium rock" 11 2.146
 	asteroids "large rock" 37 2.465
@@ -84958,6 +84959,7 @@ system "Qee Duao"
 	belt 1401
 	link "Qee Durdao"
 	link "Qee Golle"
+	link "Qee Kudle"
 	asteroids "medium rock" 3 3.7422
 	asteroids "large rock" 1 5.5404
 	asteroids "small metal" 4 6.9498
@@ -85134,6 +85136,7 @@ system "Qee Durdao"
 	habitable 625
 	belt 1609
 	link "Qee Duao"
+	link "Qee Saaloi"
 	link "Qee Vurelo"
 	asteroids "medium rock" 1 1.2672
 	asteroids "large rock" 2 1.144
@@ -86569,6 +86572,7 @@ system "Qee Vurelo"
 	government "Dels Ufulre"
 	habitable 1050.92
 	belt 1899
+	link "Qee Daalnue"
 	link "Qee Durdao"
 	asteroids "small rock" 18 2.574
 	asteroids "medium rock" 99 1.17
@@ -112199,6 +112203,7 @@ system dhf89aPE(RY:WIf
 	government Uninhabited
 	habitable 425.92
 	belt 1688
+	haze _menu/haze-blackbody
 	asteroids "small rock" 4 2.622
 	asteroids "large rock" 2 3.5055
 	asteroids "medium metal" 10 2.166
@@ -121891,6 +121896,7 @@ system Nvhranrl
 	government "Tehru Insker"
 	habitable 405
 	belt 1450
+	link Fuaiir
 	link Vshralur
 	asteroids "medium rock" 3 5.8968
 	asteroids "large rock" 10 6.1992
@@ -123986,6 +123992,7 @@ system Ahredih
 	government Akralva
 	habitable 2560
 	belt 1478
+	link Adrelkis
 	link Licheda
 	link Mskrathe
 	asteroids "small rock" 2 2.0468
@@ -136939,19 +136946,17 @@ system Vyhrekel
 system Mcahere
 	pos -52509.102 -53805.134
 	government "Tehru Insker"
-	habitable 3125
-	belt 1421
+	habitable 117964.8
+	belt 1844
 	link Heresurl
 	link Heshrua
 	link Vyhrekel
-	asteroids "small rock" 2 1.357
-	asteroids "medium rock" 20 2.231
-	asteroids "large rock" 2 1.564
-	asteroids "small metal" 5 1.61
-	asteroids "medium metal" 1 1.748
-	asteroids "large metal" 1 1.725
-	minables platinum 2 2.9672819
-	minables lead 7 3.3731837
+	asteroids "medium rock" 2 5.1604
+	asteroids "large rock" 1 2.926
+	asteroids "medium metal" 5 4.0964
+	asteroids "large metal" 1 4.8944
+	minables copper 1 6.1196315
+	minables silicon 1 6.9779248
 	trade Clothing 239
 	trade Electronics 788
 	trade Equipment 413
@@ -136964,22 +136969,50 @@ system Mcahere
 	trade Plastic 299
 	fleet "Tehru Insker Patrol" 800
 	fleet "Tehru Insker Offense" 800
+	object
+		sprite star/m-supergiant
+		period 10
+	object
+		sprite planet/gas5-b
+		distance 1576
+		period 162.93076
+		object
+			sprite planet/rock17
+			distance 264
+			period 264.18018
+	object
+		sprite planet/gas11
+		distance 2606
+		period 346.44188
+	object
+		sprite planet/gas6-hot
+		distance 3364
+		period 508.10417
+	object
+		sprite planet/browndwarf-y
+		distance 4922
+		period 899.25154
+	object
+		sprite planet/jupiter-b
+		distance 8796
+		period 2148.3083
 
 system Hckycoh
 	pos -52583.102 -53805.579
 	government "Tehru Insker"
-	habitable 3125
-	belt 1421
+	habitable 3699.2
+	belt 1503
 	link Kelsvaru
 	link Vyhrekel
-	asteroids "small rock" 2 1.357
-	asteroids "medium rock" 20 2.231
-	asteroids "large rock" 2 1.564
-	asteroids "small metal" 5 1.61
-	asteroids "medium metal" 1 1.748
-	asteroids "large metal" 1 1.725
-	minables platinum 2 2.9672819
-	minables lead 7 3.3731837
+	asteroids "small rock" 3 1.0318
+	asteroids "medium rock" 7 0.9086
+	asteroids "large rock" 12 1.2628
+	asteroids "small metal" 9 1.3398
+	asteroids "medium metal" 5 1.309
+	asteroids "large metal" 5 1.386
+	minables iron 4 1.3624057
+	minables aluminum 7 1.5360696
+	minables titanium 4 2.2649689
 	trade Clothing 239
 	trade Electronics 788
 	trade Equipment 413
@@ -136991,6 +137024,41 @@ system Hckycoh
 	trade Metal 270
 	trade Plastic 299
 	fleet "Tehru Insker Patrol" 1200
+	object
+		sprite star/f-giant
+		period 10
+	object
+		sprite planet/desert9
+		distance 384
+		period 110.6593
+	object
+		sprite planet/lava5
+		distance 977
+		period 449.08953
+		object
+			sprite planet/oberon-b
+			distance 131
+			period 92.342429
+	object
+		sprite planet/rock5
+		distance 1609
+		period 949.1288
+	object
+		sprite planet/gas1
+		distance 3575
+		period 3143.4399
+	object
+		sprite planet/gas10-hot
+		distance 4284
+		period 4123.4932
+	object
+		sprite planet/gas2
+		distance 17686
+		period 34588.802
+		object
+			sprite planet/luna-b
+			distance 303
+			period 199.37218
 
 planet "SE-1 Jumpgate"
 
@@ -138036,6 +138104,7 @@ system Luxkuei
 	link Axukral
 	link Hukxi'arhal
 	link Urzekrul
+	link Vuxulis
 	asteroids "small rock" 21 4.836
 	asteroids "medium rock" 19 5.148
 	asteroids "large rock" 188 5.07
@@ -139052,8 +139121,10 @@ system Heresurl
 	government Akralva
 	habitable 1641.25
 	belt 1623
+	link Csymury
 	link Heshrua
 	link Mcahere
+	link Selvyur
 	asteroids "large metal" 1 1.197
 	fleet "Akralva Hunter" 800
 	fleet "Akralva Merchant" 2500
@@ -139106,6 +139177,7 @@ system Isuhr
 	belt 1443
 	link Aishru
 	link Myxurlis
+	link Selvyur
 	link Vux'alruk
 	asteroids "small rock" 20 2.632
 	asteroids "medium rock" 46 2.184
@@ -139210,6 +139282,8 @@ system Myxurlis
 	belt 1233
 	link Aseenlor
 	link Isuhr
+	link Selvyur
+	link Tehhanur
 	asteroids "small rock" 131 2.822
 	asteroids "medium rock" 171 2.516
 	asteroids "large rock" 62 3.264
@@ -139897,6 +139971,7 @@ system Csiliia
 	haze "ui/gw haze decay"
 	link Fumsiliir
 	link Kueenphakan
+	link Myiceiir
 	link Ysliia
 	hazard "GW Cloud of Decay" 1
 
@@ -139913,6 +139988,7 @@ system Woliai
 	pos -51681.928 -54383.661
 	government Uninhabited
 	haze "ui/gw haze decay"
+	link Geicinir
 	hazard "GW Cloud of Decay" 1
 
 system Msliia
@@ -139943,6 +140019,7 @@ system Siniliia
 	pos -51949.428 -54243.328
 	government Uninhabited
 	haze "ui/gw haze decay"
+	link Sainiir
 	link Sinikriia
 	hazard "GW Cloud of Decay" 1
 
@@ -139980,6 +140057,7 @@ system Esliai
 	link Chiliai
 	link Eskriai
 	link Fucilir
+	link Niecir
 	hazard "GW Cloud of Decay" 1
 
 system Ysliia
@@ -140020,6 +140098,7 @@ system Csiniliia
 	government Uninhabited
 	haze "ui/gw haze decay"
 	link Maukeikan
+	link Miiciir
 	hazard "GW Cloud of Decay" 1
 
 system Esniliai
@@ -140027,12 +140106,15 @@ system Esniliai
 	government Uninhabited
 	haze "ui/gw haze decay"
 	link Esnikriai
+	link Nuisir
 	hazard "GW Cloud of Decay" 1
 
 system Chiniliai
 	pos -52293.011 -54104.606
 	government Uninhabited
 	haze "ui/gw haze decay"
+	link Gshiair
+	link Hnriir
 	link Iraleekan
 	hazard "GW Cloud of Decay" 1
 
@@ -140040,6 +140122,7 @@ system Kisniliia
 	pos -52378.511 -54086.606
 	government Uninhabited
 	haze "ui/gw haze decay"
+	link Gshiair
 	link Meekiukan
 	hazard "GW Cloud of Decay" 1
 
@@ -140065,12 +140148,15 @@ system Nhniliai
 	haze "ui/gw haze decay"
 	link Msniliia
 	link Nhnikriai
+	link Sncisir
 	hazard "GW Cloud of Decay" 1
 
 system Fuaiir
 	pos -52476.372 -54025.106
 	government Uninhabited
 	haze "ui/gw haze decay"
+	link Csymury
+	link Nvhranrl
 	link Woniliai
 	hazard "GW Cloud of Decay" 1
 
@@ -140087,6 +140173,7 @@ system Fuasilir
 	government Uninhabited
 	haze "ui/gw haze decay"
 	link Fsiliai
+	link Msibrii
 	link Nhliai
 	hazard "GW Cloud of Decay" 1
 
@@ -140096,7 +140183,9 @@ system Fucilir
 	haze "ui/gw haze decay"
 	link Chiliai
 	link Esliai
+	link Hraiir
 	link Kisliia
+	link Niecir
 	link Thilisiri
 	hazard "GW Cloud of Decay" 1
 
@@ -140367,11 +140456,12 @@ system Eii'seenie
 			period 132.60217
 
 system Akri'oonree
-	pos -51945.928 -53994.717
+	pos -51962.928 -53999.717
 	government Uoorn
 	habitable 372.65
 	belt 1361
 	link Akla'runle
+	link Veeriii'oorel
 	asteroids "small rock" 11 2.1567
 	asteroids "medium rock" 121 2.457
 	asteroids "large rock" 91 1.7199
@@ -141938,6 +142028,7 @@ system Axukral
 	government Akralva
 	habitable 441.8
 	belt 1713
+	link Laxxiamir
 	link Luxkuei
 	link Thilisiri
 	asteroids "small rock" 4 6.474
@@ -142105,12 +142196,13 @@ system Zulbueol
 		period 654
 
 system "Elem Bvragun"
-	pos -52574.561 -55029.228
+	pos -52767.561 -55019.228
 	government Uninhabited
 	habitable 1641.25
 	belt 1900
 	haze _menu/haze-133
 	link "Isgil Fratmav"
+	link Saneril
 	asteroids "small rock" 68 1.6632
 	asteroids "medium rock" 118 1.7892
 	asteroids "large rock" 28 1.512
@@ -142157,12 +142249,14 @@ system "Elem Bvragun"
 		period 8017.4138
 
 system "Esila Bvragun"
-	pos -52567.367 -55111.228
+	pos -52760.367 -55101.228
 	government Uninhabited
 	habitable 1220
 	belt 1909
 	haze _menu/haze-133
 	link "Isgil Fratmav"
+	link Saneril
+	link Sanlijcai
 	asteroids "small rock" 12 0.891
 	asteroids "medium rock" 10 1.6335
 	asteroids "large rock" 5 0.957
@@ -142198,7 +142292,7 @@ system "Esila Bvragun"
 		period 2804.5172
 
 system "Isgil Fratmav"
-	pos -52647.756 -55077.589
+	pos -52840.756 -55067.589
 	government Uninhabited
 	habitable 86595.2
 	belt 1604
@@ -142226,7 +142320,7 @@ system "Isgil Fratmav"
 		period 1162.2258
 
 system "Aspei Bvragun"
-	pos -52730.839 -55036.144
+	pos -52923.839 -55026.144
 	government Uninhabited
 	habitable 2560
 	belt 1163
@@ -142277,7 +142371,7 @@ system "Aspei Bvragun"
 		period 6820.855
 
 system "Alei Bvragun"
-	pos -52717.283 -55135.7
+	pos -52910.283 -55125.7
 	government Uninhabited
 	habitable 3276.8
 	belt 1747
@@ -142326,11 +142420,12 @@ planet "Uilenxi Fratmav"
 	spaceport "Non of the various ports on the station is compatible with your ship so you landed inside one of the open bay. From inside you can spot a few broken ships left behind varying in size from fighter to massive freighter, from quick inspection all of them are too heavily damaged to be repaired for now."
 
 system "Nsen Bvragun"
-	pos -52600.478 -55148.95
+	pos -52793.478 -55138.95
 	government Uninhabited
 	habitable 423.2
 	belt 1337
 	haze _menu/haze-133
+	link Jelksiv
 	asteroids "small rock" 2 2.1024
 	asteroids "medium rock" 24 2.7072
 	asteroids "large rock" 23 1.6992
@@ -142371,7 +142466,7 @@ system "Nsen Bvragun"
 		period 105628.59
 
 system "Nlai Bvragun"
-	pos -52659.144 -55164.95
+	pos -52852.144 -55154.95
 	government Uninhabited
 	habitable 1525
 	belt 1237
@@ -142412,7 +142507,7 @@ system "Nlai Bvragun"
 		period 2612.5586
 
 system "Psen Bvragun"
-	pos -52692.811 -54999.617
+	pos -52885.811 -54989.617
 	government Uninhabited
 	habitable 28275.2
 	belt 1568
@@ -142475,7 +142570,7 @@ system "Psen Bvragun"
 		period 7985.3853
 
 system "Plamaj Bvragun"
-	pos -52625.478 -54986.283
+	pos -52818.478 -54976.283
 	government Uninhabited
 	habitable 296.45
 	belt 1141
@@ -142518,4 +142613,1683 @@ system "Plamaj Bvragun"
 			sprite planet/station3bd
 			distance 246
 			period 100.97649
+
+system Selvyur
+	pos -52357.478 -53892.922
+	government Akralva
+	habitable 753.8
+	belt 1443
+	link Csymury
+	link Heresurl
+	link Isuhr
+	link Myxurlis
+	link Tehhanur
+	asteroids "small rock" 20 2.632
+	asteroids "medium rock" 46 2.184
+	asteroids "large rock" 38 2.184
+	asteroids "small metal" 3 2.156
+	asteroids "medium metal" 69 1.652
+	asteroids "large metal" 5 1.54
+	minables neodymium 36 2.2821092
+	minables titanium 24 2.9099911
+	minables copper 29 3.9242619
+	fleet "Akralva Hunter" 800
+	fleet "Akralva Merchant" 1200
+	fleet "Uoorn Raid" 2100
+
+system Csymury
+	pos -52433.644 -53918.506
+	government Akralva
+	habitable 28275.2
+	belt 1939
+	link Fuaiir
+	link Heresurl
+	link Selvyur
+	asteroids "small rock" 12 0.756
+	asteroids "medium rock" 1 0.7
+	asteroids "large rock" 48 1.078
+	asteroids "small metal" 32 1.4
+	asteroids "medium metal" 205 0.952
+	asteroids "large metal" 18 0.798
+	minables aluminum 2 1.1764041
+	minables tungsten 5 1.2303767
+	fleet "Akralva Hunter" 800
+	fleet "Akralva Merchant" 1200
+	object
+		sprite star/f-supergiant
+		period 10
+	object
+		sprite planet/water0-b
+		distance 634
+		period 84.913362
+	object
+		sprite planet/rock12
+		distance 1349
+		period 263.54821
+	object
+		sprite planet/gas10-b
+		distance 2000
+		period 475.75914
+		object
+			sprite planet/rhea
+			distance 227
+			period 106.36956
+	object
+		sprite planet/neptune-b
+		distance 3545
+		period 1122.7072
+
+system Gshiair
+	pos -52370.783 -54036.228
+	government Uninhabited
+	haze "ui/gw haze decay"
+	link Chiniliai
+	link Kisniliia
+	link Tehhanur
+	hazard "GW Cloud of Decay" 1
+
+system Dhsiir
+	pos -52559.283 -54108.394
+	government Uninhabited
+	haze "ui/gw haze decay"
+	hazard "GW Cloud of Decay" 1
+
+system Sncisir
+	pos -52631.95 -54149.061
+	government Uninhabited
+	haze "ui/gw haze decay"
+	link Nhniliai
+	hazard "GW Cloud of Decay" 1
+
+system Hnriir
+	pos -52279.867 -54054.228
+	government Uninhabited
+	haze "ui/gw haze decay"
+	link Chiniliai
+	link Tehhanur
+	hazard "GW Cloud of Decay" 1
+
+system Nuisir
+	pos -52222.2 -54113.978
+	government Uninhabited
+	haze "ui/gw haze decay"
+	link Esniliai
+	hazard "GW Cloud of Decay" 1
+
+system Miiciir
+	pos -52153.2 -54172.394
+	government Uninhabited
+	haze "ui/gw haze decay"
+	link Csiniliia
+	hazard "GW Cloud of Decay" 1
+
+system Sainiir
+	pos -51935.7 -54199.478
+	government Uninhabited
+	haze "ui/gw haze decay"
+	link Shieski
+	link Siniliia
+	hazard "GW Cloud of Decay" 1
+
+system Driciir
+	pos -51721.7 -54273.978
+	government Uninhabited
+	haze "ui/gw haze decay"
+	hazard "GW Cloud of Decay" 1
+
+system Geicinir
+	pos -51654.783 -54322.561
+	government Uninhabited
+	haze "ui/gw haze decay"
+	link Aphisviki
+	link Woliai
+	hazard "GW Cloud of Decay" 1
+
+system Hraiir
+	pos -51579.283 -54344.894
+	government Uninhabited
+	haze "ui/gw haze decay"
+	link Aphisviki
+	link Fucilir
+	hazard "GW Cloud of Decay" 1
+
+system Niecir
+	pos -51449.283 -54369.561
+	government Uninhabited
+	haze "ui/gw haze decay"
+	link Esliai
+	link Fucilir
+	hazard "GW Cloud of Decay" 1
+
+system Myiceiir
+	pos -51378.283 -54378.978
+	government Uninhabited
+	haze "ui/gw haze decay"
+	link Csiliia
+	hazard "GW Cloud of Decay" 1
+
+system Tehhanur
+	pos -52343.033 -53974.228
+	government Akralva
+	habitable 2560
+	belt 1958
+	link Gshiair
+	link Hnriir
+	link Myxurlis
+	link Selvyur
+	asteroids "small rock" 14 1.62
+	asteroids "medium rock" 41 0.936
+	asteroids "large rock" 3 1.728
+	asteroids "small metal" 20 1.71
+	asteroids "medium metal" 5 1.764
+	asteroids "large metal" 37 1.512
+	minables titanium 1 2.2013433
+	minables iron 1 2.4849435
+	minables aluminum 1 2.2357608
+	fleet "Akralva Hunter" 800
+	fleet "Akralva Merchant" 1200
+	fleet "Uoorn Raid" 2100
+	object
+		sprite star/o-supergiant
+		distance 370
+		period 355.85461
+		offset 180
+	object
+		sprite star/f-supergiant
+		distance 370
+		period 355.85461
+	object
+		sprite planet/gas3-b
+		distance 1356
+		period 882.70288
+		object
+			sprite planet/dust5-b
+			distance 418
+			period 223.65677
+	object
+		sprite planet/dust5
+		distance 2057
+		period 1649.2119
+	object
+		sprite planet/gas0
+		distance 3188
+		period 3182.0169
+
+system Vuxulis
+	pos -51519.45 -54165.561
+	government Akralva
+	habitable 361.25
+	belt 1460
+	link Luxkuei
+	link Xayuril
+	asteroids "small rock" 1 1.87
+	asteroids "medium rock" 4 3.179
+	asteroids "large rock" 1 2.6554
+	asteroids "small metal" 2 3.4408
+	asteroids "medium metal" 7 2.9172
+	asteroids "large metal" 7 3.0668
+	minables aluminum 2 5.502917
+	minables lead 2 3.744624
+	minables copper 2 3.2375395
+	fleet "Akralva Hunter" 1200
+	fleet "Akralva Merchant" 1500
+	object
+		sprite star/k8
+		period 10
+	object Gernvuhix
+		sprite planet/fog0
+		distance 338
+		period 292.42609
+	object
+		sprite planet/gas17-b
+		distance 1295
+		period 2193.0358
+	object
+		sprite planet/browndwarf-y
+		distance 2220
+		period 4922.3277
+	object
+		sprite planet/gas4
+		distance 3950
+		period 11682.525
+		object
+			sprite planet/ice8-b
+			distance 276
+			period 173.32621
+
+planet Gernvuhix
+	landscape land/desert8-sfiera
+	description .
+	spaceport .
+
+system Xayuril
+	pos -51587.867 -54163.144
+	government Akralva
+	habitable 500
+	belt 1628
+	link Laxxiamir
+	link Vuxulis
+	asteroids "small rock" 54 1.092
+	asteroids "medium rock" 44 1.157
+	asteroids "large rock" 32 1.222
+	asteroids "small metal" 40 0.91
+	asteroids "medium metal" 50 1.183
+	asteroids "large metal" 9 0.832
+	minables aluminum 27 1.2997086
+	minables lead 38 1.8576698
+	fleet "Akralva Hunter" 1200
+	fleet "Akralva Merchant" 1500
+	object
+		sprite star/a5
+		period 10
+	object Moxalvir
+		sprite planet/rock18
+		distance 427
+		period 352.94075
+	object
+		sprite planet/gas6-b
+		distance 1482
+		period 2282.0875
+	object
+		sprite planet/gas7-b
+		distance 2748
+		period 5762.157
+		object
+			sprite planet/station1k
+			distance 249
+			period 148.52503
+	object
+		sprite planet/gas0-b
+		distance 4998
+		period 14133.651
+		object
+			sprite planet/ice8
+			distance 295
+			period 191.5286
+	object
+		sprite planet/neptune-b
+		distance 6402
+		period 20489.601
+		object
+			sprite planet/dust5-b
+			distance 259
+			period 109.08556
+
+planet Moxalvir
+	landscape land/lava1
+	description "A world with roughly equal fraction of land and water, tectonically active and mineral rich."
+	spaceport "The spaceport is not particularly notable, several large stone landing pads with massive cranes all around."
+
+system Laxxiamir
+	pos -51591.367 -54254.311
+	government Akralva
+	habitable 7372.8
+	belt 1410
+	link Aphisviki
+	link Axukral
+	link Xayuril
+	asteroids "small rock" 17 2.508
+	asteroids "medium rock" 56 2.793
+	asteroids "large rock" 12 1.425
+	asteroids "small metal" 9 2.337
+	asteroids "medium metal" 57 2.622
+	asteroids "large metal" 4 1.9095
+	minables aluminum 1 3.1999381
+	minables copper 28 3.1159969
+	fleet "Akralva Hunter" 1200
+	fleet "Akralva Merchant" 1500
+	object
+		sprite star/neutron
+		period 10
+	object
+		sprite planet/cloud7
+		distance 432
+		period 93.530744
+	object
+		sprite planet/rock8-b
+		distance 904
+		period 283.12708
+	object
+		sprite planet/browndwarf-y-rouge
+		distance 2304.8302
+		period 710.89175
+		object
+			sprite planet/dust4-b
+			distance 318
+			period 176.36779
+		object
+			sprite planet/station12
+			distance 468
+			period 314.88166
+	object
+		sprite planet/gas12
+		distance 4456
+		period 3098.4646
+		object
+			sprite planet/rock7
+			distance 434
+			period 427.70706
+		object
+			sprite planet/rock3
+			distance 551
+			period 488.90898
+
+system Aphisviki
+	pos -51599.367 -54302.311
+	government Akralva
+	habitable 596
+	belt 1623
+	link Geicinir
+	link Hraiir
+	link Laxxiamir
+	asteroids "small rock" 144 2.73
+	asteroids "medium rock" 5 1.62
+	asteroids "large rock" 14 1.71
+	asteroids "small metal" 30 2.19
+	asteroids "medium metal" 50 2.73
+	asteroids "large metal" 10 2.94
+	minables lead 26 2.8892248
+	fleet "Akralva Hunter" 1200
+	fleet "Akralva Merchant" 1500
+	object
+		sprite star/l-dwarf
+		distance 102.74497
+		period 39.419019
+	object
+		sprite star/a3
+		distance 2.2550336
+		period 39.419019
+		offset 180
+	object
+		sprite planet/ice5
+		distance 849.44837
+		period 183.74828
+	object
+		sprite planet/jupiter-b
+		distance 1285
+		period 1687.6274
+	object
+		sprite planet/gas1-b
+		distance 4508
+		period 11089.136
+		object
+			sprite planet/tethys-b
+			distance 465
+			period 617.55235
+	object
+		sprite planet/jupiter
+		distance 6578
+		period 19546.215
+	object
+		sprite planet/gas5-b
+		distance 7815
+		period 25311.352
+
+system Adrelkis
+	pos -51755.283 -53949.644
+	government Akralva
+	habitable 2560
+	belt 1537
+	link Ahredih
+	link Caxulhert
+	link Methyei
+	asteroids "small rock" 7 6.0912
+	asteroids "medium rock" 26 6.2208
+	asteroids "large rock" 14 4.6008
+	asteroids "small metal" 10 5.8968
+	asteroids "medium metal" 23 4.3416
+	asteroids "large metal" 19 5.8968
+	minables titanium 1 9.4030691
+	minables uranium 8 9.8391535
+	fleet "Akralva Hunter" 1200
+	fleet "Akralva Merchant" 1500
+	object
+		sprite star/b0
+		distance 128
+		period 72.407734
+		offset 180
+	object
+		sprite star/k5-old
+		distance 128
+		period 72.407734
+	object
+		sprite planet/ice1
+		distance 613
+		period 268.29694
+		object
+			sprite planet/europa-b
+			distance 183
+			period 117.10851
+	object
+		sprite planet/gas11-b
+		distance 1237
+		period 769.09424
+	object
+		sprite planet/gw-continential3
+		distance 1692
+		period 1230.3411
+	object
+		sprite planet/browndwarf-l
+		distance 2605
+		period 2350.372
+
+system Methyei
+	pos -51799.95 -53949.644
+	government Akralva
+	habitable 52428.8
+	belt 1395
+	link Adrelkis
+	link Saxmakhe
+	link Yehciai
+	asteroids "medium rock" 1 1.1376
+	asteroids "large rock" 1 0.7632
+	asteroids "medium metal" 2 0.936
+	asteroids "large metal" 1 1.2672
+	minables silicon 1 1.722672
+	minables tungsten 1 2.006928
+	minables uranium 1 1.049328
+	fleet "Akralva Hunter" 1200
+	fleet "Akralva Merchant" 1500
+	object
+		sprite star/wr
+		period 10
+	object
+		sprite planet/browndwarf-l
+		distance 1223
+		period 167.07048
+		object
+			sprite planet/ice0-b
+			distance 299
+			period 195.43728
+		object
+			sprite planet/ice8
+			distance 416
+			period 320.73076
+	object
+		sprite planet/gas1
+		distance 2808
+		period 581.24026
+	object
+		sprite planet/gas5-b
+		distance 4231
+		period 1075.0399
+	object
+		sprite planet/gas2
+		distance 6339
+		period 1971.4745
+	object
+		sprite planet/dust3
+		distance 7195
+		period 2383.9999
+
+system Saxmakhe
+	pos -51857.95 -53965.644
+	government Akralva
+	habitable 2560
+	belt 1528
+	link Methyei
+	asteroids "large rock" 1 3.0624
+	asteroids "small metal" 1 1.8502
+	asteroids "medium metal" 1 1.9459
+	asteroids "large metal" 2 2.5201
+	fleet "Akralva Hunter" 1200
+	fleet "Akralva Merchant" 1500
+	object
+		sprite star/a-giant
+		distance 207.5
+		period 149.45043
+	object
+		sprite planet/browndwarf-t
+		distance 207.5
+		period 149.45043
+		offset 180
+	object
+		sprite planet/ice6
+		distance 639
+		period 285.54614
+	object
+		sprite planet/forest3
+		distance 1049
+		period 600.60403
+	object
+		sprite planet/ice0-b
+		distance 1357
+		period 883.6795
+	object
+		sprite planet/rock19
+		distance 1879
+		period 1439.8431
+	object
+		sprite planet/gas8
+		distance 2690
+		period 2466.3428
+		object
+			sprite planet/miranda
+			distance 332
+			period 286.16661
+	object
+		sprite planet/oberon-b
+		distance 7328
+		period 11089.276
+
+planet Hilixthefi
+	landscape land/badlands4
+	description "Small Akralva mining output planet. Many of the settlements are surrounding a large quarry ship."
+	spaceport "The central spaceport is a large flat area roughly in between the largest mining sites with some industrial vehicles to assist in loading and unloading cargo."
+
+system Yehciai
+	pos -51804.2 -54009.922
+	government Akralva
+	habitable 3125
+	belt 1152
+	link Caxulhert
+	link Methyei
+	asteroids "small rock" 10 1.804
+	asteroids "medium rock" 31 2.178
+	asteroids "large rock" 5 1.87
+	asteroids "small metal" 110 1.408
+	asteroids "medium metal" 52 1.826
+	asteroids "large metal" 65 1.232
+	minables silver 6 1.7506319
+	minables aluminum 40 1.6914994
+	minables iron 18 2.5100171
+	fleet "Akralva Hunter" 1200
+	fleet "Akralva Merchant" 1500
+	object
+		sprite star/giant
+		period 10
+	object
+		sprite planet/rock12-b
+		distance 473
+		period 164.59313
+	object
+		sprite planet/desert8-b
+		distance 1236
+		period 695.26071
+		object
+			sprite planet/sanjayastation
+			distance 209
+			period 51.782027
+	object
+		sprite planet/neptune-b
+		distance 2385
+		period 1863.5994
+		object
+			sprite planet/ice7
+			distance 403
+			period 211.72649
+		object
+			sprite planet/io-b
+			distance 528
+			period 458.61843
+	object
+		sprite planet/gas6-b
+		distance 4458
+		period 4762.4462
+		object
+			sprite planet/ice0
+			distance 387
+			period 287.78428
+	object
+		sprite planet/shattered
+		distance 5738.5
+		period 6955.3271
+		object
+			sprite planet/sheragi_postverta
+			distance 246.5
+			period 101.2845
+	object
+		sprite planet/uranus
+		distance 7292
+		period 9962.9964
+		object
+			sprite planet/mechonistation
+			distance 411
+			period 24.793224
+		object
+			sprite planet/izanamistation
+			distance 755
+			period 355.5331
+
+system Caxulhert
+	pos -51767.2 -54037.922
+	government Akralva
+	habitable 1685
+	belt 1355
+	link Adrelkis
+	link Valtaxrul
+	link Yehciai
+	asteroids "small rock" 1 2.7405
+	asteroids "medium rock" 18 1.701
+	asteroids "large rock" 1 2.961
+	asteroids "large metal" 2 2.961
+	minables aluminum 3 2.6900155
+	minables lead 3 2.1370359
+	fleet "Akralva Hunter" 1200
+	fleet "Akralva Merchant" 1500
+	object
+		sprite star/g0
+		distance 141.29377
+		period 55.273181
+	object
+		sprite star/g0-old
+		distance 44.706231
+		period 55.273181
+		offset 180
+	object
+		sprite planet/ice3
+		distance 386
+		period 165.24411
+	object Vyrixia
+		sprite planet/ice1-b
+		distance 1989.9589
+		period 467.38093
+	object
+		sprite planet/dust3-b
+		distance 1359
+		period 1091.6269
+	object
+		sprite planet/gas13-b
+		distance 2569
+		period 2837.2081
+	object
+		sprite planet/browndwarf-y-rouge
+		distance 4334
+		period 6216.9647
+		object
+			sprite planet/tethys-b
+			distance 504
+			period 696.85136
+
+planet Vyrixia
+	landscape land/mountain8
+	description "Cold and mountainous planet with no sign of native life."
+	description "A sizeable Akralva industrial world where they flatten entire mountain ranges to park their factory ships."
+	spaceport "The spaceport is built upon a flatten mountain surrounded by other plateu filled with Akralva factories connected by massive bridges over the gaps and cliffs."
+	shipyard "Akralva Intermediate"
+	outfitter "Akralva Advanced"
+
+system Veeriii'oorel
+	pos -51906.533 -54054.422
+	government Uoorn
+	habitable 296.45
+	belt 1918
+	link Akri'oonree
+	link Hecurix
+	link Shieski
+	asteroids "large metal" 1 3.1616
+	trade Clothing 239
+	trade Electronics 788
+	trade Equipment 413
+	trade Food 234
+	trade "Heavy Metals" 1208
+	trade Industrial 555
+	trade "Luxury Goods" 1001
+	trade Medical 837
+	trade Metal 270
+	trade Plastic 299
+	fleet "Uoorn Defense" 600
+	fleet "Akralva Hunter" 800
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/cloud7
+		distance 308
+		period 280.79886
+	object
+		sprite planet/ocean3-b
+		distance 658
+		period 876.81527
+	object
+		sprite planet/gas16-b
+		distance 1367
+		period 2625.5605
+		object
+			sprite planet/rock7-b
+			distance 201
+			period 134.80497
+		object
+			sprite planet/lava0-b
+			distance 361
+			period 179.50578
+	object
+		sprite planet/browndwarf-y
+		distance 3534
+		period 10913.626
+		object
+			sprite planet/station2kd
+			distance 304
+			period 138.71646
+		object
+			sprite planet/rhea
+			distance 440
+			period 287.05003
+		object
+			sprite planet/station2b
+			distance 622
+			period 134.65829
+	object
+		sprite planet/trochzempt_complete
+		distance 10089
+		period 52643.099
+		object
+			sprite planet/station4bd
+			distance 2609
+			period 1818.7708
+		object
+			sprite planet/station3b
+			distance 2793
+			period 3862.9939
+
+system Valtaxrul
+	pos -51806.533 -54099.756
+	government Akralva
+	habitable 1206.4
+	belt 1614
+	link Caxulhert
+	link Hecurix
+	asteroids "medium rock" 4 1.5912
+	asteroids "large rock" 1 1.3464
+	asteroids "medium metal" 10 1.8156
+	asteroids "large metal" 1 1.9992
+	minables silver 4 2.6229249
+	minables aluminum 7 1.776483
+	fleet "Akralva Hunter" 1200
+	fleet "Akralva Merchant" 1500
+	object
+		sprite star/g5
+		distance 118.83289
+		period 59.615117
+	object
+		sprite star/b5
+		distance 56.167109
+		period 59.615117
+		offset 180
+	object
+		sprite planet/gas8-hot
+		distance 1187.1573
+		period 423.79492
+	object
+		sprite planet/gas7
+		distance 1912
+		period 2152.9362
+	object
+		sprite planet/gas13
+		distance 3158
+		period 4570.0139
+		object
+			sprite planet/ice0-b
+			distance 302
+			period 198.38601
+		object
+			sprite planet/rhea
+			distance 473
+			period 319.94129
+		object
+			sprite planet/rock3
+			distance 648
+			period 623.53829
+	object
+		sprite planet/gas7-hot
+		distance 6591
+		period 13779.273
+
+system Hecurix
+	pos -51865.033 -54102.839
+	government Akralva
+	habitable 423.2
+	belt 1325
+	link Valtaxrul
+	link Veeriii'oorel
+	asteroids "medium rock" 4 1.309
+	asteroids "large rock" 24 1.496
+	asteroids "medium metal" 8 1.0098
+	asteroids "large metal" 1 1.2155
+	minables copper 7 2.051433
+	fleet "Akralva Hunter" 800
+	fleet "Akralva Merchant" 2200
+	fleet "Uoorn Defense" 1500
+	fleet "Uoorn Raid" 1500
+	object
+		sprite star/f3
+		period 10
+	object
+		sprite planet/neptune-b
+		distance 779
+		period 945.31892
+	object
+		sprite planet/rock3-b
+		distance 1713
+		period 3082.5364
+	object
+		sprite planet/gas4
+		distance 3260
+		period 8092.7955
+		object
+			sprite planet/dust0
+			distance 266
+			period 267.18791
+		object
+			sprite planet/ice0-b
+			distance 370
+			period 269.03154
+	object
+		sprite planet/gas3-b
+		distance 6387
+		period 22193.078
+	object
+		sprite planet/gas17
+		distance 7809
+		period 30003.043
+
+system Shieski
+	pos -51898.811 -54138.561
+	government Uninhabited
+	habitable 2560
+	belt 1992
+	link Msibrii
+	link Sainiir
+	link Veeriii'oorel
+	asteroids "small rock" 96 4.55
+	asteroids "medium rock" 172 6.09
+	asteroids "large rock" 40 4.9
+	asteroids "small metal" 36 6.3
+	asteroids "large metal" 56 5.18
+	minables copper 5 10.744112
+	fleet "Uoorn Defense" 900
+	object
+		sprite planet/browndwarf-l-rouge
+		distance 262
+		period 212.04202
+		offset 180
+	object
+		sprite star/b-supergiant
+		distance 262
+		period 212.04202
+	object
+		sprite planet/rock14-b
+		distance 710
+		period 334.43563
+	object
+		sprite planet/browndwarf-t-rouge
+		distance 1366
+		period 892.48528
+	object
+		sprite planet/gas2-hot
+		distance 2608
+		period 2354.4333
+	object
+		sprite planet/gas0-hot
+		distance 4027
+		period 4517.4927
+		object
+			sprite planet/rock7-b
+			distance 245
+			period 181.40989
+
+system Msibrii
+	pos -51862.144 -54187.228
+	government Uninhabited
+	habitable 361.25
+	belt 1163
+	link Fuasilir
+	link Shieski
+	asteroids "small rock" 42 1.82
+	asteroids "medium rock" 2 1.638
+	asteroids "large rock" 37 1.5652
+	asteroids "small metal" 21 1.4924
+	asteroids "medium metal" 31 1.6016
+	asteroids "large metal" 50 1.092
+	minables silver 1 2.0618285
+	minables titanium 2 2.273834
+	minables aluminum 1 2.1678312
+	fleet "Uoorn Defense" 900
+	object
+		sprite star/k8
+		period 10
+	object
+		sprite planet/desert7
+		distance 407.53504
+		period 230.00104
+	object
+		sprite planet/jupiter-b
+		distance 831
+		period 1127.308
+	object
+		sprite planet/gas14
+		distance 2447
+		period 5696.2891
+		object
+			sprite planet/rock3
+			distance 247
+			period 146.73917
+	object
+		sprite planet/europa-b
+		distance 4257
+		period 13070.631
+	object
+		sprite planet/broken
+		distance 8263
+		period 35346.604
+	object
+		sprite planet/trochzempt_complete
+		distance 21554
+		period 148913.09
+		object
+			sprite planet/station2k
+			distance 2572
+			period 3413.6899
+		object
+			sprite planet/io-b
+			distance 2723
+			period 5371.2094
+
+system Svrannu
+	hidden
+	pos -50472.228 -57397.394
+	government Taroun
+	habitable 32000
+	belt 1389
+	haze "ui/taroun stellarweb"
+	trade Clothing 275
+	trade Electronics 823
+	trade Equipment 729
+	trade Food 409
+	trade "Heavy Metals" 713
+	trade Industrial 650
+	trade "Luxury Goods" 1239
+	trade Medical 534
+	trade Metal 221
+	trade Plastic 503
+	fleet "Taroun Patrol" 1000
+	fleet "Taroun Logistic" 800
+	object Neuoantanu
+		sprite "planet/taroun stellarweb landable1"
+		distance 892.88207
+		offset 99
+	object Neuoantanu
+		sprite "planet/taroun stellarweb landable2"
+		distance 4284.6653
+
+planet Neuoantanu
+	description "This appears to be one of the entrance into this massive and mysterious Taroun structure. You ship 'sink' into the gate and appear what you think is inside the structure, an extremely vast and empty space reaching further than eye can see, dark colored and devoid of light source yet you can still trace some of the details within. What you think is the cities and towns are grouped along the walls. Large orbs can sometimes be seen floating in random area."
+	spaceport "Despite the strange emptiness you feel when looking deep into the structure the 'spaceport' have a fair amount of activity, the facilities while alien is identifiable as some kind of machine. The paths around the area is convoluted and feel oddly strange, possibly due to similar surface and features around you, after several rounds however you think you begin to get a hang of it, at least in this tiny area not too far from your ship."
+	shipyard "Taroun Advanced"
+	shipyard "Taroun Basic"
+	outfitter "Taroun Advanced"
+	outfitter "Taroun Basic"
+	"required reputation" 500
+
+system "Qee Daalnue"
+	pos -52473.967 -55085.367
+	government "Dels Ufulre"
+	habitable 2205
+	belt 1749
+	link "Qee Sealie"
+	link "Qee Vurelo"
+	asteroids "small rock" 1 3.8808
+	asteroids "medium rock" 3 3.465
+	asteroids "large rock" 4 4.0656
+	asteroids "small metal" 2 4.2504
+	asteroids "medium metal" 46 2.6334
+	asteroids "large metal" 5 4.4814
+	minables lead 1 3.0260788
+	minables uranium 15 5.4744788
+	minables iron 1 3.4840314
+	trade Clothing 259
+	trade Electronics 790
+	trade Equipment 622
+	trade Food 480
+	trade "Heavy Metals" 806
+	trade Industrial 742
+	trade "Luxury Goods" 1435
+	trade Medical 487
+	trade Metal 507
+	trade Plastic 493
+	fleet "Dels Ufulre Patrol" 1000
+	object
+		sprite star/g0-old
+		period 10
+	object
+		sprite planet/lava6-b
+		distance 311
+		period 104.46752
+	object
+		sprite planet/gw-sandy0
+		distance 862
+		period 482.06055
+	object
+		sprite planet/gas10
+		distance 1632
+		period 1255.8013
+	object
+		sprite planet/browndwarf-l-rouge
+		distance 3796
+		period 4454.8184
+
+system "Qee Sealie"
+	pos -52524.05 -55069.894
+	government "Dels Ufulre"
+	habitable 3125
+	belt 1124
+	link Meleemsal
+	link "Qee Daalnue"
+	asteroids "small rock" 51 2.52
+	asteroids "medium rock" 38 2.31
+	asteroids "large rock" 7 2.688
+	asteroids "small metal" 8 2.184
+	asteroids "medium metal" 1 2.982
+	asteroids "large metal" 40 2.898
+	minables lead 7 4.217052
+	minables iron 33 2.692662
+	trade Clothing 259
+	trade Electronics 790
+	trade Equipment 622
+	trade Food 480
+	trade "Heavy Metals" 806
+	trade Industrial 742
+	trade "Luxury Goods" 1435
+	trade Medical 487
+	trade Metal 507
+	trade Plastic 493
+	fleet "Dels Ufulre Patrol" 1000
+	object
+		sprite star/k5-old
+		period 10
+	object
+		sprite planet/lava3-b
+		distance 371
+		period 114.33543
+	object
+		sprite planet/rock13-b
+		distance 770
+		period 341.86613
+	object
+		sprite planet/cloud0
+		distance 1159
+		period 631.31359
+	object
+		sprite planet/gas2-b
+		distance 2187
+		period 1636.4139
+	object
+		sprite planet/gas17-b
+		distance 3288
+		period 3016.5998
+		object
+			sprite planet/rhea
+			distance 238
+			period 114.19419
+
+system "Qee Saaloi"
+	pos -52470.828 -55166.561
+	government "Dels Ufulre"
+	habitable 62.5
+	belt 1564
+	link "Qee Durdao"
+	link "Qee Oldeli"
+	asteroids "small rock" 16 2.4
+	asteroids "medium rock" 1 2.16
+	asteroids "large rock" 13 1.776
+	asteroids "small metal" 18 2.016
+	asteroids "medium metal" 12 1.392
+	asteroids "large metal" 5 1.584
+	minables lead 2 3.6026585
+	trade Clothing 281
+	trade Electronics 758
+	trade Equipment 628
+	trade Food 464
+	trade "Heavy Metals" 873
+	trade Industrial 729
+	trade "Luxury Goods" 1425
+	trade Medical 510
+	trade Metal 512
+	trade Plastic 474
+	fleet "Dels Ufulre Patrol" 1000
+	object
+		sprite star/a-dwarf
+		distance 37
+		period 72.019908
+	object
+		sprite star/f-dwarf
+		distance 37
+		period 72.019908
+		offset 180
+	object
+		sprite planet/ocean9-b
+		distance 281
+		period 532.923
+	object
+		sprite planet/desert8-b
+		distance 843
+		period 2769.1491
+		object
+			sprite planet/luna
+			distance 186
+			period 95.889275
+	object
+		sprite planet/gas16-b
+		distance 1726
+		period 8112.7141
+	object
+		sprite planet/jupiter
+		distance 2325
+		period 12683.509
+		object
+			sprite planet/station1ver8
+			distance 257
+			period 194.89985
+	object
+		sprite planet/gas10-hot
+		distance 4418
+		period 33223.36
+		object
+			sprite planet/station7
+			distance 235
+			period 94.279966
+	object
+		sprite planet/gas1-b
+		distance 10208
+		period 116685.25
+		object
+			sprite planet/station16
+			distance 485
+			period 279.53116
+
+system "Qee Kudle"
+	pos -52442.717 -55250.894
+	government "Dels Ufulre"
+	habitable 441.8
+	belt 1739
+	link "Qee Divar"
+	link "Qee Duao"
+	link "Qee Oldeli"
+	asteroids "small rock" 1 2.52
+	asteroids "medium rock" 2 4.032
+	asteroids "large rock" 1 3.276
+	asteroids "small metal" 2 2.394
+	asteroids "medium metal" 4 4.032
+	asteroids "large metal" 1 3.15
+	minables copper 2 4.74075
+	trade Clothing 281
+	trade Electronics 758
+	trade Equipment 628
+	trade Food 464
+	trade "Heavy Metals" 873
+	trade Industrial 729
+	trade "Luxury Goods" 1425
+	trade Medical 510
+	trade Metal 512
+	trade Plastic 474
+	fleet "Dels Ufulre Patrol" 1000
+	object
+		sprite star/f5
+		period 10
+	object
+		sprite planet/rock18
+		distance 500
+		period 475.75914
+		object
+			sprite planet/rock3-b
+			distance 155
+			period 72.945443
+	object
+		sprite planet/saturn
+		distance 1437
+		period 2318.0206
+		object
+			sprite planet/station4b
+			distance 298
+			period 100.22977
+	object
+		sprite planet/gas3
+		distance 2599
+		period 5638.214
+		object
+			sprite planet/ice8
+			distance 310
+			period 206.32087
+	object
+		sprite planet/gas5
+		distance 3583
+		period 9126.4599
+		object
+			sprite planet/station2ver8
+			distance 257
+			period 155.74005
+
+system "Qee Oldeli"
+	pos -52525.717 -55217.894
+	government "Dels Ufulre"
+	habitable 8820
+	belt 1841
+	link "Qee Kudle"
+	link "Qee Saaloi"
+	asteroids "medium rock" 101 3.0996
+	asteroids "large rock" 5 3.2886
+	asteroids "small metal" 3 3.1752
+	asteroids "medium metal" 59 2.7216
+	asteroids "large metal" 13 3.2508
+	minables aluminum 14 4.2361113
+	minables iron 35 3.8738714
+	minables uranium 22 4.2211427
+	trade Clothing 281
+	trade Electronics 758
+	trade Equipment 628
+	trade Food 464
+	trade "Heavy Metals" 873
+	trade Industrial 729
+	trade "Luxury Goods" 1425
+	trade Medical 510
+	trade Metal 512
+	trade Plastic 474
+	fleet "Dels Ufulre Patrol" 1000
+	object
+		sprite planet/browndwarf-l
+		period 10
+	object
+		sprite planet/ice4
+		distance 522
+		period 113.58382
+	object
+		sprite planet/ocean6
+		distance 881
+		period 249.04313
+	object
+		sprite planet/gas12-b
+		distance 2515
+		period 1201.2065
+		object
+			sprite planet/dust7
+			distance 323
+			period 219.43424
+	object
+		sprite planet/jupiter
+		distance 3587
+		period 2046.0101
+
+system Saneril
+	pos -52692.994 -55063.867
+	government Uninhabited
+	habitable 361.25
+	belt 1281
+	haze _menu/haze-133
+	link "Elem Bvragun"
+	link "Esila Bvragun"
+	link Sankelem
+	link Sanvaril
+	asteroids "medium rock" 2 3.864
+	asteroids "large rock" 1 4.648
+	asteroids "small metal" 13 3.472
+	asteroids "medium metal" 47 2.856
+	asteroids "large metal" 23 2.8
+	minables titanium 5 5.7721753
+	hazard "GW Cloud of Decay" 5
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/desert9
+		distance 341
+		period 296.32796
+	object
+		sprite planet/gas7
+		distance 761
+		period 987.91152
+	object
+		sprite planet/rock4
+		distance 1412
+		period 2496.8538
+	object
+		sprite planet/gas2
+		distance 2197
+		period 4846.0306
+	object
+		sprite planet/shattered
+		distance 6107.5
+		period 22461.372
+		object
+			sprite planet/ionestation
+			distance 244.5
+			period 47.114249
+
+system Sankelem
+	pos -52661.633 -55006.478
+	government Uninhabited
+	habitable 361.25
+	belt 1281
+	haze _menu/haze-133
+	link Meleemsal
+	link Saneril
+	asteroids "medium rock" 2 3.864
+	asteroids "large rock" 1 4.648
+	asteroids "small metal" 13 3.472
+	asteroids "medium metal" 47 2.856
+	asteroids "large metal" 23 2.8
+	minables titanium 5 5.7721753
+	hazard "GW Cloud of Decay" 5
+
+system Meleemsal
+	pos -52597.161 -55036.922
+	government Uninhabited
+	habitable 361.25
+	belt 1281
+	haze _menu/haze-133
+	link Meskiju
+	link "Qee Sealie"
+	link Sankelem
+	asteroids "medium rock" 2 3.864
+	asteroids "large rock" 1 4.648
+	asteroids "small metal" 13 3.472
+	asteroids "medium metal" 47 2.856
+	asteroids "large metal" 23 2.8
+	minables titanium 5 5.7721753
+	hazard "GW Cloud of Decay" 5
+
+system Meskiju
+	pos -52568.967 -55110.283
+	government Uninhabited
+	habitable 405
+	belt 1101
+	haze _menu/haze-133
+	link Measkri
+	link Meleemsal
+	link Sanvaril
+	asteroids "small rock" 1 2.673
+	asteroids "medium rock" 14 1.755
+	asteroids "large rock" 5 1.971
+	asteroids "small metal" 1 1.944
+	asteroids "large metal" 1 2.511
+	hazard "GW Cloud of Decay" 5
+	object
+		sprite star/g3
+		period 10
+	object
+		sprite planet/dust4-b
+		distance 261
+		period 187.40374
+	object
+		sprite planet/rock14
+		distance 564
+		period 595.30035
+	object
+		sprite planet/cloud6
+		distance 1216
+		period 1884.5942
+	object
+		sprite planet/UPS5
+		distance 2229
+		period 4677.1639
+	object
+		sprite planet/browndwarf-t-rouge
+		distance 3049
+		period 7482.6188
+	object
+		sprite planet/ice8-b
+		distance 7222
+		period 27277.446
+
+system Sanvaril
+	pos -52629.967 -55096.561
+	government Uninhabited
+	habitable 720
+	belt 1178
+	haze _menu/haze-133
+	link Meskiju
+	link Saneril
+	link Sanlijcai
+	asteroids "small rock" 2 2.04
+	asteroids "medium rock" 120 3.3864
+	asteroids "large rock" 9 3.5088
+	asteroids "medium metal" 7 3.0192
+	asteroids "large metal" 3 3.3456
+	minables copper 3 6.6818299
+	minables titanium 35 5.3427791
+	hazard "GW Cloud of Decay" 5
+	object
+		sprite star/b8
+		period 10
+	object
+		sprite planet/lava4
+		distance 318
+		period 189.02508
+	object
+		sprite planet/lava1-b
+		distance 661
+		period 566.47524
+	object
+		sprite planet/desert10
+		distance 1340
+		period 1635.0685
+	object
+		sprite planet/gas7
+		distance 2401
+		period 3921.6333
+		object
+			sprite planet/io-b
+			distance 251
+			period 150.31807
+		object
+			sprite planet/UPS3
+			distance 384
+			period 355.96612
+
+system Jelksiv
+	pos -52759.3 -55200.561
+	government Uninhabited
+	habitable 1411.2
+	belt 1690
+	haze _menu/haze-133
+	link "Nsen Bvragun"
+	asteroids "small rock" 65 3.8544
+	asteroids "medium rock" 50 3.8016
+	asteroids "large rock" 6 3.168
+	asteroids "small metal" 1 3.8016
+	asteroids "medium metal" 8 4.4352
+	asteroids "large metal" 3 4.1184
+	minables silver 3 4.8512267
+	hazard "GW Cloud of Decay" 5
+	object
+		sprite star/o8
+		period 10
+	object
+		sprite planet/rock15-b
+		distance 352
+		period 157.2406
+	object
+		sprite planet/gas17-b
+		distance 996
+		period 748.41023
+		object
+			sprite planet/dust0
+			distance 253
+			period 247.84213
+	object
+		sprite planet/gas2-hot
+		distance 1737
+		period 1723.6554
+	object
+		sprite planet/gas10-hot
+		distance 2635
+		period 3220.4877
+		object
+			sprite planet/ice0-b
+			distance 215
+			period 119.16763
+	object
+		sprite planet/gas12-b
+		distance 8923
+		period 20068.599
+		object
+			sprite planet/stationh-ancient1
+			distance 360
+			period 69.929504
+		object
+			sprite "planet/asteroid base"
+			distance 531
+			period 320.22807
+	object
+		sprite planet/europa
+		distance 10877
+		period 27009.367
+
+system Sanlijcai
+	pos -52699.244 -55148.95
+	government Uninhabited
+	habitable 1220
+	belt 1909
+	haze _menu/haze-133
+	link "Esila Bvragun"
+	link Salicarai
+	link Sanvaril
+	asteroids "small rock" 12 0.891
+	asteroids "medium rock" 10 1.6335
+	asteroids "large rock" 5 0.957
+	asteroids "small metal" 74 1.5675
+	asteroids "medium metal" 116 0.99
+	asteroids "large metal" 57 0.9735
+	minables iron 51 1.8321876
+	hazard "GW Cloud of Decay" 5
+
+system Measkri
+	pos -52585.911 -55180.589
+	government Uninhabited
+	habitable 22579.2
+	belt 1002
+	haze _menu/haze-133
+	link Menlirgai
+	link Meskiju
+	link Salicarai
+	asteroids "small rock" 5 3.7674
+	asteroids "medium rock" 3 3.312
+	asteroids "large rock" 5 2.07
+	asteroids "medium metal" 12 2.1942
+	asteroids "large metal" 15 3.8916
+	minables lead 3 3.3092873
+	hazard "GW Cloud of Decay" 5
+	object
+		sprite star/a-supergiant
+		period 10
+	object
+		sprite planet/mars
+		distance 765
+		period 125.94556
+	object
+		sprite planet/gw-continential3
+		distance 1312
+		period 282.87298
+	object
+		sprite planet/gas2
+		distance 3974
+		period 1491.1884
+
+system Menlirgai
+	pos -52618.828 -55223.2
+	government Uninhabited
+	habitable 450245
+	belt 1685
+	haze _menu/haze-full
+	link Measkri
+	link Salicarai
+	asteroids "small rock" 44 6.1152
+	asteroids "medium rock" 171 5.0544
+	asteroids "large rock" 34 5.4912
+	asteroids "small metal" 8 4.2432
+	asteroids "medium metal" 95 3.4944
+	asteroids "large metal" 9 5.0544
+	hazard "GW Cloud of Decay" 5
+	object
+		sprite star/nova
+		period 10
+		object
+			sprite star/nova-core
+	object
+		sprite planet/europa
+		distance 2248
+		period 26646.15
+	object
+		sprite planet/gas7-b
+		distance 4374
+		period 72319.96
+		object
+			sprite planet/miranda
+			distance 267
+			period 206.38528
+	object
+		sprite planet/gas3-b
+		distance 9662
+		period 237432.71
+	object
+		sprite planet/gas15
+		distance 17482
+		period 577865.39
+
+system Salicarai
+	pos -52653.494 -55190.533
+	government Uninhabited
+	habitable 452
+	belt 1215
+	haze _menu/haze-133
+	link Measkri
+	link Menlirgai
+	link Sanlijcai
+	asteroids "small rock" 10 5.04
+	asteroids "medium rock" 12 3.92
+	asteroids "large rock" 19 3.136
+	asteroids "small metal" 17 4.032
+	asteroids "medium metal" 25 3.528
+	asteroids "large metal" 46 4.48
+	minables neodymium 1 6.899068
+	minables titanium 2 5.3516135
+	hazard "GW Cloud of Decay" 5
+	object
+		sprite star/g-dwarf
+		distance 85.20177
+		period 36.520597
+		offset 180
+	object
+		sprite star/f3
+		distance 5.7982301
+		period 36.520597
+	object
+		sprite planet/lava7-b
+		distance 258
+		period 174.34333
+	object
+		sprite planet/gas14
+		distance 971
+		period 1272.9303
+		object
+			sprite planet/tethys
+			distance 262
+			period 261.18383
+		object
+			sprite planet/rhea
+			distance 417
+			period 264.83944
+	object
+		sprite planet/gas9
+		distance 1834
+		period 3304.2643
+	object
+		sprite planet/gas13
+		distance 3211
+		period 7654.8421
+		object
+			sprite planet/sanjayastation
+			distance 313
+			period 94.902166
+		object
+			sprite planet/station2k
+			distance 480
+			period 275.21968
+	object
+		sprite planet/gas11-b
+		distance 4679
+		period 13464.969
+		object
+			sprite planet/station3kd
+			distance 275
+			period 88.852852
 

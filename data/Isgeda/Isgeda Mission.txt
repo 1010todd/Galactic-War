@@ -1,0 +1,127 @@
+mission "Igshoal: Loot Uilenxi (Msivyut Blaster)"
+	repeat
+	source
+		planet "Uilenxi Fratmav"
+	to offer
+		random < 5
+	on offer
+		conversation
+			scene "outfit/isgeda sunblaster"
+			`You noticed one of the ship is in relatively better condition than other and take a closer look. After inspecting it for a while you figured it's still unrepairable to you but also noted that one of the gun seems to be in nearly perfect condition. Maybe you can try to take it.`
+			choice
+				`	(Take it)`
+				`	(Leave it)`
+					decline
+			`	You get your tools and remove the weapon from the alien ship. The joints are very tough and took a while to cut but eventually you managed to remove the weapon without damaging the weapon itself.`
+	on accept
+		"gw: looted uilenxi" += 1
+		outfit "Msivyut Blaster"
+		fail
+		
+mission "Igshoal: Loot Uilenxi (Msivyut Blaster Turret)"
+	repeat
+	source
+		planet "Uilenxi Fratmav"
+	to offer
+		random < 4
+	on offer
+		conversation
+			scene "outfit/isgeda sunblaster turret"
+			`You noticed one of the ship is in relatively better condition than other and take a closer look. After inspecting it for a while you figured it's still unrepairable to you but also noted that one of the gun seems to be in nearly perfect condition. Maybe you can try to take it.`
+			choice
+				`	(Take it)`
+				`	(Leave it)`
+					decline
+			`	You get your tools and remove the weapon from the alien ship. The joints are very tough and took a while to cut but eventually you managed to remove the weapon without damaging the weapon itself.`
+	on accept
+		"gw: looted uilenxi" += 1
+		outfit "Msivyut Blaster Turret"
+		fail
+
+mission "Igshoal: Elem Bastion"
+	landing
+	invisible
+	npc kill
+		government "Isgeda (Derelict Guard)"
+		personality heroic unconstrained staying
+		system "Elem Bvragun"
+		ship "Sharnhi Bvragun" "Mesidul"
+		ship "Sharnhi Bvragun" "Emvichir"
+		
+mission "Igshoal: Esila Bastion"
+	landing
+	invisible
+	npc kill
+		government "Isgeda (Derelict Guard)"
+		personality heroic unconstrained staying
+		system "Elem Bvragun"
+		ship "Sharnhi Bvragun" "Ajrelv"
+		ship "Sharnhi Bvragun" "Asbalsun"
+		
+mission "Igshoal: Nsen Bastion"
+	landing
+	invisible
+	npc kill
+		government "Isgeda (Derelict Guard)"
+		personality heroic unconstrained staying
+		system "Nsen Bvragun"
+		ship "Sharnhi Bvragun" "Muglair"
+	npc kill
+		government "Isgeda (Derelict Guard)"
+		personality heroic unconstrained staying derelict
+		system "Nsen Bvragun"
+		ship "Sharnhi Bvragun" "Privday"
+		
+mission "Igshoal: Nlai Bastion"
+	landing
+	invisible
+	npc kill
+		government "Isgeda (Derelict Guard)"
+		personality heroic unconstrained staying
+		system "Nlai Bvragun"
+		ship "Sharnhi Bvragun" "Eckasil"
+		ship "Sharnhi Bvragun" "Sigessha"
+		
+mission "Igshoal: Alei Bastion"
+	landing
+	invisible
+	npc kill
+		government "Isgeda (Derelict Guard)"
+		personality heroic unconstrained staying
+		system "Alei Bvragun"
+		ship "Sharnhi Bvragun" "Sidhate"
+		ship "Sharnhi Bvragun" "Lahech"
+		
+mission "Igshoal: Aspei Bastion"
+	landing
+	invisible
+	npc kill
+		government "Isgeda (Derelict Guard)"
+		personality heroic unconstrained staying
+		system "Aspei Bvragun"
+		ship "Sharnhi Bvragun" "Meibvar"
+		ship "Sharnhi Bvragun" "Miabyri"
+		
+mission "Igshoal: Psen Bastion"
+	landing
+	invisible
+	npc kill
+		government "Isgeda (Derelict Guard)"
+		personality heroic unconstrained staying
+		system "Psen Bvragun"
+		ship "Sharnhi Bvragun" "Icholchan"
+	npc kill
+		government "Isgeda (Derelict Guard)"
+		personality heroic unconstrained staying derelict
+		system "Psen Bvragun"
+		ship "Sharnhi Bvragun" "Hjanrai"
+		
+mission "Igshoal: Plamaj Bastion"
+	landing
+	invisible
+	npc kill
+		government "Isgeda (Derelict Guard)"
+		personality heroic unconstrained staying
+		system "Plamaj Bvragun"
+		ship "Sharnhi Bvragun" "Saaiskhem"
+		ship "Sharnhi Bvragun" "Magdhari"
