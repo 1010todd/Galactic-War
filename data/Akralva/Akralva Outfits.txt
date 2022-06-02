@@ -330,6 +330,34 @@ outfit "Akralva Factory Module"
 	description "This module allow a ship to become a mobile factory. Requires dedicated support systems(and a lot of space)."
 	description "Having this outfit on your flagship will allow you to select outfit to create upon next landing, it will require materials. Having more factory module will produce more items at a time. Can stack up to 3 for extra benefits."
 
+outfit "Akralva Harvester Module"
+	category "Systems"
+	cost 9000000
+	thumbnail "outfit/akralva factory module"
+	mass 333
+	"outfit space" -250
+	"required crew" 12
+	"energy consumption" 7.4
+	#"industrial support" -1
+	weapon
+		#sound "gw energylauncher2"
+		#"hardpoint sprite" "hardpoint/akralva vekrevira turret hp"
+		#"hardpoint offset" 8.
+		"hit effect" "jump drive"
+		"fire effect" "vekrevira laser"
+		"inaccuracy" 30
+		"turret turn" 90
+		"velocity" 120
+		"lifetime" 1
+		"reload" 1.1
+		"burst count" 60
+		"burst reload" 1
+		"firing energy" 12
+		"firing heat" 28
+		"firing force" -5
+		"shield damage" 6
+		"hull damage" 12
+	description "Energy mining module used by Akralva mobile planetary mining platform."
 #=====================================Engines
 outfit "Eravarin Steering"
 	category "Engines"
