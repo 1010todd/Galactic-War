@@ -98,7 +98,7 @@ mission "Panmur Kaul Warning Repeat 1"
 		government "Dels Kaote"
 		personality heroic unconstrained staying
 		system Prudeiko
-		fleet "Dels Kaote"
+		fleet #"Dels Kaote"
 			names "Dels Guard"
 			fighters "Dels Fighter"
 			variant
@@ -117,7 +117,7 @@ mission "Panmur Kaul Warning Repeat 2"
 		government "Dels Kaote"
 		personality heroic unconstrained staying
 		system Prudeiko
-		fleet "Dels Kaote"
+		fleet #"Dels Kaote"
 			names "Dels Guard"
 			fighters "Dels Fighter"
 			variant
@@ -134,7 +134,7 @@ mission "Dels officer: crossed Panmur Kaul check"
 
 mission "Dels: Scout beyond Panmur Kaul"
 	name "Explore beyond Panmur Kaul"
-	destination "Vobeelee"
+	destination "Delro"
 	waypoint "Mitura"
 	waypoint "Kuvynra"
 	waypoint "Hsiorul"
@@ -204,7 +204,7 @@ mission "Dels: Scout beyond Panmur Kaul"
 	on enter "Behsr Ler"
 		"Dels: Found Tehru Miitr" += 1
 	on enter "Ukcelarii"
-		"Dels: Found Insker Southern boarder" +=1
+		"Dels: Found Insker Southern boarder" += 1
 	on complete
 		payment 2500000
 		conversation 
@@ -355,7 +355,7 @@ mission "Dels officer: arrested generic"
 
 			branch "runbacktoughship" #Checked if you're well armed enough to survive the ambush
 				"armament deterrence" >= 20
-			`	You quickly make for your control room and prepare to launch. You took a quick glance at your radar as your engines begins to fire up and noticed you're somehow surronded by at least 5 warships before hearing series of explosions coming from your ship... Unfortunately for you, the Dels Kaote is well prepared.
+			`	You quickly make for your control room and prepare to launch. You took a quick glance at your radar as your engines begins to fire up and noticed you're somehow surronded by at least 5 warships before hearing series of explosions coming from your ship... Unfortunately for you, the Dels Kaote is well prepared.`
 				die
 
 			label runbacktoughship # Todo : When missions can check ship's durability in someway, also use that.
@@ -382,7 +382,7 @@ mission "Dels officer: arrested generic"
 				or
 					"armament deterrence" >= 15 # Requires less value than "runbacktoughship" check as you have more time to launch.
 					and
-						"armament deterrence" >=10
+						"armament deterrence" >= 10
 						random > 50
 
 			branch "Fastenough"			#Check if you're in a small ship, not perfect but will work for most of the cases.
@@ -499,7 +499,7 @@ mission "Dels officer: arrested Delro" #A variant of generic ambush but since it
 			branch "runbacktoughship" #Checked if you're well armed enough to survive the ambush
 				"armament deterrence" >= 230
 
-			`	You quickly make for your control room and prepare to launch. You took a quick glance at your radar as your engines begins to fire up and noticed you're somehow surronded by at least 5 warships before hearing series of explosions coming from your ship... Unfortunately for you, the Dels Kaote is well prepared.
+			`	You quickly make for your control room and prepare to launch. You took a quick glance at your radar as your engines begins to fire up and noticed you're somehow surronded by at least 5 warships before hearing series of explosions coming from your ship... Unfortunately for you, the Dels Kaote is well prepared.`
 				die
 
 			label runbacktoughship # Todo : When missions can check ship's durability in someway, also use that.
@@ -526,7 +526,7 @@ mission "Dels officer: arrested Delro" #A variant of generic ambush but since it
 				or
 					"armament deterrence" >= 170 # Requires less value than "runbacktoughship" check as you have more time to launch.
 					and
-						"armament deterrence" >=150
+						"armament deterrence" >= 150
 						random > 50
 
 			branch "Fastenough"			#Check if you're in a small ship, not perfect but will work for most of the cases.

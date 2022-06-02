@@ -165,7 +165,7 @@ conversation "GW: mobile factory menu"
 		has "GW: Mobile factory: unlock Typhoon Torpedo: offered"
 	choice
 		`	[Arziao Torpedo]`
-			goto `arziao ammo`
+			goto "arziao ammo"
 		`	[Halt production]`
 			goto halt
 		`	[Exit]`
@@ -184,9 +184,9 @@ conversation "GW: mobile factory menu"
 	label typhoonunlocked
 	choice
 		`	[Arziao Torpedo]`
-			goto `arziao ammo`
+			goto "arziao ammo"
 		`	[Typhoon Torpedo]`
-			goto `typhoon ammo`
+			goto "typhoon ammo"
 		`	[Halt production]`
 			goto halt
 		`	[Exit]`
@@ -196,11 +196,11 @@ conversation "GW: mobile factory menu"
 	label finisherunlockedt
 	choice
 		`	[Arziao Torpedo]`
-			goto `arziao ammo`
+			goto "arziao ammo"
 		`	[Typhoon Torpedo]`
-			goto `typhoon ammo`
+			goto "typhoon ammo"
 		`	[Finisher Torpedo]`
-			goto `finisher ammo`
+			goto "finisher ammo"
 		`	[Halt production]`
 			goto halt
 		`	[Exit]`
@@ -210,16 +210,16 @@ conversation "GW: mobile factory menu"
 	label finisherunlocked
 	choice
 		`	[Arziao Torpedo]`
-			goto `arziao ammo`
+			goto "arziao ammo"
 		`	[Finisher Torpedo]`
-			goto `finisher ammo`
+			goto "finisher ammo"
 		`	[Halt production]`
 			goto halt
 		`	[Exit]`
 			goto exit
 		`	[Disable this menu]`
 			goto disablemenu
-	label `arziao ammo`
+	label "arziao ammo"
 	`Your mobile factory will produce 5 Arziao Torpedos for 1 ton of Neodymium and 1 ton of Aluminum every landing. Confirm?`
 	choice
 		`	[Yes]`
@@ -258,7 +258,7 @@ conversation "GW: mobile factory menu"
 	apply
 		set `GW: Mobile Fac Produce: Finisher Torpedo`
 		clear `GW: Mobile Fac Produce: Arziao Torpedo`
-		clear `GW: Mobile Fac Produce: Typhoon Torpedo
+		clear `GW: Mobile Fac Produce: Typhoon Torpedo`
 	`Your mobile factory will produce 2 Finisher Torpedos every landing.`
 		defer
 	label `disablemenu`

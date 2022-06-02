@@ -1,4 +1,4 @@
-mission "Akralva-Kumakk: Ko'ausor Invaded Generic 1"
+mission "Akralva-Kumakk: Ko'aosor Invaded Generic 1"
 	landing
 	invisible
 	repeat 5
@@ -9,7 +9,7 @@ mission "Akralva-Kumakk: Ko'ausor Invaded Generic 1"
 		government "Kumakk"
 		personality
 			waiting
-		system "Ko'ausor"
+		system "Ko'aosor"
 		fleet "Kumakk Security" 1
 	on complete
 		event "Akralva-Kumakk: Kumakk Boarder invaded reset timer" 35
@@ -25,7 +25,7 @@ mission "Akralva-Kumakk: Ko'shoukol Invaded Generic 1"
 		government "Kumakk"
 		personality
 			waiting
-		system "Ko'ausor"
+		system "Ko'shoukol"
 		fleet "Kumakk Security" 1
 	on complete
 		event "Akralva-Kumakk: Kumakk Boarder invaded reset timer" 35

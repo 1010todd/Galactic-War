@@ -91,7 +91,7 @@ mission "First Contact: Uoorn"
 				`	(Take the sample anyway)`
 			apply
 				"reputation: Uoorn" <?= -10
-				"Uoorn: got samples"
+				set "Uoorn: got samples"
 			`	The sword powers on automatically as you grip it, you then use it to shave off a piece of the mushroom skin with ease, you quickly put it in your bag and immediately make a sprint for your ship. You feel the emotions of anger and resentment being directed at you as you run. You managed to get inside your ship unscathed, you hear sounds of something small but solid collides with the hull of you ship and quickly fire up your ships' engines. There's some resistance as you try to get your ship off the ground but it wasn't too much to handle. You look at your sensors as you ascend into space and see at least a dozen ships following you...`
 				launch
 			label shootatthepatch
