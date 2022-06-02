@@ -32,7 +32,9 @@ This plugin is complatible with Omnis and World Forge developer plugins, though,
 ## Known Issues
 Galaxy image not appearing. To fix this, turn on "reduce large graphic" option in the setting and restart the game.
 
-Memory Leaks(Game will freeze or crash, check task manager if memory usage is higher than usual. With this plugin installed, the game usually peaks at 2-3GB RAM.) when used with Endless Sky continuous after 16 August 2021 (specifically commit dda40b619e5c722dcf213c31efa53626486297c0). Please download the lastest update with code button or download the lastest release for the fix.
+Game slowing down when jumping with hyperdrive. Due to the number of systems this plugin add and game's pathfinding, unfortunately the only fix is to get better hardware.
+
+Game slowing down/freezing when escorts have high-range jump drive. Similar reason to above, use shorter-ranged jump drive or don't use escorts.
 
 ## Download
 To download the lastest (development) version, press the green [code] button and download as zip from this repository.
