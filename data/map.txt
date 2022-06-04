@@ -125084,10 +125084,6 @@ system Mashreva
 		sprite planet/gw-continential3
 		distance 1085
 		period 1743.3747
-		object
-			sprite planet/sheragi_postverta
-			distance 166
-			period 55.973151
 	object
 		sprite planet/gas4
 		distance 1722
@@ -125317,13 +125313,14 @@ planet Ke'kelo'ar
 
 planet Akrelvas
 	landscape land/desert1
-	description .
+	description "A cold dry planet of mostly desert with very few surface water source."
 	spaceport .
+	outfitter "Akralva Basic"
 
 planet Vhirahe
 	landscape land/desert5
-	description .
-	spaceport .
+	description "A desert world lack of natural life but full of factories and mines as well as several small cities as center of Akralva offensive against the Kumakk."
+	spaceport "The largest spaceport is mostly a flat area surrounded by some building."
 
 planet Curhekval
 	attributes mining
@@ -137700,7 +137697,7 @@ system Veahlruz
 
 planet Vaxulrix
 	landscape land/canyon03
-	description .
+	description "A relatively flat rocky planet with atmosphere unbreathable to most life."
 	spaceport .
 
 system Huzkalvi
