@@ -48264,9 +48264,10 @@ system Ko'hordul
 			distance 468
 			period 53.2925
 
-planet "Kealo'conkko"
-	description `.`
-	spaceport `.`
+planet Kealo'conkko
+	landscape land/sea4
+	description .
+	spaceport .
 
 system Ko'ioxue
 	pos -50696.8 -54202.833
@@ -49085,7 +49086,7 @@ system Ko'lolo
 		period 1630.6
 
 system Ko'lorulo
-	pos -50626.8 -54024.7
+	pos -50626.8 -54023.7
 	government Kumakk
 	habitable 1566.68
 	belt 1243
@@ -112383,8 +112384,8 @@ planet Alrukan
 planet Anhra'so
 	attributes farming
 	landscape land/fields1
-	description .
-	spaceport .
+	description "Over 90 percent of the landmass here is dedicated to some sort of food production. Each area seems to be planting different plant at different time as whenever you come here there always seems to be some harvesting going on somewhere."
+	spaceport "Aside from being highly focused on export of food, this spaceport also the home to several large restaurant of what you think is the most luxurious for the Kumakk who often times seems to highly prefer functionality over the look, here you see several items and parts which do not seems to serve any functional purpose but merely a decoration. Often rough castings with subtle color painted each with no particular shape you can identify easily and just seems random to you."
 	outfitter "Kumakk Basic"
 	outfitter "Standard Outfits"
 
@@ -113908,13 +113909,13 @@ planet Kateolr
 
 planet Ke'lokunre
 	landscape land/sivael6
-	description .
+	description "A Kumakk refinery and observatory station."
 	spaceport .
 	"required reputation" 2
 
 planet Ke'uleko
 	landscape land/sivael0
-	description .
+	description "A Kumakk station that serve as both refinery and a observatory where a third of the station appears to be a telescope looking into the core of the galaxy and its surrounding."
 	spaceport .
 	"required reputation" 2
 
@@ -114215,6 +114216,8 @@ planet "Ko'da Solrore"
 	landscape land/land6
 	description .
 	spaceport .
+	shipyard "Kumakk Basic"
+	outfitter "Kumakk Basic"
 
 planet Ko'elzuxen
 	landscape land/snow2
@@ -114236,8 +114239,9 @@ planet Ko'ledolr
 
 planet "Ko'se Elsen"
 	landscape land/land26
-	description .
-	spaceport .
+	description "A mostly uninhabited continential planet with very wide variety of lifeform small and large including sea creatures size of a small island to entire subcontinent of strange silvery twist with occasional dark spot and branches that appears to be a living thing that you're not quite sure what kingdom it fits but sensors indicates life-like systems within it."
+	spaceport "The spaceport is one large, multi-layered building on the seaside edge of the largest city on the planet. The lowest layer also doubled as seaport for ships, most of which are unique research vessels."
+	outfitter "Kumakk Basic"
 
 planet Ko'senai
 	landscape land/fog0
@@ -114459,8 +114463,8 @@ planet Kukoga
 planet Kul'elrel
 	attributes mining
 	landscape land/bwerner2
-	description .
-	spaceport .
+	description "A dry rocky planet home to large-scale mining operation."
+	spaceport "The spaceport is located on one of the major export hub of the planet, atop of a massive building surrounded by ore processing plants where constant stream of repulsor trucks carrying ores from various mining vehicle across the planet."
 	outfitter "Kumakk Ammo"
 	outfitter "Standard Outfits"
 	"required reputation" 2
@@ -121429,8 +121433,14 @@ planet Yshcahe
 	outfitter "Insker Basic"
 
 planet Ko'sek'akre
-	description .
-	spaceport .
+	attributes manufacturing
+	landscape land/forest0
+	description "A green planet of forest and vast swampland. Also home to a self-sustaining Kumakk cities each with their own farming, mining, and manufacturing area within or nearby. This planet is also home to a large Kumakk shipyard."
+	spaceport "The spaceport is built on a large building surrounding vast industrial area where the ground is all covered by buildings, pipes, and metal catwalk."
+	shipyard "Kumakk Advanced"
+	shipyard "Kumakk Basic"
+	outfitter "Kumakk Basic"
+	outfitter "Standard Outfits"
 
 system Ko'alok
 	pos -50947.3 -53726.633
@@ -121470,7 +121480,7 @@ system Ko'alok
 			period 184.75209
 		object Ko'lokilro
 			sprite planet/station17
-			distance 304.212
+			distance 324.3425
 			period 165.23686
 		object
 			sprite planet/io
@@ -121488,10 +121498,6 @@ system Ko'alok
 			sprite planet/rock7
 			distance 211
 			period 144.98915
-		object
-			sprite planet/station3k
-			distance 309
-			period 105.83031
 	object
 		sprite planet/sheragigasgiant
 		distance 4120
@@ -122107,7 +122113,7 @@ planet Suk'lekol
 
 planet Ko'lokilro
 	landscape land/station5
-	description .
+	description "This appears to be a Kumakk refinery station."
 	spaceport .
 
 system Ko'ionio
@@ -125296,8 +125302,9 @@ system Vahrrah'ol
 planet Uk'erlok
 	attributes "kumakk frontier"
 	landscape land/forest4
-	description .
-	spaceport .
+	description "A planet is single supercontinent warpping around from pole to pole of the planet with odd weather and terrain, massive mountain ranges streching across the continent, ice strips and patches found in odd location near the equator boardering a cluster of volcanoes."
+	spaceport "This planet have a few major spaceport from the old one build on a massive building between the two major cities to newer ones dug into the mountains like bunkers guarded by no less than three dozen weapon systems."
+	outfitter "Kumakk Basic"
 	outfitter "Standard Outfits"
 
 planet Ke'kelo'ar
@@ -125305,6 +125312,7 @@ planet Ke'kelo'ar
 	landscape land/fog6
 	description .
 	spaceport .
+	outfitter "Kumakk Basic"
 	outfitter "Standard Outfits"
 
 planet Akrelvas
@@ -144294,4 +144302,9 @@ system Salicarai
 			sprite planet/station3kd
 			distance 275
 			period 88.852852
+
+planet Kul'ishek
+	landscape land/badlands7
+	description "Small rocky planet being mined by the Kumakk."
+	spaceport "Most operation is centered around a single, large building which also serve as a spaceport. With all facilites located within the building itself."
 
