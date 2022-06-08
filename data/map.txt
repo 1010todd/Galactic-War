@@ -19722,7 +19722,7 @@ system Eilverel
 			period 57.2258
 
 system Einsoolren
-	pos -52090.7 -54013.4
+	pos -52090.7 -54012.956
 	government Uoorn
 	habitable 486.68
 	belt 1326
@@ -124105,8 +124105,8 @@ system Hettreke
 		period 5974.6984
 
 planet Hifrekol
-	landscape land/mountain19-harro
-	description .
+	landscape land/hills3
+	description "A world with strange red material scatted everywhere which you can't identify. Apparenty the Akralva can't process as well from how all their mining ships dumping all of it out."
 	spaceport .
 
 system Licheda
@@ -138127,7 +138127,7 @@ system Luxkuei
 		offset 180
 	object
 		sprite star/a-giant
-		distance 59.136684
+		distance 78.12588
 		period 79.575175
 	object
 		sprite planet/lava5
@@ -139342,8 +139342,10 @@ system Myxurlis
 
 planet Suazual
 	landscape land/snow3
-	description .
+	description "A cold heavily polluted planet where lies the rather recent ruins of alien cities. Besides them are the mobile industrial ships of the Akralva recycling the scraps to manufacture new equipment and ships for their war."
 	spaceport .
+	shipyard "Akralva Basic"
+	outfitter "Akralva Basic"
 
 planet Setuxal
 	landscape land/sea10-sfiera
@@ -143081,7 +143083,7 @@ system Adrelkis
 		period 2350.372
 
 system Methyei
-	pos -51799.95 -53949.644
+	pos -51802.617 -53960.977
 	government Akralva
 	habitable 52428.8
 	belt 1395
@@ -143130,7 +143132,7 @@ system Methyei
 		period 2383.9999
 
 system Saxmakhe
-	pos -51857.95 -53965.644
+	pos -51871.95 -53962.311
 	government Akralva
 	habitable 2560
 	belt 1528
@@ -143340,7 +143342,7 @@ system Veeriii'oorel
 	object
 		sprite star/m0
 		period 10
-	object
+	object "Ieo'ee ii"
 		sprite planet/cloud7
 		distance 308
 		period 280.79886
@@ -144304,4 +144306,309 @@ planet Kul'ishek
 	landscape land/badlands7
 	description "Small rocky planet being mined by the Kumakk."
 	spaceport "Most operation is centered around a single, large building which also serve as a spaceport. With all facilites located within the building itself."
+
+system Chiahiri
+	pos -51830.472 -53578.111
+	government Uninhabited
+	habitable 536.45
+	belt 1561
+	asteroids "small rock" 1 3.6504
+	asteroids "medium rock" 2 6.76
+	asteroids "large rock" 1 5.07
+	asteroids "small metal" 22 3.4476
+	asteroids "medium metal" 14 5.0024
+	asteroids "large metal" 12 3.38
+	minables lead 10 5.5420911
+	minables iron 11 7.6449555
+	object
+		sprite star/b-dwarf
+		distance 102.99189
+		period 44.856335
+	object
+		sprite star/f0
+		distance 7.5081089
+		period 44.856335
+		offset 180
+	object
+		sprite planet/dust4
+		distance 244
+		period 147.18553
+	object
+		sprite planet/fg_gas6
+		distance 932
+		period 1098.7635
+		object
+			sprite planet/fg_moon33
+			distance 385
+			period 197.70093
+	object
+		sprite planet/fg_icegiant0
+		distance 2038
+		period 3552.9299
+	object
+		sprite planet/gas13
+		distance 3535
+		period 8116.4197
+	object
+		sprite planet/fg_gas1
+		distance 4472
+		period 11548.699
+		object
+			sprite planet/lava0
+			distance 282
+			period 123.93423
+
+system Acibiken
+	pos -51773.222 -53773.194
+	government Uninhabited
+	habitable 1685
+	belt 1562
+	asteroids "small rock" 1 1.116
+	asteroids "medium rock" 52 1.26
+	asteroids "large rock" 18 0.954
+	asteroids "small metal" 4 1.674
+	asteroids "medium metal" 14 1.26
+	asteroids "large metal" 2 1.242
+	minables neodymium 7 2.3997766
+	minables titanium 17 1.5876942
+	object
+		sprite star/g0
+		distance 148.89021
+		period 59.790082
+	object
+		sprite star/o5
+		distance 47.109792
+		period 59.790082
+		offset 180
+	object
+		sprite planet/gw-sandy0
+		distance 518
+		period 256.88555
+		object
+			sprite planet/ice7-b
+			distance 183
+			period 64.787953
+	object
+		sprite planet/gas3-hot
+		distance 993
+		period 681.81871
+	object
+		sprite planet/ice0-b
+		distance 1406
+		period 1148.7434
+
+system Laainei
+	pos -51605.667 -53923.25
+	government Uninhabited
+	habitable 26.45
+	belt 1899
+	asteroids "small rock" 11 3.1875
+	asteroids "medium rock" 72 4.08
+	asteroids "large rock" 66 3.9525
+	asteroids "small metal" 9 2.635
+	asteroids "medium metal" 4 3.74
+	asteroids "large metal" 7 2.635
+	minables iron 5 4.2214714
+	minables uranium 8 7.1493279
+	minables titanium 7 6.468075
+	object
+		sprite star/k-dwarf
+		period 10
+	object
+		sprite planet/fg_gas7
+		distance 512
+		period 2014.8239
+	object
+		sprite planet/lava6-b
+		distance 1332
+		period 8454.511
+	object
+		sprite planet/gas10-hot
+		distance 2277
+		period 18896.297
+		object
+			sprite planet/dust5-b
+			distance 246
+			period 100.97649
+	object
+		sprite planet/fg_gas12
+		distance 3197
+		period 31437.363
+	object
+		sprite planet/gas3
+		distance 5514
+		period 71208.576
+		object
+			sprite planet/fg_moon11
+			distance 300
+			period 320.01934
+
+system Insiino
+	pos -51436.417 -53981.583
+	government Uninhabited
+	habitable 2560
+	belt 1922
+	asteroids "small rock" 44 3.3698
+	asteroids "medium rock" 10 2.1518
+	asteroids "large rock" 33 3.1262
+	asteroids "small metal" 75 3.0044
+	asteroids "medium metal" 3 2.9638
+	asteroids "large metal" 16 2.8014
+	minables silver 1 5.541324
+	minables lead 1 4.4647762
+	object
+		sprite star/g0-old
+		distance 151
+		period 92.775953
+	object
+		sprite star/k5-old
+		distance 151
+		period 92.775953
+		offset 180
+	object
+		sprite planet/gas16
+		distance 686
+		period 317.62244
+		object
+			sprite planet/miranda
+			distance 233
+			period 168.24637
+	object
+		sprite planet/gas8
+		distance 1502
+		period 1029.0344
+		object
+			sprite planet/fg_moon20
+			distance 348
+			period 245.39713
+	object
+		sprite planet/fg_gas19
+		distance 2955
+		period 2839.6266
+		object
+			sprite planet/fg_moon14
+			distance 553
+			period 340.33399
+	object
+		sprite planet/gas7
+		distance 9065
+		period 15257.266
+
+system Rosenzini
+	pos -51270.167 -54180.583
+	government Uninhabited
+	habitable 208080
+	belt 1709
+	asteroids "small rock" 9 4.5632
+	asteroids "medium rock" 3 3.9215
+	asteroids "large rock" 5 5.9179
+	asteroids "small metal" 15 4.8484
+	asteroids "medium metal" 19 4.991
+	asteroids "large metal" 1 6.417
+	minables lead 1 8.7568686
+	object
+		sprite star/carbon
+		period 10
+	object
+		sprite planet/fg_icegiant4
+		distance 1394
+		period 102.05258
+	object
+		sprite planet/fg_gas11
+		distance 2140
+		period 194.11115
+		object
+			sprite planet/dust0
+			distance 418
+			period 526.33078
+	object
+		sprite planet/gas9
+		distance 2944
+		period 313.21066
+	object
+		sprite planet/uranus
+		distance 4416
+		period 575.40472
+	object
+		sprite planet/gas0-b
+		distance 6162
+		period 948.44547
+	object
+		sprite planet/gas1
+		distance 17904
+		period 4697.3717
+		object
+			sprite planet/station12
+			distance 509
+			period 357.15379
+	object
+		sprite star/carbon-core
+
+system Valhoci
+	pos -51568.167 -54115.583
+	government Uninhabited
+	habitable 861.25
+	belt 1718
+	asteroids "small rock" 109 4.03
+	asteroids "medium rock" 19 5.85
+	asteroids "large rock" 39 6.11
+	asteroids "small metal" 24 6.435
+	asteroids "medium metal" 67 4.94
+	asteroids "large metal" 9 4.55
+	minables tungsten 2 9.5798899
+	minables neodymium 46 5.6346499
+	minables aluminum 5 5.6149483
+	hazard "GW Star Crackle" 1
+	object
+		sprite star/k5
+		distance 84.470247
+		period 53.490279
+	object
+		sprite star/a5
+		distance 61.029753
+		period 53.490279
+		offset 180
+	object
+		sprite planet/jupiter-b
+		distance 1010
+		period 978.27834
+		object
+			sprite planet/fg_moon20
+			distance 302
+			period 198.38601
+		object
+			sprite planet/fg_moon18
+			distance 446
+			period 292.94148
+	object
+		sprite planet/gas6-b
+		distance 1994
+		period 2713.7392
+	object
+		sprite planet/browndwarf-l
+		distance 2979
+		period 4955.4846
+		object
+			sprite planet/ice0-b
+			distance 297
+			period 193.47965
+
+planet "Ieo'ee ii"
+	landscape land/badlands3
+	description "A planet with dense, cloudy atmosphere.The surface appears to be lifeless except for a few patches of giant mushrooms scattered across the surface."
+
+planet Oou'niiee
+	landscape land/canyon1
+	description .
+
+planet "Cei'iisee oe"
+	landscape land/snow10
+	description "A cold planet covered in snow and ice with liquid water pockets hidden several meters below. The planet is lifeless except for rare cluster of giant white mushrooms."
+
+planet Iee'ciseeor
+	landscape land/mountain3
+	description "Cold planet with extremely tall but fragile mountains some of which collapse at the slightest wind. You're not quite sure how these mountain of snow are formed."
+
+planet Leeor'ooiia
+	description "This planet is filled with various life. Vast forest of very large trees cover majority of the land. It appears that most of the trees grow fruits that glow at night, apparently attracting animals to eat it."
 
