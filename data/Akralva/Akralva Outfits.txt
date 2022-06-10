@@ -331,13 +331,14 @@ outfit "Akralva Factory Module"
 	description "Having this outfit on your flagship will allow you to select outfit to create upon next landing, it will require materials. Having more factory module will produce more items at a time. Can stack up to 3 for extra benefits."
 
 outfit "Akralva Harvester Module"
-	category "Systems"
-	cost 9000000
+	category "Turrets"
+	cost 1500000
 	thumbnail "outfit/akralva factory module"
 	mass 333
 	"outfit space" -250
 	"required crew" 12
 	"energy consumption" 7.4
+	"turret mount" -1
 	#"industrial support" -1
 	weapon
 		#sound "gw energylauncher2"
@@ -356,7 +357,9 @@ outfit "Akralva Harvester Module"
 		"firing heat" 28
 		"firing force" -5
 		"shield damage" 6
-		"hull damage" 12
+		"hull damage" 40
+		"blast radius" 100
+		"safe"
 	description "Energy mining module used by Akralva mobile planetary mining platform."
 
 outfit "Akralva Engineering Mainframe"
