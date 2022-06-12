@@ -716,6 +716,7 @@ mission "gw: licenses add"
 	on accept
 		set "license: Dels Admiral"
 		set "license: Dels Commander"
+		set "license: Dardornai Battleship"
 		set "license: Kakaima"
 		set "license: Kager Lergen" #Ignaggen Military License/permit
 		set "license: Kagellen Ler" #Ignaggen Independent Combatant license/permit
@@ -735,6 +736,7 @@ mission "gw: licenses remove"
 	on accept
 		clear "license: Dels Admiral"
 		clear "license: Dels Commander"
+		clear "license: Dardornai Battleship"
 		clear "license: Kakaima"
 		clear "license: Kager Lergen"
 		clear "license: Kagellen Ler"
