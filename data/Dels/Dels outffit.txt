@@ -305,7 +305,7 @@ outfit "TC0B Laser"
 outfit "Skue-6 Turret" #AA1
 	category "Turrets"
 	"cost" 22000
-	thumbnail "outfit/dels skue6"
+	thumbnail "outfit/dels skue6 turret"
 	"mass" 10
 	"outfit space" -10
 	"weapon capacity" -10
@@ -332,7 +332,7 @@ outfit "Skue-6 Turret" #AA1
 outfit "Skue-8 Turret"
 	category "Turrets"
 	cost 33000
-	thumbnail "outfit/dels skue8"
+	thumbnail "outfit/dels skue8 turret"
 	"mass" 20
 	"outfit space" -20
 	"weapon capacity" -20
@@ -340,7 +340,7 @@ outfit "Skue-8 Turret"
 	weapon
 		sprite "projectile/skue2shot"
 		sound "gw dblaster2"
-		"hardpoint sprite" "hardpoint/blaster turret"
+		"hardpoint sprite" "hardpoint/dels skue8 turret single hp"
 		"hardpoint offset" 9.
 		"hit effect" "blaster impact"
 		"inaccuracy" 2.4
@@ -359,7 +359,7 @@ outfit "Skue-8 Turret"
 outfit "Skue-8 Quad Turret"
 	category "Turrets"
 	cost 162000
-	thumbnail "outfit/dels skue8"
+	thumbnail "outfit/dels skue8 turret"
 	"mass" 48
 	"outfit space" -48
 	"weapon capacity" -48
@@ -367,7 +367,7 @@ outfit "Skue-8 Quad Turret"
 	weapon
 		sprite "projectile/skue2shot"
 		sound "gw dblaster2"
-		"hardpoint sprite" "hardpoint/blaster turret"
+		"hardpoint sprite" "hardpoint/dels skue8 turret single hp"
 		"hardpoint offset" 9.
 		"hit effect" "blaster impact"
 		"inaccuracy" 2.4
