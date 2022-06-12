@@ -964,6 +964,7 @@ ship "Dels Decso" #Need buff
 		"outfit space" 760
 		"weapon capacity" 560
 		"engine capacity" 190
+		"vertical launching support" 2
 		weapon
 			"blast radius" 160
 			"shield damage" 1600
@@ -977,6 +978,8 @@ ship "Dels Decso" #Need buff
 		"Saikel-4 Launcher" 4
 		"Saikel-4 Missile" 120
 		"Ganoau Anti-Missile" 2
+		"Dalrel-8 VLS" 2
+		"Dalrel-8 Missile" 16
 		
 		"Liquid Nitrogen Cooler"
 		"Kaekur Shield Generator"
@@ -995,6 +998,9 @@ ship "Dels Decso" #Need buff
 	turret 48 1 "Ganoau Anti-Missile"
 	turret -42.5 68
 	turret 42.5 68
+	#=========VLS ports
+	turret -8 -101 "Dalrel-8 VLS"
+	turret 8 -101 "Dalrel-8 VLS"
 	engine -18.5 195.5
 		zoom 1
 		angle 0

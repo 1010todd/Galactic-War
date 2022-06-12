@@ -619,7 +619,7 @@ outfit "sk4 sub on"
 		"hit effect" "small explosion"
 		"inaccuracy" 90
 		"velocity" 15
-		"lifetime" 200
+		"lifetime" 300
 		"acceleration" 1.4
 		"drag" .08
 		"turn" 3
@@ -629,6 +629,105 @@ outfit "sk4 sub on"
 		"hull damage" 40
 		"hit force" 4
 		"missile strength" 1
+		
+effect "dalrel flare"
+	sprite "effect/dels dalrel projectile flare"
+		"frame rate" 6
+		"no repeat"
+	"lifetime" 12
+	"velocity scale" .9
+		
+outfit "Dalrel-8 Missile"
+	category "Ammunition"
+	cost 22000
+	thumbnail "outfit/dels dalrel missile"
+	"mass" .85
+	"dalrel capacity" -1
+	description "Dels Anti-Ship Missile"
+	
+outfit "Dalrel-8 Launching System"
+	category "Secondary Weapons"
+	cost 280000
+	thumbnail "outfit/dels dalrel launcher"
+	"mass" 2
+	"outfit space" -8
+	"weapon capacity" -8
+	"gun ports" -1
+	"dalrel capacity" 8
+	weapon
+		sprite "projectile/dels dalrel projectile"
+			"no repeat"
+			"frame rate" .25
+		sound "nuke"
+		ammo "Dalrel-8 Missile"
+		stream
+		icon "icon/nuke"
+		"fire effect" "tiny explosion"
+		"hit effect" "large explosion"
+		"die effect" "missile death"
+		"live effect" "dalrel flare" 150
+		"inaccuracy" 1
+		"velocity" 12
+		"lifetime" 450
+		"reload" 30
+		"burst count" 4
+		"burst reload" 12
+		"firing energy" 10
+		"firing heat" 50
+		"acceleration" .6
+		"drag" .075
+		"turn" 5
+		"homing" 4
+		"radar tracking" .65
+		"optical tracking" .7
+		"shield damage" 980
+		"hull damage" 680
+		"hit force" 250
+		"missile strength" 24
+	description "Dels anti-warship missile, slow but powerful." 
+
+outfit "Dalrel-8 VLS"
+	category "Secondary Weapons"
+	cost 280000
+	thumbnail "outfit/dels dalrel vls"
+	"mass" 2
+	"outfit space" -8
+	"weapon capacity" -8
+	"turret mounts" -1
+	"dalrel capacity" 8
+	"vertical launching support" -1
+	weapon
+		sprite "projectile/dels dalrel vls"
+			"no repeat"
+			"frame rate" 6
+		sound "nuke"
+		ammo "Dalrel-8 Missile"
+		stream
+		icon "icon/nuke"
+		"fire effect" "tiny explosion"
+		"hit effect" "large explosion"
+		"live effect" "dalrel flare" 150
+		"turret turn" 360
+		"inaccuracy" 1
+		"velocity" 1
+		"velocity override" 1000
+		"lifetime" 6
+		"submunition" "Dalrel-8 Launching System"
+		"reload" 30
+		"burst count" 4
+		"burst reload" 12
+		"firing energy" 10
+		"firing heat" 50
+		"acceleration" .0
+		"drag" .05
+		"turn" 25
+		"homing" 4
+		"tracking" 1
+		#"shield damage" 980 #inherits damage from submunition.
+		#"hull damage" 680
+		"hit force" 250
+		"missile strength" 24
+	description "Dels anti-warship missile, slow but powerful." 
 		
 #=========================================[Systems]=============================
 		
