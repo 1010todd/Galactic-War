@@ -66,6 +66,49 @@ phrase "generic kroom attack payment dialog"
 		`Kroom.`
 		`raiders.`
 		`attackers.`
+		`invaders.`
+
+mission "Dels Dardornai: BB License Unlock"
+	landing
+	to offer
+		"assisted dardornai" >= 4
+		"reputation: Dels Dardornai" >= 500
+		"reputation: Kroom Kakaima" <= -500
+	on offer
+		event "Dels Dardornai: BB License Unlock"
+		
+event "Dels Dardornai: BB License Unlock"
+	outfitter "Dardornai Basic"
+		add "Dardornai Battleship License"
+	outfitter "Dardornai Advanced"
+		add "Dardornai Battleship License"
+		
+# Hint when license is available
+mission "Dels Dardornai: BB License Unlock hint"
+	landing
+	source
+		government "Dels Dardornai"
+	to offer
+		"assisted dardornai" >= 4
+		"reputation: Dels Dardornai" >= 500
+		"reputation: Kroom Kakaima" <= -500
+	on offer
+		require "Dardornai Battleship License" 0
+		conversation
+			`When you leave your ship, one of the local noticed you and walks over. He tells you that you've been on the news recently for helping them fight the Kroom and you might be able to get yourself a license for one of their battleships. (You can buy Dardornai Battleship License at some outfitter)`
+				decline
+
+# Hint on how to unlock the license
+mission "Dels Dardornai: BB License Unlock rumour"
+	source
+		government "Dels Dardornai"
+	to offer
+		not "Dels Dardornai: BB License Unlock: done"
+		random > 45
+	on offer
+		conversation
+			`While drinking at the bar you overheard some conversation, it's about the Dardornai Battleship License. They say that while it's mostly handed out only to those within the Dardornai Navy a private merchant also managed to get one from helping the Dardornai fight against the Kroom, a lot.`
+				decline
 
 mission "Panmur Kaul Warning" #To warn players before going into Panmur Kaul which can mysteriously kill them.
 	landing

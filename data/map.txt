@@ -38904,7 +38904,7 @@ system Kadukeeva
 		period 236.28
 		offset 254.021
 		object Devaren
-			sprite planet/station3
+			sprite "planet/station dels3"
 			distance 268
 			period 12.8576
 	object
@@ -53890,7 +53890,7 @@ system Kubaduak
 		period 1539.03
 		offset 17.628
 		object Dukeanora
-			sprite planet/station6
+			sprite "planet/station dels3"
 			distance 301
 			period 17.2237
 
@@ -54190,8 +54190,8 @@ system Kudearo
 		period 1293.83
 		offset 77.1132
 		object Ku'dulrena
-			sprite planet/station5
-			distance 299
+			sprite "planet/station dels2"
+			distance 298.73078
 			period 14.5954
 		object
 			sprite planet/dust4
@@ -110341,7 +110341,7 @@ system Vurdesdur
 		period 66.7265
 	object Bumodera
 		sprite planet/rock2
-		distance 470.89
+		distance 467.30836
 		period 198.05
 	object
 		sprite planet/gas3
@@ -112561,6 +112561,7 @@ planet Bumodera
 	landscape land/hills6-sfiera
 	description .
 	spaceport .
+	outfitter "Dardornai Basic"
 	outfitter "Dels Basic"
 
 planet Bunabei
@@ -112731,6 +112732,7 @@ planet Denulkure
 	landscape land/land21
 	description .
 	spaceport .
+	outfitter "Dardornai Basic"
 	outfitter "Dels Ammo"
 
 planet Dermari
@@ -113014,7 +113016,8 @@ planet Duelukane
 	landscape land/sky3
 	description .
 	spaceport .
-	shipyard "Dels Advanced"
+	shipyard "Dels Basic"
+	shipyard "Dels Dardornai Advanced"
 	outfitter "Dels Advanced"
 
 planet Dukeanora
@@ -113034,6 +113037,8 @@ planet Dukoreda
 	description "Many cities can be seen with countless constuction projects underway. Most settlement are built around a spaceport as primary method of interstate travelling right now is by replusor craft as railways are mostly underconstruction."
 	spaceport "The spaceport appears to be the oldest building in the area and skyscrapers are being built everywhere. This planet also appears to be the home to a very large shipyard that is always active day or night."
 	shipyard "Dels Advanced"
+	shipyard "Dels Dardornai Advanced"
+	outfitter "Dardornai Advanced"
 	outfitter "Dels Advanced"
 
 planet Dukreve
@@ -113177,6 +113182,7 @@ planet Eradelar
 	description "A densely populated planet with mix of many styles of architecture from the 3 races."
 	spaceport "This appear to be a trading hub for the 3 races inhabiting this area of space. Bazaar with items from Dels, Ignaggen, and Erader spaces are all gathered here."
 	shipyard "Dels Basic"
+	shipyard "Dels Dardornai Advanced"
 	shipyard "Erader Basic"
 	outfitter "Dels Advanced"
 	outfitter "Erader Basic"
@@ -113293,6 +113299,7 @@ planet Fudareel
 	landscape land/land29
 	description "A planet covered rough rocky surface and small bodies of water sprinkled in between. Fields of giant crystals are found in large lake of water. "
 	spaceport .
+	outfitter "Dardornai Basic"
 	outfitter "Dels Standard"
 
 planet Gaakorka
@@ -114404,6 +114411,7 @@ planet Ku'dulrena
 	landscape land/sivael9
 	description .
 	spaceport .
+	outfitter "Dardornai Basic"
 	outfitter "Dels Ammo"
 
 planet Kuadeonu
@@ -114411,6 +114419,7 @@ planet Kuadeonu
 	landscape land/badlands2
 	description .
 	spaceport .
+	outfitter "Dardornai Basic"
 	outfitter "Dels Ammo"
 
 planet Kuagoek
@@ -114531,6 +114540,7 @@ planet Laedelu
 	landscape land/lava0
 	description .
 	spaceport .
+	outfitter "Dardornai Basic"
 	outfitter "Dels Standard"
 
 planet Lakrelna
@@ -114704,6 +114714,10 @@ planet Leukeine
 	landscape land/snow2
 	description .
 	spaceport .
+	shipyard "Dels Basic"
+	shipyard "Dels Dardornai Advanced"
+	outfitter "Dardornai Basic"
+	outfitter "Dels Standard"
 
 planet Leyshirai
 	attributes farming
@@ -115248,6 +115262,7 @@ planet Musaluku
 	landscape land/dmottl1
 	description .
 	spaceport .
+	outfitter "Dardornai Basic"
 	outfitter "Dels Ammo"
 
 planet Mveleeken
@@ -115299,6 +115314,10 @@ planet Neaivudel
 	landscape land/land10
 	description .
 	spaceport .
+	shipyard "Dels Basic"
+	shipyard "Dels Dardornai Advanced"
+	outfitter "Dardornai Advanced"
+	outfitter "Dels Advanced"
 
 planet Neekabure
 	landscape land/dmottl2
@@ -136696,6 +136715,7 @@ planet Keaderda
 	landscape land/sea5
 	description .
 	spaceport .
+	outfitter "Dardornai Basic"
 	outfitter "Dels Ammo"
 
 planet Loakkar
