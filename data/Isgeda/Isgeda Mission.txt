@@ -40,6 +40,27 @@ mission "Igshoal: Loot Uilenxi (Msivyut Blaster Turret)"
 		outfit "Msivyut Blaster Turret"
 		fail
 
+mission "Igshoal: Loot Uilenxi (Discalrit Battery)"
+	repeat
+	source
+		planet "Uilenxi Fratmav"
+	to offer
+		random < 10
+	on offer
+		conversation
+			scene "outfit/isgeda ancient battery small"
+			`You found a crate in relatively good condition, you unlocked the crate and open it revealing what appears to be an outfit. You grab your tools and try to identify it. After a while of trying to figure out the alien outfit, it appears to be a fully functional battery with high capacity.`
+			choice
+				`	(Take it)`
+				`	(Leave it)`
+					decline
+			`	You take the alien battery back to your ship.`
+				accept
+	on accept
+		"gw: looted uilenxi" += 1
+		outfit "Discalrit Battery"
+		fail
+
 mission "Igshoal: Elem Bastion"
 	landing
 	invisible

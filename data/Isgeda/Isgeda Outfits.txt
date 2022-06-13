@@ -49,6 +49,17 @@ outfit "Msivyut Blaster Turret"
 		"heat damage" 61
 	description `Turret version of the ancient Msivyut Blaster.`
 
+outfit "Discalrit Battery"
+	plural "Discalrit Batteries"
+	category "Power"
+	cost 3000000
+	thumbnail "outfit/isgeda ancient battery small"
+	"mass" 22
+	"outfit space" -22
+	"energy capacity" 22000
+	description "Ancient battery found on the ancient station."
+
+
 outfit "Achloss Artillery Turret"
 	category "Turrets"
 	cost 520000000
