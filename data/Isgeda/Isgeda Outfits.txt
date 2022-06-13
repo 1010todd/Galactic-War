@@ -94,7 +94,7 @@ outfit "Achloss Artillery Turret"
 outfit "Seligar Turret"
 	category "Turrets"
 	cost 1850000
-	thumbnail "outfit/plasma turret"
+	thumbnail "outfit/isgeda seligar turret"
 	"mass" 98
 	"outfit space" -98
 	"weapon capacity" -98
@@ -103,7 +103,7 @@ outfit "Seligar Turret"
 	weapon
 		sprite "projectile/georlen"
 			"frame rate" 3
-		"hardpoint sprite" "hardpoint/plasma turret"
+		"hardpoint sprite" "hardpoint/isgeda seligar turret hp"
 		"hardpoint offset" 15.
 		sound "heavy rocket impact"
 		"hit effect" "large explosion"
