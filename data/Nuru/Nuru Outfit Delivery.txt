@@ -14,6 +14,7 @@ mission "Nuru: Outfit Delivery[template]" #Job board mode, might be cleaner..? B
 	job
 	source
 		government "Nuru"
+		attributes outfitter
 		not attributes uninhabited
 	to offer
 		has "Nuru: Player asked to deliver outfits"
@@ -386,6 +387,7 @@ mission "Nuru: Outfit Delivery[Maon Ion Engines]"
 	
 	source
 		government "Nuru"
+		attributes outfitter
 		not attributes uninhabited
 	to offer
 		has "Nuru: Player asked to deliver outfits"
@@ -413,6 +415,7 @@ mission "Nuru: Outfit Delivery[Tyrant Plasma Thruster]"
 	
 	source
 		government "Nuru"
+		attributes outfitter
 		not attributes uninhabited
 	to offer
 		has "Nuru: Player asked to deliver outfits"
@@ -440,6 +443,7 @@ mission `Nuru: Outfit Delivery["Bufaer" Atomic Thruster]`
 	
 	source
 		government "Nuru"
+		attributes outfitter
 		not attributes uninhabited
 	to offer
 		has "Nuru: Player asked to deliver outfits"
@@ -467,6 +471,7 @@ mission "Nuru: Outfit Delivery[Large Thrust Module]"
 	
 	source
 		government "Nuru"
+		attributes outfitter
 		not attributes uninhabited
 	to offer
 		has "Nuru: Player asked to deliver outfits"
@@ -494,6 +499,7 @@ mission "Nuru: Outfit Delivery[X5700 Ion Thruster]"
 	
 	source
 		government "Nuru"
+		attributes outfitter
 		not attributes uninhabited
 	to offer
 		has "Nuru: Player asked to deliver outfits"
@@ -521,6 +527,7 @@ mission "Nuru: Outfit Delivery[A860 Atomic Thruster]"
 	
 	source
 		government "Nuru"
+		attributes outfitter
 		not attributes uninhabited
 	to offer
 		has "Nuru: Player asked to deliver outfits"
@@ -548,6 +555,7 @@ mission "Nuru: Outfit Delivery[Thruster (Stellar Class)]"
 	
 	source
 		government "Nuru"
+		attributes outfitter
 		not attributes uninhabited
 	to offer
 		has "Nuru: Player asked to deliver outfits"
@@ -575,6 +583,7 @@ mission "Nuru: Outfit Delivery[Type 4 Radiant Thruster]"
 	
 	source
 		government "Nuru"
+		attributes outfitter
 		not attributes uninhabited
 	to offer
 		has "Nuru: Player asked to deliver outfits"
@@ -602,6 +611,7 @@ mission "Nuru: Outfit Delivery[Vikuan Thruster]"
 	
 	source
 		government "Nuru"
+		attributes outfitter
 		not attributes uninhabited
 	to offer
 		has "Nuru: Player asked to deliver outfits"
@@ -629,6 +639,7 @@ mission "Nuru: Outfit Delivery[A865 Atomic Steering]"
 	
 	source
 		government "Nuru"
+		attributes outfitter
 		not attributes uninhabited
 	to offer
 		has "Nuru: Player asked to deliver outfits"
@@ -656,6 +667,7 @@ mission "Nuru: Outfit Delivery[Vikuan Steering]"
 	
 	source
 		government "Nuru"
+		attributes outfitter
 		not attributes uninhabited
 	to offer
 		has "Nuru: Player asked to deliver outfits"
@@ -683,6 +695,7 @@ mission "Nuru: Outfit Delivery[X5200 Ion Steering]"
 	
 	source
 		government "Nuru"
+		attributes outfitter
 		not attributes uninhabited
 	to offer
 		has "Nuru: Player asked to deliver outfits"
@@ -710,6 +723,7 @@ mission "Nuru: Outfit Delivery[Tyrant Plasma Steering]"
 	
 	source
 		government "Nuru"
+		attributes outfitter
 		not attributes uninhabited
 	to offer
 		has "Nuru: Player asked to deliver outfits"
@@ -737,6 +751,7 @@ mission "Nuru: Outfit Delivery[Vareti Engine Block]"
 	
 	source
 		government "Nuru"
+		attributes outfitter
 		not attributes uninhabited
 	to offer
 		has "Nuru: Player asked to deliver outfits"
@@ -764,6 +779,7 @@ mission "Nuru: Outfit Delivery[Steering (Stellar Class)]"
 	
 	source
 		government "Nuru"
+		attributes outfitter
 		not attributes uninhabited
 	to offer
 		has "Nuru: Player asked to deliver outfits"
@@ -791,6 +807,7 @@ mission `Nuru: Outfit Delivery["Bufaer" Atomic Steering]`
 	
 	source
 		government "Nuru"
+		attributes outfitter
 		not attributes uninhabited
 	to offer
 		has "Nuru: Player asked to deliver outfits"
@@ -818,6 +835,7 @@ mission "Nuru: Outfit Delivery[Smelter-Class Steering]"
 	
 	source
 		government "Nuru"
+		attributes outfitter
 		not attributes uninhabited
 	to offer
 		has "Nuru: Player asked to deliver outfits"
@@ -845,6 +863,7 @@ mission "Nuru: Outfit Delivery[Smelter-Class Thruster]"
 	
 	source
 		government "Nuru"
+		attributes outfitter
 		not attributes uninhabited
 	to offer
 		has "Nuru: Player asked to deliver outfits"
@@ -872,6 +891,7 @@ mission "Nuru: Outfit Delivery[Type 4 Radiant Steering]"
 	
 	source
 		government "Nuru"
+		attributes outfitter
 		not attributes uninhabited
 	to offer
 		has "Nuru: Player asked to deliver outfits"
@@ -899,6 +919,7 @@ mission "Nuru: Outfit Delivery[Medium Graviton Thruster]"
 	
 	source
 		government "Nuru"
+		attributes outfitter
 		not attributes uninhabited
 	to offer
 		has "Nuru: Player asked to deliver outfits"
@@ -926,6 +947,7 @@ mission "Nuru: Outfit Delivery[Medium Graviton Steering]"
 	
 	source
 		government "Nuru"
+		attributes outfitter
 		not attributes uninhabited
 	to offer
 		has "Nuru: Player asked to deliver outfits"
@@ -953,6 +975,7 @@ mission "Nuru: Outfit Delivery[System Core (Large)]"
 	
 	source
 		government "Nuru"
+		attributes outfitter
 		not attributes uninhabited
 	to offer
 		has "Nuru: Player asked to deliver outfits"
@@ -982,6 +1005,7 @@ mission "Nuru: Outfit Delivery[Blue Sun Reactor]"
 	
 	source
 		government "Nuru"
+		attributes outfitter
 		not attributes uninhabited
 	to offer
 		has "Nuru: Player asked to deliver outfits"r outfits" >= 1
@@ -1009,6 +1033,7 @@ mission "Nuru: Outfit Delivery[Aeon Cell]"
 	
 	source
 		government "Nuru"
+		attributes outfitter
 		not attributes uninhabited
 	to offer
 		has "Nuru: Player asked to deliver outfits"
@@ -1037,6 +1062,7 @@ mission "Nuru: Outfit Delivery[Antimatter Core]"
 	
 	source
 		government "Nuru"
+		attributes outfitter
 		not attributes uninhabited
 	to offer
 		has "Nuru: Player asked to deliver outfits"
@@ -1064,6 +1090,7 @@ mission "Nuru: Outfit Delivery[Triple Plasma Core]"
 	
 	source
 		government "Nuru"
+		attributes outfitter
 		not attributes uninhabited
 	to offer
 		has "Nuru: Player asked to deliver outfits"
@@ -1091,6 +1118,7 @@ mission "Nuru: Outfit Delivery[Large Biochemical Cell]"
 	
 	source
 		government "Nuru"
+		attributes outfitter
 		not attributes uninhabited
 	to offer
 		has "Nuru: Player asked to deliver outfits"
@@ -1121,6 +1149,7 @@ mission "Nuru: Outfit Delivery[Telour Generator]"
 	
 	source
 		government "Nuru"
+		attributes outfitter
 		not attributes uninhabited
 	to offer
 		has "Nuru: Player asked to deliver outfits"
@@ -1149,6 +1178,7 @@ mission "Nuru: Outfit Delivery[Large Reactor Module]"
 	
 	source
 		government "Nuru"
+		attributes outfitter
 		not attributes uninhabited
 	to offer
 		has "Nuru: Player asked to deliver outfits"
@@ -1176,6 +1206,7 @@ mission "Nuru: Outfit Delivery[Boulder Reactor]"
 	
 	source
 		government "Nuru"
+		attributes outfitter
 		not attributes uninhabited
 	to offer
 		has "Nuru: Player asked to deliver outfits"
@@ -1203,6 +1234,7 @@ mission "Nuru: Outfit Delivery[NT-200 Nucleovoltaic]"
 	
 	source
 		government "Nuru"
+		attributes outfitter
 		not attributes uninhabited
 	to offer
 		has "Nuru: Player asked to deliver outfits"
@@ -1231,6 +1263,7 @@ mission "Nuru: Outfit Delivery[Armageddon Core]"
 	
 	source
 		government "Nuru"
+		attributes outfitter
 		not attributes uninhabited
 	to offer
 		has "Nuru: Player asked to deliver outfits"
@@ -1258,6 +1291,7 @@ mission "Nuru: Outfit Delivery[Crystal Capacitor]"
 	
 	source
 		government "Nuru"
+		attributes outfitter
 		not attributes uninhabited
 	to offer
 		has "Nuru: Player asked to deliver outfits"
@@ -1624,6 +1658,7 @@ mission "Nuru: Outfit Delivery[Liquid Helium Cooler]"
 	
 	source
 		government "Nuru"
+		attributes outfitter
 		not attributes uninhabited
 	to offer
 		has "Nuru: Player asked to deliver outfits"
@@ -1653,6 +1688,7 @@ mission "Nuru: Outfit Delivery[Jump Drive]"
 	
 	source
 		government "Nuru"
+		attributes outfitter
 		not attributes uninhabited
 	to offer
 		has "Nuru: Player asked to deliver outfits"
@@ -1722,6 +1758,7 @@ mission "Nuru: Sell Outfit[Jump Drive]"
 	deadline 1 1
 	source
 		government "Nuru"
+		attributes outfitter
 		not attributes uninhabited
 	to offer
 		has "Nuru: Player asked to deliver outfits"
