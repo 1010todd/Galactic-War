@@ -349,9 +349,7 @@ outfit "Durnske Missile Launcher"
 	"gun ports" -1
 	"durnske capacity" 7
 	weapon
-		sprite "projectile/missile"
-			"no repeat"
-			"frame rate" .25
+		sprite "projectile/durnske"
 		sound "nuke"
 		ammo "Durnske Missile"
 		stream
@@ -359,10 +357,12 @@ outfit "Durnske Missile Launcher"
 		"fire effect" "tiny explosion"
 		"hit effect" "huge explosion"
 		"die effect" "missile death"
+		"live effect" "golkar trail" 500
 		"inaccuracy" 1
-		"velocity" 12
+		"velocity" 1
 		"lifetime" 800
 		"reload" 60
+		"velocity override" 1500
 		"firing energy" 10
 		"firing heat" 40
 		"acceleration" .8
@@ -401,15 +401,16 @@ outfit "Durnske VLS"
 		"turret turn" 360
 		"inaccuracy" 1
 		"velocity" 1
-		"lifetime" 12
+		"lifetime" 18
+		"velocity override" 1000
 		"submunition" "Durnske Missile Launcher"
 		"reload" 120
 		"firing energy" 10
 		"firing heat" 48
 		"acceleration" .0
 		"drag" .05
-		"turn" 4
-		"homing" 4
+		"turn" 6
+		"homing" 2
 		"radar tracking" .7
 		"optical tracking" .8
 		"blast radius" 30

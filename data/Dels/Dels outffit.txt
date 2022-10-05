@@ -665,7 +665,7 @@ outfit "Dalrel-8 Launching System"
 		"fire effect" "tiny explosion"
 		"hit effect" "large explosion"
 		"die effect" "missile death"
-		"live effect" "dalrel flare" 150
+		"live effect" "dalrel flare" 500
 		"inaccuracy" 1
 		"velocity" 12
 		"lifetime" 450
@@ -711,7 +711,7 @@ outfit "Dalrel-8 VLS"
 		"inaccuracy" 1
 		"velocity" 1
 		"velocity override" 1000
-		"lifetime" 6
+		"lifetime" 18
 		"submunition" "Dalrel-8 Launching System"
 		"reload" 30
 		"burst count" 4

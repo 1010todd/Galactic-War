@@ -214,8 +214,10 @@ effect "golkar trail"
 	sprite "effect/kroom golkar trail"
 		"frame rate" 15
 		"no repeat"
-	"lifetime" 20
+	"lifetime" 18
 	"velocity scale" 0
+	"random angle" 360
+	"random spin" 12
 
 outfit "Golkar Torpedo Launcher"
 	category "Secondary Weapons"
@@ -235,7 +237,7 @@ outfit "Golkar Torpedo Launcher"
 		"fire effect" "meteor fire"
 		"die effect" "missile death"
 		"hit effect" "medium explosion"
-		"live effect" "golkar trail" 200
+		"live effect" "golkar trail" 450
 		"inaccuracy" .2
 		"velocity" 13
 		"lifetime" 540
@@ -277,7 +279,7 @@ outfit "Golkar Torpedo Turret"
 		"fire effect" "meteor fire"
 		"die effect" "missile death"
 		"hit effect" "medium explosion"
-		"live effect" "golkar trail" 200
+		"live effect" "golkar trail" 450
 		"inaccuracy" .2
 		"velocity" 13
 		"lifetime" 540
