@@ -252,7 +252,7 @@ outfit "sikarl 1"
 		submunition "sikarl field 2"
 		submunition "sikarl 2"
 		"hit effect" "small explosion"
-		"trigger radius" 425
+		"split range" 425
 		"lifetime" 1
 		"drag" .13
 		"turn" 80
@@ -281,7 +281,7 @@ outfit "sikarl 2"
 		submunition "sikarl field 3"
 		submunition "sikarl 3"
 		"hit effect" "small explosion"
-		"trigger radius" 425
+		"split range" 425
 		"lifetime" 1
 		"drag" .13
 		"turn" 80
@@ -310,7 +310,7 @@ outfit "sikarl 3"
 		submunition "sikarl field 4"
 		submunition "sikarl 4"
 		"hit effect" "small explosion"
-		"trigger radius" 425
+		"split range" 425
 		"lifetime" 1
 		"drag" .13
 		"turn" 80
@@ -339,7 +339,7 @@ outfit "sikarl 4"
 		submunition "sikarl field 5"
 		submunition "sikarl 5"
 		"hit effect" "small explosion"
-		"trigger radius" 425
+		"split range" 425
 		"lifetime" 1
 		"drag" .13
 		"turn" 80
@@ -369,7 +369,7 @@ outfit "sikarl 5"
 		submunition "sikarl field 6"
 		submunition "sikarl 6"
 		"hit effect" "small explosion"
-		"trigger radius" 500
+		"split range" 500
 		"lifetime" 1
 		"drag" .13
 		"turn" 80
@@ -399,7 +399,7 @@ outfit "sikarl 6"
 		submunition "sikarl field 7"
 		submunition "sikarl 7"
 		"hit effect" "small explosion"
-		"trigger radius" 500
+		"split range" 500
 		"lifetime" 1
 		"drag" .13
 		"turn" 80
@@ -429,7 +429,7 @@ outfit "sikarl 7"
 		submunition "sikarl field 8"
 		submunition "sikarl 8"
 		"hit effect" "small explosion"
-		"trigger radius" 500
+		"split range" 500
 		"lifetime" 1
 		"drag" .13
 		"turn" 80
@@ -459,7 +459,7 @@ outfit "sikarl 8"
 		submunition "sikarl field 9"
 		submunition "sikarl 9"
 		"hit effect" "small explosion"
-		"trigger radius" 500
+		"split range" 500
 		"lifetime" 1
 		"drag" .13
 		"turn" 80
@@ -489,7 +489,7 @@ outfit "sikarl 9"
 		submunition "sikarl field 10"
 		submunition "sikarl 10"
 		"hit effect" "small explosion"
-		"trigger radius" 500
+		"split range" 500
 		"lifetime" 1
 		"drag" .13
 		"turn" 80
@@ -517,7 +517,7 @@ outfit "sikarl 10"
 			"frame rate" 0
 			"start frame" 0
 		"hit effect" "small explosion"
-		"trigger radius" 425
+		"split range" 425
 		"lifetime" 1
 		"drag" .13
 		"turn" 80
@@ -720,7 +720,7 @@ outfit "C10-W Hinlar Core"
 	"ion resistance" .1
 	"ion resistance energy" -.1
 	"ion resistance heat" 2
-	"energy capacity" 1000
+	"energy capacity" 2000
 	description "Tiny Wallagi generator."
 	
 outfit "C40-W Milar Core"
@@ -734,7 +734,7 @@ outfit "C40-W Milar Core"
 	"ion resistance" 1
 	"ion resistance energy" -1
 	"ion resistance heat" 16
-	"energy capacity" 7400
+	"energy capacity" 14800
 	description "Large Wallagi generator."
 	
 outfit "C60-W Falmin Core"
@@ -748,7 +748,7 @@ outfit "C60-W Falmin Core"
 	"ion resistance" 2.1
 	"ion resistance energy" -2.1
 	"ion resistance heat" 23
-	"energy capacity" 15000
+	"energy capacity" 30000
 	description "Huge Wallagi generator."
 	
 outfit "C80-W Mallar Core"
@@ -762,7 +762,7 @@ outfit "C80-W Mallar Core"
 	"ion resistance" 4.3
 	"ion resistance energy" -4.3
 	"ion resistance heat" 42
-	"energy capacity" 22000
+	"energy capacity" 44000
 	description "Massive Wallagi generator."
 	
 #==================================================Engines

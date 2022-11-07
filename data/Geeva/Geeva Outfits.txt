@@ -320,8 +320,8 @@ outfit "Aiple-05 Batteries" #R5 Micro
 	thumbnail "outfit/tiny battery hai"
 	"mass" 5
 	"outfit space" -5
-	"energy capacity" 880
-	description ""
+	"energy capacity" 3520
+	description "Geeva Tiny Battery"
 	
 outfit "Erlip-05 Batteries" #R5 Mini
 	category "Power"
@@ -329,17 +329,17 @@ outfit "Erlip-05 Batteries" #R5 Mini
 	thumbnail "outfit/small battery hai"
 	"mass" 10
 	"outfit space" -10
-	"energy capacity" 1760
-	description ""
+	"energy capacity" 7040
+	description "Geeva Small Battery"
 	
-outfit "Siltr-05 Batteries" R5 Small
+outfit "Siltr-05 Batteries" #R5 Small
 	category "Power"
 	cost 88000
-	thumbnail "outfit/large battery hai"
+	thumbnail "outfit/medium battery hai"
 	"mass" 21
 	"outfit space" -21
-	"energy capacity" 5100
-	description ""
+	"energy capacity" 20400
+	description "Geeva Medium Battery"
 	
 outfit "Niturlo-06 Reactor" #R6 Micro Fusion
 	category "Power"
@@ -387,7 +387,7 @@ outfit "Iogel01-04 Thruster" #R4 Tiny Ion Thruster
 	"flare sprite" "effect/ion flare/tiny"
 		"frame rate" 1.2
 	"flare sound" "ion tiny"
-	description ""
+	description "Geeva Thruster"
 	
 outfit "Iogel02-04 Thruster"
 	category "Engines"
@@ -402,7 +402,7 @@ outfit "Iogel02-04 Thruster"
 	"flare sprite" "effect/ion flare/small"
 		"frame rate" 1.1
 	"flare sound" "ion small"
-	description ""
+	description "Geeva Thruster"
 	
 outfit "Iogel03-04 Thruster"
 	category "Engines"
@@ -417,7 +417,7 @@ outfit "Iogel03-04 Thruster"
 	"flare sprite" "effect/ion flare/medium"
 		"frame rate" 1.0
 	"flare sound" "ion medium"
-	description ""
+	description "Geeva Thruster"
 	
 outfit "Iogel04-04 Thruster"
 	category "Engines"
@@ -432,7 +432,7 @@ outfit "Iogel04-04 Thruster"
 	"flare sprite" "effect/ion flare/large"
 		"frame rate" 0.9
 	"flare sound" "ion large"
-	description ""
+	description "Geeva Thruster"
 	
 outfit "Iogel05-04 Thruster"
 	category "Engines"
@@ -447,7 +447,7 @@ outfit "Iogel05-04 Thruster"
 	"flare sprite" "effect/ion flare/huge"
 		"frame rate" 0.8
 	"flare sound" "ion huge"
-	description ""
+	description "Geeva Thruster"
 	
 outfit "Iogel01-04 Steering"
 	category "Engines"
@@ -459,7 +459,7 @@ outfit "Iogel01-04 Steering"
 	"turn" 280
 	"turning energy" .2
 	"turning heat" .4
-	description ""
+	description "Geeva Steering"
 	
 outfit "Iogel02-04 Steering"
 	category "Engines"
@@ -471,7 +471,7 @@ outfit "Iogel02-04 Steering"
 	"turn" 330
 	"turning energy" .4
 	"turning heat" .5
-	description ""
+	description "Geeva Steering"
 	
 outfit "Iogel03-04 Steering"
 	category "Engines"
@@ -483,7 +483,7 @@ outfit "Iogel03-04 Steering"
 	"turn" 615
 	"turning energy" .8
 	"turning heat" .7
-	description ""
+	description "Geeva Steering"
 	
 outfit "Iogel04-04 Steering"
 	category "Engines"
@@ -495,7 +495,7 @@ outfit "Iogel04-04 Steering"
 	"turn" 1260
 	"turning energy" 1.1
 	"turning heat" .9
-	description ""
+	description "Geeva Steering"
 	
 outfit "Iogel05-04 Steering"
 	category "Engines"
@@ -507,7 +507,7 @@ outfit "Iogel05-04 Steering"
 	"turn" 2306
 	"turning energy" 2.4
 	"turning heat" 1.2
-	description ""
+	description "Geeva Steering"
 	
 outfit "XHEAS Missile BIMM"
 	category "Secondary Weapons"
@@ -760,7 +760,7 @@ outfit "LRP Grenades"
 	"capture attack" 3
 	"capture defense" .6
 	"unplunderable" 1
-	description ""
+	description "Geeva pulse grenades"
 	
 outfit "Geeva Sword"
 	category "Hand to Hand"
@@ -771,8 +771,18 @@ outfit "Geeva Sword"
 	"unplunderable" 1
 	description "Geeva sword that was used in their days before firearms. While not very useful today as weapon it is still found abroad Geeva ships as decoration and charm."
 
+outfit "Df50 Hidden Sentry"
+	category "Hand to Hand"
+	cost 78000
+	#thumbnail "outfit/hidden sentry"
+	"mass" 1
+	"outfit space" -1
+	"capture defense" 7
+	"unplunderable" 1
+	description "In other to avoid as much life losses as possible, some Geevan captain prefer to install these automated defence turrets hidden along the corridors to protect their ship against instruders."
+	
 
-outfit "Hidden Sentry"
+outfit "Hidden Sentry" #Deprecated
 	category "Hand to Hand"
 	cost 78000
 	#thumbnail "outfit/hidden sentry"

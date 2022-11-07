@@ -205,7 +205,8 @@ outfit "Hirekil Power Generator"
 	"outfit space" -46
 	"energy generation" 7.8
 	"heat generation" 10.2
-	"shield generation multiplier" .1
+	"shield generation multiplier" .05
+	description `Ceasrilis small power generator, while not the most powerful it provides minor boost to shield generation.`
 
 outfit "Lisrion Power Generator"
 	category "Power"
@@ -215,7 +216,8 @@ outfit "Lisrion Power Generator"
 	"outfit space" -75
 	"energy generation" 13.6
 	"heat generation" 15.9
-	"shield generation multiplier" .2
+	"shield generation multiplier" .09
+	description `Ceasrilis medium power generator, while not the most powerful it provides minor boost to shield generation.`
 
 outfit "Ealire Power Reserve"
 	category "Power"
@@ -223,17 +225,17 @@ outfit "Ealire Power Reserve"
 	thumbnail "outfit/tiny battery"
 	"mass" 12
 	"outfit space" -12
-	"energy capacity" 5690
-	description "Battery"
+	"energy capacity" 19915
+	description "Ceasrilis tiny battery"
 
 outfit "Savinra Power Reserve"
 	category "Power"
 	cost 145100
-	thumbnail "outfit/tiny battery"
+	thumbnail "outfit/small battery"
 	"mass" 35
 	"outfit space" -35
-	"energy capacity" 16800
-	description "Battery"
+	"energy capacity" 60480
+	description "Ceasrilis tiny batter"
 
 #====================================Engines
 

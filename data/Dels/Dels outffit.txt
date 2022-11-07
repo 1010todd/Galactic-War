@@ -556,7 +556,7 @@ outfit "Saikel-4 Launcher" #SK4
 		"radar tracking" .8
 		"missile strength" 10
 		"hit force" 68
-	description ""
+	description "Dels missile that splits into 8 smaller missiles when close to target."
 	
 outfit "Saikel-4 Missile"
 	category "Ammunition"
@@ -886,7 +886,7 @@ outfit "K0108 Battery Pack" #Cannal
 	thumbnail "outfit/tiny battery"
 	"mass" 8
 	"outfit space" -8
-	"energy capacity" 980
+	"energy capacity" 3920
 	description "Dels's smallest battery" 
 	
 outfit "K0218 Battery Pack" #River
@@ -895,7 +895,7 @@ outfit "K0218 Battery Pack" #River
 	thumbnail "outfit/small battery"
 	"mass" 18
 	"outfit space" -18
-	"energy capacity" 2000
+	"energy capacity" 8000
 	description "Dels battery"
 	
 outfit "K0538 Battery Pack" #Sea
@@ -904,7 +904,7 @@ outfit "K0538 Battery Pack" #Sea
 	thumbnail "outfit/medium battery"
 	"mass" 38
 	"outfit space" -38
-	"energy capacity" 4900
+	"energy capacity" 19600
 	description "Dels's medium-sized battery"
 	
 outfit "K1180 Battery Pack" #Gulf
@@ -913,7 +913,7 @@ outfit "K1180 Battery Pack" #Gulf
 	thumbnail "outfit/large battery"
 	"mass" 80
 	"outfit space" -80
-	"energy capacity" 11000
+	"energy capacity" 44000
 	description "Dels's large battery"
 	
 outfit "K3016a Battery Pack" #Ocean
@@ -922,7 +922,7 @@ outfit "K3016a Battery Pack" #Ocean
 	thumbnail "outfit/huge battery"
 	"mass" 160
 	"outfit space" -160
-	"energy capacity" 24000
+	"energy capacity" 96000
 	description "Dels's largest battery"
 
 #=========================================[Engines]=============================

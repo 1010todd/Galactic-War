@@ -660,7 +660,7 @@ outfit "Cusin Capacitor"
 	thumbnail "outfit/supercapacitor"
 	"mass" 8
 	"outfit space" -8
-	"energy capacity" 750
+	"energy capacity" 3000
 	"heat generation" .1
 	description "zorcn tiny battery"
 	
@@ -670,7 +670,7 @@ outfit "Ksin Capacitor"
 	thumbnail "outfit/zorcn battery"
 	"mass" 12
 	"outfit space" -12
-	"energy capacity" 1200
+	"energy capacity" 5040
 	"energy consumption" .03
 	"heat generation" .03
 	"thermo-elec capacity" 4
@@ -682,9 +682,9 @@ outfit "Nuxin Capacitor"
 	thumbnail "outfit/zorcn battery"
 	"mass" 20
 	"outfit space" -20
-	"energy capacity" 3000
-	"energy consumption" .2
-	"heat generation" .2
+	"energy capacity" 13500
+	"energy consumption" .1
+	"heat generation" .1
 	"thermo-elec capacity" 10
 	description "These capacitors utilize the energy storing crystals found on some Zorcn worlds. These crystals generally leaks out energy in form of heat, the Zorcn minimized this drawback by putting thermoelectric generators in between."
 	
