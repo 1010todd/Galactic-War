@@ -171,6 +171,28 @@ outfit "Disheir Missile Storage"
 	"sihryi capacity" 24
 	description "Disheir Missiles Storage."
 
+outfit "Leais-ai Point-Defense"
+	category "Turrets"
+	cost 189000
+	thumbnail "outfit/warder"
+	"mass" 28
+	"outfit space" -28
+	"weapon capacity" -28
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/warder"
+		"hardpoint offset" 3.
+		"hit effect" "ligrebis pd"
+		"anti-missile" 12
+		"velocity" 350
+		"lifetime" 1
+		"reload" 6
+		"burst count" 3
+		"burst reload" 3
+		"firing energy" 20
+		"firing heat" 16.4
+	description "Rapid firing point-defense used by the Ceasrilis."
+
 #=================================Systems
 
 outfit "Eisea-3 Shield Generator"

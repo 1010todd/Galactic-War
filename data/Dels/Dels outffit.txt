@@ -883,7 +883,7 @@ outfit "Hilke Fuel Cell" #C30
 outfit "K0108 Battery Pack" #Cannal
 	category "Power"
 	cost 9000
-	thumbnail "outfit/tiny battery"
+	thumbnail "outfit/dels battery tiny"
 	"mass" 8
 	"outfit space" -8
 	"energy capacity" 3920
@@ -892,7 +892,7 @@ outfit "K0108 Battery Pack" #Cannal
 outfit "K0218 Battery Pack" #River
 	category "Power"
 	cost 30000
-	thumbnail "outfit/small battery"
+	thumbnail "outfit/dels battery small"
 	"mass" 18
 	"outfit space" -18
 	"energy capacity" 8000
@@ -901,7 +901,7 @@ outfit "K0218 Battery Pack" #River
 outfit "K0538 Battery Pack" #Sea
 	category "Power"
 	cost 70000
-	thumbnail "outfit/medium battery"
+	thumbnail "outfit/dels battery medium"
 	"mass" 38
 	"outfit space" -38
 	"energy capacity" 19600
@@ -910,7 +910,7 @@ outfit "K0538 Battery Pack" #Sea
 outfit "K1180 Battery Pack" #Gulf
 	category "Power"
 	cost 160000
-	thumbnail "outfit/large battery"
+	thumbnail "outfit/dels battery large"
 	"mass" 80
 	"outfit space" -80
 	"energy capacity" 44000
@@ -919,7 +919,7 @@ outfit "K1180 Battery Pack" #Gulf
 outfit "K3016a Battery Pack" #Ocean
 	category "Power"
 	cost 385000
-	thumbnail "outfit/huge battery"
+	thumbnail "outfit/dels battery huge"
 	"mass" 160
 	"outfit space" -160
 	"energy capacity" 96000
@@ -966,7 +966,7 @@ outfit "Kuar Ion Engines" #Sae
 outfit "Mae Ion Engines"
 	category "Engines"
 	"cost" 174000
-	thumbnail "outfit/large ion steering"
+	thumbnail "outfit/dels ion engine large"
 	"mass" 140
 	"outfit space" -140
 	"engine capacity" -140
@@ -984,7 +984,7 @@ outfit "Mae Ion Engines"
 outfit "Maon Ion Engines"
 	category "Engines"
 	"cost" 222000
-	thumbnail "outfit/huge ion steering"
+	thumbnail "outfit/dels ion engine huge"
 	"mass" 260
 	"outfit space" -260
 	"engine capacity" -260
@@ -1187,19 +1187,19 @@ outfit "Sakkaid Blaster"
 #=================================[Special]===============================
 
 outfit "Dels Admiral License"
-	category Special
+	category "Licenses"
 	cost 500000
 	thumbnail outfit/license
 	description `A license granted to Dels equivalent of admirals allowing them to purchase and command carriers.`
 	
 outfit "Dels Commander License"
-	category Special
+	category "Licenses"
 	cost 250000
 	thumbnail outfit/license
 	description `A license granted to Dels equivalent of commander allowing them to purchase and command most large warships.`
 	
 outfit "Dardornai Battleship License"
-	category Special
+	category "Licenses"
 	cost 250000
 	thumbnail outfit/license
 	description `A license given by the Dardornai allowing purchase of their battleships.`
