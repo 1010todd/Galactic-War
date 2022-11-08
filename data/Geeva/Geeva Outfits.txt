@@ -111,15 +111,15 @@ outfit "Virnel-05 Plasma Turret" #R5 Plasma Chain Turret
 		"shield damage" 75
 		"hull damage" 30
 		"heat damage" 260
-	description "Burst fire plasma cannon."
+	description "Geeva burst fire plasma cannon, highly effective against shields."
 	
 outfit "Rilar-06 Anti-Missile" #R6 Anti-Missile Turret
 	category "Turrets"
 	cost 210000
 	thumbnail "outfit/heavy anti-missile"
-	"mass" 25
-	"outfit space" -25
-	"weapon capacity" -25
+	"mass" 21
+	"outfit space" -21
+	"weapon capacity" -21
 	"turret mounts" -1
 	weapon
 		#"hit effect" "r6 anti-missile"
@@ -133,7 +133,7 @@ outfit "Rilar-06 Anti-Missile" #R6 Anti-Missile Turret
 		"reload" 3
 		"firing energy" 15
 		"firing heat" 6
-	description ""
+	description "Geeva standard anti-missile for non-combat crafts."
 	
 outfit "Sentry-03 Anti-Missile" #R7 Sentry Anti-Missile Turret
 	category "Turrets"
@@ -155,7 +155,7 @@ outfit "Sentry-03 Anti-Missile" #R7 Sentry Anti-Missile Turret
 		"reload" 1.5
 		"firing energy" 6
 		"firing heat" 46
-	description "A deviation of an old anti-missile design of outside origin."
+	description "A deviation of an old anti-missile design of outside origin used by some Geeva frontline warships."
 	
 outfit "Nirilar-05 Anti-Missile" #R5 Micro Anti-Missile Turret
 	category "Turrets"
@@ -208,7 +208,7 @@ outfit "Zilnor-03 Energy Tracer" #R3 Energy Tracer
 		"hull damage" 420
 		"ion damage" 1
 		"missile strength" 20
-	description "A compact homing energy projectile technology. While it shares some design similarity with other Geeva energy weapons, non of the Geevan seems to understand how it works."
+	description "A compact homing energy projectile technology. While it shares some design similarity with other Geeva energy weapons, none of the Geevan seems to understand how it works."
 	
 outfit "Vytorn-01 Homing Beam" #R1 Homing Beam
 	category "Guns"
@@ -248,6 +248,100 @@ effect "homing beam trail"
 	"random angle" 180
 	"velocity scale" 0.
 	
+effect "ichra fire"
+	sprite "effect/ichra fire"
+		"frame rate" 30
+	lifetime 10
+
+effect "ichra impact"
+	sprite "effect/ichra impact"
+		"frame rate" 30
+	lifetime 10
+	"absolute velocity" -.1
+
+outfit "Ichra-04 E-Railgun"
+	category "Guns"
+	cost 1800000
+	thumbnail "outfit/geeva ichra railgun"
+	"mass" 72
+	"outfit space" -72
+	"weapon capacity" -72
+	"gun ports" -1
+	weapon
+		sprite "projectile/ichra shot"
+		sound "gw ichra railgun fire"
+		"hit effect" "ichra impact"
+		"fire effect" "ichra fire"
+		"inaccuracy" .1
+		"velocity" 80
+		"lifetime" 30
+		"reload" 120
+		"firing energy" 887
+		"firing heat" 980
+		"hit force" 80
+		"shield damage" 1050
+		"hull damage" 1254
+		"ion damage" 12
+	description "Geeva long-ranged energy railgun firing unidentified matter synthesized at the core of the gun. First used during the evacuation used as one of their primary ship to ship weapon but with limited production due to its alien design and construction making it one of the more difficult weapon to mass produce and were reserved for wartime use only. Finishing quality of these railguns can vary quite a bit among different manufacturers due to difficulty of making them even such it's mostly cosmetic and all of the weapon in stock don't have any notable performance difference. It was said that there's only one place in the Geeva space that can produce reliable core component for it."
+
+outfit "Ichra-04 E-Railgun Turret"
+	category "Turrets"
+	cost 2150000
+	thumbnail "outfit/geeva ichra railgun turret"
+	"mass" 91
+	"outfit space" -91
+	"weapon capacity" -91
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/ichra shot"
+		"hardpoint sprite" "hardpoint/geeva ichra railgun turret hp"
+		"hardpoint offset" 5.
+		sound "gw ichra railgun fire"
+		"hit effect" "ichra impact"
+		"fire effect" "ichra fire"
+		"inaccuracy" .9
+		"velocity" 80
+		"lifetime" 30
+		"reload" 120
+		"turret turn" 2.1
+		"firing energy" 887
+		"firing heat" 980
+		"hit force" 80
+		"shield damage" 1050
+		"hull damage" 1254
+		"ion damage" 12
+	description `Light turret version of the Ichra-04 Energy Railgun with the turret itself partially re-engineered from older larger twin-mounted turret to be lighter and easier to install.`
+
+outfit "Ichra-04 E-Railgun Dual Turret"
+	category "Turrets"
+	cost 8150000
+	thumbnail "outfit/geeva ichra railgun dual turret"
+	"mass" 225
+	"outfit space" -225
+	"weapon capacity" -225
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/ichra shot"
+		"hardpoint sprite" "hardpoint/geeva ichra railgun dual turret hp"
+		"hardpoint offset" 10.
+		sound "gw ichra railgun fire"
+		"hit effect" "ichra impact"
+		"fire effect" "ichra fire"
+		"inaccuracy" .1
+		"velocity" 80
+		"lifetime" 30
+		"reload" 60
+		"turret turn" 2
+		"firing energy" 887
+		"firing heat" 820
+		"hit force" 80
+		"shield damage" 1050
+		"hull damage" 1254
+		"ion damage" 12
+	description `The original form of the Ichra-04 E-Railgun, 2-gun mounted on a turret complete with highly advanced stabilizing system and rotor allowing it to fire at maximum accuracy and turn as fast as something half of its size. It is one of the largest and most powerful weapon the Geeva is capable of making, although barely. Due to the cost and difficulty of manufacturing one very few were made since the evacuation and fewer in active service. Only few are still being built today mostly to maintain the expertise for the time it may be required again.`
+
 outfit "Nipalir-06 Shield Generator" #R6 Shield Generator
 	category "Systems"
 	cost 50000
