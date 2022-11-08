@@ -146,7 +146,7 @@ effect "vokkar impact"
 	
 outfit "TC5 Cutter"
 	category "Guns"
-	cost 100000
+	cost 38000
 	thumbnail "outfit/dels tc5"
 	"mass" 10
 	"outfit space" -10
@@ -163,21 +163,21 @@ outfit "TC5 Cutter"
 		"lifetime" 1
 		"reload" 1
 		"firing energy" 2.5
-		"firing force" 2
 		"firing heat" 3
-		"shield damage" .01
-		"hull damage" 1
-		"heat damage" 1
-		"hit force" 1
-	description "[Need rework. Will figure something out for it later.]"
+		"shield damage" 1.1
+		"hull damage" 1.1
+		"minable damage" .9
+		"heat damage" .5
+		"hit force" .1
+	description "A variant of a recently developed Dels industrial cutting torch. While it dealt minimal damaged compared to other weapons it's often used by some new pilot for asteroid mining."
 
 outfit "Odari Heat Cannon"
 	category "Guns"
 	cost 100000
 	thumbnail "outfit/dels tc5"
-	"mass" 32
-	"outfit space" -32
-	"weapon capacity" -32
+	"mass" 22
+	"outfit space" -22
+	"weapon capacity" -22
 	"gun ports" -1
 	weapon
 		sprite "projectile/tinyflare"
@@ -189,14 +189,13 @@ outfit "Odari Heat Cannon"
 		"velocity" 10
 		"lifetime" 1
 		"reload" 1
-		"firing energy" 2.5
-		"firing force" 2
-		"firing heat" 3
-		"shield damage" .01
-		"hull damage" 1
+		"firing energy" 6.2
+		"firing heat" 5.7
+		"shield damage" .7
+		"hull damage" .9
 		"heat damage" 80
 		"hit force" 1
-	description ""
+	description "Modified version of the TC5 Cutter to spread as much heat as possible across the target and rapidly overheat their systems."
 	
 outfit "Dels Sokak Cannon"
 	category "Secondary Weapons"
@@ -277,7 +276,7 @@ outfit "Sokak Slug Storage"
 	
 outfit "TC0B Laser"
 	category "Guns"
-	cost 24000
+	cost 54000
 	thumbnail "outfit/dels tc0b"
 	"mass" 13
 	"outfit space" -13
@@ -294,8 +293,9 @@ outfit "TC0B Laser"
 		"burst reload" 1
 		"firing energy" 40
 		"firing heat" 10
-		"shield damage" 3
-		"hull damage" 60
+		"shield damage" .1
+		"hull damage" .8
+		"minable damage" 1.2
 		"heat damage" 40
 		"piercing" .3
 		"damage dropoff" 50 150
@@ -410,7 +410,7 @@ outfit "Kotdar Turret" #HA1
 		"hit force" 80
 		"shield damage" 110
 		"hull damage" 175
-		"disruption damage" .1
+		#"disruption damage" .1
 	description "These are Dels large long-range anti-capital turret."
 	
 #=========================================[Anti Missile]=============================
@@ -750,7 +750,7 @@ outfit "Aeedul Shield Generator" #SR10
 	"mass" 11
 	"outfit space" -11
 	"shield generation" .2
-	"shield energy" .24
+	"shield energy" .18
 	"depleted shield delay" 5
 	"heat generation" 1
 	description "This is the smallest shield generator avaliable in Dels space. Powerful for its size but can take a while to recharge when depleted."
@@ -762,7 +762,7 @@ outfit "Dudae Shield Generator" #SR20
 	"mass" 15
 	"outfit space" -15
 	"shield generation" .3
-	"shield energy" .35
+	"shield energy" .28
 	"depleted shield delay" 6
 	"heat generation" 1.2
 	description "A little bit more powerful than SR10 shield generator"
@@ -774,7 +774,7 @@ outfit "Hiavee Shield Generator" #SR30
 	"mass" 22
 	"outfit space" -22
 	"shield generation" .5
-	"shield energy" .56
+	"shield energy" .46
 	"depleted shield delay" 8
 	"heat generation" 3.3
 	description "Dels large shield generator"
@@ -786,7 +786,7 @@ outfit "Holee Shield Generator" #SR40
 	"mass" 35
 	"outfit space" -35
 	"shield generation" .75
-	"shield energy" .79
+	"shield energy" .68
 	"depleted shield delay" 12
 	"heat generation" 4.5
 	description "Dels large shield generator"
@@ -798,7 +798,7 @@ outfit "Kaekur Shield Generator" #SR50
 	"mass" 50
 	"outfit space" -50
 	"shield generation" 1.7
-	"shield energy" 2.2
+	"shield energy" 1.4
 	"depleted shield delay" 18
 	"heat generation" 8
 	description "This is the most powerful shield generator the Dels have to offer."
@@ -848,7 +848,7 @@ outfit "Kulter Generator"
 	"energy generation" 4.8
 	"heat generation" 13.4
 	"cooling inefficiency" 1.5
-	description "."
+	description "Powerful Dels power generator that requires rewiring of some ship cooling to be dedicated to the generator reducing overall cool efficiency of the ship."
 	
 outfit "Deupar Fuel Cell" #C10
 	category "Power"
@@ -857,7 +857,7 @@ outfit "Deupar Fuel Cell" #C10
 	"mass" 18
 	"outfit space" -18
 	"energy generation" 1.2
-	"heat generation" 1.4
+	"heat generation" 1.2
 	description "Dels smallest fuel cell."
 	
 outfit "Farlu Fuel Cell" #C20
@@ -867,7 +867,7 @@ outfit "Farlu Fuel Cell" #C20
 	"mass" 28
 	"outfit space" -28
 	"energy generation" 2.5
-	"heat generation" 3.2
+	"heat generation" 2.6
 	description "Dels small fuel cell."
 	
 outfit "Hilke Fuel Cell" #C30
@@ -877,7 +877,7 @@ outfit "Hilke Fuel Cell" #C30
 	"mass" 40
 	"outfit space" -40
 	"energy generation" 4.3
-	"heat generation" 6.7
+	"heat generation" 4.5
 	description "Dels medium fuel cell."
 	
 outfit "K0108 Battery Pack" #Cannal
