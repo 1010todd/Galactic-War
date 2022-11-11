@@ -452,7 +452,7 @@ mission "Nuru: Outfit Delivery[Kuakuran Energy Cannon]"
 				`	"No."`
 					defer
 			`	"Thank you for your help. We will send vehicle to unload the cargo."`
-			#`	When they arrived one of the Nuru said something, ""`
+			`	When they begins disassembling it right on the spot with confidence as if they've handled the exact piece hundreds of times before. You watch as they do and one of them explained that the casing appears to be build similarly to their neighbour the Zorcn the inner working was apparently invisible to several of the quick scanning technology they have and they were curious about it, both the property of the casing and what's inside. To your luck it doesn't appears to contain anything that is an immediate danger to you, but for sure you want to stay out of this next time they do it.`
 			branch "firstpay" "next"
 				"Nuru: Outfit Delivery Counter" <= 0
 			label "next"
@@ -480,7 +480,7 @@ mission "Nuru: Outfit Delivery[Zilnor-03 Energy Tracer]"
 				`	"No."`
 					defer
 			`	"Thank you for your help. We will send vehicle to unload the cargo."`
-			#`	When they arrived one of the Nuru said something, ""`
+			`	When they arrived one of the Nuru noted how the weapon internal is mismatched with the technology used to build the case and how it's a new technology they never figured out yet and are very interested to learn how it works.`
 			branch "firstpay" "next"
 				"Nuru: Outfit Delivery Counter" <= 0
 			label "next"
@@ -490,7 +490,7 @@ mission "Nuru: Outfit Delivery[Zilnor-03 Energy Tracer]"
 				accept
 	on accept
 		outfit "Zilnor-03 Energy Tracer" -1
-		payment 200000
+		payment 240000
 		"reputation: Nuru" += 1
 		"Nuru: Outfit Delivery Counter" += 13
 
@@ -1121,7 +1121,7 @@ mission "Nuru: Outfit Delivery[Blue Sun Reactor]"
 		attributes outfitter
 		not attributes uninhabited
 	to offer
-		has "Nuru: Player asked to deliver outfits"r outfits" >= 1
+		has "Nuru: Player asked to deliver outfits"
 	on offer
 		conversation
 			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're interested in your Blue Sun Reactor. Will you sell it to us."`
@@ -1765,6 +1765,37 @@ mission "Nuru: Outfit Delivery[Quantum Key Stone]"
 		payment 300000
 		"reputation: Nuru" += 1
 		"Nuru: Outfit Delivery Counter" += 5
+
+mission "Nuru: Outfit Delivery[Nurbote]"
+	
+	source
+		government "Nuru"
+		not attributes uninhabited
+	to offer
+		has "Nuru: Player asked to deliver outfits"
+	on offer
+		conversation
+			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're very interested in your Nurbote. Will you sell it to us."`
+			choice
+				`	"Yes."`
+				`	"No."`
+					defer
+				`	"Never"`
+					decline
+			`	"Thank you for your help. We will send vehicle to unload the cargo."`
+			`	When they arrived one of the Nuru said about how this material you brought here is new to them and they want to take a look at it.`
+			branch "firstpay"
+				"Nuru: Outfit Delivery Counter" <= 0
+			``
+				accept
+			label firstpay
+			`	One of the Nuru moves towards you handing you credit chips, to your surprise it's just like the ones you use. You asked where did they got it from. They said they have a converter which they found on one of the planet they discovered, they're not certain of its origin nor how it works.`
+				accept
+	on accept
+		outfit "Nurbote" -1
+		payment 100000
+		"reputation: Nuru" += 1
+		"Nuru: Outfit Delivery Counter" += 3
 	
 	
 mission "Nuru: Outfit Delivery[Liquid Helium Cooler]"
