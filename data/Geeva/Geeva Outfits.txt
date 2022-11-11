@@ -2,20 +2,28 @@
 
 
 #========================WEAPON
+
+effect "ilcor impact"
+	sprite "effect/ilcor06 impact"
+		"frame rate" 25
+	lifetime 16
+	"velocity scale" .01
+	"random angle" 45
+
 outfit "Ilcor-06 Blaster Turret" #R6 Blaster Turret
 	category "Turrets"
 	cost 640000
-	thumbnail "outfit/pulse turret"
+	thumbnail "outfit/geeva ilcor06 turret"
 	"mass" 30
 	"outfit space" -30
 	"weapon capacity" -30
 	"turret mounts" -1
 	"required crew" 1
 	weapon
-		sprite "projectile/mod blaster"
-		sound "pulse"
-		"hit effect" "blaster impact"
-		"hardpoint sprite" "hardpoint/pulse turret"
+		sprite "projectile/ilcor06 proj"
+		sound "ilcor fire"
+		"hit effect" "ilcor impact"
+		"hardpoint sprite" "hardpoint/geeva ilcor06 turret hp"
 		"hardpoint offset" 7.
 		"inaccuracy" 1.5
 		"turret turn" 8
@@ -32,18 +40,18 @@ outfit "Ilcor-06 Blaster Turret" #R6 Blaster Turret
 outfit "Noilcor-06 Blaster Turret" #R6 Heavy Blaster Turret
 	category "Turrets"
 	cost 880000
-	thumbnail "outfit/heliarch attractor"
+	thumbnail "outfit/geeva noilcor06 turret"
 	"mass" 43
 	"outfit space" -43
 	"weapon capacity" -43
 	"turret mounts" -1
 	"required crew" 1
 	weapon
-		sprite "projectile/gheavy blaster"
-		"hardpoint sprite" "hardpoint/heliarch attractor"
+		sprite "projectile/noilcor06 proj"
+		"hardpoint sprite" "hardpoint/geeva noilcor06 turret hp"
 		"hardpoint offset" 9.
-		sound "proton"
-		"hit effect" "blaster impact"
+		sound "noilcor fire"
+		"hit effect" "ilcor impact"
 		"inaccuracy" 3
 		"turret turn" 2.8
 		"velocity" 33
@@ -58,19 +66,19 @@ outfit "Noilcor-06 Blaster Turret" #R6 Heavy Blaster Turret
 	
 outfit "Noilcor-07 Blaster Turret" #R7 Heavy Blaster Turret
 	category "Turrets"
-	cost 1000000
-	thumbnail "outfit/heliarch attractor"
+	cost 1100000
+	thumbnail "outfit/geeva noilcor07 turret"
 	"mass" 48
 	"outfit space" -48
 	"weapon capacity" -48
 	"turret mounts" -1
 	"required crew" 1
 	weapon
-		sprite "projectile/gheavy blaster"
-		"hardpoint sprite" "hardpoint/heliarch attractor"
+		sprite "projectile/noilcor07 proj"
+		"hardpoint sprite" "hardpoint/geeva noilcor07 turret hp"
 		"hardpoint offset" 9.
-		sound "gw syfar"
-		"hit effect" "blaster impact"
+		sound "noilcor fire"
+		"hit effect" "ilcor impact"
 		"inaccuracy" 1
 		"turret turn" 2
 		"velocity" 30
