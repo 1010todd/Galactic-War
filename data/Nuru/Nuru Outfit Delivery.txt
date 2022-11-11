@@ -324,6 +324,35 @@ mission "Nuru: Outfit Delivery[Korath Disruptor]"
 		"reputation: Nuru" += 1
 		"Nuru: Outfit Delivery Counter" += 36
 		
+mission "Nuru: Outfit Delivery[Shield Disruptor Turret]"
+	
+	source
+		government "Nuru"
+		not attributes uninhabited
+	to offer
+		has "Nuru: Player asked to deliver outfits"
+	on offer
+		conversation
+			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're interested in your Shield Disruptor Turret. Will you sell it to us."`
+			choice
+				`	"Yes."`
+				`	"No."`
+					defer
+			`	"Thank you for your help. We will send vehicle to unload the cargo."`
+			#`	When they arrived one of the Nuru said something, ""`
+			branch "firstpay" "next"
+				"Nuru: Outfit Delivery Counter" <= 0
+			label "next"
+				accept
+			label firstpay
+			`	One of the Nuru moves towards you handing you credit chips, to your surprise it's just like the ones you use. You asked where did they got it from. They said they have a converter which they found on one of the planet they discovered, they're not certain of its origin nor how it works.`
+				accept
+	on accept
+		outfit "Shield Disruptor Turret" -1
+		payment 1143000
+		"reputation: Nuru" += 1
+		"Nuru: Outfit Delivery Counter" += 36
+		
 mission "Nuru: Outfit Delivery[Korath Detainer]"
 	
 	source
@@ -380,7 +409,91 @@ mission "Nuru: Outfit Delivery[Vokkar Gun]"
 		payment 180000
 		"reputation: Nuru" += 1
 		"Nuru: Outfit Delivery Counter" += 22
+
+mission "Nuru: Outfit Delivery[J2 MES Gun]"
+	source
+		government "Nuru"
+		not attributes uninhabited
+	to offer
+		has "Nuru: Player asked to deliver outfits"
+	on offer
+		conversation
+			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're interested in your J2 MES Gun. Will you sell it to us."`
+			choice
+				`	"Yes."`
+				`	"No."`
+					defer
+			`	"Thank you for your help. We will send vehicle to unload the cargo."`
+			#`	When they arrived one of the Nuru said something, ""`
+			branch "firstpay" "next"
+				"Nuru: Outfit Delivery Counter" <= 0
+			label "next"
+				accept
+			label firstpay
+			`	One of the Nuru moves towards you handing you credit chips, to your surprise it's just like the ones you use. You asked where did they got it from. They said they have a converter which they found on one of the planet they discovered, they're not certain of its origin nor how it works.`
+				accept
+	on accept
+		outfit "J2 MES Gun" -1
+		payment 1800000
+		"reputation: Nuru" += 1
+		"Nuru: Outfit Delivery Counter" += 23
 		
+mission "Nuru: Outfit Delivery[Kuakuran Energy Cannon]"
+	source
+		government "Nuru"
+		not attributes uninhabited
+	to offer
+		has "Nuru: Player asked to deliver outfits"
+	on offer
+		conversation
+			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're interested in your Kuakuran Energy Cannon. Will you sell it to us."`
+			choice
+				`	"Yes."`
+				`	"No."`
+					defer
+			`	"Thank you for your help. We will send vehicle to unload the cargo."`
+			#`	When they arrived one of the Nuru said something, ""`
+			branch "firstpay" "next"
+				"Nuru: Outfit Delivery Counter" <= 0
+			label "next"
+				accept
+			label firstpay
+			`	One of the Nuru moves towards you handing you credit chips, to your surprise it's just like the ones you use. You asked where did they got it from. They said they have a converter which they found on one of the planet they discovered, they're not certain of its origin nor how it works.`
+				accept
+	on accept
+		outfit "Kuakuran Energy Cannon" -1
+		payment 30000
+		"reputation: Nuru" += 1
+		"Nuru: Outfit Delivery Counter" += 10
+
+mission "Nuru: Outfit Delivery[Zilnor-03 Energy Tracer]"
+	source
+		government "Nuru"
+		not attributes uninhabited
+	to offer
+		has "Nuru: Player asked to deliver outfits"
+	on offer
+		conversation
+			`You contact the spaceport and inform them you have some outfit to sell. "We notice you have outsider outfit on board, we're interested in your Zilnor-03 Energy Tracer. Will you sell it to us."`
+			choice
+				`	"Yes."`
+				`	"No."`
+					defer
+			`	"Thank you for your help. We will send vehicle to unload the cargo."`
+			#`	When they arrived one of the Nuru said something, ""`
+			branch "firstpay" "next"
+				"Nuru: Outfit Delivery Counter" <= 0
+			label "next"
+				accept
+			label firstpay
+			`	One of the Nuru moves towards you handing you credit chips, to your surprise it's just like the ones you use. You asked where did they got it from. They said they have a converter which they found on one of the planet they discovered, they're not certain of its origin nor how it works.`
+				accept
+	on accept
+		outfit "Zilnor-03 Energy Tracer" -1
+		payment 200000
+		"reputation: Nuru" += 1
+		"Nuru: Outfit Delivery Counter" += 13
+
 		#=================================================ENGINES
 		
 mission "Nuru: Outfit Delivery[Maon Ion Engines]"
