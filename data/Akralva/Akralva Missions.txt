@@ -1,3 +1,54 @@
+mission "First Contact: Akralva (boarding)"
+	boarding
+	name `Captured Alien`
+	description `You have an alien you captured on board which you're trying to communicate with.`
+	passengers 1
+	source
+		government "Akralva"
+	to offer
+		never
+		has "gw: debug mode"
+		"flagship crew" >= 12
+		not "First Contact: Nuru"
+		#has "outfit (flagship installed): Brig" #wait for 0.9.17/Cont
+	on offer
+		require "Brig" 1
+		conversation
+			`This is the first time you board this alien ship and you have a brig free, do you want to capture one of the alien to try and translate their language?`
+			choice
+				`	(Yes)`
+				`	(Not yet)`
+					defer
+				`	(Never)`
+					decline
+				# TODO: random chance depending on crew count and weapon?
+			`	You and your crew boarded the ship and captured one of the alien and put it in the brig. It was a struggle as they're very strong and resilient but you eventually manage to do it, miraculuosly without loss. With how strong it was you and your crews reinforced the brig with more material to ensure it won't escape.`
+			action
+				"GW: Akralva Prisoner count" += 1
+			``
+				accept
+	on daily
+		"Akralva: daily learning language" += 1
+			
+mission "First Contact: Akralva (boarding, metNuru)"
+	boarding
+	source
+		government "Akralva"
+	to offer
+		never
+		has "gw: debug mode"
+		has "First Contact: Nuru"
+	on offer
+		conversation
+			`This is the first time you board this alien ship and you have a Nuru translator, do you want to try communicating with them?`
+			choice
+				`	(Yes)`
+				`	(Not yet)`
+					defer
+				`	(Never)`
+					decline
+			`	`
+
 #To make sure the player met both Akralva and these races first before being able to gain rep.
 
 mission "Akralva rep unlock (Kumakk)"
