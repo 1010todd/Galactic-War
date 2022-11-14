@@ -52,6 +52,8 @@ mission "First Contact: Akralva (boarding, metNuru)"
 #To make sure the player met both Akralva and these races first before being able to gain rep.
 
 mission "Akralva rep unlock (Kumakk)"
+	landing
+	invisible
 	to offer
 		has "GW: seen Akralva-Kumakk conflict"
 	on offer
@@ -64,6 +66,8 @@ event "Akralva rep unlock (Kumakk)"
 			"Kumakk" -.1
 		
 mission "Akralva rep unlock (Ceasrilis)"
+	landing
+	invisible
 	to offer
 		has "GW: seen Akralva-Ceasrilis conflict"
 	on offer
@@ -76,6 +80,8 @@ event "Akralva rep unlock (Ceasrilis)"
 			"Ceasrilis" -.1
 			
 mission "Akralva rep unlock (Gargoor'an)"
+	landing
+	invisible
 	to offer
 		has "GW: seen Akralva-Gargoor'an conflict"
 	on offer
