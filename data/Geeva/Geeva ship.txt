@@ -24,7 +24,7 @@ ship "Hailika"
 	outfits
 		"Rilar-06 Anti-Missile"
 
-		"Turlo-06 Reactor"
+		"Niturlo-06 Reactor"
 		"Aiple-05 Batteries"
 		"Palir-06 Shield Generator"
 		"Nipalir-06 Shield Generator" 10
@@ -63,7 +63,7 @@ ship "Haisihril"
 		"heat dissipation" .90
 		"fuel capacity" 600
 		"cargo space" 18
-		"outfit space" 270
+		"outfit space" 210
 		"weapon capacity" 35
 		"engine capacity" 75
 		weapon
@@ -73,7 +73,7 @@ ship "Haisihril"
 			"hit force" 450
 	outfits
 
-		"Turlo-06 Reactor"
+		"Niturlo-06 Reactor"
 		"Aiple-05 Batteries"
 		"Palir-06 Shield Generator"
 		"Nipalir-06 Shield Generator" 10
@@ -84,10 +84,11 @@ ship "Haisihril"
 		"Kimal Assault Rifle" 6
 
 		"Iogel02-04 Thruster"
-		"Iogel02-04 Steering"
+		"Iogel03-04 Steering"
 		"Silr-02 Hyperdrive"
 		
-		
+	gun -21.5 -6.5
+	gun 21.5 -6.5
 	engine 0 78.5
 		zoom 1
 		angle 0
@@ -100,13 +101,64 @@ ship "Haisihril"
 		zoom 1
 		angle -10
 		under
-	gun -21.5 -6.5
-	gun 21.5 -6.5
 	explode "tiny explosion" 10
 	explode "small explosion" 20
 	explode "medium explosion" 15
 	description "Geeva luxury transport."
 		
+ship "Vanli"
+	sprite "ship/geeva vanli"
+	thumbnail "thumbnail/geeva vanli thumb"
+	attributes
+		category "Interceptor"
+		"cost" 350000
+		"shields" 2500
+		"hull" 2000
+		"required crew" 1
+		"bunks" 2
+		"mass" 90
+		"drag" 1.5
+		"heat dissipation" .90
+		"fuel capacity" 500
+		"cargo space" 10
+		"outfit space" 238
+		"weapon capacity" 52
+		"engine capacity" 59
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
+	outfits
+		"Rilar-06 Anti-Missile"
+
+		"Niturlo-06 Reactor"
+		"Erlip-05 Batteries"
+		"Palir-06 Shield Generator"
+		"Nipalir-06 Shield Generator" 5
+		"Cirpa-06 Cooling Device"
+		"Welt-03 Ramscoop"
+
+		"Kimal Assault Rifle" 2
+
+		"Iogel02-04 Thruster"
+		"Iogel02-04 Steering"
+		"Iogel01-04 Steering"
+		"Silr-02 Hyperdrive"
+		
+	gun -13 -45.5 
+	gun 13 -45.5 
+	turret 0 30.5 
+	engine -10.5 47 
+		zoom .7
+	engine 10.5 47
+		zoom .7 
+	engine 0 49.5 
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 15
+	description "Small Geeva personal transport. Used by some Geeva individuals to travel across space quickly."
+
 ship "Kinika"
 	sprite "ship/geeva kinika"
 	thumbnail "thumbnail/geeva kinika thumb"
@@ -122,7 +174,7 @@ ship "Kinika"
 		"heat dissipation" .85
 		"fuel capacity" 400
 		"cargo space" 5
-		"outfit space" 395
+		"outfit space" 427
 		"weapon capacity" 180
 		"engine capacity" 95
 		weapon
@@ -136,7 +188,7 @@ ship "Kinika"
 		"Rilar-06 Anti-Missile" 2
 		"Zilnor-03 Energy Tracer" 2
 
-		"Niturlo-06 Reactor"
+		"Turlo-06 Reactor"
 		"Erlip-05 Batteries"
 		"Palir-06 Shield Generator" 2
 		"Nipalir-06 Shield Generator" 3
@@ -144,7 +196,7 @@ ship "Kinika"
 		"Welt-03 Ramscoop"
 
 		"Df50 Hidden Sentry"
-		"Kimal Assault Rifle" 5
+		"Kimal Assault Rifle" 8
 		"ZK-20 Portable Railgun"
 		"LRP Grenades"
 
@@ -203,10 +255,10 @@ ship "Kimali"
 		"drag" 14.2
 		"heat dissipation" .6
 		"fuel capacity" 700
-		"cargo space" 100
-		"outfit space" 1110
-		"weapon capacity" 620
-		"engine capacity" 250
+		"cargo space" 20
+		"outfit space" 1056
+		"weapon capacity" 570
+		"engine capacity" 210
 		weapon
 			"blast radius" 300
 			"shield damage" 3000
@@ -296,7 +348,7 @@ ship "Kuiseire"
 		"cargo space" 600
 		"outfit space" 480
 		"weapon capacity" 150
-		"engine capacity" 250
+		"engine capacity" 210
 		weapon
 			"blast radius" 300
 			"shield damage" 3000
@@ -361,7 +413,7 @@ ship "Mayuinia"
 		"heat dissipation" .55
 		"fuel capacity" 700
 		"cargo space" 100
-		"outfit space" 1460
+		"outfit space" 1872
 		"weapon capacity" 1170
 		"engine capacity" 250
 		weapon

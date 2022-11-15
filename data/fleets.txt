@@ -471,11 +471,28 @@ fleet "Geeva Battle Fleet"
 	variant 15
 		Kimali
 		Kinika 3
-	variant 20
-		Kimali
+	variant 12
+		Kimali 2
 	variant 10
 		Kimali 2
 		Kinika 5
+	variant 10
+		Kimali 2
+		Kinika 3
+		"Kinika (Zilnor)" 2
+	variant 10
+		Kimali 2
+		Kinika 2
+		"Kinika (Zilnor)" 3
+	variant 7
+		Kimali 2
+		Kinika 3
+		"Kinika (Vytorn)" 2
+	variant 5
+		Kimali 2
+		"Kinika (Vytorn)" 2
+		"Kinika (Zilnor)" 3
+	
 
 fleet "Geeva Civillian"
 	government Geeva
@@ -485,25 +502,33 @@ fleet "Geeva Civillian"
 		confusion 30
 		disables frugal
 	variant 15
-		Hailika
+		"Hailika"
+	variant 9
+		"Vanli"
+	variant 6
+		"Vanli (Zilnor)"
 	variant 5
-		Haisihril
+		"Haisihril"
 	variant 20
-		Hailika 3
+		"Hailika" 3
 	variant 10
-		Hailika 5
-		Kinika
+		"Hailika" 5
+		"Kinika"
 	variant
-		Hailika 10
-		Kinika 2
+		"Hailika" 10
+		"Kinika" 2
 	variant 10
 		"Kuiseire"
 	variant 5
 		"Kuiseire"
-		Kinika 3
+		"Kinika" 3
+	variant 5
+		"Kuiseire"
+		"Kinika" 2
+		"Kinika (Zilnor)"
 	variant 1
-		Kimali
-		Kinika 3
+		"Kimali"
+		"Kinika" 3
 		"Kuiseire" 2
 
 fleet Ignaggen

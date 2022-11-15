@@ -6,6 +6,7 @@
 effect "ilcor impact"
 	sprite "effect/ilcor06 impact"
 		"frame rate" 25
+		"no repeat"
 	lifetime 16
 	"velocity scale" .01
 	"random angle" 45
@@ -62,7 +63,7 @@ outfit "Noilcor-06 Blaster Turret" #R6 Heavy Blaster Turret
 		"shield damage" 105
 		"hull damage" 88
 		"ion damage" .2
-	description "Mostly just bigger version of Ilcor-06 blaster."
+	description "Bigger version of Ilcor-06 blaster with more firepower but lower turn rate for combat against heavier warships."
 	
 outfit "Noilcor-07 Blaster Turret" #R7 Heavy Blaster Turret
 	category "Turrets"
@@ -162,7 +163,7 @@ outfit "Sentry-03 Anti-Missile" #R7 Sentry Anti-Missile Turret
 		"lifetime" 1
 		"reload" 1.5
 		"firing energy" 6
-		"firing heat" 46
+		"firing heat" 26
 	description "A deviation of an old anti-missile design of outside origin used by some Geeva frontline warships."
 	
 outfit "Nirilar-05 Anti-Missile" #R5 Micro Anti-Missile Turret
@@ -185,7 +186,7 @@ outfit "Nirilar-05 Anti-Missile" #R5 Micro Anti-Missile Turret
 		"reload" 2.7
 		"firing energy" 8
 		"firing heat" 3
-	description "A smaller version of an obsolete Rilar-05 Anti-Missile."
+	description "A smaller version of an obsolete Rilar-05 Anti-Missile, used only on craft with limited space to provide minimal defense against missiles."
 	
 outfit "Zilnor-03 Energy Tracer" #R3 Energy Tracer
 	category "Guns"
@@ -205,17 +206,17 @@ outfit "Zilnor-03 Energy Tracer" #R3 Energy Tracer
 		"velocity" 15
 		"lifetime" 320
 		"reload" 86
-		"firing energy" 82
+		"firing energy" 128
 		"firing heat" 21
 		"acceleration" 1.1
 		"drag" .1
 		"turn" 2
 		"homing" 2
 		"optical tracking" .7
-		"shield damage" 560
-		"hull damage" 420
+		"shield damage" 460
+		"hull damage" 320
 		"ion damage" 1
-		"missile strength" 20
+		"missile strength" 18
 	description "A compact homing energy projectile technology. While it shares some design similarity with other Geeva energy weapons, none of the Geevan seems to understand how it works."
 	
 outfit "Vytorn-01 Homing Beam" #R1 Homing Beam
@@ -244,8 +245,8 @@ outfit "Vytorn-01 Homing Beam" #R1 Homing Beam
 		"homing" 4
 		"optical tracking" 1
 		"infrared tracking" 1
-		"shield damage" 3
-		"hull damage" 1.5
+		"shield damage" 5
+		"hull damage" 2.4
 		"slowing damage" .1
 	description "Homing beam weapon used by Geeva."
 	
@@ -259,11 +260,13 @@ effect "homing beam trail"
 effect "ichra fire"
 	sprite "effect/ichra fire"
 		"frame rate" 30
+		"no repeat"
 	lifetime 10
 
 effect "ichra impact"
 	sprite "effect/ichra impact"
 		"frame rate" 30
+		"no repeat"
 	lifetime 10
 	"absolute velocity" -.1
 
@@ -352,35 +355,35 @@ outfit "Ichra-04 E-Railgun Dual Turret"
 
 outfit "Nipalir-06 Shield Generator" #R6 Shield Generator
 	category "Systems"
-	cost 50000
+	cost 75000
 	thumbnail "outfit/tiny shield"
 	"mass" 1
 	"outfit space" -1
-	"shield generation" .08
-	"shield energy" .06
-	"shield heat" .07
+	"shield generation" .02
+	"shield energy" .019
+	"shield heat" .018
 	description "A tiny shield generator designed to fill-up the left space in the ship."
 	
 outfit "Palir-06 Shield Generator" #R6
 	category "Systems"
-	cost 740000
+	cost 720000
 	thumbnail "outfit/small shield"
 	"mass" 15
 	"outfit space" -15
-	"shield generation" 1.3
-	"shield energy" 1
-	"shield heat" 1.2
+	"shield generation" .7
+	"shield energy" .64
+	"shield heat" .544
 	description "Geeva shield generator"
 	
 outfit "Palir-07 Shield Generator" #R7
 	category "Systems"
-	cost 800000
+	cost 880000
 	thumbnail "outfit/small shield"
 	"mass" 18
 	"outfit space" -18
-	"shield generation" 2
-	"shield energy" 1.5
-	"shield heat" 1.1
+	"shield generation" 1
+	"shield energy" .92
+	"shield heat" .782
 	description "Geeva improved shield generator"
 	
 outfit "Cirpa-06 Cooling Device" #R6
@@ -394,12 +397,12 @@ outfit "Cirpa-06 Cooling Device" #R6
 	
 outfit "Cirpa-07 Cooling Device" 
 	category "Systems"
-	cost 50000
-	thumbnail "outfit/water cooling"
+	cost 180000
+	thumbnail "outfit/liquid nitrogen cooler"
 	"mass" 30
 	"outfit space" -30
-	"cooling" 60
-	"heat protection" 2
+	"cooling" 81
+	"burn resistance" .1
 	description "Geeva passive cooling system."
 
 outfit "Gialor-06 Cooling Device" #R7
@@ -410,7 +413,7 @@ outfit "Gialor-06 Cooling Device" #R7
 	"outfit space" -14
 	"active cooling" 56
 	"cooling energy" 10
-	"cooling" 20
+	"cooling" 15
 	description "Geeva active cooling system."
 	
 
@@ -451,7 +454,7 @@ outfit "Niturlo-06 Reactor" #R6 Micro Fusion
 	"outfit space" -35
 	"energy generation" 6.8
 	"heat generation" 10.2
-	"ion resistance" 1
+	"ion resistance" .1
 	description "Geeva small reactor."
 	
 outfit "Turlo-06 Reactor" #R6 Fusion
@@ -462,20 +465,22 @@ outfit "Turlo-06 Reactor" #R6 Fusion
 	"outfit space" -78
 	"energy generation" 16.7
 	"heat generation" 30
-	"ion resistance" 2
+	"ion resistance" .2
 	description "Geeva reactor."
 	
 outfit "Solter-01 Reactor" #R1 Sun
 	category "Power"
 	cost 8000000
-	thumbnail "outfit/fusion hai"
-	"mass" 100
-	"outfit space" -100
+	thumbnail "outfit/white sun"
+	"mass" 121
+	"outfit space" -121
 	"energy generation" 29.8
-	"heat generation" 180
-	"ion resistance" 5
+	"heat generation" 58
+	"ion resistance" .5
 	description "Geeva Reactor"
 	
+#=================================ENGINE
+
 outfit "Iogel01-04 Thruster" #R4 Tiny Ion Thruster
 	category "Engines"
 	"cost" 29000
@@ -857,7 +862,7 @@ outfit "ZK-20 Portable Railgun"
 outfit "LRP Grenades"
 	plural "LRP Grenades"
 	category "Hand to Hand"
-	cost 57000
+	cost 78000
 	thumbnail "outfit/fragmentation grenades"
 	"capture attack" 3
 	"capture defense" .6
