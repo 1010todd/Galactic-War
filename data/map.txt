@@ -144505,13 +144505,9 @@ system "Elem Bvragun"
 	haze _menu/haze-133
 	link "Isgil Fratmav"
 	link Saneril
-	asteroids "small rock" 68 1.663
-	asteroids "medium rock" 118 1.789
-	asteroids "large rock" 28 1.512
-	asteroids "small metal" 8 2.092
-	asteroids "large metal" 64 1.512
+	asteroids "small rock" 1 1.663
+	asteroids "small metal" 1 2.092
 	minables lead 10 2.627
-	hazard "GW Cloud of Decay" 5
 	object
 		sprite star/k8
 		distance 143.89
@@ -144560,14 +144556,9 @@ system "Esila Bvragun"
 	link "Isgil Fratmav"
 	link Saneril
 	link Sanlijcai
-	asteroids "small rock" 12 0.891
-	asteroids "medium rock" 10 1.634
-	asteroids "large rock" 5 0.957
-	asteroids "small metal" 74 1.568
-	asteroids "medium metal" 116 0.99
-	asteroids "large metal" 57 0.974
+	asteroids "small rock" 1 0.891
+	asteroids "small metal" 1 1.568
 	minables iron 51 1.832
-	hazard "GW Cloud of Decay" 5
 	object
 		sprite star/f0
 		distance 92.43
@@ -144606,7 +144597,6 @@ system "Isgil Fratmav"
 	link "Elem Bvragun"
 	link "Esila Bvragun"
 	link "Plamaj Bvragun"
-	asteroids "small rock" 20 4.082
 	asteroids "medium rock" 5 5.443
 	asteroids "large rock" 4 4.158
 	asteroids "small metal" 3 6.88
@@ -144614,7 +144604,7 @@ system "Isgil Fratmav"
 	asteroids "large metal" 1 4.838
 	minables silver 5 6.332
 	minables tungsten 1 5.585
-	hazard "GW Cloud of Decay" 5
+	hazard "GW Solar Flare Medium" 50
 	object
 		sprite star/m-giant
 		period 10
@@ -144632,7 +144622,6 @@ system "Aspei Bvragun"
 	haze _menu/haze-133
 	link "Isgil Fratmav"
 	asteroids "large metal" 1 3.905
-	hazard "GW Cloud of Decay" 5
 	object
 		sprite star/o-supergiant
 		distance 379
@@ -144686,12 +144675,9 @@ system "Alei Bvragun"
 	asteroids "small rock" 4 2.46
 	asteroids "medium rock" 10 2.07
 	asteroids "large rock" 7 2.61
-	asteroids "small metal" 30 2.07
-	asteroids "medium metal" 51 2.52
-	asteroids "large metal" 55 2.88
+	asteroids "small metal" 3 2.07
 	minables aluminum 4 4.746
 	minables lead 4 4.143
-	hazard "GW Cloud of Decay" 5
 	object
 		sprite star/o0
 		period 10
@@ -144721,9 +144707,12 @@ system "Alei Bvragun"
 			period 113.475
 
 planet "Uilenxi Fratmav"
+	attributes "fratmav station" uninhabited
 	landscape land/station0
-	description "A massive derelict station of unknown origin heavily damaged from time, maintained by rarely sighted repair bots climbing along the walls. It appears to have multiple types of ports and bays to accomodate various ships of entirely different design possibly a home to inter-specie alliance, this is also reinforced by the fact that multiple equipment and consoles found inside often comes in various shape and size while seemingly all of the same function. Many of the systems within the station appears to be active with electricity still powering the lights in many area, thankfully the defense turrets are all broken or inactive."
-	spaceport "None of the various ports on the station is compatible with your ship so you landed inside one of the open bay. From inside you can spot a few broken ships left behind varying in size from fighter to massive freighter, from quick inspection all of them are too heavily damaged to be repaired for now."
+	description "A massive derelict station of unknown origin heavily damaged from time, maintained by a few rarely sighted repair bots climbing along the walls. It appears to have multiple types of ports and bays to accomodate various ships of entirely different design possibly a home to inter-specie alliance, this is also reinforced by the fact that multiple equipment and consoles found inside often comes in various shape and size while seemingly all of the same function. Many of the systems within the station appears to be active with electricity still powering the lights in many area. Thankfully the defense turrets are all broken or inactive so you're free to approach it."
+	spaceport "None of the various ports on the station is compatible with your ship so you landed inside one of the open bay. From inside you can spot a few broken ships left behind varying in size from fighter to massive freighter, from quick inspection all of them are too heavily damaged to be repaired for now but if you look around carefully maybe you can find something useful."
+	bribe 0
+	security 0
 
 system "Nsen Bvragun"
 	pos -52793.478 -55138.95
@@ -144734,12 +144723,9 @@ system "Nsen Bvragun"
 	haze _menu/haze-133
 	link Jelksiv
 	asteroids "small rock" 2 2.102
-	asteroids "medium rock" 24 2.707
-	asteroids "large rock" 23 1.699
 	asteroids "medium metal" 8 2.88
 	asteroids "large metal" 1 2.851
 	minables aluminum 4 4.413
-	hazard "GW Cloud of Decay" 5
 	object
 		sprite star/f3
 		period 10
@@ -144760,14 +144746,6 @@ system "Nsen Bvragun"
 		distance 3891
 		period 10552.71
 	object
-		sprite planet/trochzempt_construction
-		distance 9565
-		period 40672.384
-		object
-			sprite planet/lava0-b
-			distance 2589
-			period 3447.591
-	object
 		sprite "planet/asteroid base2"
 		distance 18072
 		period 105628.59
@@ -144779,15 +144757,10 @@ system "Nlai Bvragun"
 	arrival 1575.00
 	belt 1237
 	haze _menu/haze-133
-	asteroids "small rock" 25 1.386
-	asteroids "medium rock" 74 1.722
-	asteroids "large rock" 98 1.197
+	asteroids "small rock" 5 1.386
 	asteroids "small metal" 5 1.155
-	asteroids "medium metal" 40 1.134
-	asteroids "large metal" 11 1.659
 	minables titanium 7 2.188
 	minables lead 36 2.437
-	hazard "GW Cloud of Decay" 5
 	object
 		sprite star/m4
 		distance 151.082
@@ -144822,14 +144795,10 @@ system "Psen Bvragun"
 	belt 1568
 	haze _menu/haze-133
 	asteroids "small rock" 2 4.101
-	asteroids "medium rock" 7 5.078
-	asteroids "large rock" 12 6.38
-	asteroids "small metal" 10 5.143
-	asteroids "medium metal" 14 5.924
-	asteroids "large metal" 11 4.622
+	asteroids "medium rock" 2 5.078
+	asteroids "small metal" 2 5.143
 	minables tungsten 7 8.593
 	minables iron 11 5.81
-	hazard "GW Cloud of Decay" 5
 	object
 		sprite star/m-giant
 		period 10
@@ -144891,7 +144860,6 @@ system "Plamaj Bvragun"
 	asteroids "medium metal" 2 6.25
 	asteroids "large metal" 1 5.506
 	minables lead 1 6.914
-	hazard "GW Cloud of Decay" 5
 	object
 		sprite star/m0
 		period 10

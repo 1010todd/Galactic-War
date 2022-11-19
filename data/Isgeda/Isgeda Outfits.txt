@@ -111,16 +111,19 @@ outfit "Achloss Artillery Turret"
 		"hit effect" "nuke explosion" 3
 		"inaccuracy" 2
 		"turret turn" .7
+		"range override" 7250
 		"velocity" 50
 		"drag" .1
 		"acceleration" 2.5
-		"lifetime" 160
+		"lifetime" 280
 		"reload" 300
 		"firing energy" 30000
 		"firing heat" 18000
 		"hit force" 500
-		"shield damage" 57050
-		"hull damage" 14522
+		#"shield damage" 57050
+		#"hull damage" 14522
+		"shield damage" 214050
+		"hull damage" 48522
 		"blast radius" 200
 	description "Massive artillery turret developed and used by an ancient race. Extremely powerful but fires very slowly."
 	

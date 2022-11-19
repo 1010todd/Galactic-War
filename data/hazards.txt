@@ -118,3 +118,16 @@ effect "gw hypertear"
 	"random angle" 180
 	"random spin" 1
 	"velocity scale" 0.
+	
+hazard "GW Solar Flare Medium"
+	period 30
+	duration 15 120
+	strength 0.75 2
+	range 3500
+	"environmental effect" "flamethrower die" 50
+	weapon
+		"heat damage" 3000
+		"relative shield damage" 0.002
+		"relative hull damage" 0.015
+		"hit force" 1500
+		"target effect" "flamethrower hit" 9
