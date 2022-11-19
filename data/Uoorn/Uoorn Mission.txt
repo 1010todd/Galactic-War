@@ -136,6 +136,8 @@ mission "Uoorn: Uoorn-Gargoor'an battle (Kalloo'anuu)"
 		fleet "Gargoor'an Urn War Fleet" 3
 	on enter "Kalloo'anuu"
 		set "Seen Uoorn fight Gargoor'an"
+	to complete
+		never
 		
 mission "Uoorn: Ask about Gargoor'an"
 	landing

@@ -49,6 +49,39 @@ outfit "Msivyut Blaster Turret"
 		"heat damage" 61
 	description `Turret version of the ancient Msivyut Blaster.`
 
+effect "isgeda solaron impact"
+	sprite "effect/isgeda solaron impact"
+		"no repeat"
+		"frame rate" 30
+	sound "explosion small"
+	"lifetime" 5
+	"random spin" 10
+	"absolute velocity" 2
+
+outfit "Solaron Starlance"
+	category "Guns"
+	cost 4506000
+	thumbnail "outfit/isgeda solaron"
+	"mass" 88
+	"outfit space" -88
+	"weapon capacity" -88
+	"gun ports" -1
+	weapon
+		sprite "projectile/isgeda solaron beam"
+		sound "sunbeam"
+		"hit effect" "isgeda solaron impact"
+		"inaccuracy" .1
+		"velocity" 800
+		"lifetime" 1
+		"reload" 1
+		"cluster"
+		"firing energy" 18.9
+		"firing heat" 12.5
+		"shield damage" 44
+		"hull damage" 24
+		"heat damage" 88
+	description `Large laser weapon from the ancient station.`
+
 outfit "Discalrit Battery"
 	plural "Discalrit Batteries"
 	category "Power"

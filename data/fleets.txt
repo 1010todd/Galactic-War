@@ -1895,7 +1895,7 @@ fleet "Zis Civillian Fleet"
 		"DT-224 Trazar" 6
 
 fleet "Zis Construction Fleet"
-	government "ZIS "
+	government "ZIS (Construction Drones)"
 	names Zis
 	fighters "Zis fighter"
 	cargo 1
@@ -1904,8 +1904,8 @@ fleet "Zis Construction Fleet"
 	variant
 		"Ginaz Builder" 3
 
-fleet point
-	government "   "
+fleet "ZIS Drone Target"
+	government "ZIS Drone Target"
 	personality
 		heroic
 	variant

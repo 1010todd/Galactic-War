@@ -588,7 +588,7 @@ government Yiisk
 
 government ZIS
 	swizzle 3
-	color 0.037 0.153 0.80000001
+	color 0.037 0.153 0.8
 	"player reputation" 1
 	"crew attack" 500
 	"crew defense" 1200
@@ -596,23 +596,26 @@ government ZIS
 		Geeva 1
 		"Kroom Kakaima" -0.01
 		Ultaka -1
-		"ZIS " 1
+		"ZIS (Construction Drones)" 1
 		Ultaka(Mega) -1
+	#"illegals" #Just a reminder to myself, Wait for 0.9.17
+	#	ignore "Nerve Gas"
 	"bribe" 0
 
-government "ZIS "
+government "ZIS (Construction Drones)" #Funfact: This used to be named "ZIS " because "display name" wasn't a thing back then.
 	"display name" ZIS
 	swizzle 3
 	color 0.037 0.153 0.80000001
 	"player reputation" 1
 	"attitude toward"
 		ZIS 1
-		"   " -0.01
+		"ZIS Drone Target" -0.01
 		Ultaka -1
 		Ultaka(Mega) -1
 	"bribe" 0
 
-government "   "
+government "ZIS Drone Target"
+	"display name" " "
 	swizzle 3
 	color 0 0 0
 	"penalty for"
