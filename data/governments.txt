@@ -65,7 +65,7 @@ government "Dels Ufulre"
 		"Dels Kaote" -0.1
 
 government Donko
-	color 0.80000001 0.78100002 0.163
+	color 0.735 0.824 0.396
 	"player reputation" 1
 	"attitude toward"
 		Wallagi 0.1
@@ -114,7 +114,7 @@ government Makerurader
 		"Erader Kasiva" -0.1
 
 government Erm
-	color 0 0 0.16
+	color 0 0 0.735
 	"player reputation" 1
 	"attitude toward"
 		Resmakia 1
@@ -168,6 +168,15 @@ government "Nilra Ignaggen"
 		Dels -0.1
 		Ignaggen -0.1
 		Wallagi -0.1
+
+
+government Isgeda
+	swizzle 21
+	color 0.873 0.825 0.064
+	"crew attack" 100
+	"crew defense" 200
+	"attitude toward"
+		Donko 1
 
 government "Isgeda (Derelict Guard)"
 	"display name" "Unknown"
@@ -274,10 +283,13 @@ government "Kroom Kakaima"
 	"bribe" 0
 
 government "Kroom Kanai"
-	color 0.2 0.1 0.5
+	color 0.564 0.443 0.05
 	"attitude toward"
 		"Kroom Kakaima" -0.1
 	language Kroom
+
+government Kronnahil
+	color 0.549 0.296 0.296
 
 government Kumakk
 	swizzle 3
@@ -322,7 +334,7 @@ government "Qoro Siogal"
 
 government Resmakia
 	swizzle 6
-	color 0 0.1 0.2
+	color 0 0.5 1
 	"player reputation" 1
 	"attitude toward"
 		Erm 1
@@ -548,24 +560,27 @@ government Ultaka(Alrul)
 	language Ultaka
 	"bribe" 0
 
-government Vareen
-	color 0.1 0.28 0.19
-	"player reputation" -1
-
-government Wallagi
-	swizzle 5
-	color 0.1 0.28 0.19
-	"player reputation" 2
-	"attitude toward"
-		Ultaka -0.1
-	"bribe" 0
-
 government Uoorn
 	"display name" ???
 	color 0.79901958 1 0.82266426
 	"attitude toward"
 		"Gargoor'an" -.01
 	"bribe" 0
+
+government Vareen
+	color 0.1 0.28 0.19
+	"player reputation" -1
+
+government Wallagi
+	swizzle 5
+	color 0 0.603 0.301
+	"player reputation" 2
+	"attitude toward"
+		Ultaka -0.1
+	"bribe" 0
+
+government Xessian
+	color 0.848 0.224 0
 
 government Yiisk
 	color 0.5 0.28 0.653
@@ -609,7 +624,7 @@ government "   "
 		atrocity 0
 
 government Zorcn
-	color 0.38 0.38 0.38
+	color 0.248 0.42 0.436
 	"attitude toward"
 		"Xyncil Zorcn" -0.1
 	language Zorcn
