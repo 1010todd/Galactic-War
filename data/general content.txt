@@ -630,7 +630,43 @@ mission "gw: give universal converter"
 		dialog "Universal Converter granted."
 		set "license: GW Universal Converter"
 
-
+mission "gw: reset Akralva first contact"
+	job
+	repeat
+	deadline 1
+	name `GW: Reset Akralva First Contact`
+	description	`Reset first contact mission with Akralva.`
+	on accept
+		clear "First Contact: Akralva (boarding): offered"
+		clear "First Contact: Akralva (boarding): declined"
+		clear "First Contact: Akralva (boarding): failed"
+		clear "First Contact: Akralva (boarding): done"
+		clear "Akralva: days since capture"
+		clear "GW: Akralva Prisoner count"
+		clear "Akralva: Learning Language (captured, a): offered"
+		clear "Akralva: Learning Language (captured, b): offered"
+		clear "Akralva: Learning Language (captured, c): offered"
+		clear "Akralva: Learning Language (captured, e): offered"
+		clear "Akralva: Learning Language (captured, release): offered"
+		clear "Akralva: Learning Language (captured, release, akralva planet): offered"
+		clear "Akralva: Learning Language (captured, kill): offered"
+		clear "Akralva: Learning Language (captured, f): offered"
+		clear "Akralva: Learning Language (captured, g): offered"
+		clear "Akralva: Learning Language (captured, h): offered"
+		clear "Akralva: Learning Language (captured, why): offered"
+		clear "Akralva: Learning Language (captured, found nuru): offered"
+		clear "Akralva: Learning Language (captured, a): declined"
+		clear "Akralva: Learning Language (captured, b): declined"
+		clear "Akralva: Learning Language (captured, c): declined"
+		clear "Akralva: Learning Language (captured, e): declined"
+		clear "Akralva: Learning Language (captured, release): declined"
+		clear "Akralva: Learning Language (captured, release, akralva planet): declined"
+		clear "Akralva: Learning Language (captured, kill): declined"
+		clear "Akralva: Learning Language (captured, f): declined"
+		clear "Akralva: Learning Language (captured, g): declined"
+		clear "Akralva: Learning Language (captured, h): declined"
+		clear "Akralva: Learning Language (captured, why): declined"
+		clear "Akralva: Learning Language (captured, found nuru): declined"
 #
 # Omnis
 #
