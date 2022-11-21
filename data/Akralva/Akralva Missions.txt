@@ -528,6 +528,51 @@ mission "First Contact: Akralva (boarding, metNuru)"
 			`	After a bit of fiddling you think you managed to open a voice comms to the alien ship, somehow. You attempted to communicate with them and try to find out what they want but you're rewarded with only various profanities and challenge to a hand to hand duel instead. Any attempt to reason with them is futile but at least you figured out your translator works with them.`
 				decline
 
+mission "First Contact: Akralva (landing)"
+	landing
+	source
+		government Akralva
+		not attributes uninhabited
+	to offer
+		never
+	on offer
+		conversation
+			branch friendly
+				"reputation: Akralva" > 0
+			`You somehow manages to land on this hostile alien planet, and soon after you landed you see a group of armed aliens approaching you, you decides it's better to stay inside your ship and observe. the aliens are standing about 2.5 meters tall with bulky build, it have long head length wise with mouth similar to crabs, their black eyes located right under a black colored beetle-like hard shell with a few child's fist-sized spike along the middle of it that covers the top half of their head. It also have similar looking shell but without the spike on its forarm and lower legs which made it looks bigger than their upper arms and upper legs. The rest of their body is covered by bi-metal armour of grey and orange but doesn't seems to cover the joints too well and were meant for ranged combat. The one in front of the group appears to be the leader have their head painted with bright red lines across the middle length-wise.` 
+			branch understandAkralva
+				has "language: Akralva"
+			
+			label understandAkralva
+			`	The leader shouted asking what's your business here landing in their territory.`
+			choice
+				`	(Tell them you're here just to refuel.)`
+					goto langRefuel
+				`	(Tell them you're here to trade.)`
+					
+			label langRefuel
+			`	They don't really seems to liek the answer and demanded extra payment of 120,000 for repair and refuel.`
+			choice
+				`	(Pay them)`
+					goto langPay
+				`	(Refuse)`
+			#I have no control over repair and refuel mechanic right now so they can't just refuse to repair and refuel you, which is the more likely outcome.
+			branch mad
+				random < 75
+			`	He stomps the ground a few times, point at your viewport and point at the ground in front of him yelling at you to get out here and maybe he'll give you a chance at negotiation.`
+			choice
+				`	(Go out.)`
+				`	(Refuse.)`
+					goto mad
+			`	You exit you hatch and meet the alien, stares at you for a few seconds before continuing with the conversation. He said that he'll give you a chance to repay them via other means, such as transporting their supplies or help them hunt their enemies.`
+			label mad
+			`	As soon as they hear your answer the alien leader shouted at someone behind and you notices nearby turrets to begin powering up. You fired up your ship's repulsor and get off the planet as soon as you can.`
+				flee
+
+
+			`You caught a glimpse of their skin under their clothing which is creme colored and reflects similarly to their shells but looks thinner. Their hands looks like three crab pincers stacked together`
+
+
 #To make sure the player met both Akralva and these races first before being able to gain rep.
 
 mission "Akralva rep unlock (Kumakk)"
