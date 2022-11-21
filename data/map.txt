@@ -115503,6 +115503,7 @@ planet Gokano
 
 planet Gokdeo
 	attributes Dels
+	landscape "land/landscape gokdeo"
 	description "This planet is covered entirely in deep ocean, no single island appeared on the surface. A number of people live on this planet on a large city ship that was probably once a spaceship before making its final splash down here. The number of odd weather instruments on the ship suggest it's somesort of a research or survey ship. "
 	spaceport "The hangar on the ship might be able to park about 10 fighters at best. Ships larger and heavier than that are required to land in the water next to the city ship. Hooking up fuel lines and transportation between ships are done by a small replusor craft that will struggle to carry over 10 tons on it. Up close, multiple sign of quick repairs and extension is visible this ship will probably forever remains on the planet."
 	outfitter "Dels Basic"
@@ -116812,6 +116813,7 @@ planet Likveera
 	spaceport .
 
 planet Livaki
+	landscape "land/gw alien forestA19"
 	description "A planet where large area of lands are covered entirely in forest dotted with buildings painted and decorated to replicate their surroundings making them slightly harder to identify with bare eyes. Streets and roads concealed under the shades of trees. While at first glance there may not seems to be many building, the lights at night reveals countless more homes and buildings that where hidden among the trees."
 	description "Outside the forest reveals large metropolis of massive skyscrapers with enough space that could very well counted as a city by itself. Buildings painted in light grey with hints of other colours that wouldn't be noticable on first sight. Another notable thing about Geevan architecture is that it completely lacks of sharp corner and smooth texture. "
 	spaceport "The spaceport is shaped like a giant tree even far larger than the surrounding buildings with trunk of steel with branches and leaves as landing pads. "
@@ -117188,6 +117190,7 @@ planet Mesilver
 	shipyard "Geeva Advanced"
 	outfitter "Geeva Advanced"
 
+planet Meson
 	attributes Dels
 	landscape "land/gw barren2"
 	description .
@@ -118606,6 +118609,8 @@ planet Varakzeral
 	"required reputation" 2
 
 planet Varuxilna
+	attributes "heavy industry"
+	landscape land/land14
 	description .
 	spaceport .
 	shipyard "Makerurader Large"
@@ -118838,6 +118843,7 @@ planet Wobore
 planet "Wormhole Glink"
 
 planet Xornir
+	landscape "land/landscape xornir"
 	description "Xornir is a world populated by both the Nuru and the Zorcn. For centuries both have lived together in peace. The architecture of the buildings begins to mix forming one of the most exotic design of the area, a mix of concrete, metal, and unknown white material forming impossible-looking shapes and illusions."
 	spaceport "Despite being governed by the Zorcn, Nuru were the first to settle and built a spaceport here. And again, the Nuru style spaceport has eclipsed over a good part of the captial of the planet. Most of the buildings surrounding the spaceport are made by the Nuru."
 	shipyard "Zorcn Basic"
@@ -118883,6 +118889,7 @@ planet Zalvalhe
 	spaceport .
 
 planet "Zerax WS-2"
+	attributes "miners storage"
 	landscape "land/station zerax"
 	description "A massive worldship size of a moon with what could be described as giant space vacuum tearing apart the planet below sucking everything into the ship or somewhere else from the ship... From the look of it the planet ripping tool installed on this ship is likely a more recent modification to the worldship which looks much older. "
 	description "Inside is multiple floors of living quarters and all sort of facilities."
@@ -118896,6 +118903,7 @@ planet Zionetyr
 	outfitter "Zorcn Basic Ammo"
 
 planet "Zoivol WS-1"
+	attributes "miners storage"
 	landscape "land/station zoivol"
 	description "Zoivol is an extremely ancient worldship. Once one of the few home of the Zis. Despite its age the condition of the worldship looks no older than a few months or a year at very best."
 	spaceport "The ship have a few massive hangars big enough you could probably fit a city inside. Streams of drones and mining ships come and go all the time."
