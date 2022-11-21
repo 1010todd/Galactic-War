@@ -114140,7 +114140,7 @@ planet Ailsiar
 	spaceport "The spaceport is a large hexagonal structure covering the most surface area as a single structure compared to the others around it. It is mostly a flat area with a single level building around the perimeter filled with small shops. It also house a set of five elevators going down to a larger underground city which also appears to connect the entire city together with network of maglev trains. "
 
 planet Aioren
-	landscape land/bwerner7
+	landscape "land/gw barrenB09"
 	description "A planet largely covered in desert and dry hills. Most of the colonies here surround the quarry. "
 	spaceport .
 	"required reputation" 1
@@ -114191,7 +114191,7 @@ planet Anorulee
 
 planet Anroo'ulreen
 	attributes uninhabited
-	landscape land/canyon05
+	landscape "land/gw barrenB59"
 	description "A hot and dry planet with no water and very little atmosphere. As much as it looks like there would be no life on this planet, you can see what looks like a large patch of giant mushrooms in one of the largest crater."
 
 planet Anulyor
@@ -114201,7 +114201,7 @@ planet Anulyor
 	"required reputation" 1
 
 planet Aokri
-	landscape land/badlands0
+	landscape "land/gw barrenB35"
 	description .
 	spaceport .
 	shipyard "Ignaggen Advanced"
@@ -114213,7 +114213,7 @@ planet Aokri
 	"required reputation" 1
 
 planet Aori
-	landscape land/dune2
+	landscape "land/gw barrenB16"
 	description .
 	spaceport .
 	shipyard "Ignaggen Advanced"
@@ -114230,7 +114230,7 @@ planet "Aorlai Station"
 	"required reputation" 1
 
 planet Aorme
-	landscape land/hills1
+	landscape "land/gw barrenB37"
 	description .
 	spaceport .
 	"required reputation" 1
@@ -114264,15 +114264,15 @@ planet Asegllegar
 	outfitter "Ignaggen Basic"
 
 planet Aserenar
-	landscape land/fog1
+	landscape "land/gw mountainforestfogA05"
 	description .
 	spaceport .
 	outfitter "Geeva Basic"
 	outfitter "Standard Outfits"
 
 planet Aslnakan
-	attributes `"heavy industry"` mining
-	landscape land/canyon7
+	attributes `heavy industry` mining
+	landscape "land/gw barrenB55"
 	description .
 	spaceport .
 	shipyard "Makerurader Large"
@@ -114296,7 +114296,7 @@ planet Asnki'ankir
 	"required reputation" 3
 
 planet Asokqen
-	landscape land/desert5
+	landscape "land/gw barrenB15"
 	description .
 	spaceport .
 	shipyard "Dels Ufulre"
@@ -114308,7 +114308,7 @@ planet Asokqen
 		fleet "Dels Ufulre Patrol" 12
 
 planet Aulingar
-	landscape land/canyon6
+	landscape "land/gw barrenB65"
 	description .
 	spaceport .
 
@@ -114488,7 +114488,7 @@ planet Delrragion
 
 planet Demiree
 	attributes mining
-	landscape land/hills1
+	landscape "land/gw barrenB00"
 	description .
 	spaceport .
 
@@ -114517,7 +114517,7 @@ planet Densal
 
 planet Densri
 	attributes Revos
-	landscape land/canyon0
+	landscape "land/gw barrenB40"
 	description "A hot and dry plant that doesn't seems to have much going on besides the a small Revos settlement in form of small purple domes clustered together around certain area."
 	spaceport "While most of the Revos ships are small compared to others it seems like they've built their spaceport large enough to accomodate a much larger ship."
 	security 0.9
@@ -114540,8 +114540,8 @@ planet Dermari
 
 planet Dertlevar
 	attributes mining
-	landscape land/canyon03
-	description "The planet atmosphere is mostly filled with dust form extensive mining on the planet."
+	landscape "land/gw barrenB45"
+	description "The planet atmosphere is mostly filled with dust from extensive mining on the planet."
 	spaceport "A building sits in the middle of the flat ground that is the landing area surrounded by warehouses and ore containers. A few automated forklift-like vehicles drives around the area loading and unloading cargo from parked freighters."
 
 planet Destri
@@ -114803,7 +114803,7 @@ planet Dualel
 	outfitter "Dels Basic"
 
 planet Dudeekle
-	landscape land/canyon05
+	landscape "land/gw barrenB66"
 	description .
 	spaceport .
 
@@ -114906,7 +114906,7 @@ planet Eilina
 	"required reputation" 1
 
 planet Eillienar
-	landscape land/canyon02
+	landscape "land/gw barrenB69"
 	description .
 	spaceport .
 
@@ -115012,7 +115012,7 @@ planet Erlikme
 	"required reputation" 1
 
 planet Eroar
-	landscape land/canyon3
+	landscape "land/gw barrenB72"
 	description .
 	spaceport .
 	"required reputation" 1
@@ -115510,9 +115510,9 @@ planet "Ii sin"
 	spaceport "Unlike spaceport on more populated planets, these spaceports are small. Most can accept only a few dozen ships at a time. Markets are minimal, only selling a few necessities and foods, nothing luxurious."
 
 planet "Ii so"
-	landscape land/canyon1
-	description "A greener sister planet of Ii sin, with even less city. No more than a dozen clustered around the captial. The captial city of this planet is built upon a giantic crater in the middle of an even larger mountain. "
-	spaceport "The main spaceport was rised impossibly high with the highest floor on the edge of the planet's atmosphere where its foundation taking over half of the entire crater the city is sitting upon. Eclipsing a good sector of land beneath it, the entire spaceport is so huge it can be considered a city on it's own."
+	landscape "land/gw barrenB74"
+	description "A greener sister planet of Ii sin, with even less city. No more than a dozen clustered around the capital. The capital city of this planet is built upon a gigantic crater in the middle of an even larger mountain. "
+	spaceport "The main spaceport was raised impossibly high with the highest floor on the edge of the planet's atmosphere where its foundation taking over half of the entire crater the city is sitting upon. Eclipsing a good sector of land beneath it, the entire spaceport is so huge it can be considered a city on it's own."
 
 planet Ikgar
 	landscape land/sky3
@@ -115559,7 +115559,7 @@ planet Iraneke
 	outfitter "Erader Basic"
 
 planet Ire
-	landscape land/canyon7
+	landscape "land/gw barrenB70"
 	description .
 	spaceport .
 	shipyard "Ignaggen Advanced"
@@ -115589,7 +115589,7 @@ planet Irso
 	outfitter "Zorcn Basic"
 
 planet Ishimeiya
-	landscape land/forest3
+	landscape "land/gw mountainforestA06"
 	description .
 	spaceport .
 	shipyard "Erader Basic"
@@ -115651,7 +115651,7 @@ planet Ka'erie
 		fleet "Dels Kaote" 30
 
 planet Kado'laroe
-	landscape land/canyon2
+	landscape "land/gw barrenB42"
 	description "This the biggest moon orbiting the gas planet below, it is even bigger than some planet you've seen."
 	description "A good portion of this moon is covered in field of factories all interconneted with countless pipes and rails constantly operating day and night manufacturing all sort of goods from mined resource. Large mining vehicles can be found across the surface digging up tons of material to be transported to the factory by drones."
 	spaceport "The spaceport is built on a large tower a hundred meters above the factories on the surface. This building appears to also house all the Kumakk living here."
@@ -115688,7 +115688,7 @@ planet Kalsaur
 	spaceport .
 
 planet Kar'i
-	landscape land/badlands6
+	landscape "land/gw barrenA06"
 	description .
 	spaceport .
 	"required reputation" 1
@@ -115732,7 +115732,7 @@ planet Kealnrisyn
 	spaceport .
 
 planet Keanudera
-	landscape land/forest5
+	landscape "land/gw mountainforestfogA03"
 	description .
 	spaceport .
 	outfitter "Dels Standard"
@@ -115750,7 +115750,7 @@ planet Keedavol
 	spaceport "A few basic stores and hotel rooms are avaliable at the spaceport, for occasional freighter visiting but rarely anyone stays here for long. Most buildings outside of the spaceport appears to belong to the military, surrounded by walls and razor wires. There also appears to be some construction for a large building under way but right now it's far too early to tell what it will be."
 
 planet Keeulavar
-	landscape land/fog7
+	landscape "land/gw mountainforestfogA04"
 	description .
 	spaceport .
 
@@ -115768,7 +115768,7 @@ planet Kegaoleva
 
 planet Kegaredak
 	attributes mining
-	landscape land/canyon7
+	landscape "land/gw barrenB50"
 	description "Large and dry desert world with no life visible on the surface. Large mines are dotted all over the lands. "
 	spaceport .
 	outfitter "Kroom Ammo"
@@ -115780,7 +115780,7 @@ planet Keggelior
 
 planet Keilinashi
 	attributes mining
-	landscape land/hills1
+	landscape "land/gw barrenB02"
 	description .
 	spaceport .
 	outfitter "Erader Ammo"
@@ -115850,7 +115850,7 @@ planet Kequrelee
 
 planet Kerasila
 	attributes mining
-	landscape land/canyon2
+	landscape "land/gw barrenB71"
 	description .
 	spaceport .
 	outfitter "Geeva Basic"
@@ -115941,7 +115941,7 @@ planet Kilnerrin
 
 planet Kiloneroil
 	attributes mining
-	landscape land/canyon01
+	landscape "land/gw barrenB29"
 	description .
 	spaceport .
 
@@ -115954,7 +115954,7 @@ planet Kinoli
 
 planet "Kir ai"
 	attributes uninhabited
-	landscape land/fog0
+	landscape "land/gw mountainforestfogA08"
 	description "This planet is covered in seemingly endless sea of clouds released from several vent holes on the surface of the planets. The cloud is so dense in some areas even sunlight fails to penetrate. Most life on this planet thrive around the geothermal vents found across the planet. "
 	description "Aside from what seems to be Nuru's alien weather station, the surface of the planet remain untouched."
 
@@ -116046,7 +116046,7 @@ planet "Ko'se Elsen"
 	outfitter "Kumakk Basic"
 
 planet Ko'senai
-	landscape land/fog0
+	landscape "land/gw mountainforestfogA13"
 	description .
 	spaceport .
 	"required reputation" 1
@@ -116059,7 +116059,7 @@ planet Ko'urelacun
 	"required reputation" 2
 
 planet Kogano
-	landscape land/hills1
+	landscape "land/gw barrenB08"
 	description .
 	spaceport .
 	"required reputation" 1
@@ -116076,7 +116076,7 @@ planet Koger
 	"required reputation" 1
 
 planet Koho
-	landscape land/forest3
+	landscape land/gw mountainforestA07
 	description .
 	spaceport .
 	"required reputation" 1
@@ -116168,7 +116168,7 @@ planet "Korre Gelure"
 	"required reputation" 1
 
 planet Kotona
-	landscape land/forest3
+	landscape "land/gw mountainforestA13"
 	description .
 	spaceport .
 	"required reputation" 1
@@ -116259,7 +116259,7 @@ planet Kukexan
 	spaceport .
 
 planet Kukoga
-	landscape land/forest3
+	landscape "land/gw mountainforestA01"
 	description ,
 	spaceport .
 	"required reputation" 1
@@ -116275,7 +116275,7 @@ planet Kul'elrel
 
 planet Kulderva
 	landscape "land/landscape kulderva"
-	description "There is only one continent on this planet centred at a colossal crater that can easily place a large moon inside. Numerous pillars punches high into the clouds curved like rib bones forming a cage around the the crater. Inside the crater is empty but patches of moss on the stone surfaces. A number more of mountain ranges surround the crater in folds with peaks getting higher and higher and it closes to the edge of the crater. Towards the edge of the continent is more tame, with mostly hills hosting variety of biomes from tropical forest up to taiga and tundra at the far north. You can see small bushes and tall grasses moving from tiny animals movement but there is no sign of any animal larger than that."
+	description "There is only one continent on this planet centred at a colossal crater that can easily place a large moon inside. Numerous unnatural-looking pillars punches high into the clouds curved like rib bones forming a cage around the the crater. Inside the crater is empty but patches of moss on the stone surfaces. A number more of mountain ranges surround the crater in folds with peaks getting higher and higher and it closes to the edge of the crater. Towards the edge of the continent is more tame, with mostly hills hosting variety of biomes from tropical forest up to taiga and tundra at the far north. You can see small bushes and tall grasses moving from tiny animals movement but there is no sign of any animal larger than that."
 	spaceport "The spaceport is built in the center of a town on an island off the coast of the continent."
 
 planet "Kuleedir Ma"
@@ -116318,7 +116318,7 @@ planet Kurtelo
 	spaceport "Currently the spaceport is nothing more than a few concrete landing pads surrounding a small 3 story building. There was evidence of some construction nearby but there's no one working on it right now."
 
 planet Kuvagake
-	landscape land/forest5
+	landscape "land/gw mountainforestfogA00"
 	description .
 	spaceport .
 	outfitter "Kroom Basic"
@@ -116401,7 +116401,7 @@ planet Leekelura
 
 planet Leepordi
 	attributes mining
-	landscape land/canyon01
+	landscape "land/gw barrenB46" #TodoAI
 	description "A dry planet with little atmosphere. Lands covered in tiny pieces of silver glittering metal varying in densities around the planet."
 	description "Some mining operations can be seen on the planet mostly where there's less glittering metals."
 	spaceport .
@@ -116421,7 +116421,7 @@ planet Leggaleor
 
 planet Lelorgel
 	landscape land/canyon03
-	description "A dry, nearly lifeless planet with thin atmosphere. Without streaks of red lights along the streets it would've been nearly impossible to identifiy the rocky settlements hidden among the hills."
+	description "A dry, nearly lifeless planet with thin atmosphere. Without streaks of red lights along the streets it would've been nearly impossible to identify the rocky settlements hidden among the hills."
 	spaceport .
 	shipyard "Ignaggen Basic"
 	shipyard "Ignaggen Large"
@@ -116430,7 +116430,7 @@ planet Lelorgel
 
 planet Lelranor
 	attributes mining
-	landscape land/badlands7
+	landscape "land/gw barrenA12"
 	description .
 	spaceport .
 
@@ -116556,8 +116556,8 @@ planet Lignuvar
 
 planet Likarile
 	attributes mining
-	landscape land/badlands3
-	description "A cold, lifeless planet with thin atmosphere with most of the surface scarred from extensive mining operation. A significant portion of the surface is noticably flattened from the mining. Large vehicles with tractor array tears apart the mountains of rocks with ease, at this rate one of them can easily flatten a large mountain in a week."
+	landscape "land/gw barrenA10"
+	description "A cold, lifeless planet with thin atmosphere with most of the surface scarred from extensive mining operation. A significant portion of the surface is noticeably flattened from the mining. Large vehicles with tractor array tears apart the mountains of rocks with ease, at this rate one of them can easily flatten a large mountain in a week."
 	spaceport "The spaceport is a large tower in the middle of a large flat area. Heavily armed with multiple gun turrets some size of a small spacecraft, though, it was probably decades since it was last fired. "
 	outfitter "Geeva Basic"
 
@@ -116577,7 +116577,7 @@ planet Livaki
 
 planet Liveldur
 	attributes mining
-	landscape land/canyon6
+	landscape "land/gw barrenB75"
 	description "A small planet with thin atmosphere not enough for most species to breath. Giant metallic silver-coated tracked vehicles bombards the mountains and hills infront of it with plasma beams and collecting the resulting dust and chunks of rocks with tractor beam. "
 	spaceport "The spaceport is a metallic silver large circular buildings with very little features on the surface coming very close to what one might imagine as futuristic with everything from conveyor robot arms to mining truck parking bays hidden behind the surface revealed only when in use."
 	spaceport "The interior as well looks nothing like an industrial building. Everything were tucked hidden behind the panels and vents neatly intregrated into the design of mostly simple curved lines and patterns. Labors such as cleaning and transportation were done by robots, the people here looks more like ones that work inside offices and labs than someone who works in the field."
@@ -116698,7 +116698,7 @@ planet "Ma ui ai"
 
 planet "Ma'Losat Gosk 2"
 	attributes Donko
-	landscape land/hills1
+	landscape "land/gw barrenB10"
 	description .
 	outfitter "Donko Basic"
 
@@ -116800,7 +116800,7 @@ planet Mavibanra
 	spaceport .
 
 planet Mayshira
-	landscape land/fog7
+	landscape "land/gw mountainforestfogA10"
 	description .
 	spaceport .
 	outfitter "Makerurader Ammo"
@@ -117048,7 +117048,7 @@ planet Muneera
 
 planet Munghani
 	attributes mining
-	landscape land/canyon02
+	landscape "land/gw barrenB39"
 	description .
 	spaceport .
 	outfitter "Makerurader Ammo"
@@ -117095,7 +117095,7 @@ planet "Nai ar"
 	outfitter "Nuru Basic"
 
 planet Nardelur
-	landscape land/mountain4
+	landscape "land/gw mountainforestA03"
 	description .
 	spaceport .
 	outfitter "Dels Ammo"
@@ -117215,7 +117215,7 @@ planet Nevolgor
 
 planet Niflima
 	attributes Geeva
-	landscape land/forest5
+	landscape "land/gw mountainforestfogA16"
 	description .
 	spaceport .
 	"required reputation" 1
@@ -117361,7 +117361,7 @@ planet Ocrallar
 	outfitter "Ignaggen Basic"
 
 planet Ogelleon
-	landscape land/fog2
+	landscape "land/gw mountainforestfogA06"
 	description .
 	spaceport .
 	outfitter "Ignaggen Basic"
@@ -117604,7 +117604,7 @@ planet Reedilma
 	outfitter "Dels Basic"
 
 planet Reiar
-	landscape land/hills1
+	landscape "land/gw barrenB23"
 	description .
 	spaceport .
 	"required reputation" 1
@@ -117830,7 +117830,7 @@ planet Sellgaro
 
 planet Selriras
 	landscape land/forest3
-	description "The surface of this planet looks like it was split into two layers with what seems to be a continent-spanning plains with large spots of plateau mixed in between, all of with similar height. Most of the plateau are surrouned by steep cliffs causing each of thes inland island to form their own ecosystem, some clearly visible with entirely different trees and animals. "
+	description "The surface of this planet looks like it was split into two layers with what seems to be a continent-spanning plains with large spots of plateau mixed in between, all of with similar height. Most of the plateau are surrounded by steep cliffs causing each of these inland island to form their own ecosystem, some clearly visible with entirely different trees and animals. "
 	description `Towns and cities can be found scattered everywhere on the planet many connected by elevated highway, in fact most of the cities are "lifted" above from the ground where most of the surface commute occurs above the natural ground surrounding it.`
 	spaceport .
 	shipyard "Geeva Basic"
@@ -117849,14 +117849,9 @@ planet "Sen aar"
 	spaceport .
 	outfitter "Nuru Basic"
 
-planet Sendare
-	landscape land/hills1
-	description .
-	"required reputation" 5
-
 planet Sendori
 	attributes Dels
-	landscape land/forest5
+	landscape "land/gw mountainforestfogA01"
 	description .
 	spaceport .
 
@@ -117886,21 +117881,16 @@ planet Senqos
 	description .
 	spaceport .
 
-planet Senta
-	landscape land/badlands6
-	description .
-	"required reputation" 5
-
 planet Sentre
 	attributes Revos
-	landscape land/badlands3
+	landscape "land/gw barrenA07"
 	description .
 	spaceport .
 	security 0.9
 
 planet Seoakee
 	attributes farming
-	landscape land/fog2
+	landscape "land/gw mountainforestfogA02"
 	description "A planet mostly covered in farmscape and swamplands. Few ranges of mountains existing only in the deepest part inland a home to multiple rivers keeping the planet alive. Cities are gathered in one corner of the planet where it is mostly a barren. Towns scattered around the planet appears to be the hub for gathering the harvest before transporting into the cities by rail then exported."
 	spaceport .
 
@@ -118057,7 +118047,7 @@ planet Sonan
 
 planet Sonde
 	attributes Dels
-	landscape land/fog1
+	landscape "land/gw mountainforestfogA11"
 	description .
 	spaceport .
 	outfitter "Dels Basic"
@@ -118124,7 +118114,7 @@ planet Talukevin
 	outfitter "Erader Basic"
 
 planet Tansaqa
-	landscape land/hills1
+	landscape "land/gw barrenB33"
 	description .
 	spaceport .
 	"required reputation" 1
@@ -118398,7 +118388,7 @@ planet Veeulakir
 	spaceport ". Same here."
 
 planet Vekkagore
-	landscape land/fog4
+	landscape "land/gw mountainforestfogA14"
 	description ..
 	spaceport .
 	shipyard "Kakaima Basic"
@@ -118419,7 +118409,7 @@ planet Verkarja
 	"required reputation" 1
 
 planet Vetlorui
-	landscape land/forest4
+	landscape "land/gw mountainforestA10"
 	description "This planet appears to be a trading hub with freighters of Dels and Ignaggen come and go all the time. Also a popular place for Ignaggen that want to experience Dels urban architecture."
 	spaceport "The spaceport is crowded with individuals from both races living in harmony."
 	shipyard "Dels Basic"
@@ -118432,7 +118422,7 @@ planet Veulreenu
 	outfitter "Dels Basic"
 
 planet Vhisraha
-	landscape land/forest2
+	landscape "land/gw hills forestA02"
 	description .
 	spaceport .
 	shipyard "Erader Basic"
@@ -118452,7 +118442,7 @@ planet Vielukeera
 	outfitter "Dels Basic"
 
 planet Viengalle
-	landscape land/mountain4
+	landscape "land/gw mountainforestA00"
 	description .
 	spaceport .
 	shipyard "Ignaggen Large"
@@ -118557,7 +118547,7 @@ planet Vurake
 	spaceport .
 
 planet Vyrnexon
-	landscape land/badlands3
+	landscape "land/gw barrenA05"
 	description "A planet within an inhabitable zone yet devoid of any native life, only a few Zorcn lives here to operate the mining machines."
 	spaceport "The spaceport is built atop of the highest hill on the planet with a dozen landing pads reserved for freighters to load the exports."
 	outfitter "Zorcn Basic Ammo"
@@ -118670,7 +118660,7 @@ planet "Zondra Station"
 
 planet Zuriluxan
 	attributes mining
-	landscape land/badlands6
+	landscape "land/gw barrenA15"
 	description "A small planet devoid of atmosphere but rich in resource. Massive mining vehicles can be seen all over the planet ripping out chuncks of rocks and ores from the surface."
 	spaceport "The spaceport is intergrated with massive factory processing mined ores into standard materials for further uses. Landing pads are grouped by type of cargo transported."
 	shipyard "Makerurader Small"
@@ -125680,11 +125670,6 @@ planet Yrakecer
 	description .
 	spaceport .
 
-planet "Hrakel Helior"
-	description .
-	spaceport .
-	outfitter "Akralva Basic"
-
 system Hertzelor
 	pos -52531.234 -53194.466
 	government Akralva
@@ -128041,7 +128026,7 @@ planet Pyhrensah'i
 	outfitter "Standard Outfits"
 
 planet Vashri
-	landscape land/badlands7
+	landscape "land/gw barrenA20"
 	description .
 	spaceport .
 
@@ -129156,7 +129141,7 @@ planet Yireanhi
 	outfitter "Standard Outfits"
 
 planet Snnhrekai
-	landscape land/fog0
+	landscape "land/gw mountainforestfogA21"
 	description .
 	spaceport .
 	shipyard "Akralva Basic"
@@ -129394,7 +129379,7 @@ system Ligehure
 		period 14965.118
 
 planet Myeakice
-	landscape land/fog7
+	landscape "land/gw mountainforestfogA19"
 	description .
 	spaceport .
 
@@ -130428,7 +130413,7 @@ system Ehrelxu
 		period 8090.171
 
 planet Askrelva
-	landscape land/fog1
+	landscape "land/landscape askrelva"
 	description .
 	spaceport .
 	shipyard "Akralva Advanced"
@@ -132866,7 +132851,7 @@ system Shrexci
 
 planet Myxiralke
 	attributes "akralva industrial"
-	landscape land/fog0
+	landscape "land/landscape myxiralke"
 	description .
 	spaceport .
 	shipyard "Akralva Advanced"
@@ -135154,7 +135139,7 @@ system Siahcox
 			period 320.731
 
 planet Isxceula
-	landscape land/lava2
+	landscape "land/gw barrenB63"
 	description .
 	spaceport .
 
@@ -136778,12 +136763,6 @@ planet "Gekok Alcaga"
 	description "Kroom Kakaima refinery station."
 	spaceport .
 
-planet Makkoge
-	attributes factory mining
-	landscape land/fog0
-	description "A mining and factory world. "
-	spaceport .
-
 planet Kagaaro
 	attributes farming
 	landscape land/fields2
@@ -136799,7 +136778,7 @@ planet Ko'sahrel
 
 planet Ako'luca
 	attributes factory mining
-	landscape land/hills1
+	landscape "land/gw barrenB03"
 	description .
 	spaceport .
 	shipyard "Kumakk Basic"
@@ -139787,7 +139766,7 @@ system Rahexvi
 		period 42699.487
 
 planet Azbalca
-	landscape land/fog2
+	landscape "land/gw mountainforestfogA22"
 	description .
 	spaceport .
 
@@ -140190,7 +140169,7 @@ system Hanrukin
 		distance 959
 		period 1187.922
 	object
-		sprite planet/browndwarf-t-rouge
+		sprite planet/browndwarf-t
 		distance 1625
 		period 2620.234
 	object
@@ -140199,7 +140178,7 @@ system Hanrukin
 		period 8066.929
 
 planet Akrux'Vuahiz
-	landscape land/badlands6
+	landscape "land/gw barrenA16"
 	description .
 	spaceport .
 
@@ -140487,7 +140466,7 @@ system Hukxi'arhal
 		period 16016.146
 
 planet "Euhxi Akrix"
-	landscape land/mountain3
+	landscape "land/gw mountainforestfogA23"
 	description "A planet of almost permanent fog across majority of it mountainous terrain. Also a home to several Akralva mining and manufacturing outpost."
 	spaceport .
 	outfitter "Akralva Basic"
@@ -141337,7 +141316,7 @@ system Heresurl
 		period 16160.4
 
 planet Xuarixal
-	landscape land/badlands3
+	landscape "land/gw barrenA08"
 	description "Akralva mining planet."
 	spaceport .
 
@@ -142723,7 +142702,7 @@ system Akri'oonree
 			period 85.399
 
 planet "Vicean Kiree"
-	landscape land/fog3
+	landscape "land/gw mountainforestfogA09"
 	description .
 	spaceport .
 
