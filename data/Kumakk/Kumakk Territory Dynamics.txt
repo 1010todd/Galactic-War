@@ -8,7 +8,7 @@ mission "Akralva-Kumakk: Ko'aosor Invaded Generic 1"
 	npc kill
 		government "Kumakk"
 		personality
-			waiting
+			waiting staying uninterested
 		system "Ko'aosor"
 		fleet "Kumakk Security" 1
 	on complete
@@ -24,7 +24,7 @@ mission "Akralva-Kumakk: Ko'shoukol Invaded Generic 1"
 	npc kill
 		government "Kumakk"
 		personality
-			waiting
+			waiting staying uninterested
 		system "Ko'shoukol"
 		fleet "Kumakk Security" 1
 	on complete
