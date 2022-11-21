@@ -148,7 +148,7 @@ mission "GW: seen Akralva-Ceasrilis conflict"
 		
 #Personal note: mineable list: Aluminum Copper Gold Iron Lead Neodymium Platinum Silicon Silver Titanium Tungsten Uranium Yottrite Nurbote
 
-#Choice unlocking is going to be extremely tedious without choice hiding feature, I'll add more stuff when that's in.
+#TODO: Add more ammo now that conditional text hiding is merged into continuous.
 
 conversation "GW: mobile factory menu"
 	label menu
@@ -636,6 +636,8 @@ mission "gw: reset Akralva first contact"
 	deadline 1
 	name `GW: Reset Akralva First Contact`
 	description	`Reset first contact mission with Akralva.`
+	source
+		government cheat
 	on accept
 		clear "First Contact: Akralva (boarding): offered"
 		clear "First Contact: Akralva (boarding): declined"
