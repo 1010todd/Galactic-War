@@ -301,6 +301,8 @@ effect "ichra impact"
 
 outfit "Ichra-04 E-Railgun"
 	category "Guns"
+	licenses
+		"Geeva Advanced"
 	cost 1800000
 	thumbnail "outfit/geeva ichra railgun"
 	"mass" 72
@@ -326,6 +328,8 @@ outfit "Ichra-04 E-Railgun"
 
 outfit "Ichra-04 E-Railgun Turret"
 	category "Turrets"
+	licenses
+		"Geeva Advanced"
 	cost 2150000
 	thumbnail "outfit/geeva ichra railgun turret"
 	"mass" 91
@@ -355,6 +359,8 @@ outfit "Ichra-04 E-Railgun Turret"
 
 outfit "Ichra-04 E-Railgun Dual Turret"
 	category "Turrets"
+	licenses
+		"Geeva Advanced"
 	cost 8150000
 	thumbnail "outfit/geeva ichra railgun dual turret"
 	"mass" 225
@@ -839,15 +845,15 @@ outfit "Silr-03 Hyperdrive"
 outfit "Unvrsel-02 Star Drive"
 	category "Systems"
 	licenses
-		"Geeva Star Drive"
+		"Geeva Advanced"
 	cost 4000000
-	thumbnail "outfit/jump drive"
+	thumbnail "outfit/geeva star drive"
 	"mass" 35
 	"outfit space" -35
 	"jump speed" .1
 	"jump drive" 1
 	"hyperdrive" 1
-	description "A Geeva FTL drive that also allows ships to travel outside of hyperlanes."
+	description `A Geeva FTL drive that also allows ships to travel outside of hyperlanes. Few are manufactured per year due to difficulty of making it and exotic materials that were required are hard to obtain. While many Geeva technicians are capable of doing some basic service and maintenance none truly understand how it works.`
 	
 outfit "Calirtei Survey System"
 	category "Systems"
@@ -867,7 +873,7 @@ outfit "Calirtei Survey System"
 outfit "Siteli-0e SSCS"
 	category "Systems"
 	licenses
-		"Geeva Star Drive"
+		"Geeva Advanced"
 	cost 2200000
 	"mass" 50
 	"outfit space" -50
@@ -924,6 +930,11 @@ outfit "Df50 Hidden Sentry"
 	"unplunderable" 1
 	description "In other to avoid as much life losses as possible, some Geevan captain prefer to install these automated defence turrets hidden along the corridors to protect their ship against instruders."
 	
+outfit "Geeva Advanced License"
+	category "Licenses"
+	cost 2500000
+	thumbnail outfit/license
+	description `License given by Geeva government for those who made great contributions to their society. It allow purchase of rarer and more advanced technologies.`
 
 outfit "Hidden Sentry" #Deprecated
 	category "Hand to Hand"
@@ -934,3 +945,4 @@ outfit "Hidden Sentry" #Deprecated
 	"capture defense" 7
 	"unplunderable" 1
 	description "In other to avoid as much life losses as possible, some Geevan captain prefer to install these automated defence turrets hidden along the corridors to protect their ship against instruders."
+
