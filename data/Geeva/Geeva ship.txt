@@ -543,3 +543,30 @@ ship "HD-8426 Tarallion"
 	engine -27.5 337.5
 	engine 27.5 338.5
 	description "A powerful warship obviously not made by the Geeva. Only one is kept in secret at the heart of the Geeva capital, only to be used in the most dire time."
+
+ship "Defence Turret" "Geeva Defence Turret"
+	sprite "ship/point"
+	"never disabled"
+	attributes
+		category "Drone"
+		"shields" 450000
+		"hull" 320000
+		"required crew" 1
+		"bunks" 8
+		"mass" 50000
+		"force protection" 100
+		"drag" 50000
+		"cooling" 20
+		"heat dissipation" 20
+		"heat capacity" 50000
+		"outfit space" 280
+		"weapon capacity" 280
+		
+		"energy generation" 200
+		"energy capacity" 83000
+		"turn" 400
+		"thrust" 1
+	outfits
+		"Helilcor-07 Blaster Turret"
+	turret 0 0
+	description ""

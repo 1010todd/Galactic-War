@@ -16,6 +16,7 @@ mission "Geeva Delivery[0]"
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
+		"geeva job done" += 1
 		payment
 		payment 10000
 		dialog phrase "generic cargo delivery payment"
@@ -37,6 +38,7 @@ mission "Geeva Delivery[1]"
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
+		"geeva job done" += 1
 		payment
 		payment 10000
 		dialog phrase "generic cargo delivery payment"
@@ -58,6 +60,7 @@ mission "Geeva Delivery[2]"
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
+		"geeva job done" += 1
 		payment
 		payment 11000
 		dialog phrase "generic cargo delivery payment"
@@ -79,6 +82,7 @@ mission "Geeva Bulk Delivery[0]"
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
+		"geeva job done" += 1
 		payment
 		payment 15000
 		dialog phrase "generic cargo delivery payment"
@@ -112,6 +116,7 @@ mission "Geeva Large Escort"
 			variant
 				"Kuiseire"
 	on complete
+		"geeva job done" += 1
 		payment 250000
 		dialog phrase "generic safe escort completion dialog"
 	on visit
@@ -133,6 +138,7 @@ mission "Geeva Transport[0]"
 	on visit
 		dialog phrase "generic passenger on visit"
 	on complete
+		"geeva job done" += 1
 		payment
 		payment 5000
 		dialog phrase "generic passenger dropoff payment"
@@ -153,6 +159,7 @@ mission "Geeva Transport[1]"
 	on visit
 		dialog phrase "generic passenger on visit"
 	on complete
+		"geeva job done" += 1
 		payment
 		payment 6000
 		dialog phrase "generic passenger dropoff payment"
@@ -173,6 +180,7 @@ mission "Geeva Transport[2]"
 	on visit
 		dialog phrase "generic passenger on visit"
 	on complete
+		"geeva job done" += 1
 		payment
 		payment 6000
 		dialog phrase "generic passenger dropoff payment"
@@ -195,6 +203,7 @@ mission "Geeva Luxury Transport"
 	on visit
 		dialog phrase "generic passenger on visit"
 	on complete
+		"geeva job done" += 1
 		payment 25000 500
 		dialog phrase "generic passenger dropoff payment"
 
@@ -218,6 +227,7 @@ mission "Geeva Kanai Aid[0]"
 		dialog phrase "generic cargo on visit"
 	on complete
 		"reputation: Kroom Kanai" += 0.01
+		"geeva job done" += 1
 		payment
 		payment 14500
 		dialog phrase "generic cargo delivery payment"
@@ -242,6 +252,7 @@ mission "Geeva Kanai Aid[1]"
 		dialog phrase "generic cargo on visit"
 	on complete
 		"reputation: Kroom Kanai" += 0.01
+		"geeva job done" += 1
 		payment
 		payment 14000
 		dialog phrase "generic cargo delivery payment"
@@ -266,6 +277,7 @@ mission "Geeva Kanai Aid[2]"
 		dialog phrase "generic cargo on visit"
 	on complete
 		"reputation: Kroom Kanai" += 0.01
+		"geeva job done" += 1
 		payment
 		payment 15500
 		dialog phrase "generic cargo delivery payment"
@@ -290,6 +302,7 @@ mission "Geeva Kanai Aid[3]"
 		dialog phrase "generic cargo on visit"
 	on complete
 		"reputation: Kroom Kanai" += 0.01
+		"geeva job done" += 1
 		payment
 		payment 16000
 		dialog phrase "generic cargo delivery payment"
@@ -314,6 +327,7 @@ mission "Geeva Kanai Aid[4]"
 		dialog phrase "generic cargo on visit"
 	on complete
 		"reputation: Kroom Kanai" += 0.01
+		"geeva job done" += 1
 		payment
 		payment 16000
 		dialog phrase "generic cargo delivery payment"
@@ -348,6 +362,7 @@ mission "Geeva Kanai Aid[3] (Intercepted)"
 		dialog phrase "generic cargo on visit"
 	on complete
 		"reputation: Kroom Kanai" += 0.1
+		"geeva job done" += 1
 		payment
 		payment 18000
 		dialog phrase "generic cargo delivery payment"

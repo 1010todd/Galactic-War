@@ -1,5 +1,5 @@
 mission "First Contact: Akralva (boarding)"
-	subtitutions
+	substitutions
 		"<capturedAkralvaCondition>" "which you're trying to communicate with."
 		"<capturedAkralvaCondition>" "which you're learning their language from them."
 			"Akralva: language proficiency" >= 2
@@ -202,7 +202,7 @@ mission "Akralva: Learning Language (captured, f)"
 			`You kept the Akralva prisoner onboard for two years now, you're not sure if it's just you but you feel like it's a little more cooperative now. You also learned a bit more of their language over the year as well.`
 				decline
 
-subtitutions
+substitutions
 	`<capturedAkralvaName>` "Kakzik Akkrel"
 		"Akralva: Prisoner Name" < 17
 	`<capturedAkralvaName>` "Pathak Helior"
@@ -237,7 +237,7 @@ mission "Akralva: Learning Language (captured, h)"
 		"Akralva: days since capture" >= 1440
 		#not "First Contact: Nuru"
 		#has "outfit (flagship installed): Brig" #wait for 0.9.17/Cont
-	subtitutions
+	substitutions
 		`<capturedAkralvaStatus>` "He appears to be sitting quietly facing the wall whenever you walked by, but always respond when called. You're not sure what he's doing and why as he was always avoiding the question but at least he didn't cause any trouble for you so far."
 			"Akralva: Prisoner Name" < 17
 		`<capturedAkralvaStatus>` "He is quiet the whole time when nobody speaks to him and just walk around in his tiny cell. You're not quite sure what's in his mind as he seems to ignore you entirely until you call him."
@@ -264,7 +264,7 @@ mission "Akralva: Learning Language (captured, h)"
 		"Akralva: days since capture" >= 1440
 		#not "First Contact: Nuru"
 		#has "outfit (flagship installed): Brig" #wait for 0.9.17/Cont
-	subtitutions
+	substitutions
 		`<capturedAkralvaStatus>` "He's more talkative recently and often tell stories of glorious past in battles against various aliens turning tides of war and so on. Many of these a bit too fantastical to believe. He claims to specialize in energy management optimizing shield generator and hull repair power usage as well as being the one to figure out how to power ships from ion damages. He said that he can do these improvement for your ship as well if you let him out."
 			"Akralva: Prisoner Name" < 17
 		`<capturedAkralvaStatus>` "Recently he begins to speak a bit more without being asked. You also learned that he used to work in heavy industries before becoming a ship crew. To be more specific, he was the technician repairing shield generators and oversee their installation in the shipyards as well as managing hull repair works. He figured he could help you fine tune our ship's shield and hull repairs to improve overall efficiency if you let him out."
@@ -456,7 +456,7 @@ mission "Akralva: Learning Language (captured, why)"
 mission "Akralva: Learning Language (captured, found nuru)"
 	landing
 	name "Translate Akralva"
-	subtitutions
+	substitutions
 		"<timepassed>" "a few days ago" 
 			"Akralva: days since capture" < 7
 		"<timepassed>" "a few weeks ago" 

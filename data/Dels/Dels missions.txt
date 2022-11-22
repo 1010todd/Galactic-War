@@ -43,11 +43,15 @@ mission "Dels: Kakaima Attack"
 			`Thankfully they're too few to break through the planetary defenses and all were destroyed.`
 				decline
 	on visit
-		dialog phrase "generic pirate fleet battle on visit"
+		dialog phrase "generic kroom fleet battle on visit"
 	on complete
 		"assisted dardornai" += 2
 		payment 220000
 		dialog phrase "generic kroom attack payment dialog"
+
+phrase "generic kroom fleet battle on visit"
+	word
+		`You've landed on <planet>, but there are still Kroom circling overhead. You should take off and help finish them off.`
 
 phrase "generic kroom attack payment dialog"
 	word

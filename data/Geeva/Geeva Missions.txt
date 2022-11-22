@@ -1,0 +1,70 @@
+
+mission "Geeva: Kakaima Raid"
+	landing
+	minor
+	repeat
+	name "Defend <destination>"
+	description `Defend <destination> from Kroom Kakaima raid and make sure none of them are left in the system.`
+	source
+		government Geeva
+		attributes "geeva frontier"
+	to offer
+		random < 5
+	on offer
+		conversation
+			branch understand
+				has "language: Geeva"
+			`Soon after you landed you hear some sort of alarm followed by an announcement in language you don't understand but you can see several warships and planetary defenses powering up. You looked at one of the screen and several Kroom warships exiting hyperspace. It seems like this planet is underattack. You could help them defend and they'll probably appreciate it.`
+				goto choice
+			label understand
+			`Soon after you landed you hear some sort of alarm followed by an announcement that the planet is currently underattack by a Kroom Kakaima raid, along with that several warships and planetary defenses begins to power up for the defense. You could help them defend and they'll probably appreciate it.`
+			label choice
+			choice
+				`	(Assist the defenders.)`
+					goto accept
+				`	(Stay here.)`
+			`	You waited on the planet as the sky lights up from planetary defenses firing. After a while the gun fire stops and everything returns to normal.`
+				decline
+			label accept
+			`	You go back to your ship and prepare to take off.`
+				accept
+	npc evade
+		government "Kroom Kakaima"
+		personality entering heroic staying target harvests plunders
+		fleet "Kakaima Attack" 6
+	
+	npc
+		government "Geeva"
+		personality heroic staying uninterested launching
+		fleet "Geeva Battle Fleet" 4
+	npc
+		government "Geeva"
+		personality heroic staying uninterested launching
+		fleet "Geeva Planetary Turrets"
+
+	on visit
+		dialog phrase "generic kroom fleet battle on visit"
+
+	on complete 
+		"geeva job done" += 1
+		payment 350000
+		dialog
+			`The local commander was glad you assisted them and reward you with <payment> for the assistance.`
+
+mission "Geeva: Unlock Star Drive"
+	landing
+	invisible
+	source
+		government Geeva
+		not attributes uninhabited
+	to offer
+		has "Geeva: Kakaima Raid: done"
+		"reputation: Geeva" > 5000
+		"geeva job done" >= 12
+	on offer
+		payment 800000
+		set "license: Geeva Star Drive"
+		conversation
+			`Upon exiting your ship you're met by a few Geeva officials who said they appreciate your contribution to their society including your assistance repelling the Kroom. They offers <payment> and Geeva Star Drive license as reward permitting you to buy one of their Star Drive which allow ships to travel between systems without hyperlane.`
+	on accept
+		fail

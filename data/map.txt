@@ -27001,8 +27001,6 @@ system Gelgolunel
 		period 2067.72
 		offset 5.93
 
-system ""
-
 system Gellerd
 	pos -50102.9 -55150.2
 	government Ignaggen
@@ -48995,7 +48993,7 @@ system Ko'hordul
 			period 53.293
 
 planet Kealo'conkko
-	landscape land/sea4
+	landscape "land/gw seaclifffogA01"
 	description .
 	spaceport .
 
@@ -114243,7 +114241,7 @@ planet Arkor
 
 planet Artarlerga
 	attributes fishing
-	landscape land/land4
+	landscape "land/gw seacliffA01"
 	description "A blue planet with only one continent vaguely forming a cross. "
 	spaceport .
 	outfitter "Erader Basic"
@@ -114374,7 +114372,7 @@ planet Caree
 	security 0.01
 
 planet Cartuse
-	landscape land/beach8-sfiera
+	landscape "land/gw seacliffA20"
 	description .
 	spaceport .
 
@@ -114382,13 +114380,6 @@ planet Ceeduka
 	landscape land/land5
 	description .
 	spaceport .
-
-planet Ceursity
-	landscape land/beach6
-	description .
-	spaceport .
-	"required reputation" 10
-	security 0.9
 
 planet "Ciransir Inis"
 	attributes station
@@ -114422,7 +114413,7 @@ planet Cudeelu
 	spaceport .
 
 planet Dalrenar
-	landscape land/sea9
+	landscape "land/gw seaclifffogA14"
 	description "A hot and humid world where most of the day is covered in fogs and clouds and rains for nearly the entire night."
 	spaceport .
 	outfitter "Erader Ammo"
@@ -114771,16 +114762,16 @@ planet Dolmorikan
 
 planet Dolseern
 	attributes Dels
-	landscape land/sea3
+	landscape "land/gw seacliffA14"
 	description "A planet consist of mostly water on the surface with a few island scattered across the planet. It's a host to multitude of marine life large and small including some of the oddest aquatic creatures in the galaxy. "
-	description "It turns out to be a very popular tourist destination with various luxury accomodations built on the few island around the planet and large ocean liners sailing across the planet."
+	description "It turns out to be a very popular tourist destination with various luxury accommodations built on the few island around the planet and large ocean liners sailing across the planet."
 	spaceport "The central spaceport was built on a large island near a volcano. The main building is curvy and painted vibrant blue as is the other buildings around it. Aside from small store selling basic commodities, there's no other shop to be found. "
 	bribe 0.8
 	security 0.5
 
 planet Doniti
 	attributes Dels
-	landscape land/sea8
+	landscape "land/gw seacliffA09"
 	description "This appears to be a large commute hub for the outward sector of Dels space. Large warehouse and cargo vehicles are somewhat more common here than most other places."
 	spaceport "Right next to the spaceport is several large busy warehouses."
 	shipyard "Dels Basic"
@@ -114789,9 +114780,8 @@ planet Doniti
 planet Donto
 	attributes Dels
 	landscape land/valley8
-	description "Donto is now almost deserted due to the recent invasion and now it was located in between the pirates and the Ultakas. "
-	description "Everyone here seems to be ready to evacuate at any time with a fleet of Darca(Dels largest military carrier) ready to take off imminently in case the Ultaka came."
-	spaceport "The spaceport seems to be the place where everyone comes to hang out, play, shopping, etc. in their free times, along with a long row of Darcas parking."
+	description "A rather cold, mountainous planet with a several large settlements that is a mix of both Dels and Ignaggen. Located between emerging industrial area of Dels and Ignaggen it seems to be growing into a trading hub being located right between the two space."
+	spaceport "There's two spaceport in the largest city, the newer one a large multi-floor building with hangars surrounding it on each floor. The older one was just a flat concrete area within walking distance of the new spaceport connected by elevated walkways, due to occasional burst of traffic overloading the new spaceport the overflow would be redirected to the old spaceport which is often barely just enough."
 	outfitter "Dels Ammo"
 	bribe 0.2
 	security 0.2
@@ -114822,7 +114812,7 @@ planet Dukeanora
 	spaceport .
 
 planet Dukorde
-	landscape land/sea4
+	landscape "land/gw seaclifffogA03"
 	description "Blue globe with few small continents here and there. Storm rages all over the planet bringing rains that would last days. Settlements are buit on hills and mountains high above the sea. "
 	spaceport .
 
@@ -114872,7 +114862,7 @@ planet Ea'rae
 
 planet Ecunnir'Arsan
 	landscape land/sea1
-	description "A planet covered with countless streams of natural rivers and cannals host to various of exotic marine organisms. Most of the planet's nature is very well preserved with only one city a few village built just for tourism each with their own style of architecture. Thankfully much more sane than cities of Nuru. "
+	description "A planet covered with countless streams of natural rivers and canals host to various of exotic marine organisms. Most of the planet's nature is very well preserved with only one city a few village built just for tourism each with their own style of architecture. Thankfully much more sane than cities of Nuru. "
 	spaceport "Hexagon landing pads each varying in height connected by stairs and slopes atop the cliffside right next to the only city. Market stalls everywhere selling various goods and foods as expected of a tourism city. With the city right beside the sea and the spaceport built on the mountain side high above the highest building, just the landing pads can already attracts many photographs."
 
 planet Edkirlaa
@@ -114900,7 +114890,7 @@ planet Ehdaura
 	outfitter "Erader Basic"
 
 planet Eilina
-	landscape land/sea9
+	landscape "land/gw seaclifffogA06"
 	description .
 	spaceport .
 	"required reputation" 1
@@ -115453,7 +115443,7 @@ planet Huderigna
 	outfitter "Ignaggen Basic"
 
 planet Hulreekel
-	landscape land/sea4
+	landscape "land/gw seaclifffogA02"
 	description .
 	spaceport .
 	outfitter "Dels Basic"
@@ -116307,7 +116297,7 @@ planet "Kur in er"
 
 planet Kurbor-23
 	landscape land/beach2
-	description "This blue planet while from afar may seems to be comprosed of ocean, a third of the surface with very shallow, enough for the sands to be revealed during low tides. A single island sits in the northern hemisphere of the planet where settlements can be found. "
+	description "This blue planet while from afar may seems to be comprised of mostly ocean, a third of the surface with very shallow, enough for the sands to be revealed during low tides. A single island sits in the northern hemisphere of the planet where settlements can be found. "
 	spaceport "Unlike their ship Donko construction materials for buildings are rather something else. An odd dull material in various tones of grey that you can't identifiy exactly what is it."
 
 planet Kurtelo
@@ -116378,7 +116368,7 @@ planet Laseran
 	spaceport .
 
 planet Laurenia
-	landscape land/sea6
+	landscape "land/gw seacliffA08"
 	description "An unusually large terresial planet with less than half of the surface covered in water. "
 	spaceport .
 
@@ -116478,8 +116468,9 @@ planet Lerkolma
 
 planet Lermoili
 	landscape land/lava6
-	description .
-	spaceport .
+	attributes mining
+	description `A tectonically active world with multiple volcanoes both active and inactive. There's less than a dozen settlements here each barely the size of a village with the largest probably about the size of a small town, even then most buildings in these settlements appears to have industrial purpose. Not just habitats. Most of these settlements are close by surface mining area.`
+	spaceport `The main spaceport is nothing but flat area of stones for landing pads and a few buildings around it. It is located on the second largest settlement a few kilometers away from the largest one.`
 	"required reputation" 1
 
 planet Lertanukel
@@ -116662,7 +116653,7 @@ planet "Losat 87:1"
 	outfitter "Donko Advanced"
 
 planet Luaneedor
-	landscape land/sea6
+	landscape "land/gw seacliffA13"
 	description "This world is almost perfect for the Dels to live in with similar flora and fauna to their homeplanet attracting a non-stopping stream of settlers since the early days of its discovery. Due to rapid population growth this planet experience many forest are being quickly mowed down by  the Dels. This problem however seems to be noticed and not ignored, a few city ships already exist exploring the vast ocean of the planet and many more are on the way."
 	spaceport "The current spaceport is overcrowded with ships landing almost every minute and building barely big enough to handle the amount of people from a large transport. A new building is currently being built right next to the old one."
 	shipyard "Dels Basic"
@@ -116806,14 +116797,14 @@ planet Mayshira
 	outfitter "Makerurader Ammo"
 
 planet Meeradol
-	landscape land/sea13-sfiera
+	landscape "land/gw seaclifffogA01"
 	description .
 	spaceport .
 
 planet Meggiven
-	landscape land/land4
+	landscape "land/gw seacliffA12"
 	description "This is an oceanic world with a few cluster of islands in formed in a ring from meteor impact. Most of the island are rather small and lacks much use. A few settlement can be seen on bigger islands."
-	spaceport .
+	spaceport `The spaceport occupies a large flat area next to the sea on the largest island combined with the naval port. Ships here seems to be a mix of more standard metal-hull ships and ones with hull that are basically carved-out boulders topped with low-density stones.`
 	outfitter "Ignaggen Basic"
 	outfitter "Standard Outfits"
 
@@ -116983,7 +116974,7 @@ planet Misrzinal
 
 planet Misushal
 	attributes fishing
-	landscape land/beach4
+	landscape "land/gw searockyA01"
 	description .
 	spaceport .
 	shipyard "Erader Basic"
@@ -117185,10 +117176,12 @@ planet Nerlok
 	"required reputation" 1
 
 planet Nerrewal
-	landscape land/valley3
-	description .
-	spaceport .
+	attributes "ignaggen rare mining" mining
+	landscape "land/landscape nerrewal"
+	description `A mountainous barren planet with lots of deep and narrow canyons across the planet though with minimal surface water. There appears to be minimal activity and settlements on the surface of this planet, or at least on the first glance, while most settlements you noticed are small villages around cave entrances the major habitat here appears to be inside the deep canyon and dug into the walls of it resulting in minimal surface clues other than ships flying into them or small unusually perfect holes if you look carefully enough.`
+	spaceport `The main spaceport is a large flat area next to a massive ground-level cave on a vertical cliff-side where it act as a massive hangar that could support many more ships. Large amount of parking area inside have dedicated ore loading pipes and cranes.`
 	"required reputation" 1
+	outfitter "Ignaggen Basic"
 
 planet Neugenori
 	attributes station
@@ -117205,8 +117198,8 @@ planet Neuvareel
 
 planet Nevolgor
 	landscape land/land15
-	description .
-	spaceport .
+	description `A lifeless rocky planet with minimal surface water mostly in forms of rivers and small to medium-sized lakes with the largest being a result of artificial dam. Several cities and industries are spread across the planet ranging from open pit mining to heavy industries and shipyards. Most built from local materials and shares a lot of surface similarities between itself and the ground it's built upon.`
+	spaceport `The primary "spaceport" of this planet spans across quite a large area with landing pads built onto surface and slopes of a large mountain interrupted with road spiralling to the peak and buildings and hangars that also act as entrance to larger underground facilities. The northern side of the spaceport is also connected to two array of landing pads built upon lower hills with large cranes and various other material loading and unloading equipment around it for larger bulk freighters. There's also appears to be construction for next two rows of landing pads next to it.`
 	shipyard "Ignaggen Basic"
 	shipyard "Ignaggen Large"
 	shipyard "Ignaggen Small"
@@ -117269,7 +117262,7 @@ planet Noelvur
 	spaceport .
 
 planet Noeviseir
-	landscape land/beach8-sfiera
+	landscape "land/gw searockyA04"
 	description .
 	spaceport .
 
@@ -117685,7 +117678,7 @@ planet Rommedal
 	"required reputation" 3
 
 planet Ronha
-	landscape land/sea4
+	landscape "land/gw seaclifffogA12"
 	description .
 	spaceport .
 
@@ -118099,7 +118092,7 @@ planet "Syril Virlapir"
 
 planet "Syris Salrisla"
 	attributes fishing
-	landscape land/bwerner1
+	landscape "land/gw seacliffA18"
 	description .
 	spaceport .
 
@@ -118374,7 +118367,7 @@ planet Vecorul
 	outfitter "Dels Ammo"
 
 planet "Veeralu Ka"
-	landscape land/beach9-sfiera
+	landscape "land/gw searockyA06"
 	description .
 	spaceport .
 	outfitter "Dels Ammo"
@@ -118450,7 +118443,7 @@ planet Viengalle
 	outfitter "Ignaggen Basic"
 
 planet Viggelon
-	landscape land/land4
+	landscape "land/gw seacliffA07"
 	description .
 	spaceport .
 	outfitter "Ignaggen Basic"
@@ -118612,7 +118605,7 @@ planet Yakireina
 	outfitter "Erader Ammo"
 
 planet Yanshuri
-	landscape land/sea9
+	landscape "land/gw seaclifffogA15"
 	description .
 	spaceport .
 	shipyard "Erader Basic"
@@ -125763,7 +125756,7 @@ planet Krasvehr
 	outfitter "Insker Ammo"
 
 planet Rarrake
-	landscape land/beach2
+	landscape "land/gw barrenA18"
 	description .
 	spaceport .
 	shipyard "Insker Basic"
@@ -127987,7 +127980,7 @@ planet Oileechrke
 	spaceport .
 
 planet Hechirel'A
-	landscape land/sea9
+	landscape "land/gw seaclifffogA10"
 	description .
 	spaceport .
 	shipyard "Miitr Basic"
@@ -127995,6 +127988,7 @@ planet Hechirel'A
 	outfitter "Standard Outfits"
 
 planet Sifcrehi
+	landscape "land/gw seacliffA11"
 	description .
 	spaceport .
 	shipyard "Miitr Basic"
@@ -128004,14 +127998,14 @@ planet Sifcrehi
 	outfitter "Standard Outfits"
 
 planet Eichrcha
-	landscape land/sea8
+	landscape "land/gw seacliffA12"
 	description .
 	spaceport .
 	shipyard "Miitr Basic"
 	outfitter "Miitr Basic"
 
 planet Mychii'lai
-	landscape land/sea6
+	landscape "land/gw seacliffA10"
 	shipyard "Miitr Basic"
 	shipyard "Miitr Merchant"
 	shipyard "Miitr Military"
@@ -129134,7 +129128,7 @@ system Arasmwe
 			period 124.191
 
 planet Yireanhi
-	landscape land/beach2
+	landscape "land/gw searockyA07"
 	description .
 	spaceport .
 	outfitter "Akralva Basic"
@@ -135862,7 +135856,7 @@ planet Sahxiani
 	spaceport .
 
 planet Xanquire
-	landscape land/sea9
+	landscape "land/gw seaclifffogA07"
 	description .
 	spaceport .
 	government Akralva
@@ -136709,7 +136703,7 @@ system Ashnrelo
 		period 7460.968
 
 planet Wahzeli
-	landscape land/sea4
+	landscape "land/gw seaclifffogA11"
 	description .
 	spaceport .
 	tribute 9200
@@ -138714,7 +138708,7 @@ system "Coamei Aesir"
 			period 398.485
 
 planet "Vehyra Micea"
-	landscape land/sea9
+	landscape "land/gw seaclifffogA09"
 	description .
 	spaceport .
 	shipyard "Ceasrilis Advanced"
@@ -143501,7 +143495,7 @@ planet "Sieeru Kuhrel"
 	spaceport .
 
 planet Anreeshi
-	landscape land/land4
+	landscape "land/gw seacliffA17"
 	description .
 	spaceport .
 

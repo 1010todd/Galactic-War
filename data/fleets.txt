@@ -461,6 +461,16 @@ fleet "Gargoor'an Akr War Fleet"
 		"Iurenoa (Hull)" 8
 		"Akyonur (Hull)" 2
 
+fleet "Geeva Planetary Turrets"
+	government Geeva
+	names "Geeva Guard"
+	cargo 1
+	personality
+		confusion 40
+		heroic
+	variant 10
+		"Geeva Defence Turret" 5
+
 fleet "Geeva Battle Fleet"
 	government Geeva
 	names "Geeva Guard"

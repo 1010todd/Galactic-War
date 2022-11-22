@@ -719,6 +719,11 @@ ship "point" #for the construction ginaz drones to weld in space (simply just fo
 	description ""
 	
 ship "Defence Turret"
+	attributes
+		"drag" 1
+	turret 0 0
+
+ship "Defence Turret" "ZIS Defense Turret"
 	sprite "ship/point"
 	"never disabled"
 	attributes
@@ -744,20 +749,104 @@ ship "Defence Turret"
 	description ""
 	
 ship "Defence Turret" "Darklance Turret"
+	sprite "ship/point"
+	"never disabled"
+	attributes
+		category "Drone"
+		"shields" 850000
+		"hull" 560000
+		"required crew" 1
+		"bunks" 4
+		"mass" 500
+		"drag" 500
+		"cooling" 20
+		"heat dissipation" .9
+		"outfit space" 80
+		"weapon capacity" 80
+		
+		"energy generation" 200
+		"energy capacity" 8300
+		"turn" 400
+		"thrust" 100
 	outfits
 		"DZ-84 Darklance Turret"
+	turret 0 0
+	description ""
 	
 ship "Defence Turret" "AM Turret"
+	sprite "ship/point"
+	"never disabled"
+	attributes
+		category "Drone"
+		"shields" 850000
+		"hull" 560000
+		"required crew" 1
+		"bunks" 4
+		"mass" 500
+		"drag" 500
+		"cooling" 20
+		"heat dissipation" .9
+		"outfit space" 80
+		"weapon capacity" 80
+		
+		"energy generation" 200
+		"energy capacity" 8300
+		"turn" 400
+		"thrust" 100
 	outfits
 		"ZIS Anti-Missile System"	
+	turret 0 0
+	description ""
 		
 ship "Defence Turret" "Eundorrel Turret"
+	sprite "ship/point"
+	"never disabled"
+	attributes
+		category "Drone"
+		"shields" 850000
+		"hull" 560000
+		"required crew" 1
+		"bunks" 4
+		"mass" 500
+		"drag" 500
+		"cooling" 20
+		"heat dissipation" .9
+		"outfit space" 80
+		"weapon capacity" 80
+		
+		"energy generation" 200
+		"energy capacity" 8300
+		"turn" 400
+		"thrust" 100
 	outfits
 		"Eundorrel Turret"
+	turret 0 0
+	description ""
 		
 ship "Defence Turret" "Mrag Turret"
+	sprite "ship/point"
+	"never disabled"
+	attributes
+		category "Drone"
+		"shields" 850000
+		"hull" 560000
+		"required crew" 1
+		"bunks" 4
+		"mass" 500
+		"drag" 500
+		"cooling" 20
+		"heat dissipation" .9
+		"outfit space" 80
+		"weapon capacity" 80
+		
+		"energy generation" 200
+		"energy capacity" 8300
+		"turn" 400
+		"thrust" 100
 	outfits
 		"Mrag Turret"
+	turret 0 0
+	description ""
 		
 ship "TZ-3468 Seoui"
 	sprite "ship/zis seoui"

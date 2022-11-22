@@ -135,7 +135,8 @@ outfit "Disheir Missile Deployer"
 		"drag" 1
 		"turn" 5
 		"homing" 4
-		"optical tracking" .9
+		"optical tracking" .6
+		"radar tracking" .9
 		"missile strength" 50
 	description "Ceasrilis missile."
 
@@ -143,12 +144,14 @@ outfit "Disheir Missile Fire"
 	weapon
 		sprite "projectile/golkar"
 		"fire effect" "meteor fire"
+		"hit effect" "small explosion"
 		"die effect" "missile death"
 		"shield damage" 130
 		"hull damage" 160
 		"hit force" 30
 		"missile strength" 23
 		"velocity" 10
+		"lifetime" 120
 		"acceleration" 1
 		"drag" .1
 		"turn" 7
@@ -160,7 +163,7 @@ outfit "Disheir Missile"
 	cost 1800
 	thumbnail "outfit/"
 	"mass" .4
-	"sihryi capacity" -1
+	"disheir capacity" -1
 	description "Disheir missile"
 
 outfit "Disheir Missile Storage"
@@ -168,7 +171,7 @@ outfit "Disheir Missile Storage"
 	cost 3700
 	thumbnail "outfit/kroom golkar torpedo"
 	"mass" 5
-	"sihryi capacity" 24
+	"disheir capacity" 24
 	description "Disheir Missiles Storage."
 
 outfit "Leais-ai Point-Defense"
