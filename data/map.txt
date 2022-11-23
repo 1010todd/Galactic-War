@@ -118262,7 +118262,7 @@ planet Uriysn
 	spaceport "The spaceport is undergoing renovation with more landing pads and buildings being constructed. Majority of ships transiting are large cargo ships loading up large stack of tree trunks."
 
 planet "Urmoku Arkrauli"
-	attributes `"requires: gaslining"`
+	attributes "requires: gaslining"
 	landscape land/nasa2
 	description "Deep below the thick atmosphere reveals a giant entrance surrounded by liquid hydrogen compressed by insane amount of pressure. The entrance is sealed by some sort of force field that only allow ships to pass through. Inside reveals a room large enough to comforably fly around dimly lit by arrays of light along the wall revealing various forms of dark and organic material and machines attached and extended from the wall. Along the wall of living machines in this spacious room is scattered with landing bays."
 	spaceport "Everything in the spaceport is automated with most Tarouns passing time to time going on with their buisness. "
@@ -118274,14 +118274,14 @@ planet "Urmoku Arkrauli"
 		fleet "Taroun Defense" 30
 
 planet "Urnoria Os Remanda"
-	attributes `"requires: cloak" "requires: inaccessible" uninhabited`
-	landscape land/mountain0
+	attributes "requires: cloak" "requires: inaccessible" uninhabited
+	landscape "land/landscape remanda"
 	description `This planet is restricted only to a few permitted individuals because it is a home to another sentient organism. Buildings of wood and stone, horse carriage as transport, they seems to be in the era comparable to human "middle age". `
 	description "As permitted by the Nuru, you're only allowed to observe from your cloaked ship and not allowed to make any interactions with the local inhabitants."
 	"required reputation" 10
 
 planet Uronalu
-	attributes `"requires: gaslining"`
+	attributes "requires: gaslining"
 	landscape land/nasa4
 	description "Beneath the dense clouds reveals a solid surface similar to terresial planets. While it looks natural it can't be said for sure it is. "
 	description "Part of the rocky surface is covered in smooth jet black material spreading and branching out along the ravines like tree roots, each of these structures spans across several kilometers in diameter. Occasionally, a ship will raise through the surface of these roots like ghost through a wall, smoothly, without disturbtion to the surface at all."

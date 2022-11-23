@@ -551,7 +551,7 @@ mission "First Contact: Akralva (landing)"
 				`	(Tell them you're here to trade.)`
 					
 			label langRefuel
-			`	They don't really seems to liek the answer and demanded extra payment of 120,000 for repair and refuel.`
+			`	They don't really seems to like the answer and demanded extra payment of 120,000 for repair and refuel.`
 			choice
 				`	(Pay them)`
 					goto langPay
@@ -568,6 +568,9 @@ mission "First Contact: Akralva (landing)"
 			label mad
 			`	As soon as they hear your answer the alien leader shouted at someone behind and you notices nearby turrets to begin powering up. You fired up your ship's repulsor and get off the planet as soon as you can.`
 				flee
+
+			label friendly
+			`	A group of Akralva comes to meet you as you land a few of them are armed but doesn't seems overly hostile.`
 
 
 			`You caught a glimpse of their skin under their clothing which is creme colored and reflects similarly to their shells but looks thinner. Their hands looks like three crab pincers stacked together`
