@@ -530,11 +530,24 @@ mission "First Contact: Akralva (boarding, metNuru)"
 
 mission "First Contact: Akralva (landing)"
 	landing
+	name "Hunt Kumakk"
+	description `Go hunt Kumakk at <system> and come back here as "payment" for letting you land, repair and resupply.`
 	source
 		government Akralva
-		not attributes uninhabited
+		attribute `akralva beyond wormhole territory`
+		not attributes uninhabited `akralva home territory`
+	waypoint <someKumakksystem>
+	
+	npc kill
+		to despawn
+			has "Akralva: trial, negotiate with Kumakk"
+		government "Kumakk"
+		system <someKumakksystem>
+		fleet "Kumakk Security"
+	
 	to offer
 		never
+		has "language: Akralva" #You shouldn't be able to land without knowing how to talk to them.
 	on offer
 		conversation
 			branch friendly
@@ -551,30 +564,182 @@ mission "First Contact: Akralva (landing)"
 				`	(Tell them you're here to trade.)`
 					
 			label langRefuel
-			`	They don't really seems to like the answer and demanded extra payment of 120,000 for repair and refuel.`
+			#`	They don't really seems to like the answer and demanded extra payment of 120,000 for repair and refuel.`
+			`	They don't really seems to like the answer and demanded that you come out of your ship and maybe they'll consider giving you options in exchange.`
 			choice
-				`	(Pay them)`
-					goto langPay
+				`	(Go out.)`
+					goto leaveShip
 				`	(Refuse)`
-			#I have no control over repair and refuel mechanic right now so they can't just refuse to repair and refuel you, which is the more likely outcome.
 			branch mad
-				random < 75
-			`	He stomps the ground a few times, point at your viewport and point at the ground in front of him yelling at you to get out here and maybe he'll give you a chance at negotiation.`
+				random < 25
+			`	He stomps on the ground once, point at your viewport and point at the ground in front of him yelling at you to get out here, this is your final chance.`
 			choice
 				`	(Go out.)`
 				`	(Refuse.)`
 					goto mad
-			`	You exit you hatch and meet the alien, stares at you for a few seconds before continuing with the conversation. He said that he'll give you a chance to repay them via other means, such as transporting their supplies or help them hunt their enemies.`
+			label leaveShip
+			`	You exit the hatch and meet the alien but keep some distance away from them, You caught a glimpse of their skin under their clothing which is creme colored and reflects similarly to their shells but looks thinner. Their hands looks like three crab pincers stacked together. They stares at you for a few seconds before continuing with the conversation. He said that he'll give you a chance to repay them via other means, such as transporting their supplies or help them hunt their enemies.`
+			choice
+				`	"I can help you deliver supplies."`
+				`	"Hunt who?"`
+					goto huntWho
+				`	"I'll help you hunt."`
+					goto hunt
+				`	"Can't I pay instead?"`
+					goto pay
+			label supplies
+			`	"Go to portchief, room in spaceport over there." he points somewhere then toss you a black cube, not too different from the one you find before coming to this galaxy, "Currency converter. in case you need to bribe someone." he says. "Now I leave, more important stuffs to do." He says and begins to turn around.`
+			choice
+				`	"Where did you get this cube from?'`
+				`	"Wait, can you tell me more about your race?"`
+					goto race
+				`	"Can you tell me first why did you attack me?"`
+					goto attack
+				`	(Leave.)`
+					decline
+			label cube #You will get chance to ask more later if you helped them enough.
+			`	"Someone found on prey ship." he says as he walks off, "All the rest are cloned.". The guards following him are staring at you, you probably shouldn't ask anymore question for now.`
+				decline
+			label race
+			`	"No, don't mess up and maybe you'll learn more." he replies without looking back. The guards following him are staring at you, you probably shouldn't ask anymore question for now.`
+				decline
+			label attack
+			`	"It move, we shoot. Do I say if you don't want that." he replied as he walks away. The guards following him are staring at you, you probably shouldn't ask anymore question for now.`
+			label huntWho
+			`	"Not you problem, hunt or not."`
+			choice
+				`	"Fine, I'll hunt."`
+				`	"How about the supplies"`
+					goto supplies
+				`	"Then can I pay instead?"`
+					goto pay
+			label hunt
+			`	"Good, There are these Kumakk at <system> that are a problem, go get rid of them then come back here." he says and look at some damaged ships on the landing pad next to you, one of it appears to be their larger warship. "Or if you scared go to portchief for supply job." he points at somewhere in the spaceport. "I will get you 25 days free pass so be fast. Now I leave, more important to do." he says and turns around and begins to leave.`
+			choice
+				`	"Where did you get this cube from?'`
+					goto cube
+				`	"Wait, can you tell me more about your race?"`
+					goto race
+				`	"Can you tell me first why did you attack me?"`
+					goto attack
+				`	(Leave.)`
+					accept
+				
+			label pay
+			`	"No. Money don't move my problem. If you be problem to my port you better get rid my other problem." he says. "Now pick."`
+			choice
+				`	"I can help you deliver supplies."`
+					goto supplies
+				`	"I'll help you hunt."`
+					goto hunt
 			label mad
-			`	As soon as they hear your answer the alien leader shouted at someone behind and you notices nearby turrets to begin powering up. You fired up your ship's repulsor and get off the planet as soon as you can.`
+			`	As soon as they hear your answer the alien leader shouted at someone behind him and you notice nearby turrets to begin powering up. You fired up your ship's repulsor and get off the planet as soon as you can.`
 				flee
 
-			label friendly
-			`	A group of Akralva comes to meet you as you land a few of them are armed but doesn't seems overly hostile.`
-
-
-			`You caught a glimpse of their skin under their clothing which is creme colored and reflects similarly to their shells but looks thinner. Their hands looks like three crab pincers stacked together`
-
+			label friendly #Todo insert physical appearance somewhere for this branch.
+			`	A group of Akralva comes to meet you as you land a few of them are armed but doesn't seems overly hostile but you stay inside your ship first just incase. "What you want?" the alien leader shouted.`
+			choice
+				`	"Just here to repair and refuel."`
+					goto repair
+				`	"I'm here to trade."`
+					goto trade
+				`	"I'm an explorer."`
+					goto explorer
+			label repair
+			`	They don't look to happy with the answer. "Get out, We talk for deal."	the alien shouted again.`
+			choice
+				`	(Get out of your ship)`
+					goto fgetout
+				`	(Don't)`
+				
+			label fgetout
+			`	You go out of your ship to meet them. They stare at you for a moment before continuing. "We can help repair you but exchange for that help us one option, deliver supply or hunt enemy."`
+				
+			label trade
+			`	"We can trade, we can also use trader. Get out. We have offer."`
+			choice
+				`	(Get out of your ship)`
+				`	(Don't)`
+			
+			label fTradegetout
+			`	You exit your ship hatch and go meet them but kept some distance. "We can trade, can repair, and refuel. Exchange with that is your help, we can use extra ship to deliver us supplies, or fight enemies if you want. Choose."`
+			choice
+				`	"I can fight."`
+					goto fTradeFight
+				`	"What do you want delivered?"`
+					goto fTradeSupplies
+				`	"I'm not avaliable right now."`
+					goto tryDefer
+					
+			label fTradeSupplies
+			`	"Go see portchief for detail." he points to somewhere in the spaceport.`
+					decline
+			label fTradeFight
+			`	"Good, we got Kumakk problem. Go rid them at <system>. If you change mind, go to portchief."`
+					accept
+			label explorer
+			`	"Scout? We don't need. We will repair and resupply you but you help us in exchange. "`
+			
+			
+			label tryDefer
+			branch deferYes
+				"reputation: Akralva" >= 10
+			`	"We are not shooting you now don't mean we cannot. Exchange help or pay in scrap of you ship."`
+			choice
+				`	"Ok, fine, I can fight."`
+					goto fTradeFight
+				`	"Fine, I can bring supplies."`
+					goto fTradeSupplies
+				`	"I won't let you." (Get back in your ship and take off.)`
+			branch fdie
+				random > 80 #todo consider other factors(ship size, H2H, etc.)?
+			`	The alien leader shouted something and they begin shooting at you but you managed to get inside your ship first and take off...`
+				flee
+			label fdie
+			`	The alien leader shouted something but before you manage to get in your ship a shot lands on you...`
+				die
+			
+			label deferYes
+			`	"Fine. Come back when you can. Or if change mind go see portchief."`
+				decline
+	on accept
+		"reputation: Akralva" >? 1
+		event "Akralva trial end" 25
+		#Todo, player could land and negotiate with Kumakk.
+		
+event "Akralva trial end" #todo, enough assisting prevent rep reset?
+	"reputation: Akralva" = -1
+	
+mission "Akralva: Intro Supplies"
+	name "Pick up supplies at <planet>"
+	description `Go to <destination> to pick up supplies for the Akralva.` 
+	destination
+		distance 4 8
+		government Akralva
+	source
+		government "Akralva"
+	to offer
+		never
+	on offer
+		conversation
+			`You find the portchief's room and knocked on the giant door that seems to have hinge on the top, You didn't hear any reply after the first knock but the lights seems to be on...`
+			choice
+				`	(Knock again)`
+				`	(Say that the leader send you here to help with supplies.)`
+					goto shout
+			`	You hear some footsteps and stepped back right before the door swings open upward with a large alien blocking the entire door looking at you, you can see him clenching one of his fist. After staring at you for a few moment he speaks, "Say what you want.". You tell him that the leader send you here to do some job. His fist unclenches "Get in." he says heading inside letting the door close. The door swing back only once before it's safe enough for you to lift it open and barely get inside.`
+				goto inRoom
+			label shout
+			`	"Get in." you hear voice from inside the room. The door is quite heavy but you manage to lift it up enough for you to get in.`
+			label inRoom
+			`	The alien takes out a roll of paper and toss it at you. He then takes out another one and unroll it on the ground. He pointed at one of the system some distance away with his foot and tell you to go there, hand that roll of paper to them and wait for them to load the cargo then bring it back here. He'll arrange you 25 days free pass so don't be late.`
+			`	You memorise the system and go back to your ship.`
+				accept
+				
+	on accept
+		"reputation: Akralva" >? 1
+		event "Akralva trial end" 25
+		
 
 #To make sure the player met both Akralva and these races first before being able to gain rep.
 
