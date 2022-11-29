@@ -203,6 +203,7 @@ mission "Akralva: Learning Language (captured, f)"
 				decline
 
 substitutions
+	`<capturedAkralvaName>` "Exkuzlo Helior"
 	`<capturedAkralvaName>` "Kakzik Akkrel"
 		"Akralva: Prisoner Name" < 17
 	`<capturedAkralvaName>` "Pathak Helior"
@@ -213,7 +214,6 @@ substitutions
 		"Akralva: Prisoner Name" < 68
 	`<capturedAkralvaName>` "Ruzvaas Ei"
 		"Akralva: Prisoner Name" < 85
-	`<capturedAkralvaName>` "Exkuzlo Helior"
 
 mission "Akralva: Learning Language (captured, g)"
 	landing
@@ -238,6 +238,7 @@ mission "Akralva: Learning Language (captured, h)"
 		#not "First Contact: Nuru"
 		#has "outfit (flagship installed): Brig" #wait for 0.9.17/Cont
 	substitutions
+		`<capturedAkralvaStatus>` "He was getting very bored and begins asking to go out and fight but you don't quite trust him enough for that yet so he ask you to install a screen in his brig instead so at least he can watch your battles live and statisfy a bit of his thirst for battle, since he has been quite cooperative recently you decided to install one just outside his brig."
 		`<capturedAkralvaStatus>` "He appears to be sitting quietly facing the wall whenever you walked by, but always respond when called. You're not sure what he's doing and why as he was always avoiding the question but at least he didn't cause any trouble for you so far."
 			"Akralva: Prisoner Name" < 17
 		`<capturedAkralvaStatus>` "He is quiet the whole time when nobody speaks to him and just walk around in his tiny cell. You're not quite sure what's in his mind as he seems to ignore you entirely until you call him."
@@ -248,7 +249,6 @@ mission "Akralva: Learning Language (captured, h)"
 			"Akralva: Prisoner Name" < 68
 		`<capturedAkralvaStatus>` "He was getting very bored and begins asking for something to do, anything. Since he has been quite cooperative so far you gave him some random plastic or soft toys you don't need and won't cause any damage. He broke first two plastic ones but eventually figured out how to handle it."
 			"Akralva: Prisoner Name" < 85
-		`<capturedAkralvaStatus>` "He was getting very bored and begins asking to go out and fight but you don't quite trust him enough for that yet so he ask you to install a screen in his brig instead so at least he can watch your battles live and statisfy a bit of his thirst for battle, since he has been quite cooperative recently you decided to install one just outside his brig."
 	on offer
 		require "Brig" 1
 		conversation
@@ -265,6 +265,7 @@ mission "Akralva: Learning Language (captured, h)"
 		#not "First Contact: Nuru"
 		#has "outfit (flagship installed): Brig" #wait for 0.9.17/Cont
 	substitutions
+		`<capturedAkralvaStatus>` "He wasn't asking to go out and fight much since you gave him the screen to watch but you can still notice some hint that he may have been bottling it up. You also learned that other than being a ship crew he claims to have some training as soldier or whatever the Akralvan equivalent is and he says that he can and will help you on boarding combat as well as stories of dealing with engine disruptions and corrosion problems and how he dealt with it. He seems to be obeying all your orders so far and you haven't notice any hint of murder intent towards you (or any of your crew) for a large while now, years even."
 		`<capturedAkralvaStatus>` "He's more talkative recently and often tell stories of glorious past in battles against various aliens turning tides of war and so on. Many of these a bit too fantastical to believe. He claims to specialize in energy management optimizing shield generator and hull repair power usage as well as being the one to figure out how to power ships from ion damages. He said that he can do these improvement for your ship as well if you let him out."
 			"Akralva: Prisoner Name" < 17
 		`<capturedAkralvaStatus>` "Recently he begins to speak a bit more without being asked. You also learned that he used to work in heavy industries before becoming a ship crew. To be more specific, he was the technician repairing shield generators and oversee their installation in the shipyards as well as managing hull repair works. He figured he could help you fine tune our ship's shield and hull repairs to improve overall efficiency if you let him out."
@@ -275,7 +276,6 @@ mission "Akralva: Learning Language (captured, h)"
 			"Akralva: Prisoner Name" < 68
 		`<capturedAkralvaStatus>` "He as been disassembling and reassembling the toys into various other things you don't recognize but doesn't appear harmful. You also learned that he was an engineer and could improve the efficiency of your hull repairs as well as stabilizing shields from disruption. He had also worked on engine disrupting weapons before and know how to fine tune engines to recover engine disruptions faster. While he said his strength is average for his race he's still a lot tougher than many other races and could still be useful in hand to hand combat. He has express interest in being freed to help you run your ship."
 			"Akralva: Prisoner Name" < 85
-		`<capturedAkralvaStatus>` "He wasn't asking to go out and fight much since you gave him the screen to watch but you can still notice some hint that he may have been bottling it up. You also learned that other than being a ship crew he claims to have some training as soldier or whatever the Akralvan equivalent is and he says that he can and will help you on boarding combat as well as stories of dealing with engine disruptions and corrosion problems and how he dealt with it. He seems to be obeying all your orders so far and you haven't notice any hint of murder intent towards you (or any of your crew) for a large while now, years even."
 	on offer
 		require "Brig" 1
 		conversation
@@ -457,13 +457,13 @@ mission "Akralva: Learning Language (captured, found nuru)"
 	landing
 	name "Translate Akralva"
 	substitutions
+		"<timepassed>" "sometime ago" 
 		"<timepassed>" "a few days ago" 
 			"Akralva: days since capture" < 7
 		"<timepassed>" "a few weeks ago" 
 			"Akralva: days since capture" < 28
 		"<timepassed>" "a few months ago" 
 			"Akralva: days since capture" < 90
-		"<timepassed>" "sometime ago" 
 	to offer
 		has "gw: debug mode"
 		has "GW: Akralva Prisoner count"
