@@ -45,12 +45,12 @@ mission "gw: obtain black box"
 				`	(Don't plug it)`
 				`	(Dump it out)`
 					defer
-			apply
+			action
 				set "gw: black box not plugged"
 			`	You put it down in your ship and continue with what you were doing.`
 				decline
 			label plug
-			apply
+			action
 				set "gw: black box plugged"
 			`	As soon as you plug the black box into your ship, an array of lines on the outside of the box light up with an electric blue glow. Other than that, nothing appears to happen, and a quick test of your ship's systems shows everything still in working order. You are sure that something has changed; you just don't know what.`
 				decline
@@ -165,7 +165,7 @@ conversation "GW: mobile factory menu"
 		has "GW: Mobile factory: unlock Typhoon Torpedo: offered"
 	choice
 		`	[Arziao Torpedo]`
-			goto "arziao ammo"
+			goto "arziaoAmmo"
 		`	[Halt production]`
 			goto halt
 		`	[Exit]`
@@ -184,9 +184,9 @@ conversation "GW: mobile factory menu"
 	label typhoonunlocked
 	choice
 		`	[Arziao Torpedo]`
-			goto "arziao ammo"
+			goto "arziaoAmmo"
 		`	[Typhoon Torpedo]`
-			goto "typhoon ammo"
+			goto "typhoonAmmo"
 		`	[Halt production]`
 			goto halt
 		`	[Exit]`
@@ -196,11 +196,11 @@ conversation "GW: mobile factory menu"
 	label finisherunlockedt
 	choice
 		`	[Arziao Torpedo]`
-			goto "arziao ammo"
+			goto "arziaoAmmo"
 		`	[Typhoon Torpedo]`
-			goto "typhoon ammo"
+			goto "typhoonAmmo"
 		`	[Finisher Torpedo]`
-			goto "finisher ammo"
+			goto "finisherAmmo"
 		`	[Halt production]`
 			goto halt
 		`	[Exit]`
@@ -210,59 +210,59 @@ conversation "GW: mobile factory menu"
 	label finisherunlocked
 	choice
 		`	[Arziao Torpedo]`
-			goto "arziao ammo"
+			goto "arziaoAmmo"
 		`	[Finisher Torpedo]`
-			goto "finisher ammo"
+			goto "finisherAmmo"
 		`	[Halt production]`
 			goto halt
 		`	[Exit]`
 			goto exit
 		`	[Disable this menu]`
 			goto disablemenu
-	label "arziao ammo"
+	label "arziaoAmmo"
 	`Your mobile factory will produce 5 Arziao Torpedos for 1 ton of Neodymium and 1 ton of Aluminum every landing. Confirm?`
 	choice
 		`	[Yes]`
-			goto `arziao ammo yes`
+			goto `arziaoAmmoYes`
 		`	[No]`
 			goto menu
-	label `arziao ammo yes`
-	apply
+	label `arziaoAmmoYes`
+	action
 		set `GW: Mobile Fac Produce: Arziao Torpedo`
 		clear `GW: Mobile Fac Produce: Typhoon Torpedo`
 		clear `GW: Mobile Fac Produce: Finisher Torpedo`
 	`Your mobile factory will produce 5 Arziao Torpedos every landing.`
 		defer
-	label `typhoon ammo`
+	label `typhoonAmmo`
 	`Your mobile factory will produce 4 Typhoon Torpedos for 1 ton of Iron and 1 ton of Copper every landing. Confirm?`
 	choice
 		`	[Yes]`
-			goto `typhoon ammo yes`
+			goto `typhoonAmmoYes`
 		`	[No]`
 			goto menu
-	label `typhoon ammo yes`
-	apply
+	label `typhoonAmmoYes`
+	action
 		set `GW: Mobile Fac Produce: Typhoon Torpedo`
 		clear `GW: Mobile Fac Produce: Arziao Torpedo`
 		clear `GW: Mobile Fac Produce: Finisher Torpedo`
 	`Your mobile factory will produce 4 Typhoon Torpedos every landing.`
 		defer
-	label `finisher ammo`
+	label `finisherAmmo`
 	`Your mobile factory will produce 2 Finisher Torpedos for 1 ton of Titanium and 1 ton of Tungsten every landing. Confirm?`
 	choice
 		`	[Yes]`
-			goto `finisher ammo yes`
+			goto `finisherAmmoYes`
 		`	[No]`
 			goto menu
-	label `finisher ammo yes`
-	apply
+	label `finisherAmmoYes`
+	action
 		set `GW: Mobile Fac Produce: Finisher Torpedo`
 		clear `GW: Mobile Fac Produce: Arziao Torpedo`
 		clear `GW: Mobile Fac Produce: Typhoon Torpedo`
 	`Your mobile factory will produce 2 Finisher Torpedos every landing.`
 		defer
 	label `disablemenu`
-	apply
+	action
 		set `GW: Mobile Fac: Menu disabled`
 	`This menu will not show up again. You can re-enable it at any job board.`
 		decline
@@ -277,7 +277,7 @@ conversation "GW: mobile factory menu"
 		`	[No]`
 			goto menu
 	label haltyes
-	apply
+	action
 		set `GW: Mobile Fac Produce: Halted`
 	`The production is halted. You can re-enable it at this menu.`
 		defer
@@ -289,7 +289,7 @@ conversation "GW: mobile factory menu"
 		`	[No]`
 			goto menu
 	label stophaltyes
-	apply
+	action
 		clear `GW: Mobile Fac Produce: Halted`
 	`The production is continued.`
 		defer
@@ -574,7 +574,7 @@ mission "gw: enable debug mode"
 		not "gw: debug mode"
 	description "Enables debug mode for Galactic War. For now, this toggles visibility of certain jobs that let you control mission state."
 	source
-		government "cheat"
+		government "cheat" "vanilla"
 	on accept
 		dialog "Galactic War debug mode enabled."
 		set "gw: debug mode"
@@ -589,7 +589,7 @@ mission "gw: disable debug mode"
 		has "gw: debug mode"
 	description "Disables debug mode for Galactic War. For now, this toggles visibility of certain jobs that let you control mission state."
 	source
-		government "cheat"
+		government "cheat" "vanilla"
 	on accept
 		dialog "Galactic War debug mode disabled."
 		clear "gw: debug mode"
@@ -605,7 +605,7 @@ mission "gw: remove universal converter"
 		has "license: GW Universal Converter"
 	description "Takes away the GW Universal Converter and resets the mission where you get it."
 	source
-		government "cheat"
+		government "cheat" "vanilla"
 	on accept
 		dialog "Universal Converter removed."
 		clear "license: GW Universal Converter"
@@ -625,7 +625,7 @@ mission "gw: give universal converter"
 		not "license: GW Universal Converter"
 	description "Add GW Universal Converter."
 	source
-		government "cheat"
+		government "cheat" "vanilla"
 	on accept
 		dialog "Universal Converter granted."
 		set "license: GW Universal Converter"
@@ -637,7 +637,7 @@ mission "gw: reset Akralva first contact"
 	name `GW: Reset Akralva First Contact`
 	description	`Reset first contact mission with Akralva.`
 	source
-		government cheat
+		government cheat "vanilla"
 	on accept
 		clear "First Contact: Akralva (boarding): offered"
 		clear "First Contact: Akralva (boarding): declined"
@@ -714,7 +714,7 @@ mission "gw: reveal omnis"
 	landing
 	deadline 1
 	source
-		government "cheat"
+		government "cheat" "vanilla"
 	on accept
 		event "gw: reveal omnis"
 
