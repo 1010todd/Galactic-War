@@ -251,7 +251,8 @@ mission "Dels: Scout beyond Panmur Kaul"
 	on enter "Behsr Ler"
 		"Dels: Found Tehru Miitr" += 1
 	on enter "Ukcelarii"
-		"Dels: Found Insker Southern boarder" += 1
+		"Dels: Found Insker South boarder" += 1
+	#todo, find; Ceasrilis, Tehru Miitr, Vareen
 	on complete
 		payment 2500000
 		conversation 
@@ -266,19 +267,28 @@ mission "Dels: Scout beyond Panmur Kaul"
 			label check3
 			branch "Found Miitr"
 				"Dels: Found Tehru Miitr" >= 1
-			`You write a report of what you found exploring beyond Panmur Kaul and send it to the headquarter along with your sensor data. It didn't took long before you recieve your payment of <payment>.`
+			`You write a report of what you found exploring a few systems beyond Panmur Kaul and send it to the headquarter along with your sensor data. It didn't took long before you recieve your payment of <payment>.`
 				decline
 			label "Found All Boarder"
 			action
-				payment 3500000 #Need 0.9.15
-			``
-				goto check2
+				payment 8500000 #Need 0.9.15
+			`You write a report of what you found exploring beyond Panmur Kaul and send it to the headquarter along with your sensor data. Your effort went beyond what was expected and you received extra payment and got in total <payment>. In addition to that you also recieved a message asking you to go to the headquarter.`
+			`	Arriving at the headquarter you're brought to a meeting room immediately and meet general <delsgeneralname> along with a few other officers. "So from the report it seems like you've covered a significant amount of their territory and they seems to be more developed than us. This is a significant safety threat, though not beyond what we expected so far but doesn't mean we are sure. To reward for your great effort we decided to promote you to the rank of Admiral and permit you to purchase our Darca Class Carriers to assist you with future order we will give you and ask you to stay on high alert for more orders in near future. For now I can foresee the engineering department requesting for samples of the alien tech so if you can you may want to prepare some of it."`
+			action 
+				set "license: Dels Commander"
+				set "license: Dels Admiral"
+			`	"Anyway, for the real reason we called you here is I want you to give us more details on what would you suggest for future scouts. We'd need more scouts to keep an eye on their movement so we need the details to find right candinates for you to instruct and equipment to support them."`
+			choice
+				`	(Speed)`
+				`	(Cloak)`
+				`	(Defense)`
+			
 			label "Found Akralva Boarder"
 			action
-				payment 1250000 #Need 0.9.15
+				payment 4250000 #Need 0.9.15
 			label "Found Miitr"
 			action
-				payment 1250000 #Need 0.9.15
+				payment 4250000 #Need 0.9.15
 
 
 	

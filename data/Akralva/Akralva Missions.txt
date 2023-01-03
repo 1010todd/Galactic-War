@@ -29,7 +29,7 @@ mission "First Contact: Akralva (boarding)"
 				`	(Never)`
 					decline
 				# TODO: random chance depending on crew count and weapon? #No loss because it's impossible with current mechanic.
-			`	You and your crew boarded the ship and captured one of the alien and put it in the brig. It was a struggle as they're very strong and resilient but you eventually manage to do it, miraculously without any loss. Looking closer at the alien it stand about 2.5 meters tall with bulky build, it have long head length wise with mouth similar to crabs, their black eyes located right under a black colored beetle-like hard shell with a few child's fist-sized spike along the middle of it that covers the top half of their head. It also have similar looking shell but without the spike on its forarm and lower legs which made it looks bigger than their upper arms and upper legs. The rest of their body is covered by bi-metal armour of grey and orange but doesn't seems to cover the joints too well and were meant for ranged combat -to which it did gave you and your crew a hard time- and you can still catch a glimpse of their skin under it which is creme colored and reflects similarly to their shells but looks thinner. Their hands looks like three crab pincers stacked together and could be retracted under the shell of their forearm, which they sometimes do when they punch.`
+			`	You and your crew boarded the ship and captured one of the alien and put it in the brig. It was a struggle as they're very strong and resilient but you eventually manage to do it, miraculously without any loss. Looking closer at the alien it stand about 2.5 meters tall with bulky build, it have slightly long head length wise with mouth similar to crabs, their black eyes located right under a black colored beetle-like hard shell with a few child's fist-sized spike along the middle of it that covers the top half of their head. It also have similar looking shell but without the spike on its forarm and lower legs which made it looks bigger than their upper arms and upper legs. The rest of their body is covered by bi-metal armour of grey and orange but doesn't seems to cover the joints too well and were meant for ranged combat -to which it did gave you and your crew a hard time- and you can still catch a glimpse of their skin under it which is creme colored and reflects similarly to their shells but looks thinner. Their hands looks like three crab pincers stacked together and could be retracted under the shell of their forearm, which they sometimes do when they punch.`
 			`	With how strong it was you and your crews reinforced the brig with more material to ensure it won't escape.`
 			action
 				"Akralva: Prisoner Name" = random
@@ -532,6 +532,7 @@ mission "First Contact: Akralva (landing)"
 	landing
 	name "Hunt Kumakk"
 	description `Go hunt Kumakk at <system> and come back here as "payment" for letting you land, repair and resupply.`
+	deadline 25
 	source
 		government Akralva
 		attribute `akralva beyond wormhole territory`
@@ -552,7 +553,7 @@ mission "First Contact: Akralva (landing)"
 		conversation
 			branch friendly
 				"reputation: Akralva" > 0
-			`You somehow manages to land on this hostile alien planet, and soon after you landed you see a group of armed aliens approaching you, you decides it's better to stay inside your ship and observe. the aliens are standing about 2.5 meters tall with bulky build, it have long head length wise with mouth similar to crabs, their black eyes located right under a black colored beetle-like hard shell with a few child's fist-sized spike along the middle of it that covers the top half of their head. It also have similar looking shell but without the spike on its forarm and lower legs which made it looks bigger than their upper arms and upper legs. The rest of their body is covered by bi-metal armour of grey and orange but doesn't seems to cover the joints too well and were meant for ranged combat. The one in front of the group appears to be the leader have their head painted with bright red lines across the middle length-wise.` 
+			`You somehow manages to land on this hostile alien planet, and soon after you landed you see a group of armed aliens approaching you, you decides it's better to stay inside your ship and observe. the aliens are standing about 2.5 meters tall with bulky build, it have slightly long head length wise with mouth similar to crabs, their black eyes located right under a black colored beetle-like hard shell with a few child's fist-sized spike along the middle of it that covers the top half of their head. It also have similar looking shell but without the spike on its forarm and lower legs which made it looks bigger than their upper arms and upper legs. The rest of their body is covered by bi-metal armour of grey and orange but doesn't seems to cover the joints too well and were meant for ranged combat. The one in front of the group appears to be the leader have their head painted with bright red lines across the middle length-wise.` 
 			branch understandAkralva
 				has "language: Akralva"
 			
@@ -700,12 +701,20 @@ mission "First Contact: Akralva (landing)"
 				die
 			
 			label deferYes
-			`	"Fine. Come back when you can. Or if change mind go see portchief."`
+			`	He pause for a second before replying, "Fine. Come back when you can. Or if change mind go see portchief."`
 				decline
 	on accept
-		"reputation: Akralva" >? 1
-		event "Akralva trial end" 25
+		"reputation: Akralva" >?= 25
+		#event "Akralva trial end" 25
 		#Todo, player could land and negotiate with Kumakk.
+		
+	on daily
+		"reputation: Akralva" -= 1
+		
+	on complete
+		"reputation: Akralva" >?= 1
+		conversation
+			`Seems like the word of you accomplising the mission reached here before you did, your ship got serviced as soon as you land unlike the first time you were here. You asked your way to find the leader overseeing some construction project close by something and tell him you completed the task. "I heard it from other hunters. Good. I will let leaders know your deeds. Some world will let you land but some not, I can not help. If you want more go find bounty board and look. Now go, I busy."`
 		
 event "Akralva trial end" #todo, enough assisting prevent rep reset?
 	"reputation: Akralva" = -1
