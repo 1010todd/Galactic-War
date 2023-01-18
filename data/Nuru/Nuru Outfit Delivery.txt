@@ -8,7 +8,7 @@
 # Todo : Mission marker, for those who don't read.
 # Todo : Move to job board to avoid clogging spaceport and avoid accidentally selling critical outfits?
 
-mission "Nuru: Outfit Delivery[template]" #Job board mode, might be cleaner..? But no dialog for blackbox and outfit info
+mission "Nuru: Outfit Delivery[template]" #Job board mode, might be cleaner..? 
 	name "Sell Outfit"
 	description `The Nuru wants to buy your Electron Beam.`
 	job
@@ -24,6 +24,15 @@ mission "Nuru: Outfit Delivery[template]" #Job board mode, might be cleaner..? B
 		payment 250000
 		"reputation: Nuru" += 1
 		"Nuru: Outfit Delivery Counter" += 23
+		conversation
+			branch "firstpay"
+				"Nuru: Outfit Delivery Counter" <= 0
+			`	The Nuru thanks you for the delivery and send a vehicle to pick it up and pay you <payment>.`
+			#`	When they arrived one of the Nuru said something.`
+				accept
+			label firstpay
+			`		The Nuru thanks you for the delivery and send a vehicle to pick it up. While doing that one of the Nuru move toward you handing you some credit chips worth about <payment>, to your surprise it's just like the ones you use. You asked where did they got it from. They said they have a converter which they found on one of the planet they discovered, they're not certain of its origin nor how it works.`
+				accept
 		fail
 
 		#==============================WEAPON
@@ -452,7 +461,7 @@ mission "Nuru: Outfit Delivery[Kuakuran Energy Cannon]"
 				`	"No."`
 					defer
 			`	"Thank you for your help. We will send vehicle to unload the cargo."`
-			`	When they begins disassembling it right on the spot with confidence as if they've handled the exact piece hundreds of times before. You watch as they do and one of them explained that the casing appears to be build similarly to their neighbour the Zorcn the inner working was apparently invisible to several of the quick scanning technology they have and they were curious about it, both the property of the casing and what's inside. To your luck it doesn't appears to contain anything that is an immediate danger to you, but for sure you want to stay out of this next time they do it.`
+			`	When they begins disassembling it right on the spot with confidence as if they've handled the exact piece hundreds of times before. You watch as they do and one of them explained that the casing appears to be build similarly to their neighbour the Zorcn except the inner working was apparently invisible to several of the quick scanning technology they have and they were curious about it, both the property of the casing and what's inside. To your luck it doesn't appears to contain anything that is an immediate danger to you, but for sure you want to stay out of this next time they do it.`
 			branch "firstpay" "next"
 				"Nuru: Outfit Delivery Counter" <= 0
 			label "next"
@@ -1824,6 +1833,14 @@ mission "Nuru: Outfit Delivery[Nurbote]"
 					decline
 			`	"Thank you for your help. We will send vehicle to unload the cargo."`
 			`	When they arrived one of the Nuru said about how this material you brought here is new to them and they want to take a look at it.`
+			choice
+				`	(Tell them where you picked it up)`
+				`	(Tell them where you forgot)`
+					goto donttell
+			action
+				set "Nuru know Nurbote source"
+			label donttell
+			`	They say that they see hints of microorganisms on the surface of these crystals and perhaps even inside.`
 			branch "firstpay"
 				"Nuru: Outfit Delivery Counter" <= 0
 			``
