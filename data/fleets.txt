@@ -1239,10 +1239,6 @@ fleet "Revos small"
 	variant
 		"Caosma (Transport)"
 		"Revos Rova" 2
-	variant
-		"Mokla (Botavu)"
-	variant
-		"Mokla (Barviska)"
 
 fleet "Revos big"
 	government Revos
@@ -1286,7 +1282,7 @@ fleet "Revos merchant"
 		"Revos Homan" 3
 		"Revos Rova" 4
 
-fleet "Revos Defense"
+fleet "Revos defense"
 	government Revos
 	names "Revos small"
 	personality

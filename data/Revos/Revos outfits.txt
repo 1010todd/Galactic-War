@@ -21,7 +21,7 @@ outfit "Kechon Beam"
 		"firing heat" .1
 		"shield damage" 7
 		"hull damage" 10 
-		"ion damage" .05
+		"corrosion damage" .05
 	description "Revos primary beam weapon, commonly found on most Revos ships."
 		
 outfit "Botavu Turret"
@@ -243,7 +243,7 @@ outfit "Anor Missile"
 		"hit force" 35
 		"shield damage" 5500
 		"hull damage" 2500
-		"heat damage" 300
+		"disruption damage" 300
 		"acceleration" 2
 		"drag" .1
 		"turn" 6
@@ -341,6 +341,20 @@ outfit "Darloid Drive" #S-Dar, DASH
 	"afterburner effect" "afterburner"
 	description "Revos Speed booster."
 	
+# Wait for 0.10.0
+outfit "Oleves Device"
+	category "Systems"
+	cost 1000000
+	thumbnail "outfit/jump drive"
+	"mass" 10
+	"outfit space" -10
+	"jump speed" .45
+	"jump fuel" 100
+	"jump base mass" 300
+	"jump mass cost" 50
+	"jump drive" 1
+	description "Jump Drive developed and used by the Revos, efficient for smaller ships."
+
 outfit "Oidor Type-1 Engines" #IO
 	plural "Oidor Type-1 Engines" #IO
 	category "Engines"
