@@ -299,19 +299,21 @@ outfit "Ipordine-type Core" #MAM-core
 	"energy generation" 25
 	"heat generation" 12
 	"cooling inefficiency" 10
-	"energy capacity" 5000
+	"energy capacity" 20000
+	"ion resistance" .1
+	"ion resistance heat" 3
 	description "Standard Revos power cores."
 	
 outfit "Enuda-type Core" #MAM-core
 	category "Systems"
-	cost 2000000
+	cost 2400000
 	thumbnail "outfit/unknown"
 	"mass" 10
 	"outfit space" -10
 	"energy generation" 18
 	"heat generation" 4
 	"cooling inefficiency" 8
-	"energy capacity" 3000
+	"energy capacity" 12000
 	"ion resistance" 1
 	"ion resistance heat" 5
 	"energy protection" 3
