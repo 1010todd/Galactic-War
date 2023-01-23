@@ -5118,7 +5118,9 @@ system Aorlem
 system Apiree'nol
 	pos -52080.8 -56950.6
 	government Uoorn
-	arrival 1372
+	arrival
+		link 2800
+		jump 3500
 	habitable 625
 	belt 1322
 	link Nanool
@@ -5150,15 +5152,15 @@ system Apiree'nol
 		period 23.773
 	object
 		sprite planet/callisto
-		distance 445.05
+		distance 716.525
 		period 150.222
 	object
 		sprite planet/lava7
-		distance 677.74
+		distance 997.368
 		period 282.302
 	object
 		sprite planet/neptune
-		distance 2039.78
+		distance 2228.103
 		period 1473.99
 		object
 			sprite planet/tethys
@@ -5168,6 +5170,14 @@ system Apiree'nol
 			sprite planet/desert4
 			distance 331
 			period 30.004
+	object
+		sprite planet/browndwarf-y
+		distance 5420
+		period 8854
+		object
+			sprite planet/gas5
+			distance 1326.123
+			period 560
 
 system Apurtak
 	pos -49784 -56607.6
@@ -79741,7 +79751,7 @@ system Nor'oona
 		offset 180
 	object
 		sprite planet/jupiter
-		distance 978.614
+		distance 2891.939
 		period 149.436
 		object
 			sprite planet/lava0
@@ -79761,7 +79771,7 @@ system Nor'oona
 			period 60.331
 	object
 		sprite planet/gas12
-		distance 2296.02
+		distance 5473.21
 		period 537.034
 		object
 			sprite planet/ice7
@@ -79771,6 +79781,10 @@ system Nor'oona
 			sprite planet/dust4
 			distance 463
 			period 26.167
+	object Liinoolu
+		sprite planet/desert9-b
+		distance 7712.27
+		period 1258
 
 system Nordevu
 	pos -51472.6 -54911.6
@@ -80397,7 +80411,7 @@ system Nuboo'le
 		period 71.951
 	object
 		sprite planet/uranus
-		distance 749.85
+		distance 3070.752
 		period 537.753
 		object
 			sprite planet/dust4
@@ -80407,13 +80421,13 @@ system Nuboo'le
 			sprite planet/luna
 			distance 345
 			period 27.378
-	object
+	object Kiinoluu
 		sprite planet/desert0
-		distance 1630.34
+		distance 1437.006
 		period 1724
 	object
 		sprite planet/gas2
-		distance 2642.5
+		distance 4452.574
 		period 3557.49
 		object
 			sprite planet/dust7
@@ -81682,7 +81696,7 @@ system Nuvoo'lor
 		distance 439.76
 		period 167.21
 		offset 299.83
-	object NUoorn'neliue
+	object Nuroon'neliue
 		sprite planet/ocean1
 		distance 864.92
 		period 461.214
@@ -95649,23 +95663,23 @@ system Salroon'alu
 		offset 180
 	object
 		sprite planet/desert9
-		distance 250.196
+		distance 339.699
 		period 61.656
 	object
-		sprite planet/forest1
-		distance 634.886
+		sprite planet/fog0
+		distance 1202.306
 		period 249.227
 	object
 		sprite planet/dust2
-		distance 1004.58
+		distance 1818.597
 		period 496.05
 	object
 		sprite planet/callisto
-		distance 1548.59
+		distance 2646.028
 		period 949.411
 	object
 		sprite planet/gas3
-		distance 2712.59
+		distance 4042.736
 		period 2201.03
 		object
 			sprite planet/dust4
@@ -95683,6 +95697,10 @@ system Salroon'alu
 			sprite planet/dust1
 			distance 625
 			period 39.91
+	object Mao'luuno
+		sprite planet/desert4-b
+		distance 5483.159
+		period 4525
 
 system Saluke
 	pos -50678.1 -56060.7
@@ -96432,8 +96450,10 @@ system Seelyan
 system Seen'lunoo
 	pos -52163.8 -56869.6
 	government Uoorn
-	arrival 1927
-	habitable 233.28
+	arrival
+		link 3200
+		jump 4200
+	habitable 1850
 	belt 1877
 	link Akeenooral
 	link Nuboo'le
@@ -96456,23 +96476,23 @@ system Seen'lunoo
 	trade Plastic 299
 	fleet "Uoorn Patrol" 20000
 	object
-		sprite star/m4
+		sprite "star/gw m-giant"
 		period 10
 	object
 		sprite planet/ice6
-		distance 257.29
+		distance 817.152
 		period 108.083
 		object
 			sprite planet/rock3
 			distance 145
 			period 21.949
-	object
-		sprite planet/ganymede
-		distance 680.53
+	object Tiuoon'lra
+		sprite planet/ganymede-b
+		distance 1690.645
 		period 464.935
 	object
 		sprite planet/gas0
-		distance 1521.49
+		distance 2242.482
 		period 1554.26
 		object
 			sprite planet/rock17
@@ -96480,7 +96500,7 @@ system Seen'lunoo
 			period 11.793
 	object
 		sprite planet/neptune
-		distance 2244.5
+		distance 3566.882
 		period 2784.84
 		object
 			sprite planet/dust0
@@ -110495,24 +110515,28 @@ system Volrel'nuloo
 		offset 180
 	object
 		sprite planet/lava3
-		distance 201.624
+		distance 738.026
 		period 44.603
 	object
 		sprite planet/neptune
-		distance 642.314
+		distance 1778.491
 		period 253.614
 	object
 		sprite planet/titan
-		distance 1084.12
+		distance 2785.303
 		period 556.122
 	object
 		sprite planet/gas8
-		distance 2077.13
+		distance 3935.168
 		period 1474.85
 		object
 			sprite planet/ice7
 			distance 212
 			period 16.432
+	object Ciuu'liion
+		sprite planet/ice5
+		distance 3218.554
+		period 251
 
 system Voltaric
 	pos -51814.2 -54883.7
@@ -116003,8 +116027,7 @@ planet Koger
 	"required reputation" 1
 
 planet Koho
-	landscape land/gw mountainforestA07
-	landscape land/gw
+	landscape "land/gw mountainforestA07"
 	description .
 	spaceport .
 	"required reputation" 1
@@ -116329,7 +116352,6 @@ planet Leekelura
 
 planet Leepordi
 	attributes mining
-	landscape "land/gw barrenB46" #TodoAI
 	landscape "land/gw barrenB46"
 	description "A dry planet with little atmosphere. Lands covered in tiny pieces of silver glittering metal varying in densities around the planet."
 	description "Some mining operations can be seen on the planet mostly where there's less glittering metals."
@@ -117007,7 +117029,7 @@ planet "NHK Wormhole"
 
 planet "NST Wormhole"
 
-planet NUoorn'neliue
+planet Nuroon'neliue
 	attributes uninhabited
 	landscape land/mountain9
 	description "A pleasant Earth-like planet home to various flora and fauna. There's some number of crater visible on the surface though most seems to be old enough forest have entirely consumed it. Amids the colourful forest a cluster of giant mushroom sticks out like sore thumb. "
@@ -123355,7 +123377,6 @@ system Ko'nokor
 	fleet "Kumakk Heavy Security" 1000
 	fleet "Akralva Hunter" 2000
 	object
-		sprite star/m-giant
 		sprite "star/gw m-giant"
 		period 10
 	object
@@ -141657,6 +141678,7 @@ system "Sector SE"
 		sprite planet/dust0
 		distance 4280
 		period 1666.696
+
 system Mesiaai
 	pos -52224.6 -52807.866
 	government Ceasrilis
@@ -145782,7 +145804,7 @@ system Svrannu
 	trade Plastic 503
 	fleet "Taroun Patrol" 1000
 	fleet "Taroun Logistic" 800
-	object Neuoantanu
+	object ""
 	object ""
 		sprite "planet/taroun stellarweb landable1"
 		distance 892.882
@@ -147328,4 +147350,24 @@ planet "Zlusc Arth"
 	outfitter "Neyton Outfits"
 	outfitter "Zorcn Advanced"
 	outfitter "Zorcn Basic"
+
+planet Liinoolu
+	landscape "land/gw barrenB47"
+	description "For most part there's nothing special about this planet other than its unusal landscape and decent mineral reserve near the surface until patches of giant mushrooms are discovered. Though few, each patch are massive and could easily span across a few kilometers."
+
+planet Mao'luuno
+	landscape "land/gw barrenA20"
+	description "A small rocky planet with very hard surface almost like it was made from solid granite yet giant mushrooms can still be found, though in smaller number through the few cracks on the surface."
+
+planet Ciuu'liion
+	landscape "land/gw mountainsnowA05"
+	description "Cold, rocky and unforgiving planet that on some area its cold enough to condense nitrogen into lake of liquid nitrogen and still cold enough to be uninhabitable for most living things in nearly other area. By pure chance budding of giant mushrooms can be spotting in some warmer area(which is barely a few degree celcius warmer) exposed from the ice and snow that covers most of the planet's surface."
+
+planet Kiinoluu
+	landscape "land/gw barrenB20"
+	description "A rocky planet covered in large patches of moss-like vegetation, or at least in appearance. Mixed between that is patches of giant mushrooms dotted across the rocks and moss alike."
+
+planet Tiuoon'lra
+	landscape "land/gw barrenB30"
+	description "A dusty barren planet with nearly no life except microscopic single-celled organism and giant mushrooms that stick out like a sore thumb among the virtually lifeless desert."
 
