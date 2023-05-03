@@ -229,7 +229,7 @@ outfit "Dels Sokak Cannon Turret"
 	category "Secondary Weapons"
 	cost 430000
 	thumbnail "outfit/dels sokak turret"
-	"mass" 60
+	"mass" 40
 	"outfit space" -60
 	"weapon capacity" -60
 	"turret mounts" -1
@@ -383,20 +383,53 @@ outfit "Skue-8 Quad Turret"
 		"dropoff modifier" .7
 	description "Skue-8 blasters, 4 of it on a turret."
 
+effect "kotdar fire"
+	"sprite" "effect/dels kotdar fire"
+		"frame rate" 60
+		"no repeat"
+	lifetime 5
+	"random angle" .5
+
+outfit "Kotdar Cannon"
+	category "Guns"
+	"cost" 200000
+	thumbnail "outfit/dels kotdar"
+	"mass" 32
+	"outfit space" -32
+	"weapon capacity" -32
+	"gun ports" -1
+	weapon
+		sprite "projectile/dels kotdar shot"
+		sound "dels kotdar"
+		"fire effect" "kotdar fire"
+		"hit effect" "particle impact"
+		"inaccuracy" .5
+		"velocity" 60
+		"acceleration" -.01
+		"lifetime" 30
+		"reload" 53
+		"firing energy" 80
+		"firing force" 10
+		"firing heat" 340
+		"hit force" 80
+		"shield damage" 110
+		"hull damage" 175
+	description `Kotdar gun is developed from particle accelerators often used in anti-captial roles.`
 		
 outfit "Kotdar Turret" #HA1
 	category "Turrets"
 	"cost" 350000
-	thumbnail "outfit/dels sokak turret"
+	thumbnail "outfit/dels kotdar turret"
 	"mass" 50
 	"outfit space" -50
 	"weapon capacity" -50
 	"turret mounts" -1
 	weapon
-		sprite "projectile/particle beam"
-		sound "particle"
-		"hardpoint sprite" "hardpoint/dels sokak turret hp"
+		sprite "projectile/dels kotdar shot"
+		sound "dels kotdar"
+		"hardpoint sprite" "hardpoint/dels kotdar turret hp"
 		"hardpoint offset" 6.
+		"fire effect" "kotdar fire"
 		"hit effect" "particle impact"
 		"inaccuracy" 1
 		"turret turn" 1.2
@@ -410,7 +443,6 @@ outfit "Kotdar Turret" #HA1
 		"hit force" 80
 		"shield damage" 110
 		"hull damage" 175
-		#"disruption damage" .1
 	description "These are Dels large long-range anti-capital turret."
 	
 #=========================================[Anti Missile]=============================

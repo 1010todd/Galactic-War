@@ -34,6 +34,10 @@ mission "First Contact: Revos"
 			action
 				set "gw: know about great catastrophe"
 			`	"Product of war" it replied, "Many countless cycles ago there were wars between the great powers of the galaxy. Thousands of cycles it lasted, infinite last the wounds. We born and see the wounds new before us and make effort for none will be like us."`
+			#branch toadvaliens
+			#	not "gw: know about great powers"
+			#label toadvaliens
+			#`	`
 			label choice1
 			choice
 				`	"Who were the great powers?"`
@@ -43,17 +47,20 @@ mission "First Contact: Revos"
 			action
 				set "gw: know about great powers"
 			`	"Taroun." they say "And those they called Isschi who no longer lives devastated half galaxy in their war. Not many cycles more four more rise to power and those four destroyed the other half. All but Isgeda is left here."`
-			`	"Never again it will happen, both learned to limit their ambition. Now Galactic Concil formed to keep eye for power out of control and teach the inexperienced."`
-			branch togreatcatastrophe
-				not "gw: know about great catastrophe"
-			label togreatcatastrophe
-			`	"So what about the Great Catastrophe?" You asked.`
-				goto greatcatastrophe
+			`	"Never again it will happen, both learned to limit their ambition and we pathed way to form the Galactic Concil to keep watch for power out of control and teach the inexperienced."`
 			choice
-				``
+				`	"Who are the member of this concil?"`
+			``
 			label galwound
 			`	"You will see as you travel. Many have been cleaned, yet some still remains. So be careful when you explore as these wounds still kill."`
+			choice
+				`	"What exactly is the cause?"`
+				`	"Can you give me some example?"`
+					goto examplehazard
+			`	"Their weapons." the alien replied. "Taroun and Isschi both were highly advanced and own multiple weapon capable to damage entire system cluster and their effect still lingers."`
 
+			label examplehazard
+			`	"There were weapon that eat stellar objects, other that accelerate their decay, another that warp them into unnatural. Even if it fade over time it is more than capable of harming less massive objects, such as your vehicle."`
 			label aboutRevos
 			``
 
