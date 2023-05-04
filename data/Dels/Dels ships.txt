@@ -239,7 +239,7 @@ ship "Dels Desen"
 		under
 	explode "tiny explosion" 10
 	explode "small explosion" 5
-	description "A direct descent to Irbor Sefora shipyard's older frighter than were used since the early days of Dels interstellar exploration using the design of detachable rounded cargo pods on the side allowing transportation of cargo over short distance without lifting vehicle which most early spaceport lacks. This design became less important in modern days where most spaceports were well equipped resulting in decreased popularity of the ship among the more experienced captains."
+	description "A direct descendant to Irbor Sefora shipyard's older frighter than were used since the early days of Dels interstellar exploration using the design of detachable rounded cargo pods on the side allowing transportation of cargo over short distance without lifting vehicle which most early spaceport lacks. This design became less important in modern days where most spaceports were well equipped resulting in decreased popularity of the ship among the more experienced captains."
 	
 ship "Dels Donson"
 	sprite "ship/dels donson"
@@ -251,10 +251,10 @@ ship "Dels Donson"
 		"hull" 610
 		"required crew" 2
 		"bunks" 4
-		"mass" 80
+		"mass" 75
 		"drag" 1.5
 		"heat dissipation" .8
-		"fuel capacity" 300
+		"fuel capacity" 400
 		"cargo space" 50
 		"outfit space" 190
 		"weapon capacity" 35
@@ -274,7 +274,6 @@ ship "Dels Donson"
 		"Hao Ion Engines"
 		"Hyperdrive"
 		
-		
 	turret 0 20.5
 	engine -5.5 39
 		zoom 1
@@ -286,7 +285,7 @@ ship "Dels Donson"
 		under
 	explode "tiny explosion" 10
 	explode "small explosion" 5
-	description "These are more recent freighter built by Puda Der shipyard. It challanged Irbor Sefora older Desen with greater manuverbility at the cost of cargo space."
+	description "These are more recent freighter built by Puda Der shipyard. Though it can carry slightly less than the older Irbor Sefora's Desen the Donson offers greater toughness, speed, maneuverbility, and range to compensate and keep up with modern requirement as the Ufulre becomes more of a problem and new colonies are further away."
 	
 ship "Dels Manoon"
 	sprite "ship/dels manoon"
@@ -335,7 +334,7 @@ ship "Dels Manoon"
 		under
 	explode "tiny explosion" 20
 	explode "small explosion" 12
-	description "Irbor Sefora's Manoon was released shortly after the Desen as long ranged alternative to promote longer trade routes and allows systems further away to develop faster."
+	description "Irbor Sefora's Manoon was released shortly after the Desen as long ranged alternative to promote the expansion of Dels territory and encourage growth in those further colonies."
 	
 
 #=================HEAVY FREIGHTER
@@ -418,7 +417,7 @@ ship "Dels Desin"
 		"mass" 42
 		"drag" .7
 		"heat dissipation" .9
-		"fuel capacity" 400
+		"fuel capacity" 550
 		"cargo space" 5
 		"outfit space" 200
 		"weapon capacity" 26
@@ -458,7 +457,7 @@ ship "Dels Desin"
 		under
 	explode "tiny explosion" 15
 	explode "small explosion" 5
-	description "Light and fast interceptor made by [shipyard 1] as entry level combat ship."
+	description "Light and fast interceptor made by Firklee as cheap, entry level combat ship for those that prefers riskier life or occasionally fielded by Dardornai as reconaissance ship as well as serving as additional escort in a pinch. Though the ship is one of the most fragile in the area, its' Type-F hyperdrive allows it to quickly escape in battles it can't win."
 	
 ship "Dels Derso"
 	sprite "ship/dels derso"
@@ -531,7 +530,8 @@ ship "Dels Derso"
 		right
 	explode "tiny explosion" 20
 	explode "small explosion" 10
-	description "[shipyard 2]'s heavier alternative to [shipyard 1] Desin, less agile but packs a punch."
+	description "Derkeela's heavier alternative to Firklee Desin. Though less agile, in exchange the Derso is equipped with heavier armament and shieldingy and rely on it to eliminate their enemies before they do so to them."
+	description `It saw some success but most ended up in the hands of the Ufulre who often have to deal with the heavily armed Kaote patrols. While Dardornai commander have expressed interest in the ship the logistic remains a major problem as the most of Derkeela shipyard is located very far from Dardornai territory.`
 	
 ship "Dels Ekdor"
 	sprite "ship/dels ekdor"
@@ -580,7 +580,7 @@ ship "Dels Ekdor"
 		under
 	explode "tiny explosion" 20
 	explode "small explosion" 10
-	description "Irbor Sefora attempts at interceptor turns out to be boarderline light escort. Trading agility for heavy armament."
+	description "Irbor Sefora attempts at interceptor turns out to be borderline light escort trading most of its agility for armour, shielding, and armaments. Ekdor is largely favored by the merchants for their larger fuel tank that allow them to keep up more with the long ranged freighters."
 
 #=================LIGHT WARSHIP
 ship "Dels Secsen"
@@ -633,9 +633,11 @@ ship "Dels Secsen"
 		zoom 1
 		angle 0
 		under
-	explode "tiny explosion" 20
-	explode "small explosion" 16
-	description "Puda Der shipyard Secsen is manufactured primarily for use by Kaote"
+	explode "medium explosion" 24
+	explode "large explosion" 6
+	explode "tiny explosion" 28
+	explode "small explosion" 40
+	description "Puda Der shipyard Secsen is the mainstay of the Kaote patrols for many years, only not too long ago it was considered outdated enough some surplus were sold on the civilian market. Though, despite the age and dated design many Secsen remains in service of the Kaote navy."
 	
 ship "Dels Senro"
 	sprite "ship/dels senro"
@@ -686,10 +688,10 @@ ship "Dels Senro"
 		angle 0
 		under
 	explode "medium explosion" 24
-	explode "big explosion" 16
+	explode "large explosion" 6
 	explode "tiny explosion" 28
 	explode "small explosion" 40
-	description "An attack craft designed to bombard and destroy larger warships with big guns."
+	description "An attack craft designed to bombard and destroy larger warships with big guns. Largely preferred by the Dardornai navy who have to constantly deal with hostile alien and their seemingly limitless supply of large warships."
 	
 ship "Dels Deeris"
 	plural "Dels Deerises"
@@ -744,9 +746,11 @@ ship "Dels Deeris"
 		zoom 1
 		angle 0
 		under
-	explode "tiny explosion" 10
-	explode "small explosion" 5
-	description "."
+	explode "medium explosion" 24
+	explode "large explosion" 10
+	explode "tiny explosion" 28
+	explode "small explosion" 40
+	description "Heavily armed attack craft designed and manufactured by Leeris Nai Shipworks specifically targeting Dardornai commanders who prefer ships with heavy firepower but carry less logistic burden of shell-using weapons."
 
 #=================MEDIUM WARSHIP
 ship "Dels Uldeor"
@@ -816,7 +820,7 @@ ship "Dels Uldeor"
 	explode "big explosion" 20
 	explode "huge explosion" 2
 	"final explode" "final explosion medium"
-	description "A common frigate used by Prada Kaote as long range patrol ship and escort for carriers and freighters."
+	description "A more recent frigate commissioned by Prada Kaote to be used as their new long range patrol ship and replace the aging Secsen."
 	
 #=================HEAVY WARSHIP
 ship "Dels Darca"
@@ -943,7 +947,7 @@ ship "Dels Darca"
 	explode "big explosion" 20
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "Primary carrier deployed by Prada Kaote and one of the largest warship used by Dels. It is designed to fight in a fleet along with other warships and deploy drones and figthers as distraction."
+	description "Primary carrier deployed by Prada Kaote and one of the largest warship used by Dels. It is designed to fight in a fleet along with other warships and deploy drones and figthers as distraction and additional firepower."
 	
 ship "Dels Decso" #Need buff
 	sprite "ship/dels decso"
@@ -1016,7 +1020,7 @@ ship "Dels Decso" #Need buff
 	explode "big explosion" 20
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "Built by Puda Der shipyard for Kaote and Dardornai Navy as response to raising threat from the newly formed Ufulre after contact with Ignaggen. Though most Dels believe the real reason is to provide Kaote and Dardornai anti-capital capability incase of Ignaggen hostility, even then very few of Decso class have been found in service of the Dardornai."
+	description "Built by Puda Der shipyard for Kaote and Dardornai Navy as response to raising threat from the newly formed Ufulre after contact with Ignaggen. Though most Dels believe the real reason is to provide Kaote and Dardornai anti-capital capability incase of Ignaggen hostility, though only a few of Decso class have been found in service of the Dardornai."
 	
 ship "Dels Dacar"
 	sprite "ship/dels dacar"
@@ -1079,10 +1083,10 @@ ship "Dels Dacar"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
-	explode "big explosion" 40
+	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "One of the few Irbor Sefora's warship design. While lacking of the distinct cargo pods found in freighters of the same shipyard, Dacar is intended to be used as armed freighter capable of defending it self in an event of an attack."
+	description "One of the few Irbor Sefora's warship design. It lacks the distinct cargo pods found in other freighters of the same shipyard as the Dacar is intended to be used as heavily armed freighter capable of defending it self in an event of an attack."
 
 ship "Dels Caodauri"
 	sprite "ship/dels caodauri"
@@ -1161,7 +1165,7 @@ ship "Dels Caodauri"
 	explode "big explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "Dels Dardornai warship designed to fight against the Kroom invaders due to low supply of Decso from the Kaote, the new ship is designed to be manufactured within Dardornai space. Due to lack of advanced facilities and experience it was made from multiple smaller parts. While not as mass-efficient as using fewer larger parts it allows faster replacement of damaged parts. Unlike the Decso, Dardornai Caodauri have shorter operational range with much less area to patrol."
+	description "Dels Dardornai warship designed to fight against the Kroom invaders due to low supply of Decso from the Kaote, the new ship is designed to be manufactured within Dardornai space. Due to lack of advanced facilities and experience it was made from multiple smaller parts instead of a single large cast. While not as mass-efficient as using fewer larger parts it allows faster replacement of damaged parts than repairing damages, which can be critical in combat-intensive area the Dardornai guards. Unlike the Decso, Dardornai Caodauri have shorter operational range in exchange for armour and other systems as their territory is far smaller than that of the Kaote."
 #=================FIGHTER
 
 
@@ -1247,4 +1251,4 @@ ship "Dels Dea"
 		under
 		right
 	explode "tiny explosion" 10
-	description "Dels attack drone designed to swarm the enemy."
+	description "Dels attack drone designed to swarm the enemy and serve as distraction for the mothership and the rest of the fleet."

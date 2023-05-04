@@ -720,7 +720,7 @@ event "Akralva trial end" #todo, enough assisting prevent rep reset?
 	"reputation: Akralva" = -1
 	
 mission "Akralva: Intro Supplies [0]"
-	name "Pick up supplies at <planet>"
+	name "Pick up supplies at <stopover>"
 	description `Go to <stopover> to pick up supplies then return to <origin>.` 
 	source
 		government "Akralva"
@@ -746,6 +746,10 @@ mission "Akralva: Intro Supplies [0]"
 	on accept
 		"reputation: Akralva" >? 1
 		event "Akralva trial end" 25
+	
+	on stopover
+		dialog
+			`You arrived at the <planet stopovers> and it seems like the alien stationed here have already prepared for your arrival, you pick up the cargo and prepare to depart.`
 
 	on complete
 		conversation
@@ -764,6 +768,7 @@ mission "Akralva: Intro Supplies [1]"
 		never
 	on offer
 		conversation
+			``
 
 #To make sure the player met both Akralva and these races first before being able to gain rep.
 
