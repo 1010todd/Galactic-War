@@ -225,7 +225,7 @@ mission "Dels Officer: Participate in defense"
 		government "Dels Ufulre"
 		personality
 			confusion 30
-			plunders harvests
+			plunders harvests target # no staying so they can flee
 		fleet "Dels Ufulre Raid" 2
 		system destination
 
@@ -233,7 +233,7 @@ mission "Dels Officer: Participate in defense"
 		government "Dels Kaote
 		personaility
 			confusion 10
-			heroic opportunistic frugal
+			heroic opportunistic frugal staying
 		fleet "Dels Kaote"
 		system destination
 	on complete
