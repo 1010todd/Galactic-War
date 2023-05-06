@@ -227,6 +227,7 @@ mission "Dels Officer: Participate in defense"
 			confusion 30
 			plunders harvests
 		fleet "Dels Ufulre Raid" 2
+		system destination
 
 	npc
 		government "Dels Kaote
@@ -234,6 +235,7 @@ mission "Dels Officer: Participate in defense"
 			confusion 10
 			heroic opportunistic frugal
 		fleet "Dels Kaote"
+		system destination
 	on complete
 		payment 100000
 		dialog `Officer <last>, thank you for realizing your role in the Kaote Navy. You will recieve <payment> for your services.`
