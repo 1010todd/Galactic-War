@@ -109,3 +109,93 @@ event "GW Dels officer map reveal"
 	visit Mukkaedu
 	visit Dobareen
 	visit Mudeula
+
+mission "Report A"
+	name "Report to <destination>"
+	repeat
+	landing
+	deadline
+	description `You have been ordered to go to <destination> for an assignment.`
+	destination Delro # maybe have different important systems to report to
+	source
+		near Delro 1 10
+	to offer
+		"random" < 30 - "Report to Delro: done" # You get called less frequently over time
+		has "GW Dels start: officer"
+		"ships: Interceptor" + "ships: Light Warship" + "ships: Medium Warship" + "ships: Heavy Warship" > 0
+		not "Report A: active"
+	on offer
+		conversation
+			`As your ship sinks through the atmosphere of <planet>, your communicator buzzes. The color is orange: answer required.`
+			choice
+				`(Answer it)`
+				`(Ignore it)`
+					decline
+					
+			label answer
+			`	The message reads, "Officer <last>, you are required to go to <destination> by <date>. There you will recieve further orders. If you refuse or fail to meet the deadline, there will be consequences.`
+			choice
+				`(Accept)`
+					accept
+				`"I don't care what consequences you give me, I'm not going!"`
+					decline
+	on decline
+		"reputation: Dels Kaote" -= 1
+		fine 10000
+		dialog `Officer <last>, you have dissapinted us. The Kaote Navy will not tolerate such a responce, and as such you will be fined 10,000 credits.`
+	on fail
+		"reputation: Dels Kaote" -= 1
+		fine 5000
+		dialog `Officer <last>, we did not expect you to be so lazy! The Kaote Navy cannot tolerate that, and as such you will be fined 5,000 credits.`
+	on abort
+		"reputation: Dels Kaote" -= 3
+		fine 20000
+		dialog `Officer <last>, the Kaote Navy will not tolerate liars! You will be fined 20,000 credits for your un-loyal behavior!`
+
+mission "Report B" # If A gets offered too many times
+	name "Report to <destination>"
+	repeat
+	landing
+	deadline
+	description `You have been ordered to go to <destination> for an assignment.`
+	destination Delro # maybe have different important systems to report to
+	source
+		near Delro 1 10
+	to offer
+		"random" < 5
+		has "GW Dels start: officer"
+		"ships: Interceptor" + "ships: Light Warship" + "ships: Medium Warship" + "ships: Heavy Warship" > 0
+		"Report A: done" > 30
+	on offer
+		conversation
+			`As your ship sinks through the atmosphere of <planet>, your communicator buzzes. The color is orange: answer required.`
+			choice
+				`(Answer it)`
+				`(Ignore it)`
+					decline
+					
+			label answer
+			`	The message reads, "Officer <last>, you are required to go to <destination> by <date>. There you will recieve further orders. If you refuse or fail to meet the deadline, there will be consequences.`
+			choice
+				`(Accept)`
+					accept
+				`"I don't care what consequences you give me, I'm not going!"`
+					decline
+	on decline
+		"reputation: Dels Kaote" -= 1
+		fine 10000
+		dialog `Officer <last>, you have dissapinted us. The Kaote Navy will not tolerate such a responce, and as such you will be fined 10,000 credits.`
+	on fail
+		"reputation: Dels Kaote" -= 1
+		fine 5000
+		dialog `Officer <last>, we did not expect you to be so lazy! The Kaote Navy cannot tolerate that, and as such you will be fined 5,000 credits.`
+	on abort
+		"reputation: Dels Kaote" -= 3
+		fine 20000
+		dialog `Officer <last>, the Kaote Navy will not tolerate liars! You will be fined 20,000 credits for your un-loyal behavior!`
+
+mission "Dels Officer: Participate in attack"
+	landing
+	repeat
+	name `Drive off the Ufulre`
+	description `There is an Ufulre attack on <destination>. You must participate in driving it off.`
