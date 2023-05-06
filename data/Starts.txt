@@ -118,7 +118,7 @@ mission "Report A"
 	description `You have been ordered to go to <destination> for an assignment.`
 	destination Delro # maybe have different important systems to report to
 	source
-		near Delro 1 10
+		near Vobeelee 1 10
 	to offer
 		"random" < 30 - "Report to Delro: done" # You get called less frequently over time
 		has "GW Dels start: officer"
@@ -151,6 +151,8 @@ mission "Report A"
 		"reputation: Dels Kaote" -= 3
 		fine 20000
 		dialog `Officer <last>, the Kaote Navy will not tolerate liars! You will be fined 20,000 credits for your un-loyal behavior!`
+	on complete
+		set "dels mission avaliable"
 
 mission "Report B" # If A gets offered too many times
 	name "Report to <destination>"
@@ -160,7 +162,7 @@ mission "Report B" # If A gets offered too many times
 	description `You have been ordered to go to <destination> for an assignment.`
 	destination Delro # maybe have different important systems to report to
 	source
-		near Delro 1 10
+		near Vobeelee 1 10
 	to offer
 		"random" < 5
 		has "GW Dels start: officer"
@@ -193,9 +195,45 @@ mission "Report B" # If A gets offered too many times
 		"reputation: Dels Kaote" -= 3
 		fine 20000
 		dialog `Officer <last>, the Kaote Navy will not tolerate liars! You will be fined 20,000 credits for your un-loyal behavior!`
+	on complete
+		set "dels mission avaliable"
 
-mission "Dels Officer: Participate in attack"
+mission "Dels Officer: Participate in defense"
 	landing
 	repeat
+	minor
 	name `Drive off the Ufulre`
+	source Delro
+	destination
+		government "Dels Kaote" Dels
+		near Alkurud 0 2
 	description `There is an Ufulre attack on <destination>. You must participate in driving it off.`
+	to offer
+		has "dels mission avaliable"
+	on offer
+		clear "dels mission avaliable"
+		conversation
+			`One you have landed, a Dels commander comes and gives you a data pad with instructions. It reads, "Officer <last>, you are requested for defense at <destination>. There is an Ufulre attack there."`
+			`	You are forced to accept.`
+				accept
+	on abort
+		"reputation: Dels Kaote" -= 1
+		fine 10000
+		dialog `Officer <last>, the Kaote Navy does not tolerate cowards. You will be fined 10,000 credits for this.`
+
+	npc evade
+		government "Dels Ufulre"
+		personality
+			confusion 30
+			plunders harvests
+		fleet "Dels Ufulre Raid" 2
+
+	npc
+		government "Dels Kaote
+		personaility
+			confusion 10
+			heroic opportunistic frugal
+		fleet "Dels Kaote"
+	on complete
+		payment 100000
+		dialog `Officer <last>, thank you for realizing your role in the Kaote Navy. You will recieve <payment> for your services.`
