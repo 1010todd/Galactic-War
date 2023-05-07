@@ -169,9 +169,9 @@ mission "Dels Officer: Participate in defense"
 		near Alkurud 0 2
 	description `There is an Ufulre attack on <destination>. You must participate in driving it off.`
 	to offer
-		has "dels mission avaliable"
+		has "dels officer: report mission available"
 	on offer
-		clear "dels mission avaliable"
+		clear "dels officer: report mission available"
 		conversation
 			`One you have landed, a Dels commander comes and gives you a data pad with instructions. It reads, "Officer <last>, you are requested for defense at <destination>. There is an Ufulre attack there."`
 			`	You are forced to accept.`
