@@ -150,7 +150,7 @@ mission "Report A"
 	on abort
 		"reputation: Dels Kaote" -= 3
 		fine 20000
-		dialog `Officer <last>, the Kaote Navy will not tolerate liars! You will be fined 20,000 credits for your un-loyal behavior!`
+		dialog `Officer <first>, the Kaote Navy will not tolerate liars! You will be fined 20,000 credits for your disloyal behavior!`
 	on complete
 		set "dels mission avaliable"
 
