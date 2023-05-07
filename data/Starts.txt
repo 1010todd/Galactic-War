@@ -128,8 +128,8 @@ mission "Report A"
 		conversation
 			`As your ship sinks through the atmosphere of <planet>, your communicator buzzes. The color is orange: answer required.`
 			choice
-				`(Answer it)`
-				`(Ignore it)`
+				`	(Answer it)`
+				`	(Ignore it)`
 					decline
 					
 			label answer
