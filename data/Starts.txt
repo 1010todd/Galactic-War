@@ -122,8 +122,8 @@ mission "Dels Officer: Report to Delro"
 	to offer
 		"random" < 30 - "Report to Delro: done" # You get called less frequently over time
 		has "GW Dels start: officer"
-		"ships: Interceptor" + "ships: Light Warship" + "ships: Medium Warship" + "ships: Heavy Warship" > 0
-		not "Report A: active"
+		0 > "ships: Interceptor" + "ships: Light Warship" + "ships: Medium Warship" + "ships: Heavy Warship"
+		not "Dels Officer: Report to Delro: active"
 	on offer
 		conversation
 			`As your ship sinks through the atmosphere of <planet>, your communicator buzzes. The color is orange: answer required.`
