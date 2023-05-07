@@ -161,7 +161,7 @@ mission "Report A"
 mission "Dels Officer: Participate in defense"
 	landing
 	repeat
-	minor
+	priority
 	name `Drive off the Ufulre`
 	source Delro
 	destination
