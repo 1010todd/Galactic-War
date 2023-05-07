@@ -133,7 +133,7 @@ mission "Report A"
 					decline
 					
 			label answer
-			`	The message reads, "Officer <last>, you are required to go to <destination> by <date>. There you will recieve further orders. If you refuse or fail to meet the deadline, there will be consequences.`
+			`	The message reads, "Officer <first>, you are required to go to <destination> by <date>. There you will recieve further orders."`
 			choice
 				`(Accept)`
 					accept
