@@ -342,7 +342,7 @@ mission "Dels Dardornai Messenger"
 		dialog `You quickly find the local government and deliver them the message to them, they thank you and hands you <payment>.`
 		
 		
-mission "Dels Passengers"
+mission "Dels Passengers [0]"
 	name "Passenger transport to <planet>"
 	job
 	repeat
@@ -361,6 +361,25 @@ mission "Dels Passengers"
 		payment 2000
 		dialog phrase "generic passenger dropoff payment"
 		
+mission "Dels Passengers [1]"
+	name "Passenger transport to <planet>"
+	job
+	repeat
+	deadline 
+	description "Bring <fare> to <destination> by <date>. Payment is <payment>."
+	passengers 1 10 .9
+	source
+		government "Dels" "Dels Kaote" "Dels Dardornai"
+	destination
+		distance 2 10
+		government "Dels" "Dels Kaote" "Dels Dardornai" "Ignaggen"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment
+		payment 2100
+		dialog phrase "generic passenger dropoff payment"
+
 mission "Dels Many Passengers"
 	name "Passenger transport to <planet>"
 	job
@@ -398,3 +417,45 @@ mission "Dels Long Range Passengers"
 		payment
 		payment 4000
 		dialog phrase "generic passenger dropoff payment"
+
+mission "Dels Escort [0]"
+	job
+	repeat
+	deadline
+	name "Escort to <planet>"
+	description `Captain of Manoon freighter <npc> want and escort to <destination> by <date>. The payment will be <payment>.`
+	to offer
+		random < 40
+		"reputation: Dels" > 0
+		or
+			"combat rating" > 8
+			has "ships: Interceptor"
+			has "ships: Light Warship"
+	source
+		government "Dels Kaote" "Dels Dardornai"
+	destination
+		government "Dels Kaote" "Dels Dardornai"
+		near Keedulva 1 4
+		distance 2 8
+		not attributes `uninhabited`
+	npc 
+		government "Dels Ufulre"
+		personality harvests
+			confusion 30
+		fleet "Dels Ufulre Raid Jobs"
+				
+	npc save accompany
+		government "Dels"
+		personality escort timid
+			confusion 25
+		fleet
+			name "Dels civillian"
+			cargo 2
+			variant
+				"Dels Manoon"
+
+	on complete
+		payment 70000
+		dialog phrase "generic safe escort completion dialog"
+	on visit
+		dialog phrase "generic arrived-without-npc dialog"
