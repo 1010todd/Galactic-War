@@ -174,7 +174,7 @@ mission "Dels Officer: Participate in defense"
 		clear "dels officer: report mission available"
 		conversation
 			`One you have landed, a Dels commander comes and gives you a data pad with instructions. It reads, "Officer <last>, you are requested for defense at <destination>. There is an Ufulre attack there."`
-			`	You are forced to accept.`
+			`	You prepare to launch.`
 				accept
 	on abort
 		"reputation: Dels Kaote" -= 1
