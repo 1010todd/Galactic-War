@@ -510,3 +510,18 @@ fleet "Dels Ufulre Raid"
 		"Ufulre Derso"
 	variant 50 
 		"Ufulre Ekdor"
+
+#For use in jobs.
+fleet "Dels Ufulre Raid Jobs"
+	government "Dels Ufulre"
+	names "Dels civillian"
+	cargo 2
+	personality
+		confusion 30
+		plunders harvests
+	variant 20
+		"Ufulre Ekdor" 
+	variant 60 
+		"Ufulre Desin"
+	variant 20 
+		"Ufulre Derso"

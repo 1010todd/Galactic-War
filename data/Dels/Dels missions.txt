@@ -178,26 +178,35 @@ mission "Dels officer: crossed Panmur Kaul check"
 		set "Dels: crossed Panmur Kaul"
 	on enter "Panmur Kaul"
 		set "Dels: entered Panmur Kaul"
+	to fail
+		#to clear it from active list
+		has "Dels: crossed Panmur Kaul"
+		has "Dels: entered Panmur Kaul"
 
 mission "Dels: Scout beyond Panmur Kaul"
 	name "Explore beyond Panmur Kaul"
+	description "The Kaote wants you to explore space beyond Panmur Kaul then return to <destination>"
+	source 
+		government "Dels Kaote"
 	destination "Delro"
 	waypoint "Mitura"
 	waypoint "Kuvynra"
 	waypoint "Hsiorul"
-	description "The Kaote wants you to explore space beyond Panmur Kaul then return to <destination>"
 	to offer
 		has "Dels: crossed Panmur Kaul"
 		has "language: Dels"
-		random < 30
-		has "never offer"
+		random < 50
+		never
 	on offer
 		conversation
 			branch "Dels officer"
 				has "license: Dels Officer"
-			`	As you were wandering the spaceport you notice a Dels officer walking towards you`
+			`	As you were wandering the spaceport you notice a Dels officer walking towards you, "Captain, we have recieved reports that you've went into Panmur Kaul and survived. We want you to write a report to defense research division and conduct further exploration if possible."`
+			goto startChoice
+
 			label "Dels officer"
 			`	As you were wandering the spaceport you notice a Dels lieutenant walking towards you, "Officer <first>, we have recieved reports that you've went into Panmur Kaul and survived. We want you to write a report to defense research division and conduct further exploration if possible."`
+			label startChoice
 			choice
 				`	"How far do I have to go?"`
 					goto howfar
@@ -267,25 +276,52 @@ mission "Dels: Scout beyond Panmur Kaul"
 			label check3
 			branch "Found Miitr"
 				"Dels: Found Tehru Miitr" >= 1
+
 			`You write a report of what you found exploring a few systems beyond Panmur Kaul and send it to the headquarter along with your sensor data. It didn't took long before you recieve your payment of <payment>.`
 				decline
+
 			label "Found All Boarder"
 			action
 				payment 8500000 #Need 0.9.15
 			`You write a report of what you found exploring beyond Panmur Kaul and send it to the headquarter along with your sensor data. Your effort went beyond what was expected and you received extra payment and got in total <payment>. In addition to that you also recieved a message asking you to go to the headquarter.`
-			`	Arriving at the headquarter you're brought to a meeting room immediately and meet general <delsgeneralname> along with a few other officers. "So from the report it seems like you've covered a significant amount of their territory and they seems to be more developed than us. This is a significant safety threat, though not beyond what we expected so far but doesn't mean we are sure. To reward for your great effort we decided to promote you to the rank of Admiral and permit you to purchase our Darca Class Carriers to assist you with future order we will give you and ask you to stay on high alert for more orders in near future. For now I can foresee the engineering department requesting for samples of the alien tech so if you can you may want to prepare some of it."`
+			`	Arriving at the headquarter you're brought to a meeting room immediately and meet general <delsgeneralname> along with a few other officers. "So from the report it seems like you've covered a significant amount of their territory and they seems to be more developed than us. This is a significant safety threat, though not beyond what we expected so far but doesn't mean we are sure. To reward for your great effort we decided to promote you to the rank of Admiral and permit you to purchase our Darca Class Carriers to assist you with future orders. We'll also ask you to stay on high alert for more orders in near future. For now I can foresee the engineering department requesting for samples of the alien tech so if you can you may want to prepare some of it."`
 			action 
 				set "license: Dels Commander"
 				set "license: Dels Admiral"
-			`	"Anyway, for the real reason we called you here is I want you to give us more details on what would you suggest for future scouts. We'd need more scouts to keep an eye on their movement so we need the details to find right candinates for you to instruct and equipment to support them."`
+			`	"Anyway, for the real reason we called you here is I want you to give us more details on what would you suggest for future scouts. We'd need more scouts to keep an eye on their movement so we need the details to find right candinates for you to instruct and proper equipment to support them."`
 			choice
-				`	(Speed)`
-				`	(Cloak)`
-				`	(Defense)`
+				`	"You need speed. I slip through their fleets before they their bullets hit me."`
+					goto speed
+				# Wait for more granular stealth system
+				#`	"Stealth is the key. You need to avoid their detection."`
+				#	goto stealth 
+				`	"Defense, you need something that can take hits."`
+					goto defense
+				`	"Better weapons, just take the nearest ones out then escape."`
+					goto weapon
+
+			label speed
+			action
+				set "dels scout: speed"
+			`	"Got it, thanks. We'll get the best engine we can find for them."`
+
+			label defense
+			action
+				set "dels scout: defense"
+			`	"Got it, thanks. We'll get the best defense we can find for them."`
+
+			label weapon
+			action
+				set "dels scout: weapon"
 			
+			label end
+			`	"Also, if you have any of the alien equipment with you, you can head to the engineering department to hand it to them." (Click Spaceport to hand in some alien outfits.)`
+				decline
+
 			label "Found Akralva Boarder"
 			action
 				payment 4250000 #Need 0.9.15
+			goto check3
 			label "Found Miitr"
 			action
 				payment 4250000 #Need 0.9.15
@@ -294,6 +330,7 @@ mission "Dels: Scout beyond Panmur Kaul"
 	
 
 #================There's still problems that we can't really check player's ship/attribute or manage the crew with missions
+# Can check flagship attribute on 0.10.0 now. 
 
 mission "Dels officer: Made Dels Kaote angry notif"
 	landing
