@@ -198,4 +198,4 @@ mission "Dels Officer: Participate in defense"
 		system destination
 	on complete
 		payment 100000
-		dialog `Officer <last>, thank you for realizing your role in the Kaote Navy. You will recieve <payment> for your services.`
+		dialog `Officer <first>, thank you for realizing your role in the Kaote Navy. The commander have authorized <payment> bonus for completing this mission.`
