@@ -792,16 +792,22 @@ mission "Dels Officer: Patrol Systems"
 	priority
 	name `Partrol systems`
 	source Delro
-	waypoint
+	stopover
 		government "Dels Kaote" Dels
 		near Alkurud 0 2
-	description `You must patrol <waypoints> to check for Ufulre activity.`
+	stopover
+		government "Dels Kaote" Dels
+		near Alkurud 0 2
+	stopover
+		government "Dels Kaote" Dels
+		near Alkurud 0 2
+	description `You must patrol <stopovers> to check for Ufulre activity.`
 	to offer
 		has "dels officer: report mission available"
 	on offer
 		clear "dels officer: report mission available"
 		conversation
-			`One you have landed, a Dels commander comes and gives you a data pad with instructions. It reads, "Officer <last>, you are requested for patrol on <waypoints> to check on Ufulre activity."`
+			`One you have landed, a Dels commander comes and gives you a data pad with instructions. It reads, "Officer <last>, you are requested for patrol on <stopovers> to check on Ufulre activity."`
 			`	You prepare to launch.`
 				accept
 	on abort
