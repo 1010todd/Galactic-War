@@ -717,7 +717,6 @@ mission "Dels Officer: Report to Delro"
 	on offer
 		conversation
 			`As your ship sinks through the atmosphere of <planet>, your communicator buzzes. The color is orange: answer required.`
-			label answer
 			`	The it reads, "Officer <first>, you are required to go to <destination> by <date>. There you will recieve further orders."`
 			choice
 				`(Accept)`
@@ -725,24 +724,29 @@ mission "Dels Officer: Report to Delro"
 				`"I don't care what consequences you give me, I'm not going!"`
 					goto decline
 			label decline
-				action
-					"reputation: Dels Kaote" -= 1
-				fine 10000
-			`Officer <last>, you have dissapinted us. The Kaote Navy will not tolerate such a responce, and as such you will be fined 10,000 credits.`
+			action
+				"dels officer: bad officer" ++
 	on fail
-		"reputation: Dels Kaote" -= 1
-		fine 5000
-		dialog `Officer <last>, we did not expect you to be so lazy! The Kaote Navy cannot tolerate that, and as such you will be fined 5,000 credits.`
+		"dels officer: bad officer" ++
 	on abort
-		"reputation: Dels Kaote" -= 3
-		fine 20000
-		dialog `Officer <first>, the Kaote Navy will not tolerate liars! You will be fined 20,000 credits for your disloyal behavior!`
+		"dels officer: bad officer" ++
 	on complete
 		"dels officer: report mission available" = 1
 		"Dels Officer: report complete" += 1
 		#Cap the factor to 25 to avoid mission not offering again if done for 30 times.
 		#So minimal chance of offering is 5%
 		"Dels Officer: report complete" <?= 25
+		conversation # so you can use branches
+			branch escort
+				random < 50
+			label patrol
+			action
+				"Dels Officer: Patrol Mission" ++
+			goto end
+			label escort
+			action
+				"Dels Officer: Escort Mission" ++
+			label end
 
 #mission "Dels Officer: Participate in defense"
 #	landing
@@ -759,13 +763,13 @@ mission "Dels Officer: Report to Delro"
 #	on offer
 #		clear "dels officer: report mission available"
 #		conversation
-#			`One you have landed, a Dels commander comes and gives you a data pad with instructions. It reads, "Officer <last>, you are requested for defense at <destination>. There is an Ufulre attack there."`
+#			`One you have landed, a Dels commander comes and gives you a data pad with instructions. It reads, "Officer <first>, you are requested for defense at <destination>. There is an Ufulre attack there."`
 #			`	You prepare to launch.`
 #				accept
 #	on abort
 #		"reputation: Dels Kaote" -= 1
 #		fine 10000
-#		dialog `Officer <last>, the Kaote Navy does not tolerate cowards. You will be fined 10,000 credits for this.`
+#		dialog `Officer <first>, the Kaote Navy does not tolerate cowards. You will be fined 10,000 credits for this.`
 #
 #	npc evade
 #		government "Dels Ufulre"
@@ -792,28 +796,28 @@ mission "Dels Officer: Patrol Systems"
 	priority
 	name `Partrol systems`
 	source Delro
-	stopover
+	waypoint
 		government "Dels Kaote" Dels
 		near Alkurud 0 2
-	stopover
+	waypoint
 		government "Dels Kaote" Dels
 		near Alkurud 0 2
-	stopover
+	waypoint
 		government "Dels Kaote" Dels
 		near Alkurud 0 2
 	description `You must patrol <stopovers> to check for Ufulre activity.`
 	to offer
 		has "dels officer: report mission available"
+		has "Dels Officer: Patrol Mission"
 	on offer
 		clear "dels officer: report mission available"
+		clear "Dels Officer: Patrol Mission"
 		conversation
-			`One you have landed, a Dels commander comes and gives you a data pad with instructions. It reads, "Officer <last>, you are requested for patrol on <stopovers> to check on Ufulre activity."`
+			`One you have landed, a Dels commander comes and gives you a data pad with instructions. It reads, "Officer <first>, you must patrol <waypoints> to check on Ufulre activity."`
 			`	You prepare to launch.`
 				accept
 	on abort
-		"reputation: Dels Kaote" -= 1
-		fine 10000
-		dialog `Officer <last>, the Kaote Navy does not tolerate cowards. You will be fined 10,000 credits for this.`
+		"dels officer: bad officer" ++
 	on complete
 		payment 50000
 		dialog `Officer <first>, thank you for realizing your role in the Kaote Navy. The commander have authorized <payment> bonus for completing this mission.`
@@ -830,22 +834,22 @@ mission "Dels Officer: Escort Convoy"
 	description `In order to assist the planets near Ufulre space, you must escort a convoy to <destination>.`
 	to offer
 		has "dels officer: report mission available"
+		has "Dels Officer: Escort Mission"
 	on offer
 		clear "dels officer: report mission available"
+		clear "Dels Officer: Escort Mission"
 		conversation
-			`One you have landed, a Dels commander comes and gives you a data pad with instructions. It reads, "Officer <last>, you must escort a convoy to <destination> in order to assist those living there."`
+			`One you have landed, a Dels commander comes and gives you a data pad with instructions. It reads, "Officer <first>, you must escort a convoy to <destination> in order to assist those living there."`
 			`	You prepare to launch.`
 				accept
 	on abort
-		"reputation: Dels Kaote" -= 1
-		fine 10000
-		dialog `Officer <last>, the Kaote Navy does not tolerate cowards. You will be fined 10,000 credits for this.`
+		"dels officer: bad officer" ++
 
 	npc accompany save
 		government "Dels Kaote"
 		personaility
 			confusion 10
-			heroic opportunistic frugal staying
+			opportunistic frugal
 		fleet
  			name "Dels civillian"
  			cargo 50
