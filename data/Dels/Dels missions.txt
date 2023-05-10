@@ -712,7 +712,7 @@ mission "Dels Officer: Report to Delro"
 	to offer
 		"random" < 30 - "Report to Delro: done" # You get called less frequently over time
 		has "GW Dels start: officer"
-		0 > "ships: Interceptor" + "ships: Light Warship" + "ships: Medium Warship" + "ships: Heavy Warship"
+		#0 > "ships: Interceptor" + "ships: Light Warship" + "ships: Medium Warship" + "ships: Heavy Warship" # doesn't work
 		not "Dels Officer: Report to Delro: active"
 	on offer
 		conversation
@@ -738,7 +738,7 @@ mission "Dels Officer: Report to Delro"
 		"Dels Officer: report complete" <?= 25
 		conversation # so you can use branches
 			branch escort
-				random < 50
+				random < 20
 			label patrol
 			action
 				"Dels Officer: Patrol Mission" ++
@@ -794,7 +794,7 @@ mission "Dels Officer: Patrol Systems"
 	landing
 	repeat
 	priority
-	name `Partrol systems`
+	name `Patrol systems`
 	source Delro
 	waypoint
 		government "Dels Kaote" Dels
@@ -808,7 +808,7 @@ mission "Dels Officer: Patrol Systems"
 	description `You must patrol <stopovers> to check for Ufulre activity.`
 	to offer
 		has "dels officer: report mission available"
-		has "Dels Officer: Patrol Mission"
+		has "Dels Officer: Patrol Mission" # In testing, I had a stack of these but it only offered once.
 	on offer
 		clear "dels officer: report mission available"
 		clear "Dels Officer: Patrol Mission"
