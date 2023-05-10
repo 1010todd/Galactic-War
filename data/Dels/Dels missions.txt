@@ -849,10 +849,10 @@ mission "Dels Officer: Escort Convoy"
 		government "Dels Kaote"
 		personaility
 			confusion 10
-			opportunistic frugal
+			opportunistic frugal escort
 		fleet
- 			name "Dels civillian"
- 			cargo 50
+ 			name "Dels civillian" # I saw no names
+ 			cargo 3
  			variant
  				"Dels Manoon" 3
 	on complete
