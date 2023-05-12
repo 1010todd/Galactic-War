@@ -226,7 +226,7 @@ mission "Geeva Kanai Aid[0]"
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
-		"reputation: Kroom Kanai" += 0.01
+		"reputation: Kroom Kanai" += 1
 		"geeva job done" += 1
 		payment
 		payment 14500
@@ -251,7 +251,7 @@ mission "Geeva Kanai Aid[1]"
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
-		"reputation: Kroom Kanai" += 0.01
+		"reputation: Kroom Kanai" += 1
 		"geeva job done" += 1
 		payment
 		payment 14000
@@ -276,7 +276,7 @@ mission "Geeva Kanai Aid[2]"
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
-		"reputation: Kroom Kanai" += 0.01
+		"reputation: Kroom Kanai" += 1
 		"geeva job done" += 1
 		payment
 		payment 15500
@@ -301,7 +301,7 @@ mission "Geeva Kanai Aid[3]"
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
-		"reputation: Kroom Kanai" += 0.01
+		"reputation: Kroom Kanai" += 1
 		"geeva job done" += 1
 		payment
 		payment 16000
@@ -326,7 +326,7 @@ mission "Geeva Kanai Aid[4]"
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
-		"reputation: Kroom Kanai" += 0.01
+		"reputation: Kroom Kanai" += 1
 		"geeva job done" += 1
 		payment
 		payment 16000
@@ -361,7 +361,7 @@ mission "Geeva Kanai Aid[3] (Intercepted)"
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
-		"reputation: Kroom Kanai" += 0.1
+		"reputation: Kroom Kanai" += 2
 		"geeva job done" += 1
 		payment
 		payment 18000
