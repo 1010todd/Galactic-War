@@ -710,7 +710,8 @@ mission "Dels Officer: Report to Delro"
 	source
 		near Vobeelee 1 10
 	to offer
-		"random" < 30 - "Report to Delro: done" # You get called less frequently over time
+		"random" < 30 - "Dels Officer: report complete"  # You get called less frequently over time
+
 		has "GW Dels start: officer"
 		#0 > "ships: Interceptor" + "ships: Light Warship" + "ships: Medium Warship" + "ships: Heavy Warship" # doesn't work
 		not "Dels Officer: Report to Delro: active"
