@@ -816,7 +816,8 @@ mission "Dels Officer: Patrol Systems"
 		clear "Dels Officer: Patrol Mission"
 		conversation
 			`One you have landed, a Dels commander comes and gives you a data pad with instructions. It reads, "Officer <first>, you must patrol <waypoints> to check on Ufulre activity."`
-			`	You prepare to launch.`
+			`	You get back to your ship and prepare for the mission.`
+
 				accept
 	on abort
 		"dels officer: bad officer" ++
