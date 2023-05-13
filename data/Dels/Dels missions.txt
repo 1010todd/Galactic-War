@@ -713,21 +713,42 @@ mission "Dels Officer: Report to Delro"
 		"random" < 30 - "Dels Officer: report complete"  # You get called less frequently over time
 
 		has "GW Dels start: officer"
-		#0 > "ships: Interceptor" + "ships: Light Warship" + "ships: Medium Warship" + "ships: Heavy Warship" # doesn't work
+		or
+			"ships: Interceptor" > 0
+			"ships: Light Warship" > 0
+			"ships: Medium Warship" > 0
+			"ships: Heavy Warship" > 0
 		not "Dels Officer: Report to Delro: active"
 	on offer
 		conversation
 			`As your ship sinks through the atmosphere of <planet>, your communicator buzzes.`
+			choice
+				`	(Open it)`
 			`	The message reads, "Officer <first>, you are required to go to <destination> by <date>. There you will recieve further orders."`
 			choice
 				`	(Accept)`
-					accept
+					goto accept
 				`	"I don't care what consequences you give me, I'm not going!"`
 					goto decline
 
 			label decline
 			action
 				"dels officer: bad officer" ++
+			decline
+			
+			label accept
+			branch escort
+				random < 20
+			label patrol
+			action
+				"Dels Officer: Patrol Mission" ++
+			accept
+			goto end
+			label escort
+			action
+				"Dels Officer: Escort Mission" ++
+			accept
+
 	on fail
 		"dels officer: bad officer" ++
 	on abort
@@ -738,17 +759,6 @@ mission "Dels Officer: Report to Delro"
 		#Cap the factor to 25 to avoid mission not offering again if done for 30 times.
 		#So minimal chance of offering is 5%
 		"Dels Officer: report complete" <?= 25
-		conversation # so you can use branches
-			branch escort
-				random < 20
-			label patrol
-			action
-				"Dels Officer: Patrol Mission" ++
-			goto end
-			label escort
-			action
-				"Dels Officer: Escort Mission" ++
-			label end
 
 #mission "Dels Officer: Participate in defense"
 #	landing
@@ -824,7 +834,7 @@ mission "Dels Officer: Patrol Systems"
 		"dels officer: bad officer" ++
 	on complete
 		payment 50000
-		dialog `Officer <first>, thank you for realizing your role in the Kaote Navy. The commander have authorized <payment> bonus for completing this mission.`
+		dialog `You receive a message reading, "Officer <first>, thank you for realizing your role in the Kaote Navy. The commander have authorized <payment> bonus for completing this mission."`
 
 mission "Dels Officer: Escort Convoy"
 	landing
@@ -843,11 +853,43 @@ mission "Dels Officer: Escort Convoy"
 		clear "dels officer: report mission available"
 		clear "Dels Officer: Escort Mission"
 		conversation
-			`One you have landed, a Dels commander comes and gives you a data pad with instructions. It reads, "Officer <first>, you must escort a convoy to <destination> in order to assist those living there."`
-			`	You prepare to launch.`
+			`Once you have landed, a Dels commander comes up to you and says, "Officer <first>, you must escort a small convoy of three Manoons to <destination> in order to help the people there recover from a recent raid. The ships are in the military priority docking."`
+			`	You get back to your ship and prepare for the mission.`
 				accept
 	on abort
 		"dels officer: bad officer" ++
+
+	npc
+		government "Dels Ufulre"
+		to spawn
+			"random" < 50
+		personality
+			confusion 30
+			plunders harvests
+		fleet "Dels Ufulre Patrol"
+		system
+			near Alkurud 0 1
+
+	npc
+		government "Dels Ufulre"
+		to spawn
+			"random" < 20
+		personality
+			confusion 30
+			plunders harvests
+		fleet "Dels Ufulre Patrol"
+		system
+			near Alkurud 0 1
+
+	npc
+		government "Dels Ufulre"
+		to spawn
+			"random" < 40
+		personality
+			confusion 30
+			plunders harvests
+		fleet "Dels Ufulre Patrol"
+		system destination
 
 	npc accompany save
 		government "Dels Kaote"
@@ -855,14 +897,14 @@ mission "Dels Officer: Escort Convoy"
 			confusion 10
 			opportunistic frugal escort
 		fleet
- 			names "Dels civillian" # I saw no names
+ 			names "Dels civillian"
 
  			cargo 3
  			variant
  				"Dels Manoon" 3
 	on complete
 		payment 80000
-		dialog `Officer <first>, thank you for realizing your role in the Kaote Navy. The commander have authorized <payment> bonus for completing this mission.`
+		dialog `You receive a message reading, "Officer <first>, thank you for realizing your role in the Kaote Navy. The commander have authorized <payment> bonus for completing this mission."`
 
 
 #
