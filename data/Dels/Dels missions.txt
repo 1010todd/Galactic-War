@@ -807,7 +807,8 @@ mission "Dels Officer: Patrol Systems"
 	waypoint
 		government "Dels Kaote" Dels
 		near Alkurud 0 2
-	description `You must patrol <stopovers> to check for Ufulre activity.`
+	description `You must patrol <stopovers> to check for Ufulre activity then return to <origin> to report.`
+
 	to offer
 		has "dels officer: report mission available"
 		has "Dels Officer: Patrol Mission" # In testing, I had a stack of these but it only offered once.
