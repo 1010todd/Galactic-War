@@ -720,10 +720,11 @@ mission "Dels Officer: Report to Delro"
 			`As your ship sinks through the atmosphere of <planet>, your communicator buzzes.`
 			`	The message reads, "Officer <first>, you are required to go to <destination> by <date>. There you will recieve further orders."`
 			choice
-				`(Accept)`
+				`	(Accept)`
 					accept
-				`"I don't care what consequences you give me, I'm not going!"`
+				`	"I don't care what consequences you give me, I'm not going!"`
 					goto decline
+
 			label decline
 			action
 				"dels officer: bad officer" ++
