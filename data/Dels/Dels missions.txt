@@ -909,6 +909,8 @@ mission "Dels Officer: Escort Convoy"
 	on complete
 		payment 80000
 		dialog `You receive a message reading, "Officer <first>, thank you for realizing your role in the Kaote Navy. The commander have authorized <payment> bonus for completing this mission."`
+	on visit
+		dialog phrase "generic arrived-without-npc dialog"
 
 
 #
