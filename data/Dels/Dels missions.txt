@@ -742,7 +742,8 @@ mission "Dels Officer: Report to Delro"
 			action
 				"Dels Officer: Patrol Mission" ++
 			accept
-			goto end
+
+
 			label escort
 			action
 				"Dels Officer: Escort Mission" ++
