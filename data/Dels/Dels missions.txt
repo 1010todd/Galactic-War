@@ -879,6 +879,8 @@ mission "Dels Officer: Escort Convoy"
 		government "Dels Ufulre"
 		to spawn
 			"random" < 20
+			"armament deterrence" > 12
+
 		personality
 			confusion 30
 			plunders harvests
