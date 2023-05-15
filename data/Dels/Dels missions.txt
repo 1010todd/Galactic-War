@@ -830,7 +830,8 @@ mission "Dels Officer: Patrol Systems"
 		clear "dels officer: report mission available"
 		clear "Dels Officer: Patrol Mission"
 		conversation
-			`One you have landed, a Dels commander comes up and says, "Officer <first>, you must patrol <waypoints> to check on Ufulre activity, then return to <origin>."`
+			`One you have landed, a Dels commander comes up and says, "Officer <first>, you must patrol <waypoints> to check on Ufulre activity. After you're done return to <origin>."`
+
 			`	You get back to your ship and prepare for the mission.`
 
 				accept
