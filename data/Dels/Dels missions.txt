@@ -721,10 +721,9 @@ mission "Dels Officer: Report to Delro"
 		not "Dels Officer: Report to Delro: active"
 	on offer
 		conversation
-			`As your ship sinks through the atmosphere of <planet>, your communicator buzzes.`
-			choice
-				`	(Open it)`
-			`	The message reads, "Officer <first>, you are required to go to <destination> by <date>. There you will recieve further orders."`
+			`As your ship sinks through the atmosphere of <planet>, your communicator buzzes notifying you there's a message from the navy command. You open it.`
+			`	The message reads, "Officer <first>, you are required to go to <destination> by <date>. There you will receive further orders."`
+
 			choice
 				`	(Accept)`
 					goto accept
