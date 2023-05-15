@@ -711,7 +711,6 @@ mission "Dels Officer: Report to Delro"
 		near Vobeelee 1 10
 	to offer
 		"random" < 30 - "Dels Officer: report complete"  # You get called less frequently over time
-
 		has "GW Dels start: officer"
 		or
 			"ships: Interceptor" > 0
