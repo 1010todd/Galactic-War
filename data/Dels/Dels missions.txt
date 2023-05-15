@@ -749,7 +749,9 @@ mission "Dels Officer: Report to Delro"
 			label escort
 			action
 				"Dels Officer: Escort Mission" ++
-			accept
+			``
+				accept
+
 
 	on fail
 		"dels officer: bad officer" ++
