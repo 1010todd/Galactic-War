@@ -741,7 +741,9 @@ mission "Dels Officer: Report to Delro"
 			label patrol
 			action
 				"Dels Officer: Patrol Mission" ++
-			accept
+			``
+				accept
+
 
 
 			label escort
