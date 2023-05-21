@@ -732,7 +732,9 @@ mission "Dels Officer: Report to Delro"
 			label decline
 			action
 				"dels officer: bad officer" ++
-			decline
+			``
+				decline
+
 			
 			label accept
 			branch escort
