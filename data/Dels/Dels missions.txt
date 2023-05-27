@@ -738,7 +738,7 @@ mission "Dels Officer: Report to Delro"
 			
 			label accept
 			branch escort
-				random < 20
+				random < 50
 			label patrol
 			action
 				"Dels Officer: Patrol Mission" ++
