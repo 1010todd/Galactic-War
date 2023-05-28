@@ -705,7 +705,8 @@ mission "Dels Officer: Report to Delro"
 	repeat
 	landing
 	deadline
-	description `You have been ordered to go to <destination> for an assignment.`
+	description `You have been ordered to go to <destination> for an assignment. You must reach <planet> by <date>.`
+
 	destination Delro # maybe have different important systems to report to
 	source
 		near Vobeelee 1 10
