@@ -867,7 +867,8 @@ mission "Dels Officer: Escort Convoy"
 		conversation
 			`Once you have landed, a Dels commander comes up to you and says, "Officer <first>, you must escort a small convoy of three Manoons to <destination> in order to help the people there recover from a recent raid. The ships are currently parked inside navy hangar 5 and will be ready to launch in an hour."`
 
-			`	You get back to your ship and prepare for the mission.`
+			`	You went to check the freighters you're escorting and agree on the time to launch with the captains then back to your ship and prepare for the mission.`
+
 				accept
 	on abort
 		"dels officer: bad officer" ++
