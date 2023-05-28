@@ -906,7 +906,8 @@ mission "Dels Officer: Escort Convoy"
 
 	npc accompany save
 		government "Dels Kaote"
-		personaility
+		personality
+
 			confusion 10
 			opportunistic frugal escort
 		fleet
