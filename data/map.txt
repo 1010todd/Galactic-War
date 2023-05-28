@@ -114392,6 +114392,7 @@ planet Daskavee
 	description "Most towns and cities sits close along the side of the river like the days before horse and carts. Probably due to more fertile ground for farms and orchards. Factories and such are placed on barren land on the other side of the mountains."
 	spaceport "Landing pads are built in steps along the side of mountains with control tower at the peak nearby. Large shipyard is located next to the spaceport on the other side of the mountains building one of the largest ships designed by the Dels. The cities and spaceport are connected by both roads and rails but rails seems to be the preferred method for most visitors."
 	shipyard "Dels Advanced"
+	shipyard "Dels Derkeela Advanced"
 	outfitter "Dels Advanced"
 	bribe 0.5
 
@@ -114429,6 +114430,7 @@ planet Delro
 	description "Few islands on this largely oceanic planet lack development or habitation of some sort, though similarly few are linked by any sort of road network. For such an evidently large population, some other manner of transport must be utilized."
 	spaceport "The spaceport you've settled in at lays a mild distance from one of the larger city-islands, and its triangular structure forms a veritable island in its own right. With an enormous triangular building serving as the main traffic hub, the remainder of the artificial island has been split into three sections, each designated to a particular class of ship."
 	shipyard "Dels Advanced"
+	shipyard "Dels Puda Der Advanced"
 	outfitter "Dels Advanced"
 	"required reputation" 1
 	security 0.9
@@ -114736,6 +114738,7 @@ planet Doniti
 	description "This appears to be a large commute hub for the outward sector of Dels space. Large warehouse and cargo vehicles are somewhat more common here than most other places."
 	spaceport "Right next to the spaceport is several large busy warehouses."
 	shipyard "Dels Basic"
+	shipyard "Dels Derkeela Advanced"
 	outfitter "Dels Standard"
 
 planet Donto
@@ -114784,6 +114787,7 @@ planet Dukoreda
 	spaceport "The spaceport appears to be the oldest building in the area and skyscrapers are being built everywhere. This planet also appears to be the home to a very large shipyard that is always active day or night."
 	shipyard "Dels Advanced"
 	shipyard "Dels Dardornai Advanced"
+	shipyard "Dels Leeris Nai Advanced"
 	outfitter "Dardornai Advanced"
 	outfitter "Dels Advanced"
 
@@ -114818,6 +114822,7 @@ planet Ea'rae
 	description .
 	spaceport .
 	shipyard "Dels Advanced"
+	shipyard "Dels Puda Der Advanced"
 	outfitter "Dels Basic"
 	bribe 0.3
 
@@ -114901,6 +114906,7 @@ planet Elredel
 	description "Sparsely populated with small settlements scattered here and there, most appear to be pre-built houses and facilities with a field of solar panels deployed next to it. "
 	spaceport "Around the spaceport is the only city on the planet and is still under constant expansion. Though, the height of buildings here rarely exceed 4 story. "
 	shipyard "Dels Basic"
+	shipyard "Dels Leeris Nai Intermediate"
 	outfitter "Dels Basic"
 
 planet Eluhelqur
@@ -114946,6 +114952,7 @@ planet Ereata
 	description .
 	spaceport .
 	shipyard "Dels Advanced"
+	shipyard "Dels Puda Der Intermediate"
 	outfitter "Dels Basic"
 	bribe 0.9
 	security 0.7
@@ -115593,6 +115600,7 @@ planet Ka'erie
 	description .
 	spaceport .
 	shipyard "Dels Advanced"
+	shipyard "Dels Puda Der Advanced"
 	outfitter "Dels Advanced"
 	"required reputation" 1
 	bribe 0.2
@@ -115830,6 +115838,7 @@ planet Keuluqen
 	description "A hot and dry planet."
 	spaceport "Most of the population on this planet lives underground due to immerse heat during the day."
 	shipyard "Dels Basic"
+	shipyard "Dels Leeris Nai Intermediate"
 	outfitter "Dels Basic"
 	outfitter "Ignaggen Basic"
 
@@ -115838,6 +115847,7 @@ planet Kevolur
 	description "This planet is home to several million Dels spread among a dozen cities along the foot of a mountian range. Scattered remains of old alien cities and artifacts are also present with most hidden by hills and trees. "
 	spaceport "The spaceport was dug into the mountains in steps like stairs with the control tower built on the peak of the mountain. "
 	shipyard "Dels Advanced"
+	shipyard "Dels Puda Der Intermediate"
 	outfitter "Dels Basic"
 
 planet Kier
@@ -116699,6 +116709,8 @@ planet Makeele
 	landscape land/sky5
 	description .
 	spaceport .
+	shipyard "Dels Puda Der Intermediate"
+	shipyard "Dels Standard"
 
 planet "Makilre Iskel"
 	landscape land/fog3
@@ -117063,6 +117075,7 @@ planet Neaivudel
 	spaceport .
 	shipyard "Dels Basic"
 	shipyard "Dels Dardornai Advanced"
+	shipyard "Dels Leeris Nai Advanced"
 	outfitter "Dardornai Advanced"
 	outfitter "Dels Advanced"
 
@@ -118003,8 +118016,9 @@ planet Sonan
 planet Sonde
 	attributes Dels
 	landscape "land/gw mountainforestfogA11"
-	description .
+	description `Sonde is a humid Earth-like world which started off as farming world. Likely due to it being habitable with minimal terraforming and proximity to Dels homeplanet it is one of the more populous planet in Dels space with several large cities around the planet and most of the surface explored.`
 	spaceport .
+	shipyard "Dels Puda Der Intermediate"
 	outfitter "Dels Basic"
 	bribe 0.4
 	security 0.5
@@ -118368,6 +118382,7 @@ planet Vetlorui
 	description "This planet appears to be a trading hub with freighters of Dels and Ignaggen come and go all the time. Also a popular place for Ignaggen that want to experience Dels urban architecture."
 	spaceport "The spaceport is crowded with individuals from both races living in harmony."
 	shipyard "Dels Basic"
+	shipyard "Dels Puda Der Intermediate"
 	outfitter "Dels Basic"
 
 planet Veulreenu
@@ -118394,6 +118409,7 @@ planet Vielukeera
 	description .
 	spaceport .
 	shipyard "Dels Basic"
+	shipyard "Dels Leeris Nai Intermediate"
 	outfitter "Dels Basic"
 
 planet Viengalle

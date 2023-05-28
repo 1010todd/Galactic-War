@@ -292,7 +292,7 @@ ship "Dels Manoon"
 	thumbnail "thumbnail/dels manoon thumb"
 	attributes
 		category "Light Freighter"
-		"cost" 430000
+		"cost" 630000
 		"shields" 1100
 		"hull" 860
 		"required crew" 3
@@ -343,13 +343,13 @@ ship "Dels Eudaion"
 	thumbnail "thumbnail/dels eudaion thumb"
 	attributes
 		category "Heavy Freighter"
-		"cost" 430000
+		"cost" 1630000
 		"shields" 7600
 		"hull" 3800
 		"required crew" 6
 		"bunks" 12
 		"mass" 600
-		"drag" 1.7
+		"drag" 11.7
 		"heat dissipation" .7
 		"fuel capacity" 800
 		"cargo space" 240
@@ -402,6 +402,74 @@ ship "Dels Eudaion"
 	explode "tiny explosion" 20
 	explode "small explosion" 12
 	description "As Dels colony expands further, Eudaion was released to satisfy the need for long range freighter."
+
+ship "Dels Melduklar"
+	sprite "ship/mgf melduklar"
+	thumbnail "thumbnail/mgf melduklar thumb"
+	attributes
+		category "Heavy Freighter"
+		"cost" 2200000
+		"shields" 6400
+		"hull" 4500
+		"required crew" 8
+		"bunks" 16
+		"mass" 760
+		"drag" 11.4
+		"heat dissipation" .5
+		"fuel capacity" 6000
+		"ramscoop" 8
+		"cargo space" 20
+		"outfit space" 290
+		"weapon capacity" 130
+		"engine capacity" 120
+		weapon
+			"blast radius" 140
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Dakte-1 Launcher" 2
+		"Dakte-1 Missile" 80
+		"Ganoau Anti-Missile"
+		"Skue-6 Turret" 2
+		
+		"Farlu Fuel Cell"
+		"K0108 Battery Pack"
+		"Hiavee Shield Generator"
+		
+		"Kuar Ion Engines"
+		"Hyperdrive"
+		
+	gun -54 -141 
+	gun 54 -141 
+	gun -54 -141 
+	gun 54 -141 
+	turret -32 109.5 
+	turret 32 109.5 
+	turret 0 134.5 
+	engine -31 168 
+		zoom .8
+	engine 31 168 
+		zoom .8
+	engine 0 173.5 
+	bay "Fighter" -58 100.5 
+		angle 90
+	bay "Fighter" 58 100.5
+		angle -90
+	bay "Fighter" -58 100.5 
+		angle 90
+	bay "Fighter" 58 100.5
+		angle -90
+	leak "leak" 40 60
+	leak "flame" 60 120
+	leak "big leak" 50 30
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description `A newer design of Dels fuel tanker ship to supply convoys for long distance travels. Often used as alternative to long range freighters allow each freighter to dedicate more space for cargo. The Melduklar also comes with fighter bay for fuel-carrying fighters to assist in refuelling the fleet.`
+	description `The ship is also got built-in ramscoop to continuiously refill its fuel along the way.`
 
 #=================INTERCEPTOR
 ship "Dels Desin"

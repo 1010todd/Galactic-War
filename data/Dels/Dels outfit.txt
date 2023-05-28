@@ -404,9 +404,9 @@ outfit "Kotdar Cannon"
 		"fire effect" "kotdar fire"
 		"hit effect" "particle impact"
 		"inaccuracy" .5
-		"velocity" 60
+		"velocity" 30
 		"acceleration" -.01
-		"lifetime" 30
+		"lifetime" 60
 		"reload" 53
 		"firing energy" 80
 		"firing force" 10
@@ -433,9 +433,9 @@ outfit "Kotdar Turret" #HA1
 		"hit effect" "particle impact"
 		"inaccuracy" 1
 		"turret turn" 1.2
-		"velocity" 60
+		"velocity" 30
 		"acceleration" -.01
-		"lifetime" 30
+		"lifetime" 60
 		"reload" 55
 		"firing energy" 80
 		"firing force" 10

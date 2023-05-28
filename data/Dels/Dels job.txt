@@ -217,7 +217,7 @@ mission "Dels Long Range Bulk Delivery"
 		dialog phrase "generic cargo on visit"
 	on complete
 		payment
-		payment 12000
+		payment 12000 350
 		dialog phrase "generic cargo delivery payment"
 
 mission "Dels Large Bulk Delivery"
@@ -240,7 +240,7 @@ mission "Dels Large Bulk Delivery"
 		dialog phrase "generic cargo on visit"
 	on complete
 		payment
-		payment 12000
+		payment 12000 320
 		dialog phrase "generic cargo delivery payment"
 
 mission "Dels Long Range Large Bulk Delivery"
@@ -263,15 +263,15 @@ mission "Dels Long Range Large Bulk Delivery"
 		dialog phrase "generic cargo on visit"
 	on complete
 		payment
-		payment 18000
+		payment 18000 300
 		dialog phrase "generic cargo delivery payment"
 		
 mission "Dels Dardornai Transport Volunteers"
-	name "Passenger transport to <destination>"
+	name "Transport volunteers to <planet>"
 	job
 	repeat
 	deadline 
-	description "<passenger> Dels volunteers are joining the Dels Dardornai navy at <destination>, they have to arrive by <date>. Payment is <payment>."
+	description "<bunks> Dels volunteers are joining the Dels Dardornai navy at <destination>, they have to arrive by <date>. Payment is <payment>."
 	passengers 5 12
 	source
 		government "Dels" "Dels Kaote" "Dels Dardornai"
@@ -314,7 +314,7 @@ mission "Dels Dardornai Blockade Running"
 		"reputation: Dels Dardornai" += 2
 		"assisted dardornai" ++
 		payment
-		payment 18000
+		payment 18000 360
 		dialog `The locals were already waiting when you landed and quickly unload the cargo, one of them hands you <payment>.`
 		
 mission "Dels Dardornai Messenger"
@@ -338,7 +338,7 @@ mission "Dels Dardornai Messenger"
 	on complete
 		"assisted dardornai" ++
 		payment
-		payment 3400
+		payment 3400 250
 		dialog `You quickly find the local government and deliver them the message to them, they thank you and hands you <payment>.`
 		
 		
