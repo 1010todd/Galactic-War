@@ -743,7 +743,7 @@ mission "Dels Officer: Report to Delro"
 			action
 				"Dels Officer: Patrol Mission" ++
 			``
-				accept
+				goto end
 
 
 
@@ -751,8 +751,11 @@ mission "Dels Officer: Report to Delro"
 			action
 				"Dels Officer: Escort Mission" ++
 			``
-				accept
+				goto end
 
+			label end
+			`	You key in the destination and prepare your ship for the mission.`
+				accept
 
 	on fail
 		"dels officer: bad officer" ++
