@@ -718,6 +718,9 @@ mission "Dels Officer: Report to Delro"
 			"ships: Medium Warship" > 0
 			"ships: Heavy Warship" > 0
 		not "Dels Officer: Report to Delro: active"
+		not "Dels Officer: Patrol Systems: active"
+		not "Dels Officer: Escort Convoy: active"
+
 	on offer
 		conversation
 			`As your ship sinks through the atmosphere of <planet>, your communicator buzzes notifying you there's a message from the navy command. You open it.`
