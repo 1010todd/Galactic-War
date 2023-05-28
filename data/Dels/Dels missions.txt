@@ -698,6 +698,233 @@ mission "First Contact: Dels Ufulre"
 		conversation
 			`(First Contact: Dels Ufulre) (Under construction)`
 
+# Dels Officer: Missions
+
+mission "Dels Officer: Report to Delro"
+	name "Report to <destination>"
+	repeat
+	landing
+	deadline
+	description `You have been ordered to go to <destination> for an assignment. You must reach <planet> by <date>.`
+
+	destination Delro # maybe have different important systems to report to
+	source
+		near Vobeelee 1 10
+	to offer
+		"random" < 30 - "Dels Officer: report complete"  # You get called less frequently over time
+		has "GW Dels start: officer"
+		or
+			"ships: Interceptor" > 0
+			"ships: Light Warship" > 0
+			"ships: Medium Warship" > 0
+			"ships: Heavy Warship" > 0
+		not "Dels Officer: Report to Delro: active"
+		not "Dels Officer: Patrol Systems: active"
+		not "Dels Officer: Escort Convoy: active"
+
+	on offer
+		conversation
+			`As your ship sinks through the atmosphere of <planet>, your communicator buzzes notifying you there's a message from the navy command. You open it.`
+			`	The message reads, "Officer <first>, you are required to go to <destination> by <date>. There you will receive further orders."`
+
+			choice
+				`	(Accept)`
+					goto accept
+				`	"I don't care what consequences you give me, I'm not going!"`
+					goto decline
+
+			label decline
+			action
+				"dels officer: bad officer" ++
+			``
+				decline
+
+			
+			label accept
+			branch escort
+				random < 50
+			label patrol
+			action
+				"Dels Officer: Patrol Mission" ++
+			``
+				goto end
+
+
+
+			label escort
+			action
+				"Dels Officer: Escort Mission" ++
+			``
+				goto end
+
+			label end
+			`	You key in the destination and prepare your ship for the mission.`
+				accept
+
+	on fail
+		"dels officer: bad officer" ++
+	on abort
+		"dels officer: bad officer" ++
+	on complete
+		"dels officer: report mission available" = 1
+		"Dels Officer: report complete" += 1
+		#Cap the factor to 25 to avoid mission not offering again if done for 30 times.
+		#So minimal chance of offering is 5%
+		"Dels Officer: report complete" <?= 25
+
+#mission "Dels Officer: Participate in defense"
+#	landing
+#	repeat
+#	priority
+#	name `Drive off the Ufulre`
+#	source Delro
+#	destination
+#		government "Dels Kaote" Dels
+#		near Alkurud 0 2
+#	description `There is an Ufulre attack on <destination>. You must participate in driving it off.`
+#	to offer
+#		has "dels officer: report mission available"
+#	on offer
+#		clear "dels officer: report mission available"
+#		conversation
+#			`One you have landed, a Dels commander comes and gives you a data pad with instructions. It reads, "Officer <first>, you are requested for defense at <destination>. There is an Ufulre attack there."`
+#			`	You prepare to launch.`
+#				accept
+#	on abort
+#		"reputation: Dels Kaote" -= 1
+#		fine 10000
+#		dialog `Officer <first>, the Kaote Navy does not tolerate cowards. You will be fined 10,000 credits for this.`
+#
+#	npc evade
+#		government "Dels Ufulre"
+#		personality
+#			confusion 30
+#			plunders harvests target # no staying so they can flee
+#		fleet "Dels Ufulre Raid" 2
+#		system destination
+#
+#	npc
+#		government "Dels Kaote"
+#		personaility
+#			confusion 10
+#			heroic opportunistic frugal staying
+#		fleet "Dels Kaote"
+#		system destination
+#	on complete
+#		payment 100000
+#		dialog `Officer <first>, thank you for realizing your role in the Kaote Navy. The commander have authorized <payment> bonus for completing this mission.`
+
+mission "Dels Officer: Patrol Systems"
+	landing
+	repeat
+	name `Patrol systems`
+	source Delro
+	waypoint
+		government "Dels Kaote" Dels
+		near Alkurud 0 2
+	waypoint
+		government "Dels Kaote" Dels
+		near Alkurud 0 2
+	waypoint
+		government "Dels Kaote" Dels
+		near Alkurud 0 2
+	description `You must patrol <stopovers> to check for Ufulre activity then return to <origin> to report.`
+
+	to offer
+		has "dels officer: report mission available"
+		has "Dels Officer: Patrol Mission" # In testing, I had a stack of these but it only offered once.
+		not "Dels Officer: Escort Mission"
+	on offer
+		clear "dels officer: report mission available"
+		clear "Dels Officer: Patrol Mission"
+		conversation
+			`One you have landed, a Dels commander comes up and says, "Officer <first>, you must patrol <waypoints> to check on Ufulre activity. After you're done return to <origin>."`
+
+			`	You get back to your ship and prepare for the mission.`
+				accept
+
+	on abort
+		"dels officer: bad officer" ++
+	on complete
+		payment 50000
+		dialog `You receive a message reading, "Officer <first>, thank you for realizing your role in the Kaote Navy. The commander have authorized <payment> bonus for completing this mission."`
+
+mission "Dels Officer: Escort Convoy"
+	landing
+	repeat
+	name `Escort convoy`
+	source Delro
+	destination
+		government "Dels Kaote" Dels
+		near Alkurud 0 2
+	description `In order to assist the planets near Ufulre space, you must escort a convoy to <destination>.`
+	to offer
+		has "dels officer: report mission available"
+		has "Dels Officer: Escort Mission"
+	on offer
+		clear "dels officer: report mission available"
+		clear "Dels Officer: Escort Mission"
+		not "Dels Officer: Patrol Mission"
+		conversation
+			`Once you have landed, a Dels commander comes up to you and says, "Officer <first>, you must escort a small convoy of three Manoons to <destination> in order to help the people there recover from a recent raid. The ships are currently parked inside navy hangar 5 and will be ready to launch in an hour."`
+
+			`	You went to check the freighters you're escorting and agree on the time to launch with the captains then back to your ship and prepare for the mission.`
+
+				accept
+	on abort
+		"dels officer: bad officer" ++
+
+	npc
+		government "Dels Ufulre"
+		to spawn
+			"random" < 50
+			"armament deterrence" > 5
+		personality
+			confusion 30
+			plunders harvests
+		fleet "Dels Ufulre Patrol"
+		system
+			near Alkurud 0 1
+
+	npc
+		government "Dels Ufulre"
+		to spawn
+			"random" < 20
+			"armament deterrence" > 12
+		personality
+			confusion 30
+			plunders harvests
+		fleet "Dels Ufulre Patrol"
+		system
+			near Alkurud 0 1
+
+	npc
+		government "Dels Ufulre"
+		to spawn
+			"random" < 40
+		personality
+			confusion 30
+			plunders harvests
+		fleet "Dels Ufulre Patrol"
+		system destination
+
+	npc accompany save
+		government "Dels Kaote"
+		personality
+
+			confusion 10
+			opportunistic frugal escort
+		fleet
+ 			names "Dels civillian"
+ 			cargo 3
+ 			variant
+ 				"Dels Manoon" 3
+	on complete
+		payment 80000
+		dialog `You receive a message reading, "Officer <first>, thank you for realizing your role in the Kaote Navy. The commander have authorized <payment> bonus for completing this mission."`
+	on visit
+		dialog phrase "generic arrived-without-npc dialog"
+
 
 #
 # Debug Tools
