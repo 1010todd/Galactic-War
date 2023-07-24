@@ -718,6 +718,8 @@ mission "Dels Officer: Report to Delro"
 			"ships: Light Warship" > 0
 			"ships: Medium Warship" > 0
 			"ships: Heavy Warship" > 0
+			"ships: Superheavy" > 0
+			"ships: Utility" > 0 # though utility is not used as much
 		not "Dels Officer: Report to Delro: active"
 		not "Dels Officer: Patrol Systems: active"
 		not "Dels Officer: Escort Convoy: active"
@@ -924,6 +926,44 @@ mission "Dels Officer: Escort Convoy"
 		dialog `You receive a message reading, "Officer <first>, thank you for realizing your role in the Kaote Navy. The commander have authorized <payment> bonus for completing this mission."`
 	on visit
 		dialog phrase "generic arrived-without-npc dialog"
+
+mission "Dels Officer: Bad Officer 1"
+	repeat
+	landing
+	to offer
+		"dels officer: bad officer" >= 10
+	on offer
+		fine 10000
+		"dels officer: demerit count" += "dels officer: bad officer"
+		"dels officer: bad officer" = 0
+		dialog `Suddenly, you recieve a message from navy command! It reads, "Officer <first>, we are highly disappointed in you, as you have received many demerits. Because of this, you are being fined 10,000 credits."`
+
+mission "Dels Officer: Bad Officer 2"
+	landing
+	to offer
+		"dels officer: demerit count" > 100
+	on offer
+		fine 100000
+		dialog `Suddenly, you recieve a message from navy command! It reads, "Officer <first>, you have over one hundered demerits. This is a great disapointment. Thus, you will be fined 100,000 credits."`
+
+mission "Dels Officer: Bad Officer 3"
+	landing
+	to offer
+		"dels officer: demerit count" > 500
+	on offer
+		fine 1000000
+		dialog `Suddenly, you recieve a message from navy command! It reads, "Officer <first>, you must STOP your infuriating behavior if you want to stay in the Kaote navy! As one final repirmand, you will be fined ONE MILLION credits."`
+
+mission "Dels Officer: Bad Officer Final"
+	landing
+	to offer
+		"dels officer: demerit count" >= 1000
+	on offer
+		"reputation: Dels Kaote" -= 10
+		clear "license: Dels Officer"
+		clear "GW: Dels start: officer"
+		dialog `Suddenly, you recieve a message from navy command! It reads, "Officer <first>, you are OUT of the Navy. You have tallied up a sum on one THOUSAND demerits even after repeated warnings. I repeat, you are FIRED!"`
+
 
 
 #
