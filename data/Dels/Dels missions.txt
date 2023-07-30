@@ -930,6 +930,7 @@ mission "Dels Officer: Escort Convoy"
 mission "Dels Officer: Bad Officer 1"
 	repeat
 	landing
+	invisible
 	to offer
 		"dels officer: bad officer" >= 10
 	on offer
@@ -940,6 +941,7 @@ mission "Dels Officer: Bad Officer 1"
 
 mission "Dels Officer: Bad Officer 2"
 	landing
+	invisible
 	to offer
 		"dels officer: demerit count" > 100
 	on offer
@@ -948,6 +950,7 @@ mission "Dels Officer: Bad Officer 2"
 
 mission "Dels Officer: Bad Officer 3"
 	landing
+	invisible
 	to offer
 		"dels officer: demerit count" > 500
 	on offer
@@ -956,6 +959,7 @@ mission "Dels Officer: Bad Officer 3"
 
 mission "Dels Officer: Bad Officer Final"
 	landing
+	invisible
 	to offer
 		"dels officer: demerit count" >= 1000
 	on offer
