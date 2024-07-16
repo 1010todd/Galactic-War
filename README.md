@@ -1,5 +1,5 @@
 # Galactic-War
-This is a repository for the Endless Sky mod "Galactic War."
+This is a repository for the Endless Sky mod "Galactic War".
 The mod is currently in development stage, so many things are subject to change later on.
 
 Currently the mod requires Endless Sky version 0.9.15+ to work properly.
@@ -13,7 +13,7 @@ Currently the plugin consist of:
 
 * 1 Accessible galaxy.
 
-* 26+ races with their own ships and outfits. Some with unique mechanics such as territory changes or they can even hunt you down depending on your interactions with them.
+* 26+ Races with their own ships and outfits. Some with unique mechanics such as territory changes or they can even hunt you down depending on your interactions with them.
 
 * Over 100 Ships,
 
