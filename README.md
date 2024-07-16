@@ -13,7 +13,7 @@ Currently the plugin consist of:
 
 * 1 Accessible galaxy.
 
-* 26+ Races with their own ships and outfits. Some with unique mechanics such as territory changes or they can even hunt you down depending on your interactions with them.
+* 27 Races with their own ships and outfits. Some with unique mechanics such as territory changes or they can even hunt you down depending on your interactions with them.
 
 * Over 100 Ships,
 
