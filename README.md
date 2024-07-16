@@ -7,7 +7,7 @@ Currently the mod requires Endless Sky version 0.9.15+ to work properly.
 ![GWcap2](https://user-images.githubusercontent.com/19187937/152830096-35d610a9-1fde-46a0-b4b8-694035cab411.PNG)
 
 ## About
-This is a massive content mod about a war in another galaxy. While no storyline exists yet there is a large galaxy to explore, which is filled with various aliens that have different advancements and specializations.
+This is a massive content mod about a war in another galaxy. While no storyline exists yet, there is a large galaxy to explore, filled with various aliens that have different advancements and specializations.
 
 Currently the plugin consist of:
 
