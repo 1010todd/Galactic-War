@@ -327,7 +327,7 @@ government Ultaka
 	language Ultaka
 	"bribe" 0
 
-government Ultaka(Mega)
+government "Ultaka (Mega)"
 	color 0.17 0.090000004 0.059999999
 	"player reputation" -1000
 	"crew attack" 251
@@ -336,14 +336,14 @@ government Ultaka(Mega)
 		"Pug" -0.1
 		"Revos" -0.1
 		"Taroun" -0.2
-		"Ultaka(Alrul)" 10
+		"Ultaka (Alrul)" 10
 		"Ultaka" 1
 		"ZIS" -0.2
 	"default attitude" -0.01
 	language Ultaka
 	"bribe" 0
 
-government Ultaka(Alrul)
+government "Ultaka (Alrul)"
 	color 0.17 0.090000004 0.059999999
 	"player reputation" -1000
 	"crew attack" 3000
@@ -352,7 +352,7 @@ government Ultaka(Alrul)
 		ZIS -0.1
 		Wallagi -0.01
 		Ultaka 1
-		Ultaka(Mega) 1
+		"Ultaka (Mega)" 1
 	language Ultaka
 	"bribe" 0
 
@@ -508,13 +508,13 @@ government "Ultaka Alrul (Omnis)"
 	fine 0
 
 government "Ultaka Mega (Omnis)"
-	"display name" "Ultaka(Mega)"
+	"display name" "Ultaka (Mega)"
 	color 1 1 1
 	"player reputation" -1
 	fine 0
 
 government "Ultaka Neurn (Omnis)"
-	"display name" "Ultaka(Neurn)"
+	"display name" "Ultaka (Neurn)"
 	color 1 1 1
 	"player reputation" -1
 	fine 0
