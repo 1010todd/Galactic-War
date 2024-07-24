@@ -213,7 +213,7 @@ mission "Ultaka Saska: Ultaka Hunt Player III"
 				"armament deterrence" >= 15000
 		"reputation: Ultaka" <= -10000
 	npc kill
-		government "Ultaka (Mega)"
+		government "Ultaka(Mega)"
 		personality
 			vindictive target entering
 		system
@@ -233,7 +233,7 @@ mission "Ultaka Saska: Ultaka Hunt Player IV"
 				"armament deterrence" >= 15000
 		"reputation: Ultaka" <= -15000
 	npc kill
-		government "Ultaka (Mega)"
+		government "Ultaka(Mega)"
 		personality
 			vindictive target entering
 		system
@@ -253,7 +253,7 @@ mission "Ultaka Saska: Ultaka Hunt Player V"
 				"armament deterrence" >= 20000
 		"reputation: Ultaka" <= -19000
 	npc kill
-		government "Ultaka (Mega)"
+		government "Ultaka(Mega)"
 		personality
 			vindictive target entering unconstrained
 		system
@@ -295,7 +295,7 @@ mission "Ultaka Saska: Ultaka Hunt Player VIII"
 				"armament deterrence" >= 20000
 		"reputation: Ultaka" <= -15000
 	npc kill
-		government "Ultaka (Alrul)"
+		government "Ultaka(Alrul)"
 		personality
 			nemesis vindictive target entering unconstrained
 		system
@@ -315,7 +315,7 @@ mission "Ultaka Saska: Ultaka Hunt Player IX"
 				"armament deterrence" >= 20000
 		"reputation: Ultaka" <= -25000
 	npc kill
-		government "Ultaka (Alrul)"
+		government "Ultaka(Alrul)"
 		personality
 			nemesis vindictive target entering unconstrained
 		system
@@ -335,7 +335,7 @@ mission "Ultaka Saska: Ultaka Hunt Player X"
 				"armament deterrence" >= 20000
 		"reputation: Ultaka" <= -32000
 	npc kill
-		government "Ultaka (Alrul)"
+		government "Ultaka(Alrul)"
 		personality
 			nemesis vindictive target entering unconstrained
 		system
@@ -360,7 +360,7 @@ mission "Ultaka Saska: Ultaka Hunt Player EX"
 				"flagship bunks" == 10000
 		"reputation: Ultaka" <= -32000
 	npc kill
-		government "Ultaka (Alrul)"
+		government "Ultaka(Alrul)"
 		personality
 			nemesis vindictive target entering unconstrained
 		system
@@ -380,7 +380,7 @@ mission "Ultaka Saska: Ultaka Hunt Player XI"
 				"armament deterrence" >= 24000
 		"reputation: Ultaka" <= -37000
 	npc kill
-		government "Ultaka (Alrul)"
+		government "Ultaka(Alrul)"
 		personality
 			nemesis vindictive target entering unconstrained
 		system
@@ -464,8 +464,8 @@ mission "gw: revert ultaka aggression" #Todo :event to revert fleet spawn in Sas
 		fail "Ultaka Saska: Ultaka Hunt Player EX"
 		fail "Ultaka Saska: Ultaka Hunt Player XI"
 		"reputation: Ultaka" = -1000
-		"reputation: Ultaka (Mega)" = -1000
-		"reputation: Ultaka (Alrul)" = -1000
+		"reputation: Ultaka(Mega)" = -1000
+		"reputation: Ultaka(Alrul)" = -1000
 
 
 mission "gw: reset ultaka death threats [1]"
