@@ -820,6 +820,51 @@ ship "Dels Deeris"
 	explode "small explosion" 40
 	description "Heavily armed attack craft designed and manufactured by Leeris Nai Shipworks specifically targeting Dardornai commanders who prefer ships with heavy firepower but carry less logistic burden of shell-using weapons."
 
+ship "Dels Senvari"
+	plural "Dels Senvaries"
+	sprite "ship/dels senvari"
+	thumbnail "thumbnail/dels senvari thumb"
+	attributes
+		category "Light Warship"
+		"cost" 1400000
+		"shields" 1950
+		"hull" 900
+		"required crew" 2
+		"bunks" 6
+		"mass" 80
+		"drag" 1.1
+		"heat dissipation" .85
+		"fuel capacity" 800
+		"cargo space" 50
+		"outfit space" 320
+		"weapon capacity" 100
+		"engine capacity" 125
+		weapon
+			"blast radius" 20
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"Kotdar Cannon" 2
+		"Hilke Fuel Cell"
+		"K0538 Battery Pack"
+		"Dudae Shield Generator"
+		
+		"Kuar Ion Engines"
+		"Akuorai Afterburner"
+		"Type-F Hyperdrive"
+		"Dels Ramscoop"
+		
+	gun -12.0 -47.5
+	gun 12.0 -47.5
+	engine 12.5 26.0
+	engine -12.5 26.0
+	explode "medium explosion" 24
+	explode "large explosion" 10
+	explode "tiny explosion" 28
+	explode "small explosion" 40
+	description "High speed warship that is less of a warship and more of a ."
+
 #=================MEDIUM WARSHIP
 ship "Dels Uldeor"
 	sprite "ship/dels uldeor"
