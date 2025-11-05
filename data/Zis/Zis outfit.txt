@@ -236,15 +236,15 @@ outfit "MPa20Sb-04 Engines" #Nitro-Type4
 	"mass" 20
 	"outfit space" -20
 	"engine capacity" -20
-	"turn" 230
+	"turn" 345.000
 	"turning energy" 1
 	"turning heat" 4
-	"thrust" 12.5
+	"thrust" 18.750
 	"thrusting energy" 2
 	"thrusting heat" 6
 	"flare sprite" "effect/plasma flare/tiny"
 		"frame rate" 1.2
-	"afterburner thrust" 15.0
+	"afterburner thrust" 22.500
 	"afterburner energy" 4
 	"afterburner heat" 8
 	"afterburner effect" "afterburner"
@@ -258,15 +258,15 @@ outfit "MPa20Gp-02 Engines" #M-10
 	"mass" 20
 	"outfit space" -20
 	"engine capacity" -20
-	"turn" 200
+	"turn" 300.000
 	"turning energy" 1
 	"turning heat" 0
-	"thrust" 10.0
+	"thrust" 15.000
 	"thrusting energy" 2
 	"thrusting heat" 0.05
 	"flare sprite" "effect/ion flare/tiny"
 		"frame rate" 1.2
-	"reverse thrust" 8
+	"reverse thrust" 12.000
 	"reverse thrusting energy" 1.2
 	"reverse thrusting heat" .05
 	description "Zis standard small engine block found on fighters and other small ships alike."
@@ -278,15 +278,15 @@ outfit "MPa30Gp-02 Engines" #M-20
 	"mass" 30
 	"outfit space" -30
 	"engine capacity" -30
-	"turn" 400
+	"turn" 600.000
 	"turning energy" 2
 	"turning heat" .05
-	"thrust" 20.0
+	"thrust" 30.000
 	"thrusting energy" 4
 	"thrusting heat" 0.1
 	"flare sprite" "effect/ion flare/small"
 		"frame rate" 1.1
-	"reverse thrust" 18
+	"reverse thrust" 27.000
 	"reverse thrusting energy" 2.3
 	"reverse thrusting heat" .1
 	description "Zis standard engine block."
@@ -299,15 +299,15 @@ outfit "MPa60Gp-02 Engines" #M-80
 	"mass" 60
 	"outfit space" -60
 	"engine capacity" -60
-	"turn" 800
+	"turn" 1200.000
 	"turning energy" 8
 	"turning heat" 0.2
-	"thrust" 40.0
+	"thrust" 60.000
 	"thrusting energy" 16
 	"thrusting heat" 0.4
 	"flare sprite" "effect/ion flare/huge"
 		"frame rate" .9
-	"reverse thrust" 35
+	"reverse thrust" 52.500
 	"reverse thrusting energy" 12
 	"reverse thrusting heat" 20
 	description "Zis standard large engine block."
@@ -319,15 +319,15 @@ outfit "MPb12Gp-02 Engines" #M-80
 	"mass" 121
 	"outfit space" -121
 	"engine capacity" -121
-	"turn" 1500
+	"turn" 2250.000
 	"turning energy" 14
 	"turning heat" 0.4
-	"thrust" 81.0
+	"thrust" 121.500
 	"thrusting energy" 30
 	"thrusting heat" 0.4
 	"flare sprite" "effect/ion flare/huge"
 		"frame rate" .9
-	"reverse thrust" 70
+	"reverse thrust" 105.000
 	"reverse thrusting energy" 20
 	"reverse thrusting heat" 37
 	description "Zis standard huge engine block, found on large warships."
