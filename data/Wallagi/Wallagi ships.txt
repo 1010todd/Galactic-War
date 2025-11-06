@@ -201,7 +201,8 @@ ship "Sentasor"
 ship "Mecohni"
 	sprite "ship/wallagi mecohni"
 	attributes
-		category "Heavy Warship"
+		# category "Heavy Warship"
+		category "Superheavy"
 		"cost" 12000000000
 		"shields" 28200000
 		"hull" 6890000
